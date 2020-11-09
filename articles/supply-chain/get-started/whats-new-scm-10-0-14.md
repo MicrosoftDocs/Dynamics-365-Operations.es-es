@@ -1,5 +1,5 @@
 ---
-title: Obtener una vista preliminar de las características de Dynamics 365 Supply Chain Management, versión 10.0.14 (octubre de 2020)
+title: Novedades y cambios en Dynamics 365 Supply Chain Management (10.0.14 de octubre de 2020)
 description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.14.
 author: kamaybac
 manager: tfehr
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22d0dfb44bb999f466eca216e7390488fef33618
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: de159549da9ff8cbcdb69ae0e3131cd1726bc323
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763582"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4038118"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Características de vista previa en Dynamics 365 Supply Chain Management 10.0.14 (noviembre de 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.14 (noviembre de 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión preliminar 10.0.14. Esta versión tiene el número de compilación 10.0.605 y está disponible de la siguiente manera:
+En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.14. Esta versión tiene el número de compilación 10.0.605 y está disponible de la siguiente manera:
 
 - **Versión preliminar:** septiembre de 2020
 - **Disponibilidad general (actualización automática):** octubre de 2020
-- **Auto actualización**: noviembre de 2020
+- **Auto actualización** : noviembre de 2020
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 

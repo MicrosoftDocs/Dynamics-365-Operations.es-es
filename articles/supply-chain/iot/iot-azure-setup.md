@@ -1,7 +1,7 @@
 ---
 title: Configurar recursos de Azure para Inteligencia IoT
 description: Este tema explica cómo crear y configurar los recursos Microsoft Azure que necesita para Inteligencia IoT.
-author: ''
+author: robinarh
 manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bbac1676d28c7285c19ed48f77426a37ce123a29
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982903"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014921"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurar recursos de Azure para Inteligencia IoT
 
@@ -41,7 +41,7 @@ Para verificar que el id. de la aplicación de primera entidad Microsoft Dynamic
 1. Inicie sesión en el portal Azure en <https://portal.azure.com>.
 2. Ir a **Azure Active Directory**.
 3. Vaya a **Aplicaciones empresariales**.
-4. En el campo **Tipo de aplicacion**, seleccione **Aplicaciones de Microsoft**.
+4. En el campo **Tipo de aplicacion** , seleccione **Aplicaciones de Microsoft**.
 5. En el campo de búsqueda, introduzca **Microsoft Dynamics Microservicios ERP**.
 6. Verifique que **Microsoft Dynamics ERP Microservices** está en la lista. Otras aplicaciones tienen nombres similares. Por lo tanto, debe asegurarse de encontrar la aplicación correcta. El id. de la aplicación es **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 
@@ -61,8 +61,8 @@ Para crear un recurso de almacén de claves, siga estos pasos.
 
 1. En Azure Portal, cree o vaya a un grupo de recursos.
 2. Seleccione **Agregar**.
-3. En la página **Nuevo**, en el campo de búsqueda, introduzca **Almacén de claves**. Después seleccione **Crear**.
-4. En la página **Crear almacén de claves**, en el campo **Nombre de almacén de claves**, introduzca un nombre.
+3. En la página **Nuevo** , en el campo de búsqueda, introduzca **Almacén de claves**. Después seleccione **Crear**.
+4. En la página **Crear almacén de claves** , en el campo **Nombre de almacén de claves** , introduzca un nombre.
 5. Revise los valores predeterminados y luego seleccione **Revisar + crear**.
 6. Seleccione **Crear**.
 
@@ -74,8 +74,8 @@ Para crear un recurso de centro de IoT, siga estos pasos.
 
 1. Cree un grupo de recursos o vaya a él.
 2. Seleccione **Agregar**.
-3. En la página **Nuevo**, en el campo de búsqueda, introduzca **Centro de IoT**. Después seleccione **Crear**.
-4. En el campo **Nombre de centro de IoT**, introduzca un nombre.
+3. En la página **Nuevo** , en el campo de búsqueda, introduzca **Centro de IoT**. Después seleccione **Crear**.
+4. En el campo **Nombre de centro de IoT** , introduzca un nombre.
 5. Revise los valores predeterminados y luego seleccione **Revisar + crear**.
 6. Seleccione **Crear**.
 
@@ -90,7 +90,7 @@ Para crear un recurso de caché Redis, siga estos pasos.
 
 1. Cree un grupo de recursos o vaya a él.
 2. Seleccione **Agregar**.
-3. En la página **Nuevo**, en el campo de búsqueda, introduzca **Azure Cache para Redis**. Después seleccione **Crear**.
+3. En la página **Nuevo** , en el campo de búsqueda, introduzca **Azure Cache para Redis**. Después seleccione **Crear**.
 4. Introduzca un nombre en el campo **Nombre DNS**.
 5. Revise los valores predeterminados y luego seleccione **Crear**.
 
@@ -109,7 +109,7 @@ Para configurar el centro de IoT, siga estos pasos.
 
 1. En sus recursos, seleccione el recurso del centro de IoT.
 2. En el panel de navegación izquierdo, seleccione **Puntos finales incorporados**.
-3. En **Grupos de consumidores**, pegue los siguientes grupos de consumidores. Estos grupos de consumidores corresponden a los escenarios listos para usar.
+3. En **Grupos de consumidores** , pegue los siguientes grupos de consumidores. Estos grupos de consumidores corresponden a los escenarios listos para usar.
 
     + microsoft.dynamics.iotintelligence-1
     + microsoft.dynamics.iotintelligence-2
@@ -122,9 +122,9 @@ Para configurar el almacén de claves, siga estos pasos.
 1. En sus recursos, seleccione el recurso del almacén de claves.
 2. En el panel de navegación izquierdo, seleccione **Directivas de acceso**.
 3. Seleccione **Agregar una directiva de acceso**.
-4. En la página **Agregar directiva de acceso**, en el campo **Permisos secretos**, seleccione **Obtener** y **Lista**.
+4. En la página **Agregar directiva de acceso** , en el campo **Permisos secretos** , seleccione **Obtener** y **Lista**.
 5. Haga clic en **Seleccionar principal**.
-6. En el cuadro de diálogo **Principal**, busque y seleccione **Microsoft Dynamics ERP Microservices**. Luego, seleccione **Seleccionar**.
+6. En el cuadro de diálogo **Principal** , busque y seleccione **Microsoft Dynamics ERP Microservices**. Luego, seleccione **Seleccionar**.
 7. Seleccione **Agregar**.
 8. Seleccione **Guardar**.
 
@@ -141,7 +141,7 @@ Para guardar el secreto de la cadena de conexión del centro de IoT, siga estos 
 5. En el panel de navegación izquierdo, seleccione **Secretos**.
 6. Seleccione **Generar/Importar**.
 7. Escriba un nombre en el campo **Nombre**.
-8. En el campo **Valor**, pegue el valor del punto final que copió anteriormente.
+8. En el campo **Valor** , pegue el valor del punto final que copió anteriormente.
 9. Seleccione **Crear**.
 
 ### <a name="save-the-redis-cache-connection-string-secret"></a>Guardar el secreto de cadena de conexión de la caché Redis
@@ -155,7 +155,7 @@ Para guardar el secreto de la cadena de conexión de la caché Redis, siga estos
 5. En el panel de navegación izquierdo, seleccione **Secretos**.
 6. Seleccione **Generar/Importar**.
 7. Escriba un nombre en el campo **Nombre**.
-8. En el campo **Valor**, pegue la cadena de conexión que copió anteriormente.
+8. En el campo **Valor** , pegue la cadena de conexión que copió anteriormente.
 9. Seleccione **Crear**.
 
 > [!NOTE]

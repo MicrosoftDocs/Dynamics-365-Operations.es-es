@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fc5db8d04a2860df0c917816e2910c6fbda941ff
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f502519ba419cb8fa322eb1d22f06d2b805f5f05
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173163"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000743"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Jerarquía organizativa en Common Data Service
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Como Dynamics 365 Finance es un sistema financiero, *organización* es un concepto básico y la configuración del sistema empieza con la configuración de una jerarquía organizativa. Los operaciones empresariales se pueden seguir por tanto en el nivel de la organización y también en cualquier nivel de la jerarquía organizativa.
 
@@ -41,8 +38,6 @@ Aunque Common Data Service no tenga el concepto de una jerarquía organizativa, 
 Un ecosistema de negocio que conste de aplicaciones de Finance and Operations y Common Data Service seguirá teniendo una jerarquía organizativa. Esta jerarquía organizativa se basa en aplicaciones de Finance and Operations, pero se expone en Common Data Service para fines informativos y de extensibilidad. La ilustración siguiente muestra la información de la jerarquía organizativa expuesta en Common Data Service como un flujo de datos unidireccional de aplicaciones de Finance and Operations a Common Data Service.
 
 ![Imagen de la arquitectura](media/dual-write-data-flow.png)
-
-## <a name="templates"></a>Plantillas
 
 Los mapas de entidad de la jerarquía organizativa están disponibles para la sincronización unidireccional de datos de aplicaciones de Finance and Operations con Common Data Service.
 
@@ -55,10 +50,9 @@ Aplicaciones de Finance and Operations | Otras aplicaciones de Dynamics 365 | De
 Propósitos de jerarquía organizativa | msdyn_internalorganizationhierarchypurposes | Esta plantilla proporciona la sincronización unidireccional de la entidad de propósito de la jerarquía organizativa.
 Tipo de jerarquía organizativa | msdyn_internalorganizationhierarchytypes | Esta plantilla proporciona la sincronización unidireccional de la entidad de tipo de jerarquía organizativa.
 Jerarquía organizativa - publicada | msdyn_internalorganizationhierarchies | Esta plantilla proporciona la sincronización unidireccional de la entidad publicada de la jerarquía organizativa.
-Unidad operativa | msdyn_internalorganizations | 
-Entidades jurídicas | msdyn_internalorganizations | 
+Unidad operativa | msdyn_internalorganizations |
+Entidades jurídicas | msdyn_internalorganizations |
 Entidades jurídicas | cdm_companies | Proporciona la sincronización bidireccional de la información de la entidad jurídica (empresa).
-
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 
@@ -77,4 +71,3 @@ La información de la organización interna en Common Data Service se deriva de 
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-

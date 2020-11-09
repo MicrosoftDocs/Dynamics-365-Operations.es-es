@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383214"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018199"
 ---
 # <a name="create-a-purchase-return-order"></a>Creación de pedido de devolución de compra
 
@@ -32,9 +32,9 @@ Este procedimiento le muestra cómo crear un pedido de devolución de compras co
 ## <a name="create-a-new-purchase-return-order"></a>Crear un nuevo pedido de devolución de compras
 1. Vaya a **Panel de exploración, Módulos > Adquisición y abastecimiento > Pedidos de compra > Todos los pedidos de compra**. El primer paso es crear un nuevo pedido de compra para usarlo como el pedido de devolución de compra.  
 2. Haga clic en **Nuevo**.
-3. En el campo **Cuenta de proveedor**, escriba "US-102".
+3. En el campo **Cuenta de proveedor** , escriba "US-102".
 4. Haga clic en **Aceptar**.
-5. En el **Panel Acciones**, haga clic en **Compra**.
+5. En el **Panel Acciones** , haga clic en **Compra**.
 6. Haga clic en **Nota de abono**. Esta es la página desde la que puede copiar desde una factura de proveedor existente a su pedido de devolución. Esta es la misma página que se utiliza para otras acciones de copia. Sin embargo, como la abrimos desde la acción Nota de abono, la página se configura para admitir la creación de un pedido de devolución que compense facturas de proveedor.  
 7. Expanda la sección **Parámetros**.
     - La opción **Invertir el signo** se selecciona automáticamente y no se puede cambiar. Esto garantiza que el signo se cambia para las cantidades y que las líneas de pedido que se agreguen compensarán la factura de proveedor.  
@@ -47,7 +47,7 @@ Este procedimiento le muestra cómo crear un pedido de devolución de compras co
 10. Localice la factura de proveedor identificada por el número de factura AP-0006 y resalte esa línea haciendo clic en cualquier campo de esa línea.
 11. Para seleccionar la línea, haga clic en la casilla para la línea. Observe que las líneas disponibles en la factura de proveedor se seleccionan automáticamente junto con el pedido. Esta factura de proveedor concreta tiene 2 líneas de pedido. Para este ejemplo, devolveremos parte de la cantidad de la segunda línea.
 12. Para resaltar la segunda línea (la que está con el artículo M0006), haga clic en cualquier campo de esa línea.
-13. En el campo **Cantidad**, cambie la cantidad a 10. Esta es la cantidad que devolveremos al proveedor. 
+13. En el campo **Cantidad** , cambie la cantidad a 10. Esta es la cantidad que devolveremos al proveedor. 
 14. Para resaltar la primera línea (la que está con el artículo M0005), haga clic en cualquier campo de esa línea.
 15. Desactive la casilla para la línea. Solo las líneas que ha seleccionado se copiarán en su pedido.
 16. Contraiga la sección **Facturas**.
@@ -61,10 +61,10 @@ Este procedimiento le muestra cómo crear un pedido de devolución de compras co
 
 ## <a name="confirm-and-record-the-shipment-of-goods"></a>Confirmar y registrar el envío de mercancías
 1. Haga clic en **Acciones > confirmar**.
-2. En el **Panel Acciones**, haga clic en **Recibir**.
+2. En el **Panel Acciones** , haga clic en **Recibir**.
 3. Haga clic en **Recepción de producto.**
     - Esta página se utiliza para registrar la recepción de producto para pedidos de compra y también para procesar la devolución de las mercancías al proveedor. Las líneas de pedido con una cantidad negativa significa que se tienen que devolver al proveedor y que el documento que se puede generar de esta página se puede utilizar como albarán para este uso.   
-    - En el campo **Cantidad**, seleccione la Cantidad pedida para este ejemplo. Esto garantiza que el envío se procesará para la cantidad pedida completa con la que se crearon las líneas de pedido.   
-4. En el campo **Recepción de producto**, escriba un valor. Este campo se utiliza para especificar una referencia que se usará como asiento para el diario de recepción de productos.  
+    - En el campo **Cantidad** , seleccione la Cantidad pedida para este ejemplo. Esto garantiza que el envío se procesará para la cantidad pedida completa con la que se crearon las líneas de pedido.   
+4. En el campo **Recepción de producto** , escriba un valor. Este campo se utiliza para especificar una referencia que se usará como asiento para el diario de recepción de productos.  
 5. Haga clic en **Aceptar**. Las mercancías se han registrado ahora como enviadas en el pedido de devolución de compras y se ha creado un diario de recepción de producto. Puede utilizar la acción Recepción de producto para revisar los diarios creados con el pedido de compra y ver qué se ha recibido o devuelto, y cuándo.  
 

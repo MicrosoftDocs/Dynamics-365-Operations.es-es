@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
+ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203420"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018661"
 ---
 # <a name="onboard-vendors"></a>Incorporación de proveedores
+
 [!include [banner](../includes/banner.md)]
 
 ---
@@ -32,7 +33,7 @@ Los nuevos proveedores pueden incorporarse y registrarse como proveedores en Mic
 
 El proceso consta de los siguientes pasos, donde los distintos roles realizan acciones en el sistema.
 
-1. **Administración de datos OData**: Importación de la entidad - la solicitud inicial es la solicitud de registro del proveedor potencial. Normalmente, esta solicitud procede de un origen como una página Web cliente hospedado que permite acceso anónimo. Los proveedores pueden realizar la inscripción al proporcionar información básica, como el nombre del proveedor, la justificación, el número de organización y el nombre y la dirección de correo electrónico de la persona de contacto. Las solicitudes se importan mediante la interfaz de gestión de datos.
+1. **Administración de datos OData** : Importación de la entidad - la solicitud inicial es la solicitud de registro del proveedor potencial. Normalmente, esta solicitud procede de un origen como una página Web cliente hospedado que permite acceso anónimo. Los proveedores pueden realizar la inscripción al proporcionar información básica, como el nombre del proveedor, la justificación, el número de organización y el nombre y la dirección de correo electrónico de la persona de contacto. Las solicitudes se importan mediante la interfaz de gestión de datos.
 2. **Página de lista de la solicitud de registro del proveedor potencial** - Según la información que se ofrece en la solicitud de registro del proveedor potencial, el profesional de compras va a decidir si el proveedor debe incorporarse. El profesional de compras ve la petición entrante en la página de lista **Solicitudes de registro del proveedor potencial**.
 3. **Flujo de trabajo de abastecimiento de usuario** - Cuando un profesional de compras ha comprobado la información en la solicitud entrante y ha decidido continuar con el proceso de incorporación, el flujo de trabajo de la solicitud de usuario aprovisiona al nuevo usuario y envía un mensaje de correo electrónico de invitación para aceptar a la persona de contacto como usuario autenticado de Microsoft Dynamics 365.
 4. **Asistente de registro de proveedor** - la persona de contacto del proveedor inicia sesión mediante la nueva cuenta de usuario. Completa un asistente de registro de proveedor para proporcionar información como direcciones, información empresarial, categorías de compras y respuestas del cuestionario.
@@ -102,8 +103,8 @@ Para obtener más información acerca de la configuración de la solicitud del p
 | Información del proveedor         | Esta página contiene el nombre del proveedor, que se introduce automáticamente desde la solicitud original del registro del proveedor potencial. También contiene el número de organización, el número de teléfono del proveedor, el número de fax, la dirección de correo electrónico y direcciones del proveedor para distintos fines. |
 | Información de persona de contacto | Esta página contiene el nombre de la persona de contacto, que se introduce automáticamente desde la solicitud original del registro del proveedor potencial. También contiene el número de teléfono y la dirección de correo electrónico de la persona de contacto y direcciones de la persona de contacto para distintos fines. |
 | Información de la empresa       | Esta página contiene los números de registro de impuestos (para los diferentes países o regiones) y a los números de empleados. También indica si el negocio es de propiedad minoritaria. |
-| Categorías de compras     | Esta página contien las categorías de compras para las que el proveedor solicita aprobación. El usuario puede seleccionar categorías de la jerarquía de categorías de compras. Puede configurar el número de niveles que se muestran en la jerarquía en **Parámetros de adquisición y abastecimiento** &gt; **Colaboración del proveedor**, en &gt; **Adquisición y abastecimiento** **Configuración**. |
-| Cuestionarios             | El asistente puede incluir un conjunto de cuestionarios para el proveedor. Los cuestionarios que aparecen en el asistente se configuran en la solicitud del proveedor o por categoría de compras. Si los cuestionarios se configuran por categoría de compras, las categorías de compras para las que el proveedor solicita aprobación para determinar los cuestionarios que aparecen en el asistente. En la página **Categorías de compras**, puede agregar un cuestionario en la categoría relevante y establecer el tipo de actividad para la **Incorporación del proveedor**. |
+| Categorías de compras     | Esta página contien las categorías de compras para las que el proveedor solicita aprobación. El usuario puede seleccionar categorías de la jerarquía de categorías de compras. Puede configurar el número de niveles que se muestran en la jerarquía en **Parámetros de adquisición y abastecimiento** &gt; **Colaboración del proveedor** , en &gt; **Adquisición y abastecimiento** **Configuración**. |
+| Cuestionarios             | El asistente puede incluir un conjunto de cuestionarios para el proveedor. Los cuestionarios que aparecen en el asistente se configuran en la solicitud del proveedor o por categoría de compras. Si los cuestionarios se configuran por categoría de compras, las categorías de compras para las que el proveedor solicita aprobación para determinar los cuestionarios que aparecen en el asistente. En la página **Categorías de compras** , puede agregar un cuestionario en la categoría relevante y establecer el tipo de actividad para la **Incorporación del proveedor**. |
 
 Cuando el usuario del proveedor potencial completa el asistente de registro del proveedor, se crea una solicitud del proveedor.
 
@@ -111,7 +112,7 @@ Cuando el usuario del proveedor potencial completa el asistente de registro del 
 
 Una solicitud de proveedor se puede crear como borrador y enviar manualmente a un flujo de trabajo. O bien, la solicitud de proveedor se puede enviar automáticamente a un flujo de trabajo cuando el asistente de registro de proveedor esté completo. Una solicitud se puede enviar manualmente si, por ejemplo, un responsable de compras desea evaluar si la solicitud debe enrutarse a través de un proceso de aprobación antes de que haya enviado al flujo de trabajo.
 
-- Seleccione &gt; **Parámetros de la adquisición y abastecimiento** **Colaboración del proveedor**y, a continuación, seleccione **Enviar automáticamente el registro del proveedor potencial al flujo de trabajo** para configurar la solicitud del proveedor de modo que se envíe automáticamente a un flujo de trabajo cuando el asistente de registro de proveedor se complete.
+- Seleccione &gt; **Parámetros de la adquisición y abastecimiento** **Colaboración del proveedor** y, a continuación, seleccione **Enviar automáticamente el registro del proveedor potencial al flujo de trabajo** para configurar la solicitud del proveedor de modo que se envíe automáticamente a un flujo de trabajo cuando el asistente de registro de proveedor se complete.
 
 ## <a name="vendor-requests"></a>Solicitudes de proveedor
 
@@ -139,11 +140,11 @@ La siguiente tabla muestra los estados que las solicitudes de proveedor pueden t
 
 Cuando se aprueba una solicitud del proveedor, se crea una cuenta de proveedor y el estado **Aprobado** aparece tanto en la solicitud inicial del registro del proveedor potencial como en la solicitud del proveedor.
 
-Antes de que se apruebe una solicitud del proveedor, en la página **Nuevo proveedor**, en el ficha desplegable **General**, seleccione **Grupo de proveedores** para seleccionar un grupo de proveedores.
+Antes de que se apruebe una solicitud del proveedor, en la página **Nuevo proveedor** , en el ficha desplegable **General** , seleccione **Grupo de proveedores** para seleccionar un grupo de proveedores.
 
 Si el usuario del proveedor potencial debe tener acceso a Supply Chain Management como usuario de colaboración del proveedor que represente al proveedor, defina el permiso de acceso de colaboración del proveedor en **Sí**. Para desactivar la cuenta de usuario del proveedor potencial utilizado para el registro, establezca este permiso en **No**.
 
-Si el permiso de acceso de colaboración del proveedor se establece en **Sí**, cuando se aprueba la solicitud del proveedor, se envía una solicitud para modificar los roles de usuario de modo que el usuario tenga los roles que se han definido para el tipo de **Proveedor** en **Roles externos**. Si este permiso se establece en **No**, cuando se aprueba la solicitud del proveedor, se envía una solicitud para desactivar al usuario. En este caso, se debe configurar el flujo de trabajo para desactivar una solicitud de usuario.
+Si el permiso de acceso de colaboración del proveedor se establece en **Sí** , cuando se aprueba la solicitud del proveedor, se envía una solicitud para modificar los roles de usuario de modo que el usuario tenga los roles que se han definido para el tipo de **Proveedor** en **Roles externos**. Si este permiso se establece en **No** , cuando se aprueba la solicitud del proveedor, se envía una solicitud para desactivar al usuario. En este caso, se debe configurar el flujo de trabajo para desactivar una solicitud de usuario.
 
 Para que se cree una cuenta de proveedor cuando se aprueba la solicitud del proveedor, la secuencia numérica para crear los proveedores desde las solicitudes del proveedor se debe establecer en **Automática**.
 

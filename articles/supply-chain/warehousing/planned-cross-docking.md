@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: ae805d9aac790a1a58478cf54d033ce758c5eca3
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530107"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017768"
 ---
 # <a name="planned-cross-docking"></a>Tránsito directo planificado
 
@@ -63,14 +64,14 @@ El tránsito directo planificado se implementa como un método de registro de ca
 1. En el Panel de acciones, haga clic en **Nuevo** para crear una plantilla.
 1. Establezca los siguientes valores en el encabezado:
 
-    - **Secuencia**: *1*
+    - **Secuencia** : *1*
 
         Este campo define el orden en que se evalúan las plantillas.
 
     - **Identificación de plantilla de tránsito directo:** *51*
     - **Descripción:** *Almacén 51*
     - **Directiva de liberación de demanda:** *Antes del recibo de suministro*
-    - **Almacén**: *51*
+    - **Almacén** : *51*
 
 1. La configuración en la ficha desplegable **Planificación** controla cómo funciona la plantilla. Establezca los valores siguientes:
 
@@ -82,17 +83,17 @@ El tránsito directo planificado se implementa como un método de registro de ca
 
         Este campo define si el trabajo de tránsito directo debe usar las ubicaciones de carga / preparación del envío, o si debe usar directivas de ubicación para encontrar sus propias ubicaciones de almacenamiento provisional / carga.
 
-    - **Plantilla de trabajo**: deje este campo en blanco.
+    - **Plantilla de trabajo** : deje este campo en blanco.
 
         Este campo define la plantilla de trabajo que debe usarse cuando se crea trabajo de tránsito directo.
 
     - **Revalidar con el recibo de suministro:** *No*
 
-        Esta opción define si el suministro debe revalidarse durante la recepción. Si esta opción está establecida en *Sí*, se verifican tanto la ventana de tiempo máximo como el rango de días de vencimiento.
+        Esta opción define si el suministro debe revalidarse durante la recepción. Si esta opción está establecida en *Sí* , se verifican tanto la ventana de tiempo máximo como el rango de días de vencimiento.
 
     - **Validar ventana de tiempo:** *Sí*
 
-        Esta opción define si se debe evaluar la ventana de tiempo máximo cuando se selecciona una fuente de suministro. Si esta opción está establecida en *Sí*, los campos relacionados con las ventanas de tiempo máximo y mínimo están disponibles.
+        Esta opción define si se debe evaluar la ventana de tiempo máximo cuando se selecciona una fuente de suministro. Si esta opción está establecida en *Sí* , los campos relacionados con las ventanas de tiempo máximo y mínimo están disponibles.
 
     - **Ventana de tiempo máxima:** *5*
 
@@ -108,7 +109,7 @@ El tránsito directo planificado se implementa como un método de registro de ca
 
         *Criterios de primera caducidad, primera salida (FEFO):* este campo define el número máximo de días entre la fecha de vencimiento del primer lote que está actualmente en el almacén y el lote que se está recibiendo.
 
-1. En la ficha desplegable **Fuentes de suministro**, especifique los tipos de suministro que son válidos para esta plantilla. Seleccione **Nuevo** y establezca los valores siguientes:
+1. En la ficha desplegable **Fuentes de suministro** , especifique los tipos de suministro que son válidos para esta plantilla. Seleccione **Nuevo** y establezca los valores siguientes:
 
     - **Número de secuencia:** *1*
     - **Fuente de suministro:** *Orden de compra*
@@ -119,7 +120,7 @@ El tránsito directo planificado se implementa como un método de registro de ca
 1. En el Panel de acciones, seleccione **Nuevo** para crear una clase de trabajo.
 1. Establezca los valores siguientes:
 
-    - **Identificador de la clase de trabajo**: *CrossDock*
+    - **Identificador de la clase de trabajo** : *CrossDock*
     - **Descripción:** *Tránsito directo*
     - **Tipo de orden de trabajo:** *Tránsito directo*
 
@@ -135,16 +136,16 @@ El tránsito directo planificado se implementa como un método de registro de ca
     - **Descripción de la plantilla de trabajo:** *51 Cross Dock*
 
 1. Seleccione **Guardar** para tener disponible la ficha desplegable **Detalles de plantilla de trabajo**.
-1. En la ficha desplegable **Detalles de plantilla de trabajo**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha desplegable **Detalles de plantilla de trabajo** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
-    - **Tipo de trabajo**: *Recoger*
-    - **Identificador de la clase de trabajo**: *CrossDock*
+    - **Tipo de trabajo** : *Recoger*
+    - **Identificador de la clase de trabajo** : *CrossDock*
 
 1. Seleccione **Nuevo** para agregar otra línea y establezca los siguientes valores en ella:
 
-    - **Tipo de trabajo**: *Ubicar*
-    - **Identificador de la clase de trabajo**: *CrossDock*
+    - **Tipo de trabajo** : *Ubicar*
+    - **Identificador de la clase de trabajo** : *CrossDock*
 
 1. Seleccione **Guardar** y confirme que la casilla de verificación **Válido** está seleccionada para la plantilla *51 Cross Dock*.
 
@@ -159,19 +160,19 @@ El tránsito directo planificado se implementa como un método de registro de ca
 
     - **Número de secuencia:** *1*
     - **Nombre:** *51 Cross Dock Colocar*
-    - **Tipo de trabajo**: *Ubicar*
-    - **Sitio**: *5*
-    - **Almacén**: *51*
+    - **Tipo de trabajo** : *Ubicar*
+    - **Sitio** : *5*
+    - **Almacén** : *51*
 
 1. Seleccione **Guardar** para tener disponible la ficha desplegable **Líneas**.
-1. En la ficha desplegable **Líneas**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha desplegable **Líneas** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
-    - **Cantidad inicial**: *1*
-    - **Cantidad final**: *1000000*
+    - **Cantidad inicial** : *1*
+    - **Cantidad final** : *1000000*
 
 1. Seleccione **Guardar** para tener disponible la ficha desplegable **Acciones directivas de ubicación**.
-1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha desplegable **Acciones de directiva de ubicación** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
     - **Nombre:** *Baydoor*
@@ -179,18 +180,18 @@ El tránsito directo planificado se implementa como un método de registro de ca
 
 1. Seleccione **Guardar** para tener disponible el botón **Editar consulta** en la barra de herramientas de **Acciones de directiva de ubicación**.
 1. Seleccione **Editar consulta** para abrir el editor de consultas.
-1. En la pestaña **Rango**, asegúrese de que las siguientes dos líneas estén configuradas:
+1. En la pestaña **Rango** , asegúrese de que las siguientes dos líneas estén configuradas:
 
     - Línea 1:
 
-        - **Tabla**: *Ubicaciones*
+        - **Tabla** : *Ubicaciones*
         - **Tabla derivada:** *Ubicaciones*
         - **Campo:** *Almacén*
         - **Criterio:** *51*
 
     - Línea 2:
 
-        - **Tabla**: *Ubicaciones*
+        - **Tabla** : *Ubicaciones*
         - **Tabla derivada:** *Ubicaciones*
         - **Campo:** *Ubicación*
         - **Criterio:** *Baydoor*
@@ -202,10 +203,10 @@ El tránsito directo planificado se implementa como un método de registro de ca
 1. Vaya a **Administración de almacenes \> Configurar \> Dispositivo móvil \> Elementos de menú del dispositivo móvil**.
 1. En la lista de elementos de menú en el panel izquierdo, seleccione **Ubicación de compra**.
 1. Seleccione **Editar**.
-1. En la ficha desplegable **Clases de trabajo**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha desplegable **Clases de trabajo** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
-    - **Identificador de la clase de trabajo**: *CrossDock*
+    - **Identificador de la clase de trabajo** : *CrossDock*
     - **Tipo de orden de trabajo:** *Tránsito directo*
 
 1. Seleccione **Guardar**.
@@ -218,10 +219,10 @@ Siga estos pasos para crear una orden de compra como fuente de suministro.
 
 1. Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra**.
 1. En el panel de acciones, haga clic en **Nueva**.
-1. En el cuadro de diálogo **Crear pedido de compras**, establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de compras** , establezca los siguientes valores:
 
     - **Cuenta del proveedor:** *104*
-    - **Almacén**: *51*
+    - **Almacén** : *51*
 
 1. Seleccione **Aceptar** y anote el número de pedido.
 1. Se agrega una nueva línea a la ficha desplegable **Líneas de orden de compra**. En esta línea, establezca los siguientes valores:
@@ -235,10 +236,10 @@ Siga estos pasos para crear un pedido de ventas como fuente de demanda.
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. En el panel de acciones, haga clic en **Nueva**.
-1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
 
     - **Cuenta de cliente:** *US-002*
-    - **Almacén**: *51*
+    - **Almacén** : *51*
 
 1. Seleccione **Aceptar**.
 1. Se agrega una nueva línea a la ficha desplegable **Líneas de pedido de ventas**. En esta línea, establezca los siguientes valores:
@@ -250,18 +251,18 @@ Siga estos pasos para crear un pedido de ventas como fuente de demanda.
 
 Siga estos pasos para crear el tránsito directo planificado a partir del pedido de ventas.
 
-1. En la página **Detalles del pedido de ventas** para el pedido de ventas que acaba de crear, en el Panel de acciones, en la pestaña **Almacén**, en el grupo **Acciones**, seleccione **Liberar al almacén**.
+1. En la página **Detalles del pedido de ventas** para el pedido de ventas que acaba de crear, en el Panel de acciones, en la pestaña **Almacén** , en el grupo **Acciones** , seleccione **Liberar al almacén**.
 
     La acción de liberación al almacén crea una línea de envío y carga para la línea de pedido de ventas e intenta asignar inventario.
     
     Recibirá un mensaje informativo. También recibirá el siguiente mensaje de advertencia: "No se creó ningún trabajo para la oleada XXXX. Consulte el registro del historial de creación de trabajo para obtener más detalles". Se espera este comportamiento, porque no hay inventario en el almacén.
 
-1. En la ficha desplegable **Líneas de pedido de ventas**, en el menú **Almacén**, seleccione **Detalles del envío**.
+1. En la ficha desplegable **Líneas de pedido de ventas** , en el menú **Almacén** , seleccione **Detalles del envío**.
 
     Aparecerá la página **Detalles del envío** y muestra el envío que se creó para el pedido de ventas.
 
-1. En la ficha desplegable **Líneas de carga**, observe que el campo **Cantidad prevista de tránsito directo** se establece en *3*. Debido a que no había inventario disponible en el almacén, pero una fuente de suministro válida llegará dentro de la ventana de tiempo definida en la plantilla de tránsito directo, se creó la cantidad de tránsito directo.
-1. En la ficha desplegable **Líneas de carga**, seleccione **Tránsito directo planeado** para ver los detalles del tránsito directo que se creó.
+1. En la ficha desplegable **Líneas de carga** , observe que el campo **Cantidad prevista de tránsito directo** se establece en *3*. Debido a que no había inventario disponible en el almacén, pero una fuente de suministro válida llegará dentro de la ventana de tiempo definida en la plantilla de tránsito directo, se creó la cantidad de tránsito directo.
+1. En la ficha desplegable **Líneas de carga** , seleccione **Tránsito directo planeado** para ver los detalles del tránsito directo que se creó.
 
 ## <a name="process-the-cross-docking"></a>Procesar el tránsito directo
 
@@ -275,12 +276,12 @@ La segunda identificación de trabajo que se crea tiene un valor de **Tipo de or
 
 1. Inicie sesión en el dispositivo móvil como un usuario en el almacén *51*.
 1. Vaya **Entrante \> Recibir compra**.
-1. En el campo **PONUM**, introduzca su número de orden de compra.
-1. En el campo **Cantidad**, especifique *5*.
+1. En el campo **PONUM** , introduzca su número de orden de compra.
+1. En el campo **Cantidad** , especifique *5*.
 1. Seleccione **Aceptar**.
 1. En la página siguiente, establezca el campo **Artículo** a *A0001*.
 1. Seleccione **Aceptar**.
-1. En la página siguiente, confirme los valores **PONUM**, **Artículo** y **Cantidad** seleccionando **Aceptar**.
+1. En la página siguiente, confirme los valores **PONUM** , **Artículo** y **Cantidad** seleccionando **Aceptar**.
 
     Recibe un mensaje "Trabajo completado".
 
@@ -291,14 +292,14 @@ La segunda identificación de trabajo que se crea tiene un valor de **Tipo de or
 Actualmente, ambas identificaciones de trabajo tienen la misma matrícula de entidad objetivo. Para completar los siguientes pasos, debe obtener la identificación del trabajo y la identificación de la matrícula de identidad. Puede obtener esta información de los detalles de trabajo para la línea de orden de compra y la línea de pedido de ventas. Alternativamente, puede ir a **Gestión de almacenes \> Trabajo \> Detalles del trabajo** y filtrar para el trabajo donde el valor de **Almacén** es *51*.
 
 1. En el dispositivo móvil, vaya a **Entrante \> Ubicación de compra** e introduzca la matricula de identidad de destino del trabajo.
-1. En campo **Identificación**, introduzca la identificación de la matrícula de entidad de destino de los detalles del trabajo.
+1. En campo **Identificación** , introduzca la identificación de la matrícula de entidad de destino de los detalles del trabajo.
 
-    La página de selección de tránsito directo muestra la ubicación de selección (*RECV*), matrícula de entidad objetivo (*matrícula de entidad*), artículo (*A0001*) y cantidad (*3*).
+    La página de selección de tránsito directo muestra la ubicación de selección ( *RECV* ), matrícula de entidad objetivo ( *matrícula de entidad* ), artículo ( *A0001* ) y cantidad ( *3* ).
 
 1. Seleccione **Aceptar**.
-1. En el campo **LP objetivo**, introduzca una matrícula de entidad de destino para la identificación de la matrícula que debe colocarse (tránsito directo) en la ubicación de envío. Puede seleccionar cualquier identificación de matrícula de su elección.
+1. En el campo **LP objetivo** , introduzca una matrícula de entidad de destino para la identificación de la matrícula que debe colocarse (tránsito directo) en la ubicación de envío. Puede seleccionar cualquier identificación de matrícula de su elección.
 1. Seleccione **Aceptar**.
-1. En la página siguiente, en campo **Identificación**, introduzca la identificación de la matrícula de entidad de destino.
+1. En la página siguiente, en campo **Identificación** , introduzca la identificación de la matrícula de entidad de destino.
 1. Seleccione **Aceptar**.
 1. Confirme el trabajo para elegir la cantidad restante de 2 y luego seleccione **Aceptar**.
 1. En la página siguiente, seleccione **Hecho** para finalizar el proceso de selección y comenzar el proceso de almacenamiento.

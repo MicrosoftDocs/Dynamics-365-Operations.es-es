@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
-ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
+ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3962529"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013189"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -33,7 +33,7 @@ Los siguientes métodos abreviados de teclado le pueden ayudar de forma rápida 
 > [!NOTE]
 > Los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
 
-Algunos de los atajos de esta página son *acordes clave*, lo que significa que requieren dos conjuntos consecutivos de combinaciones de teclas (separados por una coma) que deben presionarse de forma independiente para activar la acción requerida. Por ejemplo, el atajo "Alt + M, A" requiere que el usuario primero presione "Alt + M", suelte las teclas y luego presione "A". 
+Algunos de los atajos de esta página son *acordes clave* , lo que significa que requieren dos conjuntos consecutivos de combinaciones de teclas (separados por una coma) que deben presionarse de forma independiente para activar la acción requerida. Por ejemplo, el atajo "Alt + M, A" requiere que el usuario primero presione "Alt + M", suelte las teclas y luego presione "A". 
 
 ## <a name="finding-a-shortcut"></a>Encontrar un acceso directo
 
@@ -239,7 +239,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Desplazarse arriba/abajo una página en las búsquedas                                                                                       | Re Pág / Av Pág              |
 | Ir a la parte superior/inferior de la búsqueda                                                                                    | Inicio / Fin                       |
 
-## <a name="task-recordershortcuts"></a>Métodos abreviados del [grabador de tareas](../../dev-itpro/user-interface/task-recorder.md) 
+## <a name="task-recorder-shortcuts"></a>Métodos abreviados del [Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md) 
 
 | Acción                                                                    | Presione                       |
 |-------------------------------------------------------------------------------|----------------------------|

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505620"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107384"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Cargos automáticos avanzados omnicanal
 
@@ -44,7 +44,7 @@ Con la función avanzado de cargos automáticos, los usuarios de PDV pueden tene
 
 ## <a name="enabling-advanced-auto-charges"></a>Activar cargos automáticos avanzados
 
-En la página **Retail y Commerce \> Configuración de sede \> Parámetros \> Parámetros de Commerce**, vaya a la pestaña **Pedidos de cliente**. En la ficha desplegable **Cargos**, establezca **Usar cargos automáticos avanzados** en **Sí**.
+En la página **Retail y Commerce \> Configuración de sede \> Parámetros \> Parámetros de Commerce** , vaya a la pestaña **Pedidos de cliente**. En la ficha desplegable **Cargos** , establezca **Usar cargos automáticos avanzados** en **Sí**.
 
 ![Parámetros de cargos automáticos avanzados](media/advancedchargesparameter.png)
 
@@ -117,7 +117,7 @@ Este escenario requiere la configuración de una tabla de cargos automáticos a 
 
 Vaya a **Clientes \> Configuración de cargos \> Cargos automáticos**.
 
-Establezca el menú desplegable **Nivel** en **Línea**, y cree un nuevo registro de cargos automáticos para todos los clientes y para el producto o el grupo de productos específico donde se cargarán las cuotas de configuración.
+Establezca el menú desplegable **Nivel** en **Línea** , y cree un nuevo registro de cargos automáticos para todos los clientes y para el producto o el grupo de productos específico donde se cargarán las cuotas de configuración.
 
 ![Ejemplo de tabla de cargos automáticos de nivel de línea](media/linechargesexample.png)
 
@@ -183,17 +183,17 @@ La operación **Gestionar cargos** (142) se debe agregar a [Diseño de pantalla 
 
 En la página **Gestionar cargos** en el PDV, el usuario puede ver los detalles de los cargos de encabezado y de nivel de línea. El usuario puede utilizar la función **Editar** disponible en esta página para realizar cambios en el importe cargado en los cargos específicos particular. Una vez un cargo de línea se actualice manualmente no se volverá a calcular sistemáticamente a menos que el usuario inicie la operación **Actualizar cargos** .
 
-Si **Código de motivo de la anulación del cargo** se ha configurado en la página **Parámetros de Commerce**, se le solicitará al usuario especificar un código de motivo cuando hayan modificado los cargos en la aplicación PDV.
+Si **Código de motivo de la anulación del cargo** se ha configurado en la página **Parámetros de Commerce** , se le solicitará al usuario especificar un código de motivo cuando hayan modificado los cargos en la aplicación PDV.
 
 Si los códigos de motivo se capturan para cargos sobrescritos, un nuevo informe también estará disponible para revisar y auditar los cambios. El informe se puede encontrar en **Retail y Commerce \> Consultas e informes \> Historial de la anulación de cargos**.
 
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Recuperación de cargos de una transacción de devolución de PDV
 
-Si el parámetro **Usar cargos automáticos avanzados** se establece en **Sí**, el parámetro de Commerce existente para **Devolver cargos de envío** ya no es aplicable. Para indicar qué cargos se deben devolver sistemáticamente a un cliente al usar cargos automáticos avanzados, asegúrese de que el código de cargos relacionado se ha configurado como **Reembolsable** en la página de configuración **Código de cargos** . Asegúrese de que los valores se hayan sincronizado a las bases de datos del canal de Commerce con el proceso de programación de la distribución.
+Si el parámetro **Usar cargos automáticos avanzados** se establece en **Sí** , el parámetro de Commerce existente para **Devolver cargos de envío** ya no es aplicable. Para indicar qué cargos se deben devolver sistemáticamente a un cliente al usar cargos automáticos avanzados, asegúrese de que el código de cargos relacionado se ha configurado como **Reembolsable** en la página de configuración **Código de cargos** . Asegúrese de que los valores se hayan sincronizado a las bases de datos del canal de Commerce con el proceso de programación de la distribución.
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Devolución de cargos de una transacción de devolución de pedido
 
-Los cargos no se devuelven sistemáticamente a los **Devolver pedidos** creados en Commerce. Los usuarios deben seleccionar la opción **Copiar cargos** al crear el **Pedido de devolución**. Si **Copiar cargos** no está seleccionada, no se devolverán automáticamente los cargos de la transacción de ventas original. Si se selecciona **Copiar cargos**, se copiarán todos los cargos al pedido de devolución y el usuario puede editar o eliminar manualmente los cargos que éste no desee tener devueltos. El proceso de pedido de devolución de centro de asistencia telefónica no confirma actualmente el indicador **Reembolsable** en la configuración **Código de cargos** .
+Los cargos no se devuelven sistemáticamente a los **Devolver pedidos** creados en Commerce. Los usuarios deben seleccionar la opción **Copiar cargos** al crear el **Pedido de devolución**. Si **Copiar cargos** no está seleccionada, no se devolverán automáticamente los cargos de la transacción de ventas original. Si se selecciona **Copiar cargos** , se copiarán todos los cargos al pedido de devolución y el usuario puede editar o eliminar manualmente los cargos que éste no desee tener devueltos. El proceso de pedido de devolución de centro de asistencia telefónica no confirma actualmente el indicador **Reembolsable** en la configuración **Código de cargos** .
 
 ### <a name="configuring-pos-receipts-to-show-charges"></a>Configurar recibod PDV para mostrar cargos
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 406ff268eede4a9d448b3b9c1729a00fcec8f21e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016802"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Consolidar envíos cuando la directiva de consolidación de envíos se anula desde la página Despachar al almacén
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta un escenario en el que una o más líneas de ventas deben despacharse manualmente al almacén desde la página **Despachar a almacén**, y la directiva de consolidación de envíos definida por el sistema debe anularse antes del despacho. Es posible que se deba anular la directiva de consolidación de envíos si, por ejemplo, un pedido que generalmente no se consolida con envíos abiertos debe consolidarse con envíos abiertos.
+Este tema presenta un escenario en el que una o más líneas de ventas deben despacharse manualmente al almacén desde la página **Despachar a almacén** , y la directiva de consolidación de envíos definida por el sistema debe anularse antes del despacho. Es posible que se deba anular la directiva de consolidación de envíos si, por ejemplo, un pedido que generalmente no se consolida con envíos abiertos debe consolidarse con envíos abiertos.
 
 Durante el escenario, creará un conjunto de pedidos de ventas y luego anulará la directiva de consolidación de envíos predeterminada antes de despachar los pedidos al almacén.
 
@@ -47,7 +47,7 @@ El escenario que se describe aquí supone que ya ha activado la función, realiz
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
@@ -64,7 +64,7 @@ Siga estos pasos para anular la directiva de consolidación de envíos durante e
 1. Seleccione **Despachar al almacén**.
 1. Seleccione los pedidos de ventas segundo y tercero que creó para este escenario.
 1. Seleccione **Añadir** para agregar las líneas al despacho al almacén. Tenga en cuenta que la directiva *Predeterminada* se aplica en el panel inferior.
-1. Seleccione la segunda línea y luego, en el campo **Seleccionar nueva directiva de consolidación de envíos**, seleccione la directiva *CustomerOrderNo*.
+1. Seleccione la segunda línea y luego, en el campo **Seleccionar nueva directiva de consolidación de envíos** , seleccione la directiva *CustomerOrderNo*.
 1. Seleccione **Despachar al almacén** para ambas líneas.
 
 ## <a name="verify-the-shipments"></a>Verificar los envíos
@@ -78,7 +78,7 @@ Siga estos pasos para revisar los envíos que se crearon.
 
 1. Vaya a **Gestión de almacenes \> Envíos \> Todos los envíos**.
 1. Encuentre y seleccione el envío requerido.
-1. En el campo **Directiva de consolidación de envíos**, revise la directiva de consolidación usada cuando se creó el envío.
+1. En el campo **Directiva de consolidación de envíos** , revise la directiva de consolidación usada cuando se creó el envío.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

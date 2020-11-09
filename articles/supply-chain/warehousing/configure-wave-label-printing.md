@@ -8,7 +8,7 @@ ms.topic: configure-wave-label-printing
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate
+ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: e3b04eea7bd7dd689f8a918820ffdb4a72d813dc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986032"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016966"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Configurar y usar impresión de etiquetas de oleada
 
@@ -56,7 +56,7 @@ Estas mejoras hacen que el etiquetado de cajas antes de la paletización sea má
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Activar la característica de impresión de etiquetas de oleada
 
-Para poder usar la característica *Impresión de etiquetas de oleada*, debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+Para poder usar la característica *Impresión de etiquetas de oleada* , debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Impresión de etiquetas de oleada*
@@ -84,8 +84,8 @@ Las plantillas de oleada le permiten vincular instancias específicas de método
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
 1. Seleccione una plantilla, como **Plantilla predeterminada 62**.
-1. En la ficha desplegable **Métodos**, mueva el método **Impresión de etiquetas de oleada** a la columna **Métodos seleccionados**.
-1. En la columna **Métodos seleccionados**, seleccione el método **Impresión de etiquetas de oleada** y establezca el campo **Código de paso de oleada** en *Etiqueta de impresión*. Para obtener más información sobre los códigos de pasos de oleadas, vea [Códigos de paso de oleada](wave-step-codes.md).
+1. En la ficha desplegable **Métodos** , mueva el método **Impresión de etiquetas de oleada** a la columna **Métodos seleccionados**.
+1. En la columna **Métodos seleccionados** , seleccione el método **Impresión de etiquetas de oleada** y establezca el campo **Código de paso de oleada** en *Etiqueta de impresión*. Para obtener más información sobre los códigos de pasos de oleadas, vea [Códigos de paso de oleada](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Crear un diseño de etiqueta de oleada
 
@@ -123,7 +123,7 @@ El diseño de la etiqueta controla qué información se imprime en la etiqueta y
 
 1. Cierre la página.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Intervalo**, seleccione una fila que tenga los siguientes parámetros.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Intervalo** , seleccione una fila que tenga los siguientes parámetros.
 
     - **Tabla:** *Lineas de trabajo*
     - **Tabla derivada:** *Líneas de trabajo*
@@ -132,9 +132,9 @@ El diseño de la etiqueta controla qué información se imprime en la etiqueta y
 
     Esta consulta garantiza que solo se imprimen líneas de trabajo de tipo recogida en la etiqueta y no en líneas de trabajo del tipo colocación.
 
-1. Si desea imprimir el id. del conocimiento de embarque, en la pestaña **Combinaciones**, seleccione la tabla **Líneas de trabajo** y vincúlela a la tabla **Envíos**.
+1. Si desea imprimir el id. del conocimiento de embarque, en la pestaña **Combinaciones** , seleccione la tabla **Líneas de trabajo** y vincúlela a la tabla **Envíos**.
 1. Cierre el cuadro de diálogo del editor de consultas.
-1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado**, **Sección del cuerpo** y **Sección del pie de página**. En la **Sección del encabezado**, en el campo **Encabezado de la etiqueta**, introduzca el código para el encabezado requerido. Por ejemplo, si usa impresoras Zebra, puede usar el siguiente código.
+1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado** , **Sección del cuerpo** y **Sección del pie de página**. En la **Sección del encabezado** , en el campo **Encabezado de la etiqueta** , introduzca el código para el encabezado requerido. Por ejemplo, si usa impresoras Zebra, puede usar el siguiente código.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -174,7 +174,7 @@ El diseño de la etiqueta controla qué información se imprime en la etiqueta y
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. En la **Sección del cuerpo**, en el campo **Cuerpo de la etiqueta**, introduzca el código ZPL para el cuerpo requerido. He aquí un ejemplo.
+1. En la **Sección del cuerpo** , en el campo **Cuerpo de la etiqueta** , introduzca el código ZPL para el cuerpo requerido. He aquí un ejemplo.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -193,7 +193,7 @@ El diseño de la etiqueta controla qué información se imprime en la etiqueta y
     </Row>
     ```
 
-1. En la **Sección del cuerpo**, en el campo **Pie de página de la etiqueta**, introduzca el código ZPL para el pie de página requerido. He aquí un ejemplo.
+1. En la **Sección del cuerpo** , en el campo **Pie de página de la etiqueta** , introduzca el código ZPL para el pie de página requerido. He aquí un ejemplo.
 
     ```plaintext
     ^PQ1^XZ
@@ -232,17 +232,17 @@ A continuación, cree la plantilla de etiqueta de oleada para el tipo de etiquet
     - **Nombre de plantilla de etiqueta:** *Etiquetas de caja*
     - **Descripción:** *Etiquetas de caja*
     - **Código de paso de oleada:** *EtiquetaImpresión*
-    - **Almacén**: *62*
+    - **Almacén** : *62*
 
-1. En la ficha desplegable **General**, establezca el campo **Tipo de etiqueta de oleada** en *Caja de cartón*.
-1. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada**, agregue una nueva fila que tenga la siguiente configuración:
+1. En la ficha desplegable **General** , establezca el campo **Tipo de etiqueta de oleada** en *Caja de cartón*.
+1. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada** , agregue una nueva fila que tenga la siguiente configuración:
 
     - **Id. de diseño de etiqueta:** *Caja*
     - **Nombre de la impresora:** seleccione una impresora ZPL adecuada.
     - **Ejecutar consulta:** *Sí* (Esta configuración es opcional, pero se recomienda para un rendimiento óptimo).
 
 1. En el panel Acciones, seleccione **Guardar**.
-1. Opcional: si está configurando un diseño de etiqueta específico del cliente, debe crear una consulta para encontrar la cuenta del cliente. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada**, seleccione **Editar consulta**. A continuación, agregue una fila que tenga la siguiente configuración dentro de la pestaña **Intervalo**, en el cuadro de diálogo del editor de consultas.
+1. Opcional: si está configurando un diseño de etiqueta específico del cliente, debe crear una consulta para encontrar la cuenta del cliente. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada** , seleccione **Editar consulta**. A continuación, agregue una fila que tenga la siguiente configuración dentro de la pestaña **Intervalo** , en el cuadro de diálogo del editor de consultas.
 
     - **Tabla:** *Envíos*
     - **Tabla derivada:** *Envíos*
@@ -252,7 +252,7 @@ A continuación, cree la plantilla de etiqueta de oleada para el tipo de etiquet
     Cuando haya terminado, seleccione **Aceptar** para cerrar el cuadro de diálogo del editor de consultas.
 
 1. En el panel de acciones, seleccione **Editar consulta** para abrir el cuadro de diálogo del editor de consultas para la plantilla de etiqueta completa.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Ordenación**, seleccione una fila que tenga la siguiente configuración.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Ordenación** , seleccione una fila que tenga la siguiente configuración.
 
     - **Tabla:** *Lineas de trabajo*
     - **Tabla derivada:** *Líneas de trabajo*
@@ -262,7 +262,7 @@ A continuación, cree la plantilla de etiqueta de oleada para el tipo de etiquet
 1. Seleccione **Aceptar** para cerrar el cuadro de diálogo del editor de consultas.
 1. Un cuadro de mensaje le solicitará que confirme la operación de restablecimiento de la agrupación. Seleccione **Sí** para continuar.
 1. En el panel de acciones, seleccione **Grupo de plantillas de etiquetas de oleadas**.
-1. En el cuadro de diálogo **Grupo de plantillas de etiquetas de oleadas**, seleccione la fila donde el campo **Nombre del campo de referencia** está establecido en *Id. de línea de carga de referencia* y luego seleccione la casilla **Id. de compilación de etiqueta** de esta fila.
+1. En el cuadro de diálogo **Grupo de plantillas de etiquetas de oleadas** , seleccione la fila donde el campo **Nombre del campo de referencia** está establecido en *Id. de línea de carga de referencia* y luego seleccione la casilla **Id. de compilación de etiqueta** de esta fila.
 
     > [!NOTE]
     > Esta configuración creará una secuencia de etiquetas ("Caja 1 de X") por línea de carga a lo largo de la oleada, con independencia de la configuración de agrupación de trabajo. Esta secuencia de etiquetas se puede imprimir en el diseño de la etiqueta.
@@ -277,7 +277,7 @@ Las extensiones de secuencias numéricas controlan el cumplimiento GS1 de secuen
 1. Cree un pedido de ventas con la siguiente configuración:
 
     - **Cuenta de cliente:** *US-001*
-    - **Almacén**: *62*
+    - **Almacén** : *62*
 
 1. Agregue dos líneas de pedidos de ventas que tengan la siguiente configuración:
 
@@ -296,10 +296,10 @@ Las extensiones de secuencias numéricas controlan el cumplimiento GS1 de secuen
     > [!NOTE]
     > Los artículos y cantidades que se proporcionan aquí son solo ejemplos. Deben usar el grupo de secuencias de unidades que ha definido anteriormente, las conversiones de unidades adecuadas de *ea* a *Caja* a *PL* deben definirse para ellas, y deben tener existencias en el almacén *62*. Para más información, consulte [Directivas de unidad de medida y de existencias](unit-measure-stocking-policies.md).
 
-1. Seleccione la línea de pedido de ventas 1. A continuación, en la sección **Línea de pedido de ventas**, en el menú **Inventario**, seleccione **Reservas**.
-1. En la página **Reserva**, en el panel de acciones, seleccione **Reservar lote** y después cierre la página.
+1. Seleccione la línea de pedido de ventas 1. A continuación, en la sección **Línea de pedido de ventas** , en el menú **Inventario** , seleccione **Reservas**.
+1. En la página **Reserva** , en el panel de acciones, seleccione **Reservar lote** y después cierre la página.
 1. Repita los pasos 4 y 5 para la línea de pedido de ventas 2.
-1. En el panel de acciones, en la pestaña **Almacén**, seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén** , seleccione **Liberar al almacén**.
 
     Se producen los eventos siguientes:
 
@@ -307,7 +307,7 @@ Las extensiones de secuencias numéricas controlan el cumplimiento GS1 de secuen
     - Las etiquetas de oleadas se generan y se imprimen. El número de etiquetas será igual al número de cajas (en este ejemplo, 376 etiquetas de cajas para la línea 1 y 322 etiquetas de cajas para la línea 2).
     - Se genera un nuevo id. de conocimiento de embarque para los envíos. Si ha configurado las extensiones de secuencias numéricas, los id. de etiquetas de oleadas seguirán el formato numérico **SSCC-18**. 
 
-Puede ver y reimprimir etiquetas de oleada desde las siguientes páginas. En el panel de acciones de cada página, en la pestaña **Envíos** del grupo **Información relacionada**, seleccione **Etiquetas de oleada**.
+Puede ver y reimprimir etiquetas de oleada desde las siguientes páginas. En el panel de acciones de cada página, en la pestaña **Envíos** del grupo **Información relacionada** , seleccione **Etiquetas de oleada**.
 
 - Todos los envíos \> Detalles del envío
 - Todas las cargas \> Detalles de la carga
@@ -345,8 +345,8 @@ Las plantillas de oleada le permiten vincular instancias específicas de método
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
 1. Seleccione una plantilla como **63 Creación de contenedores**.
-1. En la ficha desplegable **Métodos**, mueva el método **Impresión de etiquetas de oleada** a la columna **Métodos seleccionados**.
-1. En la columna **Métodos seleccionados**, seleccione el método **Impresión de etiquetas de oleada** y establezca el campo **Código de paso de oleada** en *Etiqueta de impresión*. Para obtener más información sobre los códigos de pasos de oleadas, vea [Códigos de paso de oleada](wave-step-codes.md).
+1. En la ficha desplegable **Métodos** , mueva el método **Impresión de etiquetas de oleada** a la columna **Métodos seleccionados**.
+1. En la columna **Métodos seleccionados** , seleccione el método **Impresión de etiquetas de oleada** y establezca el campo **Código de paso de oleada** en *Etiqueta de impresión*. Para obtener más información sobre los códigos de pasos de oleadas, vea [Códigos de paso de oleada](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Crear un diseño de etiqueta de oleada
 
@@ -382,16 +382,16 @@ Las plantillas de oleada le permiten vincular instancias específicas de método
 
 1. Cierre la página.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Intervalo**, seleccione una fila que tenga los siguientes parámetros.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Intervalo** , seleccione una fila que tenga los siguientes parámetros.
 
     - **Tabla:** *Lineas de trabajo*
     - **Tabla derivada:** *Líneas de trabajo*
     - **Campo:** *Tipo de trabajo*
     - **Criterios:** *Seleccionar*
 
-1. Si desea imprimir el id. del conocimiento de embarque, en la pestaña **Combinaciones**, seleccione la tabla **Líneas de trabajo** y vincúlela a la tabla **Envíos**.
+1. Si desea imprimir el id. del conocimiento de embarque, en la pestaña **Combinaciones** , seleccione la tabla **Líneas de trabajo** y vincúlela a la tabla **Envíos**.
 1. Cierre el cuadro de diálogo del editor de consultas.
-1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado**, **Sección del cuerpo** y **Sección del pie de página**. En la **Sección del encabezado**, en el campo **Encabezado de la etiqueta**, introduzca el código para el encabezado requerido. Por ejemplo, si usa impresoras Zebra, puede usar el siguiente código.
+1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado** , **Sección del cuerpo** y **Sección del pie de página**. En la **Sección del encabezado** , en el campo **Encabezado de la etiqueta** , introduzca el código para el encabezado requerido. Por ejemplo, si usa impresoras Zebra, puede usar el siguiente código.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -402,7 +402,7 @@ Las plantillas de oleada le permiten vincular instancias específicas de método
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. En la **Sección del cuerpo**, en el campo **Cuerpo de la etiqueta**, introduzca el código ZPL para el cuerpo requerido. He aquí un ejemplo.
+1. En la **Sección del cuerpo** , en el campo **Cuerpo de la etiqueta** , introduzca el código ZPL para el cuerpo requerido. He aquí un ejemplo.
 
     ```plaintext
     <Row name="WorkLine">
@@ -416,7 +416,7 @@ Las plantillas de oleada le permiten vincular instancias específicas de método
     </Row>
     ```
 
-1. En la **Sección del cuerpo**, en el campo **Pie de página de la etiqueta**, introduzca el código ZPL para el pie de página requerido. He aquí un ejemplo.
+1. En la **Sección del cuerpo** , en el campo **Pie de página de la etiqueta** , introduzca el código ZPL para el pie de página requerido. He aquí un ejemplo.
 
     ```plaintext
     ^PQ1^XZ
@@ -435,16 +435,16 @@ Su etiqueta ya está lista para usarse.
     - **Nombre de plantilla de etiqueta:** *Etiquetas de contenedor*
     - **Descripción:** *Etiquetas de contenedores*
     - **Código de paso de oleada:** *EtiquetaImpresión*
-    - **Almacén**: *63*
+    - **Almacén** : *63*
 
-1. En la ficha desplegable **Detalles de plantillas de etiquetas de oleadas**, agregue una fila que tenga la siguiente configuración:
+1. En la ficha desplegable **Detalles de plantillas de etiquetas de oleadas** , agregue una fila que tenga la siguiente configuración:
 
     - **Id. de diseño de etiquetas:** *Contenedor*
     - **Nombre de la impresora:** seleccione una impresora ZPL adecuada.
     - **Ejecutar consulta:** *Sí* (Esta configuración es opcional, pero se recomienda para un rendimiento óptimo).
 
 1. En el panel Acciones, seleccione **Guardar**.
-1. Opcional: si está configurando un diseño de etiqueta específico del cliente, debe crear una consulta para encontrar la cuenta del cliente. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada**, seleccione **Editar consulta**. A continuación, agregue una fila que tenga la siguiente configuración dentro de la pestaña **Intervalo**, en el cuadro de diálogo del editor de consultas.
+1. Opcional: si está configurando un diseño de etiqueta específico del cliente, debe crear una consulta para encontrar la cuenta del cliente. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada** , seleccione **Editar consulta**. A continuación, agregue una fila que tenga la siguiente configuración dentro de la pestaña **Intervalo** , en el cuadro de diálogo del editor de consultas.
 
     - **Tabla:** *Envíos*
     - **Tabla derivada:** *Envíos*
@@ -463,7 +463,7 @@ Las extensiones de secuencias numéricas controlan el cumplimiento GS1 de secuen
 1. Cree un pedido de ventas con la siguiente configuración:
 
     - **Cuenta de cliente:** *US-001*
-    - **Almacén**: *63*
+    - **Almacén** : *63*
 
 1. Agregar cinco líneas de pedido de ventas:
 
@@ -495,10 +495,10 @@ Las extensiones de secuencias numéricas controlan el cumplimiento GS1 de secuen
     > [!NOTE]
     > Los artículos y cantidades que se proporcionan aquí son solo ejemplos. Deben tener existencias en el almacén especificado.
 
-1. Seleccione la línea de pedido de ventas 1. A continuación, en la sección **Línea de pedido de ventas**, en el menú **Inventario**, seleccione **Reservas**.
-1. En la página **Reserva**, en el panel de acciones, seleccione **Reservar lote** y después cierre la página.
+1. Seleccione la línea de pedido de ventas 1. A continuación, en la sección **Línea de pedido de ventas** , en el menú **Inventario** , seleccione **Reservas**.
+1. En la página **Reserva** , en el panel de acciones, seleccione **Reservar lote** y después cierre la página.
 1. Repita los pasos 4 y 5 para cada línea adicional del pedido de ventas.
-1. En el panel de acciones, en la pestaña **Almacén**, seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén** , seleccione **Liberar al almacén**.
 
     Se producen los eventos siguientes:
 
@@ -527,16 +527,16 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
 
 1. Vaya a **Gestión de almacenes \> Configuración \> Oleadas \> Métodos de proceso de oleadas**.
 1. Confirme que **waveLabelPrinting** está en la lista. Si no está, seleccione **Regenerar métodos** en el Panel de acciones para agregarlo.
-1. Para el método **waveLabelPrinting**, seleccione la casilla **Convertir método en repetible**.
+1. Para el método **waveLabelPrinting** , seleccione la casilla **Convertir método en repetible**.
 
 ### <a name="set-up-a-wave-template"></a>Configurar una plantilla de oleada
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
 2. Seleccione una plantilla, como **Plantilla predeterminada 62**.
-3. En la ficha desplegable **Métodos**, mueva el método **Impresión de etiquetas de oleada** a la columna **Métodos seleccionados**.
-4. En la columna **Métodos seleccionados**, asigne un valor **Código de paso de oleada**, como *Caja*, al método **Impresión de etiquetas de oleadas**. Para obtener más información sobre los códigos de pasos de oleadas, vea [Códigos de paso de oleada](wave-step-codes.md).
+3. En la ficha desplegable **Métodos** , mueva el método **Impresión de etiquetas de oleada** a la columna **Métodos seleccionados**.
+4. En la columna **Métodos seleccionados** , asigne un valor **Código de paso de oleada** , como *Caja* , al método **Impresión de etiquetas de oleadas**. Para obtener más información sobre los códigos de pasos de oleadas, vea [Códigos de paso de oleada](wave-step-codes.md).
 5. Mueva de nuevo el método **Impresión de etiquetas de oleadas** a la columna **Métodos seleccionados**.
-6. En la columna **Métodos seleccionados**, asigne un valor diferente **Código de paso de oleada**, como *Pallet*, al segundo método método **Impresión de etiquetas de oleadas**. Para obtener más información sobre los códigos de pasos de oleadas, vea [Códigos de paso de oleada](wave-step-codes.md).
+6. En la columna **Métodos seleccionados** , asigne un valor diferente **Código de paso de oleada** , como *Pallet* , al segundo método método **Impresión de etiquetas de oleadas**. Para obtener más información sobre los códigos de pasos de oleadas, vea [Códigos de paso de oleada](wave-step-codes.md).
 
 ### <a name="create-three-wave-label-layouts"></a>Crear tres diseños de etiquetas de oleadas
 
@@ -572,7 +572,7 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
 
 1. Cierre la página.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Intervalo**, seleccione una fila que tenga los siguientes parámetros.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Intervalo** , seleccione una fila que tenga los siguientes parámetros.
 
     - **Tabla:** *Lineas de trabajo*
     - **Tabla derivada:** *Líneas de trabajo*
@@ -581,9 +581,9 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
 
     Esta consulta garantiza que solo se imprimen líneas de trabajo de tipo recogida en la etiqueta y no en líneas de trabajo del tipo colocación.
 
-1. Si desea imprimir el id. del conocimiento de embarque, en la pestaña **Combinaciones**, seleccione la tabla **Líneas de trabajo** y vincúlela a la tabla **Envíos**. 
+1. Si desea imprimir el id. del conocimiento de embarque, en la pestaña **Combinaciones** , seleccione la tabla **Líneas de trabajo** y vincúlela a la tabla **Envíos**. 
 1. Cierre el cuadro de diálogo del editor de consultas.
-1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado**, **Sección del cuerpo** y **Sección del pie de página**. En la **Sección del encabezado**, en el campo **Encabezado de la etiqueta**, introduzca el código para el encabezado requerido. Por ejemplo, si usa impresoras Zebra, puede usar el siguiente código.
+1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado** , **Sección del cuerpo** y **Sección del pie de página**. En la **Sección del encabezado** , en el campo **Encabezado de la etiqueta** , introduzca el código para el encabezado requerido. Por ejemplo, si usa impresoras Zebra, puede usar el siguiente código.
 
 
     ```plaintext
@@ -624,7 +624,7 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. En la **Sección del cuerpo**, en el campo **Cuerpo de la etiqueta**, introduzca el código ZPL para el cuerpo requerido. He aquí un ejemplo.
+1. En la **Sección del cuerpo** , en el campo **Cuerpo de la etiqueta** , introduzca el código ZPL para el cuerpo requerido. He aquí un ejemplo.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -643,7 +643,7 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
     </Row>
     ```
 
-1. En la **Sección del cuerpo**, en el campo **Pie de página de la etiqueta**, introduzca el código ZPL para el pie de página requerido. He aquí un ejemplo.
+1. En la **Sección del cuerpo** , en el campo **Pie de página de la etiqueta** , introduzca el código ZPL para el pie de página requerido. He aquí un ejemplo.
 
     ```plaintext
     ^PQ1^XZ
@@ -684,7 +684,7 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
 
 1. Cierre la página.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Intervalo**, seleccione una fila que tenga los siguientes parámetros.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Intervalo** , seleccione una fila que tenga los siguientes parámetros.
 
     - **Tabla:** *Lineas de trabajo*
     - **Tabla derivada:** *Líneas de trabajo*
@@ -693,9 +693,9 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
 
     Esta consulta garantiza que solo se imprimen líneas de trabajo de tipo recogida en la etiqueta y no en líneas de trabajo del tipo colocación.
 
-1. Si desea imprimir el id. del conocimiento de embarque, en la pestaña **Combinaciones**, seleccione la tabla **Líneas de trabajo** y vincúlela a la tabla **Envíos**.
+1. Si desea imprimir el id. del conocimiento de embarque, en la pestaña **Combinaciones** , seleccione la tabla **Líneas de trabajo** y vincúlela a la tabla **Envíos**.
 1. Cierre el cuadro de diálogo del editor de consultas.
-1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado**, **Sección del cuerpo** y **Sección del pie de página**. En la **Sección del encabezado**, en el campo **Encabezado de la etiqueta**, introduzca el código para el encabezado requerido. Por ejemplo, si usa impresoras Zebra, puede usar el siguiente código.
+1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado** , **Sección del cuerpo** y **Sección del pie de página**. En la **Sección del encabezado** , en el campo **Encabezado de la etiqueta** , introduzca el código para el encabezado requerido. Por ejemplo, si usa impresoras Zebra, puede usar el siguiente código.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -706,7 +706,7 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. En la **Sección del cuerpo**, en el campo **Cuerpo de la etiqueta**, introduzca el código ZPL para el cuerpo requerido. He aquí un ejemplo.
+1. En la **Sección del cuerpo** , en el campo **Cuerpo de la etiqueta** , introduzca el código ZPL para el cuerpo requerido. He aquí un ejemplo.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -717,7 +717,7 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
     </Row>
     ```
 
-1. En la **Sección del cuerpo**, en el campo **Pie de página de la etiqueta**, introduzca el código ZPL para el pie de página requerido. He aquí un ejemplo.
+1. En la **Sección del cuerpo** , en el campo **Pie de página de la etiqueta** , introduzca el código ZPL para el pie de página requerido. He aquí un ejemplo.
 
     ```plaintext
     ^PQ1^XZ
@@ -733,7 +733,7 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
     - **Descripción:** *Etiqueta de interrupción*
 
 1. En el panel Acciones, seleccione **Guardar**.
-1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado**, **Sección del cuerpo** y **Sección del pie de página**. En **Sección del encabezado**, en el campo **Encabezado de la etiqueta**, introduzca el código ZPL para el encabezado requerido. He aquí un ejemplo.
+1. La ficha desplegable **Diseño de texto de impresora** tiene tres secciones donde puede escribir el código de la impresora: **Sección del encabezado** , **Sección del cuerpo** y **Sección del pie de página**. En **Sección del encabezado** , en el campo **Encabezado de la etiqueta** , introduzca el código ZPL para el encabezado requerido. He aquí un ejemplo.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -781,17 +781,17 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
     - **Nombre de plantilla de etiqueta:** *Etiquetas de caja*
     - **Descripción:** *Etiquetas de caja*
     - **Código de paso de oleada:** *Caja*
-    - **Almacén**: *62*
+    - **Almacén** : *62*
 
-1. En la ficha desplegable **General**, en el campo **Tipo de etiqueta de oleada**, seleccione un valor como *Caja*.
-1. En la ficha desplegable **Detalles de plantillas de etiquetas de oleadas**, agregue una fila que tenga la siguiente configuración:
+1. En la ficha desplegable **General** , en el campo **Tipo de etiqueta de oleada** , seleccione un valor como *Caja*.
+1. En la ficha desplegable **Detalles de plantillas de etiquetas de oleadas** , agregue una fila que tenga la siguiente configuración:
 
     - **Id. de diseño de etiqueta:** *Caja*
     - **Nombre de la impresora:** seleccione una impresora ZPL adecuada.
     - **Ejecutar consulta:** *Sí* (Esta configuración es opcional, pero se recomienda para un rendimiento óptimo).
 
 1. En el panel Acciones, seleccione **Guardar**.
-1. Opcional: si está configurando un diseño de etiqueta específico del cliente, debe crear una consulta para encontrar la cuenta del cliente. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada**, seleccione **Editar consulta**. A continuación, agregue una fila que tenga la siguiente configuración dentro de la pestaña **Intervalo**, en el cuadro de diálogo del editor de consultas.
+1. Opcional: si está configurando un diseño de etiqueta específico del cliente, debe crear una consulta para encontrar la cuenta del cliente. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada** , seleccione **Editar consulta**. A continuación, agregue una fila que tenga la siguiente configuración dentro de la pestaña **Intervalo** , en el cuadro de diálogo del editor de consultas.
 
     - **Tabla:** *Envíos*
     - **Tabla derivada:** *Envíos*
@@ -801,7 +801,7 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
     Cuando haya terminado, seleccione **Aceptar** para cerrar el cuadro de diálogo del editor de consultas.
 
 1. En el panel de acciones, seleccione **Editar consulta** para abrir el cuadro de diálogo del editor de consultas para la plantilla de etiqueta completa.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Ordenación**, seleccione una fila que tenga la siguiente configuración.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Ordenación** , seleccione una fila que tenga la siguiente configuración.
 
     - **Tabla:** *Lineas de trabajo*
     - **Tabla derivada:** *Líneas de trabajo*
@@ -818,13 +818,13 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
 1. Seleccione **Aceptar** para cerrar el cuadro de diálogo del editor de consultas.
 1. Un cuadro de mensaje le solicitará que confirme la operación de restablecimiento de la agrupación. Seleccione **Sí** para continuar.
 1. En el panel de acciones, seleccione **Grupo de plantillas de etiquetas de oleadas**.
-1. En el cuadro de diálogo **Grupo de plantillas de etiquetas de oleadas**, en la fila donde el campo **Nombre del campo de referencia** se establece en *Id. del envío*, establezca los siguientes valores:
+1. En el cuadro de diálogo **Grupo de plantillas de etiquetas de oleadas** , en la fila donde el campo **Nombre del campo de referencia** se establece en *Id. del envío* , establezca los siguientes valores:
 
     - **Imprimir etiqueta de interrupción:** seleccione esta casilla.
     - **ID de diseño de etiquetas:** seleccione una etiqueta de interrupción. (Por ejemplo, seleccione el diseño de la etiqueta *Interrupción* que creó anteriormente en este escenario.)
     - **Nombre de la impresora:** seleccione la impresora para la etiqueta de interrupción. (Normalmente, para dividir los rollos de etiquetas, debe seleccionar la misma impresora que está seleccionada en la ficha desplegable **Detalles de plantilla de etiqueta de oleada**. Aún así, pueden darse otros escenarios).
 
-1. Para la fila donde el campo **Nombre del campo de referencia** se establezca en *Identificador de la referencia de la línea de carga*, seleccione la casilla **Id. de compilación de etiqueta**.
+1. Para la fila donde el campo **Nombre del campo de referencia** se establezca en *Identificador de la referencia de la línea de carga* , seleccione la casilla **Id. de compilación de etiqueta**.
 
     > [!NOTE]
     > Esta configuración creará una secuencia de etiquetas ("Caja 1 de X") por línea de carga a lo largo de la oleada, con independencia de la configuración de agrupación de trabajo. Esta secuencia de etiquetas se puede imprimir en un diseño de etiqueta. Además, las etiquetas para diferentes envíos estarán separadas por la etiqueta de interrupción seleccionada.
@@ -835,17 +835,17 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
     - **Nombre de la plantilla de etiqueta:** *Etiquetas de pallet*
     - **Descripción:** *Etiquetas de pallet*
     - **Código de paso de oleada:** *Pallet*
-    - **Almacén**: *62*
+    - **Almacén** : *62*
 
-1. En la ficha desplegable **General**, en el campo **Tipo de etiqueta de oleada**, seleccione un valor como *Pallet*.
-1. En la ficha desplegable **Detalles de plantillas de etiquetas de oleadas**, agregue una fila que tenga la siguiente configuración:
+1. En la ficha desplegable **General** , en el campo **Tipo de etiqueta de oleada** , seleccione un valor como *Pallet*.
+1. En la ficha desplegable **Detalles de plantillas de etiquetas de oleadas** , agregue una fila que tenga la siguiente configuración:
 
     - **Id. de diseño de etiquetas:** *Pallet*
     - **Nombre de la impresora:** seleccione una impresora ZPL adecuada.
     - **Ejecutar consulta:** *Sí* (Esta configuración es opcional, pero se recomienda para un rendimiento óptimo).
 
 1. En el panel Acciones, seleccione **Guardar**.
-1. Opcional: si está configurando un diseño de etiqueta específico del cliente, debe crear una consulta para encontrar la cuenta del cliente. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada**, seleccione **Editar consulta**. A continuación, agregue una fila que tenga la siguiente configuración dentro de la pestaña **Intervalo**, en el cuadro de diálogo del editor de consultas.
+1. Opcional: si está configurando un diseño de etiqueta específico del cliente, debe crear una consulta para encontrar la cuenta del cliente. En la ficha desplegable **Detalles de plantilla de etiqueta de oleada** , seleccione **Editar consulta**. A continuación, agregue una fila que tenga la siguiente configuración dentro de la pestaña **Intervalo** , en el cuadro de diálogo del editor de consultas.
 
     - **Tabla:** *Envíos*
     - **Tabla derivada:** *Envíos*
@@ -855,7 +855,7 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
     Cuando haya terminado, seleccione **Aceptar** para cerrar el cuadro de diálogo del editor de consultas. 
 
 1. En el panel de acciones, seleccione **Editar consulta** para abrir el cuadro de diálogo del editor de consultas para la plantilla de etiqueta completa.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Ordenación**, seleccione una fila que tenga la siguiente configuración.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Ordenación** , seleccione una fila que tenga la siguiente configuración.
 
     - **Tabla:** *Lineas de trabajo*
     - **Tabla derivada:** *Líneas de trabajo*
@@ -872,13 +872,13 @@ Para seguir este escenario, los datos de demostración deben estar instalados y 
 1. Seleccione **Aceptar** para cerrar el cuadro de diálogo del editor de consultas.
 1. Un cuadro de mensaje le solicitará que confirme la operación de restablecimiento de la agrupación. Seleccione **Sí** para continuar.
 1. En el panel de acciones, seleccione **Grupo de plantillas de etiquetas de oleadas**.
-1. En el cuadro de diálogo **Grupo de plantillas de etiquetas de oleadas**, en la fila donde el campo **Nombre del campo de referencia** se establece en *Id. del envío*, establezca los siguientes valores:
+1. En el cuadro de diálogo **Grupo de plantillas de etiquetas de oleadas** , en la fila donde el campo **Nombre del campo de referencia** se establece en *Id. del envío* , establezca los siguientes valores:
 
     - **Imprimir etiqueta de interrupción:** seleccione esta casilla.
     - **ID de diseño de etiquetas:** seleccione una etiqueta de interrupción. (Por ejemplo, seleccione el diseño de la etiqueta *Interrupción* que creó anteriormente en este escenario.)
     - **Nombre de la impresora:** seleccione la impresora para la etiqueta de interrupción. (Normalmente, para dividir los rollos de etiquetas, debe seleccionar la misma impresora que está seleccionada en la ficha desplegable **Detalles de plantilla de etiqueta de oleada**. Aún así, pueden darse otros escenarios).
 
-1. Para la fila donde el campo **Nombre del campo de referencia** se establezca en *Identificador de la referencia de la línea de carga*, seleccione la casilla **Id. de compilación de etiqueta**.
+1. Para la fila donde el campo **Nombre del campo de referencia** se establezca en *Identificador de la referencia de la línea de carga* , seleccione la casilla **Id. de compilación de etiqueta**.
 
     > [!NOTE]
     > Esta configuración creará una secuencia de etiquetas ("Caja 1 de X") por línea de carga a lo largo de la oleada, con independencia de la configuración de agrupación de trabajo. Esta secuencia de etiquetas se puede imprimir en un diseño de etiqueta. Además, las etiquetas para diferentes envíos estarán separadas por la etiqueta de interrupción seleccionada.
@@ -893,7 +893,7 @@ Las extensiones de secuencias numéricas controlan el cumplimiento GS1 de secuen
 1. Cree un pedido de ventas con la siguiente configuración:
 
     - **Cuenta de cliente:** *US-001*
-    - **Almacén**: *62*
+    - **Almacén** : *62*
 
 1. Agrega dos líneas de pedidos de ventas:
 
@@ -912,10 +912,10 @@ Las extensiones de secuencias numéricas controlan el cumplimiento GS1 de secuen
     > [!NOTE]
     > Los artículos y cantidades que se proporcionan aquí son solo ejemplos. Deben usar el grupo de secuencias de unidades que ha definido anteriormente, las conversiones de unidades adecuadas de *ea* a *Caja* a *PL* deben definirse para ellas, y deben tener existencias en el almacén *62*. Para más información, consulte [Directivas de unidad de medida y de existencias](unit-measure-stocking-policies.md).
 
-1. Seleccione la línea de pedido de ventas 1. A continuación, en la sección **Línea de pedido de ventas**, en el menú **Inventario**, seleccione **Reservas**.
-1. En la página **Reserva**, en el panel de acciones, seleccione **Reservar lote** y después cierre la página.
+1. Seleccione la línea de pedido de ventas 1. A continuación, en la sección **Línea de pedido de ventas** , en el menú **Inventario** , seleccione **Reservas**.
+1. En la página **Reserva** , en el panel de acciones, seleccione **Reservar lote** y después cierre la página.
 1. Repita los pasos 4 y 5 para la línea de pedido de ventas 2.
-1. En el panel de acciones, en la pestaña **Almacén**, seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén** , seleccione **Liberar al almacén**.
 
     Se producen los eventos siguientes: 
 

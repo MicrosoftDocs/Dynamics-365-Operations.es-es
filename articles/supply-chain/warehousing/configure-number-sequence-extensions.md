@@ -8,7 +8,7 @@ ms.topic: configure-number-sequence-extensions
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSNumberSequenceExtension
+ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 2512fc9b530530a9f82995a9eefcd59bbd518d96
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: cee5047a8c80aa850d9dd1bb872188a822ba8328
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975401"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016134"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurar secuencias numéricas para flujos de almacén
 
@@ -52,8 +52,8 @@ Antes de poder usar la característica debe estar activada en su sistema. Los ad
 Para configurar extensiones de secuencia numérica en su sistema, siga estos pasos.
 
 1. Vaya a **Gestión de almacenes \> Configuración \> Parámetros de gestión de almacenes**.
-1. En la pestaña **General**, en el campo **Prefijo GS1 de la empresa** ingrese el prefijo GS1 de su empresa. Este valor afectará a todas las secuencias numéricas donde el prefijo GS1 se incluye como un segmento.
-1. Si desea generar números BOL para etiquetas de oleada, en la pestaña **Informes**, seleccione la casilla de verificación **Generar número de BOL al imprimir etiquetas de oleada**.
+1. En la pestaña **General** , en el campo **Prefijo GS1 de la empresa** ingrese el prefijo GS1 de su empresa. Este valor afectará a todas las secuencias numéricas donde el prefijo GS1 se incluye como un segmento.
+1. Si desea generar números BOL para etiquetas de oleada, en la pestaña **Informes** , seleccione la casilla de verificación **Generar número de BOL al imprimir etiquetas de oleada**.
 
     > [!NOTE]
     > Esta casilla de verificación solo está disponible si la funcionalidad para [impresión de etiquetas de oleada](configure-wave-label-printing.md) está activada.
@@ -64,7 +64,7 @@ Para configurar extensiones de secuencia numérica en su sistema, siga estos pas
     Para obtener más información sobre cómo personalizar estas secuencias numéricas predeterminadas y/o agregar nuevas secuencias, consulte la siguiente sección. También puede eliminar cualquiera de estas secuencias si no las necesita.
 
 1. Vuelva a **Gestión de almacenes \> Configuración \> Parámetros de gestión de almacenes**.
-1. En la pestaña **Secuencias numéricas**, seleccione una extensión de secuencia de números relevante que usará para generar números para sus ID de matrícula, ID de etiqueta de oleada, ID de contenedor (en este caso, seleccione la secuencia **Número SSCC-18** apropiada) y/o ID de BOL (en este caso, seleccione la secuencia **BOL**). De forma predeterminada, las extensiones de secuencia numérica solo son compatibles con estos cuatro tipos de ID.
+1. En la pestaña **Secuencias numéricas** , seleccione una extensión de secuencia de números relevante que usará para generar números para sus ID de matrícula, ID de etiqueta de oleada, ID de contenedor (en este caso, seleccione la secuencia **Número SSCC-18** apropiada) y/o ID de BOL (en este caso, seleccione la secuencia **BOL** ). De forma predeterminada, las extensiones de secuencia numérica solo son compatibles con estos cuatro tipos de ID.
 
 La próxima vez que se genere un nuevo número para una de estas secuencias numéricas, se utilizará la nueva lógica.
 
@@ -79,16 +79,16 @@ Para crear y editar secuencias numéricas, siga estos pasos.
 
 1. Vaya a **Gestión de almacenes** \> **Configuración** \> **Extensiones de secuencia numérica**.
 1. En el panel de acciones, haga clic en **Nueva**.
-1. En el campo **Extensión de secuencia numérica**, escriba el nombre de la nueva secuencia. En el campo **Descripción**, escriba una descripción.
-1. En la ficha desplegable **Segmentos**, use los botones en la barra de herramientas para ensamblar su formato de numeración agregando, eliminando y organizando los segmentos. En el campo **Segmento** de cada fila, asigne un tipo de segmento para definir el propósito y el contenido de ese segmento. En la tabla siguiente se describen los tipos de segmentos disponibles.
+1. En el campo **Extensión de secuencia numérica** , escriba el nombre de la nueva secuencia. En el campo **Descripción** , escriba una descripción.
+1. En la ficha desplegable **Segmentos** , use los botones en la barra de herramientas para ensamblar su formato de numeración agregando, eliminando y organizando los segmentos. En el campo **Segmento** de cada fila, asigne un tipo de segmento para definir el propósito y el contenido de ese segmento. En la tabla siguiente se describen los tipos de segmentos disponibles.
 
     | Tipo de segmento | Descripción |
     |---|---|
-    | Constante | Este tipo de segmento agrega el mismo texto constante a cada número generado en la secuencia. En el campo **Valor**, escriba el texto necesario. El campo **Longitud** se actualiza automáticamente a la longitud del texto introducido en el campo **Valor**. |
-    | Secuencia numérica | En el campo **Valor**, escriba un signo de número (*\#*) para cada carácter que debe mostrarse en la secuencia generada. La secuencia numérica en sí misma puede generar números más largos, pero solo se mostrarán los caracteres más a la derecha. El campo **Longitud** se actualiza automáticamente al número o los signos de número introducidos en el campo **Valor**.<p>Para cumplir con los requisitos de GS1 en los números SSCC-18, asegúrese de que la longitud de este segmento sea 16 menos la longitud de su prefijo GS1.</p> |
+    | Constante | Este tipo de segmento agrega el mismo texto constante a cada número generado en la secuencia. En el campo **Valor** , escriba el texto necesario. El campo **Longitud** se actualiza automáticamente a la longitud del texto introducido en el campo **Valor**. |
+    | Secuencia numérica | En el campo **Valor** , escriba un signo de número ( *\#* ) para cada carácter que debe mostrarse en la secuencia generada. La secuencia numérica en sí misma puede generar números más largos, pero solo se mostrarán los caracteres más a la derecha. El campo **Longitud** se actualiza automáticamente al número o los signos de número introducidos en el campo **Valor**.<p>Para cumplir con los requisitos de GS1 en los números SSCC-18, asegúrese de que la longitud de este segmento sea 16 menos la longitud de su prefijo GS1.</p> |
     | Prefijo GS1 | Este tipo de segmento agrega el valor que se establece en el campo **Prefijo GS1 de la empresa** en la página **Parámetros de gestión de almacenes**. El campo **Valor** muestra el valor establecido en la página **Parámetros de gestión de almacenes** y el campo **Longitud** muestra el número de caracteres en el valor. Tanto el campo **Valor** como el campo **Longitud** son de solo lectura. |
-    | Identificador de la aplicación | En el campo **Valor**, escriba un identificador de aplicación, según lo especificado en la política GS1 relevante para este tipo de secuencia numérica. Por ejemplo, introduzca *00* para SSCC o *420* para BOL. El campo **Longitud** se actualiza automáticamente a la longitud del identificador introducido en el campo **Valor**. |
-    | Tipo de embalaje | En los elementos que pueden identificarse claramente, este tipo de segmento agrega un valor de campo del grupo de secuencia de unidades relevante (de la página **Grupos de secuencias de unidades**). (Este comportamiento coincide con la lógica existente de los ID de matrículas). En las matrículas que incluyen múltiples referencias de almacén (SKU), este tipo de segmento agrega *0* (cero) de manera predeterminada. En este tipo de segmento, el campo **Valor** siempre se establece en *P* y el campo **Longitud** siempre se establece en *1*.|
-    | Dígito control | Este tipo de segmento agrega un dígito de control que es un cálculo de módulo 10. (Este comportamiento coincide con la lógica existente de los ID de matrículas). En este tipo de segmento, el campo **Valor** siempre se establece en un intercalado (*^*) y el campo **Longitud** siempre se establece en *1*. |
+    | Identificador de la aplicación | En el campo **Valor** , escriba un identificador de aplicación, según lo especificado en la política GS1 relevante para este tipo de secuencia numérica. Por ejemplo, introduzca *00* para SSCC o *420* para BOL. El campo **Longitud** se actualiza automáticamente a la longitud del identificador introducido en el campo **Valor**. |
+    | Tipo de embalaje | En los elementos que pueden identificarse claramente, este tipo de segmento agrega un valor de campo del grupo de secuencia de unidades relevante (de la página **Grupos de secuencias de unidades** ). (Este comportamiento coincide con la lógica existente de los ID de matrículas). En las matrículas que incluyen múltiples referencias de almacén (SKU), este tipo de segmento agrega *0* (cero) de manera predeterminada. En este tipo de segmento, el campo **Valor** siempre se establece en *P* y el campo **Longitud** siempre se establece en *1*.|
+    | Dígito control | Este tipo de segmento agrega un dígito de control que es un cálculo de módulo 10. (Este comportamiento coincide con la lógica existente de los ID de matrículas). En este tipo de segmento, el campo **Valor** siempre se establece en un intercalado ( *^* ) y el campo **Longitud** siempre se establece en *1*. |
 
 1. Para ver un ejemplo de su formato de número final, inspeccione el campo **Formato** en la parte inferior de la ficha desplegable **Segmentos**.

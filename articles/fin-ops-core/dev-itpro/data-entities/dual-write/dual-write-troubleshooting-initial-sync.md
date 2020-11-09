@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443858"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997335"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante la sincronización
 
@@ -37,7 +36,7 @@ Este tema proporciona información para solución de problemas de integración d
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Verificar los errores de sincronización inicial en una aplicación Finance and Operations
 
-Después de habilitar las plantillas de asignación, el estado de los mapas debe ser **Ejecutando**. Si el estado es **No ejecutando**, se produjeron errores durante la sincronización inicial. Para ver los errores, seleccione la pestaña **Detalles de sincronización inicial** en la página **Escritura doble**.
+Después de habilitar las plantillas de asignación, el estado de los mapas debe ser **Ejecutando**. Si el estado es **No ejecutando** , se produjeron errores durante la sincronización inicial. Para ver los errores, seleccione la pestaña **Detalles de sincronización inicial** en la página **Escritura doble**.
 
 ![Error en la pestaña Detalles de sincronización inicial](media/initial_sync_status.png)
 
@@ -73,7 +72,7 @@ Si este error ocurre de manera constante y no puede completar la sincronización
 
 1. Inicie sesión en la máquina virtual (VM) para la aplicación Finance and Operations.
 2. Abra Microsoft Management Console.
-3. En el panel **Servicios**, asegúrese de que el servicio de exportación de marco de Microsoft Dynamics 365 Data se está ejecutando. Reinícielo si se ha detenido, porque la sincronización inicial lo requiere.
+3. En el panel **Servicios** , asegúrese de que el servicio de exportación de marco de Microsoft Dynamics 365 Data se está ejecutando. Reinícielo si se ha detenido, porque la sincronización inicial lo requiere.
 
 ## <a name="initial-synchronization-error-403-forbidden"></a>Error de sincronización inicial: 403 Prohibido
 
@@ -84,7 +83,7 @@ Es posible que reciba el siguiente mensaje de error durante la sincronización i
 Para arreglar el problema, siga estos pasos.
 
 1. Iniciar sesión en la aplicación Finance and Operations.
-2. En la págona **aplicaciones Azure Active Directory**, elimine el cliente **DtAppID**, y luego agréguelo nuevamente.
+2. En la págona **aplicaciones Azure Active Directory** , elimine el cliente **DtAppID** , y luego agréguelo nuevamente.
 
 ![Cliente DtAppID en la lista de aplicaciones de Azure AD](media/aad_applications.png)
 
@@ -112,7 +111,7 @@ Si tiene registros con valores en estos campos en la entidad del proveedor, en l
 
 1. En la aplicación Finance and Operations, elimine los campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** de la asignación y guarde la asignación.
 
-    1. En la página de asignación de doble escritura para **Proveedores V2 (msdyn\_vendors)**, en la pestaña **Asignaciones de entidades**, en el filtro izquierdo, seleccione **Finance and Operationsapps.Vendors V2**. En el filtro derecho, seleccione **Sales.Vendor**.
+    1. En la página de asignación de doble escritura para **Proveedores V2 (msdyn\_vendors)** , en la pestaña **Asignaciones de entidades** , en el filtro izquierdo, seleccione **Finance and Operationsapps.Vendors V2**. En el filtro derecho, seleccione **Sales.Vendor**.
     2. Busque **primarycontactperson** para encontrar el campo de origen **PrimaryContactPersonId**.
     3. Seleccione **Acciones** y luego seleccione **Eliminar**.
 
@@ -126,7 +125,7 @@ Si tiene registros con valores en estos campos en la entidad del proveedor, en l
 
 2. Active el seguimiento de cambios para la entidad **Proveedores V2**.
 
-    1. En espacio de trabajo **Administración de datos**, seleccione la ventana **Entidades de datos**.
+    1. En espacio de trabajo **Administración de datos** , seleccione la ventana **Entidades de datos**.
     2. Seleccione la entidad **Proveedores V2**.
     3. En el panel de acciones, seleccione **Opciones** y después seleccione **Change Tracking**.
 
@@ -159,7 +158,7 @@ Si tiene registros en la entidad cliente con valores en los campos **ContactPers
 
 1. En la aplicación Finance and Operations, elimine los campos **ContactPersonId** e **InvoiceAccount** de la asignación **Clientes V3 (cuentas)** y guarde la asignación.
 
-    1. En la página de mapeo de doble escritura para **Clientes V3 (cuentas)**, en la pestaña **Asignaciones de entidades**. En el filtro izquierdo, seleccione **Finance and Operations app.Customers V3**. En el filtro derecho, seleccione **Common Data Service.Account**.
+    1. En la página de mapeo de doble escritura para **Clientes V3 (cuentas)** , en la pestaña **Asignaciones de entidades**. En el filtro izquierdo, seleccione **Finance and Operations app.Customers V3**. En el filtro derecho, seleccione **Common Data Service.Account**.
     2. Busque **contactperson** para encontrar el campo de origen **ContactPersonID**.
     3. Seleccione **Acciones** y luego seleccione **Eliminar**.
 
@@ -173,7 +172,7 @@ Si tiene registros en la entidad cliente con valores en los campos **ContactPers
 
 2. Active el seguimiento de cambios para la entidad **Clientes V3**.
 
-    1. En espacio de trabajo **Administración de datos**, seleccione la ventana **Entidades de datos**.
+    1. En espacio de trabajo **Administración de datos** , seleccione la ventana **Entidades de datos**.
     2. Seleccione la entidad **Clientes V3**.
     3. En el panel de acciones, seleccione **Opciones** y después seleccione **Change Tracking**.
 
@@ -187,7 +186,7 @@ Si tiene registros en la entidad cliente con valores en los campos **ContactPers
 4. Ejecute la sincronización inicial para la asignación **Contactos CDS V2 (contactos)**.
 
     > [!NOTE]
-    > Hay dos asignaciones que tienen el mismo nombre. Asegúrese de seleccionar la asignación tenga la descripción siguiente en la pestaña **Detalles**: **Plantilla de doble escritura para sincronización entre Contactos de proveedor FO.CDS V2 con CDS.Contacts. Requiere nuevo paquete \[Dynamics365SupplyChainExtended\].**
+    > Hay dos asignaciones que tienen el mismo nombre. Asegúrese de seleccionar la asignación tenga la descripción siguiente en la pestaña **Detalles** : **Plantilla de doble escritura para sincronización entre Contactos de proveedor FO.CDS V2 con CDS.Contacts. Requiere nuevo paquete \[Dynamics365SupplyChainExtended\].**
 
 5. Vuelva a agregar los campos **InvoiceAccount** y **ContactPersonId** a la asignación **Clientes V3 (Cuentas)** y guarde la asignación. Tanto el campo **InvoiceAccount** como el campo **ContactPersonId** vuelven a ser parte del modo de sincronización en vivo. En el siguiente paso, completará la sincronización inicial para estos campos.
 6. Ejecute otra vez la sincronización inicial para la asignación **Clientes V3 (Cuentas)**. Debido a que el seguimiento de cambios está deshabilitado, los datos para **InvoiceAccount** y **ContactPersonId** se sincronizarán desde la aplicación Finance and Operations a Common Data Service.
@@ -203,7 +202,7 @@ Si tiene registros en la entidad cliente con valores en los campos **ContactPers
 
         > [NOTA] Si el botón del filtro no está presente, cree un ticket de soporte para solicitar al equipo de integración de datos que habilite la capacidad de filtro en su inquilino.
 
-        Si no especifica una consulta de filtro para **\_msdyn\_company\_value**, entonces todos los registros se sincronizarán.
+        Si no especifica una consulta de filtro para **\_msdyn\_company\_value** , entonces todos los registros se sincronizarán.
 
         ![Agregar una consulta de filtro](media/cust_selfref7.png)
 

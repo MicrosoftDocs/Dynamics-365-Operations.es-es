@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728422"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997535"
 ---
 # <a name="company-concept-in-common-data-service"></a>Concepto de empresa en Common Data Service
 
@@ -33,7 +32,7 @@ ms.locfileid: "3728422"
 
 En Finance and Operations, el concepto *empresa* es una construcción legal y una construcción empresarial. También es un límite de seguridad y visibilidad para los datos. Los usuarios trabajan siempre en el contexto de una sola empresa y la mayoría de los datos se clasifican por empresa.
 
-Common Data Service no tiene un concepto equivalente. El concepto más cercano es *unidad de negocio*, que es un límite principalmente de seguridad y de visibilidad para los datos de usuario. Este concepto no tiene las mismas implicaciones legales o empresariales que el concepto de empresa.
+Common Data Service no tiene un concepto equivalente. El concepto más cercano es *unidad de negocio* , que es un límite principalmente de seguridad y de visibilidad para los datos de usuario. Este concepto no tiene las mismas implicaciones legales o empresariales que el concepto de empresa.
 
 Dado que la unidad de negocio y la empresa no son conceptos equivalentes, no es posible forzar una asignación uno a uno (1: 1) entre ellos para el propósito de la integración de Common Data Service. Sin embargo, dado que los usuarios deben, de forma predeterminada, poder ver los mismos registros en la aplicación y Common Data Service, Microsoft ha introducido una nueva entidad en Common Data Service que se denomina cdm\_Company. Esta entidad es equivalente a la entidad de empresa en la aplicación. Para ayudar a garantizar que la visibilidad de registros es equivalente entre la aplicación y Common Data Service de forma inmediata, se recomienda la siguiente configuración para los datos en Common Data Service:
 
@@ -78,11 +77,11 @@ La integración de Common Data Service aporta paridad a la empresa mediante un i
 
 Hay varias formas de completar automáticamente el nombre de la empresa en las aplicaciones de involucración del cliente.
 
-+ Si es administrador del sistema, puede configurar la empresa predeterminada navegando a **Configuración avanzada > Sistema > Seguridad > Usuarios**. Abra el formulario **Usuario** y, en la sección **Información de la organización**, configure el valor **Empresa predeterminada en formularios**.
++ Si es administrador del sistema, puede configurar la empresa predeterminada navegando a **Configuración avanzada > Sistema > Seguridad > Usuarios**. Abra el formulario **Usuario** y, en la sección **Información de la organización** , configure el valor **Empresa predeterminada en formularios**.
 
     :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Establezca la empresa predeterminada en la sección Información de la organización.":::
 
-+ Si tiene acceso de **Escribir** a la entidad **SystemUser** para el nivel **Unidad de negocio**, puede cambiar la empresa predeterminada en cualquier formulario seleccionando una empresa en el menú desplegable **Empresa**.
++ Si tiene acceso de **Escribir** a la entidad **SystemUser** para el nivel **Unidad de negocio** , puede cambiar la empresa predeterminada en cualquier formulario seleccionando una empresa en el menú desplegable **Empresa**.
 
     :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Cambio del nombre de la empresa en una nueva cuenta.":::
 
@@ -93,7 +92,7 @@ Hay varias formas de completar automáticamente el nombre de la empresa en las a
 + Si es un configurador o administrador del sistema y desea completar automáticamente los datos de la empresa en un formulario personalizado, puede usar [eventos de formulario](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Agregue una referencia de JavaScript a **msdyn_ /DefaultCompany.js** y utilice los siguientes eventos. Puede utilizar cualquier formulario listo para usar, por ejemplo, el formulario **Cuenta**.
 
     + Evento **OnLoad** para el formulario: establezca el campo **defaultCompany**.
-    + Evento **OnChange** para el campo **Empresa**: establezca el campo **updateDefaultCompany**.
+    + Evento **OnChange** para el campo **Empresa** : establezca el campo **updateDefaultCompany**.
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>Aplicar filtros basados en el contexto de la empresa
 

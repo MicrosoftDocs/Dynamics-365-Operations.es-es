@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae6b36c40d2f2f9e5266dfb3e2d1cbbb57755222
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803100"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014944"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Instalar el complemento Inteligencia IoT en LCS
 
@@ -35,14 +35,14 @@ Este tema explica cómo instalar el complemento Inteligencia IoT en Microsoft Dy
 1. Abra LCS y vaya a su entorno Microsoft Dynamics 365 Supply Chain Management.
 2. Desplácese a la sección **Complementos del entorno**.
 3. Seleccione **Instalar un nuevo complemento** para mostrar la lista de complementos que se han habilitado para el entorno.
-4. En el cuadro de diálogo **Seleccionar un complemento para instalar**, seleccione **Inteligencia IoT**.
-5. En el cuadro de diálogo **Configurar complemento**, proporcione los detalles de su centro de IoT y caché Redis. Puede encontrar los valores necesarios en el almacén de claves que creó en [Crear recursos de Azure](iot-azure-setup.md).
+4. En el cuadro de diálogo **Seleccionar un complemento para instalar** , seleccione **Inteligencia IoT**.
+5. En el cuadro de diálogo **Configurar complemento** , proporcione los detalles de su centro de IoT y caché Redis. Puede encontrar los valores necesarios en el almacén de claves que creó en [Crear recursos de Azure](iot-azure-setup.md).
 
-    + **Id. de inquilino**: en Azure Portal, vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Resumen** y copie el valor **Id. de directorio**. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
-    + **URI de almacén de claves de punto final compatible con IoT Event Hub**: vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Resumen** y copie el valor **Nombre DNS**. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
-    + **Nombre secreto de punto final compatible con IoT Event Hub**: vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Secretos** y copie el nombre del secreto donde se almacena la cadena de conexión del centro de eventos para el centro de IoT. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
-    + **URI de almacén de claves de caché Redis**: vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Resumen** y copie el valor **Nombre DNS**. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
-    + **Nombre secreto de punto final de caché Redis**: vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Secretos** y copie el nombre del secreto donde se almacena la cadena de la caché Redis. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
+    + **Id. de inquilino** : en Azure Portal, vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Resumen** y copie el valor **Id. de directorio**. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
+    + **URI de almacén de claves de punto final compatible con IoT Event Hub** : vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Resumen** y copie el valor **Nombre DNS**. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
+    + **Nombre secreto de punto final compatible con IoT Event Hub** : vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Secretos** y copie el nombre del secreto donde se almacena la cadena de conexión del centro de eventos para el centro de IoT. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
+    + **URI de almacén de claves de caché Redis** : vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Resumen** y copie el valor **Nombre DNS**. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
+    + **Nombre secreto de punto final de caché Redis** : vaya al almacén de claves y luego, en el panel de navegación izquierdo, seleccione **Secretos** y copie el nombre del secreto donde se almacena la cadena de la caché Redis. Pegue ese valor en el cuadro de diálogo **Configurar complemento**.
 
 6. Seleccione la casilla de verificación para aceptar los términos y condiciones.
 7. Seleccione **Instalar**.
@@ -52,7 +52,7 @@ La configuración de LCS ya está completa. El siguiente paso es [configurar los
 
 ## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Desinstalar el complemento
 
-1. En Supply Chain Management, [desactive los escenarios](iot-scenario-setup.md#how-to-disable-a-scenario).
+1. En Supply Chain Management, [desactive los escenarios](iot-scenario-setup.md#disable-a-scenario).
 2. En LCS, vaya a sus detalles de Supply Chain Management.
 3. Desplácese a la sección **Complementos del entorno**.
 4. Seleccione **Desinstalar** para el complemento Inteligencia IoT.

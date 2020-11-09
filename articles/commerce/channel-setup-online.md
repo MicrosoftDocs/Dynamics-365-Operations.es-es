@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533330"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107239"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar un canal en línea
 
@@ -45,15 +45,15 @@ Para crear y configurar un nuevo canal en línea, siga estos pasos.
 
 1. En el panel de navegación, vaya a **Módulos \> Canales \> Tiendas en línea**.
 1. En el panel de acciones, seleccione **Nueva**.
-1. En el campo **Nombre**, escriba un nombre para el nuevo canal.
-1. En la lista desplegable **Entidad jurídica**, introduzca la entidad jurídica correspondiente.
-1. En la lista desplegable **Almacén**, introduzca el almacén apropiado.
-1. En el campo **Zona horaria de la tienda**, seleccione la zona horaria apropiada.
-1. En el campo **Divisa**, seleccione la divisa apropiada.
-1. En el campo **Cliente predeterminado**, especifique un cliente predeterminado válido.
-1. En el campo **Libreta de direcciones de cliente**, especifique una libreta de direcciones válida.
-1. En el campo **Perfil de funcionalidad**, seleccione un perfil de funcionalidad si corresponde.
-1. En el campo **Perfil de notificación por correo electrónico**, proporcione un perfil de notificación de correo electrónico válido.
+1. En el campo **Nombre** , escriba un nombre para el nuevo canal.
+1. En la lista desplegable **Entidad jurídica** , introduzca la entidad jurídica correspondiente.
+1. En la lista desplegable **Almacén** , introduzca el almacén apropiado.
+1. En el campo **Zona horaria de la tienda** , seleccione la zona horaria apropiada.
+1. En el campo **Divisa** , seleccione la divisa apropiada.
+1. En el campo **Cliente predeterminado** , especifique un cliente predeterminado válido.
+1. En el campo **Libreta de direcciones de cliente** , especifique una libreta de direcciones válida.
+1. En el campo **Perfil de funcionalidad** , seleccione un perfil de funcionalidad si corresponde.
+1. En el campo **Perfil de notificación por correo electrónico** , proporcione un perfil de notificación de correo electrónico válido.
 1. En el panel de acciones, seleccione **Guardar**.
 
 La siguiente imagen muestra la creación de un nuevo canal en línea.
@@ -72,11 +72,11 @@ Si su sitio de comercio electrónico admite varios idiomas, expanda la sección 
 
 En la sección **Cuenta de pago** puede agregar un proveedor de pagos de terceros. Para obtener información sobre cómo configurar un conector de pagos de Adyen, consulte [Conector de pagos de Dynamics 365 para Adyen](../retail/dev-itpro/adyen-connector.md).
 
-## <a name="additional-channel-set-up"></a>Configuración adicional de canal
+## <a name="additional-channel-setup"></a>Configuración de canal adicional
 
 Las tareas adicionales requeridas para la configuración del canal en línea incluyen: configuración de métodos de pago, modos de entrega y asignación de grupo de cumplimiento.
 
-La siguiente imagen muestra las opciones de configuración **Modos de entrega**, **Métodos de pago** y **Asignación de grupo de cumplimiento** en la pestaña **Configurar**.
+La siguiente imagen muestra las opciones de configuración **Modos de entrega** , **Métodos de pago** y **Asignación de grupo de cumplimiento** en la pestaña **Configurar**.
 
 ![Acciones adicionales de configuración de canales en línea](media/channel-setup-online-3.png)
 
@@ -87,7 +87,7 @@ Para configurar métodos de pago, siga los pasos siguientes para cada tipo de pa
 1. En el panel de acciones, seleccione la pestaña **Configurar** y, a continuación, seleccione **Métodos de pago**.
 1. En el panel de acciones, seleccione **Nueva**.
 1. En el panel de navegación, seleccione el método de pago deseado.
-1. En la sección **General**, proporcione un **Nombre de la operación** y configure las otras opciones de configuración que desee.
+1. En la sección **General** , proporcione un **Nombre de la operación** y configure las otras opciones de configuración que desee.
 1. Configure opciones de configuración adicionales según sea necesario para el tipo de pago.
 1. En el panel de acciones, seleccione **Guardar**.
 
@@ -103,7 +103,7 @@ Para cambiar o agregar un modo de entrega, siga estos pasos.
 
 1. En el panel de navegación, vaya a **Módulos \> Gestión de inventarios \> Modos de entrega**.
 1. En el panel de acciones, seleccione **Nuevo** para crear un nuevo modo de entrega o seleccionar un modo existente.
-1. En la sección **Canales comerciales**, seleccione **Agregar línea** para agregar el canal. Agregar canales utilizando nodos de organización en lugar de agregar cada canal individualmente puede simplificar la adición de canales.
+1. En la sección **Canales comerciales** , seleccione **Agregar línea** para agregar el canal. Agregar canales utilizando nodos de organización en lugar de agregar cada canal individualmente puede simplificar la adición de canales.
 
 En la imagen siguiente se muestra un ejemplo de mode de entrega.
 
@@ -115,8 +115,8 @@ Para configurar una asignación de grupo de cumplimiento, siga estos pasos.
 
 1. En el panel de acciones, seleccione la pestaña **Configurar** y, a continuación, seleccione **Asignación de grupo de cumplimiento**.
 1. En el panel de acciones, seleccione **Nueva**.
-1. En la lista desplegable **Grupo de cumplimiento**, seleccione un grupo de cumplimiento.
-1. En la lista desplegable **Descripción**, escriba una descripción.
+1. En la lista desplegable **Grupo de cumplimiento** , seleccione un grupo de cumplimiento.
+1. En la lista desplegable **Descripción** , escriba una descripción.
 1. En el panel de acciones, seleccione **Guardar**.
 
 La siguiente imagen muestra un ejemplo de configuración de asignación de grupo de cumplimiento.

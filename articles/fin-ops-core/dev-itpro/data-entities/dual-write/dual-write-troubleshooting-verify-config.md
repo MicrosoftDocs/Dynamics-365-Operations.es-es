@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2f2ba2564ad3e8e444e27fcc0c586ddf252afabd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 2ddac76871a3ac574a1edcb5446be6c64e5e4682
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172654"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997239"
 ---
 # <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-common-data-service"></a>Verifique que la doble escritura esté configurada en aplicaciones Finance and Operations y Common Data Service
 
@@ -40,9 +39,9 @@ Para determinar si los errores que ve cuando intenta guardar registros para la a
 
 + Si tiene privilegios de administrador en la aplicación Finance and Operations, vaya a **Espacios de trabajo \> Gestión de datos** y seleccione el mosaico **Doble escritura**. Si se muestran los detalles de los entornos vinculados y la lista de mapas de entidades que se están ejecutando, se configura la escritura doble.
 
-    ![Verificando la conexión de la aplicación Finance and Operations cuando tiene privilegios de administrador](media/verify_fin_ops_1.png)
+    ![Comprobar la conexión de la aplicación Finance and Operations con privilegios de administrador](media/verify_fin_ops_1.png)
 
-+ Si no tiene privilegios de administrador, recibirá un mensaje de error, *No se pueden escribir datos en la entidad \<nombre de la entidad\>*. En el ejemplo de la siguiente ilustración, no puede crear un registro de cliente en la aplicación Finance and Operations, porque la escritura doble está configurada, pero el grupo de clientes y los datos de referencia de términos de pago no existen en Common Data Service.
++ Si no tiene privilegios de administrador, aparecerá un mensaje de error: *No se pueden escribir datos en la entidad nombre de la entidad \<entity name\>*. En el ejemplo de la siguiente ilustración, no puede crear un registro de cliente en la aplicación Finance and Operations, porque la escritura doble está configurada, pero el grupo de clientes y los datos de referencia de términos de pago no existen en Common Data Service.
 
     ![Verificando la conexión de la aplicación Finance and Operations cuando no tiene privilegios de administrador](media/verify_fin_ops_2.png)
 

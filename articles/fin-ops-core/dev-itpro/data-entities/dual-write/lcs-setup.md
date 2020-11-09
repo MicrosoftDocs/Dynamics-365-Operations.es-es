@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173001"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998117"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuración de doble escritura desde Lifecycle Services
 
@@ -50,12 +49,12 @@ Siga estos pasos para configurar una conexión de doble escritura.
 3. Seleccione la versión. 
 4. Seleccione la topología. Si solo hay una topología disponible, se selecciona automáticamente.
 5. Complete los primeros pasos en el asistente **Configuraciones de implementación**.
-6. En la pestaña **Common Data Service**, siga uno de estos pasos:
+6. En la pestaña **Common Data Service** , siga uno de estos pasos:
 
     - Si un entorno Common Data Service ya está aprovisionado para su inquilino, puede seleccionarlo.
 
         1. Establezca la opción **Configurar Common Data Service** a **Sí**.
-        2. En el campo **Entornos disponibles**, seleccione el entorno para integrar con sus datos Finance and Operations. La lista incluye todos los entornos donde tiene privilegios de administrador.
+        2. En el campo **Entornos disponibles** , seleccione el entorno para integrar con sus datos Finance and Operations. La lista incluye todos los entornos donde tiene privilegios de administrador.
         3. Selecciona la casilla de verificación **De acuerdo** para indicar que está de acuerdo con los términos y condiciones.
 
         ![Pestaña Common Data Service cuando un entorno Common Data Service ya está aprovisionado para su inquilino](../dual-write/media/lcs_setup_1.png)
@@ -75,7 +74,7 @@ Siga estos pasos para configurar una conexión de doble escritura.
         ![Pestaña Common Data Service cuando su inquilino aún no tiene un entorno Common Data Service](../dual-write/media/lcs_setup_2.png)
 
 7. Complete los pasos restantes en el asistente **Configuraciones de implementación**.
-8. Después de que el entorno tenga un estado de **Implementado**, abra la página de detalles del entorno. La sección **Información del entorno de Common Data Service** muestra los nombres de entorno Finance and Operations y el entorno Common Data Service que están vinculados.
+8. Después de que el entorno tenga un estado de **Implementado** , abra la página de detalles del entorno. La sección **Información del entorno de Common Data Service** muestra los nombres de entorno Finance and Operations y el entorno Common Data Service que están vinculados.
 
     ![Sección de información de entorno de Common Data Service](../dual-write/media/lcs_setup_3.png)
 

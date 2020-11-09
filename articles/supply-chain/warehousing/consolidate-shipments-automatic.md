@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f4d095456435a3401daa173d79b80b81176a3c17
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987127"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016871"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Consolidar los envíos cuando se despachan al almacén mediante Despacho automático de pedidos de ventas
 
@@ -56,7 +56,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 #### <a name="sales-order-1-2"></a>Pedido de ventas 1-2
@@ -68,7 +68,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 #### <a name="sales-order-1-3"></a>Pedido de ventas 1-3
@@ -80,12 +80,12 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Agregue un segundo pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0002* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0002* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
     - **Modo de entrega:** *Airwa-Air*
 
@@ -99,12 +99,12 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *M9200* (un artículo donde el filtro **Código 4** está establecido en *Inflamable*)
+    - **Número de artículo:** *M9200* (un artículo donde el filtro **Código 4** está establecido en *Inflamable* )
     - **Cantidad:** *1.00*
 
 1. Agregue un segundo pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *M9201* (un artículo donde el filtro **Código 4** está establecido en *Explosivo*)
+    - **Número de artículo:** *M9201* (un artículo donde el filtro **Código 4** está establecido en *Explosivo* )
     - **Cantidad:** *1.00*
     - **Modo de entrega:** *Airwa-Air*
 
@@ -118,12 +118,12 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *M9200* (un artículo donde el filtro **Código 4** está establecido en *Inflamable*)
+    - **Número de artículo:** *M9200* (un artículo donde el filtro **Código 4** está establecido en *Inflamable* )
     - **Cantidad:** *1.00*
 
 1. Agregue un segundo pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *M9201* (un artículo donde el filtro **Código 4** está establecido en *Explosivo*)
+    - **Número de artículo:** *M9201* (un artículo donde el filtro **Código 4** está establecido en *Explosivo* )
     - **Cantidad:** *1.00*
     - **Modo de entrega:** *Airwa-Air*
 
@@ -141,7 +141,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 ### <a name="create-order-set-5"></a>Crear conjunto de pedidos 5
@@ -155,7 +155,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 #### <a name="sales-order-5-3"></a>Pedido de ventas 5-3
@@ -167,7 +167,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 ### <a name="create-order-set-6"></a>Crear conjunto de pedidos 6
@@ -181,7 +181,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 #### <a name="sales-orders-6-3-and-6-4"></a>Pedidos de ventas 6-3 y 6-4
@@ -193,7 +193,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 #### <a name="sales-orders-6-5-and-6-6"></a>Pedidos de ventas 6-5 y 6-6
@@ -201,13 +201,13 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 1. Cree dos pedidos de venta idénticos que tengan la siguiente configuración:
 
     - **Cuenta de cliente:** *US-007*
-    - **Sitio**: *6*
-    - **Almacén**: *61*
+    - **Sitio** : *6*
+    - **Almacén** : *61*
     - **Grupo:** *ShipCons*
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 #### <a name="sales-orders-6-7-and-6-8"></a>Pedidos de ventas 6-7 y 6-8
@@ -215,13 +215,13 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 1. Cree dos pedidos de venta idénticos que tengan la siguiente configuración:
 
     - **Cuenta de cliente:** *US-007*
-    - **Sitio**: *6*
-    - **Almacén**: *61*
+    - **Sitio** : *6*
+    - **Almacén** : *61*
     - **Grupo:** Deje este campo en blanco.
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 ## <a name="automatic-release-of-sales-orders-to-the-warehouse"></a>Despacho automático de pedidos de ventas al almacén
@@ -236,7 +236,7 @@ Para cada conjunto de pedidos de ventas que creó anteriormente, completará los
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
 1. Establezca el **Tipo de plantilla de oleada** en *Envío*.
-1. Busque y seleccione la plantilla de oleada asociada con el almacén que utilizó en los conjuntos de pedidos que creó para este escenario. Por ejemplo, si usó el almacén *24*, seleccione la plantilla de oleada **Envío predeterminado 24**. Si usó el almacén *61*, seleccione la plantilla de oleada **Envío 61**.
+1. Busque y seleccione la plantilla de oleada asociada con el almacén que utilizó en los conjuntos de pedidos que creó para este escenario. Por ejemplo, si usó el almacén *24* , seleccione la plantilla de oleada **Envío predeterminado 24**. Si usó el almacén *61* , seleccione la plantilla de oleada **Envío 61**.
 1. En el panel Acciones, seleccione **Editar**.
 1. Establezca la opción **Procesar oleada para su despacho al almacén** en *No*.
 
@@ -244,8 +244,8 @@ Para cada conjunto de pedidos de ventas que creó anteriormente, completará los
 
 1. Ir **Gestion de almacén \> Despachar al almacén \> Despacho automático de pedidos de ventas**.
 1. Establece el campo **Cantidad a despachar** en *Todo*.
-1. En la ficha desplegable **Registros a incluir**, seleccione **Filtrar** para abrir el cuadro de diálogo de consulta.
-1. En la pestaña **Rango**, seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
+1. En la ficha desplegable **Registros a incluir** , seleccione **Filtrar** para abrir el cuadro de diálogo de consulta.
+1. En la pestaña **Rango** , seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
 
     - **Tabla:** *Pedido de ventas*
     - **Tabla derivada:** *Pedido de ventas*
@@ -268,7 +268,7 @@ Siga el [procedimiento básico de despacho al almacén](#release-procedure) para
 Cuando haya terminado, debería ver que se han creado dos envíos:
 
 - El primer envío contiene tres líneas y se creó utilizando la directiva de consolidación de envíos *CustomerMode*.
-- El segundo envío, que no utiliza el modo de transporte de entrega *Vías aéreas*, se creó usando la directiva de consolidación de envíos *CustomerOrderNo*.
+- El segundo envío, que no utiliza el modo de transporte de entrega *Vías aéreas* , se creó usando la directiva de consolidación de envíos *CustomerOrderNo*.
 
 ### <a name="release-sales-orders-from-order-set-2"></a>Despachar pedidos de ventas del conjunto de pedidos 2
 
@@ -292,7 +292,7 @@ Cuando haya terminado, debería ver que han tenido lugar las siguientes acciones
 
 Siga el [procedimiento básico de despacho al almacén](#release-procedure) para despachar los pedidos de ventas del conjunto de pedidos 4.
 
-Cuando haya terminado, debería ver cómo ese envío existente (donde el campo **Solicitud del cliente** está establecido en *1*) se ha actualizado. Se le ha agregado una nueva línea.
+Cuando haya terminado, debería ver cómo ese envío existente (donde el campo **Solicitud del cliente** está establecido en *1* ) se ha actualizado. Se le ha agregado una nueva línea.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>Despachar pedidos de ventas del conjunto de pedidos 5
 
@@ -300,7 +300,7 @@ Siga el [procedimiento básico de despacho al almacén](#release-procedure) para
 
 Cuando haya terminado, debería ver que han tenido lugar las siguientes acciones:
 
-- Se ha actualizado un envío existente (donde el campo **Solicitud del cliente** está establecido n *1*). Se ha agregado una línea del pedido de ventas 5-3 (donde el campo **Solicitud del cliente** está establecido en *1*).
+- Se ha actualizado un envío existente (donde el campo **Solicitud del cliente** está establecido n *1* ). Se ha agregado una línea del pedido de ventas 5-3 (donde el campo **Solicitud del cliente** está establecido en *1* ).
 - Se ha creado un nuevo envío, donde las líneas de los pedidos de ventas 5-1 y 5-2 se agrupan en un único envío.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>Despachar pedidos de ventas del conjunto de pedidos 6

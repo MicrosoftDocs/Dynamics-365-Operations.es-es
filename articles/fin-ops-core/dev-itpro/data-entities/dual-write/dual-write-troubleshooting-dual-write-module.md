@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: f99f3760e75ec1bbf2ccdea497cf2eec3e28e233
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275542"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997383"
 ---
 # <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Solucionar problemas con el módulo de doble escritura en aplicaciones Finance and Operations
 
@@ -37,11 +36,11 @@ Este tema proporciona información para solución de problemas de integración d
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>No puede cargar el módulo de doble escritura en una aplicación Finance and Operations
 
-Si no puede abrir la página **Doble escritura** seleccionando el mosaico **Doble escritura** en el espacio de trabajo **Gestión de datos**, el servicio de integración de datos probablemente esté inactivo. Cree un ticket de soporte para solicitar un reinicio del servicio de integración de datos.
+Si no puede abrir la página **Doble escritura** seleccionando el mosaico **Doble escritura** en el espacio de trabajo **Gestión de datos** , el servicio de integración de datos probablemente esté inactivo. Cree un ticket de soporte para solicitar un reinicio del servicio de integración de datos.
 
 ## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Error al intentar crear una nueva asignación de entidad
 
-**Credenciales necesarias para solucionar el problema**: el mismo usuario que configuró la doble escritura.
+**Credenciales necesarias para solucionar el problema** : el mismo usuario que configuró la doble escritura.
 
 Es posible que reciba el siguiente mensaje de error cuando intente configurar una nueva entidad para doble escritura. El único usuario que puede crear una asignación es el usuario que configuró la conexión de doble escritura.
 
@@ -50,7 +49,7 @@ Es posible que reciba el siguiente mensaje de error cuando intente configurar un
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Error al abrir la interfaz de usuario de doble escritura
 
-Es posible que reciba el siguiente mensaje de error cuando intente acceder a la escritura doble desde el espacio de trabajo **Gestión de datos**:
+Es posible que reciba el siguiente mensaje de error cuando intente acceder a la escritura doble desde el espacio de trabajo **Gestión de datos** :
 
 *login.microsoftonline.com se negó a conectarse.*
 
@@ -58,11 +57,11 @@ Para solucionar el problema, inicie sesión utilizando una ventana InPrivate en 
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-entity-mapping"></a>Error al vincular el entorno para doble escritura o agregar una nueva asignación de entidad
 
-**Rol requerido para solucionar el problema**: Administrador del sistema en aplicaciones de Finance and Operations y Common Data Service.
+**Rol requerido para solucionar el problema** : Administrador del sistema en aplicaciones de Finance and Operations y Common Data Service.
 
 Puede encontrar el siguiente error al vincular o crear mapas:
 
-*El código de estado de respuesta no indica éxito: 403 (tokenexchange).<br> ID de sesión: \<su id de sesión\><br> ID de actividad raíz: \<su id de actividad raíz\>*
+*El código de estado de respuesta no indica éxito: 403 (tokenexchange).<br> Id. de sesión: \<your session id\><br> Id. de actividad raíz: \<your root activity id\>*
 
 Este error puede ocurrir si no tiene permisos suficientes para vincular escritura doble o crear mapas. Este error también puede ocurrir si el entorno de Common Data Service se restableció sin desvincular la doble escritura. Cualquier usuario con rol de administrador del sistema en aplicaciones de Finance and Operations y Common Data Service puede vincular los entornos. Solo el usuario que configuró la conexión de doble escritura puede agregar nuevas asignaciones de entidad. Después de la configuración, cualquier usuario con función de administrador del sistema puede monitorear el estado y editar las asignaciones.
 
@@ -78,7 +77,7 @@ Para solucionar el problema, cree un ticket para el equipo de integración de da
 
 ## <a name="error-while-trying-to-start-an-entity-mapping"></a>Error al intentar iniciar una asignación de entidad
 
-Es posible que reciba un error como el siguiente cuando intenta establecer ese estado de una asignación como **En ejecución**:
+Es posible que reciba un error como el siguiente cuando intenta establecer ese estado de una asignación como **En ejecución** :
 
 *No se puede completar la sincronización de datos inicial. Error: error de doble escritura - error en el registro del complemento: no se pueden construir metadatos de búsqueda de doble escritura. La referencia de objeto de error no está establecida en una instancia de un objeto*.
 

@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: a210af5e37e12d883054d46719602604870213b4
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652068"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012422"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión preliminar 10.0.12. Esta versión tiene el número de compilación 10.0.507 y está disponible de la siguiente manera:
+En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.12. Esta versión tiene el número de compilación 10.0.507 y está disponible de la siguiente manera:
 
 - **Versión de vista previa:** mayo de 2020
 - **Disponibilidad general (actualización automática):** julio de 2020
@@ -39,13 +39,21 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 En esta versión se incluyen las siguientes características. Los títulos de características están vinculados a información adicional en el sitio [Planes de lanzamiento](https://docs.microsoft.com/dynamics365/release-plans/). Los vínculos adicionales apuntan a documentación o vídeos adicionales que están disponibles actualmente para esa característica. La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
 
 - [Permitir bloquear la pantalla táctil de la tarjeta de trabajo para desinfección](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Para obtener más información, consulte [Configurar la tarjeta de trabajo para dispositivos](../production-control/config-job-card-device.md).
+
 - [Capture variantes de productos y dimensiones de seguimiento en la aplicación de almacén durante la recepción del artículo de carga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Para obtener más información, consulte [Configurar dispositivos móviles del trabajo de almacén](../warehousing/configure-mobile-devices-warehouse.md).
+
 - Nivel de cálculo de costes (nuevo nivel de L.MAT.)<br> - Para obtener más información, consulte [Nivel de cálculo de costes](../cost-management/cost-calculation-level.md).
+
 - [Portal del cliente para Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Para obtener más información, consulte [Descripción general del portal del cliente para Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+
 - [Conocimientos básicos de inteligencia de IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Para obtener más información, consulte la [página principal de Inteligencia de IoT](../iot/iot-intelligence-home-page.md).
+
 - [Matrícula de entidad de almacén que recibe mejoras para la aplicación de almacén (continuación)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Para obtener más información, consulte [Matrícula de entidad de almacén a través de la aplicación de almacén](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+
 - [Implementación masiva para Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obtener más información, consulte [Instalar y configurar la descripción general de la aplicación de almacén](../warehousing/install-configure-warehousing-app.md).
+
 - [Tiempo de ejecución máximo para el trabajo de limpieza de entradas disponibles de gestión de almacenes](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Para obtener más información, consulte [Trabajo de limpieza de entradas disponibles de gestión de almacenes](../warehousing/onhand-cleanup.md).
+
 - [Planificar la compatibilidad de la automatización para contratos comerciales de compra](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Para obtener más información, consulte [Planificación maestra con acuerdos comerciales de compra](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales

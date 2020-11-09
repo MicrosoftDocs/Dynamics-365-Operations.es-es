@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates
+ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be7b1142b011b805c78a3b9380d12085e4b7d28f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c53596f9b11b1a7be4b8f1e18d58a202c74acd4
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016525"
 ---
 # <a name="replenishment-overview"></a>Visión general de la configuración de reabastecimiento
 
@@ -34,10 +34,10 @@ En este tema se describen las estrategias de reabastecimiento que están disponi
 
 Las siguientes estrategias de reabastecimiento están disponibles:
 
-- **Reabastecimiento de demanda de oleada**: esta estrategia crea el trabajo de reabastecimiento para los pedidos o las cargas de salida si el inventario no está disponible cuando la oleada crea el trabajo. Por ejemplo, el trabajo de reabastecimiento se puede crear si la cantidad necesaria para un pedido de ventas no está disponible cuando se procesa una oleada.
-- **Reabastecimiento mínimo/máximo**: esta estrategia usa los límites de existencias mínimos y máximos para determinar cuándo se deben reabastecer las ubicaciones. Los criterios de artículo y ubicación definen el inventario que se evalúa para el reabastecimiento. Las plantillas de reabastecimiento mínimo/máximo son el mecanismo principal para mantener niveles óptimos en ubicaciones de picking. Con el fin de garantizar que hay suficiente inventario de frente de recogida disponible para satisfacer la demanda de oleada, puede utilizar el reabastecimiento de demanda como suplemento entre los ciclos de reabastecimiento mínimo o máximo.
-- **Reabastecimiento de demanda de carga**: esta estrategia suma la demanda para varias cargas y crea el trabajo de reabastecimiento que es necesario para almacenar las ubicaciones de picking pertinentes. Esta estrategia ayuda a garantizar que las cargas que se crean se pueden seleccionar en el almacén tras su emisión.
-- **Reabastecimiento inmediato**: esta estrategia reaprovisiona el inventario antes de que ejecutar una oleada si falla la asignación de una línea de directiva de ubicación que tenga una plantilla de reabastecimiento. 
+- **Reabastecimiento de demanda de oleada** : esta estrategia crea el trabajo de reabastecimiento para los pedidos o las cargas de salida si el inventario no está disponible cuando la oleada crea el trabajo. Por ejemplo, el trabajo de reabastecimiento se puede crear si la cantidad necesaria para un pedido de ventas no está disponible cuando se procesa una oleada.
+- **Reabastecimiento mínimo/máximo** : esta estrategia usa los límites de existencias mínimos y máximos para determinar cuándo se deben reabastecer las ubicaciones. Los criterios de artículo y ubicación definen el inventario que se evalúa para el reabastecimiento. Las plantillas de reabastecimiento mínimo/máximo son el mecanismo principal para mantener niveles óptimos en ubicaciones de picking. Con el fin de garantizar que hay suficiente inventario de frente de recogida disponible para satisfacer la demanda de oleada, puede utilizar el reabastecimiento de demanda como suplemento entre los ciclos de reabastecimiento mínimo o máximo.
+- **Reabastecimiento de demanda de carga** : esta estrategia suma la demanda para varias cargas y crea el trabajo de reabastecimiento que es necesario para almacenar las ubicaciones de picking pertinentes. Esta estrategia ayuda a garantizar que las cargas que se crean se pueden seleccionar en el almacén tras su emisión.
+- **Reabastecimiento inmediato** : esta estrategia reaprovisiona el inventario antes de que ejecutar una oleada si falla la asignación de una línea de directiva de ubicación que tenga una plantilla de reabastecimiento. 
 
 Las cuatro estrategias crean trabajo de reabastecimiento, en función de una plantilla de reabastecimiento.
 
@@ -62,7 +62,7 @@ Los importes mínimo y máximo se establecen en una plantilla de reabastecimient
 Tenga en cuenta que la estrategia de reabastecimiento mínima/máxima no puede reabastecer una ubicación vacía a menos que la ubicación se establezca como la ubicación fija para el artículo. Si la ubicación que debe reabastecerse no es una ubicación fija, el sistema no puede determinar qué artículo debe reabastecerse. Por tanto, se requiere al menos alguna cantidad disponible para que se produzca el reabastecimiento.
 
 ## <a name="load-demand-replenishment"></a>Reabastecimiento de la demanda de la carga
-El reabastecimiento de demanda de carga suma la demanda para varias cargas y crea el trabajo de reabastecimiento que es necesario para almacenar las ubicaciones de picking pertinentes. El reabastecimiento de demanda de carga es similar de muchas maneras al reabastecimiento de demanda de oleada. La diferencia principal es cómo y cuándo se ejecutan el reabastecimiento de la demanda de la carga y el reabastecimiento de la demanda de oleada. Como el reabastecimiento mínimo/máximo, el reabastecimiento de la demanda de carga se ejecuta mediante un trabajo por lotes. Para configurar el trabajo por lotes, en la página **Reabastecimiento de la demanda de la carga**, seleccione la plantilla de reabastecimiento que se va a usar y establezca una consulta de filtro para especificar qué cargas se usan para determinar la demanda. La consulta de ubicación define las ubicaciones de las que se restará cualquier cantidad disponible para satisfacer la demanda agregada de las cargas.
+El reabastecimiento de demanda de carga suma la demanda para varias cargas y crea el trabajo de reabastecimiento que es necesario para almacenar las ubicaciones de picking pertinentes. El reabastecimiento de demanda de carga es similar de muchas maneras al reabastecimiento de demanda de oleada. La diferencia principal es cómo y cuándo se ejecutan el reabastecimiento de la demanda de la carga y el reabastecimiento de la demanda de oleada. Como el reabastecimiento mínimo/máximo, el reabastecimiento de la demanda de carga se ejecuta mediante un trabajo por lotes. Para configurar el trabajo por lotes, en la página **Reabastecimiento de la demanda de la carga** , seleccione la plantilla de reabastecimiento que se va a usar y establezca una consulta de filtro para especificar qué cargas se usan para determinar la demanda. La consulta de ubicación define las ubicaciones de las que se restará cualquier cantidad disponible para satisfacer la demanda agregada de las cargas.
 
 ## <a name="immediate-replenishment"></a>Reabastecimiento inmediato
 En lugar de tener que aumentar la demanda al final del proceso de asignación y realizar un reabastecimiento según la cantidad añadida, puede aplicar la estrategia de reabastecimiento inmediato. Al usar esta estrategia, el inventario puede reabastecerse inmediatamente después que se produzca un error en una línea de directiva de la ubicación. Por lo tanto, puede configurar el reabastecimiento de modo que esté limitado a unidades específicas y para que así utilice las cantidades que se establecieron en ubicaciones específicas.

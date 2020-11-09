@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172932"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997585"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Preguntas más frecuentes sobre los arranques con datos de empresa
  
@@ -52,16 +51,16 @@ Debe usar el arranque antes de habilitar las asignaciones de entidad de escritur
 ## <a name="how-to-i-use-the-code-sample"></a>¿Cómo utilizo el ejemplo de código?
 El código de muestra es una aplicación C# que puede cargar en Visual Studio. Toma dependencias de paquete NuGet en el SDK de Common Data Service que puede actualizar mediante las herramientas de Visual Studio estándar. 
 
-Después de descomprimir y abrir la solución en Visual Studio y de restablecer los paquetes NuGet, busque **TODO** en el código. Cada decisión que necesita tomar sobre cómo desea arrancar información de la empresa es anotada por un **TODO**, con código de muestra para una implementación canónica. 
+Después de descomprimir y abrir la solución en Visual Studio y de restablecer los paquetes NuGet, busque **TODO** en el código. Cada decisión que necesita tomar sobre cómo desea arrancar información de la empresa es anotada por un **TODO** , con código de muestra para una implementación canónica. 
 
-El código de muestra muestra sólo una de varias maneras en que es posible clasificar en categorías los registros de entidad por empresa. Al cambiar la lógica de las secciones **TODO**, puede crear su clasificación personalizada. 
+El código de muestra muestra sólo una de varias maneras en que es posible clasificar en categorías los registros de entidad por empresa. Al cambiar la lógica de las secciones **TODO** , puede crear su clasificación personalizada. 
  
 ## <a name="what-should-i-expect"></a>¿Qué debo esperar?
-De forma predeterminada, la aplicación de ejemplo permite proporcionar un diccionario de asignaciones de código de unidad de empresa a empresa. Toda entidad que arranque con un campo **OwningBusinessUnit** automáticamente se establece para utilizar la empresa especificada. Cualquier entidad sin un campo **OwningBusinessUnit**, como producto, establecerá la empresa basándose en la asignación con un valor de unidad de negocio vacío.
+De forma predeterminada, la aplicación de ejemplo permite proporcionar un diccionario de asignaciones de código de unidad de empresa a empresa. Toda entidad que arranque con un campo **OwningBusinessUnit** automáticamente se establece para utilizar la empresa especificada. Cualquier entidad sin un campo **OwningBusinessUnit** , como producto, establecerá la empresa basándose en la asignación con un valor de unidad de negocio vacío.
 
-La aplicación de la consola espera un parámetro, **–simulate** o **–apply**. Si usa el parámetro de la línea de comando **–simulate**, no se actualiza ningún dato. Solo se generan los archivos **simulation_<entityname>.csv** en el mismo directorio que la herramienta, uno para cada entidad que habría sido actualizada. Puede revisar estos archivos iterativamente mientras trabaja para asegurarse de que el código actualiza los valores de la empresa como esperado. 
+La aplicación de la consola espera un parámetro, **–simulate** o **–apply**. Si usa el parámetro de la línea de comando **–simulate** , no se actualiza ningún dato. Solo se generan los archivos **simulation_<entityname>.csv** en el mismo directorio que la herramienta, uno para cada entidad que habría sido actualizada. Puede revisar estos archivos iterativamente mientras trabaja para asegurarse de que el código actualiza los valores de la empresa como esperado. 
 
-Cuando termine con las actualizaciones simuladas, use el parámetro **–apply**. Esto actualiza todos los registros que tienen actualmente un valor incorrecto de empresa, en lotes de 1000 registros al mismo tiempo (de forma predeterminada). El código, tal y como se proporciona, es idempotente, es decir, puede volverlo a ejecutar y sólo actualizará las empresas incorrectamente asignadas. Al ejecutarse con **–apply**, el código genera archivos CSV de los cambios realizados, que se denominan **applied_<entityname>.csv**. 
+Cuando termine con las actualizaciones simuladas, use el parámetro **–apply**. Esto actualiza todos los registros que tienen actualmente un valor incorrecto de empresa, en lotes de 1000 registros al mismo tiempo (de forma predeterminada). El código, tal y como se proporciona, es idempotente, es decir, puede volverlo a ejecutar y sólo actualizará las empresas incorrectamente asignadas. Al ejecutarse con **–apply** , el código genera archivos CSV de los cambios realizados, que se denominan **applied_<entityname>.csv**. 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;

@@ -1,7 +1,7 @@
 ---
 title: Revalorización de divisa en una empresa de consolidación
 description: En este tema se describe cómo revalorizar la divisa en una empresa de consolidación.
-author: ShylaThompson
+author: roschlom
 manager: AnnBe
 ms.date: 10/02/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 62183
 ms.assetid: 2762baaf-0c10-4ff7-8713-c506d6c29b98
 ms.search.region: Global
-ms.author: hminzner
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b7f0a18910cbaed382971e47eb688c075e7e6a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 33db12388c969b8dadb38bfacf4d9df333b78bd4
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179743"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014992"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Revalorización de divisa en una empresa de consolidación
 
@@ -34,7 +34,7 @@ Cuando se consolidan datos desde una divisa de contabilidad a otra, debe seguir 
 ## <a name="company-setup"></a>Configuración de empresa
 -   **Empresa de origen u operadora (USMF):** se usan dólares americanos (USD) como la divisa de contabilidad y de notificación.
 -   **Empresa consolidada (CON):** se usan euros (EUR) como la divisa de contabilidad y de notificación.
-    -   **Beneficio realizado**: cuenta contable 801500
+    -   **Beneficio realizado** : cuenta contable 801500
     -   **Pérdida realizada:** cuenta contable 801600
     -   **Beneficio no realizado:** cuenta contable 801600
     -   **Pérdida no realizada:** cuenta contable 801400

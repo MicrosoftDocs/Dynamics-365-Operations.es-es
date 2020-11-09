@@ -3,7 +3,7 @@ title: Experimentación en Dynamics 365 Commerce
 description: La experimentación permite la creación, edición y gestión del diseño de página y tratamientos de contenido en el creador de sitios. El soporte de experimentación de un extremo a otro está habilitado para las páginas y entidades de comercio electrónico dentro de una página.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,20 +18,20 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8b2e97167d12b8ceecf72af075ee0362101c4fa0
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930287"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097148"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Experimentación en Dynamics 365 Commerce
-Utilice la experimentación en Dynamics 365 Commerce para validar hipótesis sobre la eficacia de sus páginas de comercio electrónico y tomar decisiones con confianza basada en datos. Commerce admite pruebas A / B en páginas, módulos y fragmentos y le permite medir el impacto de los cambios propuestos en su sitio web.
+Utilice la experimentación en Dynamics 365 Commerce para validar hipótesis sobre la eficacia de sus páginas de comercio electrónico y tomar decisiones con confianza basada en datos. Commerce admite pruebas A/B en páginas, módulos y fragmentos y le permite medir el impacto de los cambios propuestos en su sitio web.
 
-Puede crear, editar y administrar tratamientos de contenido y página conocidos como **variaciones** en el creador de sitios. Commerce se integra con servicios de terceros que puede utilizar para crear experimentos y asignaciones de tratamiento. Los flujos de eventos en tiempo real capturados en Commerce habilitan los análisis que definen los resultados del experimento en el servicio de terceros. Luego, puede aprovechar estos análisis para ayudar a respaldar o refutar su hipótesis.
+Puede crear, editar y administrar tratamientos de contenido y página conocidos como **variaciones** en el generador de sitios de Commerce. Commerce se integra con servicios de terceros que puede utilizar para crear experimentos y asignaciones de tratamiento. Los flujos de eventos en tiempo real capturados en Commerce habilitan los análisis que definen los resultados del experimento en el servicio de terceros. Luego, puede aprovechar estos análisis para ayudar a respaldar o refutar su hipótesis.
 
 ## <a name="set-up-prerequisites"></a> Requisitos previos de configuración
-1. **Obtener la versión correcta de Commerce** - Actualice su biblioteca de módulos, el SDK de extensibilidad de canales en línea y Commerce Scale Unit a la versión 10.0.13 o posterior de Commerce.
+1. **Obtener la versión correcta de Commerce** : actualice su biblioteca de módulos, el kit de desarrollo de software (SDK) de extensibilidad de canales en línea y Commerce Scale Unit a la versión 10.0.13 o posterior de Commerce.
 1. **Configurar un conector de experimentación** - Un conector de experimentación permite a Comercio conectarse con servicios de terceros para recuperar la lista de experimentos y determinar cuándo mostrar un experimento a un usuario. Puede adquirir un conector de terceros en [AppSource](https://appsource.microsoft.com). Siga las instrucciones de configuración proporcionadas por el editor. Alternativamente, puede utilizar el conector de prueba de muestra de Commerce para probar el flujo de trabajo de experimentación sin necesidad de configurar un servicio externo. Para más información, vea [Configurar y habilitar conectores](e-commerce-extensibility/connectors.md). 
 1. **Activar las banderas de funciones de experimentación en Commerce** - Puede habilitar la experimentación a nivel de inquilino yendo a **Configuración de inquilinos > Funciones** o en el nivel de sitio en **Configuración del sitio > Funciones**.
     - Habilite la marca **Experimentación** para crear variaciones experimentales de módulos dentro de una página sin afectar o copiar otro contenido que no es parte del experimento. Esto asegura que las actualizaciones de contenido en curso fuera del experimento permanezcan sincronizadas durante el ciclo de vida del experimento. La desactivación de esta marca impide que todos los experimentos se muestren a los usuarios y elimina todas las funciones de edición dentro del creador de sitios.
@@ -53,7 +53,7 @@ Para obtener más información sobre cada paso del proceso de experimentación, 
 - [Promover una variación y completar un experimento](experimentation-review-complete.md)
 
 > [!NOTE]
-> Para saber dónde se encuentra un experimento en el ciclo de vida, vaya a la pestaña **Experimentos** en el creador de sitios. Se muestra una lista de experimentos con el estado de cada experimento tanto en Commerce como en el servicio de terceros. Para más información, vea [Revisar el estado de un experimento](experimentation-status.md).
+> Para saber dónde se encuentra un experimento en el ciclo de vida, seleccione **Experimentos** en el panel de navegación izquierdo del generador de sitios de Commerce. Se muestra una lista de experimentos con el estado de cada experimento tanto en Commerce como en el servicio de terceros. Para más información, vea [Revisar el estado de un experimento](experimentation-status.md).
 
 ## <a name="next-step"></a>Paso siguiente
 [Identificar una hipótesis y determinar métricas de éxito para un experimento](experimentation-identify.md) 

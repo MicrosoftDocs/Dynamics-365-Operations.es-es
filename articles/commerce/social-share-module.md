@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5052957a2f4e59791ef02c12bc2aef5ed36e95c7
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3816946"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022095"
 ---
 # <a name="social-share-module"></a>Módulo Compartir en redes sociales
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 En este tema se tratan los módulos de compartir en redes sociales y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
@@ -54,7 +53,7 @@ La siguiente ilustración destaca un ejemplo de un módulo para compartir en red
 ## <a name="social-share-item-module-properties"></a>Propiedades del módulo del elemento Compartir en redes sociales
 | Nombre de la propiedad             | Valor                 | Descripción |
 |---------------------------|-----------------------|-------------|
-| Redes sociales              | **Facebook**, **Twitter**, **Pinterest**, **LinkedIn**, **Correo** | Un menú desplegable con una lista de plataformas de redes sociales. |
+| Redes sociales              | **Facebook** , **Twitter** , **Pinterest** , **LinkedIn** , **Correo** | Un menú desplegable con una lista de plataformas de redes sociales. |
 | Icono |Imagen    | Esta será la imagen que se mostrará para las respectivas redes sociales. Como práctica recomendada, consulte el SDK de la plataforma de redes sociales para conocer la imagen recomendada para cada plataforma. |
 
 ## <a name="add-a-social-share-module-to-a-buy-box-module"></a>Agregar un módulo de compartir en redes sociales a un módulo de cuadro de compra
@@ -62,16 +61,16 @@ La siguiente ilustración destaca un ejemplo de un módulo para compartir en red
 Para agregar un módulo de compartir en redes sociales a un módulo de cuadro de compra, siga estos pasos.
 
 1. En el sitio de Fabrikam, seleccione **Páginas** y luego seleccione la página **DefaultPDP** para abrir la página de detalles del producto. 
-1. En el espacio **Cuadro de compra (obligatorio)**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Redes sociales** y, a continuación, **Aceptar**.
-1. En el espacio **Redes sociales**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Compartir en redes sociales** y, a continuación, **Aceptar**.
-1. En el panel de propiedades del módulo **Compartir en redes sociales**, **Orientación**, seleccione **Horizontal**. Agregue un título según sea necesario.
-1. En el espacio **Compartir en redes sociales**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Elemento para compartir en redes sociales** y, a continuación, **Aceptar**.
-1. En el panel de propiedades del módulo **Elemento para compartir en redes sociales**, en **Redes sociales**, seleccione **Facebook**.
-1. En el panel de propiedades del módulo **Elemento para compartir en redes sociales**, en **Icono**, seleccione **+ Agregar una imagen**.
-1. En el cuadro de diálogo **Selector de medios**, seleccione la imagen del logotipo de Facebook y, después, seleccione **Aceptar**. Si no está presente una imagen del logotipo de Facebook, seleccione **Cargar nuevo elemento multimedia** para cargar uno.
+1. En el espacio **Cuadro de compra (obligatorio)** , seleccione los puntos suspensivos ( **...** ) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo** , seleccione el módulo **Redes sociales** y, a continuación, **Aceptar**.
+1. En el espacio **Redes sociales** , seleccione los puntos suspensivos ( **...** ) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo** , seleccione el módulo **Compartir en redes sociales** y, a continuación, **Aceptar**.
+1. En el panel de propiedades del módulo **Compartir en redes sociales** , **Orientación** , seleccione **Horizontal**. Agregue un título según sea necesario.
+1. En el espacio **Compartir en redes sociales** , seleccione los puntos suspensivos ( **...** ) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo** , seleccione el módulo **Elemento para compartir en redes sociales** y, a continuación, **Aceptar**.
+1. En el panel de propiedades del módulo **Elemento para compartir en redes sociales** , en **Redes sociales** , seleccione **Facebook**.
+1. En el panel de propiedades del módulo **Elemento para compartir en redes sociales** , en **Icono** , seleccione **+ Agregar una imagen**.
+1. En el cuadro de diálogo **Selector de medios** , seleccione la imagen del logotipo de Facebook y, después, seleccione **Aceptar**. Si no está presente una imagen del logotipo de Facebook, seleccione **Cargar nuevo elemento multimedia** para cargar uno.
 1. Agregar y configurar módulos adicionales de **Elemento para compartir en redes sociales** según sea necesario.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página. La página mostrará el módulo de compartir en redes sociales.
 1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.

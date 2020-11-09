@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventOnhandItem, InventOnHandItemListPage
+ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829858"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017400"
 ---
 # <a name="inventory-on-hand-list"></a>Lista de inventario disponible
 
@@ -39,8 +39,8 @@ Use las siguientes herramientas para encontrar el conjunto de productos que est�
 
 - En el Panel de acciones, seleccione [**Dimensiones**](#dimensions) para abrir un cuadro de diálogo donde puede agregar o eliminar columnas que se muestran en la cuadrícula **Disponible**.
 - En el [panel **Filtros**](#filters-pane), especifique valores para campos específicos para mostrar solo registros que coincidan con esos valores. Tenga en cuenta que los filtros que defina aquí se aplican a las tablas de origen que pueden agregarse más tarde, de acuerdo con las dimensiones que ha seleccionado para mostrar. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
-- En el panel **Filtros**, seleccione **Aplicar** para generar la lista de inventario disponible que la cuadrícula **Inventario**.
-- En la cuadrícula **Inventario**, seleccione cualquier encabezado de columna para ordenar o filtrar por valores en esa columna. Un filtro rápido en la parte superior de la cuadrícula proporciona opciones de filtrado adicionales. Estos filtros se aplican a los resultados, no a las tablas de origen. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
+- En el panel **Filtros** , seleccione **Aplicar** para generar la lista de inventario disponible que la cuadrícula **Inventario**.
+- En la cuadrícula **Inventario** , seleccione cualquier encabezado de columna para ordenar o filtrar por valores en esa columna. Un filtro rápido en la parte superior de la cuadrícula proporciona opciones de filtrado adicionales. Estos filtros se aplican a los resultados, no a las tablas de origen. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
 
 Para cada elemento coincidente, la cuadrícula **Inventario** proporciona las siguientes columnas de información de inventario.
 
@@ -53,15 +53,15 @@ Para cada elemento coincidente, la cuadrícula **Inventario** proporciona las si
 | Pedido en total | La cantidad total que se incluye en los pedidos entrantes o que tiene una cantidad positiva en varios diarios de inventario. |
 | En pedido | La cantidad total que se incluye en los pedidos salientes o que tiene una cantidad negativa en varios diarios de inventario. |
 | Ordenada reservada | La cantidad total del lote que se ha reservado en recepciones solicitadas. El valor en este campo representa la cantidad total de artículos en transacciones salientes que tienen un estado de _Pedido reservado_. Los artículos reservados como pedidos no están físicamente disponibles en el inventario. Por lo tanto, no se pueden recoger y entregar directamente. |
-| Disponible para reserva | Cantidad total del inventario disponible que se puede reservar.<p>**Nota:** Si la casilla **Reservar artículos pedidos** está seleccionada en la página **Parámetros de gestión de inventario y almacén**, el valor en este campo incluye los recibos esperados. Si la casilla de verificación está desactivada, el valor excluye los recibos esperados.</p> |
+| Disponible para reserva | Cantidad total del inventario disponible que se puede reservar.<p>**Nota:** Si la casilla **Reservar artículos pedidos** está seleccionada en la página **Parámetros de gestión de inventario y almacén** , el valor en este campo incluye los recibos esperados. Si la casilla de verificación está desactivada, el valor excluye los recibos esperados.</p> |
 | Total disponible | La cantidad total disponible.<p>La cantidad **total disponible** es un campo calculado. El valor es igual al valor **Físico disponible** más el valor **Pedido en total** menos el valor **En pedido**.</p> |
 
 ## <a name="apply-filters-to-find-the-records-that-youre-looking-for"></a><a name="filters-pane"></a>Aplicar filtros para encontrar los registros que está buscando
 
 Utilizar el panel **Filtros** para filtrar la lista de inventario disponible para que solo incluya registros donde los valores de campo coincidan con los criterios de filtrado. Para definir un filtro, siga estos pasos.
 
-1. En el panel **Filtros**, busque el campo en el que desea filtrar.
-2. En el campo debajo del nombre del campo de destino, seleccione un operador lógico (por ejemplo, *comienza con*, *igual a* o *mayor que*).
+1. En el panel **Filtros** , busque el campo en el que desea filtrar.
+2. En el campo debajo del nombre del campo de destino, seleccione un operador lógico (por ejemplo, *comienza con* , *igual a* o *mayor que* ).
 3. Escriba o seleccione el valor a buscar.
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ Utilizar el panel **Filtros** para filtrar la lista de inventario disponible par
 
 Puede modificar el conjunto de filtros que está disponible en el panel **Filtros** siguiendo estos pasos.
 
-- Para eliminar un filtro del panel, seleccione su botón **Cerrar** (**X**).
+- Para eliminar un filtro del panel, seleccione su botón **Cerrar** ( **X** ).
 - Para agregar un filtro, seleccione **Agregar** en la parte superior del panel **Filtros**. El cuadro de diálogo **Agregar campos de filtro** que aparece muestra una lista de los campos disponibles. También muestra información sobre el tipo de datos y la tabla para cada campo. Use los encabezados de columna para filtrar y ordenar la lista según lo requiera, y luego seleccione la casilla de verificación para cada campo que desee agregar al panel **Filtrar**. Cuando haya terminado, seleccione **Insertar** para aplicar sus cambios.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Seleccione qué dimensiones mostrar
@@ -87,12 +87,12 @@ Para personalizar la selección de dimensiones de inventario que se muestra, sig
     El cuadro de diálogo **Visualización de dimensiones** que aparece muestra cada dimensión.
 
 2. Seleccione la casilla para cada dimensión que desee incluir en la cuadrícula.
-3. Si desea que su selección se use de forma predeterminada la próxima vez que abra la página **Lista disponible**, configure la opción **Guardar configuración** en **Sí**. Si configura esta opción en **No**, su selección se usará solo durante la sesión actual. Por lo tanto, la próxima vez que abra la página, se utilizará la selección predeterminada actual.
+3. Si desea que su selección se use de forma predeterminada la próxima vez que abra la página **Lista disponible** , configure la opción **Guardar configuración** en **Sí**. Si configura esta opción en **No** , su selección se usará solo durante la sesión actual. Por lo tanto, la próxima vez que abra la página, se utilizará la selección predeterminada actual.
 4. Seleccione **Aceptar** para aplicar sus cambios y cerrar el cuadro de diálogo.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtrar en las resultados de la lista de inventario disponible
 
-Puede seleccionar cualquier encabezado de columna en la cuadrícula **Inventario**, para ordenar o filtrar por valores en esa columna. Un filtro rápido en la parte superior de la cuadrícula proporciona opciones de filtrado adicionales. Estos filtros se aplican a los resultados, no a las tablas de origen. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
+Puede seleccionar cualquier encabezado de columna en la cuadrícula **Inventario** , para ordenar o filtrar por valores en esa columna. Un filtro rápido en la parte superior de la cuadrícula proporciona opciones de filtrado adicionales. Estos filtros se aplican a los resultados, no a las tablas de origen. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
 
 > [!NOTE]
 > No puede filtrar y ordenar por todas las columnas. La mayoría de las columnas de cantidad no incluyen controles de clasificación y filtrado, porque son campos calculados. La columna **En orden** es una excepción.
@@ -115,7 +115,7 @@ La página **Lista disponible** está configurada para mostrar las siguientes di
 - Sitio
 - Almacén
 
-En el panel **Filtros**, se configuran los siguientes criterios de filtrado:
+En el panel **Filtros** , se configuran los siguientes criterios de filtrado:
 
 - **Número de artículo** \| **es exactamente** \| _IA0001_
 - **Físico disponible** \| **menor o igual** \| _1_
@@ -134,7 +134,7 @@ La página **Lista disponible** está configurada para mostrar las siguientes di
 - código de artículo
 - Sitio
 
-En el panel **Filtros**, se configuran los siguientes criterios de filtrado:
+En el panel **Filtros** , se configuran los siguientes criterios de filtrado:
 
 - **Número de artículo** \| **es exactamente** \| _IA0001_
 - **Físico disponible** \| **menor o igual** \| _1_
@@ -145,4 +145,4 @@ Este es el resultado.
 |---|---|---|---|
 | IA0001 | 1 | 2 | 2 |
 
-Tenga en cuenta que la configuración en el panel **Filtros** se aplica a la tabla de inventario detallada (no agregada) que se muestra al comienzo de esta sección. Por lo tanto, el criterio **Físico disponible** \| **menor o igual** \| _1_ encuentra dos filas de esa tabla (la primera y la tercera fila, cada una de las cuales muestra un valor **Físico disponible** de _1_). Sin embargo, en este escenario, la página **Lista disponible** no está configurada para mostrar la dimensión **Almacén**. Por lo tanto, agrega las dos filas originales en una sola fila resultante, porque ambas filas tienen valores idénticos en todas las dimensiones que se muestran. Esta fila parece infringir el criterio de filtrado, porque el valor **Físico disponible** se muestra como _2_. Sin embargo, el resultado es correcto, porque la configuración en el panel **Filtros** se aplica a la tabla de origen, no a la tabla agregada que se muestra en la página **Lista disponible**.
+Tenga en cuenta que la configuración en el panel **Filtros** se aplica a la tabla de inventario detallada (no agregada) que se muestra al comienzo de esta sección. Por lo tanto, el criterio **Físico disponible** \| **menor o igual** \| _1_ encuentra dos filas de esa tabla (la primera y la tercera fila, cada una de las cuales muestra un valor **Físico disponible** de _1_ ). Sin embargo, en este escenario, la página **Lista disponible** no está configurada para mostrar la dimensión **Almacén**. Por lo tanto, agrega las dos filas originales en una sola fila resultante, porque ambas filas tienen valores idénticos en todas las dimensiones que se muestran. Esta fila parece infringir el criterio de filtrado, porque el valor **Físico disponible** se muestra como _2_. Sin embargo, el resultado es correcto, porque la configuración en el panel **Filtros** se aplica a la tabla de origen, no a la tabla agregada que se muestra en la página **Lista disponible**.

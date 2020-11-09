@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976388"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006175"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Directiva de acumulación de costes y cálculo de costes generales 
 
@@ -76,7 +76,7 @@ Una jerarquía de dimensión que cumple los requisitos de generación de informe
 
 **Jerarquía de dimensiones**
 
-|              | Intervalos de miembros de dimensión |                     |
+|    &nbsp;    | Intervalos de miembros de dimensión | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Nodos**        | **Desde miembro de dimensión**   | **Hasta miembro de dimensión** |
 | Organización |                         |                     |
@@ -97,7 +97,7 @@ Una jerarquía de dimensión que cumple los requisitos de la directiva se puede 
 
 **Jerarquía de dimensiones**
 
-|                         | Intervalos de miembros de dimensión |                     |
+|      &nbsp;             | Intervalos de miembros de dimensión |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Nodos                   | Desde miembro de dimensión   | Hasta miembro de dimensión |
 | Informe de pérdidas y ganancias |                         |                     |
@@ -105,7 +105,7 @@ Una jerarquía de dimensión que cumple los requisitos de la directiva se puede 
 
 Una vez que se procesen las entradas de contabilidad general, el saldo de la entrada de coste según el objeto tiene este aspecto.
 
-|                      | **Objeto de coste** |           |           |           | **Total**     |
+|      &nbsp;          | **Objeto de coste** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Total**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Elemento de coste**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 Electricidad** | 100,00          | 200,00    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Si desea obtener información sobre cómo el coste fluye entre los centros de co
 
 Los miembros de la dimensión de elementos de coste se puede establecer del modo siguiente.
 
-| Elementos de coste | Tipo          |               |
+| Elementos de coste | Tipo          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1001          | Electricidad   | Principal       |
 | 1002          | Salarios      | Principal       |
@@ -179,7 +179,7 @@ La jerarquía de dimensión **Informe de pérdidas y ganancias** debe actualizar
 
 **Jerarquía de dimensiones**
 
-|                         | Intervalos de miembros de dimensión |                     |
+|      &nbsp;             | Intervalos de miembros de dimensión |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Nodos                   | Desde miembro de dimensión   | Hasta miembro de dimensión |
 | Informe de pérdidas y ganancias |                         |                     |
@@ -250,7 +250,7 @@ La página **Detalles de movimiento de diario de saldo de costes de objetos de c
 | CC003       | Ensamblado     | SC-CC002 | Finanzas         | 11.527,75   | 31-01-2017 |
 | CC004       | Empaquetado    | SC-CC002 | Finanzas         | 6.207,25    | 31-01-2017 |
 
-Después de que se complete el **Cálculo de costes generales**, puede notificar los resultados mediante herramientas como Microsoft SharePoint Workspace, Excel o Power BI.
+Después de que se complete el **Cálculo de costes generales** , puede notificar los resultados mediante herramientas como Microsoft SharePoint Workspace, Excel o Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Ver los informes en Excel 
 
@@ -258,7 +258,7 @@ Las jerarquías de dimensión le permiten ver datos en distintos niveles de agre
 
 A continuación se muestra un ejemplo de un informe Power Pivot en Excel.
 
-| **Informe de pérdidas y ganancias** | **Objeto de coste** |                |               |               |  **Total**    |
+| **Informe de pérdidas y ganancias** | **Objeto de coste** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Total**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Coste primario**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -274,9 +274,9 @@ A continuación se muestra un ejemplo de un informe Power Pivot en Excel.
 
 Al usar la **Directiva de acumulación de costes** y los **Elementos de coste de tipo secundario** puede abanador el coste principal por objeto de coste para el informe interno como el coste principal que resta después del **Cálculo de costes generales**.
 
-Si el mismo ejemplo se hubiera realizado sin crear la **Directiva de acumulación de costes**, el resultado del informe aparecía como sigue. El coste fluye correctamente pero la rastreabilidad y exploración sobre cómo fluye el coste entre los centros de coste se pierden.
+Si el mismo ejemplo se hubiera realizado sin crear la **Directiva de acumulación de costes** , el resultado del informe aparecía como sigue. El coste fluye correctamente pero la rastreabilidad y exploración sobre cómo fluye el coste entre los centros de coste se pierden.
 
-| **Informe de pérdidas y ganancias** | **Objeto de coste** |           |               |               |          **Total**  |
+| **Informe de pérdidas y ganancias** | **Objeto de coste** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Total**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Coste primario**            | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |

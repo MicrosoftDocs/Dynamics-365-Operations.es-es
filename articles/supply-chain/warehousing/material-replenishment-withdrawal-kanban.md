@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
+ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d712cc3ebdc959d1fee4a2a79e3283b84f0b901a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205561"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017091"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimiento con kanbans de transporte
 
@@ -54,7 +54,7 @@ En esta situación, un proceso de fabricación (4) consume material de una ubica
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Configurar del trabajo del almacén para el picking de kanban para el kanban de transporte
 
-Para habilitar la selección de la materia prima para el kanban de transporte, configure las plantillas de oleada, las plantillas de trabajo y las directivas de ubicación para el tipo de pedido de trabajo **Picking de kanban** . Este tipo de pedido de trabajo no admite solo el proceso de picking para el kanban de transporte. También admite el proceso de picking para el kanban de fabricación. Sin embargo, puede configurar un proceso independiente de selección para cada tipo de kanban separando las plantillas de oleada, las plantillas de trabajo y las directivas de la ubicación. Para separar las plantillas de oleada, las plantillas de trabajo y las directivas de ubicación, establezca criterios en el tipo de actividad (**Proceso** o **Transferencia**) en las consultas de esas entidades.
+Para habilitar la selección de la materia prima para el kanban de transporte, configure las plantillas de oleada, las plantillas de trabajo y las directivas de ubicación para el tipo de pedido de trabajo **Picking de kanban** . Este tipo de pedido de trabajo no admite solo el proceso de picking para el kanban de transporte. También admite el proceso de picking para el kanban de fabricación. Sin embargo, puede configurar un proceso independiente de selección para cada tipo de kanban separando las plantillas de oleada, las plantillas de trabajo y las directivas de la ubicación. Para separar las plantillas de oleada, las plantillas de trabajo y las directivas de ubicación, establezca criterios en el tipo de actividad ( **Proceso** o **Transferencia** ) en las consultas de esas entidades.
 
 ## <a name="configure-the-withdrawal-kanban"></a>Configurar el kanban de transporte
 

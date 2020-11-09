@@ -3,7 +3,7 @@ title: Comparación de las características en la nube y locales
 description: En este tema se muestran qué características se admiten en la nube y en local.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100291"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040108"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparación de características locales y en la nube
 
@@ -58,10 +58,10 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 |                                      | ER: integración con LCS                                                                  | Sí       | No              |
 |                                      | ER: integración con SharePoint                                                           | Sí       | No              |
 |                                      | ER: Integración con Regulatory Configuration Services (RCS)                              | Sí       | No              |
-|                                      | ER: permite usar el sistema de archivos local como almacenamiento de las configuraciones de ER accesibles mediante los repositorios de ER | No        | Sí             |
-|                                      | Integración con PowerBI.com                                                              | Sí       | No              |
-|                                      | Integración con PowerBI Desktop                                                          | No        | Sí             |
-|                                      | Espacios de trabajo analíticos                                                                     | Sí       | No              |
+|                                      | ER: permite usar el sistema de archivos local como almacenamiento de las configuraciones de ER accesibles mediante los repositorios de ER | N.º        | Sí             |
+|                                      | Integración con PowerBI.com                                                              | Sí       | N.º              |
+|                                      | Integración con PowerBI Desktop                                                          | N.º        | Sí             |
+|                                      | Espacios de trabajo analíticos                                                                     | Sí       | N.º              |
 |                                      | Proceso empresarial inteligente: recomendaciones                                             | Sí       | Nº              |
 |                                      | Creación de informes de Power BI con OData mediante el escritorio de Power BI o herramientas de Excel PowerQuery    | Sí       | Nº              |
 |                                      | SQL Server Reporting Services (SSRS) admite el escalado                                 | Sí       | No              |
@@ -81,12 +81,13 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 |                                      | Grabador de tareas: guarde o cargue grabaciones de tareas desde la biblioteca de BPM                         | Sí       | N.º              |
 | Soporte                              |                                                                                           | Sí       | Sí             |
 |                                      | Acceso al soporte a través del menú de ayuda y servicio técnico                                             | Sí       | No              |
-|                                      | Eventos de negocio                                                                           | Sí       | Sí (se requiere conectividad a Internet o se deben implementar puntos finales personalizados para enviar / recibir eventos de negocios dentro de la intranet)              |
+|                                      | Eventos de negocio                                                                           | Sí       | Sí (se requiere conectividad a Internet o se deben implementar puntos finales personalizados para enviar/recibir eventos de negocios dentro de la intranet)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
 | **Área**                | **Característica**             | **Nube** | **Local** |
 |-------------------------|-------------------|-----------|-----------------|
+| Administración de activos                     |                                                                                           | Sí       | N.º |
 | Cumplimiento y certificaciones        |                                                                                           | Sí       | Sí             |
 |                                      | Certificación SOC 1 de tipo 1                                                                | Sí       | Nº              |
 | Contabilidad de costes                      |                                                                                           | Sí       | Sí             |
@@ -106,10 +107,10 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 |                                      | ER: integración con LCS                                                                  | Sí       | No              |
 |                                      | ER: integración con SharePoint                                                           | Sí       | No              |
 |                                      | ER: Integración con Regulatory Configuration Services (RCS)                              | Sí       | No              |
-|                                      | ER: permite usar el sistema de archivos local como almacenamiento de las configuraciones de ER accesibles mediante los repositorios de ER | No        | Sí             |
-|                                      | Integración con PowerBI.com                                                              | Sí       | No              |
-|                                      | Integración con PowerBI Desktop                                                          | No        | Sí             |
-|                                      | Espacios de trabajo analíticos                                                                     | Sí       | No              |
+|                                      | ER: permite usar el sistema de archivos local como almacenamiento de las configuraciones de ER accesibles mediante los repositorios de ER | N.º        | Sí             |
+|                                      | Integración con PowerBI.com                                                              | Sí       | N.º              |
+|                                      | Integración con PowerBI Desktop                                                          | N.º        | Sí             |
+|                                      | Espacios de trabajo analíticos                                                                     | Sí       | N.º              |
 |                                      | Proceso empresarial inteligente: recomendaciones                                             | Sí       | Nº              |
 |                                      | Creación de informes de Power BI con OData mediante el escritorio de Power BI o herramientas de Excel PowerQuery    | Sí       | Nº              |
 |                                      | SQL Server Reporting Services (SSRS) admite el escalado                                 | Sí       | N.º              |

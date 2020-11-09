@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e55974f65577170880e60095f1ba74ea7366e592
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834422"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018569"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Solución de problemas de pedidos de compra
 
@@ -34,7 +34,7 @@ Este tema describe cómo solucionar problemas que pueden surgir al trabajar con 
 
 Este problema se puede producir debido a incoherencias en las distribuciones de pedidos de compra.
 
-Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador*, vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador* , vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="when-purchase-orders-are-imported-through-data-management-purchase-order-line-numbers-dont-follow-the-increment-that-defined-in-system-parameters"></a>Cuando los pedidos de compra se importan a través de la administración de datos, los números de línea del pedido de compra no siguen el incremento definido en los parámetros del sistema.
 
@@ -58,7 +58,7 @@ Este comportamiento se debe al diseño. Los valores predeterminados para el grup
 
 Este problema se puede producir debido a incoherencias en las distribuciones de pedidos de compra.
 
-Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador*, vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador* , vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="one-or-more-accounting-distributions-are-either-over-distributed-or-under-distributed"></a>Una o más distribuciones contables están distribuidas en exceso o en defecto.
 
@@ -70,7 +70,7 @@ Aparece el siguiente error: "Una o más distribuciones contables están distribu
 
 Este problema se puede producir debido a incoherencias en las distribuciones de pedidos de compra.
 
-Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador*, vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador* , vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>¿Puedo mostrar solo los pedidos de compra que he creado?
 
@@ -118,7 +118,7 @@ Este comportamiento se debe al diseño. En los pedidos de compra, el producto si
 
 ### <a name="issue-description"></a>Descripción del problema
 
-Un producto tiene un proveedor aprobado que tiene, por ejemplo, una fecha de vigencia del 11 de enero de 2018 (*11/01/2018*) y *Nunca* como fecha de vencimiento. Si intenta cambiar la fecha de vigencia al 10 de enero de 2018 (*10/01/2018*) o al 12 de enero de 2018 (*12/01/2018*), aparecerá el siguiente error:
+Un producto tiene un proveedor aprobado que tiene, por ejemplo, una fecha de vigencia del 11 de enero de 2018 ( *11/01/2018* ) y *Nunca* como fecha de vencimiento. Si intenta cambiar la fecha de vigencia al 10 de enero de 2018 ( *10/01/2018* ) o al 12 de enero de 2018 ( *12/01/2018* ), aparecerá el siguiente error:
 
 > No se puede crear un registro en la lista de proveedores aprobados (PdsApproveVendorList). El valor de 'Vencimiento' debe ser mayor o igual que el valor de 'Vigencia'.
 

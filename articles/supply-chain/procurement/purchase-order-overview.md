@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4792cf982b9d5be3b30755483a5185a6d5a5a21
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207934"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018776"
 ---
 # <a name="purchase-order-overview"></a>Visión general de pedidos de compra
 
@@ -33,7 +33,7 @@ Este artículo proporciona información general acerca de los pedidos de compra 
 
 Un pedido de compra (PC) es un documento que representa un acuerdo con un proveedor para comprar bienes o servicios. El documento también ayuda a realizar un seguimiento de las recepciones de producto que se realizan para el pedido y, posteriormente, la contabilidad de las facturas de proveedor que el proveedor factura para el pedido.  
 
-La página **Pedidos de compra** contiene una descripción general de los pedidos disponibles y permite modificarlos. Al abrir un pedido de compra, puede seleccionar la vista **Encabezado**, que contiene información especificada solo una vez para cada pedido de compra, como los detalles del proveedor. De forma alternativa, puede seleccionar la vista **Líneas**, donde puede modificar las líneas de pedido. Normalmente, pasará de una vista a otra conforme modifique los pedidos de compra. Los gastos no se muestran directamente en la página **Pedidos de compra**, sino que se tiene acceso a ellos mediante menú en las líneas y encabezado de pedido.  
+La página **Pedidos de compra** contiene una descripción general de los pedidos disponibles y permite modificarlos. Al abrir un pedido de compra, puede seleccionar la vista **Encabezado** , que contiene información especificada solo una vez para cada pedido de compra, como los detalles del proveedor. De forma alternativa, puede seleccionar la vista **Líneas** , donde puede modificar las líneas de pedido. Normalmente, pasará de una vista a otra conforme modifique los pedidos de compra. Los gastos no se muestran directamente en la página **Pedidos de compra** , sino que se tiene acceso a ellos mediante menú en las líneas y encabezado de pedido.  
 
 Hay muchos informes donde puede ver información acerca de los pedidos de compra, las recepciones de producto y las facturas de proveedor. Estos informes se encuentran en los módulos **Adquisición y abastecimiento** y **Proveedores**.  
 
@@ -58,25 +58,25 @@ Hay tres tipos de pedidos de compra. Al crear un pedido de compra, debe especifi
 ## <a name="purchase-order-statuses"></a>Estados de pedidos de compra
 Los pedidos de compra incluyen varios campos de estado que indican el progreso del pedido. Todos estos campos son visibles en la vista **Encabezado** del pedido y algunos de ellos también son visibles en la visión general de cuadrícula de todos los pedidos. En el campo **Estado** se muestra el estado de las cantidades en el pedido. Los siguientes valores están disponibles:
 
--   **Pedido abierto**: se han creado pedidos y las cantidades están en el pedido.
--   **Recibido**: se han recibido algunas de las cantidades, pero que no se han facturado todavía.
--   **Facturado**: se ha facturado la cantidad completa del pedido. **Nota:** Si un pedido se ha facturado *parcialmente*, ni el estado **Recibido** ni **Facturado** es adecuado. Por tanto, el pedido todavía tendrá un estado de **Pedido abierto**.
--   **Cancelado**: se confirmó un pedido pero se canceló posteriormente. Por tanto, este estado indica que ya no existen cantidades abiertas en el pedido.
+-   **Pedido abierto** : se han creado pedidos y las cantidades están en el pedido.
+-   **Recibido** : se han recibido algunas de las cantidades, pero que no se han facturado todavía.
+-   **Facturado** : se ha facturado la cantidad completa del pedido. **Nota:** Si un pedido se ha facturado *parcialmente* , ni el estado **Recibido** ni **Facturado** es adecuado. Por tanto, el pedido todavía tendrá un estado de **Pedido abierto**.
+-   **Cancelado** : se confirmó un pedido pero se canceló posteriormente. Por tanto, este estado indica que ya no existen cantidades abiertas en el pedido.
 
 El campo **Estado del documento** le ayuda a revisar rápidamente el progreso del pedido en cuanto a los documentos que se han procesado. Muestra el estado del documento más reciente que se ha completado para el pedido. Los siguientes valores están disponibles:
 
--   **Ninguno**: no se ha procesado ningún documento para el pedido todavía.
--   **Consulta de compra**: se ha generado una consulta de compra y el pedido está en espera de comentarios por parte el proveedor.
--   **Pedido de compra**: se ha procesado la confirmación en el pedido.
--   **Recepción de producto**: se ha procesado la recepción de producto en el pedido.
--   **Factura**: se ha contabilizado una factura con el pedido.
+-   **Ninguno** : no se ha procesado ningún documento para el pedido todavía.
+-   **Consulta de compra** : se ha generado una consulta de compra y el pedido está en espera de comentarios por parte el proveedor.
+-   **Pedido de compra** : se ha procesado la confirmación en el pedido.
+-   **Recepción de producto** : se ha procesado la recepción de producto en el pedido.
+-   **Factura** : se ha contabilizado una factura con el pedido.
 
 El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa por un flujo de trabajo o proceso de revisión. Los siguientes valores están disponibles:
 
--   **Borrador**, **En revisión** y **Rechazado**: estos estados solo se utilizan cuando se utiliza un flujo de trabajo de aprobación para el pedido de compra.
--   **Aprobado**: este estado se asigna a los pedidos que han completado la aprobación del flujo de trabajo. Los pedidos creados sin utilizar un flujo de trabajo de aprobación reciben un estado de **Aprobado** inmediatamente.
+-   **Borrador** , **En revisión** y **Rechazado** : estos estados solo se utilizan cuando se utiliza un flujo de trabajo de aprobación para el pedido de compra.
+-   **Aprobado** : este estado se asigna a los pedidos que han completado la aprobación del flujo de trabajo. Los pedidos creados sin utilizar un flujo de trabajo de aprobación reciben un estado de **Aprobado** inmediatamente.
 -   **En revisión externa** : este estado se usa en escenarios donde se envía una consulta de compra al proveedor, para que el proveedor pueda confirmar las condiciones del pedido de compra. Este estado también se utiliza en el proceso iniciado por la acción **Solicitud de confirmación**. Para este proceso, al proveedor se le pide que confirme las condiciones de este pedido de compra conectándose a su sistema y registrando si confirma o rechaza el pedido.
--   **Confirmado**: este estado se asigna una vez se ha confirmado el pedido. Normalmente, este estado es el último estado de aprobación que se asigna a un pedido.
+-   **Confirmado** : este estado se asigna una vez se ha confirmado el pedido. Normalmente, este estado es el último estado de aprobación que se asigna a un pedido.
 
 
 <a name="additional-resources"></a>Recursos adicionales

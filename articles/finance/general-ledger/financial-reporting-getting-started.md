@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: cd87983ce062bd1fa57e97628986cadced9971ab
+ms.sourcegitcommit: 374298f0816b57c95c0c3e3fd7e852399e1d8696
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967267"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3999558"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introducción a Financial Reporting 
 
@@ -87,7 +87,7 @@ Tras la adición de un usuario o el cambio de un rol, el usuario debe poder tene
 ## <a name="report-deletions-and-expirations"></a>Notificar eliminaciones y vencimientos
 Los usuarios que generan un informe pueden eliminar sus propios informes. Los usuarios con el deber **Mantener seguridad de informes financieros** puede eliminar los informes de otros. 
 
-En la versión 10.0.8, se introdujo el concepto de fechas de vencimiento. Está habilitada una nueva función requerida en la página **Todas**, dentro del espacio de trabajo de gestión de características. La característica **Políticas de retención de informes financieros** contiene los siguientes cambios:
+En la versión 10.0.8, se introdujo el concepto de fechas de vencimiento. Está habilitada una nueva función requerida en la página **Todas** , dentro del espacio de trabajo de gestión de características. La característica **Políticas de retención de informes financieros** contiene los siguientes cambios:
 * Los informes recién generados se marcarán automáticamente con una fecha de vencimiento de 90 días a partir de la fecha en que se generen.
 * Cualquier informe existente que sea anterior a la instalación de la característica tendrá un período de vencimiento de 90 días. La fecha puede mostrarse en blanco durante un corto período de tiempo hasta que se ejecute el servicio de informes financieros, se genere un informe y el servicio realice la actualización de los informes existentes con una fecha de vencimiento en blanco. 
 * Los usuarios con **Mantener seguridad de informes financieros** tienen acceso a esta funcionalidad. Cualquier usuario con el deber **Mantener informes financieros** que tenga concedido el privilegio **Mantener el vencimiento del informe financiero** también tendrá la capacidad de modificar el período de vencimiento. Actualmente hay dos opciones de retención disponibles: 
@@ -129,7 +129,7 @@ Los informes financieros proporcionan 22 informes financieros predeterminados. C
 | Depositar fondos presupuestarios disponibles - Valor predeterminado                         | Vea una comparación detallada de presupuesto revisado, gastos reales, reservas de presupuesto y fondos de presupuestos disponibles para todas las cuentas                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Apertura de informes financieros
-Al seleccionar el menú **Informes financieros**, se muestra la lista de informes financieros predeterminados para la empresa. A continuación, puede abrir o modificar un informe. Para abrir uno de los informes predeterminados, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2019, el informe se genera para el 31 de julio de 2019. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
+Al seleccionar el menú **Informes financieros** , se muestra la lista de informes financieros predeterminados para la empresa. A continuación, puede abrir o modificar un informe. Para abrir uno de los informes predeterminados, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2019, el informe se genera para el 31 de julio de 2019. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Creación y modificación de informes financieros
 A partir de la lista de informes financieros, puede crear un nuevo informe o modificar un informe existente. Si dispone de los permisos adecuados, puede crear un nuevo informe financiero seleccionando **Nuevo** en el panel Acciones. Se descarga un programa del diseñador de informes en el dispositivo. Una vez iniciado el diseñador de informes, puede crear el nuevo informe. Tras guardar el nuevo informe, aparece en la lista de informes financieros. En la lista se muestran solo los informes que se crearon para la empresa que está usando en Dynamics 365 Finance. 
@@ -145,7 +145,7 @@ Existen algunos problemas comunes que pueden causar problemas al abrir Diseñado
 
 Problema 1: Diseñador de informes no se inicia cuando selecciona **Nuevo** o **Editar**.
 
-* En Internet Explorer, seleccione **Configuración** y luego **Opciones de Internet**. Seleccione la pestaña **Seguridad**. Seleccione Sitios de confianza y luego elija **Sitios**. En **Agregar este sitio web a la zona**, introduzca "\*\.dynamics.com" (sin comillas) y luego seleccione **Agregar**. 
+* En Internet Explorer, seleccione **Configuración** y luego **Opciones de Internet**. Seleccione la pestaña **Seguridad**. Seleccione Sitios de confianza y luego elija **Sitios**. En **Agregar este sitio web a la zona** , introduzca "\*\.dynamics.com" (sin comillas) y luego seleccione **Agregar**. 
 * En Internet Explorer, seleccione **Configuración** y luego **Opciones de Internet**. Seleccione la pestaña **Seguridad**. Seleccione Sitios de confianza. En el área etiquetada como Nivel de seguridad para esta zona, cambie la opción a **Medio-bajo**.
 * Deshabilite el bloqueador de elementos emergentes en su navegador.
 * Se requieren estaciones de trabajo para instalar Microsoft .NET Framework 4.6.2 o superior. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde el [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
@@ -154,7 +154,7 @@ Problema 1: Diseñador de informes no se inicia cuando selecciona **Nuevo** o **
      2. Introduzca **edge://flags** y seleccione **Intro**.
      3. Busque la opción **Soporte ClickOnce** o utilice este enlace directo: **edge://flags/#edge-click-once**.
      4. Establezca la opción del menú desplegable en **Habilitado**.
-     5. Seleccione**Reiniciar navegador**.
+     5. Seleccione **Reiniciar navegador**.
 
 Problema 2: al usuario no se le han asignado los permisos necesarios para utilizar Financial Reporting. 
 

@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple, ConsignmentProductReceiptJournal, ConsignmentReplenishmentOrderLineQuantity
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66611e2d8a88269fe727c46ef4aa6aa809cc7836
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214053"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018362"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Crear un pedido de reabastecimiento de entrega
 
@@ -33,16 +33,16 @@ Este tema explica cómo crear un pedido de reabastecimiento de entrega donde pue
 ## <a name="create-a-consignment-replenishment-order"></a>Crear un pedido de reabastecimiento de entrega
 1. En el panel de exploración, vaya a **Módulos > Adquisición y abastecimiento > Entrega > Pedidos de reabastecimiento de entrega**.
 2. Seleccione **Nuevo**.
-3. En el campo **Cuenta de proveedor**, seleccione el proveedor **US-104** (es preciso seleccionar un proveedor que esté registrado como propietario en la página **propietarios de inventario**). 
+3. En el campo **Cuenta de proveedor** , seleccione el proveedor **US-104** (es preciso seleccionar un proveedor que esté registrado como propietario en la página **propietarios de inventario** ). 
 4. Seleccione **Aceptar**.
 5. Seleccione **Agregar línea**.
-6. En el campo **Código de artículo**, escriba `M9211CI` (debe seleccionar un artículo que se haya configurado como inventario de envío).
-7. En el campo **Cantidad**, especifique un número.
-8. En el campo **Fecha de entrega solicitada**, especifique una fecha. El motor MRP usa las fechas solicitada y confirmada para la llegada esperada de las mercancías.  
-9. En el campo **Fecha de entrega confirmada**, especifique una fecha.
+6. En el campo **Código de artículo** , escriba `M9211CI` (debe seleccionar un artículo que se haya configurado como inventario de envío).
+7. En el campo **Cantidad** , especifique un número.
+8. En el campo **Fecha de entrega solicitada** , especifique una fecha. El motor MRP usa las fechas solicitada y confirmada para la llegada esperada de las mercancías.  
+9. En el campo **Fecha de entrega confirmada** , especifique una fecha.
 10. Expanda la sección **Detalles de línea.**
 11. Seleccionar la pestaña **Dimensiones del inventario**
-12. Para mostrar el propietario en el campo **Propietario de las dimensiones de inventario**, actualice la página. Ahora el proveedor US-104 aparece como propietario.  
+12. Para mostrar el propietario en el campo **Propietario de las dimensiones de inventario** , actualice la página. Ahora el proveedor US-104 aparece como propietario.  
 
 ## <a name="check-the-inventory-transaction-status"></a>Compruebe el estado de la transacción de inventario
 1. Seleccione **Inventario**.
@@ -52,8 +52,8 @@ Este tema explica cómo crear un pedido de reabastecimiento de entrega donde pue
 
 ## <a name="receive-items"></a>Recibir artículos
 1. Seleccione **Recepción de producto**.
-2. En el campo **Recepción de producto externa**, escriba un valor.
-3. En el campo **Cantidad**, escriba un número que sea inferior al número que se muestra aquí. 
+2. En el campo **Recepción de producto externa** , escriba un valor.
+3. En el campo **Cantidad** , escriba un número que sea inferior al número que se muestra aquí. 
 4. Seleccione **Aceptar**.
 
 ## <a name="check-the-on-hand-inventory"></a>Compruebe el inventario disponible

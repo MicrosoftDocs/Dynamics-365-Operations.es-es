@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8320c8aab82a39a8a5565e6b3e805e1065c67453
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986825"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016825"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidar los envíos utilizando el área de trabajo de consolidación de envíos
 
@@ -39,7 +39,7 @@ El escenario que se describe aquí supone que ya ha activado la función, realiz
 
 ## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Activar la función manual de consolidación de envíos
 
-Antes de poder usar la función *Consolidación manual de envíos*, debe activarla en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Antes de poder usar la función *Consolidación manual de envíos* , debe activarla en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones** , la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de función:** *Consolidación manual de envíos*
@@ -63,7 +63,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
@@ -77,13 +77,13 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
 1. Agregue un segundo pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0002* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0002* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
     - **Modo de entrega:** *Airwa-Air*
 
@@ -100,13 +100,13 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *M9200* (un artículo donde el filtro **Código 4** está establecido en *Inflamable*)
+    - **Número de artículo:** *M9200* (un artículo donde el filtro **Código 4** está establecido en *Inflamable* )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
 1. Agregue un segundo pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *M9201* (un artículo donde el filtro **Código 4** está establecido en *Explosivo*)
+    - **Número de artículo:** *M9201* (un artículo donde el filtro **Código 4** está establecido en *Explosivo* )
     - **Cantidad:** *1.00*
     - **Modo de entrega:** *Airwa-Air*
 
@@ -123,7 +123,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
@@ -137,7 +137,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
@@ -152,7 +152,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
@@ -165,7 +165,7 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
@@ -175,13 +175,13 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 1. Cree dos pedidos de venta idénticos que tengan la siguiente configuración:
 
     - **Cuenta de cliente:** *US-007*
-    - **Sitio**: *6*
-    - **Almacén**: *61*
+    - **Sitio** : *6*
+    - **Almacén** : *61*
     - **Grupo:** *ShipCons*
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
@@ -191,13 +191,13 @@ Vaya a **Clientes \> Pedidos \> Todos los pedidos de ventas** y cree una colecci
 1. Cree dos pedidos de venta idénticos que tengan la siguiente configuración:
 
     - **Cuenta de cliente:** *US-007*
-    - **Sitio**: *6*
-    - **Almacén**: *61*
+    - **Sitio** : *6*
+    - **Almacén** : *61*
     - **Grupo:** Deje este campo en blanco.
 
 1. Agregue una línea de pedido que tenga la siguiente configuración:
 
-    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4**)
+    - **Número de artículo:** *A0001* (un artículo al que no se ha asignado el filtro **Código 4** )
     - **Cantidad:** *1.00*
 
 1. Seleccione **Inventario \> Reserva** y luego, en el Panel de acciones, seleccione **Reservar lote interno** para reservar la línea de pedido.
@@ -208,14 +208,14 @@ Siga estos pasos para despachar cada pedido de ventas que creó para este escena
 
 1. Vaya a **Clientes \> Pedidos \> Todos los pedidos de venta**.
 1. Busque y seleccione el pedido de ventas a despachar.
-1. En el panel Acciones, en la pestaña **Almacén**, seleccione **Acciones \> Liberar al almacén** para despachar el pedido de ventas seleccionado.
+1. En el panel Acciones, en la pestaña **Almacén** , seleccione **Acciones \> Liberar al almacén** para despachar el pedido de ventas seleccionado.
 1. Repita este procedimiento para cada pedido de ventas restante que creó para este escenario.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidar los envíos utilizando el área de trabajo de consolidación de envíos
 
 1. Vaya a **Gestion de almacén \> Despachar al almacén \> Área de trabajo de consolidación de envíos**.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango**, seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango** , seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
 
     - **Tabla:** *Pedidos de ventas*
     - **Campo:** *Pedido de ventas*
@@ -238,7 +238,7 @@ El siguiente procedimiento le permite verificar los envíos que se han creado o 
 Deben haberse creado dos envíos:
 
 - El primer envío contiene tres líneas y se creó utilizando la directiva de consolidación de envíos *CustomerMode*.
-- El segundo envío, que no utiliza el modo de transporte de entrega *Vías aéreas*, se creó usando la directiva de consolidación de envíos *CustomerOrderNo*.
+- El segundo envío, que no utiliza el modo de transporte de entrega *Vías aéreas* , se creó usando la directiva de consolidación de envíos *CustomerOrderNo*.
 
 ### <a name="related-shipments-for-order-set-2"></a>Envíos relacionados para el conjunto de pedidos 2
 

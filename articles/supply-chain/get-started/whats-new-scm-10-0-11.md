@@ -17,32 +17,37 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 52090645b0bb00399a88926c0b48a3cee8fcd114
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652092"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012307"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Novedades o cambios en Dynamics 365 Supply Chain Management 10.0.11 (julio de 2020)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión preliminar 10.0.11. Esta versión tiene el número de compilación 10.0.464 y está disponible de la siguiente manera:
+En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.11. Esta versión tiene el número de compilación 10.0.464 y está disponible de la siguiente manera:
 
 - **Versión de vista previa:** abril 2020
 - **Disponibilidad general (actualización automática):** mayo de 2020
-- **Actualización automática**: julio de 2020
+- **Actualización automática** : julio de 2020
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
 En esta versión se incluyen las siguientes características. Los títulos de características están vinculados a información adicional en el sitio [Planes de lanzamiento](https://docs.microsoft.com/dynamics365/release-plans/). Los vínculos adicionales apuntan a documentación o vídeos adicionales que están disponibles actualmente para esa característica. La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
 
 - [Almacenamiento de informe de inventario disponible](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+
 - [Matrícula de entidad de almacén que recibe mejoras para la aplicación de almacén](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Para obtener más información, consulte [Matrícula de entidad de almacén a través de la aplicación de almacén](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+
 - [Mejoras de reserva de línea para el formulario de reserva de número de lote](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Para obtener más información, consulte [Reservar el mismo lote para un pedido de ventas](../sales-marketing/reserve-same-batch-sales-order.md).
+
 - [Nuevas entidades de datos para el área de fabricación](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+
 - [Recepción en exceso de cantidades de carga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Para más información sobre la gestión de cargas entrantes , consulte [Gestión de almacén de cargas entrantes para pedidos de compra](../warehousing/inbound-load-handling.md).
+
 - [Informe como terminado en los números de lote del dispositivo de la tarjeta de trabajo](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Para más información, consulte [Notificar como terminado desde el dispositivo de tarjetas de trabajo](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales

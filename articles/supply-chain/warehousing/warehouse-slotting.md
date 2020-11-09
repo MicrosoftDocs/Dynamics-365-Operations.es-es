@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,24 +16,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597467"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017423"
 ---
 # <a name="warehouse-slotting"></a>Slotting de almacén
 
 [!include [banner](../includes/banner.md)]
 
-El slotting de almacén le permite consolidar la demanda por artículo y unidad de medida de los pedidos que tienen un estado de *Pedido*, *Reservado* o *Liberado*. La demanda generada se puede aplicar a las ubicaciones que se utilizarán para el picking, en función de la cantidad, la unidad, las dimensiones físicas, las ubicaciones fijas y más. Una vez que se ha establecido el plan de slotting, se puede crear un trabajo de reabastecimiento para llevar la cantidad adecuada de inventario a cada ubicación.
+El slotting de almacén le permite consolidar la demanda por artículo y unidad de medida de los pedidos que tienen un estado de *Pedido* , *Reservado* o *Liberado*. La demanda generada se puede aplicar a las ubicaciones que se utilizarán para el picking, en función de la cantidad, la unidad, las dimensiones físicas, las ubicaciones fijas y más. Una vez que se ha establecido el plan de slotting, se puede crear un trabajo de reabastecimiento para llevar la cantidad adecuada de inventario a cada ubicación.
 
 Esta funcionalidad ayuda a los directores de almacén a planificar de manera inteligente las ubicaciones de picking antes de liberar pedidos al almacén y crear trabajos de picking.
 
 ## <a name="turn-on-the-warehouse-slotting-feature"></a>Activar la característica de slotting de almacén
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones** , la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de característica:** *Característica de slotting de almacén*
@@ -53,25 +54,25 @@ Los niveles de unidad de medida permiten agrupar varias unidades de medida a efe
     - **Descripción:** *cada pallet de cajas*
 
 1. Seleccione **Guardar**.
-1. En la ficha desplegable **Unidades de medida**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha desplegable **Unidades de medida** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
     - **Unidad:** *caja*
-    - **Descripción**: deje este campo en blanco. Se rellenará automáticamente cuando guarde los cambios.
+    - **Descripción** : deje este campo en blanco. Se rellenará automáticamente cuando guarde los cambios.
     - **Clase de unidad:** *cantidad*
 
 1. Seleccione **Nuevo** para agregar una segunda línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
-    - **Unidad**: *u*
-    - **Descripción**: deje este campo en blanco. Se rellenará automáticamente cuando guarde los cambios.
+    - **Unidad** : *u*
+    - **Descripción** : deje este campo en blanco. Se rellenará automáticamente cuando guarde los cambios.
     - **Clase de unidad:** *cantidad*
 
 1. Seleccione **Nuevo** para agregar una tercera línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
     - **Unidad:** *PL*
-    - **Descripción**: deje este campo en blanco. Se rellenará automáticamente cuando guarde los cambios.
+    - **Descripción** : deje este campo en blanco. Se rellenará automáticamente cuando guarde los cambios.
     - **Clase de unidad:** *Cantidad*
 
 1. Seleccione **Guardar** para guardar el nivel.
@@ -82,8 +83,8 @@ Debe seleccionar el código de directiva que debe asociarse a una plantilla.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Códigos de directivas**.
 1. En el panel de acciones, haga clic en **Nueva**.
-1. En el campo **Código de la directiva**, introduzca *Slotting*.
-1. En el campo **Descripción de la directiva**, introduzca *Slotting*.
+1. En el campo **Código de la directiva** , introduzca *Slotting*.
+1. En el campo **Descripción de la directiva** , introduzca *Slotting*.
 
 ### <a name="set-up-slotting-templates"></a>Configurar plantillas de slotting
 
@@ -108,10 +109,10 @@ A continuación, debe configurar el encabezado de la plantilla, las especificaci
 
         Los siguientes valores están disponibles en este campo:
 
-        - **Pedido**: la cantidad pedida completa en el pedido de ventas debe considerarse demanda.
-        - **Reservado**: solo las cantidades de la línea de pedido de ventas que se reservan (físicas y pedidas) deben considerarse demanda.
+        - **Pedido** : la cantidad pedida completa en el pedido de ventas debe considerarse demanda.
+        - **Reservado** : solo las cantidades de la línea de pedido de ventas que se reservan (físicas y pedidas) deben considerarse demanda.
 
-    - **Almacén**: _61_
+    - **Almacén** : _61_
     - **Permitir demanda de oleadas para usar cantidades sin reservar:** _sí_
 
 También puede especificar una consulta para reducir el alcance de la demanda que se evalúa.
@@ -120,12 +121,12 @@ También puede especificar una consulta para reducir el alcance de la demanda qu
 
 Para cada plantilla que cree, siga estos pasos para agregar una línea para cada especificación de slotting.
 
-1. En la ficha desplegable **Detalles de plantilla de slotting**, seleccione **Nuevo** para crear una línea de plantilla.
+1. En la ficha desplegable **Detalles de plantilla de slotting** , seleccione **Nuevo** para crear una línea de plantilla.
 1. En la nueva línea, establezca los siguientes valores:
 
-    - **Secuencia**: _1_
+    - **Secuencia** : _1_
     - **Descripción:** _Ubicación fija_
-    - **Cantidad mínima**: _1_
+    - **Cantidad mínima** : _1_
 
         Este campo define la cantidad mínima de demanda que se requiere para la línea.
 
@@ -145,8 +146,8 @@ Para cada plantilla que cree, siga estos pasos para agregar una línea para cada
 
         Los siguientes valores están disponibles en este campo:
 
-        - **Asumir vacío**: este sistema debe asumir que todas las ubicaciones en el área de picking están vacías y no debe comprobar esas ubicaciones para el inventario.
-        - **Considerar cantidad**: el sistema debe comprobar las ubicaciones en el área de picking para el inventario y no debe omitir las ubicaciones que estén vacías.
+        - **Asumir vacío** : este sistema debe asumir que todas las ubicaciones en el área de picking están vacías y no debe comprobar esas ubicaciones para el inventario.
+        - **Considerar cantidad** : el sistema debe comprobar las ubicaciones en el área de picking para el inventario y no debe omitir las ubicaciones que estén vacías.
 
     - **Código de directiva:** _Slotting_
 
@@ -158,13 +159,13 @@ Para cada plantilla que cree, siga estos pasos para agregar una línea para cada
 
     - **Permitir interrupción:** _Sí_
 
-        Cuando esta opción se establece en *Sí*, si no se puede crear la posición de ninguna demanda, se creará un trabajo de movimiento para sacar el inventario de las ubicaciones donde hay inventario, pero donde no se creó la posición de nada. La plantilla se ejecuta de nuevo. Esta vez, ignora el inventario en las ubicaciones. Esta funcionalidad funciona mejor cuando el campo **Asignar criterios de posición** se establece en _Considerar cantidad_.
+        Cuando esta opción se establece en *Sí* , si no se puede crear la posición de ninguna demanda, se creará un trabajo de movimiento para sacar el inventario de las ubicaciones donde hay inventario, pero donde no se creó la posición de nada. La plantilla se ejecuta de nuevo. Esta vez, ignora el inventario en las ubicaciones. Esta funcionalidad funciona mejor cuando el campo **Asignar criterios de posición** se establece en _Considerar cantidad_.
 
     - **Uso de ubicaciones fijas:** _Solo ubicaciones fijas para el producto_
 
         Los siguientes valores están disponibles en este campo:
 
-        - **Ubicaciones fijas y no fijas**: el sistema no debe limitarse a usar solo ubicaciones fijas.
+        - **Ubicaciones fijas y no fijas** : el sistema no debe limitarse a usar solo ubicaciones fijas.
         - **Solo ubicaciones fijas para el producto:** el sistema debe colocarse solo en ubicaciones que son ubicaciones fijas para el producto.
         - **Solo ubicaciones fijas para la variante del producto:** el sistema debe colocarse solo en ubicaciones que son ubicaciones fijas para la variante del producto.
 
@@ -172,7 +173,7 @@ Para cada plantilla que cree, siga estos pasos para agregar una línea para cada
 1. Seleccione **Nuevo** para crear una segunda línea de plantilla.
 1. En la nueva línea, establezca los siguientes valores:
 
-    - **Secuencia**: _2_
+    - **Secuencia** : _2_
     - **Descripción:** _Otro_
     - **Cantidad mínima:** _1_
     - **Cantidad máxima:** _1000000_
@@ -188,12 +189,12 @@ Para cada plantilla que cree, siga estos pasos para agregar una línea para cada
 
 1. Seleccione la línea donde el campo **Secuencia** se establece en *2*.
 1. Seleccione **Editar consulta**.
-1. En la ficha **Rango**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha **Rango** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
-    - **Tabla**: *Ubicaciones*
+    - **Tabla** : *Ubicaciones*
     - **Tabla derivada:** *Ubicaciones*
-    - **Campo**: *ID de perfil de ubicación*
+    - **Campo** : *ID de perfil de ubicación*
     - **Criterios:** *Pick-06* (Seleccione el signo más doble \[**++**\] en el campo para expandir la lista y luego seleccione *Pick-06* - *Sitio de picking 6*.)
 
 1. Seleccione **Aceptar**.
@@ -203,34 +204,34 @@ Para cada plantilla que cree, siga estos pasos para agregar una línea para cada
 Se debe configurar al menos una directiva de ubicación para admitir selecciones de slotting. Use los procedimientos de esta sección para configurar una nueva *directiva de ubicación de reabastecimiento* para selecciones de slotting.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Directivas de ubicación**.
-1. En el panel izquierdo, en el campo **Tipo de orden de trabajo**, seleccione *Reabastecimiento*.
+1. En el panel izquierdo, en el campo **Tipo de orden de trabajo** , seleccione *Reabastecimiento*.
 1. En el panel de acciones, haga clic en **Nueva**.
-1. En el encabezado de la nueva directiva de ubicación, en el campo **Nombre**, introduzca *61 Selección de slotting*.
+1. En el encabezado de la nueva directiva de ubicación, en el campo **Nombre** , introduzca *61 Selección de slotting*.
 
 ##### <a name="configure-the-location-directives-fasttab"></a>Configurar la ficha desplegable Directivas de ubicación
 
-1. En la ficha desplegable **Directivas generales**, establezca los valores siguientes. Acepte los valores predeterminados para el resto de campos.
+1. En la ficha desplegable **Directivas generales** , establezca los valores siguientes. Acepte los valores predeterminados para el resto de campos.
 
-    - **Tipo de trabajo**: _Recoger_
-    - **Sitio**: _6_
-    - **Almacén**: _61_
+    - **Tipo de trabajo** : _Recoger_
+    - **Sitio** : _6_
+    - **Almacén** : _61_
     - **Código de directiva:** _Slotting_
 
 1. Seleccione **Guardar** para tener disponible la ficha desplegable **Líneas**.
 
 ##### <a name="configure-the-lines-fasttab"></a>Configurar la ficha desplegable Líneas
 
-1. En la ficha desplegable **Líneas**, seleccione **Nuevo** para crear una línea.
+1. En la ficha desplegable **Líneas** , seleccione **Nuevo** para crear una línea.
 1. En la nueva línea, establezca los siguientes valores. Acepte los valores predeterminados para el resto de campos.
 
-    - **Cantidad inicial**: _0_
-    - **Cantidad final**: _1000000_
+    - **Cantidad inicial** : _0_
+    - **Cantidad final** : _1000000_
 
 1. Seleccione **Guardar** para tener disponible la ficha desplegable **Acciones directivas de ubicación**.
 
 ##### <a name="configure-the-location-directive-actions-fasttab"></a>Configurar la ficha desplegable Acciones de directiva de ubicación
 
-1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione **Nuevo** para crear una línea.
+1. En la ficha desplegable **Acciones de directiva de ubicación** , seleccione **Nuevo** para crear una línea.
 1. En la nueva línea, establezca los siguientes valores. Acepte los valores predeterminados para el resto de campos.
 
     - **Nombre:** _Masivo_
@@ -240,13 +241,13 @@ Se debe configurar al menos una directiva de ubicación para admitir selecciones
 
 ##### <a name="edit-the-query"></a>Editar la consulta
 
-1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione **Editar consulta**.
-1. En la ficha **Rango**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha desplegable **Acciones de directiva de ubicación** , seleccione **Editar consulta**.
+1. En la ficha **Rango** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
-    - **Tabla**: *Ubicaciones*
+    - **Tabla** : *Ubicaciones*
     - **Tabla derivada:** *Ubicaciones*
-    - **Campo**: *ID de zona*
+    - **Campo** : *ID de zona*
     - **Criterios:** *Masivo* (Seleccione el signo más doble \[**++**\] en el campo para expandir la lista y luego seleccione *Masivo*.)
 
 1. Seleccione **Aceptar**.
@@ -267,26 +268,26 @@ Siga estos pasos para crear la demanda a la que aplicará el slotting.
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. Seleccione **Nuevo** para crear un pedido de ventas.
-1. En el cuadro de diálogo **Crear pedido de ventas**, en el campo **Cuenta de cliente**, seleccione _US-007_.
-1. En el campo **Almacén**, seleccione _61_.
+1. En el cuadro de diálogo **Crear pedido de ventas** , en el campo **Cuenta de cliente** , seleccione _US-007_.
+1. En el campo **Almacén** , seleccione _61_.
 1. Seleccione **Aceptar**.
 1. Se abre el nuevo pedido de ventas. Incluye una línea vacía en la ficha desplegable **Líneas de pedido de ventas**. En esta línea, establezca los siguientes valores:
 
-    - **Artículo**: _L0101_
+    - **Artículo** : _L0101_
     - **Cantidad:** _20_
 
 1. Seleccione **Agregar línea** para agregar una nueva línea y establecer los siguientes valores:
 
-    - **Artículo**: _T0100_
+    - **Artículo** : _T0100_
     - **Cantidad:** _8_
 
 1. Seleccione **Guardar**.
 1. Seleccione **Nuevo** para crear un segundo pedido de ventas.
-1. En el cuadro de diálogo **Crear pedido de ventas**, en el campo **Cuenta de cliente**, seleccione _US-008_.
-1. En el campo **Almacén**, seleccione _61_.
+1. En el cuadro de diálogo **Crear pedido de ventas** , en el campo **Cuenta de cliente** , seleccione _US-008_.
+1. En el campo **Almacén** , seleccione _61_.
 1. Se abre el nuevo pedido de ventas. Incluye una línea vacía en la ficha desplegable **Líneas de pedido de ventas**. En esta línea, establezca los siguientes valores:
 
-    - **Artículo**: _T0100_
+    - **Artículo** : _T0100_
     - **Cantidad:** _1_
 
 1. Seleccione **Guardar**.
@@ -343,7 +344,7 @@ Una vez que todos los elementos requeridos estén en su lugar, puede configurar 
     - Crear trabajo de reabastecimiento
 
     > [!NOTE]
-    > Los pasos de slotting son progresivos. Si quiere seleccionar *Localizar demanda*, primero debe seleccionar *Generar demanda*.
+    > Los pasos de slotting son progresivos. Si quiere seleccionar *Localizar demanda* , primero debe seleccionar *Generar demanda*.
 
 1. Especifique la plantilla de slotting que va a utilizar.
 1. Establezca la periodicidad para que se ejecute automáticamente, si lo desea.

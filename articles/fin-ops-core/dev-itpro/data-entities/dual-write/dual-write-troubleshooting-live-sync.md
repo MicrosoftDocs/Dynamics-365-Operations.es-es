@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 82bdcc71196c22689cc65601f98187aaa9e5e9d6
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275426"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997311"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronización en vivo
 
@@ -98,7 +97,7 @@ Para solucionar el problema, debe asignar la función de seguridad correcta al e
 
 Es posible que reciba el siguiente mensaje de error cuando crea datos en una aplicación Finance and Operations:
 
-*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**No se puede generar la carga útil para la entidad CustCustomerV3Entity**","logDateTime":" 2019-08-27T18:51:52.5843124Z","verboseError":"Error en la creación de la carga útil con error URI no válido: el URI está vacío".}\], isErrorCountUpdated":true}*
+*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":" **No se puede generar la carga útil para la entidad CustCustomerV3Entity** ","logDateTime":" 2019-08-27T18:51:52.5843124Z","verboseError":"Error en la creación de la carga útil con error URI no válido: el URI está vacío".}\], isErrorCountUpdated":true}*
 
 Este es el aspecto del error en la aplicación basada en modelos en Dynamics 365:
 
