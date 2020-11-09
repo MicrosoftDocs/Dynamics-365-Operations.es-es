@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 60e69fd62d6d15a1fcb17644ef4710b8764ce924
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651723"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016571"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Matrícula que se recibe a través de la aplicación de almacén
 
@@ -30,7 +31,7 @@ Este tema explica cómo configurar la aplicación de almacén para admitir el us
 
 Puede usar esta funcionalidad para registrar rápidamente la recepción del inventario entrante relacionado con un aviso de envío por adelantado (ASN). El sistema crea automáticamente un aviso de envío por adelantado cuando los procesos de gestión de almacén se utilizan para enviar un pedido de transferencia. Para el proceso de pedido de compra, un aviso de envío por adelantado puede registrarse manualmente o puede importarse automáticamente mediante el uso de un proceso de entidad de datos de aviso de envío por adelantado entrante.
 
-Los datos de aviso de envío por adelantado están vinculados a cargas y envíos a través de *estructuras de embalaje*, donde los pallets (matrículas principales) pueden contener cajas (matrículas anidadas).
+Los datos de aviso de envío por adelantado están vinculados a cargas y envíos a través de *estructuras de embalaje* , donde los pallets (matrículas principales) pueden contener cajas (matrículas anidadas).
 
 > [!NOTE]
 > Para reducir el número de transacciones de inventario cuando se utilizan estructuras de embalaje que tienen matrículas anidadas, el sistema registra el inventario físico disponible en la placa principal. Para activar el movimiento del inventario físico disponible de la matrícula principal a las matrículas anidadas, en función de los datos de la estructura de embalaje, el dispositivo móvil debe proporcionar un elemento de menú que se base en el proceso de creación de trabajo *Paquete de matrículas anidadas*.
@@ -41,15 +42,15 @@ Cuando un trabajador escanea un id. de matrícula entrante, el sistema inicializ
 
 ## <a name="work-policies"></a>Directivas de trabajo
 
-Como con (por ejemplo) el proceso del elemento del menú del dispositivo móvil *Informar como terminado*, el proceso de recepción de matrículas admite varios flujos de trabajo basados en la configuración definida.
+Como con (por ejemplo) el proceso del elemento del menú del dispositivo móvil *Informar como terminado* , el proceso de recepción de matrículas admite varios flujos de trabajo basados en la configuración definida.
 
 ### <a name="work-policies-with-work-creation"></a>Políticas de trabajo con creación de trabajo
 
-Cuando registra artículos entrantes utilizando una política de trabajo que crea trabajo, el sistema genera y guarda registros de trabajo de almacenamiento para cada registro. Si usas el proceso de trabajo *Matrícula que recibe y guarda*, en ese caso el registro y el almacenamiento se manejan como una sola operación utilizando un único artículo del menú del dispositivo móvil. Si usas el proceso *Recepción de matrícula*, luego los procesos de recepción y almacenamiento se manejan como dos operaciones de almacén diferentes, cada una con su propio elemento de menú del dispositivo móvil.
+Cuando registra artículos entrantes utilizando una política de trabajo que crea trabajo, el sistema genera y guarda registros de trabajo de almacenamiento para cada registro. Si usas el proceso de trabajo *Matrícula que recibe y guarda* , en ese caso el registro y el almacenamiento se manejan como una sola operación utilizando un único artículo del menú del dispositivo móvil. Si usas el proceso *Recepción de matrícula* , luego los procesos de recepción y almacenamiento se manejan como dos operaciones de almacén diferentes, cada una con su propio elemento de menú del dispositivo móvil.
 
 ### <a name="work-policies-without-work-creation"></a>Políticas de trabajo sin creación de trabajo
 
-Puede utilizar el proceso de recepción de matrículas sin crear trabajo. Si define políticas de trabajo que tienen un tipo de orden de trabajo de *Recibo de transferencía* y/o *Ordenes de compra* y usa el proceso para *Recepción de matrícula (y guardado)*, los siguientes dos procesos de aplicaciones móviles de Warehousing no crearán trabajo. En cambio, solo registrarán el inventario físico entrante en la matrícula, en el muelle de recepción entrante.
+Puede utilizar el proceso de recepción de matrículas sin crear trabajo. Si define políticas de trabajo que tienen un tipo de orden de trabajo de *Recibo de transferencía* y/o *Ordenes de compra* y usa el proceso para *Recepción de matrícula (y guardado)* , los siguientes dos procesos de aplicaciones móviles de Warehousing no crearán trabajo. En cambio, solo registrarán el inventario físico entrante en la matrícula, en el muelle de recepción entrante.
 
 - *Recepción de matrícula de entidad de almacén*
 - *Recepción de matrícula de entidad de almacén y ubicación*
@@ -66,7 +67,7 @@ Es posible utilizar una ubicación de almacén asignada a un perfil de ubicació
 
 ## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>Agregar elementos de menú del dispositivo móvil para cada ubicación de recepción de un almacén
 
-La característica *Mejoras en la recepción de matrículas* le permite recibir en cualquier ubicación de un almacén agregando artículos de menú que reciben (y guardan) placas de matrícula específicas de la ubicación a la aplicación móvil Warehousing. Anteriormente, el sistema admitía recibir solo en la ubicación predeterminada que se define para cada almacén. Sin embargo, cuando esta característica está activada, los elementos del menú del dispositivo móvil para recepción de matrícula (y guardado) ahora proporcionan la opción **Usar datos predeterminados**, que le permite seleccionar una ubicación "a" personalizada para cada elemento del menú. (Esta opción ya estaba disponible para algunos otros tipos de elementos de menú).
+La característica *Mejoras en la recepción de matrículas* le permite recibir en cualquier ubicación de un almacén agregando artículos de menú que reciben (y guardan) placas de matrícula específicas de la ubicación a la aplicación móvil Warehousing. Anteriormente, el sistema admitía recibir solo en la ubicación predeterminada que se define para cada almacén. Sin embargo, cuando esta característica está activada, los elementos del menú del dispositivo móvil para recepción de matrícula (y guardado) ahora proporcionan la opción **Usar datos predeterminados** , que le permite seleccionar una ubicación "a" personalizada para cada elemento del menú. (Esta opción ya estaba disponible para algunos otros tipos de elementos de menú).
 
 Para que esta funcionalidad esté disponible en su sistema, debe activar la característica *Mejoras en la recepción de matrículas* en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
@@ -92,7 +93,7 @@ Para que esta funcionalidad esté disponible en su sistema, debe activar la cara
 Para administrar la funcionalidad cuando esta característica está disponible, siga estos pasos.
 
 1. Vaya a **Gestión de almacenes \> Configuración \> Parámetros de gestión de almacenes**.
-1. En la pestaña **General**, en la ficha desplegable **Matrículas de entidad**, configure el campo **Política de matrícula de almacén de tránsito** a uno de los siguientes valores:
+1. En la pestaña **General** , en la ficha desplegable **Matrículas de entidad** , configure el campo **Política de matrícula de almacén de tránsito** a uno de los siguientes valores:
 
     - **Permitir la reutilización de matrículas no rastreadas** - El sistema funciona de la misma manera que funciona cuando la características *Evite que las matrículas de entidad de la orden de transferencia enviadas se utilicen en otros almacenes que no sean el almacén de destino* no está disponible. Este valor es la configuración predeterminada cuando activa la característica por primera vez.
     - **Evitar la reutilización de matrículas no rastreadas** - Solo las actualizaciones disponibles que estén relacionadas con una matrícula enviada se permitirán en el almacén de destino hasta que se haya recibido la orden de transferencia.
@@ -101,6 +102,6 @@ Para administrar la funcionalidad cuando esta característica está disponible, 
 
 Para obtener más información sobre los elementos del menú del dispositivo móvil, consulte [Configurar dispositivos móviles para trabajos de almacén](configure-mobile-devices-warehouse.md).
 
-Para más información sobre el escenario de producción *Informar como terminado*, consulte el [Resumen de políticas de trabajo de almacén](warehouse-work-policies.md).
+Para más información sobre el escenario de producción *Informar como terminado* , consulte el [Resumen de políticas de trabajo de almacén](warehouse-work-policies.md).
 
 Para más información sobre la gestión de cargas entrantes , consulte [Gestión de almacén de cargas entrantes para pedidos de compra](inbound-load-handling.md).

@@ -1,9 +1,9 @@
 ---
-title: Escenarios admitidos para la configuración de doble escritura
+title: Orientación sobre cómo configurar la doble escritura
 description: Este tema describe los escenarios que son compatibles con la configuración de doble escritura.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 08/17/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: b4f69e7933bc5a50cccad6911c99cf08d2768578
-ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
+ms.openlocfilehash: 2d77a1458f3f4c79b231e6a6d7cc320b8ee1fad9
+ms.sourcegitcommit: ee643d651d57560bccae2f99238faa39881f5c64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3818605"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088515"
 ---
-# <a name="supported-scenarios-for-dual-write-setup"></a>Escenarios admitidos para la configuración de doble escritura
+# <a name="guidance-for-how-to-set-up-dual-write"></a>Orientación sobre cómo configurar la doble escritura
 
 [!include [banner](../../includes/banner.md)]
 
@@ -35,7 +34,7 @@ ms.locfileid: "3818605"
 Puede configurar una conexión de doble escritura entre entorno de Finance and Operations y uno de Common Data Service.
 
 + Un **entorno de Finance and Operations** proporciona la plataforma subyacente para las **aplicaciones de Finance and Operations** (por ejemplo, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management y Dynamics 365 Retail).
-+ Un **entorno Common Data Service** proporciona la plataforma subyacente para **aplicaciones basadas en modelos en Dynamics 365** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing y Dynamics 365 Project Service Automation).
++ Un **entorno Common Data Service** proporciona la plataforma subyacente para **aplicaciones de Customer Engagement** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing y Dynamics 365 Project Service Automation).
 
 >[!IMPORTANT]
 >Human Resources en Finance and Operations admite conexiones de escritura dual, pero la aplicación Dynamics 365 Human Resources no lo hace.
@@ -45,28 +44,33 @@ El mecanismo de configuración varía, dependiendo de su suscripción y el entor
 + Para nuevas instancias de aplicaciones de Finance and Operations, la configuración de una conexión de doble escritura comienza en Microsoft Dynamics Lifecycle Services (LCS). Si tiene una licencia para Power Platform, obtendrá un entorno nuevo Common Data Service entorno si su inquilino no tiene uno.
 + Para instancias existentes de aplicaciones Finance and Operations, la configuración de una conexión de doble escritura comienza en el entorno Finance and Operations.
 
+Antes de comenzar la doble escritura en una entidad, puede ejecutar una sincronización inicial para procesar los datos existentes en ambos lados de las aplicaciones de Finance and Operations y las aplicaciones de Customer Engagement. Puede omitir la sincronización inicial si no necesita sincronizar datos entre los dos entornos.
+
+Una sincronización inicial le permite copiar datos existentes de una aplicación a otra de forma bidireccional. Hay varios escenarios de configuración diferentes según los entornos que ya tenga y el tipo de datos que haya en los entornos.
+
 Se admiten los siguientes escenarios de configuración:
 
-+ [Una instancia de aplicación Finance and Operations nueva y una instancia de aplicación basada en modelos nueva](#new-new)
-+ [Una instancia de aplicación Finance and Operations nueva y una instancia de aplicación basada en modelos ya existente](#new-existing)
-+ [Una instancia de aplicación Finance and Operations nueva que tenga datos de demostración y una instancia de aplicación basada en modelos nueva](#new-demo-new)
-+ [Una instancia de aplicación Finance and Operations nueva que tenga datos de demostración y una instancia de aplicación basada en modelos ya existente](#new-demo-existing)
-+ [Una instancia de aplicación Finance and Operations ya existente y una instancia de aplicación basada en modelos nueva o ya existente](#existing-existing)
++ [Una nueva instancia de aplicación de Finance and Operations y una nueva instancia de aplicación de Customer Engagement](#new-new)
++ [Una nueva instancia de aplicación de Finance and Operations y una instancia de aplicación de Customer Engagement existente](#new-existing)
++ [Una nueva instancia de aplicación Finance and Operations que tenga datos y una nueva instancia de aplicación de Customer Engagement](#new-data-new)
++ [Una nueva instancia de aplicación de Finance and Operations que tenga datos de demostración y una instancia de aplicación de Customer Engagement existente](#new-data-existing)
++ [Una instancia de aplicación de Finance and Operations existente y una nueva instancia de aplicación de Customer Engagement](#existing-new)
++ [Una instancia de aplicación de Finance and Operations existente y una instancia de aplicación de Customer Engagement existente](#existing-existing)
 
-## <a name="a-new-finance-and-operations-app-instance-and-a-new-model-driven-app-instance"></a><a id="new-new"></a>Una instancia de aplicación Finance and Operations nueva y una instancia de aplicación basada en modelos nueva
+## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>Una nueva instancia de aplicación de Finance and Operations y una nueva instancia de aplicación de Customer Engagement
 
-Para configurar una conexión de doble escritura entre una nueva instancia de aplicación Finance and Operations que no tiene datos y una nueva instancia de una aplicación basada en modelos en Dynamics 365, siga los pasos en [Configuración de doble escritura de Lifecycle Services](lcs-setup.md). Cuando se completa la configuración de la conexión, las siguientes acciones ocurren automáticamente:
+Para configurar una conexión de doble escritura entre una nueva instancia de aplicación de Finance and Operations que no tiene datos y una nueva instancia de aplicación de Customer Engagement, siga los pasos de [Configuración de doble escritura de Lifecycle Services](lcs-setup.md). Cuando se completa la configuración de la conexión, las siguientes acciones ocurren automáticamente:
 
 - Se aprovisiona un entorno de Finance and Operations nuevo y vacío.
-- Se aprovisiona una nueva instancia vacía de una aplicación basada en modelos, donde se instala la solución CRM primaria.
+- Se aprovisiona una nueva instancia vacía de aplicación de Customer Engagement, donde se instala la solución CRM primaria.
 - Se establece una conexión de doble escritura para los datos de la compañía DAT.
 - Los mapas de entidades están habilitados para la sincronización en vivo.
 
 Ambos entornos están listos para la sincronización de datos en vivo.
 
-## <a name="a-new-finance-and-operations-app-instance-and-an-existing-model-driven-app-instance"></a><a id="new-existing"></a>Una instancia de aplicación Finance and Operations nueva y una instancia de aplicación basada en modelos ya existente
+## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>Una nueva instancia de aplicación de Finance and Operations y una instancia de aplicación de Customer Engagement existente
 
-Para configurar una conexión de doble escritura entre una nueva instancia de aplicación Finance and Operations que no tiene datos y una instancia ya existente de una aplicación basada en modelos en Dynamics 365, siga los pasos en [Configuración de doble escritura de Lifecycle Services](lcs-setup.md). Cuando se completa la configuración de la conexión, las siguientes acciones ocurren automáticamente:
+Para configurar una conexión de doble escritura entre una nueva instancia de aplicación de Finance and Operations que no tiene datos y una instancia de aplicación de Customer Engagement existente, siga los pasos de [Configuración de doble escritura de Lifecycle Services](lcs-setup.md). Cuando se completa la configuración de la conexión, las siguientes acciones ocurren automáticamente:
 
 - Se aprovisiona un entorno de Finance and Operations nuevo y vacío.
 - Se establece una conexión de doble escritura para los datos de la compañía DAT.
@@ -79,19 +83,22 @@ Para sincronizar los datos existentes de Common Data Service con la aplicación 
 1. Cree una nueva empresa en la aplicación Finance and Operations.
 2. Agregue la compañía a la configuración de conexión de doble escritura.
 3. [Arranque](bootstrap-company-data.md) los datos Common Data Service mediante el uso de un código de empresa de tres letras de la Organización Internacional de Normalización (ISO).
+4. Ejecute la funcionalidad **Sincronización inicia** para las entidades para las que desea sincronizar datos.
 
-Debido a que la doble escritura está en modo de sincronización en vivo, los datos de Common Data Service comienzan a fluir automáticamente a la aplicación Finance and Operations.
+Para ver un ejemplo y un enfoque alternativo, consulte [Ejemplo](#example).
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-demo-data-and-a-new-model-driven-app-instance"></a><a id="new-demo-new"></a>Una instancia de aplicación Finance and Operations nueva que tenga datos de demostración y una instancia de aplicación basada en modelos nueva
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Una nueva instancia de aplicación de Finance and Operations que tenga datos y una nueva instancia de aplicación de Customer Engagement
 
-Para configurar una conexión de doble escritura entre una nueva instancia de aplicación Finance and Operations que tiene datos de demostración y una nueva instancia de una aplicación basada en modelos en Dynamics 365, siga los pasos en la sección [Una instancia de aplicación Finance and Operations nueva y una nueva instancia de aplicación basada en modelos](#new-new) anterior en este tema. Cuando finalice la configuración de la conexión, si desea sincronizar los datos de demostración con la aplicación basada en modelos, siga estos pasos.
+Para configurar una conexión de doble escritura entre una nueva instancia de aplicación de Finance and Operations que tiene datos de demostración y una nueva instancia de aplicación de Customer Engagement, siga los pasos de la sección [Una nueva instancia de aplicación de Finance and Operations y una nueva instancia de aplicación de Customer Engagement](#new-new) más arriba en este tema. Cuando finalice la configuración de la conexión, si desea sincronizar los datos de demostración con la aplicación de Customer Engagement, siga estos pasos.
 
 1. Abre la aplicación Finance and Operations desde la página LCS, inicie sesión y luego vaya a **Gestión de datos \> Doble escritura**.
 2. Ejecute la funcionalidad **Sincronización inicia** para las entidades para las que desea sincronizar datos.
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-demo-data-and-an-existing-model-driven-app-instance"></a><a id="new-demo-existing"></a>Una instancia de aplicación Finance and Operations nueva que tenga datos de demostración y una instancia de aplicación basada en modelos ya existente
+Para ver un ejemplo y un enfoque alternativo, consulte [Ejemplo](#example).
 
-Para configurar una conexión de doble escritura entre una nueva instancia de aplicación Finance and Operations que tiene datos de demostración y una instancia ya existente de una aplicación basada en modelos en Dynamics 365, siga los pasos en la sección [Una instancia de aplicación Finance and Operations nueva y una instancia de aplicación basada en modelos ya existente](#new-existing) anterior en este tema. Cuando finalice la configuración de la conexión, si desea sincronizar los datos de demostración con la aplicación basada en modelos, siga estos pasos.
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Una nueva instancia de aplicación de Finance and Operations que tenga datos de demostración y una instancia de aplicación de Customer Engagement existente
+
+Para configurar una conexión de doble escritura entre una nueva instancia de aplicación de Finance and Operations que tiene datos de demostración y una instancia de aplicación de Customer Engagement existente, siga los pasos de la sección [Una nueva instancia de aplicación de Finance and Operations y una instancia de aplicación de Customer Engagement existente](#new-existing) más arriba en este tema. Cuando finalice la configuración de la conexión, si desea sincronizar los datos de demostración con la aplicación de Customer Engagement, siga estos pasos.
 
 1. Abre la aplicación Finance and Operations desde la página LCS, inicie sesión y luego vaya a **Gestión de datos \> Doble escritura**.
 2. Ejecute la funcionalidad **Sincronización inicia** para las entidades para las que desea sincronizar datos.
@@ -101,14 +108,31 @@ Para sincronizar los datos existentes de Common Data Service con la aplicación 
 1. Cree una nueva empresa en la aplicación Finance and Operations.
 2. Agregue la compañía a la configuración de conexión de doble escritura.
 3. [Arranque](bootstrap-company-data.md) los datos Common Data Service mediante el uso de un código ISO de empresa de tres letras.
+4. Ejecute la funcionalidad **Sincronización inicia** para las entidades para las que desea sincronizar datos.
 
-Debido a que la doble escritura está en modo de sincronización en vivo, los datos de Common Data Service comienzan a fluir automáticamente a la aplicación Finance and Operations.
+Para ver un ejemplo y un enfoque alternativo, consulte [Ejemplo](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-a-new-or-existing-model-driven-app-instance"></a><a id="existing-existing"></a>Una instancia de aplicación Finance and Operations ya existente y una instancia de aplicación basada en modelos nueva o ya existente
+## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>Una instancia de aplicación de Finance and Operations existente y una nueva instancia de aplicación de Customer Engagement
 
-La configuración de una conexión de doble escritura entre una instancia existente de una aplicación Finance and Operations y una instancia nueva o existente de una aplicación basada en modelos en Dynamics 365 se produce en el entorno de Finance and Operations.
+La configuración de una conexión de doble escritura entre una instancia existente de una aplicación de Finance and Operations y una instancia nueva de aplicación de Customer Engagement se realiza en el entorno de Finance and Operations.
+
+1. [Configurar la conexión desde la aplicación de Finance and Operations](enable-dual-write.md).
+2. Ejecute la funcionalidad **Sincronización inicia** para las entidades para las que desea sincronizar datos.
+
+Para ver un ejemplo y un enfoque alternativo, consulte [Ejemplo](#example).
+
+## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>Una instancia de aplicación de Finance and Operations existente y una instancia de aplicación de Customer Engagement existente
+
+La configuración de una conexión de doble escritura entre una instancia existente de una aplicación de Finance and Operations y una instancia de aplicación de Customer Engagement existente se realiza en el entorno de Finance and Operations.
 
 1. Configure la conexión desde la aplicación Finance and Operations.
 2. Para sincronizar lo datos existentes de Common Data Service con la aplicación Finance and Operations, [arranque](bootstrap-company-data.md) los datos Common Data Service mediante el uso de un código de empresa ISO de tres letras.
+3. Ejecute la funcionalidad **Sincronización inicia** para las entidades para las que desea sincronizar datos.
 
-Debido a que la doble escritura está en modo de sincronización en vivo, los datos de Common Data Service comienzan a fluir automáticamente a la aplicación Finance and Operations.
+Para ver un ejemplo y un enfoque alternativo, consulte [Ejemplo](#example).
+
+## <a name="example"></a>Ejemplo
+
+Por ejemplo, consulte [Habilitar la asignación de entidades Clientes V3—Contactos](enable-entity-map.md#example-enabling-the-customers-v3contacts-entity-map)
+
+Para obtener un enfoque alternativo basado en volúmenes de datos en cada entidad en la que hay que ejecutar una sincronización inicial, consulte [Consideraciones para la sincronización inicial](initial-sync-guidance.md).

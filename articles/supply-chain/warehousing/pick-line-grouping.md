@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 4b9cd7dac680c1691fb4c6dd4078f109254be784
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215610"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017745"
 ---
 # <a name="pick-line-grouping"></a>Picking de agrupación de líneas
 
@@ -36,24 +36,24 @@ En la agrupación de líneas de selección, varias líneas de trabajo que tienen
 ### <a name="create-a-mobile-device-menu-item"></a>Crear un elemento de menú del dispositivo móvil
 
 1. Vaya a **Administración de almacenes \> Configuración \> Dispositivo móvil \> Elementos del menú del dispositivo móvil** y cree un elemento de menú nuevo denominado **Selección de línea de grupo de ventas: dirigida por el usuario**.
-2. En **Elementos de menú del dispositivo móvil**, establezca los siguientes valores:
+2. En **Elementos de menú del dispositivo móvil** , establezca los siguientes valores:
 
-    - En el campo **Nombre del elemento del menú**, especifique **Selección de ventas: línea de grupo**.
-    - En el campo **Título**, especifique **Selección de ventas: línea de grupo**.
-    - En el campo **Modo**, seleccione **Trabajo**.
+    - En el campo **Nombre del elemento del menú** , especifique **Selección de ventas: línea de grupo**.
+    - En el campo **Título** , especifique **Selección de ventas: línea de grupo**.
+    - En el campo **Modo** , seleccione **Trabajo**.
     - Establezca la opción **Usar trabajo existente** en **Sí**.
 
 3. En la ficha rápida **General** puede establecer los siguientes valores:
 
-    - En el campo **Dirigido por**, seleccione **Dirigido por el usuario**.
+    - En el campo **Dirigido por** , seleccione **Dirigido por el usuario**.
     - Seleccione la opción **Generar matrícula de entidad de almacén** en **Sí**.
     - Establezca la opción **Selección de grupo** en **Sí**.
 
-4. En la ficha rápida **Clases de trabajo**, siga estos pasos para configurar las clases de trabajo válidas para el elemento de menú del dispositivo móvil:
+4. En la ficha rápida **Clases de trabajo** , siga estos pasos para configurar las clases de trabajo válidas para el elemento de menú del dispositivo móvil:
 
     1. Seleccione **Nuevo**.
-    2. En el campo **Identificador de la clase de trabajo**, seleccione **Ventas** o **Selección de pedidos de ventas** en función del almacén que vaya a utilizar.
-    3. En el campo **Tipo de orden de trabajo**, seleccione **Pedidos de ventas**.
+    2. En el campo **Identificador de la clase de trabajo** , seleccione **Ventas** o **Selección de pedidos de ventas** en función del almacén que vaya a utilizar.
+    3. En el campo **Tipo de orden de trabajo** , seleccione **Pedidos de ventas**.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Configurar un menú de dispositivo móvil
 
@@ -65,12 +65,12 @@ En la agrupación de líneas de selección, varias líneas de trabajo que tienen
 1. Vaya a **Administración de almacenes \> Configuración \> Trabajo \> Plantillas de trabajo**.
 1. Encuentre la plantilla de trabajo que se debe usar con esta función. Para este ejemplo, seleccione la plantilla de trabajo estándar de Contoso, **51 Pick to stage**.
 1. En el menú, seleccione **Editar consulta**.
-1. En la pestaña **Ordenación**, seleccione **Agregar** y, a continuación, establezca los siguientes valores:
+1. En la pestaña **Ordenación** , seleccione **Agregar** y, a continuación, establezca los siguientes valores:
 
-    - En el campo **Tabla**, seleccione **Transacciones de trabajo temporal**.
-    - En el campo **Tabla derivada**, seleccione **Transacciones de trabajo temporal**.
-    - En el campo **Campo**, seleccione **Número de artículo**.
-    - En el campo **Dirección de búsqueda**, seleccione **Ascendente**.
+    - En el campo **Tabla** , seleccione **Transacciones de trabajo temporal**.
+    - En el campo **Tabla derivada** , seleccione **Transacciones de trabajo temporal**.
+    - En el campo **Campo** , seleccione **Número de artículo**.
+    - En el campo **Dirección de búsqueda** , seleccione **Ascendente**.
 
 > [!NOTE]
 > Para que la funcionalidad de agrupación de líneas de selección funcione, las líneas de trabajo deben ordenarse por id. de artículo. Si las líneas que tienen los mismos artículos no se secuencian una tras otra, no se agruparán.
@@ -83,16 +83,16 @@ Antes de poder configurar la agrupación de líneas de clúster debe crear un tr
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 2. Seleccione **Nuevo** para crear un pedido de ventas. 
-3. En el campo **Cuenta de cliente**, seleccione cualquier cliente. 
-4. En la ficha desplegable **General**, en el campo **Almacén**, seleccione el almacén **51**. A continuación seleccione **Aceptar**.
-5. En **Líneas de pedido de ventas**, agregue las seis líneas siguientes:
+3. En el campo **Cuenta de cliente** , seleccione cualquier cliente. 
+4. En la ficha desplegable **General** , en el campo **Almacén** , seleccione el almacén **51**. A continuación seleccione **Aceptar**.
+5. En **Líneas de pedido de ventas** , agregue las seis líneas siguientes:
 
-    - **Línea 1:** en el campo **Número de artículo**, seleccione **M9200**. En el campo **Cantidad**, especifique **3**.
-    - **Línea 2:** en el campo **Número de artículo**, seleccione **M9201**. En el campo **Cantidad**, especifique **3**. 
-    - **Línea 3:** en el campo **Número de artículo**, seleccione **M9202**. En el campo **Cantidad**, especifique **2**. 
-    - **Línea 4:** en el campo **Número de artículo**, seleccione **M9200**. En el campo **Cantidad**, especifique **1**. 
-    - **Línea 5:** en el campo **Número de artículo**, seleccione **M9200**. En el campo **Cantidad**, especifique **3**.
-    - **Línea 6:** en el campo **Número de artículo**, seleccione **M9202**. En el campo **Cantidad**, especifique **7**. 
+    - **Línea 1:** en el campo **Número de artículo** , seleccione **M9200**. En el campo **Cantidad** , especifique **3**.
+    - **Línea 2:** en el campo **Número de artículo** , seleccione **M9201**. En el campo **Cantidad** , especifique **3**. 
+    - **Línea 3:** en el campo **Número de artículo** , seleccione **M9202**. En el campo **Cantidad** , especifique **2**. 
+    - **Línea 4:** en el campo **Número de artículo** , seleccione **M9200**. En el campo **Cantidad** , especifique **1**. 
+    - **Línea 5:** en el campo **Número de artículo** , seleccione **M9200**. En el campo **Cantidad** , especifique **3**.
+    - **Línea 6:** en el campo **Número de artículo** , seleccione **M9202**. En el campo **Cantidad** , especifique **7**. 
 
     A continuación se muestra un resumen de las cantidades totales para cada artículo:
 
@@ -130,3 +130,4 @@ Antes de poder configurar la agrupación de líneas de clúster debe crear un tr
 >    - Selección de piezas.
 >    - Líneas de trabajo que tienen trabajo de reabastecimiento sin terminar.
 >    - Selección en exceso.
+>    - Selección corta con reasignación de artículos

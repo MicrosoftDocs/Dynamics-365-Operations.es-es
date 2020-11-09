@@ -3,7 +3,7 @@ title: Promover una variación y completar un experimento
 description: Este tema describe cómo promover una variación exitosa y completar un experimento en Dynamics 365 Commerce.
 author: sushma-rao
 manager: AnnBe
-ms.date: 09/15/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2e011f10e908d6a2efe2e928fc5e0abc7659cb8b
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930280"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097102"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Promover una variación y completar un experimento
 
@@ -34,12 +34,14 @@ Este tema describe cómo promover la variación que produjo los mejores resultad
 Después de que haya [ejecutado su experimento](experimentation-run-monitor.md) y recopilado datos suficientes para determinar qué variación desea utilizar en su sitio en vivo, promoverá la variación y finalizará el experimento.
 
 ## <a name="promote-a-variation"></a>Promocionar una variación
-Utilice los datos y análisis relacionados con el experimento en el servicio de terceros para decidir qué variación produjo los mejores resultados. Para reemplazar el contenido actual en el sitio en vivo con la variación ganadora para que esté disponible para todos los usuarios de su sitio web, haga lo siguiente. 
+Utilice los datos y análisis relacionados con el experimento en el servicio de terceros para decidir qué variación produjo los mejores resultados. Puede promocionarlo reemplazando el contenido actual en el sitio en vivo con la variación ganadora para que esté disponible para todos los usuarios de su sitio web.
 
-1. Vaya a la pestaña **Experimentos** en el Creador de sitios y seleccione el experimento.
-1. Seleccione **Experimento completo** en la barra superior.
-1. En el menú del cuadro de diálogo **Completar el experimento**, seleccione **Revisar los datos del experimento**. Se abre el servicio de terceros donde puede validar las métricas y determinar qué variación se desempeñó mejor.
-1. En el menú del cuadro de diálogo **Completar el experimento** en el creador de sitios, seleccione la variación ganadora y luego seleccione **Siguiente**.
+Para promocionar la variación ganadora, siga estos pasos. 
+
+1. En el generador de sitios de Commerce, vaya a la pestaña **Experimentos** del panel de navegación izquierdo y seleccione el experimento.
+1. En la barra de comandos, seleccione **Experimento completo**.
+1. En el cuadro de diálogo **Completar el experimento** , seleccione **Revisar los datos del experimento**. Se abre el servicio de terceros donde puede validar las métricas y determinar qué variación se desempeñó mejor.
+1. En el menú del cuadro de diálogo **Completar el experimento** , seleccione la variación ganadora y, a continuación, seleccione **Siguiente**.
 1. Abra el servicio de terceros y detenga el experimento.
 1. En el creador de sitios, seleccione **Completar** para sobrescribir la página en vivo original y publicar la variación ganadora para que esté disponible para todos los usuarios de su sitio web. 
 
@@ -47,13 +49,15 @@ Utilice los datos y análisis relacionados con el experimento en el servicio de 
 > Si elige mantener la página activa actual y no publicar una variación, seleccione **Volver a publicar la página original**.
 
 ## <a name="delete-your-experiment"></a>Eliminar el experimento
-Si bien no es necesario que elimine un experimento completado en Commerce, puede optar por eliminarlo para ahorrar espacio o limpiar su espacio de trabajo. Para eliminar un experimento, haga lo siguiente.
+Si bien no es necesario que elimine un experimento completado en Commerce, puede optar por eliminarlo para ahorrar espacio o limpiar su espacio de trabajo. 
 
-1. Vaya a la pestaña **Experimentos** en el Creador de sitios y seleccione el experimento. 
+Para eliminar un experimento en el generador de sitios de Commerce, siga estos pasos.
+
+1. Seleccione **Experimentos** en el panel de navegación izquierdo y seleccione el experimento. 
     > [!NOTE]
     > Si el experimento aún está activo, detenga el experimento en el servicio de terceros antes de continuar.
-1. Seleccione **Anular publicación** en la barra de comandos para eliminar el contenido de la variación del sitio en vivo.
-1. Seleccione **Eliminar** en la barra de comandos para eliminar el experimento.
+1. En la barra de comandos, seleccione **Anular publicación** en la barra de comandos para eliminar el contenido de la variación del sitio en vivo.
+1. Seleccione **Eliminar** para eliminar el experimento.
 
 ## <a name="previous-step"></a>Paso anterior
 [Ejecutar y supervisar un experimento](experimentation-run-monitor.md)

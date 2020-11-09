@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
-ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
+ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "3270345"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997155"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Sincronizar con el motor de precios bajo demanda Dynamics 365 Supply Chain Management
 
@@ -55,7 +54,7 @@ Microsoft Dynamics 365 Supply Chain Management incluye un motor de precios que g
     1. Navegue a su entorno de Supply Chain Management.
     2. Navegue a **Clientes \> Configuración \> Parámetros de clientes**.
     3. Seleccione la pestaña **Precios** en la barra de navegación lateral.
-    4. Bajo la ficha desplegable **Evaluación de acuerdos comerciales**, desmarque la opción **Entrada manual**.
+    4. Bajo la ficha desplegable **Evaluación de acuerdos comerciales** , desmarque la opción **Entrada manual**.
 
 ## <a name="how-it-works"></a>Cómo funciona
 

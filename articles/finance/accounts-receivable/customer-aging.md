@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974870"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013062"
 ---
 # <a name="customer-aging-report"></a>Informe de vencimiento de clientes 
 
@@ -48,7 +48,7 @@ Cuando genere este informe, se mostrarán los siguientes parámetros predetermin
 <td><p>Seleccione una o varias clasificaciones de la facturación para incluirlas en el informe.</p>
 <div class="alert">
 
-**Nota**: Este control solo está disponible si está seleccionada la clave de configuración del <STRONG>Sector público</STRONG>.</P>
+**Nota** : Este control solo está disponible si está seleccionada la clave de configuración del <STRONG>Sector público</STRONG>.</P>
 
 
 </div></td>
@@ -58,7 +58,7 @@ Cuando genere este informe, se mostrarán los siguientes parámetros predetermin
 <td><p>Si esta casilla está activada, todas las transacciones que no tengan una clasificación de la facturación asignada se mostrarán en el informe.</p>
 <div class="alert">
 
-**Nota**: Este control solo está disponible si está seleccionada la clave de configuración del <STRONG>Sector público</STRONG>.</P>
+**Nota** : Este control solo está disponible si está seleccionada la clave de configuración del <STRONG>Sector público</STRONG>.</P>
 
 </div></td>
 </tr>
@@ -103,7 +103,7 @@ Cuando genere este informe, se mostrarán los siguientes parámetros predetermin
 <td><p>Defina el período que se usará especificando el número de unidades de días o meses en cada período. Por ejemplo, para ver la información de vencimiento por semana, escriba 7 en este campo y seleccione <strong>Día</strong> en el campo <strong>Día/Mes</strong>.</p>
 <div class="alert">
 
-**Nota**: La información que se especifica en este campo solo se usa si no se ha seleccionado ninguna definición de período de vencimiento. De lo contrario, la dirección de impresión se define en la definición del período de envejecimiento.</P>
+**Nota** : La información que se especifica en este campo solo se usa si no se ha seleccionado ninguna definición de período de vencimiento. De lo contrario, la dirección de impresión se define en la definición del período de envejecimiento.</P>
 
 
 </div></td>
@@ -115,8 +115,9 @@ Cuando genere este informe, se mostrarán los siguientes parámetros predetermin
 <tr class="even">
 <td><p><strong>Dirección de impresión</strong></p></td>
 <td><p>Seleccione si desea calcular saldos e imprimir el informe de vencimiento para los períodos pasados o futuros. La fechas se evalúan con relación a la fecha seleccionada en el campo <strong>Saldo según</strong>. Seleccione <strong>Regresivo</strong> para mostrar la información de períodos pasados. Seleccione <strong>Adelante</strong> para mostrar la información de períodos futuros.</p>
-
-**Nota**: La información que se especifica en este campo solo se usa si no se ha seleccionado ninguna definición de período de vencimiento.</P>
+<div class="alert">
+  
+<STRONG>Nota</STRONG>: La información que se especifica en este campo solo se usa si no se ha seleccionado ninguna definición de período de vencimiento.</P>
 
 
 </div></td>

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652014"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017676"
 ---
 # <a name="work-policies"></a>Directivas de trabajo
 
@@ -48,7 +49,7 @@ Para configurar directivas de trabajo, vaya a **Administración de almacenes \> 
 
 ### <a name="the-work-order-types-fasttab"></a>La ficha desplegable de tipos de orden de trabajo
 
-En la ficha desplegable **Tipos de orden de trabajo**, agregue todos los tipos de orden de trabajo y los procesos de trabajo relacionados a los que se aplica la política de trabajo. Los siguientes tipos de órdenes de trabajo y procesos de trabajo relacionados son compatibles con las políticas de trabajo.
+En la ficha desplegable **Tipos de orden de trabajo** , agregue todos los tipos de orden de trabajo y los procesos de trabajo relacionados a los que se aplica la política de trabajo. Los siguientes tipos de órdenes de trabajo y procesos de trabajo relacionados son compatibles con las políticas de trabajo.
 
 | Tipo de pedido de trabajo | Proceso de trabajo |
 |---|---|
@@ -62,12 +63,12 @@ Para configurar una directiva de trabajo para que se aplique a varios procesos d
 
 Para cada línea en la cuadrícula, establezca el campo **Método de creación de trabajo** en uno de los siguientes valores:
 
-- **Nunca**: este valor indica que la directiva de trabajo evitará que se genere el trabajo del almacén para el tipo de pedido de trabajo seleccionado y los procesos de trabajo relacionados.
-- **Tránsito directo**: la directiva de trabajo creará trabajo de tránsito directo utilizando la política que seleccione en el campo **Nombre de la directiva de tránsito directo**.
+- **Nunca** : este valor indica que la directiva de trabajo evitará que se genere el trabajo del almacén para el tipo de pedido de trabajo seleccionado y los procesos de trabajo relacionados.
+- **Tránsito directo** : la directiva de trabajo creará trabajo de tránsito directo utilizando la política que seleccione en el campo **Nombre de la directiva de tránsito directo**.
 
 ### <a name="the-inventory-locations-fasttab"></a>La ficha desplegable Ubicaciones de inventario
 
-En la ficha desplegable **Ubicaciones de inventario**, agregue todas las ubicaciones donde se debe aplicar esta directiva de trabajo. Si no se asocia ninguna ubicación a una directiva de trabajo, la directiva de trabajo no se aplica a ningún proceso.
+En la ficha desplegable **Ubicaciones de inventario** , agregue todas las ubicaciones donde se debe aplicar esta directiva de trabajo. Si no se asocia ninguna ubicación a una directiva de trabajo, la directiva de trabajo no se aplica a ningún proceso.
 
 No puede especificar la misma ubicación para múltiples políticas de trabajo.
 
@@ -75,10 +76,10 @@ Puede utilizar una ubicación de almacén asignada a un perfil de ubicación inc
 
 ### <a name="the-products-fasttab"></a>La ficha desplegable Productos
 
-En la pestaña **Productos**, configure el campo **Selección de producto** para controlar a qué productos debe aplicarse la política:
+En la pestaña **Productos** , configure el campo **Selección de producto** para controlar a qué productos debe aplicarse la política:
 
-- **Todos**: la directiva debe aplicarse a todos los productos.
-- **Seleccionado**: la directiva debe aplicarse solo a los productos que figuran en la cuadrícula. Use la barra de herramientas en la ficha desplegable **Productos** para agregar productos a la cuadrícula o eliminarlos de la cuadrícula.
+- **Todos** : la directiva debe aplicarse a todos los productos.
+- **Seleccionado** : la directiva debe aplicarse solo a los productos que figuran en la cuadrícula. Use la barra de herramientas en la ficha desplegable **Productos** para agregar productos a la cuadrícula o eliminarlos de la cuadrícula.
 
 ## <a name="default-and-custom-to-locations"></a>Ubicaciones predeterminadas y personalizadas de "destino"
 
@@ -98,25 +99,25 @@ Para configurar un elemento de menú del dispositivo móvil para admitir la rece
 
 1. Vaya a **Administración de almacenes \> Configurar \> Dispositivo móvil \> Elementos de menú del dispositivo móvil**.
 1. Seleccione o cree un elemento de menú que use uno de los procesos de creación de trabajo enumerados anteriormente en esta sección.
-1. En la ficha desplegable **General**, configure la opción **Usar datos predeterminados** en **Sí**.
+1. En la ficha desplegable **General** , configure la opción **Usar datos predeterminados** en **Sí**.
 1. En el panel Acciones, seleccione **Datos predeterminados**.
-1. En la página **Datos predeterminados**, establezca los valores siguientes:
+1. En la página **Datos predeterminados** , establezca los valores siguientes:
 
-    - **Campo de datos predeterminado**: Establezca este campo en *Ubicación de destino*.
-    - **Almacén**: seleccione el almacén de destino para usar con este elemento del menú.
-    - **Ubicación**: este campo enumera todos los identificadores de ubicación que están disponibles para el almacén seleccionado. Sin embargo, la configuración de este campo en realidad no tiene ningún efecto. Por tanto, no se puede dejar en blanco. Sin embargo, puede usar la lista para confirmar el identificador que debe especificar en el campo **Valor codificado**.
-    - **Valor codificado**: especifique el identificador de ubicación para la ubicación de recepción que se aplica a este elemento del menú.
+    - **Campo de datos predeterminado** : Establezca este campo en *Ubicación de destino*.
+    - **Almacén** : seleccione el almacén de destino para usar con este elemento del menú.
+    - **Ubicación** : este campo enumera todos los identificadores de ubicación que están disponibles para el almacén seleccionado. Sin embargo, la configuración de este campo en realidad no tiene ningún efecto. Por tanto, no se puede dejar en blanco. Sin embargo, puede usar la lista para confirmar el identificador que debe especificar en el campo **Valor codificado**.
+    - **Valor codificado** : especifique el identificador de ubicación para la ubicación de recepción que se aplica a este elemento del menú.
 
 > [!TIP]
 > Una directiva de trabajo solo se puede aplicar si todas las ubicaciones de recepción se enumeran en la configuración de directiva de trabajo relevante. Este requisito se aplica independientemente de si está utilizando la ubicación de recepción de almacén predeterminada o una ubicación "destino" personalizada.
 
 ## <a name="example-scenario-warehouse-receiving"></a>Escenario de ejemplo: recepción de almacén
 
-Todos los productos que se reciben mediante el proceso *Orden de compra de artículos recibidos (y colocación)* debe estar registrado en la ubicación *FL-001*, y deben estar disponibles en el almacén *24*. Sin embargo, el trabajo no debe ser creado. Los productos que se reciben por cualquier otro proceso (es decir, mediante el uso de otros elementos del menú del dispositivo móvil) deben registrarse en la ubicación de recepción predeterminada del almacén (*RECV*), y el trabajo debe crearse como de costumbre. (Este escenario no muestra la configuración de recepción predeterminada).
+Todos los productos que se reciben mediante el proceso *Orden de compra de artículos recibidos (y colocación)* debe estar registrado en la ubicación *FL-001* , y deben estar disponibles en el almacén *24*. Sin embargo, el trabajo no debe ser creado. Los productos que se reciben por cualquier otro proceso (es decir, mediante el uso de otros elementos del menú del dispositivo móvil) deben registrarse en la ubicación de recepción predeterminada del almacén ( *RECV* ), y el trabajo debe crearse como de costumbre. (Este escenario no muestra la configuración de recepción predeterminada).
 
 Este escenario requiere los siguientes elementos:
 
-- Una directiva de trabajo para el proceso *Recepción del artículo del pedido de compra (y colocación)* en la ubicación *FL-001*, para todos los productos
+- Una directiva de trabajo para el proceso *Recepción del artículo del pedido de compra (y colocación)* en la ubicación *FL-001* , para todos los productos
 - Un elemento de menú del dispositivo móvil que tiene datos predeterminados y que establece el campo **Ubicación de destino** en *FL-001*.
 
 ### <a name="prerequisites"></a>Requisitos previos
@@ -129,36 +130,36 @@ Este escenario usa datos de demostración estándar. Por tanto, si quiere trabaj
 
 1. Vaya a **Gestión de almacenes \> Configuración \> Trabajo \> Directivas de trabajo**.
 1. Seleccione **Nuevo**.
-1. En el campo **Nombre de la directiva de trabajo**, especifique *No hay trabajo de colocación de artículos*.
+1. En el campo **Nombre de la directiva de trabajo** , especifique *No hay trabajo de colocación de artículos*.
 1. Seleccione **Guardar**.
-1. En la ficha desplegable **Tipos de orden de trabajo**, seleccione **Agregar** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
+1. En la ficha desplegable **Tipos de orden de trabajo** , seleccione **Agregar** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
 
-    - **Tipo de orden de trabajo**: *Pedidos de compra*
-    - **Proceso de trabajo**: *Recepción de artículos de pedido de compra (y colocación)*
-    - **Método de creación de trabajo**: *Nunca*
-    - **Nombre de directiva de tránsito directo**: deje este campo en blanco.
+    - **Tipo de orden de trabajo** : *Pedidos de compra*
+    - **Proceso de trabajo** : *Recepción de artículos de pedido de compra (y colocación)*
+    - **Método de creación de trabajo** : *Nunca*
+    - **Nombre de directiva de tránsito directo** : deje este campo en blanco.
 
-1. En la ficha desplegable **Ubicaciones de inventario**, seleccione **Agregar** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
+1. En la ficha desplegable **Ubicaciones de inventario** , seleccione **Agregar** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
 
-    - **Almacén**: *24*
-    - **Ubicación**: *FL-001*
+    - **Almacén** : *24*
+    - **Ubicación** : *FL-001*
 
-1. En la ficha desplegable **Productos**, configure el campo **Selección de productos** en *Todos*.
+1. En la ficha desplegable **Productos** , configure el campo **Selección de productos** en *Todos*.
 1. Seleccione **Guardar**.
 
 ### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a>Configurar un elemento de menú del dispositivo móvil para cambiar la ubicación de recepción
 
 1. Vaya a **Administración de almacenes \> Configurar \> Dispositivo móvil \> Elementos de menú del dispositivo móvil**.
 1. En el panel izquierdo, seleccione el elemento de menú **Recepción de compra**.
-1. En la ficha desplegable **General**, configure la opción **Usar datos predeterminados** en *Sí*.
+1. En la ficha desplegable **General** , configure la opción **Usar datos predeterminados** en *Sí*.
 1. Seleccione **Guardar**.
 1. En el panel Acciones, seleccione **Datos predeterminados**.
-1. En la ficha desplegable **Datos predeterminados**, en el panel Acciones, seleccione **Nuevo** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
+1. En la ficha desplegable **Datos predeterminados** , en el panel Acciones, seleccione **Nuevo** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
 
-    - **Campo de datos predeterminados**: *Ubicación de destino*
-    - **Almacén**: *24*
-    - **Ubicación**: deje este campo en blanco.
-    - **Valor codificado**: *FL-001*
+    - **Campo de datos predeterminados** : *Ubicación de destino*
+    - **Almacén** : *24*
+    - **Ubicación** : deje este campo en blanco.
+    - **Valor codificado** : *FL-001*
 
 1. Seleccione **Guardar**.
 
@@ -170,14 +171,14 @@ El ejemplo en esta sección muestra cómo recibir un artículo de pedido de comp
 
 1. Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra**.
 1. Seleccione **Nuevo**.
-1. En el cuadro de diálogo **Crear pedido de compras**, establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de compras** , establezca los siguientes valores:
 
-    - **Cuenta del proveedor**: *US-101*
-    - **Sitio**: *2*
-    - **Almacén**: *24*
+    - **Cuenta del proveedor** : *US-101*
+    - **Sitio** : *2*
+    - **Almacén** : *24*
 
 1. Seleccione **Aceptar** para crear el nuevo cuadro de diálogo y abrir el nuevo pedido de compras.
-1. En la ficha desplegable **Líneas de orden de compra**, establezca los siguientes valores para la fila vacía:
+1. En la ficha desplegable **Líneas de orden de compra** , establezca los siguientes valores para la fila vacía:
 
     - **Código de artículo:** *A0001*
     - **Cantidad:** *1*
@@ -191,16 +192,16 @@ El ejemplo en esta sección muestra cómo recibir un artículo de pedido de comp
 1. Seleccione **Entrada**.
 1. Seleccione **Recepción de compra**. El campo **Ubicación** debe establecerse en *FL-001*.
 1. Especifique el número de orden de compra para la orden de compra que creó en el procedimiento anterior.
-1. En el campo **Número de artículo**, especifique *A0001*.
+1. En el campo **Número de artículo** , especifique *A0001*.
 1. Seleccione **Aceptar**.
-1. En el campo **Cantidad**, especifique *1*.
+1. En el campo **Cantidad** , especifique *1*.
 1. Seleccione **Aceptar**.
 
 El pedido de compra ahora se recibe, pero no hay trabajo asociado. El inventario disponible ha sido actualizado y una cantidad de *1* del artículo *A0001* ahora está disponible en la ubicación *FL-001*.
 
 ## <a name="example-scenario-manufacturing"></a>Escenario de ejemplo: fabricación
 
-En el siguiente ejemplo, hay dos pedidos de producción, *PRD-001* y *PRD-002*. El pedido de producción *PRD-001* tiene una operación llamada *Montaje*, en la que el producto *SC1* se notifica a la ubicación *001* como terminado. El pedido de producción *PRD-002* tiene una operación llamada *Pintura* y consume el producto *SC1* de la ubicación *001*. El pedido de producción *PRD-002* también consume la materia prima *RM1* de la ubicación *001*. La materia prima *RM1* se almacena en la ubicación del almacén *BULK-001* y el trabajo del almacén lo escogerá como recogida de materia prima a la ubicación *001*. El trabajo de recogida se genera cuando se lanza la producción *PRD-002*.
+En el siguiente ejemplo, hay dos pedidos de producción, *PRD-001* y *PRD-002*. El pedido de producción *PRD-001* tiene una operación llamada *Montaje* , en la que el producto *SC1* se notifica a la ubicación *001* como terminado. El pedido de producción *PRD-002* tiene una operación llamada *Pintura* y consume el producto *SC1* de la ubicación *001*. El pedido de producción *PRD-002* también consume la materia prima *RM1* de la ubicación *001*. La materia prima *RM1* se almacena en la ubicación del almacén *BULK-001* y el trabajo del almacén lo escogerá como recogida de materia prima a la ubicación *001*. El trabajo de recogida se genera cuando se lanza la producción *PRD-002*.
 
 [![Directivas de trabajo de almacén](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
@@ -211,10 +212,10 @@ Cuando tenga previsto configurar una directiva de trabajo del almacén para este
 
 A continuación se muestra un ejemplo de una directiva de trabajo que puede configurar, en función de estas cuestiones:
 
-- **Nombre de la directiva de trabajo**: *Sin trabajo de colocación*
-- **Tipos de orden de trabajo**: *Colocación de productos terminados* y *Colocación de coproductos y subproductos*
-- **Ubicaciones de inventario**: almacén *51* y ubicación *001*
-- **Productos**: *SC1*
+- **Nombre de la directiva de trabajo** : *Sin trabajo de colocación*
+- **Tipos de orden de trabajo** : *Colocación de productos terminados* y *Colocación de coproductos y subproductos*
+- **Ubicaciones de inventario** : almacén *51* y ubicación *001*
+- **Productos** : *SC1*
 
 El siguiente escenario de ejemplo proporcionan instrucciones detalladas sobre cómo configurar la directiva de trabajo del almacén para esta situación.
 
@@ -230,29 +231,29 @@ Los procesos de almacén no siempre incluyen trabajo de almacén. Al definir una
 
 1. Vaya a **Gestión de almacenes \> Configuración \> Trabajo \> Directivas de trabajo**.
 1. Seleccione **Nuevo**.
-1. En el campo **Nombre de la directiva de trabajo**, especifique *No hay trabajo de colocación*.
+1. En el campo **Nombre de la directiva de trabajo** , especifique *No hay trabajo de colocación*.
 1. En el panel Acciones, seleccione **Guardar**.
-1. En la ficha desplegable **Tipos de orden de trabajo**, seleccione **Agregar** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
+1. En la ficha desplegable **Tipos de orden de trabajo** , seleccione **Agregar** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
 
-    - **Tipo de pedido de trabajo**: *Colocación de productos terminados*
-    - **Proceso de trabajo**: *Todos los procesos de trabajo relacionados*
-    - **Método de creación de trabajo**: *Nunca*
-    - **Nombre de directiva de tránsito directo**: deje este campo en blanco.
+    - **Tipo de pedido de trabajo** : *Colocación de productos terminados*
+    - **Proceso de trabajo** : *Todos los procesos de trabajo relacionados*
+    - **Método de creación de trabajo** : *Nunca*
+    - **Nombre de directiva de tránsito directo** : deje este campo en blanco.
 
 1. Seleccione **Agregar** de nuevo para agregar una segunda fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
 
-    - **Tipo de pedido de trabajo**: *Colocación de coproductos y subproductos*
-    - **Proceso de trabajo**: *Todos los procesos de trabajo relacionados*
-    - **Método de creación de trabajo**: *Nunca*
-    - **Nombre de directiva de tránsito directo**: deje este campo en blanco.
+    - **Tipo de pedido de trabajo** : *Colocación de coproductos y subproductos*
+    - **Proceso de trabajo** : *Todos los procesos de trabajo relacionados*
+    - **Método de creación de trabajo** : *Nunca*
+    - **Nombre de directiva de tránsito directo** : deje este campo en blanco.
 
-1. En la ficha desplegable **Ubicaciones de inventario**, seleccione **Agregar** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
+1. En la ficha desplegable **Ubicaciones de inventario** , seleccione **Agregar** para agregar una fila a la cuadrícula y luego establecer los siguientes valores para la nueva fila:
 
-    - **Almacén**: *51*
-    - **Ubicación**: *001*
+    - **Almacén** : *51*
+    - **Ubicación** : *001*
 
-1. En la ficha desplegable **Productos**, configure el campo **Selección de productos** en *Seleccionado*.
-1. En la ficha desplegable **Productos**, seleccione **Agregar** para agregar una fila a la cuadrícula.
+1. En la ficha desplegable **Productos** , configure el campo **Selección de productos** en *Seleccionado*.
+1. En la ficha desplegable **Productos** , seleccione **Agregar** para agregar una fila a la cuadrícula.
 1. En la nueva fila, establezca el campo **Número de elemento** en *L0101*.
 1. En el panel Acciones, seleccione **Guardar**.
 
@@ -260,10 +261,10 @@ Los procesos de almacén no siempre incluyen trabajo de almacén. Al definir una
 
 1. Vaya a **Administración de la organización \> Recursos \> Grupos de recursos**.
 1. En el panel izquierdo, seleccione el grupo de recursos **5102**.
-1. En la ficha desplegable **General**, establezca los valores siguientes:
+1. En la ficha desplegable **General** , establezca los valores siguientes:
 
-    - **Almacén de salida**: *51*
-    - **Ubicación de salida**: *001*
+    - **Almacén de salida** : *51*
+    - **Ubicación de salida** : *001*
 
 1. En el panel Acciones, seleccione **Guardar**.
 
@@ -274,22 +275,22 @@ Los procesos de almacén no siempre incluyen trabajo de almacén. Al definir una
 
 1. Vaya a **Control de producción \> Pedidos de producción \> Todos los pedidos de producción**.
 1. En el panel de acciones, seleccione **Nuevo pedido de producción**.
-1. En el cuadro de diálogo **Crear orden de producción**, establezca el campo **Número de artículo** en *L0101*.
+1. En el cuadro de diálogo **Crear orden de producción** , establezca el campo **Número de artículo** en *L0101*.
 1. Seleccione **Crear** para crear el pedido de ventas y cerrar el cuadro de diálogo.
 
     Se agrega una nueva orden de producción a la cuadrícula en la página **Todos los pedidos de producción**.
 
     Mantenga seleccionada la nueva orden de producción.
 
-1. En el panel Acciones, en la pestaña **Pedido de producción**, en el grupo **Proceso**, seleccione **Estimación**.
-1. En el cuadro de diálogo **Estimación**, lea la estimación y luego seleccione **Aceptar** para cerrar el cuadro de diálogo.
-1. En el panel Acciones, en la pestaña **Pedido de producción**, en el grupo **Proceso**, seleccione **Inicio**.
-1. En el cuadro de diálogo **Inicio**, en la pestaña **General**, configure el campo **Consumo automático de L.MAT.** en *Nunca*.
+1. En el panel Acciones, en la pestaña **Pedido de producción** , en el grupo **Proceso** , seleccione **Estimación**.
+1. En el cuadro de diálogo **Estimación** , lea la estimación y luego seleccione **Aceptar** para cerrar el cuadro de diálogo.
+1. En el panel Acciones, en la pestaña **Pedido de producción** , en el grupo **Proceso** , seleccione **Inicio**.
+1. En el cuadro de diálogo **Inicio** , en la pestaña **General** , configure el campo **Consumo automático de L.MAT.** en *Nunca*.
 1. Seleccione **Aceptar** para guardar la configuración y cerrar el cuadro de diálogo.
-1. En el panel Acciones, en la pestaña **Pedido de producción**, en el grupo **Proceso**, seleccione **Notificar como terminado**.
-1. En el cuadro de diálogo **Informar como terminado**, en la pestaña **General**, configure la opción **Aceptar error** en *Sí*.
+1. En el panel Acciones, en la pestaña **Pedido de producción** , en el grupo **Proceso** , seleccione **Notificar como terminado**.
+1. En el cuadro de diálogo **Informar como terminado** , en la pestaña **General** , configure la opción **Aceptar error** en *Sí*.
 1. Seleccione **Aceptar** para guardar la configuración y cerrar el cuadro de diálogo.
-1. En el panel de acciones, en la pestaña **Almacén**, en el grupo **General**, seleccione **Detalles de trabajo**.
+1. En el panel de acciones, en la pestaña **Almacén** , en el grupo **General** , seleccione **Detalles de trabajo**.
 
 Cuando el pedido de producción se haya notificado como finalizado, no se habrá generado ningún trabajo para su colocación. Este comportamiento ocurre porque se define una directiva de trabajo que impide que el trabajo se genere cuando el producto *L0101* se notifique como finalizado para la ubicación *001*.
 

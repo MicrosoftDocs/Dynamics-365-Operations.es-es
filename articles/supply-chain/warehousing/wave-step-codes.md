@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017814"
 ---
 # <a name="wave-step-codes"></a>Códigos de paso de oleada
 
@@ -59,7 +59,7 @@ Durante la habilitación, las validaciones se realizan al actualizar datos. Si s
 
 Una vez haya resuelto los conflictos que ha identificado durante las validaciones, puede volver a habilitar la características.
 
-Una vez habilitada la característica, la página **Códigos de paso de oleada** (**Administración de almacenes \> Configuración \> Oleadas \> Códigos de paso de oleada**) pasa a estar disponible. Esta página muestra los códigos de paso de oleada que se actualizaron al habilitar la característica Código de paso de oleada de toda la organización.
+Una vez habilitada la característica, la página **Códigos de paso de oleada** ( **Administración de almacenes \> Configuración \> Oleadas \> Códigos de paso de oleada** ) pasa a estar disponible. Esta página muestra los códigos de paso de oleada que se actualizaron al habilitar la característica Código de paso de oleada de toda la organización.
 
 ### <a name="create-new-wave-step-codes"></a>Crear códigos de paso de oleada nuevos
 
@@ -90,6 +90,6 @@ El siguiente procedimiento ayuda a garantizar que la plantilla de reabastecimien
 3. En la plantilla de reabastecimiento, seleccione el código de paso de oleada que ha creado para el tipo **Reabastecimiento**.
 4. Vaya a **Gestión de almacén \> Configuración \> Oleadas \> Plantillas de oleada** y seleccione la plantilla de oleada que quiere usar.
 5. En la plantilla, en la ficha desplegable **Métodos** seleccione el método **Reabastecimiento**.
-6. En el campo **Código de paso de oleada**, selección el código de paso de oleada que seleccionó en la plantilla reabastecimiento.
+6. En el campo **Código de paso de oleada** , selección el código de paso de oleada que seleccionó en la plantilla reabastecimiento.
 
 Debe realizar estos pasos para cada entidad jurídica.

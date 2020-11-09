@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7aecc2c4786a1912bf5ae44f3949428c778f1df9
-ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
+ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826837"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018268"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
 
@@ -57,7 +57,7 @@ Esta sección proporciona más detalles sobre la tarea 4 de la sección anterior
 2. Agregue una imagen mediante la acción  **Imagen del catálogo externo**. La imagen aparecerá en el carro que representa el catálogo externo que se muestra a los empleados que crean una solicitud. Tenga en cuenta que la anchura y la altura de la imagen deben ser iguales. De lo contrario, la imagen no se muestra correctamente.
 3. Seleccione si la página web del catálogo externo del proveedor debe aparecer en la misma ventana de explorador en la que el empleado ha creado la solicitud, o abrirse en una ventana nueva.
 4. Seleccione el proveedor para el catálogo. En el lista **Entidades jurídicas** existe una fila para cada entidad jurídica donde el proveedor está configurado. Para permitir que los usuarios soliciten productos directamente del catálogo del proveedor en algunas personas jurídicas pero no otras, puede usar el botón **Impedir acceso** o **Permitir acceso** para cada entidad jurídica donde desea que el catálogo esté o no disponible.
-5. En el campo **Caducidad predeterminada (días)**, escriba el número de días durante el cual un presupuesto recibido del catálogo externo es válido y se puede usar para comprar al proveedor externo. Cuando se crea un presupuesto y se recupera del sitio del catálogo externo del proveedor; el presupuesto será válido a partir de la fecha del sistema actual y seguirá siendo válido durante el número de días que escriba en este campo.
+5. En el campo **Caducidad predeterminada (días)** , escriba el número de días durante el cual un presupuesto recibido del catálogo externo es válido y se puede usar para comprar al proveedor externo. Cuando se crea un presupuesto y se recupera del sitio del catálogo externo del proveedor; el presupuesto será válido a partir de la fecha del sistema actual y seguirá siendo válido durante el número de días que escriba en este campo.
 6. Haga clic en el botón **Agregar** para empezar a asignar las categorías de compras al catálogo externo. A continuación, en la lista de nombre de categoría, seleccione una categoría. La lista de categorías es un superconjunto de categorías de compras a las que se ha asignado al proveedor en todas las entidades jurídicas configuradas para dicho proveedor.
 
     > [!NOTE]

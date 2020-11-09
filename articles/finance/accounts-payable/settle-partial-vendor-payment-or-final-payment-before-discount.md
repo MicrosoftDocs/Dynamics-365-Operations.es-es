@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34d941c3806ccc9d2b8baa29eef45fbd4216686e
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967319"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006150"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar un pago de proveedor parcial y el pago final completamente antes de la fecha de descuento
 
@@ -40,7 +40,7 @@ El 25 de junio, Arnie introduce y registra una factura para 1.000,00 del proveed
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10010 | 25/6/2015 | 10010   |                                      | 1.000,00                              | -1.000,00 | USD      |
 
-Desde la página **Proveedores**, April abre la página **Liquidar transacciones**. April puede usar la página **Liquidar transacciones** para ver las fechas y los importes de los descuentos por pronto pago. La fecha de vencimiento es el 25 de julio, y un descuento por pronto pago de -10,00 está disponible si la factura se paga el 9 de julio.
+Desde la página **Proveedores** , April abre la página **Liquidar transacciones**. April puede usar la página **Liquidar transacciones** para ver las fechas y los importes de los descuentos por pronto pago. La fecha de vencimiento es el 25 de julio, y un descuento por pronto pago de -10,00 está disponible si la factura se paga el 9 de julio.
 
 | Marcar | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -48,7 +48,7 @@ Desde la página **Proveedores**, April abre la página **Liquidar transacciones
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
-|                              |           |
+|       &nbsp;                 | &nbsp;    |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 7/09/2015 |
 | Importe de descuento por pronto pago         | -10,00    |
@@ -72,7 +72,7 @@ April puede crear un diario de pagos para este pago abriendo la página **Diario
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 7/09/2015 |
 | Importe de descuento por pronto pago         | -10,00    |
@@ -88,7 +88,7 @@ April desea liquidar exactamente la mitad de la factura. Así pues, marca la el 
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 7/09/2015 |
 | Importe de descuento por pronto pago         | -10,00    |
@@ -105,9 +105,9 @@ April cierra la página **Liquidar transacciones**. Una línea de pago de 495,00
 | DISC-10010 | Descuento por pronto pago    | 7/1/2015  |         | 5,00                                 |                                       | 0,00    | USD      |
 
 ## <a name="remaining-amount-paid-on-july-8"></a>Importe restante pagado el 8 de julio
-April paga el resto de la factura del proveedor 3.064 el 8 de julio, fecha que se encuentra en el período de descuento por pronto pago. April crea el diario de pagos el 8 de julio y marca la transacción para liquidación. Observa que el importe que se debe liquidar es de 495,00. El valor del campo **Descuento estimado por pronto pago** es **-5,00**, dado que el descuento de 5,00 se aplicó previamente.
+April paga el resto de la factura del proveedor 3.064 el 8 de julio, fecha que se encuentra en el período de descuento por pronto pago. April crea el diario de pagos el 8 de julio y marca la transacción para liquidación. Observa que el importe que se debe liquidar es de 495,00. El valor del campo **Descuento estimado por pronto pago** es **-5,00** , dado que el descuento de 5,00 se aplicó previamente.
 
-|                         |        |
+|  &nbsp;                 |  &nbsp; |
 |-------------------------|--------|
 | Total marcado            | 495,00 |
 | Descuento estimado por pronto pago | -5,00  |
@@ -120,7 +120,7 @@ La información sobre la transacción marcada aparece en la cuadrícula de la p�
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
-|                              |           |
+|  &nbsp;                      | &nbsp;    |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 7/09/2015 |
 | Importe de descuento por pronto pago         | 10,00     |

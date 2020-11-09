@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d274eae4ad3ba60eadb18ca8de22d4b2d10fe727
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205699"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016710"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Procesamiento aplazado de trabajo de almacén
 
@@ -44,7 +44,7 @@ Las directivas se configuran en la página **Directivas de procesamiento de trab
 | Nombre de directiva de procesamiento de trabajo     | El nombre de la directiva de procesamiento de trabajo. |
 | Tipo de orden de trabajo                 | El tipo de orden de trabajo al que se aplica la directiva. |
 | Operación                       | La operación que se procesa mediante la directiva. |
-| Método de procesamiento de trabajo          | El método que se usa para procesar la línea de trabajo. Si el método está establecido en **Inmediato**, el comportamiento se parece al que se produce cuando no se usa ninguna directiva de procesamiento de trabajo para procesar la línea. Si el método está establecido **Aplazado**, se utiliza el procesamiento diferido que utiliza el marco por lotes. |
+| Método de procesamiento de trabajo          | El método que se usa para procesar la línea de trabajo. Si el método está establecido en **Inmediato** , el comportamiento se parece al que se produce cuando no se usa ninguna directiva de procesamiento de trabajo para procesar la línea. Si el método está establecido **Aplazado** , se utiliza el procesamiento diferido que utiliza el marco por lotes. |
 | Umbral de procesamiento diferido   | Un valor de **0** (cero) indica que no hay umbral. En este caso, se utiliza el procesamiento diferido si es posible. Si el cálculo de umbral específico está por debajo del umbral, se utiliza el método Inmediato. De lo contrario, se utiliza el método Aplazado si es posible. Para las ventas y el trabajo relacionado con transferencias, el umbral se calcula como el número de líneas de carga de origen asociadas que se están procesando para el trabajo. Para el trabajo de reabastecimiento, se calcula el umbral como el número de líneas de trabajo que se van a reabastecer por el trabajo. Si se establece un umbral de, por ejemplo, **5** para ventas, los trabajos más pequeños que tengan menos de cinco líneas de carga de origen iniciales no usarán el procesamiento diferido; solo lo usarán los trabajos más grandes. El umbral solo surte efecto si el método de procesamiento de trabajo se establece en **Aplazado**. |
 | Grupo de lotes de procesamiento diferido |El grupo de lotes que se usa para el procesamiento. |
 
@@ -67,9 +67,9 @@ De forma predeterminada, se muestran las tareas **Completadas**.
 
 A continuación se ofrece una explicación de los estados posibles:
 
-- **En espera**: el trabajo por lotes está esperando el procesamiento en el servidor de procesos por lotes.
-- **Error**: error de procesamiento. La tarea se puede volver a procesar mediante la acción **Procesar colocación diferida** o se puede cancelar mediante la acción **Cancelar colocación diferida**.
-- **Completado**: se ha completado el trabajo.
+- **En espera** : el trabajo por lotes está esperando el procesamiento en el servidor de procesos por lotes.
+- **Error** : error de procesamiento. La tarea se puede volver a procesar mediante la acción **Procesar colocación diferida** o se puede cancelar mediante la acción **Cancelar colocación diferida**.
+- **Completado** : se ha completado el trabajo.
 
 ## <a name="impact-on-closed-work-dates"></a>Impacto en las fechas de cierre de trabajo
 
@@ -104,8 +104,8 @@ Hay varios escenarios en los que no se aplica el procesamiento de colocación di
 
 El espacio de trabajo **Supervisión de trabajo de salida** tiene dos paneles que le ayuden a controlar las tareas de procesamiento de colocación diferidas:
 
-- **Tareas de procesamiento de colocación con error diferidas**: en este panel se muestra el número de tareas con error. Si hubiera tareas con error, el responsable del almacén debe volver a procesarlas o cancelarlas, ya que no se volverán a procesar automáticamente.
-- **Tareas de procesamiento de colocación diferidas en espera**: este panel muestra el número de tareas que han estado en el estado **En espera** durante más de 10 minutos. Si el panel muestra un número, puede indicar que se ha producido un problema durante el procesamiento por lotes. Puede procesar manualmente las tareas **En espera**. Si el trabajo por lotes para una tarea se va a procesar más tarde, se producirá un error, puesto que ya ha sido procesado. No habrá impacto.
+- **Tareas de procesamiento de colocación con error diferidas** : en este panel se muestra el número de tareas con error. Si hubiera tareas con error, el responsable del almacén debe volver a procesarlas o cancelarlas, ya que no se volverán a procesar automáticamente.
+- **Tareas de procesamiento de colocación diferidas en espera** : este panel muestra el número de tareas que han estado en el estado **En espera** durante más de 10 minutos. Si el panel muestra un número, puede indicar que se ha producido un problema durante el procesamiento por lotes. Puede procesar manualmente las tareas **En espera**. Si el trabajo por lotes para una tarea se va a procesar más tarde, se producirá un error, puesto que ya ha sido procesado. No habrá impacto.
 
 ## <a name="deleting-completed-tasks"></a>Eliminar tareas completadas
 

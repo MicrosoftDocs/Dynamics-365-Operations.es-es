@@ -1,7 +1,7 @@
 ---
 title: Información general del producto
 description: Este tema proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales.
-author: benebotg
+author: t-benebo
 manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c118bc37a26d6d3a65905f2fd955ceb3554e9557
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980897"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015138"
 ---
 # <a name="product-information-overview"></a>Información general del producto
 
@@ -89,7 +89,7 @@ Los productos emitidos a una entidad jurídica específica se conocen como *prod
 
 Puede configurar el espacio de trabajo **Mantenimiento de producto emitido** desde el elemento de menú **Configurar mi espacio de trabajo** . Seleccione una jerarquía de categoría y una categoría por las que filtrar el espacio de trabajo. Para ajustar los datos relevantes de productos en el espacio de trabajo, también puede definir, en días, los límites de tiempo para **Productos emitidos recientemente** y **Productos emitidos detenidos**.
 
-El espacio de trabajo consiste en un resumen de mosaicos y dos listas. La lista **Casos abiertos** muestra casos de cambios en productos que tienen productos en la jerarquía de categoría de productos seleccionada que no están completados y cerrados. La lista **Emitidos recientemente** muestra productos que se han emitido en el límite de tiempo establecido en la configuración del espacio de trabajo. Para cada artículo de la lista, se ejecuta la validación y se muestra el estado de validación. Este estado puede indicar que los parámetros necesarios para la entidad jurídica no se han completado. En la lista, puede acceder directamente a las páginas **Detalles de producto emitido**, **Mantenimiento de atributo del producto**, **Mantenimiento de la categoría de producto**, **Configuración predeterminada de pedido** y **Traducciones de texto** para completar la configuración necesaria del producto.
+El espacio de trabajo consiste en un resumen de mosaicos y dos listas. La lista **Casos abiertos** muestra casos de cambios en productos que tienen productos en la jerarquía de categoría de productos seleccionada que no están completados y cerrados. La lista **Emitidos recientemente** muestra productos que se han emitido en el límite de tiempo establecido en la configuración del espacio de trabajo. Para cada artículo de la lista, se ejecuta la validación y se muestra el estado de validación. Este estado puede indicar que los parámetros necesarios para la entidad jurídica no se han completado. En la lista, puede acceder directamente a las páginas **Detalles de producto emitido** , **Mantenimiento de atributo del producto** , **Mantenimiento de la categoría de producto** , **Configuración predeterminada de pedido** y **Traducciones de texto** para completar la configuración necesaria del producto.
 
 ### <a name="manually-creating-a-new-released-product"></a>Creación manual de un nuevo producto emitido
 

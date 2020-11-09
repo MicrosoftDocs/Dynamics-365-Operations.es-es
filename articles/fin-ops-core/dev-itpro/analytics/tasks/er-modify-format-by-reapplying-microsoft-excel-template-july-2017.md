@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5408fd883e91bbff465434ab23974f22bb0f07da
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 255e45ec724eb4e6a4a87c65f62867eb50c7df93
+ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143016"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4011618"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Modificar formatos al aplicar de nuevo plantillas de Excel
 
@@ -82,5 +82,5 @@ Este procedimiento explica cómo modificar una configuración de formado del inf
 6. Seleccione Sí en el campo Borrador de ejecución.
 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Usar la versión de borrador modificada del formato del ER para el procesamiento del diario de pagos
-    * Revise la hoja de cálculo creada, incluido el nuevo detalle de líneas de pago – fecha de pago.  
 
+Revise la hoja de cálculo creada, incluido el nuevo detalle de líneas de pago – fecha de pago.  

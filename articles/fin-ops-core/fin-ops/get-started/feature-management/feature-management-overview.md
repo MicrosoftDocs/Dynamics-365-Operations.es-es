@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015052"
 ---
 # <a name="feature-management-overview"></a>Visión general de la administración de características
 
@@ -73,7 +73,7 @@ Las características programadas para activarse en el futuro aparecen en la pest
 Si una característica se ha programado para activarse en el futuro, un botón **Programar** aparece en el panel de detalles. Puede usar este botón para cambiar el valor de **Fecha de habilitación** a otra distinta.
 
 1. Seleccione la característica programada que desea reprogramar y, a continuación, en el panel de detalles, seleccione **Programar**.
-2. En el cuadro de diálogo que aparece, en el campo **Fecha de habilitación**, especifique la nueva fecha en que la característica se debe activar.
+2. En el cuadro de diálogo que aparece, en el campo **Fecha de habilitación** , especifique la nueva fecha en que la característica se debe activar.
 3. Seleccione **Habilitar** para volver a programar la característica o **Deshabilitar** para cancelar la programación.
 
 ## <a name="turn-off-a-feature"></a>Desactivar una característica
@@ -92,7 +92,7 @@ A veces se lanza una característica crítica que se activará automáticamente 
 
 De forma predeterminada todas las características que se añaden a su entorno se desactivan. Puede habilitar todas las funciones seleccionando el botón **Habilitar todo**. 
 
-Cuando selecciona **Habilitar todo**, aparece una opción para proporcionar la siguiente información:
+Cuando selecciona **Habilitar todo** , aparece una opción para proporcionar la siguiente información:
 - Una lista de todas las características que requieren confirmación antes de que puedan habilitarse. Si desea habilitar las características de la lista, seleccione **Sí** para el botón **Habilitar las características que requieren confirmación**.
 - Se mostrará una lista de todas las características que no se pueden habilitar. Estas características no se habilitarán.
 
@@ -181,9 +181,11 @@ Los paquetes piloto de características son interruptores de encendido y apagado
 Sí, si una característica está afectando al funcionamiento de un entorno que no tiene un impacto funcional, entonces se pueden habilitar de forma predeterminada.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>¿Cómo se puede verificar la habilitación de funciones en el código?
-Utilice el método **isFeatureEnabled** en la clase **FeatureStateProvider**, pasándole una instancia de la clase de entidad. Ejemplo: 
+Utilice el método **isFeatureEnabled** en la clase **FeatureStateProvider** , pasándole una instancia de la clase de entidad. Ejemplo: 
 
-    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```xpp
+if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```
 
 ### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>¿Cómo se puede verificar la habilitación de funciones en los metadatos?
 La propiedad **FeatureClass** se puede utilizar para indicar que algunos metadatos están asociados con una característica. Se debe usar el nombre de clase utilizado para la característica, como **BatchContentionPreventionFeature**. Estos metadatos son visibles solo en esa función. La propiedad **Clase característica** está disponible en menús, elementos de menú, valores de enumeración y campos de tabla / vista.
@@ -191,9 +193,11 @@ La propiedad **FeatureClass** se puede utilizar para indicar que algunos metadat
 ### <a name="what-is-a-feature-class"></a>¿Qué es una clase de entidad?
 Las funciones en la Gestión de funciones se definen como *clases de entidades*. Una clase de entidad **implementa IFeatureMetadata** y utiliza el atributo de clase de entidad para identificarse en el espacio de trabajo de Gestión de entidades. Hay numerosos ejemplos de clases de entidad disponibles que se pueden verificar para su habilitación en el código usando la API **FeatureStateProvider** y en metadatos usando la propiedad **FeatureClass**. Ejemplo: 
 
-    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
-    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
-    
+```xpp
+[ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+```
+
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>¿Qué es el IFeatureLifecycle implementado por algunas clases de entidad?
 IFeatureLifecycle es un mecanismo interno de Microsoft para indicar la etapa del ciclo de vida de la característica. Las características pueden ser:
 - PrivatePreview: necesita un vuelo para ser visible.

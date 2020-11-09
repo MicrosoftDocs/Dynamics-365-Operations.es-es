@@ -2,8 +2,8 @@
 title: Resumen de autoservicio para empleados y gerentes
 description: Este artículo proporciona una descripción general del espacio de trabajo de autoservicio para empleados y gerentes.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/17/2020
+manager: tfehr
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
+ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712241"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4057061"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Resumen de autoservicio para empleados y gerentes
 
@@ -35,11 +35,11 @@ Si necesita agregar o cambiar información personal, consulte [Editar informaci�
 
 ## <a name="user-not-assigned-to-a-worker-record"></a>Usuario no asignado a un registro de trabajador
 
-Si no ha vinculado a su usuario a un registro **Trabajador** de la página **Usuarios**, aparecerá el siguiente mensaje:
+Si no ha vinculado a su usuario a un registro **Trabajador** de la página **Usuarios** , aparecerá el siguiente mensaje:
 
 **Su Id. de usuario no está asociado a su registro de empleado en el sistema. No podrá ver ni actualizar su información hasta que lo esté. Póngase en contacto con su administrador o equipo de soporte técnico para obtener ayuda.**
 
-Para asociar un usuario con un registro de **Trabajador**, vaya a **Usuarios** y seleccione el usuario. Seleccione **Editar**, agregue el trabajador correspondiente en el campo **Persona** del formulario, y seleccione **Guardar**. Ahora debería tener acceso al autoservicio para empleados.
+Para asociar un usuario con un registro de **Trabajador** , vaya a **Usuarios** y seleccione el usuario. Seleccione **Editar** , agregue el trabajador correspondiente en el campo **Persona** del formulario, y seleccione **Guardar**. Ahora debería tener acceso al autoservicio para empleados.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Requisitos de seguridad para el autoservicio de empleados y gerentes
 
@@ -80,7 +80,7 @@ La tarjeta **Certificados** muestra el certificado y la fecha de vencimiento del
 
 La tarjeta **Próxima revisión programada** muestra su próxima evaluación de rendimiento. Puede comenzar una nueva revisión desde esta tarjeta. Su gerente o representante de Recursos Humanos también puede iniciar revisiones. Dependiendo de la configuración de su organización, es posible que también pueda ver, actualizar y enviar revisiones de salida de esta tarjeta.
 
-Puede gestionar sus objetivos con la tarjeta **Metas de rendimiento**. Esta tarjeta muestra el número de objetivos que tienes en cada estado (**No empezado**, **A tiempo** y **Necesita mejorar**). Puede crear, actualizar y eliminar objetivos, dependiendo de la seguridad asignada basada en roles. Si lo desea, puede agregar nuevos objetivos desde grupos o plantillas. Los gerentes y recursos humanos también pueden crear objetivos en nombre de los empleados y determinar qué tan detallado será cada objetivo. Los gerentes y empleados pueden colaborar en objetivos y actualizar actividades, mediciones y estados. También puede incluir archivos adjuntos.
+Puede gestionar sus objetivos con la tarjeta **Metas de rendimiento**. Esta tarjeta muestra el número de objetivos que tienes en cada estado ( **No empezado** , **A tiempo** y **Necesita mejorar** ). Puede crear, actualizar y eliminar objetivos, dependiendo de la seguridad asignada basada en roles. Si lo desea, puede agregar nuevos objetivos desde grupos o plantillas. Los gerentes y recursos humanos también pueden crear objetivos en nombre de los empleados y determinar qué tan detallado será cada objetivo. Los gerentes y empleados pueden colaborar en objetivos y actualizar actividades, mediciones y estados. También puede incluir archivos adjuntos.
 
 Puede ver sus habilidades existentes en la tarjeta **Habilidades**. Puede actualizar habilidades, agregar nuevas o eliminar cualquiera que ya no sea relevante. Dependiendo de la configuración de su organización, los cambios a sus habilidades podrían pasar por un proceso de aprobación.
 
@@ -96,7 +96,7 @@ Regístrese para obtener beneficios a través del enlace **Beneficios**. Para ob
 
 En **Rendimiento** puede elegir **Diarios de rendimiento** para crear entradas de diario de rendimiento para usar tanto en objetivos de rendimiento como en revisiones. Puede elegir **Enviar comentarios** para proporcionar comentarios a otros empleados dentro de su organización. Dependiendo de la configuración de su organización, los correos electrónicos pueden enviarse al destinatario, al remitente y a los administradores. Puede enviar comentarios a todos los empleados de la organización. El envío de comentarios no está restringido por la empresa.
 
-En **Competencias**, puede hacer cambios a **Cursos**, **Educación**, **Puestos de confianza** y **Experiencia profesional**. Dependiendo de la configuración de su organización, las actualizaciones de estas competencias podrían pasar por un proceso de aprobación.
+En **Competencias** , puede hacer cambios a **Cursos** , **Educación** , **Puestos de confianza** y **Experiencia profesional**. Dependiendo de la configuración de su organización, las actualizaciones de estas competencias podrían pasar por un proceso de aprobación.
 
 Puede ver los detalles del trabajo en **Organización**. Los detalles del trabajo incluyen habilidades, certificados y áreas de responsabilidad para su puesto principal. También puede ver cualquier equipo prestado que le hayan prestado. Dependiendo de la configuración de su organización, los cambios a su equipo prestado podrían pasar por un proceso de aprobación.
 
@@ -104,7 +104,7 @@ En **Cuestionario** puede ver cuestionarios completados. También puede ver cues
 
 Puede configurar enlaces definidos por el usuario en **Parámetros de recursos humanos**. Por ejemplo, puede definir enlaces a declaraciones de pago, documentación de fin de año o soluciones externas. Estos enlaces se muestran en la parte inferior de esta sección, pero puede moverlos mediante la personalización.
 
-También puede crear pestañas adicionales incrustando Power Apps dentro del espacio de trabajo de autoservicio para empleados. Use el menú **Configuración** para personalizar la página con cualquier Power Apps. En el menú **Configuración**, puede optar por agregar una Power App, completar los detalles e insertar la aplicación. Por defecto, Power Apps aparece como la primera pestaña de la secuencia. Puede cambiar el orden usando la personalización estándar.
+También puede crear pestañas adicionales incrustando Power Apps dentro del espacio de trabajo de autoservicio para empleados. Use el menú **Configuración** para personalizar la página con cualquier Power Apps. En el menú **Configuración** , puede optar por agregar una Power App, completar los detalles e insertar la aplicación. Por defecto, Power Apps aparece como la primera pestaña de la secuencia. Puede cambiar el orden usando la personalización estándar.
 
 ## <a name="my-team"></a>Mi equipo
 
@@ -112,7 +112,7 @@ La pestaña **Mi equipo** muestra la siguiente información para el autoservicio
 
 ### <a name="personnel-actions"></a>Acciones del personal
 
-Las acciones del personal se muestran según las opciones de configuración dentro de **Parámetros compartidos de recursos humanos** y **Parámetros de recursos humanos**. Cuando está habilitado para **Trabajadores**, las acciones de personal habilitan nuevas opciones de menú, que incluyen:
+Las acciones del personal se muestran según las opciones de configuración dentro de **Parámetros compartidos de recursos humanos** y **Parámetros de recursos humanos**. Cuando está habilitado para **Trabajadores** , las acciones de personal habilitan nuevas opciones de menú, que incluyen:
 
 - **Solicitar nuevo empleado**
 - **Solicitar nuevo contratista**
@@ -131,7 +131,7 @@ También puede configurar estas opciones para pasar por un flujo de trabajo de r
 
 ### <a name="summary"></a>Resumen
 
-La información en la sección **Resumen** depende de las opciones que Recursos Humanos haya seleccionado en **Parámetros de recursos humanos**. En la pestaña **Autoservicio de gerente** de la página **Parámetros de recursos humanos**, puede configurar opciones para mostrar registros que caducan y posiciones abiertas. Habilitar estas opciones determina lo que los administradores pueden ver en la sección **Resumen**.
+La información en la sección **Resumen** depende de las opciones que Recursos Humanos haya seleccionado en **Parámetros de recursos humanos**. En la pestaña **Autoservicio de gerente** de la página **Parámetros de recursos humanos** , puede configurar opciones para mostrar registros que caducan y posiciones abiertas. Habilitar estas opciones determina lo que los administradores pueden ver en la sección **Resumen**.
 
 Puede configurar los siguientes mosaicos para administradores:
 
@@ -193,15 +193,15 @@ Puede ver datos de puesto para informes directos y extendidos.
 
 #### <a name="compensation-tab"></a>Pestaña Compensación
 
-La pestaña **Compensación** muestra el salario anual del empleado. Se muestra un identificador de empresa debajo del importe del salario. Si un empleado tiene más de un empleo y le pagan varias entidades legales, el empleado tendrá múltiples tarjetas de compensación. Se muestra el último aumento de cantidad y porcentaje, según la empresa de empleo.
+La pestaña **Compensación** muestra el salario anual del empleado. Se muestra un identificador de empresa debajo del importe del salario. Si un empleado tiene más de un empleo y le pagan varias entidades legales, el empleado tendrá múltiples planes de compensación. Para ver todos los planes de compensación en las entidades jurídicas sin cambiar de empresa, debe habilitar la compensación cruzada en **Recursos humanos> Parámetros compartidos > Acceso avanzado > Habilitar compensación entre empresas**.
 
-Para ver el historial de compensación, seleccione el monto del salario para abrir el formulario **Detalles**. Solo los registros de compensación variable y fija actuales e históricos se muestran en el formulario **Compensación**. Si un empleado tiene más de un empleo, puede cambiar de compañía para ver el historial de compensación de cada compañía.
+Para ver el historial de compensación, seleccione el monto del salario para abrir el formulario **Detalles**. Solo los registros de compensación variable y fija actuales e históricos se muestran en el formulario **Compensación**. Si un empleado tiene más de un empleo, puede cambiar de empresa para ver el historial de compensación de cada empresa o habilitar la compensación entre empresas en los parámetros compartidos de Recursos humanos para ver todos los planes de compensación.
 
 Puede ver la compensación para informes directos y extendidos.
 
 #### <a name="leave-and-absence-tab"></a>Pestaña permisos y ausencias
 
-La pestaña **Permisos y ausencias** muestra los saldos superiores para los empleados que tienen actividad. Para tomar medidas o ver una lista completa de actividades, seleccione **Detalles** y luego seleccione **Tiempo libre**. En el formulario **Tiempo libre**, puede ver saldos, solicitudes, tiempo libre aprobado y saldos de pronóstico para ayudar a los empleados a administrar mejor el tiempo. Dependiendo de la configuración de su organización, también puede solicitar tiempo libre para sus informes directos y extendidos.
+La pestaña **Permisos y ausencias** muestra los saldos superiores para los empleados que tienen actividad. Para tomar medidas o ver una lista completa de actividades, seleccione **Detalles** y luego seleccione **Tiempo libre**. En el formulario **Tiempo libre** , puede ver saldos, solicitudes, tiempo libre aprobado y saldos de pronóstico para ayudar a los empleados a administrar mejor el tiempo. Dependiendo de la configuración de su organización, también puede solicitar tiempo libre para sus informes directos y extendidos.
 
 #### <a name="performance-goals-tab"></a>Pestaña Objetivos de rendimiento
 
@@ -211,6 +211,6 @@ Los gerentes pueden ver todos los objetivos de su equipo a través del mosaico *
 
 #### <a name="reviews-tab"></a>Pestaña Comentarios
 
-La pestaña **Comentarios** resume los comentarios que el empleado tiene en cada estado: **En progreso**, **Listo para revisar** y **Revisión final**. Para acceder a la revisión de un empleado, seleccione el botón **Detalles** y luego seleccione opiniones para colaborar. Según dónde se encuentra una revisión dentro del proceso de flujo de trabajo, puede ver si la revisión está disponible para actualizar. 
+La pestaña **Comentarios** resume los comentarios que el empleado tiene en cada estado: **En progreso** , **Listo para revisar** y **Revisión final**. Para acceder a la revisión de un empleado, seleccione el botón **Detalles** y luego seleccione opiniones para colaborar. Según dónde se encuentra una revisión dentro del proceso de flujo de trabajo, puede ver si la revisión está disponible para actualizar. 
 
 Puede ver todos los comentarios para su equipo a través del mosaico **Comentarios de rendimiento del equipo** en la sección **Resumen** de **Mi equipo**.

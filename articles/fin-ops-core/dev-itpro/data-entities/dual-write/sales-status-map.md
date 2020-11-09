@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: dce4b6310e2f6d31a115302efa7fbc132799e48f
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829294"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997683"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Configurar la asignación para los campos de estado de pedidos de ventas
 
@@ -45,7 +44,7 @@ La enumeración **Estado** tiene los siguientes valores:
 - Facturado
 - Cancelada
 
-La enumeración **Estado del documento** especifica el documento más reciente que se generó para el pedido. Por ejemplo, si se confirma el pedido, este documento es una confirmación de pedido de ventas. Si un pedido de ventas se factura parcialmente y después se confirma la línea restante, el estado del documento sigue siendo **Factura**, ya que la factura se genera posteriormente en el proceso.
+La enumeración **Estado del documento** especifica el documento más reciente que se generó para el pedido. Por ejemplo, si se confirma el pedido, este documento es una confirmación de pedido de ventas. Si un pedido de ventas se factura parcialmente y después se confirma la línea restante, el estado del documento sigue siendo **Factura** , ya que la factura se genera posteriormente en el proceso.
 
 La enumeración **Estado del documento** tiene los siguientes valores:
 
@@ -98,10 +97,10 @@ En la tabla siguiente se muestra la asignación de **Estado de procesamiento** e
 
 Para configurar la asignación para los campos de estado del pedido de ventas, debe habilitar los atributos **IsSOPIntegrationEnabled** y **isIntegrationUser**.
 
-Para habilitar el atributo **IsSOPIntegrationEnabled**, siga estos pasos.
+Para habilitar el atributo **IsSOPIntegrationEnabled** , siga estos pasos.
 
 1. En un explorador, vaya a `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Reemplace **\<test-name\>** con el enlace de su empresa en Sales.
-2. En la página que se abre, busque **organizationid**y anote el valor.
+2. En la página que se abre, busque **organizationid** y anote el valor.
 
     ![Cómo encontrar organizationid](media/sales-map-orgid.png)
 
@@ -128,9 +127,9 @@ Para habilitar el atributo **IsSOPIntegrationEnabled**, siga estos pasos.
 
     ![IsSOPIntegrationEnabled establecido en true.](media/sales-map-integration-enabled.png)
 
-Para habilitar el atributo **isIntegrationUser**, siga estos pasos.
+Para habilitar el atributo **isIntegrationUser** , siga estos pasos.
 
-1. En Sales, vaya a **Configuración \> Personalización \> Personaliza el sistema**, seleccione **Entidad de usuario** y abra **Formulario \> Usuario**.
+1. En Sales, vaya a **Configuración \> Personalización \> Personaliza el sistema** , seleccione **Entidad de usuario** y abra **Formulario \> Usuario**.
 
     ![Abrir el formulario de usuario](media/sales-map-user.png)
 

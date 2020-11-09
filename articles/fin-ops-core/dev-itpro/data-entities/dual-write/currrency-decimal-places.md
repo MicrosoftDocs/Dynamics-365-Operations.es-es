@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 889337560f073708fb16b2dc173f9872593dd570
-ms.sourcegitcommit: be4fcf8f19c55e852a729b215a16e24e971ff5b7
+ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456823"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997487"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migración de tipo de datos de divisa para doble escritura
 
@@ -71,8 +70,8 @@ Una vez completada la migración, Common Data Service puede almacenar números c
 
 Para realizar este cambio, debe actualizar la siguiente configuración en Power Apps:
 
-+ **Configuración del sistema: precisión de la divisa para la fijación de precios**: el campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema** define cómo se comportará la divis para la organización cuando se selecciona **Precisión de precios**.
-+ **Gestión empresarial: divisas**: el campo **Precisión de divisa** le permite especificar un número personalizado de decimales para una moneda específica. Hay una reserva en la organización (configuración amplia).
++ **Configuración del sistema: precisión de la divisa para la fijación de precios** : el campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema** define cómo se comportará la divis para la organización cuando se selecciona **Precisión de precios**.
++ **Gestión empresarial: divisas** : el campo **Precisión de divisa** le permite especificar un número personalizado de decimales para una moneda específica. Hay una reserva en la organización (configuración amplia).
 
 Hay algunas limitaciones:
 
@@ -81,13 +80,13 @@ Hay algunas limitaciones:
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Configuración del sistema: precisión de la moneda para la fijación de precios
 
-Una vez completada la migración, los administradores pueden establecer la precisión de la divisa. Vaya a **Configuración \> Administración** y seleccione **Ajustes del sistema**. Luego, en la pestaña **General**, cambie el valor del campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema**, como se muestra en la siguiente ilustración.
+Una vez completada la migración, los administradores pueden establecer la precisión de la divisa. Vaya a **Configuración \> Administración** y seleccione **Ajustes del sistema**. Luego, en la pestaña **General** , cambie el valor del campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema** , como se muestra en la siguiente ilustración.
 
 ![Configuraciones del sistema para la divisa](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Administración empresarial: divisas
 
-Si necesita que la precisión de la divisa para una divisa específica difiera de la precisión de la divisa que se usa para fijar el precio, puede cambiarla. Vaya a **Configuraciones \> Administración empresarial**, S¡seleccione **Divisas** y seleccione la divisa que se va a cambiar. Luego configure el campo **Precisión de la divisa** según número de decimales que desee, como se muestra en la siguiente ilustración.
+Si necesita que la precisión de la divisa para una divisa específica difiera de la precisión de la divisa que se usa para fijar el precio, puede cambiarla. Vaya a **Configuraciones \> Administración empresarial** , S¡seleccione **Divisas** y seleccione la divisa que se va a cambiar. Luego configure el campo **Precisión de la divisa** según número de decimales que desee, como se muestra en la siguiente ilustración.
 
 ![Configuración de la divisa para un entorno local específico](media/specific-currency.png)
 

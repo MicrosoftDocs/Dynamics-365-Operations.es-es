@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208003"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018822"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Aprobar y confirmar pedidos de compra
 
@@ -35,7 +35,7 @@ Este tema describe los estados por los que pasa un pedido de compra (PO) una vez
 Una vez se ha creado un pedido de compra, puede que tenga que pasar por un proceso de aprobación. Después de que el proveedor haya aceptado el pedido, el pedido de compra se establece en un estado de **Confirmado**.
 
 ## <a name="approval-of-purchase-orders"></a>Aprobación de pedidos de compra
-Los pedidos de compra que no utilizan la administración de cambios tienen un estado de **Aprobado** tan pronto como se crean, mientras que los pedidos de compra que usan la administración de cambios tienen un estado de **Borrador** cuando se crean por primera vez. Un pedido de compra que se ha creado consolidando un pedido planificado de la planificación maestra siempre se establece en un estado de **Aprobado**, independientemente de la configuración de la administración de cambios. Un pedido de compra crea transacciones de inventario solo cuando alcanza el estado **Aprobado**. Por tanto, ese inventario no aparece como disponible para reserva o marcado hasta que no se acepta el pedido.
+Los pedidos de compra que no utilizan la administración de cambios tienen un estado de **Aprobado** tan pronto como se crean, mientras que los pedidos de compra que usan la administración de cambios tienen un estado de **Borrador** cuando se crean por primera vez. Un pedido de compra que se ha creado consolidando un pedido planificado de la planificación maestra siempre se establece en un estado de **Aprobado** , independientemente de la configuración de la administración de cambios. Un pedido de compra crea transacciones de inventario solo cuando alcanza el estado **Aprobado**. Por tanto, ese inventario no aparece como disponible para reserva o marcado hasta que no se acepta el pedido.
 
 Habilite la administración de cambios para pedidos de compra estableciendo la opción **Activar administración de cambios** en la página **Parámetros de adquisición y abastecimiento**. Cuando está habilitada la administración de cambios, los pedidos de compra pasan por un flujo de trabajo de aprobación después de que se hayan completado. Supply Chain Management tiene un editor de procesos de flujo de trabajo donde puede definir un flujo de trabajo para que represente el proceso de aprobación. Este flujo de trabajo puede incluir reglas de aprobación automática, reglas que determinan quién se asignará para aprobar pedidos de compra concretos y reglas para escalar un flujo de trabajo que ha estado esperando aprobación durante mucho tiempo. Puede habilitar el proceso de administración de cambios para todos los proveedores o para proveedores específicos. También puede configurar el proceso para que se puede anular para pedidos de compra individuales.
 
@@ -80,7 +80,7 @@ Un PO se puede cancelar mediante la acción **Cancelar** en el encabezado.
 
 Si la cantidad se ha registrado, se ha recibido, o se ha facturado parcialmente, puede cancelar únicamente la cantidad restante que no se ha registrado, ni recibido, ni facturado. La cantidad de pedido se reduce como corresponda. Si la cantidad en la línea se actualiza, se actualizará el estado de línea también. Por ejemplo, la cantidad original en la línea es 5, y una cantidad de 3 se recibe. En este caso, sólo dos se pueden cancelar. La línea se actualizará al estado **Recibido**.
 
-Si un resto de la entrega se agrega a la línea de pedido, y supera la cantidad de la línea de pedido, la acción **Cancelar** no cancela el excedente. En su lugar, la línea permanece en el estado **Pedido abierto**, porque tiene una cantidad restante. Por ejemplo, la cantidad original de la línea es 5, y el excedente de entrega es 7. Si el pedido se cancela, cinco se cancelan, y una cantidad de 2 queda, como puede ver en las transacciones de inventario.
+Si un resto de la entrega se agrega a la línea de pedido, y supera la cantidad de la línea de pedido, la acción **Cancelar** no cancela el excedente. En su lugar, la línea permanece en el estado **Pedido abierto** , porque tiene una cantidad restante. Por ejemplo, la cantidad original de la línea es 5, y el excedente de entrega es 7. Si el pedido se cancela, cinco se cancelan, y una cantidad de 2 queda, como puede ver en las transacciones de inventario.
 
 Para cancelar toda la cantidad de una línea del PO, debe cancelar la cantidad del resto de la entrega de la línea. La línea se actualizará al estado **Cancelado**.
 

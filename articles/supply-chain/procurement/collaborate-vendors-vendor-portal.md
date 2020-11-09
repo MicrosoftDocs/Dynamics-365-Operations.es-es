@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b263b7c4f44871f81e8dd753f702327893f00d86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e451b419da59817ccf397fbb231a1cd112fd45ca
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207149"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018454"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaboración con los proveedores mediante el portal de proveedores
 
@@ -38,7 +38,7 @@ El portal de proveedores está dirigido a proveedores que no tienen integración
 El proceso se puede configurar de modo que una confirmación del proveedor confirma automáticamente el pedido. En este caso, solo se requiere seguimiento en algunas ocasiones, cuando se rechaza un pedido o si la confirmación del proveedor se registra como una respuesta pero el estado de OC no se actualiza a **Confirmado** debido a un problema durante el proceso de confirmación.
 
 ## <a name="po-confirmation-and-rejection"></a>Confirmación y rechazo de OC
-Las OC se preparan en Dynamics AX. Cuando tiene una OC que tiene un estado **Aprobado**, envíelo al proveedor generando una solicitud de confirmación. Si quiere que el proveedor se fije en una nueva OC, también puede usar el sistema de gestión de impresión para enviar la OC por correo electrónico. El pedido de compra aparece en el portal de proveedores e incluye una opción que el proveedor puede usar para confirmarlo o rechazarlo. El proveedor también puede agregar comentarios para comunicar información como cambios al pedido de compra.  
+Las OC se preparan en Dynamics AX. Cuando tiene una OC que tiene un estado **Aprobado** , envíelo al proveedor generando una solicitud de confirmación. Si quiere que el proveedor se fije en una nueva OC, también puede usar el sistema de gestión de impresión para enviar la OC por correo electrónico. El pedido de compra aparece en el portal de proveedores e incluye una opción que el proveedor puede usar para confirmarlo o rechazarlo. El proveedor también puede agregar comentarios para comunicar información como cambios al pedido de compra.  
 
 En el portal de proveedores, el proveedor puede ver líneas de pedidos. Estas líneas incluyen información como el número de producto externo, las dimensiones, la información de precios, la cantidad, la fecha de entrega y la dirección de entrega. El proveedor puede generar un informe que muestre la información del pedido de compra y también el precio total. Se muestran los gastos relevantes para el proveedor si el proveedor hace clic en el botón **Gastos** del encabezado o en las líneas. Los proveedores pueden importar la información de OC en su propio sistema mediante la funcionalidad **Exportar a Excel**.  
 
@@ -56,7 +56,7 @@ Si tiene que cambiar una OC que ya ha sido confirmada, le puede enviar una nueva
 Al cancelar una OC, el estado se cambia a **Aprobado**. Debe enviar de nuevo la OC al proveedor a través del portal de proveedores de modo que el proveedor pueda confirmar o rechazar la cancelación. Después de que se confirme la cancelación, la OC aparece en la lista de OC confirmadas del proveedor como **Cancelado**.
 
 ## <a name="versions-status-transitions-and-change-management"></a>Versiones, transiciones de estado y administración de cambios
-Cuando una OC se envía al proveedor, se registra en el sistema como una versión específica del pedido de compra y el estado se cambia de **Aprobado** a **En revisión externa**. Si la OC se cambia después, se crea una versión nueva de la OC y el estado vuelve a **Aprobado** (o **Borrador**, si la administración de cambios está activada).  
+Cuando una OC se envía al proveedor, se registra en el sistema como una versión específica del pedido de compra y el estado se cambia de **Aprobado** a **En revisión externa**. Si la OC se cambia después, se crea una versión nueva de la OC y el estado vuelve a **Aprobado** (o **Borrador** , si la administración de cambios está activada).  
 
 La siguiente tabla muestra un ejemplo de los cambios de estado y versión que puede tener una OC.
 
@@ -70,11 +70,11 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 
 Para ver las versiones de OC que se han enviado al proveedor y las respuestas del proveedor, haga clic en **Diarios** &gt; **Solicitudes de confirmación** desde la OC.  
 
-Los pedidos que se han enviado al proveedor para una respuesta y que tienen el estado de **Revisión externa** aparecerán en la lista **Pedidos de compra enviados al portal de proveedores, en espera de respuesta** o **Pedidos de compra enviados al portal de proveedores, la respuesta requiere acción**. Cuando modifica un pedido que se ha enviado al proveedor, de modo que el estado se cambia a **Aprobado**, el pedido ya no aparece en estas listas. Para ver si ha habido anteriormente una respuesta al pedido del proveedor, haga clic en **Diarios** &gt; **Solicitudes de confirmación**.  
+Los pedidos que se han enviado al proveedor para una respuesta y que tienen el estado de **Revisión externa** aparecerán en la lista **Pedidos de compra enviados al portal de proveedores, en espera de respuesta** o **Pedidos de compra enviados al portal de proveedores, la respuesta requiere acción**. Cuando modifica un pedido que se ha enviado al proveedor, de modo que el estado se cambia a **Aprobado** , el pedido ya no aparece en estas listas. Para ver si ha habido anteriormente una respuesta al pedido del proveedor, haga clic en **Diarios** &gt; **Solicitudes de confirmación**.  
 
 Los proveedores no tienen que confirmar la OC en el portal de proveedores. También pueden enviar un mensaje de correo electrónico o comunicar la aceptación de una OC a través de otros canales. A continuación puede confirmar el pedido manualmente en Dynamics AX. En este caso, recibirá una advertencia de que se está confirmando el pedido aunque no haya respuesta del proveedor. La OC aparece a continuación en el historial de confirmaciones del portal de proveedores como un pedido confirmado abierto que no tiene ninguna respuesta. Además, el proveedor ya no tiene la opción de confirmar o de rechazar el pedido de compra.  
 
-**Nota**: La versión de la OC que está disponible para otros procesos en Dynamics AX siempre es la última versión, incluso si dicha versión no se ha registrado todavía.
+**Nota** : La versión de la OC que está disponible para otros procesos en Dynamics AX siempre es la última versión, incluso si dicha versión no se ha registrado todavía.
 
 ### <a name="change-management"></a>Gestión de cambios
 

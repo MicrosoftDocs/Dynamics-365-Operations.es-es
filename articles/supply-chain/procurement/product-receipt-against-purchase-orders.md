@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5868b9ef02bdbca33c9e155af3bf7540f0522f86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cead310eaa86d755399e512f99d6782bfa551211
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208049"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018868"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
@@ -42,7 +42,7 @@ El registro de recepción de producto a menudo se produce en los muelles de lleg
 Los productos que se reciben en un almacén podrían pasar por una inspección de calidad antes de ubicarse en el inventario. Los pedidos de calidad o las órdenes de cuarentena se pueden utilizar para realizar una inspección de calidad. Si se utilizan los pedidos de calidad, puede configurar el proceso de bloquear productos temporalmente a través de una reserva mientras se inspeccionan. Si se usan órdenes de cuarentena, los productos se mueven a otro almacén para inspección. Este almacén se conoce como el almacén de cuarentena. En ambos procesos de inspección de calidad, algunas de las mercancías se podrían dar de baja, porque no se ajustan a las expectativas de calidad o porque la inspección de calidad implica pruebas destructivas de una muestra del producto.
 
 ## <a name="product-receipt"></a>Recepción de producto
-A menudo, la acción **Recepción de producto** de la página **Pedidos de compra** se utiliza para marcar productos como **Recibido** en el PC. La página **Registro de recepción de productos** tiene varias opciones para la cantidad que se contabiliza como recibido. Por ejemplo, puede establecer el campo **Cantidad** en **Cantidad pedida** o **Cantidad que se recibe ahora**. De forma alternativa, si se ha utilizado un proceso de llegada a almacén, a menudo establecerá este campo en **Cantidad registrada**. Puede modificar las cantidades de cada línea de pedido que se marcarán como **Recibido**, para dar cuenta de discrepancias, como entrega incompleta y entrega en exceso. Durante la recepción de producto, debe especificar un identificador de recepción de producto, que normalmente es una referencia al albarán del proveedor. Este identificador es necesario para contabilidad, porque permite comprobaciones o auditorías de albaranes de proveedor frente a lo que se ha recibido y el gasto o el inventario contabilizado.  
+A menudo, la acción **Recepción de producto** de la página **Pedidos de compra** se utiliza para marcar productos como **Recibido** en el PC. La página **Registro de recepción de productos** tiene varias opciones para la cantidad que se contabiliza como recibido. Por ejemplo, puede establecer el campo **Cantidad** en **Cantidad pedida** o **Cantidad que se recibe ahora**. De forma alternativa, si se ha utilizado un proceso de llegada a almacén, a menudo establecerá este campo en **Cantidad registrada**. Puede modificar las cantidades de cada línea de pedido que se marcarán como **Recibido** , para dar cuenta de discrepancias, como entrega incompleta y entrega en exceso. Durante la recepción de producto, debe especificar un identificador de recepción de producto, que normalmente es una referencia al albarán del proveedor. Este identificador es necesario para contabilidad, porque permite comprobaciones o auditorías de albaranes de proveedor frente a lo que se ha recibido y el gasto o el inventario contabilizado.  
 
 Los pedidos de compra pueden crearse para productos que no están pensados como inventario pero se consideran un gasto. Esta categoría incluye líneas de pedido donde los productos se marcan como **Sin existencias** por su grupo de modelos de inventario y también las líneas que utilizan categorías de compras. En este caso, los elementos pueden no pasar por el registro de llegada y recepción en el almacén. En su lugar, la acción **Recepción de producto** se utiliza para registrar el recibo directamente en el pedido de compra y la recepción se basa en la cantidad pedida, no una cantidad registrada.  
 

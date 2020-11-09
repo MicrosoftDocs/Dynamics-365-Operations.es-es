@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275450"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997359"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante la configuración inicial
 
@@ -39,9 +38,9 @@ Este tema proporciona información para solución de problemas de integración d
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>No puede vincular una aplicación Finance and Operations a Common Data Service
 
-**Rol requerido para configurar doble escritura**: Administrador del sistema en aplicaciones de Finance and Operations y Common Data Service.
+**Rol requerido para configurar doble escritura** : Administrador del sistema en aplicaciones de Finance and Operations y Common Data Service.
 
-Los errores en la página **Enlace de configuración a Common Data Service** generalmente se deben a problemas de configuración o permisos incompletos. Asegúrese de que toda la compración de estado aprueba en la página **Enlace de configuración a Common Data Service**, como se muestra en la siguiente ilustración. No puede vincular la escritura doble a menos que se apruebe toda la comprobación de estado.
+Los errores en la página **Enlace de configuración a Common Data Service** generalmente se deben a problemas de configuración o permisos incompletos. Asegúrese de que toda la compración de estado aprueba en la página **Enlace de configuración a Common Data Service** , como se muestra en la siguiente ilustración. No puede vincular la escritura doble a menos que se apruebe toda la comprobación de estado.
 
 ![Comprobación de estado exitosa](media/health_check.png)
 
@@ -70,7 +69,7 @@ Para proporcionar el consentimiento de la aplicación, siga estos pasos.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Verifique que los datos de la empresa y los equipos de doble escritura estén configurados correctamente durante el enlace
 
-Para garantizar que la escritura doble funcione correctamente, las empresas que seleccione durante la configuración se crean en el entorno Common Data Service. Por defecto, estas empresas son de solo lectura, y la propiedad **IsDualWriteEnable** se establece en **Verdadero**. Además, se crean el propietario y el equipo de la unidad de negocios propietaria predeterminada e incluyen el nombre de la empresa. Antes de habilitar los mapas, verifique que se haya especificado el propietario del equipo predeterminado. Para encontrar la entidad **Empresas (MDL\_Empresa)**, siga estos pasos.
+Para garantizar que la escritura doble funcione correctamente, las empresas que seleccione durante la configuración se crean en el entorno Common Data Service. Por defecto, estas empresas son de solo lectura, y la propiedad **IsDualWriteEnable** se establece en **Verdadero**. Además, se crean el propietario y el equipo de la unidad de negocios propietaria predeterminada e incluyen el nombre de la empresa. Antes de habilitar los mapas, verifique que se haya especificado el propietario del equipo predeterminado. Para encontrar la entidad **Empresas (MDL\_Empresa)** , siga estos pasos.
 
 1. En la aplicación basada en modelos en Dynamics 365, seleccione el filtro en la esquina superior derecha.
 2. En la lista desplegable , seleccione **Compañía**.

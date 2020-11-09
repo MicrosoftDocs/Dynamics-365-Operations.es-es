@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829221"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997409"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial a efectivo en doble escritura
 
@@ -44,7 +43,7 @@ Antes de poder sincronizar los presupuestos de ventas, debe actualizar la siguie
 
 ### <a name="setup-in-sales"></a>Configuración en Sales
 
-En Ventas vaya a **Configuración \> Administración \> Configuración del sistema \> Sales**, y asegúrese de que se utilicen los valores siguientes:
+En Ventas vaya a **Configuración \> Administración \> Configuración del sistema \> Sales** , y asegúrese de que se utilicen los valores siguientes:
 
 - La opción de sistema **Usar el sistema de cálculo del sistema de precios** está en **Sí**.
 - El campo **Método de cálculo de descuentos** se establece en **Artículo de línea**.
@@ -57,15 +56,15 @@ En Supply Chain Management, los campos **Ubicación** y **almacén** son obligat
 
 Las secuencias numéricas para Supply Chain Management y Sales no están conectadas cuando se crean y sincronizan presupuestos y pedidos en Sales y Supply Chain Management. Si un pedido de ventas que se crea en Sales se sincroniza con Supply Chain Management, tiene el mismo número de pedido de ventas en Supply Chain Management. Para ayudar a garantizar que el número de pedido de ventas no esté duplicado, debe usar diferentes sistemas de secuencia numérica en las dos aplicaciones.
 
-Por ejemplo, la secuencia numérica en Supply Chain Management es **1, 2, 3, 4, 5, ...**, y la secuencia numérica en Sales es **100, 99, 98, ...**. Si crea 100 pedidos de ventas en Sales, eventualmente se generará un número de pedido que ya existe en Supply Chain Management. En otras palabras, las dos secuencias numéricas eventualmente se superpondrán a medida que se creen pedidos de ventas en Supply Chain Management y Sales. En su lugar, puede usar una secuencia numérica como **F1, F2, F3, ...** en Supply Chain Management y una secuencia numérica como **C1, C2, C3, ...** en Sales. Estas secuencias de números nunca producirán números de pedido de ventas duplicados.
+Por ejemplo, la secuencia numérica en Supply Chain Management es **1, 2, 3, 4, 5, ...** , y la secuencia numérica en Sales es **100, 99, 98, ...**. Si crea 100 pedidos de ventas en Sales, eventualmente se generará un número de pedido que ya existe en Supply Chain Management. En otras palabras, las dos secuencias numéricas eventualmente se superpondrán a medida que se creen pedidos de ventas en Supply Chain Management y Sales. En su lugar, puede usar una secuencia numérica como **F1, F2, F3, ...** en Supply Chain Management y una secuencia numérica como **C1, C2, C3, ...** en Sales. Estas secuencias de números nunca producirán números de pedido de ventas duplicados.
 
 ## <a name="sales-quotations"></a>Presupuestos de ventas
 
 Los presupuestos de ventas pueden crearse en Sales o Supply Chain Management. Si crea un presupuesto en Sales, se sincroniza con Supply Chain Management en tiempo real. De forma similar, si crea un presupuesto en Supply Chain Management, se sincroniza con Sales en tiempo real. Tenga en cuenta los aspectos siguientes:
 
-+ Puede agregar un descuento al producto en el presupuesto. En este caso, el descuento se sincronizará con Supply Chain Management. Los campos **Descuento**, **Cargos** e **Impuestos** en el encabezado se controlan mediante una configuración compleja en Supply Chain Management. Esta configuración no admite la asignación de la integración. En su lugar, los campos **Precio**, **Descuento**, **Cargo** e **Impuestos** son gestionados y mantenidos en Supply Chain Management.
-+ Los campos **% de descuento**, **Descuento** e **Importe del flete** en el encabezado del presupuesto de ventas son campos de solo lectura.
-+ Los campos **Condiciones de flete**, **Condiciones de entrega**, **Método de envío** y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
++ Puede agregar un descuento al producto en el presupuesto. En este caso, el descuento se sincronizará con Supply Chain Management. Los campos **Descuento** , **Cargos** e **Impuestos** en el encabezado se controlan mediante una configuración compleja en Supply Chain Management. Esta configuración no admite la asignación de la integración. En su lugar, los campos **Precio** , **Descuento** , **Cargo** e **Impuestos** son gestionados y mantenidos en Supply Chain Management.
++ Los campos **% de descuento** , **Descuento** e **Importe del flete** en el encabezado del presupuesto de ventas son campos de solo lectura.
++ Los campos **Condiciones de flete** , **Condiciones de entrega** , **Método de envío** y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
 
 Si también está utilizando la solución Field Service, asegúrese de volver a habilitar el parámetro **Creación rápida de línea de presupuesto**. Volver a habilitar el parámetro le permite continuar creando líneas de presupuesto usando la función de creación rápida.
 1. Navegue a su aplicación Dynamics 365 Sales.
@@ -111,7 +110,7 @@ Las facturas de ventas se crean en Supply Chain Management y se sincronizan en S
 + El campo **Número de factura** se ha agregado a la entidad **Factura** y se muestra en la página.
 + El botón **Crear factura** de la página **Pedido de ventas** se oculta, ya que las facturas se crearán en Supply Chain Management y se sincronizarán en Sales. No se puede editar la página **Factura** porque las facturas se sincronizarán desde Supply Chain Management.
 + El valor de **Estado del pedido de ventas** cambia automáticamente a **Facturado** si la factura relacionada de Supply Chain Management se ha sincronizado con Sales. Además, el propietario del pedido de ventas desde el cual se creó la factura, se asigna como propietario de la factura. Por tanto, el propietario del pedido de ventas puede ver la factura.
-+ Los campos **Condiciones de flete**, **Condiciones de entrega** y **Modo de entrega** no se incluyen en las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
++ Los campos **Condiciones de flete** , **Condiciones de entrega** y **Modo de entrega** no se incluyen en las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
 
 ## <a name="templates"></a>Plantillas
 

@@ -1,7 +1,7 @@
 ---
 title: Diseños de pantalla de datos de demostración en Modern POS (MPOS) y Cloud POS
 description: Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Dynamics 365 Commerce.
-author: zlinster
+author: josaw1
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: zlinster
+ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 7956eece1a77951795a3f5f66067a2ecfacf3450
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014895"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Diseños de pantalla de datos de demostración en Modern POS (MPOS) y Cloud POS
 

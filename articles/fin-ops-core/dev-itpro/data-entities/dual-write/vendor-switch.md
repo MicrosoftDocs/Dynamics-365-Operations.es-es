@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 0ecc401706911f8b92146b95bb6415185df8b451
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173048"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997561"
 ---
 # <a name="switch-between-vendor-designs"></a>Cambiar entre diseños de proveedor
 
@@ -34,7 +33,7 @@ ms.locfileid: "3173048"
 
 ## <a name="vendor-data-flow"></a>Flujo de datos del proveedor 
 
-Si elige usar la entidad **Cuenta** para almacenar proveedores del tipo **Organización** y la entidad **Contacto** para almacenar proveedores del tipo **Persona**, configure los siguientes flujos de trabajo. De lo contrario, esta configuración no es necesaria.
+Si elige usar la entidad **Cuenta** para almacenar proveedores del tipo **Organización** y la entidad **Contacto** para almacenar proveedores del tipo **Persona** , configure los siguientes flujos de trabajo. De lo contrario, esta configuración no es necesaria.
 
 ## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a>Utilice el diseño de proveedor extendido para proveedores del tipo Organización
 

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8cc7c11233c745719af72222eba02fb71d7a8944
-ms.sourcegitcommit: 4edc658448612afbf1c1663c166d12e08e4c4165
+ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3340939"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997263"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -43,7 +42,7 @@ Algunas versiones de la herramienta Package Deployer son incompatibles con el pa
 
 Después de instalar la herramienta Package Deployer, instale el paquete de la solución siguiendo estos pasos.
 
-1. Descargue el archivo del paquete de solución más reciente de Yammer.com. Después de descargar el archivo zip del paquete, haga clic con el botón derecho y seleccione **Propiedades**. Selecciona la casilla **Desbloquear** y luego elija **Aplicar**. Si no ve la casilla de verificación **Desbloquear**, el archivo zip ya está desbloqueado y puede omitir este paso.
+1. Descargue el archivo del paquete de solución más reciente de Yammer.com. Después de descargar el archivo zip del paquete, haga clic con el botón derecho y seleccione **Propiedades**. Selecciona la casilla **Desbloquear** y luego elija **Aplicar**. Si no ve la casilla de verificación **Desbloquear** , el archivo zip ya está desbloqueado y puede omitir este paso.
 
     ![Cuadro de diálogo Propiedades](media/unblock_option.png)
 
@@ -62,20 +61,20 @@ Después de instalar la herramienta Package Deployer, instale el paquete de la s
 
 Para activar el registro de seguimiento, siga estos pasos.
 
-1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración**, y luego, en **Sistema**, seleccione **Administración**.
+1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración** , y luego, en **Sistema** , seleccione **Administración**.
 2. En la página **Administración** , seleccione **Configuración del sistema**.
-3. En la pestaña **Personalización**, en el campo **Complemento y seguimiento de actividad de flujo de trabajo personalizado**, seleccione **Todo** para habilitar el registro de seguimiento del complemento. Si desea registrar registros de rastreo solo cuando se producen excepciones, puede seleccionar **Excepción** en su lugar.
+3. En la pestaña **Personalización** , en el campo **Complemento y seguimiento de actividad de flujo de trabajo personalizado** , seleccione **Todo** para habilitar el registro de seguimiento del complemento. Si desea registrar registros de rastreo solo cuando se producen excepciones, puede seleccionar **Excepción** en su lugar.
 
 
 Para ver el registro de seguimiento, siga estos pasos.
 
-1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración**, y luego, en **Personalización**, seleccione **Registro de seguimiento de complementos**.
+1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración** , y luego, en **Personalización** , seleccione **Registro de seguimiento de complementos**.
 2. Encuentre los registros de seguimiento donde el campo **Escribir nombre** se establece en **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Haga doble clic en un elemento para ver el registro completo y luego, en la ficha desplegable **Ejecución**, revise el texto **Bloque de mensajes**.
+3. Haga doble clic en un elemento para ver el registro completo y luego, en la ficha desplegable **Ejecución** , revise el texto **Bloque de mensajes**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilite el modo de depuración para solucionar problemas de sincronización en vivo en aplicaciones Finance and Operations
 
-**Rol requerido para ver los errores**: los errores de doble escritura del administrador del sistema que se originan en Common Data Service pueden aparecer en la aplicación de Finance and Operations. En algunos casos, el texto completo del mensaje de error no está disponible porque el mensaje es demasiado largo o contiene información de identificación personal (PII). Puede activar el registro detallado de errores siguiendo estos pasos.
+**Rol requerido para ver los errores** : los errores de doble escritura del administrador del sistema que se originan en Common Data Service pueden aparecer en la aplicación de Finance and Operations. En algunos casos, el texto completo del mensaje de error no está disponible porque el mensaje es demasiado largo o contiene información de identificación personal (PII). Puede activar el registro detallado de errores siguiendo estos pasos.
 
 1. Todas las configuraciones del proyecto en las aplicaciones Finance and Operations tienen una propiedad **IsDebugMode** en la entidad **DualWriteProjectConfiguration**. Abra la entidad **DualWriteProjectConfiguration** usando el complemento de Excel.
 
@@ -90,7 +89,7 @@ Para ver el registro de seguimiento, siga estos pasos.
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verifique los errores de sincronización en la máquina virtual para la aplicación Finance and Operations
 
-**Rol requerido para ver los errores**: Administrador del sistema
+**Rol requerido para ver los errores** : Administrador del sistema
 
 1. Inicie sesión en Microsoft Dynamics LifeCycle Services (LCS).
 2. Abra el proyecto LCS que seleccionó para realizar la prueba de escritura dual.
@@ -102,7 +101,7 @@ Para ver el registro de seguimiento, siga estos pasos.
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Desvincular y vincular a otro entorno de Common Data Service de una aplicación Finance and Operations
 
-**Rol requerido para desvincular el entorno**: Administrador del sistema para cualquier aplicación de Finance and Operations o Common Data Service.
+**Rol requerido para desvincular el entorno** : Administrador del sistema para cualquier aplicación de Finance and Operations o Common Data Service.
 
 1. Iniciar sesión en la aplicación Finance and Operations.
 2. Vaya a **Espacios de trabajo \> Gestión de datos** y seleccione el mosaico **Doble escritura**.
@@ -116,7 +115,7 @@ Ahora puede vincular un nuevo entorno.
 
 Cuando crea un pedido de ventas en Dynamics 365 Sales, al hacer clic en **+ Agregar productos** podría redirigírsele al formulario de línea de pedido de Dynamics 365 Project Operations. No hay forma desde ese formulario de ver el formulario de **Información** de la línea de pedido de ventas. La opción para **Información** no aparece en el menú desplegable bajo **Nueva línea de pedido**. Esto sucede porque Project Operations se ha instalado en su entorno.
 
-Para volver a habilitar la opción de formulario **Información**, siga estos pasos:
+Para volver a habilitar la opción de formulario **Información** , siga estos pasos:
 1. Navegue hasta la entidad **Línea de pedido**.
 2. Busque el formulario **Información** bajo el nodo de formularios. 
 3. Seleccione el formulario **Información** y haga clic en **Habilitar roles de seguridad**. 

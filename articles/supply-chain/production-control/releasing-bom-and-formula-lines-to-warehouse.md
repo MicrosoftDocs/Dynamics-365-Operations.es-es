@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse
+ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: ab0a6e7de02b4b69d3f7a129392a1057482f0c26
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017239"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar las líneas de LM y fórmula al almacén
 
@@ -46,7 +46,7 @@ Para ver una demostración rápida de cómo liberar L. MAT. y las líneas de fó
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Liberar la LM y las líneas de fórmula mediante un trabajo por lotes
 
-El trabajo por lotes **Liberación automática de la LM y líneas de fórmula** pasa por la LM seleccionada y las líneas de fórmula que tengan una cantidad restante para liberar. El trabajo sólo tiene en cuenta pedidos que tengan un estado **Liberado**, **Iniciado**, o **Notificado como terminado**. Si la lista de materiales o una línea de fórmula tiene una cantidad restante que se deba liberar, el trabajo libera hasta la cantidad que se pueda cubrir con la cantidad que ya se haya reservado físicamente y la cantidad que esté físicamente disponible.
+El trabajo por lotes **Liberación automática de la LM y líneas de fórmula** pasa por la LM seleccionada y las líneas de fórmula que tengan una cantidad restante para liberar. El trabajo sólo tiene en cuenta pedidos que tengan un estado **Liberado** , **Iniciado** , o **Notificado como terminado**. Si la lista de materiales o una línea de fórmula tiene una cantidad restante que se deba liberar, el trabajo libera hasta la cantidad que se pueda cubrir con la cantidad que ya se haya reservado físicamente y la cantidad que esté físicamente disponible.
 
 ### <a name="example-of-a-batch-job-release"></a>Ejemplo de liberación de un trabajo por lotes
 
@@ -68,7 +68,7 @@ La ilustración siguiente muestra unpedido de producción que tiene dos trabajos
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>La liberación de material por el número de operación o en proporción al importe de producto terminado
 
-Si se libera el material usando el valor del parámetro **En la liberación del pedido de producción**, al hacer un liberación manual, tiene dos opciones para controlar el lanzamiento materiales:
+Si se libera el material usando el valor del parámetro **En la liberación del pedido de producción** , al hacer un liberación manual, tiene dos opciones para controlar el lanzamiento materiales:
 
 - Liberación de material por el número de operación.
 - Liberación de material en proporción a la cantidad de producto terminado.
@@ -77,7 +77,7 @@ Si se libera el material usando el valor del parámetro **En la liberación del 
 
 Para controlar las operaciones a las que liberarse el material debe , use la página **Liberar a almacén**.
 
-- Seleccione **Control de producción** \> **Pedidos de producción** \> **Todos los pedidos de producción**, seleccione un pedido de producción y, a continuación, en la pestaña **Almacén** , seleccione **Liberar a almacén**. A continuación use **Desde nº. Oper.** y campos **Hasta nº. Oper.** para especificar el intervalo de números de operación.
+- Seleccione **Control de producción** \> **Pedidos de producción** \> **Todos los pedidos de producción** , seleccione un pedido de producción y, a continuación, en la pestaña **Almacén** , seleccione **Liberar a almacén**. A continuación use **Desde nº. Oper.** y campos **Hasta nº. Oper.** para especificar el intervalo de números de operación.
 
 La ilustración siguiente muestra un pedido de producción que tiene dos operaciones, 10 y 20. En este ejemplo, si se limita la liberación a la operación 10, solo el material M9203 será liberado.
 
@@ -89,11 +89,11 @@ Para ver una demostración rápida de cómo liberar material en proporción al i
 
 Puede liberar la materia prima para una cantidad parcial de producto terminado o en una unidad específica.
 
-- Para liberar materia prima por una cantidad parcial o producto terminado, seleccione **Control de producción** \> **Pedidos de producción** \> **Todos los pedidos de producción**, seleccione un pedido de producción y, a continuación, en la pestaña **Almacén** , seleccione **Liberar a almacén**. A continuación, introduzca una cantidad en el campo **Cantidad**.
+- Para liberar materia prima por una cantidad parcial o producto terminado, seleccione **Control de producción** \> **Pedidos de producción** \> **Todos los pedidos de producción** , seleccione un pedido de producción y, a continuación, en la pestaña **Almacén** , seleccione **Liberar a almacén**. A continuación, introduzca una cantidad en el campo **Cantidad**.
 
     Por ejemplo, un pedido de producción se crea y se programa para 1.000 piezas (uds.). El supervisor de planta planifica la producción de 100 unidades. para el siguiente turno y desea liberar el material sólo para ese turno. En este caso, el supervisor puede utilizar el campo **Cantidad** para liberar el material para las 100 unidades. que está prevista que el siguiente turno.
 
-- Para liberar materia prima en una unidad específica, seleccione **Control de producción** \> **Pedidos de producción** \> **Todos los pedidos de producción**, seleccione un pedido de producción y, a continuación, en la pestaña **Almacén** , seleccione **Liberar a almacén**. A continuación utilice el campo **Unidad** para seleccionar la unidad de producto terminado para liberar el material.
+- Para liberar materia prima en una unidad específica, seleccione **Control de producción** \> **Pedidos de producción** \> **Todos los pedidos de producción** , seleccione un pedido de producción y, a continuación, en la pestaña **Almacén** , seleccione **Liberar a almacén**. A continuación utilice el campo **Unidad** para seleccionar la unidad de producto terminado para liberar el material.
 
     Las unidades que están disponibles se definen en el ID de grupo de secuencia de unidades del producto terminado.
 

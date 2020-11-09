@@ -3,7 +3,7 @@ title: Visión general de los procesos automatizados de facturación de proveedo
 description: Este tema describe la capacidad para automatizar el procesamiento de facturas de su proveedor y los beneficios de utilizar un proceso automatizado.
 author: abruer
 manager: AnnBe
-ms.date: 08/30/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 187b3c4f1a8b2c9ec6df95c19b261756ec4562dc
-ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
+ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3905033"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022505"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Visión general de los procesos automatizados de facturación de proveedores
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema describe la capacidad para automatizar el procesamiento de facturas de su proveedor y los beneficios de utilizar un proceso automatizado. Esta capacidad consta de funciones que están activadas en la gestión de funciones. Estas funciones se aplican solo a las facturas de proveedores, no a las facturas que se procesan a través de la página **Diario de facturas** o **Diario de registro de facturas**.
 

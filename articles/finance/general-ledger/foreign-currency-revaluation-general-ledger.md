@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf61aa839d4d59b2c93eee9931eef0e6c51d4ac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179737"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006222"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Revalorización de divisa extranjera para Contabilidad general
 
@@ -41,15 +41,15 @@ Si ejecuta el proceso de revalorización, el saldo en cada cuenta principal que 
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Preparación para ejecutar una revalorización de divisa extranjera
 Para poder ejecutar el proceso de revalorización, se requiere la siguiente configuración.
 
--   En la página de **Cuenta principal**:
+-   En la página de **Cuenta principal** :
 -   Si la cuenta principal debe revalorizarse en la Contabilidad general, seleccione **Revalorización de divisa extranjera**. Si no debe revalorizarse la cuenta principal (como para las cuentas de clientes y proveedores si se han revalorizado en la contabilidad auxiliar), desactive esta opción.
--   Si la cuenta principal está marcada para su revalorización, especifique el **Tipo de cambio**. Este tipo de cambio se utilizará para revalorizar la cuenta principal. Un campo aparte, **Tipo de cambio para informes financieros**,está disponible para el informe financiero. Los dos campos no se mantienen en sincronización, permitiendo así que se usen distintos tipos de cambio para la revalorización y el informe financiero.
+-   Si la cuenta principal está marcada para su revalorización, especifique el **Tipo de cambio**. Este tipo de cambio se utilizará para revalorizar la cuenta principal. Un campo aparte, **Tipo de cambio para informes financieros** ,está disponible para el informe financiero. Los dos campos no se mantienen en sincronización, permitiendo así que se usen distintos tipos de cambio para la revalorización y el informe financiero.
 
--   En la página **Libro mayor**:
+-   En la página **Libro mayor** :
 -   Especificar **Tipo de cambio**. Si no se define el tipo de cambio en la cuenta principal, se va a utilizar este tipo de cambio durante la revalorización de divisa extranjera.
 -   Especifique las cuentas de ganancias realizadas, pérdida realizada, ganancias no realizadas y pérdida no realizada para la revalorización de divisa. Las cuentas de beneficio realizado y pérdida realizada se usan si al configurar las transacciones de cuentas de clientes y proveedores, y las cuentas de pérdidas y ganancias no realizadas se usan para revalorizar las transacciones abiertas y las cuentas principales de la contabilidad general.
 
--   En la página de **Cuentas de revalorización de divisa**:
+-   En la página de **Cuentas de revalorización de divisa** :
 -   Seleccione diferentes cuentas de revalorización de divisa para cada divisa y empresa. Si no se define ninguna cuenta, se usan las cuentas de la página **Libro mayor**.
 
 ## <a name="process-foreign-currency-revaluation"></a>Procesamiento de la revalorización de divisa extranjera
@@ -76,38 +76,33 @@ Las transacciones de pérdidas/ganancias no realizadas se crean de forma diferen
 
 **Ejemplo** Existen los siguientes saldos para la cuenta principal 110110.
 
-|            |                    |                        |                       |
+| Fecha   | Cuenta contable| Importe de transacción | Importe contable |
 |------------|--------------------|------------------------|-----------------------|
-| **Fecha**   | **Cuenta contable** | **Importe de transacción** | **Importe contable** |
 | 20 de enero | 110110 (Efectivo)      | 500 EUR (Débito)        | 1000 USD (Débito)      |
 
 La cuenta principal se revaloriza el 31 de enero.  Se calcula el beneficio/pérdida no realizado de la siguiente manera.
 
-|                                             |                                            |                                  |                                    |                             |
+| Saldo actual en divisa de transacción | Saldo actual en divisa contable | Tipo de cambio en la revalorización | Nuevo importe de la divisa contable | Pérdidas/ganancias no realizadas    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Saldo actual en divisa de transacción** | **Saldo actual en divisa contable** | **Tipo de cambio en la revalorización** | **Nuevo importe de la divisa contable** | **Pérdidas/ganancias no realizadas**    |
 | 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833,33 EUR (500 x 1,666667)        | 166,67 loss (833,33 – 1000) |
 
 Se creará el asiento contable siguiente.
 
-|            |                          |           |            |
+| Fecha   | Cuenta contable       | Débito | Crédito |
 |------------|--------------------------|-----------|------------|
-| **Fecha**   | **Cuenta contable**       | **Débito** | **Crédito** |
 | 31 de enero | 110110 (Efectivo)            |           | 166.67     |
 | 31 de enero | 801400 (Pérdida no realizada) | 166.67    |            |
 
 No se registran nuevas transacciones para el mes de febrero.  La cuenta principal se revaloriza el 28 de febrero.
 
-|                                             |                                            |                                  |                                    |                             |
+| Saldo actual en divisa de transacción | Saldo actual en divisa contable | Tipo de cambio en la revalorización | Nuevo importe de la divisa contable | Pérdidas/ganancias no realizadas    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Saldo actual en divisa de transacción** | **Saldo actual en divisa contable** | **Tipo de cambio en la revalorización** | **Nuevo importe de la divisa contable** | **Pérdidas/ganancias no realizadas**    |
 | 500 EUR                                     | 833,33 USD (1000 - 166,67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | Ganancias de 416,67 (1250 – 833,33) |
 
 Se creará el asiento contable siguiente.
 
-|             |                          |           |            |
+| Fecha    | Cuenta contable       | Débito | Crédito |
 |-------------|--------------------------|-----------|------------|
-| **Fecha**    | **Cuenta contable**       | **Débito** | **Crédito** |
 | 28 de febrero | 110110 (Efectivo)            | 416.67    |            |
 | 28 de febrero | 801600 (Ganancias no realizadas) |           | 416.67     |
 

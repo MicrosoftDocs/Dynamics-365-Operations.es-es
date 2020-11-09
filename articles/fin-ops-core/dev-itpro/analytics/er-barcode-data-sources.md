@@ -3,7 +3,7 @@ title: Usar fuentes de datos de código de barras para generar imágenes de cód
 description: Este tema explica cómo usar las fuentes de datos de código de barras para generar imágenes de código de barras.
 author: NickSelin
 manager: AnnBe
-ms.date: 06/05/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: fdb70c7e72647de4c6cd977b286c19c906559438
-ms.sourcegitcommit: a56b22729fbbb941471e927e2f932acaf624cf5e
+ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
+ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435474"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088206"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Usar fuentes de datos de código de barras para generar imágenes de código de barras
 
@@ -43,7 +43,7 @@ Los siguientes marcadores de posición pueden usarse en plantillas de informes p
 - [Imagen](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word), control de contenido para Word
 - [Imagen](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344), objeto en Excel
 
-Mediante el uso de un origen de datos del tipo **Código de barras**, puede generar códigos de barras en los siguientes formatos:
+Mediante el uso de un origen de datos del tipo **Código de barras** , puede generar códigos de barras en los siguientes formatos:
 
 - Códigos de barras unidimensionales:
 
@@ -54,28 +54,29 @@ Mediante el uso de un origen de datos del tipo **Código de barras**, puede gene
     - EAN-8
     - EAN-13
     - ITF-14
+    - Intelligent Mail
+    - MSI
+    - Plessey
     - PDF417
     - UPC-A
     - UPC-E
-    - MSI
-    - Plessey
 
 - Códigos de barras bidimensionales:
 
     - Aztec
-    - DataMatrix
+    - Data Matrix
     - Código QR
 
-Cuando configura un origen de datos de **Código de barras**, puede definir parámetros de representación específicos que se utilizan para generar una imagen:
+Cuando configura un origen de datos de **Código de barras** , puede definir parámetros de representación específicos que se utilizan para generar una imagen:
 
-- **Ancho**: especifique el ancho del código de barras en píxeles. Un valor de **0** (cero) indica que se utiliza el ancho predeterminado. El significado puede variar para diferentes formatos.
-- **Alto**: especifique el alto del código de barras en píxeles. Un valor de **0** (cero) indica que se utiliza el alto predeterminado. El significado puede variar para diferentes formatos.
-- **Margen**: especifique el tamaño del margen del código de barras en píxeles. El margen es el área a cada lado de un código de barras que debe mantenerse libre (zona silenciosa). Un valor de **0** (cero) indica que se utiliza el margen predeterminado. El significado puede variar para diferentes formatos.
-- **Contenido de salida**: establezca el valor en **Sí** para generar una imagen de código de barras que contiene la información codificada como texto. El valor predeterminado es **No**.
-- **Codificación**: especifique el tipo de caracteres que están codificados en la imagen de código de barras generada. De forma predeterminada, se usa la codificación **UTF-8**.
+- **Ancho** : especifique el ancho del código de barras en píxeles. Un valor de **0** (cero) indica que se utiliza el ancho predeterminado. El significado puede variar para diferentes formatos.
+- **Alto** : especifique el alto del código de barras en píxeles. Un valor de **0** (cero) indica que se utiliza el alto predeterminado. El significado puede variar para diferentes formatos.
+- **Margen** : especifique el tamaño del margen del código de barras en píxeles. El margen es el área a cada lado de un código de barras que debe mantenerse libre (zona silenciosa). Un valor de **0** (cero) indica que se utiliza el margen predeterminado. El significado puede variar para diferentes formatos.
+- **Contenido de salida** : establezca el valor en **Sí** para generar una imagen de código de barras que contiene la información codificada como texto. El valor predeterminado es **No**.
+- **Codificación** : especifique el tipo de caracteres que están codificados en la imagen de código de barras generada. De forma predeterminada, se usa la codificación **UTF-8**.
 
 > [!IMPORTANT]
-> Cuando agrega un nuevo origen de datos de **Código de barras**, debe colocarlo debajo de otro elemento (contenedor) como un elemento anidado.
+> Cuando agrega un nuevo origen de datos de **Código de barras** , debe colocarlo debajo de otro elemento (contenedor) como un elemento anidado.
 >
 > Cuando vincula un origen de datos de **Código de barras** a un elemento de celda en un formato, y el elemento de celda representa un control de contenido de Word o una imagen de Excel, el origen de datos se presenta en ese vínculo como una función que tiene un único parámetro de tipo **Cadena**. Debe usar este parámetro para especificar el texto que debe transformarse en una imagen de código de barras y leerse cuando se escanea un código de barras generado.
 
@@ -130,23 +131,23 @@ Adicionalmente, descargue el siguiente archivo de Excel que contiene la plantill
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Activar un proveedor de configuración
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el [proveedor de la configuración](general-electronic-reporting.md#Provider) para la empresa de ejemplo **Litware, Inc.** y que se ha marcado como activo. Si no aparece en la lista o si no está marcado como activo, siga los pasos de [Crear un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. En la página **Configuraciones de localización** , en la sección **Proveedores de configuración** , compruebe que aparece el [proveedor de la configuración](general-electronic-reporting.md#Provider) para la empresa de ejemplo **Litware, Inc.** y que se ha marcado como activo. Si no aparece en la lista o si no está marcado como activo, siga los pasos de [Crear un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Establecer la empresa de ejemplo como activa en la página Configuraciones de localización](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Importar la solución de ER proporcionada
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Configuraciones**, seleccione el icono **Configuraciones de informes**.
-3. En la página **Configuraciones**, si la configuración **Modelo para cheques** no está disponible en el árbol de configuración, siga estos pasos para importar la configuración del modelo de datos ER:
+2. En la página **Configuraciones de localización** , en la sección **Configuraciones** , seleccione el icono **Configuraciones de informes**.
+3. En la página **Configuraciones** , si la configuración **Modelo para cheques** no está disponible en el árbol de configuración, siga estos pasos para importar la configuración del modelo de datos ER:
 
     1. En el panel Acción, seleccione **Exchange** \> **Cargar del archivo XML**.
-    2. En el cuadro de diálogo, seleccione **Examinar**, encuentre y seleccione el archivo **Model for cheques.xml** y luego seleccione **Aceptar**.
+    2. En el cuadro de diálogo, seleccione **Examinar** , encuentre y seleccione el archivo **Model for cheques.xml** y luego seleccione **Aceptar**.
 
 4. Si la configuración **Formato de impresión de cheques** no está disponible en el árbol de configuración, siga estos pasos para importar la configuración del modelo de datos ER:
 
     1. En el panel Acción, seleccione **Exchange** \> **Cargar del archivo XML**.
-    2. En el cuadro de diálogo, seleccione **Examinar**, encuentre y seleccione el archivo **Cheques printing format.xml** y luego seleccione **Aceptar**.
+    2. En el cuadro de diálogo, seleccione **Examinar** , encuentre y seleccione el archivo **Cheques printing format.xml** y luego seleccione **Aceptar**.
 
 5. En el árbol de configuración, expanda **Modelo para cheques**.
 6. Revise la lista de configuraciones de ER importadas en el árbol de configuración.
@@ -154,11 +155,11 @@ Adicionalmente, descargue el siguiente archivo de Excel que contiene la plantill
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque"></a>Generar un cheque de pago
 
 1. Vaya a **Gestión de efectivo y de banco** \> **Cuentas bancarias** \> **Cuentas bancarias**.
-2. En la página **Cuentas bancarias**, seleccione la cuenta **USMF OPER**.
-3. En la página detalles de la cuenta bancaria, en el panel de acciones, en la pestaña **Configurar**, en el grupo **Diseño**, seleccione **Comprobar**.
-4. En la página **Comprobar diseño**, seleccione **Editar**.
-5. En la ficha desplegable **General**, establezca la opción **Formato de exportación electrónica genérica** en **Sí**.
-6. En el campo **Configuración de formato de exportación**, seleccione el formato de ER **Formato de impresión de cheques** que importó anteriormente.
+2. En la página **Cuentas bancarias** , seleccione la cuenta **USMF OPER**.
+3. En la página detalles de la cuenta bancaria, en el panel de acciones, en la pestaña **Configurar** , en el grupo **Diseño** , seleccione **Comprobar**.
+4. En la página **Comprobar diseño** , seleccione **Editar**.
+5. En la ficha desplegable **General** , establezca la opción **Formato de exportación electrónica genérica** en **Sí**.
+6. En el campo **Configuración de formato de exportación** , seleccione el formato de ER **Formato de impresión de cheques** que importó anteriormente.
 7. En el panel de acciones, seleccione **Imprimir prueba**.
 8. En el cuadro de diálogo, establezca la opción **Formato de cheque negociable** en **Sí** y luego seleccione **Aceptar**.
 
@@ -182,8 +183,8 @@ Puede usar la aplicación de escritorio de Excel para abrir el archivo **Cheque 
 Ahora debe modificar la solución ER y luego [aplicar de nuevo](modify-electronic-reporting-format-reapply-excel-template.md) la plantilla modificada.
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Configuraciones**, seleccione **Configuraciones de informes**.
-3. En la página **Configuraciones**, en el árbol de configuración, expanda **Modelo para cheques** y seleccione **Formato de impresión de cheques**.
+2. En la página **Configuraciones de localización** , en la sección **Configuraciones** , seleccione **Configuraciones de informes**.
+3. En la página **Configuraciones** , en el árbol de configuración, expanda **Modelo para cheques** y seleccione **Formato de impresión de cheques**.
 4. En el panel de acciones, haga clic en **Diseñador**.
 5. En el diseñador de operaciones de ER, seleccione la pestaña **Asignación** en el lado derecho de la página, y luego, en el panel del árbol de formato a la izquierda, seleccione **Expandir/contraer**.
 6. Tenga en cuenta que todos los elementos de formato de celda están vinculados a las fuentes de datos apropiadas.
@@ -191,8 +192,8 @@ Ahora debe modificar la solución ER y luego [aplicar de nuevo](modify-electroni
     ![Vincular elementos de formato de celda a orígenes de datos en el diseñador de operaciones de ER](./media/er-barcode-data-source-cells-bound.png)
 
 7. Seleccione la pestaña **Formato** en el lado derecho de la página.
-8. En el Panel de acciones, seleccione los puntos suspensivos (**...**) y luego seleccione **Importar**.
-9. En el grupo **Importar**, seleccione **Actualizar desde Excel** y luego seleccione **Actualizar plantilla**.
+8. En el Panel de acciones, seleccione los puntos suspensivos ( **...** ) y luego seleccione **Importar**.
+9. En el grupo **Importar** , seleccione **Actualizar desde Excel** y luego seleccione **Actualizar plantilla**.
 10. En el cuadro de diálogo, busque el archivo **Cheque template Excel.xlsx** que está guardado en su computadora, selecciónelo y luego seleccione **Aceptar** para confirmar que se debe aplicar la plantilla seleccionada.
 11. Seleccione la pestaña **Asignación** en el lado derecho de la página, y luego, en el panel del árbol de formato a la izquierda, seleccione **Expandir/contraer**.
 12. Tenga en cuenta que el elemento de celda **AmountBarcode** se ha agregado al formato. Este elemento está asociado con el elemento **AmountBarcode** que se ha agregado a la plantilla de Excel modificada como marcador de posición para una imagen de código de barras.
@@ -204,13 +205,13 @@ Ahora debe modificar la solución ER y luego [aplicar de nuevo](modify-electroni
 A continuación, debe agregar un nuevo origen de datos de tipo **Código de barras**.
 
 1. En el diseñador de operaciones de ER, en la pestaña **Asignación** en el lado derecho de la página, seleccione el origen de datos **imprimir**.
-2. Seleccione **Añadir**, y luego, en el grupo **Funciones**, seleccione el tipo de origen de datos **Código de barras**.
+2. Seleccione **Añadir** , y luego, en el grupo **Funciones** , seleccione el tipo de origen de datos **Código de barras**.
 
     ![Seleccionar el tipo de origen de datos código de barras](./media/er-barcode-data-source-add.png)
 
-3. En el cuadro de diálogo desplegable, en el campo **Nombre**, escriba **código de barras**.
-4. En **Formato del código de barras**, seleccione **Código 128**.
-5. En el campo **Ancho**, especifique **500**.
+3. En el cuadro de diálogo desplegable, en el campo **Nombre** , escriba **código de barras**.
+4. En **Formato del código de barras** , seleccione **Código 128**.
+5. En el campo **Ancho** , especifique **500**.
 6. Seleccione **Aceptar**.
 
     ![Cuadro de diálogo Propiedades del origen de datos](./media/er-barcode-data-source-add2.png)
@@ -228,9 +229,9 @@ A continuación, debe vincular el nuevo elemento de formato al origen de datos q
 
 5. Seleccione **Editar fórmula** para ajustar el enlace.
 
-    No quiere que se devuelva el nombre del elemento de celda. Por lo tanto, debe configurar una expresión que devuelva texto que contenga la cantidad a pagar del cheque actual. Dado que el rango **ChequeLines** principal está vinculado al origen de datos **model.cheques**, el importe a pagar del cheque actual está disponible en el campo **model.cheques.attributes.amount** del tipo de datos **Real**.
+    No quiere que se devuelva el nombre del elemento de celda. Por lo tanto, debe configurar una expresión que devuelva texto que contenga la cantidad a pagar del cheque actual. Dado que el rango **ChequeLines** principal está vinculado al origen de datos **model.cheques** , el importe a pagar del cheque actual está disponible en el campo **model.cheques.attributes.amount** del tipo de datos **Real**.
 
-6. En el campo **Fórmula**, especifique **print.barcode(NUMBERFORMAT(@.attributes.amount, "F2"))**.
+6. En el campo **Fórmula** , especifique **print.barcode(NUMBERFORMAT(@.attributes.amount, "F2"))**.
 7. Seleccione **Guardar** y, después, cierre el [diseñador de fórmulas ER](general-electronic-reporting-formula-designer.md).
 8. Tenga en cuenta que el enlace se ha ajustado.
 
@@ -249,9 +250,9 @@ Si desea continuar trabajando con la versión borrador actual, pero tiene que us
 ##### <a name="complete-the-modified-format-version"></a><a name="CompleteToRun"></a>Completar la versión del formato modificado
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Configuraciones**, seleccione **Configuraciones de informes**.
-3. En la página **Configuraciones**, en el árbol de configuración, expanda **Modelo para cheques** y seleccione **Formato de impresión de cheques**.
-4. En la ficha desplegable **Versiones**, seleccione el registro que tenga un estado de **Borrador**.
+2. En la página **Configuraciones de localización** , en la sección **Configuraciones** , seleccione **Configuraciones de informes**.
+3. En la página **Configuraciones** , en el árbol de configuración, expanda **Modelo para cheques** y seleccione **Formato de impresión de cheques**.
+4. En la ficha desplegable **Versiones** , seleccione el registro que tenga un estado de **Borrador**.
 5. Seleccione **Cambiar Estado** y luego seleccione **Completar**.
 6. En el cuadro de diálogo, seleccione **Aceptar**.
 
@@ -260,8 +261,8 @@ El estado de la versión actual cambia de **Borrador** a **Completado** y se cre
 ##### <a name="make-the-draft-version-available-for-use"></a><a name="MarkToRun"></a>Hacer que la versión borrador esté disponible para su uso
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Configuraciones**, seleccione **Configuraciones de informes**.
-3. En la página **Configuraciones**, en el panel de acciones, en la pestaña **Configuraciones**, en el grupo **Configuración avanzada**, seleccione **Parámetros de usuario**.
+2. En la página **Configuraciones de localización** , en la sección **Configuraciones** , seleccione **Configuraciones de informes**.
+3. En la página **Configuraciones** , en el panel de acciones, en la pestaña **Configuraciones** , en el grupo **Configuración avanzada** , seleccione **Parámetros de usuario**.
 4. En el cuadro de diálogo, establezca las opciones **Ejecutar configuración** en **Sí** y luego seleccione **Aceptar**.
 5. En el árbol de configuración, expanda **Modelo para cheques** y seleccione **Formato de impresión de cheques**.
 6. Establezca la opción **Ejecutar borrador** en **Sí**.
@@ -272,9 +273,9 @@ La versión borrador del formato seleccionado se marca como disponible para su u
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque2"></a>Generar un cheque de pago
 
 1. Vaya a **Gestión de efectivo y de banco** \> **Cuentas bancarias** \> **Cuentas bancarias**.
-2. En la página **Cuentas bancarias**, seleccione la cuenta **USMF OPER**.
-3. En la página detalles de la cuenta bancaria, en el panel de acciones, en la pestaña **Configurar**, en el grupo **Diseño**, seleccione **Comprobar**.
-4. En la página **Comprobar diseño**, en el panel de acciones, seleccione **Prueba de impresión**.
+2. En la página **Cuentas bancarias** , seleccione la cuenta **USMF OPER**.
+3. En la página detalles de la cuenta bancaria, en el panel de acciones, en la pestaña **Configurar** , en el grupo **Diseño** , seleccione **Comprobar**.
+4. En la página **Comprobar diseño** , en el panel de acciones, seleccione **Prueba de impresión**.
 5. En el cuadro de diálogo, establezca la opción **Formato de cheque negociable** en **Sí**.
 6. Seleccione **Aceptar**.
 7. Revise el cheque generado. Observe que se ha generado un código de barras para codificar el importe a pagar del cheque.

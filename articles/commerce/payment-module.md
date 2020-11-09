@@ -3,7 +3,7 @@ title: Módulo de pago
 description: En este tema se trata el modulo de pago y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4267391edaf70ec645933b2c5c08a72735f52894
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 894ac35973927c193d6e9c54e326daefb8a3f4a5
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818335"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055390"
 ---
 # <a name="payment-module"></a>Módulo de pago
 
@@ -42,6 +42,9 @@ El módulo de pago cubre cualquier gasto de pedido que aún no esté cubierto po
 
 El conector de pago de Adyen también admite la autenticación segura de clientes (SCA). Parte de la Directiva de servicios de pago 2.0 (PSD2.0) de la Unión Europea (UE) requiere que los compradores en línea estén autenticados fuera de su experiencia de compra en línea cuando utilicen un método de pago electrónico. Durante el flujo de finalización de compra, se redirige a los clientes a su sitio bancario. Una vez autenticados, se les redirige al flujo de finalización de compra de Commerce. Durante esta redirección, la información introducida por un en el flujo de finalización de compra (por ejemplo, la dirección de envío, las opciones de entrega, la información de la tarjeta regalo y la información de puntos de fidelidad) persistirá. Para poder activar esta característica, el conector de pago debe configurarse para SCA en la sede de Commerce. Para obtener más información, consulte [Autenticación segura de clientes mediante Adyen](adyen_redirect.md).
 
+> [!NOTE]
+> Para el conector de pago de Adyen, el módulo iframe del módulo de pago solo se puede procesar si agrega la URL de Adyen a la lista de permitidos del sitio. Para completar este paso, agregue **\*.adyen.com** a las directivas **child-src** , **connect-src** , **img-src** , **script-src** y **style-src** de la directiva de seguridad del contenido del sitio. Para obtener más información, consulte [Administrar la directiva de seguridad de contenido](manage-csp.md). 
+
 La siguiente ilustración muestra un ejemplo de módulos de tarjeta regalo, puntos de fidelidad y pago en una página de finalización de compra.
 
 ![Ejemplo de módulos de tarjeta regalo, puntos de fidelidad y pago en una página de finalización de compra.](./media/ecommerce-payments.PNG)
@@ -52,12 +55,12 @@ La siguiente ilustración muestra un ejemplo de módulos de tarjeta regalo, punt
 |---------------|--------|-------------|
 | Cabecera | Texto del encabezado | Un encabezado opcional para el módulo de pago. |
 | Altura del iframe | Píxeles | La altura del iframe, en píxeles. La altura se puede ajustar según sea necesario. |
-| Mostrar dirección de facturación | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero**, Adyen proporcionará la dirección de facturación dentro del iframe del módulo de pago. Si se configura en **Falso**, Adyen no proporcionará la dirección de facturación y un usuario de Commerce tendrá que configurar un módulo para mostrar la dirección de facturación en la página de finalización de compra. |
+| Mostrar dirección de facturación | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero** , Adyen proporcionará la dirección de facturación dentro del iframe del módulo de pago. Si se configura en **Falso** , Adyen no proporcionará la dirección de facturación y un usuario de Commerce tendrá que configurar un módulo para mostrar la dirección de facturación en la página de finalización de compra. |
 | Anulación de estilo de pago | Código de hojas de estilo en cascada (CSS) | Como el módulo de pago está alojado en un iframe, la capacidad de estilos es limitada. Puede lograr aplicar estilos con esta propiedad. Para reemplazar los estilos del sitio, debe pegar el código CSS como valor de esta propiedad. Los estilos y reemplazos de CSS del generador de sitios no se aplican a este módulo. |
 
 ## <a name="billing-address"></a>Dirección de facturación
 
-El módulo de pago permite a los clientes proporcionar una dirección de facturación para su información de pago. También les permite usar su dirección de envío como dirección de facturación, para que el proceso de finalización de compra sea más fácil y rápido. Si la propiedad **Mostrar dirección de facturación** está establecida en **Falso**, el módulo de pago debe configurarse en la página de finalización de compra.
+El módulo de pago permite a los clientes proporcionar una dirección de facturación para su información de pago. También les permite usar su dirección de envío como dirección de facturación, para que el proceso de finalización de compra sea más fácil y rápido. Si la propiedad **Mostrar dirección de facturación** está establecida en **Falso** , el módulo de pago debe configurarse en la página de finalización de compra.
 
 ## <a name="add-a-payment-module-to-a-checkout-page-and-set-the-required-properties"></a>Agregar un módulo de pago a una página de finalización de compra y establecer las propiedades necesarias
 

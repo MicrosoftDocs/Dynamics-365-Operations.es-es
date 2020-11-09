@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 37d0841b656153255b9230a60229d30064b81fbe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212627"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016594"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidad sobre excepciones de material
 
 [!include [banner](../includes/banner.md)]
 
-En el espacio de trabajo **Gestión de planta de producción**, tres mosaicos proporcionan una mejor visibilidad en las excepciones para las materias primas para los pedidos de producción y los pedidos por lote:
+En el espacio de trabajo **Gestión de planta de producción** , tres mosaicos proporcionan una mejor visibilidad en las excepciones para las materias primas para los pedidos de producción y los pedidos por lote:
 
 - Líneas de material sin liberar que requieren atención
 - Oleadas sin procesar que requieren atención
 - Abrir trabajo de almacén que requiere atención
 
-Para los tres mosaicos, la fecha de materias primas de las líneas de la lista de materiales (LM) y las líneas de fórmula se compara con la fecha del espacio de trabajo y también con los filtros para **Unidad de producción**, **Grupo de recursos**y **Recurso**, que se establecen en el menú **Configurar el espacio de trabajo**. De forma predeterminada, la fecha del espacio de trabajo está establecida en la fecha actual, pero se puede ajustar.
+Para los tres mosaicos, la fecha de materias primas de las líneas de la lista de materiales (LM) y las líneas de fórmula se compara con la fecha del espacio de trabajo y también con los filtros para **Unidad de producción** , **Grupo de recursos** y **Recurso** , que se establecen en el menú **Configurar el espacio de trabajo**. De forma predeterminada, la fecha del espacio de trabajo está establecida en la fecha actual, pero se puede ajustar.
 
 Una línea inédita de LM o una línea de fórmula requiere atención si la fecha de las materias primas de la línea es igual o anterior a la fecha del área de trabajo y si cumple con los criterios definidos por los filtros en el área de trabajo.
 
@@ -60,10 +60,10 @@ Al seleccionar el mosaico, se abre la página **Liberar a almacenar**. Esta pág
 
 Cuando se libere una LM o una línea de fórmula, se agrega a una nueva oleada de la producción o a una oleada abierta existente, en función de la configuración de la plantilla de la oleada de la producción. Mediante la configuración de la plantilla de la oleada también puede configurar una oleada para procesarla automáticamente cuando se libera una LM o una línea de fórmula. Cuando se procesa la oleada, el trabajo del almacén para el picking de materia prima se genera. Si la plantilla de la oleada se configura para que las oleadas no estén procesadas en el momento de liberación, la oleada se queda en un estado sin procesar. El mosaico **Oleadas sin procesar que necesiten asistencia** muestra el número de LM y las líneas de fórmula que se han liberado al almacén en oleadas sin procesar y que tienen una fecha de la materia prima que es anterior o igual a la fecha del espacio de trabajo. Las líneas también se deben consumir por un recurso de operaciones que aplique al filtro del espacio de trabajo.
 
-Cuando se selecciona el mosaico, se abre la página **Todas las oleadas de la producción**. Esta página se filtra en función del número de oleadas abiertas que contengan las líneas de la oleada de la LM liberada y las líneas de fórmula que cumplan los criterios para el mosaico. En la página **Todas las oleadas de la producción**, puede procesar manualmente la oleada.
+Cuando se selecciona el mosaico, se abre la página **Todas las oleadas de la producción**. Esta página se filtra en función del número de oleadas abiertas que contengan las líneas de la oleada de la LM liberada y las líneas de fórmula que cumplan los criterios para el mosaico. En la página **Todas las oleadas de la producción** , puede procesar manualmente la oleada.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Abrir trabajo de almacén que requiere atención
 
 El mosaico **Trabajo de almacén abierto que necesiten asistencia** muestra el número de LM y las líneas de fórmula que se han liberado al almacén, que tienen oleadas sin procesar y que tienen una fecha de la materia prima que es anterior o igual a la fecha del espacio de trabajo. Las líneas también se deben consumir por un recurso de operaciones que aplique al filtro del espacio de trabajo.
 
-Cuando se selecciona el mosaico, se abre la página **Todos los trabajos**. Esta página se filtra en función del número de encabezados de trabajo abiertos que contengan las líneas de la LM liberada y las líneas de fórmula que cumplan los criterios para el mosaico. En la página **Todos los trabajos**, puede procesar manualmente el trabajo.
+Cuando se selecciona el mosaico, se abre la página **Todos los trabajos**. Esta página se filtra en función del número de encabezados de trabajo abiertos que contengan las líneas de la LM liberada y las líneas de fórmula que cumplan los criterios para el mosaico. En la página **Todos los trabajos** , puede procesar manualmente el trabajo.

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 5dbc856f21b6398109ab1ac4da409252050385df
+ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071599"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4011588"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opciones de formato avanzadas en informes financieros
 
 [!include [banner](../includes/banner.md)]
 
-Al crear un informe en informes financieros, las funciones adicionales de formato están disponibles, incluidos los filtros para dimensiones, las restricciones de columnas y las unidades de informes, las filas sin impresión y las instrucciones IF/THEN/ELSE en los cálculos. 
+Al crear un informe en informes financieros, las funciones adicionales de formato están disponibles, incluidos los filtros para dimensiones, las restricciones de columnas y las unidades de informes, las filas sin impresión y las instrucciones IF/THEN/ELSE en los cálculos.
 
 La siguiente tabla explica las funciones avanzadas del formato que están disponibles cuando se diseñan informes.
 
@@ -44,7 +44,8 @@ La siguiente tabla explica las funciones avanzadas del formato que están dispon
 | Use apóstrofes (' ') y una Y comercial (&) para los valores de dimensión | Puede usar valores de dimensión, incluido el carácter de la Y comercial para el diseño de informe. |
 
 ## <a name="advanced-cell-placement"></a>Colocación de celda avanzada
-La posición de celda avanzada, o *forzar*, implica la posición de valores específicos en las celdas específicas. Por ejemplo, forzar se usa a menudo para mover los saldos correctos en un extracto de flujo de efectivo. Puede utilizar forzar para lo siguiente:
+
+La posición de celda avanzada, o *forzar* , implica la posición de valores específicos en las celdas específicas. Por ejemplo, forzar se usa a menudo para mover los saldos correctos en un extracto de flujo de efectivo. Puede utilizar forzar para lo siguiente:
 
 - Mover valores de Microsoft Excel a celdas específicas.
 - Codificar en duro valores específicos en un informe.
@@ -52,11 +53,12 @@ La posición de celda avanzada, o *forzar*, implica la posición de valores espe
 
 > [!NOTE]
 > En muchos casos, debe configurar su definición del informe para realizar cálculos de la columna antes de cálculos de la fila. Para completar esta configuración, siga estos pasos.
-> 
+>
 > 1. En el diseñador de informes, abra la definición del informe para modificarla..
-> 2. En la pestaña **Configuración**, en **Prioridad de cálculo**, seleccione **Realizar el cálculo de la columna primero y a continuación la fila**.
+> 2. En la pestaña **Configuración** , en **Prioridad de cálculo** , seleccione **Realizar el cálculo de la columna primero y a continuación la fila**.
 
 ## <a name="designing-the-report"></a>Diseño del informe
+
 Cuando se diseña un informe, debe crear todas las filas de detalle primero para asegurarse de que los valores están tirados según lo previsto. A continuación agregue anulaciones del formato **NP** (sin impresión) para eliminar el detalle que incluye los valores finales.
 
 > [!IMPORTANT]
@@ -65,6 +67,7 @@ Cuando se diseña un informe, debe crear todas las filas de detalle primero para
 Para forzar, las fórmulas usan el formato siguiente: &lt;columna de destino&gt;=&lt;columna originaria&gt;.&lt;código de la fila&gt; Separe cualquier colocación adicional para una fila mediante una coma y un espacio. Aquí se encuentra un ejemplo: D=C.190, E=C.100
 
 ## <a name="examples-of-advanced-formatting-options"></a>Ejemplos de opciones de formato avanzadas
+
 Los siguientes ejemplos muestran cómo dar formato a la definición de filas y la definición de columnas para forzar un informe básico de flujo de efectivo (ejemplo 1) y un informe estadístico (ejemplo 2).
 
 ### <a name="example-1-basic-forcing"></a>Ejemplo 1: forzar básico
@@ -78,17 +81,17 @@ En la tabla siguiente se muestra un ejemplo de una definición de fila que usa f
 | 160      |                                  |             |                             |                            |                              |
 | 190      |                                  |             |                             |                            |                              |
 
-> [!NOTE] 
+> [!NOTE]
 > Las columnas vacías se quitarán de la tabla anterior debido a fines de presentación: no se mostrarán las columnas Reemplazar formato, Saldo normal, Control de impresión y Restricción de columna.
 
 En la tabla siguiente se muestra un ejemplo de una definición de columna que usa forzado en la fila.
 
-|                              | A   | mil millones    | C        | D      | E      | F    |
+|           Formato             | C   | mil millones    | C        | B      | E      | V    |
 |------------------------------|-----|------|----------|--------|--------|------|
 | Encabezado 1                     |     |      |          |        |        |      |
-| Encabezado 2                     | A   | mil millones    | C        | D      | E      | F    |
+| Encabezado 2                     | C   | mil millones    | C        | B      | E      | V    |
 | Encabezado 3                     |     |      |          |        |        |      |
-| Tipo de columna                  | FILA | DESC | FD       | FD     | FD     | CALC |
+| Tipo de columna                  | FIL | DESC | FD       | FD     | FD     | CALC |
 | Código de libro/Categoría de atributo |     |      | REAL   | REAL | REAL |      |
 | Ejercicio                  |     |      | BASE     | BASE   | BASE   |      |
 | Periodo                       |     |      | BASE     | BASE   | BASE   |      |
@@ -113,14 +116,14 @@ En la tabla siguiente se muestra un ejemplo de una definición de fila que usa f
 | 310      | Ventas de Estados Unidos                  | CAL         | D=C.190,E=C.100,F=(C.100/C.190) |                      |                |                                            |
 | 340      | Ventas internacionales       | CAL         | D=C.220,E=C115,F=(C.220/C.115)  |                      |                |                                            |
 
-> [!NOTE] 
+> [!NOTE]
 > Las columnas vacías se quitarán de la tabla anterior debido a fines de presentación: no se mostrarán las columnas Control de impresión, Restricción de columna y Modificador de fila.
 
 En la tabla siguiente se muestra un ejemplo de una definición de columna que usa forzado para un informe estadístico.
 
-|                              | A   | mil millones    | C      | D            | E     | F            |
+|    Formato                    | C   | mil millones    | C      | B            | E     | V            |
 |------------------------------|-----|------|--------|--------------|-------|--------------|
-| Encabezado 1                     | A   | mil millones    | C      | D            | E     | F            |
+| Encabezado 1                     | C   | mil millones    | C      | B            | E     | V            |
 | Encabezado 2                     | -   | -    | Año hasta la fecha    | Ventas anuales | Personal | $ por persona |
 | Encabezado 3                     |     |      |        |              |       |              |
 | Tipo de columna                  | FILA | DESC | FD     | CALC         | CALC  | CALC         |
@@ -132,6 +135,7 @@ En la tabla siguiente se muestra un ejemplo de una definición de columna que us
 | Ancho de columna                 | 5   | 30   | 14     | 14           | 14    | 14           |
 
 ## <a name="restricting-a-row-to-a-specific-reporting-unit"></a>Limitar una fila a una unidad de notificación específica
+
 Cuando una fila del informe se limita a una unidad de notificación específica, dicha fila muestra los datos vinculados únicamente para la unidad de notificación denominada y se omiten los datos para otras unidades de notificación en el organigrama. Por ejemplo, puede crear una fila que proporciona los detalles de los gastos de operaciones totales de un departamento específico. Su informe puede contener datos duplicados si el informe contiene un organigrama y una definición de fila que tiene más que sólo la cuenta natural. Por ejemplo, tiene un organigrama que enumera los seis departamentos de su organización, y también tiene una definición de fila que enumera una combinación específica de una cuenta y un departamento en la fila. Cuando se genera el informe, la combinación específica de una cuenta y de un departamento se imprimen en cada nivel del organigrama, aunque dicho departamento puede no coincidir con la cantidad que se encuentra en el organigrama. Este comportamiento ocurre porque la fila reemplaza lo que se filtra normalmente por la definición del informe. Una manera de evitar la duplicación de datos es restringir una fila a una unidad de notificación específica.
 
 > [!NOTE]
@@ -141,18 +145,19 @@ Cuando una fila del informe se limita a una unidad de notificación específica,
 
 1. En el diseñador del informes, haga clic en **Definiciones de filas** y después seleccione una definición de fila para modificarla.
 2. Haga doble clic en la celda **Fórmulas/Filas/Unidades relacionadas** correspondiente.
-3. En el cuadro de diálogo **Selección de la unidad organizacional**, en el campo **Organigrama**, seleccione un árbol asignado en la definición de informe.
+3. En el cuadro de diálogo **Selección de la unidad organizacional** , en el campo **Organigrama** , seleccione un árbol asignado en la definición de informe.
 4. Seleccione una unidad de notificación y, a continuación, haga clic en **Aceptar**. La restricción aparece en la celda de la definición de filas.
 5. Haga doble clic en la celda en la columna **Vínculo a las dimensiones financieras** de la fila limitada, y especifique un vínculo al conjunto de datos financieros.
 
 ## <a name="selecting-print-control-in-a-row-definition"></a>Selección de control de impresión en una definición de filas
+
 Puede especificar los códigos de control de impresión para cada columna mediante la celda **Control de impresión**.
 
 ### <a name="add-print-control-codes-to-a-report-row"></a>Agregar los códigos de control de impresión a una fila del informe
 
 1. En el diseñador de informes, abra la definición de filas para modificarla.
 2. Haga doble clic en la celda **Control de impresión**.
-3. En el cuadro de diálogo **Control de impresión**, seleccione un código de control de impresión o mantenga presionada la tecla Ctrl para seleccionar varios códigos. También puede escribir los códigos de control de impresión directamente en la celda **Control de impresión**. Use comas para separar varios códigos de control de impresión.
+3. En el cuadro de diálogo **Control de impresión** , seleccione un código de control de impresión o mantenga presionada la tecla Ctrl para seleccionar varios códigos. También puede escribir los códigos de control de impresión directamente en la celda **Control de impresión**. Use comas para separar varios códigos de control de impresión.
 4. Seleccione cualquier opción condicional de impresión.
 5. Haga clic en **Aceptar**.
 
@@ -182,13 +187,15 @@ En la tabla siguiente se describen los códigos de control condicionales de impr
 | CR                 | Impresión solo los saldos de crédito para esta fila. |
 
 ## <a name="column-restriction-cell-in-a-row-definition"></a>Celda de restricción de la columna en una definición de filas
+
 La celda **Restricción de la columna** en una definición de fila tiene varios fines. En función del tipo de fila, puede usar la celda **Restricción de la columna** para especificar una de las funciones siguientes:
 
 - La celda puede limitar la impresión de los importes de la fila en una columna específica. Esta función resulta útil si está creando un balance de situación tabular.
 - La celda puede especificar la columna de importes que hay que ordenar.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Usar una fórmula de cálculo en una definición de filas
-Una fórmula de cálculo en una definición de fila puede incluir los operadores **+**, **-**, **\***, y **/**, y también las expresiones **IF/THEN/ELSE**. Además, un cálculo puede implicar las celdas individuales y los importes absolutos (números reales que se incluyen en la fórmula). La fórmula puede contener hasta 1.024 caracteres. Los cálculos no se pueden aplicar a las filas que contengan las celdas de tipo **Vínculo a las dimensiones financieras** (FD). Sin embargo, puede incluir cálculos de filas consecutivas, eliminar la impresión de dichas filas y calcular el total de las filas de cálculo.
+
+Una fórmula de cálculo en una definición de fila puede incluir los operadores **+** , **-** , **\*** , y **/** , y también las expresiones **IF/THEN/ELSE**. Además, un cálculo puede implicar las celdas individuales y los importes absolutos (números reales que se incluyen en la fórmula). La fórmula puede contener hasta 1.024 caracteres. Los cálculos no se pueden aplicar a las filas que contengan las celdas de tipo **Vínculo a las dimensiones financieras** (FD). Sin embargo, puede incluir cálculos de filas consecutivas, eliminar la impresión de dichas filas y calcular el total de las filas de cálculo.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operadores de una fórmula de cálculo
 
@@ -201,7 +208,7 @@ Una fórmula de cálculo usa operadores más complejos que una fórmula total de
 
 1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. Haga doble clic en la celda **Código de formato** y luego seleccione **CAL**.
-3. En la celda **Fórmulas, filas o unidades relacionadas**, especifique la fórmula de cálculo.
+3. En la celda **Fórmulas, filas o unidades relacionadas** , especifique la fórmula de cálculo.
 
 ### <a name="example-of-a-calculation-formula-for-specific-rows"></a>Ejemplo de una fórmula de cálculo para las filas específicas
 
@@ -213,10 +220,10 @@ En este ejemplo, la fórmula de cálculo **@100+@330** significa que el importe 
 | 370      | Efectivo al inicio del año   | CAL         | @100+@330                  | NI            |              |                              |
 | 400      | Efectivo al inicio del período | TOT         | 340+370                    |               |              |                              |
 
-Cuando la fila en una definición de fila tiene un código de formato **CAL**, y se especifica un cálculo matemático en la celda **Fórmulas o filas o unidades relacionadas**, también debe especificar la letra de la columna y de la fila asociadas en el informe. Por ejemplo, escriba **A.120** para representar columna A, fila 120. Como alternativa, puede usar el signo @ para indicar todas las columnas. Por ejemplo, escriba **@120** para representar todas las columnas de la fila 120. Cualquier cálculo matemático que no tenga una letra de la columna o el signo @ se asume que es un número real.
+Cuando la fila en una definición de fila tiene un código de formato **CAL** , y se especifica un cálculo matemático en la celda **Fórmulas o filas o unidades relacionadas** , también debe especificar la letra de la columna y de la fila asociadas en el informe. Por ejemplo, escriba **A.120** para representar columna A, fila 120. Como alternativa, puede usar el signo @ para indicar todas las columnas. Por ejemplo, escriba **@120** para representar todas las columnas de la fila 120. Cualquier cálculo matemático que no tenga una letra de la columna o el signo @ se asume que es un número real.
 
 > [!NOTE]
-> Si usa un código de filas de la etiqueta para hacer referencia a una fila, debe usar un punto (.) como separador entre la letra de la columna y la etiqueta (por ejemplo, **A.GROSS\_MARGIN/A.SALES**). Si usa el signo arroba (@), el separador no se requiere (por ejemplo, **\@GROSS\_MARGIN/@SALES)**.
+> Si usa un código de filas de la etiqueta para hacer referencia a una fila, debe usar un punto (.) como separador entre la letra de la columna y la etiqueta (por ejemplo, **A.GROSS\_MARGIN/A.SALES** ). Si usa el signo arroba (@), el separador no se requiere (por ejemplo, **\@GROSS\_MARGIN/@SALES)**.
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Ejemplo de una fórmula de cálculo para una columna específica
 
@@ -235,8 +242,8 @@ En este ejemplo, la fórmula de cálculo **E=C.340** significa que el cálculo d
 
 Cuando modifica un número o un cálculo de una columna de una fila en particular pero no desea que afecte a otras columnas en el informe, puede especificar **CAL** (cálculo) en la columna **Código de formato** de la definición de filas.
 
-- Para realizar un cálculo en todas las columnas del informe (**FD**), no especifique una asignación de la columna.
-- Para restringir una fórmula a columnas específicas, especifique la letra de la columna, un signo de igual (**=**), y después la fórmula.
+- Para realizar un cálculo en todas las columnas del informe ( **FD** ), no especifique una asignación de la columna.
+- Para restringir una fórmula a columnas específicas, especifique la letra de la columna, un signo de igual ( **=** ), y después la fórmula.
 - Puede especificar varias columnas. Cuando usa el signo @ con la situación específica de la columna, el signo @ está relacionado con la fila.
 - Puede especificar varias fórmulas de la columna en una fila. Escriba las fórumlas separadas por comas.
 
@@ -266,13 +273,13 @@ El término **Períodos** en una expresión **IF** representa el número de per�
 
 La fórmulas **THEN** y **ELSE** pueden ser cualquier cálculo válido, desde asignaciones muy simples de valor a fórmulas complejas. Por ejemplo, la expresión **IF A.200&gt;0 THEN A=B.200** significa "Si el valor de la celda de la columna A, fila 200 es mayor de 0 (cero), poner el valor de la celda en la columna B de la fila 200 en la celda de la columna A de la fila actual”. La expresión anterior **IF/THEN** configura un valor en una columna de la ficha actual. Sin embargo, puede usar el signo @ en evaluaciones de verdadero falso o la fórmula para representar todas las columnas. A continuación se muestran algunos otros ejemplos que se describen en las siguientes secciones:
 
-- **IF A.200 &gt;0 THEN B.200**: Si el valor de la celda A.200 es positivo, el valor de la celda B.200 se pone en todas las columnas de la fila actual.
-- **IF A.200&gt;0 THEN @200**: Si el valor de la celda A.200 es positivo, el valor de la celda B.200 se configura en la correspondiente fila de la fila actual.
-- **IF @200 &gt;0 THEN @200**: Si el valor de la celda 200 de la columna actual es positivo, el valor de la celda 200 se configura en cada columna de la fila actual.
+- **IF A.200 &gt;0 THEN B.200** : Si el valor de la celda A.200 es positivo, el valor de la celda B.200 se pone en todas las columnas de la fila actual.
+- **IF A.200&gt;0 THEN @200** : Si el valor de la celda A.200 es positivo, el valor de la celda B.200 se configura en la correspondiente fila de la fila actual.
+- **IF @200 &gt;0 THEN @200** : Si el valor de la celda 200 de la columna actual es positivo, el valor de la celda 200 se configura en cada columna de la fila actual.
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Restricción de un cálculo a una unidad de notificación en una definición de filas
 
-Para restringir un cálculo a una sola unidad de notificación en un organigrama, para que no se acumule el importe resultante hasta una unidad de alto nivel, puede usar el código **@Unidad** en la celda **Fórmulas o filas o unidades relacionadas** en la definición de filas. El código **@Unidad** se muestra en la columna B del organigrama **Nombre de la unidad**. Cuando se usa el código **@Unidad**, los valores no se acumulan, pero el cálculo se evalúa a todos los niveles del organigrama.
+Para restringir un cálculo a una sola unidad de notificación en un organigrama, para que no se acumule el importe resultante hasta una unidad de alto nivel, puede usar el código **@Unidad** en la celda **Fórmulas o filas o unidades relacionadas** en la definición de filas. El código **@Unidad** se muestra en la columna B del organigrama **Nombre de la unidad**. Cuando se usa el código **@Unidad** , los valores no se acumulan, pero el cálculo se evalúa a todos los niveles del organigrama.
 
 > [!NOTE]
 > Para usar esta función, un organigrama debe estar asociado con la definición de filas.
@@ -280,7 +287,7 @@ Para restringir un cálculo a una sola unidad de notificación en un organigrama
 La fila de cálculo puede hacer referencia a una fila de cálculo o a una fila de datos financieros. El cálculo se registra en la celda **Fórmulas o filas o unidades relacionadas** de la definición de filas y de la restricción financiera del tipo de datos. El cálculo debe usar un cálculo condicional que comienza en una construcción **IF @Unidad**. Esto es un ejemplo: IF @Unit(SALES) THEN @100 ELSE 0 Este cálculo incluye el importe de la fila 100 en cada columna de informe, pero únicamente para la unidad de ventas. Si las unidades varias se denominan VENTAS, el importe aparece en cada una de las unidades. Además, la fila 100 puede ser una fila de datos financieros y se puede definir como sin impresión. En este caso, se evita que el importe aparezca en todas las unidades del organigrama. También puede limitar el importe a una columna única del informe, como la columna H, mediante una restricción de columna para imprimir el valor solo en esa columna del informe. Puede incluir combinaciones de **OR** en una expresión **SI**. Esto es un ejemplo: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Puede especificar una unidad en una restricción de tipo cálculo de una de las siguientes formas:
 
 - Escriba un nombre de la unidad para incluir las unidades que coinciden. Por ejemplo, **IF @Unit(SALES)** habilita el cálculo para cualquier unidad que se llame VENTAS, incluso si hay varias unidades de ventas en el organigrama.
-- Especifique el nombre de la empresa y la unidad para restringir el cálculo a unidades específicas de una empresa específica. Por ejemplo, escriba **IF @Unit(ACME:SALES**) para restringir el cálculo en las unidades de ventas de la empresa ACME.
+- Especifique el nombre de la empresa y la unidad para restringir el cálculo a unidades específicas de una empresa específica. Por ejemplo, escriba **IF @Unit(ACME:SALES** ) para restringir el cálculo en las unidades de ventas de la empresa ACME.
 - Especifique el código completo de la jerarquía del organigrama para restringir el cálculo en una unidad específica. Por ejemplo, escriba **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -301,6 +308,6 @@ Una expresión **IF/THEN/ELSE** permite a cualquier cálculo depender de los res
 
 #### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Use apóstrofes y una Y comercial para los valores de dimensión en una fila, columna o árbol
 
-Puede diseñar informes mediante los valores de dimensión que contengan una Y comercial (&). 
+Puede diseñar informes mediante los valores de dimensión que contengan una Y comercial (&).
 
-Dentro de cualquier campo **Vincular a la dimensión financiera**, puede especificar un valor como **'Pérdidas y ganancias'**. Incluir apóstrofes (' ') a ambos lados del valor de dimensión indica que utiliza el valor literal, como incluir el carácter de la Y comercial (&). 
+Dentro de cualquier campo **Vincular a la dimensión financiera** , puede especificar un valor como **'Pérdidas y ganancias'**. Incluir apóstrofes (' ') a ambos lados del valor de dimensión indica que utiliza el valor literal, como incluir el carácter de la Y comercial (&).

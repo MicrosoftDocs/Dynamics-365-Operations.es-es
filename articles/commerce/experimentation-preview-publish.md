@@ -3,7 +3,7 @@ title: Obtener una vista previa y publicar un experimento
 description: Este tema describe cómo obtener una vista previa y publicar un experimento desde Dynamics 365 Commerce.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 91e2e4840a2d53f195d881279050b6415d48b070
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930285"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097125"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Obtener una vista previa y publicar un experimento
 
@@ -34,9 +34,11 @@ Este tema describe cómo obtener una vista previa y publicar su experimento en D
 ## <a name="preview-your-experiment-variations"></a>Vista previa de las variaciones del experimento
 Puede obtener una vista previa de sus variaciones y seguir editándolas hasta que se vean como desea.
 
-1. En el generador de sitios, use el menú desplegable de variaciones debajo de la barra de comandos para seleccionar el contenido del que desea obtener una vista previa. 
-1. Seleccione **Vista previa** en la barra superior. Se muestra una vista previa de cómo se verá el contenido cuando se publique.
-1. Para obtener una vista previa de una variación diferente, selecciónela en el menú desplegable de variaciones y seleccione **Vista previa** otra vez.
+Para mostrar una vista previa de las variaciones del experimento en el generador de sitios de Commerce, siga estos pasos.
+
+1. En el menú desplegable de variaciones situado debajo de la barra de comandos, seleccione el contenido del que desea obtener una vista previa. 
+1. En la barra de comandos, seleccione **Vista previa**. Se muestra una vista previa de cómo se verá el contenido cuando se publique.
+1. Para obtener una vista previa de una variación diferente, selecciónela en el menú desplegable de variaciones y seleccione **Vista previa** de nuevo.
 
 ## <a name="publish-your-experiment"></a>Publique su experimento
 Si no está utilizando un grupo de publicación para programar cuándo se activa su experimento y desea publicarlo de inmediato, seleccione **Publicar** en la barra de comandos. Se publicarán todas las variaciones que pertenezcan al experimento.
@@ -45,7 +47,7 @@ Si no está utilizando un grupo de publicación para programar cuándo se activa
 > Si la página tiene una URL no publicada, primero debe publicar la URL o no será visible para los usuarios de su sitio web. Para más detalles, consulte [Guardar, obtener una vista previa y publicar una página](save-preview-publish-page.md).
     
 ### <a name="use-publish-groups-to-schedule-when-your-experiment-goes-live"></a>Utilice grupos de publicación para programar cuándo se activa su experimento
-Las variaciones creadas en el creador de sitios se pueden programar para su publicación mediante un grupo de publicación. Dentro de un grupo de publicación, puede conectar una página o un fragmento a su experimento yendo a la pestaña **Experimentos** o las pestañas **Páginas** o **Fragmentos**. Para más información, vea [Conectar un experimento y editar variaciones](experimentation-connect-edit.md). Para obtener información sobre los grupos de publicación, consulte [Trabajar con grupos de publicación](publish-groups.md).
+Las variaciones creadas en el creador de sitios se pueden programar para su publicación mediante un grupo de publicación. Dentro de un grupo de publicación, puede conectar una página o un fragmento a su experimento seleccionando **Experimentos** en el panel de navegación izquierdo. Para hacer esto también puede seleccionar **Páginas** o **Fragmentos** , y seguir las instrucciones de [Conectar un experimento y editar variaciones](experimentation-connect-edit.md). Para obtener información sobre los grupos de publicación, consulte [Trabajar con grupos de publicación](publish-groups.md).
 
 Al utilizar grupos de publicación con experimentos, hay algunas consideraciones importantes que debe tener en cuenta.
 - Cuando agrega una página o un fragmento que tiene un experimento en ejecución a un grupo de publicación, el experimento se eliminará de la página o el fragmento en el grupo de publicación.

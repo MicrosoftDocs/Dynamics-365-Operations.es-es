@@ -16,19 +16,18 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 007425d0d172d0c2b4500426370f614ef0aa4a00
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 63769dc6eabdfc782020014a8ef3177c6591454c
+ms.sourcegitcommit: 4df9ca744621aafd6af6a89bf7f6fa9f94bedb00
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137989"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4100985"
 ---
 # <a name="mx-00010-cancel-an-electronic-invoice"></a>MX-00010 Cancelar facturas electrónicas
 
 [!include [banner](../../includes/banner.md)]
 
 Puede cancelar una factura electrónica CFDI validada y certificada anteriormente por el PAC. También puede cancelar una factura electrónica CFDI mediante el proceso manual.
-
 
 ## <a name="cancel-a-cfdi-electronic-invoice"></a>Cancelación de una factura electrónica CFDI
 1. Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).
@@ -42,6 +41,9 @@ Puede cancelar una factura electrónica CFDI validada y certificada anteriorment
     * Cuando se confirma la cancelación, el estado de la factura electrónica cambia a Cancelada.  
 9. Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).
 10. Seleccione la factura cancelada para comprobar el estado.
+
+>[!NOTE] 
+> No puede cancelar un documento CFDI si existe un documento asociado. Por ejemplo, no puede cancelar un pago por adelantado si una factura hace referencia a ese pago. Primero debe cancelar los documentos asociados y luego cancelar el documento CFDI.
 
 ## <a name="manually-cancel-a-cfdi-electronic-invoice"></a>Cancelación manual de una factura electrónica CFDI
 1. Seleccione una factura con estado Aprobada.

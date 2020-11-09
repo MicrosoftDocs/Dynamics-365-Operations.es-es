@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 940a6c39ac83e7388d4e1a08b656b75df81ed801
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834420"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018546"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Solución de problemas de flujos de trabajo de adquisición y abastecimiento
 
@@ -32,7 +32,7 @@ Este tema describe cómo solucionar problemas que pueden surgir al trabajar con 
 
 ## <a name="error-when-re-submitting-a-purchase-order-to-the-workflow-after-a-change-changes-to-purchase-order-x-are-allowed-only-in-a-draft-state-when-change-management-is-activated"></a>Error al volver a enviar un pedido de compra al flujo de trabajo después de un cambio: "Los cambios en el pedido de compra X solo se permiten en un estado Borrador cuando la administración de cambios está activada".
 
-Este problema solo se produce si el pedido de compra estaba en estado *Confirmado* antes de que se soliciten los cambios. Si solicita cambios mientras el pedido de compra está en estado *Aprobado*, el flujo de trabajo se puede procesar correctamente.
+Este problema solo se produce si el pedido de compra estaba en estado *Confirmado* antes de que se soliciten los cambios. Si solicita cambios mientras el pedido de compra está en estado *Aprobado* , el flujo de trabajo se puede procesar correctamente.
 
 ### <a name="error-description"></a>Error de descripción
 
@@ -48,7 +48,7 @@ SysWorkflowQueue-resume
 
 Este problema se puede producir debido a incoherencias en las distribuciones de pedidos de compra.
 
-Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador*, vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador* , vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 El problema se solucionará con [este artículo de Microsoft Knowledge Base (KB)](https://msdyneng.visualstudio.com/FinOps/_workitems/edit/467138).
 
@@ -56,7 +56,7 @@ El problema se solucionará con [este artículo de Microsoft Knowledge Base (KB)
 
 Este problema se puede producir debido a incoherencias en las distribuciones de pedidos de compra.
 
-Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador*, vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador* , vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="if-a-delivery-remainder-is-canceled-on-a-purchase-order-where-change-management-is-turned-on-the-purchase-order-goes-to-a-confirmed-state"></a>Si se cancela un remanente de entrega en un pedido de compra donde la administración de cambios está activada, el pedido de compra pasa a un estado Confirmado.
 
@@ -74,7 +74,7 @@ Si esto tuviera que reflejarse en la confirmación del pedido de compra, la cant
 
 ### <a name="issue-description"></a>Descripción del problema
 
-Después de cancelar pedidos de compra que estaban en estado *Confirmado*, los pedidos de compra cancelados todavía aparecen en la lista de borradores de pedidos de compra en el espacio de trabajo **Preparación del pedido de compra**.
+Después de cancelar pedidos de compra que estaban en estado *Confirmado* , los pedidos de compra cancelados todavía aparecen en la lista de borradores de pedidos de compra en el espacio de trabajo **Preparación del pedido de compra**.
 
 ### <a name="issue-resolution"></a>Solución del problema
 

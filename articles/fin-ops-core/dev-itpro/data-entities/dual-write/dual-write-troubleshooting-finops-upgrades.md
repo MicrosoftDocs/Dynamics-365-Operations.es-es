@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 07d6bd0bab796d7839daa2bad91f7e88c2e881b5
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275473"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997927"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas relacionados con actualizaciones de aplicaciones Finance and Operations
 
@@ -57,7 +56,7 @@ Para arreglar el problema, siga estos pasos.
 4. En el AOT, haga clic derecho en **DualWriteProjectConfiguration** y seleccione **Agregar al nuevo proyecto**. Seleccione **Aceptar** para crear el nuevo proyecto que usa opciones predeterminadas.
 5. En el Explorador de soluciones, haga clic con el botón derecho en **Propiedades del proyecto** y establezca **Sincronizar base de datos en la compilación** a **Verdadero**.
 6. Compile el proyecto y confirme que la compilación es exitosa.
-7. En el menú **Dynamics 365**, seleccione **Sincronizar base de datos**.
+7. En el menú **Dynamics 365** , seleccione **Sincronizar base de datos**.
 8. Seleccione **Sincronizar** para hacer una sincronización completa de la base de datos.
 9. Después de que la sincronización completa de la base de datos sea exitosa, vuelva a ejecutar el paso de sincronización de la base de datos en Microsoft Dynamics Lifecycle Services (LCS) y use los scripts de actualización manual según corresponda, para que pueda continuar con la actualización.
 
@@ -65,17 +64,17 @@ Para arreglar el problema, siga estos pasos.
 
 **Rol requerido para arreglar el error:** Administrador del sistema
 
-En la página **Doble escritura**, puede recibir un mensaje de error similar al siguiente ejemplo:
+En la página **Doble escritura** , puede recibir un mensaje de error similar al siguiente ejemplo:
 
-*Falta el campo fuente \<nombre del campo\> en el esquema.*
+*Falta el campo de origen \<field name\> en el esquema*.
 
 ![Ejemplo del mensaje de error del campo fuente faltante](media/error_missing_field.png)
 
 Para solucionar el problema, primero siga estos pasos para asegurarse de que los campos estén en la entidad.
 
 1. Inicie sesión en la máquina virtual para la aplicación Finance and Operations.
-2. Vaya a **Espacios de trabajo \> Gestión de datos**, seleccione el mosaico **Parámetros de marco**, y luego, en la pestaña **Configuración de entidad**, seleccione **Actualizar lista de entidades** para actualizar las entidades.
-3. Vaya a **Espacios de trabajo \> Gestión de datos**, seleccione la pestaña **Entidades de datos** y asegúrese de que la entidad esté en la lista. Si la entidad no aparece en la lista, inicie sesión en la máquina virtual para la aplicación Finance and Operations y asegúrese de que la entidad esté disponible.
+2. Vaya a **Espacios de trabajo \> Gestión de datos** , seleccione el mosaico **Parámetros de marco** , y luego, en la pestaña **Configuración de entidad** , seleccione **Actualizar lista de entidades** para actualizar las entidades.
+3. Vaya a **Espacios de trabajo \> Gestión de datos** , seleccione la pestaña **Entidades de datos** y asegúrese de que la entidad esté en la lista. Si la entidad no aparece en la lista, inicie sesión en la máquina virtual para la aplicación Finance and Operations y asegúrese de que la entidad esté disponible.
 4. Abra la página **Asignación de entidades** de la página **Doble escritura** en la aplicación Finance and Operations.
 5. Seleccione **Actualizar lista de entidades** para completar automáticamente los campos en las asignaciones de entidades.
 
@@ -86,7 +85,7 @@ Si el problema aún no se soluciona, siga estos pasos.
 
 1. En la aplicación Finance and Operations, vaya a **Espacios de trabajo \> Gestión de datos** y seleccione el mosaico **Entidades de datos**.
 2. Encuentre la entidad a la que le falta el atributo. Haga clic en **Modificar asignación de destino** en la barra de herramientas.
-3. En el panel **Asignar ubicación provisional a destino**, haga clic en **Generar asignación**.
+3. En el panel **Asignar ubicación provisional a destino** , haga clic en **Generar asignación**.
 4. Abra la página **Asignación de entidades** de la página **Doble escritura** en la aplicación Finance and Operations.
 5. Si el atributo no se rellena automáticamente en la asignación, agréguelo manualmente haciendo clic en el botón **Agregar atributo** y luego haga clic en **Guardar**. 
 6. Seleccione la asignación y haga clic en **Ejecutar**.

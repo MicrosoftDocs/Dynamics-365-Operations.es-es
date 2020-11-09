@@ -19,17 +19,17 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834218"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022480"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configuraciones visuales de la interfaz de usuario de PDV
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 La interfaz de usuario (IU) de Microsoft Dynamics 365 Commerce punto de venta (PDV) se puede configurar mediante una combinación de perfiles visuales y diseños de pantalla que se asignan a tiendas, registros y usuarios. Este tema ofrece información acerca de esas opciones de configuración.
 
@@ -62,7 +62,7 @@ Los perfiles visuales se asignan a registros y especifican los elementos visuale
 > [!NOTE]
 > El diseño **Derecho** y la visualización de fecha / hora no se aplican a la pantalla de inicio de sesión en la vista compacta.
 
-Debe ejecutar el trabajo de programación de distribución **1090** (**Registros**) para sincronizar las configuraciones del perfil visual más recientes con la base de datos del canal.
+Debe ejecutar el trabajo de programación de distribución **1090** ( **Registros** ) para sincronizar las configuraciones del perfil visual más recientes con la base de datos del canal.
 
 ## <a name="screen-layouts"></a>Diseños de pantalla
 
@@ -84,7 +84,7 @@ Las configuraciones del diseño de pantalla determinan las acciones, el contenid
 
 Los diseños de pantalla se pueden asignar a la tienda, el registro o el nivel de usuario. La asignación del usuario anula las asignaciones del registro y tienda, y la asignación del registro anula la asignación de la tienda. En una situación sencilla en la que todos los usuarios utilizan el mismo diseño, independientemente del registro o el rol, el diseño de pantalla solo puede establecerse en el nivel de tienda. En escenarios en los que registros o usuarios específicos necesiten diseños especializados, se pueden asignar esos diseños.
 
-Según el nivel en el que se asignen los diseños de pantalla, debe ejecutar los trabajos de programación de distribución **1070** (**Configuración de canal**), **1090** (**Registros**) o **1060** (**Personal**) para sincronizar las configuraciones de diseño de pantalla más recientes con la base de datos del canal.
+Según el nivel en el que se asignen los diseños de pantalla, debe ejecutar los trabajos de programación de distribución **1070** ( **Configuración de canal** ), **1090** ( **Registros** ) o **1060** ( **Personal** ) para sincronizar las configuraciones de diseño de pantalla más recientes con la base de datos del canal.
 
 ### <a name="layout-sizes"></a>Tamaños de diseño
 
@@ -119,7 +119,7 @@ En diseños de PDV compacto, las cuadrículas de botones se disponen automática
 
 ### <a name="images"></a>Imágenes
 
-Para cada tamaño de diseño de un diseño de pantalla, puede especificar imágenes para incluirlas en la interfaz de usuario del sistema PDV. Para los diseños de PDV completos, se puede especificar una sola imagen para la pantalla de bienvenida. En la izquierda aparece una imagen como el primer elemento de la interfaz de usuario. En la pantalla **Transacción**, las imágenes se pueden utilizar como imágenes de pestaña o como un logotipo. Los diseños de PDV compactos no utilizan estas imágenes.
+Para cada tamaño de diseño de un diseño de pantalla, puede especificar imágenes para incluirlas en la interfaz de usuario del sistema PDV. Para los diseños de PDV completos, se puede especificar una sola imagen para la pantalla de bienvenida. En la izquierda aparece una imagen como el primer elemento de la interfaz de usuario. En la pantalla **Transacción** , las imágenes se pueden utilizar como imágenes de pestaña o como un logotipo. Los diseños de PDV compactos no utilizan estas imágenes.
 
 ### <a name="screen-layout-designer"></a>Diseñador de pantalla
 
@@ -192,8 +192,8 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
 
         ![Tamaños de los botones del PDV en filas y columnas](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
-    - **Fuente personalizada** – Cuando seleccione la casilla de verificación **Habilitar fuente personalizada para PDV**, puede especificar una fuente distinta de la fuente predeterminada del sistema para el PDV.
-    - **Tema personalizado** – De forma predeterminada, los botones de PDV emplean el color de acento del perfil visual. Al seleccionar la casilla de verificación **Usar tema personalizado**, puede especificar colores adicionales.
+    - **Fuente personalizada** – Cuando seleccione la casilla de verificación **Habilitar fuente personalizada para PDV** , puede especificar una fuente distinta de la fuente predeterminada del sistema para el PDV.
+    - **Tema personalizado** – De forma predeterminada, los botones de PDV emplean el color de acento del perfil visual. Al seleccionar la casilla de verificación **Usar tema personalizado** , puede especificar colores adicionales.
 
         > [!NOTE]
         > Modern POS y PDV en la nube solo utilizan los valores **Color de fondo** y **Color de fuente**.
