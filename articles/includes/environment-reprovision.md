@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459859"
+---
 Al copiar una base de datos entre entornos, deberá ejecutar la herramienta de reaprovisionamiento de entornos antes de que la base de datos que se copió sea completamente funcional, con el fin de asegurarse de que todos los componentes de Commerce se actualizaron.
 
 > [!IMPORTANT]

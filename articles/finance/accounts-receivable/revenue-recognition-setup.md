@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570342"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459865"
 ---
 # <a name="revenue-recognition-setup"></a>Configuración de reconocimiento de ingresos
 [!include [banner](../includes/banner.md)]
@@ -151,7 +151,7 @@ El precio de ingresos que se define manualmente en esta página se usa para dete
 - **Precio de asignación de ingresos**: en función del valor seleccionado en el campo **Importe o porcentaje de lista**, especifique un importe o un porcentaje para representar el precio de ingresos que se usa para asignar los ingresos entre los elementos del pedido de ventas.
 - **Fecha inicial** y **Fecha final**: especifique el intervalo de fechas en el que estará activo el precio de ingresos. Estos campos son opcionales.
 
-Si la opción **Habilitar método de asignación de descuento** en la página **Parámetros de Contabilidad general** está establecida en **Sí** y el campo **Tipo de ingresos** para su producto emitido se establece en **Soporte postcontrato**, también deberá especificar los artículos que van a ser compatibles con el producto emitido. Esta configuración se realiza en la página **Base de instalación** (vaya a **Reconocimiento de ingresos \> Configuración \> Configuración de inventario \> Productos emitidos** y, a continuación, en el panel de acciones, en la pestaña **Venta**, en el grupo **Reconocimiento de ingresos**, seleccione **Base de instalación**).
+Si la opción **Habilitar método de asignación de descuento** de la página **Parámetros de Contabilidad general** está establecida en **Sí** y el campo **Tipo de ingresos** para su producto emitido se establece en **Soporte postcontrato**, también deberá especificar los artículos que admitirá el producto liberado. Esta configuración se realiza en la página **Base de instalación** (vaya a **Reconocimiento de ingresos \> Configuración \> Configuración de inventario \> Productos emitidos** y, a continuación, en el panel de acciones, en la pestaña **Venta**, en el grupo **Reconocimiento de ingresos**, seleccione **Base de instalación**).
 
 En la página **Base de instalación**, agregue un registro para cada grupo de artículos que sea compatible con el artículo. Cuando se produzca la asignación de ingresos, el precio de ingresos se distribuirá a través de las partes esenciales y no esenciales del artículo PCS.
 

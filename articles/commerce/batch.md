@@ -1,5 +1,5 @@
 ---
-title: Control mejorado de artículos con seguimiento por lotes
+title: Control administrado de artículos con seguimiento por lotes
 description: En este tema se describen las mejoras que se han realizado al control de los lotes para los artículos con seguimiento por lotes durante el proceso de registro de extracto.
 author: josaw1
 manager: AnnBe
@@ -19,11 +19,11 @@ ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: ecff18f0a34d22ef359f473fa6aaaff16c811bb6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004214"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459866"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Control mejorado de artículos con seguimiento por lotes
 

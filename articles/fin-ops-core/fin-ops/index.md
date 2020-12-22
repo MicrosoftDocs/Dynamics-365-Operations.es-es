@@ -1,6 +1,6 @@
 ---
-title: Documentación de la aplicación de Finance and Operations
-description: Documentación para las aplicaciones de Finance and Operations.
+title: Documentación de la aplicación Finance and Operations
+description: Documentación para las aplicaciones de Finance and Operations
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005549"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694395"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación de Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
@@ -51,13 +50,13 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 <p><a href="imp-lifecycle/onboard.md">Incorporación de un proyecto</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Prepararse para la publicación</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Actualizaciones del servicio de One Version</a></h3>
-<p><a href="get-started/one-version.md">Preguntas frecuentes sobre actualizaciones del servicio de una versión</a></p>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Actualizaciones del servicio de una versión</a></h3>
+<p><a href="get-started/one-version.md">Preguntas frecuentes sobre actualizaciones del servicio de One Version</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Directiva del ciclo de vida del software: nube</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Directiva del ciclo de vida del software: local</a></p>
 <p><a href="get-started/public-preview-releases.md">Actualizaciones de servicio de primera versión y versión estándar</a></p>
 <p><a href="get-started/whats-new-changed.md">Novedades y cambios</a></p>
-<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Cambios a versión superior, actualizaciones y sustituciones</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Cambios a versión superior, actualizaciones y revisiones</a></p>
 <p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar actualizaciones a entornos de nube</a></p>
 <p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Configurar actualizaciones de servicio</a></p>
 <p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Pausar actualizaciones de servicio</a></p>

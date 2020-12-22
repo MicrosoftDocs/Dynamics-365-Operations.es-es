@@ -1,0 +1,93 @@
+---
+title: Editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea
+description: En este tema se describe cómo editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea en Microsoft Dynamics 365 Commerce.
+author: josaw1
+manager: AnnBe
+ms.date: 11/04/2020
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: josaw
+ms.search.validFrom: 2018-11-15
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: b9f2db25c8897662baa177752d0c5fc4ac6178a4
+ms.sourcegitcommit: ce51ff2b6099c75dceb99de6dea9d53baf99772d
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "4459911"
+---
+# <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea
+
+[!include [banner](../includes/banner.md)]
+
+En este tema se describe cómo editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visión general
+
+Entre las versiones 10.0.5 y 10.0.6 de Commerce, se agregó soporte para editar transacciones de pago al contado sin entrega a domicilio (como ventas y devoluciones) y transacciones de gestión del efectivo (como entrada flotante y suspensión de forma de pago). En la versión 10.0.7 de Commerce, se agregó soporte para editar transacciones de pedidos en línea y transacciones de pedidos de clientes asincrónicas.
+
+## <a name="edit-and-audit-order-transactions"></a>Editar y auditar transacciones de pedidos
+
+Para editar y auditar transacciones de pedidos en la sede central de Commerce, siga estos pasos.
+
+1. Instale el [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
+1. En la página **Parámetros comerciales**, en la pestaña **Pedidos de cliente**, en la ficha desplegable **Pedido**, especifique un código de retención para **Código de retención para errores de sincronización de pedidos**.
+1. Abra el espacio de trabajo **Operaciones financieras de tienda**. Las ventanas **Errores de sincronización de pedidos en línea** y **Errores de sincronización de pedidos de cliente** ofrecen una vista prefiltrada de la página de transacciones minoristas. Cada una muestra los registros de transacciones con error en la sincronización para el tipo de pedido correspondiente.
+1. Abra las páginas **Errores de sincronización de pedidos en línea** o **Errores de sincronización de pedidos de cliente**. Seleccione un registro para ver los detalles del error de sincronización. La ficha desplegable **Estado de sincronización** ofrece los siguientes detalles de error:
+
+    - Estado del pedido pendiente
+    - Detalles de errores del pedido
+    - Fecha y hora de modificación
+    - Número de reintentos
+
+1. Si los detalles del error indican que el registro debe corregirse, seleccione **Complemento de Office** y luego elija **Editar transacción seleccionada**. Se abre un archivo de Excel que muestra los detalles de la transacción seleccionada.
+
+    - Si la transacción que se está editando es una transacción de pedido en línea, el archivo de Excel contiene las siguientes hojas de cálculo:
+
+        - **Transacción**: esta hoja de cálculo tiene los detalles de encabezado para la transacción.
+        - **Transacción de venta**: esta hoja de cálculo tiene los detalles de línea para la transacción.
+        - **Transacciones de pago**: esta hoja de cálculo tiene los detalles de las líneas de pago para la transacción.
+        - **Transacciones de descuento**: esta hoja de cálculo tiene los detalles relacionados con descuentos para la transacción.
+        - **Transacciones de impuestos**: esta hoja de cálculo tiene los detalles relacionados con impuestos para la transacción.
+        - **Transacciones de gastos**: esta hoja de cálculo tiene los detalles relacionados con gastos para la transacción.
+
+    - Si la transacción que se está editando es una transacción de pedido de cliente asincrónica, el archivo de Excel contiene las siguientes hojas de cálculo:
+
+        - **Líneas**: esta hoja de cálculo tiene los detalles de línea y encabezado para la transacción.
+        - **Pagos**: esta hoja de cálculo tiene los detalles de las líneas de pago para la transacción.
+        - **Descuentos**: esta hoja de cálculo tiene los detalles relacionados con descuentos para la transacción.
+        - **Impuestos**: esta hoja de cálculo tiene los detalles relacionados con impuestos para la transacción.
+        - **Gastos**: esta hoja de cálculo tiene los detalles relacionados con gastos para la transacción.
+
+1. En el archivo de Excel, en el campo **Estado de pedido pendiente**, introduzca **Edición** y luego publique el cambio. De esta forma, evita que el trabajo **Sincronizar pedido** que se está ejecutando en el modo por lotes omita este registro durante el procesamiento.
+1. En el archivo de Excel, modifique los campos adecuados y, a continuación, cargue los datos de nuevo en la sede central de Commerce usando la funcionalidad de publicación del complemento de Excel de Dynamics. Una vez se han publicado los datos, los cambios se reflejarán en el sistema. Durante la publicación, no se realiza ninguna validación para los cambios que hagan los usuarios.
+1. Para ver una traza de auditoría completa de los cambios, seleccione **Ver traza de auditoría** en el encabezado **Transacción comercial** para los cambios de nivel de encabezado y en la sección y el registro pertinentes de la página de transacción adecuada. Por ejemplo, todos los cambios relacionados con las líneas de ventas se mostrarán en la página **Transacciones de ventas**, y todos los cambios relacionados con los pagos se mostrarán en la página **Transacciones de pago**. Se mantienen los siguientes detalles de auditoría para los cambios:
+
+    - Fecha y hora de modificación
+    - Campo
+    - Valor anterior
+    - Nuevo valor
+    - Modificado por
+
+1. Una vez que haya realizado y publicado sus cambios, seleccione **Sincronizar pedido** para iniciar inmediatamente el proceso de sincronización. También puede esperar a que el proceso de sincronización que se está ejecutando en el modo por lotes procese la transacción.
+
+De forma predeterminada, una vez que los pedidos se sincronizan correctamente, se ponen en estado de retención, según el código de retención que se define en los parámetros de Commerce. La retención en los pedidos debe eliminarse antes de que los pedidos se puedan procesar más para su cumplimiento u otras operaciones.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Editar y auditar transacciones de gestión de efectivo y pago al contado sin entrega a domicilio](edit-cash-trans.md)
+
+[Editar dimensiones financieras para transacciones minoristas](edit-financial-dim.md)
+
+[Crear un libro de trabajo de Excel para editar transacciones minoristas](create-excel-edit.md)
+
+[Agregar campos a un libro de trabajo de Excel para editar transacciones minoristas](add-fields-excel.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: cb8519db2f5d52d4e317b485d6ecc910956788cb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975325"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4459906"
 ---
 # <a name="customer-workflow"></a>Flujo de trabajo de cliente
 
@@ -60,4 +60,4 @@ Una vez que tenga al menos un cambio propuesto, aparecen dos menús adicionales 
 
     El estado en la página se cambia a **Cambios pendientes de aprobación**.
 
-El flujo de trabajo sigue el proceso de flujo de trabajo estándar en la aplicación. El aprobador es dirigido a la página **Cliente**, donde puede revisar los cambios en la página **Cambios propuestos** y, a continuación, seleccionar **Flujo de trabajo \> Aprobar** para aprobar el flujo de trabajo. Una vez que se completan todas las aprobaciones, los campos se actualizan con los valores que propuso.
+El flujo de trabajo sigue el proceso de flujo de trabajo estándar en la aplicación. El aprobador es dirigido a la página **Cliente**, donde se pueden revisar los cambios en la página **Cambios propuestos** y, a continuación, seleccionar **Flujo de trabajo \> Aprobar** para aprobar el flujo de trabajo. Una vez que se completan todas las aprobaciones, los campos se actualizan con los valores que propuso.

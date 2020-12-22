@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975277"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528554"
 ---
 # <a name="budgeting-home-page"></a>Página principal de Gestión presupuestaria
 
@@ -64,7 +64,7 @@ Para obtener información sobre cómo trasladar los datos de planificación de o
 ## <a name="user-interface-and-reporting-capabilities"></a>Interfaz de usuario y funciones de informes
 Los usuarios pueden crear planes presupuestarios directamente en el cliente (mediante una página de documento de plan presupuestario configurable) o en Excel. Excel ofrece varias capacidades adicionales. Por ejemplo, puede usar los datos externos como origen para un plan presupuestario, realizar cálculos personalizados, y usar gráficos y tablas dinámicas de Microsoft. Se pueden configurar la mayoría de las variables en el proceso de planificación presupuestaria. 
 
-Por ejemplo, puede definir quién realiza los presupuestos, qué se presupuesta y cómo es el proceso. Aunque puede usar Excel para la planificación presupuestaria, la aplicación se usa como fuente de información única y ayuda a evitar problemas de control presupuestario. Se pueden usar procesos periódicos para incorporar los datos iniciales de gestión presupuestaria en el plan presupuestario. Para los informes, la aplicación ofrece un conjunto de páginas de consulta estándares que le permiten ver y analizar los datos de los presupuestos. A los datos del plan presupuestario se puede obtener acceso a través del Management Reporter y se pueden mostrar escenarios del plan presupuestario independientes como columnas en el informe del Management Reporter.
+Por ejemplo, puede definir quién realiza los presupuestos, qué se presupuesta y cómo es el proceso. Aunque puede usar Excel para la planificación presupuestaria, la aplicación se usa como fuente de información única y ayuda a evitar problemas de control presupuestario. Se pueden usar procesos periódicos para incorporar los datos iniciales de gestión presupuestaria en el plan presupuestario. Para los informes, la aplicación ofrece un conjunto de páginas de consulta estándares que le permiten ver y analizar los datos de los presupuestos. A los datos del plan presupuestario se puede obtener acceso a través de [Informes financieros](../general-ledger/financial-reporting-getting-started.md) y se pueden mostrar escenarios del plan presupuestario independientes como columnas en el informe financiero.
 
 
 

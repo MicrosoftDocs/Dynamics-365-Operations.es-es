@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570365"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459880"
 ---
 # <a name="recognize-deferred-revenue"></a>Reconocer ingresos diferidos
 
@@ -99,7 +99,7 @@ Para cambiar la programación, seleccione cualquier línea de programación para
 
 [![Fechas iniciales y finales del contrato](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
 
-Cambie las fechas iniciales y finales del contrato para que reflejen el intervalo de fechas correcto. Cuando cambia el intervalo de fechas, el valor del campo **Número de repeticiones** debe coincidir con una programación de ingresos que se ha definido en el sistema. En este ejemplo, puesto que el contrato se cambió a un contrato de 24 meses, se debe configurar una programación de ingresos de 24 meses. Puesto que existe la programación de ingresos de 24 meses, se especifica de forma predeterminada y el contrato se puede modificar. Si no existe una programación de ingresos que tiene un número coincidente de repeticiones, el contrato no se puede modificar. Una vez que haya terminado de actualizar las condiciones del contrato y la programación de ingresos como sea necesario, seleccione **Aceptar** en el cuadro de diálogo para guardar los cambios.
+Cambie las fechas iniciales y finales del contrato para que reflejen el intervalo de fechas correcto. Cuando cambia el intervalo de fechas, el valor del campo **Número de repeticiones** debe coincidir con una programación de ingresos que se ha definido en el sistema. En este ejemplo, puesto que el contrato se cambió a un contrato de 24 meses, se debe configurar una programación de ingresos de 24 meses. Puesto que existe la programación de ingresos de 24 meses, se especifica de forma predeterminada y el contrato se puede modificar. Si no existe una programación de ingresos con un número coincidente de repeticiones, no se podrá modificar el contrato. Una vez que haya terminado de actualizar las condiciones del contrato y la programación de ingresos como sea necesario, seleccione **Aceptar** en el cuadro de diálogo para guardar los cambios.
 
 [![Intervalo de fechas del contrato actualizado](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
 

@@ -14,14 +14,12 @@
               items:
                 - name: Novedades y cambios en la página principal de Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.16 (febrero de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Platform updates para 10.0.15 (enero de 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platform updates para 10.0.14 (noviembre de 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: Platform updates para 10.0.13 (octubre de 2020)
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: Platform updates para 10.0.12 (agosto de 2020)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: Características quitadas o en desuso
               items:
                 - name: Características de Platform quitadas o en desuso
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Características de AX 2012 pospuestas
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Características no implementadas en implementaciones locales
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Final del soporte estándar para Microsoft Dynamics AX 2009 y 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Eventos de negocio
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: Configurar la asignación de los campos de estado del pedido de ventas
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: Filtrar pedidos de empresas vinculadas para evitar la sincronización de pedidos y líneas de pedido
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: Gestión de doble escritura
                           items:
                             - name: Personalizar asignaciones de entidad y campo
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Maestro de impuestos integrado
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Sincronizar con el motor de precios de Dynamics 365 Supply Chain Management a petición
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Cliente potencial a cliente en doble escritura
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Sincronizar con el motor de precios de Dynamics 365 Supply Chain Management a petición
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Usar el motor de precios Dynamics 365 Commerce con Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: Activos internos para mantenimiento
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Trabajador integrado, trabajo y puesto'
@@ -500,6 +500,8 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: Requisitos de tamaño de hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Autenticación en Dynamics 365 Finance + Operaciones (on-premises)
+                      href: deployment/authentication-onprem.md
                 - name: Configurar e implementar entornos locales
                   items:
                     - name: Configurar proyectos locales en LCS
@@ -630,6 +632,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Crear una conexión de Lifecycle Services (LCS) en Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Actualizar una canalización heredada en Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: Aplicación de ejemplo de administración de flota
               items:
                 - name: Escenario de extremo a extremo para aplicación de ejemplo de administración de flota
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: Acceso a datos mediante la API de SysDa
                           href: dev-ref/sysda.md
+                        - name: Mitigar un ataque de inyección SQL
+                          href: dev-ref/query-with-parameters.md
                     - name: Macros de X++
                       href: dev-ref/xpp-macros.md
                     - name: Clases de atributo de X++
@@ -1462,7 +1468,7 @@
               href: lifecycle-services/lcs-support.md
             - name: Visión general del soporte técnico de Dynamics 365
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: Obtener soporte técnico para Finance and Operations gestionado por 21Vianet en China
+            - name: Obtener soporte técnico para Finance and Operations operado por 21Vianet en China
               href: lifecycle-services/21vianet-support.md
             - name: Configurar el soporte técnico para aplicaciones de Finance and Operations
               href: lifecycle-services/support-experience.md
@@ -1492,12 +1498,14 @@
                   href: sysadmin/security-architecture.md
                 - name: Cifrado en aplicaciones de Finance and Operations
                   href: sysadmin/encryption.md
-                - name: Establecer el tiempo de espera de la sesión
+                - name: Establecer el tiempo de espera de inactividad de la sesión
                   href: sysadmin/session-idle-timeout.md
                 - name: Informes de seguridad listos para usar
                   href: sysadmin/security-reports.md
                 - name: Crear nuevos usuarios
                   href: sysadmin/tasks/create-new-users.md
+                - name: Administración de sesiones de usuarios
+                  href: sysadmin/user-session-management.md
                 - name: Importar usuarios en grandes cantidades
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Configurar la segregación de controles
@@ -1558,9 +1566,11 @@
               href: sysadmin/odata-warmup.md
             - name: Configuración del cliente de Azure Key Vault
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
-        - name: 'Cambios a versión superior, actualizaciones y sustituciones'
+            - name: Rutinas de limpieza
+              href: sysadmin/cleanuproutines.md
+        - name: 'Cambios a versión superior, actualizaciones y revisiones'
           items:
-            - name: 'Recursos de Cambios a versión superior, actualizaciones y sustituciones'
+            - name: 'Recursos de Cambios a versión superior, actualizaciones y revisiones'
               href: migration-upgrade/upgrade-home-page.md
             - name: Actualizar desde AX 2012
               items:
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: Navegación por las compilaciones
                   href: user-interface/build-navigation.md
-                - name: Crear espacios de trabajo
+                - name: Modificar un espacio de trabajo
                   href: user-interface/build-workspace.md
             - name: Formularios
               items:
