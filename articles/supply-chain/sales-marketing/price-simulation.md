@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006268"
+ms.locfileid: "4437155"
 ---
 # <a name="price-simulation"></a>Simulación de precios
 
@@ -35,7 +35,7 @@ Una simulación de precios para un presupuesto muestra un importe total nuevo, b
 
 Una simulación de precios no cambia el precio del presupuesto. Si la simulación de precios se aplica a todo el presupuesto, se trata como un descuento especial en el encabezado del presupuesto. Si la simulación de precios se aplica a artículos específicos, se trata como un descuento especial en las líneas de presupuesto. El precio unitario de venta de una línea de presupuesto que se crea no cambia cuando se aplique una simulación de precio. En cambio, se aplica un porcentaje de descuento que corresponda a la reducción de precios de la línea de presupuesto. Cuando se aplique una simulación de precios, el precio unitario y el porcentaje de descuento se transfieren a la línea de presupuesto o encabezado de presupuesto.  
 
->\[Nota\]: cuando se realice una simulación de precios, únicamente se usa la divisa de ventas para crear la simulación. No obstante, al visualizar los totales de presupuesto, verá una combinación de la divisa de empresa y la de ventas.  
+>[Nota] Cuando se realice una simulación de precios, únicamente se usa la divisa de ventas para crear la simulación. No obstante, al visualizar los totales de presupuesto, verá una combinación de la divisa de empresa y la de ventas.  
 
 Los artículos adicionales que se agregan a líneas de presupuesto pueden desencadenar descuentos de línea o descuentos multilínea. También podrían desencadenar descuentos totales que modifiquen los márgenes y coeficientes de contribución de las líneas de presupuesto y el descuento completo.  
 
@@ -53,10 +53,10 @@ Para garantizar que los descuentos y precios se calculan correctamente, preste a
 
 Los acuerdos comerciales de Supply Chain Management pueden tener cuatro tipos de precio/descuento. Estos descuentos pueden configurarse para diferentes artículos, clientes o grupos de precios, y pueden estar limitados por fecha. Para evitar cálculos erróneos, debe tener en cuenta los acuerdos comerciales al ejecutar simulaciones de precios. Estos son los cuatro tipos de descuentos de los acuerdos comerciales:
 
--   **Precio de ventas** : se pueden especificar precios de ventas independientes de artículos. Cuando se crean las líneas de presupuesto, el programa busca el precio de venta correcto de un artículo y lo transfiere a las líneas de presupuesto. Por lo tanto, un acuerdo comercial con este tipo de descuento no afecta a la simulación de precios. El precio de venta que se usa en la línea de presupuesto refleja el acuerdo comercial.
--   **Descuento de línea** : se especifican descuentos de artículos especiales en función de la cantidad pedida. Los importes de línea suelen reducirse por el descuento de línea anterior a la ejecución de la simulación de precios. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
--   **Descuento multilínea** : si las cantidades combinadas superan el límite que ha definido, las combinaciones predefinidas de artículos pedidos activan un descuento en todo el pedido. Los importes de línea suelen reducirse por el descuento de línea anterior a la ejecución de la simulación de precios. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
--   **Descuento total** : si los importes combinados superan el límite que ha definido, los artículos pedidos predefinidos activan un descuento en todo el pedido. El descuento total se genera por las líneas de presupuesto. No obstante, debido a que el descuento total se aplica al total del presupuesto como un descuento, se reduce el importe total del presupuesto. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
+-   **Precio de ventas**: se pueden especificar precios de ventas independientes de artículos. Cuando se crean las líneas de presupuesto, el programa busca el precio de venta correcto de un artículo y lo transfiere a las líneas de presupuesto. Por lo tanto, un acuerdo comercial con este tipo de descuento no afecta a la simulación de precios. El precio de venta que se usa en la línea de presupuesto refleja el acuerdo comercial.
+-   **Descuento de línea**: se especifican descuentos de artículos especiales en función de la cantidad pedida. Los importes de línea suelen reducirse por el descuento de línea anterior a la ejecución de la simulación de precios. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
+-   **Descuento multilínea**: si las cantidades combinadas superan el límite que ha definido, las combinaciones predefinidas de artículos pedidos activan un descuento en todo el pedido. Los importes de línea suelen reducirse por el descuento de línea anterior a la ejecución de la simulación de precios. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
+-   **Descuento total**: si los importes combinados superan el límite que ha definido, los artículos pedidos predefinidos activan un descuento en todo el pedido. El descuento total se genera por las líneas de presupuesto. No obstante, debido a que el descuento total se aplica al total del presupuesto como un descuento, se reduce el importe total del presupuesto. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
 
 ### <a name="quotation-lines-and-trade-agreements"></a>Líneas de presupuesto y acuerdos comerciales
 

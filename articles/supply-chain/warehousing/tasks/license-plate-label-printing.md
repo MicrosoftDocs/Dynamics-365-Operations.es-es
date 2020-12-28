@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9e548e5e5528733412d47478dd740b87217cdac2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016111"
+ms.locfileid: "4437210"
 ---
 # <a name="enable-license-plate-label-printing"></a>Habilitar la impresión de la etiqueta de matrícula
 
@@ -33,18 +33,18 @@ En este tema se muestra cómo habilitar la impresión automática de una etiquet
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Configurar el prefijo GS1 de la empresa
 1. Vaya al **Panel de exploración > Módulos > Gestión de almacenes > Configuración > Almacén >Parámetros de gestión de almacenes**.
-2. En el campo **Prefijo GS1 de la empresa** , escriba las 7 cifras del número GS1 de la empresa.
+2. En el campo **Prefijo GS1 de la empresa**, escriba las 7 cifras del número GS1 de la empresa.
 3. Seleccione **Guardar**.
 4. Cierre la página.
 
 ## <a name="setup-the-sscc-license-plate-number-sequence"></a>Configurar la secuencia de la matrícula de entidad de almacén de SSCC
 1. Vaya al **panel de navegación > Módulos > Administración de la organización > Secuencias numéricas > Secuencias numéricas**.
-2. En el campo **Área** , seleccione una opción.
-3. En el campo **Referencia** , seleccione una opción.
-4. En el campo **Empresa** , escriba un valor.
+2. En el campo **Área**, seleccione una opción.
+3. En el campo **Referencia**, seleccione una opción.
+4. En el campo **Empresa**, escriba un valor.
 5. Expanda la sección **Segmentos**.
 6. Seleccione **Editar**.
-7. En la tabla de **Segmentos** , seleccione la primera fila
+7. En la tabla de **Segmentos**, seleccione la primera fila
 8. Seleccione **Quitar**.
 9. Seleccione **Quitar**.
 10. Seleccione **Guardar**.
@@ -53,35 +53,35 @@ En este tema se muestra cómo habilitar la impresión automática de una etiquet
 ## <a name="create-the-document-route-layout"></a>Crear el diseño de la ruta de documentos
 1. Vaya a **Panel de exploración > Módulos > Gestión de almacenes > Configurar > Ruta de documentos > Diseños de ruta de documentos**. Habilite la configuración de SSCC.  
 2. Seleccione **Nuevo**.
-3. En el campo **Id. de diseño** , escriba un valor.
-4. En el campo **Descripción** , escriba un valor.
+3. En el campo **Id. de diseño**, escriba un valor.
+4. En el campo **Descripción**, escriba un valor.
 5. Seleccione **Insertar al final del texto**.
 6. Seleccione **Guardar**.
 7. Cierre la página.
 
 ## <a name="set-up-the-document-routing"></a>Configurar la ruta de documentos
 1. Vaya a **Panel de exploración > Módulos > Gestión de almacenes > Configurar > Ruta de documentos > Ruta de documentos**.
-2. En el campo **Tipo de pedido de trabajo** , seleccione una opción.
+2. En el campo **Tipo de pedido de trabajo**, seleccione una opción.
 3. Seleccione **Nuevo**.
-4. En el campo **Almacén** , escriba un valor.
-5. En el campo **Nombre** , escriba un valor.
+4. En el campo **Almacén**, escriba un valor.
+5. En el campo **Nombre**, escriba un valor.
 6. Seleccione **Nuevo**.
-7. En el campo **Id. de diseño** , especifique o seleccione un valor.
-8. En el campo **Nombre** , especifique el nombre de la impresora que desee utilizar.
+7. En el campo **Id. de diseño**, especifique o seleccione un valor.
+8. En el campo **Nombre**, especifique el nombre de la impresora que desee utilizar.
 9. Seleccione **Guardar**.
 10. Cierre la página.
 
 ## <a name="create-mobile-device-menu"></a>Crear el menú del dispositivo móvil
 1. Vaya al **Panel de exploración >Módulos > Administración de módulos > Configuración > Dispositivo móvil > Elementos de menú del dispositivo móvil**.
 2. Seleccione **Nuevo**.
-3. En el campo **Nombre del elemento de menú** , escriba un valor.
-4. En el campo **Título** , escriba un valor.
-5. En el campo **Modo** , seleccione una opción.
+3. En el campo **Nombre del elemento de menú**, escriba un valor.
+4. En el campo **Título**, escriba un valor.
+5. En el campo **Modo**, seleccione una opción.
 6. Seleccione **Sí** en el campo **Usar trabajo existente**.
 7. Seleccione **Sí** en el campo **Generar matrícula de entidad de almacén**.
 8. Expanda la sección **Clases de trabajo**.
 9. Seleccione **Nuevo**.
-10. En el campo **Id. de la clase de trabajo** , escriba un valor.
+10. En el campo **Id. de la clase de trabajo**, escriba un valor.
 11. Seleccione **Guardar**.
 12. Cierre la página.
 13. Vaya al **Panel de exploración >Módulos > Administración de módulos > Configuración > Dispositivo móvil > Menú del dispositivo móvil**.
@@ -95,8 +95,8 @@ En este tema se muestra cómo habilitar la impresión automática de una etiquet
 1. Vaya al **Panel de exploración > Módulos > Gestión de almacenes > Configuración > Trabajo > Plantillas de trabajo**.
 2. Seleccione **Editar**.
 3. Seleccione **Nuevo**.
-4. En el campo **Tipo de trabajo** , seleccione **Imprimir**.
-5. En el campo **Id. de la clase de trabajo** , especifique o seleccione un valor.
+4. En el campo **Tipo de trabajo**, seleccione **Imprimir**.
+5. En el campo **Id. de la clase de trabajo**, especifique o seleccione un valor.
 6. Seleccione **Subir**.
 7. Seleccione **Guardar**.
 8. Cierre la página.

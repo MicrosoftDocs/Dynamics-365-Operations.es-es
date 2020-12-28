@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 532f437bee490743847cf5617579c579f9202b71
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018339"
+ms.locfileid: "4437258"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Permite buscar los productos y variantes de producto durante la entrada de pedidos
 
@@ -44,7 +44,7 @@ Al buscar productos o variantes de producto, es importante comprender cómo en
 
 ### <a name="examples"></a>Ejemplo
 
-Los siguientes ejemplos usan productos y variantes de producto para mostrar cómo se administra la búsqueda en distintas situaciones. **Requisito previo** : En **Ventas y marketing &gt; Configuración &gt; Buscar &gt; Parámetros de búsqueda &gt; Tipo de búsqueda** , seleccione la opción  **Coincidencia total**.
+Los siguientes ejemplos usan productos y variantes de producto para mostrar cómo se administra la búsqueda en distintas situaciones. **Requisito previo** : En **Ventas y marketing &gt; Configuración &gt; Buscar &gt; Parámetros de búsqueda &gt; Tipo de búsqueda**, seleccione la opción  **Coincidencia total**.
 
 | Tipo de producto     | Nombre del producto    | Mostrar número de producto | código de artículo | Configuración |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -52,7 +52,7 @@ Los siguientes ejemplos usan productos y variantes de producto para mostrar cóm
 | Variante del producto  | Altavoz activo  | D0010:::Negro:         | D0010       | 000005        |
 | Variante del producto  | Altavoz activo  | D0010:::Blanco:         | D0010       | Blanco         |
 
-Si escribe “altavoz” en el campo **Número de artículo** , obtendrá todos los productos que se muestran arriba como consecuencia de la búsqueda. Si escribe “negro” en el campo **Número de artículo** , obtendrá como resultado el segundo producto, ya que tiene el texto “negro” en el número de producto. Estos dos ejemplos muestran que la búsqueda no solo se realiza al principio del campo, habrá coincidencia incluso si el texto de búsqueda se encuentra en el medio de una cadena de texto en el registro coincidente.  
+Si escribe “altavoz” en el campo **Número de artículo**, obtendrá todos los productos que se muestran arriba como consecuencia de la búsqueda. Si escribe “negro” en el campo **Número de artículo**, obtendrá como resultado el segundo producto, ya que tiene el texto “negro” en el número de producto. Estos dos ejemplos muestran que la búsqueda no solo se realiza al principio del campo, habrá coincidencia incluso si el texto de búsqueda se encuentra en el medio de una cadena de texto en el registro coincidente.  
 
 Si escribe "05" obtendrá únicamente la segunda variante del producto como resultado, porque tiene "05" en la configuración. Esto muestra que la búsqueda se realiza entre todos los campos habilitados de la página **Criterios de búsqueda**.  
 
@@ -65,7 +65,7 @@ Para poder usar la función de búsqueda del producto y de la variante del produ
 
 ### <a name="step-1include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>Paso 1: Incluir todos los identificadores del producto y de la variante del producto, y las dimensiones relevantes en los criterios de búsqueda
 
-Algunos ejemplos de identificadores de producto y de la variante del producto y de las dimensiones por las que puede buscar son  **Nombre de producto, número de artículo** , **Ver número de producto, Configuración, Color, Tamaño, Estilo, Nombre de búsuqeda, etc**.  
+Algunos ejemplos de identificadores de producto y de la variante del producto y de las dimensiones por las que puede buscar son  **Nombre de producto, número de artículo**,**Ver número de producto, Configuración, Color, Tamaño, Estilo, Nombre de búsuqeda, etc**.  
 
 Vaya a la página **Ventas y marketing &gt; Configuración &gt; Buscar &gt; Criterios de búsqueda**. La página **Criterios de búsqueda** le permite definir los criterios para el cliente, el cliente potencial y la búsqueda de producto. Asegúrese de filtrar la página mediante el uso de criterios de búsqueda del producto. Puede hacerlo cambiando a **Producto** en el menú de la página.  
 
@@ -73,7 +73,7 @@ Para agregar el número de producto a los criterios de búsqueda, haga clic en *
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Paso 2: Rellene la tabla de la base de datos usada para la búsqueda de producto
 
-En la página **Criterios de búsqueda** , haga clic en el botón **Actualizar datos de búsqueda**. En el cuadro de diálogo **Actualizar datos de búsqueda** , asegúrese de que  **Origen** esté establecido en **Producto** , y haga clic en **Aceptar**. El sistema agregará en una tabla todos los criterios de búsqueda seleccionados especificados en el paso 1. Si tiene muchos productos y variantes de producto, esta operación puede ser bastante larga y puede que reciba un aviso. Se recomienda que programe el rellenado de la tabla de búsqueda en el servidor por lotes en un momento en el que el servidor no esté muy ocupado.  
+En la página **Criterios de búsqueda**, haga clic en el botón **Actualizar datos de búsqueda**. En el cuadro de diálogo **Actualizar datos de búsqueda**, asegúrese de que  **Origen** esté establecido en **Producto**, y haga clic en **Aceptar**. El sistema agregará en una tabla todos los criterios de búsqueda seleccionados especificados en el paso 1. Si tiene muchos productos y variantes de producto, esta operación puede ser bastante larga y puede que reciba un aviso. Se recomienda que programe el rellenado de la tabla de búsqueda en el servidor por lotes en un momento en el que el servidor no esté muy ocupado.  
 
 Hasta que se haya rellenado la tabla, la búsqueda de producto no proporcionará los resultados correctos. Si no obtiene ningún resultado de búsqueda, asegúrese de que la tabla se ha rellenado.  
 
@@ -83,7 +83,7 @@ La tabla solo tiene que rellenarse cuando se modifican los criterios de búsqued
 
 Puede habilitar esta función en **Ventas y marketing &gt; Configuración &gt; Búsqueda &gt; Parámetros de búsqueda** y configurando **Habilitar búsqueda** en **Sí** en la pestaña **General**.  
 
-Para la entrada de la línea de pedido de ventas, el comportamiento predeterminado es abrir la página **Búsqueda de producto** cuando empieza a escribir en el campo  **Número de artículo** y, a continuación pulsar la tecla **Ficha**. La página **Búsqueda de producto** cambia el contexto durante la creación de la línea de pedido y se puede considerar demasiado intrusiva. Si prefiere obtener los resultados de la búsqueda en una búsqueda y no perder contexto durante la entrada de la línea de pedido, puede usar la consulta de la búsqueda en su lugar. Si busca un producto o una variante del producto, pero no selecciona nada en la búsqueda y pulsa la tecla **Ficha** , se mostrará la página **Búsqueda de producto**.
+Para la entrada de la línea de pedido de ventas, el comportamiento predeterminado es abrir la página **Búsqueda de producto** cuando empieza a escribir en el campo  **Número de artículo** y, a continuación pulsar la tecla **Ficha**. La página **Búsqueda de producto** cambia el contexto durante la creación de la línea de pedido y se puede considerar demasiado intrusiva. Si prefiere obtener los resultados de la búsqueda en una búsqueda y no perder contexto durante la entrada de la línea de pedido, puede usar la consulta de la búsqueda en su lugar. Si busca un producto o una variante del producto, pero no selecciona nada en la búsqueda y pulsa la tecla **Ficha**, se mostrará la página **Búsqueda de producto**.
 
 
 

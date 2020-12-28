@@ -18,11 +18,11 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016302"
+ms.locfileid: "4437216"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Liberación por lotes de pedidos de transferencia parcialmente reservados
 
@@ -47,7 +47,7 @@ Las directivas de cumplimiento de los pedidos de transferencia y ventas se espec
 
 -   Para crear directivas de cumplimiento para pedidos de transferencia y ventas, haga clic en **Gestión de almacenes** \> **Configuración** \> **Liberar en almacén** \> **Directiva de cumplimiento** y. a continuación, escriba un nombre y una descripción para crear una directiva de cumplimiento.
 
--   Para especificar un índice de entrega, un tipo de valor y el mensaje que se muestra si se infringe la directiva de cumplimiento, haga clic en **Gestión de almacenes** \> **Configuración** \> **Liberar en almacén** \> **Directiva de cumplimiento** y, a continuación configure los campos del **índice de entrega** , el **tipo de valor** y el **mensaje de infracción de cumplimiento** .
+-   Para especificar un índice de entrega, un tipo de valor y el mensaje que se muestra si se infringe la directiva de cumplimiento, haga clic en **Gestión de almacenes** \> **Configuración** \> **Liberar en almacén** \> **Directiva de cumplimiento** y, a continuación configure los campos del **índice de entrega**, el **tipo de valor** y el **mensaje de infracción de cumplimiento** .
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Configurar las directivas de cumplimiento de los pedidos de transferencia y los de ventas
 

@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3119b6e93bc1f09c068fa599ec5ea2d0b23906a1
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016733"
+ms.locfileid: "4437183"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Configurar un proceso de reabastecimiento mínimo-máximo
 
@@ -34,75 +34,75 @@ Este procedimiento le muestra cómo configurar un nuevo proceso de reabastecimie
 ## <a name="create-a-fixed-picking-location"></a>Crear una ubicación de picking fija
 1. Vaya al **Panel de exploración > Módulos > Gestión de almacenes > Configuración > Almacén > Ubicaciones fijas**. Esta es una tarea opcional para el reabastecimiento mínimo-máximo, pero si usa la ubicación de picking fija, esto permite que se reabastezcan las existencias incluso si caen por debajo del nivel mínimo, ya que el sistema puede determinar qué artículos se deben reabastecer, incluso si no queda ninguno.
 2. Haga clic en **Nuevo**.
-3. En el campo **Número de artículo** , especifique o seleccione un valor. Si está usando USMF, puede seleccionar el artículo A0001.  
-4. En el campo **Sitio** , especifique o seleccione un valor. Si está usando USMF, puede seleccionar el sitio 2.  
-5. En el campo **Almacén** , especifique o seleccione un valor. Si está usando USMF, puede seleccionar el almacén 24.  
-6. En el campo **Ubicación** , especifique o seleccione un valor. Si está usando USMF, puede seleccionar CP-003.  
+3. En el campo **Número de artículo**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar el artículo A0001.  
+4. En el campo **Sitio**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar el sitio 2.  
+5. En el campo **Almacén**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar el almacén 24.  
+6. En el campo **Ubicación**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar CP-003.  
 7. Cierre la página.
 
 ## <a name="create-a-replenishment-location-directive"></a>Crear una directiva de ubicación de reabastecimiento
 1. Vaya a **Gestión de almacenes > Configurar > Directivas de ubicación**. Los directorios de ubicación se usan para determinar de dónde se deben seleccionar los artículos en el proceso de reabastecimiento.
-2. En el campo **Tipo de pedido de trabajo** , seleccione "Reabastecimiento".
-3. En el **Panel de acciones** , haga clic en **Nuevo**.
-4. En el campo **Nombre** , escriba un valor.
-5. En el campo **Tipo de trabajo** , seleccione "Seleccionar".
-6. En el campo **Sitio** , especifique o seleccione un valor. Si está usando USMF, puede seleccionar el sitio 2.  
-7. En el campo **Almacén** , especifique o seleccione un valor. Si está usando USMF, puede seleccionar el almacén 24.  
+2. En el campo **Tipo de pedido de trabajo**, seleccione "Reabastecimiento".
+3. En el **Panel de acciones**, haga clic en **Nuevo**.
+4. En el campo **Nombre**, escriba un valor.
+5. En el campo **Tipo de trabajo**, seleccione "Seleccionar".
+6. En el campo **Sitio**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar el sitio 2.  
+7. En el campo **Almacén**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar el almacén 24.  
 8. Haga clic en **Guardar**.
 9. En la sección **Líneas** , haga clic en **Nuevo**.
 10. En la lista, marque la fila seleccionada.
-11. En el campo **Cantidad final** , especifique un número. Por ejemplo, puede establecerlo en 9999.  
+11. En el campo **Cantidad final**, especifique un número. Por ejemplo, puede establecerlo en 9999.  
 12. Active la casilla **Permitir división**. Si selecciona esta opción, el proceso de creación de trabajo permitirá dividir cantidades de línea de trabajo entre múltiples ubicaciones.  
 13. Haga clic en **Guardar**.
-14. En la sección **Acciones de directiva de ubicación** , haga clic en **Nuevo**.
+14. En la sección **Acciones de directiva de ubicación**, haga clic en **Nuevo**.
 15. En la lista, marque la fila seleccionada.
-16. En el campo **Nombre** , escriba un valor.
+16. En el campo **Nombre**, escriba un valor.
 17. Haga clic en **Guardar**.
-18. En el **Panel Acciones** , haga clic en **Editar solicitud**. Puede editar esta consulta para agregar restricciones desde las que se puede seleccionar el inventario en el proceso de reabastecimiento. Por ejemplo, podría ser que el inventario solo se debe usar desde el área de almacenaje del almacén.
+18. En el **Panel Acciones**, haga clic en **Editar solicitud**. Puede editar esta consulta para agregar restricciones desde las que se puede seleccionar el inventario en el proceso de reabastecimiento. Por ejemplo, podría ser que el inventario solo se debe usar desde el área de almacenaje del almacén.
 19. Haga clic en **Aceptar**.
 20. Cierre la página.
 
 ## <a name="create-a-replenishment-work-template"></a>Crear una plantilla de trabajo de reabastecimiento
 1. Vaya a **Gestión de almacenes > Configurar > Trabajo > Plantillas de trabajo**. La plantilla de trabajo se usa para guiar al sistema respecto a cómo se debe crear el trabajo de reabastecimiento mínimo o máximo. Como mínimo, debe haber una línea de plantilla de trabajo para un picking y una colocación. La plantilla de trabajo dirá que no es válida hasta que no se haya completado toda la información necesaria. 
-2. En el campo **Tipo de pedido de trabajo** , seleccione "Reabastecimiento".
-3. En el **Panel de acciones** , haga clic en **Nuevo**.
-4. En el campo **Plantilla de trabajo** , escriba un valor.
+2. En el campo **Tipo de pedido de trabajo**, seleccione "Reabastecimiento".
+3. En el **Panel de acciones**, haga clic en **Nuevo**.
+4. En el campo **Plantilla de trabajo**, escriba un valor.
 5. Haga clic en **Guardar**.
-6. En la sección **Detalles de plantilla de trabajo** , haga clic en **Nuevo**.
-7. En el campo **Tipo de trabajo** , seleccione "Seleccionar".
-8. En el campo **Id. de la clase de trabajo** , especifique o seleccione un valor. Esto se debe ser una clase de trabajo relacionada con el reabastecimiento. Si utiliza USMF, seleccione Reabastecer.  
-9. En la sección **Detalles de plantilla de trabajo** , haga clic en **Nuevo**.
+6. En la sección **Detalles de plantilla de trabajo**, haga clic en **Nuevo**.
+7. En el campo **Tipo de trabajo**, seleccione "Seleccionar".
+8. En el campo **Id. de la clase de trabajo**, especifique o seleccione un valor. Esto se debe ser una clase de trabajo relacionada con el reabastecimiento. Si utiliza USMF, seleccione Reabastecer.  
+9. En la sección **Detalles de plantilla de trabajo**, haga clic en **Nuevo**.
 10. En la lista, marque la fila seleccionada.
-11. En el campo **Tipo de trabajo** , seleccione 'Colocar'.
-12. En el campo **Id. de la clase de trabajo** , especifique o seleccione un valor.
+11. En el campo **Tipo de trabajo**, seleccione 'Colocar'.
+12. En el campo **Id. de la clase de trabajo**, especifique o seleccione un valor.
 13. Haga clic en **Guardar**.
 14. Cierre la página.
 
 ## <a name="create-a-new-replenishment-template"></a>Crear una nueva plantilla de reabastecimiento
 1. Vaya a **Administración de almacenes > Configurar > Reabastecimiento > Plantillas de reabastecimiento**. La plantilla de reabastecimiento se usa para definir los artículos y las cantidades, y la ubicación para reabastecimiento.
-2. En el **Panel de acciones** , haga clic en **Nuevo**.
-3. En el campo **Plantilla de reabastecimiento** , escriba un valor. Asigne un nombre a la plantilla para indicar que es para reabastecimiento mínimo o máximo.  
-4. En el campo **Descripción** , escriba un valor.
+2. En el **Panel de acciones**, haga clic en **Nuevo**.
+3. En el campo **Plantilla de reabastecimiento**, escriba un valor. Asigne un nombre a la plantilla para indicar que es para reabastecimiento mínimo o máximo.  
+4. En el campo **Descripción**, escriba un valor.
 5. Active la casilla **Permitir demanda de oleadas para usar cantidades sin reservar**. Si selecciona esta opción, permite que el reabastecimiento de demanda de oleadas consuma las cantidades relacionadas con el reabastecimiento mínimo o máximo. Por ejemplo, esto podría ser útil si no se procesa inmediatamente el trabajo de reabastecimiento mínimo o máximo, para evitar que se cree el trabajo de reabastecimiento de demanda innecesario.
-6. En la sección **Detalles de plantilla de reabastecimiento** , haga clic en **Nuevo**.
-7. En el campo **Número de secuencia** , especifique un número.
-8. En el campo **Descripción** , escriba un valor.
+6. En la sección **Detalles de plantilla de reabastecimiento**, haga clic en **Nuevo**.
+7. En el campo **Número de secuencia**, especifique un número.
+8. En el campo **Descripción**, escriba un valor.
 9. En la lista, marque la fila seleccionada.
-10. En el campo **Unidad de reabastecimiento** , especifique o seleccione un valor. Por ejemplo, seleccione uds. Esta configuración es obligatoria. Permite especificar otra unidad de medida para el trabajo de reabastecimiento en comparación con la unidad especificada para los niveles de existencias mínimo y máximo en esta plantilla.
-11. En el campo **Plantilla de trabajo** , especifique o seleccione un valor. Elija la plantilla de trabajo que ha creado anteriormente.  
-12. En el campo **Cantidad mínima** , escriba un número. Seleccione la cantidad mínima que debe desencandenar el reabastecimiento. Por ejemplo, establezca esto en 50. Es posible dejar este valor establecido en cero, si está reaprovisionando una ubicación fija y la opción **Reabastecer solo ubicaciones fijas vacías** se establece en "Sí". También recomendamos que seleccione la opción **Reabastecer solo ubicaciones fijas** por motivos de rendimiento.
-13. En el campo **Cantidad máxima** , escriba un número. Por ejemplo, establezca esto en 100.  
-14. En el campo **Unidad** , especifique o seleccione un valor. Asigne la unidad para las cantidades mínima y máxima. Por ejemplo, establezca esto en uds.  
+10. En el campo **Unidad de reabastecimiento**, especifique o seleccione un valor. Por ejemplo, seleccione uds. Esta configuración es obligatoria. Permite especificar otra unidad de medida para el trabajo de reabastecimiento en comparación con la unidad especificada para los niveles de existencias mínimo y máximo en esta plantilla.
+11. En el campo **Plantilla de trabajo**, especifique o seleccione un valor. Elija la plantilla de trabajo que ha creado anteriormente.  
+12. En el campo **Cantidad mínima**, escriba un número. Seleccione la cantidad mínima que debe desencandenar el reabastecimiento. Por ejemplo, establezca esto en 50. Es posible dejar este valor establecido en cero, si está reaprovisionando una ubicación fija y la opción **Reabastecer solo ubicaciones fijas vacías** se establece en "Sí". También recomendamos que seleccione la opción **Reabastecer solo ubicaciones fijas** por motivos de rendimiento.
+13. En el campo **Cantidad máxima**, escriba un número. Por ejemplo, establezca esto en 100.  
+14. En el campo **Unidad**, especifique o seleccione un valor. Asigne la unidad para las cantidades mínima y máxima. Por ejemplo, establezca esto en uds.  
 15. Active la casilla **Reabastecer solo ubicaciones fijas vacías**. Active esta casilla para reabastecer ubicaciones fijas cuando estén vacías. De lo contrario, solo se reabastecerán las ubicaciones en las que existe una cantidad disponible.
 16. Active la casilla **Reabastecer solo ubicaciones fijas**.
 17. Haga clic en **Seleccionar productos**. Este es el lugar para definir qué productos se deben reabastecer. Si se selecciona la opción de ubicaciones de picking fijas, también debe definir las ubicaciones en esta consulta. Hay disponibles consultas específicas de variantes además de consultas específicas de productos.
 18. Seleccione la fila **Artículos**.
-19. En el campo **Criterios** , escriba un valor. Seleccione los artículos que se deben reabastecer en las ubicaciones fijas. Por ejemplo, escriba A* para seleccionar todos los números de artículo que comienzan por A.
+19. En el campo **Criterios**, escriba un valor. Seleccione los artículos que se deben reabastecer en las ubicaciones fijas. Por ejemplo, escriba A* para seleccionar todos los números de artículo que comienzan por A.
 20. Haga clic en **Agregar**. Agregue la entidad de ubicación (a menos que ya existe) para poder restringir el trabajo de reabastecimiento a las ubicaciones de picking fijas dentro de un área específica del almacén.
 21. En la lista, marque la fila seleccionada.
 22. Establezca el campo **Tabla** en "Ubicaciones".
-23. En el campo **Campo** , seleccione "Id. de perfil de ubicación".
-24. En el campo **Criterios** , especifique o seleccione un valor.
+23. En el campo **Campo**, seleccione "Id. de perfil de ubicación".
+24. En el campo **Criterios**, especifique o seleccione un valor.
 25. Haga clic en **Aceptar**.
 26. Cierre la página.
 
@@ -110,7 +110,7 @@ Este procedimiento le muestra cómo configurar un nuevo proceso de reabastecimie
 1. Vaya a **Administración de almacenes > Reabastecimiento > Reabastecimientos**. La página Reabastecimientos le permite configurar el reabastecimiento para que se ejecute como un trabajo por lotes, o para requerir que se inicie manualmente.
 2. Haga clic en **Filtro.**
 3. En la lista, marque la fila seleccionada.
-4. En el campo **Criterios** , especifique o seleccione un valor.
+4. En el campo **Criterios**, especifique o seleccione un valor.
 5. Haga clic en **Aceptar**.
 6. Expanda la sección **Ejecutar en segundo plano**.
 7. Establezca la opción **Procesamiento por lotes** en "Sí".

@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018615"
+ms.locfileid: "4437281"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Registrar la recepción de mercancías en el pedido de compra
 
@@ -33,10 +33,10 @@ Este tema explica cómo registrar la recepción de mercancías directamente en u
 ## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>Preparar un nuevo pedido de compra para la recepción de mercancías
 1. Vaya a **Panel de exploración, Módulos > Adquisición y abastecimiento > Pedidos de compra > Todos los pedidos de compra**.
 2. Seleccione **Nuevo**.
-3. En el campo **Cuenta de proveedor** , escriba `US-101`.
+3. En el campo **Cuenta de proveedor**, escriba `US-101`.
 4. Seleccione **Aceptar**.
-5. En el campo **Número de artículo** , especifique `M0001`.
-6. En el campo **Cantidad** , especifique `5`.
+5. En el campo **Número de artículo**, especifique `M0001`.
+6. En el campo **Cantidad**, especifique `5`.
 7. En el panel de acciones, selecione **Compra.**
 8. Seleccione **Confirmar**.
 
@@ -44,7 +44,7 @@ Este tema explica cómo registrar la recepción de mercancías directamente en u
 1. En el panel de acciones, seleccione **Recibir**.
 2. Seleccione **Recepción de producto**. El campo **Cantidad** le permite seleccionar diferentes opciones para la cantidad que desea recibir. Por ejemplo, si se ha registrado una cantidad anteriormente en el almacén, puede seleccionar **Cantidad registrada**. Para este ejemplo, utilice el valor **Cantidad pedida**.
 3. Expanda la sección **Información general**.
-4. En el campo **Recepción de producto** , escriba cualquier valor. Este campo se utiliza para especificar una referencia que se usará como asiento para el diario de recepción de productos.  
+4. En el campo **Recepción de producto**, escriba cualquier valor. Este campo se utiliza para especificar una referencia que se usará como asiento para el diario de recepción de productos.  
 5. Expanda la sección **Líneas**.
 6. Establezca el valor de **Cantidad** en '4'. Aquí puede especificar manualmente la cantidad que se está recibiendo para cada línea del pedido.  
 7. Seleccione **Aceptar**. Las mercancías se han registrado ahora como recibidas en el pedido de compra y se ha creado un diario de recepción de producto como documento para reflejar esto. Puede utilizar la acción Recepción de producto para revisar los diarios creados con el pedido de compra y ver qué se ha recibido y cuándo.  

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6428981fcf560c541634d9466695be7bce4cb453
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.openlocfilehash: 2686dd6db032239e2a3aac03f3998cee055302f6
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888962"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4437303"
 ---
 # <a name="maintenance-forecasts"></a>Previsiones de mantenimiento
 
@@ -57,7 +57,7 @@ Es posible que pueda agregar líneas de previsión a una orden de trabajo o elim
 
 Hay tres formas de agregar artículos a una previsión de mantenimiento de pedidos de trabajo. Puede crear líneas para artículos (recambios) que no se incluyen en la lista de recambios o lista de materiales (BOM) del activo, puede seleccionar recambios de la lista de recambios aprobadas o puede seleccionar artículos de la lista de materiales (BOM) del activo.
 
-- En la página **Pronóstico de mantenimiento de órdenes de trabajo**, seleccione el trabajo de una orden de trabajo al que se va a agregar una previsión.
+- En la página **Pronóstico de mantenimiento de órdenes de trabajo** , seleccione el trabajo de una orden de trabajo al que se va a agregar una previsión.
 
 - En el ficha desplegable **Artículos**, agregue los artículos a la previsión de mantenimiento mediante el método adecuado.
 

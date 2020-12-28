@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9bf5e92ad6bc62dd008a51aacca891cb7253a723
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018038"
+ms.locfileid: "4437204"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Crear pedido de repetición de compra
 
@@ -33,7 +33,7 @@ Este tema le muestra cómo crear un pedido de compra de repetición copiando lí
 ## <a name="create-a-new-repeat-purchase-order"></a>Crear un nuevo pedido de compra de repetición
 1. En el panel de exploración, vaya a **Módulos > Adquisición y abastecimiento > Pedidos de compra > Todos los pedidos de compra**. En primer lugar intentaremos la opción de copiar la información en un nuevo pedido.  
 2. Seleccione **Nuevo**.
-3. En el campo **Cuenta de proveedor** , escriba `US-101`.
+3. En el campo **Cuenta de proveedor**, escriba `US-101`.
 4. Seleccione **Aceptar**.
 5. En el panel de acciones, haga clic en **Pedido de compra**.
 6. Seleccione **De todos**. Esta es la página desde la que puede copiar desde pedidos existentes en su pedido. Hay diversas opciones para cómo se copian las líneas y diferentes tipos de documentos desde los que puede copiar. Miraremos las opciones para cómo se copian las líneas primero. 
@@ -43,12 +43,12 @@ Este tema le muestra cómo crear un pedido de compra de repetición copiando lí
     - El campo **Invertir el signo** también admite el cambio de la cantidad pedida al cambiar el signo de la cantidad para las líneas de pedido que se agregan. Esto puede ser útil si tiene que invertir una transacción, creando las líneas de pedido que niegan la transacción. Esta opción se selecciona automáticamente cuando se abre la página desde la acción **Crear nota de abono**.  
     - La opción **Copiar gastos** permite copiar gastos en su nuevo pedido del documento del que está copiando las líneas de pedido.  
     - La opción **Volver a calcular** el precio utiliza los precios y descuentos actuales en lugar de copiarlos del documento desde el que está copiando otra información.  
-    - La opción **Copiar con exactitud** crea una copia exacta de los valores en todos los campos de las líneas y del encabezado del documento de pedido. Si esta opción no está seleccionada, los valores predeterminados se utilizan para muchos de los campos relativos al proveedor y a los productos como si estuviera creando el nuevo pedido manualmente. Por ejemplo, si el pedido desde el que está copiando había anulado la cuenta de la factura predeterminada para el proveedor, esa misma cuenta de factura se copiaría en el pedido. Si no seleccionó la opción **Copiar con exactitud** , la cuenta de la factura predeterminada para el proveedor se usaría en su lugar en el pedido.  
+    - La opción **Copiar con exactitud** crea una copia exacta de los valores en todos los campos de las líneas y del encabezado del documento de pedido. Si esta opción no está seleccionada, los valores predeterminados se utilizan para muchos de los campos relativos al proveedor y a los productos como si estuviera creando el nuevo pedido manualmente. Por ejemplo, si el pedido desde el que está copiando había anulado la cuenta de la factura predeterminada para el proveedor, esa misma cuenta de factura se copiaría en el pedido. Si no seleccionó la opción **Copiar con exactitud**, la cuenta de la factura predeterminada para el proveedor se usaría en su lugar en el pedido.  
     - La opción **Eliminar las líneas** de compra elimina todas las líneas de pedido de compra que ya existen en el pedido de compra en el que está copiando, antes de aplicar las líneas nuevas. Utilice esta opción con precaución, ya que elimina todas las líneas existentes sin ninguna advertencia adicional.  
-    - Si utiliza la opción **Copiar la cabecera de pedido** , usted no necesita crear manualmente la información de la cabecera en su nuevo pedido. Observe que esta opción dará como resultados valores predeterminados que se utilizan para los campos asociados al proveedor. Si el documento desde el que está copiando tiene valores que no son predeterminados que desea copiar, use también la opción **Copiar con exactitud**.   
+    - Si utiliza la opción **Copiar la cabecera de pedido**, usted no necesita crear manualmente la información de la cabecera en su nuevo pedido. Observe que esta opción dará como resultados valores predeterminados que se utilizan para los campos asociados al proveedor. Si el documento desde el que está copiando tiene valores que no son predeterminados que desea copiar, use también la opción **Copiar con exactitud**.   
     - Hay diferentes orígenes de documento desde los que puede copiar y cada uno de ellos tiene una sección independiente en esta página. Por ejemplo, la sección **Pedidos de compra** le permite copiar de pedidos de compra existentes.  
 
-8. En la sección **Pedidos de compra** , seleccione las líneas que desea copiar en el portapapeles. Es posible seleccionar líneas de pedidos de compra adicionales de otros pedidos de compra y copiarlos también en el pedido. También es posible agregar líneas de otros tipos de documentos de compra. En los pasos siguientes pasos se revisan las diferentes opciones.  
+8. En la sección **Pedidos de compra**, seleccione las líneas que desea copiar en el portapapeles. Es posible seleccionar líneas de pedidos de compra adicionales de otros pedidos de compra y copiarlos también en el pedido. También es posible agregar líneas de otros tipos de documentos de compra. En los pasos siguientes pasos se revisan las diferentes opciones.  
 9. Expanda la sección **Confirmación**. Aquí puede seleccionar confirmaciones de pedidos de compra desde la que copiar. Las confirmaciones de pedidos de compra se identifican por el id. de diario de compra asociado o el id. de pedido de compra.  
 10. Expanda la sección **Recepciones de producto**. Aquí puede seleccionar diarios de recepciones de producto desde los que copiar. Los diarios de recepciones de producto se identifican por el asiento de recepción de producto o el id. de pedido de compra.   
 11. Expanda la sección **Facturas**. Aquí puede seleccionar facturas de proveedor desde las que copiar. Las facturas se identifican por el asiento de factura o el id. de pedido de compra.   
@@ -64,7 +64,7 @@ En vez de copiar un pedido completo, es más habitual crear un nuevo pedido de c
 3. Expanda la sección **Parámetros**.
 
     - La opción **Eliminar las líneas de compra** no está seleccionada. Esto significa que puede copiar nuevas líneas en su pedido sin eliminar las líneas existentes.   
-    - No se selecciona tampoco la opción **Copiar la cabecera de pedido** , pues solo estamos agregando líneas adicionales al pedido.   
+    - No se selecciona tampoco la opción **Copiar la cabecera de pedido**, pues solo estamos agregando líneas adicionales al pedido.   
     - Para este ejemplo, copiaremos líneas de un pedido de compra existente.   
 
 4. Seleccione la línea para la orden de pedido que desea. Observe que la línea de pedido única que se encuentra en este pedido de compra también está seleccionada.  

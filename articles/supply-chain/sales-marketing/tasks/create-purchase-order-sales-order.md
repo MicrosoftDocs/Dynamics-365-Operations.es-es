@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018707"
+ms.locfileid: "4437252"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Crear un pedido de compra desde un pedido de ventas
 
@@ -33,37 +33,37 @@ Este procedimiento muestra cómo crear un pedido de compra basado en un pedido d
 ## <a name="create-a-purchase-order-from-a-sales-order"></a>Crear un pedido de compra desde un pedido de ventas
 1. Vaya a **Panel de navegación > Módulos > Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas**.
 2. Haga clic en **Nuevo**.
-3. En el campo **Cuenta de cliente** , haga clic en el botón desplegable para abrir la búsqueda.
+3. En el campo **Cuenta de cliente**, haga clic en el botón desplegable para abrir la búsqueda.
 4. En la lista, busque y seleccione el registro deseado.
 5. Haga clic en **Aceptar**.
-6. En el campo **Código de artículo** , haga clic en el botón desplegable para abrir la búsqueda.
+6. En el campo **Código de artículo**, haga clic en el botón desplegable para abrir la búsqueda.
 7. En la lista, busque y seleccione el registro deseado. Si está usando USMF, podría seleccionar D0001.  
-8. En el campo **Cantidad** , especifique un número.
+8. En el campo **Cantidad**, especifique un número.
 9. Haga clic en **Agregar línea.**
-10. En el campo **Código de artículo** , haga clic en el botón desplegable para abrir la búsqueda.
+10. En el campo **Código de artículo**, haga clic en el botón desplegable para abrir la búsqueda.
 11. En la lista, busque y seleccione el registro deseado. Si está usando USMF, podría seleccionar T0020.  
 12. En la lista, haga clic en el vínculo de la fila seleccionada.
-13. En el campo **Cantidad** , especifique un número.
+13. En el campo **Cantidad**, especifique un número.
 14. Haga clic en **Guardar**.
-15. En el **panel de acciones** , haga clic en **Pedido de ventas**.
+15. En el **panel de acciones**, haga clic en **Pedido de ventas**.
 16. Haga clic en **Pedido de compra**. La página **Crear pedido de compra** muestra todas las líneas de pedidos de ventas abiertas que se han copiado del pedido de ventas. Puede revisar los detalles del pedido y, si es necesario, modificar los detalles seleccionados como condiciones de precios y cantidad de compra antes de crear las compras. 
 17. Seleccione la opción **Incluir todos**.
     - Si desea generar una pedidos de compra solo para un subconjunto de las líneas de pedidos de ventas, selecciónelas de manera individual.  
     - El campo **Cuenta de proveedor** puede o no rellenarse con un número de proveedor. Si el proveedor predeterminado está configurado para el producto (en la cobertura de artículo asociada), este proveedor se copiará en la línea. De lo contrario, debe especificar un proveedor manualmente.  En esta guía, independientemente de si el campo **Cuenta de proveedor** ya contiene un valor o no, los siguientes pasos le indican que seleccione un nuevo proveedor que sea diferente para cada línea.  
-18. En el campo **Cuenta de proveedor** , haga clic en el botón desplegable para abrir la búsqueda.
+18. En el campo **Cuenta de proveedor**, haga clic en el botón desplegable para abrir la búsqueda.
 19. En la lista, busque y seleccione el registro deseado.
 20. En la lista, haga clic en el vínculo de la fila seleccionada.
 21. Seleccione la segunda línea del pedido.
-22. En el campo **Cuenta de proveedor** , haga clic en el botón desplegable para abrir la búsqueda.
+22. En el campo **Cuenta de proveedor**, haga clic en el botón desplegable para abrir la búsqueda.
 23. En la lista, busque y seleccione el registro deseado.
 24. En la lista, haga clic en el vínculo de la fila seleccionada.
 25. Hacer clic en **Validar**.
 26. Haga clic en **Aceptar**. El mensaje informa de que se han creado uno o varios pedidos de compra. El sistema genera un pedido de compra independiente para cada proveedor que ha especificado para las líneas de pedido de ventas. Esto significa que si el mismo proveedor va a proporcionar varias líneas de pedidos de ventas, se generará un único pedido de compra con varias líneas.  
 
 ## <a name="review-purchase-orders-created-from-sales-orders"></a>Revisar los pedidos de compra creados a partir de pedidos de ventas
-1. En el **panel de acciones** , haga clic en **General**.
+1. En el **panel de acciones**, haga clic en **General**.
 2. Haga clic en **Pedidos relacionados**. La página **Pedidos relacionados** muestra todos los pedidos que se crearon del pedido de ventas. En este ejemplo, hay dos pedidos de compra generados para dos proveedores diferentes respectivamente. 
-3. Haga clic para seguir el vínculo en el campo **Pedido de compra**. Cada línea de pedido de compra se asocia con la línea de pedido de ventas que condujo a la compra. La relación con el pedido de ventas se indica en la ficha **Producto** de la ficha desplegable **Detalles de línea** , en los campos **Tipo de referencia** , **Número de referencia** y **Lote de referencia**.  
+3. Haga clic para seguir el vínculo en el campo **Pedido de compra**. Cada línea de pedido de compra se asocia con la línea de pedido de ventas que condujo a la compra. La relación con el pedido de ventas se indica en la ficha **Producto** de la ficha desplegable **Detalles de línea**, en los campos **Tipo de referencia**, **Número de referencia** y **Lote de referencia**.  
 4. Expanda o contraiga la sección **Detalles de línea**.
 5. Haga clic en la ficha **Producto**.
     - El **Lote de referencia** garantiza que los costes de la compra actual se carguen en el pedido de ventas vinculado.  

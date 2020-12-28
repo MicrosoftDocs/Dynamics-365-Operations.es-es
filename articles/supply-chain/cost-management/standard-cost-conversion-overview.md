@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214398"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436933"
 ---
 # <a name="standard-cost-conversion-overview"></a>Visión general de conversión de costes estándares
 
@@ -32,7 +32,7 @@ ms.locfileid: "3214398"
 
 Este artículo proporciona una visión general del proceso para ayudarle a configurar y a ejecutar una conversión de coste estándar. Los pasos mostrados están pensados para completarse una vez se hayan completado los requisitos previos para una conversión de coste estándar. 
 
-Utilice la página **Conversiones de costes estándar** para convertir el modelo de inventario para un lote de artículos seleccionados del enfoque de gestión de costes real al enfoque de coste estándar. El proceso de conversión implica realizar un cierre de inventario como requisito previo, realizando diversos pasos durante un período de transición, definido por una fecha de inicio de transición y una fecha de conversión planificada) y, a continuación realizando la conversión y un cierre de inventario asociado.
+Utilice la página **Conversiones de costes estándar** para convertir el modelo de inventario para un lote de artículos seleccionados del enfoque de gestión de costes real al enfoque de coste estándar. El proceso de conversión implica realizar un cierre de inventario como requisito previo, realizando diversos pasos durante un período de transición, definido por una fecha de inicio de transición y una fecha de conversión planificada y, a continuación realizando la conversión y un cierre de inventario asociado.
 
 -   Cierre de inventario antes del período de transición: el cierre de inventario representa un requisito previo, ya que liquida las transacciones abiertas de un artículo con el método de valoración anterior. Durante el período de transición, puede especificar transacciones con fecha anterior, tales como facturas, para que pueda cerrar el período anterior. El cierre de inventario debe ser un día antes de la fecha inicial de la transición para asegurar una clara separación del método de valoración anterior.
 -   Pasos de conversión durante el período de transición: use la página **Conversiones de costes estándar** para crear un registro de conversión que también incluya el identificador definido por el usuario para una nueva versión de gestión de costes. Identifique los artículos que requieren conversión y especifique los costes estándar pendientes de los artículos en la nueva versión de gestión de costes. Realice una comprobación de los artículos seleccionados para identificar problemas que podrían impedir la conversión y soluciónelos, y después realice comprobación. Cuando el resultado de las comprobaciones de los artículos sea satisfactorio, cambie el estado del registro de conversión a **Preparado**. En la fecha de conversión planificada, realice la conversión y opcionalmente incluya un cierre de inventario. Los movimientos de inventario de un artículo durante el período de transición se registran y valoran según el modelo de inventario anterior. A continuación, cuando el proceso de conversión se haya completado correctamente, los movimientos de inventario se vuelven a valorar como costes estándar.
@@ -60,13 +60,13 @@ La nueva versión de gestión de costes está dedicada al registro de conversió
 La información de coste de artículo dentro de la versión de gestión de costes dedicada solo se puede mantener desde la página **Conversiones de costes estándar**. No puede usar las páginas **Configuración de la versión de gestión de costes** o **Mantenimiento de la versión de gestión de costes** para calcular los costes de la versión de gestión de costes durante la conversión. Sin embargo, puede usar estas páginas para mantener la versión de gestión de costes dedicada después de haber completado el proceso de conversión.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Identifique los artículos que se convertirán al coste estándar
-Use la página**Conversiones de costes estándar** para identificar los artículos individuales que se deben convertir al coste estándar. Puede agregar varios artículos mediante la página **Agregar artículos a la conversión de coste estándar**. En general, debe incluir todos los artículos fabricados en un único registro de conversión para ayudar a garantizar que los costes se calculen correctamente.
+Use la página **Conversiones de costes estándar** para identificar los artículos individuales que se deben convertir al coste estándar. Puede agregar varios artículos mediante la página **Agregar artículos a la conversión de coste estándar**. En general, debe incluir todos los artículos fabricados en un único registro de conversión para ayudar a garantizar que los costes se calculen correctamente.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Especifique o calcule el coste estándar pendiente para cada artículo que se esté convirtiendo
 Use la página **Precio de artículo** para especificar costes estándares pendientes dentro de la versión de gestión de costes dedicada para artículos adquiridos y artículos de transferencia. Los registros de coste son específicos del sitio y se deben introducir los costes pendientes de un artículo para cada sitio. Utilice la página **Precio de artículo** para calcular los costes estándar pendientes para artículos fabricados. Los costes pendientes de un artículo fabricado se deben calcular para cada sitio de fabricación, a menos que el sitio represente un sitio de transferencia. En este caso, los costes pendientes deben especificarse manualmente. Algunos artículos pueden tener dimensiones de producto de color, tamaño o configuración. En la página **Conversiones de costes estándar**, la casilla **Usar precio de coste por variante** muestra el coste estándar para cada combinación de dimensiones de producto. Si esta casilla está desactivada, solo debe especificar un coste pendiente para el artículo.
 
 ## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Compruebe si hay algún problema en los artículos que se están convirtiendo y, en su caso, resuélvalos.
-Use el informe**Comprobaciones de conversión de coste estándar** para identificar problemas para los artículos que se están convirtiendo. Si un artículo no tiene ningún problema, su estado dentro del registro de conversión cambia a **Comprobado**. Si un artículo tiene problemas, debe solucionarlos y volver a ejecutar el informe hasta que su estado cambie a **Comprobado**. Si no puede solucionar los problemas de un artículo, puede eliminar el artículo del registro de conversión y convertirlo más adelante.
+Use el informe **Comprobaciones de conversión de coste estándar** para identificar problemas para los artículos que se están convirtiendo. Si un artículo no tiene ningún problema, su estado dentro del registro de conversión cambia a **Comprobado**. Si un artículo tiene problemas, debe solucionarlos y volver a ejecutar el informe hasta que su estado cambie a **Comprobado**. Si no puede solucionar los problemas de un artículo, puede eliminar el artículo del registro de conversión y convertirlo más adelante.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Cambie el estado del registro de conversión a Preparado
 Cuando el estado del registro de conversión se cambia a **Preparado**, el sistema realiza una comprobación final antes de ejecutar una conversión de coste estándar. El estado solo cambia a **Preparado** si se han cumplido las siguientes condiciones:

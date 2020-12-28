@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015835"
+ms.locfileid: "4437263"
 ---
 # <a name="wave-template-grouping"></a>Agrupación de plantillas de oleada
 
@@ -34,10 +34,10 @@ La agrupación de plantillas de oleada permite que el sistema utilice configurac
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Activar la característica Agrupación de plantillas de oleada
 
-Antes de poder usar la característica *Agrupación de plantillas de oleada* , esta debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones** , la función aparece de la siguiente forma:
+Antes de poder usar la característica *Agrupación de plantillas de oleada*, esta debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
-- **Nombre de característica** : *Agrupación de plantillas de oleada*
+- **Nombre de característica**: *Agrupación de plantillas de oleada*
 
 ## <a name="set-a-wave-template-to-use-wave-template-grouping"></a><a name="set-up-template"></a>Establecer una plantilla de oleada para usar una agrupación de plantillas de oleada
 
@@ -46,14 +46,14 @@ Para que la agrupación de plantillas de oleada esté disponible, siga estos pas
 1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
 1. En el panel izquierdo, seleccione la plantilla de oleada que desea configurar. Si se está preparando para trabajar en el escenario que aparece más adelante en este tema utilizando datos de demostración, seleccione la plantilla **62 Envío predeterminado**.
 1. Seleccione **Editar** para poner la página en modo de edición.
-1. En la ficha desplegable **General** , establezca los valores siguientes:
+1. En la ficha desplegable **General**, establezca los valores siguientes:
 
     - **Automatizar la creación de oleadas:** *Sí*
     - **Asignar a oleadas abiertas:** *Sí*
     - **Procesar oleada para su liberación al almacén:** *No*
 
 1. En el panel de acciones, seleccione **Editar consulta** para abrir el cuadro de diálogo de consulta.
-1. En el cuadro de diálogo de consulta, en la pestaña **Ordenación** , revise los criterios de ordenación y asegúrese de que haya una regla que incluya el campo que desea usar para agrupar sus oleadas.
+1. En el cuadro de diálogo de consulta, en la pestaña **Ordenación**, revise los criterios de ordenación y asegúrese de que haya una regla que incluya el campo que desea usar para agrupar sus oleadas.
 
     Si se está preparando para trabajar en el escenario utilizando datos de demostración, agregue una fila que tenga los siguientes valores:
 
@@ -68,7 +68,7 @@ Para que la agrupación de plantillas de oleada esté disponible, siga estos pas
 
 1. Seleccione **Aceptar** para guardar sus cambios y cerrar el cuadro de diálogo de consulta.
 1. En el panel de acciones, seleccione **Agrupación de plantillas de oleada**.
-1. En la página **Agrupación de plantillas de oleada** , seleccione la casilla **Agrupar por** para cada fila que desee utilizar para agrupar sus líneas de pedido en oleadas, según sea necesario. Si se está preparando para trabajar en el escenario utilizando datos de demostración, seleccione la casilla **Agrupar por** para la fila *Servicio de transportista*.
+1. En la página **Agrupación de plantillas de oleada**, seleccione la casilla **Agrupar por** para cada fila que desee utilizar para agrupar sus líneas de pedido en oleadas, según sea necesario. Si se está preparando para trabajar en el escenario utilizando datos de demostración, seleccione la casilla **Agrupar por** para la fila *Servicio de transportista*.
 1. Seleccione **Guardar**.
 1. Cierre la página **Agrupación de plantillas de oleada**.
 1. Seleccione **Guardar** para guardar la plantilla.
@@ -93,30 +93,30 @@ Antes de empezar, prepare su plantilla de oleada como se describe en la sección
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. Seleccione **Nuevo** para crear un pedido de ventas.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
-    - En la ficha desplegable **Cliente** , establezca el campo **Cuenta de cliente** en *US-004*.
-    - En la ficha desplegable **General** , establezca el campo **Almacén** en *62*.
+    - En la ficha desplegable **Cliente**, establezca el campo **Cuenta de cliente** en *US-004*.
+    - En la ficha desplegable **General**, establezca el campo **Almacén** en *62*.
 
 1. Seleccione **Aceptar** para crear el pedido de ventas y cierre el cuadro de diálogo **Crear pedido de ventas**.
 1. El nuevo pedido de ventas se abre en la vista **Líneas**. Anote el número del pedido de ventas.
 1. Cambie a la vista **Encabezado**.
-1. En la ficha desplegable **Entrega** , en la sección **Transporte** , establezca los siguientes valores:
+1. En la ficha desplegable **Entrega**, en la sección **Transporte**, establezca los siguientes valores:
 
     - **Transportista de envío:** *Carga aérea*
     - **Servicio de transportista:** *Aire*
 
 1. Vuelva a la vista **Líneas**.
-1. En la sección **Líneas de pedido de ventas** , seleccione **Agregar línea** para agregar una línea a la cuadrícula.
+1. En la sección **Líneas de pedido de ventas**, seleccione **Agregar línea** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
     - **Código de artículo:** *A0002*
     - **Cantidad:** *2*
 
 1. Seleccione la nueva línea de pedido y, en el menú **Inventario** encima de la cuadrícula, seleccione **Reserva**.
-1. En la página **Reserva** , en el panel de acciones, seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
+1. En la página **Reserva**, en el panel de acciones, seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
 1. Cierre la página **Reserva** para volver al pedido de ventas.
-1. En el panel de acciones, en la pestaña **Almacén** , en el grupo **Acciones** , seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén**, en el grupo **Acciones**, seleccione **Liberar al almacén**.
 1. Recibirá un mensaje informativo que muestra el envío y la oleada de este pedido. Anote el número de id. de la oleada y los números de id. del envío.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-1"></a>Ver la oleada que se creó a partir del pedido de ventas 1
@@ -130,30 +130,30 @@ Antes de empezar, prepare su plantilla de oleada como se describe en la sección
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. Seleccione **Nuevo** para crear un pedido de ventas.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
-    - En la ficha desplegable **Cliente** , establezca el campo **Cuenta de cliente** en *US-005*.
-    - En la ficha desplegable **General** , establezca el campo **Almacén** en *62*.
+    - En la ficha desplegable **Cliente**, establezca el campo **Cuenta de cliente** en *US-005*.
+    - En la ficha desplegable **General**, establezca el campo **Almacén** en *62*.
 
 1. Seleccione **Aceptar** para crear el pedido de ventas y cierre el cuadro de diálogo **Crear pedido de ventas**.
 1. El nuevo pedido de ventas se abre en la vista **Líneas**. Anote el número del pedido de ventas.
 1. Cambie a la vista **Encabezado**.
-1. En la ficha desplegable **Entrega** , en la sección **Transporte** , establezca los siguientes valores:
+1. En la ficha desplegable **Entrega**, en la sección **Transporte**, establezca los siguientes valores:
 
     - **Transportista de envío:** *Flower Moving*
     - **Servicio de transportista:** *Estándar*
 
 1. Vuelva a la vista **Líneas**.
-1. En la sección **Líneas de pedido de ventas** , seleccione **Agregar línea** para agregar una línea a la cuadrícula.
+1. En la sección **Líneas de pedido de ventas**, seleccione **Agregar línea** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
     - **Código de artículo:** *A0001*
     - **Cantidad:** *1*
 
 1. Seleccione la nueva línea de pedido y, en el menú **Inventario** encima de la cuadrícula, seleccione **Reserva**.
-1. En la página **Reserva** , en el panel de acciones, seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
+1. En la página **Reserva**, en el panel de acciones, seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
 1. Cierre la página **Reserva** para volver al pedido de ventas.
-1. En el panel de acciones, en la pestaña **Almacén** , en el grupo **Acciones** , seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén**, en el grupo **Acciones**, seleccione **Liberar al almacén**.
 1. Recibirá un mensaje informativo que muestra el envío y la oleada de este pedido. Anote el número de id. de la oleada y los números de id. del envío. Observe que el id. de oleada difiere del id. de oleada del primer pedido de ventas.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-2"></a>Ver la oleada que se creó a partir del pedido de ventas 2
@@ -169,30 +169,30 @@ Se creó una nueva oleada para este envío, ya que utiliza un servicio de transp
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. Seleccione **Nuevo** para crear un pedido de ventas.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
-    - En la ficha desplegable **Cliente** , establezca el campo **Cuenta de cliente** en *US-006*.
-    - En la ficha desplegable **General** , establezca el campo **Almacén** en *62*.
+    - En la ficha desplegable **Cliente**, establezca el campo **Cuenta de cliente** en *US-006*.
+    - En la ficha desplegable **General**, establezca el campo **Almacén** en *62*.
 
 1. Seleccione **Aceptar** para crear el pedido de ventas y cierre el cuadro de diálogo **Crear pedido de ventas**.
 1. El nuevo pedido de ventas se abre en la vista **Líneas**. Anote el número del pedido de ventas.
 1. Cambie a la vista **Encabezado**.
-1. En la ficha desplegable **Entrega** , en la sección **Transporte** , establezca los siguientes valores:
+1. En la ficha desplegable **Entrega**, en la sección **Transporte**, establezca los siguientes valores:
 
     - **Transportista de envío:** *Air Cargo*
     - **Servicio de transportista:** *Aire*
 
 1. Vuelva a la vista **Líneas**.
-1. En la sección **Líneas de pedido de ventas** , seleccione **Agregar línea** para agregar una línea a la cuadrícula.
+1. En la sección **Líneas de pedido de ventas**, seleccione **Agregar línea** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
     - **Código de artículo:** *A0001*
     - **Cantidad:** *1*
 
 1. Seleccione la nueva línea de pedido y, en el menú **Inventario** encima de la cuadrícula, seleccione **Reserva**.
-1. En la página **Reserva** , en el panel de acciones, seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
+1. En la página **Reserva**, en el panel de acciones, seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
 1. Cierre la página **Reserva** para volver al pedido de ventas.
-1. En el panel de acciones, en la pestaña **Almacén** , en el grupo **Acciones** , seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén**, en el grupo **Acciones**, seleccione **Liberar al almacén**.
 1. Recibirá un mensaje informativo que muestra el envío y la oleada de este pedido. Anote el número de id. de la oleada y los números de id. del envío. El envío se ha asignado a la oleada existente desde el primer pedido de ventas.
 
 #### <a name="view-the-wave-for-sales-orders-1-and-3"></a>Ver la oleada para pedidos de ventas 1 y 3
@@ -200,4 +200,4 @@ Se creó una nueva oleada para este envío, ya que utiliza un servicio de transp
 1. Vaya a **Gestión de almacenes \> Oleadas de salida \> Oleadas de envío \> Todas las oleadas**.
 1. Seleccione el id. de oleada que se creó a partir del tercer pedido de ventas.
 1. Seleccione el enlace de id. de oleada para abrir la página Detalles de oleada.
-1. Observe que el envío se ha agregado a la ficha desplegable **Líneas de oleada** , junto con el envío para el primer pedido de ventas.
+1. Observe que el envío se ha agregado a la ficha desplegable **Líneas de oleada**, junto con el envío para el primer pedido de ventas.

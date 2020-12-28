@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017042"
+ms.locfileid: "4437242"
 ---
 # <a name="system-directed-work-sequencing"></a>Secuenciación del trabajo dirigida por el sistema
 
@@ -41,7 +41,7 @@ Por lo tanto, esta funcionalidad permite una mayor optimización de los procesos
 Antes de poder usar la secuenciación del trabajo dirigida por el sistema, la característica debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
 
 - **Módulo:** *Gestión de almacén*
-- **Nombre de la característica** : *Secuencia de trabajo dirigida al sistema de secuenciación de trabajo*
+- **Nombre de la característica**: *Secuencia de trabajo dirigida al sistema de secuenciación de trabajo*
 
 ## <a name="setup"></a>Configurar
 
@@ -60,7 +60,7 @@ Para resolver el escenario utilizando los valores que se presentan en este tema,
 1. En la lista de elementos de menú del dispositivo móvil, seleccione **Picking de ventas - Sistema**. El elemento de menú requerido ya debería existir. 
 1. Confirme los siguientes ajustes:
 
-    - En la ficha desplegable **General** , el campo **Dirigido por** debe establecerse en *Sistema dirigido*.
+    - En la ficha desplegable **General**, el campo **Dirigido por** debe establecerse en *Sistema dirigido*.
     - La ficha rápida **Clases de trabajo** debería mostrar la siguiente configuración.
 
         | Identificador de la clase de trabajo | Tipo de pedido de trabajo |
@@ -79,7 +79,7 @@ Para resolver el escenario utilizando los valores que se presentan en este tema,
 
 1. Seleccione **Guardar**.
 1. En el panel de acciones, seleccione **Editar consulta**.
-1. En la pestaña **Combinaciones** , expanda la jerarquía de combinación para mostrar la tabla **Lineas de trabajo**.
+1. En la pestaña **Combinaciones**, expanda la jerarquía de combinación para mostrar la tabla **Lineas de trabajo**.
 1. Seleccione la combinación de tabla **Lineas de trabajo**.
 1. Seleccione **Agregar unión de tabla**.
 1. En la lista que aparece, busque y seleccione la fila que tiene la siguiente configuración:
@@ -91,7 +91,7 @@ Para resolver el escenario utilizando los valores que se presentan en este tema,
 
     Las ubicaciones se agregan a la combinación de tabla.
 
-1. En la pestaña **Ordenación** , seleccione **Agregar** para agregar una línea.
+1. En la pestaña **Ordenación**, seleccione **Agregar** para agregar una línea.
 1. En la nueva línea, establezca los siguientes valores:
 
     - **Tabla:** *Lineas de trabajo*
@@ -124,13 +124,13 @@ Para resolver el escenario utilizando los valores que se presentan en este tema,
 1. Seleccione **Agregar** para agregar otra línea.
 1. En la nueva línea, establezca los siguientes valores:
 
-    - **Tabla** : *Ubicaciones*
+    - **Tabla**: *Ubicaciones*
     - **Tabla derivada:** *Ubicaciones*
-    - **Campo** : *ID de perfil de ubicación*
+    - **Campo**: *ID de perfil de ubicación*
     - **Criterios:** *!ALMACENAR*
 
         > [!IMPORTANT]
-        > Asegúrese de incluir el signo de exclamación ( *!* ) delante de *ALMACENAR*.
+        > Asegúrese de incluir el signo de exclamación (*!*) delante de *ALMACENAR*.
 
 1. Seleccione **Aceptar** para guardar y cerrar la consulta.
 1. Seleccione **Guardar**.
@@ -146,9 +146,9 @@ Para resolver el escenario utilizando los valores que se presentan en este tema,
 Si va a utilizar datos de Contoso predeterminados, la consulta de la acción de directiva de ubicación no requerirá cambios. No obstante, para asegurarse de que las directivas de ubicación capturarán los artículos en los pedidos de ventas cuando aplique la característica en un entorno que no sea de Contoso, cree una nueva directiva de ubicación. Para verificar la configuración en el entorno de demostración, siga estos pasos.
 
 1. Vaya a **Gestión de almacenes** \> **Configurar** \> **Directivas de ubicación**.
-1. En el campo **Tipo de orden de trabajo** , seleccione *Pedidos de ventas*.
+1. En el campo **Tipo de orden de trabajo**, seleccione *Pedidos de ventas*.
 1. Seleccione la directiva de ubicación que se denomina *51 Seleccionar*.
-1. En la ficha desplegable **Acciones de directiva de ubicación** , seleccione la línea para la acción **Seleccionar**.
+1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione la línea para la acción **Seleccionar**.
 1. Seleccione **Editar consulta** encima de la cuadrícula.
 1. Revise la consulta **Intervalo**.
 
@@ -169,10 +169,10 @@ A continuación, liberará cada pedido de ventas al almacén para crear el traba
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. En el panel de acciones, haga clic en **Nuevo** para crear un pedido de ventas 1.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
-    - En la sección **Cliente** , establezca el campo **Cuenta de cliente** en *US-004*.
-    - En la sección **General** , establezca el campo **Almacén** en *51*.
+    - En la sección **Cliente**, establezca el campo **Cuenta de cliente** en *US-004*.
+    - En la sección **General**, establezca el campo **Almacén** en *51*.
 
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo. Anote el número del pedido de ventas.
 1. Agregue una línea al nuevo pedido de ventas y establezca los siguientes valores:
@@ -181,19 +181,19 @@ A continuación, liberará cada pedido de ventas al almacén para crear el traba
     - **Cantidad:** *20*
 
 1. En el menú **Inventario** sobre la cuadrícula, seleccione **Reserva**.
-1. En la página **Reserva** , seleccione **Reservar lote** para reservar el inventario.
+1. En la página **Reserva**, seleccione **Reservar lote** para reservar el inventario.
 1. Cierre la página **Reserva**.
-1. En el panel de acciones, en la pestaña **Almacén** , seleccione **Liberar al almacén** para crear un trabajo para el almacén.
+1. En el panel de acciones, en la pestaña **Almacén**, seleccione **Liberar al almacén** para crear un trabajo para el almacén.
 
     Recibirá mensajes informativos que muestran el trabajo, el id. de oleada y los id. de envío que se crean para el pedido de ventas.
 
 #### <a name="sales-order-2"></a>Pedido de ventas 2
 
 1. En el panel de acciones, haga clic en **Nuevo** para crear un pedido de ventas 2.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
     - **Cuenta de cliente:** *US-007*
-    - **Almacén** : *51*
+    - **Almacén**: *51*
 
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo. Anote el número del pedido de ventas.
 1. Agregue una línea al nuevo pedido de ventas y establezca los siguientes valores:
@@ -212,10 +212,10 @@ A continuación, liberará cada pedido de ventas al almacén para crear el traba
 #### <a name="sales-order-3"></a>Pedido de ventas 3
 
 1. En el panel de acciones, haga clic en **Nuevo** para crear un pedido de ventas 3.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
     - **Cuenta de cliente:** *US-009*
-    - **Almacén** : *51*
+    - **Almacén**: *51*
 
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo. Anote el número del pedido de ventas.
 1. Agregue una línea al nuevo pedido de ventas y establezca los siguientes valores:
@@ -234,10 +234,10 @@ A continuación, liberará cada pedido de ventas al almacén para crear el traba
 #### <a name="sales-order-4"></a>Pedido de ventas 4
 
 1. En el panel de acciones, haga clic en **Nuevo** para crear un pedido de ventas 4.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
     - **Cuenta de cliente:** *US-010*
-    - **Almacén** : *51*
+    - **Almacén**: *51*
 
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo. Anote el número del pedido de ventas.
 1. Agregue una línea al nuevo pedido de ventas y establezca los siguientes valores:
@@ -269,7 +269,7 @@ A continuación, liberará cada pedido de ventas al almacén para crear el traba
 Antes de ejecutar el flujo en el dispositivo móvil, asegúrese de que solo el trabajo que acaba de crear esté en estado *Abierto* para el almacén *51* y el tipo de pedido de trabajo *Pedido de ventas*. De lo contrario, los resultados de la prueba pueden variar, porque el picking dirigido por el sistema incluirá todo el trabajo elegible.
 
 1. Vaya **Gestión de almacenes \> Trabajo \> Salida \> Trabajo de ventas abierto**.
-1. En la cuadrícula **Trabajo de ventas abierto** , filtre el campo **Almacén** para que solo se muestre el trabajo para el almacén *51*.
+1. En la cuadrícula **Trabajo de ventas abierto**, filtre el campo **Almacén** para que solo se muestre el trabajo para el almacén *51*.
 1. Confirme que solo se muestran los cuatro id. de trabajo que creó anteriormente.
 1. Cierre la página **Trabajo**.
 
@@ -300,7 +300,7 @@ Recuerde que esta configuración capturará cualquier trabajo que tenga al menos
 
 ## <a name="tips"></a>Sugerencias
 
-Las consultas de secuencia de trabajo dirigidas por el sistema son *inclusivas*. Es importante que recuerde este hecho para algunas configuraciones. Por ejemplo, desea que un determinado elemento de menú procese solo el trabajo donde la unidad de trabajo es *ea* y especifica esa restricción en la pestaña **Intervalo** de la consulta. En este caso, todo trabajo en el que al menos una línea de trabajo tenga la unidad de trabajo establecida en *ea* será alimentado al trabajo. Por lo tanto, este trabajo también puede incluir el trabajo en el que las líneas de trabajo tengan una unidad de trabajo distinta de *ea* (como *caja* o *pallet* ). La consulta excluirá solo el trabajo en el que ninguna línea de trabajo tenga la unidad de trabajo establecida en *ea*.
+Las consultas de secuencia de trabajo dirigidas por el sistema son *inclusivas*. Es importante que recuerde este hecho para algunas configuraciones. Por ejemplo, desea que un determinado elemento de menú procese solo el trabajo donde la unidad de trabajo es *ea* y especifica esa restricción en la pestaña **Intervalo** de la consulta. En este caso, todo trabajo en el que al menos una línea de trabajo tenga la unidad de trabajo establecida en *ea* será alimentado al trabajo. Por lo tanto, este trabajo también puede incluir el trabajo en el que las líneas de trabajo tengan una unidad de trabajo distinta de *ea* (como *caja* o *pallet*). La consulta excluirá solo el trabajo en el que ninguna línea de trabajo tenga la unidad de trabajo establecida en *ea*.
 
 Por lo tanto, en el ejemplo de este escenario, la consulta también capturó el id. de trabajo *4*. Cuando se creó, se agregaron dos líneas: una para 25 ea y otra para 10 ea. El trabajo se siguió presentando al usuario, porque al menos una línea de trabajo tiene una cantidad inferior a 20 ea.
 

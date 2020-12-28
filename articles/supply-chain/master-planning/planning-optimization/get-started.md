@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973485"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4437299"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introducción a la optimización de la planificación
 
@@ -67,6 +67,8 @@ Para usar la optimización de la planificación, instale el complemento de optim
 1. En la ficha desplegable **Complementos del entorno** debería ver que se está instalando Planning Optimization.
 1. Después de unos minutos, **Instalando** debería cambiar a **Instalado** (es posible que deba actualizar la página). Cuando está instalado, está listo para activar la Optimización de planificación en Dynamics 365 Supply Chain Management.
 
+El objetivo principal de instalar el complemento de Planning Optimization es conectar el servicio y el entorno. Por lo tanto, debe instalar el complemento por separado en cada entorno en el que utilizará Planning Optimization, independientemente de cualquier código movido entre los entornos.
+
 ### <a name="planning-optimization-integration"></a>Integración de la optimización de la planificación
 
 Para configurar si el complemento de optimización de la planificación se debe usar para la planificación maestra, vaya **Planificación maestra** \> **Configuración** \> **Parámetros de optimización de la planificación**.
@@ -95,7 +97,7 @@ Si se establece la opción **optimización de la planificación de uso** se dete
 
 ### <a name="integration-with-the-setup"></a>Integración con la configuración
 
-Si la vista previa de optimización de la planificación está activada, la planificación maestra se realiza mediante el complemento de optimización de la planificación. En este caso, se ven afectados los resultados y las características de la planificación maestra.
+Si la vista previa de Optimización de la planificación está activada, la planificación maestra se realiza mediante el complemento de optimización de la planificación. En este caso, se ven afectados los resultados y las características de la planificación maestra.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

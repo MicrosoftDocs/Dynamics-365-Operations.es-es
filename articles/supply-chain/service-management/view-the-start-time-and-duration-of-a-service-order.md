@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f8ec7cbfea709c74b73a189c24da8978a501794d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984738"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437011"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>Visualizar la hora inicial y la duración de un pedido de servicio 
 

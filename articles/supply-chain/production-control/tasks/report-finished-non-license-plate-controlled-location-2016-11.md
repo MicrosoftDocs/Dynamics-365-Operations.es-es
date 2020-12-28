@@ -18,11 +18,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5a9010b95cfd0528cd3b532627d19a3b340bdca4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210580"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436547"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Notificar como terminado a una ubicación no controlada mediante matrículas de entidad de almacén (solicitud, mayo de 2016)
 

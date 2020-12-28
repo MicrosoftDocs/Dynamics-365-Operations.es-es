@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 85ea6d37079c965ac5ddfdc4cdd20f2f3d184e4f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6ffd55585ff43f993876de6c669eb61e74a9fd79
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216123"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527323"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Sincronizar productos directamente de Supply Chain Management con productos de Sales
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
 > Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
@@ -43,7 +45,7 @@ La solución Prospect to cash usa la característica de integración de datos pa
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
-Para obtener acceso a las plantillas disponibles, abra [Centro de administración de Power Apps](https://admin.powerapps.com/dataintegration). Seleccione **Proyectos**y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
+Para obtener acceso a las plantillas disponibles, abra [Centro de administración de Power Apps](https://admin.powerapps.com/dataintegration). Seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
 
 La plantilla y las tareas subyacente siguientes se usan para sincronizar productos de Sales en Supply Chain Management a Sales.
 

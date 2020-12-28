@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017860"
+ms.locfileid: "4437248"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planificar rutas de transporte de flete con varias paradas
 
@@ -43,7 +43,7 @@ Un plan de ruta contiene segmentos de ruta que proporcionan información sobre l
 Cada plan de ruta debe asociarse a una guía de ruta.
 
 ## <a name="route-guides"></a>Guías de ruta
-Una guía de ruta define los criterios para la conciliación de una carga con un plan de ruta específico. Por ejemplo, puede especificar un concentrador de origen y un concentrador de destino, los límites para el volumen o el peso del contenedor, y un transportista de envío, el servicio o el grupo. Las guías de ruta están disponibles en la página **Área de trabajo de la ruta de la tasa** , donde las cargas pueden asociarse a las rutas de manera manual o automática. Si la guía de ruta es una ruta programada, también está disponible en la página **Área de trabajo de planificación de la carga**.
+Una guía de ruta define los criterios para la conciliación de una carga con un plan de ruta específico. Por ejemplo, puede especificar un concentrador de origen y un concentrador de destino, los límites para el volumen o el peso del contenedor, y un transportista de envío, el servicio o el grupo. Las guías de ruta están disponibles en la página **Área de trabajo de la ruta de la tasa**, donde las cargas pueden asociarse a las rutas de manera manual o automática. Si la guía de ruta es una ruta programada, también está disponible en la página **Área de trabajo de planificación de la carga**.
 
 ## <a name="scheduled-routes"></a>Rutas programadas
 Una ruta programada es un plan de ruta predefinido que tiene una programación para las fechas de envío. Las rutas programadas y no programadas difieren en la forma en que se les asignan las cargas. Si asigna una ruta no programada mediante el área de trabajo de la ruta de la tasa, solo se validan la carga y la guía de ruta. Si asigna una ruta programada, también se tienen en cuenta las fechas y las direcciones de los pedidos y los concentradores y la fecha del plan de ruta. No tiene que utilizar la página Área de trabajo de la ruta de la tasa para asignar cargas manualmente a una ruta programada. En su lugar, puede utilizar el Área de trabajo de planificación de la carga para sugerir que las cargas se creen basándose en las direcciones de los clientes y las fechas de entrega de los pedidos de ventas para una ruta programada determinada. Para las rutas programadas, el plan de ruta tendrá concentradores de origen y de destino fijos. Normalmente, el servicio y el transportista del envío serán el mismo para todos los segmentos, pero pueden diferir. Los concentradores de destino se crean utilizando los códigos postales de los clientes que se visitan en la ruta. Pueden definirse varias programaciones de ruta para un plan de ruta. El plan de ruta debe asociarse a una guía de ruta. Sin embargo, para las rutas programadas, el plan puede asociarse a una única guía de ruta. La programación de ruta solo se utiliza para crear las rutas reales en la página **Programación de ruta**. Puede utilizar la plantilla de carga predeterminada al proponer cargas en el Área de trabajo de planificación de la carga.

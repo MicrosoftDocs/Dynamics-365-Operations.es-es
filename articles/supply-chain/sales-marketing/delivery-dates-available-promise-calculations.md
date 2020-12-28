@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e969a4bc4346d05abd99022868dae3a1d78fe50
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979436"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666779"
 ---
 # <a name="order-promising"></a>Compromisos de pedidos
 
@@ -37,6 +37,12 @@ Los compromisos de pedidos calculan las fechas de envío y recepción más tempr
 -   **NNC (neto no comprometido)**: el NNC es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en una fecha específica. El cálculo del NNC incluye inventario no comprometido, fechas disponibles, recepciones planificadas y emisiones.
 -   **NNC + Días de emisión**: la fecha de envío será igual que la fecha de neto no comprometido (NNC) más el margen de emisión del artículo. El margen de emisión es el tiempo que necesario para preparar los artículos para el envío.
 -   **CTP (capaz de comprometer)**: la disponibilidad se calcula a través de la expansión.
+
+> [!NOTE]
+> Cuando se actualiza una orden de venta, la información de la promesa de la orden solo se actualiza si la fecha de la promesa de la orden existente no se puede cumplir, como se ilustra en los siguientes ejemplos:
+> 
+> - **Ejemplo 1**: La fecha prometedora del pedido actual es el 20 de julio, pero debido al aumento de la cantidad, no podrá realizar la entrega hasta el 25 de julio. Debido a que la fecha actual ya no se puede cumplir, se activa la promesa de pedido.
+> -  **Ejemplo 2**: La fecha prometedora del pedido actual es el 20 de julio, pero debido a la reducción de la cantidad, ahora es posible realizar la entrega el 15 de julio. Sin embargo, debido a que la fecha actual aún se puede cumplir, la promesa de pedido no se activa y el 20 de julio sigue siendo la fecha de promesa de pedido.
 
 ## <a name="atp-calculations"></a>Cálculos de NNC
 La cantidad de NNC se calcula mediante el método “NNC acumulativo con previsión futura”. La principal ventaja de este cálculo de NNC es que permite controlar las ocasiones en las que la suma de las emisiones entre recepciones supera la última recepción; por ejemplo, cuando es necesario usar una cantidad de una recepción anterior para satisfacer un requisito. El método de cálculo “NNC acumulativo con previsión futura” incluye todas las emisiones hasta que la cantidad acumulativa que se recibe excede la cantidad acumulada que se emite. Por lo tanto, este método de cálculo de NNC evalúa si parte de la cantidad de un período anterior se puede utilizar en un período posterior.  

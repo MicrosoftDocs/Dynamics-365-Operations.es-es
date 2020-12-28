@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982266"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436668"
 ---
 # <a name="weighted-average-date"></a>Fecha de media ponderada
 
@@ -38,7 +38,7 @@ Si solo ha tenido lugar una recepción hasta la fecha, no es necesario valorar l
 
 La fórmula siguiente se usa para calcular el método de gestión de costes de fecha media ponderada: 
 
-Media ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Media ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 Durante el cierre de inventario, el cálculo se realiza a diario hasta el período de cierre, tal y como se muestra en la ilustración siguiente. 
 

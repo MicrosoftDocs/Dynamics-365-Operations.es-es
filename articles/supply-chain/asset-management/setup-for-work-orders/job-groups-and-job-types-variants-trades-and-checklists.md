@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 8bf7c53a6150a2beeca5c6e9b5ab4ea98584158d
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889084"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436835"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento
 
@@ -238,7 +238,7 @@ Las plantillas de la lista de comprobación de mantenimiento se pueden usar como
 
 ![Página de tipos predeterminados de trabajo de mantenimiento](media/07-setup-for-work-orders.png)
 
-Cuando el sistema selecciona el valor predeterminado disponible del tipo de trabajo de mantenimiento que se debería usarse en una línea de orden de trabajo, la selección se basa en el activo y en la configuración del tipo activo relacionado. Administración de activos revisa todos los registros de tipo predeterminado de trabajo de mantenimiento relacionados con el tipo de trabajo de mantenimiento que se asocia al tipo de activo para el que hay que comprobar si hay coincidencias posibles. Comprueba siempre primero la combinación más específica. Es decir para encontrar la combinación más específica, Administración de activos primero busca una posible coincidencia para el campo **Comercio**. Si no se encuentra ninguna coincidencia, comprueba si hay una coincidencia para el campo **Variante de tipo de trabajo de mantenimiento**. Si no se encuentra coincidencias, busca una coincidencia para el campo **Tipo de trabajo de mantenimiento**, etc. (**Comercio**, luego **Variante del tipo de trabajo de mantenimiento**, luego **Tipo de trabajo de mantenimiento**, luego **Activo**, luego **Modelo** y después **Fabricante**y, a continuación **Tipo de activo**). Si no se encuentra ninguna coincidencia, se utiliza el registro predeterminado donde solo se ha seleccionado el tipo de trabajo de mantenimiento.
+Cuando el sistema selecciona el valor predeterminado disponible del tipo de trabajo de mantenimiento que se debería usarse en una línea de orden de trabajo, la selección se basa en el activo y en la configuración del tipo activo relacionado. Administración de activos revisa todos los registros de tipo predeterminado de trabajo de mantenimiento relacionados con el tipo de trabajo de mantenimiento que se asocia al tipo de activo para el que hay que comprobar si hay coincidencias posibles. Comprueba siempre primero la combinación más específica. Es decir para encontrar la combinación más específica, Administración de activos primero busca una posible coincidencia para el campo **Comercio**. Si no se encuentra ninguna coincidencia, comprueba si hay una coincidencia para el campo **Variante de tipo de trabajo de mantenimiento**. Si no se encuentra coincidencias, busca una coincidencia para el campo **Tipo de trabajo de mantenimiento**, etc. (**Comercio**, luego **Variante del tipo de trabajo de mantenimiento**, luego **Tipo de trabajo de mantenimiento**, luego **Activo**, luego **Modelo** y después **Fabricante** y, a continuación **Tipo de activo**). Si no se encuentra ninguna coincidencia, se utiliza el registro predeterminado donde solo se ha seleccionado el tipo de trabajo de mantenimiento.
 
 Un identificador de la actividad de proyecto se relaciona automáticamente con cada línea predeterminada del tipo de trabajo de mantenimiento que cree. La actividad del proyecto se crea en el proyecto de previsión que se selecciona en el campo **Proyecto de previsión de mantenimiento** en la pestaña **Activos** de la página **Parámetros de administración de activos**. El propósito de la actividad de proyecto es gestionar previsiones de horas, artículos, gastos y en relación con las órdenes de trabajo. Las previsiones del tipo de trabajo de mantenimiento se transfieren automáticamente a la línea de orden de trabajo y se copian del proyecto de la previsión al proyecto de la orden de trabajo que se crea para la línea de orden de trabajo. El propósito de la actividad de proyecto es gestionar previsiones en relación con las órdenes de trabajo.
 

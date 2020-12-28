@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015076"
+ms.locfileid: "4437166"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Mejorar el rendimiento del motor de programación
 
@@ -180,7 +180,7 @@ El solucionador de restricciones no conoce los detalles del algoritmo de program
 
 Una gran parte de las limitaciones (internas) del motor controla el tiempo de trabajo y la capacidad de un recurso. Básicamente, la tarea consiste en recorrer las franjas horarias de trabajo de un recurso desde un punto determinado en una dirección determinada, y encontrar un intervalo suficientemente largo en el que la capacidad (tiempo) requerida de los trabajos pueda caber.
 
-Para hacer esto, el motor necesita conocer los tiempos de trabajo de un recurso. Frente a los datos del modelo principal, los tiempos de trabajo son de *carga diferida* , lo que significa que se cargan en el motor según sea necesario. La razón de este enfoque es que a menudo hay tiempos de trabajo en Supply Chain Management para un calendario durante un período muy largo y, por lo general, existen muchos calendarios, por lo que los datos serían bastante grandes para precargarlos.
+Para hacer esto, el motor necesita conocer los tiempos de trabajo de un recurso. Frente a los datos del modelo principal, los tiempos de trabajo son de *carga diferida*, lo que significa que se cargan en el motor según sea necesario. La razón de este enfoque es que a menudo hay tiempos de trabajo en Supply Chain Management para un calendario durante un período muy largo y, por lo general, existen muchos calendarios, por lo que los datos serían bastante grandes para precargarlos.
 
 El motor solicita la información del calendario en fragmentos, invocando el método de clase X++ `WrkCtrSchedulingInteropDataProvider.getWorkingTimes`. La solicitud es para un ID de calendario específico en un intervalo de tiempo específico. Dependiendo del estado de la caché del servidor en Supply Chain Management, cada una de estas solicitudes podría terminar en varias llamadas a la base de datos, lo que lleva mucho tiempo (en relación con el tiempo computacional puro). Además, si el calendario contiene definiciones de tiempo de trabajo muy elaboradas con muchos intervalos de tiempo de trabajo por día, esto se suma al tiempo de carga.
 
@@ -188,7 +188,7 @@ Cuando los datos del tiempo de trabajo se cargan en el motor de programación, s
 
 ### <a name="finite-capacity"></a>Capacidad limitada
 
-Cuando se utiliza la capacidad finita, las franjas horarias de trabajo del calendario se dividen y reducen en función de las reservas de capacidad existentes. Estas reservas también se obtienen a través de la misma clase `WrkCtrSchedulingInteropDataProvider` que los calendarios, pero en su lugar utilice el método `getCapacityReservations`. Al programar durante la planificación maestra, se consideran las reservas para el plan maestro específico y si están habilitadas en la página **Parámetros de planificación maestra** , también se incluyen las reservas de pedidos de producción firmes. De manera similar, al programar una orden de producción, también es una opción incluir reservas de órdenes planificadas existentes, aunque esto no es tan común como al revés.
+Cuando se utiliza la capacidad finita, las franjas horarias de trabajo del calendario se dividen y reducen en función de las reservas de capacidad existentes. Estas reservas también se obtienen a través de la misma clase `WrkCtrSchedulingInteropDataProvider` que los calendarios, pero en su lugar utilice el método `getCapacityReservations`. Al programar durante la planificación maestra, se consideran las reservas para el plan maestro específico y si están habilitadas en la página **Parámetros de planificación maestra**, también se incluyen las reservas de pedidos de producción firmes. De manera similar, al programar una orden de producción, también es una opción incluir reservas de órdenes planificadas existentes, aunque esto no es tan común como al revés.
 
 El uso de capacidad finita hará que la programación tarde más debido a varias razones:
 
@@ -305,7 +305,7 @@ El uso de capacidad finita requiere que el motor cargue la información de capac
 
 ### <a name="setting-hard-links"></a>Establecer enlaces duros
 
-El tipo de enlace estándar de la ruta es *suave* , lo que significa que se permite un intervalo de tiempo entre el tiempo de finalización de una operación y el inicio de la siguiente. Permitir esto puede tener el desafortunado efecto de que, si los materiales o la capacidad no están disponibles para una de las operaciones durante mucho tiempo, la producción podría estar inactiva durante bastante tiempo, lo que significa un posible aumento del trabajo en curso. Esto no sucederá con enlaces duros porque la meta y la salida deben alinearse perfectamente. Pero el establecimiento de vínculos físicos hace que el problema de programación sea más difícil porque el tiempo de trabajo y las intersecciones de capacidad deben calcularse para los dos recursos de las operaciones. Si también hay operaciones paralelas involucradas, esto agrega un tiempo computacional significativo. Si los recursos de las dos operaciones tienen calendarios diferentes que no se superponen en absoluto, el problema no tiene solución.
+El tipo de enlace estándar de la ruta es *suave*, lo que significa que se permite un intervalo de tiempo entre el tiempo de finalización de una operación y el inicio de la siguiente. Permitir esto puede tener el desafortunado efecto de que, si los materiales o la capacidad no están disponibles para una de las operaciones durante mucho tiempo, la producción podría estar inactiva durante bastante tiempo, lo que significa un posible aumento del trabajo en curso. Esto no sucederá con enlaces duros porque la meta y la salida deben alinearse perfectamente. Pero el establecimiento de vínculos físicos hace que el problema de programación sea más difícil porque el tiempo de trabajo y las intersecciones de capacidad deben calcularse para los dos recursos de las operaciones. Si también hay operaciones paralelas involucradas, esto agrega un tiempo computacional significativo. Si los recursos de las dos operaciones tienen calendarios diferentes que no se superponen en absoluto, el problema no tiene solución.
 
 Recomendamos utilizar enlaces duros solo cuando sea estrictamente necesario, y considerar cuidadosamente si es necesario para cada operación de la ruta.
 
@@ -321,7 +321,7 @@ Debido a que el motor funciona examinando los intervalos de tiempo uno por uno p
 
 ### <a name="large-or-none-scheduling-timeouts"></a>Tiempos de espera de programación grandes (o ninguno)
 
-El rendimiento del motor de programación se puede optimizar utilizando los parámetros que se encuentran en la página **Parámetros de programación**. Las opciones **Programación de tiempo de espera habilitado** y **Programación de tiempo de espera de optimización habilitado** siempre deben establecerse en **Sí**. Si se establecen en **No** , la programación puede potencialmente ejecutarse infinitamente si se ha creado una ruta inviable con muchas opciones.
+El rendimiento del motor de programación se puede optimizar utilizando los parámetros que se encuentran en la página **Parámetros de programación**. Las opciones **Programación de tiempo de espera habilitado** y **Programación de tiempo de espera de optimización habilitado** siempre deben establecerse en **Sí**. Si se establecen en **No**, la programación puede potencialmente ejecutarse infinitamente si se ha creado una ruta inviable con muchas opciones.
 
 El valor de **Tiempo máximo de programación por secuencia** controla cuántos segundos se pueden dedicar, como máximo, a tratar de encontrar una solución para una sola secuencia (en la mayoría de los casos, una secuencia corresponde a un solo orden). El valor a utilizar aquí depende en gran medida de la complejidad de la ruta y configuraciones como la capacidad finita, pero un máximo de unos 30 segundos es un buen punto de partida.
 

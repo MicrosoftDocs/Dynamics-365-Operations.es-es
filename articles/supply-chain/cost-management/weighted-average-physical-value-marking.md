@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 225379df8bb86522d5817add570d614d09a1a92d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983059"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436693"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Media ponderada con valor físico y marcado
 

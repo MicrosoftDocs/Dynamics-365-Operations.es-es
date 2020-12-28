@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c6e70a40b15bf08d88958cbf3ee3e82ed63e7a48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201741"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436832"
 ---
 # <a name="include-physical-value"></a>Incluir valor físico en coste
 
@@ -45,7 +45,7 @@ La casilla tiene efectos ligeramente diferentes, en función del modelo de inven
 -   Si no se activa la casilla de verificación **Incluir valor físico en coste** cuando se usan estos modelos de inventario, el cierre de inventario realiza liquidaciones únicamente en las transacciones actualizadas financieramente.
 -   Al usar el modelo de inventario de media ponderada o de fecha media ponderada, el cierre de inventario liquida únicamente las transacciones actualizadas financieramente, independientemente de si se activa la casilla de verificación **Incluir valor físico en coste**.
 
-**Ejemplo 1** Ha activado la casilla**Incluir valor físico en coste** y recibido los siguientes pedidos de compra:
+**Ejemplo 1** Ha activado la casilla **Incluir valor físico en coste** y recibido los siguientes pedidos de compra:
 
 -   Se ha actualizado el albarán para un pedido de compra para una cantidad de 2 y un precio de coste de 10,00 dólares.
 -   Se ha actualizado la factura para un pedido de compra para una cantidad de 3 y un precio de coste de 12,00 dólares.

@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ae7c43516fc90224439f6f7cfd5fd0a6058e8b39
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018431"
+ms.locfileid: "4437282"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos
 
@@ -36,7 +36,7 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
 ## <a name="enter-a-reply-as-a-vendor"></a>Introduzca una respuesta como un proveedor
 
 1. En el panel de información, seleccione **Oferta de proveedor**.
-2. En el lista **Nuevas invitaciones de la oferta** , encuentre una solicitud de presupuesto que acaba de registrar. Seleccione la solicitud de presupuesto para revisar qué se solicitó.
+2. En el lista **Nuevas invitaciones de la oferta**, encuentre una solicitud de presupuesto que acaba de registrar. Seleccione la solicitud de presupuesto para revisar qué se solicitó.
 3. Seleccione **Datos adjuntos de la solicitud de presupuesto** para revisar los archivos adjuntos que se hayan agregado.
 4. Seleccione **Propuesta** para hacer que los campos puedan editarse. Observe que el campo **Progreso de la oferta** está establecido en **El proveedor está actualizando**.
 5. En la cabecera y las líneas, especifique los parámetros de respuesta de la propuesta.
@@ -52,7 +52,7 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
 
 ## <a name="enter-a-reply-from-a-vendor-as-a-procurement-professional"></a>Especificar una respuesta de un proveedor como profesional de compras
 
-1. Asegúrese de que el permiso para editar propuestas de proveedor esté configurado. Vaya a **Adquisición y abastecimiento \> Configuración \> Parámetros de adquisición y abastecimiento**. En la pestaña **Solicitud de presupuesto** , establezca la opción **El comprador puede editar propuesta de los proveedores** a **Sí**.
+1. Asegúrese de que el permiso para editar propuestas de proveedor esté configurado. Vaya a **Adquisición y abastecimiento \> Configuración \> Parámetros de adquisición y abastecimiento**. En la pestaña **Solicitud de presupuesto**, establezca la opción **El comprador puede editar propuesta de los proveedores** a **Sí**.
 2. Vaya a **Adquisición y abastecimiento\> Solicitudes de presupuestos \> Todas las solicitudes de presupuesto**.
 3. Seleccione una solicitud de presupuesto que tenga un estado de **Enviado** y después seleccione el vínculo del campo **Caso de solicitud de presupuesto**.
 4. Seleccione **Administrar las respuestas**. La página que aparece muestra una solicitud de presupuesto por cada proveedor que se invitado a realizar una oferta.
@@ -62,7 +62,7 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
 
 ## <a name="score-the-bids"></a>Puntuar las ofertas
 
-1. En la página **Todas las solicitudes de presupuesto** , seleccione el caso de solicitud de presupuesto para el que desea puntuar las respuestas.
+1. En la página **Todas las solicitudes de presupuesto**, seleccione el caso de solicitud de presupuesto para el que desea puntuar las respuestas.
 2. Seleccione **Administrar las respuestas**.
 3. Seleccionar la respuesta a puntuar.
 4. Seleccione **Encabezado** de modo que pueda ver la puntuación de la propuesta.
@@ -74,14 +74,14 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
 
 ## <a name="compare-the-replies"></a>Comparar las respuestas
 
-1. En el panel de acciones, en la pestaña **General** , seleccione **Comprar respuestas**.
-2. En el campo **Categoría** , escriba un número.  
+1. En el panel de acciones, en la pestaña **General**, seleccione **Comprar respuestas**.
+2. En el campo **Categoría**, escriba un número.  
     - Esta página muestra las ofertas con el encabezado, la información de línea, y también la puntuación total en el nivel de encabezado. Puede comparar las líneas ordenando en la cuadrícula de modo que las líneas comparables estén una junto a la otra. También se incluye la siguiente información:
-    - **Cantidad** : la cantidad presupuestada por el proveedor. Esta cantidad puede no ser igual a la cantidad especificada en la solicitud de presupuesto.
-    - **Importe neto** : el precio presupuestado por un proveedor, después de restar los descuentos, para los artículos de la línea.
-    - **Desviación** : el número de días la fecha de entrega en la cabecera de la oferta o línea difiere de la fecha de entrega solicitada en la cabecera o línea de la solicitud de presupuesto. Puede especificar una categoría para cada oferta.  
+    - **Cantidad**: la cantidad presupuestada por el proveedor. Esta cantidad puede no ser igual a la cantidad especificada en la solicitud de presupuesto.
+    - **Importe neto**: el precio presupuestado por un proveedor, después de restar los descuentos, para los artículos de la línea.
+    - **Desviación**: el número de días la fecha de entrega en la cabecera de la oferta o línea difiere de la fecha de entrega solicitada en la cabecera o línea de la solicitud de presupuesto. Puede especificar una categoría para cada oferta.  
 3. Seleccione la línea de encabezado para la otra oferta que desea clasificar.
-4. En el campo **Categoría** , escriba un número.
+4. En el campo **Categoría**, escriba un número.
 5. Seleccione **Guardar**.
 
 ## <a name="reject-a-bid"></a>Rechazar una oferta
@@ -91,19 +91,19 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
     - Si activa la casilla **Marcar** en el encabezado de la oferta, se marcarán también todas las líneas. Para rechazar o aceptar solo algunas de las líneas de la propuesta, puede marcar sólo estas líneas. Además puede aceptar una oferta de proveedor en algunas líneas de una solicitud de presupuesto pero conceder otras líneas de solicitud de presupuesto a otro proveedor. Sin embargo, debe hacerlo propuesta a propuesta.  
     - Si las líneas alternativas están presentes, puede aceptar la línea de oferta original o su alternativa, pero no ambas.  
 3. Seleccione **Rechazar**.
-4. Seleccione **Parámetros** y, a continuación, en el campo **Motivo del rechazo** , escriba o seleccione el motivo para rechazar la propuesta. El motivo se almacena en la respuesta.  
+4. Seleccione **Parámetros** y, a continuación, en el campo **Motivo del rechazo**, escriba o seleccione el motivo para rechazar la propuesta. El motivo se almacena en la respuesta.  
 5. Seleccione **Aceptar**.
 6. Seleccione **Aceptar**.
 
 ## <a name="accept-a-bid"></a>Aceptar una oferta
 
-1. Seleccione la oferta que desea aceptar y después seleccione el vínculo del campo **Solicitud de presupuesto**. Si se encuentra en la página **Comparar respuestas a solicitud de presupuesto** , la propuesta resaltada que tiene el foco es la propuesta que el sistema tendrá en cuenta durante la acción de aceptación. Solo puede aceptar líneas de una sola oferta al mismo tiempo.  
+1. Seleccione la oferta que desea aceptar y después seleccione el vínculo del campo **Solicitud de presupuesto**. Si se encuentra en la página **Comparar respuestas a solicitud de presupuesto**, la propuesta resaltada que tiene el foco es la propuesta que el sistema tendrá en cuenta durante la acción de aceptación. Solo puede aceptar líneas de una sola oferta al mismo tiempo.  
 2. En el panel de acciones, haga clic en **Responder**.
 3. Seleccione **Aceptar**. Si ha marcado sólo líneas específicas, la acción de Aceptar incluirá únicamente estas líneas. Si desea aceptar todas las líneas de la oferta, no es necesario marcar las líneas.  
-4. Seleccione **Parámetros** y, a continuación, en el campo **Motivo de aceptar** , escriba o seleccione el motivo para aceptar la propuesta. El motivo se almacena en la propuesta.  
+4. Seleccione **Parámetros** y, a continuación, en el campo **Motivo de aceptar**, escriba o seleccione el motivo para aceptar la propuesta. El motivo se almacena en la propuesta.  
 5. Seleccione **Aceptar**.
 6. Seleccione **Aceptar**. Al seleccionar **Aceptar** esto genera un pedido de compra basado en las líneas que se incluyen en la aceptación de solicitud de presupuesto. Si hay otras ofertas que no se han procesado (aceptado, rechazado o devuelto), el sistema le pedirá rechazarlas.  
 
 ## <a name="view-the-purchase-order-that-is-generated"></a>Ver el pedido de compra que se ha generado
 
-En el panel de acciones, en la pestaña **General** , seleccione **Pedido de compra**. La página que aparece muestra el pedido de compra que se generó al aceptar la oferta.
+En el panel de acciones, en la pestaña **General**, seleccione **Pedido de compra**. La página que aparece muestra el pedido de compra que se generó al aceptar la oferta.

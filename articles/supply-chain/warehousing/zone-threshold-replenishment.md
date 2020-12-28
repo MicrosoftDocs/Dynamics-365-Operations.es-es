@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017331"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654181"
 ---
 # <a name="zone-threshold-replenishment"></a>Reabastecimiento de umbral de zona
 
@@ -41,7 +41,7 @@ A diferencia del reabastecimiento mínimo/máximo basado en ubicaciones, el reab
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Activar la característica de reabastecimiento de umbral de zona
 
-Antes de poder usar la característica *Reabastecimiento de umbral de zona* , esta debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones** , la función aparece de la siguiente forma:
+Antes de poder usar la característica *Reabastecimiento de umbral de zona*, esta debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de característica:** *Reabastecimiento de umbral de zona*
@@ -95,15 +95,15 @@ En este ejemplo se muestra cómo preparar una plantilla de reabastecimiento. Si 
     - **Tipo de reabastecimiento:** _Mínimo o máximo_
 
 1. Seleccione **Guardar**.
-1. Mientras la nueva fila sigue seleccionada en la cuadrícula **Visión general** , seleccione **Nuevo** encima de la cuadrícula **Detalles de la plantilla de reabastecimiento** para agregar una fila asociada a la plantilla de reabastecimiento *Reabastecimiento mín./máx. de zona* que acaba de crear.
+1. Mientras la nueva fila sigue seleccionada en la cuadrícula **Visión general**, seleccione **Nuevo** encima de la cuadrícula **Detalles de la plantilla de reabastecimiento** para agregar una fila asociada a la plantilla de reabastecimiento *Reabastecimiento mín./máx. de zona* que acaba de crear.
 1. Establezca los siguientes valores en la fila nueva:
 
     - **Número de secuencia:** Introduzca _1_.
     - **Descripción:** Introduzca _Reabastecimiento de zona de picking_.
     - **Unidad de reabastecimiento:** Seleccione _ea_.
-    - **Tipo de solicitud** : deje este campo en blanco.
-    - **Código de directiva** : este campo vincula la plantilla de reabastecimiento con una directiva de ubicación. Seleccione el código de la directiva de datos de demostración que creó anteriormente ( _Reabastecimiento de zona_ ).
-    - **Plantilla de trabajo** : deje este campo en blanco.
+    - **Tipo de solicitud**: deje este campo en blanco.
+    - **Código de directiva**: este campo vincula la plantilla de reabastecimiento con una directiva de ubicación. Seleccione el código de la directiva de datos de demostración que creó anteriormente (_Reabastecimiento de zona_).
+    - **Plantilla de trabajo**: deje este campo en blanco.
     - **Cantidad mínima:** Este campo establece la cantidad a la que se desencadenará el reabastecimiento. Introduzca _50_.
     - **Cantidad máxima:** Este campo establece la cantidad máxima de un artículo que puede estar presente en una zona. El trabajo de reabastecimiento generado aumentará el inventario a esta cantidad. Introduzca _150_.
     - **Unidad:** Este campo establece la unidad para los valores mínimo y máximo. Seleccione _ea_.
@@ -115,22 +115,22 @@ En este ejemplo se muestra cómo preparar una plantilla de reabastecimiento. Si 
     - **Almacén:** seleccione _61_.
 
 1. Seleccione **Seleccionar productos** encima de la cuadrícula **Detalles de plantilla de reabastecimiento**.
-1. En el cuadro de diálogo **Consulta de producto** , en la pestaña **Intervalo** , seleccione **Agregar** para agregar una fila a la cuadrícula.
+1. En el cuadro de diálogo **Consulta de producto**, en la pestaña **Intervalo**, seleccione **Agregar** para agregar una fila a la cuadrícula.
 1. Establezca los siguientes valores en la fila nueva:
 
     - **Tabla:** _Artículos_
     - **Tabla derivada:** _Artículos_
     - **Campo:** _Número de artículo_
-    - **Criterios** : _A0001_
+    - **Criterios**: _A0001_
 
 1. Seleccione **Aceptar** para guardar su consulta y cerrar el cuadro de diálogo.
 1. Seleccione **Seleccionar zonas para reabastecer** encima de la cuadrícula **Detalles de plantilla de reabastecimiento**.
-1. En el cuadro de diálogo **Consulta de zona** , en la pestaña **Intervalo** , agregue una fila a la cuadrícula.
+1. En el cuadro de diálogo **Consulta de zona**, en la pestaña **Intervalo**, agregue una fila a la cuadrícula.
 1. Establezca los siguientes valores en la fila nueva:
 
     - **Tabla:** _Zona de almacén_
     - **Tabla derivada:** _Zona de almacén_
-    - **Campo** : _ID de zona_
+    - **Campo**: _ID de zona_
     - **Criterios:** _FLOOR_
 
 1. Seleccione **Aceptar** para guardar su consulta y cerrar el cuadro de diálogo.
@@ -159,19 +159,19 @@ Para preparar datos de demostración para que puedan usarse en el escenario al f
 
     - **Número de secuencia:** acepte el valor predeterminado.
     - **Nombre:** introduzca _Selección de zona_.
-    - **Tipo de trabajo** : seleccione _Selección_.
+    - **Tipo de trabajo**: seleccione _Selección_.
     - **Sitio:** seleccione _6_.
     - **Almacén:** seleccione _61_.
     - **Código de directiva:** deje en blanco este campo.
     - **Varios SKU:** establezca esta opción en _No_.
 
 1. Seleccione **Guardar** para crear una directiva que tenga la configuración que ha configurado hasta ahora.
-1. En la ficha desplegable **Líneas** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha desplegable **Líneas**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
     - **Número de secuencia:** Introduzca _1_.
-    - **Cantidad inicial** : introduzca _0_.
-    - **Cantidad final** : introduzca _10000000_.
+    - **Cantidad inicial**: introduzca _0_.
+    - **Cantidad final**: introduzca _10000000_.
     - **Unidad:** deje este campo en blanco.
     - **Cantidad para localizar:** seleccione _Ninguna_.
     - **Restringir por unidad:** desactive esta casilla.
@@ -180,32 +180,32 @@ Para preparar datos de demostración para que puedan usarse en el escenario al f
     - **Permitir división:** seleccione esta casilla.
 
 1. Seleccione **Guardar** para guardar la nueva línea.
-1. Mientras su nueva línea aún está seleccionada en la cuadrícula **Líneas** , seleccione **Nuevo** en la ficha desplegable **Acciones de directiva de ubicación** para agregar una fila a la cuadrícula.
+1. Mientras su nueva línea aún está seleccionada en la cuadrícula **Líneas**, seleccione **Nuevo** en la ficha desplegable **Acciones de directiva de ubicación** para agregar una fila a la cuadrícula.
 1. Establezca los siguientes valores en la fila nueva:
 
     - **Número de secuencia:** Introduzca _1_.
     - **Nombre:** introduzca _Seleccionar desde grandes cantidades_.
     - **Uso de ubicación fija:** seleccione _Ubicaciones fijas y no fijas_.
-    - **Permitir inventario negativo** : desactive esta casilla.
-    - **Lote habilitado** : desactive esta casilla.
+    - **Permitir inventario negativo**: desactive esta casilla.
+    - **Lote habilitado**: desactive esta casilla.
     - **Estrategia:** seleccione _Ninguna_.
 
 1. Seleccione **Guardar** para guardar la nueva acción.
 1. Mientras su nueva acción aún está seleccionada, seleccione **Editar consulta** encima de la cuadrícula **Acciones de directiva de ubicación**.
-1. Aparece un cuadro de diálogo de consulta, donde puede seleccionar las ubicaciones desde las que reabastecer. En la pestaña **Intervalo** , seleccione **Nuevo** para agregar una fila a la cuadrícula.
+1. Aparece un cuadro de diálogo de consulta, donde puede seleccionar las ubicaciones desde las que reabastecer. En la pestaña **Intervalo**, seleccione **Nuevo** para agregar una fila a la cuadrícula.
 1. Establezca los siguientes valores en la fila nueva:
 
-    - **Tabla** : _Ubicaciones_
+    - **Tabla**: _Ubicaciones_
     - **Tabla derivada:** _Ubicaciones_
-    - **Campo** : _ID de zona_
-    - **Criterios** : _BULK_
+    - **Campo**: _ID de zona_
+    - **Criterios**: _BULK_
 
 1. Seleccione **Aceptar** para guardar su consulta y cerrar el cuadro de diálogo.
 1. Seleccione **Guardar** para guardar su directiva de ubicación.
 
 ##### <a name="create-a-replenishment-put-directive"></a>Crear una directiva de colocación de reabastecimiento
 
-1. En la página **Directivas de ubicación** , en el panel izquierdo, asegúrese de que el campo **Tipo de orden de trabajo** sigue seleccionado en _Reabastecimiento_.
+1. En la página **Directivas de ubicación**, en el panel izquierdo, asegúrese de que el campo **Tipo de orden de trabajo** sigue seleccionado en _Reabastecimiento_.
 1. En el panel de acciones, seleccione **Nuevo** para crear otra nueva directiva.
 1. Establezca los valores siguientes:
 
@@ -218,12 +218,12 @@ Para preparar datos de demostración para que puedan usarse en el escenario al f
     - **Varios SKU:** establezca esta opción en _No_.
 
 1. Seleccione **Guardar** para crear una directiva que tenga la configuración que ha configurado hasta ahora.
-1. En la ficha desplegable **Líneas** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha desplegable **Líneas**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores:
 
     - **Número de secuencia:** Introduzca _1_.
-    - **Cantidad inicial** : introduzca _0_.
-    - **Cantidad final** : introduzca _10000000_.
+    - **Cantidad inicial**: introduzca _0_.
+    - **Cantidad final**: introduzca _10000000_.
     - **Unidad:** deje este campo en blanco.
     - **Cantidad para localizar:** seleccione _Ninguna_.
     - **Restringir por unidad:** desactive esta casilla.
@@ -232,24 +232,24 @@ Para preparar datos de demostración para que puedan usarse en el escenario al f
     - **Permitir división:** seleccione esta casilla.
 
 1. Seleccione **Guardar** para guardar la nueva línea.
-1. Mientras su nueva línea aún está seleccionada en la cuadrícula **Líneas** , seleccione **Nuevo** en la ficha desplegable **Acciones de directiva de ubicación** para agregar una fila a la cuadrícula.
+1. Mientras su nueva línea aún está seleccionada en la cuadrícula **Líneas**, seleccione **Nuevo** en la ficha desplegable **Acciones de directiva de ubicación** para agregar una fila a la cuadrícula.
 1. Establezca los siguientes valores en la fila nueva:
 
     - **Número de secuencia:** Introduzca _1_.
     - **Nombre:** introduzca _Colocación de zona_.
     - **Uso de ubicación fija:** seleccione _Ubicaciones fijas y no fijas_.
-    - **Permitir inventario negativo** : desactive esta casilla.
-    - **Lote habilitado** : desactive esta casilla.
+    - **Permitir inventario negativo**: desactive esta casilla.
+    - **Lote habilitado**: desactive esta casilla.
     - **Estrategia:** seleccione _Consolidar_.
 
 1. Seleccione **Guardar** para guardar la nueva acción.
 1. Mientras su nueva acción aún está seleccionada, seleccione **Editar consulta** encima de la cuadrícula **Acciones de directiva de ubicación**.
-1. Aparece un cuadro de diálogo de consulta, donde puede seleccionar la zona a la que reabastecer. Esta zona debe ser la misma zona que se especifica en la plantilla de reabastecimiento. En la pestaña **Intervalo** , seleccione **Nuevo** para agregar una fila a la cuadrícula.
+1. Aparece un cuadro de diálogo de consulta, donde puede seleccionar la zona a la que reabastecer. Esta zona debe ser la misma zona que se especifica en la plantilla de reabastecimiento. En la pestaña **Intervalo**, seleccione **Nuevo** para agregar una fila a la cuadrícula.
 1. Establezca los siguientes valores en la fila nueva:
 
-    - **Tabla** : _Ubicaciones_
+    - **Tabla**: _Ubicaciones_
     - **Tabla derivada:** _Ubicaciones_
-    - **Campo** : _ID de zona_
+    - **Campo**: _ID de zona_
     - **Criterios:** _FLOOR_
 
 1. Seleccione **Aceptar** para guardar su consulta y cerrar el cuadro de diálogo.
@@ -269,27 +269,27 @@ Para trabajar en el escenario mediante el uso de los registros y valores de mues
 
 #### <a name="prepare-additional-sample-data"></a>Preparar datos de muestra adicionales
 
-Después de haber seleccionado la entidad jurídica **USMF** , agregue los datos de muestra adicionales que se requieren, como se describe en la sección [Configurar reabastecimiento basado en zonas](#setup) que aparece anteriormente en este tema.
+Después de haber seleccionado la entidad jurídica **USMF**, agregue los datos de muestra adicionales que se requieren, como se describe en la sección [Configurar reabastecimiento basado en zonas](#setup) que aparece anteriormente en este tema.
 
 #### <a name="check-your-on-hand-inventory"></a>Comprobar el inventario disponible
 
 Siga estos pasos para asegurarse de que su sistema incluya suficiente inventario para admitir el escenario de muestra.
 
-1. Asegúrese de que haya inventario disponible para el artículo *A0001* en dos ubicaciones diferentes en la zona de selección ( *FLOOR* ) que se especifica en la plantilla de reabastecimiento. Sin embargo, el inventario total debe ser inferior a la cantidad mínima requerida ( *50* ) que se especifica en la plantilla de reabastecimiento. De esta manera, puede simular cómo se realiza el cálculo para toda la zona en lugar de solo para una única ubicación. **Utilice cualquiera de los procesos del almacén para ajustar el inventario según sea necesario.**
-1. Asegúrese de que haya suficiente inventario para el artículo *A0001* en una ubicación de almacenaje que se especifica en la directiva de ubicación de selección de zona donde el trabajo de reabastecimiento debe seleccionar los artículos del id. de zona *BULK*. El inventario total debe ser superior a la cantidad máxima requerida ( *150* ) que se especifica en la plantilla de reabastecimiento.
+1. Asegúrese de que haya inventario disponible para el artículo *A0001* en dos ubicaciones diferentes en la zona de selección (*FLOOR*) que se especifica en la plantilla de reabastecimiento. Sin embargo, el inventario total debe ser inferior a la cantidad mínima requerida (*50*) que se especifica en la plantilla de reabastecimiento. De esta manera, puede simular cómo se realiza el cálculo para toda la zona en lugar de solo para una única ubicación. **Utilice cualquiera de los procesos del almacén para ajustar el inventario según sea necesario.**
+1. Asegúrese de que haya suficiente inventario para el artículo *A0001* en una ubicación de almacenaje que se especifica en la directiva de ubicación de selección de zona donde el trabajo de reabastecimiento debe seleccionar los artículos del id. de zona *BULK*. El inventario total debe ser superior a la cantidad máxima requerida (*150*) que se especifica en la plantilla de reabastecimiento.
 1. Opcional pero recomendado: siga estos pasos para crear un diario de ajuste de inventario:
 
     1. Vaya a **Gestión del inventario \> Movimientos de diario \> Artículos \> Ajuste de inventario**.
     1. Seleccione **Nuevo**.
-    1. En el cuadro de diálogo **Crear diario de inventario** , en el campo **Almacén** , seleccione *61*.
+    1. En el cuadro de diálogo **Crear diario de inventario**, en el campo **Almacén**, seleccione *61*.
     1. Seleccione **Aceptar**.
-    1. En la ficha desplegable **Líneas de diario** , use el botón **Nuevo** para agregar tres líneas a la cuadrícula y establecer los siguientes valores. Una vez que haya terminado de configurar cada línea, seleccione **Guardar**.
+    1. En la ficha desplegable **Líneas de diario**, use el botón **Nuevo** para agregar tres líneas a la cuadrícula y establecer los siguientes valores. Una vez que haya terminado de configurar cada línea, seleccione **Guardar**.
 
         - **Línea 1:**
 
             - **Código de artículo:** *A0001*
-            - **Sitio** : *6*
-            - **Almacén** : *61*
+            - **Sitio**: *6*
+            - **Almacén**: *61*
             - **Ubicación:** *02A01R1S1B*
             - **Matrícula:** seleccione una matrícula existente en la lista o cree una nueva matrícula.
             - **Cantidad:** *1000*
@@ -297,8 +297,8 @@ Siga estos pasos para asegurarse de que su sistema incluya suficiente inventario
         - **Línea 2:**
 
             - **Código de artículo:** *A0001*
-            - **Sitio** : *6*
-            - **Almacén** : *61*
+            - **Sitio**: *6*
+            - **Almacén**: *61*
             - **Ubicación:** *07A01R2S1B*
             - **Matrícula:** seleccione una matrícula existente en la lista o cree una nueva matrícula.
             - **Cantidad:** *15*
@@ -306,8 +306,8 @@ Siga estos pasos para asegurarse de que su sistema incluya suficiente inventario
         - **Línea 3:**
 
             - **Código de artículo:** *A0001*
-            - **Sitio** : *6*
-            - **Almacén** : *61*
+            - **Sitio**: *6*
+            - **Almacén**: *61*
             - **Ubicación:** *07A01R1S1B*
             - **Matrícula:** seleccione una matrícula existente en la lista o cree una nueva matrícula.
             - **Cantidad:** *10*
@@ -320,8 +320,8 @@ Siga estos pasos para asegurarse de que su sistema incluya suficiente inventario
 Una vez que todos los datos de muestra de requisitos previos estén en su lugar, puede desencadenar el reabastecimiento siguiendo estos pasos.
 
 1. Vaya a **Gestión de almacenes \> Reabastecimiento \> Reabastecimientos**.
-1. En el cuadro de diálogo **Reabastecimiento** , en la ficha desplegable **Registros a incluir** , seleccione **Filtrar**.
-1. En el cuadro de diálogo **Consulta** , en la pestaña **Intervalo** , edite la fila de la tabla predeterminada de la siguiente manera:
+1. En el cuadro de diálogo **Reabastecimiento**, en la ficha desplegable **Registros a incluir**, seleccione **Filtrar**.
+1. En el cuadro de diálogo **Consulta**, en la pestaña **Intervalo**, edite la fila de la tabla predeterminada de la siguiente manera:
 
     - **Tabla:** seleccione _Plantillas de reabastecimiento_.
     - **Tabla derivada:** seleccione _Plantillas de reabastecimiento_.

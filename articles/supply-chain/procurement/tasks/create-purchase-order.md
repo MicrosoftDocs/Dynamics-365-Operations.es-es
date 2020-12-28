@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018172"
+ms.locfileid: "4437247"
 ---
 # <a name="create-a-purchase-order"></a>Crear un pedido de compra
 
@@ -45,22 +45,22 @@ Este tema muestra cómo crear un pedido de compra manualmente. Es más habitual 
 ## <a name="add-a-purchase-order-line"></a>Agregar una línea de pedido de compra
 1. Seleccione **Línea de pedido de compra**.
 2. Seleccione **Dimensiones**. Los productos pueden estar en variantes que se diferencian por dimensiones, como color, tamaño o estilo. También se pueden configurar los productos para usar dimensiones de almacenamiento, como el sitio y el almacén. También hay dimensiones de seguimiento opcionales, como números de serie y lote. Para mejorar la eficacia de la entrada de pedidos, puede agregar los campos de dimensión que usa comúnmente directamente a la cuadrícula del pedido.  
-3. Active la casilla **Color**. Opcional: si selecciona el campo **Guardar configuración** , las dimensiones que haya elegido también se mostrarán en la cuadrícula de la línea de pedido la próxima vez que abra la página del pedido de compra.  
+3. Active la casilla **Color**. Opcional: si selecciona el campo **Guardar configuración**, las dimensiones que haya elegido también se mostrarán en la cuadrícula de la línea de pedido la próxima vez que abra la página del pedido de compra.  
 4. Seleccione **Aceptar**.
-5. En el campo **Código de artículo** , seleccione **T0004**.
+5. En el campo **Código de artículo**, seleccione **T0004**.
 
     - Las líneas de pedido se crean para productos y servicios especificando un número de artículo, o como gastos especificando una categoría de compras. 
     - El campo **Categoría** de compras se usa para agregar líneas en las que los artículos adquiridos se gastan directamente, en lugar de entrar en inventario. Esto significa que si necesita gastar una compra puede hacerlo creando una línea de pedido de compra que especifique una categoría de compras, en lugar de crear una línea con un número de artículo. Los artículos también se pueden asociar con una categoría de compras y en este caso, la categoría de compras se muestra solo como informativa.  
 
-6. En el campo **Color** , especifique o seleccione un valor. Los campos **Sitio** y **Almacén** se rellenan normalmente con valores del encabezado de pedido, pero es posible anular los campos si algunas líneas debe entregarse a ubicaciones diferentes.  
-7. En el campo **Cantidad** , especifique un número.
+6. En el campo **Color**, especifique o seleccione un valor. Los campos **Sitio** y **Almacén** se rellenan normalmente con valores del encabezado de pedido, pero es posible anular los campos si algunas líneas debe entregarse a ubicaciones diferentes.  
+7. En el campo **Cantidad**, especifique un número.
 
     - Seleccione la cantidad que se desea adquirir. El campo **Cantidad** se rellena automáticamente con la cantidad de pedido mínima para el producto si se configura, o con el valor de 1.  
     - El campo **Unidad** indica la unidad de medida para la cantidad pedida. Normalmente, la unidad se proporciona automáticamente desde la unidad de compra en los datos maestro del producto, pero puede cambiarlo.  
     - El campo **Precio unitario** contiene normalmente un valor de un acuerdo de compra o de un acuerdo comercial. Es posible cambiar el precio unitario en líneas de pedido individuales, por ejemplo, si un precio único se negocia con el proveedor.  
     - El campo **Descuento** representa un importe de descuento por unidad. Por tanto, este descuento reduce el precio unitario por el descuento. Este descuento se suministra normalmente de manera automática desde acuerdos de compra o acuerdos comerciales, pero es posible anularlo en líneas individuales si se han negociado descuentos únicos con el proveedor.  
     - Se puede especificar un porcentaje de descuento que deduzca el importe neto para la línea según corresponda. El porcentaje de descuento se suministra a menudo de manera automática desde acuerdos de compra o acuerdos comerciales, pero es posible anularlo en líneas individuales si se ha negociado un porcentaje de descuento único con el proveedor.  
-    - El valor del campo **Importe neto** se calcula desde otros campos de la línea que incluyen la cantidad, el precio unitario, el descuento y el porcentaje de descuento. Es posible cambiar el Importe neto, pero entonces los campos **Precio unitario** , **Descuento** y **Porcentaje de descuento** estarán en blanco y cuando registre hacia la línea, el importe registrado será proporcional al importe neto. Normalmente el campo **Importe neto** solo se usa para mostrar el importe neto de la línea.  
+    - El valor del campo **Importe neto** se calcula desde otros campos de la línea que incluyen la cantidad, el precio unitario, el descuento y el porcentaje de descuento. Es posible cambiar el Importe neto, pero entonces los campos **Precio unitario**, **Descuento** y **Porcentaje de descuento** estarán en blanco y cuando registre hacia la línea, el importe registrado será proporcional al importe neto. Normalmente el campo **Importe neto** solo se usa para mostrar el importe neto de la línea.  
 
 8. Expanda la sección **Detalles de línea.**
 9. Seleccione la ficha **Entrega**. Se puede asignar una fecha de entrega única a cada línea de pedido. La fecha se hereda del campo del encabezado del pedido de compra, pero puede cambiarla.  
@@ -68,7 +68,7 @@ Este tema muestra cómo crear un pedido de compra manualmente. Es más habitual 
 ## <a name="review-order-totals"></a>Revisar totales del pedido
 1. Seleccione **Totales**.
 
-    - Si no ve la acción **Totales** , haga clic en la pestaña **Pedido de compra** en el panel Acciones.  
+    - Si no ve la acción **Totales**, haga clic en la pestaña **Pedido de compra** en el panel Acciones.  
     - Este cuadro de diálogo muestra los totales para todo el pedido.  
     - El campo **Selección** le permite cambiar la base de cómo se calculan los totales. Por ejemplo, podría elegir la **Cantidad de recepción de producto** para mostrar los totales relacionados con el importe de los productos que se han recibido o la **Cantidad pedida para mostrar** el importe del producto que se ha pedido.  
 

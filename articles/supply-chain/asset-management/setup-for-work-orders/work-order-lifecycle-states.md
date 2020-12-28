@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: b6e96f2f6b324ffe44e8684d9bd2a42fb52d0aed
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889274"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436908"
 ---
 # <a name="work-order-lifecycle-states"></a>Estados de ciclo de vida de orden de trabajo
 
@@ -101,7 +101,7 @@ La siguiente tabla describe las opciones de las secciones **Orden de trabajo** y
 > [!NOTE]
 > Si el estado del ciclo de vida al que actualiza un pedido de trabajo está inactivo, los diarios relacionados con la orden de trabajo pero que aún no se han registrado se eliminan automáticamente. Este comportamiento ayuda a garantizar la limpieza automática de datos no usados. (Un estado del ciclo de vida está inactivo si su opción **Activo** está establecida en **No** en la ficha desplegable **General** de la página **Estado del ciclo de vida de la orden de trabajo**).
 >
-> Sin embargo, si establece manualmente un pedido de trabajo para que esté inactivo, los diarios relacionados con la orden de trabajo pero que aún no se han registrado **no** se eliminan automáticamente. (Para desactivar manualmente un pedido de trabajo, seleccione **Administración de activos** \> **Común** \> **Órdenes de trabajo** \> **Todas las órdenes de trabajo** o **Órdenes de trabajo activas**. Abra la orden de trabajo, y cambie a la vista **Encabezado**. En la ficha desplegable **General**, seleccione **Editar**y, a continuación establezca la opción **Activo** en **No**.)
+> Sin embargo, si establece manualmente un pedido de trabajo para que esté inactivo, los diarios relacionados con la orden de trabajo pero que aún no se han registrado **no** se eliminan automáticamente. (Para desactivar manualmente un pedido de trabajo, seleccione **Administración de activos** \> **Común** \> **Órdenes de trabajo** \> **Todas las órdenes de trabajo** o **Órdenes de trabajo activas**. Abra la orden de trabajo, y cambie a la vista **Encabezado**. En la ficha desplegable **General**, seleccione **Editar** y, a continuación establezca la opción **Activo** en **No**.)
 
 ## <a name="relations-among-work-order-lifecycle-models-work-order-types-and-work-order-lifecycle-states"></a>Relaciones entre modelos de ciclo de vida de orden de trabajo, los tipos de orden de trabajo y estados de ciclo de vida de la orden de trabajo
 

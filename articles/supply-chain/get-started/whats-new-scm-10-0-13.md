@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 49b90037c182e10d0cc9d449649e8501537fdc4f
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012399"
+ms.locfileid: "4437156"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management (10.0.13 de octubre de 2020)
 
@@ -30,9 +30,9 @@ ms.locfileid: "4012399"
 
 En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.13. Esta versión tiene el número de compilación 10.0.569 y está disponible de la siguiente manera:
 
-- **Versión preliminar** : agosto 2020
+- **Versión preliminar**: agosto 2020
 - **Disponibilidad general (actualización automática):** septiembre de 2020
-- **Actualización automática** : octubre 2020
+- **Actualización automática**: octubre 2020
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 

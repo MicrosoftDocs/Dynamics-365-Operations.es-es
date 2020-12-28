@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f636a1f3d598a069c3922160eedbe05b68bc91eb
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017446"
+ms.locfileid: "4437209"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos
 
@@ -36,18 +36,18 @@ Puede usar esta guía en la empresa de datos de demostración USMF. Este procedi
 ## <a name="create-a-mobile-device-menu-item"></a>Crear un elemento de menú del dispositivo móvil
 1. En el panel de navegación, vaya a **Módulos > Administración de módulos > Configuración > Dispositivo móvil > Elementos de menú del dispositivo móvil**.
 2. Seleccione **Nuevo**.
-3. En el campo **Nombre del elemento de menú** , escriba un valor. Este es el identificador único para este elemento de menú del dispositivo móvil. Por ejemplo, podría escribir `My PO registration`.  
-4. En el campo **Título** , escriba un valor. Este es el título, que se mostrará al usuario en el dispositivo móvil. Por ejemplo, podría escribir `PO registration`.  
-5. En el campo **Modo** , seleccione **Trabajo**. El registro de las cantidades disponibles recibidas para una línea de pedido de compra creará el trabajo para mover los artículos del área de recepción al inventario. El trabajo no se crea hasta que no se registran los artículos. Por tanto, deje la opción **Usar trabajo existente** establecida en **No**.
-6. En el campo **Proceso de creación de trabajo** de la sección **General** , seleccione **Recepción de artículo del pedido de compra**.
+3. En el campo **Nombre del elemento de menú**, escriba un valor. Este es el identificador único para este elemento de menú del dispositivo móvil. Por ejemplo, podría escribir `My PO registration`.  
+4. En el campo **Título**, escriba un valor. Este es el título, que se mostrará al usuario en el dispositivo móvil. Por ejemplo, podría escribir `PO registration`.  
+5. En el campo **Modo**, seleccione **Trabajo**. El registro de las cantidades disponibles recibidas para una línea de pedido de compra creará el trabajo para mover los artículos del área de recepción al inventario. El trabajo no se crea hasta que no se registran los artículos. Por tanto, deje la opción **Usar trabajo existente** establecida en **No**.
+6. En el campo **Proceso de creación de trabajo** de la sección **General**, seleccione **Recepción de artículo del pedido de compra**.
     - Una línea de pedido de compra se debe identificar de manera exclusiva para que la cantidad disponible se pueda registrar en el almacén. En esta situación, el dispositivo móvil registrará el número del pedido de compra y el código del artículo, y esto permitirá al sistema identificar la línea del pedido de compra. Se creará trabajo de ubicación y se podrá seleccionar por otro trabajador. El método de creación de trabajo que seleccione determina qué campos están disponibles en la ficha desplegable **General**.  
-    - Si selecciona la opción **Usar datos predeterminados** , se habilita el botón **Datos predeterminados**. Aquí puede seleccionar campos para mostrar los datos que un trabajador necesita normalmente en su trabajo diario, de manera que se muestren estos valores en el dispositivo móvil.  
+    - Si selecciona la opción **Usar datos predeterminados**, se habilita el botón **Datos predeterminados**. Aquí puede seleccionar campos para mostrar los datos que un trabajador necesita normalmente en su trabajo diario, de manera que se muestren estos valores en el dispositivo móvil.  
     - El parámetro **Agrupar por matrícula de entidad de almacén** funciona junto con el grupo de secuencias de unidades que se asigna al artículo que se está recibiendo. Puede especificar si los recibos de menos o más de un pallet se deben agrupar en una matrícula de entidad de almacén o dividirse en una matrícula de entidad de almacén independiente para cada unidad.  
-    - Si selecciona la opción **Generar matrícula de entidad de almacén** , esto genera una matrícula de entidad de almacén única basada en la selección de la secuencia numérica.  
+    - Si selecciona la opción **Generar matrícula de entidad de almacén**, esto genera una matrícula de entidad de almacén única basada en la selección de la secuencia numérica.  
     - Puede seleccionar la plantilla que se usará al crear el trabajo. Por ejemplo, si registra un artículo para un pedido de compra, el trabajo de ubicación se generará en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo aquí, el sistema asignará una plantilla basada en los criterios de consulta que están asociados a las plantillas.  
     - Si los códigos de disposición se muestran en el dispositivo móvil, los trabajadores pueden evaluar el estado o la calidad de los artículos, y seleccionar el código apropiado. Las reglas del código de disposición determinan si los artículos estarán disponibles para otros procesos de almacén. Las reglas también determinan qué directiva de ubicación se usa para el trabajo creado.   
-    - Si selecciona la opción **Códigos de disposición de lote** , los trabajadores pueden evaluar el estado o la calidad de un lote y seleccionar el código de disposición apropiado. Las reglas que se establecen en el código de disposición de lote determinan si el lote estará disponible para otros procesos de almacén.  
-    - Si selecciona la opción **Imprimir etiquetas** , se imprimirá automáticamente una etiqueta de matrícula de entidad de almacén cuando se reciban los artículos.  
+    - Si selecciona la opción **Códigos de disposición de lote**, los trabajadores pueden evaluar el estado o la calidad de un lote y seleccionar el código de disposición apropiado. Las reglas que se establecen en el código de disposición de lote determinan si el lote estará disponible para otros procesos de almacén.  
+    - Si selecciona la opción **Imprimir etiquetas**, se imprimirá automáticamente una etiqueta de matrícula de entidad de almacén cuando se reciban los artículos.  
 7. Seleccione **Guardar**.
 8. Cierre la página.
 

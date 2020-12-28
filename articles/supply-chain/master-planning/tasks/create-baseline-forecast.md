@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a1d8fd665ec40efede0a3db8b0c59ac89751a64
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 47e26a48cdde3a6996f4c0a4ca85222c402f44e2
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987199"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4437293"
 ---
 # <a name="create-a-baseline-forecast"></a>Crear una previsión de línea base
 
@@ -43,7 +43,7 @@ Un planificador de producción puede crear una previsión de línea base usando 
 7. Cierre la página.
 8. Cierre la página.
 
-## <a name="set-up-the-demand-forecasting-paramters"></a>Configuración de parámetros de previsión de demanda
+## <a name="set-up-the-demand-forecasting-parameters"></a>Configuración de parámetros de previsión de demanda
 1. Vaya a Planificación maestra > Configuración > Previsión de demanda > Parámetros de previsión de la demanda.
 2. Expanda la sección Parámetros de algoritmo de previsión.
 3. En el campo Estrategia de generación de previsión, seleccione Copiar sobre demanda histórica.

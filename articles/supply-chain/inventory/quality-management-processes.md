@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2ab3b886b9d5237e96e193d7369c6060f19516e5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214076"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437128"
 ---
 # <a name="quality-management-processes"></a>Procesos de gestión de calidad
 
@@ -69,7 +69,7 @@ La tabla siguiente muestra los seis tipos de disconformidad predeterminados y de
 
 Las disconformidades se asocian a un tipo de problema. Los tipos de problema se definen en la página **Tipos de problemas**, donde se especifica qué tipos de problema se pueden asociar con cada tipo de disconformidad. Por ejemplo, los tipos de problemas de disconformidad del tipo **Solicitud de servicio** podrían reflejar una clasificación de quejas del cliente, mientras que los tipos de problemas de disconformidad del tipo **Interno** podrían representar una clasificación de códigos de defecto.
 
-A la hora de crear una nueva disconformidad, debe seleccionar el tipo de disconformidad y el tipo de problema. El estado de aprobación inicial es **Nuevo**, que representa una solicitud de acción. El siguiente paso es cambiar el estado de aprobación a **Aprobado** o **Rechazado**) para indicar que se actuará o no acerca del campo de disconformidad. También puede cerrar un caso de disconformidad (seleccionando una casilla aparte) para indicar que se ha terminado, o reabrirlo para indicar que es necesario seguir analizando el caso.
+A la hora de crear una nueva disconformidad, debe seleccionar el tipo de disconformidad y el tipo de problema. El estado de aprobación inicial es **Nuevo**, que representa una solicitud de acción. El siguiente paso es cambiar el estado de aprobación a **Aprobado** o **Rechazado** para indicar que se actuará o no acerca del campo de disconformidad. También puede cerrar un caso de disconformidad (seleccionando una casilla aparte) para indicar que se ha terminado, o reabrirlo para indicar que es necesario seguir analizando el caso.
 
 Puede incluir comentarios en un caso de disconformidad adjuntando un documento. Conviene definir un tipo de documento exclusivo para los casos de disconformidad mediante la página **Tipo de documento**. Puede usar la página **Configuración del informe** para definir si los comentarios para este tipo de documento se deben imprimir en el informe y la etiqueta de disconformidad. El informe y la etiqueta de conformidad pueden ayudar con la disposición de material. Se pueden generar informes y etiquetas de manera selectiva en función de ciertos criterios de selección asociados a un caso de disconformidad. Estos criterios incluyen el número de caso de disconformidad, el artículo, el cliente, el proveedor y el estado.
 

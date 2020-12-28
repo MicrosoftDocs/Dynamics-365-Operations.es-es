@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 48a1943833408767fe77456f66bbe109170a29e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985666"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437143"
 ---
 # <a name="activity-based-subcontracting"></a>Subcontratación basada en actividad
 

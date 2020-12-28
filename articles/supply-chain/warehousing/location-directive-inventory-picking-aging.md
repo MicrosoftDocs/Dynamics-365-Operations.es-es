@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017146"
+ms.locfileid: "4437174"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vencimiento de picking de inventario de directiva de ubicación
 
@@ -65,22 +65,22 @@ Los datos de demostración requieren ajustes de configuración e inventario para
 1. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Perfiles de ubicación**.
 1. En el panel Acciones, seleccione **Editar**.
 1. En la lista de perfiles de ubicación, seleccione **PLANTA-05**.
-1. En la ficha desplegable **General** , configure la opción **Habilitar estado de la ubicación** en *Sí*.
+1. En la ficha desplegable **General**, configure la opción **Habilitar estado de la ubicación** en *Sí*.
 1. Seleccione **Guardar**.
 1. Vaya a **Gestión de almacenes \> Configurar \> Directivas de ubicación**.
 1. En la lista de directivas de ubicación, seleccione **63 Creación de contenedores de recogida**.
 1. Seleccione **Editar** para poner la página en modo de edición.
-1. En la ficha desplegable **Acciones de directivas de localización** , busque la línea donde el campo **Número de secuencia** esté establecido en *1* , y siga uno de estos pasos:
+1. En la ficha desplegable **Acciones de directivas de localización**, busque la línea donde el campo **Número de secuencia** esté establecido en *1*, y siga uno de estos pasos:
 
     - Si está configurando un escenario FIFO, cambie el valor del campo **Estrategia** a *Vencimiento de ubicación FIFO*.
     - Si está configurando un escenario LIFO, cambie el valor del campo **Estrategia** a *Vencimiento de ubicación LIFO*.
 
-1. En la ficha desplegable **Acciones de directiva de ubicación** , seleccione **Editar consulta**.
-1. En el cuadro de diálogo de consulta, en la pestaña **Rango** , seleccione **Agregar** para agregar una línea y luego establezca los siguientes valores:
+1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione **Editar consulta**.
+1. En el cuadro de diálogo de consulta, en la pestaña **Rango**, seleccione **Agregar** para agregar una línea y luego establezca los siguientes valores:
 
-    - **Tabla** : *Ubicaciones*
+    - **Tabla**: *Ubicaciones*
     - **Tabla derivada:** *Ubicaciones*
-    - **Campo** : *ID de zona*
+    - **Campo**: *ID de zona*
     - **Criterios:** *Floor*
 
 1. Seleccione **Aceptar** para aplicar su configuración y cerrar el cuadro de diálogo de consulta.
@@ -89,8 +89,8 @@ Los datos de demostración requieren ajustes de configuración e inventario para
 
     1. Inicie sesión en el almacén *63* con el Id. de usuario y la contraseña adecuados.
     1. En el menú principal, seleccione **Calidad**.
-    1. En el menú **Administración de la calidad** , seleccione **Residuo**.
-    1. En la página **Residuo** , seleccione el campo **Ubicación/Matrícula** y luego introduzca *63\_1*.
+    1. En el menú **Administración de la calidad**, seleccione **Residuo**.
+    1. En la página **Residuo**, seleccione el campo **Ubicación/Matrícula** y luego introduzca *63\_1*.
     1. Seleccione **Entrar** o **Aceptar**.
     1. Confirme los detalles de **Residuo** para **Salida de ajuste** seleccionando **Entrar** o **Aceptar**.
 
@@ -98,7 +98,7 @@ Los datos de demostración requieren ajustes de configuración e inventario para
 
     Estos pasos dejan el inventario en dos ubicaciones en los datos de demostración. Cada ubicación tiene una fecha de vencimiento diferente. La ubicación *FL-001* tiene una fecha de vencimiento del 15 de abril de 2017 y la ubicación *FL-002* tiene una fecha de vencimiento del 29 de enero de 2017. Ambas ubicaciones contienen artículos *A0001*.
 
-    Para ver estos datos, vaya a **Gestión de inventarios \> Consultas e informes \> Disponible** y luego filtre en el almacén *63* y el artículo *A0001*. En las filas donde el campo **Ubicación** se establece en *FL-001* o *FL-002* , seleccione una línea que tenga un valor de **Inventario físico** positivo y luego, en el Panel de acciones, seleccione **Transacciones**. El campo **Fecha física** mostrará una fecha que se corresponde con una de las fechas de vencimiento mencionadas anteriormente.
+    Para ver estos datos, vaya a **Gestión de inventarios \> Consultas e informes \> Disponible** y luego filtre en el almacén *63* y el artículo *A0001*. En las filas donde el campo **Ubicación** se establece en *FL-001* o *FL-002*, seleccione una línea que tenga un valor de **Inventario físico** positivo y luego, en el Panel de acciones, seleccione **Transacciones**. El campo **Fecha física** mostrará una fecha que se corresponde con una de las fechas de vencimiento mencionadas anteriormente.
 
 ### <a name="scenario-1-set-up-and-use-fifo-location-aging"></a><a name="fifo-demo"></a>Escenario 1: configurar y usar el vencimiento de la ubicación FIFO
 
@@ -107,20 +107,20 @@ La estrategia FIFO busca la ubicación que contiene la fecha de vencimiento más
 1. Si aún no lo ha hecho, [prepare los datos de muestra](#demo-set-up) necesarios para este escenario.
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. Seleccione **Nuevo**.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
-    - En la ficha desplegable **Cliente** , configure el campo **Cuenta de cliente** a *US-001*.
-    - En la ficha desplegable **General** , establezca el campo **Almacén** en *63*.
+    - En la ficha desplegable **Cliente**, configure el campo **Cuenta de cliente** a *US-001*.
+    - En la ficha desplegable **General**, establezca el campo **Almacén** en *63*.
 
 1. Seleccione **Aceptar** para crear el pedido de ventas y cerrar el cuadro de diálogo.
 1. Se abre el nuevo pedido de ventas. Incluye una nueva fila vacía en la cuadrícula en la ficha desplegable **Líneas de pedido de venta**. En esta línea de pedido, establezca el campo **Número de artículo** en *A0001* y el campo **Cantidad** en *1*.
 1. En el menú **Inventario** sobre la cuadrícula, seleccione **Reserva**.
-1. En la página **Reserva** , en el panel de acciones, seleccione **Reservar lote** para reservar la cantidad pedida de este artículo del inventario en el almacén seleccionado.
+1. En la página **Reserva**, en el panel de acciones, seleccione **Reservar lote** para reservar la cantidad pedida de este artículo del inventario en el almacén seleccionado.
 1. Cierre la página **Reserva**.
-1. En la página **Pedido de ventas** del panel de acciones, en la pestaña **Almacén** , seleccione el grupo **Acciones** y **Despachar al almacén**. Recibirá mensajes informativos. El sistema crea un envío, lo agrega a una nueva carga y crea el trabajo requerido.
-1. En la ficha desplegable **Líneas de pedido de ventas** , en el menú **Almacén** , seleccione **Detalles del trabajo** para abrir el trabajo creado para este pedido de ventas. Observe que la línea donde el valor **Tipo de trabajo** es *Seleccionar* muestra un valor **Ubicación** de *FL-002*. Esta ubicación contiene la matrícula que tiene la fecha de vencimiento más antigua (FIFO).
+1. En la página **Pedido de ventas** del panel de acciones, en la pestaña **Almacén**, seleccione el grupo **Acciones** y **Despachar al almacén**. Recibirá mensajes informativos. El sistema crea un envío, lo agrega a una nueva carga y crea el trabajo requerido.
+1. En la ficha desplegable **Líneas de pedido de ventas**, en el menú **Almacén**, seleccione **Detalles del trabajo** para abrir el trabajo creado para este pedido de ventas. Observe que la línea donde el valor **Tipo de trabajo** es *Seleccionar* muestra un valor **Ubicación** de *FL-002*. Esta ubicación contiene la matrícula que tiene la fecha de vencimiento más antigua (FIFO).
 1. Seleccione **Almacén \> Detalles del envío**.
-1. En la ficha desplegable **General** , tome nota del ID de oleada para que pueda usarlo en el escenario 2.
+1. En la ficha desplegable **General**, tome nota del ID de oleada para que pueda usarlo en el escenario 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Escenario 2: configurar y usar el vencimiento de la ubicación LIFO
 
@@ -133,10 +133,10 @@ La estrategia LIFO busca la ubicación que contiene la fecha de vencimiento más
 
 1. Vaya a **Gestión de almacenes \> Oleadas de salida \> Oleadas de envío \> Todas las oleadas**.
 1. Seleccione y abra la oleada que contiene el orden que creó para el escenario FIFO.
-1. En el panel de acciones, en la pestaña **Trabajo** , seleccione **Cancelar** para cancelar el trabajo que creó para el escenario FIFO.
-1. En el panel de acciones, en la pestaña **Oleada** , en el grupo **Oleada** , seleccione **Proceso**.
-1. Cuando finalice el procesamiento, en el panel de acciones, en la pestaña **Oleada** , en el grupo **Información relacionada** , seleccione **Trabajo** para abrir el trabajo creado en esta oleada.
-1. Sobre la página **Trabajo** , en la pestaña **Visión general** , debe haber dos líneas. Seleccione la línea donde el campo **Situación del trabajo** se establece en *Abierto*.
+1. En el panel de acciones, en la pestaña **Trabajo**, seleccione **Cancelar** para cancelar el trabajo que creó para el escenario FIFO.
+1. En el panel de acciones, en la pestaña **Oleada**, en el grupo **Oleada**, seleccione **Proceso**.
+1. Cuando finalice el procesamiento, en el panel de acciones, en la pestaña **Oleada**, en el grupo **Información relacionada**, seleccione **Trabajo** para abrir el trabajo creado en esta oleada.
+1. Sobre la página **Trabajo**, en la pestaña **Visión general**, debe haber dos líneas. Seleccione la línea donde el campo **Situación del trabajo** se establece en *Abierto*.
 1. Observe que la línea donde el valor **Tipo de trabajo** es *Seleccionar* muestra un valor **Ubicación** de *FL-001*. Esta ubicación contiene la matrícula que tiene la fecha de vencimiento más actual (LIFO).
 
 En estos escenarios, puede observar cómo la estrategia de vencimiento de la ubicación dirige el trabajo a la ubicación del inventario que tiene el inventario más antiguo o el más nuevo, según la estrategia seleccionada.

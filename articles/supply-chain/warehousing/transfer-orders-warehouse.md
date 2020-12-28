@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017492"
+ms.locfileid: "4437235"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Configuración de almacenes para pedidos de transferencia 
 
@@ -33,9 +33,9 @@ Puede utilizar niveles de almacén para crear una jerarquía que admita pedidos 
 
 2.  Seleccione el almacén que desee reabastecer.
 
-3.  En la ficha desplegable **Planificación maestra** , seleccione la casilla **Reabastecimiento**.
+3.  En la ficha desplegable **Planificación maestra**, seleccione la casilla **Reabastecimiento**.
 
-4.  En el campo **Almacén principal** , seleccione el almacén que desee asignar como almacén de reabastecimiento. La programación maestra calcula un requisito de transferencia para el almacén seleccionado y genera un pedido de transferencia planificado desde el **Almacén principal** asignado.
+4.  En el campo **Almacén principal**, seleccione el almacén que desee asignar como almacén de reabastecimiento. La programación maestra calcula un requisito de transferencia para el almacén seleccionado y genera un pedido de transferencia planificado desde el **Almacén principal** asignado.
    
     > [!NOTE]
     > <P>Si deja el campo <STRONG>Reabastecimiento</STRONG> en blanco, se asigna al almacén seleccionado un nivel de almacén en relación con el <STRONG>Almacén principal</STRONG>, pero no se define el <STRONG>Almacén principal</STRONG> como almacén de reabastecimiento.</P>
@@ -50,6 +50,6 @@ Puede utilizar niveles de almacén para crear una jerarquía que admita pedidos 
 
 También debe configurar el plazo de transporte entre los almacenes en la página **Días de transporte**. 
 1. Vaya a **Administración de inventario > configuración > distribución > días de transporte**.
-2. En el campo **Punto de recepción** , seleccione **almacén**.
-3. Seleccione **Almacén de envío** , **Almacén de recepción** y **Días de transporte**. 
+2. En el campo **Punto de recepción**, seleccione **almacén**.
+3. Seleccione **Almacén de envío**, **Almacén de recepción** y **Días de transporte**. 
 4. (opcional) También puede establecer el tiempo de transporte, en función del modo de entrega, en la pestaña **Días de transporte por modo de entrega**.

@@ -4,7 +4,7 @@ description: En este tema se explica cómo anular y reimprimir las etiquetas de 
 author: GarmMSFT
 manager: PJacobse
 ms.date: 07/09/2020
-ms.topic: reprint-and-void-wave-labels
+ms.topic: article
 ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016663"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4437296"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Reimprimir y anular etiquetas de oleada
 
@@ -42,7 +42,7 @@ En este tema se presenta una colección de escenarios que muestran, a través de
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Escenario 1: reimprimir etiquetas desde el cliente web
 
-Puede ver y reimprimir etiquetas de oleada desde las siguientes páginas. En el panel de acciones de cada página, en la pestaña **Envíos** del grupo **Información relacionada** , seleccione **Etiquetas de oleada**.
+Puede ver y reimprimir etiquetas de oleada desde las siguientes páginas. En el panel de acciones de cada página, en la pestaña **Envíos** del grupo **Información relacionada**, seleccione **Etiquetas de oleada**.
 
 - Todos los envíos \> Detalles del envío
 - Todas las cargas \> Detalles de la carga
@@ -54,7 +54,7 @@ Para reimprimir una etiqueta de oleada desde el cliente web, siga estos pasos.
 
 1. Vaya a **Gestión de almacenes \> Oleadas de salida \> Oleadas de envío \> Todas las oleadas**.
 1. Seleccione la oleada desde la que reimprimir etiquetas.
-1. En el panel de acciones, en la pestaña **Oleada** , en el grupo **Imprimir** , seleccione **Etiquetas de oleada**.
+1. En el panel de acciones, en la pestaña **Oleada**, en el grupo **Imprimir**, seleccione **Etiquetas de oleada**.
 1. Siga uno o ambos de los siguientes pasos:
 
     - Para reimprimir la etiqueta, seleccione una impresora en el campo **Nombre de impresora**. (Deje este campo en blanco si solo desea actualizar los detalles de la etiqueta de oleada, sin volver a imprimir la etiqueta).
@@ -118,7 +118,7 @@ Siga estos pasos para crear una nueva colección de elementos de menú para reim
     - **Etiqueta de agrupamiento del sistema:** *ID de envío*
     - **Modo de impresión:** *Enumeración*
 
-1. En el panel de acciones, seleccione **Lista de campos** y, a continuación, use las listas desplegables para seleccionar los campos que se mostrarán para ayudar a los trabajadores a identificar el rollo de etiquetas correcto (por ejemplo, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* y *NumberOfLabels* ).
+1. En el panel de acciones, seleccione **Lista de campos** y, a continuación, use las listas desplegables para seleccionar los campos que se mostrarán para ayudar a los trabajadores a identificar el rollo de etiquetas correcto (por ejemplo, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* y *NumberOfLabels*).
 1. Cierre la página.
 1. Cree un cuarto elemento de menú y establezca los siguientes valores para este:
 
@@ -131,7 +131,7 @@ Siga estos pasos para crear una nueva colección de elementos de menú para reim
     - **Etiqueta de agrupamiento del sistema:** *ID de envío*
     - **Modo de impresión:** *Última id. de etiqueta de oleada buena*
 
-1. En el panel de acciones, seleccione **Lista de campos** y, a continuación, use las listas desplegables para seleccionar los campos que se mostrarán para ayudar a los trabajadores a identificar el rollo de etiquetas correcto (por ejemplo, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* y *NumberOfLabels* ).
+1. En el panel de acciones, seleccione **Lista de campos** y, a continuación, use las listas desplegables para seleccionar los campos que se mostrarán para ayudar a los trabajadores a identificar el rollo de etiquetas correcto (por ejemplo, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* y *NumberOfLabels*).
 1. Cierre la página.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Configurar el menú de dispositivo móvil

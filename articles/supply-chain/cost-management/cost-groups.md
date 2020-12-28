@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9dee8e40de43480cd010b5acc41a3d87611c2ab6
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981617"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436996"
 ---
 # <a name="cost-groups"></a>Grupos de coste
 
@@ -49,7 +49,7 @@ La segmentación de grupos de costes también se puede aplicar a las desviacione
 A un grupo de costes se le puede asignar un tipo de grupo de costes y un comportamiento por motivos de segmentación adicional.
 
 -   **Tipo de grupo de costes**: cada grupo de costes se debe asignar a un tipo de grupo de costes para indicar que el grupo de costes se aplica a material directo, a fabricación directa o a subcontratación, o para designarlo como indirecto o sin definir. Un grupo de costes designado como material directo se puede asignar a los artículos. Un grupo de costes designado como fabricación directa se puede asignar a categorías de costes. Un grupo de costes de subcontratación directa se puede asignar a un tipo de producto de servicio, lo que le permite clasificar los costes que están asociados a una compra de servicios para actividades de subcontratación. Un grupo de costes indirecto se puede asignar a costes indirectos para suplementos o tasas. Un grupo de costes que está designado como sin definir se puede asignar a artículos, categorías de coste o costes indirectos. La asignación de un tipo de grupo de costes tiene varios propósitos. En primer lugar, limita la capacidad de asignar un grupo de costes y de ver una lista de grupos de costes aplicables. En segundo lugar, proporciona segmentación adicional para fines de generación de informes. En tercer lugar, se puede usar para asignar cuentas de contabilidad para las desviaciones.
--   **Comportamiento**: a cada grupo de costes se le puede asignar opcionalmente un comportamiento para indicar que el grupo de costes se aplica a costes fijos o a costes variables. Un grupo de costes con un valor nulo para el comportamiento se trata como coste variable. La asignación de un comportamiento solo sirve para la generación de informes. Por ejemplo, los costes se pueden mostrar con la segmentación de costes fijos y variables en la hoja de gestión de costes y en la página**Acumulación de costes por grupo de costes**. Si asigna un porcentaje que establece las ganancias para cada grupo de costes, el cálculo de la lista de materiales (L. MAT.) proporciona un precio de ventas sugerido en función de un enfoque de marcado según coste más margen.
+-   **Comportamiento**: a cada grupo de costes se le puede asignar opcionalmente un comportamiento para indicar que el grupo de costes se aplica a costes fijos o a costes variables. Un grupo de costes con un valor nulo para el comportamiento se trata como coste variable. La asignación de un comportamiento solo sirve para la generación de informes. Por ejemplo, los costes se pueden mostrar con la segmentación de costes fijos y variables en la hoja de gestión de costes y en la página **Acumulación de costes por grupo de costes**. Si asigna un porcentaje que establece las ganancias para cada grupo de costes, el cálculo de la lista de materiales (L. MAT.) proporciona un precio de ventas sugerido en función de un enfoque de marcado según coste más margen.
 
 
 

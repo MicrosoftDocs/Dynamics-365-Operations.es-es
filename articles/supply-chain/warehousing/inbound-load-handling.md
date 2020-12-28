@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017630"
+ms.locfileid: "4437179"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
@@ -45,11 +45,11 @@ La siguiente ilustración muestra el flujo típico para manejar cargas entrantes
 
 1. **El proveedor confirma el despacho de carga.**
 
-    Cuando el proveedor despacha la carga, el coordinador de logística en el almacén receptor confirma el envío de la carga. Si la empresa receptora está utilizando el módulo **Gestión del transporte** , la confirmación del envío entrante activará otros procesos de gestión de carga que están asociados con las cargas entrantes. Para más información, consulte [Confirmar una carga para envío](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Cuando el proveedor despacha la carga, el coordinador de logística en el almacén receptor confirma el envío de la carga. Si la empresa receptora está utilizando el módulo **Gestión del transporte**, la confirmación del envío entrante activará otros procesos de gestión de carga que están asociados con las cargas entrantes. Para más información, consulte [Confirmar una carga para envío](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **La carga llega al almacén y los trabajadores registran cantidades.**
 
-    Cuando un camión llega al muelle de recepción del almacén, los trabajadores del almacén registran las cantidades de carga. Cuando se usa el módulo **Gestión de almacenes** , los trabajadores hacen el registro mediante dispositivos móviles. Para más información, ver [Recepción de producto contra pedidos de compra - registro](../procurement/product-receipt-against-purchase-orders.md#registration) y la sección [Registrar cantidades de artículos que llegan en una carga entrante](#register-item-quantities-arriving).
+    Cuando un camión llega al muelle de recepción del almacén, los trabajadores del almacén registran las cantidades de carga. Cuando se usa el módulo **Gestión de almacenes**, los trabajadores hacen el registro mediante dispositivos móviles. Para más información, ver [Recepción de producto contra pedidos de compra - registro](../procurement/product-receipt-against-purchase-orders.md#registration) y la sección [Registrar cantidades de artículos que llegan en una carga entrante](#register-item-quantities-arriving).
 
 1. **Las cantidades de carga registradas se contabilizan en las órdenes de compra.**
 
@@ -75,7 +75,7 @@ Cuando una carga entrante llega por primera vez al almacén, los trabajadores de
     - Recepción de matrícula mixta y ubicación, donde el campo **Método de identificación de línea del documento fuente** para el elemento de menú del dispositivo móvil se establece en _Carga de artículos recibidos_. Para más información, ver [Recepción de matrícula mixta](mixed-license-plate-receiving.md).
 
     > [!NOTE]
-    > Independientemente del proceso, el sistema generará trabajo para tomar cantidades registradas en la ubicación de recepción y guardarlas en la ubicación de almacenamiento normal. Cuando se usa el proceso _Recepción y ubicación de carga de artículo_ o _Recepción y ubicación de matrícula de entidad mixta_ , el trabajador que registró la cantidad de carga también será instruido por el dispositivo para hacer el trabajo de almacenamiento como parte de la tarea de registro. Por el contrario, para los procesos _Carga de artículos recibidos_ y _Recepción de matrícula mixta_ , se supone que el trabajo de almacenamiento se realizará por separado de la tarea de registro.
+    > Independientemente del proceso, el sistema generará trabajo para tomar cantidades registradas en la ubicación de recepción y guardarlas en la ubicación de almacenamiento normal. Cuando se usa el proceso _Recepción y ubicación de carga de artículo_ o _Recepción y ubicación de matrícula de entidad mixta_, el trabajador que registró la cantidad de carga también será instruido por el dispositivo para hacer el trabajo de almacenamiento como parte de la tarea de registro. Por el contrario, para los procesos _Carga de artículos recibidos_ y _Recepción de matrícula mixta_, se supone que el trabajo de almacenamiento se realizará por separado de la tarea de registro.
 
 - **Una plantilla de trabajo que define el trabajo de selección y colocación para las cargas entrantes**
 
@@ -122,8 +122,8 @@ Use el campo **Sobre recepción de carga** para los elementos de menú relevante
 
 - Recepción de artículo de carga
 - Recepción de artículo de carga y ubicación
-- Recepción de matrícula mixta, (cuando el campo **Método de identificación de línea del documento fuente** se establece en _Carga de artículos recibidos_ )
-- Recepción de matrícula mixta y guardado, (cuando el campo **Método de identificación de línea del documento fuente** se establece en _Carga de artículos recibidos_ )
+- Recepción de matrícula mixta, (cuando el campo **Método de identificación de línea del documento fuente** se establece en _Carga de artículos recibidos_)
+- Recepción de matrícula mixta y guardado, (cuando el campo **Método de identificación de línea del documento fuente** se establece en _Carga de artículos recibidos_)
 
 En la siguiente tabla se explican las opciones disponibles para el campo **Sobre recepción de carga**.
 
@@ -155,24 +155,24 @@ Una vez que las cantidades de productos entrantes se registran en el sistema, qu
 Para abrir una página donde pueden publicar un recibo de producto, los miembros del equipo de operaciones pueden seguir _uno_ de estos pasos:
 
 - Abrir el registro de carga relevante y luego seleccionar la acción **Recibo del producto**.
-- Ir a **Gestión de almacenes \> Tareas periódicas \> Actualizar recibos de productos** , y luego, en el campo **Id. de carga** , especifique la carga a registrar.
+- Ir a **Gestión de almacenes \> Tareas periódicas \> Actualizar recibos de productos**, y luego, en el campo **Id. de carga**, especifique la carga a registrar.
 - Abrir el pedido de compra relevante y luego seleccionar la acción **Recibo del producto**.
 - Ir a **Adquisición y abastecimiento \> Pedidos de compra \> Recepción de productos \> Registrar trabajo de recepción de producto**.
 
-La acción **Recibo del producto** que está disponible en la página **Carga** (y en la página equivalente para el trabajo de actualización, la página **Actualizar recibos de productos** ) puede actualizar cantidades de recibos de productos solo en cantidades de pedidos de compra que tienen un estado de _Registrado_. Sin embargo, la acción **Recibo del producto** que está disponible en la página **Pedido de compra** puede incluir cantidades en ambos estados de procesamiento ( _Pedido_ y _Registrado_ ). También puede controlar el alcance de la recepción de recibos de productos a través de parámetros adicionales, como _Recibir cantidad ahora_ y _Cantidad registrada y servicios_.
+La acción **Recibo del producto** que está disponible en la página **Carga** (y en la página equivalente para el trabajo de actualización, la página **Actualizar recibos de productos**) puede actualizar cantidades de recibos de productos solo en cantidades de pedidos de compra que tienen un estado de _Registrado_. Sin embargo, la acción **Recibo del producto** que está disponible en la página **Pedido de compra** puede incluir cantidades en ambos estados de procesamiento (_Pedido_ y _Registrado_). También puede controlar el alcance de la recepción de recibos de productos a través de parámetros adicionales, como _Recibir cantidad ahora_ y _Cantidad registrada y servicios_.
 
 Solo pedidos que tienen un estado de _Confirmado_ pueden registrarse como producto recibido. Para pedidos de compra no confirmados, la acción **Recibo del producto** aparecerá como no disponible.
 
 ### <a name="post-registered-quantities-from-the-load-page"></a>Contabilizar cantidades registradas desde la página Carga
 
-Para las cantidades registradas de recepción de producto la página **Carga** , debe tener siguientes requisitos previos:
+Para las cantidades registradas de recepción de producto la página **Carga**, debe tener siguientes requisitos previos:
 
 - La carga debe tener al menos una unidad de cantidad que tenga un estado de _Registrado_.
 - El estado de carga debe ser _Enviado_.
 - El pedido de compra asociado con la carga debe tener un estado de _Confirmado_.
 
 > [!NOTE]
-> Si el estado de carga no se ha establecido en _Enviado_ , el sistema confirmará automáticamente la carga antes de ejecutar la actualización del recibo del producto. (El estado de carga se establece en _Enviado_ cuando un usuario registra el envío entrante de la carga).
+> Si el estado de carga no se ha establecido en _Enviado_, el sistema confirmará automáticamente la carga antes de ejecutar la actualización del recibo del producto. (El estado de carga se establece en _Enviado_ cuando un usuario registra el envío entrante de la carga).
 
 Para registros de recibo de producto posteriores a la llegada que están asociados con una carga seleccionada, trabajador selecciona la acción **Recibo del producto** en la página **Carga**. La página que se abre tiene los siguientes detalles clave:
 
@@ -185,7 +185,7 @@ Para registros de recibo de producto posteriores a la llegada que están asociad
 >
 > | Versión | Cálculo |
 > |---|---|
-> | Las versiones anteriores a la versión 10.0.10 y versiones más recientes donde la función _Permitir recibo de múltiples productos por carga_ no está activada | La cantidad de línea es el total de todas las cantidades registradas _para esa línea de orden de compra_ , independientemente de si el registro se realizó en varias cargas, independientemente de la carga, desde un dispositivo móvil o desde el cliente. |
+> | Las versiones anteriores a la versión 10.0.10 y versiones más recientes donde la función _Permitir recibo de múltiples productos por carga_ no está activada | La cantidad de línea es el total de todas las cantidades registradas _para esa línea de orden de compra_, independientemente de si el registro se realizó en varias cargas, independientemente de la carga, desde un dispositivo móvil o desde el cliente. |
 > | La versión 10.0.10 y posteriores donde la función _Permitir recibo de múltiples productos por carga_ está activada | La cantidad de línea es el total de todas las cantidades registradas _para el registro de carga_ desde el que se inició la acción **Contabilización de recibo de producto**. |
 
 Cuando el usuario selecciona **Aceptar** para confirmar la recepción del recibo del producto, el sistema realiza las siguientes actualizaciones clave en las entidades apropiadas.
@@ -207,22 +207,22 @@ La siguiente tabla resume los efectos de la configuración **Permitir recibo de 
 |---|---|---|---|
 | Cuando este campo no está disponible (versiones anteriores a 10.0.10) | <p>La cantidad de carga se establece para que sea igual a la cantidad registrada.</p><p>Si la cantidad de carga se actualiza a 0 (cero), lo que significa que no se ha realizado ningún registro, la línea de carga se elimina.</p><p>Si no hay líneas de carga en la carga, la carga se elimina.</p> | _Recibida_ | Si existen varias cargas para la cantidad registrada de la línea de pedido, solo el estado de la carga desde la que se registró el recibo se actualiza a _Recibido_. |
 | Nº | <p>La cantidad de carga se establece de modo que sea igual a la cantidad registrada que está asociada con la ID de carga.</p><p>Si no se registra ninguna ID de carga para la transacción de inventario, el comportamiento coincide con el comportamiento en versiones anteriores a 10.0.10.</p> | _Recibida_ | |
-| Sí | Sin actualizaciones | _Recibido_ , si la cantidad de carga total registrada es igual o mayor que la cantidad de carga | |
-| Sí | Sin actualizaciones | _Enviado_ o _En proceso_ , si la cantidad de carga total registrada es menor que la cantidad de carga | |
+| Sí | Sin actualizaciones | _Recibido_, si la cantidad de carga total registrada es igual o mayor que la cantidad de carga | |
+| Sí | Sin actualizaciones | _Enviado_ o _En proceso_, si la cantidad de carga total registrada es menor que la cantidad de carga | |
 
-Después de que el campo **Estado de carga** se establece en _Recibido_ , no se pueden realizar más contabilizaciones de recibos de productos para esa carga. Sin embargo, el trabajador puede registrar la cantidad de pedido restante contra la carga recibida en las siguientes condiciones. (Para obtener más información, consulte la sección [Exceso de recepción de carga](#load-over-receiving) descrita anteriormente en este tema).
+Después de que el campo **Estado de carga** se establece en _Recibido_, no se pueden realizar más contabilizaciones de recibos de productos para esa carga. Sin embargo, el trabajador puede registrar la cantidad de pedido restante contra la carga recibida en las siguientes condiciones. (Para obtener más información, consulte la sección [Exceso de recepción de carga](#load-over-receiving) descrita anteriormente en este tema).
 
 - La versión de Supply Chain Management es anterior a la versión 10.0.11.
 - La función _Sobre recepción de cantidades de carga_ está activada y el campo **Cantidad de línea de carga sobre recibida** en el elemento de menú del dispositivo móvil para la acción de recepción del elemento de carga se establece en _Permitir_.
 
-Para la recepción del producto contabilice cantidades de carga registradas adicionales en una carga que tenga un estado de _Recibido_ , el usuario debe ejecutar la acción de publicación desde el pedido de compra asociado.
+Para la recepción del producto contabilice cantidades de carga registradas adicionales en una carga que tenga un estado de _Recibido_, el usuario debe ejecutar la acción de publicación desde el pedido de compra asociado.
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Contabilizar cantidades registradas desde la página Pedido de compra
 
-Al recibo del producto contabilice las cantidades registradas desde la página **Pedido de compra** , el usuario completa las siguientes tareas antes de seleccionar la acción **Recibo del producto** :
+Al recibo del producto contabilice las cantidades registradas desde la página **Pedido de compra**, el usuario completa las siguientes tareas antes de seleccionar la acción **Recibo del producto**:
 
 - Establezca el campo **Cantidad** en la sección **Parámetros** en la pestaña **Configuraciones** a _Cantidad registrada_.
-- En el campo **Recibo del producto** , ingrese los números de los pedidos de compra que se incluyen en la contabilización.
+- En el campo **Recibo del producto**, ingrese los números de los pedidos de compra que se incluyen en la contabilización.
 
 > [!NOTE]
 > La cantidad de línea que se incluirá en el ámbito de publicación es el total de todas las cantidades registradas para esa línea de pedido de compra, independientemente de si el registro de la cantidad se realizó en varias cargas, independientemente de la carga, desde un dispositivo móvil o desde el cliente. La misma regla se aplica cuando la contabilización del recibo del producto se ejecuta desde una carga, si se realiza donde el campo **Permitir recibo de múltiples productos por carga** no está disponible o no está habilitado.
@@ -238,15 +238,15 @@ La siguiente tabla resume los efectos de la configuración **Permitir recibo de 
 
 | Permitir varias recepciones de productos por carga | Cantidad de carga | Estado de la carga | Billete |
 |---|---|---|---|
-| Cuando este campo está deshabilitado o no está disponible (en versiones anteriores a 10.0.10) | Sin actualizaciones | No se realizan actualizaciones. (El estado permanece _Abierto_ , _Enviado_ o _En proceso_.) | Debido a que la contabilización del recibo del producto se inicia desde un pedido de compra, la lógica de actualización no tiene información sobre la asociación entre las cantidades registradas dentro de su alcance y las cargas con las que se registró el registro. Por lo tanto, no puede seleccionar la carga para la actualización de estado. |
+| Cuando este campo está deshabilitado o no está disponible (en versiones anteriores a 10.0.10) | Sin actualizaciones | No se realizan actualizaciones. (El estado permanece _Abierto_, _Enviado_ o _En proceso_.) | Debido a que la contabilización del recibo del producto se inicia desde un pedido de compra, la lógica de actualización no tiene información sobre la asociación entre las cantidades registradas dentro de su alcance y las cargas con las que se registró el registro. Por lo tanto, no puede seleccionar la carga para la actualización de estado. |
 | Habilitadas | Sin actualizaciones | <p>Se produce una de las acciones siguientes:</p><ul><li>El estado se cambia a <i>Recibido</i> si las cantidades totales recibidas y compradas de las transacciones de inventario de la orden de compra son mayores o iguales a la cantidad de la carga con la que están asociadas.</li><li>El estado permanece <i>Abierto</i>, <i>Enviado</i> o <i>En proceso</i> si no se cumple la condición anterior para todas las líneas en la carga.</li></ul> | |
 
 ### <a name="select-the-appropriate-product-receipt-posting-option-for-your-logistics-operations"></a>Seleccione la opción de registro de recibo de producto adecuada para sus operaciones logísticas
 
 Como se describió anteriormente, el sistema ofrece dos opciones de registro de recibos de productos. Se puede acceder a las opciones en los siguientes lugares:
 
-- En la página **Carga** , o desde el menú **Gestión de almacenes \> Tareas periódicas** menú como trabajo de actualización
-- En la página **Pedido de compra** , o desde el menú **Adquisiciones y abastecimiento \> Pedidos de compra \> Recibiendo productos** como trabajo de actualización
+- En la página **Carga**, o desde el menú **Gestión de almacenes \> Tareas periódicas** menú como trabajo de actualización
+- En la página **Pedido de compra**, o desde el menú **Adquisiciones y abastecimiento \> Pedidos de compra \> Recibiendo productos** como trabajo de actualización
 
 Se recomienda a las empresas que utilizan cargas para planificar y gestionar el transporte y la gestión de almacén de sus pedidos entrantes utilicen las siguientes funciones, que están diseñadas para trabajar con cargas:
 
@@ -268,12 +268,12 @@ Estos escenarios requieren la característica _Múltiples contabilizaciones de r
 
 1. Abra el espacio de trabajo **Administración de características**. (Para obtener detalles completos sobre cómo encontrar y usar este espacio de trabajo, vea [Resumen de gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)).
 
-1. Active la característica _Asociar transacciones de inventario de orden de compra con carga_ , que se enumera de la siguiente manera:
+1. Active la característica _Asociar transacciones de inventario de orden de compra con carga_, que se enumera de la siguiente manera:
 
     - **Módulo:** _Gestión de almacén_
     - **Nombre de la característica:** _Asociar transacciones de inventario de orden de compra con carga_
 
-1. Active la característica _Múltiples contabilizaciones de recibos de productos por carga_ , que se enumera de la siguiente manera:
+1. Active la característica _Múltiples contabilizaciones de recibos de productos por carga_, que se enumera de la siguiente manera:
 
     - **Módulo:** _Gestión de almacén_
     - **Nombre de la característica:** _Múltiples contabilizaciones de recibos de productos por carga_
@@ -312,29 +312,29 @@ En este procedimiento, creará manualmente un pedido de compra y una carga asoci
 
 1. Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra**.
 1. Seleccione **Nuevo**.
-1. En el cuadro de diálogo **Crear orden de compra** , establezca el campo **Cuenta de proveedor** en _1001_.
+1. En el cuadro de diálogo **Crear orden de compra**, establezca el campo **Cuenta de proveedor** en _1001_.
 1. Seleccione **Aceptar** para cerrar el cuadro de diálogo y crear el pedido de compra.
 1. El nuevo pedido de compra ya incluye una línea debajo de **Líneas de pedido de compra**. Establezca los siguientes valores para esta línea:
 
     - **Código de artículo:** _A0001_
-    - **Almacén** : _24_
+    - **Almacén**: _24_
     - **Cantidad:** _10_
 
 1. En el panel de acciones, en la pestaña **Compra,** seleccione **Acciones \> Confirmar**. El estado del pedido es ahora _Confirmado_.
 1. En el panel de acciones, en la pestaña **Almacén** seleccione **Acciones \> Área de trabajo de planificación de la carga**.
-1. En la página **Banco de trabajo de planificación de carga** , en el Panel de acciones, en la pestaña **Oferta y demanda** , seleccione **Agregar \> A nueva carga**.
-1. En el cuadro de diálogo **Cargar plantilla de asignación** , establezca el campo **Cargar Id. de plantilla** en _Contenedor de 20 '_.
+1. En la página **Banco de trabajo de planificación de carga**, en el Panel de acciones, en la pestaña **Oferta y demanda**, seleccione **Agregar \> A nueva carga**.
+1. En el cuadro de diálogo **Cargar plantilla de asignación**, establezca el campo **Cargar Id. de plantilla** en _Contenedor de 20 '_.
 1. Seleccione **Aceptar** para cerrar el cuadro de diálogo y volver al área de trabajo.
-1. En la sección **Cargas** , seleccione **Id. de carga** para abrir la carga recién creada.
+1. En la sección **Cargas**, seleccione **Id. de carga** para abrir la carga recién creada.
 1. Revise el encabezado de carga y los detalles de la línea y observe los siguientes puntos:
 
-    - En la ficha desplegable **Carga** , el campo **Estado de carga** se establece en _Abierto_.
-    - En la sección **Líneas de carga** , hay una sola línea donde el campo **Cantidad** se establece en _10_ y el campo **Cantidad de trabajo creado** se establece en _0_ (cero).
+    - En la ficha desplegable **Carga**, el campo **Estado de carga** se establece en _Abierto_.
+    - En la sección **Líneas de carga**, hay una sola línea donde el campo **Cantidad** se establece en _10_ y el campo **Cantidad de trabajo creado** se establece en _0_ (cero).
 
     ![Detalles de la carga](media/inbound-load-details.png "Detalles de la carga")
 
-1. En el panel de acciones, en la ficha **Enviar y recibir** , seleccione **Confirmar \> Envío entrante**. Tenga en cuenta que el **Estado de carga** ha cambiado a _Enviado_.
-1. Tome nota del valor **Id. de carga** , para que pueda usarlo en el siguiente procedimiento.
+1. En el panel de acciones, en la ficha **Enviar y recibir**, seleccione **Confirmar \> Envío entrante**. Tenga en cuenta que el **Estado de carga** ha cambiado a _Enviado_.
+1. Tome nota del valor **Id. de carga**, para que pueda usarlo en el siguiente procedimiento.
 
 #### <a name="register-receipt-of-the-quantities-that-arrived-on-the-load"></a>Registrar recibo de las cantidades que llegaron en la carga
 
@@ -345,7 +345,7 @@ Cuando la carga llega al muelle de recepción del almacén, un empleado receptor
 1. Siga las instrucciones de ingreso de datos en la pantalla para ingresar los siguientes valores. (El orden puede variar, dependiendo del dispositivo móvil o emulador que esté utilizando).
 
     - **Carga** - Introduzca el Id. de carga que creó en el procedimiento anterior.
-    - **Articulo** - Introduzca _A0001_ , que es el elemento que se espera para esta carga.
+    - **Articulo** - Introduzca _A0001_, que es el elemento que se espera para esta carga.
     - **Cantidad** - Introduzca _9_ como la cantidad real que está presente en la carga. Tenga en cuenta que esta cantidad es menor que la cantidad esperada.
 
 1. Continúe avanzando por el flujo de trabajo, dejando todos los demás campos en blanco o configurados con sus valores predeterminados, hasta que su dispositivo le informe que el trabajo se ha completado.
@@ -353,12 +353,12 @@ Cuando la carga llega al muelle de recepción del almacén, un empleado receptor
 La tarea de recepción de carga ahora se ha completado y el empleado receptor puede pasar a su próxima tarea. Sin embargo, el personal de recepción del almacén eventualmente revisará el registro de carga y podrá ver que la cantidad recibida fue menor que la cantidad esperada. Entonces completarán el siguiente procedimiento utilizando el cliente web.
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
-1. En la lista, encuentre la carga que acaba de recibir. (Puede que tenga que seleccionar la casilla de verificación **Mostrar cerrado** para incluir las cargas entrantes que tienen un estado de carga de _Enviado_ ). Luego seleccione el enlace en la columna **Id. de carga** para abrir la carga.
-1. En el registro de carga, observe que el valor **Estado de carga** permanece _Enviado_ , pero el valor **Cantidad de trabajo creado** en la línea de carga ha cambiado a _9_.
+1. En la lista, encuentre la carga que acaba de recibir. (Puede que tenga que seleccionar la casilla de verificación **Mostrar cerrado** para incluir las cargas entrantes que tienen un estado de carga de _Enviado_). Luego seleccione el enlace en la columna **Id. de carga** para abrir la carga.
+1. En el registro de carga, observe que el valor **Estado de carga** permanece _Enviado_, pero el valor **Cantidad de trabajo creado** en la línea de carga ha cambiado a _9_.
 1. Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra**.
 1. En la lista, busque la compra que acaba de recibir y luego seleccione el enlace en la columna **Pedido de compra** para abrir el pedido.
 \
-1. En la ficha desplegable **Líneas de pedido de compra** , seleccione **Inventario \> Ver \> Transacciones**.
+1. En la ficha desplegable **Líneas de pedido de compra**, seleccione **Inventario \> Ver \> Transacciones**.
 1. Revise los detalles de las dos transacciones de orden de compra. (Puede que tenga que personalizar la página **Transacciones de inventario** para ver el campo **Id. de carga** en la cuadrícula). Debería ver dos transacciones:
 
     - La transacción que tiene un recibo en el estado _Registrado_ representa la cantidad de registro de _9_ que se ejecutó contra una carga específica mediante el uso del dispositivo móvil. El **Id. de carga** está asociado con la transacción en cuestión.
@@ -369,9 +369,9 @@ La tarea de recepción de carga ahora se ha completado y el empleado receptor pu
 En este procedimiento producir el inventario de registro de producto recibido que ha registrado para una carga. Como resultado, el inventario recibido y los costos relacionados se agregarán a la contabilidad general de la compañía.
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
-1. En la lista, encuentre la carga que ha recibido. (Puede que tenga que seleccionar la casilla de verificación **Mostrar cerrado** para incluir las cargas entrantes que tienen un estado de carga de _Enviado_ ). Luego seleccione el enlace en la columna **Id. de carga** para abrir la carga.
-1. En el panel de acciones, en la ficha **Enviar y recibir** , seleccione **Recibir \> Producto recibido**. Haga clic en **Sí** si se le solicita que confirme la selección.
-1. En el cuadro de diálogo **Registro de recepción de productos** , en la ficha desplegable **Líneas** , inspeccione la cuadrícula. Debería ver la línea de orden de compra para la cual se ha registrado la cantidad contra la carga seleccionada.
+1. En la lista, encuentre la carga que ha recibido. (Puede que tenga que seleccionar la casilla de verificación **Mostrar cerrado** para incluir las cargas entrantes que tienen un estado de carga de _Enviado_). Luego seleccione el enlace en la columna **Id. de carga** para abrir la carga.
+1. En el panel de acciones, en la ficha **Enviar y recibir**, seleccione **Recibir \> Producto recibido**. Haga clic en **Sí** si se le solicita que confirme la selección.
+1. En el cuadro de diálogo **Registro de recepción de productos**, en la ficha desplegable **Líneas**, inspeccione la cuadrícula. Debería ver la línea de orden de compra para la cual se ha registrado la cantidad contra la carga seleccionada.
 
     > [!NOTE]
     > En versiones donde la función _Múltiples contabilizaciones de recibos de productos por carga_ no está disponible o no está habilitada, la cantidad predeterminada que se muestra en la cuadrícula **Líneas de carga** será la cantidad total que se ha registrado en todas las cargas asociadas con la línea de pedido de compra.
@@ -404,7 +404,7 @@ Este escenario también muestra cómo procesar contabilizaciones de recibos de m
 En este procedimiento, habilitará múltiples contabilizaciones de recibos de productos de la misma carga.
 
 1. Vaya a **Gestión de almacenes \> Configuración \> Parámetros de gestión de almacenes**.
-1. En la pestaña **Cargas** , configure el campo **Permitir recibo de múltiples productos por carga** a _Sí_.
+1. En la pestaña **Cargas**, configure el campo **Permitir recibo de múltiples productos por carga** a _Sí_.
 
 #### <a name="create-two-loads-to-plan-receipt-of-a-purchase-order"></a>Crear dos cargas para planificar la recepción de un pedido de compra
 
@@ -414,23 +414,23 @@ También aprenderá cómo establecer la línea de pedido de compra para que pued
 
 1. Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra**.
 1. Seleccione **Nuevo**.
-1. En la ficha desplegable **Proveedor** , configure el campo **Cuenta de proveedor** a _1001_ y luego seleccione **Aceptar**.
+1. En la ficha desplegable **Proveedor**, configure el campo **Cuenta de proveedor** a _1001_ y luego seleccione **Aceptar**.
 1. Su pedido de compra nuevo se abre e incluye una línea en blanco en la cuadrícula **Líneas de pedido de compra**. Establezca los siguientes valores para esta línea de pedido:
 
     - **Código de artículo:** _A0001_
-    - **Almacén** : _24_
+    - **Almacén**: _24_
     - **Cantidad:** _10_
 
-1. Sobre la ficha desplegable **Detalles de línea** , en la pestaña **Entrega** , configure el campo **Entrega en exceso** a _20_.
+1. Sobre la ficha desplegable **Detalles de línea**, en la pestaña **Entrega**, configure el campo **Entrega en exceso** a _20_.
 1. En el panel de acciones, en la pestaña **Compra,** seleccione **Acciones \> Confirmar**. El estado del pedido es ahora _Confirmado_.
 1. En el panel de acciones, en la pestaña **Almacén** seleccione **Acciones \> Área de trabajo de planificación de la carga**.
-1. En la página **Banco de trabajo de planificación de carga** , en el Panel de acciones, en la pestaña **Oferta y demanda** , seleccione **Agregar \> A nueva carga**.
-1. En el cuadro de diálogo **Cargar plantilla de asignación** , establezca el campo **Cargar Id. de plantilla** en _Contenedor de 20 '_. En la pestaña **Detalles** , cambie el valor **Cantidad** de _10_ a _5_ para agregar parcialmente la cantidad de línea de pedido de compra.
+1. En la página **Banco de trabajo de planificación de carga**, en el Panel de acciones, en la pestaña **Oferta y demanda**, seleccione **Agregar \> A nueva carga**.
+1. En el cuadro de diálogo **Cargar plantilla de asignación**, establezca el campo **Cargar Id. de plantilla** en _Contenedor de 20 '_. En la pestaña **Detalles**, cambie el valor **Cantidad** de _10_ a _5_ para agregar parcialmente la cantidad de línea de pedido de compra.
 1. Seleccione **Aceptar** para aplicar su configuración y cerrar el cuadro de diálogo.
 1. Repita los pasos del 8 al 10 para crear una segunda carga. Esta vez, el campo **Cantidad** ya debería estar configurado en _5_.
-1. En la página **Área de trabajo de planificación de la carga** , en la cuadrícula **Cargas** , seleccione el valor **Id. de carga** para la primera carga que creó. La página **Detalles de carga** aparece y muestra la carga seleccionada. Siga estos pasos:
+1. En la página **Área de trabajo de planificación de la carga**, en la cuadrícula **Cargas**, seleccione el valor **Id. de carga** para la primera carga que creó. La página **Detalles de carga** aparece y muestra la carga seleccionada. Siga estos pasos:
 
-    1. En el panel de acciones, en la ficha **Enviar y recibir** , seleccione **Confirmar \> Envío entrante**.
+    1. En el panel de acciones, en la ficha **Enviar y recibir**, seleccione **Confirmar \> Envío entrante**.
     1. Tenga en cuenta que el valor **Estado de carga** ha cambiado a _Enviado_.
     1. Seleccione el botón cerrar para volver a la página **Área de trabajo de planificación de carga**.
 
@@ -448,13 +448,13 @@ Este procedimiento muestra cómo un empleado receptor registrará las cantidades
 1. Siga las instrucciones de ingreso de datos en la pantalla para ingresar los siguientes valores. (El orden puede variar, dependiendo del dispositivo móvil o emulador que esté utilizando).
 
     - **Carga** - Introduzca el primer Id. de carga que creó en el procedimiento anterior.
-    - **Articulo** - Introduzca _A0001_ , que es el elemento que se espera para esta carga.
+    - **Articulo** - Introduzca _A0001_, que es el elemento que se espera para esta carga.
     - **Cantidad** - Introduzca _3_. Tenga en cuenta que esta cantidad es menor que la cantidad esperada. Para este escenario, imagine que usted, como empleado receptor, no tiene tiempo para registrar todas las cantidades para esta carga. Más adelante en este procedimiento, registrará las partes restantes repitiendo este paso y configurando el campo **Cantidad** a _2_.
 
 1. Continúe avanzando por el flujo de trabajo, dejando todos los demás campos en blanco o configurados con sus valores predeterminados, hasta que su dispositivo le informe que el trabajo se ha completado.
 1. En el cliente web, vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
-1. En la lista, busque la carga que acaba de recibir y seleccione el valor **Id. de carga** para abrir la carga. Tenga en cuenta que el valor **Estado de carga** permanece _Enviado_ , pero el valor **Cantidad de trabajo creado** en la línea de carga ha cambiado a _3_.
-1. En el panel de acciones, en la ficha **Enviar y recibir** , seleccione **Recibir \> Producto recibido**. Haga clic en **Sí** si se le solicita que confirme la selección.
+1. En la lista, busque la carga que acaba de recibir y seleccione el valor **Id. de carga** para abrir la carga. Tenga en cuenta que el valor **Estado de carga** permanece _Enviado_, pero el valor **Cantidad de trabajo creado** en la línea de carga ha cambiado a _3_.
+1. En el panel de acciones, en la ficha **Enviar y recibir**, seleccione **Recibir \> Producto recibido**. Haga clic en **Sí** si se le solicita que confirme la selección.
 1. En el cuadro de diálogo **Contabilizar recibo de producto** de diálogo, revise pero no cambie los valores que se muestran, y luego seleccione **Aceptar**.
 1. Ha vuelto a la página **Detalles de carga** para la carga seleccionada. Tenga en cuenta los aspectos siguientes:
 
@@ -474,7 +474,7 @@ Para este escenario, el empleado receptor registrará una cantidad que exceda la
 1. Siga las instrucciones de ingreso de datos en la pantalla para ingresar los siguientes valores. (El orden puede variar, dependiendo del dispositivo móvil o emulador que esté utilizando).
 
     - **Carga** - Introduzca el segundo Id. de carga que creó anteriormente.
-    - **Articulo** - Introduzca _A0001_ , que es el elemento que se espera para esta carga.
-    - **Cantidad** - Introduzca _7_ , que es la cantidad restante que el proveedor está autorizado a entregar como parte de la cantidad total de pedido de compra de 12 (donde 10 es la cantidad de pedido original y 2 es la cantidad de entrega en exceso permitida del 20 %). Recuerde que ya se han registrado 5 unidades en la primera carga.
+    - **Articulo** - Introduzca _A0001_, que es el elemento que se espera para esta carga.
+    - **Cantidad** - Introduzca _7_, que es la cantidad restante que el proveedor está autorizado a entregar como parte de la cantidad total de pedido de compra de 12 (donde 10 es la cantidad de pedido original y 2 es la cantidad de entrega en exceso permitida del 20 %). Recuerde que ya se han registrado 5 unidades en la primera carga.
 
 La segunda carga ahora se ha actualizado con una cantidad de 7 y puede actualizarse la recepción del producto basada en esta cantidad.

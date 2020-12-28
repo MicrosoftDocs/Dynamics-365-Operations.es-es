@@ -18,11 +18,11 @@ ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983925"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436876"
 ---
 # <a name="calendars-and-master-planning"></a>Calendarios y planificación maestra
 

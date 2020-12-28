@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 18373ff16b63ea61a3a4bc38ee7fa0b5e33154b5
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889682"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436751"
 ---
 # <a name="cost-and-date-control"></a>Controlar costes y fechas
 
@@ -41,7 +41,7 @@ Los cálculos realizados para los activos, las ubicaciones técnicas y las órde
 
 1. Haga clic en **Administración de activos** > **Consultas** > **Activos** > **Control de costes de activos** o **Control de costes de ubicación técnica** o **Administración de activos** > **Consultas** > **Órdenes de trabajo** > **Control de costes de órdenes de trabajo**.
 
-2. En el diálogo**Control de costes de activos** / **Control de costes de la ubicación técnica** / **Control de costes de órdenes de pedido**, seleccione un intervalo de tiempo para el cálculo.
+2. En el diálogo **Control de costes de activos** / **Control de costes de la ubicación técnica** / **Control de costes de órdenes de pedido**, seleccione un intervalo de tiempo para el cálculo.
 
 3. Si es necesario, seleccione un conjunto de dimensiones financieras que se incluirá en el cálculo.
 

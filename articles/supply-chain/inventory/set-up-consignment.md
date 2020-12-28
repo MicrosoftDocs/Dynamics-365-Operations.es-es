@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 51f7d6b0402ebbed417554978fc8d927f6b9c606
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207218"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437126"
 ---
 # <a name="set-up-consignment"></a>Configuración de entrega
 
@@ -44,7 +44,7 @@ Los artículos que se van a usar en procesos de envío se deben asociar al **Gru
 [![tracking-dimension-group](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Diario de cambio de propiedad de inventario
-El diario de **Cambio de propiedad de inventario**se usa para registrar la transferencia de propiedad del inventario de envío del proveedor a la entidad jurídica que lo consume. Como cualquier diario de inventario, debe identificarse con un nombre de diario de inventario. Dichos nombres se crean en la página **Nombres de diario de inventario**, y el **Tipo de diario** se debe establecer en **Cambio de propiedad**.
+El diario de **Cambio de propiedad de inventario** se usa para registrar la transferencia de propiedad del inventario de envío del proveedor a la entidad jurídica que lo consume. Como cualquier diario de inventario, debe identificarse con un nombre de diario de inventario. Dichos nombres se crean en la página **Nombres de diario de inventario**, y el **Tipo de diario** se debe establecer en **Cambio de propiedad**.
 
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 

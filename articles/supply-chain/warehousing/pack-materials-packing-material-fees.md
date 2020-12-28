@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215709"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436737"
 ---
 # <a name="packing-materials-and-fees"></a>Materiales y cuotas de embalaje
 
@@ -68,7 +68,7 @@ Antes de poder calcular los pesos del material de embalaje, las tarifas de mater
             > Por lo general, debe realizar todas sus asignaciones al mismo nivel (**Tabla**, **Grupo** o **Todos**). Si utiliza más de un nivel, se utilizará la asignación coincidente más específica para cada elemento. (El nivel **Tabla** tiene prioridad sobre el nivel **Grupo**, y ambos niveles tienen prioridad sobre el nivel **Todos**.)
 
         - **Relación de artículo** - Si está asignando un solo artículo, seleccione el artículo. Si está asignando un grupo de artículos, seleccione el grupo de embalaje. Si está asignando todos los artículos, deje este campo en blanco.
-        - **Configuración**, **Tamaño**, **Color**y **Estilo** - Introduzca los valores para estas dimensiones según lo requiera, para definir aún más el elemento que está asignando.
+        - **Configuración**, **Tamaño**, **Color** y **Estilo** - Introduzca los valores para estas dimensiones según lo requiera, para definir aún más el elemento que está asignando.
         - **Unidad de embalaje** - Seleccione la unidad en la que se embala el artículo cuando se utiliza el material de embalaje. Esta unidad puede diferir de la unidad en la que se compra y almacena el artículo.
         - **Factor de unidad de embalaje** - Introduzca el factor de conversión que se utiliza para convertir de la unidad de inventario a la unidad de embalaje. (La conversión usa la fórmula *Unidades de embalaje* = *Unidades de artículos* × *Factor de unidad de embalaje*).
 

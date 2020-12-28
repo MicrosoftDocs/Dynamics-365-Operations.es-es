@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 1091af424f84265ffa7983fca8ddc3f66138a5cd
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889874"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436673"
 ---
 # <a name="maintenance-checklists"></a>Listas de comprobación de mantenimiento
 
@@ -68,7 +68,7 @@ Las listas de comprobación de mantenimiento se crean a partir de la definición
     - **Texto**: use este tipo para agregar una línea de la lista de comprobación de mantenimiento que tenga texto que describa lo que debe hacer. Por ejemplo, puede utilizar este tipo si quiere que un trabajador compruebe o inspeccione algo, pero sin esperar resultados específicos (medibles). Tras seleccionar este tipo, en la ficha desplegable **Detalles de líneas**, en el campo **Instrucciones**, escriba el texto que describe lo que debe hacer.
     - **Encabezado**: se utiliza una línea de la lista de comprobación de mantenimiento de este tipo como cabecera para agrupar las líneas de la lista de comprobación de mantenimiento que aparecen debajo. Este tipo es útil si tiene varias líneas de la lista de comprobación de mantenimiento que se pueden dividir en áreas específicas. Tras seleccionar este tipo, especifique un nombre descriptivo en el campo **Nombre**.
     - **Plantilla**: este tipo no es aplicable si agrega una línea de la lista de comprobación de mantenimiento manualmente en una tarea de la orden de trabajo.  
-    - **Variable**: se usa este tipo para definir un posible resultado en un intervalo en una línea de la lista de comprobación de mantenimiento. Para obtener información sobre la configuración de la lista de comprobación de mantenimiento, consulte [Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md). Tras seleccionar este tipo, especifique un nombre descriptivo para la variable en el campo **Nombre**. En la ficha desplegable**Detalles de línea**, en el campo **Variable**, seleccione la variable. En el campo **Instrucciones**, escriba un texto que describa qué se debe hacer.
+    - **Variable**: se usa este tipo para definir un posible resultado en un intervalo en una línea de la lista de comprobación de mantenimiento. Para obtener información sobre la configuración de la lista de comprobación de mantenimiento, consulte [Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md). Tras seleccionar este tipo, especifique un nombre descriptivo para la variable en el campo **Nombre**. En la ficha desplegable **Detalles de línea**, en el campo **Variable**, seleccione la variable. En el campo **Instrucciones**, escriba un texto que describa qué se debe hacer.
     - **medida**: use este tipo para registrar una medida específica de la línea de la lista de comprobación mantenimiento. Tras seleccionar este tipo, especifique un nombre para la medida en el campo **Nombre**. En la ficha desplegable **Detalles de línea**, en el **Contador** y los campos **Unidad**, seleccione valores adecuados. En el campo **Instrucciones**, escriba un texto que describa qué se debe hacer.
 
 5. Cuando haya terminado de agregar manualmente las líneas de la lista de comprobación de mantenimiento, complete las líneas como se describe en la sección **Rellenar una lista de comprobación de mantenimiento** arriba.

@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018385"
+ms.locfileid: "4437206"
 ---
 # <a name="set-up-consignment"></a>Configuración de entrega
 
@@ -40,7 +40,7 @@ En este ejemplo, la empresa USMF tiene un acuerdo de envío con el proveedor US-
 2.  Se informa al proveedor de la entrega esperada. Esto puede llevarse a cabo de una de estas tres maneras:
     -   Alguien que trabaja en USMF envía la información del pedido al proveedor.
     -   El proveedor puede controlar el inventario esperado disponible mediante la interfaz de colaboración de proveedor.
-    -   Alguien que trabaja en USMF filtra los datos de la página **Inventario disponible** para mostrar solo los registros para el proveedor US-104, donde el estado del recibo es **Solicitado** , y después envía esta información al proveedor.
+    -   Alguien que trabaja en USMF filtra los datos de la página **Inventario disponible** para mostrar solo los registros para el proveedor US-104, donde el estado del recibo es **Solicitado**, y después envía esta información al proveedor.
 3.  El inventario se entrega de US-104 a USMF.
 4.  Cuando el material llega a USMF, el pedido de reabastecimiento de envío se actualiza con un recibo de producto. Solo se registran las cantidades físicas del inventario propiedad del proveedor. No hay transacciones de contabilidad general creadas, ya que el inventario todavía es propiedad del proveedor.
 5.  El proveedor controla las actualizaciones del inventario físico disponible mediante la página **Inventario disponible de envío**.
@@ -82,7 +82,7 @@ La interfaz de colaboración del proveedor tiene tres páginas relacionadas con 
 -   **Inventario disponible de envío** - Muestra información sobre los artículos de envío que se esperan entregar, y los artículos que ya están físicamente disponibles en la ubicación del cliente.
 
 ## <a name="inventory-owners"></a>Propietarios de inventario
-Para registrar el inventario entrante físico de envío, es necesario definir un propietario de proveedor. Esto se hace en la página **Propietario de inventario**. Al seleccionar **Cuenta de proveedor** se generan valores predeterminados para los campos **Nombre** y **Propietario**. El valor del campo **Propietario** estará visible para el proveedor, por lo que es posible que desee cambiarlo si los nombres de cuenta de sus proveedores no son fáciles de reconocer por parte de las entidades externas. Es posible editar el campo **Propietario** , pero solo hasta el punto al guardar el registro **Propietario de inventario**. El campo **Nombre** se rellena con el nombre de la parte a la que se asocia la cuenta del proveedor y no se puede cambiar.
+Para registrar el inventario entrante físico de envío, es necesario definir un propietario de proveedor. Esto se hace en la página **Propietario de inventario**. Al seleccionar **Cuenta de proveedor** se generan valores predeterminados para los campos **Nombre** y **Propietario**. El valor del campo **Propietario** estará visible para el proveedor, por lo que es posible que desee cambiarlo si los nombres de cuenta de sus proveedores no son fáciles de reconocer por parte de las entidades externas. Es posible editar el campo **Propietario**, pero solo hasta el punto al guardar el registro **Propietario de inventario**. El campo **Nombre** se rellena con el nombre de la parte a la que se asocia la cuenta del proveedor y no se puede cambiar.
 
 [![inventory-owners](./media/inventory-owners.png)](./media/inventory-owners.png)
 
@@ -92,7 +92,7 @@ Los artículos que se van a usar en procesos de envío se deben asociar al **Gru
 [![tracking-dimension-group](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Diario de cambio de propiedad de inventario
-El diario de **Cambio de propiedad de inventario** se usa para registrar la transferencia de propiedad del inventario de envío del proveedor a la entidad jurídica que lo consume. Como cualquier diario de inventario, debe identificarse con un nombre de diario de inventario. Dichos nombres se crean en la página **Nombres de diario de inventario** , y el **Tipo de diario** se debe establecer en **Cambio de propiedad**.
+El diario de **Cambio de propiedad de inventario** se usa para registrar la transferencia de propiedad del inventario de envío del proveedor a la entidad jurídica que lo consume. Como cualquier diario de inventario, debe identificarse con un nombre de diario de inventario. Dichos nombres se crean en la página **Nombres de diario de inventario**, y el **Tipo de diario** se debe establecer en **Cambio de propiedad**.
 
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 

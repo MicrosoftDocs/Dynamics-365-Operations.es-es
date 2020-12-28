@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015996"
+ms.locfileid: "4437192"
 ---
 # <a name="cycle-counting"></a>Recuento cíclico
 
@@ -33,9 +33,9 @@ Este artículo describe cómo puede usar el recuento cíclico con la solución d
 
 La cuenta de ciclo es un proceso de almacén que puede usar para revisar artículos de inventario disponibles. El proceso del recuento cíclico se puede describir en tres pasos:
 
-1.  **Crear un trabajo de recuento cíclico** : el trabajo recuento cíclico se pueden crear automáticamente en función de los parámetros de umbral para artículos o mediante un plan de recuento cíclico. También puede crear manualmente trabajos de recuento cíclico mediante los parámetros de almacén o de artículo en las páginas **Trabajo de recuento cíclico por artículo** o **Trabajo de recuento cíclico por ubicación**.
-2.  **Procesar el recuento cíclico** : una vez creado el trabajo de recuento cíclico, realice el trabajo de recuento cíclico contando los artículos de una ubicación de almacén y usando a continuación un dispositivo móvil para especificar el resultado en Dynamics 365 Supply Chain Management. Como alternativa, puede contar los artículos de una ubicación de almacén sin crear el trabajo de recuento cíclico. Este proceso se denomina *recuento cíclico puntual*.
-3.  **Resolver diferencias en el valor de recuento** : tras un recuento cíclico, todos los artículos que tengan diferencias en el valor del recuento tendrán un estado de trabajo de **Revisión pendiente** en la página **Todo el trabajo**. Puede resolver estas diferencias en la página **Revisión pendiente del trabajo de recuento cíclico**.
+1.  **Crear un trabajo de recuento cíclico**: el trabajo recuento cíclico se pueden crear automáticamente en función de los parámetros de umbral para artículos o mediante un plan de recuento cíclico. También puede crear manualmente trabajos de recuento cíclico mediante los parámetros de almacén o de artículo en las páginas **Trabajo de recuento cíclico por artículo** o **Trabajo de recuento cíclico por ubicación**.
+2.  **Procesar el recuento cíclico**: una vez creado el trabajo de recuento cíclico, realice el trabajo de recuento cíclico contando los artículos de una ubicación de almacén y usando a continuación un dispositivo móvil para especificar el resultado en Dynamics 365 Supply Chain Management. Como alternativa, puede contar los artículos de una ubicación de almacén sin crear el trabajo de recuento cíclico. Este proceso se denomina *recuento cíclico puntual*.
+3.  **Resolver diferencias en el valor de recuento**: tras un recuento cíclico, todos los artículos que tengan diferencias en el valor del recuento tendrán un estado de trabajo de **Revisión pendiente** en la página **Todo el trabajo**. Puede resolver estas diferencias en la página **Revisión pendiente del trabajo de recuento cíclico**.
 
 En la ilustración siguiente se muestra el proceso de recuento cíclico. ![Flujo del proceso de recuento cíclico](./media/performcyclecountinginawarehouselocation.jpg)
 
@@ -110,21 +110,21 @@ El trabajo de recuento cíclico se puede crear cuando el número de artículos e
 Puede programar los planes de recuento cíclico para crear trabajo de recuento cíclico inmediatamente o periódicamente. Al configurar planes de recuento cíclico, puede controlar el grupo de trabajo para el que se crea el trabajo de recuento cíclico, el número máximo de recuentos cíclicos que se crean para artículos en distintas ubicaciones y el número de días antes de que una ubicación de almacén se cuente de nuevo. Por ejemplo, un artículo está disponible en tres ubicaciones del almacén y el número máximo de recuentos cíclicos se establece en **2**. En este caso, al ejecutar el plan de recuento cíclico, se crean dos recuentos cíclico para las dos ubicaciones en las que está presente el artículo. Como otro ejemplo, establece el número de días entre recuentos cíclicos en **5**. En este caso, el trabajo de recuento cíclico se crea cada cinco días. Sin embargo, si el trabajo de recuento cíclico se procesa el día 3, el siguiente trabajo de recuento cíclico se creará cinco días después del último recuento cíclico procesado, el día 8.
 
 ## <a name="create-cycle-counting-work-manually"></a>Crear un trabajo de recuento cíclico manualmente
-Para crear el trabajo de recuento cíclico manualmente, puede usar las páginas **Trabajo de recuento cíclico por artículo** o **Trabajo de recuento cíclico por ubicación**. Puede especificar el número máximo de recuentos cíclicos que se deben crear. Por ejemplo, si el encargado de almacén especifica un valor de **5** , se crea un trabajo de recuento cíclico para cinco ubicaciones aunque el artículo esté presente en 10 ubicaciones. También puede seleccionar un id. de grupo de trabajo para el que se crean los id. de trabajo de recuento cíclico. Cuando se procesa un id. de grupo de trabajo para el recuento cíclico, los id. de trabajo de recuento cíclico que se asignan al grupo de trabajo se procesan como un grupo.
+Para crear el trabajo de recuento cíclico manualmente, puede usar las páginas **Trabajo de recuento cíclico por artículo** o **Trabajo de recuento cíclico por ubicación**. Puede especificar el número máximo de recuentos cíclicos que se deben crear. Por ejemplo, si el encargado de almacén especifica un valor de **5**, se crea un trabajo de recuento cíclico para cinco ubicaciones aunque el artículo esté presente en 10 ubicaciones. También puede seleccionar un id. de grupo de trabajo para el que se crean los id. de trabajo de recuento cíclico. Cuando se procesa un id. de grupo de trabajo para el recuento cíclico, los id. de trabajo de recuento cíclico que se asignan al grupo de trabajo se procesan como un grupo.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Realizar un recuento cíclico mediante un dispositivo móvil
 Hay varios métodos para procesar un trabajo de recuento cíclico mediante Supply Chain Management en un dispositivo móvil:
 
--   **Dirigido por el usuario** : el trabajador puede especificar un id. de trabajo de recuento cíclico que tiene el estado de **Abierto**.
--   **Dirigido por el sistema** : Supply Chain Management asigna al trabajador un identificador de trabajo de recuento cíclico.
--   **Agrupación de recuentos cíclicos** : el trabajador puede agrupar los id. de trabajo de recuento cíclico que son específicos de una ubicación, un área o a un grupo de trabajo en particular.
--   **Recuento cíclico puntual** : el trabajador puede contar los artículos de una ubicación de almacén en cualquier momento, sin crear el trabajo de recuento cíclico. Para realizar el recuento cíclico puntual en una ubicación, el trabajador especifica el id. de ubicación.
+-   **Dirigido por el usuario**: el trabajador puede especificar un id. de trabajo de recuento cíclico que tiene el estado de **Abierto**.
+-   **Dirigido por el sistema**: Supply Chain Management asigna al trabajador un identificador de trabajo de recuento cíclico.
+-   **Agrupación de recuentos cíclicos**: el trabajador puede agrupar los id. de trabajo de recuento cíclico que son específicos de una ubicación, un área o a un grupo de trabajo en particular.
+-   **Recuento cíclico puntual**: el trabajador puede contar los artículos de una ubicación de almacén en cualquier momento, sin crear el trabajo de recuento cíclico. Para realizar el recuento cíclico puntual en una ubicación, el trabajador especifica el id. de ubicación.
 
 En el siguiente ejemplo se muestra cómo puede realizar un recuento cíclico puntual mediante un dispositivo móvil. Las instrucciones que ve el trabajador en el dispositivo varían, en función de la configuración del elemento de menú para el recuento cíclico puntual.
 
 1.  En el dispositivo móvil, seleccione el elemento de menú para procesar el trabajo de recuento cíclico puntual.
 2.  Registre la ubicación para la que desea realizar el recuento cíclico puntual.
-3.  Registre y confirme el número de artículo y la cantidad contada del artículo. **Nota:** El estado del trabajo de recuento cíclico se actualiza como **Revisión pendiente** o como **Cerrado** en la página **Todo el trabajo** , en función de los parámetros establecidos en la página **Trabajador**.
+3.  Registre y confirme el número de artículo y la cantidad contada del artículo. **Nota:** El estado del trabajo de recuento cíclico se actualiza como **Revisión pendiente** o como **Cerrado** en la página **Todo el trabajo**, en función de los parámetros establecidos en la página **Trabajador**.
 4.  Opcional: repita el paso 3 para los artículos restantes de la ubicación y confirme que no haya artículos adicionales disponibles para contar.
 
 ## <a name="resolve-cycle-counting-differences"></a>Resolver diferencia de recuento cíclico

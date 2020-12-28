@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 3e95a4fdfaf4817867f3d2df7774df6a27ee6599
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889514"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437148"
 ---
 # <a name="work-order-pools"></a>Grupos de órdenes de trabajo
 
