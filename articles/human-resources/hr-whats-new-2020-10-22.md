@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5c66d8695ee0ff41e81c699a5d5a37075470059
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: 513fc3b35f0b6a7f5d9703d2b5eb4109289a189a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107545"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529991"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (22 de octubre de 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources. Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
@@ -55,11 +57,11 @@ En esta versión se incluyen las siguientes correcciones de errores.
 | Número del problema| Emitir  | Descripción|
 | --- | --- | --- |
 | 437922 | La importación de horas FMLA a través de la entidad DMF genera un error de solo lectura. | No se pudieron importar las horas asociadas a un caso FMLA mediante la entidad Horas FMLA. Hemos agregado lógica para garantizar que las horas importadas no excedan de las horas restantes para el caso. |
-| 512019 | Importe de **Última transferencia** incorrecto. | En la página **Tiempo libre** , al cambiar **A partir de la fecha** al primer día del siguiente período fiscal se mostraba un importe de **Última transferencia** incorrecto para el tipo **Baja anual**. Ahora se muestra la cantidad correcta. |
+| 512019 | Importe de **Última transferencia** incorrecto. | En la página **Tiempo libre**, al cambiar **A partir de la fecha** al primer día del siguiente período fiscal se mostraba un importe de **Última transferencia** incorrecto para el tipo **Baja anual**. Ahora se muestra la cantidad correcta. |
 | 458639 | La entidad **Contactos de trabajadores** no admite el modo de seguimiento de cambios. | Hemos actualizado la entidad **Contactos de trabajadores** para que pueda usarla en escenarios de llevar su propia base de datos (BYOD).|
 | 505347 | Los directores de formación podían enviar una solicitud de baja para un empleado cuando estaba habilitada la característica de trabajador simplificada. | Los roles que no sean los de asistente de recursos humanos y director de recursos humanos no pueden enviar solicitudes de tiempo libre para los empleados. |
 | 513490 | Registro de administración de prestaciones: agregue el registro para planes sin opciones de cobertura. | Hemos habilitado el registro de resultados para **Plan sin opciones de cobertura**. Ahora se muestran en la tabla **Resultados de proceso** y están ordenados correctamente de forma que se muestren en la parte superior. |
-| 517021 | No se pueden seleccionar varios planes con el mismo código de **Tipo de plan** si **Tipo de plan** tiene una inscripción por tipo. | Hemos cambiado las restricciones para seleccionar planes en los que solo se permita una inscripción. Las restricciones están ahora en el nivel **Código de tipo de plan** , en lugar de en **Tipo de plan**. Este cambio permite planes como HSA y FSA, que son del mismo tipo, pero se les puede asignar un **Código de tipo de plan** independiente. De esta manera, puede seleccionar ambos planes para el mismo período de inscripción. |
+| 517021 | No se pueden seleccionar varios planes con el mismo código de **Tipo de plan** si **Tipo de plan** tiene una inscripción por tipo. | Hemos cambiado las restricciones para seleccionar planes en los que solo se permita una inscripción. Las restricciones están ahora en el nivel **Código de tipo de plan**, en lugar de en **Tipo de plan**. Este cambio permite planes como HSA y FSA, que son del mismo tipo, pero se les puede asignar un **Código de tipo de plan** independiente. De esta manera, puede seleccionar ambos planes para el mismo período de inscripción. |
 | 444791 | No se puede ver la compensación en el autoservicio para empleados cuando el **Acceso restringido** está activado en el plan de compensación. | En la tarjeta **Compensación** del autoservicio para empleados, el importe de compensación actual y el porcentaje de aumento mostraban "0" si el empleado estaba inscrito en un plan con **Acceso restringido** activado y asignado a roles específicos. Hemos solucionado este problema de forma que el empleado y el director puedan ver siempre los detalles por sí mismos para ellos y para sus subordinados directos. |
 | 457542 | Al actualizar los detalles del curso una vez cerrado el curso no se actualiza la misma información para el empleado que realizó el curso. | Ahora la información de los empleados se actualiza correctamente cuando se cambian los detalles del curso después de cerrar y volver a abrir un curso. |
 | 515342 | No se pueden insertar datos a través de **CDSLeaveRequestDetailEntity**. No se encuentra la empresa o no existe. | Ahora puede usar **CDSLeaveRequestDetailEntity** para insertar datos. |

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010424"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420456"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Crear una aplicación de exportación de datos recurrente
 
@@ -90,7 +90,7 @@ La mayor parte del ejercicio implica la creación de la aplicación lógica.
 
 4. Llame a la API REST DMF [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage) para programar la exportación del paquete de datos.
 
-    1. Utilice la acción **Invocar una solicitud HTTP**desde el conector HTTP con Azure AD.
+    1. Utilice la acción **Invocar una solicitud HTTP** desde el conector HTTP con Azure AD.
 
         - **URL de recurso base:** la URL del entorno de Human Resources (no incluya información de ruta/espacio de nombres).
         - URI de recurso de **Azure AD**: `http://hr.talent.dynamics.com`
@@ -104,7 +104,7 @@ La mayor parte del ejercicio implica la creación de la aplicación lógica.
     3. Configure una solicitud HTTP **POST** para llamar a la API REST DMF **ExportToPackage**.
 
         - **Método:** POST
-        - **Url de la solicitud:** https://\<nombre de host\>/espacios de nombres/\<espacio de nombres\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
+        - **URL de la solicitud:** https://\<hostname\>/espacios de nombres/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
         - **Cuerpo de la solicitud:**
 
             ```JSON
@@ -141,7 +141,7 @@ La mayor parte del ejercicio implica la creación de la aplicación lógica.
         > Este ejemplo no realiza la comprobación de errores. La API **GetExecutionSummaryStatus** puede devolver estados terminales no exitosos (es decir, estados distintos de **Correcto**). Para obtener más información, consulte la [documentación de la API](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
         - **Método:** POST
-        - **URL de la solicitud:** https://\<nombre de host\>/espacios de nombres/\<espacio de nombres\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
+        - **Url de la solicitud:** https://\<hostname\>/espacios de nombres/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
         - **Cuerpo de la solicitud:** body('Invocar\_una\_solicitud\_HTTP')?['valor']
 
             > [!NOTE]
@@ -159,7 +159,7 @@ La mayor parte del ejercicio implica la creación de la aplicación lógica.
     - Agregue una acción **Invocar solicitud HTTP** para llamar a la API REST DMF [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl).
 
         - **Método:** POST
-        - **URL de la solicitud:** https://\<nombre de host\>/espacios de nombres/\<espacio de nombres\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
+        - **URL de la solicitud:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Cuerpo de la solicitud:** {"executionId": body('GetExportedPackageURL')?['valor']}
 
         ![Acción GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)

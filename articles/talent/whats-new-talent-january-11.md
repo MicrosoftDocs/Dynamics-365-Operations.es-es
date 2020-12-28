@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-11
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: d49a4aca368e3de10ae37b56c6d286d78f7f369a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899183"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462490"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-11-2019"></a>Novedades y cambios en Dynamics 365 Talent - Core HR (11 de enero de 2019)
 
@@ -43,9 +43,9 @@ Esta función permite visualizar saldos para períodos futuros de licencia, por 
 Los saldos de licencia mostrarán el saldo actual de los empleados. Los saldos futuros están disponibles en las áreas de trabajo **Autoservicio para empleados** y **Personas** especificando “a partir de la fecha” para calcular el saldo previsto.
 
 La exploración se ha agregado para ver los saldos previstos en las siguientes áreas:
-  - Tarjeta de**Licencias** en el área de trabajo **Autoservicio para empleados**.
-  - Tarjeta de**Baja y ausencia** en el área de trabajo **Autoservicio para directores**.
-  - Página**Baja y ausencia** en el espacio de trabajo **Personas**.
+  - Tarjeta de **Licencias** en el área de trabajo **Autoservicio para empleados**.
+  - Tarjeta de **Baja y ausencia** en el área de trabajo **Autoservicio para directores**.
+  - Página **Baja y ausencia** en el espacio de trabajo **Personas**.
 
 ### <a name="allow-decimals-for-variable-compensation-plans-cash-plans"></a>Permite decimales para planes de compensación variable (planes de efectivo)
 Las primas en efectivo y los planes variables tienen ahora la flexibilidad adicional para los importes y las anulaciones para valores con importes decimales.

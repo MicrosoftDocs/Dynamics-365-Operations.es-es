@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 88ed678cdd37b4bd3d1a7ae92b505b2cfdea4fc8
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa984a01e9da30e6da07516fa2986833366a882b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896736"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527153"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-19-2019"></a>Novedades y cambios en Dynamics 365 Talent (19 de noviembre de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este artículo describe las características que son nuevas o que se han cambiado en Dynamics 365 Talent.
 
@@ -43,7 +45,7 @@ Los cambios que se describen en esta sección se aplican a la compilación núme
 
 ### <a name="platform-update-31-for-finance-and-operations-apps"></a>Platform update 31 para aplicaciones de Finance and Operations
 
-Para obtener más información, consulte [Características de versión preliminar en la actualización de la plataforma 31 para las aplicaciones de Finance and Operations (enero de 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
+Para obtener más información, consulte [Características en vista previa en Platform update 31 para las aplicaciones de Finance and Operations (enero de 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
 
 ### <a name="feature-management-workspace-383856"></a>Espacio de trabajo Administración de características (383856)
 

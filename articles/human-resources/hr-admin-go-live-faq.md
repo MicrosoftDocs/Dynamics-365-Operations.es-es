@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64a85840be328702a06779390fe383fd1896fd04
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011438"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668954"
 ---
 # <a name="go-live-faq"></a>Preguntas frecuentes sobre la publicación 
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema enumera las preguntas frecuentes sobre cómo poner en marcha un proyecto de implementación de Dynamics 365 Human Resources. 
 
@@ -76,7 +78,7 @@ Las bases de datos se protegen mediante copias de seguridad automáticas que se 
 | Copia de seguridad diferencia de base de datos | Cada 12-24 horas |
 | Copia de seguridad de registro de transacciones | Cada 5-10 minutos |
 
-Microsoft conserva suficientes copias de seguridad para permitir la Restauración a un momento dado (PITR) de los últimos siete días. 
+Microsoft conserva suficientes copias de seguridad para permitir la Restauración a un momento dado (PITR) de los últimos 14 días. 
 
 Para obtener más información sobre copias de seguridad, consulte  [Obtener información sobre las copias de seguridad automáticas de SQL Database](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 

@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011437"
+ms.locfileid: "4420491"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Prepararse para poner en marcha Human Resources
 
@@ -55,9 +55,9 @@ En la tabla siguiente se enumeran todos los pasos del proceso y se especifican l
 
 Un hito importante en cada proyecto de implementación es la transferencia al entorno de producción. 
 
-Para ayudar a garantizar que el entorno de producción se utilice para operaciones en vivo, Microsoft aprovisiona la instancia de producción solo cuando la implementación se acerca a la fase **Operar** , después de que se completen las actividades requeridas en la metodología LCS. Para obtener más información sobre los entornos de su suscripción, consulte la [Guía de licencias de Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
+Para ayudar a garantizar que el entorno de producción se utilice para operaciones en vivo, Microsoft aprovisiona la instancia de producción solo cuando la implementación se acerca a la fase **Operar**, después de que se completen las actividades requeridas en la metodología LCS. Para obtener más información sobre los entornos de su suscripción, consulte la [Guía de licencias de Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
-Los clientes deben completar las fases **Análisis** , **Diseño y desarrollo** y **Prueba** de la metodología LCS para que el botón **Configurar**  para solicitar el entorno de producción pase a estar disponible. Para completar una fase en LCS, primero debe completar todos los pasos necesarios de esa fase. Cuando se hayan completado todos los pasos de una fase, puede completar la fase completa. Siempre puede volver a abrir una fase más tarde si debe realizar cambios. Para obtener más información, consulte  [Lifecycle Services (LCS) para clientes de aplicaciones de Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+Los clientes deben completar las fases **Análisis**, **Diseño y desarrollo** y **Prueba** de la metodología LCS para que el botón **Configurar**  para solicitar el entorno de producción pase a estar disponible. Para completar una fase en LCS, primero debe completar todos los pasos necesarios de esa fase. Cuando se hayan completado todos los pasos de una fase, puede completar la fase completa. Siempre puede volver a abrir una fase más tarde si debe realizar cambios. Para obtener más información, consulte  [Lifecycle Services (LCS) para clientes de aplicaciones de Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 
 El proceso de completar un paso tiene dos partes: 
 

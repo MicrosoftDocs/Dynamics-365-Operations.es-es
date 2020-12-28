@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428671"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420435"
 ---
 # <a name="define-new-jobs"></a>Definir nuevos trabajos
 
@@ -57,7 +57,7 @@ Esta tarea se centra en la creación de un nuevo trabajo. Se completará con ent
 21. En la lista, busque y seleccione el registro deseado.
 22. En la lista, haga clic en el vínculo de la fila seleccionada.
 23. Alterne la expansión de la sección Aptitudes.
-    * Observe que los campos de las fichas desplegables Aptitudes, Formación y Certificados están en blanco. Después de copiar la información de una plantilla de trabajo, la información de estos campos se especificará en un único paso.   
+    * Observe que los campos de las fichas desplegables Aptitudes, Formación y Certificados están en blanco. Después de copiar la información de una plantilla de trabajo, la información de estos campos se especificará en un único paso.   
 24. Haga clic en Guardar.
 25. Haga clic en Copiar desde.
 26. Haga clic en Copiar desde plantilla.

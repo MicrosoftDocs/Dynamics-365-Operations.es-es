@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897704"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529171"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Novedades y cambios en Dynamics 365 Talent - Core HR (6 de diciembre de 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Compilación 8.1.2071**
 
@@ -40,7 +42,7 @@ La característica exportación a Excel ahora se puede configurar para permitir 
 
 ### <a name="restyled-personalization-toolbar"></a>Barra de herramientas de personalización con un nuevo estilo
 
-La barra de herramientas de personalización se ha cambiado en la Platform update 22 para Finance and Operations, para ayudar a los usuarios a adaptar más fácilmente sus propias experiencia a Talent. Se realizaron los siguientes cambios: 
+La barra de herramientas de personalización se ha cambiado en Platform update 22 para Finance and Operations, para ayudar a los usuarios a adaptar más fácilmente sus propias experiencia a Talent. Se realizaron los siguientes cambios: 
 
 -  El nombre de cada herramienta de personalización ahora se muestra junto a un icono, que ayuda al usuario a reconocer rápidamente la herramienta que está interesado en utilizar.
 -  La descripción para determinar cómo usar la herramienta actual ahora también se muestra, lo que ayuda al usuario a comprender cómo realizar las personalizaciones necesarias.  
@@ -48,7 +50,7 @@ La barra de herramientas de personalización se ha cambiado en la Platform updat
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Optimizado es una experiencia de filtrado "es uno de"
 
-El operador de filtro “es uno de” está disponible para la mayoría de los campos al usar las listas desplegables de Panel de filtro y de la cabecera de cuadrícula. Este operador permite que un usuario filtre un campo basándose en valores múltiples. Una nueva y mejorada experiencia para el operador “es uno de” está disponible en la Platform update 22 para Finance and Operations. Para obtener más información, consulte [Optimizado es una experiencia de filtrado "es uno de"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+El operador de filtro “es uno de” está disponible para la mayoría de los campos al usar las listas desplegables de Panel de filtro y de la cabecera de cuadrícula. Este operador permite que un usuario filtre un campo basándose en valores múltiples. Una nueva y mejorada experiencia para el operador “es uno de” está disponible en Platform update 22 para Finance and Operations. Para obtener más información, consulte [Optimizado es una experiencia de filtrado "es uno de"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Pegar listas de Excel en campos de filtro con el operador “es uno de”
 
@@ -133,7 +135,7 @@ La tarea Trabajadores a trabajo necesita actualizar las asignaciones siguientes.
 
 La transformación del campo Género también debe actualizarse. Seleccione el tipo de mapa **fn** (función) para el género y actualice las asignaciones de valores siguientes.
 
-| Valor Common Data Service   | Valor Finance and Operations | | ------------|------------------ -----------| | 75440000    | Hombre                         | | 75440001    | Mujer                       | | 75440002    | Ninguno                         | | 75440003    | No específico                  |
+| Valor de Common Data Service   | Valor de Finance and Operations | | ------------|------------------ -----------| | 75440000    | Hombre                         | | 75440001    | Mujer                       | | 75440002    | Ninguna                         | | 75440003    | No específico                  |
 
 Las asignaciones actualizadas deben tener la misma apariencia que lo siguiente.
 

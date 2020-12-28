@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897681"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529147"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Novedades y cambios en Dynamics 365 Talent (27 de febrero de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 
@@ -77,7 +79,7 @@ En muchas organizaciones, los administradores de compensación y prestaciones pu
 
 ### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 para Finance and Operations
 
-Para obtener más información acerca de la Platform update 24 para Microsoft Dynamics 365 Finance and Operations, consulte [Características de vista previa en la actualización 24 de la plataforma Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Para obtener más información acerca de la Platform update 24 para Microsoft Dynamics 365 Finance and Operations (marzo de 2019), consulte [Características en vista previa en Finance and Operations platform update 24 (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Haga que la compensación fija del empleado esté disponible para las asignaciones de puesto futuras
 
@@ -98,19 +100,19 @@ Para actualizar la plantilla existente, siga estos pasos.
 
     - **Puestos de trabajo a puestos:** Elimine esta asignación.
     - **Asignación de puestos de trabajo a la tarea principal de puestos:** Elimine esta asignación.
-    - **Puestos de trabajo a puesto base:** Agregue una nueva asignación desde la entidad de Common Data Service **Puestos de trabajo** a la entidad **Puesto base** de Finance and Operations. Muévala al puesto 7 en la secuencia.
+    - **Puestos de trabajo a puesto base**: agregue una nueva asignación desde la entidad de **Puestos de trabajo** Common Data Service a la entidad **Puesto base** Finance and Operations. Muévala al puesto 7 en la secuencia.
 
         [![Asignación de puestos de trabajo a puesto base](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Detalles de puestos de trabajo a puesto:** Agregue una nueva asignación desde la entidad de Common Data Service **Puestos de trabajo** a la entidad **Detalles de puesto** de Finance and Operations. Muévala al puesto 8 en la secuencia.
+    - **Detalles de puestos de trabajo a puesto**: agregue una nueva asignación desde la entidad de **Puestos de trabajo** Common Data Service a la entidad **Detalles de puesto** Finance and Operations. Muévala al puesto 8 en la secuencia.
 
         [![Asignación de detalles de puestos de trabajo a puesto](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Duraciones de puestos de trabajo a puesto:** Agregue una nueva asignación desde la entidad de Common Data Service **Puestos de trabajo** a la entidad **Duraciones de puesto** de Finance and Operations.
+    - **Duraciones de puestos de trabajo a puesto**: agregue una nueva asignación desde la entidad de **Puestos de trabajo** Common Data Service a la entidad **Duraciones de puesto** Finance and Operations.
 
         [![Asignación de duraciones de puestos de trabajo a puesto](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Jerarquías de puestos de trabajo a puesto:** Agregue una nueva asignación desde la entidad de Common Data Service **Puestos de trabajo** a la entidad **Jerarquías de puesto** de Finance and Operations. Seleccione **Consulta avanzada** para que su consulta avanzada esté disponible para el proyecto.
+    - **Puestos de trabajo con jerarquías de puestos de trabajo:** agregue una nueva asignación de la entidad **Puestos de trabajo** Common Data Service a la entidad **Jerarquías de puesto** Finance and Operations. Seleccione **Consulta avanzada** para que su consulta avanzada esté disponible para el proyecto.
 
        [![Botón de consulta avanzada](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ Para actualizar la plantilla existente, siga estos pasos.
         [![Agregar comando de columna condicional](./media/Add-column.png)](./media/Add-column.png).
 
     6. En el cuadro de diálogo **Agregar columna condicional**, especifique **HIERARCHYTYPENAME** como nombre de la nueva columna.
-    7. En la parte **Si** de la condición, seleccione cualquier campo, use **igual a** como relación, y especifique cualquier valor. En las partes ***Entonces** y **Si no** de la condición, especifique lo que debe ser el valor predeterminado. En este caso, especifique **Línea** en ambas partes.
+    7. En la parte **Si** de la condición, seleccione cualquier campo, use **igual a** como relación, y especifique cualquier valor. En las partes **Entonces** y **Si no** de la condición, especifique lo que debe ser el valor predeterminado. En este caso, especifique **Línea** en ambas partes.
 
         [![Cuadro de diálogo Agregar columna condicional](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

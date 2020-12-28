@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: 85e64c4186c7782391a3db6dc4deb3fab0ea9f4f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430541"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420357"
 ---
 # <a name="create-variable-compensation-plans"></a>Cree planes de compensación variable
 
@@ -34,7 +34,7 @@ El cálculo de los importes de compensación variable para sus empleados se pued
 ## <a name="variable-compensation-components"></a>Componentes de compensación variable
 ### <a name="create-compensation-types"></a>Crear tipos de compensación
 
-Los **Tipos de compensación variable**es un componente obligatorio. Los tipos de compensación variable le permiten describir los tipos de compensación variable que concede su organización. También permiten especificar si la compensación será en efectivo o en un formulario no monetario, como existencias.
+Los **Tipos de compensación variable** es un componente obligatorio. Los tipos de compensación variable le permiten describir los tipos de compensación variable que concede su organización. También permiten especificar si la compensación será en efectivo o en un formulario no monetario, como existencias.
 
 ### <a name="describe-vesting-rules"></a>Describir reglas de atribución
 
@@ -49,17 +49,17 @@ El **plan de compensación variable** contiene las reglas, los métodos de cálc
 El importe de la prima variable se puede basar en un porcentaje de las ganancias base ordinarias del empleado o en un número establecido de unidades.
 
 -   Seleccione la opción **Porcentaje de base** para escribir un porcentaje predeterminado y especificar si la base debe ser el índice salarial fijo del empleado o el punto de control para el nivel de compensación del empleado. El nivel de compensación se establece en el trabajo del empleado. Uno de los puntos de referencia de la estructura de compensación se puede establecer como punto de control en el plan de compensación fija. El sistema utilizará el nivel de compensación del trabajo del empleado y realizará una referencia cruzada con él con el punto de control que se muestra en el plan de compensación fija del empleado, para buscar el importe del punto de control para el nivel de compensación del empleado. Después, el importe del punto de control se usará en lugar del índice salarial fijo del empleado como base para la bonificación.
--   Seleccione la opción**Número de unidades** para especificar un número predeterminado de unidades, el valor de cada unidad y de la divisa del valor de unidad si el plan de compensación es para una prima que no es en efectivo (por ejemplo, 200 unidades de existencias con un valor de 40 USD) o solo el número de unidades si el plan de compensación es para una prima en efectivo. Para una prima en efectivo, el empleado recibirá el número de unidades de la divisa especificado que se usa para su plan de compensación fija (por ejemplo, 500 unidades de 1 USD). El control de la relación unívoca se puede usar para indicar si hay una asignación unívoca directa entre el número de unidades y el valor unitario. Al crear un plan de compensación variable para un plan de basado en efectivo usando el número de unidades, esta opción se bloquea automáticamente en **Sí** y el valor unitario es **1,0000**.
+-   Seleccione la opción **Número de unidades** para especificar un número predeterminado de unidades, el valor de cada unidad y de la divisa del valor de unidad si el plan de compensación es para una prima que no es en efectivo (por ejemplo, 200 unidades de existencias con un valor de 40 USD) o solo el número de unidades si el plan de compensación es para una prima en efectivo. Para una prima en efectivo, el empleado recibirá el número de unidades de la divisa especificado que se usa para su plan de compensación fija (por ejemplo, 500 unidades de 1 USD). El control de la relación unívoca se puede usar para indicar si hay una asignación unívoca directa entre el número de unidades y el valor unitario. Al crear un plan de compensación variable para un plan de basado en efectivo usando el número de unidades, esta opción se bloquea automáticamente en **Sí** y el valor unitario es **1,0000**.
 
 La configuración **Regla de contratación** le permite especificar si todos los empleados deben recibir el mismo aumento, independientemente de la fecha en que se les contrató (**Regla de contratación** = **Ninguna**), o si los empleados deben recibir un porcentaje de la prima, que se basa en la duración del empleo durante el ciclo (**Regla de contratación** = **Porcentaje**). 
 
 **Endeudamiento** permite ajustar la prima de un empleado, en función del rendimiento del departamento del empleado. Las medidas de rendimiento se pueden establecer para cada departamento en la página **Departamentos**, en **Formularios relacionados** &gt; **Compensación** &gt; **Rendimiento**. El tipo de prima que los empleados del departamento reciben depende del valor del campo **Porcentaje del objetivo logrado**, que indica el rendimiento de departamento:
 
--   Si el rendimiento del departamento es del 100 por cien, la prima para los empleados de ese departamento se incluye en el porcentaje que se establece en el campo**Pago al 100%**.
+-   Si el rendimiento del departamento es del 100 por cien, la prima para los empleados de ese departamento se incluye en el porcentaje que se establece en el campo **Pago al 100%**.
 -   Si el rendimiento del departamento es superior al 100 por cien, el sistema agrega el porcentaje que se establece en el campo **Por 1% por encima del objetivo** en el porcentaje que se establece en el campo **Pago al 100%** hasta que se alcance el valor que se establece en el campo **Pago máximo permitido**.
 -   Si el rendimiento del departamento es inferior al 100 por cien, el sistema resta el porcentaje que se establece en el campo **Por 1% por debajo del objetivo** del porcentaje que se establece en el campo **Pago al 100%** hasta que se alcance el valor que se establece en el campo **Pago mínimo permitido**.
 
-Puede establecer**niveles de tolerancia** en los porcentajes de umbral para que aparezca un mensaje de advertencia si el endeudamiento hace que el porcentaje se encuentre fuera del porcentaje del umbral. 
+Puede establecer **niveles de tolerancia** en los porcentajes de umbral para que aparezca un mensaje de advertencia si el endeudamiento hace que el porcentaje se encuentre fuera del porcentaje del umbral. 
 
 De forma predeterminada, el sistema busca el departamento definido en el puesto del empleado. Sin embargo, la prima de algunos empleados puede depender de rendimiento de varios departamentos. En este caso, los distintos departamentos y el porcentaje de la prima que se asigna al rendimiento de cada departamento se pueden establecer en la inscripción de compensación variable del empleado. Para obtener más información, consulte la sección “Inscripción de compensación variable” que se incluye a continuación. 
 

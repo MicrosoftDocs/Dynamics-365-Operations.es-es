@@ -1,9 +1,9 @@
 ---
-title: Establecer parámetros de administración de beneficios
-description: Configure los parámetros para la administración de beneficios en Microsoft Dynamics 365 Human Resources.
+title: Establecer los parámetros Administración de prestaciones y Autoservicio para empleados para todas las empresas
+description: Configure los parámetros Administración de prestaciones y Autoservicio para empleados en Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: tfehr
-ms.date: 07/16/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
+ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057037"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692706"
 ---
-# <a name="set-benefits-management-parameters"></a>Establecer parámetros de administración de prestaciones
+# <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Establecer los parámetros Administración de prestaciones y Autoservicio para empleados para todas las empresas
 
-Para poder configurar planes de licencia en Microsoft Dynamics 365 Human Resources, debe configurar los parámetros de administración de beneficios. Estos parámetros establecen valores predeterminados, códigos de motivo y otras opciones.
+Para poder configurar planes de prestaciones en Microsoft Dynamics 365 Human Resources, debe configurar los parámetros de Administración de beneficios. Estos parámetros establecen valores predeterminados, códigos de motivo y otras opciones. 
 
 ## <a name="configure-general-parameters"></a>Configurar parámetros generales
 
-1. En el espacio de trabajo **Administración de prestaciones** , en **Configuración** , seleccione **Parámetros compartidos de Human Resources**.
+1. En el espacio de trabajo **Administración de prestaciones**, en **Configuración**, seleccione **Parámetros compartidos de Human Resources**.
 
-2. En la pestaña **General** , especifique valores para los siguientes campos:
+2. En la pestaña **Administración de prestaciones**, especifique valores para los siguientes campos:
 
    | Campo | Descripción |
    | --- | --- |
@@ -43,20 +43,22 @@ Para poder configurar planes de licencia en Microsoft Dynamics 365 Human Resourc
    | **Código de motivo de reapertura** | El código de motivo que se usará cuando se vuelve a abrir un plan de beneficios para empleados. Se muestra en un cuadro de diálogo durante el proceso de cancelación. Los usuarios pueden cambiarlo en **Volver a abrir código de motivo** si necesario. | 
    | **Código de motivo de evento de vida** | El código de motivo que se usará cuando se produce un evento de vida. |
    | **Código de motivo del cambio de tasa** | El código de motivo que se usará al cancelar y volver a abrir un plan de beneficios para empleados durante el proceso de actualización de cambio de tasa. Indica qué registros se modificados por el proceso de actualización de cambio de tasa. |
-   | **Salario anual de prestaciones** | Le permite establecer un importe de **Salario anual de prestaciones** para un empleado. Human Resources utilizará el importe **Salario anual de prestaciones** al determinar los importes de cobertura, en lugar del importe anual de compensación fija. |
+   | **Salario anual de prestaciones** | Le permite establecer un importe de **Salario anual de prestaciones** para un empleado. Recursos Humanos utilizará la cantidad **Salario anual de prestaciones** al determinar los importes de cobertura, en lugar del importe anual de compensación fija. |
    | **Nueva contratación apta** | Especifica si los nuevos empleados son aptos. |
-   | **Período de inscripción de nueva contratación** | El periodo de tiempo en que se permite la inscripción de nuevos empleados.</br></br>**Nota** : Esta configuración anula cualquier período de inscripción de nuevas contrataciones que establezca en la regla de idoneidad de planes. |
+   | **Período de inscripción de nueva contratación** | El periodo de tiempo en que se permite la inscripción de nuevos empleados.</br></br>**Nota**: Esta configuración anula cualquier período de inscripción de nuevas contrataciones que establezca en la regla de idoneidad de planes. |
    | **Frecuencia de pago predeterminada** | La frecuencia de pago predeterminada para usar cuando se agregan nuevos trabajadores. |
    | **Eventos de vida habilitados** | Permite eventos de vida. |
    | **Ocultar formularios de prestaciones heredadas** | Le permite ocultar formularios de beneficios heredados. |
+   | **Comprobación de prestación** | El texto de comprobación que se usará durante la comprobación de los beneficios de autoservicio. |
+   | **Seleccionar automáticamente personas designadas** | Especifica si desea seleccionar automáticamente dependientes y beneficiarios según su idoneidad para las opciones del plan. |
 
 3. Seleccione **Guardar**.
 
 ## <a name="configure-employee-self-service-parameters"></a>Configura parámetros de autoservicio para empleados
 
-1. En el espacio de trabajo **Administración de prestaciones** , en **Configuración** , seleccione **Parámetros de Human Resources**.
+1. En el espacio de trabajo **Administración de prestaciones**, en **Configuración**, seleccione **Parámetros de Human Resources**.
 
-2. En la pestaña **Administración de prestaciones** , especifique valores para los siguientes campos:
+2. En la pestaña **Administración de prestaciones**, especifique valores para los siguientes campos:
 
    | Campo | Descripción |
    | --- | --- |
@@ -64,3 +66,5 @@ Para poder configurar planes de licencia en Microsoft Dynamics 365 Human Resourc
    | **Seleccionar automáticamente personas designadas** | Especifica si desea seleccionar automáticamente dependientes y beneficiarios según su idoneidad para las opciones del plan. |
 
 3. Seleccione **Guardar**.
+
+

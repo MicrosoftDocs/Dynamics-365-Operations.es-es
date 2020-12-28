@@ -2,8 +2,8 @@
 title: Configurar parámetros de bajas y ausencias
 description: Defina parámetros de recursos humanos para bajas y ausencias en Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712385"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4420505"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurar parámetros de bajas y ausencias
 
@@ -47,6 +47,19 @@ Antes de configurar planes de bajas y ausencias en Dynamics 365 Human Resources,
 5. En la pestaña **Autoservicio para empleados**, indique si los responsables pueden introducir solicitudes de bajas y ausencias en nombre de sus empleados.
 
 7. Seleccione **Guardar**.
+
+>[!IMPORTANT]
+>La visualización de permisos y ausencias en todas las empresas se encuentra actualmente en versión preliminar. Tendrá que habilitarlo en su entorno de **Espacio aislado** para mostrar la opción de permisos y ausencias. Para obtener más información sobre cómo habilitar las características en versión preliminar, consulte [Administrar características](hr-admin-manage-features.md).
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>Ver y cambiar parámetros compartidos de recursos humanos
+
+1. En la página **Administración de personal**, seleccione la pestaña **Vínculos**.
+
+2. En **Configuración**, seleccione **Parámetros compartidos de Recursos Humanos**.
+
+3. En la pestaña **Acceso avanzado**, seleccione **Sí** para **Habilitar la vista de permisos entre empresas**, para permitir que la licencia se vea en toda la empresa.
+
+4. Seleccione **Guardar**.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Ver y cambiar parámetros de permisos y ausencias
 

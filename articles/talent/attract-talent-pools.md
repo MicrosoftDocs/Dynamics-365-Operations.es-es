@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
-ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
+ms.openlocfilehash: 97385da9d258cc169a9976be7c7798faa41661c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078052"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527702"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>Conseguir candidatos a través de reservas de talentos en Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Los reclutadores y los administradores de contratación pueden organizar a los candidatos mediante la funcionalidad de grupos de talentos en Attract. Las grupos de talentos pueden ayudarle a realizar el seguimiento de todos los candidatos y a involucrarlos para trabajos en su empresa.
 
@@ -113,7 +115,7 @@ Todos los usuarios tienen una vista común de los perfiles del candidato. La pes
 
 - La pestaña **Documentos** muestra los documentos que el candidato ha agregado desde su perfil o durante las solicitudes del trabajo. Puede usar esta ficha o gestionar los curriculums vitae del candidato, las cartas de presentación, la cartera, y así sucesivamente. También puede usar esta ficha para agregar documentos.
 
-    Para ver un documento, seleccione el nombre del documento en la lista de documentos. Puede ver los documentos Microsoft Word en la aplicación mediante Microsoft Office 365. También puede descargar los documentos en su equipo local mediante la opción **Descargar** para cada documento.
+    Para ver un documento, seleccione el nombre del documento en la lista de documentos. Puede ver documentos de Microsoft Word en la aplicación mediante Microsoft 365. También puede descargar los documentos en su equipo local mediante la opción **Descargar** para cada documento.
 
 - La pestaña **LinkedIn** muestra la información de LinkedIn del candidato. Para usar esta ficha, debe conectar su cuenta de LinkedIn en la configuración del usuario, y su conexión de LinkedIn Recruiter del entorno debe establecerse. Para obtener más información, consulte [Conseguir candidatos con LinkedIn Recruiter en Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 

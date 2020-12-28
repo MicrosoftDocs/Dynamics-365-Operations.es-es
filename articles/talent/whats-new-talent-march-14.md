@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 79bb8c0ed3c3f3bee62a8bc384a9d3a15cfe881a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a3bb5792e6395e6fe593691f050cae03362cf659
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897612"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528630"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Novedades y cambios en Dynamics 365 Talent (14 de marzo de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en Talent.
 
@@ -45,7 +47,7 @@ Los cambios realizados en esta versión habilitan escenarios de gestión del ren
 Con este cambio, ahora puede seleccionar varios empleados y asignar en masa una o varias listas de comprobación a dichos empleados. 
 
 ### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 para Finance and Operations
-Para obtener detalles adicionales sobre la Platform update 24 for Finance and Operations, consulte [Novedades o cambios en la Platform update 24 para Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24) Cambios relevantes incluidos en la plataforma 24: 
+Para obtener detalles adicionales sobre Platform update 24 para Finance and Operations, consulte [Novedades o cambios en la platform update 24 de Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Cambios relevantes incluidos en la plataforma 24: 
 
 - Las alertas se habilitan en Talent.
 - La barra de navegación actualizada ahora se alínea con el encabezado de Oficina.
@@ -65,7 +67,7 @@ Las entidades Common Data Service ahora se sincronizan correctamente cuando se a
 En muchas organizaciones, los administradores de compensación y prestaciones solo pueden tener acceso a ciertos registros de compensación. Estos puede ser para ejecutivos o empleados regionales. Con este cambio, Recursos Humanos puede administrar y mantener los planes de compensación para distintos grupos de empleados en la organización. Puede asignar roles de seguridad a los planes fijos y variables, lo que determinará el acceso a los planes y los datos del empleado relacionados con los planes, como el salario y los registros de bonificaciones. Solo los roles con acceso concedido pueden procesar la compensación para estos empleados.
 
 ###  <a name="email-support-for-alerts"></a>Soporte de correo electrónico para avisos
-Con Platform update 24 para Finance and Operations, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento.
+Con Platform update 24 para Finance and Operations, los usuarios pueden crear reglas de alertas que distribuyen notificaciones por correo electrónico a los contactos cuando se activen con un evento.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Comprobación de empleado duplicado: cambios en la interfaz
 Con este cambio, se detectan los duplicados a medida que se especifican los campos de nombre, y un estado muestra cuántos se han encontrado. Puede seleccionar el vínculo proporcionado para abrir una nueva página para evaluar si utilizar la coincidencia detectada. Para evitar interrumpir la entrada de datos, el formulario de los duplicados no se abre automáticamente.

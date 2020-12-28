@@ -16,11 +16,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
 ms.openlocfilehash: 33e0183109bc0bf8c825e3d5a51dcc36dbf58fc1
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462456"
 ---
 # <a name="get-support-for-microsoft-dynamics-365-talent"></a>Obtener soporte para Microsoft Dynamics 365 Talent
 

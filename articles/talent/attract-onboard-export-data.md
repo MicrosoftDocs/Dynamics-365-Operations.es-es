@@ -20,11 +20,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Talent October 2019 update
 ms.openlocfilehash: eb97a16c15476c2f34ec581a32a677fa6fee8739
-ms.sourcegitcommit: acdd93637385246f9c5c652cccdf2cbfb263cc33
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2975943"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462416"
 ---
 # <a name="export-data-from-attract-and-onboard"></a>Exportar datos desde Attract y Onboard
 
@@ -102,7 +102,7 @@ Cuando esté preparado podrá descargar plantillas, guías y datos de candidatos
    ![[Descargar una exportación de datos desde Onboard](./media/attract-onboard-export-data-onboard-download.png)](./media/attract-onboard-export-data-onboard-download.png)
 
    >[!NOTE]
-   >Su exportación de datos estará disponible durante siete días. Al cabo de los siete días, el vínculo **Descargar**expira y tendrá que solicitar una nueva exportación si tiene que volver a descargar los datos. Al iniciar una nueva exportación de datos, las descargas existentes expirarán cuando se haya completado la nueva exportación.
+   >Su exportación de datos estará disponible durante siete días. Al cabo de los siete días, el vínculo **Descargar** expira y tendrá que solicitar una nueva exportación si tiene que volver a descargar los datos. Al iniciar una nueva exportación de datos, las descargas existentes expirarán cuando se haya completado la nueva exportación.
 
 La descarga es un archivo .zip que contiene:
 

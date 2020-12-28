@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006087"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462497"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>Acumulación de licencias basada en las horas trabajadas
 

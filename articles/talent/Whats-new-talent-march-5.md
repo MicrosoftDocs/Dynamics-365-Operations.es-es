@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898928"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527299"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Novedades y cambios en Dynamics 365 Talent (5 de marzo de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en Talent.
 
@@ -77,4 +79,4 @@ Las fechas límites para actualizarse a Common Data Service se acercan rápidame
 En muchas organizaciones, los administradores de compensación y prestaciones solo pueden acceder a ciertos registros de compensación, como registros para los ejecutivos o los empleados basados en regiones. Con este cambio, puede administrar y mantener los planes de compensación para distintos grupos de empleados en la organización. Se pueden asignar roles de seguridad a los planes fijos y variables, lo que determinará el acceso a los planes y los datos del empleado relacionados con los planes, como el salario y los registros de bonificaciones. Solo los roles con acceso podrán procesar la compensación para dichos empleados.
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 para Finance and Operations
-Para obtener detalles adicionales sobre la Platform update 24 for Finance and Operations, consulte [Novedades o cambios en la Platform update 24 para Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)
+Para obtener detalles adicionales sobre Platform update 24 para Finance and Operations, consulte [Novedades o cambios en la platform update 24 de Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

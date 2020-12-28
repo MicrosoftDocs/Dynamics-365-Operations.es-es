@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628462"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420426"
 ---
 # <a name="performance-management"></a>Gestión del rendimiento
 
@@ -132,7 +132,7 @@ Puede usar el flujo de trabajo de la Evaluación del empleado para controlar la 
 
 1.  Cuando se crea la evaluación, se establece con el estado de **No iniciado**. La evaluación puede editarla cualquiera.
 
-2.  Una vez el empleado pulsa el botón **Comenzar evaluación**, la evaluación se establece con el estado**En curso**. A continuación, el empleado comienza a añadir contenido. En este punto, el administrador ya no puede ver el documento de evaluación.
+2.  Una vez el empleado pulsa el botón **Comenzar evaluación**, la evaluación se establece con el estado **En curso**. A continuación, el empleado comienza a añadir contenido. En este punto, el administrador ya no puede ver el documento de evaluación.
 
 3.  El empleado cambia el estado a **Preparado para evaluación**.
 

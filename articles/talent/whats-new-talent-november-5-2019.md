@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 48de07178acfaccf11e0a02b2848bf24e6ccc117
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c4068cf81782d2f9559179b91da31e049c006059
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896782"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527129"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-5-2019"></a>Novedades y cambios en Dynamics 365 Talent (5 de noviembre de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Talent.
 
@@ -69,7 +71,7 @@ Esta versión corrige un problema al solicitar cambios de compensación con el a
 
 Con este cambio, los códigos de motivo con más de 30 caracteres se actualizarán en Common Data Service. Los cambios realizados en Common Data Service también se reflejarán en Talent.
 
-### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Integración de direcciones de Talent a Finance and Operations (351961)
+### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Abordar la integración de Talent con Finance and Operations (351961)
 
 Esta versión corrige un problema en las direcciones que se actualizaban en Talent pero no se actualizaban en Finance and Operations. Los cambios en los bloques de direcciones ahora se actualizarán.
 

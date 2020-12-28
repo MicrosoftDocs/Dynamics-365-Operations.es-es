@@ -1,9 +1,9 @@
 ---
 title: Administrar bajas de empleados
-description: Defina parámetros de recursos humanos para bajas y ausencias en Dynamics 365 Human Resources.
+description: Administre las bajas de empleados en Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/30/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712142"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4420504"
 ---
 # <a name="manage-employee-leave"></a>Administrar bajas de empleados
 
@@ -45,7 +45,14 @@ Puede administrar las bajas de empleados por tipo de baja. Esto incluye la final
 
 Puede incluir un código de razón y un comentario al ajustar el resultado de bajas de un empleado. 
 
+>[!IMPORTANT]
+>La visualización de información adicional sobre los saldos de licencias está en versión preliminar. Deberá habilitarlo en su entorno de **Espacio** aislado. Para obtener más información sobre cómo habilitar las características en versión preliminar, consulte [Administrar características](hr-admin-manage-features.md).<br>
+>Al mantener el puntero encima de cualquier saldo de licencia, ahora verá:<br>
+>- **Disponible**: Total de este año - Tomar este año
+>- **Total de este año**: todas las acumulaciones, ajustes y transferencia para el año.
+>- **Tomado este año**: todo el tiempo libre aprobado
+
 ## <a name="see-also"></a>Consulte también
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
-- [Administrar solicitudes de permisos y ausencias](hr-employee-self-service-manage-requests.md)
+- [Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)

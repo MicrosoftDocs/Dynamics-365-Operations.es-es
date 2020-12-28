@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: e714be06984f399235f0799ef077a92deae64d9e
+ms.sourcegitcommit: b0aa724a18ab1fbb5a62925f048c54b2c676ebf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930026"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4476086"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicación Recursos humanos en Teams
 
@@ -86,7 +86,6 @@ Una vez que haya habilitado las notificaciones para la aplicación en la aplicac
 
 | Emitir | Estado |
 | --- | --- |
-| El desplazamiento horizontal no funciona en los teléfonos Android | El desplazamiento horizontal no es un problema en iOS ni en dispositivos de escritorio. Estamos trabajando en una solución para Android. |
 | El saldo es incorrecto si se envía tiempo libre para una fecha futura. | La previsión no está disponible aún. El saldo se muestra para la fecha actual. |
 | No se puede cancelar una solicitud **En revisión**. | Esta funcionalidad no es compatible actualmente y se agregará en una versión futura. |
 | La información del saldo se calcula a partir de hoy. | El sistema actualmente no muestra saldos a partir del período de acumulación, incluso si está configurado en los parámetros de Baja y Ausencia. |

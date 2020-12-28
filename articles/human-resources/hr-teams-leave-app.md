@@ -3,7 +3,7 @@ title: Administrar solicitudes de baja en Teams
 description: Este tema muestra cómo solicitar tiempo libre en la aplicación Dynamics 365 Human Resources en Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930002"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4420502"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de baja en Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-La aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams le permite solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre directamente en Microsoft Teams. Puede interactuar con un bot para solicitar información e iniciar una solicitud de baja. La pestaña **Tiempo libre** proporciona información más detallada. Además, permite enviar información a los usuarios sobre el próximo tiempo libre a través de equipos y chats que haya fuera de la aplicación de Recursos Humanos.
+La aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams le permite solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre directamente en Microsoft Teams. Puede interactuar con un bot para solicitar información e iniciar una solicitud de baja. La pestaña **Tiempo libre** proporciona información más detallada. También puede enviar información a los usuarios sobre el próximo tiempo libre a través de equipos y chats que haya fuera de la aplicación de Recursos Humanos.
 
 ## <a name="install-the-app"></a>Instalar la aplicación
 
@@ -182,11 +182,25 @@ Si no puede iniciar sesión en la aplicación, es posible que la cuenta que est�
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Error al aprobar solicitudes de licencia en la aplicación Human Resources en Teams
 
-Si recibe un error cuando intenta aprobar solicitudes de permiso en la aplicación Teams, realice los siguientes pasos de solución de problemas:
+Si recibe un error cuando intenta aprobar solicitudes de permiso en la aplicación Teams, intente los siguientes pasos de solución de problemas:
 
 1. Verifique que la cuenta que está usando para iniciar sesión en Microsoft Teams es la misma que usa para acceder a Dynamics 365 Human Resources.
 
 2. Verifique que es un aprobador válido para la solicitud al verificar la configuración del flujo de trabajo para la aprobación de la licencia. Para obtener más información sobre los flujos de trabajo de solicitud de licencia, consulte [Crear un flujo de trabajo de solicitud de licencia](hr-leave-and-absence-workflow.md).
+
+## <a name="known-accessibility-issues"></a>Problemas de accesibilidad conocidos
+
+La aplicación Human Resources en Teams tiene los siguientes problemas de accesibilidad en los que estamos trabajando para solucionarlos en futuras versiones.
+
+| Emitir | Solución alternativa o explicación |
+| --- | --- |
+| Hacer zoom al 400 % en el escritorio oculta algunos de los botones de acción de la vista. | Recomendamos usar una lupa en su lugar hasta que podamos admitir este nivel de zoom. |
+| En la pestaña **Tiempo libre**, VoiceOver anuncia la acción de un botón mientras se lee el encabezado de la cuadrícula de tiempo libre. | El encabezado y los elementos de la cuadrícula están agrupados por año y se pueden contraer. VoiceOver interpreta esto como un elemento procesable, pero no lo es. |
+| Si desliza el dedo mientras una ventana emergente o un menú está abierto, VoiceOver lee el contenido del menú o de la ventana emergente. | Explore el contenido mediante el escaneo dactilar. |
+| En la pestaña **Tiempo libre**, hay un gesto adicional de deslizar rápidamente al navegar a **Código de razón** en una nueva solicitud. | No hay ningún control oculto al que esté intentando obtener acceso la navegación por deslizamiento. |
+| En la pestaña **Tiempo libre**, si desliza el dedo mientras el calendario está abierto, terminará fuera del control en lugar de en la parte superior de una nueva solicitud o mientras edita una solicitud. | Al llegar a **Ir a hoy**, considérelo como el final del control y deslice el dedo en la dirección inversa para volver a la parte superior. |
+| VoiceOver no lee las etiquetas de las fechas. | Las fechas encontradas en pares son siempre **Fecha de inicio** y **Fecha de finalización**. |
+| En la pestaña **Chat**, el foco vuelve a la parte superior cuando introduce una fecha mientras usa la herramienta de asistencia o la navegación del teclado. | Desplácese con el tabulador hasta que llegue a su área de entrada de nuevo. |
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 

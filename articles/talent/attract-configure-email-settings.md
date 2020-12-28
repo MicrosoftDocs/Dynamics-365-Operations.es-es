@@ -20,11 +20,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: e641e3f0d1873d91be1a1dc9bc22eb734a2b21d5
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124736"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462441"
 ---
 # <a name="configure-email-settings-in-attract"></a>Configurar parámetros de correo electrónico en Attract
 
@@ -34,7 +34,7 @@ La marca establece confianza y le ayuda a crear una relación con los candidatos
 
 Attract le permite realizar estas acciones:
 
-- Configurar parámetros de correo electrónico para que los utilice la cuenta de servicio de correo electrónico de Microsoft Exchange de su empresa. De esta manera, los candidatos sabe que los mensajes de correo electrónico proceden de su empresa. Por ejemplo, puede configurar sus parámetros para que los candidatos reciban correos electrónicos de `recruiting@contoso.com` en lugar de `contoso@microsoft.com`.
+- Defina la configuración de correo electrónico para que se use la cuenta del servicio de correo electrónico de Microsoft Exchange de su empresa. De esta manera, los candidatos sabe que los mensajes de correo electrónico proceden de su empresa. Por ejemplo, puede configurar sus parámetros para que los candidatos reciban correos electrónicos de `recruiting@contoso.com` en lugar de `contoso@microsoft.com`.
 - Crear una personalización de marca coherente para todas sus comunicaciones realizadas por correo electrónico mediante la configuración de encabezado y un pie de página globales para las plantillas de correo electrónico. 
 
 > [!NOTE]

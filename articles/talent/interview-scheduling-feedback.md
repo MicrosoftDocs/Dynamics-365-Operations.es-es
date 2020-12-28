@@ -15,11 +15,11 @@ ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
 ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832754"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462500"
 ---
 # <a name="schedule-interviews-in-attract"></a>Programar entrevistas en Attract
 

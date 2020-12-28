@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 8690dbe00c2316ccf745f5222c3cbaa9c3379f85
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430748"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420462"
 ---
 # <a name="create-coverage-options"></a>Crear opciones de cobertura
 

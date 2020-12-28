@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f872b0907e0f48e0b734c87f0b8fb1a4cfe20cb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896690"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462418"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-1-2018"></a>Novedades y cambios en Dynamics 365 Talent: Core HR (1 de octubre de 2018)
 

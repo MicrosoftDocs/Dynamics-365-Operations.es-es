@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: ddc6593431585ed79cc15f7ede5daf856f11b959
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832870"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527251"
 ---
 # <a name="extensibility-in-attract"></a>Extensibilidad en Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Microsoft Dynamics 365 Talent se crea encima de Common Data Service y se puede ampliar de distintas formas con Microsoft Power Platform y las capacidades que ofrece Common Data Service. Por lo tanto, puede configurar y personalizar el sistema mediante Microsoft Power Apps y Microsoft Power Automate. También puede obtener un análisis adicional sobre personas usando Microsoft Power BI. Además, las nuevas actividades personalizadas, como las actividades de Power Apps y contenido Web (iframe), crean un proceso de contratación más personalizable que nunca. Con estas actividades, puede ajustar el proceso de contratación a sus necesidades y procesos de negocio, y puede asegurarse de que tanto el equipo de contratación como los candidatos tienen una experiencia perfecta y personalizada.
 
@@ -45,7 +47,7 @@ A continuación, se enumeran los pasos para actualizar el campo **Motivo de rech
 3. En la pestaña **Entornos** , seleccione el entorno que desea administrar, y haga doble clic para ir a la ficha **Detalles**.
 4. En la pestaña **Detalles** , seleccione **Centro administración de Dynamics 365**.
 5. Seleccione la instancia que desea modificar y seleccione **abierto**.
-6. Vaya a **Valores**y luego a **Personalizaciones**, y seleccione **Personalizar el sistema**.
+6. Vaya a **Valores** y luego a **Personalizaciones**, y seleccione **Personalizar el sistema**.
 7. Busque la entidad cuyo conjunto de opciones desea expandir seleccionando **Entidades** y expandiendo el grupo. En este ejemplo, será la **Entidad de aplicación de trabajo**.
 8. Vaya al campo cuyo conjunto de opciones desea ampliar seleccionando la opción **Campos**. En este ejemplo, será **msdyn_rejectionreason**. Haga doble clic en el campo.
 9. En el campo **Conjunto de opciones**, seleccione **Editar**.

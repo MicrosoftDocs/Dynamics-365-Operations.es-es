@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ad677d1c36ac5159111afdcb5c31aed215d7b0a1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 9887d22a513e820c35c51b6c702e2d9d34ab1214
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897750"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529765"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-14-2018"></a>Novedades y cambios en Dynamics 365 Talent - Core HR (14 de diciembre de 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Compilación 8.1.2085**
 
@@ -137,11 +139,11 @@ La tarea Trabajadores a trabajo necesita actualizar las asignaciones siguientes.
 
 La transformación del campo Género también debe actualizarse. Seleccione el tipo de mapa **fn** (función) para el género y actualice las asignaciones de valores siguientes.
 
-| Common Data Service valor                   | Valor de Finance and Operations                     |
+| Valor Common Data Service                   | Valor Finance and Operations                     |
 | ----------------------------|--------------------------------------------------|
-| 75440000                    | Masculino                                             |
-| 75440001                    | Femenino                                           |
-| 75440002                    | Nuevo                                             | 
+| 75440000                    | Hombre                                             |
+| 75440001                    | Mujer                                           |
+| 75440002                    | None                                             | 
 | 75440003                    | NonSpecific                                      |
 
 Las asignaciones actualizadas deben tener la misma apariencia que las imágenes siguientes.

@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814729"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462517"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Ver el estado de los empleados que se incorporan y sus tareas
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 Talent: Onboard le permite ver el progreso de los nuevos 
 2. Para explorar en profundidad, seleccione la guía que desea ver.
 3. Seleccione la pestaña **Actividades** para ver las actividades que el nuevo empleado ha completado.
 
-    ![[Ver actividades que el nuevo empleado ha completado contratación ha completado](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
+    ![[Ver actividades que ha completado el nuevo empleado](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
 ## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a>Visualización de las tareas de incorporación que se tienen asignadas
 

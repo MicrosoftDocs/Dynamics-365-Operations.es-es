@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9cd6fda0e6e0405163184327f954b66eb8c7612
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 17eae6c2aa2a1305b1d6f403c595c022f71da48f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897566"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529099"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Novedades y cambios en Dynamics 365 Talent (26 de marzo de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Talent.
 
@@ -91,7 +93,7 @@ Las organizaciones pueden requerir que se especifiquen los códigos de motivo se
 En muchas organizaciones, los administradores de compensación y prestaciones solo pueden tener acceso a ciertos registros de compensación. Estos puede ser para ejecutivos o empleados regionales. Con este cambio, Recursos Humanos puede administrar y mantener los planes de compensación para distintos grupos de empleados en la organización. Puede asignar roles de seguridad a los planes fijos y variables, lo que determinará el acceso a los planes y los datos del empleado relacionados con los planes, como el salario y los registros de bonificaciones. Solo los roles concedidos con acceso pueden procesar la compensación para estos empleados.
 
 ###  <a name="email-support-for-alerts"></a>Soporte de correo electrónico para avisos
-Con Platform update 25 para Finance and Operations, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento. 
+Con Platform update 25 para Finance and Operations, los usuarios pueden crear reglas de alertas que distribuyen notificaciones por correo electrónico a los contactos cuando se activen con un evento. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Comprobaciones duplicadas por empleado: cambios de la interfaz de usuario
 Con este cambio, se detectan los duplicados a medida que se especifican los campos de nombre, y un estado muestra el número de duplicados encontrado. Puede seleccionar el vínculo proporcionado para abrir una nueva página para evaluar si utilizar la coincidencia detectada. Para evitar interrumpir la entrada de datos, el formulario de los duplicados no se abre automáticamente.

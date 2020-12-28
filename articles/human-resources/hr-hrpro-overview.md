@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428765"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420483"
 ---
 # <a name="overview"></a>Información general
 
@@ -90,14 +90,14 @@ La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones
 [Administrar las fechas de vencimiento de la prestación](hr-benefits-expiration-dates.md)</br>
 [Generar informes ACA](hr-benefits-aca-reports.md)</br>
 
-## <a name="manage-leave-and-absence"></a>Administrar permisos y ausencias
+## <a name="manage-leave-and-absence"></a>Administrar bajas y ausencias
 
 [Información general](hr-leave-and-absence-overview.md)</br>
-[Configurar parámetros de permisos y ausencias](hr-leave-and-absence-parameters.md)</br>
+[Configurar parámetros de bajas y ausencias](hr-leave-and-absence-parameters.md)</br>
 [Crear un calendario de horas de trabajo](hr-leave-and-absence-working-time-calendar.md)</br>
 [Crear un flujo de trabajo de solicitud de baja](hr-leave-and-absence-workflow.md)</br>
-[Configurar tipos de permisos y ausencias](hr-leave-and-absence-types.md)</br>
-[Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)</br>
+[Configurar tipos de bajas y ausencias](hr-leave-and-absence-types.md)</br>
+[Crear un plan de bajas y ausencias](hr-leave-and-absence-plans.md)</br>
 [Asignar trabajadores a un plan de ausencias](hr-leave-and-absence-enroll.md)</br>
 [Acumular planes de permisos y ausencias](hr-leave-and-absence-accrue.md)</br>
 [Ver análisis de permisos y ausencias](hr-leave-and-absence-analytics.md)</br>

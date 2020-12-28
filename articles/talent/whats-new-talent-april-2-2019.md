@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68dc73b7316a3ceb7129c9ea46bc60669ed2be95
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 04b5a006d4580fe419d81986a90851bc8d611722
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896943"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528228"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Novedades y cambios en Dynamics 365 Talent (2 de abril de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Talent.
 
@@ -55,7 +57,7 @@ En Attract y Onboard, los problemas registrados por los usuarios finales mediant
 Los cambios que se describen en esta sección se aplican a la compilación número 8.1.2216.
 
 ### <a name="platform-update-25-for-finance-and-operations"></a>Platform update 25 para Finance and Operations
-Para obtener más información acerca de la Platform update 25 para Finance and Operations, consulte [Características de vista previa en Dynamics 365 for Finance and Operations platform update 25 (abril de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Para obtener más información acerca de la Platform update 25 para Finance and Operations, consulte [Características de vista previa en Dynamics 365 for Finance and Operations Platform update 25 (abril de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Seguridad de compensación avanzada (fija y variable)
 En muchas organizaciones, los administradores de compensación y prestaciones solo pueden tener acceso a ciertos registros de compensación. Estos puede incluir registros para ejecutivos o empleados regionales. Con este cambio, recursos humanos puede administrar y mantener los planes de compensación para distintos grupos de empleados en la organización. Puede asignar roles de seguridad a los planes fijos y variables. Estos roles de seguridad determinan el acceso a los planes y los datos relacionados del empleado, como los registros de sueldo o prima, de forma que sólo dichos roles pueden procesar la compensación para los grupos de empleados.

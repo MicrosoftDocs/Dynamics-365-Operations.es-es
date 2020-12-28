@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812704"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462460"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Novedades y cambios en Dynamics 365 Talent (20 de marzo de 2019)
 
@@ -80,7 +80,7 @@ Se han realizado cambios para corregir un problema al editar la secuencia de nom
 En muchas organizaciones, los administradores de compensación y prestaciones solo pueden tener acceso a ciertos registros de compensación. Estos puede ser para ejecutivos o empleados regionales. Con este cambio, Recursos Humanos puede administrar y mantener los planes de compensación para distintos grupos de empleados en la organización. Puede asignar roles de seguridad a los planes fijos y variables, lo que determinará el acceso a los planes y los datos del empleado relacionados con los planes, como el salario y los registros de bonificaciones. Solo los roles con acceso concedido pueden procesar la compensación para estos empleados.
 
 ###  <a name="email-support-for-alerts"></a>Soporte de correo electrónico para avisos
-Con Platform update 24 para Finance and Operations, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento.
+Con Platform update 24 para Finance and Operations, los usuarios pueden crear reglas de alertas que distribuyen notificaciones por correo electrónico a los contactos cuando se activen con un evento.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Comprobación de empleado duplicado: cambios en la interfaz
 Con este cambio, se detectan los duplicados a medida que se especifican los campos de nombre, y un estado muestra el número de duplicados encontrado. Puede seleccionar el vínculo proporcionado para abrir una nueva página para evaluar si utilizar la coincidencia detectada. Para evitar interrumpir la entrada de datos, el formulario de los duplicados no se abre automáticamente.

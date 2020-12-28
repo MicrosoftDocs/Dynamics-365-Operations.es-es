@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443427"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527870"
 ---
 # <a name="overview"></a>Visión general
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Esta Guía del administrador lo ayuda a configurar, administrar y solucionar problemas de Dynamics 365 Human Resources.
 
@@ -42,7 +44,7 @@ Esta Guía del administrador lo ayuda a configurar, administrar y solucionar pro
   - [Configurar la integración de Common Data Service](hr-admin-integration-common-data-service.md)
   - [Configurar la integración con Finance](hr-admin-integration-finance.md)
   - [Configurar la integración con Dayforce](hr-admin-integration-dayforce.md)
-  - [Crear una aplicación de exportación de datos recurrente](hr-admin-integration-recurring-data-export.md)
+  - [Crear una aplicación de exportación de datos periódica](hr-admin-integration-recurring-data-export.md)
   - Integrar con Office
     - [Tutorial de integración con Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Actualizar los datos de la entidad en Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)

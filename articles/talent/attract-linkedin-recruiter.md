@@ -3,7 +3,7 @@ title: Conseguir candidatos con LinkedIn Recruiter en Attract
 description: Use la integración de LinkedIn proporcionada por Microsoft Dynamics 365 Talent - Attract para conseguir candidatos de trabajo con LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 96e4660c4958bf5f2a0910bfad770e1e713f800f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833055"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528278"
 ---
 # <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Conseguir candidatos con LinkedIn Recruiter en Attract
 
@@ -34,6 +34,9 @@ LinkedIn es la red profesional conectada mayor del mundo, que da acceso al talen
 
 Si no parece tener esta capacidad, póngase en contacto con su administrador. Para poder aprovechar LinkedIn Recruiter desde Attract, el administrador debe [configurar la integración con LinkedIn](./attract-admin-linkedin.md). A continuación podrá configurar su conexión con LinkedIn Recruiter y comenzar a encontrar candidatos.
 
+>[!IMPORTANT]
+>A partir del 1 de julio de 2020, LinkedIn ya no admite Internet Explorer 11. Los usuarios aún pueden obtener acceso a LinkedIn con Internet Explorer 11, pero se le pedirá que actualice o utilice un navegador diferente. Para obtener más información, consulte [Navegadores de Internet admitidos en LinkedIn](https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin).
+
 ## <a name="set-up-your-connection-with-linkedin-recruiter"></a>Configurar su conexión con LinkedIn Recruiter
 
 Para poder comenzar a trabajar con LinkedIn Recruiter a través de Attract, debe configurar su conexión con LinkedIn Recruiter. Para este paso, necesita sus credenciales de LinkedIn Recruiter.
@@ -42,19 +45,35 @@ Para poder comenzar a trabajar con LinkedIn Recruiter a través de Attract, debe
 2. Seleccione **configuración de usuario**.
 3. En la pestaña **Conexiones**, seleccione **Conectar** al lado de **LinkedIn**. Siga las instrucciones que se proporcionan en LinkedIn.
 
-    ![[Configurar la conexión a LinkedIn Recruiter desde Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[Configurar conexión a LinkedIn Recruiter desde Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>Ver los candidatos de LinkedIn en Attract
 
 Tras conectarse a LinkedIn Recruiter, puede ver los perfiles de LinkedIn de los candidatos en Attract.
 
+>[!NOTE]
+>Si tiene un puesto de contratante asignado, puede ver la información completa de los candidatos.<br><br>
+>Si tiene un puesto de Responsable de contratación o no tiene ningún puesto asignado, asegúrese de cerrar la sesión de LinkedIn o LinkedIn Recruiter antes de navegar a la pestaña LinkedIn de un candidato en Attract. Podrá ver los datos básicos del perfil público del candidato, como su nombre y apellido.
+
 1. En Attract, seleccione **Trabajos** o **Grupos de talentos** a la izquierda, y seleccione un candidato.
 
     ![[Ver los candidatos de LinkedIn en Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
-2. En el perfil del candidato, seleccione la pestaña **LinkedIn**. Puede ver el perfil del candidato, así como el historial de InMail y el historial de las notas de LinkedIn.
+2. En el perfil del candidato, seleccione la pestaña **LinkedIn**. Puede ver el perfil del candidato y el historial de InMail.
 
-Desde aquí, puede guardar el candidato a un proyecto de LinkedIn Recruiter, enviar inMail, o utilizar Update Me para establecer una alerta en LinkedIn Recruiter.
+   ![Ver la información de LinkedIn de un candidato](./media/attract-candidate-linkedin-tab.png)
+
+Desde aquí, puede realizar las siguientes acciones:
+
+- Seleccione la pestaña **Actividades de contratación** para ver:
+   
+   - Notas del contratante (tanto públicas como privadas). De forma predeterminada, las notas son privadas y solo visibles para su propietario.
+   - Actividad de InMail (pero no el contenido de InMail). Desplácese hasta la parte inferior de la página para ver el intercambio de InMail con su cliente potencial y vea a otros usuarios de su organización que están interactuando con su cliente potencial.
+   - Actividad de rechazo de candidatos
+
+- Seleccione **Enviar InMail** para enviar InMail sin tener que salir de Attract.
+
+- Seleccione **Guardar en un trabajo** para guardar el trabajo sin salir de Attract.
 
 > [!NOTE]
 > El perfil de LinkedIn de un candidato se mostrará en Attract cuando la información de Attract del candidato coincida con la información de LinkedIn. Las reglas de coincidencia que se utilizan son las siguientes:
@@ -87,7 +106,7 @@ En LinkedIn Recruiter, puede saber si un candidato ha solicitado otros trabajos 
     - **Comentarios sobre la entrevista** Consulte los comentarios que los entrevistadores han registrado en Attract.
     - **Notas** Vea todas las nota que se hayan especificado para este candidato en Attract.
 
-    ![[Ver la información de Attract desde LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[Ver información de Attract desde LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > El candidato y los datos de la aplicación no se sincronizarán con LinkedIn Recruiter si el candidato no ha pasado de la etapa de candidato potencial.

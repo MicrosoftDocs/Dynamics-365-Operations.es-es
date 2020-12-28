@@ -2,8 +2,8 @@
 title: Crear un calendario de equipo
 description: Vea y cree calendarios de equipo en Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/7/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd9a2a928e1f528065a00fecfb19a08edef86bf8
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3969007"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4420503"
 ---
 # <a name="view-team-and-company-calendars"></a>Ver calendarios de equipo y empresa
 
@@ -64,6 +64,11 @@ Los calendarios ahora contienen filtros y opciones adicionales. Todos los calend
 La configuración del calendario en los parámetros de permisos y ausencias determina las opciones de visualización disponibles.
 
 También puede filtrar calendarios por gerente o departamento. La asignación de puesto principal determina los empleados que se muestran cuando se establecen estos filtros. 
+
+>[!IMPORTANT]
+>La visualización de permisos y ausencias en todas las empresas se encuentra actualmente en versión preliminar. Deberá habilitarlo en su entorno de **Espacio** aislado. Para obtener más información sobre cómo habilitar las características en versión preliminar, consulte [Administrar características](hr-admin-manage-features.md).<br><br>
+>A continuación, debe habilitar la característica en **Parámetros compartidos de recursos humanos** para mostrar el filtro de entidad jurídica en calendarios. Para más información, consulte [Configurar parámetros de bajas y ausencias](hr-leave-and-absence-parameters.md).<br><br>
+>Puede filtrar el calendario por entidad jurídica. Si desea ver a todos los empleados independientemente de su entidad jurídica, desactive la casilla de filtro y seleccione Entrar. 
 
 Para obtener información acerca de la configuración del calendario, consulte [Configurar parámetros de calendario](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

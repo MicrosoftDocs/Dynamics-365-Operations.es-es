@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b73b420c2eb75077814fbfeb6cd17404c7efc11e
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915210"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4462532"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Entrada y navegación de empleados optimizadas
 
@@ -68,9 +68,9 @@ El panel de acciones de la página del trabajador se ha reorganizado para inclui
 
 - Trabajo
 - Persona
-- Dejar
+- Salir
 - Compensación
-- Prestaciones
+- Beneficios
 - Conformidad
 
 Además, una nueva pestaña **Vínculos** en la página principal del trabajador da a los usuarios una ubicación central para tener acceso a toda la información relacionada para un trabajador.
