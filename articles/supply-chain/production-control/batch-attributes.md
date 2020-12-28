@@ -1,0 +1,55 @@
+---
+title: Atributos de lote
+description: Este tema proporciona información acerca de los atributos de lote. Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario. El tema también explica cómo asignar atributos de lote y cómo puede buscar en ellos al reservar lotes.
+author: ShylaThompson
+manager: tfehr
+ms.date: 11/03/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup, WHSBatchAttribReserve
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: 19271
+ms.assetid: 41de0250-4a96-412e-a412-aa06615b6b1d
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: kamaybac
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 370893e415a79091404f1c4eb0404ba8fd5b9ff2
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4437203"
+---
+# <a name="batch-attributes"></a><span data-ttu-id="5f424-105">Atributos de lote</span><span class="sxs-lookup"><span data-stu-id="5f424-105">Batch attributes</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="5f424-106">Este tema proporciona información acerca de los atributos de lote.</span><span class="sxs-lookup"><span data-stu-id="5f424-106">This topic provides information about batch attributes.</span></span> <span data-ttu-id="5f424-107">Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario.</span><span class="sxs-lookup"><span data-stu-id="5f424-107">Batch attributes are characteristics of raw materials and finished products that make up inventory batches.</span></span> <span data-ttu-id="5f424-108">El tema también explica cómo asignar atributos de lote y cómo puede buscar en ellos al reservar lotes.</span><span class="sxs-lookup"><span data-stu-id="5f424-108">The topic also explains how to assign batch attributes, and how you can search on them when you reserve batches.</span></span>
+
+<span data-ttu-id="5f424-109">Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario.</span><span class="sxs-lookup"><span data-stu-id="5f424-109">Batch attributes are characteristics of raw materials and finished products that make up inventory batches.</span></span> <span data-ttu-id="5f424-110">Los atributos de lote pueden variar en función de diversos factores, como las condiciones ambientales, la calidad de las materias primas usadas para producir el lote o el resultado del producto terminado.</span><span class="sxs-lookup"><span data-stu-id="5f424-110">Batch attributes can vary, depending on factors such as environmental conditions, the quality of the raw materials that are used to produce the batch, or the outcome of the finished product.</span></span> <span data-ttu-id="5f424-111">El número y los tipos de atributos de lote usados pueden variar mucho de una industria a otra.</span><span class="sxs-lookup"><span data-stu-id="5f424-111">The number and types of batch attributes that are used can vary widely from one industry to another.</span></span> <span data-ttu-id="5f424-112">A continuación se muestran dos ejemplos de cómo usar los atributos de lote:</span><span class="sxs-lookup"><span data-stu-id="5f424-112">Here are two examples that show how to use batch attributes:</span></span>
+
+-   <span data-ttu-id="5f424-113">En la industria del queso, la leche, que es una de las materias primas usadas en la fabricación del queso, puede tener atributos como contenido graso y porcentaje en peso.</span><span class="sxs-lookup"><span data-stu-id="5f424-113">In the cheese industry, milk, which is one of the raw materials that are used to produce the cheese, can have attributes such as fat content and percentage weight.</span></span> <span data-ttu-id="5f424-114">El queso fabricado a partir de la leche puede tener otros atributos, como humedad y solera.</span><span class="sxs-lookup"><span data-stu-id="5f424-114">The cheese that is produced from the milk can have other attributes, such as moisture and age.</span></span>
+-   <span data-ttu-id="5f424-115">En la industria del acero, el hierro que se fabrica puede tener atributos como los porcentajes de contenido de magnesio, contenido de plata y contenido de cinc.</span><span class="sxs-lookup"><span data-stu-id="5f424-115">In the steel industry, the iron that is produced might have attributes such as the percentages of magnesium content, silver content, and zinc content.</span></span>
+
+<span data-ttu-id="5f424-116">Para gestionar mejor la cantidad y los tipos de atributos, puede utilizar grupos de atributos de lote.</span><span class="sxs-lookup"><span data-stu-id="5f424-116">To better manage the number and types of attributes, you can use batch attribute groups.</span></span> <span data-ttu-id="5f424-117">De esta manera, no es necesario agregar cada atributo de manera individual.</span><span class="sxs-lookup"><span data-stu-id="5f424-117">In this way, you don't have to add each attribute individually.</span></span>
+
+## <a name="assign-batch-attributes"></a><span data-ttu-id="5f424-118">Asignar atributos de lote</span><span class="sxs-lookup"><span data-stu-id="5f424-118">Assign batch attributes</span></span>
+<span data-ttu-id="5f424-119">Puede asignar atributos de lote a productos individuales incluidos en lotes de inventario o puede asignarlos a productos asociados a clientes específicos.</span><span class="sxs-lookup"><span data-stu-id="5f424-119">You can assign batch attributes to individual products that are held in inventory batches, or you can assign them to products that are associated with specific customers.</span></span> <span data-ttu-id="5f424-120">Para poder asignar un artículo de atributo de lote en el nivel de cliente, debe asignarlo primero en el nivel de producto.</span><span class="sxs-lookup"><span data-stu-id="5f424-120">Before you can assign a batch attribute at the customer level, you must assign it at the product level.</span></span> <span data-ttu-id="5f424-121">El producto debe tener la dimensión de lote configurada como **Activa** en el grupo de dimensiones de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="5f424-121">The product must have the batch dimension set to **Active** in the tracking dimension group.</span></span> <span data-ttu-id="5f424-122">Para asignar un atributo de lote a un producto individual, use la página específica del producto.</span><span class="sxs-lookup"><span data-stu-id="5f424-122">To assign a batch attribute to an individual product, use the product-specific page.</span></span> <span data-ttu-id="5f424-123">Si el atributo es específico de un producto para un cliente, use la página específica del cliente.</span><span class="sxs-lookup"><span data-stu-id="5f424-123">If the attribute is specific to a product for a customer, use the customer-specific page.</span></span> <span data-ttu-id="5f424-124">Al agregar un atributo a un producto, también define otros parámetros.</span><span class="sxs-lookup"><span data-stu-id="5f424-124">When you add an attribute to a product, you also define other parameters.</span></span> <span data-ttu-id="5f424-125">A continuación se incluyen algunos ejemplos:</span><span class="sxs-lookup"><span data-stu-id="5f424-125">Here are some examples:</span></span>
+
+-   <span data-ttu-id="5f424-126">Los intervalos mínimo y máximo de un atributo de tipo **Entero** o **Fracción**.</span><span class="sxs-lookup"><span data-stu-id="5f424-126">The minimum and maximum ranges for an attribute of the **Integer** or **Fraction** type.</span></span>
+-   <span data-ttu-id="5f424-127">Las acciones de tolerancia para un atributo de tipo **Entero** o **Fracción**.</span><span class="sxs-lookup"><span data-stu-id="5f424-127">The tolerance actions for an attribute of the **Integer** or **Fraction** type.</span></span> <span data-ttu-id="5f424-128">Si el valor del atributo no está entre el mínimo y el máximo, la acción puede ser un mensaje de advertencia o un mensaje de error.</span><span class="sxs-lookup"><span data-stu-id="5f424-128">If the value of the attribute falls outside the minimum and maximum range, the action can be either a warning message or an error message.</span></span>
+-   <span data-ttu-id="5f424-129">Es el valor de destino del atributo.</span><span class="sxs-lookup"><span data-stu-id="5f424-129">The target value for the attribute.</span></span> <span data-ttu-id="5f424-130">Este valor es el valor óptimo del atributo y se aplica a todos los tipos de atributo.</span><span class="sxs-lookup"><span data-stu-id="5f424-130">This value is the optimal value of the attribute, and it applies to all attribute types.</span></span>
+
+<span data-ttu-id="5f424-131">Puede obtener acceso a las páginas de los productos que seleccione en la página **Productos emitidos** en Gestión de información de productos.</span><span class="sxs-lookup"><span data-stu-id="5f424-131">You can access the pages for products that you select on the **Released products** page in Product information management.</span></span> <span data-ttu-id="5f424-132">Tras asignar atributos de lote a un producto, puede agregar valores específicos a los atributos en la página **Atributos de lote de inventario**.</span><span class="sxs-lookup"><span data-stu-id="5f424-132">After you assign batch attributes to a product, you can add specific values to the attributes on the **Inventory batch attributes** page.</span></span>
+
+## <a name="reserve-batches"></a><span data-ttu-id="5f424-133">Reservar lotes</span><span class="sxs-lookup"><span data-stu-id="5f424-133">Reserve batches</span></span>
+<span data-ttu-id="5f424-134">Puede buscar en atributos de lote al realizar las reservas de lote para un pedido de ventas para completar el pedido de un cliente o cuando selecciona y reserva lotes para un pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="5f424-134">You can search on batch attributes when you do batch reservations for a sales order to fulfill a customer's order, or when you pick and reserve batches for a production order.</span></span> <span data-ttu-id="5f424-135">Esta búsqueda ayuda a localizar un lote de inventario que contiene el producto con el atributo de lote que desea.</span><span class="sxs-lookup"><span data-stu-id="5f424-135">The search helps locate an inventory batch that contains the product that has the batch attribute that you want.</span></span> <span data-ttu-id="5f424-136">Una vez localizado el lote o los lotes, puede reservar el producto en la línea de transacción de inventario de origen.</span><span class="sxs-lookup"><span data-stu-id="5f424-136">After you locate the batch or batches, you can reserve the product to the originating inventory transaction line.</span></span>
+
+
+
