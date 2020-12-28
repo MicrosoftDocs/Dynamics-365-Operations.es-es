@@ -1,0 +1,61 @@
+---
+title: Transferencia del inventario físico en el almacén
+description: Este procedimiento le muestra el proceso para crear y enviar un diario de transferencia de inventario para registrar el movimiento de un artículo desde una ubicación de un almacén a otra.
+author: MarkusFogelberg
+manager: tfehr
+ms.date: 08/08/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.search.industry: Distribution
+ms.author: mafoge
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437106"
+---
+# <a name="transfer-physical-inventory-within-the-warehouse"></a><span data-ttu-id="0f4a5-103">Transferencia del inventario físico en el almacén</span><span class="sxs-lookup"><span data-stu-id="0f4a5-103">Transfer physical inventory within the warehouse</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="0f4a5-104">Este procedimiento le muestra el proceso para crear y enviar un diario de transferencia de inventario para registrar el movimiento de un artículo desde una ubicación de un almacén a otra.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to register movement of an item from one location in a warehouse to another.</span></span> <span data-ttu-id="0f4a5-105">Antes de comenzar, necesita tener configurado un nombre de diario de inventario para las transferencias de inventario.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-105">You need to have an inventory journal name set up for inventory transfers before you start this.</span></span> <span data-ttu-id="0f4a5-106">Puede revisar este procedimiento en la empresa de demostración USMF con los valores de ejemplo mostrados o puede usar sus propios datos si tiene productos y ubicaciones configurados.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-106">You can walk through this procedure in demo data company USMF using the example values that are shown, or using you can use your own data if you have products and locations set up.</span></span> <span data-ttu-id="0f4a5-107">Estas tareas las realizará normalmente el empleado del almacén.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-107">These tasks would normally be carried out by a warehouse employee.</span></span>
+
+
+## <a name="create-an-inventory-transfer-journal"></a><span data-ttu-id="0f4a5-108">Creación de un diario de transferencias de inventario</span><span class="sxs-lookup"><span data-stu-id="0f4a5-108">Create an inventory transfer journal</span></span>
+1. <span data-ttu-id="0f4a5-109">En el **Panel de exploración**, vaya a **Gestión de inventarios > Movimientos del diario > Artículos > Transferencia**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-109">In the **Navigation pane**, go to **Inventory management > Journal entries > Items > Transfer**.</span></span>
+2. <span data-ttu-id="0f4a5-110">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-110">Click **New**.</span></span>
+3. <span data-ttu-id="0f4a5-111">En el campo **Nombre**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-111">In the **Name** field, enter or select a value.</span></span>
+4. <span data-ttu-id="0f4a5-112">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-112">Click **OK**.</span></span> <span data-ttu-id="0f4a5-113">Existe la opción de especificar las dimensiones "De" y "A" para cada línea de diario.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-113">There is the option to specify 'From' and 'To' dimensions for each journal line.</span></span> <span data-ttu-id="0f4a5-114">Estas son esenciales para este tipo de diario.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-114">These are essential for this journal type.</span></span> <span data-ttu-id="0f4a5-115">Puede transferir los artículos a las ubicaciones mediante distintas reglas.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-115">You can transfer items to locations using different rules.</span></span> <span data-ttu-id="0f4a5-116">En este ejemplo transferiremos un artículo dentro del mismo almacén, de una ubicación controlada mediante matrícula de entidad de almacén a una ubicación que no se controla mediante matrículas de entidad de almacén.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-116">In this example we'll transfer an item within the same warehouse, from a license plate controlled location to a location that is not license plate controlled.</span></span>   
+
+## <a name="create-journal-lines"></a><span data-ttu-id="0f4a5-117">Crear líneas de diario</span><span class="sxs-lookup"><span data-stu-id="0f4a5-117">Create journal lines</span></span>
+1. <span data-ttu-id="0f4a5-118">En la **Ficha desplegable Líneas de diario**, haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-118">Int the **Journal lines fastTab**, click **New**.</span></span>
+2. <span data-ttu-id="0f4a5-119">En el campo **Número de artículo**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-119">In the **Item number** field, enter or select a value.</span></span> <span data-ttu-id="0f4a5-120">Si está usando USMF, puede seleccionar "A0001".</span><span class="sxs-lookup"><span data-stu-id="0f4a5-120">If you are using USMF, you can select 'A0001'.</span></span>  
+3. <span data-ttu-id="0f4a5-121">En el campo **Sitio de origen**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-121">In the **From site** field, enter or select a value.</span></span> <span data-ttu-id="0f4a5-122">Si está usando USMF, puede seleccionar "2".</span><span class="sxs-lookup"><span data-stu-id="0f4a5-122">If you are using USMF, you can select '2'.</span></span>  
+4. <span data-ttu-id="0f4a5-123">En el campo **Sitio de destino**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-123">In the **To site** field, enter or select a value.</span></span> <span data-ttu-id="0f4a5-124">Si está usando USMF, puede seleccionar "2".</span><span class="sxs-lookup"><span data-stu-id="0f4a5-124">If you are using USMF, you can select '2'.</span></span>  
+5. <span data-ttu-id="0f4a5-125">En el campo **Almacén de origen**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-125">In the **From warehouse** field, enter or select a value.</span></span> <span data-ttu-id="0f4a5-126">Si está usando USMF, puede seleccionar "24".</span><span class="sxs-lookup"><span data-stu-id="0f4a5-126">If you are using USMF, you can select '24'.</span></span>  
+6. <span data-ttu-id="0f4a5-127">En el campo **Almacén de destino**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-127">In the **To warehouse** field, enter or select a value.</span></span> <span data-ttu-id="0f4a5-128">Si está usando USMF, puede seleccionar "24".</span><span class="sxs-lookup"><span data-stu-id="0f4a5-128">If you are using USMF, you can select '24'.</span></span>  
+7. <span data-ttu-id="0f4a5-129">En el campo **Ubicación de origen**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-129">In the **From location** field, enter or select a value.</span></span> <span data-ttu-id="0f4a5-130">Si está usando USMF, puede seleccionar "FL-001".</span><span class="sxs-lookup"><span data-stu-id="0f4a5-130">If you are using USMF, you can select 'FL-001'.</span></span>  
+8. <span data-ttu-id="0f4a5-131">En el campo **Ubicación de destino**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-131">In the **To location** field, enter or select a value.</span></span> <span data-ttu-id="0f4a5-132">Si está usando USMF, puede seleccionar "BULK-001".</span><span class="sxs-lookup"><span data-stu-id="0f4a5-132">If you are using USMF, you can select 'BULK-001'.</span></span>  
+9. <span data-ttu-id="0f4a5-133">En el campo **Cantidad**, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-133">In the **Quantity** field, enter a number.</span></span>
+10. <span data-ttu-id="0f4a5-134">En la ficha desplegable **Detalles de línea**, haga clic en la pestaña **Dimensiones de inventario**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-134">In the **Line details** fastTab, click the **Inventory dimensions** tab.</span></span>
+11. <span data-ttu-id="0f4a5-135">En **Desde dimensiones de inventario**, en el campo **Matrícula**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-135">In **From inventory dimensions**, in the **License plate** field, enter or select a value.</span></span> <span data-ttu-id="0f4a5-136">Si está usando USMF, puede seleccionar "24".</span><span class="sxs-lookup"><span data-stu-id="0f4a5-136">If you are using USMF, you can select '24'.</span></span>  
+12. <span data-ttu-id="0f4a5-137">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-137">Click **Save**.</span></span>
+
+## <a name="post-the-inventory-transfer-journal"></a><span data-ttu-id="0f4a5-138">Registrar el diario de transferencias de inventario</span><span class="sxs-lookup"><span data-stu-id="0f4a5-138">Post the inventory transfer journal</span></span>
+1. <span data-ttu-id="0f4a5-139">En el **Panel Acciones**, haga clic en **Publicar**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-139">On the **Action Pane**, click **Post**.</span></span>
+2. <span data-ttu-id="0f4a5-140">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-140">Click **OK**.</span></span>
+
+## <a name="view-inventory-transactions"></a><span data-ttu-id="0f4a5-141">Ver transacciones de inventario</span><span class="sxs-lookup"><span data-stu-id="0f4a5-141">View inventory transactions</span></span>
+1. <span data-ttu-id="0f4a5-142">Haga clic en **Inventario**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-142">Click **Inventory**.</span></span>
+2. <span data-ttu-id="0f4a5-143">Haga clic en **Transacciones**.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-143">Click **Transactions**.</span></span> <span data-ttu-id="0f4a5-144">Aquí puede ver las transacciones creadas al registrar el diario.</span><span class="sxs-lookup"><span data-stu-id="0f4a5-144">Here you can see the transactions that were created when you posted your journal.</span></span>  
+
