@@ -1,71 +1,72 @@
 ---
 title: Colaboración de proveedor con los clientes
 description: Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los pedidos de compra y supervisar el inventario de envío.
-author: mkirknel
+author: TaylorVH
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
-ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.author: v-savanh
+ms.search.validFrom: 2020-11-01
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018173"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654349"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Colaboración de proveedor con los clientes
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Dynamics 365 Supply Chain Management. Los proveedores pueden completar una serie de procesos empresariales de las áreas de trabajo siguientes:
 
 - **Confirmación de pedidos de compra** Controle y respuesta a los pedidos de compra (PO).
-- **Oferta del proveedor** : Ver solicitudes de presupuesto y responder a ellas especificando propuestas.
-- **Información de proveedor** : Ver y actualizar datos maestros de proveedores.
-- **Facturación** : Trabajo con facturas. Este tema no cubre el área de trabajo **Facturación**. Para obtener más información sobre este área de trabajo, consulte [Espacio de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Oferta del proveedor**: Ver solicitudes de presupuesto y responder a ellas especificando propuestas.
+- **Información de proveedor**: Ver y actualizar datos maestros de proveedores.
+- **Facturación**: Trabajo con facturas. Este tema no cubre el área de trabajo **Facturación**. Para obtener más información sobre este área de trabajo, consulte [Espacio de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Los proveedores también pueden controlar la información acerca del inventario de entrega.
 
 ## <a name="working-with-pos-in-the-purchase-order-confirmation-workspace"></a>Trabajar con PO en el espacio de trabajo de confirmación de pedido de compra
 
-El área de trabajo de la **Confirmación del pedido de compra** le permite responder a los PO que se le han enviado para que los revise. También le permite ver información sobre pedidos de compra que están esperando una acción por parte del cliente y los que han sido confirmados pero siguen abiertos.
+El área de trabajo de la **Confirmación del pedido de compra** le permite responder a los pedidos de compra (PO) que se le han enviado para que los revise. También le permite ver información sobre pedidos de compra que están esperando una acción por parte del cliente y los que han sido confirmados pero siguen abiertos.
 
-Existen tres listas en el espacio de trabajo de **Confirmación de pedido de compra** :
+Existen tres listas en el espacio de trabajo de **Confirmación de pedido de compra**:
 
-- **Pedidos de compra para revisar** : esta lista muestra los PO que se han enviado y esperan una respuesta por su parte. Cuando responda, los PO desaparecerán de la lista. Si el cliente le envía una nueva versión del PO antes de que haya respondido el anterior, solo se muestra la última versión.
-- **A la espera de acción del cliente** : esta lista muestra todos los PO a los que ha respondido pero que el cliente todavía no ha confirmado. Si ha aceptado un PO, puede supervisarlo en esta lista hasta que el estado cambie a **Confirmado**. Si rechazó un PO o lo aceptó con cambios, puede supervisarlo aquí hasta que el cliente le envíe una nueva versión.
-- **Abrir los pedidos de compra confirmados** : esta lista muestra todos los PO de su cuenta que tienen el estado **Confirmado**. Cuando los productos o servicios se reciben completamente con el PO, el PO desaparece de la lista.
+- **Pedidos de compra para revisar**: esta lista muestra los PO que se han enviado y esperan una respuesta por su parte. Cuando responda, los PO desaparecerán de la lista. Si el cliente le envía una nueva versión del PO antes de que haya respondido el anterior, solo se muestra la última versión.
+- **A la espera de acción del cliente**: esta lista muestra todos los PO a los que ha respondido pero que el cliente todavía no ha confirmado. Si ha aceptado un PO, puede supervisarlo en esta lista hasta que el estado cambie a **Confirmado**. Si rechazó un PO o lo aceptó con cambios, puede supervisarlo aquí hasta que el cliente le envíe una nueva versión.
+- **Abrir los pedidos de compra confirmados**: esta lista muestra todos los PO de su cuenta que tienen el estado **Confirmado**. Cuando los productos o servicios se reciben completamente con el PO, el PO desaparece de la lista.
 
 Se pueden usar las siguientes páginas para trabajar con los PO:
 
 - **Pedidos de compra para revisión** Esta página contiene la misma información que la lista de **Pedidos de compra para revisión** en el área de trabajo. Consulte la descripción anterior en este tema.
-- **Historial de confirmación del proveedor del pedido de compra** : Esta página contiene todas las versiones del PO que se han enviado al proveedor. También contiene todas las respuestas que ha devuelto el proveedor.
+- **Historial de confirmación del proveedor del pedido de compra**: Esta página contiene todas las versiones del PO que se han enviado al proveedor. También contiene todas las respuestas que ha devuelto el proveedor.
 - **Pedidos de compra confirmados abiertos** Esta página contiene la misma información que la lista de **Pedidos de compra confirmados abiertos** en el área de trabajo. Consulte la descripción anterior en este tema.
-- **Todos los pedidos de compra confirmados** Esta página contiene todos los PO que han sido confirmados. El PO en esta página incluye PO en los que se han recibido los productos o servicios. Puede usar esta lista para supervisar los PO para los que puede enviar facturas.
+- **Todos los pedidos de compra confirmados** Esta página contiene todos los PO que han sido confirmados. Los PO qeu se muestran en esta página incluye PO en los que se han recibido los productos o servicios. Puede usar esta lista para supervisar los PO para los que puede enviar facturas.
 
 ### <a name="responding-to-pos"></a>Responder a los PO
 
 Los pedidos de compra que el cliente le ha enviado para revisar aparecen en el espacio de trabajo **Confirmación del pedido de compra** y en la página **Pedidos de compra para revisar**. Cuando abre un PO, puede elegir aceptarlo, rechazarlo o aceptarlo con cambios. Podía haber documentos adjuntos en el encabezado del PO o en líneas individuales. Además, puede adjuntar información a su respuesta en el encabezado del PO o en líneas individuales. Por ejemplo, puede sugerir un artículo sustituto para una de las líneas.
 
-Puede obtener una vista previa e imprimir el PO como archivo PDF mediante la opción **Vista preliminar/Imprimir**. También puede usar la acción **Mostrar dimensiones** para ocultar o mostrar las siguientes columnas de dimensión: **Sitio** , **Almacén** , **Color** , **Tamaño** , **Estilo** , **Configuración**. 
+Puede obtener una vista previa e imprimir el PO como archivo PDF mediante la opción **Vista preliminar/Imprimir**. También puede usar la acción **Mostrar dimensiones** para ocultar o mostrar las siguientes columnas de dimensión: **Sitio**, **Almacén**, **Color**, **Tamaño**, **Estilo**, **Configuración**. 
 
-Si usa la opción **Aceptar con cambios** , puede aceptar o rechazar líneas individuales. También puede realizar los siguientes cambios en las líneas:
+Si usa la opción **Aceptar con cambios**, puede aceptar o rechazar líneas individuales. También puede realizar los siguientes cambios en las líneas:
 
 - Cambiar fechas o cantidades. Para actualizar la fecha de entrega confirmada en todas las líneas, use la opción **Actualizar la fecha de entrega** en el encabezado del PO.
 - Divida las líneas para las diferentes fechas de entrega o cantidades.
-- Sustituir un artículo. En la sección **Detalles de la línea** , escriba una descripción del artículo y el número de artículo en el campo **Externo**.
+- Sustituir un artículo. En la sección **Detalles de la línea**, escriba una descripción del artículo y el número de artículo en el campo **Externo**.
 
 No puede cambiar la información sobre precios o gastos, pero puede hacer sugerencias para dichos cambios mediante el uso de notas.
 
@@ -75,13 +76,13 @@ Si el cliente le envía una nueva versión de un PO, éste tendrá un sufijo de 
 
 Si está usando el inventario de entrega, puede usar la interfaz de colaboración del proveedor para visualizar la información de las siguientes páginas:
 
-- **Pedidos de compra que consumen el inventario de entrega** : los PO del inventario de entrega se generan cuando el cliente adquiera propiedad del inventario. Estos PO de entrega sólo se muestran en esta página. No se incluyen en la página **Todos los pedidos de compra confirmados**.
-- **Productos recibidos del inventario de entrega** : esta página muestra todas las transacciones en las que la titularidad de los productos se ha transferido a la empresa que está consumiendo el inventario. Esta información se puede utilizar para facturar al cliente.
-- **Inventario de entrega disponible** : esta página muestra el inventario disponible de entrega que es propiedad de la empresa, pero que está disponible en el almacén de los clientes.
+- **Pedidos de compra que consumen el inventario de entrega**: los PO del inventario de entrega se generan cuando el cliente adquiera propiedad del inventario. Estos PO de entrega sólo se muestran en esta página. No se incluyen en la página **Todos los pedidos de compra confirmados**.
+- **Productos recibidos del inventario de entrega**: esta página muestra todas las transacciones en las que la titularidad de los productos se ha transferido a la empresa que está consumiendo el inventario. Esta información se puede utilizar para facturar al cliente.
+- **Inventario de entrega disponible**: esta página muestra el inventario disponible de entrega que es propiedad de la empresa, pero que está disponible en el almacén de los clientes.
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Trabajo con solicitudes de presupuesto en el área de trabajo de oferta del proveedor
 
-El área de trabajo **Oferta del proveedor** permite ver las solicitudes de presupuesto a las que su empresa ha sido invitada a responder. También puede responder a las solicitudes de presupuesto. 
+El área de trabajo **Oferta del proveedor** permite ver las solicitudes de presupuesto (RFQ) a las que su empresa ha sido invitada a responder. También puede responder a las solicitudes de presupuesto. 
 
 El área de trabajo también muestra a todas las solicitudes de presupuesto que ha perdido o ha obtenido. Además, si el sistema está configurado para el sector público, el área de trabajo muestra las solicitudes de presupuesto que están disponibles al público.
 
@@ -105,15 +106,18 @@ Las personas que trabajan en el sector público pueden ver las solicitudes de pr
 
     Si ha sido invitado a realizar una oferta, puede encontrar la misma solicitud de presupuesto en la página **Nuevas invitaciones a oferta**. En ocasiones, puede que desee realizar una oferta de una solicitud de presupuesto abierta, pero no ha sido invitado a realizar una oferta. En este caso, podrá invitarse usted mismo, siempre que el cliente haya habilitado la auto-invitación para el caso de solicitud de presupuesto.
 
+    Mejore la accesibilidad del enlace **Abrir solicitudes de cotizaciones publicadas** activando la función **Mostrar el vínculo "Abrir solicitudes de cotización publicadas" como mosaico**. Esta función convierte el enlace en un mosaico y lo mueve a una ubicación destacada para que sea fácil de encontrar.
+
 - Seleccione el vínculo **Solicitudes de presupuestos publicadas cerradas** para ver una lista de solicitudes de presupuesto cerradas disponibles para el público. Una solicitud de presupuesto cerrada es una solicitud de presupuesto que ha vencido. Puede encontrar la fecha y hora de vencimiento en el encabezado de la solicitud de presupuesto.
 
     Una solicitud de presupuesto cerrada muestra todas las ofertas de proveedor hasta el nivel de línea. A medida que las ofertas se conceden o se echazan, esta información se refleja en la solicitud de presupuesto cerrada. Los archivos adjuntos que se incluyan en la oferta también están disponible.
 
-**Nota:** Esta funcionalidad sólo está disponible si se habilita la configuración del sector público.
+> [!NOTE]
+> Nota: Esta funcionalidad solo está disponible si se activa la configuración del sector público.
 
 ### <a name="bidding"></a>El realizar una oferta
 
-- Haga click en **Oferta** para empezar a realizar una oferta de una solicitud de presupuesto.
+- Seleccione **Oferta** para empezar a realizar una oferta de una solicitud de presupuesto.
 
     Cuando la edición está habilitada para los campos de oferta en los encabezados y las líneas de la solicitud de presupuesto, puede introducir su oferta directamente en la cuadrícula de la línea. También debe considerar cualquier información adicional de la oferta que se deba agregar en los detalles de línea.
 
@@ -124,13 +128,13 @@ Las personas que trabajan en el sector público pueden ver las solicitudes de pr
 - Seleccione **Restablecer desde la solicitud de presupuesto** para restablecer los datos especificados para una oferta y reviertir la solicitud de presupuesto original. Puede restablecer la cabecera o la línea.
 - Seleccione **Agregar alternativa** o **Quitar alternativa** en la cuadrícula de la línea para trabajar con alternativas.
 
-    Algunas solicitudes de presupuesto permiten ofertas alternativas. Puede especificar ofertas alternativas únicamente para las líneas del tipo **Categoría** , ya que los artículos específicos no se pueden agregar como alternativas. 
+    Algunas solicitudes de presupuesto permiten ofertas alternativas. Puede especificar ofertas alternativas únicamente para las líneas del tipo **Categoría**, ya que los artículos específicos no se pueden agregar como alternativas. 
 
 - Seleccione **Archivos adjuntos de la solicitud de presupuesto** o **Archivos adjuntos de las líneas de solicitudes de presupuesto** para abrir los archivos adjuntos que el cliente haya agregado a una solicitud de presupuesto. Seleccione **Archivos adjuntos de una oferta** o **Archivos adjuntos de la línea de una oferta** para cargar archivos adjuntos junto a la oferta.
 
     Es posible que haya cuestionarios que deba responder antes de que se le permita registrar una oferta.
 
-- Seleccione **Rechazar** si no desea realizar ninguna oferta. Tras seleccionar **Rechazar** , no puede recuperar la acción e introducir una oferta.
+- Seleccione **Rechazar** si no desea realizar ninguna oferta. Tras seleccionar **Rechazar**, no puede recuperar la acción e introducir una oferta.
 
 Si se rectifica una solicitud de presupuesto, se debe introducir una nueva oferta. Puede obtener información acerca de la modificación en la pestaña **Modificaciones** de la página de solicitud de presupuesto. Las solicitudes de presupuesto enmendadas aparecen en la página **Nuevas invitaciones a oferta**.
 

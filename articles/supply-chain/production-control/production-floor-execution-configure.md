@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: cf58a7d851577854d08bad70cff69794c3841a2d
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
+ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012507"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "4664305"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -36,47 +36,53 @@ Al abrir la interfaz de ejecución de la planta de producción, carga automátic
 
 Este tema describe las diversas opciones para configurar los dispositivos de tarjeta de trabajo.
 
-## <a name="turn-on-new-features-in-feature-management"></a>Habilitar nuevas características en la administración de características
+## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Encienda la interfaz de ejecución del piso de producción y sus características opcionales relacionadas
 
-Algunas de las configuraciones descritas en este tema deben estar habilitadas en su sistema para que estén disponibles. Utilice la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar cualquiera de las siguientes características (o todas ellas), según sea necesario.
+La interfaz de ejecución de la planta de producción en sí, más varias de las configuraciones opcionales que se describen en este tema, deben estar activadas en su sistema antes de poder utilizarlas. Utilice la página [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar alguna o todas las funciones descritas en las siguientes subsecciones según sea necesario.
 
-### <a name="generate-license-plate"></a>Generar matrícula de entidad de almacén
+### <a name="the-production-floor-execution-interface"></a>La interfaz de ejecución de la planta de producción
 
-Para que esta característica esté disponible, active las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden):
+Esta es la característica principal descrita en este tema. Agrega la interfaz de ejecución de la planta de producción a su sistema. Para habilitarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):  
+- Ejecución del piso de producción
+
+### <a name="generate-license-plates"></a>Generar matrículas de entidad de almacén
+
+Estas características hacen que la funcionalidad de la placa de matrícula esté disponible para la interfaz de ejecución de la planta de producción. Si desea usarlas, active las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden):
 
 1. Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo
 1. Habilitar la generación automática de matrícula de entidad de almacén al informar como terminado en el dispositivo de tarjetas de trabajo
 
-### <a name="print-label"></a>Imprimir etiqueta
+### <a name="print-labels"></a>Imprimir etiquetas
 
-Para que esta característica esté disponible, active las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden):
+Estas características hacen que la funcionalidad de impresión de etiquetas esté disponible para la interfaz de ejecución de la planta de producción. Si desea usarlas, active las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden):
 
 1. Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo
 1. Imprimir etiqueta desde dispositivo de tarjeta de trabajo
 
 ### <a name="allow-locking-the-touch-screen"></a>Permitir el bloqueo de la pantalla táctil
 
-Para que esta característica esté disponible, active la siguiente característica en la [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Esta función agrega un botón a la interfaz de ejecución de la planta de producción que permite a los trabajadores desinfectar la pantalla táctil. Si desea usarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- (Vista previa) Función para bloquear un dispositivo de tarjeta de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar
+- Función para bloquear un dispositivo de tarjeta de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabajar con configuraciones de ejecución de la planta de producción
 
 Para crear y mantener configuraciones de dispositivos, vaya a **Control de producción \> Configuración \> Ejecución de fabricación \> Configurar la ejecución de la planta de producción**. La página **Configurar la ejecución de la planta de producción** muestra una lista de configuraciones existentes. En esta página , puede realizar las acciones siguientes:
 
 - Seleccione cualquier configuración de planta de producción que figure en la lista de la columna izquierda para verla y editarla.
-- Seleccione **Nuevo** en el panel Acciones para agregar una nueva configuración de dispositivo a la lista. A continuación, en el campo **Configuración** , escriba un nombre para identificar la nueva configuración. El nombre que especifique aquí debe ser único entre todas las configuraciones de dispositivos, y no podrá editarlo más tarde.
+- Seleccione **Nuevo** en el panel Acciones para agregar una nueva configuración de dispositivo a la lista. A continuación, en el campo **Configuración**, escriba un nombre para identificar la nueva configuración. El nombre que especifique aquí debe ser único entre todas las configuraciones de dispositivos, y no podrá editarlo más tarde.
 
 A continuación, configure los distintos ajustes para la configuración del dispositivo seleccionado. Están disponibles los siguientes campos:
 
-- **Informar de cantidad a la salida del trabajo** : establezca esta opción en *Sí* para solicitar a los trabajadores que aporten comentarios sobre los trabajos en curso al salir del trabajo. Cuando se establece en *No* , no se avisará a los trabajadores.
-- **Bloquear empleado** : cuando esta opción se establece en *No* , se cerrará inmediatamente la sesión de los trabajadores cuando se registren (en un nuevo trabajo, por ejemplo). El dispositivo volverá a la página de inicio de sesión. Cuando esta opción se establece en *Sí* , los trabajadores permanecerán conectados al dispositivo de la tarjeta de trabajo. Sin embargo, un trabajador puede cerrar sesión manualmente para que otro trabajador pueda iniciar sesión mientras el dispositivo de tarjeta de trabajo continúe ejecutándose con la misma cuenta de usuario del sistema. Para obtener más información sobre estos tipos de cuentas, consulte [Usuarios asignados](config-job-card-device.md#assigned-users).
-- **Usar el tiempo real de registro** : establezca esta opción en *Sí* para establecer la hora de cada nuevo registro en la hora exacta a la que el trabajador envió el registro. Cuando esta opción se establece en *No* , se utiliza en su lugar la hora de inicio de sesión. Por lo general, querrá establecer esta opción en *Sí* , si ha establecido las opciones **Bloquear empleado** o **Trabajador único** , en *Sí* en aquellos casos en los que los trabajadores suelen permanecer conectados durante períodos más largos.
-- **Trabajador único** : establezca esta opción en *Sí* si solo un trabajador usa cada dispositivo de tarjeta de trabajo en el que esta configuración está activa. Cuando se establece esta opción en *Sí* , la opción **Bloquear empleado** se configura automáticamente en *Sí*. Además, esta opción elimina el requisito (y la capacidad) de que el trabajador inicie sesión con un identificador de distintivo (o similar). En lugar de ello, el trabajador inicia sesión en Microsoft Dynamics 365 Supply Chain Management con una cuenta de usuario del sistema vinculada a un *trabajador con tiempo registrado* (desde la tabla *trabajadores* ) y se conecta al dispositivo de la tarjeta de trabajo como ese trabajador al mismo tiempo.
-- **Permitir bloquear la pantalla táctil** : establezca esta opción en *Sí* para permitir que los trabajadores bloqueen la pantalla táctil del dispositivo de la tarjeta de trabajo para que puedan limpiarla. Cuando esta opción se establece en *Sí* , se agrega un botón **Bloquear pantalla para limpiar** a la página de inicio de sesión del dispositivo. Cuando un trabajador selecciona este botón, la pantalla táctil se bloquea temporalmente para evitar entradas no deseadas. También se muestra un temporizador de cuenta atrás. El trabajador ahora puede limpiar de forma segura el dispositivo y la pantalla. Cuando finaliza la cuenta descendente, la pantalla táctil se desbloquea automáticamente.
-- **Duración del bloqueo de pantalla** : cuando la opción **Permitir bloqueo de pantalla táctil** está establecida en *Sí* , use esta opción para especificar la cantidad de segundos que la pantalla táctil debe estar bloqueada para su limpieza. La duración debe estar entre 5 y 120 segundos.
-- **Generar matrícula** : establezca esta opción en *Sí* para generar una nueva matrícula cada vez que un trabajador usa el dispositivo de la tarjeta de trabajo para informar como terminado. El número de matrícula de entidad de almacén se genera a partir de una secuencia numérica configurada en la página **Parámetros de gestión de almacén**. Cuando esta opción se establece en *No* , los trabajadores deben especificar una matrícula existente al informar de la conclusión.
-- **Etiqueta de impresión** : establezca esta opción en *Sí* para imprimir una etiqueta de matrícula cuando un trabajador usa el dispositivo de la tarjeta de trabajo para informar de su conclusión. La configuración de la etiqueta se configura en la ruta del documento, como se describe en [Diseño de ruta de documento para etiqueta de matrícula](../warehousing/document-routing-layout-for-license-plates.md).
+- **Informar de cantidad a la salida del trabajo**: establezca esta opción en *Sí* para solicitar a los trabajadores que aporten comentarios sobre los trabajos en curso al salir del trabajo. Cuando se establece en *No*, no se avisará a los trabajadores.
+- **Bloquear empleado**: cuando esta opción se establece en *No*, se cerrará inmediatamente la sesión de los trabajadores cuando se registren (en un nuevo trabajo, por ejemplo). El dispositivo volverá a la página de inicio de sesión. Cuando esta opción se establece en *Sí*, los trabajadores permanecerán conectados al dispositivo de la tarjeta de trabajo. Sin embargo, un trabajador puede cerrar sesión manualmente para que otro trabajador pueda iniciar sesión mientras el dispositivo de tarjeta de trabajo continúe ejecutándose con la misma cuenta de usuario del sistema. Para obtener más información sobre estos tipos de cuentas, consulte [Usuarios asignados](config-job-card-device.md#assigned-users).
+- **Usar el tiempo real de registro**: establezca esta opción en *Sí* para establecer la hora de cada nuevo registro en la hora exacta a la que el trabajador envió el registro. Cuando esta opción se establece en *No*, se utiliza en su lugar la hora de inicio de sesión. Por lo general, querrá establecer esta opción en *Sí*, si ha establecido las opciones **Bloquear empleado** o **Trabajador único**, en *Sí* en aquellos casos en los que los trabajadores suelen permanecer conectados durante períodos más largos.
+- **Trabajador único**: establezca esta opción en *Sí* si solo un trabajador usa cada dispositivo de tarjeta de trabajo en el que esta configuración está activa. Cuando se establece esta opción en *Sí*, la opción **Bloquear empleado** se configura automáticamente en *Sí*. Además, esta opción elimina el requisito (y la capacidad) de que el trabajador inicie sesión con un identificador de distintivo (o similar). En lugar de ello, el trabajador inicia sesión en Microsoft Dynamics 365 Supply Chain Management con una cuenta de usuario del sistema vinculada a un *trabajador con tiempo registrado* (desde la tabla *trabajadores*) y se conecta al dispositivo de la tarjeta de trabajo como ese trabajador al mismo tiempo.
+- **Permitir bloquear la pantalla táctil**: establezca esta opción en *Sí* para permitir que los trabajadores bloqueen la pantalla táctil del dispositivo de la tarjeta de trabajo para que puedan limpiarla. Cuando esta opción se establece en *Sí*, se agrega un botón **Bloquear pantalla para limpiar** a la página de inicio de sesión del dispositivo. Cuando un trabajador selecciona este botón, la pantalla táctil se bloquea temporalmente para evitar entradas no deseadas. También se muestra un temporizador de cuenta atrás. El trabajador ahora puede limpiar de forma segura el dispositivo y la pantalla. Cuando finaliza la cuenta descendente, la pantalla táctil se desbloquea automáticamente.
+- **Duración del bloqueo de pantalla**: cuando la opción **Permitir bloqueo de pantalla táctil** está establecida en *Sí*, use esta opción para especificar la cantidad de segundos que la pantalla táctil debe estar bloqueada para su limpieza. La duración debe estar entre 5 y 120 segundos.
+- **Generar matrícula**: establezca esta opción en *Sí* para generar una nueva matrícula cada vez que un trabajador usa el dispositivo de la tarjeta de trabajo para informar como terminado. El número de matrícula de entidad de almacén se genera a partir de una secuencia numérica configurada en la página **Parámetros de gestión de almacén**. Cuando esta opción se establece en *No*, los trabajadores deben especificar una matrícula existente al informar de la conclusión.
+- **Etiqueta de impresión**: establezca esta opción en *Sí* para imprimir una etiqueta de matrícula cuando un trabajador usa el dispositivo de la tarjeta de trabajo para informar de su conclusión. La configuración de la etiqueta se configura en la ruta del documento, como se describe en [Diseño de ruta de documento para etiqueta de matrícula](../warehousing/document-routing-layout-for-license-plates.md).
+- **Selección de pestaña** - Utilice la configuración de esta sección para elegir qué pestañas debe mostrar la interfaz de ejecución de la planta de producción cuando la configuración actual está activa. Puede diseñar tantas pestañas como necesite y luego agregarlas y organizarlas aquí según sea necesario. Para obtener detalles sobre cómo diseñar pestañas y trabajar con la configuración aquí, consulte [Diseñar la interfaz de ejecución del piso de producción](production-floor-execution-tabs.md).
 
 ## <a name="clean-up-job-configurations"></a>Limpiar configuraciones de trabajo
 
@@ -86,5 +92,5 @@ Un trabajo por lotes limpia periódicamente las entradas en la tabla de referenc
 
 1. Vaya a **Control de producción \> Configuración \> Ejecución de fabricación \> Ejecución de planta de producción**.
 1. En el panel de acciones, seleccione **Limpiar configuraciones de cliente**.
-1. En el cuadro de diálogo **Limpiar configuraciones de cliente** , establecer como valor del campo **Número de días** el número de días de inactividad (antes de hoy) que hay que tener en cuenta. Eliminará todas las configuraciones y los registros de inicio de sesión de los dispositivos que no han estado activos durante ese tiempo.
+1. En el cuadro de diálogo **Limpiar configuraciones de cliente**, establecer como valor del campo **Número de días** el número de días de inactividad (antes de hoy) que hay que tener en cuenta. Eliminará todas las configuraciones y los registros de inicio de sesión de los dispositivos que no han estado activos durante ese tiempo.
 1. Seleccione **Aceptar** para limpiar las configuraciones relevantes, basándose en la configuración de **Número de días**.

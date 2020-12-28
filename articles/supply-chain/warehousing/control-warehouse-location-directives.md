@@ -3,7 +3,7 @@ title: Controlar el trabajo de almacén usando plantillas de trabajo y directiva
 description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 manager: tfehr
-ms.date: 02/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e000f2779c50d3216a38d55df659bd683cadf6eb
-ms.sourcegitcommit: ecad92c9cb7e9e57688e678f79f747673c921df5
+ms.openlocfilehash: 21f6240b247433c7448a9aa5543996f19b3a25dd
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3692171"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517437"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación
 
@@ -39,17 +39,22 @@ La página **Plantillas de trabajo** le permite definir las operaciones de traba
 
 Las plantillas de trabajo constan de un encabezado y las líneas asociadas. Cada plantilla de trabajo es para un determinado *tipo de pedido de trabajo*. Muchos tipos de pedido de trabajo están asociados con los documentos de origen, como pedidos de ventas o compras. Sin embargo, otros tipos de pedido de trabajo representan procesos independientes de almacén, como recuento cíclico. El *id. del grupo de trabajo* le permite organizar el trabajo en grupos. 
 
-Los ajustes en la definición del encabezado del trabajo se pueden usar para determinar cuándo se debe crear un nuevo elemento de trabajo. Por ejemplo, puede establecer un número máximo de líneas de selcción y un máximo previsto de tiempo de selección. Luego, si el trabajo para un proceso de selección de un pedido de ventas supera cualquiera de estos valores, el trabajo se divide en dos partes. 
+Use los ajustes en la definición del encabezado del trabajo para determinar cuándo se debe crear un nuevo elemento de trabajo. Por ejemplo, puede establecer un número máximo de líneas de selcción y un máximo previsto de tiempo de selección. Luego, si el trabajo para un proceso de selección de un pedido de ventas supera cualquiera de estos valores, el trabajo se divide en dos partes.
 
-Las líneas de trabajo representan las tareas físicas que son necesarias para procesar el trabajo. Por ejemplo, para un proceso de salida de almacén, puede haber una línea de trabajo para seleccionar los artículos dentro del almacén y otra línea para configurar dichos artículos en una zona de espera. Después, puede haber una línea adicional para seleccionar los artículos provisionales de la zona de espera, y otra línea para poner los artículos en un camión como parte del proceso de carga. Puede establecer unn *código directivo* en líneas de la plantilla de trabajo. Un código directivo está vinculado a una ubicación directiva y, por tanto, ayuda a garantizan que el trabajo del almacén se ha procesado en la ubicación correcta en el almacén. 
+Utilice el botón **Descansos del encabezado de trabajo** para definir cuándo el sistema debe crear nuevos encabezados de trabajo. Por ejemplo, para crear un encabezado de trabajo para cada _Número de orden_, seleccione **Editar consulta** en el Panel de acciones y luego agregue el campo **Número de orden** a la pestaña **Clasificación** del editor de consultas. Los campos que se agregan a la pestaña **Clasificación** están disponibles para su selección como *campos de agrupación*. Para configurar sus campos de agrupación, seleccione **Descansos del encabezado de trabajo** en el Panel de acciones y, a continuación, para cada campo que desee utilizar como campo de agrupación, seleccione la casilla de verificación en la columna **Agrupar por este campo**.
 
-Puede configurar una consulta para controlar si se usa una determinada plantilla de trabajo. Por ejemplo, puede establecer una limitación para poder utilizar una determinada plantilla solo para el trabajo en un almacén específico. Como alternativa, puede tener varias plantillas que se usan para crear el trabajo para procesar pedidos de venta salientes, en función del origen de venta. El sistema usa el campo **Número de secuencia** para determinar el orden en que las plantillas de trabajo disponibles son evaluadas. Por lo tanto, si tiene una consulta muy específica para una determinada plantilla de trabajo, debe darle un número de secuencia bajo. Dicha consulta se evaluará antes que otras consultas más generales. 
+Las líneas de trabajo representan las tareas físicas que son necesarias para procesar el trabajo. Por ejemplo, para un proceso de salida de almacén, puede haber una línea de trabajo para seleccionar los artículos dentro del almacén y otra línea para configurar dichos artículos en una zona de espera. Después, puede haber una línea adicional para seleccionar los artículos provisionales de la zona de espera, y otra línea para poner los artículos en un camión como parte del proceso de carga. Puede establecer unn *código directivo* en líneas de la plantilla de trabajo. Un código directivo está vinculado a una ubicación directiva y, por tanto, ayuda a garantizan que el trabajo del almacén se ha procesado en la ubicación correcta en el almacén.
+
+Puede configurar una consulta para controlar si se usa una determinada plantilla de trabajo. Por ejemplo, puede establecer una limitación para poder utilizar una determinada plantilla solo para el trabajo en un almacén específico. Como alternativa, puede tener varias plantillas que se usan para crear el trabajo para procesar pedidos de venta salientes, en función del origen de venta. El sistema usa el campo **Número de secuencia** para determinar el orden en que las plantillas de trabajo disponibles son evaluadas. Por lo tanto, si tiene una consulta muy específica para una determinada plantilla de trabajo, debe darle un número de secuencia bajo. Dicha consulta se evaluará antes que otras consultas más generales.
+
+> [!NOTE]
+> Para evitar que el sistema sobrescriba automáticamente los *números de secuencia* de la plantilla de trabajo una vez eliminada una plantilla, active la función *Conservar los números de secuencia de la plantilla de trabajo al eliminar* en [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Para detener o poner en pausa un proceso de trabajo, puede usar la configuración **Detener trabajo** en la línea de trabajo. En ese caso, no se le solicitará al trabajador que se está realizando el trabajo que realice la siguiente etapa de trabajo. Para pasar al siguiente paso, dicho trabajador u otro trabajador debe seleccionar el trabajo de nuevo. También puede separar las tareas dentro de un elemento de trabajo mediante un *id. de clase de trabajo* diferente en las líneas de la plantilla de trabajo.
 
 ## <a name="location-directives"></a>Directivas de ubicación
 
-Las directivas de ubicación son reglas que ayudan a identifica las ubicaciones de picking y de colocación para el movimiento de inventario. Por ejemplo, en una transacción de pedido de ventas, una directiva de ubicación determina dónde se hará el picking de los artículos y dónde se colocarán los artículos seleccionados. Los directorios de la ubicación constan de un encabezado y las líneas asociadas, y se crean en la página **Directorios de ubicación**. 
+Las directivas de ubicación son reglas que ayudan a identifica las ubicaciones de picking y de colocación para el movimiento de inventario. Por ejemplo, en una transacción de pedido de ventas, una directiva de ubicación determina dónde se hará el picking de los artículos y dónde se colocarán los artículos seleccionados. Los directorios de la ubicación constan de un encabezado y las líneas asociadas, y se crean en la página **Directorios de ubicación**.
 
 En el encabezado, cada directorio de ubicación se debe asociar a un *tipo de pedido de trabajo* que especifica el tipo de transacción de inventario para el cual el directorio se usará, como pedidos de ventas, reabastecimiento o selección de la materia prima. El *tipo de trabajo* especifica si el directorio de la ubicación se usará para seleccionar o colocar el trabajo, o para otro proceso de almacén, como cómputo o cambios de estado del inventario. También debe especificar un *sitio* y un *almacén*. Un *código directivo* que se especifica en el encabezado se puede usar para vincular el directorio de la ubicación a una o varias plantillas de trabajo. 
 
@@ -60,3 +65,15 @@ Las líneas directivas de la ubicación establecen restricciones adicionales en 
 Las directivas de la ubicación tienen un nivel de detalle adicional: *acciones de la directiva de la ubicación*. Puede definir varias acciones de las directivas de la ubicación para cada línea. De nuevo, se usa un número de secuencia para determinar el orden en que se evalúan las acciones. En este nivel, puede configurar una consulta para definir cómo encontrar la mejor ubicación en el almacén. También puede usar una configuración de **Estrategia** predefinida para encontrar una ubicación óptima.
 
 Para obtener más información sobre cómo crear y configurar directivas de ubicación, consulte [Crear una directiva de ubicación](create-location-directive.md).
+
+### <a name="how-location-directives-work"></a>Cómo funcionan las directivas de ubicación
+
+Las directivas de ubicación determinan *dónde* los artículos deben ser recogidos y *dónde* deberían ponerse. El sistema evalúa una directiva de ubicación para cada línea de trabajo y luego selecciona una ubicación, según los detalles de la línea de trabajo. El sistema primero encuentra todas las directivas de ubicación que coinciden con una línea de trabajo en particular (por ejemplo, son para el almacén correcto y coinciden con la consulta). Luego evalúa secuencialmente las directivas que ha encontrado.
+
+> [!NOTE]
+> Hay casos especiales en los que la ubicación de picking o la ubicación de colocación están preseleccionadas. Por ejemplo, durante el _registro de compra_, la primera selección es siempre desde la ubicación donde se realiza el registro. Otro ejemplo es el *movimiento de inventario por plantilla*, donde el trabajador del almacén selecciona la ubicación de picking y solo las ubicaciones de colocación se encuentran a través de las directivas de ubicación.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+- Vídeo: [Análisis profundo de la configuración de la gestión de almacenes](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
+- Tema de ayuda: [Crear directivas de ubicación](create-location-directive.md)

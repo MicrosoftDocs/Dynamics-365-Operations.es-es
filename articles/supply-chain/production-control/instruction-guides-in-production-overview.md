@@ -3,7 +3,7 @@ title: Proporcionar guías de realidad mixta para trabajadores en producción
 description: Este tema explica cómo integrar el módulo de gestión de producción en Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides.
 author: cabeln
 manager: tfehr
-ms.date: 09/29/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
-ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
+ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000987"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645153"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Proporcionar guías de realidad mixta para trabajadores en producción
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Los trabajadores en los procesos de producción se beneficiarán de las instrucciones pertinentes que se brindan en el momento adecuado en el contexto de su trabajo. Hay *instrucciones* aplicables en varios dominios de trabajo, que incluyen: montaje, servicio, operaciones, certificación y seguridad. En todas estas funciones comerciales básicas, las instrucciones de capacitación continua pueden ayudar a capacitar a los trabajadores para que logren más y trabajen mejor.
 
@@ -124,10 +126,9 @@ Para configurar cómo aparecen las guías en el taller, vaya a **Realidad mixta 
 
 Establezca los campos siguientes:
 
-- **Subdominio de Common Data Service** : este campo ya debería mostrar un valor. Este campo contiene el subdominio del entorno de Common Data Service en el que crea sus Guías. El subdominio es la primera parte de la URL y normalmente lleva el nombre de su organización. Por ejemplo, si su URL de Common Data Service es "contoso.crm4.dynamics.com", debe ingresar *contoso* aquí. Este valor se utiliza para componer direcciones para sus guías y se codificará en los códigos QR.
+- **URL de Microsoft Dataverse** - Especifique la URL del entorno Microsoft Dataverse en el que crea sus guías. El formato es "contoso.crm4.dynamics.com", donde la primera parte de la URL suele tener el nombre de su organización (como "contoso"), la segunda parte es específica de la región de datos de su entorno (como "crm4")., y la última parte es el dominio (como "dynamics.com"). Una forma de encontrar la URL correcta es ir a [home.dynamics.com](https://home.dynamics.com/) y luego abrir su aplicación Guides. Cuando se abra Guides, verá la URL en la barra de direcciones de su navegador (solo tome la URL base, que debería parecerse al ejemplo anterior). Este valor se utiliza para componer direcciones para sus guías y se codificará en los códigos QR.
 - **Tamaño del código QR** - Establezca el tamaño del código QR renderizado. Recomendamos elegir un tamaño que llene la mayor parte de la pantalla, pero no más. Típicamente, *15* es un buen valor.
 - **Nivel de corrección de errores del código QR** - Establecer la granularidad del código QR. Una mayor granularidad puede ayudar a aumentar la confiabilidad del código, pero su **Tamaño de código QR** debe ser lo suficientemente grande para admitir el nivel de detalle requerido por el nivel de corrección seleccionado.
-
 
 > [!TIP]
 > - Los tamaños de códigos QR que son demasiado grandes para su pantalla tardarán un poco más en renderizarse y luego se reducirán para adaptarse a su pantalla. Estos no proporcionan ningún beneficio.
@@ -196,7 +197,7 @@ Para agregar una guía a un producto liberado:
 
 1. Vaya a **Gestión de información de producción \> Productos \> Productos despachados**.
 1. Abra el producto al que desea asignar una guía.
-1. En el panel Acción, abra la pestaña **Ingeniero** y, desde el grupo **Ver** , seleccione **Guías asociadas**.
+1. En el panel Acción, abra la pestaña **Ingeniero** y, desde el grupo **Ver**, seleccione **Guías asociadas**.
 1. La página **Guías asociadas** se abre para el producto seleccionado.
 1. En el Panel de acciones, seleccione **Agregar** para agregar una nueva línea a la cuadrícula. 
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar.
@@ -248,8 +249,8 @@ Para agregar una guía a una versión de fórmula:
 1. Vaya a **Gestión de información de producción \> Listas de materiales y fórmulas \> Fórmulas**.
 1. Abra la fórmula que incluye una versión a la que desea asignar una guía.
 1. Abra la pestaña **Encabezamiento** encima de la pestaña desplegable superior.
-1. Sobre la ficha desplegable **Versiones de fórmulas** , seleccione la versión a la que desea asignar una guía.
-1. Sobre la barra de herramientas **Versiones de fórmulas** , seleccione **Guías asociadas**.
+1. Sobre la ficha desplegable **Versiones de fórmulas**, seleccione la versión a la que desea asignar una guía.
+1. Sobre la barra de herramientas **Versiones de fórmulas**, seleccione **Guías asociadas**.
     ![Abra las guías asociadas con una versión de fórmula seleccionada](media/instruction-guides-FormulaVersion.png "Abra las guías asociadas con una versión de fórmula seleccionada")
 1. La página **Guías asociadas** se abre para la versión de fórmula.
 1. En el Panel de acciones, seleccione **Agregar** para agregar una nueva línea a la cuadrícula. 
@@ -297,8 +298,8 @@ Para agregar una guía a una versión de lista de materiales:
 1. Vaya a **Gestión de información de producción \> Listas de materiales y fórmulas \> Listas de materiales**.
 1. Abra la LMAT que incluye una versión a la que desea asignar una guía.
 1. Abra la pestaña **Encabezamiento** encima de la pestaña desplegable superior.
-1. Sobre la ficha desplegable **Versiones de LMAT** , seleccione la versión a la que desea asignar una guía.
-1. Sobre la barra de herramientas **Versiones de LMAT** , seleccione **Guías asociadas**.
+1. Sobre la ficha desplegable **Versiones de LMAT**, seleccione la versión a la que desea asignar una guía.
+1. Sobre la barra de herramientas **Versiones de LMAT**, seleccione **Guías asociadas**.
     ![Abra las guías asociadas con una versión de LMAT seleccionada](media/instruction-guides-BOMVersion.png "Abra las guías asociadas con una versión de LMAT seleccionada")
 1. La página **Guías asociadas** se abre para la versión de LMAT.
 1. En el Panel de acciones, seleccione **Agregar** para agregar una nueva línea a la cuadrícula.
@@ -340,8 +341,8 @@ Para agregar una guía a una versión de ruta:
 
 1. Vaya a **Control de producción \> Todas las rutas**.
 1. Abra la ruta a la que desea asignar una guía.
-1. Sobre la ficha desplegable **Versiones** , seleccione la versión a la que desea asignar una guía.
-1. Sobre la barra de herramientas **Versiones** , seleccione **Guías asociadas**.
+1. Sobre la ficha desplegable **Versiones**, seleccione la versión a la que desea asignar una guía.
+1. Sobre la barra de herramientas **Versiones**, seleccione **Guías asociadas**.
     ![Abra las guías asociadas con una versión de ruta seleccionada](media/instruction-guides-RouteVersion.png "Abra las guías asociadas con una versión de ruta seleccionada")
 1. La página **Guías asociadas** se abre para la versión de LMAT.
 1. En el Panel de acciones, seleccione **Agregar** para agregar una nueva línea a la cuadrícula.
@@ -365,10 +366,10 @@ Para agregar una guía a una relación de operación de ruta:
 
 1. Vaya a **Control de producción \> Todas las rutas**.
 1. Abra la ruta a la que desea asignar una guía.
-1. En el panel Acción, abra la pestaña **Ruta** y, desde el grupo **Mantener** , seleccione **Detalles de ruta**.
+1. En el panel Acción, abra la pestaña **Ruta** y, desde el grupo **Mantener**, seleccione **Detalles de ruta**.
 1. Se abre la página **Detalles de ruta** para la ruta seleccionada.
 1. En la cuadrícula superior, seleccione la operación para la que desea proporcionar orientación.
-1. En la cuadrícula inferior, seleccione una relación específica (o la relación genérica **Todos** ).
+1. En la cuadrícula inferior, seleccione una relación específica (o la relación genérica **Todos**).
     ![Seleccione una operación y luego una relación](media/instruction-guides-RouteOperationRelation.png "Seleccione una operación y luego una relación")
 1. Encima de la cuadrícula inferior, abra la pestaña **Guías asociadas**. ![ La pestaña Guías asociadas](media/instruction-guides-RouteOperationRelation-AddGuide.png "La pestaña Guías asociadas")
 1. Seleccione **Añadir** en la barra de herramientas en la parte superior de la cuadrícula inferior para agregar una nueva línea a la cuadrícula.

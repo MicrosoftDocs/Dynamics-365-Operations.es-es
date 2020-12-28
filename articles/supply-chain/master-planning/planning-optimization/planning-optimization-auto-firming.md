@@ -1,5 +1,5 @@
 ---
-title: Puesta en firme automática con la optimización de la planificación
+title: Puesta en firme automática con Optimización de planificación
 description: Este tema explica cómo usar la puesta en firme automática con la optimización de la planificación.
 author: ChristianRytt
 manager: tfehr
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 61e9e6aa660bc0828645c6bf1f2655539804831a
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383697"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594535"
 ---
-# <a name="auto-firming-with-planning-optimization"></a>Puesta en firme automática con la optimización de la planificación
+# <a name="autofirming-with-planning-optimization"></a>Puesta en firme automática con Optimización de planificación
 
 [!include [banner](../../includes/banner.md)]
 
@@ -35,7 +35,7 @@ La puesta en firme automática permite poner en firme (es decir, enviar) los ped
 > [!NOTE]
 > La puesta en firme automática de un pedido de compra planificado solo puede producirse si el artículo se asocia a un proveedor.
 
-## <a name="turn-on-auto-firming"></a>Desactivar la puesta en firme automática
+## <a name="turn-on-autofirming"></a>Activar la puesta en firme automática
 
 Para activar la puesta en firme automática, siga estos pasos.
 
@@ -48,7 +48,7 @@ El límite de tiempo de puesta en firme se calcula en adelante desde la fecha de
 
 - Para definir el límite de tiempo de puesta en firme predeterminado para un grupo de cobertura, vaya **Planificación maestra** \> **Configuración** \> **Cobertura** \> **Grupos de cobertura**, y seleccione un grupo de cobertura. A continuación, en la pestaña desplegable **Otro**, en el campo **Límite de tiempo de puesta en firme automática (días)**, especifique el número de días.
 - Para sobrescribir el intervalo de tiempo de puesta en firme que se define para el grupo de cobertura para un artículo específico, vaya **Gestión de información de productos** \> **Productos despachados** y, a continuación, desde el panel Acciones, seleccione **Plan** y después seleccione **Cobertura de artículos**. A continuación, en la pestaña **General** , seleccione **Límite de tiempo de la anulación** y en el campo **Límite de tiempo de puesta en firme automática (días)**, especifique el número de días.
-- Para sobrescribir el límite de tiempo de consolidación que se define para el grupo de cobertura y la cobertura de artículos para un plan maestro específico, vaya a **Planificación maestra** \> **Configuración** \> **Planes maestros** y seleccione un plan maestro. A continuación, en la pestaña desplegable **Límite de tiempo en días**, establezca **Congelar** en **Sí** y escriba en número de días.
+- Para sobrescribir el límite de tiempo de consolidación que se define para el grupo de cobertura y la cobertura de artículos para un plan maestro específico, vaya a **Planificación maestra** \> **Configuración** \> **Planes maestros** y seleccione un plan maestro. A continuación, en la pestaña desplegable **Límite de tiempo en días**, establezca **Puesta en firme** en **Sí** y escriba en número de días.
 
 Si se activa la puesta en firme automática para la ejecución del plan maestro que usa la optimización de la planificación, el proceso de puesta en firme automática se realiza de acuerdo con la configuración de la puesta en firme automática. Si la puesta en firme automática está activada, o si la planificación se inicia desde la página **Requisitos netos**, se omite el proceso de puesta en firme automática.
 

@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cefee7d678789f462eedbf9f9a3fbc9b591e25a2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978540"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437142"
 ---
 # <a name="costing-versions-overview"></a>Visión general de las versiones de gestión de costes
 

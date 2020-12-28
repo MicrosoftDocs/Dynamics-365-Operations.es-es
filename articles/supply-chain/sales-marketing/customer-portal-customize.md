@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414008"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527372"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizar y usar el Portal del cliente
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema describe las diferentes páginas que están disponibles inmediatamente en el Portal del cliente. Explica qué hacen las páginas y cómo puede personalizarlas.
 
 El Portal del cliente ofrece algunas páginas web y acciones listas para usar. El siguiente mapa del sitio proporciona una descripción general de esas páginas web y acciones, y los roles que pueden realizar las acciones.
 
-![![Mapa del sitio del Portal del cliente](media/customer-portal-site-map.png "Mapa del sitio del Portal del cliente")](media/customer-portal-site-map.png "Customer portal site map")
+![Mapa del sitio del Portal del cliente](media/customer-portal-site-map.png "Mapa del sitio del Portal del cliente")
 
 ## <a name="typical-customizations"></a>Personalizaciones típicas
 
@@ -62,12 +64,12 @@ Estos son los pasos estándar para enviar un pedido desde el Portal del cliente.
     - **Numero requerido**: introduzca el número de solicitud del pedido. Este campo no es obligatorio.
     - **Enviar a país/región**: introduzca el país o la región a la que se enviarán los artículos. Este campo se configura automáticamente para usuarios que no son administradores.
 
-    ![![Página de información de pedido](media/customer-portal-order-information.png "Página de información de pedido")](media/customer-portal-order-information.png "Order Information page")
+    ![Página de información de pedido](media/customer-portal-order-information.png "Página de información de pedido")
 
 1. Seleccione **Siguiente**.
 1. En la página **Artículos**, seleccione **Agregar artículo**.
 
-    ![![Página de artículos](media/customer-portal-items.png "Página de artículos")](media/customer-portal-items.png "Items page")
+    ![Página de artículos](media/customer-portal-items.png "Página de artículos")
 
 1. En el cuadro de diálogo **Información de artículo**, establezca los campos siguientes:
 
@@ -76,14 +78,14 @@ Estos son los pasos estándar para enviar un pedido desde el Portal del cliente.
     - **Unidad**: especifique la unidad de medida (por ejemplo, **ea.**, **kgs** o **caja**).
     - **Importe neto estimado**: el valor se calcula como el precio estimado del artículo × la cantidad para la unidad seleccionada.
 
-    ![![Cuadro de diálogo Información de artículo](media/customer-portal-item-information.png "Cuadro de diálogo Información de artículo")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![Cuadro de diálogo Información de artículo](media/customer-portal-item-information.png "Cuadro de diálogo Información de artículo")
 
 1. Seleccione **Enviar** para agregar el artículo al pedido.
 1. Repita los pasos del 4 al 6 hasta que haya agregado todos los artículos que desea pedir.
 1. Cuando haya terminado de agregar elementos, seleccione **Siguiente** en la página **Artículos**.
 1. La página **Información del pedido** proporciona un resumen del pedido. Revise el contenido del pedido y los detalles de entrega. Si todo parece correcto, seleccione **Enviar** para enviar el pedido.
 
-    ![![Página de información de pedido](media/customer-portal-order-submit.png "Página de información de pedido")](media/customer-portal-order-submit.png "Order Information page")
+    ![Página de información de pedido](media/customer-portal-order-submit.png "Página de información de pedido")
 
 ### <a name="standard-data-setup"></a>Configuración de datos estándar
 
@@ -148,19 +150,19 @@ Todos los controles del Portal del cliente son controles de portales Power Apps 
 
 El único control personalizado que se incluye en la plantilla del Portal del cliente se usa para crear las ventanas de la página de inicio.
 
-![![Ventanas en la página de inicio](media/customer-portal-home-page-tiles.png "Ventanas en la página de inicio")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![Ventanas en la página de inicio](media/customer-portal-home-page-tiles.png "Ventanas en la página de inicio")
 
 Para modificar las ventanas, siga estos pasos.
 
 1. Abra la [aplicación Gestión de portales](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 1. En el panel de navegación de la izquierda, seleccione **Plantillas de página**.
 
-    ![![Panel de navegación de gestión de portales](media/customer-portal-nav.png "Panel de navegación de gestión de portales")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![Panel de navegación de gestión de portales](media/customer-portal-nav.png "Panel de navegación de gestión de portales")
 
 1. Seleccione la plantilla de página que se llama **Inicio**.
 1. En el campo **Plantilla web**, seleccione el vínculo **Inicio** para abrir el código fuente de esa página.
 
-    ![![Campo de plantilla web](media/customer-portal-web-template.png "Campo de plantilla web")](media/customer-portal-web-template.png "Web Template field")
+    ![Campo de plantilla web](media/customer-portal-web-template.png "Campo de plantilla web")
 
 1. Ahora debería ver todo el código fuente de la página de inicio y puede modificarlo según lo requiera.
 
