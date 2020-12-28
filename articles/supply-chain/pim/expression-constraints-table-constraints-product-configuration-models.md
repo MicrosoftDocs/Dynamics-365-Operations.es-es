@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979837"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437051"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restricciones de expresión y tabla en modelos de configuración de productos
 
@@ -139,7 +139,7 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 <td>Esto suma sus condiciones. Si el número de condiciones es 0 (cero), da lugar a <strong>0</strong>.</td>
 <td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
-<li><strong>Operador</strong>: Plus[x, y, 2] == z</li>
+<li><strong>Operador:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Notación de infijo</strong>: x + y + 2 == z</li>
 </ul></td>
 </tr>
@@ -156,10 +156,10 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 <td>Abs</td>
 <td>Toma el valor absoluto de la condición. Debe tener exactamente una condición.</td>
 <td>Abs[expr]</td>
-<td><strong>Operador</strong>: Abs[x]</td>
+<td><strong>Operador:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Horas</td>
+<td>Tiempos</td>
 <td>Toma el producto de sus condiciones. Si el número de condiciones es 0 (cero), da lugar a <strong>1</strong>.</td>
 <td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
@@ -168,7 +168,7 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 </ul></td>
 </tr>
 <tr class="even">
-<td>Inicio/apagado</td>
+<td>Potencia</td>
 <td>Toma un exponencial. Aplica la potencia de derecha a izquierda. (Es decir, es asociativo a la derecha). Por tanto, <strong>Power[a, b, c]</strong> es equivalente a <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> solo se puede usar si el exponente es una constante positiva.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>

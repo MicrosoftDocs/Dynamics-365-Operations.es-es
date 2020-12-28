@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec150adb35eb0600844245b14cbec9e9632ab337
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889562"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436910"
 ---
 # <a name="move-replace-and-install-assets"></a>Mover, reemplazar e instalar activos
 
@@ -59,7 +59,7 @@ Utilice la función **Mover activo** para mover un activo a otra estructura de a
 Use la función **Reemplazar activo** en relación con reparaciones, restauraciones o sustitucioens permanentes de un activo por otro nuevo. Esta función se usa para reemplazar activos secundarios en una estructura de activos. Para los activos principales (es decir, activos fijos que no tienen actualmente un activo principal), esta sustitución se realiza en una ubicación funcional. Para obtener más información sobre cómo reemplazar activos principales en una ubicación funcional, consulte [Instalar activos en ubicaciones funcionales](../functional-locations/install-objects-on-functional-locations.md).
 
 > [!NOTE]
-> Si hay un taller de reparación relacionado con el departamento de producción, puede crear ubicaciones funcionales como **Reparación**, **Residuos**y **Almacenamiento** para gestionar la reparación y la sustitución de activos.
+> Si hay un taller de reparación relacionado con el departamento de producción, puede crear ubicaciones funcionales como **Reparación**, **Residuos** y **Almacenamiento** para gestionar la reparación y la sustitución de activos.
 
 1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos** o **Activos activos**.
 2. En la lista, seleccione el activo secundario que se vaya a reemplazar. Si el activo tiene activos secundarios, también reemplaza dichos activos.

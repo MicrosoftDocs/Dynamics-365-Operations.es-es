@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016226"
+ms.locfileid: "4437197"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar directivas de consolidación de envíos
 
@@ -36,7 +36,7 @@ Los escenarios que se presentan en este tema muestran cómo configurar directiva
 > [!IMPORTANT]
 > En el [primer escenario](#scenario-1) que se describe en este tema, primero configurará un almacén para que use la característica de consolidación de envíos anterior. Luego, hará que las directivas de consolidación de envíos estén disponibles. De esta manera, puede experimentar cómo funciona el escenario de actualización. Si planea utilizar un entorno de datos de demostración para pasar por el primer escenario, no active la característica antes de pasar por el escenario.
 
-Antes de poder usar la característica *Directivas de consolidación de envíos* , debe activarla en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de características** , la característica aparece de la siguiente forma:
+Antes de poder usar la característica *Directivas de consolidación de envíos*, debe activarla en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de características**, la característica aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Consolidar envío*
@@ -59,12 +59,12 @@ Cuando comienza este procedimiento, la característica *Directivas de consolidac
 Siga estos pasos para configurar directivas de consolidación de envío predeterminadas en un entorno donde los almacenes ya se han configurado para la consolidación de pedidos cruzados.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Almacenes**.
-1. En la lista, busque y abra el registro de almacén deseado (por ejemplo, almacén *24* en los datos de demostración **USMF** ).
+1. En la lista, busque y abra el registro de almacén deseado (por ejemplo, almacén *24* en los datos de demostración **USMF**).
 1. En el panel Acciones, seleccione **Editar**.
-1. En la ficha desplegable **Almacén** , configure la opción **Consolidar el envío en el despacho al almacén** en *Sí*.
+1. En la ficha desplegable **Almacén**, configure la opción **Consolidar el envío en el despacho al almacén** en *Sí*.
 1. Repita los pasos 2 a 4 para todos los demás almacenes donde se requiera consolidación.
 1. Cierre la página.
-1. Utilice [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica *Directivas de consolidación de envíos*. En el espacio de trabajo **Gestión de características** , la característica se llama *Consolidar envío*.
+1. Utilice [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica *Directivas de consolidación de envíos*. En el espacio de trabajo **Gestión de características**, la característica se llama *Consolidar envío*.
 1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**. Puede que tenga que actualizar su navegador para ver el nuevo elemento de menú **Directivas de consolidación de envíos** después de activar la característica.
 1. En el panel Acciones, seleccione **Crear configuración predeterminada** para crear las siguientes directivas:
 
@@ -84,7 +84,7 @@ Siga estos pasos para configurar directivas de consolidación de envío predeter
 
 Siga estos pasos para configurar directivas de consolidación de envío predeterminadas en un entorno completamente nuevo.
 
-1. Utilice [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica *Directivas de consolidación de envíos* , si todavía no la ha activado. En el espacio de trabajo **Gestión de características** , la característica se llama *Consolidar envío*.
+1. Utilice [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica *Directivas de consolidación de envíos*, si todavía no la ha activado. En el espacio de trabajo **Gestión de características**, la característica se llama *Consolidar envío*.
 1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. En el panel Acciones, seleccione **Crear configuración predeterminada** para crear las siguientes directivas:
 
@@ -121,11 +121,11 @@ Utilice la administración de características para activar la característica, 
         - **Título del filtro:** *Código 4*
 
 1. Vaya a **Gestión de información de productos \> Productos \> Productos despachados**.
-1. Abra el producto con número de artículo *M9200*. (El producto que seleccione debe estar habilitado para procesos de almacén avanzado \[WMS\] y este producto está habilitado previamente para procesos WMS en los datos de demostración **USMF** ).
-1. En la ficha desplegable **Almacén** , establezca el campo **Código 4** en *Inflamable*.
+1. Abra el producto con número de artículo *M9200*. (El producto que seleccione debe estar habilitado para procesos de almacén avanzado \[WMS\] y este producto está habilitado previamente para procesos WMS en los datos de demostración **USMF**).
+1. En la ficha desplegable **Almacén**, establezca el campo **Código 4** en *Inflamable*.
 1. Cierre la página.
-1. Abra el producto con número de artículo *M9201*. (Este producto también está habilitado previamente para procesos WMS en los datos de demostración **USMF** ).
-1. En la ficha desplegable **Almacén** , establezca el campo **Código 4** en *Explosivo*.
+1. Abra el producto con número de artículo *M9201*. (Este producto también está habilitado previamente para procesos WMS en los datos de demostración **USMF**).
+1. En la ficha desplegable **Almacén**, establezca el campo **Código 4** en *Explosivo*.
 1. Cierre la página.
 
 #### <a name="create-a-new-transportation-mode-of-delivery"></a>Crear un nuevo modo de transporte de entrega
@@ -159,14 +159,14 @@ Utilice la administración de características para activar la característica, 
 
 1. Vaya a **Ventas y marketing \> Clientes \> Todos los clientes**.
 1. Abra el cliente que tiene el número de cuenta *US-003*.
-1. En el ficha desplegable **Valores predeterminados de pedidos de ventas** , establezca el campo **Grupo de pedidos de ventas** en el grupo de órdenes que acaba de crear.
+1. En el ficha desplegable **Valores predeterminados de pedidos de ventas**, establezca el campo **Grupo de pedidos de ventas** en el grupo de órdenes que acaba de crear.
 1. Cierre la página y luego repita los pasos 4 y 5 para el cliente que tiene el número de cuenta *US-004*.
 
 ### <a name="create-example-policy-1"></a>Crear directiva de ejemplo 1
 
 En este ejemplo, creará una directiva *Cliente + Modo* que se puede usar para el siguiente caso de negocio:
 
-- La directiva consultará una cuenta de cliente específica ( *US-001* ) y un modo específico de entrega ( *Airwa-Air* ).
+- La directiva consultará una cuenta de cliente específica (*US-001*) y un modo específico de entrega (*Airwa-Air*).
 - La consolidación con envíos abiertos está desactivada.
 - La consolidación se realiza por id. de pedido. (En otras palabras, habrá envíos separados por pedido, almacén, etc.).
 
@@ -181,10 +181,10 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 
 1. Deje la opción **Consolidar con envíos abiertos** establecida en *No*.
 1. En el panel Acciones, seleccione **Guardar**.
-1. En la ficha desplegable **Campos de consolidacion** , en la lista **Campos restantes** , seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
+1. En la ficha desplegable **Campos de consolidacion**, en la lista **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
 1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango** , en la cuadrícula, busque la fila donde el campo **Campo** está establecido en *Cuenta de cliente* y establezca el campo **Criterio** para esa fila en *US-001*.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango**, en la cuadrícula, busque la fila donde el campo **Campo** está establecido en *Cuenta de cliente* y establezca el campo **Criterio** para esa fila en *US-001*.
 1. Seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
 
     - **Tabla:** *Líneas de pedido*
@@ -201,7 +201,7 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 
 En este ejemplo, creará una directiva *Mercancías peligrosas* que se puede usar para el siguiente caso de negocio:
 
-- La directiva consultará un código de filtro específico ( *peligroso* ) y un modo específico de entrega ( *Airwa-Air* ).
+- La directiva consultará un código de filtro específico (*peligroso*) y un modo específico de entrega (*Airwa-Air*).
 - La consolidación con envíos abiertos está activada.
 - La consolidación se realiza en todos los pedidos. (En otras palabras, habrá envíos separados por cuenta, almacén, etc., pero solo dentro del grupo de artículos que se especifica en la consulta).
 
@@ -216,13 +216,13 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 
 1. Configure la opción **Consolidar con envíos abiertos** en *Sí*.
 1. En el panel Acciones, seleccione **Guardar**.
-1. En la ficha desplegable **Campos de consolidacion** , en la lista **Campos restantes** , seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
+1. En la ficha desplegable **Campos de consolidacion**, en la lista **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
 1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Uniones** , expanda y seleccione **Tablas \> Detalles de carga** en el árbol.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Uniones**, expanda y seleccione **Tablas \> Detalles de carga** en el árbol.
 1. Seleccione **Agregar unión de tabla**.
 1. En la cuadrícula de relaciones que aparece, busque y seleccione la fila donde el campo **Relación** está establecido en *Número de artículo de almacén (número de artículo)* y luego elija **Seleccionar**. 
-1. En la pestaña **Rango** , seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
+1. En la pestaña **Rango**, seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
 
     - **Tabla:** *Número de artículo del almacén*
     - **Tabla derivada:** *Número de artículo del almacén*
@@ -232,7 +232,7 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
 
 > [!NOTE]
-> Para este caso de negocio, todas las líneas de pedido donde los artículos tienen un código de filtro específico (es decir, el código de filtro donde el campo **Código 4** está establecido en *Inflamable* ) se consolidarán con otros artículos del mismo tipo en todos los pedidos. Si hay un envío abierto para la misma cuenta, almacén y grupo de artículos, se le adjuntarán las nuevas líneas.
+> Para este caso de negocio, todas las líneas de pedido donde los artículos tienen un código de filtro específico (es decir, el código de filtro donde el campo **Código 4** está establecido en *Inflamable*) se consolidarán con otros artículos del mismo tipo en todos los pedidos. Si hay un envío abierto para la misma cuenta, almacén y grupo de artículos, se le adjuntarán las nuevas líneas.
 
 ### <a name="create-example-policy-3"></a>Crear directiva de ejemplo 3
 
@@ -253,12 +253,12 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 
 1. Configure la opción **Consolidar con envíos abiertos** en *Sí*.
 1. En el panel Acciones, seleccione **Guardar**.
-1. En la ficha desplegable **Campos de consolidacion** , en la lista **Campos restantes** , seleccione la fila donde el campo **Nombre de campo** está establecido en *Solicitud de cliente*.
+1. En la ficha desplegable **Campos de consolidacion**, en la lista **Campos restantes**, seleccione la fila donde el campo **Nombre de campo** está establecido en *Solicitud de cliente*.
 1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
-1. En la lista **Campos restantes** , seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
+1. En la lista **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
 1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango** , busque la fila donde el campo **Campo** está establecido en *Cuenta de cliente* y establezca el campo **Criterio** para esa fila en *US-001*.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango**, busque la fila donde el campo **Campo** está establecido en *Cuenta de cliente* y establezca el campo **Criterio** para esa fila en *US-001*.
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
 
 > [!NOTE]
@@ -270,7 +270,7 @@ En este ejemplo, creará una directiva *Clientes que permiten consolidación* qu
 
 - La directiva consultará un grupo de pedidos específico para identificar a los clientes que aceptan envíos consolidados.
 - La consolidación con envíos abiertos está desactivada.
-- La consolidación se realiza en todos los pedidos utilizando los campos seleccionados por defecto en la directiva CrossOrder (para replicar la casilla anterior **Consolidar envío en el despacho al alamacén** ).
+- La consolidación se realiza en todos los pedidos utilizando los campos seleccionados por defecto en la directiva CrossOrder (para replicar la casilla anterior **Consolidar envío en el despacho al alamacén**).
 
 - Puede anular la regla en un pedido de ventas seleccionando un grupo de pedidos diferente.
 
@@ -285,10 +285,10 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 
 1. Deje la opción **Consolidar con envíos abiertos** establecida en *No*.
 1. En el panel Acciones, seleccione **Guardar**.
-1. En la ficha desplegable **Campos de consolidacion** , en la lista **Campos restantes** , seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
+1. En la ficha desplegable **Campos de consolidacion**, en la lista **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
 1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango** , seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango**, seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
 
     - **Tabla:** *Pedidos de ventas*
     - **Tabla derivada:** *Pedidos de ventas*
@@ -306,7 +306,7 @@ En este ejemplo, creará una directiva *Almacenes que permiten consolidación* q
 
 - La directiva consultará un grupo de pedidos específico para identificar almacenes que pueden consolidar envíos.
 - La consolidación con envíos abiertos está desactivada.
-- La consolidación se realiza en todos los pedidos utilizando los campos seleccionados por defecto en la directiva CrossOrder (para replicar la casilla anterior **Consolidar envío en el despacho al alamacén** ).
+- La consolidación se realiza en todos los pedidos utilizando los campos seleccionados por defecto en la directiva CrossOrder (para replicar la casilla anterior **Consolidar envío en el despacho al alamacén**).
 
 Por lo general, este caso de negocios se puede abordar mediante las directivas predeterminadas que creó en el [escenario 1](#scenario-1). Sin embargo, también puede crear directivas similares manualmente siguiendo estos pasos.
 
@@ -319,10 +319,10 @@ Por lo general, este caso de negocios se puede abordar mediante las directivas p
 
 1. Deje la opción **Consolidar con envíos abiertos** establecida en *No*.
 1. En el panel Acciones, seleccione **Guardar**.
-1. En la ficha desplegable **Campos de consolidacion** , en el campo **Campos restantes** , seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
+1. En la ficha desplegable **Campos de consolidacion**, en el campo **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
 1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango** , busque la fila donde el campo **Campo** está establecido en *Almacén* y establezca el campo **Criterio** para esa fila en *61, 63*.
+1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango**, busque la fila donde el campo **Campo** está establecido en *Almacén* y establezca el campo **Criterio** para esa fila en *61, 63*.
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
 
 ### <a name="set-the-order"></a>Configurar el pedido

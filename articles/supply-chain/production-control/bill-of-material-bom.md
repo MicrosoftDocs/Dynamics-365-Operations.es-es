@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b226dd61c758cf17c8e4784ec22d2628145c1836
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985618"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436921"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Listas de materiales y fórmulas
 
@@ -108,7 +108,7 @@ Observe que los fantasmas se suelen usar para simplificar el proceso de ingenier
 
 ### <a name="pegged-supply"></a>Suministro asegurado
 
-Seleccione el tipo de línea**Suministro asegurado** cuando desee crear una subproducción, un kanban de evento de línea de L. MAT o un pedido de compra directa para cualquier variante del producto a la que la línea de L. MAT haga referencia. Se crea la subproducción, el kanban de evento o el pedido de compra cuando estima el pedido de producción. Las cantidades necesarias de artículos se reservarán automáticamente para el pedido de producción de consumo.
+Seleccione el tipo de línea **Suministro asegurado** cuando desee crear una subproducción, un kanban de evento de línea de L. MAT o un pedido de compra directa para cualquier variante del producto a la que la línea de L. MAT haga referencia. Se crea la subproducción, el kanban de evento o el pedido de compra cuando estima el pedido de producción. Las cantidades necesarias de artículos se reservarán automáticamente para el pedido de producción de consumo.
 
 ### <a name="vendor"></a>Proveedor
 

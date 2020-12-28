@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: c30b0e74053480a08f84f4d7579021084ded5799
-ms.sourcegitcommit: 286786445f72db20e993d37a63df0b886f8f5e99
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988399"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436636"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Crear pedidos de transferencia desde la aplicación de almacén
 
@@ -261,7 +261,7 @@ Para el ejemplo mencionado, dos **Eventos de la aplicación de almacén** (*Crea
 
 Puede ver la cola de eventos y los mensajes de eventos generados por la aplicación del almacén yendo a **Gestión de almacenes \> Consultas e informes \> Registros de dispositivos móviles \> Eventos de la aplicación de almacén**.
 
-Los mensajes de eventos *Crear orden de transferencia* recibirán el estado *Esperando*, lo que significa que el trabajo por lotes **Procesar eventos de aplicaciones de almacén** no recogerá ni procesará los mensajes de eventos. Tan pronto como el mensaje del evento se actualice al estado *Puesto en cola*, el trabajo por lotes procesará los eventos. Esto sucederá al mismo tiempo que la creación del evento *Orden de transferencia completa* (cuando un trabajador selecciona el botón**Orden completa** en la aplicación del almacén). Cuando los mensajes del evento *Crear orden de transferencia* se han procesado, el estado se actualiza a *Terminado* o *Error*. Cuando el estado *Orden de transferencia completa* se actualiza a *Terminado*, todos los eventos relacionados se eliminan de la cola.
+Los mensajes de eventos *Crear orden de transferencia* recibirán el estado *Esperando*, lo que significa que el trabajo por lotes **Procesar eventos de aplicaciones de almacén** no recogerá ni procesará los mensajes de eventos. Tan pronto como el mensaje del evento se actualice al estado *Puesto en cola*, el trabajo por lotes procesará los eventos. Esto sucederá al mismo tiempo que la creación del evento *Orden de transferencia completa* (cuando un trabajador selecciona el botón **Orden completa** en la aplicación del almacén). Cuando los mensajes del evento *Crear orden de transferencia* se han procesado, el estado se actualiza a *Terminado* o *Error*. Cuando el estado *Orden de transferencia completa* se actualiza a *Terminado*, todos los eventos relacionados se eliminan de la cola.
 
 Porque **Eventos de la aplicación de almacén** para la creación de datos de orden de transferencia no serán procesados por el trabajo por lotes antes de que los mensajes se actualicen al estado *Puesto en cola*, deberá buscar los números de orden de transferencia solicitados como parte del campo **Identificador**. El campo **Identificador** está en el encabezado de la página **Eventos de la aplicación de almacén**.
 

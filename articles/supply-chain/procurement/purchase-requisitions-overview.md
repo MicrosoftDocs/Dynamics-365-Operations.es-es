@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a14ae2771890085308b560cea59240556c6a55a3
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018684"
+ms.locfileid: "4437289"
 ---
 # <a name="purchase-requisition-overview"></a>Visión general de solicitud de compra
 
@@ -36,7 +36,7 @@ En función de la configuración de la organización, podrá crear solicitudes d
 Una vez aprobada una solicitud de compra, se puede usar para generar un pedido de compra. Los pedidos de compra son los documentos externos que el departamento de compras envía a los proveedores.
 
 ## <a name="creating-purchase-requisitions"></a>Creación de solicitudes de compra
-Puede crear una solicitud de compra en la página **Mis solicitudes de compra** , y seleccionar los artículos y los servicios que sea necesario. Puede seleccionar artículos de un catálogo de compras creado por su organización, o bien solicitar artículos que no se encuentran en un catálogo seleccionando una categoría de compra y especificando los detalles del producto.  
+Puede crear una solicitud de compra en la página **Mis solicitudes de compra**, y seleccionar los artículos y los servicios que sea necesario. Puede seleccionar artículos de un catálogo de compras creado por su organización, o bien solicitar artículos que no se encuentran en un catálogo seleccionando una categoría de compra y especificando los detalles del producto.  
 
 Para poder enviar una solicitud de compra para revisarla, es preciso configurar flujos de trabajo. El proceso del flujo de trabajo se usa para mover una solicitud de compra por el proceso de revisión, desde un estado inicial de **Borrador** a un estado final de **Aprobado**.
 

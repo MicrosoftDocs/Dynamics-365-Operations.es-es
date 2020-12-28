@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 64c7c2787e2ac996e3016f5b23fc48582f5533ad
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018914"
+ms.locfileid: "4437182"
 ---
 # <a name="procurement-catalogs-overview"></a>Visión general de catálogos de compras
 
@@ -64,9 +64,9 @@ El catálogo define qué productos están disponibles cuando se crean las solici
 
 Las actualizaciones se publican de forma manual o automática en función de la opción seleccionada para el catálogo en el campo **Tipo de actualización predeterminada** en la página **Catálogos**. Los siguientes tipos de actualización predeterminados están a disposición de los catálogos:
 
--   **Dinámica** : el catálogo se actualiza automáticamente siempre que haya cambiado.
--   **Estática** : los catálogos se deben actualizar de forma manual.
--   **Ambas** : si el catálogo incluye categorías de productos que tienen el tipo de actualización predeterminada **Estática** , se debe actualizar manualmente cuando se actualizan estas categorías. Si el catálogo incluye categorías de productos que tienen el tipo de actualización predeterminada **Dinámica** , se actualiza automáticamente siempre que haya cambiado.
+-   **Dinámica**: el catálogo se actualiza automáticamente siempre que haya cambiado.
+-   **Estática**: los catálogos se deben actualizar de forma manual.
+-   **Ambas**: si el catálogo incluye categorías de productos que tienen el tipo de actualización predeterminada **Estática**, se debe actualizar manualmente cuando se actualizan estas categorías. Si el catálogo incluye categorías de productos que tienen el tipo de actualización predeterminada **Dinámica**, se actualiza automáticamente siempre que haya cambiado.
 
 
 <a name="additional-resources"></a>Recursos adicionales

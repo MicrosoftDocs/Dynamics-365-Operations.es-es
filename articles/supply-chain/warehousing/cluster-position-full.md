@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016180"
+ms.locfileid: "4437213"
 ---
 # <a name="cluster-position-full"></a>Posición completa del clúster
 
@@ -33,10 +33,10 @@ Esta característica introduce la capacidad de ejecutar el botón **Completo** e
 
 ## <a name="turn-on-the-cluster-position-full-feature"></a>Activar la característica Posición completa del clúster
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones** , la función aparece de la siguiente forma:
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
-- **Nombre de la característica** : *Posición completa del clúster*
+- **Nombre de la característica**: *Posición completa del clúster*
 
 ## <a name="setup"></a>Configurar
 
@@ -54,14 +54,14 @@ Debe especificar si los identificadores de clúster se generan automáticamente,
 
 1. Vaya a **Administración de almacenes \> Configuración \> Dispositivo móvil \> Perfiles de clúster**.
 1. En el panel de lista, seleccione el registro **Crear clúster**.
-1. En la ficha desplegable **General** , compruebe los valores siguientes:
+1. En la ficha desplegable **General**, compruebe los valores siguientes:
 
-    - **Generar Id. de clúster** : seleccione *Sí*.
-    - **Activar posiciones** : *Sí*
-    - **Número de posiciones** : *2*
-    - **Nombre de la posición** : *Numérico*
-    - **Dividir clúster en** : *Colocar*
-    - **Tipo de comprobación del orden** : *Escaneo de posición*
+    - **Generar Id. de clúster**: seleccione *Sí*.
+    - **Activar posiciones**: *Sí*
+    - **Número de posiciones**: *2*
+    - **Nombre de la posición**: *Numérico*
+    - **Dividir clúster en**: *Colocar*
+    - **Tipo de comprobación del orden**: *Escaneo de posición*
 
 1. En la ficha desplegable **Clasificación de clústeres**. La cuadrícula debe estar en blanco (es decir, no debe contener líneas).
 
@@ -94,26 +94,26 @@ Debe configurar un elemento de menú del dispositivo móvil para usar el trabajo
 1. Vaya a **Administración de almacenes \> Configurar \> Dispositivo móvil \> Elementos de menú del dispositivo móvil**.
 1. En el panel de lista, seleccione el registro **Crear picking en clúster**.
 1. Seleccione **Editar** en el Panel de acciones.
-1. En la ficha desplegable **General** , establezca los valores siguientes:
+1. En la ficha desplegable **General**, establezca los valores siguientes:
 
-    - **Dirigido por** : *Picking de clústeres*
+    - **Dirigido por**: *Picking de clústeres*
     - **Generar matrícula de entidad de almacén:** *Sí*
-    - **Permitir división del trabajo** : *Sí*
-    - **Id. de perfil de clúster** : *Crear clúster*
+    - **Permitir división del trabajo**: *Sí*
+    - **Id. de perfil de clúster**: *Crear clúster*
 
     Acepte los valores predeterminados para el resto de campos.
 
-1. En la ficha desplegable **Clases de trabajo** , agregue las siguientes dos líneas, según sea necesario:
+1. En la ficha desplegable **Clases de trabajo**, agregue las siguientes dos líneas, según sea necesario:
 
     - Línea 1 (generalmente presente en los datos de demostración):
 
-        - **Id. de la clase de trabajo** : *Ventas* 
-        - **Tipo de orden de trabajo** : *Pedidos de venta*
+        - **Id. de la clase de trabajo**: *Ventas* 
+        - **Tipo de orden de trabajo**: *Pedidos de venta*
 
     - Línea 2 (probablemente no está presente en los datos de demostración):
 
-        - **Identificador de la clase de trabajo** : *SO picking*
-        - **Tipo de orden de trabajo** : *Pedidos de venta*
+        - **Identificador de la clase de trabajo**: *SO picking*
+        - **Tipo de orden de trabajo**: *Pedidos de venta*
 
 1. Vaya a **Configuración de confirmación de trabajo** en el Panel de acciones.
 1. Seleccione **Editar**.
@@ -125,38 +125,38 @@ Debe configurar un elemento de menú del dispositivo móvil para usar el trabajo
 
 ## <a name="create-picking-work"></a>Crear trabajo de selección
 
-Antes de que pueda iniciar el picking en clúster, debe crear algún trabajo de salida. El perfil de clúster que creó anteriormente especifica dos posiciones de clúster. Por lo tanto, se deben crear al menos dos identificadores de trabajo para el picking de pedidos de venta. Para este escenario, las transacciones ocurrirán en el almacén *61* , y usarán los elementos *L0101* y *T0100*. Los datos de demostración deben tener suficiente inventario disponible de estos artículos. Asegúrese de tener suficiente inventario para completar las transacciones.
+Antes de que pueda iniciar el picking en clúster, debe crear algún trabajo de salida. El perfil de clúster que creó anteriormente especifica dos posiciones de clúster. Por lo tanto, se deben crear al menos dos identificadores de trabajo para el picking de pedidos de venta. Para este escenario, las transacciones ocurrirán en el almacén *61*, y usarán los elementos *L0101* y *T0100*. Los datos de demostración deben tener suficiente inventario disponible de estos artículos. Asegúrese de tener suficiente inventario para completar las transacciones.
 
 ### <a name="create-sales-order-1"></a>Crear pedido de ventas 1
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. Seleccione **Nuevo** para crear un pedido de ventas 1.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
     - **Cuenta de cliente:** *US-010*
-    - **Almacén** : *61*
+    - **Almacén**: *61*
 
 1. Seleccione **Aceptar**.
-1. Se abre el nuevo pedido de ventas. En la ficha desplegable **Líneas de pedido de venta** , agregue una línea que tenga los siguientes valores:
+1. Se abre el nuevo pedido de ventas. En la ficha desplegable **Líneas de pedido de venta**, agregue una línea que tenga los siguientes valores:
 
     - **Código de artículo:** *T0100*
     - **Cantidad:** *5*
 
-1. En la ficha desplegable **Detalles de línea** , en la pestaña **Entrega** , establezca el campo **Fecha de entrega confirmada** en la fecha de hoy.
-1. En la ficha desplegable **Líneas de pedido de venta** , agregue una segunda línea que tenga los siguientes valores:
+1. En la ficha desplegable **Detalles de línea**, en la pestaña **Entrega**, establezca el campo **Fecha de entrega confirmada** en la fecha de hoy.
+1. En la ficha desplegable **Líneas de pedido de venta**, agregue una segunda línea que tenga los siguientes valores:
 
     - **Código de artículo:** *L0101*
     - **Cantidad:** *20*
 
-1. En la ficha desplegable **Detalles de línea** , en la pestaña **Entrega** , establezca el campo **Fecha de entrega confirmada** en la fecha de hoy.
+1. En la ficha desplegable **Detalles de línea**, en la pestaña **Entrega**, establezca el campo **Fecha de entrega confirmada** en la fecha de hoy.
 1. Para cada línea que acaba de agregar, siga estos pasos para reservar el inventario:
 
     1. Seleccione la línea que desea reservar.
-    2. En la ficha desplegable **Líneas de pedido de ventas** , en el menú **Inventario \> Reserva**.
-    3. En la página **Reserva** , en el Panel de acciones, seleccione **Reservar lote** para reservar inventario.
+    2. En la ficha desplegable **Líneas de pedido de ventas**, en el menú **Inventario \> Reserva**.
+    3. En la página **Reserva**, en el Panel de acciones, seleccione **Reservar lote** para reservar inventario.
     4. Cierre la página **Reserva**.
 
-1. En el panel de acciones, en la pestaña **Almacén** , seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén**, seleccione **Liberar al almacén**.
 
     Cuando se complete la emisión, recibirá mensajes informativos que muestran la oleada y los identificadores de carga que se crearon.
 
@@ -164,32 +164,32 @@ Antes de que pueda iniciar el picking en clúster, debe crear algún trabajo de 
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. Seleccione **Nuevo** para crear un pedido de ventas 2.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
     - **Cuenta de cliente:** *US-011*
-    - **Almacén** : *61*
+    - **Almacén**: *61*
 
 1. Seleccione **Aceptar**.
-1. Se abre el nuevo pedido de ventas. En la ficha desplegable **Líneas de pedido de venta** , agregue una línea que tenga los siguientes valores:
+1. Se abre el nuevo pedido de ventas. En la ficha desplegable **Líneas de pedido de venta**, agregue una línea que tenga los siguientes valores:
 
     - **Código de artículo:** *L0101*
     - **Cantidad:** *20*
 
-1. En la ficha desplegable **Detalles de línea** , en la pestaña **Entrega** , establezca el campo **Fecha de entrega confirmada** en la fecha de hoy.
-1. En la ficha desplegable **Líneas de pedido de venta** , agregue una segunda línea que tenga los siguientes valores:
+1. En la ficha desplegable **Detalles de línea**, en la pestaña **Entrega**, establezca el campo **Fecha de entrega confirmada** en la fecha de hoy.
+1. En la ficha desplegable **Líneas de pedido de venta**, agregue una segunda línea que tenga los siguientes valores:
 
     - **Código de artículo:** *T0100*
     - **Cantidad:** *2*
 
-1. En la ficha desplegable **Detalles de línea** , en la pestaña **Entrega** , establezca el campo **Fecha de entrega confirmada** en la fecha de hoy.
+1. En la ficha desplegable **Detalles de línea**, en la pestaña **Entrega**, establezca el campo **Fecha de entrega confirmada** en la fecha de hoy.
 1. Para cada línea que acaba de agregar, siga estos pasos para reservar el inventario:
 
     1. Seleccione la línea que desea reservar.
-    2. En la ficha desplegable **Líneas de pedido de ventas** , en el menú **Inventario \> Reserva**.
-    3. En la página **Reserva** , en el Panel de acciones, seleccione **Reservar lote** para reservar inventario.
+    2. En la ficha desplegable **Líneas de pedido de ventas**, en el menú **Inventario \> Reserva**.
+    3. En la página **Reserva**, en el Panel de acciones, seleccione **Reservar lote** para reservar inventario.
     4. Cierre la página **Reserva**.
 
-1. En el panel de acciones, en la pestaña **Almacén** , seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén**, seleccione **Liberar al almacén**.
 
     Cuando se complete la emisión, recibirá mensajes informativos que muestran la oleada y los identificadores de carga que se crearon.
 
@@ -198,12 +198,12 @@ Antes de que pueda iniciar el picking en clúster, debe crear algún trabajo de 
 Se deberían haber creado dos identificadores de trabajo, cada uno de los cuales tiene dos líneas de picking. Siga estos pasos para encontrar los identificadores de trabajo y las asignaciones de matrículas de entidad de almacén.
 
 1. Vaya a **Gestión de almacenes \> Trabajo \> Detalles de trabajo**.
-1. En la cuadrícula **Información general** , busque la columna **Número de pedido** para los dos pedidos de venta que acaba de crear. Para cada pedido de venta, anote el identificador de trabajo correspondiente.
+1. En la cuadrícula **Información general**, busque la columna **Número de pedido** para los dos pedidos de venta que acaba de crear. Para cada pedido de venta, anote el identificador de trabajo correspondiente.
 1. Seleccione la fila de cada pedido de ventas para mostrar información relacionada en la cuadrícula **Líneas**. Tome nota de la ubicación desde la que se recogerá cada artículo.
 1. Vaya a **Gestión de inventario \> Consultas e informes \> Inventario disponible**.
 1. En el panel de acciones, seleccione **Dimensiones** para abrir el cuadro de diálogo **Mostrar dimensión**.
-1. Asegúrese de que las casillas de verificación **Matrícula de entidad de almacén** , **Almacén** y **Número de artículo** están seleccionadas y luego seleccione **Aceptar**.
-1. En el panel **Filtrar** , configure los siguientes filtros:
+1. Asegúrese de que las casillas de verificación **Matrícula de entidad de almacén**, **Almacén** y **Número de artículo** están seleccionadas y luego seleccione **Aceptar**.
+1. En el panel **Filtrar**, configure los siguientes filtros:
 
     - **Número de artículo** - **es uno de** - *L0101* y *T100*
     - **Almacén** - **empieza con** - *61*
@@ -237,10 +237,10 @@ En cualquier momento durante los siguientes pasos, puede seleccionar la pestaña
 
     La página **TAREA: Ordenar: Creación de picking en clúster** aparece. Aquí, clasificará los dos palets recogidos en una posición de recogida. Esta posición puede ser una bolsa o un contenedor que se utiliza para separar el inventario recogido por pedido de venta.
 
-1. Vea los detalles que se muestran para el artículo ( *L0101* ) y la cantidad ( *20* por unidad) que se clasificará en la posición 1 (para el pedido de cliente 1).
+1. Vea los detalles que se muestran para el artículo (*L0101*) y la cantidad (*20* por unidad) que se clasificará en la posición 1 (para el pedido de cliente 1).
 1. Establezca el campo **POSICIÓN NA** en *1*.
 1. Seleccione **Aceptar** (símbolo de marca de verificación).
-1. Vea los detalles que se muestran para el artículo ( *L0101* ) y la cantidad ( *20* por unidad) que se clasificará en la posición 2 (para el pedido de cliente 2).
+1. Vea los detalles que se muestran para el artículo (*L0101*) y la cantidad (*20* por unidad) que se clasificará en la posición 2 (para el pedido de cliente 2).
 1. Establezca el campo **POSICIÓN NA** en *2*.
 1. Seleccione **Aceptar** (símbolo de marca de verificación).
 
@@ -259,10 +259,10 @@ En este escenario, la posición 1 no puede aceptar la cantidad total de artícul
 1. Seleccione **Aceptar** (símbolo de marca de verificación).
 1. Especifique la matrícula de entidad de almacén de la cual se está recogiendo el artículo configurando el campo **LP** en *LPREPL04*.
 1. Seleccione **Aceptar** (símbolo de marca de verificación).
-1. Vea los detalles que se muestran para el artículo ( *T0100* ) y la cantidad ( *2* por unidad) que se clasificará en la posición 2 (para el pedido de cliente 2).
+1. Vea los detalles que se muestran para el artículo (*T0100*) y la cantidad (*2* por unidad) que se clasificará en la posición 2 (para el pedido de cliente 2).
 1. Establezca el campo **POSICIÓN NA** en *2*.
 1. Seleccione **Aceptar** (símbolo de marca de verificación).
-1. Vea los detalles que se muestran para el artículo ( *T0100* ) y la cantidad ( *2* por unidad) que se clasificará en la posición 1 (para el pedido de cliente 1).
+1. Vea los detalles que se muestran para el artículo (*T0100*) y la cantidad (*2* por unidad) que se clasificará en la posición 1 (para el pedido de cliente 1).
 1. Establezca el campo **POSICIÓN NA** en *1*.
 1. Seleccione **Aceptar** (símbolo de marca de verificación).
 

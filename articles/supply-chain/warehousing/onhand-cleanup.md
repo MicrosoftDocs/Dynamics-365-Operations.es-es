@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015950"
+ms.locfileid: "4437238"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabajo de limpieza de entradas disponibles de gestión de almacén
 
@@ -39,8 +39,8 @@ Si se permite el inventario físico negativo, es posible que el trabajo de limpi
 
 El trabajo de limpieza de entradas disponibles está disponible en **Gestión de inventario \> Tareas periódicas \> Limpiar \> Limpieza de entradas disponibles de gestión de almacén**. Use la configuración de trabajo estándar para controlar el alcance y la programación de la ejecución del trabajo. Además, se proporcionan las siguientes opciones:
 
-- **Eliminar si no se actualiza durante un cierto número des días** : introduzca el número mínimo de días que el trabajo debe esperar antes de eliminar una entrada disponible que cuya cantidad ha bajado a cero. Use esta configuración para ayudar a reducir el riesgo de eliminar entradas disponibles que todavía se están utilizando. Si desea que se realice la limpieza lo antes posible, introduzca *0* (cero) o deje el campo en blanco.
-- **Tiempo máximo de ejecución (horas)** : introduzca el tiempo máximo de ejecución del trabajo de limpieza, en horas. Si el trabajo no se completa antes de que pase este tiempo, guardará el trabajo completado hasta entonces y luego se cerrará. Esta capacidad es especialmente relevante para implementaciones que tengan elevado uso de inventario. En estos casos, debe programar la ejecución del trabajo en momentos en que la carga del sistema sea lo más ligera posible. Si desea que el trabajo por lotes continúe ejecutándose hasta que se complete, introduzca *0* (cero) o deje el campo en blanco. Esta opción solo está disponible si la característica relacionada se ha [activado en el sistema](#max-execution-time).
+- **Eliminar si no se actualiza durante un cierto número des días**: introduzca el número mínimo de días que el trabajo debe esperar antes de eliminar una entrada disponible que cuya cantidad ha bajado a cero. Use esta configuración para ayudar a reducir el riesgo de eliminar entradas disponibles que todavía se están utilizando. Si desea que se realice la limpieza lo antes posible, introduzca *0* (cero) o deje el campo en blanco.
+- **Tiempo máximo de ejecución (horas)**: introduzca el tiempo máximo de ejecución del trabajo de limpieza, en horas. Si el trabajo no se completa antes de que pase este tiempo, guardará el trabajo completado hasta entonces y luego se cerrará. Esta capacidad es especialmente relevante para implementaciones que tengan elevado uso de inventario. En estos casos, debe programar la ejecución del trabajo en momentos en que la carga del sistema sea lo más ligera posible. Si desea que el trabajo por lotes continúe ejecutándose hasta que se complete, introduzca *0* (cero) o deje el campo en blanco. Esta opción solo está disponible si la característica relacionada se ha [activado en el sistema](#max-execution-time).
 
 Aunque puede ejecutar el trabajo durante el horario comercial habitual, le recomendamos que lo haga fuera del horario laboral. De esta forma, ayuda a evitar conflictos que pueden ocurrir si un usuario está trabajando con un registro que también se está limpiando.
 
@@ -54,7 +54,7 @@ Los usuarios pueden verse afectados si el trabajo de limpieza de entradas dispon
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Hacer que la opción de Tiempo de ejecución máximo esté disponible
 
-De forma predeterminada, la opción de **Tiempo de ejecución máximo** no está disponible. Si quieres usarla, deberá usar [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica relacionada en su sistema. En el espacio de trabajo **Administración de características** , la característica aparece de la siguiente forma:
+De forma predeterminada, la opción de **Tiempo de ejecución máximo** no está disponible. Si quieres usarla, deberá usar [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica relacionada en su sistema. En el espacio de trabajo **Administración de características**, la característica aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Tiempo de ejecución máximo para el trabajo de limpieza de entradas disponibles de gestión de almacén*

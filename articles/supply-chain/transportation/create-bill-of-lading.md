@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bd014f5804681936920b47e999709f153def11bc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016687"
+ms.locfileid: "4437272"
 ---
 # <a name="create-a-bill-of-lading"></a>Crear un conocimiento de embarque
 
@@ -36,10 +36,10 @@ Un conocimiento de embarque es un documento legal entre la empresa que envía lo
   -   Cree el informe manualmente, mediante la página **Conocimiento de embarque**.
   -   Genere el informe desde el **Área de trabajo de planificación de la carga**.
 
-Si genera el conocimiento de embarque desde el **Área de trabajo de planificación de la carga** , el estado de carga debe ser **Enviados**. Si hay más de un envío en la carga, se crea un conocimiento de embarque para cada envío. Una vez que se ha creado un conocimiento de embarque, puede realizar cambios en él en la página **Conocimiento de embarque**.
+Si genera el conocimiento de embarque desde el **Área de trabajo de planificación de la carga**, el estado de carga debe ser **Enviados**. Si hay más de un envío en la carga, se crea un conocimiento de embarque para cada envío. Una vez que se ha creado un conocimiento de embarque, puede realizar cambios en él en la página **Conocimiento de embarque**.
 
 ## <a name="master-bill-of-lading"></a>Conocimiento de embarque maestro
-Si hay más de un envío en la carga, puede generar un conocimiento de embarque maestro. Esto tiene el mismo diseño e información que un conocimiento de embarque, pero contiene el contenido resumido para todos los envíos. Si la opción **Crear un conocimiento de embarque maestro cuando exista más de un envío en una carga** se establece en **Sí** en la página **Parámetros de administración de transporte** , se genera automáticamente un conocimiento de embarque maestro si crea un conocimiento de embarque en **Área de trabajo de planificación de la carga** y hay más de un envío. También puede obtener una lista de los conocimientos de embarque haciendo clic en **Información relacionada** &gt; **Conocimiento de embarque**. Si está creando conocimientos de embarque manualmente, puede crear un conocimiento de embarque maestro en la página **Conocimiento de embarque**.
+Si hay más de un envío en la carga, puede generar un conocimiento de embarque maestro. Esto tiene el mismo diseño e información que un conocimiento de embarque, pero contiene el contenido resumido para todos los envíos. Si la opción **Crear un conocimiento de embarque maestro cuando exista más de un envío en una carga** se establece en **Sí** en la página **Parámetros de administración de transporte**, se genera automáticamente un conocimiento de embarque maestro si crea un conocimiento de embarque en **Área de trabajo de planificación de la carga** y hay más de un envío. También puede obtener una lista de los conocimientos de embarque haciendo clic en **Información relacionada** &gt; **Conocimiento de embarque**. Si está creando conocimientos de embarque manualmente, puede crear un conocimiento de embarque maestro en la página **Conocimiento de embarque**.
 
 
 

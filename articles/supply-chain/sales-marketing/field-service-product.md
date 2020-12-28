@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: d96d1cd91bad4f950868074d9558cb403821d73f
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546371"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437015"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Sincronizar productos de Supply Chain Management con productos de Field Service
 
@@ -62,8 +62,8 @@ service       :  690970002
 
 En Supply Chain Management, el valor **Tipo de producto de Field Service** en la entidad de los datos **Productos emitidos vendibles** se calcula del modo siguiente:
 
-- El tipo de producto**Inventario:** = Grupo modelo de productos y artículos, producto que se mantiene en existencias = verdadero
-- El tipo de producto**NonInventory:** = Grupo modelo de productos y artículos, producto que se mantiene en existencias = falso
+- El tipo de producto **Inventario:** = Grupo modelo de productos y artículos, producto que se mantiene en existencias = verdadero
+- El tipo de producto **NonInventory:** = Grupo modelo de productos y artículos, producto que se mantiene en existencias = falso
 - Tipo de producto **Servicio** = Servicio
 
 ## <a name="template-mapping-in-data-integration"></a>Asignación de la plantilla en la integración de datos

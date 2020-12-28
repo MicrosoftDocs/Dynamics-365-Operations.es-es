@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018638"
+ms.locfileid: "4437278"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Solución de problemas de recepción y facturación de productos
 
@@ -38,7 +38,7 @@ Es obligatorio especificar una cantidad si desea contabilizar facturas. Por lo t
 
 Este problema se puede producir debido a incoherencias en las distribuciones de pedidos de compra.
 
-Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador* , vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear este problema y restablecer el pedido de compra al estado *Borrador*, vaya a **Adquisiciones y abastecimiento \> Tareas periódicas \> Limpiar \> Restablecimiento de distribución de pedido de compra**. Para obtener más información, consulte la siguiente publicación de blog: [Resolver errores de distribución de pedidos de compra en Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="i-cant-consolidate-multiple-product-receipts-into-a-single-purchase-order"></a>No puedo consolidar varias recepciones de productos en un solo pedido de compra.
 
@@ -58,7 +58,7 @@ Si se cancela la recepción de un producto, el sistema permite que las transacci
 
 El siguiente procedimiento muestra una manera de reproducir el problema.
 
-1. En la página **Parámetros de proveedores** , en la pestaña **General** , asegúrese de que la opción **Registrar recepción de producto en el libro mayor** está establecida en *Sí*.
+1. En la página **Parámetros de proveedores**, en la pestaña **General**, asegúrese de que la opción **Registrar recepción de producto en el libro mayor** está establecida en *Sí*.
 1. Cree un pedido de compra y agregue una línea de pedido que tenga como cantidad *1000* para un producto.
 1. Confirme el pedido de compra.
 1. Registre la recepción del producto y compruebe los asientos.
@@ -74,7 +74,7 @@ Las transacciones se pueden contabilizar en las cuentas de libro mayor suspendid
 
 Si la opción **Acumular pasivo en la recepción del producto** está establecida en *No* para el grupo de modelos de artículo, no se producirán contabilizaciones en el libro mayor. Sin embargo, se registrará un evento físico con el propósito de contabilizarlo en un libro mayor auxiliar y ese evento requiere un número de asiento. Este número de asiento es el número al que se hace referencia en las transacciones de inventario.
 
-Le recomendamos que establezca la opción **Acumular pasivo en la recepción del producto** en *Sí* , como se describe en la siguiente publicación del blog: [Contabilizar cargos varios en la recepción del producto](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
+Le recomendamos que establezca la opción **Acumular pasivo en la recepción del producto** en *Sí*, como se describe en la siguiente publicación del blog: [Contabilizar cargos varios en la recepción del producto](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
 
 ## <a name="the-post-to-charge-account-in-ledger-setting-isnt-turned-on"></a>La opción Registrar en la cuenta de gastos del libro mayor no está activada.
 
@@ -87,23 +87,23 @@ Este problema se produce cuando se factura un pedido de compra, si la opción **
 El siguiente procedimiento muestra una manera de reproducir el problema.
 
 1. Vaya a **Proveedores \> Configuración \> Parámetros de proveedores**.
-1. En la pestaña **Factura** , establezca la opción **Registrar en la cuenta de gastos del libro mayor** en *Sí*.
+1. En la pestaña **Factura**, establezca la opción **Registrar en la cuenta de gastos del libro mayor** en *Sí*.
 1. Vaya a **Gestión de inventarios \> Preparar \> Registro \> Registro**.
-1. En la pestaña **Pedido de compra** , asegúrese de haber eliminado todas las líneas del gasto de compra del producto.
+1. En la pestaña **Pedido de compra**, asegúrese de haber eliminado todas las líneas del gasto de compra del producto.
 1. Vaya a **Proveedores \> Pedidos de compra \> Todos los pedidos de compra**.
-1. Cree un pedido de compra. En el campo **Cuenta del proveedor** , seleccione *1001 Suministros de oficina Acme*.
+1. Cree un pedido de compra. En el campo **Cuenta del proveedor**, seleccione *1001 Suministros de oficina Acme*.
 1. Agregue una línea de pedido con la siguiente configuración:
 
     - **Número de artículo:** *Proyector láser D0011*
-    - **Sitio** : *1*
-    - **Almacén** : *11*
+    - **Sitio**: *1*
+    - **Almacén**: *11*
     - **Cantidad:** *4*
 
-1. En el panel de acciones, en la ficha **Compra** , en el grupo **Acción** , seleccione **Confirmar**.
-1. En el panel Acciones, en la pestaña **Recepción** del grupo **Generar** , seleccione **Recepción de producto**.
-1. En el cuadro de diálogo **Registro de recepción de productos** , en el campo **Recepción de producto** , escriba un número arbitrario y seleccione **Aceptar**.
-1. En el panel de acciones, en la ficha **Factura** , en el grupo **Generar** , seleccione **Factura**.
-1. En el campo **Número** , escriba un número arbitrario como número de factura.
+1. En el panel de acciones, en la ficha **Compra**, en el grupo **Acción**, seleccione **Confirmar**.
+1. En el panel Acciones, en la pestaña **Recepción** del grupo **Generar**, seleccione **Recepción de producto**.
+1. En el cuadro de diálogo **Registro de recepción de productos**, en el campo **Recepción de producto**, escriba un número arbitrario y seleccione **Aceptar**.
+1. En el panel de acciones, en la ficha **Factura**, en el grupo **Generar**, seleccione **Factura**.
+1. En el campo **Número**, escriba un número arbitrario como número de factura.
 1. Actualice el estado de conciliación y registre.
 1. Observe que ahora aparece el siguiente error al generar una factura de un pedido de compra: "Número de cuenta para el tipo de transacción: No existe el gasto de compra del producto".
 

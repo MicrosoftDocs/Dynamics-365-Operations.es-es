@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018845"
+ms.locfileid: "4437171"
 ---
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
@@ -44,18 +44,18 @@ Para evitar que se utilice y confirme su acuerdo de compra, marque el estado del
 Puede identificar un trabajador responsable principal y un trabajador responsable secundario en la clasificación del acuerdo de compra. El acuerdo de compra resultante heredará estos valores. No es necesario agregar trabajadores responsables al acuerdo de compra, y se pueden modificar directamente en el acuerdo de compra según el caso. No puede especificar un trabajador responsable secundario sin un trabajador responsable principal, y no es necesario especificar un trabajador responsable secundario. No puede especificar un mismo trabajador como trabajador responsable principal y secundario.
 
 > [!IMPORTANT]
-> Antes de poder usar la característica de parte responsable debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones** , la función aparece de la siguiente forma:
+> Antes de poder usar la característica de parte responsable debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 > 
-> - **Módulo** : *Adquisición y abastecimiento*
-> - **Nombre de la característica** : *Parte responsable del acuerdo de compra*
+> - **Módulo**: *Adquisición y abastecimiento*
+> - **Nombre de la característica**: *Parte responsable del acuerdo de compra*
 
 ## <a name="commitment-types"></a>Tipos de compromiso
 Cada línea de un acuerdo de compra es un compromiso a comprar algo. Puede usar líneas de varios pedidos de compra para satisfacer el compromiso. Hay cuatro tipos de compromisos:
 
--   **Compromiso de cantidad de producto** : se compra una cantidad específica de un producto.
--   **Compromiso de valor de producto** : se compra un importe en una divisa específica de un producto.
--   **Compromiso de valor de la categoría de producto** : se compra un importe en una divisa específica en una categoría de compra. El importe puede ser para un artículo de catálogo o un artículo fuera del catálogo.
--   **Compromiso de valor** : se compra un importe en una divisa específica de cualquier producto o productos dentro de cualquier categoría de compras.
+-   **Compromiso de cantidad de producto**: se compra una cantidad específica de un producto.
+-   **Compromiso de valor de producto**: se compra un importe en una divisa específica de un producto.
+-   **Compromiso de valor de la categoría de producto**: se compra un importe en una divisa específica en una categoría de compra. El importe puede ser para un artículo de catálogo o un artículo fuera del catálogo.
+-   **Compromiso de valor**: se compra un importe en una divisa específica de cualquier producto o productos dentro de cualquier categoría de compras.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Condiciones de precios para acuerdos de compra
 Las condiciones de precios pueden variar, en función del tipo de compromiso. Las condiciones de precios de los acuerdos de compra anulan cualquier otro término de precio configurado para los contratos comerciales. La siguiente tabla describe los campos relacionados al precio afectados por cada tipo de compromiso. Los campos que contengan **Sí** se pueden actualizar en una línea de pedido.
@@ -70,9 +70,9 @@ Las condiciones de precios pueden variar, en función del tipo de compromiso. La
 ## <a name="policies-for-purchase-agreements"></a>Directivas de acuerdos de compra
 Las siguientes directivas afectan a cómo funciona el vínculo entre un compromiso de acuerdo de compra y las líneas de pedido de compra correspondiente:
 
--   **Máximo aplicado** : el importe o la cantidad total de todas las líneas de pedido no puede superar la cantidad o el importe que se especifica en el compromiso relacionado.
--   **El precio y el descuento es fijo** : el precio en una línea de pedido y el precio del compromiso relacionado deben ser iguales. Si el precio se cambia en la línea de pedido, el vínculo al compromiso se rompe. Si el vínculo se ha roto, la línea de pedido no contribuye al cumplimiento del compromiso.
--   **Importe mínimo liberado e Importe máximo liberado** : si se especifica un importe, recibirá un mensaje si realiza algún cambio a una línea de pedido que produce que la línea de pedido sea diferente del compromiso relacionado.
+-   **Máximo aplicado**: el importe o la cantidad total de todas las líneas de pedido no puede superar la cantidad o el importe que se especifica en el compromiso relacionado.
+-   **El precio y el descuento es fijo**: el precio en una línea de pedido y el precio del compromiso relacionado deben ser iguales. Si el precio se cambia en la línea de pedido, el vínculo al compromiso se rompe. Si el vínculo se ha roto, la línea de pedido no contribuye al cumplimiento del compromiso.
+-   **Importe mínimo liberado e Importe máximo liberado**: si se especifica un importe, recibirá un mensaje si realiza algún cambio a una línea de pedido que produce que la línea de pedido sea diferente del compromiso relacionado.
 
 ## <a name="fulfillment-calculations-for-purchase-agreements"></a>Cálculos de cumplimientos para los acuerdos de compra
 Las cantidades e importes de cumplimiento se muestran en la ficha **Suministro** de la ficha desplegable **Detalles de línea** de la página **Acuerdos de compra**.  
@@ -93,7 +93,7 @@ Puede seleccionar un acuerdo de compra solo si está creando un pedido de compra
 En algunos casos en los que los pedidos de compra se crean indirectamente, se puede controlar si Supply Chain Management buscará automáticamente acuerdos de compra aplicables. Por ejemplo, puede hacerlo cuando se consoliden automáticamente pedidos de compra planificados en firme o cuando se creen pedidos de compra que se basan en pedidos de ventas.
 
 ## <a name="matching-policy-on-purchase-agreements"></a>Directiva de conciliación sobre acuerdos de compra
-Puede definir una directiva de conciliación de línea en el encabezado del acuerdo de compra. Esta directiva de conciliación de línea respetará la directiva de conciliación de línea de los parámetros de proveedores cuando el campo **Permitir anulación de directiva de conciliación** de la página **Parámetros de proveedores** (en la ficha desplegable **Coincidencia de precio y cantidad** ) se establece en **Superior a la directiva de la empresa**. Los documentos que hagan referencia al acuerdo de compra utilizarán la directiva de conciliación de línea que se define en el encabezado del acuerdo de compra a menos que se haya definido lo contrario en el elemento correspondiente, artículo y proveedor, o directiva de compras de la categoría.
+Puede definir una directiva de conciliación de línea en el encabezado del acuerdo de compra. Esta directiva de conciliación de línea respetará la directiva de conciliación de línea de los parámetros de proveedores cuando el campo **Permitir anulación de directiva de conciliación** de la página **Parámetros de proveedores** (en la ficha desplegable **Coincidencia de precio y cantidad**) se establece en **Superior a la directiva de la empresa**. Los documentos que hagan referencia al acuerdo de compra utilizarán la directiva de conciliación de línea que se define en el encabezado del acuerdo de compra a menos que se haya definido lo contrario en el elemento correspondiente, artículo y proveedor, o directiva de compras de la categoría.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Acuerdos de compra y transacciones comerciales entre empresas vinculadas
 Las relaciones comerciales entre empresas vinculadas se pueden crear entre cuentas de proveedor y cuentas de cliente que se encuentran en distintas entidades jurídicas. Cuando un pedido de ventas o un pedido de compra se crea para una de las partes, se crea una cadena de pedidos de empresas vinculadas. En la cadena de pedido, el pedido de ventas y el pedido de compra se crea en las entidades jurídicas adecuadas.  

@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016848"
+ms.locfileid: "4437201"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Tránsito directo desde pedidos de producción a muelles de salida
 
@@ -36,7 +36,7 @@ Este tema describe cómo se administra el proceso de material de tránsito direc
 
 El tránsito directo desde la producción a una ubicación de salida es relevante para los fabricantes que generan grandes cantidades y desean enviar en el menor de los casos los productos terminados en cuanto se notifica que están terminados desde las líneas de producción. El objetivo es enviar los productos a los centros de distribución que se ubican físicamente cerca de la demanda de los clientes, en lugar de generar un inventario en el sitio de fabricación.
 
-En caso de que no haya demanda inmediata para un producto, debe apartarse en las ubicaciones de almacén en el sitio de fabricación. Este proceso también se conoce como *tránsito directo oportunista* , que indica que si existe una demanda para enviar el producto, esta oportunidad debe ser utilizada en lugar de apartar el producto para el almacenamiento interno.
+En caso de que no haya demanda inmediata para un producto, debe apartarse en las ubicaciones de almacén en el sitio de fabricación. Este proceso también se conoce como *tránsito directo oportunista*, que indica que si existe una demanda para enviar el producto, esta oportunidad debe ser utilizada en lugar de apartar el producto para el almacenamiento interno.
 
 El siguiente ejemplo muestra tres variaciones de un flujo que empieza al final de la línea de producción (2).
 
@@ -71,7 +71,7 @@ Actualmente, el tránsito directo se puede configurar para solo dos tipos de ped
 -   Ubicación de bienes terminados
 -   Ubicación de coproducto y producto derivado
 
-En la **directiva de tránsito directa** , define qué tipos de documentos son de aplicación para el tránsito directo. Actualmente, el único tipo de documento que se admite es **Pedidos de transferencia**. El ejemplo siguiente se muestra la configuración de una directiva de tránsito directo.
+En la **directiva de tránsito directa**, define qué tipos de documentos son de aplicación para el tránsito directo. Actualmente, el único tipo de documento que se admite es **Pedidos de transferencia**. El ejemplo siguiente se muestra la configuración de una directiva de tránsito directo.
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Nombre de la directiva de tránsito directo: Pedido de transferencia
 
@@ -102,7 +102,7 @@ Después de que un producto se notifica como terminado en la línea de producci�
 4.  Configure las cargas para que se creen automáticamente para los pedidos de transferencia. En los parámetros de almacén, configure cargas para que se puedan crear automáticamente al cuando se creen pedidos de transferencia. Una carga es un requisito previo para crear el pedido de transferencia apto para el tránsito directo.
 5.  Configure la asignación de carga de artículos. Vaya a la página **Asignación de carga de artículos** y configure una plantilla estándar de carga para el grupo de artículos **CarAudio**. Esta asignación insertará automáticamente la plantilla de carga en la carga cuando se crea el pedido de transferencia.
 6.  Cree un pedido de transferencia. Cree el pedido de transferencia para el número de artículo L0101. Cantidad = 20.
-7.  Libere el pedido de transferencia bancaria de área de trabajo de planificación de la carga. En la pestaña **Envío** , seleccione el elemento de menú para el área de trabajo de planificación de la carga y en el menú **Liberar** de la línea de carga, seleccione **Liberar a almacén**. Ahora existe una línea de oleada abierta de tipo **Emisión de transferencia** para el pedido de transferencia.
+7.  Libere el pedido de transferencia bancaria de área de trabajo de planificación de la carga. En la pestaña **Envío**, seleccione el elemento de menú para el área de trabajo de planificación de la carga y en el menú **Liberar** de la línea de carga, seleccione **Liberar a almacén**. Ahora existe una línea de oleada abierta de tipo **Emisión de transferencia** para el pedido de transferencia.
 8.  Cree un pedido de producción. Vaya a la página de lista **Pedido de producción** y cree un pedido de producción para el producto L0101. Cantidad = 20. Estime e inicie el pedido de producción. Tenga en cuenta que el campo **Registrar ahora la lista de selección** sigue en **No**.
 9.  Notifique como terminado desde el dispositivo móvil. Vaya al portar del dispositivo móvil y seleccione el elemento de menú **Notificar como terminado y poner en ubicación**. Notifique ahora como terminado L0101 desde el dispositivo de mano. Cantidad = 10. Tenga en cuenta que la ubicación de colocación es **BAYDOOR**. Esta ubicación se encuentra de la directiva de ubicación **Emisión de transferencia** para el tipo de pedido de trabajo **Colocar** . Tenga también en cuenta que el trabajo del tipo **Emisión de transferencia** se ha creado y completado. Vaya a los detalles de trabajo del pedido de transferencia para comprobar el trabajo.
 10. Ahora informe de las 10 piezas adicionales del dispositivo móvil. Tenga en cuenta que de nuevo la ubicación de colocación es **BAYDOOR**. Tenga también en cuenta que se ha creado un nuevo tipo de trabajo **Emisión de transferencia** para las 10 piezas.
@@ -117,7 +117,7 @@ Después de que un producto se notifica como terminado en la línea de producci�
 3.  Abra el **Área de trabajo de planificación de la carga**.
 4.  Desde el área de trabajo de la planificación de la carga, vaya a la sección **Cargas** y seleccione **Programación de presupuesto** en el menú **Transporte** para crear una nueva programación de citas. Tenga en cuenta que la programación de citas tiene una referencia al pedido de transferencia en el campo **Número de pedido**. En el campo **Fecha y hora iniciales planeadas en ubicación** puede establecer la fecha y hora para la cita. Esta fecha y hora se usará cuando la demanda de tránsito directo se prioriza durante el proceso de tránsito directo. La fecha y hora que establece en este campo actualizará el campo **Fecha y hora de envío programado de la carga** en la carga correspondiente. La ubicación en el FastTab **Detalles del envío** determina la ubicación en que se envió el pedio de transferencia.
 5.  En la versión **Área de trabajo de planificación de la carga** al almacén.
-6.  Cree un pedido de producción para el número de artículo **L0101** y establezca el estado en **Iniciado** , con una cantidad de 20.
+6.  Cree un pedido de producción para el número de artículo **L0101** y establezca el estado en **Iniciado**, con una cantidad de 20.
 7.  Notifique como terminado desde el dispositivo móvil.
 8.  Vaya al portar del dispositivo móvil y seleccione el elemento de menú **Notificar como terminado y poner en ubicación**.
 9.  Notifique el numero de artículo **L0101** como terminado desde el dispositivo de mano. Tenga en cuenta que la ubicación de colocación es ahora **BAYDOOR**. Esta ubicación se encuentra en la programación de citas en lugar de la directiva de ubicación **Recibo de transferencia**.

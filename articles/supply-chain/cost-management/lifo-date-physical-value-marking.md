@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fed3de8741b375cf4992578db3e57d6e5a35a93
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980642"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436909"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fecha LIFO con valor físico y marcado
 
@@ -39,7 +39,7 @@ Se recomienda efectuar un cierre periódico del inventario si se usa el modelo d
 En los ejemplos siguientes muestran los efectos del uso de la fecha LIFO en tres configuraciones:
 
 -   Fecha LIFO sin la opción **Incluir valor físico**
--   Fecha LIFO con la opción**Incluir valor físico**
+-   Fecha LIFO con la opción **Incluir valor físico**
 -   Fecha LIFO con marcado
 
 ## <a name="lifo-date-without-the-include-physical-value-option"></a>Fecha LIFO sin la opción Incluir valor físico

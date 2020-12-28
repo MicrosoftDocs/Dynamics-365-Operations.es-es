@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2156b5de6abc3751cae1822b3825acbbd0b9a712
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017100"
+ms.locfileid: "4437170"
 ---
 # <a name="manage-warehouse-workers"></a>Gestionar trabajadores de almacén
 
@@ -33,7 +33,7 @@ Este artículo describe cómo puede usar la aplicación de almacén para ayudar 
 
 Si usa la funcionalidad de gestión de almacenes, todas las operaciones de trabajador de almacén se conocen como *trabajo*. Trabajo como seleccionar, mover y recuento de inventario disponible se registra con los dispositivos móviles. Antes de que un trabajador de almacén pueda realizar el trabajo, debe estar asociado a un trabajador en recursos humanos. Cada cuenta de **Trabajador** puede tener varios usuarios de trabajo de almacén asociados. Dichos usuarios de trabajo pueden trabajar en varios almacenes y pueden tener distintos niveles de acceso a los distintos menús del dispositivo móvil. Puede pensar en los usuarios de trabajo de almacén como varios inicios de sesión para el trabajador seleccionado. Cada usuario de trabajo tiene un almacén predeterminado y los flujos de trabajo específicos son expuestos por los elementos de menú que están disponibles para dicho usuario de trabajo. 
 
-Para crear un usuario de trabajo nuevo, en la página **Trabajadores** , en la pestaña **General** , en la sección **Almacenes** , haga clic en **Trabajador**. Debe especificar un id. de usuario, un nombre de usuario, un almacén predeterminado y un nombre de menú. Este menú se carga cuando el usuario inicia sesión en el portal del dispositivo móvil del almacén, y le permite definir los elementos de menú a los que el usuario tendrá acceso. 
+Para crear un usuario de trabajo nuevo, en la página **Trabajadores**, en la pestaña **General**, en la sección **Almacenes**, haga clic en **Trabajador**. Debe especificar un id. de usuario, un nombre de usuario, un almacén predeterminado y un nombre de menú. Este menú se carga cuando el usuario inicia sesión en el portal del dispositivo móvil del almacén, y le permite definir los elementos de menú a los que el usuario tendrá acceso. 
 
 Como parte de la configuración para cada usuario de trabajo, también puede definir flujos de trabajo específicos del proceso. Por ejemplo, puede usar el campo **Es un supervisor del recuento cíclico** para especificar si el usuario puede realizar ajustes en el proceso a las discrepancias del recuento cíclico durante una operación de recuento, o si esta configuración debe ser revisada primero por otra persona.
 
@@ -45,7 +45,7 @@ Para habilitar los estándares de mano de obra que ha definido, debe seleccionar
 ## <a name="monitoring-and-controlling-warehouse-work"></a>Supervisión del trabajo del almacén
 La página **Todos los trabajos** le permite supervisar y mantener todo el trabajo planificado, en proceso y completado. Desde esta página, puede actualizar varios procesos, como asignaciones de usuario de trabajo de almacén y prioridad de trabajo. También puede explorar en profundidad detalles relacionados con el encabezado de trabajo y líneas de trabajo para obtener un entendimiento de los procesos previstos o completados de trabajo. 
 
-Si activa la opción **Estándares de mano de obra** , puede ver la hora estimada calculada para el trabajo. Posteriormente, cuando se procesa el trabajo, el tiempo real también se mostrará para cada operación de trabajo. De esta manera, puede comparar los cálculos de tiempo estimado con el tiempo real. 
+Si activa la opción **Estándares de mano de obra**, puede ver la hora estimada calculada para el trabajo. Posteriormente, cuando se procesa el trabajo, el tiempo real también se mostrará para cada operación de trabajo. De esta manera, puede comparar los cálculos de tiempo estimado con el tiempo real. 
 
 Además, puede usar el tiempo estimado en las reglas para dividir el trabajo automáticamente durante la creación de trabajo. De esta manera, puede cargar el trabajo de saldos, en función del tiempo previsto para completar las tareas. 
 

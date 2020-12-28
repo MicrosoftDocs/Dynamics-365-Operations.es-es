@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: d28acbccc35b3f59f9cca7236dd721a1d9bdead8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216445"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436969"
 ---
 # <a name="create-consumption-reports"></a>Crear informes de consumo
 
@@ -53,7 +53,7 @@ Cuando haya registrado el consumo en las órdenes de trabajo, podrá imprimir un
 
 4. En la ficha desplegable **Destino**, seleccione si desea visualizar el informe en la pantalla, imprímalo o guárdelo como archivo o correo electrónico.
 
-5. Si es necesario, puede seleccionar activos específicos que se mostrarán en el informe. En la ficha desplegable**Registros que incluir**, haga clic en **Filtrar** y agregue los activos que desea incluir en el informe.
+5. Si es necesario, puede seleccionar activos específicos que se mostrarán en el informe. En la ficha desplegable **Registros que incluir**, haga clic en **Filtrar** y agregue los activos que desea incluir en el informe.
 
 6. Haga clic en **Aceptar** para generar el informe.
 
@@ -70,7 +70,7 @@ Cuando haya registrado el consumo en las órdenes de trabajo, podrá imprimir un
 
 4. En la ficha desplegable **Destino**, seleccione si desea visualizar el informe en la pantalla, imprímalo o guárdelo como archivo o correo electrónico.
 
-5. Si es necesario, puede seleccionar órdenes de trabajo específicas que se mostrarán en el informe. En la ficha desplegable**Registros que incluir**, haga clic en **Filtrar** y agregue las órdenes de trabajo que desea incluir en el informe.
+5. Si es necesario, puede seleccionar órdenes de trabajo específicas que se mostrarán en el informe. En la ficha desplegable **Registros que incluir**, haga clic en **Filtrar** y agregue las órdenes de trabajo que desea incluir en el informe.
 
 6. Haga clic en **Aceptar** para generar el informe.
 

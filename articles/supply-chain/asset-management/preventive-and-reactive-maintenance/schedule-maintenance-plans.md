@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: df5bcd57c611ed5f77a417a28f28fca84057d734
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205998"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436966"
 ---
 # <a name="schedule-maintenance-plans"></a>Programar planes de mantenimiento
 
@@ -43,7 +43,7 @@ La programación del mantenimiento preventivo genera entradas de calendario en l
 3. Seleccione "Sí" en el botón de alternancia **Crear automáticamente si se especifica en la línea** si las órdenes de trabajo deben crearse automáticamente según la línea del plan de mantenimiento.
 
 >[!NOTE]
->Si este botón de alternancia se establece en "Sí" *y* se selecciona también la casilla **Crear automáticamente** en las líneas del plan de mantenimiento en **Planes de mantenimiento**, se crean órdenes de trabajo en función de las líneas del plan de mantenimiento, así como líneas del programa de mantenimiento con el estado "Orden de trabajo creada". Si solo se selecciona una opción (botón de alternancia**Crear automáticamente si se especifica en la línea** en este diálogo o la casilla **Crear automáticamente** en el formulario **Planes de mantenimiento**), solo se crean líneas del programa de mantenimiento con el estado "Creada". En ese caso, no se crean órdenes de trabajo.
+>Si este botón de alternancia se establece en "Sí" *y* se selecciona también la casilla **Crear automáticamente** en las líneas del plan de mantenimiento en **Planes de mantenimiento**, se crean órdenes de trabajo en función de las líneas del plan de mantenimiento, así como líneas del programa de mantenimiento con el estado "Orden de trabajo creada". Si solo se selecciona una opción (botón de alternancia **Crear automáticamente si se especifica en la línea** en este diálogo o la casilla **Crear automáticamente** en el formulario **Planes de mantenimiento**), solo se crean líneas del programa de mantenimiento con el estado "Creada". En ese caso, no se crean órdenes de trabajo.
 
 4. Es posible generar entradas de calendario basadas en planes de mantenimiento (tiempo o contador), activos, tipos de activos, ubicaciones técnicas y tipos de ubicaciones técnicas. Haga clic en el botón **Filtrar** y haga sus selecciones, si es necesario.
 

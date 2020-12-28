@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 66fdc26b0b967a04a3c6a6e3444e00b1372dc504
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204019"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437105"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Configurar un almacén mediante una plantilla de configuración de almacén
 
@@ -60,7 +60,7 @@ Para este escenario, la configuración para un almacén y algunos procesos de tr
 2. Seleccione el icono **Plantillas** y, a continuación seleccione **Cargar plantillas predeterminadas** para cargar las plantillas predeterminadas.
 
     > [!NOTE]
-    > **Cargar plantillas predeterminadas** solo está disponible en la vista **Ampliada**. Seleccione **Parámetros del marco**y, a continuación, en el campo **Valores predeterminados de la vista**, seleccione **Vista ampliada**.
+    > **Cargar plantillas predeterminadas** solo está disponible en la vista **Ampliada**. Seleccione **Parámetros del marco** y, a continuación, en el campo **Valores predeterminados de la vista**, seleccione **Vista ampliada**.
 
 3. Una vez que las plantillas predeterminadas se cargan, puede cambiarlas de modo que coincidan con los requisitos empresariales.
 

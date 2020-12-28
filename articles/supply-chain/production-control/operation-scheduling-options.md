@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c3865bfc3b66c018f836e21bbddf658de0351e57
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211385"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436697"
 ---
 # <a name="operations-scheduling-options"></a>Opciones de programación de las operaciones
 
@@ -97,7 +97,7 @@ Cuando las referencias dependen de las órdenes de producción, también se deno
 
 ### <a name="synchronize-references"></a>Sincronizar las referencias
 
-También puede sincronizar las referencias con el pedido de producción. Si se selecciona esta opción, las fechas de las subproducciones se modificarán y alinearán cuando se efectúen cambios en la programación del pedido de producción. Si un pedido de producción tiene una o más subproducciones, se recomienda programar dichas subproducciones junto con la producción principal. En este caso, la producción principal no puede iniciarse hasta que se hayan terminado las subproducciones relacionadas. Por lo tanto, seleccione esta casilla si la programación de subproducciones se basa en los tiempos de inicio y fin de la producción seleccionada. Puede seleccionar esta casilla solo si la casilla de las**Referencias de la programación** también se ha seleccionado.
+También puede sincronizar las referencias con el pedido de producción. Si se selecciona esta opción, las fechas de las subproducciones se modificarán y alinearán cuando se efectúen cambios en la programación del pedido de producción. Si un pedido de producción tiene una o más subproducciones, se recomienda programar dichas subproducciones junto con la producción principal. En este caso, la producción principal no puede iniciarse hasta que se hayan terminado las subproducciones relacionadas. Por lo tanto, seleccione esta casilla si la programación de subproducciones se basa en los tiempos de inicio y fin de la producción seleccionada. Puede seleccionar esta casilla solo si la casilla de las **Referencias de la programación** también se ha seleccionado.
 
 ## <a name="cancellation"></a>Cancelación
 ### <a name="cancel-queue-time"></a>Cancelar el tiempo en cola

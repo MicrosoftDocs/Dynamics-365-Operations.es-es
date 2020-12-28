@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: b4349eeba285492202b5df8481b277a06708a4c8
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018222"
+ms.locfileid: "4437277"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Solucionar problemas de precios, descuentos, acuerdos y devoluciones
 
@@ -48,7 +48,7 @@ El mensaje es el aviso de evaluación del acuerdo comercial (TAE). Para obtener 
 
 El siguiente procedimiento muestra una manera de reproducir el problema.
 
-1. En la página **Parámetros de adquisición y abastecimiento** , en la pestaña **Entrega** , asegúrese de que la opción **Generar cargos al recibir el producto** está establecida en *Sí*.
+1. En la página **Parámetros de adquisición y abastecimiento**, en la pestaña **Entrega**, asegúrese de que la opción **Generar cargos al recibir el producto** está establecida en *Sí*.
 1. Cree un pedido de compra que incluya cargos.
 1. Confirme el pedido de compra.
 1. Reciba el pedido de compra.

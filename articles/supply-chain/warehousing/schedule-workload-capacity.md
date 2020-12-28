@@ -18,11 +18,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fd4225d9e7ad65939c57cb770ba521377c87dea3
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217273"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436643"
 ---
 # <a name="schedule-workload-capacity"></a>Programar capacidad de la carga de trabajo
 
@@ -77,6 +77,6 @@ Si esta información no se especifica correctamente, recibirá un mensaje al gen
 
 1. Seleccione **Gestión del inventario** \> **Consultas e informes** \> **Informes de inventario físico** \> **Capacidad de carga de trabajo**.
 2. En el campo **Número de columnas**, especifique el número de columnas que desea mostrar en el informe.
-3. En el campo **Tipo de pedido**, seleccione **Planificado y confirmado**, **Planificado**o **Confirmado** , para indicar el tipo de pedidos que desea proyectar en el informe.
+3. En el campo **Tipo de pedido**, seleccione **Planificado y confirmado**, **Planificado** o **Confirmado** , para indicar el tipo de pedidos que desea proyectar en el informe.
 4. En el campo **Tipo de carga**, seleccione un tipo de carga para especificar si la capacidad de la carga de trabajo se debe proyectarse para volumen o para peso.
 5. En el campo **Capacidad de carga de trabajo**, seleccione una configuración para la capacidad de carga de trabajo.

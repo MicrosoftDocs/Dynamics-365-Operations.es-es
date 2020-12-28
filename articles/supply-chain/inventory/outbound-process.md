@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: db1a6887e7742700dd3451c9a877b948b5ab691b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207287"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436881"
 ---
 # <a name="outbound-process-overview"></a>Visión general del proceso de salida
 
@@ -76,7 +76,7 @@ El tercer parámetro que puede usar como parte del proceso de creación de lista
 
 ## <a name="example-of-an-outbound-process-for-a-sales-order"></a>Ejemplo de un proceso de salida de un pedido de ventas
 
-En este ejemplo, hay un pedido de ventas para dos artículos. Durante la creación de la lista de selección, debe seleccionar el parámetro **Reducir cantidad**. Por lo tanto, liberará y creará líneas de selección solo para aquel inventario disponible. Se debe informar de la selección mediante un proceso de registro de listas de selección**Estado de la ruta de selección** = (**Activado**).
+En este ejemplo, hay un pedido de ventas para dos artículos. Durante la creación de la lista de selección, debe seleccionar el parámetro **Reducir cantidad**. Por lo tanto, liberará y creará líneas de selección solo para aquel inventario disponible. Se debe informar de la selección mediante un proceso de registro de listas de selección **Estado de la ruta de selección** = (**Activado**).
 
 El inventario que no se haya reservado se reservará durante la creación de la lista de selección. El inventario que no está disponible se puede quitar del pedido de ventas o se puede liberar al almacén para realizar más adelante un proceso de salida, cuando el inventario esté disponible para realizar una selección.
 

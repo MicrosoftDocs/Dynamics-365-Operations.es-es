@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018084"
+ms.locfileid: "4437229"
 ---
 # <a name="set-up-vendor-accounts"></a>Configuración de cuentas de proveedor
 
@@ -42,7 +42,7 @@ Al crear una cuenta de proveedor, especifique información sobre el proveedor. E
 -   Configure los impuestos, la entrega, la factura y la información de pago para el proveedor. De forma predeterminada, esta configuración se copian a los nuevos documentos que cree para el proveedor.
 -   Configure las dimensiones financieras predeterminadas que se usan para registrar automáticamente transacciones con el proveedor en las cuentas financieras.
 
-Para acelerar el proceso de creación de cuentas de proveedor, puede crear plantillas. Para crear una plantilla, en la página **Proveedor** , en el panel de acciones, haga clic en **Opciones** &gt; **Información de registro**. A continuación, haga clic en **Plantilla de cuentas de empresa**. Las plantillas de cuenta de empresa se comparten con otros usuarios.  
+Para acelerar el proceso de creación de cuentas de proveedor, puede crear plantillas. Para crear una plantilla, en la página **Proveedor**, en el panel de acciones, haga clic en **Opciones** &gt; **Información de registro**. A continuación, haga clic en **Plantilla de cuentas de empresa**. Las plantillas de cuenta de empresa se comparten con otros usuarios.  
 
 También puede crear una plantilla de usuario para su propio uso. No puede eliminar un proveedor que esté asociado a otros registros, como contactos o productos.
 
@@ -58,7 +58,7 @@ Para cada proveedor, puede definir varias direcciones y cada una de ellas se usa
 ## <a name="vendor-contacts"></a>Contactos de proveedor
 Puede almacenar contactos para un proveedor. Estos contactos se pueden utilizar en documentos como pedidos de compra o solicitudes de presupuesto.  
 
-Para agregar contactos para un proveedor, en la página **Todos los proveedores** , en la pestaña **Proveedor** , en el grupo **Configurar** , haga clic en **Contactos** &gt; **Agregar contactos**.  
+Para agregar contactos para un proveedor, en la página **Todos los proveedores**, en la pestaña **Proveedor**, en el grupo **Configurar**, haga clic en **Contactos** &gt; **Agregar contactos**.  
 
 Puede crear contactos de proveedor desde cero. Como alternativa, puede copiar detalles de otra persona que ya está registrada en Supply Chain Management y editar la información según sea necesario.  
 
@@ -75,7 +75,7 @@ Si varias entidades jurídicas de la organización trabajan con el mismo proveed
 
 Para combinar los id. de parte, siga estos pasos.
 
-1.  En la página **Libreta de direcciones global** , seleccione los registros de la libreta de direcciones que representan al proveedor en cada entidad jurídica que se deben incluir en la asignación.
+1.  En la página **Libreta de direcciones global**, seleccione los registros de la libreta de direcciones que representan al proveedor en cada entidad jurídica que se deben incluir en la asignación.
 2.  En el panel de acciones, haga clic en **Combinar registros**.
 
 ## <a name="agreements"></a>Acuerdos
@@ -84,12 +84,12 @@ Al configurar una cuenta de proveedor, también es posible que desee registrar l
 ## <a name="putting-a-vendor-on-hold"></a>Poner a un proveedor en espera
 Puede colocar un proveedor en espera para diversos tipos de transacciones. Están disponibles las siguientes opciones:
 
--   **No** : el proveedor no tiene esperas.
--   **Factura** : no se puede registrar ninguna factura para el proveedor.
--   **Todos** : el proveedor está en espera para todos los tipos de transacción. Estos tipos de transacción incluyen solicitudes de compra, facturas y pagos.
--   **Pago** : no se pueden generar pagos para el proveedor.
--   **Pedido** : las solicitudes de compra no se pueden crear para el proveedor y las líneas de solicitud ya creadas antes de que el proveedor se pusiera en espera no se pueden convertir en un pedido de compra. Las líneas de solicitud para el proveedor se cancelarán si su directiva está establecida para crear pedidos de compra automáticamente.
--   **Nunca** : el proveedor nunca se pone en espera por inactividad.
+-   **No**: el proveedor no tiene esperas.
+-   **Factura**: no se puede registrar ninguna factura para el proveedor.
+-   **Todos**: el proveedor está en espera para todos los tipos de transacción. Estos tipos de transacción incluyen solicitudes de compra, facturas y pagos.
+-   **Pago**: no se pueden generar pagos para el proveedor.
+-   **Pedido**: las solicitudes de compra no se pueden crear para el proveedor y las líneas de solicitud ya creadas antes de que el proveedor se pusiera en espera no se pueden convertir en un pedido de compra. Las líneas de solicitud para el proveedor se cancelarán si su directiva está establecida para crear pedidos de compra automáticamente.
+-   **Nunca**: el proveedor nunca se pone en espera por inactividad.
 
 Cuando coloca un proveedor en espera, también puede especificar un motivo y una fecha en que finalizará el estado en espera. Si no especifica una fecha final, el estado en espera del proveedor dura de forma indefinida.
 
@@ -114,7 +114,7 @@ Si debe realizar pagos en una cuenta bancaria de proveedor, puede especificar in
 ## <a name="ledger-accounts"></a>Cuentas contables
 Puede especificar las cuentas predeterminadas que aparecen automáticamente en los diarios de facturas de proveedor para el proveedor especificado. Esta funcionalidad puede ser de utilidad si paga normalmente los mismos tipos de elementos o servicios de los mismos proveedores en el transcurso del tiempo. Al especificar una cuenta predeterminada, puede especificar de forma rápida y eficaz entradas de diario en el diario de facturas. Las cuentas predeterminadas que especifica no se usan para los pedidos de ventas o para facturas de proveedor que se especifican en la página **Factura de proveedor**.  
 
-Puede seleccionar cuentas predeterminadas en la página **Configuración de cuenta predeterminada** , que puede abrir en la pestaña **Factura** del registro de proveedor. Las cuentas que selecciona aquí aparecen en la lista filtrada de cuentas para la cuenta de proveedor cuando especifica una entrada de diario. Puede establecer una de las cuentas como cuenta predeterminada.
+Puede seleccionar cuentas predeterminadas en la página **Configuración de cuenta predeterminada**, que puede abrir en la pestaña **Factura** del registro de proveedor. Las cuentas que selecciona aquí aparecen en la lista filtrada de cuentas para la cuenta de proveedor cuando especifica una entrada de diario. Puede establecer una de las cuentas como cuenta predeterminada.
 
 
 

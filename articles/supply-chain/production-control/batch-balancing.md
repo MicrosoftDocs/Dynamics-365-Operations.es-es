@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016894"
+ms.locfileid: "4437202"
 ---
 # <a name="batch-balancing"></a>Equilibrio por lotes
 
@@ -97,7 +97,7 @@ El ingrediente B tiene el atributo base X y un nivel objetivo de 30, y se incluy
 
 ### <a name="none"></a>Sin ordenar
 
-Al aplicar el proceso de equilibrio por lotes cuando el tipo del ingrediente es **Ninguno** , la cantidad estimada y la cantidad equilibrada de la línea de fórmula en el pedido de lote son iguales.
+Al aplicar el proceso de equilibrio por lotes cuando el tipo del ingrediente es **Ninguno**, la cantidad estimada y la cantidad equilibrada de la línea de fórmula en el pedido de lote son iguales.
 
 **Ejemplo**
 
@@ -107,15 +107,15 @@ El ingrediente A se asigna a un ingrediente del tipo **Ninguno** y se agrega a u
 
 Un ingrediente de compesación puede compensar o complementar el efecto del ingrediente activo de un producto. Por lo tanto, la cantidad de un ingrediente de compesación que se consume depende de la potencia del producto:
 
--   **Efecto de oposición** : si la cantidad de ingrediente activo es mayor que la anticipada, debe agregar menos ingrediente de compensación.
+-   **Efecto de oposición**: si la cantidad de ingrediente activo es mayor que la anticipada, debe agregar menos ingrediente de compensación.
 
--   **Efecto complementario** : si la cantidad de ingrediente activo es menor que la anticipada, debe agregar más ingrediente de compensación.
+-   **Efecto complementario**: si la cantidad de ingrediente activo es menor que la anticipada, debe agregar más ingrediente de compensación.
 
 La relación entre un ingrediente activo y un ingrediente complementario se configura en la página **Principio de compensación**.
 
 Siga estos pasos para configurar las relaciones entre ingredientes.
 
-1.  Seleccione **Gestión de información de productos** \> **Facturas y materiales y fórmulas** \> **Fórmulas** , abra una línea de fórmula y, a continuación, seleccione **Ingredientes** para abrir la página **Principio de compensación**.
+1.  Seleccione **Gestión de información de productos** \> **Facturas y materiales y fórmulas** \> **Fórmulas**, abra una línea de fórmula y, a continuación, seleccione **Ingredientes** para abrir la página **Principio de compensación**.
 
 2.  Seleccione la línea que representa un principio de compensación y, a continuación, seleccione el ingrediente activo que desea compensar.
 
@@ -125,7 +125,7 @@ Siga estos pasos para configurar las relaciones entre ingredientes.
 
 El ingrediente B es un ingrediente activo que tiene el atributo base X y un nivel objetivo de 30. Se incluye una fórmula que requiere 30 litros de ingrediente B por cada 100 litros de producto. El ingrediente C es un ingrediente de compensación y se incluye una cantidad de 10 en la misma fórmula. Se configura un factor de compensación de 1,10 para el principio de compensación. Por lo tanto, la cantidad equilibrada del ingrediente de compensación se reducirá por la diferencia entre la cantidad equilibrada del ingrediente activo y la cantidad necesaria estimada multiplicada por 1,10.
 
-En el ejemplo para el tipo de ingrediente **Activo** , la cantidad equilibrada del ingrediente activo requerido se calcula como 25,71 y la cantidad necesaria estimada se calcula como 30. En este caso, la cantidad equilibrada del ingrediente de compensación se calculará de la siguiente manera:
+En el ejemplo para el tipo de ingrediente **Activo**, la cantidad equilibrada del ingrediente activo requerido se calcula como 25,71 y la cantidad necesaria estimada se calcula como 30. En este caso, la cantidad equilibrada del ingrediente de compensación se calculará de la siguiente manera:
 
 1.  La diferencia entre la cantidad estimada y equilibrada se determina:
 
@@ -156,7 +156,7 @@ La cantidad equilibrada del ingrediente de relleno se calcula como la diferencia
 ---------------------------
 
 El proceso de equilibrio por lotes se realiza desde la página **Equilibrio por lotes** .
-Seleccione **Gestión de costes** \> **Pedidos de lote** y, a continuación, en la pestaña **Proceso** , seleccione **Equilibrio por lotes**. El equilibrio por lotes está disponible para los pedidos por lote que tengan un estado **Iniciado**.
+Seleccione **Gestión de costes** \> **Pedidos de lote** y, a continuación, en la pestaña **Proceso**, seleccione **Equilibrio por lotes**. El equilibrio por lotes está disponible para los pedidos por lote que tengan un estado **Iniciado**.
 
 En general, el equilibrio por lotes se puede aplicar a pedidos de lote si la fórmula tenga al menos una línea de fórmula en la que el tipo de ingrediente es **Activo**. (Para la excepción a esta regla, consulte la sección "Pedidos de lote que no son aplicables para el equilbrio por lotes" más adelante en este tema.)
 
@@ -171,7 +171,7 @@ El proceso de equilibrio por lotes se puede dividir en dos subprocesos:
 En el subproceso Equilibrar ingredientes del lote, la cantidad de ingredientes que va a utilizar para el lote de producción se calcula a partir de los lotes seleccionados que tienen ingredientes activos. Como norma, el cálculo se puede completar si hay una cobertura total de todos los ingredientes. No puede equilibrar solo una parte del lote que está configurada para producir el pedido de lote.
 
 [!NOTE]
-No puede guardar un cálculo y completar posteriormente el proceso de equilibrio por lotes. Si cierra la página **Equilibrio por lotes** , debe repetir el cálculo para completar el proceso.
+No puede guardar un cálculo y completar posteriormente el proceso de equilibrio por lotes. Si cierra la página **Equilibrio por lotes**, debe repetir el cálculo para completar el proceso.
 
 ### <a name="confirm-and-release-the-formula"></a>Confirmar y liberar la fórmula
 

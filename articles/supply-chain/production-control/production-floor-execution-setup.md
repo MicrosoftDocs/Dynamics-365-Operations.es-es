@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012508"
+ms.locfileid: "4437162"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
 
@@ -33,7 +33,7 @@ La interfaz de ejecución de la planta de producción está configurada para cad
 
 Para establecer la configuración y los filtros de trabajo para un dispositivo, inicie sesión en la página **Ejecución de planta de producción** mediante el uso de una cuenta que tiene un rol de seguridad que incluye la función *Mantener supervisor de tiempo*. (Entre los roles de seguridad listos para usar, solo *Supervisor de planta* tiene esta función). A continuación, siga estos pasos.
 
-1. Vaya al dispositivo que desea configurar e inicie sesión en Microsoft Dynamics 365 Supply Chain Management como supervisor de planta. (Utilice una cuenta que incluya la función *Mantener supervisor de tiempo* ).
+1. Vaya al dispositivo que desea configurar e inicie sesión en Microsoft Dynamics 365 Supply Chain Management como supervisor de planta. (Utilice una cuenta que incluya la función *Mantener supervisor de tiempo*).
 1. Asegúrese de que haya una configuración disponible para el dispositivo que está configurando. Si no existe ninguna configuración, se proporciona una configuración predeterminada. Para obtener más información sobre cómo configurar una configuración, consulte [Configurar la interfaz de ejecución de la planta de producción](production-floor-execution-configure.md).
 1. Vaya a **Control de producción \> Ejecución de fabricación \> Ejecución de planta de producción**.
 
@@ -44,9 +44,9 @@ Para establecer la configuración y los filtros de trabajo para un dispositivo, 
 1. Seleccione **Siguiente**.
 1. Seleccione uno o más filtros para aplicar al dispositivo actual. Estos filtros ayudarán a garantizar que solo se muestren los trabajos relevantes en el dispositivo. Para establecer un filtro, seleccione el tipo de filtro para abrir una lista de valores y luego seleccione el valor por el que filtrar. Están disponibles los siguientes filtros:
 
-    - **Unidad de producción** : este es el filtro de más alto nivel. Por lo general, se refiere a un área de trabajo grande que tiene varios grupos de recursos y recursos individuales.
-    - **Grupo de recursos** : este es un filtro de nivel intermedio. Normalmente se refiere a una colección de recursos relacionados en un área limitada del espacio de trabajo. Si selecciona primero un filtro de **Unidad de producción** , la lista de grupos de recursos solo muestra los grupos de esa unidad. De lo contrario, muestra todos los grupos de recursos disponibles.
-    - **Recurso** : este filtro es el más específico. Por lo general, se refiere a un equipo específico u otro recurso único. Si selecciona primero un filtro de **Grupo de recursos** o de **Unidad de producción** , la lista de recursos solo muestra los recursos de ese grupo o unidad. De lo contrario, muestra todos los recursos disponibles.
+    - **Unidad de producción**: este es el filtro de más alto nivel. Por lo general, se refiere a un área de trabajo grande que tiene varios grupos de recursos y recursos individuales.
+    - **Grupo de recursos**: este es un filtro de nivel intermedio. Normalmente se refiere a una colección de recursos relacionados en un área limitada del espacio de trabajo. Si selecciona primero un filtro de **Unidad de producción**, la lista de grupos de recursos solo muestra los grupos de esa unidad. De lo contrario, muestra todos los grupos de recursos disponibles.
+    - **Recurso**: este filtro es el más específico. Por lo general, se refiere a un equipo específico u otro recurso único. Si selecciona primero un filtro de **Grupo de recursos** o de **Unidad de producción**, la lista de recursos solo muestra los recursos de ese grupo o unidad. De lo contrario, muestra todos los recursos disponibles.
 
 1. Seleccione **Aceptar**.
 1. Aparece la página de inicio de sesión y su dispositivo está listo para usarse.
@@ -62,7 +62,7 @@ Para permitir que un trabajador anule los filtros de trabajo predeterminados que
 
 1. Vaya a **Tiempo y asistencia \> Configurar \> Trabajadores con registro de horas**.
 1. Seleccione un trabajador de la lista para abrir la página **Trabajadores de registro de tiempo** de ese trabajador.
-1. En la pestaña **Registro de tiempo** , configure la opción **Establecer filtros** en *Sí*.
+1. En la pestaña **Registro de tiempo**, configure la opción **Establecer filtros** en *Sí*.
 
 ## <a name="run-the-interface-in-full-screen-mode"></a>Ejecutar la interfaz en modo de pantalla completa
 

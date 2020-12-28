@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018753"
+ms.locfileid: "4437255"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboración de proveedor con proveedores externos
 
@@ -34,7 +34,7 @@ El módulo de **Colaboración del proveedor** se indica para los proveedores que
 Para obtener más información sobre lo que pueden hacer los proveedores externos en la interfaz de colaboración de proveedor, consulte [Colaboración de proveedor con los clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> La información sobre la colaboración del proveedor en este tema sólo se aplica a la versión actual de Supply Chain Management. En Microsoft Dynamics AX 7.0 (febrero de 2016) y en Microsoft Dynamics AX versión de aplicación 7.0.1 (mayo de 2016), colabora con proveedores a través del módulo **Portal de proveedores**. Para obtener información sobre el módulo **Portal de proveedores** , consulte [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md).
+> La información sobre la colaboración del proveedor en este tema sólo se aplica a la versión actual de Supply Chain Management. En Microsoft Dynamics AX 7.0 (febrero de 2016) y en Microsoft Dynamics AX versión de aplicación 7.0.1 (mayo de 2016), colabora con proveedores a través del módulo **Portal de proveedores**. Para obtener información sobre el módulo **Portal de proveedores**, consulte [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md).
 
 Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
 
@@ -44,8 +44,8 @@ Cuando los proveedores responden a un PO que les envía, ven uno de los tres d
 
 Para definir el texto que se muestra en la respuesta del PO, suga estos pasos:
 
-1. En la página **Información para los proveedores que responden al PO** , seleccione el tipo de respuesta y, a continuación, seleccione **Editar**.
-2. En la casilla **Mensaje de información** , especifique la información que se debe mostrar a los proveedores en el cuadro de mensaje.
+1. En la página **Información para los proveedores que responden al PO**, seleccione el tipo de respuesta y, a continuación, seleccione **Editar**.
+2. En la casilla **Mensaje de información**, especifique la información que se debe mostrar a los proveedores en el cuadro de mensaje.
 
 Si tiene que agregar mensajes en más de un idioma, cree mensajes separados y especifique los códigos de idioma adecuados para cada uno. Se mostrará el mensaje a cada proveedor en el idioma que este use el proveedor.
 
@@ -58,10 +58,10 @@ Un administrador configura una configuración general para la colaboración de p
 
 ### <a name="enabling-vendor-collaboration"></a>Habilitar la colaboración de proveedor
 
-Antes de que las cuentas de usuario se puedan crear para un proveedor externo, deberá configurar la cuenta de proveedor para permitir que utilice la colaboración de proveedor. En la página **Proveedores** , en la pestaña **General** configure el campo **Activación de colaboración**. Las opciones siguientes están disponibles:
+Antes de que las cuentas de usuario se puedan crear para un proveedor externo, deberá configurar la cuenta de proveedor para permitir que utilice la colaboración de proveedor. En la página **Proveedores**, en la pestaña **General** configure el campo **Activación de colaboración**. Las opciones siguientes están disponibles:
 
-- **Activo (el PO se confirma automáticamente)** : los PO se confirman de forma automática si el vendedor los acepta sin cambios.
-- **Activo (el PO no se confirma automáticamente)** : es necesario que su oganización confirme los PO manualmente cuando el proveedor los haya aceptado.
+- **Activo (el PO se confirma automáticamente)**: los PO se confirman de forma automática si el vendedor los acepta sin cambios.
+- **Activo (el PO no se confirma automáticamente)**: es necesario que su oganización confirme los PO manualmente cuando el proveedor los haya aceptado.
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Especificar si el proveedor debería ver información de precios
 
@@ -71,7 +71,7 @@ Para compartir información de precios del PO a través de la interfaz de colabo
 
 ### <a name="sending-a-po-to-a-vendor"></a>Enviar un PO a un proveedor
 
-Los PC se preparan en Supply Chain Management. Cuando un PO tiene un estado de **Aprobado** , se envía al proveedor mediante la selección de **Enviar para su confirmación** en la página **Pedido de compra**. El estado del PO cambia a **En proceso de revisión externa**. Después de enviar el PO, el proveedor puede consultarlo en la página **Pedidos de compra para revisar** de la interfaz de colaboración del proveedor. El proveedor puede aceptar el PO, rechazarlo o sugerir cambios en el mismo. El proveedor también puede agregar comentarios para comunicar información como cambios al pedido de compra. Si quiere que el proveedor se fije en un nuev PO, también puede usar el sistema de gestión de impresión para enviar el PO por correo electrónico.
+Los PC se preparan en Supply Chain Management. Cuando un PO tiene un estado de **Aprobado**, se envía al proveedor mediante la selección de **Enviar para su confirmación** en la página **Pedido de compra**. El estado del PO cambia a **En proceso de revisión externa**. Después de enviar el PO, el proveedor puede consultarlo en la página **Pedidos de compra para revisar** de la interfaz de colaboración del proveedor. El proveedor puede aceptar el PO, rechazarlo o sugerir cambios en el mismo. El proveedor también puede agregar comentarios para comunicar información como cambios al pedido de compra. Si quiere que el proveedor se fije en un nuev PO, también puede usar el sistema de gestión de impresión para enviar el PO por correo electrónico.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Confirmación y aceptación de un PO por parte del proveedor
 
@@ -120,7 +120,7 @@ El proveedor no puede cambiar la información de precios y gastos. Sin embargo, 
 </tbody>
 </table>
 
-Puede usar el espacio de trabajo de espacio de trabajo **Preparación del pedido de compra** para supervisar a qué PO ha respondido el proveedor. Este espacio de trabajo contiene dos listas que albergan PO con el estado **En revisión externa** :
+Puede usar el espacio de trabajo de espacio de trabajo **Preparación del pedido de compra** para supervisar a qué PO ha respondido el proveedor. Este espacio de trabajo contiene dos listas que albergan PO con el estado **En revisión externa**:
 
 - En revisión externa requiere acción
 - En revisión externa, en espera de respuesta del proveedor
@@ -141,7 +141,7 @@ Puede añadir datos adjuntos como archivos, imágenes y notas al PO mediante el
 
 Si un proveedor ha respondido al PO y sugerido cambios, el paso siguiente es procesar la respuesta.
 
-En el espacio de trabajo **Preparación del pedido de compra** , en la lista **En revisión externa requiere acción** , puede identificar un PO al que un proveedor respondió como aceptado con cambios. De esta lista, también puede navegar a la respuesta del proveedor.
+En el espacio de trabajo **Preparación del pedido de compra**, en la lista **En revisión externa requiere acción**, puede identificar un PO al que un proveedor respondió como aceptado con cambios. De esta lista, también puede navegar a la respuesta del proveedor.
 
 En una respuesta, un proveedor puede cambiar la siguiente información del encabezado:
  
@@ -156,9 +156,9 @@ En las líneas, el proveedor puede cambiar la cantidad y las fechas de entrega, 
     
 - **Aceptado con cambios**
 - **Rechazado**
-- **Sustituido** : En este caso, se agregará una línea adicional que tenga el estado **Sustituir**.
+- **Sustituido**: En este caso, se agregará una línea adicional que tenga el estado **Sustituir**.
 - **Confirmado**
-- **Dividir en programación** : En este caso, se agregarán líneas adicionales que tengan el estado **Líneas de programación**.
+- **Dividir en programación**: En este caso, se agregarán líneas adicionales que tengan el estado **Líneas de programación**.
 
 Si una línea no tiene cambios, el estado de la línea es **Aceptado**.
 
@@ -168,7 +168,7 @@ Puede actualizar un PO seleccionando **Procesar actualización de PO** en la res
 
 No todos los cambios sugeridos se pueden actualizar en un PO. Solo se actualiza en el encabezado, y las actualizaciones de fechas y cantidades en las líneas se pueden actualizar automáticamente en el PO. Para otros cambios, debe actualizar manualmente el PO. En este caso, el valor del campo **¿Se ha procesado la actualización del PO?** es **Actualización manual**. Por ejemplo, si un proveedor sugiere que una línea se divda en una programación, este cambio se debe realizar manualmente.
 
-Cada línea que tenga un estado **Aceptado** tendrá una fecha de entrega confirmada. Cuando se ejecuta la acción **Procesar actualización de PO** , esta fecha se actualiza en el PO. Las notas y los datos adjuntos no se transfieren automáticamente al PO actual. Además, los acuerdos comerciales no se revaluarán en las líneas de PO cuando actualice el PO actual a través de la acción **Procesar actualización de PO**.
+Cada línea que tenga un estado **Aceptado** tendrá una fecha de entrega confirmada. Cuando se ejecuta la acción **Procesar actualización de PO**, esta fecha se actualiza en el PO. Las notas y los datos adjuntos no se transfieren automáticamente al PO actual. Además, los acuerdos comerciales no se revaluarán en las líneas de PO cuando actualice el PO actual a través de la acción **Procesar actualización de PO**.
 
 ## <a name="po-statuses-and-versions"></a>Estados y versiones de PO
 
@@ -185,7 +185,7 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 | El proveedor envía una respuesta de **Aceptado con los cambios**. | El estado aún está **En revisión externa**. |
 | Tiene que realizar algunos cambios que pide el proveedor. | El estado se cambia a **Aprobado**. |
 | Envíe la nueva versión del PO al proveedor. | Una nueva versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**. |
-| El proveedor acepta la nueva versión del PO. | El estado aún está **En revisión externa** , a menos que la cuenta de proveedor se haya configurado para establecer automáticamente el estado del PO a **Confirmado** cuando lo acepta. |
+| El proveedor acepta la nueva versión del PO. | El estado aún está **En revisión externa**, a menos que la cuenta de proveedor se haya configurado para establecer automáticamente el estado del PO a **Confirmado** cuando lo acepta. |
 
 Los proveedores no tienen que confirmar el PO mediante la interfaz de colaboración de proveedor. También pueden enviar un mensaje de correo electrónico o comunicar la aceptación de un PO a través de otros canales. A continuación puede confirmar manualmente el pedido. En este caso, recibirá una advertencia de que se está confirmando el pedido aunque no haya respuesta del proveedor. El PO aparece a continuación en el historial de confirmaciones como un pedido confirmado abierto que no tiene ninguna respuesta. En este momento, el proveedor ya no tiene la opción de confirmar o de rechazar el PO.
 
@@ -212,9 +212,9 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 
 Si está usando el inventario de entrega, los proveedores pueden usar la interfaz de colaboración del proveedor para visualizar la información de las siguientes páginas:
 
-- **Pedidos de compra que consumen el inventario de entrega** : los PO del inventario de entrega se generan cuando la propiedad del inventario pasa del proveedor a la empresa. El recibo del producto se publica al mismo tiempo. Estos PO de entrega solo se muestran en la página de **Pedidos de compra que consumen el inventario de entrega**. No se incluyen en la página **Todos los pedidos de compra confirmados** del módulo **Colaboración de proveedor**.
-- **Productos recibidos del inventario de entrega** : esta página muestra todas las transacciones en las que la titularidad de los productos se ha transferido del proveedor a la empresa. Los proveedores pueden usar esta información para facturar al cliente.
-- **Inventario de entrega disponible** : esta página muestra el inventario de entrega disponible que es propiedad del proveedor que se ha recibido en su almacén.
+- **Pedidos de compra que consumen el inventario de entrega**: los PO del inventario de entrega se generan cuando la propiedad del inventario pasa del proveedor a la empresa. El recibo del producto se publica al mismo tiempo. Estos PO de entrega solo se muestran en la página de **Pedidos de compra que consumen el inventario de entrega**. No se incluyen en la página **Todos los pedidos de compra confirmados** del módulo **Colaboración de proveedor**.
+- **Productos recibidos del inventario de entrega**: esta página muestra todas las transacciones en las que la titularidad de los productos se ha transferido del proveedor a la empresa. Los proveedores pueden usar esta información para facturar al cliente.
+- **Inventario de entrega disponible**: esta página muestra el inventario de entrega disponible que es propiedad del proveedor que se ha recibido en su almacén.
 
 ## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Trabajar con solicitudes de presupuesto cuando se usa la colaboración del proveedor
 
@@ -222,8 +222,8 @@ Esta sección describe las interacciones entre clientes y proveedores durante el
 
 ### <a name="alternates-attachments-amendments-and-returns"></a>Suplentes, datos adjuntos, modificaciones, y devoluciones
 
-- **Suplentes** : En la cabecera de un caso de solicitud de presupuesto, puede especificar que se permiten suplentes para las líneas de artículos de fuera del catálogo. Cuando se habilitan los suplentes, los proveedores pueden agregar una línea alternativa para cada línea solicitada.
-- **Datos adjuntos** : Los adjuntos se pueden agregar tanto a nivel de encabezado como el nivel de línea de un caso de solicitud de presupuesto. Los adjuntos se pueden clasificar como internos o externos. Los datos adjuntos internos se pueden ver únicamente en el lado del cliente, mientras que los proveedores pueden ver los datos adjuntos externos después de que se los envíen.
+- **Suplentes**: En la cabecera de un caso de solicitud de presupuesto, puede especificar que se permiten suplentes para las líneas de artículos de fuera del catálogo. Cuando se habilitan los suplentes, los proveedores pueden agregar una línea alternativa para cada línea solicitada.
+- **Datos adjuntos**: Los adjuntos se pueden agregar tanto a nivel de encabezado como el nivel de línea de un caso de solicitud de presupuesto. Los adjuntos se pueden clasificar como internos o externos. Los datos adjuntos internos se pueden ver únicamente en el lado del cliente, mientras que los proveedores pueden ver los datos adjuntos externos después de que se los envíen.
 
     Los proveedores también pueden agregar datos adjuntos en su respuesta de la oferta. Estos archivos adjuntos se pueden ver en el lado de cliente después de que un proveedor envíe la respuesta de la oferta. Los datos adjuntos que agregan los proveedores se clasifican siempre como externos. Para acceder a los datos adjuntos que un proveedor ha enviado junto con una oferta, seleccione **Datos adjuntos de la oferta** o **Datos adjuntos de la línea de la oferta**.
     
@@ -231,9 +231,9 @@ Esta sección describe las interacciones entre clientes y proveedores durante el
 
 - **Modificaciones** Cuando finaliza una modificación, se eliminan las respuestas de una oferta existentes para que se puedan reemplazar por los valores actualizados. La información como el precio y la cantidad de la línea de respuestas anteriores de la oferta se puede ver a través de los diarios en el caso de solicitud de presupuesto.
 
-    Para aplicar el procesamiento de la modificación, en la página **Parámetros de adquisición y abastecimiento** , en la ficha desplegable **Solicitud de presupuesto** , establezca la opción **Bloquear solicitudes de presupuesto cuando se envíen** en **Sí**. (Esta opción se establece y se requiere para el sector público).
+    Para aplicar el procesamiento de la modificación, en la página **Parámetros de adquisición y abastecimiento** , en la ficha desplegable **Solicitud de presupuesto**, establezca la opción **Bloquear solicitudes de presupuesto cuando se envíen** en **Sí**. (Esta opción se establece y se requiere para el sector público).
 
-- **Devoluciones** : Si un proveedor ha enviado una oferta, pero se requiere más información o modificaciones para el caso de solicitud de presupuesto, el cliente puede devolver la oferta al proveedor. Los datos de la oferta que se registró anteriormente se conservan y el proveedor puede hacer las modificaciones solicitadas sin tener que reiniciar el proceso de la oferta.
+- **Devoluciones**: Si un proveedor ha enviado una oferta, pero se requiere más información o modificaciones para el caso de solicitud de presupuesto, el cliente puede devolver la oferta al proveedor. Los datos de la oferta que se registró anteriormente se conservan y el proveedor puede hacer las modificaciones solicitadas sin tener que reiniciar el proceso de la oferta.
 
 ## <a name="public-sector-extensions"></a>Extensiones del sector público
 

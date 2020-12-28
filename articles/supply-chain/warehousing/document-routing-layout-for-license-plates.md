@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017722"
+ms.locfileid: "4437190"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Diseño de enrutamiento de documentos para matrículas de entidad
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 A continuación aparece una explicación de este formato:
 
-- `FieldName` es el nombre del campo de datos (como **Cantidad** ).
+- `FieldName` es el nombre del campo de datos (como **Cantidad**).
 - `FormatString` define cómo se deben imprimir los datos.
 
-Los siguientes ejemplos muestran cómo puede personalizar el campo cantidad de trabajo ( **Cantidad** ):
+Los siguientes ejemplos muestran cómo puede personalizar el campo cantidad de trabajo (**Cantidad**):
 
 - Para mostrar siempre cuatro dígitos (usando ceros como marcadores de posición), use `$Qty:0000$`. Por ejemplo, si la cantidad es 10, la etiqueta mostrará "0010".
 - Para mostrar siempre dos lugares decimales, use `$Qty:0.00$`. Por ejemplo, si la cantidad es 10, la etiqueta mostrará "10,00".

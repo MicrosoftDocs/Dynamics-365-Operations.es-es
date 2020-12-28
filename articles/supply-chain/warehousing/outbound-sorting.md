@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 84c4ec83ed16762e6c3c1a22425cf60e5b3ae8da
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017699"
+ms.locfileid: "4437273"
 ---
 # <a name="outbound-sorting"></a>Ordenación de salida
 
@@ -48,7 +48,7 @@ Esta configuración procesa automáticamente la oleada y crear el trabajo cuando
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
 1. En la lista de plantillas, seleccione **Almacén 62**.
-1. En la ficha desplegable **General** , asegúrese de que la opción **Procesar oleada para su liberación al almacén** está establecida en *Sí*.
+1. En la ficha desplegable **General**, asegúrese de que la opción **Procesar oleada para su liberación al almacén** está establecida en *Sí*.
 
 ### <a name="set-up-a-worker"></a>Configuración de un empleado
 
@@ -59,10 +59,10 @@ La estación de empaquetado se considera una ubicación. Los empleados del almac
 
 1. Vaya a **Gestión de almacenes \> Configuración \> Empleado**.
 1. Seleccione **Nuevo**.
-1. En el campo **Empleado** , seleccione el usuario de destino en la lista de empleados.
+1. En el campo **Empleado**, seleccione el usuario de destino en la lista de empleados.
 1. Seleccione **Seleccionar**.
 1. En el panel Acciones, seleccione **Guardar**.
-1. En la ficha desplegable **Usuarios** , seleccione **Nuevo** para crear una cuenta de dispositivo móvil y establezca los siguientes valores para ella:
+1. En la ficha desplegable **Usuarios**, seleccione **Nuevo** para crear una cuenta de dispositivo móvil y establezca los siguientes valores para ella:
 
     - **Id. de usuario:** introduzca un id. exclusivo.
     - **Nombre de usuario:** introduzca un nombre para el Id.
@@ -92,7 +92,7 @@ La estación de empaquetado se considera una ubicación. Los empleados del almac
 ### <a name="set-up-warehouse-management-parameters"></a>Configurar parámetros de gestión de almacenes
 
 1. Vaya a **Gestión de almacenes \> Configuración \> Parámetros de gestión de almacenes**.
-1. En la pestaña **General** , en la ficha desplegable **Tipos de ubicación** , establezca el campo **Tipo de ubicación de ordenación** en *ORDENAR*.
+1. En la pestaña **General**, en la ficha desplegable **Tipos de ubicación**, establezca el campo **Tipo de ubicación de ordenación** en *ORDENAR*.
 1. En el panel Acciones, seleccione **Guardar**.
 
 ### <a name="set-up-a-location-profile"></a>Configurar un perfil de ubicación
@@ -104,12 +104,12 @@ La estación de empaquetado se considera una ubicación. Los empleados del almac
     - **Id. de perfil de ubicación:** *Ordenación*
     - **Nombre:** *Ordenación*
 
-1. En la ficha desplegable **General** , establezca los valores siguientes:
+1. En la ficha desplegable **General**, establezca los valores siguientes:
 
     - **Formato de ubicación:** *ASRB* (pasillo, estantería, balda y hueco)
     - **Tipo de ubicación:** *ORDENAR*
     - **Usar seguimiento de matrículas de entidad de almacén:** *Sí*
-    - **Permitir artículos combinados:** *Sí* (Cuando configura esta opción en *Sí* , la opción **Permitir lotes de inventario mixtos** se configura automáticamente en *Sí* y no se puede cambiar de forma independiente).
+    - **Permitir artículos combinados:** *Sí* (Cuando configura esta opción en *Sí*, la opción **Permitir lotes de inventario mixtos** se configura automáticamente en *Sí* y no se puede cambiar de forma independiente).
 
 1. Seleccione **Guardar**.
 
@@ -119,7 +119,7 @@ La estación de empaquetado se considera una ubicación. Los empleados del almac
 1. En el encabezado, borre la casilla **Generar dígitos de control para la ubicación**.
 1. En el panel de acciones, seleccione **Nuevo** para crear una ubicación y establecer los siguientes valores para él:
 
-    - **Almacén** : *62*
+    - **Almacén**: *62*
     - **Ubicación:** *SORT*
     - **Id. de perfil de ubicación:** *ORDENACIÓN*
 
@@ -138,23 +138,23 @@ En este escenario, creará una plantilla de ordenación de salida para crear pal
     - **Id. de plantilla de ordenación de salida:** *AutoWork*
     - **Descripción:** *Creación de AutoWork*
     - **Tipo de plantilla de ordenación de salida:** *Contenedor*
-    - **Almacén** : *62*
+    - **Almacén**: *62*
     - **Ubicación:** *SORT*
 
-1. En la ficha desplegable **General** , establezca los valores siguientes:
+1. En la ficha desplegable **General**, establezca los valores siguientes:
 
     - **Comprobación del orden:** *Escaneo de posición*.
     - **Crear trabajo en posición cerrada:** *Sí*
 
-        Si la opción se establece en *Sí* , cuando la posición se cierre, se creará el trabajo para mover el inventario a la ubicación de envío final. Si se establece en *No* , el inventario se seleccionará inmediatamente para el pedido cuando se cierre la posición.
+        Si la opción se establece en *Sí*, cuando la posición se cierre, se creará el trabajo para mover el inventario a la ubicación de envío final. Si se establece en *No*, el inventario se seleccionará inmediatamente para el pedido cuando se cierre la posición.
 
     - **Asignación de posición:** *Automática*
 
-        Si este campo se establece en *Manual* , el usuario debe indicar siempre en qué posición se debe ordenar el inventario. Si este campo se establece en *Automático* , el sistema automáticamente dirigirá el inventario a una posición cuando sea posible, en función de los descansos de la plantilla de ordenación.
+        Si este campo se establece en *Manual*, el usuario debe indicar siempre en qué posición se debe ordenar el inventario. Si este campo se establece en *Automático*, el sistema automáticamente dirigirá el inventario a una posición cuando sea posible, en función de los descansos de la plantilla de ordenación.
 
 1. Seleccione **Guardar** para hacer que el botón **Editar consulta** esté disponible en el panel de acciones.
 1. En el panel de acciones, seleccione **Editar consulta**.
-1. En el cuadro editor de consultas, en la pestaña **Ordenación** , seleccione una línea que tenga los siguientes valores:
+1. En el cuadro editor de consultas, en la pestaña **Ordenación**, seleccione una línea que tenga los siguientes valores:
 
     - **Tabla:** *Envíos*
     - **Tabla derivada:** *Envíos*
@@ -170,11 +170,11 @@ En este escenario, creará una plantilla de ordenación de salida para crear pal
     El botón **Descansos de la plantilla de ordenación de salida** del panel de acciones estará disponible.
 
 1. En el panel de acciones, seleccione **Descansos de la plantilla de ordenación de salida**.
-1. En el cuadro de diálogo **Criterios de ordenación de salida** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Criterios de ordenación de salida**, establezca los siguientes valores:
 
     - **Nombre de la tabla de referencia:** *Envíos*
     - **Nombre del campo de referencia:** *Servicio de transportista*
-    - **Agrupar por campo** : seleccione esta casilla para agrupar los envíos por servicio de transportista.
+    - **Agrupar por campo**: seleccione esta casilla para agrupar los envíos por servicio de transportista.
 
 1. Seleccione **Aceptar** para guardar la configuración y cerrar el cuadro de diálogo.
 
@@ -187,9 +187,9 @@ En este escenario, creará una plantilla de ordenación de salida para crear pal
     - **Directiva de embalaje de contenedores:** *Ordenar*
     - **Descripción:** *Ordenar*
 
-1. En la ficha desplegable **Visión general** , establezca los valores siguientes:
+1. En la ficha desplegable **Visión general**, establezca los valores siguientes:
 
-    - **Almacén** : *62*
+    - **Almacén**: *62*
     - **Ubicación predeterminada para ordenación:** *ORDENAR*
     - **Unidad de peso:** *kg*
     - **Directiva de cierre del contenedor:** *Liberación automática*
@@ -209,7 +209,7 @@ Cree un nuevo perfil de embalaje que se usará junto con la funcionalidad de ord
     - **Directiva de embalaje de contenedores:** *Ordenar*
     - **Modo del id. de contenedor:** *Automático*
     - **Tipo de contenedor:** *Caja grande*
-    - **Crear contenedor automáticamente al cerrar el contenedor:** Desactivado (= *No* )
+    - **Crear contenedor automáticamente al cerrar el contenedor:** Desactivado (= *No*)
 
 1. Seleccione **Guardar**.
 
@@ -241,15 +241,15 @@ Cree un elemento de menú del dispositivo móvil para crear pallets durante la o
     - **Modo:** *Indirecto*
     - **Usar trabajo existente:** *No*
 
-1. En la ficha desplegable **General** , establezca los valores siguientes:
+1. En la ficha desplegable **General**, establezca los valores siguientes:
 
     - **Código de actividad:** *Ordenación de salida*
 
-        Cuando este campo se establece en *Ordenación de salida* , aparece el campo **Id. de plantilla de ordenación de salida**.
+        Cuando este campo se establece en *Ordenación de salida*, aparece el campo **Id. de plantilla de ordenación de salida**.
 
     - **Usar guía de proceso:** *Sí*
 
-        Cuando el campo **Código de actividad** se establece en *Ordenación de salida* , esta opción se establece automáticamente en *Sí*.
+        Cuando el campo **Código de actividad** se establece en *Ordenación de salida*, esta opción se establece automáticamente en *Sí*.
 
     - **Id. de plantilla de ordenación de salida:** *AutoWork*
 
@@ -268,8 +268,8 @@ A continuación, cree un elemento de menú que permita a los usuarios mover los 
     - **Modo:** *Trabajo*
     - **Usar trabajo existente:** *Sí*
 
-1. En la ficha desplegable **General** , establezca el campo **Dirigido por** en *Dirigido por el usuario*.
-1. En la ficha desplegable **Clases de trabajo** , seleccione **Nuevo** y luego establezca los valores siguientes:
+1. En la ficha desplegable **General**, establezca el campo **Dirigido por** en *Dirigido por el usuario*.
+1. En la ficha desplegable **Clases de trabajo**, seleccione **Nuevo** y luego establezca los valores siguientes:
 
     - **Id. de la clase de trabajo:** *ORDENAR*
     - **Tipo de orden de trabajo:** *Selección de inventario ordenado*
@@ -283,7 +283,7 @@ Ahora debe agregar los nuevos elementos del menú al menú del dispositivo móvi
 1. Vaya a **Administración de almacenes \> Configuración \> Dispositivo móvil \> Menú del dispositivo móvil**.
 1. Seleccione el menú **Saliente**.
 1. En el panel Acciones, seleccione **Editar**.
-1. En la columna **Menús disponibles y elementos de menú** , busque y seleccione **Crear pallet**.
+1. En la columna **Menús disponibles y elementos de menú**, busque y seleccione **Crear pallet**.
 1. Seleccione el botón de flecha derecha para mover **Crear pallet** a la columna **Estructura del menú**.
 1. Use los botones de flecha arriba y flecha abajo para poner el elemento del menú **Crear pallet** en la posición deseada del menú del dispositivo móvil.
 1. Seleccione **Guardar**.
@@ -300,32 +300,32 @@ Las *directivas de ubicación* son reglas que ayudan a identifica las ubicacione
 1. En el panel de acciones, haga clic en **Nueva**.
 1. Establezca los siguientes valores en el encabezado:
 
-    - **Secuencia** : *1*
+    - **Secuencia**: *1*
     - **Nombre:** *Baydoor*
 
-1. En la ficha desplegable **Directivas generales** , establezca los valores siguientes:
+1. En la ficha desplegable **Directivas generales**, establezca los valores siguientes:
 
-    - **Tipo de trabajo** : *Ubicar*
-    - **Sitio** : *6*
-    - **Almacén** : *62*
+    - **Tipo de trabajo**: *Ubicar*
+    - **Sitio**: *6*
+    - **Almacén**: *62*
     - **Varios SKU:** *No*
 
 1. Seleccione **Guardar** para tener disponible la barra de herramientas en la ficha desplegable **Líneas**.
-1. En la ficha desplegable **Líneas** , seleccione **Nuevo** y luego establezca los valores siguientes en la nueva línea. Acepte los valores predeterminados del resto de campos.
+1. En la ficha desplegable **Líneas**, seleccione **Nuevo** y luego establezca los valores siguientes en la nueva línea. Acepte los valores predeterminados del resto de campos.
 
-    - **Secuencia** : *1*
+    - **Secuencia**: *1*
     - **De:** *0*
     - **A:** *1 000 000*
 
 1. Seleccione **Guardar** para tener disponible la barra de herramientas de la ficha desplegable **Acciones directivas de ubicación**.
-1. En la ficha desplegable **Acciones de directiva de ubicación** , seleccione **Nuevo** y luego establezca los valores siguientes en la nueva línea. Acepte los valores predeterminados del resto de campos.
+1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione **Nuevo** y luego establezca los valores siguientes en la nueva línea. Acepte los valores predeterminados del resto de campos.
 
-    - **Secuencia** : *1*
+    - **Secuencia**: *1*
     - **Nombre:** *Baydoor*
 
 1. Seleccione **Guardar**.
-1. En la ficha desplegable **Acciones de directiva de ubicación** , seleccione **Editar consulta**.
-1. En el editor de consultas, en la pestaña **Rango** , busque la fila donde el campo **Campo** esté establecido en *Ubicación*. Seleccione el campo **Criterios** en esta fila para *Baydoor*.
+1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione **Editar consulta**.
+1. En el editor de consultas, en la pestaña **Rango**, busque la fila donde el campo **Campo** esté establecido en *Ubicación*. Seleccione el campo **Criterios** en esta fila para *Baydoor*.
 1. Seleccione **Aceptar** para guardar los ajustes y cerrar el editor de consultas.
 
 #### <a name="set-up-a-multiple-sku-directive"></a>Configurar varias directivas SKU
@@ -335,32 +335,32 @@ Las *directivas de ubicación* son reglas que ayudan a identifica las ubicacione
 1. En el panel de acciones, haga clic en **Nueva**.
 1. Establezca los siguientes valores en el encabezado:
 
-    - **Secuencia** : *2*
+    - **Secuencia**: *2*
     - **Nombre:** *Baydoor Multi*
 
-1. En la ficha desplegable **Directivas generales** , establezca los valores siguientes:
+1. En la ficha desplegable **Directivas generales**, establezca los valores siguientes:
 
-    - **Tipo de trabajo** : *Ubicar*
-    - **Sitio** : *6*
-    - **Almacén** : *62*
+    - **Tipo de trabajo**: *Ubicar*
+    - **Sitio**: *6*
+    - **Almacén**: *62*
     - **SKU múltiple:** *Sí*
 
 1. Seleccione **Guardar** para tener disponible la barra de herramientas en la ficha desplegable **Líneas**.
-1. En la ficha desplegable **Líneas** , seleccione **Nuevo** y luego establezca los valores siguientes en la nueva línea. Acepte los valores predeterminados del resto de campos.
+1. En la ficha desplegable **Líneas**, seleccione **Nuevo** y luego establezca los valores siguientes en la nueva línea. Acepte los valores predeterminados del resto de campos.
 
-    - **Secuencia** : *1*
+    - **Secuencia**: *1*
     - **De:** *0*
     - **A:** *1 000 000*
 
 1. Seleccione **Guardar** para tener disponible la barra de herramientas de la ficha desplegable **Acciones directivas de ubicación**.
-1. En la ficha desplegable **Acciones de directiva de ubicación** , seleccione **Nuevo** y luego establezca los valores siguientes en la nueva línea. Acepte los valores predeterminados del resto de campos.
+1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione **Nuevo** y luego establezca los valores siguientes en la nueva línea. Acepte los valores predeterminados del resto de campos.
 
-    - **Secuencia** : *1*
+    - **Secuencia**: *1*
     - **Nombre:** *Baydoor Multi*
 
 1. Seleccione **Guardar**.
-1. En la ficha desplegable **Acciones de directiva de ubicación** , seleccione **Editar consulta**.
-1. En el editor de consultas, en la pestaña **Rango** , busque la fila donde el campo **Campo** esté establecido en *Ubicación*. Seleccione el campo **Criterios** en esta fila para *Baydoor*.
+1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione **Editar consulta**.
+1. En el editor de consultas, en la pestaña **Rango**, busque la fila donde el campo **Campo** esté establecido en *Ubicación*. Seleccione el campo **Criterios** en esta fila para *Baydoor*.
 1. Seleccione **Aceptar** para guardar los ajustes y cerrar el editor de consultas.
 
 ### <a name="set-up-work-templates"></a>Configurar plantillas de trabajo
@@ -368,21 +368,21 @@ Las *directivas de ubicación* son reglas que ayudan a identifica las ubicacione
 1. Vaya a **Administración de almacenes \> Configuración \> Trabajo \> Plantillas de trabajo**.
 1. Cambie el valor del campo **Tipo de orden de trabajo** a *Selección de inventario ordenado*.
 1. En el panel de acciones, seleccione **Nuevo** para crear una plantilla de trabajo.
-1. En la pestaña **Visión general** , establezca los valores siguientes:
+1. En la pestaña **Visión general**, establezca los valores siguientes:
 
-    - **Secuencia** : *1*
+    - **Secuencia**: *1*
     - **Plantilla de trabajo:** *Ordenar*
     - **Descripción de plantilla de trabajo:** *Ordenar*
 
 1. Seleccione **Guardar** para tener disponible la ficha desplegable **Detalles de plantilla de trabajo**.
-1. En la ficha desplegable **Detalles de plantilla de trabajo** , seleccione **Nuevo** para agregar una línea y luego establecer los siguientes valores en ella:
+1. En la ficha desplegable **Detalles de plantilla de trabajo**, seleccione **Nuevo** para agregar una línea y luego establecer los siguientes valores en ella:
 
-    - **Tipo de trabajo** : *Recoger*
+    - **Tipo de trabajo**: *Recoger*
     - **Id. de la clase de trabajo:** *ORDENAR*
 
 1. Seleccione de nuevo **Nuevo** para agregar una segunda línea y establezca los valores siguientes:
 
-    - **Tipo de trabajo** : *Ubicar*
+    - **Tipo de trabajo**: *Ubicar*
     - **Id. de la clase de trabajo:** *ORDENAR*
 
 1. Seleccione **Guardar**.
@@ -397,63 +397,63 @@ Este escenario simula una situación en la que los contenedores empaquetados deb
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. En el panel de acciones, haga clic en **Nueva**.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
     - **Cuenta de cliente:** *US-005*
-    - **Almacén** : *62*
+    - **Almacén**: *62*
 
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
 
     Se abre el nuevo pedido de ventas.
 
 1. Cambie a la vista **Encabezado**.
-1. En la ficha desplegable **Entrega** , en la sección **Transporte** , establezca los siguientes valores:
+1. En la ficha desplegable **Entrega**, en la sección **Transporte**, establezca los siguientes valores:
 
     - **Transportista de envío:** *Carga aérea*
     - **Servicio de transportista:** *Aire*
 
 1. Cambie a la vista **Líneas**.
-1. Si no se agrega automáticamente una línea nueva vacía a la cuadrícula en la ficha desplegable **Líneas de pedido de venta** , seleccione **Agregar línea** para agregar una.
+1. Si no se agrega automáticamente una línea nueva vacía a la cuadrícula en la ficha desplegable **Líneas de pedido de venta**, seleccione **Agregar línea** para agregar una.
 1. En la nueva línea de pedido, establezca los siguientes valores:
 
     - **Código de artículo:** *A0001*
     - **Cantidad:** *2*
 
-1. Con la nueva línea de pedido seleccionada en la ficha desplegable **Líneas de pedido de ventas** , en el menú **Inventario** sobre la cuadrícula seleccione **Reserva**.
-1. En la página **Reserva** , seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
+1. Con la nueva línea de pedido seleccionada en la ficha desplegable **Líneas de pedido de ventas**, en el menú **Inventario** sobre la cuadrícula seleccione **Reserva**.
+1. En la página **Reserva**, seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
 1. Cierre la página **Reserva** para volver al pedido de ventas.
-1. En el panel de acciones, en la pestaña **Almacén** , en el grupo **Acciones** , seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén**, en el grupo **Acciones**, seleccione **Liberar al almacén**.
 1. Recibirá un mensaje informativo que muestra el envío y la oleada de este pedido. Anote los números del id. de la oleada y de id. del envío.
 
 #### <a name="sales-order-2"></a>Pedido de ventas 2
 
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. En el panel de acciones, haga clic en **Nueva**.
-1. En el cuadro de diálogo **Crear pedido de ventas** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
 
     - **Cuenta de cliente:** *US-006*
-    - **Almacén** : *62*
+    - **Almacén**: *62*
 
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
 1. Se abre el nuevo pedido de ventas. Debe incluir una nueva línea vacía en la cuadrícula en la ficha desplegable **Líneas de pedido de venta**. En esta línea de pedido, establezca los siguientes valores:
 
-    - **Artículo** : *A0001*
+    - **Artículo**: *A0001*
     - **Cantidad:** *1*
 
-1. Sobre la ficha desplegable **Detalles de línea** , en la pestaña **Entrega** , configure el campo **Modo de entrega** en *Flowe-STD*.
-1. En la ficha desplegable **Líneas de pedido de ventas** , seleccione **Agregar línea** y luego establezca los valores siguientes en la segunda línea.
+1. Sobre la ficha desplegable **Detalles de línea**, en la pestaña **Entrega**, configure el campo **Modo de entrega** en *Flowe-STD*.
+1. En la ficha desplegable **Líneas de pedido de ventas**, seleccione **Agregar línea** y luego establezca los valores siguientes en la segunda línea.
 
-    - **Artículo** : *A0002*
+    - **Artículo**: *A0002*
     - **Cantidad:** *1*
 
-1. En la ficha desplegable **Detalles de línea** , en la pestaña **Entrega** , cambie el valor de **Modo de entrega** a *Air C-Air*.
-1. En la ficha desplegable **Líneas de pedido de ventas** , seleccione la primera línea. A continuación, en el menú **Inventario** sobre la cuadrícula, seleccione **Reserva**.
-1. En la página **Reserva** , seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
+1. En la ficha desplegable **Detalles de línea**, en la pestaña **Entrega**, cambie el valor de **Modo de entrega** a *Air C-Air*.
+1. En la ficha desplegable **Líneas de pedido de ventas**, seleccione la primera línea. A continuación, en el menú **Inventario** sobre la cuadrícula, seleccione **Reserva**.
+1. En la página **Reserva**, seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
 1. Cierre la página **Reserva** para volver al pedido de ventas.
-1. En la ficha desplegable **Líneas de pedido de ventas** , seleccione la segunda línea. A continuación, en el menú **Inventario** sobre la cuadrícula, seleccione **Reserva**.
-1. En la página **Reserva** , seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
+1. En la ficha desplegable **Líneas de pedido de ventas**, seleccione la segunda línea. A continuación, en el menú **Inventario** sobre la cuadrícula, seleccione **Reserva**.
+1. En la página **Reserva**, seleccione **Reservar lote** para reservar la cantidad completa de la línea seleccionada en el almacén.
 1. Cierre la página **Reserva** para volver al pedido de ventas.
-1. En el panel de acciones, en la pestaña **Almacén** , en el grupo **Acciones** , seleccione **Liberar al almacén**.
+1. En el panel de acciones, en la pestaña **Almacén**, en el grupo **Acciones**, seleccione **Liberar al almacén**.
 1. Recibirá un mensaje informativo que muestra el envío y la oleada de este pedido. Observe que se han creado dos números de Id. de oleada y dos números de Id. de envío, uno para cada modo de entrega para las líneas de pedido de ventas.
 
 #### <a name="get-the-work-ids-from-the-work-details"></a>Obtenga los Id. de trabajo de los detalles del trabajo
@@ -467,35 +467,35 @@ Complete el trabajo creado utilizando el dispositivo móvil para mover los eleme
 
 1. En el dispositivo móvil, inicie sesión en el almacén *62* utilizando el id. de usuario que creó para este escenario (o el Id. de usuario de un usuario de datos de demostración existente).
 1. En el menú principal, seleccione **Saliente**.
-1. En el menú **Saliente** , seleccione **Selección de ventas**.
-1. En el campo **Id.** , introduzca el Id. de trabajo que se creó para el pedido de ventas 1.
+1. En el menú **Saliente**, seleccione **Selección de ventas**.
+1. En el campo **Id.**, introduzca el Id. de trabajo que se creó para el pedido de ventas 1.
 1. Seleccione **Aceptar**.
-1. En la página **Pedidos de venta: Picking** , introduzca una matrícula de destino que se creó para el pedido de ventas 1. Observe que aparecen la ubicación de picking ( *bulk-001* ), articulo ( *A0001* ) y cantidad ( *2 piezas* ).
+1. En la página **Pedidos de venta: Picking**, introduzca una matrícula de destino que se creó para el pedido de ventas 1. Observe que aparecen la ubicación de picking (*bulk-001*), articulo (*A0001*) y cantidad (*2 piezas*).
 1. Seleccione **Aceptar**.
 1. Revise la información en la página **Órdenes de venta: Colocar**. El campo **Loc** debe indicar que los elementos seleccionados van a la ubicación *Paquete*.
 1. Seleccione **Aceptar**.
 
-    En la página **Escanear una identificación de trabajo / identificación de matrícula de entidad** , recibirá un mensaje de "Trabajo completado", que indica que el id. de trabajo del pedido de ventas 1 se ha completado.
+    En la página **Escanear una identificación de trabajo / identificación de matrícula de entidad**, recibirá un mensaje de "Trabajo completado", que indica que el id. de trabajo del pedido de ventas 1 se ha completado.
 
     Ahora seleccionará el pedido de ventas 2.
 
-1. En el campo **Id.** , introduzca el Id. de trabajo que se creó para el pedido de ventas 2, donde la línea 1 tiene el artículo *A0001*.
+1. En el campo **Id.**, introduzca el Id. de trabajo que se creó para el pedido de ventas 2, donde la línea 1 tiene el artículo *A0001*.
 1. Seleccione **Aceptar**.
-1. En la página **Pedidos de venta: Picking** , introduzca una matrícula de destino. Observe que aparecen la ubicación de picking ( *bulk-001* ), articulo ( *A0001* ) y cantidad ( *1 piezas* ).
-1. Seleccione **Aceptar**.
-1. Revise la información en la página **Órdenes de venta: Colocar**. El campo **Loc** debe indicar que los elementos seleccionados van a la ubicación *Paquete*.
-1. Seleccione **Aceptar**.
-
-    En la página **Escanear una identificación de trabajo / identificación de matrícula de entidad** , recibirá un mensaje de "Trabajo completado". Este mensaje indica que el id. de trabajo de la línea 1 del pedido de ventas 2 se ha completado.
-
-1. En el campo **Id.** , introduzca el Id. de trabajo que se creó para el pedido de ventas 2, donde la línea 2 tiene el artículo *A0002*.
-1. Seleccione **Aceptar**.
-1. En la página **Pedidos de venta: Picking** , introduzca una matrícula de destino. Observe que aparecen la ubicación de picking ( *bulk-002* ), articulo ( *A0001* ) y cantidad ( *1 piezas* ).
+1. En la página **Pedidos de venta: Picking**, introduzca una matrícula de destino. Observe que aparecen la ubicación de picking (*bulk-001*), articulo (*A0001*) y cantidad (*1 piezas*).
 1. Seleccione **Aceptar**.
 1. Revise la información en la página **Órdenes de venta: Colocar**. El campo **Loc** debe indicar que los elementos seleccionados van a la ubicación *Paquete*.
 1. Seleccione **Aceptar**.
 
-    En la página **Escanear una identificación de trabajo / identificación de matrícula de entidad** , recibirá un mensaje de "Trabajo completado". Este mensaje indica que el id. de trabajo de la línea 2 del pedido de ventas 2 se ha completado.
+    En la página **Escanear una identificación de trabajo / identificación de matrícula de entidad**, recibirá un mensaje de "Trabajo completado". Este mensaje indica que el id. de trabajo de la línea 1 del pedido de ventas 2 se ha completado.
+
+1. En el campo **Id.**, introduzca el Id. de trabajo que se creó para el pedido de ventas 2, donde la línea 2 tiene el artículo *A0002*.
+1. Seleccione **Aceptar**.
+1. En la página **Pedidos de venta: Picking**, introduzca una matrícula de destino. Observe que aparecen la ubicación de picking (*bulk-002*), articulo (*A0001*) y cantidad (*1 piezas*).
+1. Seleccione **Aceptar**.
+1. Revise la información en la página **Órdenes de venta: Colocar**. El campo **Loc** debe indicar que los elementos seleccionados van a la ubicación *Paquete*.
+1. Seleccione **Aceptar**.
+
+    En la página **Escanear una identificación de trabajo / identificación de matrícula de entidad**, recibirá un mensaje de "Trabajo completado". Este mensaje indica que el id. de trabajo de la línea 2 del pedido de ventas 2 se ha completado.
 
 ### <a name="pack-sales-orders-into-containers"></a>Embalaje de pedidos de venta en contenedores
 
@@ -507,58 +507,58 @@ Complete el trabajo creado utilizando el dispositivo móvil para mover los eleme
 
 1. Establezca los siguientes valores para ver y trabajar en envíos y contenedores que están planificados en la ubicación de embalaje específica:
 
-    - **Sitio** : *6*
-    - **Almacén** : *62*
+    - **Sitio**: *6*
+    - **Almacén**: *62*
     - **Ubicación:** *Paquete*
     - **Id. de perfil de empaquetado:** *Ordenar*
 
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
-1. En la página **Paquete** , en el campo **Matrícula o envío** , introduzca la matrícula de destino para el pedido de venta 1. Luego seleccione la **Pestaña** o la tecla **Entrar** en su teclado para salir del campo.
+1. En la página **Paquete**, en el campo **Matrícula o envío**, introduzca la matrícula de destino para el pedido de venta 1. Luego seleccione la **Pestaña** o la tecla **Entrar** en su teclado para salir del campo.
 1. En el panel de acciones, seleccione **Nuevo contenedor**.
 1. Acepte todas las configuraciones predeterminadas y seleccione **Aceptar**. Anote el id. de contenedor.
-1. En la ficha desplegable **Embalaje de artículo** , establezca los valores siguientes:
+1. En la ficha desplegable **Embalaje de artículo**, establezca los valores siguientes:
 
     - **Cantidad:** *1*
     - **Identificador:** Articulo *A0001*
 
 1. En el panel de acciones, seleccione **Cerrar contenedor**.
-1. En el cuadro de diálogo **Cerrar contenedor** , seleccione **Obtener peso del sistema** para que el sistema actualice el campo **Peso bruto**.
+1. En el cuadro de diálogo **Cerrar contenedor**, seleccione **Obtener peso del sistema** para que el sistema actualice el campo **Peso bruto**.
 1. Seleccione **Aceptar**. El contenedor se mueve a la ubicación *ORDENAR* y está listo para ordenar.
 1. Cree un segundo contenedor para agregar el segundo artículo de la matrícula para el pedido de ventas 1 a un nuevo contenedor.
 1. En el panel de acciones, seleccione **Nuevo contenedor**.
 1. Acepte todas las configuraciones predeterminadas y seleccione **Aceptar**. Anote el id. de contenedor.
-1. En la ficha desplegable **Embalaje de artículo** , establezca los valores siguientes:
+1. En la ficha desplegable **Embalaje de artículo**, establezca los valores siguientes:
 
     - **Cantidad:** *1*
     - **Identificador:** Articulo *A0001*
 
 1. En el panel de acciones, seleccione **Cerrar contenedor**.
-1. En el cuadro de diálogo **Cerrar contenedor** , seleccione **Obtener peso del sistema** para que el sistema actualice el campo **Peso bruto**.
+1. En el cuadro de diálogo **Cerrar contenedor**, seleccione **Obtener peso del sistema** para que el sistema actualice el campo **Peso bruto**.
 1. Seleccione **Aceptar**. El contenedor se mueve a la ubicación *ORDENAR* y está listo para ordenar.
 
 #### <a name="pack-sales-order-2-into-containers"></a>Embalaje de pedido de venta 2 en contenedores
 
-1. En la página **Paquete** , en el campo **Matrícula o envío** , introduzca la matrícula de destino para la línea 1 del pedido de venta 2. Luego seleccione la **Pestaña** o la tecla **Entrar** en su teclado para salir del campo.
+1. En la página **Paquete**, en el campo **Matrícula o envío**, introduzca la matrícula de destino para la línea 1 del pedido de venta 2. Luego seleccione la **Pestaña** o la tecla **Entrar** en su teclado para salir del campo.
 1. En el panel de acciones, seleccione **Nuevo contenedor**.
 1. Acepte todas las configuraciones predeterminadas y seleccione **Aceptar**. Anote el id. de contenedor.
-1. En la ficha desplegable **Embalaje de artículo** , establezca los valores siguientes:
+1. En la ficha desplegable **Embalaje de artículo**, establezca los valores siguientes:
 
     - **Cantidad:** *1*
     - **Identificador:** Articulo *A0001*
 
 1. En el panel de acciones, seleccione **Cerrar contenedor**.
-1. En el cuadro de diálogo **Cerrar contenedor** , seleccione **Obtener peso del sistema** para que el sistema actualice el campo **Peso bruto**.
+1. En el cuadro de diálogo **Cerrar contenedor**, seleccione **Obtener peso del sistema** para que el sistema actualice el campo **Peso bruto**.
 1. Seleccione **Aceptar**. El contenedor se mueve a la ubicación *ORDENAR* y está listo para ordenar.
-1. En el campo **Matrícula o envío** , introduzca la matrícula de destino para la línea 2 del pedido de venta 2. Luego seleccione la **Pestaña** o la tecla **Entrar** en su teclado para salir del campo.
+1. En el campo **Matrícula o envío**, introduzca la matrícula de destino para la línea 2 del pedido de venta 2. Luego seleccione la **Pestaña** o la tecla **Entrar** en su teclado para salir del campo.
 1. En el panel de acciones, seleccione **Nuevo contenedor**.
 1. Acepte todas las configuraciones predeterminadas y seleccione **Aceptar**. Anote el id. de contenedor.
-1. En la ficha desplegable **Embalaje de artículo** , establezca los valores siguientes:
+1. En la ficha desplegable **Embalaje de artículo**, establezca los valores siguientes:
 
     - **Cantidad:** *1*
     - **Campo identificador:** Artículo *A0002*
 
 1. En el panel de acciones, seleccione **Cerrar contenedor**.
-1. En el cuadro de diálogo **Cerrar contenedor** , seleccione **Obtener peso del sistema** para que el sistema actualice el campo **Peso bruto**.
+1. En el cuadro de diálogo **Cerrar contenedor**, seleccione **Obtener peso del sistema** para que el sistema actualice el campo **Peso bruto**.
 1. Seleccione **Aceptar**. El contenedor se mueve a la ubicación *ORDENAR* y está listo para ordenar.
 
 Para ver los detalles del contenedor, vaya a **Gestión de almacenes \> Embalaje y puesta en contenedores \> Contenedores** y busque los Id. de contenedores que se crearon durante el embalaje.
@@ -574,13 +574,13 @@ Para ver los detalles del contenedor, vaya a **Gestión de almacenes \> Embalaje
 
 1. En el dispositivo móvil, inicie sesión en el almacén *62* utilizando el id. de usuario que creó para este escenario (o el Id. de usuario de un usuario de datos de demostración existente).
 1. En el menú principal, seleccione **Saliente**.
-1. En el menú **Saliente** , seleccione **Crear pallet**.
-1. En el campo **Matrícula de entidad de almacén/Con** , introduzca el primer Id. de contenedor asociado con el pedido de ventas 1.
+1. En el menú **Saliente**, seleccione **Crear pallet**.
+1. En el campo **Matrícula de entidad de almacén/Con**, introduzca el primer Id. de contenedor asociado con el pedido de ventas 1.
 1. Seleccione **Aceptar**.
-1. Como actualmente no existen posiciones de ordenación, debe especificar una. En el campo **Id. de posición de ordenación** , escriba *SP01*.
-1. Como actualmente no hay matrículas asociadas a la posición de ordenación *SP01* , debe especificar una. En el campo **Matrícula** , introduzca *PLP01*.
+1. Como actualmente no existen posiciones de ordenación, debe especificar una. En el campo **Id. de posición de ordenación**, escriba *SP01*.
+1. Como actualmente no hay matrículas asociadas a la posición de ordenación *SP01*, debe especificar una. En el campo **Matrícula**, introduzca *PLP01*.
 1. Seleccione **Aceptar**.
-1. Como la validación de posición de ordenación está activada, debe introducir nuevamente el id. de posición de ordenación. En el campo **Id. de posición de ordenación** , escriba *SP01*.
+1. Como la validación de posición de ordenación está activada, debe introducir nuevamente el id. de posición de ordenación. En el campo **Id. de posición de ordenación**, escriba *SP01*.
 1. Seleccione **Aceptar**.
 
     Recibe un mensaje "Trabajo completado".
@@ -594,23 +594,23 @@ Para ver los detalles del contenedor, vaya a **Gestión de almacenes \> Embalaje
 
 1. En el dispositivo móvil, inicie sesión en el almacén *62* utilizando el id. de usuario que creó para este escenario (o el Id. de usuario de un usuario de datos de demostración existente).
 1. En el menú principal, seleccione **Saliente**.
-1. En el menú **Saliente** , seleccione **Crear pallet**.
-1. En el campo **Matrícula de entidad de almacén/Con** , introduzca el segundo Id. de contenedor asociado con el pedido de ventas 1.
+1. En el menú **Saliente**, seleccione **Crear pallet**.
+1. En el campo **Matrícula de entidad de almacén/Con**, introduzca el segundo Id. de contenedor asociado con el pedido de ventas 1.
 1. Seleccione **Aceptar**. Como la plantilla de ordenación está configurada para ordenar automáticamente, y ya existe una posición de ordenación que tiene criterios coincidentes, se le dirige automáticamente a la posición de ordenación correcta.
 1. Seleccione **Aceptar**.
-1. Confirme el Id. de posición de ordenación para indicar que el inventario está en el lugar correcto. En el campo **Id. de posición de ordenación** , escriba *SP01*.
+1. Confirme el Id. de posición de ordenación para indicar que el inventario está en el lugar correcto. En el campo **Id. de posición de ordenación**, escriba *SP01*.
 1. Seleccione **Aceptar**.
 
     El trabajo se completa en el segundo contenedor del pedido de venta 1. Ahora ordenará los contenedores restantes del pedido de venta 2.
 
-1. En el campo **Matrícula de entidad de almacén/Con** , introduzca el Id. del contenedor del contenedor del pedido de venta 2 que contiene el artículo *A0001*. Como el servicio de transportista es diferente, se le solicita que introduzca una nueva posición de ordenación y asigne una matrícula a esa posición. Usar posición de ordenación *SP02* y la matrícula *PLP02*.
+1. En el campo **Matrícula de entidad de almacén/Con**, introduzca el Id. del contenedor del contenedor del pedido de venta 2 que contiene el artículo *A0001*. Como el servicio de transportista es diferente, se le solicita que introduzca una nueva posición de ordenación y asigne una matrícula a esa posición. Usar posición de ordenación *SP02* y la matrícula *PLP02*.
 1. Seleccione **Aceptar**.
 1. Confirme la posición de ordenación introduciendo *SP02* en el campo **Id. de posición de ordenación**.
 1. Seleccione **Aceptar**.
 
     El trabajo se completa en el contenedor.
 
-1. En el campo **Matrícula de entidad de almacén/Con** , introduzca el Id. del contenedor restante del pedido de venta 2 que contiene el artículo *A0002*. Como el servicio de transportista es el mismo que el servicio de transportista del pedido de venta 1, el sistema muestra la posición de ordenación existente que tiene criterios coincidentes.
+1. En el campo **Matrícula de entidad de almacén/Con**, introduzca el Id. del contenedor restante del pedido de venta 2 que contiene el artículo *A0002*. Como el servicio de transportista es el mismo que el servicio de transportista del pedido de venta 1, el sistema muestra la posición de ordenación existente que tiene criterios coincidentes.
 1. Seleccione **Aceptar**.
 1. Confirme la posición de ordenación introduciendo *SP01* en el campo **Id. de posición de ordenación**.
 1. Seleccione **Aceptar**.
@@ -625,8 +625,8 @@ Cuando se haya ordenado todo el inventario, la posición debe cerrarse para pode
 
 1. En el dispositivo móvil, inicie sesión en el almacén *62* utilizando el id. de usuario que creó para este escenario (o el Id. de usuario de un usuario de datos de demostración existente).
 1. En el menú principal, seleccione **Saliente**.
-1. En el menú **Saliente** , seleccione **Crear pallet**.
-1. En el campo **Matrícula de entidad de almacén/Con** , introduzca un Id. de contenedor que se haya ordenado a la posición de ordenación *SP01*.
+1. En el menú **Saliente**, seleccione **Crear pallet**.
+1. En el campo **Matrícula de entidad de almacén/Con**, introduzca un Id. de contenedor que se haya ordenado a la posición de ordenación *SP01*.
 1. Seleccione **Aceptar**.
 1. Recibirá el siguiente mensaje: "El contenedor ya está ordenado en la posición SP01. ¿Desea cerrar la posición?" Seleccione **Cerrar**.
 
@@ -647,21 +647,21 @@ Debe completar el trabajo de selección de inventario ordenado. Cuando se comple
 
 1. En el dispositivo móvil, inicie sesión en el almacén *62* utilizando el id. de usuario que creó para este escenario (o el Id. de usuario de un usuario de datos de demostración existente).
 1. En el menú principal, seleccione **Saliente**.
-1. En el menú **Saliente** , seleccione **Cargar desde ordenación**.
+1. En el menú **Saliente**, seleccione **Cargar desde ordenación**.
 1. Introduzca el id. de matrícula de destino de la primera posición de ordenación, *SP01*. Establezca el campo **Id.** en *PLP01*.
 1. Seleccione **Aceptar**.
-1. La página **Selección de inventario ordenado: selección** muestra el trabajo de selección que debe realizarse. Seleccione la ubicación *ORDENAR* y la matrícula de destino *PLP01* , que tiene varios artículos y una cantidad de *3*.
+1. La página **Selección de inventario ordenado: selección** muestra el trabajo de selección que debe realizarse. Seleccione la ubicación *ORDENAR* y la matrícula de destino *PLP01*, que tiene varios artículos y una cantidad de *3*.
 1. Seleccione **Aceptar**.
-1. La página **Selección de inventario ordenado: colocación** muestra el trabajo de colocación que debe realizarse. Realice la colocación en la ubicación *Baydoor* y la matrícula de destino *PLP01* , que tiene varios artículos y una cantidad de *3*.
+1. La página **Selección de inventario ordenado: colocación** muestra el trabajo de colocación que debe realizarse. Realice la colocación en la ubicación *Baydoor* y la matrícula de destino *PLP01*, que tiene varios artículos y una cantidad de *3*.
 1. Seleccione **Aceptar**.
 
     El trabajo se completó.
 
 1. Introduzca el id. de matrícula de destino de la segunda posición de ordenación, *SP02*. Establezca el campo **Id.** en *PLP02*.
 1. Seleccione **Aceptar**.
-1. La página **Selección de inventario ordenado: selección** muestra el trabajo de selección que debe realizarse. Seleccione la ubicación *ORDENAR* y la matrícula de destino *PLP02* , que tiene varios artículos y una cantidad de *1*.
+1. La página **Selección de inventario ordenado: selección** muestra el trabajo de selección que debe realizarse. Seleccione la ubicación *ORDENAR* y la matrícula de destino *PLP02*, que tiene varios artículos y una cantidad de *1*.
 1. Seleccione **Aceptar**.
-1. La página **Selección de inventario ordenado: colocación** muestra el trabajo de colocación que debe realizarse. Realice la colocación en la ubicación *Baydoor* y la matrícula de destino *PLP02* , que tiene varios artículos y una cantidad de *1*.
+1. La página **Selección de inventario ordenado: colocación** muestra el trabajo de colocación que debe realizarse. Realice la colocación en la ubicación *Baydoor* y la matrícula de destino *PLP02*, que tiene varios artículos y una cantidad de *1*.
 1. Seleccione **Aceptar**.
 
     El trabajo se completó.

@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017518"
+ms.locfileid: "4437245"
 ---
 # <a name="immediate-replenishment"></a>Reabastecimiento inmediato
 
@@ -47,7 +47,7 @@ El reabastecimiento inmediato se usa durante la ejecución de una oleada si fall
 
 ## <a name="set-up-immediate-replenishment"></a>Configure el reabastecimiento inmediato
 
-- Vaya a **Administración de almacenes** \> **Configuración** \> **Directivas de la ubicación** y, a continuación, en la pestaña **Líneas** , en la lista **Plantilla de reabastecimiento inmediato** , seleccione una plantilla de reabastecimiento para la demanda de la oleada.
+- Vaya a **Administración de almacenes** \> **Configuración** \> **Directivas de la ubicación** y, a continuación, en la pestaña **Líneas** , en la lista **Plantilla de reabastecimiento inmediato**, seleccione una plantilla de reabastecimiento para la demanda de la oleada.
 
 Se aplica la plantilla de reabastecimiento si la línea de directiva de la ubicación no puede asignar una unidad de medida dedicada.
 

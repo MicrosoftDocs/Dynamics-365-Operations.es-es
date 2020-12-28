@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888914"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436956"
 ---
 # <a name="schedule-work-orders"></a>Programar órdenes de trabajo
 
@@ -88,7 +88,7 @@ En los siguientes ejemplos, la puntuación de la importancia es "2" y las puntua
 | WO-00010817   | Dos días a partir de ahora   | 2                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
 | WO-00010818   | Dos días a partir de ahora   | 3                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
-Las órdenes de trabajo se programarán en el siguiente orden: WO-000108**16**, WO-000108**18**, WO-000108**17**.
+Las órdenes de trabajo se programarán en el siguiente orden: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **Ejemplo 2:**
 
@@ -98,7 +98,7 @@ Las órdenes de trabajo se programarán en el siguiente orden: WO-000108**16**, 
 | WO-00010817   | Dos días a partir de ahora   | 2                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Dos días a partir de ahora   | 3                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Si la puntuación del nivel de servicio se aumenta a '100' en lugar de '5', el orden de programación será: WO-000108**18**, WO-000108**16**, WO-000108**17**.
+Si la puntuación del nivel de servicio se aumenta a '100' en lugar de '5', el orden de programación será: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
 
 Todas las puntuaciones relativas al cálculo de los trabajadores de mantenimiento que deben trabajar en las órdenes de trabajo se configuran como números, que se agregan a cada cálculo del trabajador de mantenimiento durante la programación de la orden de trabajo. Se selecciona el trabajador de mantenimiento con la puntuación más alta en la orden de trabajo. A continuación se describen brevemente las puntuaciones del trabajador de mantenimiento:
 

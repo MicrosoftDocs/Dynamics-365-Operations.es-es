@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015973"
+ms.locfileid: "4437208"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Configuración de la reasignación de artículos para la selección corta
 
@@ -43,21 +43,21 @@ Es posible definir varias excepciones de trabajo con directivas de la reasignaci
 
 Para crear este procedimiento se utiliza la empresa de datos de prueba USMF.
 
-1. En el **Panel de navegación** , vaya a **Administración de almacenes > Configuración > Trabajo > Excepciones de trabajo**.
+1. En el **Panel de navegación**, vaya a **Administración de almacenes > Configuración > Trabajo > Excepciones de trabajo**.
 2. Haga clic en **Nuevo** 
-3. En el campo **Código de excepción de trabajo** , escriba un valor. Este será el título de esta excepción. Por ejemplo, manual de picking corto.
-4. En el campo **Descripción** , escriba un valor. Esta será una descripción breve del uso de esta excepción. Por ejemplo, Picking corto: elemento no disponible.
-5. En el campo **Tipo de excepción** , seleccione **Picking corto**.
+3. En el campo **Código de excepción de trabajo**, escriba un valor. Este será el título de esta excepción. Por ejemplo, manual de picking corto.
+4. En el campo **Descripción**, escriba un valor. Esta será una descripción breve del uso de esta excepción. Por ejemplo, Picking corto: elemento no disponible.
+5. En el campo **Tipo de excepción**, seleccione **Picking corto**.
 6. Active la casilla **Ajustar inventario**. Se está seleccionada, el inventario se ajustará automáticamente a 0 en la ubicación de picking corto.
-7. En el campo **Código de tipo de ajuste predeterminado** , especifique o seleccione un valor. Por ejemplo, en USMF puede seleccionar **Quitar Res Adj Out**. Cada código de tipo de ajuste contiene cuatro características: nombre, descripción, nombre de diario de inventario y **Quitar reservas**. Si **Quitar reservas** está habilitada, se quitarán las reservas de la línea de pedido de picking corto.  
-8. En el campo **Reasignación de artículos** , seleccione un valor, como Manual. Si selecciona Manual o Automático y manual, el trabajador del almacén debe estar habilitado para usar la reasignación manual.
+7. En el campo **Código de tipo de ajuste predeterminado**, especifique o seleccione un valor. Por ejemplo, en USMF puede seleccionar **Quitar Res Adj Out**. Cada código de tipo de ajuste contiene cuatro características: nombre, descripción, nombre de diario de inventario y **Quitar reservas**. Si **Quitar reservas** está habilitada, se quitarán las reservas de la línea de pedido de picking corto.  
+8. En el campo **Reasignación de artículos**, seleccione un valor, como Manual. Si selecciona Manual o Automático y manual, el trabajador del almacén debe estar habilitado para usar la reasignación manual.
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Configurar un trabajador para usar la reasignación manual de artículos
 
 Para crear este procedimiento se utiliza la empresa de datos de prueba USMF.
 
 1. Cierre la página.
-2. En el **Panel de navegación** , vaya a **Administración de almacenes > Configuración > Trabajador**.
+2. En el **Panel de navegación**, vaya a **Administración de almacenes > Configuración > Trabajador**.
 3. Haga clic en **Editar**.
 4. En la lista, seleccione un trabajador. Por ejemplo, Julia Funderburk.
 5. Expanda la ficha desplegable **Usuarios**.

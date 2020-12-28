@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016640"
+ms.locfileid: "4437251"
 ---
 # <a name="quality-check"></a>Control de calidad
 
@@ -44,10 +44,10 @@ Este proceso también se puede configurar para que todas las matrículas de enti
 
 ## <a name="turn-on-the-quality-check-feature"></a>Active la función de control de calidad
 
-Antes de poder usar la característica *Control de calidad* , debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones** , la función aparece de la siguiente forma:
+Antes de poder usar la característica *Control de calidad*, debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
-- **Nombre de la característica** : *Control de calidad*
+- **Nombre de la característica**: *Control de calidad*
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configure la función para el escenario de ejemplo
 
@@ -65,22 +65,22 @@ La plantilla de control de calidad define las reglas para realizar controles rá
 1. Seleccione **Nuevo** para agregar una plantilla a la cuadrícula.
 1. Establezca los siguientes valores para definir la plantilla nueva:
 
-    - **Nombre de la plantilla de control de calidad** : *Comprobación de muelle*
+    - **Nombre de la plantilla de control de calidad**: *Comprobación de muelle*
 
         Especifique un nombre que identifique las políticas aplicadas para esta plantilla.
 
-    - **Política de aceptación** : *Preguntar al usuario*
+    - **Política de aceptación**: *Preguntar al usuario*
 
         Especifique si se debe solicitar a los usuarios que acepten o rechacen la calidad del inventario mientras procesan el trabajo, o si la calidad debe rechazarse automáticamente. Las opciones disponibles son *Rechazo automático* y *Preguntar al usuario*.
 
-    - **Directiva de procesamiento de calidad** : *Crear orden de calidad*
+    - **Directiva de procesamiento de calidad**: *Crear orden de calidad*
 
         Seleccionar la directiva que se utilizará cuando se rechaza la calidad del inventario. Las siguientes opciones están disponibles:
 
-        - *Crear solo trabajo* : simplemente se crea trabajo para facilitar el movimiento del inventario.
-        - *Crear pedido de calidad* : crear un pedido de calidad para facilitar las pruebas de calidad.
+        - *Crear solo trabajo*: simplemente se crea trabajo para facilitar el movimiento del inventario.
+        - *Crear pedido de calidad*: crear un pedido de calidad para facilitar las pruebas de calidad.
 
-    - **Grupo de prueba** : *Recinto*
+    - **Grupo de prueba**: *Recinto*
 
         Especifique el grupo de prueba que se debe usar en el pedido de calidad que se crea. Los grupos de prueba se configuran en el módulo **Gestión de inventarios**.
 
@@ -94,19 +94,19 @@ Las clases de trabajo se usan para dirigir y/o para limitar el tipo de líneas d
 1. Seleccione **Nuevo** para crear una clase de trabajo.
 1. Establezca los siguientes valores en el encabezado:
 
-    - **Id. de la clase de trabajo** : *Control de calidad*
+    - **Id. de la clase de trabajo**: *Control de calidad*
 
         Especifique un nombre que identifique la clase de trabajo.
 
-    - **Descripción** : *Control de calidad*
+    - **Descripción**: *Control de calidad*
 
         Escriba una breve descripción que indique para qué se utiliza la clase de trabajo.
 
-    - **Tipo de orden de trabajo** : *Calidad en control de calidad*
+    - **Tipo de orden de trabajo**: *Calidad en control de calidad*
 
         Seleccione el tipo de orden de trabajo que crea la clase de trabajo. Cuando configure el trabajo de control de calidad, seleccione siempre *Calidad en control de calidad*.
 
-1. En la ficha desplegable **Tipos de ubicación de colocación válidos** , deje el campo **Tipo de ubicación** en blanco.
+1. En la ficha desplegable **Tipos de ubicación de colocación válidos**, deje el campo **Tipo de ubicación** en blanco.
 
     Si selecciona un tipo de ubicación, limita las ubicaciones donde se pueden colocar los artículos después de que se seleccionan. El capo se usa cuando una directiva de ubicación intenta resolver la ubicación, o si un trabajador del almacén especifica manualmente la ubicación para el elemento de menú del dispositivo móvil.
 
@@ -121,14 +121,14 @@ La página Plantillas de trabajo le permite definir las operaciones de trabajo q
 1. Vaya a **Administración de almacenes \> Configuración \> Trabajo \> Plantillas de trabajo**.
 1. En el encabezado, establezca el campo **Tipo de orden de trabajo** en *Pedidos de compra*.
 1. En el panel Acciones, seleccione **Editar**.
-1. Seleccione una plantilla de trabajo que incluya un paso de control de calidad. En la sección **Visión general** , en el campo **Plantilla de trabajo** , seleccione *Recibo de 51 PO*.
-1. En la sección **Detalles de plantilla de trabajo** , observe que la cuadrícula tiene dos líneas existentes: una para *Recoger* y otra para *Colocar*.
-1. En la sección **Detalles de plantilla de trabajo** , seleccione **Nuevo** para agregar una fila para el control de calidad a la cuadrícula. Tenga en cuenta que el campo **Número de línea** para la nueva línea se establece en *3*.
+1. Seleccione una plantilla de trabajo que incluya un paso de control de calidad. En la sección **Visión general**, en el campo **Plantilla de trabajo**, seleccione *Recibo de 51 PO*.
+1. En la sección **Detalles de plantilla de trabajo**, observe que la cuadrícula tiene dos líneas existentes: una para *Recoger* y otra para *Colocar*.
+1. En la sección **Detalles de plantilla de trabajo**, seleccione **Nuevo** para agregar una fila para el control de calidad a la cuadrícula. Tenga en cuenta que el campo **Número de línea** para la nueva línea se establece en *3*.
 1. En la nueva línea, establezca los siguientes valores. Acepte los valores predeterminados del resto de campos.
 
-    - **Tipo de trabajo** : *Control de calidad*
-    - **Id. de la clase de trabajo** : *Compra*
-    - **Nombre de la plantilla de control de calidad** : *Comprobación de muelle*
+    - **Tipo de trabajo**: *Control de calidad*
+    - **Id. de la clase de trabajo**: *Compra*
+    - **Nombre de la plantilla de control de calidad**: *Comprobación de muelle*
 
         Seleccione el identificador único de la clase de trabajo. Usa este valor para configurar los elementos de menú en el dispositivo móvil y los tipos de trabajo que estos elementos de menú pueden procesar.
 
@@ -138,7 +138,7 @@ La página Plantillas de trabajo le permite definir las operaciones de trabajo q
 
 1. Siga estos pasos para cambiar el valor **Número de línea** para la nueva línea:
 
-    1. En la sección **Detalles de plantilla de trabajo** , seleccione la línea donde el campo **Tipo de trabajo** se establece en *Control de calidad*.
+    1. En la sección **Detalles de plantilla de trabajo**, seleccione la línea donde el campo **Tipo de trabajo** se establece en *Control de calidad*.
     2. Seleccione el botón **Ascender** o **Descender** para mover la línea *Control de calidad* para que esté después de la línea *Recoger*.
 
 1. En el panel Acciones, seleccione **Guardar**.
@@ -147,30 +147,30 @@ La página Plantillas de trabajo le permite definir las operaciones de trabajo q
 
 A continuación, cree una plantilla de trabajo para el control de calidad.
 
-1. En el encabezado de la página **Plantillas de trabajo** , cambie el valor de **Tipo de orden de trabajo** a *Calidad en control de calidad*.
+1. En el encabezado de la página **Plantillas de trabajo**, cambie el valor de **Tipo de orden de trabajo** a *Calidad en control de calidad*.
 1. En el panel Acciones, seleccione **Nuevo** para agregar una fila a la cuadrícula en la sección **Visión general**.
 1. Establezca los siguientes valores en la fila nueva:
 
-    - **Plantilla de trabajo** : *Control de calidad 51*
+    - **Plantilla de trabajo**: *Control de calidad 51*
 
         Especifique un nombre para la plantilla.
 
-    - **Descripción de plantilla de trabajo** : *Control de calidad 51*
+    - **Descripción de plantilla de trabajo**: *Control de calidad 51*
 
 1. En el panel Acciones, seleccione **Guardar** para tener disponible la sección **Detalles de plantilla de trabajo**.
-1. Mientras la nueva plantilla todavía está seleccionada en la sección **Visión general** , seleccione **Nuevo** en la sección **Detalles de la plantilla de trabajo** para agregar una fila a la cuadrícula allí.
+1. Mientras la nueva plantilla todavía está seleccionada en la sección **Visión general**, seleccione **Nuevo** en la sección **Detalles de la plantilla de trabajo** para agregar una fila a la cuadrícula allí.
 1. Establezca los siguientes valores en la fila nueva:
 
-    - **Tipo de trabajo** : *Recoger*
-    - **Id. de la clase de trabajo** : *Control de calidad*
+    - **Tipo de trabajo**: *Recoger*
+    - **Id. de la clase de trabajo**: *Control de calidad*
 
         Seleccione el nombre de la [clase de trabajo](#work-class) que creó anteriormente para el trabajo de control de calidad.
 
-1. En la sección **Detalles de la plantilla de trabajo** , vuelva a seleccionar **Nuevo** para agregar otra fila.
+1. En la sección **Detalles de la plantilla de trabajo**, vuelva a seleccionar **Nuevo** para agregar otra fila.
 1. Establezca los siguientes valores en la fila nueva:
 
-    - **Tipo de trabajo** : *Ubicar*
-    - **Id. de la clase de trabajo** : *Control de calidad*
+    - **Tipo de trabajo**: *Ubicar*
+    - **Id. de la clase de trabajo**: *Control de calidad*
 
         Seleccione el nombre de la [clase de trabajo](#work-class) que creó anteriormente para el trabajo de control de calidad.
 
@@ -188,38 +188,38 @@ Las directivas de ubicación son reglas que ayudan a identifica las ubicaciones 
 1. Establezca los siguientes valores en el encabezado:
 
     - **Número de secuencia:** acepte el valor predeterminado.
-    - **Nombre** : *51 a calidad*
+    - **Nombre**: *51 a calidad*
 
-1. En la ficha desplegable **Directivas generales** , establezca los valores siguientes. Acepte los valores predeterminados del resto de campos.
+1. En la ficha desplegable **Directivas generales**, establezca los valores siguientes. Acepte los valores predeterminados del resto de campos.
 
-    - **Tipo de trabajo** : *Ubicar*
-    - **Sitio** : *5*
-    - **Almacén** : *51*
+    - **Tipo de trabajo**: *Ubicar*
+    - **Sitio**: *5*
+    - **Almacén**: *51*
 
 1. En el panel Acciones, seleccione **Guardar** para guardar la directiva y que la ficha desplegable **Líneas** esté disponible.
-1. En la ficha desplegable **Líneas** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la ficha desplegable **Líneas**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. En la nueva línea, establezca los siguientes valores. Acepte los valores predeterminados del resto de campos.
 
-    - **Cantidad inicial** : *1*
-    - **Cantidad final** : *1000000*
+    - **Cantidad inicial**: *1*
+    - **Cantidad final**: *1000000*
 
 1. En el panel Acciones, seleccione **Guardar** para guardar la línea nueva y que la ficha desplegable **Acciones de directiva de ubicación** esté disponible.
-1. Mientras la nueva línea todavía está seleccionada en la ficha desplegable **Líneas** , seleccione **Nuevo** en la ficha desplegable **Ubicación de acciones de directiva** para agregar una fila a la cuadrícula allí, para que pueda configurar una acción para la línea.
+1. Mientras la nueva línea todavía está seleccionada en la ficha desplegable **Líneas**, seleccione **Nuevo** en la ficha desplegable **Ubicación de acciones de directiva** para agregar una fila a la cuadrícula allí, para que pueda configurar una acción para la línea.
 1. En la nueva fila, establezca el campo **Nombre** en *Calidad*. Acepte los valores predeterminados del resto de campos.
 1. En el panel Acciones, seleccione **Guardar** para tener disponible el botón **Editar consulta** en la ficha desplegable **Acciones de directiva de ubicación**.
-1. Si bien la línea que acaba de agregar todavía está seleccionada en la ficha desplegable **Ubicación de las acciones de directiva** , seleccione **Editar consulta** , para abrir un cuadro de diálogo donde puede editar la consulta de la acción.
-1. En la pestaña **Intervalo** , seleccione **Agregar** para agregar una fila a la consulta.
+1. Si bien la línea que acaba de agregar todavía está seleccionada en la ficha desplegable **Ubicación de las acciones de directiva**, seleccione **Editar consulta**, para abrir un cuadro de diálogo donde puede editar la consulta de la acción.
+1. En la pestaña **Intervalo**, seleccione **Agregar** para agregar una fila a la consulta.
 1. Establezca los siguientes valores en la fila nueva:
 
-    - **Tabla** : *Ubicaciones*
+    - **Tabla**: *Ubicaciones*
     - **Tabla derivada:** *Ubicaciones*
     - **Campo:** *Ubicación*
-    - **Criterios** : *QMS*
+    - **Criterios**: *QMS*
 
     La ubicación *QMS* es una ubicación de almacén de calidad.
 
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
-1. Ahora debe cambiar la secuencia de las directivas de ubicación de pedidos de compra para el almacén *51*. Guardar la nueva directiva de ubicación *51 a Calidad* , actualice la página y seleccione la directiva de ubicación en la lista. Luego use los botones **Ascender** y **Descender** en el panel Acciones para colocar la directiva de ubicación para el almacén *51* en el siguiente orden. (Antes de seleccionar **Ascender** o **Descender** , debe seleccionar una directiva de ubicación en la lista).
+1. Ahora debe cambiar la secuencia de las directivas de ubicación de pedidos de compra para el almacén *51*. Guardar la nueva directiva de ubicación *51 a Calidad*, actualice la página y seleccione la directiva de ubicación en la lista. Luego use los botones **Ascender** y **Descender** en el panel Acciones para colocar la directiva de ubicación para el almacén *51* en el siguiente orden. (Antes de seleccionar **Ascender** o **Descender**, debe seleccionar una directiva de ubicación en la lista).
 
     1. 51 a Calidad
     2. 51 PO directo
@@ -234,14 +234,14 @@ Configure un elemento de menú para que los dispositivos móviles puedan realiza
 1. Vaya a **Administración de almacenes \> Configurar \> Dispositivo móvil \> Elementos de menú del dispositivo móvil**.
 1. En la lista, seleccione el elemento de menú **Ubicación de compra**.
 1. En el panel Acciones, seleccione **Editar**.
-1. En la sección **Clases de trabajo** , seleccione **Nuevo** para agregar una línea a la cuadrícula.
+1. En la sección **Clases de trabajo**, seleccione **Nuevo** para agregar una línea a la cuadrícula.
 1. Establezca los siguientes valores en la fila nueva:
 
-    - **Id. de la clase de trabajo** : *Control de calidad*
+    - **Id. de la clase de trabajo**: *Control de calidad*
 
         Especifique el nombre de la [clase de trabajo](#work-class) que creó anteriormente para el trabajo de control de calidad.
 
-    - **Tipo de orden de trabajo** : *Calidad en control de calidad*
+    - **Tipo de orden de trabajo**: *Calidad en control de calidad*
 
 1. En el panel Acciones, seleccione **Guardar**.
 
@@ -256,11 +256,11 @@ Configure un elemento de menú para que los dispositivos móviles puedan realiza
     - **Modo:** *Trabajo*
     - **Usar trabajo existente:** *No*
 
-1. En la ficha desplegable **General** , establezca los valores siguientes. Acepte los valores predeterminados del resto de campos.
+1. En la ficha desplegable **General**, establezca los valores siguientes. Acepte los valores predeterminados del resto de campos.
 
     - **Proceso de creación de trabajo** *Recepción y colocación de línea de pedido de compra*
     - **Generar matrícula de entidad de almacén:** *Sí*
-    - **Plantilla de trabajo:** : *Recepción de 51 PO*
+    - **Plantilla de trabajo:**: *Recepción de 51 PO*
 
 1. En el panel Acciones, seleccione **Guardar**.
 
@@ -269,9 +269,9 @@ Configure un elemento de menú para que los dispositivos móviles puedan realiza
 1. Vaya a **Administración de almacenes \> Configuración \> Dispositivo móvil \> Menú del dispositivo móvil**.
 1. En el panel de la izquierda, selección el menú **Entrada**.
 1. En el panel Acciones, seleccione **Editar**.
-1. En la columna **Menús disponibles y elementos de menú** , seleccione el nuevo elemento de menú **Recepción de línea de pedido**.
+1. En la columna **Menús disponibles y elementos de menú**, seleccione el nuevo elemento de menú **Recepción de línea de pedido**.
 1. Seleccione el botón de flecha derecha para mover **Recepción de línea de pedido+** a la columna **Estructura del menú**.
-1. En la columna **Estructura del menú** , seleccione **Recepción de línea de pedido** y luego seleccione el botón de flecha hacia arriba o hacia abajo para mover el elemento del menú a la posición deseada en el menú del dispositivo móvil.
+1. En la columna **Estructura del menú**, seleccione **Recepción de línea de pedido** y luego seleccione el botón de flecha hacia arriba o hacia abajo para mover el elemento del menú a la posición deseada en el menú del dispositivo móvil.
 1. En el panel Acciones, seleccione **Guardar**.
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Supuesto de ejemplo
@@ -282,13 +282,13 @@ Después de haber puesto a disposición todos los datos de ejemplo descritos ant
 
 1. Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra**.
 1. En el panel de acciones, haga clic en **Nueva**.
-1. En el cuadro de diálogo **Crear pedido de compras** , establezca los siguientes valores:
+1. En el cuadro de diálogo **Crear pedido de compras**, establezca los siguientes valores:
 
     - **Cuenta del proveedor:** *104*
-    - **Almacén** : *51*
+    - **Almacén**: *51*
 
 1. Seleccione **Aceptar** para crear el nuevo cuadro de diálogo y abrir el nuevo pedido de compras.
-1. En la ficha desplegable **Líneas de pedido de ventas** , la cuadrícula contiene una nueva línea vacía. En esta línea, establezca los siguientes valores:
+1. En la ficha desplegable **Líneas de pedido de ventas**, la cuadrícula contiene una nueva línea vacía. En esta línea, establezca los siguientes valores:
 
     - **Código de artículo:** *M9203*
     - **Cantidad:** *3*
@@ -304,14 +304,14 @@ Una vez que se ha creado el pedido de compra, se puede recibir utilizando el ele
 
 1. Inicie sesión en la aplicación de almacén como un usuario en el almacén *51*. (Escriba *51* como el identificador de usuario y *1* como la contraseña).
 1. Vaya a **Entrante \> Recepción de línea de pedido**.
-1. En el campo **PONUM** , introduzca el número de orden de compra.
+1. En el campo **PONUM**, introduzca el número de orden de compra.
 1. Confirme el número pedido de compra.
-1. En el capo **LINENO** , escriba el número de la línea de pedido de compra que se está recibiendo. Debido a que el pedido solo tiene una línea en este escenario, especificará *1* en el campo **LINENO** para cada paso de recepción.
+1. En el capo **LINENO**, escriba el número de la línea de pedido de compra que se está recibiendo. Debido a que el pedido solo tiene una línea en este escenario, especificará *1* en el campo **LINENO** para cada paso de recepción.
 1. Confirmar el número de línea.
-1. En el campo **CANT.** , indique la cantidad a recibir. Debido a que el pedido de compra es para tres pallets ( *PL* ) en este escenario, y hay tres pasos de recepción, ingresará *1* en el camp **CANT.** para cada paso de recepción.
+1. En el campo **CANT.**, indique la cantidad a recibir. Debido a que el pedido de compra es para tres pallets (*PL*) en este escenario, y hay tres pasos de recepción, ingresará *1* en el camp **CANT.** para cada paso de recepción.
 1. Confirme la cantidad.
 
-    La página **Control de calidad** que aparece no tiene campos de entrada. Solo tiene el botón de confirmación (marca de verificación) en la parte inferior y el botón Menú ( **≡** ) en la parte superior. (El botón Menú a veces se denomina hamburguesa o botón de hamburguesa). Para acelerar el proceso de control de calidad, cuando el pallet pase el control de calidad, el usuario simplemente confirma la página **Control de calidad**.
+    La página **Control de calidad** que aparece no tiene campos de entrada. Solo tiene el botón de confirmación (marca de verificación) en la parte inferior y el botón Menú (**≡**) en la parte superior. (El botón Menú a veces se denomina hamburguesa o botón de hamburguesa). Para acelerar el proceso de control de calidad, cuando el pallet pase el control de calidad, el usuario simplemente confirma la página **Control de calidad**.
 
     ![Página Control de calidad](media/quality-check.png "Página Control de calidad")
 
@@ -319,13 +319,13 @@ Una vez que se ha creado el pedido de compra, se puede recibir utilizando el ele
 
     La página **Pedidos de compra: colocar** que aparece muestra detalles del trabajo de colocación:
 
-    - **UBI.** : la ubicación determinada por el sistema.
+    - **UBI.**: la ubicación determinada por el sistema.
 
         Esta ubicación es la ubicación de almacenamiento designada para recibir el pedido de compra.
 
-    - **LP** : el identificador de la matricula de entidad generado por el sistema.
-    - **Artículo** : *M9203*
-    - **Cant.** : *1 PL: 100 ea*
+    - **LP**: el identificador de la matricula de entidad generado por el sistema.
+    - **Artículo**: *M9203*
+    - **Cant.**: *1 PL: 100 ea*
 
     La descripción del artículo también se muestra.
 
@@ -337,23 +337,23 @@ Una vez que se ha creado el pedido de compra, se puede recibir utilizando el ele
 
 Para este escenario, el pallet 2 será rechazado.
 
-1. En campo **LINENO** , especifique *1* y confirme el número de línea.
+1. En campo **LINENO**, especifique *1* y confirme el número de línea.
 1. El campo **CANT.** está ahora disponible. Escriba *1* y confirme la cantidad.
 
     Aparece la página **Control de calidad**. Para este recibo, el pallet será rechazado por calidad y se colocará en la ubicación de calidad *QMS*.
 
-1. Seleccione el botón Menú ( **≡** ) en la parte superior de la página y luego, en el menú, seleccione **Rechazar**.
+1. Seleccione el botón Menú (**≡**) en la parte superior de la página y luego, en el menú, seleccione **Rechazar**.
 1. En la página **Tarea** que aparece, especifique **QMS** como la ubicación de *Colocar* para enviar el pallet para una inspección más detallada.
 
     La página **Calidad en control de calidad: colocar** que aparece muestra detalles del trabajo de colocación:
 
-    - **UBI.** : *QMS*
+    - **UBI.**: *QMS*
 
         Esta ubicación es la ubicación de almacenamiento designada para recibir la calidad rechazada.
 
-    - **LP** : el identificador de la matricula de entidad generado por el sistema.
-    - **Artículo** : *M9203*
-    - **Cant.** : *1 PL: 100 ea*
+    - **LP**: el identificador de la matricula de entidad generado por el sistema.
+    - **Artículo**: *M9203*
+    - **Cant.**: *1 PL: 100 ea*
 
     La descripción del artículo también se muestra.
 
@@ -371,7 +371,7 @@ Para obtener más información acerca de la administración de calidad, consulte
 
 Para este escenario, el pallet 3 será aceptado.
 
-1. En campo **LINENO** , especifique *1* y confirme el número de línea.
+1. En campo **LINENO**, especifique *1* y confirme el número de línea.
 1. El campo **CANT.** está ahora disponible. Escriba *1* y confirme la cantidad.
 
     Aparece la página **Control de calidad**. Para este recibo, el pallet será aceptado por calidad y se colocará en la ubicación de colocación masiva.
@@ -380,13 +380,13 @@ Para este escenario, el pallet 3 será aceptado.
 
     La página **Pedidos de compra: colocar** que aparece muestra detalles del trabajo de colocación:
 
-    - **UBI.** : la ubicación determinada por el sistema.
+    - **UBI.**: la ubicación determinada por el sistema.
 
         Esta ubicación es la ubicación de almacenamiento designada para recibir el pedido de compra.
 
-    - **LP** : el identificador de la matricula de entidad generado por el sistema.
-    - **Artículo** : *M9203*
-    - **Cant.** : *1 PL: 100 ea*
+    - **LP**: el identificador de la matricula de entidad generado por el sistema.
+    - **Artículo**: *M9203*
+    - **Cant.**: *1 PL: 100 ea*
 
     La descripción del artículo también se muestra.
 
@@ -394,6 +394,6 @@ Para este escenario, el pallet 3 será aceptado.
 
     En la página **Tarea** para la línea de pedido de compra, recibirá un mensaje de "Trabajo completado". El campo **LINENO** está disponible para que pueda comenzar a recibir el siguiente pallet.
 
-1. Seleccione el botón Menú ( **≡** ) en la parte superior de la página y luego, en el menú, seleccione **Cancelar** para regresar al menú.
+1. Seleccione el botón Menú (**≡**) en la parte superior de la página y luego, en el menú, seleccione **Cancelar** para regresar al menú.
 
 Ahora puede cerrar la aplicación móvil.

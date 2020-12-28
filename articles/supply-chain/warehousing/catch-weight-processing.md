@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016272"
+ms.locfileid: "4437214"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -30,7 +30,7 @@ ms.locfileid: "4016272"
 
 ## <a name="feature-exposure"></a>Exposición de la función
 
-Para usar la gestión de almacén para procesar los productos con peso capturado, debe usar una clave de configuración de la licencia para activar la funcionalidad. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**. A continuación, en la pestaña **Claves de configuración** , expanda **Comercio \> Administración del almacén y el transporte** , y seleccione la casilla para **Peso capturado para el almacén**.
+Para usar la gestión de almacén para procesar los productos con peso capturado, debe usar una clave de configuración de la licencia para activar la funcionalidad. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**. A continuación, en la pestaña **Claves de configuración** , expanda **Comercio \> Administración del almacén y el transporte**, y seleccione la casilla para **Peso capturado para el almacén**.
 
 > [!NOTE]
 > Tanto la clave de configuración de la licencia **Administración del almacén y el transporte** y las claves de configuración de la licencia **Procesar distribución \> Peso capturado** también se deben activar. Para establecer las claves de configuración para el peso capturado, también debe activar la característica a través del espacio de trabajo **Administración de características**. La característica principal que hay que activarse es **Procesamiento de producto con peso capturado con la gestión de almacenes**. Dos características relacionadas pero opcionales que es posible que desee activar son **Cambios en el estado del inventario para productos de peso de captura** y **Use las etiquetas de peso de captura existentes al informar las órdenes de producción como terminadas**.
@@ -97,19 +97,19 @@ El proceso de seguir etiquetas de peso capturado se puede usar para los artícul
 
 Otro parámetro importante relacionado con el procesamiento de las etiquetas de peso capturado es **Método de seguimiento de dimensión de etiqueta de peso capturado**. Las etiquetas se pueden rastrear parcial o completamente. Si una etiqueta se rastrea parcialmente, se rastrean las dimensiones del producto, las dimensiones de seguimiento y el estado del inventario. Si una etiqueta se rastrea completamente, se rastrean las dimensiones del producto, las dimensiones de seguimiento y **todas** las dimensiones de almacenamiento.
 
-Además, cuando se realiza un seguimiento de etiqueta de un artículo, hay un parámetro de **Método de captura de etiqueta de salida**. Puede establecer este parámetro para que siempre se le solicite la etiqueta en las transacciones salientes desde el dispositivo móvil. Como alternativa, puede establecer el parámetro para que solo se le soliciten las etiquetas cuando sean necesarias. Por ejemplo, hay cinco etiquetas de peso capturado en el inventario para una matrícula determinada, y ha indicado que desea elegir las cinco etiquetas de la matrícula. En este caso, si el parámetro **Método de captura de etiqueta de salida** se establece en **Solicitar la etiqueta solo cuando sea necesario** , las cinco etiquetas se seleccionan automáticamente. No tiene que escanear cada etiqueta. Si el parámetro se establece en **Solicitar siempre la etiqueta** , debe escanear cada etiqueta, incluso si se seleccionan las cinco etiquetas.
+Además, cuando se realiza un seguimiento de etiqueta de un artículo, hay un parámetro de **Método de captura de etiqueta de salida**. Puede establecer este parámetro para que siempre se le solicite la etiqueta en las transacciones salientes desde el dispositivo móvil. Como alternativa, puede establecer el parámetro para que solo se le soliciten las etiquetas cuando sean necesarias. Por ejemplo, hay cinco etiquetas de peso capturado en el inventario para una matrícula determinada, y ha indicado que desea elegir las cinco etiquetas de la matrícula. En este caso, si el parámetro **Método de captura de etiqueta de salida** se establece en **Solicitar la etiqueta solo cuando sea necesario**, las cinco etiquetas se seleccionan automáticamente. No tiene que escanear cada etiqueta. Si el parámetro se establece en **Solicitar siempre la etiqueta**, debe escanear cada etiqueta, incluso si se seleccionan las cinco etiquetas.
 
 > [!NOTE]
 > Como regla general, las etiquetas se capturan y actualizan solo desde los elementos del menú del dispositivo móvil. Sin embargo, hay algunos escenarios en los que las etiquetas se capturan en otro lugar (por ejemplo, desde la estación de embalaje manual). Sin embargo, en general, los elementos del menú del dispositivo móvil deben usarse para toda la actividad del almacén si se usan etiquetas.
 
 ### <a name="how-to-capture-catch-weight"></a>¿Cómo capturar el peso capturado?
 
-**Cuando se usa el seguimiento de la etiqueta de peso capturado** , siempre se debe crear una etiqueta para cada unidad de peso capturado recibida, y cada etiqueta debe asociarse siempre a un peso.
+**Cuando se usa el seguimiento de la etiqueta de peso capturado**, siempre se debe crear una etiqueta para cada unidad de peso capturado recibida, y cada etiqueta debe asociarse siempre a un peso.
 
 Por ejemplo, **Caja** es la unidad de peso capturado, y usted recibe un pallet de ocho cajas. En este caso, deberán crearse ocho etiquetas únicas de peso capturado, y un peso se debe asociar a cada etiqueta. En función de la etiqueta de entrada con peso capturado, el peso de las ocho cajas puede capturarse, y el peso medio se puede distribuir a cada caja, o se puede capturar un peso único para cada caja.
 Cuando use la característica **Use las etiquetas de peso de captura existentes al informar las órdenes de producción como terminadas** con el proceso habilitado a través de un elemento de menú del dispositivo móvil, el inventario se actualiza en función de la información de la etiqueta de peso de captura existente. Como resultado, la aplicación de almacén no solicita capturar los datos de la etiqueta de peso de captura como parte de un informe de producción como una operación finalizada.
 
-**Cuando el seguimiento de etiquetas de peso capturado no se usa** , el peso se puede capturar para cada conjunto de dimensiones (por ejemplo, para cada matrícula de entidad y cada dimensión de seguimiento). Como alternativa, el peso se puede capturar en función de un nivel agregado, como cinco matrículas de entidad (pallets).
+**Cuando el seguimiento de etiquetas de peso capturado no se usa**, el peso se puede capturar para cada conjunto de dimensiones (por ejemplo, para cada matrícula de entidad y cada dimensión de seguimiento). Como alternativa, el peso se puede capturar en función de un nivel agregado, como cinco matrículas de entidad (pallets).
 
 Para los métodos de captura de peso saliente, la opción **Por unidad de peso capturado** le permite especificar que la medición de peso debe realizarse para cada unidad de peso capturado (por ejemplo, por caja). La opción **Por unidad de selección** le permite especificar que el peso debe capturarse en función de la cantidad que se va a seleccionar (por ejemplo, tres cajas). Tenga en cuenta que para el proceso de selección de la línea y el de movimiento interno, el peso medio se usará si se usa la opción **No capturado**.
 
@@ -209,4 +209,4 @@ Además de las restricciones que se aplican actualmente para los productos de pe
 - No se admite la funcionalidad de trabajo inverso para artículos de peso capturado que tienen seguimiento de número de etiqueta.
 
 > [!NOTE]
-> La información anterior sobre las etiquetas de peso capturado solo es válida si el producto de peso capturado tiene un método de seguimiento de dimensión de etiqueta de peso capturado para hacer un seguimiento completo (es decir, si el parámetro **Método de seguimiento de dimensión de etiqueta de peso capturado** de la directiva de manipulación de artículos de peso capturado se establece en **Dimensiones del producto, dimensiones de seguimiento y todas las dimensiones de almacenamiento** ). Si solo se realiza un seguimiento parcial de las etiquetas del elemento de peso capturado (es decir, si el parámetro **Método de seguimiento de dimensión de etiqueta de peso capturado** de la directiva de manipulación de artículos de peso capturado se establece en **Dimensiones del producto, dimensiones de seguimiento y estado del inventario** ), se aplican restricciones adicionales. Debido a que, en este caso, se pierde visibilidad entre la etiqueta y el inventario, no se admiten algunos escenarios adicionales.
+> La información anterior sobre las etiquetas de peso capturado solo es válida si el producto de peso capturado tiene un método de seguimiento de dimensión de etiqueta de peso capturado para hacer un seguimiento completo (es decir, si el parámetro **Método de seguimiento de dimensión de etiqueta de peso capturado** de la directiva de manipulación de artículos de peso capturado se establece en **Dimensiones del producto, dimensiones de seguimiento y todas las dimensiones de almacenamiento**). Si solo se realiza un seguimiento parcial de las etiquetas del elemento de peso capturado (es decir, si el parámetro **Método de seguimiento de dimensión de etiqueta de peso capturado** de la directiva de manipulación de artículos de peso capturado se establece en **Dimensiones del producto, dimensiones de seguimiento y estado del inventario**), se aplican restricciones adicionales. Debido a que, en este caso, se pierde visibilidad entre la etiqueta y el inventario, no se admiten algunos escenarios adicionales.

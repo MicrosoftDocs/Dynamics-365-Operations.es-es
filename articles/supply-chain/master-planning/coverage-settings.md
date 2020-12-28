@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b1134f734f1025151a56b2a72266a6baa5763ba4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982729"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437099"
 ---
 # <a name="coverage-settings"></a>Configuración de cobertura
 
@@ -40,7 +40,7 @@ Puede especificar la configuración de cobertura de varios modos:
 
 - Especifique la configuración de cobertura para un producto.
 
-    Puede crear una configuración de cobertura para un producto específico. Vaya a **Gestión de información de productos &gt; Productos &gt; Productos emitidos**. Seleccione el producto y entonces, en el Panel de acciones, en la pestaña **Plan**, en el Grupo de **cobertura**, haga clic en **Cobertura de artículos** para abrir la página **Cobertura de artículos**. Si el producto ya está vinculado a un grupo de cobertura, puede anular la configuración del grupo de cobertura mediante el campo **Reemplazar**. Las opciones de cobertura en la página**Cobertura de artículos** prevalece sobre la configuración en la página **Grupo de cobertura**.
+    Puede crear una configuración de cobertura para un producto específico. Vaya a **Gestión de información de productos &gt; Productos &gt; Productos emitidos**. Seleccione el producto y entonces, en el Panel de acciones, en la pestaña **Plan**, en el Grupo de **cobertura**, haga clic en **Cobertura de artículos** para abrir la página **Cobertura de artículos**. Si el producto ya está vinculado a un grupo de cobertura, puede anular la configuración del grupo de cobertura mediante el campo **Reemplazar**. Las opciones de cobertura en la página **Cobertura de artículos** prevalece sobre la configuración en la página **Grupo de cobertura**.
 
 - Especifique la configuración de cobertura para un producto mediante un asistente.
 

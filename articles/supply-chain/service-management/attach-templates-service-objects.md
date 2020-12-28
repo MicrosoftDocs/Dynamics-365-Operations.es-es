@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e79526dd43f516f2f4abf31276f314cb2498458e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978806"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437035"
 ---
 # <a name="attach-templates-to-service-objects"></a>Adjuntar plantillas a los objetos del servicio    
 
@@ -38,7 +38,7 @@ Una lista de materiales (L. MAT) de plantilla se puede vincular a una relación 
 
 3.  Haga clic en **Acuerdos de servicio** o en **Pedidos de servicio** para ver los acuerdos o pedidos de servicio a los que se ha asociado el objeto de servicio.
 
-4.  Seleccione un acuerdo de servicio o un pedido de servicio, haga clic en **Funciones**y, a continuación haga clic en **Adjuntar L. MAT de plantilla**.
+4.  Seleccione un acuerdo de servicio o un pedido de servicio, haga clic en **Funciones** y, a continuación haga clic en **Adjuntar L. MAT de plantilla**.
 
 5.  Seleccione la plantilla de L. MAT que desee vincular al objeto.
 

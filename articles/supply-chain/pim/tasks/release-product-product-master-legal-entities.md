@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 93b0cb1068d77911983117830618de1f2827fef3
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981071"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4436703"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Liberar un producto o un producto maestro a otras entidades jurídicas
 
