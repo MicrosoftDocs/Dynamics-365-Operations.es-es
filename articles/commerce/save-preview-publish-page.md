@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961619"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415627"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Guardar, obtener una vista previa y publicar una página
 

@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019550"
+ms.locfileid: "4415662"
 ---
 # <a name="add-a-copyright-notice"></a>Agregar un aviso de derechos de autor
 
@@ -42,17 +42,17 @@ Para poder agregar un aviso de derechos de autor al sitio, debe tener los siguie
 Para agregar un aviso de derecho de autor a la parte inferior de cada página que usa una plantilla específica, siga estos pasos.
 
 1. Vaya a **Fragmentos** y seleccione **Nuevo**.
-1. En el cuadro de diálogo **Nuevo fragmento** , seleccione el módulo **Pie de página** y asigne un nombre al fragmento. Por ejemplo, escriba **Pie de página-Derechos de autor**.
+1. En el cuadro de diálogo **Nuevo fragmento**, seleccione el módulo **Pie de página** y asigne un nombre al fragmento. Por ejemplo, escriba **Pie de página-Derechos de autor**.
 1. Seleccione **Aceptar**.
-1. En el panel de navegación, seleccione los puntos suspensivos ( **...** ) junto a **Pie de página** y, a continuación, seleccione **Agregar módulo**.
+1. En el panel de navegación, seleccione los puntos suspensivos (**...**) junto a **Pie de página** y, a continuación, seleccione **Agregar módulo**.
 1. En el cuadro de diálogo, seleccione **Categoría de pie de página** y después seleccione **Aceptar**.
 1. En el panel de navegación, seleccione los puntos suspensivos (...) junto a **Categoría de pie de página** y, a continuación, seleccione **Agregar módulo**.
 1. En el cuadro de diálogo, seleccione **Bloque de texto** y después seleccione **Aceptar**.
 1. En el panel de navegación, seleccione **Bloque de texto**.
-1. En el panel de propiedades de la derecha, en el campo **Párrafo** , agregue su mensaje de derechos de autor. Por ejemplo, especifique **(C) Fabrikam 2019**.
-1. Seleccione **Guardar** , **Finalizar edición** y **Publicar**.
-1. Vaya a **Plantillas** , seleccione la plantilla y, a continuación, seleccione **Editar**.
-1. En **página Esquema** , expanda **Cuerpo** y, a continuación, expanda **Página predeterminada**.
+1. En el panel de propiedades de la derecha, en el campo **Párrafo**, agregue su mensaje de derechos de autor. Por ejemplo, especifique **(C) Fabrikam 2019**.
+1. Seleccione **Guardar**, **Finalizar edición** y **Publicar**.
+1. Vaya a **Plantillas**, seleccione la plantilla y, a continuación, seleccione **Editar**.
+1. En **página Esquema**, expanda **Cuerpo** y, a continuación, expanda **Página predeterminada**.
 1. Seleccione el botón de puntos suspensivos junto a **Espacio de pie de página** y, a continuación, seleccione **Agregar fragmento**.
 1. Seleccione el fragmento que haya creado anteriormente y después, **Seleccionar**.
 1. Seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.

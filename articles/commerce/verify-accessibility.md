@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015112"
+ms.locfileid: "4415661"
 ---
 # <a name="verify-page-content-accessibility"></a>Comprobar la accesibilidad de contenido de página
 
@@ -46,23 +46,23 @@ Para activar la integración de [Microsoft Accessibility Insights](https://acces
 
 1. Inicie sesión en Commerce como administrador del sistema.
 1. En el panel de navegación izquierdo, seleccione **Configuración del suscriptor** (junto al símbolo de engranaje) para expandirlo.
-1. En **Configuración del suscriptor** , seleccione **Características**.
+1. En **Configuración del suscriptor**, seleccione **Características**.
 1. Establezca la opción **Comprobación de accesibilidad** en **Activada**.
 
 ## <a name="turn-on-microsoft-accessibility-insights-for-a-single-site"></a>Active Microsoft Accessibility Insights para un solo sitio
 
 Para activar la integración de [Microsoft Accessibility Insights](https://accessibilityinsights.io/) para un solo sitio de Commerce, siga estos pasos.
 
-1. En **Sitios** , seleccione **Fabrikam** (o el nombre del sitio).
+1. En **Sitios**, seleccione **Fabrikam** (o el nombre del sitio).
 1. En el panel de navegación izquierdo, seleccione **Valores de configuración del sitio** para expandirlo
-1. En **Valor de configuración del sitio** , seleccione **Características**.
+1. En **Valor de configuración del sitio**, seleccione **Características**.
 1. Establezca la opción **Comprobación de accesibilidad** en **Activada**.
 
 ## <a name="verify-the-accessibility-of-the-content-on-the-home-page"></a>Compruebe la accesibilidad del contenido en la página de inicio
 
 Para utilizar el servicio [Microsoft Accessibility Insights](https://accessibilityinsights.io/) integrado para escanear y comprobar el contenido de su página de inicio en Commerce, siga estos pasos.
 
-1. En **Sitios** , seleccione **Fabrikam** (o el nombre del sitio).
+1. En **Sitios**, seleccione **Fabrikam** (o el nombre del sitio).
 1. En el panel de navegación izquierdo, seleccione **Páginas**.
 1. Busque y seleccione la página principal para abrirla en el editor de páginas.
 1. En la barra de comandos, seleccione **Comprobar accesibilidad**. Se abre la página **Comprobar accesibilidad**.

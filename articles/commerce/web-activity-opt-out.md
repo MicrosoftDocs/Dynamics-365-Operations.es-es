@@ -18,11 +18,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 4b0e48307527a8fea729d8dfdcdbc6337be0faf1
-ms.sourcegitcommit: 8058db089b8768076ff1250be77d42a6e2b3f570
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379001"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415554"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Optar por no participar en la recopilación de eventos de actividad web
 [!include [banner](includes/banner.md)]

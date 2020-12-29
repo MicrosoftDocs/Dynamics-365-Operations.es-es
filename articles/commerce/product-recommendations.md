@@ -20,11 +20,11 @@ ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664891"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415408"
 ---
 # <a name="product-recommendations-overview"></a>Visión general de recomendaciones de producto
 
