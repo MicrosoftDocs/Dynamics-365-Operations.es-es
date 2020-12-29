@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 56545e56201180bf73420bf73f9a9f6e7a426b33
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811610"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695046"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Guías de tareas nuevas o actualizadas (noviembre de 2016)
 
@@ -30,7 +29,7 @@ ms.locfileid: "2811610"
 
 En este tema se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (noviembre de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations. No se publicó ninguna biblioteca de introducción nueva.
 
-La Biblioteca unificada APQC (noviembre de 2016: todos los idiomas) contiene las Guías de tareas pensadas para usarse con el fin de obtener ayuda con Microsoft Dynamics 365 for Operations la actualización 3 de la plataforma de Microsoft Dynamics 365 for Operations, la actualización de plataforma 2 de Microsoft Dynamics AX actualización de mayo de 2016 de la aplicación Dynamics AX y el lanzamiento de Microsoft Dynamics AX de febrero de 2016. Para obtener más información sobre estas versiones, consulte [Novedades o cambios en página principal de Finance and Operations](whats-new-changed.md). Las versiones localizadas de las Guías de tarea están disponibles en la biblioteca. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Sistema de Ayuda](help-overview.md).
+La Biblioteca unificada APQC (noviembre de 2016: todos los idiomas) contiene las Guías de tareas pensadas para usarse con el fin de obtener ayuda con Microsoft Dynamics 365 for Operations la actualización 3 de la plataforma de Microsoft Dynamics 365 for Operations, la actualización de plataforma 2 de Microsoft Dynamics AX actualización de mayo de 2016 de la aplicación Dynamics AX y el lanzamiento de Microsoft Dynamics AX de febrero de 2016. Para obtener más información sobre estas versiones, vea [Novedades o cambios en la página de inicio de Finance and Operations](whats-new-changed.md). Las versiones localizadas de las Guías de tarea están disponibles en la biblioteca. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Sistema de Ayuda](help-overview.md).
 
 > [!NOTE]
 > Un asterisco (\*) junto al título de una línea del Modelador de procesos empresariales (BPM) indica que se ha creado la guía de tareas para el proceso empresarial para la actualización de noviembre de 2016 de Dynamics 365 for Operations y que no es compatible con versiones anteriores de Microsoft Dynamics AX.
@@ -289,7 +288,7 @@ La Biblioteca unificada APQC (noviembre de 2016: todos los idiomas) contiene las
 | MX-00010 Consultar e imprimir una factura electrónica                                                                                 | México                            |
 | MX-00010 Registrar una factura de servicio                                                                                                | México                            |
 | MX-00010 Definir parámetros para una factura electrónica                                                                                | México                            |
-| MX-00020: Producir el informe electrónico de cuenta contable mejicano versión 1.1                                                        | México                            |
+| MX-00020: Producir el informe electrónico de cuenta contable mexicano versión 1.1                                                        | México                            |
 | MX-00020 Configuración del plan de cuentas para una entidad jurídica en México                                                               | México                            |
 | MX-00020 - Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas                                                             | México                            |
 | NL-00003 Integración de Semansys XBRL                                                                                               | Países Bajos                       |

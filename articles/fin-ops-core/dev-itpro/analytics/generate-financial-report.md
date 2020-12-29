@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c682ed96e47c718d3a9af1eb10aada75c59d3156
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181850"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688326"
 ---
 # <a name="generate-financial-reports"></a>Generar informes financieros
 
@@ -98,7 +97,7 @@ Para eliminar una programación del informe, debe ser el propietario de la progr
 
 Si no especifica las credenciales necesarias para todas las empresas incluidas en los informes, aparece el siguiente mensaje al guardar la programación del informe: "Debe especificar sus credenciales para las empresas que se incluyen en esta programación del informe. Seleccione el botón Permisos para especificar las credenciales".
 
-Por ejemplo, Yolanda inicia sesión en la Compañía A con su nombre de usuario y contraseña. Crea una programación para un informe que usa una definición del orgnaigrama para recopilar datos de varias empresas. Al guardar la programación del informe, se le solicita a Yolanda que especifique las credenciales para las demás compañías especificadas en la definición de organigrama. Cuando caduquen sus credenciales, los informes afectados en la programación del informe no se generarán hasta que se hayan actualizado las credenciales. Aparecerá un mensaje en la cola de informes para indicar que se deben actualizar los permisos. La programación del informe falla si tienen lugar las siguientes situaciones (porque requieren credenciales):
+Por ejemplo, un usuario inicia sesión en la Compañía A con su nombre de usuario y contraseña. El usuario crea una programación para un informe que usa una definición del organigrama para recopilar datos de varias empresas. Al guardar la programación del informe, se le solicita al usuario que especifique las credenciales para las demás compañías especificadas en la definición de organigrama. Cuando caduquen sus credenciales, los informes afectados en la programación del informe no se generarán hasta que se hayan actualizado las credenciales. Aparecerá un mensaje en la cola de informes para indicar que se deben actualizar los permisos. La programación del informe falla si tienen lugar las siguientes situaciones (porque requieren credenciales):
 
 - Se ha agregado a una nueva empresa a un árbol de informes para un informe individual.
 - Se modificó un informe en un grupo de informes.

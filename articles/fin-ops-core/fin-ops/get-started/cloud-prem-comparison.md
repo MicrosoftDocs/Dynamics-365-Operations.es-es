@@ -3,26 +3,25 @@ title: Comparación de las características en la nube y locales
 description: En este tema se muestran qué características se admiten en la nube y en local.
 author: sericks007
 manager: AnnBe
-ms.date: 10/04/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040108"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694576"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparación de características locales y en la nube
 
@@ -167,9 +166,12 @@ Para ver una lista de capacidades que estén disponibles en implementaciones loc
 | Compatibilidad de la plataforma     |                                           | Sí       | Sí             |
 | Servicio                  |                                           | Sí       | Sí             |
 |                            | Entornos de servicio                    | Sí       | N.º              |
-| Trace Parser y PerfTimer |                                           | Sí       | N.º              |
+| Trace Parser               |                                           | Sí       | Sí             |
+| PerfTimer                  |                                           | Sí       | Sí\*           |
 | Actualizar                    |                                           | Sí       | Sí             |
-|                            | Actualizar                                   | Sí       | Nº              |
-|                            | Actualización y soporte para versiones anteriores | Sí       | No              |
+|                            | Actualizar                                   | Sí       | N.º              |
+|                            | Actualización y soporte para versiones anteriores | Sí       | N.º              |
 | Desarrollo de Visual Studio  |                                           | Sí       | Sí             |
+
+\* En entornos locales, PerfTimer solo muestra resultados para el cliente.
 

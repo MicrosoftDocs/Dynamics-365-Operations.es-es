@@ -3,7 +3,7 @@ title: Diseñar una configuración para generar documentos en formato Excel
 description: Este tema proporciona información sobre cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/14/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e889b08f10c5d0c95fed7c9e422340706bdd154a
-ms.sourcegitcommit: 67ce81c57194afb26a04ae4c0b7509e0efa32afc
+ms.openlocfilehash: d5733e40c67f9c97b04f126f7c3cfea9d4f8f5b5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "3375822"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686547"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -165,6 +164,17 @@ Cuando valida un formato ER que se puede editar, se realiza una comprobación de
 
 ![Mensaje de error de validación](./media/er-excel-format-validate.png)
 
+## <a name="control-the-calculation-of-excel-formulas"></a>Controlar el cálculo de fórmulas de Excel
+
+Cuando se genera el formato de libro de trabajo en un documento saliente en un Microsoft Excel, algunas celdas de este documento pueden contener fórmulas de Excel. Cuando la función **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada, puede controlar cuándo se calculan las fórmulas cambiando el valor del [parámetro](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) **Opciones de cálculo** en la plantilla de Excel que se está utilizando:
+
+- Seleccione **Automático** para volver a calcular todas las fórmulas dependientes cada vez que se agregan a un documento generado nuevos rangos, celdas, etc.
+    >[!NOTE]
+    > Esto puede causar un problema de rendimiento para las plantillas de Excel que contienen varias fórmulas relacionadas.
+- Seleccione **Manual** para evitar el recálculo de fórmulas cuando se genera un documento.
+    >[!NOTE]
+    > El recálculo de fórmulas se fuerza manualmente cuando un documento generado se abre para obtener una vista previa con Excel.
+    > No use esta opción si configura un destino de ER que asume el uso de un documento generado sin su vista previa en Excel (conversión de PDF, envío de correo electrónico, etc.) porque el documento generado podría no contener valores en celdas que contienen fórmulas.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

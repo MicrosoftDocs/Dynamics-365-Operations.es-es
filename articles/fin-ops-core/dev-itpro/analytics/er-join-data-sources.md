@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
-ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
+ms.openlocfilehash: 0d7df12026d6d668b1f48a48cd12bf4b12e0f94e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3332331"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686425"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar los orígenes de datos de JOIN para obtener datos de varias tablas de aplicación múltiple en las asignaciones de modelo de informes electrónicos (ER)
 
@@ -38,7 +37,7 @@ Actualmente se admiten los siguientes tipos de uniones:
 - Unión interna (derecha):
     - Une solo los registros del primer origen de datos (de más a la izquierda) y solo los registros del segundo origen de datos (de más a la derecha) que coincidan según las condiciones configuradas.
 
-En el origen de datos configurado **Unión**, cuando todos los orígenes de datos son del tipo **Tabla de registros**, la ejecución del origen de datos de la Unión puede [efectuarse en el nivel de la base de datos](#analyze) usando una sola instrucción SQL. Esto reduce el número de llamadas a la base de datos, lo que mejora el rendimiento del modelo de asignación. De lo contrario, la ejecución del origen **Unión de datos** se realiza en la memoria.
+En el origen de datos configurado **Unión**, cuando todos los orígenes de datos son del tipo **Tabla de registros**, la ejecución del origen de datos de la Unión puede [efectuarse en el nivel de la base de datos](#analyze) usando una sola instrucción SQL. Esta instrucción reduce el número de llamadas a la base de datos, lo que mejora el rendimiento del modelo de asignación. De lo contrario, la ejecución del origen **Unión de datos** se realiza en la memoria.
 
 > [!NOTE]
 > Usar la función **VALUEIN** en las expresiones de ER que especifican las condiciones para participar registra en orígenes de datos del tipo de combinación no se admite aún. Visite la página [Diseñador de fórmulas en informes electrónicos](general-electronic-reporting-formula-designer.md) para obtener más información sobre esta función.
@@ -79,7 +78,7 @@ Por adelantado, también deberá descargar del [Centro de descarga de Microsoft]
 
 1. Obtener acceso a Finance o al RCS en la primera sesión de su explorador Web.
 2. Vaya a **Administración de la organización \> Espacios de trabajo \> Informes electrónicos**.
-3. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el proveedor de la configuración para la empresa de ejemplo Litware, Inc. (http://www.litware.com) y que ha marcado como **Activo**. Si no ve a este proveedor de configuración, siga los pasos del procedimiento [Creación de un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+3. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el proveedor de la configuración para la empresa de ejemplo [Litware, Inc.](http://www.litware.com) y que se ha marcado como **Activo**. Si no ve a este proveedor de configuración, siga los pasos del procedimiento [Creación de un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![Espacio de trabajo de los informes electrónicos](./media/GER-JoinDS-ActiveProvider.PNG)
 
@@ -96,20 +95,21 @@ Por adelantado, también deberá descargar del [Centro de descarga de Microsoft]
     2. Seleccione **Cargar desde un archivo XML**.
     3. Seleccione **Explorar** para encontrar el archivo **Asignación para aprender las fuentes de datos JOIN.version.1.1.xml**.
     4. Seleccione **Aceptar**.
-4.  Importar el archivo de formato de configuración ER.
+4. Importar el archivo de formato de configuración ER.
     1. Seleccione **Intercambiar**.
     2. Seleccione **Cargar desde un archivo XML**.
     3. Seleccione **Explorar** para encontrar el archivo **Formato para aprender las fuentes de datos JOIN.version.1.1.xml**.
     4. Seleccione **Aceptar**.
-5.  En el árbol de las configuraciones, expanda el elemento **Modelo para aprender fuentes de datos JOIN** junto con otros elementos de modelo (si está disponible).
-6.  Observe la lista de la configuración de ER en los detalles del árbol además de la versión en la ficha desplegable **Versiones** se usarán como origen de los datos del informe de ejemplo.
+5. En el árbol de las configuraciones, expanda el elemento **Modelo para aprender fuentes de datos JOIN** junto con otros elementos de modelo (si está disponible).
+6. Observe la lista de la configuración de ER en los detalles del árbol además de la versión en la ficha desplegable **Versiones** se usarán como origen de los datos del informe de ejemplo.
 
     ![Página de configuraciones de informes electrónicos](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
 ### <a name="turn-on-execution-trace-options"></a>Active las opciones de seguimiento de la ejecución
-1.  Seleccione **CONFIGURACIONES**.
-2.  Seleccione **Parámetros del usuario**.
-3.  Establezca los parámetros de seguimiento de la ejecución como se muestra en la captura de pantalla continuación.
+
+1. Seleccione **CONFIGURACIONES**.
+2. Seleccione **Parámetros del usuario**.
+3. Establezca los parámetros de seguimiento de la ejecución como se muestra en la captura de pantalla continuación.
 
     ![Página de parámetros de informes electrónicos del usuario](./media/GER-JoinDS-Parameters.PNG)
 
@@ -119,11 +119,11 @@ Por adelantado, también deberá descargar del [Centro de descarga de Microsoft]
 
 Revise los valores del componente de asignación del modelo de ER. El componente está configurado para acceder a información sobre las versiones de configuraciones ER, detalles de las configuraciones y proveedores de configuración sin usar las fuentes de datos del tipo **Unión**.
 
-1.  Seleccione la configuración **Asignación para aprender fuentes de datos**
-2.  Seleccione **Diseñador** para abrir la lista de asignaciones.
-3.  Seleccione **Diseñador** para revisar los detalles de la asignación. 
-4.  Seleccionar **Mostrar detalles**.
-5.  En el árbol de las configuraciones, expanda los artículos del modelo de datos **Set1** y **Set1.Details** :
+1. Seleccione la configuración **Asignación para aprender fuentes de datos**
+2. Seleccione **Diseñador** para abrir la lista de asignaciones.
+3. Seleccione **Diseñador** para revisar los detalles de la asignación.
+4. Seleccionar **Mostrar detalles**.
+5. En el árbol de las configuraciones, expanda los artículos del modelo de datos **Set1** y **Set1.Details** :
 
     1. Enlazar **Detalles: Lista de registro = versiones** indica que el elemento **Set1.Details** está enlazado en el origen datos **Versiones** que devuelve los registros de la tabla **ERSolutionVersionTable** . Cada registro de esta tabla representa una única versión de una configuración de ER. El contenido de esta tabla se muestra en la ficha desplegable **Versiones** en la página **Configuraciones**.
     2. Enlazar **ConfigurationVersion: String = @.PublicVersionNumber** significa que el valor de la versión pública de la versión de cada configuración de ER está tomado del campo **PublicVersionNumber** de la tabla **ERSolutionVersionTable** y se incluirán al elemento **ConfigurationVersion**.
@@ -132,19 +132,19 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
     ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-Set1Review.PNG)
 
-6.  En el árbol de las configuraciones, expanda los artículos del elemento de modelo de datos **Set1.Summary**:
+6. En el árbol de las configuraciones, expanda los artículos del elemento de modelo de datos **Set1.Summary**:
 
     1. Enlazar **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** indica que el elemento **Set1.Summary.VersionsNumber** está enlazado al campo del agregado **VersionsNumber** del origen de datos **VersionsSummary** del tipo **GroupBy** que se haya configurado devolver el número de registros de la tabla **ERSolutionVersionTable** mediante el origen de datos **Versiones**.
 
     ![Página de los parámetros del origen de datos de GROUPBY](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
-7.  Cierre la página.
+7. Cierre la página.
 
 ### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> Revise la asignación del modelo de ER (parte 2)
 
 Revise los valores del componente de asignación del modelo de ER. El componente está configurado para acceder a información sobre las versiones de configuraciones ER, detalles de las configuraciones y proveedores de configuración usando una fuente de datos del tipo **Unión**.
 
-1.  En el árbol de las configuraciones, expanda los artículos del modelo de datos **Set2** y **Set2.Details**. Tenga en cuenta que obligatorio **Detalles: Registro enumerado = detalles** indica que el elemento **Set2.Details** está enlazado el origen de datos **Detalles** configurado como origen de datos del tipo **Unión**.
+1. En el árbol de las configuraciones, expanda los artículos del modelo de datos **Set2** y **Set2.Details**. El enlace **Detalles: Registro enumerado = detalles** indica que el elemento **Set2.Details** está enlazado el origen de datos **Detalles** configurado como origen de datos del tipo **Unión**.
 
     ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-Set2Review.PNG)
 
@@ -152,16 +152,16 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
     ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-AddJoinDS.PNG)
 
-2.  Seleccionar **Detalle**s del origen de datos.
-3.  Seleccione **Editar** en el panel **Orígenes de datos**.
-4.  Seleccione **Editar unión**.
-5.  Seleccionar **Mostrar detalles**.
+2. Seleccionar **Detalle** s del origen de datos.
+3. Seleccione **Editar** en el panel **Orígenes de datos**.
+4. Seleccione **Editar unión**.
+5. Seleccionar **Mostrar detalles**.
 
     ![Página de los parámetros del origen de datos de JOIN](./media/GER-JoinDS-JoinDSEditor.PNG)
 
-    Esta página se utiliza para diseñar el origen de datos necesario **Tipo de unión**. En el tiempo de ejecución, este origen de datos creará una sola lista de registros participada de los orígenes de datos de la cuadrícula **Lista unida**. La Unión de registros empezará con el origen de datos **ConfigurationProviders** que se encuentra en la cuadrícula como primera (la columna **Tipo** está en blanco para ella). Los registros de cada otro origen de datos serán unidos por tanto a los registros del origen de datos principal basado en el pedido en la cuadrícula. Cada origen de datos que une se debe configurar como un origen de datos anidado bajo origen de datos de destino (el origen datos**1Versions** se anida bajo **1Configurations** ; uno el origen de datos **1Configurations** se anida bajo **ConfigurationProviders**). Cada origen de datos debe contener las condiciones para la unión. En el origen de datos de esta **Unión**concreta, se definen las uniones siguientes:
+    Esta página se utiliza para diseñar el origen de datos necesario **Tipo de unión**. En el tiempo de ejecución, este origen de datos creará una sola lista de registros participada de los orígenes de datos de la cuadrícula **Lista unida**. La Unión de registros empezará con el origen de datos **ConfigurationProviders** que se encuentra en la cuadrícula como primera (la columna **Tipo** está en blanco para ella). Los registros de cada otro origen de datos serán unidos por tanto a los registros del origen de datos principal basado en el pedido en la cuadrícula. Cada origen de datos que une se debe configurar como un origen de datos anidado bajo origen de datos de destino (el origen datos `1Versions` se anida bajo `1Configurations` ; uno el origen de datos `1Configurations` se anida bajo **ConfigurationProviders**). Cada origen de datos debe contener las condiciones para la unión. En el origen de datos de esta **Unión** concreta, se definen las uniones siguientes:
 
-    - Cada registro del origen de datos **ConfigurationProviders** (referido a la tabla **ERVendorTable** ) se une con solo los registros de **1Configurations** (referida en la tabla **ERSolutionTable** ) con el mismo valor en los campos **SolutionVendor** y **RecId**. El tipo **Unión interna** se usa para esta unión junto con las siguientes condiciones para coincidir registros: 
+    - Cada registro del origen de datos **ConfigurationProviders** (referido a la tabla **ERVendorTable** ) se une con solo los registros de **1Configurations** (referida en la tabla **ERSolutionTable** ) con el mismo valor en los campos **SolutionVendor** y **RecId**. El tipo **Unión interna** se usa para esta unión junto con las siguientes condiciones para coincidir registros:
 
     FILTRO (Configuraciones, Configurations.SolutionVendor = ConfigurationProviders.RecId)
 
@@ -169,34 +169,34 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
     FILTRO (ConfigurationVersions, ConfigurationVersions.Solution = ConfigurationProviders.'1Configurations'.RecId)
 
-    - La opción**Ejecutar** se configura como **Consulta** lo que significa que este origen de datos de la unión se ejecuta en el tiempo de ejecución en el nivel de la base de datos como llamada directa de SQL.
+    - La opción **Ejecutar** se configura como **Consulta** lo que significa que este origen de datos de la unión se ejecuta en el tiempo de ejecución en el nivel de la base de datos como llamada directa de SQL.
 
-    Tenga en cuenta que para unir los registros de los orígenes de datos que representan las tablas de la aplicación, puede especificar condiciones de combinación mediante par de campos con la excepción de unos que describan las relaciones AOT existentes entre estas tablas. Este tipo de unión puede estar configurado para ejecutarse también en el nivel de la base de datos.
+    Para unir los registros de los orígenes de datos que representan las tablas de la aplicación, puede especificar condiciones de combinación mediante par de campos con la excepción de unos que describan las relaciones AOT existentes entre estas tablas. Este tipo de unión puede estar configurado para ejecutarse también en el nivel de la base de datos.
 
-6.  Cierre la página.
-7.  Seleccione **Cancelar**.
-8.  En el árbol de las configuraciones, expanda los artículos del elemento de modelo de datos **Set2.Summary**:
+6. Cierre la página.
+7. Seleccione **Cancelar**.
+8. En el árbol de las configuraciones, expanda los artículos del elemento de modelo de datos **Set2.Summary**:
 
     - Enlazar **VersionsNumber: Integer = DetailsSummary.aggregated.VersionsNumber** indica que el elemento **Set2.Summary.VersionsNumber** está enlazado al campo del agregado **VersionsNumber** del origen de datos **DetailsSummary** del tipo **GroupBy** que se haya configurado para devolver el número de registros unidos de la tabla **Detalles** mediante el origen de datos del tipo **Unión**.
-    - Tenga en cuenta que la opción de ubicación **Ejecución** se configura como **Consulta** lo que significa que este origen de datos **GroupBy** se ejecutará en tiempo de ejecución como llamada SQL directa al nivel de base de datos. Esto es posible porque el origen de datos base **Detalles** del tipo **Unión** se configura según lo ejecutado en el nivel de la base de datos.
+    - La opción de ubicación **Ejecución** se configura como **Consulta** lo que significa que este origen de datos **GroupBy** se ejecutará en tiempo de ejecución como llamada SQL directa al nivel de base de datos. Este comportamiento es posible porque el origen de datos base **Detalles** del tipo **Unión** se configura según lo ejecutado en el nivel de la base de datos.
 
     ![Página de los parámetros del origen de datos de GROUPBY](./media/GER-JoinDS-Set2GroupByReview.PNG)
 
-9.  Cierre la página.
+9. Cierre la página.
 10. Seleccione **Cancelar**.
 
 ### <a name="execute-er-format"></a><a name="executeERformat"></a> Ejecutar formato ER
 
-1.  Acceda a Finance o al RCS en la segunda sesión del explorador web mediante las mismas credenciales y empresa que en la primera sesión.
-2.  Vaya a **Administración de la organización \> Informes electrónicos \> Configuraciones**.
-3.  Expanda la configuración **Modelo para aprender fuentes de datos JOIN**.
-4.  Seleccione la configuración **Formato para aprender fuentes de datos JOIN**.
-5.  Seleccione **Diseñador**.
-6.  Seleccionar **Mostrar detalles**.
-7.  Seleccione **Asignación**.
-8.  Seleccione **Expandir/Contraer**.
+1. Acceda a Finance o al RCS en la segunda sesión del explorador web mediante las mismas credenciales y empresa que en la primera sesión.
+2. Vaya a **Administración de la organización \> Informes electrónicos \> Configuraciones**.
+3. Expanda la configuración **Modelo para aprender fuentes de datos JOIN**.
+4. Seleccione la configuración **Formato para aprender fuentes de datos JOIN**.
+5. Seleccione **Diseñador**.
+6. Seleccionar **Mostrar detalles**.
+7. Seleccione **Asignación**.
+8. Seleccione **Expandir/Contraer**.
 
-    Tenga en cuenta que este formato están diseñado para rellenar un archivo de texto generado con una nueva línea para cada versión de una configuración ER (secuencia **Versión**). Cada línea generada contendrá el nombre de un proveedor de la configuración que posee la configuración actual, el nombre de la configuración y la versión de configuración separados por la marca del punto y coma. La línea final de archivo generado contendrá el número de versiones detectadas de las configuraciones de ER (secuencia **Resumen**).
+    Este formato están diseñado para rellenar un archivo de texto generado con una nueva línea para cada versión de una configuración ER (secuencia **Versión**). Cada línea generada contendrá el nombre de un proveedor de la configuración que posee la configuración actual, el nombre de la configuración y la versión de configuración separados por la marca del punto y coma. La línea final de archivo generado contendrá el número de versiones detectadas de las configuraciones de ER (secuencia **Resumen**).
 
     ![Página de diseñador de formato ER](./media/GER-JoinDS-FormatReview.PNG)
 
@@ -207,7 +207,7 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
     ![Página de diseñador de formato ER](./media/GER-JoinDS-FormatMappingReview.PNG)
 
-9.  Seleccione **Ejecutar**.
+9. Seleccione **Ejecutar**.
 10. En la página de diálogo, seleccione **No** en el campo **Usar origen de datos JOIN**.
 11. Seleccione **Aceptar**.
 12. Revisar el archivo generado.
@@ -216,38 +216,38 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
 #### <a name="analyze-er-format-execution-trace"></a>Analizar el seguimiento de la ejecución del formato de ER
 
-1.  En la primera sesión de Finance o de RCS, seleccione **Diseñador**.
-2.  Seleccione **Seguimiento del rendimiento**.
-3.  En la cuadrícula **Seguimiento de rendimiento**, seleccione el registro superior del último seguimiento de la ejecución de un formato de ER que utilizó el componente modelo actual de la asignación.
-4.  Seleccione **Aceptar**.
+1. En la primera sesión de Finance o de RCS, seleccione **Diseñador**.
+2. Seleccione **Seguimiento del rendimiento**.
+3. En la cuadrícula **Seguimiento de rendimiento**, seleccione el registro superior del último seguimiento de la ejecución de un formato de ER que utilizó el componente modelo actual de la asignación.
+4. Seleccione **Aceptar**.
 
-    Tenga en cuenta que las estadísticas de la ejecución le informan acerca de llamadas duplicadas a las tablas de la aplicación:
+    Las estadísticas de la ejecución le informan acerca de llamadas duplicadas a las tablas de la aplicación:
 
     - **ERSolutionTable** se ha llamado tantas veces que tiene registros de versión de la configuración de la tabla **ERSolutionVersionTable**, mientras que el número de tales llamadas se podría reducir para la mejora de rendimiento.
     - **ERVendorTable** se ha llamado dos por cada registro de versión de configuración que se encontró en la tabla **ERSolutionVersionTable**, mientras que el número de tales llamadas también se podría reducir.
 
     ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-Set1Run2.PNG)
 
-5.  Cierre la página.
+5. Cierre la página.
 
 ### <a name="execute-er-format"></a>Ejecutar formato ER
 
-1.  Cambie a la ficha del explorador web con la segunda sesión de Finance o de RCS.
-2.  Seleccione **Ejecutar**.
-3.  En la página de diálogo, seleccione **Sí** en el campo **Usar origen de datos JOIN**.
-4.  Seleccione **Aceptar**.
-5.  Revisar el archivo generado.
+1. Cambie a la ficha del explorador web con la segunda sesión de Finance o de RCS.
+2. Seleccione **Ejecutar**.
+3. En la página de diálogo, seleccione **Sí** en el campo **Usar origen de datos JOIN**.
+4. Seleccione **Aceptar**.
+5. Revisar el archivo generado.
 
     ![Página del diálogo de usuario del ER](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analizar el seguimiento de la ejecución del formato de ER
 
-1.  En la primera sesión de Finance o de RCS, seleccione **Diseñador**.
-2.  Seleccione **Seguimiento del rendimiento**.
-3.  En la cuadrícula **Seguimiento de rendimiento**, seleccione el registro superior representando el último seguimiento de la ejecución de un formato de ER que utilizó el componente modelo actual de la asignación.
-4.  Seleccione **Aceptar**.
+1. En la primera sesión de Finance o de RCS, seleccione **Diseñador**.
+2. Seleccione **Seguimiento del rendimiento**.
+3. En la cuadrícula **Seguimiento de rendimiento**, seleccione el registro superior representando el último seguimiento de la ejecución de un formato de ER que utilizó el componente modelo actual de la asignación.
+4. Seleccione **Aceptar**.
 
-    Tenga en cuenta que las estadísticas de la ejecución le informan acerca de lo siguiente:
+    Estadísticas le informa sobre lo siguiente:
 
     - La base de datos de aplicación se ha llamado una vez para conseguir los registros de las tablas **ERVendorTable**, **ERSolutionTable** y **ERSolutionVersionTable** para obtener el acceso a campos necesarios.
 
@@ -289,4 +289,3 @@ Cuando el origen de datos configurado se ejecuta mientras la ejecución de ER se
 [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
 
 [Ejecución de seguimiento del formato de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md)
-

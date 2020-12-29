@@ -3,42 +3,41 @@ title: Mostrar páginas en paralelo con la función Abrir en una ventana nueva
 description: Este artículo explica cómo mostrar páginas lado a lado.
 author: aneesmsft
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17611
 ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
 ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7144f26c0977fbc420b804728151262b2f166bc0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5b770fe44e4e12c515ca53def697fa345ce3eba3
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180700"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694454"
 ---
-# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Mostrar páginas en paralelo con la función Abrir en una ventana nueva
+# <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Mostrar páginas en paralelo con la función Abrir en una ventana nueva
 
 [!include [banner](../includes/banner.md)]
 
 Este artículo explica cómo mostrar páginas lado a lado.
 
-Puede que desee ver varias páginas en paralelo para completar las tareas con rapidez. Como ejemplo, puede que desee validar o especificar líneas en más de un diario. Normalmente, para ello tendría que avanzar y retroceder entre la página que muestra una lista de diarios y la página que muestra líneas para un diario dado. Sin embargo, la característica **Abrir en una ventana nueva** le permite mostrar estas páginas en paralelo para que pueda llevar a cabo sus tareas con rapidez.
+Puede que desee ver varias páginas en paralelo para completar las tareas con rapidez. Como ejemplo, puede que desee validar o especificar líneas en más de un diario. Normalmente, para validar o introducir líneas en más de un diario, tendría que avanzar y retroceder entre la página que muestra una lista de diarios y la página que muestra líneas para un diario dado. Sin embargo, la característica **Abrir en una ventana nueva** le permite mostrar estas páginas en paralelo para que pueda llevar a cabo sus tareas con rapidez.
 
 Siguiendo con el ejemplo mencionado anteriormente, al ver las líneas, puede hacer clic en el icono **Abrir en ventana nueva**.
 
-[![open-in-new-window-icon](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)
+[![Hacer clic en el icono Abrir ventana nueva.](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)
 
 Al hacer clic en el icono de **Abrir en una ventana nueva** se abre la página de líneas en un nuevo explorador emergente y, a continuación, navega por el explorador original en el historial hasta la página que mostraba la lista de diarios. Se podrán mostrar ambas páginas en paralelo. Cuando termine de ver un diario, puede cambiar el diario seleccionado en la página de lista de diarios y la página de líneas en la ventana emergente mostrará automáticamente las líneas del diario recién seleccionado.
 
-[![pages-show-side-by-side](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)
+[![Se podrán mostrar ambas páginas en paralelo.](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)
 
 La actualización y la vinculación dinámica se produce debido a las relaciones que hay entre los datos que apoyan estas páginas. Si el sistema no reconoce la relación entre los datos, la ventana emergente no se actualizará automáticamente en respuesta a un cambio en la ventana de la que se originó.
 
@@ -48,4 +47,4 @@ Antes de usar la característica **Abrir en ventana nueva**, debe configurar el 
 
 La característica **Abrir en ventana nueva** solo está disponible cuando hay más de una página abierta en la ventana. Además, la ventana emergente se cierra automáticamente cuando no hay más páginas abiertas (es decir, cuando se cierra la última página de esa ventana). El sistema también cierra las páginas abiertas cuando navega a otra área de la aplicación. Por lo tanto, si tiene ventanas emergentes abiertas y navega a otra área de la aplicación, las ventanas emergentes se cierran automáticamente porque el sistema cerró las páginas de esas ventanas.
 
-La barra superior de las ventanas emergentes muestra información acerca de la empresa en la que se abrió la página y es de solo lectura. Las ventanas emergentes también dependen de la ventana del explorador principal. Si se cierra o se actualiza la ventana principal, todas las ventanas emergentes serán de solo lectura. Esto significa que podrá seguir viendo la información en estas ventanas, pero no podrá interactuar con ella.
+La barra superior de las ventanas emergentes muestra información acerca de la empresa en la que se abrió la página y es de solo lectura. Las ventanas emergentes también dependen de la ventana del explorador principal. Si se cierra o se actualiza la ventana principal, todas las ventanas emergentes serán de solo lectura. Si se da esta situación, podrá seguir viendo la información en estas ventanas, pero no podrá interactuar con ella.

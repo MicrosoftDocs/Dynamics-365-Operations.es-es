@@ -3,7 +3,7 @@ title: Insertar aplicaciones de lienzo desde Power Apps
 description: Este tema explica cómo insertar aplicaciones de lienzo de Microsoft Power Apps en el cliente para aumentar la funcionalidad de producto.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: ba3b736aeae8540349309ddd82bd431720b9701c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893116"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693492"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Insertar aplicaciones de lienzo desde Power Apps
 
@@ -57,7 +56,7 @@ El siguiente procedimiento muestra cómo insertar una aplicación de lienzo de P
 3. Configurar la aplicación incrustada:
 
     - El campo **Nombre** indica el texto que se muestra para el botón o la ficha o que contendrán la aplicación incrustada. Muchas veces puede que desee repetir el nombre de la aplicación en este campo.
-    - El campo **ID de aplicación** indica el identificador único global (GUID) de la aplicación de lienzo que desea incrustar. Para recuperar este valor, encuentre la aplicación en [web.powerapps.com](https://web.powerapps.com) y después mire en el campo **Identificador de la aplicación** en **Detalles**.
+    - El campo **ID de aplicación** indica el identificador único global (GUID) de la aplicación de lienzo que desea incrustar. Para recuperar este valor, encuentre la aplicación en [make.powerapps.com](https://make.powerapps.com) y después mire en el campo **Identificador de la aplicación** en **Detalles**.
     - Para **Contexto de entrada para la aplicación**, puede seleccionar opcionalmente el campo que contiene los datos que desea pasar a la aplicación como entrada. Consulte la sección que figura más adelante en este tema denominada [Creación de una aplicación aplicaciones que saque provecho de datos enviados desde las aplicaciones de Finance and Operations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) para obtener información detallada sobre cómo la aplicación puede tener acceso a los datos enviados desde aplicaciones de Finance and Operations.
     - Elija el **tamaño de la aplicación** que coincida con el tipo de aplicación que se está insertando. Seleccione **Fino** para aplicaciones creadas para dispositivos móviles y **Ancho** para aplicaciones creadas para tabletas. Esto garantiza que se asigne una cantidad de espacio suficiente para la aplicación incrustada.
     - La ficha desplegable **Entidades jurídicas** proporciona la capacidad de elegir para qué entidades jurídicas está disponible la aplicación. El valor predeterminado es hacer que la aplicación esté accesible para todas las entidades jurídicas. Esta opción solo está disponible cuando la característica [Vistas guardadas](saved-views.md) está deshabilitada. 

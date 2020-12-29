@@ -1,28 +1,27 @@
 ---
 title: Especificar saldos iniciales de nómina
 description: El tema se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos. Esta información tiene valor para que los socios migren o transfieran los datos para una nueva implementación de nóminas desde otro sistema.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
-ms.date: 04/24/2019
+ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4bb8f565f5bf5630a7c5f8602b96e569692bc7c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005687"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693411"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Especificar saldos iniciales de nómina
 
@@ -39,7 +38,7 @@ El tema se describen los pasos para especificar los saldos iniciales para los c�
     - Beneficios y deducciones
 
 - La empresa debe haber elegido una fecha en la que saldos iniciales de nóminas se pueden configurar.
-- La información recopilada se en todas las ganancias, las prestaciones/deducciones, las contribuciones de prestación, los impuestos del empleado y los impuestos del empresario y los importes del año hasta la fecha del sistema heredado.
+- La información fue recopilada en todas las ganancias, las prestaciones/deducciones, las contribuciones de prestación, los impuestos del empleado y los impuestos del empresario y los importes del año hasta la fecha del sistema heredado.
 
 Cuando vaya a especificar saldos iniciales, considere cómo lo detallados que deben estar los datos. La mayoría de las empresas especifican un importe único, consolidado del año hasta la fecha. Sin embargo, si se necesita más información detallada, los saldos se pueden especificar en incrementos trimestrales. Decidir el nivel de detalle que sea necesario determina cuántos extractos de pago manuales se deben crear para cada trabajador. Para un solo importe del año hasta la fecha, solo una instrucción manual es necesaria para cada empleado. Para hacer esto utilice importes de año hasta la fecha desde el extracto de pago final del sistema anterior como el importe especificado en el nuevo sistema de nóminas.
 

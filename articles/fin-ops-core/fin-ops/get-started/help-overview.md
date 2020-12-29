@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367347"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695148"
 ---
 # <a name="help-system"></a>Sistema de ayuda
 
@@ -49,7 +48,7 @@ El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.micro
 
 Puede encontrar contenido en docs.microsoft.com utilizando cualquier motor de búsqueda. Para obtener los mejores resultados, se recomienda utilizar una búsqueda de sitio como **site:docs.microsoft.com dynamics 365 "search term"**.
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>Recibir notificaciones sobre cambios a través de una fuente RSS
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Recibir notificaciones sobre cambios a través de una fuente RSS
 
 Para suscribirse a una fuente Really Simple Syndication (RSS) de todas las actualizaciones que se encuentran en el contenido de docs.microsoft.com, use el siguiente vínculo:
 
@@ -68,7 +67,7 @@ Si tiene opiniones o preguntas sobre un tema, déjenos un comentario en la parte
 > [!NOTE]
 > Si desea enviar comentarios sobre la documentación, debe iniciar sesión con una cuenta de GitHub. Para obtener más información, ver [Configurar y administrar el perfil de GitHub](https://help.github.com/github/setting-up-and-managing-your-github-profile).
 
-### <a name="contribute-to-the-documentation"></a>Contribuir a la documentación
+## <a name="contribute-to-the-documentation"></a>Contribuir a la documentación
 
 Puede contribuir y hacer ediciones a la documentación. Para empezar, seleccione el botón **Editar** (símbolo de lápiz) en un tema. El siguiente vídeo muestra cómo puede contribuir a nuestra documentación.
 

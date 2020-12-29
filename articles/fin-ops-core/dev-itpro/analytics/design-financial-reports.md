@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 079439d95597056919d5a8c73b829d79a3b02211
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 97895081293d9ee5a82a718e0644bebdaa0f2777
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002552"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686254"
 ---
 # <a name="view-and-design-financial-reports"></a>Ver y diseñar informes financieros
 
@@ -164,7 +163,7 @@ Para este ejercicio, modificará un informe predeterminado existente. Agregará 
 14. Cierre **Balance de situación consolidado e informe de ingresos en paralelo**.
 15. Cierre el **Diseñador de informes**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Ejercicio 5: Crear un informe de departamento en paralelo
+## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>Ejercicio 5: Crear un informe de departamento en paralelo
 En este ejercicio, creará un informe nuevo. El informe es un informe de ingresos de departamento en paralelo. Usará una definición de fila existente, pero creará una definición del informe nueva y una definición de columna nueva que use filtros de dimensión. Empezaremos por la lista Informes financieros.
 
 1. Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
@@ -197,4 +196,4 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 
 [Ver informes financieros](../../../finance/general-ledger/view-financial-reports.md)
 
-[Blog de informes financieros de Dynamics](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog de Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)

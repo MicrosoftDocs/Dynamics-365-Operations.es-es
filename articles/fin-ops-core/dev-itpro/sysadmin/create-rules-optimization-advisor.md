@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8c4f5eff01ab20ce9de2a30b27b163df8cf83e02
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7052aeb4154cefe30a1935dfdca53085a035deb6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985228"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687620"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Cree reglas para el asesor de optimización
 
@@ -151,7 +150,7 @@ public str opportunityDetails(SelfHealingOpportunity _opportunity)
 
 Los dos métodos abstractos restantes a implementar son **provideHealingAction** y **securityMenuItem**. 
 
-**provideHealingAction** devuelve verdadero si se proporciona una acción curativa, de lo contrario, devuelve falso. Si devuelve verdadero, debe implementarse el método **performAction** o se liberará un error. El método **performAction** toma un argumento **SelfHealingOpportunity** , en el que los datos se pueden usar para la acción. En el ejemplo, la acción abre la **PurchRFQCaseTableListPage**para una corrección manual. 
+**provideHealingAction** devuelve verdadero si se proporciona una acción curativa, de lo contrario, devuelve falso. Si devuelve verdadero, debe implementarse el método **performAction** o se liberará un error. El método **performAction** toma un argumento **SelfHealingOpportunity** , en el que los datos se pueden usar para la acción. En el ejemplo, la acción abre la **PurchRFQCaseTableListPage** para una corrección manual. 
 
 ```xpp
 public boolean providesHealingAction() 
@@ -195,7 +194,7 @@ class ScanNewRulesJob
 
 La regla se mostrará en el formulario **Regla de validación de diagnósticos**, disponible en **Administración del sistema** > **Tareas periódicas** > **Mantener regla de validación de diagnósticos**. Para que sea evaluada, vaya a **Administración del sistema** > **Tareas periódicas** > **Programación de la regla de validación de diagnósticos**, seleccione la frecuencia de la regla, como **Diaria**. Haga clic en **Aceptar**. Vaya a **Administración del sistema** > **Asesor de optimización** para ver la nueva oportunidad. 
 
-El siguiente ejemplo es un fragmento de código con el esqueleto de una regla, incluidos todos los métodos y atributos necesarios. Le ayuda a iniciarse con la escritura de nuevas reglas.Las etiquetas y los elementos de menú de acción que se usan en el ejemplo se utilizan solo para efectos de demostración.
+El siguiente ejemplo es un fragmento de código con el esqueleto de una regla, incluidos todos los métodos y atributos necesarios. Le ayuda a iniciarse con la escritura de nuevas reglas. Las etiquetas y los elementos de menú de acción que se usan en el ejemplo se utilizan solo para efectos de demostración.
 
 ```xpp
 [DiagnosticsRuleAttribute]

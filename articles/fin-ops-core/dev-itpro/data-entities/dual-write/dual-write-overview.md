@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 961e6a167d4fe48c96bffcff1e54acde0ad5d805
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997433"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685622"
 ---
 # <a name="dual-write-overview"></a>Descripción general de doble escritura
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ ms.locfileid: "3997433"
 
 La doble escritura es una infraestructura lista para usar que proporciona interacción casi en tiempo real entre aplicaciones de interacción con los clientes y aplicaciones de Finance and Operations. Cuando los datos sobre clientes, productos, personas y operaciones fluyen más allá de los límites de la aplicación, todos los departamentos de una organización tienen poder.
 
-La doble escritura proporciona una integración bidireccional estrechamente acoplada entre aplicaciones Finance and Operations y Common Data Service. Cualquier cambio de datos en aplicaciones Finance and Operations hace que se escriba en Common Data Service y cualquier cambio de datos en Common Data Service hace que se escriba en las aplicaciones Finance and Operations. Este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones.
+La doble escritura proporciona una integración bidireccional estrechamente acoplada entre aplicaciones Finance and Operations y Dataverse. Cualquier cambio de datos en aplicaciones Finance and Operations hace que se escriba en Dataverse y cualquier cambio de datos en Dataverse hace que se escriba en las aplicaciones Finance and Operations. Este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones.
 
 ![Relación de datos entre aplicaciones](media/dual-write-overview.jpg)
 
@@ -52,7 +54,7 @@ La infraestructura de doble escritura es extensible y fiable, e incluye las sigu
 + Posibilidad de configurar alertas y umbrales personalizados y suscribirse a notificaciones
 + Interfaz de usuario intuitiva (UI) para filtrado y transformaciones
 + Capacidad para establecer y ver las dependencias y relaciones de la entidad
-+ Extensibilidad para entidades y mapas estándar y personalizados
++ Extensibilidad para tablas y mapas estándar y personalizados
 + Administración fiable del ciclo de vida de la aplicación
 + Experiencia de configuración lista para usar para nuevos clientes
 
@@ -85,23 +87,23 @@ La doble escritura crea una asignación entre conceptos en aplicaciones de Finan
 La doble escritura proporciona integración de datos en las aplicaciones Microsoft Dynamics 365. Este marco robusto vincula entornos y permite que diferentes aplicaciones empresariales trabajen juntas. Estas son las principales razones por las que debería usar la doble escritura:
 
 + La doble escritura proporciona una integración estrechamente acoplada, casi en tiempo real y bidireccional entre aplicaciones Finance and Operations y aplicaciones basadas en modelos en Dynamics 365. Esta integración hace de Microsoft Dynamics 365 la ventanilla única para todas sus soluciones empresariales. Los clientes que usan Dynamics 365 Finance y Dynamics 365 Supply Chain Management, pero que usan soluciones que no son de Microsoft para la gestión de relaciones con los clientes (CRM), se están pasando a Dynamics 365 por su soporte de doble escritura.
-+ Los datos de clientes, productos, operaciones, proyectos e Internet de las cosas (IoT) fluyen automáticamente a Common Data Service a través de doble escritura. Esta conexión es útil para las empresas que están interesadas en expansiones de Power Platform.
++ Los datos de clientes, productos, operaciones, proyectos e Internet de las cosas (IoT) fluyen automáticamente a Dataverse a través de doble escritura. Esta conexión es útil para las empresas que están interesadas en expansiones de Power Platform.
 + La infraestructura de doble escritura sigue el principio sin código / código bajo. Se requiere un mínimo esfuerzo de ingeniería para ampliar los mapas estándar de tabla a tabla e incluir mapas personalizados.
 + La doble escritura admite tanto el modo en línea como el modo fuera de línea. Microsoft es la única compañía que ofrece soporte para modos en línea y fuera de línea.
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>¿Qué significa la escritura dual para los desarrolladores y arquitectos de aplicaciones de interacción con los clientes?
 
-La doble escritura automatiza el flujo de datos entre aplicaciones Finance and Operations y aplicaciones de interacción con los clientes. La escritura dual consta de dos soluciones AppSource que están instaladas en Common Data Service. Las soluciones amplían el esquema de la entidad, los complementos y los flujos de trabajo en Common Data Service para que puedan escalar al tamaño de ERP. Para una implementación exitosa, los desarrolladores y arquitectos de aplicaciones de interacción con los clientes deben comprender estos cambios y colaborar con sus iguales en las aplicaciones de Finance and Operations.
+La doble escritura automatiza el flujo de datos entre aplicaciones Finance and Operations y aplicaciones de interacción con los clientes. La escritura dual consta de dos soluciones AppSource que están instaladas en Dataverse. Las soluciones amplían el esquema de la entidad, los complementos y los flujos de trabajo en Dataverse para que puedan escalar al tamaño de ERP. Para una implementación exitosa, los desarrolladores y arquitectos de aplicaciones de interacción con los clientes deben comprender estos cambios y colaborar con sus iguales en las aplicaciones de Finance and Operations.
 
-Para crear paridad con las aplicaciones de Finance and Operations, la escritura dual hace algunos cambios cruciales en el esquema de Common Data Service. Si comprende el plan, puede evitar algunas modificaciones de diseño y desarrollo en el futuro.
+Para crear paridad con las aplicaciones de Finance and Operations, la escritura dual hace algunos cambios cruciales en el esquema de Dataverse. Si comprende el plan, puede evitar algunas modificaciones de diseño y desarrollo en el futuro.
 
-+ Cuando el paquete de AppSource de escritura dual está instalado, Common Data Service tendrá nuevos conceptos como empresa y parte. Estos conceptos ayudan a las aplicaciones basadas en Common Data Service, incluidos Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service y Dynamics 365 Field Service a interactuar sin problemas con las aplicaciones de Finance and Operations.
++ Cuando el paquete de AppSource de escritura dual está instalado, Dataverse tendrá nuevos conceptos como empresa y parte. Estos conceptos ayudan a las aplicaciones basadas en Dataverse, incluidos Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service y Dynamics 365 Field Service a interactuar sin problemas con las aplicaciones de Finance and Operations.
 
 + Las actividades y notas se unifican y amplían para admitir tanto C1 (usuarios del sistema) como C2 (clientes del sistema).
 
-+ Para evitar la pérdida de datos durante la transmisión de divisas entre las aplicaciones de Finance and Operations y Common Data Service, podrá ampliar el número de posiciones decimales en el tipo de datos de divisa de las aplicaciones de interacción con los clientes. La característica traduce automáticamente los registros existentes al nuevo estado extendido en la capa de metadatos. Durante este proceso, el valor de la moneda se convierte en datos decimales en lugar de datos monetarios, y el valor de la moneda admite 10 lugares decimales. Esta función es opcional y las organizaciones que no necesitan más de 4 lugares decimales de precisión no necesitan participar. Para más información, consulte [Migración de tipo de datos de moneda para escritura dual](currrency-decimal-places.md).
++ Para evitar la pérdida de datos durante la transmisión de divisas entre las aplicaciones de Finance and Operations y Dataverse, podrá ampliar el número de posiciones decimales en el tipo de datos de divisa de las aplicaciones de interacción con los clientes. La característica traduce automáticamente las filas existentes al nuevo estado extendido en la capa de metadatos. Durante este proceso, el valor de la moneda se convierte en datos decimales en lugar de datos monetarios, y el valor de la moneda admite 10 lugares decimales. Esta función es opcional y las organizaciones que no necesitan más de 4 lugares decimales de precisión no necesitan participar. Para más información, consulte [Migración de tipo de datos de moneda para escritura dual](currrency-decimal-places.md).
 
-+ La [fecha de vigencia](../../dev-tools/date-effectivity.md) se agregará a Common Data Service. Admitirá datos pasados, presentes y futuros en la misma entidad.
++ La [fecha de vigencia](../../dev-tools/date-effectivity.md) se agregará a Dataverse. Admitirá datos pasados, presentes y futuros en la misma entidad.
 
 + Las [conversiones de unidades](../../../../supply-chain/pim/tasks/manage-unit-measure.md) de productos son compatibles con productos, presupuestos, pedidos y facturas.
 

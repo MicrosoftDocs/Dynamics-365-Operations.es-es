@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248722"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695124"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Configurar e instalar tutorial Regression Suite Automation Tool
 Este tema es un tutorial que le ayuda a configurar e iniciar la RSAT y las herramientas asociadas al uso de la RSAT. 
@@ -407,7 +406,7 @@ Para habilitar una autenticación, debe generar e instalar un certificado en el 
     ```
 
     > [!NOTE]
-    > Si varios usuarios utilizan la misma aplicación cada usuario debe generar huellas digitales independientes, y cada una de estas huellas digitales debe agregarse en la sección **\<claves\>**.
+    > Si varios usuarios utilizan la misma aplicación cada usuario debe generar huellas digitales independientes, y cada una de estas huellas digitales debe agregarse en la sección **\<keys\>**.
 
 5. Si hay más de un equipo de AOS, repita los pasos 3 a 4 para cada equipo adicional.
 
@@ -563,7 +562,7 @@ En versiones anteriores de RSAT, tuvo que instalar Selenium y los controladores 
 
     ![Resolución del escritorio establecida en 100%](./media/setup_rsa_tool_68.png)
 
-6. Si los controladores del explorador no están instalados en el sistema, recibirá un mensaje de advertencia que dice: "Esta operación requiere el controlador del \<nombre del explorador\>. ¿Desea descargarlo e instalarlo automáticamente ahora?" Seleccione **Sí**.
+6. Si los controladores del explorador no están instalados en el sistema, recibirá un mensaje de advertencia que dice: "Esta operación requiere el controlador del \<browser name\>. ¿Desea descargarlo e instalarlo automáticamente ahora?" Seleccione **Sí**.
 
     ![Mensaje de advertencia para Internet Explorer](./media/setup_rsa_tool_69.png)
 

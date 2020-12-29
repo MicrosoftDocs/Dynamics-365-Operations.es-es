@@ -18,33 +18,35 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 82bdcc71196c22689cc65601f98187aaa9e5e9d6
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997311"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685572"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronización en vivo
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Common Data Service. Proporciona información específica que puede ayudarlo a solucionar problemas con la sincronización en vivo.
+
+Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Dataverse. Proporciona información específica que puede ayudarlo a solucionar problemas con la sincronización en vivo.
 
 > [!IMPORTANT]
 > Algunos de los problemas que aborda este tema pueden requerir la función de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una función o credenciales específicas.
 
-## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-record-in-a-finance-and-operations-app"></a>La sincronización en vivo arroja un error prohibido 403 cuando crea un registro en una aplicación Finance and Operations
+## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>La sincronización en vivo arroja un error prohibido 403 cuando crea una fila en una aplicación Finance and Operations
 
-Es posible que reciba el siguiente mensaje de error cuando crea un registro en una aplicación Finance and Operations:
+Es posible que reciba el siguiente mensaje de error cuando crea una fila en una aplicación Finance and Operations:
 
 *\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"message\\":\\"El usuario no es miembro de la organización.\\"}}\], El servidor remoto devolvió un error: (403) Prohibido."}}".*
 
-Para solucionar el problema, siga los pasos en [Requisitos del sistema y requisitos previos](requirements-and-prerequisites.md). Para completar esos pasos, los usuarios de la aplicación de doble escritura que se crea en Common Data Service deben tener el rol de administrador del sistema. El equipo propietario predeterminado también debe tener el rol de administrador del sistema.
+Para solucionar el problema, siga los pasos en [Requisitos del sistema y requisitos previos](requirements-and-prerequisites.md). Para completar esos pasos, los usuarios de la aplicación de doble escritura que se crea en Dataverse deben tener el rol de administrador del sistema. El equipo propietario predeterminado también debe tener el rol de administrador del sistema.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-record-in-a-finance-and-operations-app"></a>La sincronización en vivo para cualquier entidad genera de forma regular un error similar cuando crea un registro en una aplicación Finance and Operations
+## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>La sincronización en vivo para cualquier entidad genera de forma regular un error similar cuando crea una fila en una aplicación Finance and Operations
 
 **Rol requerido para arreglar el error:** Administrador del sistema
 
@@ -52,12 +54,12 @@ Es posible que reciba un mensaje de error como el siguiente cada vez que intente
 
 *No se pueden guardar los cambios en la base de datos. La unidad de trabajo no puede confirmar la transacción. No se pueden escribir datos en la entidad uoms. Las escrituras en UnitOfMeasureEntity fallaron con el mensaje de error No se puede sincronizar con las entidades uoms.*
 
-Para solucionar el problema, debe asegurarse de que los datos de referencia de requisitos previos existan en la aplicación Finance and Operations y Common Data Service. Por ejemplo, si el cliente en el que está en la aplicación Finance and Operations pertenece a un grupo de clientes específico, asegúrese de que el grupo de clientes exista en Common Data Service.
+Para solucionar el problema, debe asegurarse de que los datos de referencia de requisitos previos existan en la aplicación Finance and Operations y Dataverse. Por ejemplo, si el cliente en el que está en la aplicación Finance and Operations pertenece a un grupo de clientes específico, asegúrese de que el grupo de clientes exista en Dataverse.
 
 Si existen datos en ambos lados y ha confirmado que el problema no está relacionado con los datos, siga estos pasos.
 
 1. Detener la entidad relacionada.
-2. Inicie sesión en la aplicación de Finance and Operations y asegúrese de que existan registros para la entidad que falla en las tablas DualWriteProjectConfiguration y DualWriteProjectFieldConfiguration. Por ejemplo, así es como se ve la consulta si la entidad **Clientes** está fallando.
+2. Inicie sesión en la aplicación de Finance and Operations y asegúrese de que existan filas para la entidad que falla en las tablas DualWriteProjectConfiguration y DualWriteProjectFieldConfiguration. Por ejemplo, así es como se ve la consulta si la entidad **Clientes** está fallando.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -66,8 +68,8 @@ Si existen datos en ambos lados y ha confirmado que el problema no está relacio
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Si hay registros para la entidad anómala incluso después de detener la asignación de la entidad, elimine los registros relacionados con la entidad anómala. Tome nota de la columna **projectname** en la tabla DualWriteProjectConfiguration y obtenga el registro en la tabla DualWriteProjectFieldConfiguration utilizando el nombre del proyecto para eliminar el registro.
-4. Inicie la asignación de la entidad. Valide si los datos se sincronizan sin ningún problema.
+3. Si hay filas para la entidad anómala incluso después de detener la asignación de la tabla, elimine las filas relacionadas con la entidad anómala. Tome nota de la columna **projectname** en la tabla DualWriteProjectConfiguration y obtenga el registro en la tabla DualWriteProjectFieldConfiguration utilizando el nombre del proyecto para eliminar la fila.
+4. Inicie la asignación de la tabla. Valide si los datos se sincronizan sin ningún problema.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Gestionar errores de privilegio de lectura o escritura cuando crea datos en una aplicación Finance and Operations
 
@@ -89,25 +91,25 @@ Para solucionar el problema, debe asignar la función de seguridad correcta al e
 
     ![Botón de administrar roles](media/manage_team_roles.png)
 
-4. Asigne el rol que tiene el privilegio de lectura / escritura para las entidades relevantes y luego seleccione **Aceptar**.
+4. Asigne el rol que tiene el privilegio de lectura / escritura para las tablas relevantes y luego seleccione **Aceptar**.
 
-## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-common-data-service-environment"></a>Solucione problemas de sincronización en un entorno que ha cambiado recientemente el entorno Common Data Service
+## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-dataverse-environment"></a>Solucione problemas de sincronización en un entorno que ha cambiado recientemente el entorno Dataverse
 
 **Rol requerido para arreglar el error:** Administrador del sistema
 
 Es posible que reciba el siguiente mensaje de error cuando crea datos en una aplicación Finance and Operations:
 
-*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":" **No se puede generar la carga útil para la entidad CustCustomerV3Entity** ","logDateTime":" 2019-08-27T18:51:52.5843124Z","verboseError":"Error en la creación de la carga útil con error URI no válido: el URI está vacío".}\], isErrorCountUpdated":true}*
+*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**No se puede generar la carga útil para la entidad CustCustomerV3Entity**","logDateTime":" 2019-08-27T18:51:52.5843124Z","verboseError":"Error en la creación de la carga útil con error URI no válido: el URI está vacío".}\], isErrorCountUpdated":true}*
 
 Este es el aspecto del error en la aplicación basada en modelos en Dynamics 365:
 
 *Se produjo un error inesperado del código ISV. (ErrorType = ClientError) Excepción inesperada del complemento (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: no se pudo procesar la cuenta de la entidad - (Un intento de conexión falló porque la parte conectada no respondió correctamente después de un período de tiempo, o la conexión establecida falló porque el anfitrión conectado no pudo responder).*
 
-Este error ocurre cuando el entorno Common Data Service se restablece incorrectamente al mismo tiempo que intenta crear datos en la aplicación Finance and Operations.
+Este error ocurre cuando el entorno Dataverse se restablece incorrectamente al mismo tiempo que intenta crear datos en la aplicación Finance and Operations.
 
 Para arreglar el problema, siga estos pasos.
 
-1. Inicie sesión en la máquina virtual (VM) Finance and Operations, abra SQL Server Management Studio (SSMS) y busque registros en la tabla DUALWRITEPROJECTCONFIGURATIONENTITY donde **internalentityname** es igual a **Clientes V3** y **externalentityname** es igual a **cuentas**. Así es como se ve la consulta.
+1. Inicie sesión en la máquina virtual (VM) Finance and Operations, abra SQL Server Management Studio (SSMS) y busque filas en la tabla DUALWRITEPROJECTCONFIGURATIONENTITY donde **internalentityname** es igual a **Clientes V3** y **externalentityname** es igual a **cuentas**. Así es como se ve la consulta.
 
     ```sql
     select projectname, externalenvironmentURL ,\* 
@@ -123,5 +125,5 @@ Para arreglar el problema, siga estos pasos.
     where projectname = <project name from previous query>
     ```
 
-3. Asegúrese de que la columna **externalenvironmentURL** tiene el Common Data Service o URL de la aplicación correctos. Elimine cualquier registro duplicado que apunte al error Common Data Service URL. Elimine los registros correspondientes en las tablas DUALWRITEPROJECTFIELDCONFIGURATION y DUALWRITEPROJECTCONFIGURATION.
-4. Detenga la asignación de entidad y luego reiníciela
+3. Asegúrese de que la columna **externalenvironmentURL** tiene el Dataverse o URL de la aplicación correctos. Elimine cualquier fila duplicada que apunte al error Dataverse URL. Elimine las filas correspondientes en las tablas DUALWRITEPROJECTFIELDCONFIGURATION y DUALWRITEPROJECTCONFIGURATION.
+4. Detenga la asignación de tabla y luego reiníciela

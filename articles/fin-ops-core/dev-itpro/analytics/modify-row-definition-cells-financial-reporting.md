@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183000"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685868"
 ---
 # <a name="modify-row-definition-cells"></a>Modificar celdas de definición de filas
 
@@ -107,7 +106,7 @@ La celda **Código de formato** ofrece una selección de opciones preformateadas
     |-------------------------------|-----------------------------------|--------|
     | (Ninguno)                        |                                   | Borra la celda **Código de formato**. |
     | TOT                           | Total                             | Identifica una fila que usa operadores matemáticos en la columna **Fórmulas, filas o unidades relacionadas**. Los totales incluyen operadores simples, como **+** o **-**. |
-    | CAL                           | Cálculo                       | Identifica una fila que usa operadores matemáticos en la columna **Fórmulas, filas o unidades relacionadas**. Los cálculos contienen operadores complejos, como las instrucciones **+**, **-**, **\***, **/** y **IF/THEN/ELSE**. |
+    | CAL                           | Cálculo                       | Identifica una fila que usa operadores matemáticos en la columna **Fórmulas, filas o unidades relacionadas**. Los cálculos contienen operadores complejos, como las instrucciones **+**, **-**, **\**_, _*/** y **IF/THEN/ELSE**. |
     | DES                           | Descripción                       | Identificar una línea de encabezado o una línea en blanco en un informe. |
     | LFT RGT CEN                   | Izquierda Derecha Centro                 | Alínea el texto de la descripción de la fila en la página del informe, independientemente de la colocación del texto en la definición de la columna. |
     | CBR                           | Cambiar la fila de base                   | Identifica una fila que define la fila de base para los cálculos de la columna. |
@@ -175,7 +174,7 @@ En la columna **Código de formato** en una definición de fila, se aplican los 
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Ejemplo de cómo evitar la impresión de filas
 
-En el siguiente ejemplo, Fernanda quiere evitar que se imprima el encabezado y los subrayados en la fila **Efectivo total** del informe porque no ha habido actividad en ninguna de las cuentas de efectivo. Por lo tanto, en la fila 220 (que, como el código de formato **---** indica, es una fila de formato), en la celda **Fórmulas, filas o unidades relacionadas**, escribe **250**, que es el código de fila de la fila de importe que desea eliminar.
+En el siguiente ejemplo, un usuario quiere evitar que se imprima el encabezado y los subrayados en la fila **Efectivo total** del informe porque no ha habido actividad en ninguna de las cuentas de efectivo. Por lo tanto, en la fila 220 (que, como el código de formato **---** indica, es una fila de formato), en la celda **Fórmulas, filas o unidades relacionadas**, escribe **250**, que es el código de fila de la fila de importe que desea eliminar.
 
 [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -416,7 +415,7 @@ De forma predeterminada, el diseñador de informes no imprime ninguna fila que n
 3. En el menú **Archivo**, haga clic en **Guardar** para guardar los cambios.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Usar intervalos y caracteres comodín en una definición de filas
-Cuando se especifica un valor natural de segmento en el cuadro de diálogo **Dimensiones**, puede poner un carácter comodín (? o \*) en cualquier posición de un segmento. El diseñador de informes extrae todos los valores de las posiciones definidas sin tener en cuenta los caracteres comodín. Por ejemplo, la definición de filas solo contiene valores naturales de segmentos y los segmentos naturales tienen cuatro caracteres. Si escribe **6???** en una fila, le está pidiendo al diseñador de informes que incluya todas las cuentas con un valor natural de segmento que empiece por 6. Si escribe **6\***, se devuelven los mismos resultados, pero los resultados también incluyen valores de la variable anchura, como **60** y **600000**. El diseñador de informes reemplaza cada carácter comodín (?) por la gama completa de valores posibles, que incluyen letras y caracteres especiales. Por ejemplo, en el intervalo de **12?0** a **12?4**, el carácter comodín en **12?0** se reemplaza con el valor más bajo del conjunto de caracteres, y el carácter comodín en **12?4** se reemplazan con el valor más alto del conjunto de caracteres.
+Cuando se especifica un valor natural de segmento en el cuadro de diálogo **Dimensiones**, puede poner un carácter comodín (? o \*) en cualquier posición de un segmento. El diseñador de informes extrae todos los valores de las posiciones definidas sin tener en cuenta los caracteres comodín. Por ejemplo, la definición de filas solo contiene valores naturales de segmentos y los segmentos naturales tienen cuatro caracteres. Si escribe **6???** en una fila, le está pidiendo al diseñador de informes que incluya todas las cuentas con un valor natural de segmento que empiece por 6. Si escribe **6\**_, se devuelven los mismos resultados, pero los resultados también incluyen valores de la variable anchura, como _* 60** y **600000**. El diseñador de informes reemplaza cada carácter comodín (?) por la gama completa de valores posibles, que incluyen letras y caracteres especiales. Por ejemplo, en el intervalo de **12?0** a **12?4**, el carácter comodín en **12?0** se reemplaza con el valor más bajo del conjunto de caracteres, y el carácter comodín en **12?4** se reemplazan con el valor más alto del conjunto de caracteres.
 
 > [!NOTE]
 > Debe evitar usar caracteres comodín para las cuentas de inicio y fin en intervalos. Si usa los caracteres comodín en la cuenta de inicio o la cuenta de fin, puede obtener resultados inesperados.
@@ -479,7 +478,7 @@ En la tabla siguiente se describen los campos del cuadro de diálogo **Dimension
 
 | Artículo                | Descripción |
 |---------------------|-------------|
-| Individual o intervalo | En el campo **Desde**, especifique el nombre de una cuenta, o haga clic en el botón **Explorar** ![Explorar](media/browse.gif "Explorar") para explorar la cuenta. Para seleccionar un intervalo, escriba o busque un valor en el campo **Hasta**. |
+| Individual o intervalo | En el campo **Desde**, especifique el nombre de una cuenta, o haga clic en el botón **Explorar** ![Explorar](media/browse.gif "Examinar") para explorar la cuenta. Para seleccionar un intervalo, escriba o busque un valor en el campo **Hasta**. |
 | Conjunto de valores de dimensión | En el campo **Nombre**, especifique el nombre de un conjunto de valores de dimensión. Para crear, modificar, copiar o eliminar un conjunto, haga clic en **Administrar los conjuntos de valores de dimensión**. El campo **Fórmula** se rellena con la fórmula de la celda **Vínculo a las dimensiones financieras** para este conjunto de valores de dimensión en la definición de filas. |
 | Cuentas totales   | En el campo **Nombre**, escriba o busque una dimensión de las cuentas de balance. El campo **Fórmula** se rellena con la fórmula en la celda **Vínculo a las dimensiones financieras** para esta cuenta de balance en la definición del informe. |
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 490a4f6d1bd9f3bdb0af09bd4e6f7f8fb2c92a1b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b5ad461c86f44d880f57c940f6e3a5cb325f7e08
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984283"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688244"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de ventas y rentabilidad
 
@@ -51,7 +50,7 @@ La rentabilidad se pueda analizar mediante los siguientes procedimientos:
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido de Power BI **Rendimiento de ventas y rentabilidad** se muestra en la página **Rendimiento de ventas y rentabilidad** (**Ventas y marketing** \> **Consultas e informes** \> **Análisis de rendimiento de ventas** \> **Rendimiento de ventas y rentabilidad**).
 
-## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
 El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** incluye un informe compuesto por un conjunto de métricas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente proporciona información general de las visualizaciones del contenido.
 
 | Página de informes            | Gráficos                                     | Mosaicos                                                   |

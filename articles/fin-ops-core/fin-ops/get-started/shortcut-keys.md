@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013189"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693734"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -33,7 +32,7 @@ Los siguientes métodos abreviados de teclado le pueden ayudar de forma rápida 
 > [!NOTE]
 > Los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
 
-Algunos de los atajos de esta página son *acordes clave* , lo que significa que requieren dos conjuntos consecutivos de combinaciones de teclas (separados por una coma) que deben presionarse de forma independiente para activar la acción requerida. Por ejemplo, el atajo "Alt + M, A" requiere que el usuario primero presione "Alt + M", suelte las teclas y luego presione "A". 
+Algunos de los atajos de esta página son *acordes clave*, lo que significa que requieren dos conjuntos consecutivos de combinaciones de teclas (separados por una coma) que deben presionarse de forma independiente para activar la acción requerida. Por ejemplo, el atajo "Alt + M, A" requiere que el usuario primero presione "Alt + M", suelte las teclas y luego presione "A". 
 
 ## <a name="finding-a-shortcut"></a>Encontrar un acceso directo
 

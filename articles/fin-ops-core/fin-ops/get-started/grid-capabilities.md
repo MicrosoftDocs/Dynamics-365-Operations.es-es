@@ -3,7 +3,7 @@ title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. La nueva característica de cuadrícula debe estar habilitada para tener acceso a estas capacidades.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835095"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693783"
 ---
 # <a name="grid-capabilities"></a>Funcionalidad de cuadrícula
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 El nuevo control de cuadrícula proporciona una serie de capacidades útiles y potentes que se pueden utilizar para mejorar la productividad del usuario, construir vistas más interesantes de sus datos y obtener información significativa sobre sus datos. Este artículo cubrirá las siguientes capacidades: 
 
@@ -95,21 +95,23 @@ Como un refuerzo de productividad, los usuarios pueden introducir fórmulas mate
 Para que el sistema reconozca un valor como una expresión, comience el valor con un signo igual (**=**). Para obtener más información sobre los operadores y la sintaxis compatibles, consulte [Símbolos matemáticos admitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Agrupación de datos tabulares
-[!include [preview banner](../includes/preview-banner.md)]
+Los usuarios comerciales a menudo necesitan realizar análisis de datos ad-hoc. Si bien esto se puede hacer exportando datos a Microsoft Excel y usando tablas dinámicas, la característica **Agrupación en cuadrículas**, que está disponible de modo general en la versión 10.0.16/Platform update 40 y que depende de la característica de control de cuadrículas nuevas, permite a los usuarios organizar sus datos de manera interesante dentro de las aplicaciones de Finance and Operations. Dado que esta característica extiende la característica **Totales**, **Agrupamiento** también permite obtener información significativa sobre los datos al proporcionar subtotales a nivel de grupo.
 
-Los usuarios comerciales a menudo necesitan realizar análisis de datos ad-hoc. Si bien esto se puede hacer exportando datos a Microsoft Excel y usando tablas dinámicas, la característica **(Versión preliminar) Agrupación en cuadrículas**, que depende de la característica de control de cuadrículas nuevas, permite a los usuarios organizar sus datos de manera interesante dentro de las aplicaciones de Finance and Operations. Dado que esta característica extiende la característica **Totales**, **Agrupamiento** también permite obtener información significativa sobre los datos al proporcionar subtotales a nivel de grupo.
-
-Para usar esta característica, haga clic con el botón derecho en la columna que desea agrupar y seleccione **Agrupar por esta columna**. Esta acción ordenará los datos por la columna seleccionada, agregará un nuevo **Grupo por columna** al principio de la cuadrícula e insertará "filas de encabezado" al comienzo de cada grupo. Estas filas de encabezado proporcionan la siguiente información sobre cada grupo: 
+Para usar esta característica, haga clic con el botón derecho en la columna que desea agrupar y seleccione **Agrupar por esta columna**. Esta acción ordenará los datos por la columna seleccionada, agregará un nuevo **Agrupar por** columna al principio de la cuadrícula e insertará "filas de encabezado" al comienzo de cada grupo. Estas filas de encabezado proporcionan la siguiente información sobre cada grupo: 
 -  Valor de datos para el grupo 
--  Nombre de columna (esta información será especialmente útil después de que se admitan múltiples niveles de agrupación).  
+-  Nombre de columna (esta información es especialmente útil cuando tenga múltiples niveles de agrupación)  
 -  Número de filas de datos en este grupo
 -  Subtotales para cualquier columna configurada para mostrar totales
 
 Con [Vistas guardadas](saved-views.md) habilitado, esta agrupación se puede guardar mediante personalización como parte de una vista para un acceso rápido la próxima vez que visite la página.  
 
-Si selecciona **Agrupar por esta columna** para una columna diferente, la agrupación original será reemplazada, porque solo un nivel de agrupación es compatible a partir de la versión 10.0.9 / Platform update 33.
+### <a name="multiple-levels-of-grouping"></a>Múltiples niveles de agrupación
+Una vez que haya agrupado los datos en una sola columna, puede agrupar los datos en una columna diferente seleccionando **Agrupar por esta columna** en la columna deseada. Este proceso se puede repetir hasta que tenga 5 niveles anidados de agrupación, que es la profundidad máxima admitida. En este punto, ya no podrá agrupar por columnas adicionales.  
 
-Para deshacer la agrupación en una cuadrícula, haga clic derecho en la columna de agrupación y seleccione **Desagrupar**.  
+En cualquier momento, puede eliminar la agrupación en cualquier columna haciendo clic derecho en esa columna y seleccionando **Desagrupar**. También puede eliminar la agrupación de todas las columnas seleccionando **Opciones de cuadrícula** y después **Desagrupar todo**.   
+
+Tenga en cuenta que antes de la versión 10.0.16 / Platform update 40, solo se admitía un nivel de agrupación. En estas versiones, si los datos están agrupados y selecciona **Agrupar por esta columna** para una columna diferente, se reemplaza la agrupación original.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Expandir y contraer grupos
 La agrupación inicial de datos tendrá todos los grupos expandidos. Puede crear vistas resumidas de los datos contrayendo grupos individuales, o puede usar la expansión y contracción de grupos para ayudar a navegar a través de los datos. Para expandir o contraer un grupo, seleccione el botón de chevron (>) en la fila de encabezado del grupo correspondiente. Tenga en cuenta que el estado expandir/contraer de grupos individuales **no** está guardado en la personalización.
@@ -165,10 +167,26 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
     -  Existe una lista de tarjetas agrupadas en la página.
     -  Una columna de cuadrícula con un control extensible sin reacción.
 
-    Cuando un usuario encuentra por primera vez una de estas situaciones, aparecerá un mensaje sobre la actualización de la página. Después de que aparezca este mensaje, la página continuará utilizando la cuadrícula existente para todos los usuarios hasta la próxima actualización de la versión del producto. Se considerará una mejor administración de estos escenarios, para que se pueda utilizar la nueva cuadrícula, en una actualización futura.     
+    Cuando un usuario encuentra por primera vez una de estas situaciones, aparecerá un mensaje sobre la actualización de la página. Después de que aparezca este mensaje, la página continuará utilizando la cuadrícula existente para todos los usuarios hasta la próxima actualización de la versión del producto. Se considerará una mejor administración de estos escenarios, para que se pueda utilizar la nueva cuadrícula, en una actualización futura.    
+    
+-  [KB 4582758] Los registros aparecen borrosos cuando cambia el zoom de 100 a cualquier otro porcentaje
+    
+### <a name="fixed-as-part-of-10015"></a>Corregido como parte de 10.0.15    
+
+-  [KB 4582723] Las opciones de visualización no se muestran cuando se realizan más adelante en el ciclo de vida del formulario
+
+### <a name="fixed-as-part-of-10014"></a>Corregido como parte de 10.0.14
+
+-  (Actualización de calidad) [KB 4584752] Error de cliente inesperado con la página de propuestas de factura del proyecto
 
 ### <a name="fixed-as-part-of-10013"></a>Corregido como parte de 10.0.13
 
+-  (Actualización de calidad) [KB 4583880] Regression Suite Automation Tool (RSAT) las pruebas fallan en la acción OpenLookup con "No se puede leer la propiedad RowIndex de undefined"
+-  (Actualización de calidad) [KB 4583847] Error de cliente inesperado al navegar por las búsquedas 
+-  (Actualización de calidad) [Error 471777] No se pueden seleccionar campos en una cuadrícula para editar o crear una aplicación móvil
+-  [Error 474851] Los hipervínculos en los controles del grupo de referencia no funcionan 
+-  [Error 474848] Las vistas previas mejoradas con cuadrículas no se muestran
+-  [KB 4582726] No se respeta la propiedad RotateSign  
 -  [Error 470173] Las casillas de verificación en filas inactivas se alternan cuando se hace clic en el espacio en blanco en la celda
 -  [Error 474848] Las vistas previas mejoradas con cuadrículas no se muestran
 -  [Error 474851] Los hipervínculos en los controles del grupo de referencia no funcionan 
@@ -176,6 +194,7 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
 -  [KB 4569441] Problemas con la representación de listas de tarjetas de varias columnas, información sobre herramientas en imágenes y opciones de visualización en algunos campos
 -  [KB 4575279] No todas las filas marcadas se eliminan en el diario general
 -  [KB 4575233] Las opciones de visualización no se restauran después de pasar a otra fila
+-  [Error 477884] Las búsquedas devuelven un valor / registro incorrecto si se activa un nuevo control de cuadrícula
 -  [KB 4571095] La publicación del recibo del producto se produce al presionar accidentalmente Entrar (administración correcta de la acción predeterminada de una página)
 -  [KB 4575437] Las búsquedas con controles editables se cierran inesperadamente
 -  [KB 4569418] Línea duplicada creada en el formulario de programación de entrega
@@ -225,7 +244,7 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
 - [KB 4558383] Los controles fuera de la cuadrícula no se actualizan después de eliminar el último registro.
 - [KB 4558587] Los grupos de referencia que tienen cuadros combinados para los campos de reemplazo no muestran valores.
 - [KB 4562143] Los campos no se actualizan después de un cambio de fila/El procesamiento de cuadrícula se atasca después de la eliminación de filas.
-- [KB 4562645] Se produce una excepción cuando se abre una búsqueda mientras se ejecutan las pruebas de Herramientas de administración remota del servidor (RSAT).
+- [KB 4562645] Se produce una excepción cuando se abre una búsqueda mientras se ejecutan las pruebas de Regression Suite Automation Tool (RSAT).
 
 ### <a name="fixed-as-part-of-10010"></a>Corregido como parte de 10.0.10
 

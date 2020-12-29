@@ -1,6 +1,6 @@
 ---
 title: Maestro de proveedores integrado
-description: Este tema describe la integración de datos de proveedor entre aplicaciones de Finance and Operations y Common Data Service.
+description: Este tema describe la integración de datos de proveedor entre aplicaciones de Finance and Operations y Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997657"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685494"
 ---
 # <a name="integrated-vendor-master"></a>Maestro de proveedores integrado
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -37,7 +39,7 @@ En ambos enfoques, los datos del proveedor se integran entre Dynamics 365 Supply
 
 ## <a name="vendor-data-flow"></a>Flujo de datos del proveedor
 
-Si no quiere almacenar los datos de proveedor de tienda en la entidad **Cuenta/Contacto** en Common Data Service puede usar el nuevo diseño de proveedor.
+Si no quiere almacenar los datos de proveedor de tienda en la entidad **Cuenta/Contacto** en Dataverse puede usar el nuevo diseño de proveedor.
 
 ![Flujo de datos del proveedor](media/dual-write-vendor-data-flow.png)
 
@@ -50,12 +52,12 @@ Si quiere continuar almacenando los datos de proveedor de tienda en la entidad *
 
 ## <a name="templates"></a>Plantillas
 
-Los datos del proveedor incluyen toda la información sobre el proveedor, como el grupo de proveedores, las direcciones, la información de contacto, el perfil de pago y el perfil de factura. Una colección de mapas de entidad funciona conjuntamente durante la interacción de los datos del proveedor, como se muestra en la tabla siguiente.
+Los datos del proveedor incluyen toda la información sobre el proveedor, como el grupo de proveedores, las direcciones, la información de contacto, el perfil de pago y el perfil de factura. Una colección de mapas de tabla funciona conjuntamente durante la interacción de los datos del proveedor, como se muestra en la tabla siguiente.
 
 Aplicaciones de Finance and Operations | Otras aplicaciones de Dynamics 365     | Descripción
 ----------------------------|-----------------------------|------------
 Proveedor V2                   | Cuenta                     | Las empresas que utilizan la entidad Cuenta para almacenar la información de proveedor pueden continuar utilizandola de la misma manera. También pueden aprovechar la funcionalidad explícita del proveedor que está por venir debido a la integración de aplicaciones de Finance and Operations.
-Proveedor V2                   | Msdyn\_vendors              | Las empresas que utilizan una solución personalizada para los proveedores pueden aprovecharse del concepto de proveedor del componente estándar que se está introduciendo en Common Data Service debido a la integración de aplicaciones de Finance and Operations. 
+Proveedor V2                   | Msdyn\_vendors              | Las empresas que utilizan una solución personalizada para los proveedores pueden aprovecharse del concepto de proveedor del componente estándar que se está introduciendo en Dataverse debido a la integración de aplicaciones de Finance and Operations. 
 Grupos de proveedores               | msdyn\_vendorgroups         | Esta plantilla sincroniza la información del grupo de proveedores.
 Método de pago de proveedor       | msdyn\_vendorpaymentmethods | Esta plantilla sincroniza la información del método de pago del proveedor.
 Contactos V2 de CDS             | contactos                    | La plantilla [contactos](customer-mapping.md#cds-contacts-v2-to-contacts) sincroniza toda la información de contacto principal, secundaria, y terciaria, para clientes y proveedores.

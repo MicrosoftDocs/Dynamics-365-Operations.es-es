@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249127"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701685"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
@@ -112,9 +112,12 @@ Puede obtener acceso a la página **Recuperar las facturas de proveedor** solo s
 
 ## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Restablecer el estado del flujo de trabajo para las facturas de proveedor desde irrecuperable a borrador
 
-Una instancia de flujo de trabajo que se ha detenido debido a un error irrecuperable tendrá un estado flujo trabajo **Irrecuperable**. Cuando el estado de un flujo de trabajo de facturas de proveedor es **Irrecuperable**, puede restablecerlo a **Borrador** seleccionando **Recuperar**. Entonces podrá editar la factura de proveedor. Esta función sólo está disponible si el parámetro **Restablecer estado de borrador para el flujo de trabajo de la factura de proveedor** en la página **Administración de características** está activado.
+Una instancia de flujo de trabajo que se ha detenido debido a un error irrecuperable tendrá un estado flujo trabajo **Irrecuperable**. Cuando el estado de un flujo de trabajo de facturas de proveedor es **Irrecuperable**, puede restablecerlo a **Borrador** seleccionando **Recuperar**. Entonces podrá editar la factura de proveedor. Esta característica solo está disponible si el parámetro **Restablecer el estado del flujo de trabajo de facturas de proveedores de Irrecuperable a Borrador** de la página **Administración de características** está activado.
 
 Puede usar la página **Historial del flujo de trabajo** para restablecer el estado del flujo de trabajo a **Borrador**. Puede abrir esta página **Factura de proveedor** o si navega a **Común > Consultas > Flujo de trabajo**. Para restablecer el estado del flujo de trabajo en **Borrador**, seleccione **Recuperar**. También puede restablecer el estado del flujo de trabajo a Borrador seleccionando la acción **Recuperar** en **Factura de proveedor** o **Facturas de proveedor pendientes**. Una vez que el estado de flujo de trabajo se establece a **Borrador**, quedará disponible para editar en la página **Factura de proveedor**.
+
+## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Ver el total de la factura en la página de Facturas de proveedores pendientes
+Puede ver el total de la factura en la página **Facturas de proveedores pendientes** habilitando el parámetro **Mostrar el total de la factura en la lista de facturas de proveedores pendientes**, en la página **Parámetros de proveedores**. 
 
 
 

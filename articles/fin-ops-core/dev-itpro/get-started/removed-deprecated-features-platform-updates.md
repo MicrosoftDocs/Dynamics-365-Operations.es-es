@@ -3,24 +3,23 @@ title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/24/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971454"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689575"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -37,8 +36,16 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.15 de aplicaciones Finance and Operations
 
-> [!NOTE]
-> La versión 10.0.15 es una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La compatibilidad de Internet Explorer 11 con Dynamics 365 está en desuso
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | A partir de diciembre de 2020, Microsoft Internet Explorer 11 el soporte para todos los productos de Dynamics 365 está en desuso e Internet Explorer 11 no se admitirá después de agosto de 2021.<br><br>Esto afectará a los clientes que usan productos Dynamics 365 que están diseñados para usarse a través de una interfaz de Internet Explorer 11. Después de agosto de 2021, Internet Explorer 11 no será compatible con dichos productos de Dynamics 365. |
+| **¿Reemplazado por otra característica?**   | Recomendamos que los clientes hagan la transición a Microsoft Edge.|
+| **Áreas de producto afectadas**         | Todos los productos Dynamics 365 |
+| **Opción de implementación**              | Todos|
+| **Estado**                         | En desuso. Internet Explorer 11 no se admitirá después de agosto de 2021.|
+
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Complemento de Visual Studio para aplicar revisiones de metadatos
 
@@ -52,10 +59,6 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.14 de aplicaciones Finance and Operations
-
-> [!NOTE]
-> La versión 10.0.14 es una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
-
 
 ### <a name="online-users-page"></a>Página de usuarios en línea 
 
@@ -144,7 +147,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | Visual Studio 2017 reemplazará a Visual Studio 2015 como versión implementada y necesaria. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | Una vez anunciada la disponibilidad de nuevas máquinas virtuales (VM) con Visual Studio 2017, las máquinas virtuales existentes con solo Visual Studio 2015 tendrán que volver a implementarse con la oleadda 1 de 2021. |
+| **Estado**                         | Las máquinas virtuales implementadas en la versión 10.0.13 (Platform update 37) o posterior contienen Visual Studio 2017. La versión 10.0.16 (Platform update 40) es la versión final con soporte para Visual Studio 2015. Máquinas virtuales con solo Visual Studio 2015 no se podrán actualizar a la versión 10.0.17 (Platform update 41). |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Grupos de campos que contienen referencias de campo no válidas
 

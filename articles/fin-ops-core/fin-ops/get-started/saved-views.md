@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: b948da0bff8de3b8ad783b3e3f52100a29fab109
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802904"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693710"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -92,7 +91,7 @@ Tenga en cuenta que en algunos casos, la consulta asociada a la vista predetermi
 
 ## <a name="managing-personal-views"></a>Gestión de vistas personales
 
-El cuadro **Gestionar mis vistas** le da capacidades de mantenimiento básicas sobre sus vistas personales y el orden de vistas en el selector de la vista. Para abrir esta página, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más**y, a continuación **Administrar mis vistas**.
+El cuadro **Gestionar mis vistas** le da capacidades de mantenimiento básicas sobre sus vistas personales y el orden de vistas en el selector de la vista. Para abrir esta página, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más** y, a continuación **Administrar mis vistas**.
 
 Para una lista de vistas disponibles para dicha página, el conjunto de acciones siguiente está disponible.
 
@@ -171,7 +170,7 @@ Si los cambios a la vista publicada implican modificar las personalizaciones o l
 
 ## <a name="managing-published-views"></a>Administrar las vistas publicadas
 
-Al igual que administrar las vistas personales, el cuadro **Administrar mis vistas** da a los usuarios con privilegios básicos de publicación la capacidad de mantener las vistas publicadas de esa página (además de sus propias vistas personales). Para abrir esta página, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más**y, a continuación **Administrar mis vistas**.
+Al igual que administrar las vistas personales, el cuadro **Administrar mis vistas** da a los usuarios con privilegios básicos de publicación la capacidad de mantener las vistas publicadas de esa página (además de sus propias vistas personales). Para abrir esta página, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más** y, a continuación **Administrar mis vistas**.
 
 Aunque todos los usuarios tengan una pestaña **Mis vistas** que muestra sus vistas personales, los usuarios con privilegios de publicación también tienen una pestaña **Vistas de la organización** que muestra todas las vistas publicadas y no publicadas de esa página. Dado que puede haber varios usuarios que publican las vistas, es importante poder administrar la lista completa de vistas publicadas, independientemente de si se era o no el usuario que publicó realmente la vista.
 
