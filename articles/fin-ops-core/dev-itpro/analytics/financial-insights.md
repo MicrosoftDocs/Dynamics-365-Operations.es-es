@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 596a067611ac4477f4469dbbc370c971e0f7a35d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181781"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682780"
 ---
 # <a name="financial-insights"></a>Financial Insights
 
@@ -88,7 +87,7 @@ Actualmente, los datos en informes incrustados de Power BI no pueden limitarse a
 | Ver información financiera entre empresas   | En Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, este derecho no se asigna a un rol. En la siguiente versión, este derecho se asignará al rol del director financiero. | Este derecho proporciona acceso al elemento del menú para el espacio de trabajo de la visión general de director financiero (CFO). De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas. |
 
 
-## <a name="financial-reporting-vs-finanical-insights"></a>Informe financiero frente Finanical Insights
+## <a name="financial-reporting-vs-financial-insights"></a>Financial Reporting frente Finanical Insights
 Aunque **Financial Insights** contiene informes financieros, no es una sustitución del informe financiero de la aplicación. Los informes financieros predeterminados en **Financial Insights** tienen un alcance limitado y no incluyen todos los tipos de informes financieros. El informe financiero sigue siendo la herramienta principal para diseñar, crear y generar informes financieros estatutarios.
 
 El siguiente gráfico de comparación ayudará a diferenciar las dos opciones:
@@ -131,7 +130,7 @@ Los usuarios pueden filtrar el informe mediante el panel **Filtro** a la izquier
 - **Filtros a nivel visual:** estos filtros solo se aplican al elemento visual seleccionado. Estos filtros se aplican encima de los filtros a nivel de página.
 - **Filtro de exploración:** este filtro filtra desde un elemento visual "de origen" que se aplica al elemento visual actual cuando se explora del elemento visual de origen al elemento visual actual.
 
-![Filtrar](./media/filter.png)
+![Opciones de filtro](./media/filter.png)
 
 Para quitar un valor específico de filtro, seleccione el símbolo de la goma situado junto a él. No quite un filtro seleccionando la X. Si selecciona la X, el campo sobre el que se está filtrando se quita como opción de filtro. Si quita accidentalmente un campo del filtro, cierre el espacio de trabajo y, a continuación, vuelva a abrirlo. Los parámetros de filtro predeterminado se volverán a aplicar.
 
@@ -176,25 +175,25 @@ Los distintos niveles de exploración están disponibles mediante Power BI. Cada
 
 En la siguiente ilustración, el informe **Saldo de comprobación** se contrae al máximo nivel de la jerarquía de la fila, el tipo de cuenta principal.
 
-![Saldo de comprobación](./media/trial-balance.png)
+![Instrucción de saldo de comprobación](./media/trial-balance.png)
 
 Para ver el siguiente nivel de la jerarquía, las categorías de cuenta principal, puede establecer el campo **Explorar en** para **Filas** y luego seleccionar el botón **Expandir** (el tercer botón después del campo Explorar en). Ahora verá todas las categorías de cuenta principal ampliadas. Actualmente, Power BI no le permite expandir una sola fila o columna pero puede seguir viendo el resto de filas o columnas.
 
-![Saldo de comprobación](./media/trial-balance2.png)
+![Desglose del saldo de comprobación en las filas](./media/trial-balance2.png)
 
 Para ampliar a la cuenta principal para todas las filas, puede volver a utilizar el botón **Expandir** . Sin embargo, para explorar a fondo las cuentas principales para una sola fila, seleccione primero el botón **Explorar a fondo** (una sola flecha apuntando hacia abajo a la derecha de la ventana) y luego seleccione la fila que desea explorar a fondo. La siguiente ilustración muestra el resultado cuando se selecciona la fila **Ventas** después de que se seleccione el botón **Explorar a fondo** .
 
-![Saldo de comprobación](./media/trial-balance3.png)
+![Botón para expandir el saldo de comprobación](./media/trial-balance3.png)
 
 Tras explorar a fondo una sola fila, se requieren múltiples clics para volver al saldo de comprobación completo. El botón **Explorar a fondo** (el primer botón después del campo **Explorar en**) explora a fondo solo en el contexto de la categoría **Ventas**, como se muestra en la siguiente ilustración.
 
-![Saldo de comprobación](./media/trial-balance4.png)
+![Botón de desglose del saldo de comprobación](./media/trial-balance4.png)
 
 Puede seguir usando el botón **Explorar a fondo** para volver al máximo nivel de resumen de las filas.
 
 Power BI también dispone de un botón que le permite ir al siguiente nivel de la jerarquía (el segundo botón después del campo **Explorar en**). El efecto de este botón es diferente al efecto del botón **Expandir** (el tercer botón después del campo **Explorar en** ), que se utiliza para expandir la jerarquía. Cuando expanda la jerarquía, la jerarquía se mantiene en el informe. Por ejemplo, como se mostró anteriormente, si expande en el tipo de cuenta principal, todavía puede ver el tipo de cuenta principal en el informe. Sin embargo, cuando va al siguiente nivel de la jerarquía, el informe ya no muestra la principal en la jerarquía, como se muestra en la siguiente ilustración.
 
-![Saldo de comprobación](./media/trial-balance5.png)
+![Botón de retroceder del saldo de comprobación](./media/trial-balance5.png)
 
 Para ver los detalles de transacción detrás de los saldos resumidos, puede seleccionar algunas importes para volver a explorar en Finance and Operations.
 
@@ -245,6 +244,6 @@ Power BI no proporciona una opción para ocultar o mostrar filas vacías. Si una
 
 No se requiere la información de los siguientes recursos para habilitar los informes incrustados para el espacio de trabajo **Visión general de director financiero (CFO)** o **Financial Insights** en un entorno de producción. En su lugar, son útiles para los cuadros de desarrollo y si desea incrustar sus propios informes de Power BI.
 
-- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
+- [Acceso a espacios de trabajo analíticos e informes en un entorno de 1 caja](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
-- <https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
+- [Agregar análisis a espacios de trabajo mediante Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)

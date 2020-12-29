@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143108"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684388"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Generar informes en los formatos de Office que tengan imágenes incrustadas
 
@@ -39,15 +38,15 @@ En este ejemplo, usará configuraciones de ER creadas para una empresa de ejempl
 5. Haga clic en Imprimir prueba.
     * Ejecute el formato para probar.  
 6. Seleccione Sí en el campo Formato de cheque negociable.
-7. Haga clic en Aceptar
-    * Revise el resultado creado. Tenga en cuenta que el logotipo de la empresa se mostrará en el informe junto con la firma de la persona autorizada. La imagen de firma se obtiene en el campo del tipo de datos “Contenedor” del registro de diseño de cheques que está asociado a la cuenta bancaria seleccionada.  
+7. Haga clic en Aceptar.
+    * Revise el resultado creado. El logotipo de la empresa se mostrará en el informe junto con la firma de la persona autorizada. La imagen de firma se obtiene en el campo del tipo de datos “Contenedor” del registro de diseño de cheques que está asociado a la cuenta bancaria seleccionada.  
 8. Expanda la sección Copias.
 9. Haga clic en Editar.
 10. En el campo de marca de agua, introduzca "Imprimir marca de agua como Anulada".
     * Cambie la configuración del diseño de la marca de agua para mostrar el texto de la marca de agua en la generación de documentos en un elemento de forma de Excel.  
 11. Haga clic en Imprimir prueba.
-12. Haga clic en Aceptar
-    * Revise el resultado creado. Tenga en cuenta que la marca de agua se mostrará en el informe creado de acuerdo a la opción de selección.  
+12. Haga clic en Aceptar.
+    * Revise el resultado creado. La marca de agua se mostrará en el informe creado de acuerdo a la opción de selección.  
 13. Cierre la página.
 14. En el panel Acción, haga clic en Administrar pagos.
 15. Haga clic en Cheques.
@@ -56,7 +55,7 @@ En este ejemplo, usará configuraciones de ER creadas para una empresa de ejempl
 18. En la lista, marque todas las filas.
 19. Haga clic en Imprimir copia de cheque.
     * Ejecute el formato para reimprimir los cheques seleccionados.  
-    * Revise el resultado creado. Observe que se han vuelto a imprimir los cheques seleccionados. El logotipo de la empresa y las etiquetas no se imprimen ya que se muestran en el formulario preimpreso.  
+    * Revise el resultado creado. Se han vuelto a imprimir los cheques seleccionados. El logotipo de la empresa y las etiquetas no se imprimen ya que se muestran en el formulario preimpreso.  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>Modificar la asignación del modelo de datos importado
 1. Cierre la página.
@@ -90,8 +89,8 @@ En este ejemplo, usará configuraciones de ER creadas para una empresa de ejempl
 3. En el panel de acciones, haga clic en Configurar.
 4. Haga clic en Comprobar.
 5. Haga clic en Imprimir prueba.
-6. Haga clic en Aceptar
-    * Revise el resultado creado. Tenga en cuenta que la imagen de los datos adjuntos de la gestión de documentos se muestra como la firma de una persona autorizada.  
+6. Haga clic en Aceptar.
+    * Revise el resultado creado. La imagen de los datos adjuntos de la gestión de documentos se muestra como la firma de una persona autorizada.  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Use el documento de MS Word como plantilla en el formato importado
 1. Cierre la página.
@@ -117,6 +116,6 @@ En este ejemplo, usará configuraciones de ER creadas para una empresa de ejempl
 20. Use un filtro rápido para filtrar por el campo Cuenta bancaria, por el valor ''USMF OPER".
 21. Haga clic en Comprobar.
 22. Haga clic en Imprimir prueba.
-23. Haga clic en Aceptar
-    * Revise el resultado creado. Tenga en cuenta que el resultado se ha generado como documento de MS Word con las imágenes incrustadas que presentan el logotipo de la empresa, la firma de una persona autorizada y el texto seleccionado de la marca de agua.  
+23. Haga clic en Aceptar.
+    * Revise el resultado creado. El resultado se ha generado como documento de Word con las imágenes incrustadas que presentan el logotipo de la empresa, la firma de una persona autorizada y el texto seleccionado de la marca de agua.  
 

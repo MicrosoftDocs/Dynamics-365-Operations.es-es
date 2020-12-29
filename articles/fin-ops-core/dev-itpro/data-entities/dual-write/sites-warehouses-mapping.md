@@ -1,6 +1,6 @@
 ---
 title: Sitios y almacenes integrados
-description: Este tema describe la integración de datos de sitios y almacenes entre Finance and Operations y Common Data Service.
+description: Este tema describe la integración de datos de sitios y almacenes entre Finance and Operations y Dataverse.
 author: t-benebo
 manager: AnnBe
 ms.date: 10/09/2019
@@ -18,24 +18,26 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: d5c2030160f6025c9de63b2c29215364f5f87e6f
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: d192343d78f9248e4d1232d6aee1a1f800383805
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997634"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679329"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Sitios y almacenes integrados
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Este tema describe la integración de datos de sitios y almacenes entre Finance and Operations y Common Data Service. Los sitios operativos y los almacenes son conceptos comunes en una aplicación de Supply Chain Management. Se usan para modelar a la cadena de suministro de la empresa.
+
+Este tema describe la integración de datos de sitios y almacenes entre Finance and Operations y Dataverse. Los sitios operativos y los almacenes son conceptos comunes en una aplicación de Supply Chain Management. Se usan para modelar a la cadena de suministro de la empresa.
 
 ## <a name="templates"></a>Plantillas
 
-Con la integración con Common Data Service, estos conceptos y toda la información relacionada están disponibles en Common Data Service mediante el uso de las entidades de datos de sitios y almacenes en la tabla siguiente.
+Con la integración con Dataverse, estos conceptos y toda la información relacionada están disponibles en Dataverse mediante el uso de las tablas de datos de sitios y almacenes en la tabla siguiente.
 
 Aplicaciones de Finance and Operations | Otras aplicaciones de Dynamics 365 | Descripción
 --------------------------|---------------------------|---

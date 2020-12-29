@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138869"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679495"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Permitir a los usuarios configurar una referencia de formato ER preguntando un formato desde el repositorio global
 
 [!include [banner](../includes/banner.md)]
 
-Puede usar el marco de [informes electrónicos](general-electronic-reporting.md) (ER) para configurar [formatos](general-electronic-reporting.md#FormatComponentOutbound) para documentos de salida en función de los requisitos legales de diversos países o regiones. También puede usar el marco ER para configurar [formatos](general-electronic-reporting.md#FormatComponentInbound) para analizar documentos entrantes y usar la información de esos documentos para agregar o actualizar datos de la aplicación. Cada uno de estos formatos puede usarse en su instancia de Dynamics 365 Finance para manejar documentos comerciales entrantes o salientes como parte de un determinado proceso comercial. 
+Puede usar el marco de [informes electrónicos](general-electronic-reporting.md) (ER) para configurar [formatos](general-electronic-reporting.md#FormatComponentOutbound) para documentos de salida en función de los requisitos legales de diversos países o regiones. También puede usar el marco ER para configurar [formatos](general-electronic-reporting.md#FormatComponentInbound) para analizar documentos entrantes y usar la información de esos documentos para agregar o actualizar datos de la aplicación. Cada uno de estos formatos puede usarse en su instancia de Dynamics 365 Finance para manejar documentos comerciales entrantes o salientes como parte de un determinado proceso comercial.
 
 Por lo general, debe especificar qué formato de ER se debe utilizar en un determinado proceso empresarial. Para hacerlo, seleccione un único formato de ER en un campo de búsqueda que esté configurado como parte de los parámetros específicos del proceso empresarial. Estos campos de búsqueda generalmente se implementan utilizando la API apropiada del marco de ER. Para más información, vea [API del marco de ER: código para mostrar una búsqueda de asignación de formato](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
@@ -45,7 +44,7 @@ Si la instancia actual de Finance contiene formatos de ER relacionados con el pr
 
 Esta búsqueda ofrece solo los formatos ER que ya se han importado a la instancia actual de Finance. Para [importar](./tasks/er-import-configuration-lifecycle-services.md) soluciones de ER para la instancia actual de Finance, debe tener permisos para ejecutar la función adecuada del marco de ER que admite el [ciclo de vida](general-electronic-reporting-manage-configuration-lifecycle.md) de soluciones de ER que contienen formatos ER.
 
-A partir de la versión 10.0.9 de Finance (versión de abril de 2020), se ha ampliado la interfaz de usuario de la búsqueda de formato ER que se implementa utilizando la API de marco ER. Todavía puede seleccionar los formatos ER existentes, en la ficha desplegable **Seleccionar configuración de formato**. Además de eso, la búsqueda extendida ofrece la nueva opción de buscar en el repositorio global (GR) para localizar formatos ER específicos. Todos los formatos ER del GR se ofrecen en la ficha desplegable **Importar desde el repositorio global**.
+A partir de la versión 10.0.9 de Finance (versión de abril de 2020), se ha ampliado la interfaz de usuario de la búsqueda de formato ER que se implementa utilizando la API de marco ER. Todavía puede seleccionar los formatos ER existentes, en la ficha desplegable **Seleccionar configuración de formato**. Además, la búsqueda extendida ofrece la nueva opción de buscar en el repositorio global (GR) para localizar formatos ER específicos. Todos los formatos ER del GR se ofrecen en la ficha desplegable **Importar desde el repositorio global**.
 
 [![Página Parámetros de comercio exterior](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
@@ -55,13 +54,13 @@ Cuando selecciona un formato ER en la ficha desplegable **Importar desde el repo
 
 [![Página Parámetros de comercio exterior](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
-Luego, si la importación se completa con éxito, la referencia al formato ER importado se almacena en este campo de búsqueda. Tenga en cuenta que cuando accede al GR por primera vez, debe seguir el enlace proporcionado para registrarse en el [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) que se usa para administrar el acceso al almacenamiento GR.
+Luego, si la importación se completa con éxito, la referencia al formato ER importado se almacena en este campo de búsqueda. Cuando accede al GR por primera vez, debe seguir el enlace proporcionado para registrarse en el [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) que se usa para administrar el acceso al almacenamiento GR.
 
 [![Página Parámetros de comercio exterior](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Por defecto, la ficha desplegable **Importar desde el repositorio global** presenta la lista de formatos ER del almacenamiento temporal que se crea automáticamente en función del contenido GR para mejorar el rendimiento. Esto sucede cuando la ficha desplegable **Importar desde el repositorio global** se abre la primera vez, lo que puede llevar varios segundos.
 
-Si no ve el formato ER requerido en la ficha desplegable **Importar desde el repositorio global**, pero está seguro de que este formato ER está almacenado en el GR, seleccione la opción **Sincronizar**. Esto actualizará el almacenamiento temporal y lo sincronizará con el contenido actual del GR.
+Si no ve el formato ER requerido en la ficha desplegable **Importar desde el repositorio global**, pero está seguro de que este formato ER está almacenado en el GR, seleccione la opción **Sincronizar**. Esta opción actualizará el almacenamiento temporal y lo sincronizará con el contenido actual del GR.
 
 ## <a name="feature-activation"></a>Activación de funciones
 

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9496a1f96e2d0e18eb477a9743927b2076c5548a
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: a8f52c22a57d465ce1c2bedac6e8f13db3e856c0
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269576"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594487"
 ---
 # <a name="crop-images"></a>Recortar imágenes
 
@@ -57,10 +57,12 @@ Una vez que se completa el recorte personalizado, las modificaciones de la image
 
 [Visión general de la administración de activos digitales](dam-overview.md)
 
-[Subir imágenes](dam-upload-images.md)
+[Cargar imágenes](dam-upload-images.md)
 
-[Subir vídeo](dam-upload-video.md)
+[Cargar vídeo](dam-upload-video.md)
 
 [Subir archivos](dam-upload-files.md)
 
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
+
+[Cargar y servir archivos estáticos](upload-serve-static-files.md)

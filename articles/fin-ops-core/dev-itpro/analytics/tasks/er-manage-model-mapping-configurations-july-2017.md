@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143062"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684436"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gestionar la asignación de modelos de ER en distintas configuraciones de ER
 
@@ -57,7 +56,7 @@ Dado que las configuraciones de ER se comparten entre las empresas, puede comple
 16. Cierre la página.
 17. Haga clic en Cambiar estado.
 18. Haga clic en Completar.
-19. Haga clic en Aceptar
+19. Haga clic en Aceptar.
 
 ## <a name="add-a-new-er-model-mapping-configuration"></a>Agregar una nueva configuración de asignación al modelo de ER
 1. Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.
@@ -66,9 +65,9 @@ Dado que las configuraciones de ER se comparten entre las empresas, puede comple
     * Asignación de ejemplo  
 4. Haga clic en Crear configuración.
 5. Expanda la sección Requisitos previos.
-    * Tenga en cuenta el grupo de los requisitos previos de implementaciones se ha agregado automáticamente. El grupo contiene el componente de requisitos previos necesario que se refiere a la configuración principal del modelo de datos y se marca como Implementación. Esto significa que esta configuración de asignación del Modelo de asignación de ejemplo se considerada la implementación del modelo de datos, Modelo de datos de ejemplo. Por lo tanto, este componente forzará al ER que descargue la configuración de asignación del modelo, Asignación de ejemplo de un repositorio de ER cuando se descarga la configuración del modelo, Modelo de datos de ejemplo.   
+    * El grupo de los requisitos previos de implementaciones se ha agregado automáticamente. El grupo contiene el componente de requisitos previos necesario que se refiere a la configuración principal del modelo de datos y se marca como Implementación. Esto significa que esta configuración de asignación del Modelo de asignación de ejemplo se considerada la implementación del modelo de datos, Modelo de datos de ejemplo. Por lo tanto, este componente forzará al ER que descargue la configuración de asignación del modelo, Asignación de ejemplo de un repositorio de ER cuando se descarga la configuración del modelo, Modelo de datos de ejemplo.   
 6. Haga clic en Diseñador.
-    * Tenga en cuenta que la configuración creada de asignación de modelo contiene una nueva asignación en blanco con el mismo nombre que la configuración creada. Tenga en cuenta que cuando una configuración de modelo de elemento principal seleccionada contiene asignaciones de modelo, se copiarán en una configuración de modelo nueva.   
+    * La configuración creada de asignación de modelo contiene una nueva asignación en blanco con el mismo nombre que la configuración creada. Cuando una configuración de modelo de elemento principal seleccionada contiene asignaciones de modelo, se copiarán en una configuración de modelo nueva.   
 7. Haga clic en Diseñador.
 8. En el árbol, seleccione "Dynamics 365 for Operations\Tabla".
 9. Haga clic en Agregar raíz.
@@ -112,7 +111,7 @@ Dado que las configuraciones de ER se comparten entre las empresas, puede comple
 16. Haga clic en Ejecutar.
     * En las versiones de ficha desplegable, haga clic en Ejecutar.  
 17. Haga clic en Aceptar
-    * Revise la salida que contiene el nombre de la empresa en la que el usuario que está ejecutando esta configuración del formato se ha registrado. Tenga en cuenta que la configuración creada de asignación del modelo se usa por esta configuración del formato ya que solo hay una configuración disponible que contiene asignaciones de modelo necesarias.   
+    * Revise la salida que contiene el nombre de la empresa en la que el usuario que está ejecutando esta configuración del formato se ha registrado. La configuración creada de asignación del modelo se usa por esta configuración del formato ya que solo hay una configuración disponible que contiene asignaciones de modelo necesarias.   
 
 ## <a name="add-alternative-er-model-mapping-configuration"></a>Agregar una configuración alternativa de asignación al modelo de ER
 1. En el árbol, seleccione "Modelo de datos de ejemplo".
@@ -153,12 +152,12 @@ Dado que las configuraciones de ER se comparten entre las empresas, puede comple
 ## <a name="use-an-existing-er-model-mapping-configuration"></a>Use una configuración de asignación existente del modelo de ER
 1. En el árbol, seleccione "Muestra modelo de datos\Muestra formato".
 2. Haga clic en Ejecutar.
-    * Tenga en cuenta que la versión de borrador de la configuración del formato de ER no se puede ejecutar porque hay más de una configuración de asignación de modelo disponible para el modelo de datos sin definir que se ha seleccionado como el origen de datos de formato de ER en ejecución.   
+    * La versión de borrador de la configuración del formato de ER no se puede ejecutar porque hay más de una configuración de asignación de modelo disponible para el modelo de datos sin definir que se ha seleccionado como el origen de datos de formato de ER en ejecución.   
     * A continuación, se definirá la configuración de la asignación de modelo alternativa como aquella desde la que las asignaciones de modelo se usarán como orígenes de datos para ejecutar el formato de ER.   
 3. En el árbol, seleccione "Muestra modelo de datos\Asignación de Muestra (alternativa)".
 4. Seleccione Sí en el campo Valor predeterminado de la asignación de modelo.
 5. En el árbol, seleccione "Muestra modelo de datos\Muestra formato".
 6. Haga clic en Ejecutar.
-7. Haga clic en Aceptar
-    * Tenga en cuenta que la configuración de la asignación de modelo predeterminada se usa por esta configuración de formato para generar el documento electrónico (la salida creada contiene el código de empresa).  
+7. Haga clic en Aceptar.
+    * La configuración de la asignación de modelo predeterminada se usa por esta configuración de formato para generar el documento electrónico (la salida creada contiene el código de empresa).  
 

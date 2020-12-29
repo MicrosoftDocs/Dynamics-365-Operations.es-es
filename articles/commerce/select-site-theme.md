@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817715"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556438"
 ---
 # <a name="select-a-site-theme"></a>Seleccionar un tema de sitio
 
@@ -32,7 +32,7 @@ Este tema describe cómo establecer o cambiar el tema del sitio en Microsoft Dyn
 
 ## <a name="overview"></a>Visión general
 
-El diseño y el estilo de un sitio (por ejemplo, fuentes, tamaños y colores) se definen por el tema que seleccione y aplica al sitio. Un tema se creado y se implementa por un desarrollador de su empresa. Para obtener una descripción general de los temas, consulte [Visión general de creación de temas](http://). Para obtener más información acerca de cómo crear e implementar temas, consulte [Crear un tema nuevo](http://).
+El diseño y el estilo de un sitio (por ejemplo, fuentes, tamaños y colores) se definen por el tema que seleccione y aplica al sitio. Un tema se creado y se implementa por un desarrollador de su empresa. Para obtener una descripción general de los temas, consulte [Visión general de creación de temas](e-commerce-extensibility/theming.md). Para obtener más información acerca de cómo crear e implementar temas, consulte [Crear un tema nuevo](e-commerce-extensibility/create-theme.md).
 
 De forma predeterminada, al crear un sitio por primera vez, utiliza un tema con el nombre **Fabrikam**. Este tema predeterminado se proporciona como parte de la biblioteca de módulos de Commerce. Una vez haya implementado temas adicionales para su sitio, puede configurar el sitio de modo que use uno de ellos en su lugar.
 
@@ -63,3 +63,8 @@ Para seleccionar el tema que se aplica al sitio, siga estos pasos.
 [Agregar idiomas al sitio](add-languages-to-site.md)
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
+
+[Visión general de creación de temas](e-commerce-extensibility/theming.md)
+
+[Crear un tema nuevo](e-commerce-extensibility/create-theme.md)
+

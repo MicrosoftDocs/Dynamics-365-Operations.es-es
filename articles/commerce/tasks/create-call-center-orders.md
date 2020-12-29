@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: c875eaa85d9da997b75b296ad9ace99ae1e91798
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107361"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594245"
 ---
 # <a name="create-call-center-orders"></a>Crear pedidos de centro de llamadas
 
@@ -31,7 +31,7 @@ ms.locfileid: "4107361"
 Este procedimiento le guía por la búsqueda de un cliente, la creación de un nuevo pedido, la búsqueda de un producto y el cobro de pagos del cliente. Este procedimiento usa la empresa de datos de demostración USRT y está pensado para el funcionario de ventas. Requisitos previos: el usuario que complete el procedimiento se configura como usuario del centro de llamadas y el catálogo semestral de Fabrikam se publica con al menos un código fuente en él.
 
 1. Vaya a **Retail y Commerce \> Clientes \> Servicio al cliente**.
-2. En **SearchText** , especifique los criterios de búsqueda para buscar el cliente.
+2. En **SearchText**, especifique los criterios de búsqueda para buscar el cliente.
     * Para este procedimiento de ejemplo, escriba "Karen" y seleccione **Tabulador**.  
 3. Selección Buscar.
     * Dado que solo hay un cliente llamado "Karen" en los datos de demostración, el resultado se seleccionará automáticamente.  
@@ -40,7 +40,7 @@ Este procedimiento le guía por la búsqueda de un cliente, la creación de un n
 6. Seleccione el código fuente para el catálogo.
     * Si no hay códigos de origen activos, puede omitir este paso.  
 7. Seleccione **Agregar línea**.
-8. En el campo **Código de artículo** , especifique el término de búsqueda del artículo.
+8. En el campo **Código de artículo**, especifique el término de búsqueda del artículo.
     * Para este procedimiento de ejemplo, escriba el código de artículo parcial "8111 " y presione el tabulador. Esto hará que se muestre la ventana de búsqueda del artículo.  
 9. Seleccione el producto que se agregará al pedido de ventas.
 10. Especifique la cantidad de ventas.
@@ -55,4 +55,10 @@ Este procedimiento le guía por la búsqueda de un cliente, la creación de un n
     * Para este procedimiento, especifique un importe igual al saldo del pedido que se puede ver en la página Resumen de pedido de ventas a la izquierda del campo de importe. Esta acción le permitirá que completar el pedido como totalmente pagado.  
 17. Seleccione **Aceptar**.
 18. Seleccione **Enviar**.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Personalizar correos electrónicos transaccionales por modo de entrega](../customize-email-delivery-mode.md)
+
+[Cambiar el modo de entrega en PDV](../pos-change-delivery-mode.md)
 

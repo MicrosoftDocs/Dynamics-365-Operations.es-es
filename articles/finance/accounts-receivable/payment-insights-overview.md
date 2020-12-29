@@ -1,6 +1,6 @@
 ---
 title: Información de pago del cliente (vista previa)
-description: Este tema describe la capacidad de la función de la información de pago que ayuda a mejorar la comprensión de las prácticas más comunes de pago de clientes individuales y puede identificar las circunstancias que justifican el inicio de los procesos de cobro de cobro antes de lo que lo habría hecho de otro modo.
+description: Este tema describe la capacidad de informaciones de pago que ayuda a mejorar el conocimiento de las prácticas de pago típicas de los clientes individuales. La característica puede ayudarle a identificar circunstancias que justifiquen iniciar procesos de recolección antes de lo haya hecho de otra manera.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/06/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f9f1e4ae4270380c88069723e768fd44ecf8c113
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774042"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644642"
 ---
 # <a name="customer-payment-insights-preview"></a>Información de pago del cliente (vista previa)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tema describe la capacidad de la función de la información de pago que ayuda a mejorar la comprensión de las prácticas más comunes de pago de clientes individuales y puede identificar las circunstancias que justifican el inicio de los procesos de cobro de cobro antes de lo que lo habría hecho de otro modo. 
+Este tema describe la capacidad de informaciones de pago que ayuda a mejorar el conocimiento de las prácticas de pago típicas de los clientes individuales. La característica puede ayudarle a identificar circunstancias que justifiquen iniciar procesos de recolección antes de lo haya hecho de otra manera. 
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
-Las organizaciones a menudo encuentran difícil predecir cuándo los clientes pagarán sus facturas. Esta falta de información conduce a previsiones de flujo de efectivo menos precisas, procesos de cobro que empiezan demasiado tarde y pedidos que se entregan a clientes que podrían no realizar el pago. La Información de pago del cliente (versión preliminar) ayuda a las organizaciones a predecir cuándo se pagará una factura de cliente y ayuda a las organizaciones a crear estrategias de cobro que mejoren la probabilidad de que se les pague a tiempo. 
+Puede resultar difícil predecir cuándo los clientes pagarán sus facturas. Esta falta de información conduce a previsiones de flujo de efectivo menos precisas, procesos de cobro que empiezan demasiado tarde y pedidos que se entregan a clientes que podrían no realizar el pago. Las informaciones de pagos de clientes (Vista previa) ayudan a las organizaciones a predecir cuándo se pagará una factura a un cliente. Esta información puede ayudar a las organizaciones a crear estrategias de cobro que mejoren la probabilidad de recibir el pago puntualmente. 
 
 ## <a name="predictions"></a>Predicciones
 
@@ -42,13 +42,13 @@ Las predicciones de pago permitirán a las organizaciones mejorar sus procesos e
 
 Con el uso de un modelo de aprendizaje automático, que aproveche facturas, pagos y los datos históricos del cliente, la información de los pagos de los clientes (versión preliminar) predice con más precisión cuándo un cliente pagará una factura pendiente.
 
-Para cada factura abierta, la Información de pago del cliente (versión preliminar) predice tres probabilidades de pago:
+Para cada factura abierta, la Información de pago de clientes (Vista previa) puede predecir tres probabilidades de pago:
 
 -   Probabilidad de pago efectuado a tiempo 
 -   Probabilidad de pago efectuado tarde
 -   Probabilidad de pago efectuado muy tarde
 
-Para ayudar a las organizaciones a comprender el importe total de pago que pueden esperar de un cliente en uno de las tres categoría, a tiempo, tarde y muy tarde, Información de pago del cliente (versión preliminar) también proporcionan una vista agregada de los pagos previstos.
+La información de pago de clientes (Vista previa) también proporciona una vista agregada de los pagos esperados, que puede ayudar a las organizaciones a conocer el importe total de pago que pueden esperar de un cliente en una de las tres categorías, Puntual, Tarde y Muy tarde.
 
 [![Vista agregada de las predicciones de pago](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
@@ -62,11 +62,11 @@ Con Información de pago del cliente (versión preliminar), las organizaciones p
 
 ## <a name="methodology"></a>Metodología
 
-Desarrollar e implementar una solución de inteligencia artificial es complicado. Hace falta un equipo de científicos de datos, expertos en la material e ingenieros, que trabajen durante mucho tiempo para formular, desarrollar, implementar y mantener una solución utilizable de inteligencia artificial. Estamos haciendo que sea fácil implementar y utilizar soluciones de inteligencia artificial en Finance. Estamos preempaquetando soluciones de inteligencia artificial en Finance que se incorporan en Microsoft AI Builder. Los usuarios finales, con un solo clic, puede implementar la solución de inteligencia artificial y comenzar aprovechar las prestaciones de las predicciones inteligentes. Si una organización no está satisfecha con la precisión de las predicciones, un usuario avanzado, otra vez con un único clic, puede especificar la experiencia de la extensión de AI Builder y seleccionar o anular la selección de los campos usados para generar predicciones. Una vez que están listos, pueden preparar y publicar los cambios y el modelo recién entrenado se seleccionará automáticamente para las predicciones en Finance.
+Desarrollar e implementar una solución de inteligencia artificial es complicado. Hace falta un equipo de científicos de datos, expertos en el tema e ingenieros, que trabajen durante mucho tiempo para formular, desarrollar, implementar y mantener una solución utilizable de IA. Estamos haciendo que sea fácil implementar y utilizar soluciones de inteligencia artificial en Finance. Estamos preempaquetando soluciones de inteligencia artificial en Finance que se incorporan en Microsoft AI Builder. Los usuarios finales, con un solo clic, puede implementar la solución de inteligencia artificial y comenzar aprovechar las prestaciones de las predicciones inteligentes. Si una organización no está satisfecha con la precisión de las predicciones, un usuario avanzado, otra vez con un único clic, puede especificar la experiencia de la extensión de AI Builder y seleccionar o anular la selección de los campos usados para generar predicciones. Una vez que están listos, pueden preparar y publicar los cambios y el modelo recién entrenado se seleccionará automáticamente para las predicciones en Finance.
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Cómo obtener Información de pago del cliente (versión preliminar)
 
-Si está interesado en probar Información de pago del cliente (versión preliminar), envíe un correo electrónico al [Información de pago del cliente (versión preliminar)](mailto:fiap@microsoft.com).
+Envíe un correo electrónico a [Información de pagos de clientes (Vista previa)](mailto:fiap@microsoft.com) si está interesado en probar Información de pagos de clientes (Vista previa).
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 

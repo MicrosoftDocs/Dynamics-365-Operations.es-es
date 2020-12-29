@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269530"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594341"
 ---
 # <a name="customize-image-focal-points"></a>Personalizar puntos focales de imagen
 
@@ -51,10 +51,12 @@ Para definir un punto focal personalizado para una imagen, siga estos pasos.
 
 [Visión general de la administración de activos digitales](dam-overview.md)
 
-[Subir imágenes](dam-upload-images.md)
+[Cargar imágenes](dam-upload-images.md)
 
-[Subir vídeo](dam-upload-video.md)
+[Cargar vídeo](dam-upload-video.md)
 
 [Subir archivos](dam-upload-files.md)
 
 [Recortar imágenes](dam-crop-images.md)
+
+[Cargar y servir archivos estáticos](upload-serve-static-files.md)

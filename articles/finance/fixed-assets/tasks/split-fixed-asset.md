@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40703622bc8c7a21451d31e7606596c5edbe90f7
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000302"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514335"
 ---
 # <a name="split-a-fixed-asset"></a>Dividir un activo fijo
 
@@ -33,23 +33,23 @@ En este tema se explica cómo dividir un porcentaje de un libro de activos a un 
 
 1. En el panel de exploración, vaya a **Módulos \> Activos fijos \> Activos fijos \> Activos fijos**.
 2. Seleccione **Nuevo**.
-3. En el campo **Grupo de activos fijos** , escriba o seleccione un valor. Anote el número de activo fijo que se va a usar en el proceso de división más adelante.
-4. En el campo **Nombre** , escriba un valor.
+3. En el campo **Grupo de activos fijos**, escriba o seleccione un valor. Anote el número de activo fijo que se va a usar en el proceso de división más adelante.
+4. En el campo **Nombre**, escriba un valor.
 5. Cierre el formulario.
 
 ## <a name="split-a-fixed-asset"></a>Dividir un activo fijo
 
-Antes de dividir un activo totalmente depreciado, hay que cambiar manualmente el estado del libro de activos de **Cerrado** a **Abierto**. Este paso es necesario porque el estado del libro debe ser **Abierto** si se van a contabilizar transacciones para el activo (por ejemplo, para una venta de cancelación). Después de cambiar el estado del libro de activos, siga estos pasos para dividir el activo.
+Antes de dividir un activo totalmente depreciado, hay que cambiar manualmente el estado del libro de activos de **Cerrado** a **Abierto**. Este paso es necesario porque el estado del libro debe ser **Abierto** si se van a contabilizar transacciones para el activo (por ejemplo, para una venta de cancelación). También debe activr el parámetro **Permitir múltiples transacciones en un asiento** en la pestaña **General** de la página **Parámetros del libro mayor**. Una vez que se cambia el estado del libro de activos y se han permitido múltiples transacciones dentro de un asiento, complete los siguientes pasos para dividir el activo.
 
 1. En la lista, busque y seleccione el vínculo del activo fijo para dividir.
 2. Seleccione **Libros**. Seleccione el libro para dividir el nuevo activo.
 3. Seleccione **Funciones**.
 4. Seleccione **Dividir activo fijo**.
-5. En el campo **Hasta activo fijo** , escriba o seleccione un valor.
-6. En el campo **Al libro** , seleccione el botón desplegable para abrir la búsqueda.
-7. En el campo **Fecha de transacción** , especifique una fecha.
-8. En el campo **Porcentaje** , especifique un número.
-9. En el campo **Nombre del diario** , especifique o seleccione un valor.
+5. En el campo **Hasta activo fijo**, escriba o seleccione un valor.
+6. En el campo **Al libro**, seleccione el botón desplegable para abrir la búsqueda.
+7. En el campo **Fecha de transacción**, especifique una fecha.
+8. En el campo **Porcentaje**, especifique un número.
+9. En el campo **Nombre del diario**, especifique o seleccione un valor.
 10. Seleccione **Aceptar**.
 
 ## <a name="post-the-journal-transaction"></a>Registrar la transacción de diario

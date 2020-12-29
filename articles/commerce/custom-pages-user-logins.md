@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817315"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517241"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Configurar páginas personalizadas para inicios de sesión de usuario
 
@@ -160,7 +160,7 @@ Para actualizar la directiva “Edición de perfiles” con información de pág
 1. En el campo **Versión de Diseño de página (versión preliminar)**, seleccione **1.2.0**.
 1. En la sección **Atributos de usuario**, siga estos pasos:
 
-    1. Para los atributos **Dirección de correo electrónico**, **Nombre dado**, seleccione **No**en el campo **Requiere verificación**.
+    1. Para los atributos **Dirección de correo electrónico**, **Nombre dado**, seleccione **No** en el campo **Requiere verificación**.
     1. Para los atributos **Nombre dado** y **Apellido**, seleccione **No** en el campo **Opcional**
 
 ### <a name="update-the-password-reset-policy-with-custom-page-information"></a>Actualizar la directiva “Restablecimiento de contraseña” con información de página personalizada
@@ -197,11 +197,11 @@ Después de actualizar el archivo global.json y publicar los cambios, el nuevo t
 
 [Configurar su nombre de dominio](configure-your-domain-name.md)
 
-[Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
+[Implementar un inquilino nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
 [Crear un sitio de comercio electrónico](create-ecommerce-site.md)
 
-[Asociar un sitio en línea con un canal](associate-site-online-store.md)
+[Asociar un sitio de Dynamics 365 Commerce con un canal en línea](associate-site-online-store.md)
 
 [Administrar archivos robots.txt](manage-robots-txt-files.md)
 

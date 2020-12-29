@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142464"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684556"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modificar formatos para generar documentos que tengan datos de la aplicación
 
@@ -83,7 +82,7 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 41. En el campo Nombre, escriba “Id. de reg. de materiales”.
     * Id. de reg de mercancías  
 42. En el campo Tipo de dato, seleccione "Int64".
-43. Haga clic en Aceptar
+43. Haga clic en Aceptar.
 44. Haga clic en la ficha Asignación.
 45. En el árbol, seleccione "Archivo\Declaración\Datos\Nombre de archivo".
 46. Haga clic en Enlazar.
@@ -95,16 +94,17 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 52. Haga clic en Guardar.
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Modificar el formato para memorizar los detalles del informe
+
 1. Haga clic en Asignar formato a modelo.
 2. Haga clic en Nuevo.
 3. En el campo de Definición, especifique o seleccione el elemento raíz “Para la actualización de datos de la aplicación".
-    * Para la actualización de los datos de la aplicación  
+    * Para la actualización de los datos de la aplicación.
 4. En el campo Nombre, escriba "Asignación a datos de actualización".
     * Asignación para actualizar datos  
 5. Haga clic en Guardar.
-    * Esta asignación define cómo los detalles del informe de Intrastat se obtienen en el modelo de datos, la estructura que especifica el elemento raíz seleccionado “Para la actualización de datos de la aplicación”. Estos detalles, la asignación de modelo con el mismo elemento raíz “Para la actualización de datos de la aplicación” y la dirección "A destino" se utilizará par la actualización de los datos de la aplicación. La actualización de los datos de la aplicación comienza inmediatamente después de que se genera el informe de Intrastat saliente. Tenga en cuenta que la actualización de los datos de la aplicación se puede saltar en el tiempo de ejecución, pero el modelo de datos debe estar vacío (con la lista de registro vacía).   
+    * Esta asignación define cómo los detalles del informe de Intrastat se obtienen en el modelo de datos, la estructura que especifica el elemento raíz seleccionado “Para la actualización de datos de la aplicación”. Estos detalles, la asignación de modelo con el mismo elemento raíz “Para la actualización de datos de la aplicación” y la dirección "A destino" se utilizará par la actualización de los datos de la aplicación. La actualización de los datos de la aplicación comienza inmediatamente después de que se genera el informe de Intrastat saliente. La actualización de los datos de la aplicación se puede saltar en el tiempo de ejecución, pero el modelo de datos debe estar vacío (con la lista de registro vacía).
 6. Haga clic en Diseñador.
-    * Tenga en cuenta que el formato de informe de Intrastat saliente se agrega de forma predeterminada como origen de datos para esta asignación de modelo.  
+    * El formato de informe de Intrastat saliente se agrega de forma predeterminada como origen de datos para esta asignación de modelo.  
     * Vincule los elementos del informe diseñado (presentado como origen de datos) a los elementos del modelo de datos, que se filtra según el elemento raíz del modelo seleccionado.  
 7. En el árbol, expanda "Encabezado de archivo".
 8. En el árbol, expanda "Encabezado de archivo\Líneas de archivo".
@@ -120,8 +120,8 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 18. Haga clic en Agregar función.
 19. En el árbol, expanda "formato".
 20. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)".
-21. En el árbol, expanda "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)".
-22. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..* (Elemento)".
+21. En el árbol, expanda `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
+22. En el árbol, seleccione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 23. Haga clic en Agregar origen de datos.
 24. En el campo Fórmula, escriba "COUNT(format.Declaration.Data.Item)".
     * RECUENTO (formato.Declaración.Datos.Elemento)  
@@ -130,23 +130,22 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 27. En el árbol, seleccione "Encabezad de archivo\Nombre de archivo".
 28. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Nombre de archivo: Cadena de elemento(Nombre de archivo)".
 29. Haga clic en Enlazar.
-30. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..* (Elemento)\Dim4: Elemento XML 1..1 (elemento)\número: Cadena(número)".
+30. En el árbol, seleccione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)`.
 31. En el árbol, seleccione "Encabezado de archivo\Líneas de archivo\Número de elemento".
 32. Haga clic en Enlazar.
-33. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..*(Elemento)\Dim3: Elemento XML 1..1 (Importe)\valor: Numérico real(valor)".
+33. En el árbol, seleccione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)`.
 34. En el árbol, seleccione "Encabezado de archivo\Líneas de archivo\Importe".
 35. Haga clic en Enlazar.
-36. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..*(Elemento)\Id. de reg. de materiales: Elemento Int64(Id. de reg. de materiales)".
+36. En el árbol, seleccione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec ID: Item Int64(Commodity rec ID)`.
 37. En el árbol, seleccione "Encabezado de archivo\Líneas de archivo\Id. de reg. de materiales".
 38. Haga clic en Enlazar.
 39. En el árbol, seleccione "Encabezado de archivo\Líneas de archivo".
-40. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)\Elemento: Elemento XML 0..* (Elemento)".
+40. En el árbol, seleccione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 41. Haga clic en Enlazar.
 42. En el árbol, seleccione "Encabezado de archivo".
-43. En el árbol, seleccione "formato\Declaración: elemento XML(Declaración)\Datos: Elemento XML 1..* (Datos)".
+43. En el árbol, seleccione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
 44. Haga clic en Enlazar.
 45. Haga clic en Guardar.
 46. Cierre la página.
 47. Cierre la página.
 48. Cierre la página.
-

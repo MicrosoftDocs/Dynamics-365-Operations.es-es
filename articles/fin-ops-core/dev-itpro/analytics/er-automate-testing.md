@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771453"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681457"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizar pruebas con informes electrónicos
 
@@ -60,7 +59,7 @@ Los usuarios avanzados funcionales pueden ejecutar pruebas de aceptación e inte
 Antes de que pueda completar las tareas en este tema, debe completar los siguientes requisitos previos:
 
 - Implementar una topología que admita la automatización de la prueba. Debe tener acceso a la instancia de esta topología para el rol **Administrador del sistema**. Esta topología debe contener los datos de prueba que se usarán en este ejemplo. Para obtener más información, consulte [Implementar y usar un entorno que admita la automatización continua de la compilación y la prueba](../perf-test/continuous-build-test-automation.md).
-- Para ejecutar pruebas de aceptación e integración de usuario, debe instalar RSAT en la topología que está utilizando y configurarla de la forma adecuada. Para obtener información sobre cómo instalar y configurar RSAT y configurarlo para trabajar con aplicaciones de Finance and Operations y Azure DevOps, consulte [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Preste atención a los requisitos previos para usar la herramienta. En la siguiente ilustración se muestra un ejemplo de la configuración de RSAT. El rectángulo azul incluye los parámetros que especifican el acceso a Azure DevOps. El rectángulo verde incluye los parámetros que especifican el acceso a la instancia.
+- Para ejecutar pruebas de aceptación e integración de usuario, debe instalar RSAT en la topología que está utilizando y configurarla de la forma adecuada. Para obtener información sobre cómo instalar y configurar RSAT y configurarlo para trabajar con aplicaciones Finance and Operations y Azure DevOps, consulte [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Preste atención a los requisitos previos para usar la herramienta. En la siguiente ilustración se muestra un ejemplo de la configuración de RSAT. El rectángulo azul incluye los parámetros que especifican el acceso a Azure DevOps. El rectángulo verde incluye los parámetros que especifican el acceso a la instancia.
 
     ![Configuración de RSAT](media/GER-Configure.png "Captura de pantalla del cuadro de diálogo Configuración de RSAT")
 

@@ -3,7 +3,7 @@ title: Visión general de los procesos automatizados de facturación de proveedo
 description: Este tema describe la capacidad para automatizar el procesamiento de facturas de su proveedor y los beneficios de utilizar un proceso automatizado.
 author: abruer
 manager: AnnBe
-ms.date: 10/16/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022505"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665331"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Visión general de los procesos automatizados de facturación de proveedores
 
@@ -39,8 +39,9 @@ Los procesos de automatización se pueden utilizar para realizar estas tareas:
 - Envíe automáticamente facturas importadas al sistema de flujo de trabajo.
 - Concilia recepciones de productos con líneas de factura de proveedor pendientes.
 - Simule la contabilización antes de que se contabilice una factura de proveedor.
-- Vea el historial del flujo de trabajo de manera rápida y eficiente.
+- Vea el historial del flujo de trabajo y automatización de manera rápida y eficiente.
 - Vea y analice los resultados de la automatización del procesamiento de facturas de proveedores.
+- Reanude el procesamiento automatizado de varias facturas.
 
 ## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>Automatización de facturas de proveedores: envíe facturas de proveedores importadas al sistema de flujo de trabajo
 
@@ -58,10 +59,13 @@ El sistema puede hacer coincidir automáticamente los recibos de productos regis
 
 La simulación de contabilización completa los pasos de validación que se realizan durante el proceso de contabilización de facturas de proveedor, pero no se actualizan cuentas. Para ejecutar el proceso, puede seleccionar una sola factura o varias facturas en la página **Facturas de proveedores pendientes**.
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-historical-information-for-vendor-invoices"></a>Automatización de facturas de proveedores: experiencia mejorada para ver la información histórica del flujo de trabajo para las facturas de proveedores
+## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Automatización de facturas de proveedores: experiencia mejorada para ver la información histórica de flujo de trabajo y automatización para las facturas de proveedores
 
-Se proporciona una vista fácil de leer del historial del flujo de trabajo de las facturas del proveedor. Se puede acceder al historial del flujo de trabajo de la factura del proveedor directamente desde la factura del proveedor. Por lo tanto, se requieren menos clics para encontrar esa información.
+Se proporciona una vista fácil de leer del historial del flujo de trabajo de las facturas del proveedor. Se puede acceder al historial del flujo de trabajo de la factura del proveedor directamente desde la factura del proveedor. Por lo tanto, se requieren menos clics para encontrar esa información. Si su organización ha habilitado la capacidad de enviar automáticamente facturas de proveedores importadas al flujo de trabajo, se proporciona el historial de automatización para las facturas importadas. El historial de automatización le ayuda a identificar el paso del proceso actual, así como los pasos que ya se han completado. Cuando un paso no tiene éxito, el sistema proporciona información detallada para ayudarle a comprender el motivo del error.
 
 ## <a name="vendor-invoice-automation--analytics-and-metrics"></a>Automatización de facturas de proveedores: análisis y métricas
 
 El espacio de trabajo **Entrada de factura de proveedor** le permite concentrarse en las facturas de los proveedores que no pasaron por el proceso automatizado. Los mosaicos en el espacio de trabajo muestran información sobre las facturas de los proveedores que no se enviaron correctamente al sistema de flujo de trabajo, no se importaron o coincidieron con los recibos de productos. Las métricas de Microsoft Power BI también se proporcionan para brindar a los gerentes de Cuentas por pagar información sobre las eficiencias de la automatización de facturas de proveedores.
+
+## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automatización de facturas de proveedores: reanudar el procesamiento de automatización para varias facturas
+Cuando una factura importada no se envía correctamente al flujo de trabajo a través del proceso automatizado, el sistema la eliminará del procesamiento automatizado adicional. Un empleado de la sección de proveedores puede revisar y editar la factura antes de que el proceso automatizado la vuelva a enviar al flujo de trabajo. Cuando un motivo de error se puede resolver con la misma solución para varias facturas, puede reiniciar el proceso automatizado en la página **Reanudar el procesamiento automatizado de facturas**. 

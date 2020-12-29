@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 6c4b18a3cf2ba313756d5f761ef1beb2c3015516
-ms.sourcegitcommit: 56add4c49c35c65a75fa2ca5234927e7f7cd66ef
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781154"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680886"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurar las asignaciones del modelo de ER dependientes de contexto del país
 
@@ -202,7 +201,7 @@ En la tabla, un signo más (+) indica la presencia de una configuración de asig
 
 Observe que se ha agregado un nuevo registro al registro de depuración de ER para el formato de ER ejecutado. Dado que el campo **Nivel** de este registro se establece en **Información**, el registro es informativo. Puesto que el campo del componente del formato está establecido en **Configuración de asignación**, el registro le informa sobre una asignación de modelos que se usó durante la ejecución del formato de ER **Formato para aprender asignaciones** (seleccionado en el campo **Nombre de configuración**). El contenido del campo **Texto generado** le informa de que se ha utilizado el componente de asignación **Asignación (FR)** que reside en la configuración de **Asignación (FR)** para ejecutar este informe.
 
-## <a name="appendix1"></a> Apéndice 1
+## <a name="appendix-1"></a><a name="appendix1"></a> Apéndice 1
 
 ### <a name="configure-a-sample-data-model"></a>Configurar de un modelo de datos de ejemplo
 
@@ -343,7 +342,7 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 4.  Seleccione **Guardar**.
 5.  Cierre la página.
 
-## <a name="appendix2"></a> Apéndice 2
+## <a name="appendix-2"></a><a name="appendix2"></a> Apéndice 2
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>Configurar una asignación de modelos de ejemplo para personalización general
 
@@ -403,7 +402,7 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 
 Tenga en cuenta que la configuración que se ha creado se guarda como versión completada 1.
 
-## <a name="appendix3"></a> Apéndice 3
+## <a name="appendix-3"></a><a name="appendix3"></a> Apéndice 3
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>Configurar una asignación de modelos de ejemplo para personalización específica para país o región
 

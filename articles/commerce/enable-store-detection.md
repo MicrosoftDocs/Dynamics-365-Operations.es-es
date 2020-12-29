@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533399"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517315"
 ---
 # <a name="enable-location-based-store-detection"></a>Habilitar la detección de tienda según la ubicación
 
@@ -52,11 +52,11 @@ Para activar la detección de tienda según la ubicación en Commerce, siga esto
 
 [Configurar su nombre de dominio](configure-your-domain-name.md)
 
-[Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
+[Implementar un inquilino nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
 [Crear un sitio de comercio electrónico](create-ecommerce-site.md)
 
-[Asociar un sitio en línea con un canal](associate-site-online-store.md)
+[Asociar un sitio de Dynamics 365 Commerce con un canal en línea](associate-site-online-store.md)
 
 [Administrar archivos robots.txt](manage-robots-txt-files.md)
 

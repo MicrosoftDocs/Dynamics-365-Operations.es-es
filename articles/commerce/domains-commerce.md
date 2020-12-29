@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 84becee12363ca38951ff13073d87d1b1f14b616
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3765010"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517364"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dominios en Dynamics 365 Commerce
 
@@ -47,7 +47,7 @@ Puede crear una solicitud de servicio para agregar dominios adicionales a un ent
 
 ## <a name="commerce-generated-urls"></a>URL generadas por Commerce
 
-Al aprovisionar un entorno de comercio electrónico, Commerce generará una URL que será la dirección de trabajo para el entorno. Se hace referencia a esta URL en el enlace del sitio de comercio electrónico que se muestra en LCS después de que se aprovisiona el entorno. Una URL generada por Commerce tiene el formato `https://<e-Commerce tenant name>.commerce.dynamics.com`, donde el nombre del inquilino de comercio electrónico es el nombre especificado en LCS para el entorno de Commerce.
+Al aprovisionar un entorno de comercio electrónico de Dynamics 365 Commerce, Commerce generará una URL que será la dirección de trabajo para el entorno. Se hace referencia a esta URL en el enlace del sitio de comercio electrónico que se muestra en LCS después de que se aprovisiona el entorno. Una URL generada por Commerce tiene el formato `https://<e-commerce tenant name>.commerce.dynamics.com`, donde el nombre del inquilino de comercio electrónico es el nombre especificado en LCS para el entorno de Commerce.
 
 También puede utilizar los nombres de host del sitio de producción en un entorno de espacio aislado. Esta opción es ideal cuando va a copiar un sitio desde un entorno de espacio aislado a producción.
 
@@ -102,9 +102,9 @@ Cuando no se proporciona una cadena de consulta de dominio en un entorno con var
 
 ## <a name="traffic-forwarding-in-production"></a>Reenvío de tráfico en producción
 
-Puede simular varios dominios utilizando parámetros de cadena de consulta de dominio en el propio punto de conexión commerce.dynamics.com. Pero cuando necesita comenzar a funcionar en producción, debe reenviar el tráfico de su dominio personalizado al punto de conexión `<e-Commerce tenant name>.commerce.dynamics.com`.
+Puede simular varios dominios utilizando parámetros de cadena de consulta de dominio en el propio punto de conexión commerce.dynamics.com. Pero cuando necesita comenzar a funcionar en producción, debe reenviar el tráfico de su dominio personalizado al punto de conexión `<e-commerce tenant name>.commerce.dynamics.com`.
 
-El punto de conexión `<e-Commerce tenant name>.commerce.dynamics.com` no es compatible con Secure Sockets Layers (SSL) de dominio personalizado, por lo que debe configurar dominios personalizados mediante un servicio de puerta principal o una red de entrega de contenido (CDN). 
+El punto de conexión `<e-commerce tenant name>.commerce.dynamics.com` no es compatible con Secure Sockets Layers (SSL) de dominio personalizado, por lo que debe configurar dominios personalizados mediante un servicio de puerta principal o una red de entrega de contenido (CDN). 
 
 Para configurar dominios personalizados usando un servicio de puerta principal o CDN, tiene dos opciones:
 
@@ -152,13 +152,13 @@ La instancia de Azure Front Door proporcionada por Commerce no admite dominios a
 
   ## <a name="additional-resources"></a>Recursos adicionales
 
-  [Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
+  [Implementar un inquilino nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
   [Configurar un canal de la tienda en línea](online-stores.md)
 
   [Crear un sitio de comercio electrónico](create-ecommerce-site.md)
 
-  [Asociar un sitio en línea con un canal](associate-site-online-store.md)
+  [Asociar un sitio de Dynamics 365 Commerce con un canal en línea](associate-site-online-store.md)
 
   [Administrar archivos robots.txt](manage-robots-txt-files.md)
 

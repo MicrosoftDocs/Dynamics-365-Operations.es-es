@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c68f0a0e2481c69add8c50a1581466ad0b1483c0
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 3f21b323ddbf653bf8ca8dd1f879a6bdbddcdefc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759920"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681265"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado
 
@@ -77,10 +76,10 @@ En este ejemplo, creará una configuración para la empresa del ejemplo, Litware
    
     Esta distribución del modelo de ER está diseñada para hacer lo siguiente:
 
-    - Obtener la lista de códigos de impuestos (origen de datos**Impuestos**) que residen en la tabla **TaxTable**.
-    - Obtener la lista de transacciones de impuestos (origen de datos**Impuestos**) que residen en la tabla **TaxTable**:
+    - Obtener la lista de códigos de impuestos (origen de datos **Impuestos**) que residen en la tabla **TaxTable**.
+    - Obtener la lista de transacciones de impuestos (origen de datos **Impuestos**) que residen en la tabla **TaxTable**:
     
-        - Agrupar la lista de transacciones capturadas (origen de datos**Gr**) por código de impuestos.
+        - Agrupar la lista de transacciones capturadas (origen de datos **Gr**) por código de impuestos.
         - Calcular las transacciones agrupadas que siguen valores agregados por código de impuestos:
 
             - Sumar los valores de la base fiscal.

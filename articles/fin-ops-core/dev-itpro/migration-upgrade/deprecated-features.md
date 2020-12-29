@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040131"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679965"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas u obsoletas de versiones anteriores
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Este tema ya no se actualiza. Para ver una lista actual de características que se han eliminado o desaprobado de las aplicaciones de Finance and Operations, busque el contenido **"Funciones eliminadas o en desuso"** relacionado con la aplicación que está utilizando.
@@ -79,7 +80,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Estamos retirando el método **setUtcString()** , ya que un mejor método de sustitución está disponible. |
+| **Motivo de la depreciación/eliminación** | Estamos retirando el método **setUtcString()**, ya que un mejor método de sustitución está disponible. |
 | **¿Reemplazado por otra característica?**   | Sí |
 | **Áreas de producto afectadas**         | Plataforma |
 | **Opción de implementación**              | Todas |
@@ -185,7 +186,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La funcionalidad siempre será habilitada después de que se elimine el parámetro. |
 | **¿Reemplazado por otra característica?**   | N. º La funcionalidad para admitir pedidos de ventas basados en proyectos con varias fuentes de financiación siempre estará habilitada.   |
-| **Áreas de producto afectadas**         |El parámetro **Permitir pedidos de ventas para proyectos con varias fuentes de financiación** se eliminará. Los métodos siguientes estarán modificados cuando se quita el parámetro: el método **ctrlSalesOrderTable** en la clase **ProjStatusType** , el método **validar** para el campo **ProjId** y el método **ejecución** en el formulario **SalescreateOrder**. Los siguientes métodos se dejarán de usar cuando se quita el parámetro: **IsSalesOrderAllowedForMultipleFundingSources** en archivo de tabla **ProjTable** , el método **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** en el archivo de tabla **ProjTable** , el campo de datos **AllowSalesOrdersForMultipleFundingSources** en el formulario **ProjParameters** y los archivos **ProjParameterEntity** , el método privado **IsAssociatedToMultipleFundingSourcesContract** en el archivo de tabla **ProjTable**. |
+| **Áreas de producto afectadas**         |El parámetro **Permitir pedidos de ventas para proyectos con varias fuentes de financiación** se eliminará. Los métodos siguientes estarán modificados cuando se quita el parámetro: el método **ctrlSalesOrderTable** en la clase **ProjStatusType**, el método **validar** para el campo **ProjId** y el método **ejecución** en el formulario **SalescreateOrder**. Los siguientes métodos se dejarán de usar cuando se quita el parámetro: **IsSalesOrderAllowedForMultipleFundingSources** en archivo de tabla **ProjTable**, el método **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** en el archivo de tabla **ProjTable**, el campo de datos **AllowSalesOrdersForMultipleFundingSources** en el formulario **ProjParameters** y los archivos **ProjParameterEntity**, el método privado **IsAssociatedToMultipleFundingSourcesContract** en el archivo de tabla **ProjTable**. |
 | **Opción de implementación**              | Todas  |
 | **Estado**                         | La deprecación se planifica para la oleada liberada en abril de 2020. |
 
@@ -266,7 +267,7 @@ Los indicadores de rendimiento clave incrustados (KPIs) podrían ser modelados e
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Es posible que las definiciones de metadatos de la tabla tengan grupos de campos que contienen referencias no válidas del campo. Si se implementa, esto puede provocar errores del tiempo de ejecución en Financial Reporting y SQL Server Reporting Services (SSRS). Este problema se categoriza actualmente como *advertencia del compilador* en lugar de *error* , lo que significa que la creación y la implementación de paquete desplegable puede continuar sin corregirse el problema. Para solucionar este problema:<br><br>1. Quite la referencia de campo no válida de la definición del grupo de campos de tabla.<br><br>2. Vuelva a compilar.<br><br>3. Asegúrese de que las advertencias o los errores se abordan. |
+| **Motivo de la depreciación/eliminación** | Es posible que las definiciones de metadatos de la tabla tengan grupos de campos que contienen referencias no válidas del campo. Si se implementa, esto puede provocar errores del tiempo de ejecución en Financial Reporting y SQL Server Reporting Services (SSRS). Este problema se categoriza actualmente como *advertencia del compilador* en lugar de *error*, lo que significa que la creación y la implementación de paquete desplegable puede continuar sin corregirse el problema. Para solucionar este problema:<br><br>1. Quite la referencia de campo no válida de la definición del grupo de campos de tabla.<br><br>2. Vuelva a compilar.<br><br>3. Asegúrese de que las advertencias o los errores se abordan. |
 | **¿Reemplazado por otra característica?**   | Esta advertencia se reemplazará por un error de compilación en el futuro. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todos |
@@ -374,12 +375,12 @@ Estos dos informes ya no se admiten en Finance and Operations. En su lugar, el i
 | **Estado**                       | En desuso: Los elementos de menú para los dos informes se han quitado en la versión 7.3. Sin embargo, el código para los informes permanece en el producto. El plan es quitar el código en una versión futura. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Paquetes de contenido Power BI disponibles en AppSource
-Los paquetes de contenido **Administración de costes** , **Rendimiento financiero** y **Retail Channel Performance** , disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
+Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Actualizaciones de producto en Microsoft Power BI. |
-| **¿Reemplazado por otra característica?**   | Los paquetes de contenido **Gestión de costes** , **Rendimiento financiero** y **Retail Channel Performance** , disponibles en el sitio [AppSource](https://appsource.microsoft.com), se van a sustituir por las aplicaciones analíticas que permiten integraciones de la solución en el nivel de la base de datos. Para obtener más información acerca de aplicaciones analíticas, consulte [Power BI incrustado en espacios de trabajo](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **¿Reemplazado por otra característica?**   | Los paquetes de contenido **Gestión de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [AppSource](https://appsource.microsoft.com), se van a sustituir por las aplicaciones analíticas que permiten integraciones de la solución en el nivel de la base de datos. Para obtener más información acerca de aplicaciones analíticas, consulte [Power BI incrustado en espacios de trabajo](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Áreas de producto afectadas**         | Administración de costes, Finanzas, y Retail                                                                                               |
 | **Opción de implementación**              | Solo en la nube (la integración con PowerBI.com no se admite en implementaciones locales).                                                                                                            |
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es el segundo trimestre de 2018.    |
@@ -712,7 +713,7 @@ Información de nómina en Recursos humanos
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Esta funcionalidad se ha sustituido por páginas principales de nóminas y Recursos Humanos.  |
-| **¿Reemplazado por otra característica?**   | Se han reconfigurado las páginas **Prestaciones** , **Ganancias** y otras páginas relacionadas que estaban anteriormente en nóminas de Estados Unidos y ahora forman parte de la configuración de Recursos humanos base para ayudar con el procesamiento externo de nóminas. A esta función se accede mediante la clave de configuración **Recursos humanos 1** \> **Nómina**. |
+| **¿Reemplazado por otra característica?**   | Se han reconfigurado las páginas **Prestaciones**, **Ganancias** y otras páginas relacionadas que estaban anteriormente en nóminas de Estados Unidos y ahora forman parte de la configuración de Recursos humanos base para ayudar con el procesamiento externo de nóminas. A esta función se accede mediante la clave de configuración **Recursos humanos 1** \> **Nómina**. |
 | **Áreas de producto afectadas**         | Recursos humanos, Nómina   |
 | **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611.    |
 
@@ -1157,7 +1158,7 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 
 ### <a name="gl-ssrs-reports"></a>Informes GL SSRS
 
-Se han retirado los informes que incluyen los siguientes elementos de menú: **Resumen de saldo de comprobación** , **Saldo de comprobación detallado** , **Plan contable** , **Traza de auditoría** , **Saldos** y **Lista de saldo**.
+Se han retirado los informes que incluyen los siguientes elementos de menú: **Resumen de saldo de comprobación**, **Saldo de comprobación detallado**, **Plan contable**, **Traza de auditoría**, **Saldos** y **Lista de saldo**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1359,7 +1360,7 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Poco uso |
-| **¿Reemplazado por otra característica?**   | No, pero la página **Relación de perfiles** , que se abre desde la página **Grupos de perfiles** , admite el mismo escenario empresarial que la página **Planificador de trabajo** desaprobada. |
+| **¿Reemplazado por otra característica?**   | No, pero la página **Relación de perfiles**, que se abre desde la página **Grupos de perfiles**, admite el mismo escenario empresarial que la página **Planificador de trabajo** desaprobada. |
 | **Áreas de producto afectadas**         | Tiempo y asistencia     |
 | **Estado**                         | No se ha quitado el código. Sin embargo, el formulario, JmgWorkPlanner, no se ha migrado.    |
 

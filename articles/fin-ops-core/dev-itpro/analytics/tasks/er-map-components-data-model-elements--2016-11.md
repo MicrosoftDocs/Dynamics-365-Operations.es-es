@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e77de79113e3f44da1d7f92f17a446df86f6852e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143039"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684340"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Asignar componentes del formato creado a los elementos del modelo de datos (noviembre de 2016)
 
@@ -34,7 +33,7 @@ El procedimiento siguiente muestra cómo un usuario con rol de Administrador del
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
 2. Haga clic en Configuraciones de informes.
 3. En el árbol, expanda "Pagos (modelo simplificado)".
-4. En el árbol, seleccione "Pagos (modelo simplificado\BACS (ficticio Reino Unido)".
+4. En el árbol, seleccione "Pagos (modelo simplificado)\BACS (ficticio Reino Unido)".
 5. Haga clic en Diseñador.
 
 ## <a name="map-format-components-to-data-model-elements"></a>Asignación de los componentes de formato a los elementos del modelo de datos

@@ -17,17 +17,17 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0b8bf49a8eb78d0557ef105b40dd4cb5f0d24ce4
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.openlocfilehash: 75edc1b683c4ea6c2bac8e509e6f6da8c56c5e6a
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973942"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665257"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perfiles de certificado definidos por el usuario para tiendas
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 ## <a name="overview"></a>Información general
 
@@ -74,7 +74,7 @@ El siguiente procedimiento explica cómo configurar perfiles de certificado. Ant
 Cuando selecciona **Configuraciones** para las líneas de perfil de certificado, aparece la página **Configuración de perfil de certificado**. Esta página le permite especificar qué certificados se pueden usar cuando se llama al perfil de certificado actual en los canales de comercio. También puede especificar el orden en el que se deben buscar los certificados.
 
 > [!NOTE]
-> El campo **Prioridad** se establece automáticamente. Un valor de **1** representa la máxima prioridad. Cuando se agrega una nueva línea en la página**Configuración de perfil de certificado**, su prioridad se establece en un número que es uno más que la prioridad de la línea anterior. Para cambiar la prioridad de una línea específica, seleccione la línea y luego seleccione **Subir** para aumentar la prioridad o **Bajar** para disminuirla.
+> El campo **Prioridad** se establece automáticamente. Un valor de **1** representa la máxima prioridad. Cuando se agrega una nueva línea en la página **Configuración de perfil de certificado**, su prioridad se establece en un número que es uno más que la prioridad de la línea anterior. Para cambiar la prioridad de una línea específica, seleccione la línea y luego seleccione **Subir** para aumentar la prioridad o **Bajar** para disminuirla.
 
 Cuando agrega una nueva línea a la página **Configuración de perfil de certificado**, configure los siguientes campos:
 

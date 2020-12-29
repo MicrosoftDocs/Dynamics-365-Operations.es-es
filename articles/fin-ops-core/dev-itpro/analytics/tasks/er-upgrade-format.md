@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52bc276a4a88971a7214fa09087cb1323b91aaf5
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 17fe6d772040c73959685920743225c128421951
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143291"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684272"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Actualizar el formato adoptando una nueva versión de base de ese formato
 
@@ -56,7 +55,7 @@ Para ello, Proseware, Inc. debe crear una configuración mediante la configuraci
 3. Haga clic en Definir como activo.
 4. Haga clic en Configuraciones de informes.
 5. En el árbol, expanda "Pagos (modelo simplificado)".
-6. En el árbol, seleccione "Pagos (modelo simplificado\BACS (ficticio Reino Unido)".
+6. En el árbol, seleccione "Pagos (modelo simplificado)\BACS (ficticio Reino Unido)".
 
     Seleccione la configuración BACS (ficticio de Reino Unido) de Litware, Inc. Proseware, Inc. utilizará la versión 1.1 como base para la versión personalizada.  
 
@@ -134,7 +133,7 @@ En los procesos relacionados con las disposiciones de servicio reales, cada nuev
 3. Haga clic en Definir como activo.
 4. Haga clic en Configuraciones de informes.
 5. En el árbol, expanda "Pagos (modelo simplificado)".
-6. En el árbol, seleccione "Pagos (modelo simplificado\BACS (ficticio Reino Unido)".
+6. En el árbol, seleccione "Pagos (modelo simplificado)\BACS (ficticio Reino Unido)".
 
     La versión provisional del provedor Litware, Inc. (ficticio del Reino Unido) se selecciona para incorporar cambios para admitir nuevos requisitos específicos de país.  
 
@@ -198,8 +197,8 @@ Para ello, Proseware, Inc. tiene que cambiar la versión de la configuración ba
 3. Haga clic en Definir como activo.
 4. Haga clic en Configuraciones de informes.
 5. En el árbol, expanda "Pagos (modelo simplificado)".
-6. En el árbol, expanda "Pagos (modelo simplificado\BACS (ficticio Reino Unido)".
-7. En el árbol, seleccione "Pagos (modelo simplificado\BACS (ficticio Reino Unido\BACS (personalizado ficticio del Reino Unido)".
+6. En el árbol, expanda "Pagos (modelo simplificado)\BACS (ficticio Reino Unido)".
+7. En el árbol, seleccione "Pagos (modelo simplificado)\BACS (ficticio Reino Unido)\BACS (personalizado ficticio del Reino Unido)".
 
     Seleccione la configuración BACS (personalizada ficticia del Reino Unido), que es propiedad de Proseware, Inc.  
 

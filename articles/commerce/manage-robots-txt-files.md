@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983632"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517461"
 ---
 # <a name="manage-robotstxt-files"></a>Administrar archivos robots.txt
 
@@ -90,11 +90,11 @@ Para eliminar un archivo robots.txt en Commerce, siga estos pasos.
 
 [Configurar su nombre de dominio](configure-your-domain-name.md)
 
-[Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
+[Implementar un inquilino nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
 [Crear un sitio de comercio electrónico](create-ecommerce-site.md)
 
-[Asociar un sitio en línea con un canal](associate-site-online-store.md)
+[Asociar un sitio de Dynamics 365 Commerce con un canal en línea](associate-site-online-store.md)
 
 [Subir redireccionamientos de URL en grandes cantidades](upload-bulk-redirects.md)
 

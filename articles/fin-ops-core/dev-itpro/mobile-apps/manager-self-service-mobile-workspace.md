@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005618"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680979"
 ---
 # <a name="my-team-mobile-workspace"></a>Espacio de trabajo móvil Mi equipo
 
@@ -84,16 +83,16 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 [![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Ver los miembros del equipo utilizando el espacio de trabajo móvil Mi equipo
-1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga.
+1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga el miembro.
 2.  Seleccione un miembro del equipo. Aparece la página **Resumen del miembro del equipo**. La información de esta página incluye la fecha de nacimiento del miembro del equipo, la fecha de antigüedad, los años de servicio, los años en su puesto actual y la información de compensación.
 
 ## <a name="view-extended-team-members-by-using-the-my-team-mobile-workspace"></a>Ver los miembros del equipo ampliado utilizando el espacio de trabajo móvil Mi equipo
-1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga.
+1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga el miembro.
 1.  Seleccione el vínculo **Subordinados directos**. Aparece una lista del equipo ampliado.
 1.  Seleccione un miembro del equipo. Aparece la página **Resumen del miembro del equipo**. La información de esta página incluye la fecha de nacimiento del miembro del equipo, la fecha de antigüedad, los años de servicio, los años en su puesto actual y la información de compensación.
 
 ## <a name="send-praise-about-team-members-by-using-the-my-team-mobile-workspace"></a>Enviar elogios a los miembros del equipo utilizando el espacio de trabajo móvil Mi equipo
-1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga.
+1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga el miembro.
 1.  Seleccione un miembro del equipo. Aparece la página **Resumen del miembro del equipo**.
 1.  Seleccione **Enviar elogio**. 
 1. Escriba el texto del elogio que desee enviar. 

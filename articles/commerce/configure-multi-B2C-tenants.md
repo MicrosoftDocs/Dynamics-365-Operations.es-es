@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976025"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517141"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurar múltiples inquilinos B2C en un entorno de Commerce
 
@@ -114,11 +114,11 @@ Su nuevo inquilino Azure AD B2C ahora debería aparecer en la lista debajo de **
 
 [Configurar su nombre de dominio](configure-your-domain-name.md)
 
-[Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
+[Implementar un inquilino nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
 [Crear un sitio de comercio electrónico](create-ecommerce-site.md)
 
-[Asociar un sitio en línea con un canal](associate-site-online-store.md)
+[Asociar un sitio de Dynamics 365 Commerce con un canal en línea](associate-site-online-store.md)
 
 [Administrar archivos robots.txt](manage-robots-txt-files.md)
 

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fc0490e3532dcbb9c1e91101009b2d4605315416
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 4acd3bec32cdfe627f6eb33dd5dc652f7cff74a8
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097078"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594221"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Subir archivos que no sean imágenes y vídeos
 
@@ -89,10 +89,12 @@ Para subir un archivo al generador de sitios en Commerce, siga estos pasos.
 
 [Visión general de la administración de activos digitales](dam-overview.md)
 
-[Subir imágenes](dam-upload-images.md)
+[Cargar imágenes](dam-upload-images.md)
 
-[Subir vídeo](dam-upload-video.md)
+[Cargar vídeo](dam-upload-video.md)
 
 [Recortar imágenes](dam-crop-images.md)
 
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
+
+[Cargar y servir archivos estáticos](upload-serve-static-files.md)

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 98cb4f9049509dd700cf38a5d176447f86e9c824
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097081"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594317"
 ---
 # <a name="upload-videos"></a>Subir vídeos
 
@@ -64,10 +64,12 @@ Si está cargando varios tipos de activos simultáneamente (por ejemplo, imágen
 
 [Visión general de la administración de activos digitales](dam-overview.md)
 
-[Subir imágenes](dam-upload-images.md)
+[Cargar imágenes](dam-upload-images.md)
 
 [Subir archivos](dam-upload-files.md)
 
 [Recortar imágenes](dam-crop-images.md)
 
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
+
+[Cargar y servir archivos estáticos](upload-serve-static-files.md)

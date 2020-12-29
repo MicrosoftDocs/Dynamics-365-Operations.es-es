@@ -3,24 +3,23 @@ title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278907"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684069"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -130,7 +129,7 @@ Un trabajo se puede proteger según los roles, usuarios y entidades jurídicas a
 Puede ejecutar un trabajo una vez; para ello, seleccione el botón **Importar** o **Exportar** después de definir el trabajo. Para configurar un trabajo periódico, seleccione **Crear un trabajo de datos recurrente**.
 
 > [!NOTE]
-> Un trabajo de importación o exportación se puede ejecutar de manera asíncrona seleccionando el botón **Importar** o **Exportar**. La ejecución asíncrona utiliza el marco de asincronía, que es diferente del marco por lotes. Sin embargo, como el marco por lotes, el marco de asincronía también puede tener limitaciones y como consecuencia, el trabajo puede no ejecutarse inmediatamente. Los trabajos también se pueden ejecutar sincrónicamente seleccionando **Importar ahora** o **Exportar ahora**. Esto inicia el trabajo inmediatamente y resulta útil si la asincronía o un lote no empiezan debido a limitaciones. Los trabajos también se pueden ejecutar en un lote eligiendo la opción **Ejecutar en lote**. Los recursos por lote están sujetos a limitaciones, por lo que el trabajo por lotes podría no empezar inmediatamente. La opción de asincronía es útil cuando los usuarios interactúan directamente con la interfaz de usuario y no son usuarios avanzados para comprender la programación por lotes. El uso de un lote es una opción alternativa si es necesario importar o exportar grandes volúmenes. Los trabajos por lotes se pueden programar para su ejecución en grupos por lotes específicos, que permiten más control desde una perspectiva de equilibrio de carga. Si la asincronía y los lotes tienen ambos limitaciones debido a la utilización alta de recursos en el sistema, como solución alternativa inmediata, se puede usar la versión síncrona de importación o la exportación. La opción síncrona comenzará inmediatamente y bloqueará la interfaz de usuario porque se ejecuta de forma sincrónica. La ventana de explorador debe permanecer abierta cuando la operación síncrona está en curso.
+> Un trabajo de importación o exportación se puede ejecutar seleccionando el botón **Importar** o **Exportar**. Esto programará un trabajo por lotes para que se ejecute solo una vez. Es posible que el trabajo no se ejecute inmediatamente si el servicio por lotes se está ralentizando debido a la carga del servicio por lotes. Los trabajos también se pueden ejecutar sincrónicamente seleccionando **Importar ahora** o **Exportar ahora**. Esto inicia el trabajo inmediatamente y resulta útil si el lote no empiezan debido a limitaciones. Los trabajos también se pueden programar para que se ejecuten en un momento posterior. Esto se puede hacer eligiendo la opción **Ejecutar por lotes**. Los recursos por lote están sujetos a limitaciones, por lo que el trabajo por lotes podría no empezar inmediatamente. El uso de un lote es la opción recomendada porque también ayudará con grandes volúmenes de datos que se deben importar o exportar. Los trabajos por lotes se pueden programar para su ejecución en grupos por lotes específicos, que permiten más control desde una perspectiva de equilibrio de carga.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Confirme que el trabajo funciona como es debido.
 Tiene disponible el historial de trabajos por si necesita solucionar algún problema o investigar algún trabajo de importación o exportación. Las ejecuciones de trabajos del historial se organizan según intervalos de tiempo.
@@ -195,7 +194,7 @@ La funcionalidad de limpieza del historial de trabajo de la administración de d
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-La funcionalidad debe estar habilitada en la administración de características y, después, se puede obtener acceso a ella desde **Administración de datos \> Limpieza del historial de trabajos**.
+La funcionalidad **Limpieza del historial de ejecución** debe estar habilitada en la administración de características y, después, se puede obtener acceso a ella desde **Administración de datos \> Limpieza del historial de trabajos**.
 
 ### <a name="scheduling-parameters"></a>Parámetros de programación
 
@@ -211,3 +210,36 @@ Al programar el proceso de limpieza hay que especificar los siguientes parámetr
 
 > [!NOTE]
 > Si los registros en las tablas de preparación no se limpian por completo, asegúrese de que el trabajo de limpieza esté programado para ejecutarse periódicamente. Como se explicó anteriormente, en cualquier ejecución de limpieza, el trabajo solo limpiará tantas ID de ejecución como sea posible dentro de las horas máximas proporcionadas. Para continuar la limpieza de los registros de etapas restantes, el trabajo debe programarse para ejecutarse periódicamente.
+
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Limpieza y archivo del historial de trabajos (disponible para vista previa en la Platform update 39 o versión 10.0.15)
+La función de limpieza y archivo del historial de trabajos reemplaza las versiones anteriores de la función de limpieza. Esta sección explicará estas nuevas capacidades.
+
+Uno de los principales cambios en la funcionalidad de limpieza es el uso del trabajo por lotes del sistema para limpiar el historial. El uso del trabajo por lotes del sistema permite a las aplicaciones de Finance and Operations que el trabajo por lotes de limpieza se programe y se ejecute automáticamente tan pronto como el sistema esté listo. Ya no es necesario programar el trabajo por lotes manualmente. En este modo de ejecución predeterminado, el trabajo por lotes se ejecutará cada hora a partir de las 12 de la noche y conservará el historial de ejecución de los 7 días más recientes. El historial depurado se archiva para su futura recuperación.
+
+> [!NOTE]
+> Debido a que esta funcionalidad está en vista previa, el trabajo por lotes del sistema no eliminará ningún historial de ejecución hasta que se habilite a través del paquete piloto DMFEnableExecutionHistoryCleanupSystemJob. Cuando la función esté generalmente disponible en una versión futura, este paquete piloto no será necesario y el trabajo por lotes del sistema comenzará a purgarse y archivarse una vez que el sistema esté listo, según el programa definido como se explicó anteriormente. 
+
+> [!NOTE]
+> En una versión futura, las versiones anteriores de la función de limpieza se eliminarán de las aplicaciones Finance and Operations.
+
+El segundo cambio en el proceso de limpieza es el archivo del historial de ejecución depurado. El trabajo de limpieza archivará los registros eliminados en el almacenamiento de blobs que DIXF usa para integraciones regulares. El archivo archivado estará en el formato de paquete DIXF y estará disponible durante 7 días en el blob durante el cual se podrá descargar. La longevidad predeterminada de 7 días para el archivo archivado se puede cambiar a un máximo de 90 días en los parámetros.
+
+### <a name="changing-the-default-settings"></a>Cambiar la configuración predeterminada
+Esta funcionalidad se encuentra actualmente en versión preliminar y debe activarse explícitamente habilitando el paquete piloto DMFEnableExecutionHistoryCleanupSystemJob. La función de limpieza por etapas también debe estar activada en la gestión de funciones.
+
+Para cambiar la configuración predeterminada para la longevidad del archivo archivado, vaya al espacio de trabajo de administración de datos y seleccione **Limpieza del historial de trabajos**. Establezca **Días para retener el paquete en blob** a un valor entre 7 y 90 (inclusive). Esto tendrá efecto en los archivos que se creen después de que se realizó este cambio.
+
+### <a name="downloading-the-archived-package"></a>Descarga del paquete archivado
+Esta funcionalidad se encuentra actualmente en versión preliminar y debe activarse explícitamente habilitando el paquete piloto DMFEnableExecutionHistoryCleanupSystemJob. La función de limpieza por etapas también debe estar activada en la gestión de funciones.
+
+Para descargar el historial de ejecución archivado, vaya al espacio de trabajo de gestión de datos y seleccione **Limpieza del historial de trabajos**. Seleccione **Historial de copias de seguridad del paquete** para abrir el formulario de historial. Este formulario muestra la lista de todos los paquetes archivados. Se puede seleccionar y descargar un archivo seleccionando **Descargar paquete**. El paquete descargado tendrá el formato de paquete DIXF y contendrá los siguientes archivos:
+
+-   El archivo de la tabla de etapas de entidad
+-   DMFDEFINITIONGROUPEXECUTION
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+-   DMFEXECUTION
+-   DMFSTAGINGEXECUTIONERRORS
+-   DMFSTAGINGLOG
+-   DMFSTAGINGLOGDETAILS
+-   DMFSTAGINGVALIDATIONLOG
+

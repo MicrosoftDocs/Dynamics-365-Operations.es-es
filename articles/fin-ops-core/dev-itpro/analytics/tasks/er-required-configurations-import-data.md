@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143324"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684291"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Crear las configuraciones requeridas para importar datos desde un archivo externo
 
@@ -98,11 +97,11 @@ Los pasos en esta subtarea le muestran cómo se puede crear una nueva configurac
 
     Tenga en cuenta que el formato diseñado se presentará aquí como un componente del origen de datos.  
 
-6. En el árbol, expanda "formato:Registro\*liquidación: Elemento XML 1..1 (liquidación): Registro".
-7. En el árbol, expanda "formato: Registro\*liquidación:Elemento 1..1 XML (liquidación): Registro\transacción: Elemento XML. 0..* (transacción): Lista de registro".
-8. En el árbol, expanda "formato: Registro\*liquidación: Elemento XML 1..1 (liquidación): Registro\transacción: Elemento XML. 0..* (transacción): Lista de registro\*proveedor: Elemento XML 1..1 (proveedor): Registro”.
-9. En el árbol, expanda "formato: Registro\*liquidación: Elemento XML 1..1 (liquidación): Registro\transacción: Elemento XML. 0..* (transacción): Lista de registro\país: Elemento XML 0..1 (país): Registro”.
-10. En el árbol, seleccione "formato: Registro\*liquidación: Elemento XML 1..1 (liquidación): Registro\transacción: Elemento XML. 0..* (transacción): Lista de registro\*proveedor: Elemento XML 1..1 (proveedor): Registro”.
+6. En el árbol, expanda `format: Record\*settlement: XML Element 1..1 (settlement): Record`.
+7. En el árbol, expanda `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list`.
+8. En el árbol, expanda `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
+9. En el árbol, expanda `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record`.
+10. En el árbol, seleccione `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
 
     Tenga en cuenta que la presentación de los elementos de formato obligatorios y optativos es diferente en el componente predefinido del origen de datos “formato”.  
 11. En el árbol, expanda "Transacciones: Lista de registro = format.settlement.'$enumerated''.
@@ -237,7 +236,7 @@ Ejecute esta asignación de formato para realizar pruebas. Utilice el archivo 10
 19. Cierre la página.
 20. Haga clic en Editar.
 
-    Si ha instalado la revisión "KB 4012871 el soporte de las asignaciones de modelo GER en distintas configuraciones con una capacidad de especificar distintos tipos de requisitos previos para implementarlos en diferentes versiones de Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), ejecute el siguiente paso “Activar el indicador ‘Asignación de modelo predeterminada’" para la configuración de formato introducida. En caso contrario, omita el siguiente paso.  
+    Si ha instalado la revisión "KB 4012871 el soporte de las asignaciones de modelo GER en distintas configuraciones con una capacidad de especificar distintos tipos de requisitos previos para implementarlos en diferentes versiones de Dynamics 365 Finance" ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), ejecute el siguiente paso “Activar el indicador ‘Asignación de modelo predeterminada’" para la configuración de formato introducida. En caso contrario, omita el siguiente paso.  
 
 21. Seleccione Sí en el campo Valor predeterminado de la asignación de modelo.
 22. En el árbol, seleccione "Modelo de pagos 1099".
@@ -245,7 +244,7 @@ Ejecute esta asignación de formato para realizar pruebas. Utilice el archivo 10
 24. Haga clic en Asignar modelo a origen de datos.
 25. Haga clic en Ejecutar.
 
-    Si ha instalado el reemplazo, KB 4012871 soporte de las asignaciones del modelo GER en distintas configuraciones con capacidad de especificar distintos tipos de requisitos previos para implementarlos en diferentes versiones (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), seleccione la asignación de modelo preferido en el campo de búsqueda. Si aún no ha instalado el reemplazo vaya al paso siguiente, ya que la asignación ha sido seleccionada por la definición de la configuración del formato predeterminado.  
+    Si ha instalado el reemplazo, KB 4012871 soporte de las asignaciones del modelo GER en distintas configuraciones con capacidad de especificar distintos tipos de requisitos previos para implementarlos en diferentes versiones ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), seleccione la asignación de modelo preferido en el campo de búsqueda. Si aún no ha instalado el reemplazo vaya al paso siguiente, ya que la asignación ha sido seleccionada por la definición de la configuración del formato predeterminado.  
     
     Si no ha instalado el reemplazo, 4012871 KB, observe que el cuadro de diálogo contiene una pregunta adicional sobre el modelo de asignación que se usa para analizar el archivo que está importando. Los datos se del trasladan del cuadro de diálogo al modelo de datos. Actualmente, usted puede elegir qué formato de asignación se debe usar en función del tipo de archivo que pretende importar.  
     

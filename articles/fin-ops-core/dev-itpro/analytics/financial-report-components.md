@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 27a6745be62185b23a7e81c9aed78879e36b3a9d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181735"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682730"
 ---
 # <a name="financial-report-components"></a>Componentes de los informes financieros
 
@@ -81,7 +80,7 @@ Puede ver todos los bloques de creación asignados a un grupo de bloques de crea
 
 ### <a name="export-a-building-block-group"></a>Exportar un grupo de bloques de creación
 
-Puede exportar un grupo de bloques de creación o bloques de creación de informe a un grupo de bloques de creación.Puede usar el grupo de bloques de creación exportado como copia de seguridad. También puede copiar los datos exportados entre instalaciones.El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
+Puede exportar un grupo de bloques de creación o bloques de creación de informe a un grupo de bloques de creación. Puede usar el grupo de bloques de creación exportado como copia de seguridad. También puede copiar los datos exportados entre instalaciones. El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
 
 1. En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
 2. En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación que se va a exportar y, a continuación, haga clic en **Exportar**.

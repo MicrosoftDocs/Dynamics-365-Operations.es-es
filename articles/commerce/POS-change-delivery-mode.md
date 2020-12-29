@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1e9f8d202fa81546a9f84af62824e6d8f620cf35
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: eaffe7821b60dd787a7d8b7533c1b8599033ba68
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975106"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594146"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Cambiar modo de entrega en PDV
 
@@ -40,4 +40,10 @@ Una vez configurada esta función en PDV, al seleccionar **Cambiar modo de entre
 
 Después de seleccionar las líneas que desea cambiar, haga clic en **Cambiar modo de entrega** para que se le pida que seleccione las opciones del modo de entrega. Si seleccionó varias líneas para cambiar, el PDV solo mostrará los modos de entrega que se hayan configurado como permitidos para todos los productos seleccionados. Los modos de entrega se pueden configurar para admitir productos y direcciones de entrega específicos. Si hay un modo de entrega que es aceptable para una combinación de producto y dirección pero no es aceptable para otra combinación seleccionada de producto y dirección, el modo de entrega no estará disponible. Es posible que deba seleccionar las líneas una por una y cambiar el modo de entrega para cada línea por separado si desea seleccionar un modo de entrega para un producto que no sea compatible con otro producto.  
 
-Cuando haya seleccionado el nuevo modo de entrega, se mostrará la página de transacción. Para revisar sus nuevas selecciones de modo de entrega, seleccione la pestaña **Entrega** en la lista de transacciones.   
+Cuando haya seleccionado el nuevo modo de entrega, se mostrará la página de transacción. Para revisar sus nuevas selecciones de modo de entrega, seleccione la pestaña **Entrega** en la lista de transacciones.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Crear pedidos de centro de llamadas](tasks/create-call-center-orders.md)
+
+[Personalizar correos electrónicos transaccionales por modo de entrega](customize-email-delivery-mode.md)

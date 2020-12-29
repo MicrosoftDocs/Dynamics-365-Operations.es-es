@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 7d552f29fd8f52b512a7c21b36b0a814cac50646
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533445"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517193"
 ---
 # <a name="create-an-e-commerce-site"></a>Crear un sitio de comercio electrónico
 
@@ -32,7 +32,7 @@ ms.locfileid: "3533445"
 
 En este tema se describen los pasos y la información necesarios para crear un nuevo sitio de comercio electrónico con el generador de sitios de Dynamics 365 Commerce.
 
-Cuando licencia las capacidades de comercio electrónico, el creador de sitios contará con un sitio de inicio que puede usar como base para su propio sitio. Sin embargo, si desea comenzar desde cero o si desea establecer un segundo sitio, deberá establecer un nuevo sitio en el entorno de creación del sitio. 
+Cuando licencia las capacidades de Dynamics 365 Commerce, el creador de sitios contará con un sitio de inicio que puede usar como base para su propio sitio. Sin embargo, si desea comenzar desde cero o si desea establecer un segundo sitio, deberá establecer un nuevo sitio en el entorno de creación del sitio. 
 
 ## <a name="set-up-your-site"></a>Configurar su sitio
 
@@ -58,9 +58,9 @@ Una vez creado el sitio, puede comprobar que esté asociado a la tienda en líne
 
 [Configurar su nombre de dominio](configure-your-domain-name.md)
 
-[Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
+[Implementar un inquilino nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
-[Asociar un sitio en línea con un canal](associate-site-online-store.md)
+[Asociar un sitio de Dynamics 365 Commerce con un canal en línea](associate-site-online-store.md)
 
 [Administrar archivos robots.txt](manage-robots-txt-files.md)
 

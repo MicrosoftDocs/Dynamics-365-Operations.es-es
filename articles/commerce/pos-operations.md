@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081348"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594122"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
@@ -197,6 +197,8 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 500 | Anular transacción | Anule la transacción actual. | Sí | Sí | N.º | Sí | N.º |
 | 916 | Windows Workflow Foundation | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | N.º |
 | 924 | Informe X para tarjetas bancarias | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | Sí |
+| 311 | Eliminar descuentos del sistema de transacciones | Elimine todos los descuentos aplicados por el sistema, incluidos los descuentos basados en cupones, de la transacción. Esto no elimina los descuentos manuales. | Sí | Sí | Sí | Sí | N.º |
+| 312 | Volver a aplicar los descuentos del sistema | Vuelva a aplicar los descuentos del sistema en la transacción si se eliminaron utilizando la operación **Eliminar descuentos del sistema de la transacción**. | Sí | Sí | Sí | Sí | N.º |
 
 \* La operación está disponible en modo sin conexión cuando se está creando un pedido de cliente o un presupuesto de ventas, y solo si la creación sin conexión de pedidos de cliente y de presupuestos de ventas se configura en el perfil de funcionalidad de PDV. La operación no se puede realizar cuando los pedidos se crean mediante Real-time Service o cuando se recuperan o editan pedidos.
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede88bc1767304a86a86ec27365db9403c5a951d
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678257"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680251"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Diseñar una nueva solución de informes electrónicos para imprimir un informe personalizado
 
@@ -142,10 +141,10 @@ Como usuario en el rol de Desarrollador de informes electrónicos, debe configur
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>Configurar los parámetros de ER
 
-1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En el área de trabajo **Informes electrónicos** seleccione **Parámetros de informes electrónicos**.
-3. En la página **Parámetros de informes electrónicos** seleccione la pestaña **General** y establezca la opción **Habilitar modo de diseño** en **Sí**.
-4. En la pestaña **Adjuntos** establezca los parámetros siguientes:
+1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
+2. En el área de trabajo de **Informes electrónicos**, seleccione **Parámetros de informes electrónicos**.
+3. En la página **Parámetros de informes electrónicos**, en la pestaña **General**, establezca la opción **Habilitar modo de diseño** en **Sí**.
+4. En la pestaña **Adjuntos**, establezca los parámetros siguientes:
 
     - Establezca el campo **Configuraciones** en **Archivo** para la empresa **USMF**.
     - Establezca los campos **Archivo de trabajo**, **Temporal**, **Base** y **Otros** en **Archivo**.
@@ -161,28 +160,28 @@ Cada configuración de ER está marcada como propiedad de un proveedor de config
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>Revise la lista de proveedores de configuración de ER
 
-1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
+1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 2. En el espacio de trabajo **Informes electrónicos**, en la sección **Vínculos relacionados**, seleccione **Proveedores de configuración**.
 3. En la página **Proveedores de configuración**, cada registro de proveedor de configuración tiene un nombre y una dirección URL únicos. Revise el contenido de esta página. Si un registro para **Litware, Inc.** (`https://www.litware.com`) ya existe, omita el siguiente procedimiento, [Agregar un nuevo proveedor de configuración de ER](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a name="AddProvider"></a>Añada una nueva configuración para el proveedor de ER
 
 1. En la página **Proveedores de configuración**, seleccione **Nuevo**.
-2. En el campo **Nombre**, introduzca **Litware, Inc.**
-3. En el campo **Dirección de Internet**, introduzca  `https://www.litware.com`.
-4. Seleccione **Guardar**.
+2. En el campo **Nombre**, introduzca **Litware, Inc.**
+3. En el campo **Dirección de Internet**, introduzca `https://www.litware.com`.
+4. Seleccione **Guardar**.
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>Activar un proveedor de configuración de ER
 
-1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
+1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 2. En el espacio de trabajo **Informes electrónicos**, seleccione el proveedor de configuración **Litware, Inc.**
-3. Seleccione **Definir como activo**.
+3. Seleccione **Definir como activo**.
 
 Para obtener más información sobre proveedores de configuración de ER, consulte [Crear proveedores de la configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Diseñar un modelo de datos específico del dominio
 
-Debe crear una nueva configuración de ER que contenga un componente de [modelo de datos](general-electronic-reporting.md#data-model-and-model-mapping-components) para el dominio empresarial **Cuestionario**. Este modelo de datos se utilizará más tarde como origen de datos al diseñar un formato de ER para generar informe **Cuestionario**.
+Debe crear una nueva configuración de ER que contenga un componente de [modelo de datos](general-electronic-reporting.md#data-model-and-model-mapping-components) para el dominio empresarial **Cuestionario**. Este modelo de datos se utilizará más tarde como origen de datos al diseñar un formato de ER para generar informe **Cuestionario**.
 
 Al completar los pasos de la sección [Importar una nueva configuración de modelo de datos](#ImportDataModel) puede importar el modelo de datos necesario desde el archivo XML suministrado. Como alternativa, puede completar los pasos de la sección [Crear una nueva configuración de modelo de datos](#DesignDataModel) para diseñar este modelo de datos desde cero.
 
@@ -811,7 +810,7 @@ El estado de la versión 1.1 de esta configuración cambia de **Borrador** a **C
 
 Como usuario con el rol de administrador del sistema, debe desarrollar una nueva lógica para que el formato de ER configurado se pueda llamar desde la interfaz de usuario de la aplicación para generar su informe personalizado. Actualmente, ER no ofrece ninguna capacidad para configurar este tipo de lógica. Por lo tanto, se requiere algún trabajo de ingeniería. 
 
-Para desarrollar la nueva lógica debe implementar una topología que permita la compilación continua. Para obtener más información, consulte [Implementar topologías que admiten la compilación continua y la automatización de pruebas](../perf-test/continuous-build-test-automation.md). También debe tener acceso al entorno de desarrollo para esta topología. Para obtener más información sobre la API de ER disponible, consulte [API del marco de ER](er-apis-app73.md).
+Para desarrollar la nueva lógica debe implementar una topología que permita la compilación continua. Para obtener más información, consulte [Implementar topologías que admiten la automatización continua de la compilación y la prueba](../perf-test/continuous-build-test-automation.md). También debe tener acceso al entorno de desarrollo para esta topología. Para obtener más información sobre la API de ER disponible, consulte [API del marco de ER](er-apis-app73.md).
 
 ### <a name="modify-source-code"></a><a name="ModifySourceCode"></a>Modificación de código de origen
 

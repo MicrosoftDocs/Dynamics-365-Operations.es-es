@@ -18,33 +18,35 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997487"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683750"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migración de tipo de datos de divisa para doble escritura
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Puede aumentar el número de lugares decimales admitidos para valores de divisa a un máximo de 10. El límite predeterminado es cuatro decimales. Al aumentar el número de lugares decimales, ayuda a evitar la pérdida de datos cuando utiliza la escritura dual para sincronizar datos. El aumento del número de decimales es un cambio opcional. Para implementarlo, debe solicitar asistencia de Microsoft.
 
 El proceso de cambiar el número de lugares decimales tiene dos pasos:
 
 1. Solicite la migración de Microsoft.
-2. Cambiar el número de decimales en Common Data Service.
+2. Cambiar el número de decimales en Dataverse.
 
-La aplicación Finance and Operations y Common Data Service debe admitir el mismo número de decimales en los valores de divisa. De lo contrario, se puede producir una pérdida de datos cuando esta información se sincroniza entre aplicaciones. El proceso de migración reconfigura la forma en que se almacenan los valores de divisa y de tipo de cambio, pero no cambia ningún dato. Una vez completada la migración, se puede aumentar el número de lugares decimales para los códigos de divisa y el precio se puede aumentar, y los datos que los usuarios especifican y ven pueden tener más precisión decimal.
+La aplicación Finance and Operations y Dataverse debe admitir el mismo número de decimales en los valores de divisa. De lo contrario, se puede producir una pérdida de datos cuando esta información se sincroniza entre aplicaciones. El proceso de migración reconfigura la forma en que se almacenan los valores de divisa y de tipo de cambio, pero no cambia ningún dato. Una vez completada la migración, se puede aumentar el número de lugares decimales para los códigos de divisa y el precio se puede aumentar, y los datos que los usuarios especifican y ven pueden tener más precisión decimal.
 
 La migración es opcional. Si puede beneficiarse de la compatibilidad para más decimales, le recomendamos que considere la migración. Las organizaciones que no requieren valores con más de cuatro decimales no tienen que migrar.
 
 ## <a name="requesting-migration-from-microsoft"></a>Solicitar la migración de Microsoft
 
-El almacenamiento para campos de divisa existentes en Common Data Service no puede admitir más de cuatro decimales. Por lo tanto, durante el proceso de migración, los valores de divisa se copian en nuevos campos internos en la base de datos. Este proceso ocurre continuamente hasta que se hayan migrado todos los datos. Internamente, al final de la migración, los nuevos tipos de almacenamiento reemplazan a los antiguos, pero los valores de los datos no cambian. Los campos de divisa pueden admitir hasta 10 decimales. Durante el proceso de migración, Common Data Service puede continuar usándose sin interrupción.
+El almacenamiento para campos de divisa existentes en Dataverse no puede admitir más de cuatro decimales. Por lo tanto, durante el proceso de migración, los valores de divisa se copian en nuevos campos internos en la base de datos. Este proceso ocurre continuamente hasta que se hayan migrado todos los datos. Internamente, al final de la migración, los nuevos tipos de almacenamiento reemplazan a los antiguos, pero los valores de los datos no cambian. Los campos de divisa pueden admitir hasta 10 decimales. Durante el proceso de migración, Dataverse puede continuar usándose sin interrupción.
 
-Al mismo tiempo, los tipos de cambio se modifican para que admitan hasta 12 decimales en lugar del límite actual de 10. Este cambio es necesario para que el número de decimales sea el mismo en la aplicación Finance and Operations y Common Data Service.
+Al mismo tiempo, los tipos de cambio se modifican para que admitan hasta 12 decimales en lugar del límite actual de 10. Este cambio es necesario para que el número de decimales sea el mismo en la aplicación Finance and Operations y Dataverse.
 
 La migración no cambia ningún dato. Después de convertir los campos de divisa y tipo de cambio, los administradores pueden configurar el sistema para usar hasta 10 decimales para los campos de moneda especificando el número de lugares decimales para cada divisa de transacción y para la fijación de precios.
 
@@ -61,17 +63,17 @@ Cuando solicite una migración, debe tener en cuenta los siguientes detalles y p
 
 + El tiempo que se requiere para migrar los datos depende de la cantidad de datos en el sistema. La migración de grandes bases de datos puede llevar varios días.
 + El tamaño de la base de datos aumenta temporalmente mientras se ejecuta la migración, porque se necesita espacio adicional para los índices. La mayor parte del espacio adicional se libera cuando se completa la migración.
-+ Durante el proceso de migración, si se producen errores que impiden que se complete la migración, el sistema genera alertas al Soporte técnico de Microsoft, para que el personal de Soporte técnico pueda intervenir. Sin embargo, incluso si se producen errores durante la migración, Common Data Service permanece totalmente disponible para uso regular.
++ Durante el proceso de migración, si se producen errores que impiden que se complete la migración, el sistema genera alertas al Soporte técnico de Microsoft, para que el personal de Soporte técnico pueda intervenir. Sin embargo, incluso si se producen errores durante la migración, Dataverse permanece totalmente disponible para uso regular.
 + El proceso de migración no es reversible.
 
 ## <a name="changing-the-number-of-decimal-places"></a>Cambiar el número de decimales
 
-Una vez completada la migración, Common Data Service puede almacenar números con más decimales. Los administradores pueden elegir cuántos decimales se usan para códigos de divisa específicos y para precios. Los usuarios de Microsoft Power Apps, Power BI y Power Automate luego pueden ver y usar números que tienen más decimales.
+Una vez completada la migración, Dataverse puede almacenar números con más decimales. Los administradores pueden elegir cuántos decimales se usan para códigos de divisa específicos y para precios. Los usuarios de Microsoft Power Apps, Power BI y Power Automate luego pueden ver y usar números que tienen más decimales.
 
 Para realizar este cambio, debe actualizar la siguiente configuración en Power Apps:
 
-+ **Configuración del sistema: precisión de la divisa para la fijación de precios** : el campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema** define cómo se comportará la divis para la organización cuando se selecciona **Precisión de precios**.
-+ **Gestión empresarial: divisas** : el campo **Precisión de divisa** le permite especificar un número personalizado de decimales para una moneda específica. Hay una reserva en la organización (configuración amplia).
++ **Configuración del sistema: precisión de la divisa para la fijación de precios**: el campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema** define cómo se comportará la divis para la organización cuando se selecciona **Precisión de precios**.
++ **Gestión empresarial: divisas**: el campo **Precisión de divisa** le permite especificar un número personalizado de decimales para una moneda específica. Hay una reserva en la organización (configuración amplia).
 
 Hay algunas limitaciones:
 
@@ -80,16 +82,16 @@ Hay algunas limitaciones:
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Configuración del sistema: precisión de la moneda para la fijación de precios
 
-Una vez completada la migración, los administradores pueden establecer la precisión de la divisa. Vaya a **Configuración \> Administración** y seleccione **Ajustes del sistema**. Luego, en la pestaña **General** , cambie el valor del campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema** , como se muestra en la siguiente ilustración.
+Una vez completada la migración, los administradores pueden establecer la precisión de la divisa. Vaya a **Configuración \> Administración** y seleccione **Ajustes del sistema**. Luego, en la pestaña **General**, cambie el valor del campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema**, como se muestra en la siguiente ilustración.
 
 ![Configuraciones del sistema para la divisa](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Administración empresarial: divisas
 
-Si necesita que la precisión de la divisa para una divisa específica difiera de la precisión de la divisa que se usa para fijar el precio, puede cambiarla. Vaya a **Configuraciones \> Administración empresarial** , S¡seleccione **Divisas** y seleccione la divisa que se va a cambiar. Luego configure el campo **Precisión de la divisa** según número de decimales que desee, como se muestra en la siguiente ilustración.
+Si necesita que la precisión de la divisa para una divisa específica difiera de la precisión de la divisa que se usa para fijar el precio, puede cambiarla. Vaya a **Configuraciones \> Administración empresarial**, S¡seleccione **Divisas** y seleccione la divisa que se va a cambiar. Luego configure el campo **Precisión de la divisa** según número de decimales que desee, como se muestra en la siguiente ilustración.
 
 ![Configuración de la divisa para un entorno local específico](media/specific-currency.png)
 
-### <a name="entities-currency-field"></a>Entidades: campo Divisa
+### <a name="tables-currency-field"></a>tablas: campo Divisa
 
 El número de decimales que se pueden configurar para campos de divisa específicos está limitado a cuatro.

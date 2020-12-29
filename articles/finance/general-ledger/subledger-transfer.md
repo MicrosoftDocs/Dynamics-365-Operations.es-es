@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1ae10f406148e213fd0272d1387f15606233be27
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000456"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645179"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transferencia de subdiarios a la contabilidad general
 
@@ -31,7 +31,7 @@ ms.locfileid: "3000456"
 
 Este tema describe las capacidades de Microsoft Dynamics 365 Finance que están relacionadas con las reglas para transferir lotes de entradas de subdiarios contables.
 
-En la versión 8.1, se realizaron cambios para permitir la transferencia de reglas, lo que quedó obsoleta la opción Sincrónico. Para obtener más información, consulte [Funciones retiradas u obsoletas para Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/finance/toc.json#finance-and-operations-81-with-platform-update-20).
+En la versión 8.1, se realizaron cambios para permitir la transferencia de reglas, lo que dejó en desuso la opción **Sincrónico**. Para obtener más información, consulte [Funciones retiradas u obsoletas para Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/finance/toc.json#finance-and-operations-81-with-platform-update-20).
 
 Las siguientes opciones están disponibles para transferir lotes de subdiarios. 
 
@@ -41,4 +41,4 @@ Las siguientes opciones están disponibles para transferir lotes de subdiarios.
  
 En la versión 10.0.8, se realizaron mejoras para mejorar el rendimiento de la opción Asincrónico. Esta característica está habilitada debajo del nombre de la característica **Optimización del rendimiento de la transferencia de subdiarios a la contabilidad general**. 
  
-Esta funcionalidad mejora la transferencia de datos desde el subdiario contable a la contabilidad general. Permite que el proceso sea más eficiente y agrupa conjuntos de transacciones más pequeñas para transferir. Esto permite un uso más eficiente del servidor por lotes. Esta funcionalidad requiere que el servidor por lotes esté configurado, en línea y funcionando para que funcione la opción de transferencia asincrónica. 
+Esta funcionalidad mejora la transferencia de datos desde el subdiario contable a la contabilidad general. Permite que el proceso sea más eficiente y agrupa conjuntos de transacciones más pequeñas para transferir. Esto permite un uso más eficiente del servidor por lotes. Esta funcionalidad requiere que el servidor por lotes esté configurado, en línea y funcionando para que funcione la opción de transferencia Asincrónico. 

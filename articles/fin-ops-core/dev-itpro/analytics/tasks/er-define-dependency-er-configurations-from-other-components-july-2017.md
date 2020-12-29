@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142272"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681982"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir la dependencia de las configuraciones de ER en otros componentes
 
@@ -47,7 +46,7 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 5. Haga clic en Nuevo.
 6. Seleccionar el componente de requisito previo de producto.
 7. Seleccione Microsoft Dynamics 365 for Operations (1611).
-8. En el campo versión, escriba "[7.1.1541.3036,8)".
+8. En el campo Versión, escriba '[7.1.1541.3036,8)'.
     * [7.1.1541.3036,8)  
     * Las dependencias que introduzca serán evaluadas cuando esta configuración se descargue de cualquier ER almacenada. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Finance and Operations, versión 7.1.1541.3036 o posterior, pero no debe superar la versión 8.   
 9. Haga clic en Guardar.
@@ -60,7 +59,7 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 16. Haga clic en Nuevo.
 17. Seleccionar el componente de requisito previo de producto.
 18. Seleccionar Microsoft Dynamics AX 7.0 RTW:
-19. En el campo versión, escriba "[7.0.1265.3015,7.1)".
+19. En el campo Versión, escriba '[7.0.1265.3015,7.1)'.
     * [7.0.1265.3015,7.1)  
     * Las dependencias que introduzca serán evaluadas cuando la configuración se descargue de cualquier ER almacenado. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Microsoft Dynamics 365 for Finance and Operations Enterprise edition, cuya versión debe ser 7.0.1265.3015 o posterior, pero no ser inferior a la versión 1.   
 20. Haga clic en Guardar.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5277081d9f7adcc43c30d30208d13c7e39d76118
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f9f2cbe0c9d1609aa3713776f81bafa396fff301
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140384"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645290"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Registrar una factura de proveedor en el diario de facturas
 
@@ -43,7 +43,9 @@ Esta guía de la tarea muestra cómo registrar facturas de proveedor que no est�
     * El valor predeterminado del **grupo de impuestos** proviene de la cuenta de proveedor  
     * El valor predeterminado proviene del campo **Grupo de impuestos de artículos** de la cuenta principal especificada en el campo **Cuenta de contrapartida**.  
     * La **fecha de vencimiento** se calculará según las condiciones de pago.  
-    * El **descuento por pronto pago** proviene de la cuenta de proveedor  
+    * El **descuento por pronto pago** proviene de la cuenta de proveedor
+12. Si ha habilitado el flujo de trabajo del diario de facturas de proveedores, haga clic en **Flujo de trabajo > Enviar**.
+    * Cuando se aprueba su envío, la fecha se adelantará al primer día del próximo período abierto, si la fecha de contabilización de la transacción cae dentro de un período que está En espera o Cerrado para la contabilización del libro mayor.
 12. Haga clic en **Registrar**.
 13. Cierre la página.
 

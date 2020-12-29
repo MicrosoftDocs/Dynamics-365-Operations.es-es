@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
-ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564176"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682683"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definiciones de organigramas en informes financieros
 
@@ -106,7 +105,7 @@ Al usar un organigrama, puede agregar importes desde unidades organizacionales s
     > Si especifica dimensiones para unidades tanto secundarias como principales, puede provocar la duplicación de datos en el informe.
 
 - Las unidades de notificación que contienen dimensiones en el organigrama se corresponden con las dimensiones que se usan en las definiciones de fila y de columna. La combinación de dimensiones determina los importes que se devuelven para esa unidad. Por ejemplo, en el ejemplo 2 que aparece más adelante en este artículo, las líneas 6 y 7 devuelven solo valores para los departamento 00 y 01, respectivamente.
-- Los importes para las unidades organizacionales principales que no contienen dimensiones en el organigrama se determinan desde el informe de la unidad secundaria y se distribuye el importe en la unidad principal especificada. Por ejemplo, si la unidad principal (consulte Contoso EE. UU. en el ejemplo 2 de los ejemplos de distribución de datos) tiene dos unidades secundarias (022 y 023) y no contiene dimensiones, se genera un informe para la unidad secundaria y la principal. El total principal es la suma de los dos importes secundarios.
+- Los importes para las unidades organizacionales principales que no contienen dimensiones en el organigrama se determinan desde el informe de la unidad secundaria y se distribuye el importe en la unidad principal especificada. Por ejemplo, si la unidad principal (consulte Contoso EE. UU. en el ejemplo 2 de los ejemplos de distribución de datos) tiene dos unidades secundarias (022 y 023) y no contiene dimensiones, se genera un informe para la unidad secundaria y la principal. El total principal es la suma de los dos importes secundarios.
 
 ### <a name="manage-reporting-units"></a>Gestionar unidades de notificación
 
@@ -165,9 +164,9 @@ Puede evitar que determinados usuarios y grupos tengan acceso a una unidad de no
 3. En el cuadro de diálogo **Seguridad de la unidad**, seleccione un nombre y haga clic en **Quitar**.
 4. Haga clic en **Aceptar**.
 
-### <a name="link-toreports"></a>Vínculo para informes
+### <a name="link-to-reports"></a>Vínculo para informes
 
-Una vez que haya creado una columna  **informe** en la definición de filas y haya especificado el informe que desee incluir en el informe, debe actualizar el organigrama con la columna vinculada y la información acerca del informe. Un informe se puede importar en cualquier unidad del organigrama.
+Una vez que haya creado una columna **informe** en la definición de filas y haya especificado el informe que desee incluir en el informe, debe actualizar el organigrama con la columna vinculada y la información acerca del informe. Un informe se puede importar en cualquier unidad del organigrama.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Identificar el informe en un organigrama
 

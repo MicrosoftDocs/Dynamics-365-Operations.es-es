@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818259"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665281"
 ---
 # <a name="store-selector-module"></a>Módulo selector de tienda
 
@@ -47,7 +47,7 @@ El módulo selector de tiendas permite a los usuarios especificar una ubicación
 
 El módulo selector de tiendas está integrado con las [Interfaces de programación de aplicaciones (API) REST de Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/) para utilizar las características de geocodificación y Autosuggest de Bing. Se requiere una clave de la API de Bing Maps, y debe agregarse a la página de parámetros compartidos en la Central de Commerce. La API de geocodificación se utiliza para convertir una ubicación en valores de latitud y longitud. La integración con la API de Autosuggest se utiliza para mostrar sugerencias de búsqueda cuando los usuarios ingresan ubicaciones en el campo de búsqueda.
 
-Para la API REST de Autosuggest, debe asegurarse de que las siguientes URL estén permitidas (también conocidas como "listas blanca") según la política de seguridad de contenido (CSP) de su sitio. Esta configuración se realiza en el creador de sitios de Commerce, agregando las direcciones URL permitidas a varias directivas CSP para el sitio (por ejemplo, **img-src**). Para más información, consulte [Directiva de seguridad de contenido](manage-csp.md). 
+Para la API REST de Autosuggest, debe asegurarse de que las siguientes URL estén permitidas según la política de seguridad de contenido (CSP) de su sitio. Esta configuración se realiza en el creador de sitios de Commerce, agregando las direcciones URL permitidas a varias directivas CSP para el sitio (por ejemplo, **img-src**). Para más información, consulte [Directiva de seguridad de contenido](manage-csp.md). 
 
 - Para la directiva **connect-src**, agregue **&#42;.bing.com**.
 - Para la directiva **img-src**, agregue **&#42;.virtualearth.net**.
@@ -65,6 +65,9 @@ Para que funcione este escenario, los productos deben configurarse para poder ut
 La siguiente imagen muestra un ejemplo de un módulo selector de tienda utilizado en un PDP.
 
 ![Ejemplo de un módulo selector de tienda utilizado en un PDP](./media/BOPIS.PNG)
+
+> [!NOTE]
+> En la versión 10.0.16 y posteriores, se puede habilitar una nueva características que permite a una organización definir múltiples modos de recogida de opciones de entrega para los clientes.  Si esta función está habilitada, el selector de tiendas y otros módulos de comercio electrónico se mejorarán para permitir que el comprador elija entre múltiples opciones de entrega de recogida si están configuradas.  Para obtener más información sobre esta característica, consulte [esta documentación](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Modo Buscar tiendas
 

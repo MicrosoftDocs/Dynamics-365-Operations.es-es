@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974847"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665307"
 ---
 # <a name="recall-order-operation-in-pos"></a>Recuperar la operación de pedido en PDV
 
 [!include [banner](includes/banner.md)]
 
-La operación de recuperación de pedidos en el punto de venta comercial (POS) proporciona funciones de filtrado y búsqueda de pedidos actualizadas e información específica del pedido. Esta función está disponible en las versiones de Commerce 10.0.15 y posteriores.
+La operación de **recuperación de pedidos** en el punto de venta comercial (POS) proporciona funciones de filtrado y búsqueda de pedidos actualizadas e información específica del pedido. Esta función está disponible en las versiones de Commerce 10.0.15 y posteriores.
 
 Para habilitar esta funcionalidad, active la función **Operación mejorada de pedido de recuperación en PDV** en el espacio de trabajo **Gestión de funciones** en Commerce Headquarters. Después de habilitar la función, considere actualizar sus [diseños de pantalla](pos-screen-layouts.md) en el PDV para aprovechar algunas de las capacidades cambiadas.
 

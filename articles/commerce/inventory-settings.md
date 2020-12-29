@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: dfa8b2bdc03e3698feda26932db757421097140d
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817618"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517073"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configuración de inventario
 
@@ -46,7 +46,7 @@ En el creador de sitios de Commerce, se pueden definir umbrales y rangos de inve
 
 En Comercio, la configuración del inventario se define en **Configuraciones del sitio \> Extensiones \> Gestión del inventario** en el creador de sitios. Hay cuatro configuraciones de inventario, una de las cuales está obsoleta (en desuso):
 
-- **Habilitar comprobación de inventario en la aplicación**: esta configuración activa una comprobación de inventario del producto. La cesta, el carro y la recogida en los módulos de la tienda verificarán el inventario del producto y permitirán agregar un producto al carro solo si el inventario está disponible.
+- **Habilitar comprobación de existencias en la aplicación**: esta configuración activa una comprobación de inventario del producto. La cesta, el carro y la recogida en los módulos de la tienda verificarán el inventario del producto y permitirán agregar un producto al carro solo si el inventario está disponible.
 - **Nivel de inventario basado en**: esta configuración define cómo se calculan los niveles de inventario. Los valores disponibles son **Total disponible**, **Físicamente disponible** y **Umbral de agotado**. En Commerce, se pueden definir umbrales y rangos de inventario para cada producto y categoría. Las API de inventario devuelven información de inventario de producto para las propiedades **Total disponible** y **Físicamente disponible**. El minorista decide si el valor **Total disponible** o **Físicamente disponible** debe utilizarse para determinar el recuento de inventario y los rangos correspondientes para los estados en existencia y agotado.
 
     El valor de **Umbral de agotado** de la opción **Nivel de inventario basado en** es un valor antiguo (heredado) y obsoleto. Cuando se selecciona, el recuento de inventario se determina a partir de los resultados del valor **Total disponible**, pero el umbral está definido por la opción numérica **Umbral de agotado** que se describe más adelante. Esta configuración de umbral se aplica a todos los productos en un sitio de comercio electrónico. Si el inventario está por debajo del número de umbral, un producto se considera agotado. De lo contrario, se considera en existencias. Las capacidades del valor **Umbral de agotado** son limitadas y no recomendamos que lo use en la versión 10.0.12 y posteriores.
