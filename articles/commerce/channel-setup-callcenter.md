@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107193"
+ms.locfileid: "4415687"
 ---
 # <a name="set-up-a-call-center-channel"></a>Configurar un canal de centro de llamadas
 
@@ -44,11 +44,11 @@ Para crear y configurar un nuevo centro de llamadas, siga estos pasos.
 
 1. En el panel de navegación vaya a **Retail y Commerce \> Canales \> Centros de llamadas \> Todos los centros de llamadas**.
 1. En el panel Acciones, seleccione **Nueva**.
-1. En el campo **Nombre** , escriba un nombre para el nuevo canal.
+1. En el campo **Nombre**, escriba un nombre para el nuevo canal.
 1. Seleccione la **Entidad jurídica** apropiada en la lista desplegable.
 1. Seleccione la ubicación de **Almacén** apropiada en la lista desplegable. Esta ubicación se usará como predeterminada en los pedidos de ventas creados para este canal del centro de llamadas, a menos que se hayan definido otros valores predeterminados a nivel del cliente o artículo.
-1. En el campo **Cliente predeterminado** , especifique un cliente predeterminado válido. Estos datos se utilizan para ayudar a completar automáticamente los valores predeterminados cuando se crean nuevos registros de clientes. Al crear pedidos de centro de llamadas, no es aconsejable crear pedidos para el cliente predeterminado.
-1. En el campo **Perfil de notificación por correo electrónico** , proporcione un perfil de notificación de correo electrónico válido. A medida que se crean y procesan los pedidos del centro de llamadas, el perfil de notificación por correo electrónico se utiliza para activar alertas automáticas por correo electrónico a los clientes con información sobre el estado de sus pedidos.
+1. En el campo **Cliente predeterminado**, especifique un cliente predeterminado válido. Estos datos se utilizan para ayudar a completar automáticamente los valores predeterminados cuando se crean nuevos registros de clientes. Al crear pedidos de centro de llamadas, no es aconsejable crear pedidos para el cliente predeterminado.
+1. En el campo **Perfil de notificación por correo electrónico**, proporcione un perfil de notificación de correo electrónico válido. A medida que se crean y procesan los pedidos del centro de llamadas, el perfil de notificación por correo electrónico se utiliza para activar alertas automáticas por correo electrónico a los clientes con información sobre el estado de sus pedidos.
 1. Proporcione un código de información de **Anulación del precio**. Puede que tenga que crear antes un código de información para esto. Este código de información proporciona el conjunto de códigos de motivo que se le pedirá al usuario que elija cuando use la funcionalidad de anulación de precios en un pedido de centro de llamadas.
 1. Proporcionar un código de información de **Código de retención**. Puede que tenga que crear antes un código de información para esto. Este código de información proporciona el conjunto opcional de códigos de motivo que se le pedirá al usuario que elija cuando coloque un pedido en espera.
 1. Proporcione un código de información de **Crédito**. Puede que tenga que crear antes un código de información para esto. Este código de información proporciona el conjunto de códigos de motivo entre los que el usuario puede elegir cuando usa la funcionalidad de crédito de pedido del centro de llamadas para dar reembolsos misceláneos al cliente por razones de servicio al cliente.
@@ -94,7 +94,7 @@ Para cambiar o agregar un modo de entrega que se asociará al canal del centro d
 
 1. Desde el formulario de modos de entrega del centro de llamadas, seleccione **Administrar modos de entrega**
 1. En el panel Acciones, seleccione **Nuevo** para crear un nuevo modo de entrega o seleccionar un modo existente.
-1. En la sección **Canales comerciales** , haga clic en **Agregar línea** para agregar el canal del centro de llamadas. Agregar canales utilizando nodos de organización en lugar de agregar cada canal individualmente puede simplificar la adición de canales.
+1. En la sección **Canales comerciales**, haga clic en **Agregar línea** para agregar el canal del centro de llamadas. Agregar canales utilizando nodos de organización en lugar de agregar cada canal individualmente puede simplificar la adición de canales.
 1. Asegúrese de que el modo de entrega se haya configurado con datos en la ficha desplegable **Productos** y la ficha desplegable **Direcciones**. Si no hay productos o direcciones de entrega válidas para el modo de entrega, elegirlo durante la entrada del pedido dará como resultado errores.
 1. Después de realizar cualquier cambio en el modo de centro de llamadas de las configuraciones de entrega, el trabajo **Procesar modos de entrega** debe ejecutarse para explotar la matriz de cambio. Este trabajo se puede encontrar en **Retail y Commerce \> Retail y Commerce TI \> Procesar modos de entrega**.
 

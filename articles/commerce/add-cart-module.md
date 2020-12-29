@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39026ec56ebf25342410330f2ba3e2e7773dfd6a
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055436"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4415692"
 ---
 # <a name="cart-module"></a>Módulo de carro
 
@@ -50,22 +50,22 @@ La siguiente imagen muestra un ejemplo de una página de carro en el sitio Fabri
 
 | Propiedad | Valores | Descripción |
 |----------------|--------|-------------|
-| Cabecera | Texto de encabezado y etiqueta de encabezado ( **H1** , **H2** , **H3** , **H4** , **H5** o **H6** ) | El encabezado del carro, como "Bolsa de compra" o "Artículos en el carro". |
-| Mostrar errores de existencias agotadas | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero** , la página del carro mostrará errores relacionados con las existencias. Le recomendamos que establezca esta propiedad en **Verdadero** si se aplican controles de inventario en el sitio. |
-| Mostrar gastos de envío para artículos de línea | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero** , las líneas de pedido del carro mostrarán los gastos de envío, si esta información está disponible. Esta característica no es compatible con el tema Fabrikam porque los usuarios seleccionan el envío solo en el flujo de finalización de compra. Sin embargo, esta característica se puede activar en otros flujos de trabajo, si corresponde. |
+| Cabecera | Texto de encabezado y etiqueta de encabezado (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | El encabezado del carro, como "Bolsa de compra" o "Artículos en el carro". |
+| Mostrar errores de existencias agotadas | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero**, la página del carro mostrará errores relacionados con las existencias. Le recomendamos que establezca esta propiedad en **Verdadero** si se aplican controles de inventario en el sitio. |
+| Mostrar gastos de envío para artículos de línea | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero**, las líneas de pedido del carro mostrarán los gastos de envío, si esta información está disponible. Esta característica no es compatible con el tema Fabrikam porque los usuarios seleccionan el envío solo en el flujo de finalización de compra. Sin embargo, esta característica se puede activar en otros flujos de trabajo, si corresponde. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Módulos que se pueden usar en un módulo de carro
 
-- **Bloque de texto** : este módulo admite mensajería personalizada en el módulo de carro. Los mensajes se controlan mediante el sistema de gestión de contenidos (CMS). Se puede agregar cualquier mensaje, como “Si hubiera algún problema con el pedido, póngase en contacto con 1-800-Fabrikam”.
-- **Selector de tienda** : este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. Para obtener más información sobre este módulo, consulte [Módulo selector de tienda](store-selector.md).
+- **Bloque de texto**: este módulo admite mensajería personalizada en el módulo de carro. Los mensajes se controlan mediante el sistema de gestión de contenidos (CMS). Se puede agregar cualquier mensaje, como “Si hubiera algún problema con el pedido, póngase en contacto con 1-800-Fabrikam”.
+- **Selector de tienda**: este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. Para obtener más información sobre este módulo, consulte [Módulo selector de tienda](store-selector.md).
 
 ## <a name="module-properties"></a>Propiedades del módulo
 
-Las siguientes opciones de cmódulo de carro pueden configurarse en **Configuración de sitio \> Extensiones** :
+Las siguientes opciones de cmódulo de carro pueden configurarse en **Configuración de sitio \> Extensiones**:
 
-- **Cantidad máxima** : esta propiedad se usa para especificar el número máximo de cada artículo que se puede agregar al carro. Por ejemplo, un minorista puede decidir si solo 10 de cada producto se pueden vender en una única transacción.
-- **Inventario** : para obtener información sobre cómo aplicar la configuración de inventario, consulte [Aplicar configuración de inventario](inventory-settings.md).
-- **Volver a la compra** : esta propiedad se utiliza para especificar la ruta para el vínculo **Volver a la compra**. La ruta se puede configurar a nivel de sitio, lo que permite a los minoristas llevar al cliente de vuelta a la página de inicio o cualquier otra página del sitio.
+- **Cantidad máxima**: esta propiedad se usa para especificar el número máximo de cada artículo que se puede agregar al carro. Por ejemplo, un minorista puede decidir si solo 10 de cada producto se pueden vender en una única transacción.
+- **Inventario**: para obtener información sobre cómo aplicar la configuración de inventario, consulte [Aplicar configuración de inventario](inventory-settings.md).
+- **Volver a la compra**: esta propiedad se utiliza para especificar la ruta para el vínculo **Volver a la compra**. La ruta se puede configurar a nivel de sitio, lo que permite a los minoristas llevar al cliente de vuelta a la página de inicio o cualquier otra página del sitio.
 
 > [!IMPORTANT]
 > En la versión Dynamics 365 Commerce 10.0.14 y posteriores, los artículos del carro se agregan en función de la configuración definida en el perfil de funcionalidad en línea para la tienda en línea en la sede de Commerce. Para obtener más información sobre cómo crear un perfil de funcionalidad en línea y establecer las propiedades necesarias para la agregación, consulte [Crear un perfil de funcionalidad en línea](online-functionality-profile.md).
@@ -79,20 +79,20 @@ El módulo del carro recupera la información de producto mediante las API de Co
 Para agregar un módulo de carro a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
 1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
-1. En el cuadro de diálogo **Nuevo fragmento** , seleccione el módulo **Carrito**.
-1. En **Nombre del fragmento** , introduzca el nombre **Fragmento de carro** y luego seleccione **Aceptar**.
+1. En el cuadro de diálogo **Nuevo fragmento**, seleccione el módulo **Carrito**.
+1. En **Nombre del fragmento**, introduzca el nombre **Fragmento de carro** y luego seleccione **Aceptar**.
 1. Seleccione el espacio **Carro**.
 1. En el panel de propiedades de la derecha, seleccione el símbolo del lápiz, introduzca el texto del encabezado en el campo y luego seleccione el símbolo de marca de verificación.
-1. En el espacio **Carro** , seleccione los puntos suspensivos ( **...** ) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo** , seleccione el módulo **Selector de tienda** y elija **Aceptar**.
+1. En el espacio **Carro**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Selector de tienda** y elija **Aceptar**.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger el fragmento y luego seleccione **Publicar** para publicarlo.
 1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
-1. En el cuadro de diálogo **Nueva plantilla** , en **Nombre de plantilla** , introduzca un nombre para la plantilla.
-1. En el árbol de esquema, seleccione el espacio **Cuerpo** , luego los puntos suspensivos ( **...** ) y, a continuación, **Agregar fragmento**.
-1. En el cuadro de diálogo **Seleccionar fragmento** , seleccione el fragmento **Fragmento de carro** y, a continuación, seleccione **Aceptar**.
+1. En el cuadro de diálogo **Nueva plantilla**, en **Nombre de plantilla**, introduzca un nombre para la plantilla.
+1. En el árbol de esquema, seleccione el espacio **Cuerpo**, luego los puntos suspensivos (**...**) y, a continuación, **Agregar fragmento**.
+1. En el cuadro de diálogo **Seleccionar fragmento**, seleccione el fragmento **Fragmento de carro** y, a continuación, seleccione **Aceptar**.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
 1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
-1. En el cuadro de diálogo **Elegir una plantilla** , seleccione la plantilla creada anteriormente, introduzca un nombre de página y, a continuación, seleccione **Aceptar**.
+1. En el cuadro de diálogo **Elegir una plantilla**, seleccione la plantilla creada anteriormente, introduzca un nombre de página y, a continuación, seleccione **Aceptar**.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página.
 1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
@@ -107,6 +107,8 @@ Para agregar un módulo de carro a una página nueva y establecer las propiedade
 [Módulo de dirección de envío](ship-address-module.md)
 
 [Módulo de opciones de entrega](delivery-options-module.md)
+
+[Módulo de información de recogida](pickup-info-module.md)
 
 [Módulo de detalles del pedido](order-confirmation-module.md)
 

@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097148"
+ms.locfileid: "4415674"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Experimentación en Dynamics 365 Commerce
 Utilice la experimentación en Dynamics 365 Commerce para validar hipótesis sobre la eficacia de sus páginas de comercio electrónico y tomar decisiones con confianza basada en datos. Commerce admite pruebas A/B en páginas, módulos y fragmentos y le permite medir el impacto de los cambios propuestos en su sitio web.
@@ -31,7 +31,7 @@ Utilice la experimentación en Dynamics 365 Commerce para validar hipótesis sob
 Puede crear, editar y administrar tratamientos de contenido y página conocidos como **variaciones** en el generador de sitios de Commerce. Commerce se integra con servicios de terceros que puede utilizar para crear experimentos y asignaciones de tratamiento. Los flujos de eventos en tiempo real capturados en Commerce habilitan los análisis que definen los resultados del experimento en el servicio de terceros. Luego, puede aprovechar estos análisis para ayudar a respaldar o refutar su hipótesis.
 
 ## <a name="set-up-prerequisites"></a> Requisitos previos de configuración
-1. **Obtener la versión correcta de Commerce** : actualice su biblioteca de módulos, el kit de desarrollo de software (SDK) de extensibilidad de canales en línea y Commerce Scale Unit a la versión 10.0.13 o posterior de Commerce.
+1. **Obtener la versión correcta de Commerce**: actualice su biblioteca de módulos, el kit de desarrollo de software (SDK) de extensibilidad de canales en línea y Commerce Scale Unit a la versión 10.0.13 o posterior de Commerce.
 1. **Configurar un conector de experimentación** - Un conector de experimentación permite a Comercio conectarse con servicios de terceros para recuperar la lista de experimentos y determinar cuándo mostrar un experimento a un usuario. Puede adquirir un conector de terceros en [AppSource](https://appsource.microsoft.com). Siga las instrucciones de configuración proporcionadas por el editor. Alternativamente, puede utilizar el conector de prueba de muestra de Commerce para probar el flujo de trabajo de experimentación sin necesidad de configurar un servicio externo. Para más información, vea [Configurar y habilitar conectores](e-commerce-extensibility/connectors.md). 
 1. **Activar las banderas de funciones de experimentación en Commerce** - Puede habilitar la experimentación a nivel de inquilino yendo a **Configuración de inquilinos > Funciones** o en el nivel de sitio en **Configuración del sitio > Funciones**.
     - Habilite la marca **Experimentación** para crear variaciones experimentales de módulos dentro de una página sin afectar o copiar otro contenido que no es parte del experimento. Esto asegura que las actualizaciones de contenido en curso fuera del experimento permanezcan sincronizadas durante el ciclo de vida del experimento. La desactivación de esta marca impide que todos los experimentos se muestren a los usuarios y elimina todas las funciones de edición dentro del creador de sitios.

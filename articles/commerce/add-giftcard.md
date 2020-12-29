@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7d28e041b8adc828a2447ab09a0c1d28cc2aec0
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022014"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4415699"
 ---
 # <a name="gift-card-module"></a>Módulo de tarjeta de regalo
 
@@ -39,8 +39,8 @@ Los módulos de tarjetas de regalo se pueden usar para en módulos de pago para 
 
 Hay dos módulos de tarjetas de regalo disponibles:
 
-- **Tarjeta de regalo** : este módulo se puede utilizar en una página de pago para canjear una tarjeta de regalo como oferta. 
-- **Comprobación del saldo de la tarjeta de regalo** : este módulo se puede utilizar en cualquier página para comprobar el saldo de una tarjeta regalo. Este módulo está disponible en Commerce, versión 10.0.14 y posterior.
+- **Tarjeta de regalo**: este módulo se puede utilizar en una página de pago para canjear una tarjeta de regalo como oferta. 
+- **Comprobación del saldo de la tarjeta de regalo**: este módulo se puede utilizar en cualquier página para comprobar el saldo de una tarjeta regalo. Este módulo está disponible en Commerce, versión 10.0.14 y posterior.
 
 > [!NOTE]
 > La compatibilidad con el módulo de verificación de saldo de la tarjeta de regalo está disponible en Dynamics 365 Commerce 10.0.14.
@@ -61,7 +61,7 @@ Valores admitidos:
 
 ## <a name="site-settings-for-gift-card-modules"></a>Configuración del sitio para módulos de tarjetas de regalo
 
-En el creador de sitios de Commerce bajo **Configuraciones del sitio \> Extensiones** , hay una configuración de módulo de tarjeta de regalo llamada **Tipo de tarjeta de regalo compatible**. Esta configuración admite tres valores:
+En el creador de sitios de Commerce bajo **Configuraciones del sitio \> Extensiones**, hay una configuración de módulo de tarjeta de regalo llamada **Tipo de tarjeta de regalo compatible**. Esta configuración admite tres valores:
 - **Tarjeta de regalo de Dynamics 365** - Cuando se aplica esta configuración, el módulo de tarjeta de regalo solo permite canjear tarjetas de regalo de Dynamics 365. Esta configuración solo se admite para usuarios que hayan iniciado sesión en el sitio de comercio electrónico.
 - **Tarjetas de regalo SVS y Givex** - Cuando se aplica esta configuración, el módulo de tarjeta de regalo solo permite canjear tarjetas de regalo de Givex y SVS. Esta configuración se admite para usuarios anónimos y que hayan iniciado sesión en el sitio de comercio electrónico.
 - **Tarjetas de regalo Dynamics 365, SVS y Givex** - Cuando se aplica esta configuración, el módulo de tarjeta de regalo permite canjear tarjetas de regalo de Dynamics 365, Givex y SVS. Esta configuración solo se admite para usuarios que hayan iniciado sesión en el sitio de comercio electrónico.
@@ -86,6 +86,8 @@ Para obtener instrucciones sobre cómo agregar un módulo de tarjeta de regalo a
 [Módulo de dirección de envío](ship-address-module.md)
 
 [Módulo de opciones de entrega](delivery-options-module.md)
+
+[Módulo de información de recogida](pickup-info-module.md)
 
 [Módulo de detalles del pedido](order-confirmation-module.md)
 

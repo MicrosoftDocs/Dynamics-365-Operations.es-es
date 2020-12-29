@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a3e6450c358d12dc62c2ffa20e7ff529be86bbe5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379268"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415549"
 ---
 # <a name="store-inventory-management"></a>Gestión de inventario en tienda
 

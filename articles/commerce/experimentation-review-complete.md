@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097102"
+ms.locfileid: "4415678"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Promover una variación y completar un experimento
 
@@ -40,8 +40,8 @@ Para promocionar la variación ganadora, siga estos pasos.
 
 1. En el generador de sitios de Commerce, vaya a la pestaña **Experimentos** del panel de navegación izquierdo y seleccione el experimento.
 1. En la barra de comandos, seleccione **Experimento completo**.
-1. En el cuadro de diálogo **Completar el experimento** , seleccione **Revisar los datos del experimento**. Se abre el servicio de terceros donde puede validar las métricas y determinar qué variación se desempeñó mejor.
-1. En el menú del cuadro de diálogo **Completar el experimento** , seleccione la variación ganadora y, a continuación, seleccione **Siguiente**.
+1. En el cuadro de diálogo **Completar el experimento**, seleccione **Revisar los datos del experimento**. Se abre el servicio de terceros donde puede validar las métricas y determinar qué variación se desempeñó mejor.
+1. En el menú del cuadro de diálogo **Completar el experimento**, seleccione la variación ganadora y, a continuación, seleccione **Siguiente**.
 1. Abra el servicio de terceros y detenga el experimento.
 1. En el creador de sitios, seleccione **Completar** para sobrescribir la página en vivo original y publicar la variación ganadora para que esté disponible para todos los usuarios de su sitio web. 
 

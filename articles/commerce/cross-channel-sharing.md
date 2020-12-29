@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019527"
+ms.locfileid: "4415664"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Habilitar y usar el uso compartido entre canales
 
@@ -55,7 +55,7 @@ Para habilitar el uso compartido entre canales en el creador de sitios de Commer
 
     ![Opción de canal cruzado establecida en Activado en el creador de sitios de comercio](./media/enabling-cross-channel-sharing.png)
 
-Después de habilitar el uso compartido entre canales, la información entre canales aparecerá en la sección **Canales** de **Configuración del sitio \> Caracteristicas** , como muestra el ejemplo de la siguiente ilustración.
+Después de habilitar el uso compartido entre canales, la información entre canales aparecerá en la sección **Canales** de **Configuración del sitio \> Caracteristicas**, como muestra el ejemplo de la siguiente ilustración.
 
 ![Información de canales visible después de habilitar el uso compartido entre canales](./media/channels-cross-channel.png)
 
@@ -72,9 +72,9 @@ Puede crear y utilizar contenido multicanal de varias formas. Por ejemplo, puede
 Para crear un fragmento entre canales en el generador de sitios de Commerce, siga estos pasos.
 
 1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
-1. En el cuadro de diálogo **Nuevo fragmento** , seleccione el módulo **Banner promocional** y, en **Nombre del fragmento** , escriba un nombre (por ejemplo, **Banner transcanal** ). A continuación seleccione **Aceptar**.
-1. En el panel de propiedades del módulo **Banner promocional** , seleccione **Agregar mensaje** y luego seleccione **Mensaje**.
-1. En el cuadro de diálogo **Mensaje** , debajo de **Texto** , introduzca **Canal cruzado** y seleccione **Aceptar**. 
+1. En el cuadro de diálogo **Nuevo fragmento**, seleccione el módulo **Banner promocional** y, en **Nombre del fragmento**, escriba un nombre (por ejemplo, **Banner transcanal**). A continuación seleccione **Aceptar**.
+1. En el panel de propiedades del módulo **Banner promocional**, seleccione **Agregar mensaje** y luego seleccione **Mensaje**.
+1. En el cuadro de diálogo **Mensaje**, debajo de **Texto**, introduzca **Canal cruzado** y seleccione **Aceptar**. 
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
 Este fragmento de canal cruzado se puede utilizar en páginas de canal cruzado o específicas de canal que se crean en cualquier canal del sitio.
@@ -86,11 +86,11 @@ Las páginas multicanal se pueden utilizar en cualquier canal de su sitio. Por l
 Para crear una página multicanal en el creador de sitios de Commerce que utilice contenido multicanal, siga estos pasos.
 
 1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
-1. En el cuadro de diálogo **Elegir una plantilla** , seleccione una plantilla, como **Marketing**.
-1. En **Nombre de página** , especifique un nombre de página (por ejemplo, **Página entre canales** ).
-1. Debajo de **URL de la página** , ingrese la URL de una página (por ejemplo, **examplepage** ) y luego seleccione **Aceptar**.
-1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos ( **...** ) y, a continuación, **Agregar fragmento**.
-1. En el cuadro de diálogo **Agregar fragmento** , seleccione el fragmento transcanal que creó anteriormente y que tiene un banner promocional. A continuación, seleccione **Aceptar**.
+1. En el cuadro de diálogo **Elegir una plantilla**, seleccione una plantilla, como **Marketing**.
+1. En **Nombre de página**, especifique un nombre de página (por ejemplo, **Página entre canales**).
+1. Debajo de **URL de la página**, ingrese la URL de una página (por ejemplo, **examplepage**) y luego seleccione **Aceptar**.
+1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar fragmento**.
+1. En el cuadro de diálogo **Agregar fragmento**, seleccione el fragmento transcanal que creó anteriormente y que tiene un banner promocional. A continuación, seleccione **Aceptar**.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página. Debería ver el banner promocional que dice "Multicanal".
 1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
@@ -100,12 +100,12 @@ Al utilizar contenido multicanal en páginas específicas del canal, puede crear
 
 Para crear una página específica del icanal en el creador de sitios de Commerce que utilice contenido multicanal, siga estos pasos.
 
-1. Desde dentro de un canal específico, como **Tienda online ampliada Fabrikam** , vaya a **Páginas** y luego seleccione **Nuevo** para crear una nueva página.
-1. En el cuadro de diálogo **Elegir una plantilla** , seleccione una plantilla, como **Marketing**.
-1. En **Nombre de página** , especifique un nombre de página (por ejemplo, **Página específica del canal** ).
-1. Debajo de **URL de la página** , ingrese la URL de una página (por ejemplo, **channelspecificpage** ) y luego seleccione **Aceptar**.
-1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos ( **...** ) y, a continuación, **Agregar fragmento**.
-1. En el cuadro de diálogo **Agregar fragmento** , en **Canal** , seleccione **Tienda online transcanal**. El fragmento de canal cruzado que creó anteriormente debería aparecer en la lista. Selecciónelo y, a continuación, seleccione **Aceptar**.
+1. Desde dentro de un canal específico, como **Tienda online ampliada Fabrikam**, vaya a **Páginas** y luego seleccione **Nuevo** para crear una nueva página.
+1. En el cuadro de diálogo **Elegir una plantilla**, seleccione una plantilla, como **Marketing**.
+1. En **Nombre de página**, especifique un nombre de página (por ejemplo, **Página específica del canal**).
+1. Debajo de **URL de la página**, ingrese la URL de una página (por ejemplo, **channelspecificpage**) y luego seleccione **Aceptar**.
+1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar fragmento**.
+1. En el cuadro de diálogo **Agregar fragmento**, en **Canal**, seleccione **Tienda online transcanal**. El fragmento de canal cruzado que creó anteriormente debería aparecer en la lista. Selecciónelo y, a continuación, seleccione **Aceptar**.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página. Debería ver el banner promocional que dice "Multicanal".
 1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
@@ -119,10 +119,10 @@ Para crear una versión específica del canal de una página multicanal en el cr
 1. Abra la página multicanal que creó anteriormente.
 1. En el campo **Canal** en la parte superior derecha, seleccione el canal que debe tener contenido específico. El editor de página muestra un mensaje que le solicita que cree una nueva variante de página.
 1. Seleccione **Crear variante de página**.
-1. En el espacio **Principal** de la variante de página, seleccione los puntos suspensivos ( **...** ) y, a continuación, seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo** , seleccione el módulo **Banner promocional** y, a continuación, **Aceptar**.
-1. En el panel de propiedades del módulo **Banner promocional** , seleccione **Agregar mensaje** y luego seleccione **Mensaje**.
-1. En el cuadro de diálogo **Mensaje** , debajo de **Texto** , introduzca **Específico del canal** y seleccione **Aceptar**.
+1. En el espacio **Principal** de la variante de página, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Banner promocional** y, a continuación, **Aceptar**.
+1. En el panel de propiedades del módulo **Banner promocional**, seleccione **Agregar mensaje** y luego seleccione **Mensaje**.
+1. En el cuadro de diálogo **Mensaje**, debajo de **Texto**, introduzca **Específico del canal** y seleccione **Aceptar**.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página. Debería ver el banner promocional que dice "Específico del canal".
 1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 

@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097125"
+ms.locfileid: "4415673"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Obtener una vista previa y publicar un experimento
 
@@ -47,7 +47,7 @@ Si no está utilizando un grupo de publicación para programar cuándo se activa
 > Si la página tiene una URL no publicada, primero debe publicar la URL o no será visible para los usuarios de su sitio web. Para más detalles, consulte [Guardar, obtener una vista previa y publicar una página](save-preview-publish-page.md).
     
 ### <a name="use-publish-groups-to-schedule-when-your-experiment-goes-live"></a>Utilice grupos de publicación para programar cuándo se activa su experimento
-Las variaciones creadas en el creador de sitios se pueden programar para su publicación mediante un grupo de publicación. Dentro de un grupo de publicación, puede conectar una página o un fragmento a su experimento seleccionando **Experimentos** en el panel de navegación izquierdo. Para hacer esto también puede seleccionar **Páginas** o **Fragmentos** , y seguir las instrucciones de [Conectar un experimento y editar variaciones](experimentation-connect-edit.md). Para obtener información sobre los grupos de publicación, consulte [Trabajar con grupos de publicación](publish-groups.md).
+Las variaciones creadas en el creador de sitios se pueden programar para su publicación mediante un grupo de publicación. Dentro de un grupo de publicación, puede conectar una página o un fragmento a su experimento seleccionando **Experimentos** en el panel de navegación izquierdo. Para hacer esto también puede seleccionar **Páginas** o **Fragmentos**, y seguir las instrucciones de [Conectar un experimento y editar variaciones](experimentation-connect-edit.md). Para obtener información sobre los grupos de publicación, consulte [Trabajar con grupos de publicación](publish-groups.md).
 
 Al utilizar grupos de publicación con experimentos, hay algunas consideraciones importantes que debe tener en cuenta.
 - Cuando agrega una página o un fragmento que tiene un experimento en ejecución a un grupo de publicación, el experimento se eliminará de la página o el fragmento en el grupo de publicación.

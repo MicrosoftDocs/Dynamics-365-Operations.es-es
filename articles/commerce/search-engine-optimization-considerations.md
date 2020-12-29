@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961595"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415618"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Consideraciones de optimización de motor de búsqueda (SEO) para su sitio
 

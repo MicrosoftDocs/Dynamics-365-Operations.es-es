@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019573"
+ms.locfileid: "4415663"
 ---
 # <a name="work-with-fragments"></a>Trabajar con fragmentos 
 
@@ -62,9 +62,9 @@ Para convertir un módulo configurado anteriormente en un fragmento reutilizable
 
 1. Abra una página o una plantilla que contenga el módulo que desea convertir en un fragmento.
 1. En el panel de contorno a la izquierda o directamente en el generador de páginas visual, seleccione el módulo configurado previamente.
-1. Seleccione los puntos suspensivos ( **...** ) junto al módulo en el panel de contorno o en la barra de herramientas del módulo en el generador de páginas visual. 
+1. Seleccione los puntos suspensivos (**...**) junto al módulo en el panel de contorno o en la barra de herramientas del módulo en el generador de páginas visual. 
 1. Seleccione **Compartir como fragmento**. 
-1. En el cuadro de diálogo **Guardar como fragmento** , especifique un nombre para el fragmento.
+1. En el cuadro de diálogo **Guardar como fragmento**, especifique un nombre para el fragmento.
 1. Seleccione **Aceptar** para guardar la configuración del módulo como fragmento que se pueda agregar a otras páginas.
 <!-- The following image shows how to save a module configuration as a fragment.-->
 <!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
@@ -74,7 +74,7 @@ Para convertir un módulo configurado anteriormente en un fragmento reutilizable
 Para crear un fragmento nuevo en el generador de sitios de Commerce, siga estos pasos.
 
 1. En el panel de navegación de la izquierda, seleccione **Fragmentos**.
-1. Seleccione **Nuevo**. Aparece el cuadro de diálogo **Nuevo fragmento** , que muestra todos los tipos de módulos disponibles. Como se mencionó anteriormente, los fragmentos se pueden crear a partir de cualquier tipo de módulo.
+1. Seleccione **Nuevo**. Aparece el cuadro de diálogo **Nuevo fragmento**, que muestra todos los tipos de módulos disponibles. Como se mencionó anteriormente, los fragmentos se pueden crear a partir de cualquier tipo de módulo.
 1. Seleccione un tipo de módulo para su fragmento.
 
 <!-- The following image shows where to create a new fragment.-->
@@ -91,14 +91,14 @@ Los siguientes procedimientos describen cómo agregar, quitar y editar fragmento
 Para agregar un fragmento a una página en el generador de sitios de Commerce, siga estos pasos.
 
 1. En el panel de esquema de la izquierda o directamente en el generador de páginas visual, seleccione un contenedor o una franja a la que se pueda agregar módulos secundarios.
-1. Seleccione los puntos suspensivos ( **...** ) junto al nombre del contenedor o la franja.  Alternativamente, si usa el generador de páginas visual, seleccione el símbolo más ( **+** ).  
+1. Seleccione los puntos suspensivos (**...**) junto al nombre del contenedor o la franja.  Alternativamente, si usa el generador de páginas visual, seleccione el símbolo más (**+**).  
 1. Seleccione **Agregar fragmento**.
     <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Si el contenedor o la franja no admiten nuevos módulos secundarios, la opción **Agregar fragmento** no está disponible.
     
-1. En el cuadro de diálogo **Seleccionar fragmento** , busque y seleccione un fragmento para agregarlo. Si no se muestran fragmentos disponibles, es posible que tenga que crear primero un fragmento de un tipo de módulo que la franja o el contenedor seleccionado admita.
+1. En el cuadro de diálogo **Seleccionar fragmento**, busque y seleccione un fragmento para agregarlo. Si no se muestran fragmentos disponibles, es posible que tenga que crear primero un fragmento de un tipo de módulo que la franja o el contenedor seleccionado admita.
 1. Seleccione el fragmento que desee para agregarlo a la franja o al contenedor seleccionado de su página.
 <!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
@@ -109,7 +109,7 @@ Para agregar un fragmento a una página en el generador de sitios de Commerce, s
 
 Para quitar un fragmento de una franja o un contenedor en una página del generador de sitios de Commerce, siga estos pasos.
 
-1. En el panel de esquema de la izquierda, seleccione el botón de puntos suspensivos ( **...** ) que se encuentra junto al fragmento que se va a eliminar y, a continuación, seleccione el símbolo de papelera.  Alternativamente, puede seleccionar el fragmento en el generador de páginas visual y seleccionar el símbolo de la papelera en la barra de herramientas del fragmento.
+1. En el panel de esquema de la izquierda, seleccione el botón de puntos suspensivos (**...**) que se encuentra junto al fragmento que se va a eliminar y, a continuación, seleccione el símbolo de papelera.  Alternativamente, puede seleccionar el fragmento en el generador de páginas visual y seleccionar el símbolo de la papelera en la barra de herramientas del fragmento.
 1. Cuando se le pida confirmar que desea quitar el fragmento, seleccione **Aceptar**.
 
 > [!NOTE]
@@ -122,7 +122,7 @@ Para editar fragmentos, debe usar la interfaz de usuario del editor de fragmento
 Para editar un fragmento en el generador de sitios de Commerce, siga estos pasos.
 
 1. En el panel de navegación de la izquierda, seleccione **Fragmentos**.
-1. En **Fragmentos** , seleccione el fragmento que se editará.
+1. En **Fragmentos**, seleccione el fragmento que se editará.
 1. Edite la estructura y las propiedades del módulo del fragmento según sea necesario. El proceso es similar al que se usa para editar módulos en la vista del editor de páginas.
 
 También puede editar un fragmento seleccionándolo en una página, en una plantilla o en un fragmento principal y, a continuación, seleccionando **Editar fragmento** en el panel de propiedades de la derecha.

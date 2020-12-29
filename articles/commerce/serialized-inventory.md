@@ -17,11 +17,11 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: bf3a6a2b713e5fe1fe22ae886080945e7a87c9b2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023960"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415652"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Mejoras en el punto de venta (PDV) para productos serializados
 

@@ -18,11 +18,11 @@ ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
 ms.openlocfilehash: b221bfede5d1db8d7970e1efede85e8dba7fe017
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124391"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415415"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurar la integración fiscal para canales de Commerce
 
@@ -129,7 +129,7 @@ Antes de usar la funcionalidad de la integración fiscal, debe configurar los va
 
 6. Asigne entidades del proceso de registro fiscal a perfiles PDV.
 
-    1. En la página **Perfiles de funcionalidad del PDV** (**Retail y Commerce \> Configuración del canal \> Configuración de PDV \> Perfiles de PDV \> Perfiles de funcionalidad**), asigne el proceso de registro fiscal a un perfil de funcionalidad de PDV. Seleccione **Editar**y, a continuación, en la pestaña **Proceso de registro fiscal** , en el campo **Número de proceso** , seleccione un proceso.
+    1. En la página **Perfiles de funcionalidad del PDV** (**Retail y Commerce \> Configuración del canal \> Configuración de PDV \> Perfiles de PDV \> Perfiles de funcionalidad**), asigne el proceso de registro fiscal a un perfil de funcionalidad de PDV. Seleccione **Editar** y, a continuación, en la pestaña **Proceso de registro fiscal** , en el campo **Número de proceso** , seleccione un proceso.
     2. En la página **Perfil de hardware del PDV** (**Retail y Commerce \> Configuración del canal \> Configuración de PDV \> Perfiles de PDV \> Perfiles de hardware**), asigne perfiles técnicos de conector a un perfil de hardware. Seleccione **Editar**, agregue una línea en la pestaña **Periféricos fiscales** y, a continuación, en el campo **Número de perfil** , seleccione un perfil técnico de conector.
 
     > [!NOTE]
@@ -156,7 +156,7 @@ Antes de usar la funcionalidad de la integración fiscal, debe configurar los va
 
 En algunos casos, un texto especial se debe imprimir en un recibo fiscal si se aplica un descuento. Puede configurar textos fiscales para descuentos en la página **Grupo fiscal de conectores** (**Retail y Commerce \> Configuración del canal \> Integración fiscal \> Grupos de conectores fiscales**).
 
-- Para descuentos manuales que se aplican en el PDV, debe configurar un texto fiscal para el código información o el grupo de códigos de información especificado como código de información de **Descuento del producto**en el perfil de funcionalidad del PDV.
+- Para descuentos manuales que se aplican en el PDV, debe configurar un texto fiscal para el código información o el grupo de códigos de información especificado como código de información de **Descuento del producto** en el perfil de funcionalidad del PDV.
 
     1. En la página **Grupo del conector fiscal** , seleccione **Texto de recibo fiscal**.
     2. En la pestaña **Códigos de información** , seleccione **Agregar**, y seleccione un código de información o un grupo de códigos de información.

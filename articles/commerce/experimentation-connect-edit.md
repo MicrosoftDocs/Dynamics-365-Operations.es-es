@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096976"
+ms.locfileid: "4415675"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Conectar un experimento y editar variaciones
 
@@ -60,13 +60,13 @@ Para conectar su experimento, iniciará el asistente **Conectar experimento**. E
 
 Para empezar a conectar su experimento en el generador de sitios de Commerce, siga estos pasos.
 
-1. Para iniciar el asistente **Conectar experimento** , seleccione **Experimentos** en el panel de navegación izquierdo y, a continuación, seleccione **Conectar**. Como alternativa, puede acceder al asistente desde una página o editor de fragmentos editándolo y seleccionando **Conectar experimento** en la barra de comandos.
+1. Para iniciar el asistente **Conectar experimento**, seleccione **Experimentos** en el panel de navegación izquierdo y, a continuación, seleccione **Conectar**. Como alternativa, puede acceder al asistente desde una página o editor de fragmentos editándolo y seleccionando **Conectar experimento** en la barra de comandos.
 
     > [!NOTE]
     > Una página solo se puede conectar a un experimento a la vez. Para conectar una página a un experimento diferente, primero elimine el experimento al que está conectada actualmente la página.
 
 1. Elija la página o el fragmento en el que desea ejecutar su experimento.
-1. Establezca el alcance de la experimentación en **parcial** o **total** , según la elección que hizo en la sección anterior [Determinar el alcance de su experimento](#determine-the-scope-of-your-experiment).
+1. Establezca el alcance de la experimentación en **parcial** o **total**, según la elección que hizo en la sección anterior [Determinar el alcance de su experimento](#determine-the-scope-of-your-experiment).
     > [!NOTE]
     > El indicador de la característica **Experimentar con páginas o fragmentos** debe estar habilitado si desea experimentar en una página completa o en un fragmento. Para obtener más información, consulte el tema [Experimención en Dynamics 365 Commerce](experimentation-overview.md).
     
@@ -84,7 +84,7 @@ Siga estos pasos si definió el alcance de su experimento como **parcial** en el
 1. Seleccione el módulo en el que se va a experimentar, seleccione los puntos suspensivos (...) y luego seleccione **Agregar al experimento**.
 
 ### <a name="edit-variations-for-experiments-with-entire-scope"></a>Editar variaciones para experimentos con alcance total
-Si definió el alcance de su experimento como **total** en el asistente **Conectar experimento** , mientras está en la vista de editor, use el menú desplegable de variaciones debajo de la barra de comandos para editar cada variación en función de su hipótesis original. 
+Si definió el alcance de su experimento como **total** en el asistente **Conectar experimento**, mientras está en la vista de editor, use el menú desplegable de variaciones debajo de la barra de comandos para editar cada variación en función de su hipótesis original. 
 
 > [!NOTE]
 > En cualquier caso, también es posible que desee establecer una variación de control o base dejando una de las variaciones sin cambios.

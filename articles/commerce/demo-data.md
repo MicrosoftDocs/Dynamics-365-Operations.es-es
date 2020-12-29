@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014895"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4415691"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Diseños de pantalla de datos de demostración en Modern POS (MPOS) y Cloud POS
 
@@ -64,6 +64,7 @@ Los id. de diseño de pantalla pueden tener un máximo de 10 caracteres. El iden
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | La versión base que admite varios tamaños de pantalla para distintos dispositivos y relaciones de aspecto |
 | 3.1            | La versión base que tiene soporte adicional para el panel **Productos recomendados**        |
+| 4              | La versión extendida para el diseño actualizado de Fabrikam extendido                                  |
 
 ### <a name="persona"></a>Rol
 
@@ -75,9 +76,9 @@ Los id. de diseño de pantalla pueden tener un máximo de 10 caracteres. El iden
 
 ### <a name="example-layout"></a>Diseño de ejemplo
 
-A continuación se ofrece un ejemplo de un identificador de diseño de pantalla para la empresa Fabrikam, versión de diseño 3, y el rol Encargado de tienda:
+A continuación se ofrece un ejemplo de un identificador de diseño de pantalla para la empresa Fabrikam, versión de diseño 4, y el rol Encargado de tienda:
 
-F3MGR
+F4MGR
 
 La ilustración siguiente muestra un ejemplo de la pantalla de bienvenida para un encargado de tienda de Fabrikam.
 
@@ -102,7 +103,8 @@ En la tabla siguiente se muestran los tamaños de diseño que se ofrecen para re
 | Completo        | 1024 × 768 | 4:3          | Tabletas                 |
 | Completo\*      | 1280 × 720 | 16:9         | Tabletas                 |
 | Completo        | 1366 × 768 | 16:9         | Tabletas, pantallas más grandes |
-| Completo        | 1440 × 960 | 3:2          | Tabletas, pantallas más grandes |
+| Completa        | 1440 × 960 | 3:2          | Tabletas, pantallas más grandes |
+| Completa\*      | 1536 × 864 | 16:9         | Tabletas, pantallas más grandes |
 
 \* Estos tamaños de diseño adicionales solo están disponibles en los diseños de Adventure Works y de Fabrikam.
 
@@ -120,7 +122,7 @@ Cada compañía ficticia está dirigida a un segmento de venta minorista distint
 | Compañía         | Ubicación | Segmento        | Énfasis | Tema |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Seattle  | Artículos deportivos | Azul   | Oscuro  |
-| Fabrikam        | Houston  | Moda        | Verde  | Claro |
+| Fabrikam        | San Francisco  | Moda        | Verde  | Claro |
 | Contoso         | Boston   | Electrónica    | Rojo    | Oscuro  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ Se han proporcionado usuarios para los distintos diseños de pantalla. Mediante 
 | Adventure Works | A3MGR            | Encargado de tienda | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Cajero       | 000150, 000175, 000165 |
 | Adventure Works | A3STK            | Reponedor   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Encargado de tienda | 000160, 000168, 000163 |
+| Fabrikam        | F4MGR            | Encargado de tienda | 000160, 000713         |
 | Fabrikam        | F3CSH            | Cajero       | 000161, 000113, 000114 |
 | Fabrikam        | F3STK            | Reponedor   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Encargado de tienda | 000100, 000111         |

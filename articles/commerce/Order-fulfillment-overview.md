@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107216"
+ms.locfileid: "4415684"
 ---
 # <a name="store-order-fulfillment"></a>Cumplimiento de pedido de almacén
 
@@ -54,7 +54,7 @@ La operación de cumplimiento de pedidos muestra sólo los pedidos que van a ser
 
 ## <a name="line-selection"></a>Selección de línea
 
-Las líneas se pueden seleccionar mediante la función **Seleccionar** en el panel de acciones. Cuando se habilita **Seleccionar** , varias líneas se pueden seleccionar para procesar. Puede eliminar las líneas seleccionadas haciendo clic de nuevo en la misma línea.
+Las líneas se pueden seleccionar mediante la función **Seleccionar** en el panel de acciones. Cuando se habilita **Seleccionar**, varias líneas se pueden seleccionar para procesar. Puede eliminar las líneas seleccionadas haciendo clic de nuevo en la misma línea.
 
 ## <a name="line-details"></a>Detalles de línea
 
@@ -64,9 +64,9 @@ Si se seleccionan varias líneas, el menú flotante de los detalles de la línea
 
 ## <a name="pending-order-lines"></a>Líneas de pedido pendientes
 
-El cumplimiento unificado del pedido incluye la capacidad de aceptar pedidos manualmente. De forma predeterminada, los pedidos para el cumplimiento en el almacén ya están aceptados. Sin embargo, si los procesos de negocio dictan que un trabajador en el nivel del almacén debe aceptar pedidos, la aceptación manual se puede cambiar a un nivel de almacén minorista. Para habilitar la aceptación de pedido, vaya a **Retail y Commerce** \> **Canales** \> **Tiendas** \> **Todas las tiendas**. Abra el almacén deseado y, en la pestaña **General** , ubique el encabezado secundario **Cumplimiento del pedido**. Este encabezado secundario tiene una opción **Aceptación manual** que está establecida en **No** de forma predeterminada. Al establecer esta opción en **Sí** y sincronizando los cambios en la base de datos del canal, las líneas de pedido pueden pasar por el proceso de aceptación.
+El cumplimiento unificado del pedido incluye la capacidad de aceptar pedidos manualmente. De forma predeterminada, los pedidos para el cumplimiento en el almacén ya están aceptados. Sin embargo, si los procesos de negocio dictan que un trabajador en el nivel del almacén debe aceptar pedidos, la aceptación manual se puede cambiar a un nivel de almacén minorista. Para habilitar la aceptación de pedido, vaya a **Retail y Commerce** \> **Canales** \> **Tiendas** \> **Todas las tiendas**. Abra el almacén deseado y, en la pestaña **General**, ubique el encabezado secundario **Cumplimiento del pedido**. Este encabezado secundario tiene una opción **Aceptación manual** que está establecida en **No** de forma predeterminada. Al establecer esta opción en **Sí** y sincronizando los cambios en la base de datos del canal, las líneas de pedido pueden pasar por el proceso de aceptación.
 
-Los trabajadores con el permiso **Permitir aceptación de pedido** pueden abrir cumplimiento de pedidos y seleccionar las líneas para la aceptación. Una vez que se hayan aceptado las líneas, cambian el estado de **Pendiente** a **Aceptado** y el resto del proceso de cumplimiento pueden puede continuar. Cuando está activado la **Aceptación manual** , los pedidos no serán procesadas hasta que se hayan aceptado.
+Los trabajadores con el permiso **Permitir aceptación de pedido** pueden abrir cumplimiento de pedidos y seleccionar las líneas para la aceptación. Una vez que se hayan aceptado las líneas, cambian el estado de **Pendiente** a **Aceptado** y el resto del proceso de cumplimiento pueden puede continuar. Cuando está activado la **Aceptación manual**, los pedidos no serán procesadas hasta que se hayan aceptado.
 
 Los pedidos para la recogida en almacén nunca tienen el estado **Pendiente**. Esto se hace para evitar un escenario en el que un cliente llegue al almacén y la línea de pedido no se pueda procesar porque un trabajador con el privilegio adecuado no esté disponible.
 
@@ -84,14 +84,14 @@ La categoría de acciones **Seleccionar** se ofrece para ayudar en el proceso de
 
 **Acción: Selección**
 
-- **Estado resultante de PDV** : Seleccionado
+- **Estado resultante de PDV**: Seleccionado
 - **Estado resultante de back-office:** Ningún cambio
 
 Una vez aceptado un pedido, las líneas se pueden seleccionar y marcar como **Seleccionado**. Marcar una línea como **Seleccionado** es una forma de indicar que el trabajo de selección se está realizando ya en una línea. Esto impide que intenten dos trabajadores seleccionar las mismas líneas de pedido al mismo tiempo.
 
 **Acción: Imprimir lista de selección**
 
-- **Estado resultante** : Seleccionado
+- **Estado resultante**: Seleccionado
 - **Estado resultante de back-office:** Ningún cambio
 
 Las listas de selección se pueden imprimir en el punto de venta para ayudar a los trabajadores a realizar el proceso de selección. Una lista de selección impresa se puede llevar con el trabajador que realiza la selección y según se seleccionan los productos, el trabajador las marcaría manualmente como seleccionado en la lista de selección.
@@ -111,7 +111,7 @@ Cuando los pedidos se procesan en el tiempo, las cantidades parciales se pueden 
 
 Si una línea de pedido se selecciona por error, el proceso de deshacer se debe realizar en la línea de pedido en back-office. No existen actualmente ninguna acción de deshacer en el punto de venta.
 
-Las líneas de pedido de diferentes pedidos se pueden seleccionar y marcar como **Seleccionado** , imprimir en la misma lista de selección, o marcar como **Seleccionado**.
+Las líneas de pedido de diferentes pedidos se pueden seleccionar y marcar como **Seleccionado**, imprimir en la misma lista de selección, o marcar como **Seleccionado**.
 
 ### <a name="pack"></a>Paquete
 
@@ -180,7 +180,7 @@ Las líneas o las líneas parciales se pueden rechazar. Esto permite que se reas
 - **Estado resultante:** Rechazado
 - **Estado resultante de back-office:** Ningún cambio
 
-Las líneas de pedido rechazadas se pueden ver en el área de trabajo **Procesamiento y consulta de pedido de ventas**. Borrar el filtro de la persona en el área de trabajo para ver todas las líneas de pedido rechazadas a través de los almacenes. La pestaña **Líneas de pedido rechazadas** en la sección **Pedidos y favoritos** muestra los detalles de la línea de pedido. Además, los usuarios pueden hacer clic en el botón **Líneas de pedido rechazadas** en la sección **Resumen** para navegar a una vista de pedido de ventas. Esto muestra todos los pedidos que tengan una o más líneas de pedido rechazadas. Si se habilita la administración distribuida del pedido (DOM), esos pedidos rechazados se reasignan automáticamente a los almacenes apropiados para el cumplimiento, sin embargo, estas líneas de pedido pueden asignarse manualmente también. Para ello, seleccione la línea que muestra el **Estado de cumplimiento** como **Rechazado** y modifique el sitio/almacén según sea necesario. Haga clic en el menú **Actualizar líneas** y haga click en **Restablecer estado de cumplimiento** para cambiar el estado de cumplimiento de **Rechazado** **Aceptado** o **Pendiente** , en función de la configuración de cumplimiento. Una vez que restablezca el estado de cumplimiento, los trabajadores del almacén podrán ver las líneas de pedido en PDV.
+Las líneas de pedido rechazadas se pueden ver en el área de trabajo **Procesamiento y consulta de pedido de ventas**. Borrar el filtro de la persona en el área de trabajo para ver todas las líneas de pedido rechazadas a través de los almacenes. La pestaña **Líneas de pedido rechazadas** en la sección **Pedidos y favoritos** muestra los detalles de la línea de pedido. Además, los usuarios pueden hacer clic en el botón **Líneas de pedido rechazadas** en la sección **Resumen** para navegar a una vista de pedido de ventas. Esto muestra todos los pedidos que tengan una o más líneas de pedido rechazadas. Si se habilita la administración distribuida del pedido (DOM), esos pedidos rechazados se reasignan automáticamente a los almacenes apropiados para el cumplimiento, sin embargo, estas líneas de pedido pueden asignarse manualmente también. Para ello, seleccione la línea que muestra el **Estado de cumplimiento** como **Rechazado** y modifique el sitio/almacén según sea necesario. Haga clic en el menú **Actualizar líneas** y haga click en **Restablecer estado de cumplimiento** para cambiar el estado de cumplimiento de **Rechazado** **Aceptado** o **Pendiente**, en función de la configuración de cumplimiento. Una vez que restablezca el estado de cumplimiento, los trabajadores del almacén podrán ver las líneas de pedido en PDV.
 
 ## <a name="line-quantity-tracking"></a>Seguimiento de la cantidad de las líneas
 
@@ -192,7 +192,7 @@ Si se sigue el ejemplo anterior, si marcan 200 tablas como empaquetadas y se sel
 
 ## <a name="line-statuses"></a>Estados de las líneas
 
-Las líneas de pedido en el punto de venta tienen varios estados para reflejar el estado de la línea de pedido. Los estados en el punto de venta y en back-office no coinciden en todos los casos. El estado de la línea de pedido se puede visualizar a través del punto de venta mediante las operaciones de cumplimiento de pedido. En el back-office, las líneas de pedido se pueden ver desde los detalles del pedido. Se puede acceder a los detalles del pedido a través de **Retail y Commerce** \> **Clientes** \> **Todos los pedidos de cliente**. Seleccione **Identificador de pedido** para ver los detalles del pedido. Desde los detalles de pedido seleccione la pestaña **Pedido de ventas** , a continuación seleccione **Estado detallado** bajo el subtítulo **Ver**.
+Las líneas de pedido en el punto de venta tienen varios estados para reflejar el estado de la línea de pedido. Los estados en el punto de venta y en back-office no coinciden en todos los casos. El estado de la línea de pedido se puede visualizar a través del punto de venta mediante las operaciones de cumplimiento de pedido. En el back-office, las líneas de pedido se pueden ver desde los detalles del pedido. Se puede acceder a los detalles del pedido a través de **Retail y Commerce** \> **Clientes** \> **Todos los pedidos de cliente**. Seleccione **Identificador de pedido** para ver los detalles del pedido. Desde los detalles de pedido seleccione la pestaña **Pedido de ventas**, a continuación seleccione **Estado detallado** bajo el subtítulo **Ver**.
 
 - Las líneas de pedido **Pendiente** que se han asignado a un almacén, pero aún no se han aceptado tienen el estado **Pendiente** cuando se visualizan en el punto de venta. Las líneas pendientes de aceptación en el punto de venta tendrán el estado **Procesamiento de pedido** en back-office.
 - Las líneas de pedido **Aceptado** que se han aceptado manual o automáticamente tendrán el estado **Aceptado** cuando se visualicen en el punto de venta. Las líneas con el estado **Aceptado** se muestren como **Procesamiento de pedido** en back-office.
@@ -204,7 +204,7 @@ Las líneas de pedido en el punto de venta tienen varios estados para reflejar e
 
 ## <a name="order-fulfillment-filtering"></a>Filtrado de cumplimiento de pedido
 
-El cumplimiento de pedido en el punto de venta incluye un filtrado para ayudar al usuario a buscar fácilmente lo que necesite. Los filtros se pueden cambiar a través del panel de acciones de la parte inferior de la pantalla de **Punto de venta**. De forma predeterminada, un filtro **Tipo de entrega** se aplica, en función de cómo se haya configurado la operación. Si la operación está configurada con el parámetro **Todos los pedidos** , se aplica dicho filtro al acceder al cumplimiento de pedido. Lo mismo aplica a los parámetros **Recogida de almacén** y **Envío desde almacén**. Otros filtros que se pueden aplicar a la vista de cumplimiento de pedido incluye:
+El cumplimiento de pedido en el punto de venta incluye un filtrado para ayudar al usuario a buscar fácilmente lo que necesite. Los filtros se pueden cambiar a través del panel de acciones de la parte inferior de la pantalla de **Punto de venta**. De forma predeterminada, un filtro **Tipo de entrega** se aplica, en función de cómo se haya configurado la operación. Si la operación está configurada con el parámetro **Todos los pedidos**, se aplica dicho filtro al acceder al cumplimiento de pedido. Lo mismo aplica a los parámetros **Recogida de almacén** y **Envío desde almacén**. Otros filtros que se pueden aplicar a la vista de cumplimiento de pedido incluye:
 
 - Número de cliente
 - Nombre de cliente

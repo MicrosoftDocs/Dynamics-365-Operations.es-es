@@ -18,11 +18,11 @@ ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3274197"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415456"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Características y funcionalidades de accesibilidad
 

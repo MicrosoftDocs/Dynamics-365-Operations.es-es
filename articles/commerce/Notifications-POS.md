@@ -18,11 +18,11 @@ ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: e663a5dca76d570217b7e02444689a2e2d312c41
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975180"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415444"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificaciones de pedidos en el punto de venta (PDV)
 
@@ -44,7 +44,7 @@ Para habilitar las notificaciones de las operaciones de cumplimiento de pedido, 
     Las notificaciones solo se muestran para las operaciones que se agregan en la pestaña desplegable **Notificaciones**, y puede agregar operaciones solo si se ha seleccionado la casilla **Habilitar notificaciones** para dichas operaciones en la página **Operaciones de PDV**. Además, las notificaciones para una operación se muestran a los trabajadores solo si la operación se agrega a los permisos de PDV para esos trabajadores.
 
     > [!NOTE]
-    > Las notificaciones se pueden anular en el nivel de usuario. Abra el registro del trabajador, seleccione **Permisos de PDV**y, a continuación, edite la suscripción de notificación del usuario.
+    > Las notificaciones se pueden anular en el nivel de usuario. Abra el registro del trabajador, seleccione **Permisos de PDV** y, a continuación, edite la suscripción de notificación del usuario.
 
 4. Vaya a **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de funcionalidad**. En el campo **Intervalo de la notificación**, especifique con qué frecuencia deben extraerse las notificaciones. Para algunas notificaciones, el PDV debe realizar llamadas en tiempo real a la aplicación de la oficina administrativa. Estas llamadas consumen la capacidad de cálculo de la aplicación de su oficina administrativa. Por lo tanto, al configurar el intervalo de la notificación, debe tener en cuenta sus requisitos empresariales y el impacto de las llamadas en tiempo real a la aplicación de la oficina administrativa. Un valor de **0** (cero) desactiva las notificaciones.
 5. Vaya a **Retail y Commerce** &gt; **TI de Retail y Commerce** &gt; **Programación de distribución**. Seleccione la programación **1060** (**Personal**) para sincronizar la configuración de la suscripción de la notificación y, a continuación, seleccione **Ejecutar ahora**. A continuación, seleccione la programación **1070** (**Configuración de canal**) para sincronizar el intervalo del permiso y seleccione **Ejecutar ahora**.

@@ -18,11 +18,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071575"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415437"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configurar clasificaciones y revisiones
 

@@ -18,11 +18,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 1cab31784db9f3242dce20e98762088436a5a8f8
-ms.sourcegitcommit: 80cbb7d22267aa6a0ae0568d0063fb95556958a5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036841"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415598"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Crear listas de tareas y agregar tareas
 
@@ -43,7 +43,7 @@ Tanto los gerentes como los trabajadores pueden crear listas de tareas en la ofi
 Para crear una lista de tareas, siga estos pasos.
 
 1. Vaya a **Retail y Commerce \> Administración de tareas \> Administración de tareas**.
-1. Seleccione **Nueva**y luego introduzca valores en los campos **Nombre**, **Descripción** y **Propietario**.
+1. Seleccione **Nueva** y luego introduzca valores en los campos **Nombre**, **Descripción** y **Propietario**.
 1. Seleccione **Guardar**.
 
 ## <a name="add-tasks-to-a-task-list"></a>Agregar tareas a una lista de tareas
