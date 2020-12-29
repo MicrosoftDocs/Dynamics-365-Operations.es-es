@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f641d75e06b11ca325d2624f836fc2a7c92d69e4
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138408"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447510"
 ---
 # <a name="establish-customer-payment-terms"></a>Establecer condiciones de pago de cliente
 

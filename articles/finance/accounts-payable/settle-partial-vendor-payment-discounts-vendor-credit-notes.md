@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 923ab0305ac75c1156984c7a6d051f036479a16d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179846"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447449"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidar un pago de proveedor parcial con descuentos en notas de abono de proveedor
 
@@ -58,7 +58,7 @@ April hace clic en **Registrar**. A continuación, revisa la liquidación comple
 | Seleccionado y resaltado | Normal            | Inv-10070 | 3050    | 29/6/2015 | 29/7/2015 | 10070    | -1.000,00                      | USD      | -200,00          |
 | Seleccionado                 | Normal            | CR-10070  | 3050    | 2/7/2015  | 29/7/2015 | CR-10070 | 200,00                         | USD      | 198,00           |
 
-April puede revisar las transacciones del proveedor en la página **Transacciones de proveedor** seleccionando un proveedor en la página **Todos los proveedores**y continuación, en el panel de acciones, hacer clic en **Transacciones**. En esta página, April observa que la factura tiene un saldo de -800,00. También observa una nota de abono de 198,00 y un descuento de 2,00.
+April puede revisar las transacciones del proveedor en la página **Transacciones de proveedor** seleccionando un proveedor en la página **Todos los proveedores** y continuación, en el panel de acciones, hacer clic en **Transacciones**. En esta página, April observa que la factura tiene un saldo de -800,00. También observa una nota de abono de 198,00 y un descuento de 2,00.
 
 | Comprobante    | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo | Divisa |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

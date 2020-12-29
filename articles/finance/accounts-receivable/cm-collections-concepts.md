@@ -16,11 +16,11 @@ ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8bee320beb411a5ee0829a0e3170de0c7f293172
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124240"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447571"
 ---
 # <a name="collections-management-key-concepts"></a>Conceptos clave de la administración de cobros
 
@@ -49,7 +49,7 @@ El encabezado de instantánea de vencimientos contiene el importe vencido total,
 
 Para cada período de vencimiento de la definición de período de vencimiento, se crea un registro de detalle de la instantánea de vencimientos. Cada registro de detalles contiene el id. del período de vencimiento y el importe total de las transacciones que tienen las fechas en el período de vencimiento. Las transacciones tienen asignado un período de vencimiento, como 30 días pasados desde el vencimiento. La fecha es relativa al valor de fecha de **Vencimiento a partir de** que se especifica al crear la instantánea de vencimientos. Esta información se muestra en la página de lista **Saldos vencidos** y en el cuadro informativo **Saldos vencidos** de la página **Cobros**.
 
-## <a name="collections-customer-pools"></a> Secciones de cobros de clientes
+## <a name="collections-customer-pools"></a>Secciones de cobros de clientes
 
 Las secciones de clientes son consultas que definen un grupo de registros de clientes. Puede usar estos registros agrupados para ver información de las cuentas de cliente que se incluyen y para administrar cobros o procesos de vencimiento para ellos. Puede usar las secciones de clientes para filtrar información en las página de lista de cobros. También pueden usarlas para filtrar las cuentas de cliente que se incluyen al crear instantáneas de vencimientos.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: a1e3305bff99fa39240176ac9fc7aaee84b98e6c
-ms.sourcegitcommit: be51e892003778e71b67fb409a8e16965c89b5ac
+ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618420"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4447826"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizar propuestas de pago a proveedores
 
@@ -102,7 +102,7 @@ Después de crear la serie de automatización de propuestas de pago de proveedor
 
 [![Vista semanal de automatización de procesos en el espacio de trabajo de pagos a proveedores](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
-La vista semanal de automatización de procesos en el espacio de trabajo **Pagos a proveedores** muestra solo las automatizaciones de propuestas de pago a proveedores. Muestra todas las ocurrencias de pagos de la semana actual, para todas las entidades jurídicas para las que el usuario que inició sesión tiene permisos de seguridad. Por ejemplo, si el empleado de pagos de AP es responsable de los pagos en las empresas USMF y USSI, verá las ocurrencias de la automatización de la propuesta de pago a proveedor para esas dos empresas, empresas pero no las de otras empresas.
+La vista semanal de automatización de procesos en el espacio de trabajo **Pagos a proveedores** muestra solo las automatizaciones de propuestas de pago a proveedores. Muestra todas las ocurrencias de pagos de la semana actual, para todas las entidades jurídicas para las que el usuario que inició sesión tiene permisos de seguridad. Por ejemplo, si el empleado de pagos de AP es responsable de los pagos en las empresas USMF y USSI, verá las ocurrencias de la automatización de la propuesta de pago a proveedor para esas dos empresas, pero no para otras empresas.
 
 [![Vista semanal de automatización de procesos para las empresas USMF y USSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
@@ -128,7 +128,7 @@ Después de eliminar un pago, las facturas se abrirán nuevamente para el pago. 
 
 ## <a name="edit-a-vendor-payment-proposal-automation"></a>Editar una automatización de propuesta de pago a proveedor
 
-El marco de automatización de procesos le permite editar el pago, la serie y las ocurrencias que se crean para la propuesta de pago. La serie se puede editar desde la página **Automatización de procesos** o la vista semanal de automatización de procesos. Por ejemplo, si el gerente de AP decide generar todos los cheques para proveedores nacionales el miércoles en lugar del lunes, puede encontrar una ocurrencia en la vista semanal y seleccionar **Ver/Editar - Serie**. Si edita una serie, el sistema le solicita que especifique si el cambio debe realizarse en todas las ocurrencias existentes o solo en las nuevas. Las ocurrencias históricas que ya tienen un estado de **Completado** o que terminaron con estado de **Error** no se cambiarán.
+El marco de automatización de procesos le permite editar el pago, la serie y las ocurrencias que se crean para la propuesta de pago. La serie se puede editar desde la página **Automatización de procesos** o la vista semanal de automatización de procesos. Por ejemplo, si el gerente de AP decide generar todos los cheques para proveedores nacionales el miércoles en lugar del lunes, puede encontrar una ocurrencia en la vista semanal y seleccionar **Ver/Editar: serie**. Si edita una serie, el sistema le solicita que especifique si el cambio debe realizarse en todas las ocurrencias existentes o solo en las nuevas. Las ocurrencias históricas que ya tienen un estado de **Completado** o que terminaron con estado de **Error** no se cambiarán.
 
 También puede agregar una nueva ocurrencia o cambiar una existente. Por ejemplo, la próxima ocurrencia de la propuesta de pago está programada para ejecutarse el miércoles 1 de enero, pero esta fecha es festiva. Puede cambiar la ocurrencia desde la vista semanal de automatización de procesos o la página **Automatización de procesos**. Se abre una página que muestra los detalles de la programación y los criterios de propuesta de pago. Aquí puede editar la hora y fecha programadas. También puede editar los criterios de propuesta de pago, si se requieren cambios. Por ejemplo, si cambia la fecha programada de la ocurrencia del pago del 1 de enero al 2 de enero, es posible que también desee cambiar las fechas relativas para la fecha "Hasta".
 

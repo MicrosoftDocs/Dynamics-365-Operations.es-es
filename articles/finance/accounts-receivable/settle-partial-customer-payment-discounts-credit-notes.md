@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015016"
+ms.locfileid: "4447775"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor
 
@@ -42,7 +42,7 @@ El cliente 4035 tiene una factura de 1000,00 y una nota de abono de 100,00. Cada
 | CCRN-10050 | Nota de abono      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Liquidar una nota de abono con una factura
-Desde la página **Transacciones de clientes** , Arnie abre la página **Liquidar transacciones**. Puede usar la página **Liquidar transacciones** para liquidar la nota de abono y la factura. Como parte del proceso de liquidación, ve las fechas y los importes de descuento por pronto pago. Marca los dos documentos y, a continuación, hace clic en **Registrar** para liquidar las transacciones. Existe un descuento de -1,00 en la nota de abono, porque Fabrikam permite descuentos en notas de abono.
+Desde la página **Transacciones de clientes**, Arnie abre la página **Liquidar transacciones**. Puede usar la página **Liquidar transacciones** para liquidar la nota de abono y la factura. Como parte del proceso de liquidación, ve las fechas y los importes de descuento por pronto pago. Marca los dos documentos y, a continuación, hace clic en **Registrar** para liquidar las transacciones. Existe un descuento de -1,00 en la nota de abono, porque Fabrikam permite descuentos en notas de abono.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante    | Cuenta | Fecha      | Fecha de vencimiento  | Factura  | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
@@ -51,11 +51,11 @@ Desde la página **Transacciones de clientes** , Arnie abre la página **Liquida
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones**.
 
-- **Fecha del descuento por pronto pago** : 7/12/2015 
-- **Importe de descuento por pronto pago** : -1,00     
-- **Utilizar el descuento por pronto pago** : Normal    
-- **Descuento por pronto pago aplicado** : 0,00      
-- **Importe de descuento por pronto pago para aplicar** : -1,00     
+- **Fecha del descuento por pronto pago**: 7/12/2015 
+- **Importe de descuento por pronto pago**: -1,00     
+- **Utilizar el descuento por pronto pago**: Normal    
+- **Descuento por pronto pago aplicado**: 0,00      
+- **Importe de descuento por pronto pago para aplicar**: -1,00     
 
 La liquidación será de 100,00, e incluirá un pago de 99,00 y un descuento de 1,00.
 

@@ -17,11 +17,11 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097195"
+ms.locfileid: "4447789"
 ---
 # <a name="bank-management-workspace"></a>Espacio de trabajo para la gestión bancaria
 
@@ -51,7 +51,7 @@ La información sobre cuándo los datos se actualizaron por última vez aparece 
 
 ### <a name="related-information"></a>Información relacionada
 
-En la sección **Información relacionada** , puede abrir la página **Diario general** para completar las transferencias bancarias. También puede abrir rápidamente las páginas **Transacciones bancarias** y **Transacciones puente** .
+En la sección **Información relacionada**, puede abrir la página **Diario general** para completar las transferencias bancarias. También puede abrir rápidamente las páginas **Transacciones bancarias** y **Transacciones puente** .
 
 ## <a name="analytics-view"></a>Vista de análisis
 

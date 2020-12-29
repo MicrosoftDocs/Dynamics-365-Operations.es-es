@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039901"
+ms.locfileid: "4447784"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>Configurar el complemento de facturación electrónica
 
@@ -49,8 +49,8 @@ Debido a las variaciones en los formatos de factura y los flujos de acción, la 
 El proceso de configuración debe completarse en su entorno RCS. Siga estos pasos para crear una nueva función complementaria de facturación electrónica.
 
 1. Inicie sesión en su entorno RCS.
-2. En el espacio de trabajo **Características de globalización** , en la sección **Características** , seleccione el mosaico **Complemento de facturación electrónica**.
-3. En la página **Funciones complementarias de facturación electrónica** , seleccione **Importar** para importar la configuración del modelo de datos de ER desde el repositorio global.
+2. En el espacio de trabajo **Características de globalización**, en la sección **Características**, seleccione el mosaico **Complemento de facturación electrónica**.
+3. En la página **Funciones complementarias de facturación electrónica**, seleccione **Importar** para importar la configuración del modelo de datos de ER desde el repositorio global.
 4. Seleccione **Agregar** para crear una función complementaria de facturación electrónica. Puede crear la función desde cero o derivarla de una función adicional de facturación electrónica existente.
 
     ![Agregar una característica complementaria de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
@@ -64,14 +64,14 @@ Las configuraciones contienen las configuraciones de formato ER que se requieren
 
 Siga estos pasos para agregar formatos ER a la función complementaria de facturación electrónica.
 
-1. En la página **Funciones complementarias de facturación electrónica** , en la pestaña **Configuraciones** , seleccione **Agregar** para agregar configuraciones de formato de archivo ER para la función de complemento de facturación electrónica.
+1. En la página **Funciones complementarias de facturación electrónica**, en la pestaña **Configuraciones**, seleccione **Agregar** para agregar configuraciones de formato de archivo ER para la función de complemento de facturación electrónica.
 
     ![Agregar configuraciones de característica complementaria de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Cuando crea una función complementaria de facturación electrónica desde cero, debe agregar manualmente todas las configuraciones de formato de archivo ER. Cuando obtiene una función complementaria de facturación electrónica de una función existente, las configuraciones de formato de archivo ER se crean automáticamente, porque se heredan de la función complementaria de facturación electrónica original.
 
-2. Seleccione **Editar** para abrir la página **Diseñador de formatos** , donde puede editar la configuración del formato de archivo ER.
+2. Seleccione **Editar** para abrir la página **Diseñador de formatos**, donde puede editar la configuración del formato de archivo ER.
 
     ![Editar configuraciones de característica complementaria de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
@@ -88,7 +88,7 @@ Las configuraciones de funciones encapsulan las reglas de comunicación y seguri
 
 Siga estos pasos para agregar configuraciones de característica a la función complementaria de facturación electrónica.
 
-1. En la página **Funciones complementarias de facturación electrónica** , en la pestaña **Configuraciones** , seleccione **Agregar** para agregar configuraciones de característica para la función de complemento de facturación electrónica.
+1. En la página **Funciones complementarias de facturación electrónica**, en la pestaña **Configuraciones**, seleccione **Agregar** para agregar configuraciones de característica para la función de complemento de facturación electrónica.
 
     ![Agregar una configuraciones de característica complementaria de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
@@ -111,7 +111,7 @@ Cada acción contiene una lista predefinida de parámetros que son necesarios pa
 
 #### <a name="actions-fasttab"></a>Ficha desplegable Acciones
 
-En la página **Configuración de versiones de funciones** , en la pestaña **Acciones** , en la ficha desplegable **Acciones** , siga uno o ambos de estos pasos para administrar acciones:
+En la página **Configuración de versiones de funciones**, en la pestaña **Acciones**, en la ficha desplegable **Acciones**, siga uno o ambos de estos pasos para administrar acciones:
 
 - Seleccione **Nuevo** o **Eliminar** para agregar nuevas acciones o eliminar acciones existentes.
 - Seleccione **Arriba** o **Abajo** para mover las acciones seleccionadas hacia arriba o hacia abajo en la cuadrícula y, por lo tanto, cambiar el orden en el que se ejecutan. Las acciones se ejecutan en el orden en que aparecen en la cuadrícula, de arriba a abajo.
@@ -160,7 +160,7 @@ Los parámetros disponibles varían, dependiendo de la acción que se seleccione
 | Nombre del elemento a firmar               | El nombre del elemento XML del documento que debe firmarse mediante una firma electrónica. Si no se especifica ningún elemento, se firma la raíz del documento. |
 | Nombre del elemento para insertar firma   | El nombre del elemento XML donde se debe insertar una firma digital generada. Si no se especifica ningún elemento, la firma se inserta en la raíz del documento. |
 | Archivo XLST con transformación de resumen       | El archivo Extensible Stylesheet Language Transformations (XSLT) que contiene reglas de transformación de resumen para generar la cadena de resumen para una firma electrónica. |
-| Ruta para insertar cadena de resumen          | La ruta, en formato **\<elementName\>.\<Attribute.Path\>** , de la ubicación donde se debe insertar la cadena de resumen generada. |
+| Ruta para insertar cadena de resumen          | La ruta, en formato **\<elementName\>.\<Attribute.Path\>**, de la ubicación donde se debe insertar la cadena de resumen generada. |
 | Ubicación del número de certificado           | El nombre del elemento y atributo donde se debe colocar el número de certificado. |
 | Ubicación de los datos del certificado          | El nombre del elemento y atributo donde se deben insertar los datos del certificado (base64). |
 | El número de certificado está en formato ASCII | Valor que especifica si el número del certificado está codificado en formato ASCII. |
@@ -194,7 +194,7 @@ Los parámetros disponibles varían, dependiendo de la acción que se seleccione
 |-----------------------------|-------------|
 | URL de servicio Web             | La URL a la que enviar solicitudes. |
 | Tiempo de espera de solicitud web         | La cantidad máxima de tiempo (en milisegundos) para esperar una respuesta del servicio web. |
-| Solicitar tipo de operación      | El tipo de operación de solicitud HTTP (por ejemplo, **OBTENER** , **ENVIAR** o **ELIMINAR** ). |
+| Solicitar tipo de operación      | El tipo de operación de solicitud HTTP (por ejemplo, **OBTENER**, **ENVIAR** o **ELIMINAR**). |
 | Nombres de certificado           | Nombres de certificado. |
 | Codificación del cuerpo de respuesta      | La codificación esperada del cuerpo de respuesta HTTP, para que pueda decodificarse correctamente. |
 | Tipo de contenido de solicitud HTTP   | La entrada del encabezado del tipo de contenido de la solicitud HTTP. |
@@ -260,7 +260,7 @@ Las reglas de aplicabilidad le permiten crear reglas lógicas que determinan el 
 
 #### <a name="set-up-applicability-rules"></a>Configurar reglas de aplicabilidad
 
-1. En la página **Configuración de la versión de función** , en la pestaña **Reglas de aplicabilidad** , seleccione **Nuevo** para agregar una regla de aplicabilidad.
+1. En la página **Configuración de la versión de función**, en la pestaña **Reglas de aplicabilidad**, seleccione **Nuevo** para agregar una regla de aplicabilidad.
 
     ![Administrar reglas de aplicabilidad](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
@@ -295,7 +295,7 @@ Puede crear variables y luego usarlas como valor de entrada para un parámetro d
 
 #### <a name="set-up-variables"></a>Configurar variables
 
-- En la página **Configuración de la versión de función** , en la pestaña **Variables** , seleccione **Nuevo** o **Eliminar** para gestionar variables.
+- En la página **Configuración de la versión de función**, en la pestaña **Variables**, seleccione **Nuevo** o **Eliminar** para gestionar variables.
 
     ![Gestionar variables](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
@@ -311,7 +311,7 @@ En la tabla siguiente se describen los campos disponibles en la pestaña **Varia
 
 ### <a name="validate-the-feature-setup"></a>Validar la configuración de la función
 
-- En la página **Configuración de la versión de función** , en el panel de acciones, seleccione **Validar** para validar la configuración de la versión de la función.
+- En la página **Configuración de la versión de función**, en el panel de acciones, seleccione **Validar** para validar la configuración de la versión de la función.
 
    ![Selección del botón Validar](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
@@ -323,8 +323,8 @@ Un entorno de complemento de facturación electrónica debe estar asociado con l
 
 Siga estos pasos para habilitar el entorno del complemento de facturación electrónica para la función de complemento de facturación electrónica.
 
-1. En la página **Funciones complementarias de facturación electrónica** , en la pestaña **Entornos** , seleccione **Habilitar** para agregar un entorno de complemento de facturación electrónica.
-2. En el campo **Válido desde** , ingrese la fecha en que el nuevo entorno entra en vigencia.
+1. En la página **Funciones complementarias de facturación electrónica**, en la pestaña **Entornos**, seleccione **Habilitar** para agregar un entorno de complemento de facturación electrónica.
+2. En el campo **Válido desde**, ingrese la fecha en que el nuevo entorno entra en vigencia.
 
 ![Habilitar un entorno del complemento de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
@@ -332,7 +332,7 @@ Siga estos pasos para habilitar el entorno del complemento de facturación elect
 
 La función complementaria de facturación electrónica se puede compartir entre varias organizaciones.
 
-- En la página **Funciones complementarias de facturación electrónica** , en la pestaña **Organizaciones** , seleccione **Compartir con** para agregar la organización con la que desea compartir la función de complemento de facturación electrónica.
+- En la página **Funciones complementarias de facturación electrónica**, en la pestaña **Organizaciones**, seleccione **Compartir con** para agregar la organización con la que desea compartir la función de complemento de facturación electrónica.
 
 Para dejar de compartir la función complementaria de facturación electrónica con la organización, seleccione **Dejar de compartir**.
 
@@ -342,22 +342,22 @@ Las versiones ayudan a controlar el ciclo de vida de la función complementaria 
 
 ### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Cree una nueva versión de una función adicional de facturación electrónica existente
 
-1. En la página **Funciones complementarias de facturación electrónica** , en la cuadrícula a la izquierda, seleccione la función de complemento de facturación electrónica.
-2. En la pestaña **Versiones** , seleccione **Nuevo** para agregar una nueva versión de la función complementaria de facturación electrónica.
+1. En la página **Funciones complementarias de facturación electrónica**, en la cuadrícula a la izquierda, seleccione la función de complemento de facturación electrónica.
+2. En la pestaña **Versiones**, seleccione **Nuevo** para agregar una nueva versión de la función complementaria de facturación electrónica.
 
 ### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Cambiar el estado de la función complementaria de facturación electrónica
 
 Siga estos pasos para gestionar el ciclo de vida de la función complementaria de facturación electrónica.
 
-1. En la página **Funciones complementarias de facturación electrónica** , en la cuadrícula a la izquierda, seleccione la función de complemento de facturación electrónica.
-2. En la pestaña **Versiones** , seleccione **Cambiar Estado** y luego cambie el estado de **Borrador** a **Completar**.
+1. En la página **Funciones complementarias de facturación electrónica**, en la cuadrícula a la izquierda, seleccione la función de complemento de facturación electrónica.
+2. En la pestaña **Versiones**, seleccione **Cambiar Estado** y luego cambie el estado de **Borrador** a **Completar**.
 3. Se le solicitará que confirme que desea completar la función complementaria de facturación electrónica y todos sus componentes. Seleccione **Sí** para confirmar la acción o **No** para cancelarla.
 
     > [!NOTE]
-    > Cuando selecciona **Sí** , el estado de las versiones de configuración, que son componentes de la función complementaria de facturación electrónica, se cambia automáticamente de **Borrador** a **Terminado**.
+    > Cuando selecciona **Sí**, el estado de las versiones de configuración, que son componentes de la función complementaria de facturación electrónica, se cambia automáticamente de **Borrador** a **Terminado**.
 
 4. Seleccione **Cambiar Estado** y luego cambie el estado de **Completar** a **Publicar**.
 5. Se le solicitará que confirme que desea publicar la función complementaria de facturación electrónica y todos sus componentes en el repositorio Global. Seleccione **Sí** para confirmar la acción o **No** para cancelarla.
 
     > [!NOTE]
-    > Cuando selecciona **Sí** , el estado de las versiones de configuración se cambia automáticamente de **Terminado** a **Compartido**.
+    > Cuando selecciona **Sí**, el estado de las versiones de configuración se cambia automáticamente de **Terminado** a **Compartido**.

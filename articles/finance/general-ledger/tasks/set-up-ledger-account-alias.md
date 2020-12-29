@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e1764f31c98039e9ea6f665dcb04a1cfd23c31dc
-ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
+ms.sourcegitcommit: 66dafaae9d97f0f8e67ce1d309362532b6edf447
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998857"
+ms.locfileid: "4447762"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Configurar un alias de cuenta contable
 

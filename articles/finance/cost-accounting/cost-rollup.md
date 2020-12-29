@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006175"
+ms.locfileid: "4447769"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Directiva de acumulación de costes y cálculo de costes generales 
 
@@ -250,7 +250,7 @@ La página **Detalles de movimiento de diario de saldo de costes de objetos de c
 | CC003       | Ensamblado     | SC-CC002 | Finanzas         | 11.527,75   | 31-01-2017 |
 | CC004       | Empaquetado    | SC-CC002 | Finanzas         | 6.207,25    | 31-01-2017 |
 
-Después de que se complete el **Cálculo de costes generales** , puede notificar los resultados mediante herramientas como Microsoft SharePoint Workspace, Excel o Power BI.
+Después de que se complete el **Cálculo de costes generales**, puede notificar los resultados mediante herramientas como Microsoft SharePoint Workspace, Excel o Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Ver los informes en Excel 
 
@@ -274,7 +274,7 @@ A continuación se muestra un ejemplo de un informe Power Pivot en Excel.
 
 Al usar la **Directiva de acumulación de costes** y los **Elementos de coste de tipo secundario** puede abanador el coste principal por objeto de coste para el informe interno como el coste principal que resta después del **Cálculo de costes generales**.
 
-Si el mismo ejemplo se hubiera realizado sin crear la **Directiva de acumulación de costes** , el resultado del informe aparecía como sigue. El coste fluye correctamente pero la rastreabilidad y exploración sobre cómo fluye el coste entre los centros de coste se pierden.
+Si el mismo ejemplo se hubiera realizado sin crear la **Directiva de acumulación de costes**, el resultado del informe aparecía como sigue. El coste fluye correctamente pero la rastreabilidad y exploración sobre cómo fluye el coste entre los centros de coste se pierden.
 
 | **Informe de pérdidas y ganancias** | **Objeto de coste** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Total**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 464fd211eb5417265f8c737b23456769137a7c13
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772683"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4447823"
 ---
 # <a name="budget-control-overview"></a>Visión general del control presupuestario
 
@@ -126,4 +126,4 @@ Una vez que se activa el control presupuestario, los usuarios recibirán mensaje
 
 En esta página, los usuarios pueden explorar la página **Estadísticas de control presupuestario por periodo** para ver los detalles de disponibilidad y las reservas para una combinación de dimensión de control de presupuesto seleccionada. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario** para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
 
-Si se activa el control presupuestario para los pedidos de compra, el director de presupuestos puede usar el espacio de trabajo **Presupuestos y previsiones contables** para revisar la cola de todos los pedidos de compra que tienen errores y advertencias de comprobación presupuestaria. Si el director de presupuestos tiene permisos de presupuesto excedido configurados, puede confirmar los pedidos de compra directamente en el espacio de trabajo.    
+Si se activa el control presupuestario para los pedidos de compra, el director de presupuestos puede usar el espacio de trabajo **Presupuestos y previsiones contables** para revisar la cola de todos los pedidos de compra que tienen errores y advertencias de comprobación presupuestaria. Si el director de presupuestos tiene permisos de presupuesto excedido configurados, los pedidos de compra pueden confirmarse directamente en el espacio de trabajo.    

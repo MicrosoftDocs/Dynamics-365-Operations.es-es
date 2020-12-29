@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187047"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447721"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Tiempo de vida restante de depreciación lineal
 
@@ -53,7 +53,7 @@ Por ejemplo, si selecciona **Anual**, la depreciación anual se registra una sol
 Si selecciona **Fiscal** en el campo **Año de depreciación**, se utiliza el tiempo de vida restante de depreciación lineal. La depreciación se calcula en función de los años fiscales restantes. Por ejemplo, para el ejercicio del 1 de julio del 2015 al 30 de junio de 2016, el cálculo de la depreciación comienza el 1 de julio. El ejercicio no puede ser superior ni inferior a los 12 meses. La depreciación se ajusta para cada período fiscal. La extensión del siguiente ejercicio se determina por los períodos fiscales configurados en la página **Calendarios fiscales**. Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
 -   **Anual** registra el importe total de la depreciación calculada para el ejercicio como un importe de la última fecha del ejercicio.
--   **El período fiscal**calcula el importe total de depreciación para el ejercicio. Este importe se acumula entonces en los períodos fiscales definidos en la página **Calendarios fiscales** del calendario fiscal especificado en el libro.
+-   **El período fiscal** calcula el importe total de depreciación para el ejercicio. Este importe se acumula entonces en los períodos fiscales definidos en la página **Calendarios fiscales** del calendario fiscal especificado en el libro.
 
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Ejemplo de depreciación lineal de un activo fijo sin modificar
 Un activo fijo tiene las siguientes características:

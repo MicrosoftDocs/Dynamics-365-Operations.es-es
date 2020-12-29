@@ -18,11 +18,11 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0715d3e4e4cb167c55d9c7d98cdf599187bf3b43
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179739"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447720"
 ---
 # <a name="financial-dimensions"></a>Dimensiones financieras
 
@@ -52,7 +52,7 @@ A continuación se muestran algunas limitaciones:
 
 Para crear una dimensión financiera definida por el usuario, en el campo **Usar valores de**, seleccione **Dimensión personalizada**.
 
-También puede especificar una máscara de cuenta para limitar el importe y el tipo de información que puede especificarse para valores de dimensión. Puede especificar los caracteres que permanecen iguales para cada valor de dimensión, como letras o un guion (-). También puede especificar signos de número (\#) y ampersands (&) como marcadores de posición para los caracteres que se modificarán cada vez que se cree un valor de dimensión. Use un signo de número (\#) ) como marcador de posición para un número y un ampersand (&) como marcador de posición para una letra. El campo para la máscara de formato solo está disponible si selecciona el campo **Dimensión personalizada** en el campo **Usar valores desde**.
+También puede especificar una máscara de cuenta para limitar el importe y el tipo de información que puede especificarse para valores de dimensión. Puede especificar los caracteres que permanecen iguales para cada valor de dimensión, como letras o un guion (-). También puede especificar signos de número (\#) y ampersands (&) como marcadores de posición para los caracteres que se modificarán cada vez que se cree un valor de dimensión. Use un signo de número (\#) como marcador de posición para un número y un ampersand (&) como marcador de posición para una letra. El campo para la máscara de formato solo está disponible si selecciona el campo **Dimensión personalizada** en el campo **Usar valores desde**.
 
 **Ejemplo**
 

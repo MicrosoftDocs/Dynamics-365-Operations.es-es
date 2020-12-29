@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 28669014b4998de6ae13ec7dbc4c704a14aff6e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 948f83d56e560cc21205294c15de4b2097d2ad2e
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975349"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4447824"
 ---
 # <a name="customer-transactions-list-page"></a>Página de lista de transacciones de cliente
 
@@ -39,7 +39,7 @@ El botón **Ver liquidaciones** en el panel de acciones proporciona un acceso r�
 
 4. En el cuadro de diálogo, puede realizar varias tareas. Seleccione uno o más asientos y luego seleccione uno de los botones siguientes:
 
-    - **Visión relacionada**: permite mostrar todas las transacciones del diario de pagos y transacciones del diario general para el cliente que se crearon en los diarios en los que los documentos mostrados en la lista fueron creados. Por ejemplo, si se muestra un pago, todas los pagos del diario de pagos en el que se creó también se mostrarán. Si se muestra una factura o pago y se creó en un diario general, después todos los documentos en el diario general en el que se creó se mostrarán. También se muestran todas las liquidaciones relacionadas con la lista de documentos. Mientras mira los pagos relacionados, la etiqueta de este botón cambia a **Ver liquidaciones**. Seleccione **Ver liquidaciones** para mostrar solo las transacciones que se mostraron cuando abrió por primera vez el cuadro de diálogo **Ver liquidaciones**.
+    - **Ver relacionadas**: permite mostrar todas las transacciones del diario de pagos y transacciones del diario general para el cliente que se crearon en los diarios en los que se crearon los documentos mostrados en la lista. Por ejemplo, si se muestra un pago, todas los pagos del diario de pagos en el que se creó también se mostrarán. Si se muestra una factura o pago y se creó en un diario general, después todos los documentos en el diario general en el que se creó se mostrarán. También se muestran todas las liquidaciones relacionadas con la lista de documentos. Mientras mira los pagos relacionados, la etiqueta de este botón cambia a **Ver liquidaciones**. Seleccione **Ver liquidaciones** para mostrar solo las transacciones que se mostraron cuando abrió por primera vez el cuadro de diálogo **Ver liquidaciones**.
     - **Ver el historial** Muestra el historial de liquidaciones de los asientos. Haga clic en **Cerrar** para cerrar el cuadro de diálogo.
     - **Ver contabilidad** - Muestra todos los asientos que están relacionados con los documentos seleccionados. Haga clic en **Cerrar** para cerrar el cuadro de diálogo.
     - **Exportar**: exporte los asientos seleccionados a Microsoft Excel.
@@ -48,7 +48,7 @@ El botón **Ver liquidaciones** en el panel de acciones proporciona un acceso r�
 
 ## <a name="global-transactions"></a>Transacciones globales
 
-El botón **Transacciones globales** también se muestra en la página de lista **Transacciones de cliente**. Este botón le permite ver todas las transacciones de un cliente en todas las entidades jurídicas. La página de la lista de **Transacciones de cliente** muestra transacciones solo para aquellas entidades jurídicas a las que el usuario tenga acceso, en función de su configuración de seguridad.
+El botón **Transacciones globales** también se muestra en la página de lista **Transacciones de cliente**. Este botón le permite ver todas las transacciones de un cliente en todas las entidades jurídicas. La página de la lista **Transacciones de cliente** muestra transacciones solo para aquellas entidades jurídicas a las que el usuario tenga acceso, en función de su configuración de seguridad.
 
 La página de lista muestra todas las transacciones de los clientes con el mismo ID de parte que el cliente con el que comenzó. Por ejemplo, si el cliente US-001 en una entidad jurídica tiene el mismo id de parte que el cliente DE-001 en otra entidad jurídica, se muestran todas las transacciones de ambos Id. de cliente.
 

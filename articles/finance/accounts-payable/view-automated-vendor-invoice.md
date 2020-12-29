@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: ec49a621e24b6373532497b499e8b9d45c9bed14
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022622"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4447776"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>Ver resultados de automatización de facturas de proveedores
 

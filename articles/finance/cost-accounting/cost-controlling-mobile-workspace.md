@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 22acdcfbecc1efe78a1b1be87e40b2e7d23506fc
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: 4fc35feb4f3a67ba9c8c70c2d2f8c07cb944b0f6
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759457"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4447827"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Espacio de trabajo móvil de control de costes
 
@@ -36,7 +36,7 @@ Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance an
 ## <a name="overview"></a>Información general
 El espacio de trabajo móvil **Control de costes** proporciona una vista inmediata del rendimiento actual de los centros de costes al comparar los costes reales con los costes presupuestados. Puede explorar en profundidad el estado de los elementos de coste individuales.
 
-Por ejemplo, un empleado recibe una invitación para una conferencia internacional, pero la organización debe cubrir todos los gastos de viajes. El empleado pregunta a su director si puede asistir a la conferencia. El director abre rápidamente el espacio de trabajo móvil de **control de costes** en su teléfono móvil para ver si dispone de presupuesto para que el empleado asista a la conferencia.
+Por ejemplo, un empleado recibe una invitación para una conferencia internacional, pero la organización debe cubrir todos los gastos de viajes. El empleado pregunta a su director si puede asistir a la conferencia. El director abre el espacio de trabajo móvil **Control de costes** en su teléfono móvil para ver si dispone de presupuesto para que el empleado asista a la conferencia.
 
 ### <a name="data-security"></a>Seguridad de los datos
 Los datos del espacio de trabajo móvil **Control de costes** están protegidos mediante credenciales de usuario. Los directores de los centros de coste pueden ver solo los datos de su propio centro de coste. La seguridad de nivel de acceso se administra en el módulo **Contabilidad de costes**.
@@ -63,7 +63,7 @@ El espacio de trabajo móvil **Control costes** proporciona las acciones, las vi
     -   Valor real frente a presupuesto (año hasta la fecha)
     -   Valor real frente a presupuesto revisado (año hasta la fecha)
 
-    Los importes siguientes se muestran en cada tarjeta: real, presupuesto, desviación, y desviación en %.
+    Los importes siguientes se muestran en cada tarjeta: Real, Presupuesto, Desviación, y Desviación en %.
 
 -   **Vínculos:**
 
@@ -71,7 +71,7 @@ El espacio de trabajo móvil **Control costes** proporciona las acciones, las vi
     -   Detalles para el período anterior
     -   Detalles para año hasta la fecha
 
-    Al seleccionar un vínculo, una tarjeta se muestra por cada artículo de coste. Los importes siguientes se muestran en todas las tarjetas: real, presupuesto, desviación de presupuesto, % de desviación de presupuesto, presupuesto revisado, desviación de presupuesto revisado y % de desviación de presupuesto revisado.
+    Al seleccionar un vínculo, una tarjeta se muestra por cada artículo de coste. Los importes siguientes se muestran en todas las tarjetas: Real, Presupuesto, Desviación de presupuesto, Desviación de presupuesto en %, Presupuesto revisado, Desviación de presupuesto revisado y Desviación de presupuesto revisado en %.
     
     [![Tarjeta para un elemento de coste ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 

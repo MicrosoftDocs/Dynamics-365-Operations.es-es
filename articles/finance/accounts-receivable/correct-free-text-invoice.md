@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0bf6e7a070d7c151c6ff5d868f4f916359b82683
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031001"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447473"
 ---
 # <a name="correct-a-free-text-invoice"></a>Corrección de una factura de servicios
 

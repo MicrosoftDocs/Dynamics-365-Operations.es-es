@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1b5c92d6f3bb0bdc3fbadc9708350b5107e6cf37
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188680"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447622"
 ---
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Condonar, restablecer o revertir cuotas de interés
 
@@ -61,7 +61,7 @@ Puede realizar la corrección mediante el botón **Corregir factura** del Panel 
 
 Puede invertir una transacción del cliente en una factura si se crea una factura de forma incorrecta. Si la transacción del cliente invertida tiene un interés que está incluido en una nota de interés y, si ésta ha sido registrada, también se invierte el interés de la transacción en la nota de interés. Si no ha sido registrada, se cancela la nota de interés. 
 
-Puede invertir las transacciones de cliente mediante el botón **Invertir**en la página **Transacciones de cliente**.
+Puede invertir las transacciones de cliente mediante el botón **Invertir** en la página **Transacciones de cliente**.
 
 ## <a name="waive-or-reinstate-interest-notes"></a>Condonar o restablecer notas de interés
 Puede condonar o restablecer todos los cargos de las notas de interés que seleccione. Al condonar cargos, el importe total que se va a condonar no puede superar los límites de importe que se han establecido. Sólo puede restablecer notas de interés si han sido condonadas anteriormente. 
@@ -81,7 +81,7 @@ Puede condonar o restablecer notas de interés mediante el botón **Cuota** en e
 ## <a name="reverse-interest-notes"></a>Invertir notas de interés
 Puede invertir todos los cargos de las notas del interés que seleccione. Los cargos invertidos se eliminan de la cuenta de un cliente y dejan de ser exigibles. Una vez que se haya invertido una nota de interés, puede volver a calcular el interés y crear una nueva nota de interés. 
 
-Puede invertir notas de interés mediante el botón **Nota de interés**en el separador **Recopilar** de la página **Cliente**.
+Puede invertir notas de interés mediante el botón **Nota de interés** en el separador **Recopilar** de la página **Cliente**.
 
 ## <a name="reverse-interest-transactions"></a>Revertir transacciones de interés
 Puede invertir todas las transacciones de interés que seleccione. Los cargos invertidos se eliminan de la cuenta de un cliente y dejan de ser exigibles. Una vez que se haya invertido las transacciones, puede volver a calcular el interés y crear una nueva nota de interés.
@@ -91,7 +91,7 @@ Puede invertir transacciones de interés mediante el botón **Interés de transa
 ## <a name="view-the-history-of-adjustments-for-charges-that-were-waived-reinstated-or-reversed"></a>Ver la historial de ajustes para obtener información acerca de los gastos que han sido condonados, restablecidos o invertidos
 Puede ver el historial detallado de ajustes que se han realizado para notas de interés, como el usuario que ha especificado el ajuste, el tipo de ajuste, el importe y la fecha del ajuste. Por ejemplo, es posible que desee ver los ajustes anteriores que se especificaron para una nota de interés antes de crear una nueva. 
 
-Puede invertir transacciones de interés mediante el botón **Historia**en el separador **Recopilar** de la página **Cliente**.
+Puede invertir transacciones de interés mediante el botón **Historia** en el separador **Recopilar** de la página **Cliente**.
 
 
 

@@ -15,11 +15,11 @@ ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: fe43038a962bffe6a21aa0a2c5a87edefdee83f7
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793522"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447750"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Catálogo de aprendizaje para consultores funcionales de Dynamics 365 Finance
 

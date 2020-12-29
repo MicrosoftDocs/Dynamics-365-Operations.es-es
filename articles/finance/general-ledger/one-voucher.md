@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
 ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3058026"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447660"
 ---
 # <a name="one-voucher"></a>Un asiento
 
@@ -84,7 +84,7 @@ Basado en conversaciones con clientes, Microsoft ha compilado la siguiente lista
 Las situaciones siguientes se pueden realizar solo con la funcionalidad de asiento único. Si su organización tiene cualquiera de estos escenarios, debe habilitar la especificación de varias transacciones en un asiento modificando el valor del parámetro **Permitir varias transacciones en un asiento** en la página **Parámetros de contabilidad general**. Estas lagunas funcionales se abordarán con otras características en posteriores lanzamientos.
 
 > [!Note]
-> [Para cada uno de los siguientes escenarios el campo **Permitir varias transacciones en un asiento** se debe establecer en Sí en la pestaña desplegable **General** en la página **Parámetros de contabilidad general**].
+> [Para cada uno de los siguientes escenarios el campo **Permitir varias transacciones en un asiento** se debe establecer en Sí en la pestaña desplegable **General**, en la página **Parámetros de contabilidad general**].
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Registrar los pagos de cliente o de proveedor en formulario resumen en una cuenta bancaria
 

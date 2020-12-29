@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d647dc41eb18d25101e66d3030327fc55b55a4d5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250337"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4447830"
 ---
 # <a name="financial-period-close-workspace"></a>Espacio de trabajo de cierre del período financiero
 
@@ -68,7 +68,7 @@ Para poder usar el espacio de trabajo **Cierre del periodo financiero**, debe co
 
 En la ficha **Recursos** se definen las personas implicadas en los procesos de cierre. Cualquier empleado responsable de una tarea de cierre primero se debe asignar aquí. También se debe especificar la vista de empleado en el espacio de trabajo. Están disponibles las siguientes opciones:
 
--   **Solo tareas asignadas**: el usuario verá solo las tareas que tiene asignadas.
+-   **Solo tareas asignadas**: el usuario verá solo las tareas que tenga asignadas.
 -   **Todos los estados y tareas**: el usuario verá todas las tareas de cierre y los estados del proceso general.
 
 Los usuarios que tienen permisos para ver solo sus tareas asignadas no podrán agregar tareas a la lista de tareas, editar tareas o quitar tareas de la lista de tareas.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1534aab03ac35950e875a1384dfdf2a22bc22546
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 4f4535d08ff1bb6f83172efb4ceada5a7d02ebd4
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978016"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4447832"
 ---
 # <a name="vendor-transactions-list-page"></a>Página de lista de transacciones de proveedor
 
@@ -39,7 +39,7 @@ El botón **Ver liquidaciones** en el panel de acciones proporciona un acceso r�
 
 4. En el cuadro de diálogo, puede realizar varias tareas. Seleccione uno o más asientos y luego seleccione uno de los botones siguientes:
 
-    - **Visión relacionada**: permite mostrar todas las transacciones del diario de pagos y transacciones del diario general para el proveedor que se crearon en los diarios en los que los documentos mostrados en la lista fueron creados. Por ejemplo, si se muestra un pago, todas los pagos del diario de pagos en el que se creó también se mostrarán. Si se muestra una factura o pago y se creó en un diario general, después todos los documentos en el diario general en el que se creó se mostrarán. También se muestran todas las liquidaciones relacionadas con la lista de documentos. Mientras mira los pagos relacionados, la etiqueta de este botón cambia a **Ver liquidaciones**. Seleccione **Ver liquidaciones** para mostrar solo las transacciones que se mostraron cuando abrió por primera vez el cuadro de diálogo **Ver liquidaciones**.
+    - **Ver relacionadas**: muestra todas las transacciones del diario de pagos y transacciones del diario general para el proveedor que se crearon en los diarios en los que los documentos mostrados en la lista fueron creados. Por ejemplo, si se muestra un pago, todas los pagos del diario de pagos en el que se creó también se mostrarán. Si se muestra una factura o pago y se creó en un diario general, después todos los documentos en el diario general en el que se creó se mostrarán. También se muestran todas las liquidaciones relacionadas con la lista de documentos. Mientras mira los pagos relacionados, la etiqueta de este botón cambia a **Ver liquidaciones**. Seleccione **Ver liquidaciones** para mostrar solo las transacciones que se mostraron cuando abrió por primera vez el cuadro de diálogo **Ver liquidaciones**.
     - **Ver el historial** Muestra el historial de liquidaciones de los asientos. Haga clic en **Cerrar** para cerrar el cuadro de diálogo.
     - **Ver contabilidad** - Muestra todos los asientos que están relacionados con los documentos seleccionados. Haga clic en **Cerrar** para cerrar el cuadro de diálogo.
     - **Exportar**: exporte los asientos seleccionados a Microsoft Excel.
@@ -48,7 +48,7 @@ El botón **Ver liquidaciones** en el panel de acciones proporciona un acceso r�
 
 ## <a name="global-transactions"></a>Transacciones globales
 
-El botón **Transacciones globales** también se muestra en la página de lista **Transacciones de proveedor**. Este botón le permite ver todas las transacciones de un proveedodr en todas las entidades jurídicas. La página de la lista de **Transacciones de proveedor** muestra transacciones solo para aquellas entidades jurídicas a las que el usuario tenga acceso, en función de su configuración de seguridad.
+El botón **Transacciones globales** también se muestra en la página de lista **Transacciones de proveedor**. Este botón le permite ver todas las transacciones de un proveedodr en todas las entidades jurídicas. La página de lista **Transacciones de proveedor** muestra las transacciones solo para aquellas entidades jurídicas a las que el usuario tenga acceso, en función de su configuración de seguridad.
 
 La página de lista mostrará todas las transacciones de los proveedores con el mismo ID de parte que el proveedor con el que comenzó. Por ejemplo, si el proveedor US-001 en una entidad jurídica tiene el mismo id de parte que el proveedor DE-001 en otra entidad jurídica, se muestran todas las transacciones de ambos Id. de proveedor.
 

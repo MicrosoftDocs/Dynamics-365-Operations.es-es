@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6f4d5178aeb3294fd3b40815bb294a7f2ff08b71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188933"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447501"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidar un pago de cliente parcial con varios períodos de descuento
 
@@ -49,7 +49,7 @@ Arnie puede ver esta transacción en la página **Transacciones de cliente**.
 | FTI-10030 | Factura          | 25/6/2015 | 10030   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Pago parcial antes de la fecha de descuento por pronto pago
-El 28 de junio, el cliente 4031 hace un pago parcial de 294,00. Dado que el 28 de junio se encuentra dentro del primer período de descuento por pronto pago, el cliente toma un descuento de 6,00. En la página **Liquidar transacciones**, el valor**Importe de descuento por pronto pago** es 20,00, y el valor **Importe de descuento por pronto pago para aplicar** es 6,00.
+El 28 de junio, el cliente 4031 hace un pago parcial de 294,00. Dado que el 28 de junio se encuentra dentro del primer período de descuento por pronto pago, el cliente toma un descuento de 6,00. En la página **Liquidar transacciones**, el valor **Importe de descuento por pronto pago** es 20,00, y el valor **Importe de descuento por pronto pago para aplicar** es 6,00.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

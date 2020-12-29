@@ -19,11 +19,11 @@ ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 998dbd01352d3fa5040187e81b564d14133464db
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014968"
+ms.locfileid: "4447774"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagos de impuestos y reglas de redondeo
 
@@ -44,8 +44,8 @@ El total de impuestos para un período muestra un saldo de crédito de -98.765,4
 La entidad jurídica desea utilizar un método de redondeo que redondee el saldo al 1,00 más cercano. El usuario a cargo de contabilizar las cuentas de los impuestos sobre las ventas debe seguir los siguientes pasos.
 
 1. Haga clic en **Impuestos** > **Impuestos indirectos** > **Impuestos** > **Autoridades fiscales**.
-2. En la ficha desplegable **General** , seleccione **Normal** en el campo **Forma de redondear**.
-3. En el campo **Redondear** , escriba 1,00.
+2. En la ficha desplegable **General**, seleccione **Normal** en el campo **Forma de redondear**.
+3. En el campo **Redondear**, escriba 1,00.
 4. A la hora de pagar impuestos a la autoridad fiscal, vaya a **Impuesto** > **Declaraciones** > **Impuestos** > **Liquidar y registrar impuestos**. En la cuenta de liquidación de impuestos, puede ver que el monto de deuda tributaria **98 765,43** se redondea a **98 765**.
 
 La siguiente tabla muestra cómo el monto 98 765,43 se redondea mediante cada uno de los métodos de redondeo disponibles en el campo **Forma de redondeo** en la página **Autoridades fiscales**.
@@ -54,7 +54,7 @@ La siguiente tabla muestra cómo el monto 98 765,43 se redondea mediante cada u
 > Si el valor de redondeo se establece como 0,00, entonces:
 >
 > - Para el redondeo normal, el comportamiento de redondeo es el mismo que para **Redondeo = 0,01**.
-> - Para **Opciones de forma de redondeo** , **A la baja** , **Al alza** y **Ventaja propia** , el comportamiento es el mismo que para **Redondeo = 1,00**.
+> - Para **Opciones de forma de redondeo**, **A la baja**, **Al alza** y **Ventaja propia**, el comportamiento es el mismo que para **Redondeo = 1,00**.
 
 | Opción Forma de redondeo                | Valor de redondeo = 0,01 | Valor de redondeo = 0,10 | Valor de redondeo = 1,00 | Valor de redondeo = 100,00 | Valor de redondeo = 0,00   |
 |-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|

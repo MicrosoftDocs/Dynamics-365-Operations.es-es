@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772108"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447731"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Plantillas de planificación presupuestaria para Excel
 
@@ -67,7 +67,7 @@ En la pestaña **Diseño** haga clic en los campos **Agregar** y seleccione **Bu
 
 Coloque el cursor en la ubicación deseada del archivo de Excel. Haga clic en **Agregar etiqueta** para agregar la etiqueta de campo a la ubicación seleccionada. Seleccione **Agregar valor** para agregar el campo de valor al lugar seleccionado. Haga clic en **Listo** para cerrar el diseñador.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Seleccionar Agregar valor](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Seleccionar Agregar valor](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Agregue una columna calculada a la tabla de plantillas de documento de plan presupuestario
 --------------------------------------------------------------
@@ -83,7 +83,7 @@ El grupo de campos seleccionado muestra las columnas disponibles en la plantilla
 [![Agregar y insertar columnas](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Para definir la fórmula, cree la fórmula en la hoja de cálculo y, a continuación, cópiela en la ventana **Diseño**. Una tabla enlazada de Finance and Operations normalmente será denominada “AXTable1”. Por ejemplo, para sumar las columnas Solicitud de primer trimestre : Solicitud de cuarto trimestre en la hoja de cálculo; la fórmula = AxTable1\[Solicitud primer trimestre\]+AxTable1\[Solicitud segundo trimestre\]+AxTable1\[Solicitud tercer trimestre\]+AxTable1\[Solicitud cuarto trimestre\].
+> Para definir la fórmula, cree la fórmula en la hoja de cálculo y, a continuación, cópiela en la ventana **Diseño**. Una tabla enlazada de Finance and Operations normalmente se denominará "AXTable1". Por ejemplo, para sumar las columnas Solicitud de primer trimestre : Solicitud de cuarto trimestre en la hoja de cálculo; la fórmula = AxTable1\[Solicitud primer trimestre\]+AxTable1\[Solicitud segundo trimestre\]+AxTable1\[Solicitud tercer trimestre\]+AxTable1\[Solicitud cuarto trimestre\].
 
 Repita estos pasos para insertar la columna **Ajuste**. Use la fórmula = AxTable1\[Total de la solicitud\]\*$I$1 para esta columna. Esto tomará el valor de la celda I1 y multiplicará los valores de la columna **Total de la solicitud** para calcular los importes de ajuste.
 
@@ -120,7 +120,7 @@ Es recomendable bloquear la plantilla para evitar que los usuarios la cierren. P
 
 Haga clic en la flecha para un menú adicional. Seleccione **Bloquear**.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Seleccione Bloquear](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Seleccione Bloquear](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>¿Puedo usar otras funciones de Excel, como formato de celda, colores, formato condicional y gráficos mis con plantillas del plan presupuestario?
 

@@ -1,7 +1,7 @@
 ---
 title: Registrar las transacciones de activos fijos para registrar capas
 description: Este artículo ofrece una visión general de la funcionalidad de la capa de registro para las transacciones de activos fijos.
-author: ShylaThompson
+author: moaamer
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770721"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493681"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Registrar las transacciones de activos fijos para registrar capas
 
@@ -39,8 +39,11 @@ Los diarios de activos se definen mediante la página de Nombres de diario en Co
 
 Puede especificar las cuentas contables para las transacciones de activos fijos en la página de Perfiles de contabilización de activos fijos. Para cada perfil de registro, debe seleccionar el tipo de transacción y el libro correspondiente, y después designar las cuentas contables. Configurar un registro del perfil de contabilización para cada libro que se envía a la contabilidad general.
 
+El activo fijo se puede introducir en documentos que solo respalden la capa de registro **Actual**, como **Pedido de compra**, **Factura de proveedor pendiente**, **Órdenes de venta** o **Factura de texto libre**. Al seleccionar un id. de activo fijo en cualquiera de esos documentos, el libro de activos se filtra con el libro de la capa de registro **Actual** y se completará automáticamente durante el registro cuando el sistema valide que la capa de registro de activos fijos es **Actual**. Si esa validación no se puede completar, el proceso de registro se detendrá. 
+
 > [!NOTE] 
-> El uso de libros derivados le permite registrar transacciones para distintas capas de registro simultáneamente. Puede crear transacciones del libro principal en un diario con la capa de registro correspondiente a la capa de registro del libro. Durante el registro, las transacciones derivadas del libro se registran en sus capas de registro adecuadas.
+> El uso de libros derivados le permite registrar transacciones para distintas capas de registro simultáneamente. Las transacciones del libro principal se crean en un diario o documento de origen, donde la capa de registro corresponde a la capa de registro del libro. Durante el registro, las transacciones derivadas del libro se registrarán en sus capas de registro adecuadas. 
+
 
 Para obtener más información, consulte [Libros derivados](derived-books.md) y [Registrar con los libros derivados](post-derived-value-models.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento
-description: En este tema se muestra cómo se pagan varias facturas cuando cada factura permite un descuento por pronto pago. Los escenarios de su artículo destacan cómo varían los descuentos por pronto pago que se aplican, en función de cuándo se realiza el pago.
+description: En este tema se muestra cómo se pagan varias facturas cuando cada factura permite un descuento por pronto pago. Los escenarios de este artículo destacan cómo varían los descuentos por pronto pago que se aplican, en función de cuándo se realiza el pago.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c592034ca9c777bbc600c040c61937ad71b4e36d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c7ae0bdc8245db1391103ca0f214fb3120f93f5b
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179834"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4447829"
 ---
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se muestra cómo se pagan varias facturas cuando cada factura permite un descuento por pronto pago. Los escenarios de su artículo destacan cómo varían los descuentos por pronto pago que se aplican, en función de cuándo se realiza el pago.
+En este tema se muestra cómo se pagan varias facturas cuando cada factura permite un descuento por pronto pago. Los escenarios de este artículo destacan cómo varían los descuentos por pronto pago que se aplican, en función de cuándo se realiza el pago.
 
 Fabrikam vende productos al cliente 4032. Fabrikam ofrece un descuento por pronto pago del uno por ciento si la factura se paga en 14 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros de liquidación se encuentran en la página **Parámetros de clientes**.
 

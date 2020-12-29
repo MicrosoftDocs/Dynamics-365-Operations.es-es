@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770606"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447628"
 ---
 # <a name="posting-definitions"></a>Definiciones de contabilización
 
@@ -32,12 +32,12 @@ ms.locfileid: "2770606"
 Este artículo proporciona información acerca de las definiciones de contabilización, y acerca de cómo definirlas y vincularlas.
 Para los tipos de contabilización y documentos admitidos, puede usar definiciones de contabilización en lugar de los perfiles de contabilización para clasificar cuentas principales y las dimensiones financieras de asientos contables. Puede ver los documentos y los tipos de registro que admite la página **Definiciones de contabilización de transacciones**. 
 
-Para empezar a usar definiciones de contabilización, seleccione**Usar definiciones de contabilización** en la página **Parámetros de contabilidad general**. Incluso al usar definiciones de contabilización, deberá definir los perfiles de contabilización para las entradas de origen y los documentos y los tipos de contabilización no admitidos. 
+Para empezar a usar definiciones de contabilización, seleccione **Usar definiciones de contabilización** en la página **Parámetros de contabilidad general**. Incluso al usar definiciones de contabilización, deberá definir los perfiles de contabilización para las entradas de origen y los documentos y los tipos de contabilización no admitidos. 
 
 Debe usar definiciones de contabilización para habilitar contabilidad de reserva de gasto para solicitudes de compra y contabilidad de pre-reserva de gasto para solicitudes de compra.
 
 ## <a name="defining-posting-definitions"></a>Establecimiento de definiciones de contabilización
-Use la página**Definiciones de contabilización** para especificar los criterios de coincidencia y para definir las entradas que se deben generar cuando se produce una coincidencia. Los criterios de coincidencia se evalúan para las entradas que se originan como distribuciones contables. 
+Use la página **Definiciones de contabilización** para especificar los criterios de coincidencia y para definir las entradas que se deben generar cuando se produce una coincidencia. Los criterios de coincidencia se evalúan para las entradas que se originan como distribuciones contables. 
 
 En la página **Definiciones de contabilización** puede también asignar números de prioridad a líneas de entradas para controlar el orden en el que se evalúan las líneas. Las líneas con el número de prioridad más baja se evalúan primero. Por ejemplo, se evalúan todas las líneas con una prioridad de 1, a continuación las líneas con una prioridad de 2, y así sucesivamente. Cuando se encuentra una coincidencia, se omiten los demás criterios de coincidencia. Además, solo los criterios del grupo que coincidan con la transacción de origen crearán entradas generadas. 
 

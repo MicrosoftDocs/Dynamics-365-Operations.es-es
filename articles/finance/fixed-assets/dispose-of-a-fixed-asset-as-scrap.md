@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 371cc2efa64916698da8e4230825c3c949920698
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975253"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447544"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Retirar un activo fijo como desechado
 
@@ -64,7 +64,7 @@ En este ejemplo, se adquirió el activo fijo y se depreció durante 15 meses, de
 [![Ejemplo de depreciación para activos fijos](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
-Para crear un diario de cancelación, vaya a **Activos fijos \> Entradas de diario \> Diario de activos fijos**y, a continuación, en el panel de acciones, seleccione **Líneas**. Seleccione **Cancelación – residuos**, y a continuación, seleccione un identificador de activos fijos. Para cancelar completamente el activo, no inserte un valor en el campo **Débito** o el campo **Crédito** .
+Para crear un diario de cancelación, vaya a **Activos fijos \> Entradas de diario \> Diario de activos fijos** y, a continuación, en el panel de acciones, seleccione **Líneas**. Seleccione **Cancelación – residuos**, y a continuación, seleccione un identificador de activos fijos. Para cancelar completamente el activo, no inserte un valor en el campo **Débito** o el campo **Crédito** .
 
 [![Diario de activos fijos](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 

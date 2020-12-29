@@ -19,11 +19,11 @@ ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
 ms.openlocfilehash: ae46dab5250fbe8096f43e420cb7ef33a5862af0
-ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3432056"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447513"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Servicios de configuración reglamentaria (RCS): características de globalización
 
@@ -84,7 +84,7 @@ Puede agregar una nueva característica de Globalización derivándola de una ca
 
     ![Importar característica de la página del repositorio global](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
 
-2. Seleccione **Sincronizar**para obtener las últimas características.
+2. Seleccione **Sincronizar** para obtener las últimas características.
 
     La lista sincronizada incluye características que están disponibles para usted, ya sea porque fueron publicadas por Microsoft o porque fueron compartidas con usted por otro proveedor de configuración.
 
@@ -125,7 +125,7 @@ Puede agregar una nueva característica de Globalización creándola desde cero.
 
     ![Agregar una nueva característica](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
 
-4. En la pestaña **Versiones**, seleccione una fecha **Válido desde** y luego seleccione **Cambiar Estado**para completar la característica. Las características completas pueden estar disponibles para un entorno específico para que puedan usarse en los servicios de globalización, o pueden publicarse en el repositorio global.
+4. En la pestaña **Versiones**, seleccione una fecha **Válido desde** y luego seleccione **Cambiar Estado** para completar la característica. Las características completas pueden estar disponibles para un entorno específico para que puedan usarse en los servicios de globalización, o pueden publicarse en el repositorio global.
 
 > [!NOTE]
 > Las características que tienen un valor de **Estado de la versión de la característica** en **Publicado** se pueden compartir con organizaciones externas.
@@ -209,7 +209,7 @@ Puede cambiar la base de una característica de Globalización derivada a la ver
 Por ejemplo, si desea cambiar la base de la versión derivada de una característica que creó, primero debe obtener la última versión de la característica importándola del repositorio global.
 
 1. En la página **Funciones de facturación electrónica**, seleccione **Importar**.
-2. Seleccione **Sincronizar**para obtener las últimas características.
+2. Seleccione **Sincronizar** para obtener las últimas características.
 3. En la lista de características, seleccione las características para importar y luego seleccione **Importar**.
 
     ![Importación de la última versión de una característica](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)

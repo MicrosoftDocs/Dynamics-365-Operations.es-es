@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039778"
+ms.locfileid: "4447782"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Crear una cuenta de almacenamiento en Azure y un almacén de claves
 
@@ -60,7 +60,7 @@ En este tema, completará dos pasos principales:
 3. Introduzca un nombre para el contenedor y establezca el campo **Nivel de acceso público** en **Privado (sin acceso anónimo)**.
 4. Abra el contenedor y vaya a **Configuraciones \> Directiva de acceso**.
 5. Seleccione **Agregar política** para agregar una política de acceso almacenada.
-6. Seleccione los campos **Identificador** y **Permisos** según corresponda. En el campo **Permisos** , debe seleccionar todos los permisos.
+6. Seleccione los campos **Identificador** y **Permisos** según corresponda. En el campo **Permisos**, debe seleccionar todos los permisos.
 
     ![Otorgar permiso de almacenamiento de blobs](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
@@ -68,7 +68,7 @@ En este tema, completará dos pasos principales:
 8. Seleccione **Aceptar** para guardar la política y luego guardar los cambios en el contenedor.
 9. Regrese a la cuenta de almacenamiento y abra **Explorador de almacenamiento (vista previa)**.
 10. Haga clic con el botón derecho en el contenedor y luego seleccione **Obtener firma de acceso compartido**.
-11. En el cuadro de diálogo **Firma de acceso compartido** , copie y almacene el valor en el campo **URI**. Este valor se utilizará en el siguiente procedimiento y se denominará *URI de firma de acceso compartido*.
+11. En el cuadro de diálogo **Firma de acceso compartido**, copie y almacene el valor en el campo **URI**. Este valor se utilizará en el siguiente procedimiento y se denominará *URI de firma de acceso compartido*.
 
     ![Seleccionar y copiar el valor de URI](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
@@ -76,9 +76,9 @@ En este tema, completará dos pasos principales:
 
 1. Abra el almacén de claves que tiene intención de usar con el complemento de facturación electrónica.
 2. Ir **Configuraciones** \> **Misterios** y luego seleccione **Generar/Importar** para crear un nuevo secreto.
-3. En la página **Crea un secreto** , en el campo **Opciones de carga** , seleccione **Manual**.
+3. En la página **Crea un secreto**, en el campo **Opciones de carga**, seleccione **Manual**.
 4. Permite escribir el nombre del secreto. Este nombre se utilizará durante la configuración del servicio en el Servicio de configuración reguladora (RCS) y se denominará el *nombre secreto del almacén de claves*.
-5. En el campo **Valor** , seleccione **URI de firma de acceso compartido** y luego seleccione **Crear**.
+5. En el campo **Valor**, seleccione **URI de firma de acceso compartido** y luego seleccione **Crear**.
 6. Configure la política de acceso para otorgar al complemento de facturación electrónica el nivel correcto de acceso seguro al secreto que creó. Ir **Configuraciones \> Política de acceso** y seleccione **Agregar política de acceso**.
 7. Establezca los permisos secretos para las operaciones **Obtener** y **Lista**.
 
@@ -88,6 +88,6 @@ En este tema, completará dos pasos principales:
 
     ![Otorgar permiso de certificado](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
-9. En el cuadro de diálogo **Principal** , seleccione el principal agregando **Complemento de facturación electrónica**.
+9. En el cuadro de diálogo **Principal**, seleccione el principal agregando **Complemento de facturación electrónica**.
 10. Seleccione **Agregar** y luego seleccione **Guardar cambios de Key Vault**.
-11. En la página **Visión de conjunto** , copie el valor **Nombre DNS** para el almacén de claves. Este valor se utilizará durante la configuración del servicio en RCS y se denominará *URI del almacén de claves*.
+11. En la página **Visión de conjunto**, copie el valor **Nombre DNS** para el almacén de claves. Este valor se utilizará durante la configuración del servicio en RCS y se denominará *URI del almacén de claves*.

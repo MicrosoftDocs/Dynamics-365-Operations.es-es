@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a71d0931445f3501f1b74f26c5eef583ab598b3c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188910"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447502"
 ---
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
 
@@ -98,7 +98,7 @@ La información de descuento aparece en la parte inferior de la página **Liquid
 | Descuento por pronto pago aplicado          | 3,00      |
 | Importe de descuento por pronto pago para aplicar | 7,00      |
 
-Arnie cambia de nuevo el valor del campo **Utilizar descuento por pronto pago** a **Normal** porque no desea permitir que este cliente aproveche el descuento por pronto pago restante de 7,00. A continuación, Arnie registra el pago. Cuando Arnie abre la página**Transacciones de cliente**, observa que la factura tiene un saldo de 0,00. También puede ver que existen dos pagos. Un pago es de 297,00 con un descuento por pronto pago de 3,00 y el otro pago es de 700,00.
+Arnie cambia de nuevo el valor del campo **Utilizar descuento por pronto pago** a **Normal** porque no desea permitir que este cliente aproveche el descuento por pronto pago restante de 7,00. A continuación, Arnie registra el pago. Cuando Arnie abre la página **Transacciones de cliente**, observa que la factura tiene un saldo de 0,00. También puede ver que existen dos pagos. Un pago es de 297,00 con un descuento por pronto pago de 3,00 y el otro pago es de 700,00.
 
 | Comprobante    | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo | Divisa |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

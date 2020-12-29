@@ -18,11 +18,11 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899334"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447678"
 ---
 # <a name="reconcile-a-bank-account"></a>Conciliación de cuenta bancaria
 

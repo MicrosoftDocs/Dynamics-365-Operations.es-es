@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000804"
+ms.locfileid: "4447764"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Espacio de trabajo de entrada de facturas de proveedor
 
@@ -39,7 +39,7 @@ El espacio de trabajo **Entrada de factura de proveedor** muestra la informació
 
 Debe completar esta configuración para poder mostrar los datos en visualizaciones de Power BI en el espacio de trabajo **Entrada de factura de proveedor**.
 
-1. En el espacio de trabajo **Administración de características** , filtre la lista para encontrar la característica **Automatización de factura de proveedor**.
+1. En el espacio de trabajo **Administración de características**, filtre la lista para encontrar la característica **Automatización de factura de proveedor**.
 3. Seleccione **Habilitar ahora**.
 4. Para asegurarse de que las facturas se puedan procesar de principio a fin sin necesidad de intervención manual, configure un flujo de trabajo de factura de proveedor. Para configurar un flujo de trabajo, vaya a **Proveedores \> Configuración \> Flujos de trabajo de proveedores**.
 5. Vaya **Proveedores \> Configuración \> Parámetros de proveedores** y seleccione la pestaña **Automatización de factura de proveedor**. Para obtener más información, consulte [Opciones de configuración para la automatización de factura de proveedor](vnd-invoice-set-up-options.md).
@@ -57,7 +57,7 @@ Para poder ver la información que se muestra en el espacio de trabajo debe tene
 
 ### <a name="company-selection"></a>Selección de empresa
 
-Cuando la característica **Automatizar facturas de proveedor** está activada, aparece un campo **Empresa** en la parte superior del espacio de trabajo. La selección del campo **Empresa** afecta a toda la información que se muestra en el espacio de trabajo. De forma predeterminada, la vista muestra información de la empresa en la que inició sesión. Al seleccionar una empresa diferente en el campo **Empresa** , puede mostrar información de esa empresa en el espacio de trabajo. Puede seleccionar un icono del espacio de trabajo para ir a la página relacionada en la empresa seleccionada.
+Cuando la característica **Automatizar facturas de proveedor** está activada, aparece un campo **Empresa** en la parte superior del espacio de trabajo. La selección del campo **Empresa** afecta a toda la información que se muestra en el espacio de trabajo. De forma predeterminada, la vista muestra información de la empresa en la que inició sesión. Al seleccionar una empresa diferente en el campo **Empresa**, puede mostrar información de esa empresa en el espacio de trabajo. Puede seleccionar un icono del espacio de trabajo para ir a la página relacionada en la empresa seleccionada.
 
 ### <a name="summary-tiles"></a>Iconos de resumen
 
@@ -70,9 +70,9 @@ Los iconos de la sección **Resumen de facturas pendientes** de la vista **Mi tr
 
 (Estos cuatro mosaicos requieren que la característica Automatización de facturas de proveedores esté activada en Administración de características).
 
-Para usar el icono **Recuperar facturas de proveedores** , la característica debe estar activada en Parámetros de proveedores. Vaya a **Proveedores \> Parámetros de proveedores** y, a continuación, en la pestaña **Factura** , establezca la opción **Permitir recuperación de factura de proveedor** en **Sí**.
+Para usar el icono **Recuperar facturas de proveedores**, la característica debe estar activada en Parámetros de proveedores. Vaya a **Proveedores \> Parámetros de proveedores** y, a continuación, en la pestaña **Factura**, establezca la opción **Permitir recuperación de factura de proveedor** en **Sí**.
 
-Cuando la característica está activada, también verá en el espacio de trabajo tres iconos agrupados en una sección llamada **Diarios**. Los iconos se titulan **Diarios** , **Diarios asignados a mí** y **Grupo de facturas**. 
+Cuando la característica está activada, también verá en el espacio de trabajo tres iconos agrupados en una sección llamada **Diarios**. Los iconos se titulan **Diarios**, **Diarios asignados a mí** y **Grupo de facturas**. 
 
 La información de la sección **Resumen de facturas pendientes** es para la empresa establecida como empresa predeterminada para su inicio de sesión.
 
@@ -86,7 +86,7 @@ Para crear un nuevo registro de factura, seleccione **Nuevo** y, a continuación
 - Registro de facturas
 - Aprobación de factura
 
-Tenga en cuenta que el registro que crea se basa en el filtro de la empresa, no en la empresa en la que inició sesión. Por ejemplo, ha iniciado sesión en la empresa **UMSF** , pero el filtro de empresa está configurado para **GBSI**. En este caso, si seleccione **Nuevo** y después seleccione un tipo de registro en la lista, el registro se crea en la empresa GBSI.
+Tenga en cuenta que el registro que crea se basa en el filtro de la empresa, no en la empresa en la que inició sesión. Por ejemplo, ha iniciado sesión en la empresa **UMSF**, pero el filtro de empresa está configurado para **GBSI**. En este caso, si seleccione **Nuevo** y después seleccione un tipo de registro en la lista, el registro se crea en la empresa GBSI.
 
 ### <a name="documents-not-invoiced-grids"></a>Cuadrículas de documentos no facturados
 
@@ -102,11 +102,11 @@ En la cuadrícula **Buscar pedido de compra** puede utilizar el campo **Buscar**
 
 ### <a name="related-information"></a>Información relacionada
 
-Puede ver información sobre las facturas registradas mediante los vínculos a la derecha del espacio de trabajo. Estos vínculos incluyen **Facturas de proveedor abiertas** , **Diario de facturas** e **Historial de facturas y detalles coincidentes**. En la sección **Proveedores** puede acceder a una lista filtrada que muestra todos los proveedores que están en espera, o puede utilizar el vínculo **Todos los proveedores**. Los enlaces **Todas las órdenes de compra** y **Pagos anticipados abiertos** también están disponibles.
+Puede ver información sobre las facturas registradas mediante los vínculos a la derecha del espacio de trabajo. Estos vínculos incluyen **Facturas de proveedor abiertas**, **Diario de facturas** e **Historial de facturas y detalles coincidentes**. En la sección **Proveedores** puede acceder a una lista filtrada que muestra todos los proveedores que están en espera, o puede utilizar el vínculo **Todos los proveedores**. Los enlaces **Todas las órdenes de compra** y **Pagos anticipados abiertos** también están disponibles.
 
 ### <a name="analytics--all-companies-page"></a>Página Análisis de todas las empresas
 
-Cuando la opción **Enviar automáticamente facturas importadas al flujo de trabajo** está establecida en **Sí** en la página **Parámetros de proveedores** , puede ver análisis de automatización. La página **Análisis de todas las empresas** proporciona métricas importantes, como las facturas de proveedores que están aprobadas por el aprobador y por la empresa. Esta página contiene cinco páginas de informe. Una página ofrece una visión general, y las otras ocho proporcionan información detallada acerca de las métricas de automatización de proveedores.
+Cuando la opción **Enviar automáticamente facturas importadas al flujo de trabajo** está establecida en **Sí** en la página **Parámetros de proveedores**, puede ver análisis de automatización. La página **Análisis de todas las empresas** proporciona métricas importantes, como las facturas de proveedores que están aprobadas por el aprobador y por la empresa. Esta página contiene cinco páginas de informe. Una página ofrece una visión general, y las otras ocho proporcionan información detallada acerca de las métricas de automatización de proveedores.
 
 En la tabla siguiente se muestran las visualizaciones que se encuentran disponibles en cada página de informe.
 

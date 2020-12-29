@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899651"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447469"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>Actualización de la entidad compuesta del diario del banco
 
@@ -40,7 +40,7 @@ Siga estos pasos para agregar el campo adicional de BankTransactionType al compu
     -   Tabla\\BankJournalLineStaging
 
 2.  Gestión de datos\\proyectos de datos
-    -   Exponga el tipo de **Transacción bancaria**en el diseño de **Datos de origen**.
+    -   Exponga el tipo de **Transacción bancaria** en el diseño de **Datos de origen**.
         -   Formato de datos de origen = Elemento XML
         -   Nombre de la entidad = Diario del banco
         -   Cargar archivo de datos = nueva versión SampleBankJournalCompositeEntity.xml

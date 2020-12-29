@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38dc261a74eea9e45036961fdfecea1465b238de
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: c54afd0d94a56f6306a11e03448cc66c168390c2
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977704"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4447828"
 ---
 # <a name="cost-control-workspace"></a>Espacio de trabajo de control de costes 
 
@@ -145,7 +145,7 @@ Los usuarios pueden hacer clic en **Entradas de costes** para explorar en profun
 
 ![Entradas de costes](./media/cost-entries.png)
 
-Por ejemplo, el alquiler es un gasto que se distribuye a los centros de coste. Un usuario que desee saber el coste del alquiler en el centro de costes debe realizar una exploración en profundidad para ver cómo se ha calculado el alquiler.
+Por ejemplo, el alquiler es un gasto que se distribuye a los centros de coste. Un usuario que desee saber el coste del alquiler que su centro de coste debe asumir puede explorar en profundidad para ver cómo se ha calculado el alquiler.
 
 Si los usuarios hacen clic en **Base de asignación** en la página **Entradas de costes**, aparece un cuadro de diálogo. Los usuarios pueden asignar la base de la asignación a la regla y ver las medidas estadísticas correspondientes que se registran para el período.
 

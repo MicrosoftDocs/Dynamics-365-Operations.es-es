@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770744"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447599"
 ---
 # <a name="online-financial-consolidations"></a>Consolidaciones financieras en línea
 
@@ -32,7 +32,7 @@ Este tema describe las consolidaciones financieras en línea en contabilidad gen
 Una vez completada la configuración, especifique los detalles de la consolidación en la página **Consolidar [En línea]**. Cuando haya terminado, puede hacer clic en **Aceptar** o en **Lote** para procesar la consolidación.
 
 ## <a name="criteria"></a>Criterios
-En la pestaña **Criterios** de la página **Consolidar [En línea]**, se definen las cuentas, los períodos, y el tipo de información que se está consolidando.
+En la pestaña **Criterios** de la página **Consolidar [En línea]**, se definen las cuentas, los períodos, y el tipo de datos que se están consolidando.
 
 ![Pestaña Criterios](./media/criteria-consolidate-online.png "Pestaña Criterios")
 

@@ -19,11 +19,11 @@ ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022576"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4447779"
 ---
 # <a name="asset-leasing-get-started"></a>Introducción al arrendamiento de activos
 
@@ -208,7 +208,7 @@ Esto representa la reducción del saldo arrastrado del activo por derecho de uso
 ## <a name="create-an-asset-lease"></a>Crear un arrendamiento de activos
 Complete los siguientes pasos para crear un arrendamiento nuevo. 
 
-1. Para usar el **Arrendamiento de activos** , debe habilitarlo en el espacio de trabajo **Gestión de funciones**. Desde el espacio de trabajo **Gestión de funciones** , seleccione **Todos** para que todas las funciones se enumeren en la página. Seleccione **Arrendamiento de activos** y, a continuación, seleccione **Habilitar ahora**.
+1. Para usar el **Arrendamiento de activos**, debe habilitarlo en el espacio de trabajo **Gestión de funciones**. Desde el espacio de trabajo **Gestión de funciones**, seleccione **Todos** para que todas las funciones se enumeren en la página. Seleccione **Arrendamiento de activos** y, a continuación, seleccione **Habilitar ahora**.
 2. Vaya a **Arrendamiento de activos > Común > Resumen de arrendamiento**. Introduzca los campos necesarios en la ficha desplegable **General**. 
    - **Detalles del arrendamiento**
    - **Vida útil del activo (meses)**
