@@ -19,11 +19,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5edd5345b4ebe8fbf0c516d8a9bc726ed491a8db
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773442"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407788"
 ---
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 
@@ -65,7 +65,7 @@ Para usar facturas electrónicas, su organización debe completar las tareas sig
 -   Asegúrese de que los archivos PDF y XML cumplen con los requisitos del SAT. Estos archivos se envían a los clientes como archivos adjuntos a un correo electrónico. El archivo XML generado debe basarse en la definición de esquema XML (XSD) que el SAT ha proporcionado. Debe guardar el archivo XML de cada factura electrónica.
 -   Se requiere un identificador de registro de impuestos RFC o CURP para la organización y sus clientes. Asegúrese de completar esta información en la configuración relacionada.
 -   Instale el certificado del SAT y del servicio de PAC en el servidor y asegúrese de que el usuario del SERVICIO DE RED tiene los permisos adecuados para las claves privadas.
--   Identifique el servicio web de PAC que use. (Haga clic en **Clientes** &gt; **Facturas** &gt; **Factura electrónica** &gt; **Cuentas de PAC**). Puede usar entornos de prueba y de producción si sus servicios de PAC admiten estos tipos de entornos.
+-   Identifique el servicio web de PAC que use. (Haga clic en  **Clientes** &gt; **Facturas** &gt; **Factura electrónica** &gt; **Cuentas de PAC**). Puede usar entornos de prueba y de producción si sus servicios de PAC admiten estos tipos de entornos.
 -   Habilite la configuración para enviar mensajes de correo electrónico y defina la plantilla de correo electrónico que usar para transmitir archivos XML y PDF. (Haga clic en **Administración de la organización** &gt; **Configuración** &gt; **Parámetros del correo electrónico**).
 -   Habilite a la configuración para emitir facturas electrónicas CFDI. (Haga clic en **Clientes** &gt; **Facturas** &gt; **Factura electrónica** &gt; **Parámetros de facturas electrónicas**.)
 -   Prepare la integración con el servicio web del PAC.

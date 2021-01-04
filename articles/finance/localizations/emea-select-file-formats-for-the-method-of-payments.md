@@ -18,11 +18,11 @@ ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 36f12fbc21fe782555c348f8a401e7aef6219f41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183581"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407827"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Formatos de archivo para métodos de pago
 

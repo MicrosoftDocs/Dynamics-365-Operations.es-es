@@ -19,11 +19,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bf8ebc17845ba1e15d5e0fb7e1b22907beebe460
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183578"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407787"
 ---
 # <a name="adjustment-inflation-declaration-report"></a>Informe de la declaración de inflación de ajuste
 

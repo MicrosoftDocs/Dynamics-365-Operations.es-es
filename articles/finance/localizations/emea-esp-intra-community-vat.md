@@ -18,18 +18,18 @@ ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: ca64dec38e23288adaeae8004e4d07b138e99be4
-ms.sourcegitcommit: 1e635443f9ac5da890a951a539faa919fcc358eb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3552011"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407810"
 ---
 # <a name="intra-community-vat-for-spain"></a>IVA intracomunitario para España
 [!include [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA). Explica cómo se activa la funcionalidad, cómo se calculan e imprimen los importes de IVA intracomunitarios, y revisa los importes de IVA intracomunitarios que se han registrado.
 
-La información acerca del impuesto sobre el valor añadido (IVA) intracomunitario se puede calcular y registrar automáticamente. Cuando se registra una factura de proveedor de la Unión Europea (EU), se crean dos transacciones de IVA. Una transacción de IVA se crea para los impuestos pagaderos, y otra transacción de IVA se crea para los impuestos soportados. Antes de poder utilizar la funcionalidad de IVA intracomunitario, debe habilitar la opción **IVA intracomunitario** en la ficha desplegable **Impuestos** de la pestaña **Impuestos y contabilidad** de la página **Parámetros de proveedores**  (**Proveedores** \> **Configuración** \> **Parámetros de proveedores**).
+La información acerca del impuesto sobre el valor añadido (IVA) intracomunitario se puede calcular y registrar automáticamente. Cuando se registra una factura de proveedor de la Unión Europea (EU), se crean dos transacciones de IVA. Una transacción de IVA se crea para los impuestos pagaderos, y otra transacción de IVA se crea para los impuestos soportados. Antes de poder utilizar la funcionalidad de IVA intracomunitario, debe habilitar la opción  **IVA intracomunitario** en la ficha desplegable **Impuestos** de la pestaña  **Impuestos y contabilidad** de la página **Parámetros de proveedores**  (**Proveedores** \> **Configuración** \> **Parámetros de proveedores**).
 
 ## <a name="calculating-intracommunity-vat-for-purchase-transactions"></a>Cálculo del IVA intracomunitario para las transacciones de compra
 Para calcular el IVA intracomunitario de las transacciones de compra, debe tener dos códigos de impuestos que tengan el mismo porcentaje de impuestos. Sin embargo, un código debe tener un porcentaje de impuestos positivo, y el otro código debe tener un porcentaje de impuestos negativo. También debe tener un grupo de impuestos que contenga un código de impuestos positivo y un código de impuestos negativo. Seleccione la casilla de verificación **IVA intracomunitario** para la línea que tenga un código de impuestos negativo. 
@@ -51,7 +51,7 @@ Para revisar los importes de IVA intracomunitarios registrados, ejecute la consu
 En el siguiente ejemplo se muestra cómo puede configurar códigos de impuestos y registrar e imprimir transacciones para el IVA intracomunitario.
 
 1. Vaya a **Proveedores** \> **Configuración** \> **Parámetros de proveedores**. 
-2. En la pestaña **Impuestos y contabilidad,** en la ficha desplegable **Impuestos**, establezca la opción **IVA intracomunitario** en **Sí**.
+2. En la pestaña **Impuestos y contabilidad,** en la ficha desplegable **Impuestos**, establezca la opción  **IVA intracomunitario** en **Sí**.
 
 ![Página de parámetros de proveedores, pestaña de impuestos y contabilidad, campo de IVA intracomunitario](media/1_Intra-community_VAT.png)
 

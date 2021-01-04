@@ -17,11 +17,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: de7cfdc7868305579c9ccdea4becd76b7ade0726
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139119"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407796"
 ---
 # <a name="mx-00008---vendor-registration-ids"></a>MX-00008: Id. de registro de proveedores
 

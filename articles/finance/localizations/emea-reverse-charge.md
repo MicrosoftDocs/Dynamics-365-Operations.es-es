@@ -1,9 +1,9 @@
 ---
-title: Cargo invertido
+title: Mecanismo de cargo invertido para el régimen de IVA e IBS
 description: Este tema explica cómo configurar el impuesto sobre el valor añadido (IVA) de cargo invertido en los países europeos, Arabia Saudí y Singapur.
 author: epodkolz
 manager: AnnBe
-ms.date: 09/02/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,21 +15,28 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9a58ae689a6185316854bf8f01d1237a487d3981
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
+ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760238"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4515056"
 ---
-# <a name="reverse-charge-vat"></a>Cargo invertido
+# <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mecanismo de cargo invertido para el régimen de IVA e IBS
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe un enfoque genérico para configurar el impuesto sobre el valor añadido (IVA) para UE, los países GCC y Singapur.
+Este tema describe un enfoque genérico para configurar la funcionalidad de cargo invertido para países o regiones que adoptan los esquemas de IVA o IBS.
+                                                                                 
+La disponibilidad de la funcionalidad por país o región se gestiona mediante las siguientes funciones en el espacio de trabajo **Administración de características**.
 
-> [!NOTE]                                                                                  
-> Para Bahrein, Kuwait, Omán y Qatar, una característica **Disponibilidad de cobro revertido para países adicionales** debe estar habilitada en el espacio de trabajo **Gestión de características**. 
+| Característica                                              | País/región                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sin característica específica                                | Austria </br>Bélgica </br>Bulgaria </br>Croacia </br>Chipre </br>República Checa </br>Dinamarca  </br>Estonia  </br>Finlandia  </br>Francia  </br>Alemania  </br>Hungría  </br>Islandia  </br>Irlanda  </br>Italia  </br>Letonia  </br>Liechtenstein  </br>Lituania  </br>Luxemburgo  </br>Países Bajos  </br>Noruega-Polonia </br>Portugal </br>Rumanía  </br>Arabia Saudí </br>Singapur  </br>Eslovaquia  </br>Eslovenia  </br>España  </br>Suecia  </br>Suiza  </br>Reino Unido  </br>Emiratos Árabes Unidos |
+| Cargo invertido para países adicionales            | Baréin  </br>Kuwait  </br>Omán  </br>Catar                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Habilitar mecanismo de cargo invertido para el esquema de IVA e IBS | Todos los demás países o regiones excepto:  </br>Brasil  </br>India  </br>Rusia                                                                                                                                                                                                                                                                                                                                                                                         |
+ 
+ Para obtener más información, consulte la sección [Habilitar el mecanismo de cargo invertido para la característica del régimen de IVA e IBS](#enable-reverse-charge) más adelante en este tema.
 
 El cargo invertido es un esquema de impuestos que transfiere la responsabilidad de la contabilidad y notificación del IVA del vendedor al comprador de mercancías o servicios. Por lo tanto, los destinatarios de mercancías o servicios reportan el IVA diferido (en el rol de un vendedor) y el IVA soportado (en el rol de un comprador) en su declaración del IVA.
 
@@ -61,7 +68,7 @@ Debe asignar este código de impuestos negativo a un grupo de impuestos de artí
 </tbody>
 </table>
 
-## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Configurar grupos de impuestos y grupos de impuestos de artículos
+## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Configurar grupos de impuestos y grupos de impuestos de artículos
 Recomendamos que use los grupos de impuestos independientes para las operaciones de ventas y las operaciones de compras.
 
 <table>
@@ -79,10 +86,10 @@ Recomendamos que use los grupos de impuestos independientes para las operaciones
 </tr>
 </table>
 
-## <a name="set-up-reverse-charge-groups"></a>Configurar los grupos de cargo invertido
+## <a name="set-up-reverse-charge-item-groups"></a><a name="reverse-charge-item-group"></a>Configurar los grupos de elementos de cargo invertido
 En la página **Grupos de artículos de cargo invertido** (**Impuestos** &gt; **Configuración** &gt; **Impuestos** &gt; **Grupos de artículos de cargo invertido**), puede definir grupos de productos o servicios, o productos individuales o servicios, a los que se puede aplicar el cargo invertido. Para cada grupo de artículos de cargo invertido, defina la lista de artículos, grupos de artículos y categorías para ventas o compras.
 
-## <a name="set-up-reverse-charge-rules"></a>Configurar las reglas de cargo invertido
+## <a name="set-up-reverse-charge-rules"></a><a name="reverse-charge-rules"></a>Configurar las reglas de cargo invertido
 En la página **Reglas de cargo invertido** (**Impuestos** &gt; **Configuración** &gt; **Impuestos** &gt; **Reglas de cargo invertido**), puede definir las reglas de la aplicabilidad para fines de compra y venta. Puede configurar un conjunto de reglas de aplicabilidad de cargo invertido. Para cada regla, establezca los siguientes campos:
 
 - **Tipo de documento**: seleccione **Pedido de compra**, **Diario de facturas de proveedor**, **Pedido de ventas**, **Factura de servicios**, **Diario de facturas del cliente** o **Factura de proveedor**.
@@ -99,18 +106,18 @@ Además, puede especificar si va a aparecer una notificación y si la línea del
 - **Solicitud**: aparece una notificación para confirmar que el cargo invertido se puede aplicar.
 - **Establecer**: la línea del documento se actualiza sin la notificación adicional.
 
-## <a name="set-up-countryregion-properties"></a>Configurar las propiedades de país/región
+## <a name="set-up-countryregion-properties"></a><a name="Set-up-Country/region-properties"></a>Configurar las propiedades de país/región
 En la página **Parámetros de comercio exterior** (**Impuesto** &gt; **Configuración** &gt; **Impuesto** &gt; **Comercio exterior** &gt; **Parámetros de comercio exterior**), en la pestaña **Propiedades de país/región**, establezca el país o región de la entidad jurídica actual en *Nacional*. Configure **Tipo de país/región** de los países o regiones de la UE que participen en comercio de la UE con la entidad jurídica actual en *UE*. Configure **Tipo de país/región** de los países o regiones GCC que participen en comercio GCC con la entidad jurídica actual en *GCC*.
 
 ## <a name="set-up-default-parameters"></a>Configurar parámetros predeterminados
 Para habilitar la funcionalidad para cargo revertido, en la página **Parámetros de contabilidad general**, en la pestaña **Cargo invertido**, establezca la opción **Habilitar cargo invertido** en **Sí**. En el los campos **Grupo de impuestos del pedido de compra** y **Grupo de impuestos de pedido de ventas**, seleccione los grupos de impuestos predeterminados. Cuando se cumple una condición de la aplicabilidad de cargo invertido, la línea de pedido de ventas o compra se actualiza con estos grupos de impuestos.
 
-## <a name="reverse-charge-on-a-sales-invoice"></a>Cargo invertido en una factura de ventas
+## <a name="reverse-charge-on-a-sales-invoice"></a><a name="reverse-charge-sale"></a>Cargo invertido en una factura de ventas
 Para las ventas sujetas al modelo de cargo invertido, el vendedor no carga el IVA. En su lugar, la factura indica los artículos sujetos al IVA de cargo invertido y el importe total del IVA de cargo invertido.
 
 Cuando se registra una factura de ventas con cargo invertido, las transacciones de impuestos tienen la dirección fiscal de **Impuestos repercutidos** y los impuestos cero, y las casillas de verificación **Cargo invertido** y **Exento** están seleccionadas.
 
-## <a name="reverse-charge-on-a-purchase-invoice"></a>Cargo invertido en una factura de compras
+## <a name="reverse-charge-on-a-purchase-invoice"></a><a name="reverse-charge-purchase"></a>Cargo invertido en una factura de compras
 Para las compras sujetas a cargo invertido, el comprador que recibe la factura con el cargo invertido actúa como un comprador y vendedor a efectos contables de IVA.
 
 Cuando se registra una factura de compra con cargo invertido, se crean dos transacciones de impuestos. Una transacción tiene la dirección fiscal de **Impuestos soportados**. La otra transacción tiene la dirección fiscal de **Impuestos repercutidos** y se selecciona la casilla de verificación **Cargo invertido**.
@@ -118,3 +125,15 @@ Cuando se registra una factura de compra con cargo invertido, se crean dos trans
 En el captura de pantalla siguiente, una transacción tiene la dirección **Impuestos soportados** y otra transacción tiene la dirección **Impuestos repercutidos**. 
 
 ![Impuestos registrados](media/apac-sau-posted-sales-tax.png)
+
+## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>Habilitar mecanismo de cargo invertido para la característica de régimen de IVA e IBS
+En el espacio de trabajo **Administración de características**, busque la característica y seleccione **Habilitar**.
+
+Después de habilitar la característica, la pestaña **Cargo invertido** está disponible en todas las entidades jurídicas. Habilite la funcionalidad de Cargo invertido para una entidad jurídica estableciendo la opción **Habilitar cargo invertido** en **Sí**.
+
+Las siguientes páginas y elementos de menú relacionados con la configuración de características estarán disponibles:
+ - **Grupos de elementos de cargo invertido** (**Impuesto** > **Configuración** > **Impuesto** > **Grupos de elementos de cargo invertido**). Para obtener más información, vea la sección [Configurar grupos de elementos de cargo invertido](#reverse-charge-item-group).
+ - **Reglas de cargo invertido** (**Impuesto** > **Configuración** > **Impuesto** > **Reglas de cargo invertido**). Vea [Configurar las reglas de cargo invertido](#reverse-charge-rules).
+ - **Parámetros de comercio exterior** (**Impuesto** > **Configuración** > **Impuesto** > **Comercio Exterior** > **Parámetros de comercio exterior**). Vea [Configurar las propiedades de país o región](#Set-up-Country/region-properties).
+
+La casilla de verificación **Cargo invertido** estará disponible en las páginas **Grupo de impuestos** e **Impuesto registrado**. Para obtener más información, vea las secciones [Configurar grupos de impuestos y grupos de impuestos sobre las ventas de artículos](#sales-tax-item-sales-tax-groups), [Cargo invertido en facturas de venta](#reverse-charge-sale) y [Cargo invertido en facturas de compra](#reverse-charge-purchase).

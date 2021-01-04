@@ -16,11 +16,11 @@ ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 819739d61839b297f454fd943071d99c08b48ec3
-ms.sourcegitcommit: 8058db089b8768076ff1250be77d42a6e2b3f570
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3378956"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407809"
 ---
 # <a name="calculate-due-dates-and-report-on-the-average-period-of-payments-spain"></a>Calcular las fechas de vencimiento y el informe en el período medio de pagos (España)
 

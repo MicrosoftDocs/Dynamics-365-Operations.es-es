@@ -18,11 +18,11 @@ ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: cfb8fd3bdd581ebc60a60f48240453015701b894
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621427"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407813"
 ---
 # <a name="declaration-347-report"></a>Informe del Modelo 347
 [!include [banner](../includes/banner.md)]

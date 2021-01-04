@@ -18,11 +18,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 819f32abe09da9239d736c1f6425cdf8632b196b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981734"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407812"
 ---
 # <a name="use-fiscal-data-from-the-invoice-account"></a>Usar datos fiscales de la cuenta de factura
 

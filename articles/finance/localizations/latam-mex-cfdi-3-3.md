@@ -16,11 +16,11 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
 ms.openlocfilehash: 4f2c2879c9d39580fb2e9e88f458a16066c46a94
-ms.sourcegitcommit: 7e953d28ff570ca5e71361ca43aefb10526bc681
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635296"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407786"
 ---
 # <a name="cfdi-layout-version-33"></a>Versión 3.3 del diseño CFDI
 

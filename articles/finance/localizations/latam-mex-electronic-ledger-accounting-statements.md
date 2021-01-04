@@ -19,11 +19,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 843beaea8afdb8ff3f63f1b3e58e9488731bc654
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773439"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407784"
 ---
 # <a name="electronic-ledger-accounting-statements"></a>Extractos electrónicos de cuenta contable
 

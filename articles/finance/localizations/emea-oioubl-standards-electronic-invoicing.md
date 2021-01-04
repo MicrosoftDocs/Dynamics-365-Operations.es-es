@@ -3,7 +3,7 @@ title: Estándares compatibles para la facturación electrónica en Europa
 description: Este tema explica el nivel de cobertura que existe en la facturación electrónica para Europa.
 author: mrolecki
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c86cc90e5f441641bc14d20898e65325d7c7d716
-ms.sourcegitcommit: 1ca48d95fbff2555307cc1e5e5e23feea79a8bc1
+ms.openlocfilehash: 3ed98c268af841b1625f547c79f271f3e3a81b74
+ms.sourcegitcommit: 3d16522c00ba2d30aa43befbf1b7b3eaad377325
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763686"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4592469"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Estándares compatibles para la facturación electrónica en Europa
 
@@ -47,7 +47,22 @@ Los formatos específicos de país siguientes de facturas electrónicas están d
 -   Formato específico estonio versión 1.2
 -   Finvoice 3.0 para Finlandia
 
-La facturación electrónica se basa en [Informes electrónicos (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Un modelo de datos **Modelo de factura**, asignación de modelo de facturas y varias configuraciones de formato específicos de país/región se han creado para Austria (AT), Dinamarca (DK), Italia (IT), Noruega (NO), España (ES), Francia (FR), Bélgica (BE), Países Bajos (NL), Alemania (DE), Estonia (EE), Finlandia (FI) y la Unión Europa (EU).
+La facturación electrónica se basa en [Informes electrónicos (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). SE han creado configuraciones de modelos de datos para un **Modelo de factura**, asignaciones de modelos de facturas y de formatos de informes electrónicos específicos para países o regiones para los siguientes países o regiones: 
+
+- Austria (AT)
+- Dinamarca (DK)
+- Italia (IT)
+- Noruega (NO)
+- España (ES)
+- Francia (FR)
+- Bélgica (BE)
+- Países Bajos (NL)
+- Alemania (DE)
+- Estonia (EE)
+- Finlandia (FI)
+- Unión Europea (UE)
+
+Las configuraciones de modelos de datos para **Modelo de factura**, asignación de modelos de facturas y de formatos de informes electrónicos específicos para un país o región incluyen:
 
 -   Factura de ventas de OIOUBL - para AT, DK, y NO
 -   Nota de abono de OIOUBL - para AT, DK, y NO
@@ -82,6 +97,16 @@ La facturación electrónica se basa en [Informes electrónicos (ER)](../../dev-
 
 Las facturas electrónicas y las notas de abono que genera incluyen la información requerida, como el número EAN (número europeo de artículo), la persona de contacto, el número de la cuenta de dimensión y la información de la dirección del cliente. Se aplican reglas de validación cuando se generan facturas, de modo que puede verificar que se haya especificado la información correcta. El conjunto de información necesaria puede ser diferente de un país a otro. Como los requisitos, al igual que los formatos y los países admitidos, están sujetos a cambios, debe ir siempre a la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS) y ver la lista más actualizada de archivos disponibles que tienen un tipo de activo de **configuración de GER**.
 
+## <a name="electronic-invoice-configuration"></a>Configuración de facturas electrónicas
+La configuración y los detalles de las facturas electrónicas dependen del país o región para el que se implementan. Para obtener más información sobre cómo configurar y utilizar las facturas electrónicas de los clientes, consulte los temas relacionados específicos de cada país:
+
+- [Italia](emea-ita-e-invoices.md)
+- [Noruega](emea-nor-e-invoices.md)
+- [Alemania](emea-deu-e-invoices.md)
+- [Finlandia](https://support.microsoft.com/help/4559937)
+- [Estonia](https://support.microsoft.com/help/4552679)
+- [PEPPOL](https://support.microsoft.com/help/4490320)
+
 ## <a name="additional-resources"></a>Recursos adicionales
 Para obtener más información acerca de cómo configurar facturas electrónicas, puede reproducir las siguientes [Guías de la tarea](../../fin-and-ops/get-started/help-overview.md#task-guides) en el panel de la Ayuda:
 
@@ -90,4 +115,4 @@ Para obtener más información acerca de cómo configurar facturas electrónicas
  - Configurar cuentas de cliente para la facturación electrónica OIOUBL
 
 > [!NOTE] 
-> Aunque estas guías de la tarea fueron creadas para el formato de factura *OIOUBL* específicamente danés, son aplicables en otros países compatibles con desviaciones de menor importancia.
+> Aunque estas guías de la tarea fueron creadas para el formato de factura *OIOUBL* específicamente danés, son aplicables en otros países o regiones compatibles con desviaciones de menor importancia.

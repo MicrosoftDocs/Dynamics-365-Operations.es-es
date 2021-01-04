@@ -1,6 +1,6 @@
 ---
 title: Ámbito de localización mexicana
-description: Este tema describe la estrategia y el ámbito relativos a impuestos, finanzas, y leyes y normativas de contabilidad en México que se han implementado como parte de Microsoft Dynamics 365 Finance.
+description: Este tema describe la estrategia y el ámbito relativos a impuestos, finanzas, y leyes y normativas de contabilidad en México.
 author: sndray
 manager: AnnBe
 ms.date: 04/11/2018
@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05c912fef5590f6ccc9d85618960922832602447
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 22ecd1743891e81d331ee5779161a792a1ec0205
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249077"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4669000"
 ---
 # <a name="scope-of-mexican-localization"></a>Ámbito de localización mexicana
 
@@ -48,12 +48,12 @@ Los socios de canal son un aspecto importante de nuestra estrategia para ayudar 
 
 Aunque los socios de canal pudieran ofrecer soluciones que cumplan las normas legales específicas que son exclusivas de los municipios, las ciudades, los estados, u otras regiones de México, Microsoft no proporciona ninguna garantía (expresa, implícita, normativa u otras) de que las soluciones creadas por los socios cumplan con los requisitos aplicables localmente en negocios, impuestos, normas, leyes u otros requisitos.
 
-Los socios de canal o clientes solo son responsables de las configuraciones, las personalizaciones, localizaciones, o traducciones que creen o implementen en nombre de los clientes, y también de las actualizaciones de estas soluciones. Son también los únicos responsables del soporte o cualquier otro servicio que se ofrezca a los clientes para estas soluciones. Debe ponerse en contacto con su socio de canal para obtener información acerca de las soluciones que el socio de canal crea para las versiones con licencia de Finance.
+Los socios de canal o clientes solo son responsables de las configuraciones, las personalizaciones, localizaciones, o traducciones que creen o implementen en nombre de los clientes, y también de las actualizaciones de estas soluciones. Son también los únicos responsables del soporte o cualquier otro servicio que se ofrezca a los clientes para estas soluciones. Póngase en contacto con su socio de canal para obtener información acerca de las soluciones que el socio de canal crea para las versiones con licencia de Finance.
 
-Este tema describe la estrategia y el ámbito de los requisitos específicos que Microsoft ha implementado como parte del software de Finance and Operations que puso a disposición comercial general en México.
+Este tema describe la estrategia y el ámbito de los requisitos específicos que Microsoft ha implementado como parte del software de Finance and Operations que puso a disposición general en México.
 
 ## <a name="terminology-and-abbreviations"></a>Terminología y siglas
-**Personalización** hace referencia a una de los siguientes puntos:
+**Personalización** se refiere a:
 
 - Cualquier configuración, modificación o cambios que los socios o clientes realicen en el software de Microsoft Dynamics mismo o, si es aplicable, a la documentación del software para ajustarse a las necesidades de negocio específicas de un cliente. Entre los ejemplos figura agregar o cambiar el nombre de campos o tablas, crear informes personalizados, o integraciones con las soluciones de terceros.
 - Cualquier software que se desarrolla para el software de Microsoft Dynamics.
@@ -82,7 +82,7 @@ Este tema describe la estrategia y el ámbito de los requisitos específicos que
 
 ## <a name="mexican-localization-strategy"></a>Estrategia de localización mexicana
 
-Normalmente la estrategia de Microsoft para abordar los requisitos de informes de impuestos, financieros, contables o estatutarios para México consiste en proporcionar localizaciones para Finance que hacen lo siguiente:
+Normalmente la estrategia de Microsoft para abordar los requisitos de informes de impuestos, financieros, contables o estatutarios para México consiste en proporcionar localizaciones para Finance que:
 
 - Implementan los requisitos fiscales federales que se detallan en la sección [Ámbito mexicano de localización](#mexican-localization-scope) más adelante en este tema.
 - Entregan las nuevas características específicas normativas mediante configuraciones o mediante el desarrollo de una nueva funcionalidad que implementa los requisitos federales que se detallan en la sección [Ámbito mexicano de localización](#mexican-localization-scope), de acuerdo con la información especificada en este tema.
@@ -107,9 +107,9 @@ El ámbito de localización para la versión de Finance que está disponible en 
 Para ver una lista de las características específicas que ofrece y admite Microsoft, consulte la sección [Características compatibles](#supported-features) más adelante en este documento. Puede encontrar los detalles acerca de cada característica en la ayuda de Finance, en la ayuda en línea, y en el informe que se publican en la sección [Portal de localización de Microsoft Dynamics](https://mbs.microsoft.com/customersource/UK/AX/support/support-news/GFMLocalizationPortalMC).
 
 ## <a name="market-availability"></a>Disponibilidad de mercado
-Microsoft tiene como objetivo entregar características normativas de una forma que dé suficiente tiempo para la instalación. En el caso de las actualizaciones de impuestos y normativas que contienen cambios necesarios para implementar los requisitos de informes de impuestos, contabilidad, financieros, o estatutarios que normalmente afectan a la mayoría de negocios en México, nuestro objetivo es lanzar las actualizaciones antes de la fecha de vigencia u otra fecha que indique la autoridad gubernamental aplicable, tanto a escala federal como estatal, tal como se identifica en la sección [Estrategia mexicana de localización](#mexican-localization-strategy), de modo que nuestros socios de canal tengan tiempo para actualizar sus soluciones del cliente. Internamente, denominamos a esta fecha la *fecha requerida por el mercado* (MRD).
+Microsoft tiene como objetivo entregar características normativas de una forma que dé suficiente tiempo para la instalación o actualización de las soluciones existentes de los clientes. Si las actualizaciones de impuestos y normativas contienen cambios necesarios para implementar requisitos de informes fiscales, contables, financieros o normativos y estatutarios que comúnmente afectan a la mayoría de las empresas en México, nuestro objetivo es publicar las actualizaciones antes de la fecha de vigencia o antes de cualquier otra fecha obligatoria según se requiera a nivel federal o estatal. Para más información, vea [Estrategia de localización mexicana](#mexican-localization-strategy). 
 
-Nos esforzamos por cumplir las MRD y fechas que exige la autoridad gubernamental aplicable. Sin embargo, los distintos factores pueden afectar a la entrega oportuna de las actualizaciones de impuestos y normativas. Estos factores son los siguientes:
+Nos esforzamos por cumplir las MRD y fechas que exige la autoridad gubernamental aplicable. Sin embargo, los distintos factores pueden afectar a la entrega oportuna de las actualizaciones de impuestos y normativas. Entre estos se incluyen:
 
 - Cambios legislativos o normativos que el gobierno realiza sin suficiente aviso previo antes de la fecha de entrada en vigor de la ley
 - Limitaciones de características, funcionalidad, infraestructura o arquitectura de las versiones de software afectadas que normalmente están disponibles en el mercado
@@ -549,7 +549,7 @@ Los siguientes requisitos específicos están fuera de ámbito en las localizaci
 
 - Generación de CFDI para los documentos de nómina.
 - Los archivos XML electrónicos de las cuentas contables no incluyen la marca digital.
-- Requisitos de estados/regiones distintos de los que se describen en la sección [Estrategia mexicana de localización](#mexican-localization-strategy) de este tema.
+- Requisitos de estados o regiones distintos de los descritos en la sección [Estrategia mexicana de localización](#mexican-localization-strategy) de este tema.
 - Requisitos de agencias reguladoras o autarquías distintos del SAT.
 
 ### <a name="modules"></a>Módulos
@@ -589,9 +589,9 @@ Las siguientes características y funciones están fuera de ámbito en las local
 
     - Sector público
 
-- **Industria de comercio:**
+- **Sector del comercio**
 
-    - **Servicios:** los servicios en línea siguientes se encuentra fuera de ámbito del sector comercial para las ubicaciones mexicanas:
+    - **Servicios**: los servicios en línea siguientes se encuentra fuera de ámbito del sector comercial para las ubicaciones mexicanas:
 
         - Sites Services para Microsoft Dynamics ERP
         - Servicios de comercio para Microsoft Dynamics ERP

@@ -17,11 +17,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 63769dc6eabdfc782020014a8ef3177c6591454c
-ms.sourcegitcommit: 4df9ca744621aafd6af6a89bf7f6fa9f94bedb00
+ms.sourcegitcommit: f717439a228358e85c99dfc97fd9fcc68d98b986
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4100985"
+ms.locfileid: "4407830"
 ---
 # <a name="mx-00010-cancel-an-electronic-invoice"></a>MX-00010 Cancelar facturas electrónicas
 

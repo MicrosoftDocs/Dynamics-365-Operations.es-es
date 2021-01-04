@@ -17,11 +17,11 @@ ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 033b002a633a85144ded21f4494b3af3bc453c55
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657354"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407814"
 ---
 # <a name="report-340-for-spain"></a>Informe 340 para España
 

@@ -18,11 +18,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9bcae6650762fa98adb06daef2e5cd3e2d56d37a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981730"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407819"
 ---
 # <a name="sales-and-purchase-cycles-for-spain"></a>Ventas y ciclos de compra para España
 

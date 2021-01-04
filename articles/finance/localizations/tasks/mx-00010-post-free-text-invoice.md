@@ -17,11 +17,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 53ddc1f28eda57910548471bb51e9e1db2e9b442
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137986"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407792"
 ---
 # <a name="mx-00010-post-a-free-text-invoice"></a>MX-00010 Registrar una factura de servicio
 

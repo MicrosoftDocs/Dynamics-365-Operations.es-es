@@ -17,11 +17,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 2f669c07a064bbc414adad67767ac256ddbbdd39
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137987"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407794"
 ---
 # <a name="mx-00010-enter-tax-registration-ids-for-mexican-legal-entities"></a>MX-00010 Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas
 

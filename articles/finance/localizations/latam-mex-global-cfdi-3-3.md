@@ -17,11 +17,11 @@ ms.author: v-kikozl
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.2
 ms.openlocfilehash: edc733c873817932b8ff3d81b8d1628f478a09ce
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3058004"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407785"
 ---
 # <a name="global-cfdi-electronic-invoices-for-mexico"></a>Facturas electrónicas de CFDI globales para México 
 

@@ -17,11 +17,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0ba0e9fb9f149a0762c99f216d58c0f8e9fbefe7
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139117"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407797"
 ---
 # <a name="mx-00007-customer-registration-ids-and-other-information"></a>MX-00007 Id. de registro del cliente y otra información
 
