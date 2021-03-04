@@ -60,3 +60,6 @@ Asegúrese de que el campo Cuenta de cliente contiene el número de cliente US-0
     * Existen dos acuerdos de descuento de línea para el producto T0012: un 5 por ciento de descuento para pedidos de 1 a 10 y un 7 por ciento de descuento para pedidos de más de 10. Observe cómo se aplican los descuentos a un grupo de productos, en este ejemplo, el código de grupo 01, al cual pertenece el producto T0012.  
 4. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

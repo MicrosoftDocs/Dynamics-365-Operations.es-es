@@ -95,3 +95,6 @@ Un cálculo de la lista de materiales (L. MAT.) específico para pedidos represe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

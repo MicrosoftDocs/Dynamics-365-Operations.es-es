@@ -72,3 +72,6 @@ Puede registrar el historial de un elemento dentro de una L. MAT de servicio. Ca
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

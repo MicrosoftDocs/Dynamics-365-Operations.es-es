@@ -64,3 +64,6 @@ Este procedimiento muestra cómo confirmar pedidos de ventas. Se le mostrará c�
 11. Haga clic en **Aceptar**.
 12. Haga clic en **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

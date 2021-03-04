@@ -57,3 +57,6 @@ Este procedimiento se centra en validar el diagrama de árbol de una línea de v
 5. En el árbol, seleccione "Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559".
     * El trabajo para el segundo kanban también se planifica, ya que se planifica el diagrama de árbol completo. Observe que el estado del trabajo kanban se cambia de Sin planificar a Planificado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

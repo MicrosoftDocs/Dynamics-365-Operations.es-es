@@ -44,3 +44,6 @@ Las reglas de asignación contable se pueden usar para planes presupuestarios. C
 > [!NOTE]
 > No puede usar las reglas de asignación contable de empresas vinculadas para la planificación presupuestaria.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

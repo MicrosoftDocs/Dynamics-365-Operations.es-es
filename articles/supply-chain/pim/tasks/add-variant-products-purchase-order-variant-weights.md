@@ -48,3 +48,6 @@ Este procedimiento le guía por los pasos para el uso de pesos de variante con e
 17. Establezca el valor de cantidad en '1000'.
 18. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

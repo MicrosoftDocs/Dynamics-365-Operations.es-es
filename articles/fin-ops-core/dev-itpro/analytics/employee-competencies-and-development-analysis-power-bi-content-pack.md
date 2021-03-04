@@ -69,3 +69,6 @@ Los datos de la aplicación se utilizan para rellenar los informes del paquete d
 | Workforce\_WorkerName             | Nombre, apellido y nombre completo                                                                       | |
 | Workforce\_WorkerTitle            | Cargo y fecha de antigüedad                                                                                   | |
 | Workorce\_WorkerTrend             | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

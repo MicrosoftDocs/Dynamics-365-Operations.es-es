@@ -70,3 +70,6 @@ Puede especificar qué estados de inventario son estados de bloqueo mediante el 
 [Procesos de administración de la calidad](quality-management-processes.md)
 
 [Inspección de la calidad de las mercancías](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

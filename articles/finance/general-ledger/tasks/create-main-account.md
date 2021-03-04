@@ -52,3 +52,6 @@ Esta guía de tareas describe los pasos de la adición de una cuenta principal a
 21. En el campo **Tipo de traducción de divisa**, seleccione el método para calcular tipos de cambio para la cuenta.
 22. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

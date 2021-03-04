@@ -77,3 +77,6 @@ Cuando los importes de compensación para un empleado se hayan revisado y los aj
 Cuando se haya actualizado el estado de uno o más eventos del empleado a Aprobado, pueden cargarse a los registros de compensación fija de los empleados. Esto se puede hacer seleccionando cada evento del empleado sucesivamente y haciendo clic en el botón **Cargar compensación del empleado** en la página **Resultados de los empleados**, o haciendo clic en **Cargar compensación** en la página **Resultados de proceso** para cargar todos los eventos de empleado aprobados a la vez.
 
 Al hacer clic en **Aceptar** en el diálogo **Cargar compensación** se agregarán las líneas de acción de compensación que no estén vacías a la página **Compensación fija del empleado** .
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

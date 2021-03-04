@@ -62,3 +62,6 @@ Use este procedimiento para crear un pedido de compra que se compruebe para ver 
 4. Haga clic en Errores o advertencias de la comprobación presupuestaria.
 5. Haga clic en Cerrar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

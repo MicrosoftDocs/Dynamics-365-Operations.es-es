@@ -93,3 +93,6 @@ Siga los pasos de este tema para configurar SQL Server Reporting Services (SSRS)
 13. Haga clic en **Salir** para cerrar el **administrador de configuración de Reporting Services**.
 
     [![cerrar el administrador de configuración de Reporting Services](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

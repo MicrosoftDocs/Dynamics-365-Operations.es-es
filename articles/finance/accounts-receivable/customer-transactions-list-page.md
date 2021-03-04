@@ -97,3 +97,6 @@ Cada campo tiene un efecto diferente en la transacción cuando lo edita:
 - **Editar las condiciones de descuento por pronto pago:** los descuentos por pronto pago cambian en función de la fecha de base y de las condiciones de descuento por pronto pago.
 
 Cuando haya terminado de editar los valores de pago, seleccione **Cerrar** para guardar los cambios.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

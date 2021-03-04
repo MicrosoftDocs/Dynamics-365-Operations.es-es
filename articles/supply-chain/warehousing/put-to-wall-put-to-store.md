@@ -541,3 +541,6 @@ Si las posiciones de ordenación deben cerrarse manualmente, la opción **Posici
 
 > [!IMPORTANT]
 > Una vez que se haya creado un trabajo de movimiento desde la ubicación de ordenación, no debe cancelar el trabajo. De lo contrario, la posición y los contenedores que contiene se eliminarán del sistema y no estarán disponibles para su posterior procesamiento. El inventario también se eliminará.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

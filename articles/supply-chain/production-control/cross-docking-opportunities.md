@@ -127,3 +127,6 @@ Después de que un producto se notifica como terminado en la línea de producci�
 -   La situación de tránsito directo se admite para artículos controlados de lote y serie, con las dimensiones de lote y número de serie definidas anteriormente y la ubicación de más abajo en la jerarquía de la reserva. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

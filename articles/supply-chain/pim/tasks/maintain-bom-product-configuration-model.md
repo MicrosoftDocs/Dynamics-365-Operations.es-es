@@ -58,3 +58,6 @@ La ejecución de este procedimiento requiere un modelo de configuración de prod
     * Compruebe si cualquiera de las dimensiones del producto está activas y, por tanto, debe tener un valor o atributo asignado.  
 9. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

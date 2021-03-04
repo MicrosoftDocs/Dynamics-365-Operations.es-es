@@ -245,3 +245,6 @@ En la carga de trabajo, en unidades de escalado, puede gestionar los siguientes 
 
 - Procesar registros de tabla de oleada
 - Procesar eventos de transferencia de control de ejecución de oleada
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

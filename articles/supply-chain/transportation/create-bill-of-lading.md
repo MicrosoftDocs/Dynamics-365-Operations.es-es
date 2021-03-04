@@ -43,3 +43,6 @@ Si hay más de un envío en la carga, puede generar un conocimiento de embarque 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

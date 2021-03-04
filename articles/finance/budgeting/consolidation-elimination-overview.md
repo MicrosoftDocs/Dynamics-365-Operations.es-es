@@ -90,3 +90,6 @@ Puede consolidar los datos con la opción **Exportación de saldos de compañía
 Para obtener más información, consulte [Revalorización de divisa en una empresa de consolidación](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Este tema explica cómo crear un grupo de permisos de PDV. La empresa de datos d
 16. En el campo Grupo de permisos de PDV, especifique o seleccione un valor. Todos los trabajadores de puestos para este trabajo usarán los parámetros de este grupo de permisos de PDV a menos que los permisos de PDV de los trabajadores se hayan anulada en su nivel del puesto.  
 17. Seleccione **Guardar**. Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

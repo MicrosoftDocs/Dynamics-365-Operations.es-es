@@ -381,3 +381,6 @@ Cuando la tarea manual se asigna a un usuario, este debe realizar alguna acción
 5. Active la casilla de verificación **Delegar** si el usuario debe poder asignar la tarea a otro usuario.
 6. Active la casilla de verificación **Volver a asignar** si el usuario debe poder reasignar la tarea a otro usuario de la cola de elementos de trabajo.
 7. Active la casilla de verificación **Liberar** si el usuario debe poder reasignar la tarea a la cola de elementos de trabajo. Otro usuario podrá encargarse de completar la tarea.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Después de publicar el fragmento de encabezado actualizado, todas las páginas 
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

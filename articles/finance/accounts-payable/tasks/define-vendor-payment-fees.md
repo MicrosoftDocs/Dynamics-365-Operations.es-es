@@ -59,3 +59,6 @@ Configuración de cuotas de pago para proveedores. Esta tarea usa la empresa de 
     * Esta divisa es para la cuota. La divisa de pago se usa para definir si la regla de cuota se debe aplicar basándose en la divisa de pago. Por ejemplo, su banco puede cobrar una cuota cuando se realiza un pago en euros, pero en el resto de los pagos no se aplica una cuota.  
 18. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

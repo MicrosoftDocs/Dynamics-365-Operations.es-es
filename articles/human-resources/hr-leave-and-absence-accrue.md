@@ -111,3 +111,6 @@ Eliminar registros de acumulación para un plan e intervalo de fechas específic
 
 [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)</br>
 [Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

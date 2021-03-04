@@ -79,3 +79,6 @@ Las líneas del acuerdo de servicio describen detalladamente el contenido del tr
 ## <a name="related-topics"></a>Temas relacionados
 
 [Crear acuerdos de servicios](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

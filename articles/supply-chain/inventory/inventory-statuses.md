@@ -65,3 +65,6 @@ Puede cambiar los estados del inventario utilizando la página **Disponibles por
 > - Sobre la página **Disponibles por ubicación**, puede agrupar líneas según las dimensiones mostradas mediante **Dimensiones de la pantalla** y cambie el estado de las líneas seleccionadas.
 > - Sobre la paǵina **Disponibles por ubicación**, puede seleccionar varios registros y luego usar el botón **Cambio de estado de inventario** para cambiarlos todos a la vez.
 > - En la tarea periódica **Cambio de estado de inventario** podrá filtrar siguiendo las dimensiones.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

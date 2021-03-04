@@ -57,3 +57,6 @@ Al final de cada mes, se pueden acumular los ingresos de un mes de la suscripci√
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

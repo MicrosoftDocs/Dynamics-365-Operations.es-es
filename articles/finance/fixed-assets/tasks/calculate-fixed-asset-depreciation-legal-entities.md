@@ -51,3 +51,6 @@ La depreciación de activos fijos se puede ejecutar en entidades jurídicas en u
 5. Haga clic en Crear diario.
 6. Vaya a Activos fijos > Movimientos de diario > Diario de activos fijos.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

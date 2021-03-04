@@ -57,3 +57,6 @@ El análisis del tiempo que se usa para procesar los elementos de trabajo puede 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

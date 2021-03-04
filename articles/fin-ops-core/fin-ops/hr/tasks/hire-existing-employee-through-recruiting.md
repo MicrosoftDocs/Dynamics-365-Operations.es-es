@@ -40,3 +40,6 @@ A veces las vacantes se pueden ocupar por candidatos que ya son empleados de la 
 9. Haga clic en Cambiar puesto.
     * También puede cambiar la compensación en este momento. Si no asigna una compensación en este momento, puede cambiarlo yendo al formulario del trabajador, seleccionando la ficha Compensación y eligiendo Plan fijo. Tras seleccionar Cambiar puesto, el estado de la solicitud se actualizará a Empleado.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

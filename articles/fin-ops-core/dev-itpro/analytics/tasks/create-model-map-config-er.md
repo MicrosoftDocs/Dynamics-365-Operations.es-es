@@ -65,3 +65,6 @@ Estos pasos se pueden completar mediante cualquier conjunto de datos. Para compl
     * Asignación de muestra de Intrastat  
 5. Haga clic en Crear configuración.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

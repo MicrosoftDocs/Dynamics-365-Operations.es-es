@@ -44,3 +44,6 @@ Este procedimiento muestra cómo cambiar la relación jerárquica para un emplea
 12. En el campo Notifica al puesto, especifique o seleccione un valor.  Ejemplo: 000437
 13. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Asumimos que su organización desea restringir el acceso a los datos. Si, por al
 
 ## <a name="additional-resources"></a>Recursos adicionales
 Para obtener más información acerca de la seguridad de nivel de fila de Power BI, consulte [Gestionar la seguridad de su modelo en Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

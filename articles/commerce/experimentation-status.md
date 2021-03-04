@@ -45,3 +45,6 @@ Del mismo modo, en la columna **estado de terceros**, los siguientes valores pue
 El siguiente diagrama muestra ambos conjuntos de estados y cómo se relacionan entre sí.
 
 [ ![Estados de experimentación](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

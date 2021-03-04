@@ -84,3 +84,6 @@ Para resolver el problema de un número de combinaciones que aumenta exponencial
 ![Fórmula para calcular el valor marginal](./media/overlapping-discount-combo-06.jpg)
 
 Después de calcular el valor marginal de cada descuento en un conjunto de productos compartidos, se aplican los descuentos a los productos compartidos en orden y exhaustivamente desde el valor marginal más alto hasta el más bajo. En este método todas las posibilidades restantes de descuentos no se comparan cada vez que se aplica una instancia única de un descuento. En su lugar, los descuentos superpuestos se comparan una vez y después se aplican en orden. No se realiza ninguna comparación adicional. Puede configurar el umbral para cambiar al método de valor marginal en la ficha **Descuento** de la página **Parámetros de Commerce**. El tiempo aceptable para calcular el descuento total varía en los diferentes sectores minoristas. Sin embargo, este tiempo normalmente va de milésimas de segundo a un segundo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

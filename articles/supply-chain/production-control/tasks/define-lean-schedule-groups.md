@@ -56,3 +56,6 @@ Los grupos de programación lean se definen para agrupar y distinguir productos 
 3. En el campo Clave de asignación de artículos, haga clic en el botón desplegable para abrir la búsqueda.
 4. En la lista, haga clic en el vínculo de la fila seleccionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Para obtener más información, consulte los siguientes temas:
 [Configuración de créditos bancarios y perfiles de contabilización para cartas de garantía](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

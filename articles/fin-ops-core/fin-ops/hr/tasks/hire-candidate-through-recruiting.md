@@ -45,3 +45,6 @@ Este procedimiento permite a la persona encargada de contratación contratar a u
 15. Expanda o contraiga la sección Información de contacto.
 16. Expanda o contraiga la sección Información personal.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Los pedidos de sustitución de artículos se suelen crear una vez devuelto e ins
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

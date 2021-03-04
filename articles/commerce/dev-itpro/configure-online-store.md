@@ -62,3 +62,6 @@ Los temas que aparecen en la siguiente tabla le ayudarán a configurar los compo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

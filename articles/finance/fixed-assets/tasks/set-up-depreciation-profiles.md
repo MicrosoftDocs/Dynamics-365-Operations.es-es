@@ -40,3 +40,6 @@ Los métodos de depreciación determinan el tipo y la frecuencia de la depreciac
 7. En el campo **Frecuencia de períodos**, seleccione una opción.
 8. Cierre el formulario.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

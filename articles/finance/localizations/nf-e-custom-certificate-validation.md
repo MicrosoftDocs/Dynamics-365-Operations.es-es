@@ -36,3 +36,6 @@ La propiedad **Propósito de autenticación del servidor** del certificado V5 es
 Esta actualización permite una solución alternativa para la validación de certificados, lo que significa que es posible establecer una comunicación segura.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

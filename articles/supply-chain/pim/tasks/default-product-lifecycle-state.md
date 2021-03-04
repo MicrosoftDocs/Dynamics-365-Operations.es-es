@@ -62,3 +62,6 @@ Este procedimiento muestra cómo crear un estado de ciclo de vida de producto pr
 > [!NOTE]
 > Supongamos que ha configurado un estado activo, ahora puede seleccionar el estado activo para permitir que el producto se use en el cálculo de la planificación maestra y del nivel de L.MAT. Obviamente, esto solo tiene sentido si se especifican todos los detalles del producto que se necesitan para una planificación coherente.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

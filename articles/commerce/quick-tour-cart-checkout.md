@@ -107,3 +107,6 @@ Para obtener más información acerca de cómo crear una página de finalizació
 [Visión general de las páginas de detalles de producto](quick-tour-pdp.md)
 
 [Visión general de las páginas de la gestión de cuentas](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

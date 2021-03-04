@@ -38,3 +38,6 @@ Establezca **Habilitado** en **Sí** para usar la configuración de ER para orga
 
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -193,3 +193,6 @@ Existe una excepción a la regla de que los pedidos de lote se pueden aplicar al
 Si una fórmula contiene un ingrediente activo para un producto que está habilitado para los procesos de gestión de almacenes, pero el número de lote está debajo de la ubicación en la jerarquía de reservas, el pedido de lote no se aplica al equilibrio por lotes.
 
 Un pedido de lote que no se aplica al equilibrio por lotes pasa por el ciclo de proceso habitual para los pedidos de lote.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

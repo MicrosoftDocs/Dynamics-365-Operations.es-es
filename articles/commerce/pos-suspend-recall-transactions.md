@@ -82,3 +82,6 @@ Para recuperar de forma rápida y sencilla una transacción suspendida, digitali
 ### <a name="void-a-suspended-transaction"></a>Anular una transacción suspendida
 
 Puede anular transacciones suspendidas recuperando la transacción y después ejecutando la operación **Anular transacción** , o seleccionando la transacción en el lista **Recuperar transacción** y seleccionando **Anular** en la barra de la aplicación. De manera alternativa, el almacén se puede configurar para solicitar a los usuarios que anulen las transacciones suspendidas cuando acaben su turno.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

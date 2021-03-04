@@ -67,3 +67,6 @@ Para evitar los asientos contables adicionales, el débito y el crédito en la m
 
 -   Las organizaciones suelen usar dimensiones fijas para rellenar de ceros una dimensión financiera que no es necesaria. Este es habitualmente el caso para cuentas de balance de situación, como clientes/proveedores. Las estructuras contables se pueden utilizar para no realizar un seguimiento de las dimensiones financieras que suelen rellenarse de ceros.  Puede quitar la dimensión financiera para las cuentas de balance de situación eliminando la necesidad de usar dimensiones fijas.
 -   Si su organización requiere dimensiones fijas en la cuenta principal de clientes/proveedores, encuentre una forma de establecer de manera predeterminada la dimensión fija en el pago, de manera que se el valor de la dimensión fija se almacene en la transacción de proveedor para el pago. Esto permitirá al sistema reconstruir la cuenta principal de clientes/proveedores para incluir los valores de la dimensión fija. El valor de la dimensión fija se puede definir como predeterminado en los proveedores o en el nombre del diario para el diario de pagos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Una vez haya identificado la discrepancia, es posible que deba ponerse en contac
 Para obtener más información, consulte [Investigar o resolver las excepciones](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Este es el quinto de cinco procedimientos que muestra el proceso de pago del cli
 11. Haga clic en Aceptar.
 12. Haga clic en Aceptar.
 13. Haga clic en Crear pagos.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

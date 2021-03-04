@@ -54,3 +54,6 @@ Este procedimiento muestra cómo asignar un estado de ciclo de vida de producto 
 2. En la lista, marque la fila seleccionada.
 3. En el campo Estado de ciclo de vida de producto, especifique o seleccione un valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

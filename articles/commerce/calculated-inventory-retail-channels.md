@@ -114,3 +114,6 @@ Se recomienda que no ejecute esos trabajos por lotes con demasiada frecuencia (c
 > Por razones de rendimiento, cuando los cálculos de disponibilidad de inventario del lado del canal se utilizan para realizar una solicitud de disponibilidad de inventario utilizando las API de comercio electrónico o la nueva lógica de inventario del lado del canal PDV, el cálculo utiliza una memoria caché para determinar si ha pasado suficiente tiempo para justificar la ejecución de la lógica de cálculo de nuevo. La caché predeterminada está fijada en 60 segundos. Por ejemplo, activó el cálculo del lado del canal para su tienda y vio el inventario disponible de un producto en la página **Búsqueda de inventario**. Si luego se vende una unidad del producto, la página **Búsqueda de inventario** no mostrará el inventario reducido hasta que se haya borrado el caché. Después de que los usuarios publiquen transacciones en PDV, deben esperar 60 segundos antes de verificar que se haya reducido el inventario disponible.
 
 Si su situación empresarial requiere un menor tiempo de caché, póngase en contacto con su representante de soporte de productos para obtener ayuda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

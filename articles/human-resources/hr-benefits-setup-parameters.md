@@ -68,3 +68,6 @@ Para poder configurar planes de prestaciones en Microsoft Dynamics 365 Human Res
 3. Seleccione **Guardar**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

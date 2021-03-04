@@ -114,3 +114,5 @@ Si se ha solicitado un producto del catálogo de proveedores externo, no se podr
 
 - [Mejoras de cXML de compra](purchasing-cxml-enhancements.md)
 - [Usar catálogos externos para la adquisición electrónica de marcaje de salida](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

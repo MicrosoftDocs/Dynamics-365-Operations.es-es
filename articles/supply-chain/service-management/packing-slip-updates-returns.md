@@ -49,3 +49,6 @@ Cuando se actualiza el albarán de un artículo devuelto de un acuerdo de venta,
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

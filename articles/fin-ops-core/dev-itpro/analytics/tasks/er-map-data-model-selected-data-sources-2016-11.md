@@ -146,3 +146,6 @@ En los pasos siguientes se explica cómo un usuario con rol de Administrador del
 5. Seleccione la versión finalizada de la configuración actual.
     * Observe cómo la configuración creada se guarda como versión completada 1.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

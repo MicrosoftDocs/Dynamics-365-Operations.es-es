@@ -86,3 +86,6 @@ Para agregar un módulo de carrusel a una página nueva y establecer las propied
 [Módulo de bloque de contenido](add-hero-module.md)
 
 [Módulo de reproductor de vídeo](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

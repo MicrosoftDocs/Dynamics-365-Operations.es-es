@@ -243,3 +243,6 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 - [Configurar el formato para contar y sumar](./tasks/er-format-counting-summing-1.md)
 - [Ejecución de seguimiento del formato de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md)
 - [Aplazar la ejecución de elementos de secuencia en formatos ER](er-defer-sequence-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

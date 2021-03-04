@@ -68,3 +68,6 @@ Esta guía de tarea describe la facturación de un pedido de ventas e incluye la
 10. Haga clic en **Cancelar**.
 11. Haga clic en **Sí**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

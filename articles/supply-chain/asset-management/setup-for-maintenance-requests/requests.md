@@ -42,3 +42,6 @@ Puede configurar distintos tipos de solicitudes para utilizar en la empresa. Las
 La ilustración siguiente muestra un ejemplo de la página de lista **Todas las solicitudes de mantenimiento**.
 
 ![Página de lista de todas las solicitudes de mantenimiento](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Una vez que copie las líneas, puede editar la información según sus necesidad
 Puede crear una factura de servicios a partir de una plantilla. Cuando seleccione **Nueva a partir de plantilla** desde la pestaña **Factura**, puede seleccionar un nombre de plantilla y la cuenta del cliente para la nueva factura de servicios. Los valores predeterminados como las condiciones de pago y el método de pago se pueden rellenar automáticamente a partir del cliente o utilizar los valores que se guardaron en la plantilla.
 
 Se creará una nueva factura de servicios y puede editar los valores según sus necesidades.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

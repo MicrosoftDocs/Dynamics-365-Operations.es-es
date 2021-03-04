@@ -51,3 +51,6 @@ Esta tarea le lleva por la creación de un contrato de instalaciones bancarias p
 18. Haga clic en Extender.
 19. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

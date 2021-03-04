@@ -39,3 +39,5 @@ Los directores pueden administrar las solicitudes de indisponibilidad en el espa
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
 - [Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

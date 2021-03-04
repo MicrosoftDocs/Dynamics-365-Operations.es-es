@@ -100,3 +100,6 @@ Tenga en cuenta que el UOM de pronóstico de demanda no tiene que tener ningún 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

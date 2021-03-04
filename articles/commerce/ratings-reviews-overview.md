@@ -59,3 +59,6 @@ La solución de revisiones y clasificaciones también proporciona una plantilla 
 [Configurar clasificaciones y revisiones](configure-ratings-reviews.md)
 
 [Sincronizar clasificaciones de productos en Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

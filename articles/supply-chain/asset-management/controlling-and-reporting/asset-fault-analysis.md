@@ -109,3 +109,6 @@ En el captura de pantalla de abajo, **Tipo** se ha agregado y se muestra el cál
 >[!NOTE]
 >Para obtener una visión general de todos los registros de defecto creados en las órdenes de trabajo y solicitudes de mantenimiento, haga clic en **Administración de activos** > **Consultas** > **Defecto de activo** > **Defectos de activos**. En la página **Defectos activo** , seleccione un registro de defectos de activo y expanda el panel **Información relacionada** para ver la información relativa a la orden de trabajo o a la solicitud de mantenimiento relacionadas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

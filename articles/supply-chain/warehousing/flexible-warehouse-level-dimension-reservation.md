@@ -854,3 +854,6 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
     - Órdenes de transferencia y selección de materia prima.
 
 - La regla de consolidación de contenedores para el embalaje por unidad directiva tiene limitaciones. Para las reservas confirmadas por pedido, le recomendamos que no use plantillas de compilación de contenedores donde el campo **Unidad de directiva de empaque** esté habilitado. En el diseño actual, las directivas de ubicación no se utilizan cuando se crea el trabajo de almacén. Por lo tanto, solo la unidad más baja en el grupo de secuencia de unidades (la unidad de inventario) se aplica durante el paso de oleada de contenedorización.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

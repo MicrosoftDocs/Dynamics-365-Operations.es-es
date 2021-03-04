@@ -80,3 +80,6 @@ Si está teniendo problemas para registrar trabajos en LinkedIn consulte [Soluci
 [Conseguir candidatos con LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [Solucionar problemas de integración con LinkedIn](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

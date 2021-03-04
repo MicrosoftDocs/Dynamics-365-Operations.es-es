@@ -72,3 +72,6 @@ En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la naveg
    | **Fin** | La fecha y hora de finalización del icono en las que debe estar disponible. |
 
 4. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Un libro mayor de contabilidad de costes representa la unidad de notificación g
 8. En el campo Dimensión estadística, especifique o seleccione un valor.
 9. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

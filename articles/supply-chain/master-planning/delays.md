@@ -59,3 +59,6 @@ En la página **Pedido planificado** , en la pestaña **Retrasos** está la **Fe
 --------
 
 [Configuración de cobertura](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

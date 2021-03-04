@@ -109,3 +109,6 @@ Ahora se puede hacer referencia al fragmento en la plantilla para otras páginas
 [Cumplimiento de cookies](cookie-compliance.md)
 
 [Reemplazar id. de usuario asociado con cambios de contenido con seguimiento](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Para enriquecer una página de categoría, haga lo siguiente.
 [Enriquecer una página de producto](enrich-product-page.md)
 
 [Verificar accesibilidad de contenido de página](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

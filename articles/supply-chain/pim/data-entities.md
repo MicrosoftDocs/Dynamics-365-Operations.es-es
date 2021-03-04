@@ -50,3 +50,6 @@ Para importar y exportar datos de producto debe usar entidades de datos. La sigu
 
 > [!NOTE]
 > Puedes usar la entidad de datos **Productos lanzados V2** para importar productos al sistema solo si el producto compartido ya se ha creado. De lo contrario, para importar productos al sistema, debe usar la entidad de datos **Creación de producto**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

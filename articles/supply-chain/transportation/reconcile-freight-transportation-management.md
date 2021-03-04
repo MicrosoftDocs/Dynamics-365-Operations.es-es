@@ -47,3 +47,6 @@ Para utilizar la conciliación automática, debe especificar la programación de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

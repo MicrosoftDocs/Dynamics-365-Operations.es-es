@@ -66,3 +66,6 @@ En la biblioteca de módulos se proporcionan los siguientes tipos de módulos:
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

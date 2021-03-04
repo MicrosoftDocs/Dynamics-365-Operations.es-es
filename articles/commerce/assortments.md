@@ -107,3 +107,6 @@ Tenga en cuenta los siguientes requisitos de implementación a medida que planif
 - **Ventas y devoluciones fuera de surtidos**: esta capacidad ayuda a los minoristas a administrar con eficacia sus surtidos al dejarles limitar el número de productos disponibles a productos que pertenecen a la combinación de producto principal para la tienda. Esta capacidad también ayuda a los minoristas a gestionar las situaciones en las que un producto se omitió por error de un surtido, o en las que un producto se devolvió fuera de las fechas de vigencia para el surtido.
 
 Si no existen datos de un producto en la base de datos del canal, el PDV realiza llamadas en tiempo real a la sede para recuperar la información necesaria, de manera que el producto pueda venderse, devolverse o colocarse en el pedido de un cliente. La información del producto que se recupera de esta manera solo está disponible durante el ámbito de la transacción. El producto no se agrega a la definición del surtido. Por lo tanto, las llamadas en tiempo real posteriores se harán cuando sea necesario.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

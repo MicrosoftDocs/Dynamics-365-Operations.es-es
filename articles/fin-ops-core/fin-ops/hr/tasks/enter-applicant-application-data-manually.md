@@ -61,3 +61,6 @@ Este procedimiento muestra cómo mantener manualmente la información de los can
 6. Haga clic en Guardar.
     * Tras guardar la solicitud, puede adjuntarle documentos, incluida la experiencia del candidato, los títulos y una carta de presentación.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

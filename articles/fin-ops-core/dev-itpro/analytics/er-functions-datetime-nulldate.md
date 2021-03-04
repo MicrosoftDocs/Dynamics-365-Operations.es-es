@@ -53,3 +53,6 @@ La expresión `IF( Invoice.DocumentDate = NULLDATE(), true, false)` devuelve **C
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de fecha y de tiempo](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

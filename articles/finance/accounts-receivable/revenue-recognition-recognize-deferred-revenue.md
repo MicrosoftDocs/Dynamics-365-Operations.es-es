@@ -108,3 +108,6 @@ Los cambios del contrato tienen los efectos siguientes en los detalles de la pro
 - Si se han reconocido los ingresos para el producto, algunos ingresos se han reconocido incorrectamente porque el reconocimiento se basaba en la programación incorrecta de ingresos. Esas líneas se deben invertir y reconocer de nuevo, en función de la nueva programación. En esta situación, se crean nuevas líneas de la programación de ingresos con importes negativos en la fecha de reconocimiento original. A continuación, se crean las nuevas líneas para reconocer los importes basados en la nueva programación de ingresos. Por ejemplo, el 8 de agosto de 2019, se reconocen los ingresos para $10.53. El 8 de septiembre de 2019, se reconocen los ingresos para $13.16. Por lo tanto, se crean dos nuevas líneas en las mismas fechas. Una línea es para -$10.53 y la otra línea es para -$13.16. A continuación, se crean veinticuatro nuevas líneas y los ingresos diferidos totales de $160.61 se asignan entre ellas. Para registrar las líneas de inversión, ejecute el proceso **Crear diario**.
 
 [![Programación de reconocimiento de ingresos](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

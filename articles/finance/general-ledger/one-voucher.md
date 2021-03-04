@@ -186,3 +186,6 @@ Si tiene que realizarse una corrección en la cuenta contable de clientes o de p
 ### <a name="the-system-allows-it"></a>"El sistema lo permite"
 
 Las organizaciones a menudo usan la funcionalidad de un asiento simplemente porque el sistema les permite utilizarla, sin comprender las implicaciones.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

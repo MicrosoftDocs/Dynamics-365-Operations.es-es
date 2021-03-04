@@ -78,3 +78,6 @@ Para crear y configurar un libro de Excel para que pueda editar transacciones mi
 [Editar dimensiones financieras para transacciones minoristas](edit-financial-dim.md)
 
 [Agregar campos a un libro de trabajo de Excel para editar transacciones minoristas](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

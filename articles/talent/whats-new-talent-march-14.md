@@ -71,3 +71,6 @@ Con Platform update 24 para Finance and Operations, los usuarios pueden crear re
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Comprobación de empleado duplicado: cambios en la interfaz
 Con este cambio, se detectan los duplicados a medida que se especifican los campos de nombre, y un estado muestra cuántos se han encontrado. Puede seleccionar el vínculo proporcionado para abrir una nueva página para evaluar si utilizar la coincidencia detectada. Para evitar interrumpir la entrada de datos, el formulario de los duplicados no se abre automáticamente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

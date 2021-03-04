@@ -113,3 +113,6 @@ En la imagen siguiente se muestra un ejemplo de configuración de cliente.
 [Resumen de canales](channels-overview.md)
 
 [Requisitos previos de configuración de canales](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Este lanzamiento incluye varias correcciones de errores adicionales:
 - Cuando se utiliza un contratista, la pestaña **Compensación** no debe estar disponible en la página de solicitud/acción.
 - Durante el proceso de finalización de la solicitud, no puede continuar hasta que todos los campos necesarios contengan datos.
 - Los problemas de visualización de fechas y de criterios de ordenación de los análisis de la dirección del personal se han abordado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

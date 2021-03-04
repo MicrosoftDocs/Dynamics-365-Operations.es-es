@@ -61,3 +61,6 @@ Para comenzar a configurar esta información, cree una regulación que pueda usa
 ## <a name="warehouse-management"></a>Gestión de almacenes
 
 Cuando se prepara un envío, se pueden imprimir varios informes nuevos. Estos informes utilizan la información que configuró en la gestión de información del producto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

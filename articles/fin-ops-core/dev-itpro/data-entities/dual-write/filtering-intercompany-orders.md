@@ -65,3 +65,6 @@ Cada una de las entidades estándar de Common Data Service se amplía con refere
 7. Después de extender la entidad **Presupuestos**, aplique un filtro con `CUSTGROUP !=  "<company>"` como la cadena de consulta.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Encabezado de presupuesto de ventas, editar consulta":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

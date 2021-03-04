@@ -88,3 +88,6 @@ El método de depreciación degresiva del 150% divide el 150 por ciento entre lo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

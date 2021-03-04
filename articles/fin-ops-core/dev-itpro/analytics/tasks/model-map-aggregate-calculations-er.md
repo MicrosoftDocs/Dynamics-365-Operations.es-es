@@ -116,3 +116,6 @@ Este procedimiento se ha creado para los usuarios con los roles Administrador de
 68. Haga clic en Guardar.
     * Tenga en cuenta que el campo "Ejecución en" indica que esta agrupación se llevará a cabo en la memoria del tiempo de ejecución aunque no haya agregaciones definidas y el origen de datos seleccionado del tipo "Registros de tabla” haga referencia a la misma tabla de "Intrastat". Esto se debe a que el origen de datos contiene algunos campos calculados que no se pueden traducir aún al nivel de la base de datos SQL.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

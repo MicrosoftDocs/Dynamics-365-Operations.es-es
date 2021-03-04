@@ -74,3 +74,6 @@ La captura de pantalla siguiente muestra un ejemplo de un cálculo de **Control 
 Otra forma de realizar un cálculo de horas es seleccionar múltiples activos en **Todos los activos** o **Activos activos**. A continuación, haga clic en el botón **Control de horas** de la ficha desplegable **General**. Los activos seleccionados se insertan automáticamente en el campo **Activo** en la ficha desplegable **Registros que incluir**. Haga clic en **Aceptar** en el diálogo **Control de horas de activos**, y el cálculo de los activos seleccionados se mostrará. El mismo procedimiento se puede realizar para las ubicaciones técnicas en **Todas las ubicaciones técnicas** o **Ubicaciones técnicas activas**, y para las órdenes de trabajo en **Todas las órdenes de trabajo** o **Órdenes de trabajo activas**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

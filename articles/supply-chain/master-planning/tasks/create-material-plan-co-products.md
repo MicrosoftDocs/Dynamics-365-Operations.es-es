@@ -111,3 +111,6 @@ El planificador de producción planifica los requisitos de material para los art
 19. Seleccione No en el campo Deshabilitar todos los procesos de planificación.
 20. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

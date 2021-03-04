@@ -175,3 +175,6 @@ Mediante la acción **Eliminar** en la solicitud de registro del proveedor poten
 |         Aprobada         |                                                                               La solicitud del proveedor ha sido aprobada.                                                                               |                                                                                                   Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.                                                                                                    |
 |         Rechazado         |                                                                               La solicitud del proveedor ha sido rechazada.                                                                               |                                                                                                   Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ La configuración se comparte con la organización externa y está disponible pa
 ![Configuración compartida con una organización externa](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Para dejar de compartir una configuración que se ha compartido previamente con una organización externa, seleccione la configuración y haga clic en **Dejar de compartir** y luego seleccione **Aceptar**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Para restablecer un mensaje de evento de aplicación de almacén fallido:
 1. Continúe trabajando hasta que se restablezcan todos los mensajes relevantes.
 
 También puede eliminar un mensaje de evento **Error** utilizando la opción **Eliminar** en la barra de herramientas **Mensajes de eventos de la aplicación de almacén**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

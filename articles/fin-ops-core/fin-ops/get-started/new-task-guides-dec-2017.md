@@ -368,3 +368,6 @@ Cuando se elimina una línea de BPM, todas las guías de tareas asociadas a la l
 **Línea de BPM eliminada**
 
 - Desplazamiento de trabajos kanban programados
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

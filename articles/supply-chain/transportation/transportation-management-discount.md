@@ -33,3 +33,6 @@ Para configurar descuentos para la gestión del transporte, vaya a **Gestión de
 Puede elegir pasar el descuento a su cliente (configurando el tipo de descuento al cliente) o retenerlo en la empresa (configurando el tipo de descuento como remitente). Esto le permite definir una configuración en la que gana un margen sobre los gastos de transporte calculados.
 
 Puede configurar varios calificadores para cada descuento, como transportista, servicio de transportista, condiciones de entrega, cliente, destino y más.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

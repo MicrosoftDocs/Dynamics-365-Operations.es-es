@@ -148,3 +148,6 @@ Este procedimiento usa la empresa de demostración USMF.
     * Compruebe las entradas del diario registradas.  
 16. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Antes de utilizar este procedimiento, asegúrese de que se haya creado al menos 
 
 8. Para detener un flujo de trabajo, en la página **Historial de flujo de trabajo**, seleccione **Recuperar**. En el cuadro de diálogo que aparece, introduzca un comentario y luego seleccione **Aceptar**.
 9. Para desactivar un flujo de trabajo o para activar un flujo de trabajo creado previamente, vaya a **Arrendamiento de activos \> Configurar \> Flujo de trabajo de arrendamiento**. Entonces, en la página **Flujo de trabajo de arrendamiento**, seleccione **Flujo de trabajo \> Versiones**. Para dejar inactivo un flujo de trabajo actual, seleccione el arrendamiento activo en el cuadro de diálogo de versión de arrendamiento y, a continuación, seleccione **Dejar inactivo**. Para activar un flujo de trabajo existente, seleccione el flujo de trabajo y luego seleccione **Activar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

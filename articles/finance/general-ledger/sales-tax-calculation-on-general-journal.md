@@ -157,3 +157,6 @@ La tabla siguiente muestra la regla genérica.
 | Impuestos soportados | Negativo              | Cuenta Impuestos soportados | Negativo (Crédito)  |
 | Impuestos repercutidos    | Positivo              | Cuenta Impuestos repercutidos    | Negativo (Crédito)  |
 | Impuestos repercutidos    | Negativo              | Cuenta Impuestos repercutidos    | Positivo (Débito)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

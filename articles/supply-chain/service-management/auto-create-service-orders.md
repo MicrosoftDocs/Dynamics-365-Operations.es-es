@@ -59,3 +59,6 @@ El acuerdo de servicio cubre el período del 1 de enero del 2012 hasta el 31 de 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

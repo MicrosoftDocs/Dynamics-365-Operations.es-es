@@ -109,3 +109,6 @@ Para permitir que los trabajadores realicen este cambio, puede crear un elemento
 - **Mostrar estado de inventario**: *Sí*
 
 Puede configurar otros campos en la página según sus necesidades.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

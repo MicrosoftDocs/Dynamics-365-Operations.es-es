@@ -49,3 +49,6 @@ Este procedimiento muestra cómo calcular el coste de un producto terminado medi
 11. Cierre la página.
 12. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

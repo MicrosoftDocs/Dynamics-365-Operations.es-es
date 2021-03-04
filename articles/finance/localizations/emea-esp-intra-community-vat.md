@@ -97,3 +97,6 @@ En el siguiente ejemplo se muestra cómo puede configurar códigos de impuestos 
     ![Líneas de transacción de impuestos](media/2_Sales_tax.png)
 
 9.  Seleccione **Registrar** para registrar la transacción y luego seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

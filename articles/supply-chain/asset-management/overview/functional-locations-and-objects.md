@@ -58,3 +58,6 @@ La forma en que se crea la jerarquía de ubicaciones funcionales depende de los 
 En la ilustración siguiente se muestra un ejemplo de ubicaciones funcionales que se basan en clientes.
 
 ![Diagrama que muestra las ubicaciones técnicas basadas en clientes](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

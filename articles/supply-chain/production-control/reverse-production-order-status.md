@@ -53,3 +53,6 @@ Al invertir el estado de un pedido de producción de **Iniciado** a **Liberado**
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

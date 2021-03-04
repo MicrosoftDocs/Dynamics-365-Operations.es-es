@@ -38,3 +38,6 @@ Los modelos de configuración de productos basados en restricciones usan compone
 7. En el campo Descripción, escriba un valor.
 8. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Al crear líneas en la página **Recuento de etiquetas**, coloca un número de e
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Recuento cíclico](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Si su trabajo no se ve en LinkedIn después de 24 horas, intente estos pasos:
 [Crear, aprobar y registrar trabajos en Attract](./creating-jobs-attract.md)
 
 [Solución de problemas de la integración con LinkedIn y Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

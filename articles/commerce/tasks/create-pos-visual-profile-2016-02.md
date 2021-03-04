@@ -48,3 +48,6 @@ Este procedimiento muestra la creación de un nuevo perfil visual de punto de ve
 17. En la lista, haga clic en el vínculo de la fila seleccionada.
 18. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

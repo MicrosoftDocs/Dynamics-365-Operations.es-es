@@ -200,3 +200,6 @@ Para obtener una visión general más analítica de las distintas medidas de ren
 
 Para obtener una visión general más analítica de las distintas medidas de rendimiento para la promoción, puede usar la vista de análisis. Para ir a la vista de análisis, haga clic en **Ventas y marketing** \> **Concesiones comerciales** \> **Acuerdos de concesión comercial**. En el panel de acciones, haga clic en la ficha **Análisis**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

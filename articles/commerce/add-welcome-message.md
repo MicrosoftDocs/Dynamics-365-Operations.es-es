@@ -68,3 +68,6 @@ El mensaje de bienvenida aparecerá ahora en la parte superior de cada página d
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

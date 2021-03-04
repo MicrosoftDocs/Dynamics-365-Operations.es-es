@@ -136,3 +136,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Más información sobre cómo imprimir etiquetas
 
 Para obtener más información sobre cómo configurar e imprimir etiquetas, vea [Habilitar la impresión de etiquetas de matrículas](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

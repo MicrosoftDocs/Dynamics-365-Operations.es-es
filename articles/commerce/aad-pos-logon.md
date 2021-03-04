@@ -74,3 +74,6 @@ Los campos **Alias**, **UPN** y **Sub identificador externo** en la pestaña **C
 [Crear un perfil de funcionalidad comercial](retail-functionality-profile.md)
 
 [Configurar un trabajador](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

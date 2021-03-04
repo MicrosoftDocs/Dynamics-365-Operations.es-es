@@ -62,3 +62,6 @@ En la versión 10.0.3 de Retail y posteriores, también se proporcionan las sigu
 - Durante la conciliación, si la transacción seleccionada no están compensadas, el usuario debe especificar una descripción del motivo de la conciliación desequilibrada. Los usuarios pueden seleccionar una sola transacción y conciliarla con la descripción de razón relevante que necesiten.
 - Los usuarios pueden seguir conciliando y no conciliando transacciones hasta que se cierre el turno. Después de que se cierre un turno, las transacciones no se pueden no conciliar.
 - Cuando un usuario elige cerrar un turno, Commerce valida que no haya transacciones no conciliadas de flujo de efectivo en el turno. Los usuarios no pueden cerrar un turno si hay transacciones sin conciliar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

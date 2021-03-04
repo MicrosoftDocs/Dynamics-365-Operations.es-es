@@ -78,3 +78,6 @@ Los pedidos de servicio seleccionados se cancelarán o su estado de progreso de 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

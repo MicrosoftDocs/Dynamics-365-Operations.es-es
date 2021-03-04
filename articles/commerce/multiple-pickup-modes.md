@@ -86,3 +86,6 @@ Cuando hay varios modos de recogida de la entrega disponibles para un canal, se 
 ## <a name="considerations-for-distributed-order-management"></a>Consideraciones para la gestión de pedidos distribuida
 
 La característica [gestión de pedidos distribuida (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) de Commerce ignoran las líneas de venta que están marcadas para la recogida en tienda. Estas características se han actualizado para garantizar que las líneas de ventas que están vinculadas a los modos de recogida de la entrega configurados omitan la lógica DOM y no se reasignen a un nuevo almacén de cumplimiento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

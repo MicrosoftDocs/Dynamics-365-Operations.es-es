@@ -90,3 +90,6 @@ Esta guía de tarea muestra cómo crear una orden de domiciliación bancaria y c
 3. Seleccione el cliente al que haya agregado la orden.
 4. En el campo **Id. de orden de domiciliación bancaria**, especifique o seleccione un valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

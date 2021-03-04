@@ -77,3 +77,6 @@ Para mostrar el recuento de la notificación en un botón, deberá asegurarse qu
 La siguiente ilustración muestra el efecto de seleccionar **Superior derecha** frente **Centro** en el campo **Alineación de contenido** para los botones de varios tamaños.
 
 ![Contenido en vivo en los botones de PDV](./media/ButtonsWithLiveContent.png "Contenido en vivo en los botones de PDV")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

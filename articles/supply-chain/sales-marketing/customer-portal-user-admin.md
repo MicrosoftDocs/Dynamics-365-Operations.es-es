@@ -96,3 +96,6 @@ La siguiente tabla muestra qué pedidos de ventas pueden ver los usuarios en cad
 
 > [!NOTE]
 > Aunque tanto Sam como Jane son contactos que trabajan para el cliente X, solo pueden ver los pedidos que ellos mismos han realizado y nada más. Aunque May tiene un pedido en el sistema, no puede ver ese pedido en el portal del Cliente, porque es un usuario no autorizado. (Además, debería haber realizado el pedido a través de algún canal que no sea el portal del Cliente).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

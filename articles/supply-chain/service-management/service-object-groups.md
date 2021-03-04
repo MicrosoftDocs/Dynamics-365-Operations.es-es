@@ -66,3 +66,6 @@ Puede asignar objetos de servicio al grupo mediante el formulario **Objetos de s
 [Crear objetos del servicio](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

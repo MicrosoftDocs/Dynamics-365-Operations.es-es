@@ -61,3 +61,6 @@ Para eliminar un experimento en el generador de sitios de Commerce, siga estos p
 
 ## <a name="previous-step"></a>Paso anterior
 [Ejecutar y supervisar un experimento](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

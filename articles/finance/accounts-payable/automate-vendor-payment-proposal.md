@@ -144,3 +144,6 @@ Se han agregado los siguientes deberes y privilegios para las automatizaciones d
 | Consultar ocurrencias de programación | Empleado de pagos a proveedores, empleado de pago centralizado a proveedores | Este derecho otorga derechos para ver las ocurrencias de automatización de propuestas de pago a través de los siguientes privilegios:<ul><li>Ver ocurrencias de programación</li><li>Ver la vista semanal de ocurrencias</li></ul> |
 | Consultar serie de horarios      | None                                                                       | Este derecho otorga derechos para ver las opciones de las series y ocurrencias a través de los siguientes privilegios:<ul><li>Ver ocurrencias de programación</li><li>Ver la página de lista de ocurrencias</li><li>Ver la vista semanal de ocurrencias</li></ul>|
 | Mantener ocurrencias de programación     | None                                                                       | Este derecho otorga los derechos para crear y mantener una ocurrencia a través de los siguientes privilegios:<ul><li>Mantener ocurrencias de programación</li><li>Ver la vista semanal de ocurrencias</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

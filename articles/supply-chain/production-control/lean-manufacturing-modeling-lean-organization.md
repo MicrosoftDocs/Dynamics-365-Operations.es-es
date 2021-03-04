@@ -67,3 +67,6 @@ Para la implementación de lean manufacturing (producción ajustada), hemos eleg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Para los artículos configurados para usar el trabajo existente, **Seleccionar l
 **Advertencia** y **Forzar**: una lista de lotes con la fecha de vencimiento más antigua se mostrará sobre el control de lotes cuando el trabajador seleccione un lote. Si la ubicación está controlada por matrículas, una lista de matrículas que tengan el lote más antiguo se mostrará sobre el control del número de matrícula. 
 -   **Advertencia**: si un trabajador elige una matrícula o lote que no se encuentren en la lista mostrada, el control queda en blanco y se muestra una advertencia de que hay un lote más antiguo para seleccionar. Para poder continuar el trabajo, el trabajador puede volver a seleccionar la misma matrícula o lote.  
 -   **Forzar**: los trabajadores seguirán recibiendo el mensaje de que hay un lote más antiguo que se puede seleccionar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ La característica escalable solo está disponible si se establecen todos los co
 
 ## <a name="use-step-consumption"></a>Usar el consumo de pasos
 El consumo de pasos elimina la necesidad de especificar una cantidad en la pestaña **Línea de fórmula** de un ingrediente. En su lugar, se configura el consumo de pasos de modo que tenga un valor **Serie inicial** y un valor **Cantidad** . Se selecciona la información del registro del consumo de pasos por serie que cumple con la cantidad especificada en el pedido de lote. El consumo de pasos es útil cuando la tasa de consumo no es lineal con respecto al tamaño del pedido de lote y solo aumenta el requisito cuando se llega a un umbral específico de la cantidad. Para habilitar esta característica en una nueva fórmula, en el grupo **Cálculo del consumo**, cambie la configuración de la fórmula del ingrediente aplicable de **Estándar** a **Paso**. Especifique este método de consumo en la pestaña **Configuración** de la página **Línea de fórmula**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

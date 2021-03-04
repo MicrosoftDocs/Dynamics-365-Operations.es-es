@@ -87,3 +87,6 @@ El siguiente ejemplo muestra cómo modificar la página principal cambiando el v
 [Enriquecer una página de aterrizaje de categoría](enrich-category-page.md)
 
 [Verificar accesibilidad de contenido de página](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

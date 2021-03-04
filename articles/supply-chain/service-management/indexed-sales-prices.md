@@ -43,3 +43,6 @@ Por ejemplo, si el precio base es 1.000 EUR y el índice es 110, el precio de ve
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

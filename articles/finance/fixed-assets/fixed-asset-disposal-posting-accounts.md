@@ -43,3 +43,6 @@ La transacción de cancelación de un activo de valor reducido reduce el valor n
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Seleccione los tipos de documento que deben estar disponibles para imprimir los 
 Vínculo **Secuencias numéricas**
 
 Seleccione las secuencias numéricas necesarias en esta sección. Existen dos secuencias numéricas para los activos: una para activos creados manualmente y otra para activos creados a través de activos pendientes.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

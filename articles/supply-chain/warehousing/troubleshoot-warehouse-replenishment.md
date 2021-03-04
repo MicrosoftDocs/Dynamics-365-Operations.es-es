@@ -40,3 +40,6 @@ El trabajo de picking está bloqueado debido al trabajo de reabastecimiento depe
 ### <a name="issue-resolution"></a>Solución del problema
 
 Cuando utiliza el reabastecimiento de demanda de oleada, si una ubicación de picking debe reabastecerse para satisfacer la demanda de la orden de origen, el sistema crea tanto el trabajo de reabastecimiento como el trabajo de picking. Sin embargo, bloquea el trabajo de picking hasta que se completa el trabajo de reabastecimiento. Este comportamiento es intencional, porque la ubicación de recolección no tendrá suficiente inventario a menos que se complete el trabajo de reabastecimiento. Complete el trabajo de reabastecimiento y luego procese el trabajo de selección.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Si tiene previsto consolidar muchos pedidos al mismo tiempo, una ejecución en p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

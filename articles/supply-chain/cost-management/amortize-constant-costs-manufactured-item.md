@@ -47,3 +47,6 @@ El importe calculado de los costes constantes amortizados de un artículo se den
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

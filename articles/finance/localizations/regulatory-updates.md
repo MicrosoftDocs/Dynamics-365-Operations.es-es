@@ -87,3 +87,6 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 - Buscar todas las actualizaciones normativas planificadas y publicadas [Lifecycle Service - búsqueda de temas](https://lcs.dynamics.com/Logon/Index) (inicio de sesión obligatorio).
 - Para consultar una lista de las ubicaciones que se admiten, consulte la [Guía de disponibilidad internacional](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Microsoft Dynamics 365 Human Resources desconecta a usuarios cuando dos sesiones
 Asegúrese de que sólo un entorno esté abierto al mismo tiempo para un tipo de explorador dado. Los usuarios pueden abrir variras sesiones en el mismo entorno (es decir, varias fichas en el mismo explorador).
 
 Los usuarios que desean desplazarse entre dos entornos al mismo tiempo deben abrir cada entorno en un tipo de explorador diferente. (Por ejemplo, el usuario A puede ver el entorno 1 en Chrome y el entorno 2 en Microsoft Edge.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

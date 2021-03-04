@@ -94,3 +94,6 @@ Mediante los metadatos de la clave de configuración creados durante la lista de
 Cada vez que actualice las claves de configuración en la entidad, tabla o nivel de campo, debe actualizarse la lista de entidades en el marco de gestión de datos. Este proceso garantiza que el marco recoja los últimos valores de la clave de configuración. Hasta que se actualice la lista de entidades, aparecerá el siguiente mensaje de advertencia en la página de lista de entidades. Los cambios de clave de configuración actualizados surtirán efecto inmediatamente después de que se actualice la lista de entidades. Le recomendamos que valide los proyectos y trabajos de datos existentes para asegurarse de que funcionan como se espera después de que se pongan en vigor los cambios de claves de configuración.
 
 ![Campos objetivo](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

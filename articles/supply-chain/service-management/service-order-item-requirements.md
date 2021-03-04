@@ -70,3 +70,6 @@ Si un requisito de artículo se crea en un pedido de servicio, este último no s
 
 [Requisitos de artículo (formulario)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

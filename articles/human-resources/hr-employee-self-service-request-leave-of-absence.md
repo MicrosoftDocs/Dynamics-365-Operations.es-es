@@ -53,3 +53,6 @@ Puede enviar una solicitud de excedencia y ver el estado de sus solicitudes de l
 ## <a name="see-also"></a>Consulte también
 
 [Suspender baja](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

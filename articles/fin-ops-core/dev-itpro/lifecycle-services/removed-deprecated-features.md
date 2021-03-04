@@ -65,3 +65,6 @@ Esta lista se proporciona para ayudarle a tener en cuenta estas eliminaciones y 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

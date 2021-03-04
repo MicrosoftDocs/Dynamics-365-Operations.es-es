@@ -110,3 +110,6 @@ Para agregar opciones de navegación personalizadas al menú de navegación, sig
 [Crear un URL de página](create-page-url.md)
 
 [Trabajar con grupos de publicación](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

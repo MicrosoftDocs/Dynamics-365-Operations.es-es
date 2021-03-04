@@ -63,3 +63,6 @@ Si introduce `SPLIT("abc" , 1)` como fuente de datos **DS**, la expresión `STRI
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de lista](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

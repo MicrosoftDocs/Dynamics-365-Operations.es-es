@@ -54,3 +54,6 @@ Este tema describe cómo crear un equipo de distribución. Una vez creado un equ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

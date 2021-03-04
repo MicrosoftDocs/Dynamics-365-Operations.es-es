@@ -87,3 +87,6 @@ En el escenario siguiente, la actividad de transferencia de kanban de transporte
 
 Después de consumir un kanban en la ubicación de entrada de producción, el kanban se notifica como vacío y se agrega un nuevo kanban al flujo. Cuando se crea el kanban, una línea de oleada se agrega a una oleada de kanban. Cuando se procesa la oleada de kanban, el trabajo del almacén para el picking de kanban se crea. El trabajador del almacén procesa el trabajo para el picking de kanban y el trabajo lo guía para que seleccione el material del kanban en una ubicación de almacén. Cuando este trabajador del almacén confirma la selección, el kanban se completa automáticamente y el trabajador del almacén es guiado para que coloque el material en la ubicación de entrada de producción.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Luego se crea una orden de producción para el producto C, y el producto A se ag
     - **Producto C:** 2
 
 Este comportamiento garantiza que los cambios en las listas de materiales de órdenes de producción no afecten los cálculos de costes posteriores.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

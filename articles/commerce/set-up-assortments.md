@@ -55,3 +55,6 @@ Después de completar los requisitos previos, puede crear una selección y asign
 2. Seleccionar los canales o grupos de alto nivel de canales a los que se aplica la selección.
 3. Agregar categorías de productos, productos individuales o variantes de producto a la selección. Puede incluir todos los productos de una categoría específica o puede excluir los productos seleccionados de una categoría incluida en la selección.
 4. Publicar la selección. Al publicar una selección, se ejecuta automáticamente el programador de selecciones. Este proceso genera la lista de productos. Al completar el proceso, estos productos estarán disponibles en los canales asignados a la selección de productos. Si se realizan cambios en una selección publicada o en los canales asignados a la selección, es necesario actualizar la selección. Para actualizar la selección al realizar cambios, puede ejecutar el programador de selecciones como trabajo por lotes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

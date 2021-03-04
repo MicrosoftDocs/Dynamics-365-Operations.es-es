@@ -82,3 +82,6 @@ La siguiente imagen muestra una jerarquía con varios canales agregados.
 [Configurar un canal comercial](channel-setup-retail.md)
     
 [Configurar un canal en línea](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

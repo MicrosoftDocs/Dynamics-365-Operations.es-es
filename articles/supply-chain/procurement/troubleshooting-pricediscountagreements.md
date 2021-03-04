@@ -125,3 +125,6 @@ Este comportamiento es esperado. Debido a que las solicitudes no siempre se apru
 
 Puede crear acuerdos comerciales para cualquier respuesta a una solicitud de presupuesto (RFQ), independientemente de si se aceptaron o rechazaron. Para obtener más información, consulte [Información general sobre solicitudes de presupuesto (RFQ)](request-quotations.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

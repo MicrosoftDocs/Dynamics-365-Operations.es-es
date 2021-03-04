@@ -63,3 +63,6 @@ Antes de dividir un activo totalmente depreciado, hay que cambiar manualmente el
     - Se crea una transacción de adquisición del nuevo activo para el mismo importe.
 
 4. Seleccione **Registrar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

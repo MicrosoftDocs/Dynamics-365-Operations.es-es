@@ -53,3 +53,6 @@ Para crear un nuevo libro de arrendamiento, siga estos pasos.
     | Umbral a corto plazo                     | Introduzca el número de meses que se utilizará como umbral para los arrendamientos a corto plazo. Si el plazo del arrendamiento es menor o igual al número de meses que introduce aquí, el sistema clasificará el arrendamiento como arrendamiento a corto plazo y se aplicará el tratamiento de arrendamiento diferido. |
     | Umbral de valor bajo                      | Introduzca una cantidad para usarla como umbral de arrendamientos de bajo valor. Si el valor razonable del activo es menor o igual al valor que introduce aquí, el sistema clasificará el arrendamiento como arrendamiento de bajo valor y se aplicará el tratamiento de arrendamiento diferido. |
     | Pagar a proveedor                            | Establezca esta opción en **Sí** para permitir que los pagos del arrendamiento se registren, como una factura, en la cuenta del proveedor que se especifica en cada arrendamiento. Cuando se registra un pago de arrendamiento, se abona en la cuenta del proveedor. Si esta opción se establece en **No**, será la cuenta que se especifica para el tipo de registro **Pago de arrendamiento** en la página **Parámetros de registro de arrendamiento** la que se acreditará en su lugar. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

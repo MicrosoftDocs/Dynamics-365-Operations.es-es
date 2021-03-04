@@ -157,3 +157,6 @@ Siga estos pasos para crear un trabajo.
 
 13. Para activar el trabajo, seleccione **Activar**.
 14. Para registrar el trabajo, vaya a **Registros** y, a continuación, seleccione **Registrar ahora** en el sitio de carreras de Talent o en LinkedIn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

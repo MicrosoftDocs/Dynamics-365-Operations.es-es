@@ -164,3 +164,6 @@ Algunas fórmulas no se pueden probar en tiempo de diseño. Por ejemplo, una fó
 
 - [Visión general de los informes electrónicos](general-electronic-reporting.md)
 - [Idioma de fórmulas en los informes electrónicos](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Para crear o copiar una plantilla de proceso empresarial, o para iniciar un proc
 
 Para ver procesos activos y tareas asociadas, abra el espacio de trabajo **Procesos empresariales**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

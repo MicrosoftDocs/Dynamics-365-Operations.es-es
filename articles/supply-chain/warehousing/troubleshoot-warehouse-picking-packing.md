@@ -110,3 +110,6 @@ Cuando usa el proceso *Selección de grupos dirigida por el sistema*, si configu
 ### <a name="issue-resolution"></a>Solución del problema
 
 Para solucionar este problema, edite el perfil del clúster y configure la opción **Activar posiciones** como *No*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ El trabajo de procesamiento por lotes excluye los libros cerrados. Por ejemplo, 
 El límite en la cantidad de libros se aplica si no existen id. de activos duplicados en el mismo diario. Sin embargo, si el id. del activo es el mismo que el id. del libro, se puede exceder el número de libros por diario para mantener el id. del activo en el mismo diario.
 
 Por ejemplo, hay 5001 id. de activos fijos, tres libros están asociados con cada id. de activo fijo y cada libro de activos se publica en la misma capa de registro. Ejecute la depreciación durante tres meses consecutivos, sin resumen. El diario de depreciación se creará mediante un trabajo por lotes y el sistema creará siete diarios que tienen 667 id. de activos fijos y tres libros para cada id. de activo fijo. El resultado serán 2001 libros. Por lo tanto, en tres meses, habrá 6003 líneas de diario para mantener los mismos id. de activos en el mismo diario. El sistema también creará un diario que tiene 332 id. de activos fijos y tres libros para cada id. de activo fijo. En tres meses, habrá 2988 líneas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

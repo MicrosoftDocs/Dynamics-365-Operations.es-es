@@ -69,3 +69,6 @@ La empresa de datos de prueba utilizada para crear este registro es USMF.
 10. Haga clic en Guardar.
 11. Cierre el formulario.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

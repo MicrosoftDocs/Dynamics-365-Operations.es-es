@@ -202,3 +202,6 @@ Para consolidar las líneas de solicitud de compra aprobadas, siga estos pasos:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

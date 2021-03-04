@@ -64,3 +64,6 @@ Programe una tarea automática para limpiar el historial de trabajos por lotes. 
 
 8. Modifique cualquier otro parámetro en **Funcionamiento en segundo plano** según sea necesario y, a continuación seleccione **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Para poder ofrecer productos para la reventa en sus canales de Commerce, debe cr
 4. **Agregar productos a selecciones.** Una selección representa una colección de productos que ofrece en sus canales. Puede definir una o varias selecciones, y cada producto puede asignarse a una o varias selecciones. Para asignar productos a los canales, asigne las selecciones a dichos canales. Cuando se crea un surtido, puede agregar productos que aún no se hayan liberado a una entidad jurídica. Sin embargo, debe liberar los productos a una entidad jurídica antes de que dichos productos puedan estar disponibles para los canales.
 5. **Agregue los productos a las jerarquías de navegación.** Para que los productos se puedan buscar en línea o en el punto de venta (POS), deben estar clasificados en una jerarquía de navegación de Commerce.
 6. **Agregue productos a catálogos** Aunque este paso es opcional para el PDV, las tiendas en línea requieren que los productos estén incluidos al menos en un catálogo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

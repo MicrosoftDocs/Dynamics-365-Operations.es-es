@@ -120,3 +120,6 @@ Para editar en masa transacciones que no están vinculadas a un extracto en la s
 [Crear un libro de trabajo de Excel para editar transacciones minoristas](create-excel-edit.md)
 
 [Agregar campos a un libro de trabajo de Excel para editar transacciones minoristas](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ En este tema se muestra cómo configurar un período en espera o cerrar de forma
 11. Seleccione **Actualizar estado del período** y establezca el estado **En espera**, **Abierto** o **Cerrado de forma permanente**. **Abierto** indica el período en el que se puede registrar, siempre que el usuario tenga acceso. **En espera** significa que el período no se puede registrar, pero se puede volver a abrir. **Cerrado de forma permanente** significa que el período está cerrado y no se puede abrir nunca. No se pueden registrar ajustes. No se recomienda establecer un período como **Cerrado de forma permanente** hasta que se completen todos los ajustes y las auditorías.  
 12. Seleccione **Actualizar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

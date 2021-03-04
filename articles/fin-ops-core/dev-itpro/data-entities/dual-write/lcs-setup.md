@@ -90,3 +90,6 @@ Siga estos pasos para configurar una conexión de doble escritura.
 
 > [!NOTE]
 > No puede desvincular entornos utilizando LCS. Para desvincular un entorno, abra el espacio de trabajo **Integración de datos** en el entorno Finance and Operations, y luego seleccione **Desvincular**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

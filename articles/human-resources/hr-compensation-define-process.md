@@ -100,3 +100,6 @@ Los procesos de compensación se usan para determinar nuevas concesiones e impor
 10. Haga clic en Aprobado.
     * Después de que se haya aprobado el registro, se puede ser cargar al registro de compensación oficial del empleado. La nueva compensación estará vigente a partir de la fecha de transacción establecida en el proceso de compensación.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

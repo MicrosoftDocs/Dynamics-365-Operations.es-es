@@ -53,3 +53,6 @@ El Área de trabajo de planificación de la carga utiliza direcciones y fechas d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

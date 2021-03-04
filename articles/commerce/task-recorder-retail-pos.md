@@ -146,3 +146,6 @@ Al hacer clic en una Guía de tareas en los resultados de la búsqueda verá los
 
 > [!NOTE]
 > La Ayuda en Retail Modern POS y Cloud POS no mostrará las guías de tareas según el formulario en el que se encuentre o la operación que esté haciendo. Tiene que escribir el nombre del proceso en el cuadro de búsqueda y después hacer click en **Buscar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

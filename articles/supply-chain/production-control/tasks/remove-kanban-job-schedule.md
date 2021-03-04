@@ -46,3 +46,6 @@ Este procedimiento se centra en la eliminación de un trabajo kanban planificado
 4. Haga clic en Aceptar
     * Esto revertirá el estado del trabajo actual de Planificado a Sin planificar, y lo eliminará del panel de tablero de procesos.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

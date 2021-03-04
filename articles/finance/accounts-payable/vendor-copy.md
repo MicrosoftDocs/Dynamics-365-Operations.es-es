@@ -64,3 +64,6 @@ También puede copiar proveedores mediante la función de búsqueda del número 
 
 1. Aparece una opción **Copiar proveedor**. Esta opción se establece en **No** de forma predeterminada. Para copiar el proveedor en la entidad jurídica actual, establezca la opción en **Sí**.
 2. Seleccione **Seleccionar**. Se crea el nuevo proveedor.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

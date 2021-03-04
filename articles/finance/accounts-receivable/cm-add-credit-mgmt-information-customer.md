@@ -102,3 +102,6 @@ Puede crear pólizas de seguro y garantías en la página **Todos los clientes**
     En este caso, el límite de crédito efectivo es 125 000 (= A + \[B × C\]).
     
     Sin embargo, si activa la casilla **Incluido en la exposición**, se quita el valor de **Actualizar límite de crédito** de 50 000 (= 50,00 por ciento de 100 000), y el valor de exposición es de 75 000 (= A + \[B × C\] - B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

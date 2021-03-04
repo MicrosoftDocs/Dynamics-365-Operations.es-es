@@ -118,3 +118,6 @@ Si se necesitan conectores de pago de Adyen y PayPal, agregue ambos módulos a l
 [Dynamics 365 Payment Connector para PayPal](paypal.md)
 
 [Autenticación segura de clientes mediante Adyen](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

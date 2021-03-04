@@ -91,3 +91,6 @@ Use la función **Instalar activo** para instalar una estructura de activos en u
 4. Seleccione la nueva ubicación en el campo **Ubicación funcional**.
 5. De manera predeterminada, el campo **Vigencia** se establece automáticamente en la fecha y la hora actuales. Sin embargo, puede seleccionar otra fecha y hora a partir de las cuales sea válida la instalación en la estructura de activos.
 6. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

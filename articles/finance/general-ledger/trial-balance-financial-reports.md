@@ -110,3 +110,6 @@ Cada informe de saldo de comprobación usa otra definición de columna. Estas de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

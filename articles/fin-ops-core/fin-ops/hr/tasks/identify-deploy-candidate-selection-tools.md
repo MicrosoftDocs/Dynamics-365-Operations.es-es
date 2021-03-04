@@ -57,3 +57,6 @@ Encontrar un grupo calificado de candidatos para cubrir vacantes puede ser difí
 24. Cierre la página.
 25. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

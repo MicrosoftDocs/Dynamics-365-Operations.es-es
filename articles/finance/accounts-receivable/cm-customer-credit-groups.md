@@ -39,3 +39,6 @@ Puede configurar grupos de crédito de cliente en la página **Grupos de crédit
 Una vez que haya terminado de configurar un grupo de crédito de cliente, puede agregar clientes especificado su entidad jurídica y su id. de cuenta de cliente. Al agregar un nuevo cliente a un grupo de crédito de cliente, el sistema busca la misma cuenta de cliente en todas las entidades jurídicas y le solicita que la agregue al grupo de crédito de cliente.
 
 Use el menú **Saldos vencidos** para ver los detalles de saldo vencido de todos los clientes de factura en un grupo de crédito de cliente. La página **Saldo vencido** muestra un resumen de los saldos vencidos de las cuentas de cliente de factura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

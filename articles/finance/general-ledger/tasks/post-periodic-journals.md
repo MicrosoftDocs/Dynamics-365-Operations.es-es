@@ -58,3 +58,6 @@ Los diarios periódicos a veces que se denominan diarios periódicos dado que el
 27. En el campo **Número de diario periódico**, especifique o seleccione un valor.
 28. En la lista, haga clic en el vínculo de la fila seleccionada.
 29. Haga clic en **Aceptar**. El diario del período se puede revisar, aprobar o registrar ahora en función del requisito y la configuración.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

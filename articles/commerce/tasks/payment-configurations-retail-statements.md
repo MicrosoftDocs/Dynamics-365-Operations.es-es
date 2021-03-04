@@ -53,3 +53,6 @@ Esta grabación usa la empresa de demostración USRT.
     * Seleccione la cuenta en la que registrar importes seguros.  
 8. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

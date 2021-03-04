@@ -121,3 +121,6 @@ Cuando se facturen las transacciones de marzo de 2011, el precio de ventas de EU
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -410,3 +410,6 @@ Cuando Supply Chain Management genera los trabajos para el piso de producción, 
 - Si define varias relaciones de operación de ruta que incluyen la relación *Todos* y asignar Guías a esos, solo se mostrarán las Guías de la relación más específica para el trabajo.  
 
 ![Diagrama de resolución de las Guías relevantes](media/instruction-guides-Resolve.png "Diagrama de resolución de las Guías relevantes")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

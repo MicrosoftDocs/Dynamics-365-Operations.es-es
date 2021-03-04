@@ -64,3 +64,6 @@ A veces, una organización deja de ofrecer determinadas prestaciones. En este ca
 Del mismo modo, la extensión total de la prestación le permite ampliar la fecha de vencimiento tanto de una prestación como las inscripciones de trabajador para dicha prestación si decide ofrecer una prestación más tiempo de lo que planeó originalmente.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

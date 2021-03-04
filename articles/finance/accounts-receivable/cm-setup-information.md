@@ -153,3 +153,6 @@ Siga estos pasos para agregar líneas que representen el límite de crédito que
 2. Seleccione el operador de comparación que define cómo se debe evaluar la información del grupo de puntuación.
 3. Especifique el valor que se debe comparar con el valor especificado para el grupo de puntuación.
 4. Especifique el límite de crédito que se debe asignar si la información del cliente coincide con el valor especificado para el grupo de puntuación. Por ejemplo, crea un límite de crédito automático para el grupo de puntuación **Bajo**. Si los años en el negocio representa uno de los grupos de puntuación, puede definir una línea que asigne un límite de crédito de 100 000 si el cliente lleva cinco años en el negocio y otra línea que asigna un límite de crédito de 200 000 si el cliente lleva 10 años en el negocio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

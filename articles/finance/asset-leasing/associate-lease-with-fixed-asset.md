@@ -54,3 +54,6 @@ El activo fijo ahora se puede depreciar utilizando la funcionalidad de depreciac
 
 > [!NOTE]
 > Si asocia un activo fijo con un arrendamiento, los botones **Depreciación de activos** y **Deterioro del arrendamiento** están desactivados en Arrendamiento de activos. Puede ver la depreciación de activos y las transacciones de deterioro de arrendamientos desde Activos fijos. El botón **Transacciones de activos**, que abre un formulario de consulta, también está desactivado. También puede abrir el formulario de consulta **Transacciones de activos** en Activos fijos.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

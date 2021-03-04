@@ -504,3 +504,6 @@ Debe definir una asociación de calidad para cada variación de un proceso empre
 [Gestión de disconformidad](enable-nonconformance-management.md)
 
 [Administración de la calidad para procesos de almacén](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

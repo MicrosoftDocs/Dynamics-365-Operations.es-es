@@ -57,3 +57,6 @@ Cuando confirma los presupuestos de ventas, los pedidos de ventas resultantes mu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

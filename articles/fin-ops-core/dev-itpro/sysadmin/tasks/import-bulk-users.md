@@ -58,3 +58,6 @@ Una vez completada la importación, será necesario asignar roles a los usuarios
 ## <a name="run-in-a-sandbox-environment"></a>Ejecutar un entorno de espacio aislado
 1. Seleccione **Importación por lotes**.
 2. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

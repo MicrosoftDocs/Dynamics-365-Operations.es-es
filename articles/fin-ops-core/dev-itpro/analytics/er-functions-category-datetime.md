@@ -56,3 +56,6 @@ Las funciones de fecha y hora de informes electrónicos (ER) se pueden usar para
 [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
 
 [Idioma de fórmulas en los informes electrónicos](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

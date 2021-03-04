@@ -63,3 +63,6 @@ Los asientos del diario registrados se pueden guardar como plantillas de asiento
 29. En el campo **Importe**, especifique el importe que se aplicará al asiento. El campo **Importe** solo se muestra si la plantilla de asientos es del tipo Porcentaje.  
 30. Haga clic en **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

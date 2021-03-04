@@ -183,3 +183,6 @@ Los procesos de aprobación se componen de pasos de aprobación. Realice el sigu
 1. En el editor de flujo de trabajo, haga doble clic en el proceso de aprobación. Los pasos del proceso se mostrarán en el editor de flujo de trabajo.
 2. Para agregar un paso de aprobación, arrástrelo desde el área de **Elementos del flujo de trabajo** al lienzo.
 3. Para configurar un paso de aprobación, vea [Configurar los pasos de aprobación en un flujo de trabajo](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

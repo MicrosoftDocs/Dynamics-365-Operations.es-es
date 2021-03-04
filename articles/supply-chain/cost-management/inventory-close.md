@@ -87,3 +87,6 @@ En ocasiones, puede ser necesario invertir un cierre de inventario completado pa
 > [!NOTE] 
 > Solo se puede volver a abrir el período correspondiente al último cierre de inventario. Para invertir un cierre anterior del inventario, debe invertir cada cierre posterior de inventario uno a uno, comenzando por el cierre más reciente.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

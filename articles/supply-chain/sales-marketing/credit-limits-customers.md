@@ -138,3 +138,6 @@ En ocasiones, es posible que deba comprobar manualmente el límite de crédito d
 1.  Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de ventas** \> **Todos los pedidos de ventas**. Haga doble clic en un pedido de ventas.
 
 2.  En el formulario **Pedido de ventas** del panel de acciones en la ficha **Administrar**, seleccione **Comprobar el límite de crédito**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

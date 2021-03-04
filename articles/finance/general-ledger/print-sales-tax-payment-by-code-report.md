@@ -48,3 +48,6 @@ En el espacio de trabajo **Gestión de características**, active la siguiente: 
 La ilustración siguiente muestra un ejemplo del informe que se genera. El informe muestra que el código de informe **101** tiene la divisa **EUR** si el campo **Divisa de impuestos** se establece en **EUR** para el código de impuestos al que está asignado el código de informe.
 
 ![Ejemplo de pago de impuestos por código de informe](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

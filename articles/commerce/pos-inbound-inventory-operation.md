@@ -221,3 +221,6 @@ Después de que el documento esté en el estado **Pedido**, es visible en la pes
 ## <a name="related-topics"></a>Temas relacionados
 
 [Operación de inventario saliente en PDV](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

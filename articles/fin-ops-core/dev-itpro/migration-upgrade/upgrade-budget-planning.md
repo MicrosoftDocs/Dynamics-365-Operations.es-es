@@ -162,3 +162,6 @@ Se han agregado varias entidades de datos para habilitar una implementación rá
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

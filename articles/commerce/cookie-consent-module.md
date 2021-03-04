@@ -62,3 +62,6 @@ Para obtener más información sobre módulos y fragmentos de encabezado, consul
 [Módulo de encabezado](author-header-module.md) 
 
 [Cumplimiento de cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Use este tema para habilitar procesos de gestión de disconformidades. Una no co
 4. En el campo **Descripción**, escriba un valor.
 5. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

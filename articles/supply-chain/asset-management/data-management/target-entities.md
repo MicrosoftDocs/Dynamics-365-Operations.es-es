@@ -53,3 +53,6 @@ En el espacio de trabajo **Administración de datos**, puede obtener una visión
 
     ![Figura 3](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ La ilustración siguiente muestra los resultados del cálculo de costes del prog
 
 ![Figura 1](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

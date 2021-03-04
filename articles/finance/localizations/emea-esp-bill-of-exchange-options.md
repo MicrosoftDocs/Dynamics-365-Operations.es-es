@@ -58,3 +58,6 @@ Si el parámetro **Tratamiento de fecha en diario de letra de cambio** está est
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

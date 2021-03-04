@@ -96,3 +96,6 @@ Para agregar un módulo banner promocional a una página y establecer las propie
 [Módulo de bloque de contenido](add-hero-module.md)
 
 [Módulo de reproductor de vídeo](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

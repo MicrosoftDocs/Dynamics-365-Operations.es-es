@@ -49,3 +49,6 @@ Si desea guardar un registro de la devolución planificada, puede cancelar un pe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

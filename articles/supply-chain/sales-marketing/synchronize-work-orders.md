@@ -77,3 +77,6 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Órdenes de trabajo con proyecto (Field Service a Supply Chain Management): WorkOrderService
 
 [![Asignación de la plantilla en la integración de datos](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

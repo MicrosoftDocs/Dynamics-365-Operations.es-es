@@ -92,3 +92,6 @@ El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa po
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ En este tema se describen los pasos manuales para crear, calcular y registrar un
 12. En la página principal, seleccione **Operaciones financieras de tienda**.
 13. Seleccione la pestaña **Extractos registrados**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

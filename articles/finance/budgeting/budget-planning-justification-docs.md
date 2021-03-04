@@ -72,3 +72,6 @@ El administrador presupuestario crea una plantilla del plan presupuestario en Mi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

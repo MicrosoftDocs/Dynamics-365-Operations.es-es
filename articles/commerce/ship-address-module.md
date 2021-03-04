@@ -72,3 +72,6 @@ Un módulo de dirección de envío solo se puede agregar a un módulo de finaliz
 [Módulo de detalles del pedido](order-confirmation-module.md)
 
 [Módulo de tarjeta de regalo](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

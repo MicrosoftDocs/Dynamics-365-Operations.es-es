@@ -48,3 +48,6 @@ Pagos de cliente en depósito. Esta tarea usa la empresa de demostración USMF.
 17. Seleccione **Aceptar**. La primera página que se usa para crear el resguardo de depósito.  
 18. Seleccione **Aceptar**. El segundo paso es imprimir el resguardo de depósito, si bien este paso no es obligatorio.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Este procedimiento le guía por el diseño de la relación entre las unidades or
 29. Haga clic en Publicar.
 30. Haga clic en Cerrar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

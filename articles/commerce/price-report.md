@@ -44,3 +44,6 @@ Para habilitar el informe de precio, el parámetro **Habilitar informe de precio
 | Mostrar productos con cambios de precio | Establecer esto en **Sí** mostrará los índices por solo las fechas en las que se ha cambiado el precio. El precio para *un día antes* seleccionado **Desde fecha** se mostrará siempre, de modo que el encargado de tienda pueda identificar con facilidad los productos que no han cambiado los precios durante la duración completa seleccionada, y también puede ver el precio actual. |
 
 Después de que se cree el informe, el archivo de Excel se puede descargar para usar cualquier filtro necesario. El informe del precio se puede usar para comprobar los precios históricos de los productos por últimas fechas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Recursos Humanos conecta a los datos de operaciones y personas para contribuir a
 [Administrar bajas y ausencias](hr-leave-and-absence-overview.md)</br>
 [Desarrollar empleados](hr-develop-performance-management-overview.md)</br>
 [Crear cursos](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -333,3 +333,6 @@ Los valores para la jerarquía de listas de acceso se utilizan para controlar lo
 > [!NOTE] 
 > - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La jerarquía de la lista de acceso no ayuda a proteger la exportación de datos a Excel. Por lo tanto, esa herramienta de informes solo se debe usar por contables y administradores de costes que deban tener acceso completo para ver los datos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Este tema describe los pasos para ver el estado de un documento que envió al si
     - El botón **Reasignar** abrirá un cuadro de diálogo en el que se puede reasignar un elemento de trabajo a otro usuario.  
     - Asegúrese de que la sección **Detalles de seguimiento** está expandida. En esta sección puede ver el historial del flujo de trabajo del documento seleccionado.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

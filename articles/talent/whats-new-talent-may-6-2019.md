@@ -93,3 +93,6 @@ La capacidad de seguir la indisponibilidad del empleado y comprender cómo se ca
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Indicar el tipo de instancia al aprovisionar Talent
 
 Al aprovisionar una nueva instancia de Talent, podrá indicar si el tipo de instancia es **Producción** o **Espacio aislado**, permitiendo la prueba temprana de nuevas características. Todas las instancias existentes de Talent se actualizarán el tipo de instancia de la producción. Si desea que una de las instancias existentes se actualicen al tipo de instancia de Espacio aislado, contacte con el Soporte para iniciar la solicitud de cambio.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

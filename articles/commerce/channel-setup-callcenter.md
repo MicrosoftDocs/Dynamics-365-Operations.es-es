@@ -136,3 +136,6 @@ Para configurar un grupo de precios, haga lo siguiente.
 [Configurar y trabajar con alertas de fraude](set-up-fraud-alerts.md)
 
 [Configurar programas de continuidad para centros de llamadas](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

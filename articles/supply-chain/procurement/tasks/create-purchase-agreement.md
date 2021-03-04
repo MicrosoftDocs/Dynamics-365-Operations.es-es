@@ -72,3 +72,6 @@ Este tema le guía por el proceso de creación de un acuerdo de compra. Esto nor
 5. Seleccione **Confirmaciones del acuerdo de compra**. La opción **Vista previa/Imprimir** le permite generar un documento para el acuerdo de compra que después se puede imprimir o enviar al proveedor. Si se actualiza el acuerdo más adelante y se vuelve a confirmar, aquí se mostrarán las dos versiones.  
 6. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

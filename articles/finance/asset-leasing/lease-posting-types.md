@@ -154,3 +154,6 @@ La cuenta que se selecciona para cada tipo de gasto se adeuda cuando se genera u
 
 > [!NOTE]
 > La cuenta de contrapartida se selecciona a nivel de arrendamiento en las líneas para el programa de pago de gastos a cargo del arrendatario en un arrendamiento de capital. Esta cuenta de contrapartida se puede asociar con el proveedor o con una cuenta contable.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

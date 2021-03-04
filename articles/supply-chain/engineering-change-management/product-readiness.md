@@ -148,3 +148,6 @@ Para cada fila que agregue, configure los siguientes campos.
 | Cuestionarios | Seleccione el cuestionario que debe usarse para la lista de verificación. La lista de verificación es una lista de verificación local en la empresa donde se realiza la verificación de preparación. El sistema debe poder evaluar si la lista de verificación se responde correctamente. Por lo tanto, la lista de verificación debe configurarse de manera que se realice una evaluación basada en las respuestas correctas. Para obtener más información sobre cómo crear cuestionarios, consulte [Usando cuestionarios](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) y sus temas relacionados. |
 | Aprobación automática | Los registros de verificación de preparación incluyen una casilla **Aprobado** que indica el estado de aprobación. Seleccione la casilla **Aprobación automática** para verificaciones que deben establecerse como aprobadas inmediatamente después de que el usuario asignado las complete. Desactive esta casilla de verificación para solicitar una aprobación explícita como paso adicional. |
 | Obligatoria | Seleccione esta casilla de verificación para las comprobaciones que debe completar el usuario asignado. Los controles obligatorios no se pueden omitir. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

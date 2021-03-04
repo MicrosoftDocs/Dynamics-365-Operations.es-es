@@ -43,3 +43,6 @@ En este tema se muestra cómo crear manualmente un código de barras mediante el
 12. Seleccione **Guardar**.
 13. Cierre la página. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

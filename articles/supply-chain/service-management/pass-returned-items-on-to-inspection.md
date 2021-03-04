@@ -56,3 +56,6 @@ Se solicitará al sistema que cree una orden de cuarentena, y la persona o depar
 
 [Especificar la disposición de artículos devueltos](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Este procedimiento muestra cómo crear nuevos nodos en una jerarquía de categor
 4. Seleccione los productos que desea agregar a la categoría de adquisición.
 5. Seleccione la flecha para agregar los productos a la tabla **Seleccionado**.
 6. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

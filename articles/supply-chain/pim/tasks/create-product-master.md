@@ -61,3 +61,6 @@ Cree un producto maestro para las variantes predefinidas. La empresa de datos de
 10. Haga clic en **Guardar**.
 11. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

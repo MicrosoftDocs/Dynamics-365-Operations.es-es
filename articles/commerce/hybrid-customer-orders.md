@@ -41,3 +41,6 @@ Si hay una línea del carro definida como **Recoger selección**, **Enviar selec
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Pedidos de cliente en Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

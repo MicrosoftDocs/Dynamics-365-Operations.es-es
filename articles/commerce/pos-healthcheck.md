@@ -83,3 +83,6 @@ También se pueden crear comprobaciones de estado personalizadas para probar dis
 ## <a name="related-articles"></a>Artículos relacionados
 
 [Desencadenadores e impresión de Modern POV (MPOS)](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

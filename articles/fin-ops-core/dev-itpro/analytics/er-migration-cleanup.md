@@ -57,3 +57,6 @@ Complete los siguientes pasos para resolver problemas con las plantillas de ER a
 Puede ocurrir un problema similar si migra la instancia de la aplicación a otra ubicación que se ha utilizado como destino de migración más de una vez y para la cual el Almacenamiento de blob ya contiene archivos de plantilla ER.
 
 Dado que puede tener varias configuraciones de formato de ER, este proceso puede ser largo. Por lo tanto, es preferible el uso de la función [Almacenamiento de respaldo de plantillas ER](er-backup-storage-templates.md) para recuperar automáticamente plantillas con referencias rotas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

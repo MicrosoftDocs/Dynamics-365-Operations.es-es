@@ -104,3 +104,6 @@ Según los campos que incluya en el gráfico, cada nodo muestra la información 
 **Opción adicional**
 
 En Recursos humanos, es posible que también puede usar el espacio de trabajo **Personas** para ver información relacionada con la jerarquía.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

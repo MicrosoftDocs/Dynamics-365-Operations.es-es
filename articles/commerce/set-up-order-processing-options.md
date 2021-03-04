@@ -84,3 +84,6 @@ Una vez que haya terminado de configurar el canal del centro de llamadas y de de
 > [!NOTE]
 > A fin de utilizar la funcionalidad del centro de llamadas, debe estar habilitada la clave de configuración para **Envíos múltiples**. Esta clave de configuración se puede encontrar en las claves **Configuración de comercio** en **Administración del sistema**\> **Configuración** \> **Configuración de licencia**. Esto es necesario debido a la funcionalidad del centro de llamadas, que realiza diversas validaciones en función de la dirección de entrega configurada en el nivel de línea del pedido de ventas. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

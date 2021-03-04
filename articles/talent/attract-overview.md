@@ -49,3 +49,6 @@ Tan pronto como hayan sido agregados a un trabajo; los candidatos reciben un cor
 
 ## <a name="analytic-reports"></a>Informes analíticos
 Los equipos de contratación pueden usar medidas de proceso de contratación clave para un trabajo único o agregarlas a través de todos los trabajos con [informes análiticos en Attract](analytic-reports.md). Esta característica está actualmente en [versión preliminar](access-preview-feature.md) para clientes con [Qué versión Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

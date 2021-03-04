@@ -73,3 +73,6 @@ Para enriquecer un página del producto, siga estos pasos.
 [Enriquecer una página de aterrizaje de categoría](enrich-category-page.md)
 
 [Verificar accesibilidad de contenido de página](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

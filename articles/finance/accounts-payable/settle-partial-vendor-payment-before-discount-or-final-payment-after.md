@@ -122,3 +122,6 @@ A continuación, April registra el pago. Cuando abre la página **Transacciones 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

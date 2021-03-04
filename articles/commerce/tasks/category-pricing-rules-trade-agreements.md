@@ -59,3 +59,6 @@ Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta 
 24. Haga clic en la ficha Reglas de precios de categoría.
     * Las reglas de precios de categoría específicas de canal se mostrarán en esta lista.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

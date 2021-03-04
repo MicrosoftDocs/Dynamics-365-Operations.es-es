@@ -127,3 +127,6 @@ El color solo se muestra en el nivel más bajo en el gráfico de Gantt. Seleccio
 1. En la cuadrícula, seleccione la fila donde el campo **Campo** está establecido en **Número de artículo**.
 1. En el campo **Criterios**, escriba un valor.
 1. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

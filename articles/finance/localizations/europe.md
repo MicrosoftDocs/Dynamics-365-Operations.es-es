@@ -99,3 +99,6 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 
 - [Visión general de los informes electrónicos](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

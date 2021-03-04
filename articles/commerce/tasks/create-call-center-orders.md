@@ -62,3 +62,6 @@ Este procedimiento le guía por la búsqueda de un cliente, la creación de un n
 
 [Cambiar el modo de entrega en PDV](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

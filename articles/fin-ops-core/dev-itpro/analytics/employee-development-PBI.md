@@ -68,3 +68,6 @@ Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e 
 | Análisis de aptitudes de empleados  | Certificación, nivel, fecha de nivel y aptitud                                                                    | Nombre del empleado, aptitud |
 | Rendimiento              | Calificación, descripción y modelo de calificación                                                                      | Empleado actual, puesto actual, tendencia del empleado, aptitud preferida del trabajo, asignación de puesto anterior, tendencia del puesto, empleado cesado |
 | Aptitud                    | Aptitudes, tipo de aptitud y calificación                                                                              | Análisis de aptitudes de empleados, aptitud preferida del trabajo |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

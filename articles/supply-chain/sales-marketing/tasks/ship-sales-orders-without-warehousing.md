@@ -56,3 +56,6 @@ En este tema se explica cómo actualizar un pedido de ventas cuando los producto
 19. En el panel de acciones, seleccione **Seleccionar y empaquetar**.
 20. Seleccione **Albarán**. La página **Diario del albarán** contiene todos los documentos de albaranes generados para el pedido. Puede revisar los detalles de cada documento e imprimirlos, si lo desea.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

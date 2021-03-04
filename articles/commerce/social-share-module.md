@@ -82,3 +82,6 @@ Para agregar un módulo de compartir en redes sociales a un módulo de cuadro de
 [Módulo de cuadro de compra](add-buy-box.md)
 
 [Cumplimiento de cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

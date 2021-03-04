@@ -69,3 +69,6 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 11. Haga clic en Aceptar.
     * Revise la salida generada. Tenga en cuenta que se ha creado un nodo XML por cada adjunto. El contenido del adjunto se rellena al archivo de salida XML en formato de texto MIME (base64).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

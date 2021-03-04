@@ -62,3 +62,6 @@ Los perfiles de distribución de aptitudes le permiten buscar empleados o candid
 Puede crear un análisis de aptitud para ver una lista de las capacidades para un trabajador, un candidato o una persona de contacto a partir de una fecha específica. Puede crear un análisis de lagunas de aptitudes para comparar las aptitudes de una persona con las aptitudes necesarias para un puesto.  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

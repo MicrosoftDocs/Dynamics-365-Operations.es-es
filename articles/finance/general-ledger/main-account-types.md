@@ -41,3 +41,6 @@ Para obtener más información, vea [Configuración de categorías de la cuenta 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

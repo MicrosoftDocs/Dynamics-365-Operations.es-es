@@ -57,3 +57,6 @@ Los datos de la aplicación se usan para rellenar los informes del paquete de co
 | Training\_Position        | Puesto, título y equivalente a jornada completa                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Nombre, apellido y nombre completo                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Cargo y fecha de antigüedad                                         | Training\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

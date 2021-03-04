@@ -411,3 +411,6 @@ El producto ahora se puede lanzar nuevamente a la empresa *USMF* y luego se env�
 1. Seleccione cada empresa a la que desee lanzar productos.
 1. Seleccione **Aceptar** para cerrar el cuadro de diálogo **Versiones** y volver a la orden de cambio.
 1. En el panel de acciones, en la pestaña **Orden de cambio**, en el grupo **Lanzamientos de productos**, seleccione **Proceso** para liberar los productos afectados a las empresas seleccionadas. Alternativamente, seleccione **Estructura del producto de liberación** para iniciar el proceso de liberación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

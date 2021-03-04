@@ -52,3 +52,6 @@ En los siguientes temas se describe el funcionamiento del motor de planificació
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

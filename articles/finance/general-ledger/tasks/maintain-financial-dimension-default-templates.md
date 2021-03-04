@@ -42,3 +42,6 @@ Este tema muestra cómo configurar las plantillas predeterminadas de dimensión 
 11. Especifique los valores de la dimensión financiera que se corresponden con el porcentaje especificado.
 12. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

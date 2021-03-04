@@ -41,3 +41,6 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 | Contenido  | Descripción  | Formato |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [Aspectos básicos de Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Compruebe que se sabe cómo funciona Microsoft Dynamics 365: Power Platform, conceptos de la nube, opciones de licencia y opciones de la implementación y de publicación. | Inspección; el coste varía según la región |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

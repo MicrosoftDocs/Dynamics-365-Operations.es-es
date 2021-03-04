@@ -106,3 +106,6 @@ Hay muchos temas sobre la administración de la cadena de suministro y la fabric
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
 Para cursos y formación en línea, consulte [Dynamics 365 Supply Chain Management en Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

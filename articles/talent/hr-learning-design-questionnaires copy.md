@@ -246,3 +246,6 @@ De forma alternativa, configure un cuestionario de manera que un encuestado sele
 
 [Ver y evaluar los resultados de los cuestionarios](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

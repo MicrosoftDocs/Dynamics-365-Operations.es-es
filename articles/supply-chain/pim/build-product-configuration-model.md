@@ -163,3 +163,6 @@ Si la configuración se realiza en un sitio, o incluso una empresa, que es difer
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

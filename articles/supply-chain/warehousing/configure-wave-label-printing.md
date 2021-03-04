@@ -932,3 +932,6 @@ Puede ver y volver a imprimir etiquetas de oleadas desde las siguientes páginas
 - Historial de etiquetas de oleada
 
 Para la mayoría de estas páginas, puede encontrar la función relevante seleccionando **Etiquetas de oleadas** en el grupo **Información relacionada** de la pestaña del panel de acciones **Envíos**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

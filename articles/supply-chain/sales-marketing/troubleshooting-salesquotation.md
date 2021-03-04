@@ -40,3 +40,6 @@ Si intenta establecer una cantidad de ventas (campo **SalesQty**) para un elemen
 
 No puede establecer una cantidad de ventas para productos que son artículos de servicio. Por ejemplo, si ofrece un servicio para instalar un artículo, no tiene sentido registrar una cantidad, porque no hay un artículo físico. Solo hay un servicio.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

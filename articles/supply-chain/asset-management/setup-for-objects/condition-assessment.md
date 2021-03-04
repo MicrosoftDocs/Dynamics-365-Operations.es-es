@@ -66,3 +66,6 @@ Tras un registro de evaluación de condiciones en un activo, puede imprimir un i
 
 >[!NOTE]
 >También puede registrar la evaluación de condiciones en una orden de trabajo (**Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** >  botón **Evaluación de condiciones**.)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

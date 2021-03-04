@@ -41,3 +41,6 @@ Si existe conflicto con el plan de cuentas, se puede cambiar el delimitador del 
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Cómo determinar si el entorno requiere delimitadores actualizados 
 Si los delimitadores en el entorno actualizado están en conflicto, es posible que se produzca inestabilidad al especificar valores en un control de entrada segmentado o control de entrada de dimensiones. Esto significa que deberá usar siempre búsquedas o un menú desplegable al especificar combinaciones de cuenta y dimensión.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

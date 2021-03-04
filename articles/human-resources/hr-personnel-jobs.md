@@ -87,3 +87,6 @@ Use las áreas de responsabilidad para indicar los roles de trabajo, los proceso
 
 ## <a name="steps-for-creating-a-job"></a>Pasos para crear un trabajo
 Consulte el artículo [Definir nuevos trabajos](../fin-and-ops/hr/tasks/define-new-jobs.md) para informarse del procedimiento detallado para crear un nuevo trabajo. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Si se encuentra un error de validación, la única forma de corregir el error es
 
 > [!NOTE]
 > En una versión futura se agregarán reglas de validación adicionales para admitir más escenarios.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

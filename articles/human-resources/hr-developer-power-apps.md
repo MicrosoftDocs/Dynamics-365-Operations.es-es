@@ -60,3 +60,5 @@ Para descargar la plantilla **Power Automate - Conectar y ejecutar SQL**, vaya a
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [La Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

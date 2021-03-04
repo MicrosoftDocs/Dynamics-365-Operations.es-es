@@ -140,3 +140,6 @@ La estrategia LIFO busca la ubicación que contiene la fecha de vencimiento más
 1. Observe que la línea donde el valor **Tipo de trabajo** es *Seleccionar* muestra un valor **Ubicación** de *FL-001*. Esta ubicación contiene la matrícula que tiene la fecha de vencimiento más actual (LIFO).
 
 En estos escenarios, puede observar cómo la estrategia de vencimiento de la ubicación dirige el trabajo a la ubicación del inventario que tiene el inventario más antiguo o el más nuevo, según la estrategia seleccionada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

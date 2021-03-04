@@ -55,3 +55,6 @@ Este lanzamiento incluye correcciones de errores de menor importancia para Dynam
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 
 Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Core HR.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ El primer año de servicio concluirá en diciembre de 2020, lo que significa que
    [![Programa de depreciación para la convención de depreciación semestral](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Los períodos de depreciación extendidos que se agregan por la convención semestral proporcionan una asignación más precisa de la depreciación. La convención de seis meses representa los gastos de depreciación de manera más equitativa, lo que es útil para informar sobre el estado de pérdidas y ganancias.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

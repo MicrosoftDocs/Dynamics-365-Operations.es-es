@@ -39,3 +39,6 @@ Para poder usar la consolidación de concentrador, debe habilitar la opción **P
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

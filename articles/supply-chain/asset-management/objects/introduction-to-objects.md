@@ -78,3 +78,6 @@ Los botones del panel de acciones se organizan en fichas. La tabla siguiente des
 | Piezas de repuesto          | Ver una lista de repuestos aprobados y alternativos que se pueden utilizar en el activo.                                                                               |
 | Consumo de activo    | Imprimir un informe que muestre los registros de consumo del activo.                                                                                                |
 | Defecto de activo          | Imprimir un informe que muestre los registros de defectos del activo.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

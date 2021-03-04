@@ -61,3 +61,6 @@ Por ejemplo, el producto X se asigna al grupo de propietarios de productos *Arma
 ## <a name="product-owners-and-approvals"></a>Propietarios y aprobaciones de productos
 
 Dado que los propietarios de productos saben si los cambios de ingeniería específicos beneficiarán a sus productos, a menudo tiene sentido incluirlos como parte del proceso de aprobación en la gestión de cambios de ingeniería. Puede implementar este enfoque configurando a los propietarios del producto como proveedores participantes en los flujos de trabajo que se utilizan para la gestión de cambios de ingeniería. Luego, el sistema asignará tareas de aprobación en los flujos de trabajo, en función de los productos que se encuentran en las solicitudes de cambio de ingeniería y las órdenes de cambio de ingeniería. Para más información, ver [Gestionar cambios en productos de ingeniería](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

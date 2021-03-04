@@ -50,3 +50,6 @@ Para ver las novedades o los cambios de cada versión de una aplicación de Life
 - [Novedades y cambios en Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

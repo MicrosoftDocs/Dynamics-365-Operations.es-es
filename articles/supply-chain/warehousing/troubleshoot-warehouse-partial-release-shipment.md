@@ -42,3 +42,6 @@ Por ejemplo, una orden de venta tiene dos artículos: uno para entrega y otro pa
 ### <a name="issue-resolution"></a>Solución del problema
 
 El estado de liberación se aplica solo a las líneas de pedido donde los artículos están habilitados para la gestión del almacén. Por lo tanto, el estado de publicación sigue siendo *Liberado parcialmente* en este escenario. Microsoft ha evaluado este problema y ha determinado que es una limitación de funciones. Se podría agregar una extensión como parte del albarán y el proceso de facturación para actualizar el estado de liberación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

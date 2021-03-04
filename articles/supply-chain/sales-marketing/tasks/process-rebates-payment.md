@@ -51,3 +51,6 @@ Este procedimiento muestra cómo convertir en notas de abono devoluciones de cli
     * Observe cómo se ha agregado al saldo del cliente una transacción por un importe negativo, el cual representa el importe de devolución total, sin referencia de factura.   
 15. Haga clic en Cancelar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

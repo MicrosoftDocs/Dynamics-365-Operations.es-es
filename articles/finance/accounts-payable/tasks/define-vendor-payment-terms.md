@@ -47,3 +47,6 @@ En este tema se explica cómo configurar condiciones de pago para facturas de pr
 16. Especifique la cuenta principal en la que se registrará el descuento por pronto pago para las facturas de cliente. A continuación, escriba la cuenta principal en la que se registrará el descuento por pronto pago para las facturas de proveedor. Si **Cuentas de contrapartida para descuentos** está establecida en **Usar cuenta principal para descuentos de proveedor**, se usará la cuenta principal. Si la opción se establece en **Cuentas en las líneas de factura**, el descuento por pronto pago se registrará en las cuentas de activos/gastos en las líneas de la factura.  
 17. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

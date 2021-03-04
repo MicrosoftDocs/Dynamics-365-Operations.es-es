@@ -109,3 +109,6 @@ En la tabla siguiente se muestran los tipos de lista disponibles para la selecci
 [Módulo de cuadro de compra](add-buy-box.md)
 
 [Visión general de recomendaciones de producto](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

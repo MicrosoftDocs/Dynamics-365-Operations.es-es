@@ -62,3 +62,6 @@ Al crear vínculos en definiciones de contabilización, se aplicarán las siguie
 Para obtener más información, consulte [Ejemplos de definiciones de contabilización](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

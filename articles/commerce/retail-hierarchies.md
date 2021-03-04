@@ -45,3 +45,6 @@ La siguiente tabla enumera los tipos de jerarquías de categorías disponibles y
 | Jerarquía de navegación   | Use este tipo de jerarquía para agrupar y organizar productos en categorías para que se puedan examinar productos en línea o en los puntos de venta. |
 
 Si utiliza una jerarquía de categorías para dar estructura a sus productos, podrá configurar y mantener las propiedades y los atributos de los productos en el nivel de la categoría. Estas propiedades y atributos incluyen valores para la configuración del punto de venta y las dimensiones de productos. Cualquier producto que asigne a las categorías heredará automáticamente las propiedades y los atributos definidos. También puede copiar la configuración de propiedad de cualquier producto en varios productos de una categoría seleccionada al mismo tiempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

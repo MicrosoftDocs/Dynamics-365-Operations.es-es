@@ -55,3 +55,6 @@ Los usuarios externos al inquilino en el que se implementó el entorno deben est
 4. Seleccionar **Importar usuarios**.
 5. Seleccione **Cerrar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

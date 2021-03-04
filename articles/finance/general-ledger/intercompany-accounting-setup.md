@@ -50,3 +50,6 @@ Una relación recíproca se puede configurar con facilidad en la página **Conta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

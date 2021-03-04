@@ -74,3 +74,6 @@ En el siguiente diagrama se muestran los componentes básicos que ayudan con las
 [![componentes de servicio para la impresión de red\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Tenga en cuenta que una sola impresora se puede registrar con varios agentes de ruta de documento. Para resolver las preferencias de la impresora, el servicio hospedado utiliza la ruta de red que identifica de manera única a cada impresora de red. Como resultado, incluso cuando una impresora es registrada por varios clientes, aparece como única selección en la lista de impresoras disponibles en las aplicaciones.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

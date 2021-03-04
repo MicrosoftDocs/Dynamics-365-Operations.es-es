@@ -101,3 +101,6 @@ En la pestaña **Catálogos**, también están disponibles opciones para configu
 ## <a name="additional-notes"></a>Notas adicionales
 
 Actualmente, cuando un identificador de código de origen se aplica a un pedido de ventas en el centro de llamadas, se utiliza para generar precios, promociones, secuencias de comandos y ventas verticales/cruzadas que son específicas del catálogo. El sistema no prohibirá ni evitará pedir un producto del pedido de ventas que no se encuentre en el catálogo. Si se pide un artículo que no forme parte del catálogo, el sistema utilizará primero el **Grupo de precios** que se define en el canal del centro de llamadas (**Retail y Commerce** \> **Canales** \> **Centros de llamadas** \> **Todos los centros de llamadas**) para el precio o las promociones del artículo. Si no se encuentra ningún precio específico del canal, se empleará el precio de venta base del artículo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ En este tema se demuestra cómo crear una entrega directa para un pedido de vent
     - La página Entrega directa actúa como área de trabajo que proporciona al agente de compras una visión general de todas las líneas de pedidos de ventas que se procesarán por entrega directa y le permite crear los pedidos de compra respectivos. Además, puede ver los pedidos abiertos de entrega directa y los pedidos confirmados en las fichas Confirmación y Entrega.  
     - Después de crear un pedido de entrega directa, se desplazó automáticamente a la ficha de confirmación. Puede elegir confirmar el pedido directamente desde esta página. Cuando se confirme la compra, se moverá automáticamente a la ficha Entrega, desde la que puede registrar su recepción.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

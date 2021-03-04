@@ -53,3 +53,6 @@ Para obtener más información sobre la configuración relacionada con el cálcu
 
 > [!NOTE]
 > Si cambia un registro de nivel de servicio de activo en la página **Niveles de servicio de activos** después de haberlo utilizado en una orden de trabajo, el nivel de servicio de las solicitudes de mantenimiento y las órdenes de trabajo no se actualiza como corresponde.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Para notificar una interrupción del entorno de producción, siga el proceso des
  ## <a name="see-also"></a>Consulte también
 
  [Prepararse para la publicación](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

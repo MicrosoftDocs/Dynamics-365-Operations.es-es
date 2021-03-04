@@ -63,3 +63,6 @@ Este procedimiento le mostrará los distintos métodos usados para crear pagos d
 33. Haga clic en **Aceptar** para generar los pagos.
 34. Haga clic en **Registrar** si se han aprobado y generado todos los pagos. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

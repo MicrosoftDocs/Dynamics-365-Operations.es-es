@@ -54,3 +54,6 @@ Asigne un código de disposición cuando se recibe un artículo o durante la ins
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

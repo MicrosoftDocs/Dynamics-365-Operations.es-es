@@ -183,3 +183,6 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 14.  Seleccione **Aceptar**, abra el archivo descargado y revise los datos.
 
 ![Datos del libro de registro de IVA español](media/6_Spanish_VAT_register_book.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

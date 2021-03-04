@@ -102,3 +102,6 @@ La empresa de datos de prueba utilizada para crear este procedimiento es USMF. E
 11. En el campo **Hora de compra**, especifique "5".
 12. Haga clic en **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

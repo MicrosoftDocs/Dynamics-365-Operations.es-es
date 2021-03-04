@@ -56,3 +56,6 @@ Para revocar una transacción revertida, siga estos pasos.
 Cuando selecciona **Seguimiento de reversiones**, aparece un cuadro de diálogo que muestra tanto las transacciones originales como las transacciones revertidas, junto con un número de seguimiento vinculado.
 
 También puede realizar un seguimiento de las revocaciones mediante el uso de la página **Programaciones**. El campo **Revertir** se borra, mientras que el campo **Diario registrado** se selecciona. Además, el campo **Último número de diario** se actualiza con el número de diario de la transacción de revocación y el campo **Número de diario** se actualiza con el número de diario de reversión.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

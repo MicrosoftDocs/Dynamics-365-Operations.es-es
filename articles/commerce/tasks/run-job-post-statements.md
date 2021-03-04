@@ -44,3 +44,6 @@ Este procedimiento le muestra la configuración y ejecución de un trabajo por l
 8. Haga clic en Aceptar.
 9. Haga clic en Aceptar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

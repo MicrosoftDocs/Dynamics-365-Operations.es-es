@@ -50,3 +50,6 @@ La dimensión de seguimiento **Propietario** falta cuando se utiliza la aplicaci
 ### <a name="issue-resolution"></a>Solución del problema
 
 Microsoft ha evaluado este problema y ha determinado que es una limitación de funciones. Actualmente, los procesos de gestión de almacenes solo admiten el inventario que es propiedad de la entidad jurídica.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

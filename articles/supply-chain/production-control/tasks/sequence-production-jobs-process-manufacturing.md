@@ -71,3 +71,6 @@ Este procedimiento usa productos de pintura como ejemplo para mostrar cómo esta
 8. Use un filtro rápido para filtrar por el campo Código de artículo con el valor 'P300'.
     * Observe que los pedidos se establecen ahora en secuencia según la prioridad de color y tamaño y los pedidos planificados empiezan en la primera fecha de pedido y fecha de entrega. Valide la columna Fecha del pedido o la Fecha inicial en el cuadro desplegable Detalles de programación.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

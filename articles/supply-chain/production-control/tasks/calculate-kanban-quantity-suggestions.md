@@ -85,3 +85,6 @@ Este procedimiento se centra en la optimización del tamaño y las cantidades ka
     * Observe que esta es la cantidad kanban fija de 4 proveniente del cálculo de cantidad kanban.  
 5. Haga clic en la ficha del panel de lista.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

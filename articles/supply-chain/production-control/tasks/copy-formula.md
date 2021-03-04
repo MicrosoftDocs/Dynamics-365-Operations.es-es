@@ -65,3 +65,6 @@ Este procedimiento se centra en crear una fórmula que incluya los mismos ingred
 5. Haga clic en Seleccionar.
 6. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

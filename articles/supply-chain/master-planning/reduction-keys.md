@@ -227,3 +227,6 @@ Cuando selecciona **Transacciones - clave de reducción** o **Transacciones - pe
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los planes maestros](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ La solución para este error depende de la causa del error:
 
 + Si la asignación tiene asignaciones dependientes, asegúrese de habilitar las asignaciones dependientes de esta asignación de tabla.
 + Es posible que falten campos de origen o destino en la asignación. Si falta un campo en la aplicación de Finance and Operations, siga los pasos de la sección [Problema de campos de entidad faltantes en mapas](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Si falta un campo en Dataverse, haga clic en el botón **Actualizar tablas** en la asignación para que los campos se rellenen automáticamente en la asignación.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Para obtener más información sobre cómo configurar regulaciones y valores par
 ## <a name="warehouse-management"></a>Gestión de almacenes
 
 Cuando prepare un envío en Gestión de almacenes, podrá imprimir varios informes nuevos que utilizan la información que configuró en Gestión de información de productos. Para obtener más información sobre los informes disponibles y cómo utilizarlos, consulte [Consultas e informes sobre materiales peligrosos](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

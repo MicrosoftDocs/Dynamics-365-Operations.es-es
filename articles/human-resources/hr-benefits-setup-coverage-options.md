@@ -59,3 +59,6 @@ Después de definir las opciones de cobertura, adjunte las opciones de cobertura
    | **Permitir importe de cobertura del empleado** | Especifica si se permite a los empleados modificar el importe de la cobertura en el autoservicio de prestaciones cuando seleccionan las prestaciones. Si selecciona esta casilla, el sistema calculará los parámetros del plan de prestaciones en función del importe de cobertura que el empleado introduce en el autoservicio del empleado. |
 
 6. Seleccione **Guardar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

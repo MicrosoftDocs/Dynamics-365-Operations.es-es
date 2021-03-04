@@ -81,3 +81,6 @@ El pedido de ventas se factura de nuevo para el artículo que se agregó. La fac
 [![Página Transacciones de asiento con el asiento contable que se registra](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Puesto que la suma de los ingresos y las ventas es superior a 319,50 $, la diferencia se registra por 14,48 $. Este importe borra el saldo de la cuenta de compensación de ingresos de factura parcial. Ese saldo se actualizó en el nuevo asiento contable que se registró después de la reasignación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

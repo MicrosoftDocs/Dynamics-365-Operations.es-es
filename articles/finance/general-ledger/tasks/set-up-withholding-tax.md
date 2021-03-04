@@ -49,3 +49,6 @@ Este tema explica cómo configurar la retención de impuestos. La *retención de
 18. Seleccione **Guardar**.
 19. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

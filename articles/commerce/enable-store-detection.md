@@ -69,3 +69,6 @@ Para activar la detección de tienda según la ubicación en Commerce, siga esto
 [Configurar múltiples inquilinos B2C en un entorno de Commerce](configure-multi-B2C-tenants.md)
 
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

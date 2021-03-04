@@ -210,3 +210,6 @@ Además de las restricciones que se aplican actualmente para los productos de pe
 
 > [!NOTE]
 > La información anterior sobre las etiquetas de peso capturado solo es válida si el producto de peso capturado tiene un método de seguimiento de dimensión de etiqueta de peso capturado para hacer un seguimiento completo (es decir, si el parámetro **Método de seguimiento de dimensión de etiqueta de peso capturado** de la directiva de manipulación de artículos de peso capturado se establece en **Dimensiones del producto, dimensiones de seguimiento y todas las dimensiones de almacenamiento**). Si solo se realiza un seguimiento parcial de las etiquetas del elemento de peso capturado (es decir, si el parámetro **Método de seguimiento de dimensión de etiqueta de peso capturado** de la directiva de manipulación de artículos de peso capturado se establece en **Dimensiones del producto, dimensiones de seguimiento y estado del inventario**), se aplican restricciones adicionales. Debido a que, en este caso, se pierde visibilidad entre la etiqueta y el inventario, no se admiten algunos escenarios adicionales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

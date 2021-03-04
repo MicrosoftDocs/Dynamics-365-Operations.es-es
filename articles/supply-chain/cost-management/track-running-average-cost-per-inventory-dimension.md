@@ -56,3 +56,6 @@ El precio de coste promedio móvil para el almacén GW y el lote AAA es de 11,20
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

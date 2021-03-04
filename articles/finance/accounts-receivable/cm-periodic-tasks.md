@@ -44,3 +44,6 @@ A medida que las empresas evolucionan y las circunstancias cambian, los riesgos 
 Puede ejecutar el proceso **Actualizar las estadísticas de saldo del cliente** para actualizar el cálculo de estadísticas de saldo que se muestra en la página **Consulta de estadísticas de saldo**. Esta información se usa para calcular las puntuaciones de riesgo y los valores que se muestran en los cuadros de datos de estadísticas de crédito en la página **Cliente**.
 
 Al ejecutar el proceso, actualiza las estadísticas de saldo de cliente para un solo cliente. Para configurar un trabajo por lotes con el fin de ejecutar el proceso para varios clientes, puede usar la página **Calcular estadísticas de saldo** (**Administración de crédito \> Tareas periódicas \> Calcular estadísticas de saldo**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

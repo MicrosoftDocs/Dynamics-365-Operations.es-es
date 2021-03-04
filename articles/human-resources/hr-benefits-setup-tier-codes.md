@@ -41,3 +41,6 @@ Dynamics 365 Human Resources usa códigos de niveles con tasas de prestaciones q
    | **Descripción** | Una descripción del tipo de nivel de beneficio. |
 
 4. Seleccione **Guardar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

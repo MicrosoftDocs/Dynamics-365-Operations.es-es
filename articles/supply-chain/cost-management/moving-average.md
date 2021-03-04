@@ -155,3 +155,6 @@ En este ejemplo de media móvil, se imprime el informe valor de inventario para 
 
 > [!NOTE]
 > No se puede conciliar el libro mayor con el inventario mediante la opción de orden **Hora de la transacción**. El informe se debe imprimir mediante la opción **Fecha de registro**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

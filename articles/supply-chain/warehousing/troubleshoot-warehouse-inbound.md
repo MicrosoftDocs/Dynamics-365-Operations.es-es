@@ -65,3 +65,6 @@ Una nueva función de manipulación de carga entrante, *Sobre recepción de cant
 1. Recepción en exceso de cantidades de carga
 
 Para más información, vea [Contabilice las cantidades de producto registradas contra las órdenes de compra](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

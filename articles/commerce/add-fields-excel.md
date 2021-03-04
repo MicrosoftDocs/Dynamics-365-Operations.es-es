@@ -55,3 +55,6 @@ El nuevo campo y los datos para él deberían estar ahora disponibles para su ed
 [Editar dimensiones financieras para transacciones minoristas](edit-financial-dim.md)
 
 [Crear un libro de trabajo de Excel para editar transacciones minoristas](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

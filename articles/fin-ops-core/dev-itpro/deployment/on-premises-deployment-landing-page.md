@@ -72,3 +72,6 @@ Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando sele
 - [Características quitadas u obsoletas para Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Directiva del ciclo de vida del software y nuevas soluciones locales](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

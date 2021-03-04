@@ -150,3 +150,6 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 17. En el campo **Cuenta bancaria**, escriba `GBSI OPER`.
 18. Seleccione **Aceptar** y, a continuación, vuelva a seleccionar **Aceptar**. Revise la hoja de trabajo creada, incluidos los detalles de líneas de pago así como los totales para cada código de divisa usado en este mensaje de pago.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

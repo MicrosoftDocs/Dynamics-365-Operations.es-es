@@ -114,3 +114,6 @@ En la tabla siguiente se describen los métodos abreviados de teclado que se pue
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

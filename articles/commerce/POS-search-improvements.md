@@ -118,3 +118,6 @@ En una próxima versión de Commerce, los minoristas podrán establecer el modo 
 
 Para ayudar a evitar problemas de rendimiento inesperados, esta configuración se oculta detrás de un indicador que se denomina **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Por tanto, para mostrar el **Modo de búsqueda de clientes predeterminado** que configura la interfaz de usuario (IU), el minorista debe crear una incidencia de soporte técnico para su prueba de aceptación del usuario (UAT) y los entornos de producción. Una vez que se reciba la incidencia, el equipo de ingeniería trabajará con el minorista para garantizar que este último realiza la prueba en sus entornos que no son de producción a fin de evaluar el rendimiento e implementar cualquier optimización que sea necesaria.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

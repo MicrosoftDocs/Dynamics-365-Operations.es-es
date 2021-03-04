@@ -83,3 +83,6 @@ Este procedimiento explica cómo modificar una configuración de formado del inf
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Usar la versión de borrador modificada del formato del ER para el procesamiento del diario de pagos
 
 Revise la hoja de cálculo creada, incluido el nuevo detalle de líneas de pago – fecha de pago.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Antes de usar la característica **Abrir en ventana nueva**, debe configurar el 
 La característica **Abrir en ventana nueva** solo está disponible cuando hay más de una página abierta en la ventana. Además, la ventana emergente se cierra automáticamente cuando no hay más páginas abiertas (es decir, cuando se cierra la última página de esa ventana). El sistema también cierra las páginas abiertas cuando navega a otra área de la aplicación. Por lo tanto, si tiene ventanas emergentes abiertas y navega a otra área de la aplicación, las ventanas emergentes se cierran automáticamente porque el sistema cerró las páginas de esas ventanas.
 
 La barra superior de las ventanas emergentes muestra información acerca de la empresa en la que se abrió la página y es de solo lectura. Las ventanas emergentes también dependen de la ventana del explorador principal. Si se cierra o se actualiza la ventana principal, todas las ventanas emergentes serán de solo lectura. Si se da esta situación, podrá seguir viendo la información en estas ventanas, pero no podrá interactuar con ella.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

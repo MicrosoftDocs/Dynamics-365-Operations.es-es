@@ -114,3 +114,6 @@ Para asociar una guía con una plantilla de lista de verificación de mantenimie
 
 - [Visión general de doble escritura](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Visión general de la administración de activos](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

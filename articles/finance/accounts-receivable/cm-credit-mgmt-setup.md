@@ -79,3 +79,6 @@ Se incluyen varias estadísticas de administración de crédito en cuadro inform
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Secuencias numéricas y parámetros de secuencia numérica compartida
 
 Se requiere un id. de diario para procesar los ajustes del límite de crédito. Debe agregar el número de ajuste de límite de crédito que se debe usar para generar el id. del diario.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

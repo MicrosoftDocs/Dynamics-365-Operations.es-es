@@ -67,3 +67,6 @@ Cuando se selecciona el área de trabajo **Autoservicio de empleado** como la p�
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>El código de motivo de finalización actualiza el registro de asignación de puesto
 El código de motivo de baja ahora actualizará la asignación de puesto al cesar a un empleado y dar por terminado el puesto. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

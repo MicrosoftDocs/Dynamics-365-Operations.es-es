@@ -38,3 +38,6 @@ Un código de período indica la duración del período de la tarifa de suscripc
 El código de período se define en el grupo de suscripciones de servicio. Se define para las suscripciones mediante el grupo de suscripciones de servicio. Todas las tarifas de suscripción nuevas creadas tienen una fecha inicial propuesta, que es la fecha inicial del período (si se trata del primer período creado) o el final del período anterior (si se trata de un período subsiguiente).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

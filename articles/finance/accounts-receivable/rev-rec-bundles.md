@@ -110,3 +110,6 @@ El diario de facturas que se crea después del registro no incluye el elemento p
 Es importante que el diario de facturas no incluya el elemento principal de la agrupación, porque los procesos que se realizan después de registrar la factura se basan en ese diario de facturas. Por ejemplo, si crea una nota de crédito desde la pestaña **Vender** del panel de acciones, la nota de crédito que se crea incluirá los elementos componentes, pero no el elemento principal.
 
 [![Nota de crédito que muestra los elementos componentes pero no el elemento principal](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

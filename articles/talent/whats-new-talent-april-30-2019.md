@@ -101,3 +101,6 @@ La capacidad de seguir la indisponibilidad del empleado y comprender cómo se ca
 ### <a name="email-support-for-alerts"></a>Soporte de correo electrónico para avisos
 
 En la platform update 26 para Finance and Operations, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando las notificaciones se desencadenen con un evento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

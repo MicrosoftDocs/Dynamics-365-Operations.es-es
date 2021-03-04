@@ -46,3 +46,6 @@ Puede programar eventos de vida futuros en Dynamics 365 Human Resources.
    | Línea | El número de línea del evento de vida futuro. |
 
 4. Seleccione **Guardar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Puede configurar los códigos de motivo para que sean necesarios para los cambio
 Finalmente, en la pestaña **Secuencias numéricas**, se definen las secuencias numéricas de los activos fijos. La secuencia del número de **Activo fijo** se puede anular mediante la secuencia numérica del **Grupo de activos fijos** si se ha especificado.
 
 Para obtener más información, consulte [Crar un activo fijo](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

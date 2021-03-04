@@ -346,3 +346,6 @@ Si la base de asignación del miembro de dimensión predefinida de electricidad 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Bases de asignación](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

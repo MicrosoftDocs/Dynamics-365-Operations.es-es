@@ -79,3 +79,6 @@ Para descargar **Aplicación de referencia**, [solución de extensibilidad de Dy
 
 [La Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [Migrar la aplicación entre arrendatarios y entornos](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

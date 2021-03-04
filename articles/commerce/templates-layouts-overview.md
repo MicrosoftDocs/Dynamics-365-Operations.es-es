@@ -112,3 +112,6 @@ Para empezar a usar diseños preestablecidos, consulte [Trabajar con diseños pr
 [Trabajar con diseños predefinidos](work-with-layouts.md)
 
 [Trabajar con grupos de publicación](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

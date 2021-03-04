@@ -56,3 +56,6 @@ El rol de esta guía de tareas es Tesorero. Esta tarea usa la empresa de demostr
 16. Cierre la página.
 17. Haga clic en la ficha Cheques con fecha futura.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

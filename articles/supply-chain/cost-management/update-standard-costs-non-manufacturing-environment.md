@@ -52,3 +52,6 @@ Para corregir, ajustar o actualizar costes estándar para nuevos artículos, sig
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

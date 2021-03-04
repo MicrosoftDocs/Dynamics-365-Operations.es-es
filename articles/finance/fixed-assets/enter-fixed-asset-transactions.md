@@ -68,3 +68,6 @@ Cualquier tipo de transacción de activos fijos se puede registrar en la página
 El valor restante de los períodos de depreciación del activo fijo no se actualiza cuando una línea de diario del tipo de transacción de depreciación se crea o se importa manualmente a través de una entidad de los datos. Este valor se actualiza cuando el proceso de propuesta de depreciación se utiliza para crear la línea de diario.
 
 Para obtener más información, consulte [Integración de activos fijos](fixed-asset-integration.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

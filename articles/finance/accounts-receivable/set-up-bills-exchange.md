@@ -86,3 +86,6 @@ En la página **Clientes**, para cada cliente que ha acordado pagar mediante una
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

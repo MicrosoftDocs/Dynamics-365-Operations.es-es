@@ -72,3 +72,6 @@ Los requisitos de artículo para los pedidos de servicio se procesan a través d
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

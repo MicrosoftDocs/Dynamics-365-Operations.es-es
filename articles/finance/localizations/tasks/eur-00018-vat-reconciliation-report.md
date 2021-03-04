@@ -41,3 +41,6 @@ Este procedimiento muestra cómo generar el informe de conciliación de impuesto
 6. Seleccione Sí en el campo Mostrar detalles.
 7. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

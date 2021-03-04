@@ -45,3 +45,6 @@ El número de contenedores que se deben tener en cuente para una carga se calcul
 -   Para establecer el peso y el volumen de un contenedor, haga clic en **Gestión de almacenes** \> **Configuración** \> **Contenedores** \> **Tipos de contenedor**.
 
 -   Para configurar el porcentaje de utilización del contenedor, haga clic en **Gestión de almacenes** \> **Configuración** \> **Contenedores** \> **Grupos de contenedor** y, a continuación, especifique un valor en el campo **Porcentaje de utilización del contenedor**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -281,3 +281,6 @@ Si falta alguna de las configuraciones enumeradas anteriormente en el árbol de 
 6. En el campo **Cuenta bancaria**, seleccione **DEMF OPER**.
 7. En el cuadro de diálogo **Generar pagos**, seleccione **Aceptar**.
 8. En el cuadro de diálogo **Parámetros de informes electrónicos**, seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Para modelar trabajo subcontratado para lean manufacturing, debe crear una celda
 24. En el campo Unidad, haga clic en el botón desplegable para abrir la búsqueda.
 25. Resuelva los cambios en la unidad.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

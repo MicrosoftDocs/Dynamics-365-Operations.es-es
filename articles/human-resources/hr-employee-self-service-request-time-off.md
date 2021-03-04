@@ -62,3 +62,6 @@ Al actualizar una solicitud de permiso existente, puede agregar un archivo adjun
 ## <a name="see-also"></a>Consulte también
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

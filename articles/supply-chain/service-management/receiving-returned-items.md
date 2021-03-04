@@ -45,3 +45,6 @@ En función de las directivas de la empresa, los artículos del envío de devolu
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

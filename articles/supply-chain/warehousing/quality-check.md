@@ -397,3 +397,6 @@ Para este escenario, el pallet 3 será aceptado.
 1. Seleccione el botón Menú (**≡**) en la parte superior de la página y luego, en el menú, seleccione **Cancelar** para regresar al menú.
 
 Ahora puede cerrar la aplicación móvil.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

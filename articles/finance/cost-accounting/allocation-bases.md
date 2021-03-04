@@ -430,3 +430,6 @@ A continuación se muestra un ejemplo de una regla de distribución de costes cu
 |    CC002    |     FI      | 3,075.00  | (3075,00 ÷ 18162,50) × Importe  |
 |    CC003    |     TI      | 13,250.00 | (13 250,00 ÷ 18 162,50) × Importe |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

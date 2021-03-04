@@ -152,3 +152,6 @@ Si ya se ha lanzado una variante de producto en una empresa A, e intenta liberar
 El botón **Nuevo** de la página **Variantes de producto publicadas** crea la variante y la libera en el contexto de la empresa. Si la variante ya se ha creado, no puede utilizar **Nuevo** para liberarlo en otra empresa.
 
 Para solucionar el problema, abra la página **Maestro de producto** y seleccione **Liberar producto** para liberar la variante existente en la empresa deseada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

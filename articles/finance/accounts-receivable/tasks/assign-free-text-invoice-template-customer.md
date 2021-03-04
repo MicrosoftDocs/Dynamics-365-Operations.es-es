@@ -50,3 +50,6 @@ Esta tarea muestra cómo asignar una plantilla de factura de texto libre a un cl
     + Anual: seleccione esta opción y especifique el número de años en el campo Por. Por ejemplo, si escribe 2, se generará una factura cada dos años para este cliente.  
 14. En el campo **Por**, especifique un número.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -423,3 +423,6 @@ Probablemente inició sesión en la instancia actual de la aplicación del domin
 
 [Configurar informes electrónicos (ER) para proporcionar datos a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

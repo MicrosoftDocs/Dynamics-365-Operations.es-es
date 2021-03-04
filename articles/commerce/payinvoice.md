@@ -45,3 +45,6 @@ Para habilitar estas situaciones, debe configurarse el perfil de funcionalidad p
 
 > [!NOTE]
 > Aún no se admite el pago o liquidación de importes parciales.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

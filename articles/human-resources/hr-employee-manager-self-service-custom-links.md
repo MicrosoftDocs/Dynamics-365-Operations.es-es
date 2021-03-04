@@ -48,3 +48,6 @@ Para utilizar esta función, habilite **Vínculos personalizados en el Autoservi
 ## <a name="see-also"></a>Consulte también
 
 [Resumen de autoservicio para empleados y gerentes](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

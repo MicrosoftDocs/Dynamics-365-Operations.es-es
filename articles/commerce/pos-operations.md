@@ -209,3 +209,6 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 § Cuando el PDV está sin conexión, solo pueden recuperarse para devolución las transacciones de la base de datos sin conexión actual.
 
 \*\* Cuando el PDV está sin conexión, solo se muestran en el diario las transacciones de la base de datos de canales sin conexión actual.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

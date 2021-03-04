@@ -54,3 +54,6 @@ Una línea de factura se excluirá del procesamiento automatizado si se cumple a
 - El valor **Estado de coincidencia de recibo automatizado** de la línea de la factura es **Error**.
 - Se está utilizando la factura.
 - La factura está en el sistema de flujo de trabajo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

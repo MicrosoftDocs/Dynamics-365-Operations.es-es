@@ -171,3 +171,6 @@ Debe configurar los siguientes campos para esta combinación:
 
 > [!IMPORTANT]
 > Para que DOM tenga en cuenta estos costes cuando se ejecuta, debe agregar el factor de coste al perfil de cumplimiento pertinente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

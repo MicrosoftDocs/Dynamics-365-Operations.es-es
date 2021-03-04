@@ -126,3 +126,6 @@ Debe ejecutar una contabilización previa de los costes para valorar el trabajo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

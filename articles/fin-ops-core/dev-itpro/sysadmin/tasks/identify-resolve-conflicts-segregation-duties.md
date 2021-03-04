@@ -43,3 +43,6 @@ Este tema explica cómo identificar y resolver conflictos de segregación de con
 1. Vaya a **Panel de navegación > Módulos > Administración del sistema > Seguridad > Segregación de controles > Reglas de segregación de controles**. Seleccione una regla.  
 2. Seleccione **Validar controles y roles**. Si algunos roles existentes infringen la regla seleccionada, aparecerá un mensaje con el nombre del rol y los nombres de los deberes en conflicto. El administrador debe indicar cómo mitigar el riesgo de seguridad o modificar el rol de modo que no infrinja las reglas de segregación de controles. Si ningún rol infringe la regla seleccionada, aparece un mensaje que indica que todos los roles son conformes.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

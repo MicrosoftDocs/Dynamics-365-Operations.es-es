@@ -121,3 +121,6 @@ El siguiente es un ejemplo de cómo exportar un informe **Comparar precios de al
 1. Se abrirá la página **Resumen de ejecución**, donde puede ver el estado de su trabajo de exportación y una lista de entidades que se exportaron. Seleccione la entidad **Comparar precios de artículos** enumerada en el área **Estado de procesamiento de la entidad** y luego seleccione **Descargar archivo** para descargar los datos exportados desde esa entidad.
 
 Para obtener más información sobre cómo usar la administración de datos para exportar datos, vea [Resumen de trabajos de importación y exportación de datos](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Esta guía le muestra cómo crear un tipo de solicitud y asociar esto a un méto
 8. Haga clic en Aceptar
 9. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Siga estos pasos para configurar la limpieza del registro de bases de datos:
    - Fecha y hora de creación
 
 3. Utilice la pestaña **Limpieza de registro de bases de datos** para determinar cuándo ejecutar la tarea de limpieza del registro. De forma predeterminada, los registros de la base de datos están disponibles durante 30 días.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

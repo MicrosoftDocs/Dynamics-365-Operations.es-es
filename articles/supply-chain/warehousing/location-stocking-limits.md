@@ -104,3 +104,6 @@ Para explicar esta aparente falla, debe comprender los criterios de selección p
 
 > [!NOTE]
 > No puede utilizar los límites de existencias de la ubicación para controlar, por ejemplo, el reabastecimiento de artículos que tienen diferentes cantidades en la misma ubicación. En este caso, utilice una *plantilla de reposición*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

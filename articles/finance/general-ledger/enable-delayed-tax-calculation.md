@@ -65,3 +65,6 @@ El sistema da prioridad al valor de la cabecera de diario. De forma predetermina
 4. En la pestaña **Configuración** , establezca la opción **Cálculo Retrasado de impuestos** en **Sí**.
 
 ![Imagen general de la página del diario](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

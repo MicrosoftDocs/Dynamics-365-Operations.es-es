@@ -41,3 +41,6 @@ Este procedimiento se centra en la configuración de un código de disposición 
 6. En el campo Código de disposición de devolución, escriba un valor.
     * El código de disposición de devolución determina el resto del proceso del pedido de devolución para los artículos registrados. En este ejemplo, el cliente debe recibir una nota de abono. Agregue un código de disposición de devoluciones que contenga una acción de crédito.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

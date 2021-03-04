@@ -53,3 +53,6 @@ Cuando los usuarios inician una cotización en Sales, el marco de escritura dual
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Cliente potencial a efectivo en doble escritura](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

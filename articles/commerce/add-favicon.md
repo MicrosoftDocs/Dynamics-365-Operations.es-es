@@ -99,3 +99,6 @@ Cuando obtenga una vista previa de las páginas que se basan en la plantilla a l
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

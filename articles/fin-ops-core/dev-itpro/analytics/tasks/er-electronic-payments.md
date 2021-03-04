@@ -81,3 +81,6 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 25. Haga clic en Aceptar
     * Analice el archivo de pago creado en formato XML. Compárelo con el diseño de documento y los atributos de transacción de pago definidos.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

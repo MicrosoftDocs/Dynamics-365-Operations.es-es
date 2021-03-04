@@ -44,3 +44,6 @@ Este procedimiento configurará una restricción de transporte para evitar que u
 10. Haga clic en Guardar.
 11. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

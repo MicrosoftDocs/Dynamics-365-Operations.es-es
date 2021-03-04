@@ -52,3 +52,6 @@ Cuando haya programado trabajos de mantenimiento preventivo, el paso siguiente e
 
 5. Haga clic en **Aceptar**. Se crearán una o más órdenes de trabajo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

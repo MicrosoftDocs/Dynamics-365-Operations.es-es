@@ -59,3 +59,6 @@ La cadena que esta función devuelve depende de la codificación seleccionada en
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de texto](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

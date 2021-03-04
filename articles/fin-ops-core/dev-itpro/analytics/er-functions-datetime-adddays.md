@@ -67,3 +67,6 @@ Un valor positivo para `days` da una fecha futura. Un valor negativo produce una
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de fecha y de tiempo](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

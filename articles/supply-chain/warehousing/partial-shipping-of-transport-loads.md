@@ -66,3 +66,6 @@ Esta configuración le permite confirmar una carga de transporte que incluya una
 
 1. Seleccione **Gestión de almacenes** \> **Cargas** \> **Cargas de transporte**.
 2. En el panel de acciones, en la ficha **Enviar y recibir**, en el grupo **Confirmar**, seleccione **Transporte**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

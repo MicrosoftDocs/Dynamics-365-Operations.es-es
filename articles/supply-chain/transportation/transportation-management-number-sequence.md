@@ -49,3 +49,6 @@ Para vincular una secuencia numérica a un operador, haga lo siguiente:
 1. Seleccione **Editar**.
 1. En la ficha desplegable **Visión de conjunto**, seleccione una opción en el campo **Secuencia de números profesional**.
 1. Cierre la página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Hay muchos tipos de descuentos:
 - **Descuento de envío**: un descuento que se aplica cuando el total de la transacción es superior a una cantidad especificada y se utiliza un modo de entrega específico (por ejemplo, envío en dos días o envío al día siguiente) en el pedido.
 
 Tanto los ajustes de precios como los descuentos se pueden asociar con los grupos de precios. A continuación, los grupos de precios pueden asociarse con canales, catálogos, afiliaciones y programas de fidelidad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

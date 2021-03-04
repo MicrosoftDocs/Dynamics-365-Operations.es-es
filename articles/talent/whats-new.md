@@ -33,3 +33,6 @@ Cada semana hay nuevas versiones para Talent. Estos lanzamientos se muestran en 
 
 La tabla de contenido sigue siendo actualizada cada semana, por lo que vuelve a comprobarla para encontrar todas las características y los cambios nuevos de las versiones más recientes de Talent.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

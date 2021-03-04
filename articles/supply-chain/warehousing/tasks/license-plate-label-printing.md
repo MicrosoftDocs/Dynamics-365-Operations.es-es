@@ -101,3 +101,6 @@ En este tema se muestra cómo habilitar la impresión automática de una etiquet
 7. Seleccione **Guardar**.
 8. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Este tema indica los espacios de trabajo móviles que se están disponibles para
 | [Pedidos de ventas](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Puede permanecer informado sobre los pedidos de ventas.                                                                                                                          |  2017 de enero                  |
 | [Colaboración de proveedor](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Los proveedores pueden estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados. |2017 de enero    |
 | [Administración de activos](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Este espacio de trabajo permite a los usuarios ver y crear solicitudes de mantenimiento y órdenes de trabajo. Los usuarios también pueden ver los trabajos de órdenes de trabajo asignadas en una vista de calendario o de lista. Los activos y ubicaciones funcionales también se pueden ver y buscar. |2019 de octubre    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

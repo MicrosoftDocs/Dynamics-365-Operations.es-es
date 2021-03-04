@@ -121,3 +121,6 @@ Haga clic en **Configurar** para personalizar la información que se muestra en 
 |     L. MAT     | Sírvase de las casillas de verificación para seleccionar los criterios que se ven en la estructura de árbol. El diseñador de fórmula muestra los criterios seleccionados en la parte inferior de ambas fichas. |
 |    Ruta    |                                           Sírvase de las casillas de verificación para seleccionar los criterios que se ven para las rutas.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

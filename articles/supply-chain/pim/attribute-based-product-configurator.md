@@ -141,3 +141,6 @@ El paso final es especificar precios de venta basados en atributos para la versi
 1. En el panel Acción, abra la pestaña **Modelo** y, desde el grupo **Detalles de modelo de producto**, seleccione **Versiones**.
 1. Se abrirá la página **Versiones**. Asegúrese de que **Método de fijación de precios** se establece en **Basado en atributos**.
     ![Establecer el método de fijación de precios en Basado en atributos](media/prod-config-versions.png "Establecer el método de fijación de precios en Basado en atributos")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

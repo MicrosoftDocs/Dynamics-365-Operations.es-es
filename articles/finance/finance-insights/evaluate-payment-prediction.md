@@ -101,3 +101,6 @@ Para obtener más información sobre cómo evaluar modelos de predicción, consu
 
 #### <a name="privacy-notice"></a>Aviso de privacidad
 Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

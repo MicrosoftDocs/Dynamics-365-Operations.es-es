@@ -69,3 +69,6 @@ Este procedimiento crea una regla kanban mediante el evento de línea kanban par
     * Observe que se creó un kanban para 27 para procesar la actividad basada en la regla kanban creada.  
     * Este es el último paso.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

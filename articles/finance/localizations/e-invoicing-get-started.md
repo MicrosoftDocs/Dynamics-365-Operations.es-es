@@ -344,3 +344,6 @@ Los resultados que se muestran en el registro de envío dependen de cómo se con
 - [Introducción al complemento de facturación electrónica para México](e-invoicing-mex-get-started.md)
 - [Introducción al complemento de facturación electrónica para Italia](e-invoicing-ita-get-started.md)
 - [Configurar el complemento de facturación electrónica](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

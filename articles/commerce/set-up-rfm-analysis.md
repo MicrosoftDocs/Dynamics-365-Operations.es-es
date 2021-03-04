@@ -97,3 +97,6 @@ Use este procedimiento para ver o borrar el historial de un registro de análisi
 2. En la página **Análisis de RFM**, seleccione el registro que desea ver.
 3. Para ver el historial de registros, seleccione la ficha desplegable **Historial**.
 4. Para eliminar el historial de registros, seleccione la ficha desplegable **Eliminar Historial**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

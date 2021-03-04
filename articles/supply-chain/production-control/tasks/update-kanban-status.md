@@ -48,3 +48,6 @@ Cuando un kanban se vacía por error o se debe vaciar un kanban recibido, es nec
 2. En la lista, marque la fila seleccionada.
     * Observe que el estado de la Unidad de gestión de material es Vaciado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

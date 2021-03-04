@@ -64,3 +64,6 @@ Desde la barra de aplicaciones, un usuario puede seleccionar una operación. Dep
 - **Editar** - Permite a los usuarios realizar cambios en el pedido del cliente seleccionado.
 
 - **Recoger** - Lanza el flujo de recogida, que permite al usuario elegir los productos a recoger y crea la transacción de venta de recogida.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

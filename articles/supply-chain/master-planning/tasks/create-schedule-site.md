@@ -56,3 +56,6 @@ Este procedimiento muestra cómo programar los pedidos de producción que no se 
 4. Haga clic en Materiales.
     * En esta página, puede ver el consumo de materiales estimado para las operaciones en el pedido de producción y el inventario disponible actual.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

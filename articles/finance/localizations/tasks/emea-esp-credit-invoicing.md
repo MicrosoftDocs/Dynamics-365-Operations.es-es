@@ -92,3 +92,6 @@ Este procedimiento le guía por la manera de crear una factura de corrección. E
 3. Haga clic en Transacciones.
 4. Haga clic en la pestaña General.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

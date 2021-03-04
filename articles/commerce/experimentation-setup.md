@@ -54,3 +54,6 @@ Para configurar sus métricas de éxito, siga estos pasos:
 
 ## <a name="next-step"></a>Paso siguiente
 [Conectar y editar un experimento](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

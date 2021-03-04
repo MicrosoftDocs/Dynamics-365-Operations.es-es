@@ -57,3 +57,6 @@ Antes de poder usar esta función debe habilitarla en su sistema. Los administra
     > El formulario no incluirá los subtotales definidos en el diseño del informe.
 
 La entidad de los datos **Informe de vencimiento de inventario** le permite exportar el resultado de un informe de **Almacenamiento de informe de vencimiento de inventario** aplicando un filtro para el campo **Identificador de procesos: nombre** a cualquier formato que admita la administración de datos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

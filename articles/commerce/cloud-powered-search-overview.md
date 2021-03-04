@@ -82,3 +82,6 @@ La ordenación mejorada en Dynamics 365 Commerce permite a los clientes ordenar,
 [Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda](category-search-page-overview.md)
 
 [Administrar metadatos de SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

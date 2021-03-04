@@ -41,3 +41,6 @@ Una unidad operativa es una organización que se usa para dividir el control de 
     + Especifique información sobre los métodos de comunicación, como direcciones de correo electrónico, URL y números de teléfono. Para especificar un nuevo registro de comunicación, haga clic en Nuevo. Para modificar un registro de comunicación existente, haga clic en **Más opciones > Avanzado**.   
 6. Opcionalmente, cambie **Número de unidad operativa** según sea necesario. Tenga en cuenta que este número es un identificador único para el registro **Parte** y no puede ser el mismo que ninguna otra unidad operativa.
 7. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

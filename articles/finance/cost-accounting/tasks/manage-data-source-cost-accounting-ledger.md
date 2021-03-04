@@ -48,3 +48,6 @@ Use este procedimiento para gestionar el origen de datos de la contabilidad gene
 14. En el campo Capa de registro, seleccione Actual.
 15. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

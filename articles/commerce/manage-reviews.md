@@ -132,3 +132,6 @@ Para ver las tendencias de clasificaciones y revisiones en el creador de sitios 
 [Configurar clasificaciones y revisiones](configure-ratings-reviews.md)
 
 [Sincronizar clasificaciones de productos en Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

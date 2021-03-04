@@ -127,3 +127,6 @@ Algunos de los siguientes recursos se refieren a una versión anterior de nuestr
 [Dimensión que establece como valor predeterminado en distribuciones contables](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Dimensión que establece como valor predeterminado en marco de las dimensiones](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

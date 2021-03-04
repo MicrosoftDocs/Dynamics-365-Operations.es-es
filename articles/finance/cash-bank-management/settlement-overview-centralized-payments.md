@@ -108,3 +108,6 @@ Para los pagos de proveedores, las transacciones de destinatario de pago y de re
 
 ## <a name="withholding-tax"></a>Retención de impuestos
 La cuenta del proveedor asociada a la factura se usa para determinar si la retención de impuestos se debe calcular. Si se aplica la retención de impuestos, se calcula en la entidad jurídica asociada a la factura. Si las entidades jurídicas usan distintas divisas, se usará el tipo de cambio de la entidad jurídica asociada con la factura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

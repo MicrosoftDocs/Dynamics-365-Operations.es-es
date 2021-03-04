@@ -87,3 +87,6 @@ Para la entrada de la línea de pedido de ventas, el comportamiento predetermin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

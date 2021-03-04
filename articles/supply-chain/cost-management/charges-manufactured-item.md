@@ -40,3 +40,6 @@ Los gastos de un artículo fabricado se incluyen siempre en el coste unitario de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

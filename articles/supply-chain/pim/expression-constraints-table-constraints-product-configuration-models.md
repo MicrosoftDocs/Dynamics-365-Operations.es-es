@@ -254,3 +254,6 @@ No se pueden usar palabras clave reservadas como nombres del solucionador de atr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

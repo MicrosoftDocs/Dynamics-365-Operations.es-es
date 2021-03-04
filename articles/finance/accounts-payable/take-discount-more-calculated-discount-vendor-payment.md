@@ -51,3 +51,6 @@ April registra el diario de pagos. La factura se liquida con un pago de 940,00 y
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

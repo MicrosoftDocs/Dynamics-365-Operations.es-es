@@ -58,3 +58,6 @@ Para completar la reasignación, seleccione **Procesar**. Se le solicita una fec
 > Para ofrecer contexto sobre el motivo por el cual se muestran estos artículos adicionales, puede agregar otras columnas a la cuadrícula, como **Id. de reasignación** y **Pedido de ventas**.
 > 
 > [![Columnas adicionales en la página Asignaciones de precios de ingresos](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

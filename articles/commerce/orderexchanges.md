@@ -50,3 +50,6 @@ Para proporcionar mayor visibilidad de los distintos importes del carro, se han 
 - **Depósito aplicado**: el importe del depósito que se aplica en una transacción cuando el usuario hace una recogida de pedido de cliente. Si no hay anulación de depósito y se configura un depósito del 10 por ciento, el importe de este campo es el 90 por ciento del importe total del pedido de cliente.
 - **Importe de realización**: el importe total de las líneas en las que el modo de entrega se estableció en **Realizar** cuando el pedido de cliente se creó o editó, o durante un cambio de pedido de cliente. El importe de este campo incluye todos los impuestos y gastos.
 - **Importe de devolución**: el importe total de las líneas que tienen cantidades negativas durante el cambio de pedido de cliente. El importe de este campo incluye todos los impuestos y gastos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Este procedimiento muestra cómo obtener el inventario disponible actualizado ma
 25. Cierre la página.
 26. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

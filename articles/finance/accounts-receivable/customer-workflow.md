@@ -60,3 +60,6 @@ Una vez que tenga al menos un cambio propuesto, aparecen dos menús adicionales 
     El estado en la página se cambia a **Cambios pendientes de aprobación**.
 
 El flujo de trabajo sigue el proceso de flujo de trabajo estándar en la aplicación. El aprobador es dirigido a la página **Cliente**, donde se pueden revisar los cambios en la página **Cambios propuestos** y, a continuación, seleccionar **Flujo de trabajo \> Aprobar** para aprobar el flujo de trabajo. Una vez que se completan todas las aprobaciones, los campos se actualizan con los valores que propuso.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

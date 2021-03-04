@@ -84,3 +84,6 @@ En la versión de esta semana, la descripción mostrará al seleccionar el traba
 ### <a name="print-performance-reviews"></a>Imprimir evaluaciones del rendimiento
 
 Los empleados, los administradores y profesionales de RR. HH. podrán imprimir la evaluación del rendimiento de un empleado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

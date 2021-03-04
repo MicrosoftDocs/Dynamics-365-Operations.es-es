@@ -53,3 +53,6 @@ Para editar dimensiones financieras para transacciones minoristas en la sede cen
 [Crear un libro de trabajo de Excel para editar transacciones minoristas](create-excel-edit.md)
 
 [Agregar campos a un libro de trabajo de Excel para editar transacciones minoristas](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

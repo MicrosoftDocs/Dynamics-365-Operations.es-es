@@ -94,3 +94,6 @@ Antes de que pueda completar los procedimientos en este tema, debe completar los
 [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 
 [Aplazar la ejecución de elementos de XML en formatos de informes electrónicos](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

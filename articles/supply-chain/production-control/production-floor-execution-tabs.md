@@ -79,3 +79,6 @@ Una vez que haya diseñado todas las pestañas que necesita, puede asociarlas co
 1. Continúe agregando pestañas adicionales según sea necesario.
 
 1. Utilice los botones **Subir** y **Bajar** de la barra de herramientas para organizar las pestañas según sea necesario. Las pestañas se mostrarán de izquierda a derecha en el orden que se muestra en la captura de pantalla anterior (la pestaña en la parte superior se muestra a la izquierda).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ En los siguientes temas se tratan varios escenarios de reconocimiento de ingreso
 - [Reasignación de reconocimiento de ingresos: escenario 2](rev-rec-reallocation-scenario-2.md): se introducen dos pedidos de ventas y luego el cliente agrega un artículo al contrato después de facturar el primer pedido de ventas.
 - [Reasignación de reconocimiento de ingresos: escenario 3](rev-rec-reallocation-scenario-3.md): se agrega una nueva línea a un pedido de ventas existente ya facturado.
 - [Reasignación de reconocimiento de ingresos: escenario 4](rev-rec-reallocation-scenario-4.md): se elimina una línea de un pedido de ventas existente parcialmente facturado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

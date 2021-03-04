@@ -59,3 +59,6 @@ Los artículos en préstamo son registros que ayudan a realizar un seguimiento d
 14. Haga clic en Aceptar
 15. Actualice la página.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

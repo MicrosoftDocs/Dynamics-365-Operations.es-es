@@ -57,3 +57,6 @@ Además, ahora en la estructura mejorada de categorías de productos un responsa
 Puede usar la nueva estructura mejorada para las propiedades del producto para seleccionar las propiedades de producto actualizadas que deben incluirse en los productos asociados. En la página **Jerarquía de productos de Commerce**, en el panel de acciones, seleccione **Categoría** y, a continuación, seleccione **Actualizar productos** para abrir el cuadro de diálogo **Actualizar productos**.
 
 ![Cuadro de diálogo Actualizar productos](media/NewUpdateProductsEnhancedView.PNG)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

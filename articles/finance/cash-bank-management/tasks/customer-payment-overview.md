@@ -52,3 +52,6 @@ Esta guía de tareas le muestra los distintos métodos para introducir pagos de 
 21. En el campo **Referencia del pago**, especifique una referencia para el pago. La referencia de pago solo es obligatoria si se especifica incluir el pago en un resguardo de depósito.  
 22. En el **panel de acciones**, haga clic en **Registrar** para registrar los pagos del cliente. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

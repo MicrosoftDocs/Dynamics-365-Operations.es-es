@@ -74,3 +74,6 @@ Cuando se registra una transacción financiera, el estado del registro de la tra
 -   Diarios de inventario de cantidad negativa, como movimiento, pérdidas y ganancias, recuento, lista de materiales y transferencia
 
 Las transacciones que reducen la cantidad se registran en el precio de coste promedio móvil. De este modo, el procedimiento de cierre de inventario es necesario para liquidar las transacciones de emisión con las transacciones de recepción en función del modelo de inventario asignado a cada artículo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

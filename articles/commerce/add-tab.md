@@ -84,3 +84,6 @@ Para agregar un módulo de pestaña a una página y establecer las propiedades, 
 [Módulo de acordeón](add-accordion.md)
 
 [Módulo de bloque de texto](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

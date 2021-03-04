@@ -68,3 +68,6 @@ Puede exportar las listas de empleados generadas mediante cualquiera de las opci
 Si necesita informar a personas cubiertas porque como un empresario ofrece cobertura por sí mismo, también puede ver los dependientes cubiertos en los planes de prestaciones que se marcaron como **Se informa para Ley de Cuidado de Salud Asequible** seleccionando la acción dependiente de cobertura Ver dependiente en la franja del panel de acciones.
 
 **Nota:** Solo las prestaciones cuyo se haya marcado como plan **Se informa para Ley de Cuidado de Salud Asequible** se mostrará en la ventana de consultas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

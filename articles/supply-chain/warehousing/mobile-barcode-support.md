@@ -35,3 +35,6 @@ La aplicación Dynamics 365 Supply Chain Management - almacén se ha probado con
 
 Como cliente, se recomienda que pruebe la aplicación móvil de escaneado de almacén en el hardware seleccionado antes de decidir acerca del hardware que desea comprar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

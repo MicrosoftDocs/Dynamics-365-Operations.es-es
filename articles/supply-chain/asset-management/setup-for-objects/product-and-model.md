@@ -60,3 +60,6 @@ Este tema explica cómo configurar fabricantes de activos y los modelos relacion
 2. En la columna **Activo**, seleccione el vínculo para el activo. Aparecerá la página **Detalles**.
 3. Seleccione **Editar**.
 4. En el FastTab **General**, seleccione valores **Fabricante** y **Modelo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

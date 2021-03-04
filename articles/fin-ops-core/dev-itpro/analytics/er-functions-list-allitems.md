@@ -65,3 +65,6 @@ Si introduce **Vendedor** como la fuente de datos del tipo de datos *Lista de re
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de lista](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

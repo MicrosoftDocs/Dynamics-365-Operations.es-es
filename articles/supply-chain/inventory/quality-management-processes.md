@@ -101,3 +101,6 @@ Conviene definir un tipo de documento exclusivo para las correcciones mediante l
 [Configuración de pedidos de calidad](tasks/set-up-quality-orders.md)
 
 [Inspección de la calidad de las mercancías](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

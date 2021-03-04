@@ -53,3 +53,6 @@ Puede actualizar las definiciones de asignación para una dimensión de elemnto 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

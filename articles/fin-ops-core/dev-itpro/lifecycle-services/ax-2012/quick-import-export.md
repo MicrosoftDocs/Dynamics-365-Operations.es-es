@@ -40,3 +40,6 @@ Hemos agregado la característica Importación y exportación rápidas para perm
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

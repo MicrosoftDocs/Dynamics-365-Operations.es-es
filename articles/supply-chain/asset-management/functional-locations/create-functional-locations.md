@@ -132,3 +132,6 @@ Se puede eliminar una ubicación técnica con ubicaciones subordinadas relaciona
 
 >[!NOTE]
 >Si no puede eliminar una ubicación técnica, en su lugar puede controlar la eliminación configurando un estado de ciclo de vida de ubicación técnica con este propósito. Por ejemplo, puede configurar una etapa "Desechado" o "Eliminado" (que no debe ser una etapa activa) en el formulario **Estados de ciclo de vida de ubicación técnica**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Use este procedimiento para crear y asignar una directiva de asignación de cost
 5. En el campo Unidad de control de coste, especifique o seleccione un valor.
 6. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

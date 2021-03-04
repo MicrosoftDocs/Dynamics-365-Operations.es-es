@@ -100,3 +100,6 @@ El módulo de lista de opiniones de productos incluye una franja donde puede agr
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Cuando seleccione **Asiento**, el diario de facturas muestra el asiento contable
 A continuación, abra la página **Todos los clientes** (**Clientes \> Clientes \> Todos los clientes**), seleccione cliente **US\_SI\_0003** y luego **Transacciones**. La página **Transacciones del cliente** muestra solo la factura original (000008), junto con el asiento contable original. Puesto que la opción **Registrar correcciones de factura en clientes** está establecida en **No** en la página **Parámetros de Contabilidad general**, solo se actualiza la Contabilidad general. Por lo tanto, no se muestran los asientos contables actualizados y de inversión. Tenga en cuenta que se muestran las transacciones de ajuste de ingresos que se crearon en el [escenario 3](rev-rec-reallocation-scenario-3.md).
 
 [![Asiento contable original en la página Transacciones del cliente](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

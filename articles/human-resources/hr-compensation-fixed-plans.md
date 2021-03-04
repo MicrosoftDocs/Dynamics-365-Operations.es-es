@@ -98,3 +98,6 @@ Ahora puede asignar un empleado a un plan de compensación fija. Abra la página
 
 El sistema comprueba que el importe de compensación que se especifica para un plan de compensación del tipo de banda o clasificación se encuentra dentro de los puntos de referencia mínimo y máximo para el nivel de compensación proporcionado en el trabajo del empleado. Si el importe de compensación se encuentra fuera del intervalo permitido, se mostrará un mensaje de advertencia o error, en función del nivel de tolerancia que se establece en el plan de compensación fija.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

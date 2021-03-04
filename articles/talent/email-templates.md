@@ -81,3 +81,6 @@ Cuando el equipo de contratación envía un mensaje de correo electrónico, pued
 
 > [!NOTE] 
 > Para los mensajes de correo electrónico que se envían automáticamente, se pueden crear varias plantillas. Sin embargo, solo una plantilla se puede definir como plantilla activa. Dado que este proceso se activa mediante eventos, solo el administrador puede determinar qué plantilla se debe usar, en función de la combinación de tarjetas **Predeterminado** y **Enviado automáticamente** de la biblioteca de plantillas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

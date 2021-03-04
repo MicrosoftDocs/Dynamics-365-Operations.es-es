@@ -56,3 +56,6 @@ Los administradores pueden permitir que los usuarios autenticados opten ellos mi
 ### <a name="custom-extensions"></a>Extensiones personalizadas
 
 Los administradores pueden crear sus propias extensiones para administrar la experiencia de exclusión voluntaria para los usuarios. Para más información, consulte [Llamar a las API de Retail Server](e-commerce-extensibility/call-retail-server-apis.md) y [Extensibilidad de canal en línea](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

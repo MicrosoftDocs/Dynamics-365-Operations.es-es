@@ -44,3 +44,6 @@ Este procedimiento se centra en la creación de un duplicado de una regla kanban
 3. Haga clic en Aceptar
     * Tenga en cuenta que se ha crea un duplicado de la regla kanban 000017.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

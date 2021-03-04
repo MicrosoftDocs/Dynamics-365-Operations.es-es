@@ -81,3 +81,6 @@ Una vez que haya especificado la información básica acerca de la solicitud de 
 4. Cierre la página.
 5. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

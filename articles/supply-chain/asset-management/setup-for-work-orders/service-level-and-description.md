@@ -56,3 +56,6 @@ Cuando cree una orden de trabajo, puede que desee definir los niveles de servici
 2. Seleccione **Nuevo**.
 3. En el campo **Descripción**, escriba la descripción.
 4. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

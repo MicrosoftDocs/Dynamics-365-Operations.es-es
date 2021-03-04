@@ -144,3 +144,6 @@ Los siguientes campos se agregarán al elemento de menú del dispositivo móvil 
 - Código de motivo de recuento predeterminado
 - Visualizar código de motivo de recuento
 - Editar código de motivo de recuento
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

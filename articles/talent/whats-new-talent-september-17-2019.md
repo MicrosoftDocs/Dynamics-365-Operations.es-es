@@ -59,3 +59,6 @@ En esta versión, el campo de la familia de trabajo se ha agregado a la página 
 Esta funcionalidad ya está disponible en los entornos de espacio aislado. Para activar esta característica, vaya a **Administración del sistema > vinculos > configuración > Parámetros del sistema > características de vista previa**. Seleccione **Formulario y navegación de trabajador mejorado**. Esto habilitará estos cambios para todos los usuarios. Puede desactivar esta opción en cualquier momento.
 
 Para obtener más información, consulte [Entrada y navegación de empleados optimizadas](./streamlined-employee-entry.md). Para ver los cambios, vea el vídeo [Dynamics 365 for Talent 2019 resumen general de liberar oleada 2](https://aka.ms/ROGT19RW2ROV).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

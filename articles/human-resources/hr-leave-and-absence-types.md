@@ -82,3 +82,6 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
 - [Crear un calendario de horas de trabajo](hr-leave-and-absence-working-time-calendar.md)
 - [Suspender baja](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

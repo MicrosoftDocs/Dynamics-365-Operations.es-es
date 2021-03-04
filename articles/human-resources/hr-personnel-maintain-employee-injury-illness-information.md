@@ -93,3 +93,6 @@ Esta grabación de tareas cubre los pasos básicos para crear un caso de lesión
 36. Haga clic en Guardar.
     * El estado del caso se puede actualizar en cualquier momento.  Establezca el caso en curso, si el procesamiento de la lesión o enfermedad está en curso.  Una vez cierre el incidente, solo podrá agregar o quitar costes, tratamientos o archivos relacionados con el incidente.  Para modificar otra información, vuelva a abrir el caso.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

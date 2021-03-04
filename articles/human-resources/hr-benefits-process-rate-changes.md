@@ -48,3 +48,6 @@ Procesar cambios en la tasa de prestaciones en Microsoft Dynamics 365 Human Reso
    4. Seleccione **Aceptar**. El proceso se ejecutará con los parámetros que establezca.
 
 4. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

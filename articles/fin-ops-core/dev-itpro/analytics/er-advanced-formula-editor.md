@@ -171,3 +171,6 @@ El editor actualmente es compatible con los siguientes navegadores web:
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
 - [Editor Monaco](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

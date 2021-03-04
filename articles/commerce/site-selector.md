@@ -64,3 +64,6 @@ El módulo selector de sitio se puede agregar al [Módulo de encabezado](author-
 [Módulo de navegación](add-breadcrumb.md)
 
 [Módulo de menú de navegación](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

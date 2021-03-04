@@ -47,3 +47,6 @@ Este procedimiento le muestra cómo crear un cliente con la información fiscal 
     * Si el tipo de empresa para este cliente es extranjero, este campo es obligatorio.  
 13. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

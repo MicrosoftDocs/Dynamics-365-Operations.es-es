@@ -500,3 +500,6 @@ Las consultas que se muestran en los ejemplos anteriores podrían devolver un re
 ```
 
 Tenga en cuenta que los campos de cantidades están estructurados como un diccionario de medidas y sus valores asociados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Este procedimiento muestra cómo modificar la previsión de un artículo. La emp
 1. Haga clic en **Abrir** en Microsoft Office.
 2. Haga clic en **Editar previsión de la demanda** en Excel. En Excel, puede agregar, eliminar y editar líneas de previsión de demanda. Si no puede ver los datos en Excel, necesita iniciar sesión con la opción Mantener la sesión iniciada habilitada, así como es preciso que confíe en la aplicación de conexión de datos.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

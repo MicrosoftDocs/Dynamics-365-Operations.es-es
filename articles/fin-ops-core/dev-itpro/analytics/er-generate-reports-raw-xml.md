@@ -37,3 +37,6 @@ Puede utilizar el nuevo elemento del formato **XML SIN FORMATO** para diseñar f
 > Tenga en cuenta que el marco no controla si el contenido de XML que se coloca en el documento generado mediante el elemento del formato **XML SIN FORMATO** es correcto.
 
 Para obtener más información acerca de esta función, reproduzca las guías de tareas **ER Usar datos XML sin formato para generar informes XML (Parte 1: Modelo de datos de diseño)** y **ER Usar datos XML sin formato para generar informes XML (Parte 2: Diseñar y ejecutar informe)**, que forman parte del proceso empresarial **7.5.4.3 Adquirir o desarrollar componentes de soluciones y servicios de TI (10677)** y se puede descargar del [Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Estas guías de tareas le guían por el proceso de configuración de un formato de ER para insertar datos XML sin formato en los archivos generados.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

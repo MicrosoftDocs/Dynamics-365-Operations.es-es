@@ -46,3 +46,6 @@ Para obtener más información, consulte “Conceder acceso al entorno” en [Ap
 **Solución a largo plazo**
 
 Microsoft está considerando asignar automáticamente los derechos adecuados a Onboard y Attract cuando se agrega un usuario a Human Resources.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

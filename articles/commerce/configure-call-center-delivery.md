@@ -95,3 +95,6 @@ De forma opcional, puede vincular un código de urgencia a cualquier modo de ent
 Por ejemplo, para pedidos que se enviarán por aire al día siguiente, el picking se debe realizar cada día en el almacén aproximadamente las 13:00. En este caso, se puede crear un código de urgencia, y ese código se puede vincular a cualquier modo de entrega al día siguiente que se configure en el sistema. Cuando el almacén crea su oleada de picking, el código de urgencia adecuado en el campo **Urgente** se pueden utilizar como un filtro, de manera que el picking se ejecuta solo para pedidos que tienen modos de entrega que se vinculan a ese código.
 
 Además, cuando se introduce un pedido del centro de llamadas, se puede aplicar manualmente un código de urgencia a la cabecera del pedido de ventas o a una línea de pedido de ventas individual. Una vez más, el código se puede usar con fines de ordenación o creación de informes A veces, un pedido debe manipularse con cuidado debido a un problema de servicio de atención al cliente. En este caso, se puede aplicar un código de urgencia específico a la cabecera o las líneas del pedido para ayudar a identificar y a dar prioridad al pedido durante el proceso de suministro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

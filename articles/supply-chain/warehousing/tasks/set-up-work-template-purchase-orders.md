@@ -61,3 +61,6 @@ En este tema se describe cómo configurar una plantilla de trabajo simple que se
 6. En el campo **Identificador de la clase de trabajo**, escriba un valor. Las instrucciones seleccionar y colocar son un conjunto. Cada conjunto de selección y colocación deben tener la misma clase de trabajo. Use la misma clase de trabajo que se ha proporcionado para la instrucción seleccionar.  
 7. Seleccione **Guardar**. Tenga en cuenta que la casilla **Válido** está ahora activada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

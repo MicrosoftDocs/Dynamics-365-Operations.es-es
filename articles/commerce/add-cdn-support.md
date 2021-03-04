@@ -163,3 +163,6 @@ Su CDN debe estar ahora configurado correctamente para que se pueda usar con su 
 [Configurar múltiples inquilinos B2C en un entorno de Commerce](configure-multi-B2C-tenants.md)
 
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

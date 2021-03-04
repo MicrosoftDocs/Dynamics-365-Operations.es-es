@@ -87,3 +87,6 @@ Tras completar los pasos de la sección [Configurar descripciones predeterminada
 2. En el campo **Tabla de referencia**, seleccione la tabla de base de datos desde la que desea agregar datos de parámetros a la descripción.
 3. En el campo **Campo de referencia**, seleccione el campo desde el que desea agregar datos de parámetros a la descripción.
 4. Repita los pasos del 1 al 3 para agregar más parámetros.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

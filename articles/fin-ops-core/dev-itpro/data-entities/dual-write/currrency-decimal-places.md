@@ -95,3 +95,6 @@ Si necesita que la precisión de la divisa para una divisa específica difiera d
 ### <a name="tables-currency-field"></a>tablas: campo Divisa
 
 El número de decimales que se pueden configurar para campos de divisa específicos está limitado a cuatro.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

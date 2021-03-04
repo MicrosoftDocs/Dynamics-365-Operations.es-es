@@ -48,3 +48,6 @@ En este tema se describe cómo funcionan las propuestas de lote de depreciación
 3. Seleccionar **Líneas**.
 4. Seleccione **Registrar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

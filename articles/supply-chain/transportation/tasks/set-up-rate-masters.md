@@ -97,3 +97,6 @@ Este procedimiento muestra cómo configurar una tasa maestra. El administrador d
     * Especifique desde qué código postal será válida esta asignación de base de tasa.
 10. En el campo **País o región de recogida**, escriba "EE. UU.".
 11. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

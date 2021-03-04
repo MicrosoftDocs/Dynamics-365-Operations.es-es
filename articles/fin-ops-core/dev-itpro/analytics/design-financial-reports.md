@@ -197,3 +197,6 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 [Ver informes financieros](../../../finance/general-ledger/view-financial-reports.md)
 
 [Blog de Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

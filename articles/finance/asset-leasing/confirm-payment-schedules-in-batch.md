@@ -42,3 +42,6 @@ Para confirmar varias programaciones de pago, siga estos pasos.
     - Para confirmar todos los libros, active el parámetro **Para todos los libros**.
 
 La información de los libros recién confirmados se muestra en la página **Libros confirmados**. Una vez confirmadas las programaciones de pago, los asientos de diario de reconocimiento inicial se pueden contabilizar frente a los arrendamientos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

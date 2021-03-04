@@ -78,3 +78,6 @@ El día siguiente, el gerente indica que los equipos informáticos disminuyeron 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

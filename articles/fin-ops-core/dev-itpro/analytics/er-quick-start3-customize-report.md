@@ -671,3 +671,6 @@ El estado de la versión 32.6.7.2 se cambia de **Borrador** a **Completado** y l
 - [Descargue las configuraciones de ER del repositorio global del servicio de configuración](er-download-configurations-global-repo.md)
 - [Crear una factura de servicio](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [Crear y trabajar con campos personalizados](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

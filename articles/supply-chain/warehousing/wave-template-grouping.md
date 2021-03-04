@@ -201,3 +201,6 @@ Se creó una nueva oleada para este envío, ya que utiliza un servicio de transp
 1. Seleccione el id. de oleada que se creó a partir del tercer pedido de ventas.
 1. Seleccione el enlace de id. de oleada para abrir la página Detalles de oleada.
 1. Observe que el envío se ha agregado a la ficha desplegable **Líneas de oleada**, junto con el envío para el primer pedido de ventas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

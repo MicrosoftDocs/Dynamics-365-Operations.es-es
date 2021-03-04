@@ -149,3 +149,6 @@ Para configurar la respuesta de las API de disponibilidad del producto, siga est
 [Aplicar configuración de inventario](inventory-settings.md)
 
 [Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

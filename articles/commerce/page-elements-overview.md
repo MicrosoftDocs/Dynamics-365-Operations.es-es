@@ -64,3 +64,6 @@ En la tabla siguiente se ofrece un resumen de las condiciones con las que deber�
 [Visión general de plantillas y diseños](templates-layouts-overview.md)
 
 [Personalizar navegación del sitio](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

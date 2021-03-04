@@ -140,3 +140,6 @@ Especifique los valores siguientes para configurar su perfil de contabilización
 
 Para obtener más información, consulte [Resumen de pagos del cliente](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

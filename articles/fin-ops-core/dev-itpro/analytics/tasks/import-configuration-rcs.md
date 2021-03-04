@@ -55,3 +55,6 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 5. Seleccione **Cerrar**. 
 6. Seleccione la versión deseada de la configuración de ER y seleccione en **Importar** para traerla a la instancia actual.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

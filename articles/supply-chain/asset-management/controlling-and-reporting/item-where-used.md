@@ -71,3 +71,6 @@ En la siguiente imagen, verá un ejemplo de un cálculo de dónde se usó el art
 
 ![Ejemplo de artículo dónde se usó el cálculo](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

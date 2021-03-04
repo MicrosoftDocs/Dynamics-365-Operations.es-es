@@ -95,3 +95,6 @@ Para obtener más información, consulte [Adquisición de activos mediante compr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

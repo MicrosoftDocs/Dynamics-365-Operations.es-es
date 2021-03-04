@@ -84,3 +84,6 @@ Pueden especificarse diversos orígenes de datos cuando se inicia el cálculo de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

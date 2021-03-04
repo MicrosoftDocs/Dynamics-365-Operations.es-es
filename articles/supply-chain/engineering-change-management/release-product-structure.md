@@ -160,3 +160,6 @@ Este comportamiento se aplica solo cuando un producto se selecciona directamente
 Por ejemplo, el producto X se asigna al grupo de propietarios de productos *Armarios de diseño*. El producto X también forma parte de la lista de materiales del producto Y, que se asigna al grupo de propietarios de productos *Ponentes de diseño*. Si un usuario del grupo propietario del producto *Ponentes de diseño* lanza el producto y su lista de materiales, el producto X se lanzará junto con el producto Y.
 
 Para obtener más información, consulte [Propietarios de productos](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

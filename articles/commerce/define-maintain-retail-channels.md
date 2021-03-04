@@ -89,3 +89,6 @@ Commerce usa jerarquías organizativas para estructurar los canales. Las jerarqu
 > [!NOTE]
 > Para usar la funcionalidad de ventas de Commerce, la clave de configuración **Envíos múltiples** debe estar habilitada. Esta clave de configuración se puede encontrar en las claves **Configuración de comercio** en **Administración del sistema**\> **Configuración** \> **Configuración de licencia**. Esto es necesario debido a que realiza diversas validaciones en función de la dirección de entrega configurada en el nivel de línea del pedido de ventas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

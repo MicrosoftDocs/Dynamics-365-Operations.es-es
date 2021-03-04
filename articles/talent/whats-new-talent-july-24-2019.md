@@ -78,3 +78,6 @@ Una nueva opción permitirá a los directores ver el rendimiento tanto de los in
 Estamos encantados de anunciar que las regiones de Canadá y del Sudeste asiático estarán disponibles para Talent el 1 de agosto de 2019. Con este cambio, puede crear entornos en las regiones canadienses y asiática, y todos los datos de Talent se mantendrán solo dentro de estas ubicaciones. Puede crear un entorno en estas nuevas regiones seleccionando la ubicación en el diálogo Nuevo entorno y usando dicho entorno para aprovisionar Talent en LCS como se describe aquí [Aprovisionar Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 La migración de datos de proyectos existentes de otras regiones a las regiones canadienses y asiática no se admite. Solo los nuevos proyectos pueden aprovisionarse en estas nuevas regiones compatibles.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

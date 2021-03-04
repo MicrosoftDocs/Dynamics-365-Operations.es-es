@@ -141,3 +141,6 @@ Para actualizar la plantilla existente, siga estos pasos.
     9. En la página **Asignar tarea**, seleccione la nueva columna como el origen para crear otra asignación para HIERARCHYTYPENAME.
 
         [![Distribución](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

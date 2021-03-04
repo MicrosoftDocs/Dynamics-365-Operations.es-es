@@ -95,3 +95,6 @@ Para habilitar dicha validación, como requisito previo, debe programar los sigu
 [Operación de inventario entrante en PDV](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Operación de inventario de salida en PDV](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

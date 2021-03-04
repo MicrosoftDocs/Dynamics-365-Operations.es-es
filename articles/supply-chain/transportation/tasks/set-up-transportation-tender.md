@@ -48,3 +48,6 @@ Este procedimiento muestra cómo configurar una forma de pago del transporte. Es
 7. Haga clic en Enviar.
 8. Seleccione una ruta.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

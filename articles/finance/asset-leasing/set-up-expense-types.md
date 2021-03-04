@@ -59,3 +59,6 @@ A continuación, debe asociar las cuentas con los tipos de gastos. Estas cuentas
 7. En los campos correspondientes, seleccione la cuenta principal del arrendamiento financiero y la cuenta principal del arrendamiento operativo.
 
 Cuando haya completado estos pasos, puede agregar gastos a través de las líneas **Calendario de pago de gastos a cargo del arrendatario en un arrendamiento de capital** en la página **Detalles del arrendamiento** de un arrendamiento seleccionado. Alternativamente, puede agregar gastos cuando crea un nuevo contrato de arrendamiento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

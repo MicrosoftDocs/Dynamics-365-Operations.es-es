@@ -100,3 +100,6 @@ La ilustración siguiente muestra un ejemplo de la página **Pedido de compra**,
 
 Igualmente, para ver o especificar el número de actividad relacionado con una línea de solicitud de compra de orden de trabajo, en la página de lista **Solicitud de compra de orden de trabajo**, seleccione el registro de la solicitud de compra y, a continuación, en la columna **Solicitud de compra**, seleccione el vínculo para el pedido de compra. Puede encontrar el campo **Número de actividad** en la pestaña **Proyecto** de la ficha desplegable **Detalles de línea**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

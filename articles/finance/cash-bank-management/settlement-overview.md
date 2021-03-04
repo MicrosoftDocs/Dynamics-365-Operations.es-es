@@ -78,3 +78,6 @@ Cuando intente liquidar una transacción, puede observar un símbolo que indica 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Resto de liquidación](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

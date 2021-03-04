@@ -57,3 +57,6 @@ Este tema explica cómo crear un acuerdo de venta que compromete uno de los clie
 11. Seleccione **Aceptar**.
 12. Cierre la página. El acuerdo está ahora en vigor. Puede empezar a vincular los pedidos del cliente al acuerdo, para compensar contra el objetivo comprometido.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

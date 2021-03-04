@@ -57,3 +57,6 @@ Al configurar la actualización de factura para el procesamiento por lotes, el p
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

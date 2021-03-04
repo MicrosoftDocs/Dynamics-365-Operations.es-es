@@ -44,3 +44,6 @@ Este procedimiento muestra cómo prestar un artículo a un trabajador y registra
 2. Haga clic en Editar.
 3. Escriba una fecha en el campo Devolución real.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

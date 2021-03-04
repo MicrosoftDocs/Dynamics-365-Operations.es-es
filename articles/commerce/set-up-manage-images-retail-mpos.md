@@ -209,3 +209,6 @@ Las imágenes del catálogo, la categoría, el empleado y el cliente que se debe
 5. Siga un proceso similar para otras entidades, como categoría, empleado y cliente.
 
     [![Imagen sin conexión](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

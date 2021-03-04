@@ -56,3 +56,6 @@ Para configurar un calendario, siga estos pasos:
 10. Para asignar un calendario a los empleados, seleccione **Asignar a los empleados** en el panel de acciones. Seleccione a qué desearían asignar los empleados este calendario y, a continuación, haga clic en **Asignar**.
 
 No se requiere que los empleados tengan calendarios asignados. Si hay un calendario de horario de trabajo definido, los días libres se excluyen automáticamente de la solicitud. La cantidad, en horas o días, toma como valor predeterminado los horarios de trabajo definidos en el calendario. Si un empleado no tiene un calendario asignado, todos los días están disponibles para tiempo libre y la cantidad de tiempo libre no es el valor predeterminado de la solicitud. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

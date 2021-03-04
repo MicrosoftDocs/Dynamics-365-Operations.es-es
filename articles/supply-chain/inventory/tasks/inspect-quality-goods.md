@@ -51,3 +51,6 @@ Este tema explica cómo procesar un pedido de calidad. Puede ejecutar esta guía
 4. Seleccione **Aceptar**.
 5. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

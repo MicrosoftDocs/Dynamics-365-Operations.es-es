@@ -59,3 +59,6 @@ Para obtener más información, consulte [Libros derivados](derived-books.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

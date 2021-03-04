@@ -57,3 +57,6 @@ La siguiente tabla ofrece información sobre las métricas que se encuentran en 
 | Libros mayores                   | Libros mayores que se pueden usar para filtrar el informe en la contabilidad actual              |
 | Códigos de presupuesto              | Códigos presupuestarios para filtrar informes                                                |
 | Entidades jurídicas            | Entidades jurídicas que se pueden usar para filtrar el informe para la entidad jurídica actual |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

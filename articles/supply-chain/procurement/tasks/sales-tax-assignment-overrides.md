@@ -57,3 +57,6 @@ Este procedimiento muestra cómo asignar grupos de impuestos a canales de Commer
 21. En la lista, haga clic en el vínculo de la fila seleccionada.
 22. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

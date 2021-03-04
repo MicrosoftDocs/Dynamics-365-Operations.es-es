@@ -101,3 +101,6 @@ Si el mismo informe se procesa para el cliente **Litware Retail** el 17 de dicie
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de texto](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

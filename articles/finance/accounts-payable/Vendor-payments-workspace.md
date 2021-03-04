@@ -78,3 +78,6 @@ En la tabla siguiente se muestran las visualizaciones que se encuentran disponib
 |    Saldo cliente/proveedor     |                                                                                                                   <ul><li>Saldo cliente/proveedor</li><li>Saldo cliente/proveedor por empresa</li><li>Detalles del saldo cliente/proveedor</li></ul>                                                                                                                    |
 |    Facturas con el pago en espera     |                                                                                         <ul><li>Facturas con el pago en espera</li><li>Detalles sobre facturas con el pago en espera</li><li>Facturas con el pago en espera por empresa</li><li>Facturas con el pago en espera por grupo de proveedores</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

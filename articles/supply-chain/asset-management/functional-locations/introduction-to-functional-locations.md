@@ -83,3 +83,6 @@ Los botones del panel de acciones se organizan en fichas. La tabla siguiente des
 | Defectos                              | Abrir la página **Errores de activo**, donde puede ver una lista de los registros de errores de activos relacionados con la ubicación funcional seleccionada. |
 | Actualizar estado de ubicación técnica    | Cambiar la etapa de la ubicación funcional seleccionada.                                                                                        |
 | Registro de estado de ciclo de vida                 | Ver un registro que muestre las etapas de la ubicación funcional seleccionada.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -361,3 +361,6 @@ Siga estos pasos para gestionar el ciclo de vida de la función complementaria d
 
     > [!NOTE]
     > Cuando selecciona **Sí**, el estado de las versiones de configuración se cambia automáticamente de **Terminado** a **Compartido**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

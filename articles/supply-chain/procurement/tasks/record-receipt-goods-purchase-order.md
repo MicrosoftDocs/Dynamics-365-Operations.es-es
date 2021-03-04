@@ -49,3 +49,6 @@ Este tema explica cómo registrar la recepción de mercancías directamente en u
 6. Establezca el valor de **Cantidad** en '4'. Aquí puede especificar manualmente la cantidad que se está recibiendo para cada línea del pedido.  
 7. Seleccione **Aceptar**. Las mercancías se han registrado ahora como recibidas en el pedido de compra y se ha creado un diario de recepción de producto como documento para reflejar esto. Puede utilizar la acción Recepción de producto para revisar los diarios creados con el pedido de compra y ver qué se ha recibido y cuándo.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

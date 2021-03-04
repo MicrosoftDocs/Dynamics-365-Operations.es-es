@@ -99,3 +99,6 @@ Tenga en cuenta las siguientes limitaciones:
 
 - Todas las facturas de un pedido de ventas original se incluyen en una factura electrónica de devolución como documentos de CFDI relacionados.
 - El escenario de devolución de un pedido de cliente que implica un intercambio solo se admite para facturas electrónicas de CFDI globales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

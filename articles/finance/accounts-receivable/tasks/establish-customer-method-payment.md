@@ -46,3 +46,6 @@ En este tema se explica cómo crear un método de pago para los pagos de cliente
 15. Use la ficha **Atributos de pago** para definir qué atributos de pago usar para esta forma de pago.
 16. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

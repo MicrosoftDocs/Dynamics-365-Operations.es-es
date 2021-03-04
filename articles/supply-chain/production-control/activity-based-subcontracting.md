@@ -106,3 +106,6 @@ Supply Chain Management ahora admite el cálculo de L. MAT que incluye servicios
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

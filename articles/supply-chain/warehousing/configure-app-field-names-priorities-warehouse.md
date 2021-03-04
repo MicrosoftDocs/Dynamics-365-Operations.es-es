@@ -144,3 +144,6 @@ Los metadatos restantes, por ejemplo, ubicación, no se muestran en la página d
 --------
 
 [Visión general sobre cómo instalar y configurar la aplicación almacén](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

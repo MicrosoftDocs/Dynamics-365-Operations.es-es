@@ -57,3 +57,6 @@ Esta tarea se creó con el conjunto de datos de demostración USSI.
 21. En el campo **Comentario**, escriba un valor.
 22. Haga clic en **Enviar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

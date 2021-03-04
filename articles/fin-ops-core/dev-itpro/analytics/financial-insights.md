@@ -247,3 +247,6 @@ No se requiere la información de los siguientes recursos para habilitar los inf
 - [Acceso a espacios de trabajo analíticos e informes en un entorno de 1 caja](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Agregar análisis a espacios de trabajo mediante Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

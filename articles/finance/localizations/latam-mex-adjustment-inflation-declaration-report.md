@@ -125,3 +125,6 @@ Este informe muestra el cálculo del ajuste de inflación del código de cuenta 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

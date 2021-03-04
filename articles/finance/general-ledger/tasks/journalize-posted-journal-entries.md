@@ -40,3 +40,6 @@ Este procedimiento muestra los pasos para registrar en el diario las entradas de
 9. Haga clic en **Aceptar** para cerrar la página de filtro.
 10. Haga clic en **Aceptar** para iniciar el proceso de registro en el diario. Se generará un informe después de que se complete el proceso.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

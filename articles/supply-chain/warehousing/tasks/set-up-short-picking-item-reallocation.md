@@ -64,3 +64,6 @@ Para crear este procedimiento se utiliza la empresa de datos de prueba USMF.
 6. Seleccione un **Id. de usuario** en la lista. Por ejemplo, 24.
 7. Expanda la ficha desplegable **Trabajo**.
 8. Seleccione **Sí** en el campo **Permitir reasignación de artículos manual**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

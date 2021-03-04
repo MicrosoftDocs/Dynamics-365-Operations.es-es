@@ -252,3 +252,6 @@ Los usuarios de los servicios de globalización pueden administrar el entorno pa
 10. Seleccione **Publicar** para publicar el entorno.
 
     ![Entorno publicado](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

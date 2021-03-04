@@ -50,3 +50,6 @@ En Administración de activos, puede configurar los documentos para que se relac
 
 4. Seleccione **Archivos adjuntos**. Aparece la página **Gestión de documentos** estándar.
 5. Configure los documentos o las notas que se deben vincular al registro de documento de activo. Después de vincular documentos, el campo **Archivos adjuntos** muestra el número de documentos relacionados con el registro.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

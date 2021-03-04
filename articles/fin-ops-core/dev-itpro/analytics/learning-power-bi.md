@@ -62,3 +62,6 @@ Los siguientes datos se usan para rellenar los informes en el contenido en Power
 | Posición         | Puesto, título y equivalente a jornada completa                  | Programa del curso, asistentes al curso |
 | Nombre de empleado    | Nombre, apellido y nombre completo                             | Asistentes al curso |
 | Puesto del empleado   | Cargo y fecha de antigüedad                                         | Asistentes al curso |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

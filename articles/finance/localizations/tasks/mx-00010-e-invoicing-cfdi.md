@@ -60,3 +60,6 @@ Este tema le muestra cómo crear y registrar una factura de cliente como una fac
 27. En el panel de navegación, vaya a **Módulos > Clientes > Consultas e informes > CFDI (facturas electrónicas)**.
 28. En la lista, seleccione la factura electrónica que revisar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

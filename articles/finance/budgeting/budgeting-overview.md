@@ -70,3 +70,6 @@ Por ejemplo, puede definir quién realiza los presupuestos, qué se presupuesta 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

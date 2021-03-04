@@ -86,3 +86,6 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 7.  Seleccione **Datos adjuntos** para ver las notas o los archivo que están asociadas a la factura.
 8.  En la página **Detalles de la factura**, seleccione la acción del flujo de trabajo adecuado para completar el proceso de revisión.
 9.  Seleccione **Listo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

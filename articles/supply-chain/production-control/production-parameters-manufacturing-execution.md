@@ -154,3 +154,6 @@ Puede usar la siguiente configuración si los materiales deberían deducirse sie
 | Notificar como terminado |   Consumo automático de L. MAT    | <strong>Nunca</strong>  |
 | Notificar como terminado | Actualizar el registro en línea terminado | <strong>Estado</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Un planificador de producción puede crear una previsión de línea base usando 
 5. Haga clic en Detalles de línea de previsión.
     * En esta página puede ver los valores de precisión, la demanda histórica y la previsión. También puede modificar la previsión.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Cuando se registre un pedido de ventas, se registrará un importe de coste de 10
 
 > [!NOTE]
 > A modo de comparación, si activa la casilla **Incluir valor físico** para este artículo, cuando se registre un pedido de ventas, el importe de coste registrado será 12,00 USD.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

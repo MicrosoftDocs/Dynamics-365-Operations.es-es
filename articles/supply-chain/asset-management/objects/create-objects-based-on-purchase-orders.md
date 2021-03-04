@@ -70,3 +70,6 @@ Puede ejecutar un **Recuento de activos pendientes** para ver si hay activos pen
 3. Puede configurar este trabajo para que se ejecute como un trabajo por lotes (por ejemplo, una vez al día).
 
 **Precaución:** si se cambian los datos en un pedido de compra *después* de crear un activo partir del artículo correspondiente, esos cambios no se reflejarán en el activo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

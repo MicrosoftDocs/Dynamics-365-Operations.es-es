@@ -49,3 +49,6 @@ Los flujos de valor son unidades operativas, que agrupan uno o varios flujos de 
 2. Cierre la página.
 3. Actualice la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

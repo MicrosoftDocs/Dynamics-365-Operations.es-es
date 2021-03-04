@@ -82,3 +82,6 @@ Si usa dos divisas, o si usa una sola divisa pero las transacciones se registran
 Las ganancias y pérdidas realizadas son ganancias y pérdidas que se obtienen a partir de transacciones completadas. Se registran en el balance de pérdidas y ganancias. Las ganancias y pérdidas no realizadas son ganancias y pérdidas que se han materializado, pero la transacción no está completa. En otras palabras, ha registrado una factura, por ejemplo, pero la factura aún no se ha liquidado ni pagado. Las ganancias y pérdidas no realizadas se registran en el balance de situación.
 
 Para obtener más información sobre cómo usar dos divisas, consulte [Divisa doble](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

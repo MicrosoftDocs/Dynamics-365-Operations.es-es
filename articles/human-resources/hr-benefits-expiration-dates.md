@@ -46,3 +46,6 @@ Este procedimiento muestra cómo puede ponerse fin a una prestación, o ampliarl
 15. Haga clic en Prestaciones.
 16. En la lista, busque la prestación y seleccione el registro. Observe la nueva fecha de final de cobertura.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

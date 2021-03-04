@@ -68,3 +68,6 @@ En este tema se describen los tipos de diarios que se pueden configurar para los
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

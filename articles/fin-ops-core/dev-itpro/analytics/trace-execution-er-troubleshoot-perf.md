@@ -376,3 +376,6 @@ Observe que el explorador web proporciona un archivo zip para su descarga. Este 
 
 - [Visión general de los informes electrónicos](general-electronic-reporting.md)
 - [Mejorar el rendimiento de las soluciones de ER agregando orígenes de datos de CAMPO CALCULADO parametrizados](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Seleccionando **Opciones de transacción \> Cargos \> Administrar cargos** en la
 [Cargos automáticos avanzados omnicanal](omni-auto-charges.md)
 
 [Prorratear los cargos de encabezado con las líneas de ventas coincidentes](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

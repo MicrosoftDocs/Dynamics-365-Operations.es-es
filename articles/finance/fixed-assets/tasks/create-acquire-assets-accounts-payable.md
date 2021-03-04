@@ -56,3 +56,6 @@ Esta guía de la tarea le guiará por la creación y la adquisición de un activ
 17. En la lista, haga clic en el vínculo de la fila seleccionada.
 18. Haga clic en **Registrar**. El activo fijo se creará y adquirirá cuando se registre la factura.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

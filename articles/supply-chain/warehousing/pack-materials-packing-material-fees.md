@@ -112,3 +112,6 @@ Puede imprimir los pesos del material de embalaje en una factura e indicar quié
 
 1. Vaya a **Clientes \> Configuración \> Parámetros de clientes**.
 1. En la pestaña **Actualizaciones**, en la ficha desplegable **Factura**, establezca la opción **Imprimir peso de material de embalaje** a **Sí**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

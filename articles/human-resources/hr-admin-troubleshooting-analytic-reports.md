@@ -43,3 +43,6 @@ Este problema podría ser simplemente una cuestión de control de tiempo. Siga e
 1. Seleccione **Editar** en la parte superior de la página, y establezca la fecha /hora inicial programada a un valor que actualice el análisis más cercano a la hora actual.
 
 ![Trabajos por lotes](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

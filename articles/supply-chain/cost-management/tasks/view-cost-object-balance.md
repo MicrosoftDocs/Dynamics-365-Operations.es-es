@@ -40,3 +40,6 @@ La empresa de datos de prueba utilizada para crear este procedimiento es USMF. E
 8. Desactive la casilla Ubicación.
 9. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 [Aplicar filtros a un plan](plan-filters.md)
 
 [Cancelar un trabajo de planificación](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

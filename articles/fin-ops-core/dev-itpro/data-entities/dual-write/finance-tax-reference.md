@@ -37,3 +37,6 @@ Los datos financieros y de impuestos se integran mediante las siguientes asignac
 
 + [Libro mayor integrado](ledger-mapping.md)
 + [Maestro de impuestos integrado](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

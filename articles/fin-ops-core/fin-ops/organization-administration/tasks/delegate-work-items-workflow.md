@@ -60,3 +60,6 @@ Si tiene planeado ausentarse de la oficina o de otro modo no va a poder dedicar 
 8. En el campo **Fecha y hora final**, especifique una fecha y una hora.
 9. Active la casilla de verificación **Habilitado** para activar la regla de delegación. 
 10. En el campo **Comentario**, escriba un comentario en el que se explique el motivo por el que delega los elementos de trabajo.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

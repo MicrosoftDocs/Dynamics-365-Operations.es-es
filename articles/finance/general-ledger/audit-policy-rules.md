@@ -101,3 +101,6 @@ Todas las reglas de directivas de una directiva de auditoría concreta comparten
 [Defina directivas de auditoría para los documentos de origen](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

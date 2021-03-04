@@ -54,3 +54,6 @@ Una remesa documentaria ayuda a garantizar que al pago se le paga cuando el comp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

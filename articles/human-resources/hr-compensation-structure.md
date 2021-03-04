@@ -113,3 +113,6 @@ El nuevo plan de compensación fija no se puede asignar a un empleado hasta que 
 
 8. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

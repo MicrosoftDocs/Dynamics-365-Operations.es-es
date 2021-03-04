@@ -56,3 +56,6 @@ Los parámetros de Commerce generalmente se almacenan en caché. Por lo tanto, u
 
 - [Funcionalidad sin conexión de punto de venta (PDV)](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Operaciones de punto de venta (PDV) en línea y sin conexión](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

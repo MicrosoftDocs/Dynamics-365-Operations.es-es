@@ -51,3 +51,6 @@ Si un envío de devolución contiene una cantidad inferior al total de la cantid
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

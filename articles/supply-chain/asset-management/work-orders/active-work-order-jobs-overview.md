@@ -43,3 +43,6 @@ La ilustración siguiente muestra un ejemplo de la página de lista **Trabajos d
 
 Para obtener una breve descripción de los botones en la página de lista **Trabajos de mantenimiento de órdenes de trabajo activas**, consulte [Introducción a las órdenes de trabajo](../work-orders/introduction-to-work-orders.md) donde se describen botones idénticos.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

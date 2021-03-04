@@ -76,3 +76,6 @@ El total de porcentajes de todos los intervalos no tiene que ser 100. No obstant
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

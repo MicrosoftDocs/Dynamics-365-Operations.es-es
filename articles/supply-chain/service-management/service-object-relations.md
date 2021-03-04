@@ -78,3 +78,6 @@ Acceso al Diseñador de L. MAT mediante una relación de objeto de servicio
 
 Si crea pedidos de servicio automáticamente para un acuerdo de servicio, las relaciones de objeto de servicio del acuerdo también se crean en los pedidos de servicio.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

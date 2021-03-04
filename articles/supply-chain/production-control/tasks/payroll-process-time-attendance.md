@@ -70,3 +70,6 @@ Este procedimiento muestra cómo habilitar el proceso de nóminas para tiempo y 
 7. Haga clic en Editar.
 8. En el campo Acuerdo de sueldo, especifique o seleccione un valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

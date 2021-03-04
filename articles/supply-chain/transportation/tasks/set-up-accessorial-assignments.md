@@ -50,3 +50,6 @@ Este procedimiento muestra cómo configurar una asignación de cargos adicionale
 14. En el campo Tasa de cargos adicionales, escriba un número.
 15. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

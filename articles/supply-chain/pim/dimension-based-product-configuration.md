@@ -88,3 +88,6 @@ Las siguientes ocho guías de taras se muestran en el orden en que debe completa
 7.  [Crear reglas de configuración](tasks/create-configuration-rules.md)
 8.  [Crear configuraciones basadas en dimensiones](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

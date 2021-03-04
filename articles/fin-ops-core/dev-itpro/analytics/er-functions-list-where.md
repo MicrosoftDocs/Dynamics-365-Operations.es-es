@@ -69,3 +69,6 @@ Si especifica el origen de datos **DS** para el tipo *Campo calculado* y este co
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de lista](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

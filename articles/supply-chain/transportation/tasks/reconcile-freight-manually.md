@@ -61,3 +61,6 @@ La conciliación de una factura de transportista y un albarán de flete se reali
 5. Haga clic para seguir el vínculo en el campo Número de diario de referencia.
 6. Haga clic en Líneas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

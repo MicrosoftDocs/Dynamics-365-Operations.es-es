@@ -58,3 +58,6 @@ En la página **Activos prestados activos** puede ver una lista de todos los act
 3. En el campo **Devuelto**, especifique la fecha y la hora.
 4. Seleccione **Aceptar**.
 5. Actualice la página de la lista **Activos prestados activos** y compruebe que el activo prestado ya no aparece en la lista.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

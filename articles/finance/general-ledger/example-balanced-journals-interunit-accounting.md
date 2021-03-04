@@ -55,3 +55,6 @@ Por lo tanto, los siguientes asientos contables se crean automáticamente para e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

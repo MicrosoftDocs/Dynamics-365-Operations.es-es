@@ -54,3 +54,6 @@ Con el goteo de la creación de pedidos basados en fuente introducido en Retail 
 > Los elementos de menú **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Calcular extractos por lotes** y **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Registrar extractos por lotes** se eliminan con esta nueva característica.
 
 De manera alternativa, los tipos de informes financieros y transaccionales se pueden crear manualmente. Vaya a **Retail y Commerce > Canales > Tiendas** y haga clic en **Extractos**. Haga clic en **Nuevo** y, a continuación, elija el tipo de informe que desea crear. Los campos de la página **Extractos** y las acciones del **Grupo de extracto** de la página mostrarán datos pertinentes y acciones basadas en el tipo de extracto seleccionado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Este procedimiento se centra en la creación de una directiva de cálculo de can
 8. En la lista, haga clic en el vínculo de la fila seleccionada.
     * Seleccione la directiva Speaker2016 que acaba de crear en la subtarea anterior.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

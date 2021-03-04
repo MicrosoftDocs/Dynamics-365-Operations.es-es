@@ -163,3 +163,5 @@ Los tipos de origen del diario de rendimiento describen de dónde proceden los d
 ### <a name="review-types"></a>Tipos de revisión
 
 Los tipos de evaluación de rendimiento ayudan a controlar el comportamiento de una evaluación. Puede habilitar o deshabilitar el flujo de trabajo para una evaluación. Si la evaluación no utiliza flujo de trabajo, puede definir el estado predeterminado que se usará cuando se crea la evaluación. También puede decidir si se requiere que el empleado, el administrador o ambos aprueben la evaluación.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

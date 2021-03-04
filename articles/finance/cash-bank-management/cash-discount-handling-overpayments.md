@@ -139,3 +139,6 @@ El importe del descuento por pronto pago se reduce de 10,50 a 10,00. El pago y l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Los recuentos de existencias se pueden programar o no. Los recuentos de existenc
 ## <a name="inventory-lookup"></a>Búsqueda de inventario
 
 La cantidad de producto disponible actualmente para múltiples tiendas y almacenes se puede ver en la página **Consulta de inventario**. Además de la cantidad disponible actual, las cantidades futuras de neto no comprometido (NNC) se pueden visualizar para cada tienda. Seleccione la tienda para ver las cantidades NNC y, a continuación, seleccione **Mostrar disponibilidad en tienda**. Para obtener información sobre las opciones de configuración disponibles, consulte [Calcular la disponibilidad de inventario para canales minoristas](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

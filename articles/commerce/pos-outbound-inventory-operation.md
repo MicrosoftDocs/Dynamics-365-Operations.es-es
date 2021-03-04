@@ -193,3 +193,6 @@ Las órdenes de transferencia enviadas completamente se trasladan a la pestaña 
 ## <a name="related-topics"></a>Temas relacionados
 
 [Operación de inventario entrante en PDV](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

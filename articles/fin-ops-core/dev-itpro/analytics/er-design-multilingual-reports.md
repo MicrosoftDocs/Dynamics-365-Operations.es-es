@@ -210,3 +210,6 @@ Como se describió anteriormente en este tema, los atributos **Etiqueta** y **De
 
 - [Visión general de los informes electrónicos](general-electronic-reporting.md)
 - [Funciones de informes electrónicos](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

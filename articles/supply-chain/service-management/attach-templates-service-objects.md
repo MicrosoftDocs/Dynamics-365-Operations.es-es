@@ -55,3 +55,6 @@ Una lista de materiales (L. MAT) de plantilla se puede vincular a una relación 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

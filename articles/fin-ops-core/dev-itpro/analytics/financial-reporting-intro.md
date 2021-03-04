@@ -96,3 +96,6 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 
 ## <a name="additional-resources"></a>Recursos adicionales
 [Generar informes financieros](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

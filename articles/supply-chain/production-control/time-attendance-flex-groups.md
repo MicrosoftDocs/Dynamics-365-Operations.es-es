@@ -185,3 +185,6 @@ Este cambio se produce después de la transferencia porque las horas flexible se
 | 06:00 p. m. | 08:00 p. m. | 2    | 1.5       | 3            |
 | 08:00 p. m. | 09:00 p. m. | 1    | 2         | 2            |
 |          |          |      | **Total** | **8**        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

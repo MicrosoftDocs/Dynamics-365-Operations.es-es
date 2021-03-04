@@ -53,3 +53,6 @@ También debe configurar el plazo de transporte entre los almacenes en la págin
 2. En el campo **Punto de recepción**, seleccione **almacén**.
 3. Seleccione **Almacén de envío**, **Almacén de recepción** y **Días de transporte**. 
 4. (opcional) También puede establecer el tiempo de transporte, en función del modo de entrega, en la pestaña **Días de transporte por modo de entrega**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

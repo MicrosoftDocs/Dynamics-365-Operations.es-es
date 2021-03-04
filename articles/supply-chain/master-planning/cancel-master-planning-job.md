@@ -53,3 +53,6 @@ Estas solo deben usarse si la cancelación del trabajo de planificación maestra
 4. En **Tareas por lotes**, seleccione las tareas para finalizar.
 5. Haga clic en **Cambiar Estado**, elija **Cancelación** y haga clic en **Aceptar**.
 6. En la ficha desplegable **Tareas por lotes**, haga clic en **Anular**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

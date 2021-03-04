@@ -94,3 +94,6 @@ Con este cambio, se detectan los duplicados a medida que se especifican los camp
 Con Platform update 25 para Finance and Operations, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

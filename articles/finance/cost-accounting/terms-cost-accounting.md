@@ -205,3 +205,6 @@ Las instrucciones son vistas para los administradores responsables del control d
 Las versiones se usan para simular, ver y comparar resultados diferentes. De forma predeterminada, todos los costes reales se ven en una versión base que se conoce como *real*. Para los presupuestos y los cálculos, puede trabajar con tantas versiones como sea necesario. Por ejemplo, puede importar datos de presupuesto en una versión original y después revisar el presupuesto en una versión revisada. Para los cálculos, puede crear varias versiones. En estas diferentes versiones, puede crear cálculos mediante diferentes reglas de cálculo que se aplicarán a la asignación de costes.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

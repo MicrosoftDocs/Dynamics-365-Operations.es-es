@@ -44,3 +44,6 @@ Un controlador de costes puede utilizar este procedimiento para asignar una dime
     * Para este ejemplo, seleccione el Teléfono 6001004 del miembro de la dimensión.  
 11. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

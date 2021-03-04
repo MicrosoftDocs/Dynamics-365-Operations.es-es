@@ -101,3 +101,6 @@ Las plantillas de registro pueden ayudarle a crear registros más rápidamente. 
 - [Configurar la gestión de documentos](configure-document-management.md)
 - [Configurar y enviar correo electrónico](configure-email.md)
 - [Datos de fecha y hora y las zonas horarias](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

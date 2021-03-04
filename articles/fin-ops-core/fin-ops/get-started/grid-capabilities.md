@@ -263,3 +263,6 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
 ### <a name="quality-update-for-1009platform-update-33"></a>Actualización de calidad para 10.0.9/Actualización de plataforma 33
 
 - [KB 4550367] Los valores de tiempo no tienen el formato correcto.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

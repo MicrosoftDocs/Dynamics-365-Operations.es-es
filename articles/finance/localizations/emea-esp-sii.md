@@ -736,3 +736,6 @@ Para mantener la integridad de los datos entre estos elementos de mensajes elect
 | Una línea de informe se agrega durante la función **Generación**.                      | Este será un nuevo elemento de mensaje electrónico. Use el proceso estándar para registrarlo en el sistema SII.                                                                                                                                                                   |
 
 Para mantener la integridad de los datos, líneas en el informe **Cobro en efectivo** el informe no se puede eliminar manualmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

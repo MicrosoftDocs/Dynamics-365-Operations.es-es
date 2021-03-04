@@ -37,3 +37,6 @@ El complemento de servicio de contabilidad de costos de Microsoft Dynamics 365 S
 ## <a name="related-resources"></a>Recursos relacionados
 
 [Introducción al servicio de contabilidad de costes](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

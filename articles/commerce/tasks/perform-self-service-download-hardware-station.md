@@ -37,3 +37,6 @@ Este procedimiento le muestra cómo descargar una estación de hardware predefin
 5. En la lista, busque y seleccione el registro deseado.
 6. Haga clic en Descargar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

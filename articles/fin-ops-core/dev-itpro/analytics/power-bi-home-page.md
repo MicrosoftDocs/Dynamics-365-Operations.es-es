@@ -65,3 +65,6 @@ Las soluciones de PowerBI.com siguientes están disponibles en [Microsoft AppSou
 - Gestión de costes
 - [Rendimiento financiero](financial-performance-power-bi-content-pack.md)
 - [Rendimiento de canal comercial ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

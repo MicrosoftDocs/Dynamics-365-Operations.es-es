@@ -62,3 +62,6 @@ Este procedimiento muestra el proceso de venta de un programa de continuidad y e
     * Especifique el número de pedido de ventas que ha anotado antes en el procedimiento. Esto mantendrá el tiempo de procesamiento al mínimo para este procedimiento. El campo Pedido de ventas es opcional. Podría procesar todos los pedidos para cualquier programa.  
 21. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

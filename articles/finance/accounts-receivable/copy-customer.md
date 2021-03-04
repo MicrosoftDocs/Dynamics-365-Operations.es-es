@@ -64,3 +64,6 @@ También puede copiar clientes mediante la función de búsqueda del número de 
 
 1. Aparece una opción **Copiar cliente**. Esta opción se establece en **No** de forma predeterminada. Para copiar el cliente en la entidad jurídica actual, establezca la opción en **Sí**. 
 2. Seleccione **Seleccionar**. Se crea el nuevo cliente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

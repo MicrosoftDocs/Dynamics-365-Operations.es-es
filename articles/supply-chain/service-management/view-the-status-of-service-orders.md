@@ -55,3 +55,6 @@ El gráfico de Gantt admite el uso de colores para ayudarle a evaluar rápidamen
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

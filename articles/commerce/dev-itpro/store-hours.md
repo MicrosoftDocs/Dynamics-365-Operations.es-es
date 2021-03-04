@@ -78,3 +78,6 @@ Siga estos pasos para agregar un horario comercial a las recepciones de PDV impr
 Los recibos de PDV incluyen ahora el horario comercial. Si se incluyeron algunos festivos en la plantilla, estos se muestran en el recibo.
 
 ![Ejemplo de recibo](../dev-itpro/media/Storehours3.png "Ejemplo de recibo")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

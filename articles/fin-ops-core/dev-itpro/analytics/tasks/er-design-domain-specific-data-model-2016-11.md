@@ -187,3 +187,6 @@ Usted está creando un nuevo modelo de datos para la configuración seleccionada
 65. Haga clic en Guardar.
 66. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

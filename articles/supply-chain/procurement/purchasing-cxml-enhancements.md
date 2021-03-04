@@ -277,3 +277,6 @@ Para ver el contenido de una confirmación de proveedor o una respuesta de error
 
 - [Configurar un catálogo externo para la adquisición electrónica de marcaje de salida](set-up-external-catalog-for-punchout.md)
 - [Usar catálogos externos para la adquisición electrónica de marcaje de salida](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

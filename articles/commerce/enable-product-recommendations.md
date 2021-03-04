@@ -114,3 +114,6 @@ Para obtener más información recomendaciones personalizadas, consulte [Habilit
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

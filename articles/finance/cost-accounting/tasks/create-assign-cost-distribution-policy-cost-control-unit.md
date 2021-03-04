@@ -73,3 +73,6 @@ Las reglas de distribución de costes se usan para distribuir los costes que se 
 5. En el campo Unidad de control de coste, especifique o seleccione un valor.
 6. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

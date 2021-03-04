@@ -58,3 +58,6 @@ Una vez registrado el diario, se registran los artículos devueltos en el invent
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

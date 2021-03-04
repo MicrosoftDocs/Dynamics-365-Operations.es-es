@@ -49,3 +49,6 @@ Define el ámbito de la regla dentro de la directiva. Por ejemplo, si crea un ti
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

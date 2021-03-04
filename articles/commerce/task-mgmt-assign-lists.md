@@ -92,3 +92,6 @@ Para realizar un seguimiento de la lista de estado de tareas de todas las tareas
 [Crear listas de tareas y agregar tareas](task-mgmt-create-lists.md)
 
 [Administración de tareas en PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

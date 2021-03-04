@@ -35,3 +35,6 @@ Este procedimiento le muestra cómo crear y enviar el informe de IVA a la autori
 5. Seleccione Sí en el campo Crear documento de impuestos electrónicos.
 6. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

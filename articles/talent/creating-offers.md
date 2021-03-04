@@ -153,3 +153,6 @@ Se puede retirar una oferta a un candidato en cualquier momento por diferentes m
 ## <a name="closing-an-offer"></a>Cierre de una oferta 
 
 Cuando una oferta se ha aceptado, rechazado, o se ha retirado sin otras acciones necesarias, puede cerrar la oferta para que no se edite más este paquete de propuesta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

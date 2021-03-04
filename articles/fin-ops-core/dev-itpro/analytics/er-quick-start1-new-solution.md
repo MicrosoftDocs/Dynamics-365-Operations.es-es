@@ -1233,3 +1233,6 @@ Tenga en cuenta que el pie de página del informe generado no contiene el nombre
 - [Función IF](er-functions-logical-if.md)
 - [Función ORDERBY](er-functions-list-orderby.md)
 - [Función SESSIONNOW](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

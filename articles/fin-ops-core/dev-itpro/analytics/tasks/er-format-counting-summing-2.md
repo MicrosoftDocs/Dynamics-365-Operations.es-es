@@ -139,3 +139,6 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 83. Haga clic en Guardar.
 84. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

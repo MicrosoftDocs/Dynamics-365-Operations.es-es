@@ -56,3 +56,6 @@ Seleccione un área de características para obtener más información al respec
 - [Administrar su sitio de comercio electrónico](online-store-overview.md)
 - [Fraud Protection](dev-itpro/DFP.md)
 - [Desarrollo y extensibilidad de comercio](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

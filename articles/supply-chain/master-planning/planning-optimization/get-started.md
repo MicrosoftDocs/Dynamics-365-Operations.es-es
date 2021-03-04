@@ -112,3 +112,6 @@ Si la vista previa de Optimización de la planificación está activada, la plan
 [Aplicar filtros a un plan](plan-filters.md)
 
 [Cancelar un trabajo de planificación](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ En la página **Grupos de cobertura** puede seleccionar los mensajes de acción 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Los usuarios que se asignan manualmente a roles de seguridad también los elimin
 2. En el árbol, seleccione un rol y, en el menú **Usuarios asignados al rol**, seleccione **Asignar o excluir usuarios de forma manual**.
 4. En **Asignar usuarios o excluir usuarios del rol**, los usuarios a los que no se les ha asignado el rol se enumeran con el **Modo de asignación** ajustado a **Ninguno**. Seleccione uno o más usuarios a los que se les debe asignar el rol.
 5. En el **Panel Acciones**, seleccione **Asignar a rol**. El **Modo de asignación** se actualiza a **Manual** y los usuarios ahora tienen un nuevo rol asignado.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

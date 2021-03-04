@@ -141,3 +141,6 @@ El servicio del orquestador es el servicio que administra su implementación y l
 ## <a name="virtualization-and-oversubscription"></a>Virtualización y sobresuscripción
 
 Los servicios fundamentales para la misión, como el AOS, deben hospedarse en host virtuales que tiene recursos dedicados - núcleos, memoria y disco.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Por ejemplo, si hoy es 1 de febrero y está programado que el 14 de febrero el t
    4. Seleccione **Aceptar**. El proceso se ejecutará con los parámetros que establezca.
 
 4. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

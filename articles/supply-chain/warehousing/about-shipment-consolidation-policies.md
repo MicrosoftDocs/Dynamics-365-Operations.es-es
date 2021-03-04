@@ -135,3 +135,6 @@ La siguiente tabla resume cómo funciona la consolidación de envíos cuando no 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -156,3 +156,6 @@ Cuando se ejecuta un análisis de cuentas que faltan, los métodos abreviados de
 [Informes financieros](financial-reporting-intro.md)
 
 [Interfaz del Diseñador de informes](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

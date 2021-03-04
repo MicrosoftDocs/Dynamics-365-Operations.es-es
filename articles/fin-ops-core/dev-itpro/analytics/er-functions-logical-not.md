@@ -55,3 +55,6 @@ El valor *Booleano* resultante.
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones lógicas](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

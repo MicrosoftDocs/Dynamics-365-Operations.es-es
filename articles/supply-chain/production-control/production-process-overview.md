@@ -88,3 +88,6 @@ Se pueden dar los siguientes pasos en el ciclo de vida de producción para todos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

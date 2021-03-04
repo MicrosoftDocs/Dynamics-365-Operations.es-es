@@ -45,3 +45,6 @@ En este tema se explica cómo conceder a los trabajadores permiso para preparar 
 2. Utilice el Filtro rápido para encontrar el trabajador que acaba de agregar como solicitante.
 3. Seleccione el solicitante. La lista Preparador muestra las personas con permiso para pedir artículos en nombre del solicitante seleccionado en el panel izquierdo.  Puede agregar preparadores adicionales aquí. Esta vista también le permite conceder el permiso de solicitante para crear solicitudes en entidades jurídicas y unidades operativas que no son la entidad jurídica principal o unidad operativa de esa persona.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

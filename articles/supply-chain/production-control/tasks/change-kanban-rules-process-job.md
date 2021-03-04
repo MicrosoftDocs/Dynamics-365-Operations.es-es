@@ -49,3 +49,6 @@ Este procedimiento se centra en el cambio de la regla kanban usada para un kanba
 7. Haga clic en Finalizar.
     * Ahora el trabajo kanban está usando otra regla kanban. Esto puede resultar útil para nivelar celdas de trabajo de carga.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

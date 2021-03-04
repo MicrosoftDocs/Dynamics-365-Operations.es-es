@@ -88,3 +88,6 @@ En la tabla siguiente se describen varios tipos de recomendaciones automáticas 
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

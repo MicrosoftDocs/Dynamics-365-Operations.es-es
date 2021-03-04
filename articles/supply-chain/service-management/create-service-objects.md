@@ -43,3 +43,6 @@ Los objetos de servicio son los activos y los productos de un cliente para los q
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

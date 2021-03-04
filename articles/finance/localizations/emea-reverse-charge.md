@@ -137,3 +137,6 @@ Las siguientes páginas y elementos de menú relacionados con la configuración 
  - **Parámetros de comercio exterior** (**Impuesto** > **Configuración** > **Impuesto** > **Comercio Exterior** > **Parámetros de comercio exterior**). Vea [Configurar las propiedades de país o región](#Set-up-Country/region-properties).
 
 La casilla de verificación **Cargo invertido** estará disponible en las páginas **Grupo de impuestos** e **Impuesto registrado**. Para obtener más información, vea las secciones [Configurar grupos de impuestos y grupos de impuestos sobre las ventas de artículos](#sales-tax-item-sales-tax-groups), [Cargo invertido en facturas de venta](#reverse-charge-sale) y [Cargo invertido en facturas de compra](#reverse-charge-purchase).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

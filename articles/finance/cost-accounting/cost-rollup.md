@@ -301,3 +301,6 @@ La clara separación entre **Asignación de costes** y **Directivas de acumulaci
 -  [Dimensiones de elemento de coste](cost-elements.md)
 -  [Jerarquía de dimensiones](dimension-hierarchy.md)
 -  [Cálculo de costes generales](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

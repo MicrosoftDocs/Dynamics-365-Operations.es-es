@@ -246,3 +246,6 @@ Puede ver los registros de envío de todos los documentos enviados.
 - [Descripción general del complemento de facturación electrónica](e-invoicing-service-overview.md)
 - [Introducción al complemento de facturación electrónica](e-invoicing-get-started.md)
 - [Configurar el complemento de facturación electrónica](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

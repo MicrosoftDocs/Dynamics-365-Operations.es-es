@@ -72,3 +72,6 @@ Puede proyectar la utilización del espacio generando el informe **Utilización 
 
 4. En el campo **Tipo de carga**, seleccione **Volumen** o **Peso** para especificar la unidad operativa de almacén para la que desea proyectar espacio.
 5. En el campo **Configuración de utilización del espacio**, seleccione la configuración de la utilización del espacio en la que se basará la proyección.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

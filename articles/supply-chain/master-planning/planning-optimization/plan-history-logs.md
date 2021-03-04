@@ -47,3 +47,6 @@ Además de ver la hora de inicio y el estado de los trabajos, puede ver el regis
 [Aplicar filtros a un plan](plan-filters.md)
 
 [Cancelar un trabajo de planificación](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

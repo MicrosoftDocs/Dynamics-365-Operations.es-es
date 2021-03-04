@@ -98,3 +98,5 @@ Siga estos pasos para despachar cada pedido de ventas que creó para este escena
 
 - [Directivas de consolidación de envíos](about-shipment-consolidation-policies.md)
 - [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

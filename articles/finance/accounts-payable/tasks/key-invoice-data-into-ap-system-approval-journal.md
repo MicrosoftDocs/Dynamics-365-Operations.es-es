@@ -54,3 +54,6 @@ En este tema se explica cómo usar el registro de facturas para crear facturas y
 10. Seleccione **Registrar**.
 11. Seleccione **Asiento** para ver las entradas que se han registrado. La cuenta de factura pendiente de aprobación se anula y se reemplaza con la cuenta de gastos real.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

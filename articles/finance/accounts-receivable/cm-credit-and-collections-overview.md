@@ -77,3 +77,6 @@ Para ver descripciones de estos conceptos, consulte [Conceptos clave de la admin
 [Retenciones de crédito para pedidos de ventas](./cm-sales-order-credit-holds.md)
 
 [Tareas periódicas de administración de crédito de cliente](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

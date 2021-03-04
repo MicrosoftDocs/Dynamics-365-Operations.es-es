@@ -48,3 +48,6 @@ La página **Transacciones de activos** muestra las transacciones que aumentan o
 Para ver las transacciones de gastos por arrendamiento, seleccione un arrendamiento en la página **Resumen de arrendamientos** y luego seleccione **Libros** para abrir los libros de arrendamiento adjuntos al registro de arrendamiento. A continuación, seleccione **Transacciones de gastos**.
 
 La página **Transacciones de gastos** muestra todos los gastos que se han registrado contra el arrendamiento, como los gastos por intereses, los gastos de depreciación y los gastos a cargo del arrendatario en un arrendamiento de capital.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

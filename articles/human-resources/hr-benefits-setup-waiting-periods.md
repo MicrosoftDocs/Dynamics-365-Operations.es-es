@@ -45,3 +45,6 @@ En Microsoft Dynamics 365 Human Resources, los días de espera establecen un hit
    | **Día de espera** | Seleccione el día de espera que se desea usar para calcular la fecha de espera. |
 
 4. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

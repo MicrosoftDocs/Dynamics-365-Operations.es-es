@@ -44,3 +44,6 @@ Para realizar la importación de miembros de dimensión de objeto de coste, se u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

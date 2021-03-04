@@ -126,3 +126,6 @@ Cuando abre un bloque de creación, otros usuarios tienen acceso de solo lectura
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

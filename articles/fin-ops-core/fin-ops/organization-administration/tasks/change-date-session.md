@@ -32,3 +32,6 @@ Este tema explica cómo cambiar la fecha de una sesión. De forma predeterminada
 2. En el campo **Fecha**, escriba una fecha.
 3. Seleccione **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

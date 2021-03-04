@@ -238,3 +238,6 @@ Su formato debe estar disponible primero en configuraciones de ER. Si se cumple 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

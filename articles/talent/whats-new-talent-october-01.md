@@ -56,3 +56,6 @@ Las organizaciones conceden tiempo libre de manera diferente basándose en cuán
 ## <a name="known-issue"></a>Problema conocido
 
 -   **Problema:** Al agregar nuevos archivos adjuntos a un trabajador, los botones **Nuevo** y **Editar** se atenúan. **Solución alternativa:** Antes de abrir la página de los datos adjuntos, asegúrese de que los cuadros informativos de la página **Trabajador** estén cerrados. Si se cierran los cuadros informativos cuando la página **Trabajador** se carga, los botones **Datos adjuntos** se habilitan. (Este problema se corregirá en la siguiente actualización de la plataforma).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

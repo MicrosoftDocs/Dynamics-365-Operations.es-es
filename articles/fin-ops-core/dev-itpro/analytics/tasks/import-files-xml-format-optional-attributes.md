@@ -123,3 +123,6 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 
 > [!NOTE]
 > Se ha importado el mismo archivo ya que el diseño de formato ahora considera el atributo "id" para el elemento "documento" como opcional.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

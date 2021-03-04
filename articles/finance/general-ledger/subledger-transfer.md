@@ -42,3 +42,6 @@ Las siguientes opciones están disponibles para transferir lotes de subdiarios.
 En la versión 10.0.8, se realizaron mejoras para mejorar el rendimiento de la opción Asincrónico. Esta característica está habilitada debajo del nombre de la característica **Optimización del rendimiento de la transferencia de subdiarios a la contabilidad general**. 
  
 Esta funcionalidad mejora la transferencia de datos desde el subdiario contable a la contabilidad general. Permite que el proceso sea más eficiente y agrupa conjuntos de transacciones más pequeñas para transferir. Esto permite un uso más eficiente del servidor por lotes. Esta funcionalidad requiere que el servidor por lotes esté configurado, en línea y funcionando para que funcione la opción de transferencia Asincrónico. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Este tema le explica cómo crear directivas de compra para alinearlas con sus pr
 4. Seleccione **Cerrar**.
 - Ahora puede configurar otras reglas de directivas para la directiva de compras. Observe que un tipo de la regla de directiva no puede tener reglas de superposición que estén activas al mismo tiempo dentro de una sola directiva de compras.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

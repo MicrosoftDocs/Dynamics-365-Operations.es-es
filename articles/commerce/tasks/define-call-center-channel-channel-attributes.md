@@ -100,3 +100,6 @@ Este procedimiento le muestra cómo crear un nuevo canal de Commerce y definir a
 65. Haga clic en Guardar.
 66. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

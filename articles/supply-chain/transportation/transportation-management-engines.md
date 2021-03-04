@@ -99,3 +99,6 @@ Los metadatos para motores de administración del transporte se configuran de fo
 | 3        | Código postal inicial de destino | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 4        | Código postal final de destino   | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 5        | País de destino           | Asignación | Cadena    | País o región |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

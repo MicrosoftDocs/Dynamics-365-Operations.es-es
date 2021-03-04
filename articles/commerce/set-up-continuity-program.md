@@ -50,3 +50,6 @@ Una vez haya configurado un programa de continuidad como se describe anteriormen
 - **Ampliar líneas de continuidad** (si es necesario): amplíe el número de veces que un evento de continuidad se puede repetir. La periodicidad de los envíos se puede ampliar más allá de límites que se establecieron en el campo **Umbral de repetición de continuidad** en los parámetros del centro de llamadas
 - **Realizar una actualización de continuidad** (si es necesario) : sincronice los cambios entre el programa de continuidad y los pedidos de ventas principales de continuidad.
 - **Cerrar pedidos y líneas principales de continuidad**: cierre pedidos de continuidad.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ La estructura de esta lista consta de un solo campo **Importe** del tipo `Real`,
 [Funciones de lista](er-functions-category-list.md)
 
 [Depurar las fuentes de datos de un formato ER ejecutado para analizar el flujo de datos y la transformación](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

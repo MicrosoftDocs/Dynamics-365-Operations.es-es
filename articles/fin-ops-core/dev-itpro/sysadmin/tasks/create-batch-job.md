@@ -54,3 +54,6 @@ Un trabajo por lotes es un grupo de tareas enviadas a una instancia de Applicati
     - **Retenido**: establezca el trabajo por lotes como **retenido** para que se retenga del programador de trabajos por lotes. Equivalente a *detenido*.
     - **En espera**: establezca el trabajo por lotes como **en espera** para que quede a la espera de ser recogido por el programador de trabajos por lotes. Equivalente a *en marcha*.
 5. Haga clic en **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

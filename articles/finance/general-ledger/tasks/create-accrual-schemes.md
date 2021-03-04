@@ -41,3 +41,6 @@ Este tema explica cómo crear un esquema de acumulación. Esta tarea usa la empr
 10. En el campo **Número de repeticiones por período**, especifique un número.
 11. En el campo **Registrar transacciones**, seleccione cuándo se deben registrar las transacciones, por ejemplo, **Mensual**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

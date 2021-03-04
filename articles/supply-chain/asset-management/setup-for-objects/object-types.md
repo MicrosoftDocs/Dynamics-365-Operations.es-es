@@ -97,3 +97,6 @@ En la página **Recambios**, también puede crear nuevas piezas de repuesto para
 
 Para ver si el recambio de la línea seleccionada se usa en otro lugar en Administración de activos (por ejemplo, en relación con activos y órdenes de trabajo), seleccione **Artículo donde utilizado** para abrir la página **Artículo donde utilizado**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

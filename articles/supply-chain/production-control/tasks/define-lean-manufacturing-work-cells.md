@@ -100,3 +100,6 @@ Una celda de trabajo es una forma específica de grupos de recursos que pueden u
 ## <a name="save"></a>Guardar
 1. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

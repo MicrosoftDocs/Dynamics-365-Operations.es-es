@@ -310,3 +310,6 @@ Una expresión **IF/THEN/ELSE** permite a cualquier cálculo depender de los res
 Puede diseñar informes mediante los valores de dimensión que contengan una Y comercial (&).
 
 Dentro de cualquier campo **Vincular a la dimensión financiera**, puede especificar un valor como **'Pérdidas y ganancias'**. Incluir apóstrofes (' ') a ambos lados del valor de dimensión indica que utiliza el valor literal, como incluir el carácter de la Y comercial (&).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

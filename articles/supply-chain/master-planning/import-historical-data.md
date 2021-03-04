@@ -59,3 +59,6 @@ Una vez importados los datos históricos de la demanda, puede generar una previs
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Generar previsión estadística de línea base](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

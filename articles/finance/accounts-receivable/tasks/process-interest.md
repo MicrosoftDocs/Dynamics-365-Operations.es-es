@@ -68,3 +68,6 @@ Este procedimiento muestra cómo crear, imprimir y registrar notas de interés. 
 5. Haga clic en **Aceptar**.
 6. En el campo **Estado**, seleccione "Registrado".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

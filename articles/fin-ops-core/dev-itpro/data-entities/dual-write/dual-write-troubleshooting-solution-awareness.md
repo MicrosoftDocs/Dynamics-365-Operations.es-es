@@ -45,3 +45,6 @@ En la página **Doble escritura**, puede recibir un mensaje de error similar al 
 *La entidad con un nombre 'msdyn\_dualwriteentitymap' con namemapping =' Logical 'no se encontró en MetadataCache.*
 
 Para solucionar el problema, asegúrese de que la solución de núcleo de doble escritura esté instalada en Dataverse. La solución central de doble escritura es un requisito previo para el conocimiento de la solución.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Microsoft Dynamics 365 Talent: Onboard le permite compartir las guías y plantil
 - [Novedades y cambios en Dynamics 365 Talent](./whats-new.md)
 - [Planes de lanzamiento](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Obtener soporte para Microsoft Dynamics 365 Talent](./talent-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

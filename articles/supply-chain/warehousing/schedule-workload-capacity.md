@@ -80,3 +80,6 @@ Si esta información no se especifica correctamente, recibirá un mensaje al gen
 3. En el campo **Tipo de pedido**, seleccione **Planificado y confirmado**, **Planificado** o **Confirmado** , para indicar el tipo de pedidos que desea proyectar en el informe.
 4. En el campo **Tipo de carga**, seleccione un tipo de carga para especificar si la capacidad de la carga de trabajo se debe proyectarse para volumen o para peso.
 5. En el campo **Capacidad de carga de trabajo**, seleccione una configuración para la capacidad de carga de trabajo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

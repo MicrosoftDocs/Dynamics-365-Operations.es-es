@@ -61,3 +61,6 @@ Esta información se aplica a todos los países o regiones europeos. La tarea se
     * Asigne el tipo de registro que ha creado a una categoría de registro predefinida.  
 22. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

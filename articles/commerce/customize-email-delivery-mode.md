@@ -73,3 +73,6 @@ Para configurar plantillas de correo electrónico para modos específicos de ent
 [Crear pedidos de centro de llamadas](tasks/create-call-center-orders.md)
 
 [Cambiar el modo de entrega en PDV](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

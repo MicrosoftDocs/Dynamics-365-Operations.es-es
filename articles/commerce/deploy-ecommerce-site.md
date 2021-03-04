@@ -112,3 +112,6 @@ Para acceder al generador de sitios de Commerce, vaya a la pestaña **Comercio e
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -175,3 +175,6 @@ Este procedimiento le muestra cómo configurar la ubicación para un nuevo almac
 6. En la lista, haga clic en el vínculo de la fila seleccionada.
 7. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

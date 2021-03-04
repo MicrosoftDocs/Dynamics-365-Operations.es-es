@@ -55,3 +55,6 @@ El planificador de producción calcula los requisitos de materiales y capacidad 
 2. Haga clic en En firme.
 3. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

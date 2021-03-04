@@ -44,3 +44,6 @@ En este tema se explica cómo procesar una solicitud de asignación. Use la pág
 9. Seleccione **Registrar**.
 10. Seleccione **Registrar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

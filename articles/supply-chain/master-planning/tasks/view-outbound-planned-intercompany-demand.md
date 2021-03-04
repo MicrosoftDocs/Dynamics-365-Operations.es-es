@@ -43,3 +43,6 @@ Este procedimiento muestra cómo ver todos los pedidos planificados que cumplir�
 8. Expanda la sección de los detalles de la demanda de nivel superior.
     * En esta sección, puede ver detalles acerca de cómo se cumplirá con la demanda. Es posible que tenga que esperar la planificación maestra que se ejecutará en la empresa de aprovisionamiento antes de que se pueda ver información adicional aquí.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

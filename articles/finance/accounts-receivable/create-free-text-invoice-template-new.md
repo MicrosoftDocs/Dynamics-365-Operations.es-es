@@ -68,3 +68,6 @@ Para este tutorial, utilice la empresa de demostración USMF. Este procedimiento
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Guardar una factura de servicios como una plantilla
 También puede guardar una factura de servicios existente como una plantilla. Al seleccionar Guardar en plantilla desde la pestaña Factura, especifique un nombre y una descripción para la plantilla. Si ya existe una plantilla con el nombre, verá una notificación de que ya existe una plantilla con ese nombre. Todavía puede hacer clic en Aceptar para reemplazarla. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -173,3 +173,6 @@ Problema 3: puede pasar de la página de inicio de sesión ClickOnce de Diseñad
 ## <a name="additional-resources"></a>Recursos adicionales
 - [Ver informes financieros](view-financial-reports.md)
 - [Definiciones de organigramas en informes financieros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

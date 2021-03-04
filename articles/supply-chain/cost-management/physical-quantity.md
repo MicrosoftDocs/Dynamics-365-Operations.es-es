@@ -147,3 +147,6 @@ La tabla siguiente muestra el resultado del cálculo de un objeto de inventario.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

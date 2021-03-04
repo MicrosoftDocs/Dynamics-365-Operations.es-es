@@ -667,3 +667,6 @@ Debe completar el trabajo de selección de inventario ordenado. Cuando se comple
     El trabajo se completó.
 
 A partir de ese punto, se aplican todos los demás procesos de almacén.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

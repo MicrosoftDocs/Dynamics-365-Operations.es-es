@@ -49,3 +49,6 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 ![Página de configuraciones de ER](../media/er-financial-dimensions-guides-run3.png)
     * Revise la salida generada. Para cada transacción del lote seleccionado, se presentan las dimensiones financieras del conjunto de dimensiones correspondiente. Ejecute este informe y seleccione diferentes dimensiones para ver que el informe no depende del número de dimensiones seleccionado o el número de dimensiones configurado para esta instancia.  
 ![Página de configuraciones de ER](../media/er-financial-dimensions-guides-run4.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

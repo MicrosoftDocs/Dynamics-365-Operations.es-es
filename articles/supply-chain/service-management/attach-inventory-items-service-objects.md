@@ -51,3 +51,6 @@ El artículo se habrá vinculado al objeto de servicio y las dimensiones de inve
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

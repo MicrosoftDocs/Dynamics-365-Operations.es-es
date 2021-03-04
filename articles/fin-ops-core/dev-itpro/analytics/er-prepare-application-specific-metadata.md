@@ -280,3 +280,6 @@ Cuando deba evaluar esta asignación de modelo mediante el uso de metadatos de u
 ## <a name="additional-resources"></a>Recursos adicionales
 
 Como alternativa, puede reproducir la guía de tareas **Preparar metadatos de la aplicación que pueden usarse en RCS** en la aplicación, así como las guías de tareas **Acceder a metadatos de la aplicación mediante el uso de una configuración de ER** y **Acceder a metadatos de la aplicación mediante el uso de aplicaciones conectadas** en RCS. Estas guías de tareas se pueden descargar en la página [Guías de tareas de informes electrónicos para Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -316,3 +316,6 @@ Actualmente, ambas identificaciones de trabajo tienen la misma matrícula de ent
 La siguiente ilustración muestra cómo puede aparecer el trabajo de tránsito directo completado en Microsoft Dynamics 365 Supply Chain Management.
 
 ![Trabajo de tránsito directo completado](media/PlannedCrossDockingWork.png "Trabajo de tránsito directo completado")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

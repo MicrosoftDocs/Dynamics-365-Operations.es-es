@@ -41,3 +41,6 @@ Las autoridades fiscales son las entidades a las que tienen que notificarse y pa
 10. En el campo Redondear, escriba un número
 11. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

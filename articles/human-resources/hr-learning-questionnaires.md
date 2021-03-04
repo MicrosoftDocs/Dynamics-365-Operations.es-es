@@ -44,3 +44,6 @@ En la siguiente tabla se proporcionan vínculos a información sobre cómo usar 
 | [Diseñar un cuestionario](hr-learning-design-questionnaires.md) | Este artículo ofrece información sobre el procedimiento el diseño de un cuestionario. El proceso de diseño implica la configuración de requisitos previos, respuestas y preguntas, y después su combinación en un cuestionario. |
 | [Distribuir y programar cuestionarios](hr-learning-distribute-questionnaires.md) | Este artículo proporciona información acerca de cómo distribuir un cuestionario a los encuestados y cómo completar cuestionarios. |
 | [Ver y evaluar los resultados de un cuestionario](hr-learning-evaluate-questionnaire-results.md) | Este artículo ofrece información sobre cómo ver y evaluar los resultados de los cuestionarios completados. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

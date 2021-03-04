@@ -60,3 +60,6 @@ Este es el segundo de cinco procedimientos que muestra el proceso de pago del cl
     * Por ejemplo, seleccione la cuenta bancaria "DEMF OPER".  
 6. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

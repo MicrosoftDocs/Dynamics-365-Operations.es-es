@@ -73,3 +73,6 @@ Al usar planes de recuento cíclico para crear trabajos de recuento, puede dirig
 14. Haga clic en Aceptar
 15. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

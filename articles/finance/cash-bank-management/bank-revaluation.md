@@ -88,3 +88,6 @@ La transacción de revalorización de divisa extranjera también se divide en la
 Si debe invertir la transacción de revalorización, seleccione el botón **Invertir transacción** en el panel de acción de la página **Revalorización de divisa extranjera**. Un nuevo registro histórico de la revalorización de divisa extranjera se creará para mantener la traza de auditoría histórica de cuándo se produjo o se ha invertido la revalorización.
 
 Para invertir varias revalorizaciones, debe invertir la revalorización más actual primero. Después continúe invirtiendo las revalorizaciones más antiguas por fecha más antigua. A continuación puede procesar las nuevas revalorizaciones para los períodos que se invirtió.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

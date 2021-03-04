@@ -103,3 +103,6 @@ Este procedimiento le muestra cómo crear un único producto liberado en el cont
 12. En la lista, busque y seleccione el registro deseado.
 13. En la lista, haga clic en el vínculo de la fila seleccionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Las recomendaciones aparecen como tarjetas en la pestaña **Candidatos** de los 
 > Si ha empezado a usar Attract recientemente, deberá esperar a tener 10 o más candidatos con perfiles completos o curriculums vitae antes de que pueda usar esta capacidad.
 
 Para evitar cualquier prejuicio potencial en las recomendaciones, Attract solo analiza los perfiles del candidato según aptitudes, las cualificaciones y otras palabras clave que coinciden con la descripción del trabajo. Además, antes de la evaluación, Attract elimina la información personal que podría identificar al candidato de los perfiles.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

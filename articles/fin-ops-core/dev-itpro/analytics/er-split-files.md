@@ -47,3 +47,6 @@ Para obtener más información acerca de esta función, reproduzca la guía de t
 [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 
 [Diseñador de fórmulas en los informes electrónicos (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

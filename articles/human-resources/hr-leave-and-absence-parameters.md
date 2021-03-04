@@ -92,3 +92,6 @@ Antes de configurar planes de bajas y ausencias en Dynamics 365 Human Resources,
 ## <a name="see-also"></a>Consulte también
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

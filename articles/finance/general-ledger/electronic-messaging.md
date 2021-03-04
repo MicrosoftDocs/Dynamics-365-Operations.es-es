@@ -536,3 +536,6 @@ Ahora puede eliminar o actualizar el estado del mensaje. Para actualizar el esta
 ![Actualizar el estado del mensaje](media/update-status.png)
 
 El estado del mensaje se actualiza a **Preparado**, y ahora puede generar el informe seleccionando **Generar informe**. Se genera el informe, y el estado del mensaje y el registro de acción se actualizan. Para ver el informe generado, seleccione el botón **Adjuntos** (el símbolo de clip de papel) en la esquina superior derecha de la página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

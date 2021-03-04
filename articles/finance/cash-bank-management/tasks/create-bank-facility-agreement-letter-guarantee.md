@@ -57,3 +57,6 @@ Esta tarea crea un contrato de instalaciones bancarias para procesar una carta d
 5. Haga clic en Guardar.
 6. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Esta guía de la tarea configurará los perfiles de contabilización de activos 
 88. En el campo **Cuenta principal**, especifique los valores deseados.
 89. En el campo **Cuenta de contrapartida**, especifique los valores deseados.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

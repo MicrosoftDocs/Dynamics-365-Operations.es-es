@@ -83,3 +83,6 @@ Esta tarea se centra en la configuración necesaria para crear una regla kanban 
     * Observe el kanban creado para suministrar M0001 para el pedido de producción estimado.  
     * Este es el último paso.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

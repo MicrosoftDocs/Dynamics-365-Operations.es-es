@@ -110,3 +110,6 @@ El espacio de trabajo **Supervisión de trabajo de salida** tiene dos paneles qu
 ## <a name="deleting-completed-tasks"></a>Eliminar tareas completadas
 
 Puede eliminar tareas de procesamiento de colocación diferidas que ya se han completado. Para ello, debe seleccionarlas y eliminarlas en la página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

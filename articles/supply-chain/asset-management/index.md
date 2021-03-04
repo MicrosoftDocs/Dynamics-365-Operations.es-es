@@ -38,3 +38,6 @@ En la imagen siguiente es una ilustración de las interfaces con otros módulos 
 ![Descripción general de cómo se integra Administración de activos](media/overview-integrate2.jpg)
 
 Administración de activos permite gestionar y realizar eficientemente tareas relacionadas con la gestión y el mantenimiento de muchos tipos de equipos de la empresa, por ejemplo, máquinas, equipos de producción y vehículos. Administración de activos admite soluciones de numerosos sectores.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

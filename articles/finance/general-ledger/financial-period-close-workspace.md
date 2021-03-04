@@ -108,3 +108,6 @@ Después de finalizar una programación de cierre, seleccione la opción **Cerra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

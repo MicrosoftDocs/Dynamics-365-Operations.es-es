@@ -96,3 +96,6 @@ Las transacciones de extracto bancario que marcó como **Nueva** en la hoja de c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Si una característica o módulo de un sitio de comercio electrónico utiliza un
 [Módulo de consentimiento de cookies](cookie-consent-module.md) 
  
 [Módulo de encabezado](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

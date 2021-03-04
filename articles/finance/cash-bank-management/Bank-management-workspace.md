@@ -64,3 +64,6 @@ La página **Análisis** proporciona métricas importantes sobre las cuentas ban
 -   Saldo por divisa
 
 Puede ver los análisis del banco en todas las empresas en el espacio de trabajo **Visión general del efectivo para todas las empresas**. Para obtener más información, consulte [Contenido de Power BI de visión general de efectivo](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

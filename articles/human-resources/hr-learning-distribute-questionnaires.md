@@ -131,3 +131,6 @@ Una vez que haya diseñado y haya distribuido un cuestionario, los encuestados s
 Los cuestionarios se pueden poner a disposición de usuarios o grupos de usuarios específicos, o de todos los usuarios conectados a una red.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

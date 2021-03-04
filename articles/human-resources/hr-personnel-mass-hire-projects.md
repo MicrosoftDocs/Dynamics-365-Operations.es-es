@@ -82,3 +82,6 @@ En la página **Proyecto de contratación masiva**, haga clic en **Abrir proyect
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

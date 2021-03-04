@@ -51,3 +51,6 @@ Puede identificar la cancelación y la corrección de facturas de dos maneras:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

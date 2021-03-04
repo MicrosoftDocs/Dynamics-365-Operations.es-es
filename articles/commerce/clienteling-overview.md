@@ -124,3 +124,6 @@ Siga estos pasos para configurar la integración.
     4. Puede tener varios entornos en Customer Insights, como entornos de prueba y producción. En el campo **Id. de instancia del entorno**, especifique el entorno adecuado.
     5. En el campo **Id. de cliente alternativo**, especifique la propiedad de Customer Insights que esté asignada al número de cuenta del cliente. (En Commerce, el número de cuenta del cliente es el id. de cliente).
     6. Las tres propiedades restantes son las medidas que se mostrarán en la tarjeta de cliente del libro de clientes. Puede seleccionar hasta tres medidas para mostrar en la tarjeta de cliente. (Sin embargo, no es necesario que seleccione ninguna medida.) Tal como se mencionó anteriormente, el sistema muestra estos valores en primer lugar y, a continuación, muestra los valores del grupo de atributos del libro de clientes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

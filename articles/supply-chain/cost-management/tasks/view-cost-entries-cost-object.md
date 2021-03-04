@@ -39,3 +39,6 @@ Este procedimiento muestra cómo ver las entradas de coste para un objeto de cos
 7. Use un filtro rápido para filtrar el campo Número con un valor de "p000031".
     * Si las entradas de costes están en blanco, establezca la Fecha inicial en 31 de enero de 2012 y la Fecha final en 31 de diciembre de 2012.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

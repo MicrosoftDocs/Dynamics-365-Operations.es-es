@@ -63,3 +63,6 @@ La interfaz de diseño gráfico del PDV moderno (MPOS) o PDV en la Nube (Cloud P
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Configurar, instalar y activar Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Si ha habilitado la característica de vista previa de correcciones de días fes
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
 - [Configurar tipos de permisos y ausencias](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

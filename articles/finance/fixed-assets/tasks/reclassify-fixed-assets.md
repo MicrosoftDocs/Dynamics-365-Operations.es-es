@@ -46,3 +46,6 @@ Siga estos pasos para reclasificar un activo fijo:
 5. En el campo **Fecha de reclasificación**, escriba una fecha.
 6. En el campo **Series de asientos**, especifique o seleccione un valor.
 7. Haga clic en **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

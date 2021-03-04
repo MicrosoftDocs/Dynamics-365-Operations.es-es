@@ -54,3 +54,6 @@ Para poder configurar los trabajadores de mantenimiento responsables, debe confi
 La ilustración siguiente muestra un ejemplo de la página **Trabajadores de mantenimiento responsables**.
 
 ![Página de trabajadores de mantenimiento responsables](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

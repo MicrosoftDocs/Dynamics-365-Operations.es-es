@@ -42,3 +42,6 @@ La característica de envío Cargo utiliza las siguientes operaciones de PDV: En
 La capacidad para seleccionar direcciones de “envío a” se mantiene sin cambio.
 
 Los métodos de envío que se pueden usar para cumplir la línea de pedido se basan en la configuración de modos válidos de entrega de productos y direcciones. Dado que las reglas sobre modos válidos de entrega sólo se mantienen en la Central el cliente de PDV realiza una llamada en tiempo real para capturar los modos de entrega válidos para una línea de envío.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

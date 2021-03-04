@@ -59,3 +59,6 @@ Use este procedimiento para configurar el espacio de trabajo de control de coste
 27. En el campo Nodo de jerarquía de dimensión de objetos de coste, especifique o seleccione un valor.
     * Una vez haya seleccionado una jerarquía de dimensión de objetos de coste, expanda la jerarquía de dimensión de elementos de coste para ver los valores de coste deseados. Por ejemplo, puede expandir la jerarquía a los gastos generales de fabricación para ver el valor.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

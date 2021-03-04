@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Un valor booleano que indica si el panel de filtros se debe mostrar (**true**) u ocultar (**false**).     |
 | showNavPane      | Un valor booleano que indica si el panel de navegación se debe mostrar (**true**) u ocultar (**false**). |
 | defaultFilters   | Los filtros predeterminados del informe de Power BI.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

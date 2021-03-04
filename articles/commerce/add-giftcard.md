@@ -94,3 +94,6 @@ Para obtener instrucciones sobre cómo agregar un módulo de tarjeta de regalo a
 [Compatibilidad para tarjetas de regalo externas](./dev-itpro/gift-card.md)
 
 [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

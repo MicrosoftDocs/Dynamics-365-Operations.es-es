@@ -54,3 +54,6 @@ Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociar
     * Tenga en cuenta que los Períodos de depreciación se calculan después de definir el tiempo de vida.  
     * Puede establecer la convención de depreciación según sea necesario para fines de impuestos.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

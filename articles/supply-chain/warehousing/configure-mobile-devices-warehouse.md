@@ -439,3 +439,6 @@ La siguiente tabla describe los distintos tipos de trabajo con los que puede usa
 [Estados de inventario](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

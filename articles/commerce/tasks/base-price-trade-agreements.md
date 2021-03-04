@@ -70,3 +70,6 @@ Este procedimiento le muestra la creación de acuerdos comerciales de precios de
 38. En el panel **Acciones**, haga clic en Vender.
 39. Haga clic en **Precio de ventas**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

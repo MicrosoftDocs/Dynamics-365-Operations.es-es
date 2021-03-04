@@ -58,3 +58,6 @@ Existen varias maneras de crear elementos de coste en la contabilidad de costes.
 1. Haga clic en miembros de dimensión.
     * Ver las cuentas contables importadas como elementos de coste en su negocio a los que se pueden derivar costes.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

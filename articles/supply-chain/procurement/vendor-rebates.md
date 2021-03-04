@@ -167,3 +167,6 @@ El proceso para administrar devoluciones de proveedor implica realizar varias ta
 - Crear reclamaciones de devolución precisas
 - Acumular el cobro esperado y las ganancias provisionales en el libro de contabilidad general
 - Actualizar el saldo del proveedor y el extracto de ingresos con las concesiones que estén pendientes
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

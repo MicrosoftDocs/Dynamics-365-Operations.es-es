@@ -117,3 +117,6 @@ Las dos siguientes ilustraciones siguientes muestran un trabajo de programación
 - Puede configurar un trabajo por lotes en la ficha desplegable **Ejecutar en segundo plano** para programar rondas a intervalos periódicos.  
 - Si una ronda se incluye en varios grupos de órdenes de trabajo (consulte [Grupos de órdenes de trabajo](../work-orders/work-order-pools.md)), se muestra un registro para cada grupo en **Grupos del programa de mantenimiento abiertos**. Esto se hace para optimizar las opciones de filtrado para grupos de órdenes de trabajo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

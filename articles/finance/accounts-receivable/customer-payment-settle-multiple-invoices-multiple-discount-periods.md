@@ -101,3 +101,6 @@ Arnie ve la información en la página **Transacciones de clientes**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

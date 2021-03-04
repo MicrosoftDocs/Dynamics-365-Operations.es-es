@@ -86,3 +86,6 @@ El comportamiento del coste es la clasificación de los costes como fijos o vari
 15. En el campo Unidad de control de coste, especifique o seleccione un valor.
 16. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Para el trabajador tenga permitido mover el inventario reservado, seleccione la 
 Esta función también permite el transporte de paquetes entre versiones a Microsoft Dynamics AX 2012 R3 y estará disponible como parte de CU12.
 También puede descargase de forma individual con el KB número 3192548. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

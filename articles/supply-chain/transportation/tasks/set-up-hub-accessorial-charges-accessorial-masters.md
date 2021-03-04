@@ -54,3 +54,6 @@ Este procedimiento muestra cómo crear cargos adicionales maestros para un centr
 9. Haga clic en Guardar.
 10. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

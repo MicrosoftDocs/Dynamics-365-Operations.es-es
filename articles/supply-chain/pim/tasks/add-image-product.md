@@ -37,3 +37,6 @@ Este procedimiento muestra cómo agregar una imagen a un producto. La empresa de
 5. Haga clic en Nuevo.
     * Haga clic en Examinar. Busque la imagen que desea usar, selecciónela y luego cierre el cuadro de diálogo.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

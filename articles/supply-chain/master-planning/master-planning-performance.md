@@ -162,3 +162,6 @@ Antes de que comience el paso de cobertura, hay un paso de precobertura durante 
 - **Una rutina intensa al mismo tiempo**: no ejecute la planificación maestra junto con ninguna otra rutina intensa.
 - **Revisar el registro de sesiones.**
 - **Filtrado de artículos**: utilice el estado del ciclo vida para excluir artículos de la ejecución de la planificación maestra. (No utilice los códigos de artículo.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

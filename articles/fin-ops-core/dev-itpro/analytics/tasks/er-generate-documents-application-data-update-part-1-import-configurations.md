@@ -75,3 +75,6 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
     * Revise la estructura del formato que se usa para generar el informe de Intrastat. Tenga en cuenta que está diseñado para generar un archivo XML rellenando datos desde el modelo de datos, que se basa en el elemento raíz “Para el documento de salida”. Compruebe que el nombre para el archivo generado se haya definido en el formulario del cuadro de diálogo del usuario (el origen de datos “fn” se utiliza para eso).   
 30. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

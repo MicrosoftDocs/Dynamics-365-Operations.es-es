@@ -72,3 +72,6 @@ Este procedimiento le guía por la creación de variantes de productos para un p
     * Puede generar descripciones para todas sus variantes en función de la combinación de los valores de dimensiones de productos. Las descripciones son opcionales.  
 5. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

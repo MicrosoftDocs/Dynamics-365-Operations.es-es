@@ -46,3 +46,6 @@ Varias opciones de configuración afectan al comportamiento del arrendamiento de
 
     > [!NOTE]
     > Le recomendamos que mantenga esta opción configurada en **No**. La configuración de esta opción se utiliza como validación y control para evitar que una versión de libro cerrado se deprecie accidentalmente. Manteniendo la opción establecida en **No**, ayuda a mantener precisos el valor neto en los libros y los cálculos de depreciación futura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

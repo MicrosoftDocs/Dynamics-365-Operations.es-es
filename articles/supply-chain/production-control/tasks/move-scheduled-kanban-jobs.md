@@ -62,3 +62,6 @@ Este procedimiento se centra en mover trabajos kanban de proceso planificados a 
 2. Haga clic en **Hacia adelante.** Observe cómo el trabajo baja una línea en la lista. 
 
 3. Haga clic en **Regresivo**. Observe cómo el trabajo sube una línea en la lista.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

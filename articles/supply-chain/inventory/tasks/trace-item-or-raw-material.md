@@ -60,3 +60,6 @@ El nodo superior del árbol representa la cantidad disponible del artículo y de
 9. Haga clic en **Pedidos de ventas enviados**.
 10. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

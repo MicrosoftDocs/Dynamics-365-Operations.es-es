@@ -46,3 +46,6 @@ Esta tarea usa la empresa de demostración USMF.
 12. Cierre la página.
 13. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

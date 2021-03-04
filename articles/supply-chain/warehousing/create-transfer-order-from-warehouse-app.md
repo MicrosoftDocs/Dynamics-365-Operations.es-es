@@ -334,3 +334,6 @@ Las órdenes de transporte se crean sin utilizar las capacidades de **Control de
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>¿Puedo usar una placa que tenga un inventario físico negativo a mano?
 
 La función solo admite cantidades físicas positivas disponibles. Asegúrese de tener cantidades físicas positivas disponibles en el nivel de estado de inventario y almacén antes de asignar placas de matrícula a una orden de transferencia.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

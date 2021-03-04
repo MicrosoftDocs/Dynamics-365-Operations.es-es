@@ -40,3 +40,6 @@ Para validar una hipótesis, el éxito o el fracaso de un experimento debe estar
 
 ## <a name="next-step"></a>Paso siguiente
 [Configurar un experimento](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

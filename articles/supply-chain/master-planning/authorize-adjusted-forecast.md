@@ -51,3 +51,6 @@ Es muy importante que entienda cómo funciona la casilla **Guardar los ajustes m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

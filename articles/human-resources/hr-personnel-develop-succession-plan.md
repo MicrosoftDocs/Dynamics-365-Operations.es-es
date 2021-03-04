@@ -60,3 +60,6 @@ A medida que crece la organización y se considera la planificación de recursos
 28. Haga clic en Informe.
     * El informe enumerará las mejores coincidencias en la parte superior del informe.  Puede ver que hay un hueco en los elementos enumerados.  Esta es la diferencia entre el nivel que se muestra en la distribución de perfiles y el nivel de la aptitud que está asignado a la persona.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

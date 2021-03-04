@@ -45,3 +45,6 @@ Una vez que la persona encargada de contratación crea un proyecto de contrataci
 8. En la lista, desmarque la fila seleccionada.
     * Seleccione el puesto siguiente del proyecto y siga indicando la información del trabajador para cada persona que está contratando.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

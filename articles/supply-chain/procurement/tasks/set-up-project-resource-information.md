@@ -52,3 +52,6 @@ Este procedimiento muestra cómo configurar un recurso de proyecto. Esta tarea u
 20. Haga clic en Guardar.
 21. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

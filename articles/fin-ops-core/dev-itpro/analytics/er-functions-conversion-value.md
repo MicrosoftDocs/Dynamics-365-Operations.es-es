@@ -63,3 +63,6 @@ Las comas y los caracteres de punto (.) se consideran separadores decimales y lo
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de conversión de tipos](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

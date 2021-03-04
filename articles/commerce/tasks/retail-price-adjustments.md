@@ -53,3 +53,6 @@ Este procedimiento le guiará por la creación de un ajuste de precios de Commer
 14. Cierre la página.
 15. Actualice la página.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

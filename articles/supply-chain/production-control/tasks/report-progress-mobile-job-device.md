@@ -65,3 +65,6 @@ Para poder ejecutar este procedimiento, debe tener el rol del administrador del 
 29. Haga clic en Aceptar
 30. Seleccione un motivo por el que ha estado realizando la hora de salida pronto.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

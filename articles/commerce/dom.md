@@ -256,3 +256,6 @@ Veamos algunas cosas que hay que tener en cuenta al usar la característica DOM:
 - Actualmente, DOM solo tiene en cuenta los pedidos creados en los canales de Commerce. Los pedidos de ventas se identifican como pedidos de ventas cuando la opción **Venta de Commerce** está establecida en **Sí**.
 - Microsoft no ha probado DOM con funciones avanzadas de gestión de almacenes. Los clientes y los socios deben determinar si DOM es compatible con las capacidades y los procesos avanzados de gestión de almacenes que necesitan.
 - DOM solo está disponible en la versión de Commerce para la nube. No se admite en implementaciones locales.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

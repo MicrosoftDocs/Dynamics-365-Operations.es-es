@@ -94,3 +94,6 @@ Debe especificar la categoría de ingeniería a la que pertenece el producto. La
 Puede utilizar la búsqueda de atributos de ingeniería para encontrar productos buscando sus valores de atributos de ingeniería. Por lo tanto, puede encontrar fácilmente productos de ingeniería, en función de sus características. Puede buscar en los productos que pertenecen a una categoría de productos de ingeniería, o puede buscar en todos los productos de ingeniería.
 
 La búsqueda está disponible en las páginas de datos maestros de productos y en los artículos transaccionales del sistema, como los pedidos de cliente. Para un artículo transaccional, puede utilizar la página **Búsqueda de atributos de ingeniería** para buscar un producto. A continuación, puede utilizar el botón **Agregar como nueva línea** para agregar el producto a las líneas de orden de venta. Los productos en los resultados de la búsqueda también se pueden agregar directamente al pedido.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

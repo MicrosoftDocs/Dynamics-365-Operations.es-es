@@ -837,3 +837,6 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 [Simulador periférico de Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

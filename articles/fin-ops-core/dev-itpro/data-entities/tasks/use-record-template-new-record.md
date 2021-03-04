@@ -35,3 +35,6 @@ Este procedimiento usa la empresa USMF.
 3. En la lista, busque y seleccione el registro deseado.
 4. Haga clic en **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

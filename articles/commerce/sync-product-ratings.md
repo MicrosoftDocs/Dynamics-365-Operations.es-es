@@ -135,3 +135,6 @@ En la siguiente ilustración se muestra un ejemplo de clasificaciones de product
 [Administrar clasificaciones y revisiones](manage-reviews.md)
 
 [Configurar clasificaciones y revisiones](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Este procedimiento muestra cómo crear de manera eficaz presupuestos que ofrecen
 11. Vaya a Ventas y marketing > Presupuestos de ventas > Todos los presupuestos.
     * Compruebe que los presupuestos se han creado para todos los clientes especificados en la rutina de actualización masiva, basándose en la plantilla seleccionada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

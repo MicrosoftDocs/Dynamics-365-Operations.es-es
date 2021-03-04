@@ -70,3 +70,6 @@ Puede ejecutar este procedimiento con los datos de la empresa de demostración U
     - La acción **Borrar y Enviar** solo es aplicable cuando utilice la funcionalidad del Centro de llamadas.  
 8. Haga clic en **Liberar retenciones**. La retención se ha liberado del pedido y se ha quitado de la lista de retenciones activas. Para ver todas las retenciones o su subconjunto en función de un estado específico, cambie el valor del campo Mostrar.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

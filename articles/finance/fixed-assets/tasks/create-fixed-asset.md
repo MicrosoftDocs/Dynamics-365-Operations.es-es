@@ -55,3 +55,6 @@ Si no definió el número de activo fijo en la plantilla del complemento de Exce
 
 > [!WARNING]
 > El registro de activos fijos no se eliminará si las transacciones se registraron en el libro asociado o si el activo fijo recién creado se introduce en una línea de diario pero no se registra. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

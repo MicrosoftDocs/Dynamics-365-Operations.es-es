@@ -104,3 +104,6 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

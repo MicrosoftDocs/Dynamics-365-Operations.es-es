@@ -276,3 +276,6 @@ En este escenario, el picking en clúster se ha completado y se redirige al usua
     Recibe un mensaje "Clúster completado".
 
 Ahora puede usar el elemento de menú **Picking de ventas** para elegir la cantidad restante. A continuación, puede utilizar el elemento de menú **Carga de ventas** para mover los elementos desde la ubicación de almacenamiento provisional al muelle de carga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

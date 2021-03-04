@@ -99,3 +99,6 @@ Si desea colaborar con Microsoft en herramientas y procesos para personalizar la
 [Recursos del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)  
 [Crear documentación o formación con el Grabador de tareas](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Repositorio GitHub de ayuda personalizada](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Antes de poder usar la característica *Zona de ubicación adicional*, esta debe
 7. Seleccione **Crear**.
 8. Recibe mensajes que indican que se han agregado nuevas ubicaciones. Seleccione el botón **Mostrar mensajes** para ver los mensajes.
 9. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Ubicaciones**. Las nuevas ubicaciones aparecen en la lista y todos los campos de zona están disponibles (es decir, el campo de zona existente y los nuevos campos de zona adicionales).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

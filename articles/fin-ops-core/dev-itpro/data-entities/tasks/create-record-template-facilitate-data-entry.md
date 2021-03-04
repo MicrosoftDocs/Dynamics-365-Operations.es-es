@@ -43,3 +43,6 @@ Este tema demuestra la creación de plantillas de registro para no tener que esp
 13. Seleccione **Aceptar**.
 14. Seleccione **Cerrar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

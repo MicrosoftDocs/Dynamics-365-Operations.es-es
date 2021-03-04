@@ -42,3 +42,6 @@ Este procedimiento muestra cómo crear un nuevo producto maestro con tecnología
     * Seleccione la tecnología de configuración basada en dimensiones.  
 9. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

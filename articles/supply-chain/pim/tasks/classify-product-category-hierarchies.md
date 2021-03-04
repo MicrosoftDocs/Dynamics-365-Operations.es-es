@@ -43,3 +43,6 @@ Este tema describe cómo clasificar un producto mediante jerarquías de categor�
 11. En el campo **Categoría**, especifique o seleccione un valor.
 12. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Los grupos de acuerdos de servicio son útiles para ordenar y filtrar acuerdos d
 ## <a name="related-topics"></a>Temas relacionados
 
 [Visión general del acuerdo de servicio](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ La ejecución de este procedimiento requiere que existe un modelo de configuraci
 15. En el campo Requisito, especifique o seleccione un valor.
 16. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

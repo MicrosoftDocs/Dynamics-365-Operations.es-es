@@ -134,3 +134,6 @@ Para restringir el acceso a la aplicación de Recursos Humanos en Microsoft Team
 [Centro de ayuda de Microsoft Teams](https://support.office.com/teams)</br>
 [Administrar solicitudes de bajas en Teams](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

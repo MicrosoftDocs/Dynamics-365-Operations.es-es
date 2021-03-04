@@ -108,3 +108,6 @@ El tiempo de vida del ajuste de adquisición es el mismo que el del activo fijo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

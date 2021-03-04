@@ -86,3 +86,6 @@ Esta grabación usa la empresa de demostración USMF. El rol de administrador de
 24. Cierre la página.
 25. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

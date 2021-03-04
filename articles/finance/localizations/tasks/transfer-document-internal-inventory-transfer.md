@@ -74,3 +74,6 @@ Este procedimiento muestra cómo crear documentos de transferencia para movimien
 10. Haga clic en Albarán.
 11. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

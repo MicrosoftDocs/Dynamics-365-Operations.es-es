@@ -95,3 +95,6 @@ Para obtener información sobre la configuración de módulos de valoraciones y 
 [Configure los módulos de valoraciones y reseñas en las páginas de detalles del producto](ratings-reviews-modules.md)
 
 [Sincronizar clasificaciones de productos en Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

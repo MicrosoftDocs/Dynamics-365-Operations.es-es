@@ -67,3 +67,6 @@ La siguiente imagen muestra un perfil de funcionalidad en línea de ejemplo.
 [Configurar un canal comercial](channel-setup-retail.md)
 
 [Configurar un canal de centro de llamadas](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

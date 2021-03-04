@@ -46,3 +46,6 @@ Un cliente plantilla es un cliente que no tiene una relación a largo plazo con 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

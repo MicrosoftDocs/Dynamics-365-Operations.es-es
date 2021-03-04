@@ -119,3 +119,6 @@ En este ejemplo, usará configuraciones de ER creadas para una empresa de ejempl
 23. Haga clic en Aceptar.
     * Revise el resultado creado. El resultado se ha generado como documento de Word con las imágenes incrustadas que presentan el logotipo de la empresa, la firma de una persona autorizada y el texto seleccionado de la marca de agua.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

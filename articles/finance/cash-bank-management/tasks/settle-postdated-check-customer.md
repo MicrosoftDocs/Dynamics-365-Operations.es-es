@@ -56,3 +56,6 @@ Este procedimiento usa la empresa de demostración USMF.
 10. Haga clic en Asiento.
 11. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ El método de depreciación degresiva del 200% divide el 200 por ciento entre lo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ Además, los minoristas pueden definir el límite de puntos de recompensa de fid
 
     > [!NOTE]
     > A diferencia de otros descuentos periódicos como los descuentos de cantidad, sencillos, variados y coincidentes, y de umbral, el descuento de envío no crea líneas de descuento, sino que edita directamente el gasto de envío y adjunta el nombre del descuento a la descripción del cargo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

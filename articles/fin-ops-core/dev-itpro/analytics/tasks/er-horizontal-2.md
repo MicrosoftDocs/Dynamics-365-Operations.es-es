@@ -51,3 +51,6 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 8. Haga clic en Aceptar
     * Revise la salida generada. Tenga en cuenta que el archivo de Excel recién creado contiene el mismo número de columnas que han sido seleccionadas para las dimensiones financieras. El encabezado del informe en las columnas representa los nombres de las dimensiones financieras. Las líneas de transacciones en las columnas representan las dimensiones financieras. Ejecute este informe y seleccione diferentes dimensiones para ver que el informe no depende del número de dimensiones seleccionado o el número de dimensiones configurado para esta instancia.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

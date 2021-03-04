@@ -113,3 +113,6 @@ Se ejecutará la asignación de modelo creado para objetivos de prueba, para ver
     * Seleccione Examinar y seleccione el archivo Response4.xml.
 16. Seleccione Aceptar.
     * Revise la salida generada. El tipo de respuesta ha sido reconocido correctamente como igual para el archivo Response1.xml.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

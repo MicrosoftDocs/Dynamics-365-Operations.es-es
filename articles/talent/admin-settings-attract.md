@@ -69,3 +69,6 @@ También puede configurar las opciones relacionadas con la experiencia del candi
 También puede establecer y aplicar una fecha de vencimiento para las propuestas. Si establece la opción **Requerir una fecha de vencimiento para todas las ofertas** en **Sí**, las propuestas expiran tras el número de horas o de días que especifique.
 
 Para obtener más información acerca de la administración de propuestas, consulte [Configuración de la gestión de ofertas](./offer-setup.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

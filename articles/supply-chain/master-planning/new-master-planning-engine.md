@@ -116,3 +116,6 @@ Estoy usando la versión 10.0.16 o posterior y recibo el siguiente mensaje de er
 > Complete el siguiente cuestionario para comenzar y, si es relevante, solicite una excepción de la migración a Optimización de la planificación.
 
 **Responder:** No, la planificación maestra no está bloqueada. Su ejecución de planificación maestra se completó con éxito y puede utilizar el resultado de la forma habitual. Sin embargo, para evitar recibir este mensaje de error durante las futuras ejecuciones de planificación maestra, debe migrar a Optimización de la planificación inmediatamente o solicitar una excepción mediante el enlace del mensaje de error.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

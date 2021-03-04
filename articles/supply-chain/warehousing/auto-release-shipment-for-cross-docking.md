@@ -179,3 +179,6 @@ Tenga en cuenta que se producen los eventos siguientes:
 - La liberación a un almacén se activa para el pedido de ventas vinculado.
 - En función de la liberación, se crea el envío y el trabajo de tránsito directo. Este trabajo indica al operador del almacén que seleccione las cantidades necesarias para cumplir la línea de pedido de ventas y colocarlas en la ubicación de salida que especificó en la directiva de ubicación de tránsito directo.
 - Si la cantidad de pedido de producción es mayor que la cantidad requerida por el pedido de ventas, se crea el trabajo de ubicación regular. Este trabajo indica al operador del almacén que seleccione la cantidad de productos terminados que quedan después del tránsito directo y lo mueve al almacenamiento regular, según la directiva de ubicación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

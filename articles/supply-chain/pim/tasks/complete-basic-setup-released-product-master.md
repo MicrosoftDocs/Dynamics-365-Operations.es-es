@@ -53,3 +53,6 @@ Este es el tercer procedimiento de ocho que explica cómo crear combinaciones pa
 20. Cierre la página.
 21. Cierre el formulario **Detalles de producto emitido**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

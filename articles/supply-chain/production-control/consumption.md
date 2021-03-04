@@ -82,3 +82,6 @@ La cantidad de la lista de materiales es 1 y la cantidad de producción es 110. 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

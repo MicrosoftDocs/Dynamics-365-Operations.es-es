@@ -64,3 +64,6 @@ Este procedimiento muestra cómo usar un acuerdo de compra cuando se crea un ped
 3. Cierre la página.
 4. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

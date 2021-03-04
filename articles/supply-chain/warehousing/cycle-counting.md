@@ -140,3 +140,6 @@ Puede ajustar diferencias en el valor de recuento y aceptar a continuación el v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

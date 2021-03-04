@@ -40,3 +40,6 @@ La configuración de **Visualización de lotes más antiguos del almacén** est�
 
 - En **Gestión de almacenes** > **Configuración** > **Dispositivo móvil** > **Elementos de menú del dispositivo móvil**, establezca **Usar trabajo existente** en **Sí** para el elemento de menú, y seleccione **Advertir** en el campo **Seleccionar lote más antiguo**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

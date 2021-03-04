@@ -80,3 +80,6 @@ La parte superior de la siguiente ilustración muestra el aspecto predeterminado
 De forma predeterminada, la interfaz de ejecución de la planta de producción cierra sesión automáticamente si nadie la usa durante 12 horas. Un usuario de Supply Chain Management deberá volver a iniciar sesión. Sin embargo, puede extender el límite de tiempo de espera hasta 90 días.
 
 Para extender el límite de tiempo de espera, inicie sesión en Supply Chain Management y vaya a **Administración del sistema \> Usuarios \> Extensiones de sesión**. Especifique la cuenta de usuario de Supply Chain Management que se utiliza para iniciar sesión en el dispositivo y el número de horas que la sesión debe permanecer activa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Productos de Field Service (Supply Chain Management a Field Service): Productos - Productos
 
 [![Asignación de la plantilla en la integración de datos](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

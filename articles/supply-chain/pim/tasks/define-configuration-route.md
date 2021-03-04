@@ -46,3 +46,6 @@ Este procedimiento se centra en la definición de una ruta de configuración que
 15. En la lista, haga clic en el vínculo de la fila seleccionada.
 16. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

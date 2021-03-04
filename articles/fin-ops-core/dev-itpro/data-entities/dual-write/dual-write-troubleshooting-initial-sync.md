@@ -211,3 +211,6 @@ Si tiene filas en la entidad cliente con valores en los campos **ContactPersonID
     La sincronización inicial de las filas ahora se ha completado.
 
 8. En la aplicación Finance and Operations, vuelva a activar Change Tracking en la entidad **Clientes V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

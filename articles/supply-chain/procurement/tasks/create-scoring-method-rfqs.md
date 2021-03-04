@@ -47,3 +47,6 @@ Este procedimiento muestra cómo crear un método de puntuación. Un método de 
 14. En el campo Inicio de intervalo, escriba un número.
 15. En el campo Fin de intervalo, escriba un número.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Se mantiene un registro cada vez que se ejecuta una revalorización de divisa ex
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

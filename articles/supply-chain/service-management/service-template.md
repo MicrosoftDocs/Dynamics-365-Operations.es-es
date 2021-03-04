@@ -58,3 +58,6 @@ Es más fácil determinar las líneas de plantilla de servicio que desea copiar 
 ## <a name="related-topics"></a>Temas relacionados
 
 [Copiar líneas de plantilla de servicio](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

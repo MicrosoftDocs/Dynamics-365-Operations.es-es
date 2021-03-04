@@ -53,3 +53,6 @@ Cuando crea una entrega directa, los artículos que vende nunca llegan físicame
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Puede procesar pagos NSF haciendo clic en Pago NSF en la página Cobros. Al hace
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

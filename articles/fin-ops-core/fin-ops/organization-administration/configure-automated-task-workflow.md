@@ -110,3 +110,6 @@ Puede enviar notificaciones cuando se ha ejecutado o cancelado una tarea automat
     </table>
 
 8. Repita los pasos 3 a 7 por cada uno de los eventos que haya seleccionado en el paso 2.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

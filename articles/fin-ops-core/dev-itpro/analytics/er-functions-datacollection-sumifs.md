@@ -89,3 +89,6 @@ Para obtener más información sobre cómo usar esta función, consulte la guía
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de recopilación de datos](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

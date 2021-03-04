@@ -68,3 +68,6 @@ Para ver los efectos del proceso de revalorización del arrendamiento en los arr
 Puede ver el programa de pago recién generado que comienza en la fecha de revalorización y mostrar el importe total de pago actualizado. También se han creado una nueva programación de amortización del pasivo por arrendamiento y una programación de depreciación de activos para reflejar la programación de pagos ajustada.
 
 El movimiento de diario ha registrado automáticamente el movimiento de diario de ajuste en la cuenta para el cambio en los pagos por arrendamiento relacionados con la revalorización del índice.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

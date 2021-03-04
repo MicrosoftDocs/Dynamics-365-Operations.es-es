@@ -36,3 +36,6 @@ Los comentarios de producción otorgan a los trabajadores comentarios sobre los 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

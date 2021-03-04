@@ -93,3 +93,6 @@ El contenido incluye un conjunto de páginas de informe. Cada página consta de 
 | Estadísticas del empleado | Informes de gasto por tipo de coste            |
 |                     | Gastos personales                       |
 |                     | Informes de gasto por grupo de estadísticas     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

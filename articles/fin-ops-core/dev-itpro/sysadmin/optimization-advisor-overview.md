@@ -94,3 +94,6 @@ Para desactivar la evaluación de reglas específicas, seleccione la oportunidad
 [Crear reglas para el asesor de optimización](./create-rules-optimization-advisor.md)
 
 [Asesor de optimización en Dynamics 365 for Finance and Operations (vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

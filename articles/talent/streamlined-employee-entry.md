@@ -91,3 +91,6 @@ La pestaña **Puestos** en la página principal del trabajador proporciona una v
 
 [![Puestos](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

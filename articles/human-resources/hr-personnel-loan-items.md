@@ -55,3 +55,6 @@ Si un elemento se daña o se extravía, introduzca un registro de devolución fi
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

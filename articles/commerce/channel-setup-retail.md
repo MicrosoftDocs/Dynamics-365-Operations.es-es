@@ -182,3 +182,6 @@ para configurar cajas fuertes, siga estos pasos.
 
 [Configurar un canal de centro de llamadas](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

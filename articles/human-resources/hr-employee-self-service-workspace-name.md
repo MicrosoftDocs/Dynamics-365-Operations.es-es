@@ -45,3 +45,6 @@ Si tiene voluntarios u otros no empleados, es posible que desee cambiar el nombr
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Resumen de autoservicio para empleados y gerentes](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

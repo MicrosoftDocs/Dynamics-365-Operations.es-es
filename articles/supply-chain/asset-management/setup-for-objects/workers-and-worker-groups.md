@@ -64,3 +64,6 @@ También puede crear grupos de trabajadores de mantenimiento y asociarles trabaj
 6. Si un grupo de recursos está relacionado con el grupo de trabajadores de mantenimiento seleccionado, seleccione **Copia del grupo de recursos**. En el campo **Grupo** , seleccione el grupo de recursos del que copiar la configuración del calendario. A continuación en el campo **Grupo de trabajadores** seleccione el grupo de trabajadores al que copiar la configuración del calendario. Este paso es relevante si desea que los trabajadores de mantenimiento usen el calendario que está relacionado con un recurso (centro de trabajo) durante la programación de pedidos de trabajo.
 
     El campo del FastTab **Detalles** muestra el número de trabajadores de mantenimiento que se han configurado en el grupo de trabajadores de mantenimiento seleccionado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Abra este documento en Word y haga lo siguiente:
 16. Haga clic en **Aceptar**.
 17. Haga clic en **Aceptar**. Analice la salida generada. Tenga en cuenta que la salida creada se presenta en formato de Word y contiene los detalles de los pagos procesados.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

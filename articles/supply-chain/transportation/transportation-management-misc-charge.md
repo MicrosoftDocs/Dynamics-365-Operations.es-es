@@ -31,3 +31,6 @@ Como sucede con los cargos varios, los cargos generados por el transporte deben 
 Vaya a **Gestión de transporte > Configuración > Clasificación > Cargos varios** para definir los criterios de calificación que determinan cuándo un **Código de cargos** se aplica a un cargo.
 
 Debe tener al menos una configuración para cada ajuste correspondiente de **Módulo de cargas** (*Cliente* y *Vendedor*) donde **Tipo de cargos varios** se establece en *Ninguno*. Si falta, los cargos varios *no* se agregan al pedido.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Siga estos pasos para crear una relación de objeto de servicio para un pedido d
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

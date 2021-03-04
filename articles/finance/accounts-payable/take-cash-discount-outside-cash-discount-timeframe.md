@@ -91,3 +91,6 @@ La información de descuento aparece en la parte inferior de la página **Liquid
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Este procedimiento muestra los pasos para crear Reglas de reabastecimiento. Las 
 14. En el campo Peso, escriba un número.
 15. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -259,3 +259,6 @@ El usuario que configura los parámetros del proceso de solicitud de presupuesto
 - %createddate%
 
 Si se requiere una modificación y se configura después de que se envíe la solicitud de presupuesto, la solicitud de presupuesto se reenviará a todos los proveedores invitados. El documento publicado también se actualizará en la página **Solicitudes de presupuesto publicadas abiertas**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

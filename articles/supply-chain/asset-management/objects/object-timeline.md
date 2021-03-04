@@ -49,3 +49,6 @@ La escala de tiempo se actualiza cada vez que se abre la página. Contiene la si
 - Órdenes de trabajo, incluidos el artículo y las notas publicados
 - Defectos
 - Evaluaciones de estado
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

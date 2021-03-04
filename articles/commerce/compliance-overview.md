@@ -46,3 +46,6 @@ Para obtener más información sobre los principios básicos que utiliza Microso
 [Agregar una página de directivas de privacidad](add-privacy-page.md)
 
 [Reemplazar id. de usuario asociado con cambios de contenido con seguimiento](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

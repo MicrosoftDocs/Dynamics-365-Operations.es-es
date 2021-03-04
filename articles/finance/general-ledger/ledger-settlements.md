@@ -75,3 +75,6 @@ Puede invertir una liquidación que se ha realizado por error.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Actualice la lista de cuentas que se incluyen en la lista de transacciones
 
 Seleccione **Cuentas de liquidación de contabilidad** para abrir un cuadro de diálogo donde puede editar las cuentas que se incluyen en la lista de transacciones. Seleccione **Nuevo** para agregar nuevas cuentas a la lista. Esta lista se usa para filtrar la lista de transacciones que aparece en la página **Liquidaciones de contabilidad**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

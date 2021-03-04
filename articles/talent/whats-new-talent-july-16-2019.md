@@ -142,3 +142,6 @@ Las organizaciones pueden proporcionar muchos tipos diferentes de bajas a los em
 ### <a name="view-performance-information-for-direct-and-extended-reports-in-manager-self-service"></a>Ver la información de rendimiento para los informes directos y ampliados en autoservicio para directores
 
 Una nueva opción permitirá a los directores ver el rendimiento tanto de los informes directos como de sus informes ampliados. Actualmente, los administradores de línea pueden asignar y actualizar objetivos de rendimiento y emitir nuevos revisiones. Además, los administradores directos y sus empleados pueden mantener y actualizar diarios de rendimiento a fin de garantizar que el proceso de evaluación del rendimiento se desarrolla correctamente. Cuando se implementa este cambio, los administradores podrán ver y mantener la información relacionada con el rendimiento en los informes ampliados además de sus informes directos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

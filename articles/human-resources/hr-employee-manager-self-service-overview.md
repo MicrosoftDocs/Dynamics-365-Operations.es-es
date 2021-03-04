@@ -214,3 +214,5 @@ Los gerentes pueden ver todos los objetivos de su equipo a través del mosaico *
 La pestaña **Comentarios** resume los comentarios que el empleado tiene en cada estado: **En progreso**, **Listo para revisar** y **Revisión final**. Para acceder a la revisión de un empleado, seleccione el botón **Detalles** y luego seleccione opiniones para colaborar. Según dónde se encuentra una revisión dentro del proceso de flujo de trabajo, puede ver si la revisión está disponible para actualizar. 
 
 Puede ver todos los comentarios para su equipo a través del mosaico **Comentarios de rendimiento del equipo** en la sección **Resumen** de **Mi equipo**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

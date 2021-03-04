@@ -51,3 +51,6 @@ Este procedimiento muestra cómo puede agregar una nueva expresión de restricci
 4. Haga clic en Cerrar.
 5. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

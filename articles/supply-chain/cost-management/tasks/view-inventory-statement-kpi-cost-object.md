@@ -39,3 +39,6 @@ La empresa de datos de prueba utilizada para crear este procedimiento es USMF. E
 7. En el campo Fecha inicial, escriba una fecha.
 8. Especifique una fecha en el campo Fecha final.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

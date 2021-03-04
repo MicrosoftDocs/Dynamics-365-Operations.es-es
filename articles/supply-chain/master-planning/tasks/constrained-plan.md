@@ -53,3 +53,6 @@ La empresa de datos de prueba utilizada para crear este procedimiento es USMF. E
 3. Seleccione **Aceptar**.
 4. Seleccione **Pedidos planificados**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

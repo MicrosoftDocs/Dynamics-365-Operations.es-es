@@ -98,3 +98,6 @@ Use la siguiente tabla para decidir dónde debe asignar cuentas predeterminadas 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Transferencia de inventario (Field Service a Supply Chain Management): Transferencia de inventario
 
 [![Asignación de la plantilla en la integración de datos](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

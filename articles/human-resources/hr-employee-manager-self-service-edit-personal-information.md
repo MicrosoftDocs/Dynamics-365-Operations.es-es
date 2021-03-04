@@ -72,3 +72,6 @@ Los parámetros establecidos en la libreta de direcciones global determinan los 
     - Para cargar una imagen, seleccione **Subir imagen nueva**.
     - Para eliminar una imagen, seleccione la imagen y luego seleccione **Eliminar**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

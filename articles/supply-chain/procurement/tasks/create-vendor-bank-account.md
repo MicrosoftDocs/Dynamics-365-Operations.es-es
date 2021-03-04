@@ -58,3 +58,6 @@ Este procedimiento le muestra cómo crear una cuenta bancaria para un proveedor.
 25. En el campo **Cuenta bancaria**, seleccione la cuenta que acaba de crear.
 26. Haga clic en **Guardar**. La dirección se puede heredar del grupo bancario, si se especifica uno, o se puede agregar aquí.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

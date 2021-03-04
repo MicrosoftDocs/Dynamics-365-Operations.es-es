@@ -41,3 +41,6 @@ Este procedimiento muestra cómo definir unidades de control de costes en la lib
 10. En el campo Dimensión, especifique o seleccione un valor.
 11. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

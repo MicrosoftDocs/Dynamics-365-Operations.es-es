@@ -117,3 +117,6 @@ En la tabla siguiente se muestran las visualizaciones que se encuentran disponib
 | Facturas que no se pudieron importar | <ul><li>Facturas que no se pudieron importar</li><li>Facturas que no se pudieron importar por empresa</li></ul> |
 | Razones del error de automatización | <ul><li>Facturas con error</li><li>Facturas con error por empresa</li><li>Facturas con error por grupo de proveedores</li></ul> |
 | Estado de flujo de trabajo                | <ul><li>Facturas en flujo de trabajo</li><li>Instancias de flujo de trabajo de factura de proveedor</li><li>Asignación por aprobador</li><li>Flujo de trabajo de factura de proveedor por empresa</li><li>Promedio días en el flujo de trabajo por responsable</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

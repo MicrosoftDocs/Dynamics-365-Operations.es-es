@@ -124,3 +124,6 @@ Para comprobar, ejecute la asignación de formato mediante el archivo 1099entrie
     * Revise la salida en formato XML que representa los datos que se han importado del archivo seleccionado y se han trasladado al modelo de datos. Tenga en cuenta que todas las líneas 7 del archivo CSV importado se procesaron. La línea 1 de los cargos de los campos contenedores se saltó, 4 se transacciones se analizaron correctamente y 2 transacciones se reconocieron como no válidas.
 3. Cierre la página.
 4. Cierre la página.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

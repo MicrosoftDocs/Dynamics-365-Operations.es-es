@@ -227,3 +227,6 @@ La barra de herramientas del diseñador de informes ofrece acceso rápido a los 
 [Informes financieros](financial-reporting-intro.md)
 
 [Generar informes financieros](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ El código de divisa es opcional. Cuando se define como una cadena vacía, se ut
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de texto](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

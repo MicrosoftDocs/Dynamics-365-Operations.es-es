@@ -62,3 +62,6 @@ Este tema explica cómo crear un pedido de reabastecimiento de entrega donde pue
 3. Seleccione **Visión general**. Los artículos que se han recibido como inventario de entrega propiedad del proveedor están disponibles. La cantidad restante en el pedido de reabastecimiento de entrega se muestra en el campo **Pedido en total**.  
 4. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas par
 [Grabador de tareas](task-recorder.md)
 
 [Crear Rich Help Topics con el Grabador de tareas (vínculo externo)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

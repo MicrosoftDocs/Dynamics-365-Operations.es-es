@@ -37,3 +37,6 @@ Para configurar un trabajo por lotes o procesar facturas de pago, depreciación 
 > Las transacciones posteriores, como los programas de amortización de pasivos, los pagos, la depreciación y los gastos, se contabilizarán solo después de que se registre el reconocimiento inicial de los arrendamientos correspondientes.
 >
 > Se crean las entradas del diario, pero no se contabilizarán hasta que seleccione el comando **Ejecutar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

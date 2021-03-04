@@ -83,3 +83,6 @@ Para las líneas de pedido con recogida en la tienda o recogida en un punto de e
 
 [Cálculo de exención de impuestos](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

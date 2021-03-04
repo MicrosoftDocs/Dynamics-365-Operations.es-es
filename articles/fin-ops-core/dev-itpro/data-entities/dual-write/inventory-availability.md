@@ -57,3 +57,6 @@ El cuadro de diálogo devuelve la información de NNC de Supply Chain Management
 - Cantidad de recepción
 - Cantidad de emisión
 - Cantidad disponible
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

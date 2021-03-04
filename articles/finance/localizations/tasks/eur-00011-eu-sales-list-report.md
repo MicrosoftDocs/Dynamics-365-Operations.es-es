@@ -101,3 +101,6 @@ Este procedimiento está pensado para contables.
 7. Haga clic en Aceptar
 8. En el campo Selección, seleccione "Cerrado".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

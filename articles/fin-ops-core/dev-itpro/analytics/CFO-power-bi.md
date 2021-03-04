@@ -43,3 +43,6 @@ La tabla siguiente muestra el contenido de Power BI desde donde se copian los in
 | [Ventas y rentabilidad](sales-profitability-performance-content-pack.md) | <ul><li>Ingresos por región</li><li>10 clientes principales por ingresos</li><li>10 productos principales por ingresos</li></ul> |
 | [Administración de crédito y cobros](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Actividad de cliente vencida</li><li>Clientes sobre límite de crédito</li><li>Saldos vencidos</li></ul> |
 | [Análisis de gastos en compras](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Compras por mes/día</li><li>10 principales proveedores por compras</li><li>10 principales productos por compras</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

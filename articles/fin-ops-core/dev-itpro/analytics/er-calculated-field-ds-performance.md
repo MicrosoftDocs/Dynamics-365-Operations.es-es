@@ -300,3 +300,6 @@ Para obtener más información sobre proveedores de configuración de ER, consul
 - [Visión general de los informes electrónicos](general-electronic-reporting.md)
 - [Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md)
 - [Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

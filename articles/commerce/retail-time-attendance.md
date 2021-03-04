@@ -139,3 +139,6 @@ Un usuario de Commerce sigue al flujo de trabajo para calcular, aprobar y transf
 - Registrar ausencias
 
 Para obtener más información sobre cómo procesar los registros de tiempo y asistencia, consulte [Procesar registros de tiempo y asistencia](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

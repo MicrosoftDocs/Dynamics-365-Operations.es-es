@@ -367,3 +367,6 @@ ER le permite adoptar automáticamente los cambios de la última versión del co
 
 - [Crear configuraciones de informes electrónicos (ER)](electronic-reporting-configuration.md)
 - [Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

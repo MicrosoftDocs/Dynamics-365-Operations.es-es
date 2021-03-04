@@ -97,3 +97,6 @@ El botón **Asignación de precios de ingresos** aún está disponible para que 
 La programación prevista de reconocimiento de ingresos se quita y se reemplaza con la programación final de reconocimiento de ingresos. Los detalles de la programación de ingresos se mantienen para cada línea de pedido de ventas y se utilizan para liberar los ingresos diferidos en los ingresos reales a medida que se cumplen las obligaciones contractuales.
 
 [![Programación final de reconocimiento de ingresos](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

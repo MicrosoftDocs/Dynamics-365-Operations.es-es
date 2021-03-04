@@ -95,3 +95,6 @@ Puede abrir el tablero de programación kanban mediante el elemento de menú de 
 
 [Programación de trabajo kanban para lean manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

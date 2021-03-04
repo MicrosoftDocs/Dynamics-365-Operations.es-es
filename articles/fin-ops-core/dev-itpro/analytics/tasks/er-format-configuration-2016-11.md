@@ -158,3 +158,6 @@ En este tema se explica cómo un usuario con rol de administrador del sistema o 
 42. Haga clic en **Guardar**.
 43. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

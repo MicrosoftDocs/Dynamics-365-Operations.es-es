@@ -82,3 +82,6 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

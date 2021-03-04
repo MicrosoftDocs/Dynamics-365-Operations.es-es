@@ -43,3 +43,6 @@ La configuración de ejecución programada, que está relacionada con las órden
 6. Seleccione **Guardar**.
 
 ![Ejecución programada](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -119,3 +119,6 @@ Para ayudar a garantizar que un encabezado aparece en cada página, siga estos p
 [Módulo selector de sitio](site-selector.md)
 
 [Módulo de selector de tienda](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

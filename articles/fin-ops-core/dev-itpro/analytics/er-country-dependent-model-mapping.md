@@ -496,3 +496,6 @@ Asegúrese de que la configuración de la asignación de modelos compartida no e
 - Al menos un versión de la configuración de la asignación de modelos de ER tiene su estado **Completado** o **Compartido**. En este caso, la versión que tiene el número de versión más alto se usará para la ejecución del formato de ER.
 - La opción **Borrador de ejecución** para la configuración de la asignación de modelos de ER está activada. En este caso, la versión que el estado **Borrador** se usará para la ejecución del formato de ER.
 > La opción **Ejecutar borrador** estará disponible en la página **Configuraciones** para cada configuración de asignación de modelos de ER cuando el parámetro de usuario de ER **Ejecutar valor** esté activado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

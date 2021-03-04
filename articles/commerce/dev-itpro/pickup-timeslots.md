@@ -123,3 +123,6 @@ La siguiente ilustración muestra un ejemplo de un pedido de comercio electróni
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Módulo de información de recogida](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

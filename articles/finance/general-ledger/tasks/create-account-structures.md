@@ -61,3 +61,6 @@ Esta guía de tareas describe los pasos de la creación de una estructura contab
 29. En el panel de **Acción**, haga clic en **Activar**.
 30. Haga clic en **Activar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

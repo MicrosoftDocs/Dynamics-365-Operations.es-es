@@ -98,3 +98,6 @@ El saldo de la factura es ahora de 0,00. Arnie ve la información en la página 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

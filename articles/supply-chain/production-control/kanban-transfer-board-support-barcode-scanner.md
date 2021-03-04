@@ -192,3 +192,6 @@ El estado del trabajo seleccionado y el estado de cualquier trabajo fijado para 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

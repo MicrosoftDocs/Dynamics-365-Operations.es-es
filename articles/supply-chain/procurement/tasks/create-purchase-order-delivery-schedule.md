@@ -74,3 +74,6 @@ Se debe confirmar el pedido de compra para que se pueda procesar la recepción d
 6. Contraiga la sección **Líneas**.
 7. Seleccione **Aceptar** para registrar la recepción.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

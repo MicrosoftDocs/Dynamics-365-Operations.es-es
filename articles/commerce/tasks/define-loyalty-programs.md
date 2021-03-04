@@ -79,3 +79,6 @@ Este procedimiento muestra cómo configurar un programa de fidelización con dos
 39. Cierre la página.
 40. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

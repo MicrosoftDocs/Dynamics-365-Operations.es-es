@@ -122,3 +122,6 @@ Puede procesar pagos NSF seleccionando **Pago NSF** en la página **Cobros**. Al
 [Retenciones de crédito para pedidos de ventas](./cm-sales-order-credit-holds.md)
 
 [Tareas periódicas de administración de crédito de cliente](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

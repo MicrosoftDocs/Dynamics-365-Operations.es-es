@@ -78,3 +78,6 @@ Para seleccionar un diseño diferente para una página existente, siga estos pas
 
 [Verificar accesibilidad de contenido de página](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

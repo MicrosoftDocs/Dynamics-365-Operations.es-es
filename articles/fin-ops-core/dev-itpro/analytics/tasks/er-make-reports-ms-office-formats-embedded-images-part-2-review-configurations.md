@@ -91,3 +91,6 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
     * Algunas etiquetas que se muestran en el formulario preimpreso del cheque se incluirán en el informe cuando se haya creado para hacer pruebas. Sin embargo, dichas etiquetas no se imprimirán durante la impresión real, porque el formulario preimpreso las incluye ya.  
 15. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

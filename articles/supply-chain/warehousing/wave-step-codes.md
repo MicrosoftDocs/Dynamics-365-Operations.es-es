@@ -93,3 +93,6 @@ El siguiente procedimiento ayuda a garantizar que la plantilla de reabastecimien
 6. En el campo **Código de paso de oleada**, selección el código de paso de oleada que seleccionó en la plantilla reabastecimiento.
 
 Debe realizar estos pasos para cada entidad jurídica.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -241,3 +241,6 @@ Tenga en cuenta las siguientes prácticas recomendadas al implementar una jerarq
 - Antes de modelar los escenarios de reestructuración principales, use las fechas de vigencia de la jerarquía para llevar a cabo un análisis de impacto y una prueba de validación.
 - Use el modo de borrador para cambiar una jerarquía antes de publicar una nueva versión en un entorno de producción.
 - Limite el número de personas con permisos para agregar o quitar organizaciones de una jerarquía en un entorno de producción. Un número más pequeño reduce la posibilidad de que se puedan producir costosos errores y de que se deban realizar correcciones.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

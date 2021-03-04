@@ -62,3 +62,6 @@ Para configurar la importancia, primero se crean los tipos de importancia que se
 - La importancia de una orden de trabajo se actualiza cada vez que se agrega o se elimina una línea de la orden de trabajo.
 - Si una orden de trabajo contiene varios trabajos, siempre se usará la importancia más alta, según el campo **Factor** de la página **Tipos de importancia**, en la orden de trabajo.
 - Normalmente, la importancia de activo puede cambiar durante un período. La importancia se puede ver afectada por la compra de nuevo equipo, restauraciones y así sucesivamente. Considere reevaluar las importancias de los activos a intervalos regulares (por ejemplo, una vez al año o cada dos años) para asegurarse de que las definiciones de importancia coinciden con la configuración de la producción actual.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

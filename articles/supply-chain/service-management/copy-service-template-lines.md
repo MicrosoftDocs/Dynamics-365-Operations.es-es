@@ -60,3 +60,6 @@ Las líneas de la plantilla de servicio se habrán copiado al nuevo pedido de se
 [Plantillas de servicio](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

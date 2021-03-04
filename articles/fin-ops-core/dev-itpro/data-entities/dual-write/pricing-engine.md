@@ -69,3 +69,6 @@ Cuando se completan los campos en Sales, se aplican las siguientes limitaciones:
 + La configuración de cargos y asignaciones de cargos en Supply Chain Management no se replica en Sales.
 + El precio no considera precios minoristas especiales que se especifican en el campo **Canal minorista** en la página de línea de pedido de ventas en Supply Chain Management.
 + Descuentos que se definen en la sección **Gestión de permisos comerciales** de Supply Chain Management no se tienen en cuenta.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

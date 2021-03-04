@@ -140,3 +140,6 @@ Puede aprobar el diario de inventario para la combinación de lotes de la págin
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>¿Por qué no puedo ver la información de peso capturado en el diario de inventario después de combinar un artículo de peso capturado?
 Puede combinar lotes de artículos con peso capturado de la misma forma que con el resto de artículos. Sin embargo, la información de peso capturado no aparece en el diario de inventario. Se recomienda comprobar la información de peso capturado antes de transferir la combinación de lotes al diario de inventario.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

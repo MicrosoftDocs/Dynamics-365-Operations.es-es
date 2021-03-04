@@ -38,3 +38,6 @@ Si establece **Habilitado** en **Sí**, se crea una vista previa de la salida. P
 
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Cuando **Limitar devoluciones sin recibo** se establece en **Sí**, el método d
 
 Si una transacción tiene una devolución con recibo como sin él, las condiciones de la restricción no se aplicarán porque la transacción será un flujo de trabajo de devolución con un recibo. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

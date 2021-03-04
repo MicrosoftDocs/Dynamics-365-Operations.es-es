@@ -49,3 +49,6 @@ Este tema proporciona información sobre cómo analizar y administrar los requis
     - Si **Papel** está seleccionado, seleccione **Agregar rol al usuario**. Esto abrirá la página **Asignar usuarios a roles**. Para obtener más información, consulte la página [Asignar usuarios a roles de seguridad](assign-users-security-roles.md).
     - Si está seleccionado **Derecho**, seleccione **Agregar derecho al rol**, seleccione los roles a los que se debe agregar el derecho y luego seleccione **Aceptar**.
     - Si está seleccionado **privilegio**, seleccione **Agregar privilegio a derechos**, seleccione los roles a los que se debe agregar el derecho y luego seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -529,3 +529,6 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

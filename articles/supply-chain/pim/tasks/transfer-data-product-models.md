@@ -37,3 +37,6 @@ La exportación de datos para un modelo de configuración de productos requiere 
 5. Haga clic en Exportar modelo de producto.
     * El comportamiento de descarga varía de explorador en explorador en función de la manera en que se configuran las opciones de seguridad.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

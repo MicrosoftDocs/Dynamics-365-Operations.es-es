@@ -56,3 +56,6 @@ Las preguntas condicionales le permiten especificar qué pregunta de seguimiento
 10. En el árbol, seleccione "Preguntas\Me pagan justamente por el trabajo que hago".
     * Observe cómo el árbol de preguntas se ha actualizado para mostrar la dependencia.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

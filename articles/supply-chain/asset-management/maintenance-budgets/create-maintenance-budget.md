@@ -59,3 +59,6 @@ También puede crear un nuevo presupuesto de mantenimiento copiando un presupues
 
 > [!NOTE]
 > El presupuesto de mantenimiento calcula solo los costes del presupuesto según las líneas de la programación de mantenimiento. Para calcular los costes reales para el mismo período, puede realizar dicho cálculo en la página **Control de costes de activos**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

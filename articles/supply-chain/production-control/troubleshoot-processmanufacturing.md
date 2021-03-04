@@ -41,3 +41,6 @@ En versiones anteriores a la versión 10.0.13, si no está utilizando el flujo d
 > Está a punto de ejecutar un cierre de inventario con fecha %1. No se ha registrado ningún cálculo de contabilización previa de los costes con fecha %1 coincidente con el final del período. Recuerde ejecutar un cálculo de contabilización previa de los costes con fecha %1 coincidente con el final del período. La valoración de los inventarios, el costo de los bienes vendidos y las variaciones podrían no ser correctas en el libro mayor auxiliar o en el libro mayor general hasta que se haya ejecutado.
 
 Este problema se ha solucionado en la versión 10.0.13 y posteriores. Para obtener más información, consulte [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

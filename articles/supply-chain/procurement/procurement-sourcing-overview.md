@@ -93,3 +93,6 @@ Los pedidos de compra facturados registrarán el pasivo en la cuenta de proveedo
 ## <a name="vendor-performance"></a>Rendimiento de proveedores
 
 El rendimiento y revisión de la compra se tratan a través de *informes de compras y proveedores*, que incluye el análisis de gastos y el análisis de rendimiento del proveedor.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

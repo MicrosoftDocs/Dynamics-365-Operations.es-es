@@ -170,3 +170,6 @@ Se muestran los cambios que se han realizado en la respuesta de la línea de ped
 
 ### <a name="open-confirmed-orders"></a>Pedidos confirmados abiertos
 Si el cliente ha confirmado el pedido de compra, (es decir, el estado del pedido de compra ha cambiado a **Confirmado**), aparece en el pedido confirmado abierto. Permanecerá en la lista hasta que se registre como recibido por el cliente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Puede configurar reglas para tareas diferentes que deban llevar a cabo diferente
 12. En el campo **Mitigación de seguridad**, escriba un valor. Escriba una descripción de las acciones para mitigar el riesgo de seguridad. Por ejemplo, puede mitigar el riesgo realizando revisiones más detalladas del proceso, realizando una revisión administrativa mensual o compartiendo recursos con otros departamentos.     
 13. Haga clic en **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Los siguientes escenarios le llevarán por el proceso de consolidación de enví
 
 - [Directivas de consolidación de envíos](about-shipment-consolidation-policies.md)
 - [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

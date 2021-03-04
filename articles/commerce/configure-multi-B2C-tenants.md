@@ -131,3 +131,6 @@ Su nuevo inquilino Azure AD B2C ahora debería aparecer en la lista debajo de **
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

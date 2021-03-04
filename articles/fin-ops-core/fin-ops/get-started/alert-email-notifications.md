@@ -50,3 +50,6 @@ El servicio registra notificaciones por correo electrónico mediante las plantil
 La siguiente imagen muestra la estructura de las notificaciones alertas cuando se reciben por correo electrónico.
 
 [![Notificaciones de alerta basadas en plantillas para la creación de registros, cambios de campos y eliminación de plantilla](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

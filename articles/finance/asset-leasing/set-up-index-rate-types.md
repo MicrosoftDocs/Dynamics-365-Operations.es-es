@@ -43,3 +43,6 @@ Debe seleccionar **Diferencia de valor de tipo indexado** o **Valor de tipo inde
 
 - Seleccione el método **Diferencia de valor de tipo indexado** para calcular un nuevo pago por arrendamiento, basado en la diferencia entre el tipo indexado en la fecha de inicio y el tipo indexado más reciente. El tipo indexado se define en el campo **Tipo indexado (%)**.
 - Seleccione el método **Valor de tipo indexado** para calcular el pago del arrendamiento utilizando el porcentaje que se especifica en el campo **Tipo indexado (%)**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

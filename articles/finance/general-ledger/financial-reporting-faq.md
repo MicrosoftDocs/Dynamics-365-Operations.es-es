@@ -88,3 +88,6 @@ Cuando tenga un informe que no coincida con lo que podría esperar en D365, aqu�
 2.  Exportar el informe a Excel
 
 Ahora debería poder copiar los datos desde el informe de Excel de FR al informe de saldo de comprobación de D365 y comparar las columnas "Saldo de cierre".
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

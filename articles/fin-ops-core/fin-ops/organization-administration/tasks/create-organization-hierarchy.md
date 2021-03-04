@@ -48,3 +48,6 @@ La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
     - Agregue organizaciones según sea necesario.  
     - Para agregar una organización, haga clic en **Editar** y, a continuación, en **Insertar** para agregar la organización. Cuando haya terminado de realiza cambios, puede **guardar** un borrador y/o **publicar** los cambios.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

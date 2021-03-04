@@ -42,3 +42,6 @@ En Microsoft Dynamics 365 Human Resources, los días de espera establecen un hit
    | **Día** | El día del mes en que el sistema debe establecer la fecha del período de espera. |
    
 4. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ El parámetro **Cantidad** especifica si la cantidad total o la cantidad reserva
 -   Para establecer los parámetros **Cantidad** y **Permitir la liberación de pedidos liberados parcialmente** de los pedidos de transferencia, haga clic en **Gestión de almacenes** \> **Liberar en almacén** \> **Liberación automática de pedidos de transferencia**.
 
 -   Para establecer los parámetros **Cantidad** y **Permitir la liberación de pedidos liberados parcialmente** de los pedidos de ventas, haga clic en **Gestión de almacenes** \> **Liberar en almacén** \> **Liberación automática de pedidos de ventas**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

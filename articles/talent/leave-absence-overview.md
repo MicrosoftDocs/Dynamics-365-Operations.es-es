@@ -66,3 +66,6 @@ La gestión de permisos y ausencias proporciona las características siguientes:
 - **Enviar solicitudes de tiempo de reposo**
 
     Los empleados pueden enviar solicitudes de tiempo de reposo de acuerdo con sus horas disponibles. Las solicitudes pueden ser simples, por un solo día, o múltiples, que incluye solicitud de varios tipos de permisos y ausencias. Si un flujo de trabajo no está habilitado, las solicitudes se aprueban automáticamente. Si se habilita un flujo de trabajo, la aprobación puede ser automática, o puede requerir de aprobación, en función de la configuración de flujo de trabajo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

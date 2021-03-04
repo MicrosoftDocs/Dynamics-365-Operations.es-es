@@ -137,3 +137,6 @@ Los empleados que se registran para un curso por medio de la página **Autoservi
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

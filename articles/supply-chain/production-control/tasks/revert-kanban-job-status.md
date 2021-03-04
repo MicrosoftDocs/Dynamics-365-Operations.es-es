@@ -55,3 +55,6 @@ Este procedimiento se centra en la inversión de un estado de trabajo kanban inc
     * Seleccione el mismo trabajo.  
     * Observe que el estado del trabajo kanban se revierte a Planificado, lo que se indica con un icono de kanban vacío.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

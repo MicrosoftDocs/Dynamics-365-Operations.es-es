@@ -111,3 +111,6 @@ Para generar el informe siga los pasos siguientes.
 4. En el grupo de campos **Cálculo**, en el campo **Método de cálculo**, seleccione el método de cálculo (**Fecha de factura** o **Fecha de vencimiento**).
 5. En la ficha desplegable **Registro para incluir**, especifique los criterios que deben emplearse para seleccionar las transacciones del proveedor, como facturas, pagos y diarios de pagarés. (Use **Filtrar** para especificar los criterios).
 6. Haga clic en **Aceptar** para generar el informe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

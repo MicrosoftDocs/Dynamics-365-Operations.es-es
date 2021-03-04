@@ -106,3 +106,6 @@ Complete los siguientes procedimientos en [Descripción general de la gestión d
 [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 
 [Visión general de la gestión de documentos empresariales](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

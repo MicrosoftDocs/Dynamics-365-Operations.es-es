@@ -91,3 +91,6 @@ Si ha habilitado la característica **Búsqueda extendida de configuraciones de 
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [API de marco de informes electrónicos (ER)](er-apis-app73.md)
 - [Administrar el ciclo de vida de las configuraciones de los informes electrónicos (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ El segundo pedido de ventas está ahora facturado. La factura total que se prese
 [![Página Transacciones de asiento con el asiento contable que se registra](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Puesto que la suma de los ingresos y las ventas es superior a 1.170,44 $, la diferencia se registra por -130,17 $. Este importe borra el saldo de la cuenta de compensación de ingresos de factura parcial. Ese saldo se registra en el nuevo asiento contable después de la reasignación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

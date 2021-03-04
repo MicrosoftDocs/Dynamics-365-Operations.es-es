@@ -69,3 +69,6 @@ El espacio de trabajo **Entrada de factura de proveedor** le permite concentrars
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automatización de facturas de proveedores: reanudar el procesamiento de automatización para varias facturas
 Cuando una factura importada no se envía correctamente al flujo de trabajo a través del proceso automatizado, el sistema la eliminará del procesamiento automatizado adicional. Un empleado de la sección de proveedores puede revisar y editar la factura antes de que el proceso automatizado la vuelva a enviar al flujo de trabajo. Cuando un motivo de error se puede resolver con la misma solución para varias facturas, puede reiniciar el proceso automatizado en la página **Reanudar el procesamiento automatizado de facturas**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

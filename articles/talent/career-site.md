@@ -142,3 +142,6 @@ Una vez que los candidatos hayan solicitado uno o más trabajos, pueden seleccio
 ## <a name="internal-jobs"></a>Trabajos internos
 
 Actualmente, los trabajos marcados como internos y enviados al sitio de Proyectos profesionales de Attract no aparecen en el sitio de Proyectos profesionales. Son solo accesibles a través de la dirección URL **Solicitar** directa que puede ser copiada desde la aplicación Attract.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Cuando se aplica el picking en clúster, es esencial la confirmación del artíc
 1. En un elemento de menú del dispositivo móvil, abra el formulario de configuración para la confirmación del trabajo: **Gestión de almacenes** \> **Gestión de almacén** \> **Configuración** \> **Dispositivo móvil** \> **Elementos de menú del dispositivo móvil**.
 
 1. En el elemento de menú del dispositivo móvil, abra **Configuración de la confirmación de trabajo**. La opción **Confirmación del producto** le permite que se compruebe cada pieza de inventario desde el dispositivo móvil cuando se escanea.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

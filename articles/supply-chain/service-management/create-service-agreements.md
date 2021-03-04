@@ -62,3 +62,6 @@ Este tema describe cómo utilizar funciones en los módulos Gestión de servicio
 [Visión general del desarrollo y establecimiento de acuerdos de servicio](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

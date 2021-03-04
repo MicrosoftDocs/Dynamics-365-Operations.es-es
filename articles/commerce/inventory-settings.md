@@ -93,3 +93,6 @@ La siguiente imagen muestra un ejemplo de un carro que muestra un mensaje en exi
 [Módulo de selector de tienda](store-selector.md)
 
 [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

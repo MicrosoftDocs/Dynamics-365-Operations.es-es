@@ -103,3 +103,6 @@ Si los proveedores usan la interfaz de colaboración de proveedor, pueden usarla
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

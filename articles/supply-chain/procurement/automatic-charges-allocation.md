@@ -177,3 +177,6 @@ El siguiente procedimiento muestra cómo asignar gastos de nivel de encabezado a
         > Al trabajar con la cuadrícula **Elija las líneas que desee excluir de la asignación**, asegúrese de dejar la cuadrícula abierta hasta que seleccione **Asignar**. Si cierra la cuadrícula antes de seleccionar **Asignar**, se perderá su configuración de la cuadrícula. Por lo tanto, los cargos se asignarán en función de los criterios que definió anteriormente.
 
 1. Seleccione **Asignar** para aplicar su configuración y cerrar el cuadro de diálogo de consulta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

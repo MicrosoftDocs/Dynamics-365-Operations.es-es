@@ -67,3 +67,6 @@ Dado que la empresa de ingeniería posee los datos relevantes para la ingenierí
 
     - Cuando estos documentos se entregan a otras entidades legales, los documentos están protegidos de ser eliminados por la empresa operativa.
     - Otras entidades legales pueden agregar documentos locales completamente nuevos. La empresa operativa es propietaria y mantiene estos documentos locales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

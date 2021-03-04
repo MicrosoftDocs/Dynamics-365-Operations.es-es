@@ -69,3 +69,6 @@ Esta página ofrece vínculos a la documentación pertinente relacionada con la 
 ## <a name="configure-continuity-programs"></a>Configurar programas de continuidad
 
 [Configurar programas de continuidad para centros de llamadas](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

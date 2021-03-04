@@ -49,3 +49,6 @@ En este ejemplo se usa una versión de gestión de costes adicional para adminis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

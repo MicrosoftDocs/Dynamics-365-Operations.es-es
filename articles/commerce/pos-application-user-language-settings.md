@@ -65,3 +65,6 @@ La configuración del idioma del usuario del PDV se define en **Todos los trabaj
 | **Empresa** | Predeterminada                    | Predeterminada                                                       |
 | **Tienda**   | Reemplaza a la empresa          | Reemplaza a la empresa                                             |
 | **Usuario**    | Reemplaza a la tienda o a la empresa | Nunca                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

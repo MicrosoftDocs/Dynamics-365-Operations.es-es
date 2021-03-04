@@ -90,3 +90,6 @@ Al crear pedidos de servicio automáticamente, puede usar las tareas de servicio
 2. En la pestaña **Configuración**, seleccione **Por tarea de servicio** en el campo **Combinar pedidos de servicio** .
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

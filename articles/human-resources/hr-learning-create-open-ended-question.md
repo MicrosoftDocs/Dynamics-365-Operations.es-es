@@ -38,3 +38,6 @@ Las preguntas abiertas permiten a los encuestados proporcionar su propia respues
     * Para las preguntas abiertas se usa un tipo de entrada Texto o Nota.  
 6. En el campo Texto, escriba su pregunta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

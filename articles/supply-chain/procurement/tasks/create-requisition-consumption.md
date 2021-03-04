@@ -92,3 +92,6 @@ En este tema se describe el proceso de crear una solicitud. Le muestra diferente
 6. Cierre la página.
 7. Actualice la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

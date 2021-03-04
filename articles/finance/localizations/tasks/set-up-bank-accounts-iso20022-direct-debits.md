@@ -69,3 +69,6 @@ Este es el cuarto de cinco procedimientos que muestra el proceso de pago del cli
 8. Haga clic en Aceptar
 9. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

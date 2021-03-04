@@ -107,3 +107,6 @@ Para agregar un módulo de elemento principal a una página nueva y establecer l
 [Módulo de bloque de texto](add-content-rich-block.md)
 
 [Módulo de reproductor de vídeo](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

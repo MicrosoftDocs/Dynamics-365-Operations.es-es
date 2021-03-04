@@ -122,3 +122,6 @@ Si no tiene acceso a las páginas que se usan para completar las tareas menciona
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

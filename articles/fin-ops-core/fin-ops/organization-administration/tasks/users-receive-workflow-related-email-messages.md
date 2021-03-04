@@ -41,3 +41,6 @@ Usted puede configurar el sistema para enviar mensajes de correo electrónico a 
 
 > [!NOTE]
 > Las plantillas de correo electrónico del flujo de trabajo se obtendrán de las plantillas de correo electrónico del sistema o de las plantillas de correo electrónico de la organización, dependiendo de si el flujo de trabajo es un flujo de trabajo a nivel de sistema (no específico de la compañía) o de nivel de organización (específico de la compañía).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

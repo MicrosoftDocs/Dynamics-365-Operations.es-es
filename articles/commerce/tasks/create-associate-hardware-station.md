@@ -58,3 +58,6 @@ Este procedimiento le muestra cómo crear una nueva estación de hardware. Se cr
 23. En el campo Id. de terminal EFT, escriba un valor.
 24. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

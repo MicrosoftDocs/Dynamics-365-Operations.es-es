@@ -61,3 +61,6 @@ Para obtener más información acerca de Platform update 29 para Finance and Ope
 Los cambios en los registros de empleado con poca frecuencia tienen efecto inmediatamente. Es necesario actualizar los datos desde la fecha de inicio del empleado, que normalmente es en el futuro, y también se necesita actualizar la información del pasado. Con este modelo aerodinámico de navegación, podrá actualizar los datos del futuro y pasados sin navegar a varios formularios o cambiar el contexto de la fecha. Este cambio también promociona de forma dinámica y muestra información clave en el área superior del banner del registro del empleado.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,5 @@ Esta versión incluye los siguientes cambios a la integración de LinkedIn Recru
 - Actualizaciones de la compatibilidad con navegador (LinkedIn ya no admite Internet Explorer 11 desde el 1 de julio de 2020)
 
 Para obtener más información, consulte [Candidatos de origen con LinkedIn Recruiter en Attract](attract-linkedin-recruiter.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

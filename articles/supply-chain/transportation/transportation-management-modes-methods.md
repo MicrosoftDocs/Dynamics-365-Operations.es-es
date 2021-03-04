@@ -47,3 +47,6 @@ Para crear un método de transporte, siga estos pasos:
 1. Seleccione **Nuevo** para crear un nuevo método de transporte.
 1. Escriba un identificador único y un nombre descriptivo para el método de transporte.
 1. Cierre la página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

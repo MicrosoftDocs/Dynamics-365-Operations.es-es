@@ -128,3 +128,6 @@ Los valores de estilo del preajuste se activan en su sitio web cara al público.
 [Agregar idiomas al sitio](add-languages-to-site.md)
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

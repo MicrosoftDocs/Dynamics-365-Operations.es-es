@@ -70,3 +70,6 @@ Este procedimiento muestra cómo definir un esquema de fidelización. Los esquem
 27. Haga clic en Guardar.
     * Siempre que cambia los canales para un esquema de fidelización, debe ejecutar Procesar esquemas de fidelización. De esa manera, los canales obtendrá esquemas de fidelización actualizados.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

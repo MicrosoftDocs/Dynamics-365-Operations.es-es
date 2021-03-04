@@ -91,3 +91,6 @@ Si el problema aún no se soluciona, siga estos pasos.
 4. Abra la página **Asignación de tablas** de la página **Doble escritura** en la aplicación Finance and Operations.
 5. Si el atributo no se rellena automáticamente en la asignación, agréguelo manualmente haciendo clic en el botón **Agregar atributo** y luego haga clic en **Guardar**. 
 6. Seleccione la asignación y haga clic en **Ejecutar**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Un tipo de plan puede definir opciones de cobertura. Las opciones de cobertura s
    | **Ventana de notificación** | Especifica la ventana de notificación, en días, del evento de vida. **Nota**: Si no introduce un importe, el sistema supone que la ventana de informes es cero y no procesará el evento de vida. |
 
 5. Seleccione **Guardar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

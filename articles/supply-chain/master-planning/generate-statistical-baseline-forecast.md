@@ -78,3 +78,6 @@ Si la previsión no se genera para un conjunto grande de artículos, sino, por e
 - [Realización de ajustes manuales en la previsión de línea base](manual-adjustments-baseline-forecast.md)
 
 - [Autorizar previsión de la demanda ajustada](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

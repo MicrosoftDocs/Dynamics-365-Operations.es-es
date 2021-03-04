@@ -102,3 +102,6 @@ Puede crear un pedido de servicio desde el formulario **Pedidos de ventas** medi
 
 [Crear pedidos de servicio (formulario de clase)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Este tema explica cómo aprobar proveedores para las categorías de compras espe
 13. Seleccione **No** en el campo **Heredar proveedores de la categoría principal:**.
 14. Seleccione **Sí** en el campo **Heredar proveedores de la categoría principal:**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

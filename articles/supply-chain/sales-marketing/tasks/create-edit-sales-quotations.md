@@ -70,3 +70,6 @@ Este procedimiento muestra cómo crear y actualizar un presupuesto de ventas. Pu
 13. Haga clic en **Pedidos de ventas**.
 14. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

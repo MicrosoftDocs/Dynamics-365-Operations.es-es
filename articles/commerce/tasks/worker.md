@@ -57,3 +57,6 @@ Este procedimiento demuestra cómo configurar a un trabajador como representante
 6. En el campo Grupo predeterminado, especifique o seleccione un valor.
 7. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

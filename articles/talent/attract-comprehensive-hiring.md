@@ -85,3 +85,6 @@ Existen varias razones por las que es posible que no vea todas las funciones de 
 
 - Su compañero de trabajo está trabajando con una prueba o una licencia para Attract con el complemento de contratación completo, mientras que usted trabaja con la versión básica de Attract.
 - Tiene Attract con el complemento de contratación completo, pero no ha asignado los roles adecuados para usar todas las funciones. Para obtener más información, consulte [La seguridad y la gestión de roles en Attract](security-attract.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

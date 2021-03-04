@@ -44,3 +44,6 @@ En este tema se explica cómo ajustar los impuestos para una factura de proveedo
 13. Seleccione **Aceptar**.
 14. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

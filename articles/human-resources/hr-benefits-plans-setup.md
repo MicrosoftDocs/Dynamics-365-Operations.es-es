@@ -159,3 +159,6 @@ Puede proporcionar una descripción del plan para ayudar a los empleados con sus
 1. En el espacio de trabajo **Administración de prestaciones**, en **Planes**, seleccione **Planes de prestaciones**.
 
 2. Seleccione **Programas de crédito flexible**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

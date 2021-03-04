@@ -64,3 +64,6 @@ Este procedimiento muestra la configuración necesaria para crear una regla kanb
     * Esto creará dos kanbans.  
     * Tenga en cuenta que se crearon 2 kanbans, para 5 cada uno, para esta regla kanban de retirada.  Este es el último paso de este procedimiento.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

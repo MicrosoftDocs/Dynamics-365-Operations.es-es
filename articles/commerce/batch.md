@@ -45,3 +45,6 @@ Para definir el id. de lote predeterminado que se usa para facturación de pedid
 
 > [!NOTE]
 > La compatibilidad para el control mejorado de los artículos con seguimiento por lotes durante el registro de extractos para los escenarios no avanzados de gestión de almacenes se introdujo en Retail versión 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

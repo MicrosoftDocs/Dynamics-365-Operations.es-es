@@ -87,3 +87,6 @@ Este procedimiento le muestra cómo habilitar un certificado de entrada de la UE
 4. En el panel de acciones, haga clic en Factura.
 5. Haga clic en Ver certificados de entrada emitidos.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

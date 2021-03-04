@@ -83,3 +83,6 @@ Una vez que los datos de configuración estén disponibles, todo está listo par
 1. En la página **Todas las ubicaciones funcionales**, asegúrese de que la ubicación funcional en la que desea que se cree el activo automáticamente use el tipo de ubicación funcional que ha creado con este propósito.
 2. Seleccione la ubicación funcional en la lista.
 3. Seleccione **Actualizar estado de ubicación funcional** y, a continuación, seleccione el estado de ciclo de vida que ha creado con este propósito. Ahora se instala un activo automáticamente en la ubicación funcional. Este activo tiene el mismo nombre que la ubicación funcional.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ En este tema se describe cómo utilizar el registro de facturas para crear factu
 13. Seleccione **Transacciones**.
 14. Seleccione la factura que ha creado. La acumulación de registro de facturas se ha invertido y registrado en la cuenta de gastos apropiada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

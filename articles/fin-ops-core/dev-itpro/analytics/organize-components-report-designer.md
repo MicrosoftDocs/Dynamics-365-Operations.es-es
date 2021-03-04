@@ -148,3 +148,6 @@ Solo la configuración del período de base predeterminado se guarda con la defi
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

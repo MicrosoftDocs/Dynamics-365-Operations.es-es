@@ -60,3 +60,6 @@ Los impuestos en los documentos se calculan si proporciona un grupo de impuestos
 29. Haga clic en Impuestos.
 30. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

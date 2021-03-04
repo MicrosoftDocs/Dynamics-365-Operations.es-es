@@ -50,3 +50,6 @@ Los ajustes en la pestaña **Secuencia numérica** determina las secuencias que 
 
 > [!NOTE]
 > El número de horas que se trabaja no puede superar 1250, y la duración del empleo no puede superar 12 meses. Estos valores máximos están de acuerdo con la legislación federal en los Estados Unidos. Finalmente, los ajustes en la pestaña **Autoservicio del empleado** determinan la información que los directores pueden especificar en nombre de sus empleados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

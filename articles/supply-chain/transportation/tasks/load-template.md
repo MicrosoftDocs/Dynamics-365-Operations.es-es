@@ -54,3 +54,6 @@ Este tema describe cómo configurar plantillas de carga y cómo asociar una plan
 1. En el panel de acciones, en la ficha **Suministro y demanda**, en el grupo **Agregar**, seleccione **A una carga nueva**.
 1. En el cuadro de diálogo **Cargar plantilla**, en el campo **Cargar Id. de plantilla**, seleccione la plantilla para aplicar.
 1. Seleccione **Aceptar** para aplicar la plantilla.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

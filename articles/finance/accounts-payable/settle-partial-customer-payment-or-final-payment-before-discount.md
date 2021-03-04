@@ -149,3 +149,6 @@ Arnie registra este diario y revisa las transacciones del cliente en la página 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -198,3 +198,6 @@ En uno de los pasos del proceso de configuración, el sistema sugiere un valor d
 
 [Crear una nomenclatura del número de producto para las variantes de producto configuradas](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

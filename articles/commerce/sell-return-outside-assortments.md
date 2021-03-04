@@ -46,3 +46,6 @@ Esos escenarios comunes están disponibles para los minoristas mediante Commerce
 + Recoger los productos en la tienda actual o en otra tienda.
 + Cancelar un pedido en la tienda actual o en otra tienda.
 + Devolver un pedido con o sin el tique en la tienda actual o en otra tienda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

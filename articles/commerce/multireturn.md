@@ -54,3 +54,6 @@ Cuando se seleccionan los pedidos, se mostrará una lista de todos los productos
 
 Si el pedido se devuelve en su totalidad, la cantidad de impuestos devueltos al cliente será igual a la cantidad de impuestos cargada originalmente.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

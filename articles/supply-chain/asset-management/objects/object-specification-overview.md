@@ -40,3 +40,6 @@ La página **Información general de atributos de activo** muestra una línea in
 3. Seleccione **Aceptar**. Una lista muestra todos los activos que usan el tipo de activo seleccionado. Para cada activo, se muestran todos los tipos de atributo de activo relacionados en la misma línea.
 
 La página **Atributo de activo** muestra una línea independiente para cada tipo de atributo que se usa en un activo. Para abrir esta página, seleccione **Administración de activos** \> **Consultas** \> **Activos** \> **Atributo de activo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

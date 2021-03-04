@@ -150,3 +150,6 @@ La siguiente funcionalidad fiscal de integración también está disponible en e
 La siguiente funcionalidad de integración fiscal heredada que está disponible en el SDK de Retail no utiliza el marco de integración fiscal y quedará en desuso en actualizaciones posteriores:
 
 - [Muestra de integración de unidad de control para Suecia (heredada)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

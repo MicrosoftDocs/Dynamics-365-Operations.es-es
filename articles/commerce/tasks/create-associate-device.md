@@ -41,3 +41,6 @@ Este procedimiento le guía por la creación de un nuevo dispositivo y su asocia
 9. En la lista, haga clic en el vínculo de la fila seleccionada.
 10. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

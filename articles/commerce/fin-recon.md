@@ -62,3 +62,6 @@ Cuando se utiliza la contabilización de declaraciones de alimentación por gote
 Los detalles de la conciliación financiera para un turno se sincronizan con la sede de Commerce mediante el uso del trabajo P.
 
 Los extractos financieros minoristas en la sede de Commerce no calculan los totales para mostrar los detalles en las líneas de los extractos financieros. En cambio, las cantidades finalizadas en el cliente PDV se utilizan para crear y publicar extractos financieros minoristas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

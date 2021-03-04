@@ -51,3 +51,6 @@ Cuando crea una entrada de presupuesto original y usa el modelo presupuestario y
     * Para realizar selecciones opcionales, haga clic en el icono Desbloquear de la parte superior de la página.  
 18. Haga clic en Actualizar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

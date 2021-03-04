@@ -56,3 +56,6 @@ En este tema se describe el proceso para crear y registrar un diario de recuento
 1. Seleccione **Inventario**.
 2. Seleccione **Transacciones**. Aquí puede ver las transacciones relacionadas que se creará al registrar el diario de recuento de inventario.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

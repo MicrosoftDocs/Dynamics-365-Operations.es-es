@@ -55,3 +55,6 @@ Un acuerdo de la garantía puede incluir varias líneas del acuerdo para cubrir 
     4. En el campo **Porcentaje**, especifique el porcentaje de cobertura para la línea de la garantía. El porcentaje indica cuánto está cubierta por la empresa.
 
 ![Página de garantía](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

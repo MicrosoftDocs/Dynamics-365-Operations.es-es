@@ -128,3 +128,6 @@ Al seleccionar la ventana **Cambios de dirección**, aparece una nueva página q
 > Si desea recibir una alerta o un correo electrónico sobre estos cambios de dirección, puede crear una nueva regla de alerta en la pestaña **Opciones** del panel de acciones. Para obtener más información sobre las reglas de alerta, consulte [Crear reglas de alerta](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
 
 > Si desea configurar un flujo de trabajo para los cambios de dirección, puede seleccionar la opción **Enviar externamente** en la regla de alerta y usar a continuación Power Automate para desencadenar el evento de negocio y configurar un flujo de trabajo. Para obtener más información, consulte [Alertas como eventos de negocio](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

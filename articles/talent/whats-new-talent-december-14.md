@@ -151,3 +151,6 @@ Las asignaciones actualizadas deben tener la misma apariencia que las imágenes 
 ![Tarea Trabajadores a Trabajador](./media/WorkerMapping.png)
 
 ![Transformación de campo de género](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

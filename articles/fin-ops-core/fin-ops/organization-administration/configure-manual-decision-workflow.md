@@ -350,3 +350,6 @@ Siga estos pasos si la decisión se debe tomar en un plazo específico.
     - **Años**: seleccione el día, la semana y el mes en los que vence el plazo para tomar la decisión. Por ejemplo, tal vez desee que la decisión se haya tomado antes del viernes de la tercera semana de diciembre.
 
 4. Si se supera el límite de tiempo, el sistema toma la decisión. En la lista **Acción**, seleccione la opción que debe seleccionar el sistema.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

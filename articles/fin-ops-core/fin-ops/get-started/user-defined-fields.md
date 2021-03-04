@@ -162,3 +162,6 @@ Por motivos rendimiento y técnicos, solo las tablas que cumplen las siguientes 
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>¿Puedo hacer referencia a campos personalizados desde las herramientas para desarrolladores?  
 
 Los campos personalizados solo se pueden administrar a través de la interfaz de usuario. No es posible hacer referencia a estos campos en el código. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

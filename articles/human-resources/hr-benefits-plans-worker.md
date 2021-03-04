@@ -49,3 +49,6 @@ Puede crear planes de prestaciones para trabajadores en Microsoft Dynamics 365 H
    | Planes | La pestaña rápida de planes contiene los planes que cumplen con los criterios de filtro que especificó. Las opciones de configuración relevantes establecidas por el personal de recursos humanos y las selecciones de inscripción elegidas por los empleados se incluyen en cada línea. El campo Calificado especifica si existe un conflicto de validación con la selección del plan. |
 
 4. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

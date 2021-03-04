@@ -111,3 +111,6 @@ Para configurar la integración entre el servicio de contabilidad de costos y Dy
 ## <a name="related-resources"></a>Recursos relacionados
 
 [Página principal del servicio de contabilidad de costes](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

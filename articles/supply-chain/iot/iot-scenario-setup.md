@@ -143,3 +143,6 @@ Para desactivar un escenario, siga estos pasos.
 2. En el icono del escenario, seleccione **Configurar**.
 3. Seleccione **Siguiente** para pasar a la última página del asistente.
 4. Establezca la opción para deshabilitar el escenario.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

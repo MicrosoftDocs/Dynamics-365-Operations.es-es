@@ -67,3 +67,6 @@ Al agregar tipos de activo a un tipo de contador en **Contadores**, ese contador
 
 ![Figura 1](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

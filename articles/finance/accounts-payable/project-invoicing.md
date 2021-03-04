@@ -132,3 +132,6 @@ Puede crear una factura con un importe negativo, que se convierte en una factura
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

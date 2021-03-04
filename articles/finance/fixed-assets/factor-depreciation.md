@@ -79,3 +79,6 @@ El valor del campo **Factor** es igual a **50**. En este caso, la depreciación 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Este procedimiento muestra cómo crear rápidamente una fórmula nueva copiando 
 3. Haga clic en Aceptar
 4. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

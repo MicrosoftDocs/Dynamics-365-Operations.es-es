@@ -113,3 +113,6 @@ Una vez que haya visualizado el pedido de compra que se le ha asignado y leído 
 5. Seleccione la acción adecuada.
 6. En la página **Completar tarea**, escriba un comentario. Tenga en cuenta que si selecciona la acción **Delegar**, debe seleccionar un usuario en el que delegar la tarea.
 7. Seleccione **Listo**. Después de actualizar su espacio de trabajo, el pedido de compra ya no estará en su lista. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

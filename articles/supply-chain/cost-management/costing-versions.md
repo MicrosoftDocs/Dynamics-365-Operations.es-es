@@ -68,3 +68,6 @@ Los registros de precio de compra de los artículos se utilizan también como in
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

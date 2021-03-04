@@ -305,3 +305,6 @@ Las consultas de secuencia de trabajo dirigidas por el sistema son *inclusivas*.
 Por lo tanto, en el ejemplo de este escenario, la consulta también capturó el id. de trabajo *4*. Cuando se creó, se agregaron dos líneas: una para 25 ea y otra para 10 ea. El trabajo se siguió presentando al usuario, porque al menos una línea de trabajo tiene una cantidad inferior a 20 ea.
 
 Dependiendo del escenario, puede evitar este comportamiento utilizando interrupciones de trabajo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

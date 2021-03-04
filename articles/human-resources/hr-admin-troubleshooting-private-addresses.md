@@ -39,3 +39,6 @@ Para solucionar el problema, el cliente debe seguir estos pasos para el rol de s
 3. Seleccione **Guardar**.
 
 ![Página de parámetros de la libreta de direcciones global](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

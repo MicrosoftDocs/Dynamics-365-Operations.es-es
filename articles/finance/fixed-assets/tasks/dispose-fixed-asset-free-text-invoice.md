@@ -41,3 +41,6 @@ Este tema explica cómo desechar activo fijo mediante la factura de servicios.
 10. Escriba o seleccione un valor en el campo **Activo fijo**.
 11. Seleccione **Registrar**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

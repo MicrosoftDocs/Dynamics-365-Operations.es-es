@@ -73,3 +73,6 @@ Los botones del panel de acciones se organizan en fichas. La tabla siguiente des
 | Enviar activo en préstamo                  | Seleccione un activo en préstamo que debe ser una sustitución temporal del activo seleccionado en la solicitud de mantenimiento seleccionada. |
 | Devolver activo en préstamo                | Registrar el activo en préstamo como devuelto. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

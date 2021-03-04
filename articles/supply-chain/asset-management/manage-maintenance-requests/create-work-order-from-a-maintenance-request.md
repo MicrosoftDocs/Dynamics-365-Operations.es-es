@@ -55,3 +55,6 @@ Después de crear solicitudes de mantenimiento, puede convertirlas fácilmente e
 
     ![Abrir nueva orden de trabajo](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

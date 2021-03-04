@@ -59,3 +59,6 @@ El valor de campo predeterminado para **Número de elementos de flujo de trabajo
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>¿En qué consiste la característica Error mejorado de flujo de trabajo?
 La característica Error mejorado de flujo de trabajo incluida en la versión 10.0.13 agrega códigos de error para diferenciar distintas clases de errores del flujo de trabajo. Los mensajes de error notificados serán en su mayoría similares, con pequeñas variaciones para que sean más claros.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

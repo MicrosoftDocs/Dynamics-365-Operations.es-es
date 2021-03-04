@@ -69,3 +69,6 @@ Las estadísticas de cuestionario se pueden usar para calcular promedios, totale
 2. Haga clic en Resultado.
 3. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

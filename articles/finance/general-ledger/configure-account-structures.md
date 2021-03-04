@@ -107,3 +107,6 @@ Al configurar sus estructuras contables existen algunas prácticas recomendadas 
 Cuando esté satisfecho con su nueva configuración o con un cambio en una estructura contable, debe activarla. Si una estructura contable se asigna a un libro mayor, esta activación puede ser un proceso de larga ejecución, ya que todas las transacciones sin registrar en el sistema deben sincronizarse en la nueva estructura. Las transacciones registradas no se ven afectadas por los cambios en la estructura contable.
 
 Para obtener más información, consulte [Planificar su plan de cuentas](plan-chart-of-accounts.md), [Dimensiones financieras](financial-dimensions.md) y [Especificar combinaciones de cuentas y dimensiones (control de entrada segmentada)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

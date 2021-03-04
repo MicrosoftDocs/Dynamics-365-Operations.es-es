@@ -72,3 +72,6 @@ Este procedimiento muestra cómo configurar los datos para la conciliación auto
 11. En el campo Código de motivo de pago insuficiente, especifique o seleccione un valor.
 12. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

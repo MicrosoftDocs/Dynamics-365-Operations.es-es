@@ -73,3 +73,6 @@ La siguiente imagen muestra un ejemplo de grupo de tamaños para "tallas de cami
 [Configurar productos comerciales](set-up-retail-products.md)
 
 [Dimensiones de producto](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

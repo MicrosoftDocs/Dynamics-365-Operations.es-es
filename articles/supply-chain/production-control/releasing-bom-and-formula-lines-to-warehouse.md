@@ -98,3 +98,6 @@ Puede liberar la materia prima para una cantidad parcial de producto terminado o
     Las unidades que están disponibles se definen en el ID de grupo de secuencia de unidades del producto terminado.
 
     Por ejemplo, un producto terminado tiene la siguiente conversión de unidades entre las libras (lbs.) y pallet (PL): 1 PL = 100 lbs. Para crear un pedido de producción para 10.000 lbs. de producto terminado, puede liberar las materias primas para el número de pallets que pretenda generar. Seleccione **PL** como unidad y, a continuación, seleccione un número correspondiente en el campo **Cantidad**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

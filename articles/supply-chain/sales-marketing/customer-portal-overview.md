@@ -69,3 +69,6 @@ La [doble escritura](https://docs.microsoft.com/powerapps/maker/portals/overview
 ![Dependencias del portal del cliente](media/customer-portal-elements.png "Dependencias del portal del cliente")
 
 El portal del cliente actúa como punto de partida para las organizaciones que desean utilizar portales Power Apps para construir un sitio web externo que utilice datos de su instalación de Supply Chain Management. Ayuda a las organizaciones a conectar la doble escritura, Supply Chain Management y los portales Power Apps.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

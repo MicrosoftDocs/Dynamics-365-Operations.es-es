@@ -71,3 +71,6 @@ Cuando haya completado el mantenimiento o el trabajo de reparación, puede regis
 2. Seleccione el activo o la solicitud de mantenimiento.
 3. Seleccione **Entregar activos**.
 4. En el campo **Entregado**, especifique la fecha y la hora. A continuación seleccione **Aceptar**. El registro se eliminará de la página de lista **Activos de salida**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

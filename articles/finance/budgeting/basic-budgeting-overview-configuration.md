@@ -88,3 +88,6 @@ Una empresa que está utilizando la funcionalidad de planificación presupuestar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

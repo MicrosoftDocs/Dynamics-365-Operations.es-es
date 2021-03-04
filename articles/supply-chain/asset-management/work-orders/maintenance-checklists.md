@@ -80,3 +80,6 @@ En la ilustración siguiente se muestra un ejemplo de lista de comprobación de 
 
 ![Figura 1](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

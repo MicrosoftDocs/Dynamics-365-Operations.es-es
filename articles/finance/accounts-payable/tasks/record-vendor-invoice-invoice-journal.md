@@ -49,3 +49,6 @@ Esta guía de la tarea muestra cómo registrar facturas de proveedor que no est�
 12. Haga clic en **Registrar**.
 13. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

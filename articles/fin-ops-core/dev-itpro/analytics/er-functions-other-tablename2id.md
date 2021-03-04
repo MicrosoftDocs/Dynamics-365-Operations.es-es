@@ -59,3 +59,6 @@ La ejecución de esta función puede tener diferentes resultados en diferentes i
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Otras funciones (específicas de dominio empresarial)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

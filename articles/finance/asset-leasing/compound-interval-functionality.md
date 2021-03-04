@@ -160,3 +160,6 @@ La siguiente tabla enumera los primeros 12 meses de la programación de pagos. 
 
 > [!NOTE]
 > Si el tipo de anualidad se cambia a **Anualidad adeudada**, el pago será en enero en lugar de en diciembre.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

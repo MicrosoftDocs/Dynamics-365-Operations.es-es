@@ -67,3 +67,6 @@ Como parte del proceso de la orden de cuarentena, puede eliminar inventario. Al 
 --------
 
 [Bloqueo del inventario](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

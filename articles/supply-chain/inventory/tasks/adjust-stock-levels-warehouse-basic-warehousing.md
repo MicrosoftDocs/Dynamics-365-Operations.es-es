@@ -60,3 +60,6 @@ Este procedimiento muestra el proceso para crear y registrar un diario de ajuste
 5. Cierre el formulario.
 6. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

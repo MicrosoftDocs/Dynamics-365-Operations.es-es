@@ -71,3 +71,6 @@ La funcionalidad de cancelación de conciliación de extracto bancario permite c
 Las conciliaciones de extracto bancario se pueden cancelar únicamente en el orden cronológico en el que se especificaron. Cuando una conciliación de extracto bancario se cancela, las nuevas transacciones y correcciones se invierten y el resto de transacciones se marcan como no conciliadas.
  
 Para cancelar una conciliación de extracto bancario, seleccione el extracto bancario y **Extracto bancario > Cancelar conciliación bancaria**. En la página **Cancelar conciliación bancaria**, proporcione **Código de motivo**, **Comentario del motivo**, y **Fecha de cancelación**. Seleccione **Aceptar** para iniciar la cancelación. Tenga en cuenta que la fecha de cancelación del extracto bancario debe ser igual o posterior a la fecha del extracto bancario. Una vez que la conciliación del extracto bancario se ha cancelado, el campo **Fecha de cancelación** del extracto bancario se actualiza con la **Fecha de cancelación** que ha proporcionado. Seleccione el botón **Transacciones** para ver las transacciones para las que se ha cancelado la conciliación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

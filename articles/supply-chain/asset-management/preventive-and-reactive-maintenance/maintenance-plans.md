@@ -194,3 +194,6 @@ La siguiente ilustración muestra un ejemplo de planes de mantenimiento configur
 
 ![Figura 7](media/08-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Siga estos pasos para agregar la entidad de importación del extracto bancario p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

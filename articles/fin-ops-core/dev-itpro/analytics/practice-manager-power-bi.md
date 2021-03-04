@@ -117,3 +117,6 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 | Medida agregada clave       | Campo               | Descripción |
 |---------------------------------|---------------------|-------------|
 | Coste de la actividad planificada completada | Sum(TotalCostPrice) | Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto que cuentan con tareas completadas. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

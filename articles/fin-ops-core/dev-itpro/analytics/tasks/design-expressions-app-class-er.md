@@ -157,3 +157,6 @@ Para comprobar, ejecute la asignación de formato mediante el archivo SampleInco
 2. Haga clic en Aceptar
     * Revise la salida en formato XML que representa los datos que se han importado del archivo seleccionado y se han trasladado al modelo de datos. Tenga en cuenta que solo las líneas 3 del archivo TXT importado se procesaron. El código de IBAN de la línea 4 que no es válida se saltó y se proporcionó un mensaje de error en el registro de información.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

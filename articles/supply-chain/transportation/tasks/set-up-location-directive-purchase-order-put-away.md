@@ -86,3 +86,6 @@ Este tema explica cómo configurar una directiva de ubicación simple. El ejempl
 4. En el campo **Criterios**, escriba un valor.
 5. Seleccione **Aceptar**. Puede continuar agregando líneas de directivas y acciones de directivas hasta que haya cubierto todas las situaciones posibles del almacén.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

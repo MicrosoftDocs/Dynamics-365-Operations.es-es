@@ -90,3 +90,6 @@ La siguiente tabla proporciona ejemplos que muestran cómo varias configuracione
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Acuerdos de compra](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

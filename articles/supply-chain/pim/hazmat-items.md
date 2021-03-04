@@ -221,3 +221,6 @@ Para ejecutar la comprobación de compatibilidad, siga estos pasos.
 1. En el Panel Acciones, en la pestaña **Cargas**, en el grupo **Acciones**, seleccione **Comprobación de compatibilidad**.
 
 Recibe un mensaje que le informa de los resultados de la comprobación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

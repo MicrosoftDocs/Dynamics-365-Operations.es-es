@@ -57,3 +57,6 @@ La siguiente imagen muestra la creación de una libreta de direcciones de emplea
 [Visión general del diseño de pantalla](pos-screen-layouts.md)       
 
 [Instalar y configurar Retail Hardware Station](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

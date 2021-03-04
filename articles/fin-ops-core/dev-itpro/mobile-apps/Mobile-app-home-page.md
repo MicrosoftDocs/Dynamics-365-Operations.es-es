@@ -151,3 +151,6 @@ La siguiente tabla incluye vínculos a los recursos que pueden ayudarle a implem
 
 ## <a name="troubleshooting"></a>Solución de problemas
 [Recursos de plataforma móvil](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

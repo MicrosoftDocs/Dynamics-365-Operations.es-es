@@ -301,3 +301,6 @@ La ilustración siguiente muestra un ejemplo de otra página del informe que se 
 
 - [ER Diseña una configuración para generar informes en formato OPENXML (noviembre de 2016)](tasks/er-design-reports-openxml-2016-11.md)
 - [Diseñar configuraciones de ER para generar informes en formato Word](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

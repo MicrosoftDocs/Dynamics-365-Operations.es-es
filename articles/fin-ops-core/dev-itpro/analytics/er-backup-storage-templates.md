@@ -102,3 +102,6 @@ En Finance and Operations, versión 10.0.5, el almacenamiento de copia de seguri
 [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 
 [Configurar el marco de informes electrónicos (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

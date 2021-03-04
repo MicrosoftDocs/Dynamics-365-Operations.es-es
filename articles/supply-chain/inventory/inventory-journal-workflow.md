@@ -112,3 +112,6 @@ Para revisar el historial de flujo de trabajo de un diario:
 1. En el panel de navegación, expanda **Gestión del inventario \> Entradas de diario \> Artículos** y luego seleccione un tipo de diario de inventario.
 1. Abrir el diario relevante.
 1. Seleccione el botón **Flujo de trabajo** en el Panel de acciones para abrir un cuadro de diálogo desplegable. Seleccione **Historial de flujo de trabajo**. Para obtener más información, consulte [Ver historial de flujo de trabajo](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

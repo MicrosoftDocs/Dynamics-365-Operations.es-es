@@ -75,3 +75,6 @@ El pie de página que contiene el aviso de derechos de autor aparece automática
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

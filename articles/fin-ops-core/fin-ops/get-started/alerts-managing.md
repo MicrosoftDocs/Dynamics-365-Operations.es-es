@@ -82,3 +82,6 @@ Si configura una ventana de procesamiento por lotes, se envía una alerta cuando
 
 1. Vaya a **Administración del sistema** &gt; **Tareas periódicas** &gt; **Alertas** &gt; **Alertas de fecha de vencimiento**.
 2. En el cuadro **Avisos de fecha de vencimiento**, especifique la información adecuada.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

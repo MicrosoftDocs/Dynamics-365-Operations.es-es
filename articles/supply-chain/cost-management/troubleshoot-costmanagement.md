@@ -62,3 +62,6 @@ Recuerde ejecutar un cierre de inventario a partir del %3 (31-01-2019) que coinc
 ## <a name="inventory-aging-report-discrepancies"></a>Discrepancias de informe de vencimiento de inventario
 
 El **Informe de antigüedad de inventario** muestra diferentes valores cuando se ve en diferentes dimensiones de almacenamiento (como sitio o almacén). Para obtener más información sobre la lógica de informes, consulte [Ejemplos y lógica de informes de antigüedad de inventario](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

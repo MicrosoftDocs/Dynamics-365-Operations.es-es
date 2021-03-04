@@ -66,3 +66,6 @@ Este tema explica cómo crear un catálogo de compras. Esta tarea la llevaría a
 7. Seleccione **Agregar a las líneas**.
 8. Seleccione **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ El método de depreciación degresiva del 125% divide el 125 por ciento entre lo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

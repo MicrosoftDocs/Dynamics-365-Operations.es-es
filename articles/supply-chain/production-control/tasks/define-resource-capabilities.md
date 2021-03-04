@@ -49,3 +49,6 @@ Las capacidades del recurso describen lo que pueden realizar los recursos de ope
 5. En el campo Nivel, escriba un número.
     * Cuando especifica que un trabajo o una operación requiere una capacidad en particular, también puede especificar el nivel mínimo requerido. Use el nivel de capacidad para diferenciar los recursos que pueden realizar el mismo trabajo, pero a distintas velocidades, puntos fuertes tamaños, etc.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

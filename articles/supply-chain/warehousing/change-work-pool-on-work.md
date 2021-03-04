@@ -149,3 +149,6 @@ Puede usar la página **Detalles del trabajo** para ver el trabajo que se creó 
 > Cuando aparece el cuadro de diálogo **Cambiar grupo de trabajo**, el campo **Id. del grupo de trabajo** puede estar en blanco de forma predeterminada. Si el campo está en blanco cuando selecciona **Aceptar** para aplicar cambios, eliminará el grupo de trabajo completamente del trabajo.
 >
 > Además de cambiar los grupos de trabajo, puede utilizar este procedimiento para agregar un grupo de trabajo a cualquier elemento de trabajo que no tenga uno, o para eliminar un grupo de trabajo de cualquier elemento de trabajo que sí lo tenga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

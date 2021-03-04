@@ -44,3 +44,6 @@ Use el formulario **Eliminar pedido de devolución** para eliminar varios pedido
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

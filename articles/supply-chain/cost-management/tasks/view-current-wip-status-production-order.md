@@ -38,3 +38,6 @@ Este procedimiento muestra cómo ver un informe de trabajo en curso en un pedido
 6. En el campo Fecha inicial, defina la fecha en "2012-12-01".
 7. En el campo Fecha final, defina la fecha en "2012-12-31".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

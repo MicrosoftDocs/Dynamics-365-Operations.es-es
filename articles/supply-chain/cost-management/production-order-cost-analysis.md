@@ -65,3 +65,6 @@ Los informes individuales proporcionan información acerca de cada tipo de trans
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
     * Tenga en cuenta que solo un elemento raíz está disponible ahora asignar a los orígenes de datos de la aplicación. Cuando se introduce al menos una asignación de modelo, solo los artículos raíz del modelo se asignan a los orígenes de datos de la aplicación se pueden seleccionar como definición de modelo cuando se agrega el formato de ER.   
 5. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

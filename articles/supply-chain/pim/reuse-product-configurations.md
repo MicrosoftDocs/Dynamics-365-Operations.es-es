@@ -45,3 +45,6 @@ Cuando restablece la reutilización de la configuración, las configuraciones an
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

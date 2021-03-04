@@ -50,3 +50,6 @@ La depreciación sin redondeo se calcula como 2.444,44. En función de la config
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

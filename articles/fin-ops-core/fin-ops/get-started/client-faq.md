@@ -54,3 +54,6 @@ La opción **Ver detalles** solo está disponible de dos formas diferentes:
 
 - Si un control tiene capacidades **Ver detalles**, y si el control tiene un valor, ese valor se muestra como hipervínculo. Puede hacer clic en el hipervínculo para abrir una página que contiene detalles adicionales.
 - **Ver detalles** también es una opción en los menús contextuales. Para obtener más información acerca de cuándo se muestran los menús contextuales al hacer clic con el botón secundario, consulte la sección anterior.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

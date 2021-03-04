@@ -37,3 +37,6 @@ Este procedimiento muestra cómo crear un elemento de menú del dispositivo móv
 5. En el campo Modo, seleccione "Indirecto".
 6. En el campo Código de actividad, seleccione "Consolidar matrículas".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

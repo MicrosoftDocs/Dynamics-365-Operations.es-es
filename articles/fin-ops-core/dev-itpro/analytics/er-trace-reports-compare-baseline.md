@@ -243,3 +243,6 @@ La línea base se agrega para el formato **Formato para aprender líneas base de
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Configurar el marco de informes electrónicos (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

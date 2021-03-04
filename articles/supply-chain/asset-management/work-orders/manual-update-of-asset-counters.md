@@ -64,3 +64,6 @@ En la página **Contadores de activos** (**Administración de activos** > **Cons
 >[!NOTE]
 >Puede configurar un intervalo para definir desviaciones en los registros de contadores manuales. También puede especificar el tipo de mensaje que se muestra si los registros están fuera del intervalo definido. Para obtener más información sobre la configuración de los contadores, consulte [Contadores](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

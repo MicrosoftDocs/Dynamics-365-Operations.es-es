@@ -98,3 +98,6 @@ Puede definir varios grupos de cálculo de L. MAT, en función de los requisitos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

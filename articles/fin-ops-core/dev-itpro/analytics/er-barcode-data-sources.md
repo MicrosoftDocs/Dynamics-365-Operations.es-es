@@ -303,3 +303,6 @@ Sin embargo, cuando usa origen de datos **Código de barras** para producir cód
 - [Destinos de informes electrónicos](electronic-reporting-destinations.md)
 - [Idioma de fórmulas en los informes electrónicos](er-formula-language.md)
 - [Función NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

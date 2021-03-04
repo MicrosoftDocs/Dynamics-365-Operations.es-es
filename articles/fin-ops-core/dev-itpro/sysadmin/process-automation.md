@@ -47,3 +47,6 @@ Cada repetición puede modificarse sin afectar otras repeticiones definidas por 
 ## <a name="developer-documentation"></a>Documentación del desarrollador
 
 El marco de automatización de procesos permite a los desarrolladores ampliar el marco de automatización de procesos. La documentación del [Marco de automatización de procesos](../process-automation/process-automation-framework.md) proporciona información sobre cómo puede crear procesos personalizados que deben ser ejecutados por el servidor por lotes programado con el asistente de automatización de procesos y que aparecen automáticamente en la vista de calendario.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

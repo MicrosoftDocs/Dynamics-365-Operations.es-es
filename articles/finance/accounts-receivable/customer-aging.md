@@ -145,3 +145,6 @@ Cuando genere este informe, se mostrarán los siguientes parámetros predetermin
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

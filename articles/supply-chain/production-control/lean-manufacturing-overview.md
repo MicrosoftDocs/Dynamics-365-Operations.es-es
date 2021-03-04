@@ -83,3 +83,6 @@ Además, lean manufacturing apoya los procesos de compra y de facturación de lo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

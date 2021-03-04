@@ -250,3 +250,6 @@ Si el asiento del subdiario contable es incorrecto cuando obtiene la vista previ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

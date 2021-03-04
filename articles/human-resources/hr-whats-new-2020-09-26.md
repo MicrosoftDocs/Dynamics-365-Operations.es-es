@@ -85,3 +85,6 @@ Para obtener una lista completa de las características previstas y sus lanzamie
 [Visión general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Proceso de actualización](hr-admin-setup-update-process.md)
 [Administrar características](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Este procedimiento muestra cómo crear una directiva de acumulación de costes y
     * Continúe hasta que todos los centros de coste se hayan asignado a los elementos de coste secundarios correspondientes.  
 16. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

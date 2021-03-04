@@ -75,3 +75,6 @@ Las relaciones de tarea de servicio creadas en un pedido de servicio estarán di
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

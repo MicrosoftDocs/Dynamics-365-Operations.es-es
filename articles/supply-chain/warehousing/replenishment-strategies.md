@@ -115,3 +115,6 @@ Los resultados difieren debido a la información que está disponible cuando cre
 [![Ejemplo 2](media/ReplenTemp_example_2.png "Ejemplo 2")](media/ReplenTemp_example_2_large.png)
 
 Por lo tanto, para obtener la cantidad máxima en las ubicaciones reabastecidas, debe establecer la opción **Permitir dividir** en *Sí* en las directivas de ubicación para el picking de reabastecimiento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

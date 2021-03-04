@@ -50,3 +50,6 @@ Después de crear grupos de arrendamientos, puede asignar libros a cada grupo. C
 1. Vaya a **Arrendamiento de activos \> Configuración \> Grupo de arrendamientos**.
 2. Seleccione un grupo de arrendamientos y luego seleccione **Libros**.
 3. Seleccione **Nuevo** y luego, en el campo **Tipo de libro**, seleccione el libro para asignar al grupo de arrendamientos. Puede asignar varios libros a un grupo de arrendamientos si un arrendamiento debe contabilizarse de diferentes maneras.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

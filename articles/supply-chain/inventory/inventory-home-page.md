@@ -58,3 +58,6 @@ Puede encontrar opiniones, novedades y otra información acerca de la gestión d
 
 ### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tarea. Para tener acceso a las guías de tareas, haga clic en el botón **Ayuda** en cualquier página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

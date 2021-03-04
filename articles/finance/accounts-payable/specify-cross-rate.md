@@ -44,3 +44,6 @@ Por ejemplo, la divisa de contabilidad es USD, la divisa de la factura es CAD y 
 3.  Para un cliente, en la página de lista **Todos los clientes**, vaya a **Cobrar > Liquidar transacciones abiertas**. Para un proveedor, en la página de lista **Todos los proveedores**, vaya a **Factura > Liquidar transacciones abiertas**. 
 4.  Seleccione la transacción que es el pago principal y haga clic en en **Marcar pago**. Se selecciona la casilla de la columna **Marcar** y se muestra un icono de información en la columna **Pago principal**. 
 5.  En el campo **Tipo de cambio cruzado**, especifique el tipo de cambio entre la divisa de la factura y la divisa de pago, en la fecha de liquidación. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

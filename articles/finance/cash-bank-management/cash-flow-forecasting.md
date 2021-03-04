@@ -150,3 +150,6 @@ Además, puede ver los datos de previsión de flujo de efectivo para cuentas, pe
 - **Previsión de suministro**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de suministro del artículo seleccionado.
 - **Previsión de demanda**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de demanda del artículo seleccionado.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

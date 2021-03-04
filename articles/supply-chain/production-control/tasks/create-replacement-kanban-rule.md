@@ -56,3 +56,6 @@ Este procedimiento se centra en el reemplazo de una regla kanban existente por u
 1. Defina la cantidad máxima en "100".
     * Expanda la ficha desplegable Cantidades para ver el campo Cantidad máxima. El cambio de la cantidad máxima a 100 le permitirá que se procesen hasta 100 kanbans.    Este es el último paso de esta tarea.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

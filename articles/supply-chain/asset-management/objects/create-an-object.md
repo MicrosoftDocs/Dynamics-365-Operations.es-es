@@ -116,3 +116,6 @@ En esta ficha desplegable puede agregar o quitar rondas de mantenimiento relacio
 ## <a name="financial-dimensions"></a>Dimensiones financieras
 
 Puede seleccionar dimensiones financieras para el activo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 8. En el árbol, expanda "Intrastat modelo".
 9. En el árbol, seleccione "Modelo de Intrastat\Intrastat (DE)".
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

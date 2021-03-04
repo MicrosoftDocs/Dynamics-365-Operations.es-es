@@ -50,3 +50,6 @@ Esta grabación de tarea le guía por la configuración de los impuestos y los g
 19. En la lista, haga clic en el vínculo de la fila seleccionada.
 20. Haga clic en **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

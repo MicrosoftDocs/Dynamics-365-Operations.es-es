@@ -59,3 +59,6 @@ Este procedimiento le muestra el proceso para crear y enviar un diario de transf
 1. Haga clic en **Inventario**.
 2. Haga clic en **Transacciones**. Aquí puede ver las transacciones creadas al registrar el diario.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

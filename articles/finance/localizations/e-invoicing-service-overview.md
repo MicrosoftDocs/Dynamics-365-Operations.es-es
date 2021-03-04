@@ -113,3 +113,6 @@ Habilitar y usar la facturación electrónica puede requerir el envío de datos 
 - [Introducción al complemento de facturación electrónica para México](e-invoicing-mex-get-started.md)
 - [Introducción al complemento de facturación electrónica para Italia](e-invoicing-ita-get-started.md)
 - [Configurar el complemento de facturación electrónica](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

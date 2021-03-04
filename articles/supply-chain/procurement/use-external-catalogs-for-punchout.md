@@ -55,3 +55,5 @@ Cuando la solicitud esté lista, use la acción **Flujo de trabajo** > **Enviar*
 
 - [Configurar un catálogo externo para la adquisición electrónica de marcaje de salida](set-up-external-catalog-for-punchout.md)
 - [Mejoras de cXML de compra](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

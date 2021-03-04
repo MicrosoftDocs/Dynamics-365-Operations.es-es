@@ -169,3 +169,6 @@ La plantilla modificada se usa para generar el informe de facturas de servicios 
 [Visión general de la gestión de documentos empresariales](er-business-document-management.md)
 
 [Diseñar una configuración para generar informes en formato OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

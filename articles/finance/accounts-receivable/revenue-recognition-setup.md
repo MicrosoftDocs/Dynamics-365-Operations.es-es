@@ -193,3 +193,6 @@ El reconocimiento de ingresos también se puede usar para pedidos de ventas que 
 
 - **Ingresos de factura diferidos** (bajo **Cuentas de ingresos**): especifique la cuenta principal para el precio de ingresos que se registra en los ingresos diferidos (en lugar de en los ingresos). El precio de ingresos se difiere si la línea de pedido de ventas tiene una programación de ingresos.
 - **Coste diferido** (bajo **Cuentas de costes**): especifique la cuenta principal para el importe de coste de bienes vendidos que se registra en el coste diferido de bienes vendidos si los ingresos también se han diferido.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

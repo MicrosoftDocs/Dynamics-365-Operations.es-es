@@ -33,3 +33,6 @@ La directiva de la UE proporciona la normativa que seguirán todos los estados m
 
 > [!NOTE]
 > Verifique que el campo **Especificación de impuestos de venta** esté establecido en **Divisa de registro** o **Divisa de registro y empresa** en la página **Configuración de formulario** de la pestaña **General** (**Clientes > Configuración > Formularios > Configuración de formulario** o **Gestión y contabilidad de proyectos > Configuración > Formularios > Configuración de formularios**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Seleccione uno de los siguientes temas para empezar.
 [Estados y ciclo de vida de documentos](document-states-overview.md)
 
 [Habilitar y usar el uso compartido entre canales](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

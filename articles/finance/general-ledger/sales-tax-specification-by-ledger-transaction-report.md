@@ -58,3 +58,6 @@ Cuando genere el informe, los siguientes campos predeterminados estarán disponi
 Para mostrar únicamente las cuentas no fiscales en el informe, configure una condición de filtro, como un asterisco (\*), como se muestra en la siguiente ilustración.
 
 ![Informe que muestra cuentas no fiscales](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

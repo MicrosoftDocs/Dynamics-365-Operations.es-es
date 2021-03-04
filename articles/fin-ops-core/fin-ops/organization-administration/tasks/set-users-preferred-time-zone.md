@@ -35,3 +35,6 @@ El siguiente tema explica el modo de un usuario en el rol de Administrador del s
 5. En el campo **Zona horaria**, seleccione una opción en la lista desplegable.
 6. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Este procedimiento muestra cómo crear una regla kanban que incluya varias activ
     * Observe que el kanban tiene dos trabajos de proceso del flujo de producción. El primero es SpeakerAssemblyAndPolish y el segundo es SpeakerTestAndPackaging.  
     * Este es el último paso.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

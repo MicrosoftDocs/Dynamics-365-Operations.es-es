@@ -123,3 +123,6 @@ Las dimensiones clave siguientes se utilizan como filtros para cortar las medida
 | Calendarios fiscales                   | Calendario, descripción del calendario                                                                                       |
 | Ejercicios                       | Año natural                                                                                                        |
 | Períodos fiscales                     | Período del año natural                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

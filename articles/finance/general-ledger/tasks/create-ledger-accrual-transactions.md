@@ -49,3 +49,6 @@ Esta guía de tareas describe los pasos de la generación de transacciones de ac
 17. Haga clic en Aceptar
 18. Haga clic en Registrar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

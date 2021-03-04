@@ -56,3 +56,6 @@ En tema se centra en la programación de un pedido de producción con programaci
 6. En el panel de acciones, seleccione **Pedido de producción**.
 7. Seleccione **Todos los trabajos**. Tenga en cuenta que basándose en la ruta activa, se crean 5 trabajos con la programación de trabajos.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

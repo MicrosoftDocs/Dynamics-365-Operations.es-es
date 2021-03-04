@@ -40,3 +40,5 @@ Asegúrese de habilitar los campos personalizados que cree para poder usarlos en
 [Entidades de Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Crear y trabajar con campos personalizados](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Exponer campos personalizados en entidades de datos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Los L. MAT fantasma también se pueden usar para una L. MAT con una red de rutas
 En la siguiente ilustración, (a) es el la L.MAT del producto G y la parte F y (b) es la hoja de ruta del producto G y la parte F.
 
 ![Producto G y parte F con hojas de ruta](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

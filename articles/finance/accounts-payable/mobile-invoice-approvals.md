@@ -535,3 +535,6 @@ Las variaciones siguientes se pueden realizar para el escenario 1, en función d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

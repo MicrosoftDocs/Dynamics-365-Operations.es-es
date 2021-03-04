@@ -89,3 +89,6 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 1.  En la aplicación móvil, seleccione el espacio de trabajo **Directorio de empresa**.
 2.  En el campo **Buscar**, especifique el nombre, el apellido, el puesto o el departamento del empleado para iniciar la búsqueda.
 3.  Seleccione un empleado. Aparece la página **Perfil de empleado**. La información de esta página incluye el nombre, el apellido, el puesto y departamento del empleado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

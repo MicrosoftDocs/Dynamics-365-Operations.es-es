@@ -41,3 +41,6 @@ El director de compensaciones y de prestaciones puede inscribir a empleados en l
 8. Expanda la sección Anulación de unidades organizativas.
     * Si se debe tener en cuenta el rendimiento del empleado, el rendimiento de distintos departamentos o un departamento distinto al asignado al puesto del empleado, el departamento se puede sobrescribir. La columna Porcentaje debe sumar 100.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

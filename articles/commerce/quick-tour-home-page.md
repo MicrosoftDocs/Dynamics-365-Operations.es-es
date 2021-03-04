@@ -73,3 +73,6 @@ La sección principal de la página principal puede resaltar productos, categor�
 [Visión general de las páginas del carro y de la finalización de la compra](quick-tour-cart-checkout.md)
 
 [Visión general de las páginas de la gestión de cuentas](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

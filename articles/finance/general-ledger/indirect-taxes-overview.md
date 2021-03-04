@@ -97,3 +97,6 @@ Sin embargo, si usa un impuesto condicional, se liquida con la autoridad fiscal 
 Si usa el cheque con fecha futura como método de pago, cuando se realiza el pago, la cuenta bancaria no se borra. En algunos países, el IVA se convierte en pasivo “realizado” cuando el pago borra el banco, que significa que el cheque con fecha futura se liquida. Puede habilitarlo seleccionando **Realizar los impuestos condicionales cuando se toman los cheques con fecha futura** en **Efectivo y gestión bancaria > Configuración > Parámetros de gestión de efectivo y bancos > Cheques con fecha futura**.
 
 Para obtener más información, consulte [Configurar la retención de impuestos](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

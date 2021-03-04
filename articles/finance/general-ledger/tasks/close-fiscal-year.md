@@ -83,3 +83,6 @@ Este procedimiento describe el proceso de cierre de fin de año que transfiere l
 23. El cierre de fin de año se ejecuta en lote de forma predeterminada. Es una práctica recomendada para los procesos de larga ejecución que se ejecuten en modo de lotes. Suele ser uno de estos procesos y ese es el motivo por el que el valor predeterminado es utilizar el modo de lotes.  
 24. Haga clic en **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

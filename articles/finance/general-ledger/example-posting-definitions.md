@@ -128,3 +128,6 @@ En este ejemplo, cualquier cuenta que sea parte de la cuenta de estructura conta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

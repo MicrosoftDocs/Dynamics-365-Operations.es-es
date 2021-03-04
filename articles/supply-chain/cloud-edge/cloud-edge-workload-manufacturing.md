@@ -110,3 +110,6 @@ Para revisar el historial de trabajos de fabricación que se han procesado en un
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Centro de fabricación para escalar el trabajo del procesador de mensajes de la unidad
 
 El trabajo _Centro de fabricación para el procesador de mensajes de la unidad de escala_ procesa datos desde el centro hasta la unidad de escalado. Este trabajo se inicia automáticamente cuando se implementa la carga de trabajo de ejecución de fabricación. Sin embargo, puede ejecutarlo manualmente en cualquier momento yendo a **Control de producción \> Tareas periódicas \> Gestión de la carga de trabajo de backoffice \> Centro de fabricación para el procesador de mensajes de la unidad de escala**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

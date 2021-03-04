@@ -122,3 +122,6 @@ Para volver a habilitar la opción de formulario **Información**, siga estos pa
 2. Busque el formulario **Información** bajo el nodo de formularios. 
 3. Seleccione el formulario **Información** y haga clic en **Habilitar roles de seguridad**. 
 4. Cambie la configuración de seguridad a **Mostrar para todos**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

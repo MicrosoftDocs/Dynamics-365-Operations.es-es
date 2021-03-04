@@ -82,3 +82,6 @@ La tabla siguiente muestra qué es un objeto de coste y qué es un objeto de inv
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

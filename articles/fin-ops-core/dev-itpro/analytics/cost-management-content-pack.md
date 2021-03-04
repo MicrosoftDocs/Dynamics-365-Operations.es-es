@@ -207,3 +207,6 @@ Las dimensiones clave siguientes se utilizan como filtros para cortar las medida
 | Entidades jurídicas                                          | Nombres de entidad jurídica                              |
 | Calendarios fiscales                                        | Calendario fiscal, año, trimestre, período, mes   |
 | Sitio                                                    | Identificador, nombre, dirección, Comunidad autónoma, País               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

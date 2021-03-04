@@ -142,3 +142,6 @@ No puede informar la cantidad de error en una orden de producción a menos que t
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>¿Puedo rastrear los números de serie de los productos terminados con los números de serie de los productos consumidos?
 
 No puede rastrear los números de serie de los productos terminados con los números de serie del material que consume una orden de producción para fabricar esos productos terminados. Este escenario no se admite actualmente. La solución es crear órdenes de producción por una cantidad de 1.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

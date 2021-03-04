@@ -68,3 +68,6 @@ Este procedimiento le muestra cómo crear un pedido de devolución de compras co
 4. En el campo **Recepción de producto**, escriba un valor. Este campo se utiliza para especificar una referencia que se usará como asiento para el diario de recepción de productos.  
 5. Haga clic en **Aceptar**. Las mercancías se han registrado ahora como enviadas en el pedido de devolución de compras y se ha creado un diario de recepción de producto. Puede utilizar la acción Recepción de producto para revisar los diarios creados con el pedido de compra y ver qué se ha recibido o devuelto, y cuándo.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

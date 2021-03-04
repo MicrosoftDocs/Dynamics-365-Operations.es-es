@@ -71,3 +71,6 @@ El proceso de actualización moverá la configuración existente y todas sus tra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

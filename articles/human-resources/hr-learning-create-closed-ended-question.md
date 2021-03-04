@@ -68,3 +68,6 @@ Las preguntas cerradas le permiten proporcionar opciones entre las que el encues
 5. En el campo Grupos de respuestas, especifique o seleccione un valor.
 6. En el campo Texto, escriba un valor.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
