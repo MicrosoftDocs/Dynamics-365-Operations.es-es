@@ -11,24 +11,23 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459880"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115929"
 ---
 # <a name="recognize-deferred-revenue"></a>Reconocer ingresos diferidos
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> La característica de reconocimiento de ingresos no se puede activar a través de la administración de características. Actualmente hay que usar las claves de configuración para activarla.
+> La característica Reconocimiento de ingresos no se puede activar a través de Administración de características. Actualmente, debe utilizar las claves de configuración para activarla.
 
 En este tema se describe el proceso para reconocer ingresos en la programación de reconocimiento de ingresos. Después de que la factura se haya registrado para un pedido de ventas, se crea una programación de reconocimiento de ingresos para cada línea de pedido de ventas que tiene una programación de ingresos. La programación de ingresos en una línea se usa para determinar si los ingresos de la línea se deben diferir.
 
@@ -37,11 +36,11 @@ En este tema se describe el proceso para reconocer ingresos en la programación 
 Hay dos maneras de tener acceso a los detalles de la programación de reconocimiento de ingresos.
 
 - Puede abrir la programación de aprobación de ingresos directamente a partir de un pedido de ventas facturado. En este caso, la información en la programación de ingresos se filtra para mostrar solo los detalles del pedido de ventas seleccionado. Este método resulta útil al validar los detalles de la programación para un pedido de ventas.
-- Puede abrir la programación de reconocimiento de ingresos desde la página **Reconocimiento de ingresos \> Tareas periódicas**. Este método se usa a menudo cuando los ingresos se reconocen al final de un período. Cuando se abre la página por primera vez, no se muestra ninguna información. Use los filtros sobre la cuadrícula para definir los criterios de los detalles de la programación que se deben mostrar. Puede filtrar según las fechas de factura si especifica un intervalo de fechas, un pedido de ventas, un cliente, un id. de proyecto o un estado.
+- Puede abrir la programación de reconocimiento de ingresos desde la página **Reconocimiento de ingresos \> Tareas periódicas**. Este método se usa a menudo cuando los ingresos se reconocen al final de un período. Cuando se abre la página por primera vez, no se muestra ninguna información. Use los filtros sobre la cuadrícula para definir los criterios de los detalles de la programación que se deben mostrar. Puede filtrar según las fechas de factura introduciendo un intervalo de fechas, un pedido de ventas, un cliente, un id. de proyecto o un estado.
 
-[![Página de programaciones de ingresos](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![Ilustración de la página Programaciones de ingresos](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
-La ficha desplegable **Dimensión financiera** debajo de la cuadrícula muestra las dimensiones financieras de la línea del pedido de ventas. Estas dimensiones se consideraron durante el registro en los ingresos diferidos. También se consideran cuando se reconocen los ingresos. Los valores de dimensión que se utilizan dependen de la estructura contable que se asigna a las cuentas principales de ingresos y de ingresos diferidos.
+La ficha desplegable **Dimensión financiera** situada debajo de la cuadrícula muestra las dimensiones financieras de la línea del pedido de ventas. Estas dimensiones se consideraron durante el registro en los ingresos diferidos. También se consideran cuando se reconocen los ingresos. Los valores de dimensión que se utilizan dependen de la estructura contable que se asigna a las cuentas principales de ingresos y de ingresos diferidos.
 
 ## <a name="recognize-revenue"></a>Reconocer ingresos
 

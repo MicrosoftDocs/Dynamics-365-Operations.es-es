@@ -11,24 +11,23 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e2eafc6785aaf9bc7421bc80c90fa4a7f98a2d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6212ecbf1883405d7ca8cb1dba752b778e4d901c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459853"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995551"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Reconocimiento de ingresos en pedidos de ventas
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> La característica de reconocimiento de ingresos no se puede activar a través de la administración de características. Actualmente hay que usar las claves de configuración para activarla.
+> La característica Reconocimiento de ingresos no se puede activar a través de Administración de características. Actualmente, debe utilizar las claves de configuración para activarla.
 
 En este tema se describe la funcionalidad básica para reconocer ingresos en pedidos de ventas y facturas. El reconocimiento de ingresos está disponible en un pedido de ventas y en la factura correspondiente que se crea a partir del pedido de ventas. El pedido de ventas también se puede crear mediante un proyecto de tiempo y materiales.
 

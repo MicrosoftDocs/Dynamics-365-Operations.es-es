@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69d2d320434baab21fb7e7c57ce1f043e4946d69
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89c47fc9e3627e5ecb41ecba6854729ef340493c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459838"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993147"
 ---
 # <a name="accounts-receivable-home-page"></a>Página principal de clientes
 
@@ -102,7 +101,7 @@ Vaya a la [Guía básica de Microsoft Dynamics 365](https://go.microsoft.com/fwl
 
 Puede encontrar opiniones, noticias y otra información sobre clientes y otras soluciones en el blog de [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog de [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
+El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
 
 #### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tareas en la aplicación. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.

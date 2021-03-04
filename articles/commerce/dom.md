@@ -3,14 +3,13 @@ title: Gestión de pedidos distribuida (DOM)
 description: En este tema se describe la funcionalidad de gestión de pedidos distribuida (DOM) de Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
-ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.openlocfilehash: 367eaebfdd59d15040bfd4824b0b6f4621cb7147
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4459903"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982600"
 ---
 # <a name="distributed-order-management-dom"></a>Gestión de pedidos distribuida (DOM)
 
@@ -49,10 +48,14 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
     - **Habilitar gestión de pedidos distribuida**: establezca esta opción en **Sí**.
     - **Confirmar uso de mapas de Bing para DOM**: establezca esta opción en **Sí**.
 
-        > [!NOTE]
-        > Puede establecer esta opción en **Sí** solo si la opción **Habilitar Mapas de Bing** en la pestaña **Mapas de Bing** de la página **Parámetros compartidos de Commerce** (**Retail y Commerce \> Configuración de sede central \> Parámetros \> Parámetros compartidos de Commerce**) también está establecida en **Sí**, y si se ha especificado una clave válida en el campo **Clave de Mapas de Bing**.
 
-    - **Período máximo de retención en días**: especifique cuánto tiempo se conservarán los planes de cumplimiento que las ejecuciones de DOM generan. El trabajo por lotes **Configuración de trabajo de eliminación de datos de cumplimiento de DOM** eliminará cualquier plan de cumplimiento que sea más antiguo que el número de días especificado aquí.
+        > [!NOTE]
+        > Puede establecer esta opción en **Sí** solo si la opción **Habilitar Mapas de Bing** de la pestaña **Mapas de Bing** de la página **Parámetros compartidos de Commerce** (**Retail y Commerce \> Configuración de Headquarters \> Parámetros \> Parámetros compartidos de Commerce**) también está establecida en **Sí**, y si se ha especificado una clave válida en el campo **Clave de Mapas de Bing**.
+        >
+        > El portal [Centro de desarrollo de Mapas de Bing](https://www.bingmapsportal.com/) le permite restringir el acceso a sus claves de API de Mapas de Bing a un conjunto de dominios que especifique. Con esta característica, los clientes pueden definir un conjunto estricto de valores de referencia o rangos de direcciones IP frente a los que se validará la clave. Las solicitudes que se originan en su lista de permitidos se procesarán normalmente, mientras que las solicitudes de fuera de su lista devolverán una respuesta de acceso denegado. La adición de seguridad de dominio a su clave de API es opcional y las claves que se dejan como están seguirán funcionando. La lista de permitidos para una clave es independiente del resto de sus claves, lo que le permite tener reglas distintas para cada una de sus claves. La administración de pedidos distribuida no admite la configuración de propiedades referidas al dominio.
+
+
+    - **Período de retención en días**: especifique cuánto tiempo se conservarán en el sistema los planes de cumplimiento que las ejecuciones de DOM generan. El trabajo por lotes **Configuración de trabajo de eliminación de datos de cumplimiento de DOM** eliminará cualquier plan de cumplimiento que sea más antiguo que el número de días especificado aquí.
     - **Período de rechazo (en días)**: especifique el tiempo que debe transcurrir antes de que una línea de pedido rechazada se pueda asignar a la misma ubicación.
 
 5. En la pestaña **Solucionador**, establezca los siguientes valores:
@@ -62,16 +65,17 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
     - **Tipo de solucionador**: seleccione un valor. Retail incluye dos tipos de solucionador con Commerce: **Solucionador de producción** y **Solucionador simplificado**. Para todos los equipos que ejecuten DOM (es decir, todos los servidores que formen parte del grupo DOMBatch) hay que seleccionar **Solucionador de producción**. El Solucionador de producción requiere la clave de licencia especial que, de forma predeterminada, se otorga e implementa en los entornos de producción. Para los entornos que no sean de producción esta clave de licencia debe implementarse manualmente. Siga estos pasos para implementar manualmente la clave de licencia:
 
         1. En Microsoft Dynamics Lifecycle Services, abra la Biblioteca de activos compartidos, seleccione **Modelo** como tipo de activo y descargue el archivo **Licencia de DOM**.
-        2. Inicie el Administrador de Microsoft Internet Information Services (IIS), haga clic con el botón derecho en **Sitio web de AOSService** y, a continuación, seleccione **Explorar**. Se abre una ventana del Explorador de Windows en **\<AOS service root\>\\webroot**. Anote la ruta de acceso a \<AOS Service root\>. La va a utilizar en el paso siguiente.
-        3. Copie el archivo de configuración en el directorio **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. Vaya al cliente de Headquarters y abra la página **Parámetros de DOM**. En la pestaña **Solucionador**, en el campo **Tipo de solucionador**, seleccione **Solucionador de producción** y confirme que no aparece ningún mensaje de error.
+        1. Inicie el Administrador de Microsoft Internet Information Services (IIS), haga clic con el botón derecho en **Sitio web de AOSService** y, a continuación, seleccione **Explorar**. Se abre una ventana del Explorador de Windows en **\<AOS service root\>\\webroot**. Anote la ruta de acceso a \<AOS Service root\>. La va a utilizar en el paso siguiente.
+        1. Copie el archivo de configuración en el directorio **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
+        1. Vaya al cliente de Headquarters y abra la página **Parámetros de DOM**. En la pestaña **Solucionador**, en el campo **Tipo de solucionador**, seleccione **Solucionador de producción** y confirme que no aparece ningún mensaje de error.
+
 
         > [!NOTE]
         > El Solucionador simplificado se proporciona para que los minoristas puedan probar la característica DOM sin tener que implementar la licencia especial. Las organizaciones no deben usar el Solucionador simplificado en entornos de producción.
         >
-        > Aunque el Solucionador simplificado proporciona el mismo conjunto de funciones que el Solucionador de producción, tiene limitaciones de rendimiento (el número de pedidos y líneas de pedido que se pueden gestionar en una ejecución) y de convergencia de resultados (un lote de pedidos puede no producir el mejor resultado en algunas situaciones).
+        > El Solucionador de producción mejora el rendimiento (como el número de pedidos y líneas de pedido que se pueden manejar en una ejecución) y la convergencia de resultados (dado que un lote de pedidos puede no producir el mejor resultado en algunas situaciones). Algunas reglas, como **Órdenes parciales** y **Número máximo de ubicaciones** requieren del Solucionador de producción.
      
-6. Vuelva a **Retail y Commerce \> Gestión de pedidos distribuida \> Configuración \> Parámetros de DOM**.
+6. Vuelva a **Retail y Commerce \> Administración de pedidos distribuida \> Configuración \> Parámetros de DOM**.
 7. En la pestaña **Secuencias numéricas**, asigne las secuencias numéricas necesarias a las distintas entidades de DOM.
 
     > [!NOTE]
@@ -121,9 +125,9 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
         \* Si **Completar pedidos parciales** está establecida en **No**, siempre se considerará que **Completar líneas parciales** está establecida en **No**, independientemente de cuál sea su valor real.
 
         > [!NOTE]
-        > En Retail versión 10.0.5, el parámetro **Completar el pedido desde una sola ubicación** se cambió a **Ubicaciones de cumplimiento máximas**. En lugar de permitir que un usuario configure si los pedidos se pueden completar a partir de una ubicación únicamente o completar desde las máximas ubicaciones posibles, los usuarios pueden especificar ahora si el cumplimiento puede ser de un conjunto de ubicaciones determinado (hasta un máximo de 5) o de tantas ubicaciones como sea posible. Esto proporciona una mayor flexibilidad en cuanto al número de ubicaciones desde las que se pueda completar el pedido.
+        > En Retail versión 10.0.5, el parámetro **Completar el pedido desde una sola ubicación** se cambió a **Ubicaciones de cumplimiento máximas**. En lugar de permitir que un usuario configure si los pedidos se pueden completar a partir de una ubicación únicamente o completar desde las máximas ubicaciones posibles, los usuarios pueden especificar ahora si el cumplimiento puede ser de un conjunto de ubicaciones determinado (hasta un máximo de 5) o de tantas ubicaciones como sea posible. Esto ofrece una mayor flexibilidad en cuanto al número de ubicaciones desde las que se puede completar el pedido. Esta regla solo funciona con el Solucionador de problemas. 
 
-   - **Regla de ubicación de cumplimiento sin conexión**: esta regla permite a las organizaciones especificar una ubicación o un grupo de ubicaciones como sin conexión o no disponibles para DOM de manera que no se les puedan asignar pedidos a esas ubicaciones para cumplimiento.
+   - **Regla de ubicación de cumplimiento sin conexión**: esta regla permite a las organizaciones especificar una ubicación o un grupo de ubicaciones como sin conexión o no disponibles para DOM, de manera que no se les puedan asignar pedidos a esas ubicaciones para cumplimiento.
     - **Regla de número máximo de rechazos**: la regla permite a las organizaciones definir un umbral de rechazos. Cuando se alcance el umbral, el procesador de DOM marcará un pedido o una línea de pedido como una excepción y los excluirá del procesamiento posterior.
 
         Después de que se hayan asignado líneas de pedido a una ubicación, la ubicación puede rechazar una línea de pedido asignada si no la puede cumplir por alguna razón. Las líneas rechazadas se marcan como excepciones y se colocan en un grupo para procesarlas en la siguiente ejecución. Durante la siguiente ejecución, DOM intentará asignar la línea rechazada a otra ubicación. La nueva ubicación también puede rechazar la línea de pedido asignada. Este ciclo de asignación y rechazo puede repetirse varias veces. Cuando el recuento de rechazos alcanza el umbral definido, DOM marcará la línea de pedido como una excepción permanente y no volverá a seleccionar esa línea para su asignación. DOM solo volverá a considerar la línea de pedido para su reasignación si un usuario restablece manualmente el estado de la línea de pedido.

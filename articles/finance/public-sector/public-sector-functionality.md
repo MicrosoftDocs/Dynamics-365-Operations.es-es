@@ -1,6 +1,6 @@
 ---
-title: Página principal de Sector público
-description: Microsoft Dynamics 365 Finance permite procesos empresariales que son comunes para los sectores público y privado, como las tareas de gestión presupuestaria, compras, pago de proveedores y pago de clientes.
+title: Página principal del sector público
+description: Dynamics 365 Finance admite los procesos de negocio del sector público. Entre estos se encuentran las tareas de presupuestación, compras, proveedores y clientes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
@@ -19,14 +18,14 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459851"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984693"
 ---
-# <a name="public-sector-home-page"></a>Página principal de Sector público
+# <a name="public-sector-home-page"></a>Página principal del sector público
 
 [!include [banner](../includes/banner.md)]
 
@@ -60,9 +59,8 @@ La clave de configuración **Sector público** habilita las páginas y los contr
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>¿Cómo se relaciona la clave de configuración Sector público con otras claves de configuración?
 La siguiente tabla ofrece información acerca de cómo esta clave de configuración hace referencia a otras claves de configuración.
 
-|            |                                                                                                                                                                                                                     |
+|   **Detalle**         |              **Descripción**                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Detalle** | **Descripción**                                                                                                                                                                                                     |
 | Clave principal | Ninguno                                                                                                                                                                                                                |
 | Claves secundarias | Clave de configuración **Asiento contable avanzado** (AdvancedLedgerEntry) Clave de configuración **Sector público 1099G** (Tax1099G) Clave de configuración **Sector público 1099S** (Tax1099S) Clave de configuración **Normativa francesa** |
 

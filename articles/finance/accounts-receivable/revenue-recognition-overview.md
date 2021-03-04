@@ -1,6 +1,6 @@
 ---
 title: Introducción al reconocimiento de ingresos
-description: Este tema proporciona información acerca de la función de reconocimiento de ingresos. Esta característica proporciona un marco flexible que permite definir reglas específicas de la empresa para reconocer tanto el precio como la programación de ingresos en pedidos de varios artículos.
+description: Este tema proporciona información acerca de la función de reconocimiento de ingresos. Esta característica proporciona un marco flexible que permite definir reglas específicas de la empresa para reconocer tanto el precio como la programación de ingresos en pedidos de varios elementos.
 author: kweekley
 manager: aolson
 ms.date: 11/11/2019
@@ -11,30 +11,31 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 92af567499c1a8a23cd4d51e5bab48eaab2d8422
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: a7e37a0800ec7909f79e5a2354f59c7450995641
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4459905"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995623"
 ---
 # <a name="revenue-recognition-overview"></a>Introducción al reconocimiento de ingresos
 
 [!include [banner](../includes/banner.md)]
 
-> [!NOTE]
-> La característica de reconocimiento de ingresos no se puede activar a través de la administración de características. Actualmente hay que usar las claves de configuración para activarla.
+Las empresas de sectores que venden múltiples elementos, como productos, servicios, suscripciones, etc., necesitan poder desglosar pedidos con varios elementos para poder reconocer los ingresos en función de un conjunto de directrices específicas de la empresa y del sector.
 
-Las empresas de sectores que venden múltiples artículos, como productos, servicios, suscripciones, etc., necesitan realizar pedidos con varios artículos para poder reconocer el ingreso en función de un conjunto de instrucciones específicas de la empresa y del sector.
+> [!NOTE]
+> La característica Reconocimiento de ingresos no se puede activar a través de Administración de características. Actualmente, debe utilizar las claves de configuración para activarla.
+
+> Reconocimiento de ingresos, incluida la funcionalidad de agrupación de trabajos, no se admite para su uso en los canales de Commerce (comercio electrónico, PDV, centro de llamadas). Los elementos configurados con reconocimiento de ingresos no deben agregarse a pedidos o transacciones creadas en los canales de Commerce.
 
 En general, el proceso de reconocimiento de ingresos se puede usar para realizar estas tareas:
 
-* Asignar ingresos para ayudar a garantizar el reconocimiento del precio de ingresos adecuado, según el valor de los componentes de los pedidos con varios artículos.
+* Asignar ingresos para ayudar a garantizar el reconocimiento del precio de ingresos adecuado, según el valor de los componentes de los pedidos con varios elementos.
 * Diferir los ingresos en función de una programación de ingresos que represente el marco contractual y los porcentajes para reconocer ingresos en el tiempo.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
