@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: AssetRevaluationGroup, AssetBookTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264994
 ms.search.region: Spain
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 56643ab00380da9094d7f4f9eedfece59207d1b6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 545ede82344d683ab0508913daf9c030bdd178ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407811"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992741"
 ---
 # <a name="fixed-asset-revaluation-groups"></a>Grupos de revalorización de activos fijos
 
@@ -92,6 +91,3 @@ Puede configurar un grupo de revalorización en la página **Grupos de revaloriz
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

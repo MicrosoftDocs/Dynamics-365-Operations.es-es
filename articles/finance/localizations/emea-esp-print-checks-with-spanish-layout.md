@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BankChequeLayout, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 274753
 ms.search.region: Spain
 ms.author: v-lenest
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 16eaa340a2796dca48ffdfb073ea66c9004507c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f972c1d787fb1fc23036faba3cba11a88516bb37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407806"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992727"
 ---
 # <a name="print-checks-by-using-the-spanish-layout"></a>Imprimir cheques con diseño español
 
@@ -38,6 +37,3 @@ Para utilizar la funcionalidad de cheques junto con diseño español, debe tener
 
 Para generar cheques con diseño español, se utiliza la funcionalidad básica del diario de pagos (proveedores). Para obtener más información, consulte [Resumen de pagos del proveedor](../cash-bank-management/tasks/vendor-payment-overview.md). Después de ejecutar la función de pagos Generar y seleccionar todos los parámetros necesarios como se describe en este tema, se generan los cheques. Si la divisa en la línea de diario de pago es distinta de la cuenta bancaria, puede generar un cheque igualmente, siempre y cuando el diseño del cheque esté configurado para poder usar otras divisas.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

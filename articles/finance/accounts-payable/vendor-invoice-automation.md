@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0e5c08fc09439ce3889ade4f1da44120275ee075
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447547"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993300"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatización de facturas para documentos escaneados
 
@@ -232,6 +231,3 @@ Los siguientes roles proporcionan acceso de solo lectura al visualizador de adju
 + **Funcionario de proveedores** y **Administrador de los proveedores** - El derecho de mantener las facturas de proveedor se asigna a estos roles.
 
 De forma predeterminada, si el rol de usuario proporciona derechos de edición en cualquier página, el usuario también tendrá derechos de edición en el visualizador de datos adjuntos para las acciones de resaltar, bloquear y anotar. Sin embargo, si hay escenarios donde un rol específico debe tener derechos de edición en la página pero no en el visualizador de adjuntos, los privilegios necesarios la lista anterior se pueden utilizar para satisfacer este caso.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

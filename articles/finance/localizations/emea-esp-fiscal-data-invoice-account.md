@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 265224
 ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f32abe09da9239d736c1f6425cdf8632b196b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5175880f3202640aa9cae2bfdb8acdd1d604c897
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407812"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992743"
 ---
 # <a name="use-fiscal-data-from-the-invoice-account"></a>Usar datos fiscales de la cuenta de factura
 
@@ -71,6 +70,3 @@ Cuando se modifica el campo **Cuenta de facturación**, los campos siguientes pu
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

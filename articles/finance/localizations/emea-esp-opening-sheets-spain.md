@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LedgerOpeningSheet_ES
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261334
 ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c6440ada086b1acc0182972bfca23b13933539b3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e5b49798bdc163e0fc9a9465ad48b9a94de89b2a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407807"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992733"
 ---
 # <a name="special-entries-and-opening-sheets"></a>Entradas especiales y hojas de apertura
 
@@ -54,6 +53,3 @@ Tras especificar información general sobre la hoja de apertura, deberá especif
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 19c7de1436b2fe4a859ac20d3db1fefa445a115f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527347"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991874"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales a Supply Chain Management
 
@@ -35,7 +34,7 @@ ms.locfileid: "4527347"
 En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar encabezados y líneas del presupuestos de ventas directamente de Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Microsoft Dataverse para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flujo de datos en Prospect to cash
 
@@ -61,10 +60,10 @@ Las siguientes tareas de sincronización son necesarias antes de que pueda produ
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
-| Ventas        | Gestión de la cadena de abastecimiento     |
+| Sales        | Gestión de la cadena de abastecimiento     |
 |--------------|----------------------------|
-| Ofertas       | Encabezado de presupuesto de ventas de CDS |
-| QuoteDetails | Líneas de presupuesto de ventas de CDS  |
+| Ofertas       | Encabezado de presupuesto de ventas de Dataverse |
+| QuoteDetails | Líneas de presupuesto de ventas de Dataverse  |
 
 ## <a name="entity-flow"></a>Flujo de la entidad
 
@@ -85,7 +84,7 @@ Un descuento se puede agregar al producto de presupuesto y será sincronizado co
 
 En Sales, la solución crea los siguientes campos de solo lectura, ya que los valores no se sincronizan con Supply Chain Management:
 
-- Campos de solo lectura en el encabezado del presupuesto de ventas: **% de descuento**, **Descuento** e **Importe del fleje**
+- Campos de solo lectura en el encabezado del presupuesto de ventas: **% de descuento**, **Descuento** e **Importe del flete**
 - Campos de sólo lectura de productos de presupuesto: **Impuestos**
 
 ## <a name="preconditions-and-mapping-setup"></a>Condiciones previas y configuración de asignación
@@ -143,6 +142,3 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 
 [Prospect to cash](prospect-to-cash.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebab41d8b7697f20095d6d4654718b88c8b08a82
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 40de7c378bff602fa3629bb190a7a89fe584d2a6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665207"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993221"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Opciones de configuración para la automatización de facturas de proveedores
 
@@ -33,7 +32,7 @@ Este tema describe las opciones que están disponibles para configurar y configu
 - Los parámetros para enviar facturas de proveedores importadas al sistema de flujo de trabajo y hacer coincidir las líneas de recepción de productos registradas con las líneas de facturas de proveedores pendientes.
 - Parámetros para tareas de segundo plano de automatización de procesos. El marco de automatización de procesos se utiliza para enviar facturas de proveedores importadas al sistema de flujo de trabajo. También se utiliza para hacer coincidir automáticamente líneas de recepción de productos registradas con líneas de facturas de proveedores pendientes y para realizar la validación de conciliación de facturas para las facturas manuales que se conciliaron automáticamente con las líneas de recepción de productos. Diferentes procesos de negocios utilizan este marco para definir la frecuencia de ejecución de un proceso seleccionado. Las frecuencias disponibles para los procesos de fondo **Hacer coincidir la recepción del producto con las líneas de la factura** y **Enviar las facturas del proveedor al flujo de trabajo** incluyen **Hora** y **Diario**.
 
-Para configurar o ver información sobre una tarea en segundo plano, vaya a **Administracion del sistema \> Preparar \> Automatizaciones de procesos** y seleccione la pestaña **Tarea de fondo**.
+Para configurar o ver información sobre una tarea en segundo plano, vaya a **Administración del sistema \> Preparar \> Automatizaciones de procesos** y seleccione la pestaña **Tarea de fondo**.
 
 Para lograr la automatización sin contacto desde el proceso de importación a través de la contabilización de facturas de proveedores, debe configurar un flujo de trabajo de facturas de proveedores. Para configurar un flujo de trabajo, vaya a **Proveedores > Configuración > Flujos de trabajo de proveedores**. Para asegurarse de que la factura se pueda procesar de principio a fin sin intervención manual, debe incluir una tarea de registro automatizado en la configuración de su flujo de trabajo.
 
@@ -63,6 +62,3 @@ Están disponibles los siguientes parámetros:
 
 - **Número de veces que se intenta la coincidencia automática** - Seleccione la cantidad de veces que el sistema debe intentar hacer coincidir los recibos de productos con una línea de factura antes de concluir que el proceso falló. Cuando se alcanza el número especificado de intentos, la factura se elimina del procesamiento de automatización.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

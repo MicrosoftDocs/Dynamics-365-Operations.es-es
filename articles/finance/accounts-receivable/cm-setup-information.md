@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447476"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991271"
 ---
 # <a name="credit-management-setup"></a>Configuración de la administración de crédito 
 
@@ -153,6 +152,3 @@ Siga estos pasos para agregar líneas que representen el límite de crédito que
 2. Seleccione el operador de comparación que define cómo se debe evaluar la información del grupo de puntuación.
 3. Especifique el valor que se debe comparar con el valor especificado para el grupo de puntuación.
 4. Especifique el límite de crédito que se debe asignar si la información del cliente coincide con el valor especificado para el grupo de puntuación. Por ejemplo, crea un límite de crédito automático para el grupo de puntuación **Bajo**. Si los años en el negocio representa uno de los grupos de puntuación, puede definir una línea que asigne un límite de crédito de 100 000 si el cliente lleva cinco años en el negocio y otra línea que asigna un límite de crédito de 200 000 si el cliente lleva 10 años en el negocio.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

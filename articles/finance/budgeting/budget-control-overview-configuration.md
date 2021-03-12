@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 4b371e6c87c65e707bf1468eb8df4be892f7750d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4447823"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990958"
 ---
 # <a name="budget-control-overview"></a>Visión general del control presupuestario
 
@@ -127,6 +126,3 @@ Una vez que se activa el control presupuestario, los usuarios recibirán mensaje
 En esta página, los usuarios pueden explorar la página **Estadísticas de control presupuestario por periodo** para ver los detalles de disponibilidad y las reservas para una combinación de dimensión de control de presupuesto seleccionada. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario** para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
 
 Si se activa el control presupuestario para los pedidos de compra, el director de presupuestos puede usar el espacio de trabajo **Presupuestos y previsiones contables** para revisar la cola de todos los pedidos de compra que tienen errores y advertencias de comprobación presupuestaria. Si el director de presupuestos tiene permisos de presupuesto excedido configurados, los pedidos de compra pueden confirmarse directamente en el espacio de trabajo.    
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

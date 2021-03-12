@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 819739d61839b297f454fd943071d99c08b48ec3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 50c1a4fd9269ab74901f0abaeadaf64ffddbd3e4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407809"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992736"
 ---
 # <a name="calculate-due-dates-and-report-on-the-average-period-of-payments-spain"></a>Calcular las fechas de vencimiento y el informe en el período medio de pagos (España)
 
@@ -111,6 +110,3 @@ Para generar el informe siga los pasos siguientes.
 4. En el grupo de campos **Cálculo**, en el campo **Método de cálculo**, seleccione el método de cálculo (**Fecha de factura** o **Fecha de vencimiento**).
 5. En la ficha desplegable **Registro para incluir**, especifique los criterios que deben emplearse para seleccionar las transacciones del proveedor, como facturas, pagos y diarios de pagarés. (Use **Filtrar** para especificar los criterios).
 6. Haga clic en **Aceptar** para generar el informe.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c504ef36f61613c7aa7db5a1e5ddba6e69cd7285
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e0076e838ad4eac687dc7db1bc0a94891f0ee6d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447733"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991026"
 ---
 # <a name="create-sales-order-invoices"></a>Crear facturas de pedidos de ventas
 
@@ -68,6 +67,3 @@ Esta guía de tarea describe la facturación de un pedido de ventas e incluye la
 10. Haga clic en **Cancelar**.
 11. Haga clic en **Sí**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

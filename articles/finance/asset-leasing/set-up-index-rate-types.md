@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 16b83102aa76f46473138f89ea487e71668a188c
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: f362bf4a6b5de3ce16330aea08880b07b4145792
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447801"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992873"
 ---
 # <a name="set-up-index-rates"></a>Configurar tipos indexados
 
@@ -43,6 +42,3 @@ Debe seleccionar **Diferencia de valor de tipo indexado** o **Valor de tipo inde
 
 - Seleccione el método **Diferencia de valor de tipo indexado** para calcular un nuevo pago por arrendamiento, basado en la diferencia entre el tipo indexado en la fecha de inicio y el tipo indexado más reciente. El tipo indexado se define en el campo **Tipo indexado (%)**.
 - Seleccione el método **Valor de tipo indexado** para calcular el pago del arrendamiento utilizando el porcentaje que se especifica en el campo **Tipo indexado (%)**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

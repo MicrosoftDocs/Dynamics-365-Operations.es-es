@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67e0b3d1058e5fc085f51577ccf0b79e51546de0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ade76b822904f49135e07dfe0a39d2227dd1dd77
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447573"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992997"
 ---
 # <a name="credit-and-collections-overview"></a>Visión general de crédito y cobros
 
@@ -77,6 +76,3 @@ Para ver descripciones de estos conceptos, consulte [Conceptos clave de la admin
 [Retenciones de crédito para pedidos de ventas](./cm-sales-order-credit-holds.md)
 
 [Tareas periódicas de administración de crédito de cliente](./cm-periodic-tasks.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

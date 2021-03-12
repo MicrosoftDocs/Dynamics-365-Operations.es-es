@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8ca1c6eea854577e5aa34b1a9b9d1731b209527b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 26e046b627d71721f4a4d7b6a60171a482e3e357
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447794"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992798"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Configurar cuentas de registro de arrendamiento
 
@@ -84,6 +83,3 @@ Para asignar cuentas a los libros y grupos de arrendamientos que se han creado, 
     > [!NOTE]
     > La cuenta financiera u operativa seleccionada se adeudará cuando se registre la factura del gasto programado.
     > **Contrapartida de gastos de arrendamiento** se utilizará como tipo de registro para las transacciones de gastos a cargo del arrendatario en un arrendamiento de capital, pero se registrará en la **Cuenta de contrapartida** definida en las **Líneas de programación de pago de costos de ejecución**, en los detalles del arrendamiento o en el formulario de libro de arrendamiento.   
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

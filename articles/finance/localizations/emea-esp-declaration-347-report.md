@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 271523
 ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cfb8fd3bdd581ebc60a60f48240453015701b894
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cf4551939badbf659c65c7e8e527a05aaa89da31
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407813"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992775"
 ---
 # <a name="declaration-347-report"></a>Informe del Modelo 347
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,7 @@ Se deben establecer los siguientes requisitos previos antes de comenzar a trabaj
 
 ## <a name="setup"></a>Configurar
 
-1.  En [Microsoft Dynamics Lifecycle Services (LCS) ](https://lcs.dynamics.com/V2), en la Biblioteca de activos compartidos, descargue las últimas versiones de las configuraciones de informes electrónicos (ER) para los siguientes formatos de declaración de IVA:
+1.  En [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2), en la Biblioteca de activos compartidos, descargue las últimas versiones de las configuraciones de informes electrónicos (ER) para los siguientes formatos de declaración de IVA:
 
     -   Formato de exportación del Modelo 347 (ES)
     -   Formato de informes del Modelo 347 (ES)
@@ -274,6 +273,3 @@ Tenga en cuenta los siguientes detalles:
 ![Datos generados para el formato del informe del Modelo 347 (ES)](media/8_Declaration347.png)
 
 Observe que solo la línea que tiene correcciones se imprime en el informe.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 267114
 ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4fc35feb4f3a67ba9c8c70c2d2f8c07cb944b0f6
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 58d86dbd2a3207b72d91165ede675bfe3ab8091e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4447827"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990901"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Espacio de trabajo móvil de control de costes
 
@@ -97,7 +96,7 @@ Si se ha implementado la versión 1611 con actualización de plataforma 3 o post
 <td>Implementar 4013633 KB.</td>
 <td>Administrador del sistema</td>
 
-<td>KB 4013633 es una sustitución de actualización o de metadatos X++ que contiene el espacio de trabajo móvil <strong>Control de costes</strong>. Para implementar KB 4013633, el administrador del sistema debe seguir estos pasos.
+<td>KB 4013633 es una revisión de actualización o de metadatos X++ que contiene el espacio de trabajo móvil <strong>Control de costes</strong>. Para implementar KB 4013633, el administrador del sistema debe seguir estos pasos.
 <ol>
 <li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Descargar la revisión de metadatos de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalar la revisión de metadatos</a>.</li>
@@ -145,6 +144,3 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 11. Visualice el rendimiento de los elementos de coste individuales.
 12. También puede buscar elementos de coste específicos.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

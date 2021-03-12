@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264394
 ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7135f0bf0037f287e2bd075d727a055e6f530c65
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 498e3d65fd30ae7a79bb6ea30a586a4def39b203
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407808"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992730"
 ---
 # <a name="one-time-customers"></a>Clientes plantilla
 
@@ -46,6 +45,3 @@ Un cliente plantilla es un cliente que no tiene una relación a largo plazo con 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

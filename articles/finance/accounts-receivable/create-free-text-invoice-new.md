@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1ac06e7d702ffe3a8cdb6bd2823f2ffdc055c722
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 726d4979059417871a00626c55da32fa4286cb53
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447472"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991126"
 ---
 # <a name="create-a-free-text-invoice"></a>Crear una factura de servicios
 
@@ -28,9 +27,9 @@ ms.locfileid: "4447472"
 
 Este tema explica cómo crear facturas de texto sin formato. Para el procedimiento, utilice la empresa de demostración **USMF**.
 
-## <a name="create-a-free-text-invoice"></a>Crear una factura de servicios
+## <a name="create-a-free-text-invoice"></a>Crear una factura de servicio
 
-1. Vaya a **Clientes \> Facturas \> Todas las facturas de servicios**.
+1. Vaya a **Clientes (o libro mayor de ventas) \> Facturas \> Todas las facturas de servicios**.
 2. Seleccione **Nuevo**.
 3. En el campo **Cuenta de cliente**, seleccione un valor.
 
@@ -85,6 +84,3 @@ Una vez que copie las líneas, puede editar la información según sus necesidad
 Puede crear una factura de servicios a partir de una plantilla. Cuando seleccione **Nueva a partir de plantilla** desde la pestaña **Factura**, puede seleccionar un nombre de plantilla y la cuenta del cliente para la nueva factura de servicios. Los valores predeterminados como las condiciones de pago y el método de pago se pueden rellenar automáticamente a partir del cliente o utilizar los valores que se guardaron en la plantilla.
 
 Se creará una nueva factura de servicios y puede editar los valores según sus necesidades.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 1086231c65a726df5162d3593419a129d6ae5655
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447819"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992767"
 ---
 # <a name="use-lease-approval-workflows"></a>Usar flujos de trabajo de aprobación de arrendamiento
 
@@ -45,6 +44,3 @@ Antes de utilizar este procedimiento, asegúrese de que se haya creado al menos 
 
 8. Para detener un flujo de trabajo, en la página **Historial de flujo de trabajo**, seleccione **Recuperar**. En el cuadro de diálogo que aparece, introduzca un comentario y luego seleccione **Aceptar**.
 9. Para desactivar un flujo de trabajo o para activar un flujo de trabajo creado previamente, vaya a **Arrendamiento de activos \> Configurar \> Flujo de trabajo de arrendamiento**. Entonces, en la página **Flujo de trabajo de arrendamiento**, seleccione **Flujo de trabajo \> Versiones**. Para dejar inactivo un flujo de trabajo actual, seleccione el arrendamiento activo en el cuadro de diálogo de versión de arrendamiento y, a continuación, seleccione **Dejar inactivo**. Para activar un flujo de trabajo existente, seleccione el flujo de trabajo y luego seleccione **Activar**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
