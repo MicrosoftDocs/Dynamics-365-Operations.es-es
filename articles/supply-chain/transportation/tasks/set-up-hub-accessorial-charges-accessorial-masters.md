@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSCarrierAccessorial,TMSAccessorialMaster, TMSHubAccessorial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad89afe0a21261c57311c439153b969d837748e4
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: e012850a390f373088e758418b68c7eaae7ad53e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4437314"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973994"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Configuración de cargos adicionales del centro y listas maestras de cargos adicionales
 
@@ -54,6 +53,3 @@ Este procedimiento muestra cómo crear cargos adicionales maestros para un centr
 9. Haga clic en Guardar.
 10. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

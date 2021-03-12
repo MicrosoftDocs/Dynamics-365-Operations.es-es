@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436810"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974794"
 ---
 # <a name="troubleshoot-sales-orders"></a>Solucionar problemas de pedidos de ventas
 
@@ -59,6 +58,8 @@ Puede crear un pedido de compra desde un pedido de ventas. Para obtener más inf
 Puede cancelar solo pedidos de ventas y órdenes de devolución que estén en estado *Creado*. Para obtener más información, vea [Cancelar una orden de devolución](../service-management/cancel-return-order.md).
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>Cuando intento cancelar un pedido de venta, aparece el error "No se pueden quitar las reservas porque se ha creado un trabajo que depende de ellas".
+
+Código de error: WAX4661
 
 Si el trabajo está asociado con un pedido de venta, no puede cancelar el pedido de venta hasta que el trabajo se cancele y se revierta. Este requisito se aplica incluso si el trabajo asociado con el pedido de ventas está cerrado.
 
@@ -111,6 +112,3 @@ Actualmente Supply Chain Management no admite el cálculo de comisiones para fac
 El artículo de agrupación no está disponible para el pedido de compra porque, si examina las líneas del pedido de ventas del artículo de la agrupación, notará que la cantidad es *0* (cero) y el estado es *Cancelado*. Este comportamiento se debe al diseño. El pedido de cliente compra solo los componentes del artículo de agrupación. No compra el artículo de agrupación en sí.
 
 Si tiene que comprar una agrupación, considere si debe marcarlo como artículo de agrupación, ya que esta funcionalidad está diseñada para escenarios de reconocimiento de ingresos. Para obtener más información acerca de los artículos de agrupación, consulte [Agrupaciones](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

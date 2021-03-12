@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f4c33191e9a3b8f7c211093ff733f6cd025cb9bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437222"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973894"
 ---
 # <a name="transportation-management-engines"></a>Motores de administración del transporte
 
@@ -89,7 +88,7 @@ Los metadatos para motores de administración del transporte se configuran de fo
 | **Motor de zona**                                | Necesita que los metadatos se configuren directamente en la zona maestra.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Motor de cálculo de tiempo de tránsito** y **Motor de cálculo de kilometraje** | Recupera los metadatos directamente del formulario de configuración del motor de cálculo de kilometraje.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Ejemplo de metadatos para un motor de tarifas** El motor de administración del transporte requiere la identificación de la dirección de origen, el estado y el país o la región de destino, así como el punto de envío inicial y final. Una vez cumplidos estos requisitos, los metadatos aparecerán como los datos de la tabla siguiente. La tabla también incluye información acerca del tipo de datos de entrada necesario.
+  **Ejemplo de metadatos para un motor de tarifas** El motor de administración del transporte requiere la identificación de la dirección de origen, el estado y el país o la región de destino, así como el punto de envío inicial y final. Una vez cumplidos estos requisitos, los metadatos aparecerán como los datos de la tabla siguiente. La tabla también incluye información acerca del tipo de datos de entrada necesario.
 -   Defina esta información en **Administración de transporte** &gt; **Configurar** en la página **Tipo de base de tasa**.
 
 | Secuencia | Nombre                          | Tipo de campo | Tipo de datos | Tipo de búsqueda    | Obligatorio |
@@ -99,6 +98,3 @@ Los metadatos para motores de administración del transporte se configuran de fo
 | 3        | Código postal inicial de destino | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 4        | Código postal final de destino   | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 5        | País de destino           | Asignación | Cadena    | País o región |           |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

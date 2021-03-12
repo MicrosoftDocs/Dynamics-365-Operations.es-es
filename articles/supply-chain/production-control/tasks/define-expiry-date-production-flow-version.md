@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 97ac33d28a49ad0f2a3956ad65b159e4ec4785c7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a595ca4ff9f6753631303b656d56735320a22a69
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436558"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975094"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Definir una fecha de vencimiento para una versión del flujo de producción
 
@@ -41,6 +40,3 @@ Para finalizar la validez y el procesamiento de una versión de flujo de producc
 6. En el campo Fecha de vencimiento, especifique una fecha y una hora.
     * Para la fecha de vencimiento, no se iniciará ni se activará una nueva versión. Tampoco no será posible crear o iniciar trabajos para este flujo de producción. Podrá completar los trabajos después de la fecha de vencimiento.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

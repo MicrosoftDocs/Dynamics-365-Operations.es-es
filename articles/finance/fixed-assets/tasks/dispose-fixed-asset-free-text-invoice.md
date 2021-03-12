@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7014e3a4384e08b0c218585a3c2110243360ec08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 76e9f8dbe10e8cabb1feacbc91a3606f1ac3c2ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447601"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975875"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Cancelar un activo fijo mediante una factura de servicios
 
@@ -41,6 +40,3 @@ Este tema explica cómo desechar activo fijo mediante la factura de servicios.
 10. Escriba o seleccione un valor en el campo **Activo fijo**.
 11. Seleccione **Registrar**. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

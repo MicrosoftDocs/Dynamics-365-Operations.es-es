@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSFreightBillDetail, TMSInvoiceTable, TMSFreightBillInvoiceReconcile, TMSInvoiceJournal, LedgerJournalTable, LedgerJournalTransDaily, TMSFBDetailReconcile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fc4fc51955544df4d0156a4c83bcc5b5a0e13df3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8679a729dc17e3ee85468b459da3956a92160ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437227"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974069"
 ---
 # <a name="reconcile-freight-manually"></a>Conciliar el flete manualmente
 
@@ -61,6 +60,3 @@ La conciliación de una factura de transportista y un albarán de flete se reali
 5. Haga clic para seguir el vínculo en el campo Número de diario de referencia.
 6. Haga clic en Líneas.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd854b2188b07830e5641ccdd4bb02804a07b55c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447718"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975642"
 ---
 # <a name="general-journal-processing"></a>Procesamiento de diarios generales
 
@@ -105,6 +104,3 @@ La capacidad de recuperar un diario en un flujo de trabajo que tiene un estado d
 
 ## <a name="delete-journal-lines"></a>Eliminar líneas de diario
 La capacidad de eliminar todas las líneas del diario se habilita rápidamente en un diario en **Funciones** > **Eliminar las líneas de diario**. Para habilitar esta característica, en **Administración de características**, seleccione **Eliminar otimizaciones de rendimiento del diario**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

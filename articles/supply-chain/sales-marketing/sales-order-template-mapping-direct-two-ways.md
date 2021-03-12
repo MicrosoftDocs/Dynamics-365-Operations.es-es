@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437047"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974994"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronización de pedidos de ventas entre Sales y Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de ventas directamente entre Dynamics 365 Sales y Dynamics 365 Supply Chain Management.
 
@@ -62,10 +63,10 @@ Las siguientes tareas de sincronización son necesarias antes de que pueda produ
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
-| Gestión de la cadena de abastecimiento  | Ventas             |
+| Gestión de la cadena de abastecimiento  | Sales             |
 |-------------------------|-------------------|
-| Encabezado de pedidos de ventas de CDS | SalesOrders       |
-| Líneas de pedido de ventas de CDS   | SalesOrderDetails |
+| Encabezados de pedido de ventas de Dataverse | SalesOrders       |
+| Líneas de pedido de ventas de Dataverse   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Flujo de la entidad
 
@@ -75,7 +76,7 @@ No es necesario crear pedidos en Sales. Puede crear nuevos pedidos de ventas en 
 
 En Supply Chain Management, los filtros de la plantilla ayudan a garantizar que solo se incluyan en la sincronización los pedidos de ventas más importantes:
 
-- En el pedido de ventas, tanto el cliente de pedidos como el cliente de facturación tienen que originarse en Sales para incluirse en la sincronización. En Supply Chain Management, los campos **OrderingCustomerIsExternallyMaintained** y **InvoiceCustomerIsExternallyMaintained** se usan para filtrar pedidos de ventas de las entidades de datos.
+- En el pedido de ventas, tanto el cliente de pedidos como el cliente de facturación tienen que originarse en Sales para incluirse en la sincronización. En Supply Chain Management, las columnas **OrderingCustomerIsExternallyMaintained** y **InvoiceCustomerIsExternallyMaintained** se usan para filtrar pedidos de ventas de las tablas de datos.
 - Debe confirmar el pedido de ventas en Supply Chain Management. Solo se sincronizan en Sales los pedidos de ventas confirmados o los pedidos de ventas con un estado más alto de procesamiento como, por ejemplo, aquellos que tengan un estado de **Enviado** o **Facturado**.
 - Después de crear o modificar un pedido de ventas, debe ejecutar el trabajo por lotes **Calcular las ventas totales** en Supply Chain Management. Solo se sincronizarán con Sales los pedidos de ventas en los que se calculan las ventas totales.
 
@@ -103,10 +104,10 @@ Cuando una línea de pedido de ventas se sincroniza de Sales a Supply Chain Mana
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Cliente potencial para cobrar la solución por Sales
 
-Se han agregado nuevos campos a la entidad **Pedido** y se muestran en la página:
+Se han agregado nuevas columnas a la tabla **Pedido** y se muestran en la página:
 
 - **Se mantiene externamente** – Establezca esta opción en **Sí** cuando el pedido proviene de Supply Chain Management.
-- **Estado de procesamiento** – Este campo muestra el estado de procesamiento del pedido en Supply Chain Management. Los siguientes valores están disponibles:
+- **Estado de procesamiento** – Esta columna muestra el estado de procesamiento del pedido en Supply Chain Management. Los siguientes valores están disponibles:
 
     - **Borrador** – El estado inicial cuando se crea un pedido en Sales. En Sales, solo se pueden editar los pedidos con este estado de procesamiento.
     - **Activo** – El estado después de que el pedido se active en Sales mediante el botón **Activar**.
@@ -141,7 +142,7 @@ Antes de sincronizar pedidos de ventas, es importante actualizar la configuraci�
 - Vaya a **Configuración** &gt; **Administración** &gt; **Configuración del sistema** &gt; **Sales**, y asegúrese de que se utilicen los valores siguientes:
 
     - La opción **Usar el sistema de cálculo del sistema de precios** se establece en **Sí**.
-    - El campo **Método de cálculo de descuentos** se establece en **Artículo de línea**.
+    - La columna **Método de cálculo de descuentos** se establece en **Artículo de línea**.
 
 ### <a name="setup-in-supply-chain-management"></a>Configurar Supply Chain Management
 
@@ -151,10 +152,10 @@ Si también usa la integración de pedidos de trabajo, debe configurar el origen
 
 1. Vaya a **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Origen de ventas**.
 2. Seleccione **Nuevo** para crear un nuevo origen de ventas.
-3. En el campo **Origen de ventas**, especifique un nombre para el origen de la venta, como **SalesOrder**.
-4. En el campo **Descripción**, especifique una descripción, como **Pedido de ventas desde ventas**.
+3. En la columna **Origen de ventas**, especifique un nombre para el origen de la venta, como **SalesOrder**.
+4. En la columna **Descripción**, especifique una descripción, como **Pedido de ventas desde ventas**.
 5. Seleccione la casilla de verificación **Asignación de tipo de origen**.
-6. Establezca el campo **Tipo de origen de ventas** a **Integración del pedido de ventas**.
+6. Establezca la columna **Tipo de origen de ventas** a **Integración del pedido de ventas**.
 7. Seleccione **Guardar**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Configuración en los pedidos de ventas (Sales a Supply Chain Management) - Proyecto de integración de datos directos
@@ -181,12 +182,12 @@ Si también usa la integración de pedidos de trabajo, debe configurar el origen
 ## <a name="template-mapping-in-data-integration"></a>Asignación de la plantilla en la integración de datos
 
 > [!NOTE]
-> Los campos **Condiciones de pago**, **Condiciones de carga**, **Condiciones de entrega**, **Método de envío**, y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
+> Las columnas **Condiciones de pago**, **Condiciones de carga**, **Condiciones de entrega**, **Método de envío** y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estas columnas, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la tabla.
 
 Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla en la integración de datos.
 
 > [!NOTE]
-> La asignación muestra qué información de campos se sincronizará de Sales a Supply Chain Management, o de Supply Chain Management a Sales.
+> La asignación muestra qué información de columnas se sincronizará de Sales a Supply Chain Management, o de Supply Chain Management a Sales.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Pedidos de Sales (Supply Chain Management a Sales) - Directo: OrderHeader
 
@@ -207,6 +208,3 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 ## <a name="related-topics"></a>Temas relacionados
 
 [Prospect to cash](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

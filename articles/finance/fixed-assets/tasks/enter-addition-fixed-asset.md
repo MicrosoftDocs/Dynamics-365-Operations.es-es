@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc1e13863ae13daaa641f52f7a55e01fc1353dc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: baac842660b6231529349ec97bcdbcdb971a0ac0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447618"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975975"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Especificar una adición para un activo fijo
 
@@ -46,6 +45,3 @@ El procedimiento usa el rol de contable y los datos de prueba de la entidad jur�
     * Establezca **Aumenta el tiempo de vida** en **Sí** si la adición incrementa el tiempo de vida del activo.  
     * Este campo es únicamente informativo. Para aumentar el tiempo de vida, modifíquelo en los modelos de valor y/o en los libros de amortización del activo.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

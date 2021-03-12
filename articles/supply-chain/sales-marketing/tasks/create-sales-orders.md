@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4c7a542106161f8bc1b8db0976c24faebf907
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436657"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974819"
 ---
 # <a name="create-sales-orders"></a>Crear pedidos de ventas
 
@@ -39,7 +38,7 @@ Este procedimiento muestra cómo crear un pedido de ventas. Puede utilizar el pr
 
 ## <a name="enter-sales-order-line-details"></a>Especificar los detalles de línea del pedido de ventas
     
-Los productos vendidos por la organización pueden venir en variantes que se diferencian por dimensiones como configuración, color, tamaño y estilo. Además, los productos se pueden configurar para usar dimensiones de almacenamiento, como sitio, almacén y pallet, y dimensiones de bastidor, como lote y números de serie. Cuando se asignan estas dimensiones, debe seleccionar valores para las dimensiones de la línea de pedido. Para mejorar la eficacia de entrada de pedidos, puede decidir agregar los campos de dimensión respectivos a la cuadrícula del pedido.
+Los productos vendidos por la organización pueden venir en variantes que se diferencian por dimensiones como configuración, color, tamaño y estilo. Además, los productos se pueden configurar para usar dimensiones de almacenamiento, como sitio, almacén y pallet, y dimensiones de seguimiento, como lote y números de serie. Cuando se asignan estas dimensiones, debe seleccionar valores para las dimensiones de la línea de pedido. Para mejorar la eficacia de entrada de pedidos, puede decidir agregar los campos de dimensión respectivos a la cuadrícula del pedido.
     
 1. En la sección **Líneas de pedido de ventas**, seleccione **Línea de pedido de ventas**.
 2. Seleccione **Dimensiones**.
@@ -68,6 +67,3 @@ Los productos vendidos por la organización pueden venir en variantes que se dif
     La página **Totales** muestra los detalles sobre todo el pedido. Esto incluye el importe del subtotal, que es una suma de todos los importes netos de línea ajustados según los eventuales descuentos de línea, el importe bruto de factura, que es un importe subtotal ajustado en función de eventuales descuentos, gastos e impuestos del nivel de pedido, la situación de límite de crédito del cliente, etc. El importe de la factura es el importe que aparecerá en el documento de factura del cliente.  
     
 3. Seleccione **Aceptar**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

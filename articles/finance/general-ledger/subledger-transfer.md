@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: de9328f69938151c5558d41263d36b873d117e4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645179"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975492"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transferencia de subdiarios a la contabilidad general
 
@@ -42,6 +41,3 @@ Las siguientes opciones están disponibles para transferir lotes de subdiarios.
 En la versión 10.0.8, se realizaron mejoras para mejorar el rendimiento de la opción Asincrónico. Esta característica está habilitada debajo del nombre de la característica **Optimización del rendimiento de la transferencia de subdiarios a la contabilidad general**. 
  
 Esta funcionalidad mejora la transferencia de datos desde el subdiario contable a la contabilidad general. Permite que el proceso sea más eficiente y agrupa conjuntos de transacciones más pequeñas para transferir. Esto permite un uso más eficiente del servidor por lotes. Esta funcionalidad requiere que el servidor por lotes esté configurado, en línea y funcionando para que funcione la opción de transferencia Asincrónico. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

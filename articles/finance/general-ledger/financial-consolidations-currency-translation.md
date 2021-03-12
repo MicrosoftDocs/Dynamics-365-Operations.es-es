@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447722"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975773"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visión general de la conversión de consolidaciones financieras y divisa
 
@@ -125,7 +124,7 @@ Puede definir la fecha en la que la regla de eliminación se convierte en efecti
 
 Una vez que haya definido los fundamentos, seleccione **Líneas** para definir las reglas de procesamiento reales. Hay dos opciones para las eliminaciones, puede eliminar el importe neto de cambio o definir un importe fijo.
 
-Seleccione las cuentas de origen. Puede usar un asterisco (\*) como carácter comodín. Por ejemplo, **1\*** selecciona todas las cuentas que empiezan por **1** como origen de datos para la asignación.
+Seleccione las cuentas de origen. Puede usar un asterisco (\*) como carácter comodín. Por ejemplo, **1\**selecciona todas las cuentas que empiezan por* 1** como origen de datos para la asignación.
 
 Una vez que haya seleccionado las cuentas de origen, use el campo **Especificación de la cuenta** para especificar la cuenta de la empresas de destino que se utiliza. Seleccione **Origen** si desea usar la misma cuenta principal que está definida en la cuenta de Origen. Si selecciona **Definido por el usuario**, deberá especificar una cuenta de destino.
 
@@ -182,6 +181,3 @@ Aquí hay alguna de las situaciones de consolidación que Informes financieros a
 
 ## <a name="generating-consolidated-financial-statements"></a>Generar informes financieros consolidados
 Para obtener información sobre los escenarios donde puede generar o consolidar informes financieros, consulte [Generar informes financieros consolidados](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSAccessorialAssignment
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d7f48da374a0434130f2cf95bf77a126635cd63
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 28562772c52d06fbb2004bd3a01a7bfa32f58a4e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437225"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974044"
 ---
 # <a name="set-up-accessorial-assignments"></a>Configurar asignaciones de cargos adicionales
 
@@ -50,6 +49,3 @@ Este procedimiento muestra cómo configurar una asignación de cargos adicionale
 14. En el campo Tasa de cargos adicionales, escriba un número.
 15. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

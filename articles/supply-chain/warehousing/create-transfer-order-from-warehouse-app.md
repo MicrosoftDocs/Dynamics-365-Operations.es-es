@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c30b0e74053480a08f84f4d7579021084ded5799
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4be9f8bab55f28fa88cb87aef32ab599056c1831
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436636"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973869"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Crear pedidos de transferencia desde la aplicación de almacén
 
@@ -182,7 +181,7 @@ Esta sección explica cómo configurar un trabajo por lotes programado para proc
 
 Esta sección explica cómo configurar un trabajo por lotes programado para liberar las órdenes de transferencia que se han marcado como "listas para lanzar".
 
-1. Vaya a **Gestion de almacén \> Despachar al almacén \> Despacho automático de pedidos de transferencia**.
+1. Vaya a **Gestión de almacén \> Despachar al almacén \> Despacho automático de pedidos de transferencia**.
 1. En el cuadro de diálogo, expanda la sección **Registros para incluir**.
 1. En la sección **Registros a incluir**, seleccione **Filtro**.
 1. En la página de consulta **WHSTransferAutoRTWQuery**, pestaña **Rango**, seleccione **Añadir** para agregar una nueva línea a la consulta.
@@ -334,6 +333,3 @@ Las órdenes de transporte se crean sin utilizar las capacidades de **Control de
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>¿Puedo usar una placa que tenga un inventario físico negativo a mano?
 
 La función solo admite cantidades físicas positivas disponibles. Asegúrese de tener cantidades físicas positivas disponibles en el nivel de estado de inventario y almacén antes de asignar placas de matrícula a una orden de transferencia.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

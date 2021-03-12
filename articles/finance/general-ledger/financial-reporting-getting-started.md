@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
-ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
+ms.openlocfilehash: 24d57982981ca7b72e43c086ace381e420acb06c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672453"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975695"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introducción a Financial Reporting 
 
@@ -46,8 +45,10 @@ Para crear y generar informes financieros para una entidad jurídica, debe confi
 
 -   Calendario fiscal
 -   Contabilidad
--   Plan contable
+-   Plan de cuentas
 -   Divisa
+-   Publica una transacción en al menos una cuenta
+-   MainAccount aparece en la columna selecciona en **Libro mayor > Configuración de libro mayor > Configuración de Financial Reporting**
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Concesión de acceso de seguridad a los Financial Reporting
 Las funciones de informes financieros están disponibles para los usuarios que tienen los privilegios y los derechos adecuados asignados con sus roles de seguridad. Las secciones siguientes muestran estos privilegios y deberes, junto con los roles asociados.
@@ -173,6 +174,3 @@ Problema 3: puede pasar de la página de inicio de sesión ClickOnce de Diseñad
 ## <a name="additional-resources"></a>Recursos adicionales
 - [Ver informes financieros](view-financial-reports.md)
 - [Definiciones de organigramas en informes financieros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
