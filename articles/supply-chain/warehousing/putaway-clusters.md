@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 297792e90b3d2da0d738f5cbaa14779bc17ea3c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512339"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996207"
 ---
 # <a name="putaway-clusters"></a>Clústeres de ubicación
 
@@ -296,6 +295,3 @@ Antes de que los elementos del clúster se puedan guardar, el clúster debe cerr
 ## <a name="notes-and-tips"></a>Notas y consejos
 
 Para los casos en los que la identificación del grupo se convierte en la placa de matrícula principal de un palé anidado, la posición de colocación se da automáticamente cuando se escanea la identificación del grupo. No se deben escanear más matrículas, incluso si la generación de matrículas está configurada en manual.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

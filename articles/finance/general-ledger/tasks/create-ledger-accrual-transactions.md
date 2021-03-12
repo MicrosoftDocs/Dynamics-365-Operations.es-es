@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransAccrual, LedgerJournalTransAccrualTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2112336045086d0eb3b2fb0018f33631528a05ec
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6cbda1c535aad63df55d40bcbadccffc3f35b455
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447509"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994649"
 ---
 # <a name="create-ledger-accrual-transactions"></a>Crear transacciones de provisiones de contabilidad
 
@@ -49,6 +48,3 @@ Esta guía de tareas describe los pasos de la generación de transacciones de ac
 17. Haga clic en Aceptar
 18. Haga clic en Registrar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

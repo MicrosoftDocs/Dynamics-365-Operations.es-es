@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b31d0880d4f2cd2b8ad2dffcfe279421f935ed35
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: df23e219f5bd859b0072785dfd5f7a0ec63f540e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447813"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995402"
 ---
 # <a name="assign-lease-user-roles"></a>Asignar roles de usuario de arrendamiento
 
@@ -44,6 +43,3 @@ Siga estos pasos para asignar usuarios a los roles que se utilizan en el arrenda
 1. Vaya a **Administración del sistema \> Seguridad \> Asignar usuarios a roles**.
 2. Seleccione el rol **Mantener arrendamiento**, **Empleado de sección de arrendamientos** o **Ver arrendamiento** y luego seleccione **Asignar/excluir usuarios manualmente**.
 3. Seleccione el usuario para asignar al rol y luego seleccione **Asignar a rol**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

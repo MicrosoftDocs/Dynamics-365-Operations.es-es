@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6151797001b1ccdb7e371c70b90c304a5ab422d8
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a1ea23059d56ebf387a95a1378e2a3cd47556d5f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645129"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993890"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>Solución de problemas de reservas en gestión de almacenes
 
@@ -78,6 +77,3 @@ Sin embargo, si utiliza un artículo que tiene una jerarquía de reserva "lote p
 Este comportamiento se debe al diseño. Si pone una dimensión por encima de la dimensión **Ubicación** en la jerarquía de reservas, debe especificarse antes del lanzamiento al almacén. Microsoft ha evaluado este problema y ha determinado que es una limitación de funciones durante las versiones al almacén desde el entorno de trabajo de planificación de carga. Las cantidades parciales no se pueden liberar si no se especifican una o más dimensiones sobre **Ubicación**.
 
 Para obtener más información, consulte [Directiva de reserva de dimensión de nivel de almacén flexible](flexible-warehouse-level-dimension-reservation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

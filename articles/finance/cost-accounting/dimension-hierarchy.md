@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fde19ad1a58616672de72fb5e5cbeea39138b46
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447522"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995199"
 ---
 # <a name="dimension-hierarchy"></a>Jerarquía de dimensiones
 
@@ -333,6 +332,3 @@ Los valores para la jerarquía de listas de acceso se utilizan para controlar lo
 > [!NOTE] 
 > - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La jerarquía de la lista de acceso no ayuda a proteger la exportación de datos a Excel. Por lo tanto, esa herramienta de informes solo se debe usar por contables y administradores de costes que deban tener acceso completo para ver los datos.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

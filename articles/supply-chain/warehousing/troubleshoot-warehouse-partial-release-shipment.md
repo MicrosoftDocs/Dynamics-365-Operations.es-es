@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e89a430f90374733b23fadaf53f5bab598d67d62
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 33323a8aed44cf19db6c2c937abcb09f7e05b6c1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645957"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993962"
 ---
 # <a name="troubleshoot-partial-releases-and-partial-shipments"></a>Solucionar problemas de lanzamientos parciales y envíos parciales
 
@@ -42,6 +41,3 @@ Por ejemplo, una orden de venta tiene dos artículos: uno para entrega y otro pa
 ### <a name="issue-resolution"></a>Solución del problema
 
 El estado de liberación se aplica solo a las líneas de pedido donde los artículos están habilitados para la gestión del almacén. Por lo tanto, el estado de publicación sigue siendo *Liberado parcialmente* en este escenario. Microsoft ha evaluado este problema y ha determinado que es una limitación de funciones. Se podría agregar una extensión como parte del albarán y el proceso de facturación para actualizar el estado de liberación.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

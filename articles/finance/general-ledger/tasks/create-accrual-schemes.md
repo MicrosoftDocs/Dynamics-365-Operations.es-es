@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a83870c4cec4de2e51e90ff1889d4beff6c23f95
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 457be741dfd3b44cb963db37857d6a7bceecc14e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447682"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994674"
 ---
 # <a name="create-accrual-schemes"></a>Crear esquemas de acumulación
 
@@ -41,6 +40,3 @@ Este tema explica cómo crear un esquema de acumulación. Esta tarea usa la empr
 10. En el campo **Número de repeticiones por período**, especifique un número.
 11. En el campo **Registrar transacciones**, seleccione cuándo se deben registrar las transacciones, por ejemplo, **Mensual**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

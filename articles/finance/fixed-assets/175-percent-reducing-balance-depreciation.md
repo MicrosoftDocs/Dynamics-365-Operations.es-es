@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a21c315aa9a7193c20e4184da20d4d6d38386c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 82af2a810df4ea0ab8880eb2215e22e5818e178d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447642"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995049"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 175%
 
@@ -75,19 +74,16 @@ Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opc
 | Años de tiempo de vida             | 5      |
 | Porcentaje de depreciación anual | 35%    |
 
-El método de depreciación degresiva del 175% divide el 175 por ciento entre los años de tiempo de vida. El porcentaje se multiplicará por el valor neto en los libros del activo para determinar el importe de depreciación durante el año.
+El método de depreciación degresiva del 175 % divide el 175 por ciento entre los años de tiempo de vida. El porcentaje se multiplicará por el valor neto en los libros del activo para determinar el importe de depreciación durante el año.
 
 | Periodo | Cálculo del importe de depreciación anual | Valor neto                  | Valor neto en los libros al final del año |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| Año 1 | (11.000 - 1.000) × 35% = 3.500                | 11.000 - 3.500 = 7.500      | 11.000 - 1.000 - 3.500 = 6.500        |
-| Año 2 | 6.500 × 35% = 2.275                           | 7.500 - 2.275 = 5.225       | 6.500 - 2.275 = 4.225                 |
-| Año 3 | 4.225 × 35% = 1.478,75                        | 5.225 - 1.478,75 = 3.746,25 | 4.225 - 1.478,75 = 2.746,25           |
+| Año 1 | (11.000 - 1.000) × 35 % = 3.500                | 11.000 - 3.500 = 7.500      | 11.000 - 1.000 - 3.500 = 6.500        |
+| Año 2 | 6.500 × 35 % = 2.275                           | 7.500 - 2.275 = 5.225       | 6.500 - 2.275 = 4.225                 |
+| Año 3 | 4.225 × 35 % = 1.478,75                        | 5.225 – 1.478,75 = 3.746,25 | 4.225 – 1.478,75 = 2.746,25           |
 
 > [!NOTE] 
 > Normalmente, cuando el importe que se calcula mediante el método de depreciación degresiva del 175% resulta inferior al importe que se calcularía con el método de amortización lineal, se realiza una conversión al método de amortización lineal para la vida restante.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

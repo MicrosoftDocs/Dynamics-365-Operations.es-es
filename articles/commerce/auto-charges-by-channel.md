@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415513"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993737"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Habilitar y configurar cargos automáticos por canal
 
@@ -77,7 +76,7 @@ Después de haber activado la característica **Habilitar cargos automáticas de
 
 Para definir los cargos automáticos por canal en Commerce, siga estos pasos.
 
-1. Vaya a **Clientes \> Configuración de cargos \> Cargos automáticos**.
+1. Vaya a **Clientes \> Configuración de cargos \> cargos automáticos**.
 1. En el panel izquierdo, en el campo **Nivel**, seleccione **Encabezado** o **Línea**, dependiendo de los requisitos de su negocio.
 1. En el campo **Código de canal minorista**, seleccione el código de canal apropiado (por ejemplo, **Tabla** o **Grupo**). Si la configuración predeterminada, **Todos**, se utiliza, las reglas de carga se aplican a todos los canales.
 
@@ -128,6 +127,3 @@ Seleccionando **Opciones de transacción \> Cargos \> Administrar cargos** en la
 [Cargos automáticos avanzados omnicanal](omni-auto-charges.md)
 
 [Prorratear los cargos de encabezado con las líneas de ventas coincidentes](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

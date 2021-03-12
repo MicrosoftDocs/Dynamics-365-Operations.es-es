@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 210008c4a1366773f465c59b38eca30f11f0b38c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66a5ca8a679563b59ca23992f7e0b4ee6fab470b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436714"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993818"
 ---
 # <a name="warehouse-app-event-processing"></a>Procesamiento de eventos de la aplicación de almacén
 
@@ -72,12 +71,9 @@ Para un ejemplo detallado, vea [Crear orden de transporte desde la aplicación d
 
 Para restablecer un mensaje de evento de aplicación de almacén fallido:
 
-1. Vaya a **Gestion de almacenes \> Consultas e informes \> Registros de dispositivos móviles \> Eventos de aplicaciones de almacén**.
+1. Vaya a **Gestión de almacenes \> Consultas e informes \> Registros de dispositivos móviles \> Eventos de aplicaciones de almacén**.
 1. En la ficha desplegable **Mensajes de eventos de la aplicación de almacén**, busque y seleccione un evento relevante que muestra **Error** en la columna **Estado del evento**.
 1. Seleccione **Reiniciar** en la barra de herramientas **Mensajes de eventos de la aplicación de almacén**.
 1. Continúe trabajando hasta que se restablezcan todos los mensajes relevantes.
 
 También puede eliminar un mensaje de evento **Error** utilizando la opción **Eliminar** en la barra de herramientas **Mensajes de eventos de la aplicación de almacén**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

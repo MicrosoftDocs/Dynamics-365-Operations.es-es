@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644930"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995099"
 ---
 # <a name="finance-insights-home-page-preview"></a>Página de inicio de información financiera (versión preliminar)
 
@@ -67,7 +66,7 @@ Se realizarán cambios en Microsoft Dynamics 365 Finance, Microsoft Dynamics Lif
 - El administrador de inquilinos de Active Directory tendrá que autorizar a la aplicación AI Builder para acceder al lago de datos.
 - La característica se activará en Dynamics 365.
 
-Será útil familiarizarse con el proceso de creación y administración de recursos en Azure, Common Data Service y LCS, a medida que complete este proceso.
+Será útil familiarizarse con el proceso de creación y administración de recursos en Azure, Microsoft Dataverse y LCS, a medida que complete este proceso.
 
 ## <a name="configure-finance-insights"></a>Configurar la información financiera
 
@@ -130,6 +129,3 @@ Envíe un correo electrónico a [Información sobre pagos de clientes (Vista pre
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
 Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

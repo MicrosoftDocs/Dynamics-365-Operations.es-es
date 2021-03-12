@@ -3,7 +3,7 @@ title: Pedidos de clientes en el punto de venta (PDV)
 description: Este tema proporciona información sobre los pedidos de clientes en el punto de venta (PDV). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados.
 author: josaw1
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6fec80dd2836a5400a7178e732fe1d5da41aca4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415521"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995804"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pedidos de clientes en el punto de venta (PDV)
 
@@ -52,9 +51,9 @@ Para utilizar los pedidos de los clientes, debe configurar los modos de entrega 
 
 ### <a name="set-up-fulfillment-groups"></a>Configurar grupos de cumplimiento
 
-Es posible que algunas tiendas o almacenes no puedan cumplir con los pedidos de los clientes. Al configurar grupos de cumplimiento, una organización puede especificar qué tiendas y ubicaciones de almacén se muestran como opciones para los usuarios que crean pedidos de clientes en PDV. Los grupos de cumplimiento se configuran en la página **Grupos de cumplimiento**. Las organizaciones pueden crear tantos grupos de cumplimiento como necesiten. Una vez que se define un grupo de cumplimiento, se vincula a una tienda mediante un botón en la pestaña **Establecer** en el Panel de acciones de la página **Tiendas**.
+Es posible que algunas tiendas o almacenes no puedan cumplir con los pedidos de los clientes. Al configurar grupos de cumplimiento, una organización puede especificar qué tiendas y ubicaciones de almacén se muestran como opciones para los usuarios que crean pedidos de clientes en PDV. Los grupos de cumplimiento se configuran en la página **Grupos de cumplimiento**. Las organizaciones pueden crear tantos grupos de cumplimiento como necesiten. Una vez definido un grupo de cumplimiento, vincúlelo a una tienda seleccionando **Asignación de grupo de cumplimiento** desde la pestaña **Configuración** del panel de acciones de la página **Tiendas**.
 
-En la versión 10.0.12 de Commerce y posteriores, las organizaciones pueden definir si las combinaciones de almacén o almacén y tienda que se definen en los grupos de cumplimiento se pueden utilizar para el envío, la recogida o tanto para el envío como para la recogida. Por lo tanto, la tienda tiene flexibilidad adicional para manejar el almacén y las opciones de la tienda que se muestran a los usuarios que crean un pedido para recoger frente a un pedido para envío. Para aprovechar estas opciones de configuración, debe activar la característica **Posibilidad de especificar ubicaciones como "Envío" o "Recogida" habilitadas dentro del grupo de cumplimiento**. Si un almacén que está vinculado a un grupo de cumplimiento no es una tienda, solo se puede configurar como una ubicación de envío. No se puede utilizar cuando los pedidos de recogida están configurados en PDV.
+En la versión 10.0.12 de Commerce y posteriores, las organizaciones pueden definir si las combinaciones de almacén o almacén y tienda que se definen en los grupos de cumplimiento se pueden utilizar para el envío, la recogida o tanto para el envío como para la recogida. Esto permite una mayor flexibilidad para que la empresa determine qué almacenes se pueden seleccionar al crear un pedido de cliente para los artículos a enviar frente a qué tiendas se pueden seleccionar al crear un pedido de cliente para los artículos a recoger. Para utilizar estas opciones de configuración, debe activar la característica **Posibilidad de especificar ubicaciones como "Envío" o "Recogida" habilitadas en el grupo de cumplimiento**. Si un almacén que está vinculado a un grupo de cumplimiento no es una tienda, solo se puede configurar como ubicación de envío. No se puede utilizar cuando los pedidos de recogida están configurados en PDV.
 
 ![Página de grupos de cumplimiento](media/customer-order-fulfillment-group.png)
 
@@ -99,7 +98,10 @@ Asegúrese de que el PDV [diseño de pantalla](https://docs.microsoft.com/dynami
 
 ![Operaciones en la pantalla de transacciones de PDV](media/customer-order-screen-layout.png)
 
-## <a name="working-with-customer-orders-in-pos"></a>Trabajar con pedidos de clientes en PDV
+## <a name="work-with-customer-orders-in-pos"></a>Trabajar con pedidos de clientes en PDV
+
+> [!NOTE]
+> Actualmente, la funcionalidad de reconocimiento de ingresos no se admite para su uso en canales de Commerce (comercio electrónico, PDV, centro de llamadas). Los artículos configurados con reconocimiento de ingresos no deben agregarse a los pedidos creados en los canales de Commerce. 
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Crear un pedido de cliente para los productos que se enviarán al cliente
 
@@ -118,21 +120,19 @@ Asegúrese de que el PDV [diseño de pantalla](https://docs.microsoft.com/dynami
 2. Agregue productos al carro.
 3. Seleccione **Recoger seleccionado** o **Recoger todo** para iniciar la configuración de recogida de pedidos.
 4. Seleccione en la ubicación de la tienda donde recogerá el cliente los productos seleccionados.
-5. Seleccionar una fecha de recogida.
+5. Seleccione una fecha en la que se recogerá el artículo.
 6. Use las funciones de pago para pagar cualquier importe calculado que se deba, o use la operación **Anulación de depósito** para cambiar los importes que se deben y luego aplicar el pago.
-7. Si no se pagó el total del pedido, seleccione si el cliente proporcionará el pago más tarde (en el momento de la recogida), o si una tarjeta de crédito será tokenizada ahora y luego utilizada y capturada en el momento de la recogida.
+7. Si no se pagó el total del pedido, seleccione si el cliente efectuará el pago más tarde (en el momento de la recogida), o si se obtendrá un token de una tarjeta de crédito ahora para luego utilizarlo y cobrar en el momento de la recogida.
 
 ### <a name="edit-an-existing-customer-order"></a>Edición de un pedido de cliente ya existente
 
 Los pedidos minoristas que se crean en el canal en línea o en la tienda se pueden recuperar y editar a través de POS según sea necesario.
 
 > [!IMPORTANT]
-> Los pedidos que se crean en un canal de centro de llamadas no se pueden editar a través del PDV si el valor de configuración [Habilitar la finalización del pedido](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) está activado para el canal del centro de llamadas. Para garantizar un procesamiento de pago correcto, los pedidos que se originaron en un canal de centro de llamadas y que utilizan la función Habilitar finalización de pedidos deben editarse a través de la aplicación del centro de llamadas en la central de Commerce.
+> No todos los pedidos minoristas se pueden editar a través de la aplicación PDV. Los pedidos que se crean en un canal de centro de llamadas no se pueden editar a través del PDV si el valor de configuración [Habilitar la finalización del pedido](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) está activado para el canal del centro de llamadas. Para garantizar un procesamiento de pago correcto, los pedidos que se originaron en un canal de centro de llamadas y que utilizan la función Habilitar finalización de pedidos deben editarse a través de la aplicación del centro de llamadas en la central de Commerce.
 
-En Commerce, versión 10.0.13 y anteriores, los usuarios pueden editar pedidos de clientes admitidos a través de PDV solo si los pedidos están completamente abiertos. Si alguna línea de un pedido ya se ha procesado hasta el cumplimiento (recoger, empaquetar, etc.), el pedido se bloquea para su edición en PDV.
+En la versión 10.0.17 y posteriores, los usuarios pueden editar los pedidos aptos a través de la aplicación PDV, incluso si el pedido se ha cumplimentado parcialmente. Sin embargo, los pedidos que se facturan en su totalidad aún no se pueden editar a través de PDV. Para habilitar esta capacidad, active la característica **Editar pedidos parcialmente cumplimentados en el punto de venta**, en el espacio de trabajo **Administración de características**. Si esta función no está habilitada, o si está utilizando la versión 10.0.16 o anterior, los usuarios solo podrán editar los pedidos de los clientes en PDV si el pedido está completamente abierto. Además, si la característica está habilitada, puede limitar las tiendas que pueden editar pedidos parcialmente cumplimentados. La opción para deshabilitar esta capacidad para tiendas específicas se puede configurar a través del **Perfil de funcionalidad** en la ficha desplegable **General**.
 
-> [!NOTE]
-> En la versión 10.0.14 de Commerce, una función que se ha lanzado en [versión preliminar pública](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) permite a los usuarios de PDV editar los pedidos de los clientes a través de PDV, incluso si parte del pedido ya se ha completado. Sin embargo, los pedidos que se facturan en su totalidad aún no se pueden editar a través de PDV. Para probar esta función de versión preliminar y proporcionar comentarios adicionales, active la característica **(Versión preliminar) Editar pedidos parcialmente completados en el punto de venta** en el espacio de trabajo **Administración de características**. Los pedidos de clientes que se originaron en un canal de centro de llamadas y que utilizan la función Habilitar finalización de pedidos no se pueden editar incluso después de habilitar esta función.
 
 1. Seleccione **Recuperar pedido**.
 2. Utilice **Buscar** para especificar filtros para encontrar el pedido, y luego seleccione **Aplicar**.
@@ -170,6 +170,3 @@ Cuando la opción **Crear pedido de cliente en modo asincrónico** está estable
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Pedidos de cliente híbridos](hybrid-customer-orders.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
