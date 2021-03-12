@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f881e8715d4a62bc753aefa0beebaf0cceafcc77
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415612"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985720"
 ---
 # <a name="set-up-retail-products"></a>Configurar productos comerciales
 
@@ -40,6 +39,3 @@ Para poder ofrecer productos para la reventa en sus canales de Commerce, debe cr
 4. **Agregar productos a selecciones.** Una selección representa una colección de productos que ofrece en sus canales. Puede definir una o varias selecciones, y cada producto puede asignarse a una o varias selecciones. Para asignar productos a los canales, asigne las selecciones a dichos canales. Cuando se crea un surtido, puede agregar productos que aún no se hayan liberado a una entidad jurídica. Sin embargo, debe liberar los productos a una entidad jurídica antes de que dichos productos puedan estar disponibles para los canales.
 5. **Agregue los productos a las jerarquías de navegación.** Para que los productos se puedan buscar en línea o en el punto de venta (POS), deben estar clasificados en una jerarquía de navegación de Commerce.
 6. **Agregue productos a catálogos** Aunque este paso es opcional para el PDV, las tiendas en línea requieren que los productos estén incluidos al menos en un catálogo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

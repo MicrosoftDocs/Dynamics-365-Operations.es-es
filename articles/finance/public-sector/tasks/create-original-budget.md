@@ -1,6 +1,6 @@
 ---
 title: Creación de entradas de un presupuesto original y luego de un presupuesto inverso para el sector público
-description: Cuando crea una entrada de presupuesto original y usa el modelo presupuestario y los valores de dimensión que contienen importes presupuestarios preliminares, se pueden invertir los importes presupuestarios preliminares.
+description: Este tema proporciona información sobre cómo crear y revertir una entrada de presupuesto original utilizando el modelo de presupuesto y los valores de dimensión que tienen importes de presupuesto preliminares.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32d89216d49a743729de8910f738276cbddcd8bb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 134e2ca851d72965198026107817c66a808ac705
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447697"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987963"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Creación de entradas de un presupuesto original y luego de un presupuesto inverso para el sector público
 
@@ -51,6 +50,3 @@ Cuando crea una entrada de presupuesto original y usa el modelo presupuestario y
     * Para realizar selecciones opcionales, haga clic en el icono Desbloquear de la parte superior de la página.  
 18. Haga clic en Actualizar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbc0ca146327fada1325f4b11965c23948d3565d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436630"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987263"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Cumplimiento de existencias de seguridad para los artículos
 
@@ -116,6 +115,3 @@ El cumplimiento de la transacción de requisitos de existencias de seguridad no 
 Durante la fase de cobertura de planificación maestra, el reabastecimiento de existencias de seguridad no pierde prioridad. El inventario disponible se puede usar antes que cualquier otro tipo de demanda. Durante el cálculo del retraso, se agregará una nueva lógica para repasar las líneas de ventas retrasadas, los requerimientos de las líneas de LM y todos los otros tipos de demanda, para determinar si podrían entregarse a tiempo, siempre que se utilicen existencias de seguridad. Si el sistema identifica que puede minimizar los retrasos mediante las existencias de seguridad, las líneas de ventas o las líneas de LM reemplazarán su cobertura inicial con las existencias de seguridad y el sistema activará el reabastecimiento de las existencias de seguridad.
 
 Si el plan o el artículo no están configurados para el cálculo de retrasos, la restricción de existencias de seguridad tendrá la misma prioridad que cualquier otro tipo de demanda. Esto significa que hay una reserva de inventario y otro inventario disponible antes de que otros tipos de demanda.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

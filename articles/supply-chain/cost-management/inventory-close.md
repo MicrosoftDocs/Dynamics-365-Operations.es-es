@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1169ad784c07d0757990b36b618282ed7858bcbf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436829"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987562"
 ---
 # <a name="inventory-close"></a>Cierre de inventario
 
@@ -60,7 +59,7 @@ Algunas de las tareas que se pueden llevar a cabo en la página **Cierre y ajust
 Las cuentas contables que se actualizan debido a estas tareas se vinculan a la transacción de inventario original. Por ejemplo, si se liquida un pedido de ventas a un pedido de compra, se ajustan las cuentas contables que se usaron para el pedido de ventas original. Este comportamiento se produce incluso si las cuentas contables del grupo de artículos que se asigna al artículo han cambiado desde que se registró el pedido de ventas. Después de que el cierre de inventario cree un importe de liquidación, este último aún se registrará en las cuentas contables originales, no en las nuevas cuentas contables que se asignan al artículo. Es posible que la contabilidad general también se actualice si invierte un cierre de inventario. 
 
 > [!NOTE] 
-> - El cierre de inventario es un paso obligatorio en el procedimiento de cierre de fin de mes para todos los modelos de inventario. Esto incluye el costo estándar y el promedio móvil. No podrá cerrar el período financiero hasta que se haya realizado un cierre de inventario a partir de la fecha de finalización del período.
+> - El cierre de inventario es un paso obligatorio en el procedimiento de cierre de fin de mes para todos los modelos de inventario, excepto para la media móvil.  Se le advertirá si intenta cerrar un período financiero sin realizar primero el cierre de inventario a partir de la fecha de finalización del período.
 > - Antes de ejecutar el procedimiento de cierre, puede consultar una lista de artículos que no se pueden liquidar durante la actualización.
 > - Se recomienda ejecutar el cierre de inventario durante las horas de menor actividad empresarial para lograr una distribución más uniforme de los recursos informáticos.
 
@@ -87,6 +86,3 @@ En ocasiones, puede ser necesario invertir un cierre de inventario completado pa
 > [!NOTE] 
 > Solo se puede volver a abrir el período correspondiente al último cierre de inventario. Para invertir un cierre anterior del inventario, debe invertir cada cierre posterior de inventario uno a uno, comenzando por el cierre más reciente.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

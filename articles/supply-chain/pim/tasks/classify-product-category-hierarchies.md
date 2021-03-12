@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c933caefb4aa8cbb2bb93a97056f5bcc29050d0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0d367c85211a33ba2d08b1380500124c76f82ada
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436863"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987013"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Clasificar un producto mediante jerarquías de categorías
 
@@ -43,6 +42,3 @@ Este tema describe cómo clasificar un producto mediante jerarquías de categor�
 11. En el campo **Categoría**, especifique o seleccione un valor.
 12. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 84c42e550d51e40b7f777c3da67ed765519ddfd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f39f487ea29bf923c82c08aff56ff5350da0810e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436875"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987238"
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>Colaborar con clientes de cadena de suministro interna
 
@@ -43,6 +42,3 @@ Este procedimiento muestra cómo ver todos los pedidos planificados que cumplir�
 8. Expanda la sección de los detalles de la demanda de nivel superior.
     * En esta sección, puede ver detalles acerca de cómo se cumplirá con la demanda. Es posible que tenga que esperar la planificación maestra que se ejecutará en la empresa de aprovisionamiento antes de que se pueda ver información adicional aquí.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

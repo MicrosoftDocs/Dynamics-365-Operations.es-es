@@ -3,7 +3,7 @@ title: Módulo de carro
 description: En este tema se tratan los módulos de carro y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: abb9909c03577763ff7e6242c9395a58159df6ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4415692"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985988"
 ---
 # <a name="cart-module"></a>Módulo de carro
 
@@ -53,6 +52,7 @@ La siguiente imagen muestra un ejemplo de una página de carro en el sitio Fabri
 | Cabecera | Texto de encabezado y etiqueta de encabezado (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | El encabezado del carro, como "Bolsa de compra" o "Artículos en el carro". |
 | Mostrar errores de existencias agotadas | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero**, la página del carro mostrará errores relacionados con las existencias. Le recomendamos que establezca esta propiedad en **Verdadero** si se aplican controles de inventario en el sitio. |
 | Mostrar gastos de envío para artículos de línea | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero**, las líneas de pedido del carro mostrarán los gastos de envío, si esta información está disponible. Esta característica no es compatible con el tema Fabrikam porque los usuarios seleccionan el envío solo en el flujo de finalización de compra. Sin embargo, esta característica se puede activar en otros flujos de trabajo, si corresponde. |
+| Mostrar promociones disponibles| **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero**, el carrito muestra las promociones disponibles, según los artículos del carrito. Esta capacidad solo está disponible en la versión 10.0.16 de Dynamics 365 Commerce. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Módulos que se pueden usar en un módulo de carro
 
@@ -117,6 +117,3 @@ Para agregar un módulo de carro a una página nueva y establecer las propiedade
 [Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)
 
 [Crear un perfil de funcionalidad en línea](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

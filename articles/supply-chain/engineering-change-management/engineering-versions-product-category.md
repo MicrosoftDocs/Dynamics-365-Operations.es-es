@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4437300"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987488"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versiones de ingeniería y categorías de productos de ingeniería
 
@@ -162,6 +161,3 @@ Las listas de materiales de ingeniería y las rutas se crean a partir de la vers
 Para los productos en los que utiliza la dimensión del producto *versión* (junto con el impacto logístico en las transacciones), la versión también se agrega a las listas de materiales y rutas. Este comportamiento ayuda a diferenciar las listas de materiales y las rutas de versiones consecutivas, independientemente de la configuración de **Hacer cumplir la efectividad**.
 
 Para los productos en los que no utiliza la dimensión del producto *versión* (sin impacto logístico en las transacciones), la versión no se agrega a las listas de materiales o rutas. Por lo tanto, no habrá diferencia entre las listas de materiales y las rutas de versiones consecutivas. En este caso, le recomendamos encarecidamente que configure la opción **Hacer cumplir la efectividad** en *Sí*. De esta forma, ayuda a evitar que las versiones de ingeniería se superpongan y también puede activar la lista de materiales y la ruta de una versión más nueva sin tener que desactivar primero la lista de materiales y la ruta de la versión anterior. Si configura la opción **Hacer cumplir la efectividad** como *Sí* en este caso, debe desactivar manualmente las listas de materiales y las rutas de versiones anteriores antes de poder activar la última versión.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
