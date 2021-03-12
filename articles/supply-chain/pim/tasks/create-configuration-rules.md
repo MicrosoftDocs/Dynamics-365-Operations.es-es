@@ -11,47 +11,46 @@ ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6bc0af4d95e9430d0b5c8b7fc9a4ade076802044
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d75e9ecaa814085e8fce1836125553511cf4f48b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436857"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999740"
 ---
-# <a name="create-configuration-rules"></a><span data-ttu-id="58394-103">Crear reglas de configuración</span><span class="sxs-lookup"><span data-stu-id="58394-103">Create configuration rules</span></span>
+# <a name="create-configuration-rules"></a><span data-ttu-id="8c922-103">Crear reglas de configuración</span><span class="sxs-lookup"><span data-stu-id="8c922-103">Create configuration rules</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="58394-104">Este procedimiento crea reglas de configuración que se pueden usar para que la configuración basada en dimensiones aplique o impida combinaciones de líneas de lista de materiales.</span><span class="sxs-lookup"><span data-stu-id="58394-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="58394-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="58394-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="58394-106">Este es el séptimo procedimiento de ocho que explica cómo crear combinaciones para la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="58394-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="8c922-104">Este procedimiento crea reglas de configuración que se pueden usar para que la configuración basada en dimensiones aplique o impida combinaciones de líneas de lista de materiales.</span><span class="sxs-lookup"><span data-stu-id="8c922-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="8c922-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="8c922-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8c922-106">Este es el séptimo procedimiento de ocho que explica cómo crear combinaciones para la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="8c922-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="58394-107">Vaya a Gestión de información de productos > Listas de materiales y fórmulas > Listas de materiales.</span><span class="sxs-lookup"><span data-stu-id="58394-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
-2. <span data-ttu-id="58394-108">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="58394-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="58394-109">Localice y seleccione la lista de materiales para la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="58394-109">Find and select the BOM for the dimension-based configuration.</span></span>  
-3. <span data-ttu-id="58394-110">En el panel de acciones, haga clic en Opciones.</span><span class="sxs-lookup"><span data-stu-id="58394-110">On the Action Pane, click Options.</span></span>
-4. <span data-ttu-id="58394-111">Haga clic en Cambiar vista.</span><span class="sxs-lookup"><span data-stu-id="58394-111">Click Change view.</span></span>
-5. <span data-ttu-id="58394-112">Haga clic en Visualización de encabezado.</span><span class="sxs-lookup"><span data-stu-id="58394-112">Click Header view.</span></span>
-    * <span data-ttu-id="58394-113">Abra la vista de encabezado para acceder a la ficha desplegable Ruta de configuración.</span><span class="sxs-lookup"><span data-stu-id="58394-113">Open the header view to access the Configuration route FastTab.</span></span>  
-6. <span data-ttu-id="58394-114">Expanda o contraiga la sección Ruta de configuración.</span><span class="sxs-lookup"><span data-stu-id="58394-114">Expand or collapse the Configuration route section.</span></span>
-    * <span data-ttu-id="58394-115">La ficha desplegable Ruta de configuración debe estar en modo expandido.</span><span class="sxs-lookup"><span data-stu-id="58394-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
-7. <span data-ttu-id="58394-116">Haga clic en Reglas de configuración.</span><span class="sxs-lookup"><span data-stu-id="58394-116">Click Configuration rules.</span></span>
-8. <span data-ttu-id="58394-117">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="58394-117">Click New.</span></span>
-9. <span data-ttu-id="58394-118">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="58394-118">In the list, mark the selected row.</span></span>
-10. <span data-ttu-id="58394-119">En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="58394-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="58394-120">Se muestran los elementos en el grupo de configuración actual.</span><span class="sxs-lookup"><span data-stu-id="58394-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="58394-121">Seleccione el que representa la condición en la regla.</span><span class="sxs-lookup"><span data-stu-id="58394-121">Select the one that represents the condition in the rule.</span></span>  
-11. <span data-ttu-id="58394-122">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="58394-122">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="58394-123">En el campo Método, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="58394-123">In the Method field, select an option.</span></span>
-    * <span data-ttu-id="58394-124">Es posible hacer que se seleccione un elemento, o se anule su selección, de otro grupo de configuración.</span><span class="sxs-lookup"><span data-stu-id="58394-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
-13. <span data-ttu-id="58394-125">En el campo Grupo derivado, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="58394-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="58394-126">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="58394-126">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="58394-127">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="58394-127">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="58394-128">Seleccione el grupo de configuración que le interese.</span><span class="sxs-lookup"><span data-stu-id="58394-128">Select the desired configuration group.</span></span>  
-16. <span data-ttu-id="58394-129">En el campo Código de artículo derivado, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="58394-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="58394-130">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="58394-130">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="58394-131">Seleccione el número de elemento que se seleccionará o dejará de seleccionarse, según el método elegido.</span><span class="sxs-lookup"><span data-stu-id="58394-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
-18. <span data-ttu-id="58394-132">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="58394-132">Close the page.</span></span>
+1. <span data-ttu-id="8c922-107">Vaya a Gestión de información de productos > Listas de materiales y fórmulas > Listas de materiales.</span><span class="sxs-lookup"><span data-stu-id="8c922-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="8c922-108">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="8c922-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="8c922-109">Localice y seleccione la lista de materiales para la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="8c922-109">Find and select the BOM for the dimension-based configuration.</span></span>  
+3. <span data-ttu-id="8c922-110">En el panel de acciones, haga clic en Opciones.</span><span class="sxs-lookup"><span data-stu-id="8c922-110">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="8c922-111">Haga clic en Cambiar vista.</span><span class="sxs-lookup"><span data-stu-id="8c922-111">Click Change view.</span></span>
+5. <span data-ttu-id="8c922-112">Haga clic en Visualización de encabezado.</span><span class="sxs-lookup"><span data-stu-id="8c922-112">Click Header view.</span></span>
+    * <span data-ttu-id="8c922-113">Abra la vista de encabezado para acceder a la ficha desplegable Ruta de configuración.</span><span class="sxs-lookup"><span data-stu-id="8c922-113">Open the header view to access the Configuration route FastTab.</span></span>  
+6. <span data-ttu-id="8c922-114">Expanda o contraiga la sección Ruta de configuración.</span><span class="sxs-lookup"><span data-stu-id="8c922-114">Expand or collapse the Configuration route section.</span></span>
+    * <span data-ttu-id="8c922-115">La ficha desplegable Ruta de configuración debe estar en modo expandido.</span><span class="sxs-lookup"><span data-stu-id="8c922-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
+7. <span data-ttu-id="8c922-116">Haga clic en Reglas de configuración.</span><span class="sxs-lookup"><span data-stu-id="8c922-116">Click Configuration rules.</span></span>
+8. <span data-ttu-id="8c922-117">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8c922-117">Click New.</span></span>
+9. <span data-ttu-id="8c922-118">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8c922-118">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="8c922-119">En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="8c922-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="8c922-120">Se muestran los elementos en el grupo de configuración actual.</span><span class="sxs-lookup"><span data-stu-id="8c922-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="8c922-121">Seleccione el que representa la condición en la regla.</span><span class="sxs-lookup"><span data-stu-id="8c922-121">Select the one that represents the condition in the rule.</span></span>  
+11. <span data-ttu-id="8c922-122">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8c922-122">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="8c922-123">En el campo Método, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="8c922-123">In the Method field, select an option.</span></span>
+    * <span data-ttu-id="8c922-124">Es posible hacer que se seleccione un elemento, o se anule su selección, de otro grupo de configuración.</span><span class="sxs-lookup"><span data-stu-id="8c922-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
+13. <span data-ttu-id="8c922-125">En el campo Grupo derivado, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="8c922-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="8c922-126">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="8c922-126">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="8c922-127">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8c922-127">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="8c922-128">Seleccione el grupo de configuración que le interese.</span><span class="sxs-lookup"><span data-stu-id="8c922-128">Select the desired configuration group.</span></span>  
+16. <span data-ttu-id="8c922-129">En el campo Código de artículo derivado, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="8c922-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="8c922-130">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8c922-130">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="8c922-131">Seleccione el número de elemento que se seleccionará o dejará de seleccionarse, según el método elegido.</span><span class="sxs-lookup"><span data-stu-id="8c922-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
+18. <span data-ttu-id="8c922-132">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8c922-132">Close the page.</span></span>
 
