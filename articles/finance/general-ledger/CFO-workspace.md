@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3817c6688339735c7478e85786efe15bd2372c91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 457c547947ce6182d03e7a8276b380bc08535bca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447583"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985121"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Agregar dimensiones financieras al espacio de trabajo del CFO
 
@@ -35,7 +34,7 @@ Este tema explica cómo agregar dimensiones financieras al área de trabajo de C
 2. En Microsoft Visual Studio, abra el Explorador de la aplicación, y busque **ContabilidadCFO**.
 3. En **Recursos**, abra **ContabilidadCFOEspacioDeTrabajoPBIX**.
 4. Cuando el recurso se abre en el escritorio de Microsoft Power BI, seleccione **Recopilar datos**, seleccione **Base de datos de SQL Server**, y después seleccione **Conectar**.
-5. Especifique el nombre del servidor y seleccione **AxDW** como la base de datos. Haga clic en **DirectQuery** y, a continuación, en  **OK**.
+5. Especifique el nombre del servidor y seleccione **AxDW** como la base de datos. Haga clic en **DirectQuery** y, a continuación, en  **Aceptar**.
 6. Busque y seleccione **MedidasDeActividadContable\_DimensiónCombinación**, y después seleccione **carga**.
 
     > [!TIP]
@@ -56,6 +55,3 @@ Este tema explica cómo agregar dimensiones financieras al área de trabajo de C
 16. Compile el proyecto, y después abra la aplicación para ver los resultados.
 
     [![Espacio de trabajo completado](./media/workspace.png)](./media/workspace.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

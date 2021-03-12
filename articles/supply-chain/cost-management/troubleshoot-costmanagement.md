@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e84bb167395c06295b0e8ef8b9fd98aa4bc0cc14
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: b8c527e578fee6abfeeade99fba8070365c020bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4437298"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983859"
 ---
 # <a name="troubleshoot-cost-management"></a>Solucionar problemas de la gestión de costes
 
@@ -48,13 +47,13 @@ Puede ejecutar el balance de prueba para obtener el saldo de las cuentas de inve
 
 Microsoft introdujo las siguientes validaciones para evitar problemas causados por un proceso de fin de período incorrecto en torno al cálculo de costos. Si encuentra alguno de los siguientes mensajes de error, consulte [KB 4561987](https://fix.lcs.dynamics.com/Issue/Details?kb=4561987&bugId=445351&dbType=3&qc=f514f2adcddcddceec43af58c26ae8a9020effdc7cdfe085d9d0deeb8cc7b6a3) para obtener más información sobre cómo resolver estos problemas.
 
-- Está a punto de ejecutar un nuevo cálculo con una fecha %1 (10-02-2019). El último recálculo registrado se ejecutó en un período anterior con una fecha %2 (20-01-2019). No se ha registrado ninguna ejecución de cierre de inventario con fecha %3 (31-01-2019) coincidentese con el final del período. Recuerde ejecutar un cierre de inventario a partir del %3 (31-01-2019) que coincida con el final del período. La valoración de los inventarios, el costo de los bienes vendidos y las variaciones pueden no ser correctos en el libro mayor auxiliar o en el libro mayor general hasta que se haya ejecutado.
+- Está a punto de ejecutar un nuevo cálculo con una fecha %1 (10-02-2019). El último recálculo registrado se ejecutó en un período anterior con una fecha %2 (20-01-2019). No se ha registrado ninguna ejecución de cierre de inventario con fecha %3 (31-01-2019) coincidentese con el final del período. Recuerde ejecutar un cierre de inventario a partir del %3 (31-01-2019) que coincida con el final del período. La valoración de los inventarios, el coste de los bienes vendidos, y las variaciones pueden no ser correctos en el libro mayor auxiliar o en el libro mayor general hasta que se haya ejecutado.
 
-- Está a punto de cambiar el estado del período del libro mayor %1 a %2. No se ha registrado ninguna ejecución de cierre de inventario con fecha %3 coincidente con el final del período. Ejecute un cierre de inventario a partir del %3 que coincida con el final del período antes de cambiar el estado. La valoración de los inventarios, el costo de los bienes vendidos y las variaciones pueden no ser correctos en el libro mayor auxiliar o en el libro mayor general hasta que se haya ejecutado. Reportado desde la entidad legal %4. Por ahora, es informativa, pero deberá realizar dicha acción en el futuro.
+- Está a punto de cambiar el estado del período del libro mayor %1 a %2. No se ha registrado ninguna ejecución de cierre de inventario con fecha %3 coincidente con el final del período. Ejecute un cierre de inventario a partir del %3 que coincida con el final del período antes de cambiar el estado. La valoración de los inventarios, el coste de los bienes vendidos, y las variaciones pueden no ser correctos en el libro mayor auxiliar o en el libro mayor general hasta que se haya ejecutado. Reportado desde la entidad legal %4. Por ahora, es informativa, pero deberá realizar dicha acción en el futuro.
 
 - La estructura de la cuenta %1 se ha cambiado. Una o más cuentas principales %2 ya no existen. Estas cuentas principales son requeridas por %3 con fecha %4. Agregue estas cuentas principales a la estructura de cuenta %1 antes de que pueda reanudar el trabajo %3. Por ahora, es informativa, pero deberá realizar dicha acción en el futuro.
 
-- Está a punto de ejecutar un cierre de inventario con fecha %1 (31-01-2019). No se ha registrado ningún cálculo de contabilización previa de los costes con fecha %2 (31-01-2019) coincidente con el final del período. Recuerde ejecutar un cálculo de contabilización previa de los costes con fecha %3 (31-01-2019) coincidente con el final del período. La valoración de los inventarios, el costo de los bienes vendidos y las variaciones pueden no ser correctos en el libro mayor auxiliar o en el libro mayor general hasta que se haya ejecutado.
+- Está a punto de ejecutar un cierre de inventario con fecha %1 (31-01-2019). No se ha registrado ningún cálculo de contabilización previa de los costes con fecha %2 (31-01-2019) coincidente con el final del período. Recuerde ejecutar un cálculo de contabilización previa de los costes con fecha %3 (31-01-2019) coincidente con el final del período. La valoración de los inventarios, el coste de los bienes vendidos, y las variaciones pueden no ser correctos en el libro mayor auxiliar o en el libro mayor general hasta que se haya ejecutado.
 
 - Está a punto de ejecutar un cálculo de costos retroactivo con fecha %1 (28-02-2019). El último cálculo de contabilización previa de los costes registrado se ejecutó en un período anterior con fecha %2 (31-01-2019). No se ha registrado ninguna ejecución de cierre de inventario con fecha %3 (31-01-2019) coincidente con un final de período.
 Recuerde ejecutar un cierre de inventario a partir del %3 (31-01-2019) que coincida con un final de período. La valoración de los inventarios, el costo de los bienes vendidos y las variaciones pueden no ser correctos en el libro mayor auxiliar o en el libro mayor general hasta que se haya ejecutado el cierre de inventario.
@@ -63,5 +62,22 @@ Recuerde ejecutar un cierre de inventario a partir del %3 (31-01-2019) que coinc
 
 El **Informe de antigüedad de inventario** muestra diferentes valores cuando se ve en diferentes dimensiones de almacenamiento (como sitio o almacén). Para obtener más información sobre la lógica de informes, consulte [Ejemplos y lógica de informes de antigüedad de inventario](inventory-aging-report.md).
 
+## <a name="an-update-conflict-occurs-when-the-inventory-valuation-method-is-either-standard-cost-or-moving-average"></a>Se produce un conflicto de actualización cuando el método de valoración de inventario es Coste estándar o Media móvil
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Cuando registra documentos como diarios de inventario, facturas de pedidos de compra o facturas de pedidos de venta en paralelo para mejorar la escalabilidad y el rendimiento, es posible que reciba un mensaje de error sobre un conflicto de actualización y que algunos de los documentos no se registren. Este problema puede producirse cuando el método de valoración de inventario es *Coste estándar* o *Media móvil*. Ambos métodos son métodos de gestión de costes perpetuos. Es decir, el coste final se determina en el momento de la publicación.
+
+Si está usando el método *Media móvil*, el mensaje de error se parece a este ejemplo:
+
+> No se espera el valor de inventario xx.xx después del cálculo de gasto proporcional
+
+Si está usando el método *Coste estándar*, el mensaje de error se parece a este ejemplo:
+
+> El coste estándar no coincide con el valor del inventario financiero después de la actualización. Valor = xx.xx, Cant. = yy.yy, Coste estándar = zz.zz
+
+Hasta que Microsoft publique una solución para solucionar el problema, considere usar las siguientes soluciones para ayudar a evitar o reducir estos errores:
+
+- Vuelva a publicar los documentos fallidos.
+- Cree documentos que tengan menos líneas.
+- Evite valores decimales en el coste estándar. Intente definir el coste estándar para que el campo **Cantidad de precio** esté configurado en *1*. Si debe especificar un valor de **Cantidad de precio** que sea mayor que *1*, trate de minimizar el número de decimales en el coste estándar unitario. (Idealmente, debería haber menos de dos cifras decimales). Por ejemplo, evite definir configuraciones de coste estándar como **Precio** = *10* y **Cantidad de precio** = *3*, porque producirán un coste estándar unitario de 3,333333 (donde el valor decimal se repite).
+- En la mayoría de los documentos, evite tener varias líneas que contengan la misma combinación de dimensiones de inventario financiero y de producto.
+- Reduzca el grado de paralelización. (En este caso, su sistema puede volverse más rápido, porque se producen menos conflictos de actualización y reintentos).

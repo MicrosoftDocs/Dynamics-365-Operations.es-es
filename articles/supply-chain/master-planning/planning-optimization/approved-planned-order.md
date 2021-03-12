@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c29ede7ad8916a97b4a04b68f41961f79810e0c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436826"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983578"
 ---
 # <a name="approve-planned-orders"></a>Aprobar pedidos planificados
 
@@ -43,6 +42,3 @@ El campo **Estado** le ayuda a seguir su progreso utilizando los siguientes valo
 - **Aprobado**: si desea mantener las ediciones o tiene previsto poner en firme un pedido planificado, cambie el estado a *Aprobado*. Los pedidos planificados con estado *Aprobado* se consideran un suministro fijo y esperado por la planificación maestra, por lo que no se modifican ni se eliminan durante una ejecución de planificación maestra posterior. Para lograr esto, la lógica de planificación copia los pedidos planificados *Aprobados* desde la versión anterior del plan a la nueva versión del plan durante la planificación maestra. Tenga en cuenta los pedidos planificados con estado *Aprobado* solo se consideran un suministro dentro del plan maestro específico.
 
 Puede gestionar pedidos planificados desde el espacio de trabajo **Planificación maestra**, la lista **Pedido planificado** o las listas **Pedidos de producción planificados**, **Pedidos de compra planificados** y **Transferencia planificada**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

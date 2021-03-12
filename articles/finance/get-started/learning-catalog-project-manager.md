@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a0c8dabc91d4d69d3f7098672611610a4ec73ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09f7efbfa0b4b96b52350afb961710057d6a2f92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447710"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984918"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Catálogo de aprendizaje para directores de proyectos de implementación que trabajen con Dynamics 365 Finance
 
@@ -50,7 +49,7 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 | [Implementación local (datos empresariales locales) (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Participe en esta charla técnica para obtener una visión general de la opción de implementación local para Dynamics 365 for Finance and Operations, Enterprise Edition. En esta sesión, examinaremos la arquitectura de la solución de una implementación local, aspectos de ALM, requisitos del sistema y cómo aprovisionar el proyecto de servicios del ciclo de vida. | Charla técnica (webinar grabado) | 48 minutos |
 | [Planificación de cómo empezar (DYN458PAL2)](https://community.dynamics.com/365/b/techtalks/posts/go-live-planning-8-9-18) | Hablaremos de las el proceso de empezar a utilizar en detalle y la mejor forma de prepararse para el mismo, para que se desarrolle de la forma más sencilla posible para el cliente, el socio y Microsoft. | Charla técnica (webinar grabado) | 60 minutos |
 | [Planificación de entorno (DYN450PAL2)](https://community.dynamics.com/365/b/techtalks/posts/environment-planning-may-23-2018) | Participe con nosotros en esta charla técnica sobre la planificación de entorno. Obtenga información sobre los entornos estándar, qué otros entornos se necesiten, las opciones y los plazos para implementarlos y adquirirlos y los flujos previstos de código y datos entre los entornos. | Charla técnica (webinar grabado) | 53 minutos |
-| [Finance and Operations: Administración de características (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Charla técnica sobre la experiencia de administración de características. Ofrece un área de trabajo en la que puede ver, habilitar, deshabilitar y programar las características que se han entregado en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación. Asista a esta reunión para ver qué se ofrecer en la versión 10.0.3 y nuestros planes para versiones futuras. | Charla técnica (webinar grabado) | 47 minutos |
+| [Finance and Operations: Administración de características (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Charla técnica sobre la experiencia de administración de características. Ofrece un espacio de trabajo en el que puede ver, habilitar, deshabilitar y programar las características que se han entregado en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación. Asista a esta reunión para ver qué se ofrecer en la versión 10.0.3 y nuestros planes para versiones futuras. | Charla técnica (webinar grabado) | 47 minutos |
 | [Finance and Operations: actualizaciones continuas administradas por Microsoft (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | La cadencia de actualización continua para Finance and Operations ha empezado. Participe en esta hora de debate sobre las actualizaciones continuas administradas por Microsoft, la experiencia del usuario ya disponible Lifecycle Services y las actualizaciones próximas. | Charla técnica (webinar grabado) | 61 minutos |
 | [Actualizaciones continuadas administradas por Microsoft: novedades (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Durante esta hora explicaremos las novedades desde nuestros anuncios iniciales sobre las actualizaciones continuas administradas por Microsoft. Hablaremos de las la cadencia de las actualizaciones, cómo hemos respondido sus valiosos comentarios acerca del proceso, y echaremos una ojeada a la próxima experiencia de usuario de Lifecycle Services con la que podrá administrar las actualizaciones. | Charla técnica (webinar grabado) | 56 minutos |
 | [Supervisión, Asesor de optimización y artículos de Knowledge Base fundamentales (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | Hablaremos de las funciones de supervisión y lo que supervisa Microsoft para el usuario en el entorno de producción, el asesor de optimización y cómo se puede ampliar, la experiencia de “Actualizaciones críticas de X++” en el LCS y las prácticas recomendadas para la opción “Notificar interrupción de la producción" en LCS. | Charla técnica (webinar grabado) | 40 minutos |
@@ -95,6 +94,3 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 | [Inspección MB-300: Aspectos básicos de Microsoft Dynamics 365 Unified Operations](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Este inspección mide la capacidad de realizar las siguientes tareas técnicas: uso de herramientas comunes funcionales y de implementación, configuración de la seguridad, procesos y opciones, efectuar la migración de datos y validar y prestar soporte a la solución. | Inspección; el coste varía según la región | |
 | [Inspección MB-310: Microsoft Dynamics 365 for Finance and Operations, aspectos financieros](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Esta inspección mide la capacidad de realizar las tareas siguientes técnicas: definición y configuración de la gestión financiera, administrar y aplicar procesos comunes, implementar y gestionar los proveedores y los clientes y gestionar el presupuesto y los activos fijos. | Inspección; el coste varía según la región | |
 | [Certificado de Microsoft: Dynamics 365 for Finance and Operations, Asociado consultor de la funcionalidad de los aspectos financieros](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Certificado de Microsoft: Dynamics 365 for Finance and Operations, los consultores de la funcionalidad de los aspectos financieros, unifican las operaciones globales y las operaciones y automatizan las tareas y los flujos de trabajo, agilizan el proceso de pedidos, ventas, facturación y generación de informes de los clientes. | Certificación; el coste varía según la región |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

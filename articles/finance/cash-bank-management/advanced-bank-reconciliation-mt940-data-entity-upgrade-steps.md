@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4d3bd54f0f2329c8c0602171a7f3c1ca444672b3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447545"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985420"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importación avanzada de conciliación bancaria MT940 - Actualización de la entidad de datos compuestos
 
@@ -64,6 +63,3 @@ Siga estos pasos para agregar la entidad de importación del extracto bancario p
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

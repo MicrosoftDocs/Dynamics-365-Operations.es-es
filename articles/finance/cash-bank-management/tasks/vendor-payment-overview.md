@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19cea683058f7fb757ac3a99541959ba06df1963
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 37fc9a061f09f7d85f43d7e8d5ca2a3c6660b4d0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447640"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985196"
 ---
 # <a name="vendor-payment-overview"></a>Visión general de pagos de proveedor
 
@@ -63,6 +62,3 @@ Este procedimiento le mostrará los distintos métodos usados para crear pagos d
 33. Haga clic en **Aceptar** para generar los pagos.
 34. Haga clic en **Registrar** si se han aprobado y generado todos los pagos. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

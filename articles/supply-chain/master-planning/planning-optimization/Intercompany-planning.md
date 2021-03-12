@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 0958ebccba345aa13a95f1fdf03946546cbbb714
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672206"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983603"
 ---
 # <a name="intercompany-planning"></a>Planificación de empresas vinculadas
 
@@ -88,6 +87,3 @@ Para este ejemplo, se crea una orden de compra planificada en la empresa USMF pa
 La siguiente ilustración muestra cómo podría aparecer este ejemplo en la página **Vinculación multinivel** de la orden de producción planificada.
 
 ![Ejemplo de intercompañía que involucra a tres empresas](media/IntercompanyPlanning2.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

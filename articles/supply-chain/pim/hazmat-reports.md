@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1bb96d117eb3bb2b54be1a376c8789ad73d5fec8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436889"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983375"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Consultas e informes sobre materiales peligrosos
 
@@ -67,41 +66,41 @@ Para ver este informe, vaya a **Gestión de información de productos \> Consult
 
 Para obtener más información sobre cómo establecer límites de existencias en un producto despachado, consulte [Establecer límites de existencias para productos peligrosos](hazmat-items.md#stock-limits).
 
-La regulación que se utiliza para los límites de existencias se define en la página **Parámetros de gestión de almacén**. Vaya a **Gestion de almacenes \> Preparar \> Parámetros de gestión de almacén** y luego, en la pestaña **Informes** de **Límite de existencias de materiales peligrosos**, especifique un código de regulación. Para obtener más información, consulte la sección [Configurar un informe de materiales peligrosos](#set-up) previa de este tema.
+La regulación que se utiliza para los límites de existencias se define en la página **Parámetros de gestión de almacén**. Vaya a **Gestión de almacenes \> Preparar \> Parámetros de gestión de almacén** y luego, en la pestaña **Informes** de **Límite de existencias de materiales peligrosos**, especifique un código de regulación. Para obtener más información, consulte la sección [Configurar un informe de materiales peligrosos](#set-up) previa de este tema.
 
 ## <a name="verified-gross-mass-report"></a>Informe de peso bruto verificado
 
 El informe **Peso bruto verificado** le permite imprimir información sobre el peso de un envío.
 
-Para generar e imprimir este informe, vaya a **Gestion de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Peso bruto verificado**.
+Para generar e imprimir este informe, vaya a **Gestión de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Peso bruto verificado**.
 
 ## <a name="multimodal-dangerous-goods-report"></a>Informe de mercancías peligrosas multimodales
 
 El informe **Mercancías peligrosas multimodales** se proporciona para los envíos que deben moverse mediante una combinación de métodos de transporte. Por lo general, se usa cuando un envío se mueve primero por carretera y luego por mar.
 
-Para generar e imprimir este informe, vaya a **Gestion de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Mercancías peligrosas multimodales**.
+Para generar e imprimir este informe, vaya a **Gestión de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Mercancías peligrosas multimodales**.
 
-Cuando genera este informe, la información se guarda, para que pueda editarlo y/o volver a imprimirlo si es necesario. Para editar un informe generado, vaya a **Gestion de almacenes \> Consultas e informes \> Documentación de envío de materiales peligrosos \> Mercancías peligrosas multimodales** y busque el informe correspondiente en la lista. Una vez que haya terminado de editar el contenido como lo necesita, seleccione **Imprimir** en el Panel Acciones para imprimir el informe.
+Cuando genera este informe, la información se guarda, para que pueda editarlo y/o volver a imprimirlo si es necesario. Para editar un informe generado, vaya a **Gestión de almacenes \> Consultas e informes \> Documentación de envío de materiales peligrosos \> Mercancías peligrosas multimodales** y busque el informe correspondiente en la lista. Una vez que haya terminado de editar el contenido como lo necesita, seleccione **Imprimir** en el Panel Acciones para imprimir el informe.
 
 ## <a name="shippers-declaration-report"></a>Informe de declaración de remitentes
 
 El informe **Declaración de remitentes** le permite imprimir información relacionada con una declaración de los materiales que se incluyen en el envío.
 
-Para generar e imprimir este informe, vaya a **Gestion de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Declaración de remitentes**.
+Para generar e imprimir este informe, vaya a **Gestión de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Declaración de remitentes**.
 
 ## <a name="carriage-of-merchandise-by-road-report"></a>informe de transporte de mercancías por carretera
 
 El informe **Transporte de mercancías por carretera** se asemeja a un conocimiento de embarque, pero normalmente se utiliza para el transporte por carretera en Europa en virtud de las normativas del Acuerdo sobre el transporte internacional de mercancías peligrosas por carretera (ADR). Este informe utiliza el texto de impresión de envío de un artículo a menos que establezca el campo **Descripción del grupo de materiales peligrosos** de la página **Parámetros de gestión de almacén**.
 
-Para generar e imprimir este informe, vaya a **Gestion de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Transporte de mercancías por carretera**.
+Para generar e imprimir este informe, vaya a **Gestión de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Transporte de mercancías por carretera**.
 
-Cuando genera este informe, la información se guarda, para que pueda editarlo y/o volver a imprimirlo si es necesario. Para editar un informe generado, vaya a **Gestion de almacenes \> Consultas e informes \> Documentación de envío de materiales peligrosos \> Transporte de mercancías por carretera** y busque el informe correspondiente en la lista. Una vez que haya terminado de editar el contenido como lo necesita, seleccione **Imprimir** en el Panel Acciones para imprimir el informe.
+Cuando genera este informe, la información se guarda, para que pueda editarlo y/o volver a imprimirlo si es necesario. Para editar un informe generado, vaya a **Gestión de almacenes \> Consultas e informes \> Documentación de envío de materiales peligrosos \> Transporte de mercancías por carretera** y busque el informe correspondiente en la lista. Una vez que haya terminado de editar el contenido como lo necesita, seleccione **Imprimir** en el Panel Acciones para imprimir el informe.
 
 ## <a name="shipment-summary-report"></a>Informe de resumen de envío
 
 El informe **Resumen de envío** proporciona información resumida por la categoría de transporte relacionada con los artículos despachados.
 
-Para generar e imprimir este informe, vaya a **Gestion de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Resumen de envío**.
+Para generar e imprimir este informe, vaya a **Gestión de almacenes \> Envíos \> Todos los envios** y abra el envío correspondiente. Luego, en el Panel Acciones, en la pestaña **Envíos** del grupo **Documento de materiales peligrosos**, seleccione **Resumen de envío**.
 
 ## <a name="bill-of-lading-report"></a>Informe de conocimiento de embarque
 
@@ -110,6 +109,3 @@ Cuando la función de materiales peligrosos está activada en su sistema, el inf
 ## <a name="packing-list-report"></a>Informe de lista de embalaje
 
 Cuando la función de materiales peligrosos está activada en su sistema, las listas de embalaje incluyen información adicional relacionada con el texto de impresión de envío de un artículo. Este informe está disponible en la página **Todas las cargas**, como de costumbre.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

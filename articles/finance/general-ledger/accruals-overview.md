@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerAccuralTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14131
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b97055f7eac12e3e82d028a0097ca926e5c355a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 23d4ab4a3a14a3068daf49090db6ffab4fb586ff
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447565"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985071"
 ---
 # <a name="accruals-overview"></a>Visión general de Acumulaciones
 
@@ -46,6 +45,3 @@ Cuando especifique un diario, puede hacer clic en **Acumulaciones contables** en
 
 
 Para obtener más información, consulte [Crear esquemas de acumulación](tasks/create-accrual-schemes.md) y [Crear transacciones de acumulaciones del libro mayor](tasks/create-ledger-accrual-transactions.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
-ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
+ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666731"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983553"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planificación maestra con previsiones de demanda
 
@@ -44,7 +43,7 @@ Para configurar un plan maestro de modo que incluya un pronóstico de demanda, s
 1. En la ficha rápida **General**, establezca los siguientes campos:
 
     - **Modelo de previsión** - Seleccione el modelo de previsión para aplicar. Este modelo se considerará cuando se genere una sugerencia de suministro para el plan maestro actual.
-    - **Include demand forecast** - Establezca esta opción en *Sí* para incluir la previsión de demanda en el plan maestro actual. Si se configura en *No*, las transacciones de previsión de demanda no se incluirán en el plan maestro.
+    - **Incluir previsión de la demanda** - Establezca esta opción en *Sí* para incluir la previsión de demanda en el plan maestro actual. Si se configura en *No*, las transacciones de previsión de demanda no se incluirán en el plan maestro.
     - **Método utilizado para reducir los requisitos de pronóstico** - Seleccione el método que se debe utilizar para reducir los requisitos de pronóstico. Para obtener más información, consulte la sección [Previsión de las claves de reducción](#reduction-keys) más adelante en este tema.
 
 1. En la ficha desplegable **Valla de tiempo en días**, puede establecer los siguientes campos para especificar el período durante el cual se incluye el pronóstico de demanda:
@@ -274,6 +273,3 @@ Una clave de reducción de previsión debe asignarse al grupo de cobertura del a
 ### <a name="reduce-a-forecast-by-transactions"></a>Reducir una previsión por transacciones
 
 Cuando selecciona **Transacciones - clave de reducción** o **Transacciones - período dinámico** como método para reducir los requisitos previstos, puede especificar qué transacciones reducen la previsión. En la página **Grupos de cobertura** , en la ficha desplegable **Otro** , en el campo **Reducir la previsión por** , seleccione **Todas las transacciones** si todas las transacciones deben reducir la previsión o **Pedidos** si sólo los pedidos de ventas reducen la previsión.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

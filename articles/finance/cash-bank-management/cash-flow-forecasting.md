@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 85e8c8bf0c626e049fd78f326fd0929212f962c5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645778"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985271"
 ---
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
@@ -150,6 +149,3 @@ Además, puede ver los datos de previsión de flujo de efectivo para cuentas, pe
 - **Previsión de suministro**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de suministro del artículo seleccionado.
 - **Previsión de demanda**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de demanda del artículo seleccionado.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

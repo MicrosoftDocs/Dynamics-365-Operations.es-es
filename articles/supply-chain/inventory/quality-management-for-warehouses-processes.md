@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fd6b4b0c30a8a4cb36955e9b131c937c4db80772
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437129"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983734"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Administración de la calidad para procesos de almacén
 
@@ -622,6 +621,3 @@ Ha configurado los datos de trabajo y ubicación para el almacén 51 para garant
 
 > [!NOTE]
 > Considere agregar la entrada de calidad de salida a un elemento del menú del dispositivo móvil con código de actividad *Mostrar lista de trabajo abierta*. Por ejemplo, vea el elemento del menú del dispositivo móvil que se llama **Lista de trabajo** en los datos de demostración. Primero agregue la clase de trabajo *Orden de calidad* a un elemento de menú dirigido por el usuario, porque esta clase de trabajo es necesaria para que el trabajo se muestre en la lista de trabajo. Luego agregue la clase de trabajo *Orden de calidad* al elemento de menú **Lista de trabajo**. Los usuarios que tienen acceso a la lista de trabajo podrán seleccionar y procesar el trabajo que se genere automáticamente mediante la validación de pedidos de calidad.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

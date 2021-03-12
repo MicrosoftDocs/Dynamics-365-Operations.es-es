@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EInvoiceCFDIPACTable_MX, EInvoiceParameters_MX, DigitalCertificateLookup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 093956eec8062f6e555c98eb5594d9c4f27c2a91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7ab630d7e984859bc29260c7c0dfc4503879ba32
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407791"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984714"
 ---
 # <a name="mx-00010-set-parameters-for-an-electronic-invoice"></a>MX-00010 Definir parámetros para una factura electrónica
 
@@ -73,6 +72,3 @@ Este procedimiento muestra cómo configurar una factura electrónica y la cuenta
 15. En la lista, haga clic en el vínculo de la fila seleccionada.
 16. Active o desactive la casilla Enviar archivo de informe: PDF.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

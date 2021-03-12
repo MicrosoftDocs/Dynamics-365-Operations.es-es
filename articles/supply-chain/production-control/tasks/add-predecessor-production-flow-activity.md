@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c39cef1174439b42a072bd7fc1ac29ef31ecf864
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a9b761e61bf6a810da9258870e9a994da4ced125
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436585"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981440"
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Agregar un predecesor a una actividad de flujo de producción
 
@@ -52,6 +51,3 @@ Para obtener más información, lea el documento “Los flujos de producción y 
     * La proporción de tiempo de ciclo predeterminado de una relación de actividad es 1. Esto supone que las actividades se ejecutan en el mismo paso o el ritmo de producción. Si el predecesor se ejecuta a un ritmo más alto (un ritmo de producción inferior), la proporción debe ser inferior a 1, si el predecesor se ejecuta a un ritmo más lento (un ritmo de producción más alto), el tiempo de ciclo es mayor que 1.  
 5. Haga clic en Aceptar
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

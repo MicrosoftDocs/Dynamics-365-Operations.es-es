@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 118e7689e5d37aae18d3823b957301ddfa89369a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415539"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982650"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrar descuentos en PDV
 
@@ -69,6 +68,3 @@ La siguiente ilustración muestra la lógica que se utiliza cuando el control de
 La siguiente ilustración muestra la lógica que se utiliza cuando el control de simultaneidad de descuento se establece en **El mejor precio solo dentro de la prioridad, siempre compuesto a través de la prioridad**.
 
 ![Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad](./media/Model_2.png "Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad").
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

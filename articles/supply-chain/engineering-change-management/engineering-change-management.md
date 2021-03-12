@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 314563e083434832ee04d9c19deb17cec221ae02
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8ae97d0e6aac1b0961427bd73a37612020231a9f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4437310"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983809"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Administrar cambios en productos de ingeniería
 
@@ -185,6 +184,3 @@ La mayoría de los campos de las órdenes de cambio de ingeniería son los mismo
 | Salud medioambiental y seguridad | Especifique si las reglas de seguridad y salud ambiental son aplicables al cambio. Si es así, puede seleccionar las reglas aplicables. |
 
 Puede usar el botón **Mantener/copiar información de cambios** para copiar la información de cambio entre los productos afectados.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

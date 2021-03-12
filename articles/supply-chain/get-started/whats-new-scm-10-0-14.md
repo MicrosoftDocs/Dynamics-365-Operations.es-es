@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
-ms.sourcegitcommit: 4e55bd178e315dfa132ec77fe705d68c68460b44
+ms.openlocfilehash: 7ff72721b9ed13e3457d72fa1896f663020eacff
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4437290"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983759"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.14 (noviembre de 2020)
 
@@ -64,6 +63,3 @@ En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain M
 Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, son actualizaciones funcionales que hay que hacer en el compilador.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
