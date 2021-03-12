@@ -11,41 +11,40 @@ ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfa1b9e43a5745eb5b5c442998597319f196f23f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45ae7d6bb04dbf06b9b05d9f5610895fced650b0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447514"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994449"
 ---
-# <a name="set-up-withholding-tax"></a><span data-ttu-id="cf185-103">Configurar retención de impuestos</span><span class="sxs-lookup"><span data-stu-id="cf185-103">Set up withholding tax</span></span>
+# <a name="set-up-withholding-tax"></a><span data-ttu-id="ef882-103">Configurar retención de impuestos</span><span class="sxs-lookup"><span data-stu-id="ef882-103">Set up withholding tax</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="cf185-104">Este tema explica cómo configurar la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-104">This topic explains how to set up withholding tax.</span></span> <span data-ttu-id="cf185-105">La *retención de impuestos* es un impuesto sobre los proveedores que no crea transacciones de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-105">*Withholding tax* is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="cf185-106">La retención de impuestos calculada sobre los pagos de proveedor es un pasivo.</span><span class="sxs-lookup"><span data-stu-id="cf185-106">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="cf185-107">Por lo tanto, tan solo las cuentas de balance de situación o las cuentas de pasivos son cuentas validas para el registro de la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-107">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="cf185-108">Esta guía de la tarea demuestra cómo configurar la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-108">This task guide demonstrates how to set up withholding tax.</span></span>
+<span data-ttu-id="ef882-104">Este tema explica cómo configurar la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-104">This topic explains how to set up withholding tax.</span></span> <span data-ttu-id="ef882-105">La *retención de impuestos* es un impuesto sobre los proveedores que no crea transacciones de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-105">*Withholding tax* is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="ef882-106">La retención de impuestos calculada sobre los pagos de proveedor es un pasivo.</span><span class="sxs-lookup"><span data-stu-id="ef882-106">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="ef882-107">Por lo tanto, tan solo las cuentas de balance de situación o las cuentas de pasivos son cuentas validas para el registro de la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-107">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="ef882-108">Esta guía de la tarea demuestra cómo configurar la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-108">This task guide demonstrates how to set up withholding tax.</span></span>
 
-1. <span data-ttu-id="cf185-109">Vaya al **panel de navegación > Módulos > Impuestos > Impuestos indirectos > Retención de impuestos > Códigos de retención de impuestos**.</span><span class="sxs-lookup"><span data-stu-id="cf185-109">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax codes**.</span></span>
-2. <span data-ttu-id="cf185-110">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="cf185-110">Select **New**.</span></span>
-3. <span data-ttu-id="cf185-111">En el campo **Código de retención de impuestos**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="cf185-111">In the **Withholding tax code** field, type a value.</span></span>
-4. <span data-ttu-id="cf185-112">En el campo **Nombre de la retención de impuestos**, especifique el nombre del código de retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-112">In the **Withholding tax name** field, enter the name of the withholding tax code.</span></span>
-5. <span data-ttu-id="cf185-113">En el campo **Cuenta principal**, seleccione la cuenta principal para registrar el pasivo de la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-113">In the **Main account** field, select the main account for posting the withholding tax liability.</span></span>
-6. <span data-ttu-id="cf185-114">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="cf185-114">Select **Save**.</span></span>
-7. <span data-ttu-id="cf185-115">Seleccione **Valores** y marque el registro deseado en la lisat.</span><span class="sxs-lookup"><span data-stu-id="cf185-115">Select **Values** and mark the desired record in the list.</span></span>
-8. <span data-ttu-id="cf185-116">En el campo **Valor**, especifique un porcentaje usado para el cálculo de la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-116">In the **Value** field, enter a percentage used for the calculation of the withholding tax.</span></span>
-9. <span data-ttu-id="cf185-117">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="cf185-117">Select **Save**.</span></span>
-10. <span data-ttu-id="cf185-118">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="cf185-118">Close the page.</span></span>
-11. <span data-ttu-id="cf185-119">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="cf185-119">Select **Save**.</span></span>
-12. <span data-ttu-id="cf185-120">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="cf185-120">Close the page.</span></span>
-13. <span data-ttu-id="cf185-121">Vaya a **Panel de navegación > Módulos > Impuestos > Impuestos indirectos > Retención de impuestos > Grupos de retenciones de impuestos**.</span><span class="sxs-lookup"><span data-stu-id="cf185-121">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax groups**.</span></span>
-14. <span data-ttu-id="cf185-122">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="cf185-122">Select **New**.</span></span>
-15. <span data-ttu-id="cf185-123">En el campo **Grupo de retenciones de impuestos**, especifique el identificador del grupo de retenciones de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-123">In the **Withholding tax group** field, enter the identifier of the withholding tax group.</span></span>
-16. <span data-ttu-id="cf185-124">En el campo **Descripción**, especifique el nombre del grupo de retenciones de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-124">In the **Description** field, enter the name of the withholding tax group.</span></span>
-17. <span data-ttu-id="cf185-125">En el campo **Código de retención de impuestos**, seleccione el código de retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="cf185-125">In the **Withholding tax code** field, select the withholding tax code.</span></span>
-18. <span data-ttu-id="cf185-126">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="cf185-126">Select **Save**.</span></span>
-19. <span data-ttu-id="cf185-127">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="cf185-127">Close the page.</span></span>
+1. <span data-ttu-id="ef882-109">Vaya al **panel de navegación > Módulos > Impuestos > Impuestos indirectos > Retención de impuestos > Códigos de retención de impuestos**.</span><span class="sxs-lookup"><span data-stu-id="ef882-109">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax codes**.</span></span>
+2. <span data-ttu-id="ef882-110">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="ef882-110">Select **New**.</span></span>
+3. <span data-ttu-id="ef882-111">En el campo **Código de retención de impuestos**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="ef882-111">In the **Withholding tax code** field, type a value.</span></span>
+4. <span data-ttu-id="ef882-112">En el campo **Nombre de la retención de impuestos**, especifique el nombre del código de retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-112">In the **Withholding tax name** field, enter the name of the withholding tax code.</span></span>
+5. <span data-ttu-id="ef882-113">En el campo **Cuenta principal**, seleccione la cuenta principal para registrar el pasivo de la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-113">In the **Main account** field, select the main account for posting the withholding tax liability.</span></span>
+6. <span data-ttu-id="ef882-114">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="ef882-114">Select **Save**.</span></span>
+7. <span data-ttu-id="ef882-115">Seleccione **Valores** y marque el registro deseado en la lisat.</span><span class="sxs-lookup"><span data-stu-id="ef882-115">Select **Values** and mark the desired record in the list.</span></span>
+8. <span data-ttu-id="ef882-116">En el campo **Valor**, especifique un porcentaje usado para el cálculo de la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-116">In the **Value** field, enter a percentage used for the calculation of the withholding tax.</span></span>
+9. <span data-ttu-id="ef882-117">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="ef882-117">Select **Save**.</span></span>
+10. <span data-ttu-id="ef882-118">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="ef882-118">Close the page.</span></span>
+11. <span data-ttu-id="ef882-119">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="ef882-119">Select **Save**.</span></span>
+12. <span data-ttu-id="ef882-120">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="ef882-120">Close the page.</span></span>
+13. <span data-ttu-id="ef882-121">Vaya a **Panel de navegación > Módulos > Impuestos > Impuestos indirectos > Retención de impuestos > Grupos de retenciones de impuestos**.</span><span class="sxs-lookup"><span data-stu-id="ef882-121">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax groups**.</span></span>
+14. <span data-ttu-id="ef882-122">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="ef882-122">Select **New**.</span></span>
+15. <span data-ttu-id="ef882-123">En el campo **Grupo de retenciones de impuestos**, especifique el identificador del grupo de retenciones de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-123">In the **Withholding tax group** field, enter the identifier of the withholding tax group.</span></span>
+16. <span data-ttu-id="ef882-124">En el campo **Descripción**, especifique el nombre del grupo de retenciones de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-124">In the **Description** field, enter the name of the withholding tax group.</span></span>
+17. <span data-ttu-id="ef882-125">En el campo **Código de retención de impuestos**, seleccione el código de retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ef882-125">In the **Withholding tax code** field, select the withholding tax code.</span></span>
+18. <span data-ttu-id="ef882-126">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="ef882-126">Select **Save**.</span></span>
+19. <span data-ttu-id="ef882-127">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="ef882-127">Close the page.</span></span>
 
