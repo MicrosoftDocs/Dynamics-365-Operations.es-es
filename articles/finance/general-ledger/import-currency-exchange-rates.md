@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 74acfab28d45fc75c4ecd595aeba1fb1e13bbcff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a5dbe0d822f7bdb1a62a99c43ef9f7170c889676
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447687"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988886"
 ---
 # <a name="import-currency-exchange-rates"></a>Importar tipos de cambio de divisa
 
@@ -56,6 +55,3 @@ Puede importar tipos de cambio desde el origen de los proveedores del tipo de ca
 | **Invalidar tipos de cambio existentes**   | Esta casilla administra la actualización del tipo de cambio existente para un par de divisas cuando ya existe el tipo de cambio para una fecha específica. Si no activa esta casilla, el tipo de cambio para las fechas específicas no se importa si ya existe otro tipo de cambio.                                                                                       |
 | **Evitar la importación en una festividad nacional** | Esta casilla administra la importación del tipo de cambio para la fecha de un día festivo. Por ejemplo, si selecciona esta casilla y usa el Banco Central Europeo como el proveedor del tipo de cambio, el sistema no actualizará el tipo de cambio en un día festivo que esté relacionado con la entidad jurídica actual. Es posible que esta opción no esté disponible para algunos proveedores. |
 | **Tipo de cambio del día anterior** | Esta casilla de verificación está disponible si habilita la característica **Importación BCE en la fecha actual o anterior** de la página **Administración de características**. Esta casilla de verificación solo está disponible para el proveedor, *Banco Central Europeo*. Seleccione esta casilla para importar el tipo de cambio de divisa que ha publicado el Banco Central Europeo en el día laborable anterior a las 16:00 CET aproximadamente. La casilla de verificación está activada de forma predeterminada. Desactive esta casilla para importar el tipo de cambio de divisa que se publica el mismo día hábil.  |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

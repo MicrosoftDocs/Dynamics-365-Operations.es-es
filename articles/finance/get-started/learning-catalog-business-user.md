@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447645"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990248"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Catálogo de aprendizaje para usuarios de Dynamics 365 Finance
 
@@ -54,12 +53,10 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 | [Configurar y usar la gestión presupuestaria en Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Las organizaciones ya sean privadas o públicas, crean presupuestos para establecer objetivos financieros y operativos. Con la naturaleza colaborativa y controla por procesos de la planificación presupuestaria, puede crear sus procesos presupuestarios con más eficacia. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 3.5 horas |
 | [Configurar y gestionar activos fijos en Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Puede configurar y especificar información de adquisición para activos fijos y, a continuación, gestionarlos depreciándolos y configurando un umbral de capitalización. La forma de gestionar los activos fijos se debe corresponder con los estándares de contabilidad internacional y la legislación de contabilidad en cada país o región. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 4.5 horas |
 | [Introducción a la contabilidad de costos para las cadenas de suministro en Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | La Contabilidad de costes permite recopilar datos de distintas fuentes, como la contabilidad general, los subdiarios, y los presupuestos, así como información estadística. A continuación, puede analizar, resumir y evaluar los datos de coste, de modo que la administración puede tomar las mejores decisiones para las actualizaciones de precios, los presupuestos, el control de costes, etc.  | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 1 hora  |
+| [Trabajar con gestión de gastos en Dynamics 365 Project Operations](https://docs.microsoft.com/learn/paths/work-expense-management/) | Maximice la rentabilidad y minimice costes mediante funciones precisas de gestión de gastos en Dynamics 365 Project Operations. Aprenda a configurar el sistema y a crear y aprobar informes de gastos. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 5.5 horas  |
 
 ## <a name="exam"></a>Examen<a name="exam"></a>
 
 | Contenido | Descripción  | Formato  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Aspectos básicos de Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Compruebe que se sabe cómo funciona Microsoft Dynamics 365: Power Platform, conceptos de la nube, opciones de licencia y opciones de la implementación y de publicación. | Inspección; el coste varía según la región |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

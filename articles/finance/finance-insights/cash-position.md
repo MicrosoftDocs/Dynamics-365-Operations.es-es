@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 64b8dcd43024e5c26d33bf12c5fe198711adde56
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 5cf1ac4de07cb6357493a0b2c84f6a6ee591d4bc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645899"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990573"
 ---
 # <a name="cash-position-preview"></a>Posición de efectivo (versión preliminar)
 
@@ -34,7 +33,7 @@ La posición de efectivo es la proyección del flujo de efectivo que se prevé p
 
 Cuando el sistema predice los pagos de los clientes, utiliza las predicciones de pago de la función de predicción de pagos del cliente. Sin predicciones de pago, el tiempo promedio que se requiere para convertir una factura de cliente en un pago para cada cliente se usa para calcular una fecha de pago. Para los pedidos abiertos de clientes, el sistema calcula la fecha de la factura utilizando el número promedio de días para que se facturen las líneas de pedido por cliente. A continuación, utiliza la fecha de la factura como entrada para la función de predicción de pagos. La función de predicción de pagos del cliente calcula una fecha de pago para cada línea de pedido. 
 
-<*Necesita texto de Jarek o Dave sobre cómo las predicciones de pago se convierten en una fecha*> La fecha de pago de las facturas pendientes es aproximada [*estimada*] a partir de las predicciones de pago seleccionando una fecha que corresponda al percentil cincuenta de la función de distribución acumulativa que se obtiene a partir de las probabilidades del depósito predicho.
+<*Necesita texto de Jarek o Dave sobre cómo las predicciones de pago se convierten en una fecha*> La fecha de pago de las facturas pendientes se [*estima*] aproximadamente a partir de las predicciones de pago, seleccionando una fecha que corresponda al percentil cincuenta de la función de distribución acumulativa que se obtiene a partir de las probabilidades del caso predicho.
 
 Se utiliza un enfoque similar para predecir los pagos a los proveedores. Para cada proveedor, el sistema calcula el tiempo promedio que se requiere para convertir una factura de proveedor en un pago. Ese número de días se usa después para calcular la fecha de pago. Para los pedidos de proveedores abiertos, el sistema calcula la fecha de la factura considerando el número promedio de días que se requieren para convertir las líneas de pedido en una factura para cada proveedor. Luego, el sistema calcula la fecha de pago usando el tiempo promedio para convertir una factura de proveedor en un pago para cada proveedor.
 
@@ -51,6 +50,3 @@ Para guardar y editar la posición de efectivo, cree una instantánea. Para obte
 
 #### <a name="privacy-notice"></a>Aviso de privacidad
 Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

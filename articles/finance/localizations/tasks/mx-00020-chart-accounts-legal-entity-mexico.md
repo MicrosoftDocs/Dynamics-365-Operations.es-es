@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: MainAccount, LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 803a40dcf5834891a62ac84b323327b51d2ba73d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a664f0d66cc26c110d3a852ceb3f9834e708a29a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407790"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989944"
 ---
 # <a name="mx-00020-set-up-the-chart-of-accounts-for-a-legal-entity-in-mexico"></a>MX-00020 Configuración del plan de cuentas para una entidad jurídica en México
 
@@ -68,6 +67,3 @@ Configure parámetros específicos en el plan contable para habilitar la generac
     * Necesita repetir esta acción para cada cuenta principal creada en su empresa. Si tiene muchas cuentas principales que crear, puede usar la herramienta de gestión de datos para importar las cuentas principales desde un archivo de Microsoft Excel.  
 19. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

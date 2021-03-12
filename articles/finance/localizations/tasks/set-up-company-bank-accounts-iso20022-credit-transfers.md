@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e121ce7d87ee50a4e6b367a170eea4375d64fb3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca0f0af3cccd4110c3da1703112a5b0f29bd64ad
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447527"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988179"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>Configurar cuentas bancarias de la empresa para transferencias de crédito ISO20022
 
@@ -52,6 +51,3 @@ Este es el segundo procedimiento, de cinco, que muestra el proceso de pago del p
 4. En el campo Cuenta bancaria, especifique o seleccione un valor.
 5. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f8d5356e6c7f8aff507d3fa87bb3c30cb38cf36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f5570d7cf2a8139d7959cb708d306e8b91065ed1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447737"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990676"
 ---
 # <a name="map-a-cost-element-dimension"></a>Asignar una dimensión de elemento de coste
 
@@ -44,6 +43,3 @@ Un controlador de costes puede utilizar este procedimiento para asignar una dime
     * Para este ejemplo, seleccione el Teléfono 6001004 del miembro de la dimensión.  
 11. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

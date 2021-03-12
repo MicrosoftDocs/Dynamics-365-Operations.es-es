@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 0561a3307f8b990c06dd25c9fc3fd7097254061f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4447784"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988489"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>Configurar el complemento de facturación electrónica
 
@@ -361,6 +360,3 @@ Siga estos pasos para gestionar el ciclo de vida de la función complementaria d
 
     > [!NOTE]
     > Cuando selecciona **Sí**, el estado de las versiones de configuración se cambia automáticamente de **Terminado** a **Compartido**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

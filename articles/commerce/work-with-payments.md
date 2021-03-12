@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fede81aa8c61eddba72b9ba2e780d61731f8253
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415550"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989261"
 ---
 # <a name="payment-methods-in-call-centers"></a>Métodos de pago en centros de llamadas
 
@@ -53,6 +52,3 @@ A medida que se definen los métodos de pago, deben vincularse a un libro mayor 
 Para escenarios de procesamiento de devolución, el Centro de llamadas también utiliza algunos de los métodos de pago definidos en Proveedores. Para configurar estos métodos de pago, vaya a **Retail y Commerce** \> **Configuración de canal** \> **Configuración de centro de llamadas** \> **Métodos de devolución de centro de llamadas**. Debe completar esta configuración para procesar cheques de devolución a los clientes. Por ejemplo, si un cliente pagó originalmente un pedido mediante efectivo o un cheque, puede que el usuario desee enviar al cliente un cheque de devolución a través de Clientes. En este caso, los tipos de pago en efectivo y en cheque en el centro de llamadas deben asignarse al método de pago correcto en Clientes para ayudar a garantizar que la devolución se procesa correctamente.
 
 Además, si un usuario procesa un pedido de devolución como usuario del centro de llamadas en Commerce, pero no puede vincular la devolución a una venta original, el método de pago **Devolución** debe definirse en los parámetros del Centro de llamadas. Vaya a **Retail y Commerce** \> **Configuración de canal** \> **Configuración del centro de llamadas** \> **Parámetros del centro de llamadas** y, a continuación, en la pestaña **RMA/Devolución**, en el campo **Método de pago**, asegúrese de que se define un método de pago. El método de pago será el método de pago que se utiliza para las devoluciones. Normalmente, se definirá como un método de comprobación o un método de cuenta del cliente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

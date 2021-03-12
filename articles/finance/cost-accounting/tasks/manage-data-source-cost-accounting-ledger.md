@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMAXGeneralLedgerEntryProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88f5170610ea9b5634c4bf5da7079cacccdafe04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7246d42b42404f0f1215bbf14b8ad168fe12691c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447738"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990726"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Gestionar un origen de datos para el libro mayor de contabilidad de costes
 
@@ -48,6 +47,3 @@ Use este procedimiento para gestionar el origen de datos de la contabilidad gene
 14. En el campo Capa de registro, seleccione Actual.
 15. Haga clic en Aceptar
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

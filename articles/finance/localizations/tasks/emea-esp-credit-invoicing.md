@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Spain
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b378afae00f9bb4807d3f320c37def6896966c0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ad97d5d7ff5b3ed9396d059527e044868f71e49
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407826"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989934"
 ---
 # <a name="create-a-corrective-invoice-spain"></a>Crear una factura correctiva (España)
 
@@ -92,6 +91,3 @@ Este procedimiento le guía por la manera de crear una factura de corrección. E
 3. Haga clic en Transacciones.
 4. Haga clic en la pestaña General.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
