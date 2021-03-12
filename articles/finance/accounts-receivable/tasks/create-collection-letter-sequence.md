@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d8aa4963026ad55ed3dfccb28b6cc68a872f326
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2500bdaa7107c24f7cb95249208b7ac2a2958fed
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447499"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971562"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Crear una secuencia de cartas de cobro
 
@@ -59,6 +58,3 @@ Use esta guía de tarea para crear una secuencia de cartas de cobro. Esta tarea 
 26. Expanda la ficha desplegable **Nota**.
 27. Especifique el texto tal como desea que aparezca en la carta de cobro para el código de carta de cobro seleccionado. Puede traducir este texto a varios idiomas mediante el menú Traducciones encima del cuadro de nota.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

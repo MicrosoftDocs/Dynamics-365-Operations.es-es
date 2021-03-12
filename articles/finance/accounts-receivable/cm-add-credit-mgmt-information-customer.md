@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a04180a5dbec1e08d0149beeed0495a0d13af76c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447574"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971737"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Agregar información de administración de crédito para los clientes
 
@@ -102,6 +101,3 @@ Puede crear pólizas de seguro y garantías en la página **Todos los clientes**
     En este caso, el límite de crédito efectivo es 125 000 (= A + \[B × C\]).
     
     Sin embargo, si activa la casilla **Incluido en la exposición**, se quita el valor de **Actualizar límite de crédito** de 50 000 (= 50,00 por ciento de 100 000), y el valor de exposición es de 75 000 (= A + \[B × C\] - B).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

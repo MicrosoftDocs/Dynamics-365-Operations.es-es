@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 8f228f10c5aeaca3f4fc9b97bf7b6cc4af1592b8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666755"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973619"
 ---
 # <a name="partial-location-cycle-counting"></a>Recuento cíclico de ubicaciones parcial
 
@@ -62,6 +61,3 @@ Para este ejemplo, solo se debe contar el número de artículo A0001 en el almac
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Recuento cíclico](cycle-counting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

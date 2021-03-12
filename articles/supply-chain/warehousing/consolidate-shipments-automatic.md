@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 376c7418b61c0192f9071a879b50b9ece7699894
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437196"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970365"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Consolidar los envíos cuando se despachan al almacén mediante Despacho automático de pedidos de ventas
 
@@ -242,7 +241,7 @@ Para cada conjunto de pedidos de ventas que creó anteriormente, completará los
 
 #### <a name="release-to-the-warehouse"></a>Despachar al almacén
 
-1. Ir **Gestion de almacén \> Despachar al almacén \> Despacho automático de pedidos de ventas**.
+1. Ir **Gestión de almacén \> Despachar al almacén \> Despacho automático de pedidos de ventas**.
 1. Establece el campo **Cantidad a despachar** en *Todo*.
 1. En la ficha desplegable **Registros a incluir**, seleccione **Filtrar** para abrir el cuadro de diálogo de consulta.
 1. En la pestaña **Rango**, seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
@@ -318,6 +317,3 @@ Cuando haya terminado, debería ver que se han creado cuatro envíos:
 
 - [Directivas de consolidación de envíos](about-shipment-consolidation-policies.md)
 - [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

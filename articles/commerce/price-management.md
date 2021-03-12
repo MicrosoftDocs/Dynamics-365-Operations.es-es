@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b381ec0535676b77a62bc748fd2ca1c521839ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415411"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972464"
 ---
 # <a name="retail-sales-price-management"></a>Administración de precios de venta minorista
 
@@ -240,6 +239,3 @@ Además, el motor de precios **solo** admite las siguientes características:
 El precio es uno de los factores más importantes que controlan las decisiones de compra de muchos clientes, y muchos clientes comparan precios en distintos sitios antes de hacer una compra. Para ayudar a garantizar que proporcionan precios competitivos, los minoristas observan detenidamente a sus competidores y a menudo realizan promociones. Para ayudar a minoristas a atraer a clientes, es muy importante que la búsqueda de producto, la característica de exploración, las listas, y la visualización de la página de detalles de productos muestren los precios más precisos.
 
 En una versión próxima de Commerce, la interfaz de programación (API) de la aplicación **GetActivePrices** devolverá los precios que incluyen descuentos simples (por ejemplo, los descuentos de una línea que no dependen de otros artículos del carro). De esta manera, los precios que aparecen están muy cerca del importe real que los clientes pagan por los artículos. Este API incluirá todos los tipos de descuentos simples: basados en afiliación, fidelidad, catálogo y en el canal. Además, la API devolverá los nombres y la información de la validez para descuentos aplicados, de modo que los minoristas pueden proporcionar una descripción más detallada del precio y crear una sensación urgencia de si la validez del descuento expirará pronto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

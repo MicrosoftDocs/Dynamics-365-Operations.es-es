@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 91c0a96abdd7df9e85e63ca6b1b47a57f3f401eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e14b029a1420eda6af6e83392f295a071a29842a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415410"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972439"
 ---
 # <a name="retail-price-reports"></a>Informes de precio comercial
 
@@ -44,6 +43,3 @@ Para habilitar el informe de precio, el parámetro **Habilitar informe de precio
 | Mostrar productos con cambios de precio | Establecer esto en **Sí** mostrará los índices por solo las fechas en las que se ha cambiado el precio. El precio para *un día antes* seleccionado **Desde fecha** se mostrará siempre, de modo que el encargado de tienda pueda identificar con facilidad los productos que no han cambiado los precios durante la duración completa seleccionada, y también puede ver el precio actual. |
 
 Después de que se cree el informe, el archivo de Excel se puede descargar para usar cualquier filtro necesario. El informe del precio se puede usar para comprobar los precios históricos de los productos por últimas fechas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

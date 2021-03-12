@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 4bc4bac1a422a7505ef4c66b9c3b79a3d754cc4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447808"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971487"
 ---
 # <a name="asset-leasing-reports"></a>Informes de arrendamiento de activos
 
@@ -165,6 +164,3 @@ El informe de tasa de descuento promedio ponderado satisface el requisito de div
 |     Divisa                          |     La abreviatura de la divisa de transacción usada. Todos los informes convertirán la divisa transaccional a la divisa del informe.  |
 |     Pagos por arrendamiento restantes          |     El importe total de los pagos de arrendamiento impagados de la programación de pagos que quedan desde la fecha **A partir de**.            |
 |     Pagos ponderados restantes       |     Los pagos de arrendamiento restantes multiplicados por la tasa de descuento utilizada.   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

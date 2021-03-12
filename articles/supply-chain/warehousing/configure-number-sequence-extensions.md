@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: fa4074c23baa74983f4922d2d09d7da81c943bfe
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4437295"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973844"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurar secuencias numéricas para flujos de almacén
 
@@ -92,6 +91,3 @@ Para crear y editar secuencias numéricas, siga estos pasos.
     | Dígito control | Este tipo de segmento agrega un dígito de control que es un cálculo de módulo 10. (Este comportamiento coincide con la lógica existente de los ID de matrículas). En este tipo de segmento, el campo **Valor** siempre se establece en un intercalado (*^*) y el campo **Longitud** siempre se establece en *1*. |
 
 1. Para ver un ejemplo de su formato de número final, inspeccione el campo **Formato** en la parte inferior de la ficha desplegable **Segmentos**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

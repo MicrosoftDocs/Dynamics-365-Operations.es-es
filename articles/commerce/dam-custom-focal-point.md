@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 9c8fc9a1f944d24aff3ab2923ca2715209a674e4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594341"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972941"
 ---
 # <a name="customize-image-focal-points"></a>Personalizar puntos focales de imagen
 
@@ -60,6 +59,3 @@ Para definir un punto focal personalizado para una imagen, siga estos pasos.
 [Recortar imágenes](dam-crop-images.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

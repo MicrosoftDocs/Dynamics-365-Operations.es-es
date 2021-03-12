@@ -1,5 +1,5 @@
 ---
-title: Aprovechar un descuento superior al calculado para un pago de proveedor
+title: Utilizar más que el descuento calculado para un pago de proveedor
 description: Este artículo le guía por un escenario en el que se toma un descuento por pronto pago para un importe superior al descuento que estaba originalmente disponible en la factura. Este escenario podría surgir si una organización llega a un acuerdo con el proveedor para pagar un importe menor en la factura.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14281
 ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b84b3d6ef1a86d8174823345a5ee9181c701c151
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7ee74bad071d546724f6ffe336bbe3bdf47e2a5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447445"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971912"
 ---
-# <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Aprovechar un descuento superior al calculado para un pago de proveedor
+# <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Utilizar más que el descuento calculado para un pago de proveedor
 
 [!include [banner](../includes/banner.md)]
 
@@ -51,6 +50,3 @@ April registra el diario de pagos. La factura se liquida con un pago de 940,00 y
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

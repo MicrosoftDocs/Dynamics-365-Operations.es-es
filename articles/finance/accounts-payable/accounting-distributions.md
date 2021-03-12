@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3901fb61c1c8f9a9fd13b8ea558877daf884f3ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447760"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972259"
 ---
 # <a name="accounting-distributions"></a>Distribuciones contables
 
@@ -57,6 +56,3 @@ Las capacidades genéricas de distribución contable proporcionan las siguientes
 En la versión 10.0.13, se agregó una función que valida la tabla de distribución contable para garantizar que los nuevos campos estén configurados correctamente. Esta característica se llama **Habilitar la validación adicional de datos para documentos utilizando el marco de contabilidad de documentos de origen**. Para usar la función, debe habilitarla usando el espacio de trabajo **Gestión de funciones**. Para habilitar la función, busque el nombre de la función en el campo **Buscar** de la página **Gestión de funciones** y luego seleccione **Habilitar ahora**.
 
 Para obtener más información, consulte [Distribuciones contables y asientos del subdiario contable para las facturas de proveedores](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

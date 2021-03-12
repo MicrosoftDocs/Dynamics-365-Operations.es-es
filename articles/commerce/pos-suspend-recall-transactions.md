@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f513e2d857908f2b95d27bf48ff1e826724d7cbf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 823d538bea481aef4f3657fe0ae1ebb3b0cf759c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415619"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972539"
 ---
 # <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>Suspender y reanudar una transacción en el punto de venta (PDV)
 
@@ -82,6 +81,3 @@ Para recuperar de forma rápida y sencilla una transacción suspendida, digitali
 ### <a name="void-a-suspended-transaction"></a>Anular una transacción suspendida
 
 Puede anular transacciones suspendidas recuperando la transacción y después ejecutando la operación **Anular transacción** , o seleccionando la transacción en el lista **Recuperar transacción** y seleccionando **Anular** en la barra de la aplicación. De manera alternativa, el almacén se puede configurar para solicitar a los usuarios que anulen las transacciones suspendidas cuando acaben su turno.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91f30d4d1b66e5b4b90f7df67d8f76a95a100338
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4a853287c0795057b09c429ea1c9ad5231e39a33
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415579"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972314"
 ---
 # <a name="define-loyalty-programs"></a>Definir programas de fidelización
 
@@ -79,6 +78,3 @@ Este procedimiento muestra cómo configurar un programa de fidelización con dos
 39. Cierre la página.
 40. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

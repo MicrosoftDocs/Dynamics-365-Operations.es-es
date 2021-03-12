@@ -3,24 +3,23 @@ title: Trabajar con artículos serializados en el PDV
 description: Este tema explica cómo administrar artículos serializados en la aplicación de punto de venta (POS).
 author: boycezhu
 manager: annbe
-ms.date: 08/21/2020
+ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6ba01abc3d1a4496ec586a621aa03b4981f84d76
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415648"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972564"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Trabajar con artículos serializados en el PDV
 
@@ -90,11 +89,49 @@ Para habilitar dicha validación, como requisito previo, debe programar los sigu
 - **Retail y Commerce** > **Retail y Commerce IT** > **Productos e inventario** > **Disponibilidad de producto con dimensiones de seguimiento**
 - **Retail y Commerce** > **Programas de distribución** > **1130** (**Disponibilidad del producto**)
 
+## <a name="sell-serialized-items-in-pos"></a>Vender artículos serializados en PDV
+
+Aunque la aplicación PDV siempre ha admitido la venta de artículos serializados, en la versión 10.0.17 de Commerce y posteriores, las organizaciones pueden habilitar la funcionalidad que mejora la lógica comercial que se activa al vender productos configurados para el seguimiento de números de serie.
+
+Cuando la característica **Validación mejorada de números de serie en la captura y el procesamiento de pedidos de PDV** está habilitada, se evalúan las siguientes configuraciones de productos cuando se venden productos serializados en PDV:
+
+- Configuración **Tipo serie** para el producto (**activo** o **activo en ventas**).
+- Configuración de **Emisión en blanco permitida** para el producto.
+- Configuración de **Inventario negativo físico** para el producto o el almacén de venta.
+
+### <a name="active-serial-configurations"></a>Configuraciones de números de serie activas
+
+Cuando se venden artículos en PDV que están configurados con una dimensión de seguimiento de números de serie **Activa**, PDV inicia la lógica de validación que evita que los usuarios completen la venta de un artículo serializado con un número de serie que no se encuentra en el inventario actual del almacén de venta. Hay dos excepciones a esta regla de validación:
+
+- Si el artículo también está configurado con la opción **Emisión en blanco permitida** habilitada, los usuarios pueden omitir la entrada del número de serie y vender el artículo sin la designación del número de serie.
+- Si el artículo o el almacén de venta están configurado con la opción **Inventario negativo físico** habilitada, la aplicación acepta y vende un número de serie que no se puede confirmar que esté en el inventario del almacén al que se vende. Esta configuración permite que la transacción de inventario para ese artículo/número de serie específico sea negativa y, por lo tanto, el sistema permitirá las ventas de números de serie desconocidos.
+
+> [!IMPORTANT]
+> Para asegurarse de que la aplicación PDV pueda validar correctamente si los números de serie que se venden para artículos de tipo serie **Activos** están en el inventario del almacén de venta, es necesario que las organizaciones ejecuten frecuentemente el trabajo **Disponibilidad de producto con dimensiones de seguimiento** en la sede central de Commerce y el trabajo de distribución de disponibilidad de producto **1130** acompañante a través de la sede central de Commerce. A medida que se recibe nuevo inventario serializado en los almacenes de venta, para que el PDV valide la disponibilidad de inventario de los números de serie que se venden, el maestro de inventario debe actualizar con frecuencia la base de datos del canal con los datos de disponibilidad de inventario más actualizados. El trabajo **Disponibilidad de producto con dimensiones de seguimiento** crear una instantánea actual del inventario maestro, incluidos los números de serie, para todos los almacenes de la empresa. El trabajo de distribución **1130** capta esa instantánea de inventario y la comparte con todas las bases de datos de canal configuradas.
+
+### <a name="active-in-sales-process-serial-configurations"></a>Activar configuraciones serie en el proceso de ventas
+
+Los elementos configurados con la dimensión de serie como **Activo en proceso de venta** no pasan por ninguna lógica de validación de inventario, ya que esta configuración implica que los números de serie del inventario no están registrados previamente en existencias y los números de serie solo se capturan en el momento de la venta.  
+
+Si también está configurado **Emisión en blanco permitido** para elementos configurados como **Activo en proceso de venta**, se puede omitir la entrada del número de serie. Si la opción **Emisión en blanco permitida** no está configurada, la aplicación requiere que el usuario introduzca un número de serie, aunque no se validará con el inventario disponible.
+
+### <a name="apply-serial-numbers-during-creation-of-pos-transactions"></a>Aplicar números de serie al crear transacciones de PDV
+
+La aplicación PDV solicita inmediatamente a los usuarios la captura del número de serie cuando se venda un artículo serializado, pero la aplicación permite a los usuarios omitir la entrada de números de serie hasta cierto punto en el proceso de venta. Cuando el usuario comienza a capturar el pago, la aplicación aplica y requiere la introducción del número de serie para cualquier artículo que no esté configurado para su entrega en futuros envíos o recolecciones. Cualquier artículo serializado configurado para pago al contado sin entrega a domicilio o para reparto requiere que el usuario capture el número de serie (o acepte dejarlo en blanco si la configuración del artículo lo permite) antes de completar la venta.
+
+Para artículos serializados vendidos para recogida o envío futuro, los usuarios de PDV pueden omitir la introducción del número de serie inicialmente y aún así completar la creación del pedido del cliente.   
+
+> [!NOTE]
+> Al vender o procesar productos serializados a través de la aplicación PDV, se aplica la cantidad "1" para los artículos serializados en la transacción de ventas. Este es el resultado de cómo se hace el seguimiento de la información de números de serie en la línea de ventas. Al vender o completar una transacción para varios artículos serializados a través de PDV, cada línea de ventas debe configurarse únicamente con una cantidad de "1". 
+
+### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Aplicar números de serie durante el procesamiento o la recogida del pedido del cliente
+
+Al procesar líneas de pedido de cliente para productos serializados mediante la operación **Procesamiento de pedido** en PDV, PDV impone la captura del número de serie antes del procesamiento final. Así, si no se proporcionó un número de serie durante la captura inicial del pedido, debe capturarse durante los procesos de recolección, empaquetamiento o envío en PDV. Se realiza una validación en cada paso y solo se le pedirá al usuario los datos del número de serie si este falta o ya no es válido. Por ejemplo, si un usuario omite los pasos de recoger o empaquetar, e inicia inmediatamente un envío sin que se haya registrado un número de serie para la línea, el PDV requerirá que se introduzca el número de serie antes de completar el paso final de la factura. Al aplicar la captura del número de serie durante las operaciones de procesamiento de pedidos en PDV, todas las reglas mencionadas anteriormente en este tema siguen siendo aplicables. Solo los artículos serializados configurados como **Activo** pasan por una validación de existencias de inventario de número de serie. Los artículos configurados como **Activo en proceso de ventas** no se validarán. Si se permite un **Inventario negativo físico** para productos **Activos**, se aceptará cualquier número de serie, con independencia de la disponibilidad en existencias. Para los artículos de tipo **Activo** y **Activo en proceso de ventas**, si se configura **Emisión en blanco permitida**, un usuario puede dejar los números de serie en blanco si lo desea durante los pasos de recogida, embalaje y envío.
+
+Las validaciones de los números de serie también se producirán cuando un usuario realice las operaciones de recogida de los pedidos de los clientes en PDV. La aplicación PDV no permite finalizar la recogida de un producto serializado a menos que pase las validaciones, como se mencionó anteriormente. Las validaciones siempre se basan en la dimensión de seguimiento del producto y las configuraciones del almacén de venta. 
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Operación de inventario entrante en PDV](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Operación de inventario de salida en PDV](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
