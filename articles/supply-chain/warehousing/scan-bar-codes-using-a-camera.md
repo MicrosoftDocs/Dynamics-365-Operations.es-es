@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: fd4818ab936e1c93000793da756c97df6d05b2a9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 71ec15b2568eefd8bea99e64c258a65461a7ad95
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436646"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965655"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Digitalizar códigos de barras mediante una cámara en la aplicación de almacén
 
@@ -55,6 +54,3 @@ En la página de la cámara, al hacer clic en el botón Cámara, aparecerá aten
 
 Cuando apunte la cámara a un código de barras, mantenga el código de barras alineado entre los corchetes para lograr un mejor resultado. Cuando un código de barras se digitaliza correctamente, el resultado se procesará y pasará al siguiente paso. Si el siguiente paso contiene otro campo de entrada con el modo de entrada preferido establecido en Exploración, la página de la cámara se volverá a iniciar. Si el paso siguiente no es un campo de exploración, la página de la cámara no se iniciará.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

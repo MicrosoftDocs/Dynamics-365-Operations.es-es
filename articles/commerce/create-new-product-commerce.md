@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eb2dd36c6149f2aa40305cd57eac060b232b09e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415493"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965331"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Crear un producto nuevo en Commerce
 
@@ -115,6 +114,3 @@ En la siguiente imagen se muestra un ejemplo de configuración para un producto 
 [Crear entidades jurídicas](channels-legal-entities.md)
 
 [Crear un grupo de variantes](create-variant-group.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

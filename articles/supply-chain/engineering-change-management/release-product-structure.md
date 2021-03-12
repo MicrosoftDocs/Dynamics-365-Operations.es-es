@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 68f091cca9c3c2baa03813553127ee41abe6d522
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4437308"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967241"
 ---
 # <a name="release-product-structures"></a>Liberar estructuras de producto
 
@@ -160,6 +159,3 @@ Este comportamiento se aplica solo cuando un producto se selecciona directamente
 Por ejemplo, el producto X se asigna al grupo de propietarios de productos *Armarios de diseño*. El producto X también forma parte de la lista de materiales del producto Y, que se asigna al grupo de propietarios de productos *Ponentes de diseño*. Si un usuario del grupo propietario del producto *Ponentes de diseño* lanza el producto y su lista de materiales, el producto X se lanzará junto con el producto Y.
 
 Para obtener más información, consulte [Propietarios de productos](product-owner.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

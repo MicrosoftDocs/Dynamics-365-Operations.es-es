@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 7c0f98ffc6ede74f93523b9fa9800e7b6617d9b6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437068"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966664"
 ---
 # <a name="vendor-rebates"></a>Devoluciones de proveedor
 
@@ -167,6 +166,3 @@ El proceso para administrar devoluciones de proveedor implica realizar varias ta
 - Crear reclamaciones de devolución precisas
 - Acumular el cobro esperado y las ganancias provisionales en el libro de contabilidad general
 - Actualizar el saldo del proveedor y el extracto de ingresos con las concesiones que estén pendientes
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

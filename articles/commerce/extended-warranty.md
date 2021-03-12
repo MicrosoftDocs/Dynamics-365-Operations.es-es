@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415426"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965130"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Crear y configurar garantías ampliadas
 
@@ -142,7 +141,7 @@ Un grupo de garantía es una relación entre los artículos de garantía y artí
 
 Para configurar un grupo de garantías en Commerce, siga estos pasos.
 
-1. Vaya a **Retail y Commerce \> Productos y categorías \> Garantía \> Grupos de garantía**.
+1. Vaya a **Retail y Commerce \> Productos y categorías \> Garantía \> Grupos de garantía**.
 1. Seleccione **Nuevo** para crear un grupo de garantía.
 1. En el campo **Nombre**, escriba un nombre para el grupo nuevo.
 1. En la ficha desplegable **General**, en el campo **Descripción** escriba una descripción del grupo.
@@ -239,6 +238,3 @@ Una garantía es un servicio que se proporciona para un producto específico y �
 [Configurar selecciones](set-up-assortments.md)
 
 [Visión general de las secuencias numéricas](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

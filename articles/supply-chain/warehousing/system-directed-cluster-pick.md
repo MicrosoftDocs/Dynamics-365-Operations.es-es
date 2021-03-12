@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437244"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965686"
 ---
 # <a name="system-directed-cluster-picking"></a>Selección de clúster dirigida por el sistema
 
@@ -207,6 +206,3 @@ Antes de poder configurar la selección de clúster dirigida por el sistema, deb
 1. El último paso en el dispositivo móvil es **Colocar** el clúster en la ubicación final. Seleccione **Aceptar**
     - Cuando se confirma esta operación de colocación, el clúster se cierra y se divide según el valor que establecido en el campo **Dividir clúster en** del perfil del clúster. Los identificadores de trabajo también se cierran.
 1. Se muestra un mensaje de "Clúster completo" en el dispositivo móvil.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

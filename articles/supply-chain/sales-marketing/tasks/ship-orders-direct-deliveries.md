@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437268"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966114"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Enviar pedidos como entregas directas
 
@@ -82,6 +81,3 @@ En este tema se demuestra cómo crear una entrega directa para un pedido de vent
     - La página Entrega directa actúa como área de trabajo que proporciona al agente de compras una visión general de todas las líneas de pedidos de ventas que se procesarán por entrega directa y le permite crear los pedidos de compra respectivos. Además, puede ver los pedidos abiertos de entrega directa y los pedidos confirmados en las fichas Confirmación y Entrega.  
     - Después de crear un pedido de entrega directa, se desplazó automáticamente a la ficha de confirmación. Puede elegir confirmar el pedido directamente desde esta página. Cuando se confirme la compra, se moverá automáticamente a la ficha Entrega, desde la que puede registrar su recepción.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

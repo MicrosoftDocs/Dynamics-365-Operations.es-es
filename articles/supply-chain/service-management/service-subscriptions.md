@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04df717dcf6d4710389f06e8534ea24d8697a4cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436536"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965814"
 ---
 # <a name="service-subscriptions"></a>Suscripciones de servicio
 
@@ -38,6 +37,3 @@ Un código de período indica la duración del período de la tarifa de suscripc
 El código de período se define en el grupo de suscripciones de servicio. Se define para las suscripciones mediante el grupo de suscripciones de servicio. Todas las tarifas de suscripción nuevas creadas tienen una fecha inicial propuesta, que es la fecha inicial del período (si se trata del primer período creado) o el final del período anterior (si se trata de un período subsiguiente).
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
