@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de7cfdc7868305579c9ccdea4becd76b7ade0726
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e7150185bed3b7c5f84f633b41f604985a66ee8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407796"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997429"
 ---
 # <a name="mx-00008---vendor-registration-ids"></a>MX-00008: Id. de registro de proveedores
 
@@ -46,6 +45,3 @@ Este procedimiento le muestra cómo crear el proveedor para México de modo que 
     * Para los proveedores extranjeros, especifique el id. de registro de impuestos, el código de país o región y la nacionalidad.  
 12. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

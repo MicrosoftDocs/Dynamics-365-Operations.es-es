@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528932"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998512"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management
 
@@ -62,13 +61,13 @@ Las siguientes tareas de sincronización son necesarias antes de que pueda produ
 
 | **Field Service** | **Gestión de la cadena de abastecimiento** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | Encabezado de pedidos de ventas de CDS |
-| msdyn_workorderservices | Líneas de pedido de ventas de CDS   |
-| msdyn_workorderproducts | Líneas de pedido de ventas de CDS   |
+| msdyn_workorders        | Encabezados de pedido de ventas de Dataverse |
+| msdyn_workorderservices | Líneas de pedido de ventas de Dataverse   |
+| msdyn_workorderproducts | Líneas de pedido de ventas de Dataverse   |
 
 ## <a name="entity-flow"></a>Flujo de la entidad
 
-Los pedidos de trabajo se crean en Field Service. Si los pedidos de trabajo incluyen solo productos mantenidos externamente y si el valor de **Estado de la orden de trabajo** difiere de **Abierto - no programado** y **Cerrado – Cancelado**, las órdenes de trabajo se pueden sincronizar con Supply Chain Management mediante un proyecto de integración de datos de Common Data Service. Las actualizaciones en los pedidos de trabajo se sincronizarán como pedidos de ventas en Supply Chain Management. Estas actualizaciones incluyen información acerca del tipo y el estado de origen.
+Los pedidos de trabajo se crean en Field Service. Si los pedidos de trabajo incluyen solo productos mantenidos externamente y si el valor de **Estado de la orden de trabajo** difiere de **Abierto - no programado** y **Cerrado – Cancelado**, las órdenes de trabajo se pueden sincronizar con Supply Chain Management mediante un proyecto de integración de datos de Microsoft Dataverse. Las actualizaciones en los pedidos de trabajo se sincronizarán como pedidos de ventas en Supply Chain Management. Estas actualizaciones incluyen información acerca del tipo y el estado de origen.
 
 ## <a name="estimated-versus-used"></a>Estimado versus utilizado
 
@@ -273,6 +272,3 @@ Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004) o (msdyn_allocated ne true))
 
 [![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

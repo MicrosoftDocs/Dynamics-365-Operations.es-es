@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: b25626dafc07d576699ceba3cc9ca691db45cb9f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4415687"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997759"
 ---
 # <a name="set-up-a-call-center-channel"></a>Configurar un canal de centro de llamadas
 
@@ -136,6 +135,3 @@ Para configurar un grupo de precios, haga lo siguiente.
 [Configurar y trabajar con alertas de fraude](set-up-fraud-alerts.md)
 
 [Configurar programas de continuidad para centros de llamadas](set-up-continuity-program.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

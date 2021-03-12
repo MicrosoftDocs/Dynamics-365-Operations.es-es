@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 07dbfa301e4b242f50a9c2758b11b5ad2c31b261
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437231"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998362"
 ---
 # <a name="work-line-details"></a>Detalles de línea de trabajo
 
@@ -128,6 +127,3 @@ Soga estos pasos para crear un trabajo de picking.
 
 > [!IMPORTANT]
 > Si cancela solo una parte de la cantidad de una línea de trabajo, también debe eliminar la cantidad obsoleta de la línea de carga. De lo contrario, a menos que la entrega incompleta esté configurada correctamente, la línea de carga no se puede confirmar en el envío.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

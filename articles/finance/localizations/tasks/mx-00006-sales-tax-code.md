@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxVatReportCategory_MX, TaxTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af288766dda7a6661589db78171f7b99035ca539
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: 94b242cc39e0bccabc5ed98268baa7f03bf6d0dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668932"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997432"
 ---
 # <a name="mx-00006-set-up-sales-tax-code"></a>MX-00006 Configuración de un código de impuesto sobre las ventas
 
@@ -50,6 +49,3 @@ Los documentos financieros jurídicos, como declaraciones de impuestos o factura
     * El sistema valida los identificadores de registro de impuestos según el formato especificado por las autoridades fiscales de México.  
 15. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

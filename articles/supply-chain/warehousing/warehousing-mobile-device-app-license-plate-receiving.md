@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fe02a83d05e4b86694c1b210906128ac0cf6a84
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437236"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998437"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Matrícula que se recibe a través de la aplicación de almacén
 
@@ -105,6 +104,3 @@ Para obtener más información sobre los elementos del menú del dispositivo mó
 Para más información sobre el escenario de producción *Informar como terminado*, consulte el [Resumen de políticas de trabajo de almacén](warehouse-work-policies.md).
 
 Para más información sobre la gestión de cargas entrantes , consulte [Gestión de almacén de cargas entrantes para pedidos de compra](inbound-load-handling.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

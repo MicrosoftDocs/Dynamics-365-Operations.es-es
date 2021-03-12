@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18484b637723cef43cad288c08ddfe53cddf9e03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7ae44088a1b53ac5e7e9ba09ed7ff611a08d2ed0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436977"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996709"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Crear requisito del artículo desde el pedido de servicio 
 
@@ -72,6 +71,3 @@ Los requisitos de artículo para los pedidos de servicio se procesan a través d
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

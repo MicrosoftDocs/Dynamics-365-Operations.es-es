@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae589f81811c1586e0e24de94eaf5f467f19debb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d68087afd1a0c9b675e4ac1ef2118e6aab5213d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436567"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998662"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Crear una nueva regla kanban de sustitución
 
@@ -56,6 +55,3 @@ Este procedimiento se centra en el reemplazo de una regla kanban existente por u
 1. Defina la cantidad máxima en "100".
     * Expanda la ficha desplegable Cantidades para ver el campo Cantidad máxima. El cambio de la cantidad máxima a 100 le permitirá que se procesen hasta 100 kanbans.    Este es el último paso de esta tarea.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

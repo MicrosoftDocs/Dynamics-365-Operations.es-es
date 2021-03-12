@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a5ced6311f32405e544e66d18c912ce40deb177f
-ms.sourcegitcommit: 33a746e41cd6f7b6b056b19b550a84f6a1b905d4
+ms.openlocfilehash: ae220e98acbda99255beefea598d973dbaa22368
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4512926"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997556"
 ---
 # <a name="e-commerce-site-overview"></a>Visión general del sitio de comercio electrónico
 
@@ -121,6 +120,3 @@ Para obtener información acerca de cómo administrar el contenido del sitio, ve
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
 
 [Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

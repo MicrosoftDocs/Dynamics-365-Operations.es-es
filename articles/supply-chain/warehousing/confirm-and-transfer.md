@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436620"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996335"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar y transferir
 
@@ -230,6 +229,3 @@ También puede confirmar que las relaciones de transacción se han actualizado d
 - La opción **Dividir cantidad a nueva carga** también funciona cuando algunos de los encabezados de trabajo restantes tienen un estado de *En proceso*. Por lo tanto, aún puede usar la funcionalidad incluso si los trabajadores ya están ejecutando las órdenes de recogida.
 - Si selecciona **Cancelar cantidad no cumplida** mientras queda trabajo que tiene un estado de *Abierto* o *En progreso*, recibirá el siguiente mensaje de error: "No se puede cancelar la cantidad restante para la carga. Existe trabajo para la carga".
 - Si selecciona **Cancelar cantidad no cumplida** cuando no queda trabajo pero hay líneas de carga inéditas en la carga, recibirá el siguiente mensaje de error: "No se pudo confirmar el envío para la carga porque la cantidad del artículo excede el porcentaje que se define por debajo de la entrega". Para evitar el error, puede configurar el porcentaje **Bajo entrega** en la línea de carga inédita al 100 %. Las líneas no lanzadas no se moverán a una nueva carga, pero la carga actual se confirmará con una entrega insuficiente. En este caso, no podrá volver a lanzar el pedido original. Por lo tanto, tendrá que gestionarlo de alguna otra forma.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

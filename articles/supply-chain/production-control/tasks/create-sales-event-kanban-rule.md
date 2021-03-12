@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1759adea6db8120078e2f32bff79178545c2328a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd8d55619f52fcd1beff7a27ff814b3dc00dd25a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436566"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998637"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Crear una regla kanban de eventos de ventas
 
@@ -74,6 +73,3 @@ Este procedimiento se centra en la configuración necesaria para crear una regla
 2. Haga clic en Ver diagrama de árbol.
     * Observe que se crea un kanban con la misma cantidad que la línea de ventas. También puede ver las emisiones de material necesarias para producir L0050. Este es el último paso de este procedimiento.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

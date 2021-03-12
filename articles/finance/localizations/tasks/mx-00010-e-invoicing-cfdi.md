@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, TaxGroupLookup, InventLocationIdLookup, SalesEditLines,  EInvoiceCFDIJournal_AR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67fafd5a7b4b59680c330b6255e04fb13c558124
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd5c09627a8cd21a8f89ef09f0d0c9a180b86536
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407795"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997416"
 ---
 # <a name="e-invoicing-cfdi"></a>Facturación electrónica de CFDI
 
@@ -60,6 +59,3 @@ Este tema le muestra cómo crear y registrar una factura de cliente como una fac
 27. En el panel de navegación, vaya a **Módulos > Clientes > Consultas e informes > CFDI (facturas electrónicas)**.
 28. En la lista, seleccione la factura electrónica que revisar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

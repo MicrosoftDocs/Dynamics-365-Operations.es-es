@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EInvoiceCFDIJournal_AR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 63769dc6eabdfc782020014a8ef3177c6591454c
-ms.sourcegitcommit: f717439a228358e85c99dfc97fd9fcc68d98b986
+ms.openlocfilehash: c6d244fdd796e765daa63f8293ee8ef3529528a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4407830"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997423"
 ---
 # <a name="mx-00010-cancel-an-electronic-invoice"></a>MX-00010 Cancelar facturas electrónicas
 
@@ -54,6 +53,3 @@ Puede cancelar una factura electrónica CFDI validada y certificada anteriorment
 6. Haga clic en Aceptar para confirmar la cancelación de la factura electrónica.
     * El estado de la factura electrónica es Cancelación manual.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
