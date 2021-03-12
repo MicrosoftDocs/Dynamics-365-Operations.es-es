@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447678"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976375"
 ---
 # <a name="reconcile-a-bank-account"></a>Conciliación de cuenta bancaria
 
@@ -71,6 +70,3 @@ La funcionalidad de cancelación de conciliación de extracto bancario permite c
 Las conciliaciones de extracto bancario se pueden cancelar únicamente en el orden cronológico en el que se especificaron. Cuando una conciliación de extracto bancario se cancela, las nuevas transacciones y correcciones se invierten y el resto de transacciones se marcan como no conciliadas.
  
 Para cancelar una conciliación de extracto bancario, seleccione el extracto bancario y **Extracto bancario > Cancelar conciliación bancaria**. En la página **Cancelar conciliación bancaria**, proporcione **Código de motivo**, **Comentario del motivo**, y **Fecha de cancelación**. Seleccione **Aceptar** para iniciar la cancelación. Tenga en cuenta que la fecha de cancelación del extracto bancario debe ser igual o posterior a la fecha del extracto bancario. Una vez que la conciliación del extracto bancario se ha cancelado, el campo **Fecha de cancelación** del extracto bancario se actualiza con la **Fecha de cancelación** que ha proporcionado. Seleccione el botón **Transacciones** para ver las transacciones para las que se ha cancelado la conciliación.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

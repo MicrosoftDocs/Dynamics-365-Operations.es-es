@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d184b34ec33184d730d5b6eed3db144f1433f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a822f5f7bb76604bbebdb3282fd51985d3ccba8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436612"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978047"
 ---
 # <a name="inventory-journals"></a>Diarios de inventario
 
@@ -117,6 +116,3 @@ Estos dos diarios de inventario solo admiten el escenario *Inicializar existenci
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Entidades de datos](../../dev-itpro/data-entities/data-entities.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

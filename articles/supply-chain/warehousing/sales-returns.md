@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnTable, ReturnTableListPagePreviewPane, ReturnTableReferences, SalesReturnExpiredOrdersPart, SalesReturnFindOrderFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd194042303797fe41507065d0d7e4df28309cfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e8778a96030494cbb5d819bf214fca104864eff4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436645"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977422"
 ---
 # <a name="sales-returns"></a>Devoluciones de ventas
 
@@ -311,7 +310,7 @@ El pedido de devolución no hace referencia una factura de cliente. Se abona el 
 
 ![Pedido de devolución no hace referencia a una factura del cliente](./media/SalesReturn09.png)  
 
->[Nota] el precio del artículo maestro se usa como el valor predeterminado para el parámetro **Precio de coste de la devolución**. El precio predeterminado difiere del precio de coste en el momento de la emisión de inventario. Por lo tanto, la implicación que se ha incurrido en una pérdida de 3. Además, el pedido de devolución no incluye el descuento que se ha concedido al cliente en el pedido de ventas. Por lo tanto, aparece un crédito excesivo.
+>[Nota] el precio del artículo maestro se usa como el valor predeterminado para el parámetro **Precio de coste** de la devolución. El precio predeterminado difiere del precio de coste en el momento de la emisión de inventario. Por lo tanto, la implicación que se ha incurrido en una pérdida de 3. Además, el pedido de devolución no incluye el descuento que se ha concedido al cliente en el pedido de ventas. Por lo tanto, aparece un crédito excesivo.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Ejemplo 2: La corrección de crédito se selecciona para el pedido de devolución
 
@@ -331,6 +330,3 @@ En este ejemplo, la línea de pedido de devolución se crea mediante la función
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

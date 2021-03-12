@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0474a8cecccaf1e23874458c27e0bea991140b6c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f012f934015e334aea468b5b62741749103d7790
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447651"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978748"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 200%
 
@@ -77,19 +76,16 @@ Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opc
 | Años de tiempo de vida             | 5      |
 | Porcentaje de depreciación anual | 40%    |
 
-El método de depreciación degresiva del 200% divide el 200 por ciento entre los años de tiempo de vida. El porcentaje se multiplicará por el valor neto en los libros del activo para determinar el importe de depreciación durante el año.
+El método de depreciación degresiva del 200 % divide el 200 por ciento entre los años de tiempo de vida. El porcentaje se multiplicará por el valor neto en los libros del activo para determinar el importe de depreciación durante el año.
 
 | Periodo | Cálculo del importe de depreciación anual | Valor neto             | Valor neto en los libros al final del año |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| Año 1 | (11.000 – 1.000) × 40% = 4.000                | 11.000 - 4.000 = 7.000 | 11.000 - 1.000 – 4.000 = 6.000        |
-| Año 2 | 6.000 × 40% = 2.400                           | 7.000 - 2.400 = 4.600  | 6.000 - 2.400 = 3.600                 |
-| Año 3 | 3.600 × 40% = 1.440                           | 4.600 - 1.440 = 3.160  | 3.600 - 1.440 = 2.160                 |
+| Año 1 | (11.000 – 1.000) × 40 % = 4.000                | 11.000 - 4.000 = 7.000 | 11.000 - 1.000 – 4.000 = 6.000        |
+| Año 2 | 6.000 × 40 % = 2.400                           | 7.000 - 2.400 = 4.600  | 6.000 - 2.400 = 3.600                 |
+| Año 3 | 3.600 × 40 % = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
 
 > [!NOTE] 
 > Normalmente, cuando el importe que se calcula mediante el método de depreciación degresiva del 200% resulta inferior al importe que se calcularía con el método de amortización lineal, se realiza una conversión al método de amortización lineal para la vida restante.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

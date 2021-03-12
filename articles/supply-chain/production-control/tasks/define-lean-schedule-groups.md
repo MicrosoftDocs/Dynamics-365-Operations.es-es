@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9ad470d81d94a0af1c4c4dc6c5072354cfd96d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: acdaa3c9ee927b5c333b41927b2a6d245c02b4d8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436555"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977897"
 ---
 # <a name="define-lean-schedule-groups"></a>Definir grupos de programación lean
 
@@ -56,6 +55,3 @@ Los grupos de programación lean se definen para agrupar y distinguir productos 
 3. En el campo Clave de asignación de artículos, haga clic en el botón desplegable para abrir la búsqueda.
 4. En la lista, haga clic en el vínculo de la fila seleccionada.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

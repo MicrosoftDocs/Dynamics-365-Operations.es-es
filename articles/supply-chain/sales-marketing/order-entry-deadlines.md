@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable, MCRAutoTaxRules
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f7d4a99166af112abe26220a700fcf4be79223b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b04155bf9c5e282e97eba4fc0a6290c771d7ba3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436684"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977672"
 ---
 # <a name="order-entry-deadlines"></a>Fechas límite del pedido
 
@@ -109,6 +108,3 @@ En la siguiente tabla, se muestra cómo se convierten a hora MST las fechas lím
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

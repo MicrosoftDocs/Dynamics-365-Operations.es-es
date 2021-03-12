@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b07fdf6e5f4afa4f6df84138c809e402b7944dfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27f1bd8e8b001596054e6c427d87a610975c6a3b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447579"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978723"
 ---
 # <a name="acquire-assets-through-procurement"></a>Adquisición de activos mediante compra
 
@@ -109,6 +108,3 @@ Para obtener más información, consulte [Integración de activos fijos](fixed-a
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436652"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977497"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Liberación automática de envío para tránsito directo
 
@@ -179,6 +178,3 @@ Tenga en cuenta que se producen los eventos siguientes:
 - La liberación a un almacén se activa para el pedido de ventas vinculado.
 - En función de la liberación, se crea el envío y el trabajo de tránsito directo. Este trabajo indica al operador del almacén que seleccione las cantidades necesarias para cumplir la línea de pedido de ventas y colocarlas en la ubicación de salida que especificó en la directiva de ubicación de tránsito directo.
 - Si la cantidad de pedido de producción es mayor que la cantidad requerida por el pedido de ventas, se crea el trabajo de ubicación regular. Este trabajo indica al operador del almacén que seleccione la cantidad de productos terminados que quedan después del tránsito directo y lo mueve al almacenamiento regular, según la directiva de ubicación.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

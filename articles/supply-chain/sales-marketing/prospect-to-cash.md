@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 55c39fac40498488519fcb539b3c3f7560a46b30
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b2f2f7d95d3f0e6bd774c43024836aac1f729abd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436781"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977647"
 ---
 # <a name="prospect-to-cash"></a>Cliente potencial a cliente
 
@@ -82,6 +81,3 @@ Para usar la solución Prospect to cash, debe instalar los componentes siguiente
 
 - Dynamics 365 Sales, versión 1612 (8.2.1.207) (DB 8.2.1.207) en línea o una versión posterior
 - Solución Prospect a Cash para Dynamics 365 Sales, versión 1.15.0.0 o versión posterior. La solución está disponible para su descarga en AppSource. [Descargue Dynamics 365, Prospect to cash](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

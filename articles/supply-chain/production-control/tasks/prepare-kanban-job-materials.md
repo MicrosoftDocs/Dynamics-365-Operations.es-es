@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd6d5add4d11c917a705e88d10b589e2c43fab89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a12773cc6d94a34197084c8fe12c90167d4dca62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436663"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977772"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Preparación de un trabajo kanban de proceso cuando los materiales están disponibles para la celda de trabajo
 
@@ -42,6 +41,3 @@ Esta tarea se centra en la preparación de un trabajo kanban de proceso cuando t
 6. Haga clic en Preparar.
     * El proceso de preparación está ahora terminado. La casilla de verificación seleccionada para todas las filas de la lista de selección indica que el estado de suministro es el de seleccionado.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
