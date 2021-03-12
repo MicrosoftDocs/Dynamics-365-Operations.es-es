@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42c3cd99897627dbcdbdec91cfdb03d5743f7388
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415479"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980191"
 ---
 # <a name="tab-module"></a>Módulo de pestañas
 
@@ -84,6 +83,3 @@ Para agregar un módulo de pestaña a una página y establecer las propiedades, 
 [Módulo de acordeón](add-accordion.md)
 
 [Módulo de bloque de texto](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

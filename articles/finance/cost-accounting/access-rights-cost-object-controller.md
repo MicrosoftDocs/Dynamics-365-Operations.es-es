@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fd1ed875e5c6e3f8ada3b13ea8cc05f98526691d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fc97ed27460ac0a2bee9c10cb9bda67d506e78
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447638"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978898"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Derechos de acceso para controladores de objeto de coste
 
@@ -106,6 +105,3 @@ Recursos adicionales
 - [Espacio de trabajo de control de costes](cost-control-workspace.md)
 - [Jerarquía de dimensiones](dimension-hierarchy.md)
 - [Configurar la seguridad del paquete contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

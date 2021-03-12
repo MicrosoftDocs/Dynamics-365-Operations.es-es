@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 00810576d36339bf7ce0657b1577e1e322c36bf0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447634"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979098"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Agregar ubicación y tipos de relaciones de las partes 
 
@@ -74,6 +73,3 @@ Existen dos formas de agregar un nuevo tipo de relación:
     3.  Para probar a rellenar el nuevo tipo de relación, puede crear una clase ejecutable y denominar DirDataPopulation::insertDirRelationshipTypes() en Main(). Solo debería ver el nuevo tipo de relación en **DirRelationshipTypeTable** y el nuevo tipo de relación estará disponible en la página **Tipos de relación** .
 
         ![Clase ejecutable](media/Runnable.PNG)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

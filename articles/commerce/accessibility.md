@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 427e82ab75ba16076a3f99ef7df28e9b419d2e7b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415456"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980590"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Características y funcionalidades de accesibilidad
 
@@ -35,7 +34,7 @@ Este tema proporciona información sobre las capacidades y funciones de accesibi
 
 Las características y capacidades de accesibilidad proporcionan los medios funcionales para que todos los usuarios accedan y realicen acciones para que puedan lograr sus objetivos. Esta amplia gama de usuarios puede requerir herramientas de asistencia para la audición, la visión, la movilidad o la neurodiversidad.
 
-Varias características en Dynamics 365 Commerce le permiten construir su sitio para que incluya la funcionalidad de asistencia. Cuando diseñe su sitio, debe considerar las áreas de funcionalidad de accesibilidad que se mencionan en el [Centro de accesibilidad de Microsoft ](https://www.microsoft.com/accessibility). 
+Varias características en Dynamics 365 Commerce le permiten construir su sitio para que incluya la funcionalidad de asistencia. Cuando diseñe su sitio, debe considerar las áreas de funcionalidad de accesibilidad que se mencionan en el [Centro de accesibilidad de Microsoft](https://www.microsoft.com/accessibility). 
 
 Este tema describe algunas áreas adicionales de funcionalidad de accesibilidad que debe considerar al usar Dynamics 365 Commerce.
 
@@ -114,6 +113,3 @@ Para configurar el atributo de **Edad mínima** para un recurso de vídeo, siga 
 [Agregar una página de directivas de privacidad](add-privacy-page.md)
 
 [Reemplazar id. de usuario asociado con cambios de contenido con seguimiento](replace-IDs-tracked-changes.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

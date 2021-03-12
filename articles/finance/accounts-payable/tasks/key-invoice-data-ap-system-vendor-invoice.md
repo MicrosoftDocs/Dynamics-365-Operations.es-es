@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f80c88b7fb3542f624d233f670cd7cd6ccd48b94
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 74065fa3177c8add29e64ce0f77461df036c8fe5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447442"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979322"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Datos de factura clave en proveedores mediante una factura de proveedor
 
@@ -73,6 +72,3 @@ Esta guía de tareas le ayudará a crear una factura de proveedor de un pedido d
 19. Haga clic en **Registrar**.
 20. Cierre el formulario. Tenga en cuenta que el pedido de compra ya no aparece en la lista como recibido, sino como no facturado.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a9e09a1d0dbd6c0dc94b5668bb29de6605e2ca9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415480"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980216"
 ---
 # <a name="add-a-privacy-policy-page"></a>Agregar una página de directivas de Privacidad
 
@@ -37,7 +36,7 @@ El cumplimiento de la privacidad incluye medidas organizativas que informan a lo
 
 ## <a name="review-the-microsoft-privacy-statement-in-dynamics-365-commerce"></a>Revisar la declaración de privacidad de Microsoft en Dynamics 365 Commerce
 
-Para revisar la declaración de privacidad de Microsoft mientras está conectado a las herramientas de creación de Dynamics 365 Commerce, seleccione el botón **Ayuda** ( **?**) en la esquina superior derecha y luego seleccione **Privacidad y cookies**. Se abre una nueva pestaña que tiene un enlace a la [Declaración de privacidad de Microsoft ](https://privacy.microsoft.com/privacystatement).
+Para revisar la declaración de privacidad de Microsoft mientras está conectado a las herramientas de creación de Dynamics 365 Commerce, seleccione el botón **Ayuda** ( **?**) en la esquina superior derecha y luego seleccione **Privacidad y cookies**. Se abre una nueva pestaña que tiene un enlace a la [Declaración de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement).
 
 ## <a name="build-a-privacy-policy-page-for-your-site"></a>Crear una página de directiva de privacidad para su sitio
 
@@ -50,7 +49,7 @@ Para comenzar, en las herramientas de creación, vaya al sitio para el que desea
 ### <a name="create-a-template"></a>Crear una plantilla
 
 > [!NOTE]
-> Si ya se ha creado una plantilla que se puede utilizar para la página de directiva de privacidad, salte a la sección [Crea una página de directiva de privacidad ](#build-a-privacy-policy-page).
+> Si ya se ha creado una plantilla que se puede utilizar para la página de directiva de privacidad, salte a la sección [Crea una página de directiva de privacidad](#build-a-privacy-policy-page).
 
 Para crear una plantilla, siga estos pasos.
 
@@ -109,6 +108,3 @@ Ahora se puede hacer referencia al fragmento en la plantilla para otras páginas
 [Cumplimiento de cookies](cookie-compliance.md)
 
 [Reemplazar id. de usuario asociado con cambios de contenido con seguimiento](replace-IDs-tracked-changes.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

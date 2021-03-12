@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
-ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
+ms.openlocfilehash: dc68926b8123c7e513f9df46e2b9f9b8ae1311e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4447788"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979148"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenido de administración de créditos y cobros de Power BI
 
@@ -77,6 +76,3 @@ El contenido en Power BI de **CustCollectionsBICrossCompany** incluye un informe
 | Cartas de cobros         | <ul><li>Importes por código de cobro</li><li>Detalles de importes por código de cobro</li><li>Importe de cartas de cobro por empresa</li><li>Importe de carta de cobro por grupo de clientes</li><li>Importe de carta de cobro por región</li></ul> |
 
 Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). También puede usar la funcionalidad subyacente de exportación de datos para exportar los datos subyacente que se resume en una visualización.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

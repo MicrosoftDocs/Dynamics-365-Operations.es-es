@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: VendPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43450c5f7ab8295b896b591880da9d0bddd955cf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b6447228f00d91fd2dddd43c1ceb57dff0c6df9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447437"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979198"
 ---
 # <a name="vendor-posting-profiles"></a>Perfiles de contabilización del proveedor
 
@@ -119,6 +118,3 @@ Especifique los valores siguientes para configurar su perfil de contabilización
 | **Liquidación** | Seleccione esta opción para habilitar la liquidación automática de las transacciones que tienen este perfil de registro. Si esta opción está desactivada, debe liquidar manualmente las transacciones mediante la página **Liquidar transacciones abiertas**. |
 | **Cancelar**     | Seleccione esta opción si desea poder cancelar transacciones que tengan este perfil de registro.                                                                                                               |
 | **Cerrar**      | Seleccionar un perfil de registro al que desee cambiar cuando se cierren las transacciones con este perfil de registro. Una transacción se considera como cerrada cuando se ha liquidado completamente.                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dfebc6616186a3a8859b00e90c178129feaa324b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415478"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980166"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Agregar secuencia de comandos a páginas del sitio para admitir telemetría
 
@@ -122,6 +121,3 @@ Para agregar un script externo directamente a una plantilla en el generador de s
 [Agregar un aviso de derechos de autor](add-copyright-notice.md)
 
 [Agregar idiomas al sitio](add-languages-to-site.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

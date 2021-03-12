@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529587"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980815"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Portal del cliente para introducción de Dynamics 365 Supply Chain Management
 
@@ -64,11 +63,8 @@ El portal del cliente se proporciona como una plantilla de portales Power Apps. 
 
 [Portales Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) es una característica que permite a los usuarios crear un sitio web externo en el que las personas externas a la organización pueden iniciar sesión. Se requiere poca o ninguna codificación para crear portales. El portal del cliente es una de las muchas [Plantillas de portal de Dynamics 365](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) que están disponibles en Microsoft.
 
-La [doble escritura](https://docs.microsoft.com/powerapps/maker/portals/overview) es una infraestructura de uso inmediato que proporciona interacción casi en tiempo real entre aplicaciones basadas en modelos de Dynamics 365 y aplicaciones de Finance and Operations. La doble escritura proporciona una integración bidireccional entre aplicaciones de Finance and Operations y Common Data Service. Por taanto, este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones. El portal del cliente depende de entidades que se sincronizan con doble escritura. Para que los datos de Supply Chain Management puedan aparecer en el portal del Cliente, se debe habilitar la escritura doble para todas las entidades apropiadas.
+La [doble escritura](https://docs.microsoft.com/powerapps/maker/portals/overview) es un producto de infraestructura listo para usar que proporciona interacción casi en tiempo real entre aplicaciones de interacción con los clientes y aplicaciones de Finance and Operations. La doble escritura proporciona una integración bidireccional entre aplicaciones de Finance and Operations y Microsoft Dataverse. Por taanto, este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones. El portal del cliente depende de tablas que se sincronizan con doble escritura. Para que los datos de Supply Chain Management puedan aparecer en el portal del Cliente, se debe habilitar la escritura doble para todas las tablas apropiadas.
 
 ![Dependencias del portal del cliente](media/customer-portal-elements.png "Dependencias del portal del cliente")
 
 El portal del cliente actúa como punto de partida para las organizaciones que desean utilizar portales Power Apps para construir un sitio web externo que utilice datos de su instalación de Supply Chain Management. Ayuda a las organizaciones a conectar la doble escritura, Supply Chain Management y los portales Power Apps.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

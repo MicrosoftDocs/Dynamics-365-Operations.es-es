@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6c465b8883438eee886b177274bf89ddb86aa00b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415455"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980565"
 ---
 # <a name="account-management-pages-and-modules"></a>Módulos y páginas de gestión de cuentas
 
@@ -89,6 +88,3 @@ Para unirse al programa de fidelización, se puede crear una página de marketin
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

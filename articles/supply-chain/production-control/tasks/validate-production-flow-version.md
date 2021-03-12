@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30947d01cfb85ea3dbf1aa3e4ea8e092efd18cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3cc8465fb56239f91982db15601cf87e3c00d3fd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436952"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980965"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Validar un flujo de producción y una versión
 
@@ -64,6 +63,3 @@ Este procedimiento muestra cómo crear un nuevo flujo de producción y una prime
     * El período para el tiempo de ciclo real es el número de días que los trabajos se agregan a partir del minuto real y hacia atrás, para calcular el tiempo de ciclo real. El valor se puede cambiar en cualquier momento y solo se usa para calcular los tiempos de ciclo reales.  
 13. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a66590f18df04d2be0500b7fb1ab183cf64718e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415639"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979762"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Configurar y diseñar formatos de recibo
 
@@ -46,6 +45,10 @@ Este artículo describe cómo modificar diseños de formulario para modificar la
     - **No imprimir:** el recibo no se imprime.
     - **Preguntar al usuario:** se debe preguntar al usuario si desea imprimir el recibo.
     - **Según sea necesario:** esta opción solo se usa para los recibos de regalo. Cuando se selecciona esta opción, el usuario puede imprimir un alabrán de regalo desde la página **Cambiar**, si se requiere un recibo de regalo.
+
+## <a name="print-images"></a>Imprimir imágenes
+
+El diseñador de recibos incluye una variable **Logotipo** que se puede utilizar para especificar imágenes que se imprimirán en el recibo. Las imágenes que se incluyan en recibos con la variable **Logotipo** deben ser archivos de tipo mapa de bits monocromo (.bmp). Si se especifica una imagen .bmp en el diseñador de recibos, pero no se imprime cuando se envía a la impresora, puede deberse a que el tamaño del archivo es demasiado grande o a que las dimensiones en píxeles de la imagen no son compatibles con la impresora. En este caso, pruebe a reducir la resolución del archivo de imagen.   
 
 ## <a name="design-a-receipt-format"></a>Diseñar un formato de recibo
 
@@ -82,6 +85,3 @@ Los perfiles de recibo se asignan directamente a impresoras mediante el perfil d
 
 > [!NOTE]
 > Si se usan dos impresoras, una impresora se puede usar para imprimir recibos térmicos estándar de 40 columnas. La segunda impresora se usa normalmente para imprimir los tipos de recibo a toda página que requieren más información. Estos tipos de recibo incluyen los recibos y facturas de pedidos del cliente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

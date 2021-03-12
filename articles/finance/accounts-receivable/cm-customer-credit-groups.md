@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1ddf41d88d085b102a7d69eeeff0ec463d8b4137
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fb17a94cd4a472ad609a0c2f688c4a700f072072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447569"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979123"
 ---
 # <a name="customer-credit-groups"></a>Grupos de crédito del cliente
 
@@ -39,6 +38,3 @@ Puede configurar grupos de crédito de cliente en la página **Grupos de crédit
 Una vez que haya terminado de configurar un grupo de crédito de cliente, puede agregar clientes especificado su entidad jurídica y su id. de cuenta de cliente. Al agregar un nuevo cliente a un grupo de crédito de cliente, el sistema busca la misma cuenta de cliente en todas las entidades jurídicas y le solicita que la agregue al grupo de crédito de cliente.
 
 Use el menú **Saldos vencidos** para ver los detalles de saldo vencido de todos los clientes de factura en un grupo de crédito de cliente. La página **Saldo vencido** muestra un resumen de los saldos vencidos de las cuentas de cliente de factura.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

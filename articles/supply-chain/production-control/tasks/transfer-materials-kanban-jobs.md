@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 96cb77b7b37fe6519a812735d9a41749da078cf2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4e8808b168d2b3845b315e6bbcfb376e37f31fe4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436954"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981040"
 ---
 # <a name="transfer-materials-with-kanban-jobs"></a>Transferencia de materiales con trabajos kanban
 
@@ -66,6 +65,3 @@ Este procedimiento se centra en la ejecución de un trabajo kanban de retirada p
 2. Haga clic en Completar.
     * Esto completará la transferencia de los dos trabajos.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

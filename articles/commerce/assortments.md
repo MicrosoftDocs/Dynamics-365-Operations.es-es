@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415461"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980007"
 ---
 # <a name="assortment-management"></a>Administración de surtidos
 
@@ -107,6 +106,3 @@ Tenga en cuenta los siguientes requisitos de implementación a medida que planif
 - **Ventas y devoluciones fuera de surtidos**: esta capacidad ayuda a los minoristas a administrar con eficacia sus surtidos al dejarles limitar el número de productos disponibles a productos que pertenecen a la combinación de producto principal para la tienda. Esta capacidad también ayuda a los minoristas a gestionar las situaciones en las que un producto se omitió por error de un surtido, o en las que un producto se devolvió fuera de las fechas de vigencia para el surtido.
 
 Si no existen datos de un producto en la base de datos del canal, el PDV realiza llamadas en tiempo real a la sede para recuperar la información necesaria, de manera que el producto pueda venderse, devolverse o colocarse en el pedido de un cliente. La información del producto que se recupera de esta manera solo está disponible durante el ámbito de la transacción. El producto no se agrega a la definición del surtido. Por lo tanto, las llamadas en tiempo real posteriores se harán cuando sea necesario.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

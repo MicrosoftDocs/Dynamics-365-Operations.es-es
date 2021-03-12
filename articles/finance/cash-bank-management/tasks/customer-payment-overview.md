@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 71e1657d738f691644b6d9cc4d34f812b853934e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447589"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978873"
 ---
 # <a name="customer-payment-overview"></a>Visión general de pagos de cliente
 
@@ -52,6 +51,3 @@ Esta guía de tareas le muestra los distintos métodos para introducir pagos de 
 21. En el campo **Referencia del pago**, especifique una referencia para el pago. La referencia de pago solo es obligatoria si se especifica incluir el pago en un resguardo de depósito.  
 22. En el **panel de acciones**, haga clic en **Registrar** para registrar los pagos del cliente. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

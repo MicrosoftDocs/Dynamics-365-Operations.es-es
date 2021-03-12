@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415464"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979684"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar vales para ventas minoristas
 
@@ -82,6 +81,3 @@ La funcionalidad de vales incluye varias características distintivas. Commerce 
 - **La central se actualiza parcialmente, pero no se actualizan Commerce Scale Unit ni los PDV.** En una actualización de la central, se actualizan el vale y las páginas de descuento, y el motor de precios de Commerce también se actualiza. Si solo uno de estos dos componentes se actualiza, algunas páginas de Commerce no coincidirán los datos de cálculo de precio. Por lo tanto, cálculos de descuento o errores inesperados pueden producirse durante cálculos de descuento.
 - **La central se actualiza, pero no se actualizan Commerce Scale Unit ni los PDV (N-1).** Dado que no todas las tiendas se pueden actualizar al mismo tiempo, recomendamos que actualice la central antes de actualizar las tiendas. En la situación N-1, la nueva funcionalidad relacionada con vales no estará disponible en las tiendas que todavía no se hayan actualizado. Por ejemplo, la funcionalidad de vales introduce líneas de “exclusión”. Si usa líneas de exclusión en un descuento, estas no se aplicarán en una tienda que esté ejecutando una versión anterior.
 - **La central no se actualiza, pero se actualizan Commerce Scale Unit ni los PDV (N+1).** Dado que el motor de precios actualizado en el servidor de Commerce Scale Unit puede gestionar códigos de descuento antiguos durante los cálculos de precios, la actualización no debe tener ningún impacto funcional en este escenario.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

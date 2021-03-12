@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailChannelReport, SysReportViewerForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6b5ff889a2fbc33add20559be988c6fcdf36d596
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3367a8b3572b8055c420866e1aa1fc9e44ceaa1d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415505"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980091"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>Analizar patrones y tendencias de ventas
 
@@ -43,6 +42,3 @@ Los usuarios también pueden estudiar patrones y tendencias de ventas por hora e
 - Espacio de trabajo **Administración de tiendas** &gt; **Retail y Commerce** &gt; **Canales** &gt; **Administración de tiendas** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
 - Espacio de trabajo **Operaciones financieras de tiendas** &gt; **Retail y Commerce** &gt; **Canales** &gt; **Operaciones financieras de tiendas** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
 - Sección **Consultas e informes** &gt; **Retail y Commerce** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de ventas de canal por hora**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

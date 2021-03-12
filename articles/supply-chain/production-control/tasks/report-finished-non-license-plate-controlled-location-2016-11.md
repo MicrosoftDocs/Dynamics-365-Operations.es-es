@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdParmCostEstimation, ProdParmStartUp, ProdParmReportFinished, WHSWorkTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a9010b95cfd0528cd3b532627d19a3b340bdca4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 180035668d9c8a03b83f669af7459725eecc8def
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436547"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981190"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Notificar como terminado a una ubicación no controlada mediante matrículas de entidad de almacén (solicitud, mayo de 2016)
 
@@ -62,6 +61,3 @@ Esta guía de tareas muestra un ejemplo de notificación como finalizado en una 
 18. Haga clic en Detalles del trabajo.
     * Cuando el pedido de producción se ha notificado como finalizado, no se ha generado ningún trabajo para ubicación. Esto ocurre porque se define una directiva de trabajo que impide que el trabajo se genere cuando el producto L0101 se notifique como finalizado para la ubicación 001.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

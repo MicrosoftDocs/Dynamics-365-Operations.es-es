@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: JmgRegistrationStartJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47915a93151b1adc99ddb4e3facb29bf8db49dd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9822dd66876ef8ed6bbcd5846a39d69d2446d7a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436773"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981089"
 ---
 # <a name="start-a-production-order"></a>Iniciar un pedido de producción
 
@@ -71,6 +70,3 @@ Este procedimiento muestra cómo iniciar un pedido de producción en la planta. 
 7. Haga clic en Registrar.
 8. Haga clic en Aceptar
     * En el diario de tarjeta de ruta se registra el tiempo empleado en las operaciones individuales. También se puede informar de la cantidad de errores y aciertos.  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

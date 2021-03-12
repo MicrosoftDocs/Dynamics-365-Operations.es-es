@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c8d72f3a613deef80685955c21708e32a770539a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415474"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980341"
 ---
 # <a name="add-languages-to-your-site"></a>Agregar idiomas al sitio
 
@@ -176,6 +175,3 @@ El idioma que ha agregado estará ahora disponible de modo que pueda configurar 
 [Agregar un aviso de derechos de autor](add-copyright-notice.md)
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

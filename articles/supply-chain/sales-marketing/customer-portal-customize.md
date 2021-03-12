@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527372"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980865"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizar y usar el Portal del cliente
 
@@ -40,9 +39,9 @@ Los siguientes temas le ayudarán a aprender los conceptos básicos sobre portal
 - [Administrar contenido del portal](https://docs.microsoft.com/dynamics365/portals/manage-portal-content): este tema explica cómo puede administrar y personalizar el contenido que aparece en su portal.
 - [Editar CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css): este tema le ayuda a realizar personalizaciones más complejas en la interfaz de usuario (UI) de su portal.
 - [Crear un tema para el portal](https://docs.microsoft.com/dynamics365/portals/create-theme): este tema le ayuda a crear un tema de interfaz de usuario para su portal.
-- [Crear y exponer el contenido del portal fácilmente](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content): este tema le ayuda a administrar los datos y entidades subyacentes que utiliza para su portal.
+- [Crear y exponer el contenido del portal fácilmente](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content): este tema le ayuda a administrar los datos y tablas subyacentes que utiliza para su portal.
 - [Configurar un contacto para usar en un portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts): este tema explica cómo crear y personalizar roles de usuario, y cómo funcionan la seguridad y la autenticación en los portales Power Apps.
-- [Configurar notas para formularios de entidad y formularios web en portales](https://docs.microsoft.com/powerapps/maker/portals/configure-notes): este tema explica cómo agregar documentos y almacenamiento adicional a su portal.
+- [Configurar notas para formularios de tabla y formularios web en portales](https://docs.microsoft.com/powerapps/maker/portals/configure-notes): este tema explica cómo agregar documentos y almacenamiento adicional a su portal.
 - [Manejo de errores para el sitio web del portal](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log): este tema explica cómo ver los registros de errores del portal y almacenarlos en su cuenta de almacenamiento de blobs Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>Personalizar el proceso de creación de pedidos
@@ -91,7 +90,7 @@ Estos son los pasos estándar para enviar un pedido desde el Portal del cliente.
 
 Para ayudar a garantizar una experiencia de usuario fluida, el Portal del cliente completa automáticamente los valores de varios campos obligatorios. Estos valores se basan en la información del registro de contacto del cliente que envía el pedido.
 
-Para cada [registro de contacto](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) que pertenece a un cliente que utilizará el Portal del cliente para enviar pedidos, los valores deben especificarse para los siguientes campos obligatorios. De lo contrario, se producirán errores.
+Para cada [fila de contacto](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) que pertenece a un cliente que utilizará el Portal del cliente para enviar pedidos, los valores deben especificarse para los siguientes campos obligatorios. De lo contrario, se producirán errores.
 
 - **Empresa**: entidad jurídica a la que pertenece el pedido
 - **Cliente potencial**: cuenta de cliente asociada al pedido
@@ -99,7 +98,7 @@ Para cada [registro de contacto](https://docs.microsoft.com/powerapps/maker/port
 - **Divisa**: divisa del precio
 - **Enviar a país/región**: país o la región a donde se enviarán los artículos
 
-Los siguientes campos se configuran automáticamente para la entidad de pedido de ventas:
+Los siguientes campos se configuran automáticamente para la tabla de pedido de ventas:
 
 - **Idioma**: idioma del pedido (de forma predeterminada, el valor se toma del registro de contacto).
 - **Enviar a país/región**: país o región a la que se enviarán los artículos (de forma predeterminada, el valor se toma del registro de contacto).
@@ -116,7 +115,7 @@ Los siguientes campos se configuran automáticamente para la entidad de pedido d
 
 Puede modificar libremente la apariencia y la interfaz de usuario del Portal del cliente si no cambia el proceso básico de creación de pedidos. Si desea cambiar el proceso de creación de pedidos, hay algunos puntos que debe tener en cuenta.
 
-No elimine los siguientes campos de la entidad de pedido de ventas en Common Data Service, porque deben crear un pedido de cliente en doble escritura:
+No elimine las siguientes columnas de la tabla de pedido de ventas en Microsoft Dataverse, porque deben crear un pedido de cliente en doble escritura:
 
 - **Empresa**: entidad jurídica a la que pertenece el pedido
 - **Nombre**: nombre del pedido de ventas
@@ -127,7 +126,7 @@ No elimine los siguientes campos de la entidad de pedido de ventas en Common Dat
 - **Idioma**: el idioma del pedido (por lo general, este idioma es el idioma del cliente potencial).
 - **Descripción de la dirección de entrega**: la dirección de entrega del pedido de ventas
 
-Los campos siguientes son obligatorios para los artículos:
+Las columnas siguientes son obligatorios para los artículos:
 
 - **Producto**: el producto a pedir
 - **Cantidad**: la cantidad del producto seleccionado
@@ -135,11 +134,11 @@ Los campos siguientes son obligatorios para los artículos:
 - **Enviar a país/región**: el país o región de entrega
 - **Descripción de la dirección de entrega**: la dirección de entrega del pedido
 
-Debe asegurarse de que su Portal de clientes de alguna manera envíe valores para todos estos campos.
+Debe asegurarse de que su Portal de clientes de alguna manera envíe valores para todas estas columnas.
 
-Si desea agregar campos a la página o eliminar campos, consulte [Crear o editar formularios de creación rápida para una experiencia de entrada de datos optimizada](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Si desea agregar columnas a la página o eliminar columnas, consulte [Crear o editar formularios de creación rápida para una experiencia de entrada de datos optimizada](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
-Si desea cambiar cómo se configuran los campos y cómo se configuran los valores cuando se guarda la página, consulte la siguiente información en la documentación de portales Power Apps:
+Si desea cambiar cómo se configuran las columnas y cómo se configuran los valores cuando se guarda la página, consulte la siguiente información en la documentación de portales Power Apps:
 
 - [Campo prerellenado](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [Establecer valor al guardar](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,6 +175,3 @@ Para obtener más información sobre cómo puede configurar y personalizar el Po
 - [Actualizar un portal](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Migrar la configuración del portal](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Administración de ciclo de vida de solución: Dynamics 365 para aplicaciones de Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
