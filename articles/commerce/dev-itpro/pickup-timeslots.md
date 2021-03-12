@@ -3,7 +3,7 @@ title: Crear y actualizar franjas horarias para la recogida del cliente
 description: En este tema se describe cómo crear, configurar y actualizar franjas horarias de recogida para el cliente en la sede central de Commerce.
 author: anupamar-ms
 manager: AnnBe
-ms.date: 11/06/2020
+ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: f86eb47ec64dff230223ed0ecbe792373aca649f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681551"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828220"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Crear y actualizar franjas horarias para la recogida del cliente
 
@@ -49,17 +49,15 @@ Una franja horaria se define mediante las siguientes propiedades:
 
     La propiedad **Mínimo de días** garantiza que hay tiempo suficiente para que el minorista procese el pedido antes de que esté listo para su recogida. La propiedad **Máximo de días** garantiza que el usuario no pueda seleccionar una fecha demasiado lejana en el futuro. Por ejemplo, si el valor mínimo se establece en **1**, y se realiza un pedido el 20 de septiembre, el primer día en que el pedido estará disponible para su recogida es el siguiente día elegible (21 de septiembre). De manera similar, al establecer un valor máximo, puede definir el número máximo de días durante los que se puede recoger un pedido. Cuando se definen los valores mínimos y máximos, los usuarios del sitio pueden ver y seleccionar solo un conjunto específico de días durante su experiencia de pago.
 
-    Puede establecer el valor mínimo en un valor decimal menor que 1. Por ejemplo, si la recogida está disponible cuatro horas después de que se realiza un pedido, establezca el valor mínimo en **0,17** (= 4 ÷ 24, redondeado a dos decimales). Sin embargo, si establece el valor mínimo en un valor decimal superior a 1, siempre se redondea al número entero más cercano (hacia arriba o hacia abajo).
-
-    Si establece el valor máximo en un valor decimal, siempre se redondea hacia arriba. Por ejemplo, un valor de **1,2** será redondeado a **2**.
+    Puede establecer el valor mínimo en un valor decimal menor que 1. Por ejemplo, si la recogida está disponible cuatro horas después de que se realiza un pedido, establezca el valor mínimo en **0,17** (= 4 ÷ 24, redondeado a dos decimales). Sin embargo, si establece el valor mínimo en un valor decimal superior a 1, siempre se redondea hacia arriba, al número entero más cercano. Por ejemplo, un valor de **1,2** será redondeado a **2**. De forma similar, si establece el valor máximo en un valor decimal, siempre se redondea hacia arriba, al número entero más cercano. 
 
 - **Fecha de inicio** y **Fecha finalización**: especifique las fechas de inicio y finalización de la franja horaria. Cada entrada de intervalo de tiempo tiene una fecha de inicio y una fecha de finalización. Por lo tanto, tiene la flexibilidad de agregar diferentes franjas horarias a lo largo del año (por ejemplo, recogidas durante las vacaciones). Si el inicio y las fechas de una franja horaria se cambian después de realizar un pedido, los cambios no se aplicarán a ese pedido. Cuando defina las fechas de inicio y finalización, debe considerar las fechas de cierre de la tienda (por ejemplo, el día de Navidad) y asegurarse de que no se definan franjas horarias para esos días.
-- **Horas activas de entrega**: especifique el período en el que se permite la recogida. Por ejemplo, las horas de recogida pueden ser entre las 14:00 horas y las 15:00 horas todos los días. Esta propiedad permite que los horarios de recogida sean independientes del horario de la tienda. Por lo tanto, el minorista puede configurar horarios de recogida que cumplan con sus requisitos comerciales específicos. Cuando defina las horas activas de recogida, debe considerar las horas de la tienda y asegurarse de que las horas de recogida no estén definidas para las horas en que la tienda está cerrada.
+- **Horas activas de recogida**: especifique el período en el que se permite la recogida. Por ejemplo, las horas de recogida pueden ser entre las 14:00 horas y las 15:00 horas todos los días. Esta propiedad permite que los horarios de recogida sean independientes del horario de la tienda. Por lo tanto, el minorista puede configurar horarios de recogida que cumplan con sus requisitos comerciales específicos. Cuando defina las horas activas de recogida, debe considerar las horas de la tienda y asegurarse de que las horas de recogida no estén definidas para las horas en que la tienda está cerrada.
 
     > [!NOTE]
     > El horario de recogida en tienda debe definirse en la zona horaria de la tienda correspondiente.
 
-- **Intervalo de la franja horaria**: especifique la duración que se puede asignar a cada franja horaria. Por ejemplo, la duración de cada franja horaria puede ser en incrementos de 15 minutos, 30 minutos o una hora.
+- **Intervalo de la franja horaria**: especifique la duración que se puede asignar a cada franja horaria. Por ejemplo, la duración de cada franja horaria puede ser en incrementos de 15 minutos, 30 minutos o una hora. Si el valor del intervalo de tiempo es 0, el intervalo estará disponible entre la hora de inicio y la de finalización.
 - **Franjas horarias por intervalo**: especifique la cantidad de clientes o pedidos que se pueden atender para la recogida durante cada franja horaria. Por ejemplo, especifique **1**, **2**, **3**, o cualquier otro número entero.
 - **Días activos**: especifique los días de la semana en los que las franjas horarias de recogida están activas. Esta propiedad permite al minorista definir los días en los que desea admitir pedidos de recogida.
 - **Canales minoristas**: especifique los canales minoristas. Cada franja horaria se puede asociar con una o más tiendas minoristas. Dependiendo del horario de atención de cada tienda, se pueden crear una o más entradas de franjas horarias y asociarlas con un canal. 
@@ -84,7 +82,7 @@ Para configurar la función de franja horaria en la sede central de Commerce, si
 1. En la ficha desplegable **Recogida de pedidos: configuración de horas**, seleccione **Agregar**.
 1. En el cuadro de diálogo **Recogida de pedidos: configuración de horas**, defina el rango de fechas, el modo de entrega, las horas activas de entrega, los días activos, el intervalo de franja horaria, las franjas horarias por intervalo y otras configuraciones.
 
-    Si las franjas horarias serán estáticas en el futuro previsible, deje el campo **Fecha de final** en blanco.
+    Si las franjas horarias van a ser estáticas en el futuro previsible, establezca el campo **Fecha final** en **Nunca**.
 
     > [!NOTE]
     > Puede crear varias plantillas, pero solo una plantilla se puede asociar a un solo canal o tienda.
@@ -118,11 +116,14 @@ Para obtener información sobre cómo hacer que la selección de franjas horaria
 
 La siguiente ilustración muestra un ejemplo de un pedido de comercio electrónico en el que se ha seleccionado un horario de recogida.
 
-![Ejemplo de un pedido de comercio electrónico en el que se ha seleccionado un horario de recogida](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Ejemplo de pedido de comercio electrónico en el que se ha seleccionado un horario de recogida](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+
+## <a name="time-slot-selection-for-call-center-orders"></a>Selección de franja horaria para pedidos de centro de llamadas
+
+En la aplicación del centro de llamadas, los agentes del centro de llamadas pueden seleccionar la tienda o la ubicación de recogida, así como una fecha y un intervalo de tiempo, como se muestra en la siguiente ilustración.
+
+![Ejemplo de pedido de central de llamadas en el que se ha seleccionado un horario de recogida](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Módulo de información de recogida](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

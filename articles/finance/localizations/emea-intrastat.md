@@ -3,7 +3,7 @@ title: Visión general de intrastat
 description: Este tema proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE). Proporciona una visión general del proceso de informes y describe la configuración y los requisitos previos necesarios.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a70108696d6187126c23eca1779553210cd4a9d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407822"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962731"
 ---
 # <a name="intrastat-overview"></a>Visión general de intrastat
 
@@ -197,7 +196,7 @@ Use la página **Parámetros de comercio exterior** para configurar los parámet
 <td><ul>
 <li><strong>General</strong>: especifique la información siguiente:
 <ul>
-<li>El códigos de transacción predeterminados para los pedidos de ventas y de compra, las notas de abono y los pedidos de transferencia. El código de transacción que se configura para las notas de abono también se usa como el código para la devolución de mercancías físicas y se usa para devoluciones físicas de desviación frente a notas de abono de corrección.</li>
+<li>El códigos de transacción predeterminados para los pedidos de ventas y de compra, las notas de abono y los pedidos de transferencia. El código de transacción que se configura para las notas de abono también se usa como el código para la devolución de mercancías físicas y se usa para devoluciones físicas de desviación frente a notas de abono de corrección. Las devoluciones de mercancías físicas se informan en la transferencia intrastat con una dirección diferente. La devolución de la llegada se informa como distribución y la devolución de la distribución se informa como llegada.</li>
 <li>El empleado responsable de preparar los informes Intrastat.</li>
 </ul></li>
 <li><strong>Límite mínimo</strong>: especifique los ajustes para actualizar las transacciones que se encuentran por debajo del umbral:
@@ -240,6 +239,3 @@ Use la página **Parámetros de comercio exterior** para configurar los parámet
 </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

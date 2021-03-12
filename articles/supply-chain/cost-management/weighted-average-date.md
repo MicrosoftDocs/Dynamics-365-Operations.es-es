@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436668"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963747"
 ---
 # <a name="weighted-average-date"></a>Fecha de media ponderada
 
@@ -38,7 +37,7 @@ Si solo ha tenido lugar una recepción hasta la fecha, no es necesario valorar l
 
 La fórmula siguiente se usa para calcular el método de gestión de costes de fecha media ponderada: 
 
-Media ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
+Media ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 Durante el cierre de inventario, el cálculo se realiza a diario hasta el período de cierre, tal y como se muestra en la ilustración siguiente. 
 
@@ -51,7 +50,7 @@ Las transacciones de inventario que salen del inventario, como los pedidos de ve
 
 Las liquidaciones son registros del cierre del inventario que ajustan las emisiones con el fin de obtener el valor correcto de la media ponderada en la fecha de cierre. 
 
-**Nota:** para obtener más información acerca de las liquidaciones, vea el artículo acerca del cierre de inventario. En los ejemplos siguientes se muestra el efecto del uso del método de media ponderada con cinco configuraciones:
+**Nota:** Para obtener más información acerca de las liquidaciones, vea el artículo acerca del cierre de inventario. En los ejemplos siguientes se muestra el efecto del uso del método de media ponderada con cinco configuraciones:
 
 -   Liquidación directa de la fecha de media ponderada cuando no se usa la opción **Incluir valor físico en coste**
 -   Liquidación resumida de la fecha de media ponderada cuando no se usa la opción **Incluir valor físico en coste**
@@ -196,6 +195,3 @@ El nuevo precio de coste promedio móvil refleja la media de las transacciones a
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Cliente potencial a efectivo en doble escritura
 description: Este tema proporciona información sobre cliente potencial a efectivo en doble escritura.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683656"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959610"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial a efectivo en doble escritura
 
@@ -37,6 +37,11 @@ En las interfaces de la aplicación, puede acceder a los estados de procesamient
 
 ![Flujo de datos de doble escritura en cliente potencial a efectivo](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
+Para obtener información sobre la integración de clientes y contactos, consulte [Maestro de clientes integrado](customer-mapping.md). Para obtener información sobre la integración de productos, consulte [Experiencia unificada del producto](product-mapping.md).
+
+> [!NOTE]
+> En Dynamics 365 Sales, tanto el cliente potencial como el cliente hacen referencia a un registro en la tabla **Cuenta** donde la columna **RelationshipType** es **Cliente potencial** o **Cliente**. Si su lógica empresarial incluye un proceso de calificación **Cuenta** en el que el registro **Cuenta** se crea y califica como cliente potencial primero y después como cliente, ese registro se sincroniza con la aplicación Finance and Operations solo cuando es un cliente (`RelationshipType=Customer`). Si quiere que la fila **Cuenta** se sincronice como un cliente potencial, entonces necesita una asignación personalizada para integrar los datos del cliente potencial.
+
 ## <a name="prerequisites-and-mapping-setup"></a>Condiciones previas y configuración de asignación
 
 Antes de poder sincronizar los presupuestos de ventas, debe actualizar la siguiente configuración.
@@ -46,11 +51,11 @@ Antes de poder sincronizar los presupuestos de ventas, debe actualizar la siguie
 En Ventas vaya a **Configuración \> Administración \> Configuración del sistema \> Sales**, y asegúrese de que se utilicen los valores siguientes:
 
 - La opción de sistema **Usar el sistema de cálculo del sistema de precios** está en **Sí**.
-- El campo **Método de cálculo de descuentos** se establece en **Artículo de línea**.
+- La columna **Método de cálculo de descuentos** se establece en **Artículo de línea**.
 
 ### <a name="sites-and-warehouses"></a>Ubicaciones y almacenes
 
-En Supply Chain Management, los campos **Ubicación** y **almacén** son obligatorios para las líneas de cotización y de pedido. Si configura el sitio y el almacén en la configuración de pedido predeterminada, esos campos se establecerán automáticamente cuando agregue un producto a una línea de presupuesto o línea de pedido. 
+En Supply Chain Management, las columnas **Ubicación** y **almacén** son obligatorias para las líneas de cotización y de pedido. Si configura la ubicación y el almacén en la configuración de pedido predeterminada, esas columnas se establecerán automáticamente cuando agregue un producto a una línea de presupuesto o línea de pedido. 
 
 ### <a name="number-sequences-for-quotations-and-orders"></a>Secuencias numéricas para presupuestos y pedidos
 
@@ -62,9 +67,9 @@ Por ejemplo, la secuencia numérica en Supply Chain Management es **1, 2, 3, 4, 
 
 Los presupuestos de ventas pueden crearse en Sales o Supply Chain Management. Si crea un presupuesto en Sales, se sincroniza con Supply Chain Management en tiempo real. De forma similar, si crea un presupuesto en Supply Chain Management, se sincroniza con Sales en tiempo real. Tenga en cuenta los aspectos siguientes:
 
-+ Puede agregar un descuento al producto en el presupuesto. En este caso, el descuento se sincronizará con Supply Chain Management. Los campos **Descuento**, **Cargos** e **Impuestos** en el encabezado se controlan mediante una configuración compleja en Supply Chain Management. Esta configuración no admite la asignación de la integración. En su lugar, los campos **Precio**, **Descuento**, **Cargo** e **Impuestos** son gestionados y mantenidos en Supply Chain Management.
-+ Los campos **% de descuento**, **Descuento** e **Importe del flete** en el encabezado del presupuesto de ventas son campos de solo lectura.
-+ Los campos **Condiciones de flete**, **Condiciones de entrega**, **Método de envío** y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
++ Puede agregar un descuento al producto en el presupuesto. En este caso, el descuento se sincronizará con Supply Chain Management. Las columnas **Descuento**, **Cargos** e **Impuestos** en el encabezado se controlan mediante una configuración en Supply Chain Management. Esta configuración no admite la asignación de la integración. En su lugar, las columnas **Precio**, **Descuento**, **Cargo** e **Impuestos** son gestionadas y mantenidas en Supply Chain Management.
++ Las columnas **% de descuento**, **Descuento** e **Importe del flete** en el encabezado del presupuesto de ventas son columnas de solo lectura.
++ Las columnas **Condiciones de flete**, **Condiciones de entrega**, **Método de envío** y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estas columnas, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la tabla.
 
 Si también está utilizando la solución Field Service, asegúrese de volver a habilitar el parámetro **Creación rápida de línea de presupuesto**. Volver a habilitar el parámetro le permite continuar creando líneas de presupuesto usando la función de creación rápida.
 1. Navegue a su aplicación Dynamics 365 Sales.
@@ -82,7 +87,7 @@ Los pedidos de ventas pueden crearse en Sales o Supply Chain Management. Si crea
 + Cálculo del descuento y redondeo:
 
     - El modelo de cálculo del descuento en Sales es distinto del modelo de cálculo de descuento en Supply Chain Management. En Supply Chain Management, el importe del descuento final en una línea de ventas puede ser el resultado de una combinación de importes de descuento y de porcentajes de descuento. Si este importe del descuento final se divide por la cantidad en la línea, puede producirse redondeo. Sin embargo, este redondeo no se tiene en cuenta si un importe de descuento por unidad redondeado se sincroniza con Sales. Para ayudar a garantizar que el importe de descuento completo de una línea de ventas en Supply Chain Management se sincronice correctamente con Sales, el importe completo debe sincronizarse sin ser dividido por la cantidad de línea. Por lo tanto, debe definir método de cálculo de descuentos como **Artículo de línea** en Sales.
-    - Cuando una línea de pedido de ventas se sincroniza de Sales a Supply Chain Management, se usará el importe de descuento de línea completo. Dado que Supply Chain Management no tiene ningún campo que pueda almacenar el importe de descuento completo para una línea, el importe se divide por la cantidad y se almacena en el campo **Descuento de línea**. El redondeo que se produzca durante esta división se almacena en el campo **Gastos de ventas** en la línea de ventas.
+    - Cuando una línea de pedido de ventas se sincroniza de Sales a Supply Chain Management, se usará el importe de descuento de línea completo. Dado que Supply Chain Management no tiene ninguna columna que pueda almacenar el importe de descuento completo para una línea, el importe se divide por la cantidad y se almacena en la columna **Descuento de línea**. El redondeo que se produzca durante esta división se almacena en la columna **Gastos de ventas** en la línea de ventas.
 
 ### <a name="example-synchronization-from-sales-to-supply-chain-management"></a>Ejemplo: Sincronización de Sales a Supply Chain Management
 
@@ -98,7 +103,7 @@ Si sincroniza desde Supply Chain Management a Sales, obtendrá el siguiente resu
 
 ## <a name="dual-write-solution-for-sales"></a>Solución de doble escritura para Sales
 
-Se han agregado nuevos campos a la entidad **Pedido** y se muestran en la página. La mayoría de estos campos aparecen en la pestaña **Integración** en Ventas. Para obtener más información sobre cómo se asignan los campos de estado, consulte [Configurar la asignación para los campos de estado del pedido de ventas](sales-status-map.md).
+Se han agregado nuevas columnas a la tabla **Pedido** y se muestran en la página. La mayoría de estas columnas aparecen en la pestaña **Integración** en Sales. Para obtener más información sobre cómo se asignan las columnas de estado, consulte [Configurar la asignación para las columnas de estado del pedido de ventas](sales-status-map.md).
 
 + Los botones **Crear factura** y **Cancelar pedido** en la página **Pedido de ventas** están ocultos en Sales.
 + El valor **Estado del pedido de ventas** permanecerá **Activo** para ayudar a garantizar que los cambios de Supply Chain Management se incluyen en el pedido de ventas de Sales. Para controlar este comportamiento, establezca el valor del **Statecode \[Status\]** en **Activo**.
@@ -107,18 +112,18 @@ Se han agregado nuevos campos a la entidad **Pedido** y se muestran en la págin
 
 Las facturas de ventas se crean en Supply Chain Management y se sincronizan en Sales. Tenga en cuenta los aspectos siguientes:
 
-+ El campo **Número de factura** se ha agregado a la entidad **Factura** y se muestra en la página.
++ La columna **Número de factura** se ha agregado a la tabla **Factura** y se muestra en la página.
 + El botón **Crear factura** de la página **Pedido de ventas** se oculta, ya que las facturas se crearán en Supply Chain Management y se sincronizarán en Sales. No se puede editar la página **Factura** porque las facturas se sincronizarán desde Supply Chain Management.
 + El valor de **Estado del pedido de ventas** cambia automáticamente a **Facturado** si la factura relacionada de Supply Chain Management se ha sincronizado con Sales. Además, el propietario del pedido de ventas desde el cual se creó la factura, se asigna como propietario de la factura. Por tanto, el propietario del pedido de ventas puede ver la factura.
-+ Los campos **Condiciones de flete**, **Condiciones de entrega** y **Modo de entrega** no se incluyen en las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
++ Las columnas **Condiciones de flete**, **Condiciones de entrega** y **Modo de entrega** no se incluyen en las asignaciones predeterminadas. Para asignar estas columnas, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la tabla.
 
 ## <a name="templates"></a>Plantillas
 
 Cliente potencial a efectivo incluye una colección de mapas de tabla básicos que funcionan conjuntamente durante la interacción de los datos, como se muestra en la tabla siguiente.
 
-| Aplicaciones de Finance and Operations | Aplicaciones basadas en modelos en Dynamics 365 | Descripción |
+| Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement | Descripción |
 |-----------------------------|-----------------------------------|-------------|
-| Encabezados de factura de ventas V2    | facturas                          |             |
+| Encabezados de factura de ventas V2    | facturas                          | La tabla V2 de encabezados de facturas de Sales en la aplicación Finance and Operations contiene facturas para pedidos de venta y facturas de servicios. Se aplica un filtro en Dataverse para escritura dual que filtrará cualquier documento de factura de servicios. |
 | Líneas de factura de ventas V2      | invoicedetails                    |             |
 | Encabezado de pedidos de ventas de CDS     | salesorders                       |             |
 | Líneas de pedido de ventas de CDS       | salesorderdetails                 |             |
@@ -131,9 +136,14 @@ Estos son los mapas de tablas centrales relacionadas para cliente potencial a ef
 + [Clientes V3 para cuentas](customer-mapping.md#customers-v3-to-accounts)
 + [Contactos V2 de CDS para contactos](customer-mapping.md#cds-contacts-v2-to-contacts)
 + [Clientes V3 para contactos](customer-mapping.md#customers-v3-to-contacts)
-+ [Productos despachados V2 para msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
++ [Productos lanzados V2 para msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
 + [Todos los productos para msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
 + [Lista de precios](product-mapping.md)
+
+## <a name="limitations"></a>Limitaciones
+- No se admiten pedidos de devolución.
+- No se admiten notas de abono.
+- Las dimensiones financieras deben establecerse para los datos maestros, por ejemplo, cliente y proveedor. Cuando se agrega un cliente a un presupuesto o pedido de venta, las dimensiones financieras asociadas con el registro del cliente fluyen automáticamente al pedido. Actualmente, la escritura dual no incluye datos de dimensiones financieras para datos maestros. 
 
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
@@ -150,6 +160,3 @@ Estos son los mapas de tablas centrales relacionadas para cliente potencial a ef
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

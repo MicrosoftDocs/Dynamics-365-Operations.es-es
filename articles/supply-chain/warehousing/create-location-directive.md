@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f56257fd3f2f681bbd514843d8ddafa2395648d3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517485"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963319"
 ---
 # <a name="work-with-location-directives"></a>Trabajar con directivas de ubicación
 
@@ -43,7 +42,7 @@ Puede usar directivas de ubicación para realizar las tareas siguientes:
 
 Para poder crear una directiva de ubicación, debe seguir estos pasos a fin de asegurarse de que se cumplan los requisitos previos.
 
-1. Asegúrese de que la clave de licencia requerida esté activada. Vaya a **Administracion del sistema \> Preparar \> Configuración de licencia**, amplíe la clave de licencia **Comercio** y luego seleccione la clave de configuración **Gestión de almacén y transporte**. Tenga en cuenta que se requiere acceso de administrador para este paso.
+1. Asegúrese de que la clave de licencia requerida esté activada. Vaya a **Administración del sistema \> Preparar \> Configuración de licencia**, amplíe la clave de licencia **Comercio** y luego seleccione la clave de configuración **Gestión de almacén y transporte**. Tenga en cuenta que se requiere acceso de administrador para este paso.
 1. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Almacenes**.
 1. Cree un almacén.
 1. En la ficha desplegable **Almacenes**, establezca la opción **Usar procesos de gestión de almacenes** en *Sí*.
@@ -258,6 +257,3 @@ Tras crear las directivas de ubicación, puede asociar cada código de directiva
 
 - Vídeo: [Análisis profundo de la configuración de la gestión de almacenes](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Tema de ayuda: [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](control-warehouse-location-directives.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustParameters, BankBillOfExchangeTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264644
 ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0781ac0f553ac1a835aac5fae84dd55bf4954bef
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc9ab2afffc323808d73c25100b78fcaa32f88e6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407817"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962767"
 ---
 # <a name="spanish-bill-of-exchange-options"></a>Opciones de letras de cambio españolas
 
@@ -58,6 +57,3 @@ Si el parámetro **Tratamiento de fecha en diario de letra de cambio** está est
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

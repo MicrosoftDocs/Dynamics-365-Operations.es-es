@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, TransportationDocument, LogisticsPostalAddress, SysLookupMultiSelectGrid,  VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e555d6791f596850ba1ed718aa5593ee3f88bed9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 634f6cd840262895e6593c12dbe43923598241a5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407779"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962490"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Especificación de una dirección de embarque para una transacción intracomunitaria
 
@@ -73,6 +72,3 @@ Este procedimiento se aplica a todos los países o regiones europeos. Esta tarea
 37. Haga clic en la pestaña General.
     * Busque una línea recién creada y compruebe que el remitente envió las mercancías desde Italia.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

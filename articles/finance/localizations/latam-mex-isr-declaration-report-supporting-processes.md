@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ISRConcept_MX, ISRConceptMainAccount_MX, ISRRateTable_MX
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 270644
 ms.assetid: bcc395db-7c00-4151-9340-e83415cb0882
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70e402605f11ffc3b5f1893d9f262f0265c2acdc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d268191dc50e30f599a547b571f63ca2151ef139
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407782"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964630"
 ---
 # <a name="isr-declaration-report-and-supporting-processes-for-mexico"></a>Informe de declaración de ISR y procesos auxiliares para México
 
@@ -77,6 +76,3 @@ Puede generar un informe de ISR detallado o el informe puede resumir cada cuenta
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

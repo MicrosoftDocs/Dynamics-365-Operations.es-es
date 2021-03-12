@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415440"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963119"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos y cargos de entrega del centro de llamadas
 
@@ -95,6 +94,3 @@ De forma opcional, puede vincular un código de urgencia a cualquier modo de ent
 Por ejemplo, para pedidos que se enviarán por aire al día siguiente, el picking se debe realizar cada día en el almacén aproximadamente las 13:00. En este caso, se puede crear un código de urgencia, y ese código se puede vincular a cualquier modo de entrega al día siguiente que se configure en el sistema. Cuando el almacén crea su oleada de picking, el código de urgencia adecuado en el campo **Urgente** se pueden utilizar como un filtro, de manera que el picking se ejecuta solo para pedidos que tienen modos de entrega que se vinculan a ese código.
 
 Además, cuando se introduce un pedido del centro de llamadas, se puede aplicar manualmente un código de urgencia a la cabecera del pedido de ventas o a una línea de pedido de ventas individual. Una vez más, el código se puede usar con fines de ordenación o creación de informes A veces, un pedido debe manipularse con cuidado debido a un problema de servicio de atención al cliente. En este caso, se puede aplicar un código de urgencia específico a la cabecera o las líneas del pedido para ayudar a identificar y a dar prioridad al pedido durante el proceso de suministro.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

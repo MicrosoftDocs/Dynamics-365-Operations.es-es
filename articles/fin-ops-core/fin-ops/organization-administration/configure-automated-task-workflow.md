@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 664a70ed7c93c88e1a9cd020029bac285dbaa1f8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 003a5d2332aaf12ee7e9352ecb61ef190c04a41f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694035"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798914"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>Configurar tareas automatizadas en un flujo de trabajo
 
@@ -110,6 +110,3 @@ Puede enviar notificaciones cuando se ha ejecutado o cancelado una tarea automat
     </table>
 
 8. Repita los pasos 3 a 7 por cada uno de los eventos que haya seleccionado en el paso 2.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

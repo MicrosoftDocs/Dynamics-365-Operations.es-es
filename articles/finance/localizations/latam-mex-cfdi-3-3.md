@@ -11,16 +11,15 @@ ms.technology: ''
 ms.search.form: CustPosting, VendParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
-ms.openlocfilehash: 4f2c2879c9d39580fb2e9e88f458a16066c46a94
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2d6e72607e4f18d0439038b91c54f92d03ff481d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407786"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964651"
 ---
 # <a name="cfdi-layout-version-33"></a>Versión 3.3 del diseño CFDI
 
@@ -43,7 +42,7 @@ Los siguientes cambios se introducen en la versión 3.3 del diseño Comprobante 
     
 #### <a name="cfdi-foreign-trade-parameters"></a>Parámetros de comercio exterior CFDI
 
-Si su organización usa las facturas electrónicas para el negocio de comercio exterior (CFDI), habilite la siguiente información en el área de comercio exterior de CFD de la página  **Parámetros de factura electrónica**:
+Si su organización usa las facturas electrónicas para el negocio de comercio exterior (CFDI), habilite la siguiente información en el área de comercio exterior de CFDI de la página **Parámetros de factura electrónica**:
 
 - **Tipo de operación:** Seleccionar **Exportar**.
 - **Versión de CFDI:** Seleccione la versión 1.1.
@@ -431,6 +430,3 @@ Los complementos específicos se generan para los tipos de retención siguientes
 ### <a name="inquire-cfdi-withholding-documents"></a>Consultar los documentos de retención de CFDI
 
 Después de que el documento de retención de CFDI se emita al PAC, puede ver el estado y completar acciones relacionados seleccionando **Proveedores > Consulta > Diarios > Diario de retención de CFDI**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

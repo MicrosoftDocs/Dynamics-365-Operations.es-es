@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InflationAdjJournal_MX, InpcRateTable_MX, LedgerParameters, MainAccount
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 9391
 ms.assetid: 9076bf16-0021-47ad-a3b9-1bab75c583ec
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf8ebc17845ba1e15d5e0fb7e1b22907beebe460
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d96cf1e38543c6d23e1617c4b8a9cdbd9d4ae0a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407787"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964654"
 ---
 # <a name="adjustment-inflation-declaration-report"></a>Informe de la declaración de inflación de ajuste
 
@@ -125,6 +124,3 @@ Este informe muestra el cálculo del ajuste de inflación del código de cuenta 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

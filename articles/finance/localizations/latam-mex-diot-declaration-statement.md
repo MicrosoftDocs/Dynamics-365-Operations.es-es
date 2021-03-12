@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: DIOTDeclarationConcept_MX, DIOTDeclarationTaxCode_MX, VendTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 79334
 ms.assetid: 0cdb4da3-dca8-4e31-8fd5-8a1f785b5104
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df73d43214193f248b5c236b033640da23ff137e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9c1ae2c085eff8f1c659fbd6178f62487ad6781
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407783"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964639"
 ---
 # <a name="diot-declaration-statement"></a>Informe de declaración DIOT
 
@@ -135,6 +134,3 @@ En el informe de declaración DIOT, los importes tienen signos positivos o negat
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
