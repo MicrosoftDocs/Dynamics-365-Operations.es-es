@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 706b245971ba065bae86e31853832f721a6f9aff
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447816"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969612"
 ---
 # <a name="add-or-copy-leases-preview"></a>Agregar o copiar arrendamientos (Vista previa)
 
@@ -89,6 +88,3 @@ Todos los movimientos de diario que se crean en Arrendamiento de activos se incl
 
 > [!NOTE]
 > El diario de arrendamiento de activos no se puede crear manualmente. Se crea automáticamente cuando se crean las programaciones de arrendamiento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

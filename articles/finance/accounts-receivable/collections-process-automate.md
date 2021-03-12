@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db59bad2ed3caf38f22bd4d6059e57747d1d983f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447475"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969710"
 ---
 # <a name="collections-process-automation"></a>Automatización del proceso de cobros
 
@@ -118,6 +117,3 @@ Las siguientes tablas enumeran las páginas y los campos desde los que se puede 
 |     Parámetros de clientes > Automatización del proceso de cobros     |     Registrar cartas de cobro automáticamente           |     Los tipos de acciones de cartas de cobro publicarán la carta durante la automatización.                                      |
 |     Parámetros de clientes > Automatización del proceso de cobros     |     Crear actividades para la automatización                |     Cree y cierre actividades para tipos de acciones que no sean actividades para ver todos los pasos automatizados realizados en una cuenta.        |
 |     Parámetros de clientes > Automatización del proceso de cobros     |     Días para mantener la automatización del proceso de cobros     |     Define el número de días que se almacena el historial de colecciones.                                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

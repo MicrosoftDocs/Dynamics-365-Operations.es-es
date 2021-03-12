@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4315f70e7959e2576e9b87dfb3898318f47aa46d
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: bd0153b5d735e1d565b67db6c66c854ff738509c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4447765"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969212"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Convenciones de depreciación de activos fijos
 
@@ -43,6 +42,3 @@ Las convenciones de depreciación se pueden asignar a la configuración para un 
 | Medio mes (el día 15 del mes) | Para calcular su deducción de depreciación para el año en el que se la propiedad se pone en servicio, multiplique la depreciación de un año completo por una fracción. El numerador (número superior) de esta fracción es el número de meses completos en el año que la propiedad se encuentra en servicio, más el 1/2 o (0,5). El denominador (número inferior) es 12. Si se dispone de la propiedad antes de final del período de la recuperación, use el mismo método para calcular su deducción de depreciación para el año de disposición. |
 | Medio año (inicio de año) | Activos que tengan una fecha de <strong>Puesta en servicio</strong> en la primera mitad del año empiezan la depreciación el primer día del año (año completo). Activos que tengan una fecha de <strong>Puesta en servicio</strong> en la segunda mitad del año empiezan la depreciación a mitad de año. |
 | Medio año (próximo año)     | Activos que tengan una fecha de <strong>Puesta en servicio</strong> en la primera mitad del año empiezan la depreciación el primer día del año (año completo). Activos que tengan una fecha de <strong>Puesta en servicio</strong> en la segunda mitad del año empiezan la depreciación el primer día del año siguiente. Los activos que se retiran en la primera mitad del año se consideran retirados para la depreciación en el último día del año anterior. Cualquier depreciación que se registre en el año actual se debe revertir o ajustar. Los activos se retiran en la segunda mitad del año se consideran retirados para la depreciación el último día del año de retirada. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

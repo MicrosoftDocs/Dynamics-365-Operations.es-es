@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7aec00c2fb657f0b4074063ef7acad5f4372ebca
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9b5e3e26e19bd0a9dbf878626328da267b61964f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646344"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968713"
 ---
 # <a name="create-a-sales-tax-payment"></a>Crear un pago de impuestos
 
@@ -37,6 +36,3 @@ El procedimiento de la tarea de liquidar y registrar impuestos liquida los saldo
 5. En el campo **Fecha de transacción**, especifique una fecha.
 6. Haga clic en **Aceptar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

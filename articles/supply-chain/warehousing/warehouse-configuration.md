@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8cd436f1b8324335cc39ce54344db834dddebc9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7b0ebb5d7f77e2104d0280bcee7c018d9cf97bd5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436715"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970165"
 ---
 # <a name="warehouse-configuration-overview"></a>Visión general de la configuración de almacén
 
@@ -119,6 +118,3 @@ Para facilitar y agilizar la definición de las acciones asociadas con cada lín
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

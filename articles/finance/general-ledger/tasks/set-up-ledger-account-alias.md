@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1764f31c98039e9ea6f665dcb04a1cfd23c31dc
-ms.sourcegitcommit: 66dafaae9d97f0f8e67ce1d309362532b6edf447
+ms.openlocfilehash: 08fcbc4e7e593c7d1a632183409ae85423545263
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447762"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968413"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Configurar un alias de cuenta contable
 
@@ -41,6 +40,3 @@ Este procedimiento muestra cómo crear un alias de cuenta que proporcione un mé
 9. En el campo Enfoque inicial, seleccione la dimensión que tendrá enfoque cuando se usa el alias.
     * Después de escribir el método abreviado, y de que se rellenen la cuenta y las dimensiones, el campo Enfoque inicial es donde se moverá el cursor o el enfoque.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

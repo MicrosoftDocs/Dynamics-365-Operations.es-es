@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447721"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969013"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Tiempo de vida restante de depreciación lineal
 
@@ -38,7 +37,7 @@ Puede seleccionar **Calendario** o **Fiscal** en el campo **Año de depreciació
 
 ### <a name="calendar"></a>Calendario
 
-Si selecciona **Calendario** en el campo ***Año de depreciación***, se asume un año comprendido entre el 1 de enero y el 31 de diciembre, aun cuando haya definido el calendario fiscal diferente. La opción **Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
+Si selecciona **Calendario** en el campo **_Año de depreciación_*, se supone un año del 1 de enero al 31 de diciembre, incluso si ha definido el calendario fiscal de otra manera. La opción* Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
 -   **Anual** registra un importe el 31 de diciembre.
 -   **Mensual** registra un importe mensual al final de cada mes del calendario.
@@ -80,6 +79,3 @@ El importe de depreciación es el mismo cada año: (Coste de adquisición - Valo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

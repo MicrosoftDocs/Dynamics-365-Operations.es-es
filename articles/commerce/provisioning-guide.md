@@ -3,14 +3,13 @@ title: Aprovisionar un entorno de evaluación de Dynamics 365 Commerce
 description: En este tema se explica cómo aprovisionar un entorno de evaluación de Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4415690"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969910"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Aprovisionar un entorno de evaluación de Dynamics 365 Commerce
 
@@ -117,7 +116,7 @@ Para implementar el entorno, siga estos pasos.
 
 ### <a name="initialize-the-commerce-scale-unit-cloud"></a>Inicializar la Commerce Scale Unit (nube)
 
-Para inicializar CSU, siga estos pasos.
+Para inicializar la CSU, siga estos pasos.
 
 1. En la vista **Entornos hospedados en la nube**, seleccione el entorno en la lista.
 1. En la vista del entorno a la derecha, seleccione **Detalles completos**. Aparecerá la vista de detalles del entorno.
@@ -130,6 +129,22 @@ Para inicializar CSU, siga estos pasos.
 1. Antes de continuar, asegúrese de que el estado del CSU es **Correcto**. La inicialización dura aproximadamente de dos a cinco horas.
 
 Si no puede encontrar el vínculo **Administrar** en la vista de detalles del entorno, póngase en contacto con su persona de contacto de Microsoft para obtener ayuda.
+
+Durante el proceso de implementación puede aparecer el siguiente mensaje de error:
+
+> Los entornos de evaluación (demostración/prueba) deben registrar la aplicación de conector de unidad de escalado \<application ID\> en la sede central.
+
+En caso de error de inicialización de la CSU con este mensaje de error, anote el id. de la aplicación, que es un identificador único global (GUID), y siga los pasos de la siguiente sección para registrar la aplicación de implementación de CSU en la sede central de Commerce.
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Registrar la aplicación de implementación de CSU en la sede central de Commerce (si es necesario)
+
+Para registrar la aplicación de implementación de CSU en la sede central de Commerce, siga estos pasos.
+
+1. En la sede central de Commerce, vaya a **Administración del sistema \> Configuración \> Aplicaciones de Azure Active Directory**.
+1. En la columna **Id. de cliente**, introduzca el id. de aplicación del mensaje de error de inicialización de CSU que ha recibido.
+1. En la columna **Nombre**, escriba texto descriptivo (por ejemplo, **Evaluación de CSU**).
+1. En la columna **Id. de usuario**, escriba **RetailServiceAccount**.
+1. Vuelva a intentar la inicialización y la implementación de CSU desde LCS.
 
 ### <a name="initialize-e-commerce"></a>Inicializar comercio electrónico
 
@@ -176,6 +191,3 @@ Para continuar con el proceso de aprovisionamiento y configurar su entorno de ev
 [Portal de Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

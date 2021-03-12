@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16081
 ms.assetid: 426a9be7-a931-4780-b372-e06f6083dd60
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 738841407b63ef604da092b7c8f4d0f2064d3886
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 941685c9bad3b8f288e2acdf31bb25c7bcaa7cba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415413"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969760"
 ---
 # <a name="set-up-continuity-programs-for-call-centers"></a>Configurar programas de continuidad para centros de llamadas
 
@@ -50,6 +49,3 @@ Una vez haya configurado un programa de continuidad como se describe anteriormen
 - **Ampliar líneas de continuidad** (si es necesario): amplíe el número de veces que un evento de continuidad se puede repetir. La periodicidad de los envíos se puede ampliar más allá de límites que se establecieron en el campo **Umbral de repetición de continuidad** en los parámetros del centro de llamadas
 - **Realizar una actualización de continuidad** (si es necesario) : sincronice los cambios entre el programa de continuidad y los pedidos de ventas principales de continuidad.
 - **Cerrar pedidos y líneas principales de continuidad**: cierre pedidos de continuidad.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

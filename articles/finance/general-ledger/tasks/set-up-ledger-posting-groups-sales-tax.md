@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644906"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968463"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Configuración de grupos de registro para impuestos
 
@@ -42,6 +41,3 @@ Los impuestos se calculan y registran en las cuentas principales que se especifi
 11. En el campo **Descuento por pronto pago del cliente**, seleccione la cuenta principal para registrar el descuento por pronto pago para los **Códigos de impuestos** asociados a este **Grupo de registro**. Esto es opcional y, si no se especifica ninguna cuenta, se usará la cuenta principal de **Códigos de descuento por pronto pago**. Puede resultar útil usar cuentas diferentes por cada **Grupo de registro** si se usa la opción Deducir los impuestos del descuento por pronto pago en los **Grupos de impuestos**.  
 12. Haga clic en **Guardar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

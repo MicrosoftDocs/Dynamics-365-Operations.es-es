@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 259fd8f41eade1e873225f0d95c499c8cb8c1a6a
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447805"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969537"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Revertir transacciones de arrendamiento contabilizadas
 
@@ -56,6 +55,3 @@ Para revocar una transacción revertida, siga estos pasos.
 Cuando selecciona **Seguimiento de reversiones**, aparece un cuadro de diálogo que muestra tanto las transacciones originales como las transacciones revertidas, junto con un número de seguimiento vinculado.
 
 También puede realizar un seguimiento de las revocaciones mediante el uso de la página **Programaciones**. El campo **Revertir** se borra, mientras que el campo **Diario registrado** se selecciona. Además, el campo **Último número de diario** se actualiza con el número de diario de la transacción de revocación y el campo **Número de diario** se actualiza con el número de diario de reversión.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
