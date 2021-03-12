@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686084"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740817"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Lista de funciones ER en la categoría de conversión de tipo
 
@@ -38,6 +38,14 @@ Las funciones de conversión de tipo de informe electrónico (ER) se pueden usar
 | [IntValue](er-functions-conversion-intvalue.md)       | Esta función devuelve un valor *Int* que representa la cadena especificada. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Esta función devuelve un valor *Real* que se convierte del valor *Cadena* especificado. Durante la conversión, se consideran los separadores de agrupación decimal y de dígitos especificados. |
 | [Valor](er-functions-conversion-value.md)             | Esta función devuelve un valor *Real* que se convierte del valor *Cadena* especificado. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Funciones de conversión de tipo en la categoría de contenedor
+
+La siguiente tabla describe las funciones de conversión de tipos en la categoría de [contenedor](er-functions-category-container.md).
+
+| Función | Descripción |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Esta función convierte la entrada especificada del tipo *Cadena* a un elemento de datos del tipo *Contenedor*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Funciones de conversión de tipo en la categoría hora y fecha
 
@@ -79,6 +87,3 @@ La siguiente tabla describe las funciones de conversión de tipos en la [categor
 [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
 
 [Idioma de fórmulas en los informes electrónicos](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

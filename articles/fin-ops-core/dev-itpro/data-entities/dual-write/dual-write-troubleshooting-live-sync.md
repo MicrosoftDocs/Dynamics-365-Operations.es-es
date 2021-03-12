@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685572"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744622"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronización en vivo
 
@@ -46,11 +46,11 @@ Es posible que reciba el siguiente mensaje de error cuando crea una fila en una 
 
 Para solucionar el problema, siga los pasos en [Requisitos del sistema y requisitos previos](requirements-and-prerequisites.md). Para completar esos pasos, los usuarios de la aplicación de doble escritura que se crea en Dataverse deben tener el rol de administrador del sistema. El equipo propietario predeterminado también debe tener el rol de administrador del sistema.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>La sincronización en vivo para cualquier entidad genera de forma regular un error similar cuando crea una fila en una aplicación Finance and Operations
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>La sincronización en vivo para cualquier tabla genera de forma regular un error similar cuando crea una fila en una aplicación Finance and Operations
 
 **Rol requerido para arreglar el error:** Administrador del sistema
 
-Es posible que reciba un mensaje de error como el siguiente cada vez que intente guardar datos de entidad en una aplicación Finance and Operations:
+Es posible que reciba un mensaje de error como el siguiente cada vez que intente guardar datos de tabla en una aplicación Finance and Operations:
 
 *No se pueden guardar los cambios en la base de datos. La unidad de trabajo no puede confirmar la transacción. No se pueden escribir datos en la entidad uoms. Las escrituras en UnitOfMeasureEntity fallaron con el mensaje de error No se puede sincronizar con las entidades uoms.*
 
@@ -58,8 +58,8 @@ Para solucionar el problema, debe asegurarse de que los datos de referencia de r
 
 Si existen datos en ambos lados y ha confirmado que el problema no está relacionado con los datos, siga estos pasos.
 
-1. Detener la entidad relacionada.
-2. Inicie sesión en la aplicación de Finance and Operations y asegúrese de que existan filas para la entidad que falla en las tablas DualWriteProjectConfiguration y DualWriteProjectFieldConfiguration. Por ejemplo, así es como se ve la consulta si la entidad **Clientes** está fallando.
+1. Detener la tabla relacionada.
+2. Inicie sesión en la aplicación de Finance and Operations y asegúrese de que existan filas para la tabla que falla en las tablas DualWriteProjectConfiguration y DualWriteProjectFieldConfiguration. Por ejemplo, así es como se ve la consulta si la tabla **Clientes** está fallando.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ Si existen datos en ambos lados y ha confirmado que el problema no está relacio
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Si hay filas para la entidad anómala incluso después de detener la asignación de la tabla, elimine las filas relacionadas con la entidad anómala. Tome nota de la columna **projectname** en la tabla DualWriteProjectConfiguration y obtenga el registro en la tabla DualWriteProjectFieldConfiguration utilizando el nombre del proyecto para eliminar la fila.
+3. Si hay filas para la tabla anómala incluso después de detener la asignación de la tabla, elimine las filas relacionadas con la tabla anómala. Tome nota de la columna **projectname** en la tabla DualWriteProjectConfiguration y obtenga la fila en la tabla DualWriteProjectFieldConfiguration utilizando el nombre del proyecto para eliminar la fila.
 4. Inicie la asignación de la tabla. Valide si los datos se sincronizan sin ningún problema.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Gestionar errores de privilegio de lectura o escritura cuando crea datos en una aplicación Finance and Operations
@@ -127,6 +127,3 @@ Para arreglar el problema, siga estos pasos.
 
 3. Asegúrese de que la columna **externalenvironmentURL** tiene el Dataverse o URL de la aplicación correctos. Elimine cualquier fila duplicada que apunte al error Dataverse URL. Elimine las filas correspondientes en las tablas DUALWRITEPROJECTFIELDCONFIGURATION y DUALWRITEPROJECTCONFIGURATION.
 4. Detenga la asignación de tabla y luego reiníciela
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

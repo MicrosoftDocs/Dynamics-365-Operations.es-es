@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694197"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798656"
 ---
 # <a name="action-search"></a>Búsqueda de acción
 
@@ -35,7 +35,7 @@ Las páginas exponen principalmente comandos en los paneles de acciones, tanto e
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
-Las sugerencias de teclas no estarán disponibles pero han sido sustituidas por la función de búsqueda de la acción. Esta característica nueva le permite rápidamente buscar y ejecutar un botón del Panel de acciones visible.
+La función de búsqueda de la acción sustituye a las sugerencias de teclas, que ya no estarán disponibles. Esta característica nueva le permite rápidamente buscar y ejecutar un botón del Panel de acciones visible.
 
 ## <a name="using-action-search"></a>Usar búsqueda de acciones
 
@@ -53,7 +53,7 @@ También puede iniciar la búsqueda de acciones presionando Ctrl+/ or Alt+Q. Pre
 
 ## <a name="understanding-the-results-list"></a>Comprensión de la lista de los resultados
 
-A menudo, debe conocer la ubicación y el contexto de un botón para comprender completamente el propósito de dicho botón. Por lo tanto, la información adicional se muestra para cada elemento en la lista de resultados, para ayudarle a comprender exactamente qué botones aparecen en la lista. Concretamente, se muestra la "ruta" del botón. Esta ruta puede incluir las etiquetas de los siguientes elementos de la IU, según corresponda:
+A menudo, debe conocer la ubicación y el contexto de un botón para comprender completamente el propósito de dicho botón. Por lo tanto, la lista de resultados muestra información adicional para ayudarle a comprender exactamente qué botones aparecen en la lista. Concretamente, se muestra la "ruta" del botón. Esta ruta puede incluir las etiquetas de los siguientes elementos de la IU, según corresponda:
 
 - Ficha Panel de acciones
 - Grupo de botones
@@ -65,7 +65,7 @@ Por ejemplo, si escribió **bebé** en el campo **búsqueda de acciones** y ahor
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
-En el ejemplo anterior, la búsqueda de acción muestra resultados del panel de acciones estándar en la parte superior de una página. Sin embargo, la búsqueda de acciones también muestra resultados de barra de herramientas visibles situadas en otros lugares en la página. Por ejemplo, si está buscando el botón de **Inventario disponible** ubicado en la pestaña desplegable **Líneas de pedidos de ventas**. En este caso, la ruta del botón en la lista de resultados (**Líneas de pedidos de ventas** &gt; **Inventario** &gt; **Visualización**) le informa de que este botón se encuentra debajo del encabezado de **Visualización** en el botón de menú **Inventario** en la pestaña desplegable **Líneas de pedidos de ventas**.
+En el ejemplo anterior, la búsqueda de acción muestra resultados del panel de acciones estándar en la parte superior de una página. Sin embargo, la búsqueda de acciones también muestra resultados de barra de herramientas visibles situadas en otros lugares en la página. Por ejemplo, si está buscando el botón de **Inventario disponible** en la pestaña desplegable **Líneas de pedidos de ventas**. En este caso, la ruta del botón en la lista de resultados (**Líneas de pedidos de ventas** &gt; **Inventario** &gt; **Visualización**) le informa de que este botón se encuentra debajo del encabezado de **Visualización** en el botón de menú **Inventario** en la pestaña desplegable **Líneas de pedidos de ventas**.
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
@@ -75,6 +75,3 @@ En el ejemplo anterior, la búsqueda de acción muestra resultados del panel de 
 ## <a name="action-search-vs-navigation-search"></a>Búsqueda de acciones frente a búsqueda de navegación
 
 Mientras que la búsqueda de acciones se va a utilizar para encontrar y ejecutar acciones en una página, hay un mecanismo independiente de la búsqueda para encontrar y desplazarse a las páginas. Para obtener más información sobre dicha característica, consulte el artículo [Búsqueda de navegación](navigation-search.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

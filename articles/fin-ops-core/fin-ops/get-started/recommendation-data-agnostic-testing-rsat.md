@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7fd1fc4756e74a5d07ffae533b6b9837b960f17a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693759"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798211"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Prueba independiente de datos mediante Regression Suite Automation Tool
 
@@ -49,6 +49,3 @@ Aunque la validación funcional de una aplicación de ERP no puede ser completam
     - Solo valide después de filtrar según una transacción en particular en lugar de una validación genérica. Por ejemplo, para el número de registros, filtre según el número de transacción o la fecha de transacción de modo que la validación excluya el resto de transacciones. 
     - Si está comprobando un saldo o una comprobación presupuestaria del cliente, guarde el valor primero y después agregue el valor de transacción para validar el resultado esperado en lugar de validar un valor esperado fijo. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

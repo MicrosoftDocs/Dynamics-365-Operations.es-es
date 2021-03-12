@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688268"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744550"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -65,23 +65,23 @@ Para activar el registro de seguimiento, siga estos pasos.
 
 1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración**, y luego, en **Sistema**, seleccione **Administración**.
 2. En la página **Administración** , seleccione **Configuración del sistema**.
-3. En la pestaña **Personalización**, en el campo **Complemento y seguimiento de actividad de flujo de trabajo personalizado**, seleccione **Todo** para habilitar el registro de seguimiento del complemento. Si desea registrar registros de rastreo solo cuando se producen excepciones, puede seleccionar **Excepción** en su lugar.
+3. En la pestaña **Personalización**, en la columna **Complemento y seguimiento de actividad de flujo de trabajo personalizado**, seleccione **Todo** para habilitar el registro de seguimiento del complemento. Si desea registrar registros de rastreo solo cuando se producen excepciones, puede seleccionar **Excepción** en su lugar.
 
 
 Para ver el registro de seguimiento, siga estos pasos.
 
 1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración**, y luego, en **Personalización**, seleccione **Registro de seguimiento de complementos**.
-2. Encuentre los registros de seguimiento donde el campo **Escribir nombre** se establece en **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
+2. Encuentre los registros de seguimiento donde la columna **Escribir nombre** se establece en **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Haga doble clic en un elemento para ver el registro completo y luego, en la ficha desplegable **Ejecución**, revise el texto **Bloque de mensajes**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilite el modo de depuración para solucionar problemas de sincronización en vivo en aplicaciones Finance and Operations
 
 **Rol requerido para ver los errores**: los errores de doble escritura del administrador del sistema que se originan en Dataverse pueden aparecer en la aplicación de Finance and Operations. En algunos casos, el texto completo del mensaje de error no está disponible porque el mensaje es demasiado largo o contiene información de identificación personal (PII). Puede activar el registro detallado de errores siguiendo estos pasos.
 
-1. Todas las configuraciones del proyecto en las aplicaciones Finance and Operations tienen una propiedad **IsDebugMode** en la entidad **DualWriteProjectConfiguration**. Abra la entidad **DualWriteProjectConfiguration** usando el complemento de Excel.
+1. Todas las configuraciones del proyecto en las aplicaciones Finance and Operations tienen una propiedad **IsDebugMode** en la tabla **DualWriteProjectConfiguration**. Abra la tabla **DualWriteProjectConfiguration** usando el complemento de Excel.
 
     > [!TIP]
-    > Una manera fácil de abrir la entidad es activar el modo **Diseño** en el complemento de Excel y luego agregar **DualWriteProjectConfigurationEntity** a la hoja de trabajo. Para más información consulte [Abrir los datos de entidad en Excel y actualizarlos mediante el complemento de Excel](../../office-integration/use-excel-add-in.md).
+    > Una manera fácil de abrir la tabla es activar el modo **Diseño** en el complemento de Excel y luego agregar **DualWriteProjectConfigurationEntity** a la hoja de trabajo. Para más información consulte [Abrir los datos de tabla en Excel y actualizarlos mediante el complemento de Excel](../../office-integration/use-excel-add-in.md).
 
 2. Estableza la propiedad **IsDebugMode** a **Sí** para el proyecto.
 3. Ejecute el escenario que genera errores.
@@ -118,10 +118,7 @@ Ahora puede vincular un nuevo entorno.
 Cuando crea un pedido de ventas en Dynamics 365 Sales, al hacer clic en **+ Agregar productos** podría redirigírsele al formulario de línea de pedido de Dynamics 365 Project Operations. No hay forma desde ese formulario de ver el formulario de **Información** de la línea de pedido de ventas. La opción para **Información** no aparece en el menú desplegable bajo **Nueva línea de pedido**. Esto sucede porque Project Operations se ha instalado en su entorno.
 
 Para volver a habilitar la opción de formulario **Información**, siga estos pasos:
-1. Navegue hasta la entidad **Línea de pedido**.
+1. Navegue hasta la tabla **Línea de pedido**.
 2. Busque el formulario **Información** bajo el nodo de formularios. 
 3. Seleccione el formulario **Información** y haga clic en **Habilitar roles de seguridad**. 
 4. Cambie la configuración de seguridad a **Mostrar para todos**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

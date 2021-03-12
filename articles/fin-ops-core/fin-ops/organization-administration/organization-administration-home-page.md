@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53a2abad03ab9349834aaafbec572d17d96df9c1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: b91963b9ccb5fb339b3c0fc41e8483628135c4c8
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694011"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797033"
 ---
 # <a name="organization-administration-home-page"></a>Página principal de Administración de la organización
 
@@ -101,6 +101,3 @@ Las plantillas de registro pueden ayudarle a crear registros más rápidamente. 
 - [Configurar la gestión de documentos](configure-document-management.md)
 - [Configurar y enviar correo electrónico](configure-email.md)
 - [Datos de fecha y hora y las zonas horarias](date-time-zones.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

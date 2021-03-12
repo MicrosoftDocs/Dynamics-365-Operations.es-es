@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df30e403c4b1c7d3abc88ae98c73d797bceef02
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 42a6fbdad19db3c85509078c9f7549a6397f93fc
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693121"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797268"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Contratar a empleados existentes a través de la contratación
 
@@ -40,6 +40,3 @@ A veces las vacantes se pueden ocupar por candidatos que ya son empleados de la 
 9. Haga clic en Cambiar puesto.
     * También puede cambiar la compensación en este momento. Si no asigna una compensación en este momento, puede cambiarlo yendo al formulario del trabajador, seleccionando la ficha Compensación y eligiendo Plan fijo. Tras seleccionar Cambiar puesto, el estado de la solicitud se actualizará a Empleado.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

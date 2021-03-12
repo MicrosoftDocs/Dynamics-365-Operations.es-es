@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf06046c772cd128f5600ed319cc3d0d4457b07f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694724"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796639"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Configurar secuencias numéricas de manera individual
 
@@ -40,6 +40,3 @@ Este tema explica cómo configurar secuencias numéricas de manera individual. L
 8. Expanda la sección **General**. En la ficha desplegable General, especifique si la secuencia numérica es manual, y continua o no continua. Especifique además los números más altos y más bajos que se pueden usar en la secuencia numérica. No se recomienda cambiar una secuencia numérica no continua por una secuencia numérica continua. La secuencia numérica no será verdaderamente continua. Este cambio también puede provocar infracciones de clave duplicada en la base de datos. Además, las secuencias numéricas continuas tienen un efecto mayor sobre el rendimiento.   
 9. Haga clic en **Guardar**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

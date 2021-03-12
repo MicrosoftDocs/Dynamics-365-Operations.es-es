@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7070748a7712d257318aff559e7b115da15b67f0
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 10f7e790fdab3866958af1fa131d25735f69a58c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694528"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798460"
 ---
 # <a name="configure-and-filter-workspaces"></a>Configurar y filtrar espacios de trabajo
 
@@ -63,6 +63,3 @@ Si las secciones individuales del espacio de trabajo tienen filtros, puede filtr
 [![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Como un filtro de todo el espacio de trabajo, seleccione o especifique un valor en el campo para filtrar el contenido de la sección.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

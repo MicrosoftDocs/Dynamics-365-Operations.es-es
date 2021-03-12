@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: bf485b407d56b21621617682bab3492925f7f9a4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693831"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798632"
 ---
 # <a name="client-alert-notifications-by-email"></a>Notificaciones por correo electrónico de alertas del cliente
 
 [!include [banner](../includes/banner.md)]
 
-Puede definir reglas de alertas personalizadas que siguen vistas filtradas de datos y registra automáticamente dichas notificaciones por correo electrónico cuando los eventos predefinidos aparecen. La opción para enviar notificaciones por correo electrónico está disponible para todos los tipos alertas admitidos y también se puede activar para las reglas de alertas existentes.
+Puede definir reglas de alertas personalizadas que siguen vistas filtradas de datos y registra automáticamente dichas notificaciones por correo electrónico cuando los eventos predefinidos aparecen. La opción para enviar notificaciones por correo electrónico está disponible para todos los tipos alertas admitidos y también puede activarlas para las reglas de alertas existentes.
 
-Puede usar los controles integrados para crear reglas de alertas que controlan las vistas filtradas guardadas de los trabajos por lotes del sistema. Controlando el valor del campo **Estado** , también puede configurar las reglas de alertas que envían el correo electrónico cuando falla un trabajo por lotes. Una vez creadas estas reglas de alertas, ya no tiene que comprobar los informes de los cambios en los datos empresariales. En su lugar, puede dejar al servicio de detección de cambios inteligente que lo controle por usted.
+Puede usar los controles integrados para crear reglas de alertas que controlan las vistas filtradas guardadas de los trabajos por lotes del sistema. Controlando el valor del campo **Estado** , también puede configurar las reglas de alertas que envían el correo electrónico cuando falla un trabajo por lotes. Una vez ha creado estas reglas de alertas, ya no tiene que comprobar los informes de los cambios en los datos empresariales. En su lugar, puede dejar al servicio de detección de cambios inteligente que lo controle por usted.
 
 Las alertas del cliente dependen del subsistema de correo electrónico que ofrece la integración con Microsoft Office. Se recomienda que use el proveedor del protocolo simple de transferencia de correo (SMTP), de modo que la distribución de correo electrónico no tenga que basarse en un cliente de correo local.
 
@@ -50,6 +50,3 @@ El servicio registra notificaciones por correo electrónico mediante las plantil
 La siguiente imagen muestra la estructura de las notificaciones alertas cuando se reciben por correo electrónico.
 
 [![Notificaciones de alerta basadas en plantillas para la creación de registros, cambios de campos y eliminación de plantilla](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

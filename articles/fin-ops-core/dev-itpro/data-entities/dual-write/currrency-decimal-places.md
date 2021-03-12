@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683750"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744384"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migración de tipo de datos de divisa para doble escritura
 
@@ -44,11 +44,11 @@ La migración es opcional. Si puede beneficiarse de la compatibilidad para más 
 
 ## <a name="requesting-migration-from-microsoft"></a>Solicitar la migración de Microsoft
 
-El almacenamiento para campos de divisa existentes en Dataverse no puede admitir más de cuatro decimales. Por lo tanto, durante el proceso de migración, los valores de divisa se copian en nuevos campos internos en la base de datos. Este proceso ocurre continuamente hasta que se hayan migrado todos los datos. Internamente, al final de la migración, los nuevos tipos de almacenamiento reemplazan a los antiguos, pero los valores de los datos no cambian. Los campos de divisa pueden admitir hasta 10 decimales. Durante el proceso de migración, Dataverse puede continuar usándose sin interrupción.
+El almacenamiento para columnas de divisa existentes en Dataverse no puede admitir más de cuatro decimales. Por lo tanto, durante el proceso de migración, los valores de divisa se copian en nuevas columnas internas en la base de datos. Este proceso ocurre continuamente hasta que se hayan migrado todos los datos. Internamente, al final de la migración, los nuevos tipos de almacenamiento reemplazan a los antiguos, pero los valores de los datos no cambian. Las columnas de divisa pueden admitir hasta 10 decimales. Durante el proceso de migración, Dataverse puede continuar usándose sin interrupción.
 
 Al mismo tiempo, los tipos de cambio se modifican para que admitan hasta 12 decimales en lugar del límite actual de 10. Este cambio es necesario para que el número de decimales sea el mismo en la aplicación Finance and Operations y Dataverse.
 
-La migración no cambia ningún dato. Después de convertir los campos de divisa y tipo de cambio, los administradores pueden configurar el sistema para usar hasta 10 decimales para los campos de moneda especificando el número de lugares decimales para cada divisa de transacción y para la fijación de precios.
+La migración no cambia ningún dato. Después de convertir las columnas de divisa y tipo de cambio, los administradores pueden configurar el sistema para usar hasta 10 decimales para las columnas de moneda especificando el número de lugares decimales para cada divisa de transacción y para la fijación de precios.
 
 ### <a name="request-a-migration"></a>Solicitar una migración
 
@@ -72,29 +72,26 @@ Una vez completada la migración, Dataverse puede almacenar números con más de
 
 Para realizar este cambio, debe actualizar la siguiente configuración en Power Apps:
 
-+ **Configuración del sistema: precisión de la divisa para la fijación de precios**: el campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema** define cómo se comportará la divis para la organización cuando se selecciona **Precisión de precios**.
-+ **Gestión empresarial: divisas**: el campo **Precisión de divisa** le permite especificar un número personalizado de decimales para una moneda específica. Hay una reserva en la organización (configuración amplia).
++ **Configuración del sistema: precisión de la divisa para la fijación de precios**: la columnas **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema** define cómo se comportará la divis para la organización cuando se selecciona **Precisión de precios**.
++ **Gestión empresarial: divisas**: la columna **Precisión de divisa** le permite especificar un número personalizado de decimales para una moneda específica. Hay una reserva en la organización (configuración amplia).
 
 Hay algunas limitaciones:
 
-+ No puede configurar el campo de divisa en una entidad.
++ No puede configurar la columnas de divisa en una tabla.
 + Puede especificar más de cuatro decimales solo en los niveles **Precios** y **Divisa de la transacción**.
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Configuración del sistema: precisión de la moneda para la fijación de precios
 
-Una vez completada la migración, los administradores pueden establecer la precisión de la divisa. Vaya a **Configuración \> Administración** y seleccione **Ajustes del sistema**. Luego, en la pestaña **General**, cambie el valor del campo **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema**, como se muestra en la siguiente ilustración.
+Una vez completada la migración, los administradores pueden establecer la precisión de la divisa. Vaya a **Configuración \> Administración** y seleccione **Ajustes del sistema**. Luego, en la pestaña **General**, cambie el valor de la columna **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema**, como se muestra en la siguiente ilustración.
 
 ![Configuraciones del sistema para la divisa](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Administración empresarial: divisas
 
-Si necesita que la precisión de la divisa para una divisa específica difiera de la precisión de la divisa que se usa para fijar el precio, puede cambiarla. Vaya a **Configuraciones \> Administración empresarial**, S¡seleccione **Divisas** y seleccione la divisa que se va a cambiar. Luego configure el campo **Precisión de la divisa** según número de decimales que desee, como se muestra en la siguiente ilustración.
+Si necesita que la precisión de la divisa para una divisa específica difiera de la precisión de la divisa que se usa para fijar el precio, puede cambiarla. Vaya a **Configuraciones \> Administración empresarial**, S¡seleccione **Divisas** y seleccione la divisa que se va a cambiar. Luego configure la columna **Precisión de la divisa** según número de decimales que desee, como se muestra en la siguiente ilustración.
 
 ![Configuración de la divisa para un entorno local específico](media/specific-currency.png)
 
-### <a name="tables-currency-field"></a>tablas: campo Divisa
+### <a name="tables-currency-column"></a>tablas: columna Divisa
 
-El número de decimales que se pueden configurar para campos de divisa específicos está limitado a cuatro.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+El número de decimales que se pueden configurar para columnas de divisa específicas está limitado a cuatro.

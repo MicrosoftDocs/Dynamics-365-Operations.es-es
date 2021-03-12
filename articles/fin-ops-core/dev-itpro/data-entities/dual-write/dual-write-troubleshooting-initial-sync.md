@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: a7ba4fa4771324b4bcb8464649bd8ce8f32024c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2f0e0cbf0f8710dc020a48506775fa28df9c2d2
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683578"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744646"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante la sincronización
 
@@ -98,7 +98,7 @@ Es posible que reciba mensajes de error si alguna de sus asignaciones tiene auto
 
 ## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>Resolver errores en la asignación de tabla Proveedores V2–to–msdyn_vendors
 
-Puede encontrar los siguientes errores de sincronización inicial en la asignación de **Proveedores V2** a **msdyn\_vendors** si las tablas tienen filas existentes con valores en los campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**. Estos errores se producen porque **InvoiceVendorAccountNumber** es un campo de autorreferencia y **PrimaryContactPersonId** es una referencia circular en la asignación del proveedor.
+Puede encontrar los siguientes errores de sincronización inicial en la asignación de **Proveedores V2** a **msdyn\_vendors** si las tablas tienen filas existentes con valores en las columnas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**. Estos errores se producen porque **InvoiceVendorAccountNumber** es una columna de autorreferencia y **PrimaryContactPersonId** es una referencia circular en la asignación del proveedor.
 
 Los mensajes de error que reciba tendrán el siguiente formulario.
 
@@ -109,26 +109,26 @@ A continuación, encontrará algunos ejemplos:
 - *No se pudo resolver el guid para el campo: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. No se encontró la busqueda: 000056. Pruebe estas URL para verificar si los datos de referencia existen: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *No se pudo resolver el guid para el campo: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. No se encontró la búsqueda V24-1 . Pruebe estas URL para verificar si los datos de referencia existen: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Si tiene filas con valores en estos campos en la entidad del proveedor, en los campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** siga estos pasos para completar la sincronización inicial.
+Si tiene filas con valores en estos campos en la tabla del proveedor, en las columnas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** siga estos pasos para completar la sincronización inicial.
 
-1. En la aplicación Finance and Operations, elimine los campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** de la asignación y guarde la asignación.
+1. En la aplicación Finance and Operations, elimine las columnas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** de la asignación y guarde la asignación.
 
     1. En la página de asignación de doble escritura para **Proveedores V2 (msdyn\_vendors)**, en la pestaña **Asignaciones de tablas**, en el filtro izquierdo, seleccione **Finance and Operations apps.Vendors V2**. En el filtro derecho, seleccione **Sales.Vendor**.
-    2. Busque **primarycontactperson** para encontrar el campo de origen **PrimaryContactPersonId**.
+    2. Busque **primarycontactperson** para encontrar la columna de origen **PrimaryContactPersonId**.
     3. Seleccione **Acciones** y luego seleccione **Eliminar**.
 
-        ![Eliminar el campo PrimaryContactPersonId](media/vend_selfref3.png)
+        ![Eliminar la columna PrimaryContactPersonId](media/vend_selfref3.png)
 
-    4. Repita estos pasos para eliminar el campo **InvoiceVendorAccountNumber**.
+    4. Repita estos pasos para eliminar la columna **InvoiceVendorAccountNumber**.
 
-        ![Eliminar el campo InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![Eliminar la columna InvoiceVendorAccountNumber](media/vend-selfref4.png)
 
     5. Guardar los cambios en la asignación.
 
-2. Active el seguimiento de cambios para la entidad **Proveedores V2**.
+2. Active el seguimiento de cambios para la tabla **Proveedores V2**.
 
     1. En espacio de trabajo **Administración de datos**, seleccione la ventana **Tablas de datos**.
-    2. Seleccione la entidad **Proveedores V2**.
+    2. Seleccione la tabla **Proveedores V2**.
     3. En el panel de acciones, seleccione **Opciones** y después seleccione **Change Tracking**.
 
         ![Seleccionar la opción Change Tracking](media/selfref_options.png)
@@ -138,14 +138,14 @@ Si tiene filas con valores en estos campos en la entidad del proveedor, en los c
         ![Seleccionar Deshabilitar Change Tracking](media/selfref_tracking.png)
 
 3. Ejecutar la sincronización inicial para la asignación de **Proveedores V2 (msdyn\_vendors)**. La sincronización inicial debe ejecutarse correctamente sin ningún error.
-4. Ejecute la sincronización inicial para la asignación **Contactos CDS V2 (contactos)**. Debe sincronizar esta asignación si desea sincronizar el campo de contacto principal en la entidad proveedores, ya que la sincronización inicial también debe efectuarse para las filas de contactos.
-5. Agregue los campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** otra vez a la asignación **Proveedores V2 (msdyn\_vendors)** y guarde la asignación.
+4. Ejecute la sincronización inicial para la asignación **Contactos CDS V2 (contactos)**. Debe sincronizar esta asignación si desea sincronizar la columna de contacto principal en la tabla proveedores, ya que la sincronización inicial también debe efectuarse para las filas de contactos.
+5. Agregue las columnas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** otra vez a la asignación **Proveedores V2 (msdyn\_vendors)** y guarde la asignación.
 6. Vuelva a ejecutar la sincronización inicial para la asignación de **Proveedores V2 (msdyn\_vendors)**. Dado que Change Tracking está desactivado, todas las filas se sincronizarán.
-7. Vuelva a activar Change Tracking para la entidad **Proveedores V2**.
+7. Vuelva a activar Change Tracking para la tabla **Proveedores V2**.
 
 ## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>Resolver errores en la asignación de tabla Clientes V3–to–Accounts
 
-Puede encontrar los siguientes errores de sincronización inicial en la asignación de **Clientes V3** a **Cuentas** si las tablas tienen filas existentes con valores en los campos **ContactPersonID** e **InvoiceAccount**. Estos errores se producen porque **InvoiceAccount** es un campo de autorreferencia y **ContactPersonID** es una referencia circular en el mapeo del proveedor.
+Puede encontrar los siguientes errores de sincronización inicial en la asignación de **Clientes V3** a **Cuentas** si las tablas tienen filas existentes con valores en las columnas **ContactPersonID** e **InvoiceAccount**. Estos errores se producen porque **InvoiceAccount** es una columna de autorreferencia y **ContactPersonID** es una referencia circular en la asignación del proveedor.
 
 Los mensajes de error que reciba tendrán el siguiente formulario.
 
@@ -156,26 +156,26 @@ A continuación, encontrará algunos ejemplos:
 - *No se pudo resolver el guid para el campo: primarycontactid.msdyn\_contactpersonid. No se encontró la busqueda: 000056. Pruebe estas URL para verificar si los datos de referencia existen: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *No se pudo resolver el guid para el campo: msdyn\_billingaccount.accountnumber. No se encontró la búsqueda: 1206-1 . Pruebe estas URL para verificar si los datos de referencia existen: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-Si tiene filas en la entidad cliente con valores en los campos **ContactPersonID** e **InvoiceAccount** siga estos pasos para completar la sincronización inicial. Puede usar este enfoque para cualquier tabla lista para usar como **Cuentas** y **Contactos**.
+Si tiene filas en la tabla del cliente con valores en las columnas **ContactPersonID** e **InvoiceAccount**, siga estos pasos para completar la sincronización inicial. Puede usar este enfoque para cualquier tabla lista para usar como **Cuentas** y **Contactos**.
 
-1. En la aplicación Finance and Operations, elimine los campos **ContactPersonId** e **InvoiceAccount** de la asignación **Clientes V3 (cuentas)** y guarde la asignación.
+1. En la aplicación Finance and Operations, elimine las columnas **ContactPersonId** e **InvoiceAccount** de la asignación **Clientes V3 (cuentas)** y guarde la asignación.
 
     1. En la página de mapeo de doble escritura para **Clientes V3 (cuentas)**, en la pestaña **Asignaciones de tablas**. En el filtro izquierdo, seleccione **Finance and Operations app.Customers V3**. En el filtro derecho, seleccione **Dataverse.Account**.
-    2. Busque **contactperson** para encontrar el campo de origen **ContactPersonID**.
+    2. Busque **contactperson** para encontrar la columna de origen **ContactPersonID**.
     3. Seleccione **Acciones** y luego seleccione **Eliminar**.
 
-        ![Eliminar el campo ContactPersonID](media/cust_selfref3.png)
+        ![Eliminar la columna ContactPersonID](media/cust_selfref3.png)
 
-    4. Repita estos pasos para eliminar el campo **InvoiceAccount**.
+    4. Repita estos pasos para eliminar la columna **InvoiceAccount**.
 
-        ![Eliminar el campo InvoiceAccount](media/cust_selfref4.png)
+        ![Eliminar la columna InvoiceAccount](media/cust_selfref4.png)
 
     5. Guardar los cambios en la asignación.
 
-2. Active el seguimiento de cambios para la entidad **Clientes V3**.
+2. Desactive el seguimiento de cambios para la tabla **Clientes V3**.
 
     1. En espacio de trabajo **Administración de datos**, seleccione la ventana **Tablas de datos**.
-    2. Seleccione la entidad **Clientes V3**.
+    2. Seleccione la tabla **Clientes V3**.
     3. En el panel de acciones, seleccione **Opciones** y después seleccione **Change Tracking**.
 
         ![Seleccionar la opción Change Tracking](media/selfref_options.png)
@@ -190,7 +190,7 @@ Si tiene filas en la entidad cliente con valores en los campos **ContactPersonID
     > [!NOTE]
     > Hay dos asignaciones que tienen el mismo nombre. Asegúrese de seleccionar la asignación tenga la descripción siguiente en la pestaña **Detalles**: **Plantilla de doble escritura para sincronización entre Contactos de proveedor FO.CDS V2 con CDS.Contacts. Requiere nuevo paquete \[Dynamics365SupplyChainExtended\].**
 
-5. Vuelva a agregar los campos **InvoiceAccount** y **ContactPersonId** a la asignación **Clientes V3 (Cuentas)** y guarde la asignación. Tanto el campo **InvoiceAccount** como el campo **ContactPersonId** vuelven a ser parte del modo de sincronización en vivo. En el siguiente paso, completará la sincronización inicial para estos campos.
+5. Vuelva a agregar las columnas **InvoiceAccount** y **ContactPersonId** a la asignación **Clientes V3 (Cuentas)** y guarde la asignación. Tanto la columna **InvoiceAccount** como la columna **ContactPersonId** vuelven a ser parte del modo de sincronización en vivo. En el siguiente paso, completará la sincronización inicial para estas columnas.
 6. Ejecute otra vez la sincronización inicial para la asignación **Clientes V3 (Cuentas)**. Debido a que el seguimiento de cambios está deshabilitado, los datos para **InvoiceAccount** y **ContactPersonId** se sincronizarán desde la aplicación Finance and Operations a Dataverse.
 7. Para sincronizar los datos para **InvoiceAccount** y **ContactPersonId** desde Dataverse a la aplicación Finance and Operations, debe utilizar un proyecto de integración de datos.
 
@@ -210,7 +210,4 @@ Si tiene filas en la entidad cliente con valores en los campos **ContactPersonID
 
     La sincronización inicial de las filas ahora se ha completado.
 
-8. En la aplicación Finance and Operations, vuelva a activar Change Tracking en la entidad **Clientes V3**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+8. En la aplicación Finance and Operations, vuelva a activar Change Tracking en la tabla **Clientes V3**.

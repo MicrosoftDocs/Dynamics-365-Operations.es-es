@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72db7660c07b2f57f8609ab6c14964193e842d75
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688576"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797350"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspeccionar el componente ER configurado para evitar problemas de runtime
 
 [!include[banner](../includes/banner.md)]
 
-Cada componente de [Informe electrónico (ER)](general-electronic-reporting.md) con [formato](general-electronic-reporting.md#FormatComponentOutbound) configurado y [asignación de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) puede ser [validado](er-fillable-excel.md#validate-an-er-format) en tiempo de diseño. Durante esta validación, se realiza una verificación de coherencia para ayudar a prevenir problemas de runtime que puedan ocurrir, como errores de ejecución y degradación del rendimiento. Para cada problema que se encuentra, se proporciona la ruta de un elemento problemático. Para algunos problemas, hay una solución automática disponible.
+Cada componente de [Informe electrónico (ER)](general-electronic-reporting.md) con [formato](general-electronic-reporting.md#FormatComponentOutbound) configurado y [asignación de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) puede ser [validado](er-fillable-excel.md#validate-an-er-format) en tiempo de diseño. Durante esta validación, se ejecuta una verificación de coherencia para ayudar a prevenir problemas de runtime que puedan ocurrir, como errores de ejecución y degradación del rendimiento. Para cada problema que se encuentra, la comprobación proporciona la ruta de un elemento problemático. Para algunos problemas, hay una solución automática disponible.
 
 De forma predeterminada, la validación se aplica automáticamente en los siguientes casos para una configuración de ER que contiene los componentes de ER mencionados anteriormente:
 
@@ -69,7 +68,7 @@ Para omitir la validación cuando se importa la configuración, siga estos pasos
 2. En la página **Configuraciones**, en el panel de acciones, en la pestaña **Configuraciones**, en el grupo **Configuración avanzada**, seleccione **Parámetros de usuario**.
 3. Establezca la opción **Validar la configuración después de importar** a **No**.
 
-Para omitir la validación cuando el estado de la versión cambia o cambia de base, siga estos pasos.
+Para omitir la validación cuando cambia o resuelve el estado de la versión, siga estos pasos.
 
 1. Vaya a **Administración de la organización \> Informes electrónicos \> Configuraciones**.
 2. En la página **Configuraciones**, en el panel de acciones, en la pestaña **Configuraciones**, en el grupo **Configuración avanzada**, seleccione **Parámetros de usuario**.
@@ -101,7 +100,7 @@ La tabla siguiente proporciona información general de las inspecciones que prop
 <td>Error</td>
 <td>
 <p>No se puede convertir la expresión de tipo &lt;tipo&gt; al campo de tipo &lt;tipo&gt;.</p>
-<p><b>Error de runtime:</b> Excepción de tipo</p>
+<p><b>Error de runtime:</b> Excepción para tipo</p>
 </td>
 </tr>
 <tr>
@@ -211,11 +210,11 @@ La tabla siguiente proporciona información general de las inspecciones que prop
 
 ## <a name="type-conversion"></a><a id="i1"></a>Conversión de tipos
 
-ER comprueba si el tipo de datos de un campo de modelo de datos es compatible con el tipo de datos de una expresión que está configurada como el enlace de ese campo. Si los tipos de datos son incompatibles, se produce un error de validación en el diseñador de asignación del modelo ER. El mensaje que recibe indica que ER no puede convertir una expresión de tipo A en un campo de tipo B.
+ER comprueba si el tipo de datos de un campo de modelo de datos es compatible con el tipo de datos de una expresión que está configurada como el enlace de ese campo. Si los tipos de datos son incompatibles, se produce un error de validación en el diseñador de asignación del modelo informes electrónicos. El mensaje que recibe indica que ER no puede convertir una expresión de tipo A en un campo de tipo B.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
-1. Comience a configurar el modelo de datos ER y los componentes de asignación del modelo ER simultáneamente.
+1. Comience a configurar el modelo de datos de informes electrónicos y los componentes de asignación del modelo de informes electrónicos simultáneamente.
 2. En el árbol del modelo de datos, agregue un campo con el nombre **X** y seleccione **Entero** como tipo de datos.
 
     ![El campo X y el tipo de datos Entero se agregaron al árbol del modo de datos en la página Modelo de datos](./media/er-components-inspections-01.png)
@@ -278,7 +277,7 @@ No hay ninguna opción disponible para solucionar este problema automáticamente
 
 #### <a name="option-1"></a>Opción 1
 
-Actualice la estructura del formato cambiando el tipo de datos del elemento de formato **Numérico** para que coincida con el tipo de datos de la expresión configurada para el enlace de ese elemento. En el ejemplo anterior, el valor del **Tipo numérico** del elemento de formato **X** debe cambiarse de nuevo a **Entero**.
+Actualice la estructura del formato cambiando el tipo de datos del elemento de formato **Numérico** para que coincida con el tipo de datos de la expresión que configura para el enlace de ese elemento. En el ejemplo anterior, el valor del **Tipo numérico** del elemento de formato **X** debe cambiarse de nuevo a **Entero**.
 
 #### <a name="option-2"></a>Opción 2
 
@@ -290,7 +289,7 @@ ER comprueba si las expresiones vinculantes contienen solo orígenes de datos qu
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
-1. Comience a configurar el modelo de datos ER y los componentes de asignación del modelo ER simultáneamente.
+1. Comience a configurar el modelo de datos de informes electrónicos y los componentes de asignación del modelo de informes electrónicos simultáneamente.
 2. En el árbol del modelo de datos, agregue un campo con el nombre **X** y seleccione **Entero** como tipo de datos.
 
     ![El árbol de modelo de datos con el campo X y el tipo de datos Entero en la página Modelo de datos](./media/er-components-inspections-01.png)
@@ -317,11 +316,11 @@ Desenlaza el campo **X** del modelo de datos para dejar de referirse al origen d
 
 #### <a name="option-2"></a>Opción 2
 
-En el panel orígentes de datos del diseñador de asignación de modelo ER, agregue de nuevo el origen de datos **Y**.
+En el panel orígenes de datos del diseñador de asignación de modelo ER, agregue de nuevo el origen de datos **Y**.
 
 ## <a name="executability-of-an-expression-with-filter-function"></a><a id="i4"></a>Ejecutabilidad de una expresión con función FILTER
 
-La función ER incorporada [FILTRAR](er-functions-list-filter.md) se utiliza para acceder a tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada SQL para obtener los datos requeridos como una lista de registros. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de esta función y especifica el origen de la aplicación para la llamada. ER comprueba si se puede establecer una consulta SQL directa a una fuente de datos a la que se hace referencia en la función `FILTER`. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de mapas del modelo ER. El mensaje que recibe indica que la expresión ER que incluye la función `FILTER` no se puede ejecutar en runtime. 
+La función ER incorporada [FILTRAR](er-functions-list-filter.md) se utiliza para acceder a tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada SQL para obtener los datos requeridos como una lista de registros. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de esta función y especifica el origen de la aplicación para la llamada. ER comprueba si se puede establecer una consulta SQL directa a una fuente de datos a la que se hace referencia en la función `FILTER`. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de asignación de modelos ER. El mensaje que recibe indica que la expresión ER que incluye la función `FILTER` no se puede ejecutar en runtime. 
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -359,7 +358,7 @@ Cambiar la expresión del origen de datos **FilteredVendor** de `FILTER(Vendor, 
 
 ## <a name="executability-of-a-groupby-data-source"></a><a id="i5"></a>Ejecutabilidad de una fuente de datos GROUPBY
 
-El origen de datos **GROUPBY** divide el resultado de la consulta en grupos de registros, generalmente con el propósito de realizar una o más agregaciones en cada grupo. Cada origen de datos **GROUPBY** se puede configurar para que se ejecute en el nivel de la base de datos o en la memoria. Cuando un origen de datos **GROUPBY** está configurado para que se ejecute en el nivel de la base de datos, ER comprueba si se puede establecer una consulta SQL directa a un origen de datos a la que se hace referencia en ese origen de datos. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de mapas del modelo ER. El mensaje que recibe indica que el origen de datos configurado **GROUPBY** no se puede ejecutar en runtime.
+El origen de datos **GROUPBY** divide el resultado de la consulta en grupos de registros, generalmente con el propósito de realizar una o más agregaciones en cada grupo. Cada origen de datos **GROUPBY** se puede configurar para que se ejecute en el nivel de la base de datos o en la memoria. Cuando un origen de datos **GROUPBY** está configurado para que se ejecute en el nivel de la base de datos, ER comprueba si se puede establecer una consulta SQL directa a un origen de datos a la que se hace referencia en ese origen de datos. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de asignación de modelos ER. El mensaje que recibe indica que el origen de datos configurado **GROUPBY** no se puede ejecutar en runtime.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -406,7 +405,7 @@ Cambie el valor del campo **Ubicación de ejecución** para el origen de datos *
 
 ## <a name="executability-of-a-join-data-source"></a><a id="i6"></a>Ejecutabilidad de una fuente de datos JOIN
 
-El origen de datos [JOIN](er-join-data-sources.md) combina registros de dos o más tablas de base de datos, según los campos relacionados. Cada origen de datos **JOIN** se puede configurar para que se ejecute en el nivel de la base de datos o en la memoria. Cuando un origen de datos **JOIN** está configurado para que se ejecute en el nivel de la base de datos, ER comprueba si se puede establecer una consulta SQL directa a orígenes de datos a la que se hace referencia en ese origen de datos. Si no se puede establecer una consulta directa SQL con al menos un origen de datos referenciado, se produce un error de validación en el diseñador de mapas del modelo ER. El mensaje que recibe indica que el origen de datos configurado **JOIN** no se puede ejecutar en runtime.
+El origen de datos [JOIN](er-join-data-sources.md) combina registros de dos o más tablas de base de datos, según los campos relacionados. Cada origen de datos **JOIN** se puede configurar para que se ejecute en el nivel de la base de datos o en la memoria. Cuando un origen de datos **JOIN** está configurado para que se ejecute en el nivel de la base de datos, ER comprueba si se puede establecer una consulta SQL directa a orígenes de datos a la que se hace referencia en ese origen de datos. Si no se puede establecer una consulta directa SQL con al menos un origen de datos referenciado, se produce un error de validación en el diseñador de asignación de modelos ER. El mensaje que recibe indica que el origen de datos configurado **JOIN** no se puede ejecutar en runtime.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -454,11 +453,11 @@ Cambie la expresión del origen de datos **Vendor.FilteredTrans** de `WHERE(Tran
 
 #### <a name="option-2"></a>Opción 2
 
-Cambie el valor del campo **Ejecutar** para el origen de datos **JoinedList** de **Consulta** a **En memoria**. No recomendamos que cambie el valor para una tabla que tiene un gran volumen de datos (tabla transaccional), porque todos los registros se recuperarán y la unión se realizará en la memoria. Por lo tanto, este enfoque puede provocar un rendimiento deficiente. Se muestra una advertencia de validación para informarle sobre este riesgo.
+Cambie el valor del campo **Ejecutar** para el origen de datos **JoinedList** de **Consulta** a **En memoria**. No recomendamos que cambie el valor para una tabla que tiene un gran volumen de datos (tabla transaccional), porque todos los registros se recuperarán y la unión ocurrirá en la memoria. Por lo tanto, este enfoque puede provocar un rendimiento deficiente. Se muestra una advertencia de validación para informarle sobre este riesgo.
 
 ## <a name="preferability-of-filter-vs-where-function"></a><a id="i7"></a>Preferibilidad de la función FILTER frente a WHERE
 
-La función ER incorporada [FILTRAR](er-functions-list-filter.md) se utiliza para acceder a tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada SQL para obtener los datos requeridos como una lista de registros. La función [WHERE](er-functions-list-where.md) recupera todos los registros de la fuente dada y registra la selección en la memoria. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de ambas funciones y especifica un origen para obtener registros. ER comprueba si se puede establecer una llamada SQL directa a una fuente de datos a la que se hace referencia en la función **WHERE**. Si no se puede establecer una llamada directa, se produce una advertencia de validación en el diseñador de mapas del modelo ER. El mensaje que recibe recomienda que utilice la función **FILTER** en lugar de la función **WHERE** para ayudar a mejorar la eficiencia.
+La función ER incorporada [FILTRAR](er-functions-list-filter.md) se utiliza para acceder a tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada SQL para obtener los datos requeridos como una lista de registros. La función [WHERE](er-functions-list-where.md) recupera todos los registros de la fuente dada y registra la selección en la memoria. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de ambas funciones y especifica un origen para obtener registros. ER comprueba si se puede establecer una llamada SQL directa a una fuente de datos a la que se hace referencia en la función **WHERE**. Si no se puede establecer una llamada directa, se produce una advertencia de validación en el diseñador de asignaciones del modelo ER. El mensaje que recibe recomienda que utilice la función **FILTER** en lugar de la función **WHERE** para ayudar a mejorar la eficiencia.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -489,11 +488,11 @@ Alternativamente, puede seleccionar la fila para una sola advertencia en la cuad
 
 ### <a name="manual-resolution"></a>Resolución manual
 
-Puede ajustar manualmente las expresiones de todos los orígenes de datos que se mencionan en la cuadrícula de validación reemplazando la función **WHERE** con la función **FILTER**.
+Puede ajustar manualmente las expresiones de todos los orígenes de datos en la cuadrícula de validación reemplazando la función **WHERE** con la función **FILTER**.
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>Preferibilidad de la función ALLITEMSQUERY vs ALLITEMS
 
-Las funciones integradas [ALLITEMS](er-functions-list-allitems.md) y [ALLITEMSQUERY](er-functions-list-allitemsquery.md) de ER se utilizan para obtener un valor aplanado de **Lista de registros** que consta de una lista de registros que representan todos los elementos que coinciden con la ruta especificada. ER comprueba si se puede establecer una llamada SQL directa a una fuente de datos a la que se hace referencia en la función **ALLITEMS**. Si no se puede establecer una llamada directa, se produce una advertencia de validación en el diseñador de mapas del modelo ER. El mensaje que recibe recomienda que utilice la función **ALLITEMSQUERY** en lugar de la función **ALLITEMS** para ayudar a mejorar la eficiencia.
+Las funciones integradas [ALLITEMS](er-functions-list-allitems.md) y [ALLITEMSQUERY](er-functions-list-allitemsquery.md) de ER recuperan un valor aplanado de **Lista de registros** que consta de una lista de registros que representan todos los elementos que coinciden con la ruta especificada. ER comprueba si se puede establecer una llamada SQL directa a una fuente de datos a la que se hace referencia en la función **ALLITEMS**. Si no se puede establecer una llamada directa, se produce una advertencia de validación en el diseñador de asignaciones del modelo ER. El mensaje que recibe recomienda que utilice la función **ALLITEMSQUERY** en lugar de la función **ALLITEMS** para ayudar a mejorar la eficiencia.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -573,11 +572,11 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 
     ![Valide los elementos de formato que vinculó a las fuentes de datos en la página del diseñador de formatos](./media/er-components-inspections-09c.png)
 
-16. Observe que se produce un error de validación. El mensaje indica que se puede generar un error para el formato configurado de los componentes **Instrucción\\Entidad\\Nombre** e **Instrucción\\Entidad\\AccountNum** en runtime si la lista **model.Vendor** esta vacía.
+16. Observe que se produce un error de validación. El mensaje indica que se puede generar un error para el formato configurado de los componentes **Instrucción\\Entidad\\Nombre** e **Instrucción\\Entidad\\AccountNum** en runtime si la lista `model.Vendor` esta vacía.
 
     ![Error de validación que notifica un posible error para los componentes de formato configurados](./media/er-components-inspections-09d.png)
 
-La siguiente ilustración muestra el error de runtime que se produce si ignora la advertencia, selecciona **Ejecutar** para ejecutar el formato y seleccione el número de cuenta de un proveedor inexistente. Como el proveedor solicitado no existe, la lista **model.Vendor** estará vacía (es decir, no contendrá registros).
+La siguiente ilustración muestra el error de runtime que se produce si ignora la advertencia, selecciona **Ejecutar** para ejecutar el formato y seleccione el número de cuenta de un proveedor inexistente. Como el proveedor solicitado no existe, la lista `model.Vendor` estará vacía (es decir, no contendrá registros).
 
 ![Errores de runtime debidos a que ocurrieron durante la ejecución de asignación de formato](./media/er-components-inspections-09e.png)
 
@@ -589,15 +588,15 @@ Para la fila seleccionada en la cuadrícula en la pestaña **Advertencias**, pue
 
 #### <a name="option-1"></a>Opción 1
 
-Puede vincular el elemento de formato **Instrucción\\Entidad\\Nombre** al elemento de origen de datos **model.Vendor.Name**. En runtime, este enlace llama primero al origen de datos **model.Vendor**. Cuando **model.Vendor** devuelve una lista de registros vacía, los elementos de formato anidados no se ejecutan. Por lo tanto, no se producen advertencias de validación para esta configuración de formato.
+Puede vincular el elemento de formato **Instrucción\\Entidad\\Nombre** al elemento de origen de datos `model.Vendor`. En runtime, este enlace llama primero al origen de datos `model.Vendor`. Cuando `model.Vendor` devuelve una lista de registros vacía, los elementos de formato anidados no se ejecutan. Por lo tanto, no se producen advertencias de validación para esta configuración de formato.
 
 ![Vincule el elemento de formato al elemento del origen de datos en la página del diseñador de formatos](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Opción 2
 
-Cambiar el enlace del elemento de formato **Instrucción\\Entidad\\Nombre** de `model.Vendor.Name` a `FIRSTORNULL(model.Vendor).Name`. El enlace actualizado convierte condicionalmente el primer registro del origen de datos **model.Vendor** del tipo **Lista de registros** a un nuevo origen de datos del tipo **Registro**. Este origen de datos nuevo contiene el mismo conjunto de campos.
+Cambiar el enlace del elemento de formato **Instrucción\\Entidad\\Nombre** de `model.Vendor.Name` a `FIRSTORNULL(model.Vendor).Name`. El enlace actualizado convierte condicionalmente el primer registro del origen de datos `model.Vendor` del tipo **Lista de registros** a un nuevo origen de datos del tipo **Registro**. Este origen de datos nuevo contiene el mismo conjunto de campos.
 
-- Si al menos un registro está disponible en el origen de datos **model.Vendor**, los campos de ese registro se llenan con los valores de los campos del primer registro del origen de datos **model.Vendor**. En este caso, el enlace actualizado devuelve el nombre del proveedor.
+- Si al menos un registro está disponible en el origen de datos `model.Vendor`, los campos de ese registro se llenan con los valores de los campos del primer registro del origen de datos `model.Vendor`. En este caso, el enlace actualizado devuelve el nombre del proveedor.
 - De lo contrario, cada campo del registro que se crea se completa con el valor predeterminado para el tipo de datos de ese campo. En este caso, la cadena en blanco se devuelve como el valor predeterminado del tipo de datos **Cadena**.
 
 Por lo tanto, no se producen advertencias de validación para el elemento de formato **Instrucción\\Entidad\\Nombre** cuando está vinculado a la expresión `FIRSTORNULL(model.Vendor).Name`.
@@ -606,13 +605,13 @@ Por lo tanto, no se producen advertencias de validación para el elemento de for
 
 #### <a name="option-3"></a>Opción 3
 
-Si desea especificar explícitamente los datos que se introducen en un documento generado cuando el origen de datos **model.Vendor** del tipo **Lista de registros** no devuelve registros (el texto **No disponible** en este ejemplo), cambie el enlace del elemento de formato **Instrucción\\Entidad\\Nombre** de `model.Vendor.Name` a `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. También puedes usar la expresión `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
+Si desea especificar explícitamente los datos que se introducen en un documento generado cuando el origen de datos `model.Vendor` del tipo **Lista de registros** no devuelve registros (el texto **No disponible** en este ejemplo), cambie el enlace del elemento de formato **Instrucción\\Entidad\\Nombre** de `model.Vendor.Name` a `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. También puedes usar la expresión `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Consideración adicional
 
-La inspección también le advierte sobre otro problema potencial. De forma predeterminada, al vincular los elementos de formato **Instrucción\\Entidad\\Nombre** y **Instrucción\\Entidad\\AccountNum** a los campos apropiados del origen de datos **model.Vendor** del tipo **Lista de registros**, esos enlaces se ejecutarán y tomarán los valores de los campos apropiados del primer registro del origen de datos **model.Vendor**, si esa lista no está vacía.
+La inspección también le advierte sobre otro problema potencial. De forma predeterminada, al vincular los elementos de formato **Instrucción\\Entidad\\Nombre** e **Instrucción\\Entidad\\AccountNum** a los campos apropiados del origen de datos `model.Vendor` del tipo **Lista de registros**, esos enlaces se ejecutarán y tomarán los valores de los campos apropiados del primer registro del origen de datos `model.Vendor`, si esa lista no está vacía.
 
-Como no ha vinculado el elemento de formato **Instrucción\\Entidad** con el origen de datos **model.Vendor**, el elemento **Instrucción\\Entidad** no se iterará para cada registro del origen de datos **model.Vendor** durante la ejecución del formato. En cambio, un documento generado se llenará con información solo del primer registro de la lista de registros, si esa lista contiene varios registros. Por lo tanto, puede haber un problema si el formato está destinado a llenar un documento generado con información sobre todos los proveedores del origen de datos **model.Vendor**. Para solucionar este problema, vincule el elemento **Instrucción\\Entidad** elemento con el origen de datos **model.Vendor**.
+Como no ha vinculado el elemento de formato **Instrucción\\Entidad** con el origen de datos `model.Vendor`, el elemento **Instrucción\\Entidad** no se iterará para cada registro del origen de datos `model.Vendor` durante la ejecución del formato. En cambio, un documento generado se llenará con información solo del primer registro de la lista de registros, si esa lista contiene varios registros. Por lo tanto, puede haber un problema si el formato está destinado a llenar un documento generado con información sobre todos los proveedores del origen de datos `model.Vendor`. Para solucionar este problema, vincule el elemento **Instrucción\\Entidad** con el origen de datos `model.Vendor`.
 
 ## <a name="executability-of-an-expression-with-filter-function-caching"></a><a id="i10"></a>Ejecutabilidad de una expresión con función FILTER (caché)
 
@@ -699,7 +698,7 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 
 14. Vincule los elementos de formato a los orígenes de datos proporcionados de la siguiente manera:
 
-    - Vincule el elemento de formato **Instrucción\\Entidad** al elemento de origen de datos **model.Vendor**.
+    - Vincule el elemento de formato **Instrucción\\Entidad** al elemento de origen de datos `model.Vendor`.
     - Vincule el elemento de formato **Instrucción\\Entidad\\Nombre** al campo de origen de datos **model.Vendor.Name**.
     - Vincule el elemento de formato **Instrucción\\Entidad\\AccountNum** al campo de origen de datos **model.Vendor.AccountNumber**.
 
@@ -813,6 +812,3 @@ Para saber cómo se puede sincronizar la estructura del formato con una plantill
 [Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md)
 
 [Visión general de la gestión de documentos empresariales](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

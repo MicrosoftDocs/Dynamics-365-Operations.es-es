@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4dcee425fc1225dcfcf8ba4282f4176acfeaa268
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694674"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796811"
 ---
 # <a name="configure-the-global-address-book"></a>Configuración de la libreta de direcciones global
 
@@ -45,6 +45,3 @@ La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tare
 13. En la lista, busque y seleccione el registro deseado. Presione la tecla Mayús para seleccionar varios roles que agregar al panel **Roles seleccionados** y haga clic en la flecha para agregar los roles seleccionados.  
 14. Haga clic en **Guardar**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

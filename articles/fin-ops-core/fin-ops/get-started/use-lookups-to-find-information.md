@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a555db8ced5981abf1f3f58f16b77e1c263dcfa2
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d75e66e8fb9f1a227c9dd15f92ca5db433c0db4a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693650"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798152"
 ---
 # <a name="find-information-by-using-lookups"></a>Encontrar información mediante el uso de búsquedas
 
@@ -39,7 +39,7 @@ En versiones anteriores, al interactuar con un control de búsqueda, un usuario 
 
 - Una vez que haya abierto el menú desplegable de búsqueda, sucederá lo siguiente:
 
-    - El cursor permanecerá en el control de la búsqueda (en vez de que el foco se mueva al menú desplegable) para que pueda continuar realizando modificaciones en el valor de control. Sin embargo, el usuario puede seguir utilizando la **flecha hacia arriba** y la **flecha hacia abajo** para cambiar las filas en el menú desplegable e Intro para seleccionar la fila actual del menú desplegable.
+    - El cursor permanecerá en el control de la búsqueda (en vez de que el foco se mueva al menú desplegable) para que pueda continuar realizando modificaciones en el valor de control. Sin embargo, el usuario puede seguir utilizando la **flecha hacia arriba** y la **flecha hacia abajo** para cambiar las filas en el menú desplegable e Entrar para seleccionar la fila actual del menú desplegable.
     - El contenido del menú desplegable se ajustará tras realizar cualquier modificación en el valor de control de la búsqueda.
 
 Por ejemplo, supongamos un campo de búsqueda denominado **Ciudad**.
@@ -52,7 +52,7 @@ En este punto, el cursor se encuentra todavía en el campo de búsqueda. Si cont
 
 ![updateFilterLookupExample](./media/updatefilterlookupexample.png)
 
-Aunque el foco siga en el control de la búsqueda, puede usar también las teclas de **flecha hacia arriba** o **flecha hacia abajo** para resaltar la fila que desee seleccionar. Si pulsa **Intro** la fila resaltada se seleccionará en la búsqueda y se actualizará el valor del control.
+Aunque el foco siga en el control de la búsqueda, puede usar también las teclas de **flecha hacia arriba** o **flecha hacia abajo** para resaltar la fila que desee seleccionar. Si pulsa **Entrar** la fila resaltada se seleccionará en la búsqueda y se actualizará el valor del control.
 
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
@@ -83,6 +83,3 @@ En su lugar, el usuario necesita borrar el valor del control de la búsqueda, ab
 Después de que se haya aplicado el filtro (consulte la imagen a continuación), el usuario puede buscar y seleccionar la fila como de costumbre.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

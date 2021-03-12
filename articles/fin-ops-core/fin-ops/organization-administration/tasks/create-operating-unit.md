@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0157e7e080f6b65dc6b3bb8f01ace5b521bb3dca
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694822"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796739"
 ---
 # <a name="create-an-operating-unit"></a>Creación de una unidad operativa
 
@@ -41,6 +41,3 @@ Una unidad operativa es una organización que se usa para dividir el control de 
     + Especifique información sobre los métodos de comunicación, como direcciones de correo electrónico, URL y números de teléfono. Para especificar un nuevo registro de comunicación, haga clic en Nuevo. Para modificar un registro de comunicación existente, haga clic en **Más opciones > Avanzado**.   
 6. Opcionalmente, cambie **Número de unidad operativa** según sea necesario. Tenga en cuenta que este número es un identificador único para el registro **Parte** y no puede ser el mismo que ninguna otra unidad operativa.
 7. Seleccione **Guardar**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

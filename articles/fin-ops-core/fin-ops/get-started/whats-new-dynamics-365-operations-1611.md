@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b3ede085533fee1bb779ed9da899f509a77fc0c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693440"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797204"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novedades y cambios en Dynamics 365 for Operations versión 1611 (noviembre de 2016)
 
@@ -691,7 +691,7 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 </tr>
 <tr>
 <td>Permite buscar los productos y variantes del producto en ventas y escenarios de compra.</td>
-<td>Al crear una línea de ventas o línea de compra, puede buscar los productos mediante dimensiones de producto y cualquier número de producto excepto los Números de artículo comerciales globales (GTIN) y los códigos de barras. Esta búsqueda es una búsqueda de texto completo que sustituirá la búsqueda de “Empieza por” que se usa en la lista de búsqueda de ventas y compras. Esta función permite encontrar grupos de productos que tienen propiedades similares o un producto que tiene características únicas. Para activar esta función, seleccione el parámetro <strong>Habilitar consulta para búsqueda de producto</strong> en la página <strong>Parámetros de búsuqeda</strong>.</td>
+<td>Al crear una línea de ventas o línea de compra, puede buscar los productos mediante dimensiones de producto y cualquier número de producto excepto los Números de artículo comerciales globales (GTIN) y los códigos de barras. Esta búsqueda es una búsqueda de texto completo que sustituirá la búsqueda de “Empieza por” que se usa en la lista de búsqueda de ventas y compras. Esta función permite encontrar grupos de productos que tienen propiedades similares o un producto que tiene características únicas. Para activar esta función, seleccione el parámetro <strong>Habilitar consulta para búsqueda de producto</strong> en la página <strong>Parámetros de búsqueda</strong>.</td>
 </tr>
 <tr>
 <td>Especifique la variante del producto directamente al crear ventas o la transacción de compra. Opcionalmente, puede seleccionar una lista de combinaciones de dimensiones válidas.</td>
@@ -945,6 +945,3 @@ Actualmente, Retail Modern POS solo está disponible como aplicación de Windows
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Página principal de Novedades y cambios en Finance and Operations](whats-new-changed.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

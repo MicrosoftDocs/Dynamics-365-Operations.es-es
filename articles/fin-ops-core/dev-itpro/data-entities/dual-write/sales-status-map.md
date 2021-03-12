@@ -1,6 +1,6 @@
 ---
-title: Configurar la asignación para los campos de estado de pedidos de ventas
-description: Este tema explica cómo configurar los campos de estado de pedido de ventas para doble escritura.
+title: Configurar la asignación de las columnas de estado del pedido de ventas
+description: Este tema explica cómo configurar las columnas de estado de pedido de ventas para doble escritura.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4457001"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744308"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Configurar la asignación para los campos de estado de pedidos de ventas
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurar la asignación de las columnas de estado del pedido de ventas
 
 [!include [banner](../../includes/banner.md)]
 
-Los campos que indican el estado del pedido de ventas tienen distintos valores de enumeración en Microsoft Dynamics 365 Supply Chain Management y en Dynamics 365 Sales. Se requiere una configuración adicional para asignar estos campos en doble escritura.
+Las columnas que indican el estado del pedido de ventas tienen distintos valores de enumeración en Microsoft Dynamics 365 Supply Chain Management y en Dynamics 365 Sales. Se requiere una configuración adicional para asignar estas columnas en doble escritura.
 
-## <a name="fields-in-supply-chain-management"></a>Campos en Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>columnas en Supply Chain Management
 
-En Supply Chain Management, dos campos reflejan el estado del pedido de ventas. Los campos que debe asignar son **Estado** y **Estado del documento**.
+En Supply Chain Management, dos columnas reflejan el estado del pedido de ventas. Las columnas que debe asignar son **Estado** y **Estado del documento**.
 
 La enumeración **Estado** especifica el estado general del pedido. Este estado se muestra en el encabezado del pedido.
 
@@ -53,9 +53,9 @@ La enumeración **Estado del documento** tiene los siguientes valores:
 - Albarán
 - Factura
 
-## <a name="fields-in-sales"></a>Campos en Sales
+## <a name="columns-in-sales"></a>columnas en Ventas
 
-En Sales, dos campos indican el estado del pedido. Los campos que debe asignar son **Estado** y **Estado de procesamiento**.
+En Ventas, dos columnas indican el estado del pedido. Las columnas que debe asignar son **Estado** y **Estado de procesamiento**.
 
 La enumeración **Estado** especifica el estado general del pedido. Tiene los siguientes valores:
 
@@ -95,7 +95,7 @@ En la tabla siguiente se muestra la asignación de **Estado de procesamiento** e
 
 ## <a name="setup"></a>Configurar
 
-Para configurar la asignación para los campos de estado del pedido de ventas, debe habilitar los atributos **IsSOPIntegrationEnabled** y **isIntegrationUser**.
+Para configurar la asignación para las columnas de estado del pedido de ventas, debe habilitar los atributos **IsSOPIntegrationEnabled** y **isIntegrationUser**.
 
 Para habilitar el atributo **IsSOPIntegrationEnabled**, siga estos pasos.
 
@@ -110,14 +110,14 @@ Para habilitar el atributo **IsSOPIntegrationEnabled**, siga estos pasos.
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Para habilitar el atributo **IsSOPIntegrationEnabled**, siga estos pasos.
 
 Para habilitar el atributo **isIntegrationUser**, siga estos pasos.
 
-1. En Sales, vaya a **Configuración \> Personalización \> Personaliza el sistema**, seleccione **Entidad de usuario** y abra **Formulario \> Usuario**.
+1. En Sales, vaya a **Configuración \> Personalización \> Personaliza el sistema**, seleccione **Tabla de usuario** y abra **Formulario \> Usuario**.
 
     ![Abrir el formulario de usuario](media/sales-map-user.png)
 
 2. En el explorador de campos, busque **Modo de usuario de integración** y haga doble clic en él para agregarlo al formulario. Guarde el cambio.
 
-    ![Agregar el campo Modo de usuario de integración al formulario](media/sales-map-field-explorer.png)
+    ![Agregar la columna Modo de usuario de integración al formulario](media/sales-map-field-explorer.png)
 
 3. En Sales, vaya a **Configuración \> Seguridad \> Usuarios** y cambie la vista de **Usuarios habilitados** a **Usuarios de la aplicación**.
 
@@ -145,11 +145,8 @@ Para habilitar el atributo **isIntegrationUser**, siga estos pasos.
 
     ![Lista de usuarios de aplicación](media/sales-map-user-mode.png)
 
-5. Cambie el valor del campo **Modo de usuario de integración** a **Sí**.
+5. Cambie el valor de la columna **Modo de usuario de integración** a **Sí**.
 
-    ![Cambiar el valor del campo Modo de usuario de integración](media/sales-map-user-mode-yes.png)
+    ![Cambiar el valor de la columna Modo de usuario de integración](media/sales-map-user-mode-yes.png)
 
 Ahora los pedidos de ventas están asignados.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

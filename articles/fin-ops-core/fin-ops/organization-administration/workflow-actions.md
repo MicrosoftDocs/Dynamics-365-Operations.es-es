@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2973454e585f8ee45c0b6ee95c8b41e93bc2d962
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694296"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797611"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Acciones en los procesos de aprobación de flujo de trabajo
 
@@ -141,6 +141,3 @@ Cuando un aprobador solicita que se realice un cambio en un documento, este se d
 Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 12.000 USD que, en este momento, está asignado a Sue. Si Sue solicita un cambio, el informe de gastos se devuelve a Sam.
 
 Sam podrá volver a enviar el informe de gastos. Puede realizar los cambios solicitados primero o volver a enviar la versión original del informe de gastos. Si Sam lo vuelve a enviar, se envía a Frank para que lo apruebe porque él es el primer aprobador del proceso de aprobación.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

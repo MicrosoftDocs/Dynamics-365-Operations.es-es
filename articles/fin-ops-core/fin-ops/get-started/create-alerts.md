@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694504"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798436"
 ---
 # <a name="create-alert-rules"></a>Crear reglas de alertas
 
@@ -40,7 +40,7 @@ Los trabajos por lotes para el cambio de datos y las alertas de fecha de vencimi
 
 El evento que desencadena una regla de alertas puede ser una fecha que llega o un cambio específico que se produce. Los desencadenadores para los eventos se definen en la ficha desplegable **Avisar cuando** del cuadro **Crear regla de alertas**. Los eventos que están disponibles para un campo determinado dependen del desencadenador que se selecciona.
 
-Por ejemplo, si está configurando una regla de alerta para el campo **Fecha de inicio**, los eventos de fecha de vencimiento son adecuados. Por lo tanto, el tipo de evento **vencimiento es** está disponible para este campo. Sin embargo, para un campo como **Centro de coste**, un evento de fecha de vencimiento no es adecuado. Por lo tanto, el tipo de evento **vencimiento es** no está disponible. En su lugar, el tipo de evento **ha cambiado** está disponible.
+Por ejemplo, si está configurando una regla de alerta para el campo **Fecha de inicio**, los eventos de fecha de vencimiento son adecuados. Por lo tanto, el tipo de evento `is due in` está disponible para ese campo. Sin embargo, para un campo como **Centro de coste**, un evento de fecha de vencimiento no es adecuado. Por lo tanto, el tipo de evento `is due in` no está disponible. En su lugar, el tipo de evento `has changed` está disponible.
 
 ## <a name="event-types"></a>Tipos de evento
 
@@ -77,7 +77,7 @@ En la ficha desplegable **Avisar a** del cuadro de diálogo **Crear regla de ale
 
 ## <a name="alerts-as-business-events"></a>Alertas como eventos de negocio
 
-Las alertas se pueden enviar externamente utilizando el marco de eventos empresariales. Al crear una alerta, establezca **Toda la organización** a **No** y establezca **Enviar externamente** a **Sí**. Después de tener la alerta que desencadena el evento de negocio, puede activar un flujo integrado en Power Automate utilizando el desencadenante **Cuando ocurre un evento de negocios** en el conector de Finance and Operations, o enviar explícitamente el evento a un punto final de eventos de negocio a través de **Catálogo de eventos empresariales**.
+Puede enviar alertas externamente utilizando el marco de eventos empresariales. Al crear una alerta, establezca **Toda la organización** a **No** y establezca **Enviar externamente** a **Sí**. Después de tener la alerta que desencadena el evento de negocio, puede activar un flujo integrado en Power Automate utilizando el desencadenante **Cuando ocurre un evento de negocios** en el conector de Finance and Operations, o enviar explícitamente el evento a un punto final de eventos de negocio a través de **Catálogo de eventos empresariales**.
 
 ## <a name="create-an-alert-rule"></a>Cree una regla de alerta
 
@@ -86,7 +86,7 @@ Las alertas se pueden enviar externamente utilizando el marco de eventos empresa
 2. En el Panel de acciones, en la ficha **Opciones**, en el grupo **Compartir**, seleccione **Crear regla de alertas**.
 3. En el cuadro de diálogo **Crear regla de alertas**, en el campo **Campo**, seleccione el campo que desea supervisar.
 4. En el campo **Evento**, seleccione el tipo de evento.
-5. En la ficha desplegable **Avisar para** , seleccione la opción deseada. Si desea enviar la alerta como un evento de negocio, asegúrese de que **Toda la organización** se establece en **No**.
+5. En la ficha desplegable **Avisar para** , seleccione la opción deseada. Si desea enviar la alerta como un evento de negocio, establezca el valor **Toda la organización** en **No**.
 6. Si desea que la regla de alerta esté inactiva en una fecha concreta, seleccione una fecha final en la ficha desplegable **Avisar hasta**.
 7. En la ficha desplegable **Avisar con**, en el campo **Asunto**, acepte el encabezado de asunto predeterminado para el mensaje de correo electrónico o escriba un nuevo asunto. El texto se usa como el encabezado de asunto del mensaje de correo electrónico que recibe cuando se desencadena una alerta. Si desea enviar la alerta como un evento de negocio, configure **Enviar externamente** a **Sí**.
 8. En el campo **Mensaje**, Inserte un mensaje opcional. El texto se usa como el mensaje que recibe cuando se desencadene la alerta.
@@ -95,13 +95,10 @@ Las alertas se pueden enviar externamente utilizando el marco de eventos empresa
 ## <a name="limitations-and-workarounds"></a>Limitaciones y soluciones
 
 ### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Solución alternativa para crear alertas para las fuentes de datos secundarias de un formulario
-No se pueden crear alertas para algunas fuentes de datos secundarias en formularios. Por ejemplo, al crear alertas en el formulario de perfiles de publicación de clientes o proveedores, solo los campos en el encabezado (CustLedger o VendLedger) están disponibles y no las cuentas de dimensión. La solución alternativa para esta limitación es utilizar **SysTableBrowser** para abrir esa tabla como fuente de datos principal. 
+No puede crear alertas para algunas fuentes de datos secundarias en formularios. Por ejemplo, al crear alertas en el formulario de perfiles de publicación de clientes o proveedores, solo los campos en el encabezado (CustLedger o VendLedger) están disponibles y no las cuentas de dimensión. La solución alternativa para esta limitación es utilizar **SysTableBrowser** para abrir esa tabla como fuente de datos principal. 
 1. Abra la mesa en el formulario **SysTableBrowser**.
     ```
         https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
     ```
 2. Cree una alerta desde el formulario SysTableBrowser.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

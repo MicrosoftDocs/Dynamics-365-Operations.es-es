@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693411"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797793"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Especificar saldos iniciales de nómina
 
@@ -166,6 +166,3 @@ Es posible invertir y repetir las transacciones. Para invertir la transacción, 
 2. Haga clic en **Sí** cuando aparezca el mensaje “Cuando se invierte este extracto de pago, se crea un extracto de pago de inversión para compensarlo. Ninguno de los extractos de pago se podrá modificar. ¿Quiere invertir este extracto de pago? . 
 
 Una vez que revierta el extracto de pago, puede generar un nuevo extracto de pago para el trabajador desde el extracto de ganancias que creó anteriormente. Asegúrese de corregir las líneas incorrectas del extracto de ganancias antes de generar la nueva instrucción de pago, y luego genere nuevos extractos de sueldo con los importes correctos. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

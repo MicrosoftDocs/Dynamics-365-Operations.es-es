@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692975"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798362"
 ---
 # <a name="feature-management-overview"></a>Visión general de la administración de características
 
@@ -32,7 +32,7 @@ Las características se suman y se actualizan en cada versión. La experiencia d
 
 ## <a name="the-feature-management-workspace"></a>El espacio de trabajo Administración de características.
 
-Puede abrir el espacio de trabajo **Administración de características** seleccionando el mosaico adecuado en el panel de información. Verá una página que muestra una lista de características para todos las versiones que son compatibles con la experiencia de Administración de características. Con el tiempo, Microsoft ampliará la experiencia de la Administración de características de modo que incluya funcionalidad adicional para ayudarle a gestionar características.
+Puede abrir el espacio de trabajo **Administración de características** seleccionando el mosaico adecuado en el panel de información. Verá una página que muestra una lista de características para todos las versiones que son compatibles con la experiencia de Administración de características. Con el tiempo, Microsoft ampliará la experiencia de la Administración de características de modo que incluya una mayor funcionalidad para ayudarle a gestionar características.
 
 La lista de características incluye la información siguiente:
 
@@ -42,7 +42,7 @@ La lista de características incluye la información siguiente:
 - **Característica agregada** - La fecha en que la característica se ha agregado al entorno. Esta fecha se introduce automáticamente durante la actualización del entorno durante los ciclos de lanzamiento mensuales.
 - **Módulo** - El módulo afectado por la nueva característica.
 
-Al seleccionar una característica, información adicional aparece en el panel de información a la derecha de la lista de la función. En la parte superior del panel podrá ver el nombre de la función, la fecha en la que la característica se ha agregado, el módulo afectado por la función, y un vínculo a **Más información** . Seleccione este vínculo para ver la documentación para la característica. Si la documentación no está disponible, le llevarán a una página temporal. El panel de detalles también incluye un campo **Comentarios** donde puede agregar sus propios comentarios acerca de la característica.
+Al seleccionar una característica, más información aparece en el panel de información a la derecha de la lista de la función. En la parte superior del panel podrá ver el nombre de la función, la fecha en la que la característica se ha agregado, el módulo afectado por la función, y un vínculo a **Más información** . Seleccione este vínculo para ver la documentación para la característica. Si la documentación no está disponible, le llevarán a una página temporal. El panel de detalles también incluye un campo **Comentarios** donde puede agregar sus propios comentarios acerca de la característica.
 
 El espacio de trabajo **Administración de características** también tiene varias pestañas y cada una muestra una lista de funciones de ella.
 
@@ -101,8 +101,8 @@ Todas las funciones que se pueden habilitar se habilitarán. Si una característ
 
 De forma predeterminada todas las características que se añaden a su entorno se desactivan a menos que sean características obligatorias. Sin embargo, si se desea activar automáticamente todas las nuevas características, puede usar la lista desplegable bajo al título del espacio de trabajo para cambiar qué ocurre cuando se agregan las nuevas características.
 
-- Seleccione **Habilitar nuevas características automáticamente** para activar automáticamente todas las nuevas características cuando se añaden al entorno.
-- Seleccione **No habilitar nuevas características automáticamente** para que todas las nuevas características estén desactivadas de forma predeterminada cuando se añadan al entorno.
+- Seleccione `Enable new features automatically` para activar automáticamente todas las nuevas características cuando se añaden al entorno.
+- Seleccione `Do not enable new features automatically` para desactivar por defecto todas las nuevas características cuando se añaden al entorno.
 
 
 Si habilita todas las características automáticamente, se habilitan todas las funciones que se habilitarían al hacer clic en el botón **Habilitar todo**. No se habilitarán las características que requieren confirmación o las características que no se pueden habilitar hasta que se tomen medidas.
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>¿Qué es el IFeatureLifecycle implementado por algunas clases de entidad?
 IFeatureLifecycle es un mecanismo interno de Microsoft para indicar la etapa del ciclo de vida de la característica. Las características pueden ser:
-- PrivatePreview: necesita un vuelo para ser visible.
-- PublicPreview: se muestra de forma predeterminada, pero con una advertencia de que la función está en vista previa.
-- Lanzada: completamente publicada.
+- `PrivatePreview`: necesita que se lance como paquete piloto para ser visible.
+- `PublicPreview`: se muestra de forma predeterminada, pero con una advertencia de que la función está en vista previa.
+- `Released`: completamente publicada.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

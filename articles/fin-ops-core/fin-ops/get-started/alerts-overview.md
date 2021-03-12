@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 191f8a5d788f57964e7870167109e98cbde65c43
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694173"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798600"
 ---
 # <a name="alerts-overview"></a>Información general de alertas
 
@@ -88,6 +88,3 @@ El vídeo [Cómo utilizar Alertas para controlar datos filtrados](https://youtu.
 El vídeo [Opciones de reglas de alertas](https://youtu.be/cpzimwOjicM) (aparece más arriba) está incluido en la [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

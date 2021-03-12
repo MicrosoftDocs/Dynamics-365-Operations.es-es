@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685494"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744524"
 ---
 # <a name="integrated-vendor-master"></a>Maestro de proveedores integrado
 
@@ -33,17 +33,17 @@ ms.locfileid: "4685494"
 
 
 
-El termino *proveedor* se refiere a una organización proveedora o un propietario único que suministra bienes o servicios a una empresa. Aunque *proveedor* sea un concepto establecido en las aplicaciones de Microsoft Dynamics 365 Supply Chain Management, el concepto de proveedor no existe en aplicaciones basadas en módelos de Dynamics 365. Sin embargo, puede sobrecargar la entidad **Cuenta/contacto** para almacenar información del proveedor. El maestro de proveedores integrado presenta un concepto de proveedor explícito en aplicaciones basadas en modelos en Dynamics 365. Puede usar el nuevo diseño del proveedor o almacenar los datos del proveedor en la entidad **Cuenta/Contacto**. La doble escritura admite ambos enfoques.
+El termino *proveedor* se refiere a una organización proveedora o un propietario único que suministra bienes o servicios a una empresa. Aunque *proveedor* sea un concepto establecido en las aplicaciones de Microsoft Dynamics 365 Supply Chain Management, el concepto de proveedor no existe en aplicaciones basadas en módelos de Dynamics 365. Sin embargo, puede sobrecargar la tabla **Cuenta/contacto** para almacenar información del proveedor. El maestro de proveedores integrado presenta un concepto de proveedor explícito en aplicaciones basadas en modelos en Dynamics 365. Puede usar el nuevo diseño del proveedor o almacenar los datos del proveedor en la tabla **Cuenta/Contacto**. La doble escritura admite ambos enfoques.
 
 En ambos enfoques, los datos del proveedor se integran entre Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service y portales Power Apps. En Supply Chain Management, los datos están disponibles para flujos de trabajo, como solicitudes de pedido y órdenes de compra.
 
 ## <a name="vendor-data-flow"></a>Flujo de datos del proveedor
 
-Si no quiere almacenar los datos de proveedor de tienda en la entidad **Cuenta/Contacto** en Dataverse puede usar el nuevo diseño de proveedor.
+Si no quiere almacenar los datos de proveedor de tienda en la tabla **Cuenta/Contacto** en Dataverse puede usar el nuevo diseño de proveedor.
 
 ![Flujo de datos del proveedor](media/dual-write-vendor-data-flow.png)
 
-Si quiere continuar almacenando los datos de proveedor de tienda en la entidad **Cuenta/Contacto** puede usar el diseño de proveedor extendido. Para usar el diseño extendido del proveedor, debe configurar los flujos de trabajo del proveedor en el paquete de solución de doble escritura. Para más información, consulte [Cambiar entre diseños de proveedores](vendor-switch.md).
+Si quiere continuar almacenando los datos de proveedor de tienda en la tabla **Cuenta/Contacto** puede usar el diseño de proveedor extendido. Para usar el diseño extendido del proveedor, debe configurar los flujos de trabajo del proveedor en el paquete de solución de doble escritura. Para más información, consulte [Cambiar entre diseños de proveedores](vendor-switch.md).
 
 ![Flujo de datos ampliado del proveedor](media/dual-write-vendor-detail.jpg)
 
@@ -56,7 +56,7 @@ Los datos del proveedor incluyen toda la información sobre el proveedor, como e
 
 Aplicaciones de Finance and Operations | Otras aplicaciones de Dynamics 365     | Descripción
 ----------------------------|-----------------------------|------------
-Proveedor V2                   | Cuenta                     | Las empresas que utilizan la entidad Cuenta para almacenar la información de proveedor pueden continuar utilizandola de la misma manera. También pueden aprovechar la funcionalidad explícita del proveedor que está por venir debido a la integración de aplicaciones de Finance and Operations.
+Proveedor V2                   | Cuenta                     | Las empresas que utilizan la tabla Cuenta para almacenar la información de proveedor pueden continuar utilizándola de la misma manera. También pueden aprovechar la funcionalidad explícita del proveedor que está por venir debido a la integración de aplicaciones de Finance and Operations.
 Proveedor V2                   | Msdyn\_vendors              | Las empresas que utilizan una solución personalizada para los proveedores pueden aprovecharse del concepto de proveedor del componente estándar que se está introduciendo en Dataverse debido a la integración de aplicaciones de Finance and Operations. 
 Grupos de proveedores               | msdyn\_vendorgroups         | Esta plantilla sincroniza la información del grupo de proveedores.
 Método de pago de proveedor       | msdyn\_vendorpaymentmethods | Esta plantilla sincroniza la información del método de pago del proveedor.
@@ -75,6 +75,3 @@ Afijos de nombre                | msdyn\_nameaffixes          | La plantilla [af
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693734"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798235"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -44,13 +44,13 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 |-------------------------------------------------|----------------------------------|
 | Búsqueda de acción abierta                              | Ctrl+’ o Alt+Q                  |
 | Ir al panel de acciones estándar                | Alt+M,A o Ctrl+F6               |
-| Abrir una ficha en el panel de acciones o un menú         | Intro o Espacio o Alt+Flecha abajo |
+| Abrir una ficha en el panel de acciones o un menú         | Entrar o Espacio o Alt+Flecha abajo |
 | Pasar a la opción anterior o siguiente en un menú          | Flecha arriba / Flecha abajo            |
 | Cerrar una ficha en el panel de acciones o un menú        | Esc                              |
 | Simular un clic con el botón secundario                          | Mayús+F10                        |
 | Abrir el menú contextual    | Ctrl+F10                         |
-| Ejecutar el botón predeterminado en un formulario/cuadro de diálogo | Alt+Intro                        |
-| Hacer clic en un botón o un icono                          | Intro o Espacio                   |
+| Ejecutar el botón predeterminado en un formulario/cuadro de diálogo | Alt+Entrar                        |
+| Hacer clic en un botón o un icono                          | Entrar o Espacio                   |
 | Ver información actualizada de un icono de recuento       | Alt+Fecha arriba                     |
 | Ver los métodos abreviados disponibles actualmente              | Alt+Mayús+K                      |
 
@@ -75,7 +75,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Cerrar el panel del cuadro informativo (con el enfoque en el panel del cuadro informativo)                         | Esc                                       |
 | Pasar al cuadro informativo siguiente/anterior (con el enfoque en el panel del cuadro informativo)              | Alt+Mayús+Flecha abajo / Alt+Mayús+Flecha arriba |
 | Pasar al cuadro informativo &lt;n&gt; (con el enfoque en el panel del cuadro informativo)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
-| Expandir un cuadro informativo (con el enfoque en el encabezado del cuadro informativo)                             | Espacio o Intro                            |
+| Expandir un cuadro informativo (con el enfoque en el encabezado del cuadro informativo)                             | Espacio o Entrar                            |
 | Contraer el cuadro informativo actual                                                    | Alt+0                                     |
 
 ## <a name="filtering-shortcuts"></a>Métodos abreviados de filtrado
@@ -120,7 +120,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ir a la ficha desplegable &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Ir a la siguiente hoja o a la anterior (pestaña vertical)      | Alt+Mayús+Fecha derecha / Alt+Mayús+Flecha izquierda |
 | Ir a la hoja número &lt;n&gt; (pestaña vertical)        | Alt+Mayús+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| Expandir una lista desplegable (con el enfoque en el encabezado de la ficha desplegable) | Espacio o Intro                               |
+| Expandir una lista desplegable (con el enfoque en el encabezado de la ficha desplegable) | Espacio o Entrar                               |
 | Contraer la ficha desplegable actual                        | Alt+0                                        |
 | Cambiar a la vista de cuadrícula                                 | Ctrl+Mayús+G                                 |
 | Cambiar a la vista de detalles                              | Ctrl+Mayús+D                                 |
@@ -146,16 +146,16 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ir a la fila siguiente marcada                                                                                            | Alt+Mayús+M, L                    |
 | Ir a la fila marcada anterior                                                                                        | Alt+Mayús+M, P                    |
 | Ir a la última fila marcada                                                                                           | Alt+Mayús+M, N                    |
-| Ejecutar la acción predeterminada en una cuadrícula<blockquote>[!NOTE] Este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.</blockquote> | Intro                           |
+| Ejecutar la acción predeterminada en una cuadrícula<blockquote>[!NOTE] Este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.</blockquote> | Entrar                           |
 | Alternar el enfoque entre la fila seleccionada y la fila de encabezado                                                               | Alt+Mayús+ H                     |
 | Haga la columna actual mayor o menor (con el enfoque en la fila de encabezado)                                                  | Flecha derecha / flecha izquierda        |
-| Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)                                              | Intro                           |
+| Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)                                              | Entrar                           |
 
 ## <a name="input-control-shortcuts"></a>Métodos abreviados de control de entrada de datos
 
 | Acción                                                                   | Presione                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| Abrir el hipervínculo                                                           | Ctrl+Intro                    |
+| Abrir el hipervínculo                                                           | Ctrl+Entrar                    |
 | Especificar la fecha de la sesión en un campo de fecha                                       | J                         |
 | Escribir la fecha actual en un campo de fecha                                       | M                         |
 | Abrir búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables                         | Alt+Flecha abajo                |
@@ -200,22 +200,22 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | Activar el modo de personalización de la página                                                                          | Ctrl+Mayús+P                        |
 | Usar la herramienta Seleccionar (cuando se esté en modo de personalización)                                                                     | S                                   |
-| Abrir el cuadro de diálogo de personalización rápida del control seleccionado (cuando se use la herramienta Seleccionar)                              | Espacio o Intro                      |
+| Abrir el cuadro de diálogo de personalización rápida del control seleccionado (cuando se use la herramienta Seleccionar)                              | Espacio o Entrar                      |
 | Usar la herramienta Mover (cuando se esté en modo de personalización)                                                                       | M                                   |
-| Seleccionar el control actual para moverlo (cuando se usa la herramienta Mover y aún no se ha seleccionado ningún control para mover)  | Espacio o Intro                      |
+| Seleccionar el control actual para moverlo (cuando se usa la herramienta Mover y aún no se ha seleccionado ningún control para mover)  | Espacio o Entrar                      |
 | Borrar el control que se ha de mover (al usar la herramienta Mover)                                                                   | Esc                                 |
 | Ir a la siguiente posición del control seleccionado (cuando se utiliza la herramienta Mover)                                          | Tabulador o Flecha derecha o Flecha hacia abajo    |
 | Ir a la posición anterior del control seleccionado (cuando se utiliza la herramienta de movimiento)                                      | Mayús+Tabulador o Flecha izquierda o Flecha hacia arriba |
 | Usar la herramienta Ocultar (cuando se esté en modo de personalización)                                                                       | H                                   |
-| Mostrar u ocultar el control actual (al usar la herramienta Ocultar)                                     | Espacio o Intro                      |
+| Mostrar u ocultar el control actual (al usar la herramienta Ocultar)                                     | Espacio o Entrar                      |
 | Usar la herramienta Omitir (cuando se esté en modo de personalización)                                                                       | mil                                   |
-| Elegir si el control actual debe estar en la secuencia de pestañas (al usar la herramienta Omitir)                                   | Espacio o Intro                      |
+| Elegir si el control actual debe estar en la secuencia de pestañas (al usar la herramienta Omitir)                                   | Espacio o Entrar                      |
 | Usar la herramienta Editar (cuando se esté en modo de personalización)                                                                       | E                                   |
-| Elegir si el control actual debe ser editable o de solo lectura (al usar la herramienta Editar)                                 | Espacio o Intro                      |
+| Elegir si el control actual debe ser editable o de solo lectura (al usar la herramienta Editar)                                 | Espacio o Entrar                      |
 | Usar la herramienta Resumen (cuando se esté en modo de personalización)                                                                    | U                                   |
-| Elegir si el control actual es un campo de resumen en la ficha rápida actual (al usar la herramienta Resumen)            | Espacio o Intro                      |
+| Elegir si el control actual es un campo de resumen en la ficha rápida actual (al usar la herramienta Resumen)            | Espacio o Entrar                      |
 | Usar la herramienta Agregar (cuando se esté en modo de personalización)                                                                        | C                                   |
-| Seleccione el control cuyo contenedor se usará para insertar los nuevos campos (al usar la herramienta Agregar)                     | Espacio o Intro                      |
+| Seleccione el control cuyo contenedor se usará para insertar los nuevos campos (al usar la herramienta Agregar)                     | Espacio o Entrar                      |
 | Importar una personalización (cuando se está en modo de personalización)                                                                | I                                   |
 | Exportar una personalización (cuando se está en modo de personalización)                                                                | X                                   |
 | Borrar las personalizaciones de esta página (cuando se está en modo de personalización)                                                      | Ctrl+C                              |
@@ -255,6 +255,3 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 [Métodos abreviados de teclado para el análisis de cuentas que faltan](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

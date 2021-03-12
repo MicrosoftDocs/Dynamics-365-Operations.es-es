@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1925c23891a637ba9e9666538323274819692a06
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6fe6da2575b7de866de614ad399c8ad5c0110d9a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692927"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798508"
 ---
 # <a name="client-faq"></a>Preguntas frecuentes de clientes
 
@@ -54,6 +54,3 @@ La opción **Ver detalles** solo está disponible de dos formas diferentes:
 
 - Si un control tiene capacidades **Ver detalles**, y si el control tiene un valor, ese valor se muestra como hipervínculo. Puede hacer clic en el hipervínculo para abrir una página que contiene detalles adicionales.
 - **Ver detalles** también es una opción en los menús contextuales. Para obtener más información acerca de cuándo se muestran los menús contextuales al hacer clic con el botón secundario, consulte la sección anterior.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
