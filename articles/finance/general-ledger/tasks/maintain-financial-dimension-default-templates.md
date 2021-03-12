@@ -11,34 +11,33 @@ ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a53eed5127267614ce8fb46622be59f77e68217e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ecc9adac17a6313e88ac568d016daf8d05b8d818
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447533"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968636"
 ---
-# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="30862-103">Mantener plantillas predeterminadas de dimensión financiera</span><span class="sxs-lookup"><span data-stu-id="30862-103">Maintain financial dimension default templates</span></span>
+# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="5aeda-103">Mantener plantillas predeterminadas de dimensión financiera</span><span class="sxs-lookup"><span data-stu-id="5aeda-103">Maintain financial dimension default templates</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="30862-104">Este tema muestra cómo configurar las plantillas predeterminadas de dimensión financiera.</span><span class="sxs-lookup"><span data-stu-id="30862-104">This topic shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="30862-105">Las plantillas se pueden usar para distribuir importes rápidamente en documentos de origen.</span><span class="sxs-lookup"><span data-stu-id="30862-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
+<span data-ttu-id="5aeda-104">Este tema muestra cómo configurar las plantillas predeterminadas de dimensión financiera.</span><span class="sxs-lookup"><span data-stu-id="5aeda-104">This topic shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="5aeda-105">Las plantillas se pueden usar para distribuir importes rápidamente en documentos de origen.</span><span class="sxs-lookup"><span data-stu-id="5aeda-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
 
-1. <span data-ttu-id="30862-106">En el Panel de exploración, vaya a **Módulos > Contabilidad general > Plan contable > Dimensiones > Plantillas predeterminadas de dimensión financiera**.</span><span class="sxs-lookup"><span data-stu-id="30862-106">In the navigation pane, go to **Modules > General ledger > Chart of accounts > Dimensions > Financial dimension default templates**.</span></span>
-2. <span data-ttu-id="30862-107">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="30862-107">Select **New**.</span></span>
-3. <span data-ttu-id="30862-108">En el campo **Id. de plantilla**, especifique un Id. de plantilla.</span><span class="sxs-lookup"><span data-stu-id="30862-108">In the **Template ID** field, enter a Template ID.</span></span>
-4. <span data-ttu-id="30862-109">Escriba el porcentaje para los primeros valores de dimensión.</span><span class="sxs-lookup"><span data-stu-id="30862-109">Enter the percentage for the first dimension values.</span></span>
-5. <span data-ttu-id="30862-110">Especifique los valores de la dimensión financiera que se corresponden con el porcentaje especificado.</span><span class="sxs-lookup"><span data-stu-id="30862-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
-6. <span data-ttu-id="30862-111">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="30862-111">Select **Add**.</span></span>
-7. <span data-ttu-id="30862-112">Escriba otro porcentaje para los próximos valores de dimensión.</span><span class="sxs-lookup"><span data-stu-id="30862-112">Enter another percent for the next dimension values.</span></span> <span data-ttu-id="30862-113">Para este ejemplo, inserte un porcentaje que le permita seguir teniendo menos del 100 % asignado.</span><span class="sxs-lookup"><span data-stu-id="30862-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span> 
-8. <span data-ttu-id="30862-114">Especifique los valores de la dimensión financiera que se corresponden con el porcentaje especificado.</span><span class="sxs-lookup"><span data-stu-id="30862-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
-9. <span data-ttu-id="30862-115">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="30862-115">Select **Add**.</span></span>
-10. <span data-ttu-id="30862-116">Escriba otro porcentaje, que hará que el porcentaje total sea igual al 100 %.</span><span class="sxs-lookup"><span data-stu-id="30862-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
-11. <span data-ttu-id="30862-117">Especifique los valores de la dimensión financiera que se corresponden con el porcentaje especificado.</span><span class="sxs-lookup"><span data-stu-id="30862-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
-12. <span data-ttu-id="30862-118">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="30862-118">Select **Save**.</span></span>
+1. <span data-ttu-id="5aeda-106">En el Panel de exploración, vaya a **Módulos > Contabilidad general > Plan contable > Dimensiones > Plantillas predeterminadas de dimensión financiera**.</span><span class="sxs-lookup"><span data-stu-id="5aeda-106">In the navigation pane, go to **Modules > General ledger > Chart of accounts > Dimensions > Financial dimension default templates**.</span></span>
+2. <span data-ttu-id="5aeda-107">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="5aeda-107">Select **New**.</span></span>
+3. <span data-ttu-id="5aeda-108">En el campo **Id. de plantilla**, especifique un Id. de plantilla.</span><span class="sxs-lookup"><span data-stu-id="5aeda-108">In the **Template ID** field, enter a Template ID.</span></span>
+4. <span data-ttu-id="5aeda-109">Escriba el porcentaje para los primeros valores de dimensión.</span><span class="sxs-lookup"><span data-stu-id="5aeda-109">Enter the percentage for the first dimension values.</span></span>
+5. <span data-ttu-id="5aeda-110">Especifique los valores de la dimensión financiera que se corresponden con el porcentaje especificado.</span><span class="sxs-lookup"><span data-stu-id="5aeda-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
+6. <span data-ttu-id="5aeda-111">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="5aeda-111">Select **Add**.</span></span>
+7. <span data-ttu-id="5aeda-112">Escriba otro porcentaje para los próximos valores de dimensión.</span><span class="sxs-lookup"><span data-stu-id="5aeda-112">Enter another percent for the next dimension values.</span></span> <span data-ttu-id="5aeda-113">Para este ejemplo, inserte un porcentaje que le permita seguir teniendo menos del 100 % asignado.</span><span class="sxs-lookup"><span data-stu-id="5aeda-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span> 
+8. <span data-ttu-id="5aeda-114">Especifique los valores de la dimensión financiera que se corresponden con el porcentaje especificado.</span><span class="sxs-lookup"><span data-stu-id="5aeda-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
+9. <span data-ttu-id="5aeda-115">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="5aeda-115">Select **Add**.</span></span>
+10. <span data-ttu-id="5aeda-116">Escriba otro porcentaje, que hará que el porcentaje total sea igual al 100 %.</span><span class="sxs-lookup"><span data-stu-id="5aeda-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
+11. <span data-ttu-id="5aeda-117">Especifique los valores de la dimensión financiera que se corresponden con el porcentaje especificado.</span><span class="sxs-lookup"><span data-stu-id="5aeda-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
+12. <span data-ttu-id="5aeda-118">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="5aeda-118">Select **Save**.</span></span>
 
