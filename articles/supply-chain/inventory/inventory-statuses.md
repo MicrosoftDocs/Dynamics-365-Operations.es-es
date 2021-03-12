@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eca9d3e4e15d11d2a9a1b531028de230ffc43913
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 0c4cad56389c7a8fd6d37591c1ff335fff715707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594611"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001833"
 ---
 # <a name="inventory-statuses"></a>Estados de inventario
 
@@ -65,6 +64,3 @@ Puede cambiar los estados del inventario utilizando la página **Disponibles por
 > - Sobre la página **Disponibles por ubicación**, puede agrupar líneas según las dimensiones mostradas mediante **Dimensiones de la pantalla** y cambie el estado de las líneas seleccionadas.
 > - Sobre la paǵina **Disponibles por ubicación**, puede seleccionar varios registros y luego usar el botón **Cambio de estado de inventario** para cambiarlos todos a la vez.
 > - En la tarea periódica **Cambio de estado de inventario** podrá filtrar siguiendo las dimensiones.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

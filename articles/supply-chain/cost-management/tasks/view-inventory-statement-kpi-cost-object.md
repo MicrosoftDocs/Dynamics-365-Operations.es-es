@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, CostStatement, CostInventoryFlowChart, CostInventoryTurnCard, CostInventoryAccuracyCard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc60d442b9ed59b0bf882f578c31b8c591f4959a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5801b23906ef89b1681b5dc3742c075ee2e5a964
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436727"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001982"
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Ver el extracto de inventario y KPI por el objeto de coste
 
@@ -39,6 +38,3 @@ La empresa de datos de prueba utilizada para crear este procedimiento es USMF. E
 7. En el campo Fecha inicial, escriba una fecha.
 8. Especifique una fecha en el campo Fecha final.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

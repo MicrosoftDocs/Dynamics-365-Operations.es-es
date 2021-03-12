@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b07cd8af0fd619a71d3fe5188f41d0a0ed954f93
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fd6814163afba0c5b4c99e45a703b00948b73d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437224"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004911"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar una directiva de ubicación para la ubicación de pedidos de compra
 
@@ -86,6 +85,3 @@ Este tema explica cómo configurar una directiva de ubicación simple. El ejempl
 4. En el campo **Criterios**, escriba un valor.
 5. Seleccione **Aceptar**. Puede continuar agregando líneas de directivas y acciones de directivas hasta que haya cubierto todas las situaciones posibles del almacén.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

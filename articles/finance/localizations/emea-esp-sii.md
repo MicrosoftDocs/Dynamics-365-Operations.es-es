@@ -9,17 +9,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 42cdb3c5d4d44764d2129ad747fed20dd7343268
-ms.sourcegitcommit: 0297fd1f594c59a39014a592231ce5999b173848
+ms.openlocfilehash: b0a8776eed79a350a44dcc6da1212269ae5159d1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4659835"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003055"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
@@ -736,6 +735,3 @@ Para mantener la integridad de los datos entre estos elementos de mensajes elect
 | Una línea de informe se agrega durante la función **Generación**.                      | Este será un nuevo elemento de mensaje electrónico. Use el proceso estándar para registrarlo en el sistema SII.                                                                                                                                                                   |
 
 Para mantener la integridad de los datos, líneas en el informe **Cobro en efectivo** el informe no se puede eliminar manualmente.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

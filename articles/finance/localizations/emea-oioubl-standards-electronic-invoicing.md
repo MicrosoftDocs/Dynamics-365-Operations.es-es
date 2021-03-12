@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
 ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3ed98c268af841b1625f547c79f271f3e3a81b74
-ms.sourcegitcommit: 3d16522c00ba2d30aa43befbf1b7b3eaad377325
+ms.openlocfilehash: 5e0bf6af3f255d277d4363b4d6c8c499c7a173f5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4592469"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002832"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Estándares compatibles para la facturación electrónica en Europa
 
@@ -116,6 +115,3 @@ Para obtener más información acerca de cómo configurar facturas electrónicas
 
 > [!NOTE] 
 > Aunque estas guías de la tarea fueron creadas para el formato de factura *OIOUBL* específicamente danés, son aplicables en otros países o regiones compatibles con desviaciones de menor importancia.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

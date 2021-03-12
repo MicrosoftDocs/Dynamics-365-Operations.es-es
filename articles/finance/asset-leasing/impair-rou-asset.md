@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a017cdbcbfa01d4dba383f2b6b7c742e54014e4
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9822a11dbb277726b60ff82843bd26314e968345
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447815"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003265"
 ---
 # <a name="impair-right-of-use-assets"></a>Deteriorar activos por derecho de uso
 
@@ -102,6 +101,3 @@ Las siguientes tablas muestran los valores que se establecen en las pestañas **
 7. Para ver el efecto neto del deterioro, vaya a las tablas de transacciones de activos y pasivos. Observe que el gasto por deterioro ha disminuido el activo por derecho de uso, pero el valor en libros del pasivo por arrendamiento no ha cambiado.
 
 El deterioro tiene otro efecto que debe considerar. Debido a que el monto del activo por derecho de uso es ahora mucho menor que el pasivo por arrendamiento, el importe debe depreciarse de manera diferente a como era antes. Específicamente, el activo ahora se deprecia de manera lineal durante los 84 meses restantes del arrendamiento, comenzando en la fecha de la transacción.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

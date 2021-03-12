@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustInterestJourList
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 59461
 ms.assetid: 25ec29f3-e3ea-4abb-bf6b-f6240873b315
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b5c92d6f3bb0bdc3fbadc9708350b5107e6cf37
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 080b46e69d9959f7a10a291552603f80071a934a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447622"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003240"
 ---
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Condonar, restablecer o revertir cuotas de interés
 
@@ -95,6 +94,3 @@ Puede invertir transacciones de interés mediante el botón **Historia** en el s
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

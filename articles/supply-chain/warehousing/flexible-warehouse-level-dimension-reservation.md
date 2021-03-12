@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437181"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004811"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensión de nivel de almacén flexible
 
@@ -854,6 +853,3 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
     - Órdenes de transferencia y selección de materia prima.
 
 - La regla de consolidación de contenedores para el embalaje por unidad directiva tiene limitaciones. Para las reservas confirmadas por pedido, le recomendamos que no use plantillas de compilación de contenedores donde el campo **Unidad de directiva de empaque** esté habilitado. En el diseño actual, las directivas de ubicación no se utilizan cuando se crea el trabajo de almacén. Por lo tanto, solo la unidad más baja en el grupo de secuencia de unidades (la unidad de inventario) se aplica durante el paso de oleada de contenedorización.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

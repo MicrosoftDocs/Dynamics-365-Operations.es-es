@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: dee5429c31bfc872afedfa76ced89633b4b72c96
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4437306"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005386"
 ---
 # <a name="engineering-change-management-parameters"></a>Parámetros para la gestión de cambios de ingeniería
 
@@ -57,6 +56,3 @@ La siguiente tabla describe los campos que están disponibles en la pesetañ **A
 | Regla de gravedad | Seleccione cómo se debe establecer la gravedad de una orden de cambio de ingeniería. Seleccione *Manual* si se espera que el usuario ingrese un valor en el campo **Gravedad**. Seleccione *Calcular* para que el sistema calcule el valor del campo **Gravedad** cuando selecciona **Calcular la gravedad** en el Panel de acciones de la orden de cambio de ingeniería. En este caso, el sistema utilizará las reglas de gravedad definidas en la página **Conjunto de reglas de gravedad**. Seleccione *Calcular automáticamente* tener el valor del campo **Gravedad** calculado y completado automáticamente de acuerdo con los conjuntos de reglas de gravedad. |
 | Volver a liberar productos afectados | Este campo es aplicable cuando vuelve a lanzar productos a través de una orden de cambio de ingeniería. Puede seleccionar si se deben proponer todos los productos o solo los productos afectados en la caja de diálogo **Lanzamientos**. |
 | Niveles de L. MAT para liberar | La profundidad del nivel de la lista de materiales para liberar. Si la lista de materiales tiene más niveles (es decir, si es más profundo) que el valor que se especifica aquí, solo se liberarán los niveles superiores al valor especificado. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

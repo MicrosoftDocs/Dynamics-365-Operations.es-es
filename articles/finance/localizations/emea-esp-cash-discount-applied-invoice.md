@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261474
 ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36161504836b2b7694c97d75d7cfc3f64aabd524
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9f94315f27b04887f2c52ba2fb0a39fc1ce37851
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407816"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003037"
 ---
 # <a name="cash-discount-is-applied-in-the-invoice-parameter"></a>Parámetro El descuento por pronto pago se aplica a la factura
 
@@ -43,6 +42,3 @@ Normalmente los descuentos por pronto pago se calculan durante el proceso de liq
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

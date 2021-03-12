@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f1aa04b472eaef7ed398f08a05d46bac2d589561
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514359"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001957"
 ---
 # <a name="engineering-change-management-overview"></a>Visión general de la gestión de cambios de ingeniería
 
@@ -59,6 +58,3 @@ A continuación, active la clave de configuración de **Gestión de cambios de i
 1. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**.
 1. Expanda el nodo **Comercio** y seleccione la casilla **Gestión de cambios de ingeniería**.
 1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

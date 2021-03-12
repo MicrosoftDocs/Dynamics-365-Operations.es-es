@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436876"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001808"
 ---
 # <a name="calendars-and-master-planning"></a>Calendarios y planificación maestra
 
@@ -143,6 +142,3 @@ En relación con el calendario del grupo de cobertura, es importante tener en cu
 
 ### <a name="updating-scm-related-calendars"></a>Actualizar calendarios relacionados con SCM
 Aunque es importante que todos los calendarios relevantes se asignen en su lugar respectivo (cliente, proveedor, almacén, modo de entrega, o grupo de cobertura), actualizarlos es importante para que reflejen los cambios. El sistema definirá la producción, la transferencia, la compra, y las fechas de pedido de ventas en función de la combinación de los calendarios asignados. Es una práctica recomendada aclarar quién es responsable de asignar y actualizar los calendarios en sus áreas correspondientes. En caso de un desglose o cualquier otro cambio inesperado en días laborables, es fundamental actualizar los calendarios de acuerdo con él. Todas las tareas que dependen de los calendarios, tales como la planificación maestra y la programación de producción, deben volver a ejecutarse cuando los calendarios se actualizan. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

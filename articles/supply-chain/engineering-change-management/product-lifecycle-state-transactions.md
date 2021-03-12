@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4437305"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005336"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Transacciones y estados del ciclo de vida de producto
 
@@ -76,6 +75,3 @@ Los siguientes campos están disponibles para cada proceso que se enumera en la 
 | Póliza | Seleccione uno de los siguientes valores para controlar si se permitirá el proceso actual para los productos que se encuentran en este estado de ciclo de vida y cómo:<ul><li>**Habilitado** - El proceso empresarial está permitido.</li><li>**Obstruido** - El proceso no está permitido. Si un usuario intenta utilizar el proceso en un producto que se encuentra en este estado de ciclo de vida, el sistema bloqueará el intento y mostrará un error. Por ejemplo, puede bloquear la compra de productos al final de su vida útil.</li><li>**Habilitado con advertencia** - El proceso está permitido, pero se mostrará una advertencia. Por ejemplo, es posible que desee que un producto prototipo se coloque en una orden de producción creada por el departamento de Investigación y Desarrollo. Sin embargo, otros departamentos deben tener en cuenta que aún no deben producir el producto.</li></ul> |
 
 Si está agregando más reglas de estado del ciclo de vida como personalización, puede ver esas reglas en la interfaz de usuario (IU) seleccionando **Actualizar procesos** en el panel superior. El botón **Actualizar procesos** está disponible solo para administradores.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

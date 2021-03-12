@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Latvia, Lithuania, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, Turkey, United Kingdom
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2f0da36e2be20d5ae8c838ed73c6e8aa1c19b621
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e6fa4867df51d39c268446077de27366784e1cd7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407820"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005937"
 ---
 # <a name="tax-directives-for-europe"></a>Directivas fiscales para Europa
 
@@ -33,6 +32,3 @@ La directiva de la UE proporciona la normativa que seguirán todos los estados m
 
 > [!NOTE]
 > Verifique que el campo **Especificación de impuestos de venta** esté establecido en **Divisa de registro** o **Divisa de registro y empresa** en la página **Configuración de formulario** de la pestaña **General** (**Clientes > Configuración > Formularios > Configuración de formulario** o **Gestión y contabilidad de proyectos > Configuración > Formularios > Configuración de formularios**).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

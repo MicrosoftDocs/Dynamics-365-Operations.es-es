@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9de46acd8e568be08518d9bf93067748e0541023
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437169"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004490"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimiento con kanbans de transporte
 
@@ -87,6 +86,3 @@ En el escenario siguiente, la actividad de transferencia de kanban de transporte
 
 Después de consumir un kanban en la ubicación de entrada de producción, el kanban se notifica como vacío y se agrega un nuevo kanban al flujo. Cuando se crea el kanban, una línea de oleada se agrega a una oleada de kanban. Cuando se procesa la oleada de kanban, el trabajo del almacén para el picking de kanban se crea. El trabajador del almacén procesa el trabajo para el picking de kanban y el trabajo lo guía para que seleccione el material del kanban en una ubicación de almacén. Cuando este trabajador del almacén confirma la selección, el kanban se completa automáticamente y el trabajador del almacén es guiado para que coloque el material en la ubicación de entrada de producción.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

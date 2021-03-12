@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437174"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004636"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vencimiento de picking de inventario de directiva de ubicación
 
@@ -120,7 +119,7 @@ La estrategia FIFO busca la ubicación que contiene la fecha de vencimiento más
 1. En la página **Pedido de ventas** del panel de acciones, en la pestaña **Almacén**, seleccione el grupo **Acciones** y **Despachar al almacén**. Recibirá mensajes informativos. El sistema crea un envío, lo agrega a una nueva carga y crea el trabajo requerido.
 1. En la ficha desplegable **Líneas de pedido de ventas**, en el menú **Almacén**, seleccione **Detalles del trabajo** para abrir el trabajo creado para este pedido de ventas. Observe que la línea donde el valor **Tipo de trabajo** es *Seleccionar* muestra un valor **Ubicación** de *FL-002*. Esta ubicación contiene la matrícula que tiene la fecha de vencimiento más antigua (FIFO).
 1. Seleccione **Almacén \> Detalles del envío**.
-1. En la ficha desplegable **General**, tome nota del ID de oleada para que pueda usarlo en el escenario 2.
+1. En la ficha desplegable **_General_*, tome nota del ID de oleada para que pueda usarlo en el escenario 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Escenario 2: configurar y usar el vencimiento de la ubicación LIFO
 
@@ -140,6 +139,3 @@ La estrategia LIFO busca la ubicación que contiene la fecha de vencimiento más
 1. Observe que la línea donde el valor **Tipo de trabajo** es *Seleccionar* muestra un valor **Ubicación** de *FL-001*. Esta ubicación contiene la matrícula que tiene la fecha de vencimiento más actual (LIFO).
 
 En estos escenarios, puede observar cómo la estrategia de vencimiento de la ubicación dirige el trabajo a la ubicación del inventario que tiene el inventario más antiguo o el más nuevo, según la estrategia seleccionada.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

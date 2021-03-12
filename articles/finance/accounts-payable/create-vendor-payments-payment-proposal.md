@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b047a1abaa6b19096740f589281c837643d796b9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447582"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003537"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creación de pagos de proveedor mediante una propuesta de pago
 
@@ -69,14 +68,14 @@ El 1 de julio, April paga a los proveedores. Usa una propuesta de pago para comp
 
 ### <a name="option-1-by-cash-discount"></a>Opción 1: con descuento por pronto pago
 
-April selecciona  **Descuento por pronto pago** como tipo de propuesta. Especifica un intervalo de fechas del 26 de junio al 10 de julio. Las facturas siguientes se incluyen en la propuesta:
+April selecciona **Descuento por pronto pago** como tipo de propuesta. Especifica un intervalo de fechas del 26 de junio al 10 de julio. Las facturas siguientes se incluyen en la propuesta:
 
 -   1002, porque la fecha de descuento de 4 de julio está en el intervalo de fechas de pago.
 -   1004, porque la fecha de descuento de 1 de julio está en el intervalo de fechas de pago.
 
 Las siguientes facturas no se incluyen en la propuesta:
 
--   1001, porque ya ha vencido la fecha de descuento del 29 de junio, por lo que esta factura dejará de ser apta para un descuento por pronto pago.
+-   1001, porque ya ha vencido la fecha de descuento del 29 de junio, con lo que esta factura dejará de ser apta para descuento por pronto pago.
 -   1003, porque esta factura no tiene fecha de descuento.
 
 ### <a name="option-2-by-due-date"></a>Opción 2: Por fecha de vencimiento
@@ -108,21 +107,18 @@ Las siguientes facturas no se incluyen en la propuesta:
 
 #### <a name="dimension-control"></a>Control de dimensión
 
-El control de dimensión permite controlar la agrupación de líneas generadas por la propuesta de pago y establecer las dimensiones predeterminadas en función de las dimensiones financieras utilizadas para las facturas aplicadas. En el contexto noruego, para cada forma de pago hay una ficha de la dimensión financiera donde puede activar el control de dimensión así como habilitar la agrupación para cada dimensión. Las posibles opciones son:
+El control de dimensión permite controlar la agrupación de líneas generadas por la propuesta de pago y establecer las dimensiones predeterminadas en función de las dimensiones financieras utilizadas para las facturas aplicadas. En el contexto noruego, para cada forma de pago hay una ficha de dimensión financiera donde puede activar el control de dimensión, así como habilitar la agrupación para cada dimensión. Las posibles opciones son:
 
 -   El campo de **Control de dimensión** está deshabilitado. La propuesta de pago se comporta como para otro país cualquiera.
 -   El campo de **Control de dimensión** se activa sin definir más las dimensiones. La propuesta de pago se creará sin tener en cuenta las dimensiones. La transacción creada no hereda ninguna dimensión de la entrada aplicada.
--   El campo de **Control de dimensión** se activa y se habilitan más dimensiones. Ahora puede definir cómo se copiarán las dimensiones en el diario. Por ejemplo: • Active la casilla de verificación de **BusinessUnit** para crear una propuesta de pago por unidad de negocio para el método de pago, • Active la casilla de verificación de **CostCenter** para crear una propuesta de pago por centro de coste para el método de pago.
+-   El campo **Control de dimensión** se activa y se habilitan más dimensiones. Ahora puede definir cómo se copiarán las dimensiones en el diario. Por ejemplo: • Active la casilla de verificación de **BusinessUnit** para crear una propuesta de pago por unidad de negocio para el método de pago, • Active la casilla de verificación de **CostCenter** para crear una propuesta de pago por centro de coste para el método de pago.
 
 > [[!NOTE]
 > Si selecciona más de una dimensión, en la tercera opción se creará una propuesta de pago para la combinación de dimensiones.
 
 #### <a name="bank-account-selection"></a>Selección de cuenta bancaria
 
-Puede definir una cuenta estándar de pago a débito por método de pago independientemente del contexto del país. Esto se definirá en las líneas de pago generadas por una propuesta. Con la función de la cuenta bancaria, puede definir varias cuentas bancarias de débito gestionadas por la dimensión y la divisa o una combinación de las anteriores para usar cuentas bancarias de débito diferentes, en función de cada combinación. Puede configurar estas combinaciones en la página de **Métodos de pago** mediante el botón  **Cuentas bancarias** disponible para cada forma de pago con **Tipo de cuenta de registro** = **Banco**.
+Puede definir una cuenta estándar de pago a débito por método de pago independientemente del contexto del país. Esto se definirá en las líneas de pago generadas por una propuesta. Con la característica de cuenta bancaria, puede definir varias cuentas bancarias de débito gestionadas por la dimensión y la divisa, o una combinación de las anteriores para usar cuentas bancarias de débito diferentes, en función de cada combinación. Puede configurar estas combinaciones en la página **Métodos de pago** mediante el botón **Cuentas bancarias**, disponible para cada forma de pago con **Tipo de cuenta de registro** = **Banco**.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

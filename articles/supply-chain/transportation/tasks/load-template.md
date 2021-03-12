@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1ea7f5244b483a1b9d6c55227c676a3878a71d83
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 0a4070a1dd5d53bb502ba2ab0c91dbdc90ded34d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646432"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005061"
 ---
 # <a name="load-templates"></a>Cargar plantillas
 
@@ -54,6 +53,3 @@ Este tema describe cómo configurar plantillas de carga y cómo asociar una plan
 1. En el panel de acciones, en la ficha **Suministro y demanda**, en el grupo **Agregar**, seleccione **A una carga nueva**.
 1. En el cuadro de diálogo **Cargar plantilla**, en el campo **Cargar Id. de plantilla**, seleccione la plantilla para aplicar.
 1. Seleccione **Aceptar** para aplicar la plantilla.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

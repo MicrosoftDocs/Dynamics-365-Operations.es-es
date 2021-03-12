@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: af4321cd9d6e15c82c4eef1f1ca218b8301ebf35
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4415688"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003662"
 ---
 # <a name="store-configurations-for-retail-statements"></a>Almacenar configuraciones para los extractos de Retail
 
@@ -49,6 +48,3 @@ Este procedimiento muestra las configuraciones para la tienda que afectan a la m
 17. Seleccione "Sí" en **Dividir por método de extracto** para que se creen extractos para cada método de extracto definido. Esta acción puede resultar útil si el rendimiento del registro se debe mejorar para almacenes con volúmenes altos de transacción puesto que creará muchos extractos más pequeños que se pueden procesar en paralelo.  
 18. En la ficha desplegable **General**, en el campo **Cliente predeterminado**, puede seleccionar la cuenta de cliente que se usará para ventas a los clientes que entran.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

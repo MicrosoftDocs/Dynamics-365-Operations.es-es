@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6edabc51981d8935672b44e53b453cfbaca9031b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437178"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004661"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidación de artículos: utilización de ubicación
 
@@ -208,6 +207,3 @@ El siguiente escenario usa la aplicación de almacén en un dispositivo móvil p
 
     > [!NOTE]
    > El sistema crea un Id. de trabajo para cada movimiento que debe completarse. Si especifica una ubicación que ya contiene inventario, solo se crea un Id. de trabajo. Si especifica una nueva ubicación, se crean dos Id. de trabajo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

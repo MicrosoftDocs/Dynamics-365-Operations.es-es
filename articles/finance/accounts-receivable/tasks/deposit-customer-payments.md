@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustPaym, CustTableLookup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1d903f557fbaeb720dd4a34dc1c772be0dcb56eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9221101581a6a130889b7c941ca228070a000c56
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447598"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003165"
 ---
 # <a name="deposit-customer-payments"></a>Depositar pagos de cliente
 
@@ -48,6 +47,3 @@ Pagos de cliente en depósito. Esta tarea usa la empresa de demostración USMF.
 17. Seleccione **Aceptar**. La primera página que se usa para crear el resguardo de depósito.  
 18. Seleccione **Aceptar**. El segundo paso es imprimir el resguardo de depósito, si bien este paso no es obligatorio.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
