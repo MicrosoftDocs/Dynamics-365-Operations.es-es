@@ -17,36 +17,36 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 41a478e436ef3c94046be1579e8840cc39fb2ed4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 132d1be340d2b9966b45fc30cd6409cfcdf7c805
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694272"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797144"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="02834-103">Página principal de Novedades y cambios en aplicaciones de Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="02834-103">What's new or changed in Finance and Operations apps home page</span></span>
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="9fe7f-103">Página principal de Novedades y cambios en aplicaciones de Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="9fe7f-103">What's new or changed in Finance and Operations apps home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="application-releases"></a><span data-ttu-id="02834-104">Liberaciones de aplicación</span><span class="sxs-lookup"><span data-stu-id="02834-104">Application releases</span></span>
+## <a name="application-releases"></a><span data-ttu-id="9fe7f-104">Liberaciones de aplicación</span><span class="sxs-lookup"><span data-stu-id="9fe7f-104">Application releases</span></span>
 
-<span data-ttu-id="02834-105">Para ver las novedades o los cambios de cada versión de una aplicación de Finance and Operations, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="02834-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
+<span data-ttu-id="9fe7f-105">Para ver las novedades o los cambios de cada versión de una aplicación de Finance and Operations, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="9fe7f-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
 
-- <span data-ttu-id="02834-106">**Finance**: [Novedades y cambios en Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="02834-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="02834-107">**Supply Chain Management**: [Novedades y cambios en Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="02834-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="02834-108">**Commerce**: [Novedades y cambios en Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="02834-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
-- <span data-ttu-id="02834-109">**Human Resources:** [Novedades y cambios en Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="02834-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
+- <span data-ttu-id="9fe7f-106">**Finance**: [Novedades y cambios en Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="9fe7f-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="9fe7f-107">**Supply Chain Management**: [Novedades y cambios en Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="9fe7f-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="9fe7f-108">**Commerce**: [Novedades y cambios en Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="9fe7f-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
+- <span data-ttu-id="9fe7f-109">**Human Resources:** [Novedades y cambios en Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="9fe7f-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
 
-## <a name="platform-updates"></a><span data-ttu-id="02834-110">Platform updates</span><span class="sxs-lookup"><span data-stu-id="02834-110">Platform updates</span></span>
+## <a name="platform-updates"></a><span data-ttu-id="9fe7f-110">Platform updates</span><span class="sxs-lookup"><span data-stu-id="9fe7f-110">Platform updates</span></span>
 
-<span data-ttu-id="02834-111">Para ver las novedades o los cambios en las Platform updates para las aplicaciones de Finance and Operations, consulte el siguiente tema:</span><span class="sxs-lookup"><span data-stu-id="02834-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
+<span data-ttu-id="9fe7f-111">Para ver las novedades o los cambios en las Platform updates para las aplicaciones de Finance and Operations, consulte el siguiente tema:</span><span class="sxs-lookup"><span data-stu-id="9fe7f-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
 
-- [<span data-ttu-id="02834-112">Novedades y cambios en Platform updates</span><span class="sxs-lookup"><span data-stu-id="02834-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
+- [<span data-ttu-id="9fe7f-112">Novedades y cambios en Platform updates</span><span class="sxs-lookup"><span data-stu-id="9fe7f-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
 
-## <a name="lifecycle-services-releases"></a><span data-ttu-id="02834-113">Versiones de Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="02834-113">Lifecycle Services releases</span></span>
-<span data-ttu-id="02834-114">Para ver las novedades o los cambios de cada versión de una aplicación de Lifecycle Services, consulte el siguiente tema:</span><span class="sxs-lookup"><span data-stu-id="02834-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
+## <a name="lifecycle-services-releases"></a><span data-ttu-id="9fe7f-113">Versiones de Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="9fe7f-113">Lifecycle Services releases</span></span>
+<span data-ttu-id="9fe7f-114">Para ver las novedades o los cambios de cada versión de una aplicación de Lifecycle Services, consulte el siguiente tema:</span><span class="sxs-lookup"><span data-stu-id="9fe7f-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
 
-- [<span data-ttu-id="02834-115">Novedades y cambios en Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="02834-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
+- [<span data-ttu-id="9fe7f-115">Novedades y cambios en Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="9fe7f-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
