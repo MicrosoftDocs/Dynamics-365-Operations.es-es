@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 2263b3643becedd68911e2325c60ed4d97d6e823
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: de0917f6734d81248f8aa588bd0c5dec7d056219
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4437325"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006425"
 ---
 # <a name="usmca-certification-of-origin"></a>Certificación de origen USMCA
 
@@ -140,6 +139,3 @@ El usuario que firma la certificación debe ingresar manualmente el número de p
 ### <a name="page-numbers"></a>Números de página
 
 Página actual y número de páginas impresas en la parte inferior del documento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

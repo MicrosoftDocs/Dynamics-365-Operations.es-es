@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: 326e9a32cdab049d974b6d88742434fbc8d56817
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654229"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006450"
 ---
 # <a name="shipment-consolidation-policies"></a>Directivas de consolidación de envíos
 
@@ -112,7 +111,7 @@ Los campos de lista de consolidación (es decir, campos que se borrarán si tien
 ### <a name="shipment-consolidation-workbench-page"></a>Página Área de trabajo de consolidación de envíos
 
 - La nueva funcionalidad reproduce el proceso de consolidación manual a mayor escala.
-- Ahora puede abrir esta página desde el menú **Despachar al almacén** del módulo **Gestion de almacén**.
+- Ahora puede abrir esta página desde el menú **Despachar al almacén** del módulo **Gestión de almacén**.
 - El algoritmo analiza los envíos existentes que aún no se han enviado. Luego propone la consolidación, basada en los campos que se seleccionan en las directivas de consolidación.
 
 ## <a name="comparison-of-functionality"></a>Comparación de funcionalidad
@@ -135,6 +134,3 @@ La siguiente tabla resume cómo funciona la consolidación de envíos cuando no 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

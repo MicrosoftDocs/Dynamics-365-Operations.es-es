@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d513e6898827de9a3fb1ed59006b817fb9006019
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 115463c57b28e681d4c6bdc227e35272861779aa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436569"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006925"
 ---
 # <a name="create-a-production-flow-version"></a>Crear una versión de flujo de producción
 
@@ -64,6 +63,3 @@ Este procedimiento se centra en crear una nueva versión de flujo de producción
     * Escriba un número de días en el período para tiempo de ciclo real. El período para el tiempo de ciclo real es el número de días que los trabajos se agregan a partir del minuto real y hacia atrás, para calcular el tiempo de ciclo real. El valor se puede cambiar en cualquier momento y solo se usa para calcular los tiempos de ciclo reales.  
 13. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0a5ca1e116e931ba992eab51a06dae9fdf92756
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415596"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006144"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Grabador de tareas y ayuda para Retail Modern POS (MPOS) y Cloud POS
 
@@ -34,7 +33,7 @@ Este tema describe cómo utilizar el Grabador de tareas en Retail Modern POS y C
 
 ## <a name="overview"></a>Información general
 
-El Grabador de tareas en Retail Modern POS o Cloud POS en la nube de venta minorista es una nueva solución centrada en la alta capacidad de respuesta. Ofrece una interfaz de programación de aplicaciones (API) flexible para la extensibilidad y la integración sin problemas con los consumidores de grabaciones de procesos empresariales. Además, se ha presentado la integración del Grabador de tareas con la herramienta del Modelador de procesos empresariales (BPM) de Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Por lo tanto, los usuarios pueden seguir generando diagramas de procesos empresariales enriquecidos a partir de grabaciones para analizar y diseñar sus aplicaciones.
+El Grabador de tareas de Retail Modern POS Retail Modern POS o Cloud POS es una nueva solución centrada en la alta capacidad de respuesta. Ofrece una interfaz de programación de aplicaciones (API) flexible para la extensibilidad y la integración sin problemas con los consumidores de grabaciones de procesos empresariales. Además, se ha presentado la integración del Grabador de tareas con la herramienta del Modelador de procesos empresariales (BPM) de Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Por lo tanto, los usuarios pueden seguir generando diagramas de procesos empresariales enriquecidos a partir de grabaciones para analizar y diseñar sus aplicaciones.
 
 ## <a name="architecture"></a>Arquitectura
 
@@ -146,6 +145,3 @@ Al hacer clic en una Guía de tareas en los resultados de la búsqueda verá los
 
 > [!NOTE]
 > La Ayuda en Retail Modern POS y Cloud POS no mostrará las guías de tareas según el formulario en el que se encuentre o la operación que esté haciendo. Tiene que escribir el nombre del proceso en el cuadro de búsqueda y después hacer click en **Buscar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
