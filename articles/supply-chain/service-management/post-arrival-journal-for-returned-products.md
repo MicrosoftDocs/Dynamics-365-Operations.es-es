@@ -11,49 +11,48 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e07542a369506b810704012bd1b07557b79f50d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 184ce418ff2ec4b891a24b2b75d37b6b4f5d23f3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437029"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006650"
 ---
-# <a name="post-arrival-journal-for-returned-products"></a><span data-ttu-id="ff88a-103">Registrar diario de llegadas para productos devueltos</span><span class="sxs-lookup"><span data-stu-id="ff88a-103">Post arrival journal for returned products</span></span> 
+# <a name="post-arrival-journal-for-returned-products"></a><span data-ttu-id="4cdfd-103">Registrar diario de llegadas para productos devueltos</span><span class="sxs-lookup"><span data-stu-id="4cdfd-103">Post arrival journal for returned products</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="ff88a-104">Para procesar una devolución, primero valide la cantidad de devolución y actualice el campo de cantidad en el diario de recepción de artículos.</span><span class="sxs-lookup"><span data-stu-id="ff88a-104">To process a return, first validate the return quantity, update the quantity field in the item arrival journal.</span></span> <span data-ttu-id="ff88a-105">A continuación, seleccione un código de disposición o indique que los artículos devueltos tienen que inspeccionarse.</span><span class="sxs-lookup"><span data-stu-id="ff88a-105">Then select a disposition code or indicate that the returned items have to be inspected.</span></span> <span data-ttu-id="ff88a-106">Cuando haya completado estos pasos, puede registrar el diario de llegadas de artículos del pedido de devolución.</span><span class="sxs-lookup"><span data-stu-id="ff88a-106">After completing these steps, you can post the item arrival journal for the return order.</span></span>
+<span data-ttu-id="4cdfd-104">Para procesar una devolución, primero valide la cantidad de devolución y actualice el campo de cantidad en el diario de recepción de artículos.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-104">To process a return, first validate the return quantity, update the quantity field in the item arrival journal.</span></span> <span data-ttu-id="4cdfd-105">A continuación, seleccione un código de disposición o indique que los artículos devueltos tienen que inspeccionarse.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-105">Then select a disposition code or indicate that the returned items have to be inspected.</span></span> <span data-ttu-id="4cdfd-106">Cuando haya completado estos pasos, puede registrar el diario de llegadas de artículos del pedido de devolución.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-106">After completing these steps, you can post the item arrival journal for the return order.</span></span>
 
-1.  <span data-ttu-id="ff88a-107">Haga clic en **Gestión del inventario** \> **Periódico** \> **Visión general de llegadas**.</span><span class="sxs-lookup"><span data-stu-id="ff88a-107">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
+1.  <span data-ttu-id="4cdfd-107">Haga clic en **Gestión del inventario** \> **Periódico** \> **Visión general de llegadas**.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-107">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
 
-2.  <span data-ttu-id="ff88a-108">En el filtro **Configurar nombre** , seleccione **Pedido de devolución**.</span><span class="sxs-lookup"><span data-stu-id="ff88a-108">In the **Setup name** filter, select **Return order**.</span></span>
+2.  <span data-ttu-id="4cdfd-108">En el filtro **Configurar nombre** , seleccione **Pedido de devolución**.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-108">In the **Setup name** filter, select **Return order**.</span></span>
 
-3.  <span data-ttu-id="ff88a-109">Si la lista de recepciones es larga, utilice los campos del área **Intervalo** para limitar la lista.</span><span class="sxs-lookup"><span data-stu-id="ff88a-109">If the list of receipts is long, use the fields in the **Range** area to narrow the list.</span></span>
+3.  <span data-ttu-id="4cdfd-109">Si la lista de recepciones es larga, utilice los campos del área **Intervalo** para limitar la lista.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-109">If the list of receipts is long, use the fields in the **Range** area to narrow the list.</span></span>
 
-4.  <span data-ttu-id="ff88a-110">Localice la línea del pedido de devolución que desea registrar, seleccione el cuadro **Seleccionar para llegada** y, a continuación, haga clic en **Iniciar llegada**.</span><span class="sxs-lookup"><span data-stu-id="ff88a-110">Locate the line of the return order that you want to post, select its **Select for arrival** box, and then click **Start arrival**.</span></span>
+4.  <span data-ttu-id="4cdfd-110">Localice la línea del pedido de devolución que desea registrar, seleccione el cuadro **Seleccionar para llegada** y, a continuación, haga clic en **Iniciar llegada**.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-110">Locate the line of the return order that you want to post, select its **Select for arrival** box, and then click **Start arrival**.</span></span>
 
-5.  <span data-ttu-id="ff88a-111">Haga clic en **Diarios** \> **Mostrar llegadas a partir de recepciones** para abrir el formulario **Diario de ubicaciones**.</span><span class="sxs-lookup"><span data-stu-id="ff88a-111">Click **Journals** \> **Show arrivals from receipts** to open the **Location journal** form.</span></span>
+5.  <span data-ttu-id="4cdfd-111">Haga clic en **Diarios** \> **Mostrar llegadas a partir de recepciones** para abrir el formulario **Diario de ubicaciones**.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-111">Click **Journals** \> **Show arrivals from receipts** to open the **Location journal** form.</span></span>
     
 
     > [!TIP]
-    > <P><span data-ttu-id="ff88a-112">Para ver información detallada, seleccione un diario y, a continuación, haga clic en <STRONG>Líneas</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="ff88a-112">To view detailed information, select a journal, and then click <STRONG>Lines</STRONG>.</span></span></P>
+    > <P><span data-ttu-id="4cdfd-112">Para ver información detallada, seleccione un diario y, a continuación, haga clic en <STRONG>Líneas</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-112">To view detailed information, select a journal, and then click <STRONG>Lines</STRONG>.</span></span></P>
 
 
-6.  <span data-ttu-id="ff88a-113">Realice las actualizaciones necesarias y haga clic en **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="ff88a-113">Make any necessary updates, and then click **Post**.</span></span>
+6.  <span data-ttu-id="4cdfd-113">Realice las actualizaciones necesarias y haga clic en **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-113">Make any necessary updates, and then click **Post**.</span></span>
 
-<span data-ttu-id="ff88a-114">Una vez registrado el diario, se registran los artículos devueltos en el inventario y el formulario **Pedidos de devolución** indica que los artículos han llegado al almacén.</span><span class="sxs-lookup"><span data-stu-id="ff88a-114">After the journal is posted, the returned items are registered in inventory, and the **Return orders** form indicates that the items have arrived at the warehouse.</span></span>
+<span data-ttu-id="4cdfd-114">Una vez registrado el diario, se registran los artículos devueltos en el inventario y el formulario **Pedidos de devolución** indica que los artículos han llegado al almacén.</span><span class="sxs-lookup"><span data-stu-id="4cdfd-114">After the journal is posted, the returned items are registered in inventory, and the **Return orders** form indicates that the items have arrived at the warehouse.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ff88a-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="ff88a-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4cdfd-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="4cdfd-115">See also</span></span>
 
-<span data-ttu-id="ff88a-116">[Diario de ubicaciones (formulario)](https://technet.microsoft.com/library/aa584822\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="ff88a-116">[Location journal (form)](https://technet.microsoft.com/library/aa584822\(v=ax.60\))</span></span>
+<span data-ttu-id="4cdfd-116">[Diario de ubicaciones (formulario)](https://technet.microsoft.com/library/aa584822\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="4cdfd-116">[Location journal (form)](https://technet.microsoft.com/library/aa584822\(v=ax.60\))</span></span>
 
   
 
