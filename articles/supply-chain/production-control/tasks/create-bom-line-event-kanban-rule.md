@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdTable, ProdBOM, ProdParmCostEstimation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 698b7af3bc8e2146aaf86fb5e04dd123ea6d5153
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcef749139635b2d8858a85154ff7619c16857d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436577"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998762"
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a>Crear una regla kanban de eventos de línea de L. MAT.
 
@@ -83,6 +82,3 @@ Esta tarea se centra en la configuración necesaria para crear una regla kanban 
     * Observe el kanban creado para suministrar M0001 para el pedido de producción estimado.  
     * Este es el último paso.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

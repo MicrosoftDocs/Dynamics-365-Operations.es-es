@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fb1f9e017de71d01fbf7a05b579d68b702aa7c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437266"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001508"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Reserva del mismo lote para un pedido de ventas
 
@@ -45,6 +44,3 @@ Al reservar inventario para un producto en una línea de pedido de ventas config
 - El lote no tiene suficientes días de vida útil restantes según la fecha de caducidad/consumo preferente y los días para ventas al cliente.
 
 Para los elementos asociados con un grupo de dimensiones de almacenamiento que tiene **Utilizar procesos de gestión de almacenes** habilitado, puede reservar números de lote específicos utilizando una jerarquía de reserva con la dimensión de inventario de número de lote definida arriba de la dimensión de ubicación. La página **Reserva de lotes** de ventas y líneas de pedido de transferencia también le permite seleccionar y reservar varias líneas en función de los números de lote disponibles. Para obtener más información sobre qué hacer si está utilizando una jerarquía de reservas que tiene la dimensión del número de lote debajo de la ubicación, vea [Política de reserva de dimensión de nivel de almacén flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f75e9421ab9cac0b62e1cdee17ecf74796783cc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436651"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001233"
 ---
 # <a name="shipment-auto-updates"></a>Actualizaciones automáticas de envíos
 
@@ -140,6 +139,3 @@ La oleada se procesa y crea el trabajo para las cantidades reservadas en las lí
 Si un envío tiene el estado **Oleada** o mayor, las actualizaciones a la cantidad en una línea de pedido de ventas no se reflejan ni se validan con una línea de carga que esté asociada al envío. Los cambios en la cantidad en una línea de carga se deben realizar directamente en la línea de carga.
 
 La validación se hace después de crear el trabajo para la línea de carga y de realizar una reserva. Una reducción de la cantidad en la línea de pedido de ventas se valida con la reserva de línea del trabajo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

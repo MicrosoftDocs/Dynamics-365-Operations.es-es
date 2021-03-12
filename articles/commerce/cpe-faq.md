@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6b8d7d7364087dacf3b4479ab008609ecffeaacb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415433"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000984"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Preguntas frecuentes sobre entorno de evaluación de Dynamics 365 Commerce
 
@@ -40,7 +39,7 @@ No (mayormente). Los componentes de evaluación de Commerce están disponibles s
 
 **¿Qué costos están involucrados en la implementación del entorno de evaluación de Commerce en Microsoft Azure vía Microsoft Dynamics Lifecycle Services (LCS)?**
 
-Se alojará en su suscripción de Azure un entorno de demostración de sedes centrales de Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce (máquina virtual \[VM\]). Puede usar la [Calculadora de precios de Azure ](https://azure.microsoft.com/pricing/calculator/) para estimar este coste.
+Se alojará en su suscripción de Azure un entorno de demostración de sedes centrales de Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce (máquina virtual \[VM\]). Puede usar la [Calculadora de precios de Azure](https://azure.microsoft.com/pricing/calculator/) para estimar este coste.
 
 Otros componentes como Commerce Scale Unit, el generador de sitios de Commerce y su sitio de comercio electrónico estarán disponibles como software como servicio (SaaS) y estarán alojados por Microsoft.
 
@@ -71,6 +70,3 @@ La extensión del límite de tiempo es una excepción a la norma y se considera 
 [Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce](cpe-bopis.md)
 
 [Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce](cpe-optional-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

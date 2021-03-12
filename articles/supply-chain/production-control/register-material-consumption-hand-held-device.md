@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1706093
 ms.assetid: 75ee68e0-4b9f-4f4d-b286-f498e0eb73fa
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 40779d1f8bc14072928767ae1c83fdda47476871
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437134"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998887"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrar el material de consumo mediante un dispositivo móvil
 
@@ -40,7 +39,7 @@ Este flujo de trabajo es relevante si hay un requisito estricto para la trazabil
 
 Un proceso continuo de producción (5) consume la materia prima RM-100 controlada por lotes. El material está disponible en la ubicación Bulk-001 (1), en la matrícula PL -1 con dos lotes, B1 y B2, ambos con una cantidad de 100 lbs. El trabajo de almacén (2) se libera y se procesa para RM-100, y se recoge el material de Bulk-001 a la ubicación de entrada de producción PIL-01 (3), que se define como sin control de matrículas. El operador de maquinaria pesa el material de la ubicación de entrada de producción (3) y registra el peso y el número de lote como consumido (4). Desde la ubicación de entrada de producción, se agrega una parte del material manualmente al proceso de producción a intervalos de tiempo definidos. Cuando el operador de maquinaria agrega el material, se pesa en una báscula y se registra el número de lote.
 
-## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>Configuración del flujo de trabajo para registrar el consumo mediante un dispositivo de mano
+## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Configuración del flujo de trabajo para registrar el consumo mediante un dispositivo de mano
 Cree un producto de bien terminado, FG-100, con una lista de materiales con la materia prima controlada por lotes RM-100. Agregue dos lotes, B1 y B2, de RM-100 en una cantidad de 100 a la ubicación: Bulk-001 en la matrícula: PL-1. El principio de vaciado de la línea de lista de materiales para RM-100 se establece en **Manual**. Configure la ubicación de entrada de producción como PIL-01. Puede hacerlo seleccionando esta ubicación como ubicación de entrada de producción predeterminada en el almacén 51.
 
 1.  Cree un nuevo elemento de menú del dispositivo móvil: 
@@ -68,7 +67,7 @@ Esto traerá el material de la ubicación de almacenaje a la ubicación de entra
 
 Una vez iniciado el pedido de producción, puede registrar el consumo de materiales mediante el flujo de trabajo del dispositivo de mano. Comencemos por registrar el consumo de 25 libras del lote B1.
 
-6.  Seleccione el elemento de menú **Registrar el**  **consumo de material** en el menú del dispositivo de mano, especifique los detalles siguientes: 
+6.  Seleccione el elemento de menú **Registrar el** **consumo de material** en el menú del dispositivo de mano, especifique los detalles siguientes: 
 
 -    El número de pedido de producción. 
 -    La ubicación en la que el material se va a consumir, en este caso PIL-01. 
@@ -92,6 +91,3 @@ Una vez que haya terminado su registro, seleccione **Hecho** para registrar el d
 -   El material puede sobreconsumirse. Por ejemplo, si se estima que el material se consumirá con la cantidad de 100 libras, después puede sobreconsumirse con una cantidad de, por ejemplo, 105 lbs.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

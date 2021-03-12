@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437214"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001186"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -210,6 +209,3 @@ Además de las restricciones que se aplican actualmente para los productos de pe
 
 > [!NOTE]
 > La información anterior sobre las etiquetas de peso capturado solo es válida si el producto de peso capturado tiene un método de seguimiento de dimensión de etiqueta de peso capturado para hacer un seguimiento completo (es decir, si el parámetro **Método de seguimiento de dimensión de etiqueta de peso capturado** de la directiva de manipulación de artículos de peso capturado se establece en **Dimensiones del producto, dimensiones de seguimiento y todas las dimensiones de almacenamiento**). Si solo se realiza un seguimiento parcial de las etiquetas del elemento de peso capturado (es decir, si el parámetro **Método de seguimiento de dimensión de etiqueta de peso capturado** de la directiva de manipulación de artículos de peso capturado se establece en **Dimensiones del producto, dimensiones de seguimiento y estado del inventario**), se aplican restricciones adicionales. Debido a que, en este caso, se pierde visibilidad entre la etiqueta y el inventario, no se admiten algunos escenarios adicionales.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

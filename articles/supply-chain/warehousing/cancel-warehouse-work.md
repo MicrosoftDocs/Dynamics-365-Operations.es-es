@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: ae4062401cd5be2371c45642b78bf3708b04f664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437215"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001207"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Cancelar trabajo de almacén para control de excepciones
 
@@ -45,6 +44,3 @@ Solo se puede cancelar el trabajo del tipo **Ventas**, **Emisión de transferenc
 Para desbloquear el trabajo, el sistema cancela cualquier línea de trabajo restante y corrige los datos de almacén que se asocian al id. de trabajo que especificó el usuario. A continuación, se puede reanudar cualquier operación habitual de manipulación en el almacén que implique la cantidad de artículos afectada.
 
 Para poner el artículo afectado en una ubicación concreta después de que se cancele el trabajo, el usuario debe usar una operación de movimiento de inventario o de ajuste de cantidad en un dispositivo móvil.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

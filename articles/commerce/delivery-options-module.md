@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f9e8df576efd1e58fde235828823f31e87ed58bf
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 9d8945348cbe3255ecc497f129d125ad11e9ceab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4415701"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000858"
 ---
 # <a name="delivery-options-module"></a>Módulo de opciones de entrega
 
@@ -83,6 +82,3 @@ Un módulo de opciones de entrega solo se puede agregar a un módulo de finaliza
 [Prorratear los cargos de encabezado para que coincidan con las líneas de ventas](pro-rate-charges-matching-lines.md)
 
 [Configurar modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

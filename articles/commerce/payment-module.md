@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 27b73f7a05605e4e3ee8f8b72400172b7a8bfc33
-ms.sourcegitcommit: ec78608eb96478b7a57928b60aece129d6799c5b
+ms.openlocfilehash: 85b5d8306eb4e9f2a4b9df13d95ab88020c3591e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "4581921"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000674"
 ---
 # <a name="payment-module"></a>Módulo de pago
 
@@ -118,6 +117,3 @@ Si se necesitan conectores de pago de Adyen y PayPal, agregue ambos módulos a l
 [Dynamics 365 Payment Connector para PayPal](paypal.md)
 
 [Autenticación segura de clientes mediante Adyen](adyen_redirect.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

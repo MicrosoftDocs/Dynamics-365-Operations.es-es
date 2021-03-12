@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea7311ce34fec476ad9953e954a07a86acd13afc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 553e350ba5ffa12672a839baec5698d198bd8457
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437125"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000218"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar cantidades de inventario
 
@@ -83,6 +82,3 @@ Existen dos opciones relacionadas con las reservas de la página de **Parámetro
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Directivas de la reserva de inventario en la página de los Parámetros de producción
 
 El valor del campo **Reserva** de la pestaña **General** en la página de **Parámetros de producción** determina el punto predeterminado en el proceso de producción en el que se debe reservar el inventario. Por ejemplo, el inventario puede reservarse cuando se programa el trabajo o cuando el trabajo se ha iniciado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

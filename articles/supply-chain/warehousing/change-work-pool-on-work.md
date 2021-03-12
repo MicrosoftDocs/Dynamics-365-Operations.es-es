@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66d110c3235e8a87b64bf160bdad8524fad6abe5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436891"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001158"
 ---
 # <a name="change-work-pool-on-work"></a>Cambiar grupo de trabajo en trabajo
 
@@ -149,6 +148,3 @@ Puede usar la página **Detalles del trabajo** para ver el trabajo que se creó 
 > Cuando aparece el cuadro de diálogo **Cambiar grupo de trabajo**, el campo **Id. del grupo de trabajo** puede estar en blanco de forma predeterminada. Si el campo está en blanco cuando selecciona **Aceptar** para aplicar cambios, eliminará el grupo de trabajo completamente del trabajo.
 >
 > Además de cambiar los grupos de trabajo, puede utilizar este procedimiento para agregar un grupo de trabajo a cualquier elemento de trabajo que no tenga uno, o para eliminar un grupo de trabajo de cualquier elemento de trabajo que sí lo tenga.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

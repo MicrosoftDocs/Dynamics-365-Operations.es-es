@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: a8cabcd3528308919697a9f2ecb2a81ad5acbe31
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594317"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000934"
 ---
 # <a name="upload-videos"></a>Subir vídeos
 
@@ -73,6 +72,3 @@ Si está cargando varios tipos de activos simultáneamente (por ejemplo, imágen
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

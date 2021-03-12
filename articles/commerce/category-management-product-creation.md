@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResProductCategory, EcoResCategoryAddProduct, EcoResAttributeValue
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d47a866703b830e84e3f2e37a02d9d58f73987b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cee79d6937afeec1e607abde49d52790c51e98a4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415502"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001083"
 ---
 # <a name="manage-product-categories-and-products"></a>Administrar las categorías de productos y los productos
 
@@ -57,6 +56,3 @@ Además, ahora en la estructura mejorada de categorías de productos un responsa
 Puede usar la nueva estructura mejorada para las propiedades del producto para seleccionar las propiedades de producto actualizadas que deben incluirse en los productos asociados. En la página **Jerarquía de productos de Commerce**, en el panel de acciones, seleccione **Categoría** y, a continuación, seleccione **Actualizar productos** para abrir el cuadro de diálogo **Actualizar productos**.
 
 ![Cuadro de diálogo Actualizar productos](media/NewUpdateProductsEnhancedView.PNG)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
