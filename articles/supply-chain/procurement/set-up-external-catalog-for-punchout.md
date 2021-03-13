@@ -1,7 +1,7 @@
 ---
 title: Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
 description: Este tema describe el uso de un catálogo externo o del catálogo de marcaje de salida para recopilar información de presupuestos de un proveedor y agregarla a una solicitud.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437230"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016386"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
 
@@ -54,19 +53,18 @@ El catálogo externo debe habilitar que un empleado que especifique una solicitu
 Esta sección proporciona más detalles sobre la tarea 4 de la sección anterior.
 
 1. Escriba un nombre y una descripción para el catálogo externo del proveedor. El nombre que escriba aparecerá en el carro que representa el catálogo externo que se muestra a los empleados que crean una solicitud. Los empleados pueden hacer clic en el carro para abrir el catálogo en el sitio del catálogo externo del proveedor.
-2. Agregue una imagen mediante la acción  **Imagen del catálogo externo**. La imagen aparecerá en el carro que representa el catálogo externo que se muestra a los empleados que crean una solicitud. Tenga en cuenta que la anchura y la altura de la imagen deben ser iguales. De lo contrario, la imagen no se muestra correctamente.
+2. Agregue una imagen mediante la acción **Imagen del catálogo externo** . La imagen aparecerá en el carro que representa el catálogo externo que se muestra a los empleados que crean una solicitud. Tenga en cuenta que la anchura y la altura de la imagen deben ser iguales. De lo contrario, la imagen no se muestra correctamente.
 3. Seleccione si la página web del catálogo externo del proveedor debe aparecer en la misma ventana de explorador en la que el empleado ha creado la solicitud, o abrirse en una ventana nueva.
 4. Seleccione el proveedor para el catálogo. En el lista **Entidades jurídicas** existe una fila para cada entidad jurídica donde el proveedor está configurado. Para permitir que los usuarios soliciten productos directamente del catálogo del proveedor en algunas personas jurídicas pero no otras, puede usar el botón **Impedir acceso** o **Permitir acceso** para cada entidad jurídica donde desea que el catálogo esté o no disponible.
 5. En el campo **Caducidad predeterminada (días)**, escriba el número de días durante el cual un presupuesto recibido del catálogo externo es válido y se puede usar para comprar al proveedor externo. Cuando se crea un presupuesto y se recupera del sitio del catálogo externo del proveedor; el presupuesto será válido a partir de la fecha del sistema actual y seguirá siendo válido durante el número de días que escriba en este campo.
-6. Haga clic en el botón **Agregar** para empezar a asignar las categorías de compras al catálogo externo. A continuación, en la lista de nombre de categoría, seleccione una categoría. La lista de categorías es un superconjunto de categorías de compras a las que se ha asignado al proveedor en todas las entidades jurídicas configuradas para dicho proveedor.
+6. Haga clic en el botón **Agregar** para empezar a asignar las categorías de compras al catálogo externo. A continuación, en la lista de nombre de categoría, seleccione una categoría. La lista de categorías es un superconjunto de categorías de compras a las que se ha asignado al proveedor en todas las entidades jurídicas configuradas para dicho proveedor.
 
     > [!NOTE]
-    > Las directivas de compra se utilizan para permitir o restringir el acceso a las categorías para la entidad jurídica compradora o unidad operativa receptora. El marcaje de salida a un catálogo externo requiere que se permita el acceso al menos a una de las categorías de compras asignada al catálogo.
+    > Las directivas de compra se utilizan para permitir o restringir el acceso a las categorías para la entidad jurídica compradora o unidad operativa receptora. El marcaje de salida a un catálogo externo requiere que se permita el acceso al menos a una de las categorías de compras asignada al catálogo.
 
 7. Configure el mensaje de solicitud de configuración de cXML que se enviará al proveedor. El formato del mensaje generado automáticamente es la plantilla mínima que se requiere para iniciar una sesión. Rellene los valores de las etiquetas.
 
-En cualquier momento, puede recargar la plantilla de mensajes generada por el sistema haciendo clic en **Restaurar formato de mensaje**. 
-Tenga en cuenta que si restaura el formato del mensaje, el mensaje actual se sustituye por el formato de mensaje generado automáticamente, que tiene etiquetas vacías.
+En cualquier momento, puede recargar la plantilla de mensajes generada por el sistema haciendo clic en **Restaurar formato de mensaje**. Tenga en cuenta que si restaura el formato del mensaje, el mensaje actual se sustituye por el formato de mensaje generado automáticamente, que tiene etiquetas vacías.
 
 ### <a name="cxml-setup-message"></a>Mensaje de configuración de cXML
 A continuación verá una descripción de las etiquetas que se incluyen en la plantilla:
@@ -91,7 +89,7 @@ Especifique un nombre para el elemento extrínseco que el proveedor pueda recono
 Para obtener más información acerca del protocolo de cXML, consulte el [sitio web cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Mensaje de confirmación
-El mensaje de confirmación es el mensaje que se recibe del proveedor cuando el usuario completa la compra en el sitio externo y vuelve a Supply Chain Management. Los mensajes de confirmación no se pueden configurar. Los mensajes se basan en la definición del protocolo cXML. A continuación se indica la información que puede formar parte del mensaje de confirmación que se recibe en una línea de solicitud.
+El mensaje de confirmación es el mensaje que se recibe del proveedor cuando el usuario completa la compra en el sitio externo y vuelve a Supply Chain Management. Los mensajes de confirmación no se pueden configurar. Los mensajes se basan en la definición del protocolo cXML. A continuación se indica la información que puede formar parte del mensaje de confirmación que se recibe en una línea de solicitud.
 
 | Mensaje recibido del proveedor | Copiado a línea de pedido|
 |------------------------------|----------------------------------------------------------|
@@ -114,5 +112,3 @@ Si se ha solicitado un producto del catálogo de proveedores externo, no se podr
 
 - [Mejoras de cXML de compra](purchasing-cxml-enhancements.md)
 - [Usar catálogos externos para la adquisición electrónica de marcaje de salida](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

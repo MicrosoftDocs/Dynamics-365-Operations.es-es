@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Spain
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d44b4a2ff347e6535d5ab3bb3f3c493f6d066d9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98e02c44b5a92b295f39ebc1b3d6bd28d255f173
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407798"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012024"
 ---
 # <a name="spain-overview"></a>Visión general de España
 
@@ -45,6 +44,3 @@ Este tema proporciona vínculos a recursos de documentación para España.
 - [Ciclos de compra y venta](emea-esp-sales-purchase-cycle.md)
 - [Entradas especiales y hojas de apertura](emea-esp-opening-sheets-spain.md)
 - [Suministro inmediato de información del IVA, SII](emea-esp-sii.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

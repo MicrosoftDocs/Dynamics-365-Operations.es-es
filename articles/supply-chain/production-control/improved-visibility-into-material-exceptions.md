@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bd4392417c7fd389c1c5fadf3e61be33a2f336db
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437200"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011131"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidad sobre excepciones de material
 
@@ -67,6 +66,3 @@ Cuando se selecciona el mosaico, se abre la página **Todas las oleadas de la pr
 El mosaico **Trabajo de almacén abierto que necesiten asistencia** muestra el número de LM y las líneas de fórmula que se han liberado al almacén, que tienen oleadas sin procesar y que tienen una fecha de la materia prima que es anterior o igual a la fecha del espacio de trabajo. Las líneas también se deben consumir por un recurso de operaciones que aplique al filtro del espacio de trabajo.
 
 Cuando se selecciona el mosaico, se abre la página **Todos los trabajos**. Esta página se filtra en función del número de encabezados de trabajo abiertos que contengan las líneas de la LM liberada y las líneas de fórmula que cumplan los criterios para el mosaico. En la página **Todos los trabajos**, puede procesar manualmente el trabajo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

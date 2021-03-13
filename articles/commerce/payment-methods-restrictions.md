@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dfc49e3c3132fe2687ea71e5da75fe31753d57f9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1ff301aa5f88e34ed7ca24aa54df3fdc7daa1bf7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415528"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012400"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Restringir métodos de pago para devoluciones sin un recibo
 
@@ -61,6 +60,3 @@ Cuando **Limitar devoluciones sin recibo** se establece en **Sí**, el método d
 
 Si una transacción tiene una devolución con recibo como sin él, las condiciones de la restricción no se aplicarán porque la transacción será un flujo de trabajo de devolución con un recibo. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

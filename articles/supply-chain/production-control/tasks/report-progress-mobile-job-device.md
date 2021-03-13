@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm, JmgRegistrationTouchReportProgress, JmgFeedbackWizard, JmgJobBundleProdFeedback
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34067902f05546b5c420feca633f77f16033ed2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c08822dc3960ba5fc85399ca236a31aaf2c38f1f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436837"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010956"
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Notificar progreso en un dispositivo móvil de trabajo
 
@@ -65,6 +64,3 @@ Para poder ejecutar este procedimiento, debe tener el rol del administrador del 
 29. Haga clic en Aceptar
 30. Seleccione un motivo por el que ha estado realizando la hora de salida pronto.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

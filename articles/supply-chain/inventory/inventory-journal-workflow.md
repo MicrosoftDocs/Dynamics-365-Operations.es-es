@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436611"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011681"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Flujos de trabajo de aprobación de diario de inventario
 
@@ -31,6 +30,13 @@ En este tema se describe cómo establecer y usar flujos de trabajo de aprobació
 
 > [!NOTE]
 > Los flujos de trabajo de aprobación de diarios de inventario se aplican solo a las transacciones registradas utilizando el módulo de Gestión de inventario. No funcionan con diarios de inventario activados desde el módulo Gestión de almacenes.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Active la característica de flujos de trabajo de aprobación de diario de inventario
+
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+
+- **Módulo**: *gestión de inventario y almacenes*
+- **Feature name:** *Flujo de trabajo de aprobación del diario de inventario*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Crear flujos de trabajo de aprobación de diario de inventario
 
@@ -112,6 +118,3 @@ Para revisar el historial de flujo de trabajo de un diario:
 1. En el panel de navegación, expanda **Gestión del inventario \> Entradas de diario \> Artículos** y luego seleccione un tipo de diario de inventario.
 1. Abrir el diario relevante.
 1. Seleccione el botón **Flujo de trabajo** en el Panel de acciones para abrir un cuadro de diálogo desplegable. Seleccione **Historial de flujo de trabajo**. Para obtener más información, consulte [Ver historial de flujo de trabajo](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

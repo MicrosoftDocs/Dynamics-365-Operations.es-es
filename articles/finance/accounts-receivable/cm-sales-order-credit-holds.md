@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 754b34d9d522451082ba6010297431788e4151f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447477"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012272"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Retenciones de crédito para pedidos de ventas
 [!include [banner](../includes/banner.md)]
@@ -265,6 +264,3 @@ Los pedidos de ventas que tienen un motivo de retención forzada no se pueden li
 Actualmente, la administración de crédito solo se puede usar para pedidos de ventas. Las facturas de servicios, los pedidos de punto de venta y los pedidos de centro de llamadas utilizarán los límites de crédito temporales y los seguros/garantías que agregue para ajustar el límite de crédito. No utilizarán las reglas de bloqueo y no se incluirán en la lista de retención si hay un problema con el límite de crédito.
 
 En la administración de crédito no se admiten facturas de proyectos.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

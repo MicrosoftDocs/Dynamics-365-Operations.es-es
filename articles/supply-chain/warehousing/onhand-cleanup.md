@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437238"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014492"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabajo de limpieza de entradas disponibles de gestión de almacén
 
@@ -50,7 +49,12 @@ Cuando se ejecuta el trabajo, tiene un tamaño de confirmación de 100. En otras
 
 ## <a name="possible-user-impact"></a>Posible impacto en el usuario
 
-Los usuarios pueden verse afectados si el trabajo de limpieza de entradas disponibles elimina todos los registros para un nivel determinado (como al nivel de matrícula). En este caso, la funcionalidad para ver que el inventario estaba disponible previamente en una matrícula podría no funcionar como se esperaba, porque las entradas disponibles relevantes ya no están disponibles. (Esa funcionalidad verifica la condición **Cantidad \<\> 0** en la configuración **Visualización de dimensiones** cuando los usuarios ven la información disponible). Sin embargo, la mejora del rendimiento que proporciona el trabajo de limpieza debería compensar esta pequeña pérdida de funcionalidad.
+Los usuarios pueden verse afectados si el trabajo de limpieza de entradas disponibles elimina todos los registros para un nivel determinado (como al nivel de matrícula). En este caso, la funcionalidad para ver que el inventario estaba disponible previamente en una matrícula podría no funcionar como se esperaba, porque las entradas disponibles relevantes ya no están disponibles. Esto puede experimentarse, por ejemplo, en las siguientes situaciones:
+
+- En el **Inventario disponible**, cuando el usuario anula la selección de la condición **Cantidad \<\> 0** o selecciona la condición **Transacciones cerradas** en la configuración **Presentación de dimensiones**.
+- En un informe de **Inventario físico por dimensión de inventario** de períodos pasados, cuando el usuario establece el parámetro **Fecha inicial**.
+
+Sin embargo, la mejora del rendimiento que proporciona el trabajo de limpieza debería compensar estas pequeñas pérdidas de funcionalidad.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Hacer que la opción de Tiempo de ejecución máximo esté disponible
 
@@ -58,6 +62,3 @@ De forma predeterminada, la opción de **Tiempo de ejecución máximo** no está
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Tiempo de ejecución máximo para el trabajo de limpieza de entradas disponibles de gestión de almacén*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

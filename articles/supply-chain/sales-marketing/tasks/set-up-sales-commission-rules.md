@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended, CommissionEmplSalesGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b1ea016817462269a13e450c8c7576546c7f0eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b49865cf9d4073c2da7aa6ccc610b92055c711c1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436778"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010731"
 ---
 # <a name="set-up-sales-commission-rules"></a>Configurar reglas de comisión de ventas
 
@@ -96,6 +95,3 @@ Este procedimiento muestra cómo configurar y habilitar el seguimiento y el cál
 17. En la lista, seleccione el grupo de comisión que ha creado anteriormente.
 18. Seleccione **Guardar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

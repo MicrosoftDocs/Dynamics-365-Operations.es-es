@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 046204d36e2fc7a69129aaf7fe027b2abc7e8dd9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9f84e3ffc79920fc6ef49a6391f76acdd89252a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415525"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012478"
 ---
 # <a name="info-codes-and-info-code-groups"></a>Códigos de información y grupos de códigos de información
 
@@ -56,6 +55,3 @@ Puede vincular códigos de información para que cuando se active un código de 
 **Ejemplo 2: Vincular códigos de información a grupos de códigos de información**
 
 Cuando vende determinados productos, por ejemplo, dispositivos móviles, desea siempre recopilar un conjunto específico de información, como el número de teléfono, el identificador móvil (IMEI) y el número de serie. Sin embargo, también desea recopilar información distinta para una tableta en comparación con un teléfono móvil. Puede configurar un grupo del códigos de información que incluya los avisos para el número de teléfono, el IMEI y el número de serie, y después vincular el grupo de códigos de información a un código individual de información. Cuando se activa el código de información específico del producto, el grupo de códigos de información puede activarse a continuación para permitirle recopilar los datos comunes sin tener que definir varios conjuntos de códigos de información vinculados para cada dispositivo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436654"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010781"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Búsqueda de precios y descuentos aplicables
 
@@ -60,6 +59,3 @@ Asegúrese de que el campo Cuenta de cliente contiene el número de cliente US-0
     * Existen dos acuerdos de descuento de línea para el producto T0012: un 5 por ciento de descuento para pedidos de 1 a 10 y un 7 por ciento de descuento para pedidos de más de 10. Observe cómo se aplican los descuentos a un grupo de productos, en este ejemplo, el código de grupo 01, al cual pertenece el producto T0012.  
 4. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

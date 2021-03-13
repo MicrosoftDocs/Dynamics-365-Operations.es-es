@@ -1,5 +1,5 @@
 ---
-title: Distribuciones contables y asientos del subdiario contable para las facturas de proveedor
+title: Distribuciones contables y movimientos del diario contable de las facturas de proveedores
 description: Las distribuciones contables se usan para definir cómo un importe se justificará, por ejemplo, cómo se justificarán los gastos, impuestos o cargos en la factura de un proveedor. Cada importe que se debe justificar cuando se registre en el diario la factura de proveedor tendrá una o varias distribuciones contables.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da15f27c7fef6367eacc83271419b633c0cbb245
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447749"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012297"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Distribuciones contables y asientos del subdiario contable para las facturas de proveedor
+# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Distribuciones contables y movimientos del diario contable de las facturas de proveedores
 
 [!include [banner](../includes/banner.md)]
 
@@ -250,6 +249,3 @@ Si el asiento del subdiario contable es incorrecto cuando obtiene la vista previ
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

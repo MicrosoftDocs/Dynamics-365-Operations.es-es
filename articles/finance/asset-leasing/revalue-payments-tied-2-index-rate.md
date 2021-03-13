@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 83684afbd5e11b890a59bc1469ddefffd1777c4e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 2cbe54ad92aff2f8a85e47301635fe4b6819e9a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4447796"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012070"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Revalorizar los pagos por arrendamiento vinculados a un tipo indexado
 
@@ -68,6 +67,3 @@ Para ver los efectos del proceso de revalorización del arrendamiento en los arr
 Puede ver el programa de pago recién generado que comienza en la fecha de revalorización y mostrar el importe total de pago actualizado. También se han creado una nueva programación de amortización del pasivo por arrendamiento y una programación de depreciación de activos para reflejar la programación de pagos ajustada.
 
 El movimiento de diario ha registrado automáticamente el movimiento de diario de ajuste en la cuenta para el cambio en los pagos por arrendamiento relacionados con la revalorización del índice.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529195"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011380"
 ---
 # <a name="product-identifiers"></a>Identificadores de producto
 
@@ -44,7 +43,7 @@ En muchos casos, el número de producto no se crea originalmente en Dynamics 365
 
 Cuando implementa Supply Chain Management debe prestar especial atención a su estrategia para los números de producto. Un buen sistema de numeración mejora los flujos de logística y ayuda a evitar errores. Un buen identificador de producto tiene un máximo de 15 caracteres. Idealmente, tiene menos de 10 caracteres y no incluye más de cinco caracteres de clasificación. También puede usar nombres de búsqueda para habilitar búsquedas rápidas. Un nombre de búsqueda es un nombre adicional que representa las clasificaciones de un producto.
 
-Cuando use Common Data Service, el número del producto en Supply Chain Management es también el número de producto en Common Data Service. Las variantes de producto se sincronizan con el Common Data Service como productos únicos.
+Cuando use Microsoft Dataverse, el número del producto en Supply Chain Management es también el número de producto en Microsoft Dataverse. Las variantes de producto se sincronizan con Dataverse como productos únicos.
 
 ## <a name="item-number-and-product-dimensions"></a>Número de artículo y dimensiones de producto
 
@@ -167,7 +166,7 @@ La tabla siguiente proporciona una visión general de los resultados de la impor
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Identificador de entidad de producto (exportar todos los identificadores de producto)
 
-El modelo de identificador de entidad de producto se ha creado para permitir el aprovisionamiento de la versión 1.0 de CDS con todos los identificadores que se usan para hacer referencia a un producto. Para simplificar esta tarea, todos los identificadores se agregan en una tabla de identificador global, de forma que se puedan exportar como modelo. Tenga en cuenta que esta versión de CDS no usa el modelo de los identificadores de producto. Por lo tanto, la entidad **Entidad de identificador de common data service de la entidad del producto** y este proceso tienen un uso práctico limitado y estarán probablemente sujetos a cambios en el futuro.
+El modelo de identificador de entidad de producto se ha creado para permitir el aprovisionamiento de la versión 1.0 de Dataverse con todos los identificadores que se usan para hacer referencia a un producto. Para simplificar esta tarea, todos los identificadores se agregan en una tabla de identificador global, de forma que se puedan exportar como modelo. Tenga en cuenta que esta versión de Dataverse no usa el modelo de los identificadores de producto. Por lo tanto, la entidad **Entidad de identificador de common data service de la entidad del producto** y este proceso tienen un uso práctico limitado y estarán probablemente sujetos a cambios en el futuro.
 
 La tabla de identificador del producto es una tabla global que se rellena a partir de todas las tablas de referencia de la entidad jurídica principal con un trabajo por lotes periódico. Debe seleccionar una entidad jurídica y una jerarquía de la categoría de producto como definición de ámbito global de producto maestro. La generación de la tabla global del identificador del producto se limita a los productos que se liberan en la entidad jurídica seleccionada y productos que son miembros de la jerarquía del producto seleccionado para el rol **Servicio de datos común** en la jerarquía de la categoría de producto.
 
@@ -175,7 +174,7 @@ Este proceso presupone que los datos del producto maestro se mantienen principal
 
 Siga estos pasos para configurar el entorno.
 
-1. Seleccionar la jerarquía de categoría de CDS. En la página **Asociaciones de rol de jerarquía de categoría** , si no está asociada ninguna jerarquía al rol **Servicio de datos común**, debe crear una nueva asociación. Seleccione el rol **Common data service** y después asocie la jerarquía de categoría que representa la cartera de producto que se debe sincronizar con CDS.
+1. Seleccionar la jerarquía de categoría de Dataverse. En la página **Asociaciones de rol de jerarquía de categoría** , si no está asociada ninguna jerarquía al rol **Servicio de datos común**, debe crear una nueva asociación. Seleccione el rol **Common Data Service** y después asocie la jerarquía de categoría que representa la cartera de producto que se debe sincronizar con Dataverse.
 2. Seleccione la entidad jurídica para los datos maestros de producto. En la página **Parámetros de la Gestión de información de productos**, en la pestaña **Atributos del producto**, seleccione la empresa principal donde los identificadores de producto y de artículo se mantienen principalmente.
 3. Defina los tipos de códigos y los códigos del identificador que se vayan a exportar. Vaya a **Gestión de información de productos** &gt; **Configuración** &gt; **Códigos de identificador del producto**. Para generar los tipos de códigos de identificador, seleccione **Generar códigos**. Una entrada del tipo código se genera para cada tipo para el identificador que se encuentra en la entidad jurídica seleccionada.
 
@@ -190,6 +189,3 @@ Ahora puede usar entidades de datos **Entidad de identificador de common data se
 ## <a name="related-topic"></a>Tema relacionado
 
 [Buscar los productos y variantes de producto durante la entrada de pedidos](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
