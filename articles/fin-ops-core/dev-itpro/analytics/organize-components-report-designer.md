@@ -1,6 +1,6 @@
 ---
 title: Organizar los componentes del informe en el diseñador de informes
-description: Una vez ha diseñado los bloques de creación y los informes generados, resulta útil organizar estos objetos para que los usuarios los encuentren más fácilmente. En este artículo se explica cómo organizar los informes existentes, los bloques de creación y los objetos en el diseñador de informes.
+description: En este tema se explica cómo organizar los informes existentes, los bloques de creación y los objetos en el diseñador de informes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685820"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092432"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizar los componentes del informe en el diseñador de informes
 
@@ -39,7 +39,7 @@ En el Diseñador de informes, puede cambiar el nombre de carpetas y de definicio
 
 1. En el Diseñador de informes, use el panel de navegación para localizar la carpeta o el objeto cuyo nombre desee cambiar.
 2. Haga clic con el botón secundario en la carpeta o en el informe y, a continuación, haga clic en **Cambiar nombre**. El campo **Nombre** en el panel de navegación pasa a estar activo.
-3. Escriba un nuevo nombre y luego presione Intro.
+3. Escriba un nuevo nombre y luego presione Entrar.
 4. Si el bloque de creación es una definición de fila, definición de columna o definición de organigrama, debe actualizar otros bloques de creación asociados a él. Haga clic con el botón secundario en el bloque de creación al que le cambió el nombre en el paso 3, seleccione **Asociaciones** y, a continuación seleccione un elemento en la lista para actualizarlo.
 5. Repita el paso 4 hasta que todos los elementos asociados se actualizan.
 
@@ -62,7 +62,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 3. En la pestaña **Grupo de informes**, realice los cambios que desee.
 4. En el menú **Archivo**, haga clic en **Guardar** para guardar el grupo de informes modificado. De forma alternativa, haga clic en el botón **Guardar** ![Guardar](media/save.gif "Guardar") de la barra de herramientas.
 
-> [NOTA] si ha programado informes para que se generen en intervalos definidos, puede anular esos ajustes y generar un informe inmediatamente.
+> \[NOTA\]: Si ha programado informes para que se generen en intervalos definidos, puede anular esos ajustes y generar un informe inmediatamente.
 
 ### <a name="generate-a-report-group-report"></a>Generar un informe del grupo de informes
 
@@ -148,6 +148,3 @@ Solo la configuración del período de base predeterminado se guarda con la defi
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

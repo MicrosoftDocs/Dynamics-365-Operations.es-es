@@ -1,6 +1,6 @@
 ---
 title: Contenido de director de prácticas de Power BI
-description: En este tema se describe lo que se incluye en el contenido de Power BI para Director de práctica. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+description: En este tema se describe lo que se incluye en el contenido de Power BI para Director de práctica.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f01109b360b23adf84673e84e6240f8f4431340d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685714"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092466"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenido de director de prácticas de Power BI
 
@@ -117,6 +117,3 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 | Medida agregada clave       | Campo               | Descripción |
 |---------------------------------|---------------------|-------------|
 | Coste de la actividad planificada completada | Sum(TotalCostPrice) | Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto que cuentan con tareas completadas. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

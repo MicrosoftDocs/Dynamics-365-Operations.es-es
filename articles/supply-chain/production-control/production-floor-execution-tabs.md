@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664281"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077587"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Diseñar la interfaz de ejecución de la planta de producción
 
@@ -57,7 +56,7 @@ Para crear y configurar una nueva pestaña, siga estos pasos:
 1. Realice los siguientes ajustes en el encabezado de la página:
 
     - **Nombre de la pestaña** - Especifique un nombre para la pestaña.
-    - **Vista principal** - Seleccione entre las dos listas de trabajos predefinidas (*Trabajos activos* o *Todos los trabajos*).
+    - **Vista principal** - Seleccione entre las dos listas de trabajos predefinidas (*Trabajos activos*, *Todos los trabajos* o *Mi máquina*).
     - **Vista de detalles** - Seleccione entre un valor en blanco o **Detalles del trabajo**. Si selecciona el valor en blanco, no habrá una vista detallada en la pestaña. Si selecciona **Detalles del trabajo**, la vista detallada contendrá una descripción detallada del trabajo seleccionado en la lista de trabajos en la vista principal.
 
 1. En la sección **Barra de herramientas principal**, elija qué botones deben estar disponibles en la barra de herramientas principal. La columna **Acciones disponibles** muestra una lista de todos los botones que se pueden agregar. Las columnas **Acciones seleccionadas** muestran una lista de todos los botones que están incluidos en la configuración actual. Utilice los botones entre las columnas para mover los elementos seleccionados entre las columnas según sea necesario. Utilice los botones arriba y abajo junto a la columna **Acciones seleccionadas** para controlar el orden en que se presentan los botones en la interfaz de usuario.
@@ -79,6 +78,3 @@ Una vez que haya diseñado todas las pestañas que necesita, puede asociarlas co
 1. Continúe agregando pestañas adicionales según sea necesario.
 
 1. Utilice los botones **Subir** y **Bajar** de la barra de herramientas para organizar las pestañas según sea necesario. Las pestañas se mostrarán de izquierda a derecha en el orden que se muestra en la captura de pantalla anterior (la pestaña en la parte superior se muestra a la izquierda).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

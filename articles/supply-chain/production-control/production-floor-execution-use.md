@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4437163"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077640"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -41,11 +40,11 @@ Las secciones restantes de este tema describen cómo interactúan los trabajador
 
 ## <a name="all-jobs-tab"></a>Pestaña Todos los trabajos
 
-La pestaña **Todos los trabajos** proporciona una lista de trabajos que muestra todos los trabajos de producción que tienen un estado de *No empezado*, *Detenido* o *Empezado*.
+La pestaña **Todos los trabajos** proporciona una lista de trabajos que muestra todos los trabajos de producción que tienen un estado de *No empezado*, *Detenido* o *Empezado*. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
 
 ![Pestaña Todos los trabajos](media/pfei-all-jobs-tab.png "Pestaña Todos los trabajos")
 
-La lista de trabajos tiene las siguientes columnas. (Los números se corresponden con los números de la ilustración anterior).
+La lista de trabajos tiene las siguientes columnas. Los números se corresponden con los números de la ilustración anterior.
 
 1. **Columna de selección**: la columna de la izquierda utiliza marcas de verificación para indicar los trabajos que ha seleccionado el trabajador. Los trabajadores pueden seleccionar varios trabajos de la lista al mismo tiempo. Para seleccionar todos los trabajos de la lista, active la marca de verificación en el encabezado de la columna. Cuando se selecciona un solo trabajo, los detalles sobre ese trabajo se muestran en la parte inferior de la página.
 1. **Columna de estado del trabajo**: esta columna utiliza símbolos para indicar el estado de cada trabajo. Los trabajos que no tienen símbolo en esta columna tienen el estado *No iniciado*. Un triángulo verde indica trabajos que tienen el estado *Iniciado*. Dos líneas verticales amarillas indican trabajos que tienen el estado *Detenido*.
@@ -60,9 +59,11 @@ La lista de trabajos tiene las siguientes columnas. (Los números se corresponde
 
 ## <a name="active-jobs-tab"></a>Pestaña Trabajos activos
 
+Las pestañas **Trabajos activos** muestran una lista de todos los trabajos que el trabajador que inició sesión ya ha comenzado. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
+
 ![Pestaña Trabajos activos](media/pfei-active-jobs-tab.png "Pestaña Trabajos activos")
 
-La lista de trabajos de la pestaña **Trabajos activos** tiene las siguientes columnas:
+La lista de trabajos activos tiene las siguientes columnas:
 
 - **Columna de selección**: la columna de la izquierda utiliza marcas de verificación para indicar los trabajos que ha seleccionado el trabajador. Los trabajadores pueden seleccionar varios trabajos de la lista al mismo tiempo. Para seleccionar todos los trabajos de la lista, active la marca de verificación en el encabezado de la columna. Cuando se selecciona un solo trabajo, los detalles sobre ese trabajo se muestran en la parte inferior de la página.
 - **Orden**: esta columna muestra el número de pedido de producción de un trabajo.
@@ -72,6 +73,28 @@ La lista de trabajos de la pestaña **Trabajos activos** tiene las siguientes co
 - **Completado**: esta columna muestra la cantidad que ya se completó para un trabajo.
 - **Desechado**: esta columna muestra la cantidad que ya se desechó para un trabajo.
 - **Restante**: esta columna muestra la cantidad que queda por completar de un trabajo.
+
+## <a name="my-machine-tab"></a>Pestaña Mi máquina
+
+La pestaña **Mi maquina** permite a los trabajadores seleccionar un activo que está conectado a un recurso de máquina dentro del filtro establecido en la pestaña **Todos los trabajos**. Luego, el trabajador puede ver el estado y la salud del activo seleccionado leyendo los valores de hasta cuatro contadores seleccionados y listas de solicitudes de mantenimiento recientes y tiempos de inactividad registrados. El trabajador también puede solicitar mantenimiento para el activo seleccionado y registrar y editar el tiempo de inactividad de la máquina. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
+ 
+![La pestaña Mi máquina](media/pfei-my-machine-tab.png "La pestaña Mi máquina")
+
+La pestaña **Mi maquina** tiene las siguientes columnas. Los números se corresponden con los números de la ilustración anterior.
+
+1. **Activo de la máquina** - Seleccione el activo de la máquina que desea rastrear. Empiece a escribir un nombre para seleccionar de una lista de activos coincidentes, o seleccione el icono de la lupa para seleccionar de una lista de todos los activos asociados con los recursos que están dentro del filtro de la lista de trabajos.
+
+    > [!NOTE]
+    > Los usuarios de Supply Chain Management pueden asignar un recurso a cada activo según sea necesario utilizando la página **Todos los activos** (en la pestaña **Activo fijo**, usando la lista desplegable **Recurso**). Para obtener más información, consulte [Crear un activo](../asset-management/objects/create-an-object.md).
+
+1. **Configuraciones** - Seleccione el icono de engranaje para abrir un cuadro de diálogo donde puede elegir qué contadores ver para el activo de máquina seleccionado. Los valores de estos contadores se muestran en la parte superior de la pestaña **Gestión de activos**. El menú **Configuraciones** (que se muestra en la siguiente captura de pantalla) le permite habilitar hasta cuatro contadores. Para cada contador que desee habilitar, use el campo de búsqueda en la parte superior del icono para seleccionar un contador. Las listas del campo de búsqueda enumera todos los contadores asociados al activo seleccionado en la parte superior de la página **Gestión de activos**. Configure cada contador para supervisar el valor **Agregado** o el último valor **Real** para el contador. Por ejemplo, si configura un contador que rastrea cuántas horas ha estado funcionando la máquina, debe configurarlo en **Agregado**. Si configura un contador para medir la temperatura o presión actualizada más reciente, debe configurarlo en **Real**. Seleccione **Aceptar** para guardar la configuración y cerrar el cuadro de diálogo.
+
+    ![La pestaña Mi máquina](media/pfei-my-machine-tab-settings.png "La pestaña Mi máquina")
+
+1. **Solicitar mantenimiento** - Seleccione este botón para abrir un cuadro de diálogo donde puede crear una solicitud de mantenimiento. Podrá proporcionar una descripción y una nota. La solicitud se presentará a un usuario de Supply Chain Management, que luego podrá convertir la solicitud de mantenimiento en una orden de trabajo de mantenimiento.
+1. **Registrar el tiempo de inactividad** - Seleccione este botón para abrir un cuadro de diálogo donde puede registrar el tiempo de inactividad de la máquina. Podrá seleccionar un código de motivo e ingresar un intervalo de fecha/hora para el tiempo de inactividad. El registro del tiempo de inactividad de la máquina se utiliza para calcular la eficiencia del activo de la máquina.
+1. **Ver o editar** - Seleccione este botón para abrir un cuadro de diálogo donde puede editar o ver los registros de tiempo de inactividad existentes.
+
 
 ## <a name="starting-and-completing-production-jobs"></a>Iniciar y completar trabajos de producción
 
@@ -124,7 +147,7 @@ Por ejemplo, Shannon, un trabajador de planta en Contoso, desea asistir a una re
 
 En ambos escenarios, después de que Shannon confirme su selección, va a la página de inicio de sesión o a una página que esperará su confirmación de que ha regresado de la actividad indirecta. La página que aparece depende de la configuración de la interfaz de ejecución de la planta de producción. (Para obtener más información, vea [Configurar la interfaz de ejecución de la planta de producción](production-floor-execution-configure.md).)
 
-## <a name="working-on-breaks"></a>Trabajar en descansos
+## <a name="registering-breaks"></a>Registro de descansos
 
 Los trabajadores pueden registrar descansos. Los descansos se pueden definir de manera flexible, como se describe en [Pago basado en registros](pay-based-on-registrations.md).
 
@@ -146,6 +169,3 @@ Para abrir un documento adjunto a un trabajo, los trabajadores pueden selecciona
 1. El trabajador trabaja con la guía para aprender la tarea.
 
 Para obtener más información sobre cómo crear, asignar y usar guías para HoloLens, consulte [Proporcionar guías de realidad mixta para trabajadores en producción](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

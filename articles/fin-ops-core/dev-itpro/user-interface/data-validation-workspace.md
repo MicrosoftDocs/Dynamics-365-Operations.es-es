@@ -1,6 +1,6 @@
 ---
 title: Espacio de trabajo de la lista de comprobación de datos
-description: El espacio de trabajo de la lista de comprobación de la validación de datos le permite realizar un seguimiento de los procesos de validación de datos de distintas empresas, áreas y personas. La lista de comprobación se puede usar durante una nueva implementación, después de una actualización o después de una migración.
+description: El espacio de trabajo de la lista de comprobación de la validación de datos le permite realizar un seguimiento de los procesos de validación de datos de distintas empresas, áreas y personas.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
@@ -14,14 +14,14 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: a3ac338670fdc9fc7cb526cdcdc1e7199904da8f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e50d4c94c0b8468a80ad214a21c8f5e0dedae71
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687584"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092340"
 ---
-# <a name="data-validation-checklist-workspace"></a>Espacio de trabajo de la lista de comprobación de datos
+# <a name="data-validation-checklist-workspace"></a>Espacio de trabajo de la lista de comprobación de validación de datos
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,8 +39,7 @@ Los iconos de **Resumen** proporcionan una visión general del proceso y los ind
 
 En la sección **Tareas y estado**, se mostrará el estado del proyecto total de la validación de datos de varias maneras: estado por entidad jurídica, por área y por lista de tareas. También puede seleccionar el filtro para ver el estado de una empresa específica. Cada ficha de estado ofrece un desglose por el porcentaje que se ha completado y por el número de tareas restantes.
 
-La última ficha es para la lista de tareas detallada. Esta lista muestra la lista de tareas completa.
-Puede filtrar la lista de tareas de varias maneras. Haga clic en **Editar tarea** para cambiar el estado de una tarea o para asignar una tarea. Haga clic en **Datos adjuntos** para ver los datos adjuntos para una tarea.
+La última ficha es para la lista de tareas detallada. Esta lista muestra la lista de tareas completa. Puede filtrar la lista de tareas de varias maneras. Haga clic en **Editar tarea** para cambiar el estado de una tarea o para asignar una tarea. Haga clic en **Datos adjuntos** para ver los datos adjuntos para una tarea.
 
 El nombre de tarea es un hipervínculo a la página donde el usuario debe ir para completar el trabajo. Puede establecer este hipervínculo mediante el campo **Nombre del elemento de menú** al editar o crear una tarea en el formulario **Configurar el proyecto de validación de datos**.
 
@@ -57,6 +56,3 @@ Antes de poder usar el espacio de trabajo **Lista de comprobación de validació
 Use las áreas de tareas para agrupar las tareas de validación de datos en áreas lógicas dentro de su organización. Por ejemplo, Proveedores, Clientes o Contabilidad general se pueden usar como áreas de tareas.
 
 El **Nombre del elemento de menú** está asociado al esfuerzo de trabajo de la tarea y se puede usar para ir directamente a la página asociada desde el vínculo de la tarea en el espacio de trabajo. Por ejemplo, una tarea de validación de datos para ejecutar el informe **Vencimiento de proveedores** para los proveedores se puede vincular a la página **Informe de vencimiento de proveedores** .
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

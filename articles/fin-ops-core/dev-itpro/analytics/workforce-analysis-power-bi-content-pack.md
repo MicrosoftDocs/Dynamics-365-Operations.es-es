@@ -1,6 +1,6 @@
 ---
 title: Contenido de Power BI de métricas de recursos
-description: Este tema describe el contenido en Power BI de métricas de recursos. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+description: Este tema describe el contenido en Power BI de métricas de recursos.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687360"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092800"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Contenido de Power BI de métricas de recursos
 
@@ -86,6 +86,3 @@ En la tabla siguiente se muestran las entidades en las que se basaba el contenid
 | Tendencia del empleado           | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                 | Empresa, ubicación geográfica, nombre del empleado, responsable ante, contrapartida del calendario, fecha, puesto del empleado, demografía, empleo, trabajo |
 | Proyecto de contratación masiva        | Número de proyectos de contratación masiva, propietario del proyecto, y estado de proyecto                     | Empresa, línea de contratación masiva |
 | Línea de contratación masiva           | Departamento, tipo de empleo y puesto                                           | Fecha, trabajo, proyecto de contratación masiva |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

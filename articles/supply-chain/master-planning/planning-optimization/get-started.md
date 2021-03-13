@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: a41f69958d84fb67b7cd8b6b4c7de38da23552f3
+ms.sourcegitcommit: 2b76d4443b2867205db156648125a894f395a495
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4437299"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5091094"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introducción a la optimización de la planificación
 
@@ -41,21 +40,42 @@ La funcionalidad de optimización de la planificación no admite actualmente tod
 
 Antes de activar o desactivar la planificación de optimización, se recomienda encarecidamente que evalúe los resultados del análisis de aptitud de optimización de la planificación. Para obtener más información, consulte [Análisis de aptitud de optimización de la planificación](planning-optimization-fit-analysis.md).
 
-### <a name="availability"></a>Disponibilidad
-Optimización de planificación está disponible actualmente en las siguientes geografías de Azure: Estados Unidos, Canadá, Europa, Reino Unido y Australia. Si intenta instalar el complemento desde otra región geográfica, LCS mostrará un mensaje que indica que esta ubicación geográfica no es compatible.
+## <a name="availability"></a>Disponibilidad
+
+Optimización de planificación está disponible actualmente en las siguientes geografías de Azure: Estados Unidos, Canadá, Europa, Reino Unido, Australia y Asia Pacífico. Si intenta instalar el complemento desde otra región geográfica, LCS mostrará un mensaje que indica que esta ubicación geográfica no es compatible.
 
 Tenga en cuenta que Optimización de planificación no admite implementaciones locales de Dynamics 365 Supply Chain Management.
 
-### <a name="licensing"></a>Licencias
+## <a name="licensing"></a>Licencias
 
 Si puede ejecutar con la planificación maestra con su licencia actual, no es necesario comprar una licencia adicional de empezar a usar la optimización de la planificación.
 
-### <a name="install-the-add-in"></a>Instalar el complemento
+## <a name="install-and-enable-planning-optimization"></a>Instalar y habilitar Optimización de planificación
 
-Para usar la optimización de la planificación, instale el complemento de optimización de la planificación para Dynamics 365 Supply Chain Management. Puede obtener acceso al complemento desde su proyecto de LCS y activar la funcionalidad de optimización de la planificación desde la interfaz de usuario (IU) de Supply Chain Management.
+Para usar Optimización de planificación, debe asegurarse de que su sistema tenga todos los requisitos previos en su lugar y luego habilitar su clave de licencia e instalar el complemento de Optimización de planificación para Dynamics 365 Supply Chain Management.
 
-> [!NOTE]
-> El requisito para Optimización de la planificación es un entorno de alta disponibilidad habilitado para LCS, nivel 2 o superior (no un entorno OneBox), con Dynamics 365 Supply Chain Management, versión 10.0.7 o posterior. Si intenta instalar el complemento en un entorno OneBox, la instalación no se completará y deberá cancelarla.
+### <a name="prerequisites"></a>Requisitos previos
+
+Antes de instalar el complemento de Optimización de planificación, debe tener preparados los siguientes requisitos previos:
+
+- Debe ejecutar Supply Chain Management en un entorno de alta disponibilidad habilitado para LCS, nivel 2 o superior (no un entorno OneBox), con Dynamics 365 Supply Chain Management, versión 10.0.7 o posterior. Si intenta instalar el complemento en un entorno OneBox, la instalación no se completará y deberá cancelarla.
+
+- Su sistema debe estar configurado para la integración con Power Platform. Para más información, ver [Requisitos previos para configurar complementos](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) y [Configurar complementos](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+
+### <a name="enable-the-planning-optimization-license"></a>Habilitar la licencia de Optimización de planificación
+
+Para utilizar la Optimización de planificación, debe habilitar su clave de configuración. Para hacerlo:
+
+1. Coloque su sistema en modo de mantenimiento como se describe en [Modo de mantenimiento](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**.
+1. En la pestaña **Claves de configuración**, seleccione la casilla de verificación para **Optimización de planificación**.
+1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+### <a name="install-the-planning-optimization-add-in"></a>Instalar el complemento de Optimización de planificación
+
+Debe instalar el complemento desde su proyecto de LCS y a continuación activar la funcionalidad de optimización de la planificación desde la interfaz de usuario (IU) de Supply Chain Management.
+
+Para instalar el complemento de Optimización de planificación:
 
 1. Inicie sesión en LCS y abra el entorno deseado.
 1. Vaya a **Detalles completos**.
@@ -64,16 +84,16 @@ Para usar la optimización de la planificación, instale el complemento de optim
 1. Seleccione **optimización de la planificación**.
 1. Siga la guía de instalación y acepte los términos y condiciones.
 1. Seleccione **Instalar**.
-1. En la ficha desplegable **Complementos del entorno** debería ver que se está instalando Planning Optimization.
+1. En la ficha desplegable **Complementos del entorno** debería ver que se está instalando Optimización de planificación.
 1. Después de unos minutos, **Instalando** debería cambiar a **Instalado** (es posible que deba actualizar la página). Cuando está instalado, está listo para activar la Optimización de planificación en Dynamics 365 Supply Chain Management.
 
-El objetivo principal de instalar el complemento de Planning Optimization es conectar el servicio y el entorno. Por lo tanto, debe instalar el complemento por separado en cada entorno en el que utilizará Planning Optimization, independientemente de cualquier código movido entre los entornos.
+El objetivo principal de instalar el complemento de Optimización de planificación es conectar el servicio y el entorno. Por lo tanto, debe instalar el complemento por separado en cada entorno en el que utilizará Planning Optimization, independientemente de cualquier código movido entre los entornos.
 
-### <a name="planning-optimization-integration"></a>Integración de la optimización de la planificación
+## <a name="integrate-planning-optimization-with-your-system"></a>Integre la Optimización de la planificación con su sistema
 
 Para configurar si el complemento de optimización de la planificación se debe usar para la planificación maestra, vaya **Planificación maestra** \> **Configuración** \> **Parámetros de optimización de la planificación**.
 
-#### <a name="connection-status"></a>Estado de conexión
+### <a name="connection-status"></a>Estado de conexión
 
 El estado de la conexión indica el estado actual de la conexión entre Supply Chain Management y el servicio de optimización de la planificación. La tabla siguiente muestra los posibles valores.
 
@@ -85,7 +105,7 @@ El estado de la conexión indica el estado actual de la conexión entre Supply C
 | Deshabilitando conexión | Una petición para desactivar la conexión al servicio de optimización de la planificación está actualmente en curso. | No |
 | Obteniendo estado | El sistema está esperando por la información del estado del servicio de optimización de la planificación. | No |
 
-#### <a name="the-use-planning-optimization-option"></a>La opción de optimización de la planificación de uso
+### <a name="the-use-planning-optimization-option"></a>La opción de optimización de la planificación de uso
 
 Si se establece la opción **optimización de la planificación de uso** se determina el motor de planificación que se usa para la planificación maestra:
 
@@ -112,6 +132,3 @@ Si la vista previa de Optimización de la planificación está activada, la plan
 [Aplicar filtros a un plan](plan-filters.md)
 
 [Cancelar un trabajo de planificación](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Contenido de Power BI de rendimiento de almacén
-description: Este tema describe lo que se incluye en el contenido de rendimiento del almacén en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+description: Este tema describe lo que se incluye en el contenido de rendimiento del almacén en Power BI.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687410"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092825"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de almacén
 
@@ -111,6 +111,3 @@ Las siguientes medidas agregadas clave se usan como la base del contenido.
 | Rendimiento del envío        | Enviado por producto                       | CustPackingSlipOnTimeStatus           | Temprano, Puntual y Tarde (consulte las descripciones anteriores en esta tabla). |
 | Rendimiento del envío        | Enviado por cliente                      | CustPackingSlipOnTimeStatus           | Temprano, Puntual y Tarde (consulte las descripciones anteriores en esta tabla). |
 | Rendimiento del envío        | Enviado por sitio/almacén              | CustPackingSlipOnTimeStatus           | Temprano, Puntual y Tarde (consulte las descripciones anteriores en esta tabla). |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

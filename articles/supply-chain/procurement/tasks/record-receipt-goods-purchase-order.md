@@ -1,7 +1,7 @@
 ---
 title: Registrar la recepción de mercancías en el pedido de compra
 description: Este tema explica cómo registrar la recepción de mercancías directamente en un pedido de compra.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d016df08850c75858c50b7f9a97b11b566d26cb0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437281"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022667"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Registrar la recepción de mercancías en el pedido de compra
 
@@ -49,6 +48,3 @@ Este tema explica cómo registrar la recepción de mercancías directamente en u
 6. Establezca el valor de **Cantidad** en '4'. Aquí puede especificar manualmente la cantidad que se está recibiendo para cada línea del pedido.  
 7. Seleccione **Aceptar**. Las mercancías se han registrado ahora como recibidas en el pedido de compra y se ha creado un diario de recepción de producto como documento para reflejar esto. Puede utilizar la acción Recepción de producto para revisar los diarios creados con el pedido de compra y ver qué se ha recibido y cuándo.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

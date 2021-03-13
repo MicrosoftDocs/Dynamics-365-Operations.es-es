@@ -1,6 +1,6 @@
 ---
 title: Nueva interfaz de usuario de documentos en la gestión de documentos empresariales
-description: Este tema proporciona información sobre cómo usar la nueva interfaz de usuario de documentos (UI) en la función de gestión de documentos comerciales del marco de informes electrónicos (ER).
+description: Este tema proporciona información sobre cómo usar la nueva interfaz de usuario de documentos en la función de Administración de documentos empresariales del marco de informes electrónicos.
 author: v-anamir
 manager: AnnBe
 ms.date: 05/12/2019
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681361"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092234"
 ---
-# <a name="new-document-user-interface-in-business-document-management"></a>Nueva interfaz de usuario de documentos en la gestión de documentos empresariales
+# <a name="new-document-user-interface-in-business-document-management"></a>Nueva interfaz de usuario de documentos en la Administración de documentos empresariales
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,3 @@ Siga estos pasos para activar esta función para todas las entidades jurídicas.
 El botón **Nuevo documento** se usa para crear y editar una plantilla en una configuración de formato ER proporcionada por otro proveedor. En el ejemplo, el proveedor es Microsoft. Cuando seleccione **Nuevo documento**, verá todas las plantillas que poseen los proveedores actuales y otros proveedores. Después de seleccionar la plantilla, se abrirá para editarla. La plantilla editada se almacenará en una nueva configuración del formato de ER que se genera automáticamente.
 
 Para más información, vea [Resumen de gestión de documentos empresariales](er-business-document-management.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

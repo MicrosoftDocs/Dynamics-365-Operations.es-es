@@ -1,6 +1,6 @@
 ---
 title: Crear documentación o formación con Grabador de tareas
-description: Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones de tareas y cómo personalizar las guías de tareas de Microsoft e incluirlas en la Ayuda.
+description: Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones, y cómo personalizar las guías de tareas de Microsoft e incluirlas en la Ayuda.
 author: josaw1
 manager: AnnBe
 ms.date: 03/24/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b92ef15fc9f3f6a5ebb6ba4ea4eae1a0f7488995
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1bc634a324e3cc12855a1b36b9a58a9cb38eb5d2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687801"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092878"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Crear documentación o formación con Grabador de tareas
 
@@ -123,6 +123,3 @@ Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas par
 [Grabador de tareas](task-recorder.md)
 
 [Crear Rich Help Topics con el Grabador de tareas (vínculo externo)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

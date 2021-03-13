@@ -1,6 +1,6 @@
 ---
 title: Cargar una configuración en Lifecycle Services
-description: En este tema se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede crear una nueva versión de una configuración de informe electrónico y cargarla en desde Microsoft Dynamics Lifecycle Services (LCS).
+description: En este tema se explica cómo crear una nueva configuración de Informes electrónicos (ER) y subirla a Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684172"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092550"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Cargar una configuración en Lifecycle Services
 
@@ -145,6 +145,3 @@ En este ejemplo, creará una configuración y la cargará a LCS para la empresa 
     La configuración de ER que cargó debe aparecer en la lista.
 
     Tenga en cuenta que la configuración de LCS cargada se puede importar a otra instancia si los proveedores tienen acceso a este proyecto de LCS.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

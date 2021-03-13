@@ -10,23 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e805b9379c73f7b7eb2820662fad70e28181ebf
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436924"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5043402"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Ampliar las entidades de datos disponibles de inventario
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management proporciona características de [extensibilidad](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) que le permiten [agregar campos a tablas mediante la extensión](../../fin-ops-core/dev-itpro/extensibility/add-field-extension). Este tema proporciona un ejemplo que muestra cómo agregar campos extendidos a las vistas `INVENTORSITEONHANDENTITY` e `INVENTWAREHOUSEONHANDENTITY`, de modo que las capacidades de las entidades de datos disponibles del inventario puedan funcionar con las extensiones. Para obtener más información sobre las entidades de datos, consulte [Descripción general de la administración de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Microsoft Dynamics 365 Supply Chain Management proporciona características de [extensibilidad](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) que le permiten [agregar campos a tablas mediante la extensión](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Este tema proporciona un ejemplo que muestra cómo agregar campos extendidos a las vistas `INVENTORSITEONHANDENTITY` e `INVENTWAREHOUSEONHANDENTITY`, de modo que las capacidades de las entidades de datos disponibles del inventario puedan funcionar con las extensiones. Para obtener más información sobre las entidades de datos, consulte [Descripción general de la administración de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > A continuación, se muestra una lista de algunas de las entidades de datos disponibles del inventario:
@@ -69,6 +68,3 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Después de completar estos pasos, puede ampliar el inventario disponible por sitio y el inventario disponible por entidades de datos de almacén agregando los nuevos campos. De esta manera, se asegura de que se reconozcan los campos extendidos y se incluyan durante la migración de datos que usa esas entidades de datos.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Definir asignaciones de modelo de ER y seleccionar orígenes de datos para ellas
-description: En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede seleccionar orígenes de datos para un modelo de datos de informes electrónicos.
+description: Este tema describe cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede seleccionar orígenes de datos para un modelo de datos de informes electrónicos.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fccdda3ac441630836a0d33f78eb04e9cd26d4a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682126"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092119"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Definir asignaciones de modelo de ER y seleccionar orígenes de datos para ellas
 
@@ -157,6 +157,3 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 71. Cierre la página.
 72. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

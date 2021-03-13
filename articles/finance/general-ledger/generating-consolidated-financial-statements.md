@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447656"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044030"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Generar informes financieros consolidados
 
@@ -74,7 +73,7 @@ Las jerarquías organizativas que contienen dimensiones o entidades jurídicas c
 ## <a name="consolidations-that-involve-eliminations"></a>Consolidaciones que suponen eliminaciones
 Las transacciones de eliminación son una parte habitual del proceso de consolidación. En este ejemplo, cinco cuentas se eliminan durante la consolidación: 142600, 211400, 401420, 401180, y 510820. Las empresas pueden configurar sus cuentas de empresas vinculadas de forma diferente. Por ejemplo, algunas empresas establecen el último dígito en 9 si la cuenta se usa en transacciones de empresas vinculadas. Independientemente del método, si conoce las cuentas de empresas vinculadas, puede mostrar las eliminaciones en sus informes financieros consolidados.
 
-La ilustración siguiente muestra una definición de columna para una cuenta de resultados consolidada. Tres cuentas de empresas vinculadas de pérdidas y ganancias se definen para cada empresa mediante el filtro de la dimensión. La columna D incluye las cuentas de eliminación únicamente para la empresa de USMF, y la columna E incluye eliminaciones únicamente para la empresa de DEMF. Se configura la columna D y la columna E de modo que **no** se impriman en el informe financiero.
+La ilustración siguiente muestra una definición de columna para una cuenta de resultados consolidada. Tres cuentas de empresas vinculadas de pérdidas y ganancias se definen para cada empresa mediante el filtro de la dimensión. Las columnas F, G y H incluyen las cuentas de eliminación solo para las empresas USMF, USRT y DEMF. Estas columnas se configuran de forma que **no** se impriman en el informe financiero.
 
 ![Cuenta de resultados en la definición de la columna](./media/column-definition-consolidated-income-statement.png "Cuenta de resultados en la definición de la columna")
 
@@ -140,7 +139,7 @@ Entidades jurídicas pueden tener diferentes calendarios fiscales pero de todos 
 - Cree una definición de columna, y utilice el período y el año para asignar los períodos adecuados para cada empresa.
 - En **Configuración** \> **Otros** \> **Opciones adicionales**, seleccione si consolidar mediante la fecha final del período o el número del período.
 
-Cuando está diseñando la definición de columna para varias empresas con diferentes períodos fiscales, es importante que considere qué empresa asignará al campo **Nombre de la empresa** en la definición de informe. El calendario fiscal de la empresa se usará como el calendario fiscal base para la definición de informe. Por ejemplo, la tabla siguiente muestra la configuración del período fiscal para las empresas USMF e INMF. Para los informes consolidados, mejor usar el calendario fiscal que USMF utiliza. La columna ”Asignación" muestra el período y el año equivalentes para cada empresa si un informe se genera para el 30 de junio de 2018.
+Cuando está diseñando la definición de columna para varias empresas con diferentes períodos fiscales, es importante que considere qué empresa asignará al campo **Nombre de la empresa** en la definición de informe. El calendario fiscal de la empresa se usará como el calendario fiscal base para la definición de informe. Por ejemplo, la tabla siguiente muestra el período fiscal establecido para las empresas USMF e INMF. Para los informes consolidados, mejor usar el calendario fiscal que USMF utiliza. La columna ”Asignación" muestra el período y el año equivalentes para cada empresa si un informe se genera para el 30 de junio de 2018.
 
 | Compañía   | Ejercicio                                  | Distribución                     |
 |-----------|----------------------------------------------|-----------------------------|
@@ -224,6 +223,3 @@ Para obtener los importes convertidos correctamente cuando se usan divisas, el i
 Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el tema principal de este tema [Visión general de consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
 
 Para obtener más información acerca de cómo especificar los detalles de consolidaciones en línea, consulte [Consolidaciones financieras en línea](./consolidate-online.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Diseñar configuraciones para generar documentos que tengan datos de la aplicación
-description: 'Para completar los pasos de este procedimiento, primero debe completar el procedimiento, ER Generar documentos con la actualización de los datos de la aplicación (Parte 1: Configuraciones de importación)".'
+description: 'Este tema describe cómo diseñar las configuraciones de los informes electrónicos (ER) para generar un documento electrónico. (Parte 1: importar configuraciones).'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d099836ba00ffa1d4fd002af4ac3e6045b41c6a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 417c419dc6925bac337fe74a2f057395316ec75d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684604"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092931"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Diseñar configuraciones para generar documentos que tengan datos de la aplicación
 
@@ -58,6 +58,3 @@ Antes de comenzar, cambie el contexto del país para la empresa de DEMF de Alema
 10. Cierre la página.
 11. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

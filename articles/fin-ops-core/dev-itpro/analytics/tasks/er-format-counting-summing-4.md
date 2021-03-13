@@ -1,6 +1,6 @@
 ---
 title: 'Informe electrónico Configurar el formato para contar y sumar (Parte 4: Ejecución de formato)'
-description: Los pasos siguientes explican cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos puede configurar un formato de informe electrónico (ER) para que realice el recuento y calcule en función de los datos de la salida de texto ya generada.
+description: Este tema describe cómo configurar un formato de informes electrónicos para realizar recuentos y sumas en función de los datos de la salida de texto ya generados. (Parte 4)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8f37fc3c611e9c5328f4d99be8c7c63ab59b2f08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c5576229e8b81824dff6d0b38b8ab5483e04ade8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684652"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092956"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>Informe electrónico Configurar el formato para contar y sumar (Parte 4: Ejecución de formato)
 
@@ -103,6 +103,3 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 21. Haga clic en Abrir.
     * Revise el archivo XML creado que contiene los detalles de recuento y suma obtenidos durante la ejecución de la configuración seleccionada.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

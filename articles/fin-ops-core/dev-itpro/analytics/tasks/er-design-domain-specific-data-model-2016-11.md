@@ -1,6 +1,6 @@
 ---
 title: CE Diseñar el modelo de datos específico de dominio
-description: En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede crear una nueva configuración de informes electrónicos que contenga un modelo de datos para los documentos de pago electrónico.
+description: Este tema describe cómo crear una nueva configuración de informes electrónicos (ER) que contiene un modelo de datos para documentos de pago electrónicos.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681958"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092700"
 ---
 # <a name="er-design-domain-specific-data-model"></a>CE Diseñar el modelo de datos específico de dominio
 
@@ -187,6 +187,3 @@ Usted está creando un nuevo modelo de datos para la configuración seleccionada
 65. Haga clic en Guardar.
 66. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4415667"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032942"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configuraciones visuales de la interfaz de usuario de PDV
 
@@ -117,6 +116,9 @@ En diseños de PDV compacto, las cuadrículas de botones se disponen automática
 
 ![Cuadrículas de botones de diseño compacto](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> Los tamaños de los botones en el diseñador se ajustarán al tamaño de la ventana, por lo que es posible que no reflejen con precisión los botones reales representados en el PDV. Para simular mejor el diseño de la cuadrícula de botones, ajuste las ventanas del diseñador al mismo tamaño que el PDV.
+
 ### <a name="images"></a>Imágenes
 
 Para cada tamaño de diseño de un diseño de pantalla, puede especificar imágenes para incluirlas en la interfaz de usuario del sistema PDV. Para los diseños de PDV completos, se puede especificar una sola imagen para la pantalla de bienvenida. En la izquierda aparece una imagen como el primer elemento de la interfaz de usuario. En la pantalla **Transacción**, las imágenes se pueden utilizar como imágenes de pestaña o como un logotipo. Los diseños de PDV compactos no utilizan estas imágenes.
@@ -205,6 +207,3 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Instalar el diseñador de punto de venta (TPV) de Retail](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

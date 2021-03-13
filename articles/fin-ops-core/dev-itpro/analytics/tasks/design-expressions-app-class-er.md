@@ -1,6 +1,6 @@
 ---
 title: Diseñe expresiones de ER para abrir métodos de clase de aplicación
-description: Esta guía proporciona información acerca de cómo volver a usar la lógica de aplicación existente en las configuraciones de informes electrónicos (ER) llamando a los métodos necesarios de clases de aplicación en expresiones de ER.
+description: Este tema describe cómo volver a usar la lógica de aplicación existente en las configuraciones de informes electrónicos llamando a los métodos necesarios de clases de aplicación.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682030"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092094"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Diseñe expresiones de ER para abrir métodos de clase de aplicación
 
@@ -157,6 +157,3 @@ Para comprobar, ejecute la asignación de formato mediante el archivo SampleInco
 2. Haga clic en Aceptar
     * Revise la salida en formato XML que representa los datos que se han importado del archivo seleccionado y se han trasladado al modelo de datos. Tenga en cuenta que solo las líneas 3 del archivo TXT importado se procesaron. El código de IBAN de la línea 4 que no es válida se saltó y se proporcionó un mensaje de error en el registro de información.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
