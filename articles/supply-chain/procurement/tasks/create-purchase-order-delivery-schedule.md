@@ -1,7 +1,7 @@
 ---
 title: Crear un pedido de compra con una programación de entrega
 description: En este tema se demuestra cómo crear una programación de entrega para un pedido de compra.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b8cbcd46e84ca9e718a0f8f59c106147544a3751
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437250"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021813"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Crear un pedido de compra con una programación de entrega
 
@@ -74,6 +73,3 @@ Se debe confirmar el pedido de compra para que se pueda procesar la recepción d
 6. Contraiga la sección **Líneas**.
 7. Seleccione **Aceptar** para registrar la recepción.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
