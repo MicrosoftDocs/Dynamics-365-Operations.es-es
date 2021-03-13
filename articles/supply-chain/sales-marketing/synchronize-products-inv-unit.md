@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,47 +18,47 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 911c5cc79ae359bbb77d31f366ccfeabf282a33e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c5be622d6f62d54bcec053b93700ce0c234b8308
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436997"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010906"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a><span data-ttu-id="4402f-103">Sincronizar productos con unidad de inventario de Supply Chain Management a Field Service</span><span class="sxs-lookup"><span data-stu-id="4402f-103">Synchronize products with inventory unit from Supply Chain Management to Field Service</span></span>
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a><span data-ttu-id="4c179-103">Sincronizar productos con unidad de inventario de Supply Chain Management a Field Service</span><span class="sxs-lookup"><span data-stu-id="4c179-103">Synchronize products with inventory unit from Supply Chain Management to Field Service</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="4402f-104">En este tema se describe las plantillas y la tarea subyacente que se usan para sincronizar productos con unidades de inventario de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="4402f-104">This topic discusses the templates and underlying task that are used to synchronize products with inventory unit from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
+<span data-ttu-id="4c179-104">En este tema se describe las plantillas y la tarea subyacente que se usan para sincronizar productos con unidades de inventario de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="4c179-104">This topic discusses the templates and underlying task that are used to synchronize products with inventory unit from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
 
-<span data-ttu-id="4402f-105">[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span><span class="sxs-lookup"><span data-stu-id="4402f-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span></span>
+<span data-ttu-id="4c179-105">[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span><span class="sxs-lookup"><span data-stu-id="4c179-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span></span>
 
-<span data-ttu-id="4402f-106">La plantilla **Productos de Field Service con unidad de inventario (Supply Chain Management a Field Service)** usada se basa en la plantilla **Productos de Field Service (Supply Chain Management a Field Service)**.</span><span class="sxs-lookup"><span data-stu-id="4402f-106">The used **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template is based on the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="4402f-107">Para obtener más información, consulte [Sincronizar productos en Supply Chain Management para productos en Field Service](field-service-product.md).</span><span class="sxs-lookup"><span data-stu-id="4402f-107">For more information, see [Synchronize products in Supply Chain Management to products in Field Service](field-service-product.md).</span></span>
+<span data-ttu-id="4c179-106">La plantilla **Productos de Field Service con unidad de inventario (Supply Chain Management a Field Service)** usada se basa en la plantilla **Productos de Field Service (Supply Chain Management a Field Service)**.</span><span class="sxs-lookup"><span data-stu-id="4c179-106">The used **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template is based on the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="4c179-107">Para obtener más información, consulte [Sincronizar productos en Supply Chain Management para productos en Field Service](field-service-product.md).</span><span class="sxs-lookup"><span data-stu-id="4c179-107">For more information, see [Synchronize products in Supply Chain Management to products in Field Service](field-service-product.md).</span></span>
 
-<span data-ttu-id="4402f-108">Este tema describe sólo las diferencias entre las dos plantillas:</span><span class="sxs-lookup"><span data-stu-id="4402f-108">This topic only describes the differences between the two templates:</span></span> 
-- <span data-ttu-id="4402f-109">**Productos Field Service con unidad de inventario (Supply Chain Management a Sales)**</span><span class="sxs-lookup"><span data-stu-id="4402f-109">**Field Service Products with Inventory unit (Supply Chain Management to Sales)**</span></span>
-- <span data-ttu-id="4402f-110">**Productos de Field Service (Supply Chain Management a Field Service)**</span><span class="sxs-lookup"><span data-stu-id="4402f-110">**Field Service Products (Supply Chain Management to Field Service)**</span></span> 
+<span data-ttu-id="4c179-108">Este tema describe sólo las diferencias entre las dos plantillas:</span><span class="sxs-lookup"><span data-stu-id="4c179-108">This topic only describes the differences between the two templates:</span></span> 
+- <span data-ttu-id="4c179-109">**Productos Field Service con unidad de inventario (Supply Chain Management a Sales)**</span><span class="sxs-lookup"><span data-stu-id="4c179-109">**Field Service Products with Inventory unit (Supply Chain Management to Sales)**</span></span>
+- <span data-ttu-id="4c179-110">**Productos de Field Service (Supply Chain Management a Field Service)**</span><span class="sxs-lookup"><span data-stu-id="4c179-110">**Field Service Products (Supply Chain Management to Field Service)**</span></span> 
 
-## <a name="templates-and-tasks"></a><span data-ttu-id="4402f-111">Plantillas y tareas</span><span class="sxs-lookup"><span data-stu-id="4402f-111">Templates and tasks</span></span>
+## <a name="templates-and-tasks"></a><span data-ttu-id="4c179-111">Plantillas y tareas</span><span class="sxs-lookup"><span data-stu-id="4c179-111">Templates and tasks</span></span>
 
-<span data-ttu-id="4402f-112">**Nombre de la plantilla en la integración de datos:**</span><span class="sxs-lookup"><span data-stu-id="4402f-112">**Name of the template in Data integration:**</span></span>
+<span data-ttu-id="4c179-112">**Nombre de la plantilla en la integración de datos:**</span><span class="sxs-lookup"><span data-stu-id="4c179-112">**Name of the template in Data integration:**</span></span>
 
-- <span data-ttu-id="4402f-113">Productos Field Service con unidad de inventario (Supply Chain Management a Sales)</span><span class="sxs-lookup"><span data-stu-id="4402f-113">Field Service Products with Inventory unit (Supply Chain Management to Sales)</span></span>
+- <span data-ttu-id="4c179-113">Productos Field Service con unidad de inventario (Supply Chain Management a Sales)</span><span class="sxs-lookup"><span data-stu-id="4c179-113">Field Service Products with Inventory unit (Supply Chain Management to Sales)</span></span>
 
-<span data-ttu-id="4402f-114">**Nombre de la tarea en el proyecto de integración de datos**:</span><span class="sxs-lookup"><span data-stu-id="4402f-114">**Name of the task in the Data integration project:**</span></span>
+<span data-ttu-id="4c179-114">**Nombre de la tarea en el proyecto de integración de datos**:</span><span class="sxs-lookup"><span data-stu-id="4c179-114">**Name of the task in the Data integration project:**</span></span>
 
-- <span data-ttu-id="4402f-115">Productos</span><span class="sxs-lookup"><span data-stu-id="4402f-115">Products</span></span>
+- <span data-ttu-id="4c179-115">Productos</span><span class="sxs-lookup"><span data-stu-id="4c179-115">Products</span></span>
 
-<span data-ttu-id="4402f-116">La plantilla **Productos de Field Service con unidad de inventario (Supply Chain Management a Field Service)** incluye una asignación que no está incluida en la plantilla **Productos de Field Service (Supply Chain Management a Field Service)**.</span><span class="sxs-lookup"><span data-stu-id="4402f-116">The **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="4402f-117">Esta asignación garantiza que la unidad de inventario necesaria para la sincronización de nivel de inventario esté incluida.</span><span class="sxs-lookup"><span data-stu-id="4402f-117">This mapping ensures that the Inventory unit needed for inventory level synchronization is included.</span></span>
+<span data-ttu-id="4c179-116">La plantilla **Productos de Field Service con unidad de inventario (Supply Chain Management a Field Service)** incluye una asignación que no está incluida en la plantilla **Productos de Field Service (Supply Chain Management a Field Service)**.</span><span class="sxs-lookup"><span data-stu-id="4c179-116">The **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="4c179-117">Esta asignación garantiza que la unidad de inventario necesaria para la sincronización de nivel de inventario esté incluida.</span><span class="sxs-lookup"><span data-stu-id="4c179-117">This mapping ensures that the Inventory unit needed for inventory level synchronization is included.</span></span>
 
 ```plaintext
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
 ```
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="4402f-118">Asignación de la plantilla en la integración de datos</span><span class="sxs-lookup"><span data-stu-id="4402f-118">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="4c179-118">Asignación de la plantilla en la integración de datos</span><span class="sxs-lookup"><span data-stu-id="4c179-118">Template mapping in Data integration</span></span>
 
-<span data-ttu-id="4402f-119">Las siguientes ilustraciones muestran la asignación de plantilla en la integración de datos.</span><span class="sxs-lookup"><span data-stu-id="4402f-119">The following illustrations show the template mapping in Data integration.</span></span>
+<span data-ttu-id="4c179-119">Las siguientes ilustraciones muestran la asignación de plantilla en la integración de datos.</span><span class="sxs-lookup"><span data-stu-id="4c179-119">The following illustrations show the template mapping in Data integration.</span></span>
 
-### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a><span data-ttu-id="4402f-120">Producto de Field Service con unidad de inventario (Supply Chain Management a Field Service): Productos</span><span class="sxs-lookup"><span data-stu-id="4402f-120">Field Service Products with Inventory unit (Supply Chain Management to Field Service): Products</span></span>
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a><span data-ttu-id="4c179-120">Producto de Field Service con unidad de inventario (Supply Chain Management a Field Service): Productos</span><span class="sxs-lookup"><span data-stu-id="4c179-120">Field Service Products with Inventory unit (Supply Chain Management to Field Service): Products</span></span>
 
-<span data-ttu-id="4402f-121">[![Asignación de la plantilla en la integración de datos](./media/FSProduct1.png)](./media/FSProduct1.png)</span><span class="sxs-lookup"><span data-stu-id="4402f-121">[![Template mapping in Data integration](./media/FSProduct1.png)](./media/FSProduct1.png)</span></span>
+<span data-ttu-id="4c179-121">[![Asignación de la plantilla en la integración de datos](./media/FSProduct1.png)](./media/FSProduct1.png)</span><span class="sxs-lookup"><span data-stu-id="4c179-121">[![Template mapping in Data integration](./media/FSProduct1.png)](./media/FSProduct1.png)</span></span>
