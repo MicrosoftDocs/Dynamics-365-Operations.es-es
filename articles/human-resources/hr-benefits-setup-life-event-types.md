@@ -2,7 +2,7 @@
 title: Configurar tipos de eventos de vida
 description: Microsoft Dynamics 365 Human Resources usa tipos de eventos de vida para definir eventos donde es válido actualizar la inscripción de prestaciones para empleados.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420402"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114174"
 ---
 # <a name="configure-life-event-types"></a>Configurar tipos de eventos de vida
 
@@ -88,6 +88,3 @@ Puede elegir entre los siguientes eventos de vida cuando cree un tipo de evento 
 | **Expiración de la anulación de la regla de idoneidad (no específica de EE. UU.)** | Recursos humanos avanzados > Prestaciones > Planes > Prestaciones > Anulación de regla de idoneidad | Usar el procesamiento de cambios de eventos de vida. Por ejemplo, si edita la fecha de vencimiento de anulación de la regla de idoneidad de un plan para que sea hoy a las 5:00 p. m. y en cualquier momento después de las 5:00 p. m. o los días siguientes ejecuta el proceso de cambio de evento de vida, aparece un mensaje que dice que la anulación de la regla de idoneidad ha expirado. |
 | **Nuevo plan de prestaciones (no específico de EE. UU.)** | Recursos humanos avanzados > Prestaciones > Planes > Nuevo | <ul><li>Las opciones de idoneidad se agregan a un plan actual</li><li>Se agrega un nuevo plan con opciones de idoneidad adjuntas</li></ul></br></br>El personal de recursos humanos debe ejecutar el proceso de idoneidad para eventos de vida en este caso. |
 | **Cambio de la regla de idoneidad (no específica de EE. UU.)** | Recursos humanos avanzados > Prestaciones > Reglas y opciones > Reglas de idoneidad | Usar el procesamiento de idoneidad de eventos de vida. Registrado cuando los registros **EhrBenefitEligibilityRule** tienen los siguientes valores cambiados: **UseEmplCategory**, **UseEmplStatus** o **UseEmplType**. Solo actualiza las transacciones de eventos de vida que ya existen para una regla modificada o criterios de idoneidad. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

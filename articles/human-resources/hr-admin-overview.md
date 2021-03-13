@@ -1,8 +1,8 @@
 ---
-title: Visión general
+title: Visión general de la administración
 description: Esta Guía del administrador lo ayuda a configurar, administrar y solucionar problemas de Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527870"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114208"
 ---
-# <a name="overview"></a>Visión general
+# <a name="administration-overview"></a>Visión general de la administración
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ Esta Guía del administrador lo ayuda a configurar, administrar y solucionar pro
 
 - Configurar integración de datos
   - [Elegir una tecnología de integración de datos](hr-admin-integration-choose-technology.md)
-  - [Configurar la integración de Common Data Service](hr-admin-integration-common-data-service.md)
+  - [Configurar la integración de Dataverse](hr-admin-integration-common-data-service.md)
   - [Configurar la integración con Finance](hr-admin-integration-finance.md)
   - [Configurar la integración con Dayforce](hr-admin-integration-dayforce.md)
   - [Crear una aplicación de exportación de datos periódica](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ Esta Guía del administrador lo ayuda a configurar, administrar y solucionar pro
 - [Novedades y cambios en Recursos humanos](hr-admin-whats-new.md)
 - [Guía de desarrolladores](hr-developer-overview.md)
 - [Manual del usuario](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

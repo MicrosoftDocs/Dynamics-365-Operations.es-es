@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669189"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114073"
 ---
 # <a name="recruit-job-candidates"></a>Contratar candidatos de trabajo
 
@@ -38,7 +38,7 @@ Dynamics 365 Human Resources le ayuda a administrar las solicitudes de contratac
 Si no está usando una aplicación de contratación independiente, también puede administrar candidatos manualmente en Human Resources.
 
 >[!NOTE]
->Si es administrador o desarrollador, y desea integrar Human Resources con una aplicación de contratación de terceros, consulte [Configurar la integración de Common Data Service](hr-admin-integration-common-data-service.md) y [Configurar las entidades virtuales de Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)
+>Si es administrador o desarrollador, y desea integrar Human Resources con una aplicación de contratación de terceros, consulte [Configurar la integración de Dataverse](hr-admin-integration-common-data-service.md) y [Configurar las tablas virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > También puede encontrar aplicaciones de integración de contratación en [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ Si no está usando una aplicación de contratación independiente, también pued
 
 ## <a name="enable-recruiting-requests"></a>Habilitar solicitudes de contratación
 
-Si desea enviar solicitudes de contratación en Human Resources, debe habilitar primero la funcionalidad en **Parámetros de recursos humanos**.
+Si desea enviar solicitudes de contratación en Human Resources, debe habilitar primero la funcionalidad en **Parámetros compartidos de recursos humanos**.
 
 1. En el espacio de trabajo **Administración de personal**, seleccione **Vínculos**.
 
-2. En **Configuración**, seleccione **Parámetros de Recursos Humanos**.
+2. En **Configuración**, seleccione **Parámetros compartidos de Recursos Humanos**.
 
-3. Sobre la pestaña **General**, debajo de **CONTRATACIÓN**, establezca **Habilitar solicitudes de contratación** en **Sí**.
-
-   ![Habilitar solicitudes de contratación](./media/hr-recruit-0-enable-requests.png)
+3. En la pestaña **Contratación**, en **CONTRATACIÓN**, establezca **Habilitar solicitudes de contratación** en **Sí**.
 
 ## <a name="add-a-recruiting-request-location"></a>Agregar una ubicación de solicitud de contratación
 
@@ -224,8 +222,6 @@ Si es necesario, puede despedir a un candidato después de contratarlo. Por ejem
 
 ## <a name="see-also"></a>Consulte también
 
-[Configurar entidades virtuales de Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Configurar tablas virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Organizar los recursos](hr-personnel-departments-jobs-positions.md)<br>
 [Configurar los componentes de un trabajo](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

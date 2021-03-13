@@ -2,7 +2,7 @@
 title: Crear planes de prestaciones de trabajadores
 description: Puede crear planes de prestaciones para trabajadores en Microsoft Dynamics 365 Human Resources para seleccionar planes de prestaciones para los empleados y confirmar las selecciones de planes de prestaciones.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2083d3b18621ec7759b658b5ec34f2371c2ea1df
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420367"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114188"
 ---
 # <a name="create-worker-benefit-plans"></a>Crear planes de prestaciones de trabajadores
 
@@ -49,6 +49,3 @@ Puede crear planes de prestaciones para trabajadores en Microsoft Dynamics 365 H
    | Planes | La pestaña rápida de planes contiene los planes que cumplen con los criterios de filtro que especificó. Las opciones de configuración relevantes establecidas por el personal de recursos humanos y las selecciones de inscripción elegidas por los empleados se incluyen en cada línea. El campo Calificado especifica si existe un conflicto de validación con la selección del plan. |
 
 4. Seleccione **Guardar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

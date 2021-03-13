@@ -2,7 +2,7 @@
 title: Crear un objetivo
 description: Puede crear objetivos, agregar actividades a los objetivos, realizar el seguimiento de medidas y vincular los objetivos a una revisión.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2157e3b31786c8f0412ea447831e45a2290b8e35
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 875d0ae7ae6b93f3fc29aeb4617671de289e6c63
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420355"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115833"
 ---
 # <a name="create-a-goal"></a>Crear un objetivo
 
@@ -58,6 +58,3 @@ Puede crear objetivos, agregar actividades a los objetivos, realizar el seguimie
     * A menudo hay varios objetivos que son los mismos o similares para los miembros del equipo o para todos los empleados.     El administrador o el responsable de RR. HH. puede crear grupos de objetivos que incluyen una o varias plantillas de objetivos. Puede agregar objetivos de un grupo de objetivos y, a continuación, modificarlos para que se adapten a las escalas de tiempo.  
     * Al crear una revisión, puede agregar objetivos a dicha revisión. Consulte la guía de tareas para revisiones para ver cómo puede agregar objetivos a sus revisiones.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

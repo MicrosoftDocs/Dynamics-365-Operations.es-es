@@ -2,7 +2,7 @@
 title: Configurar frecuencias de pago
 description: Microsoft Dynamics 365 Human Resources utiliza las frecuencias de pago para calcular el salario anual de prestaciones, determinar el importe de la prima de beneficios que un empleado paga en cada período de pago y la frecuencia con la que se paga a los proveedores.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a5d562b64a161891bf34b0dfa94fbf68325e21b5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f5a2ad19d9f9f3a6afa2574d9fdb8841c70d6e6e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420441"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114173"
 ---
 # <a name="set-up-payment-frequencies"></a>Configurar frecuencias de pago
 
@@ -56,6 +56,3 @@ Los campos de factores de conversión identifican el factor de conversión de la
    | **Factor de conversión de horas** | El factor de conversión anual para la frecuencia de pago. Por ejemplo, el factor de conversión anual para la frecuencia de pago mensual es: </br></br>(12 pagos mensuales / 2080 horas) = 0,005769
 
 4. Seleccione **Guardar**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

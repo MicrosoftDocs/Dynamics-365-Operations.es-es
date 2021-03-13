@@ -1,7 +1,7 @@
 ---
 title: Complemento de visibilidad de inventario
 description: Este tema describe cómo instalar y configurar el complemento de visibilidad de inventario para Dynamics 365 Supply Chain Management.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625074"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114679"
 ---
 # <a name="inventory-visibility-add-in"></a>Complemento de visibilidad de inventario
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 El complemento de visibilidad de inventario es un microservicio independiente y altamente escalable que permite el seguimiento del inventario disponible en tiempo real, lo que proporciona una vista global de la visibilidad del inventario.
 
 Toda la información relacionada con el inventario disponible se exporta al servicio casi en tiempo real mediante la integración de SQL de bajo nivel. Los sistemas externos acceden al servicio a través de API RESTful para consultar información disponible sobre conjuntos de dimensiones dados, recuperando así una lista de posiciones disponibles disponibles.
 
-Inventory Visibility es un microservicio construido en Common Data Service, lo que significa que puede ampliarlo creando Power Apps y aplicando Power BI para proporcionar una funcionalidad personalizada para satisfacer los requisitos de su negocio. También es posible actualizar el índice para realizar consultas de inventario.
+Inventory Visibility es un microservicio construido en Microsoft Dataverse, lo que significa que puede ampliarlo creando Power Apps y aplicando Power BI para proporcionar una funcionalidad personalizada para satisfacer los requisitos de su negocio. También es posible actualizar el índice para realizar consultas de inventario.
 
 Inventory Visibility ofrece opciones de configuración que le permiten integrarse con varios sistemas de terceros. Admite la dimensión de inventario estandarizado, la extensibilidad personalizada y las cantidades calculadas configurables estandarizadas.
 
@@ -78,30 +78,57 @@ Para instalar el complemento de visibilidad de inventario, haga lo siguiente:
 
 ### <a name="get-a-security-service-token"></a>Obtenga un token de servicio de seguridad
 
-Para obtener un token de servicio de seguridad, haga lo siguiente:
+Obtenga un token de servicio de seguridad de la siguiente forma:
 
-1. Conseguir su `aadToken` y llamar al punto final: https://securityservice.operations365.dynamics.com/token.
-1. Reemplace `client_assertion` en el cuerpo con su `aadToken`.
-1. Reemplace el contexto en el cuerpo con el entorno donde desea implementar el complemento.
-1. Reemplace el alcance en el cuerpo con lo siguiente:
+1. Inicie sesión en Azure Portal y utilícelo para encontrar el `clientId` y el `clientSecret` para su aplicación Supply Chain Management.
+1. Busque un token Azure Active Directory (`aadToken`) enviando una solicitud HTTP con las siguientes propiedades:
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Método** - `GET`
+    - **Contenido del cuerpo (datos del formulario)**:
 
-    - Alcance para MCK - "https://inventoryservice.operations365.dynamics.cn/.default"  
-    (Puede encontrar el ID de aplicación e ID de inquilino de Azure Active Directory para MCK en `appsettings.mck.json`).
-    - Alcance para PROD - "https://inventoryservice.operations365.dynamics.com/.default"  
-    (Puede encontrar el ID de aplicación e ID de inquilino de Azure Active Directory para PROD en `appsettings.prod.json`).
+        | key | valor |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. Debería recibir un `aadToken` en respuesta, que se parece al siguiente ejemplo.
 
-    El resultado se parecerá al ejemplo siguiente.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Formule una solicitud JSON similar a la siguiente:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Donde:
+    - El valor `client_assertion` debe ser el `aadToken` que recibió en el paso anterior.
+    - El valor `context` debe ser el ID de entorno en el que desea implementar el complemento.
+    - Configure todos los demás valores como se muestra en el ejemplo.
+
+1. Envíe una solicitud HTTP con las siguientes propiedades:
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **Método** - `POST`
+    - **Encabezado HTTP** - Incluya la versión de API (la clave es `Api-Version` y el valor es `1.0`)
+    - **Contenido del cuerpo** - Incluya la solicitud JSON que creó en el paso anterior.
 
 1. Obtendrá `access_token` como respuesta. Esto es lo que necesita como token de portador para llamar a la API de visibilidad de inventario. He aquí un ejemplo.
 
@@ -500,6 +527,3 @@ Las consultas que se muestran en los ejemplos anteriores podrían devolver un re
 ```
 
 Tenga en cuenta que los campos de cantidades están estructurados como un diccionario de medidas y sus valores asociados.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

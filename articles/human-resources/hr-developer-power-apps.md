@@ -2,7 +2,7 @@
 title: Ampliar Talent con Power Apps y Power Automate
 description: En este artículo se describen algunos ejemplos de los escenarios de la extensibilidad para Microsoft Dynamics 365 Human Resources que usan Microsoft Power Apps y Microsoft Power Automate.
 author: negudava
-manager: Annbe
+manager: tfehr
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core;Experience Apps;Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e6885c67f42ead34b5e10cc1b1a80a88fd2d59b9
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527035"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115375"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Ampliar con Power Apps y Power Automate
 
@@ -51,7 +51,7 @@ Para descargar la aplicación **Integración con Microsoft 365, Power Automate**
 
 La plantilla **Power Automate - Conectar y ejecutar SQL** se conecta a Microsoft SQL Server y activa la ejecución de consultas SQL.
 
-Aunque esta plantilla lee y actualiza las tablas SQL, puede ampliarla y usarla para otros escenarios. Por ejemplo, puede usarla para rellenar una tabla de ensayo de Common Data Service con registros de SQL Server, y para sincronizar periódicamente la tabla de ensayo mediante una inserción incremental desde SQL Server.
+Aunque esta plantilla lee y actualiza las tablas SQL, puede ampliarla y usarla para otros escenarios. Por ejemplo, puede usarla para rellenar una tabla de ensayo de Dataverse con registros de SQL Server, y para sincronizar periódicamente la tabla de ensayo mediante una inserción incremental desde SQL Server.
 
 La consulta avanzada está integrada con Flow para permitir la transformación de datos y la inserción incremental.
 
@@ -60,5 +60,3 @@ Para descargar la plantilla **Power Automate - Conectar y ejecutar SQL**, vaya a
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [La Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

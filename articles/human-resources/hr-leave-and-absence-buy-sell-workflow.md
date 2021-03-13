@@ -2,7 +2,7 @@
 title: Crear un flujo de trabajo de solicitudes de compras y ventas de permisos y ausencias
 description: Cree un flujo de trabajo de solicitudes de compras y ventas de permisos y ausencias para comprar y vende solicitudes de bajas de manera coherente en Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d490e0c36ea0e854c5d7afc5b3bf75f6b65e542c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4732b5dafc8074c5c59f10f02bbee7e22f51960a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420471"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116053"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>Crear un flujo de trabajo de solicitudes de compras y ventas de permisos y ausencias
 
@@ -81,6 +81,3 @@ Estos ejemplos muestran cómo puede crear diferentes tipos de condiciones de flu
 [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)<br>
 [Gestionar directivas de compra y venta de bajas](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

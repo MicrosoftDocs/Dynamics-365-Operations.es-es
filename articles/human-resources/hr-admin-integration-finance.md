@@ -2,7 +2,7 @@
 title: Configurar la integración con Finance
 description: Este artículo describe la funcionalidad disponible para la integración de Dynamics 365 Human Resources y Dynamics 365 Finance.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6587b2ced1fdd7a16c6b3f28a34d4a303af9cee5
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527933"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114162"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar la integración con Finance
 
@@ -44,7 +44,7 @@ La solución Human Resources a Finance proporciona los siguientes tipos de sincr
 
 La solución de integración requiere las siguientes versiones de Human Resources y Finance: 
 
-- Dynamics 365 Human Resources en Common Data Service
+- Dynamics 365 Human Resources en Dataverse
 - Dynamics 365 Finance versión 7.2 y posteriores
 
 ## <a name="template-and-tasks"></a>Plantilla y tareas
@@ -55,7 +55,7 @@ Para acceder a la plantilla de Human Resources a Finance.
 
 2. Seleccione **Proyectos** y luego seleccione **Nuevo proyecto** en la esquina superior derecha. Crear un nuevo proyecto para cada entidad jurídica que desee integrar en Finance.
 
-3. Seleccione **Human Resources (Human Resources Common Data Service a Finance)** para sincronizar registros de Human Resources a Finance.
+3. Seleccione **Human Resources (Human Resources Dataverse a Finance)** para sincronizar registros de Human Resources a Finance.
 
 La plantilal usa las siguientes tareas subyacentes para sincronizar registros de Human Resources con Finance:
 
@@ -81,14 +81,14 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="job-functions-to-compensation-job-function"></a>Funciones de trabajo con la función de trabajo de compensación
 
-| Entidad de Common Data Service (origen) | Entidad de Finance (destino) |
+| Tabla de Dataverse (origen) | Entidad de Finance (destino) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Function Name)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Departamentos con unidad operativa
 
-| Entidad de Common Data Service (origen)           | Entidad de Finance (destino) |
+| Tabla de Dataverse (origen)           | Entidad de Finance (destino) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -97,7 +97,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="job-types-to-compensation-job-type"></a>Tipos de trabajo con tipo de trabajo de compensación
 
-| Entidad de Common Data Service (origen)   | Entidad de Finance (destino) |
+| Tabla de Dataverse (origen)   | Entidad de Finance (destino) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -105,7 +105,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="jobs-to-jobs"></a>Trabajos con trabajos
 
-| Entidad de Common Data Service (origen)                           | Entidad de Finance (destino)           |
+| Tabla de Dataverse (origen)                           | Entidad de Finance (destino)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -115,7 +115,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="jobs-to-job-detail"></a>Trabajos con detalles del trabajo
 
-| Entidad de Common Data Service (origen)                             | Entidad de Finance (destino) |
+| Tabla de Dataverse (origen)                             | Entidad de Finance (destino) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (Tipo de trabajo (Nombre del tipo de trabajo))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -126,7 +126,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="position-types-to-position-type"></a>Tipos de puesto con tipo de puesto
 
-| Entidad de Common Data Service (origen)       | Entidad de Finance (destino) |
+| Tabla de Dataverse (origen)       | Entidad de Finance (destino) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -134,13 +134,13 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="job-positions-to-base-position"></a>Puestos de trabajo con puesto base
 
-| Entidad de Common Data Service (origen)           | Entidad de Finance (destino) |
+| Tabla de Dataverse (origen)           | Entidad de Finance (destino) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Número de puesto de trabajo) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Puestos de trabajo con detalles del puesto
 
-| Entidad de Common Data Service (origen)              | Entidad de Finance (destino)       |
+| Tabla de Dataverse (origen)              | Entidad de Finance (destino)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (Número de puesto de trabajo)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (Trabajo (Nombre))                                        | JOBID (JOBID)                                    |
@@ -154,7 +154,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="job-positions-to-position-durations"></a>Puestos de trabajo con duraciones de puestos de trabajo
 
-| Entidad de Common Data Service (origen)             | Entidad de Finance (destino) |
+| Tabla de Dataverse (origen)             | Entidad de Finance (destino) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Número de puesto de trabajo)   | POSITIONID (POSITIONID)                      |
 | Activación calculada (Activación calculada) | VALIDFROM (VALIDFROM)                        |
@@ -162,7 +162,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="job-positions-to-position-hierarchies"></a>Puestos de trabajo con jerarquías de puestos de trabajo
 
-| Entidad de Common Data Service (origen)        | Entidad de Finance (destino) |
+| Tabla de Dataverse (origen)        | Entidad de Finance (destino) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Número de puesto de trabajo)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -172,7 +172,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 
 ### <a name="workers-to-worker"></a>Trabajadores con Trabajador
-| Entidad de Common Data Service (origen)           | Entidad de Finance (destino)       |
+| Tabla de Dataverse (origen)           | Entidad de Finance (destino)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -191,7 +191,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="employments-to-employment"></a>Empleos con empleo
 
-| Entidad de Common Data Service (origen)                             | Entidad de Finance (destino) |
+| Tabla de Dataverse (origen)                             | Entidad de Finance (destino) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -201,7 +201,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="employments-to-employment-detail"></a>Empleos con detalles del empleo
 
-| Entidad de Common Data Service (origen)                             | Entidad de Finance (destino)   |
+| Tabla de Dataverse (origen)                             | Entidad de Finance (destino)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -219,7 +219,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Asignación del trabajador del puesto con asignaciones del trabajador del puesto
 
-| Entidad de Common Data Service (origen)                             | Entidad de Finance (destino)   |
+| Tabla de Dataverse (origen)                             | Entidad de Finance (destino)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (Número de puesto de trabajo)                   | POSITIONID(POSITIONID)                        |
@@ -228,7 +228,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Direcciones del trabajador con dirección postal del trabajador V2
 
-| Entidad de Common Data Service (origen)                             | Entidad de Finance (destino)   |
+| Tabla de Dataverse (origen)                             | Entidad de Finance (destino)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -255,5 +255,3 @@ El id. de ubicación utilizado para la dirección del trabajador no forma parte 
 La siguiente ilustración muestra un ejemplo de una asignación de plantilla en el integrador de datos. 
 
 ![Asignación de plantillas](./media/IntegrationMapping.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

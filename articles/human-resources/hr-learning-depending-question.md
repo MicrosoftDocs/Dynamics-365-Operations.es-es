@@ -2,7 +2,7 @@
 title: Realizar una pregunta según la respuesta a la pregunta anterior
 description: Las preguntas condicionales le permiten especificar qué pregunta de seguimiento aparecerá, en función de la respuesta a la pregunta anterior.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4295b49336ec7ac3cff4deba675bc63511be48de
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67dac872d6dc3a5046f5d554b1f185aa6607d193
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420485"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115013"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Realizar una pregunta según la respuesta a la pregunta anterior
 
@@ -56,6 +56,3 @@ Las preguntas condicionales le permiten especificar qué pregunta de seguimiento
 10. En el árbol, seleccione "Preguntas\Me pagan justamente por el trabajo que hago".
     * Observe cómo el árbol de preguntas se ha actualizado para mostrar la dependencia.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

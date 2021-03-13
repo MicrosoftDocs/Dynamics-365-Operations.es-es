@@ -2,7 +2,7 @@
 title: Configurar tarifas
 description: Las tasas en Microsoft Dynamics 365 Human Resources definen cuánto aportan los empresarios y los empleados para una prestación.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f5c2ce14f6a0ff830ce2645496a35fb98d6a6ab
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420440"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114130"
 ---
 # <a name="configure-rates"></a>Configurar tarifas
 
@@ -93,6 +93,3 @@ También puede usar niveles dobles. Si selecciona **Nivel doble** para el valor 
    | **Tasa de fumador de crédito flexible** | El número de créditos flexibles de los costes de prestación, en función del cálculo definido para el nivel para fumadores. |
 
 5. Seleccione **Guardar**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

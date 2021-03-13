@@ -2,7 +2,7 @@
 title: Quitar una instancia
 description: Este artículo recorre con el usuario el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1490bd95c284b58497325e57979e63a8190cb386
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420451"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114154"
 ---
 # <a name="remove-an-instance"></a>Quitar una instancia
 
@@ -85,6 +85,3 @@ Para restaurar el entorno:
 
 > [!Warning]
 > Los entornos de Power Apps solo se guardan durante siete días después de la eliminación. Debe recuperar el entorno dentro de un período de siete días.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

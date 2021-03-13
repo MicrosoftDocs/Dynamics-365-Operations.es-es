@@ -2,7 +2,7 @@
 title: Información general
 description: La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones acerca de cómo configurar Recursos humanos, cómo establecer compensaciones y prestaciones para sus empleados, y cómo administrar sus recursos laborales.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420483"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115255"
 ---
 # <a name="overview"></a>Información general
 
@@ -60,7 +60,6 @@ La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones
 [Modificar las relaciones jerárquicas para un puesto](hr-personnel-modify-reporting-relationships-position.md)</br>
 [Introducir información de trabajadores](hr-personnel-enter-worker-information.md)</br>
 [Artículos de préstamo para trabajadores](hr-personnel-loan-item-worker.md)</br>
-[Introducir hojas de horas de proyectos](hr-personnel-enter-project-timesheets.md)</br>
 [Proyectos de contratación masiva](hr-personnel-mass-hire-projects.md)</br>
 [Configurar puestos](hr-personnel-set-up-positions.md)</br>
 [Configurar información sobre lesiones y enfermedades](hr-personnel-set-up-injury-illness-information.md)</br>
@@ -128,6 +127,3 @@ La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

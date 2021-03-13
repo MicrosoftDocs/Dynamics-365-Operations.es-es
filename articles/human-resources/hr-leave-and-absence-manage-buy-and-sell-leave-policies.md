@@ -2,7 +2,7 @@
 title: Gestionar directivas de compra y venta de bajas
 description: Puede permitir que los empleados compren y vendan bajas Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89563204cf1423ddce47d7bacace8f14edf87005
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420469"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116005"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Gestionar directivas de compra y venta de bajas
 
@@ -80,6 +80,3 @@ Puede permitir que los empleados compren y vendan bajas creando una directiva de
 [Acumular planes de bajas y ausencias](hr-leave-and-absence-accrue.md)</br>
 [Comprar y vender bajas](hr-employee-self-service-buy-sell-leave.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Visión general de bajas y ausencias
 description: En Dynamics 365 Human Resources, el espacio de trabajo de permisos y ausencias proporciona un marco flexible para crear nuevos planes de permisos y ausencias. También proporciona flujos de trabajo para gestionar solicitudes y una página de autoservicio intuitiva para que los empleados soliciten permisos.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3de3de5a93c700526645c248b54783b64d77f2e7
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420472"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115981"
 ---
 # <a name="leave-and-absence-overview"></a>Visión general de bajas y ausencias
 
@@ -54,6 +54,3 @@ Sus empleados pueden enviar solicitudes de tiempo libre y usted puede administra
 [Solicitar permiso](hr-employee-self-service-request-time-off.md)
 [Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

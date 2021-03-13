@@ -2,7 +2,7 @@
 title: Actualizar planes de compensación fija
 description: La compensación fija hace referencia al sueldo o salario bruto regular de un empleado. Este artículo describe los componentes que deben configurarse para poder crear un plan de compensación fija e inscribir a empleados.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 06f4a335adfc1e6f438589613efec02f92bfd756
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa370ad5b873d707aba865b7f90e22acfc4825ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420432"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114085"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Crear un plan de compensación fija
 
@@ -98,6 +98,3 @@ Ahora puede asignar un empleado a un plan de compensación fija. Abra la página
 
 El sistema comprueba que el importe de compensación que se especifica para un plan de compensación del tipo de banda o clasificación se encuentra dentro de los puntos de referencia mínimo y máximo para el nivel de compensación proporcionado en el trabajo del empleado. Si el importe de compensación se encuentra fuera del intervalo permitido, se mostrará un mensaje de advertencia o error, en función del nivel de tolerancia que se establece en el plan de compensación fija.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

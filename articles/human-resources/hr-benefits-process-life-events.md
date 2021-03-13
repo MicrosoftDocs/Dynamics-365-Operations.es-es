@@ -2,7 +2,7 @@
 title: Procesar eventos de vida
 description: Durante el ciclo de vida de los empleados en Microsoft Dynamics 365 Human Resources, cada empleado puede sufrir varios cambios en los eventos de la vida.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42b7e2606bca4bb5eda1c9bfc7940f9067c4b943
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420365"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114113"
 ---
 # <a name="process-life-events"></a>Procesar eventos de vida
 
@@ -57,6 +57,3 @@ Por ejemplo, si hoy es 1 de febrero y está programado que el 14 de febrero el t
    4. Seleccione **Aceptar**. El proceso se ejecutará con los parámetros que establezca.
 
 4. Seleccione **Aceptar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Copiar una instancia
 description: Puede utilizar los servicios Microsoft Dynamics Lifecycle Services (LCS) para copiar una base de datos de Microsoft Dynamics 365 Human Resources en un entorno de espacio retirado.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a62cee979fc8d986102c3b774cd937a24bdd7439
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527846"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114139"
 ---
 # <a name="copy-an-instance"></a>Copiar una instancia
 
@@ -41,7 +41,7 @@ Para copiar una instancia, tenga en cuenta los siguientes consejos:
 
 - Cuando copia la base de datos de Human Resources, no copia los elementos (aplicaciones o datos) contenidos en un entorno de Microsoft Power Apps. Para obtener información sobre cómo copiar elementos en un entorno de Power Apps, vea [Copiar un entorno](https://docs.microsoft.com/power-platform/admin/copy-environment). El entorno de Power Apps que desea sobrescribir debe ser un entorno de espacio aislado. Debe ser un administrador global de inquilinos para cambiar un entorno de producción de Power Apps a un entorno de espacio aislado. Para obtener más información sobre cómo cambiar un entorno de Power Apps, vea [Cambiar una instancia](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- Si copia una instancia en su entorno de espacio aislado y desea integrar su entorno de espacio aislado con Common Data Service, debe volver a aplicar campos personalizados a entidades Common Data Service. Consulte [Aplicar campos personalizados a Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Si copia una instancia en su entorno de espacio aislado y desea integrar su entorno de espacio aislado con Dataverse, debe volver a aplicar campos personalizados a tablas de Dataverse. Consulte [Aplicar campos personalizados a Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Efectos de copiar una base de datos de Human Resources
 
@@ -72,15 +72,15 @@ Para completar esta tarea, primero copie una instancia y luego inicie sesión en
 
 4. En el panel de tareas **Copiar una instancia**, seleccione la instancia para sobrescribir y luego seleccione **Copiar**. Espere a que el valor del campo **Estado de copia** se actualice a **Terminado**.
 
-   ![[Seleccionar la instancia para sobrescribir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Seleccionar instancia para sobrescribir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Seleccione **Power Platform** e inicie sesión en el Centro de administración de Microsoft Power Platform.
 
-   ![[Seleccionar Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Seleccione Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Seleccione el entorno de Power Apps para copiar y luego seleccione **Copiar**.
 
-7. Cuando se complete el proceso de copia, inicie sesión en la instancia de destino y habilite la integración con Common Data Service. Para obtener más información e instrucciones, consulte [Configurar la integración de Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Cuando se complete el proceso de copia, inicie sesión en la instancia de destino y habilite la integración con Dataverse. Para obtener más información e instrucciones, consulte [Configurar la integración de Dataverse](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Elementos de datos y estados
 
@@ -122,11 +122,11 @@ Todos los usuarios del entorno de espacio aislado de destino, incluidos los admi
 
 Todos los usuarios que no son administradores en el entorno de espacio aislado de destino están deshabilitados para evitar inicios de sesión no deseados en el entorno de espacio aislado. Los administradores pueden volver a habilitar a los usuarios si es necesario.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Aplicar campos personalizados a Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>Aplicar campos personalizados a Dataverse
 
-Si copia una instancia en su entorno de espacio aislado y desea integrar su entorno de espacio aislado con Common Data Service, debe volver a aplicar campos personalizados a entidades Common Data Service.
+Si copia una instancia en su entorno de espacio aislado y desea integrar su entorno de espacio aislado con Dataverse, debe volver a aplicar campos personalizados a tablas de Dataverse.
 
-Para cada campo personalizado que se expone en entidades Common Data Service, siga los siguientes pasos:
+Para cada campo personalizado que se expone en tablas de Dataverse, siga los siguientes pasos:
 
 1. Vaya al campo personalizado y seleccione **Editar**.
 
@@ -140,7 +140,7 @@ Para cada campo personalizado que se expone en entidades Common Data Service, si
 
 6. Seleccione otra vez **Aplicar cambios**.
 
-El proceso de deseleccionar, aplicar cambios, volver a seleccionar y volver a aplicar cambios hace que el esquema se actualice en Common Data Service para incluir los campos personalizados.
+El proceso de deseleccionar, aplicar cambios, volver a seleccionar y volver a aplicar cambios hace que el esquema se actualice en Dataverse para incluir los campos personalizados.
 
 Para obtener más información sobre los campos personalizados, consulte [Crear y trabajar con campos personalizados](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
@@ -150,6 +150,3 @@ Para obtener más información sobre los campos personalizados, consulte [Crear 
 [Quitar una instancia](hr-admin-setup-remove-instance.md)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

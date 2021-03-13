@@ -1,5 +1,5 @@
 ---
-title: Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos (versión preliminar)
+title: Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos
 description: Este tema explica el proceso de enviar facturas de proveedores al sistema de flujo de trabajo y hacer coincidir automáticamente las líneas de recepción de productos registradas con las facturas de proveedores.
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447447"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115665"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos (versión preliminar)
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema explica el proceso de enviar facturas de proveedores al sistema de flujo de trabajo y hacer coincidir automáticamente las líneas de recepción de productos registradas con las facturas de proveedores.
 
@@ -47,13 +45,10 @@ El proceso se ejecutará hasta que la cantidad recibida del producto coincidente
 
 Las líneas de factura que tienen una política de coincidencia de tres vías, donde la cantidad de recibo coincidente es menor que la cantidad de la factura, se incluirán en el proceso automatizado de coincidencia de recepción de producto.
 
-Para ver el estado de la **última conciliación** de facturas que no forman parte del proceso automatizado de envío al flujo de trabajo, abra la factura en la página **Facturas de proveedores**. Cuando ve la factura, se actualiza la información de validación coincidente.
+Para ver el estado de la **última conciliación** de facturas que no forman parte del proceso automatizado de envío al flujo de trabajo, abra la factura en la página **Facturas de proveedores**. Cuando ve la factura, se actualiza la información de validación coincidente. El estado **Última conciliación** se puede actualizar automáticamente mediante la tarea en segundo plano **Validar la conciliación de facturas**. Puede configurar el proceso de actualización automática del estado **Última conciliación** en la pestaña **Procesos en segundo plano** de la página **Automatizaciones de procesos** (**Administración del sistema \> Configuración \> Automatizaciones de procesos**).
 
 Una línea de factura se excluirá del procesamiento automatizado si se cumple alguna de las siguientes condiciones:
 
 - El valor **Estado de coincidencia de recibo automatizado** de la línea de la factura es **Error**.
 - Se está utilizando la factura.
 - La factura está en el sistema de flujo de trabajo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

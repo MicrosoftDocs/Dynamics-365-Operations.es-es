@@ -2,7 +2,7 @@
 title: Agregar a su diario de rendimiento y enviar elogio a alguien
 description: El diario de rendimiento contiene información relacionada con cómo alcanzó sus objetivos o cuál fue su rendimiento durante un período.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2a90a5f746e49e1a5df9910867e8cd35feb1147
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 574925f0e278ad7bd3c654432fd0f862fd3c3259
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420356"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115881"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Agregar a su diario de rendimiento y enviar elogio a alguien
 
@@ -54,6 +54,3 @@ El diario de rendimiento contiene información relacionada con cómo alcanzó su
 20. En el campo Descripción, especifique "¡Gracias por toda la ayuda recibida en la conferencia!".
 21. Haga clic en Enviar.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
