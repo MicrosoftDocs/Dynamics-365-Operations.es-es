@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 617fca55226e216197c385c88a9d7a8e3de03b03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 986b2ae4cf7f7819caaf35e009fd4735f35e6928
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436885"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017971"
 ---
 # <a name="maintenance-downtime-activities"></a>Actividades de tiempo de inactividad por mantenimiento
 
@@ -97,6 +96,3 @@ La ilustración siguiente muestra un ejemplo de vista detallada de las **Activid
 - Puede copiar activos desde una actividad del tiempo de inactividad por mantenimiento a otra. En **Todas las actividades del tiempo de inactividad por mantenimiento**, seleccione el botón **Copiar actividades del tiempo de inactividad por mantenimiento**, cree sus selecciones en los campos **Desde actividades del tiempo de inactividad por mantenimiento** y **A actividades del tiempo de inactividad por mantenimiento** y haga clic en **Aceptar**.
 - En **Todas las actividades del tiempo de inactividad por mantenimiento**, haga clic en el botón **Líneas del programa de mantenimiento** o en el botón **Órdenes de trabajo activas** para abrir las listas relacionadas y ver las líneas relacionadas con la actividad del tiempo de inactividad por mantenimiento seleccionada.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

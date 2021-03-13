@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25d53b1380887789c6c4a7a51b600dccfe4589f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ea71dee6f653f73a86d31e82cf3541b4447bd552
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436986"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019526"
 ---
 # <a name="asset-event-history"></a>Historial de eventos de activo
 
@@ -49,6 +48,3 @@ La escala de tiempo se actualiza cada vez que se abre la página. Contiene la si
 - Órdenes de trabajo, incluidos el artículo y las notas publicados
 - Defectos
 - Evaluaciones de estado
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

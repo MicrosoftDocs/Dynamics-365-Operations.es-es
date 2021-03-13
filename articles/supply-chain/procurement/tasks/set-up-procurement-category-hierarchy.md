@@ -1,7 +1,7 @@
 ---
 title: Configurar una jerarquía de categorías de compras
 description: Este procedimiento muestra cómo crear nuevos nodos en una jerarquía de categorías de compras y cómo configurar una categoría de compras para usarla en un proceso de compra.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/21/2019
 ms.topic: business-process
@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437147"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017326"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Configurar una jerarquía de categorías de compras
 
@@ -45,6 +44,3 @@ Este procedimiento muestra cómo crear nuevos nodos en una jerarquía de categor
 4. Seleccione los productos que desea agregar a la categoría de adquisición.
 5. Seleccione la flecha para agregar los productos a la tabla **Seleccionado**.
 6. Seleccione **Aceptar**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

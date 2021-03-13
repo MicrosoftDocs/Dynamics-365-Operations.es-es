@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436960"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020663"
 ---
 # <a name="asset-management-parameters"></a>Parámetros de administración de activos
 
@@ -34,21 +33,20 @@ En Gestión de activos, se deben configurar los parámetros generales relativos 
 > [!NOTE]
 > Si desea configurar un sistema que incluya datos de demostración para probar las funciones de Gestión de activos, consulte [Implementar un entorno de demostración](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) para ver las instrucciones.
 
-Vínculo **Activos**
+## <a name="the-assets-tab"></a>La pestaña Activos
+
+La pestaña **Activos** proporciona la siguiente configuración:
 
 - **Ubicación funcional predeterminada** es la ubicación funcional estándar, que se selecciona automáticamente en los activos al crear nuevos activos.  
 - En el campo **Calendario estándar**, seleccione un calendario que se utilizará para calcular los KPI de activos, en caso de que no se seleccione ningún recurso en un activo.  
 - En el campo **Vista**, seleccione la vista estándar que se muestra al abrir **Vista de activo** (**Administración de activos** > **Común** > **Activos** > **Vista de activo**).
 - **Tipo de solicitud predeterminado** es el tipo de solicitud de mantenimiento estándar, que se activa automáticamente al crear una nueva solicitud.  
-- Si desea crear proyectos relacionados con activos, las relaciones de proyecto en relación con la selección de **Proyecto principal**, **Jerarquía de proyectos** y la opción para **Crear proyectos automáticamente** se configuran en **Parámetros de administración de activos**.  
-- En el campo **Máscara de proyecto de orden de trabajo** se define el número de proyectos secundarios permitidos para las órdenes de trabajo y los subactivos. Una máscara de orden de trabajo se usa para definir cuántas órdenes de trabajo se pueden crear en un activo y usar en el proyecto de trabajo relacionado de la orden de trabajo. La máscara de orden de trabajo se configura en el campo **Máscara relacionada de orden de trabajo** en los **Parámetros de administración de activos** (**Administración de activos** > **Configuración** > **Parámetros de administración de activos** > **Órdenes de trabajo**).  
-    >[!NOTE]
-    >El formato de una máscara de orden de trabajo relacionada es de varios signos #, en función del número máximo de órdenes de trabajo que se espera crear en un activo. Ejemplo: ## permite crear hasta 99 subproyectos.  
 - Las previsiones de tipos de trabajo se almacenan en el proyecto seleccionado en el campo **Proyecto de previsión**. Para cada tipo de trabajo, se crea una nueva actividad automáticamente en el proyecto de previsión. Las previsiones del tipo de trabajo se guardan en el proyecto de previsión.  
-- En el campo **Modelo**, seleccione el modelo de previsión usado en previsiones de tipo de trabajo y orden de trabajo.  
+- En el campo **Modelo**, seleccione el modelo de previsión usado en previsiones de tipo de trabajo y orden de trabajo.
 
+## <a name="the-work-orders-tab"></a>La pestaña Órdenes de trabajo
 
-Vínculo **Órdenes de trabajo**
+La pestaña **Órdenes de trabajo** proporciona la siguiente configuración:
 
 - **Tipo de orden de trabajo predeterminado** define la configuración estándar al crear una orden de trabajo.  
 - **Tipo de orden de trabajo preventivo** define el tipo de orden de trabajo usado al crear órdenes de trabajo a partir de planes de mantenimiento. Si este campo se deja en blanco, se usa el tipo de orden de trabajo en el campo **Tipo de orden de trabajo predeterminado** .  
@@ -67,8 +65,9 @@ Vínculo **Órdenes de trabajo**
     - Configuración de las rondas de mantenimiento  
 - En el FastTab **Categoría** , se pueden definir las categorías predeterminadas relativas al consumo en las órdenes de trabajo.  
 
+## <a name="the-work-order-scheduling-tab"></a>La pestaña Programación de órdenes de trabajo
 
-Vínculo **Programación de órdenes de trabajo**
+La pestaña **Programación de órdenes de trabajo** proporciona la siguiente configuración en la ficha desplegable **General**:
 
 - **Límite de tiempo de programación** define el período en días, calculado a partir de la fecha de inicio esperada de la orden de trabajo, durante el cual se planifican los trabajos de la orden de trabajo.  
 - **Plan maestro** está relacionado con los recursos del módulo **Administración de la organización**. Si selecciona un plan maestro en este campo, puede ver las reservas de capacidades relacionadas con las órdenes de trabajo en **Reservas de capacidad** (**Administración de la organización** > **Recursos** > **Recursos** > seleccionar el recurso > pestaña **Recurso** > botón **Reservas de capacidad**). Si deja el campo en blanco, podrá ver la carga de capacidad relacionada con las órdenes de trabajo en **Carga de capacidad** (**Administración de la organización** \> **Recursos** \> **Recursos** \> seleccionar el recurso \> pestaña **Recurso** \> botón **Carga de capacidad**).  
@@ -100,13 +99,10 @@ Los campos que se describen en la lista siguiente están relacionados con las pu
   - Suponiendo que no se ha seleccionado ningún trabajador responsable y grupo de trabajadores responsables en una orden de trabajo por programar, se deben sumar y restar las puntuaciones de ejemplo de los campos **Trabajador preferido**, **Grupo de trabajadores preferidos**, **Ubicación del activo** y **Fecha inicial**, lo que resulta en un total de 3010.00. Esto significa una puntuación alta para el trabajador seleccionado como trabajador preferido en el grupo de trabajadores preferidos para la orden de trabajo si el trabajador también se encuentra en las mismas instalaciones que el activo para el que se debe programar el trabajo. Esto significa hay una alta probabilidad de que el trabajador en cuestión complete el trabajo durante la programación de la orden de trabajo.  
   - Si el valor "0.00" se inserta en uno de los ocho campos anteriores, esa puntuación no se usará durante la programación de la orden de trabajo.  
 
-Vínculo **Tipos de documento**
+## <a name="the-document-types-tab"></a>La pestaña Tipos de documento
 
 Seleccione los tipos de documento que deben estar disponibles para imprimir los datos adjuntos relacionados con un informe de orden de trabajo. Para ello seleccione un tipo de documento en la sección **Disponible** y seleccione la ![flecha atrás](media/15-setup-for-objects.png). Si desea quitar un tipo de documento seleccionado, seleccione el tipo de documento en la sección **Seleccionado** y seleccione la ![flecha hacia delante](media/16-setup-for-objects.png) .
 
-Vínculo **Secuencias numéricas**
+## <a name="the-number-sequences-tab"></a>La pestaña Secuencias numéricas
 
 Seleccione las secuencias numéricas necesarias en esta sección. Existen dos secuencias numéricas para los activos: una para activos creados manualmente y otra para activos creados a través de activos pendientes.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

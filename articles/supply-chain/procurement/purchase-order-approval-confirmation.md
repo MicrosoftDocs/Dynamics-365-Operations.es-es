@@ -1,7 +1,7 @@
 ---
 title: Aprobar y confirmar pedidos de compra
 description: Este tema describe los estados por los que pasa un pedido de compra una vez que se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 04/02/2020
 ms.topic: article
@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437173"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018454"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Aprobar y confirmar pedidos de compra
 
@@ -41,7 +40,7 @@ Habilite la administración de cambios para pedidos de compra estableciendo la o
 
 Cuando se habilita la administración de cambios, los pedidos de compra pasan por seis estados de aprobación, desde **Borrador** hasta **Finalizado**. Cuando se haya aprobado un pedido, los usuarios que deseen modificarlo deben usar la acción **Solicitar cambio**.
 
-| Estado de aprobación | Descripción                                                                      | La opción Solicitar cambios está habilitada |
+| Estado de aprobación | Descripción                                                                      | El cambio de solicitud está habilitado |
 |-----------------|----------------------------------------------------------------------------------|---------------------------|
 | Borrador           | El pedido de compra es un borrador y no se ha enviado para su aprobación en el flujo de trabajo del pedido de compra.     | No                        |
 | En revisión       | El pedido de compra se envió para su aprobación en el flujo de trabajo del pedido de compra. La aprobación está pendiente.       | No                        |
@@ -99,6 +98,3 @@ Si un PO se encuentra bajo gestión de cambios, todo cambio, como la cancelació
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

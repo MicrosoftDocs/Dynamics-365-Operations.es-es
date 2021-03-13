@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 75edc1b683c4ea6c2bac8e509e6f6da8c56c5e6a
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665257"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018877"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perfiles de certificado definidos por el usuario para tiendas
 
@@ -122,6 +121,3 @@ Si se introduce una nueva versión del certificado, pero no se puede actualizar 
 
 > [!NOTE]
 > En Commerce Runtime, se llamará primero a la nueva versión del certificado. Si el certificado aún no se ha actualizado en una tienda específica o en un terminal específico, se llamará a la versión anterior.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Configurar directivas para jerarquías de categorías de compras
 description: Use este procedimiento para configurar las reglas para solicitar productos en una categoría.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d113181b5c78c0f35292b5f14cedd12bacdc7364
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436792"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017110"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Configurar directivas para jerarquías de categorías de compras
 
@@ -52,6 +51,3 @@ Use este procedimiento para configurar las reglas para solicitar productos en un
 6. En el campo **Selección de proveedores**, seleccione una opción. Seleccione una regla para controlar qué tipo de proveedores se pueden seleccionar para la categoría al crear solicitudes.  
 7. Haga clic en **Cerrar**. Las reglas de directivas que ha definido han sido para solicitudes de tipo Consumo. Si deseara definir directivas para solicitudes del tipo Reabastecimiento, crearía una regla para el tipo Regla de directivas llamada “Regla de directivas de acceso de categorías de reabastecimiento”.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

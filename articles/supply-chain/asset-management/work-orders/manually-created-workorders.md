@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4b148d9ac5d032d2caa5fcea0398a5a3726f0e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436670"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017877"
 ---
 # <a name="manually-created-work-orders"></a>Órdenes de trabajo creadas manualmente
 
@@ -166,6 +165,3 @@ La ilustración siguiente muestra un ejemplo del diálogo **Crear orden de traba
 >[!NOTE]
 >Si desea que las órdenes de trabajo se creen automáticamente, puede programar tareas del plan de mantenimiento, o bien configurar "Crear automáticamente" [planes de mantenimiento](../preventive-and-reactive-maintenance/maintenance-plans.md) o [rondas de mantenimiento](../preventive-and-reactive-maintenance/maintenance-rounds.md) en un activo. Las órdenes de trabajo creadas a partir de solicitudes de mantenimiento en la página de lista **Todo el programa de mantenimiento** tienen tipos de trabajo de mantenimiento seleccionados en las solicitudes de mantenimiento.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

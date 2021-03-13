@@ -1,7 +1,7 @@
 ---
 title: Visión general de catálogos de compras
 description: Este artículo describe, en un nivel superior, la manera en que los responsables de compras pueden configurar y mantener catálogos de compras. Los catálogos de compras definen los artículos y servicios que los empleados de las empresas puedan pedir para su uso interno.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64c7c2787e2ac996e3016f5b23fc48582f5533ad
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fcbe55adfc834b6170ca4c2a242d6bff5264ac8a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437182"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019788"
 ---
 # <a name="procurement-catalogs-overview"></a>Visión general de catálogos de compras
 
@@ -76,6 +75,3 @@ Las actualizaciones se publican de forma manual o automática en función de la 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

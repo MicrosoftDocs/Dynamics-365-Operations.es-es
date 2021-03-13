@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29fb487f02c28dbe940a1e00891f1e7ed20135b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436757"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017401"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Trabajadores de mantenimiento y grupos de trabajadores
 
@@ -64,6 +63,3 @@ También puede crear grupos de trabajadores de mantenimiento y asociarles trabaj
 6. Si un grupo de recursos está relacionado con el grupo de trabajadores de mantenimiento seleccionado, seleccione **Copia del grupo de recursos**. En el campo **Grupo** , seleccione el grupo de recursos del que copiar la configuración del calendario. A continuación en el campo **Grupo de trabajadores** seleccione el grupo de trabajadores al que copiar la configuración del calendario. Este paso es relevante si desea que los trabajadores de mantenimiento usen el calendario que está relacionado con un recurso (centro de trabajo) durante la programación de pedidos de trabajo.
 
     El campo del FastTab **Detalles** muestra el número de trabajadores de mantenimiento que se han configurado en el grupo de trabajadores de mantenimiento seleccionado.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

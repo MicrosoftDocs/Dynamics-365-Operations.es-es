@@ -1,7 +1,7 @@
 ---
 title: Facturas electrónicas de CFDI globales para México
 description: En este tema se ofrece una visión general de la funcionalidad para las facturas electrónicas de CFDI globales para México.
-author: v-kikozl
+author: EvgenyPopovMBS
 manager: annbe
 ms.date: 06/28/2019
 ms.topic: article
@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations, Retail
 ms.search.region: Mexico
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: edc733c873817932b8ff3d81b8d1628f478a09ce
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 315a61f71fc0b023fe0e25197abfc62ff6f56a6e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407785"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016946"
 ---
 # <a name="global-cfdi-electronic-invoices-for-mexico"></a>Facturas electrónicas de CFDI globales para México 
 
@@ -99,6 +98,3 @@ Tenga en cuenta las siguientes limitaciones:
 
 - Todas las facturas de un pedido de ventas original se incluyen en una factura electrónica de devolución como documentos de CFDI relacionados.
 - El escenario de devolución de un pedido de cliente que implica un intercambio solo se admite para facturas electrónicas de CFDI globales.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

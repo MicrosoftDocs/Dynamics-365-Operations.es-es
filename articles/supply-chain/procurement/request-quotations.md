@@ -1,7 +1,7 @@
 ---
 title: Visión general de las solicitudes de presupuesto
 description: Este tema proporciona una visión general de solicitudes de presupuesto. Las organizaciones emiten solicitudes de presupuesto cuando desean recibir ofertas competitivas de varios proveedores para artículos o servicios que deben comprar.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437267"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016940"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visión general de las solicitudes de presupuesto
 
@@ -247,6 +246,3 @@ En el siguiente ejemplo puede ver el estado más alto y el estado más bajo en e
 | Acepte una de las ofertas. (o al menos una línea) |                          Recibida                           |                           Aceptada                           |                    Recibida                    |                    Aceptada                     |                   Recibida                   |                   Aceptada                    |
 |           Rechazar todas las otras propuestas.           |                          Rechazado                           |                           Aceptada                           |                    Rechazado                    |                    Aceptada                     |                   Rechazado                   |                   Aceptado                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

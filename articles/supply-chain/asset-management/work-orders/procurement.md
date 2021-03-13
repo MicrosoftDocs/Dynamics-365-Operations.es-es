@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 552b1b211460ae86af06e183af91c062a3ee569a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437049"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020213"
 ---
 # <a name="procurement"></a>Adquisición
 
@@ -100,6 +99,3 @@ La ilustración siguiente muestra un ejemplo de la página **Pedido de compra**,
 
 Igualmente, para ver o especificar el número de actividad relacionado con una línea de solicitud de compra de orden de trabajo, en la página de lista **Solicitud de compra de orden de trabajo**, seleccione el registro de la solicitud de compra y, a continuación, en la columna **Solicitud de compra**, seleccione el vínculo para el pedido de compra. Puede encontrar el campo **Número de actividad** en la pestaña **Proyecto** de la ficha desplegable **Detalles de línea**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

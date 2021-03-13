@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe3e82f425421acdae81a02032ac6252765e1c05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f93a68f19b0b952eb2964b404bb957865c625cd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437140"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018055"
 ---
 # <a name="functional-locations-and-assets"></a>Ubicaciones funcionales y activos
 
@@ -58,6 +57,3 @@ La forma en que se crea la jerarquía de ubicaciones funcionales depende de los 
 En la ilustración siguiente se muestra un ejemplo de ubicaciones funcionales que se basan en clientes.
 
 ![Diagrama que muestra las ubicaciones técnicas basadas en clientes](media/04-overview-image.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
