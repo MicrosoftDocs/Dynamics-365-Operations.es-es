@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436626"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118690"
 ---
 # <a name="product-dimensions"></a>Dimensiones de producto
 
@@ -122,7 +121,7 @@ Para poder usar la dimensión de versión, debe estar activada en su sistema. Es
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Áreas en las que no se admite la dimensión de versión
 
-Las siguientes áreas no admiten la dimensión de versión, ya que la introducción de esta dimensión provocaría cambios importantes:
+Las siguientes áreas no admiten la dimensión de versión (aún puede usar estas áreas, pero no podrá agregarles productos versionados [productos donde se usa la dimensión de versión]). Por ejemplo, no puede agregar un artículo versionado a un catálogo de proveedores. Esto se debe a que agregar productos con la dimensión de versión a estas áreas provocaría cambios importantes.
 
 - Extracto mensual del objeto de coste
 - Caché de extractos de objeto de costes
@@ -146,6 +145,3 @@ La dimensión de versión funciona como las demás dimensiones del producto. Sin
 
 > [!IMPORTANT]
 > Si activa y utiliza la dimensión de versión, algunas soluciones que hagan referencia a las dimensiones de inventario pueden dejar de funcionar como se esperaba. Para confirmar y solucionar estos problemas, póngase en contacto con el proveedor de software independiente (ISV) de las soluciones afectadas. Para más información, consulte [Habilitar la dimensión de versión](#enable-version-dim).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
