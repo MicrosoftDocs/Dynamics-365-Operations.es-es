@@ -3,7 +3,7 @@ title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689575"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154096"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -32,7 +32,55 @@ En este tema se describen las características que se han eliminado, o que está
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://docs.microsoft.com/dynamics/s-e/). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+## <a name="feature-removed-effective-january-28-2021"></a>Función eliminada a partir del 28 de enero de 2021
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Trabajo por lotes para administrar la desfragmentación del índice de SQL
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Con el fin de reducir los gastos generales de operación, monitoreo y mantenimiento de la administración de índices por parte de los clientes, esta característica ha sido eliminada. |
+| **¿Reemplazado por otra característica?**   | En el futuro, los servicios de Microsoft realizarán el mantenimiento del índice. Esto ocurrirá continuamente sin afectar las cargas de trabajo de los usuarios. |
+| **Áreas de producto afectadas**         | Aplicaciones de Finance and Operations|
+| **Opción de implementación**              | Implementación en la nube: afecta a los entornos de producción administrados por Microsoft y a los entornos sandbox de nivel 2 a 5. |
+| **Estado**                         | Esta característica se ha eliminado. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.17 de aplicaciones Finance and Operations
+
+> [!IMPORTANT]
+> La versión 10.0.17 está disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>Visual Studio 2015
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Para admitir las últimas versiones de Visual Studio, se deben realizar algunos cambios en las extensiones X++ para Visual Studio. Estos cambios son incompatibles con Visual Studio 2015. |
+| **¿Reemplazado por otra característica?**   | Visual Studio 2017 reemplazará a Visual Studio 2015 como versión implementada y necesaria. |
+| **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En desuso. Tras la actualización, las herramientas X++ anteriores se eliminarán de Visual Studio 2015, y las herramientas actualizadas no se instalarán en Visual Studio 2015. No hay impacto en las compilaciones alojadas. Para compilar máquinas virtuales, la canalización de compilación (definición de compilación) debe actualizarse manualmente para cambiar la dependencia de MSBuild 14.0 (Visual Studio 2015) a MSBuild 15.0 (Visual Studio 2017) como se describe en [Actualizar una canalización heredada en Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+
+### <a name="user-avatar"></a>Avatar de usuario 
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | El avatar de usuario que se muestra en el lado derecho de la barra de navegación se recuperó mediante una API del control de encabezado de Dynamics 365, que ha quedado en desuso. |
+| **¿Reemplazado por otra característica?**   | Los usuarios verán sus iniciales en un círculo en la barra de navegación. Este es el mismo objeto visual que se usa actualmente en las máquinas de desarrollo. |
+| **Áreas de producto afectadas**         | Cliente web |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | Se quitó desde la versión 10.0.17. |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Desactivación del Enterprise Portal (EP)  
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Los artefactos de metadatos asociados con Dynamics AX 2012 Enterprise Portal (EP) han quedado obsoletos, ya que EP nunca fue compatible con aplicaciones de Finance and Operations. |
+| **¿Reemplazado por otra característica?**   | N.º |
+| **Áreas de producto afectadas**         | Cliente web |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En desuso. Todo el código EP está programado para ser eliminado en el lanzamiento de octubre de 2021. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.15 de aplicaciones Finance and Operations
 
@@ -40,7 +88,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | A partir de diciembre de 2020, Microsoft Internet Explorer 11 el soporte para todos los productos de Dynamics 365 está en desuso e Internet Explorer 11 no se admitirá después de agosto de 2021.<br><br>Esto afectará a los clientes que usan productos Dynamics 365 que están diseñados para usarse a través de una interfaz de Internet Explorer 11. Después de agosto de 2021, Internet Explorer 11 no será compatible con dichos productos de Dynamics 365. |
+| **Motivo de la depreciación/eliminación** | A partir de diciembre de 2020, queda en desuso la compatibilidad de Microsoft Internet Explorer 11 con todos los productos de Dynamics 365 e Internet Explorer 11 no se admitirá después de agosto de 2021.<br><br>Esto afectará a los clientes que usan productos Dynamics 365 que están diseñados para usarse a través de una interfaz de Internet Explorer 11. Después de agosto de 2021, Internet Explorer 11 no será compatible con dichos productos de Dynamics 365. |
 | **¿Reemplazado por otra característica?**   | Recomendamos que los clientes hagan la transición a Microsoft Edge.|
 | **Áreas de producto afectadas**         | Todos los productos Dynamics 365 |
 | **Opción de implementación**              | Todos|
@@ -192,6 +240,3 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Anuncios anteriores sobre características quitadas u obsoletas
 Para obtener más información sobre las características que se han eliminado o desaprobado en versiones anteriores, consulte [Funciones eliminadas o en desuso en versiones anteriores](../migration-upgrade/deprecated-features.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

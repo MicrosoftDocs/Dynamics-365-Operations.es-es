@@ -1,7 +1,7 @@
 ---
 title: Página inicial de adquisición y abastecimiento
 description: Este tema proporciona una lista de temas de ayuda y otros recursos disponibles para Adquisición y abastecimiento.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d189213a691d752f02160d7ed9b6f5f60329eebd
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437135"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154342"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de adquisición y abastecimiento
 
@@ -86,7 +85,7 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 ## <a name="prices-and-discounts"></a>Precios y descuentos
 -   [Acuerdos de compra](purchase-agreements.md)
 -   [Crear un acuerdo de compra](tasks/create-purchase-agreement.md)
--   [Devoluciones de proveedor](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (notas del producto)
+-   [Devoluciones de proveedor](https://docs.microsoft.com/dynamics/s-e/) (notas del producto)
 
 ## <a name="product-receipt-and-invoicing"></a>Recepción y facturación de productos
 -   [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
@@ -104,6 +103,3 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

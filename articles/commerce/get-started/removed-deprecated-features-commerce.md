@@ -3,24 +3,23 @@ title: Características quitadas u obsoletas de Dynamics 365 Commerce
 description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 01/11/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 37b541ff5037a38b60dbfd6a6c071f55afcc1304
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: dd982ae60da1c2958d6d759bb5dd256a71fabf6c
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689549"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154210"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Características quitadas u obsoletas de Dynamics 365 Commerce
 
@@ -34,7 +33,22 @@ En este tema se describen las características que se han quitado (o cuya elimin
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
 > [!NOTE]
-> La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+> La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://docs.microsoft.com/dynamics/s-e/). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.17
+
+> [!Important]
+> La versión 10.0.17 está disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="full-dataset-generation-interval-is-deprecated"></a>El intervalo de generación del conjunto de datos completo está en desuso
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | A partir de esta versión, en el formulario **Parámetros del programador de comercio** de la sede central de Dynamics 365, el campo **Intervalo completo de generación de conjunto de datos en días** quedará en desuso. Además, el campo se eliminará visualmente para que su valor no se pueda editar. Su valor será **0**. |
+| **¿Reemplazado por otra característica?**   | N.º |
+| **Áreas de producto afectadas**         | Dynamics 365 Commerce |
+| **Opción de implementación**              | Todos|
+| **Estado**                         | En desuso. No utilice este campo ni cambie su valor.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.15
 
@@ -108,6 +122,3 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Anuncios anteriores sobre funciones quitadas u obsoletas
 Para obtener más información sobre las funciones que se han eliminado o desaprobado en versiones anteriores, consulte [Funciones eliminadas o en desuso en versiones anteriores](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
