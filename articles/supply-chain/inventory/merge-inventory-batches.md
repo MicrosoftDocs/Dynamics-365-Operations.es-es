@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa571fb7392f6f7154f7f1bfd908e11e1bebd3a6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d4c9443c6e659602ae09e4744396651186874ad3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437023"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008025"
 ---
 # <a name="merge-inventory-batches"></a>Combinar lotes de inventario
 
@@ -140,6 +139,3 @@ Puede aprobar el diario de inventario para la combinación de lotes de la págin
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>¿Por qué no puedo ver la información de peso capturado en el diario de inventario después de combinar un artículo de peso capturado?
 Puede combinar lotes de artículos con peso capturado de la misma forma que con el resto de artículos. Sin embargo, la información de peso capturado no aparece en el diario de inventario. Se recomienda comprobar la información de peso capturado antes de transferir la combinación de lotes al diario de inventario.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e5ff5916366f968cbf8dc9a5614466ef89faa92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436787"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007176"
 ---
 # <a name="formulas-and-formula-versions"></a>Fórmulas y versiones de fórmula
 
@@ -71,6 +70,3 @@ La característica escalable solo está disponible si se establecen todos los co
 
 ## <a name="use-step-consumption"></a>Usar el consumo de pasos
 El consumo de pasos elimina la necesidad de especificar una cantidad en la pestaña **Línea de fórmula** de un ingrediente. En su lugar, se configura el consumo de pasos de modo que tenga un valor **Serie inicial** y un valor **Cantidad** . Se selecciona la información del registro del consumo de pasos por serie que cumple con la cantidad especificada en el pedido de lote. El consumo de pasos es útil cuando la tasa de consumo no es lineal con respecto al tamaño del pedido de lote y solo aumenta el requisito cuando se llega a un umbral específico de la cantidad. Para habilitar esta característica en una nueva fórmula, en el grupo **Cálculo del consumo**, cambie la configuración de la fórmula del ingrediente aplicable de **Estándar** a **Paso**. Especifique este método de consumo en la pestaña **Configuración** de la página **Línea de fórmula**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff285e7e8bcdd2a3197f0ccae569ac880b796028
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436606"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007600"
 ---
 # <a name="hazardous-materials-overview"></a>Resumen de materiales peligrosos
 
@@ -36,7 +35,7 @@ El siguiente diagrama ilustra los pasos necesarios para configurar y utilizar la
 La función de materiales peligrosos se configura en la gestión de información de productos y proporciona documentos que se pueden imprimir a través de la gestión del almacén. Por lo tanto, en términos generales, esas áreas son las dos áreas principales en las que revisará, configurará y utilizará la funcionalidad de esta función:
 
 - **Gestión de la información del producto**: configure los códigos que se aplicarán a los productos despachados.
-- **Gestion de almacenes**: trabajar con documentos de envío adicionales que se imprimirán para los envíos.
+- **Gestión de almacenes**: trabajar con documentos de envío adicionales que se imprimirán para los envíos.
 
 > [!IMPORTANT]
 > Las características de materiales peligrosos en Supply Chain Management proporcionan una colección de campos de información de productos útiles y funcionalidades relacionadas que pueden ayudarle a registrar y hacer referencia a información relacionada con sus productos peligrosos. Estas características también pueden ayudarle a diseñar e imprimir documentos de envío que incluyan parte de la misma información sobre cualquier material peligroso que esté enviando. Sin embargo, el sistema no hará que cumpla automáticamente todas las regulaciones de su país o región. Si bien estas herramientas están destinadas a ayudarla a cumplir con las regulaciones comunes, no son suficientes por sí mismas ni se garantiza que lo sean. Su organización es responsable de conocer todas las regulaciones aplicables y de tomar todas las medidas necesarias para cumplirlas.
@@ -62,6 +61,3 @@ Para obtener más información sobre cómo configurar regulaciones y valores par
 ## <a name="warehouse-management"></a>Gestión de almacenes
 
 Cuando prepare un envío en Gestión de almacenes, podrá imprimir varios informes nuevos que utilizan la información que configuró en Gestión de información de productos. Para obtener más información sobre los informes disponibles y cómo utilizarlos, consulte [Consultas e informes sobre materiales peligrosos](hazmat-reports.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

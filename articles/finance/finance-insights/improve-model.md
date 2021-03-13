@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646088"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009380"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Mejorar el modelo de predicción (versión preliminar)
 
@@ -42,19 +41,19 @@ Si su organización requiere solo dos resultados, cambie los umbrales **Tarde** 
 
 ## <a name="select-fields"></a>Seleccionar campos
 
-Cuando seleccione campos para incluir en el modelo, tenga en cuenta que la lista incluye todos los campos disponibles en la entidad Common Data Service que se asigna a los datos en el lago de datos de Azure. Algunos de estos campos **no** deberían seleccionarse. Los campos que no deben seleccionarse pertenecen a una de estas tres categorías:
+Cuando seleccione campos para incluirlos en el modelo, tenga en cuenta que la lista incluye todos los campos disponibles en la tabla Microsoft Dataverse que se asigna a los datos en el lago de datos de Azure. Algunos de estos campos **no** deberían seleccionarse. Los campos que no deben seleccionarse pertenecen a una de estas tres categorías:
 
-- El campo es obligatorio para la entidad Common Data Service, pero no hay datos de respaldo para ella en el lago de datos.
+- El campo es obligatorio para la tabla Dataverse, pero no hay datos de respaldo para ella en el lago de datos.
 - El campo es un id. y, por lo tanto, no tiene sentido para una función de aprendizaje automático.
 - El campo representa información que no estará disponible durante la predicción.
 
 Las siguientes secciones muestran los campos que están disponibles para la factura y las entidades del cliente, y enumeran los campos que **no** deben seleccionarse para el entrenamiento. La categoría que se especifica para cada uno de esos campos se refiere a las categorías de la lista anterior.
  
-### <a name="invoice-common-data-model-entity"></a>Entidad de factura de Common Data Model
+### <a name="invoice-dataverse-table"></a>Tabla de Dataverse de factura
 
-La siguiente ilustración muestra los campos que están disponibles para la entidad de factura.
+La siguiente ilustración muestra los campos que están disponibles para la tabla de factura.
 
-[![Campos disponibles para la entidad de factura](./media/available-fields.png)](./media/available-fields.png)
+[![Campos disponibles para la tabla de factura](./media/available-fields.png)](./media/available-fields.png)
 
 Los siguientes campos no deben seleccionarse para el entrenamiento:
 
@@ -65,11 +64,11 @@ Los siguientes campos no deben seleccionarse para el entrenamiento:
 - **Registro de origen** (categoría 2)
 - **Tabla de origen** (categoría 2)
 
-### <a name="customer-common-data-model-entity"></a>Entidad de cliente de Common Data Model
+### <a name="customer-dataverse-table"></a>Tabla de Dataverse de cliente
 
-La siguiente ilustración muestra los campos que están disponibles para la entidad de cliente.
+La siguiente ilustración muestra los campos que están disponibles para la tabla de cliente.
 
-[![Campos disponibles para la entidad de cliente](./media/related-entities.png)](./media/related-entities.png)
+[![Campos disponibles para la tabla de cliente](./media/related-entities.png)](./media/related-entities.png)
 
 El campo siguiente no debe seleccionarse para el entrenamiento:
 
@@ -83,6 +82,3 @@ Actualmente, los filtros no son compatibles con el escenario del predictor de pa
 
 #### <a name="privacy-notice"></a>Aviso de privacidad
 Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

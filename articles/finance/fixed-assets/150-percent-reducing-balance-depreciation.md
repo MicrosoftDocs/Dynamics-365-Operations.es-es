@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc7fa705681c3f1fde96cabc430dad1dd0045b4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447581"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009327"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 150%
 
@@ -75,7 +74,7 @@ Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opc
 | Años de tiempo de vida             | 5      |
 | Porcentaje de depreciación anual | 30%    |
 
-El método de depreciación degresiva del 150% divide el 150 por ciento entre los años de tiempo de vida. El porcentaje se multiplicará por el valor neto en los libros del activo para determinar el importe de depreciación durante el año.
+El método de depreciación degresiva del 150 % divide el 150 por ciento entre los años de tiempo de vida. El porcentaje se multiplicará por el valor neto en los libros del activo para determinar el importe de depreciación durante el año.
 
 | Periodo | Cálculo del importe de depreciación anual | Valor neto             | Valor neto en los libros al final del año |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
@@ -88,6 +87,3 @@ El método de depreciación degresiva del 150% divide el 150 por ciento entre lo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

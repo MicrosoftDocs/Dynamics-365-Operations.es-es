@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447595"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009577"
 ---
 # <a name="settle-remainder"></a>Resto de liquidación
 
@@ -70,6 +69,3 @@ Para liquidar el resto, realice los pasos siguientes:
 7)  También puede elegir crear un diario de pagos con el resto de liquidación o solo publicarlo sin un diario. Seleccione **Sí** para **Editar en diario** para crear un diario de pagos. Podrá editar el diario de pagos que cree.
 8)  Haga clic en **Resto de liquidación**. Si elige crear un diario, el botón cambiará a **Crear diario**. Haga clic en **Crear diario** en su lugar.
 9)  Si ha creado un diario de pagos, la página del diario se abrirá tras hacer clic en **Resto de liquidación**. Una línea de diario se agregará al diario con el importe del resto de liquidación como importe y a la cuenta de resto de liquidación como la cuenta de contrapartida. Si ha agregado a un cliente o un proveedor para poder mover el importe de liquidación a otro cliente o proveedor, otra línea se agregará al diario para mover el importe de liquidación a dicho cliente o proveedor.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

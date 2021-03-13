@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91df786ed2298e21e7a3018b915c9bd5458efc32
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447599"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009252"
 ---
 # <a name="online-financial-consolidations"></a>Consolidaciones financieras en línea
 
@@ -32,7 +31,7 @@ Este tema describe las consolidaciones financieras en línea en contabilidad gen
 Una vez completada la configuración, especifique los detalles de la consolidación en la página **Consolidar [En línea]**. Cuando haya terminado, puede hacer clic en **Aceptar** o en **Lote** para procesar la consolidación.
 
 ## <a name="criteria"></a>Criterios
-En la pestaña **Criterios** de la página **Consolidar [En línea]**, se definen las cuentas, los períodos, y el tipo de datos que se están consolidando.
+En la pestaña **Criterios** de la página **Consolidar [En línea]**, se definen las cuentas, los períodos, y el tipo de información que se está consolidando.
 
 ![Pestaña Criterios](./media/criteria-consolidate-online.png "Pestaña Criterios")
 
@@ -96,6 +95,3 @@ En la pestaña **Conversión de la divisa**, se define la entidad jurídica, la 
 Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el tema principal de este tema [Visión general de consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
 
 Para obtener información sobre los escenarios donde puede generar o consolidar informes financieros, consulte [Generar informes financieros consolidados](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

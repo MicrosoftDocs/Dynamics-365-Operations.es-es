@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007500"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Solución de problemas de pedidos de compra
 
@@ -132,7 +131,7 @@ Solo puede ampliar el período para el que está aprobado el proveedor. Se aplic
 
 Para el escenario de ejemplo que se describe en la descripción del problema, donde un registro tiene como fecha de vigencia *11/01/2018* y *Nunca* como fecha de vencimiento, puede importar un nuevo registro que tenga como fecha de vigencia *10/01/2018* y *Nunca* como fecha de vencimiento. Sin embargo, no puede reducir el período para que la fecha de vigencia se actualice a *12/01/2018* a través de la administración de datos. Debe realizar este cambio a través de la interfaz de usuario.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Después de cambiar la dirección de entrega en el encabezado de un pedido de compra, no se sincroniza el nombre de entrega.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Después de cambiar la dirección de entrega en el encabezado de un pedido de compra, no se sincroniza el nombre de entrega.
 
 ### <a name="issue-description"></a>Descripción del problema
 
@@ -145,6 +144,3 @@ Este comportamiento se debe al diseño. La dirección seleccionada debe clasific
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>¿Puedo encontrar al usuario que canceló un pedido de compra?
 
 Esta información solo se sigue si el pedido de compra está sujeto a la administración de cambios. Si usa la administración de cambios, puede ver quién envió el cambio (la cancelación) y quién lo aprobó.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

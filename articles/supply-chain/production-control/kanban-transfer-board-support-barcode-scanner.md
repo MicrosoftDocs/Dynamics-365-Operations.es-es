@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aedfe7ef96d62401b1d0de0f2cd035036c68e51a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437080"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007075"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras
 
@@ -44,11 +43,11 @@ En la ficha desplegable **Registro de escáner**, puede seleccionar el modo de r
 | Vacía                 | Registra la unidad de gestión de material a la que hace referencia una tarjeta kanban como vacía.              |
 | Seleccionar                | Registra un número de tarjeta kanban y selecciona automáticamente el trabajo al que se hace referencia en la lista de trabajos kanban. |
 
- 
-Seleccionar el modo de registro
+ 
+<a name="registration-mode-select"></a>Seleccionar el modo de registro
 ------------------------
 
-Cuando se usa un lector de códigos de barras para seleccionar un trabajo, el modo de visualización del tablero kanban cambia.De esta manera, se aplicarán las condiciones siguientes:
+Cuando se usa un lector de códigos de barras para seleccionar un trabajo, el modo de visualización del tablero kanban cambia. De esta manera, se aplicarán las condiciones siguientes:
 
 -   Solo se muestra el trabajo kanban escaneado.
 -   Los detalles del trabajo seleccionado se muestran en la ficha desplegable **Detalles**.
@@ -192,6 +191,3 @@ El estado del trabajo seleccionado y el estado de cualquier trabajo fijado para 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

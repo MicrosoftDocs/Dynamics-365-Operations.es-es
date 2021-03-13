@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cba4b1eac33ae53e214297728c1cdf2710ebd9d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436518"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007925"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Precios de venta basados en atributos para la configuración de productos basada en restricciones
 
@@ -141,6 +140,3 @@ El paso final es especificar precios de venta basados en atributos para la versi
 1. En el panel Acción, abra la pestaña **Modelo** y, desde el grupo **Detalles de modelo de producto**, seleccione **Versiones**.
 1. Se abrirá la página **Versiones**. Asegúrese de que **Método de fijación de precios** se establece en **Basado en atributos**.
     ![Establecer el método de fijación de precios en Basado en atributos](media/prod-config-versions.png "Establecer el método de fijación de precios en Basado en atributos")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

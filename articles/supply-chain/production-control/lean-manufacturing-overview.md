@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63a9856035088642254fd43d14cb324a89bc19d6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5ba514a6af360074696814278b51ba41327a294d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437199"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007000"
 ---
 # <a name="lean-manufacturing-overview"></a>Visión general de lean manufacturing
 
@@ -51,9 +50,9 @@ Para crear una fundación de lean manufacturing, modele los procesos de fabricac
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Uso de los kanbans para indicar los requisitos de la demanda
 Un sistema de extracción produce mercancías solo cuando son necesarias. Esta práctica reduce los plazos de entrega y el exceso de inventario. Puede usar kanbans para planear, seguir y procesar los requisitos basados en los flujos de producción. Para crear un marco de kanban, cree las reglas kanban que definen cuando se crean kanbans y cómo se cumplen los requisitos. Se pueden crear dos tipos de reglas kanban. Las reglas de fabricación crean trabajos kanban de proceso y las reglas kanban de retirada crean trabajos kanban de transferencia. Se pueden configurar las siguientes estrategias de reabastecimiento:
--   Las reglas kanban de **cantidad fija** están relacionadas con un número fijo de unidades de gestión de material, lo que significa que los números de kanbans activos son constantes. Cuando todos los productos de un kanban se consumen y las unidades de gestión de material se vacían manualmente, se crea un nuevo kanban del mismo tipo. Al crear las reglas kanban de cantidad fija, puede calcular las cantidades óptimas de kanban y de producto que se usan. El cálculo tiene en cuenta la previsión, la demanda real de pedidos abiertos, el plazo de reabastecer los artículos y las demandas históricas.
+-   Las reglas kanban de **Cantidad fija** están relacionadas con un número fijo de unidades de manipulación, lo que significa que los números de kanbans activos son constantes. Cuando todos los productos de un kanban se consumen y las unidades de manipulación se vacían manualmente, se crea un nuevo kanban del mismo tipo. Al crear las reglas kanban de cantidad fija, puede calcular las cantidades óptimas de kanban y de producto que se usan. El cálculo tiene en cuenta la previsión, la demanda real de pedidos abiertos, el plazo para reabastecer los artículos y las demandas históricas.
 -   Las reglas kanban **programadas** reabastecen los requisitos calculados por la planificación maestra. La planificación maestra genera kanbans planificados que se pueden poner en firme en kanbans.
--   Las reglas kanban de **evento** reabastecen los requisitos que se originan de las líneas de pedidos de ventas, las líneas de listas de materiales, las de kanban o la configuración mínima de inventario. Cuando se generan los kanbans de evento, se fijan a los requisitos de origen.
+-   Las reglas kanban de **Evento** reabastecen los requisitos que se originan de las líneas de pedidos de ventas, las líneas de L. MAT., las líneas de kanban o la configuración mínima de inventario. Cuando se generan los kanbans de evento, se fijan a los requisitos de origen.
 
 Cuando se crean los kanbans, se generan uno o más trabajos kanban según las actividades de flujo kanban definidas en las reglas de éstos.
 
@@ -67,7 +66,7 @@ Lean manufacturing proporciona visibilidad al estado actual de las actividades d
 En la siguiente lista se describen los tableros kanban especializados:
 -   Programación de trabajos kanban: proporciona una visión general de los trabajos kanban. El tablero muestra los trabajos kanban y sus estados para una o varias celdas de trabajo. Los trabajos se listan en función de los períodos de planificación (días o semanas) definidos en el modelo de flujo de producción. El tablero también muestra el consumo de capacidad de cada período de planificación, de manera que pueda supervisar la carga programada. Puede cambiar el estado de los trabajos kanban, reprogramarlos en períodos de planificación diferentes y realizar otras tareas.
 -   Tablero kanban para trabajos de transferencia: este tablero proporciona una visión general de los trabajos de transferencia actual. Puede actualizar y registrar listas de selección, iniciar y finalizar trabajos de transferencia y realizar otras tareas.
--   Tablero kanban para trabajos de proceso: este tablero se ha diseñado para admitir el flujo de producción normal y para proporcionar una descripción general de la situación actual en una o varias celdas de trabajo. En este tablero se pueden priorizar, seleccionar o fabricar kanbans. Este tablero también se ha diseñado para poder escanear códigos de barras para generar informes de kanbans.
+-   Tablero kanban para trabajos de proceso: este tablero se ha diseñado para admitir el flujo de producción normal y para proporcionar una descripción general de la situación actual en una o varias celdas de trabajo. En este tablero se pueden priorizar, seleccionar o fabricar kanbans. Este tablero también se ha diseñado para poder escanear códigos de barras para generar informes de kanbans.
 
 ## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Trabajos kanban e integración con los procesos de Supply Chain Management
 Los trabajos kanban se integran completamente con los procesos actuales de las transacciones de inventario de Supply Chain Management.
@@ -83,6 +82,3 @@ Además, lean manufacturing apoya los procesos de compra y de facturación de lo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

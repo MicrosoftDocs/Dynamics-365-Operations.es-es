@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437051"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007722"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restricciones de expresión y tabla en modelos de configuración de productos
 
@@ -139,7 +138,7 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 <td>Esto suma sus condiciones. Si el número de condiciones es 0 (cero), da lugar a <strong>0</strong>.</td>
 <td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
-<li><strong>Operador:</strong> Plus[x, y, 2] == z</li>
+<li><strong>Operador</strong>: Plus[x, y, 2] == z</li>
 <li><strong>Notación de infijo</strong>: x + y + 2 == z</li>
 </ul></td>
 </tr>
@@ -156,10 +155,10 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 <td>Abs</td>
 <td>Toma el valor absoluto de la condición. Debe tener exactamente una condición.</td>
 <td>Abs[expr]</td>
-<td><strong>Operador:</strong> Abs[x]</td>
+<td><strong>Operador</strong>: Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Tiempos</td>
+<td>Horas</td>
 <td>Toma el producto de sus condiciones. Si el número de condiciones es 0 (cero), da lugar a <strong>1</strong>.</td>
 <td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
@@ -168,7 +167,7 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 </ul></td>
 </tr>
 <tr class="even">
-<td>Potencia</td>
+<td>Inicio/apagado</td>
 <td>Toma un exponencial. Aplica la potencia de derecha a izquierda. (Es decir, es asociativo a la derecha). Por tanto, <strong>Power[a, b, c]</strong> es equivalente a <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> solo se puede usar si el exponente es una constante positiva.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
@@ -222,7 +221,7 @@ Los ejemplos en la siguiente tabla muestran cómo escribir una notación de infi
 |        (x)        |                           El paréntesis anula la prioridad predeterminada.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>¿Por qué las restricciones de expresión no se validan correctamente?
-No se pueden usar palabras clave reservadas como nombres del solucionador de atributos, componentes o subcomponentes en un modelo de configuración de productos.A continuación se muestra una lista de palabras clave reservadas que no se pueden usar:
+No se pueden usar palabras clave reservadas como nombres del solucionador de atributos, componentes o subcomponentes en un modelo de configuración de productos. A continuación se muestra una lista de palabras clave reservadas que no se pueden usar:
 
 -   Techo
 -   Elemento
@@ -254,6 +253,3 @@ No se pueden usar palabras clave reservadas como nombres del solucionador de atr
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

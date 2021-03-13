@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e10aa9342ec9f089ef8ecec5e1221a31c580fc87
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 584c1af5f9252a4b8c88a8866a64184bd0595b2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645002"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009427"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Habilitar las predicciones de pago de los clientes (versión preliminar)
 
@@ -66,7 +65,7 @@ Este tema explica cómo activar y configurar la característica de predicciones 
 
         - **Puntual**: este grupo incluye pagos que se prevé que se pagarán en la fecha de vencimiento de la transacción o antes.
         - **Tarde**: este segmento incluye los pagos que se prevé que se pagarán después de la fecha de vencimiento de la transacción, pero antes del inicio del período de transacción "muy tarde".
-        - **Muy tarde**: este segmento incluye los pagos que se prevé que se pagarán después del comienzo del perioro de transacción "muy tarde".
+        - **Muy tarde**: este segmento incluye los pagos que se prevé que se pagarán después del comienzo del período de transacción "muy tarde".
 
         > [!NOTE]
         > Si cambia el período de transacción "muy tarde" y selecciona **Cambiar el umbral de tarde** después de creado el modelo de predicción de IA para los pagos de los clientes, se elimina el modelo de predicción existente y se crea un nuevo modelo. El nuevo modelo de predicción moverá las transacciones al período "muy tarde", según la configuración introducida para definirlo.
@@ -91,6 +90,3 @@ Las funciones de versión preliminar pública pueden y deben activarse solo en e
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
 Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
