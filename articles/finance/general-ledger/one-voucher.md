@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cada62078b71dd304e90951ab0f4c1643beaa48c
+ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447660"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5107729"
 ---
 # <a name="one-voucher"></a>Un asiento
 
@@ -55,25 +54,26 @@ La funcionalidad de asiento único produce problemas durante el acuerdo, el cál
 
 Por ejemplo, registra el siguiente asiento múltiple.
 
-[![Ejemplo ](./media/example.png)](./media/example.png)
+[![Ejemplo de un asiento multilínea](./media/example.png)](./media/example.png)
 
 A continuación, genere el informe **Gastos por proveedor** en el espacio de trabajo **Información financiera**. En este informe, los saldos de cuenta de gastos se agrupan por grupo de proveedores y el proveedor. Cuando se genera el informe, el sistema no puede determinar qué grupos de proveedores/proveedores incurrieron en el gasto de 250.00. Dado que faltan detalles de la transacción, el sistema presupone que el primer proveedor que se encuentra en el asiento incurrió la totalidad de gastos de 250,00. Por lo tanto, el gasto de 250,00, que se incluye en el saldo de la cuenta principal 600120, se muestra en ese grupo de proveedores/proveedor. Sin embargo, es muy probable que el primer proveedor del asiento no sea el proveedor correcto. Por lo tanto, el informe es probablemente incorrecto.
 
-[![Gastos](./media/expenses.png)](./media/expenses.png)
+[![Informe de gastos por proveedor](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>El futuro de un asiento
 
-Debido a los problemas indicados previamente, la funcionalidad de Un asiento quedará obsoleta. Sin embargo, dado que hay espacios funcionales que dependen de esta funcionalidad, la funcionalidad no quedará obsoleta de repente. En su lugar, se utilizará la programación siguiente:
+Debido a los problemas que pueden producirse cuando se usa Un asiento, esta funcionalidad acabará quedando en desuso. Sin embargo, dado que hay espacios funcionales que dependen de esta funcionalidad, no quedará obsoleta de repente en todos los espacios. En su lugar, se utilizará la programación siguiente:
 
-- **Lanzamiento de primavera de 2018** De forma predeterminada, la funcionalidad se desactivará con el parámetro **Permitir varias transacciones en un asiento** en la pestaña **General** de la página **Parámetros de contabilidad general**. Sin embargo, puede activar la funcionalidad si su organización tiene un escenario que entra en una de las lagunas funcionales que aparecen más adelante en este tema.
+- **Versión de primavera de 2018**: esta funcionalidad se desactivó de forma predeterminada mediante el parámetro **Permitir varias transacciones en un asiento** en la pestaña **General** de la página **Parámetros de contabilidad general**. Sin embargo, puede activarla si su organización tiene un escenario que cae dentro de uno de los espacios funcionales que se mencionan más adelante en este tema.
 
-    - Si los clientes tienen un escenario empresarial que no requiere Un asiento, no deberían activar la funcionalidad. Microsoft no corregirá los "errores“ en las áreas que se identificarán más adelante en este tema si esta funcionalidad se usa aunque exista otra solución.
-    - Deje de usar un asiento para las integraciones, a menos que la funcionalidad sea necesaria para una de las lagunas funcionales.
+    - Si su escenario empresarial no requiere Un asiento, le recomendamos que deje la funcionalidad desactivada. Si la utiliza aunque exista una solución alternativa, Microsoft no corregirá los "errores" en las áreas que se mencionarán más adelante en este tema.
+    - Le recomendamos que deje de usar Un asiento para las integraciones, a menos que la funcionalidad sea necesaria para uno de los espacios funcionales documentados.
 
-- **Últimas versiones** Se atenderán todas las lagunas funcionales. **Una vez que se hayan atendido las lagunas funcionales y se entreguen las nuevas características, se tardará al menos un año en desactivar la funcionalidad de asiento permanentemente**, ya que los clientes y los fabricantes independientes de software (ISVs) deben tener tiempo suficiente para reaccionar a la nueva funcionalidad. Por ejemplo, es posible que tengan que actualizar sus procesos de negocio, entidades e integraciones.
+- **Versiones posteriores**: hay varios requisitos empresariales que solo se pueden cumplir con Un asiento. Microsoft debe asegurarse de que se puedan cumplir todos los requisitos empresariales identificados en el sistema después de que la funcionalidad quede en desuso. Por lo tanto, es probable que haya que agregar nuevas características para rellenar los vacíos funcionales. Microsoft no puede proporcionar una solución específica porque cada vacío funcional es diferente y debe evaluarse en función de los requisitos empresariales. Es probable que algunos vacíos funcionales se reemplacen con características que ayuden a cumplir los requisitos empresariales específicos. Sin embargo, se pueden llenar otros vacíos si se sigue permitiendo la entrada en un diario, como cuando se usa un asiento, pero mejorando el sistema para rastrear más detalles según sea necesario.
 
-> [!IMPORTANT]
-> La opción **Solo un número de asiento** **no** se ha eliminado de la configuración del nombre de diario. Esta opción sigue admitiéndose cuando el asiento contiene solo tipos de cuenta contable. Los clientes deben tener cuidado al utilizar este valor porque el asiento no se registrará si usan la opción **Solo un número de asiento** pero especifican más de un cliente, proveedor, banco, activo fijo, o proyecto. Además, los clientes pueden introducir una combinación de tipos de cuenta del subdiario contable, como un pago en un asiento único que contiene los tipos de cuenta de **proveedor**/**banco**.
+Una vez que se hayan cubierto todos los espacios funcionales, Microsoft comunicará que la función queda en desuso. Sin embargo, esto no entrará en vigor durante al menos un año tras la comunicación. Aunque Microsoft no puede proporcionar una estimación sobre cuándo quedará en desuso la funcionalidad de Un asiento, es probable que pasen al menos dos años antes de que se produzca. La directiva de Microsoft es dejar que transcurran al menos 12 meses entre el anuncio de la funcionalidad obsoleta y la obsolescencia real, para que los clientes y los proveedores de software independientes (ISV) tengan tiempo de prepararse para el cambio. Por ejemplo, es posible que una organización tenga que actualizar sus procesos de negocio, entidades e integraciones.
+
+La obsolescencia de Un asiento es un cambio importante que recibirá una amplia difusión. Como parte de esa comunicación, Microsoft actualizará este tema, publicará una entrada de blog en el blog de Microsoft Dynamics 365 Finance, actualizará el tema "Características quitadas o en desuso", comunicará el cambio en las conferencias de Microsoft correspondientes, etc.
 
 ## <a name="why-use-one-voucher"></a>¿Por qué usar un asiento?
 
@@ -84,7 +84,7 @@ Basado en conversaciones con clientes, Microsoft ha compilado la siguiente lista
 Las situaciones siguientes se pueden realizar solo con la funcionalidad de asiento único. Si su organización tiene cualquiera de estos escenarios, debe habilitar la especificación de varias transacciones en un asiento modificando el valor del parámetro **Permitir varias transacciones en un asiento** en la página **Parámetros de contabilidad general**. Estas lagunas funcionales se abordarán con otras características en posteriores lanzamientos.
 
 > [!Note]
-> [Para cada uno de los siguientes escenarios el campo **Permitir varias transacciones en un asiento** se debe establecer en Sí en la pestaña desplegable **General**, en la página **Parámetros de contabilidad general**].
+> [Para cada uno de los siguientes escenarios el campo **Permitir varias transacciones en un asiento** se debe establecer en Sí en la pestaña desplegable **General** en la página **Parámetros de contabilidad general**].
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Registrar los pagos de cliente o de proveedor en formulario resumen en una cuenta bancaria
 
@@ -186,6 +186,3 @@ Si tiene que realizarse una corrección en la cuenta contable de clientes o de p
 ### <a name="the-system-allows-it"></a>"El sistema lo permite"
 
 Las organizaciones a menudo usan la funcionalidad de un asiento simplemente porque el sistema les permite utilizarla, sin comprender las implicaciones.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Opciones de formato avanzadas en informes financieros
-description: Al crear un informe en informes financieros, las funciones adicionales de formato están disponibles, incluidos los filtros para dimensiones, las restricciones de columnas y las unidades de informes, las filas sin impresión y las instrucciones IF/THEN/ELSE en los cálculos.
-author: ryansandness
+description: Este tema describe funciones de formato avanzadas, incluidos filtros, restricciones, filas que no se imprimen e instrucciones condicionales en los cálculos.
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683172"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093171"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opciones de formato avanzadas en informes financieros
 
@@ -310,6 +310,3 @@ Una expresión **IF/THEN/ELSE** permite a cualquier cálculo depender de los res
 Puede diseñar informes mediante los valores de dimensión que contengan una Y comercial (&).
 
 Dentro de cualquier campo **Vincular a la dimensión financiera**, puede especificar un valor como **'Pérdidas y ganancias'**. Incluir apóstrofes (' ') a ambos lados del valor de dimensión indica que utiliza el valor literal, como incluir el carácter de la Y comercial (&).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Componentes de los informes financieros
-description: En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo explica cómo organizar y bloquear bloques de creación y cómo trabajar con grupos de bloques de creación.
+description: En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d066ee69887f05c8fe14eebac1111c4db26ec628
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682730"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093985"
 ---
 # <a name="financial-report-components"></a>Componentes de los informes financieros
 
@@ -126,6 +126,3 @@ Cuando abre un bloque de creación, otros usuarios tienen acceso de solo lectura
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

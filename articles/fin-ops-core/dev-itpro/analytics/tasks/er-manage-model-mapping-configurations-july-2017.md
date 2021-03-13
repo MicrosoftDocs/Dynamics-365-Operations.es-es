@@ -1,6 +1,6 @@
 ---
-title: Gestionar la asignación de modelos de ER en distintas configuraciones de ER
-description: En los pasos siguientes se explica cómo un usuario con el rol de Administrador del sistema o con el rol de Desarrollador de informes electrónicos puede administrar asignaciones de modelo de informe electrónico (ER) en configuraciones de ER independientes.
+title: Gestionar la asignación de modelos de informes electrónicos en distintas configuraciones de informes electrónicos
+description: Este tema describe cómo administrar las asignaciones de modelos de informes electrónicos (ER) en diferentes configuraciones de ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2f1013cfc9f421525fb0661cd5ace5eeaa157f9a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684436"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093807"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gestionar la asignación de modelos de ER en distintas configuraciones de ER
 
@@ -161,6 +161,3 @@ Dado que las configuraciones de ER se comparten entre las empresas, puede comple
 7. Haga clic en Aceptar.
     * La configuración de la asignación de modelo predeterminada se usa por esta configuración de formato para generar el documento electrónico (la salida creada contiene el código de empresa).  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

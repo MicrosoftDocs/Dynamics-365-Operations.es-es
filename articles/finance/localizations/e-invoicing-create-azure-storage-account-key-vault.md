@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4447782"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104238"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Crear una cuenta de almacenamiento en Azure y un almacén de claves
 
 [!include [banner](../includes/banner.md)]
-
-
-
-El servicio adicional de facturación electrónica asume la responsabilidad de almacenar todos sus datos comerciales en los recursos de Microsoft Azure que son propiedad de su empresa. Para asegurarse de que el servicio funcione correctamente y de que solo el complemento acceda a todos los datos comerciales necesarios y generados por el complemento de facturación electrónica, debe crear dos recursos principales de Azure:
-
-- Una cuenta de almacenamiento de Azure (Blob Storage) para almacenar facturas electrónicas
-- Un almacén de claves de Azure para almacenar certificados y el identificador uniforme de recursos (URI) de la cuenta de almacenamiento
-
-> [!NOTE]
-> Se debe asignar un recurso de almacén de claves dedicado y un almacenamiento de blobs del cliente específicamente para su uso con el complemento de facturación electrónica.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -91,6 +80,3 @@ En este tema, completará dos pasos principales:
 9. En el cuadro de diálogo **Principal**, seleccione el principal agregando **Complemento de facturación electrónica**.
 10. Seleccione **Agregar** y luego seleccione **Guardar cambios de Key Vault**.
 11. En la página **Visión de conjunto**, copie el valor **Nombre DNS** para el almacén de claves. Este valor se utilizará durante la configuración del servicio en RCS y se denominará *URI del almacén de claves*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

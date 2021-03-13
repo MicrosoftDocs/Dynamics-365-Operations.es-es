@@ -1,6 +1,6 @@
 ---
 title: Tipo de destino de ER de correo electrónico
-description: Este tema explica cómo configurar un destino de correo electrónico para cada componente FOLDER o FILE de un formato de informe electrónico (ER) que está configurado para generar documentos salientes.
+description: Este tema explica cómo configurar un destino de correo electrónico para cada componente FOLDER o FILE de un informe electrónico (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690135"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094113"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER de correo electrónico
 
@@ -65,8 +65,6 @@ Si selecciona **Correo electrónico de gestión de impresión** como tipo de dir
 - En el campo **Origen de correo electrónico**, seleccione **Ninguno**.
 - En el campo **Direcciones de correo electrónico adicionales, separadas por";"** campo, introduzca las direcciones de correo electrónico fijas.
 
-![Configurar una dirección de correo electrónico fija](./media/er_destinations-emailfixedaddress.png)
-
 Alternativamente, puede obtener direcciones de correo electrónico de los datos de contacto de la parte para la que genera un documento saliente. Para utilizar direcciones de correo electrónico que no son fijas en el campo **Correo de origen**, seleccione el [rol](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) de la parte del archivo de destino. Se admiten los siguientes roles:
 
 - Cliente 
@@ -92,8 +90,6 @@ En la página del **Diseñador de fórmulas**, en el campo **Fórmula**, introdu
 
 Si los números de cuenta del rol configurado son únicos para toda la instancia de Microsoft Dynamics 365 Finance, el campo **Compañía de origen del correo electrónico** en el cuadro de diálogo **Correo para** puede permanecer en blanco.
 
-![Compañía en blanco del campo de origen correo](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 Alternativamente, puede tener una situación en la que diferentes partes de la [Libreta de direcciones global](../../fin-ops/organization-administration/overview-global-address-book.md) han sido registrados en diferentes empresas ([entidades legales](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) de tal manera que todos utilicen el mismo número de cuenta para cubrir el rol configurado. En este caso, los números de cuenta para el rol configurado no son únicos para toda la instancia de Finance. Por lo tanto, para seleccionar explícitamente una parte, no puede especificar solo un número de cuenta. También debe especificar la empresa en la que se ha registrado el partido para cubrir el rol configurado. Seleccione el botón **Enlazar** (símbolo de cadena) junto al campo **Correo de origen de la compañía** en el cuadro de diálogo **Correo para** para abrir la página del [Diseñador de formulas](general-electronic-reporting-formula-designer.md). Luego, puede usar esta página para configurar una fórmula que devuelva, en runtime, el código de la empresa en la que se debe encontrar la fuente deseada en el alcance.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Para especificar el tipo de direcciones de correo electrónico que se deben util
 
 > [!NOTE]
 > Si se seleccionan propósitos en el campo **Propósito** y la opción **Contacto primario** está configurada en **Sí** al mismo tiempo, todos los correos electrónicos que satisfagan al menos un criterio configurado se utilizarán en tiempo de ejecución.
-
-![Configurar una cuenta de origen de atributos de correo electrónico](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Correo electrónico de configuración
 
@@ -145,6 +139,3 @@ La siguiente ilustración muestra el proceso, como se describe en este tema, de 
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 - [Diseñador de fórmulas en los informes electrónicos (ER)](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

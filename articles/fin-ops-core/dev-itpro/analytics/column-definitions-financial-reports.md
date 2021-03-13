@@ -1,6 +1,6 @@
 ---
 title: Definiciones de columna en los informes financieros
-description: Este artículo proporciona información acerca de las definiciones de columnas. Una definición de columna es un componente de informe, o bloque de creación, que define el contenido de las columnas de un informe. Como definiciones de filas, las definiciones de columna básicas se pueden usar en varios informes.
+description: Este artículo proporciona información acerca de las definiciones de columnas. Una definición de columna es un componente de informe que define el contenido de las columnas de un informe.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687239"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093118"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
 
@@ -226,7 +226,7 @@ Un usuario está creando un informe para una previsión de seis meses dinámica.
 | Ancho de columna        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Control de impresión       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-El usuario hace doble clic en una celda de encabezado de columna para abrir el cuadro de diálogo **Encabezado de columna** y escribe la información siguiente.
+El usuario hace doble clic en la celda de encabezado de una columna en la columna B para abrir el cuadro de diálogo **Encabezado de columna**, donde escribe la información siguiente.
 
 | Campo              | Valor                 |
 |--------------------|-----------------------|
@@ -236,7 +236,6 @@ El usuario hace doble clic en una celda de encabezado de columna para abrir el c
 | Justificación      | No se realiza ninguna selección. |
 | Extensión desde        | mil millones                     |
 | Extensión hasta          | BASE                  |
-| Encabezado del presupuesto      | BASE+1 para acabar columna  |
 
 Después de ingresar la información, el usuario hace clic en **Aceptar**. Luego hace doble clic en la celda de encabezado de columna en la columna C para abrir el cuadro de diálogo **Encabezado de columna**, donde escribe la información siguiente.
 
@@ -246,8 +245,8 @@ Después de ingresar la información, el usuario hace clic en **Aceptar**. Luego
 | Insertar AutoTexto    | No se realiza ninguna selección. |
 | Aplicar formato a las opciones     | Cuadro                   |
 | Justificación      | No se realiza ninguna selección. |
-| Extensión desde        | C                     |
-| Extensión hasta          | BASE+2                |
+| Extensión desde        | BASE+1                |
+| Extensión hasta          | L                     |
 
 Ahora, cada vez que se genere este informa, la palabra “Real” se imprimirá encima de las columnas que contengan datos reales, y la palabra “Presupuesto” se imprimirá encima de las columnas que contienen las previsiones de presupuesto. Además, el número de columnas se ajustará cada mes.
 
@@ -599,6 +598,3 @@ Puede dividir el importe en una columna por un número de períodos específico.
 [Definiciones de filas en el diseñador de informes financieros](row-definitions-financial-reporting.md)
 
 [Opciones de formato avanzadas en informes financieros](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Descripción general del complemento de facturación electrónica
 description: Este tema proporciona información sobre cómo configurar el complemento de facturación electrónica en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4447781"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104217"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Descripción general del complemento de facturación electrónica
 
@@ -45,9 +44,9 @@ El complemento de facturación electrónica puede ayudarlo a lograr los siguient
 
 Para utilizar el complemento de facturación electrónica, debe instalarlo desde su proyecto en Microsoft Dynamics Lifecycle Services (LCS). A continuación, siga el procedimiento de configuración para activar la integración con Finance o Supply Chain Management. Para obtener más información, vea [Introducción al complemento de facturación electrónica para Brasil](e-invoicing-get-started.md).
 
-## <a name="availability"></a>Disponibilidad
+## <a name="service-availability"></a><a name="availability"></a>Disponibilidad del servicio
 
-Inicialmente, el complemento de facturación electrónica está disponible para clientes seleccionados a través de un programa de vista previa. Más tarde, la vista previa se abrirá a una gama más amplia de clientes. Finalmente, el servicio estará disponible para todos. Debido a que la funcionalidad que aborda los requisitos específicos del país o región puede estar limitada en diferentes fases de la versión, siempre debe consultar la documentación más actualizada que resalte la cobertura y el alcance de las soluciones específicas del país o región compatibles.
+Actualmente, el complemento de facturación electrónica está disponible para los clientes a través del programa de vista previa y, en la siguiente fase, el servicio estará disponible para todos. Debido a que la funcionalidad que aborda los requisitos específicos del país o región puede estar limitada en diferentes fases de la versión, siempre debe consultar la documentación más actualizada que resalte la cobertura y el alcance de las soluciones específicas del país o región compatibles.
 
 El complemento de facturación electrónica se implementa en las siguientes geografías de Azure:
 
@@ -66,7 +65,7 @@ El complemento de facturación electrónica se puede utilizar en escenarios en l
 - Integración inmediata con la gestión de Finance y Supply Chain management
 - Experiencia de usuario consistente para la configuración y monitoreo del proceso de factura electrónica para todos los países o regiones
 - Adopción más rápida, fácil y menos costosa de soluciones complementarias de facturación electrónica en nuevos países o regiones
-- Configuración del servicio a través del Servicio de configuración regulatoria (RCS) y la configuración de la función de globalización
+- Configuración del servicio a través del Servicio de configuración regulatoria (RCS) y la configuración de la característica de globalización
 - Transformación de datos comerciales en varios formatos de factura electrónica (XML, notación de objetos JavaScript \[JSON\], TXT y valores separados por comas \[CSV\]) mediante el uso de configuraciones que se definen en RCS:
 
     - Formatos de informes electrónicos que están disponibles para países o regiones donde la configuración para la transformación de facturas electrónicas no está disponible
@@ -76,7 +75,7 @@ El complemento de facturación electrónica se puede utilizar en escenarios en l
     - Integración incorporada, fácilmente ampliable y configurable con contenido adicional para varios países o regiones
 
     > [!NOTE]
-    > Actualmente, se admite un número limitado de envíos directos. Para obtener más información, consulte la sección [Disponibilidad](#availability) descrita anteriormente en este tema. El soporte se ampliará en el futuro.
+    > Actualmente, se admite un número limitado de envíos directos. Para obtener más información, consulte la sección [Disponibilidad de servicio](#availability) descrita anteriormente en este tema. El soporte se ampliará en el futuro.
 
 - Manejo de respuestas de servicios web, incluido el manejo de mensajes de excepción configurables
 - Soporte para firmas electrónicas (por ejemplo, mediante el uso del algoritmo de firma XMLDSig)
@@ -87,7 +86,7 @@ El complemento de facturación electrónica se puede utilizar en escenarios en l
 Cuando se instala el complemento de facturación electrónica desde LCS y se completa la configuración requerida en todas las aplicaciones requeridas, se establece una conexión segura. El servicio se encuentra actualmente en centros de datos de Estados Unidos y Europa. Por lo tanto, la ubicación del servicio puede diferir de la ubicación de la instancia relacionada de Finance o Supply Chain Management. Después de completar la configuración del complemento de facturación electrónica y activar la integración, cada vez que se envía una factura electrónica, los datos maestros y los datos transaccionales que están relacionados con un documento específico se envían al complemento de facturación electrónica.
 
 > [!NOTE]
-> Si su factura electrónica o cualquier otro documento contiene datos personales, verifique que el uso de esta función cumpla con el Reglamento General de Protección de Datos (GDPR) y otras regulaciones relacionadas con la transferencia de datos personales.
+> Si su factura electrónica o cualquier otro documento contiene datos personales, verifique que el uso de esta característica cumpla con el Reglamento General de Protección de Datos (GDPR) y otras regulaciones relacionadas con la transferencia de datos personales.
 
 ### <a name="high-level-description-of-the-data-flow"></a>Descripción de alto nivel del flujo de datos
 
@@ -104,15 +103,9 @@ La siguiente ilustración muestra cómo fluyen los datos hacia y desde el comple
 ![Flujo de datos para el complemento de facturación electrónica](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
-Habilitar y usar la facturación electrónica puede requerir el envío de datos limitados, que incluyen el ID de registro fiscal de la organización. Este será transmitido a agencias de terceros autorizadas por las autoridades tributarias para propósitos de enviar facturas electrónicas a esta autoridad tributaria en los formatos predefinidos requeridos para la integración con los servicios web del gobierno. Los datos importados de estos sistemas externos a este servicio en línea de Dynamics 365 están sujetos a nuestra [declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte las secciones de Aviso de privacidad en la documentación de funciones específicas de cada país o región para obtener más información.
+Habilitar y usar el complemento de facturación electrónica puede requerir el envío de datos limitados, que incluyen el id. de registro fiscal de la organización. Este será transmitido a agencias de terceros autorizadas por las autoridades tributarias para propósitos de enviar facturas electrónicas a esta autoridad tributaria en los formatos predefinidos requeridos para la integración con los servicios web del gobierno. Los datos importados de estos sistemas externos a este servicio en línea de Dynamics 365 están sujetos a nuestra [declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte las secciones de Aviso de privacidad en la documentación de características específicas de cada país o región para obtener más información.
 
 ## <a name="additional-resources"></a>Recursos adicionales
-
-- [Introducción al complemento de facturación electrónica](e-invoicing-get-started.md)
-- [Introducción al complemento de facturación electrónica para Brasil](e-invoicing-bra-get-started.md)
-- [Introducción al complemento de facturación electrónica para México](e-invoicing-mex-get-started.md)
-- [Introducción al complemento de facturación electrónica para Italia](e-invoicing-ita-get-started.md)
-- [Configurar el complemento de facturación electrónica](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Administración de servicios](e-invoicing-service-administration.md)
+- [Configurar facturas electrónicas en RCS](e-invoicing-configuration-rcs.md)
+- [Emitir facturas electrónicas en Finance y Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

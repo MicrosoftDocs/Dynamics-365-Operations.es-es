@@ -1,6 +1,6 @@
 ---
 title: Contenido de prestaciones de Power BI
-description: Este tema describe el contenido en Power BI de Prestaciones. Explica cómo obtener acceso a los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+description: Este tema describe el contenido en Power BI de Prestaciones.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687270"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093090"
 ---
 # <a name="benefits-power-bi-content"></a>Contenido de prestaciones de Power BI
 
@@ -69,6 +69,3 @@ Los siguientes datos se usan para rellenar los informes en el contenido en Power
 | Nombre de empleado            | Nombre, apellido y nombre completo                                                                       | Empleado actual, empleado cesado, tendencia del empleado |
 | Puesto del empleado           | Cargo y fecha de antigüedad                                                                                   | Empleado actual, empleado cesado, tendencia del empleado |
 | Tendencia del empleado           | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                                        | Empresa, compensación, ubicación geográfica, nombre del empleado, responsable ante, contrapartida del calendario, fecha, puesto del empleado, demografía, empleo, trabajo, prestaciones |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

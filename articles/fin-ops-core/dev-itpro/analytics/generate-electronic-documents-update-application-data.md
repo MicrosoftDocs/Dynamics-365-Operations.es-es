@@ -1,6 +1,6 @@
 ---
 title: Generar documentos electrónicos y actualizar datos de aplicación utilizando ER
-description: Puede diseñar los formatos de informes electrónicos (ER) que se pueden usar en la aplicación para generar documentos electrónicos salientes. También puede diseñar formatos de ER que analizan los documentos electrónicos entrantes y usan el contenido en esos documentos para actualizar los datos de la aplicación.
+description: Puede diseñar los formatos de informes electrónicos (ER) que se pueden usar en la aplicación para generar documentos electrónicos salientes.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b9e17d67c437d384ab941d28b8d5ce2b0e3738f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ae3405a882ac37fd9758d8ff0902896562fa06b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688397"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093882"
 ---
-# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Generar documentos electrónicos y actualizar datos de aplicación utilizando ER
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Generar documentos electrónicos y actualizar datos de aplicaciones mediante ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,6 +40,3 @@ Para obtener más información acerca de esta función, reproduzca el conjunto d
 - [Configuración del modelo de datos de ER: intrastat (modelo)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuración de la asignación del modelo de ER: intrastat (asignación)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuración del formato de ER: intrastat (formato)](https://go.microsoft.com/fwlink/?linkid=849038)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

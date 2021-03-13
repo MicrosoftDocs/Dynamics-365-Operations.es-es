@@ -1,6 +1,6 @@
 ---
 title: Acceder a metadatos de la aplicación mediante el uso de aplicaciones conectadas
-description: Los pasos de este tema explican cómo un usuario de Regulatory Configuration Service (RCS) puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de metadatos en Finance and Operations.
+description: Los pasos de este tema explican cómo un usuario de Regulatory Configuration Service puede diseñar una nueva asignación de modelo de informes electrónicos mediante el uso de metadatos.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 457d5760fb704b7a93ce16c081b7c5e6d0ff19c1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682150"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093339"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Acceder a metadatos de la aplicación mediante el uso de aplicaciones conectadas
 
@@ -113,6 +113,3 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 11. Cierre la página. 
 
 Cuando tenga que evaluar esta asignación de modelo mediante el uso de metadatos de una aplicación de versión diferente, registre otra aplicación conectada, asígnela a esta asignación de modelo y valídela con nuevos metadatos.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

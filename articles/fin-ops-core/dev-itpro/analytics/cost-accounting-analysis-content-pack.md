@@ -1,6 +1,6 @@
 ---
 title: Contenido de análisis de costes de contabilidad de Power BI
-description: Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+description: Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/02/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c9a4741c1b09b8e68a9fe95d6f4effa328615d5
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683880"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093395"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenido de análisis de costes de contabilidad de Power BI
 
@@ -123,6 +123,3 @@ Las dimensiones clave siguientes se utilizan como filtros para cortar las medida
 | Calendarios fiscales                   | Calendario, descripción del calendario                                                                                       |
 | Ejercicios                       | Año natural                                                                                                        |
 | Períodos fiscales                     | Período del año natural                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

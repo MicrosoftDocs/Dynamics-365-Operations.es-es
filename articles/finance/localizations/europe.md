@@ -3,24 +3,23 @@ title: Visión general de Europa
 description: Este tema proporciona vínculos a recursos de documentación para Europa de Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
+ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512220"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5099908"
 ---
 # <a name="europe-overview"></a>Visión general de Europa
 
@@ -65,6 +64,7 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 - [Procesamiento de facturas](emea-invoice-processing.md)
 - [Emitir un certificado de entrada de la UE](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [Estándares compatibles para la facturación electrónica](emea-oioubl-standards-electronic-invoicing.md)
+- [Generación de facturas electrónicas forzada](emea-eur-forced-einvoices.md)
 - [Referencia original de factura (Europa del Este)](tasks/ee-00004-original-invoice-reference.md)
 - [Búsqueda de parte mediante id. de IVA](tasks/eur-00015-party-search-vat-id.md)
 - [Herramienta de generación de referencia de pago](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -99,6 +99,3 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 
 - [Visión general de los informes electrónicos](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

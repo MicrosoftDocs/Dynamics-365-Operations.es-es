@@ -1,6 +1,6 @@
 ---
 title: Contenido de Power BI de rendimiento de ventas y rentabilidad
-description: Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de ventas y rentabilidad. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+description: Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de ventas y rentabilidad.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b5ad461c86f44d880f57c940f6e3a5cb325f7e08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7aafaa4c974f6b72e78f870eceb266fd0ef71900
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688244"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093572"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de ventas y rentabilidad
 
@@ -107,6 +107,3 @@ Las dimensiones clave siguientes del cubo de ventas se utilizan como filtros par
 | Fechas            | Fechas                                                |
 
 De forma predeterminada, el contenido muestra los datos del año natural actual. Sin embargo, puede cambiar el filtro de la fecha en la sección de filtros de informe. También puede cambiar el filtro de empresa.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

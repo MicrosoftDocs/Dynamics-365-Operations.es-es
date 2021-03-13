@@ -3,7 +3,7 @@ title: Visión general de clienteling
 description: En este tema se proporciona una visión general de las nuevas capacidades de clienteling disponibles en la aplicación de tienda.
 author: bebeale
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 01/29/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 206031f5ddbaedb2b581a452fe8979252647f0c4
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415530"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097264"
 ---
 # <a name="clienteling-overview"></a>Visión general de relación con los clientes
 
@@ -37,7 +36,7 @@ Muchos minoristas, especialmente los minoristas especializados de alta gama, des
 
 En Microsoft Dynamics 365 Commerce, los minoristas pueden usar la funcionalidad del libro de clientes para ayudar a los socios de la tienda a formar un vínculo a largo plazo con los clientes principales.
 
-El libro de cliente incluye tarjetas de clientes que muestran la información de contacto para cada cliente, así como tres propiedades adicionales definidas por el distribuidor y configuradas en la sede central. Los minoristas pueden decidir los tres aspectos más importantes que los socios de ventas deben saber sobre los clientes. Por ejemplo, un minoristas de joyería puede que desee incluir fechas importantes como aniversarios o cumpleaños, ya que estas fechas son oportunidades en que las personas pueden comprar más joyas. Igualmente, un minorista de moda puede que desee incluir los intereses y las marcas preferidos del cliente.
+El libro de clientes incluye tarjetas de clientes que muestran la información de contacto para cada cliente, así como tres propiedades más definidas por el distribuidor y configuradas en la sede central. Los minoristas pueden decidir los tres aspectos más importantes que los socios de ventas deben saber sobre los clientes. Por ejemplo, un minoristas de joyería puede que desee incluir fechas importantes como aniversarios o cumpleaños, ya que estas fechas son oportunidades en que las personas pueden comprar más joyas. Igualmente, un minorista de moda puede que desee incluir los intereses y las marcas preferidos del cliente.
 
 El libro de clientes también permite a los socios de ventas filtrar la lista de modo que muestre solo a los clientes que cumplan criterios específicos. Por ejemplo, una nueva colección de zapatos ha llegado al almacén, y un socio desea informar a los clientes a quienes les gusta comprar zapatos. En este caso, el socio puede filtrar el libro de clientes para encontrar los clientes relevantes y después adoptar otras medidas.
 
@@ -106,24 +105,30 @@ Para activar la integración de Customer Insights con Commerce, debe asegurarse 
 
 Siga estos pasos para configurar la integración.
 
-1. En el portal de Azure, registre una aplicación. Esta aplicación se usará para la autenticación con Customer Insights. Para obtener instrucciones, consulte [Inicio rápido: Registrar una aplicación en la plataforma de identidad de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
-2. Genere un secreto para la aplicación. Anote el secreto, y manténgalo en algún lugar seguro, ya que lo necesitará más tarde. Seleccione también la duración del secreto.
+1. En Azure Portal, registre una nueva aplicación y anote el nombre de la aplicación, el id. de la aplicación y el secreto. Esta información se utilizará para la autenticación de servicio a servicio entre Commerce y Customer Insights. Anote el secreto de forma segura, ya que será necesario guardarlo en el almacén de claves. Para el siguiente ejemplo, use CI_Access_name, CI_Access_AppID y CI_Access_Secret para el nombre de la aplicación, el id. de la aplicación y el secreto, respectivamente. Para más información, consulte [Inicio rápido: Registrar una aplicación en la plataforma de identidad de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
     > [!IMPORTANT]
     > Tome medidas de modo que se recuerde de cambiar el secreto antes de que caduque. Si no, la integración se detendrá inesperadamente.
 
-3. Cree un Azure Key Vault, y guarde el secreto de la aplicación. Para obtener instrucciones, consulte [Inicio rápido: Establecer y recuperar el Azure Key Vault mediante el portal de Azure](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
-4. Conecte el acceso a Azure Key Vault desde Commerce. Para completar este paso, debe tener un identificador y un secreto de la aplicación. La aplicación puede ser la misma solicitud que ha creado en el paso 1, o puede ser una nueva aplicación. (Es decir, puede usar la aplicación que creó en el paso 1 para el acceso a Key Vault y el acceso al servicio de Customer Insights, o puede crear una aplicación única para cada tipo de acceso.) Para obtener instrucciones, consulte [Credenciales principales del servicio de tienda de Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
-5. En la sede central, vaya al **Administración del sistema \> Configuración \> Parámetros de Key Vault** e introduzca la información requerida para Key Vault. A continuación, en el campo **Cliente de Key Vault**, especifique el identificador de la aplicación que usó en el paso 4, de modo que Commerce pueda acceder a los secretos del almacén de claves.
-6. Para agregar la aplicación que creó en el paso 1 a la lista de aplicaciones seguras (en ocasiones denominada lista segura), vaya a Customer Insights, y proporcione acceso de **Vista** a la aplicación. Para obtener instrucciones, consulte [Permisos](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
-7. En Commerce, en la página **Parámetros de Commerce**, en la pestaña **Clienteling**, en la ficha desplegable **Dynamics 365 Customer Insights**, siga estos pasos:
+2. Vaya a su instancia de Customer Insights y busque el nombre de la aplicación creada anteriormente (en este ejemplo, "CI_Access_name").
+3. Cree un almacén de claves de Azure y anote el nombre y la URL (en este ejemplo, "KeyVaultName", "KeyVaultURL"). Para obtener instrucciones, consulte [Inicio rápido: Establecer y recuperar el Azure Key Vault mediante el portal de Azure](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+4. Guarde el secreto (en este ejemplo, "CI_Access_Secret") en el almacén. Cuando este secreto se almacena en el almacén, el secreto recibe un nombre. Anote el nombre del secreto (en este ejemplo, "SecretName").
+5. Para acceder al secreto desde Azure Key Vault, debe crear otra aplicación con un id. de aplicación y un secreto (en este ejemplo, "KeyVault_Access_AppID" y "KeyVault_Access_Secret"). Anote el secreto de forma segura, ya que no se volverá a mostrar.
+6. A continuación, debe otorgar permisos a la aplicación para acceder a Key Vault desde Commerce, usando las API. En Azure Portal, vaya a la página de aplicaciones. En la sección **Administrar**, seleccione **Permisos de API**. Agregue el permiso para acceder al **Almacén de claves de Azure**. Para obtener este permiso, seleccione **Política de acceso**. Seleccione la plantilla como **Administración de secretos** y seleccione las opciones **Obtener**, **Enumerar**, **Descifrar** y **Cifrar**. 
+5. En la sede central de Commerce, vaya a **Administración del sistema \> Configuración \> Parámetros de Key Vault** e introduzca la información requerida para el almacén de claves. A continuación, en el campo **Cliente de Key Vault**, especifique el identificador de la aplicación que usó en el paso 4, de modo que Commerce pueda acceder a los secretos del almacén de claves.
+6. Para agregar la aplicación que creó en el paso 1 a la lista de aplicaciones seguras (en ocasiones denominada lista segura), vaya a Customer Insights, y seleccione acceso de **Vista** a la aplicación. Para obtener instrucciones, consulte [Permisos](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+7. En la página **Administración del sistema > Configuración > Parámetros de Key Vault** de la sede central de Commerce, actualice los campos como se describe a continuación: 
 
-    1. En el campo **Id. de aplicación**, especifique el identificador de la aplicación que usó en el paso 1.
-    2. En el campo **Nombre de secreto**, especifique el nombre del secreto del Key Vault que ha creado en el paso 5.
-    3. Establezca la opción **Habilitar Customer Insights** en **Sí**. Si la configuración fracasa por algún motivo, recibirá un mensaje de error, y esta opción se establecerá en **No**.
-    4. Puede tener varios entornos en Customer Insights, como entornos de prueba y producción. En el campo **Id. de instancia del entorno**, especifique el entorno adecuado.
-    5. En el campo **Id. de cliente alternativo**, especifique la propiedad de Customer Insights que esté asignada al número de cuenta del cliente. (En Commerce, el número de cuenta del cliente es el id. de cliente).
-    6. Las tres propiedades restantes son las medidas que se mostrarán en la tarjeta de cliente del libro de clientes. Puede seleccionar hasta tres medidas para mostrar en la tarjeta de cliente. (Sin embargo, no es necesario que seleccione ninguna medida.) Tal como se mencionó anteriormente, el sistema muestra estos valores en primer lugar y, a continuación, muestra los valores del grupo de atributos del libro de clientes.
+- **URL de Key Vault**: "KeyVaultURL" (del paso 3 anterior).
+- **Cliente de Key Vault**: "KeyVault_Access_AppID" (del paso 5 anterior).
+- **Clave secreta de Key Vault**: "KeyVault_Access_Secret" (del paso 5 anterior).
+- En la sección **Secretos**:
+    - **Nombre**: cualquier nombre, por ejemplo "CISecret".
+    - **Descripción**: cualquier valor.
+    - **Secreto**: **almacén**://<Name of key vault>/<name of secret>> En este ejemplo será "vault://KeyVaultName/SecretName".
 
+Después de actualizar los campos, seleccione **Validar** para garantizar que la aplicación de Commerce pueda acceder al secreto.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+8. En Commerce, en la página **Parámetros de Commerce**, en la pestaña **Clientelar**, en la ficha desplegable **Dynamics 365 Customer Insights** establezca el **Id. de aplicación** en "CI_Access_AppID" (del paso 1 anterior). Para **Nombre de secreto**, seleccione el nombre del secreto introducido en el paso 7 anterior ("CISecret"). Establezca la opción **Habilitar Customer Insights** en **Sí**. Si la configuración fracasa por algún motivo, aparecerá un mensaje de error, y esta opción se establecerá en **No**. 
+
+Puede tener varios entornos en Customer Insights, como entornos de prueba y producción. En el campo **Id. de instancia del entorno**, especifique el entorno adecuado. En el campo **Id. de cliente alternativo**, especifique la propiedad de Customer Insights que esté asignada al número de cuenta del cliente. (En Commerce, el número de cuenta del cliente es el id. del cliente). Las tres propiedades restantes son las medidas que se mostrarán en la tarjeta del cliente en el libro del cliente. Puede seleccionar hasta tres medidas para mostrar en la tarjeta de cliente. Sin embargo, no es necesario que seleccione ninguna medida. Como se mencionó anteriormente, el sistema muestra estos valores primero y luego muestra los valores para el grupo de atributos del libro de clientes.

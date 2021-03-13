@@ -1,6 +1,6 @@
 ---
 title: Mejoras en el seguimiento de los resultados de informes de ER generados y su comparación con valores de línea base
-description: En este tema se proporciona información sobre cómo se ha mejorado la característica de la línea base de ER en la versión 10.0.3 de Microsoft Dynamics 365 for Finance and Operations (junio de 2019).
+description: Este tema describe las mejoras a la función de referencia de ER en la versión 10.0.3 (junio 2019) de Microsoft Dynamics 365 for Finance and Operations.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c00a5d9e2804f6ec0f6cb4c544029a1235ee58d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682856"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094013"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Mejoras en el seguimiento de los resultados de informes de ER generados y su comparación con valores de línea base
 
@@ -59,7 +59,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos del e
 
 Se ha agregado la línea base para el formato seleccionado **Formato para aprender líneas base de ER**, pero las reglas de línea base aún no se han agregado para esta línea base.
 
-![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-AddBaseline2.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
+![Página de líneas base del formato de los informes electrónicos, aún sin reglas](media/GER-BaselineSample-AddBaseline2.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
 ### <a name="make-a-new-baseline-rule"></a>Crear una nueva regla de línea base
 
@@ -72,7 +72,7 @@ Se ha agregado la línea base para el formato seleccionado **Formato para aprend
 7. Seleccione **Aceptar**.
 8. Seleccione **Líneas base**.
 
-    ![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
+    ![Página de líneas base del formato de los informes electrónicos, líneas base seleccionadas](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
     El archivo de salida generado se ha adjuntado automáticamente a la línea base del formato de ER ejecutado. La regla de línea base se ha agregado automáticamente a esta línea base y también contiene la referencia al archivo adjunto.
 
@@ -130,7 +130,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos del e
 3. En la lista de líneas base, seleccione la línea base configurada para el formato **Formato para aprender líneas base de ER**.
 4. En la ficha desplegable **Líneas base**, seleccione **Eliminar** para eliminar la regla de línea base que configuró anteriormente.
 
-![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-AddBaseline3.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
+![Página de líneas base del formato de los informes electrónicos, eliminado](media/GER-BaselineSample-AddBaseline3.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Definir sustituciones para los enlaces de formato de ER diseñado
 
@@ -138,7 +138,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos del e
 2. En el árbol de componentes del formato, expanda **Salida**, expanda **Salida\\Documento** y active la casilla para **Salida\\Documento\\ProcessingDateTime**.
 3. Seleccione **Aceptar**.
 
-![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-AddBaseline4.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
+![Página de líneas base del formato de los informes electrónicos, componentes](media/GER-BaselineSample-AddBaseline4.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
 Se ha agregado el componente del formato de ER seleccioando a la lista de componentes en la ficha desplegable **Sustituciones**. Cuando el formato de ER de la base se ejecuta en modo de depuración, el enlace del formato para cada componente se sustituirá por el enlace que se muestra en la columna **Enlace** . Para cambiar el enlace predeterminado para un componente que se muestra en la ficha desplegable **Sustituciones**, seleccione **Editar**.
 
@@ -207,6 +207,3 @@ Para importar la configuración de línea base de un archivo XML almacenado en M
 
 - [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md)
 - [Recursos del Grabador de tareas](../user-interface/task-recorder.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

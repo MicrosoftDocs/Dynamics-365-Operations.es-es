@@ -1,6 +1,6 @@
 ---
 title: Preparar metadatos de la aplicación para usarse en RCS
-description: Los pasos de este tema explican cómo un usuario puede crear una nueva configuración de informes electrónicos (ER) que contiene metadatos de la aplicación de para diseñar configuraciones de asignación del modelo de ER en Regulatory Configuration Service (RCS).
+description: Este tema describe cómo crear una nueva configuración de informes que contenga metadatos de la aplicación.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d5f55d089a88642cb2bda70274472ad0f0e45cd7
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684100"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094249"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Preparar metadatos de la aplicación para usarse en RCS
 [!include [banner](../../includes/banner.md)]
@@ -80,6 +80,3 @@ Agregamos información de metadatos sobre la tabla de registros de Intrastat.
 3.    Haga clic en **Aceptar**. 
     
 La configuración de metadatos de ER creada se ha guardado como archivo XML que se puede importar a RCS y utilizar como la fuente de información sobre metadatos para el dominio empresarial de comercio exterior. Según esta información, podemos especificar la asignación entre los metadatos de la aplicación y el modelo de datos de ER.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

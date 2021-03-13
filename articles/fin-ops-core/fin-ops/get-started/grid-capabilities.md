@@ -1,9 +1,9 @@
 ---
 title: Funcionalidad de cuadrícula
-description: Este tema describe varias características potentes del control de cuadrícula. La nueva característica de cuadrícula debe estar habilitada para tener acceso a estas capacidades.
+description: Este tema describe varias características potentes del control de cuadrícula. Debe activar la nueva característica de cuadrícula para tener acceso a estas capacidades.
 author: jasongre
 manager: AnnBe
-ms.date: 11/17/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,40 +15,40 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f8ec45208ea86f4b1782eaeb1d14bb414e3b577f
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693783"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104318"
 ---
-# <a name="grid-capabilities"></a>Funcionalidad de cuadrícula
+# <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-El nuevo control de cuadrícula proporciona una serie de capacidades útiles y potentes que se pueden utilizar para mejorar la productividad del usuario, construir vistas más interesantes de sus datos y obtener información significativa sobre sus datos. Este artículo cubrirá las siguientes capacidades: 
+El nuevo control de cuadrícula proporciona varias capacidades útiles y potentes que puede utilizar para mejorar la productividad del usuario, construir vistas más interesantes de sus datos y obtener información significativa sobre sus datos. Este artículo cubrirá las siguientes capacidades: 
 
 -  Cálculo de los totales
 -  Escribir por delante del sistema
 -  Evaluar expresiones matemáticas 
 -  Agrupar datos tabulares (habilitado por separado usando la característica **(Versión preliminar) Agrupación en cuadrículas**)
--  Columnas del sistema ancladas
+-  Columnas de congelación
 
 ## <a name="calculating-totals"></a>Cálculo de los totales
-En las aplicaciones de Finance and Operations, los usuarios tienen la capacidad de ver los totales en la parte inferior de las columnas numéricas en las cuadrículas. Estos totales se muestran en una sección de pie de página en la parte inferior de la cuadrícula. 
+En las aplicaciones de Finance and Operations, los usuarios tienen la capacidad de ver los totales en la parte inferior de las columnas numéricas en las cuadrículas. Una sección de pie de página en la parte inferior de la cuadrícula que muestra estos totales. 
 
 ### <a name="showing-the-grid-footer"></a>Mostrar el pie de página de la cuadrícula
 Hay un área de pie de página en la parte inferior de cada cuadrícula tabular en las aplicaciones Finance and Operations. El pie de página puede mostrar información valiosa relacionada con los datos que aparecen en la cuadrícula. Algunos ejemplos de esta información son:
 
-- El número de filas seleccionadas en la tabla (cuando se selecciona más de un registro)
+- El número de filas seleccionadas en la tabla (cuando selecciona más de un registro)
 - Totales generales en la parte inferior de las columnas numéricas configuradas
 - El número de filas del conjunto de datos 
 
-Este pie de página está oculto de forma predeterminada pero se puede activar fácilmente. Para mostrar el pie de página de una cuadrícula, haga clic con el botón derecho en el encabezado de una columna en la cuadrícula y seleccione la opción **Mostrar pie de página**. Una vez que el pie de página se ha activado para una cuadrícula en particular, esa configuración se recordará hasta que el usuario opte por ocultar el pie de página, lo que se puede hacer haciendo clic derecho en el encabezado de una columna y seleccionando **Ocultar pie de página**.  Tenga en cuenta que se espera que la acción **Mostrar pie de página/Ocultar pie de página** se reubique en una actualización futura. 
+Este pie de página está oculto de forma predeterminada pero puede activarlo. Para mostrar el pie de página de una cuadrícula, haga clic con el botón derecho en el encabezado de una columna en la cuadrícula y seleccione la opción **Mostrar pie de página**. Después de activar el pie de página para una cuadrícula en particular, esa configuración se recordará hasta que el usuario opte por ocultar el pie de página. Para ocultar el pie de página, haga clic con el botón derecho en el encabezado de una columna y seleccione **Ocultar pie de página**.  (La colocación de la acción **Mostrar pie de página/Ocultar pie de página** podría reubicarse en una actualización futura. 
 
 ### <a name="specifying-columns-with-totals"></a>Especificar columnas con totales
-Actualmente, no se configurarán columnas para mostrar totales por defecto. En cambio, esto se considera una actividad de configuración única, similar a ajustar el ancho de las columnas en las cuadrículas. Una vez que especifique que desea ver los totales de una columna, esa configuración se recordará la próxima vez que visite la página.  
+Actualmente, ninguna columna muestra los totales de forma predeterminada. En cambio, esto se considera una actividad de configuración única, similar a ajustar el ancho de las columnas en las cuadrículas. Una vez que especifique que desea ver los totales de una columna, esa configuración se recordará la próxima vez que visite la página.  
 
 Hay dos formas de configurar una columna para mostrar un total: 
 
@@ -122,8 +122,14 @@ De la misma manera que puede seleccionar (o anular la selección) todas las fila
 ### <a name="hiding-column-names"></a>Ocultar nombres de columnas
 Al agrupar datos, el comportamiento predeterminado es mostrar el nombre de la columna en la fila del encabezado del grupo. A partir de la versión 10.0.14/Platform update 38, puede optar por suprimir el nombre de la columna en las filas de encabezado de grupo seleccionando **Opciones de cuadrícula** > **Ocultar el nombre de la columna del grupo**.
 
-## <a name="pinned-system-columns"></a>Columnas del sistema ancladas
-La columna de selección de fila y la columna de estado de fila de la nueva cuadrícula están ancladas o congeladas en la parte más a la izquierda de la cuadrícula. Por lo tanto, cuando estas columnas se incluyen en una cuadrícula, siempre estarán visibles para el usuario, independientemente de la posición de desplazamiento horizontal en la cuadrícula.   
+## <a name="freezing-columns"></a>Columnas de congelación
+Algunas columnas en una cuadrícula pueden ser lo suficientemente importantes para el contexto como para que no desee que se desplacen fuera de la vista. En su lugar, desea que los valores de esas columnas estén siempre visibles. En la versión 10.0.17, la característica **Congelar columnas en la cuadrícula** proporciona esta flexibilidad a los usuarios. 
+
+Para congelar una columna, haga clic con el botón derecho en el encabezado de la columna y luego seleccione **Congelar columna**. La primera vez que completa este paso, la columna seleccionada se convierte en la primera columna y ya no se desplazará fuera de la vista. Cualquier columna posterior que congele se agregará a la derecha de la última columna congelada. Puede utilizar la función Mover estándar para reordenar las columnas inmovilizadas según sus necesidades. Sin embargo, las columnas congeladas no se pueden mover para que aparezcan entre el conjunto de columnas no congeladas. De igual modo, las columnas no congeladas no se pueden mover para que aparezcan entre el conjunto de columnas congeladas.
+
+Para descongelar una columna, haga clic con el botón derecho en el encabezado de la columna congelada y luego seleccione **Descongelar columna**. 
+
+Tenga en cuenta que las columnas de selección de fila y estado de fila en la nueva cuadrícula siempre están congeladas como las dos primeras columnas. Por lo tanto, cuando estas columnas se incluyen en una cuadrícula, siempre estarán visibles para los usuarios, independientemente de la posición de desplazamiento horizontal en la cuadrícula. Estas dos columnas no se pueden reordenar.
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>¿Cómo habilito el nuevo control de cuadrícula en mi entorno? 
@@ -159,7 +165,7 @@ Esta API se aplicará hasta la versión de octubre de 2021, cuando el nuevo cont
 Si un desarrollador establece la propiedad **WidthMode** en **SizeToAvailable** para las columnas que hay dentro de la nueva cuadrícula, esas columnas tendrán inicialmente el mismo ancho que tendrían si la propiedad estuviera establecida en **SizeToContent**. Sin embargo, se estiran para utilizar el ancho adicional disponible en la cuadrícula. Si la propiedad se establece en **SizeToAvailable** para varias columnas, todas esas columnas compartirán el ancho adicional disponible en la cuadrícula. Sin embargo, si un usuario cambia manualmente el tamaño de una de esas columnas, la columna se volverá estática. Permanecerá en ese ancho y ya no se estirará para ocupar el ancho de cuadrícula adicional disponible.  
 
 ## <a name="known-issues"></a>Problemas conocidos
-Esta sección mantiene una lista de problemas conocidos para el nuevo control de cuadrícula mientras la característica está en un estado de vista previa.  
+Esta sección mantiene una lista de problemas conocidos para el nuevo control de cuadrícula.  
 
 ### <a name="open-issues"></a>Problemas abiertos
 -  Después de habilitar la característica **Nuevo control de cuadrícula**, algunas páginas continuarán utilizando el control de cuadrícula existente. Esto ocurrirá en las siguientes situaciones:  
@@ -170,20 +176,44 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
     Cuando un usuario encuentra por primera vez una de estas situaciones, aparecerá un mensaje sobre la actualización de la página. Después de que aparezca este mensaje, la página continuará utilizando la cuadrícula existente para todos los usuarios hasta la próxima actualización de la versión del producto. Se considerará una mejor administración de estos escenarios, para que se pueda utilizar la nueva cuadrícula, en una actualización futura.    
     
 -  [KB 4582758] Los registros aparecen borrosos cuando cambia el zoom de 100 a cualquier otro porcentaje
-    
+-  [KB 4592012] Error de cliente inesperado en IE11 al pegar varias líneas desde Excel
+    -  Microsoft no busca una solución para este problema
+
+### <a name="fixed-as-part-of-10016"></a>Corregido como parte de 10.0.16
+
+-  [KB 4598335] Los controles de cadenas de varias líneas no respetan sus DisplayHeights en listas / tarjetas 
+-  [KB 4591891] Las líneas de propuesta de factura desaparecen al desmarcar líneas
+-  [KB 4592104] No se pueden editar los registros después de hacer clic en "Solucionar problema" y pasar a una fila diferente sin solucionar el problema de validación
+-  [KB 4594449] Faltan los botones "Nunca" y "Borrar" dentro del selector de fechas 
+-  [KB 4594448] La hora de entrada se trata de forma diferente con la nueva cuadrícula
+-  [KB 4600059] Error de cliente inesperado con limitación de correo electrónico
+-  [KB 4574584] La vista previa del archivo adjunto de gastos no está disponible al pasar el cursor sobre el icono del recibo
+
 ### <a name="fixed-as-part-of-10015"></a>Corregido como parte de 10.0.15    
 
+-  (Actualización de calidad) [KB 4594444] Error de cliente inesperado con vista previa del control de entrada segmentado
 -  [KB 4582723] Las opciones de visualización no se muestran cuando se realizan más adelante en el ciclo de vida del formulario
+-  [KB 4591988] Problemas al usar el teclado para seleccionar un valor de una búsqueda de ReferenceGroup
+-  [KB 4588958] Regression Suite Automation Tool (RSAT) prueba falla con error: TypeError: No se puede leer la propiedad 'texto' de indefinido
+-  [KB 4591970] Error de cliente inesperado al pegar desde Excel inmediatamente después de hacer clic en la cuadrícula
+-  [KB 4591904] Los cambios en los datos no se guardan si después de editar un control, el usuario inmediatamente hizo clic y abrió la búsqueda de un control diferente
+-  [KB 4584752] Error de cliente inesperado con la página de propuestas de factura del proyecto
+-  [KB 4584540] No se puede salir de la cuadrícula después de pegar una sola fila en una línea del diario
+-  [KB 4591908] Al crear una nueva fila, el foco permanece en la columna en la que estaba
 
 ### <a name="fixed-as-part-of-10014"></a>Corregido como parte de 10.0.14
 
 -  (Actualización de calidad) [KB 4584752] Error de cliente inesperado con la página de propuestas de factura del proyecto
+-  [KB 4583880] La prueba de Regression Suite Automation Tool (RSAT) falla en la acción OpenLookup con "No se puede leer la propiedad RowIndex de undefined"
+-  [KB 4583847] Error de cliente inesperado al navegar por las búsquedas
 
 ### <a name="fixed-as-part-of-10013"></a>Corregido como parte de 10.0.13
 
--  (Actualización de calidad) [KB 4583880] Regression Suite Automation Tool (RSAT) las pruebas fallan en la acción OpenLookup con "No se puede leer la propiedad RowIndex de undefined"
+-  (Actualización de calidad) [KB 4584752] Error de cliente inesperado con la página de propuestas de factura del proyecto
+-  (Actualización de calidad) [KB 4583880] Las pruebas Regression Suite Automation Tool (RSAT) fallan en la acción OpenLookup con "No se puede leer la propiedad RowIndex de undefined"
 -  (Actualización de calidad) [KB 4583847] Error de cliente inesperado al navegar por las búsquedas 
 -  (Actualización de calidad) [Error 471777] No se pueden seleccionar campos en una cuadrícula para editar o crear una aplicación móvil
+-  [KB 4582727] La cuadrícula se congela después de que el usuario obtiene un cuadro de diálogo para elementos con varias cantidades
 -  [Error 474851] Los hipervínculos en los controles del grupo de referencia no funcionan 
 -  [Error 474848] Las vistas previas mejoradas con cuadrículas no se muestran
 -  [KB 4582726] No se respeta la propiedad RotateSign  
@@ -263,6 +293,3 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
 ### <a name="quality-update-for-1009platform-update-33"></a>Actualización de calidad para 10.0.9/Actualización de plataforma 33
 
 - [KB 4550367] Los valores de tiempo no tienen el formato correcto.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

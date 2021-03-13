@@ -1,6 +1,6 @@
 ---
 title: Diseñar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas
-description: Los pasos de este tema proporcionan información sobre cómo diseñar las configuraciones de informes electrónicos (ER) que generen documentos electrónicos en formatos de Microsoft Office (Excel y Word) que contienen imágenes incrustadas.
+description: Este tema describe cómo diseñar las configuraciones que generan documentos electrónicos en formato Excel y Word que contienen imágenes insertadas.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b60ed6b07851c44ceb4b8f313bc65f04b802e646
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684412"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093679"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Diseñar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas
 
@@ -90,6 +90,3 @@ Para completar los pasos de este procedimiento, primero complete el procedimient
  30. Seleccione Sí en el campo Permitir la creación de validaciones de cuenta en cuentas bancarias inactivas:.  
  31. Haga clic en Guardar.  
  32. Cierre la página.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: ER Asignar componentes del formato creado a los elementos del modelo de datos (noviembre de 2016)
-description: El procedimiento siguiente muestra cómo un usuario con rol de Administrador del sistema o de Desarrollador de informes electrónicos puede asignar elementos del modelo de datos a componentes de la configuración de informes electrónicos (ER) creada, lo que define un formato de documento electrónico para el dominio de pagos de la empresa.
+description: Este tema describe cómo asignar elementos del modelo de datos a componentes de la configuración de informes electrónicos (ER) creada.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 043c66cf3345678aa7750ef50323700384579299
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684340"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093782"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Asignar componentes del formato creado a los elementos del modelo de datos (noviembre de 2016)
 
@@ -113,6 +113,3 @@ Cada versión del formato se puede configurar como disponible para su uso a part
 1. Expanda la sección Códigos ISO de país/región.
     * Los accesos a los formatos se pueden restringir identificando países o regiones aplicables. Si la lista de países o regiones para el formato concreto está vacía, el formato se puede usar en cualquier empresa. Si se insertan códigos de país o región ISO en la lista de países o regiones, el formato solo se puede usar en empresas si su sede principal se encuentra ubicada en dicho país o región.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
