@@ -1,5 +1,5 @@
 ---
-title: Procedimientos recomendados para importar asientos mediante la entidad Diario general
+title: Importar asientos con la entidad Diario general
 description: Este tema ofrece sugerencias para importar datos en el Diario general mediante la entidad Diario general.
 author: rcarlson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687652"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129608"
 ---
-# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Procedimientos recomendados para importar asientos mediante la entidad Diario general
+# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importar asientos con la entidad Diario general
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,6 +65,3 @@ Las siguientes secciones describen el efecto de estas configuraciones. También 
 - Si el campo **número de asiento** se establece en **Generado automáticamente**, la importación no será correcta. No se admite la configuración **Generado automáticamente** para el campo **Número de asiento**.
 
 De forma predeterminada, la entidad Diario general utiliza el procesamiento basado en conjuntos. Después de evaluar los requisitos empresariales para su organización, puede cambiar la configuración **Procesamiento basado en conjuntos** haciendo clic en **Entidades de datos** en el área de trabajo **Administración de datos**. El procesamiento basado en conjuntos se utiliza para acelerar el proceso de importación. Si no utiliza el procesamiento basado en conjuntos, la importación de la entidad Diario general será más lenta.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Mantener la información de lesiones y enfermedades del empleado
 description: Se recomienda completar primero la guía de tareas "Configuración de lesión o enfermedad", puesto que aquí se usa parte de la información de configuración.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ae5a14879a9e182f6f4604204f1cd6dd12576a3
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420381"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130118"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Mantener la información de lesiones y enfermedades del empleado
 
@@ -93,6 +93,3 @@ Esta grabación de tareas cubre los pasos básicos para crear un caso de lesión
 36. Haga clic en Guardar.
     * El estado del caso se puede actualizar en cualquier momento.  Establezca el caso en curso, si el procesamiento de la lesión o enfermedad está en curso.  Una vez cierre el incidente, solo podrá agregar o quitar costes, tratamientos o archivos relacionados con el incidente.  Para modificar otra información, vuelva a abrir el caso.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Configurar parámetros compartidos
 description: Debe configurar los parámetros compartidos para los registros que se comparten entre empresas, como registros de puesto. En este artículo se explica cómo configurar parámetros de recursos humanos entre entidades jurídicas.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmSharedParameters, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51891
 ms.assetid: c7d8f58c-d78a-4035-abbf-2b0ce16109fe
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 72742c38c3ff25d665bd1a3d0ea54f167dc0693c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7b399e0e8972a15837648d7ae6ec0eaacb5196b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420358"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130432"
 ---
 # <a name="configure-shared-parameters"></a>Configurar parámetros compartidos
 
@@ -45,6 +45,3 @@ En la pestaña **Puestos**, indique si los nuevos puestos están disponibles par
 
 -   **Siempre:** no puede asignar trabajadores a los nuevos puestos cuando se crean los puestos. Cuando se crean los puestos, la fecha y la hora **Disponibles para la asignación** en la pestaña **General** de la página **Puesto** se cambian automáticamente a la fecha y hora de la creación.
 -   **Nunca:** no puede asignar trabajadores a los nuevos puestos cuando se crean los puestos. Si selecciona esta opción, también debe abrir la página **Puesto** para cada nuevo puesto a medida que se haga disponible y luego en la pestaña **General**, especificar la fecha **Disponible para la asignación** para habilitar la asignación del trabajador.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

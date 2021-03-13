@@ -1,8 +1,8 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (19 de marzo de 2020)
 description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 19 de marzo de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 902539a5abecba6ad99718afbb37613838450032
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6eddce5b8efa1d62dff3238a5a0b69510ed4c387
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526874"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127978"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (19 de marzo de 2020)
 
@@ -53,7 +53,7 @@ Ahora puede ajustar los saldos para los planes de vacaciones que se crearon con 
 
 Para los empleados con un empleo terminado, la posición principal que estaba activa en el momento de la terminación se muestra en la entidad. Para las integraciones, ya no se creará un registro duplicado para la asignación del puesto de trabajo del empleado. 
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>La solución Common Data Service ahora está disponible con los siguientes cambios:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>La solución Dataverse ahora está disponible con los siguientes cambios:
 
 | Descripción | Cambio |
 | --- | --- |
@@ -65,12 +65,12 @@ Para los empleados con un empleo terminado, la posición principal que estaba ac
 | Nuevas entidades de configuración de compensación variable | <ul><li>**Tipo de plan de compensación variable**</li><li>**Plan de compensación variable**</li><li>**Reglas de atribución**</li><li>**Nivel de plan de compensación variable**</li></ul> |
 | Nueva entidad **Empleo de calendario de trabajador** | <ul><li>Se ha agregado la entidad **Calendario de trabajo**</li></ul> |
 | Nueva entidad **Detalle de puesto de nómina** | <ul><li>**Detalle de puesto de nómina** agregado</li></ul> |
-| Nueva entidad **Cargo** | <ul><li>**Cargo** agregado</li></ul>La nueva entidad **Cargo** está incluida en Common Data Service pero no se hace referencia desde las entidades **Puesto de trabajo** o **Trabajo** en este momento. |
+| Nueva entidad **Cargo** | <ul><li>**Cargo** agregado</li></ul>La nueva entidad **Cargo** está incluida en Dataverse pero no se hace referencia desde las entidades **Puesto de trabajo** o **Trabajo** en este momento. |
 
 > [!NOTE]
-> Las dimensiones financieras tanto para los puestos como para el empleo proporcionan una integración en una dirección para actualizaciones desde Human Resources a Common Data Service. Actualmente las actualizaciones de dimensiones financieras no se sincronizan desde Common Data Service a Human Resources.
+> Las dimensiones financieras tanto para los puestos como para el empleo proporcionan una integración en una dirección para actualizaciones desde Human Resources a Dataverse. Actualmente las actualizaciones de dimensiones financieras no se sincronizan desde Dataverse a Human Resources.
 
-Durante las próximas semanas, estos cambios de entidad estarán disponibles en todos los entornos. Para instalar manualmente la última solución de Common Data Service para Human Resources:
+Durante las próximas semanas, estos cambios de entidad estarán disponibles en todos los entornos. Para instalar manualmente la última solución de Dataverse para Human Resources:
 
 1.  Vaya al [Centro de administración de Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -130,5 +130,3 @@ Las siguientes características de vista previa están disponibles desde el 3 de
 [Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

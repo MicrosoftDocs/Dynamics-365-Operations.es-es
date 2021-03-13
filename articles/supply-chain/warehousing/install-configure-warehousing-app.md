@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
@@ -19,19 +18,22 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
+ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437069"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5142284"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar y conectar la aplicación de almacén
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Este tema describe cómo configurar el almacenamiento para implementaciones en la nube. Si busca información sobre cómo configurar el almacenamiento para implementaciones locales, consulte [Almacenamiento para implementaciones locales](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Este tema describe cómo configurar la antigua aplicación de almacén. Si busca información sobre cómo configurar la nueva aplicación móvil Warehouse Management (actualmente en versión preliminar pública), consulte [Instalar y conectar la aplicación móvil Warehouse Management](install-configure-warehouse-management-app.md).
+
+> [!NOTE]
+> Este tema describe cómo configurar la aplicación de almacén para implementaciones en la nube. Si busca información sobre cómo configurar la aplicación de almacén para implementaciones locales, consulte [Almacenamiento para implementaciones locales](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 La aplicación de almacén está disponible en Google Play Store y Microsoft Store. Se proporciona como un componente independiente. Por lo tanto, debe descargarlo en cada dispositivo y luego configurarlo para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management.
 
@@ -274,6 +276,3 @@ En caso de un dispositivo perdido o en riesgo, debe quitar el acceso a Supply Ch
 1. Asegúrese de que el id. de cliente de la aplicación coincida con el id. de cliente que anotó en el paso 2.
 1. En la barra de herramientas, seleccione **Eliminar**.
 1. En el mensaje de confirmación que aparece, haga clic en **Sí**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

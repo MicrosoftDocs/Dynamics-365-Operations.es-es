@@ -1,5 +1,5 @@
 ---
-title: Importar datos de las plantillas de la entidad de los datos de Excel que tengan varias hojas de cálculo
+title: Plantillas de datos con varias hojas de cálculo
 description: Este tema describe cómo importar datos mediante las plantillas de la entidad de los datos de Excel en Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688088"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130590"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Importar datos de las plantillas de la entidad de los datos de Excel que tengan varias hojas de cálculo
+# <a name="data-templates-with-multiple-worksheets"></a>Plantillas de datos con varias hojas de cálculo
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ En casos en los que una versión nueva del mismo archivo o un archivo completame
 ## <a name="upload-a-file-using-run-project"></a>Cargar archivo mediante Ejecutar proyecto
 
 Puede cargar un archivo de Excel mediante la opción **Ejecutar proyecto** para ejecutar un proyecto de importación. Debe tener cuidado de cargar solo los archivos con las mismas hojas de cálculo que las asignaciones existentes en entidades de datos en los proyectos de datos. Si una hoja de cálculo no se encuentra en el archivo recién cargado, el sistema muestra un error y detendrá la importación. Si la asignación a la hoja de cálculo debe cambiarse para una entidad, las asignaciones del proyecto de datos se deben actualizar primero desde el proyecto de datos antes de utilizar el archivo en la experiencia **Ejecutar proyecto**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

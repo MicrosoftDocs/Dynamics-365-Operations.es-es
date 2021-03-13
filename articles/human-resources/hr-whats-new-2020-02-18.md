@@ -1,8 +1,8 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (18 de febrero de 2020)
 description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 18 de febrero de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e087095807f587536f2dad7e65fbc8beaa88878e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526987"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128074"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (18 de febrero de 2020)
 
@@ -43,17 +43,17 @@ El nuevo formulario **Trabajador** ahora recuerda los valores de búsqueda cuand
 
 Los mosaicos de administración de compensación fija y variable ahora muestran los registros correctos en el nuevo formulario **Trabajador**. Se aplica solo a la función optimizada de vista previa del formulario de empleado. Puede habilitar esta característica de vista previa en **Gestión de funciones**. Para obtener más información, vea [Administrar funciones](hr-admin-manage-features.md).
 
-## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Campo de estado vacío para algunos registros de solicitud de licencia en Common Data Service (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Campo de estado vacío para algunos registros de solicitud de licencia en Dataverse (414915)
 
-Este cambio corrige un problema en Common Data Service cuando el campo **Estado** en una solicitud de baja se establece en **Revisión**. Common Data Service ahora refleja el estado.
+Este cambio corrige un problema en Dataverse cuando el campo **Estado** en una solicitud de baja se establece en **Revisión**. Dataverse ahora refleja el estado.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>El análisis de lagunas de habilidades solo es posible para el trabajo asignado (411390)
 
 Ahora puede hacer un análisis de lagunas de habilidades en cualquier trabajo definido en Recursos Humanos.
 
-## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>La divisa del sistema no se sincroniza desde Common Data Service a Recursos humanos en nuevos entornos (418011)
+## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>La divisa del sistema no se sincroniza desde Dataverse a Recursos humanos en nuevos entornos (418011)
 
-La divisa del sistema en Common Data Service ahora se puede sincronizar con Recursos humanos.
+La divisa del sistema en Dataverse ahora se puede sincronizar con Recursos humanos.
 
 ## <a name="in-preview"></a>En vista previa
 
@@ -63,9 +63,9 @@ La divisa del sistema en Common Data Service ahora se puede sincronizar con Recu
 
 ## <a name="coming-soon"></a>Próximamente
 
-### <a name="updated-common-data-service-solution"></a>Solución Common Data Service actualizada
+### <a name="updated-dataverse-solution"></a>Solución Dataverse actualizada
 
-Una nueva solución Common Data Service estará disponible pronto con los siguientes cambios:
+Una nueva solución Dataverse estará disponible pronto con los siguientes cambios:
 
 | Descripción | Cambio |
 | ----------------------------------------- | --- |
@@ -76,7 +76,7 @@ Una nueva solución Common Data Service estará disponible pronto con los siguie
 | Nuevas entidades de configuración de compensación variable | **Tipo de plan de compensación variable**</br>**Plan de compensación variable**</br>**Reglas de atribución**</br>**Nivel de plan de compensación variable** |
 | Nueva entidad **Empleo de calendario de trabajador** | Se ha agregado la entidad **Calendario de trabajo** |
 | Nueva entidad **Detalle de puesto de nómina** | **Detalle de puesto de nómina** agregado |
-| Nueva entidad **Cargo** | **Cargo** agregado. La nueva entidad **Título** se incluirá en el proceso de sincronización entre Recursos Humanos y Common Data Service. No será referenciado inicialmente desde las entidades **Puesto de trabajo** o **Trabajo**. |
+| Nueva entidad **Cargo** | **Cargo** agregado. La nueva entidad **Título** se incluirá en el proceso de sincronización entre Recursos Humanos y Dataverse. No será referenciado inicialmente desde las entidades **Puesto de trabajo** o **Trabajo**. |
 
 ## <a name="see-also"></a>Consulte también
 
@@ -84,5 +84,3 @@ Una nueva solución Common Data Service estará disponible pronto con los siguie
 [Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

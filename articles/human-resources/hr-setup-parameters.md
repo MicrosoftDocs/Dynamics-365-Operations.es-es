@@ -2,7 +2,7 @@
 title: Configurar parámetros de Recursos Humanos
 description: La configuración de algunos parámetros de Recursos Humanos se comparten entre empresas, mientras que la configuración de otros parámetros son específicos de la empresa. Este artículo explica cómo configurar parámetros de RR. HH. específicos de la empresa.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bac50c5f302797e28df2bc792893c8a682899a93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 131606ebaff49a2c63d22bcfdb5e523f4df87ec6
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420359"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129134"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurar parámetros de Recursos Humanos
 
@@ -50,6 +50,3 @@ Los ajustes en la pestaña **Secuencia numérica** determina las secuencias que 
 
 > [!NOTE]
 > El número de horas que se trabaja no puede superar 1250, y la duración del empleo no puede superar 12 meses. Estos valores máximos están de acuerdo con la legislación federal en los Estados Unidos. Finalmente, los ajustes en la pestaña **Autoservicio del empleado** determinan la información que los directores pueden especificar en nombre de sus empleados.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

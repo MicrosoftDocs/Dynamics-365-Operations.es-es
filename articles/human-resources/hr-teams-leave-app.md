@@ -2,7 +2,7 @@
 title: Administrar solicitudes de baja en Teams
 description: Este tema muestra cómo solicitar tiempo libre en la aplicación Dynamics 365 Human Resources en Microsoft Teams.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4420502"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128170"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de baja en Teams
 
@@ -196,7 +196,6 @@ La aplicación Human Resources en Teams tiene los siguientes problemas de accesi
 | --- | --- |
 | Hacer zoom al 400 % en el escritorio oculta algunos de los botones de acción de la vista. | Recomendamos usar una lupa en su lugar hasta que podamos admitir este nivel de zoom. |
 | En la pestaña **Tiempo libre**, VoiceOver anuncia la acción de un botón mientras se lee el encabezado de la cuadrícula de tiempo libre. | El encabezado y los elementos de la cuadrícula están agrupados por año y se pueden contraer. VoiceOver interpreta esto como un elemento procesable, pero no lo es. |
-| Si desliza el dedo mientras una ventana emergente o un menú está abierto, VoiceOver lee el contenido del menú o de la ventana emergente. | Explore el contenido mediante el escaneo dactilar. |
 | En la pestaña **Tiempo libre**, hay un gesto adicional de deslizar rápidamente al navegar a **Código de razón** en una nueva solicitud. | No hay ningún control oculto al que esté intentando obtener acceso la navegación por deslizamiento. |
 | En la pestaña **Tiempo libre**, si desliza el dedo mientras el calendario está abierto, terminará fuera del control en lugar de en la parte superior de una nueva solicitud o mientras edita una solicitud. | Al llegar a **Ir a hoy**, considérelo como el final del control y deslice el dedo en la dirección inversa para volver a la parte superior. |
 | VoiceOver no lee las etiquetas de las fechas. | Las fechas encontradas en pares son siempre **Fecha de inicio** y **Fecha de finalización**. |
@@ -229,6 +228,3 @@ Para restringir el acceso a la aplicación de Recursos Humanos en Microsoft Team
 [Descargar e instalar Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Centro de ayuda de Microsoft Teams](https://support.office.com/teams)</br>
 [Aplicación Human Resources en Teams](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

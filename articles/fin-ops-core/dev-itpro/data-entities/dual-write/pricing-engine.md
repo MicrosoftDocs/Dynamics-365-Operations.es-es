@@ -1,5 +1,5 @@
 ---
-title: Sincronizar con el motor de precios bajo demanda Dynamics 365 Supply Chain Management
+title: Sincronizar a petición con el motor de precios de Supply Chain Management
 description: Este tema describe cómo usar el motor de precios en Microsoft Dynamics 365 Supply Chain Management de Dynamics 365 Sales.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4457067"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130662"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Sincronizar con el motor de precios bajo demanda Dynamics 365 Supply Chain Management
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sincronizar a petición con el motor de precios de Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Supply Chain Management incluye un motor de precios que g
 3. Agregar una línea de pedido nueva.
 4. Si está creando un nuevo pedido, seleccione **Precio de pedido** en el panel de acciones. Si está actualizando un pedido ya existente, seleccione **Recalcular** en el panel de acciones.
 
-    Los siguientes campos se rellenan automáticamente:
+    Las siguientes columnas se rellenan automáticamente:
 
     + Detalles del importe
     + % de descuento
@@ -58,17 +58,14 @@ Microsoft Dynamics 365 Supply Chain Management incluye un motor de precios que g
 
 ## <a name="how-it-works"></a>Cómo funciona
 
-Cuando selecciona **Precio del pedido** en Sales, la función **Totales** en la pestaña **Pedido de ventas \> Ver** en Supply Chain Management se llama para el pedido de ventas asociado. Los valores en el total del pedido en Sales se utilizan para completar los campos correspondientes en Supply Chain Management.
+Cuando selecciona **Precio del pedido** en Sales, la función **Totales** en la pestaña **Pedido de ventas \> Ver** en Supply Chain Management se llama para el pedido de ventas asociado. Los valores en el total del pedido en Sales se utilizan para completar las columnas correspondientes en Supply Chain Management.
 
 Cuando se calcula el total del pedido de ventas en Supply Chain Management, el cálculo evalúa los acuerdos comerciales existentes y los acuerdos de ventas para el cliente y los productos que figuran en el pedido de ventas. Esta información se usa para calcular los totales. Cuando **Precio del pedido** está seleccionado, Sales refleja automáticamente toda la configuración que se ha realizado en Supply Chain Management.
 
 ## <a name="limitations"></a>Limitaciones
 
-Cuando se completan los campos en Sales, se aplican las siguientes limitaciones:
+Cuando se completan las columnas en Sales, se aplican las siguientes limitaciones:
 
 + La configuración de cargos y asignaciones de cargos en Supply Chain Management no se replica en Sales.
-+ El precio no considera precios minoristas especiales que se especifican en el campo **Canal minorista** en la página de línea de pedido de ventas en Supply Chain Management.
++ El precio no considera precios minoristas especiales que se especifican en la columna **Canal minorista** en la página de línea de pedido de ventas en Supply Chain Management.
 + Descuentos que se definen en la sección **Gestión de permisos comerciales** de Supply Chain Management no se tienen en cuenta.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

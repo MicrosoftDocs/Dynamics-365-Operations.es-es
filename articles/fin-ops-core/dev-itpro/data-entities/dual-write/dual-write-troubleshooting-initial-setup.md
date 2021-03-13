@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas durante la configuración inicial
-description: Este tema proporciona información de solución de problemas que puede ayudarlo a solucionar los problemas que pueden ocurrir durante la configuración inicial de la integración de escritura doble entre aplicaciones Finance and Operations y Dataverse.
+description: Este tema proporciona información que puede ayudarlo a solucionar los problemas que pueden ocurrir durante la configuración inicial de la integración de escritura doble.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cfbc1ab3ef6d47f6ec2d8ca4ca4b8940784e6e49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685596"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129990"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante la configuración inicial
 
@@ -71,13 +71,13 @@ Para proporcionar el consentimiento de la aplicación, siga estos pasos.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Verifique que los datos de la empresa y los equipos de doble escritura estén configurados correctamente durante el enlace
 
-Para garantizar que la escritura doble funcione correctamente, las empresas que seleccione durante la configuración se crean en el entorno Dataverse. Por defecto, estas empresas son de solo lectura, y la propiedad **IsDualWriteEnable** se establece en **Verdadero**. Además, se crean el propietario y el equipo de la unidad de negocios propietaria predeterminada e incluyen el nombre de la empresa. Antes de habilitar los mapas, verifique que se haya especificado el propietario del equipo predeterminado. Para encontrar la entidad **Empresas (MDL\_Empresa)**, siga estos pasos.
+Para garantizar que la escritura doble funcione correctamente, las empresas que seleccione durante la configuración se crean en el entorno Dataverse. Por defecto, estas empresas son de solo lectura, y la propiedad **IsDualWriteEnable** se establece en **Verdadero**. Además, se crean el propietario y el equipo de la unidad de negocios propietaria predeterminada e incluyen el nombre de la empresa. Antes de habilitar los mapas, verifique que se haya especificado el propietario del equipo predeterminado. Para encontrar la tabla **Empresas (MDL\_Empresa)**, siga estos pasos.
 
 1. En la aplicación basada en modelos en Dynamics 365, seleccione el filtro en la esquina superior derecha.
 2. En la lista desplegable , seleccione **Compañía**.
 3. Seleccione **Ejecutar** para ver los resultados.
 4. Seleccione la compañía que estaba vinculada cuando configuró la escritura doble.
-5. Verifique que el campo **Equipo propietario predeterminado** tiene un valor. En la siguiente ilustración, el campo **Equipo propietario predeterminado** se establece en **USMF de doble escritura**.
+5. Verifique que la columna **Equipo propietario predeterminado** tiene un valor. En la siguiente ilustración, la columna **Equipo propietario predeterminado** se establece en **USMF de doble escritura**.
 
     ![Verificación del equipo propietario predeterminado](media/default_owning_team.png)
 
@@ -88,6 +88,3 @@ Es posible que reciba el siguiente mensaje de error cuando intenta habilitar map
 *Error de escritura doble - Error en el registro del complemento: \[(No se puede obtener el mapa de partición para el proyecto DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Error Excede las particiones máximas permitidas para asignar DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Ocurrieron uno o más errores.*
 
 El límite actual cuando vincula los entornos es de aproximadamente 40 tablas legales. Este error ocurre si intenta habilitar mapas, y más de 40 tablas legales están vinculadas entre los entornos.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (03 de septiembre de 2020)
 description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 3 de septiembre de 2020.
-author: Darinkramer
+author: andreabichsel
 manager: tfehr
-ms.date: 9/03/2020
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ddffff18e1d6d16bd5a5f7e7021f9a34651307fa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 41763a8817d0c39b14284a247cf3e46678e7811b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527468"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130866"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (3 de septiembre de 2020)
 
@@ -77,13 +77,13 @@ El informe de análisis ahora muestra la información correcta para **Tarifa de 
 Los empleados pueden ver y solicitar tiempo fuera del trabajo en Microsoft Teams. Pueden interactuar con un bot para crear solicitudes de baja. Para obtener más información, consulte:
 
 - [Experiencia de bajas y ausencias de empleados en Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) en el plan del primer lanzamiento de versiones de Dynamics 365 en 2020
-- [Aplicación Human Resources en Teams ](https://go.microsoft.com/fwlink/?linkid=2127841) en la documentación de Human Resources
+- [Aplicación Human Resources en Teams](https://go.microsoft.com/fwlink/?linkid=2127841) en la documentación de Human Resources
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>Características en vista previa (GB) de la aplicación Human Resources en Teams
  
 -  **Notificaciones**: los remitentes y aprobadores de solicitudes de permisos se notificarán en la aplicación Human Resources en Teams. Los aprobadores podrán aprobar o rechazar solicitudes de tiempo libre. Los remitentes serán notificados si la solicitud fue aprobada o denegada. Para obtener más información, consulte:
    - [Experiencia de permisos y ausencias de empleados en Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) en el plan del primer lanzamiento de versiones de Dynamics 365 en 2020
-   - [Habilitar notificaciones para la aplicación Human Resources en Teams ](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) en la documentación de Human Resources
+   - [Habilitar notificaciones para la aplicación Human Resources en Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) en la documentación de Human Resources
    - [Activar o desactivar las notificaciones de Teams para usuarios individuales](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) en la documentación de Human Resources
    - [Notificaciones de Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) en la documentación de Human Resources
    - [Ver el calendario de vacaciones de su equipo](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) en la documentación de Human Resources
@@ -106,9 +106,9 @@ Esta característica también promueve las opciones de flujo de trabajo que apar
 
 ## <a name="coming-soon"></a>Próximamente
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Lista de entidades incluidas en Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Lista de entidades incluidas en Dataverse
 
-Las entidades de lista de verificación para los procesos Incorporación, Retirada, Transferencias y Empresa estarán disponibles pronto en Common Data Service.
+Las entidades de lista de verificación para los procesos Incorporación, Retirada, Transferencias y Empresa estarán disponibles pronto en Dataverse.
 
 ### <a name="benefits-management-reason-codes"></a>Códigos de motivo de la administración de prestaciones
 
@@ -120,6 +120,3 @@ Los códigos de motivo de la administración de prestaciones pronto se combinar�
 [Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (14 de mayo de 2020)
 description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 14 de mayo de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b8d65236d316035722451a871afabedc6ab73f7a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528506"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127858"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (14 de mayo de 2020)
 
@@ -35,9 +35,9 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 
 Los cambios de plataforma están incluidos en la versión de esta semana. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.10 de aplicaciones de Finance and Operations (mayo de 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Esta versión incluye correcciones de errores y cambios en las vistas guardadas.
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Asegurar que las listas de selección de Common Data Service sean consistentes con las enumeraciones de bajas (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Asegurar que las listas de selección de Dataverse sean consistentes con las enumeraciones de bajas (436343)
 
-Las listas de selección de Common Data Service ya son consistentes con las enumeraciones de bajas.
+Las listas de selección de Dataverse ya son consistentes con las enumeraciones de bajas.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>Permitir a los usuarios configurar el flujo de trabajo de solicitud de baja en función del importe de la solicitud (300044)
 
@@ -75,7 +75,7 @@ Este cambio corrige un error cuando un plan de bajas tiene dos tipos de bajas as
 
 Con este cambio, el banner Introducción está oculto para los usuarios que no sean administradores del sistema o administradores de administración de datos. 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>La entidad Dirección del trabajador en Common Data Service funciona de manera diferente en términos de fechas de vigencia en Recursos Humanos (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>La entidad Dirección del trabajador en Dataverse funciona de manera diferente en términos de fechas de vigencia en Recursos Humanos (425071)
 
 Este cambio mantiene la información de la dirección alineada en ciertos escenarios, según las fechas de la dirección.
 
@@ -119,5 +119,3 @@ Puede especificar un tipo de transferencia de baja para transferir saldos en los
 [Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

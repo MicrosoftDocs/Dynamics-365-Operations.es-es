@@ -2,7 +2,7 @@
 title: Proyectos de contratación masiva
 description: Los proyectos de contratación masiva permiten a los especialistas de recursos humanos crear varios puestos y contratar de forma eficaz a varios trabajadores para ellos.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRMMassHireProject, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.custom: 7481
 ms.assetid: 5f5eb271-76eb-4305-bd1c-5d171dafccc9
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f33fb96e9a2331499a594689a758694c2291368
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 83937c8aa9edf065e3a22cee9eeea5333341d403
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420434"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127736"
 ---
 # <a name="mass-hire-projects"></a>Proyectos de contratación masiva
 
@@ -82,6 +82,3 @@ En la página **Proyecto de contratación masiva**, haga clic en **Abrir proyect
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

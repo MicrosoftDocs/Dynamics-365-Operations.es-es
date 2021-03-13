@@ -1,9 +1,9 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (20 de agosto de 2020)
 description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 20 de agosto de 2020.
-author: Darinkramer
-manager: AnnBe
-ms.date: 8/20/2020
+author: andreabichsel
+manager: tfehr
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b3654617b0e8bc4b586e969913d5dc355b60b882
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527491"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130068"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (20 de agosto de 2020)
 
@@ -83,9 +83,9 @@ Los empleados pueden ver y solicitar tiempo fuera del trabajo en Microsoft Teams
  
 - **Calendario de permisos del gerente**: los gerentes podrán ver los permisos aprobados y pendientes para sus subordinados directos en una vista de calendario. Esta vista proporciona un fácil reconocimiento de cuándo los miembros del equipo están fuera del trabajo.
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Lista de entidades incluidas en Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Lista de entidades incluidas en Dataverse
 
-Las entidades de lista de verificación para los procesos Incorporación, Retirada, Transferencias y Empresa estarán disponibles pronto en Common Data Service.
+Las entidades de lista de verificación para los procesos Incorporación, Retirada, Transferencias y Empresa estarán disponibles pronto en Dataverse.
 
 ## <a name="known-issues"></a>Problemas conocidos
 
@@ -120,6 +120,3 @@ Recientemente hemos descubierto dos problemas relacionados con la entidad **Bene
 [Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

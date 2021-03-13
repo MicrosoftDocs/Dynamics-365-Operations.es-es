@@ -1,8 +1,8 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (1 de mayo de 2020)
 description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 1 de mayo de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 074c678d9d8294aabf4e78b2a6ee0fa53efbaf23
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b7e41762e4283d5a4b0c9dd8359c5fb2bdabfc26
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420429"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127882"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (1 de mayo de 2020)
 
@@ -109,5 +109,3 @@ Si la vista previa del documento para documentos almacenados en SharePoint no fu
 [Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

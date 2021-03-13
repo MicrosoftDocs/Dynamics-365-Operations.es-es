@@ -1,5 +1,5 @@
 ---
-title: Solucionar problemas con el módulo de doble escritura en aplicaciones Finance and Operations
+title: Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
 description: Este tema proporciona información de solución de problemas que puede ayudarlo a solucionar problemas con el módulo de escritura doble en aplicaciones Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683632"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131254"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Solucionar problemas con el módulo de doble escritura en aplicaciones Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ Si no puede abrir la página **Doble escritura** seleccionando el mosaico **Dobl
 
 **Credenciales necesarias para solucionar el problema**: el mismo usuario que configuró la doble escritura.
 
-Es posible que reciba el siguiente mensaje de error cuando intente configurar una nueva entidad para doble escritura. El único usuario que puede crear una asignación es el usuario que configuró la conexión de doble escritura.
+Es posible que reciba el siguiente mensaje de error cuando intente configurar una nueva tabla para doble escritura. El único usuario que puede crear una asignación es el usuario que configuró la conexión de doble escritura.
 
 *El código de estado de respuesta no indica éxito: 401 (No autorizado)*
 
@@ -77,7 +77,7 @@ Este error ocurre cuando el entorno vinculado Dataverse no está disponible.
 
 Para solucionar el problema, cree un ticket para el equipo de integración de datos. Adjunte la traza de red para que el equipo de integración de datos pueda marcar los mapas como **No ejecutando** en el back-end.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Error al intentar iniciar una asignación de tabla
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Error al intentar iniciar una asignación de tabla
 
 Es posible que reciba un error como el siguiente cuando intenta establecer ese estado de una asignación como **En ejecución**:
 
@@ -86,7 +86,4 @@ Es posible que reciba un error como el siguiente cuando intenta establecer ese e
 La solución para este error depende de la causa del error:
 
 + Si la asignación tiene asignaciones dependientes, asegúrese de habilitar las asignaciones dependientes de esta asignación de tabla.
-+ Es posible que falten campos de origen o destino en la asignación. Si falta un campo en la aplicación de Finance and Operations, siga los pasos de la sección [Problema de campos de entidad faltantes en mapas](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Si falta un campo en Dataverse, haga clic en el botón **Actualizar tablas** en la asignación para que los campos se rellenen automáticamente en la asignación.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ Es posible que falten columnas de origen o destino en la asignación. Si falta una columna en la aplicación de Finance and Operations, siga los pasos de la sección [Problema de columnas de tabla faltantes en asignaciones](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Si falta una columna en Dataverse, haga clic en el botón **Actualizar tablas** en la asignación para que las columnas se rellenen automáticamente en la asignación.

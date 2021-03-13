@@ -2,7 +2,7 @@
 title: Utilizar flujos de trabajo para administrar la información sobre los empleados
 description: Este artículo explica cómo puede utilizar la capacidad del flujo de trabajo para que Recursos Humanos administre la información sobre los empleados. Por ejemplo, puede asociar un flujo de trabajo a un puesto y configurar un flujo de trabajo de aprobación que se inicia cuando los empleados cambian su registro.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 250b214372a12f99d2ababc97c5edf4456cadcad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c5bb0a363a3094626d81af3d5ffea38d9a1b12a8
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420463"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129812"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Utilizar flujos de trabajo para administrar la información sobre los empleados
 
@@ -73,6 +73,3 @@ Siga estos pasos para configurar un flujo de trabajo básico que se inicia cuand
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
