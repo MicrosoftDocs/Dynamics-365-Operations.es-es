@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51837275203dc2d4f31dc4dec9bf970a7ebeba7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436678"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021563"
 ---
 # <a name="work-order-project-setup"></a>Configuración de proyecto de orden de trabajo
 
@@ -86,6 +85,3 @@ La configuración permite una integración completa con el módulo **Gestión de
 > Cada vez que se crea una línea de pedido de trabajo, la administración de activos busca un grupo de proyectos que debe estar relacionado con el proyecto de trabajo de la orden de trabajo. La búsqueda se basa en la configuración que se describe en este tema. Cada grupo de proyectos tiene un tipo de proyecto relacionado. Los grupos de proyectos que tienen el tipo de proyecto **Tiempo y material** o **precio fijo** solo serán válidos para los activos relacionados con una cuenta de cliente.
 >
 > Para los proyectos principales y los grupos de proyectos, cuando el sistema selecciona el proyecto o el grupo de proyectos disponibles de la orden de trabajo, la selección se basa en los registros que ha creado mediante el procedimiento anterior. La administración de activos revisa los registros relacionados con el proyecto de la orden de trabajo para comprobar si hay una posible coincidencia. Comprueba siempre primero la combinación más específica. Es decir, para el proyecto principal de orden de trabajo, la administración de activos primero busca una posible coincidencia para el campo **Activo**. Si no se encuentra ninguna coincidencia, comprueba si hay una coincidencia para el campo **Tipo de activo**. Si no se encuentra ninguna coincidencia, comprueba si hay una coincidencia para el campo **Ubicación técnica**, y así sucesivamente. Como puede ver en el diseño de la página **Configuración de proyecto de orden de trabajo**, este comportamiento significa que, para encontrar la combinación más específica, Administración de activos comprueba cada registro de derecha a izquierda en busca de una coincidencia. Si no se encuentra ninguna coincidencia, se utiliza el registro predeterminado donde sólo se selecciona un identificador de proyecto. El proceso para encontrar el grupo de proyectos relacionados es similar. Administración de activos primero comprueba si hay una posible coincidencia para el campo **Activo**, luego el campo **Tipo de activo** y, a continuación, el campo **Tipo de orden de trabajo**. Si no se encuentra ninguna coincidencia, se utiliza el registro predeterminado donde sólo se selecciona un grupo de proyectos.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

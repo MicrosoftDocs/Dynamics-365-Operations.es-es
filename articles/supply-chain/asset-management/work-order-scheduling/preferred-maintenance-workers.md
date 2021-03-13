@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c0637609a34890360a3b81355a8d21ef1b9faf8c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436802"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021413"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Configurar trabajadores de mantenimiento preferidos
 
@@ -68,6 +67,3 @@ También puede configurar los trabajadores *responsables* del mantenimiento que 
 
 Durante la programación de órdenes de trabajo, se calculan distintas puntuaciones para determinar qué trabajadores deben completar los trabajos relacionados con una orden de trabajo (esas puntuaciones se configuran en el vínculo **Parámetros de administración de activos** > **Programación de órdenes de trabajo**). Si dos o más trabajadores de mantenimiento preferidos o trabajadores responsables del mantenimiento obtienen la misma puntuación durante la programación de órdenes de trabajo, se selecciona a un trabajador al azar. De lo contrario, se asignará siempre al trabajador con la puntuación más alta para que complete una orden de trabajo.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

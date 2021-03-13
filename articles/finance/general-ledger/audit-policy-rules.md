@@ -1,7 +1,7 @@
 ---
 title: Reglas de directivas de auditoría
 description: Puede usar directivas de auditoría para evaluar si ciertos informes de gastos, facturas de proveedor y pedidos de compra para asegurarse de que cumplan las reglas de directivas que ha creado. Todas las reglas asociadas a una directiva de auditoría se ejecutan en el modo por lotes, de acuerdo con la programación que haya especificado.  Cada regla de directivas pertenece a un tipo de regla de directivas. Sólo puede haber una regla de directivas activa por cada tipo de regla de directivas.
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de6406029aa88424863dd9a47505f5b3ad27f237
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447564"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021250"
 ---
 # <a name="audit-policy-rules"></a>Reglas de directivas de auditoría
 
@@ -101,6 +100,3 @@ Todas las reglas de directivas de una directiva de auditoría concreta comparten
 [Defina directivas de auditoría para los documentos de origen](tasks/define-audit-policies-source-documents.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

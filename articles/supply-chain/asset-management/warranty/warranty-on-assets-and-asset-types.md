@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75de9a51560dcd8fea7998425fee14a27e891972
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c0359bfe31b3d01f28028bb17d5d30af39a1db9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436992"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021613"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Garantías de activos y tipos de activos
 
@@ -54,6 +53,3 @@ Este tema explica cómo configurar garantías de activos y tipos de activos en A
 
 > [!NOTE]
 > Al crear un pedido de trabajo para un activo cubierto por una garantía del proveedor, si la orden de trabajo tiene una fecha de inicio prevista durante el período de garantía, usted recibirá una notificación sobre el acuerdo de la garantía. En ese momento podrás cancelar la orden de trabajo, como sea necesario.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
