@@ -1,7 +1,7 @@
 ---
 title: Crear una solicitud que utilice una solicitud de presupuesto
 description: Este tema explica cómo agregar la información del precio y del vendedor a una solicitud de compra desde un proceso de solicitud de compra.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,91 +11,90 @@ ms.technology: ''
 ms.search.form: PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqLineRelatedDocuments, EcoResCategorySingleLookup, PurchReqWorkflowDropDialog, WorkflowSubmitDialog, WorkflowStatus, WorkflowWorkItemActionDialog, WorkflowUserListLookup, PurchReqCopyRFQ, SysDataAreaSelectLookup, PurchRFQCaseTable, PurchRFQEditLines, PurchRFQReplyTable, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 205cba2325e76dae9572301e44e0e89cbcfd106e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 05ff98b5fd95fa345d344e54d9116c73434e5de5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436722"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018905"
 ---
-# <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="c7a85-103">Crear una solicitud que utilice una solicitud de presupuesto</span><span class="sxs-lookup"><span data-stu-id="c7a85-103">Create a requisition that uses an RFQ</span></span>
+# <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="f57ab-103">Crear una solicitud que utilice una solicitud de presupuesto</span><span class="sxs-lookup"><span data-stu-id="f57ab-103">Create a requisition that uses an RFQ</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c7a85-104">Este tema explica cómo agregar la información del precio y del vendedor a una solicitud de compra desde un proceso de solicitud de compra.</span><span class="sxs-lookup"><span data-stu-id="c7a85-104">This topic explains how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="c7a85-105">El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF y debe haber iniciado sesión como administrador para completar todos los pasos.</span><span class="sxs-lookup"><span data-stu-id="c7a85-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="c7a85-106">Las tareas de esta guía las realizarán normalmente profesionales de compras.</span><span class="sxs-lookup"><span data-stu-id="c7a85-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
+<span data-ttu-id="f57ab-104">Este tema explica cómo agregar la información del precio y del vendedor a una solicitud de compra desde un proceso de solicitud de compra.</span><span class="sxs-lookup"><span data-stu-id="f57ab-104">This topic explains how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="f57ab-105">El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF y debe haber iniciado sesión como administrador para completar todos los pasos.</span><span class="sxs-lookup"><span data-stu-id="f57ab-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="f57ab-106">Las tareas de esta guía las realizarán normalmente profesionales de compras.</span><span class="sxs-lookup"><span data-stu-id="f57ab-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
 
 
-## <a name="create-a-requisition"></a><span data-ttu-id="c7a85-107">Creación de una solicitud</span><span class="sxs-lookup"><span data-stu-id="c7a85-107">Create a requisition</span></span>
-1. <span data-ttu-id="c7a85-108">En el Panel de exploración, vaya a **Módulos > Adquisición y abastecimiento > Solicitudes de compra > Solicitudes de compra preparadas por mí**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-108">In the navigation pane, go to **Modules > Procurement and sourcing > Purchase requisitions > Purchase requisitions prepared by me**.</span></span>
-2. <span data-ttu-id="c7a85-109">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-109">Select **New**.</span></span>
-3. <span data-ttu-id="c7a85-110">En el campo **Nombre**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="c7a85-110">In the **Name** field, type a value.</span></span>
-4. <span data-ttu-id="c7a85-111">En el campo **Fecha solicitada**, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="c7a85-111">In the **Requested date** field, enter a date.</span></span>
-5. <span data-ttu-id="c7a85-112">En el campo **Fecha contable**, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="c7a85-112">In the **Accounting date** field, enter a date.</span></span>
-6. <span data-ttu-id="c7a85-113">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-113">Select **OK**.</span></span>
-7. <span data-ttu-id="c7a85-114">En el campo **Motivo**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="c7a85-114">In the **Reason** field, enter or select a value.</span></span>
-8. <span data-ttu-id="c7a85-115">Seleccione **Agregar línea**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-115">Select **Add line**.</span></span>
-9. <span data-ttu-id="c7a85-116">En el campo **Categoría de compras**, seleccione una categoría en el árbol y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-116">In the **Procurement category** field, select a category in the tree, and then select **OK**.</span></span>
-10. <span data-ttu-id="c7a85-117">En el campo **Nombre de producto**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="c7a85-117">In the **Product name** field, type a value.</span></span>
-11. <span data-ttu-id="c7a85-118">En el campo **Cantidad**, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="c7a85-118">In the **Quantity** field, enter a number.</span></span>
-12. <span data-ttu-id="c7a85-119">En el campo **Unidad**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="c7a85-119">In the **Unit** field, enter or select a value.</span></span>
-13. <span data-ttu-id="c7a85-120">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-120">Select **Save**.</span></span>
-14. <span data-ttu-id="c7a85-121">Seleccione **Flujo de trabajo** para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="c7a85-121">Select **Workflow** to open the drop dialog.</span></span>
-15. <span data-ttu-id="c7a85-122">Seleccione **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-122">Select **Submit**.</span></span>
-16. <span data-ttu-id="c7a85-123">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="c7a85-123">Close the page.</span></span>
-17. <span data-ttu-id="c7a85-124">Seleccione **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-124">Select **Submit**.</span></span>
+## <a name="create-a-requisition"></a><span data-ttu-id="f57ab-107">Creación de una solicitud</span><span class="sxs-lookup"><span data-stu-id="f57ab-107">Create a requisition</span></span>
+1. <span data-ttu-id="f57ab-108">En el Panel de exploración, vaya a **Módulos > Adquisición y abastecimiento > Solicitudes de compra > Solicitudes de compra preparadas por mí**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-108">In the navigation pane, go to **Modules > Procurement and sourcing > Purchase requisitions > Purchase requisitions prepared by me**.</span></span>
+2. <span data-ttu-id="f57ab-109">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-109">Select **New**.</span></span>
+3. <span data-ttu-id="f57ab-110">En el campo **Nombre**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="f57ab-110">In the **Name** field, type a value.</span></span>
+4. <span data-ttu-id="f57ab-111">En el campo **Fecha solicitada**, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="f57ab-111">In the **Requested date** field, enter a date.</span></span>
+5. <span data-ttu-id="f57ab-112">En el campo **Fecha contable**, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="f57ab-112">In the **Accounting date** field, enter a date.</span></span>
+6. <span data-ttu-id="f57ab-113">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-113">Select **OK**.</span></span>
+7. <span data-ttu-id="f57ab-114">En el campo **Motivo**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f57ab-114">In the **Reason** field, enter or select a value.</span></span>
+8. <span data-ttu-id="f57ab-115">Seleccione **Agregar línea**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-115">Select **Add line**.</span></span>
+9. <span data-ttu-id="f57ab-116">En el campo **Categoría de compras**, seleccione una categoría en el árbol y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-116">In the **Procurement category** field, select a category in the tree, and then select **OK**.</span></span>
+10. <span data-ttu-id="f57ab-117">En el campo **Nombre de producto**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="f57ab-117">In the **Product name** field, type a value.</span></span>
+11. <span data-ttu-id="f57ab-118">En el campo **Cantidad**, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="f57ab-118">In the **Quantity** field, enter a number.</span></span>
+12. <span data-ttu-id="f57ab-119">En el campo **Unidad**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f57ab-119">In the **Unit** field, enter or select a value.</span></span>
+13. <span data-ttu-id="f57ab-120">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-120">Select **Save**.</span></span>
+14. <span data-ttu-id="f57ab-121">Seleccione **Flujo de trabajo** para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="f57ab-121">Select **Workflow** to open the drop dialog.</span></span>
+15. <span data-ttu-id="f57ab-122">Seleccione **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-122">Select **Submit**.</span></span>
+16. <span data-ttu-id="f57ab-123">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="f57ab-123">Close the page.</span></span>
+17. <span data-ttu-id="f57ab-124">Seleccione **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-124">Select **Submit**.</span></span>
 
-## <a name="reassign-a-workflow-task"></a><span data-ttu-id="c7a85-125">Reasignar una tarea de flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="c7a85-125">Reassign a workflow task</span></span>
-<span data-ttu-id="c7a85-126">La siguiente tarea es crear una solicitud de presupuesto para obtener ofertas de proveedores para el producto.</span><span class="sxs-lookup"><span data-stu-id="c7a85-126">The next task is to create an RFQ to get bids from vendors for the product.</span></span> <span data-ttu-id="c7a85-127">En los datos de demostración USMF, el flujo de trabajo de solicitud se configura para que, en el caso de que no se seleccione un proveedor, o el precio unitario sea 0 para una línea, se asigne una tarea a un trabajador específico para crear una solicitud de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="c7a85-127">In USMF demo data, the requisition workflow is set up with a rule so that if a vendor is not selected, or the unit price is 0 for a line, a task is assigned to a specific worker to create an RFQ.</span></span> <span data-ttu-id="c7a85-128">Para continuar con esta guía, necesita reasignar esa tarea a otro usuario (usted mismo).</span><span class="sxs-lookup"><span data-stu-id="c7a85-128">To continue with this guide, you need to re-assign that task to another user (yourself).</span></span> <span data-ttu-id="c7a85-129">Puede hacerlo solamente si inicia sesión como administrador.</span><span class="sxs-lookup"><span data-stu-id="c7a85-129">You can only do this if you are logged in as an Admin.</span></span>  
+## <a name="reassign-a-workflow-task"></a><span data-ttu-id="f57ab-125">Reasignar una tarea de flujo de trabajo</span><span class="sxs-lookup"><span data-stu-id="f57ab-125">Reassign a workflow task</span></span>
+<span data-ttu-id="f57ab-126">La siguiente tarea es crear una solicitud de presupuesto para obtener ofertas de proveedores para el producto.</span><span class="sxs-lookup"><span data-stu-id="f57ab-126">The next task is to create an RFQ to get bids from vendors for the product.</span></span> <span data-ttu-id="f57ab-127">En los datos de demostración USMF, el flujo de trabajo de solicitud se configura para que, en el caso de que no se seleccione un proveedor, o el precio unitario sea 0 para una línea, se asigne una tarea a un trabajador específico para crear una solicitud de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="f57ab-127">In USMF demo data, the requisition workflow is set up with a rule so that if a vendor is not selected, or the unit price is 0 for a line, a task is assigned to a specific worker to create an RFQ.</span></span> <span data-ttu-id="f57ab-128">Para continuar con esta guía, necesita reasignar esa tarea a otro usuario (usted mismo).</span><span class="sxs-lookup"><span data-stu-id="f57ab-128">To continue with this guide, you need to re-assign that task to another user (yourself).</span></span> <span data-ttu-id="f57ab-129">Puede hacerlo solamente si inicia sesión como administrador.</span><span class="sxs-lookup"><span data-stu-id="f57ab-129">You can only do this if you are logged in as an Admin.</span></span>  
 
-1. <span data-ttu-id="c7a85-130">Seleccione **Flujo de trabajo** para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="c7a85-130">Select **Workflow** to open the drop dialog.</span></span>
-2. <span data-ttu-id="c7a85-131">Seleccione **Ver el historial**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-131">Select **View history**.</span></span>
-3. <span data-ttu-id="c7a85-132">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="c7a85-132">Refresh the page.</span></span>
-4. <span data-ttu-id="c7a85-133">Expanda la sección **Detalles de seguimiento**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-133">Expand the **Tracking details** section.</span></span>
-5. <span data-ttu-id="c7a85-134">En el árbol, seleccione la línea que empieza con "Activación del flujo de trabajo de elementos".</span><span class="sxs-lookup"><span data-stu-id="c7a85-134">In the tree, select the line that starts with "Line workflow activated on".</span></span>
-6. <span data-ttu-id="c7a85-135">Seleccione **Ver detalles del flujo de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-135">Select **View workflow details**.</span></span>
-7. <span data-ttu-id="c7a85-136">Expanda la sección **Elementos de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-136">Expand the **Work items** section.</span></span>
-8. <span data-ttu-id="c7a85-137">Seleccione **Reasignar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-137">Select **Reassign**.</span></span>
-9. <span data-ttu-id="c7a85-138">En el campo **Usuario**, seleccione **Administrador**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-138">In the **User** field, select **Admin**.</span></span>
-10. <span data-ttu-id="c7a85-139">Seleccione **Reasignar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-139">Select **Reassign**.</span></span>
-11. <span data-ttu-id="c7a85-140">Cierre las dos páginas.</span><span class="sxs-lookup"><span data-stu-id="c7a85-140">Close the two pages.</span></span>
+1. <span data-ttu-id="f57ab-130">Seleccione **Flujo de trabajo** para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="f57ab-130">Select **Workflow** to open the drop dialog.</span></span>
+2. <span data-ttu-id="f57ab-131">Seleccione **Ver el historial**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-131">Select **View history**.</span></span>
+3. <span data-ttu-id="f57ab-132">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="f57ab-132">Refresh the page.</span></span>
+4. <span data-ttu-id="f57ab-133">Expanda la sección **Detalles de seguimiento**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-133">Expand the **Tracking details** section.</span></span>
+5. <span data-ttu-id="f57ab-134">En el árbol, seleccione la línea que empieza con "Activación del flujo de trabajo de elementos".</span><span class="sxs-lookup"><span data-stu-id="f57ab-134">In the tree, select the line that starts with "Line workflow activated on".</span></span>
+6. <span data-ttu-id="f57ab-135">Seleccione **Ver detalles del flujo de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-135">Select **View workflow details**.</span></span>
+7. <span data-ttu-id="f57ab-136">Expanda la sección **Elementos de trabajo**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-136">Expand the **Work items** section.</span></span>
+8. <span data-ttu-id="f57ab-137">Seleccione **Reasignar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-137">Select **Reassign**.</span></span>
+9. <span data-ttu-id="f57ab-138">En el campo **Usuario**, seleccione **Administrador**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-138">In the **User** field, select **Admin**.</span></span>
+10. <span data-ttu-id="f57ab-139">Seleccione **Reasignar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-139">Select **Reassign**.</span></span>
+11. <span data-ttu-id="f57ab-140">Cierre las dos páginas.</span><span class="sxs-lookup"><span data-stu-id="f57ab-140">Close the two pages.</span></span>
 
-## <a name="create-an-rfq"></a><span data-ttu-id="c7a85-141">Crear una solicitud de presupuesto</span><span class="sxs-lookup"><span data-stu-id="c7a85-141">Create an RFQ</span></span>
+## <a name="create-an-rfq"></a><span data-ttu-id="f57ab-141">Crear una solicitud de presupuesto</span><span class="sxs-lookup"><span data-stu-id="f57ab-141">Create an RFQ</span></span>
 
-1. <span data-ttu-id="c7a85-142">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="c7a85-142">Refresh the page.</span></span>
-2. <span data-ttu-id="c7a85-143">Seleccione **Solicitud de presupuesto**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-143">Select **Request for quotation**.</span></span>
-3. <span data-ttu-id="c7a85-144">En el campo **Entidad jurídica compradora**, seleccione **USMF**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-144">In the **Buying legal entity** field, select **USMF**.</span></span> <span data-ttu-id="c7a85-145">Debe seleccionar la misma entidad jurídica que se encuentra en la línea de solicitud.</span><span class="sxs-lookup"><span data-stu-id="c7a85-145">You must select the same legal entity that's on the requisition line.</span></span>  
-4. <span data-ttu-id="c7a85-146">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="c7a85-146">In the list, mark the selected row.</span></span> <span data-ttu-id="c7a85-147">Si tenía varias líneas en su solicitud de compra, seleccione todas las líneas que usted quiere agregar a la solicitud de compra.</span><span class="sxs-lookup"><span data-stu-id="c7a85-147">If you had multiple lines on your purchase requisition, select all the lines that you want to add to the RFQ.</span></span>  
-5. <span data-ttu-id="c7a85-148">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-148">Select **OK**.</span></span>
-6. <span data-ttu-id="c7a85-149">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="c7a85-149">Refresh the page.</span></span>
-7. <span data-ttu-id="c7a85-150">Asegúrese de que la ficha desplegable está abierta y, después, expanda la sección **Documentos relacionados**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-150">Ensure that the FactBox is open, then expand the **Related documents** section.</span></span>
-8. <span data-ttu-id="c7a85-151">Seleccione el vínculo en el campo **Solicitud de presupuesto** para abrir la solicitud de presupuesto que se acaba de crear.</span><span class="sxs-lookup"><span data-stu-id="c7a85-151">Select the link in the **Request for quotation** field to open the RFQ that was just created.</span></span>
-9. <span data-ttu-id="c7a85-152">Seleccione **Encabezado**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-152">Select **Header**.</span></span>
-10. <span data-ttu-id="c7a85-153">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-153">Select **Add**.</span></span>
-11. <span data-ttu-id="c7a85-154">En el campo **Cuenta de proveedor**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="c7a85-154">In the **Vendor account** field, enter or select a value.</span></span>
-12. <span data-ttu-id="c7a85-155">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-155">Select **Add**.</span></span>
-13. <span data-ttu-id="c7a85-156">En el campo **Cuenta de proveedor**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="c7a85-156">In the **Vendor account** field, enter or select a value.</span></span>
-14. <span data-ttu-id="c7a85-157">Seleccione **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-157">Select **Send**.</span></span>
-15. <span data-ttu-id="c7a85-158">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-158">Select **OK**.</span></span>
-16. <span data-ttu-id="c7a85-159">Seleccione **Especificar respuesta**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-159">Select **Enter reply**.</span></span>
-17. <span data-ttu-id="c7a85-160">En el panel de acciones, haga clic en **Responder**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-160">On the Action Pane, select **Reply**.</span></span>
-18. <span data-ttu-id="c7a85-161">Seleccione **Copiar datos a respuesta**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-161">Select **Copy data to reply**.</span></span> <span data-ttu-id="c7a85-162">Esto copia datos, como la cantidad y las fechas, de la solicitud de presupuesto a la respuesta.</span><span class="sxs-lookup"><span data-stu-id="c7a85-162">This copies data, such as the quantity and dates, from the RFQ to the reply.</span></span>  
-19. <span data-ttu-id="c7a85-163">En el campo **Precio unitario**, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="c7a85-163">In the **Unit price** field, enter a number.</span></span> <span data-ttu-id="c7a85-164">Este es el precio que ha recibido del proveedor.</span><span class="sxs-lookup"><span data-stu-id="c7a85-164">This is the price that you've received from the vendor.</span></span> <span data-ttu-id="c7a85-165">También es posible que desee especificar información adicional del proveedor.</span><span class="sxs-lookup"><span data-stu-id="c7a85-165">You might also want to enter additional information from the vendor.</span></span>  
-20. <span data-ttu-id="c7a85-166">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-166">Select **Accept**.</span></span>
-21. <span data-ttu-id="c7a85-167">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-167">Select **OK**.</span></span>
+1. <span data-ttu-id="f57ab-142">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="f57ab-142">Refresh the page.</span></span>
+2. <span data-ttu-id="f57ab-143">Seleccione **Solicitud de presupuesto**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-143">Select **Request for quotation**.</span></span>
+3. <span data-ttu-id="f57ab-144">En el campo **Entidad jurídica compradora**, seleccione **USMF**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-144">In the **Buying legal entity** field, select **USMF**.</span></span> <span data-ttu-id="f57ab-145">Debe seleccionar la misma entidad jurídica que se encuentra en la línea de solicitud.</span><span class="sxs-lookup"><span data-stu-id="f57ab-145">You must select the same legal entity that's on the requisition line.</span></span>  
+4. <span data-ttu-id="f57ab-146">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="f57ab-146">In the list, mark the selected row.</span></span> <span data-ttu-id="f57ab-147">Si tenía varias líneas en su solicitud de compra, seleccione todas las líneas que usted quiere agregar a la solicitud de compra.</span><span class="sxs-lookup"><span data-stu-id="f57ab-147">If you had multiple lines on your purchase requisition, select all the lines that you want to add to the RFQ.</span></span>  
+5. <span data-ttu-id="f57ab-148">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-148">Select **OK**.</span></span>
+6. <span data-ttu-id="f57ab-149">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="f57ab-149">Refresh the page.</span></span>
+7. <span data-ttu-id="f57ab-150">Asegúrese de que la ficha desplegable está abierta y, después, expanda la sección **Documentos relacionados**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-150">Ensure that the FactBox is open, then expand the **Related documents** section.</span></span>
+8. <span data-ttu-id="f57ab-151">Seleccione el vínculo en el campo **Solicitud de presupuesto** para abrir la solicitud de presupuesto que se acaba de crear.</span><span class="sxs-lookup"><span data-stu-id="f57ab-151">Select the link in the **Request for quotation** field to open the RFQ that was just created.</span></span>
+9. <span data-ttu-id="f57ab-152">Seleccione **Encabezado**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-152">Select **Header**.</span></span>
+10. <span data-ttu-id="f57ab-153">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-153">Select **Add**.</span></span>
+11. <span data-ttu-id="f57ab-154">En el campo **Cuenta de proveedor**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f57ab-154">In the **Vendor account** field, enter or select a value.</span></span>
+12. <span data-ttu-id="f57ab-155">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-155">Select **Add**.</span></span>
+13. <span data-ttu-id="f57ab-156">En el campo **Cuenta de proveedor**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f57ab-156">In the **Vendor account** field, enter or select a value.</span></span>
+14. <span data-ttu-id="f57ab-157">Seleccione **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-157">Select **Send**.</span></span>
+15. <span data-ttu-id="f57ab-158">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-158">Select **OK**.</span></span>
+16. <span data-ttu-id="f57ab-159">Seleccione **Especificar respuesta**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-159">Select **Enter reply**.</span></span>
+17. <span data-ttu-id="f57ab-160">En el panel de acciones, haga clic en **Responder**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-160">On the Action Pane, select **Reply**.</span></span>
+18. <span data-ttu-id="f57ab-161">Seleccione **Copiar datos a respuesta**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-161">Select **Copy data to reply**.</span></span> <span data-ttu-id="f57ab-162">Esto copia datos, como la cantidad y las fechas, de la solicitud de presupuesto a la respuesta.</span><span class="sxs-lookup"><span data-stu-id="f57ab-162">This copies data, such as the quantity and dates, from the RFQ to the reply.</span></span>  
+19. <span data-ttu-id="f57ab-163">En el campo **Precio unitario**, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="f57ab-163">In the **Unit price** field, enter a number.</span></span> <span data-ttu-id="f57ab-164">Este es el precio que ha recibido del proveedor.</span><span class="sxs-lookup"><span data-stu-id="f57ab-164">This is the price that you've received from the vendor.</span></span> <span data-ttu-id="f57ab-165">También es posible que desee especificar información adicional del proveedor.</span><span class="sxs-lookup"><span data-stu-id="f57ab-165">You might also want to enter additional information from the vendor.</span></span>  
+20. <span data-ttu-id="f57ab-166">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-166">Select **Accept**.</span></span>
+21. <span data-ttu-id="f57ab-167">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-167">Select **OK**.</span></span>
 
-## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a><span data-ttu-id="c7a85-168">Comprobar que el proveedor y el precio se han transferido a la solicitud</span><span class="sxs-lookup"><span data-stu-id="c7a85-168">Verify that vendor and price have been transferred to the requisition</span></span>
-1. <span data-ttu-id="c7a85-169">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="c7a85-169">Close the page.</span></span>
-2. <span data-ttu-id="c7a85-170">Seleccionar **Líneas**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-170">Select **Lines**.</span></span>
-3. <span data-ttu-id="c7a85-171">Seleccione **Información relacionada**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-171">Select **Related information**.</span></span>
-4. <span data-ttu-id="c7a85-172">Seleccionar **Solicitud de compra**.</span><span class="sxs-lookup"><span data-stu-id="c7a85-172">Select **Purchase requisition**.</span></span>
-5. <span data-ttu-id="c7a85-173">Seleccione la línea que se transfirió a la solicitud de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="c7a85-173">Select the line that was transferred to the RFQ.</span></span> <span data-ttu-id="c7a85-174">Compruebe que el precio y el proveedor se han copiado a la solicitud.</span><span class="sxs-lookup"><span data-stu-id="c7a85-174">Verify that the price and vendor have been copied to the requisition.</span></span>  
-6. <span data-ttu-id="c7a85-175">Seleccione **Flujo de trabajo** para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="c7a85-175">Select **Workflow** to open the drop dialog.</span></span>
-7. <span data-ttu-id="c7a85-176">Seleccione Completar.</span><span class="sxs-lookup"><span data-stu-id="c7a85-176">Select Complete.</span></span>
-8. <span data-ttu-id="c7a85-177">Seleccionar la página.</span><span class="sxs-lookup"><span data-stu-id="c7a85-177">Select the page.</span></span>
-9. <span data-ttu-id="c7a85-178">Seleccione Completar.</span><span class="sxs-lookup"><span data-stu-id="c7a85-178">Select Complete.</span></span>
+## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a><span data-ttu-id="f57ab-168">Comprobar que el proveedor y el precio se han transferido a la solicitud</span><span class="sxs-lookup"><span data-stu-id="f57ab-168">Verify that vendor and price have been transferred to the requisition</span></span>
+1. <span data-ttu-id="f57ab-169">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="f57ab-169">Close the page.</span></span>
+2. <span data-ttu-id="f57ab-170">Seleccionar **Líneas**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-170">Select **Lines**.</span></span>
+3. <span data-ttu-id="f57ab-171">Seleccione **Información relacionada**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-171">Select **Related information**.</span></span>
+4. <span data-ttu-id="f57ab-172">Seleccionar **Solicitud de compra**.</span><span class="sxs-lookup"><span data-stu-id="f57ab-172">Select **Purchase requisition**.</span></span>
+5. <span data-ttu-id="f57ab-173">Seleccione la línea que se transfirió a la solicitud de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="f57ab-173">Select the line that was transferred to the RFQ.</span></span> <span data-ttu-id="f57ab-174">Compruebe que el precio y el proveedor se han copiado a la solicitud.</span><span class="sxs-lookup"><span data-stu-id="f57ab-174">Verify that the price and vendor have been copied to the requisition.</span></span>  
+6. <span data-ttu-id="f57ab-175">Seleccione **Flujo de trabajo** para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="f57ab-175">Select **Workflow** to open the drop dialog.</span></span>
+7. <span data-ttu-id="f57ab-176">Seleccione Completar.</span><span class="sxs-lookup"><span data-stu-id="f57ab-176">Select Complete.</span></span>
+8. <span data-ttu-id="f57ab-177">Seleccionar la página.</span><span class="sxs-lookup"><span data-stu-id="f57ab-177">Select the page.</span></span>
+9. <span data-ttu-id="f57ab-178">Seleccione Completar.</span><span class="sxs-lookup"><span data-stu-id="f57ab-178">Select Complete.</span></span>
 
