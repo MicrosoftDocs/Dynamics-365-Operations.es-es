@@ -1,7 +1,7 @@
 ---
 title: Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos
 description: Este tema explic a cómo especificar respuestas a una solicitud de presupuesto (RFQ por sus siglas en inglés), puntuar y comparar ofertas y, a continuación, conceder el contrato a uno de los proveedores.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae7c43516fc90224439f6f7cfd5fd0a6058e8b39
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437282"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016687"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos
 
@@ -107,6 +106,3 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
 ## <a name="view-the-purchase-order-that-is-generated"></a>Ver el pedido de compra que se ha generado
 
 En el panel de acciones, en la pestaña **General**, seleccione **Pedido de compra**. La página que aparece muestra el pedido de compra que se generó al aceptar la oferta.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

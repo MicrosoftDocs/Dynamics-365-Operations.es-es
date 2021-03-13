@@ -1,7 +1,7 @@
 ---
 title: Contenidos de gestión de gastos de Power BI
 description: Este tema describe lo que se incluye en el paquete de contenido de gestión de gasto de Power BI.
-author: RyanSand
+author: panolte
 manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9391676beea6aac831648d5fa55eae5eba3f6397
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682806"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016461"
 ---
 # <a name="expense-management-power-bi-content"></a>Contenidos de gestión de gastos de Power BI
 
@@ -93,6 +93,3 @@ El contenido incluye un conjunto de páginas de informe. Cada página consta de 
 | Estadísticas del empleado | Informes de gasto por tipo de coste            |
 |                     | Gastos personales                       |
 |                     | Informes de gasto por grupo de estadísticas     |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

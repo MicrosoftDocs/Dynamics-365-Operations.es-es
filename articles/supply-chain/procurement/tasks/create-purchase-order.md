@@ -1,7 +1,7 @@
 ---
 title: Crear un pedido de compra
 description: Este tema muestra cómo crear un pedido de compra manualmente.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5a3da6b70054fac878ba6266017bffe75f634f61
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437247"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016637"
 ---
 # <a name="create-a-purchase-order"></a>Crear un pedido de compra
 
@@ -74,6 +73,3 @@ Este tema muestra cómo crear un pedido de compra manualmente. Es más habitual 
 
 2. Seleccione **Aceptar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
