@@ -111,3 +111,6 @@ Las siguientes medidas agregadas clave se usan como la base del contenido.
 | Rendimiento del envío        | Enviado por producto                       | CustPackingSlipOnTimeStatus           | Temprano, Puntual y Tarde (consulte las descripciones anteriores en esta tabla). |
 | Rendimiento del envío        | Enviado por cliente                      | CustPackingSlipOnTimeStatus           | Temprano, Puntual y Tarde (consulte las descripciones anteriores en esta tabla). |
 | Rendimiento del envío        | Enviado por sitio/almacén              | CustPackingSlipOnTimeStatus           | Temprano, Puntual y Tarde (consulte las descripciones anteriores en esta tabla). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

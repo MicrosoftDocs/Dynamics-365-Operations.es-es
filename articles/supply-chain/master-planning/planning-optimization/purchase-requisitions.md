@@ -101,3 +101,6 @@ Cuando se ejecuta la planificación maestra, se crean dos órdenes planificadas:
 > Después de que se firme una orden planificada que está vinculada a una solicitud de compra, el motor de planificación mantiene el diagrama de árbol a la solicitud de compra. Si posteriormente se descubre que en el pedido firme falta alguna cantidad necesaria para cumplir con la solicitud de compra, el sistema creará un nuevo pedido planificado por la diferencia.
 
 Para obtener más información sobre las solicitudes de compra, consulte [Descripción general de la solicitud de compra](../../procurement/purchase-requisitions-overview.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

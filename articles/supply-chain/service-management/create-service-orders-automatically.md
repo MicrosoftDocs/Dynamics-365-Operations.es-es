@@ -70,3 +70,6 @@ Al crear pedidos de servicio de forma manual o automática desde la línea del a
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -133,3 +133,6 @@ La siguiente imagen muestra un ejemplo de configuración de asignación de grupo
 [Configurar un canal de centro de llamadas](channel-setup-callcenter.md)
 
 [Conector de pago de Dynamics 365 para Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -522,3 +522,6 @@ Después de crear y publicar todas estas entradas del diario, verá los siguient
 | 11         | Depreciación acumulada |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -189,3 +189,6 @@ Cuando se genera el formato de libro de trabajo en un documento saliente en un M
 [Insertar imágenes y formas en los documentos generados con ER](electronic-reporting-embed-images-shapes.md)
 
 [Configurar informes electrónicos (ER) para proporcionar datos a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Si está cargando varios tipos de activos simultáneamente (por ejemplo, imágen
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

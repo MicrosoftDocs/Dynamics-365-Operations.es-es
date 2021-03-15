@@ -42,3 +42,6 @@ Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por co
 10. Cierre la página.
 11. Actualice la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

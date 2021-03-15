@@ -190,3 +190,6 @@ Se importan los siguientes detalles y se incluyen en el nuevo registro de emplea
 
 [Configurar tablas virtuales de Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [¿Qué es Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Este procedimiento le guía por los pasos para crear y procesar un tránsito dir
 15. En la lista, busque y seleccione un almacén que recibió productos.
 16. Haga clic en Pedido para ver los pedidos que se crearon para el almacén seleccionado
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

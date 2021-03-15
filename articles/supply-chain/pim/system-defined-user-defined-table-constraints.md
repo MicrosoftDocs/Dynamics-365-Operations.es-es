@@ -66,3 +66,6 @@ Para que una restricción de tablas pueda surtir efecto en un modelo de configur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

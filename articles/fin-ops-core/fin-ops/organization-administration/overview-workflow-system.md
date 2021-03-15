@@ -71,3 +71,6 @@ El uso del sistema de flujo de trabajo en una organización ofrece varias ventaj
 + [Configurar ramas paralelas en un flujo de trabajo](configure-parallel-branch-workflow.md)
 + [Configurar flujos de trabajo de elementos](configure-line-item-workflow.md)
 + [Preguntas frecuentes sobre flujos de trabajo](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

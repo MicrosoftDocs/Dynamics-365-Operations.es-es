@@ -68,3 +68,6 @@ Este procedimiento muestra cómo crear un pedido de compra basado en un pedido d
     - El **Lote de referencia** garantiza que los costes de la compra actual se carguen en el pedido de ventas vinculado.  
     - Par navegar hasta el pedido de ventas de origen, abra el vínculo del campo **Número de referencia**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Alternativamente, una organización puede establecer la opción **Permitir anula
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Métodos de pago en centros de llamadas](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

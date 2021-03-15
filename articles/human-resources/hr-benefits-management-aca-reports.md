@@ -207,3 +207,6 @@ Se muestra la información de cobertura para los dependientes del empleado.
 
 > [!NOTE]
 > La página muestra solo los planes de prestaciones que están marcados como **Se informa para Ley de Cuidado de salud asequible**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

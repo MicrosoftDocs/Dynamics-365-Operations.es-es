@@ -53,3 +53,6 @@ La ventana relacionada con asientos muestra el asiento de la empresa de contrapa
 3. En la lista, marque la fila seleccionada.
 4. Haga clic en Asiento.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

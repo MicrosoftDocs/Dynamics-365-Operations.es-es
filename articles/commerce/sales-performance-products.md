@@ -43,3 +43,6 @@ Para esta evaluación, puede usar el informe listo para usar **Productos princip
 - Espacio de trabajo **Administración de tiendas** &gt; **Retail y Commerce** &gt; **Canales** &gt; **Administración de tiendas** &gt; **Informes** &gt; **Informe de productos principales**
 - Espacio de trabajo **Gestión de categoría y productos** &gt; **Retail y Commerce** &gt; **Canales** &gt; **Gestión de tiendas** &gt; **Informes** &gt; **Informe de productos principales**
 - Sección **Consultas e informes** &gt; **Retail y Commerce** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de productos principales**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

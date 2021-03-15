@@ -149,3 +149,6 @@ Cuando haya obtenido una vista previa de los cambios para su plantilla, siga uno
 [Visión general de plantillas y diseños](templates-layouts-overview.md)
 
 [Trabajar con diseños predefinidos](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -152,3 +152,6 @@ Puede ver si se puede usar un producto emitido como componente o subcomponente e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

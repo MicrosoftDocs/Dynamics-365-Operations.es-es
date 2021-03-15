@@ -52,3 +52,6 @@ Puede buscar en atributos de lote al realizar las reservas de lote para un pedid
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

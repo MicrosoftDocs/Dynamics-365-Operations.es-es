@@ -135,3 +135,5 @@ Este procedimiento le muestra cómo habilitar un proceso de administración de c
 
 > [!NOTE]
 > La característica *Administración de calidad para procesos de almacén* proporciona opciones adicionales para configurar asociaciones de calidad. Agrega una nueva condición (**Tipo de almacén aplicable**) y una nueva configuración (**Política de procesamiento de calidad**). Si ha habilitado esta función, vea [Gestión de calidad para procesos de almacén](../quality-management-for-warehouses-processes.md) para más detalles.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

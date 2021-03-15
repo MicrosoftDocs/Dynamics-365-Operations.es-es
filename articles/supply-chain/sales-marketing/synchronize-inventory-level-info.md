@@ -92,3 +92,6 @@ Puede aplicar filtros con la consulta y un filtrado avanzados para que sólo det
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Inventario de producto (Supply Chain Management a Field Service): Inventario de producto
 
 [![Asignación de la plantilla en la integración de datos](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

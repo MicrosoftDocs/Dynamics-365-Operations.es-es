@@ -70,3 +70,6 @@ Use la página **Exportar** (**Administración del sistema \> Espacios de trabaj
 5. Seleccione **Aceptar** para ejecutar la exportación.
 
 Una vez completada la exportación, recibirá un mensaje que muestra el número de registros guardados en cada archivo. A continuación, puede importar los archivos a la entidad jurídica consolidada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

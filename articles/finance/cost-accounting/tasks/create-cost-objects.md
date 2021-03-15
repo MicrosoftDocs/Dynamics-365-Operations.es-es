@@ -50,3 +50,6 @@ Este procedimiento muestra cómo crear objetos de coste importando la dimensión
 ## <a name="view-the-imported-cost-centers"></a>Ver los centros de coste importados
 1. Haga clic en miembros de dimensión.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

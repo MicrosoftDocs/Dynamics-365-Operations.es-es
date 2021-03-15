@@ -76,3 +76,6 @@ Las directivas de ubicación determinan *dónde* los artículos deben ser recogi
 
 - Vídeo: [Análisis profundo de la configuración de la gestión de almacenes](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Tema de ayuda: [Crear directivas de ubicación](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

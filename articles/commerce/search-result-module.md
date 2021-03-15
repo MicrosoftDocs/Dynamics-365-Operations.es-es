@@ -90,3 +90,6 @@ Para agregar un módulo de resultados de la búsqueda a una página de categorí
 [Descripción general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de vista rápida](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Para agregar un departamento a la jerarquía de departamentos, siga estos pasos.
 
 ## <a name="steps-for-creating-a-department"></a>Pasos para crear un departamento
 Consulte el artículo [Definir nuevos departamentos](../fin-and-ops/hr/tasks/define-new-departments.md) para informarse del procedimiento detallado para crear un nuevo departamento. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

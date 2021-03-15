@@ -69,3 +69,6 @@ Una vez que haya creado los estados de ciclo de vida de activo necesarios, puede
 
 6. Seleccione **Actualizaciones de estado de ciclo de vida** para definir los estados de ciclo de vida de activo que pueden seguir un estado de ciclo de vida seleccionado.
 7. Use el FastTab **Estado de activo** si administra activos que recibe para su reparación. En la sección **Entrante/saliente**, puede seleccionar estados de ciclo de vida de activo para indicar el flujo de trabajo de un activo que recibe para reparación. Si ofrece activos de préstamo a los clientes o departamentos, en la sección **Préstamo** puede seleccionar estados de ciclo de vida de activos de préstamo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

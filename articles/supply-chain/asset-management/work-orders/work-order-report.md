@@ -50,3 +50,6 @@ En la ilustración siguiente se muestra un ejemplo de un informe de orden de tra
 
 ![Figura 2](media/21-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Los empleadores deben saber cuándo sus empleados sufren lesiones o se enferman 
     * Las agencias informadoras son las agencias a las que se tiene que informar del incidente. Seleccione la casilla predeterminada para la agencia que sea la agencia predeterminada para informar de lesiones y enfermedades.  
 23. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -126,3 +126,6 @@ Una vez que se activa el control presupuestario, los usuarios recibirán mensaje
 En esta página, los usuarios pueden explorar la página **Estadísticas de control presupuestario por periodo** para ver los detalles de disponibilidad y las reservas para una combinación de dimensión de control de presupuesto seleccionada. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario** para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
 
 Si se activa el control presupuestario para los pedidos de compra, el director de presupuestos puede usar el espacio de trabajo **Presupuestos y previsiones contables** para revisar la cola de todos los pedidos de compra que tienen errores y advertencias de comprobación presupuestaria. Si el director de presupuestos tiene permisos de presupuesto excedido configurados, los pedidos de compra pueden confirmarse directamente en el espacio de trabajo.    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

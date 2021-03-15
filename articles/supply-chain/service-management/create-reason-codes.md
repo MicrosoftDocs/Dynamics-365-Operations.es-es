@@ -40,3 +40,6 @@ Cuando se le solicite un código de motivo que explique por qué se está actual
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

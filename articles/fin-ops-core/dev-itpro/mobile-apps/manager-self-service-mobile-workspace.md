@@ -97,3 +97,6 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 1.  Seleccione **Enviar elogio**. 
 1. Escriba el texto del elogio que desee enviar. 
 1. Seleccione **Listo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

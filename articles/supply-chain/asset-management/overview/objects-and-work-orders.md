@@ -54,3 +54,6 @@ Se deben cojpletar varios pasos para programar y ejecutar un trabajo de mantenim
 
 > [!NOTE]
 > Normalmente, cuando se trabaja en Dynamics 365 Supply Chain Management y el módulo **Administración de activos**, se selecciona **Nuevo** para crear un nuevo registro, se selecciona **Editar** para actualizar un registro existente y se selecciona **Guardar** para guardar datos nuevos o modificados.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

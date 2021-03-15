@@ -129,3 +129,6 @@ La programación del cuestionario le permite planear y distribuir los cuestionar
 2. Haga clic en Fin.
 3. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

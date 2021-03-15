@@ -81,3 +81,6 @@ La ilustración siguiente muestra el saldo de activos fijos.
 La ilustración siguiente muestra el asiento que se registra.
 
 [![Valor neto en los libros](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

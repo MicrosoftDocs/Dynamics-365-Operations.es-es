@@ -164,3 +164,6 @@ El informe de tasa de descuento promedio ponderado satisface el requisito de div
 |     Divisa                          |     La abreviatura de la divisa de transacción usada. Todos los informes convertirán la divisa transaccional a la divisa del informe.  |
 |     Pagos por arrendamiento restantes          |     El importe total de los pagos de arrendamiento impagados de la programación de pagos que quedan desde la fecha **A partir de**.            |
 |     Pagos ponderados restantes       |     Los pagos de arrendamiento restantes multiplicados por la tasa de descuento utilizada.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

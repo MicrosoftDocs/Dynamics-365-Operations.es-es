@@ -298,3 +298,6 @@ Habilitar las funciones MX-00010 y MX-00016 (Factura CFDI y Cancelación de CFDI
 - [Descripción general del complemento de facturación electrónica](e-invoicing-service-overview.md)
 - [Introducción al complemento de facturación electrónica](e-invoicing-get-started.md)
 - [Configurar el complemento de facturación electrónica](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

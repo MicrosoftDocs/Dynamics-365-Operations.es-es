@@ -133,3 +133,6 @@ En este proceso, creará un envío basado en las dimensiones de *embalaje* del a
 1. Abra el dispositivo móvil, inicie sesión en el almacén 63 y vaya a **Inventario \> Ajustar en**.
 1. Introducir **Loc** = *SHORT-01*. Haga una nueva placa con **Artículo** = *A0001* y **Cantidad** = *1 ud.*.
 1. Seleccione **Aceptar**. Recibirá el error "La ubicación SHORT-01 falló porque el elemento A0001 no encaja en las dimensiones especificadas de la ubicación". Esto es porque las dimensiones del *almacenamiento* de tipo del producto son mayores que las dimensiones especificadas en el perfil de ubicación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

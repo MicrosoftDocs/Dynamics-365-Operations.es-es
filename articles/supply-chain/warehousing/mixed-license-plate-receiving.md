@@ -48,3 +48,6 @@ Es necesario crear un nuevo elemento de menú en modo trabajo que no utilice el 
 - Recepción de matrícula de entidad de almacén mixta y ubicación
 
 Las opciones para identificar las líneas de documento de origen son artículos de pedidos de compra, línea de pedido de compra, pedido de devolución, artículo de pedido de transferencia y línea de pedido de transferencia. Estas opciones pueden cambiar el pedido de recepción en una sola matrícula. La última opción es cargar artículos. Puede agregar varios artículos a una matrícula, pero no puede alternar entre las varias cargas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -273,3 +273,6 @@ Tenga en cuenta los siguientes detalles:
 ![Datos generados para el formato del informe del Modelo 347 (ES)](media/8_Declaration347.png)
 
 Observe que solo la línea que tiene correcciones se imprime en el informe.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

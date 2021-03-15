@@ -47,3 +47,6 @@ Puede transferir información de la base de datos de su organización a los marc
 8. A continuación, escriba el mensaje de correo electrónico insertando los campos de marcador donde estime oportuno.
 9. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

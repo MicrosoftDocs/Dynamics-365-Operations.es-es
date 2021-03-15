@@ -163,3 +163,6 @@ Para todos los problemas generales, siempre debe consultar los registros de even
 [Guardar los instrumentos de pago en línea con el conector de Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Visión general de pagos omnicanal](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

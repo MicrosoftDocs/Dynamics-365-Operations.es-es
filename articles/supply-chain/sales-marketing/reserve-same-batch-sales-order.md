@@ -44,3 +44,6 @@ Al reservar inventario para un producto en una línea de pedido de ventas config
 - El lote no tiene suficientes días de vida útil restantes según la fecha de caducidad/consumo preferente y los días para ventas al cliente.
 
 Para los elementos asociados con un grupo de dimensiones de almacenamiento que tiene **Utilizar procesos de gestión de almacenes** habilitado, puede reservar números de lote específicos utilizando una jerarquía de reserva con la dimensión de inventario de número de lote definida arriba de la dimensión de ubicación. La página **Reserva de lotes** de ventas y líneas de pedido de transferencia también le permite seleccionar y reservar varias líneas en función de los números de lote disponibles. Para obtener más información sobre qué hacer si está utilizando una jerarquía de reservas que tiene la dimensión del número de lote debajo de la ubicación, vea [Política de reserva de dimensión de nivel de almacén flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

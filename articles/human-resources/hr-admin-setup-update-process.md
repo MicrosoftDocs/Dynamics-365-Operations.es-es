@@ -105,3 +105,6 @@ Mientras prueba las funciones de vista previa o prueba nuevas capacidades, puede
 [Novedades y cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
 [Directiva del ciclo de vida del software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

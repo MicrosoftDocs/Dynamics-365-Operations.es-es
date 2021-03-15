@@ -41,3 +41,6 @@ Tras actualizar la convención de depreciación de los activos, puede procesar l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

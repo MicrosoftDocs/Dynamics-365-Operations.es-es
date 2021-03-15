@@ -58,3 +58,6 @@ Esta guía le ayudará a configurar una definición de período de vencimiento, 
 2. Seleccione un cliente con saldo.
 3. Expanda el área del cuadro informativo **Vencimiento** para ver los saldos vencidos. La definición de período de vencimiento para el cuadro informativo se toma de la definición de período de vencimiento predeterminada que se haya especificado en los parámetros. Puede cambiarse mediante el menú Cobrar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Están disponibles los siguientes parámetros:
 
 - **Número de veces que se intenta la coincidencia automática** - Seleccione la cantidad de veces que el sistema debe intentar hacer coincidir los recibos de productos con una línea de factura antes de concluir que el proceso falló. Cuando se alcanza el número especificado de intentos, la factura se elimina del procesamiento de automatización.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

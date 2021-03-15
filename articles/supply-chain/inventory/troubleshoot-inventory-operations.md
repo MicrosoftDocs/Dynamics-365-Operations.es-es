@@ -157,3 +157,6 @@ Este problema se produce cuando la cantidad de la transacción de inventario se 
 
 > [!IMPORTANT]
 > Recomendamos encarecidamente que edite cuidadosamente el script según sea necesario para su entorno, lo pruebe en un entorno de prueba y luego compruebe los datos resultantes antes de ejecutar el script en un entorno de producción.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Cuando haya seleccionado el nuevo modo de entrega, se mostrará la página de tr
 [Crear pedidos de centro de llamadas](tasks/create-call-center-orders.md)
 
 [Personalizar correos electrónicos transaccionales por modo de entrega](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

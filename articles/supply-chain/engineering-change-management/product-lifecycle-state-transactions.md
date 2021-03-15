@@ -75,3 +75,6 @@ Los siguientes campos están disponibles para cada proceso que se enumera en la 
 | Póliza | Seleccione uno de los siguientes valores para controlar si se permitirá el proceso actual para los productos que se encuentran en este estado de ciclo de vida y cómo:<ul><li>**Habilitado** - El proceso empresarial está permitido.</li><li>**Obstruido** - El proceso no está permitido. Si un usuario intenta utilizar el proceso en un producto que se encuentra en este estado de ciclo de vida, el sistema bloqueará el intento y mostrará un error. Por ejemplo, puede bloquear la compra de productos al final de su vida útil.</li><li>**Habilitado con advertencia** - El proceso está permitido, pero se mostrará una advertencia. Por ejemplo, es posible que desee que un producto prototipo se coloque en una orden de producción creada por el departamento de Investigación y Desarrollo. Sin embargo, otros departamentos deben tener en cuenta que aún no deben producir el producto.</li></ul> |
 
 Si está agregando más reglas de estado del ciclo de vida como personalización, puede ver esas reglas en la interfaz de usuario (IU) seleccionando **Actualizar procesos** en el panel superior. El botón **Actualizar procesos** está disponible solo para administradores.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

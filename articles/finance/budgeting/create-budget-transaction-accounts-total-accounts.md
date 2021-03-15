@@ -45,3 +45,6 @@ Así pues, puede crear presupuestos independientes para las cuentas de transacci
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Las facturas recurrentes se utilizan para facturar a los clientes el mismo impor
 6. Haga clic en Registrar.
     * Registrar las facturas seleccionadas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

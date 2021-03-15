@@ -70,3 +70,6 @@ Cuando se modifica el campo **Cuenta de facturación**, los campos siguientes pu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

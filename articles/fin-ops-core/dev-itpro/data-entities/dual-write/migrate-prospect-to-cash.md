@@ -98,3 +98,6 @@ Ya que los datos de la tabla **Productos** están diseñados para fluir en una d
 ## <a name="quote-and-quote-product-tables"></a>Tablas de cotización y producto de cotización
 
 Para la tabla **Cotización**, siga las instrucciones de la sección anterior de este tema, [Tabla de pedidos](#order-table). Para la tabla **Producto de cotización**, siga las instrucciones de la sección anterior de este tema, [Tabla de productos de pedido](#order-products-table).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

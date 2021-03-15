@@ -101,3 +101,6 @@ Las siguientes tablas muestran los valores que se establecen en las pestañas **
 7. Para ver el efecto neto del deterioro, vaya a las tablas de transacciones de activos y pasivos. Observe que el gasto por deterioro ha disminuido el activo por derecho de uso, pero el valor en libros del pasivo por arrendamiento no ha cambiado.
 
 El deterioro tiene otro efecto que debe considerar. Debido a que el monto del activo por derecho de uso es ahora mucho menor que el pasivo por arrendamiento, el importe debe depreciarse de manera diferente a como era antes. Específicamente, el activo ahora se deprecia de manera lineal durante los 84 meses restantes del arrendamiento, comenzando en la fecha de la transacción.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

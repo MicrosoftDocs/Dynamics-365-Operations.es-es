@@ -129,3 +129,6 @@ También puede crear y usar las tablas dinámicas y gráficos para agrupaciones 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

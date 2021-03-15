@@ -50,3 +50,6 @@ La característica avanzada de conciliación bancaria le permite importar extrac
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

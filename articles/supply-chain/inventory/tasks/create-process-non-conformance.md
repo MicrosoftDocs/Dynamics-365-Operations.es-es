@@ -66,3 +66,6 @@ Este tema explica cómo gestionar los casos de disconformidad, en función de un
 2. Seleccione **Cerrar la no conformidad**.
 3. Seleccione **Sí**.
 4. Cierre las páginas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

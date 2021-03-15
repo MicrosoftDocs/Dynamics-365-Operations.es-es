@@ -48,3 +48,6 @@ Puede crear facturas mensuales para arrendamientos individuales o puede utilizar
 6. Una vez que se registra la transacción, puede ver la información de la transacción y el valor en libros del pasivo por arrendamiento seleccionando **Transacciones de pasivo** en el libro de arrendamiento.
 
     En la programación de pagos, estará seleccionada la casilla **Diario publicado** y la línea mostrará el número de diario de facturas. Después de crear un diario de pagos y una entrada para ese diario, debe revertir la entrada antes de que pueda volver a crearse.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

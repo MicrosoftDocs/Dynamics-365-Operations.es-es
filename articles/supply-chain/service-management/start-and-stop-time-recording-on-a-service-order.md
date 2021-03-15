@@ -64,3 +64,6 @@ Use este procedimiento para iniciar o detener el registro de horas de un pedido 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

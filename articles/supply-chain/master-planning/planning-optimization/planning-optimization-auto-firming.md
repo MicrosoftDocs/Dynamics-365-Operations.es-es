@@ -66,3 +66,6 @@ La optimización de la planificación y el motor de planificación que se integr
 - La puesta en firme automática en la fecha de requisito (fecha final).
 - Para ayudar a garantizar que los pedidos se ponen en firme a tiempo, el límite de tiempo de puesta en firme debe ser superior al plazo.
 - Si desea poner en firme todos los pedidos que deben iniciarse durante la semana actual, el límite de tiempo de la puesta en firme debe ser el plazo más una semana.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

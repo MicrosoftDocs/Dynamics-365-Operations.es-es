@@ -66,3 +66,6 @@ Cuando se selecciona el mosaico, se abre la página **Todas las oleadas de la pr
 El mosaico **Trabajo de almacén abierto que necesiten asistencia** muestra el número de LM y las líneas de fórmula que se han liberado al almacén, que tienen oleadas sin procesar y que tienen una fecha de la materia prima que es anterior o igual a la fecha del espacio de trabajo. Las líneas también se deben consumir por un recurso de operaciones que aplique al filtro del espacio de trabajo.
 
 Cuando se selecciona el mosaico, se abre la página **Todos los trabajos**. Esta página se filtra en función del número de encabezados de trabajo abiertos que contengan las líneas de la LM liberada y las líneas de fórmula que cumplan los criterios para el mosaico. En la página **Todos los trabajos**, puede procesar manualmente el trabajo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

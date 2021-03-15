@@ -66,3 +66,6 @@ Para revisar la funcionalidad en tiempo de ejecución, complete el procedimiento
 ## <a name="see-also"></a>Consulte también
 
 - [Aplazar la ejecución de elementos de XML en formatos de informes electrónicos](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

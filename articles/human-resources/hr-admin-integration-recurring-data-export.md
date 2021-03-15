@@ -205,3 +205,6 @@ La siguiente ilustración muestra cómo se ve el Logic Apps Designer cuando todo
 En este tutorial, aprendió a usar una aplicación lógica para exportar datos de Human Resources y guardar los datos exportados en una carpeta de OneDrive for Business. Puede modificar los pasos de este tutorial según sea necesario para satisfacer las necesidades de su negocio.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

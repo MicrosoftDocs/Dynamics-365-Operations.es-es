@@ -170,3 +170,6 @@ Cuando la opción **Crear pedido de cliente en modo asincrónico** está estable
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Pedidos de cliente híbridos](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

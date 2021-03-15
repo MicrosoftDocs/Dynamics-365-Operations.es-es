@@ -115,3 +115,6 @@ A menos que haya una norma legal para usar secuencias numéricas continuas, se r
 En caso de fallo eléctrico, un error de aplicación u otro error inesperado, el sistema no podrá reciclar números de manera automática para las secuencias numéricas continuas. Puede ejecutar el proceso de limpieza manualmente o automáticamente para recuperar los números perdidos.
 
 Valore detenidamente el uso del servidor al planificar el proceso de limpieza. Es recomendable que realice la limpieza como un trabajo por lotes durante las horas de menor demanda.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

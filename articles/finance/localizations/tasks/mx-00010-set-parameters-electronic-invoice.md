@@ -72,3 +72,6 @@ Este procedimiento muestra cómo configurar una factura electrónica y la cuenta
 15. En la lista, haga clic en el vínculo de la fila seleccionada.
 16. Active o desactive la casilla Enviar archivo de informe: PDF.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

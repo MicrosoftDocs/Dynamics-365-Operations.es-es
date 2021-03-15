@@ -150,3 +150,6 @@ Para habilitar el atributo **isIntegrationUser**, siga estos pasos.
     ![Cambiar el valor de la columna Modo de usuario de integración](media/sales-map-user-mode-yes.png)
 
 Ahora los pedidos de ventas están asignados.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

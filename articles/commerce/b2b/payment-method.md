@@ -76,3 +76,6 @@ Para confirmar que el método de pago de la cuenta del cliente se ha habilitado 
 [Establecer límites de cantidad de productos para sitios de comercio electrónico B2B](quantity-limits.md)
 
 [Actualizaciones del SDK y la biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

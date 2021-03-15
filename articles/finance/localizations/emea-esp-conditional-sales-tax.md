@@ -37,3 +37,6 @@ Cuando un usuario registra un diario de renegociación de pagarés, se anulan la
 Cuando un usuario registra un diario de impago de letras de cambio, se anulan las transacciones registradas anteriormente si una letra de cambio se ha liquidado con la factura de cliente. Si la factura incluía impuestos condicionales cuando se liquidó con una letra de cambio, se registra una transacción de impuestos para los impuestos condicionales. Para las entidades jurídicas de España, si la letra de cambio se ha liquidado con una factura que incluye impuestos condicionales, se invierte la transacción de impuestos cuando se registra un diario de impago de letras de cambio. Para ver las transacciones invertidas, vaya a **Transacciones de asiento** &gt; **Asientos relacionados**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

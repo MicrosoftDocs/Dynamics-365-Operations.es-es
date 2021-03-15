@@ -79,3 +79,6 @@ Para seleccionar un diseño diferente para una página existente, siga estos pas
 
 [Crear páginas de comercio electrónico dinámicas basadas en parámetros de URL](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Este procedimiento muestra cómo ver la lista de proveedores de pago y cómo con
 24. Haga clic en la casilla Procesador predeterminado para tarjetas de crédito nuevas.
 25. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

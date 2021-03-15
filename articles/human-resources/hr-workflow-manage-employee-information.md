@@ -73,3 +73,6 @@ Siga estos pasos para configurar un flujo de trabajo básico que se inicia cuand
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

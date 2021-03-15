@@ -383,3 +383,6 @@ Una vez que todos los elementos requeridos estén en su lugar, puede configurar 
 1. Establezca la periodicidad para que se ejecute automáticamente, si lo desea.
 
 Para los ejercicios del escenario, **no** configure el slotting automático.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

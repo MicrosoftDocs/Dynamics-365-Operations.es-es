@@ -160,3 +160,6 @@ Estos son los mapas de tablas centrales relacionadas para cliente potencial a ef
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

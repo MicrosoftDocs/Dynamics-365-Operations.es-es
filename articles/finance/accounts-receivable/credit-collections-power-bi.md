@@ -76,3 +76,6 @@ El contenido en Power BI de **CustCollectionsBICrossCompany** incluye un informe
 | Cartas de cobros         | <ul><li>Importes por código de cobro</li><li>Detalles de importes por código de cobro</li><li>Importe de cartas de cobro por empresa</li><li>Importe de carta de cobro por grupo de clientes</li><li>Importe de carta de cobro por región</li></ul> |
 
 Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). También puede usar la funcionalidad subyacente de exportación de datos para exportar los datos subyacente que se resume en una visualización.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

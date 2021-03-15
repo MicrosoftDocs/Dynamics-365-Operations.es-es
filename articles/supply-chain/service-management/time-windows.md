@@ -44,3 +44,6 @@ Si no se especifica ninguna ventana de plazo para una línea de acuerdo de servi
 
 [Crear ventanas de plazo](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

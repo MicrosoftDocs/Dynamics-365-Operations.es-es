@@ -256,3 +256,6 @@ Los valores predeterminados de atributos se pueden anular para productos individ
 
     > [!NOTE]
     > Si se crean medios del producto compartido y atributos del producto compartido, se aplican a todos los productos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

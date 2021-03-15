@@ -72,3 +72,6 @@ Cuando ejecuta el formato ER configurado, la plantilla de Word adjunta se utiliz
 
 - [Reutilizar las configuraciones de ER con plantillas de Excel para generar informes en formato Word](./tasks/er-design-configuration-word-2016-11.md)
 - [Insertar imágenes y formas en los documentos generados con ER](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

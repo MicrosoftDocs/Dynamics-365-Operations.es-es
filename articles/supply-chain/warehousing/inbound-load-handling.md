@@ -477,3 +477,6 @@ Para este escenario, el empleado receptor registrará una cantidad que exceda la
     - **Cantidad** - Introduzca _7_, que es la cantidad restante que el proveedor está autorizado a entregar como parte de la cantidad total de pedido de compra de 12 (donde 10 es la cantidad de pedido original y 2 es la cantidad de entrega en exceso permitida del 20 %). Recuerde que ya se han registrado 5 unidades en la primera carga.
 
 La segunda carga ahora se ha actualizado con una cantidad de 7 y puede actualizarse la recepción del producto basada en esta cantidad.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

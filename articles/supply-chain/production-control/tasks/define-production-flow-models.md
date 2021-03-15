@@ -45,3 +45,6 @@ Los modelos de flujo de producción describen cómo se calcula y mantienen la ca
 8. En el campo Reacción por escasez de capacidad, seleccione una opción.
     * Se incluyen las siguientes opciones: Posponer: posponer la demanda completa del evento de programación al día siguiente de producción disponible, con capacidad de proceso disponible. Cancelar: complete la planificación automática para el evento de programación y deje los trabajos relacionados no planificados.   Agregar al día solicitado: planifique los trabajos solicitados para el período pedido. Esto sobrecarga a la celda para este día y requiere que el planificador lo revise e interactúe manualmente.   Distribuya a períodos disponibles - distribuya los diferentes trabajos del evento a todos los días disponibles de la producción, empezando por primer día disponible. La cantidad de distribución mínima es la cantidad de trabajo kanban. La distribución asigna la cantidad de planificación mínima (cantidad kanban) a cada día con suficiente capacidad de proceso disponible.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

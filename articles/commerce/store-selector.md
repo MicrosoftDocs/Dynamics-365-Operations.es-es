@@ -145,3 +145,6 @@ Para configurar el módulo selector de tiendas para mostrar las tiendas disponib
 [API de REST de Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Módulo de Maps](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

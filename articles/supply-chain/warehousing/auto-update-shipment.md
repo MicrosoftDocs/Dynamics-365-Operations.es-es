@@ -139,3 +139,6 @@ La oleada se procesa y crea el trabajo para las cantidades reservadas en las lí
 Si un envío tiene el estado **Oleada** o mayor, las actualizaciones a la cantidad en una línea de pedido de ventas no se reflejan ni se validan con una línea de carga que esté asociada al envío. Los cambios en la cantidad en una línea de carga se deben realizar directamente en la línea de carga.
 
 La validación se hace después de crear el trabajo para la línea de carga y de realizar una reserva. Una reducción de la cantidad en la línea de pedido de ventas se valida con la reserva de línea del trabajo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

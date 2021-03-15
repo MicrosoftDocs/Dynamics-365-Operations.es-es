@@ -40,3 +40,6 @@ Siga estos pasos para mover un pedido de servicio a la siguiente etapa del flujo
 4.  En el formulario **Cambiar etapa de servicio**, seleccione la etapa adecuada.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

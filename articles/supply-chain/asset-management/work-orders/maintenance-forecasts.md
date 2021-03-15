@@ -123,3 +123,6 @@ En Administración de activos, puede actualizar automáticamente cualquier cambi
 La ilustración muestra un ejemplo del cuadro de diálogo **Actualizar previsión de orden de trabajo**.
 
 ![Figura 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

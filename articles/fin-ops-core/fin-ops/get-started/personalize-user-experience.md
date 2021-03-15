@@ -195,3 +195,6 @@ Para los clientes que no hayan activado aún la característica [Vistas guardada
 Al personalizar la configuración de dimensiones de inventario en una página, tenga en cuenta los valores que se han creado usando la opción **Dimensión de visualización**. Por ejemplo, puede usar la personalización para ocultar una columna de la dimensión de inventario del número de lote, pero la columna aparecerá la próxima vez que la página esté abierta. Este comportamiento se produce porque la configuración de **Visualización de dimensiones** controla las columnas de la dimensión de inventario que se muestran. Los ajustes de **visualización de dimensiones** se aplican a todas las páginas y estos valores anulan cualquier configuración personalizada de campos de dimensión de inventario en las páginas individuales.
 
 En consecuencia, en el ejemplo anterior, si no desea que la columna de la dimensión de inventario de número de lote aparezca en una página, debe borrar dicha dimensión como parte de la opción **Dimensiones de la pantalla** para esa página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

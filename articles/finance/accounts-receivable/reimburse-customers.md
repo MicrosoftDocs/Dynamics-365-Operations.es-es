@@ -48,3 +48,6 @@ Cuando crea transacciones de reembolso, se crea una factura de proveedor para el
 
 5. Para ver las transacciones de reembolso que se crearon, utilice el informe **Reembolso** (**Clientes \> Consultas e informes \> Informe de reembolso**).
 6. En Proveedores, cree un pago para las facturas de proveedor que se crearon por el proceso de reembolso. Para obtener información sobre cómo pagar a los proveedores, consulte [Información general de pagos a proveedores](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

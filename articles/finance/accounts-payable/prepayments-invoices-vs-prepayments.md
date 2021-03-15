@@ -65,3 +65,6 @@ Las facturas en anticipo son una práctica empresarial habitual. Un proveedor em
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

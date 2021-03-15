@@ -138,3 +138,6 @@ Para obtener enlaces a un ejemplo y un enfoque alternativo, consulte la sección
 Por ejemplo, consulte [Habilitar la asignación de tablas Clientes V3—Contactos](enable-entity-map.md#enable-table-map)
 
 Para obtener un enfoque alternativo basado en volúmenes de datos en cada entidad en la que hay que ejecutar una sincronización inicial, consulte [Consideraciones para la sincronización inicial](initial-sync-guidance.md).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

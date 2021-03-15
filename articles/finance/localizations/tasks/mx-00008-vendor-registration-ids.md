@@ -45,3 +45,6 @@ Este procedimiento le muestra cómo crear el proveedor para México de modo que 
     * Para los proveedores extranjeros, especifique el id. de registro de impuestos, el código de país o región y la nacionalidad.  
 12. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

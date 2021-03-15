@@ -49,3 +49,6 @@ Puede registrar detalles de un cheque con fecha futura recibido de un cliente. T
 15. Haga clic en Registrar.
 16. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -812,3 +812,6 @@ Para saber cómo se puede sincronizar la estructura del formato con una plantill
 [Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md)
 
 [Visión general de la gestión de documentos empresariales](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

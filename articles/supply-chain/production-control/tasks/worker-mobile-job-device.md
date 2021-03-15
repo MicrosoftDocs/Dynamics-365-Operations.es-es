@@ -67,3 +67,6 @@ Para este ejemplo, compruebe que se asigna al usuario "SHANNON" el rol de operad
 6. En el campo **Unidad de producción**, puede establecer el filtro predeterminado para el trabajador. Esto asegurará que solo se muestran los trabajos de producción para la unidad de producción seleccionada cuando el trabajador inicia sesión en el dispositivo. Especifique el valor que desee.
 7. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

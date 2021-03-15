@@ -154,3 +154,6 @@ Actualmente, la característica de grupos de publicación solo admite contenido 
 [Visión general de plantillas y diseños](templates-layouts-overview.md)
 
 [Personalizar navegación del sitio](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

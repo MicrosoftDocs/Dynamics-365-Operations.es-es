@@ -430,3 +430,6 @@ Los complementos específicos se generan para los tipos de retención siguientes
 ### <a name="inquire-cfdi-withholding-documents"></a>Consultar los documentos de retención de CFDI
 
 Después de que el documento de retención de CFDI se emita al PAC, puede ver el estado y completar acciones relacionados seleccionando **Proveedores > Consulta > Diarios > Diario de retención de CFDI**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

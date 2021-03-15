@@ -66,3 +66,6 @@ Para enriquecer una página de categoría, haga lo siguiente.
 [Verificar accesibilidad de contenido de página](verify-accessibility.md)
 
 [Crear páginas de comercio electrónico dinámicas basadas en parámetros de URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

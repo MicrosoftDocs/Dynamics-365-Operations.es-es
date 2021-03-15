@@ -54,3 +54,6 @@ Use este procedimiento para configurar una plantilla que represente objetos en e
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

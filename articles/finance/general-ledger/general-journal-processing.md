@@ -104,3 +104,6 @@ La capacidad de recuperar un diario en un flujo de trabajo que tiene un estado d
 
 ## <a name="delete-journal-lines"></a>Eliminar líneas de diario
 La capacidad de eliminar todas las líneas del diario se habilita rápidamente en un diario en **Funciones** > **Eliminar las líneas de diario**. Para habilitar esta característica, en **Administración de características**, seleccione **Eliminar otimizaciones de rendimiento del diario**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

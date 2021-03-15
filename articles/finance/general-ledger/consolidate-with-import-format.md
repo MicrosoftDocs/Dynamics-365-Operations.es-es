@@ -42,3 +42,6 @@ La siguiente tabla enumera el formato de importación que debe utilizar cuando r
 | 6            | BusinessUnit, 1 Departamento, 2 | Los atributos de dimensión financiera que se definen en el orden del segmento.<p>Puede usar la página **Exportar** para verificar cómo se definen los atributos.</p> |
 | 7            | 002,1,658 | <ul><li>El valor de la dimensión financiera</li><li>La dimensión financiera, como el índice que se proporciona en RecordDimensions</li><li>Un id. de registro único y ambiguo que está asociado con el id. de registro único de RecordTrans o RecordTrans2</li></ul> |
 | 8            | 002,1,1 | <ul><li>Valores de dimensión asociados con la transacción de RecordBudget</li><li>La dimensión financiera, como el índice que se proporciona en RecordDimensions</li><li>Un id. de registro de línea ambiguo que está alineado con el orden de las líneas de transacción en el archivo</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

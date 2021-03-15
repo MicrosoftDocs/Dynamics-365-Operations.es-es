@@ -172,3 +172,6 @@ Para configurar un módulo de contenedor en una página, siga estos pasos.
 
 [Trabajar con grupos de publicación](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

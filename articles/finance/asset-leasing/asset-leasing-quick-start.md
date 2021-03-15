@@ -252,3 +252,6 @@ Complete los siguientes pasos para crear un arrendamiento nuevo.
 
    La página **Transacciones de pasivo por arrendamiento** muestra el reconocimiento inicial, el pago de intereses del arrendamiento, el pago del arrendamiento y el saldo del pasivo del arrendamiento. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

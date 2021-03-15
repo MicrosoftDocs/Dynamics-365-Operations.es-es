@@ -64,3 +64,6 @@ En la tabla siguiente se muestran las entidades en las que se basaba el contenid
 | Rendimiento          | Calificación, descripción y modelo de calificación                            | Candidato, candidato empleado, candidato finalizado |
 | Proyecto de contratación  | Descripción del proyecto, estado del proyecto y vacantes                | Candidato, candidato empleado, candidato finalizado |
 | Candidato finalizado | Candidatos cesados, motivo, rendimiento y fecha de cese | Empresa, contrapartida del calendario, fecha, ubicación geográfica, rendimiento, grupo demográfico, empleo, medios, proyecto de contratación, nombre del candidato |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

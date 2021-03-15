@@ -53,3 +53,6 @@ Puede especificar qué documentos estarán activos para un cliente o un proveedo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

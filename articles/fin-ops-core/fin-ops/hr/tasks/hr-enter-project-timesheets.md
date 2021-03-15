@@ -51,3 +51,6 @@ Este procedimiento le permite crear una hoja de horas a partir de un formulario 
 21. Haga clic en **Enviar**.
 22. Haga clic en **Enviar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

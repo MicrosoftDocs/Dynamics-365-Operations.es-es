@@ -330,3 +330,6 @@ En este ejemplo, la línea de pedido de devolución se crea mediante la función
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

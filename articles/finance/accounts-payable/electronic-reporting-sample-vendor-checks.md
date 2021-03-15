@@ -43,3 +43,6 @@ Microsoft Dynamics 365 Finance también incluye un formato de muestra donde el c
 - Al generar los pagos para la cuenta bancaria configurada en el diario de pagos, los cheques se imprimirán con el formato especificado.
 
 Para obtener más información, consulte [Modificar un formato de informe electrónico](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

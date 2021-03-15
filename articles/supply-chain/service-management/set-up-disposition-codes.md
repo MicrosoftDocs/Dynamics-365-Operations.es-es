@@ -56,3 +56,6 @@ También puede configurar un código de motivo para ayudar a explicar por qué u
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

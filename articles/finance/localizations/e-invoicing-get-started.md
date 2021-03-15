@@ -235,3 +235,6 @@ Según el país o la región, la característica de facturación electrónica pu
 - [Introducción al complemento de facturación electrónica para México](e-invoicing-mex-get-started.md)
 - [Introducción al complemento de facturación electrónica para Italia](e-invoicing-ita-get-started.md)
 - [Facturas electrónicas de clientes en Egipto](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

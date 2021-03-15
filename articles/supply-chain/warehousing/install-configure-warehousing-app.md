@@ -276,3 +276,6 @@ En caso de un dispositivo perdido o en riesgo, debe quitar el acceso a Supply Ch
 1. Asegúrese de que el id. de cliente de la aplicación coincida con el id. de cliente que anotó en el paso 2.
 1. En la barra de herramientas, seleccione **Eliminar**.
 1. En el mensaje de confirmación que aparece, haga clic en **Sí**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

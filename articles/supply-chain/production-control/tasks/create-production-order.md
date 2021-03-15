@@ -70,3 +70,6 @@ Este procedimiento muestra cómo crear un pedido de producción. La empresa de d
 6. Haga clic en Guardar.
 7. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

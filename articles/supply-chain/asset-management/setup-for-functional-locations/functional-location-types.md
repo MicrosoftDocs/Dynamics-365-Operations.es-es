@@ -66,3 +66,6 @@ Ahora se crea el tipo de ubicación funcional predeterminada que se utilizará p
 
 >[!NOTE] 
 >En el FastTab **General** , puede obtener una visión general del número de tipos de activos, planes de mantenimiento, requisitos de atributos de activos, tipos permitidos, atributos, y ubicaciones funcionales configuradas en el tipo de ubicación funcional. El campo **Ubicaciones funcionales** muestra el número de ubicaciones técnicas que están utilizando el tipo de ubicación funcional. Puede usar el botón **Copiar** para copiar la configuración de un tipo de ubicación funcional en el tipo de ubicación funcional seleccionado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

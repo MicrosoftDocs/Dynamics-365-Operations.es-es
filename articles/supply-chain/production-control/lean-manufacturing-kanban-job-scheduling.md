@@ -72,3 +72,6 @@ La página de lista de la **Programación de trabajo kanban** contiene un cuadro
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

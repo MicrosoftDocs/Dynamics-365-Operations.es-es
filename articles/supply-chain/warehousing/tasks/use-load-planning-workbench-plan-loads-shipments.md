@@ -60,3 +60,6 @@ Este tema muestra cómo usar el área de trabajo de planificación de cargas par
 5. Seleccione **Asignar**.
 6. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ El 15 de febrero se registra una factura de 1000 dólares con términos de descu
 > [!NOTE]
 > Si está seleccionada la opción Calcular descuento por pronto pago para pagos parciales en la página Parámetros de clientes o Parámetros de proveedores, se usa el tipo de cambio que esté en vigor en la fecha de cada pago parcial. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

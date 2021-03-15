@@ -39,3 +39,6 @@ Este procedimiento muestra cómo definir grupos de configuración de productos c
 7. En el campo Nombre, escriba un valor.
 8. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

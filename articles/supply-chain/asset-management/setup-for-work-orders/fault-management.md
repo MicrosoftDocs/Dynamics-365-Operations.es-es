@@ -132,3 +132,6 @@ Siga estos pasos para crear una lista de sugerencias de soluciones y reparacione
 
 > [!NOTE]
 > Puede cambiar los nombres de los síntomas, áreas, tipos y causas de los defectos, así como de las soluciones según sea necesario. Los cambios en el nombre se reflejan automáticamente en los registros relacionados del defecto.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

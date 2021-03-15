@@ -115,3 +115,6 @@ Para obtener más información acerca de cómo configurar facturas electrónicas
 
 > [!NOTE] 
 > Aunque estas guías de la tarea fueron creadas para el formato de factura *OIOUBL* específicamente danés, son aplicables en otros países o regiones compatibles con desviaciones de menor importancia.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

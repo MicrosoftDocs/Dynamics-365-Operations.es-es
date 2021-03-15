@@ -63,3 +63,6 @@ Siga estos pasos para volver a consultar una guía de tareas desde LCS.
 2. Seleccione **Abrir desde LCS**.
 3. Seleccione la biblioteca y el nodo de BPM que tienen la guía de tareas guardada.
 4. Abra la guía de tareas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

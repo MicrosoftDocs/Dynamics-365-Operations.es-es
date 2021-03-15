@@ -264,3 +264,6 @@ Los pedidos de ventas que tienen un motivo de retención forzada no se pueden li
 Actualmente, la administración de crédito solo se puede usar para pedidos de ventas. Las facturas de servicios, los pedidos de punto de venta y los pedidos de centro de llamadas utilizarán los límites de crédito temporales y los seguros/garantías que agregue para ajustar el límite de crédito. No utilizarán las reglas de bloqueo y no se incluirán en la lista de retención si hay un problema con el límite de crédito.
 
 En la administración de crédito no se admiten facturas de proyectos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

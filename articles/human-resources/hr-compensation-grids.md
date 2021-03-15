@@ -92,3 +92,6 @@ Las cuadrículas de compensación se usan para definir y mantener las estructura
 29. En la lista, active o desactive todas las filas.
 30. Haga clic en Aplicar a la cuadrícula.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

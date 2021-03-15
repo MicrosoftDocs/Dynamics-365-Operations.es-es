@@ -38,3 +38,6 @@ En ese tema se explica cómo crear un nuevo grupo de activos fijos. Usa el rol d
 8. En el campo **Convención de amortizaciones**, seleccione una opción.
 9. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

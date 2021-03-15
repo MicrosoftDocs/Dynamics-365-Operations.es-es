@@ -72,3 +72,6 @@ En este tema se explica cómo configurar políticas de facturas de proveedor. La
 16. Seleccione **Aceptar**.
 17. Cierre las páginas para regresar a la página principal.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

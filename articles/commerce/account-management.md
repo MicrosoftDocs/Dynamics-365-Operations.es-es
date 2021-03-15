@@ -88,3 +88,6 @@ Para unirse al programa de fidelización, se puede crear una página de marketin
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Los documentos financieros jurídicos, como declaraciones de impuestos o factura
     * Los identificadores de registro de impuestos se validan según el formato especificado por las autoridades fiscales de México.  
 15. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Al hacer registros de consumo, las dimensiones financieras relacionadas con los 
 >[!NOTE]
 >Para los tres tipos de registro, se valida la combinación de dimensiones financieras y se dejan en blanco las combinaciones no válidas. Esta es la configuración estándar con otras aplicaciones Finance and Operations.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

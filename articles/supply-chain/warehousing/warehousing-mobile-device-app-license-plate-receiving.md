@@ -104,3 +104,6 @@ Para obtener más información sobre los elementos del menú del dispositivo mó
 Para más información sobre el escenario de producción *Informar como terminado*, consulte el [Resumen de políticas de trabajo de almacén](warehouse-work-policies.md).
 
 Para más información sobre la gestión de cargas entrantes , consulte [Gestión de almacén de cargas entrantes para pedidos de compra](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

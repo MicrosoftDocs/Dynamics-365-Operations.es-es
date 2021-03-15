@@ -63,3 +63,6 @@ Puede crear sus propios tipos de atributos. Además, puede transferir dimensione
 9. Guarde el registro.
 
     El campo **Tipos de ubicación funcionales** muestra el número de ubicaciones técnicas que estén utilizando el tipo de atributo. El campo **Tipos del activo** muestra el número de tipos de activos que lo estén utilizando.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

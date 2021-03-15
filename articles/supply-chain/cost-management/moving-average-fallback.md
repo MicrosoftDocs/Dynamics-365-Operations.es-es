@@ -45,3 +45,6 @@ Para seleccionar la secuencia de costes de respaldo para los cálculos de promed
     - **Coste activo - Precio del artículo** - Las organizaciones pueden experimentar problemas de rendimiento si utilizan procesos comerciales en los que el inventario se vuelve negativo regularmente y, al mismo tiempo, el volumen de transacciones es alto. Esta configuración puede ayudar a mitigar esos problemas de rendimiento.
 
 ![Parámetros de contabilidad de inventario](media/inventory-accounting-parameters.png "Parámetros de contabilidad de inventario")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

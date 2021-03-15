@@ -40,3 +40,6 @@ Esta conversión dual hace que las fechas cambien entre aplicaciones. Por ejempl
 4. Cambie la **Zona horaria** a **Zona horaria universal coordinada**, y cambie **Idioma** a **En-US**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

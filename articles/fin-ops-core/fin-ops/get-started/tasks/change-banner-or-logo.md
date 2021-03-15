@@ -39,3 +39,6 @@ El procedimiento siguiente muestra los pasos que los administradores del sistema
 6. Vaya a **Panel de navegación > Módulos > Común > Común > Panel de información predeterminado**. Debe ver la nueva imagen de banner o logotipo en el panel de información.  
     
     Es posible que tenga que cambiar su empresa, con el selector de empresa, a aquella para la que cargó el banner.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

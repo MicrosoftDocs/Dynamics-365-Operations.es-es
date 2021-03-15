@@ -41,3 +41,6 @@ La empresa de datos de demostración utilizada para crear este procedimiento es 
     * Adjunte información adicional al diario.  
     * Por ejemplo, vincule una imagen escaneada del certificado de entrada de la UE al diario.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

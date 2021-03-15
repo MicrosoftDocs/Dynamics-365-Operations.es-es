@@ -70,3 +70,6 @@ La gestión de servicio puede estar integrada con los siguientes módulos:
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

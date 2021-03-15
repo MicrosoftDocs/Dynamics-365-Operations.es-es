@@ -621,3 +621,6 @@ Ha configurado los datos de trabajo y ubicación para el almacén 51 para garant
 
 > [!NOTE]
 > Considere agregar la entrada de calidad de salida a un elemento del menú del dispositivo móvil con código de actividad *Mostrar lista de trabajo abierta*. Por ejemplo, vea el elemento del menú del dispositivo móvil que se llama **Lista de trabajo** en los datos de demostración. Primero agregue la clase de trabajo *Orden de calidad* a un elemento de menú dirigido por el usuario, porque esta clase de trabajo es necesaria para que el trabajo se muestre en la lista de trabajo. Luego agregue la clase de trabajo *Orden de calidad* al elemento de menú **Lista de trabajo**. Los usuarios que tienen acceso a la lista de trabajo podrán seleccionar y procesar el trabajo que se genere automáticamente mediante la validación de pedidos de calidad.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -141,3 +141,6 @@ April registra el diario de pagos y revisa las transacciones de proveedor en la 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

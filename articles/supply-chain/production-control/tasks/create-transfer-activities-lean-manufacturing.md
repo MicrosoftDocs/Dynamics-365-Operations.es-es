@@ -89,3 +89,6 @@ Requisitos previos:
 12. Haga clic en Finalizar.
 13. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

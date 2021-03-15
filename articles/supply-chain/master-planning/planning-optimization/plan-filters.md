@@ -58,3 +58,6 @@ Se configura un filtro de planes que incluye los artículos A, B, y C. Después 
 [Ver el historial del plan y los registros de planificación](plan-history-logs.md)
 
 [Cancelar un trabajo de planificación](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Antes de poder enviar correos, debe configurar su servicio de correo saliente y 
 [Requisitos previos de configuración de canales](channels-prerequisites.md)
 
 [Visión general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

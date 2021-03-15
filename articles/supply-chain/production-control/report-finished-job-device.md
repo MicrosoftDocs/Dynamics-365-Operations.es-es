@@ -238,3 +238,6 @@ Para controlar si los trabajadores deben reutilizar una matrícula existente o g
 
 > [!NOTE]
 > Para configurar la etiqueta, vaya a **Gestión de almacenes \> Configurar \> Ruta de documentos \> Ruta de documentos**. Para más información, consulte [Habilitar la impresión de etiquetas de matrículas](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

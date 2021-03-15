@@ -208,3 +208,6 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 ## <a name="related-topics"></a>Temas relacionados
 
 [Prospect to cash](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

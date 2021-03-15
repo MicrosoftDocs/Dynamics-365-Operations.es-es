@@ -70,3 +70,6 @@ Una vez creado el sitio, solo los usuarios que se encuentren en los grupos de se
 [Consideraciones de optimización de motor de búsqueda (SEO) para su sitio](search-engine-optimization-considerations.md)
 
 [Gestionar la directiva de seguridad de contenido (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

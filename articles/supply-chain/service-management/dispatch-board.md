@@ -53,3 +53,6 @@ Para obtener información sobre cómo realizar tareas específicas en un panel d
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

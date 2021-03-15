@@ -54,3 +54,6 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 - [Visión general de los informes electrónicos](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Microsoft Dynamics Portal de localización: Informe de Australia (requiere cuenta CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/mexico.html)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

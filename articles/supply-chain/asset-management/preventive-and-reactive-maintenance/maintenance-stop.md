@@ -96,3 +96,6 @@ La ilustración siguiente muestra un ejemplo de vista detallada de las **Activid
 - Puede copiar activos desde una actividad del tiempo de inactividad por mantenimiento a otra. En **Todas las actividades del tiempo de inactividad por mantenimiento**, seleccione el botón **Copiar actividades del tiempo de inactividad por mantenimiento**, cree sus selecciones en los campos **Desde actividades del tiempo de inactividad por mantenimiento** y **A actividades del tiempo de inactividad por mantenimiento** y haga clic en **Aceptar**.
 - En **Todas las actividades del tiempo de inactividad por mantenimiento**, haga clic en el botón **Líneas del programa de mantenimiento** o en el botón **Órdenes de trabajo activas** para abrir las listas relacionadas y ver las líneas relacionadas con la actividad del tiempo de inactividad por mantenimiento seleccionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

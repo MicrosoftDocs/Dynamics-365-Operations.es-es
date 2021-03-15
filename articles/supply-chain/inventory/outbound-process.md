@@ -84,3 +84,6 @@ El inventario que no se haya reservado se reservará durante la creación de la 
 Tan pronto como todas las líneas de selección hayan sido utilizadas en la página **Registro de la lista de selección**, se completa el envío asociado. El proceso de los albaranes del pedido de ventas se podrá inicializar en función del inventario seleccionado.
 
 [![Actualizar envíos salientes](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

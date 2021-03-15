@@ -63,3 +63,6 @@ Este procedimiento le muestra el proceso de crear y registrar un diario de trans
 2. Haga clic en Transacciones.
     * Aquí puede ver las transacciones creadas al registrar el diario.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

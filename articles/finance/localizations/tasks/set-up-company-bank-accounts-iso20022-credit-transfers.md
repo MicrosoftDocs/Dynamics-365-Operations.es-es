@@ -51,3 +51,6 @@ Este es el segundo procedimiento, de cinco, que muestra el proceso de pago del p
 4. En el campo Cuenta bancaria, especifique o seleccione un valor.
 5. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

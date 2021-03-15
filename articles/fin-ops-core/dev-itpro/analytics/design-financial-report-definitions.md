@@ -84,3 +84,6 @@ La siguiente tabla describe las pestañas en una definición del informe y cómo
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

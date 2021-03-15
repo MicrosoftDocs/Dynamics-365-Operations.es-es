@@ -97,3 +97,6 @@ Al imprimir notas de abono de texto libre, clientes y proyectos, incluirán la r
 
 > [!NOTE]
 > Asegúrese de que los formatos imprimibles de los documentos estén configurados correctamente, asumiendo que se imprimirán referencias a facturas originales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

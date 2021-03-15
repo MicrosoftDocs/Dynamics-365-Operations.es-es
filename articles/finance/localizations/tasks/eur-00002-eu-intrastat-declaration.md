@@ -113,3 +113,6 @@ Este procedimiento se creó con los datos de demostración de la empresa DEMF.
     * Por ejemplo, seleccione "Distribuciones".  
 27. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -167,3 +167,6 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 Las [Charlas técnicas sobre FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) se centran en proporcionar procedimientos recomendados detallados para ofrecer a los clientes y partners conocimientos detallados específicos de las áreas de especialidad.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

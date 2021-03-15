@@ -39,3 +39,6 @@ No puede usar ningún rol excepto el de administrador para acceder al emulador d
 ### <a name="issue-resolution"></a>Solución del problema
 
 El emulador de aplicaciones para dispositivos móviles está configurado para funcionar solo con la cuenta de administrador. Para todos los propósitos de pruebas y procesos en vivo, le recomendamos que utilice la propia aplicación del almacén.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

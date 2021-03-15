@@ -51,3 +51,6 @@ Este es el cuarto procedimiento, de cinco, que muestra el proceso de pago del pr
 4. En la lista, haga clic en el vínculo de la fila SEPA CT.
 5. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

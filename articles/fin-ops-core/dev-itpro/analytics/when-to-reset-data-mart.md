@@ -54,3 +54,6 @@ Hay algunas circunstancias en las que no recomendamos restablecer un data mart. 
 > Los siguientes puntos especifican dos cosas que el restablecimiento de un data mart *no* hará. <br>
 > - Los restablecimientos no borran los diseños de informes. <br>
 > - Los restablecimientos no borran los datos de la empresa o los datos del usuario a menos que se seleccionen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

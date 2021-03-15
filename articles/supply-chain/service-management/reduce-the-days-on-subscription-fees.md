@@ -54,3 +54,6 @@ Asimismo, si el campo **Fecha inicial** del período de reducción es el 21 de e
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

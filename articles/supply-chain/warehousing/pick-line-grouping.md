@@ -170,3 +170,6 @@ Antes de poder configurar la agrupación de líneas de clúster debe crear un tr
 >   - Líneas de trabajo que tienen trabajo de reabastecimiento sin terminar
 >   - Selección en exceso
 >   - Selección corta con reasignación de artículos
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

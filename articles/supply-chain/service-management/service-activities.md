@@ -39,3 +39,6 @@ Puede ver el estado de las actividades de servicio en el formulario **Panel de d
 
 [Panel de distribución (formulario)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

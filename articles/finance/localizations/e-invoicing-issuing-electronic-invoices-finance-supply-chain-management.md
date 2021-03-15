@@ -93,3 +93,6 @@ Los registros de envío incluyen las siguientes características adicionales:
 - **Cancelar envíos**: esta característica habilita un proceso de envío especial en escenarios donde la factura electrónica debe aprobarla un servicio web externo. Instruye al complemento de facturación electrónica para enviar al servicio web un mensaje específico que tiene como objetivo cancelar el estado de una factura electrónica aprobada en la base de datos del servicio web.
 - **Volver a enviar el documento**: reenviar un documento electrónico que ya se envió al complemento de facturación electrónica. Se crea un registro completamente nuevo en la página **Detalles de envío**.
 - **Enviar envío relacionado**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

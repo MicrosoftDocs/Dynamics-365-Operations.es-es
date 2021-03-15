@@ -82,3 +82,6 @@ Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, 
 6.  En la página **Cambiar grupo de dimensiones de almacenamiento para artículos**, agregue los números de artículo, los grupos de dimensiones de almacenamiento y los grupos de secuencias de unidades. Puede completar este paso directamente en la página, mediante la integración de Microsoft Office, o mediante el proceso de entidades de datos en [Administración de datos](../../dev-itpro/data-entities/data-entities.md).
 7.  Valide los cambios. Como parte del proceso de validación se producen varias validaciones de la integridad de datos. Como parte de un proceso de actualización mayor, es posible que los problemas que aparezcan tengan que ajustarse en la implementación de origen. En este caso, será necesaria otra actualización de datos.
 8.  Procese los cambios. Una actualización de todas las dimensiones de inventario puede tardar. Puede controlar el progreso mediante las tareas de los trabajos por lotes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

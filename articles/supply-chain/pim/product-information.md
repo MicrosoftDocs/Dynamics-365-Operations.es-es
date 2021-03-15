@@ -95,3 +95,6 @@ El espacio de trabajo consiste en un resumen de mosaicos y dos listas. La lista 
 ### <a name="manually-creating-a-new-released-product"></a>Creación manual de un nuevo producto emitido
 
 Puede crear manualmente un producto emitido en una sola ejecución, en función de los procesos empresariales de la organización y de las reglas sobre si esta función se debe usar. Esta función crea un nuevo producto y lo emite automáticamente a la entidad jurídica actual. Para crear un nuevo producto, haga clic en **Productos emitidos** en el espacio de trabajo **Mantenimiento de producto emitido** o en la página de lista **Producto emitido**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

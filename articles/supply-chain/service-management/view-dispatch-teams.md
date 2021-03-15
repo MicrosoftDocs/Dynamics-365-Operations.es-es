@@ -52,3 +52,6 @@ Para obtener información sobre cómo asignar un trabajador a un equipo, vea [Co
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

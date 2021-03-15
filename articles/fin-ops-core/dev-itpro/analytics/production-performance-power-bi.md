@@ -128,3 +128,6 @@ Las tabla siguiente muestra las dimensiones clave que se utilizan como filtros p
 | Entidades                  | Identificador y nombre                                                   |
 | Recursos                 | Identificador de recurso, nombre de recurso, tipo de recurso y grupo de recursos |
 | Productos                  | Número de producto, nombre de producto, identificador de artículo y grupo de artículos         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

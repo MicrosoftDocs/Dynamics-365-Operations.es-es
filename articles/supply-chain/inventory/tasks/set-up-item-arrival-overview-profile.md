@@ -53,3 +53,6 @@ Este tema se centra en la configuración de un perfil general de llegadas. El pe
 17. Seleccione **Guardar**.
 18. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

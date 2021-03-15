@@ -51,3 +51,6 @@ Al pagar en efectivo mediante PDV, el usuario puede usar las denominaciones de l
 
 - **Mayor o igual al importe debido**: De forma predeterminada, el sistema PDV solo mostrará las denominaciones de la nota que sean mayores que el importe debido, lo que permite la venta a un toque. Por ejemplo, si el importe debido es 7,50$, el sistema PDV mostraría las siguientes denominaciones: 10$, 20$ y 100$. Al tocar en cualquiera de estos importes automáticamente ofrecerá la venta por dicho importe. Los billetes de 1$ y 5$ no se muestran ya que estos importes son inferiores al importe debido.
 - **Todas las denominaciones**: Seleccione esta opción para mostrar siempre todas las denominaciones de nota en el PDV, independientemente del importe debido. Esto significa que el usuario puede usar una combinación de notas para lograr el importe debido. Por ejemplo, si el importe debido es 25,00$, el usuario puede elegir 20$ y 5$ para completar la venta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

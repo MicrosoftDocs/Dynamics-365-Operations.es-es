@@ -383,3 +383,6 @@ Saldo previsto (30) = Importe acumulación (10 x 1) + Saldo actual (40) – ajus
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
 - [Configurar tipos de permisos y ausencias](hr-leave-and-absence-types.md)
 - [Acumular planes de permisos y ausencias](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

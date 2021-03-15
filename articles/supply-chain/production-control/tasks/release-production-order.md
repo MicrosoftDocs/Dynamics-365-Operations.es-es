@@ -40,3 +40,6 @@ Este procedimiento muestra cómo liberar un pedido de producción. La empresa de
 6. Haga clic en Aceptar
 7. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

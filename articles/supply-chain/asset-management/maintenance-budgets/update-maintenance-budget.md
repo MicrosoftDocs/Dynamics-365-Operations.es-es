@@ -74,3 +74,6 @@ En la página **Líneas de presupuesto de mantenimiento**, puede agregar manualm
 
 - Sabe que la restauración de algunos activos se encuentra actualmente en la fase de planificación, pero los trabajos relacionados aún no se han creado en Administración de activos. Sin embargo, desea que se incluyan los costes presupuestarios para esos trabajos en el presupuesto de mantenimiento.
 - Se han creado nuevos activos o tipos de activos desde que hizo el presupuesto de mantenimiento, pero los planes de mantenimiento aún no se han configurado en esos activos o tipos de activos. Sin embargo, desea que se incluyan los costes presupuestarios para esos tipos de activos en el presupuesto de mantenimiento.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

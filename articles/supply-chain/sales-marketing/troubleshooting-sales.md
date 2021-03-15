@@ -112,3 +112,6 @@ Actualmente Supply Chain Management no admite el cálculo de comisiones para fac
 El artículo de agrupación no está disponible para el pedido de compra porque, si examina las líneas del pedido de ventas del artículo de la agrupación, notará que la cantidad es *0* (cero) y el estado es *Cancelado*. Este comportamiento se debe al diseño. El pedido de cliente compra solo los componentes del artículo de agrupación. No compra el artículo de agrupación en sí.
 
 Si tiene que comprar una agrupación, considere si debe marcarlo como artículo de agrupación, ya que esta funcionalidad está diseñada para escenarios de reconocimiento de ingresos. Para obtener más información acerca de los artículos de agrupación, consulte [Agrupaciones](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

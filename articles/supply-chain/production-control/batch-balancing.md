@@ -186,3 +186,6 @@ Existen dos excepciones a la regla de que los pedidos de lote se pueden aplicar 
 1. Si la unidad de medida de la fórmula es diferente de la unidad de medida del inventario del ingrediente activo, el pedido de lote no es apto para el equilibrio por lotes.
 
 Un pedido de lote que no se aplica al equilibrio por lotes pasa por el ciclo de proceso habitual para los pedidos de lote.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

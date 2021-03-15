@@ -41,3 +41,6 @@ Este procedimiento se aplica a todos los países o regiones europeos. Este proce
 7. Haga clic en Buscar.
     * Todas partes con ese identificador del registro se mostrará.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

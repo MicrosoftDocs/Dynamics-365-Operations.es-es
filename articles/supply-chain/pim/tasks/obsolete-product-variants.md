@@ -72,3 +72,6 @@ Este procedimiento muestra cómo encontrar los productos liberados obsoletos o l
 
 8. En la lista, busque y seleccione el registro deseado.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

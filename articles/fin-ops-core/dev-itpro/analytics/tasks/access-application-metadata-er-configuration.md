@@ -125,3 +125,6 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 > [!NOTE]
 > Esta forma de obtener información sobre metadatos de la aplicación es la única disponible para aplicaciones implementadas localmente (cuando se utiliza un modelo de implementación de datos empresariales locales (LBD), o en las instalaciones).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

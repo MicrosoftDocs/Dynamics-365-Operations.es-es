@@ -82,3 +82,6 @@ Las máscaras de códigos de barras se deben asignar a los códigos de barras an
 5. Haga clic en **Guardar**.
 
 Ahora, la máscara de código de barras se podrá usar para crear códigos de barras para productos. Los pasos anteriores son ejemplos de cómo crear máscaras de código de barras para los productos, pero también muestra cómo crear máscaras de código de barras para cualquiera de los otros tipos de código de barras admitidos. Las máscaras de código de barras, los tipos, y las longitudes se deben ajustar para su uso en el entorno específico.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

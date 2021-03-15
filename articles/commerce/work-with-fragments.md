@@ -135,3 +135,6 @@ También puede editar un fragmento seleccionándolo en una página, en una plant
 [Trabajar con diseños predefinidos](work-with-layouts.md)
 
 [Trabajar con grupos de publicación](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

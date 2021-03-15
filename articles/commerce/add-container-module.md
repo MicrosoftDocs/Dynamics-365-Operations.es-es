@@ -141,3 +141,6 @@ Para agregar un módulo de reproductor de contenedor a una página nueva y estab
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

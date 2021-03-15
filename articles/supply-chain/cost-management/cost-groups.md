@@ -53,3 +53,6 @@ A un grupo de costes se le puede asignar un tipo de grupo de costes y un comport
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

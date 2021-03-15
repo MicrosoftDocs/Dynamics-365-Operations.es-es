@@ -90,3 +90,6 @@ Para completar los pasos de este procedimiento, primero complete el procedimient
  30. Seleccione Sí en el campo Permitir la creación de validaciones de cuenta en cuentas bancarias inactivas:.  
  31. Haga clic en Guardar.  
  32. Cierre la página.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

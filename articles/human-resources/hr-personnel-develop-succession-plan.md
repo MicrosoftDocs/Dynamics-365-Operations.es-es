@@ -56,3 +56,6 @@ A medida que la organización crece, debe comenzar a planificar la sucesión. Du
 27. Seleccione **Resultado**.
 28. Seleccione **Informe**. El informe muestra las mejores coincidencias en la parte superior del informe. Puede ver en la lista un elemento de laguna. Una laguna es la diferencia entre el nivel de asignación de aptitudes y el nivel de las aptitudes de la persona.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -676,3 +676,6 @@ Los empleados pueden declarar la información del pasaporte. Esta información e
 
 Los empleados pueden declarar números de identificación múltiples del tipo de identificación del **Pasaporte**. Sin embargo, solo la entrada de pasaporte activa actual se integra en Dayforce. Si todas las entradas de pasaporte han caducado, el pasaporte que se emitió más recientemente se integra en Dayforce.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Este procedimiento se centra en crear una nueva versión de flujo de producción
     * Escriba un número de días en el período para tiempo de ciclo real. El período para el tiempo de ciclo real es el número de días que los trabajos se agregan a partir del minuto real y hacia atrás, para calcular el tiempo de ciclo real. El valor se puede cambiar en cualquier momento y solo se usa para calcular los tiempos de ciclo reales.  
 13. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

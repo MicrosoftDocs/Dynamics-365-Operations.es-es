@@ -176,3 +176,6 @@ Los programas son un conjunto de planes de prestaciones que comparten un conjunt
    | **Reglas de idoneidad** | Seleccione las reglas de idoneidad para aplicar al programa de prestaciones. Usted define las reglas de idoneidad en la pestaña **Reglas de idoneidad** en esta página. |
    
 4. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

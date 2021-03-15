@@ -151,3 +151,6 @@ Puede controlar el número de transacciones contables que se crean al registrar 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -156,3 +156,6 @@ La siguiente ilustración muestra el efecto que se deriva de seleccionar el mode
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

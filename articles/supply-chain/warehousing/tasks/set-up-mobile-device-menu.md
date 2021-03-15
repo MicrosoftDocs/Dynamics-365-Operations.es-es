@@ -68,3 +68,6 @@ En este tema se muestra cómo configurar un elemento de menú Dispositivo móvil
 5. Seleccione la flecha que apunta a la derecha.
 6. Seleccione **Guardar**.
 7. Cierre la página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

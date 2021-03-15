@@ -59,3 +59,6 @@ Este procedimiento le muestra cómo comprobar el inventario disponible y el inve
 5. Haga clic en **Aceptar**.
 6. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

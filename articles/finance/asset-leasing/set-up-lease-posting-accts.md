@@ -83,3 +83,6 @@ Para asignar cuentas a los libros y grupos de arrendamientos que se han creado, 
     > [!NOTE]
     > La cuenta financiera u operativa seleccionada se adeudará cuando se registre la factura del gasto programado.
     > **Contrapartida de gastos de arrendamiento** se utilizará como tipo de registro para las transacciones de gastos a cargo del arrendatario en un arrendamiento de capital, pero se registrará en la **Cuenta de contrapartida** definida en las **Líneas de programación de pago de costos de ejecución**, en los detalles del arrendamiento o en el formulario de libro de arrendamiento.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

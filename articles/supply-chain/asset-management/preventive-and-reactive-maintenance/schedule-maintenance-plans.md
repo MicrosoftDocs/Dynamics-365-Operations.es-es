@@ -75,3 +75,6 @@ Los ejemplos que se describen aquí indican que todos los registros de contador 
 
 ![Figura 4](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Aunque la validación funcional de una aplicación de ERP no puede ser completam
     - Solo valide después de filtrar según una transacción en particular en lugar de una validación genérica. Por ejemplo, para el número de registros, filtre según el número de transacción o la fecha de transacción de modo que la validación excluya el resto de transacciones. 
     - Si está comprobando un saldo o una comprobación presupuestaria del cliente, guarde el valor primero y después agregue el valor de transacción para validar el resultado esperado en lugar de validar un valor esperado fijo. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Para agregar un módulo de navegación a un PDP y establecer las propiedades nec
 [Módulo de cuadro de compra](add-buy-box.md)
 
 [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

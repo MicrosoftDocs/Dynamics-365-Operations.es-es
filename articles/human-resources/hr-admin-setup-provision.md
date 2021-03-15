@@ -125,3 +125,6 @@ Use la orientación siguiente al determinar en qué entorno de Power Apps implem
 ## <a name="grant-access-to-the-environment"></a>Conceda acceso al entorno
 
 De forma predeterminada, solo tiene acceso el administrador global que creó el entorno. Debe conceder acceso de forma explícita a los usuarios de aplicaciones adicionales. Debe agregar usuarios y asignar los roles adecuados a ellos en el entorno de Human Resources. El administrador global que implementó Human Resources también debe poner en Attract y Onboard para completar la inicialización y para habilitar el acceso a otros usuarios inquilinos. Hasta que esto ocurra, otros usuarios no podrán tener acceso a Attract y Onboard y obtendrán errores de infracción de acceso. Para obtener más información, consulte [Crear nuevos usuarios](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) y [Asignar usuarios a roles de seguridad](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

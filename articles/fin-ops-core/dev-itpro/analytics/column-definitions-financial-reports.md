@@ -598,3 +598,6 @@ Puede dividir el importe en una columna por un número de períodos específico.
 [Definiciones de filas en el diseñador de informes financieros](row-definitions-financial-reporting.md)
 
 [Opciones de formato avanzadas en informes financieros](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

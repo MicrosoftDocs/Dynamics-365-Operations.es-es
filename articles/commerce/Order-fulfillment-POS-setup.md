@@ -130,3 +130,6 @@ El cumplimiento de pedido en el punto de venta incluye un filtrado para ayudar a
 - Fecha de creación
 - Fecha de entrega
 - Fecha de recepción
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

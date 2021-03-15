@@ -67,3 +67,6 @@ En la captura de pantalla se ha agregado información sobre ubicaciones técnica
 
 ![Ejemplo de la carga de trabajo mensual con ubicaciones funcionales](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

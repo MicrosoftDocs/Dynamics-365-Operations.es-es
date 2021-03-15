@@ -108,3 +108,6 @@ Como se describe en la sección anterior, puede agregar órdenes de trabajo a un
 
 Para eliminar una orden de trabajo de un grupo de órdenes de trabajo, repita estos pasos pero seleccione **Quitar** en el paso 3.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

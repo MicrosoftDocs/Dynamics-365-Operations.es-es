@@ -40,3 +40,6 @@ Las opciones siguientes, que se pueden encontrar en la pestaña **Commerce** de 
 > Estos ajustes no limitan la operación de la anulación de precio, ya que esto establece el precio base y no se trata como un descuento.
 
 [![Evite el campo de descuentos](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

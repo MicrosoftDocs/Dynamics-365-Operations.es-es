@@ -246,3 +246,6 @@ En el siguiente ejemplo puede ver el estado más alto y el estado más bajo en e
 | Acepte una de las ofertas. (o al menos una línea) |                          Recibida                           |                           Aceptada                           |                    Recibida                    |                    Aceptada                     |                   Recibida                   |                   Aceptada                    |
 |           Rechazar todas las otras propuestas.           |                          Rechazado                           |                           Aceptada                           |                    Rechazado                    |                    Aceptada                     |                   Rechazado                   |                   Aceptado                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

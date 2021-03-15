@@ -49,3 +49,6 @@ En casos en los que una versión nueva del mismo archivo o un archivo completame
 ## <a name="upload-a-file-using-run-project"></a>Cargar archivo mediante Ejecutar proyecto
 
 Puede cargar un archivo de Excel mediante la opción **Ejecutar proyecto** para ejecutar un proyecto de importación. Debe tener cuidado de cargar solo los archivos con las mismas hojas de cálculo que las asignaciones existentes en entidades de datos en los proyectos de datos. Si una hoja de cálculo no se encuentra en el archivo recién cargado, el sistema muestra un error y detendrá la importación. Si la asignación a la hoja de cálculo debe cambiarse para una entidad, las asignaciones del proyecto de datos se deben actualizar primero desde el proyecto de datos antes de utilizar el archivo en la experiencia **Ejecutar proyecto**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

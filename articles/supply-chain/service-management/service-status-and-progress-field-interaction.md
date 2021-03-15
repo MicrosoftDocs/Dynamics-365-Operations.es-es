@@ -94,3 +94,6 @@ Si todas las líneas de un pedido de servicio tienen el estado **Registrado**, e
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

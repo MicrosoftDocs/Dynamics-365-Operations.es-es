@@ -56,3 +56,6 @@ Puede incluir un código de razón y un comentario al ajustar el resultado de ba
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
 - [Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

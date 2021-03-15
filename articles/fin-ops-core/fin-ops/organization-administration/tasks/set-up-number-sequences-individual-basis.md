@@ -40,3 +40,6 @@ Este tema explica cómo configurar secuencias numéricas de manera individual. L
 8. Expanda la sección **General**. En la ficha desplegable General, especifique si la secuencia numérica es manual, y continua o no continua. Especifique además los números más altos y más bajos que se pueden usar en la secuencia numérica. No se recomienda cambiar una secuencia numérica no continua por una secuencia numérica continua. La secuencia numérica no será verdaderamente continua. Este cambio también puede provocar infracciones de clave duplicada en la base de datos. Además, las secuencias numéricas continuas tienen un efecto mayor sobre el rendimiento.   
 9. Haga clic en **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Puede realizar un pago parcial donde el importe por liquidar sea muy pequeño. P
 
 
 Para obtener más información, consulte [Resumen de pagos del proveedor](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

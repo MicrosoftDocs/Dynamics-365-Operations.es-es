@@ -255,3 +255,6 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 [Métodos abreviados de teclado para el análisis de cuentas que faltan](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

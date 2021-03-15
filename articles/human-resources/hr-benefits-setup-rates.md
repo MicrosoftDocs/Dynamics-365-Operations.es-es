@@ -93,3 +93,6 @@ También puede usar niveles dobles. Si selecciona **Nivel doble** para el valor 
    | **Tasa de fumador de crédito flexible** | El número de créditos flexibles de los costes de prestación, en función del cálculo definido para el nivel para fumadores. |
 
 5. Seleccione **Guardar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -290,3 +290,6 @@ Cuando una característica de facturación electrónica se deriva de otra, el co
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Emitir facturas electrónicas en Finance y Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

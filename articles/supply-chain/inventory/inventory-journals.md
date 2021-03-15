@@ -116,3 +116,6 @@ Estos dos diarios de inventario solo admiten el escenario *Inicializar existenci
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Entidades de datos](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

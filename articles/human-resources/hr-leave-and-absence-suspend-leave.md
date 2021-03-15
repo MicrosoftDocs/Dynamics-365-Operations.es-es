@@ -49,3 +49,6 @@ Si las acumulaciones se procesan mientras se suspende el permiso del empleado, n
 - [Configurar tipos de permisos y ausencias](hr-leave-and-absence-types.md)
 - [Acumular planes de permisos y ausencias](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

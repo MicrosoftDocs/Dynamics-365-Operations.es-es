@@ -72,3 +72,6 @@ En este artículo se explica cómo establecer preferencias de usuario para perso
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

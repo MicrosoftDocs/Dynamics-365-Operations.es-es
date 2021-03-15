@@ -52,3 +52,6 @@ Usar deducciones en Microsoft Dynamics 365 Human Resources para determinar cuán
 4. Para realizar un seguimiento y mantener los cambios en la configuración de la tasa de prestaciones, seleccione **Acciones** y luego seleccione **Mantener versiones**.
 
 5. Seleccione **Guardar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Cuando existen varios transportistas de envío y servicios de transportista para
 1. En el campo **Nombre**, especifique un nombre descriptivo para el grupo.
 1. En la ficha desplegable **Detalles**, agregue una fila y seleccione un transportista de envío y un servicio de transportista para ello. Repita este paso hasta que haya agregado tantos operadores como necesite para el grupo.
 1. Cierre la página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

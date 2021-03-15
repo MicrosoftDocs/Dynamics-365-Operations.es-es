@@ -204,3 +204,6 @@ La información adicional relacionada con la activación incluye el trabajador q
 ### <a name="client-data-synchronization"></a>Sincronización de datos del cliente
 
 Todos los cambios a un cliente de PDV, excepto los cambios en el estado de activación del dispositivo, se deben sincronizar para que la base de datos de canales tenga efecto. Para sincronizar los cambios con la base de datos de canales, navegue hasta **Retail y Commerce** &gt; **TI de Retail y Commerce** &gt; **Programación de distribución** y ejecute la programación de distribución requerida. Para los cambios de clientes, debe ejecutar las programaciones de distribución **Registros** y **Configuración del canal**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Este procedimiento muestra cómo crear un pedido de compra para un distribuidor 
 5. Haga clic en Aceptar
     * El pedido de compra se puede completar ahora y procesarse como cualquier otro pedido. No hay características especiales relacionadas con cómo se hace esto. La factura considerará una transacción vencida en la cuenta del proveedor que se creó con el pedido y el pago se procesará entonces.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

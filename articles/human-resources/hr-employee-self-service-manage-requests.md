@@ -39,3 +39,5 @@ Administre las solicitudes de permiso en el espacio de trabajo **Autoservicio pa
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
 - [Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

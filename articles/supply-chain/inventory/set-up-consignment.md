@@ -49,3 +49,6 @@ El diario de **Cambio de propiedad de inventario** se usa para registrar la tran
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboración de proveedor en procesos de envío
 Si los proveedores usan la interfaz de colaboración de proveedor, pueden usarla para controlar el consumo de inventario de su ubicación. Para obtener más información acerca de la configuración de los proveedores para utilizar la colaboración de proveedor, consulte [Seguridad para los usuarios del portal de proveedores](../procurement/configure-security-vendor-portal-users.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

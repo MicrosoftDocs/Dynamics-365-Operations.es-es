@@ -121,3 +121,6 @@ Una vez que se carga la herramienta de creación, puede seleccionar **Página pr
 [Consideraciones de optimización de motor de búsqueda (SEO) para su sitio](search-engine-optimization-considerations.md)
 
 [Gestionar la directiva de seguridad de contenido (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

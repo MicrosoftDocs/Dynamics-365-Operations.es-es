@@ -87,3 +87,6 @@ En este tema se explica cómo configurar y ejecutar las reglas de directivas de 
 57. Expanda la sección **Asociaciones**.
 58. En la lista, busque y seleccione el registro deseado.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

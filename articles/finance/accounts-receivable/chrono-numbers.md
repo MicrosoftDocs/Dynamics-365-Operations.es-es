@@ -105,3 +105,6 @@ Al registrar un documento, el grupo de secuencias numéricas apropiado se asigna
 
 > [!NOTE]
 > Para algunos países, ya existe una lógica específica implementada para la numeración de documentos. En este caso, la lógica específica del país anulará la característica **Numeración cronológica**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

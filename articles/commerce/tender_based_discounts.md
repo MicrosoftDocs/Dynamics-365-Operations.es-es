@@ -71,3 +71,6 @@ Los minoristas eligen a menudo excluir algunos productos, como artículos nuevos
 
 > [!NOTE]
 > Cuando la configuración **Evite todos los descuentos** está establecida en **Sí**, no se aplicará ningún descuento al producto. Ni siquiera se aplicarán descuentos basados en la forma de pago.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

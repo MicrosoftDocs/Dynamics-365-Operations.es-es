@@ -57,3 +57,6 @@ Este procedimiento muestra cómo registrar artículos mediante el diario de rece
 2. Haga clic en Recepción de producto.
 3. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

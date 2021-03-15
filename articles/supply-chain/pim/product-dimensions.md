@@ -145,3 +145,6 @@ La dimensión de versión funciona como las demás dimensiones del producto. Sin
 
 > [!IMPORTANT]
 > Si activa y utiliza la dimensión de versión, algunas soluciones que hagan referencia a las dimensiones de inventario pueden dejar de funcionar como se esperaba. Para confirmar y solucionar estos problemas, póngase en contacto con el proveedor de software independiente (ISV) de las soluciones afectadas. Para más información, consulte [Habilitar la dimensión de versión](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

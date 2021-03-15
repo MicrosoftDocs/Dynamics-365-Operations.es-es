@@ -98,3 +98,6 @@ Si un PO se encuentra bajo gestión de cambios, todo cambio, como la cancelació
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

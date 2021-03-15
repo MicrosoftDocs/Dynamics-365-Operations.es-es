@@ -42,3 +42,6 @@ Este procedimiento crea y valida diarios y líneas de diarios. Puede probar este
 12. Haga clic en **Registrar**.
 13. Haga clic en **Asiento**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

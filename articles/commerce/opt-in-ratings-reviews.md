@@ -63,3 +63,6 @@ Para optar por usar las clasificaciones y revisiones en su sitio, siga estos pas
 [Sincronizar clasificaciones de productos en Dynamics 365 Commerce](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -161,3 +161,6 @@ Dado que las configuraciones de ER se comparten entre las empresas, puede comple
 7. Haga clic en Aceptar.
     * La configuración de la asignación de modelo predeterminada se usa por esta configuración de formato para generar el documento electrónico (la salida creada contiene el código de empresa).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

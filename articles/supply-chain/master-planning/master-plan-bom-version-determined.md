@@ -43,3 +43,6 @@ Una versión de L. MAT válida, tanto si es específica del sitio como si es gen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

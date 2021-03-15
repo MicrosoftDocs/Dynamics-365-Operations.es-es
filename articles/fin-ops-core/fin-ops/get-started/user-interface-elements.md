@@ -86,3 +86,6 @@ Una *barra de herramientas* contiene herramientas, como la capacidad de agregar 
 Una *lista* es el nombre proporcionado a una recopilación de registros por los que puede desplazarse. Puede reunir estos registros en la página seleccionándolos. Con frecuencia, esto abrirá una cuadrícula.
 
 ![En la imagen siguiente se muestran ejemplos de barras de herramientas, cuadrículas y listas.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Tenga en cuenta que diversas SKU de Microsoft Office también proporcionan el de
 
 1. Ir a [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
 2. Siga las instrucciones en [Aprovisionar Recursos humanos](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) para crear los entornos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

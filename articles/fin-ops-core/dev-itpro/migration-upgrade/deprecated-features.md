@@ -1373,3 +1373,6 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 |     <strong>Áreas de producto afectadas</strong>     |                                              Contabilidad general                                              |
 |             <strong>Estado</strong>             |                                      Eliminado a partir de Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ El orden de visualización para la jerarquía de navegación de canales se refle
 
 > [!NOTE]
 > De forma predeterminada, la característica de orden de clasificación personalizado está desactivada. Para obtener información sobre cómo activar esta característica y otras, consulte [Administración de características](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

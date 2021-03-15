@@ -68,3 +68,6 @@ Para configurar un elemento de menú de dispositivo móvil a fin de proporcionar
     - Use los demás campos del **Campo de visualización** para agregar hasta siete campos de visualización adicionales, según sea necesario. En cada campo de **Campo de visualización**, seleccione el nombre de un campo de línea de trabajo. Cada línea mostrará un valor para ese campo. Los valores se mostrarán en el orden que seleccione aquí. Puede dejar en blanco algunos de los campos de **Campo de visualización** si no necesita los siete valores.
 
 1. En el la panel de acciones, seleccione **Guardar** y después cierre la página **Lista de campos**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

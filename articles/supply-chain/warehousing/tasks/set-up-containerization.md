@@ -80,3 +80,6 @@ Este tema describe cómo automatizar la creación de contenedores de cargas en A
 11. En el campo **Selección de campo**, especifique o seleccione un valor.
 12. Seleccione **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

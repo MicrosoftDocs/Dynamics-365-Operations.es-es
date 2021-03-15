@@ -51,3 +51,6 @@ Este procedimiento muestra cómo notificar un pedido de producción como termina
 4. En la lista, haga clic en el vínculo de la fila seleccionada.
     * Se registra Notificar como diario terminado. Si desea realizar ajustes en el diario, puede crear manualmente un nuevo diario en el que puede realizar cambios.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

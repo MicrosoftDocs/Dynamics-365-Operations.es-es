@@ -74,3 +74,6 @@ Para crear una lista de recomendaciones de productos mantenida, siga estos pasos
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

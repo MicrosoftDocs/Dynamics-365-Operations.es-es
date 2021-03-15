@@ -150,3 +150,6 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 
 3. En el campo **Entorno**, especifique el nombre del entorno del complemento de facturación electrónica.
 4. Haga clic en **Guardar** y, a continuación, cierre la página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

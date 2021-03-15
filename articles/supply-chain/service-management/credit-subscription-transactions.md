@@ -55,3 +55,6 @@ Si el campo **Provisiones inversas en asignación de crédito** del formulario *
 
 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

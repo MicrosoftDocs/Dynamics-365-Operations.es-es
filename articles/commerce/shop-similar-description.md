@@ -98,3 +98,6 @@ La siguiente ilustración muestra la casilla **Habilitar vínculo para comprar d
 [Crear manualmente recomendaciones curadas](create-editorial-recommendation-lists.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

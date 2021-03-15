@@ -62,3 +62,6 @@ El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

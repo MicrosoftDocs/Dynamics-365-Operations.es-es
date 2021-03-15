@@ -72,3 +72,6 @@ Para obtener detalles sobre cómo agregar un módulo de menú de navegación a u
 [Cumplimiento de cookies](cookie-compliance.md)
 
 [Módulo de encabezado](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ April puede revisar las transacciones del proveedor en la página **Transaccione
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

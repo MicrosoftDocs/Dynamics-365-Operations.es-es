@@ -150,3 +150,6 @@ Con tantas tecnologías de integración diferentes disponibles, decidir qué enf
 <sup>2</sup>Microsoft está realizando un gran esfuerzo por aumentar la cobertura de datos para tablas de Dataverse. Recomendamos usar Dataverse cuando hay cobertura disponible. Actualmente, la cobertura de datos de Dataverse es baja en comparación con las entidades habilitadas para DMF y OData.
 
 <sup>3</sup>Se puede acceder a la base de datos SQL mediante programación.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -579,3 +579,6 @@ La siguiente tabla muestra la lista de configuraciones de informes electrónicos
 |                             | Albarán del pedido de ventas (Excel) (LT)           |
 |                             | Albarán del pedido de ventas (Excel) (PL)           |
 |                             | Albarán del pedido de ventas (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

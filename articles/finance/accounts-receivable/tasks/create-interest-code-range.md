@@ -50,3 +50,6 @@ Los códigos de interés se pueden configurar para calcular diferentes importes 
 21. Especifique el porcentaje de interés al mes que se usará para calcular el interés que empieza el mes 7. Para este ejemplo, es 2.5.
 22. Haga clic en Cerrar para completar la configuración.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

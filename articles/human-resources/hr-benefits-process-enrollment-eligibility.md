@@ -72,3 +72,6 @@ Este artículo explica cómo ver los resultados del proceso de idoneidad.
    | **Estado de resultado** | Esto será elegible o no elegible. El estado del resultado será No elegible si el trabajador no cumplió con los criterios de la regla de elegibilidad, si el trabajador no tiene la información requerida, como una frecuencia de pago o una compensación fija, o si falta información en el plan de prestaciones que impide que los trabajadores se inscriban. |
    | **Mensaje de resultado** | Indica por qué un trabajador no es elegible para un plan de prestaciones o si se aprobó la regla de elegibilidad. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

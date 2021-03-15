@@ -60,3 +60,6 @@ Este tema describe cómo ver las actividades de un pedido de servicio que no tie
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

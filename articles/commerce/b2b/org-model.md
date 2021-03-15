@@ -62,3 +62,6 @@ Los usuarios de la sede central de Commerce pueden ver los valores de propiedade
 [Configurar el método de pago de la cuenta del cliente para sitios de comercio electrónico B2B](payment-method.md)
 
 [Establecer límites de cantidad de productos para sitios de comercio electrónico B2B](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

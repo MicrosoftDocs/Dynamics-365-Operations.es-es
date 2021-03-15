@@ -48,3 +48,6 @@ Además, dos informes únicos que se aprovechan de la estructuración de cuadrí
 - Espacio de trabajo **Gestión de producto y categoría** &gt; **Retail y Commerce** &gt; **Producto y categorías** &gt; **Administración de tiendas** &gt; **Informes**
 - Espacio de trabajo **Administración de precios y descuentos** &gt; **Retail y Commerce** &gt; **Precios y descuentos** &gt; **Administración de tiendas** &gt; **Informes**
 - Sección **Consultas e informes** &gt; **Retail y Commerce** &gt; **Consultas e informes** &gt; **Informes de ventas**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

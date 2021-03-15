@@ -59,3 +59,6 @@ El estado del trabajo será **Cancelando** hasta que el servicio de optimizació
 [Ver el historial del plan y los registros de planificación](plan-history-logs.md)
 
 [Aplicar filtros a un plan](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

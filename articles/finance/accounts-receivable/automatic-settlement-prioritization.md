@@ -82,3 +82,6 @@ Si no se ha especificado ninguna prioridad de liquidación definida por el usuar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

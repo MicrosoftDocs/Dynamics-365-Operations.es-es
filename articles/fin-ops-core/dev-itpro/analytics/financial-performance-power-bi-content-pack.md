@@ -88,3 +88,6 @@ Las siguientes entidades se usaban como la base de la solución PowerBI.com de *
 - Planes contables:
 
 Estas entidades se usaban para crear medidas calculadas en el modelo de datos. La medidas calculadas se utilizan para calcular los indicadores de rendimiento clave (KPI) y los informes que se utilizan en el contenido. De forma predeterminada, el contenido incluye datos de los tres últimos años y un año futuro. Para incluir cálculos adicionales sobre sus informes y panel de información, puede modificar el [libro de Microsoft Excel](https://docs.microsoft.com/dynamics/s-e/). Este libro es el modelo de datos predeterminado usado para crear el contenido.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

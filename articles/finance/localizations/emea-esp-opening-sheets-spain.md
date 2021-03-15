@@ -53,3 +53,6 @@ Tras especificar información general sobre la hoja de apertura, deberá especif
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

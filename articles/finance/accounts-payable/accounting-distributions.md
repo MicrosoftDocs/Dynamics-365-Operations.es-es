@@ -56,3 +56,6 @@ Las capacidades genéricas de distribución contable proporcionan las siguientes
 En la versión 10.0.13, se agregó una función que valida la tabla de distribución contable para garantizar que los nuevos campos estén configurados correctamente. Esta característica se llama **Habilitar la validación adicional de datos para documentos utilizando el marco de contabilidad de documentos de origen**. Para usar la función, debe habilitarla usando el espacio de trabajo **Gestión de funciones**. Para habilitar la función, busque el nombre de la función en el campo **Buscar** de la página **Gestión de funciones** y luego seleccione **Habilitar ahora**.
 
 Para obtener más información, consulte [Distribuciones contables y asientos del subdiario contable para las facturas de proveedores](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

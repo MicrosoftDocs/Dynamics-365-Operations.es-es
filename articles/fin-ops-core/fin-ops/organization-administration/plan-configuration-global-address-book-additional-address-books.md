@@ -57,3 +57,6 @@ Después de crear la libreta de direcciones global, puede crear libretas de dire
 **Decisión:**
 
 - ¿Cuántas libretas de direcciones adicionales creará?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

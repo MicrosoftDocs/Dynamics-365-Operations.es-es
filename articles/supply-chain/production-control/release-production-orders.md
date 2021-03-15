@@ -63,3 +63,6 @@ El trabajo para seleccionar de materia prima se genera durante el proceso de lib
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

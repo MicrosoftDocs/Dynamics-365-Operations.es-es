@@ -117,3 +117,6 @@ Para agregar un módulo de carro a una página nueva y establecer las propiedade
 [Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)
 
 [Crear un perfil de funcionalidad en línea](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

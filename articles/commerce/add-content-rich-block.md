@@ -88,3 +88,6 @@ Para agregar un módulo de bloque de texto a una nueva página y establecer las 
 
 [Módulo de reproductor de vídeo](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

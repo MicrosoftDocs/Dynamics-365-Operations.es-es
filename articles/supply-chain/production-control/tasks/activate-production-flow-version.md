@@ -40,3 +40,6 @@ Para que se puedan crear los trabajos kanban y se puedan procesar las actividade
 5. Haga clic en Activar.
 6. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

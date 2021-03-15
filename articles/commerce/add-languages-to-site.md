@@ -175,3 +175,6 @@ El idioma que ha agregado estará ahora disponible de modo que pueda configurar 
 [Agregar un aviso de derechos de autor](add-copyright-notice.md)
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

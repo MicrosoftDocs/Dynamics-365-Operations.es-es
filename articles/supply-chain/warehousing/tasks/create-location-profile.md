@@ -42,3 +42,6 @@ Este tema explica cómo crear un perfil de ubicación en Dynamics 365 Supply Cha
 10. Seleccione **Sí** en el campo **Permitir recuento cíclico**.
 11. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

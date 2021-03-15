@@ -81,3 +81,6 @@ Para cambiar un Id. de usuario, debe cambiar el nombre de la clave en la base de
 Para obtener más opciones para implementar usuarios B2B, consulte [Exportar usuarios B2B a Azure AD](../implement-b2b.md).
 
 Para obtener información sobre las cuentas del sistema preconfiguradas, consulte [Cuentas del sistema preconfiguradas](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

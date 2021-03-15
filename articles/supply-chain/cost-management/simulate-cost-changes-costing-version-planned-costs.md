@@ -58,3 +58,6 @@ Tras especificar los cambios de coste simulados, calcule los costes de los artí
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

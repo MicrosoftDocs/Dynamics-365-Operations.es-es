@@ -120,3 +120,6 @@ Siga estos pasos para agregar o eliminar manualmente los resultados para un prod
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

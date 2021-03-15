@@ -54,3 +54,6 @@ Este procedimiento demuestra cómo crear y publicar un nuevo surtido de producto
 1. Haga clic en Publicar.
 2. Haga clic en Sí.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

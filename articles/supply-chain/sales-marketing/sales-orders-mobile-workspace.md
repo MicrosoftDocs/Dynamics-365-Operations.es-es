@@ -141,3 +141,6 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 4.  Seleccione el cliente.
 5.  Seleccione **Información de contacto** o **Pedidos de ventas**. Si selecciona **Pedidos de ventas**, se mostrará la lista de pedidos de ventas del cliente.
 6.  Seleccione **Pedido de ventas**. Ahora puede ver información sobre las líneas del pedido de ventas, información sobre los envíos, información de contacto del cliente e información de contacto del creador del pedido.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

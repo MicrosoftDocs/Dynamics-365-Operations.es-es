@@ -48,3 +48,6 @@ Este tema describe formas de ver las transacciones de impuestos registradas. Pue
 2. En el panel de acciones, haga clic en **Código de impuestos**.
 3. Seleccione **Impuestos registrados**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

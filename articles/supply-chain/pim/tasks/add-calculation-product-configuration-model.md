@@ -38,3 +38,6 @@ Este procedimiento muestra cómo agregar un nuevo cálculo a un modelo de config
 4. Haga clic en Cerrar.
 5. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

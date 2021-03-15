@@ -41,3 +41,6 @@ En el campo **Grupo de contratos de servicio** en la página **Parámetros de la
 ## <a name="related-topics"></a>Temas relacionados
 
 [Crear grupos de acuerdos de servicio](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

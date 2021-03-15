@@ -127,3 +127,6 @@ Soga estos pasos para crear un trabajo de picking.
 
 > [!IMPORTANT]
 > Si cancela solo una parte de la cantidad de una línea de trabajo, también debe eliminar la cantidad obsoleta de la línea de carga. De lo contrario, a menos que la entrega incompleta esté configurada correctamente, la línea de carga no se puede confirmar en el envío.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

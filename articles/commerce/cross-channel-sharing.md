@@ -136,3 +136,6 @@ Ahora, si usa la URL base del canal y va a la URL de la página multicanal en es
 [Estados y ciclo de vida de documentos](document-states-overview.md)
 
 [Trabajar con grupos de publicación](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

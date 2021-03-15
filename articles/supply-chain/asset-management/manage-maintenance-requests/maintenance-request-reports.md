@@ -57,3 +57,6 @@ El informe **Lista de solicitudes de mantenimiento** muestra una lista de todas 
 La ilustración siguiente se muestra un ejemplo del informe **Lista de solicitudes de mantenimiento** para todas las solicitudes de mantenimiento activas.
 
 ![Informe de lista de solicitudes de mantenimiento](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

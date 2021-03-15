@@ -157,3 +157,6 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 71. Cierre la página.
 72. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

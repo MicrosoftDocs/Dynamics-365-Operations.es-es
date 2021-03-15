@@ -106,3 +106,6 @@ La imagen siguiente muestra un ejemplo de nodo con grupos de atributos de produc
 [Configurar selecciones](set-up-assortments.md)
 
 [Administrar atributos y grupos de atributos](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

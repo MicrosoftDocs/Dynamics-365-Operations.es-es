@@ -47,3 +47,6 @@ Este es el tercer procedimiento, de cinco, que muestra el proceso de pago del pr
 10. En el campo Cuenta de pago, especifique los valores "DEMF OPER".
 11. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

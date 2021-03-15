@@ -48,3 +48,6 @@ Este procedimiento muestra cómo liquidar transacciones entre cuentas contables 
 7. Haga clic en Liquidaciones contables.
 8. En la lista, marque la fila seleccionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

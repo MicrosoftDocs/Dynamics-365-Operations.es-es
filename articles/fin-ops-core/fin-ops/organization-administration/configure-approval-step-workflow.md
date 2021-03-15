@@ -276,3 +276,6 @@ Si un usuario no realiza ninguna acción en un documento en el tiempo asignado, 
 
 5. Repita los pasos 3 a 4 por cada usuario que se debe agregar a la ruta de remisión a una instancia superior. El orden de los usuarios se puede modificar.
 6. Si los usuarios de la ruta de remisión a una instancia superior no responden en el tiempo asignado, el sistema realiza una acción en el documento de manera automática. Para especificar la acción que el sistema realiza, seleccione la fila **Acción** y, a continuación, en la pestaña **Finalizar acción**, seleccione una acción.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

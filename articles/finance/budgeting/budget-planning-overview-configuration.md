@@ -204,3 +204,6 @@ También puede usar el menú **Acciones**, para crear un proceso nuevo copiando 
 Otro comando útil en el menú **Acciones** es **Ver estado del proceso presupuestario**. Este comando muestra gráficamente los planes presupuestarios en un proceso, junto con datos relevantes, como el estado del flujo de trabajo de los planes, resúmenes por importe y por unidad, y navegación de un solo clic a los propios planes presupuestarios.
 
 [![Estado del proceso de planificación presupuestaria](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

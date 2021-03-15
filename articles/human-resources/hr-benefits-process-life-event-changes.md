@@ -52,3 +52,6 @@ Procese cambios de eventos de vida en Microsoft Dynamics 365 Human Resources par
    4. Seleccione **Aceptar**. El proceso se ejecutará con los parámetros que establezca.
 
 4. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

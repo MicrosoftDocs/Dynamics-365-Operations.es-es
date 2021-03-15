@@ -47,3 +47,6 @@ Este procedimiento le muestra la creación de dimensiones financieras para regis
 17. En la lista, busque y seleccione el valor de dimensión para el registro que se está actualizando.
 18. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

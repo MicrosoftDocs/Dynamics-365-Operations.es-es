@@ -83,3 +83,6 @@ Esta guía de tarea le mostrará cómo configurar los parámetros para las cance
 5. Haga clic en **Aceptar**.
 6. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

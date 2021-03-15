@@ -80,3 +80,6 @@ Independientemente de si se han asignado cuentas, desactive la casilla **Usar cu
 
 > [!NOTE]
 > Este método se puede usar para crear un plan contable en la entidad jurídica consolidada a partir de planes contables de una de las filiales. (Para obtener más información, consulte [Grupos de cuentas de consolidación y cuentas de consolidación adicionales](../budgeting/consolidation-account-groups-consolidation-accounts.md)). A continuación, asigne un principio de conversión de consolidación adecuado a cada cuenta principal consolidada y ejecute la consolidación para todas las entidades jurídicas filiales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

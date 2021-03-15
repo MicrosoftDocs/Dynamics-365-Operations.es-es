@@ -49,3 +49,6 @@ La hoja de gestión de costes se muestra como parte de la página **Calcular cos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

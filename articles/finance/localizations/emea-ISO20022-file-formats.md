@@ -128,3 +128,6 @@ Para obtener más información acerca de las informes electrónicos, consulte [I
 - [Configuración forma de pago para transferencias de crédito ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Configuración de la forma de pago para domiciliaciones bancarias ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Configurar proveedores y cuentas bancarias de los proveedores para las transferencias de crédito ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

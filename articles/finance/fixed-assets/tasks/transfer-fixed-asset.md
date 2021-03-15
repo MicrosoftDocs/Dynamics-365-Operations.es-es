@@ -47,3 +47,6 @@ Esta guía de tareas transferirá la Información financiera de un libro de acti
     * Revise los resultados antes de transferir los libros de activo fijo.  
 10. Haga clic en **Transferir**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

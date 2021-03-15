@@ -99,3 +99,6 @@ Un trabajo por lotes limpia periódicamente las entradas en la tabla de referenc
 1. En el panel de acciones, seleccione **Limpiar configuraciones de cliente**.
 1. En el cuadro de diálogo **Limpiar configuraciones de cliente**, establecer como valor del campo **Número de días** el número de días de inactividad (antes de hoy) que hay que tener en cuenta. Eliminará todas las configuraciones y los registros de inicio de sesión de los dispositivos que no han estado activos durante ese tiempo.
 1. Seleccione **Aceptar** para limpiar las configuraciones relevantes, basándose en la configuración de **Número de días**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

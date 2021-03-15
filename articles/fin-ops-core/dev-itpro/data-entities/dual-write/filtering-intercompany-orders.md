@@ -66,3 +66,6 @@ Cada una de las tablas estándar de Dataverse se amplía mediante referencias a 
 8. Después de extender **Presupuestos**, aplique un filtro que tenga `CUSTGROUP != "<company>"` como cadena de consulta.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Cuadro de diálogo Editar consulta para encabezados de presupuestos de ventas de CDS":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

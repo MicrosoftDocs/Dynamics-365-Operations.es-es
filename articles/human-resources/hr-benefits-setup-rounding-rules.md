@@ -36,3 +36,6 @@ Puede configurar reglas de redondeo en Dynamics 365 Human Resources para satisfa
 3. Especifique valores para **Redondear al más próximo**, **Escenario** y **Forma de redondear**.
 
 4. Seleccione **Guardar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

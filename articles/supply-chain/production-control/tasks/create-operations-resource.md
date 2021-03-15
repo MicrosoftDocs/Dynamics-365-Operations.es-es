@@ -80,3 +80,6 @@ Un recurso de operaciones realiza las actividades de un proyecto o de un proceso
 4. En el campo Ubicación de entrada, especifique o seleccione un valor.
     * Especifique la ubicación de almacén cuyos materiales utiliza el recurso de operaciones.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

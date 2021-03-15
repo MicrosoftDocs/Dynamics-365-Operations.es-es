@@ -238,3 +238,6 @@ Puede configurar el sistema para restablecer automáticamente un contador cada v
 1. Vaya a **Administración de activos \> Configuración \> Pedidos de trabajo \> Estados de ciclo de vida**.
 1. En el panel de lista, seleccione el estado del ciclo de vida del pedido de trabajo en el que se debe restablecer el contador relevante.
 1. En la ficha desplegable **General**, establezca la opción **Restablecer contador** en *Sí*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

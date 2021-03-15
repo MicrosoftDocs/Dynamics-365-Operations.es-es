@@ -86,3 +86,6 @@ Para exportar un informe financiero, en el Panel de acciones, haga clic en **Exp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

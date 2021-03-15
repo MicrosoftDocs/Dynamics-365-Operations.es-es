@@ -46,3 +46,6 @@ Este procedimiento recorre la creación de registros de baja de empleados. Puede
     * Por ejemplo: Baja para adopción  
 12. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

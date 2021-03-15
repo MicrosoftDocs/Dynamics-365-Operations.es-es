@@ -75,3 +75,6 @@ Anote el número de pedido de compra que cree y también tenga en cuenta el cód
     * Una vez que haya hecho clic en Aceptar, compruebe la barra de mensajes. Debe haber un mensaje que indica que se ha completado la operación.  
 5. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

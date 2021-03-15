@@ -114,3 +114,6 @@ Si aún no se ha completado, siga los pasos para [habilitar las recomendaciones 
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

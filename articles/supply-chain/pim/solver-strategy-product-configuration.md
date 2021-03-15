@@ -72,3 +72,6 @@ La siguiente tabla proporciona recomendaciones acerca de la estrategia de soluci
 [Heurística](https://techterms.com/definition/heuristic)
 
 [Problema de satisfacción de restricción](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

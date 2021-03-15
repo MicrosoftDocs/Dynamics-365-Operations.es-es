@@ -280,3 +280,6 @@ Ahora que la función *Posicionamiento de ubicación de matrícula de entidad* s
     ![Ubicación de la posición 1](media/LocationLicensePlatePositioning.png "Ubicación de la posición 1")
 
 1. Introduzca la identificación de la matrícula de entidad que creó para la ubicación y luego siga las indicaciones para elegir el pedido de ventas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

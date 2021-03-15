@@ -158,3 +158,6 @@ Las siguientes tablas muestran los valores que se establecen en las pestañas **
 11. Para ver el efecto neto de la rescisión, donde el activo por derecho de uso y el pasivo por arrendamiento serán 0 (cero), abra las tablas de transacciones de pasivo y activo.
 
 Ahora el estado de arrendamiento debería ser **Rescindido**. No se registrarán movimientos adicionales en el diario para este contrato de arrendamiento, a menos que se revierta la rescisión.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

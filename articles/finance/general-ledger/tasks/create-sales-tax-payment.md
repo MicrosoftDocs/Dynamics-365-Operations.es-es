@@ -36,3 +36,6 @@ El procedimiento de la tarea de liquidar y registrar impuestos liquida los saldo
 5. En el campo **Fecha de transacción**, especifique una fecha.
 6. Haga clic en **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

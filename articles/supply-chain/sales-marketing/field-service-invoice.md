@@ -107,3 +107,6 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Facturas de acuerdo (Field service a Supply Chain Management): líneas de facturas
 
 [![Asignación de la plantilla en la integración de datos](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

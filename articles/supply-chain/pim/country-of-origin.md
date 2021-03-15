@@ -90,3 +90,6 @@ Cuando genera un informe de L. MAT, puede incluir el país de origen para cada u
 Se genera y muestra un informe con información sobre el país de origen de cada pieza. A continuación se muestra un ejemplo del informe.
 
 ![Informe del país de origen](media/country-of-origin-report.png "Informe del país de origen")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

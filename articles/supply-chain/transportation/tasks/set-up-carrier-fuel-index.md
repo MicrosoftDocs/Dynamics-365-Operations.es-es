@@ -66,3 +66,6 @@ Esta guía muestra cómo crear una región de índice de combustible, un índice
 12. En la lista, haga clic en el vínculo de la fila seleccionada.
 13. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

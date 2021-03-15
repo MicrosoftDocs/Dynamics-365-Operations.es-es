@@ -109,3 +109,6 @@ El siguiente procedimiento muestra una manera de reproducir el problema.
 ### <a name="issue-resolution"></a>Solución del problema
 
 Depende de la configuración de parámetros para facturas y grupos de facturas. Para obtener más información, vea la siguiente publicación de blog: [Contabilización del cargo de compra y variación de existencias](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

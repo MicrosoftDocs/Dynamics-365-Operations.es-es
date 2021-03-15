@@ -121,3 +121,6 @@ Para agregar un script externo directamente a una plantilla en el generador de s
 [Agregar un aviso de derechos de autor](add-copyright-notice.md)
 
 [Agregar idiomas al sitio](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

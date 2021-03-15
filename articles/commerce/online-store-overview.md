@@ -120,3 +120,6 @@ Para obtener información acerca de cómo administrar el contenido del sitio, ve
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
 
 [Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

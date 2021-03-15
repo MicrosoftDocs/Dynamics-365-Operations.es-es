@@ -54,3 +54,6 @@ Sus empleados pueden enviar solicitudes de tiempo libre y usted puede administra
 [Solicitar permiso](hr-employee-self-service-request-time-off.md)
 [Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

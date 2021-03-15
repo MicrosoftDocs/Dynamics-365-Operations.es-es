@@ -82,3 +82,6 @@ Con cualquiera de los enfoques, la secuencia de comandos de actualización de da
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

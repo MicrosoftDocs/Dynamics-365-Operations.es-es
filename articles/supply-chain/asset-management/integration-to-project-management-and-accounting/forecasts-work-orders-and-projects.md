@@ -100,3 +100,6 @@ La ilustración siguiente muestra una visión general gráfica de los distintos 
 
 ![Figura 6](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

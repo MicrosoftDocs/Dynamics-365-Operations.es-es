@@ -79,3 +79,6 @@ Esta funcionalidad está disponible para todos los roles que pueden mantener alb
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

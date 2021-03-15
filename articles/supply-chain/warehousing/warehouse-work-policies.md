@@ -300,3 +300,6 @@ Para obtener más información sobre los elementos del menú del dispositivo mó
 Para obtener más información sobre la recepción de matrículas de entidad de almacén y las directivas de trabajo, consulte [Recepción de matrículas de entidad de almacén a través de la aplicación de almacén](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Para más información sobre la gestión de cargas entrantes , consulte [Gestión de almacén de cargas entrantes para pedidos de compra](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

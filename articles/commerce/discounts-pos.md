@@ -68,3 +68,6 @@ La siguiente ilustración muestra la lógica que se utiliza cuando el control de
 La siguiente ilustración muestra la lógica que se utiliza cuando el control de simultaneidad de descuento se establece en **El mejor precio solo dentro de la prioridad, siempre compuesto a través de la prioridad**.
 
 ![Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad](./media/Model_2.png "Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

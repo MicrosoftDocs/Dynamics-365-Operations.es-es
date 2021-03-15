@@ -48,3 +48,6 @@ Este procedimiento muestra cómo crear un método de amortización por depreciac
     * El porcentaje o el importe predeterminado proviene de la configuración del método de amortización por depreciación especial.  
 8. En el campo Prioridad, especifique un número.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

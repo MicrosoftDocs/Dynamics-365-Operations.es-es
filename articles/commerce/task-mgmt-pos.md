@@ -63,3 +63,6 @@ La ilustración siguiente muestra la pestaña **Lista de tareas**.
 [Crear listas de tareas y agregar tareas](task-mgmt-create-lists.md)
 
 [Asignar listas de tareas a tiendas o empleados](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

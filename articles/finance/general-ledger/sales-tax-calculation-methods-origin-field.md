@@ -130,3 +130,6 @@ El documento o el diario se establecen en Importe impuestos incluidos = No Impor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Eliminaremos las configuraciones creadas del sistema y las descargaremos de nuev
 26. En el árbol, expanda "Modelo de datos de ejemplo".
     * Tenga en cuenta que la configuración de asignación "Asignación de ejemplo” se ha descargado junto con la configuración seleccionada del modelo de datos. Los dos archivos se descargan conjuntamente porque la asignación “Asignación de ejemplo” se ha definido como implementación del modelo de datos seleccionado, y es aplicable para la aplicación. La configuración de "Asignación de ejemplo (alternativa)” no se ha descargado porque la condición para la versión de la aplicación requerida no se cumplió.   
     * Si inicia sesión en Finance and Operations, registra el mismo proveedor, accede al mismo proyecto de LCS y descarga la misma configuración del modelo de datos, la configuración "Asignación de ejemplo (alternativa)” se descargará, mientras que la configuración "Asignación de ejemplo” se omitirá.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

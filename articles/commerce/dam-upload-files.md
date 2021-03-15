@@ -97,3 +97,6 @@ Para subir un archivo al generador de sitios en Commerce, siga estos pasos.
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

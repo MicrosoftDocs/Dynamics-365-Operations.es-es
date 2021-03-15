@@ -61,3 +61,6 @@ El campo **Asignación de costes de productos derivados** de la página **Coprod
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

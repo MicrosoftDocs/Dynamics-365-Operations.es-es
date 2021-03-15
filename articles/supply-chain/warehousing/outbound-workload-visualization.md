@@ -97,3 +97,6 @@ La ilustración siguiente muestra un ejemplo del gráfico resultante.
 ![Visualización de zona frente a estado de trabajo](media/work-viz-chart.png "Visualización de zona frente a estado de trabajo")
 
 Este gráfico muestra dos zonas que se nombran **FLOOR** y **BULK**, más una zona que se llama **En blanco**. La zona **En blanco** representa todas las líneas de trabajo que no son miembros de ninguna zona. El gráfico siempre muestra todos los datos filtrados no relacionados como **En blanco**, para proporcionar la mayor visibilidad posible. En la zona **FLOOR**, el gráfico muestra tres líneas cerradas y cuatro líneas abiertas. En la zona **BULK**, el gráfico muestra cuatro líneas cerradas, una línea abierta y 24 líneas canceladas. Finalmente, el gráfico muestra ocho líneas cerradas que no forman parte de ninguna zona y, por lo tanto, se enumeran como **En blanco**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

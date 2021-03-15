@@ -72,3 +72,6 @@ En la visualización **Líneas de pedido de almacén**, puede supervisar el prog
 
 - Vaya a **Gestión de almacenes \> Consultas e informes \> Líneas de pedido de almacén** y use el filtro para encontrar las líneas que está buscando.
 - Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra** y abra el pedido de compra relevante. En la sección **Líneas de pedido de compra**, seleccione una o más líneas y luego, en la barra de herramientas, seleccione **Almacén \> Entradas de recepción de almacén**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

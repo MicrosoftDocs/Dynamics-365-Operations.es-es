@@ -97,3 +97,6 @@ Vaya a **Proveedores > Configuración > Configuración de conciliación de factu
 
 1. Para especificar tolerancias para proveedores individuales que anulan la tolerancia predeterminada, seleccione una **Cuenta de proveedor**.
 2. Especifique el porcentaje de desviación que aceptará para este proveedor.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

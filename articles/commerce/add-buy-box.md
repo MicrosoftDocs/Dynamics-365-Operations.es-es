@@ -135,3 +135,6 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 [Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)
 
 [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

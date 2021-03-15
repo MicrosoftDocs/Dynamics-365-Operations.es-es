@@ -52,3 +52,6 @@ Para obtener más información, consulte los siguientes temas:
 [Crear un contrato de crédito bancario para un crédito documentario](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Esta guía de tareas muestra la adición de una dimensión financiera respaldada
 9. En el campo **Valor de dimensión**, escriba un nombre para describir el valor de la dimensión financiera.
 10. En el campo **Descripción**, escriba una descripción del valor de la dimensión financiera.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

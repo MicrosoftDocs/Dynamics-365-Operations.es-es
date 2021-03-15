@@ -95,3 +95,6 @@ Al usar orígenes externos como DMF para ver o crear datos, es importante tener 
 
 [Datos de fecha y hora](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Zonas horarias preferidas del usuario](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

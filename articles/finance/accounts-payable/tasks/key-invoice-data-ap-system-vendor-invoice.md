@@ -72,3 +72,6 @@ Esta guía de tareas le ayudará a crear una factura de proveedor de un pedido d
 19. Haga clic en **Registrar**.
 20. Cierre el formulario. Tenga en cuenta que el pedido de compra ya no aparece en la lista como recibido, sino como no facturado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -328,3 +328,6 @@ El valor de **Tiempo de espera de los intentos de optimización** controla cuán
 
 > [!NOTE]
 > Los valores establecidos para los tiempos de espera se aplicarán tanto para la programación de las órdenes de producción liberadas como para las órdenes planificadas como parte de MRP. Como resultado, establecer valores muy altos podría aumentar significativamente el tiempo de ejecución de MRP cuando se ejecuta para un plan con muchas órdenes de producción planificadas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

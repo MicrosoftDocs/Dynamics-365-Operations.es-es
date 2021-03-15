@@ -109,3 +109,6 @@ Habilitar y usar el complemento de facturación electrónica puede requerir el e
 - [Administración de servicios](e-invoicing-service-administration.md)
 - [Configurar facturas electrónicas en RCS](e-invoicing-configuration-rcs.md)
 - [Emitir facturas electrónicas en Finance y Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

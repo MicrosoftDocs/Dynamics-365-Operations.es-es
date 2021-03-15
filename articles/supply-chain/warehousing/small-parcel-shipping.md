@@ -279,3 +279,6 @@ Para embalar el envío, siga estos pasos:
     ![Ejemplo de etiqueta de envío](media/sps-label-example.png "Ejemplo de etiqueta de envío")
 
 1. Observe que los valores **Id. de manifiesto de contenedor** y **Flete total** se han agregado como se recibieron del transportista.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

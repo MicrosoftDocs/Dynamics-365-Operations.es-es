@@ -79,3 +79,6 @@ Puede asignar un paso de aprobación a los siguientes grupos de participantes.
 - [Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Flujo de trabajo de solicitudes de compra](purchase-requisitions-workflow.md)
 - [Incorporación de proveedores](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

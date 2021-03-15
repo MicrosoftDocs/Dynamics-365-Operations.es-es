@@ -107,3 +107,6 @@ Para obtener información sobre las diversas maneras de encontrar páginas, vea 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Personalizar descripciones de campos](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

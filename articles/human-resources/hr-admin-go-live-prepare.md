@@ -99,3 +99,6 @@ Después de enviar la lista de comprobación, su arquitecto de soluciones FastTr
 ## <a name="see-also"></a>Consulte también
 
 [Preguntas frecuentes sobre la publicación](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

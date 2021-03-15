@@ -147,3 +147,6 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 4. Haga clic en Completar.
 5. Haga clic en Aceptar.
 ![Página de diseñador de asignación de modelos de ER](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

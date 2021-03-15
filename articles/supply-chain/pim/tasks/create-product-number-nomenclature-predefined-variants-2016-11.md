@@ -57,3 +57,6 @@ Este tema explica cómo configurar una nomenclatura del número de producto para
 5. En el campo **Nomenclatura del número de variante del producto**, especifique o seleccione un valor.
 6. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

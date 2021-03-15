@@ -61,3 +61,6 @@ Este procedimiento se centra en programar trabajos kanban de proceso para una ce
     * Observe que los dos trabajos se han agregado al período deseado.  
     * En la sección de la Capacidad de período puede ver la carga para cada período. El campo Consumo muestra el consumo programado en este período. Si el consumo programado es superior a la capacidad disponible en este período, se seleccionará el consumo sobrecargado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

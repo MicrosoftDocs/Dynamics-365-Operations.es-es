@@ -105,3 +105,6 @@ Para agregar un módulo de reproductor de vídeo a una página nueva y establece
 [Módulo de bloque de texto](add-content-rich-block.md)
 
 [Módulo de bloque de contenido](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

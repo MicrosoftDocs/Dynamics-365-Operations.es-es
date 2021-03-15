@@ -165,3 +165,6 @@ Para configurar códigos de filtro de proveedor, siga estos pasos.
 ## <a name="see-also"></a>Consulte también
 
 [Para obtener más información, consulte la publicación de blog WMS-Warehouse Filter Codes](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

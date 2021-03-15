@@ -97,3 +97,6 @@ Debe procesar algunos de sus cambios para activarlos.
 - [Procesar idoneidad de eventos de vida](hr-benefits-process-life-event-eligibility.md)
 - [Procesar tasas de cambios](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Habilitar el seguimiento de cambios de proyectos de entidad de datos.
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Proyectos (Supply Chain Management a Field Service): Proyectos
 
 [![Asignación de la plantilla en la integración de datos](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

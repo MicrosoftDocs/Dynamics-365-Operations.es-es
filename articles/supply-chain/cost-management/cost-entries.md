@@ -71,3 +71,6 @@ La página **Entradas de costes** permite el filtrado por id. de documento y fec
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

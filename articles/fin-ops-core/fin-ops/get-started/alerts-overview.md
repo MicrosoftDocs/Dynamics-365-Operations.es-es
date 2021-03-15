@@ -88,3 +88,6 @@ El vídeo [Cómo utilizar Alertas para controlar datos filtrados](https://youtu.
 El vídeo [Opciones de reglas de alertas](https://youtu.be/cpzimwOjicM) (aparece más arriba) está incluido en la [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

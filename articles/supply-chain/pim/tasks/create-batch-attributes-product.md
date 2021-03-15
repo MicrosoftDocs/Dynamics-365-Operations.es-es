@@ -54,3 +54,6 @@ Este procedimiento muestra cómo crear un atributo de lote, asignar intervalos d
 22. Haga clic en Guardar.
 23. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

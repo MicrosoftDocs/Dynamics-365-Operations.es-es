@@ -295,3 +295,6 @@ Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se
 | Clientes (Fabrikam Oeste)    |              | 75,00         |
 | Importe debido de Fabrikam Este (Fabrikam Oeste) | 25,00        |               |
 | Clientes (Fabrikam Oeste)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

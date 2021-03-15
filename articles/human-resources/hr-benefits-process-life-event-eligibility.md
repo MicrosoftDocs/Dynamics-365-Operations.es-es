@@ -48,3 +48,6 @@ Este artículo le muestra cómo ejecutar el proceso para la idoneidad de eventos
    4. Seleccione **Aceptar**. El proceso se ejecutará con los parámetros que establezca.
 
 4. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

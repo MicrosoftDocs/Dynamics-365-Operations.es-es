@@ -50,3 +50,6 @@ Esta tarea usa la empresa de demostración USMF.
 16. Seleccione **Intervalo de período nuevo**. Una vez que se ha especificado el primer intervalo de períodos, los nuevos períodos se pueden crear automáticamente. Puede volverse y agregar nuevos intervalos de períodos en caso necesario.  
 17. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

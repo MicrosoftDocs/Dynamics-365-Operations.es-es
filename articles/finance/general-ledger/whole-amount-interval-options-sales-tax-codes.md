@@ -89,3 +89,6 @@ Para obtener más información, consulte [Impuestos basados en los métodos de B
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

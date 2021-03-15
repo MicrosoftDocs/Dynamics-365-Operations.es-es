@@ -53,3 +53,6 @@ Puede cancelar una factura electrónica CFDI validada y certificada anteriorment
 6. Haga clic en Aceptar para confirmar la cancelación de la factura electrónica.
     * El estado de la factura electrónica es Cancelación manual.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

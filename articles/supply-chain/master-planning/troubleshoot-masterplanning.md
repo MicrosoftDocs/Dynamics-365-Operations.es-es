@@ -88,3 +88,6 @@ Una forma de mejorar el rendimiento con el motor de planificación maestro integ
 
 > [!NOTE]
 > Esto limitará el período de explosiones realizadas para este plan maestro a un solo día.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

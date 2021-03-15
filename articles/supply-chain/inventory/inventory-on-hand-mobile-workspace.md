@@ -129,3 +129,6 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
     -   Por inventario físico (Esta vista representa la cantidad total).
     -   Por inventario reservado (Esta vista representa la cantidad reservada).
     -   Por inventario físico disponible (Esta vista representa la cantidad disponible que no tiene reservas.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

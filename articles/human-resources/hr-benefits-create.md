@@ -53,3 +53,6 @@ Esta tarea mostrará cómo crear elementos de la prestación que se usarán al c
 6. En el campo Vigencia, especifique una fecha y una hora.
 7. Haga clic en Crear prestación.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

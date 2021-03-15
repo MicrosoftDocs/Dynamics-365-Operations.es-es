@@ -107,3 +107,6 @@ Use la página **Certificados de doble uso** para configurar y administrar los c
     | Imprimir en factura | Seleccione esta casilla para imprimir el número de certificado en las facturas que se dirigen al país especificado durante el intervalo de fechas indicado. |
     | Imprimir en albarán | Seleccione esta casilla para imprimir el número de certificado en los albaranes que se dirigen al país especificado durante el intervalo de fechas indicado. |
     | Imprimir en pedido de ventas | Seleccione esta casilla para imprimir el número de certificado en los pedidos de ventas que se dirigen al país especificado durante el intervalo de fechas indicado. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 7. Haga clic en Aceptar.
     * Revise la salida generada. Tenga en cuenta que, además del mensaje de factura en formato XML, se ha creado un archivo único para cada adjunto. Los archivos adjuntos se rellenan con el formato de salida comprimido en formato binario.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

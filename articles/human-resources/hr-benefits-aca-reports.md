@@ -87,3 +87,6 @@ Si tiene que informar sobre las personas cubiertas porque proporciona cobertura 
 
 > [!NOTE]
 > En la ventana de consulta solo se muestran planes de prestaciones marcados como **Se informa para Ley de Cuidado de salud asequible**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

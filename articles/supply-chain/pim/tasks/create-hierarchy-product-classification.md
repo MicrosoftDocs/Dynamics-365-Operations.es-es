@@ -66,3 +66,6 @@ Este procedimiento muestra cómo crear una nueva jerarquía de categoría y asig
 8. En la lista, haga clic en el vínculo de la fila seleccionada.
 9. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

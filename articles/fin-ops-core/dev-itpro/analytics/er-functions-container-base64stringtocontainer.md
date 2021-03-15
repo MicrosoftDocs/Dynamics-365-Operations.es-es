@@ -80,3 +80,6 @@ En este ejemplo, el origen de datos **\#MediaAsBase64String** codifica el conten
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de contenedor](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

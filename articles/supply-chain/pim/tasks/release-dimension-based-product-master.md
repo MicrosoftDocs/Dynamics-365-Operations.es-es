@@ -40,3 +40,6 @@ Este procedimiento muestra cómo emitir un producto maestro que se usará para l
 7. Haga clic en Siguiente.
 8. Haga clic en Finalizar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

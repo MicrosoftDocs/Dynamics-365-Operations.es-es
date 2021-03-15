@@ -73,3 +73,6 @@ En la tabla siguiente se muestran las visualizaciones que se encuentran disponib
 | Mapas de valoraciones        | Detalles de activo fijo |
 
 Para ver la analítica con datos, primero debe actualizar la medición de agregado AssetTransactionMeasure en la página **Almacén de entidades** .
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Para obtener más información, consulte [Crear grupos de consolidación y cuent
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

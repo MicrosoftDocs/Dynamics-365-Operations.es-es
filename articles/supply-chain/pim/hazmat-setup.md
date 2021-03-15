@@ -283,3 +283,6 @@ Para configurar los valores de esta especificación, vaya a **Gestión de inform
 La especificación *Túnel de material peligroso* limita los tipos de túneles a través de los cuales se puede transportar un material peligroso, identificando los tipos de túneles que deben usarse. Las categorías de túneles están establecidas por las regulaciones aplicables para el transporte de materiales peligrosos. Esta especificación generalmente se aplica solo al transporte por carretera.
 
 Para configurar los valores de esta especificación, vaya a **Gestión de información de producto \> Configurar \> Documentación de envío de material peligroso \> Túnel de materiales peligrosos**. En la página **Túnel de material peligroso**, puede crear cualquier número de identificadores de túnel y configurar cada uno con un código identificador y una breve descripción.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

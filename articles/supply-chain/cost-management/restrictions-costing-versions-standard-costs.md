@@ -50,3 +50,6 @@ Los datos de costes estándar de un artículo pueden copiarse en otra versión d
 
 [Preparar el mantenimiento de los costes estándar de artículos fabricados](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

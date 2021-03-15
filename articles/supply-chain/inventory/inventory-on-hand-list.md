@@ -145,3 +145,6 @@ Este es el resultado.
 | IA0001 | 1 | 2 | 2 |
 
 Tenga en cuenta que la configuración en el panel **Filtros** se aplica a la tabla de inventario detallada (no agregada) que se muestra al comienzo de esta sección. Por lo tanto, el criterio **Físico disponible** \| **menor o igual** \| _1_ encuentra dos filas de esa tabla (la primera y la tercera fila, cada una de las cuales muestra un valor **Físico disponible** de _1_). Sin embargo, en este escenario, la página **Lista disponible** no está configurada para mostrar la dimensión **Almacén**. Por lo tanto, agrega las dos filas originales en una sola fila resultante, porque ambas filas tienen valores idénticos en todas las dimensiones que se muestran. Esta fila parece infringir el criterio de filtrado, porque el valor **Físico disponible** se muestra como _2_. Sin embargo, el resultado es correcto, porque la configuración en el panel **Filtros** se aplica a la tabla de origen, no a la tabla agregada que se muestra en la página **Lista disponible**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

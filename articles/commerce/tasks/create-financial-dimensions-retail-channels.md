@@ -54,3 +54,6 @@ Este procedimiento le muestra el proceso de creación de una dimensión financie
 24. En la lista, haga clic en el vínculo de la fila seleccionada.
 25. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

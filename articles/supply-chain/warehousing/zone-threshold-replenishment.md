@@ -343,3 +343,6 @@ Aquí se muestran algunas notas y consejos para trabajar con la característica:
 
 - Si está utilizando ubicaciones dinámicas, se creará un trabajo de reabastecimiento para la primera ubicación disponible o para una ubicación que ya contiene inventario, si la acción de directiva de ubicación está configurada para usar la estrategia **Consolidar**.
 - Si utiliza ubicaciones fijas en lugar de zonas, debe usar el [reabastecimiento mín./máx. estándar](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

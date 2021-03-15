@@ -87,3 +87,6 @@ PDV permite a los usuarios configurar cuadrículas de botones, que se incluyen e
 ## <a name="calculating-commissions"></a>Cálculos de comisiones
 
 La comisión se calcula para los trabajadores de grupos de ventas especificados en el momento del registro de la declaración o del registro de pedido de ventas. El importe de la comisión se determina en función de la parte de la comisión del trabajador, como se define en la configuración del cálculo de la comisión asociada y en el grupo de ventas para el cliente o los productos de la transacción.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

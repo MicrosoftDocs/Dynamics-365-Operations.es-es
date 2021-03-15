@@ -132,3 +132,6 @@ Después de ejecutar un evento de proceso, puede recomendar ajustes en la prima 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

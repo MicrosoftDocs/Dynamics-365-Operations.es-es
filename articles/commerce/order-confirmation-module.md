@@ -86,3 +86,6 @@ Para agregar un módulo de confirmación del pedido a una página nueva y establ
 [Módulo de información de recogida](pickup-info-module.md)
 
 [Módulo de tarjeta de regalo](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

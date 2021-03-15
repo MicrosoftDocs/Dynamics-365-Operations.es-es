@@ -52,3 +52,6 @@ Puede crear entradas de registro de presupuesto preliminar para un modelo presup
 19. Haga clic en Actualizar.
     * Para ver los resultados de la actualización, haga clic en Detalles de mensaje en la barra azul.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

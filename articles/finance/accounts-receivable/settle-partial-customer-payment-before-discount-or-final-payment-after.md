@@ -110,3 +110,6 @@ Arnie cambia de nuevo el valor del campo **Utilizar descuento por pronto pago** 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

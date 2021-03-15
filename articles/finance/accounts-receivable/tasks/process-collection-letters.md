@@ -87,3 +87,6 @@ Para omitir pagos y notas de crédito al calcular el código de carta de cobro, 
 
 1. Vaya a **Panel de navegación > Módulos > Crédito y cobros > Configuración > Parámetros de clientes** y haga clic en la pestaña **Cobros**. 
 2. Cambie el valor de **Omitir pagos y notas de crédito al calcular el código de carta de cobro** a **Sí**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

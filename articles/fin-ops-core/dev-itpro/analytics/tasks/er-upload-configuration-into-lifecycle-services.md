@@ -145,3 +145,6 @@ En este ejemplo, creará una configuración y la cargará a LCS para la empresa 
     La configuración de ER que cargó debe aparecer en la lista.
 
     Tenga en cuenta que la configuración de LCS cargada se puede importar a otra instancia si los proveedores tienen acceso a este proyecto de LCS.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

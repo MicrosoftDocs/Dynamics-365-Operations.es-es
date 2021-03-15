@@ -57,3 +57,6 @@ Si tiene que cambiar la cantidad de recogida después de haber seleccionado los 
 Si la característica **Experiencia de usuario mejorada para el procesamiento de pedidos de recogida en el punto de venta** está activada, las organizaciones pueden agregar al diseño de pantalla de la página de transacción un botón para la operación **Cambiar líneas de recogida**. Después de crear el carro de transacción de recogida en PDV y seleccionar artículos, puede seleccionar **Cambiar líneas de recogida** si desea cambiar los artículos de recogida pero no quiere anular toda la transacción. En el cuadro de diálogo **Cambiar líneas de recogida** que aparece, puede cambiar los artículos y las cantidades de recogida. El carro de transacción se actualiza para reflejar sus cambios.
 
 ![Cuadro de diálogo Cambiar elementos de recogida](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

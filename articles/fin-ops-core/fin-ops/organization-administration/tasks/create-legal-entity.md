@@ -45,3 +45,6 @@ Una entidad jurídica es una organización identificada mediante el registro en 
 15. Expanda la sección **Registro de impuestos**. En la sección **Registro de impuestos**, especifique los números de registro que se usan para hacer declaraciones a las autoridades fiscales.
 16. Expanda la sección **IRPF**. En la sección **IRPF**, especifique la información de IRPF de la entidad jurídica.  
 17. Haga clic en **Guardar**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

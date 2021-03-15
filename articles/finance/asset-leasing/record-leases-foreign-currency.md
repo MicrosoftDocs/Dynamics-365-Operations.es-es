@@ -52,3 +52,6 @@ Cuando crea los movimientos de diario de gastos de depreciación contra un arren
 El importe final del gasto de depreciación se puede calcular utilizando un tipo de cambio ligeramente diferente, de modo que el activo por derecho de uso se deprecie por completo tanto en la divisa de contabilidad como en la divisa de notificación.
 
 Si el arrendamiento se ha reclasificado como **Arrendamiento diferido**, el sistema borra automáticamente los tipos de cambio de las divisas de contabilidad y de notificación, si ya se han definido.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

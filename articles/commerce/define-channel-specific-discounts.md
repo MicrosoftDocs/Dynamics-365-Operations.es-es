@@ -61,3 +61,6 @@ En el ejemplo siguiente se muestran las tareas implicadas en la configuración d
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Ajustes de precios y descuentos](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

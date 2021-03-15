@@ -65,3 +65,6 @@ Una vez que se completa el recorte personalizado, las modificaciones de la image
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

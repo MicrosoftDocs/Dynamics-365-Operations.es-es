@@ -604,3 +604,6 @@ El [Portal de localización de Microsoft Dynamics](https://docs.microsoft.com/dy
 
 ## <a name="notes"></a>Notas
 **Régimen especial (régimen especial)** hace referencia a cualquier tratamiento diferenciado, excepto la liberación de los impuestos, que la autoridad fiscal autoriza con respecto a los requisitos generales de la regla de impuestos (federal, estatal o municipal) y las obligaciones suplementarias, para simplificar el cumplimiento de las obligaciones fiscales del contribuyente en casos peculiares.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

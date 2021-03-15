@@ -118,3 +118,6 @@ Los trabajadores con tareas de trabajo que no requieren retroalimentación inmed
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

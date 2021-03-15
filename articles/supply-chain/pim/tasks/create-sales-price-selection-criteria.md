@@ -53,3 +53,6 @@ Este procedimiento muestra cómo crear un criterio de selección del precio de v
 4. En el campo Criterios, seleccione Grupo de clientes 10. 
 5. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

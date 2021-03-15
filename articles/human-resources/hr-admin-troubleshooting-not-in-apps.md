@@ -55,3 +55,6 @@ Se debe agregar el usuario al rol del fabricante del entorno para el entorno de 
     ![Botón de sincronización](media/get-more.png)
 
     Después de terminar la sincronización, los Recursos humanos aparecerán en la página principal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

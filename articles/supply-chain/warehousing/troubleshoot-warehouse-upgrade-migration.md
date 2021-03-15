@@ -54,3 +54,6 @@ Para obtener más información sobre el proceso para pasar del almacenamiento b�
 - [Migración de Microsoft Dynamics AX WMS a la nueva funcionalidad de transporte y almacenamiento R3](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [Migración de elementos WMSI/WMS2](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
 - [Actualizar la gestión de almacenes de Microsoft Dynamics AX 2012 a Supply Chain Management](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

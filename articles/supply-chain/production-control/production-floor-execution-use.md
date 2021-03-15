@@ -169,3 +169,6 @@ Para abrir un documento adjunto a un trabajo, los trabajadores pueden selecciona
 1. El trabajador trabaja con la guía para aprender la tarea.
 
 Para obtener más información sobre cómo crear, asignar y usar guías para HoloLens, consulte [Proporcionar guías de realidad mixta para trabajadores en producción](instruction-guides-in-production-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

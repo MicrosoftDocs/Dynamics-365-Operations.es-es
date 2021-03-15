@@ -61,3 +61,6 @@ Si un activo tiene subactivos relacionados, puede eliminarlo solo si no hay soli
 
 > [!NOTE]
 > Si no puede eliminar un activo mediante este procedimiento, otro modo de gestionar la eliminación es configurar un estado de ciclo de vida del activo con este propósito. Por ejemplo, puede configurar un estado de ciclo de vida **Desechado** o **Eliminado** en la página **Estados del ciclo de vida de activo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

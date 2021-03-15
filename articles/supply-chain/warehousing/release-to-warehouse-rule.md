@@ -130,3 +130,6 @@ En este escenario se muestra cómo funciona la característica para los almacene
 
 > [!NOTE]
 > Se espera el mismo resultado cuando la segunda línea está parcialmente reservada. En este caso, se creará un trabajo para la cantidad de línea reservada pero no para la cantidad no reservada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

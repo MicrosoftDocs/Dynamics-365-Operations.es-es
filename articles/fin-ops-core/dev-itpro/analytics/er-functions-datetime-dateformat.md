@@ -80,3 +80,6 @@ Si la cultura no se define como un argumento de la función llamada, el valor de
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de fecha y de tiempo](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Esta tarea usa la empresa de demostración USMF.
 18. En el campo **Divisa de cuota**, seleccione la divisa de la cuota. Esta es la divisa en la que se creará la cuota.  
 19. Haga clic en **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

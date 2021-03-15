@@ -79,3 +79,5 @@ Verá un banner en la página **Vínculos** del espacio de trabajo **Administrac
 Una vez que se hayan migrado los códigos de motivo a Administración de personal, la opción de usarlos en Administración de prestaciones se establece automáticamente en **Sí**.
 
 [![Usar código de motivo en la Administración de prestaciones](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

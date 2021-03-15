@@ -51,3 +51,6 @@ Este procedimiento muestra cómo impedir que se reserve inventario disponible f�
 2. Haga clic en **Sí**.
 3. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

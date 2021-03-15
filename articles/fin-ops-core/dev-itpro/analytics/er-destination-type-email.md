@@ -139,3 +139,6 @@ La siguiente ilustración muestra el proceso, como se describe en este tema, de 
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 - [Diseñador de fórmulas en los informes electrónicos (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

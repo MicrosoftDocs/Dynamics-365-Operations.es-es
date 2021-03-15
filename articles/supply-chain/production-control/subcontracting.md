@@ -302,3 +302,6 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
     ![Gráficos de comparación del coste](./media/subcontract35_cost-comparison-charts.png)
 
 Configuración que falta en datos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

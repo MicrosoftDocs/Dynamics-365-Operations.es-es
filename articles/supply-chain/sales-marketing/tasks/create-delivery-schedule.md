@@ -64,3 +64,6 @@ En este procedimiento se demuestra cómo crear una programación de entrega para
 22. Haga clic en Aceptar
 23. Haga clic en Sí.
 24. Cierre la página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

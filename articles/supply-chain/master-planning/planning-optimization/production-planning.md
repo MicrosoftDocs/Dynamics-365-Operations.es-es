@@ -83,3 +83,6 @@ Para escenarios de planificación que incluyen producción, le recomendamos que 
 Aunque los elementos secundarios dependientes se detectan e incluyen automáticamente en las ejecuciones de planificación maestra cuando se utiliza el motor de planificación maestra incorporado, la optimización de planificación no realiza esta acción.
 
 Por ejemplo, si un solo perno de la estructura de la lista de materiales del producto A también se utiliza para producir el producto B, todos los productos de la estructura de la lista de materiales de los productos A y B deben incluirse en el filtro. Debido a que puede ser muy complejo garantizar que todos los productos formen parte del filtro, le recomendamos que evite las ejecuciones de planificación maestra filtradas cuando se trata de pedidos de producción.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

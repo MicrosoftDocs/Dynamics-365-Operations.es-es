@@ -82,3 +82,6 @@ Para configurar una redirección para la página de respuesta de error de códig
 [Agregar una página de sitio nueva](add-new-page.md)
 
 [Crear un URL de página](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

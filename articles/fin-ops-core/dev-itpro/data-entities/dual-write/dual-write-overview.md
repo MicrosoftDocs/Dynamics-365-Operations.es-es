@@ -109,3 +109,6 @@ Para crear paridad con las aplicaciones de Finance and Operations, la escritura 
 
 Para obtener más información sobre los próximos cambios, consulte [Novedades o cambios en escritura dual](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

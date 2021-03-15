@@ -236,3 +236,5 @@ Para usar las preguntas condicionales para crear una jerarquía de preguntas en 
 Una entidad jurídica ofrece tanto artículos como servicios a sus clientes. Como suele ocurrir en esos casos, algunos clientes solo compran artículos, otros compran solo servicios y otros compran tanto artículos como servicios. Por tanto, cuando la entidad jurídica distribuye una encuesta de satisfacción del cliente, aplica una estructura condicional al cuestionario, de manera que los clientes que solo compran servicios no tengan que responder a preguntas sobre artículos. 
 
 De forma alternativa, configure un cuestionario de manera que un encuestado seleccione la respuesta A para la pregunta 1; la pregunta 2 es la siguiente en la secuencia de preguntas. Sin embargo, si el encuestado selecciona la respuesta B para la pregunta 1, la pregunta 5 será la siguiente.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

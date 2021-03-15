@@ -54,3 +54,6 @@ El precio base o índice de la suscripción se actualiza con el valor especifica
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

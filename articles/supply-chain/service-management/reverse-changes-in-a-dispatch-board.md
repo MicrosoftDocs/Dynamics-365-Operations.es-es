@@ -50,3 +50,6 @@ Use los siguientes pasos para invertir cambios no guardados en un panel de distr
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

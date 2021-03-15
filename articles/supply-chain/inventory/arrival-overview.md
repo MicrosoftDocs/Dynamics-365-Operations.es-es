@@ -120,3 +120,6 @@ Una vez que se hayan registrado todas las mercancías, el responsable del almac�
 
 ## <a name="summary"></a>Resumen
 La página **Visión general de llegadas** puede ayudar al responsable del almacén y a los trabajadores de almacén a obtener una visión general del trabajo previsto que se debe hacer como parte de un proceso de entrada. La página se puede usar también para iniciar el proceso de recepción de artículos, para ayudar a garantizar que se realiza un seguimiento de los artículos en la primera entrada en el almacén.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

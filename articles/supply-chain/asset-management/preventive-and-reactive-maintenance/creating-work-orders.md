@@ -95,3 +95,6 @@ Para configurar la agrupación para órdenes de trabajo generadas automáticamen
 1. Si desea que las opciones se apliquen cuando ejecuta solo algunos de sus planes de mantenimiento, en la ficha desplegable **Registros que incluir**, agregue los filtros que necesite, tal como lo haría con otros trabajos por lotes en Microsoft Dynamics 365 Supply Chain Management.
 1. En la ficha desplegable **Ejecutar en segundo plano**, configure las opciones de programación y por lotes según lo requiera, tal como lo haría para otros trabajos por lotes en Supply Chain Management.
 1. Seleccione **Aceptar** para ejecutar o programar los planes de mantenimiento seleccionados.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ La siguiente tabla describe las funciones de conversión de tipos en la [categor
 [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
 
 [Idioma de fórmulas en los informes electrónicos](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

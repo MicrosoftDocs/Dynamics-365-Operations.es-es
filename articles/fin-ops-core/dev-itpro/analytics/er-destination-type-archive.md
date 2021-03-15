@@ -57,3 +57,6 @@ Cuando se establece la ubicación del tipo de documento en **Almacenamiento de A
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 - [Configurar la gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

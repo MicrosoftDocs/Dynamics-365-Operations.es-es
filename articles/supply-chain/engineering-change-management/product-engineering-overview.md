@@ -58,3 +58,6 @@ A continuación, active la clave de configuración de **Gestión de cambios de i
 1. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**.
 1. Expanda el nodo **Comercio** y seleccione la casilla **Gestión de cambios de ingeniería**.
 1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

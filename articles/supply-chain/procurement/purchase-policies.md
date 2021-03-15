@@ -150,3 +150,6 @@ La regla de la creación de pedido de compra y consolidación de demanda define 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

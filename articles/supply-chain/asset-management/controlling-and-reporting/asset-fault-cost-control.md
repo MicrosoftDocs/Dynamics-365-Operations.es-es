@@ -61,3 +61,6 @@ Este ejemplo muestra un cálculo de control de costes de los errores de activos.
     ![Figura 1](media/05-controlling-and-reporting.png)
 
 Para obtener más información sobre cómo configurar errores, consulte el tema [Administración de errores](../setup-for-work-orders/fault-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ En la tabla siguiente se describen los campos disponibles en el informe.
 |           Cancelaciones: valor residual            |                                                                                               El valor residual para el libro de activos fijos con una cancelación – transacción residual.                                                                                               |
 |           Cancelaciones: pérdidas/ganancias            |                                                                                 El valor de pérdidas o ganancias que se calcula como parte de la transacción de cancelación del libro de activos fijos.                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

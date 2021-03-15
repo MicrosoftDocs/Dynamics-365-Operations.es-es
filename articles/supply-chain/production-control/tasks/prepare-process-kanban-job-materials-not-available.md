@@ -51,3 +51,6 @@ Este procedimiento se centra en la preparación de un trabajo kanban de proceso 
 6. Haga clic en Preparar.
     * Observe que un icono en el estado del trabajo indica que el trabajo está ahora listo.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

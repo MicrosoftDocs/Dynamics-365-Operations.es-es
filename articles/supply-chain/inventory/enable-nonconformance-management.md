@@ -53,3 +53,6 @@ Para activar la gestión de disconformidades, siga estos pasos:
 [Procesos de administración de la calidad](quality-management-processes.md)
 
 [Configurar requisitos previos para la gestión de disconformidades](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

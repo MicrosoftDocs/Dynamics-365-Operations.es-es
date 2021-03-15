@@ -76,3 +76,6 @@ Puede generar un informe de ISR detallado o el informe puede resumir cada cuenta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

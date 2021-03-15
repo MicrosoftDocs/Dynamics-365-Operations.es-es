@@ -78,3 +78,6 @@ Para crear nuevos procesos de flujo de trabajo mediante las plantillas de proces
 4. Cree un proceso de flujo de trabajo para la tabla **Contacto** y seleccione la plantilla **Actualizar proveedores del tipo Persona en la tabla Proveedores**.
 5. Puede configurar los flujos de trabajo como flujos de trabajo en tiempo real o en segundo plano, dependiendo de sus requisitos. Para configurar un flujo de trabajo como flujo de trabajo en segundo plano, seleccione **Convertir a un flujo de trabajo en segundo plano**.
 6. Active los flujos de trabajo que ha creado en las tablas **Contacto** y **Proveedor** para comenzar a utilizar la tabla **Contacto** para almacenar información de proveedores del tipo **Persona**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

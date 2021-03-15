@@ -292,3 +292,6 @@ En la carga de trabajo, en unidades de escalado, puede gestionar los siguientes 
 - Procesar registros de tabla de oleada
 - Procesador de mensajes del centro de almacén a la unidad de escalado
 - Procesar solicitudes de actualización de cantidad para líneas de pedido de almacén
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

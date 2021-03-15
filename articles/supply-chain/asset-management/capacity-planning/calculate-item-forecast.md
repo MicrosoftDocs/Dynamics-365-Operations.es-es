@@ -59,3 +59,6 @@ Esto resulta útil si desea obtener una visión general del consumo de artículo
 8. Haga clic en el botón **Mostrar dimensiones** si desea ver el producto, el almacenamiento o las dimensiones de seguimiento relacionadas con los artículos. Seleccione las casillas de verificación relevantes y haga clic en **Aceptar**.
 
 ![Figura 1](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

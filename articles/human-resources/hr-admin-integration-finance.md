@@ -255,3 +255,5 @@ El id. de ubicación utilizado para la dirección del trabajador no forma parte 
 La siguiente ilustración muestra un ejemplo de una asignación de plantilla en el integrador de datos. 
 
 ![Asignación de plantillas](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

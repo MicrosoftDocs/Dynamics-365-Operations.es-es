@@ -68,3 +68,6 @@ Este artículo muestra cómo crear elementos de la prestación que se usarán al
 16. En el campo Base, seleccione una opción.
 17. En el campo Importe o índice, escriba un número.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

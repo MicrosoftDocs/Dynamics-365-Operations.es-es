@@ -63,3 +63,6 @@ Para completar este procedimiento, debe configurar identificadores de IVA. Este 
 25. En el campo NIF, especifique o seleccione un valor.
 26. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

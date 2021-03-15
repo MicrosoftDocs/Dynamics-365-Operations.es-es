@@ -103,3 +103,6 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

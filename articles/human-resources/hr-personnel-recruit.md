@@ -225,3 +225,6 @@ Si es necesario, puede despedir a un candidato después de contratarlo. Por ejem
 [Configurar tablas virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Organizar los recursos](hr-personnel-departments-jobs-positions.md)<br>
 [Configurar los componentes de un trabajo](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

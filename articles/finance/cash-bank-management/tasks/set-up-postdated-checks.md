@@ -56,3 +56,6 @@ El rol de este procedimiento es Tesorero. Este procedimiento usa la empresa de d
 18. Haga clic en Guardar.
 19. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

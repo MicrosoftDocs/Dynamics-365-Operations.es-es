@@ -95,3 +95,6 @@ Para obtener más información acerca de los módulos de gestión de cuentas y d
 
 [Visión general de las páginas del carro y de la finalización de la compra](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

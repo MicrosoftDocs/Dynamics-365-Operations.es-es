@@ -53,3 +53,6 @@ Siga estos pasos para agregar y configurar las ramas de la actividad paralela.
     > El orden de las ramas no es importante, pues todas las ramas de una actividad paralela se ejecutan al mismo tiempo.
 
 3. Para configurar cada sección, vea [Configurar ramas paralelas en un flujo de trabajo](configure-parallel-branch-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Este procedimiento muestra cómo crear un modelo de configuración de productos 
 17. En el campo Por serie, especifique un número.
 18. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

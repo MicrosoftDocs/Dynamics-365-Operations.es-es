@@ -42,3 +42,6 @@ Este procedimiento muestra cómo utilizar la colaboración del proveedor para ve
 1. Ir a Colaboración de proveedor > Inventario de envío > Inventario de envío disponible.
     * La página Inventario de entrega disponible muestra las existencias que posee en el almacén del cliente. Puede mostrar dimensiones adicionales, como el sitio y el almacén, haciendo clic en la ficha Mostrar dimensiones.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

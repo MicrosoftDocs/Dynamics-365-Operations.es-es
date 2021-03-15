@@ -154,3 +154,6 @@ Las dimensiones clave siguientes del contenido se utilizan como filtros para cor
 | Fechas                  | Fechas, contrapartida anual                                    |
 
 De forma predeterminada, el contenido muestra los datos del año natural actual. Sin embargo, puede cambiar el filtro de la fecha en la sección de filtros de informe. También puede cambiar el filtro de empresa.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

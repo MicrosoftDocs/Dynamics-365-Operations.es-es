@@ -114,3 +114,6 @@ La siguiente tabla ofrece más información acerca de las acciones adicionales d
 | Disponibilidad         | Muestre la información de NNC para la combinación de variantes seleccionada para la ubicación seleccionada. |
 | Muestre tzodas las ubicaciones   | Cambie a la vista de búsqueda de inventario estándar y resalte la información de disponibilidad del inventario para la variante de artículo en todas las tiendas del grupo de localizadores de tiendas, y también en centros de distribución de tipo **Estándar/Predeterminado**. |
 | Ver detalles del producto | Redirija al usuario a la página **Detalles de producto** del producto maestro asociado. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

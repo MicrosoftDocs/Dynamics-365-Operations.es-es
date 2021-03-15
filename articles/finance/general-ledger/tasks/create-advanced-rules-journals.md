@@ -57,3 +57,6 @@ Este procedimiento le guía por la creación de reglas avanzadas para los diario
 4. En el árbol, active "el grupo al que desea permitir el registro para este nombre de diario”.
 5. Haga clic en **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

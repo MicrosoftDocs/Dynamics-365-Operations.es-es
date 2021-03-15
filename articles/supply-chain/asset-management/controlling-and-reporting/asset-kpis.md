@@ -89,3 +89,6 @@ La ilustración siguiente muestra una captura de pantalla de un cálculo de KPI 
 - Puede seleccionar varios activos en **Todos los activos** y hacer clic en el botón **KPI de activo** en la pestaña **General**. A continuación, haga clic en **Aceptar** en el cuadro de diálogo **Calcular los KPI del activo** para calcular los KPI de los activos seleccionados.  
 - Los resultados de un cálculo de KPI pueden o no incluir los [registros de tiempo de inactividad por mantenimiento](../work-orders/maintenance-downtime.md), en función de la configuración y el uso de los códigos del motivo del tiempo de inactividad por mantenimiento. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

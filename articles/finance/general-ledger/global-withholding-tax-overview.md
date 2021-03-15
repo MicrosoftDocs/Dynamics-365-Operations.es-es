@@ -44,3 +44,6 @@ La funcionalidad de retención de impuestos global se ha mejorado para las trans
 
 > [!NOTE]
 > La funcionalidad de retención de impuestos global no se puede activar para países o regiones donde ya existen soluciones de retención de impuestos localizadas. Estas áreas incluyen, entre otras, India, Brasil, Tailandia, Arabia Saudí, Irlanda, Gran Bretaña y Estados Unidos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

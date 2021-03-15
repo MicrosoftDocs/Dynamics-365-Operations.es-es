@@ -40,3 +40,6 @@ Esta tarea le guía por la creación de la cuenta bancaria para México y la asi
     * El número de Registro Federal del Contribuyentes (RFC) es el número de identificación fiscal asignado por las autoridades fiscales a una persona o una corporación. Los identificadores de registro de impuestos se validan según el formato especificado por las autoridades fiscales de México.  
 9. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

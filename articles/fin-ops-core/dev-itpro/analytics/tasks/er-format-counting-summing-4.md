@@ -103,3 +103,6 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 21. Haga clic en Abrir.
     * Revise el archivo XML creado que contiene los detalles de recuento y suma obtenidos durante la ejecución de la configuración seleccionada.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

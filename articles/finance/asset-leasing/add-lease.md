@@ -88,3 +88,6 @@ Todos los movimientos de diario que se crean en Arrendamiento de activos se incl
 
 > [!NOTE]
 > El diario de arrendamiento de activos no se puede crear manualmente. Se crea automáticamente cuando se crean las programaciones de arrendamiento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

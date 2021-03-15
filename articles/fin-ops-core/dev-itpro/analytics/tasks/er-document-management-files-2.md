@@ -91,3 +91,6 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 26. Haga clic en Completar.
 27. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

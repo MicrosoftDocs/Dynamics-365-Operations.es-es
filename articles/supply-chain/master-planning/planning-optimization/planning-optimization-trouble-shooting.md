@@ -74,3 +74,6 @@ Esto está relacionado con una función pendiente que está planificada como par
 [Introducción a la optimización de la planificación](get-started.md)
 
 [Análisis de idoneidad de optimización de la planificación](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

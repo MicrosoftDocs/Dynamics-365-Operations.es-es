@@ -154,3 +154,6 @@ Si intenta utilizar la aplicación del almacén para ejecutar el trabajo de pick
 ## <a name="other-blocked-operations"></a>Otras operaciones bloqueadas
 
 Cualquier operación que modifique líneas de trabajo, transacciones de inventario de trabajo o enlaces de reabastecimiento que estén relacionados con el trabajo que se está dividiendo fallará y se mostrará el siguiente mensaje de error: "El trabajo con ID \#\#\#\# se está dividiendo actualmente".
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

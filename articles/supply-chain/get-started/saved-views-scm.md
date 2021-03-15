@@ -112,3 +112,6 @@ La siguiente tabla describe las vistas guardadas disponibles para el módulo de 
 | Todas las oleadas | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vista guardada para procesamiento de oleadas |
 | Área de trabajo de planificación de la carga | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vista guardada para el banco de trabajo de planificación del trabajo |
 | Detalles del trabajo | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vista guardada para la página de detalles del trabajo |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

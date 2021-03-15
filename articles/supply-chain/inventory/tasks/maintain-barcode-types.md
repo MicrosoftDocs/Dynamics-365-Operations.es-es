@@ -45,3 +45,6 @@ Este procedimiento le muestra cómo configurar una nueva definición de código 
 12. Haga clic en Guardar.
 13. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

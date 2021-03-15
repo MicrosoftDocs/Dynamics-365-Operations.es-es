@@ -129,3 +129,6 @@ La siguiente lista de documentos empresariales está controlada por la caracter�
 [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 
 [Cambios en la API del marco de informes electrónicos para Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Todo el procesamiento de datos se ejecuta por trabajos. Para cada trabajo y prov
     * Para este ejemplo, seleccione Período 9 de año fiscal 2017.  
 14. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

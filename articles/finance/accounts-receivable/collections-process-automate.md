@@ -117,3 +117,6 @@ Las siguientes tablas enumeran las páginas y los campos desde los que se puede 
 |     Parámetros de clientes > Automatización del proceso de cobros     |     Registrar cartas de cobro automáticamente           |     Los tipos de acciones de cartas de cobro publicarán la carta durante la automatización.                                      |
 |     Parámetros de clientes > Automatización del proceso de cobros     |     Crear actividades para la automatización                |     Cree y cierre actividades para tipos de acciones que no sean actividades para ver todos los pasos automatizados realizados en una cuenta.        |
 |     Parámetros de clientes > Automatización del proceso de cobros     |     Días para mantener la automatización del proceso de cobros     |     Define el número de días que se almacena el historial de colecciones.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Este tema muestra los pasos para configurar una retención de impuestos global p
 7. Configure los grupos de retención de impuestos en la página **Grupos de retención de impuestos** para un elemento o servicio.
 
 8. Configure **Importe mínimo de la factura** en la página **Parámetros de contabilidad general > Retención de impuestos**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

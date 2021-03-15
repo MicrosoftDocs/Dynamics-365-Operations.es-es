@@ -59,3 +59,6 @@ Puede usar esta guía en la empresa de datos de demostración USMF. Este procedi
 6. Seleccione **Guardar**.
 7. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Este procedimiento muestra cómo registrar la entrada y salida del conductor. Es
 1. Haga clic en Registro de salida del conductor.
 2. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

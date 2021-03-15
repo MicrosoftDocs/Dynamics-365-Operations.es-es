@@ -135,3 +135,6 @@ El nuevo precio de coste promedio móvil refleja la media de las transacciones a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

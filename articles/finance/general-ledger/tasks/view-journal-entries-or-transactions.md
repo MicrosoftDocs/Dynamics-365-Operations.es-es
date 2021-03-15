@@ -42,3 +42,6 @@ Este procedimiento muestra cómo usar la consulta de transacciones de asiento pa
 12. En el panel de acciones, haga clic en **Documento original**.
 13. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

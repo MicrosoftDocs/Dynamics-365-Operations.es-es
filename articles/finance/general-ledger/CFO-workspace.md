@@ -55,3 +55,6 @@ Este tema explica cómo agregar dimensiones financieras al área de trabajo de C
 16. Compile el proyecto, y después abra la aplicación para ver los resultados.
 
     [![Espacio de trabajo completado](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

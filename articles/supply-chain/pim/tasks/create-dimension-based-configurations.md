@@ -52,3 +52,6 @@ Este procedimiento muestra cómo definir una configuración para un producto bas
     * Escriba una descripción de la configuración para explicar lo que contiene.  
 11. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

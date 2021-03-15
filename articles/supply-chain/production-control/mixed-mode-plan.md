@@ -68,3 +68,6 @@ Para una flexibilidad completa en modo mezcla, se recomienda usar las L. MAT. de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Este procedimiento muestra cómo se debe aplicar una plantilla de configuración
 
 ## <a name="select-the-product-configuration"></a>Seleccione la configuración del producto
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

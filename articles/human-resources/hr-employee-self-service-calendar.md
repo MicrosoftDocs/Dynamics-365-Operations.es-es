@@ -72,3 +72,6 @@ También puede filtrar calendarios por gerente o departamento. La asignación de
 
 Para obtener información acerca de la configuración del calendario, consulte [Configurar parámetros de calendario](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ El siguiente ejemplo muestra cómo exportar un **Informe de valor de inventario*
 1. En la página **Resumen de ejecución** que aparece, puede ver el estado de su trabajo de exportación y una lista de las entidades que se exportaron. En la sección **Estado de procesamiento de la entidad**, seleccione la entidad **Valor de inventario** en la lista y luego seleccione **Descargar archivo** para descargar los datos que se exportaron desde esa entidad.
 
 Para obtener más información sobre cómo usar la administración de datos para exportar datos, vea [Resumen de trabajos de importación y exportación de datos](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

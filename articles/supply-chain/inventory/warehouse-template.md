@@ -97,3 +97,6 @@ Para obtener más información acerca de cómo usar la plantilla del almacén pa
 ## <a name="related-topic"></a>Tema relacionado
 
 [Plantillas de datos de configuración](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

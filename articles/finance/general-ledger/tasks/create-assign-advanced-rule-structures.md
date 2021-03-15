@@ -58,3 +58,6 @@ En este tema se explica cómo crear y asignar una estructura de reglas avanzada 
 17. Cierre la página.
 18. Seleccione **Activar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Si desea utilizar la información de enrutamiento para la gestión de costes nec
 
 [Configurar productos que pueden fabricarse o suministrarse](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

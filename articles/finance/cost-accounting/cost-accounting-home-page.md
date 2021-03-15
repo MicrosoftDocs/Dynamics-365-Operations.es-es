@@ -52,3 +52,6 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

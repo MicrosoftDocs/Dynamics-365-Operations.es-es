@@ -139,3 +139,6 @@ Ejecute los procedimientos "Configuración de instalaciones bancarias y perfiles
 3. En la lista, haga clic en el vínculo de la fila seleccionada.
     * Compruebe Estado de envío = Pago recibido e importe de saldo = 0,00.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

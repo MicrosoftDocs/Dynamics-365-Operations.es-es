@@ -68,3 +68,6 @@ Después de que la inicialización esté completada, debe configurar los datos a
 - Canales de Commerce
 - Cajas registradoras y dispositivos
 - Varios
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

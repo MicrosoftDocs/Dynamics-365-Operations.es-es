@@ -168,3 +168,6 @@ El escenario de ejemplo requiere que prepare dos perfiles de ubicación.
 
 > [!NOTE]
 > Los campos de ubicación se actualizan solo mediante transacciones de almacén. Si mueve el inventario utilizando un diario u otros procesos que no sean de WHS, los campos no se actualizarán.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ La ilustración siguiente muestra un ejemplo de un mosaico **Tareas** en una pá
 [Asignar listas de tareas a tiendas o empleados](task-mgmt-assign-lists.md)
 
 [Administración de tareas en PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

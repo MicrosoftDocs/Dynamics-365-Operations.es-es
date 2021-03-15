@@ -38,3 +38,6 @@ Esta grabación usa la empresa de demostración DEMF.
 6. En el campo **Descripción breve**, escriba una descripción para fines internos.
 7. Haga clic en **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

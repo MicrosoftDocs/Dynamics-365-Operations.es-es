@@ -36,3 +36,6 @@ Este tema explica cómo crear secuencias numéricas para los id. de arrendamient
 4. Seleccione la secuencia numérica para la referencia **Id. de arrendamiento**. Esta secuencia numérica se utilizará para generar el identificador único para cada arrendamiento.
 5. Seleccione la secuencia numérica para la referencia **Id. de proceso**. Esta secuencia numérica se utilizará para generar el identificador único para cada proceso de revalorización de índices.
 6. Seleccione la secuencia numérica para la referencia **Id. de propuesta de finalización**. Esta secuencia numérica se utilizará para generar el identificador único de cada propuesta de finalización.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

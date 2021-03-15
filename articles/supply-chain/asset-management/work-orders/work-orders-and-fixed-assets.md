@@ -64,3 +64,6 @@ El siguiente procedimiento describe la relación entre los activos, órdenes de 
 
 7. Para ver una visión general de los proyectos asociados a un activo fijo, seleccione **Activos fijos** > **Activos fijos** > **Activos fijos** y, a continuación, en el campo **Número de activo fijo** , seleccione el vínculo para que el activo fijo abra la vista de detalles. Expanda el panel **Información relacionada** que se encuentra a la derecha de la página y seleccione la ficha desplegable **Proyectos asociados**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

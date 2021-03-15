@@ -103,3 +103,6 @@ Si varios trabajadores deben revisar una solicitud, puede usar la página **Enru
 ## <a name="hiring-applicants"></a>Contratación de candidatos
 
 Use la página **Solicitudes** para contratar a un candidato. Si contrata a un candidato, el registro de solicitud tendrá un estado **Empleado**, y el registro en la libreta de direcciones global del candidato se asociará al registro de nuevo trabajador. Las modificaciones de la información en la libreta de direcciones global del registro del trabajador nuevo también se mostrarán en el registro del candidato. Esto puede ayudar a reducir la entrada de datos si el nuevo trabajador solicitase un trabajo diferente en su empresa. Para contratar a un trabajador existente en un nuevo puesto, haga clic en **Cambiar puesto** en la ficha desplegable **Estado de la solicitud** para iniciar el proceso de transferencia.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

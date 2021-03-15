@@ -189,3 +189,6 @@ Ahora puede usar entidades de datos **Entidad de identificador de common data se
 ## <a name="related-topic"></a>Tema relacionado
 
 [Buscar los productos y variantes de producto durante la entrada de pedidos](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Puede ejecutar este procedimiento con los datos de la empresa de demostración U
 1. En el panel de acciones, haga clic en Gestionar costes.
 2. Haga clic en Ver detalles de cálculo.
     * Esta página muestra el análisis de costes. Por ejemplo, puede ver el precio de coste total por unidad para el producto terminado en la primera fila. Las filas posteriores contienen costes según la lista de materiales, la ruta de producción y los costes indirectos.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

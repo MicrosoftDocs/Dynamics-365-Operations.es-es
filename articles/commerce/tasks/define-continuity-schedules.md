@@ -63,3 +63,6 @@ Este tema explica la configuración de un programa de continuidad (conocido tamb
     * Cuando este artículo se vende en un centro de llamadas, la lógica de negocios adicional se aplica desde el programa de continuidad seleccionado.  
 7. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

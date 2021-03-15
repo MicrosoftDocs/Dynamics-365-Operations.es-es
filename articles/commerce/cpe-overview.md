@@ -63,3 +63,6 @@ Para aprovisionar el entorno de evaluación de Commerce, consulte [Aprovisionar 
 [Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Preguntas más frecuentes sobre el entorno de evaluación de Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

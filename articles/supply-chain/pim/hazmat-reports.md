@@ -109,3 +109,6 @@ Cuando la función de materiales peligrosos está activada en su sistema, el inf
 ## <a name="packing-list-report"></a>Informe de lista de embalaje
 
 Cuando la función de materiales peligrosos está activada en su sistema, las listas de embalaje incluyen información adicional relacionada con el texto de impresión de envío de un artículo. Este informe está disponible en la página **Todas las cargas**, como de costumbre.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

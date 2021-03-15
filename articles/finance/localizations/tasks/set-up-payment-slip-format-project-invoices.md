@@ -65,3 +65,6 @@ Esta funcionalidad solo está disponible para entidades jurídicas cuya direcci�
 16. Haga clic en Guardar.
 17. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -161,3 +161,6 @@ Para guardar el secreto de la cadena de conexión de la caché Redis, siga estos
 > Siempre que actualice una de las cadenas de conexión, también debe actualizar los valores secretos.
 
 Ya ha terminado de aprovisionar los recursos de Azure necesarios. El siguiente paso es [instalar el complemento Inteligencia IoT en Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

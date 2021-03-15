@@ -69,3 +69,6 @@ En vez de copiar un pedido completo, es más habitual crear un nuevo pedido de c
 4. Seleccione la línea para la orden de pedido que desea. Observe que la línea de pedido única que se encuentra en este pedido de compra también está seleccionada.  
 5. Seleccione **Aceptar**. Se ha agregado la línea de pedido adicional a su pedido de compra.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

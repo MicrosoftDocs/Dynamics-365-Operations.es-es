@@ -52,3 +52,6 @@ Para decidir la rama que se usa, el sistema evalúa el documento enviado para de
     2. Seleccione un registro del área **Comprobar condición** del formulario.
     3. Haga clic en **Probar**. El sistema evalúa el registro seleccionado para determinar si reúne las condiciones definidas.
     4. Haga clic en **Aceptar** o en **Cancelar** para regresar al formulario **Propiedades**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

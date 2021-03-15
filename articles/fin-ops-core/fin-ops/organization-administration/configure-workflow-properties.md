@@ -182,3 +182,6 @@ Para escribir comentarios acerca de los cambios que realizó en el flujo de trab
 2. En el campo **Especificar comentarios sobre el flujo de trabajo**, escriba sus comentarios.
 3. Revise los comentarios: una vez agregados, no podrá modificarlos.
 4. Haga **Agregar** clic en para agregar sus comentarios al área **Historial de comentarios**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

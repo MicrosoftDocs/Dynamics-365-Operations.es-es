@@ -86,3 +86,6 @@ Cuando la función `DATETIMEFORMAT` convierte un valor de fecha / hora dado, con
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de fecha y de tiempo](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

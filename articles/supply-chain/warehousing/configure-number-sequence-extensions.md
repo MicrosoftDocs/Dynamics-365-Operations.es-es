@@ -91,3 +91,6 @@ Para crear y editar secuencias numéricas, siga estos pasos.
     | Dígito control | Este tipo de segmento agrega un dígito de control que es un cálculo de módulo 10. (Este comportamiento coincide con la lógica existente de los ID de matrículas). En este tipo de segmento, el campo **Valor** siempre se establece en un intercalado (*^*) y el campo **Longitud** siempre se establece en *1*. |
 
 1. Para ver un ejemplo de su formato de número final, inspeccione el campo **Formato** en la parte inferior de la ficha desplegable **Segmentos**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

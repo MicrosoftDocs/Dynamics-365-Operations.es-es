@@ -114,3 +114,6 @@ Para eliminar una asociación existente entre un activo de mantenimiento y un ac
 1. Busque y abra el activo fijo.
 1. En la ficha desplegable **Activo fijo**, borre el valor del campo **Ubicación funcional**.
 1. En el panel de acciones, seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Siga estos pasos para asignar usuarios a los roles que se utilizan en el arrenda
 1. Vaya a **Administración del sistema \> Seguridad \> Asignar usuarios a roles**.
 2. Seleccione el rol **Mantener arrendamiento**, **Empleado de sección de arrendamientos** o **Ver arrendamiento** y luego seleccione **Asignar/excluir usuarios manualmente**.
 3. Seleccione el usuario para asignar al rol y luego seleccione **Asignar a rol**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

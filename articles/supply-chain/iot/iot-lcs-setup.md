@@ -55,3 +55,6 @@ La configuración de LCS ya está completa. El siguiente paso es [configurar los
 2. En LCS, vaya a sus detalles de Supply Chain Management.
 3. Desplácese a la sección **Complementos del entorno**.
 4. Seleccione **Desinstalar** para el complemento Inteligencia IoT.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

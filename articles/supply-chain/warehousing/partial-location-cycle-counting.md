@@ -61,3 +61,6 @@ Para este ejemplo, solo se debe contar el número de artículo A0001 en el almac
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Recuento cíclico](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

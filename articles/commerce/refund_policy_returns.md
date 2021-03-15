@@ -103,3 +103,6 @@ Siga los pasos en cualquiera de los siguientes ejemplos para ver los tipos de fo
 
 
 ![Lista de métodos de pago](media/Return-policy-page5.PNG "Tipos de devolución permitidos")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

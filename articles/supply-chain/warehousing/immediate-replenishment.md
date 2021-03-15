@@ -56,3 +56,6 @@ Si el reabastecimiento inmediato está activado para una línea directiva de la 
 
 - Asegúrese de que la plantilla de reabastecimiento de la demanda que se aplica esté configurada para usar plantillas correctas de la ubicación y plantillas de trabajo del tipo **reabastecimiento**.
 - Asegúrese de que haya suficiente inventario disponible en las ubicaciones en las que la plantilla de reabastecimiento de la demanda busca inventario disponible para reabastecimiento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

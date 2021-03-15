@@ -66,3 +66,6 @@ Este procedimiento le guía por la creación de un nuevo canal en línea y su ad
 3. Ejecute la programación de distribución 1070 para sincronizar los cambios con la base de datos de canal. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

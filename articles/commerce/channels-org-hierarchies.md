@@ -87,3 +87,6 @@ En la siguiente imagen se muestra una entidad jurídica agregada en la raíz de 
 [Resumen de canales](channels-overview.md)
 
 [Requisitos previos de configuración de canales](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

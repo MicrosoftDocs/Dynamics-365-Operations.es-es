@@ -102,3 +102,6 @@ Si los usuarios desean liberar un bloqueo pero realizar cambios adicionales al p
 ## <a name="reporting-options"></a>Opciones del informe
 
 Vaya a **Retail y Commerce** \> **Consultas e informes** \> **Informes de centro de asistencia telefónica** \> **Informe de bloqueos del pedido** para ejecutar un informe acerca de los bloqueos del pedido por intervalo de fechas, código de espera, u otros criterios relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

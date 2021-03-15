@@ -52,3 +52,6 @@ Verifique que se hayan configurado las medidas de "Medida de flujo de efectivo V
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>¿Se han actualizado las entidades del almacén de entidades?
 
 Debe actualizar periódicamente sus entidades para asegurarse de que los datos estén actualizados y sean precisos. Para actualizar manualmente una entidad específica, vaya a **Administración del sistema \> Configurar \> Almacén de entidades**, seleccione la entidad y luego seleccione **Actualizar**. Los datos también se pueden actualizar automáticamente. En la página **Almacén de entidades**, configure la opción **Actualización automática habilitada** en **Sí**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

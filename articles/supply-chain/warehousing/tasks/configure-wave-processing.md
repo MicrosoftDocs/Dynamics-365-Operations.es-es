@@ -60,3 +60,6 @@ En esta guía se describe cómo configurar los criterios que determinan qué tra
 Para los pedidos de ventas y las órdenes de kanban, el inventario se debe reservar antes de que el pedido se libere al almacén. Si no, los artículos o las líneas de asignación no se pueden procesar en una oleada. Para los pedidos de producción, también tiene la opción de elegir Permitir la reserva parcial. Por ejemplo, esto resulta útil si tiene los materiales que necesita para iniciar una producción, y puede esperar hasta que los materiales adicionales estén disponibles para finalizar el proceso. Si selecciona esta opción, debe repetir manualmente el proceso de liberación al almacén cuando los materiales adicionales estén disponibles.  
 25. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ El pedido de producción se puede crear en las siguientes situaciones:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Los flujos de trabajo de **Ajustes de límite de crédito** se pueden usar para 
 
 > [!NOTE]
 > Al crear el flujo de trabajo **Ajustes de límite de crédito** puede configurarlo para que los ajustes se publiquen automáticamente después de que se hayan aprobado las líneas. Incluya únicamente la tarea **Registrar diario automáticamente** en el flujo de trabajo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

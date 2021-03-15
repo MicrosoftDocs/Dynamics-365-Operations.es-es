@@ -39,3 +39,6 @@ Este procedimiento muestra cómo ver los motivos de la alta desviación de produ
 6. Haga clic en Ver comparación del coste.
 7. Haga clic en Cerrar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

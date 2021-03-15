@@ -54,3 +54,6 @@ El diario de rendimiento contiene información relacionada con cómo alcanzó su
 20. En el campo Descripción, especifique "¡Gracias por toda la ayuda recibida en la conferencia!".
 21. Haga clic en Enviar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

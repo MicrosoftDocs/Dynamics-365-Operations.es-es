@@ -83,3 +83,6 @@ Puede crear manualmente líneas de artículos para los activos.
 5. Si el artículo va a expirar, en el campo **Caducidad**, especifique una fecha final.
 6. Seleccione el artículo en el campo **Número de artículo**. El nombre se inserta automáticamente en el campo **Nombre de producto**.
 7. En el campo **Cantidad**, escriba la cantidad utilziada. El campo **Unidad** se actualiza automáticamente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

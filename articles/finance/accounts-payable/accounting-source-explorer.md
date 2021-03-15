@@ -50,3 +50,6 @@ Para estos documentos, también puede navegar hasta el documento de origen real 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

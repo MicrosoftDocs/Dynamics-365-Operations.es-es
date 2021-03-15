@@ -39,3 +39,6 @@ Puede usar ventanas de plazo para optimizar la programación de líneas de pedid
 ## <a name="related-topics"></a>Temas relacionados
 
 [Ventanas de plazo](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -266,3 +266,6 @@ En Administración de activos, puede actualizar automáticamente los cambios en 
 2. En el cuadro de diálogo **Actualizar previsión de tipos de trabajo de mantenimiento**, en la ficha desplegable **Registros que incluir**, puede agregar las selecciones para los tipos de trabajo de mantenimiento específicos según sea necesario. Seleccione **Filtrar** y, después, seleccione **Seleccionar** para hacer selecciones.
 3. En la pestaña desplegable **Ejecutar en segundo plano**, puede configurar la actualización automática como un trabajo por lotes según sea necesario.
 4. Seleccione **Aceptar** para iniciar la actualización de la previsión.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

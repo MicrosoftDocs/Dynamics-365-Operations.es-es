@@ -70,3 +70,6 @@ Anote los códigos de artículo y de cliente que ha elegido para el proceso de l
 3. Cierre la página.
 4. Seleccione **Asiento**. Puede revisar las transacciones de asiento para los importes de comisión que se han registrado en el gasto de la comisión predefinido y las cuentas de proveedores de la comisión.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

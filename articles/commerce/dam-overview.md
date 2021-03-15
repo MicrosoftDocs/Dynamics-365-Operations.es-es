@@ -59,3 +59,6 @@ Los activos digitales y las características de administración se encuentran de
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

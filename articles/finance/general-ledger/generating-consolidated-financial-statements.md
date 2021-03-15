@@ -223,3 +223,6 @@ Para obtener los importes convertidos correctamente cuando se usan divisas, el i
 Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el tema principal de este tema [Visión general de consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
 
 Para obtener más información acerca de cómo especificar los detalles de consolidaciones en línea, consulte [Consolidaciones financieras en línea](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

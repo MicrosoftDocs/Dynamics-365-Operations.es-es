@@ -114,3 +114,6 @@ En la siguiente imagen se muestra un ejemplo de configuración para un producto 
 [Crear entidades jurídicas](channels-legal-entities.md)
 
 [Crear un grupo de variantes](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

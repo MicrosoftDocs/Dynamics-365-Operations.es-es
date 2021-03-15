@@ -94,3 +94,5 @@ No incluya los datos personales (información que podría identificarle) en los 
 
 - [Novedades de Human Resources](hr-admin-whats-new.md)
 - [Plan de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

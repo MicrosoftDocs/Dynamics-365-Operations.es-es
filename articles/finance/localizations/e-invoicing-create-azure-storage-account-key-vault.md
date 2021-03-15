@@ -80,3 +80,6 @@ En este tema, completará dos pasos principales:
 9. En el cuadro de diálogo **Principal**, seleccione el principal agregando **Complemento de facturación electrónica**.
 10. Seleccione **Agregar** y luego seleccione **Guardar cambios de Key Vault**.
 11. En la página **Visión de conjunto**, copie el valor **Nombre DNS** para el almacén de claves. Este valor se utilizará durante la configuración del servicio en RCS y se denominará *URI del almacén de claves*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

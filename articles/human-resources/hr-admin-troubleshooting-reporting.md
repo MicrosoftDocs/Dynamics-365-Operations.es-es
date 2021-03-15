@@ -49,3 +49,6 @@ El usuario no puede personalizar los informes incrustados de Microsoft Power BI.
 **Solución a largo plazo**
 
 Las opciones adicionales de Power BI estarán disponibles, y más entidades y datos formarán parte de Dataverse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

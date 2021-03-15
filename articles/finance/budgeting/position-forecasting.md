@@ -217,3 +217,6 @@ Para ver en qué planes de presupuesto se ha incluido un puesto de previsión, p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

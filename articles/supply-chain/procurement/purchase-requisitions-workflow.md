@@ -120,3 +120,6 @@ Para usar uno de los revisores de gastos que ha configurado en un flujo de traba
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

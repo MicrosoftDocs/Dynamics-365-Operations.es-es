@@ -150,3 +150,6 @@ Esta ficha desplegable destaca el impacto de la alternativa seleccionada de entr
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Compromisos de pedidos](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

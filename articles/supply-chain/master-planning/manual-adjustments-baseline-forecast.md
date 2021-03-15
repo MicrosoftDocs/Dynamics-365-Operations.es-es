@@ -84,3 +84,6 @@ También puede realizar ajustes manuales en la previsión en la página **Detall
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

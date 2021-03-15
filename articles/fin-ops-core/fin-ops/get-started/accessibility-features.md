@@ -97,3 +97,6 @@ En los teléfonos inteligentes y otras pantallas pequeñas, los controles y el d
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Orientación para ayudar a los desarrolladores y los clientes a incorporar un pensamiento accesible a sus personalizaciones
 
 Para obtener más información acerca de las prácticas recomendadas de Microsoft para habilitar la accesibilidad, consulte [Accesibilidad en formularios, productos y controles](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

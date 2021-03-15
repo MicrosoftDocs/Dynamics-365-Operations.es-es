@@ -52,3 +52,6 @@ Este artículo describe los pasos para configurar y crear un modelo de configura
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

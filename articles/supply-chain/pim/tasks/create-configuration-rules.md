@@ -54,3 +54,6 @@ Este procedimiento crea reglas de configuración que se pueden usar para que la 
     * Seleccione el número de elemento que se seleccionará o dejará de seleccionarse, según el método elegido.  
 18. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

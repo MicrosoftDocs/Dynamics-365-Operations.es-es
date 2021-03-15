@@ -239,3 +239,6 @@ Use la página **Parámetros de comercio exterior** para configurar los parámet
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

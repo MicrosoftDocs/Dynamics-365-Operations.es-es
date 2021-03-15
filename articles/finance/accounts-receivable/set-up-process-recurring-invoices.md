@@ -66,3 +66,6 @@ Después de registrar las facturas periódicas, puede imprimir las facturas desd
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

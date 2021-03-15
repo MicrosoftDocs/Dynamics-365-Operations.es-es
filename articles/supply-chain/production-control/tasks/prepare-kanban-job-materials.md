@@ -41,3 +41,6 @@ Esta tarea se centra en la preparación de un trabajo kanban de proceso cuando t
 6. Haga clic en Preparar.
     * El proceso de preparación está ahora terminado. La casilla de verificación seleccionada para todas las filas de la lista de selección indica que el estado de suministro es el de seleccionado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Las plantillas de horarios de trabajo definen las horas laborables en toda la se
 3. Expanda la sección Domingo.
 4. Seleccione Sí en el campo Cerrado para recogida.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Este procedimiento muestra las configuraciones para la tienda que afectan a la m
 17. Seleccione "Sí" en **Dividir por método de extracto** para que se creen extractos para cada método de extracto definido. Esta acción puede resultar útil si el rendimiento del registro se debe mejorar para almacenes con volúmenes altos de transacción puesto que creará muchos extractos más pequeños que se pueden procesar en paralelo.  
 18. En la ficha desplegable **General**, en el campo **Cliente predeterminado**, puede seleccionar la cuenta de cliente que se usará para ventas a los clientes que entran.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

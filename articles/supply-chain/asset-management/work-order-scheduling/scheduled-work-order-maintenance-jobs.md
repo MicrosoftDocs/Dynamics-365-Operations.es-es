@@ -51,3 +51,6 @@ La captura de pantalla siguiente muestra un ejemplo de la página **Trabajos de 
 
 ![Figura 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

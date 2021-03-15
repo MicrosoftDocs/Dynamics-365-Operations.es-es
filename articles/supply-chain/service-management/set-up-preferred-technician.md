@@ -67,3 +67,6 @@ Puede seleccionar cualquier trabajador como técnico preferido para un acuerdo d
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

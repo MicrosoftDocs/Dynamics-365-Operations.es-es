@@ -137,3 +137,6 @@ Para generar un informe de **Ventas de la organización**, siga estos pasos.
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Página principal de Commerce](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,5 @@ Puede usar las estadísticas del cuestionario para analizar los resultados de un
 -   Seleccionar o comprobar los criterios para analizar los resultados según encuestado o según las características del cuestionario. Por ejemplo, al seleccionar un **código postal**, se puede analizar la correlación entre la ubicación del encuestado y las respuestas correctas.
 
 Los parámetros que defina se guardarán y se podrán usar para volver a calcular los resultados de forma periódica.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

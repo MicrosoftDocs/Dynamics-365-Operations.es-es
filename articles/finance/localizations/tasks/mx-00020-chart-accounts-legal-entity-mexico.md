@@ -67,3 +67,6 @@ Configure parámetros específicos en el plan contable para habilitar la generac
     * Necesita repetir esta acción para cada cuenta principal creada en su empresa. Si tiene muchas cuentas principales que crear, puede usar la herramienta de gestión de datos para importar las cuentas principales desde un archivo de Microsoft Excel.  
 19. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

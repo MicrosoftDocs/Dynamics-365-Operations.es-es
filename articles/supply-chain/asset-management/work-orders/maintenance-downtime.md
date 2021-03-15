@@ -88,3 +88,6 @@ Haga clic en **Administración de activos de la empresa** > **Consultas** > **Ti
 >[!NOTE]
 >Todos los calendarios utilizados en el módulo **Administración de activos** se configuran en **Administración de la organización** > **Configuración** > **Calendarios** > **Calendarios**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

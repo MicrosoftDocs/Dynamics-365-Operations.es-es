@@ -64,3 +64,6 @@ Este procedimiento usa la empresa de demostración USMF. El rol de administrador
 10. En el panel de acciones, haga clic en Revisar.
 11. Haga clic en Detalles coincidentes.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Puede diseñar y administrar cuestionarios para recopilar información que se us
 - [Diseñar cuestionarios](../../../talent/design-questionnaires.md)
 - [Distribuir y programar cuestionarios](../../../talent/distribute-questionnaires.md)
 - [Ver y evaluar los resultados de los cuestionarios](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

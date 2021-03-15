@@ -53,3 +53,6 @@ Este tema explica cómo configurar garantías de activos y tipos de activos en A
 
 > [!NOTE]
 > Al crear un pedido de trabajo para un activo cubierto por una garantía del proveedor, si la orden de trabajo tiene una fecha de inicio prevista durante el período de garantía, usted recibirá una notificación sobre el acuerdo de la garantía. En ese momento podrás cancelar la orden de trabajo, como sea necesario.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

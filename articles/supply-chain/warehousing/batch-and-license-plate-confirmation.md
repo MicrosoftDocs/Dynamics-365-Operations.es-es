@@ -47,3 +47,6 @@ Puede configurar la confirmación del lote y de matrícula desde los elementos d
 
 1. En los elementos de menú del dispositivo móvil, especifique la configuración de la confirmación del trabajo.  
 1. Seleccione la opción para la confirmación de lote o matrícula. Ambas opciones están disponibles para las selecciones del tipo de trabajo que no tengan habilitada la confirmación automática.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

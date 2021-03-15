@@ -220,3 +220,6 @@ Los ejemplos siguientes muestran informaci√≥n que se puede usar en una definici√
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

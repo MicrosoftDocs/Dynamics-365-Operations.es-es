@@ -108,3 +108,5 @@ Como parte de la llamada a la API de envío, Recursos Humanos realiza la validac
 
 - [Visión general de MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [Autenticación](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

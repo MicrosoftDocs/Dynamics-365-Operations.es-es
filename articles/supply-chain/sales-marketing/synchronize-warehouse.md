@@ -80,3 +80,6 @@ La siguiente ilustración muestra la asignación de plantilla en la integración
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Almacenes (Supply Chain Management a Field Service): Almacén
 
 [![Asignación de la plantilla en la integración de datos](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

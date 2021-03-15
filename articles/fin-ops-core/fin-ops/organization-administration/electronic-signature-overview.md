@@ -109,3 +109,6 @@ Para designar aprobadores, siga estos pasos.
 1. En la página **Opciones**, en la pestaña **Cuentas** , haga clic en **Designar aprobador**.
 2. En el campo **Id. del aprobador**, seleccione el Id. del usuario que debe firmar por los cambios de otro usuario.
 3. En el campo **Firmar para id. de usuario**, seleccione el Id. del usuario cuyos cambios deberán firmarse.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

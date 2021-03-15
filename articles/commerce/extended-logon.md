@@ -66,3 +66,6 @@ El servicio del inicio de sesión puede ser extendido para admitir dispositivos 
 ## <a name="using-extended-logon"></a>Uso del inicio de sesión extendido
 
 Cuando se configura el inicio de sesión extendido, y se le ha asignado a un trabajador un código de barras o una cinta magnética, el trabajador sólo tiene que pasar o escanear su tarjeta mientras se abre la página de inicio de sesión del PDV. Si una contraseña también es necesaria para que el inicio de sesión pueda continuar, se le pedirá al trabajador que especifique su contraseña.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

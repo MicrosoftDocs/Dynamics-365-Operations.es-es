@@ -69,3 +69,6 @@ Para liquidar el resto, realice los pasos siguientes:
 7)  También puede elegir crear un diario de pagos con el resto de liquidación o solo publicarlo sin un diario. Seleccione **Sí** para **Editar en diario** para crear un diario de pagos. Podrá editar el diario de pagos que cree.
 8)  Haga clic en **Resto de liquidación**. Si elige crear un diario, el botón cambiará a **Crear diario**. Haga clic en **Crear diario** en su lugar.
 9)  Si ha creado un diario de pagos, la página del diario se abrirá tras hacer clic en **Resto de liquidación**. Una línea de diario se agregará al diario con el importe del resto de liquidación como importe y a la cuenta de resto de liquidación como la cuenta de contrapartida. Si ha agregado a un cliente o un proveedor para poder mover el importe de liquidación a otro cliente o proveedor, otra línea se agregará al diario para mover el importe de liquidación a dicho cliente o proveedor.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

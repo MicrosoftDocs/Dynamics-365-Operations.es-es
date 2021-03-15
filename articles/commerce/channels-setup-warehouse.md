@@ -146,3 +146,6 @@ La siguiente imagen muestra los detalles de un almacén configurado.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

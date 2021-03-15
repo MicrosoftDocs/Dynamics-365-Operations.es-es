@@ -94,3 +94,6 @@ Sin embargo, como se mencionó anteriormente, cuando utiliza una configuración 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informar de terminación desde el dispositivo de tarjeta de trabajo](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

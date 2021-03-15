@@ -48,3 +48,6 @@ Este es el primero de cinco procedimientos que muestra el proceso de pago del cl
     * Si el botón Importar no está disponible, es que la configuración ya se ha importado.  
 9. Haga clic en Sí.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

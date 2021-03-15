@@ -72,3 +72,6 @@ Después de crear una configuración con su proveedor de configuración, puede c
 La configuración se comparte con la organización externa y está disponible para esa organización en el repositorio global. A partir de ahí, se puede importar a la instancia de RCS de la organización o a sus instancias de las aplicaciones de Finance and Operations.
 
 6. Para dejar de compartir una configuración que se ha compartido previamente con una organización externa, seleccione la configuración y haga clic en **Dejar de compartir** y luego seleccione **Aceptar**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

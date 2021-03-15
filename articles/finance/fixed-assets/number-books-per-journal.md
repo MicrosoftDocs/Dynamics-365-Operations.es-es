@@ -49,3 +49,6 @@ Por ejemplo, hay 5001 id. de activos fijos, tres libros están asociados con cad
 
 > [!Note] 
 > Si se activa el parámetro **Resumir depreciación** al crear una propuesta de depreciación, el valor del campo **Número de libros por diario - Propuesta de depreciación** no surtirá efecto. En este caso, el número de libros por diario es 6000, el límite interno definido.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

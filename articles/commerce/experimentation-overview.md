@@ -56,3 +56,6 @@ Para obtener más información sobre cada paso del proceso de experimentación, 
 
 ## <a name="next-step"></a>Paso siguiente
 [Identificar una hipótesis y determinar métricas de éxito para un experimento](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

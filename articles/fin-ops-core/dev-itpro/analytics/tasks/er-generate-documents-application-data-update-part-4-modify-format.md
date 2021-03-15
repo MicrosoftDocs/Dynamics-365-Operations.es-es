@@ -149,3 +149,6 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 46. Cierre la página.
 47. Cierre la página.
 48. Cierre la página.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

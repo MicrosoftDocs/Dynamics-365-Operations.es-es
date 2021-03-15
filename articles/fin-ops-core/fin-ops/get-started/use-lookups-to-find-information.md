@@ -83,3 +83,6 @@ En su lugar, el usuario necesita borrar el valor del control de la búsqueda, ab
 Después de que se haya aplicado el filtro (consulte la imagen a continuación), el usuario puede buscar y seleccionar la fila como de costumbre.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

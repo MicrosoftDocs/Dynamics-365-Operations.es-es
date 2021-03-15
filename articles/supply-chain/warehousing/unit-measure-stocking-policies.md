@@ -49,3 +49,6 @@ Como parte de la creación de productos emitidos, debe seleccionar las unidades 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

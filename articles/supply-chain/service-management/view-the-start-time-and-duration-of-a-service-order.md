@@ -58,3 +58,6 @@ También puede ver cuándo se inició y se detuvo el registro de horas de un ped
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

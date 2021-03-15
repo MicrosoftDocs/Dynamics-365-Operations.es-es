@@ -52,3 +52,6 @@ Para agregar nuevos artículos de fabricación a lo largo del período congelado
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

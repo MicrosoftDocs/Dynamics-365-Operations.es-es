@@ -139,3 +139,6 @@ Puede generar el informe **Enviado a los clientes** para identificar la cantidad
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>¿Se puede realizar el seguimiento de los coproductos y los productos derivados?
 Puede realizar el seguimiento de los coproductos, pero no de los productos derivados porque las dimensiones de seguimiento no suelen asignarse a ellos. Cuando realiza el seguimiento de un artículo, los detalles de seguimiento incluyen los coproductos relacionados. Un nodo que contiene un coproducto incluye la palabra "coproducto" en los detalles. También puede ver detalles acerca de un coproducto si selecciona el nodo en los detalles de seguimiento y, a continuación, hace clic en la ficha desplegable **Producción**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

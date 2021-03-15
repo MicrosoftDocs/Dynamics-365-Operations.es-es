@@ -237,3 +237,6 @@ Esta tarea le muestra todos los pasos necesarios para configurar la generación 
 - [Versión 3.3 del diseño CFDI](latam-mex-cfdi-3-3.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

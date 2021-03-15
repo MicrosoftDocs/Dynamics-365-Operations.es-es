@@ -57,3 +57,6 @@ Se pueden definir descripciones predeterminadas para los asientos de liquidació
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

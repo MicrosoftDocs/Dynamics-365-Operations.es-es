@@ -59,3 +59,6 @@ Haga clic en **Gestión de servicios** \> **Periódico** \> **Panel de distribuc
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

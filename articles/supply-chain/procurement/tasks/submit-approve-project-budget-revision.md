@@ -45,3 +45,6 @@ Esta tarea usa el conjunto de datos SSI.
 12. En el campo Comentario, escriba un valor.
 13. Haga clic en Enviar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

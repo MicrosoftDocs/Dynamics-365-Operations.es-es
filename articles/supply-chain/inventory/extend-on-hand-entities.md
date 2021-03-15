@@ -68,3 +68,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Después de completar estos pasos, puede ampliar el inventario disponible por sitio y el inventario disponible por entidades de datos de almacén agregando los nuevos campos. De esta manera, se asegura de que se reconozcan los campos extendidos y se incluyan durante la migración de datos que usa esas entidades de datos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

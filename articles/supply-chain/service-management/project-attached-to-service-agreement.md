@@ -36,3 +36,6 @@ Registre todas las transacciones de pedidos de servicio a través del proyecto q
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

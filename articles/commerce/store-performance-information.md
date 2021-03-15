@@ -44,3 +44,6 @@ Este informe proporciona una instantánea de los resúmenes siguientes como part
 - Resumen de impuestos
 - Resumen del reemplazo de precios
 - Resumen de descuentos
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Las tres líneas de pedido de servicio creadas en esta instancia se encuentran e
 
 [Configurar intervalos de servicio](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

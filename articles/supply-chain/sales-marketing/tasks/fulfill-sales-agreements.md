@@ -89,3 +89,6 @@ Este procedimiento le muestra cómo satisfacer un acuerdo de venta asociando ped
 23. Haga clic en Acuerdo de venta adjunto.
 24. Haga clic en la pestaña Suministro.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

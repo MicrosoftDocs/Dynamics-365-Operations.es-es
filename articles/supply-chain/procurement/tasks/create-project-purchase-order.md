@@ -47,3 +47,6 @@ Este procedimiento muestra cómo crear un pedido de compra del proyecto. Esta ta
     * Compruebe que las ventas y los precios de coste están disponibles. Si no están disponibles pero son necesarias, especifique la información.  
 14. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

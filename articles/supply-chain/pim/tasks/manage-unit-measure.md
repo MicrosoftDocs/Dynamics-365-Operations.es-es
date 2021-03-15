@@ -62,3 +62,6 @@ Este procedimiento muestra cómo definir una unidad de medida, proporcionar trad
 6. Haga clic en **Aceptar**.
 7. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

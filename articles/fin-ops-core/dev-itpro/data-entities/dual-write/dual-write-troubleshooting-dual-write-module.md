@@ -87,3 +87,6 @@ La solución para este error depende de la causa del error:
 
 + Si la asignación tiene asignaciones dependientes, asegúrese de habilitar las asignaciones dependientes de esta asignación de tabla.
 + Es posible que falten columnas de origen o destino en la asignación. Si falta una columna en la aplicación de Finance and Operations, siga los pasos de la sección [Problema de columnas de tabla faltantes en asignaciones](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Si falta una columna en Dataverse, haga clic en el botón **Actualizar tablas** en la asignación para que las columnas se rellenen automáticamente en la asignación.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

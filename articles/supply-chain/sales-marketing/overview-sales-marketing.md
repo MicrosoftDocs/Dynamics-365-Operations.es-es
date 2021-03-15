@@ -124,3 +124,6 @@ Las facturas proforma son facturas que se preparan como estimación del importe 
 #### <a name="blogs"></a>Blogs
 
 Puede encontrar una visión general de un proceso de ventas en el registro [Cómo funcionan las ventas en Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Este tema describe cómo adquirir un activo fijo mediante la propuesta de adquis
 - Solo los activos fijos con la fecha de adquisición y el precio de adquisición establecidos en el libro se incluirán en la propuesta de adquisición.  
 11. En la página, seleccione la ficha **Libros**.
 12. Seleccione **Registrar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

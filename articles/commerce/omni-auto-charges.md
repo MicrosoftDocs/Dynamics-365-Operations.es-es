@@ -221,3 +221,6 @@ Si los usuarios manualmente anulan los gastos calculados o agregan gastos manual
 
 [Prorratear los cargos de encabezado con las líneas de ventas coincidentes](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

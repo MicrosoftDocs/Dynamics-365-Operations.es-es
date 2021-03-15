@@ -63,3 +63,6 @@ El grupo de retención de impuestos y el grupo de retención de impuestos de art
 La retención de impuestos se calcula y registra con el **Diario de pagos de clientes**. Puede ajustar manualmente el código de retención de impuestos aplicable, así como el importe real de retención de impuestos en la pestaña **Liquidar transacciones** de la página **Liquidar transacciones**.
 
 El importe de la retención de impuestos calculada se deducirá del pago del cliente y se publicará en la cuenta de **Compensación de retención de impuestos** en un asiento relacionado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

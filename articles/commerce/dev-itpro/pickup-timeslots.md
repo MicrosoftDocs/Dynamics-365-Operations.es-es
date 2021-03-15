@@ -127,3 +127,6 @@ En la aplicación del centro de llamadas, los agentes del centro de llamadas pue
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Módulo de información de recogida](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

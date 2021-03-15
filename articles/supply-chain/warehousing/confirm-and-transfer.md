@@ -229,3 +229,6 @@ También puede confirmar que las relaciones de transacción se han actualizado d
 - La opción **Dividir cantidad a nueva carga** también funciona cuando algunos de los encabezados de trabajo restantes tienen un estado de *En proceso*. Por lo tanto, aún puede usar la funcionalidad incluso si los trabajadores ya están ejecutando las órdenes de recogida.
 - Si selecciona **Cancelar cantidad no cumplida** mientras queda trabajo que tiene un estado de *Abierto* o *En progreso*, recibirá el siguiente mensaje de error: "No se puede cancelar la cantidad restante para la carga. Existe trabajo para la carga".
 - Si selecciona **Cancelar cantidad no cumplida** cuando no queda trabajo pero hay líneas de carga inéditas en la carga, recibirá el siguiente mensaje de error: "No se pudo confirmar el envío para la carga porque la cantidad del artículo excede el porcentaje que se define por debajo de la entrega". Para evitar el error, puede configurar el porcentaje **Bajo entrega** en la línea de carga inédita al 100 %. Las líneas no lanzadas no se moverán a una nueva carga, pero la carga actual se confirmará con una entrega insuficiente. En este caso, no podrá volver a lanzar el pedido original. Por lo tanto, tendrá que gestionarlo de alguna otra forma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

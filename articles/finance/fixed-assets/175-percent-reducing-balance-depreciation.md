@@ -87,3 +87,6 @@ El método de depreciación degresiva del 175 % divide el 175 por ciento entre l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

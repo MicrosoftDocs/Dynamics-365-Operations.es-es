@@ -72,3 +72,6 @@ Envíe un correo electrónico a [Información de pagos de clientes (Vista previa
 Las versiones preliminares (1) pueden utilizar menos medidas de privacidad y seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) tienen soporte limitado.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

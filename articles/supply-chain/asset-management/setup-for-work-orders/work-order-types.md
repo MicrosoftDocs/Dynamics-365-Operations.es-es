@@ -51,3 +51,6 @@ Para obtener más información sobre estados y etapas de proyecto del ciclo de v
 8. Seleccione **Guardar**.
 
 ![Tipos de orden de trabajo](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Después de cancelar pedidos de compra que estaban en estado *Confirmado*, los p
 
 Este problema solo se produce para los pedidos de compra que están sujetos a la administración de cambios. Se produce porque se considera que la cancelación es un cambio que debe ser aprobado. La aprobación la puede realizar el sistema automáticamente. Por lo tanto, el proceso consiste en enviar el pedido de compra cancelado al flujo de trabajo de aprobación para que pueda pasar al estado *Aprobado*. En ese momento, el pedido de compra ya no aparecerá en la lista de borradores de pedido de compra en el espacio de trabajo **Preparación del pedido de compra**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

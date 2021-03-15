@@ -54,3 +54,6 @@ Para agregar dimensiones financieras a una plantilla, se necesitan otros cambios
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

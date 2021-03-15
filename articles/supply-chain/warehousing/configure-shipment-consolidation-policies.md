@@ -353,3 +353,6 @@ Los siguientes escenarios ilustran cómo podría utilizar las directivas de cons
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Directivas de consolidación de envíos](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

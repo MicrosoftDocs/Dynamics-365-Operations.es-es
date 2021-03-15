@@ -73,3 +73,6 @@ Este procedimiento se centra en la configuración necesaria para crear una regla
 2. Haga clic en Ver diagrama de árbol.
     * Observe que se crea un kanban con la misma cantidad que la línea de ventas. También puede ver las emisiones de material necesarias para producir L0050. Este es el último paso de este procedimiento.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

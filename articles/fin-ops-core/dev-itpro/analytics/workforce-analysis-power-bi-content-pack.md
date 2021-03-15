@@ -86,3 +86,6 @@ En la tabla siguiente se muestran las entidades en las que se basaba el contenid
 | Tendencia del empleado           | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                 | Empresa, ubicación geográfica, nombre del empleado, responsable ante, contrapartida del calendario, fecha, puesto del empleado, demografía, empleo, trabajo |
 | Proyecto de contratación masiva        | Número de proyectos de contratación masiva, propietario del proyecto, y estado de proyecto                     | Empresa, línea de contratación masiva |
 | Línea de contratación masiva           | Departamento, tipo de empleo y puesto                                           | Fecha, trabajo, proyecto de contratación masiva |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Para asignar un estado de transporte a un estado de transportista, siga estos pa
 1. Seleccione el código de estado del transporte que desea asignar al código del transportista de envío seleccionado.
 1. Especifique el código externo que usa el transportista de envío.
 1. Cierre la página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

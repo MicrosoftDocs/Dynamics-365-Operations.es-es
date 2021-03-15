@@ -115,3 +115,6 @@ El cumplimiento de la transacción de requisitos de existencias de seguridad no 
 Durante la fase de cobertura de planificación maestra, el reabastecimiento de existencias de seguridad no pierde prioridad. El inventario disponible se puede usar antes que cualquier otro tipo de demanda. Durante el cálculo del retraso, se agregará una nueva lógica para repasar las líneas de ventas retrasadas, los requerimientos de las líneas de LM y todos los otros tipos de demanda, para determinar si podrían entregarse a tiempo, siempre que se utilicen existencias de seguridad. Si el sistema identifica que puede minimizar los retrasos mediante las existencias de seguridad, las líneas de ventas o las líneas de LM reemplazarán su cobertura inicial con las existencias de seguridad y el sistema activará el reabastecimiento de las existencias de seguridad.
 
 Si el plan o el artículo no están configurados para el cálculo de retrasos, la restricción de existencias de seguridad tendrá la misma prioridad que cualquier otro tipo de demanda. Esto significa que hay una reserva de inventario y otro inventario disponible antes de que otros tipos de demanda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

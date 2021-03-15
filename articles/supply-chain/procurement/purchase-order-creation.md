@@ -95,3 +95,6 @@ Es posible que deba retrasar la finalización de un pedido de compra. Por ejempl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

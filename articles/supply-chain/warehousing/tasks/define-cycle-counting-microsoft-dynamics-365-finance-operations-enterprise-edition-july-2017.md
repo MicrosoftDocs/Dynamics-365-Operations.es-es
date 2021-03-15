@@ -95,3 +95,6 @@ La cuenta de ciclo es un proceso de almacén que puede usar para revisar artícu
 21. Haga clic en **Aceptar**.
 22. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

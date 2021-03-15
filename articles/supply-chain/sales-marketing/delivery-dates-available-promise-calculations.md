@@ -80,3 +80,6 @@ Por lo tanto, la fecha de envío se establece en 10 días a partir de ahora, seg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

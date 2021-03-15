@@ -64,3 +64,6 @@ Siga estos pasos para activar esta función para todas las entidades jurídicas.
 El botón **Nuevo documento** se usa para crear y editar una plantilla en una configuración de formato ER proporcionada por otro proveedor. En el ejemplo, el proveedor es Microsoft. Cuando seleccione **Nuevo documento**, verá todas las plantillas que poseen los proveedores actuales y otros proveedores. Después de seleccionar la plantilla, se abrirá para editarla. La plantilla editada se almacenará en una nueva configuración del formato de ER que se genera automáticamente.
 
 Para más información, vea [Resumen de gestión de documentos empresariales](er-business-document-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

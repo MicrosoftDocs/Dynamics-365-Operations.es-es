@@ -54,3 +54,6 @@ Este procedimiento muestra cómo programar un pedido de producción. La empresa 
 6. Cierre la página.
 7. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

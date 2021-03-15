@@ -51,3 +51,6 @@ La activación de un nuevo precio estándar normalmente revalorizará el valor d
 - **Ninguno**: no hay dimensiones financieras registradas en las transacciones de revalorización. Si su estructura contable incluye una dimensión financiera, el proceso de revalorización se seguirá ejecutando, pero creará entradas de contabilidad sin ninguna dimensión financiera. En este caso, los usuarios recibirán primero un mensaje de advertencia, para que puedan cancelar la revalorización si es necesario.
 - **Tabla**: las dimensiones financieras del artículo se contabilizan en las transacciones de revalorización. Esta es la configuración predeterminada y es consistente con el comportamiento del sistema original sin activar la función *Opciones de dimensiones financieras predeterminadas para la revalorización del costo estándar de inventario*.
 - **Registro**: las dimensiones financieras de la transacción que se está revalorizando se registran en las transacciones de revalorización. De forma predeterminada, las dimensiones financieras de la cuenta de inventario de la transacción original se utilizarán tanto para la cuenta de inventario como para la cuenta de revalorización.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

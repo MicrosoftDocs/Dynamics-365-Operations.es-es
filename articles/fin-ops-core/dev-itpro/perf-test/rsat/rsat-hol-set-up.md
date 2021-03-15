@@ -803,3 +803,6 @@ En esta sección, creará una variable guardada en el primer caso de prueba, cre
 2. Verifique que se hayan aprobado ambos casos de prueba.
 
     ![Campo Resultado establecido en aprobado para ambos casos de prueba](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

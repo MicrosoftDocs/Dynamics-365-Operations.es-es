@@ -82,3 +82,6 @@ La factura de proveedor seguirá en estado de pendiente hasta que llegue la fact
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

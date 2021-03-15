@@ -36,3 +36,6 @@ Este procedimiento utiliza la empresa de datos de demostración de USRT para dem
 4. En el mensaje para el campo del representantes de ventas, seleccione una opción.
 5. Seleccione Sí en el campo Requerir representante de ventas.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

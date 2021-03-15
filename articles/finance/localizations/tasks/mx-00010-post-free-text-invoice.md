@@ -55,3 +55,6 @@ Use el formulario Factura de texto libre para crear y registrar una factura de c
 20. En la lista, marque la fila seleccionada.
 21. En la lista, haga clic en el vínculo de la fila seleccionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

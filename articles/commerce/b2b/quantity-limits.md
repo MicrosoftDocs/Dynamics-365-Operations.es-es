@@ -84,3 +84,6 @@ Para activar la característica de límites de cantidad de pedidos B2B en el gen
 [Administrar usuarios socios comerciales en sitios de comercio electrónico B2B](manage-b2b-users.md)
 
 [Configurar el método de pago de la cuenta del cliente para sitios de comercio electrónico B2B](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

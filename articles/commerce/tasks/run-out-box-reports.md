@@ -63,3 +63,6 @@ La empresa de datos de prueba utilizada para crear este registro es USRT. Este r
 5. Haga clic en Exportar.
 6. Haga clic en PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

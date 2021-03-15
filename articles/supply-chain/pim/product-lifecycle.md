@@ -108,3 +108,6 @@ Use los siguientes criterios para seleccionar y actualizar los productos liberad
 - [Asignar un estado de ciclo de vida de producto a un producto liberado](tasks/product-lifecycle-state-released-product.md)
 - [Buscar las variantes de producto obsoletas y asignar un estado de ciclo de vida del producto](tasks/obsolete-product-variants.md)
 - [Crear un estado de ciclo de vida del producto para excluir productos de planificación maestra](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

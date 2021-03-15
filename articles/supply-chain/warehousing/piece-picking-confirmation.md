@@ -50,3 +50,6 @@ Las siguientes opciones están disponibles para la selección cuando el tipo de 
 | Confirmación de picking de pieza | Disponible para los tipos de trabajo selección y recuento. La confirmación de producto se selecciona automáticamente. Permite confirmar cada pieza de inventario desde el dispositivo móvil. |
 |  Número máximo de piezas  |                   Disponible para el trabajo de selección si la confirmación de picking de piezas está habilitada. Establece un límite en el número de piezas que debe confirmar.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

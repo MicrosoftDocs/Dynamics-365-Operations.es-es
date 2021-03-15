@@ -83,3 +83,6 @@ Siga estos pasos para revisar los envíos que se crearon.
 
 - [Directivas de consolidación de envíos](about-shipment-consolidation-policies.md)
 - [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Los botones en el grupo **Proyecto** en la ficha **Orden de trabajo** del panel 
 >[!NOTE]
 >Para incluir las previsiones creadas en una orden de trabajo cuando ejecuta la programación maestra, use el modelo de previsión seleccionado en la página **Parámetros de administración de activos**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

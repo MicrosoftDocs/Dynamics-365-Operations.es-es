@@ -246,3 +246,6 @@ C. Navegue hasta Gestión presupuestaria &gt; Configurar &gt; Planificación pre
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

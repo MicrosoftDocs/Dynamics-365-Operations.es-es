@@ -77,3 +77,6 @@ Sin embargo, si utiliza un artículo que tiene una jerarquía de reserva "lote p
 Este comportamiento se debe al diseño. Si pone una dimensión por encima de la dimensión **Ubicación** en la jerarquía de reservas, debe especificarse antes del lanzamiento al almacén. Microsoft ha evaluado este problema y ha determinado que es una limitación de funciones durante las versiones al almacén desde el entorno de trabajo de planificación de carga. Las cantidades parciales no se pueden liberar si no se especifican una o más dimensiones sobre **Ubicación**.
 
 Para obtener más información, consulte [Directiva de reserva de dimensión de nivel de almacén flexible](flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

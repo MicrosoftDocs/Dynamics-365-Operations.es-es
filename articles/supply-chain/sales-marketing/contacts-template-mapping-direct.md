@@ -141,3 +141,6 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 [Sincronizar encabezados y líneas de factura de ventas directamente desde Supply Chain Management a Sales](sales-invoice-template-mapping-direct.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

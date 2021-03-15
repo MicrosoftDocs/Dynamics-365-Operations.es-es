@@ -207,3 +207,6 @@ El siguiente escenario usa la aplicación de almacén en un dispositivo móvil p
 
     > [!NOTE]
    > El sistema crea un Id. de trabajo para cada movimiento que debe completarse. Si especifica una ubicación que ya contiene inventario, solo se crea un Id. de trabajo. Si especifica una nueva ubicación, se crean dos Id. de trabajo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

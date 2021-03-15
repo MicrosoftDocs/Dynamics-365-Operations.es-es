@@ -84,3 +84,6 @@ Para que las funciones de gestión de activos estén disponibles en la aplicaci�
 Para obtener más información sobre cómo trabajar con el espacio de trabajo **Administración de activos**, consulte [Uso del espacio de trabajo móvil de administración de activos](asset-management-mobile-workspace.md).
 
 Para obtener más información sobre la aplicación móvil Finance and Operations (Dynamics 365), consulte la [Página de inicio de la aplicación móvil](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

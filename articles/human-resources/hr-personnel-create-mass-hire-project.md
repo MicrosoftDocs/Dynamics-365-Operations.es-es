@@ -48,3 +48,6 @@ Este procedimiento le muestra el proceso para configurar un proyecto de contrata
     * También puede seleccionar el departamento para los nuevos puestos.  
 13. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

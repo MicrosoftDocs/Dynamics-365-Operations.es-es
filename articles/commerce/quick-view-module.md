@@ -77,3 +77,6 @@ Para agregar un módulo de vista rápida a un módulo de colección de productos
 [Módulo de colección de productos](product-collection-module-overview.md)
 
 [Módulo de resultados de búsqueda](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

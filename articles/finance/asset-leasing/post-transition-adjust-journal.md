@@ -46,3 +46,6 @@ Para publicar un ajuste de transición de conformidad con las nuevas normas cont
 
 5. Para ver el movimiento de diario, seleccione **Diarios de arrendamiento de activos**.
 6. Seleccione el nuevo diario y luego seleccione **Registrar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

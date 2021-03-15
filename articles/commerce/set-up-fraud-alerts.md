@@ -68,3 +68,6 @@ Se guardará el pedido, pero el indicador **No procesar** se establecerá en él
 Para ver y administrar los pedidos que están en espera para detectar fraudes, vaya a **Retail y Commerce** \> **Clientes** \> **Bloqueos del pedido**. En la página **Bloqueos del pedido**, seleccione una entrada en la lista y, a continuación, haga clic en **Retención del pedido** para obtener una vista detallada que incluye información acerca del motivo de bloqueo. En la ficha desplegable  **Detalles del fraude**, puede ver los criterios sistemáticos de fraude que se han detectado en el pedido y las puntuaciones que se han aplicado. Si el pedido se coloca en el bloqueo manual, puede revisar los comentarios que realizó el usuario que puso el pedido en espera mirando la sección **Notas de fraudes** en la ficha desplegable **Notas**.
 
 Para obtener más información sobre cómo trabajar con pedidos en espera, consulte [Retenciones de pedidos](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

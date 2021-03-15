@@ -54,3 +54,6 @@ Una vez se importan los datos en la contabilidad de costes, puede usarlos para c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

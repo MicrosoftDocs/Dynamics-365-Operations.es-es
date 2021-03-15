@@ -47,3 +47,6 @@ Los sitios de Dynamics 365 Commerce son más compatibles con los siguientes expl
 [Administrar archivos robots.txt](manage-robots-txt-files.md)
 
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

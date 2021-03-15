@@ -53,3 +53,6 @@ Este procedimiento muestra cómo crear un plan de empresas vinculadas. La empres
 2. En la lista, haga clic en el vínculo de la fila seleccionada. Haga clic en el vínculo para StaticPlan. Debe estar en la empresa USMF.  
 3. Haga clic en **Pedidos planificados**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

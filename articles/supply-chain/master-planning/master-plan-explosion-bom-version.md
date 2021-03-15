@@ -47,3 +47,6 @@ La ilustración siguiente muestra el proceso de expansión de la demanda de plan
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

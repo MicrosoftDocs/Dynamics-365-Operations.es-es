@@ -95,3 +95,6 @@ Este procedimiento muestra cómo configurar y habilitar el seguimiento y el cál
 17. En la lista, seleccione el grupo de comisión que ha creado anteriormente.
 18. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

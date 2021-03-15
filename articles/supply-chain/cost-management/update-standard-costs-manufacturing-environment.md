@@ -47,3 +47,6 @@ Cada caso requiere una consideración cuidadosa sobre cómo se deben actualizar 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

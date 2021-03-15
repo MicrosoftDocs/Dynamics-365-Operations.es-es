@@ -82,3 +82,6 @@ Existen dos opciones relacionadas con las reservas de la página de **Parámetro
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Directivas de la reserva de inventario en la página de los Parámetros de producción
 
 El valor del campo **Reserva** de la pestaña **General** en la página de **Parámetros de producción** determina el punto predeterminado en el proceso de producción en el que se debe reservar el inventario. Por ejemplo, el inventario puede reservarse cuando se programa el trabajo o cuando el trabajo se ha iniciado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

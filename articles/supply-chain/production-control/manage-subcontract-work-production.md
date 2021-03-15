@@ -102,3 +102,6 @@ Normalmente, el almacén y la ubicación de salida de un grupo de recursos subco
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

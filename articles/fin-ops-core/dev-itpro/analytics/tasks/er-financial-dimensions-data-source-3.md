@@ -145,3 +145,6 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 46. Cierre la página.
 ![Página de diseñador de operaciones de ER](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

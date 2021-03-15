@@ -60,3 +60,6 @@ Sobre la página **Perfiles de calificación**, puede revisar todos los perfiles
 
 > [!NOTE]
 > Perfiles que se crean en la página **Transportistas de envío** también se muestran en la página **Perfiles de calificación**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

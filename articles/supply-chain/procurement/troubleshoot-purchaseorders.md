@@ -144,3 +144,6 @@ Este comportamiento se debe al diseño. La dirección seleccionada debe clasific
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>¿Puedo encontrar al usuario que canceló un pedido de compra?
 
 Esta información solo se sigue si el pedido de compra está sujeto a la administración de cambios. Si usa la administración de cambios, puede ver quién envió el cambio (la cancelación) y quién lo aprobó.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

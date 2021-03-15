@@ -73,3 +73,6 @@ Este tema muestra cómo crear un pedido de compra manualmente. Es más habitual 
 
 2. Seleccione **Aceptar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

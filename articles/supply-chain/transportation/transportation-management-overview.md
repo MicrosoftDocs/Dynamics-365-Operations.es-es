@@ -86,3 +86,6 @@ Supply Chain Management proporciona una estrategia de planificación de carga qu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

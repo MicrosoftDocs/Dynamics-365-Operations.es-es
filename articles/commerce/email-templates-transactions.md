@@ -202,3 +202,6 @@ Para obtener más información sobre cómo configurar correos electrónicos en D
 [Configurar recepciones por correo electrónico](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Enviar recibos por correo electrónico desde PDV modernos ](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

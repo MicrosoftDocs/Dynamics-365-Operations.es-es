@@ -55,3 +55,6 @@ Dado que Dynamics 365 Commerce admite vistas previas autenticadas “Lo que se v
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
 
 [Gestionar la directiva de seguridad de contenido (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

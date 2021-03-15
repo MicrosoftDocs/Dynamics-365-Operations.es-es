@@ -60,3 +60,6 @@ Esto resulta útil si desea obtener una visión general de la carga de capacidad
 >[!NOTE]
 >Si desea centrarse únicamente en el diseño de la capacidad en relación a las órdenes de trabajo programadas, vea [Calcular la carga de capacidad en órdenes de trabajo programadas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

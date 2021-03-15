@@ -45,3 +45,6 @@ Cuando especifique un diario, puede hacer clic en **Acumulaciones contables** en
 
 
 Para obtener más información, consulte [Crear esquemas de acumulación](tasks/create-accrual-schemes.md) y [Crear transacciones de acumulaciones del libro mayor](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

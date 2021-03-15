@@ -226,3 +226,6 @@ Plazo + Días negativos + Fecha actual – Fecha de requisito
 El sistema utiliza solo los pedidos de suministro planificados que se encuentran dentro del límite de tiempo, y crea un nuevo pedido planificado fuera de este. La ventaja de los días negativos dinámicos es que incluirá el plazo del producto individual, para volver a utilizar los pedidos existentes e impedir la creación de nuevos pedidos planificados que terminarán con un día posterior, debido a los retrasos causados por el plazo. 
 
 Para obtener más información, consulte [Días negativos y días negativos dinámicos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

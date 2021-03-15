@@ -134,3 +134,6 @@ Si se ha ajustado un arrendamiento, puede ver las diferentes versiones de este. 
 
 2. Para ver programaciones históricas, abra el arrendamiento modificado desde la página **Resumen de arrendamiento**, seleccione el libro deseado y, a continuación, en el Panel de acciones, seleccione **Historial de versiones del libro**.
 3. En la página **Versión del libro**, seleccione una versión y una programación a ver.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

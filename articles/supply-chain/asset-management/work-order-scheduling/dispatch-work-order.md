@@ -59,3 +59,6 @@ La ilustración siguiente muestra un ejemplo de las selecciones de distribución
 [!NOTE]
 Si desea eliminar la programación en una orden de trabajo, seleccione la orden de trabajo en **Todas las órdenes de trabajo** y haga clic en **Eliminar programación** en la pestaña **General**. Recuerde actualizar manualmente el estado de ciclo de vida de la orden de trabajo si elimina la programación.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

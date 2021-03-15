@@ -51,3 +51,6 @@ Al igual que para toda característica nueva, los clientes deben ver el plan de 
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Cuando se haya determinado la fecha de obsolescencia, ¿dónde se comunicará?
 
 La obsolescencia de Un asiento es un cambio importante que recibirá una amplia difusión. Se comunicará a través de la documentación del producto, una entrada de blog y anuncios en las conferencias de Microsoft correspondientes, mucho antes de que entre en vigor la fecha de obsolescencia.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

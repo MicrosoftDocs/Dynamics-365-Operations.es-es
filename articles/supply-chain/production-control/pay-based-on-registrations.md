@@ -598,3 +598,6 @@ Si el trabajador no aparece en el trabajo en un día laborable y no hay ausencia
 - Insertar autom. ausencia
 
 Cuando los registros diarios se calculan para un trabajador que está habilitado para horas flexibles, el código de ausencia que se especifica en el campo **Insertar autom. horario flexible-** se usa como código de ausencia predeterminado. Si el trabajador no está habilitado para horas flexibles, se usa el código de ausencia que se especifica en el campo **Ausencia de inserción automática**. Si una empresa tiene una combinación de trabajadores que están habilitados para horas flexibles y trabajadores que no están habilitados para horas flexibles, ambos parámetros deben estar configurados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Cuando se resuelve un problema de reparación, puede cerrar la línea de reparac
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

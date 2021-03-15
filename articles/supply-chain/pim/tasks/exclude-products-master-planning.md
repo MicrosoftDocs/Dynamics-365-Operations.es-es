@@ -43,3 +43,6 @@ Este procedimiento muestra cómo crear un estado de ciclo de vida de producto nu
 5. En la lista, marque la fila seleccionada.
 6. En el campo Estado de ciclo de vida de producto, especifique o seleccione un valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

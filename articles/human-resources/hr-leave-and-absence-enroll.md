@@ -60,3 +60,5 @@ Una vez haya creado un plan de permisos y ausencias en Dynamics 365 Human Resour
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
 - [Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

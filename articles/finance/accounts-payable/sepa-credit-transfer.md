@@ -125,3 +125,6 @@ Al generar pagos, se genera el archivo de pago y se le pedirá que lo guarde des
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

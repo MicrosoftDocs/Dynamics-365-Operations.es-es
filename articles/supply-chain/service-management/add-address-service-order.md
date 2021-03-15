@@ -74,3 +74,6 @@ Para agregar una dirección alternativa a un pedido de servicio, siga estos paso
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

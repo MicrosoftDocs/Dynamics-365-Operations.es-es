@@ -44,3 +44,6 @@ Un tipo de solicitud de mantenimiento define la afiliación con un grupo de esta
 La ilustración siguiente muestra un ejemplo de la página **Tipos de solicitud de mantenimiento**.
 
 ![Página de tipos de solicitudes de mantenimiento](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

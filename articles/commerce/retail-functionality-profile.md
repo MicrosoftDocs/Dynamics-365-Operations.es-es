@@ -63,3 +63,6 @@ La siguiente imagen muestra un perfil de funcionalidad de ejemplo.
 [Visión general del diseño de pantalla](pos-screen-layouts.md)       
 
 [Instalar y configurar Retail Hardware Station](retail-hardware-station-configuration-installation.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

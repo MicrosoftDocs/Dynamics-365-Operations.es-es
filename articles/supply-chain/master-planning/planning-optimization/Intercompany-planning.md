@@ -87,3 +87,6 @@ Para este ejemplo, se crea una orden de compra planificada en la empresa USMF pa
 La siguiente ilustración muestra cómo podría aparecer este ejemplo en la página **Vinculación multinivel** de la orden de producción planificada.
 
 ![Ejemplo de intercompañía que involucra a tres empresas](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

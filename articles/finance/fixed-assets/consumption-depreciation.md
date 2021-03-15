@@ -67,3 +67,6 @@ La propuesta de depreciación el 31 de enero es la siguiente: Cantidad estimada 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

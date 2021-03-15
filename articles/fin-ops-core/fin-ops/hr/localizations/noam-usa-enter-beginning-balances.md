@@ -166,3 +166,6 @@ Es posible invertir y repetir las transacciones. Para invertir la transacción, 
 2. Haga clic en **Sí** cuando aparezca el mensaje “Cuando se invierte este extracto de pago, se crea un extracto de pago de inversión para compensarlo. Ninguno de los extractos de pago se podrá modificar. ¿Quiere invertir este extracto de pago? . 
 
 Una vez que revierta el extracto de pago, puede generar un nuevo extracto de pago para el trabajador desde el extracto de ganancias que creó anteriormente. Asegúrese de corregir las líneas incorrectas del extracto de ganancias antes de generar la nueva instrucción de pago, y luego genere nuevos extractos de sueldo con los importes correctos. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

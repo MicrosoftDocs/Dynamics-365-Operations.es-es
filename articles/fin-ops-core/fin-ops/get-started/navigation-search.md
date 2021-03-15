@@ -62,3 +62,6 @@ La lista de resultados de la búsqueda está limitada a 10 artículos. Si no enc
 ## <a name="development"></a>Desarrollo
 
 Desde una perspectiva de desarrollo, es sencillo sacar provecho de la funcionalidad de búsqueda de navegación puesto que no hay prácticamente ningún retraso entre el desarrollo de los elementos de menú y su capacidad para aparecer en los resultados de la búsqueda. Siempre que los elementos de menú estén vinculados desde el panel de navegación o el panel de información, permitirán automáticamente las búsquedas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

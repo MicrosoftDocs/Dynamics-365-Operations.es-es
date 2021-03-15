@@ -113,3 +113,6 @@ Para desactivar un archivo de anulación de CSS en su sitio, siga estos pasos.
 [Agregar idiomas al sitio](add-languages-to-site.md)
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -217,3 +217,6 @@ Las excepciones de trabajo controlan el comportamiento de la selección corta. S
 1. Seleccione **Selección corta**.
 1. Seleccione el código de excepción de trabajo que creó para este escenario.
 1. Si seleccionó la excepción correcta, la casilla **Anular y reimprimir** debe estar disponible. Seleccione esta casilla y confirme. Cuando se confirme, la secuencia del rollo de etiquetas identificada por el campo **Id. de compilación de etiqueta** se recalcula en función de la cantidad de línea de trabajo modificada. A continuación, se reimprime en la impresora especificada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

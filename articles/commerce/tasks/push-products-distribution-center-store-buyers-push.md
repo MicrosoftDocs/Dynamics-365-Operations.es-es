@@ -52,3 +52,6 @@ Este procedimiento le guía por los pasos para crear y procesar una estrategia d
 19. Haga clic en Crear pedido.
 20. Haga clic en Sí.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

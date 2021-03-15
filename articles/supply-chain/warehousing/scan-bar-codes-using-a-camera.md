@@ -54,3 +54,6 @@ En la página de la cámara, al hacer clic en el botón Cámara, aparecerá aten
 
 Cuando apunte la cámara a un código de barras, mantenga el código de barras alineado entre los corchetes para lograr un mejor resultado. Cuando un código de barras se digitaliza correctamente, el resultado se procesará y pasará al siguiente paso. Si el siguiente paso contiene otro campo de entrada con el modo de entrada preferido establecido en Exploración, la página de la cámara se volverá a iniciar. Si el paso siguiente no es un campo de exploración, la página de la cámara no se iniciará.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

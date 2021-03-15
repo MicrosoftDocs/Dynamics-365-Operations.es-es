@@ -75,3 +75,6 @@ En el ejemplo anterior, la búsqueda de acción muestra resultados del panel de 
 ## <a name="action-search-vs-navigation-search"></a>Búsqueda de acciones frente a búsqueda de navegación
 
 Mientras que la búsqueda de acciones se va a utilizar para encontrar y ejecutar acciones en una página, hay un mecanismo independiente de la búsqueda para encontrar y desplazarse a las páginas. Para obtener más información sobre dicha característica, consulte el artículo [Búsqueda de navegación](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

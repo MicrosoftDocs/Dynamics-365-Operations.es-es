@@ -93,3 +93,6 @@ No podrá procesar ni completar sus presupuestos en la empresa de consolidación
 Para obtener más información, consulte [Revalorización de divisa en una empresa de consolidación](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

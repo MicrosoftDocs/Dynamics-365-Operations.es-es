@@ -77,3 +77,6 @@ Este procedimiento muestra cómo crear una asignación de cargos adicionales, un
 6. En la lista, haga clic en el vínculo de la fila seleccionada.
 7. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

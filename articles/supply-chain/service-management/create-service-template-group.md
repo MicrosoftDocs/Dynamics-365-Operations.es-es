@@ -38,3 +38,6 @@ Puede usar grupos de plantillas de servicio para ordenar y filtrar plantillas de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

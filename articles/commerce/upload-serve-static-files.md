@@ -105,3 +105,6 @@ Para cambiar la ruta de acceso de la URL siga estos pasos.
 [Recortar imágenes](dam-crop-images.md)
 
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

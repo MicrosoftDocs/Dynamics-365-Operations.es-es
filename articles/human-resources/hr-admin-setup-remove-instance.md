@@ -85,3 +85,6 @@ Para restaurar el entorno:
 
 > [!Warning]
 > Los entornos de Power Apps solo se guardan durante siete días después de la eliminación. Debe recuperar el entorno dentro de un período de siete días.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ En la tabla siguiente aparecen las listas de nuestras páginas web. Los sitios q
 | [Comunidad de Dynamics](https://community.dynamics.com/) | Este sitio hospeda blogs, foros y vídeos. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Este sitio ofrece información de evaluación y ventas. |
 | [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Este sitio hospeda recursos de formación, informes descargables y documentación técnica, y es el sitio de asistencia principal para los titulares de planes de servicio. Puede ser necesario un plan de servicio para acceder a algunos recursos del sitio. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

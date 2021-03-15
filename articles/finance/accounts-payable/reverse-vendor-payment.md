@@ -82,3 +82,6 @@ Si el cheque invertido se había emitido para una devolución de cliente, tambi�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

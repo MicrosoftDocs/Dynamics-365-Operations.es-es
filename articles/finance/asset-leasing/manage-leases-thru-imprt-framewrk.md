@@ -82,3 +82,6 @@ Si está utilizando el marco de importación de arrendamientos para actualizar a
 
 1. Vaya a **Arrendamiento de activos \> Marco de importación de arrendamientos \> Configurar \> Actualizar selección de campos**.
 2. En la página que aparece, seleccione los campos a actualizar y luego seleccione la flecha verde para moverlos a la lista **Campos seleccionados**. Solo los campos de la lista **Campos seleccionados** se pueden actualizar utilizando el paquete de aplicaciones de importación de arrendamiento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

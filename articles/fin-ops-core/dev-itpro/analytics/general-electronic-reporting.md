@@ -298,3 +298,6 @@ La lista de las configuraciones de informes electrónicos para Finance se actual
 
 - [Crear configuraciones de informes electrónicos (ER)](electronic-reporting-configuration.md)
 - [Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Antes de comenzar, cambie el contexto del país para la empresa de DEMF de Alema
 10. Cierre la página.
 11. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

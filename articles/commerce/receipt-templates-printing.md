@@ -85,3 +85,6 @@ Los perfiles de recibo se asignan directamente a impresoras mediante el perfil d
 
 > [!NOTE]
 > Si se usan dos impresoras, una impresora se puede usar para imprimir recibos térmicos estándar de 40 columnas. La segunda impresora se usa normalmente para imprimir los tipos de recibo a toda página que requieren más información. Estos tipos de recibo incluyen los recibos y facturas de pedidos del cliente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

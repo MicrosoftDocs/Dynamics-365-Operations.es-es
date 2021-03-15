@@ -87,3 +87,6 @@ Para obtener más información, consulte [Cerrar la contabilidad general al fina
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

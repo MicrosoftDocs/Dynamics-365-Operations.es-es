@@ -69,3 +69,6 @@ En la ficha desplegable **Cuenta contable de destino**, la cuenta principal ser�
 > Opcionalmente puede usar el botón **Copiar** para duplicar la asignación seleccionada.
 
 Cuando se crea un término de asignación para una cuenta principal, el sistema contabilizará automáticamente un nuevo comprobante cuando se publique un comprobante que coincida con las dimensiones financieras de origen en los términos de asignación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

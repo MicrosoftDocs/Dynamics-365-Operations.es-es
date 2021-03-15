@@ -54,3 +54,6 @@ Este procedimiento muestra cómo cambiar el propietario del inventario de entreg
 2. Haga clic en Aceptar
 3. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -407,3 +407,6 @@ Ahora puede seleccionar el pedido de ventas 2. Se desbloqueó cuando se complet�
 - Puede anular manualmente la disponibilidad de trabajo de reabastecimiento para cada encabezado de trabajo desde la página **Detalles del trabajo** si quiere.
 - Cuando el sistema establece la disponibilidad de trabajo de reabastecimiento, considera cualquier inventario que ya esté en la ubicación antes de que se complete cualquier trabajo.
 - Cada pieza de trabajo de pedido de ventas está vinculada a un trabajo de reabastecimiento específico. No hay funcionalidad de disponibilidad de trabajo de ventas correspondiente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

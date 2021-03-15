@@ -67,3 +67,6 @@ Este tema muestra cómo puede crear reglas y directivas de idoneidad para presta
 10. Seleccione **Guardar**.
 11. Cierre el formulario.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

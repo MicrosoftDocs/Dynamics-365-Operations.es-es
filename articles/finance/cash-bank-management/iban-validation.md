@@ -47,3 +47,6 @@ La información acerca de la estructura de IBAN se almacena en Microsoft Dynamic
     La validación también comprueba que el número de cuenta bancaria coincida con la parte del IBAN que representa el número de cuenta bancaria. Si no coincide el número de cuenta bancaria, recibirá un mensaje de advertencia. El mensaje es solo una advertencia. Puede continuar incluso si no coincide el número de cuenta bancaria.
 
     La validación también comprueba que el número de ruta bancaria coincida con la parte del IBAN que representa el número de ruta bancaria. El número de ruta incluye un número de banco y a menudo una sucursal bancaria adicional. Si no coincide el número de ruta bancaria, recibirá un mensaje de advertencia. El mensaje es solo una advertencia. Puede continuar incluso si no coincide el número de ruta bancaria.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

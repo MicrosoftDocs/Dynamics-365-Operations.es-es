@@ -73,3 +73,6 @@ En la vista de detalles puede actualizar diversos datos. A continuación se incl
 
 > [!NOTE]
 > Si selecciona un activo al crear una solicitud de mantenimiento, puede agregar un error a activo. Una vez creada la solicitud de mantenimiento, puede agregar más errores si es necesario. Para agregar errores, seleccione **Error de activo** en la página **Todas las solicitudes de mantenimiento**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

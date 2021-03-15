@@ -106,3 +106,6 @@ La tabla siguiente muestra los formularios que admiten los componentes del proce
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

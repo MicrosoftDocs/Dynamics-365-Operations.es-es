@@ -123,3 +123,6 @@ La siguiente ilustración muestra un ejemplo de una asignación de plantilla en 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ La retención de impuestos se calcula en el **Diario de pagos a proveedores**. P
 El importe de retención de impuestos derivado se deducirá del pago del proveedor y se publicará en la **Cuenta de retención de impuestos** en un asiento relacionado.
 
 ![Cuenta de retención de impuestos que muestra un asiento relacionado](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

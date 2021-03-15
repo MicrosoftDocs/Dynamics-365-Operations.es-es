@@ -88,3 +88,6 @@ Verá transacciones adicionales para los importes de divisa de notificación.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

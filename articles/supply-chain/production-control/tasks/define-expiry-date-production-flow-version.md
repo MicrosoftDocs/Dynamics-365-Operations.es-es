@@ -40,3 +40,6 @@ Para finalizar la validez y el procesamiento de una versión de flujo de producc
 6. En el campo Fecha de vencimiento, especifique una fecha y una hora.
     * Para la fecha de vencimiento, no se iniciará ni se activará una nueva versión. Tampoco no será posible crear o iniciar trabajos para este flujo de producción. Podrá completar los trabajos después de la fecha de vencimiento.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

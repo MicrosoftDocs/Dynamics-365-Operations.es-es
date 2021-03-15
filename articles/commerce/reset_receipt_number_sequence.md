@@ -67,3 +67,6 @@ Puede usar la funcionalidad **Borrar fecha de restablecimiento** para borrar fut
 
 > [!NOTE]
 > En función de la fecha de restablecimiento que seleccione y del formato del recibo, es posible que tenga números de recibos duplicados. Aunque el sistema de punto de venta (PDV) puede manejar estas situaciones, aumentan la cantidad de tiempo que se requiere para procesar las devoluciones, porque los asociados de ventas deben seleccionar entre los recibos duplicados. Pueden producirse otras complicaciones relacionadas con la limpieza de datos si los recibos duplicados no fueron una consecuencia planificada. Por lo tanto, le recomendamos que utilice caracteres de fecha dinámica (por ejemplo, **ddd**, **MM**, **DD** y **YY**) para ayudar a evitar números de recibos duplicados después de un restablecimiento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

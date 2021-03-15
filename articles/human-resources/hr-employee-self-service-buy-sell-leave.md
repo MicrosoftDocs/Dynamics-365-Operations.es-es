@@ -53,3 +53,6 @@ Sus saldos se actualizarán automáticamente o pasarán por un proceso de aproba
 
 [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)</br>
 [Gestionar directivas de compra y venta de bajas](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

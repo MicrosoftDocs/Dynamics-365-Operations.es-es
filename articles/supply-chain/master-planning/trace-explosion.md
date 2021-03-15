@@ -47,3 +47,6 @@ Puede ver los detalles acerca de futuros y acciones para un pedido seleccionado.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

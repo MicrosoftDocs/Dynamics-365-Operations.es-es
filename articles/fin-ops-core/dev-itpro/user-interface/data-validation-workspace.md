@@ -56,3 +56,6 @@ Antes de poder usar el espacio de trabajo **Lista de comprobación de validació
 Use las áreas de tareas para agrupar las tareas de validación de datos en áreas lógicas dentro de su organización. Por ejemplo, Proveedores, Clientes o Contabilidad general se pueden usar como áreas de tareas.
 
 El **Nombre del elemento de menú** está asociado al esfuerzo de trabajo de la tarea y se puede usar para ir directamente a la página asociada desde el vínculo de la tarea en el espacio de trabajo. Por ejemplo, una tarea de validación de datos para ejecutar el informe **Vencimiento de proveedores** para los proveedores se puede vincular a la página **Informe de vencimiento de proveedores** .
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

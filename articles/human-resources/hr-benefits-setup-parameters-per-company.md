@@ -42,3 +42,5 @@ Para cada organización que ofrece prestaciones, debe definir la configuración 
    | **Dirección predeterminada de correo del remitente** | La dirección de correo electrónico que se usará al enviar el correo electrónico de confirmación. |
 
 3. Seleccione **Guardar**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

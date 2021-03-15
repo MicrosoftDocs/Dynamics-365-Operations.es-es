@@ -73,3 +73,6 @@ Puede encontrar opiniones, noticias y otra información sobre administración de
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Los siguientes componentes son esenciales para una página de resultados de la b
 
 [Visión general de las páginas de la gestión de cuentas](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

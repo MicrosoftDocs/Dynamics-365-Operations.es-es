@@ -38,3 +38,6 @@ Este procedimiento le muestra cómo crear un nuevo producto en la jerarquía de 
 8. En el campo Número de producto, escriba un valor.
 9. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

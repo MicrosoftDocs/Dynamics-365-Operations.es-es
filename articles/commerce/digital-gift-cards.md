@@ -100,3 +100,6 @@ Para configurar una cantidad personalizada para una tarjeta regalo digital en el
 [Crear un perfil de funcionalidad en línea](online-functionality-profile.md)
 
 [Compatibilidad para tarjetas regalo externas](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

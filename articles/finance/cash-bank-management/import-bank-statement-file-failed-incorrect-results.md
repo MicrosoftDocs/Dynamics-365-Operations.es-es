@@ -107,3 +107,6 @@ En la tabla siguiente se muestran ejemplos de las definiciones de diseño técni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Este procedimiento se centra en la ejecución de trabajos de procesos kanban. El
 6. En el campo Cantidad sin errores, especifique un número.
 7. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

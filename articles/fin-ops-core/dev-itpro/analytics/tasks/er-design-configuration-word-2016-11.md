@@ -164,3 +164,6 @@ Para ejecutar la versión de borrador del formato editable, debe hacerlo [ejecut
 
 - [Diseñar una nueva configuración de ER para generar informes en formato Word](../er-design-configuration-word.md)
 - [Insertar imágenes y formas en los documentos generados con ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ La ilustración siguiente muestra los efectos del modelo de inventario LIFO en e
 - Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
 - Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

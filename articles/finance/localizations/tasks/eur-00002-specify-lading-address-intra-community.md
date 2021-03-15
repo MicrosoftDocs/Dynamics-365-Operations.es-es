@@ -72,3 +72,6 @@ Este procedimiento se aplica a todos los países o regiones europeos. Esta tarea
 37. Haga clic en la pestaña General.
     * Busque una línea recién creada y compruebe que el remitente envió las mercancías desde Italia.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

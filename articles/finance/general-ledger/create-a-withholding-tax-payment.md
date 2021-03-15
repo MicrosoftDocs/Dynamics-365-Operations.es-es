@@ -40,3 +40,6 @@ El procedimiento de la tarea Pago de retención de impuestos liquida los saldos 
 7. Haga clic en **Aceptar**.
 
 ![Parámetros para el pago de la retención de impuestos](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

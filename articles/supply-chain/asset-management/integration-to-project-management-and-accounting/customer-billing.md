@@ -177,3 +177,6 @@ En esta sección, seguirá trabajando en la orden de trabajo en la que trabajó 
 1. En el panel de acciones, en la pestaña **Facturación**, seleccione **Nueva propuesta de factura**.
 1. En el cuadro de diálogo **Crear propuesta de factura**, en la sección **Transacciones de proyecto**, seleccione la casilla **Seleccionar** para todas las líneas que quiera facturar.
 1. Seleccione **Aceptar** para cerrar el cuadro de diálogo y ver la nueva propuesta de factura.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

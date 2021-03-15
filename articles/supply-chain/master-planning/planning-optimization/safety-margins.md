@@ -182,3 +182,6 @@ Por ejemplo, un artículo tiene un plazo de entrega de un día y un margen de re
 [Introducción a la optimización de la planificación](get-started.md)
 
 [Análisis de idoneidad de optimización de la planificación](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

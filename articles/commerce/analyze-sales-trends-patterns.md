@@ -42,3 +42,6 @@ Los usuarios también pueden estudiar patrones y tendencias de ventas por hora e
 - Espacio de trabajo **Administración de tiendas** &gt; **Retail y Commerce** &gt; **Canales** &gt; **Administración de tiendas** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
 - Espacio de trabajo **Operaciones financieras de tiendas** &gt; **Retail y Commerce** &gt; **Canales** &gt; **Operaciones financieras de tiendas** &gt; **Informes** &gt; **Informe de ventas de canal por hora**
 - Sección **Consultas e informes** &gt; **Retail y Commerce** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de ventas de canal por hora**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

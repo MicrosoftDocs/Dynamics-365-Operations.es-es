@@ -110,3 +110,6 @@ La página **Detalles del trabajo planificado** (**Gestión de almacenes \> Trab
 Para ver los trabajos por lotes para procesar oleadas, seleccione **Trabajos por lotes** en el panel de Acción en la página **Todas las oleadas**.
 
 Desde aquí, puede ver todos los detalles de la tarea por lotes para cada uno de los Id. de trabajo por lotes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

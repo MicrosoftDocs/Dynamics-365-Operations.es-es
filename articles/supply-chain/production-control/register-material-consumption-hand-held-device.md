@@ -91,3 +91,6 @@ Una vez que haya terminado su registro, seleccione **Hecho** para registrar el d
 -   El material puede sobreconsumirse. Por ejemplo, si se estima que el material se consumirá con la cantidad de 100 libras, después puede sobreconsumirse con una cantidad de, por ejemplo, 105 lbs.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

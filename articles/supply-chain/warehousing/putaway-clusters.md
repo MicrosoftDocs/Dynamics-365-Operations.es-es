@@ -295,3 +295,6 @@ Antes de que los elementos del clúster se puedan guardar, el clúster debe cerr
 ## <a name="notes-and-tips"></a>Notas y consejos
 
 Para los casos en los que la identificación del grupo se convierte en la placa de matrícula principal de un palé anidado, la posición de colocación se da automáticamente cuando se escanea la identificación del grupo. No se deben escanear más matrículas, incluso si la generación de matrículas está configurada en manual.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Este procedimiento muestra cómo buscar información de la tarjeta de fidelizaci
 15. Haga clic en Transacciones con tarjeta.
 16. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

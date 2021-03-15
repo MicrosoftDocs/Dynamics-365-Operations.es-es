@@ -102,3 +102,6 @@ Para aplicar el filtrado basado en el contexto de la empresa en sus formularios 
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Aplicar el contexto de la empresa":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

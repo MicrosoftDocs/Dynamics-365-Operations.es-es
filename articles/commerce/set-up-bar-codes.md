@@ -46,3 +46,6 @@ Los códigos de barras se crean manual o automáticamente. Para crear códigos d
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Configuración de máscaras de código de barras](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

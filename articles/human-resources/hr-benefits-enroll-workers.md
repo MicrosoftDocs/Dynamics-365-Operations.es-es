@@ -58,3 +58,6 @@ Este procedimiento muestra cómo se puede inscribir un único trabajador en una 
 14. En la lista, haga clic en el vínculo de la fila seleccionada.
 15. Esta página le permite ver qué trabajadores se han inscrito en la prestación, junto con los empleados que no se han inscrito.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

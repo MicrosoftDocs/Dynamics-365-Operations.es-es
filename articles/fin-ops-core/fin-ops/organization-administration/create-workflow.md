@@ -83,3 +83,6 @@ Cuando esté listo para guardar y activar el flujo de trabajo, siga estos pasos.
 
     - Para activar esta versión del flujo de trabajo, haga clic en **Activar la nueva versión**. Cuando un flujo de trabajo está activo, los usuarios pueden enviar documentos a él para que se los procese.
     - Si no desea activar esta versión, haga clic en **No activar la versión nueva**. Podrá activar el flujo de trabajo en otro momento.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

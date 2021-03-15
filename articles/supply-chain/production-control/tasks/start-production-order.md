@@ -70,3 +70,6 @@ Este procedimiento muestra cómo iniciar un pedido de producción en la planta. 
 7. Haga clic en Registrar.
 8. Haga clic en Aceptar
     * En el diario de tarjeta de ruta se registra el tiempo empleado en las operaciones individuales. También se puede informar de la cantidad de errores y aciertos.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

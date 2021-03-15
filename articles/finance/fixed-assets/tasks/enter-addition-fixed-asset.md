@@ -45,3 +45,6 @@ El procedimiento usa el rol de contable y los datos de prueba de la entidad jur�
     * Establezca **Aumenta el tiempo de vida** en **Sí** si la adición incrementa el tiempo de vida del activo.  
     * Este campo es únicamente informativo. Para aumentar el tiempo de vida, modifíquelo en los modelos de valor y/o en los libros de amortización del activo.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ El rol de este procedimiento es Tesorero. Este procedimiento usa la empresa de d
 10. Haga clic en Asiento.
 11. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

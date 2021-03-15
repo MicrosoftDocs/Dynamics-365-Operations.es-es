@@ -92,3 +92,6 @@ Para agregar una página de sitio nueva al sitio, siga estos pasos.
 [Verificar accesibilidad de contenido de página](verify-accessibility.md)
 
 [Crear páginas de comercio electrónico dinámicas basadas en parámetros de URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

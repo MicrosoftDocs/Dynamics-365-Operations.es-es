@@ -61,3 +61,6 @@ Los trabajadores pueden realizar diferentes tipos de registros de la ejecución 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

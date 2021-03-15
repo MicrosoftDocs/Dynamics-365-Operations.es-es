@@ -203,3 +203,6 @@ Para establecer la opción de validación:
 1. En la pestaña **General**, establezca **Validación en cantidades de pedido predeterminadas** en uno de los siguientes valores:
     - **Estricto**: seleccione esta opción para asegurarse de que todos los valores de **Cantidad de pedido estándar** serán un múltiplo del valor en **Múltiplo** para cada ficha desplegable (**Pedido de compra**, **Inventario** y **Pedidos de venta**).
     - **Estándar**: seleccione esta opción para usar la validación estándar (que funciona igual que cuando esta función no está habilitada).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

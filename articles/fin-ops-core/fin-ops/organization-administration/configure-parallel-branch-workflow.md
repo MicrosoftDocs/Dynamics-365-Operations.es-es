@@ -50,3 +50,6 @@ Siga estos pasos para diseñar y configurar los elementos de una rama paralela.
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de la creación de flujos de trabajo](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

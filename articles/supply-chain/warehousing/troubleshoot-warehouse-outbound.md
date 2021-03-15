@@ -61,3 +61,6 @@ Se agrega un artículo a una línea de ventas para entrega directa desde un alma
 ### <a name="issue-resolution"></a>Solución del problema
 
 Microsoft ha evaluado este problema y ha determinado que es una limitación de funciones. Actualmente, WMS no admite la entrega directa. Por lo tanto, para utilizar la entrega directa, debe seleccionar un artículo y un almacén que no sea WMS.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

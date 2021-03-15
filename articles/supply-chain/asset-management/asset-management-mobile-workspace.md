@@ -239,3 +239,6 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 1. Seleccione **Listo**.
 
     ![Agregar un archivo adjunto a una solicitud de mantenimiento](media/am-mobile-10.png "Agregar un archivo adjunto a una solicitud de mantenimiento")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

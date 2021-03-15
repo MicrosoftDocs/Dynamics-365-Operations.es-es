@@ -67,3 +67,6 @@ Configure jerarquías organizativas para ver e informar sobre su negocio desde d
 A cada jerarquía se le asigna un propósito. El propósito de una jerarquía determina los tipos de organizaciones que se pueden incluir en la jerarquía. El propósito también determina en qué escenarios de aplicación se puede usar una jerarquía.
 
 Las organizaciones de una jerarquía pueden compartir parámetros, directivas y transacciones. Una organización puede heredar o reemplazar los parámetros de su organización principal. Sin embargo, los datos maestros compartidos, como los productos y las libretas de direcciones, se aplican a toda la organización y no pueden reemplazarse para organizaciones individuales. La creación de organizaciones y jerarquías requiere una planificación cuidadosa. Para obtener más información, consulte [Planificación de la jerarquía organizativa](plan-organizational-hierarchy.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

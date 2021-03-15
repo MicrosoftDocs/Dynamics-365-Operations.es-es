@@ -44,3 +44,6 @@ Este tema proporciona vínculos a recursos de documentación para España.
 - [Ciclos de compra y venta](emea-esp-sales-purchase-cycle.md)
 - [Entradas especiales y hojas de apertura](emea-esp-opening-sheets-spain.md)
 - [Suministro inmediato de información del IVA, SII](emea-esp-sii.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

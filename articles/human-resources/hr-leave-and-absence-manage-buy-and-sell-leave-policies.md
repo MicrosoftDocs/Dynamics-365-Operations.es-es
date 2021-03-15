@@ -80,3 +80,6 @@ Puede permitir que los empleados compren y vendan bajas creando una directiva de
 [Acumular planes de bajas y ausencias](hr-leave-and-absence-accrue.md)</br>
 [Comprar y vender bajas](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

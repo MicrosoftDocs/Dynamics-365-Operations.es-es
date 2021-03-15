@@ -94,3 +94,6 @@ Si definió el alcance de su experimento como **total** en el asistente **Conect
 
 ## <a name="next-step"></a>Paso siguiente
 [Obtener una vista previa y publicar un experimento](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

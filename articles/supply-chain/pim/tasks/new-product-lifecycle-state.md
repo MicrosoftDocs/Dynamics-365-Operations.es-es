@@ -34,3 +34,6 @@ Este procedimiento muestra cómo crear un nuevo estado de ciclo de vida del prod
 3. En el campo Estado, escriba un valor.
 4. En el campo Descripción, escriba un valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

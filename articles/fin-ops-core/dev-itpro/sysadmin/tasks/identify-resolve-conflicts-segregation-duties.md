@@ -59,3 +59,6 @@ Cuando asigna usuarios a roles, las reglas para la segregación de controles se 
 
 > [!NOTE]
 > Si se enumeran varios conflictos para el mismo usuario, seleccione el registro de usuario y evalúe los roles asignados en la página **Usuarios**. Para evitar este conflicto, valide cada regla después de agregarla o modificarla.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

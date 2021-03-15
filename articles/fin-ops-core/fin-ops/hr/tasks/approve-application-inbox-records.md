@@ -48,3 +48,6 @@ Este procedimiento muestra cómo revisar solicitudes recibidas a través de las 
 2. En la lista, haga clic en el vínculo de la fila seleccionada.
 3. Expanda la sección Archivos adjuntos.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

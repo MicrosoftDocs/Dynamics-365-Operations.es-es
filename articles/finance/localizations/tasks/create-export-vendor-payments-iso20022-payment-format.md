@@ -49,3 +49,6 @@ Este es el quinto procedimiento, de cinco, que muestra el proceso de pago del pr
     3.    En el campo **Nombre de archivo**, escriba un valor. Para este ejemplo, debido al pago de euros, el archivo generado cumplirá con la SEPA. La transferencia de crédito ISO20022 así como los formatos de pago de otro proveedor también se pueden utilizar para generar pagos en otras divisas.
     4.    En el campo **Cuenta bancaria**, especifique o seleccione un valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

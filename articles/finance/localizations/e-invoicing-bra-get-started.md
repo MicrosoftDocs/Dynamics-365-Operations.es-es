@@ -308,3 +308,6 @@ Habilitar la función BR-00053 (NF-e Federal) puede requerir el envío de datos 
 - [Descripción general del complemento de facturación electrónica](e-invoicing-service-overview.md)
 - [Introducción al complemento de facturación electrónica](e-invoicing-get-started.md)
 - [Configurar el complemento de facturación electrónica](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

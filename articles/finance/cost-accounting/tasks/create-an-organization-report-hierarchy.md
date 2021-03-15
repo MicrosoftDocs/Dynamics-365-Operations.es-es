@@ -94,3 +94,6 @@ Utilice este procedimiento para crear una jerarquía de informes para los inform
     * Seleccione el miembro de dimensión que se corresponde con el nodo.  
 59. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

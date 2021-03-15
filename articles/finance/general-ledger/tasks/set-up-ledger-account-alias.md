@@ -40,3 +40,6 @@ Este procedimiento muestra cómo crear un alias de cuenta que proporcione un mé
 9. En el campo Enfoque inicial, seleccione la dimensión que tendrá enfoque cuando se usa el alias.
     * Después de escribir el método abreviado, y de que se rellenen la cuenta y las dimensiones, el campo Enfoque inicial es donde se moverá el cursor o el enfoque.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

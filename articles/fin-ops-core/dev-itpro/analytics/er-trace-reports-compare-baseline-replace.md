@@ -207,3 +207,6 @@ Para importar la configuración de línea base de un archivo XML almacenado en M
 
 - [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md)
 - [Recursos del Grabador de tareas](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

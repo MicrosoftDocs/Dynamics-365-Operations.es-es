@@ -44,3 +44,6 @@ Por ejemplo, están en vigor las siguientes condiciones:
 La cantidad a depreciar del activo original es 1.822,25 $. Esta cantidad es igual al NBV antes de que se contabilice la transacción dividida (9.111,25), más el ajuste de adquisición que se genera durante la contabilización de la transacción dividida (- 8.000 $), más el ajuste de depreciación que se genera durante la transacción dividida (711 $). Por lo tanto, la depreciación para el segundo año es (1.822,25 × 18 por ciento) ÷ 12 = 27,33 $.
 
 La cantidad a depreciar para el nuevo activo fijo en el primer año es (8.000 × 18 por ciento) ÷ 12 = 120 $.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ La ejecución de este procedimiento requiere que haya al menos un modelo de conf
     * Active la versión del modelo de producto. Solo es posible tener un producto activo para un modelo de producto cada vez.  
 13. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

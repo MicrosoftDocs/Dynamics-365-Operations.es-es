@@ -139,3 +139,6 @@ El 20 de julio, April crea un pago final de 200,00. No se aplica ningún descuen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tare
 13. En la lista, busque y seleccione el registro deseado. Presione la tecla Mayús para seleccionar varios roles que agregar al panel **Roles seleccionados** y haga clic en la flecha para agregar los roles seleccionados.  
 14. Haga clic en **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

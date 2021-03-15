@@ -49,3 +49,6 @@ Si la misma persona requiere el acceso al portal de proveedores para varias cuen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

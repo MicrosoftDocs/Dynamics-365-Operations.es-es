@@ -254,3 +254,6 @@ Ejecute esta asignación de formato para realizar pruebas. Utilice el archivo 10
 27. Cierre la página.
 28. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

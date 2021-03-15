@@ -54,3 +54,6 @@ Para obtener más información, vea los siguientes temas:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

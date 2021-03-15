@@ -69,3 +69,6 @@ La siguiente ilustración muestra un ejemplo de una página de finalización de 
 [Módulo de confirmación de pedido](order-confirmation-module.md)
 
 [Módulo de detalles del pedido](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

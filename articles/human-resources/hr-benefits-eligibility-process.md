@@ -54,3 +54,6 @@ Este procedimiento muestra cómo funciona el proceso de idoneidad de la prestaci
 25. Abrir filtro de columna Estado.
 26. Ordenar de A a Z
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ La captura de pantalla siguiente muestra un ejemplo de resultados del cálculo e
 ![Resultados del cálculo de ejemplo en Control de fecha de orden de trabajo](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

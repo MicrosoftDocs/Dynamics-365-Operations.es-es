@@ -49,3 +49,6 @@ Si el parámetro **Confirmando tratamiento de facturas** se establece en **Sí**
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

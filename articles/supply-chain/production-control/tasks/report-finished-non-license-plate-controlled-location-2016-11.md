@@ -61,3 +61,6 @@ Esta guía de tareas muestra un ejemplo de notificación como finalizado en una 
 18. Haga clic en Detalles del trabajo.
     * Cuando el pedido de producción se ha notificado como finalizado, no se ha generado ningún trabajo para ubicación. Esto ocurre porque se define una directiva de trabajo que impide que el trabajo se genere cuando el producto L0101 se notifique como finalizado para la ubicación 001.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

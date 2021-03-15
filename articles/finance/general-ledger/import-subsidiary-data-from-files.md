@@ -60,3 +60,6 @@ Este tema explica cómo preparar los datos de sistemas externos para que se pued
 8. Establezca la opción **Procesamiento por lotes** en **Sí** para ejecutar la consolidación como un trabajo por lotes en un momento específico. Para ejecutar la consolidación inmediatamente, seleccione **Aceptar**. 
 
 Las transacciones y los saldos especificados para la consolidación en las filiales se agregan a las cuentas apropiadas de la entidad jurídica consolidada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

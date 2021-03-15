@@ -130,3 +130,6 @@ Para ver diferentes versiones, puede usar la opción de menú **Desde fecha** pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

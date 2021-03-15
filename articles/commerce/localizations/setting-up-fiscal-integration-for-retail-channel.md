@@ -225,3 +225,6 @@ Para habilitar la ejecución manual de un registro fiscal postpuesto, debe agreg
     1. Seleccionar el diseño que se va a actualizar.
     2. Agregue un nuevo botón y defina la propiedad del botón **Completar el proceso de registro fiscal**.
     3. En la página **Programación de distribución**, ejecute el trabajo **1090** para transferir sus cambios a la base de datos del canal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

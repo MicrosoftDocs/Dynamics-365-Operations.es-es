@@ -67,3 +67,6 @@ Este procedimiento se centra en la configuración necesaria para crear una regla
 5. Expanda la sección Kanbans.
     * Observe que un kanban se creó para transferir el material necesario para el almacén 12.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

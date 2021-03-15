@@ -181,3 +181,6 @@ Aquí hay alguna de las situaciones de consolidación que Informes financieros a
 
 ## <a name="generating-consolidated-financial-statements"></a>Generar informes financieros consolidados
 Para obtener información sobre los escenarios donde puede generar o consolidar informes financieros, consulte [Generar informes financieros consolidados](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

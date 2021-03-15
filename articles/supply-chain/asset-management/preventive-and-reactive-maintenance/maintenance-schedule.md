@@ -67,3 +67,6 @@ La ilustración siguiente muestra la página de lista **Todo el programa de mant
 
 ![Figura 1](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

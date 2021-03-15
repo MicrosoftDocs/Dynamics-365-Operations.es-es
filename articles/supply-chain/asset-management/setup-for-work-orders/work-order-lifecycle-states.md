@@ -138,3 +138,6 @@ Una vez que haya creado los estados de ciclo de vida de la orden de trabajo nece
 9. Guarde el modelo del ciclo de vida de la orden de trabajo.
 
 ![Página Modelos de ciclo de vida de orden de trabajo](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

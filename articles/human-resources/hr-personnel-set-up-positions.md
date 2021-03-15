@@ -67,3 +67,6 @@ Los puestos son un aspecto importante del nivel inferior de una jerarquía organ
 30. En el campo Departamento, especifique o seleccione un valor.
 31. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

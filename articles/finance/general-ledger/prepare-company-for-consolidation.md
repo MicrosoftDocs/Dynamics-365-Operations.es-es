@@ -67,3 +67,6 @@ Ya está configurada la entidad jurídica consolidada para el trabajo periódico
 
 > [!NOTE]
 > Para poder procesar la consolidación, debe preparar las entidades jurídicas filiales para la consolidación. Para obtener más información, consulte [Configurar una entidad jurídica filial para la consolidación](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

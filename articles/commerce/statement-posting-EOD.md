@@ -173,3 +173,6 @@ Se han realizado otras mejoras de backend en la función de registro de extracto
 
     - Vaya a **Retail y Commerce** \> **Configuración de Headquarters** \> **Parámetros** \> **Parámetros de Commerce**. A continuación, en la ficha **Registro** , en la ficha desplegable **Actualización de inventario**, en el campo **Nivel de detalle** , seleccione **Resumen**.
     - Vaya a **Retail y Commerce** \> **Configuración de Headquarters** \> **Parámetros** \> **Parámetros de Commerce**. A continuación, en la ficha **Registro**, en la ficha desplegable **Agregación**, establezca la opción **Transacciones de asiento** en **Sí**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

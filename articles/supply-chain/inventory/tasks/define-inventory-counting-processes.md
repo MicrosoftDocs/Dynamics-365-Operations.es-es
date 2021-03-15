@@ -84,3 +84,6 @@ Este tema describe la configuración de procesos de recuento de inventario bási
 5. En el menú desplegable del campo **Grupo de recuento**, seleccione un grupo de recuento. Puede seleccionar un grupo de recuento específico que se debe aplicar al artículo del almacén específico seleccionado. Cuando el recuento se realice en ese almacén, esta directiva de recuento anulará la directiva de recuento general para el artículo.  
 6. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

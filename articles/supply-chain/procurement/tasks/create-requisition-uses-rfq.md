@@ -98,3 +98,6 @@ La siguiente tarea es crear una solicitud de presupuesto para obtener ofertas de
 8. Seleccionar la página.
 9. Seleccione Completar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

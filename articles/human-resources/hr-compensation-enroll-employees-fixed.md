@@ -39,3 +39,6 @@ El director de compensaciones y prestaciones puede asignar a los empleados plane
     * Si el plan de compensación fija es un plan por pasos, seleccione el paso que contiene el índice salarial correcto para el empleado. Si el plan de compensación fija es un plan por categorías o grupos, indique el índice salarial correcto para el empleado. El índice salarial se valida en relación con los ajustes de tolerancia para el plan, y los puntos de referencia mínimos y máximos para el nivel de compensación del trabajo.  
 8. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

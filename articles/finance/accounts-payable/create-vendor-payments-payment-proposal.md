@@ -122,3 +122,6 @@ Puede definir una cuenta estándar de pago a débito por método de pago indepen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

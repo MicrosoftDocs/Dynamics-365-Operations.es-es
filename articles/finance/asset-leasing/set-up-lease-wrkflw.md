@@ -52,3 +52,6 @@ El tema explica cómo configurar un flujo de trabajo de aprobación que se ejecu
 14. En la página **Crear flujo de trabajo de arrendamiento**, seleccione **Cerrar**.
 14. Seleccione el nuevo flujo de trabajo y luego seleccione **Versiones**. Luego seleccione **Activar** para asegurarse de que el flujo de trabajo esté activo.
 15. Seleccione **Cerrar**. Aparece la nueva versión activa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

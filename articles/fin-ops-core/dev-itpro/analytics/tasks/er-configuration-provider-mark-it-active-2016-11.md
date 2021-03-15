@@ -44,3 +44,6 @@ En este tema se explica cómo un usuario administrador del sistema o con rol de 
 2. Seleccione **Definir como activo**.
 
 ![Página del espacio de trabajo de los informes electrónicos](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

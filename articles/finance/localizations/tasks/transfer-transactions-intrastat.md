@@ -152,3 +152,6 @@ Este procedimiento le guía por cómo configurar parámetros de intrastat y tran
     
 Revise los datos transferidos, incluidos el país o la región de destino/envío, el país de origen, el peso, la cantidad, la cantidad en unidades adicionales, la mercancía, el código de transacción, los importes de factura y los importes estadísticos. Puede modificar los datos, si procede.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

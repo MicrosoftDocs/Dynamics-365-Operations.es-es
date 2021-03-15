@@ -50,3 +50,6 @@ Puede excluir valores atípicos para mejorar la precisión de la previsión. Est
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

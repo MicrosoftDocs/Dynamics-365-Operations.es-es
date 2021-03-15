@@ -211,3 +211,6 @@ Si tiene filas en la tabla del cliente con valores en las columnas **ContactPers
     La sincronización inicial de las filas ahora se ha completado.
 
 8. En la aplicación Finance and Operations, vuelva a activar Change Tracking en la tabla **Clientes V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

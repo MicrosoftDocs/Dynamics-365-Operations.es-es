@@ -50,3 +50,6 @@ Para ver o asignar la convención de arrendamiento, siga estos pasos.
 3. Seleccione **Guardar**.
 
 Cuando se crea un arrendamiento, la fecha de comienzo de cada libro se introduce automáticamente en función de la fecha de inicio que se introduce para el arrendamiento y la convención de arrendamiento que se especifica para el libro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

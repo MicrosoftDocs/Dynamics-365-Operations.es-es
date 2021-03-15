@@ -48,3 +48,6 @@ Imagine el caso siguiente: se necesita una placa de metal para una operación de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

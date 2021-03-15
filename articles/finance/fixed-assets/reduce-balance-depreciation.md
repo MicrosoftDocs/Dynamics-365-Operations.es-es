@@ -84,3 +84,6 @@ A través del método de Saldo decreciente, el 30 por ciento de la base de depre
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta grab
 7. Haga clic en la flecha para agregar los equipos disponibles seleccionados a la libreta de direcciones.
 8. Haga clic en **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

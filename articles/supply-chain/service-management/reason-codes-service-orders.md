@@ -49,3 +49,6 @@ Los códigos de motivo son opcionales. Puede decidir si es obligatorio especific
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

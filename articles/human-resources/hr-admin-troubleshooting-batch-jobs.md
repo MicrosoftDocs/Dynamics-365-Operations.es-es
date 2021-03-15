@@ -65,3 +65,6 @@ Los siguientes trabajos por lotes deben ejecutarse por la noche o tras las horas
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Optimizar el rendimiento con tareas automáticas de limpieza](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

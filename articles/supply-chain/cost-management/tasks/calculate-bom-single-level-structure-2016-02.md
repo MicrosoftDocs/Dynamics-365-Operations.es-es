@@ -43,3 +43,6 @@ Este procedimiento muestra cómo calcular el coste de un producto terminado medi
     * Es posible que tenga que hacer la elipsis (...) para ver esta opción en el menú superior.    A continuación se indica la composición del coste:  *    10 se deriva de ITEM_A, 10 de ITEM_B, 10 de BOM_2. En este caso no hay detalles para BOM_2, ya que se ha especificado como coste estándar de 10 pero no mediante el cálculo.  *    7 se deriva del tiempo de configuración, que es un coste constante, y el 7 adicional se deriva de la operación de tiempo de ejecución (Proceso).  *    También hay otros importes que corresponden a costes indirectos.  
 9. @SysTaskRecorder: _RequestClose
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

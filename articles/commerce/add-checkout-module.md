@@ -126,3 +126,6 @@ Para agregar un módulo de finalización del pago a una página nueva y establec
 [Módulo de detalles del pedido](order-confirmation-module.md)
 
 [Módulo de tarjeta de regalo](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

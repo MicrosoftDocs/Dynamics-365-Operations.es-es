@@ -105,3 +105,6 @@ Otra forma de hacer la coincidencia manual para este ejemplo es proceder de la s
 1. Haga coincidir Inv1 e Inv 2 con FB uno tras otro. FB está completamente coincidente.
 
 Como muestra este ejemplo, las facturas de flete coincidentes con importes negativos solo deben realizarse manualmente. Esto garantizará que siempre sea posible hacer coincidir las facturas de flete con importes negativos con una factura de flete que no coincida completamente porque eso le permite controlar la secuencia de coincidencia.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

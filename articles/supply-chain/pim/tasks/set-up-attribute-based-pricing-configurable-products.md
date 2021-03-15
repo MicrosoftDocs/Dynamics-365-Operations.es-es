@@ -51,3 +51,6 @@ En este tema se explica cómo configurar unos precios en función del atributo. 
 8. En el campo **Expresión**, escriba un valor. Por ejemplo, escriba `50`. 
 9. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

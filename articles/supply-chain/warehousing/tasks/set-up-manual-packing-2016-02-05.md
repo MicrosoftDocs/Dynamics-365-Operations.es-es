@@ -94,3 +94,6 @@ El proceso de embalaje le permite validar y empaquetar productos en contenedores
 8. En el campo Unidad de peso, especifique o seleccione un valor.
 9. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

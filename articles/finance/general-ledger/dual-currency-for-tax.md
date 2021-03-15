@@ -143,3 +143,6 @@ Para obtener más información, consulte los siguientes temas:
 - [Divisa dual](dual-currency.md)
 - [Visión general de impuestos](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

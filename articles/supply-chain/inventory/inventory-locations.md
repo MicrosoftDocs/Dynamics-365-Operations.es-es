@@ -65,3 +65,6 @@ Es posible copiar las ubicaciones de un almacén a otro y crear ubicaciones a tr
 --------
 
 [Creación de un nuevo diseño de almacén](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

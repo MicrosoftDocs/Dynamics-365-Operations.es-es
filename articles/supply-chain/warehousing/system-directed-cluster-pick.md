@@ -206,3 +206,6 @@ Antes de poder configurar la selección de clúster dirigida por el sistema, deb
 1. El último paso en el dispositivo móvil es **Colocar** el clúster en la ubicación final. Seleccione **Aceptar**
     - Cuando se confirma esta operación de colocación, el clúster se cierra y se divide según el valor que establecido en el campo **Dividir clúster en** del perfil del clúster. Los identificadores de trabajo también se cierran.
 1. Se muestra un mensaje de "Clúster completo" en el dispositivo móvil.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -184,3 +184,6 @@ Este procedimiento usa la empresa de demostración USMF.
     * Compruebe que el informe muestra las transacciones con número de documento bancario, límite de crédito, importe usado y el importe de saldo del crédito.  
 8. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

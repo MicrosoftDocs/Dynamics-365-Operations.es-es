@@ -135,3 +135,6 @@ Antes de registrar una factura de servicios, se debe visualizar el asiento conta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

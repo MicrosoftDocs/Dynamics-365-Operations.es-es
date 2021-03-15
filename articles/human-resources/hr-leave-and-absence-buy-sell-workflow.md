@@ -81,3 +81,6 @@ Estos ejemplos muestran cómo puede crear diferentes tipos de condiciones de flu
 [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)<br>
 [Gestionar directivas de compra y venta de bajas](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

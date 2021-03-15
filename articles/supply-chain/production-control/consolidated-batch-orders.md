@@ -45,3 +45,6 @@ Un pedido de lote consolidado puede incluir cualquier combinación de las órden
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

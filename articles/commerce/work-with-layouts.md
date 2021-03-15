@@ -108,3 +108,6 @@ Cuando haya obtenido una vista previa de los cambios para su diseño preestablec
 [Visión general de plantillas y diseños](templates-layouts-overview.md)
 
 [Trabajar con plantillas](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

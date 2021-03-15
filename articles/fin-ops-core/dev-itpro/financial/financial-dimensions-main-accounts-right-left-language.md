@@ -38,3 +38,6 @@ Las dimensiones financieras y las cuentas principales son componentes clave de l
 - Evite el uso del delimitador del plan contable seleccionado en los valores de la dimensión financiera y de la cuenta principal.
 
 Siguiendo estas prácticas recomendadas, ayuda a garantizar la representación coherente del orden definido por el usuario en el sistema.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

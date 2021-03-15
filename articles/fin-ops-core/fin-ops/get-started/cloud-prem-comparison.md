@@ -176,3 +176,6 @@ Para ver una lista de capacidades que estén disponibles en implementaciones loc
 
 \* En entornos locales, PerfTimer solo muestra resultados para el cliente.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

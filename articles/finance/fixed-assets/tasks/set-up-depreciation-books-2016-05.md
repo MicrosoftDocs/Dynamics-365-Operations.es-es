@@ -54,3 +54,6 @@ Este procedimiento explica el proceso de creación de un nuevo libro de amortiza
 6. En el campo Tiempo de vida, especifique un número.
     * Tenga en cuenta que el valor del campo Períodos de depreciación se calcula después de definir el tiempo de vida.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

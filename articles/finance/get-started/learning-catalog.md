@@ -178,3 +178,6 @@ Busque la formación en línea adecuada, talleres presenciales y eventos para su
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

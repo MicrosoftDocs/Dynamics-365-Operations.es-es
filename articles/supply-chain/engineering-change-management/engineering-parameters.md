@@ -56,3 +56,6 @@ La siguiente tabla describe los campos que están disponibles en la pesetañ **A
 | Regla de gravedad | Seleccione cómo se debe establecer la gravedad de una orden de cambio de ingeniería. Seleccione *Manual* si se espera que el usuario ingrese un valor en el campo **Gravedad**. Seleccione *Calcular* para que el sistema calcule el valor del campo **Gravedad** cuando selecciona **Calcular la gravedad** en el Panel de acciones de la orden de cambio de ingeniería. En este caso, el sistema utilizará las reglas de gravedad definidas en la página **Conjunto de reglas de gravedad**. Seleccione *Calcular automáticamente* tener el valor del campo **Gravedad** calculado y completado automáticamente de acuerdo con los conjuntos de reglas de gravedad. |
 | Volver a liberar productos afectados | Este campo es aplicable cuando vuelve a lanzar productos a través de una orden de cambio de ingeniería. Puede seleccionar si se deben proponer todos los productos o solo los productos afectados en la caja de diálogo **Lanzamientos**. |
 | Niveles de L. MAT para liberar | La profundidad del nivel de la lista de materiales para liberar. Si la lista de materiales tiene más niveles (es decir, si es más profundo) que el valor que se especifica aquí, solo se liberarán los niveles superiores al valor especificado. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

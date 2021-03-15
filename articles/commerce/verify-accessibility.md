@@ -86,3 +86,6 @@ Para utilizar el servicio [Microsoft Accessibility Insights](https://accessibili
 [Enriquecer una página de aterrizaje de categoría](enrich-category-page.md)
 
 [Crear páginas de comercio electrónico dinámicas basadas en parámetros de URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

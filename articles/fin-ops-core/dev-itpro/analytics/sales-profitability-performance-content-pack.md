@@ -107,3 +107,6 @@ Las dimensiones clave siguientes del cubo de ventas se utilizan como filtros par
 | Fechas            | Fechas                                                |
 
 De forma predeterminada, el contenido muestra los datos del año natural actual. Sin embargo, puede cambiar el filtro de la fecha en la sección de filtros de informe. También puede cambiar el filtro de empresa.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Para incorporar socios comerciales y usuarios directamente en la sede central de
 [Establecer límites de cantidad de productos para sitios de comercio electrónico B2B](quantity-limits.md)
 
 [Visión general de las secuencias numéricas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

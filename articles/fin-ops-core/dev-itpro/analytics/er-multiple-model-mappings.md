@@ -182,3 +182,6 @@ La asignación de modelo **Copia de InvoiceProject** de la configuración **Asig
 - [Gestionar la asignación de modelos de informes electrónicos en distintas configuraciones de informes electrónicos](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Configurar asignaciones de modelo de informes electrónicos dependientes del contexto del país](er-country-dependent-model-mapping.md)
 - [Cambios en la API de marco de informes electrónicos](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

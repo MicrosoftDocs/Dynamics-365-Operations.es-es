@@ -207,3 +207,6 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Instalar el diseñador de punto de venta (TPV) de Retail](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

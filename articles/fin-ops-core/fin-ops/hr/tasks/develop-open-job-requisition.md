@@ -65,3 +65,6 @@ Los proyectos de contratación ayudan a gestionar el proceso de contratación. S
     * El estado Iniciado significa que el proyecto está listo para recibir las solicitudes.  
 33. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

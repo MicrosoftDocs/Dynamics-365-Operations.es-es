@@ -96,3 +96,6 @@ Una vez publicada la página personalizada, se publicará en lugar de la página
 [Verificar accesibilidad de contenido de página](verify-accessibility.md)
 
 [Extensibilidad de canal en línea](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

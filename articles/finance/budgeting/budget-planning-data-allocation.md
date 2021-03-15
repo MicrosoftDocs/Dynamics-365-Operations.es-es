@@ -76,3 +76,6 @@ Finalmente, agregue una tarea automatizada para la asignación de la etapa de pl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

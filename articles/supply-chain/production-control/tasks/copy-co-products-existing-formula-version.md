@@ -53,3 +53,6 @@ Este procedimiento muestra cómo copiar coproductos derivados de una versión de
 6. Haga clic en Aceptar
 7. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

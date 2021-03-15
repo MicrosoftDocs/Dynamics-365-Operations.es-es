@@ -81,3 +81,6 @@ Este procedimiento muestra cómo procesar devoluciones de cliente desde que se g
     - La cuenta de acumulación de devoluciones se ha abonado para representar el pasivo de futuros del cliente.
     - La cuenta de gastos de la devolución se ha abonado, para reconocer el coste que se incurrió en relación con las ventas.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

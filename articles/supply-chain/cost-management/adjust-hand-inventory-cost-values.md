@@ -43,3 +43,6 @@ Este artículo se ha configurado con el modelo de inventario FIFO, y el cierre d
 -   5 de febrero: una cantidad de 1 a un coste de 13,00 dólares
 
 Para definir el coste de estos dos artículos en 15,00 USD, utilice la opción de ajuste disponible para ajustar las cantidades abiertas disponibles como del último período de cierre del inventario. **Nota**: la fecha de contabilización de la transacción de ajuste disponible será la fecha del último cierre de inventario. Este valor de fecha no se podrá modificar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

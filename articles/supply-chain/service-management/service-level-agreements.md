@@ -80,3 +80,6 @@ Cuando se crea un nuevo pedido de servicio para un acuerdo de servicio al cual s
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

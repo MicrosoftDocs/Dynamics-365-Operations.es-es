@@ -48,3 +48,6 @@ Esta tarea actualiza la convención de amortizaciones de un grupo de activos fij
 15. Haga clic en Aceptar
     *  Los resultados del proceso se muestran en el informe de actualización masiva.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

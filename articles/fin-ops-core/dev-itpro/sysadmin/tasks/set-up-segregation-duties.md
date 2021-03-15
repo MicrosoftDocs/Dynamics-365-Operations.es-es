@@ -42,3 +42,6 @@ Puede configurar reglas para tareas diferentes que deban llevar a cabo diferente
 
 > [!IMPORTANT] 
 > El cumplimiento de las reglas para la segregación de controles no se verifica cuando crea una regla. Puede crear una regla que cree un conflicto para los roles existentes. Las asignaciones de roles de usuario existentes también pueden estar en conflicto con la nueva regla. Debe validar el cumplimiento después de crear o modificar una regla. Para más información, consulte [Identificar y resolver conflictos de segregación de controles](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

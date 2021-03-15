@@ -40,3 +40,6 @@ Para crear y contabilizar el movimiento de diario de reclasificación de pasivos
 4. Active el parámetro **Registrar**. Alternativamente, si la entrada debe crearse pero no publicarse, deje este parámetro desactivado.
 5. Active el parámetro **Vista previa antes de registrar** para ver la entrada antes de que se registre.
 6. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

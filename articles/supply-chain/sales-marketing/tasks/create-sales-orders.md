@@ -67,3 +67,6 @@ Los productos vendidos por la organización pueden venir en variantes que se dif
     La página **Totales** muestra los detalles sobre todo el pedido. Esto incluye el importe del subtotal, que es una suma de todos los importes netos de línea ajustados según los eventuales descuentos de línea, el importe bruto de factura, que es un importe subtotal ajustado en función de eventuales descuentos, gastos e impuestos del nivel de pedido, la situación de límite de crédito del cliente, etc. El importe de la factura es el importe que aparecerá en el documento de factura del cliente.  
     
 3. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Cuando firme una orden planificada, el cuadro de diálogo **Reafirmante** propor
 - **No** - No se aplica marcado de inventario.
 - **Estándar** – El marcado de inventarios se actualiza de acuerdo con el diagrama de árbol: Un pedido de requisitos (bajo demanda) está marcado en función de un pedido de entrega (suministro). Si queda alguna cantidad en el pedido de cumplimiento, no se marca y la información de referencia se deja en blanco. Por ejemplo, si una orden de venta de 100 ea está vinculada a una orden de compra de 150 ea, la información de referencia se asignará solo a la orden de venta.
 - **Extendido** – : el pedido de requisitos (demanda) y el pedido de cumplimiento (suministro) se marcan, independientemente de si queda alguna cantidad en el pedido de cumplimiento. Por ejemplo, si una orden de venta de 100 ea está vinculada a una orden de compra de 150 ea, la información de referencia se asignará a la orden de venta y a la orden de compra.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

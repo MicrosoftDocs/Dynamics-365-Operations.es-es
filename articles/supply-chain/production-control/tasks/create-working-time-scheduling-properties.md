@@ -43,3 +43,6 @@ Las propiedades de previsión de horario de trabajo se usan para clasificar los 
 3. En el campo Valor, escriba un valor.
 4. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

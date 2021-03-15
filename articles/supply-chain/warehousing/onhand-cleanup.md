@@ -62,3 +62,6 @@ De forma predeterminada, la opción de **Tiempo de ejecución máximo** no está
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Tiempo de ejecución máximo para el trabajo de limpieza de entradas disponibles de gestión de almacén*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

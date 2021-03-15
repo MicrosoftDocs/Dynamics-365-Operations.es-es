@@ -87,3 +87,6 @@ Cuando se registra un extracto, los pedidos de venta y las facturas se crean par
 - Las ventas para las que se ha agregado un cliente a la transacción en POS generan pedidos de venta y facturas independientes, una para cada cliente único.
 
 Los diarios de pago se crean automáticamente para los pagos en el extracto, y el inventario se actualiza para la tienda del PDV.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

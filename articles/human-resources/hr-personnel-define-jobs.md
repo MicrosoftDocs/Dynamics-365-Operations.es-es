@@ -71,3 +71,6 @@ Esta tarea se centra en la creación de un nuevo trabajo. Se completará con ent
 33. Alterne la expansión de la sección Formación.
 34. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

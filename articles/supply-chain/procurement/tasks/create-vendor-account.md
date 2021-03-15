@@ -58,3 +58,6 @@ Este procedimiento muestra cómo crear una cuenta de proveedor y agregar una dir
 7. Cierre la página.
 8. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

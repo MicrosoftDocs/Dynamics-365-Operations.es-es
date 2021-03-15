@@ -163,3 +163,6 @@ Para configurar características opcionales para su entorno de evaluación de Co
 [Portal de Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

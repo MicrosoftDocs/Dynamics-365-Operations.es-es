@@ -41,3 +41,6 @@ La comprobación de artículos para trabajos de picking en clúster funcional de
 |        Opción        |                                    Descripción                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Confirmación del producto | Permite que se compruebe cada pieza de inventario desde el dispositivo móvil cuando se escanea. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

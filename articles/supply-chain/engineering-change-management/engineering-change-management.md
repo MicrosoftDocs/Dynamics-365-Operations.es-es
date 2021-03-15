@@ -184,3 +184,6 @@ La mayoría de los campos de las órdenes de cambio de ingeniería son los mismo
 | Salud medioambiental y seguridad | Especifique si las reglas de seguridad y salud ambiental son aplicables al cambio. Si es así, puede seleccionar las reglas aplicables. |
 
 Puede usar el botón **Mantener/copiar información de cambios** para copiar la información de cambio entre los productos afectados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

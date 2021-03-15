@@ -208,3 +208,6 @@ En la consolidación de contabilidad general, se ha agregado una nueva opción p
 -  Ahora puede elegir entre usar la divisa de contabilidad o de notificación de la empresa de origen como la divisa como la divisa de transacción en la empresa de consolidación.
 
 - Los importes de la divisa de contabilidad o de notificación de la empresa de origen se copiarán directamente en los importes de divisa de contabilidad o de notificación en la empresa de consolidación, si cualquiera de las divisas es la misma. Los importes de la divisa de contabilidad y de notificación en la empresa de consolidación se calculan mediante el tipo de cambio si ninguna de las divisas es la misma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

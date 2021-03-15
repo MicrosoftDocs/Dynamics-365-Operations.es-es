@@ -78,3 +78,6 @@ En lugar de tener que aumentar la demanda al final del proceso de asignación y 
 |   Directivas de ubicación   |                                                       Las directivas de ubicación son necesarias para guiar el trabajo a las ubicaciones donde se requiere reabastecimiento y a las ubicaciones desde donde se suministra el inventario.                                                        |
 |     Plantillas de trabajo      |                                                   Las plantillas de trabajo del tipo <strong>Reabastecimiento</strong> son necesarias para crear el trabajo de reabastecimiento para que el inventario se pueda mover a las ubicaciones deseadas.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

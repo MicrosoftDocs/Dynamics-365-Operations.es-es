@@ -208,3 +208,6 @@ En el asistente, se especifican los siguientes valores para Contoso Retailer:
     - **Respuesta:** “Sí, como se define en este plan maestro”. Se especifica **1 día**.
 
     Contoso usa las solicitudes aprobadas de sus tiendas para crear pedidos de compra planificados para reabastecer las tiendas. Dado que la planificación maestra se ejecuta cada día, se incluirán en la planificación las solicitudes a partir del último día.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

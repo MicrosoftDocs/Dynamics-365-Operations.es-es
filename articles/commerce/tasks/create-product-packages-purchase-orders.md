@@ -72,3 +72,6 @@ Este procedimiento le guía por la creación de un paquete de producto y su uso 
 17. Haga clic en Crear.
 18. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

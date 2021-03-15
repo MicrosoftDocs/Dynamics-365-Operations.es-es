@@ -42,3 +42,6 @@ Normalmente los descuentos por pronto pago se calculan durante el proceso de liq
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

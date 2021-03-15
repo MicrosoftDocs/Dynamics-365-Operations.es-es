@@ -95,3 +95,6 @@ Si necesita que la precisión de la divisa para una divisa específica difiera d
 ### <a name="tables-currency-column"></a>tablas: columna Divisa
 
 El número de decimales que se pueden configurar para columnas de divisa específicas está limitado a cuatro.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

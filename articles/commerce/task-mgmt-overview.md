@@ -52,3 +52,6 @@ La siguiente ilustración muestra la arquitectura conceptual de la gestión de t
 [Asignar listas de tareas a tiendas o empleados](task-mgmt-assign-lists.md)
 
 [Administración de tareas en PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

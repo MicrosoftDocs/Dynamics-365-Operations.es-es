@@ -56,3 +56,6 @@ Este procedimiento define una configuración de descuento por pronto pago y fech
 26. En **Cuenta principal para descuentos de proveedor**, especifique la cuenta principal en la que se contabilizará el descuento por pronto pago de las facturas de proveedor.
 27. Haga clic en **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

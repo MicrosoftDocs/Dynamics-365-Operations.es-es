@@ -238,3 +238,5 @@ Creará un pedido de compra que tiene tres líneas: dos líneas para el mismo n�
 
 > [!TIP]
 > Puede repetir este escenario, pero esta vez, establezca **Talla** - *No* en la ficha desplegable **Permitir la combinación de dimensiones del producto** en *GRANEL* de **Perfiles de ubicación**, de modo que ninguna de las dimensiones del producto se pueda combinar. En este caso, cuando reciba el pedido de compra, cada variante de producto se colocará en una nueva ubicación.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

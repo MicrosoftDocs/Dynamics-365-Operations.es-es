@@ -157,3 +157,6 @@ Vaya a **Retail y Commerce \> Canales \> Tiendas \> Todas las tiendas \> Extract
 Esta configuración ayuda a garantizar que los extractos de back-office incluyan las mismas transacciones que los turnos en el PDV, y que los datos se resumen en ese turno.
 
 Para obtener más información sobre los métodos de extracto y de cierre, consulte [Almacenar configuraciones para los extractos de Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -249,3 +249,6 @@ Este escenario muestra cómo la configuración que se describió anteriormente e
 1. En el pedido de ventas que acaba de crear, en la ficha desplegable **Líneas de pedido de venta**, seleccione **Agregar línea** para añadir otra línea.
 1. En la nueva línea, establezca el campo **Número de artículo** a *M9200* y el campo **Cantidad** a *1*.
 1. Repita las líneas 6 a 9 para reservar la línea y liberarla en el almacén. Como antes, el sistema crea un envío **nuevo** para la línea que agregó. Sin embargo, porque el artículo es del grupo de artículos **Audio de automóvil**, **no pasa las restricciones que configuró para el grupo mixto de carga**. Por lo tanto, es **agregado a una nueva carga**. Si no hubiera especificado un grupo mixto de carga en la plantilla de construcción de carga, este envío se habría agregado a la primera carga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

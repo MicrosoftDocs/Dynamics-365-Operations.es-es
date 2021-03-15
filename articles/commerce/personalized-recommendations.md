@@ -130,3 +130,6 @@ Para aplicar la personalización a una lista de recomendaciones existente en el 
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

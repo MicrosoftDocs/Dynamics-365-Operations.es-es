@@ -112,3 +112,6 @@ En la tabla siguiente se muestran los tipos de lista disponibles para la selecci
 [Visión general de recomendaciones de producto](product-recommendations.md)
 
 [Módulo de vista rápida](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

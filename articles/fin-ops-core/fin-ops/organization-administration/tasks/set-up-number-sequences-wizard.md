@@ -38,3 +38,6 @@ Las secuencias numéricas se usan para generar identificadores únicos y legible
 4. Seleccione **Siguiente**.
 5. Seleccione **Fin**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

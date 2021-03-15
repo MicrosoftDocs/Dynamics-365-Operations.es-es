@@ -109,3 +109,6 @@ Para obtener más información, consulte [Credito y cobros en clientes](collecti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

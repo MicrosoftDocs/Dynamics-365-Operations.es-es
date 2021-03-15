@@ -106,3 +106,6 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
 ## <a name="view-the-purchase-order-that-is-generated"></a>Ver el pedido de compra que se ha generado
 
 En el panel de acciones, en la pestaña **General**, seleccione **Pedido de compra**. La página que aparece muestra el pedido de compra que se generó al aceptar la oferta.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

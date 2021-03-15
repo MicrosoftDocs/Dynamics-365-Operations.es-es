@@ -113,3 +113,6 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 11. Cierre la página. 
 
 Cuando tenga que evaluar esta asignación de modelo mediante el uso de metadatos de una aplicación de versión diferente, registre otra aplicación conectada, asígnela a esta asignación de modelo y valídela con nuevos metadatos.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

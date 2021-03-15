@@ -45,3 +45,6 @@ Este procedimiento le muestra la definición de puntos de recompensa de fideliza
 10. En el campo Unidad de tiempo de vencimiento, seleccione una opción.
 11. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ La siguiente imagen muestra cómo publicar actualizaciones de canal.
 [Crear una jerarquía de navegación de canales](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

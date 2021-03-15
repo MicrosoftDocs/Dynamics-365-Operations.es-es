@@ -110,3 +110,6 @@ El coste corregido por hora y el tiempo de trabajo se registran en un diario de 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

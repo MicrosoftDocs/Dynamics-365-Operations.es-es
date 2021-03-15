@@ -65,3 +65,6 @@ Para agregar un módulo de icono de carrito, consulte [Módulo de encabezado](au
 [Módulo de detalles del pedido](order-confirmation-module.md)
 
 [Módulo de tarjeta de regalo](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

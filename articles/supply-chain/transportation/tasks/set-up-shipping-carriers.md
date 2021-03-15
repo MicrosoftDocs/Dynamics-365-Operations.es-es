@@ -72,3 +72,6 @@ En este tema se muestra cómo configurar un transportista y definir detalles com
 9. En el campo **Motor de tiempo de tránsito**, seleccione una opción en el menú desplegable.
 10. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

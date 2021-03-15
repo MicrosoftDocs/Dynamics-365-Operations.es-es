@@ -62,3 +62,6 @@ El principio de vaciado Finalizar indica que el material se consumirá automáti
 
 ### <a name="available-at-location"></a>Disponible en la ubicación
 El principio de vaciado Disponible en la ubicación indica que el material se consumirá automáticamente cuando se registre como seleccionado para producción. El material se registra como seleccionado de la ubicación cuando se complete el trabajo para la selección de materia prima, o cuando el material está disponible en la ubicación de entrada de producción y la línea de materiales se libera al almacén. La lista de selección que se genera durante el proceso se registra en un trabajo por lotes. Este principio es relevante si, por ejemplo, tiene muchas actividades de selección en un pedido de producción. En este caso, no es necesario actualizar manualmente la lista de selección y puede obtener una vista actual del saldo de trabajo en curso.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

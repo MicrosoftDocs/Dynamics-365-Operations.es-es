@@ -57,3 +57,6 @@ Un grupo de recursos es un conjunto de los recursos de operaciones que correspon
 6. En la lista, busque y seleccione el registro deseado.
 7. En la lista, haga clic en el vínculo de la fila seleccionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

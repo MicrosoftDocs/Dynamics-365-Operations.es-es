@@ -67,3 +67,6 @@ También puede configurar los trabajadores *responsables* del mantenimiento que 
 
 Durante la programación de órdenes de trabajo, se calculan distintas puntuaciones para determinar qué trabajadores deben completar los trabajos relacionados con una orden de trabajo (esas puntuaciones se configuran en el vínculo **Parámetros de administración de activos** > **Programación de órdenes de trabajo**). Si dos o más trabajadores de mantenimiento preferidos o trabajadores responsables del mantenimiento obtienen la misma puntuación durante la programación de órdenes de trabajo, se selecciona a un trabajador al azar. De lo contrario, se asignará siempre al trabajador con la puntuación más alta para que complete una orden de trabajo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

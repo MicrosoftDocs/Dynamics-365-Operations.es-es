@@ -38,3 +38,6 @@ La captura de pantalla siguiente muestra un ejemplo de un trabajador de mantenim
 
 La configuración del calendario para herramientas y activos no es necesaria en relación con la programación de órdenes de trabajo. La suposición es que las herramientas y activos están disponibles 24 horas al día para el mantenimiento.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

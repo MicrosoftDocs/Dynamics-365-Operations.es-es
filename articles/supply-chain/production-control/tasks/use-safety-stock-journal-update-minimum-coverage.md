@@ -65,3 +65,6 @@ Este procedimiento muestra cómo calcular las propuestas de cobertura mínima ba
 5. En el **panel acciones**, haga clic en Plan.
 6. Haga clic en **Cobertura de artículos**. Observe que se ha actualizado la **Cantidad mínima** con la nueva cantidad mínima del diario de existencias de seguridad.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

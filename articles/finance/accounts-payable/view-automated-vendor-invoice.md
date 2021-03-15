@@ -37,3 +37,6 @@ Si una factura importada está sujeta al proceso de envío al flujo de trabajo, 
 - **Pausado** - Los procesos automatizados que se definen en la página **Parámetros de cuentas por pagar** se han ejecutado, pero al menos un paso del proceso falló. El estado **Pausado** también se aplica si el campo **Incluir en procesamiento automatizado** está configurado como **No**. Puede ver los errores seleccionando **Ver resultados más recientes**.
 - **En flujo de trabajo** - La factura importada se ha enviado al sistema de flujo de trabajo, ya sea mediante el proceso automatizado de envío al flujo de trabajo o manualmente.
 - **Flujo de trabajo completo** - Se ha completado el proceso de flujo de trabajo para la factura importada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -232,3 +232,6 @@ Para evitar problemas no deseados con acuerdos futuros para esta transacción, e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

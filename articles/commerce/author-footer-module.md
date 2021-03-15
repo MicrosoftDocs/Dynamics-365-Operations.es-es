@@ -86,3 +86,6 @@ Al agregar el fragmento a plantillas de página, ayuda a garantizar que el pie d
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Además de los informes financieros, puede usar los siguientes informes de conta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

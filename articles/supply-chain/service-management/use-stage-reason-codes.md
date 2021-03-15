@@ -72,3 +72,6 @@ Si indicó que es necesario especificar un código de motivo, debe especificar u
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

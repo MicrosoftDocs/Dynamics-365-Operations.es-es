@@ -57,3 +57,6 @@ Use los siguientes pasos para asignar una actividad a otro trabajador:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

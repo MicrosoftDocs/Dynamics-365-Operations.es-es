@@ -58,3 +58,6 @@ Puede crear objetivos, agregar actividades a los objetivos, realizar el seguimie
     * A menudo hay varios objetivos que son los mismos o similares para los miembros del equipo o para todos los empleados.     El administrador o el responsable de RR. HH. puede crear grupos de objetivos que incluyen una o varias plantillas de objetivos. Puede agregar objetivos de un grupo de objetivos y, a continuación, modificarlos para que se adapten a las escalas de tiempo.  
     * Al crear una revisión, puede agregar objetivos a dicha revisión. Consulte la guía de tareas para revisiones para ver cómo puede agregar objetivos a sus revisiones.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

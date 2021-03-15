@@ -142,3 +142,6 @@ Este tema explica cómo revisar la información de cobros junto con diferentes o
 5. Seleccione **Mostrar lista**.
 - Seleccione una cuenta de cliente o acepte la entrada predeterminada. De forma predeterminada esta es la cuenta de cliente seleccionada en la página de lista o en el formulario desde el que abrió este formulario. Si ha abierto el formulario desde una página de lista, los clientes de la lista son los clientes incluidos en la sección de cobros que se usa en la página de lista.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

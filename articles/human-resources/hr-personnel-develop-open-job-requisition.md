@@ -66,3 +66,5 @@ Los proyectos de contratación ayudan a gestionar el proceso de contratación. D
 32. Seleccione **Estado de proyecto de contratación**.
 33. Seleccione **Inicio**. El estado **Iniciado** significa que el proyecto está listo para recibir las solicitudes.  
 34. Seleccione **Aceptar**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Ahora puede asignar la estrategia de creación de carga a una plantilla de creac
 1. Revise las cargas propuestas y las líneas de carga propuestas.
 1. En el panel de acciones, seleccione **Crear cargas** para crear cargas que se basan en las líneas del documento de origen en la ficha desplegable **Líneas de carga propuestas**.
 1. Cierre la página **Workbench de construcción de carga**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

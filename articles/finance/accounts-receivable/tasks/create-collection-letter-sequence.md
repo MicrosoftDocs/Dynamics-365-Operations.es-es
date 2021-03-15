@@ -58,3 +58,6 @@ Use esta guía de tarea para crear una secuencia de cartas de cobro. Esta tarea 
 26. Expanda la ficha desplegable **Nota**.
 27. Especifique el texto tal como desea que aparezca en la carta de cobro para el código de carta de cobro seleccionado. Puede traducir este texto a varios idiomas mediante el menú Traducciones encima del cuadro de nota.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1414,3 +1414,6 @@ En la contabilidad financiera, un coste de 10.000,00 para electricidad se envía
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

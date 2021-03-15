@@ -81,3 +81,6 @@ Hasta que Microsoft publique una solución para solucionar el problema, consider
 - Evite valores decimales en el coste estándar. Intente definir el coste estándar para que el campo **Cantidad de precio** esté configurado en *1*. Si debe especificar un valor de **Cantidad de precio** que sea mayor que *1*, trate de minimizar el número de decimales en el coste estándar unitario. (Idealmente, debería haber menos de dos cifras decimales). Por ejemplo, evite definir configuraciones de coste estándar como **Precio** = *10* y **Cantidad de precio** = *3*, porque producirán un coste estándar unitario de 3,333333 (donde el valor decimal se repite).
 - En la mayoría de los documentos, evite tener varias líneas que contengan la misma combinación de dimensiones de inventario financiero y de producto.
 - Reduzca el grado de paralelización. (En este caso, su sistema puede volverse más rápido, porque se producen menos conflictos de actualización y reintentos).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

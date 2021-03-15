@@ -79,3 +79,6 @@ En la página de la lista **Todos los activos**, puede imprimir un informe de er
 >[!NOTE]
 >Para imprimir un informe de error para varios activos o tipos de activo, seleccione **Administración de activos** > **Informes** > **Activos** > **Error de activo**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

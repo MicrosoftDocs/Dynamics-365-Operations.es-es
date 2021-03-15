@@ -106,3 +106,6 @@ Este artículo describe las características que son nuevas o que han cambiado e
 [Página principal de Novedades y cambios en Finance and Operations](whats-new-changed.md)
 
 [Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

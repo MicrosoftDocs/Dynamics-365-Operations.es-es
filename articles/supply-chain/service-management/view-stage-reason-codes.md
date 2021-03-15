@@ -44,3 +44,6 @@ Vea y modifique la lista de motivos de etapa de un pedido de servicio. Use los m
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

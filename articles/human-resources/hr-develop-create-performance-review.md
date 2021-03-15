@@ -78,3 +78,6 @@ Este tema explica cómo crear una revisión de rendimiento y describe el propós
 34. Seleccione la ficha **Revisión**. A medida que la revisión pasa por los estados, el empleado y el responsable pueden agregar comentarios para cada objetivo o competencia.  
 35. Seleccione la pestaña **Aprobaciones** . El trabajador y el administrador podrán aprobar la revisión. Una vez efectuadas todas las aprobaciones necesarias, el estado cambiará a **Completada** y no podrán hacerse más cambios.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

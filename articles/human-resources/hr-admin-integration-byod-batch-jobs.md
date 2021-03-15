@@ -96,3 +96,6 @@ La característica BYOD tiene las siguientes limitaciones:
 [Usar su propia base de datos (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
 [Visión general de los trabajos de exportación e importación de datos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
 [Habilitar seguimiento de cambios para entidades](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

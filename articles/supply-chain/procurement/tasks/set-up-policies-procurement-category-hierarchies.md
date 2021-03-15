@@ -51,3 +51,6 @@ Use este procedimiento para configurar las reglas para solicitar productos en un
 6. En el campo **Selección de proveedores**, seleccione una opción. Seleccione una regla para controlar qué tipo de proveedores se pueden seleccionar para la categoría al crear solicitudes.  
 7. Haga clic en **Cerrar**. Las reglas de directivas que ha definido han sido para solicitudes de tipo Consumo. Si deseara definir directivas para solicitudes del tipo Reabastecimiento, crearía una regla para el tipo Regla de directivas llamada “Regla de directivas de acceso de categorías de reabastecimiento”.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

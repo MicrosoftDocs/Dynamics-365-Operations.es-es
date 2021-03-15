@@ -44,3 +44,6 @@ Solo se puede cancelar el trabajo del tipo **Ventas**, **Emisión de transferenc
 Para desbloquear el trabajo, el sistema cancela cualquier línea de trabajo restante y corrige los datos de almacén que se asocian al id. de trabajo que especificó el usuario. A continuación, se puede reanudar cualquier operación habitual de manipulación en el almacén que implique la cantidad de artículos afectada.
 
 Para poner el artículo afectado en una ubicación concreta después de que se cancele el trabajo, el usuario debe usar una operación de movimiento de inventario o de ajuste de cantidad en un dispositivo móvil.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

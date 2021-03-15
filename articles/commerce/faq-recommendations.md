@@ -99,3 +99,6 @@ Después de habilitar recomendaciones de productos, deberá agregar el panel de 
 [Crear manualmente recomendaciones curadas](create-editorial-recommendation-lists.md)
 
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

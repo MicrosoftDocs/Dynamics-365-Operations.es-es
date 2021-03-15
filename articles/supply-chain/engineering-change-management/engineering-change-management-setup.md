@@ -90,3 +90,6 @@ Para cada conjutno de reglas, establezca el siguiente campo:
 - **Gravedad** - Seleccione el nivel de gravedad para el que establecer reglas. Use la página **Severidades de cambios de ingeniería** para crear y nombrar los niveles. (Vea la sección anterior para obtener más información).
 
 Utilice los botones de la ficha desplegable **Reglas** para agregar o quitar una regla para la configuración de gravedad actual. Cada regla tiene un campo **Regla** y un campo **Nombre**. Las reglas las establece el sistema e indican los tipos de cambios que puede tener un producto. El nombre indica el tipo de modificación.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

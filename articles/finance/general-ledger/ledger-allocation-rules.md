@@ -50,3 +50,6 @@ Cada regla de asignación tiene cuatro componentes: general, origen, destino y c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

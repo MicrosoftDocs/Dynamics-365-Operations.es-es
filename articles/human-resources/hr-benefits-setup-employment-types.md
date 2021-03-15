@@ -41,3 +41,6 @@ Establezca tipos de empleo en Dynamics 365 Human Resources para que coincidan co
    | **Descripción** | Una descripción del tipo de empleo. |
 
 4. Seleccione **Guardar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

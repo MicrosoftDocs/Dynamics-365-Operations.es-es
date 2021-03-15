@@ -81,3 +81,6 @@ Estos ejemplos muestran cómo puede crear diferentes tipos de condiciones de flu
 ## <a name="see-also"></a>Consulte también
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

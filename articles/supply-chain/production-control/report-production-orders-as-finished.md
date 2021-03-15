@@ -47,3 +47,6 @@ Puede establecer un pedido de producción en **Notificar como terminado** median
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

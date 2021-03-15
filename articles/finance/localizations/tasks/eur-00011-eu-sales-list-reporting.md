@@ -128,3 +128,6 @@ Estas tareas están destinadas a administradores del sistema.
 8. En el campo País/región, escriba "PRT".
 9. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

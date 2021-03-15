@@ -165,3 +165,6 @@ La ilustración siguiente muestra un ejemplo del diálogo **Crear orden de traba
 >[!NOTE]
 >Si desea que las órdenes de trabajo se creen automáticamente, puede programar tareas del plan de mantenimiento, o bien configurar "Crear automáticamente" [planes de mantenimiento](../preventive-and-reactive-maintenance/maintenance-plans.md) o [rondas de mantenimiento](../preventive-and-reactive-maintenance/maintenance-rounds.md) en un activo. Las órdenes de trabajo creadas a partir de solicitudes de mantenimiento en la página de lista **Todo el programa de mantenimiento** tienen tipos de trabajo de mantenimiento seleccionados en las solicitudes de mantenimiento.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

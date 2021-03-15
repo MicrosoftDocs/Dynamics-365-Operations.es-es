@@ -111,3 +111,6 @@ Cuando se usa el campo **Id. de devolución de lote** en una línea del pedido d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
