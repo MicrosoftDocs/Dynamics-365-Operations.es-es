@@ -1,130 +1,128 @@
 ---
 title: Recursos de globalización
 description: Este tema incluye listas de recursos que pueden ayudarle a obtener más información acerca de una funcionalidad y ofertas específicas de un país o región.
-author: ShylaThompson
+author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 26411c24751f698a6789bbbd687aca8f378f7d65
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154128"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560927"
 ---
-# <a name="globalization-resources"></a><span data-ttu-id="3a262-103">Recursos de globalización</span><span class="sxs-lookup"><span data-stu-id="3a262-103">Globalization resources</span></span>
+# <a name="globalization-resources"></a><span data-ttu-id="c6cb1-103">Recursos de globalización</span><span class="sxs-lookup"><span data-stu-id="c6cb1-103">Globalization resources</span></span>
 
-## <a name="local-and-regional-deployments"></a><span data-ttu-id="3a262-104">Implementaciones locales y regionales</span><span class="sxs-lookup"><span data-stu-id="3a262-104">Local and regional deployments</span></span>
-<span data-ttu-id="3a262-105">Si la legislación de su gobierno exige almacenar los datos de manera distinta o usarlos de forma distinta que otros países/regiones, puede haber requisitos de país/región que debe tener en cuenta durante la implementación.</span><span class="sxs-lookup"><span data-stu-id="3a262-105">If your government regulations require data to be stored differently or serviced differently than is required for other countries/regions, there might be country/region requirements you must consider during deployment.</span></span> <span data-ttu-id="3a262-106">Considere los siguientes recursos que pueden serle relevantes:</span><span class="sxs-lookup"><span data-stu-id="3a262-106">Consider the following resources that might be relevant to you:</span></span>
+## <a name="local-and-regional-deployments"></a><span data-ttu-id="c6cb1-104">Implementaciones locales y regionales</span><span class="sxs-lookup"><span data-stu-id="c6cb1-104">Local and regional deployments</span></span>
+<span data-ttu-id="c6cb1-105">Si la legislación de su gobierno exige almacenar los datos de manera distinta o usarlos de forma distinta que otros países/regiones, puede haber requisitos de país/región que debe tener en cuenta durante la implementación.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-105">If your government regulations require data to be stored differently or serviced differently than is required for other countries/regions, there might be country/region requirements you must consider during deployment.</span></span> <span data-ttu-id="c6cb1-106">Considere los siguientes recursos que pueden serle relevantes:</span><span class="sxs-lookup"><span data-stu-id="c6cb1-106">Consider the following resources that might be relevant to you:</span></span>
 
-[<span data-ttu-id="3a262-107">Aplicaciones de Finance and Operations operadas por 21Vianet en China</span><span class="sxs-lookup"><span data-stu-id="3a262-107">Finance and Operations apps operated by 21Vianet in China</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[<span data-ttu-id="c6cb1-107">Aplicaciones de Finance and Operations operadas por 21Vianet en China</span><span class="sxs-lookup"><span data-stu-id="c6cb1-107">Finance and Operations apps operated by 21Vianet in China</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
-## <a name="localization-and-regulatory-features"></a><span data-ttu-id="3a262-108">Características normativas y de localización</span><span class="sxs-lookup"><span data-stu-id="3a262-108">Localization and regulatory features</span></span>
+## <a name="localization-and-regulatory-features"></a><span data-ttu-id="c6cb1-108">Características normativas y de localización</span><span class="sxs-lookup"><span data-stu-id="c6cb1-108">Localization and regulatory features</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3a262-109">Las aplicaciones de Finance and Operations incluyen funcionalidad para los países o regiones documentados en la [Guía de disponibilidad de la localización y la traducción del producto](https://aka.ms/dynamics_365_international_availability_deck).</span><span class="sxs-lookup"><span data-stu-id="3a262-109">Finance and Operations apps include functionality for the country/regions documented in the [Product localization and translation availability guide](https://aka.ms/dynamics_365_international_availability_deck).</span></span> <span data-ttu-id="3a262-110">Esta función se activa según la dirección principal de la entidad jurídica activa.</span><span class="sxs-lookup"><span data-stu-id="3a262-110">This functionality is enabled based on the primary address of the active legal entity.</span></span> 
+<span data-ttu-id="c6cb1-109">Las aplicaciones de Finance and Operations incluyen funcionalidad para los países o regiones documentados en la [Guía de disponibilidad de la localización y la traducción del producto](https://aka.ms/dynamics_365_international_availability_deck).</span><span class="sxs-lookup"><span data-stu-id="c6cb1-109">Finance and Operations apps include functionality for the country/regions documented in the [Product localization and translation availability guide](https://aka.ms/dynamics_365_international_availability_deck).</span></span> <span data-ttu-id="c6cb1-110">Esta función se activa según la dirección principal de la entidad jurídica activa.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-110">This functionality is enabled based on the primary address of the active legal entity.</span></span> 
 
-<span data-ttu-id="3a262-111">Este tema incluye listas de recursos que pueden ayudarle a hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="3a262-111">This topic includes lists of resources that can help you do the following:</span></span> 
-- <span data-ttu-id="3a262-112">Aprender más sobre el desarrollo de soluciones específicas del país o región.</span><span class="sxs-lookup"><span data-stu-id="3a262-112">Learn more about developing country/region-specific solutions.</span></span>
-- <span data-ttu-id="3a262-113">Obtener actualizaciones específicas del país o región.</span><span class="sxs-lookup"><span data-stu-id="3a262-113">Get country/region specific updates.</span></span>
-- <span data-ttu-id="3a262-114">Enviar y revisar alertas reglamentarias.</span><span class="sxs-lookup"><span data-stu-id="3a262-114">Submit and review regulatory alerts.</span></span>
-- <span data-ttu-id="3a262-115">Aprender a usar la función específica del país o región.</span><span class="sxs-lookup"><span data-stu-id="3a262-115">Learn how to use country/region specific functionality.</span></span>
+<span data-ttu-id="c6cb1-111">Este tema incluye listas de recursos que pueden ayudarle a hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="c6cb1-111">This topic includes lists of resources that can help you do the following:</span></span> 
+- <span data-ttu-id="c6cb1-112">Aprender más sobre el desarrollo de soluciones específicas del país o región.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-112">Learn more about developing country/region-specific solutions.</span></span>
+- <span data-ttu-id="c6cb1-113">Obtener actualizaciones específicas del país o región.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-113">Get country/region specific updates.</span></span>
+- <span data-ttu-id="c6cb1-114">Enviar y revisar alertas reglamentarias.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-114">Submit and review regulatory alerts.</span></span>
+- <span data-ttu-id="c6cb1-115">Aprender a usar la función específica del país o región.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-115">Learn how to use country/region specific functionality.</span></span>
 
-### <a name="developing-localized-solutions"></a><span data-ttu-id="3a262-116">Desarrollo de soluciones localizadas</span><span class="sxs-lookup"><span data-stu-id="3a262-116">Developing localized solutions</span></span>
-<span data-ttu-id="3a262-117">Los siguientes recursos proporcionan información que puede ayudar a los desarrolladores e ISV que crean personalizaciones específicas de un país o una región, o crean una solución para un país al que Microsoft no proporciona soporte.</span><span class="sxs-lookup"><span data-stu-id="3a262-117">The following resources provides guidance and information that can help developers and ISVs who are creating country/region-specific customizations or are creating a solution for a country that Microsoft does not support.</span></span>
--   [<span data-ttu-id="3a262-118">Separación de modelos de localización</span><span class="sxs-lookup"><span data-stu-id="3a262-118">Separation of localization models</span></span>](separate-localization-models.md)
--   [<span data-ttu-id="3a262-119">Aplicar contexto del país o región</span><span class="sxs-lookup"><span data-stu-id="3a262-119">Apply country/region context</span></span>](apply-country-context.md)
--   [<span data-ttu-id="3a262-120">Información de la certificación normativa en cargos de la función</span><span class="sxs-lookup"><span data-stu-id="3a262-120">Regulatory certification information in feature titles</span></span>](regulatory-certifications.md)
--   [<span data-ttu-id="3a262-121">Clasificación de características de localización</span><span class="sxs-lookup"><span data-stu-id="3a262-121">Classification of localization features</span></span>](classify-localization-features.md)
--   [<span data-ttu-id="3a262-122">Códigos de país - ISO 3166</span><span class="sxs-lookup"><span data-stu-id="3a262-122">Country Codes - ISO 3166</span></span>](https://www.iso.org/iso-3166-country-codes.html)
+### <a name="developing-localized-solutions"></a><span data-ttu-id="c6cb1-116">Desarrollo de soluciones localizadas</span><span class="sxs-lookup"><span data-stu-id="c6cb1-116">Developing localized solutions</span></span>
+<span data-ttu-id="c6cb1-117">Los siguientes recursos proporcionan información que puede ayudar a los desarrolladores e ISV que crean personalizaciones específicas de un país o una región, o crean una solución para un país al que Microsoft no proporciona soporte.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-117">The following resources provides guidance and information that can help developers and ISVs who are creating country/region-specific customizations or are creating a solution for a country that Microsoft does not support.</span></span>
+-   [<span data-ttu-id="c6cb1-118">Separación de modelos de localización</span><span class="sxs-lookup"><span data-stu-id="c6cb1-118">Separation of localization models</span></span>](separate-localization-models.md)
+-   [<span data-ttu-id="c6cb1-119">Aplicar contexto del país o región</span><span class="sxs-lookup"><span data-stu-id="c6cb1-119">Apply country/region context</span></span>](apply-country-context.md)
+-   [<span data-ttu-id="c6cb1-120">Información de la certificación normativa en cargos de la función</span><span class="sxs-lookup"><span data-stu-id="c6cb1-120">Regulatory certification information in feature titles</span></span>](regulatory-certifications.md)
+-   [<span data-ttu-id="c6cb1-121">Clasificación de características de localización</span><span class="sxs-lookup"><span data-stu-id="c6cb1-121">Classification of localization features</span></span>](classify-localization-features.md)
+-   [<span data-ttu-id="c6cb1-122">Códigos de país - ISO 3166</span><span class="sxs-lookup"><span data-stu-id="c6cb1-122">Country Codes - ISO 3166</span></span>](https://www.iso.org/iso-3166-country-codes.html)
 
-### <a name="regulatory-updates-and-communication"></a><span data-ttu-id="3a262-123">Actualizaciones reglamentarias y comunicación</span><span class="sxs-lookup"><span data-stu-id="3a262-123">Regulatory updates and communication</span></span>
-<span data-ttu-id="3a262-124">Los siguientes recursos proporcionan información sobre características de localización nuevas y planificadas.</span><span class="sxs-lookup"><span data-stu-id="3a262-124">The following resources provide information about planned and new localization features.</span></span> 
+### <a name="regulatory-updates-and-communication"></a><span data-ttu-id="c6cb1-123">Actualizaciones reglamentarias y comunicación</span><span class="sxs-lookup"><span data-stu-id="c6cb1-123">Regulatory updates and communication</span></span>
+<span data-ttu-id="c6cb1-124">Los siguientes recursos proporcionan información sobre características de localización nuevas y planificadas.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-124">The following resources provide information about planned and new localization features.</span></span> 
 
-#### <a name="regulatory-updates"></a><span data-ttu-id="3a262-125">Actualizaciones reglamentarias</span><span class="sxs-lookup"><span data-stu-id="3a262-125">Regulatory updates</span></span>
--   [<span data-ttu-id="3a262-126">Actualizaciones reglamentarias</span><span class="sxs-lookup"><span data-stu-id="3a262-126">Regulatory updates</span></span>](../../../finance/localizations/regulatory-updates.md)
--   <span data-ttu-id="3a262-127">[Portal de localización](https://docs.microsoft.com/dynamics/s-e/) (actualizado semanalmente)</span><span class="sxs-lookup"><span data-stu-id="3a262-127">[Localization portal](https://docs.microsoft.com/dynamics/s-e/) (Updated weekly)</span></span>
--   <span data-ttu-id="3a262-128">[Búsqueda de temas en Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (actualizado diariamente)</span><span class="sxs-lookup"><span data-stu-id="3a262-128">[Issue search in Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (Updated daily)</span></span>
+#### <a name="regulatory-updates"></a><span data-ttu-id="c6cb1-125">Actualizaciones reglamentarias</span><span class="sxs-lookup"><span data-stu-id="c6cb1-125">Regulatory updates</span></span>
+-   [<span data-ttu-id="c6cb1-126">Actualizaciones reglamentarias</span><span class="sxs-lookup"><span data-stu-id="c6cb1-126">Regulatory updates</span></span>](../../../finance/localizations/regulatory-updates.md)
+-   <span data-ttu-id="c6cb1-127">[Búsqueda de temas en Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (actualizado diariamente)</span><span class="sxs-lookup"><span data-stu-id="c6cb1-127">[Issue search in Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (Updated daily)</span></span>
 
-#### <a name="communication-and-alerts"></a><span data-ttu-id="3a262-129">Comunicación y alertas</span><span class="sxs-lookup"><span data-stu-id="3a262-129">Communication and alerts</span></span>
--   [<span data-ttu-id="3a262-130">Vigilancia normativa y comunicación de actualizaciones reglamentarias</span><span class="sxs-lookup"><span data-stu-id="3a262-130">Regulatory watch and communication of regulatory updates</span></span>](regulatory-watch-communication.md)
--   [<span data-ttu-id="3a262-131">Enviar las alertas sobre características normativas específicas de países o regiones</span><span class="sxs-lookup"><span data-stu-id="3a262-131">Submit alerts about country/region-specific regulatory features</span></span>](submit-localization-alerts.md)
+#### <a name="communication-and-alerts"></a><span data-ttu-id="c6cb1-128">Comunicación y alertas</span><span class="sxs-lookup"><span data-stu-id="c6cb1-128">Communication and alerts</span></span>
+-   [<span data-ttu-id="c6cb1-129">Vigilancia normativa y comunicación de actualizaciones reglamentarias</span><span class="sxs-lookup"><span data-stu-id="c6cb1-129">Regulatory watch and communication of regulatory updates</span></span>](regulatory-watch-communication.md)
+-   [<span data-ttu-id="c6cb1-130">Enviar las alertas sobre características normativas específicas de países o regiones</span><span class="sxs-lookup"><span data-stu-id="c6cb1-130">Submit alerts about country/region-specific regulatory features</span></span>](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-plans"></a><span data-ttu-id="3a262-132">Planes de la versión de Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="3a262-132">Dynamics 365 release plans</span></span>
-<span data-ttu-id="3a262-133">Los [planes de la versión de Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) ofrecen descripciones de las funcionalidades nuevas y mejoradas planeadas para las aplicaciones empresariales y las plataformas de aplicaciones de Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="3a262-133">The [Dynamics 365 release plans](https://docs.microsoft.com/business-applications-release-notes/) provide descriptions of new and enhanced capabilities that are planned for Dynamics 365 business applications and application platforms.</span></span> 
+#### <a name="dynamics-365-release-plans"></a><span data-ttu-id="c6cb1-131">Planes de la versión de Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="c6cb1-131">Dynamics 365 release plans</span></span>
+<span data-ttu-id="c6cb1-132">Los [planes de la versión de Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) ofrecen descripciones de las funcionalidades nuevas y mejoradas planeadas para las aplicaciones empresariales y las plataformas de aplicaciones de Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-132">The [Dynamics 365 release plans](https://docs.microsoft.com/business-applications-release-notes/) provide descriptions of new and enhanced capabilities that are planned for Dynamics 365 business applications and application platforms.</span></span> 
 
-#### <a name="finance-and-operations-apps-whats-new"></a><span data-ttu-id="3a262-134">Novedades en las aplicaciones de Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="3a262-134">Finance and Operations apps what's new</span></span>
-<span data-ttu-id="3a262-135">La [página principal de Novedades y cambios en Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) muestra las características incluidas en versiones específicas de las aplicaciones de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="3a262-135">The [What's new or changed in Finance and Operations home page](../../fin-ops/get-started/whats-new-changed.md) lists the features that are included in specific releases of the Finance and Operations apps.</span></span>
+#### <a name="finance-and-operations-apps-whats-new"></a><span data-ttu-id="c6cb1-133">Novedades en las aplicaciones de Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="c6cb1-133">Finance and Operations apps what's new</span></span>
+<span data-ttu-id="c6cb1-134">La [página principal de Novedades y cambios en Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) muestra las características incluidas en versiones específicas de las aplicaciones de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-134">The [What's new or changed in Finance and Operations home page](../../fin-ops/get-started/whats-new-changed.md) lists the features that are included in specific releases of the Finance and Operations apps.</span></span>
 
-### <a name="electronic-reporting"></a><span data-ttu-id="3a262-136">Informes electrónicos</span><span class="sxs-lookup"><span data-stu-id="3a262-136">Electronic reporting</span></span>
-<span data-ttu-id="3a262-137">La herramienta de informes electrónicos (ER) le permite configurar formatos para documentos electrónicos en función de los requisitos legales de diversos países o regiones.</span><span class="sxs-lookup"><span data-stu-id="3a262-137">The Electronic reporting (ER) tool allows you to configure formats for electronic documents in accordance with the legal requirements of various countries/regions.</span></span> <span data-ttu-id="3a262-138">ER le permite administrar estos formatos durante su ciclo de vida.</span><span class="sxs-lookup"><span data-stu-id="3a262-138">ER lets you manage these formats during their lifecycle.</span></span> <span data-ttu-id="3a262-139">Para obtener más información, consulte uno de los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="3a262-139">For more information, refer to one of the following topics:</span></span>
--   [<span data-ttu-id="3a262-140">Visión general de los informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="3a262-140">Electronic reporting (ER) overview</span></span>](../analytics/general-electronic-reporting.md)
--   [<span data-ttu-id="3a262-141">Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="3a262-141">Manage the Electronic reporting (ER) configuration lifecycle</span></span>](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [<span data-ttu-id="3a262-142">Crear configuraciones de informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="3a262-142">Create Electronic reporting (ER) configurations</span></span>](../analytics/electronic-reporting-configuration.md)
--   [<span data-ttu-id="3a262-143">Ampliar la lista de funciones de informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="3a262-143">Extend the list of Electronic reporting (ER) functions</span></span>](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [<span data-ttu-id="3a262-144">Destinos de informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="3a262-144">Electronic reporting (ER) destinations</span></span>](../analytics/electronic-reporting-destinations.md)
--   [<span data-ttu-id="3a262-145">Descargar configuraciones de informes electrónicos de Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="3a262-145">Download Electronic reporting configurations from Lifecycle Services</span></span>](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [<span data-ttu-id="3a262-146">Importar configuraciones de informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="3a262-146">Import Electronic reporting (ER) configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
--   [<span data-ttu-id="3a262-147">Configurar informes electrónicos (ER) para proporcionar datos a Power BI</span><span class="sxs-lookup"><span data-stu-id="3a262-147">Configure Electronic reporting (ER) to pull data into Power BI</span></span>](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [<span data-ttu-id="3a262-148">Generar documentos electrónicos y actualizar datos de aplicaciones mediante ER</span><span class="sxs-lookup"><span data-stu-id="3a262-148">Generate electronic documents and update application data by using ER</span></span>](../analytics/generate-electronic-documents-update-application-data.md)
+### <a name="electronic-reporting"></a><span data-ttu-id="c6cb1-135">Informes electrónicos</span><span class="sxs-lookup"><span data-stu-id="c6cb1-135">Electronic reporting</span></span>
+<span data-ttu-id="c6cb1-136">La herramienta de informes electrónicos (ER) le permite configurar formatos para documentos electrónicos en función de los requisitos legales de diversos países o regiones.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-136">The Electronic reporting (ER) tool allows you to configure formats for electronic documents in accordance with the legal requirements of various countries/regions.</span></span> <span data-ttu-id="c6cb1-137">ER le permite administrar estos formatos durante su ciclo de vida.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-137">ER lets you manage these formats during their lifecycle.</span></span> <span data-ttu-id="c6cb1-138">Para obtener más información, consulte uno de los temas siguientes:</span><span class="sxs-lookup"><span data-stu-id="c6cb1-138">For more information, refer to one of the following topics:</span></span>
+-   [<span data-ttu-id="c6cb1-139">Información general de los informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="c6cb1-139">Electronic reporting (ER) overview</span></span>](../analytics/general-electronic-reporting.md)
+-   [<span data-ttu-id="c6cb1-140">Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="c6cb1-140">Manage the Electronic reporting (ER) configuration lifecycle</span></span>](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [<span data-ttu-id="c6cb1-141">Crear configuraciones de informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="c6cb1-141">Create Electronic reporting (ER) configurations</span></span>](../analytics/electronic-reporting-configuration.md)
+-   [<span data-ttu-id="c6cb1-142">Ampliar la lista de funciones de informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="c6cb1-142">Extend the list of Electronic reporting (ER) functions</span></span>](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [<span data-ttu-id="c6cb1-143">Destinos de informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="c6cb1-143">Electronic reporting (ER) destinations</span></span>](../analytics/electronic-reporting-destinations.md)
+-   [<span data-ttu-id="c6cb1-144">Descargar configuraciones de informes electrónicos de Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="c6cb1-144">Download Electronic reporting configurations from Lifecycle Services</span></span>](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [<span data-ttu-id="c6cb1-145">Importar configuraciones de informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="c6cb1-145">Import Electronic reporting (ER) configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [<span data-ttu-id="c6cb1-146">Configurar informes electrónicos (ER) para proporcionar datos a Power BI</span><span class="sxs-lookup"><span data-stu-id="c6cb1-146">Configure Electronic reporting (ER) to pull data into Power BI</span></span>](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [<span data-ttu-id="c6cb1-147">Generar documentos electrónicos y actualizar datos de aplicaciones mediante ER</span><span class="sxs-lookup"><span data-stu-id="c6cb1-147">Generate electronic documents and update application data by using ER</span></span>](../analytics/generate-electronic-documents-update-application-data.md)
 
-### <a name="task-guides"></a><span data-ttu-id="3a262-149">Guías de tareas</span><span class="sxs-lookup"><span data-stu-id="3a262-149">Task guides</span></span>
-<span data-ttu-id="3a262-150">Las guías de tarea se abren desde el panel de ayuda del producto y proporcionan una experiencia guiada por los procesos empresariales clave.</span><span class="sxs-lookup"><span data-stu-id="3a262-150">Task guides are available from the product help pane and they provide a guided walk-through of key business processes.</span></span> <span data-ttu-id="3a262-151">Puede abrir una guía de tareas para leer los pasos de un proceso empresarial o reproducir una guía de tareas para recorrer un proceso empresarial e introducir datos.</span><span class="sxs-lookup"><span data-stu-id="3a262-151">You can open a task guide to read the steps of a business process or you can play a task guide to walk through a business process and enter data.</span></span>
+### <a name="task-guides"></a><span data-ttu-id="c6cb1-148">Guías de tareas</span><span class="sxs-lookup"><span data-stu-id="c6cb1-148">Task guides</span></span>
+<span data-ttu-id="c6cb1-149">Las guías de tarea se abren desde el panel de ayuda del producto y proporcionan una experiencia guiada por los procesos empresariales clave.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-149">Task guides are available from the product help pane and they provide a guided walk-through of key business processes.</span></span> <span data-ttu-id="c6cb1-150">Puede abrir una guía de tareas para leer los pasos de un proceso empresarial o reproducir una guía de tareas para recorrer un proceso empresarial e introducir datos.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-150">You can open a task guide to read the steps of a business process or you can play a task guide to walk through a business process and enter data.</span></span>
 
-<span data-ttu-id="3a262-152">Para buscar guías de tareas, navegue hasta una página de la aplicación y haga clic en Ayuda.</span><span class="sxs-lookup"><span data-stu-id="3a262-152">To find task guides, navigate to a page in in the application and click Help.</span></span> <span data-ttu-id="3a262-153">En el panel de ayuda se encuentran las guías de tareas que utilizan la página.</span><span class="sxs-lookup"><span data-stu-id="3a262-153">Task guides that use the page are listed in the help pane.</span></span> <span data-ttu-id="3a262-154">También puede usar el panel de ayuda para buscar guías de tareas por título.</span><span class="sxs-lookup"><span data-stu-id="3a262-154">You can also use the help pane to search for task guides by title.</span></span>
+<span data-ttu-id="c6cb1-151">Para buscar guías de tareas, navegue hasta una página de la aplicación y haga clic en Ayuda.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-151">To find task guides, navigate to a page in in the application and click Help.</span></span> <span data-ttu-id="c6cb1-152">En el panel de ayuda se encuentran las guías de tareas que utilizan la página.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-152">Task guides that use the page are listed in the help pane.</span></span> <span data-ttu-id="c6cb1-153">También puede usar el panel de ayuda para buscar guías de tareas por título.</span><span class="sxs-lookup"><span data-stu-id="c6cb1-153">You can also use the help pane to search for task guides by title.</span></span>
 
-<span data-ttu-id="3a262-155">Para obtener más información, consulte [Sistema de ayuda](../../fin-ops/get-started/help-overview.md#task-guides).</span><span class="sxs-lookup"><span data-stu-id="3a262-155">To learn more, see [Help system](../../fin-ops/get-started/help-overview.md#task-guides).</span></span>
+<span data-ttu-id="c6cb1-154">Para obtener más información, consulte [Sistema de ayuda](../../fin-ops/get-started/help-overview.md#task-guides).</span><span class="sxs-lookup"><span data-stu-id="c6cb1-154">To learn more, see [Help system](../../fin-ops/get-started/help-overview.md#task-guides).</span></span>
 
 
-### <a name="countryregion-specific-help-content"></a><span data-ttu-id="3a262-156">Contenido de ayuda específica de país o región</span><span class="sxs-lookup"><span data-stu-id="3a262-156">Country/region specific help content</span></span>
+### <a name="countryregion-specific-help-content"></a><span data-ttu-id="c6cb1-155">Contenido de ayuda específica de país o región</span><span class="sxs-lookup"><span data-stu-id="c6cb1-155">Country/region specific help content</span></span>
 :::row:::
     :::column:::
-        - [<span data-ttu-id="3a262-157">Australia</span><span class="sxs-lookup"><span data-stu-id="3a262-157">Australia</span></span>](../../../finance/localizations/australia.md)
-        - [<span data-ttu-id="3a262-158">Austria</span><span class="sxs-lookup"><span data-stu-id="3a262-158">Austria</span></span>](../../../finance/localizations/austria.md)
-        - [<span data-ttu-id="3a262-159">Bélgica</span><span class="sxs-lookup"><span data-stu-id="3a262-159">Belgium</span></span>](../../../finance/localizations/belgium.md)
-        - [<span data-ttu-id="3a262-160">Brasil</span><span class="sxs-lookup"><span data-stu-id="3a262-160">Brazil</span></span>](../../../finance/localizations/brazil.md)
-        - [<span data-ttu-id="3a262-161">China</span><span class="sxs-lookup"><span data-stu-id="3a262-161">China</span></span>](../../../finance/localizations/china.md)
-        - [<span data-ttu-id="3a262-162">República Checa</span><span class="sxs-lookup"><span data-stu-id="3a262-162">The Czech Republic</span></span>](../../../finance/localizations/czech-republic.md)
-        - [<span data-ttu-id="3a262-163">Estonia</span><span class="sxs-lookup"><span data-stu-id="3a262-163">Estonia</span></span>](../../../finance/localizations/estonia.md)
-        - [<span data-ttu-id="3a262-164">Europa</span><span class="sxs-lookup"><span data-stu-id="3a262-164">Europe</span></span>](../../../finance/localizations/europe.md)
-        - [<span data-ttu-id="3a262-165">Francia</span><span class="sxs-lookup"><span data-stu-id="3a262-165">France</span></span>](../../../finance/localizations/france.md)
-        - [<span data-ttu-id="3a262-166">Alemania</span><span class="sxs-lookup"><span data-stu-id="3a262-166">Germany</span></span>](../../../finance/localizations/germany.md)
+        - [<span data-ttu-id="c6cb1-156">Australia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-156">Australia</span></span>](../../../finance/localizations/australia.md)
+        - [<span data-ttu-id="c6cb1-157">Austria</span><span class="sxs-lookup"><span data-stu-id="c6cb1-157">Austria</span></span>](../../../finance/localizations/austria.md)
+        - [<span data-ttu-id="c6cb1-158">Bélgica</span><span class="sxs-lookup"><span data-stu-id="c6cb1-158">Belgium</span></span>](../../../finance/localizations/belgium.md)
+        - [<span data-ttu-id="c6cb1-159">Brasil</span><span class="sxs-lookup"><span data-stu-id="c6cb1-159">Brazil</span></span>](../../../finance/localizations/brazil.md)
+        - [<span data-ttu-id="c6cb1-160">China</span><span class="sxs-lookup"><span data-stu-id="c6cb1-160">China</span></span>](../../../finance/localizations/china.md)
+        - [<span data-ttu-id="c6cb1-161">República Checa</span><span class="sxs-lookup"><span data-stu-id="c6cb1-161">The Czech Republic</span></span>](../../../finance/localizations/czech-republic.md)
+        - [<span data-ttu-id="c6cb1-162">Estonia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-162">Estonia</span></span>](../../../finance/localizations/estonia.md)
+        - [<span data-ttu-id="c6cb1-163">Europa</span><span class="sxs-lookup"><span data-stu-id="c6cb1-163">Europe</span></span>](../../../finance/localizations/europe.md)
+        - [<span data-ttu-id="c6cb1-164">Francia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-164">France</span></span>](../../../finance/localizations/france.md)
+        - [<span data-ttu-id="c6cb1-165">Alemania</span><span class="sxs-lookup"><span data-stu-id="c6cb1-165">Germany</span></span>](../../../finance/localizations/germany.md)
     :::column-end:::
     :::column:::
-        - [<span data-ttu-id="3a262-167">Hungría</span><span class="sxs-lookup"><span data-stu-id="3a262-167">Hungary</span></span>](../../../finance/localizations/hungary.md)
-        - [<span data-ttu-id="3a262-168">India</span><span class="sxs-lookup"><span data-stu-id="3a262-168">India</span></span>](../../../finance/localizations/india.md)
-        - [<span data-ttu-id="3a262-169">Italia</span><span class="sxs-lookup"><span data-stu-id="3a262-169">Italy</span></span>](../../../finance/localizations/italy.md)
-        - [<span data-ttu-id="3a262-170">Japón</span><span class="sxs-lookup"><span data-stu-id="3a262-170">Japan</span></span>](../../../finance/localizations/japan.md)
-        - [<span data-ttu-id="3a262-171">Letonia</span><span class="sxs-lookup"><span data-stu-id="3a262-171">Latvia</span></span>](../../../finance/localizations/latvia.md)
-        - [<span data-ttu-id="3a262-172">Lituania</span><span class="sxs-lookup"><span data-stu-id="3a262-172">Lithuania</span></span>](../../../finance/localizations/lithuania.md)
-        - [<span data-ttu-id="3a262-173">México</span><span class="sxs-lookup"><span data-stu-id="3a262-173">Mexico</span></span>](../../../finance/localizations/mexico.md)
-        - [<span data-ttu-id="3a262-174">Malasia</span><span class="sxs-lookup"><span data-stu-id="3a262-174">Malaysia</span></span>](../../../finance/localizations/malaysia.md)
-        - [<span data-ttu-id="3a262-175">Países Bajos</span><span class="sxs-lookup"><span data-stu-id="3a262-175">Netherlands</span></span>](../../../finance/localizations/netherlands.md)
-        - [<span data-ttu-id="3a262-176">Noruega</span><span class="sxs-lookup"><span data-stu-id="3a262-176">Norway</span></span>](../../../finance/localizations/norway.md)
+        - [<span data-ttu-id="c6cb1-166">Hungría</span><span class="sxs-lookup"><span data-stu-id="c6cb1-166">Hungary</span></span>](../../../finance/localizations/hungary.md)
+        - [<span data-ttu-id="c6cb1-167">India</span><span class="sxs-lookup"><span data-stu-id="c6cb1-167">India</span></span>](../../../finance/localizations/india.md)
+        - [<span data-ttu-id="c6cb1-168">Italia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-168">Italy</span></span>](../../../finance/localizations/italy.md)
+        - [<span data-ttu-id="c6cb1-169">Japón</span><span class="sxs-lookup"><span data-stu-id="c6cb1-169">Japan</span></span>](../../../finance/localizations/japan.md)
+        - [<span data-ttu-id="c6cb1-170">Letonia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-170">Latvia</span></span>](../../../finance/localizations/latvia.md)
+        - [<span data-ttu-id="c6cb1-171">Lituania</span><span class="sxs-lookup"><span data-stu-id="c6cb1-171">Lithuania</span></span>](../../../finance/localizations/lithuania.md)
+        - [<span data-ttu-id="c6cb1-172">México</span><span class="sxs-lookup"><span data-stu-id="c6cb1-172">Mexico</span></span>](../../../finance/localizations/mexico.md)
+        - [<span data-ttu-id="c6cb1-173">Malasia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-173">Malaysia</span></span>](../../../finance/localizations/malaysia.md)
+        - [<span data-ttu-id="c6cb1-174">Países Bajos</span><span class="sxs-lookup"><span data-stu-id="c6cb1-174">Netherlands</span></span>](../../../finance/localizations/netherlands.md)
+        - [<span data-ttu-id="c6cb1-175">Noruega</span><span class="sxs-lookup"><span data-stu-id="c6cb1-175">Norway</span></span>](../../../finance/localizations/norway.md)
     :::column-end:::
     :::column:::
-        - [<span data-ttu-id="3a262-177">Polonia</span><span class="sxs-lookup"><span data-stu-id="3a262-177">Poland</span></span>](../../../finance/localizations/poland.md)
-        - [<span data-ttu-id="3a262-178">Rusia</span><span class="sxs-lookup"><span data-stu-id="3a262-178">Russia</span></span>](../../../finance/localizations/russia.md)
-        - [<span data-ttu-id="3a262-179">Arabia Saudí</span><span class="sxs-lookup"><span data-stu-id="3a262-179">Saudi Arabia</span></span>](../../../finance/localizations/saudi-arabia.md)
-        - [<span data-ttu-id="3a262-180">Singapur</span><span class="sxs-lookup"><span data-stu-id="3a262-180">Singapore</span></span>](../../../finance/localizations/singapore.md)
-        - [<span data-ttu-id="3a262-181">España</span><span class="sxs-lookup"><span data-stu-id="3a262-181">Spain</span></span>](../../../finance/localizations/spain.md)
-        - [<span data-ttu-id="3a262-182">Suecia</span><span class="sxs-lookup"><span data-stu-id="3a262-182">Sweden</span></span>](../../../finance/localizations/sweden.md)
-        - [<span data-ttu-id="3a262-183">Suiza</span><span class="sxs-lookup"><span data-stu-id="3a262-183">Switzerland</span></span>](../../../finance/localizations/switzerland.md)
-        - [<span data-ttu-id="3a262-184">Tailandia</span><span class="sxs-lookup"><span data-stu-id="3a262-184">Thailand</span></span>](../../../finance/localizations/thailand.md)
-        - [<span data-ttu-id="3a262-185">Reino Unido</span><span class="sxs-lookup"><span data-stu-id="3a262-185">United Kingdom</span></span>](../../../finance/localizations/united-kingdom.md)
-        - [<span data-ttu-id="3a262-186">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="3a262-186">United States</span></span>](../../../finance/localizations/united-states.md)
+        - [<span data-ttu-id="c6cb1-176">Polonia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-176">Poland</span></span>](../../../finance/localizations/poland.md)
+        - [<span data-ttu-id="c6cb1-177">Rusia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-177">Russia</span></span>](../../../finance/localizations/russia.md)
+        - [<span data-ttu-id="c6cb1-178">Arabia Saudí</span><span class="sxs-lookup"><span data-stu-id="c6cb1-178">Saudi Arabia</span></span>](../../../finance/localizations/saudi-arabia.md)
+        - [<span data-ttu-id="c6cb1-179">Singapur</span><span class="sxs-lookup"><span data-stu-id="c6cb1-179">Singapore</span></span>](../../../finance/localizations/singapore.md)
+        - [<span data-ttu-id="c6cb1-180">España</span><span class="sxs-lookup"><span data-stu-id="c6cb1-180">Spain</span></span>](../../../finance/localizations/spain.md)
+        - [<span data-ttu-id="c6cb1-181">Suecia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-181">Sweden</span></span>](../../../finance/localizations/sweden.md)
+        - [<span data-ttu-id="c6cb1-182">Suiza</span><span class="sxs-lookup"><span data-stu-id="c6cb1-182">Switzerland</span></span>](../../../finance/localizations/switzerland.md)
+        - [<span data-ttu-id="c6cb1-183">Tailandia</span><span class="sxs-lookup"><span data-stu-id="c6cb1-183">Thailand</span></span>](../../../finance/localizations/thailand.md)
+        - [<span data-ttu-id="c6cb1-184">Reino Unido</span><span class="sxs-lookup"><span data-stu-id="c6cb1-184">United Kingdom</span></span>](../../../finance/localizations/united-kingdom.md)
+        - [<span data-ttu-id="c6cb1-185">Estados Unidos</span><span class="sxs-lookup"><span data-stu-id="c6cb1-185">United States</span></span>](../../../finance/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
 
@@ -133,3 +131,6 @@ ms.locfileid: "5154128"
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

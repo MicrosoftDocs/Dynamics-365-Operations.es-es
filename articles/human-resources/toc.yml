@@ -5,6 +5,10 @@
       items:
         - name: Novedades y cambios en Human Resources
           href: hr-admin-whats-new.md
+        - name: 8 de marzo de 2021
+          href: hr-whats-new-2021-03-08.md
+        - name: 22 de febrero de 2021
+          href: hr-whats-new-2021-02-22.md
         - name: 28 de enero de 2021
           href: hr-whats-new-2021-01-28.md
         - name: 21 de enero de 2021
@@ -65,7 +69,7 @@
               href: hr-whats-new-2020-02-03.md
     - name: Guía del administrador
       items:
-        - name: Visión general
+        - name: Información general
           href: hr-admin-overview.md
         - name: Requisitos del sistema
           href: hr-admin-system-requirements.md
@@ -89,9 +93,9 @@
               href: hr-admin-integration-common-data-service.md
             - name: Tablas de Dataverse
               href: hr-developer-entities.md
-            - name: Configurar entidades virtuales de Dataverse
+            - name: Configurar tablas virtuales de Dataverse
               href: hr-admin-integration-common-data-service-virtual-entities.md
-            - name: Preguntas frecuentes sobre entidades virtuales de Human Resources
+            - name: Preguntas frecuentes sobre tablas virtuales de Human Resources
               href: hr-admin-virtual-entity-faq.md
             - name: Configurar la integración con Finance
               href: hr-admin-integration-finance.md
@@ -113,17 +117,17 @@
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
         - name: Configurar la administración de datos
           items:
-            - name: Visión general del marco de administración de datos
+            - name: Información general del marco de administración de datos
               href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
             - name: Entidades de datos
               items:
-                - name: Visión general de las entidades de datos
+                - name: Información general de las entidades de datos
                   href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
                 - name: Proyectos de datos de configuración
                   href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
                 - name: Copiar datos de configuración entre empresas o entidades jurídicas
                   items:
-                    - name: Visión general de la copia de datos de configuración
+                    - name: Información general de la copia de datos de configuración
                       href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
                     - name: Paquetes de datos de configuración
                       href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
@@ -145,7 +149,7 @@
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
             - name: Trabajos de exportación e importación de datos
               items:
-                - name: Visión general de los trabajos de exportación e importación de datos
+                - name: Información general de los trabajos de exportación e importación de datos
                   href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
                 - name: Procedimientos recomendados para importar asientos mediante la entidad Diario general
                   href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
@@ -199,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
             - name: Características de accesibilidad
               href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
-            - name: Visión general de la administración de características
+            - name: Información general de la administración de características
               href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Preguntas frecuentes de clientes
               href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
@@ -245,7 +249,7 @@
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Conectar el sistema de ayuda
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Visión general de ayuda personalizada
+            - name: Información general de ayuda personalizada
               href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Ver y exportar las descripciones de los campos
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
@@ -283,7 +287,7 @@
               href: hr-admin-troubleshooting-integration.md
     - name: Guía de desarrollador
       items:
-        - name: Visión general
+        - name: Información general
           href: hr-developer-overview.md
         - name: Ampliar con Power Apps y Power Automate
           href: hr-developer-power-apps.md
@@ -321,7 +325,7 @@
               items:
                 - name: MyLeaveRequests
                   items:
-                    - name: Visión general de MyLeaveRequests
+                    - name: Información general de MyLeaveRequests
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Enviar una solicitud de baja al flujo de trabajo
                       href: hr-developer-api-myleaverequests-submit.md
@@ -413,7 +417,7 @@
                   href: hr-admin-integration-ats-api-skill-level-type.md
     - name: Manual del usuario
       items:
-        - name: Visión general
+        - name: Información general
           href: hr-hrpro-overview.md
         - name: Configurar Human Resources
           items:
@@ -429,7 +433,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
             - name: Secuencias numéricas
               items:
-                - name: Visión general de las secuencias numéricas
+                - name: Información general de las secuencias numéricas
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurar secuencias numéricas de manera individual
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
@@ -437,7 +441,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
             - name: Organizaciones y jerarquías organizativas
               items:
-                - name: Visión general de las organizaciones y las jerarquías organizativas
+                - name: Información general de las organizaciones y las jerarquías organizativas
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
                 - name: Planificar su jerarquía organizativa
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
@@ -449,7 +453,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
             - name: Libreta de direcciones global
               items:
-                - name: Visión general de la libreta de direcciones global
+                - name: Información general de la libreta de direcciones global
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
                 - name: Plan para la libreta de direcciones global y otras libretas de direcciones
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
@@ -461,7 +465,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
             - name: Sistema de flujo de trabajo
               items:
-                - name: Visión general del sistema de flujo de trabajo
+                - name: Información general del sistema de flujo de trabajo
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
                 - name: Arquitectura del sistema de flujo de trabajo
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
@@ -471,7 +475,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
                 - name: Crear flujos de trabajo
                   items:
-                    - name: Visión general de la creación de flujos de trabajo
+                    - name: Información general de la creación de flujos de trabajo
                       href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
                     - name: Configurar propiedades del flujo de trabajo
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
@@ -525,7 +529,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
             - name: Alertas
               items:
-                - name: Visión general de alertas
+                - name: Información general de alertas
                   href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
                 - name: Crear reglas de alertas
                   href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
@@ -535,13 +539,13 @@
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
             - name: Gestión de casos
               items:
-                - name: Visión general de la gestión de casos
+                - name: Información general de la gestión de casos
                   href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
                 - name: 'Planificar seguridad, procesos y categorías de casos'
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
             - name: Plantillas de registro
               items:
-                - name: Visión general de las plantillas de registro
+                - name: Información general de las plantillas de registro
                   href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
                 - name: Crear una plantilla de registro
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
@@ -599,7 +603,7 @@
               href: hr-personnel-maintain-employee-injury-illness-information.md
         - name: Configurar planes de compensación
           items:
-            - name: Visión general de planes de compensación
+            - name: Información general de planes de compensación
               href: hr-compensation-overview.md
             - name: Configurar de cuadrículas de compensación
               href: hr-compensation-grids.md
@@ -621,8 +625,10 @@
           items:
             - name: Administración de prestaciones
               items:
-                - name: Visión general de administración de prestaciones
+                - name: Información general de administración de prestaciones
                   href: hr-benefits-management-overview.md
+                - name: Espacio de trabajo de administración de prestaciones
+                  href: hr-benefits-management-workspace.md
                 - name: Configurar la administración de prestaciones
                   items:
                     - name: Configurar parámetros de administración de prestaciones por empresa
@@ -701,7 +707,7 @@
               href: hr-benefits-aca-reports.md
         - name: Administrar bajas y ausencias
           items:
-            - name: Visión general
+            - name: Información general
               href: hr-leave-and-absence-overview.md
             - name: Configurar parámetros de bajas y ausencias
               href: hr-leave-and-absence-parameters.md
@@ -741,7 +747,7 @@
           href: hr-teams-leave-app.md
         - name: Desarrollar empleados
           items:
-            - name: Visión general de la gestión del desempeño
+            - name: Información general de la gestión del desempeño
               href: hr-develop-performance-management-overview.md
             - name: Alinear aptitudes de recursos
               href: hr-develop-skills.md
@@ -755,7 +761,7 @@
           items:
             - name: Configurar cursos de formación
               href: hr-learning-courses.md
-            - name: Visión general de cuestionarios
+            - name: Información general de cuestionarios
               href: hr-learning-questionnaires.md
             - name: Diseñar cuestionarios
               href: hr-learning-design-questionnaires.md
@@ -775,7 +781,7 @@
               href: hr-learning-depending-question.md
         - name: Configurar autoservicio para empleado y director
           items:
-            - name: Visión general del autoservicio para empleado y director
+            - name: Información general del autoservicio para empleado y director
               href: hr-employee-manager-self-service-overview.md
             - name: Crear vínculos personalizados en el autoservicio para el director
               href: hr-employee-manager-self-service-custom-links.md
@@ -783,3 +789,5 @@
               href: hr-employee-self-service-workspace-name.md
             - name: Editar información personal
               href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: Restringir la edición de información personal
+              href: hr-employee-self-service-restrict-editing.md
