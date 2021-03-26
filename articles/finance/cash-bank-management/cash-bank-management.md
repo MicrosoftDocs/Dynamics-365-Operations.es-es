@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f889a95884027eaa1c02794fd7258cd802942555
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cf933d3356fbca5c89652b5372fc35632d127df3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985395"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243596"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Página principal de gestión de efectivo y bancos
 
@@ -47,7 +47,7 @@ Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras 
 
 ### <a name="bank-reconciliation"></a>Conciliación bancaria
 
--   [Visión general de conciliación bancaria avanzada](advanced-bank-reconciliation-overview.md)
+-   [Información general de conciliación bancaria avanzada](advanced-bank-reconciliation-overview.md)
 -   [Proceso de configuración de conciliación bancaria avanzada](configure-advanced-bank-reconciliation.md)
 -   [Configurar el proceso de importación avanzada de conciliación bancaria](set-up-advanced-bank-reconciliation-import-process.md)
 -   [Conciliar extractos bancarios mediante la conciliación bancaria avanzada](reconcile-bank-statements-advanced-bank-reconciliation.md)

@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7d4b499337d26e2209ee73f2f8ea93f55a124652
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984693"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218741"
 ---
 # <a name="public-sector-home-page"></a>Página principal del sector público
 
@@ -42,12 +42,12 @@ Use la funcionalidad de Sector público para satisfacer las reglas, los reglamen
   Para obtener más información, consulte los siguientes temas:
 
 - [Plan para la funcionalidad del sector público](plan-public-sector-functionality.md)
-- [Visión general de los pagos de proveedores en el sector público](accounts-payable-public-sector.md)
-- [Visión general de los pagos de clientes en el sector público](accounts-receivable-public-sector.md)
-- [Visión general de la gestión presupuestaria en el sector público](budgeting-public-sector.md)
+- [Información general de los pagos de proveedores en el sector público](accounts-payable-public-sector.md)
+- [Información general de los pagos de clientes en el sector público](accounts-receivable-public-sector.md)
+- [Información general de la gestión presupuestaria en el sector público](budgeting-public-sector.md)
 - [Activos fijos en el sector público](fixed-asset-public-sector.md)
 - [Contabilidad del sector público en Francia](../localizations/emea-fra-public-sector-accounting.md)
-- [Visión general de la contabilidad general en el sector público](general-ledger-public-sector.md)
+- [Información general de la contabilidad general en el sector público](general-ledger-public-sector.md)
 - [Adquisición y abastecimiento en el sector público](procurement-sourcing-public-sector.md)
 - [Roles de seguridad en el sector público](security-roles-public-sector.md)
 

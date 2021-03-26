@@ -1,6 +1,6 @@
 ---
 title: Página principal de Gestión presupuestaria
-description: En este tema se proporciona una visión general de los componentes de la funcionalidad de gestión presupuestaria, las herramientas de gestión presupuestaria y las funciones de informes en Microsoft Dynamics 365 Finance.
+description: En este tema se proporciona información general de los componentes de la funcionalidad de gestión presupuestaria, las herramientas de gestión presupuestaria y las funciones de informes en Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5222df8ffd3e0cb8759f7c094e5efde97d2ede0c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962919"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210274"
 ---
 # <a name="budgeting-home-page"></a>Página principal de Gestión presupuestaria
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se proporciona una visión general de los componentes de la funcionalidad de gestión presupuestaria, las herramientas de gestión presupuestaria y las funciones de informes. 
+En este tema se proporciona información general de los componentes de la funcionalidad de gestión presupuestaria, las herramientas de gestión presupuestaria y las funciones de informes. 
 
 <a name="components-of-budgeting-functionality"></a>Componentes de la funcionalidad de gestión presupuestaria
 -------------------------------------
@@ -41,9 +41,9 @@ Los procesos tanto para la planificación estratégica a largo plazo como para l
 
 Por último, las organizaciones muy maduras pueden establecer una cultura de organización en la que se forme a los empleados acerca de los objetivos de la organización y cuyos objetivos se puedan perseguir a través de directivas como "Considerar una reunión en línea en lugar de un viaje". La aplicación incluye un marco de control presupuestario que permite a la dirección de la empresa seleccionar un control rígido (que impide los registros que superarían el presupuesto) o un control flexible (con el que se advierte a los usuarios que superarán los fondos presupuestarios disponibles, pero se les permite decidir cómo continuar). Por último, puede usar las previsiones continuas. Una previsión continua es una comparación periódica de los valores de presupuesto frente a los valores reales y se usa para definir si el funcionamiento de la empresa se adecua al presupuesto. La previsión continua también se usa para identificar tendencias. En Finance and Operations se admiten las previsiones continuas, a través de un documento de plan presupuestario, como las actividades iniciales de planificación. Las previsiones continuas se pueden realizar en paralelo con la planificación para el próximo ciclo presupuestario.
 
--   [Visión general de la gestión presupuestaria](basic-budgeting-overview-configuration.md)
--   [Visión general del control presupuestario](budget-control-overview-configuration.md)
--   [Visión general de la planificación presupuestaria](budget-planning-overview-configuration.md)
+-   [Información general de la gestión presupuestaria](basic-budgeting-overview-configuration.md)
+-   [Información general del control presupuestario](budget-control-overview-configuration.md)
+-   [Información general de la planificación presupuestaria](budget-planning-overview-configuration.md)
 -   [Previsión de puestos](position-forecasting.md)
 -   [Documentos de justificación de la planificación presupuestaria](budget-planning-justification-docs.md)
 -   [Plantillas de planificación presupuestaria para Excel](budget-planning-excel-templates.md)

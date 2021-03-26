@@ -14,6 +14,8 @@
               items:
                 - name: Novedades y cambios en la página principal de Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.18 (mayo de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Platform updates para 10.0.17 (abril de 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platform updates para 10.0.16 (febrero de 2021)
@@ -22,9 +24,11 @@
                   href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Características quitadas o en desuso
               items:
+                - name: Página de inicio de características quitadas o en desuso
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Características de Platform quitadas o en desuso
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: Funciones quitadas o en desuso de versiones anteriores
+                - name: Características quitadas o en desuso de versiones anteriores
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Características de AX 2012 pospuestas
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -32,12 +36,14 @@
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Eventos de negocio
           items:
-            - name: Visión general de Eventos de negocio
+            - name: Información general de Eventos de negocio
               href: business-events/home-page.md
             - name: Eventos de negocio de aplicación
               href: business-events/app-business-events.md
             - name: Eventos de negocio del flujo de trabajo
               href: business-events/business-events-workflow.md
+            - name: Eventos de negocio de lote
+              href: business-events/system-business-events.md
             - name: Alertas como eventos de negocio
               href: business-events/alerts-business-events.md
             - name: Eventos de negocio en Microsoft Flow
@@ -92,7 +98,7 @@
                   href: data-entities/data-management-api.md
                 - name: Puntos de conexión de servicios
                   items:
-                    - name: Visión general de los puntos de conexión de servicios
+                    - name: Información general de los puntos de conexión de servicios
                       href: data-entities/services-home-page.md
                     - name: Solución de problemas de autenticación de servicios
                       href: data-entities/troubleshoot-service-authentication.md
@@ -110,7 +116,7 @@
               items:
                 - name: Integración de datos mediante entidades de datos
                   items:
-                    - name: Visión general de la integración de datos mediante entidades de datos
+                    - name: Información general de la integración de datos mediante entidades de datos
                       href: data-entities/data-management-integration-data-entity.md
                     - name: Desarrollar una entidad para la migración de datos
                       href: data-entities/develop-entity-for-data-migration.md
@@ -124,7 +130,7 @@
                       href: data-entities/tasks/use-record-template-new-record.md
                 - name: Integración de datos mediante Dataverse
                   items:
-                    - name: Visión general de la integración de datos mediante Dataverse
+                    - name: Información general de la integración de datos mediante Dataverse
                       href: data-entities/data-integration-cds.md
                     - name: Integración de doble escritura
                       items:
@@ -132,7 +138,7 @@
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: Novedades y cambios en doble escritura
                           href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Visión general de la doble escritura
+                        - name: Información general de la doble escritura
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Configuración de la doble escritura
                           items:
@@ -216,10 +222,14 @@
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Activos internos para mantenimiento
                               href: data-entities/dual-write/in-house-assets.md
-                            - name: 'Trabajador integrado, trabajo y puesto'
-                              href: data-entities/dual-write/integrated-hr.md
                             - name: Disponibilidad de inventario
                               href: data-entities/dual-write/inventory-availability.md
+                            - name: 'Trabajador integrado, trabajo y puesto'
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: Integración de notas
+                              href: data-entities/dual-write/notes-integration.md
+                            - name: Referencia de asignación
+                              href: data-entities/dual-write/mapping-reference.md
                         - name: Compatibilidad para escritura dual
                           items:
                             - name: Compatibilidad para soluciones de Field Service y de Project Service Automation
@@ -266,7 +276,7 @@
                               href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                         - name: Configurar la integración con Field Service
                           items:
-                            - name: Visión general de la configuración de la integración con Field Service
+                            - name: Información general de la configuración de la integración con Field Service
                               href: ../../supply-chain/sales-marketing/field-service.md
                             - name: Sincronizar productos de Finance and Operations con productos de Field Service
                               href: ../../supply-chain/sales-marketing/field-service-product.md
@@ -288,7 +298,7 @@
                               href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                         - name: Configurar la integración de Project Service Automation
                           items:
-                            - name: Visión general de Project Service Automation
+                            - name: Información general de Project Service Automation
                               href: ../../finance/project-management/PSA-integration.md
                             - name: Parámetros de integración de Project Service Automation
                               href: ../../finance/project-management/PSA-parameters.md
@@ -308,17 +318,17 @@
               href: ../../finance/general-ledger/electronic-messaging.md
         - name: Administración de datos
           items:
-            - name: Visión general de la administración de datos
+            - name: Información general de la administración de datos
               href: data-entities/data-entities-data-packages.md
             - name: Entidades de datos
               items:
-                - name: Visión general de las entidades de datos
+                - name: Información general de las entidades de datos
                   href: data-entities/data-entities.md
                 - name: Proyectos de datos de configuración
                   href: data-entities/configuration-data-projects.md
                 - name: Copiar datos de configuración entre empresas o entidades jurídicas
                   items:
-                    - name: Visión general de la copia de datos de configuración
+                    - name: Información general de la copia de datos de configuración
                       href: data-entities/copy-configuration.md
                     - name: Paquetes de datos de configuración
                       href: data-entities/configuration-data-packages.md
@@ -340,7 +350,7 @@
                   href: data-entities/configuration-data-packages.md
             - name: Trabajos de exportación e importación de datos
               items:
-                - name: Visión general de los trabajos de exportación e importación de datos
+                - name: Información general de los trabajos de exportación e importación de datos
                   href: data-entities/data-import-export-job.md
                 - name: Sincronizar fecha y hora en trabajos de importación
                   href: data-entities/data-synchronize-date-and-time.md
@@ -388,7 +398,7 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Visión general de Azure Data Lake
+            - name: Información general de Azure Data Lake
               href: data-entities/azure-data-lake-overview.md
             - name: Configurar exportación a Azure Data Lake
               href: data-entities/configure-export-data-lake.md
@@ -398,7 +408,7 @@
               href: data-entities/entity-store-data-lake.md
         - name: Operaciones de movimientos de base de datos
           items:
-            - name: Visión general
+            - name: Información general
               href: database/dbmovement-operations.md
             - name: Kit de herramientas de movimiento de bases de datos
               href: database/database-movement-toolkit.md
@@ -430,7 +440,7 @@
                   href: database/dbmovement-scenario-destructivetests.md
             - name: RESTful API
               items:
-                - name: Visión general
+                - name: Información general
                   href: database/api/dbmovement-api-overview.md
                 - name: Control de versiones y soporte técnico
                   href: database/api/dbmovement-api-versioning-support.md
@@ -454,7 +464,7 @@
                       href: database/api/v1/reference-start-stop-environments.md
         - name: Datos de demostración
           items:
-            - name: Visión general de datos de demostración
+            - name: Información general de datos de demostración
               href: ../fin-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
             - name: Generar datos de demostración mediante paquetes de datos
               href: data-entities/generate-demo-data-packages.md
@@ -464,11 +474,11 @@
               href: deployment/deploy-demo-environment.md
             - name: Implementación en la nube
               items:
-                - name: Visión general de la implementación en la nube
+                - name: Información general de la implementación en la nube
                   href: deployment/cloud-deployment-overview.md
                 - name: Implementación de autoservicio
                   items:
-                    - name: Visión general de la implementación del autoservicio
+                    - name: Información general de la implementación del autoservicio
                       href: deployment/infrastructure-stack.md
                     - name: Implementar un nuevo entorno
                       href: deployment/deployenvironment-newinfrastructure.md
@@ -504,7 +514,7 @@
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: Prepararse para implementaciones locales
                   items:
-                    - name: Visión general de la implementación local
+                    - name: Información general de la implementación local
                       href: deployment/on-premises-overview.md
                     - name: Planificar y prepararse para implementaciones locales
                       href: deployment/plan-onprem-deployment.md
@@ -574,7 +584,7 @@
                   href: deployment/deployable-package-troubleshooting.md
             - name: Implementación de ayuda personalizada
               items:
-                - name: Visión general de ayuda personalizada
+                - name: Información general de ayuda personalizada
                   href: help/custom-help-overview.md
                 - name: Preparación de contenido para usarlo con el panel de ayuda
                   href: help/preparing-content.md
@@ -584,7 +594,7 @@
                   href: help/connect-help-pane.md
                 - name: Kit de herramientas de ayuda personalizada
                   items:
-                    - name: Visión general
+                    - name: Información general
                       href: help/custom-help-toolkit.md
                     - name: La herramienta HTML From Repo Generator
                       href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
@@ -642,6 +652,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Crear una conexión de Lifecycle Services (LCS) en Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Actualizar Azure Pipeline hospedado para nuevos paquetes de NuGet
+                  href: dev-tools/pipeline-nuget-split.md
                 - name: Actualizar una canalización heredada en Azure Pipelines
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Aplicación de ejemplo de administración de flota
@@ -668,7 +680,7 @@
                   href: dev-tools/code-editor.md
                 - name: Crear modelos y elementos de un modelo de datos
                   items:
-                    - name: Visión general de la creación de modelos y elementos de modelo de datos
+                    - name: Información general de la creación de modelos y elementos de modelo de datos
                       href: dev-tools/create-data-model-elements.md
                     - name: Directrices de nomenclatura para extensiones
                       href: extensibility/NamingGuidelines.md
@@ -712,7 +724,7 @@
                   href: dev-ref/application-explorer-aot-properties.md
                 - name: Referencia del lenguaje X++
                   items:
-                    - name: Visión general de la referencia del lenguaje X++
+                    - name: Información general de la referencia del lenguaje X++
                       href: dev-ref/xpp-language-reference.md
                     - name: Variables y tipos de datos
                       items:
@@ -758,7 +770,7 @@
                           href: dev-ref/xpp-events.md
                     - name: Selección y manipulación de datos de X++
                       items:
-                        - name: Visión general de la selección y manipulación de datos de X++
+                        - name: Información general de la selección y manipulación de datos de X++
                           href: dev-ref/xpp-data/xpp-data-home-page.md
                         - name: Seleccionar extracto
                           href: dev-ref/xpp-data/xpp-select-statement.md
@@ -1014,7 +1026,7 @@
               href: dev-tools/isv-licensing-on-prem.md
         - name: Reglamento general de protección de datos (RGPD)
           items:
-            - name: Visión general del Reglamento general de protección de datos
+            - name: Información general del Reglamento general de protección de datos
               href: gdpr/gdpr-guide.md
             - name: Responder a solicitudes de datos de RGPD
               items:
@@ -1062,7 +1074,7 @@
               href: lifecycle-services/issue-search-lcs.md
             - name: Administrador de configuración
               items:
-                - name: Visión general de Administrador de configuración
+                - name: Información general de Administrador de configuración
                   href: lifecycle-services/configuration-manager-lcs.md
                 - name: Configurar el administrador de configuración
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
@@ -1072,7 +1084,7 @@
               href: lifecycle-services/create-methodology.md
             - name: Modelador de procesos empresariales (BPM)
               items:
-                - name: Visión general del Modelador de procesos empresariales (BPM)
+                - name: Información general del Modelador de procesos empresariales (BPM)
                   href: lifecycle-services/bpm-overview.md
                 - name: Bibliotecas de procesos empresariales en el Modelador de procesos empresariales
                   href: lifecycle-services/business-process-libraries-business-process-modeler.md
@@ -1100,8 +1112,6 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Supervisión y diagnóstico
               href: lifecycle-services/monitoring-diagnostics.md
-            - name: Informe de análisis de impacto
-              href: lifecycle-services/impact-analysis-report.md
             - name: Reiniciar servicios del entorno
               href: lifecycle-services/restart-environment-services.md
             - name: Notificar una interrupción de la producción
@@ -1116,7 +1126,7 @@
               href: lifecycle-services/querycookbook.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
-                - name: Visión general de Microsoft Dynamics 365 Translation Service
+                - name: Información general de Microsoft Dynamics 365 Translation Service
                   href: lifecycle-services/translation-service-overview.md
                 - name: Traducir archivos de la interfaz de usuario
                   href: lifecycle-services/use-translation-service.md
@@ -1128,7 +1138,7 @@
           items:
             - name: Integración de Microsoft Power Platform con Finance and Operations
               href: power-platform/overview.md
-            - name: Visión general sobre los complementos
+            - name: Información general sobre los complementos
               href: power-platform/add-ins-overview.md
             - name: Modelado de entidades
               href: power-platform/entity-modeling.md
@@ -1424,7 +1434,7 @@
           items:
             - name: Obtener soporte para Finance and Operations y Lifecycle Services
               href: lifecycle-services/lcs-support.md
-            - name: Visión general del soporte técnico de Dynamics 365
+            - name: Información general del soporte técnico de Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: Obtener soporte técnico para Finance and Operations operado por 21Vianet en China
               href: lifecycle-services/21vianet-support.md
@@ -1448,6 +1458,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Exportar usuarios B2B a Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Mantenimiento de datos
+              href: sysadmin/DataMaintenancePortal.md
             - name: Seguridad
               items:
                 - name: Seguridad basada en roles
@@ -1490,7 +1502,7 @@
               href: sysadmin/process-automation.md
             - name: Procesamiento por lotes
               items:
-                - name: Visión general del procesamiento por lotes
+                - name: Información general del procesamiento por lotes
                   href: sysadmin/batch-processing-overview.md
                 - name: Procesamiento por lotes y servidores por lotes
                   href: sysadmin/batch-server-overview.md
@@ -1514,7 +1526,7 @@
                   href: sysadmin/batch-abort.md
             - name: Asesor de optimización
               items:
-                - name: Visión general de aviso de optimización
+                - name: Información general de aviso de optimización
                   href: sysadmin/optimization-advisor-overview.md
                 - name: Crear reglas para el asesor de optimización
                   href: sysadmin/create-rules-optimization-advisor.md

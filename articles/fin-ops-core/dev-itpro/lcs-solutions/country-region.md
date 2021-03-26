@@ -1,27 +1,26 @@
 ---
 title: Recursos de globalización
 description: Este tema incluye listas de recursos que pueden ayudarle a obtener más información acerca de una funcionalidad y ofertas específicas de un país o región.
-author: ShylaThompson
+author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 26411c24751f698a6789bbbd687aca8f378f7d65
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154128"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560927"
 ---
 # <a name="globalization-resources"></a>Recursos de globalización
 
@@ -55,7 +54,6 @@ Los siguientes recursos proporcionan información sobre características de loca
 
 #### <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 -   [Actualizaciones reglamentarias](../../../finance/localizations/regulatory-updates.md)
--   [Portal de localización](https://docs.microsoft.com/dynamics/s-e/) (actualizado semanalmente)
 -   [Búsqueda de temas en Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (actualizado diariamente)
 
 #### <a name="communication-and-alerts"></a>Comunicación y alertas
@@ -70,7 +68,7 @@ La [página principal de Novedades y cambios en Finance and Operations](../../fi
 
 ### <a name="electronic-reporting"></a>Informes electrónicos
 La herramienta de informes electrónicos (ER) le permite configurar formatos para documentos electrónicos en función de los requisitos legales de diversos países o regiones. ER le permite administrar estos formatos durante su ciclo de vida. Para obtener más información, consulte uno de los temas siguientes:
--   [Visión general de los informes electrónicos (ER)](../analytics/general-electronic-reporting.md)
+-   [Información general de los informes electrónicos (ER)](../analytics/general-electronic-reporting.md)
 -   [Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Crear configuraciones de informes electrónicos (ER)](../analytics/electronic-reporting-configuration.md)
 -   [Ampliar la lista de funciones de informes electrónicos (ER)](../analytics/general-electronic-reporting-formulas-list-extension.md)

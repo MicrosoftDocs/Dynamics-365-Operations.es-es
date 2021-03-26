@@ -12,7 +12,7 @@
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
             - name: Actualizaciones del servicio de One Version
               items:
-                - name: Visión general de las actualizaciones del servicio de One Version
+                - name: Información general de las actualizaciones del servicio de One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Preguntas frecuentes sobre actualizaciones del servicio de One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
@@ -72,7 +72,9 @@
                   items:
                     - name: Novedades y cambios en la página principal de Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.17 (marzo de 2021)
+                    - name: Finance 10.0.18 (mayo de 2021)
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: Finance 10.0.17 (abril de 2021)
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (febrero de 2021)
                       href: get-started/whats-new-changed-10-0-16.md
@@ -80,9 +82,11 @@
                       href: get-started/whats-new-changed-10-0-15.md
             - name: Características quitadas o en desuso
               items:
+                - name: Página de inicio de características quitadas o en desuso
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Características quitadas o en desuso en Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
-                - name: Funciones quitadas o en desuso de versiones anteriores
+                - name: Características quitadas o en desuso de versiones anteriores
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
             - name: Características de AX 2012 pospuestas
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
@@ -94,7 +98,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Conectar el sistema de ayuda
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: Visión general de ayuda personalizada
+                - name: Información general de ayuda personalizada
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Ver y exportar las descripciones de los campos
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
@@ -132,7 +136,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/finance/toc.json
                 - name: Características de accesibilidad
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/finance/toc.json
-                - name: Visión general de la administración de características
+                - name: Información general de la administración de características
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Preguntas frecuentes de clientes
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/finance/toc.json
@@ -202,11 +206,11 @@
           items:
             - name: Página principal de Proveedores
               href: accounts-payable/accounts-payable.md
-            - name: Visión general de facturas de proveedores
+            - name: Información general de facturas de proveedores
               href: accounts-payable/vendor-invoices-overview.md
             - name: Configuración de proveedores
               items:
-                - name: Visión general de la configuración de proveedores
+                - name: Información general de la configuración de proveedores
                   href: accounts-payable/accounts-payable-overview.md
                 - name: Introducir datos de factura en el sistema de proveedores mediante una factura de proveedor
                   href: accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
@@ -224,13 +228,13 @@
               href: accounts-payable/three-way-matching-policies.md
             - name: Conciliación de facturas de proveedores
               items:
-                - name: Visión general de la conciliación de facturas de proveedores
+                - name: Información general de la conciliación de facturas de proveedores
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Configurar la validación de conciliación de facturas de proveedores
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: Automatización de facturas de proveedores
               items:
-                - name: Visión general de los procesos automatizados de facturación de proveedores
+                - name: Información general de los procesos automatizados de facturación de proveedores
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Opciones de configuración para la automatización de facturas de proveedores
                   href: accounts-payable/vnd-invoice-set-up-options.md
@@ -250,7 +254,7 @@
               href: accounts-payable/automate-vendor-payment-proposal.md
             - name: Registrar factura de proveedor y cuadrarla con la cantidad recibida
               href: accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md
-            - name: Visión general de pago positivo
+            - name: Información general de pago positivo
               href: accounts-payable/positive-pay-overview.md
             - name: Configurar y generar archivos de pago positivo
               href: accounts-payable/set-up-generate-positive-pay-files.md
@@ -260,7 +264,7 @@
               href: accounts-payable/vendor-workflow.md
             - name: Resolver las discrepancias durante la conciliación de los totales de las facturas
               items:
-                - name: Visión general de la resolución de discrepancias durante la conciliación de los totales de las facturas
+                - name: Información general de la resolución de discrepancias durante la conciliación de los totales de las facturas
                   href: accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: Investigar y resolver excepciones
                   href: accounts-payable/tasks/research-resolve-exceptions.md
@@ -286,7 +290,7 @@
                   href: cash-bank-management/configure-settlement.md
                 - name: Resto de liquidación
                   href: cash-bank-management/settle-remainder.md
-                - name: Visión general de pagos de proveedor
+                - name: Información general de pagos de proveedor
                   href: cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Espacio de trabajo de pagos de proveedor
                   href: accounts-payable/vendor-payments-workspace.md
@@ -302,7 +306,7 @@
                   href: accounts-payable/reverse-vendor-payment.md
                 - name: Cheques de proveedor de ejemplo para informes electrónicos
                   href: accounts-payable/electronic-reporting-sample-vendor-checks.md
-                - name: Facturas de anticipo y visión general de anticipos
+                - name: Facturas de anticipo y información general de anticipos
                   href: accounts-payable/prepayments-invoices-vs-prepayments.md
                 - name: Establecer un pago parcial de proveedor antes de la fecha de descuento
                   href: accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md
@@ -346,7 +350,7 @@
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Perfiles de contabilización del cliente
               href: accounts-receivable/customer-posting-profiles.md
-            - name: Visión general de las domiciliaciones SEPA
+            - name: Información general de las domiciliaciones SEPA
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: Configurar orden de domiciliación bancaria SEPA
               href: accounts-receivable/sepa-direct-debit-mandate.md
@@ -400,13 +404,13 @@
                   href: accounts-receivable/rev-rec-reallocation-scenario-4.md
             - name: Pagos y liquidaciones
               items:
-                - name: Visión general de pagos de cliente
+                - name: Información general de pagos de cliente
                   href: cash-bank-management/tasks/customer-payment-overview.md
                 - name: Pagos centralizados para Clientes
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Depositar pagos de cliente
                   href: accounts-receivable/tasks/deposit-customer-payments.md
-                - name: Visión general de las domiciliaciones SEPA
+                - name: Información general de las domiciliaciones SEPA
                   href: accounts-receivable/sepa-direct-debit-overview.md
                 - name: Orden de domiciliación de adeudo directo SEPA
                   href: accounts-receivable/sepa-direct-debit-mandate.md
@@ -428,7 +432,7 @@
                   href: accounts-receivable/customer-payments-partial-amount.md
             - name: Crédito y cobros
               items:
-                - name: Visión general de crédito y cobros
+                - name: Información general de crédito y cobros
                   href: accounts-receivable/cm-credit-and-collections-overview.md
                 - name: Cobros en Clientes
                   href: accounts-receivable/collections-credit-accounts-receivable.md
@@ -474,6 +478,8 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: Procesar cartas de cobro
               href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Ejemplo de procesamiento de cartas de cobro
+              href: accounts-receivable/process-collection-letters-example.md
             - name: Configurar y generar información de vencimiento de clientes
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Informe de vencimiento de clientes
@@ -486,15 +492,17 @@
               href: accounts-receivable/original-invoice-numbers-credit-notes.md
             - name: Numeración cronológica de documentos y asientos
               href: accounts-receivable/chrono-numbers.md
+            - name: Archivar facturas de cliente impresas con números hash
+              href: accounts-receivable/archive-printed-invoices.md
         - name: Gestión presupuestaria
           items:
             - name: Página principal de Gestión presupuestaria
               href: budgeting/budgeting-overview.md
-            - name: Visión general de planificación presupuestaria
+            - name: Información general de planificación presupuestaria
               href: budgeting/budget-planning-overview-configuration.md
-            - name: Visión general de control presupuestario
+            - name: Información general de control presupuestario
               href: budgeting/budget-control-overview-configuration.md
-            - name: Visión general de la gestión presupuestaria
+            - name: Información general de la gestión presupuestaria
               href: budgeting/basic-budgeting-overview-configuration.md
             - name: Previsión de puestos
               href: budgeting/position-forecasting.md
@@ -592,7 +600,7 @@
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
                 - name: Importación avanzada de conciliación bancaria MT940 - Actualización de la entidad de datos compuestos
                   href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
-                - name: Visión general de conciliación bancaria avanzada
+                - name: Información general de conciliación bancaria avanzada
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
                 - name: Solución de problemas de la importación de archivos de extractos bancarios
                   href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
@@ -614,7 +622,7 @@
               href: general-ledger/CFO-workspace.md
             - name: Crear estructuras contables
               href: general-ledger/tasks/create-account-structures.md
-            - name: Visión general de la gestión presupuestaria
+            - name: Información general de la gestión presupuestaria
               href: budgeting/basic-budgeting-overview-configuration.md
             - name: Crear dimensiones e importar miembros de dimensión
               href: cost-accounting/cost-dimension.md
@@ -676,7 +684,7 @@
           href: general-ledger/electronic-messaging.md
         - name: Gestión de gastos
           items:
-            - name: Visión general de la gestión de gastos
+            - name: Información general de la gestión de gastos
               href: expense-management/expense-management.md
             - name: Informes de gastos reinventados
               href: expense-management/ExpenseWorkspaceNew.md
@@ -732,7 +740,7 @@
               href: fixed-assets/fixed-asset-management-workspace.md
             - name: Informe de puesta al día para activos fijos
               href: fixed-assets/Fixed-asset-roll-forward-report.md
-            - name: Visión general de la actualización del libro amortización
+            - name: Información general de la actualización del libro amortización
               href: fixed-assets/depreciation-book-upgrade-considerations.md
             - name: Libros derivados
               href: fixed-assets/derived-books.md
@@ -904,11 +912,11 @@
               href: asset-leasing/asset-leasing-rprts.md
         - name: Contabilidad general
           items:
-            - name: Visión general de la contabilidad general
+            - name: Información general de la contabilidad general
               href: general-ledger/general-ledger.md
             - name: Cuentas
               items:
-                - name: Visión general de acumulaciones
+                - name: Información general de acumulaciones
                   href: general-ledger/accruals-overview.md
                 - name: Reglas de eliminación
                   href: general-ledger/elimination-rules.md
@@ -936,7 +944,7 @@
                   href: general-ledger/tasks/create-accrual-schemes.md
                 - name: Conversión de consolidaciones financieras y divisa
                   items:
-                    - name: Visión general de la conversión de consolidaciones financieras y divisa
+                    - name: Información general de la conversión de consolidaciones financieras y divisa
                       href: general-ledger/financial-consolidations-currency-translation.md
                     - name: Consolidar en línea
                       href: general-ledger/consolidate-online.md
@@ -978,7 +986,7 @@
                   href: general-ledger/financial-dimensions.md
                 - name: Grupos de cuentas de consolidación y cuentas de consolidación adicionales
                   href: budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Visión general de consolidación y eliminación
+                - name: Información general de consolidación y eliminación
                   href: budgeting/consolidation-elimination-overview.md
                 - name: 'Calendarios fiscales, ejercicios y períodos'
                   href: budgeting/fiscal-calendars-fiscal-years-periods.md
@@ -1056,7 +1064,7 @@
                   href: general-ledger/faq-year-end-activities.md
             - name: Impuestos
               items:
-                - name: Visión general de impuestos
+                - name: Información general de impuestos
                   href: general-ledger/indirect-taxes-overview.md
                 - name: Índices de impuestos en función de la base marginal y los métodos de cálculo
                   href: general-ledger/marginal-base-field.md
@@ -1102,7 +1110,7 @@
                   href: general-ledger/tasks/set-up-withholding-tax.md
                 - name: Retención de impuestos global
                   items:
-                    - name: Visión general de retención de impuestos global
+                    - name: Información general de retención de impuestos global
                       href: general-ledger/global-withholding-tax-overview.md
                     - name: Configurar retención de impuestos global
                       href: general-ledger/set-up-global-withholding-tax.md
@@ -1124,7 +1132,7 @@
           items:
             - name: Introducción a los informes financieros
               href: general-ledger/financial-reporting-getting-started.md
-            - name: Visión general de informes financieros
+            - name: Información general de informes financieros
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Componentes de los informes financieros
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
@@ -1196,7 +1204,7 @@
                   href: finance-insights/payment-insights-overview.md
                 - name: Usar predicciones de pago de cliente
                   href: finance-insights/use-customer-payment-predictions.md
-                - name: Visión general de instantáneas
+                - name: Información general de instantáneas
                   href: finance-insights/payment-snapshots.md
                 - name: Resultados de los modelos de aprendizaje automático
                   href: finance-insights/confusion-matrix.md
@@ -1206,7 +1214,7 @@
                   href: finance-insights/improve-model.md
         - name: Gestión de proyectos y contabilidad
           items:
-            - name: Visión general de la gestión y contabilidad de proyectos
+            - name: Información general de la gestión y contabilidad de proyectos
               href: project-management/overview-project-management-accounting.md
             - name: Facturación de empresas vinculadas
               href: project-management/intercompany-invoicing.md
@@ -1244,7 +1252,7 @@
               href: project-management/transfer-quote-new-existing-project.md
             - name: Recursos del proyecto
               items:
-                - name: Visión general de recursos del proyecto
+                - name: Información general de recursos del proyecto
                   href: project-management/project-resourcing.md
                 - name: Configurar recursos del proyecto
                   href: project-management/set-up-project-resources.md
@@ -1268,11 +1276,11 @@
               href: project-management/tasks/receive-items-purchase-order-item-requirement.md
             - name: Estructuras de descomposición del trabajo
               items:
-                - name: Visión general de las estructuras de descomposición del trabajo
+                - name: Información general de las estructuras de descomposición del trabajo
                   href: project-management/work-breakdown-structures.md
                 - name: Integración con Microsoft Project Client
                   href: project-management/project-integration.md
-                - name: Visión general de las aplicaciones móviles de Project
+                - name: Información general de las aplicaciones móviles de Project
                   href: project-management/project-mobile-application-overview.md
                 - name: Espacio de trabajo móvil de entrada de tiempo de proyecto
                   href: project-management/project-time-entry-mobile-workspace.md
@@ -1302,7 +1310,7 @@
               href: public-sector/cash-position-inquiry-setup.md
             - name: Pagos de proveedores en el sector público
               items:
-                - name: Visión general de los proveedores en el sector público
+                - name: Información general de los proveedores en el sector público
                   href: public-sector/accounts-payable-public-sector.md
                 - name: Códigos de pedido de compra en el sector público
                   href: public-sector/purchase-order-codes-public-sector.md
@@ -1318,6 +1326,8 @@
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
                 - name: Importar y crear múltiples proveedores plantilla y facturas en el sector público
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: Restringir la edición de distribuciones contables en facturas
+                  href: public-sector/restrict-edit-accounting-distributions.md
                 - name: Plan para los proveedores plantilla en el sector público
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: Controlar el acceso a los acuerdos de compra en el sector público
@@ -1326,7 +1336,7 @@
                   href: public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Pagos de clientes en el sector público
               items:
-                - name: Visión general de los pagos de clientes en el sector público
+                - name: Información general de los pagos de clientes en el sector público
                   href: public-sector/accounts-receivable-public-sector.md
                 - name: Clasificaciones de facturación y códigos de facturación en el sector público
                   href: public-sector/billing-classifications-billing-codes-public-sector.md
@@ -1342,7 +1352,7 @@
                   href: public-sector/reimbursements-public-sector.md
             - name: Gestión presupuestaria en el sector público
               items:
-                - name: Visión general de la gestión presupuestaria en el sector público
+                - name: Información general de la gestión presupuestaria en el sector público
                   href: public-sector/budgeting-public-sector.md
                 - name: Creación de entradas de un presupuesto original y de un presupuesto preliminar inverso para el sector público
                   href: public-sector/tasks/create-original-budget.md
@@ -1370,7 +1380,7 @@
               href: public-sector/fixed-asset-public-sector.md
             - name: Contabilidad general en el sector público
               items:
-                - name: Visión general de la contabilidad general en el sector público
+                - name: Información general de la contabilidad general en el sector público
                   href: public-sector/general-ledger-public-sector.md
                 - name: Asientos contables avanzados en el sector público
                   href: public-sector/advanced-ledger-entries-public-sector.md
@@ -1410,7 +1420,7 @@
               href: localizations/regulatory-updates.md
             - name: Complemento de facturación electrónica
               items:
-                - name: Visión general del complemento de facturación electrónica
+                - name: Información general del complemento de facturación electrónica
                   href: localizations/e-invoicing-service-overview.md
                 - name: Componentes de administración de complementario de facturación electrónica
                   href: localizations/e-invoicing-service-administration.md
@@ -1428,8 +1438,8 @@
                       href: localizations/e-invoicing-get-started.md
                     - name: Comenzar con el complemento de facturación electrónica para Brasil
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Facturas electrónicas de clientes en Egipto
-                      href: localizations/emea-egy-e-invoices.md
+                    - name: Comenzar con el complemento de facturación electrónica para Egipto
+                      href: localizations/e-invoicing-eg-get-started.md
                     - name: Comenzar con el complemento de facturación electrónica para Italia
                       href: localizations/e-invoicing-ita-get-started.md
                     - name: Comenzar con el complemento de facturación electrónica para México
@@ -1450,7 +1460,7 @@
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
             - name: Austria
               items:
-                - name: Visión general de Austria
+                - name: Información general de Austria
                   href: localizations/austria.md
                 - name: Depreciación de medio año sobre adquisiciones adicionales
                   href: localizations/emea-aut-half-year-depreciation.md
@@ -1460,7 +1470,7 @@
                   href: localizations/emea-aut-vat-statement-details.md
             - name: Baréin
               items:
-                - name: Visión general de Baréin
+                - name: Información general de Baréin
                   href: localizations/bahrain.md
                 - name: Configurar diseño de factura para Baréin
                   href: localizations/emea-bhr-invoice-layout.md
@@ -1470,7 +1480,7 @@
                   href: localizations/gcc-invoice-issue-deadline.md
             - name: Bélgica
               items:
-                - name: Visión general de Bélgica
+                - name: Información general de Bélgica
                   href: localizations/belgium.md
                 - name: Extracto bancario CODA
                   href: localizations/emea-bel-coda-bank-statement-import.md
@@ -1488,13 +1498,13 @@
                   href: localizations/emea-bel-prodcom-report.md
             - name: Brasil
               items:
-                - name: Visión general de Brasil
+                - name: Información general de Brasil
                   href: localizations/brazil.md
                 - name: Ámbito de localización
                   href: localizations/latam-bra-scope.md
                 - name: Libros fiscales
                   items:
-                    - name: Visión general de los libros contables de Brasil
+                    - name: Información general de los libros contables de Brasil
                       href: localizations/latam-bra-fiscal-books.md
                     - name: Configurar libros fiscales
                       href: localizations/latam-bra-configure-fiscal-books.md
@@ -1564,7 +1574,7 @@
                       href: localizations/tasks/br-00076-project-debit-notes.md
                 - name: Proceso Nota Fiscal Electrónica (NF-e)
                   items:
-                    - name: Visión general del proceso NF-e de Brasil
+                    - name: Información general del proceso NF-e de Brasil
                       href: localizations/latam-bra-nf-e-process.md
                     - name: Transmisión automática de los documentos fiscales de NF-e
                       href: localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
@@ -1580,6 +1590,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Configurar parámetros de NF-e para un establecimiento fiscal
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.006 - Plataforma digital de ventas de intermedio para NF-e
+                      href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: 'NT2019.001: Reglas de exenciones y beneficios fiscales para NF-e/NFC-e'
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
@@ -1624,7 +1636,7 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Impuestos
                   items:
-                    - name: Visión general de los impuestos de Brasil
+                    - name: Información general de los impuestos de Brasil
                       href: localizations/latam-bra-calculate-taxes.md
                     - name: Calcular el impuesto sobre presupuestos de compra
                       href: localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
@@ -1678,7 +1690,7 @@
                   href: localizations/can-gst-hst-internet-file-transfer.md
             - name: China
               items:
-                - name: Visión general de China
+                - name: Información general de China
                   href: localizations/china.md
                 - name: Finance and Operations operada por 21Vianet en China
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
@@ -1752,7 +1764,7 @@
                   href: localizations/emea-cze-hun-year-end.md
             - name: Dinamarca
               items:
-                - name: Visión general de Dinamarca
+                - name: Información general de Dinamarca
                   href: localizations/denmark.md
                 - name: Asignar un formato al resguardo de pago a una cuenta de cliente
                   href: localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1778,15 +1790,17 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
             - name: Egipto
               items:
-                - name: Visión general de Egipto
+                - name: Información general de Egipto
                   href: localizations/egypt.md
                 - name: Configurar números de registro en Egipto
                   href: localizations/emea-egy-reg-numbers.md
                 - name: Configurar diseño de factura para Egipto
                   href: localizations/emea-egy-invoice-layout.md
+                - name: Facturas electrónicas de clientes en Egipto
+                  href: localizations/emea-egy-e-invoices.md
             - name: Estonia
               items:
-                - name: Visión general de Estonia
+                - name: Información general de Estonia
                   href: localizations/estonia.md
                 - name: Solicitudes de información personal
                   href: localizations/emea-est-personal-info.md
@@ -1794,11 +1808,11 @@
                   href: localizations/emea-est-vat-statement-details.md
             - name: Europa
               items:
-                - name: Visión general de Europa
+                - name: Información general de Europa
                   href: localizations/europe.md
                 - name: Titulares de anticipo
                   items:
-                    - name: Visión general de los titulares de anticipo
+                    - name: Información general de los titulares de anticipo
                       href: localizations/emea-advance-holders.md
                     - name: Transacciones de titulares de anticipo
                       href: localizations/emea-advance-holders-transactions.md
@@ -1856,7 +1870,7 @@
                       href: localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
                 - name: Intrastat
                   items:
-                    - name: Visión general de intrastat
+                    - name: Información general de intrastat
                       href: localizations/emea-intrastat.md
                     - name: Transferir transacciones a intrastat
                       href: localizations/tasks/transfer-transactions-intrastat.md
@@ -1896,9 +1910,9 @@
                   href: localizations/emea-registration-ids.md
                 - name: Cargos invertidos
                   href: localizations/emea-reverse-charge.md
-                - name: Visión general de transferencias de crédito SEPA
+                - name: Información general de transferencias de crédito SEPA
                   href: accounts-payable/sepa-credit-transfer.md
-                - name: Visión general de las domiciliaciones SEPA
+                - name: Información general de las domiciliaciones SEPA
                   href: accounts-receivable/sepa-direct-debit-overview.md
                 - name: Configurar la compensación de clientes y proveedores
                   href: localizations/emea-compensation-customer-vendor-transactions.md
@@ -1942,13 +1956,13 @@
                   href: localizations/emea-transactions-settlement-form.md
             - name: Finlandia
               items:
-                - name: Visión general de Finlandia
+                - name: Información general de Finlandia
                   href: localizations/finland.md
                 - name: Informe de pago de impuestos para Finlandia
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: Francia
               items:
-                - name: Visión general de Francia
+                - name: Información general de Francia
                   href: localizations/france.md
                 - name: Sector público
                   items:
@@ -2000,20 +2014,22 @@
                   href: localizations/emea-fra-das2-report.md
             - name: Alemania
               items:
-                - name: Visión general de Alemania
+                - name: Información general de Alemania
                   href: localizations/germany.md
                 - name: Depreciación de adquisición adicional
                   href: localizations/emea-deu-additional-acquisition-depreciation.md
                 - name: Archivo de auditoría
                   items:
-                    - name: Visión general del archivo de auditoría de Alemania
+                    - name: Formación general del archivo de auditoría de Alemania
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: Personalizar la configuración del archivo de auditoría
-                      href: localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: Generar archivo de auditoría
-                      href: localizations/tasks/german-audit-file.md
                     - name: Importar configuración de archivo de auditoría
                       href: localizations/tasks/import-german-audit-file-configuration.md
+                    - name: Generar archivo de auditoría
+                      href: localizations/tasks/german-audit-file.md
+                    - name: Personalizar la configuración del archivo de auditoría
+                      href: localizations/tasks/customize-german-audit-file-configuration.md
+                    - name: Agregar filtros a la configuración de un archivo de auditoría
+                      href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Ajustes de depreciación para adquisiciones adicionales en el segundo año
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Transmisión electrónica de la declaración de IVA (ELSTER)
@@ -2028,7 +2044,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
             - name: Hungría
               items:
-                - name: Visión general de Hungría
+                - name: Información general de Hungría
                   href: localizations/hungary.md
                 - name: Cálculo del tipo de cambio promedio y diario
                   href: localizations/emea-hun-average-daily-exchange-rate-calculation.md
@@ -2050,7 +2066,7 @@
                   href: localizations/emea-hun-deferred-vat.md
             - name: Islandia
               items:
-                - name: Visión general de Islandia
+                - name: Información general de Islandia
                   href: localizations/iceland.md
                 - name: Crear una cuenta de proveedor y vincular la categoría de declaración de factura
                   href: localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -2062,13 +2078,13 @@
                   href: localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: India
               items:
-                - name: Visión general de la India
+                - name: Información general de la India
                   href: localizations/india.md
                 - name: Ámbito de las localizaciones de la India
                   href: localizations/apac-ind-scope.md
                 - name: Activos fijos
                   items:
-                    - name: Visión general de los activos fijos de la India
+                    - name: Información general de los activos fijos de la India
                       href: localizations/apac-ind-fixed-assets.md
                     - name: Vincular un calendario basado en días a un libro de activos fijos
                       href: localizations/tasks/apac-ind-attach-day-based-calendar.md
@@ -2094,7 +2110,7 @@
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
                 - name: India GST
                   items:
-                    - name: Visión general de India GST
+                    - name: Información general de India GST
                       href: localizations/apac-ind-gst.md
                     - name: Novedades o cambios para la localización India GST de India
                       items:
@@ -2278,7 +2294,7 @@
                       href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Motor de impuestos
                   items:
-                    - name: Visión general del motor de impuestos
+                    - name: Información general del motor de impuestos
                       href: general-ledger/tax-engine.md
                     - name: Importar configuración
                       href: general-ledger/tax-engine-import-configuration.md
@@ -2298,7 +2314,7 @@
                   href: localizations/apac-ind-tax-thresholds.md
             - name: Italia
               items:
-                - name: Visión general de Italia
+                - name: Información general de Italia
                   href: localizations/italy.md
                 - name: Detalles de declaraciones de IVA
                   href: localizations/emea-ita-vat-statements-details.md
@@ -2306,7 +2322,7 @@
                   href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: Informe de lista de bloqueados
                   href: localizations/emea-ita-black-list-report.md
-                - name: Fecha de competencia
+                - name: Fecha de competencia y diario fiscal
                   href: localizations/emea-ita-competence-date.md
                 - name: Depreciación de activos fijos
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
@@ -2364,7 +2380,7 @@
                   href: localizations/emea-ita-post-date-control.md
             - name: Japón
               items:
-                - name: Visión general de Japón
+                - name: Información general de Japón
                   href: localizations/japan.md
                 - name: Adquirir un activo fijo y reclamar el subsidio de concesión del gobierno
                   href: localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
@@ -2524,11 +2540,11 @@
                   href: localizations/tasks/use-disassemble-list-fixed-assets.md
             - name: Kuwait
               items:
-                - name: Visión general de Kuwait
+                - name: Información general de Kuwait
                   href: localizations/kuwait.md
             - name: Letonia
               items:
-                - name: Visión general de Letonia
+                - name: Información general de Letonia
                   href: localizations/latvia.md
                 - name: Contabilidad de activos fijos
                   href: localizations/emea-lva-fixed-assets-accounting.md
@@ -2542,7 +2558,7 @@
                   href: localizations/emea-lva-vat-statement-details.md
             - name: Lituania
               items:
-                - name: Visión general de Lituania
+                - name: Información general de Lituania
                   href: localizations/lithuania.md
                 - name: Extracto de reparación de activos fijos
                   href: localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -2554,7 +2570,7 @@
                   href: localizations/emea-ltu-isaf.md
             - name: Malasia
               items:
-                - name: Visión general de Malasia
+                - name: Información general de Malasia
                   href: localizations/malaysia.md
                 - name: Generar crédito de cliente para las ventas del proyecto
                   href: localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
@@ -2580,7 +2596,7 @@
                   href: localizations/apac-mys-sst-declaration.md
             - name: México
               items:
-                - name: Visión general de México
+                - name: Información general de México
                   href: localizations/mexico.md
                 - name: Ámbito de localización
                   href: localizations/latam-mex-scope.md
@@ -2620,11 +2636,11 @@
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
             - name: Omán
               items:
-                - name: Visión general de Omán
+                - name: Información general de Omán
                   href: localizations/oman.md
             - name: Países Bajos
               items:
-                - name: Visión general de Países Bajos
+                - name: Información general de Países Bajos
                   href: localizations/netherlands.md
                 - name: Declaración de IVA
                   href: localizations/emea-nl-VAT-declaration.md
@@ -2636,7 +2652,7 @@
                   href: localizations/emea-nl-audit-file.md
             - name: Noruega
               items:
-                - name: Visión general de Noruega
+                - name: Información general de Noruega
                   href: localizations/norway.md
                 - name: Formatos de pago de clientes y proveedores
                   href: localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -2652,7 +2668,7 @@
                   href: localizations/emea-nor-e-invoices.md
             - name: Polonia
               items:
-                - name: Visión general de Polonia
+                - name: Información general de Polonia
                   href: localizations/poland.md
                 - name: Activar contabilidad de la pérdida del valor residual
                   href: localizations/emea-pol-red-storno.md
@@ -2686,11 +2702,11 @@
                   href: localizations/emea-pol-vdek.md
             - name: Catar
               items:
-                - name: Visión general de Catar
+                - name: Información general de Catar
                   href: localizations/qatar.md
             - name: Rusia
               items:
-                - name: Visión general de Rusia
+                - name: Información general de Rusia
                   href: localizations/russia.md
                 - name: Contabilidad general
                   items:
@@ -2710,7 +2726,7 @@
                       href: localizations/rus-account-activity-reports.md
                 - name: Titulares de anticipo
                   items:
-                    - name: Visión general de los titulares de anticipo de Rusia
+                    - name: Información general de los titulares de anticipo de Rusia
                       href: localizations/rus-advance-holders.md
                     - name: Crear un titular de anticipo
                       href: localizations/emea-advance-holders.md#create-an-advance-holder
@@ -2758,7 +2774,7 @@
                       href: localizations/rus-export-trade.md
                 - name: Activos fijos
                   items:
-                    - name: Visión general de los activos fijos
+                    - name: Información general de los activos fijos
                       href: localizations/rus-fixed-assets-overview.md
                     - name: Configurar activos fijos
                       items:
@@ -2826,7 +2842,7 @@
                       href: localizations/rus-third-party-misc-charges.md
                     - name: Contratos
                       items:
-                        - name: Visión general de los contratos
+                        - name: Información general de los contratos
                           href: localizations/rus-agreements.md
                         - name: Configurar y crear contratos
                           href: localizations/rus-set-up-and-create-agreements.md
@@ -2836,7 +2852,7 @@
                           href: localizations/rus-inquiries-reports-agreements.md
                     - name: Transacciones a través de intermediario
                       items:
-                        - name: Visión general de transacciones a través de intermediario
+                        - name: Información general de transacciones a través de intermediario
                           href: localizations/rus-transactions-through-intermediary.md
                         - name: Compras por comisión
                           href: localizations/rus-purchases-on-commission.md
@@ -2856,7 +2872,7 @@
                       href: localizations/rus-inventory-reports.md
                     - name: Perfil de inventario
                       items:
-                        - name: Visión general del perfil de inventario
+                        - name: Información general del perfil de inventario
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Configurar un perfil de inventario
                           href: localizations/rus-set-up-inventory-profile.md
@@ -2916,7 +2932,7 @@
                       href: localizations/rus-cash-flow-tax-registers.md
             - name: Arabia Saudí
               items:
-                - name: Visión general de Arabia Saudí
+                - name: Información general de Arabia Saudí
                   href: localizations/saudi-arabia.md
                 - name: Impuestos
                   href: localizations/apac-sau-sales-tax.md
@@ -2926,13 +2942,13 @@
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
             - name: Singapur
               items:
-                - name: Visión general de Singapur
+                - name: Información general de Singapur
                   href: localizations/singapore.md
                 - name: Generar el informe GST-05
                   href: localizations/apac-sgp-generate-gst-05-report.md
             - name: España
               items:
-                - name: Visión general de España
+                - name: Información general de España
                   href: localizations/spain.md
                 - name: Aplicar descuentos por pronto pago en la factura
                   href: localizations/emea-esp-cash-discount-applied-invoice.md
@@ -2968,7 +2984,7 @@
                   href: localizations/emea-esp-sii.md
             - name: Suecia
               items:
-                - name: Visión general de Suecia
+                - name: Información general de Suecia
                   href: localizations/sweden.md
                 - name: Exportar información financiera para auditores de Suecia
                   href: localizations/emea-swe-sie-standard-report.md
@@ -2978,7 +2994,7 @@
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
             - name: Suiza
               items:
-                - name: Visión general de Suiza
+                - name: Información general de Suiza
                   href: localizations/switzerland.md
                 - name: Importar pagos de cliente en ESR
                   href: localizations/emea-che-esr-customer-payments-import.md
@@ -2986,7 +3002,7 @@
                   href: localizations/emea-che-swiss-qr-bills.md
             - name: Tailandia
               items:
-                - name: Visión general de Tailandia
+                - name: Información general de Tailandia
                   href: localizations/thailand.md
                 - name: Informes de tarjetas de existencias
                   href: localizations/apac-tha-stock-card-reports.md
@@ -3006,7 +3022,7 @@
                   href: localizations/uae-vat-setup-reporting.md
             - name: Reino Unido
               items:
-                - name: Visión general de Reino Unido
+                - name: Información general de Reino Unido
                   href: localizations/united-kingdom.md
                 - name: Esquema del sector de la construcción
                   href: localizations/emea-gbr-cis-construction-industry-scheme.md
@@ -3030,7 +3046,7 @@
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Estados Unidos
               items:
-                - name: Visión general de Estados Unidos
+                - name: Información general de Estados Unidos
                   href: localizations/united-states.md
                 - name: Informe 1099 de cierre de ejercicio en Estados Unidos
                   href: localizations/noam-usa-year-end-1099-reporting.md
@@ -3040,7 +3056,7 @@
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
         - name: Human Resources
           items:
-            - name: Visión general de Human Resources
+            - name: Información general de Human Resources
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
             - name: Configurar Human Resources
               items:
@@ -3116,7 +3132,7 @@
                   href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
             - name: Configurar planes de compensación
               items:
-                - name: Visión general de planes de compensación
+                - name: Información general de planes de compensación
                   href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar de cuadrículas de compensación
                   href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
@@ -3156,7 +3172,7 @@
                   href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
             - name: Desarrollar empleados
               items:
-                - name: Visión general de la gestión del desempeño
+                - name: Información general de la gestión del desempeño
                   href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Alinear aptitudes de recursos
                   href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
@@ -3170,7 +3186,7 @@
               items:
                 - name: Configurar cursos de formación
                   href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
-                - name: Visión general de cuestionarios
+                - name: Información general de cuestionarios
                   href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
                 - name: Diseñar cuestionarios
                   href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
@@ -3229,9 +3245,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Beneficios
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: Visión general de contenido de efectivo de Power BI
+                - name: Información general de contenido de efectivo de Power BI
                   href: cash-bank-management/Cash-Overview-Power-BI-content.md
-                - name: Visión general del CFO
+                - name: Información general del CFO
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Compensación
                   href: ../fin-ops-core/dev-itpro/analytics/compensation-power-bi.md?toc=/dynamics365/finance/toc.json
@@ -3253,7 +3269,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Rendimiento financiero
                   href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: Información financiera
+                - name: Análisis financiero
                   href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/finance/toc.json
                 - name: Administración de activos fijos
                   href: fixed-assets/Fixed-asset-management-workspace.md
@@ -3283,7 +3299,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/finance/toc.json
             - name: Impresión e informes de documentos
               items:
-                - name: Visión general de servicios de informes de documentos
+                - name: Información general de servicios de informes de documentos
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
                 - name: Fuentes compatibles
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
@@ -3295,7 +3311,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/reporting-printing-preview-page-options.md
                 - name: Impresión
                   items:
-                    - name: Visión general de la impresión de documentos
+                    - name: Información general de la impresión de documentos
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Instalar el agente de ruta de documentos para habilitar la impresión de red
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/finance/toc.json
@@ -3351,7 +3367,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/finance/toc.json
         - name: Informes electrónicos
           items:
-            - name: Visión general de los informes electrónicos
+            - name: Información general de los informes electrónicos
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Configuraciones
               items:
@@ -3493,12 +3509,18 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/finance/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/finance/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
                         - name: 'No'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
                         - name: ValueInLarge
@@ -3675,7 +3697,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: Reutilizar configuraciones de ER con plantillas de Excel para generar informes en formato Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: La configuración del diseño de informes electrónicos para completar las plantillas de PDF
+                    - name: Suprimir controles de contenido de Word en informes generados
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
+                - name: Diseñar configuraciones para completar las plantillas de PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Incrustar imágenes y formas
                   items:
@@ -3759,6 +3783,8 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Compartir configuraciones en GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Suspender configuraciones en el repositorio global de RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Guías de inicio rápido
               items:
                 - name: Ajustar un formato de informes electrónicos para generar un documento electrónico personalizado
@@ -3865,7 +3891,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Destinos
                   items:
-                    - name: Visión general de los destinos
+                    - name: Información general de los destinos
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/finance/toc.json
                     - name: Tipos de destino
                       items:
@@ -3905,7 +3931,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                 - name: Administración de documentos empresariales (BDM)
                   items:
-                    - name: Visión general del BDM
+                    - name: Información general del BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
                     - name: Nueva interfaz de usuario de documentos en BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
@@ -3957,7 +3983,7 @@
                   href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Mi equipo
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/finance/toc.json
-                - name: Visión general de las aplicaciones móviles de Project
+                - name: Información general de las aplicaciones móviles de Project
                   href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Entrada de tiempo del proyecto
                   href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
@@ -3973,7 +3999,7 @@
               href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/finance/toc.json
         - name: Integración con Office
           items:
-            - name: Visión general de la integración con Office
+            - name: Información general de la integración con Office
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/finance/toc.json
             - name: Tutorial de integración con Office
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
@@ -3997,7 +4023,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/finance/toc.json
             - name: Secuencias numéricas
               items:
-                - name: Visión general de las secuencias numéricas
+                - name: Información general de las secuencias numéricas
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar secuencias numéricas de manera individual
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/finance/toc.json
@@ -4005,7 +4031,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/finance/toc.json
             - name: Organizaciones y jerarquías organizativas
               items:
-                - name: Visión general de las organizaciones y las jerarquías organizativas
+                - name: Información general de las organizaciones y las jerarquías organizativas
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/finance/toc.json
                 - name: Planificar su jerarquía organizativa
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/finance/toc.json
@@ -4017,7 +4043,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/finance/toc.json
             - name: Libreta de direcciones global
               items:
-                - name: Visión general de la libreta de direcciones global
+                - name: Información general de la libreta de direcciones global
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/finance/toc.json
                 - name: Plan para la libreta de direcciones global y otras libretas de direcciones
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
@@ -4029,7 +4055,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/finance/toc.json
             - name: Sistema de flujo de trabajo
               items:
-                - name: Visión general del sistema de flujo de trabajo
+                - name: Información general del sistema de flujo de trabajo
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/finance/toc.json
                 - name: Arquitectura del sistema de flujo de trabajo
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/finance/toc.json
@@ -4039,7 +4065,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/finance/toc.json
                 - name: Crear flujos de trabajo
                   items:
-                    - name: Visión general de la creación de flujos de trabajo
+                    - name: Información general de la creación de flujos de trabajo
                       href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar propiedades del flujo de trabajo
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/finance/toc.json
@@ -4093,7 +4119,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/finance/toc.json
             - name: Alertas
               items:
-                - name: Visión general de alertas
+                - name: Información general de alertas
                   href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Crear reglas de alertas
                   href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/finance/toc.json
@@ -4103,19 +4129,19 @@
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/finance/toc.json
             - name: Firmas electrónicas
               items:
-                - name: Visión general de las firmas electrónicas
+                - name: Información general de las firmas electrónicas
                   href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar firmas electrónicas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/finance/toc.json
             - name: Gestión de casos
               items:
-                - name: Visión general de la gestión de casos
+                - name: Información general de la gestión de casos
                   href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/finance/toc.json
                 - name: 'Planificar seguridad, procesos y categorías de casos'
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/finance/toc.json
             - name: Plantillas de registro
               items:
-                - name: Visión general de las plantillas de registro
+                - name: Información general de las plantillas de registro
                   href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/finance/toc.json
                 - name: Crear una plantilla de registro
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/finance/toc.json
@@ -4129,7 +4155,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/finance/toc.json
         - name: "Nómina de EE.\_UU."
           items:
-            - name: Visión general de las nóminas de Estados Unidos
+            - name: Información general de las nóminas de Estados Unidos
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-payroll.md
             - name: Configuración de nómina
               items:

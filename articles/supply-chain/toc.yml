@@ -12,7 +12,7 @@
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
             - name: Actualizaciones del servicio de One Version
               items:
-                - name: Visión general de las actualizaciones del servicio de One Version
+                - name: Información general de las actualizaciones del servicio de One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Preguntas frecuentes sobre actualizaciones del servicio de One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
@@ -72,17 +72,19 @@
                   items:
                     - name: Novedades y cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.18 (mayo de 2021)
+                      href: get-started/whats-new-scm-10-0-18.md
                     - name: Supply Chain Management 10.0.17 (abril de 2021)
                       href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (febrero de 2021)
                       href: get-started/whats-new-scm-10-0-16.md
-                    - name: Supply Chain Management 10.0.15 (enero de 2021)
-                      href: get-started/whats-new-scm-10-0-15.md
                 - name: Características quitadas o en desuso
                   items:
+                    - name: Página de inicio de características quitadas o en desuso
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Características quitadas o en desuso en Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Funciones quitadas o en desuso de versiones anteriores
+                    - name: Características quitadas o en desuso de versiones anteriores
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Características de AX 2012 pospuestas
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
@@ -94,7 +96,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Conectar el sistema de ayuda
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Visión general de ayuda personalizada
+                - name: Información general de ayuda personalizada
                   href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ver y exportar las descripciones de los campos
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
@@ -132,7 +134,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Características de accesibilidad
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Visión general de la administración de características
+                - name: Información general de la administración de características
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Preguntas frecuentes de clientes
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/supply-chain/toc.json
@@ -212,7 +214,7 @@
                   href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Rusia
               items:
-                - name: Visión general de Rusia
+                - name: Información general de Rusia
                   href: ../finance/localizations/russia.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Inventario
                   items:
@@ -230,7 +232,7 @@
               href: cloud-edge/cloud-edge-warehouse-order.md
         - name: Administración de activos
           items:
-            - name: Visión general de la administración de activos
+            - name: Información general de la administración de activos
               href: asset-management/index.md
               items:
                 - name: Ubicaciones funcionales y activos
@@ -293,7 +295,7 @@
                   href: asset-management/objects/object-timeline.md
                 - name: Vista de activos
                   href: asset-management/objects/object-view.md
-                - name: Visión general de los atributos de activo
+                - name: Información general de los atributos de activo
                   href: asset-management/objects/object-specification-overview.md
             - name: Configurar para solicitudes de mantenimiento
               items:
@@ -373,7 +375,7 @@
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Mantenimiento preventivo y reactivo
               items:
-                - name: Visión general del mantenimiento preventivo
+                - name: Información general del mantenimiento preventivo
                   href: asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
                 - name: Planes de mantenimiento
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-plans.md
@@ -473,7 +475,7 @@
               href: ../finance/general-ledger/CFO-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Crear estructuras contables
               href: ../finance/general-ledger/tasks/create-account-structures.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Visión general de la gestión presupuestaria
+            - name: Información general de la gestión presupuestaria
               href: ../finance/budgeting/basic-budgeting-overview-configuration.md?toc=/dynamics365/supply-chain/toc.json
             - name: Crear dimensiones e importar miembros de dimensión
               href: ../finance/cost-accounting/cost-dimension.md?toc=/dynamics365/supply-chain/toc.json
@@ -537,9 +539,9 @@
               href: cost-management/cost-management-home-page.md
             - name: Requisitos previos de los costes estándar
               items:
-                - name: Visión general de los requisitos previos de los costes estándar
+                - name: Información general de los requisitos previos de los costes estándar
                   href: cost-management/prerequisites-standard-costs.md
-                - name: Visión general de conversión de costes estándar
+                - name: Información general de conversión de costes estándar
                   href: cost-management/standard-cost-conversion-overview.md
                 - name: Requisito previo para la conversión de coste estándar
                   href: cost-management/prerequisites-standard-cost-conversion.md
@@ -559,7 +561,7 @@
                   href: cost-management/prepare-maintain-standard-costs-manufactured-items.md
             - name: Versiones de gestión de costes
               items:
-                - name: Visión general de las versiones de gestión de costes
+                - name: Información general de las versiones de gestión de costes
                   href: cost-management/costing-versions.md
                 - name: Hojas de gestión de costes
                   href: cost-management/costing-sheets.md
@@ -691,7 +693,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Impresión e informes de documentos
               items:
-                - name: Visión general de servicios de informes de documentos
+                - name: Información general de servicios de informes de documentos
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Fuentes compatibles
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/supply-chain/toc.json
@@ -699,7 +701,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Impresión
                   items:
-                    - name: Visión general de la impresión de documentos
+                    - name: Información general de la impresión de documentos
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Instalar el agente de ruta de documentos para habilitar la impresión de red
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
@@ -755,7 +757,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/supply-chain/toc.json
         - name: Informes electrónicos
           items:
-            - name: Visión general de los informes electrónicos
+            - name: Información general de los informes electrónicos
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/supply-chain/toc.json
             - name: Configuraciones
               items:
@@ -1057,7 +1059,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: (ER) Diseñar configuraciones para generar informes en formato Word
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: La configuración del diseño de informes electrónicos para completar las plantillas de PDF
+                - name: Diseñar configuraciones para completar las plantillas de PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/supply-chain/toc.json
             - name: Incrustar imágenes y formas
               items:
@@ -1193,7 +1195,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Destinos
                   items:
-                    - name: Visión general de los destinos
+                    - name: Información general de los destinos
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Tipos de destino
                       items:
@@ -1231,7 +1233,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Administración de documentos empresariales
                   items:
-                    - name: Visión general de la gestión de documentos empresariales
+                    - name: Información general de la gestión de documentos empresariales
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Nueva interfaz de usuario de documentos en la Administración de documentos empresariales
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
@@ -1247,17 +1249,17 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
         - name: Gestión de inventarios
           items:
-            - name: Visión general de gestión de inventarios
+            - name: Información general de gestión de inventarios
               href: inventory/inventory-home-page.md
             - name: Llegada
               items:
-                - name: Visión general de la llegada
+                - name: Información general de la llegada
                   href: inventory/arrival-overview.md
-                - name: Configurar un perfil de visión general de recepción de artículos
+                - name: Configurar un perfil de información general de recepción de artículos
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: Administración de la calidad
               items:
-                - name: Visión general de la administración de la calidad
+                - name: Información general de la administración de la calidad
                   href: inventory/enable-quality-management.md
                 - name: Procesos de administración de la calidad
                   href: inventory/quality-management-processes.md
@@ -1333,7 +1335,7 @@
                   href: inventory/troubleshoot-inventory-operations.md
             - name: Proceso de salida
               items:
-                - name: Visión general del proceso de salida
+                - name: Información general del proceso de salida
                   href: inventory/outbound-process.md
                 - name: Reservar cantidades de inventario
                   href: inventory/reserve-inventory-quantities.md
@@ -1349,6 +1351,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Seguimiento del coste promedio móvil por dimensión de inventario
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Transacciones de inventario de archivo
+              href: inventory/archive-inventory-transactions.md
             - name: Complemento de visibilidad de inventario
               href: inventory/inventory-visibility.md
         - name: Inteligencia de IoT
@@ -1375,7 +1379,7 @@
               href: master-planning/new-master-planning-engine.md
             - name: Optimización de planificación
               items:
-                - name: Visión general de la optimización de la planificación
+                - name: Información general de la optimización de la planificación
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Introducción a la optimización de la planificación
                   href: master-planning/planning-optimization/get-started.md
@@ -1417,7 +1421,7 @@
                   href: master-planning/planning-optimization/extensibility.md
             - name: Planes maestros
               items:
-                - name: Visión general de los planes maestros
+                - name: Información general de los planes maestros
                   href: master-planning/master-plans.md
                 - name: Configurar planes maestros
                   href: master-planning/master-planning-setup.md
@@ -1457,7 +1461,7 @@
                   href: master-planning/scheduling-engine-performance.md
                 - name: Planes maestros y funcionalidad multisitio
                   items:
-                    - name: Visión general de la planificación maestra y la funcionalidad multisitio
+                    - name: Información general de la planificación maestra y la funcionalidad multisitio
                       href: master-planning/master-plan-multisite-functionality.md
                     - name: 'Planificación maestra para cobertura de sitios, almacén obligatorio'
                       href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
@@ -1481,7 +1485,7 @@
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
             - name: Previsión de demanda
               items:
-                - name: Visión general de la previsión de la demanda
+                - name: Información general de la previsión de la demanda
                   href: master-planning/introduction-demand-forecasting.md
                 - name: Configuración de previsión de demanda
                   href: master-planning/demand-forecasting-setup.md
@@ -1527,7 +1531,7 @@
                   href: ../fin-ops-core/dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Mi equipo
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Visión general de las aplicaciones móviles de Project
+                - name: Información general de las aplicaciones móviles de Project
                   href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Entrada de tiempo del proyecto
                   href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
@@ -1543,7 +1547,7 @@
               href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
         - name: Integración con Office
           items:
-            - name: Visión general de la integración con Office
+            - name: Información general de la integración con Office
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/supply-chain/toc.json
             - name: Tutorial de integración con Office
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
@@ -1567,7 +1571,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Secuencias numéricas
               items:
-                - name: Visión general de las secuencias numéricas
+                - name: Información general de las secuencias numéricas
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar secuencias numéricas de manera individual
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
@@ -1577,7 +1581,7 @@
                   href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: Organizaciones y jerarquías organizativas
               items:
-                - name: Visión general de las organizaciones y las jerarquías organizativas
+                - name: Información general de las organizaciones y las jerarquías organizativas
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Planificar su jerarquía organizativa
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/supply-chain/toc.json
@@ -1589,7 +1593,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/supply-chain/toc.json
             - name: Libreta de direcciones global
               items:
-                - name: Visión general de la libreta de direcciones global
+                - name: Información general de la libreta de direcciones global
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Plan para la libreta de direcciones global y otras libretas de direcciones
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
@@ -1601,7 +1605,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/supply-chain/toc.json
             - name: Sistema de flujo de trabajo
               items:
-                - name: Visión general del sistema de flujo de trabajo
+                - name: Información general del sistema de flujo de trabajo
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Arquitectura del sistema de flujo de trabajo
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/supply-chain/toc.json
@@ -1611,7 +1615,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Crear flujos de trabajo
                   items:
-                    - name: Visión general de la creación de flujos de trabajo
+                    - name: Información general de la creación de flujos de trabajo
                       href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar propiedades del flujo de trabajo
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/supply-chain/toc.json
@@ -1665,7 +1669,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/supply-chain/toc.json
             - name: Alertas
               items:
-                - name: Visión general de alertas
+                - name: Información general de alertas
                   href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Crear reglas de alertas
                   href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/supply-chain/toc.json
@@ -1675,19 +1679,19 @@
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/supply-chain/toc.json
             - name: Firmas electrónicas
               items:
-                - name: Visión general de las firmas electrónicas
+                - name: Información general de las firmas electrónicas
                   href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar firmas electrónicas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/supply-chain/toc.json
             - name: Gestión de casos
               items:
-                - name: Visión general de la gestión de casos
+                - name: Información general de la gestión de casos
                   href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Planificar seguridad, procesos y categorías de casos'
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/supply-chain/toc.json
             - name: Plantillas de registro
               items:
-                - name: Visión general de las plantillas de registro
+                - name: Información general de las plantillas de registro
                   href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Crear una plantilla de registro
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/supply-chain/toc.json
@@ -1701,7 +1705,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Adquisición y abastecimiento
           items:
-            - name: Visión general de adquisición y abastecimiento
+            - name: Información general de adquisición y abastecimiento
               href: procurement/procurement-sourcing-overview.md
             - name: Flujo de trabajo de adquisición y abastecimiento
               href: procurement/procurement-sourcing-workflows.md
@@ -1709,7 +1713,7 @@
               href: procurement/troubleshoot-procurementworkflows.md
             - name: Catálogos de compras
               items:
-                - name: Visión general de catálogos de compras
+                - name: Información general de catálogos de compras
                   href: procurement/procurement-catalogs.md
                 - name: Crear un catálogo de compras
                   href: procurement/tasks/create-procurement-catalog.md
@@ -1717,13 +1721,13 @@
                   href: procurement/tasks/set-up-procurement-category-hierarchy.md
             - name: Solicitudes de compra
               items:
-                - name: Visión general de las solicitudes de compra
+                - name: Información general de las solicitudes de compra
                   href: procurement/purchase-requisitions-overview.md
                 - name: Flujo de trabajo de solicitudes de compra
                   href: procurement/purchase-requisitions-workflow.md
             - name: Solicitud de presupuestos
               items:
-                - name: Visión general de las solicitudes de presupuestos
+                - name: Información general de las solicitudes de presupuestos
                   href: procurement/request-quotations.md
                 - name: Crear una solicitud de presupuesto
                   href: procurement/tasks/create-request-quotation.md
@@ -1739,7 +1743,7 @@
                   href: procurement/tasks/enter-compare-rfq-bids-award-contracts.md
             - name: Pedidos de compra
               items:
-                - name: Visión general de los pedidos de compra
+                - name: Información general de los pedidos de compra
                   href: procurement/purchase-order-overview.md
                 - name: Aprobar y confirmar pedidos de compra
                   href: procurement/purchase-order-approval-confirmation.md
@@ -1785,7 +1789,7 @@
                   href: procurement/troubleshooting-pricediscountagreements.md
             - name: Directivas de compra
               items:
-                - name: Visión general de las directivas de compra
+                - name: Información general de las directivas de compra
                   href: procurement/purchase-policies.md
                 - name: Crear directivas de compra
                   href: procurement/tasks/create-purchasing-policies.md
@@ -1795,7 +1799,7 @@
               items:
                 - name: Recepción de producto frente a pedidos de compra
                   href: procurement/product-receipt-against-purchase-orders.md
-                - name: Visión general de facturas de proveedores
+                - name: Información general de facturas de proveedores
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Solución de problemas de recepción y facturación de productos
                   href: procurement/troubleshooting-productreceiptinvoicing.md
@@ -1849,7 +1853,7 @@
                   href: procurement/tasks/submit-approve-project-budget-revision.md
         - name: Gestión de información de productos
           items:
-            - name: Visión general del producto
+            - name: Información general del producto
               href: pim/product-information.md
             - name: Información del producto
               items:
@@ -1879,7 +1883,7 @@
                   href: pim/data-entities.md
                 - name: Estado de ciclo de vida de producto
                   items:
-                    - name: Visión general del estado de ciclo de vida de producto
+                    - name: Información general del estado de ciclo de vida de producto
                       href: pim/product-lifecycle.md
                     - name: Crear un nuevo estado de ciclo de vida de producto
                       href: pim/tasks/new-product-lifecycle-state.md
@@ -1907,7 +1911,7 @@
                   href: pim/dual-use.md
                 - name: Materiales peligrosos
                   items:
-                    - name: Visión general de materiales peligrosos
+                    - name: Información general de materiales peligrosos
                       href: pim/hazmat-overview.md
                     - name: Configurar materiales peligrosos
                       href: pim/hazmat-setup.md
@@ -1943,11 +1947,11 @@
                   href: pim/troubleshooting-productinformation.md
             - name: Configuración del producto
               items:
-                - name: Visión general de la configuración del producto
+                - name: Información general de la configuración del producto
                   href: pim/build-product-configuration-model.md
                 - name: Crear configuraciones basadas en dimensiones
                   items:
-                    - name: Visión general de la configuración de producto basada en dimensiones
+                    - name: Información general de la configuración de producto basada en dimensiones
                       href: pim/dimension-based-product-configuration.md
                     - name: Dimensión del producto
                       href: pim/product-dimensions.md
@@ -2005,7 +2009,7 @@
                   href: pim/troubleshooting-productconfigurator.md
         - name: Administración de cambios de ingeniería
           items:
-            - name: Visión general de la gestión de cambios de ingeniería
+            - name: Información general de la gestión de cambios de ingeniería
               href: engineering-change-management/product-engineering-overview.md
             - name: Tutorial de la característica de gestión de cambios de ingeniería
               href: engineering-change-management/engineering-scenarios.md
@@ -2021,6 +2025,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Versiones de ingeniería y categorías de productos de ingeniería
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Habilitar la administración de cambios en productos existentes
+              href: engineering-change-management/change-management-existing-products.md
             - name: Transacciones y estado del ciclo de vida de producto
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Administrar cambios en productos de ingeniería
@@ -2031,7 +2037,7 @@
               href: engineering-change-management/release-product-structure.md
         - name: Control de producción
           items:
-            - name: Visión general del proceso de producción
+            - name: Información general del proceso de producción
               href: production-control/production-process-overview.md
             - name: 'Planificación en modo mixto: combinar el abastecimiento de fabricación ajustada (lean manufacturing), fabricación discreta y fabricación en procesos'
               href: production-control/mixed-mode-plan.md
@@ -2099,7 +2105,7 @@
                   items:
                     - name: Gestionar el ciclo de vida del pedido de producción
                       items:
-                        - name: Visión general de la gestión del ciclo de vida del pedido de producción
+                        - name: Información general de la gestión del ciclo de vida del pedido de producción
                           href: production-control/create-production-orders.md
                         - name: Crear un pedido de producción
                           href: production-control/tasks/create-production-order.md
@@ -2129,6 +2135,8 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
                           href: production-control/production-floor-execution-use.md
+                        - name: Estilos de control de la interfaz de usuario para la ejecución de la planta de producción
+                          href: production-control/production-floor-execution-styles.md
                     - name: Configurar tarjeta de trabajo para dispositivos
                       href: production-control/config-job-card-device.md
                     - name: Notificar como terminado desde el dispositivo de tarjetas de trabajo
@@ -2175,7 +2183,7 @@
                       href: cost-management/production-posting.md
                 - name: Registro de horas y asistencia
                   items:
-                    - name: Visión general del registro de tiempo y asistencia
+                    - name: Información general del registro de tiempo y asistencia
                       href: production-control/time-attendance-registrations.md
                     - name: Paga basada en los registros
                       href: production-control/pay-based-on-registrations.md
@@ -2187,7 +2195,7 @@
                   href: production-control/troubleshoot-discretemanufacturing.md
             - name: Lean manufacturing (producción ajustada)
               items:
-                - name: Visión general de lean manufacturing (producción ajustada)
+                - name: Información general de lean manufacturing (producción ajustada)
                   href: production-control/lean-manufacturing-overview.md
                 - name: Subcontratación basada en actividad
                   href: production-control/activity-based-subcontracting.md
@@ -2341,7 +2349,7 @@
                   href: production-control/troubleshoot-processmanufacturing.md
         - name: Ventas y marketing
           items:
-            - name: Visión general de ventas y marketing
+            - name: Información general de ventas y marketing
               href: sales-marketing/overview-sales-marketing.md
             - name: Pedidos de ventas
               items:
@@ -2381,7 +2389,7 @@
                   href: sales-marketing/troubleshooting-sales.md
             - name: Acuerdos de venta
               items:
-                - name: Visión general de los acuerdos de ventas
+                - name: Información general de los acuerdos de ventas
                   href: sales-marketing/sales-agreements.md
                 - name: Especificar los acuerdos de ventas
                   href: sales-marketing/tasks/enter-sales-agreements.md
@@ -2415,7 +2423,7 @@
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
             - name: Sección de clientes de Dynamics 365 Supply Chain Management
               items:
-                - name: Visión general de la sección de clientes
+                - name: Información general de la sección de clientes
                   href: sales-marketing/customer-portal-overview.md
                 - name: 'Instalar, configurar y actualizar la sección de clientes'
                   href: sales-marketing/customer-portal-setup.md
@@ -2429,13 +2437,13 @@
               href: sales-marketing/tasks/create-new-trade-agreement.md
         - name: Gestión de servicio
           items:
-            - name: Visión general de la gestión de servicio
+            - name: Información general de la gestión de servicio
               href: service-management/service-management-home-page.md
             - name: Configurar el servicio al cliente
               items:
                 - name: Configurar acuerdos de servicio
                   items:
-                    - name: Visión general de los acuerdos de servicio
+                    - name: Información general de los acuerdos de servicio
                       href: service-management/service-agreement-groups.md
                     - name: Crear acuerdos de servicio
                       href: service-management/create-service-agreements.md
@@ -2451,7 +2459,7 @@
                       href: service-management/create-service-template-group.md
                 - name: Configurar tareas de servicio
                   items:
-                    - name: Visión general de las tareas de servicio
+                    - name: Información general de las tareas de servicio
                       href: service-management/service-tasks.md
                     - name: Crear relaciones de tareas de servicio
                       href: service-management/create-service-task-relations.md
@@ -2489,7 +2497,7 @@
                       href: service-management/create-reason-codes.md
                 - name: Configurar contratos de servicio y suscripciones
                   items:
-                    - name: Visión general de los contratos de nivel de servicio
+                    - name: Información general de los contratos de nivel de servicio
                       href: service-management/service-level-agreements.md
                     - name: Precios de venta de suscripción
                       href: service-management/subscription-sales-prices.md
@@ -2505,7 +2513,7 @@
                   href: service-management/repair-management.md
                 - name: Configurar devoluciones del cliente
                   items:
-                    - name: Visión general de las devoluciones del cliente
+                    - name: Información general de las devoluciones del cliente
                       href: service-management/disposition-and-return-reason-codes.md
                     - name: Configurar códigos de disposición
                       href: service-management/set-up-disposition-codes.md
@@ -2515,15 +2523,15 @@
                       href: service-management/specify-how-to-dispose-of-returned-items.md
             - name: Trabajar con el servicio al cliente
               items:
-                - name: Visión general del trabajo con el servicio al cliente
+                - name: Información general del trabajo con el servicio al cliente
                   href: service-management/working-with-customer-service.md
                 - name: Cumplir los acuerdos de servicio
                   items:
-                    - name: Cumplir con la visión general de los acuerdos de servicio
+                    - name: Cumplir con la información general de los acuerdos de servicio
                       href: service-management/fulfill-service-agreements-overview.md
                     - name: Desarrollar y establecer contratos
                       items:
-                        - name: Visión general del desarrollo y establecimiento de acuerdos de servicio
+                        - name: Información general del desarrollo y establecimiento de acuerdos de servicio
                           href: service-management/service-agreements.md
                         - name: Crear acuerdos de servicio
                           href: service-management/create-service-agreements.md
@@ -2551,7 +2559,7 @@
                           href: service-management/update-and-index-subscription-sales-prices.md
                 - name: Gestionar consultas de clientes
                   items:
-                    - name: Cumplir con la visión general de los acuerdos de servicio
+                    - name: Cumplir con la información general de los acuerdos de servicio
                       href: service-management/fulfill-service-agreements-overview.md
                     - name: Iniciar y detener registro de horas en un pedido de servicio
                       href: service-management/start-and-stop-time-recording-on-a-service-order.md
@@ -2605,7 +2613,7 @@
                           href: service-management/create-item-requirements-service-orders.md
                         - name: Requisitos de artículos de pedido de servicio
                           href: service-management/service-order-item-requirements.md
-                        - name: Visión general del flujo de trabajo de suscripción
+                        - name: Información general del flujo de trabajo de suscripción
                           href: service-management/subscription-workflow-overview.md
                         - name: Combinación de pedidos de servicio
                           href: service-management/combine-service-orders.md
@@ -2663,7 +2671,7 @@
                           href: service-management/invoice-subscription-transactions.md
         - name: Administración de transporte
           items:
-            - name: Visión general de la administración de transporte
+            - name: Información general de la administración de transporte
               href: transportation/transportation-management-overview.md
             - name: Motores de administración de transporte
               href: transportation/transportation-management-engines.md
@@ -2679,7 +2687,7 @@
               href: transportation/plan-freight-transportation-routes-multiple-stops.md
             - name: Planificar cargas mediante la consolidación de concentrador
               items:
-                - name: Visión general de la planificación de cargas mediante la consolidación de concentrador
+                - name: Información general de la planificación de cargas mediante la consolidación de concentrador
                   href: transportation/plan-loads-hub-consolidation.md
                 - name: Planificar cargas y envíos mediante el área de trabajo de planificación de la carga
                   href: warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
@@ -2729,9 +2737,57 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: Configurar restricciones de transporte para un artículo
               href: transportation/tasks/set-up-transportation-constraints-item.md
+        - name: Coste en destino
+          items:
+            - name: Información general del módulo de costes en destino
+              href: landed-cost/landed-cost-overview.md
+            - name: Cómo se compara el coste en destino con la gestión del transporte
+              href: landed-cost/landed-cost-vs-tms.md
+            - name: Instalar y configurar el módulo de costes en destino
+              items:
+                - name: Parámetros de coste en destino
+                  href: landed-cost/landed-cost-parameters.md
+                - name: Parámetros de adquisición y abastecimiento de costes en destino
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Configuración del estado del viaje
+                  href: landed-cost/voyage-status-setup.md
+                - name: Configuración del contenedor de envío
+                  href: landed-cost/shipping-container-setup.md
+                - name: Configuración de la información de entrega
+                  href: landed-cost/delivery-information-setup.md
+                - name: Configuración de viaje de varios tramos
+                  href: landed-cost/multi-leg-journey-setup.md
+                - name: Configuración de información de envío
+                  href: landed-cost/shipping-information-setup.md
+                - name: Configuración de valores de parámetros de gestión de costes
+                  href: landed-cost/costing-parameters-setup.md
+                - name: Descripciones predeterminadas para contabilidad general
+                  href: landed-cost/defult-descriptions.md
+            - name: Configuración del proveedor agregada para coste en destino
+              href: landed-cost/vendors-landed-cost-settings.md
+            - name: 'Trabajar con viajes, contenedores y folios'
+              items:
+                - name: Administrar viajes
+                  href: landed-cost/manage-voyages.md
+                - name: Administrar contenedores de envío
+                  href: landed-cost/manage-shipping-containers.md
+                - name: Administrar folios
+                  href: landed-cost/manage-folios.md
+            - name: Seguimiento de viajes entrantes y viajes de contenedores de envío
+              href: landed-cost/inbound-tracking.md
+            - name: Estimar y administrar costes en destino
+              href: landed-cost/estimate-manage-landed-costs.md
+            - name: Procesamiento en tránsito
+              href: landed-cost/in-transit-processing.md
+            - name: Procesar transacciones por encima/por debajo
+              href: landed-cost/over-under-transactions.md
+            - name: Consultas de costes en destino
+              href: landed-cost/landed-cost-inquiries.md
+            - name: Informes de costes en destino
+              href: landed-cost/landed-cost-reports.md
         - name: Gestión de almacenes
           items:
-            - name: Visión general de la gestión de almacenes
+            - name: Información general de la gestión de almacenes
               href: warehousing/warehouse-management-overview.md
             - name: Operaciones de almacén de entrada
               items:
@@ -2817,7 +2873,7 @@
                       href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Reabastecimiento
                   items:
-                    - name: Visión general de reabastecimiento
+                    - name: Información general de reabastecimiento
                       href: warehousing/replenishment.md
                     - name: Reabastecimiento inmediato
                       href: warehousing/immediate-replenishment.md
@@ -2925,15 +2981,17 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Consolidación de artículos - uso de la ubicación
                       href: warehousing/item-consolidation-location-utilization.md
-                    - name: Solucionar problemas de trabajo de almacén
-                      href: warehousing/troubleshoot-warehouse-work.md
                     - name: División del trabajo
                       href: warehousing/work-split.md
+                    - name: Interfaz de equipo de gestión de material (MHAX)
+                      href: warehousing/mhax.md
+                    - name: Solucionar problemas de trabajo de almacén
+                      href: warehousing/troubleshoot-warehouse-work.md
             - name: Configuración de almacén
               items:
                 - name: Configuración de almacén
                   items:
-                    - name: Visión general de la configuración de almacén
+                    - name: Información general de la configuración de almacén
                       href: warehousing/warehouse-configuration.md
                     - name: Configurar un almacén mediante una plantilla de configuración de almacén
                       href: inventory/warehouse-template.md
@@ -2987,6 +3045,8 @@
                   items:
                     - name: Instalar y conectar la aplicación móvil Gestión de almacenes
                       href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Configuración de usuario del dispositivo móvil
+                      href: warehousing/mobile-device-user-settings.md
                     - name: Instalar y conectar la aplicación de almacén
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Digitalizar códigos de barras mediante una cámara en la aplicación de almacén

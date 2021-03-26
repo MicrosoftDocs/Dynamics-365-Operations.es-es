@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c47fc9e3627e5ecb41ecba6854729ef340493c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3974442c11e410da41613fcca9f2fad2e608997e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993147"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248048"
 ---
 # <a name="accounts-receivable-home-page"></a>Página principal de clientes
 
@@ -54,7 +54,7 @@ Use Clientes para controlar todas las facturas y los pagos que reciba de los cli
         - [Configurar letras de cambio](set-up-bills-exchange.md)
         - [Establecer tipos de interés para un código de interés](set-up-interest-rates-interest-code.md)
         - [Condonar, restablecer o revertir cuotas de interés](waive-reinstate-reverse-interest-fees.md)
-        - [Visión general de las domiciliaciones SEPA](sepa-direct-debit-overview.md)
+        - [Información general de las domiciliaciones SEPA](sepa-direct-debit-overview.md)
         - [Configurar orden de domiciliación bancaria SEPA](sepa-direct-debit-mandate.md)
         - [Cerrar Clientes](close-accounts-receivable.md)
     :::column-end:::

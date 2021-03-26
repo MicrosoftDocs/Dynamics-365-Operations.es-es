@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 17c8b95dd9cf05813d765d4552f493a1a1b00f31
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 1e3c95520ca83f151e91e10073f82a1a9541f02f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154288"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252855"
 ---
 # <a name="supply-chain-management-home-page"></a>Página principal de Supply Chain Management
 
@@ -79,7 +79,7 @@ En estos breves vídeos se resumen las nuevas características de administració
 Las siguientes grabaciones de conferencias técnicas analizan la funcionalidad de administración de la cadena de suministro de versiones anteriores de Finance and Operations. Esta funcionalidad ahora forma parte de Dynamics 365 Supply Chain Management; se siguen aplicando los mismos conceptos y los procedimientos son similares en la versión actual.
 
 - **Gestión de costes**:
-  - [Visión general de la gestión de costes](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+  - [Información general de la gestión de costes](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
 - **Planificación maestra**:
   - [Extender la funcionalidad de previsión de la demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [Planificación maestra: trucos y sugerencias para solucionar problemas de rendimiento](https://youtu.be/7v8BPmEs9Dg)

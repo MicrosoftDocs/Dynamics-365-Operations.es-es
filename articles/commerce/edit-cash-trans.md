@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c809f379dbd6824542d0b1768cfbf44f37461f4c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 296dbf03ed65c1994562149a2c4b8fccd9073f0d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010208"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221928"
 ---
 # <a name="edit-and-audit-cash-and-carry-and-cash-management-transactions"></a>Editar y auditar transacciones de gestión de efectivo y pago al contado sin entrega a domicilio
 
@@ -30,7 +30,7 @@ ms.locfileid: "5010208"
 
 En este tema se describe cómo editar y auditar transacciones de gestión de efectivo y pago al contado sin entrega a domicilio en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Los clientes de Dynamics 365 Commerce usan tanto una aplicación de punto de venta (PDV) de primera entidad como aplicaciones de PDV de terceros. En el caso de la aplicación de primera entidad, las transacciones de tienda se incluyen en la sede central desde los canales a través de un proceso por lotes. En el caso de aplicaciones de terceros, las transacciones se incluyen en la sede central de Commerce mediante la integración. En ambos casos, después de que las transacciones se incluyan en la sede central de Commerce, se debe realizar un proceso de comprobación de coherencia. Este proceso ejecuta varias validaciones en las transacciones, y solo las transacciones que se validan correctamente se incluyen en el extracto para que se puedan registrar en la sede central de Commerce.
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 413bdd2e7a817185829eb551380caf71d87af9b7
-ms.sourcegitcommit: 36d256bf5a832d2d70014d64044026f732b77831
+ms.openlocfilehash: d9421cbe9eeb44fcd0d0f0c688e84ae2043610ac
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "5073116"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562388"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación Finance and Operations
 
@@ -67,7 +66,7 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Integraciones</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Eventos de negocio</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Entidades de datos</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integración con Microsoft Power Automate</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integración mediante Microsoft Power Automate</a></p>
 
 <h3><a href="../../finance/index.md">Administración financiera</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">Proveedores</a></p>

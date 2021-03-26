@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8fa6f7a71bae759e2b8feb3c5778200bb7bdbfe9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0fee5ef7ad61e9581e7b2797bb1bd26b1a48ddbd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010160"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221783"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea
 
@@ -30,7 +30,7 @@ ms.locfileid: "5010160"
 
 En este tema se describe cómo editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Entre las versiones 10.0.5 y 10.0.6 de Commerce, se agregó soporte para editar transacciones de pago al contado sin entrega a domicilio (como ventas y devoluciones) y transacciones de gestión del efectivo (como entrada flotante y suspensión de forma de pago). En la versión 10.0.7 de Commerce, se agregó soporte para editar transacciones de pedidos en línea y transacciones de pedidos de clientes asincrónicas.
 

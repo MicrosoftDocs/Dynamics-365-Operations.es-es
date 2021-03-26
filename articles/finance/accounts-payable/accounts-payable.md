@@ -1,6 +1,6 @@
 ---
 title: Página principal de proveedores
-description: Este tema proporciona una visión general de los proveedores.
+description: Este tema proporciona información general de los proveedores.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/15/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a0195c6776b5065d98b6b1d4d9795248c6bf4c74
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 882afecdb33e5ad59a793f2f2391cb1ad27f911e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250707"
 ---
 # <a name="accounts-payable-home-page"></a>Página principal de proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de los proveedores. 
+Este tema proporciona información general de los proveedores. 
 
 Puede especificar facturas de proveedor manualmente o recibirlas electrónicamente a través de una entidad de datos. Después de que las facturas se especifican o se reciben, puede revisar y aprobar las facturas mediante un diario de aprobación de facturas o la página **Factura de proveedor**. Puede usar la conciliación de facturas, las directivas de facturas de proveedor y el flujo de trabajo para automatizar el proceso de revisión de manera que las facturas que cumplan determinados criterios se aprueben automáticamente y las facturas restantes se marquen para revisión por parte de un usuario autorizado.
 
@@ -40,7 +40,7 @@ Puede especificar facturas de proveedor manualmente o recibirlas electrónicamen
 
 Establezca grupos de proveedores, proveedores, perfiles de contabilización, varias opciones de pago, parámetros relacionados con los proveedores, cargos, entregas y destinos, pagarés y otros tipos de información de Proveedores. 
 
-[Visión general de la configuración de proveedores](accounts-payable-overview.md)
+[Información general de la configuración de proveedores](accounts-payable-overview.md)
 
 [Distribuciones contables y asientos del subdiario contable para las facturas de proveedor](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -50,7 +50,7 @@ Establezca grupos de proveedores, proveedores, perfiles de contabilización, var
 
 Use Proveedores para realizar el seguimiento de las facturas y gastos de salida de los proveedores.
 
-[Visión general de la conciliación de facturas de proveedores](accounts-payable-invoice-matching.md)
+[Información general de la conciliación de facturas de proveedores](accounts-payable-invoice-matching.md)
 
 [Perfiles de contabilización del proveedor](vendor-posting-profiles.md)
 
@@ -60,7 +60,7 @@ Use Proveedores para realizar el seguimiento de las facturas y gastos de salida 
 
 [Conciliación de facturas y pedidos de compra de empresas vinculadas](invoice-matching-intercompany-purchase-orders.md)
 
-[Visión general de la resolución de discrepancias durante la conciliación de los totales de las facturas](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Información general de la resolución de discrepancias durante la conciliación de los totales de las facturas](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Cuentas de contrapartida predeterminadas para diarios de factura de proveedor y diarios de aprobación de facturas](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -80,7 +80,7 @@ Asigne un tipo de pago definido por el sistema, como cheque, pago electrónico o
 
 [Definir condiciones de pagos a proveedores](tasks/define-vendor-payment-terms.md)
 
-[Visión general de pago positivo](positive-pay-overview.md)
+[Información general de pago positivo](positive-pay-overview.md)
 
 [Configurar y generar archivos de pago positivo](set-up-generate-positive-pay-files.md)
 
