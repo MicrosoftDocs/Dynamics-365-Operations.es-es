@@ -1,6 +1,6 @@
 ---
 title: Visión general de clasificaciones y revisiones
-description: En este tema se tratan clasificaciones y revisiones en Microsoft Dynamics 365 Commerce.
+description: En este tema se tratan las clasificaciones y revisiones en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 10/01/2019
@@ -17,21 +17,21 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ed31982dad8af4509d8dd0615ae53e3d3806640f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 16c9411687acc4d9cb46b09ab2f258855c53df96
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979787"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243839"
 ---
 # <a name="ratings-and-reviews-overview"></a>Visión general de clasificaciones y revisiones
 
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan clasificaciones y revisiones en Microsoft Dynamics 365 Commerce.
+En este tema se tratan las clasificaciones y revisiones en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Las clasificaciones y revisiones son fundamentales para los clientes de comercio electrónico que desean conocer de qué manera otros clientes perciben un producto. También pueden ayudar a los consumidores a tomar decisiones de compra. En Dynamics 365 Commerce, la solución de clasificaciones y revisiones permite a los minoristas capturar revisiones y clasificaciones de productos de clientes. Los minoristas pueden mostrar a continuación la información de la media de clasificaciones y revisiones en todo el sitio web de comercio electrónico.
 

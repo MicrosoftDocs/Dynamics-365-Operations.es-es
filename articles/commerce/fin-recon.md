@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 99c238ecfbb6cb29f4fefefdca32525b99a01dc8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965086"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251340"
 ---
-# <a name="financial-reconciliation-in-retail-stores"></a>Conciliación financiera en tiendas minoristas
+# <a name="financial-reconciliation-in-retail-stores"></a>Conciliación financiera en tiendas
 
 [!include [banner](includes/banner.md)]
 
-En Microsoft Dynamics 365 Commerce versión 10.0.10 y anteriores, la funcionalidad que el cliente de punto de venta (PDV) proporciona para los procesos de fin de día en las tiendas minoristas, permite que los empleados y gerentes de las tiendas realicen las operaciones de fin de día. Por ejemplo, pueden hacer declaraciones de licitación, turnos de cierre a ciegas, conciliar transacciones de turnos y cerrar turnos. Sin embargo, no hay capacidad en PDV para finalizar la información financiera para los turnos, de modo que pueda usarse para publicar los datos financieros en la sede de Commerce. Por lo general, los gerentes de tienda son responsables de completar esta tarea. Antes de que puedan firmar un turno, deben revisar la información, hacer las correcciones necesarias y finalizar los totales de ese turno. Los totales finalizados deben publicarse en módulos financieros en la sede de Commerce.
+En Microsoft Dynamics 365 Commerce, versión 10.0.10 y anteriores, la funcionalidad que el cliente de punto de venta (PDV) proporciona para los procesos de fin de día en las tiendas minoristas, permite que los empleados y gerentes de las tiendas realicen las operaciones de fin de día. Por ejemplo, pueden hacer declaraciones de licitación, turnos de cierre a ciegas, conciliar transacciones de turnos y cerrar turnos. Sin embargo, no hay capacidad en PDV para finalizar la información financiera para los turnos, de modo que pueda usarse para publicar los datos financieros en la sede de Commerce. Por lo general, los gerentes de tienda son responsables de completar esta tarea. Antes de que puedan firmar un turno, deben revisar la información, hacer las correcciones necesarias y finalizar los totales de ese turno. Los totales finalizados deben publicarse en módulos financieros en la sede de Commerce.
 
 Además, en Commerce versión 10.0.10 y anteriores, los gerentes de las tiendas pueden revisar y hacer algunos ajustes a las líneas de declaración en la sede de Commerce. Sin embargo, la capacidad es limitada y los gerentes de las tiendas rara vez tienen acceso al cliente de la sede de Commerce. Además, la revisión y el ajuste de los estados financieros minoristas solo se pueden realizar cuando las instrucciones se crean en la sede de Commerce. Sin embargo, ese proceso es típicamente un proceso nocturno. Por lo tanto, los gerentes de las tiendas deben esperar la firma del turno cuando se crean los estados financieros minoristas en la sede de Commerce.
 

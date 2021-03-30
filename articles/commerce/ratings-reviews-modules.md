@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: b17e986c2e30134c334cd547a85a1dd682172a0e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26658ebdbc70613baf30c344664133b9cf5911ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979812"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243778"
 ---
 # <a name="ratings-and-reviews-modules"></a>Módulos de clasificaciones y opiniones
 
 [!include [banner](includes/banner.md)]
 
-Este tema cubre los módulos de calificaciones y revisiones utilizados en las páginas de detalles (PDP) del producto en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
+Este tema cubre los módulos de calificaciones y revisiones utilizados en las páginas de detalles del producto (PDP) en Microsoft Dynamics 365 Commerce.
 
 Las clasificaciones y opiniones en sitios web de comercio electrónico ayudan a los clientes a obtener información acerca de los productos antes de tomar una decisión de compra, y también son un mecanismo para obtener opiniones de los clientes acerca de esos productos. 
 

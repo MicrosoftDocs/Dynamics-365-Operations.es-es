@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0a4f19af0cdf9c72add0ec18be84e36c807af9ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b623573f598f6b21291cafe95fa04e6777cffe11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969885"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244848"
 ---
 # <a name="work-with-publish-groups"></a>Trabajar con grupos de publicación
 
@@ -30,7 +30,7 @@ ms.locfileid: "4969885"
 
 En este tema se describe la característica de grupos de publicación de Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Los sitios web de comercio electrónico se actualizan constantemente con nuevos contenidos durante todo el año. Las actualizaciones a menudo se publican por lotes en torno a eventos de gran actividad de comercio electrónico, como los días festivos, las campañas de marketing estacionales o los lanzamientos promocionales. Estas actualizaciones suelen requerir que grupos de contenidos del sitio web (por ejemplo, páginas, imágenes, fragmentos y plantillas) se organicen, validen y publiquen simultáneamente en una sola acción.
 
