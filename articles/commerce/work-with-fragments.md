@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8436fd3621e94fb761c076454423fe9842306c78
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3df2d99ef10f909cedef16167fb8d5a0024683b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982247"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210956"
 ---
 # <a name="work-with-fragments"></a>Trabajar con fragmentos 
 
@@ -29,7 +29,7 @@ ms.locfileid: "4982247"
 
 Este tema describe por qué, cuándo y cómo usar fragmentos en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Los fragmentos permiten una experiencia de creación centralizada para configuraciones de módulos que se deben volver a utilizar en el sitio. Por ejemplo, los encabezados, los pies de página y los banners a menudo se configuran como fragmentos, ya que se comparten entre muchas páginas. Puede pensar en fragmentos como páginas web en miniatura que se pueden insertar en otras páginas del sitio. Los fragmentos tienen su propio ciclo de vida. Es decir, se crean, se hace referencia a ellas, se actualizan y se eliminan como entidades independientes en las herramientas de creación.
 

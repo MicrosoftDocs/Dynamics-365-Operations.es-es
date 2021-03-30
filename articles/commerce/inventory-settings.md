@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 77a3bde12fd047e15d7730903416cdb5263a8cd9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d3737ee1534dd973a35e2ef64f1d58d5a74d5b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972818"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211358"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configuración de inventario
 
@@ -32,7 +32,7 @@ Este tema cubre las configuraciones de inventario y describe cómo aplicarlas en
 
 ## <a name="overview"></a>Información general
 
-La configuración de inventario especifica si se debe verificar el inventario antes de agregar productos al carro. También definen mensajes de comercialización relacionados con el inventario, como "En stock" y "Solo quedan unos pocos". Esta configuración garantiza que no se pueda comprar un producto si está agotado.
+La configuración de inventario especifica si se debe verificar el inventario antes de agregar productos al carro. También definen mensajes de comercialización relacionados con el inventario, como "En existencias" y "Solo quedan unos pocos". Esta configuración garantiza que no se pueda comprar un producto si está agotado.
 
 Dynamics 365 Commerce proporciona estimaciones de disponibilidad lista para productos. Para obtener información sobre cómo se calcula la disponibilidad lista estimada, consulte [Calcular la disponibilidad de inventario para canales minoristas](calculated-inventory-retail-channels.md).
 
@@ -52,7 +52,7 @@ En Comercio, la configuración del inventario se define en **Configuraciones del
 
 - **Rangos de inventario**: esta configuración define los rangos de inventario para los que se muestran los mensajes para los módulos del sitio. Solo es aplicable si el valor **Total disponible** o el valor **Físicamente disponible** se selecciona para la opción **Nivel de inventario basado en**. Los valores disponibles son **Todos**, **Bajo y agotado** y **Agotado**.
 
-    - Cuando se selecciona **Todos** se mostrarán los mensajes para todos los rangos de inventario, desde en stock (mensaje "Disponible") hasta agotado (mensaje "Agotado").
+    - Cuando se selecciona **Todos** se mostrarán los mensajes para todos los rangos de inventario, desde en existencias (mensaje "Disponible") hasta agotado (mensaje "Agotado").
     - Cuando se selecciona **Bajo y agotado**, se mostrarán los mensajes para todos los rangos de inventario, excepto en existencias (mensaje "Disponible").
     - Cuando se selecciona **Agotado**, solo se mostrará el mensaje "Agotado".
 

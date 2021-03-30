@@ -18,19 +18,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
-ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
+ms.openlocfilehash: 521fbd2c73adca1db38ba7258abf183f7350b109
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "5032942"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231305"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configuraciones visuales de la interfaz de usuario de PDV
 
 [!include [banner](includes/banner.md)]
 
 
-La interfaz de usuario (IU) de Microsoft Dynamics 365 Commerce punto de venta (PDV) se puede configurar mediante una combinación de perfiles visuales y diseños de pantalla que se asignan a tiendas, registros y usuarios. Este tema ofrece información acerca de esas opciones de configuración.
+La interfaz de usuario (IU) de punto de venta (PDV) de Microsoft Dynamics 365 Commerce se puede configurar mediante una combinación de perfiles visuales y diseños de pantalla que se asignan a tiendas, registros y usuarios. Este tema ofrece información acerca de esas opciones de configuración.
 
 La siguiente ilustración muestra las relaciones entre las distintas entidades que comprenden los aspectos configurables de la IU del sistema PDV.
 

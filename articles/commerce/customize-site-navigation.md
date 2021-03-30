@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d45f116acc19130e09108a246d276bb4b62a1e6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cfd0a9559eb2b596adb822b228929e6855711bb4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972916"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222618"
 ---
 # <a name="customize-site-navigation"></a>Personalizar navegación del sitio
 
@@ -30,7 +30,7 @@ ms.locfileid: "4972916"
 
 Este tema describe cómo crear una jerarquía de navegación en línea personalizada para organizar sus productos para examinar en su sitio de Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Los escaparates en línea normalmente permiten a los clientes detectan y examinar productos navegando por categorías de productos. Esta capacidad es suele proporcionar mediante fichas en la parte superior de la página o por una barra de navegación a la izquierda. En Dynamics 365 Commerce, puede crear y gestionar la estructura jerárquica de su navegación de categorías y los productos que se incluyen en las diversas categorías.
 

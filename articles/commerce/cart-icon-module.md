@@ -1,6 +1,6 @@
 ---
 title: Módulo de icono de carro
-description: En este tema se trata el modulo icono de carrito y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+description: En este tema se trata el modulo de icono de carro y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 138c256b56593c4fafb20050a97e614fa584597c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43bc274548de016f24569001bac94aff324bea12
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997835"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213243"
 ---
 # <a name="cart-icon-module"></a>Módulo de icono de carro
 
 [!include [banner](includes/banner.md)]
 
-En este tema se trata el modulo icono de carrito y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
+En este tema se trata el modulo de icono de carro y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 El módulo de icono de carrito representa el carrito en el módulo de encabezado de la página y muestra la cantidad de artículos en el carrito. El módulo del ícono del carrito también muestra un resumen del carrito (también conocido como mini carrito) cuando el ícono del carrito está suspendido. El mini carrito proporciona al usuario un resumen de los artículos en el carrito sin tener que navegar a la página del carrito. Además, también permite al usuario ir directamente a la página de pago si está satisfecho con el resumen. Esto reduce la cantidad de navegaciones de la página y agiliza el pago. 
 

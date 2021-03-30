@@ -1,6 +1,6 @@
 ---
 title: Módulo de navegación
-description: En este tema se tratan los módulos de navegación y se describe cómo agregarlos a las páginas de sitios en Microsoft Dynamics 365 Commerce.
+description: En este tema se tratan los módulos de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1883281c62575ae0b48b6e584876185bb179b4f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 06f8ffdecd1f77468ed88043929f29b6957c2e6f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986088"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206568"
 ---
-# <a name="breadcrumb-module"></a>Módulo de navegación
+# <a name="breadcrumb-module"></a>Módulo de ruta de navegación
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de navegación y se describe cómo agregarlos a las páginas de sitios en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
+En este tema se tratan los módulos de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 Los módulos de navegación se utilizan para proporcionar navegación secundaria en las páginas del sitio. Por lo general, se muestran en la parte superior de las páginas, debajo del encabezado. Aunque los módulos de navegación se pueden agregar a cualquier página, se usan con mayor frecuencia en páginas de detalles de productos (PDP), para mostrar la jerarquía de categorías de productos y proporcionar una forma rápida de moverse por un sitio. Un módulo de navegación también se puede utilizar para mostrar un vínculo "Volver a los resultados" cuando los usuarios abren un PDP desde una página de búsqueda o lista. De esta manera, los usuarios pueden regresar rápidamente a su página de lista filtrada para continuar comprando.
 

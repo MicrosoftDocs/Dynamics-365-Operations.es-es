@@ -1,6 +1,6 @@
 ---
 title: Habilitar recomendaciones de producto
-description: Este tema explica cómo hacer recomendaciones de productos que se basan en la inteligencia artificial-aprendizaje automático (AI-ML) disponible para clientes de Microsoft Dynamics 365 Commerce.
+description: Este tema explica cómo hacer recomendaciones de productos que se basan en la inteligencia artificial y aprendizaje automático (AI-ML) disponible para clientes de Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
 ms.date: 08/18/2020
@@ -18,18 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 59c83409ede5e006ddf030d396934eeb6cd8df76
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fcb3b542d290e01a3cddc73ae163ed2ef420771b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010135"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238806"
 ---
 # <a name="enable-product-recommendations"></a>Habilitar recomendaciones de producto
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo hacer recomendaciones de productos que se basan en la inteligencia artificial-aprendizaje automático (AI-ML) disponible para clientes de Microsoft Dynamics 365 Commerce. Para obtener más información sobre las listas de recomendaciones del producto, consulte [Información general sobre las recomendaciones del producto](product-recommendations.md).
+Este tema explica cómo hacer recomendaciones de productos que se basan en la inteligencia artificial y aprendizaje automático (AI-ML) disponible para clientes de Microsoft Dynamics 365 Commerce. Para obtener más información sobre las listas de recomendaciones del producto, consulte [Información general sobre las recomendaciones del producto](product-recommendations.md).
 
 ## <a name="recommendations-pre-check"></a>Recomendaciones previas a la comprobación
 

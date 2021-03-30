@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
-ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
+ms.openlocfilehash: 6dc2be8a6f62ce13068ce2242f92ef17830c2447
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "4828220"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205756"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Crear y actualizar franjas horarias para la recogida del cliente
 
@@ -32,7 +32,7 @@ En este tema se describe cómo crear, configurar y actualizar franjas horarias d
 La característica de franja horaria ofrece a los minoristas una forma de definir franjas horarias para los artículos para los que está activado el modo de recogida de la entrega del cliente. Las franjas horarias permiten a los minoristas definir los días y las horas en que se pueden recoger los pedidos en una tienda. Los minoristas también pueden definir la cantidad de pedidos que se pueden recoger durante un período determinado. De esta forma, los minoristas pueden limitar el número de pedidos que se pueden recoger en un día y en un momento determinados. El resultado es una experiencia de mejor calidad para sus clientes.
 
 > [!NOTE]
-> La característica de franja horaria está disponible en Microsoft Dynamics 365 Commerce versión 10.0.15 y posteriores.
+> La característica de franja horaria está disponible en Microsoft Dynamics 365 Commerce, versión 10.0.15 y posteriores.
 
 La siguiente ilustración muestra un ejemplo de selección de franjas horarias durante la finalización de la compra de comercio electrónico.
 

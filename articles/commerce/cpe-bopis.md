@@ -1,6 +1,6 @@
 ---
 title: Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
-description: Este tema explica cómo configurar "comprar en línea, recoger en la tienda" (BOPIS) en un entorno de evaluación de Microsoft Dynamics 365 Commerce después de que se haya aprovisionado.
+description: Este tema explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que se haya aprovisionado.
 author: rubendel
 manager: annbe
 ms.date: 07/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ec1c556a70ed92a40d3cb2bf45fb6156b7dbf7fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 71f2fb3882b51cdaed9b231cd605949195deca17
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993484"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213875"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar "comprar en línea, recoger en la tienda" (BOPIS) en un entorno de evaluación de Microsoft Dynamics 365 Commerce después de que el entorno se haya aprovisionado.
+Este tema explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que el entorno se haya aprovisionado.
 
 ## <a name="prerequisite"></a>Requisito previo
 
