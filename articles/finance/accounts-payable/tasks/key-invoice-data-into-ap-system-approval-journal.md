@@ -15,41 +15,44 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f19c31a3ca20ad4b11e2529bdcb9db351c37f6c2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f0fee32d9fd1ab89b1a8cedb2e1965674586d4e7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971887"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227193"
 ---
-# <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a><span data-ttu-id="dd698-103">Introducir datos de factura en el sistema de proveedores mediante un diario de aprobación</span><span class="sxs-lookup"><span data-stu-id="dd698-103">Key invoice data into accounts payable using an approval journal</span></span>
+# <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a><span data-ttu-id="fa83e-103">Introducir datos de factura en el sistema de proveedores mediante un diario de aprobación</span><span class="sxs-lookup"><span data-stu-id="fa83e-103">Key invoice data into accounts payable using an approval journal</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="dd698-104">En este tema se explica cómo usar el registro de facturas para crear facturas y, después, utilizar el diario de aprobación para actualizar las cuentas de gastos.</span><span class="sxs-lookup"><span data-stu-id="dd698-104">This topic explains how to use the invoice register to create invoices and then use the approval journal to update the expense accounts.</span></span>
+<span data-ttu-id="fa83e-104">En este tema se explica cómo usar el registro de facturas para crear facturas y, después, utilizar el diario de aprobación para actualizar las cuentas de gastos.</span><span class="sxs-lookup"><span data-stu-id="fa83e-104">This topic explains how to use the invoice register to create invoices and then use the approval journal to update the expense accounts.</span></span>
 
-## <a name="create-and-post-and-invoice"></a><span data-ttu-id="dd698-105">Crear y registrar una factura</span><span class="sxs-lookup"><span data-stu-id="dd698-105">Create and post and invoice</span></span>
-1. <span data-ttu-id="dd698-106">En el panel de exploración, vaya a **Módulos > Proveedores > Facturas > Registro de facturas**.</span><span class="sxs-lookup"><span data-stu-id="dd698-106">In the navigation pan, go to **Modules > Accounts payable > Invoices > Invoice register**.</span></span>
-2. <span data-ttu-id="dd698-107">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="dd698-107">Select **New**.</span></span>
-3. <span data-ttu-id="dd698-108">Seleccione el nombre del registro de facturas que desee usar.</span><span class="sxs-lookup"><span data-stu-id="dd698-108">Select the name of the invoice register that you want to use.</span></span>
-4. <span data-ttu-id="dd698-109">Seleccione **Líneas** para abrir el registro y especificar las líneas de gastos.</span><span class="sxs-lookup"><span data-stu-id="dd698-109">Select **Lines** to open the register and enter expense lines.</span></span>
-5. <span data-ttu-id="dd698-110">Seleccione un proveedor.</span><span class="sxs-lookup"><span data-stu-id="dd698-110">Select a vendor.</span></span> <span data-ttu-id="dd698-111">Por ejemplo, escriba o seleccione `US-104`.</span><span class="sxs-lookup"><span data-stu-id="dd698-111">For example, enter or select `US-104`.</span></span>
-6. <span data-ttu-id="dd698-112">En el campo **Factura**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="dd698-112">In the **Invoice** field, type a value.</span></span>
-7. <span data-ttu-id="dd698-113">En el campo **Descripción**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="dd698-113">In the **Description** field, type a value.</span></span>
-8. <span data-ttu-id="dd698-114">En el campo **Crédito**, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="dd698-114">In the **Credit** field, enter a number.</span></span>
-9. <span data-ttu-id="dd698-115">En el campo **Aprobado por**, seleccione un aprobador en el menú desplegable.</span><span class="sxs-lookup"><span data-stu-id="dd698-115">In the **Approved by** field, select an approver from the drop-down menu.</span></span>
-10. <span data-ttu-id="dd698-116">Seleccione **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="dd698-116">Select **Post**.</span></span>
+## <a name="create-and-post-and-invoice"></a><span data-ttu-id="fa83e-105">Crear y registrar una factura</span><span class="sxs-lookup"><span data-stu-id="fa83e-105">Create and post and invoice</span></span>
+1. <span data-ttu-id="fa83e-106">En el panel de exploración, vaya a **Módulos > Proveedores > Facturas > Registro de facturas**.</span><span class="sxs-lookup"><span data-stu-id="fa83e-106">In the navigation pan, go to **Modules > Accounts payable > Invoices > Invoice register**.</span></span>
+2. <span data-ttu-id="fa83e-107">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="fa83e-107">Select **New**.</span></span>
+3. <span data-ttu-id="fa83e-108">Seleccione el nombre del registro de facturas que desee usar.</span><span class="sxs-lookup"><span data-stu-id="fa83e-108">Select the name of the invoice register that you want to use.</span></span>
+4. <span data-ttu-id="fa83e-109">Seleccione **Líneas** para abrir el registro y especificar las líneas de gastos.</span><span class="sxs-lookup"><span data-stu-id="fa83e-109">Select **Lines** to open the register and enter expense lines.</span></span>
+5. <span data-ttu-id="fa83e-110">Seleccione un proveedor.</span><span class="sxs-lookup"><span data-stu-id="fa83e-110">Select a vendor.</span></span> <span data-ttu-id="fa83e-111">Por ejemplo, escriba o seleccione `US-104`.</span><span class="sxs-lookup"><span data-stu-id="fa83e-111">For example, enter or select `US-104`.</span></span>
+6. <span data-ttu-id="fa83e-112">En el campo **Factura**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="fa83e-112">In the **Invoice** field, type a value.</span></span>
+7. <span data-ttu-id="fa83e-113">En el campo **Descripción**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="fa83e-113">In the **Description** field, type a value.</span></span>
+8. <span data-ttu-id="fa83e-114">En el campo **Crédito**, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="fa83e-114">In the **Credit** field, enter a number.</span></span>
+9. <span data-ttu-id="fa83e-115">En el campo **Aprobado por**, seleccione un aprobador en el menú desplegable.</span><span class="sxs-lookup"><span data-stu-id="fa83e-115">In the **Approved by** field, select an approver from the drop-down menu.</span></span>
+10. <span data-ttu-id="fa83e-116">Seleccione **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="fa83e-116">Select **Post**.</span></span>
 
-## <a name="approve-an-invoice"></a><span data-ttu-id="dd698-117">Aprobar una factura</span><span class="sxs-lookup"><span data-stu-id="dd698-117">Approve an invoice</span></span>
-1. <span data-ttu-id="dd698-118">En el panel de exploración, vaya a **Módulos > Proveedores > Facturas > Aprobación de facturas**.</span><span class="sxs-lookup"><span data-stu-id="dd698-118">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice approval**.</span></span>
-2. <span data-ttu-id="dd698-119">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="dd698-119">Select **New**.</span></span>
-3. <span data-ttu-id="dd698-120">Seleccione el nombre del diario de aprobación de facturas que desee usar.</span><span class="sxs-lookup"><span data-stu-id="dd698-120">Select the name of the invoice approval journal that you want to use.</span></span>
-4. <span data-ttu-id="dd698-121">Seleccione **Líneas** para mostrar una página donde podrá seleccionar las facturas que desea aprobar.</span><span class="sxs-lookup"><span data-stu-id="dd698-121">Select **Lines** to display a page where you will be able to select the invoices that you want to approve.</span></span>
-5. <span data-ttu-id="dd698-122">Seleccione **Buscar asientos** para mostrar todas las facturas que están listas para su aprobación.</span><span class="sxs-lookup"><span data-stu-id="dd698-122">Select **Find Vouchers** to display all of the invoices that are ready for approval.</span></span>
-6. <span data-ttu-id="dd698-123">Marque la factura que ha creado, después haga clic en **Seleccionar**.</span><span class="sxs-lookup"><span data-stu-id="dd698-123">Mark the invoice that you created, then click **Select**.</span></span> <span data-ttu-id="dd698-124">Los asientos que seleccionó arriba se mueven en esta lista después de que los seleccione.</span><span class="sxs-lookup"><span data-stu-id="dd698-124">The vouchers that you selected above are moved to this list after you select them.</span></span>  
-7. <span data-ttu-id="dd698-125">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="dd698-125">Select **OK**.</span></span>
-8. <span data-ttu-id="dd698-126">Seleccione el campo del **número de cuenta** para agregar una cuenta de gastos en la factura.</span><span class="sxs-lookup"><span data-stu-id="dd698-126">Select the **account number** field to add an expense account to the invoice.</span></span>
-9. <span data-ttu-id="dd698-127">Especifique un número de cuenta y salga del campo con el tabulador.</span><span class="sxs-lookup"><span data-stu-id="dd698-127">Enter an account number and tab off of the field.</span></span> <span data-ttu-id="dd698-128">Por ejemplo, escriba `600120`.</span><span class="sxs-lookup"><span data-stu-id="dd698-128">For example, enter `600120`.</span></span>
-10. <span data-ttu-id="dd698-129">Seleccione **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="dd698-129">Select **Post**.</span></span>
-11. <span data-ttu-id="dd698-130">Seleccione **Asiento** para ver las entradas que se han registrado.</span><span class="sxs-lookup"><span data-stu-id="dd698-130">Select **Voucher** to view the entries that were posted.</span></span> <span data-ttu-id="dd698-131">La cuenta de factura pendiente de aprobación se anula y se reemplaza con la cuenta de gastos real.</span><span class="sxs-lookup"><span data-stu-id="dd698-131">The Invoice Pending Approval account is reversed and replaced with the actual expense account.</span></span>  
+## <a name="approve-an-invoice"></a><span data-ttu-id="fa83e-117">Aprobar una factura</span><span class="sxs-lookup"><span data-stu-id="fa83e-117">Approve an invoice</span></span>
+1. <span data-ttu-id="fa83e-118">En el panel de exploración, vaya a **Módulos > Proveedores > Facturas > Aprobación de facturas**.</span><span class="sxs-lookup"><span data-stu-id="fa83e-118">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice approval**.</span></span>
+2. <span data-ttu-id="fa83e-119">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="fa83e-119">Select **New**.</span></span>
+3. <span data-ttu-id="fa83e-120">Seleccione el nombre del diario de aprobación de facturas que desee usar.</span><span class="sxs-lookup"><span data-stu-id="fa83e-120">Select the name of the invoice approval journal that you want to use.</span></span>
+4. <span data-ttu-id="fa83e-121">Seleccione **Líneas** para mostrar una página donde podrá seleccionar las facturas que desea aprobar.</span><span class="sxs-lookup"><span data-stu-id="fa83e-121">Select **Lines** to display a page where you will be able to select the invoices that you want to approve.</span></span>
+5. <span data-ttu-id="fa83e-122">Seleccione **Buscar asientos** para mostrar todas las facturas que están listas para su aprobación.</span><span class="sxs-lookup"><span data-stu-id="fa83e-122">Select **Find Vouchers** to display all of the invoices that are ready for approval.</span></span>
+6. <span data-ttu-id="fa83e-123">Marque la factura que ha creado, después haga clic en **Seleccionar**.</span><span class="sxs-lookup"><span data-stu-id="fa83e-123">Mark the invoice that you created, then click **Select**.</span></span> <span data-ttu-id="fa83e-124">Los asientos que seleccionó arriba se mueven en esta lista después de que los seleccione.</span><span class="sxs-lookup"><span data-stu-id="fa83e-124">The vouchers that you selected above are moved to this list after you select them.</span></span>  
+7. <span data-ttu-id="fa83e-125">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="fa83e-125">Select **OK**.</span></span>
+8. <span data-ttu-id="fa83e-126">Seleccione el campo del **número de cuenta** para agregar una cuenta de gastos en la factura.</span><span class="sxs-lookup"><span data-stu-id="fa83e-126">Select the **account number** field to add an expense account to the invoice.</span></span>
+9. <span data-ttu-id="fa83e-127">Especifique un número de cuenta y salga del campo con el tabulador.</span><span class="sxs-lookup"><span data-stu-id="fa83e-127">Enter an account number and tab off of the field.</span></span> <span data-ttu-id="fa83e-128">Por ejemplo, escriba `600120`.</span><span class="sxs-lookup"><span data-stu-id="fa83e-128">For example, enter `600120`.</span></span>
+10. <span data-ttu-id="fa83e-129">Seleccione **Registrar**.</span><span class="sxs-lookup"><span data-stu-id="fa83e-129">Select **Post**.</span></span>
+11. <span data-ttu-id="fa83e-130">Seleccione **Asiento** para ver las entradas que se han registrado.</span><span class="sxs-lookup"><span data-stu-id="fa83e-130">Select **Voucher** to view the entries that were posted.</span></span> <span data-ttu-id="fa83e-131">La cuenta de factura pendiente de aprobación se anula y se reemplaza con la cuenta de gastos real.</span><span class="sxs-lookup"><span data-stu-id="fa83e-131">The Invoice Pending Approval account is reversed and replaced with the actual expense account.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
