@@ -1,6 +1,6 @@
 ---
 title: Habilitar autenticación Azure Active Directory para el inicio de sesión PDV
-description: Este tema explica cómo configurar la experiencia de inicio de sesión para Microsoft Dynamics 365 Commerce punto de venta (PDV) para que use la autenticación Azure Active Directory.
+description: Este tema explica cómo configurar la experiencia de inicio de sesión para punto de venta (PDV) de Microsoft Dynamics 365 Commerce, para que use la autenticación Azure Active Directory.
 author: boycezhu
 manager: annbe
 ms.date: 07/27/2020
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d6073a04814adf8237b4caa952b31b011f4b34bf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 234d19bb6659af07c65763e05671742b9581e244
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982749"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206688"
 ---
-# <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Habilitar autenticación Azure Active Directory para el inicio de sesión PDV
+# <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Habilitar la autenticación de Azure Active Directory para el inicio de sesión de PDV
 [!include [banner](includes/banner.md)]
 
 
-Muchos clientes que usan Microsoft Dynamics 365 Commerce también usan otros Microsoft Cloud Services, y podrían usar Azure Active Directory (Azure AD) para administrar las credenciales de usuario para esos servicios. En esos casos, los clientes pueden querer usar la misam cuenta Azure AD en todas las aplicaciones. Este tema explica cómo configurar la experiencia de inicio de sesión de Commerce punto de venta (PDV) para usar la autenticación Azure AD.
+Muchos clientes que usan Microsoft Dynamics 365 Commerce también usan otros servicios de Microsoft Cloud, y podrían usar Azure Active Directory (Azure AD) para administrar las credenciales de usuario para esos servicios. En esos casos, los clientes pueden querer usar la misam cuenta Azure AD en todas las aplicaciones. Este tema explica cómo configurar la experiencia de inicio de sesión de Commerce punto de venta (PDV) para usar la autenticación Azure AD.
 
 ## <a name="configure-azure-ad-authentication"></a>Configurar la autenticación Azure AD
 

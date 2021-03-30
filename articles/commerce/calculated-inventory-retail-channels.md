@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ff60ef23c7e19e3f2f97d56fd416e0018a0c324d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995829"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213267"
 ---
-# <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular la disponibilidad de inventario para canales minoristas
+# <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular la disponibilidad de inventario para canales comerciales
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo una empresa puede usar Microsoft Dynamics 365 Commerce para ver la disponibilidad disponible estimada de productos en los canales en línea y de la tienda.
+Este tema describe cómo una empresa puede usar Microsoft Dynamics 365 Commerce para ver la disponibilidad inmediata estimada de productos en los canales en línea y de la tienda.
 
 ## <a name="accuracy-of-calculation"></a>Precisión de cálculo
 

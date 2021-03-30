@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 05de2748b0cf7a2b09618aee5c41c8c797f2b3d3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971287"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210418"
 ---
 # <a name="budget-planning"></a>Planificación presupuestaria
 
@@ -105,7 +105,7 @@ La planificación presupuestaria usa directivas especiales de seguridad para con
 
 2.5. Seleccione "Conceder acceso a organizaciones específicas". Seleccione la jerarquía organizativa creada en el primer paso. Seleccione el nodo Finanzas y haga clic en el botón Conceder con subordinados. 
 
-**_Importante!_* _ _Asegúrese de que se encuentra en el contexto de la entidad jurídica de DEMF cuando realice esta tarea, ya que la seguridad organizativa se aplica por entidad jurídica* 
+***¡Importante!** _ _Asegúrese de que se encuentra en el contexto de la entidad jurídica de DEMF cuando realice esta tarea, ya que la seguridad organizativa se aplica por entidad jurídica* 
 
 ### <a name="task-3-create-scenarios"></a>Tarea 3: Crear escenarios
 3.1. Navegue hasta Gestión presupuestaria&gt;Configurar &gt; Planificación presupuestaria &gt; Configuración de planificación presupuestaria. En la página Situaciones observe los escenarios que vamos a usar más en este laboratorio: Reales del año anterior y Presupuestado. 

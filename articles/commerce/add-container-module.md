@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 23d81eaee6684ff2b041f93edd05076af66d322d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43017cbb76c38eed6951a9e87c763cf919c3bd93
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980540"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206424"
 ---
-# <a name="container-module"></a>Módulo Contenedor
+# <a name="container-module"></a>Módulo de contenedor
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de contenedor y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Un módulo de contenedor es un módulo que hospeda otros módulos dentro. El propósito principal de un módulo de contenedor es definir, mediante las propiedades que se establecen para él, el diseño de los módulos que contiene. Por ejemplo, esos módulos pueden aparecer de forma paralela en un diseño de dos, tres, cuatro o seis columnas. También se pueden limitar al ancho del contenedor o bien, pueden rellenar la pantalla. También se puede agregar una encabezado a cada módulo de contenedor.
 
