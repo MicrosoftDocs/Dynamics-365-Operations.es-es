@@ -14,57 +14,60 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d6208e867bd322ddfc4e599856b1905fa8e19b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b62e5765964a13357e0e7b663be1c7fd2cc19037
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969387"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208808"
 ---
-# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="74a33-103">Configurar los derechos de acceso para un controlador de objeto de coste</span><span class="sxs-lookup"><span data-stu-id="74a33-103">Configure access rights for a cost object controller</span></span>
+# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="8ed43-103">Configurar los derechos de acceso para un controlador de objeto de coste</span><span class="sxs-lookup"><span data-stu-id="8ed43-103">Configure access rights for a cost object controller</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="74a33-104">Use este procedimiento para configurar los derechos de acceso para el controlador de objeto de coste.</span><span class="sxs-lookup"><span data-stu-id="74a33-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="74a33-105">Este registro usa la empresa USP2 con los datos para demostración.</span><span class="sxs-lookup"><span data-stu-id="74a33-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="8ed43-104">Use este procedimiento para configurar los derechos de acceso para el controlador de objeto de coste.</span><span class="sxs-lookup"><span data-stu-id="8ed43-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="8ed43-105">Este registro usa la empresa USP2 con los datos para demostración.</span><span class="sxs-lookup"><span data-stu-id="8ed43-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="74a33-106">Asignar el rol del controlador del objeto de coste</span><span class="sxs-lookup"><span data-stu-id="74a33-106">Assign the cost object controller role</span></span>
-1. <span data-ttu-id="74a33-107">Vaya a Administración del sistema > Usuarios > Usuarios.</span><span class="sxs-lookup"><span data-stu-id="74a33-107">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="74a33-108">Use el filtro rápido para buscar registros.</span><span class="sxs-lookup"><span data-stu-id="74a33-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="74a33-109">Por ejemplo, filtre según el campo Nombre de usuario con un valor de “alicia”.</span><span class="sxs-lookup"><span data-stu-id="74a33-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
-3. <span data-ttu-id="74a33-110">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="74a33-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="74a33-111">Haga clic en Asignar roles.</span><span class="sxs-lookup"><span data-stu-id="74a33-111">Click Assign roles.</span></span>
-5. <span data-ttu-id="74a33-112">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="74a33-112">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="74a33-113">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="74a33-113">Click OK.</span></span>
+## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="8ed43-106">Asignar el rol del controlador del objeto de coste</span><span class="sxs-lookup"><span data-stu-id="8ed43-106">Assign the cost object controller role</span></span>
+1. <span data-ttu-id="8ed43-107">Vaya a Administración del sistema > Usuarios > Usuarios.</span><span class="sxs-lookup"><span data-stu-id="8ed43-107">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="8ed43-108">Use el filtro rápido para buscar registros.</span><span class="sxs-lookup"><span data-stu-id="8ed43-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="8ed43-109">Por ejemplo, filtre según el campo Nombre de usuario con un valor de “alicia”.</span><span class="sxs-lookup"><span data-stu-id="8ed43-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
+3. <span data-ttu-id="8ed43-110">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8ed43-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="8ed43-111">Haga clic en Asignar roles.</span><span class="sxs-lookup"><span data-stu-id="8ed43-111">Click Assign roles.</span></span>
+5. <span data-ttu-id="8ed43-112">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="8ed43-112">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="8ed43-113">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="8ed43-113">Click OK.</span></span>
 
-## <a name="enable-access-list-security"></a><span data-ttu-id="74a33-114">Habilitar la seguridad de lista de acceso</span><span class="sxs-lookup"><span data-stu-id="74a33-114">Enable access list security</span></span>
-1. <span data-ttu-id="74a33-115">Vaya a Contabilidad de costes > Dimensiones > Jerarquías de dimensiones.</span><span class="sxs-lookup"><span data-stu-id="74a33-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="74a33-116">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="74a33-116">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="74a33-117">Seleccione Organización.</span><span class="sxs-lookup"><span data-stu-id="74a33-117">Select Organization.</span></span>  
-3. <span data-ttu-id="74a33-118">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="74a33-118">Click Edit.</span></span>
-4. <span data-ttu-id="74a33-119">Seleccione Sí en el campo de la jerarquía de la lista de acceso.</span><span class="sxs-lookup"><span data-stu-id="74a33-119">Select Yes in the Access list hierarchy field.</span></span>
-5. <span data-ttu-id="74a33-120">Haga clic en Ver jerarquía.</span><span class="sxs-lookup"><span data-stu-id="74a33-120">Click View hierarchy.</span></span>
+## <a name="enable-access-list-security"></a><span data-ttu-id="8ed43-114">Habilitar la seguridad de lista de acceso</span><span class="sxs-lookup"><span data-stu-id="8ed43-114">Enable access list security</span></span>
+1. <span data-ttu-id="8ed43-115">Vaya a Contabilidad de costes > Dimensiones > Jerarquías de dimensiones.</span><span class="sxs-lookup"><span data-stu-id="8ed43-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="8ed43-116">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="8ed43-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="8ed43-117">Seleccione Organización.</span><span class="sxs-lookup"><span data-stu-id="8ed43-117">Select Organization.</span></span>  
+3. <span data-ttu-id="8ed43-118">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="8ed43-118">Click Edit.</span></span>
+4. <span data-ttu-id="8ed43-119">Seleccione Sí en el campo de la jerarquía de la lista de acceso.</span><span class="sxs-lookup"><span data-stu-id="8ed43-119">Select Yes in the Access list hierarchy field.</span></span>
+5. <span data-ttu-id="8ed43-120">Haga clic en Ver jerarquía.</span><span class="sxs-lookup"><span data-stu-id="8ed43-120">Click View hierarchy.</span></span>
 
-## <a name="assign-access-rights-to-user"></a><span data-ttu-id="74a33-121">Asignar derechos de acceso al usuario</span><span class="sxs-lookup"><span data-stu-id="74a33-121">Assign access rights to user</span></span>
-1. <span data-ttu-id="74a33-122">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="74a33-122">Click New.</span></span>
-2. <span data-ttu-id="74a33-123">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="74a33-123">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="74a33-124">En el campo Id. de usuario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="74a33-124">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="74a33-125">Seleccione Administración.</span><span class="sxs-lookup"><span data-stu-id="74a33-125">Select Admin.</span></span>  
-4. <span data-ttu-id="74a33-126">En el árbol, seleccione "Organización\Director general\Director financiero\FIM".</span><span class="sxs-lookup"><span data-stu-id="74a33-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
-5. <span data-ttu-id="74a33-127">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="74a33-127">Click New.</span></span>
-6. <span data-ttu-id="74a33-128">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="74a33-128">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="74a33-129">En el campo Id. de usuario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="74a33-129">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="74a33-130">Seleccione Alicia.</span><span class="sxs-lookup"><span data-stu-id="74a33-130">Select Alicia.</span></span>  
-8. <span data-ttu-id="74a33-131">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="74a33-131">Click Save.</span></span>
+## <a name="assign-access-rights-to-user"></a><span data-ttu-id="8ed43-121">Asignar derechos de acceso al usuario</span><span class="sxs-lookup"><span data-stu-id="8ed43-121">Assign access rights to user</span></span>
+1. <span data-ttu-id="8ed43-122">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8ed43-122">Click New.</span></span>
+2. <span data-ttu-id="8ed43-123">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8ed43-123">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="8ed43-124">En el campo Id. de usuario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8ed43-124">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="8ed43-125">Seleccione Administración.</span><span class="sxs-lookup"><span data-stu-id="8ed43-125">Select Admin.</span></span>  
+4. <span data-ttu-id="8ed43-126">En el árbol, seleccione "Organización\Director general\Director financiero\FIM".</span><span class="sxs-lookup"><span data-stu-id="8ed43-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
+5. <span data-ttu-id="8ed43-127">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8ed43-127">Click New.</span></span>
+6. <span data-ttu-id="8ed43-128">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8ed43-128">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="8ed43-129">En el campo Id. de usuario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8ed43-129">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="8ed43-130">Seleccione Alicia.</span><span class="sxs-lookup"><span data-stu-id="8ed43-130">Select Alicia.</span></span>  
+8. <span data-ttu-id="8ed43-131">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8ed43-131">Click Save.</span></span>
 
-## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="74a33-132">Habilitar derechos de acceso en la contabilidad de costes</span><span class="sxs-lookup"><span data-stu-id="74a33-132">Enable access rights in Cost accounting</span></span>
-1. <span data-ttu-id="74a33-133">Vaya a Contabilidad de costes > Configuración > Parámetros.</span><span class="sxs-lookup"><span data-stu-id="74a33-133">Go to Cost accounting > Setup > Parameters.</span></span>
-2. <span data-ttu-id="74a33-134">Haga clic en la pestaña General.</span><span class="sxs-lookup"><span data-stu-id="74a33-134">Click the General tab.</span></span>
-3. <span data-ttu-id="74a33-135">Seleccione Sí en el parámetro Habilitar acceso de visualización para el campo de miembros de dimensión de objeto de coste.</span><span class="sxs-lookup"><span data-stu-id="74a33-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
-4. <span data-ttu-id="74a33-136">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="74a33-136">Click Save.</span></span>
-5. <span data-ttu-id="74a33-137">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="74a33-137">Close the page.</span></span>
-6. <span data-ttu-id="74a33-138">Vaya a Contabilidad de costes > Configuración > Configuración del espacio de trabajo de control de costes.</span><span class="sxs-lookup"><span data-stu-id="74a33-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
-7. <span data-ttu-id="74a33-139">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="74a33-139">Click Edit.</span></span>
-8. <span data-ttu-id="74a33-140">Seleccione Sí en el campo Publicado.</span><span class="sxs-lookup"><span data-stu-id="74a33-140">Select Yes in the Published field.</span></span>
-    * <span data-ttu-id="74a33-141">Si selecciona Sí, un usuario al que se asigna uno de los cuatro roles siguientes puede ver los informes del área de trabajo de control de costes: administrador de contabilidad de costes, contable de costes, funcionario contable de costes y controlador de objetos de coste.</span><span class="sxs-lookup"><span data-stu-id="74a33-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="74a33-142">Si selecciona No, solo un usuario al que se asigna uno de los cuatro roles siguientes puede ver los informes del área de trabajo de control de costes: administrador de contabilidad de costes, contable de costes y funcionario contable de costes.</span><span class="sxs-lookup"><span data-stu-id="74a33-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
-9. <span data-ttu-id="74a33-143">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="74a33-143">Click Save.</span></span>
+## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="8ed43-132">Habilitar derechos de acceso en la contabilidad de costes</span><span class="sxs-lookup"><span data-stu-id="8ed43-132">Enable access rights in Cost accounting</span></span>
+1. <span data-ttu-id="8ed43-133">Vaya a Contabilidad de costes > Configuración > Parámetros.</span><span class="sxs-lookup"><span data-stu-id="8ed43-133">Go to Cost accounting > Setup > Parameters.</span></span>
+2. <span data-ttu-id="8ed43-134">Haga clic en la pestaña General.</span><span class="sxs-lookup"><span data-stu-id="8ed43-134">Click the General tab.</span></span>
+3. <span data-ttu-id="8ed43-135">Seleccione Sí en el parámetro Habilitar acceso de visualización para el campo de miembros de dimensión de objeto de coste.</span><span class="sxs-lookup"><span data-stu-id="8ed43-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
+4. <span data-ttu-id="8ed43-136">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8ed43-136">Click Save.</span></span>
+5. <span data-ttu-id="8ed43-137">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8ed43-137">Close the page.</span></span>
+6. <span data-ttu-id="8ed43-138">Vaya a Contabilidad de costes > Configuración > Configuración del espacio de trabajo de control de costes.</span><span class="sxs-lookup"><span data-stu-id="8ed43-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+7. <span data-ttu-id="8ed43-139">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="8ed43-139">Click Edit.</span></span>
+8. <span data-ttu-id="8ed43-140">Seleccione Sí en el campo Publicado.</span><span class="sxs-lookup"><span data-stu-id="8ed43-140">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="8ed43-141">Si selecciona Sí, un usuario al que se asigna uno de los cuatro roles siguientes puede ver los informes del área de trabajo de control de costes: administrador de contabilidad de costes, contable de costes, funcionario contable de costes y controlador de objetos de coste.</span><span class="sxs-lookup"><span data-stu-id="8ed43-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="8ed43-142">Si selecciona No, solo un usuario al que se asigna uno de los cuatro roles siguientes puede ver los informes del área de trabajo de control de costes: administrador de contabilidad de costes, contable de costes y funcionario contable de costes.</span><span class="sxs-lookup"><span data-stu-id="8ed43-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
+9. <span data-ttu-id="8ed43-143">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8ed43-143">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
