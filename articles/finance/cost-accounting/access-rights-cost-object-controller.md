@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68fc97ed27460ac0a2bee9c10cb9bda67d506e78
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 08eb9048cf3c8a51e23da2413c5d6c387593146d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978898"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224007"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Derechos de acceso para controladores de objeto de coste
 
@@ -91,7 +91,7 @@ Los valores para la jerarquía de listas de acceso se utilizan para controlar lo
 
     - Saldos en tarjetas
 
-- Microsofot Power BI:
+- Microsoft Power BI:
 
     - Datos que se muestran en las visualizaciones de Power BI
     - Visualización de los datos de Power BI que se insertarán en el cliente de Dynamics 365 Finance

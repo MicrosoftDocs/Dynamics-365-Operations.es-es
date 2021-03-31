@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6b69e36e77ecc8c4a3ab9cc1a20ae0f5beaface5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d48aab4692dd61080c7887301ee78ee5b986498f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223959"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Catálogo de aprendizaje para administradores de Dynamics 365 Finance
 
@@ -70,7 +70,7 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 
 | Contenido  | Descripción   | Formato  | Longitud    |
 |----------|---------------|---------|-----------|
-| [Finance and Operations: Administración de características (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Charla técnica sobre la experiencia de administración de características. Ofrece un espacio de trabajo en el que puede ver, habilitar, deshabilitar y programar las características que se han entregado en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación. Asista a esta reunión para ver qué se ofrecer en la versión 10.0.3 y nuestros planes para versiones futuras. | Registro flexible de conferencias web | 47 minutos |
+| [Finance and Operations: Administración de características (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Charla técnica sobre la experiencia de administración de características. Ofrece un área de trabajo en la que puede ver, habilitar, deshabilitar y programar las características que se han entregado en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación. Asista a esta reunión para ver qué se ofrecer en la versión 10.0.3 y nuestros planes para versiones futuras. | Registro flexible de conferencias web | 47 minutos |
 | [Finance and Operations: servicio, soporte y mantenimiento de la producción (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Tech Talk acerca de cómo prestar compatibilidad, mantenimiento y aprovisionamiento eficazmente a su entorno de producción Dynamics 365 for Finance and Operations. | Registro flexible de conferencias web | 53 minutos |
 | [Finance and Operations: actualizaciones continuas administradas por Microsoft (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | La cadencia de actualización continua para Finance and Operations ha empezado. Participe en esta hora de debate sobre las actualizaciones continuas administradas por Microsoft, la experiencia del usuario ya disponible Lifecycle Services y las actualizaciones próximas. | Registro flexible de conferencias web | 61 minutos |
 | [Actualizaciones continuadas administradas por Microsoft: novedades (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Durante esta hora explicaremos las novedades desde nuestros anuncios iniciales sobre las actualizaciones continuas administradas por Microsoft. Hablaremos de las la cadencia de las actualizaciones, cómo hemos respondido sus valiosos comentarios acerca del proceso, y echaremos una ojeada a la próxima experiencia de usuario de Lifecycle Services con la que podrá administrar las actualizaciones. | Registro flexible de conferencias web | 56 minutos |
