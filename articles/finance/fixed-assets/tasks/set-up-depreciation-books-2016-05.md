@@ -15,42 +15,45 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e1d934bffd0a5daacf27fcd5a2e00043fe3daf8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cd65cb77872b3e2f74402cf8c92c8b8989cea6ee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009227"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224702"
 ---
-# <a name="set-up-depreciation-books"></a><span data-ttu-id="7e8d7-103">Configurar libros de amortización</span><span class="sxs-lookup"><span data-stu-id="7e8d7-103">Set up depreciation books</span></span> 
+# <a name="set-up-depreciation-books"></a><span data-ttu-id="d10ea-103">Configurar libros de amortización</span><span class="sxs-lookup"><span data-stu-id="d10ea-103">Set up depreciation books</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7e8d7-104">Este procedimiento explica el proceso de creación de un nuevo libro de amortización y lo asocia con un grupo de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-104">This procedure walks through the process of creating a new depreciation book and associate it with a fixed asset group.</span></span> 
+<span data-ttu-id="d10ea-104">Este procedimiento explica el proceso de creación de un nuevo libro de amortización y lo asocia con un grupo de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="d10ea-104">This procedure walks through the process of creating a new depreciation book and associate it with a fixed asset group.</span></span> 
 
-## <a name="create-a-depreciation-book"></a><span data-ttu-id="7e8d7-105">Crear un libro de amortización</span><span class="sxs-lookup"><span data-stu-id="7e8d7-105">Create a depreciation book</span></span>
-1. <span data-ttu-id="7e8d7-106">Vaya a Activos fijos > Configuración > Libros amortización.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-106">Go to Fixed assets > Setup > Depreciation books.</span></span>
-2. <span data-ttu-id="7e8d7-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-107">Click New.</span></span>
-3. <span data-ttu-id="7e8d7-108">En el campo Libro amortización, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-108">In the Depreciation book field, type a value.</span></span>
-4. <span data-ttu-id="7e8d7-109">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="7e8d7-110">Active o desactive la casilla Calcular depreciación.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-110">Check or uncheck the Calculate depreciation checkbox.</span></span>
-6. <span data-ttu-id="7e8d7-111">En el campo Método de depreciación, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-111">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="7e8d7-112">En la lista, busque y seleccione el método de depreciación deseado.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-112">In the list, find and select the desired depreciation profile.</span></span>
-8. <span data-ttu-id="7e8d7-113">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-113">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="7e8d7-114">En el campo Método de depreciación alternativo, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-114">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="7e8d7-115">En la lista, seleccione el método de depreciación deseado.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-115">In the list, select the desired depreciation profile.</span></span>
-11. <span data-ttu-id="7e8d7-116">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-116">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="7e8d7-117">El método de depreciación extraordinaria que se usa para la depreciación adicional de un activo en circunstancias inusuales.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="7e8d7-118">Por ejemplo, puede usar esta opción para registrar la depreciación que se produzca a causa de un desastre natural.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
-12. <span data-ttu-id="7e8d7-119">Active o desactive la casilla Crear ajustes de depreciación con ajustes de base.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-119">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
-13. <span data-ttu-id="7e8d7-120">En el campo Calendario, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-120">In the Calendar field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="7e8d7-121">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-121">In the list, click the link in the selected row.</span></span>
+## <a name="create-a-depreciation-book"></a><span data-ttu-id="d10ea-105">Crear un libro de amortización</span><span class="sxs-lookup"><span data-stu-id="d10ea-105">Create a depreciation book</span></span>
+1. <span data-ttu-id="d10ea-106">Vaya a Activos fijos > Configuración > Libros amortización.</span><span class="sxs-lookup"><span data-stu-id="d10ea-106">Go to Fixed assets > Setup > Depreciation books.</span></span>
+2. <span data-ttu-id="d10ea-107">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="d10ea-107">Click New.</span></span>
+3. <span data-ttu-id="d10ea-108">En el campo Libro amortización, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d10ea-108">In the Depreciation book field, type a value.</span></span>
+4. <span data-ttu-id="d10ea-109">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d10ea-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d10ea-110">Active o desactive la casilla Calcular depreciación.</span><span class="sxs-lookup"><span data-stu-id="d10ea-110">Check or uncheck the Calculate depreciation checkbox.</span></span>
+6. <span data-ttu-id="d10ea-111">En el campo Método de depreciación, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="d10ea-111">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="d10ea-112">En la lista, busque y seleccione el método de depreciación deseado.</span><span class="sxs-lookup"><span data-stu-id="d10ea-112">In the list, find and select the desired depreciation profile.</span></span>
+8. <span data-ttu-id="d10ea-113">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d10ea-113">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="d10ea-114">En el campo Método de depreciación alternativo, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="d10ea-114">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="d10ea-115">En la lista, seleccione el método de depreciación deseado.</span><span class="sxs-lookup"><span data-stu-id="d10ea-115">In the list, select the desired depreciation profile.</span></span>
+11. <span data-ttu-id="d10ea-116">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d10ea-116">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="d10ea-117">El método de depreciación extraordinaria que se usa para la depreciación adicional de un activo en circunstancias inusuales.</span><span class="sxs-lookup"><span data-stu-id="d10ea-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="d10ea-118">Por ejemplo, puede usar esta opción para registrar la depreciación que se produzca a causa de un desastre natural.</span><span class="sxs-lookup"><span data-stu-id="d10ea-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
+12. <span data-ttu-id="d10ea-119">Active o desactive la casilla Crear ajustes de depreciación con ajustes de base.</span><span class="sxs-lookup"><span data-stu-id="d10ea-119">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
+13. <span data-ttu-id="d10ea-120">En el campo Calendario, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="d10ea-120">In the Calendar field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="d10ea-121">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d10ea-121">In the list, click the link in the selected row.</span></span>
 
-## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="7e8d7-122">Asociar el libro de amortización con un grupo de activos fijos</span><span class="sxs-lookup"><span data-stu-id="7e8d7-122">Associate the depreciation book with a fixed asset group</span></span>
-1. <span data-ttu-id="7e8d7-123">Haga clic en Grupos de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-123">Click Fixed asset groups.</span></span>
-2. <span data-ttu-id="7e8d7-124">En el campo Grupo de activos fijos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-124">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="7e8d7-125">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-125">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="7e8d7-126">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-126">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="7e8d7-127">En el campo Convención de amortizaciones, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-127">In the Depreciation convention field, select an option.</span></span>
-6. <span data-ttu-id="7e8d7-128">En el campo Tiempo de vida, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-128">In the Service life field, enter a number.</span></span>
-    * <span data-ttu-id="7e8d7-129">Tenga en cuenta que el valor del campo Períodos de depreciación se calcula después de definir el tiempo de vida.</span><span class="sxs-lookup"><span data-stu-id="7e8d7-129">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
+## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="d10ea-122">Asociar el libro de amortización con un grupo de activos fijos</span><span class="sxs-lookup"><span data-stu-id="d10ea-122">Associate the depreciation book with a fixed asset group</span></span>
+1. <span data-ttu-id="d10ea-123">Haga clic en Grupos de activos fijos.</span><span class="sxs-lookup"><span data-stu-id="d10ea-123">Click Fixed asset groups.</span></span>
+2. <span data-ttu-id="d10ea-124">En el campo Grupo de activos fijos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="d10ea-124">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="d10ea-125">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="d10ea-125">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="d10ea-126">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d10ea-126">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="d10ea-127">En el campo Convención de amortizaciones, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="d10ea-127">In the Depreciation convention field, select an option.</span></span>
+6. <span data-ttu-id="d10ea-128">En el campo Tiempo de vida, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="d10ea-128">In the Service life field, enter a number.</span></span>
+    * <span data-ttu-id="d10ea-129">Tenga en cuenta que el valor del campo Períodos de depreciación se calcula después de definir el tiempo de vida.</span><span class="sxs-lookup"><span data-stu-id="d10ea-129">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
