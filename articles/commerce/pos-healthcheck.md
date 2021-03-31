@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59e2505345d82f47efebfba6cc6f3403d03acc84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 48391a3160c42fdc94be9e7e62024e9e193b94dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000543"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216684"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Comprobación de estado de periféricos y servicios de PDV
 
@@ -34,7 +34,7 @@ En este tema se describe la operación de comprobación de estado en el punto de
 
 Las tiendas minoristas pueden ser entornos complejos en los que se usan muchas aplicaciones y dispositivos. A medida que crecen las operaciones, puede resultar difícil garantizar que funcionen de forma fluida a causa de sus dependencias de, por ejemplo, periféricos que pueden averiarse o desconectarse accidentalmente a lo largo del día. La solución de problemas relacionados con los dispositivos y servicios puede ser costosa para comercios grandes e igualmente frustrantes para las operaciones más pequeñas.
 
-Microsoft Dynamics 365 Commerce versión 10.0.10 y versiones posteriores incluyen una operación de comprobación de estado que puede ayudar a prevenir parte de este coste y frustración. Esta operación proporciona un método para comprobar dispositivos directamente desde el PDV fuera de las operaciones normales. Así, puede ayudar a los minoristas a detectar problemas antes de que ocurran.
+Microsoft Dynamics 365 Commerce, versión 10.0.10 y posteriores, incluye una operación de comprobación de estado que puede ayudar a evitar parte de este coste y frustración. Esta operación proporciona un método para comprobar dispositivos directamente desde el PDV fuera de las operaciones normales. Así, puede ayudar a los minoristas a detectar problemas antes de que ocurran.
 
 ## <a name="key-terms"></a>Términos clave
 

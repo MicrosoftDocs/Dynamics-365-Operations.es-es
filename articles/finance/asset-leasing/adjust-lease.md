@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130764"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219996"
 ---
 # <a name="adjust-leases"></a>Ajustar arrendamientos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 El tema explica cómo ajustar un arrendamiento. Es posible que se requiera un ajuste si se modifican los términos del arrendamiento, se prorroga el arrendamiento o cambian otras circunstancias. El arrendamiento de activos cumple con la orientación que proporcionan el Tema 842 de la Codificación de Normas de Contabilidad (ASC 842) y la Norma Internacional de Información Financiera 16 (NIIF 16) sobre las modificaciones del arrendamiento. ASC 842-20-15-1 define una modificación de arrendamiento como cualquier cambio en los términos y condiciones de un contrato que provoque un cambio en el ámbito o la consideración de un arrendamiento. El párrafo 39 de la IFRS 16 establece que un arrendatario debe volver a evaluar el pasivo por arrendamiento de manera que refleje los cambios en los pagos por arrendamiento.
 
