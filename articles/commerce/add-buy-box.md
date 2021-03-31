@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ae3da8ee77636a2d2257e01f5876f5542469f7da
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4ddaf34ed2dec882310e5363db643bb522be1238
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986063"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206544"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 El término *cuadro de compra* hace referencia normalmente a una página de detalles de productos que se encuentra “por encima del pliegue” y que hospeda toda la información más importante necesaria para crear una compra del producto. (Un área que está “por encima del pliegue” es visible cuando la página se carga por primera vez, de modo que los usuarios no tengan que desplazarse hacia abajo para verla).
 

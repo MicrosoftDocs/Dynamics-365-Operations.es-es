@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7d0c792a8590be474b05dea262ae11d15e0ada3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 540a4a9c48ed958abb56a393e99b8060e1b7aa8e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965229"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207880"
 ---
 # <a name="create-a-new-product-hierarchy"></a>Crear una nueva jerarquía de productos
 
@@ -30,7 +30,7 @@ ms.locfileid: "4965229"
 
 En este tema se describe cómo crear una nueva jerarquía de productos en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Dynamics 365 Commerce admite varios canales comerciales. Estos canales de venta minorista incluyen tiendas en línea, centros de llamadas y tiendas minoristas (también conocidas como tiendas físicas). Cada canal de tienda puede tener sus propios métodos de pago, grupos de precios, registros de puntos de venta (PDV), cuentas de ingresos y gastos, o personal. Debe configurar todos estos elementos antes de crear una canal de tienda. 
 

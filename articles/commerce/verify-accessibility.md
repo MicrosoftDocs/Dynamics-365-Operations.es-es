@@ -1,6 +1,6 @@
 ---
 title: Comprobar la accesibilidad de contenido de página
-description: En este tema se describe cómo comprobar la accesibilidad del contenido de página en Microsoft Dynamics 365 Commerce.
+description: En este tema se describe cómo comprobar la accesibilidad del contenido de las páginas en Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: annbe
 ms.date: 01/08/2020
@@ -16,21 +16,21 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7690f3bb17a56b9a16b6e818b675064b1979948e
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 186044fc7a360f227cecffb39bad0e225245dd4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097374"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210980"
 ---
-# <a name="verify-page-content-accessibility"></a>Comprobar la accesibilidad de contenido de página
+# <a name="verify-page-content-accessibility"></a>Verificar accesibilidad de contenido de página
 
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo comprobar la accesibilidad del contenido de página en Microsoft Dynamics 365 Commerce.
+En este tema se describe cómo comprobar la accesibilidad del contenido de las páginas en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Cuando haya terminado de modificar una página debe asegurarse de que el contenido sea accesible para todos en la web. En las herramientas de creación de Commerce, puede comprobar fácilmente la accesibilidad del contenido de página mediante el servicio [Microsoft Accessibility Insights](https://accessibilityinsights.io/) integrado. Este servicio comprueba el contenido de su página siguiendo las directrices más recientes de [Accesibilidad del World Wide Web Consortium (W3C)](https://www.w3.org/standards/webdesign/accessibility).
 

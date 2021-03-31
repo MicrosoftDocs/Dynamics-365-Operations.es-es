@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 834d90c8ec8515c6bced2d8a4fabc79b4e4e4c3e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993737"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211282"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Habilitar y configurar cargos automáticos por canal
 
-Este tema explica cómo habilitar y configurar los cargos automáticos por canal en Microsoft Dynamics 365 Commerce.
+Este tema explica cómo habilitar y configurar los cargos automáticos (autocargos) por canal en Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Información general
 

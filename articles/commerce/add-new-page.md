@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54e690b0dde048b17ce074fcc30cf20a9ff7a4ca
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 2d96f173c68bd6a7d9c7a559ed7f18329c3508af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097138"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208048"
 ---
 # <a name="add-a-new-site-page"></a>Agregar una página de sitio nueva
 
@@ -30,7 +30,7 @@ ms.locfileid: "5097138"
 
 En este tema se describe cómo agregar una página de sitio nueva en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Una vez que ha creado las plantillas y los fragmentos para su sitio, el paso siguiente es empezar a crear las páginas que los usen. Para empezar, debe seleccionar una plantilla o un diseño, un nombre de página y una dirección URL de página.
 

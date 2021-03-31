@@ -1,6 +1,6 @@
 ---
 title: Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce
-description: En este tema se explica cómo configurar características opcionales para un entorno de evaluación de Microsoft Dynamics 365 Commerce.
+description: En este tema se explica cómo configurar características opcionales para un ambiente de evaluación de Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 07/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993459"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213827"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-En este tema se explica cómo configurar características opcionales para un entorno de evaluación de Microsoft Dynamics 365 Commerce.
+En este tema se explica cómo configurar características opcionales para un ambiente de evaluación de Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -102,7 +102,7 @@ Para cada evento transaccional para el que desea enviar mensajes de correo elect
 
 Es posible que desee personalizar las plantillas de correo electrónico para que utilicen imágenes diferentes. O puede que desee actualizar los vínculos en las plantillas para que vayan a su entorno de evaluación. Este procedimiento explica cómo descargar plantillas predeterminadas, personalizarlas y actualizar las plantillas en el sistema.
 
-1. En un explorador web, descargue [el archivo .zip de correo electrónico predeterminado de la evaluación de Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) en su equipo local. Este archivo contiene los siguientes documentos HTML:
+1. En un explorador web, descargue el [archivo .zip de correo electrónico predeterminado de evaluación de Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) en su equipo local. Este archivo contiene los siguientes documentos HTML:
 
     - Plantilla de confirmación de pedido
     - Emitir plantilla de tarjeta regalo
@@ -156,7 +156,7 @@ Los siguientes tokens se sustituyen con valores para cada producto del pedido.
 |------------------------|-------|
 | Lista de productos: inicio   | \<!--%tablebegin.salesline% --\> |
 | Lista de productos: final     | \<!--%tableend.salesline%--\> |
-| Nombre de producto           | %lineproductname% |
+| Nombre del producto           | %lineproductname% |
 | Descripción            | %lineproductdescription% |
 | Cantidad               | %linequantity% |
 | Unidad de precio de línea        | %lineprice% (comprobar) |

@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 144559b14878a44afd8a77648bb5ce1d3ba17832
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: ff3795f26ab10ac19cc3a0dd00dca65095118f45
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131306"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207312"
 ---
 # <a name="propose-a-lease-for-termination"></a>Proponer un arrendamiento para su rescisión
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Si un arrendamiento se rescinde anticipadamente, el arrendamiento de activos puede registrar un asiento de rescisión en el diario para cancelar el pasivo por arrendamiento, el activo por derecho de uso (ROU) y la depreciación acumulada, y registrar una ganancia o una pérdida. El proceso de rescisión anticipada finaliza un arrendamiento y los libros de arrendamiento asociados. No rescinde los libros de arrendamiento individuales. Este tema describe la funcionalidad que le permite proponer un arrendamiento para rescisión y procesar el asiento de diario de rescisión del arrendamiento.
 

@@ -1,6 +1,6 @@
 ---
 title: Módulo selector de tienda
-description: En este tema se trata el modulo selector de tienda y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+description: En este tema se trata el modulo selector de tiendao y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006344"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205131"
 ---
-# <a name="store-selector-module"></a>Módulo selector de tienda
+# <a name="store-selector-module"></a>Módulo de selector de tienda
 
 [!include [banner](includes/banner.md)]
 
-En este tema se trata el modulo selector de tienda y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
+En este tema se trata el modulo selector de tiendao y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 Los clientes pueden usar el módulo selector de tiendas para recoger un producto en una tienda seleccionada después de una compra en línea. En la versión 10.0.13 de Commerce, el módulo selector de tienda también incluye capacidades adicionales que pueden mostrar una página **Encontrar una tienda** que muestra tiendas cercanas.
 
@@ -46,7 +44,7 @@ El módulo selector de tiendas permite a los usuarios especificar una ubicación
 
 El módulo selector de tiendas está integrado con las [Interfaces de programación de aplicaciones (API) REST de Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/) para utilizar las características de geocodificación y Autosuggest de Bing. Se requiere una clave de la API de Bing Maps, y debe agregarse a la página de parámetros compartidos en la Central de Commerce. La API de geocodificación se utiliza para convertir una ubicación en valores de latitud y longitud. La integración con la API de Autosuggest se utiliza para mostrar sugerencias de búsqueda cuando los usuarios ingresan ubicaciones en el campo de búsqueda.
 
-Para la API REST de Autosuggest, debe asegurarse de que las siguientes URL estén permitidas según la política de seguridad de contenido (CSP) de su sitio. Esta configuración se realiza en el creador de sitios de Commerce, agregando las direcciones URL permitidas a varias directivas CSP para el sitio (por ejemplo, **img-src**). Para más información, consulte [Directiva de seguridad de contenido](manage-csp.md). 
+Para la API REST de Autosuggest, debe asegurarse de que las siguientes URL estén permitidas según la directiva de seguridad de contenido (CSP) de su sitio. Esta configuración se realiza en el creador de sitios de Commerce, agregando las direcciones URL permitidas a varias directivas CSP para el sitio (por ejemplo, **img-src**). Para más información, consulte [Directiva de seguridad de contenido](manage-csp.md). 
 
 - Para la directiva **connect-src**, agregue **&#42;.bing.com**.
 - Para la directiva **img-src**, agregue **&#42;.virtualearth.net**.

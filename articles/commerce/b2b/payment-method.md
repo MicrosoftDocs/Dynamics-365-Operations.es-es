@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 754e2f83d6c8ff5d3698d98062e54bba7ccd9836
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 82dfd6ac7e97d838ef442fd6ded4a4f165fc795b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035961"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211210"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurar el método de pago de la cuenta del cliente para sitios de comercio electrónico B2B
 
@@ -29,7 +29,7 @@ ms.locfileid: "5035961"
 
 Este tema describe cómo configurar el método de pago de la cuenta del cliente para los sitios de comercio electrónico de empresa a empresa (B2B).
 
-Los minoristas pueden aceptar distintos tipos de pago a cambio de los productos y los servicios que venden en un canal de comercio electrónico. Al configurar el sistema, se deben configurar en Microsoft Dynamics 365 Commerce todos los tipos de pago que acepte el minorista. El método de pago de la cuenta del cliente (o "a cuenta") debe ser compatible con los sitios de comercio electrónico B2B. 
+Los minoristas pueden aceptar distintos tipos de pago a cambio de los productos y los servicios que venden en un canal de comercio electrónico. Al configurar el sistema, se deben configurar en Microsoft Dynamics 365 Commerce todos los tipos de pago que acepte un minorista. El método de pago de la cuenta del cliente (o "a cuenta") debe ser compatible con los sitios de comercio electrónico B2B. 
 
 ## <a name="prerequisites"></a>Requisitos previos
 

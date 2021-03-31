@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 89d95814e892e3afcb6514ab0d0219f7b08b9c63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eddee09fa81c18bc464b7768921981e6b5159a3e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000468"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210908"
 ---
 # <a name="work-with-modules"></a>Trabajar con módulos
 
@@ -29,7 +29,7 @@ ms.locfileid: "5000468"
 
 Este tema describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Los módulos son bloques de creación lógicos que componen su estructura de página y tienen diversos propósitos y ámbitos. Algunos módulos son contenedores de alto nivel y su único propósito es mantener y organizar otros módulos (módulos secundarios). Otros módulos, como un módulo de ubicación de imagen sencillo, tienen un propósito muy específico. Otros módulos, como un módulo de carrusel, se encuentren en algún lugar entre esas dos categorías.
 
