@@ -15,12 +15,12 @@ ms.search.region: Spain
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98e02c44b5a92b295f39ebc1b3d6bd28d255f173
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5cb08bb62488d686c6f9c8c93071c27f2f115dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012024"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228059"
 ---
 # <a name="spain-overview"></a>Visión general de España
 

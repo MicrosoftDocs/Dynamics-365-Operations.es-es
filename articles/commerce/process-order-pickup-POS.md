@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 2156542ed0932fab6fb4fa4035e009ad89eeb18f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2e7df580557486c67fc82af19f742bc8002cb881
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003762"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231089"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Procesar recogidas de pedidos de clientes en PDV
 
@@ -36,7 +36,7 @@ Si el pedido seleccionado o las líneas de pedido no están configuradas para su
 
 ![Operación de recogida](media/pickupoperation.png)
 
-En Microsoft Dynamics 365 Commerce versión 10.0.17 y posteriores, se puede activar la característica **Experiencia de usuario mejorada para el procesamiento de pedidos de recogida en el punto de venta** a través de la Administración de características en la sede central de Commerce. Si esta característica está desactivada, los usuarios no podrán seleccionar cantidades para recoger. De forma predeterminada, la cantidad total solicitada para la línea es la cantidad que se va a recoger. Esta experiencia puede ser problemática, ya que los usuarios pueden olvidarse de seleccionar algunos artículos para recoger cuando realizan la recogida a través del cumplimiento del pedido.
+En Microsoft Dynamics 365 Commerce, versión 10.0.17 y posteriores, se puede activar la característica **Experiencia de usuario mejorada para el procesamiento de pedidos de recogida en el punto de venta** a través de Administración de características en la sede de Commerce. Si esta característica está desactivada, los usuarios no podrán seleccionar cantidades para recoger. De forma predeterminada, la cantidad total solicitada para la línea es la cantidad que se va a recoger. Esta experiencia puede ser problemática, ya que los usuarios pueden olvidarse de seleccionar algunos artículos para recoger cuando realizan la recogida a través del cumplimiento del pedido.
 
 La característica **Experiencia de usuario mejorada para el procesamiento de pedidos de recogida en el punto de venta** ofrece a los usuarios más control sobre la selección de productos que se va a recoger y la cantidad de esos productos que se va a recoger. Los usuarios no tienen que seleccionar todas las líneas del pedido de ventas en la página de cumplimiento del pedido antes de seleccionar **Recoger**. Se mostrarán todos los artículos que se pueden recoger. Los usuarios pueden especificar varias líneas para recoger incluso si solo se selecciona una línea de producto.
 

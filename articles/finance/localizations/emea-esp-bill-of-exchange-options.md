@@ -16,12 +16,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cc9ab2afffc323808d73c25100b78fcaa32f88e6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84509999581e5daba30c043be3403d807f59eac0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962767"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228753"
 ---
 # <a name="spanish-bill-of-exchange-options"></a>Opciones de letras de cambio españolas
 

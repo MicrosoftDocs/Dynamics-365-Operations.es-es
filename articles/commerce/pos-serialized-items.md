@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee79fef3300ebea476ea37adc4cc61a9bbadb5d6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972564"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231257"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Trabajar con artículos serializados en el PDV
 
 [!include [banner](includes/banner.md)]
 
-Muchos minoristas venden productos que requieren control de serie. Estos productos se denominan *artículos serializados*. Algunos minoristas pueden querer mantener números de serie en la tienda o el inventario del almacén para fines de seguimiento. Otros minoristas pueden querer capturar números de serie durante el proceso de venta, para fines de servicio y garantía. Este tema explica cómo puede administrar artículos serializados en la aplicación de punto de venta (POS) de Microsoft Dynamics 365 Commerce.
+Muchos minoristas venden productos que requieren control de serie. Estos productos se denominan *artículos serializados*. Algunos minoristas pueden querer mantener números de serie en la tienda o el inventario del almacén para fines de seguimiento. Otros minoristas pueden querer capturar números de serie durante el proceso de venta, para fines de servicio y garantía. Este tema explica cómo puede administrar artículos serializados en la aplicación de punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
 
 ## <a name="serial-number-configurations"></a>Configuración de número de serie
 

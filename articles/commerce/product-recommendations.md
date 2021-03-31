@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1769af6663a040c699449eb53841b3f72ab433e5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eb64cd05ac8580c3ddcd719d62544f1edbdbef0b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231041"
 ---
 # <a name="product-recommendations-overview"></a>Visión general de recomendaciones de producto
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Commerce se puede utilizar para mostrar recomendaciones de productos en el dispositivo de punto de venta (PDV) y sitio web de comercio electrónico. Las recomendaciones de productos son artículos en los que un cliente puede estar interesado. Las recomendaciones se basan en las tendencias de compras de otros clientes en tiendas físicas o en línea.
+Microsoft Dynamics 365 Commerce se puede utilizar para mostrar recomendaciones de productos en el dispositivo de punto de venta (PDV) y el sitio web de comercio electrónico. Las recomendaciones de productos son artículos en los que un cliente puede estar interesado. Las recomendaciones se basan en las tendencias de compras de otros clientes en tiendas físicas o en línea.
 
 Las recomendaciones de productos permiten a los clientes buscar con facilidad y rapidez lo que desean a la vez que tienen una experiencia que les sirve bien. Las ventas cruzadas y verticales se pueden usar incluso para ayudar a clientes a encontrar productos adicionales que no se pensaron en un principio para comprar. Cuando se usan recomendaciones para mejorar la detección de productos, pueden crear más oportunidades de conversión, ayudan a aumentar los ingresos de ventas e incluso ayudan a amplificar la retención y la satisfacción del cliente.
 

@@ -16,12 +16,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d2d5eb3423564d897f410a0a927e741ec9da7c60
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4ac5290bc1f3a55b2537730829f0b918e7fe0d0a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992773"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228745"
 ---
 # <a name="conditional-sales-tax-for-protested-promissory-notes-or-bills-of-exchange"></a>Impuesto condicional para pagarés o letras de cambio protestados
 [!include [banner](../includes/banner.md)]

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0bf37453740d1c2b09b5bd7ae4841f23da20a3ec
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1ea46ae90dedcc3ad3c3b305bddeb4d98827353a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687546"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230678"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Cambio sin conexión perfecto para operaciones con tarjetas regalo y notas de crédito
 
