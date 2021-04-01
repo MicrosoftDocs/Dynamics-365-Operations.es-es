@@ -17,35 +17,35 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4728c90b37af6d536cd5a8b919be92f4a88c6489
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2c352c91ee9a6ae97d8cab12abb8a91e77a3d2b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247391"
 ---
-# <a name="customer-returns-overview"></a><span data-ttu-id="6f656-103">Visión general de las devoluciones del cliente</span><span class="sxs-lookup"><span data-stu-id="6f656-103">Customer returns overview</span></span>
+# <a name="customer-returns-overview"></a><span data-ttu-id="57152-103">Visión general de las devoluciones del cliente</span><span class="sxs-lookup"><span data-stu-id="57152-103">Customer returns overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="6f656-104">Cree y utilice códigos de devolución y códigos de disposición para dar soporte al proceso de devolución de productos.</span><span class="sxs-lookup"><span data-stu-id="6f656-104">Create and use return reason codes and disposition codes to support the process for returning products.</span></span>
+<span data-ttu-id="57152-104">Cree y utilice códigos de devolución y códigos de disposición para dar soporte al proceso de devolución de productos.</span><span class="sxs-lookup"><span data-stu-id="57152-104">Create and use return reason codes and disposition codes to support the process for returning products.</span></span>
 
-<span data-ttu-id="6f656-105">Use un código de motivo de devolución para describir el motivo por que el cliente desea devolver un artículo.</span><span class="sxs-lookup"><span data-stu-id="6f656-105">Use a return reason code to describe the reason that the customer wants to return an item.</span></span> <span data-ttu-id="6f656-106">Puede asignar un código de motivo en el formulario **Crear pedidos de devolución**.</span><span class="sxs-lookup"><span data-stu-id="6f656-106">You can assign a reason code in the **Create return orders** form.</span></span>
+<span data-ttu-id="57152-105">Use un código de motivo de devolución para describir el motivo por que el cliente desea devolver un artículo.</span><span class="sxs-lookup"><span data-stu-id="57152-105">Use a return reason code to describe the reason that the customer wants to return an item.</span></span> <span data-ttu-id="57152-106">Puede asignar un código de motivo en el formulario **Crear pedidos de devolución**.</span><span class="sxs-lookup"><span data-stu-id="57152-106">You can assign a reason code in the **Create return orders** form.</span></span>
 
-<span data-ttu-id="6f656-107">Asigne un código de disposición cuando se recibe un artículo o durante la inspección física del artículo devuelto.</span><span class="sxs-lookup"><span data-stu-id="6f656-107">Assign a disposition code when an item is received or during the physical inspection of a returned item.</span></span> <span data-ttu-id="6f656-108">Puede usar códigos de disposición para describir la condición del artículo.</span><span class="sxs-lookup"><span data-stu-id="6f656-108">You can use disposition codes to describe the condition of the item.</span></span> <span data-ttu-id="6f656-109">También puede usar códigos de disposición para indicar si es necesario realizar una acción adicional para la transacción.</span><span class="sxs-lookup"><span data-stu-id="6f656-109">You can also use disposition codes to indicate whether additional action is required for the transaction.</span></span> <span data-ttu-id="6f656-110">Por ejemplo, cree códigos de disposición de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="6f656-110">For example, create disposition codes for the following actions:</span></span>
+<span data-ttu-id="57152-107">Asigne un código de disposición cuando se recibe un artículo o durante la inspección física del artículo devuelto.</span><span class="sxs-lookup"><span data-stu-id="57152-107">Assign a disposition code when an item is received or during the physical inspection of a returned item.</span></span> <span data-ttu-id="57152-108">Puede usar códigos de disposición para describir la condición del artículo.</span><span class="sxs-lookup"><span data-stu-id="57152-108">You can use disposition codes to describe the condition of the item.</span></span> <span data-ttu-id="57152-109">También puede usar códigos de disposición para indicar si es necesario realizar una acción adicional para la transacción.</span><span class="sxs-lookup"><span data-stu-id="57152-109">You can also use disposition codes to indicate whether additional action is required for the transaction.</span></span> <span data-ttu-id="57152-110">Por ejemplo, cree códigos de disposición de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="57152-110">For example, create disposition codes for the following actions:</span></span>
 
-  - <span data-ttu-id="6f656-111">Desechar del artículo devuelto y ofrecer un artículo de sustitución al cliente.</span><span class="sxs-lookup"><span data-stu-id="6f656-111">Scrap the returned item and provide a replacement item to the customer.</span></span>
+  - <span data-ttu-id="57152-111">Desechar del artículo devuelto y ofrecer un artículo de sustitución al cliente.</span><span class="sxs-lookup"><span data-stu-id="57152-111">Scrap the returned item and provide a replacement item to the customer.</span></span>
 
-  - <span data-ttu-id="6f656-112">Devolver el artículo al inventario y abonar al cliente el coste del artículo.</span><span class="sxs-lookup"><span data-stu-id="6f656-112">Return the item to inventory and credit the customer for the cost of the item.</span></span>
+  - <span data-ttu-id="57152-112">Devolver el artículo al inventario y abonar al cliente el coste del artículo.</span><span class="sxs-lookup"><span data-stu-id="57152-112">Return the item to inventory and credit the customer for the cost of the item.</span></span>
 
-  - <span data-ttu-id="6f656-113">Reparar el artículo y devolverlo al cliente.</span><span class="sxs-lookup"><span data-stu-id="6f656-113">Repair the item and return it to the customer.</span></span>
+  - <span data-ttu-id="57152-113">Reparar el artículo y devolverlo al cliente.</span><span class="sxs-lookup"><span data-stu-id="57152-113">Repair the item and return it to the customer.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6f656-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="6f656-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="57152-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="57152-114">See also</span></span>
 
-[<span data-ttu-id="6f656-115">Configuración de códigos de motivo</span><span class="sxs-lookup"><span data-stu-id="6f656-115">Set up return reason codes</span></span>](set-up-return-reason-code.md)
+[<span data-ttu-id="57152-115">Configuración de códigos de motivo</span><span class="sxs-lookup"><span data-stu-id="57152-115">Set up return reason codes</span></span>](set-up-return-reason-code.md)
 
-[<span data-ttu-id="6f656-116">Configurar códigos de disposición</span><span class="sxs-lookup"><span data-stu-id="6f656-116">Set up disposition codes</span></span>](set-up-disposition-codes.md)
+[<span data-ttu-id="57152-116">Configurar códigos de disposición</span><span class="sxs-lookup"><span data-stu-id="57152-116">Set up disposition codes</span></span>](set-up-disposition-codes.md)
 
 
 
@@ -53,3 +53,6 @@ ms.locfileid: "4996585"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
