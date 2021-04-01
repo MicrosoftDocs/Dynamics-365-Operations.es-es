@@ -1,6 +1,6 @@
 ---
 title: Habilitar recomendaciones de "comprar descripción similar"
-description: Este tema describe cómo habilitar las recomendaciones de productos "comprar descripción similar" en Microsoft Dynamics 365 Commerce.
+description: Este tema describe cómo habilitar las recomendaciones de productos "comprar por descripción similar" en Microsoft Dynamics 365 Commerce.
 author: bsokolov
 manager: AnnBe
 ms.date: 01/13/2021
@@ -18,18 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b3b7abf47a3bdacaa4b91ae32b68a809a84b0b1d
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: b6b397b1f21e3dfcdb4a2b7fe67ddb541d090a97
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098648"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234398"
 ---
-# <a name="enable-shop-similar-description-recommendations"></a>Habilitar recomendaciones de "comprar descripción similar"
+# <a name="enable-shop-similar-description-recommendations"></a>Habilitar recomendaciones de "comprar similar a la descripción"
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo habilitar las recomendaciones de productos "comprar descripción similar" en Microsoft Dynamics 365 Commerce.
+Este tema describe cómo habilitar las recomendaciones de productos "comprar por descripción similar" en Microsoft Dynamics 365 Commerce.
 
 La característica de recomendaciones "comprar descripción similar" de Dynamics 365 Commerce aprovecha la eficacia de la inteligencia artificial y el aprendizaje automático (AI-ML) para ofrecer a los clientes recomendaciones de productos visualmente similares. Al hacer que las recomendaciones de "comprar descripción similar" estén disponibles para todos los canales minoristas en Commerce, los minoristas pueden aumentar la satisfacción del cliente al ayudarle a encontrar fácilmente lo que busca.
 
@@ -87,7 +87,7 @@ La siguiente ilustración muestra la casilla **Habilitar vínculo para comprar d
 
 [Visión general de recomendaciones de producto](product-recommendations.md)
 
-[Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce](enable-adls-environment.md)
+[Habilitar Azure Data Lake Storage en un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Habilitar recomendaciones de producto](enable-product-recommendations.md)
 

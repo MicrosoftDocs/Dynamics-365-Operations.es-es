@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea89d54f1ce3a1e971d41623bf44f909f7dfdf09
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 7072c34ccbffc6bf135f55fd594cac4d9ea5a463
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237525"
 ---
 # <a name="asset-leasing-conventions"></a>Convenciones de arrendamiento de activos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 En este tema se describen las convenciones de los activos arrendados. Las convenciones de arrendamiento se utilizan para determinar la fecha de inicio de un libro de arrendamiento. Si la convención de arrendamiento se establece en **Ninguna**, la fecha de inicio es la misma que la fecha de inicio del arrendamiento (es decir, el valor del campo **Fecha de inicio del arrendamiento**). Si la convención de arrendamiento se establece en **Mes entero**, la fecha de inicio es el primer día del mes en el que cae la fecha de comienzo del arrendamiento.
 

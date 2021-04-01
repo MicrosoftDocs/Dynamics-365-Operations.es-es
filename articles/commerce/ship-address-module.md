@@ -3,7 +3,7 @@ title: Módulo de dirección de envío
 description: En este tema se trata el modulo de dirección de envío y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6a5eb69c7746be419779b1a844ee35ec375a324c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e590c966ca6bd8111df5f91cbac0485afaa45c78
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234422"
 ---
 # <a name="shipping-address-module"></a>Módulo de dirección de envío
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe el modulo de dirección de envío y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 El módulo de dirección de envío permite a los clientes agregar o seleccionar la dirección de envío para un pedido durante el flujo de finalización de compra. Si un cliente inicia sesión, se muestran las direcciones que se guardaron anteriormente para ese cliente, de forma que las pueda seleccionar. El cliente también puede agregar una dirección nueva. El módulo de dirección de envío se usa para todos los artículos de un pedido que requieren envío.
 
@@ -49,6 +47,8 @@ La siguiente ilustración muestra un ejemplo de un nuevo módulo de dirección d
 |---------------|--------|-------------|
 | Cabecera | Texto de encabezado y etiqueta de encabezado (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Un encabezado opcional para el módulo de dirección de envío. |
 | Mostrar tipo de dirección | **Verdadero** o **Falso** | Si esta propiedad opcional se establece en **Verdadero**, se mostrará un tipo de dirección, como **Domicilio** o **Empresa**. Si no se especifica ningún tipo de dirección, la dirección se guardará automáticamente como de **Tipo**=**Otro**. |
+| Habilitar la sugerencia automática| **Verdadero** o **Falso** | Si esta propiedad opcional se establece en **Verdadero**, se proporcionarán sugerencias de direcciones automáticas. Estas sugerencias llevan tecnología de Bing Maps. Para obtener información sobre cómo configurar la integración de Bing Maps para su sitio, consulte [Módulo selector de tienda](store-selector.md). Esta característica está disponible en la versión 10.0.15 de Commerce.|
+|Opciones de sugerencias automáticas| Un número| Si las sugerencias de direcciones automáticas están habilitadas, puede especificar opciones adicionales, como el número máximo de sugerencias que se deben proporcionar.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Agregar un módulo de dirección de envío a una página de finalización de compra y establecer las propiedades necesarias
 
@@ -71,6 +71,8 @@ Un módulo de dirección de envío solo se puede agregar a un módulo de finaliz
 [Módulo de detalles del pedido](order-confirmation-module.md)
 
 [Módulo de tarjeta de regalo](add-giftcard.md)
+
+[Módulo de selector de tienda](store-selector.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

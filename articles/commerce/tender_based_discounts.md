@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 9f6747ff9d68c29612346254928e869d6d34d433
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 98631d8f9fb2c05621f69fa67c9b60472198ee6b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962944"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232576"
 ---
 # <a name="tender-based-discounts"></a>Descuentos basados en forma de pago
 
@@ -34,7 +34,7 @@ Es un una práctica común entre minoristas emitir tarjetas de crédito con marc
 
 Como alternativa, los minoristas que no proporcionan tarjetas de crédito de la marca pueden estar interesados en animar a los clientes a pagar con otros tipos de forma de pago, como efectivo, tarjetas regalo, o puntos de fidelidad. De esta manera, ayudan reducir el gasto de tarifas de tramitación de la tarjeta de crédito. Por lo tanto, los minoristas pueden proporcionar descuentos a los clientes que usan estos tipos de forma de pago alternativos.
 
-En Microsoft Dynamics 365 Commerce 365, los minoristas pueden configurar un porcentaje de descuento que se aplica a las líneas elegibles si el cliente paga mediante el tipo de forma de pago preferido. El cliente podrá decidir si desea hacer un pago parcial o un pago completo, y Commerce determina el importe de descuento adecuado. Tenga en cuenta que el descuento siempre se da sobre el importe de antes de impuestos de los artículos elegibles.
+En Microsoft Dynamics 365 Commerce, los minoristas pueden configurar un porcentaje de descuento que se aplica a las líneas elegibles si el cliente paga mediante el tipo de forma de pago preferido. El cliente podrá decidir si desea hacer un pago parcial o un pago completo, y Commerce determina el importe de descuento adecuado. Tenga en cuenta que el descuento siempre se da sobre el importe de antes de impuestos de los artículos elegibles.
 
 Los descuentos basados en la forma de pago no compiten con los descuentos basados en artículos, como los descuentos periódicos o manuales. Se componen siempre sobre los descuentos de artículos. Por lo tanto, incluso si un descuento periódico exclusivo se aplica a un artículo, el descuento basado en la forma de pago se seguirá aplicando encima del descuento periódico exclusivo. Del mismo modo, si un descuento de umbral se aplica a la transacción, y el descuento basado en la forma de pago reduce el total por debajo del umbral, el descuento de umbral se seguirá aplicando a la transacción.
 
