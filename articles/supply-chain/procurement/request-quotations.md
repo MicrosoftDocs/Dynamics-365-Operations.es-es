@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016940"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237385"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visión general de las solicitudes de presupuesto
 
@@ -80,23 +80,23 @@ En la página **Parámetros de adquisición y abastecimiento**, seleccione la pl
 - %Motivo para devolver la propuesta%
 - %Motivo de la enmienda%
 - %Enmienda preparada por%
-- %Empresa%
+- %Company%
 - %Nombre del caso de solicitud de presupuesto%
 - %Hora y fecha de caducidad%
-- %Fecha%
+- %Date%
 
-Los tokens %Motivo para devolver la propuesta% y %Motivo de la enmienda% se sustituirán por el texto que el profesional de compras especifique al completar la modificación en el asistente de **Enmienda**. Los valores de los tokens %Enmienda preparada por% y %Empresa% se toman automáticamente de la solicitud de presupuesto. El token %Fecha% se reemplaza por la fecha actual.
+Los tokens %Motivo para devolver la propuesta% y %Motivo de la enmienda% se sustituirán por el texto que el profesional de compras especifique al completar la modificación en el asistente de **Enmienda**. Los valores de los tokens %Amendment prepared by% y %Company% se toman automáticamente de la solicitud de presupuesto. El token %Date% se reemplaza por la fecha actual.
 
 Si desea cancelar una solicitud de presupuesto una vez que se haya enviado, puede hacerlo desde el caso de solicitud de presupuesto. Para la cancelación, hace falta una plantilla de correo electrónico para enviar la notificación de cancelación a las personas de contacto del proveedor. La plantilla se debe seleccionar en la página **Parámetros de la adquisición y abastecimiento**. Cuando se crea la plantilla, puede contener los tokens de sustitución siguientes:
 
 - %Motivo de la cancelación%
 - %Caso de solicitud de presupuesto%
 - %Solicitud de presupuesto cancelada por%
-- %Empresa%
+- %Company%
 - %Nombre del caso de solicitud de presupuesto%
-- %Fecha%
+- %Date%
 
-El token de %Motivo de la cancelación% se sustituye por el texto que el profesional de compras especifique en el asistente de **Cancelación**. El token %Fecha% se reemplaza por la fecha actual.
+El token de %Motivo de la cancelación% se sustituye por el texto que el profesional de compras especifique en el asistente de **Cancelación**. El token %Date% se reemplaza por la fecha actual.
 
 Si desea usar códigos de motivo en una oferta para indicar por qué se ha rechazado o aceptado, debe configurar códigos de motivo en la página **Motivos de proveedor**.
 
