@@ -17,36 +17,39 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b926c429305e278b4873fec72f2eadaab00d78e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9cca5fee45635f9b752d97f1ca9d0b1fbc1453e3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249224"
 ---
-# <a name="general-ledger-account-balances"></a><span data-ttu-id="b2de3-104">Saldos de cuentas de contabilidad</span><span class="sxs-lookup"><span data-stu-id="b2de3-104">General ledger account balances</span></span>
+# <a name="general-ledger-account-balances"></a><span data-ttu-id="6e7e0-104">Saldos de cuentas de contabilidad</span><span class="sxs-lookup"><span data-stu-id="6e7e0-104">General ledger account balances</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b2de3-105">En este artículo se explican dos formas de ver los saldos de la cuenta de contabilidad general: la página de lista Saldo de comprobación y los informes financieros.</span><span class="sxs-lookup"><span data-stu-id="b2de3-105">This article explains two ways to view general ledger account balances -  the Trial balance list page and financial reports.</span></span> <span data-ttu-id="b2de3-106">También se describe cómo actualizar los saldos del conjunto de dimensiones.</span><span class="sxs-lookup"><span data-stu-id="b2de3-106">It also discusses how to update dimension set balances.</span></span>
+<span data-ttu-id="6e7e0-105">En este artículo se explican dos formas de ver los saldos de la cuenta de contabilidad general: la página de lista Saldo de comprobación y los informes financieros.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-105">This article explains two ways to view general ledger account balances -  the Trial balance list page and financial reports.</span></span> <span data-ttu-id="6e7e0-106">También se describe cómo actualizar los saldos del conjunto de dimensiones.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-106">It also discusses how to update dimension set balances.</span></span>
 
-<span data-ttu-id="b2de3-107">Hay varias maneras en que los usuarios pueden ver saldos en la contabilidad general.</span><span class="sxs-lookup"><span data-stu-id="b2de3-107">There are a variety of ways users can view balances in the general ledger.</span></span> <span data-ttu-id="b2de3-108">Algunas de las opciones más comunes son:</span><span class="sxs-lookup"><span data-stu-id="b2de3-108">Some of the most common options are:</span></span>
+<span data-ttu-id="6e7e0-107">Hay varias maneras en que los usuarios pueden ver saldos en la contabilidad general.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-107">There are a variety of ways users can view balances in the general ledger.</span></span> <span data-ttu-id="6e7e0-108">Algunas de las opciones más comunes son:</span><span class="sxs-lookup"><span data-stu-id="6e7e0-108">Some of the most common options are:</span></span>
 
--   <span data-ttu-id="b2de3-109">Saldo de comprobación</span><span class="sxs-lookup"><span data-stu-id="b2de3-109">Trial balance</span></span>
--   <span data-ttu-id="b2de3-110">Informes financieros</span><span class="sxs-lookup"><span data-stu-id="b2de3-110">Financial reports</span></span>
--   <span data-ttu-id="b2de3-111">Transacciones de asiento</span><span class="sxs-lookup"><span data-stu-id="b2de3-111">Voucher transactions</span></span>
--   <span data-ttu-id="b2de3-112">Informes de contabilidad</span><span class="sxs-lookup"><span data-stu-id="b2de3-112">Ledger reports</span></span>
+-   <span data-ttu-id="6e7e0-109">Saldo de comprobación</span><span class="sxs-lookup"><span data-stu-id="6e7e0-109">Trial balance</span></span>
+-   <span data-ttu-id="6e7e0-110">Informes financieros</span><span class="sxs-lookup"><span data-stu-id="6e7e0-110">Financial reports</span></span>
+-   <span data-ttu-id="6e7e0-111">Transacciones de asiento</span><span class="sxs-lookup"><span data-stu-id="6e7e0-111">Voucher transactions</span></span>
+-   <span data-ttu-id="6e7e0-112">Informes de contabilidad</span><span class="sxs-lookup"><span data-stu-id="6e7e0-112">Ledger reports</span></span>
 
-<span data-ttu-id="b2de3-113">Las maneras más comunes son la página de lista de saldo de comprobación y los informes financieros.</span><span class="sxs-lookup"><span data-stu-id="b2de3-113">The most common ways are the trial balance list page and financial reports.</span></span>
+<span data-ttu-id="6e7e0-113">Las maneras más comunes son la página de lista de saldo de comprobación y los informes financieros.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-113">The most common ways are the trial balance list page and financial reports.</span></span>
 
-## <a name="trial-balance"></a><span data-ttu-id="b2de3-114">Saldo de comprobación</span><span class="sxs-lookup"><span data-stu-id="b2de3-114">Trial balance</span></span>
-<span data-ttu-id="b2de3-115">El saldo de comprobación es una página de lista que muestra todos los saldos de una cuenta y/o las dimensiones para un período de tiempo determinado.</span><span class="sxs-lookup"><span data-stu-id="b2de3-115">The trial balance is a list page that shows all of the balances of an account and/or dimensions for a given period of time.</span></span> <span data-ttu-id="b2de3-116">Cuando el saldo de comprobación se abre primero, se actualiza con los saldo para las fechas y las propiedades que se establecen en los parámetros.</span><span class="sxs-lookup"><span data-stu-id="b2de3-116">When the trial balance is first opened it refreshes with the balances for the dates and properties that are set in the Parameters.</span></span> <span data-ttu-id="b2de3-117">Las propiedades que se pueden cambiar en los parámetros son las fechas, la capa de registro, cómo desean que aparezcan los saldos de apertura y qué tipos de transacciones de cierre se van a mostrar.</span><span class="sxs-lookup"><span data-stu-id="b2de3-117">Properties that can be changed in Parameters are the dates, posting layer, how they want opening balances to appear, and what closing transaction types to show.</span></span> 
+## <a name="trial-balance"></a><span data-ttu-id="6e7e0-114">Saldo de comprobación</span><span class="sxs-lookup"><span data-stu-id="6e7e0-114">Trial balance</span></span>
+<span data-ttu-id="6e7e0-115">El saldo de comprobación es una página de lista que muestra todos los saldos de una cuenta y/o las dimensiones para un período de tiempo determinado.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-115">The trial balance is a list page that shows all of the balances of an account and/or dimensions for a given period of time.</span></span> <span data-ttu-id="6e7e0-116">Cuando el saldo de comprobación se abre primero, se actualiza con los saldo para las fechas y las propiedades que se establecen en los parámetros.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-116">When the trial balance is first opened it refreshes with the balances for the dates and properties that are set in the Parameters.</span></span> <span data-ttu-id="6e7e0-117">Las propiedades que se pueden cambiar en los parámetros son las fechas, la capa de registro, cómo desean que aparezcan los saldos de apertura y qué tipos de transacciones de cierre se van a mostrar.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-117">Properties that can be changed in Parameters are the dates, posting layer, how they want opening balances to appear, and what closing transaction types to show.</span></span> 
 
-<span data-ttu-id="b2de3-118">Cuando un usuario cambia los parámetros, se actualizan los saldos.</span><span class="sxs-lookup"><span data-stu-id="b2de3-118">When a user changes the parameters the balances are refreshed.</span></span> <span data-ttu-id="b2de3-119">El usuario también puede seleccionar para qué conjunto de dimensiones desea ver los saldos y si cada una de las dimensiones se muestran en columnas independientes.</span><span class="sxs-lookup"><span data-stu-id="b2de3-119">The user can also pick what dimension set they want to view balances for and whether each of the dimensions show in separate columns.</span></span> 
+<span data-ttu-id="6e7e0-118">Cuando un usuario cambia los parámetros, se actualizan los saldos.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-118">When a user changes the parameters the balances are refreshed.</span></span> <span data-ttu-id="6e7e0-119">El usuario también puede seleccionar para qué conjunto de dimensiones desea ver los saldos y si cada una de las dimensiones se muestran en columnas independientes.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-119">The user can also pick what dimension set they want to view balances for and whether each of the dimensions show in separate columns.</span></span> 
 
-<span data-ttu-id="b2de3-120">Los usuarios pueden explorar en profundidad los saldos para ver las transacciones que componen el saldo.</span><span class="sxs-lookup"><span data-stu-id="b2de3-120">Users can drill down on the balances to view the transactions that make up the balance.</span></span>    
+<span data-ttu-id="6e7e0-120">Los usuarios pueden explorar en profundidad los saldos para ver las transacciones que componen el saldo.</span><span class="sxs-lookup"><span data-stu-id="6e7e0-120">Users can drill down on the balances to view the transactions that make up the balance.</span></span>    
 
-<span data-ttu-id="b2de3-121">Para obtener más información, consulte [Ver informes financieros](view-financial-reports.md).</span><span class="sxs-lookup"><span data-stu-id="b2de3-121">For more information, see [View financial reports](view-financial-reports.md).</span></span>
+<span data-ttu-id="6e7e0-121">Para obtener más información, consulte [Ver informes financieros](view-financial-reports.md).</span><span class="sxs-lookup"><span data-stu-id="6e7e0-121">For more information, see [View financial reports](view-financial-reports.md).</span></span>
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
