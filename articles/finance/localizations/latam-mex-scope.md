@@ -15,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e41406648310d1e892f58918ff65ea57c0c24a1
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 38025f3e6cd1a1951fdd63a569004c02c9c68755
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154137"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254407"
 ---
 # <a name="scope-of-mexican-localization"></a>Ámbito de localización mexicana
 
