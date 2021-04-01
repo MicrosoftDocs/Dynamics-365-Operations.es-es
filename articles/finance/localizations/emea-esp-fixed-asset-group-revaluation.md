@@ -16,12 +16,12 @@ ms.search.region: Spain
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 545ede82344d683ab0508913daf9c030bdd178ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f379df64af94a5343062e35750166a52724febf4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992741"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258167"
 ---
 # <a name="fixed-asset-revaluation-groups"></a>Grupos de revalorización de activos fijos
 
