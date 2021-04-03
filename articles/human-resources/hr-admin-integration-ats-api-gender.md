@@ -16,29 +16,34 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bfc43cb4efcd4eceed29e151bae9496a8d6c5323
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 4df8d83058c559728b59b9d16bd34218d2c7d284
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125626"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464065"
 ---
-# <a name="gender"></a><span data-ttu-id="2f986-103">Género</span><span class="sxs-lookup"><span data-stu-id="2f986-103">Gender</span></span>
+# <a name="gender"></a><span data-ttu-id="2e5ba-103">Género</span><span class="sxs-lookup"><span data-stu-id="2e5ba-103">Gender</span></span>
 
-<span data-ttu-id="2f986-104">Este tema describe el conjunto de opciones de sexo para Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="2f986-104">This topic describes the Gender option set for Dynamics 365 Human Resources.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="2f986-105">Nombre físico: mshr_hcmpersongender</span><span class="sxs-lookup"><span data-stu-id="2f986-105">Physical name: mshr_hcmpersongender</span></span>
+<span data-ttu-id="2e5ba-104">Este tema describe el conjunto de opciones de sexo para Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="2e5ba-104">This topic describes the Gender option set for Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="2f986-106">Esta enumeración proporciona el conjunto de opciones de sexo del candidato.</span><span class="sxs-lookup"><span data-stu-id="2f986-106">This enumeration provides the option set of genders for the candidate.</span></span> <span data-ttu-id="2f986-107">Está disponible en el conjunto de opciones mshr_hcmpersongender.</span><span class="sxs-lookup"><span data-stu-id="2f986-107">This is available in the mshr_hcmpersongender option set.</span></span>
+<span data-ttu-id="2e5ba-105">Nombre físico: mshr_hcmpersongender</span><span class="sxs-lookup"><span data-stu-id="2e5ba-105">Physical name: mshr_hcmpersongender</span></span>
 
-| <span data-ttu-id="2f986-108">Valor</span><span class="sxs-lookup"><span data-stu-id="2f986-108">Value</span></span> | <span data-ttu-id="2f986-109">Etiqueta</span><span class="sxs-lookup"><span data-stu-id="2f986-109">Label</span></span> | <span data-ttu-id="2f986-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="2f986-110">Description</span></span> |
+<span data-ttu-id="2e5ba-106">Esta enumeración proporciona el conjunto de opciones de sexo del candidato.</span><span class="sxs-lookup"><span data-stu-id="2e5ba-106">This enumeration provides the option set of genders for the candidate.</span></span> <span data-ttu-id="2e5ba-107">Está disponible en el conjunto de opciones mshr_hcmpersongender.</span><span class="sxs-lookup"><span data-stu-id="2e5ba-107">This is available in the mshr_hcmpersongender option set.</span></span>
+
+| <span data-ttu-id="2e5ba-108">Valor</span><span class="sxs-lookup"><span data-stu-id="2e5ba-108">Value</span></span> | <span data-ttu-id="2e5ba-109">Etiqueta</span><span class="sxs-lookup"><span data-stu-id="2e5ba-109">Label</span></span> | <span data-ttu-id="2e5ba-110">Descripción</span><span class="sxs-lookup"><span data-stu-id="2e5ba-110">Description</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="2f986-111">200000000</span><span class="sxs-lookup"><span data-stu-id="2f986-111">200000000</span></span> | <span data-ttu-id="2f986-112">None</span><span class="sxs-lookup"><span data-stu-id="2f986-112">None</span></span> | <span data-ttu-id="2f986-113">No se ha especificado ningún sexo.</span><span class="sxs-lookup"><span data-stu-id="2f986-113">No gender has been specified.</span></span> |
-| <span data-ttu-id="2f986-114">200000001</span><span class="sxs-lookup"><span data-stu-id="2f986-114">200000001</span></span> | <span data-ttu-id="2f986-115">Hombre</span><span class="sxs-lookup"><span data-stu-id="2f986-115">Male</span></span> | <span data-ttu-id="2f986-116">Hombre.</span><span class="sxs-lookup"><span data-stu-id="2f986-116">Male.</span></span> |
-| <span data-ttu-id="2f986-117">200000002</span><span class="sxs-lookup"><span data-stu-id="2f986-117">200000002</span></span> | <span data-ttu-id="2f986-118">Mujer</span><span class="sxs-lookup"><span data-stu-id="2f986-118">Female</span></span> | <span data-ttu-id="2f986-119">Mujer.</span><span class="sxs-lookup"><span data-stu-id="2f986-119">Female.</span></span> |
-| <span data-ttu-id="2f986-120">200000003</span><span class="sxs-lookup"><span data-stu-id="2f986-120">200000003</span></span> | <span data-ttu-id="2f986-121">NonSpecific</span><span class="sxs-lookup"><span data-stu-id="2f986-121">NonSpecific</span></span> | <span data-ttu-id="2f986-122">Selección para un género no específico.</span><span class="sxs-lookup"><span data-stu-id="2f986-122">Selection for a non-specific gender.</span></span> |
+| <span data-ttu-id="2e5ba-111">200000000</span><span class="sxs-lookup"><span data-stu-id="2e5ba-111">200000000</span></span> | <span data-ttu-id="2e5ba-112">None</span><span class="sxs-lookup"><span data-stu-id="2e5ba-112">None</span></span> | <span data-ttu-id="2e5ba-113">No se ha especificado ningún sexo.</span><span class="sxs-lookup"><span data-stu-id="2e5ba-113">No gender has been specified.</span></span> |
+| <span data-ttu-id="2e5ba-114">200000001</span><span class="sxs-lookup"><span data-stu-id="2e5ba-114">200000001</span></span> | <span data-ttu-id="2e5ba-115">Hombre</span><span class="sxs-lookup"><span data-stu-id="2e5ba-115">Male</span></span> | <span data-ttu-id="2e5ba-116">Hombre.</span><span class="sxs-lookup"><span data-stu-id="2e5ba-116">Male.</span></span> |
+| <span data-ttu-id="2e5ba-117">200000002</span><span class="sxs-lookup"><span data-stu-id="2e5ba-117">200000002</span></span> | <span data-ttu-id="2e5ba-118">Mujer</span><span class="sxs-lookup"><span data-stu-id="2e5ba-118">Female</span></span> | <span data-ttu-id="2e5ba-119">Mujer.</span><span class="sxs-lookup"><span data-stu-id="2e5ba-119">Female.</span></span> |
+| <span data-ttu-id="2e5ba-120">200000003</span><span class="sxs-lookup"><span data-stu-id="2e5ba-120">200000003</span></span> | <span data-ttu-id="2e5ba-121">NonSpecific</span><span class="sxs-lookup"><span data-stu-id="2e5ba-121">NonSpecific</span></span> | <span data-ttu-id="2e5ba-122">Selección para un género no específico.</span><span class="sxs-lookup"><span data-stu-id="2e5ba-122">Selection for a non-specific gender.</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="2f986-123">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2f986-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2e5ba-123">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2e5ba-123">See also</span></span>
 
-[<span data-ttu-id="2f986-124">Introducción a la API de integración del sistema de seguimiento de candidatos</span><span class="sxs-lookup"><span data-stu-id="2f986-124">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
-[<span data-ttu-id="2f986-125">Consulta de ejemplo para candidato a contratar</span><span class="sxs-lookup"><span data-stu-id="2f986-125">Example query for Candidate to hire</span></span>](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
+[<span data-ttu-id="2e5ba-124">Introducción a la API de integración del sistema de seguimiento de candidatos</span><span class="sxs-lookup"><span data-stu-id="2e5ba-124">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="2e5ba-125">Consulta de ejemplo para candidato a contratar</span><span class="sxs-lookup"><span data-stu-id="2e5ba-125">Example query for Candidate to hire</span></span>](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
