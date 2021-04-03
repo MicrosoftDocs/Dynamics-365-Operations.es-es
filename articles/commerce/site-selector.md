@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ed00836c435bd391e5edef1f6a99889c80f45211
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e24590d4a8f172809704aab0d761f6db0fb0e11b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985595"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234350"
 ---
-# <a name="site-selector-module"></a>Módulo selector de sitio
+# <a name="site-selector-module"></a>Módulo de selector de sitios
 
 [!include [banner](includes/banner.md)]
 
 En este tema se trata el modulo selector de sitio y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Cuando una empresa tiene diferentes sitios en mercados, regiones y locales, los usuarios del sitio necesitan una forma fácil de cambiar entre sitios y seleccionar su sitio de compras preferido. Para hacer posible este escenario, el módulo selector de sitio permite a los usuarios navegar en varios sitios.
 

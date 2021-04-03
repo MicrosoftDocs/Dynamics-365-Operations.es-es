@@ -16,12 +16,12 @@ ms.search.region: Spain
 ms.author: v-lenest
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f972c1d787fb1fc23036faba3cba11a88516bb37
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 80f5e246c7f6dd9bb2c85919fd756cdafd1bc757
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251105"
 ---
 # <a name="print-checks-by-using-the-spanish-layout"></a>Imprimir cheques con diseño español
 

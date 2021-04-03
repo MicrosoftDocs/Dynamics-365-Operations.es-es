@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 701e18950ccad3bf3621d148daaf6046f4b76b77
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 5234caf2228d7416fcd609939bcee347f12a6b96
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125674"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464775"
 ---
 # <a name="contact-type"></a>Tipo de contacto
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tema describe el conjunto de opciones de tipo de contacto para Dynamics 365 Human Resources.
 

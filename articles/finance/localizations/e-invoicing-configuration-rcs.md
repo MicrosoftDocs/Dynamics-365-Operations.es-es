@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104436"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592631"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Configurar el complemento de facturación electrónica en Regulatory Configuration Services (RCS)
 
@@ -64,7 +64,6 @@ La siguiente tabla muestra las características de facturación electrónica que
 | Bélgica        | Factura electrónica para Bélgica (BE)      | Facturas de ventas y facturas de proyectos |
 | Brasil         | NF-e brasileño (BR)                  | Modelo de documento fiscal 55, cartas de corrección, cancelaciones y descartes |
 | Brasil         | NFS-e brasileño ABRASF Curitiba (BR) | Documentos fiscales de servicios |
-| Brasil         | NFS-e brasileño São Paulo (BR)       | Documentos fiscales de servicios |
 | Dinamarca        | Factura electrónica para Dinamarca (DK)       | Facturas de ventas y facturas de proyectos |
 | Egipto          | Factura electrónica egipcia (EG) | Facturas de ventas y facturas de proyectos |
 | Estonia        | Factura electrónica para Estonia (EE)     | Facturas de ventas y facturas de proyectos |
@@ -119,10 +118,6 @@ Las siguientes listas muestran las configuraciones de formato ER que están disp
 
 - NFS-e ABRASF Curitiba (BR)
 - Consulta NFS-e ABRASF Curitiba (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>NFS-e brasileño (BR): NFS-e Ciudad de São Paulo
-
-- NFS-e São Paulo (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Factura electrónica danesa (DK): facturas de ventas y proyectos para Dinamarca
 
@@ -210,7 +205,7 @@ La siguiente tabla enumera las acciones disponibles y si están actualmente disp
 | Llamar al servicio SEFAZ brasileño                  | Intégrese con el servicio SEFAZ brasileño para el envío de documentos fiscales.       | En vista previa           |
 | Llamar al servicio PAC mexicano                      | Intégrese con el servicio PAC mexicano para el envío de CFDI.                      | En vista previa           |
 | Respuesta de proceso                              | Analice la respuesta recibida desde la llamada del servicio web.                     | Disponibilidad general  |
-| Usar MS Power Automate                         | Intégrese con el flujo incorporado en Microsoft Power Automate.                       | En vista previa           |
+| Usar MS Power Automate                         | Integrar con flujo incorporado en Microsoft Power Automate.                       | En vista previa           |
 
 ## <a name="configuration-providers"></a>Proveedores de configuración
 
