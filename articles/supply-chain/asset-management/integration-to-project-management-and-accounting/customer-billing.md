@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EntAssetWorkOrderProjCostInfoPart
+ms.search.form: ProjProjectContractsListPage, ProjInvoiceTable, ProjProjectsListPage, ProjTable, EntAssetWorkOrderType, EntAssetWorkOrderProjectSetup, EntAssetObjectTable, EntAssetWorkOrderTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 643e59f082949ed51ab61d79648a98b83a7f0b03
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: a93436d101e6201c9d86279ea5b1a37fcc644fd1
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131850"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500463"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Facturar por mantenimiento de activos del cliente
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
 
 La característica *Facturación de órdenes de trabajo* le permite crear, procesar y facturar el trabajo de mantenimiento que se realiza en los activos que poseen sus clientes. Esta característica le permite realizar las tareas siguientes:
 

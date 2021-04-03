@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 78cb1c5a90061af224fcd5933af81b6c5cd7e57d
-ms.sourcegitcommit: 5d62c53d84f2ec27136427acfd4314d055298a7b
+ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5123477"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500703"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Vistas estándar guardadas para Supply Chain Management
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management incluye varias vistas guardadas que puede habilitar y usar según sea necesario. Algunas de estas vistas guardadas estándar están optimizadas y nombradas para una función o tarea específica (por ejemplo, "Control de calidad" o "Recepción"). Otras están optimizadas para que incluyan solo los campos y configuraciones que las estadísticas de uso de Microsoft indican que los clientes usan con mayor frecuencia. Estas vistas guardadas normalmente se denominan vistas *simplificadas*. Este tema describe las vistas guardadas estándar que están disponibles y explica cómo habilitarlas y personalizarlas.
 

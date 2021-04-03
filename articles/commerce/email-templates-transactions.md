@@ -3,7 +3,7 @@ title: Crear plantillas de correo electrónico para eventos transaccionales
 description: Este tema describe cómo crear, cargar y configurar plantillas de correo electrónico para eventos transaccionales en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756e2a64ef4c33c347106968eb6bc79a413c3ff7
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000798"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555254"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Crear plantillas de correo electrónico para eventos transaccionales
 
@@ -39,7 +39,7 @@ Antes de poder asignar un evento transaccional específico a una plantilla de co
 
 Para crear una plantilla de correo electrónico, siga estos pasos:
 
-1. En la central de Commerce, vaya a **Plantillas de correo electrónico de organización**, que está en **Retail y Commerce \> Configuración de central \> Plantillas de correo electrónico de organización** o **Administración de la organización \> Configuración \> Plantillas de correo electrónico de organización**.
+1. En la sede de Commerce, vaya a **Comercio minorista y Commerce \> Configuración de sede \> Plantillas de correo electrónico de organización** o **Administración de la organización \> Configuración \> Plantillas de correo electrónico de organización**.
 1. Seleccione **Nuevo**.
 1. En **General**, configure los siguientes campos:
 
@@ -78,28 +78,29 @@ He aquí un ejemplo.
 
 Los siguientes marcadores de posición recuperan y muestran datos definidos en el nivel de pedido de ventas (en oposición al nivel de línea de ventas).
 
-| Nombre de marcador de posición    | Valor de marcador de posición                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | El nombre del cliente que hizo el pedido.                   |
-| salesid             | El id. de ventas del pedido.                                       |
-| deliveryaddress     | Dirección de entrega de los pedidos enviados.                         |
-| customeraddress     | Dirección del cliente.                                     |
-| deliverydate        | Fecha de entrega.                                               |
-| shipdate            | Fecha de envío.                                                   |
-| modeofdelivery      | Modo de entrega del pedido.                                  |
-| gastos             | Cargos totales del pedido.                                 |
-| impuesto                 | Impuestos totales del pedido.                                     |
-| total               | Importe total del pedido.                                  |
-| ordernetamount      | Importe total del pedido, menos los impuestos totales.             |
-| descuento            | Descuento total del pedido.                                |
-| storename           | Nombre de la tienda en que se hizo el pedido.                |
-| storeaddress        | Dirección de la tienda que hizo el pedido.                  |
-| storeopenfrom       | Hora de apertura de la tienda que hizo el pedido.             |
-| storeopento         | Hora de cierre de la tienda que hizo el pedido.             |
-| pickupstorename     | Nombre de la tienda en la que se recogerá el pedido.         |
-| pickupstoreaddress  | Dirección de la tienda en la que se recogerá el pedido.      |
-| pickupopenstorefrom | Hora de apertura de la tienda en la que se recogerá el pedido. |
-| pickupopenstoreto   | Hora de cierre de la tienda en la que se recogerá el pedido. |
+| Nombre de marcador de posición     | Valor de marcador de posición                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | El nombre del cliente que hizo el pedido.               |
+| salesid              | El id. de ventas del pedido.                                   |
+| deliveryaddress      | Dirección de entrega de los pedidos enviados.                     |
+| customeraddress      | Dirección del cliente.                                 |
+| customeremailaddress | La dirección de correo electrónico que el cliente introdujo al finalizar la compra.     |
+| deliverydate         | Fecha de entrega.                                           |
+| shipdate             | Fecha de envío.                                               |
+| modeofdelivery       | Modo de entrega del pedido.                              |
+| gastos              | Cargos totales del pedido.                             |
+| impuesto                  | Impuestos totales del pedido.                                 |
+| total                | Importe total del pedido.                              |
+| ordernetamount       | Importe total del pedido, menos los impuestos totales.         |
+| descuento             | Descuento total del pedido.                            |
+| storename            | Nombre de la tienda en que se hizo el pedido.            |
+| storeaddress         | Dirección de la tienda que hizo el pedido.              |
+| storeopenfrom        | Hora de apertura de la tienda que hizo el pedido.         |
+| storeopento          | Hora de cierre de la tienda que hizo el pedido.         |
+| pickupstorename      | Nombre de la tienda en la que se recogerá el pedido.     |
+| pickupstoreaddress   | Dirección de la tienda en la que se recogerá el pedido.  |
+| pickupopenstorefrom  | Hora de apertura de la tienda en la que se recogerá el pedido. |
+| pickupopenstoreto    | Hora de cierre de la tienda en la que se recogerá el pedido. |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Marcadores de posición de línea (nivel de línea de ventas)
 
@@ -169,11 +170,8 @@ He aquí un ejemplo.
 
 Los recibos pueden enviarse por correo electrónico a los clientes que realizan compras en un punto de venta (POS) minorista. En general, los pasos para crear la plantilla de recibo enviado por correo electrónico son los mismos que los pasos para crear plantillas para otros eventos transaccionales. Sin embargo, se requieren los siguientes cambios:
 
-- El id. de correo electrónico de la plantilla de correo electrónico debe ser **emailRecpt**.
-- El texto del recibo se inserta en el correo electrónico utilizando el marcador de posición **%message%**. Para asegurarse de que el cuerpo del recibo se representa correctamente, rodee el marcador de posición **%message%** con etiquetas HTML **&lt;pre&gt;** y **&lt;/pre&gt;**.
-- Los saltos de línea en el HTML para el encabezado y pie de página del correo electrónico se convierten a etiquetas HTML **&lt;br /&gt;**, para que el cuerpo del recibo se represente correctamente. Para eliminar el espacio vertical no deseado en sus correos electrónicos de recibo, elimine los saltos de línea de cualquier lugar del HTML donde no se requiera espacio vertical.
-
-Para obtener más información sobre cómo configurar recibos de correo electrónico, consulte [Configurar recibos de correo electrónico](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- El texto del recibo se inserta en el correo electrónico utilizando el marcador de posición **%message%**. Para asegurarse de que el cuerpo del recibo se representa correctamente, rodee el marcador de posición **%message%** con las etiquetas HTML **&lt;pre&gt;** y **&lt;/pre&gt;**.
+- El marcador de posició **%receiptid%** se puede utilizar para mostrar un código QR o un código de barras que representa el id. del recibo. (Los códigos QR y los códigos de barras son generados dinámicamente y servidos por un servicio de terceros). Para obtener más información sobre cómo mostrar un código QR o un código de barras en un recibo enviado por correo electrónico, consulte [Agregar un código QR o un código de barras a los correos electrónicos transaccionales y de recibos](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>Cargar el HTML del correo electrónico
 

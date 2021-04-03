@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024679"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500607"
 ---
 # <a name="manage-standard-cost-updates"></a>Gestionar actualizaciones de coste estándar
 
@@ -45,6 +45,8 @@ En el ejemplo siguiente se muestra cómo se pueden usar los métodos de una vers
 En este ejemplo se usa una versión de gestión de costes adicional para administrar las actualizaciones del año 2020. Es posible usar más de una versión de gestión de costes adicional como, por ejemplo, una versión independiente para cada lote de actualizaciones. Cuando se usa más de una gestión de costes adicional, la reserva se debe expresar como costes activos, ya que los costes activos abarcan varias versiones de gestión de costes.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Dimensiones financieras de la revalorización de costes estándar.
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 La activación de un nuevo precio estándar normalmente revalorizará el valor de inventario disponible mediante transacciones de revalorización de costos estándar. Por lo general, las dimensiones financieras del artículo se contabilizan en las transacciones. Sin embargo, si desea controlar si se registran las dimensiones financieras y cómo, utilice la [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la función llamada *Opciones de dimensiones financieras predeterminadas para la revalorización del costo estándar de inventario*. Después de habilitar esta función, vaya a **Gestión de costes > Configuración de políticas de contabilidad de inventario > Parámetros** y configure la nueva lista desplegable de **Origen de la dimensión financiera** a uno de los siguientes valores:
 
