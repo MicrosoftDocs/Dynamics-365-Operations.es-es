@@ -16,116 +16,121 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0cd101bfe88ae1acb051ba11a676da66ef6a3db6
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 50be7631ec303171640b7fa9e6d283a198bd1a52
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115471"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465015"
 ---
-# <a name="distribute-questionnaires-using-scheduling"></a><span data-ttu-id="17c37-103">Distribuir cuestionarios mediante la programación</span><span class="sxs-lookup"><span data-stu-id="17c37-103">Distribute questionnaires using scheduling</span></span>
+# <a name="distribute-questionnaires-using-scheduling"></a><span data-ttu-id="d0735-103">Distribuir cuestionarios mediante la programación</span><span class="sxs-lookup"><span data-stu-id="d0735-103">Distribute questionnaires using scheduling</span></span>
 
-<span data-ttu-id="17c37-104">La programación del cuestionario le permite planear y distribuir los cuestionarios a múltiples encuestados.</span><span class="sxs-lookup"><span data-stu-id="17c37-104">Questionnaire scheduling allows you to plan and distribute questionnaires to multiple respondents.</span></span> <span data-ttu-id="17c37-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="17c37-105">The demo data company used to create this procedure is USMF.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="create-a-questionnaire-schedule"></a><span data-ttu-id="17c37-106">Cree una programación del cuestionario</span><span class="sxs-lookup"><span data-stu-id="17c37-106">Create a questionnaire schedule</span></span>
+<span data-ttu-id="d0735-104">La programación del cuestionario le permite planear y distribuir los cuestionarios a múltiples encuestados.</span><span class="sxs-lookup"><span data-stu-id="d0735-104">Questionnaire scheduling allows you to plan and distribute questionnaires to multiple respondents.</span></span> <span data-ttu-id="d0735-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="d0735-105">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="17c37-107">Vaya a Cuestionario > Distribuir > Programaciones de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="17c37-107">Go to Questionnaire > Distribute > Questionnaire schedules.</span></span>
+## <a name="create-a-questionnaire-schedule"></a><span data-ttu-id="d0735-106">Cree una programación del cuestionario</span><span class="sxs-lookup"><span data-stu-id="d0735-106">Create a questionnaire schedule</span></span>
 
-2. <span data-ttu-id="17c37-108">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="17c37-108">Click New.</span></span>
+1. <span data-ttu-id="d0735-107">Vaya a Cuestionario > Distribuir > Programaciones de cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="d0735-107">Go to Questionnaire > Distribute > Questionnaire schedules.</span></span>
 
-3. <span data-ttu-id="17c37-109">En el campo Programación, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="17c37-109">In the Scheduling field, type a value.</span></span>
+2. <span data-ttu-id="d0735-108">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="d0735-108">Click New.</span></span>
 
-4. <span data-ttu-id="17c37-110">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="17c37-110">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="17c37-111">Defina la programación en anónima si las respuestas se debe registrar sin nombres asociados a la respuesta.</span><span class="sxs-lookup"><span data-stu-id="17c37-111">Set the schedule to Anonymous if the responses should be recorded without names associated to the response.</span></span>  
-    * <span data-ttu-id="17c37-112">Permitir resultados anónimos se debe configurar primero en los parámetros de RR. HH.</span><span class="sxs-lookup"><span data-stu-id="17c37-112">Allowing anonymous results must be set up in the HR parameters first.</span></span>  
+3. <span data-ttu-id="d0735-109">En el campo Programación, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d0735-109">In the Scheduling field, type a value.</span></span>
 
-5. <span data-ttu-id="17c37-113">En el campo Tipo, seleccione el tipo de planificación.</span><span class="sxs-lookup"><span data-stu-id="17c37-113">In the Type field, select the planning type.</span></span>  <span data-ttu-id="17c37-114">En este ejemplo utilizaremos el tipo de satisfacción.</span><span class="sxs-lookup"><span data-stu-id="17c37-114">In this example we will use the Satisfaction type.</span></span>
+4. <span data-ttu-id="d0735-110">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d0735-110">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="d0735-111">Defina la programación en anónima si las respuestas se debe registrar sin nombres asociados a la respuesta.</span><span class="sxs-lookup"><span data-stu-id="d0735-111">Set the schedule to Anonymous if the responses should be recorded without names associated to the response.</span></span>  
+    * <span data-ttu-id="d0735-112">Permitir resultados anónimos se debe configurar primero en los parámetros de RR. HH.</span><span class="sxs-lookup"><span data-stu-id="d0735-112">Allowing anonymous results must be set up in the HR parameters first.</span></span>  
 
-6. <span data-ttu-id="17c37-115">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="17c37-115">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="d0735-113">En el campo Tipo, seleccione el tipo de planificación.</span><span class="sxs-lookup"><span data-stu-id="d0735-113">In the Type field, select the planning type.</span></span>  <span data-ttu-id="d0735-114">En este ejemplo utilizaremos el tipo de satisfacción.</span><span class="sxs-lookup"><span data-stu-id="d0735-114">In this example we will use the Satisfaction type.</span></span>
 
-7. <span data-ttu-id="17c37-116">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="17c37-116">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="d0735-115">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="d0735-115">In the list, find and select the desired record.</span></span>
 
-8. <span data-ttu-id="17c37-117">En el campo Fecha, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="17c37-117">In the Date field, enter a date.</span></span>
+7. <span data-ttu-id="d0735-116">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d0735-116">In the list, click the link in the selected row.</span></span>
 
-9. <span data-ttu-id="17c37-118">Expanda la sección Correo electrónico para autoservicio de empleados.</span><span class="sxs-lookup"><span data-stu-id="17c37-118">Expand the Email for employee self service section.</span></span>
+8. <span data-ttu-id="d0735-117">En el campo Fecha, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="d0735-117">In the Date field, enter a date.</span></span>
 
-10. <span data-ttu-id="17c37-119">En el campo Asunto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="17c37-119">In the Subject field, type a value.</span></span>
+9. <span data-ttu-id="d0735-118">Expanda la sección Correo electrónico para autoservicio de empleados.</span><span class="sxs-lookup"><span data-stu-id="d0735-118">Expand the Email for employee self service section.</span></span>
 
-    * <span data-ttu-id="17c37-120">Ejemplo: Cuestionario disponible</span><span class="sxs-lookup"><span data-stu-id="17c37-120">Example: Questionnaire available</span></span>  
+10. <span data-ttu-id="d0735-119">En el campo Asunto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d0735-119">In the Subject field, type a value.</span></span>
 
-11. <span data-ttu-id="17c37-121">Escriba el cuerpo de su mensaje de correo electrónico en el campo Texto.</span><span class="sxs-lookup"><span data-stu-id="17c37-121">In the Text field, type the body of your email message.</span></span> <span data-ttu-id="17c37-122">Tenga en cuenta que la variable se puede utilizar para sustituir los valores del sistema.</span><span class="sxs-lookup"><span data-stu-id="17c37-122">Note, the variable can be used to substitue values in the system.</span></span>
+    * <span data-ttu-id="d0735-120">Ejemplo: Cuestionario disponible</span><span class="sxs-lookup"><span data-stu-id="d0735-120">Example: Questionnaire available</span></span>  
 
-    * <span data-ttu-id="17c37-123">Ejemplo: Estimado/a %P%, inicie sesión en Autoservicio Empleado para completar el cuestionario Estados de salud de los trabajadores.</span><span class="sxs-lookup"><span data-stu-id="17c37-123">Example: Dear %P%, Please log in to Employee Self Service to complete the Workforce Health questionnaire.</span></span>  <span data-ttu-id="17c37-124">Contoso</span><span class="sxs-lookup"><span data-stu-id="17c37-124">Contoso</span></span>  
+11. <span data-ttu-id="d0735-121">Escriba el cuerpo de su mensaje de correo electrónico en el campo Texto.</span><span class="sxs-lookup"><span data-stu-id="d0735-121">In the Text field, type the body of your email message.</span></span> <span data-ttu-id="d0735-122">Tenga en cuenta que la variable se puede utilizar para sustituir los valores del sistema.</span><span class="sxs-lookup"><span data-stu-id="d0735-122">Note, the variable can be used to substitue values in the system.</span></span>
 
-12. <span data-ttu-id="17c37-125">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="17c37-125">Click Save.</span></span>
+    * <span data-ttu-id="d0735-123">Ejemplo: Estimado/a %P%, inicie sesión en Autoservicio Empleado para completar el cuestionario Estados de salud de los trabajadores.</span><span class="sxs-lookup"><span data-stu-id="d0735-123">Example: Dear %P%, Please log in to Employee Self Service to complete the Workforce Health questionnaire.</span></span>  <span data-ttu-id="d0735-124">Contoso</span><span class="sxs-lookup"><span data-stu-id="d0735-124">Contoso</span></span>  
 
-## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a><span data-ttu-id="17c37-126">Use los Detalles de configuración para seleccionar los cuestionarios que se responderán junto con cualquier consulta que se usará para seleccionar encuestados.</span><span class="sxs-lookup"><span data-stu-id="17c37-126">Use the Setup details to select the questionnaire(s) to be answered as well as any queries to use to select respondents.</span></span>
+12. <span data-ttu-id="d0735-125">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="d0735-125">Click Save.</span></span>
 
-1. <span data-ttu-id="17c37-127">Haga clic en Detalles de configuración.</span><span class="sxs-lookup"><span data-stu-id="17c37-127">Click Setup details.</span></span>
+## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a><span data-ttu-id="d0735-126">Use los Detalles de configuración para seleccionar los cuestionarios que se responderán junto con cualquier consulta que se usará para seleccionar encuestados.</span><span class="sxs-lookup"><span data-stu-id="d0735-126">Use the Setup details to select the questionnaire(s) to be answered as well as any queries to use to select respondents.</span></span>
 
-2. <span data-ttu-id="17c37-128">En la lista, seleccione la consulta que desee usar para encontrar encuestados para el cuestionario en el sistema.</span><span class="sxs-lookup"><span data-stu-id="17c37-128">In the list, select a query to use to search the system for respondents for the questionnaire.</span></span>
+1. <span data-ttu-id="d0735-127">Haga clic en Detalles de configuración.</span><span class="sxs-lookup"><span data-stu-id="d0735-127">Click Setup details.</span></span>
 
-    * <span data-ttu-id="17c37-129">Ejemplo: Trabajadores</span><span class="sxs-lookup"><span data-stu-id="17c37-129">Example: Workers</span></span>  
+2. <span data-ttu-id="d0735-128">En la lista, seleccione la consulta que desee usar para encontrar encuestados para el cuestionario en el sistema.</span><span class="sxs-lookup"><span data-stu-id="d0735-128">In the list, select a query to use to search the system for respondents for the questionnaire.</span></span>
 
-3. <span data-ttu-id="17c37-130">Haga clic en Ver o modificar consulta para seleccionar personas específicas o ajustar la consulta para buscar las personas que coinciden con criterios específicos.</span><span class="sxs-lookup"><span data-stu-id="17c37-130">Click View or modify query to select specific people or adjust the query to find people who match specific criteria.</span></span>
+    * <span data-ttu-id="d0735-129">Ejemplo: Trabajadores</span><span class="sxs-lookup"><span data-stu-id="d0735-129">Example: Workers</span></span>  
 
-    * <span data-ttu-id="17c37-131">Tenga en cuenta que todos los encuestados también deben ser usuarios en el sistema.</span><span class="sxs-lookup"><span data-stu-id="17c37-131">Note that all respondents must also be users in the system.</span></span>  
+3. <span data-ttu-id="d0735-130">Haga clic en Ver o modificar consulta para seleccionar personas específicas o ajustar la consulta para buscar las personas que coinciden con criterios específicos.</span><span class="sxs-lookup"><span data-stu-id="d0735-130">Click View or modify query to select specific people or adjust the query to find people who match specific criteria.</span></span>
 
-4. <span data-ttu-id="17c37-132">En la lista, marque la fila por persona.</span><span class="sxs-lookup"><span data-stu-id="17c37-132">In the list, mark the row for Person</span></span>
+    * <span data-ttu-id="d0735-131">Tenga en cuenta que todos los encuestados también deben ser usuarios en el sistema.</span><span class="sxs-lookup"><span data-stu-id="d0735-131">Note that all respondents must also be users in the system.</span></span>  
 
-5. <span data-ttu-id="17c37-133">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="17c37-133">In the Criteria field, enter or select a value.</span></span>
+4. <span data-ttu-id="d0735-132">En la lista, marque la fila por persona.</span><span class="sxs-lookup"><span data-stu-id="d0735-132">In the list, mark the row for Person</span></span>
 
-    * <span data-ttu-id="17c37-134">Seleccione Julia Funderburk</span><span class="sxs-lookup"><span data-stu-id="17c37-134">Select Julia Funderburk</span></span>  
+5. <span data-ttu-id="d0735-133">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d0735-133">In the Criteria field, enter or select a value.</span></span>
 
-6. <span data-ttu-id="17c37-135">Seleccione Julia Funderburk en la lista.</span><span class="sxs-lookup"><span data-stu-id="17c37-135">In the list, select Julia Funderburk</span></span>
+    * <span data-ttu-id="d0735-134">Seleccione Julia Funderburk</span><span class="sxs-lookup"><span data-stu-id="d0735-134">Select Julia Funderburk</span></span>  
 
-7. <span data-ttu-id="17c37-136">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="17c37-136">Click OK.</span></span>
+6. <span data-ttu-id="d0735-135">Seleccione Julia Funderburk en la lista.</span><span class="sxs-lookup"><span data-stu-id="d0735-135">In the list, select Julia Funderburk</span></span>
 
-8. <span data-ttu-id="17c37-137">Haga clic en la ficha Cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="17c37-137">Click the Questionnaires tab.</span></span>
+7. <span data-ttu-id="d0735-136">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d0735-136">Click OK.</span></span>
 
-9. <span data-ttu-id="17c37-138">En el árbol, expanda "el nodo para el tipo de cuestionario de la encuesta de satisfacción".</span><span class="sxs-lookup"><span data-stu-id="17c37-138">In the tree, expand 'the node for the questionnaire type Satisfaction Survey'.</span></span>
+8. <span data-ttu-id="d0735-137">Haga clic en la ficha Cuestionarios.</span><span class="sxs-lookup"><span data-stu-id="d0735-137">Click the Questionnaires tab.</span></span>
 
-10. <span data-ttu-id="17c37-139">En el árbol, compruebe "Evaluación del estado de salud de los trabajadores".</span><span class="sxs-lookup"><span data-stu-id="17c37-139">In the tree, check 'Workforce Health Assessment'.</span></span>
+9. <span data-ttu-id="d0735-138">En el árbol, expanda "el nodo para el tipo de cuestionario de la encuesta de satisfacción".</span><span class="sxs-lookup"><span data-stu-id="d0735-138">In the tree, expand 'the node for the questionnaire type Satisfaction Survey'.</span></span>
 
-11. <span data-ttu-id="17c37-140">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="17c37-140">Click OK.</span></span>
+10. <span data-ttu-id="d0735-139">En el árbol, compruebe "Evaluación del estado de salud de los trabajadores".</span><span class="sxs-lookup"><span data-stu-id="d0735-139">In the tree, check 'Workforce Health Assessment'.</span></span>
 
-12. <span data-ttu-id="17c37-141">Haga clic en Sesión de respuestas planificadas.</span><span class="sxs-lookup"><span data-stu-id="17c37-141">Click Planned answer session.</span></span>
+11. <span data-ttu-id="d0735-140">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d0735-140">Click OK.</span></span>
 
-    * <span data-ttu-id="17c37-142">Tenga en cuenta que se han creado sesiones de respuestas planificadas para cada usuario seleccionado o consultado.</span><span class="sxs-lookup"><span data-stu-id="17c37-142">Note that Planned answer sessions have been created for each selected/queried user.</span></span>  
+12. <span data-ttu-id="d0735-141">Haga clic en Sesión de respuestas planificadas.</span><span class="sxs-lookup"><span data-stu-id="d0735-141">Click Planned answer session.</span></span>
 
-13. <span data-ttu-id="17c37-143">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="17c37-143">Close the page.</span></span>
+    * <span data-ttu-id="d0735-142">Tenga en cuenta que se han creado sesiones de respuestas planificadas para cada usuario seleccionado o consultado.</span><span class="sxs-lookup"><span data-stu-id="d0735-142">Note that Planned answer sessions have been created for each selected/queried user.</span></span>  
 
-## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a><span data-ttu-id="17c37-144">Inicie la programación de cuestionario para que el cuestionario esté disponible para que lo completen los encuestados.</span><span class="sxs-lookup"><span data-stu-id="17c37-144">Start the questionnaire schedule in order to make the questionnaire available for respondents to complete.</span></span>
+13. <span data-ttu-id="d0735-143">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d0735-143">Close the page.</span></span>
 
-1. <span data-ttu-id="17c37-145">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="17c37-145">Click Functions.</span></span>
+## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a><span data-ttu-id="d0735-144">Inicie la programación de cuestionario para que el cuestionario esté disponible para que lo completen los encuestados.</span><span class="sxs-lookup"><span data-stu-id="d0735-144">Start the questionnaire schedule in order to make the questionnaire available for respondents to complete.</span></span>
 
-2. <span data-ttu-id="17c37-146">Haga clic en Inicio.</span><span class="sxs-lookup"><span data-stu-id="17c37-146">Click Start.</span></span>
+1. <span data-ttu-id="d0735-145">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="d0735-145">Click Functions.</span></span>
 
-3. <span data-ttu-id="17c37-147">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="17c37-147">Click OK.</span></span>
+2. <span data-ttu-id="d0735-146">Haga clic en Inicio.</span><span class="sxs-lookup"><span data-stu-id="d0735-146">Click Start.</span></span>
 
-## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a><span data-ttu-id="17c37-148">Envíe el mensaje de correo electrónico para informar a los encuestados del cuestionario disponible.</span><span class="sxs-lookup"><span data-stu-id="17c37-148">Send the email to inform respondents of the available questionnaire.</span></span>
+3. <span data-ttu-id="d0735-147">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d0735-147">Click OK.</span></span>
 
-1. <span data-ttu-id="17c37-149">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="17c37-149">Click Functions.</span></span>
+## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a><span data-ttu-id="d0735-148">Envíe el mensaje de correo electrónico para informar a los encuestados del cuestionario disponible.</span><span class="sxs-lookup"><span data-stu-id="d0735-148">Send the email to inform respondents of the available questionnaire.</span></span>
 
-2. <span data-ttu-id="17c37-150">Haga clic en Enviar correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="17c37-150">Click Send email.</span></span>
+1. <span data-ttu-id="d0735-149">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="d0735-149">Click Functions.</span></span>
 
-3. <span data-ttu-id="17c37-151">Haga clic en Cancelar.</span><span class="sxs-lookup"><span data-stu-id="17c37-151">Click Cancel.</span></span>
+2. <span data-ttu-id="d0735-150">Haga clic en Enviar correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="d0735-150">Click Send email.</span></span>
 
-## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a><span data-ttu-id="17c37-152">Use las sesiones de respuesta planificadas para supervisar quién debe completar el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="17c37-152">Use Planned answer sessions to monitor who needs to complete the questionnaire.</span></span>
+3. <span data-ttu-id="d0735-151">Haga clic en Cancelar.</span><span class="sxs-lookup"><span data-stu-id="d0735-151">Click Cancel.</span></span>
 
-1. <span data-ttu-id="17c37-153">Haga clic en Sesión de respuestas planificadas.</span><span class="sxs-lookup"><span data-stu-id="17c37-153">Click Planned answer session.</span></span>
+## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a><span data-ttu-id="d0735-152">Use las sesiones de respuesta planificadas para supervisar quién debe completar el cuestionario.</span><span class="sxs-lookup"><span data-stu-id="d0735-152">Use Planned answer sessions to monitor who needs to complete the questionnaire.</span></span>
 
-    * <span data-ttu-id="17c37-154">Elimine cualquier sesión de respuestas planificadas restante cuando esté listo para finalizar la sesión programada.</span><span class="sxs-lookup"><span data-stu-id="17c37-154">Delete any remaining planned answer session when you're ready to end the scheduled session.</span></span>  
+1. <span data-ttu-id="d0735-153">Haga clic en Sesión de respuestas planificadas.</span><span class="sxs-lookup"><span data-stu-id="d0735-153">Click Planned answer session.</span></span>
 
-2. <span data-ttu-id="17c37-155">Haga clic Eliminar.</span><span class="sxs-lookup"><span data-stu-id="17c37-155">Click Delete.</span></span>
+    * <span data-ttu-id="d0735-154">Elimine cualquier sesión de respuestas planificadas restante cuando esté listo para finalizar la sesión programada.</span><span class="sxs-lookup"><span data-stu-id="d0735-154">Delete any remaining planned answer session when you're ready to end the scheduled session.</span></span>  
 
-3. <span data-ttu-id="17c37-156">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="17c37-156">Click Yes.</span></span>
+2. <span data-ttu-id="d0735-155">Haga clic Eliminar.</span><span class="sxs-lookup"><span data-stu-id="d0735-155">Click Delete.</span></span>
 
-4. <span data-ttu-id="17c37-157">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="17c37-157">Close the page.</span></span>
+3. <span data-ttu-id="d0735-156">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="d0735-156">Click Yes.</span></span>
 
-## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a><span data-ttu-id="17c37-158">Finalice la programación cuando todos los encuestados hayan completado el cuestionario y/o se hayan eliminado todas las sesiones de respuestas planificadas restantes.</span><span class="sxs-lookup"><span data-stu-id="17c37-158">End the schedule when all respondents have completed the questionnaire and/or all remaining Planned answer sessions have been deleted.</span></span>
+4. <span data-ttu-id="d0735-157">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d0735-157">Close the page.</span></span>
 
-1. <span data-ttu-id="17c37-159">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="17c37-159">Click Functions.</span></span>
-2. <span data-ttu-id="17c37-160">Haga clic en Fin.</span><span class="sxs-lookup"><span data-stu-id="17c37-160">Click End.</span></span>
-3. <span data-ttu-id="17c37-161">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="17c37-161">Click OK.</span></span>
+## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a><span data-ttu-id="d0735-158">Finalice la programación cuando todos los encuestados hayan completado el cuestionario y/o se hayan eliminado todas las sesiones de respuestas planificadas restantes.</span><span class="sxs-lookup"><span data-stu-id="d0735-158">End the schedule when all respondents have completed the questionnaire and/or all remaining Planned answer sessions have been deleted.</span></span>
 
+1. <span data-ttu-id="d0735-159">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="d0735-159">Click Functions.</span></span>
+2. <span data-ttu-id="d0735-160">Haga clic en Fin.</span><span class="sxs-lookup"><span data-stu-id="d0735-160">Click End.</span></span>
+3. <span data-ttu-id="d0735-161">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d0735-161">Click OK.</span></span>
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
