@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970315"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556275"
 ---
 # <a name="planned-cross-docking"></a>Tránsito directo planificado
 
@@ -37,12 +37,12 @@ En el momento de la recepción de la orden entrante, la configuración de tráns
 > [!NOTE]
 > Las transacciones de inventario son **no** sin registrar cuando se cancela el trabajo de tránsito directo, incluso si la configuración de esta capacidad está activada en los parámetros de gestión de Almacén.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Active la función de tránsito directo planificado
+## <a name="turn-on-the-planned-cross-docking-features"></a>Active las funciones de tránsito directo planificado
 
-Antes de que pueda usar la planificación avanzada de tránsito directo, debe activar la función en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active las características siguientes por este orden:
 
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la función:** *Tránsito directo planificado*
+1. *Tránsito directo planificado*
+2. *Plantillas de tránsito directo con directivas de ubicación*
 
 ## <a name="setup"></a>Configurar
 
@@ -89,6 +89,10 @@ El tránsito directo planificado se implementa como un método de registro de ca
     - **Revalidar con el recibo de suministro:** *No*
 
         Esta opción define si el suministro debe revalidarse durante la recepción. Si esta opción está establecida en *Sí*, se verifican tanto la ventana de tiempo máximo como el rango de días de vencimiento.
+
+    - **Código de directiva:** deje en blanco este campo.
+
+        Esta opción permite que el sistema utilice directivas de ubicación para ayudar a determinar la mejor ubicación para mover el inventario de cross-docking. Puede configurarlo asignando un código de directiva a cada plantilla de cross-docking relevante. Cada código de directiva identifica una directiva de ubicación única.
 
     - **Validar ventana de tiempo:** *Sí*
 

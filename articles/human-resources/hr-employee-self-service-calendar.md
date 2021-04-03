@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: ca7ccb7959eab6f8a9bdc0292e28c3126cb0364c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4962274"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466457"
 ---
 # <a name="view-team-and-company-calendars"></a>Ver calendarios de equipo y empresa
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puede ver calendarios de equipo y empresa en Dynamics 365 Human Resources. Los calendarios de equipo solo muestran informes directos, tal como se define en la jerarquía de líneas.
 

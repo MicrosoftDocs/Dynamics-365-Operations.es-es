@@ -18,19 +18,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b8f0daf96e782e5ba6c985847bad81312e48d30b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 850d1eba3675ffe04f9abff7a892d3dc661d338e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976623"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237831"
 ---
-# <a name="outbound-inventory-operation-in-pos"></a>Operación de inventario saliente en PDV
+# <a name="outbound-inventory-operation-in-pos"></a>Operación de inventario de salida en PDV
 
 [!include [banner](includes/banner.md)]
 
 
-En Microsoft Dynamics 365 Commerce versión 10.0.10 y posterior, las operaciones de entrada y salida en el punto de venta (PDV) reemplazan la operación de selección y recepción.
+En Microsoft Dynamics 365 Commerce, versión 10.0.10 y posteriores, las operaciones de entrada y salida en el punto de venta (PDV) reemplazan la operación de recogida y recepción.
 
 > [!NOTE]
 > En la versión 10.0.10 y posteriores, cualquier función nueva en la aplicación PDV relacionada con la recepción del inventario de la tienda contra órdenes de compra y órdenes de transferencia se agregará a la operación de operaciones de entrada. Si actualmente está utilizando la operación de recogida y recepción en PDV, le recomendamos que desarrolle una estrategia para pasar de esa operación a las nuevas operaciones de entrada y salida. Aunque la operación de selección y recepción no se eliminará del producto, no habrá más inversiones en él, desde una perspectiva funcional o de rendimiento, después de la versión 10.0.9.

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fe009de3a94bf3ea7885f8f794879e16c36a3266
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ed215c4577484269ddf5de20ad93417f8eef38d6
+ms.sourcegitcommit: 45d10d0c25b3ec585323709bb97ba1895b500429
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115351"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5502997"
 ---
 # <a name="edit-personal-information"></a>Editar información personal
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puede editar su información personal en Dynamics 365 Human Resources en el **Espacio de trabajo de autoservicio para empleados**.
 
@@ -38,13 +40,16 @@ La información personal que puede editar incluye:
 - Método de pago
 - Imagen utilizada en Human Resources
 
+>[!NOTE]
+>Es posible que no pueda editar ciertos tipos de información personal, como los datos de contacto de la empresa. Para más información, vea [Restringir la edición de información personal](hr-employee-self-service-restrict-editing.md).
+
 Los parámetros establecidos en la libreta de direcciones global determinan los roles que pueden ver su información personal.
 
 1. En Human Resources, seleccione **Autoservicio para los empleados**.
 
 2. Seleccione **Editar detalles personales**.
 
-3. Para cambiar su dirección, seleccione la pestaña **Direcciones**. Los cambios que haga aparecen en el espacio de trabajo **Gestión de personal** para alertar a RRHH. 
+3. Para cambiar su dirección, seleccione la pestaña **Direcciones**. Los cambios que haga aparecen en el espacio de trabajo **Gestión de personal** para alertar a RRHH.
 
     - Para agrear una dirección nueva, seleccione **Agregar**.
     - Para editar una dirección existente, seleccione la dirección y luego seleccione **Editar**.
@@ -52,11 +57,13 @@ Los parámetros establecidos en la libreta de direcciones global determinan los 
     - Para agregar o eliminar un contacto, seleccione **Mas opciones** y luego seleccione **Avanzado**. En **Información del contacto**, seleccione **Agregar** o **Eliminar** y edite los campos según sea necesario.
     - Para configurar su zona horaria y ubicación, seleccione **Mas opciones** y luego seleccione **Avanzado**. En **General**, edite los campos según sea necesario.
 
-4. Para cambiar sus datos de contacto, seleccione la pestaña **Detalles de contacto**. Puede proporcionar diferentes tipos de información de contacto, incluidos teléfonos, correos electrónicos y enlaces de redes sociales. Puede establecer un detalle de contacto como primario, pero solo puede establecer uno de cada tipo como primario. 
+4. Para cambiar sus datos de contacto, seleccione la pestaña **Detalles de contacto**. Puede proporcionar diferentes tipos de información de contacto, incluidos teléfonos, correos electrónicos y enlaces de redes sociales. Puede establecer un detalle de contacto como primario, pero solo puede establecer uno de cada tipo como primario.
 
     - Para agrear información de contacto nueva , seleccione **Agregar**. Edite los campos según sea necesario.
     - Para editar una información de contacto existente, seleccione el elemento y luego seleccione **Editar**. Edite los campos según sea necesario.
     - Para establecer un detalle de contacto como privado, seleccione el elemento, seleccione **Avanzado** y luego establezca **Privado** a **Sí**. Seleccione **Aceptar**.
+      >[!NOTE]
+      >El botón **Avanzado** no está disponible si su administrador ha habilitado la característica **(Versión preliminar) Impedir que los empleados agreguen o editen la dirección y la información de contacto para fines seleccionados** en su entorno. Para más información, vea [Restringir la edición de información personal](hr-employee-self-service-restrict-editing.md).
   
 5. Para cambiar sus contactos personales, seleccione la pestaña **Contactos personales**. Puede designar contactos de emergencia, beneficiarios y dependientes. Un contacto puede ser una persona u organización. La característica **Gestión de beneficios** utiliza información de contacto personal. Para más información, consulte [Configurar las opciones de elegibilidad de contacto personal](hr-benefits-setup-contact-eligibility-options.md).
 

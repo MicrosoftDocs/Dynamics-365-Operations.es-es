@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994012"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487106"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Solución de problemas de configuración de almacén
 
@@ -109,5 +109,32 @@ Para permitir que los trabajadores realicen este cambio, puede crear un elemento
 
 Puede configurar otros campos en la página según sus necesidades.
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>El perfil de gestión de muelle de un perfil de ubicación no impide que se mezclen los tipos de inventario.
+
+### <a name="issue-description"></a>Descripción del problema
+
+Está usando *directivas de consolidación de envíos*. Ha configurado un *perfil de gestión del muelle* para *perfil de ubicación*, pero cuando se crea el trabajo, los tipos de inventario se mezclan en la ubicación final.
+
+### <a name="issue-resolution"></a>Solución del problema
+
+Los perfiles de gestión de muelles requieren que el trabajo se divida por adelantado. En otras palabras, el perfil de administración del muelle espera que un encabezado de trabajo no tenga múltiples ubicaciones de colocación.
+
+Para que el perfil de administración del muelle administre de manera efectiva la mezcla de inventario, se debe configurar una pausa en el encabezado de trabajo.
+
+En este ejemplo, nuestro perfil de gestión de muelles está configurado de manera que **Tipos de inventario que no deben mezclarse** se establece en *Identificación del envío*, y configuraremos un descanso de encabezado de trabajo para ello:
+
+1. Vaya a **Administración de almacenes \> Configuración \> Trabajo \> Plantillas de trabajo**.
+1. Seleccione el **Tipo de orden de trabajo** para editar (por ejemplo, *Ordenes de compra*).
+1. Seleccione la plantilla de trabajo para editar.
+1. En el panel Acciones, seleccione **Editar consulta**.
+1. Abra la pestaña **Clasificación** y agregue una fila con la siguiente configuración:
+    - **Tabla** - *Transacciones laborales temporales*
+    - **Tabla derivada** - *Transacciones laborales temporales*
+    - **Campo** - *Identificación del envío*
+1. Seleccione **Aceptar**.
+1. Regresa a la página **Plantillas de trabajo**. En el panel de acciones, seleccione **Saltos de encabezado de trabajo**.
+1. En el panel Acciones, seleccione **Editar**.
+1. Seleccione la casilla de verificación asociada con el **Nombre del campo** *Identificación del envío*.
+1. En el panel Acciones, seleccione **Guardar**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqCreatePlanWorkspace
+ms.search.form: ReqPlanSched, ReqGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 8075f8d7c3868c6d6012edbce17dbbb4749209ab
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 20b4012e054a25d7d21c6f017d8ebcf18f6ee28d
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992354"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501087"
 ---
 # <a name="purchase-requisitions"></a>Solicitudes de compra
 
@@ -44,7 +44,7 @@ El *Límite de tiempo de requisiciones aprobadas* establece cuánto tiempo atrá
 
 ### <a name="set-the-approved-requisitions-time-fence-for-a-coverage-group"></a>Establecer el límite de tiempo de solicitudes aprobadas para un grupo de cobertura
 
-1. Vaya **Planificación maestra** \> **Configurar** \> **Cobertura** \> **Grupos de cobertura**.
+1. Vaya a **Planificación maestra** \> **Configurar** \> **Cobertura** \> **Grupos de cobertura**.
 1. Cree o seleccione un grupo de cobertura.
 1. En la ficha desplegable **Otro**, establezca el campo **Límite de tiempo de solicitudes aprobadas (días)** en el número de días que se incluirán en el límite de tiempo.
 1. Repita los pasos 2 y 3 para cada grupo de cobertura adicional en el que desee establecer un límite de tiempo para solicitudes aprobadas.

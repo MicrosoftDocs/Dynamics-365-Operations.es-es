@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987588"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487930"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tutorial de la característica de gestión de cambios de ingeniería
 
@@ -397,7 +397,6 @@ El ingeniero ahora revisa la solicitud del cliente y crea una orden de cambio pa
 
 1. En el panel de acciones, en la ficha **Orden de cambio**, en el grupo **Cambiar estado**, seleccione **Aprobar**.
 1. Seleccione **Proceso** para actualizar la información del producto.
-1. Seleccione **Completar** para marcar la orden de cambio como completada.
 
 ## <a name="release-the-changed-product"></a>Liberar el producto cambiado
 
@@ -411,5 +410,8 @@ El producto ahora se puede lanzar nuevamente a la empresa *USMF* y luego se env�
 1. Seleccione **Aceptar** para cerrar el cuadro de diálogo **Versiones** y volver a la orden de cambio.
 1. En el panel de acciones, en la pestaña **Orden de cambio**, en el grupo **Lanzamientos de productos**, seleccione **Proceso** para liberar los productos afectados a las empresas seleccionadas. Alternativamente, seleccione **Estructura del producto de liberación** para iniciar el proceso de liberación.
 
+## <a name="complete-the-change-order"></a>Completar la orden de cambio
+
+Para marcar la orden de cambio como completada, lo que indica que no quedan más acciones, seleccione **Completar** en el Panel de acciones.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

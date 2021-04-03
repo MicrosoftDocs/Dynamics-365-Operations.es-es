@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 265709f298d9310d5d647eaa029ece778d2e226e
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001358"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470650"
 ---
 # <a name="repair-management"></a>Gestión de reparaciones       
 
@@ -37,15 +37,11 @@ Configura los síntomas, el diagnóstico y la resolución. Todos estos valores s
 
 Use los siguientes formularios de configuración para escribir información que se usará para especificar los síntomas, el diagnóstico y la resolución de la reparación.
 
-1.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Condiciones**.
-
-2.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Áreas de síntoma**.
-
-3.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Áreas de diagnóstico**.
-
-4.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Resoluciones**.
-
-5.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Etapas de reparación**.
+- **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Condiciones**.
+- **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Áreas de síntoma**.
+-  **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Áreas de diagnóstico**.
+- **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Resoluciones**.
+- **Gestión de servicio** \> **Configuración** \> **Reparación** \> **Etapas de reparación**.
 
 ## <a name="symptoms-and-conditions"></a>Síntoma y condiciones
 
@@ -81,19 +77,19 @@ Puede crear líneas de reparación para cada etapa del proceso de reparación.
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Crear una línea de reparación en el pedido de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
+1.  Vaya a **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
 
 2.  Seleccione el pedido de servicio con el objeto de servicio que necesita reparación.
 
-3.  Haga clic en **Reparar** \> **Líneas de reparación** para abrir el formulario **Líneas de reparación**.
+3.  Seleccione **Reparar** \> **Líneas de reparación** para abrir el formulario **Líneas de reparación**.
 
-4.  Presione CTRL+N para crear una nueva línea.
+4.  Seleccionar **Nuevo** para crear una línea nueva.
 
 5.  Seleccione un objeto de servicio. Puede seleccionar cualquier objeto establecido con una relación de objetos en el pedido de servicio.
 
-6.  Seleccione los valores de síntomas, diagnósticos y ejecución predefinidos pertinentes para la línea de reparación y, a continuación, haga clic en la ficha **Nota** para crear una nota en la línea de reparación, si fuera necesario.
+6.  Seleccione los valores de síntomas, diagnósticos y ejecución predefinidos pertinentes para la línea de reparación y, a continuación, seleccione la ficha **Nota** para crear una nota en la línea de reparación, si fuera necesario.
 
-7.  Presione CTRL+S para guardar la nueva línea de reparación. El campo **Fecha y hora de creación** de la ficha **General** del formulario **Líneas de reparación** se actualiza con la hora en la que se guardaron los cambios.
+7.  Seleccione **Guardar** para guardar la nueva línea de reparación. El campo **Fecha y hora de creación** de la ficha **General** del formulario **Líneas de reparación** se actualiza con la hora en la que se guardaron los cambios.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>Realizar un seguimiento del progreso y resolver un problema de reparación
 
