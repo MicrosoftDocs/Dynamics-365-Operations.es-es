@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32981812eac3c08e1409fe5470b550e421f5d6c9
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: c4fe8f7afd4b77636ce77e58a2e75196fddae132
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114146"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466119"
 ---
 # <a name="configure-employee-self-service"></a>Configurar autoservicio para empleados
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la navegación de nivel superior en autoservicio para empleados. El icono del plan de prestaciones dirige a los usuarios a los planes de prestaciones a los que pueden optar.
 

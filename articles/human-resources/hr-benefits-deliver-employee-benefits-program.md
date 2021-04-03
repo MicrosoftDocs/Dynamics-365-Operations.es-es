@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 8fe53b28d1e2ff539cf431a2a6a00b10d1adb06f
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: a581db0a015acd4202721023ae23ccd2073156f4
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114116"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465183"
 ---
 # <a name="deliver-employee-benefits-program"></a>Proporcionar programa de prestaciones de empleado
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artículo muestra cómo crear elementos de la prestación que se usarán al crear una nueva prestación. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea está pensada para un director de compensaciones y prestaciones.
 

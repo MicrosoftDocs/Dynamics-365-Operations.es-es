@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1490bd95c284b58497325e57979e63a8190cb386
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 1e6d1eff32b6f925541760f0c0408238f3c4d947
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114154"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466865"
 ---
 # <a name="remove-an-instance"></a>Quitar una instancia
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artículo recorre con el usuario el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 Human Resources.
 

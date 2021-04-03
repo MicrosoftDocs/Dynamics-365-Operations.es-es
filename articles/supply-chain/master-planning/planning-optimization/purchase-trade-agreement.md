@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d8d5b8c7ac5da9c68926d7fbb4f37b81b56665cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992255"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264731"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planificación maestra con acuerdos comerciales de compra
 
@@ -73,12 +73,12 @@ Una vez que su sistema esté preparado como se describe en la sección anterior,
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Ejemplos de cómo Optimización de planificación encuentra proveedores y plazos de entrega
 
-La siguiente tabla proporciona ejemplos que muestran cómo varias configuraciones para un producto despachado y sus acuerdos comerciales de compra asociados afectan los valores que se encuentran para el pedido de compra planificado resultante. Los valores en **negrita** de las dos columnas más a la derecha son los valores seleccionados por Optimización de planificación. Los valores en **_negrita y cursiva_* _ de las otras columnas son las configuraciones que produjeron los valores resultantes para cada fila.
+La siguiente tabla proporciona ejemplos que muestran cómo varias configuraciones para un producto despachado y sus acuerdos comerciales de compra asociados afectan los valores que se encuentran para el pedido de compra planificado resultante. Los valores en **negrita** de las dos columnas más a la derecha son los valores seleccionados por Optimización de planificación. Los valores en **_negrita y cursiva_** de las otras columnas son las configuraciones que produjeron los valores resultantes para cada fila.
 
 | Producto despachado: Proveedor | Configuración de pedido predeterminada: tiempo de entrega | Cobertura del artículo: anulación de proveeedor | Cobertura del artículo: anulación de tiempo de entrega | Acuerdo comercial: proveedor | Acuerdo comercial: plazo de entrega | Acuerdo comercial: pasar por alto plazo de entrega | Proveedor resultante | Plazo de entrega resultante |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| _*_US001_*_ | _*_1_*_ | N.º | N.º | US003 | 3 | N.º | _ *US001** | **1** |
-| US001 | 1 | **_Sí: US002_* _ | _*_Sí: 2_*_ | US003 | 3 | N.º | _ *US002** | **2** |
+| ***US001** _ | _*_1_*_ | N.º | N.º | US003 | 3 | N.º | _ *US001** | **1** |
+| US001 | 1 | ***Sí: US002** _ | _*_Sí: 2_*_ | US003 | 3 | N.º | _ *US002** | **2** |
 | *(En blanco)* | 1 | N.º | N.º | ***US003** _ | _*_3_*_ | N.º | _ *US003** | **3** |
 | *(En blanco)* | ***1** _ | N.º | N.º | _*_US003_*_ | 3 | Sí | _ *US003** | **1** |
 | *(En blanco)* | ***1** _ | _*_Sí: US002_*_ | N.º | US003 | 3 | N.º | _ *US002** | **1** |

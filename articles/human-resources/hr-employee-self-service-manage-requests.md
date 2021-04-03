@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a47065a28f116cde5ce2983acada2f735f8c5edf
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 86e6868b5172ea113fab63780773633427a45a1a
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115303"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463199"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Administrar solicitudes de bajas y ausencias
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Administre las solicitudes de permiso en el espacio de trabajo **Autoservicio para empleados** de Dynamics 365 Human Resources. Las solicitudes pueden ser simples, por un solo día, o múltiples, que incluyen solicitud de varios tipos de permisos y ausencias. Si un flujo de trabajo no está habilitado, las solicitudes se aprueban automáticamente. Si se habilita un flujo de trabajo, la aprobación puede ser automática, o puede requerir de visto bueno, en función de la configuración del flujo de trabajo.
 

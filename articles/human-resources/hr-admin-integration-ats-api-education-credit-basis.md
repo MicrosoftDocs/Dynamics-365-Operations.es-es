@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0390dcb07fd978cc06946fef890b1ef8b32f6858
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: d82cf1aacc805b2149c66640a700e53085260aac
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125650"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464089"
 ---
 # <a name="education-credit-basis"></a>Base de crédito educativo
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tema describe el conjunto de opciones de base de crédito educativo para Dynamics 365 Human Resources.
 

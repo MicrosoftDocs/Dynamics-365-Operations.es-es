@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f701d9e38e04769f1255e6f8cb3ee757bf22f96c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e3a4966aeb0adb50c82e4edd626ea9c0289703e3
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114190"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464311"
 ---
 # <a name="set-up-flex-credit-programs"></a>Establecer programas de crédito flexible
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puede usar programas de crédito flexible en Microsoft Dynamics 365 Human Resources para inscribir a los empleados en prestaciones de acuerdo con un número predeterminado de créditos flexibles. Los empleados pueden elegir cómo asignar sus créditos flexibles. Por ejemplo, si un empleado está cubierto por el plan de seguro de salud de su cónyuge, es posible que desee utilizar los créditos que de otro modo habrían utilizado en la cobertura de salud para otras prestaciones. 
 
