@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141913"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579981"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrar las adquisiciones entre Supply Chain Management y Field Service
 
@@ -47,8 +46,8 @@ Para integrar Supply Chain Management con Field Service, debe instalar los sigui
 
 ### <a name="prerequisites"></a>Requisitos previos
 
-+ **Escritura dual** - Para obtener más información, consulte la [página de inicio de doble escritura](dual-write-home-page.md#dual-write-setup).
-+ **Dynamics 365 Field Service** - Para obtener más información consulte [Cómo instalar Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Escritura dual** - Para obtener más información, consulte la [página de inicio de doble escritura](dual-write-home-page.md#dual-write-setup).
+- **Dynamics 365 Field Service** - Para obtener más información consulte [Cómo instalar Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Cuando están habilitados en Microsoft Dataverse, la escritura dual y Field Service presentan varias capas de soluciones que amplían el entorno con nuevos metadatos, formularios, vistas y lógica. Estas soluciones se pueden habilitar en cualquier orden, aunque normalmente se instala en el orden que se indica aquí:
 
@@ -57,8 +56,8 @@ Cuando están habilitados en Microsoft Dataverse, la escritura dual y Field Serv
 3. **Supply Chain Management Extended** - Supply Chain Management Extended se instala automáticamente cuando se habilita la escritura dual en un entorno. 
 4. **Solución OneFSSCM** - OneFSSCM se instala automáticamente con cualquier solución (Field Service o Supply Chain Management) que se instale en último lugar.
 
-    + Si Field Service ya está instalado en el entorno y habilita la escritura dual, que instala Supply Chain Management Extended, OneFSSCM está instalado.
-    + Si Supply Chain Management Extended ya está instalado en el entorno e instala Field Service, OneFSSCM está instalado.
+    - Si Field Service ya está instalado en el entorno y habilita la escritura dual, que instala Supply Chain Management Extended, OneFSSCM está instalado.
+    - Si Supply Chain Management Extended ya está instalado en el entorno e instala Field Service, OneFSSCM está instalado.
 
 ## <a name="initial-synchronization"></a>Sincronización inicial
 
@@ -124,22 +123,22 @@ Adicionalmente, Dataverse incluye lógica que asigna a los proveedores a sus cue
 
 ## <a name="supported-scenarios"></a>Escenarios admitidos
 
-+ Los pedidos de compra se pueden crear y actualizar mediante usuarios de Dataverse. Sin embargo, el proceso y los datos están controlados por Supply Chain Management. Las restricciones sobre las actualizaciones de las columnas de pedidos de compra en Supply Chain Management se aplican cuando las actualizaciones provienen de Field Service. Por ejemplo, no puede actualizar un pedido de compra si se ha finalizado. 
-+ Si el pedido de compra está controlado por la gestión de cambios en Supply Chain Management, un usuario de Field Service puede actualizar el pedido de compra solo cuando el estado de aprobación de Supply Chain Management es *Borrador*.
-+ Varias columnas son administradas solo por Supply Chain Management y no se pueden actualizar en Field Service. Para saber qué columnas no se pueden actualizar, revise las tablas de asignación en el producto. En aras de la simplicidad, la mayoría de estas columnas están configuradas como de solo lectura en páginas de Dataverse. 
+- Los pedidos de compra se pueden crear y actualizar mediante usuarios de Dataverse. Sin embargo, el proceso y los datos están controlados por Supply Chain Management. Las restricciones sobre las actualizaciones de las columnas de pedidos de compra en Supply Chain Management se aplican cuando las actualizaciones provienen de Field Service. Por ejemplo, no puede actualizar un pedido de compra si se ha finalizado. 
+- Si el pedido de compra está controlado por la gestión de cambios en Supply Chain Management, un usuario de Field Service puede actualizar el pedido de compra solo cuando el estado de aprobación de Supply Chain Management es *Borrador*.
+- Varias columnas son administradas solo por Supply Chain Management y no se pueden actualizar en Field Service. Para saber qué columnas no se pueden actualizar, revise las tablas de asignación en el producto. En aras de la simplicidad, la mayoría de estas columnas están configuradas como de solo lectura en páginas de Dataverse. 
 
     Por ejemplo, Supply Chain Management administra las columnas para la información de precios. Supply Chain Management tiene acuerdos comerciales de los que Field Service puede beneficiarse. columnas como **Precio unitario**, **Descuento** e **Importe neto** provienen únicamente de Supply Chain Management. Para asegurarse de que el precio esté sincronizado con Field Service, debe utilizar la característica **Sincronización** en las páginas **Pedido de compra** y **Producto de pedido de compra** en Dataverse cuando se hayan introducido los datos del pedido de compra. Para más información, ver [Sincronizar con los datos de adquisiciones bajo demanda de Dynamics 365 Supply Chain Management](#sync-procurement).
 
-+ La columna **Totales** está disponible solo en Field Service, porque no hay totales actualizados del pedido de compra en Supply Chain Management. Los totales en Supply Chain Management se calculan en función de varios parámetros que no están disponibles en Field Service.
-+ Las líneas de pedido de compra donde solo se especifica una categoría de compra, o donde el producto que se especifica es un artículo del tipo de producto *Servicio* o tipo de producto de Field Service, solo se puede iniciar en Supply Chain Management. A continuación, las líneas se sincronizan con Dataverse y son visibles en Field Service.
-+ Si solo se instala Field Service, y no Supply Chain Management, la columna **Almacén** es obligatoria en el pedido de compra. Sin embargo, si Supply Chain Management está instalado, este requisito se relaja, porque Supply Chain Management permite líneas de pedidos de compra donde no se especifica ningún almacén en determinadas situaciones.
-+ Recibos de productos (recibos de pedidos de compra en Dataverse) son administrados por Supply Chain Management y no se pueden crear desde Dataverse si está instalado Supply Chain Management. Los recibos de productos de Supply Chain Management se sincronizan desde Supply Chain Management a Dataverse.
-+ Se permite la entrega insuficiente en Supply Chain Management. La solución OneFSSCM agrega lógica para que, cuando la línea de recepción del producto (o el producto de recepción de la orden de compra en Dataverse) se crea o actualiza, se cree una fila de diario de inventario en Dataverse para ajustar la cantidad restante que está en orden para escenarios de entrega insuficiente.
+- La columna **Totales** está disponible solo en Field Service, porque no hay totales actualizados del pedido de compra en Supply Chain Management. Los totales en Supply Chain Management se calculan en función de varios parámetros que no están disponibles en Field Service.
+- Las líneas de pedido de compra donde solo se especifica una categoría de compra, o donde el producto que se especifica es un artículo del tipo de producto *Servicio* o tipo de producto de Field Service, solo se puede iniciar en Supply Chain Management. A continuación, las líneas se sincronizan con Dataverse y son visibles en Field Service.
+- Si solo se instala Field Service, y no Supply Chain Management, la columna **Almacén** es obligatoria en el pedido de compra. Sin embargo, si Supply Chain Management está instalado, este requisito se relaja, porque Supply Chain Management permite líneas de pedidos de compra donde no se especifica ningún almacén en determinadas situaciones.
+- Recibos de productos (recibos de pedidos de compra en Dataverse) son administrados por Supply Chain Management y no se pueden crear desde Dataverse si está instalado Supply Chain Management. Los recibos de productos de Supply Chain Management se sincronizan desde Supply Chain Management a Dataverse.
+- Se permite la entrega insuficiente en Supply Chain Management. La solución OneFSSCM agrega lógica para que, cuando la línea de recepción del producto (o el producto de recepción de la orden de compra en Dataverse) se crea o actualiza, se cree una fila de diario de inventario en Dataverse para ajustar la cantidad restante que está en orden para escenarios de entrega insuficiente.
 
 ## <a name="unsupported-scenarios"></a>Escenarios no admitidos
 
-+ Field Service evita que se agreguen líneas a un pedido de compra cancelado en Supply Chain Management. Como solución alternativa, puede cambiar el estado del sistema del pedido de compra en Field Service y luego agregar la nueva línea en Field Service o Supply Chain Management.
-+ Aunque las filas de adquisición afectan los niveles de inventario en ambos sistemas, esta integración no garantiza la alineación del inventario en Supply Chain Management y Field Service. Tanto Field Service como Supply Chain Management tienen otros procesos que actualizan los niveles de inventario. Estos procesos están fuera del alcance de las adquisiciones.
+- Field Service evita que se agreguen líneas a un pedido de compra cancelado en Supply Chain Management. Como solución alternativa, puede cambiar el estado del sistema del pedido de compra en Field Service y luego agregar la nueva línea en Field Service o Supply Chain Management.
+- Aunque las filas de adquisición afectan los niveles de inventario en ambos sistemas, esta integración no garantiza la alineación del inventario en Supply Chain Management y Field Service. Tanto Field Service como Supply Chain Management tienen otros procesos que actualizan los niveles de inventario. Estos procesos están fuera del alcance de las adquisiciones.
 
 ## <a name="status-management"></a>Administración de estado
 
@@ -161,13 +160,13 @@ Los estados de aprobación de línea están activos solo cuando hay un flujo de 
 
 Las siguientes reglas se aplican a las columnas de estado:
 
-+ El estado en Supply Chain Management no se puede actualizar desde Field Service. Sin embargo, en algunos casos, el estado en Field Service se actualizará cuando se cambie el estado del pedido de compra en Supply Chain Management.
-+ Si un pedido de compra en Supply Chain Management está bajo gestión de cambios y se está procesando un cambio, el estado de aprobación es *Borrador* o *En revisión*. En este caso, el estado de aprobación de Field Service se establecerá en *Nulo*.
-+ Si el estado de aprobación del pedido de compra en Supply Chain Management se establece en *Aprobado*, *En revisión externa*, *Confirmado* o *Finalizado*, el estado de aprobación del pedido de compra de Field Service se establecerá en *Aprobado*.
-+ Si el estado de aprobación del pedido de compra en Supply Chain Management se establece en *Rechazado*, el estado de aprobación del pedido de compra de Field Service se establecerá en *Rechazado*.
-+ Si el estado del encabezado del documento en Supply Chain Management se cambia a *Pedido abierto (pedido pendiente)* y el estado del pedido de compra de Field Service es *Borrador* o *Cancelado*, el estado del pedido de compra de Field Service se cambiará a *Emitido*.
-+ Si el estado del encabezado del documento en Supply Chain Management se cambia a *Cancelado*, y ningún producto de recepción de pedido de compra en Field Service está asociado con el pedido de compra (a través de productos de pedidos de compra), el estado del sistema de Field Service se establece en *Cancelado*.
-+ Si el estado de la línea de pedido de compra en Supply Chain Management es *Cancelado*, el estado del producto del pedido de compra en Field Service se establece en *Cancelado*. Además, si el estado de la línea del pedido de compra en Supply Chain Management cambia de *Cancelado* a *Pedido pendiente*, el estado del artículo de producto del pedido de compra en Field Service se establece en *Pendiente*.
+- El estado en Supply Chain Management no se puede actualizar desde Field Service. Sin embargo, en algunos casos, el estado en Field Service se actualizará cuando se cambie el estado del pedido de compra en Supply Chain Management.
+- Si un pedido de compra en Supply Chain Management está bajo gestión de cambios y se está procesando un cambio, el estado de aprobación es *Borrador* o *En revisión*. En este caso, el estado de aprobación de Field Service se establecerá en *Nulo*.
+- Si el estado de aprobación del pedido de compra en Supply Chain Management se establece en *Aprobado*, *En revisión externa*, *Confirmado* o *Finalizado*, el estado de aprobación del pedido de compra de Field Service se establecerá en *Aprobado*.
+- Si el estado de aprobación del pedido de compra en Supply Chain Management se establece en *Rechazado*, el estado de aprobación del pedido de compra de Field Service se establecerá en *Rechazado*.
+- Si el estado del encabezado del documento en Supply Chain Management se cambia a *Pedido abierto (pedido pendiente)* y el estado del pedido de compra de Field Service es *Borrador* o *Cancelado*, el estado del pedido de compra de Field Service se cambiará a *Emitido*.
+- Si el estado del encabezado del documento en Supply Chain Management se cambia a *Cancelado*, y ningún producto de recepción de pedido de compra en Field Service está asociado con el pedido de compra (a través de productos de pedidos de compra), el estado del sistema de Field Service se establece en *Cancelado*.
+- Si el estado de la línea de pedido de compra en Supply Chain Management es *Cancelado*, el estado del producto del pedido de compra en Field Service se establece en *Cancelado*. Además, si el estado de la línea del pedido de compra en Supply Chain Management cambia de *Cancelado* a *Pedido pendiente*, el estado del artículo de producto del pedido de compra en Field Service se establece en *Pendiente*.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Sincronizar con los datos de adquisición a petición de Supply Chain Management
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114679"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574231"
 ---
 # <a name="inventory-visibility-add-in"></a>Complemento de visibilidad de inventario
 
@@ -48,11 +48,64 @@ Para obtener más información, consulte [Recursos de Lifecycle Services](https:
 Para poder instalar el complemento de visibilidad de inventario, debe hacer lo siguiente:
 
 - Obtenga un proyecto de implementación de LCS con al menos un entorno implementado.
-- Genere las claves beta para su oferta en LCS.
-- Habilite las claves beta para su oferta para su usuario en LCS.
-- Póngase en contacto con el equipo de productos de visibilidad de inventario de Microsoft y proporcione un identificador de entorno en el que desea implementar el complemento de visibilidad de inventario.
+- Asegúrese de que los requisitos previos para configurar complementos proporcionados en [Descripción general de los complementos](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) ha sido completado. La visibilidad de inventario no requiere vinculación de escritura dual.
+- Póngase en contacto con el equipo de visibilidad del inventario en [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para obtener los siguientes tres archivos obligatorios:
+
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip` (si la versión de Supply Chain Management que está ejecutando es anterior a la versión 10.0.18)
+
+> [!NOTE]
+> Los países y regiones admitidos actualmente incluyen Canadá, Estados Unidos y la Unión Europea (UE).
 
 Si tiene alguna pregunta sobre estos requisitos previos, comuníquese con el equipo de productos de visibilidad de inventario.
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Configurar Dataverse
+
+Para configurar Dataverse, siga estos pasos.
+
+1. Agregue un principio de servicio a su inquilino:
+
+    1. Instale Azure AD PowerShell Module v2 como se describe en [Instalar Azure Active Directory PowerShell para Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Ejecute el siguiente comando de PowerShell.
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. Cree un usuario de la aplicación para la visibilidad del inventario en Dataverse:
+
+    1. Abra la URL de su entorno de Dataverse.
+    1. Ir **Configuración avanzada \> Sistema \> Seguridad \> Usuarios** y cree un usuario de la aplicación. Use el menú de vista para cambiar la vista de página a **Usuarios de la aplicación**.
+    1. Seleccione **Nuevo**. Establezca el Id. de aplicación en *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (El ID del objeto se cargará automáticamente cuando guarde los cambios). Puede personalizar el nombre. Por ejemplo, puede cambiarlo a *Visibilidad de inventario*. Cuando haya terminado, haga clic en **Guardar**.
+    1. Seleccione **Asignar rol** y luego seleccione **Administrador de sistema**. Si hay un rol que se llama **Usuario de Common Data Service**, selecciónelo también.
+
+    Para obtener más información, consulte [Crear un usuario de aplicación](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Importe el archivo `Inventory Visibility Dataverse Solution.zip`, que incluye las entidades relacionadas con la configuración de Dataverse y Power Apps:
+
+    1. Vaya a la página **Soluciones**.
+    1. Seleccione **Importar**.
+
+1. Importe el flujo de activación de la actualización de la configuración:
+
+    1. Vaya a la página de Microsoft Flow.
+    1. Asegúrese de que la conexión que se denomina *Dataverse (heredado)* existe. (Si no existe, créela).
+    1. Importe el archivo `Inventory Visibility Configuration Trigger.zip`. Una vez importado, el disparador aparecerá debajo de **Mis flujos**.
+    1. Inicialice las siguientes cuatro variables, según la información del entorno:
+
+        - Id. de inquilino de Azure
+        - Id. de cliente de aplicación de Azure
+        - Secreto de cliente de aplicación de Azure
+        - Punto de conexión de Visibilidad de inventario
+
+            Para obtener más información sobre esta variable, consulte la sección [Configurar la integración de visibilidad de inventario](#setup-inventory-visibility-integration) más adelante en este tema.
+
+        ![Desencadenador de configuración](media/configuration-trigger.png "Desencadenador de configuración")
+
+    1. Seleccione **Encender**.
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>Instalar el complemento
 
@@ -61,14 +114,16 @@ Para instalar el complemento de visibilidad de inventario, haga lo siguiente:
 1. Inicie sesión en el portal de [Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index).
 1. En la página de inicio, seleccione el proyecto donde se implementa su entorno.
 1. En la página del proyecto, seleccione el entorno donde desea instalar el complemento.
-1. En la página del entorno, desplácese hacia abajo hasta que vea la sección **Complementos de entorno**. Si la sección no está visible, asegúrese de que las claves beta de requisito previo se hayan procesado por completo.
+1. En la página del entorno, desplácese hacia abajo hasta que vea la sección **Complementos de entorno** en la sección **Integración de Power Platform**, donde puede encontrar el nombre del entorno Dataverse.
 1. En la sección **Complementos de entorno**, seleccione **Instalar un nuevo complemento**.
+
     ![Página de entorno en LCS](media/inventory-visibility-environment.png "Página de entorno en LCS")
+
 1. Seleccione el vínculo **Instalar un nuevo complemento**. Se abre una lista de complementos disponibles.
-1. Seleccione **Servicio de inventario** en la lista. (Tenga en cuenta que esto ahora puede aparecer como **Complemento de visibilidad de inventario para Dynamics 365 Supply Chain Management**).
+1. En la lista, seleccione **Visibilidad de inventario**.
 1. Ingrese valores para los siguientes campos para su entorno:
 
-    - **ID de aplicación de AAD**
+    - **ID de aplicación de AAD (cliente)**
     - **Id. de suscriptor de AAD**
 
     ![Agregar en la página de configuración](media/inventory-visibility-setup.png "Página de configuración del complemento")
@@ -76,7 +131,70 @@ Para instalar el complemento de visibilidad de inventario, haga lo siguiente:
 1. Acepte los términos y condiciones seleccionando la casilla de verificación **Términos y Condiciones**.
 1. Seleccione **Instalar**. El estado del complemento se mostrará como **Instalando**. Cuando haya terminado, actualice la página para ver el cambio de estado a **Instalado**.
 
-### <a name="get-a-security-service-token"></a>Obtenga un token de servicio de seguridad
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>Desinstalar el complemento
+
+Para desinstalar el complemento, seleccione **Desinstalar**. Cuando actualice LCS, el complemento de visibilidad de inventario se eliminarán. El proceso de desinstalación elimina el registro del complemento y también inicia un trabajo para limpiar todos los datos comerciales almacenados en el servicio.
+
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>Consumir datos de inventario disponibles de Supply Chain Management
+
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Implementar el paquete de integración de visibilidad de inventario
+
+Si está ejecutando Supply Chain Management versión 10.0.17 o anterior, comuníquese con el equipo de soporte a bordo de Inventory Visibility en [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para obtener el archivo del paquete. Luego implemente el paquete en LCS.
+
+> [!NOTE]
+> Si se produce un error de discrepancia de versión durante la implementación, debe importar manualmente el proyecto X ++ a su entorno de desarrollo. Luego, cree el paquete implementable en su entorno de desarrollo e impleméntelo en su entorno de producción.
+> 
+> El código se incluye con Supply Chain Management versión 10.0.18. Si está ejecutando esa versión o una posterior, la implementación no es necesaria.
+
+Asegúrese de que las siguientes funciones estén activadas en su entorno de Supply Chain Management. (De forma predeterminada, están activadas).
+
+| Descripción de la característica | Versión de código | Alternar clase |
+|---|---|---|
+| Habilitar o deshabilitar el uso de dimensiones de inventario en la tabla InventSum | 10.0.11 | InventUseDimOfInventSumToggle |
+| Habilitar o deshabilitar el uso de dimensiones de inventario en la tabla InventSumDelta | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Configurar integración de Visibilidad de inventario
+
+1. En Supply Chain Management, abra el espacio de trabajo **[Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** y active la caracterísica **Integración de visibilidad de inventario**.
+1. Ir **Gestión del inventario \> Configurar \> Parámetros de integración de visibilidad de inventario** e ingrese la URL del entorno en el que está ejecutando Visibilidad de inventario.
+
+    Busque la región de Azure de su entorno LCS y luego ingrese la URL. La URL tiene el formato siguiente:
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    Por ejemplo, si se encuentra en Europa, su entorno tendrá una de las siguientes URL:
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    Tiene a su disposición las siguientes regiones:
+
+    | Región de Azure | Nombre corto de la región |
+    |---|---|
+    | Este de Australia | eau |
+    | Sudeste de Australia | seau |
+    | Canadá central | cca |
+    | Este de Canadá | eca |
+    | Norte de Europa | neu |
+    | Europa Occidental | weu |
+    | Este de EE. UU. | eus |
+    | Oeste de EE. UU. | wus |
+
+1. Ir **Gestión del inventario \> Periódico \> Integración de visibilidad de inventario** y habilite el trabajo. Todos los eventos de cambio de inventario de Supply Chain Management ahora se publicarán en Visibilidad de inventario.
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>API pública de complemento de visibilidad de inventario
+
+La API de REST pública del complemento de visibilidad de inventario presenta varios puntos finales específicos para integración. Admite tres tipos principales de interacción:
+
+- Publicar cambios de inventario disponible en el complemento desde un sistema externo
+- Consultar cantidades actuales disponibles desde un sistema externo
+- Sincronización automática con el inventario disponible de Supply Chain Management
+
+La sincronización automática no forma parte de la API pública. En su lugar, se maneja en segundo plano para entornos en los que el complemento de visibilidad de inventario está habilitado.
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentificación
+
+El token de seguridad de la plataforma se utiliza para llamar al complemento de visibilidad de inventario. Por lo tanto, debe generar un *token de Azure Active Directory (Azure AD)* usando su aploicación de Azure AD. A continuación, debe utilizar el token de Azure AD para obtener el *token de acceso* del servicio de seguridad.
 
 Obtenga un token de servicio de seguridad de la siguiente forma:
 
@@ -140,27 +258,7 @@ Obtenga un token de servicio de seguridad de la siguiente forma:
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>Desinstalar el complemento
-
-Para desinstalar el complemento, seleccione **Desinstalar**. Actualizar LCS y el complemento de visibilidad de inventario se eliminarán. El proceso de desinstalación eliminará el registro del complemento y también iniciará un trabajo para limpiar todos los datos comerciales almacenados en el servicio.
-
-## <a name="inventory-visibility-add-in-public-api"></a>Complemento de visibilidad de inventario en API pública
-
-La API de REST pública del complemento de visibilidad de inventario presenta varios puntos finales específicos de integración. Admite tres tipos principales de interacción:
-
-- Publicar cambios disponibles en el complemento desde un sistema externo.
-- Consultar cantidades actuales disponibles desde un sistema externo.
-- Sincronización automática con Supply Chain Management disponible.
-
-La sincronización automática no forma parte de la API pública, sino que se gestiona en segundo plano para los entornos que han habilitado el complemento de visibilidad de inventario.
-
-### <a name="authentication"></a>Autentificación
-
-El token de seguridad de la plataforma se utiliza para llamar al complemento de visibilidad de inventario, por lo que debe generar un token de Azure Active Directory usando su aplicación de Azure Active Directory.
-
-Para obtener más información sobre cómo obtener el token de seguridad, consulte [Instalar el complemento de visibilidad de inventario](#install-add-in).
-
-### <a name="configure-the-inventory-visibility-api"></a>Configurar la API de visibilidad de inventario
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Configurar la API de visibilidad de inventario
 
 Antes de utilizar el servicio, debe completar las configuraciones descritas en las siguientes subsecciones. La configuración puede variar según los detalles de su entorno. Incluye principalmente cuatro partes:
 
@@ -257,7 +355,7 @@ Aquí hay una consulta de muestra sobre el producto con combinación de color y 
 
 #### <a name="custom-measurement"></a>Medida personalizada
 
-Las cantidades de medición predeterminadas están vinculadas a Supply Chain Management; sin embargo, es posible que desee tener una cantidad que se componga de una combinación de las mediciones predeterminadas. Para hacer esto, puede tener una configuración de cantidades personalizadas, que se agregarán a la salida de las consultas disponibles.
+Las cantidades de medición predeterminadas están vinculadas a Supply Chain Management. Sin embargo, es posible que desee tener una cantidad que se componga de una combinación de las medidas predeterminadas. Para hacer esto, puede tener una configuración de cantidades personalizadas, que se agregarán a la salida de las consultas disponibles.
 
 La funcionalidad simplemente le permite definir un conjunto de medidas que se agregarán, y / o un conjunto de medidas que se restarán, a partir de la medida personalizada.
 

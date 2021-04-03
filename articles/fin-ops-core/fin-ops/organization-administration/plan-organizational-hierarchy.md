@@ -3,10 +3,9 @@ title: Planificación de su jerarquía organizativa
 description: Antes de configurar las organizaciones y las jerarquías organizativas, asegúrese de saber cómo se modelará la empresa.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154418"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569370"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Planificación de su jerarquía organizativa
 
@@ -166,7 +165,7 @@ Las unidades operativas usan el contexto del país o región de la entidad jurí
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Si la organización se ha modelado como entidad jurídica
 
-Para los países o regiones que se admiten, se puede crear la mayoría de los informes estatutarios. Para obtener más información acerca de qué informes están disponibles para cada país o región, vea el [Microsoft Dynamics Localization Portal](https://docs.microsoft.com/dynamics/s-e/). (Se requiere una sesión en CustomerSource).
+Para los países o regiones que se admiten, se puede crear la mayoría de los informes estatutarios. 
 
 > [!NOTE]
 > Una capa de registro en la contabilidad general permite realizar entradas de ajuste a una empresa matriz que usa un estándar de contabilidad distinto del de la empresa secundaria. Por ejemplo, para una empresa que usa prácticas de contabilidad normalmente aceptadas en el Reino Unido (GAAP de Reino Unido), puede crear entradas de ajuste en la capa de registro. Estas entradas se pueden consolidar en una empresa matriz que usa los principios contables generalmente aceptados (GAAP) en Estados Unidos. Las entradas de ajuste no afectan a los informes de GAAP de Reino Unido.

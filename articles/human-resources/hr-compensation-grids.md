@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13415f68f41555f3e86cbe699cf921e9a2cf6d5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: b7e68ec4d172ced7ac66837e9580971d22b23b5f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114084"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465759"
 ---
 # <a name="set-up-compensation-grids"></a>Configuración de cuadrículas de compensación
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Las cuadrículas de compensación se usan para definir y mantener las estructuras de pagos para los planes de compensación fija. Las cuadrículas de compensación se pueden compartir entre varios planes o copiarse al crear un nuevo plan de compensación.  Antes de crear una cuadrícula de compensación, los niveles y los puntos de referencia deben estar configurados. Este ejemplo creará un nuevo tipo de categoría de cuadrícula de compensación con los datos de demostración para los niveles y los puntos de referencia. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

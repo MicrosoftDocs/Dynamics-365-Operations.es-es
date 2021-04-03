@@ -3,10 +3,9 @@ title: Funciones quitadas u obsoletas de versiones anteriores
 description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores.
 author: sericks007
 manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: db276c693a729b919bc609bb4b94843bb11a8fe3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154394"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559339"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas o en desuso de versiones anteriores
 
@@ -39,7 +38,7 @@ Este tema describe las características que se eliminaron o que están en desuso
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://docs.microsoft.com/dynamics/s-e/). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 con Platform update 31
 
@@ -210,7 +209,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | En las versiones anteriores a la Platform update 25, era posible crear una clase o tabla derivada de una clase o una tabla interna que está definida en otro paquete/módulo. No es una práctica segura de codificación. A partir de la Platform update 25, el compilador mostrará una advertencia. |
-| **¿Reemplazado por otra característica?**   | La advertencia del compilador se reemplazará por un error en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación.|
+| **¿Reemplazado por otra característica?**   | La advertencia del compilador se reemplazará por un error en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o ambiente de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación.|
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
@@ -220,7 +219,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Antes de la Platform update 25, era posible anular un método interno en una clase derivada que está definida en otro paquete/módulo. No es una práctica segura de codificación. A partir de la Platform update 25, el compilador mostrará una advertencia. |
-| **¿Reemplazado por otra característica?**   | Esta advertencia del compilador se reemplazará por un error de compilación en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación. |
+| **¿Reemplazado por otra característica?**   | Esta advertencia del compilador se reemplazará por un error de compilación en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o ambiente de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
@@ -375,7 +374,7 @@ Estos dos informes ya no se admiten en Finance and Operations. En su lugar, el i
 | **Estado**                       | En desuso: Los elementos de menú para los dos informes se han quitado en la versión 7.3. Sin embargo, el código para los informes permanece en el producto. El plan es quitar el código en una versión futura. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Paquetes de contenido Power BI disponibles en AppSource
-Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
+Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Rendimiento de canal minorista**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -874,7 +873,7 @@ Cuando la clave de configuración **Versiones de L. MAT.** se deshabilita, las v
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El uso de una clave de configuración para controlar las versiones de listas de materiales no se escala en un entorno de nube. |
+| **Motivo de la depreciación/eliminación** | El uso de una clave de configuración para controlar las versiones de listas de materiales no se escala en un ambiente de nube. |
 | **¿Reemplazado por otra característica?**   | N.º                                                                                      |
 | **Áreas de producto afectadas**         | Gestión de información de productos, Gestión de inventarios                                    |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                                          |
@@ -903,7 +902,7 @@ Extracto del impuesto federal para el impuesto de ICMS
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Modo brasileño de contingencia SCAN brasileña para NF-e
 
-El entorno de contingencia de (SCAN) se usa para generar, exportar e importar el estado de una Nota fiscal electrónica (NF-e) cuando el entorno de la Secretaría de Hacienda (SEFAZ) no está disponible.
+El ambiente de contingencia de (SCAN) se usa para generar, exportar e importar el estado de una Nota fiscal electrónica (NF-e) cuando el ambiente de la Secretaría de Hacienda (SEFAZ) no está disponible.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -1028,7 +1027,7 @@ Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los recursos c
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El almacenamiento de recurso compartido de archivos ya no se admite ya que los entornos hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos. El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure. El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Finance and Operations. Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos. El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente. |
+| **Motivo de la depreciación/eliminación** | El almacenamiento de recurso compartido de archivos ya no se admite ya que los ambientes hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos. El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure. El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Finance and Operations. Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos. El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente. |
 | **¿Reemplazado por otra característica?**   | El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure.   |
 | **Áreas de producto afectadas**         | Todos los módulos  |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.   |
@@ -1105,7 +1104,7 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Los controles ActiveX y de host administrados se basan en el cliente de escritorio obsoleto. |
-| **¿Reemplazado por otra característica?**   | El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el entorno de Microsoft Visual Studio Tooling. |
+| **¿Reemplazado por otra característica?**   | El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el ambiente de Microsoft Visual Studio Tooling. |
 | **Áreas de producto afectadas**         | Todos los módulos     |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.       |
 
