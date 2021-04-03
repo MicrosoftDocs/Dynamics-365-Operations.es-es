@@ -15,45 +15,48 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 267ac5447d36f63094fdb57c0d450e4d79cf138b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 12eb2d8fcdae5d60efa19e5443a01ab9bd104267
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966864"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258812"
 ---
-# <a name="maintain-bom-for-a-product-configuration-model"></a><span data-ttu-id="284a9-103">Mantener L. MAT. para un modelo de configuración de producto</span><span class="sxs-lookup"><span data-stu-id="284a9-103">Maintain BOM for a product configuration model</span></span>
+# <a name="maintain-bom-for-a-product-configuration-model"></a><span data-ttu-id="d38ed-103">Mantener L. MAT. para un modelo de configuración de producto</span><span class="sxs-lookup"><span data-stu-id="d38ed-103">Maintain BOM for a product configuration model</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="284a9-104">La ejecución de este procedimiento requiere un modelo de configuración de producto existente.</span><span class="sxs-lookup"><span data-stu-id="284a9-104">Running this procedure requires an existing product configuration model.</span></span> <span data-ttu-id="284a9-105">El modelo Altavoz superior de la empresa de demostración USMF se usa para crear este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="284a9-105">The High end speaker model in the demo company USMF is used to create this procedure.</span></span>
+<span data-ttu-id="d38ed-104">La ejecución de este procedimiento requiere un modelo de configuración de producto existente.</span><span class="sxs-lookup"><span data-stu-id="d38ed-104">Running this procedure requires an existing product configuration model.</span></span> <span data-ttu-id="d38ed-105">El modelo Altavoz superior de la empresa de demostración USMF se usa para crear este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="d38ed-105">The High end speaker model in the demo company USMF is used to create this procedure.</span></span>
 
 
-## <a name="add-a-bom-line"></a><span data-ttu-id="284a9-106">Adición de una línea de L. MAT</span><span class="sxs-lookup"><span data-stu-id="284a9-106">Add a BOM line</span></span>
-1. <span data-ttu-id="284a9-107">Haga clic en Definición de modelo de variante del producto.</span><span class="sxs-lookup"><span data-stu-id="284a9-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="284a9-108">Haga clic en Modelos de configuración del producto.</span><span class="sxs-lookup"><span data-stu-id="284a9-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="284a9-109">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="284a9-109">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="284a9-110">Seleccione el Altavoz superior para este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="284a9-110">Select the High end speaker for this procedure.</span></span>  
-4. <span data-ttu-id="284a9-111">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="284a9-111">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="284a9-112">Expanda la sección Líneas de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="284a9-112">Expand the BOM lines section.</span></span>
-6. <span data-ttu-id="284a9-113">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="284a9-113">Click Add.</span></span>
-7. <span data-ttu-id="284a9-114">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="284a9-114">In the Name field, type a value.</span></span>
-8. <span data-ttu-id="284a9-115">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="284a9-115">In the Description field, type a value.</span></span>
-9. <span data-ttu-id="284a9-116">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="284a9-116">Click Save.</span></span>
+## <a name="add-a-bom-line"></a><span data-ttu-id="d38ed-106">Adición de una línea de L. MAT</span><span class="sxs-lookup"><span data-stu-id="d38ed-106">Add a BOM line</span></span>
+1. <span data-ttu-id="d38ed-107">Haga clic en Definición de modelo de variante del producto.</span><span class="sxs-lookup"><span data-stu-id="d38ed-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="d38ed-108">Haga clic en Modelos de configuración del producto.</span><span class="sxs-lookup"><span data-stu-id="d38ed-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="d38ed-109">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="d38ed-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="d38ed-110">Seleccione el Altavoz superior para este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="d38ed-110">Select the High end speaker for this procedure.</span></span>  
+4. <span data-ttu-id="d38ed-111">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d38ed-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="d38ed-112">Expanda la sección Líneas de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="d38ed-112">Expand the BOM lines section.</span></span>
+6. <span data-ttu-id="d38ed-113">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="d38ed-113">Click Add.</span></span>
+7. <span data-ttu-id="d38ed-114">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d38ed-114">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="d38ed-115">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d38ed-115">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="d38ed-116">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="d38ed-116">Click Save.</span></span>
 
-## <a name="add-bom-line-details"></a><span data-ttu-id="284a9-117">Agregar detalles de línea de L. MAT</span><span class="sxs-lookup"><span data-stu-id="284a9-117">Add BOM line details</span></span>
-1. <span data-ttu-id="284a9-118">Haga clic en Detalles de línea de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="284a9-118">Click BOM line details.</span></span>
-2. <span data-ttu-id="284a9-119">En el campo Número de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="284a9-119">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="284a9-120">Por ejemplo, puede seleccionar el artículo M0055.</span><span class="sxs-lookup"><span data-stu-id="284a9-120">For example, you can select the item M0055.</span></span>  
-    * <span data-ttu-id="284a9-121">Para cada propiedad de la línea de L. MAT, puede seleccionar si toma un valor fijo o se asigna a un atributo.</span><span class="sxs-lookup"><span data-stu-id="284a9-121">For each BOM line property, you can select if it takes a fixed value or is mapped to an attribute.</span></span>  
-3. <span data-ttu-id="284a9-122">Active la casilla Establecer.</span><span class="sxs-lookup"><span data-stu-id="284a9-122">Select the Set check box.</span></span>
-4. <span data-ttu-id="284a9-123">Seleccione Sí en el campo Cálculo.</span><span class="sxs-lookup"><span data-stu-id="284a9-123">Select Yes in the Calculation field.</span></span>
-    * <span data-ttu-id="284a9-124">La configuración de la propiedad Cálculo en Sí garantiza que se incluye la línea de L. MAT en los cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="284a9-124">Setting the Calculation property to Yes ensures that the BOM line is included in cost calculations.</span></span>  
-5. <span data-ttu-id="284a9-125">Haga clic en la pestaña Configurar.</span><span class="sxs-lookup"><span data-stu-id="284a9-125">Click the Setup tab.</span></span>
-6. <span data-ttu-id="284a9-126">Active la casilla Establecer.</span><span class="sxs-lookup"><span data-stu-id="284a9-126">Select the Set check box.</span></span>
-7. <span data-ttu-id="284a9-127">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="284a9-127">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="284a9-128">El campo de cantidad determina qué cantidad del artículo se incluirá en la L. MAT.</span><span class="sxs-lookup"><span data-stu-id="284a9-128">The quantity field determines how much of the item that will be included in the BOM.</span></span> <span data-ttu-id="284a9-129">Esto podría ser un candidato obvio para una asignación de atributos.</span><span class="sxs-lookup"><span data-stu-id="284a9-129">This could be an obvious candidate for an attribute mapping.</span></span>  
-8. <span data-ttu-id="284a9-130">Haga clic en la ficha Dimensión.</span><span class="sxs-lookup"><span data-stu-id="284a9-130">Click the Dimension tab.</span></span>
-    * <span data-ttu-id="284a9-131">Compruebe si cualquiera de las dimensiones del producto está activas y, por tanto, debe tener un valor o atributo asignado.</span><span class="sxs-lookup"><span data-stu-id="284a9-131">Verify if any of the product dimensions are active,  and therefore must have a value or attribute assigned.</span></span>  
-9. <span data-ttu-id="284a9-132">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="284a9-132">Click OK.</span></span>
+## <a name="add-bom-line-details"></a><span data-ttu-id="d38ed-117">Agregar detalles de línea de L. MAT</span><span class="sxs-lookup"><span data-stu-id="d38ed-117">Add BOM line details</span></span>
+1. <span data-ttu-id="d38ed-118">Haga clic en Detalles de línea de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="d38ed-118">Click BOM line details.</span></span>
+2. <span data-ttu-id="d38ed-119">En el campo Número de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d38ed-119">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="d38ed-120">Por ejemplo, puede seleccionar el artículo M0055.</span><span class="sxs-lookup"><span data-stu-id="d38ed-120">For example, you can select the item M0055.</span></span>  
+    * <span data-ttu-id="d38ed-121">Para cada propiedad de la línea de L. MAT, puede seleccionar si toma un valor fijo o se asigna a un atributo.</span><span class="sxs-lookup"><span data-stu-id="d38ed-121">For each BOM line property, you can select if it takes a fixed value or is mapped to an attribute.</span></span>  
+3. <span data-ttu-id="d38ed-122">Active la casilla Establecer.</span><span class="sxs-lookup"><span data-stu-id="d38ed-122">Select the Set check box.</span></span>
+4. <span data-ttu-id="d38ed-123">Seleccione Sí en el campo Cálculo.</span><span class="sxs-lookup"><span data-stu-id="d38ed-123">Select Yes in the Calculation field.</span></span>
+    * <span data-ttu-id="d38ed-124">La configuración de la propiedad Cálculo en Sí garantiza que se incluye la línea de L. MAT en los cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="d38ed-124">Setting the Calculation property to Yes ensures that the BOM line is included in cost calculations.</span></span>  
+5. <span data-ttu-id="d38ed-125">Haga clic en la pestaña Configurar.</span><span class="sxs-lookup"><span data-stu-id="d38ed-125">Click the Setup tab.</span></span>
+6. <span data-ttu-id="d38ed-126">Active la casilla Establecer.</span><span class="sxs-lookup"><span data-stu-id="d38ed-126">Select the Set check box.</span></span>
+7. <span data-ttu-id="d38ed-127">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="d38ed-127">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="d38ed-128">El campo de cantidad determina qué cantidad del artículo se incluirá en la L. MAT.</span><span class="sxs-lookup"><span data-stu-id="d38ed-128">The quantity field determines how much of the item that will be included in the BOM.</span></span> <span data-ttu-id="d38ed-129">Esto podría ser un candidato obvio para una asignación de atributos.</span><span class="sxs-lookup"><span data-stu-id="d38ed-129">This could be an obvious candidate for an attribute mapping.</span></span>  
+8. <span data-ttu-id="d38ed-130">Haga clic en la ficha Dimensión.</span><span class="sxs-lookup"><span data-stu-id="d38ed-130">Click the Dimension tab.</span></span>
+    * <span data-ttu-id="d38ed-131">Compruebe si cualquiera de las dimensiones del producto está activas y, por tanto, debe tener un valor o atributo asignado.</span><span class="sxs-lookup"><span data-stu-id="d38ed-131">Verify if any of the product dimensions are active,  and therefore must have a value or attribute assigned.</span></span>  
+9. <span data-ttu-id="d38ed-132">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d38ed-132">Click OK.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

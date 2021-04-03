@@ -15,45 +15,48 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a15d1f4ecbf85e22bfadc1dd680d24bc56d807f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6a4ad70a87cd8c6cab2e9853f4f6c52f574d318a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007550"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257433"
 ---
-# <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a><span data-ttu-id="1f900-103">Crear una nomenclatura de números de producto para las variantes de producto predefinidas</span><span class="sxs-lookup"><span data-stu-id="1f900-103">Create a product number nomenclature for predefined product variants</span></span>
+# <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a><span data-ttu-id="a06de-103">Crear una nomenclatura de números de producto para las variantes de producto predefinidas</span><span class="sxs-lookup"><span data-stu-id="a06de-103">Create a product number nomenclature for predefined product variants</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1f900-104">Este tema explica cómo configurar una nomenclatura del número de producto para las variantes de producto predefinidas y cómo se puede asignar a un grupo de dimensiones del producto apropiado.</span><span class="sxs-lookup"><span data-stu-id="1f900-104">This topic explains how to set up a product number nomenclature for predefined product variants, and how you assign it to the appropriate product dimension group.</span></span> <span data-ttu-id="1f900-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="1f900-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1f900-106">La nueva nomenclatura del número de producto se asigna al grupo de dimensiones de producto Color y Tamaño.</span><span class="sxs-lookup"><span data-stu-id="1f900-106">The new product number nomenclature is assigned to the Color and Size product dimension group.</span></span> <span data-ttu-id="1f900-107">Esta tarea normalmente la realiza un diseñador de productos.</span><span class="sxs-lookup"><span data-stu-id="1f900-107">This task would typically be done by a product designer.</span></span>
+<span data-ttu-id="a06de-104">Este tema explica cómo configurar una nomenclatura del número de producto para las variantes de producto predefinidas y cómo se puede asignar a un grupo de dimensiones del producto apropiado.</span><span class="sxs-lookup"><span data-stu-id="a06de-104">This topic explains how to set up a product number nomenclature for predefined product variants, and how you assign it to the appropriate product dimension group.</span></span> <span data-ttu-id="a06de-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="a06de-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a06de-106">La nueva nomenclatura del número de producto se asigna al grupo de dimensiones de producto Color y Tamaño.</span><span class="sxs-lookup"><span data-stu-id="a06de-106">The new product number nomenclature is assigned to the Color and Size product dimension group.</span></span> <span data-ttu-id="a06de-107">Esta tarea normalmente la realiza un diseñador de productos.</span><span class="sxs-lookup"><span data-stu-id="a06de-107">This task would typically be done by a product designer.</span></span>
 
 
-## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="1f900-108">Crear una nomenclatura de número de producto</span><span class="sxs-lookup"><span data-stu-id="1f900-108">Create a product number nomenclature</span></span>
-1. <span data-ttu-id="1f900-109">Seleccione **Definición de modelo de variante del producto**.</span><span class="sxs-lookup"><span data-stu-id="1f900-109">Select **Product variant model definition**.</span></span>
-2. <span data-ttu-id="1f900-110">Seleccione **Nomenclatura de producto**.</span><span class="sxs-lookup"><span data-stu-id="1f900-110">Select **Product nomenclature**.</span></span>
-3. <span data-ttu-id="1f900-111">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="1f900-111">Select **New**.</span></span>
-4. <span data-ttu-id="1f900-112">En el campo **Nombre**, escriba el nombre de la nomenclatura que ayude a identificar el grupo de dimensiones de producto de destino, por ejemplo, `ColorSize`.</span><span class="sxs-lookup"><span data-stu-id="1f900-112">In the **Name** field, enter a nomenclature name that helps to identify the target product dimension group, for example, `ColorSize`.</span></span>
-5. <span data-ttu-id="1f900-113">En el campo **Descripción**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="1f900-113">In the **Description** field, type a value.</span></span>
-6. <span data-ttu-id="1f900-114">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="1f900-114">Select **Add**.</span></span>
-7. <span data-ttu-id="1f900-115">Seleccione el número de **Producto maestro**.</span><span class="sxs-lookup"><span data-stu-id="1f900-115">Select **Product master** number.</span></span>
-8. <span data-ttu-id="1f900-116">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="1f900-116">Select **Add**.</span></span>
-9. <span data-ttu-id="1f900-117">Seleccione **Constante de texto**.</span><span class="sxs-lookup"><span data-stu-id="1f900-117">Select **Text constant**.</span></span>
-10. <span data-ttu-id="1f900-118">En el campo **Texto**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="1f900-118">In the **Text** field, type a value.</span></span>
-11. <span data-ttu-id="1f900-119">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="1f900-119">Select **Add**.</span></span>
-12. <span data-ttu-id="1f900-120">Seleccione **Color**.</span><span class="sxs-lookup"><span data-stu-id="1f900-120">Select **Color**.</span></span>
-13. <span data-ttu-id="1f900-121">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="1f900-121">Select **Add**.</span></span>
-14. <span data-ttu-id="1f900-122">Seleccione **Constante de texto**.</span><span class="sxs-lookup"><span data-stu-id="1f900-122">Select **Text constant**.</span></span>
-15. <span data-ttu-id="1f900-123">En el campo **Texto**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="1f900-123">In the **Text** field, type a value.</span></span>
-16. <span data-ttu-id="1f900-124">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="1f900-124">Select **Add**.</span></span>
-17. <span data-ttu-id="1f900-125">Seleccione **Tamaño**.</span><span class="sxs-lookup"><span data-stu-id="1f900-125">Select **Size**.</span></span>
-18. <span data-ttu-id="1f900-126">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="1f900-126">Close the page.</span></span>
+## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="a06de-108">Crear una nomenclatura de número de producto</span><span class="sxs-lookup"><span data-stu-id="a06de-108">Create a product number nomenclature</span></span>
+1. <span data-ttu-id="a06de-109">Seleccione **Definición de modelo de variante del producto**.</span><span class="sxs-lookup"><span data-stu-id="a06de-109">Select **Product variant model definition**.</span></span>
+2. <span data-ttu-id="a06de-110">Seleccione **Nomenclatura de producto**.</span><span class="sxs-lookup"><span data-stu-id="a06de-110">Select **Product nomenclature**.</span></span>
+3. <span data-ttu-id="a06de-111">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="a06de-111">Select **New**.</span></span>
+4. <span data-ttu-id="a06de-112">En el campo **Nombre**, escriba el nombre de la nomenclatura que ayude a identificar el grupo de dimensiones de producto de destino, por ejemplo, `ColorSize`.</span><span class="sxs-lookup"><span data-stu-id="a06de-112">In the **Name** field, enter a nomenclature name that helps to identify the target product dimension group, for example, `ColorSize`.</span></span>
+5. <span data-ttu-id="a06de-113">En el campo **Descripción**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="a06de-113">In the **Description** field, type a value.</span></span>
+6. <span data-ttu-id="a06de-114">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="a06de-114">Select **Add**.</span></span>
+7. <span data-ttu-id="a06de-115">Seleccione el número de **Producto maestro**.</span><span class="sxs-lookup"><span data-stu-id="a06de-115">Select **Product master** number.</span></span>
+8. <span data-ttu-id="a06de-116">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="a06de-116">Select **Add**.</span></span>
+9. <span data-ttu-id="a06de-117">Seleccione **Constante de texto**.</span><span class="sxs-lookup"><span data-stu-id="a06de-117">Select **Text constant**.</span></span>
+10. <span data-ttu-id="a06de-118">En el campo **Texto**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="a06de-118">In the **Text** field, type a value.</span></span>
+11. <span data-ttu-id="a06de-119">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="a06de-119">Select **Add**.</span></span>
+12. <span data-ttu-id="a06de-120">Seleccione **Color**.</span><span class="sxs-lookup"><span data-stu-id="a06de-120">Select **Color**.</span></span>
+13. <span data-ttu-id="a06de-121">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="a06de-121">Select **Add**.</span></span>
+14. <span data-ttu-id="a06de-122">Seleccione **Constante de texto**.</span><span class="sxs-lookup"><span data-stu-id="a06de-122">Select **Text constant**.</span></span>
+15. <span data-ttu-id="a06de-123">En el campo **Texto**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="a06de-123">In the **Text** field, type a value.</span></span>
+16. <span data-ttu-id="a06de-124">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="a06de-124">Select **Add**.</span></span>
+17. <span data-ttu-id="a06de-125">Seleccione **Tamaño**.</span><span class="sxs-lookup"><span data-stu-id="a06de-125">Select **Size**.</span></span>
+18. <span data-ttu-id="a06de-126">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="a06de-126">Close the page.</span></span>
 
-## <a name="assign-the-nomenclature-to-a-product-master"></a><span data-ttu-id="1f900-127">Asignar la nomenclatura a un producto maestro</span><span class="sxs-lookup"><span data-stu-id="1f900-127">Assign the nomenclature to a product master</span></span>
-1. <span data-ttu-id="1f900-128">Seleccione **Grupos de dimensiones de producto**.</span><span class="sxs-lookup"><span data-stu-id="1f900-128">Select **Product dimension groups**.</span></span>
-2. <span data-ttu-id="1f900-129">Seleccione el grupo **Dimensiones de productos SizeCol**.</span><span class="sxs-lookup"><span data-stu-id="1f900-129">Select the **SizeCol product dimension** group.</span></span>
-3. <span data-ttu-id="1f900-130">Seleccione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="1f900-130">Select **Edit**.</span></span>
-4. <span data-ttu-id="1f900-131">Seleccione **Sí** en el campo **Usar nomenclatura**.</span><span class="sxs-lookup"><span data-stu-id="1f900-131">Select **Yes** in the **Use nomenclature** field.</span></span>
-5. <span data-ttu-id="1f900-132">En el campo **Nomenclatura del número de variante del producto**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="1f900-132">In the **Product variant number nomenclature** field, enter or select a value.</span></span>
-6. <span data-ttu-id="1f900-133">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="1f900-133">Close the page.</span></span>
+## <a name="assign-the-nomenclature-to-a-product-master"></a><span data-ttu-id="a06de-127">Asignar la nomenclatura a un producto maestro</span><span class="sxs-lookup"><span data-stu-id="a06de-127">Assign the nomenclature to a product master</span></span>
+1. <span data-ttu-id="a06de-128">Seleccione **Grupos de dimensiones de producto**.</span><span class="sxs-lookup"><span data-stu-id="a06de-128">Select **Product dimension groups**.</span></span>
+2. <span data-ttu-id="a06de-129">Seleccione el grupo **Dimensiones de productos SizeCol**.</span><span class="sxs-lookup"><span data-stu-id="a06de-129">Select the **SizeCol product dimension** group.</span></span>
+3. <span data-ttu-id="a06de-130">Seleccione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="a06de-130">Select **Edit**.</span></span>
+4. <span data-ttu-id="a06de-131">Seleccione **Sí** en el campo **Usar nomenclatura**.</span><span class="sxs-lookup"><span data-stu-id="a06de-131">Select **Yes** in the **Use nomenclature** field.</span></span>
+5. <span data-ttu-id="a06de-132">En el campo **Nomenclatura del número de variante del producto**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="a06de-132">In the **Product variant number nomenclature** field, enter or select a value.</span></span>
+6. <span data-ttu-id="a06de-133">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="a06de-133">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
