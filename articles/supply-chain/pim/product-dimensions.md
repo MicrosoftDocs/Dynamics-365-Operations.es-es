@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118690"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260656"
 ---
 # <a name="product-dimensions"></a>Dimensiones de producto
 
@@ -106,7 +106,7 @@ Cuando esté probando la compatibilidad de sus soluciones con la dimensión de l
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Asignaciones:** si alguna asignación usa las dimensiones del inventario, hay que actualizar la asignación de relación correspondiente a estas asignaciones para que incluya la dimensión de la versión. En el modelo extendido o las extensiones de tabla, busque tablas en las que los campos incluyan dimensiones de inventario.
-1. **Funcionalidad de Microsoft Dynamics 365 Commerce:** una vez activada, la dimensión de versión aparecerá en todo el código específico de Commerce en Dynamics 365 Supply Chain Management. Sin embargo, la dimensión de versión aún no es compatible con la base de datos de canal de Commerce ni con las aplicaciones de punto de venta (PDV) o de comercio electrónico. Estas aplicaciones específicas de Commerce no admitirán a los usuarios que vendan/envíen o devuelvan/reciban inventario por dimensión de versión. Las funciones de búsqueda de disponibilidad de inventario no discernirán el inventario por dimensión de versión en las aplicaciones de Commerce. Este comportamiento se parece al comportamiento actual de la dimensión de configuración en Commerce.
+1. **Funcionalidad de Microsoft Dynamics 365 Commerce**: una vez activada, la dimensión de versión aparecerá en todo el código específico de Commerce en Dynamics 365 Supply Chain Management. Sin embargo, la dimensión de versión aún no es compatible con la base de datos de canal de Commerce ni con las aplicaciones de punto de venta (PDV) o de comercio electrónico. Estas aplicaciones específicas de Commerce no admitirán a los usuarios que vendan/envíen o devuelvan/reciban inventario por dimensión de versión. Las funciones de búsqueda de disponibilidad de inventario no discernirán el inventario por dimensión de versión en las aplicaciones de Commerce. Este comportamiento se parece al comportamiento actual de la dimensión de configuración en Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Activar la dimensión de versión
 

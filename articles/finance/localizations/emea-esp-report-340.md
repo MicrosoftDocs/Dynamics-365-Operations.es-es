@@ -15,12 +15,12 @@ ms.search.region: Spain
 ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 94a40fad4f5b4f71393bfae89cd17774fec192a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 121c128dbe2a71e61a1644b08c15e4088005cc8a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992721"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260767"
 ---
 # <a name="report-340-for-spain"></a>Informe 340 para España
 
