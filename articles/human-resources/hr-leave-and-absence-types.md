@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b21d4d631bcdf603b38212f5f76bb78937d3d3c
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f1c3ced43b1f5693c5d5466fd97a20beb358fa20
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115085"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463343"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de permisos y ausencias
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipos de ausencias que los empleados puedan notificar. Puede adaptar los tipos de baja en función de las necesidades de su organización. Entre los tipos de baja se incluyen:
 
@@ -72,8 +74,7 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
    
  3. Establezca **Tipo de baja de transferencia** para el tipo de baja. Cuando selecciona esta opción, los saldos de arrastre se transferirán al tipo de baja especificado. El tipo de baja de transferencia también debe incluirse en el plan de baja y ausencia. 
  
- 4. Defina las **Reglas de vencimiento** para el tipo de licencia. Cuando configura esta opción, puede elegir la unidad de días o meses y establecer la duración hasta el vencimiento. También puede establecer la fecha de vigencia de la regla de vencimiento. Cualquier saldo de baja que exista al momento del vencimiento se restará del tipo de baja y se reflejará en el saldo de bajas. 
- 
+ 4. Defina las **Reglas de vencimiento** para el tipo de licencia. Cuando configura esta opción, puede elegir la unidad de días o meses y establecer la duración hasta el vencimiento. También puede establecer la fecha de vigencia de la regla de vencimiento. La fecha de vigencia se usa para determinar cuándo comenzar a ejecutar el trabajo por lotes que procesa el vencimiento de la licencia o la fecha en que la regla entra en vigencia. El vencimiento en sí siempre ocurrirá en la fecha de inicio del plan de licencia una vez que el trabajo por lotes esté configurado para procesarse. Por ejemplo, la fecha de inicio del plan puede ser el 1/1/2020, pero la regla no se creó hasta el 6/1/2020. Al establecer la fecha de vigencia en 1/6/2020, la regla se procesará en el límite del próximo año, es decir, 1/1/2021. Cualquier saldo de baja que exista al momento del vencimiento se restará del tipo de baja y se reflejará en el saldo de bajas. 
  
 ## <a name="see-also"></a>Consulte también
 

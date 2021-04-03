@@ -3,7 +3,7 @@ title: Aplicación Recursos humanos en Teams
 description: Este tema presenta la aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114153"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487882"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicación Recursos humanos en Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 La aplicación Microsoft Dynamics 365 Human Resources de Microsoft Teams permite a los empleados solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre en Microsoft Teams. Los empleados pueden interactuar con un bot para solicitar información. La pestaña **Tiempo libre** proporciona información más detallada. Además, pueden enviar información a los usuarios sobre el próximo tiempo libre a través de equipos y chats que haya fuera de la aplicación de Human Resources.
 
-![Bot de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-admin-teams-leave-app-bot.png)
+![Bot de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-bot.png)
 
 ![Pestaña Tiempo libre de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ La aplicación Microsoft Dynamics 365 Human Resources de Microsoft Teams permite
 
 ## <a name="install-and-setup"></a>Instalar y configurar
 
-Puede encontrar la aplicación Recursos Humanos en la tienda Teams. Para obtener información sobre cómo instalar la aplicación Teams, consulte [Administrar solicitudes de licencia en Teams](hr-teams-leave-app.md).
+Puede encontrar la aplicación Dynamics 365 Human Resources en la tienda de Teams. Para obtener información sobre cómo instalar la aplicación Teams, consulte [Administrar solicitudes de licencia en Teams](hr-teams-leave-app.md).
 
 Para obtener información sobre la administración de permisos de aplicaciones en Teams, consulte [Administrar las directivas de permisos de aplicaciones en Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Si desea que sus usuarios vean el calendario de ausencias y ausencias en la aplicación, deberá habilitar **Calendario de ausencias y ausencias en Teams** en Gestión de funciones. Para obtener más información sobre la habilitación de características, consulte [Administrar características](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Habilitar notificaciones para la aplicación Human Resources en Teams
 
-Si desea que los usuarios reciban notificaciones de solicitud de permiso en la aplicación Teams, debe habilitar las notificaciones en Human Resources.
+Si desea que los usuarios reciban notificaciones de solicitud de permiso en la aplicación Teams, debe habilitar las notificaciones en Dynamics 365 Human Resources.
 
 >[!NOTE]
->Solo los usuarios que hayan iniciado sesión en Teams y que utilicen la aplicación Human Resources Teams recibirán notificaciones.
+>Solo los usuarios que hayan iniciado sesión en Teams y que utilicen la aplicación Dynamics 365 Human Resources Teams recibirán notificaciones.
 
 1. En Human Resources, seleccione **Administración del sistema**.
 
@@ -66,7 +68,7 @@ Si desea que los usuarios reciban notificaciones de solicitud de permiso en la a
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Activar o desactivar las notificaciones de Teams para usuarios individuales
 
-Una vez que haya habilitado las notificaciones para la aplicación en la aplicación Human Resources Teams, puede activar o desactivar las notificaciones para usuarios individuales.
+Una vez que haya habilitado las notificaciones para la aplicación en la aplicación Dynamics 365 Human Resources Teams, puede activar o desactivar las notificaciones para usuarios individuales.
 
 1. En Human Resources, seleccione **Administración del sistema**.
 
@@ -82,9 +84,28 @@ Una vez que haya habilitado las notificaciones para la aplicación en la aplicac
 
 6. Seleccione **Guardar**.
 
-## <a name="known-issues"></a>Problemas conocidos
+## <a name="supported-languages"></a>Idiomas admitidos
 
-| Emitir | Estado |
+La aplicación Dynamics 365 Human Resources en Teams admite los siguientes idiomas:
+
+| ID de configuración regional | Idioma |
+| --- | --- |
+| de-DE | Alemán (Alemania) |
+| es-ES | Español (España) |
+| es-MX | Español (México) |
+| fr-CA | Francés (Canadá) |
+| fr-FR | Francés (Francia) |
+| it-IT | Italiano (Italia) |
+| nl-NL | Neerlandés (Países Bajos) |
+| pt-BR | Portugués (Brasil) |
+| tr-TR | Turco (Turquía) |
+| zh-CN | Chino (Simplificado) |
+
+## <a name="notes"></a>Notas
+
+Los siguientes elementos de trabajo están programados para versiones futuras:
+
+| Elemento de trabajo | Estado |
 | --- | --- |
 | El saldo es incorrecto si se envía tiempo libre para una fecha futura. | La previsión no está disponible aún. El saldo se muestra para la fecha actual. |
 | No se puede cancelar una solicitud **En revisión**. | Esta funcionalidad no es compatible actualmente y se agregará en una versión futura. |
@@ -96,11 +117,11 @@ Si un usuario tiene problemas para iniciar sesión o utilizar la aplicación Equ
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>No puedo iniciar sesión en la aplicación de recursos humanos en Teams
 
-Si un usuario se comunica con usted porque no puede iniciar sesión en la aplicación, verifique que el usuario tenga un registro de empleado asociado en Human Resources.
+Si un usuario se comunica con usted porque no puede iniciar sesión en la aplicación, verifique que tenga un registro de empleado asociado en Human Resources.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Error al aprobar solicitudes de licencia en la aplicación Human Resources en Teams
 
-Si un usuario recibe un error mientras intenta aprobar solicitudes de permiso en la aplicación Teams, realice los siguientes pasos de solución de problemas:
+Si un usuario recibe un error mientras intenta aprobar solicitudes de permiso en la aplicación Teams, intente los siguientes pasos de solución de problemas:
 
 1. Verifique que su cuenta de Teams sea la misma que usan para acceder a Human Resources.
 

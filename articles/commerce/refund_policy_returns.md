@@ -16,18 +16,16 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 89e8fe78414e73053317ebe19e3afcc89231d440
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 03e46a7f8d110bd9ef3b353b150116bbf8a70ad5
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979731"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478125"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Crear y actualizar una directiva de devoluciones y reembolsos para un canal
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>Visión general
 
 La directiva de devoluciones del canal en Dynamics 365 Commerce permite a los minoristas establecer medidas de cumplimiento sobre las cuales se pueden permitir formas de pago para procesar una devolución en un dispositivo de punto de venta (PDV).  
 

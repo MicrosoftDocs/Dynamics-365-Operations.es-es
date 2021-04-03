@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a5e7ef2021e41c13b82523f2dc6a1b09bd1ba9f
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 5030203877ebdf885fb55c7946bfd4ee0c883c2e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115905"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465687"
 ---
 # <a name="develop-a-compensation-structure"></a>Desarrollar una estructura de compensaciones
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artículo le guía por el proceso de crear un plan de compensación fijo e inscribir empleados en el plan siguiendo reglas de idoneidad. Este artículo utiliza los datos de demostración de USMF y se aplica a los Gerentes de Compensación y Beneficios.
 

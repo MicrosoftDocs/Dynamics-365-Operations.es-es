@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccf7901ebbea655b7f795a48944c6f03f9cf210a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ecabac54134629074ac01944963a037c2cdc63c9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115111"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467178"
 ---
 # <a name="create-a-working-time-calendar"></a>Crear un calendario de horas de trabajo
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Un calendario de horas de trabajo en Dynamics 365 Human Resources muestra los días y las horas en que trabajan los empleados en su organización. Cuando un empleado envía una solicitud de tiempo libre, no tiene que preocuparse de días festivos y cierres.
 

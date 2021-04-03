@@ -1,6 +1,6 @@
 ---
 title: Administración de tareas en PDV
-description: Este tema describe la gestión de tareas en la aplicación Microsoft Dynamics 365 Commerce de punto de venta (PDV).
+description: Este tema describe la gestión de tareas en la aplicación de punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 889cc90b534de33ccd0e2bea367b2da42b5d72e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006194"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478371"
 ---
 # <a name="task-management-in-pos"></a>Administración de tareas en PDV
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe la gestión de tareas en la aplicación Microsoft Dynamics 365 Commerce de punto de venta (PDV).
-
-## <a name="overview"></a>Visión general
+Este tema describe la gestión de tareas en la aplicación de punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
 
 La aplicación Dynamics 365 Commerce PDV tiene funciones de administración de tareas que permiten a los gerentes de tienda y trabajadores administrar tareas y actualizar el estado de la tarea. Los trabajadores de la tienda pueden acceder a las tareas seleccionando el mosaico **Tareas** mosaico en la página de inicio de PDV o seleccionando notificaciones de tareas. Por defecto, los trabajadores de la tienda son llevados a la pestaña **Mis tareas**, donde pueden ver las tareas que se les asignan. Sin embargo, pueden cambiar fácilmente a las pestañas **Tareas atrasadas**, **Tareas abiertas** y **Listas de tareas**.
 

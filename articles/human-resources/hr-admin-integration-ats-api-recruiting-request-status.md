@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 55ed9c391a1b5f86c3c443b9fceeee5c2301444d
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 0032e6bfdbfd2792dafda8bf24a1b0cbc551740d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125963"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464655"
 ---
 # <a name="recruiting-request-status"></a>Estado de solicitud de contratación
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tema describe el conjunto de opciones de estado de solicitud de contratación para Dynamics 365 Human Resources.
 

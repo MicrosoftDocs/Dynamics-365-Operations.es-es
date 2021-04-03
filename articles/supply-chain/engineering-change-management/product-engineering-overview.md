@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001957"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476684"
 ---
 # <a name="engineering-change-management-overview"></a>Visión general de la gestión de cambios de ingeniería
 
@@ -44,20 +44,24 @@ La gestión de cambios de ingeniería le ayuda a planificar y gestionar el contr
 
 El video anterior ([Capacidades de gestión de cambios en Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) está incluido en la [lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>Active la gestión de cambios de ingeniería para su sistema
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Active la gestión de cambios de ingeniería y las funciones de dimensión de versión para su sistema.
 
-Primero, active la gestión de cambios de ingeniería siguiendo estos pasos.
+Antes de que pueda usar la administración de cambios de ingeniería, debe activar la característica *Gestión de cambios de ingeniería* y su clave de configuración. Si también desea realizar un seguimiento de la dimensión de la versión de los productos en las transacciones (opcional), también debe habilitar la función *Dimensión de la versión del producto* y su clave de configuración.
+
+Primero, active esas funciones siguiendo estos pasos.
 
 1. Vaya a [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Busque actualizaciones.
 1. Active la característica llamada **Administración de cambios de ingeniería**.
+1. Si desea utilizarlo, active también la función que se denomina **Versión de dimensión del producto**.
 
-A continuación, active la clave de configuración de **Gestión de cambios de ingeniería** siguiendo estos pasos.
+Luego, active las claves de configuración siguiendo estos pasos.
 
 1. Coloque su sistema en modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**.
-1. Expanda el nodo **Comercio** y seleccione la casilla **Gestión de cambios de ingeniería**.
+1. Expanda el nodo **Comercio**.
+1. Seleccione la casilla **Gestión de cambios de ingeniería**.
+1. Si desea utilizarlo, seleccione también la casilla **Dimensión del producto - Versión**.
 1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

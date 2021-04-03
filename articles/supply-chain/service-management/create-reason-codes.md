@@ -17,29 +17,24 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e6010440599c5e60415c1261927de73f520034
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 254a94548bc75ee6d1eae1d1c9f3ae4bdbf58855
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965983"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470986"
 ---
-# <a name="create-reason-codes"></a>Crear códigos de motivo    
+# <a name="create-reason-codes"></a>Crear códigos de motivo
 
 [!include [banner](../includes/banner.md)]
 
+1. Vaya a **Gestión de servicio** \> **Configuración** \> **Pedidos de servicio** \> **Códigos de motivo de etapa**.
 
-1.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Pedidos de servicio** \> **Códigos de motivo de etapa**.
+1. Seleccione **Nuevo** para crear un código de motivo nuevo.
 
-2.  Presione CTRL+N para crear un nuevo código de motivo.
-
-3.  Presione CTRL+S para guardar el código de motivo.
+1. Seleccione **Guardar** para guardar el código de motivo.
 
 Cuando se le solicite un código de motivo que explique por qué se está actualizando la etapa del pedido de servicio, puede seleccionar entre los códigos de motivo que ha creado aquí.
 
-  
-
-
-
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

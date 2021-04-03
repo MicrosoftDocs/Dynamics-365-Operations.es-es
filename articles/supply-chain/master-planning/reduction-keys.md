@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8732d0a032b7dd44918955354c56321d065d4a77
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d16de8c339fadff074ef8ec30b0b4d6e3412569
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001858"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470778"
 ---
 # <a name="forecast-reduction-keys"></a>Previsión de las claves de reducción
 
@@ -198,7 +198,7 @@ Por lo tanto, se crean los siguientes pedidos planificados.
 Una clave de reducción de previsión se usa en **Transacciones - clave de reducción** y los métodos **Porcentaje - clave de reducción** para reducir los requisitos previstos de previsión. Siga estos pasos para crear y configurar una clave de reducción.
 
 1. Vaya a **Planificación maestra \> Configuración \> Cobertura \> Claves de reducción**.
-2. Seleccione **Nueva** o pulse **CTRL+N** para crear una clave de reducción.
+2. Seleccione **Nuevo** para crear una clave de reducción.
 3. En el campo **Clave de reducción** , especifique un identificador único para la clave de reducción de previsión. Después escriba un nombre en el campo **Nombre**. 
 4. Definir períodos y el porcentaje de la clave de reducción en cada período:
 
