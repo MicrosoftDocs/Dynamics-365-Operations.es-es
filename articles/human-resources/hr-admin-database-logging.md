@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 50346cc495fe08f49137dba59dbcbb3f7f838c7b
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129288"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467658"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurar y administrar el registro de la base de datos
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puede realizar un seguimiento de los cambios en las tablas y campos en Dynamics 365 Human Resources con registro de base de datos. En este tema se describe cómo:
 

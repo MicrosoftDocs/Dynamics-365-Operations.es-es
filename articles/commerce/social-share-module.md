@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 0a5ad1f4a9bb317e128ad14f21a4e6c48cab8a72
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0e7f30686894f9cf92257e99d95cc8b00f76f899
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985545"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234326"
 ---
-# <a name="social-share-module"></a>Módulo Compartir en redes sociales
+# <a name="social-share-module"></a>Módulo de compartir en redes sociales
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de compartir en redes sociales y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Los módulos para compartir en redes sociales permiten a los usuarios compartir las direcciones URL de las páginas del sitio de comercio electrónico en las redes sociales, como Facebook, Twitter, Pinterest y LinkedIn. Las direcciones URL de las páginas del sitio también se pueden compartir por correo electrónico. Los módulos para compartir en redes sociales se utilizan comúnmente en las páginas de detalles del producto (PDP) para ayudar a los usuarios a compartir información sobre el producto.
 
