@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89563204cf1423ddce47d7bacace8f14edf87005
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ccc6bf2e8b070e92cc4dbb98d8ec35ce60723516
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116005"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468092"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Gestionar directivas de compra y venta de bajas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puede permitir que los empleados compren y vendan bajas creando una directiva de compra y venta de bajas. Puede configurar estas políticas para utilizar el flujo de trabajo para las aprobaciones, establecer cantidades y tarifas máximas, y establecer tarifas de compra y venta. 
 

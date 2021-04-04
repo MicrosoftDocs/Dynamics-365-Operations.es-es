@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 07ceed65a0346912d4be012a5cec502b0f0a6149
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 0e08c0c02393506e1e292676c954bdf3850029f7
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114072"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468308"
 ---
 # <a name="configure-waiting-periods"></a>Configurar períodos de espera
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 En Microsoft Dynamics 365 Human Resources, los días de espera establecen un hito para usarlo en los planes de beneficios. Por ejemplo, tres meses a partir de la fecha de contratación, el primero de cada mes o seis meses.   
 

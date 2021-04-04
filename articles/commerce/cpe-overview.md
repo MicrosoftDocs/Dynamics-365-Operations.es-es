@@ -1,6 +1,6 @@
 ---
 title: Información general del entorno de evaluación de Dynamics 365 Commerce
-description: Este tema ofrece una visión general del entorno de evaluación de Microsoft Dynamics 365 Commerce.
+description: Este tema ofrece una visión general del ambiente de evaluación de Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
 ms.date: 07/16/2020
@@ -16,23 +16,21 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e08c2f327771d7731b836840006d63b6ecb7dfc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cc6bffba6ee402c6b48d6a3c8f8356eb32b5423b
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000959"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478029"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Información general del entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema ofrece una visión general del entorno de evaluación de Microsoft Dynamics 365 Commerce.
+Este tema ofrece una visión general del ambiente de evaluación de Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Los entornos de evaluación de Commerce no suelen estar disponibles y se conceden a socios y clientes por solicitud. Para obtener más información, póngase en contacto con su partner de Microsoft.
-
-## <a name="overview"></a>Información general
 
 El entorno de evaluación de Commerce es un entorno integral opcional de Dynamics 365 Commerce que permite a partners y posibles clientes probar el producto de Commerce.
 

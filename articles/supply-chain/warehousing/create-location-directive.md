@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
+ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963319"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470528"
 ---
 # <a name="work-with-location-directives"></a>Trabajar con directivas de ubicación
 
@@ -239,7 +239,7 @@ Puede definir varias acciones de las directivas de la ubicación para cada líne
     - **Redondea al lote completo LP y FEFO** - Esta estrategia combina los elementos de las esterategias *Reserva de lotes FEFO* y *Redondea a un LP completo*. Es válido solo para elementos habilitados por lotes y directivas de ubicación que tienen un tipo de trabajo de *Selección*. La línea debe estar habilitada por lotes para usar la estrategia *Reserva de lotes FEFO* y la estrategia *Redondea a un LP completo* solo se puede utilizar para el reabastecimiento. Si esta estrategia se configura junto con un límite de existencias de la ubicación, puede provocar que la ubicación de trabajo seleccionada se sobrecargue y se ignoren los límites de existencias.
     - **Redondear por arriba hasta matrícula de entidad de almacén completa**: esta estrategia se usa para redondear hacia arriba la cantidad de inventario de modo que coincida con la cantidad de matrícula de entidad de almacén asignada a los artículos que se van a seleccionar. Solo puede usar esta estrategia para las directivas de ubicación de reabastecimiento del tipo *Selección*. Si esta estrategia se configura junto con un límite de existencias de la ubicación, puede provocar que la ubicación de trabajo seleccionada se sobrecargue y se ignoren los límites de existencias.
     - **Guiado por matrícula** – Use esta estrategia cuando libere el pedido al almacén para crear el trabajo de picking y colocación. Puede usar este enfoque para varias matrículas de entidad de almacén. Esta estrategia guiada por matrículas tratará de reservar y crear trabajo de picking en las ubicaciones que contienen las matrículas solicitadas que se han asociado con las líneas de orden de transferencia. Sin embargo, si estas acciones no se pueden completar, pero aún desea crear un trabajo de recolección, debe recurrir a otra estrategia para las acciones de directiva de ubicación. Dependiendo de los requisitos de su proceso empresarial, es posible que también desee buscar inventario en otra área del almacén.
-    - **Ubicación en blanco sin trabajo entrante**: use esta estrategia para localizar ubicaciones vacías. Una ubicación se considera vacía si no tiene ningún inventario físico y ningún trabajo entrante previsto. Solo puede usar esta estrategia para las directivas de ubicación que tienen el tipo de trabajo *Selección*.
+    - **Ubicación en blanco sin trabajo entrante**: use esta estrategia para localizar ubicaciones vacías. Una ubicación se considera vacía si no tiene ningún inventario físico y ningún trabajo entrante previsto. Solo puede usar esta estrategia para las directivas de ubicación que tienen el tipo de trabajo *Ubicación*.
     - **Vencimiento de ubicación FIFO** – Puede usar la estrategia FIFO para enviar artículos con seguimiento por lotes y artículos sin seguimiento por lotes, según la fecha en que el inventario entró en el almacén. Esta capacidad puede ser especialmente útil para el inventario sin seguimiento por lotes, en el que una fecha de vencimiento no está disponible para utilizarla en la clasificación. La estrategia FIFO busca la ubicación que contiene la fecha de vencimiento más antigua y luego asigna el picking en función de esa fecha de vencimiento.
     - **Vencimiento de ubicación LIFO** – Puede usar la estrategia LIFO para enviar artículos con seguimiento por lotes y artículos sin seguimiento por lotes, según la fecha en que el inventario entró en el almacén. Esta capacidad puede ser especialmente útil para el inventario sin seguimiento por lotes, en el que una fecha de vencimiento no está disponible para utilizarla en la clasificación. La estrategia LIFO busca la ubicación que contiene la fecha de vencimiento más reciente y luego asigna el picking en función de esa fecha de vencimiento.
 

@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a53fc77a7d457534428929bd431175be7cf450f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 14da5fd2b409790de2269036ccb941ffa6d3311c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979656"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478317"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Crear un perfil de funcionalidad comercial
-
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo crear un perfil de funcionalidad en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 El perfil de funcionalidad comercial proporciona varias configuraciones utilizadas para los canales en línea. Cada canal debe especificar un perfil de funcionalidad.
 

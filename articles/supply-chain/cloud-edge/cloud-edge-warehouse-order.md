@@ -19,12 +19,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c04127b9fe621d962be2d7fe06358b3bd1b78916
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5105728"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556371"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Pedidos de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -51,6 +51,8 @@ Para crear un pedido de almacén, siga estos pasos.
 1. Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra**.
 1. En el panel de acciones, en la pestaña **Almacén**, en el grupo **Acciones**, seleccione **Liberar al almacén**.
 1. Para ver las líneas de pedido de almacén relacionadas, abra el pedido de compra relevante, seleccione una línea en la sección **Líneas de pedido de compra** y, después, en la barra de herramientas, seleccione **Almacén \> Líneas de pedido de almacén**. Para ver todas las líneas, vaya a **Gestión de almacenes \> Consultas e informes \> Líneas de pedido de almacén**.
+
+También puede activar el proceso *Liberar al almacén* desde un trabajo por lotes yendo a **Gestión de almacén> Liberación a almacén> Liberación automática de órdenes de compra**. Al configurar el trabajo por lotes, puede seleccionar líneas de pedido de compra específicas en función de una consulta. Un escenario típico sería configurar un trabajo por lotes recurrente que libere todas las líneas de órdenes de compra confirmadas que se espera lleguen al día siguiente.
 
 ## <a name="cancel-a-warehouse-order"></a>Cancelar un pedido de almacén
 

@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c486567934f90a69aad3650d689fbff3256d397
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 777dfa2078adf31d651003f1075203c9b016ab1a
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974718"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470732"
 ---
-# <a name="create-service-subscriptions-from-a-subscription-group"></a>Crear suscripciones de servicio desde un grupo de suscripciones 
+# <a name="create-service-subscriptions-from-a-subscription-group"></a>Crear suscripciones de servicio a partir de un grupo de suscripciones 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.
+1.  Seleccione **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.
 
 2.  Seleccione un grupo de suscripciones.
 
-3.  Haga clic en el botón **Suscripciones de servicio**.
+3.  Seleccione el botón **Suscripciones de servicio**.
 
-4.  Presione CTRL+N para crear una suscripción nueva. El campo del grupo de suscripciones muestra información del grupo de suscripciones en el formulario **Suscripción**.
+4.  Seleccione **Nuevo** para crear una nueva suscripción. El campo del grupo de suscripciones muestra información del grupo de suscripciones en el formulario **Suscripción**.
 
 5.  Especifique la información de los campos restantes.
 

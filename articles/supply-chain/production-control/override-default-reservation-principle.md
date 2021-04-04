@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078303"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501111"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Invalidar el principio de reserva predeterminado para materiales en producción
 
@@ -38,11 +39,11 @@ Por ejemplo, si tiene materias primas o ingredientes que requieren trabajo de se
 Antes de poder usar la característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *control de producción*
-- **Nombre de la función:** *Anular la reserva de producción predeterminada*
+- **Nombre de la función:** *(versión preliminar) Anular la reserva de producción predeterminada*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Asignar una política de reserva de producción a un grupo de modelos de artículos
 
-1. Ir a **Gestión de costos &gt; Configuración de políticas de contabilidad de inventario &gt; Grupos de modelos de artículos**.
+1. Ir a **Gestión de costos \> Configuración de políticas de contabilidad de inventario \> Grupos de modelos de artículos**.
 1. Cree o seleccione un grupo de modelos de artículos.
 1. En la ficha desplegable **Políticas de inventario**, seleccione la casilla de verificación **Anular la reserva de producción de artículos**.
 1. En el campo **Reserva**, seleccione el principio de reserva para los artículos que pertenecen al grupo de modelos seleccionado. (Estos elementos incluyen elementos que están en una lista de materiales o en una línea de fórmula).

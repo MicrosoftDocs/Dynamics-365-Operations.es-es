@@ -16,18 +16,16 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2519dcaf657b495a494b6f45f93930d980d89a65
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965332"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477813"
 ---
-# <a name="set-up-order-fulfillment-for-stores"></a>Configuración del cumplimiento de pedido para almacenes
+# <a name="set-up-order-fulfillment-for-stores"></a>Configurar cumplimiento de pedido para almacenes
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>Información general
 
 Muchos minoristas quisieran optimizar el cumplimiento de pedidos habilitando almacenes para atender pedidos. El cumplimiento de pedidos a nivel del almacén puede facilitar las escenarios de sobreabastecimiento para un almacén específico, o puede ser necesario desde un punto de vista logístico en caso de que tenga un almacén de capacidad adicional o se encuentre dentro de una distancia más cercana de envío al cliente. Para dirigir esta necesidad, una operación unificada de cumplimiento de pedido está disponible en el punto de venta.
 

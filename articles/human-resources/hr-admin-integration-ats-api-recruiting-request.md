@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125434"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500631"
 ---
 # <a name="recruiting-request"></a>Solicitud de contratación
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tema describe la entidad Solicitud de contratación para Dynamics 365 Human Resources.
 
@@ -98,7 +100,8 @@ Describe una solicitud de contratación para un trabajo.
 | **Valor de id. de tipo de trabajo**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Solo lectura<br>Opcional<br>Clave externa: mshr_hcmjobtypeentityid de mshr_hcmjobtypenentity | Identificador único generado por el sistema del tipo de trabajo asociado con el trabajo para la solicitud de contratación. |
 | **Estado de exento**<br>mshr_exemptstatus<br>Conjunto de opciones *JobExemptStatus* | Solo lectura<br>Opcional | Estado de exención de FLSA según el tipo de trabajo. |
 | **Fecha de inicio estimada**<br>mshr_estimatedstartdate<br>*Fecha* | Leer/Escribir<br>Obligatorio | Fecha estimada en que un candidato comenzaría a trabajar. |
-| **Descripción externa**<br>mshr_externaldescription<br>*Cadena* | Leer/Escribir<br>Opcional | Descripción del trabajo/puesto para el candidato. | Umbral bajo de compensación<br>mshr_compensationlowthreshold<br>*Doble* | Leer/Escribir<br>Opcional | Límite inferior del nivel de compensación. |
+| **Descripción externa**<br>mshr_externaldescription<br>*Cadena* | Leer/Escribir<br>Opcional | Descripción del trabajo/puesto para el candidato. | 
+| **Umbral bajo de compensación**<br>mshr_compensationlowthreshold<br>*Doble* | Leer/Escribir<br>Opcional | Límite inferior del nivel de compensación. |
 | **Punto de control de compensación**<br>mshr_compensationcontrolpoint<br>*Doble* | Leer/Escribir<br>Opcional | Punto de control para el nivel de compensación. |
 | **Umbral alto de compensación**<br>mshr_compensationhighthreshold<br>*Doble* | Leer/Escribir<br>Opcional | Límite superior del nivel de compensación. |
 | **Nivel de compensación**<br>mshr_compensationlevelid<br>*Cadena* | Leer/Escribir<br>Opcional | Nivel de compensación del trabajo. Se puede configurar un trabajo con múltiples niveles de compensación. Este atributo indica el nivel de compensación laboral seleccionado para esta solicitud. |

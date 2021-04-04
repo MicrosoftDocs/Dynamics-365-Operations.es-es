@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973769"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558271"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Diseño de enrutamiento de documentos para matrículas de entidad
 
 [!include [banner](../includes/banner.md)]
+
 
 El diseño de enrutamiento del documento define el diseño de las etiquetas de las matrículas y los datos que se imprimen en ellas. Configure los puntos de activación de impresión cuando configure elementos de menú del dispositivo móvil y plantillas de trabajo.
 
@@ -51,6 +52,10 @@ Como parte del proceso de impresión de etiquetas, el texto `$LicensePlateId$` e
 Para ver los valores que se imprimirán, vaya a **Gestión de almacenes \> Consultas e informes \> Etiquetas de matrícula de entidad**.
 
 Varias herramientas de generación de etiquetas ampliamente disponibles pueden ayudarlo a formatear el texto para el diseño de la etiqueta. Muchas de estas herramientas son compatibles con el formato `$FieldName$`. Además, Microsoft Dynamics 365 Supply Chain Management utiliza una lógica de formato especial como parte de la asignación de campo para el diseño de enrutamiento de documentos.
+
+## <a name="turn-on-this-feature-for-your-system"></a>Activar esta función para su sistema
+
+Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Diseños mejorados de etiquetas de matrículas*.
 
 ## <a name="custom-number-formats"></a>Formatos de números personalizados
 

@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997609"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477765"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurar múltiples inquilinos B2C en un entorno de Commerce
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cuándo y cómo configurar múltiples inquilinos de empresa a consumidor (B2C) por canal Microsoft Azure Active Directory (Azure AD) para la autenticación de usuarios en un entorno dedicado Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Dynamics 365 Commerce usa el servicio de identidad en la nube Azure AD B2C para admitir credenciales de usuario y flujos de autenticación. Los usuarios pueden usar los flujos de autenticación para registrarse, iniciar sesión y restablecer su contraseña. Azure AD B2C almacena la información confidencial de autenticación de un usuario, como su nombre de usuario y contraseña. El registro de usuario es exclusivo de cada inquilino B2C y utiliza credenciales de nombre de usuario (dirección de correo electrónico) o credenciales de proveedor de identidad social.
 

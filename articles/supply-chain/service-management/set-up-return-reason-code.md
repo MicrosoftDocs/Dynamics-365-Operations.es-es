@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c321531ace9e17f7d099be6280fd30500b991577
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991724"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470677"
 ---
-# <a name="set-up-return-reason-codes"></a>Configuración de códigos de motivo   
+# <a name="set-up-return-reason-codes"></a>Configurar códigos de motivo de devolución   
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="set-up-return-reason-code-groups"></a>Configuración de grupos de código de motivo 
 
-1.  Haga clic en **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Devoluciones** \> **Grupos de códigos de motivo de devolución**.
+1.  Vaya a **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Devoluciones** \> **Grupos de códigos de motivo de devolución**.
 
-2.  Presione CTRL + N para crear una línea para el nuevo grupo de códigos de motivo de devolución.
+2.  Seleccione **Nuevo** para crear una línea para el nuevo grupo de códigos de motivo de devolución.
 
 3.  En el campo **Grupo de códigos de motivo de devolución**, eescriba un identificador para este grupo.
 
@@ -43,7 +43,7 @@ ms.locfileid: "4991724"
 
 Este procedimiento le ayuda a configurar códigos de motivo de devolución que se pueden usar para indicar por qué un producto se ha devuelto por el cliente.
 
-1.  Haga clic en **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Devoluciones** \> **Códigos de motivo de devolución**.
+1.  Vaya a **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Devoluciones** \> **Códigos de motivo de devolución**.
 
 2.  Pulse CTRL + N para crear una nueva línea de código de motivo de devolución.
 

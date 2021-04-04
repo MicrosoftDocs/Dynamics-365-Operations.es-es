@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974669"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470746"
 ---
 # <a name="create-service-task-relations"></a>Crear relaciones de tareas de servicio    
 
@@ -32,13 +32,13 @@ Puede asociar tareas de servicio con contratos de servicio o pedidos de servicio
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Crear una relación con un acuerdo de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
+1.  Vaya a **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
 
 2.  Seleccione un acuerdo de servicio existente o cree uno nuevo.
 
-3.  En el panel de acciones, haga clic en el botón **Tareas de servicio**.
+3.  En el panel de acciones, seleccione el botón **Tareas de servicio**.
 
-4.  En el formulario **Tareas de servicio**, pulse CTRL+N para crear una nueva línea y, a continuación, seleccione una tarea de servicio desde la lista **Tarea de servicio** para adjuntar la tarea de servicio al acuerdo de servicio.
+4.  En el formulario **Tareas de servicio**, seleccione **Nuevo** para crear una nueva línea y, a continuación, seleccione una tarea de servicio desde la lista **Tarea de servicio** para adjuntar la tarea de servicio al acuerdo de servicio.
 
 5.  En los campos de texto sin formato de la ficha **Descripción**, especifique las descripciones de nota interna o externa.
 
@@ -50,13 +50,13 @@ Una relación de tareas de servicio creada en un acuerdo de servicio estará dis
 
 ## <a name="create-a-relation-with-a-service-order"></a>Crear una relación con un pedido de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
+1.  Vaya a **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
 
 2.  Seleccione un pedido de servicio existente o cree uno nuevo.
 
-3.  En el panel de acciones, haga clic en el botón **Tareas de servicio**.
+3.  En el panel de acciones, seleccione el botón **Tareas de servicio**.
 
-4.  En el formulario **Tareas de servicio**, pulse CTRL+N para crear una nueva línea y, a continuación, seleccione una tarea de servicio desde la lista **Tarea de servicio** para adjuntar las tareas de servicio al pedido de servicio.
+4.  En el formulario **Tareas de servicio**, seleccione **Nuevo** para crear una nueva línea y, a continuación, seleccione una tarea de servicio desde la lista **Tarea de servicio** para adjuntar las tareas de servicio al pedido de servicio.
 
 5.  En los campos de texto sin formato de la ficha **Descripción**, especifique las descripciones de nota interna o externa.
 

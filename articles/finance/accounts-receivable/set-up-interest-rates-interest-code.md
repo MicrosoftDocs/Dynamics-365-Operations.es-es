@@ -3,7 +3,7 @@ title: Establecer tipos de interés para un código de interés
 description: Los códigos de interés contienen la configuración que determina si se carga el interés y cómo se calcula en las cuentas vencidas.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971640"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555374"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Establecer tipos de interés para un código de interés
 
@@ -46,10 +46,19 @@ Puede configurar los tipos de interés que calculan un porcentaje concreto.
 
 - El importe del interés se aplica a todas las divisas.
 - Se pueden especificar límites de interés opcionales.
-- <strong>Porcentaje</strong> se selecciona** en el campo <strong>**Calcular el interés en función de</strong> en la página <strong>Configurar códigos de interés</strong>.
+- **Porcentaje** se selecciona en el campo **Calcular el interés en función de**, en la página **Configurar códigos de interés**.
 
 Por ejemplo, para configurar un código de interés que evalúe el 5 por ciento de interés por cada dos meses que el pago de la factura supere la fecha de vencimiento de la transacción, escriba 2 en el campo **Calcular interés cada** y seleccione **Mes**.
 
+> [!NOTE] 
+> El nuevo algoritmo para el cálculo de notas de interés se agrega mediante Administración de funciones. Para utilizar este algoritmo, habilite la característica **(GBL) Permitir calcular el interés por día como porcentaje anual dividido por 365**. Para obtener más información acerca de cómo habilitar la característica, consulte [Visión general de la administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> La fórmula para el cálculo del importe de la nota de interés es: 
+>  
+> Importe de la nota de interés = Importe adeudado * % de interés anual/365 * Número de días de atraso
+>  
+> Esta característica está disponible en versión 10.0.18 o posterior.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Tipos de interés basados en importes
 Puede configurar los tipos de interés que calculan un importe concreto por divisa.
 - Se especifica un importe de interés para cada divisa en el código de interés.

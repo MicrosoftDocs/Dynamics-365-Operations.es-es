@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e4f49d9167e6d96500c7dbf5c1a25e04796b33a
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 3564e7807ed81684d51de3185cea9b4f35f38d8b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114112"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468284"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definición del proceso de compensación y el cálculo de resultados
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Los procesos de compensación se usan para determinar nuevas concesiones e importes de compensación para los empleados inscritos en planes de compensación variable y fija. Los procesos de compensación se pueden ejecutar varias veces para realizar análisis hipotéticos, para comprobar que todos los cambios y la configuración son correctos. Este procedimiento creará un proceso de compensación, ejecutará el proceso y verá los resultados. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

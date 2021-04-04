@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a2887bdb09b9c5754a2bb17b2cd8053b5d4fb273
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6b25e4d560d94c3481b717939e28f1eaa2f2ecde
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976648"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477860"
 ---
 # <a name="create-new-address-book"></a>Crear nueva libreta de direcciones
-
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo crear una nueva libreta de direcciones en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Las libretas de direcciones se utilizan en Commerce por varias razones, incluido el almacenamiento de listas de clientes y listas de empleados para un canal. Las libretas de direcciones pueden usarse para un solo canal o compartirse entre canales.
 

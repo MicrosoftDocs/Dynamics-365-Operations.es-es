@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983553"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501135"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planificación maestra con previsiones de demanda
 
@@ -249,7 +249,7 @@ Por lo tanto, se crean los siguientes pedidos planificados.
 Una clave de reducción de previsión se usa en **Transacciones - clave de reducción** y los métodos **Porcentaje - clave de reducción** para reducir los requisitos previstos de previsión. Siga estos pasos para crear y configurar una clave de reducción.
 
 1. Vaya a **Planificación maestra \> Configuración \> Cobertura \> Claves de reducción**.
-2. Seleccione **Nueva** o pulse **CTRL+N** para crear una clave de reducción.
+2. Seleccione **Nuevo** para crear una clave de reducción.
 3. En el campo **Clave de reducción** , especifique un identificador único para la clave de reducción de previsión. Después escriba un nombre en el campo **Nombre**. 
 4. Definir períodos y el porcentaje de la clave de reducción en cada período:
 
@@ -265,8 +265,8 @@ Una clave de reducción de previsión debe asignarse al grupo de cobertura del a
 2. En la ficha desplegable **Otro**, en el campo **Clave de reducción** seleccione la clave de reducción que se asignará al grupo de cobertura. La clave de reducción se aplicará a todos los artículos que pertenezcan al grupo de cobertura.
 3. Para usar una clave de reducción para calcular la reducción de previsión durante la programación maestra, debe definir esta configuración en el plan de previsión o el plan maestro. Vaya a una de las páginas ubicaciones:
 
-    - Planificación maestra \> Configuración \> Planes \> Planes de previsión
-    - Planificación maestra \> Configurar \> Planes \> Planes maestros
+    - **Planificación maestra \> Configuración \> Planes \> Planes de previsión**
+    - **Planificación maestra \> Configurar \> Planes \> Planes maestros**
 
 4. En la página **Planes de previsión** o **Planes maestros** , en la ficha desplegable **General** , en el campo **Método utilizado para reducir los requisitos de previsión** , seleccione **Porcentaje - clave de reducción** o **Transacciones - clave de reducción**.
 
@@ -274,5 +274,69 @@ Una clave de reducción de previsión debe asignarse al grupo de cobertura del a
 
 Cuando selecciona **Transacciones - clave de reducción** o **Transacciones - período dinámico** como método para reducir los requisitos previstos, puede especificar qué transacciones reducen la previsión. En la página **Grupos de cobertura** , en la ficha desplegable **Otro** , en el campo **Reducir la previsión por** , seleccione **Todas las transacciones** si todas las transacciones deben reducir la previsión o **Pedidos** si sólo los pedidos de ventas reducen la previsión.
 
+## <a name="forecast-models-and-submodels"></a>Modelos y submodelos de previsión
+
+Esta sección describe cómo crear modelos de pronóstico y cómo combinar varios modelos de pronóstico configurando submodelos.
+
+Un *modelo de previsión* denomina e identifica una previsión determinada. Una vez que haya creado el modelo de pronóstico, puede agregarle líneas de pronóstico. Para agregar líneas de previsión para varios artículos, use la página **Líneas de previsión de demanda**. Para agregar líneas de previsión para un artículo seleccionado específico, use la página **Productos lanzados**.
+
+Un modelo de pronóstico puede incluir pronósticos de otros modelos de pronóstico. Para lograr este resultado, agrega otros modelos de pronóstico como *submodelos* de un modelo de pronóstico principal. Debe crear cada modelo relevante antes de poder agregarlo como un submodelo de un modelo de pronóstico principal.
+
+La estructura resultante le brinda una forma poderosa de controlar los pronósticos, ya que le permite combinar (agregar) la entrada de múltiples pronósticos individuales. Por lo tanto, desde el punto de vista de la planificación, es fácil combinar pronósticos para simulaciones. Por ejemplo, puede configurar una simulación que se base en la combinación de un pronóstico regular con el pronóstico de una promoción de primavera.
+
+### <a name="submodel-levels"></a>Niveles de submodelo
+
+No hay límite en la cantidad de submodelos que se pueden agregar a un modelo de pronóstico principal. Sin embargo, la estructura solo puede tener un nivel de profundidad. En otras palabras, un modelo de pronóstico que es un submodelo de otro modelo de pronóstico no puede tener sus propios submodelos. Cuando agrega submodelos a un modelo de pronóstico, el sistema verifica si ese modelo de pronóstico ya es un submodelo de otro modelo de pronóstico.
+
+Si la planificación maestra encuentra un submodelo que tiene sus propios submodelos, recibirá un mensaje de error.
+
+#### <a name="submodel-levels-example"></a>Ejemplo de niveles de submodelo
+
+El modelo de pronóstico A tiene el modelo de pronóstico B como submodelo. Por lo tanto, el modelo de pronóstico B no puede tener sus propios submodelos. Si intenta agregar un submodelo al modelo de pronóstico B, recibirá el siguiente mensaje de error: "El modelo de pronóstico B es un submodelo para el modelo A".
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Agregar pronósticos a través de modelos de pronóstico
+
+Las líneas de pronóstico que ocurren el mismo día se agregarán en su modelo de pronóstico y sus submodelos.
+
+#### <a name="aggregation-example"></a>Ejemplo de agregación
+
+El modelo de pronóstico A tiene los modelos de pronóstico B y C como submodelos.
+
+- El modelo de pronóstico A incluye un pronóstico de demanda de 2 piezas (pcs) el 15 de junio.
+- El modelo de pronóstico B incluye un pronóstico de demanda de 3 pcs el 15 de junio.
+- El modelo de pronóstico C incluye un pronóstico de demanda de 4 pcs el 15 de junio.
+
+El pronóstico de demanda resultante será una demanda única de 9 unidades (2 + 3 + 4) el 15 de junio.
+
+> [!NOTE]
+> Cada submodelo utiliza sus propios parámetros, no los del modelo de previsión principal.
+
+### <a name="create-a-forecast-model"></a>Crear un modelo de previsión
+
+Para crear un modelo de previsión, siga estos pasos.
+
+1. Ir **Planificacion maestra \> Configuración \> Previsión de la demanda \> Modelos de pronóstico**.
+1. En el panel de acciones, haga clic en **Nueva**.
+1. Configure los siguientes campos para el nuevo modelo de pronóstico:
+
+    - **Modelo** - Escriba un identificador único para el modelo de evaluación.
+    - **Nombre** - Especifique un nombre descriptivo para el modelo.
+    - **Interrumpido** - Por lo general, debe configurar esta opción en *No*. Defina *Sí* solo si desea evitar la edición de todas las líneas de pronóstico asignadas al modelo.
+
+    > [!NOTE]
+    > El campo **Incluir en las previsiones de flujo de caja** y los campos en la ficha desplegable **Proyecto** no están relacionados con la planificación maestra. Por lo tanto, puede ignorarlos en este contexto. Debe considerarlos solo cuando trabaje con pronósticos para el módulo **Gestión y contabilidad de proyectos**.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Asignar submodelos a un modelo de previsión
+
+Para asignar submodelos a un modelo de previsión, siga estos pasos:
+
+1. Ir **Gestión del inventario \> Configuración \> Pronóstico \> Modelos de previsión**.
+1. En el panel de lista, seleccione el modelo de previsión para el que desee establecer un submodelo.
+1. En la ficha desplegable **Submodelo**, seleccione **Agregar** para agregar una fila a la cuadrícula.
+1. Establezca los siguientes campos en la fila nueva.
+
+    - **Submodelo** - Seleccione el modelo de pronóstico para agregar como submodelo. Este modelo de pronóstico ya debe existir y no debe tener ningún submodelo propio.
+    - **Nombre** - Especifique un nombre descriptivo para el submodelo. Por ejemplo, este nombre podría indicar la relación del submodelo con el modelo de pronóstico principal.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
