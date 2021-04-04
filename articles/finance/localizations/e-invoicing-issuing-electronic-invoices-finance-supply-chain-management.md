@@ -3,7 +3,7 @@ title: Emitir facturas electrónicas en Finance y Supply Chain Management
 description: Este tema explica cómo emitir facturas electrónicas en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management a través del complemento de facturación electrónica.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104434"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486962"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Emitir facturas electrónicas en Finance y Supply Chain Management
 
@@ -35,25 +35,35 @@ Este tema explica cómo emitir facturas electrónicas en Microsoft Dynamics 365 
 
 ## <a name="feature-activation"></a>Activación de características
 
-Para comenzar a emitir facturas electrónicas a través del complemento de facturación electrónica, es necesario activar la referencia de la característica en Finance y Supply Chain Management.
+Para emitir facturas electrónicas a través del complemento de facturación electrónica, debe activar la característica en Finance y Supply Chain Management.
 
-Cada referencia de característica corresponde a una característica de facturación electrónica específica que cumple con los requisitos de facturación electrónica de un país o región.
+Cada característica corresponde a una característica de facturación electrónica específica que cumple con los requisitos de facturación electrónica de un país o región.
 
-La siguiente tabla muestra la lista de referencias de características que admite el complemento de facturación electrónica.
+La siguiente tabla muestra la lista de características que admite el complemento de facturación electrónica.
 
-| Referencia de la característica | Nombre                                              | País/región |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | NF-e federal: factura electrónica brasileña       | Brasil         |
-| BR-00095          | Facturas electrónicas brasileñas NFS-e               | Brasil         |
-| DK-00001          | Facturación electrónica al sector público (OIOUBL): DK    | Dinamarca        |
-| EG-00008          | Facturación electrónica para Egipto                             | Egipto          |
-| ES-00025          | Factura electrónica al sector público           | España          |
-| EUR-00023         | Facturación electrónica en la Unión Europea al sector público (OIOUBL)       | Europa         |
-| ITA-00036         | IT: facturación electrónica al sector público (FatturaPA) | Italia          |
-| MX-00010          | Facturación electrónica de CFDI                                  | México         |
-| MX-00016          | CFDI para facturación electrónica: proceso de cancelación           | México         |
+| Nombre                                              | País/región |
+|---------------------------------------------------|----------------|
+|Factura electrónica para Austria                        |Austria         |
+|Factura electrónica para Bélgica                         |Bélgica         |
+|NF-e federal: factura electrónica brasileña       |Brasil          |
+|NFS-e: factura electrónica de servicios para Brasil (ciudad)|Brasil          |
+|Factura electrónica para Dinamarca                          |Dinamarca         |
+|Factura electrónica para Egipto                        |Egipto           |
+|Factura electrónica para Estonia                        |Estonia         |
+|Factura electrónica para Finlandia                         |Finlandia         |
+|Factura electrónica para Francia                          |Francia          |
+|Factura electrónica para Alemania                          |Alemania         |
+|PEPPOL: factura electrónica global                 |Global          |
+|Factura electrónica para Italia                         |Italia           |
+|CFDI: factura electrónica para México                  |México          |
+|Factura electrónica para Holanda                           |Países Bajos     |
+|Factura electrónica para Noruega                       |Noruega          |
+|Factura electrónica para España                         |España           |
 
-En los casos en los que existe una característica de facturación electrónica heredada, compatible con el alcance de las localizaciones del país, la activación de la referencia de la característica permite la emisión de facturas electrónicas a través del complemento de facturación electrónica y desactiva la característica anterior.
+En los casos en los que existe una característica de facturación electrónica heredada, compatible con el ámbito de las localizaciones de país o región, la activación de un de estas características desactiva la característica heredada y permite la emisión de facturas electrónicas a través del complemento de facturación electrónica.
+
+> [!IMPORTANT]
+> Una vez habilitada la función de integración del complemento de facturación electrónica, la nueva experiencia de facturación electrónica se desactiva de forma predeterminada. Puede utilizar el concepto de característica para habilitar de forma selectiva nuevas experiencias para las entidades jurídicas que utilizan la funcionalidad específica del país o región. La opción **Global** controla la nueva experiencia para los condados o regiones restantes que no se enumeran específicamente en la tabla.
 
 ## <a name="submit-electronic-documents"></a>Enviar documentos electrónicos
 
