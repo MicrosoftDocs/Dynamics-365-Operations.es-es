@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 203dbc5463bfcc4249e9ed73802a9a1fc153f260
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 4e4b33e72d1d1dd9cb78a251281abd3e125c3665
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130214"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466337"
 ---
 # <a name="develop-a-succession-plan"></a>Desarrollar un plan de sucesión
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 A medida que la organización crece, debe comenzar a planificar la sucesión. Durante la planificación de la sucesión, es posible que desee encontrar a alguien que tenga aptitudes similares a las de otra persona. La asignación de aptitudes permite analizar a los empleados existentes y a los candidatos para ver si tienen las mismas aptitudes que un empleado valorado. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

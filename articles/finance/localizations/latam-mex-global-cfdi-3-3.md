@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 315a61f71fc0b023fe0e25197abfc62ff6f56a6e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 5f875b685bae2def780622e54db8ff7116f6be5d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016946"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254413"
 ---
 # <a name="global-cfdi-electronic-invoices-for-mexico"></a>Facturas electrónicas de CFDI globales para México 
 

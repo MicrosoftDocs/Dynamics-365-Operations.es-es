@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077486"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556323"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -41,7 +42,8 @@ La interfaz de ejecución de la planta de producción en sí, más varias de las
 
 ### <a name="the-production-floor-execution-interface"></a>La interfaz de ejecución de la planta de producción
 
-Esta es la característica principal descrita en este tema. Agrega la interfaz de ejecución de la planta de producción a su sistema. Para habilitarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):  
+Esta es la característica principal descrita en este tema. Agrega la interfaz de ejecución de la planta de producción a su sistema. Para habilitarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
 - Ejecución del piso de producción
 
 ### <a name="generate-license-plates"></a>Generar matrículas de entidad de almacén
@@ -79,6 +81,7 @@ Para crear y mantener configuraciones de dispositivos, vaya a **Control de produ
 
 A continuación, configure los distintos ajustes para la configuración del dispositivo seleccionado. Están disponibles los siguientes campos:
 
+- **Ficha de entrada y salida solamente** - Establezca esta opción en *Sí* para crear una interfaz simplificada que solo proporcione funciones de reloj de entrada y salida. Esto desactiva la mayoría de las otras opciones de esta página. Debe eliminar todas las líneas de la ficha desplegable **Selección de pestaña** antes de que pueda habilitar esta opción.
 - **Informar de cantidad a la salida del trabajo**: establezca esta opción en *Sí* para solicitar a los trabajadores que aporten comentarios sobre los trabajos en curso al salir del trabajo. Cuando se establece en *No*, no se avisará a los trabajadores.
 - **Bloquear empleado**: cuando esta opción se establece en *No*, se cerrará inmediatamente la sesión de los trabajadores cuando se registren (en un nuevo trabajo, por ejemplo). El dispositivo volverá a la página de inicio de sesión. Cuando esta opción se establece en *Sí*, los trabajadores permanecerán conectados al dispositivo de la tarjeta de trabajo. Sin embargo, un trabajador puede cerrar sesión manualmente para que otro trabajador pueda iniciar sesión mientras el dispositivo de tarjeta de trabajo continúe ejecutándose con la misma cuenta de usuario del sistema. Para obtener más información sobre estos tipos de cuentas, consulte [Usuarios asignados](config-job-card-device.md#assigned-users).
 - **Usar el tiempo real de registro**: establezca esta opción en *Sí* para establecer la hora de cada nuevo registro en la hora exacta a la que el trabajador envió el registro. Cuando esta opción se establece en *No*, se utiliza en su lugar la hora de inicio de sesión. Por lo general, querrá establecer esta opción en *Sí*, si ha establecido las opciones **Bloquear empleado** o **Trabajador único**, en *Sí* en aquellos casos en los que los trabajadores suelen permanecer conectados durante períodos más largos.

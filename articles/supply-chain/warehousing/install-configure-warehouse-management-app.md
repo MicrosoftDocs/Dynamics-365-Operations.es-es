@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142332"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487034"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instale y conecte la aplicación móvil Warehouse Management
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142332"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Este tema describe cómo configurar la nueva aplicación móvil Warehouse Management, que actualmente se encuentra en versión preliminar pública. Si busca información sobre cómo configurar la aplicación de almacén anterior, consulte [Instalar y conectar la aplicación del almacén](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Este tema describe cómo configurar la nueva aplicación de almacén para gestión de almacenes. Si busca información sobre cómo configurar la aplicación de almacén anterior, consulte [Instalar y conectar la aplicación del almacén](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-La vista previa pública de la aplicación móvil Warehouse Management está disponible para su descarga en Microsoft App Center. Se proporciona como un componente independiente. Por lo tanto, debe descargarlo en cada dispositivo y luego configurarlo para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management.
-
-Este tema explica cómo instalar la aplicación móvil Warehouse Management en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
+Este tema explica cómo descargar e instalar la aplicación móvil Warehouse Management en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 
@@ -53,17 +51,27 @@ Antes de poder usar la aplicación, debe estar activada en su sistema una caract
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Obtenga la aplicación móvil Warehouse Management
 
-Use uno de los siguientes vínculos para descargar la aplicación:
+Para implementaciones más pequeñas, normalmente deseará instalar la aplicación desde la tienda correspondiente en cada dispositivo y luego configurar manualmente la conexión a los entornos que está utilizando.
 
-- **Windows (UWP):** [Programa de vista previa de App Center - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+Para implementaciones más grandes, puede automatizar la implementación y / o configuración de la aplicación, lo que puede ser más conveniente si administra muchos dispositivos. Por ejemplo, puede utilizar una solución de administración de dispositivos móviles y administración de aplicaciones móviles, como [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Para obtener información sobre cómo usar Intune para agregar aplicaciones, consulte [Agregar aplicaciones a Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
-    Debido a que esta aplicación es una aplicación de vista previa, se requieren algunos pasos adicionales para instalarla. Para obtener más detalles, consulte [Instalar una compilación desde App Center](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>Instale la aplicación desde una tienda de aplicaciones
 
-- **Android:** [Programa de vista previa del App Center - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+La forma más sencilla de instalar la aplicación en un solo dispositivo es instalarla desde una tienda de aplicaciones, que siempre proporciona la última versión disponible en general. Microsoft Intune también puede buscar aplicaciones de las tiendas de aplicaciones. Utilice uno de los siguientes enlaces para instalar la aplicación desde una tienda de aplicaciones:
 
-    Debido a que esta aplicación es una aplicación de vista previa, se requieren algunos pasos adicionales para instalarla. Para obtener más detalles, consulte [Probar aplicaciones Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **Windows (UWP):** [Gestión de almacenes en Microsoft Store](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-Para implementaciones más pequeñas, es posible que desee instalar la aplicación desde la tienda correspondiente en cada dispositivo y luego configurar manualmente la conexión a los entornos que está utilizando. Sin embargo, también puede automatizar la implementación y/o configuración de la aplicación. Es posible que este enfoque le resulte conveniente si administra muchos dispositivos y está utilizando una solución de administración de dispositivos móviles y aplicaciones móviles como [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Para obtener información sobre cómo usar Intune para agregar aplicaciones, consulte [Agregar aplicaciones a Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+- **Android:** [Gestión de almacenes en Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>Descargue la aplicación desde Microsoft App Center
+
+Como alternativa a la instalación desde una tienda de aplicaciones, puede descargar la aplicación desde Microsoft App Center. El App Center proporciona paquetes instalables que puede descargar. Además de la versión actual, App Center también le permite descargar versiones anteriores y puede proporcionar versiones de vista previa con las próximas funciones que puede probar. Para descargar versiones actuales, anteriores o de vista previa de la aplicación móvil Warehouse Management desde Microsoft App Center, utilice uno de los siguientes enlaces:
+
+- **Windows (UWP):** [Gestión de almacenes (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    Para obtener instrucciones sobre cómo instalar un paquete descargado en un dispositivo Windows y luego configurar los certificados necesarios, consulte [Instalar una compilación desde App Center](https://docs.microsoft.com/appcenter/distribution/installation).
+
+- **Android:** [Warehouse Management (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    Si descarga una versión en vista previa, se requieren algunos pasos adicionales para instalarla. Para obtener más detalles, consulte [Probar aplicaciones Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Crear una aplicación de servicio web en Azure Active Directory
 

@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1b0afeabfecb60672156692f3cd809445624020c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cb9d78a945132c913dcb8a5d5b41eaacd1a6db3b
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969985"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477741"
 ---
 # <a name="create-an-online-functionality-profile"></a>Crear un perfil de funcionalidad en línea
 
-
 [!include [banner](includes/banner.md)]
 
-Este tema presenta una visión general de la configuración de un perfil de funcionalidad en línea para Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
+Este tema presenta una visión general de la configuración de un perfil de funcionalidad en línea para Microsoft Microsoft Dynamics 365 Commerce.
 
 El perfil de funcionalidad en línea proporciona varias configuraciones utilizadas para los canales en línea. Cada canal en línea debe especificar un perfil de funcionalidad en línea.
 

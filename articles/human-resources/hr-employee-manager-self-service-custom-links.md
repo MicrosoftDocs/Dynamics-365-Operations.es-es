@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8662035235aa9b4788ced83c2c0efc0e4862e2a6
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: ab6b212efca7fa69d74d06ce2dbbab09d50f044c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114206"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467202"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Crear vínculos personalizados en el autoservicio para el director
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puede agregar vínculos personalizados en la pestaña **Mi equipo** del Autoservicio para directores. Esta función le permite ofrecer acceso rápido a información importante. Es similar a agregar vínculos personalizados en la pestaña **Mi información** de Autoservicio para empleados.
 

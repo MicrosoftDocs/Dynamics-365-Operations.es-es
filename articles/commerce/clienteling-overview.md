@@ -3,7 +3,7 @@ title: Visión general de clienteling
 description: En este tema se proporciona una visión general de las nuevas capacidades de clienteling disponibles en la aplicación de tienda.
 author: bebeale
 manager: AnnBe
-ms.date: 01/29/2021
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 206031f5ddbaedb2b581a452fe8979252647f0c4
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 8f3135d0a34086b67c6e5ce11a5af47a51479c92
+ms.sourcegitcommit: 8a14eac1c27f10c2b1b02ac9ad82339f5e127602
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097264"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5555003"
 ---
 # <a name="clienteling-overview"></a>Visión general de relación con los clientes
 
@@ -34,7 +34,7 @@ Muchos minoristas, especialmente los minoristas especializados de alta gama, des
 
 ## <a name="client-book"></a>Libro de clientes
 
-En Microsoft Dynamics 365 Commerce, los minoristas pueden usar la funcionalidad del libro de clientes para ayudar a los socios de la tienda a formar un vínculo a largo plazo con los clientes principales.
+En Microsoft Dynamics 365 Commerce, los minoristas pueden usar la funcionalidad del libro de clientes para ayudar a los socios de la tienda a crear relaciones a largo plazo con los clientes principales.
 
 El libro de clientes incluye tarjetas de clientes que muestran la información de contacto para cada cliente, así como tres propiedades más definidas por el distribuidor y configuradas en la sede central. Los minoristas pueden decidir los tres aspectos más importantes que los socios de ventas deben saber sobre los clientes. Por ejemplo, un minoristas de joyería puede que desee incluir fechas importantes como aniversarios o cumpleaños, ya que estas fechas son oportunidades en que las personas pueden comprar más joyas. Igualmente, un minorista de moda puede que desee incluir los intereses y las marcas preferidos del cliente.
 

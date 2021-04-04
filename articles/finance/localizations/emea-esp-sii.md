@@ -13,12 +13,12 @@ ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b0a8776eed79a350a44dcc6da1212269ae5159d1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b3ceb73287b08555782ed6f465ed73b21a9cbdcf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003055"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260763"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
