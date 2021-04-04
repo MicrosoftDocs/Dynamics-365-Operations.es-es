@@ -3,7 +3,7 @@ title: Administrar solicitudes de baja en Teams
 description: Este tema muestra cómo solicitar tiempo libre en la aplicación Dynamics 365 Human Resources en Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/28/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 79bded5a241a8d5de1847adff3e663359ce1b26f
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128170"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571737"
 ---
-# <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de baja en Teams
+# <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de bajas en Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams le permite solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre directamente en Microsoft Teams. Puede interactuar con un bot para solicitar información e iniciar una solicitud de baja. La pestaña **Tiempo libre** proporciona información más detallada. También puede enviar información a los usuarios sobre el próximo tiempo libre a través de equipos y chats que haya fuera de la aplicación de Recursos Humanos.
+La aplicación Dynamics 365 Human Resources en Microsoft Teams le permite solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre directamente en Microsoft Teams. Puede interactuar con un bot para solicitar información e iniciar una solicitud de baja. La pestaña **Tiempo libre** proporciona información más detallada. También puede enviar información a los usuarios sobre el próximo tiempo libre en Teams y chats que haya fuera de la aplicación de Human Resources.
 
 ## <a name="install-the-app"></a>Instalar la aplicación
 
-Puede encontrar la aplicación Recursos Humanos en la tienda Teams.
+Puede encontrar la aplicación Dynamics 365 Human Resources en la tienda de Teams.
 
 1. En Microsoft Teams, seleccione los puntos suspensivos.
 
@@ -70,29 +70,21 @@ Después de la instalación de la aplicación, aparece un mensaje de bienvenida,
 
 Puede pedirle al bot que:
 
-- Muestra la información del saldo de tiempo libre para cada tipo de baja en la que esté inscrito.
-
-   ![Balances mostrados en la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-bot-balances.png)
- 
-- Mostrar detalles adicionales sobre un tipo de baja específico.
-
-   ![Detalles mostrados en la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-bot-details.png)
-
 - Comience una solicitud de licencia por usted.
 
-   ![Solicitud de ausencia en la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-bot-request.png)
- 
-Después de iniciar una solicitud de baja, puede ajustar los días directamente dentro de la tarjeta.
+  ![Iniciar una solicitud de permiso en el chat de Teams](./media/hr-teams-leave-app-initiate.png)
 
-![Solicitud de edición en la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-bot-edit.png)
- 
-Cuando haya terminado de Introducir información, seleccione **Enviar** para enviarlo para su aprobación. También puede seleccionar **Guardar como borrador** para volver a ello más tarde.
+- El bot de chat completará una solicitud de permiso para usted. Seleccione **Solicitar tiempo libre** y edite los detalles de su solicitud.
 
-![Solicitud de envío en la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-bot-submit.png)
+  ![Editar detalles de solicitud de baja](./media/hr-teams-leave-app-details.png)
+
+- Cuando haya terminado de editar los detalles de su solicitud de permiso, seleccione **Enviar** para enviarlo para su aprobación.
+
+  ![Enviar solicitud de licencia](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Administrar su baja en Teams
 
-La pestaña **Tiempo libre** le permite ver:
+La pestaña **Tiempo libre** le permite ver: 
 
 - Información del saldo de cada tipo de baja en la que esté inscrito
 
@@ -164,21 +156,51 @@ Si es un director con subordinados directos, puede ver el tiempo libre aprobado 
 
 1. En la aplicación Human Resources en Teams, seleccione **Tiempo libre**.
 
-2. Seleccione **Calendario del equipo**.
+2. Seleccione **Calendario del equipo**. El calendario muestra el tiempo libre aprobado y pendiente de sus subordinados directos.
 
    ![Ver el calendario en la aplicación Human Resources Teams](./media/hr-teams-leave-app-view-calendar.png)
 
-El calendario muestra el tiempo libre aprobado y pendiente de sus subordinados directos.
+   > [!NOTE]
+   > Si no puede ver el calendario del equipo, pídale a su administrador que lo habilite. Para obtener más información consulte [Instalar y configurar](hr-admin-teams-leave-app.md#install-and-setup).
 
-![Calendario de tiempo libre en la aplicación Human Resources Teams](./media/hr-teams-leave-app-calendar.png)
+## <a name="supported-languages"></a>Idiomas admitidos
+
+La aplicación Dynamics 365 Human Resources en Teams admite los siguientes idiomas:
+
+| ID de configuración regional | Idioma |
+| --- | --- |
+| de-DE | Alemán (Alemania) |
+| es-ES | Español (España) |
+| es-MX | Español (México) |
+| fr-CA | Francés (Canadá) |
+| fr-FR | Francés (Francia) |
+| it-IT | Italiano (Italia) |
+| nl-NL | Neerlandés (Países Bajos) |
+| pt-BR | Portugués (Brasil) |
+| tr-TR | Turco (Turquía) |
+| zh-CN | Chino (Simplificado) |
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-Si tiene problemas para iniciar sesión o utilizar la aplicación Equipos de recursos humanos, intente seguir estas instrucciones de solución de problemas. Si sigue teniendo problemas después de la resolución de problemas, comuníquese con Soporte. Para obtener más información, consulte [Obtener soporte](hr-admin-troubleshooting-support.md).
+Si tiene problemas para iniciar sesión o utilizar la aplicación Dynamics 365 Human Resources Teams, intente seguir estas instrucciones de solución de problemas. Si sigue teniendo problemas después de la resolución de problemas, comuníquese con Soporte. Para obtener más información, consulte [Obtener soporte](hr-admin-troubleshooting-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>No puedo iniciar sesión en la aplicación de recursos humanos en Teams
 
 Si no puede iniciar sesión en la aplicación, es posible que la cuenta que está usando para iniciar sesión en Microsoft Teams no está asociado con un registro de empleado en Dynamics 365 Human Resources. Comuníquese con el administrador del sistema para asegurarse de que su registro de empleado esté asociado correctamente.
+
+### <a name="translations-dont-display-correctly"></a>Las traducciones no se muestran correctamente
+
+Si las traducciones no se muestran como se esperaba, asegúrese de que el idioma que seleccione en Teams coincida con el idioma seleccionado en las **Opciones de usuario** de Human Resources.
+
+En Teams, mire **Idioma de la aplicación** en **Ajustes**.
+
+![Configuración de Teams](./media/hr-teams-leave-app-settings.png)
+
+En Human Resources, seleccione **Ajustes** y luego seleccione **Opciones de usuario**. Verifique que el campo **Idioma** coincide con el campo **Idioma de la aplicación** en Teams.
+
+![Opciones de usuario de Human Resources](./media/hr-teams-leave-app-user-options.png)
+
+Si aún tiene problemas de traducción, háganoslo saber. Para obtener información, consulte [Obtener soporte técnico para aplicaciones de Finance and Operations o Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-support?toc=/dynamics365/human-resources/toc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Error al aprobar solicitudes de licencia en la aplicación Human Resources en Teams
 
@@ -198,7 +220,6 @@ La aplicación Human Resources en Teams tiene los siguientes problemas de accesi
 | En la pestaña **Tiempo libre**, VoiceOver anuncia la acción de un botón mientras se lee el encabezado de la cuadrícula de tiempo libre. | El encabezado y los elementos de la cuadrícula están agrupados por año y se pueden contraer. VoiceOver interpreta esto como un elemento procesable, pero no lo es. |
 | En la pestaña **Tiempo libre**, hay un gesto adicional de deslizar rápidamente al navegar a **Código de razón** en una nueva solicitud. | No hay ningún control oculto al que esté intentando obtener acceso la navegación por deslizamiento. |
 | En la pestaña **Tiempo libre**, si desliza el dedo mientras el calendario está abierto, terminará fuera del control en lugar de en la parte superior de una nueva solicitud o mientras edita una solicitud. | Al llegar a **Ir a hoy**, considérelo como el final del control y deslice el dedo en la dirección inversa para volver a la parte superior. |
-| VoiceOver no lee las etiquetas de las fechas. | Las fechas encontradas en pares son siempre **Fecha de inicio** y **Fecha de finalización**. |
 | En la pestaña **Chat**, el foco vuelve a la parte superior cuando introduce una fecha mientras usa la herramienta de asistencia o la navegación del teclado. | Desplácese con el tabulador hasta que llegue a su área de entrada de nuevo. |
 
 ## <a name="privacy-notice"></a>Aviso de privacidad

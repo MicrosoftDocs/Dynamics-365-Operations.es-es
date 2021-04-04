@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967241"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580924"
 ---
 # <a name="release-product-structures"></a>Liberar estructuras de producto
 
@@ -76,8 +76,6 @@ Para ver un ejemplo de cómo aceptar un producto, consulte [Revisar y aceptar el
 ## <a name="release-policies"></a>Políticas de lanzamiento
 
 No todas las empresas operativas necesitan los mismos datos de productos. En general, las empresas operativas que fabrican productos de ingeniería requieren una lista de materiales, mientras que las empresas operativas que solo venden productos de ingeniería no requieren una lista de materiales. Puede utilizar políticas de lanzamiento para establecer los parámetros que se utilizan para el lanzamiento de productos.
-
-Para los productos de ingeniería, la política de liberación se asigna en la categoría de producto de ingeniería y el campo es obligatorio. Para los productos estándar, la política se asigna al producto compartido y el campo es opcional.
 
 Para obtener más información sobre categorías de productos de ingeniería, consulte [Versiones de ingeniería y categorías de productos de ingeniería](engineering-versions-product-category.md).
 

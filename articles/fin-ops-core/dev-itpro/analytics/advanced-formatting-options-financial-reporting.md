@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 08659bac84b07f6e95a83b84612cb035b51cf28d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093171"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568475"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opciones de formato avanzadas en informes financieros
 
@@ -283,10 +282,10 @@ Para restringir un cálculo a una sola unidad de notificación en un organigrama
 > [!NOTE]
 > Para usar esta función, un organigrama debe estar asociado con la definición de filas.
 
-La fila de cálculo puede hacer referencia a una fila de cálculo o a una fila de datos financieros. El cálculo se registra en la celda **Fórmulas o filas o unidades relacionadas** de la definición de filas y de la restricción financiera del tipo de datos. El cálculo debe usar un cálculo condicional que comienza en una construcción **IF @Unidad**. Esto es un ejemplo: IF @Unit(SALES) THEN @100 ELSE 0 Este cálculo incluye el importe de la fila 100 en cada columna de informe, pero únicamente para la unidad de ventas. Si las unidades varias se denominan VENTAS, el importe aparece en cada una de las unidades. Además, la fila 100 puede ser una fila de datos financieros y se puede definir como sin impresión. En este caso, se evita que el importe aparezca en todas las unidades del organigrama. También puede limitar el importe a una columna única del informe, como la columna H, mediante una restricción de columna para imprimir el valor solo en esa columna del informe. Puede incluir combinaciones de **OR** en una expresión **SI**. Esto es un ejemplo: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Puede especificar una unidad en una restricción de tipo cálculo de una de las siguientes formas:
+La fila de cálculo puede hacer referencia a una fila de cálculo o a una fila de datos financieros. El cálculo se registra en la celda **Fórmulas o filas o unidades relacionadas** de la definición de filas y de la restricción financiera del tipo de datos. El cálculo debe usar un cálculo condicional que comience en una construcción **SI \@Unit**. Esto es un ejemplo: IF @Unit(SALES) THEN @100 ELSE 0 Este cálculo incluye el importe de la fila 100 en cada columna de informe, pero únicamente para la unidad de ventas. Si las unidades varias se denominan VENTAS, el importe aparece en cada una de las unidades. Además, la fila 100 puede ser una fila de datos financieros y se puede definir como sin impresión. En este caso, se evita que el importe aparezca en todas las unidades del organigrama. También puede limitar el importe a una columna única del informe, como la columna H, mediante una restricción de columna para imprimir el valor solo en esa columna del informe. Puede incluir combinaciones de **OR** en una expresión **SI**. Aquí hay un ejemplo: **SI @Unit(VENTAS) O @Unit(VENTASOESTE) ENTONCES 5 SI NO @100**. Puede especificar una unidad en una restricción de tipo de cálculo de una de las siguientes maneras:
 
-- Escriba un nombre de la unidad para incluir las unidades que coinciden. Por ejemplo, **IF @Unit(SALES)** habilita el cálculo para cualquier unidad que se llame VENTAS, incluso si hay varias unidades de ventas en el organigrama.
-- Especifique el nombre de la empresa y la unidad para restringir el cálculo a unidades específicas de una empresa específica. Por ejemplo, escriba **IF @Unit(ACME:SALES**) para restringir el cálculo en las unidades de ventas de la empresa ACME.
+- Escriba un nombre de la unidad para incluir las unidades que coinciden. Por ejemplo, **SI \@Unit(VENTAS)** habilita el cálculo para cualquier unidad que se llame VENTAS, incluso si hay varias unidades de ventas en el organigrama.
+- Especifique el nombre de la empresa y la unidad para restringir el cálculo a unidades específicas de una empresa específica. Por ejemplo, escriba **SI @Unit(ACME:VENTAS)** para restringir el cálculo en las unidades de ventas de la empresa ACME.
 - Especifique el código completo de la jerarquía del organigrama para restringir el cálculo en una unidad específica. Por ejemplo, escriba **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -296,7 +295,7 @@ La fila de cálculo puede hacer referencia a una fila de cálculo o a una fila d
 
 1. En el Diseñador de informes, haga clic en **Definiciones de filas** y abra la definición de fila que desee modificar.
 2. Haga doble clic en la celda **Código de formato** y luego seleccione **CAL**.
-3. Haga clic en la celda **Fórmulas o filas o unidades relacionadas** y especifique un cálculo condicional que comienza en una construcción **IF @Unidad**.
+3. Haga clic en la celda **Fórmulas o filas o unidades relacionadas** y especifique un cálculo condicional que comience por una construcción **SI \@Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>La expresiones IF/THEN/ELSE en una definición de columna
 
@@ -310,6 +309,5 @@ Una expresión **IF/THEN/ELSE** permite a cualquier cálculo depender de los res
 Puede diseñar informes mediante los valores de dimensión que contengan una Y comercial (&).
 
 Dentro de cualquier campo **Vincular a la dimensión financiera**, puede especificar un valor como **'Pérdidas y ganancias'**. Incluir apóstrofes (' ') a ambos lados del valor de dimensión indica que utiliza el valor literal, como incluir el carácter de la Y comercial (&).
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

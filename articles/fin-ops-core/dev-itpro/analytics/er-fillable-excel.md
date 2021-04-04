@@ -3,10 +3,9 @@ title: Diseñar una configuración para generar documentos en formato de Excel
 description: Este tema describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094038"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574182"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -54,7 +53,7 @@ Debe agregar un componente **Archivo\\Excel** al formato ER configurado para gen
 Para especificar el diseño del documento resultante, adjunte un libro de Excel que tenga la extensión .xlsx al componente **Archivo\\Excel** como plantilla para documentos resultantes.
 
 > [!NOTE]
-> Cuando adjunte una plantilla manualmente, debe usar un [tipo de documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) que se haya configurado para ese fin en los [parámetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> Cuando adjunte una plantilla manualmente, debe usar un [tipo de documento](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) que se haya configurado para ese fin en los [parámetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Adición de un archivo adjunto al componente Excel\archivo](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Para obtener más información sobre cómo incrustar imágenes y formas, consult
 
 El componente **PageBreak** obliga a Excel a comenzar una nueva página. Este componente no es necesario cuando desea utilizar la paginación predeterminada de Excel, pero debe usarla cuando desea que Excel siga su formato ER para estructurar la paginación.
 
+## <a name="footer-component"></a>Componente de pie de página
+
+El componente **Pie de página** se usa para completar pies de página en la parte inferior de una hoja de trabajo generada en un libro de Excel.
+
+> [!NOTE]
+> Puede agregar este componente para cada componente de **Hoja** para especificar diferentes pies de página para diferentes hojas de cálculo en un libro de Excel generado.
+
+Cuando configura un componente de **Pie de página** individual, puede utilizar la propiedad **Apariencia del encabezado/pie de página** para especificar las páginas para las que se utiliza el componente. Los siguientes valores están disponibles:
+
+- **Cualquiera**: ejecuta el componente configurado de **Pie de página** para cualquier página de la hoja de cálculo de Excel primaria.
+- **Primera**: ejecuta el componente configurado de **Pie de página** para solo la primera página de la hoja de cálculo de Excel primaria.
+- **Par**: ejecuta el componente configurado de **Pie de página** para solo las páginas pares de la hoja de cálculo de Excel primaria.
+- **Impar**: ejecuta el componente configurado **Pie de página** para solo las páginas impares de la hoja de cálculo de Excel primaria.
+
+Por un único componente de **Hoja**, puede agregar varios componentes de **Pie de página** teniendo cada uno de ellos un valor diferente para la propiedad **Apariencia del encabezado/pie de página**. De esta manera, puede generar diferentes pies de página para diferentes tipos de páginas en una hoja de cálculo de Excel.
+
+> [!NOTE]
+> Asegúrese de que cada componente de **Pie de página** que agregue a un único componente de **Pie de página** tenga un valor diferente para la propiedad **Apariencia del encabezado/pie de página**. De lo contrario, se producirá un [Error de validacion](er-components-inspections.md#i16). El mensaje de error que recibe le notifica de la incoherencia.
+
+En el componente **Pie de página**, agregue los componentes anidados requeridos de **Texto\\Cadena**, **Texto\\Fecha y hora** u otro tipo. Configure los enlaces de esos componentes para especificar cómo se rellena el pie de página de su página.
+
+También puede utilizar [códigos de formato](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especiales para formatear correctamente el contenido de un pie de página generado. Para aprender a usar este enfoque, siga los pasos del [Ejemplo 1](#example-1), más adelante en este tema.
+
+> [!NOTE]
+> Cuando configure formatos ER, asegúrese de considerar el [límite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) y el número máximo de caracteres para un solo encabezado o pie de página que exista en Excel.
+
+## <a name="header-component"></a>Componente de encabezado
+
+El componente **Encabezado** se usa para completar encabezados en la parte superior de una hoja de trabajo generada en un libro de Excel. Se usa como el componente **Pie de página**.
+
 ## <a name="edit-an-added-er-format"></a>Editar un formato ER agregado
 
 ### <a name="update-a-template"></a>Actualizar una plantilla
@@ -175,6 +204,48 @@ Cuando se genera el formato de libro de trabajo en un documento saliente en un M
     >[!NOTE]
     > El recálculo de fórmulas se fuerza manualmente cuando un documento generado se abre para obtener una vista previa con Excel.
     > No use esta opción si configura un destino de ER que asume el uso de un documento generado sin su vista previa en Excel (conversión de PDF, envío de correo electrónico, etc.) porque el documento generado podría no contener valores en celdas que contienen fórmulas.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Ejemplo 1: dar formato al contenido del pie de página
+
+1. Utilice las configuraciones de ER proporcionadas para [generar](er-generate-printable-fti-forms.md) un documento imprimible de factura de texto libre (FTI).
+2. Revise el pie de página del documento generado. Observe que contiene información sobre el número de página actual y el número total de páginas del documento.
+
+    ![Revisar el pie de página de un documento generado en formato Excel](./media/er-fillable-excel-footer-1.gif)
+
+3. En el diseñador de formatos ER, [abra](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) el formato de muestra de ER para su revisión.
+
+    El pie de página de la hoja de cálculo **Factura** se genera en función de la configuración de dos componentes de **Cadena** que residen en el componente **Pie de página**:
+
+    - El primer componente de **Cadena** completa los siguientes códigos de formato especiales para obligar a Excel a aplicar un formato específico:
+
+        - **&C**: alinear el texto del pie de página en el centro.
+        - **&"Segoe UI, Regular"&8**: presentar el texto del pie de página en fuente "Segoe UI Regular" con un tamaño de 8 puntos.
+
+    - El segundo componente de **Cadena** completa el texto que contiene el número de página actual y el número total de páginas del documento actual.
+
+    ![Revisar el componente de formato ER de pie de página en la página Diseñador de formato](./media/er-fillable-excel-footer-2.png)
+
+4. Personalice el formato ER de ejemplo para modificar el pie de página actual:
+
+    1. [Cree](er-quick-start2-customize-report.md#DeriveProvidedFormat) un formato ER derivado **Factura de servicios (Excel) pesonalizada** que se basa en el formato ER de ejemplo.
+    2. Agregue el primer par nuevo de componentes de **Cadena** para el componente de **Pie de página** de la hoja de cálculo **Factura**:
+
+        1. Agregue un componente de **Cadena** que alinee el nombre de la empresa a la izquierda y lo presente con fuente de 8 puntos "Segoe UI Regular" (**"&L&"Segoe UI, Regular"&8"**).
+        2. Agregue un componente de **Cadena** que completa el nombre de la empresa (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. Agregue el segundo par nuevo de componentes de **Cadena** para el componente de **Pie de página** de la hoja de cálculo **Factura**:
+
+        1. Agregue un componente de **Cadena** que alinee la fecha de procesamiento a la derecha y lo presente con fuente de 8 puntos "Segoe UI Regular" (**"&R&"Segoe UI, Regular"&8"**).
+        2. Agregue un componente de **Cadena** que completa la fecha de procesamiento en formato personalizado (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
+
+        ![Revisión del componente de formato ER de pie de página en la página Diseñador de formato](./media/er-fillable-excel-footer-3.png)
+
+    4. [Complete](er-quick-start2-customize-report.md#CompleteDerivedFormat) la versión de borrador del formato ER derivado **Factura de servicios (Excel) personalizada**.
+
+5. [Configure](er-generate-printable-fti-forms.md#configure-print-management) la gestión de impresión para utilizar el formato ER derivado **Factura de servicios (Excel) personalizada** en lugar del formato ER de ejemplo.
+6. Genere un documento FTI imprimible y revise el pie de página del documento generado.
+
+    ![Revisión del pie de página de un documento generado en formato Excel](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -3,7 +3,7 @@ title: Introducción al complemento de facturación electrónica
 description: Este tema proporciona información que le ayudará a comenzar con el complemento de facturación electrónica en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07954c5c96f390bc651794f8b6c61f2a1a17ab8b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 56227e031f8205836bcae9ce26006fc8091c2863
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111229"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592559"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Introducción al complemento de facturación electrónica
 
@@ -38,7 +38,6 @@ La siguiente tabla enumera las características de facturación electrónica y l
 | Factura electrónica para Bélgica (BE)      | <p>Factura de ventas</p><p>Factura de proyecto</p> |
 | NF-e brasileño (BR)                  | <p>Modelo de documento fiscal 55</p><p>Carta de corrección</p> |
 | NFS-e brasileño ABRASF Curitiba (BR) | Documentos fiscales de servicios |
-| NFS-e brasileño São Paulo (BR)       | Documentos fiscales de servicios |
 | Factura electrónica para Dinamarca (DK)       | <p>Factura de ventas</p><p>Factura de proyecto</p> |
 | Factura electrónica egipcia (EG)     | <p>Factura de ventas</p><p>Factura de proyecto</p> |
 | Factura electrónica para Estonia (EE)     | <p>Factura de ventas</p><p>Factura de proyecto</p> |
@@ -64,14 +63,14 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importar una característica de facturación electrónica desde cualquier proveedor de configuración 
 
 1. Inicie sesión en su cuenta del Servicio de configuración reguladora (RCS).
-2. En el espacio de trabajo **Característica de globalización**, en la sección **Características**, seleccione el mosaico **Facturación electrónica**.
+2. En el espacio de trabajo **Característica de globalización**, en la sección **Características**, seleccione el mosaico **Complemento de facturación electrónica**.
 3. Seleccione **Importar** y, a continuación, **Sincronizar**.
 4. Filtre la columna **Proveedor de configuración** por el término **Microsoft**.
 5. Seleccione el nombre de una característica de facturación electrónica de la tabla al principio de este tema y luego seleccione **Importar**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Crear una característica de facturación electrónica para su proveedor de organización
 
-1. En RCS, en la sección **Características**, del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
+1. En RCS, en la sección **Características**, del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Complemento de facturación electrónica**.
 2. Seleccione **Añadir** > **Basado en una característica existente**, y en el campo **Nombre**, introduzca el nombre de la característica de facturación electrónica.
 3. En el campo **Descripción**, introduzca una descripción de la característica.
 4. En el **Campo de característica base**, seleccione la característica de facturación electrónica importada del proveedor de configuración de Microsoft.
@@ -79,7 +78,9 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 
 ## <a name="configure-the-electronic-invoicing-feature"></a>Configurar las características de facturación electrónica
 
-Según el país o la región, la característica de facturación electrónica puede requerir una configuración adicional. Para conocer los pasos específicos, consulte la documentación "Comenzar" que está disponible para su país o región.
+Según el país o la región, la característica de facturación electrónica puede requerir una configuración adicional. 
+
+Para conocer los pasos específicos, consulte la documentación "Comenzar" que está disponible para su país o región.
 
 ## <a name="configure-the-application-setup"></a>Configurar la aplicación
 
@@ -100,7 +101,6 @@ Según el país o la región, la característica de facturación electrónica pu
     | Factura electrónica para Bélgica (BE)      | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
     | NF-e brasileño (BR)                  | <p>Documento fiscal</p><p>Carta de corrección</p> | Documento fiscal |
     | NFS-e brasileño ABRASF Curitiba (BR) | Documentos fiscales de servicios | Documento fiscal |
-    | NFS-e brasileño São Paulo (BR)       | Documentos fiscales de servicios | Documento fiscal |
     | Factura electrónica para Dinamarca (DK)       | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
     | Factura electrónica egipcia (EG)     | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
     | Factura electrónica para Estonia (EE)     | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
@@ -122,7 +122,6 @@ Según el país o la región, la característica de facturación electrónica pu
     | Factura electrónica para Bélgica (BE)      | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
     | NF-e brasileño (BR)                  | <p>Documento fiscal</p><p>Carta de corrección</p> | <p>Modelo de contexto de factura de cliente: contexto de documento fiscal</p><p>Modelo de contexto de factura de cliente: contexto de carta de corrección FD</p> |
     | NFS-e brasileño ABRASF Curitiba (BR) | Documentos fiscales de servicios| Modelo de contexto de factura de cliente: contexto de documento fiscal |
-    | NFS-e brasileño São Paulo (BR)       | Documentos fiscales de servicios| Modelo de contexto de factura de cliente: contexto de documento fiscal |
     | Factura electrónica para Dinamarca (DK)       | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
     | Factura electrónica egipcia (EG)     | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
     | Factura electrónica para Estonia (EE)     | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
@@ -144,7 +143,6 @@ Según el país o la región, la característica de facturación electrónica pu
     | Factura electrónica para Bélgica (BE)      | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
     | NF-e brasileño (BR)                  | <p>Documento fiscal</p><p>Carta de corrección</p> | <p>Asignación de documentos fiscales: asignación de documentos fiscales</p><p>Asignación de documentos fiscales: asignación de cartas de corrección</p> |
     | NFS-e brasileño ABRASF Curitiba (BR) | Documentos fiscales de servicios | Asignación de documentos fiscales: asignación de documentos fiscales |
-    | NFS-e brasileño São Paulo (BR)       | Documentos fiscales de servicios | Asignación de documentos fiscales: asignación de documentos fiscales |
     | Factura electrónica para Dinamarca (DK)       | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
     | Factura electrónica egipcia (EG)     | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
     | Factura electrónica para Estonia (EE)     | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
@@ -158,7 +156,9 @@ Según el país o la región, la característica de facturación electrónica pu
     | Factura electrónica para España (ES)      | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
     | Factura electrónica PEPPOL            | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
 
-Según el país o la región, la característica de facturación electrónica puede requerir una configuración adicional. Para conocer los pasos específicos, consulte la documentación "Comenzar" que está disponible para su país o región.
+Según el país o la región, la característica de facturación electrónica puede requerir una configuración adicional.
+
+Para conocer los pasos específicos, consulte la documentación "Comenzar" que está disponible para su país o región.
 
 ## <a name="deploy-the-electronic-invoicing-feature"></a>Implementar la característica de facturación electrónica
 
@@ -177,27 +177,26 @@ Según el país o la región, la característica de facturación electrónica pu
 
 1. Inicie sesión en Finance o Supply Chain Management y verifique que se encuentra en la entidad jurídica correcta.
 2. Vaya a **Administración de la organización** \> **Configuración** \> **Parámetros de documentos electrónicos**.
-3. En la pestaña **Características**, seleccione la referencia o referencias de característica que se enumeran en la siguiente tabla para activar la característica de facturación electrónica para Finance o Supply Chain Management.
+3. En la pestaña **Características**, seleccione la función específica del país o región para activar la característica de facturación electrónica para Finance o Supply Chain Management. La siguiente tabla proporciona una lista de las funciones de facturación electrónica disponibles para países o regiones específicos. 
 
-    | Nombre de característica                         | País/región  | Referencia de la característica |
-    |--------------------------------------|-----------------|-------------------|
-    | Facturas electrónicas para Austria (AT)    | Austria         | EUR-00023 |
-    | Factura electrónica para Bélgica (BE)      | Bélgica         | EUR-00023 |
-    | NF-e brasileño (BR)                  | Brasil          | BR-00053 |
-    | NFS-e brasileño ABRASF Curitiba (BR) | Brasil          | BR-00095 |
-    | NFS-e brasileño São Paulo (BR)       | Brasil          | BR-00095 |
-    | Factura electrónica para Dinamarca (DK)       | Dinamarca         | <p>EUR-00023</p><p>DK-00001</p> |
-    | Factura electrónica para Países Bajos (NL)        | Países Bajos | EUR-00023 |
-    | Factura electrónica egipcia (EG)     | Egipto           | EG-00008 |
-    | Factura electrónica para Estonia (EE)     | Estonia         | EUR-00023 |
-    | Factura electrónica para Finlandia (FI)      | Finlandia         | EUR-00023 |
-     Factura electrónica para Francia (FR)       | Francia           | EUR-00023 |
-    | Factura electrónica para Alemania (DE)       | Alemania         | EUR-00023 |
-    | Interfactura CFDI mexicana (MX)       | México          | <p>MX-00010</p><p>MX-00016</p> |
-    | Factura electrónica para Noruega (NO)    | Noruega          | <p>EUR-00023</p><p>NO-00010</p> |
-    | Factura electrónica para España (ES)      | España           | <p>EUR-00023</p><p>ES-00025</p> |
-    | Factura electrónica para Italia (IT)      | Italia           | <p>EUR-00023</p><p>IT-00036</p> |
-    | Factura electrónica PEPPOL            | Europa          | EUR-00023 |
+    | Nombre de característica                                          | País/región  |
+    |-------------------------------------------------------|-----------------|
+    | Facturas electrónicas para Austria (AT)                     | Austria         |
+    | Factura electrónica para Bélgica (BE)                       | Bélgica         |
+    | Factura electrónica de México CFDI (MX)                  | México          |
+    | Factura electrónica para Dinamarca (DK)                        | Dinamarca         |
+    | Factura electrónica para Países Bajos (NL)                         | Países Bajos |
+    | Factura electrónica egipcia (EG)                      | Egipto           |
+    | Factura electrónica para Estonia (EE)                      | Estonia         |
+    | Factura electrónica para Finlandia (FI)                       | Finlandia         |
+    | Factura electrónica para Francia (FR)                        | Francia          |
+    | Factura electrónica para Alemania (DE)                        | Alemania         |
+    | Factura electrónica para Italia (IT)                       | Italia           |
+    | NF-e federal: factura electrónica para Brasil (BR)      | Brasil          |
+    | NFS-e: factura electrónica de servicios para Brasil (ciudad)   | Brasil          |
+    | Factura electrónica para Noruega (NO)                     | Noruega          |
+    | Factura electrónica PEPPOL                             | Global          |
+    | Factura electrónica para España (ES)                       | España           |
 
 4. Seleccione **Guardar**.
 
@@ -226,11 +225,11 @@ Según el país o la región, la característica de facturación electrónica pu
 
 3. Seleccione una factura en la cuadrícula y luego seleccione **Consultar** \> **Detalles de envío**.
 
-Según el país o la región, la característica de facturación electrónica puede requerir una configuración adicional. Para conocer los pasos específicos, consulte la documentación "Comenzar" que está disponible para su país o región.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Información general del complemento de facturación electrónica](e-invoicing-service-overview.md)
+- [Visión general del complemento de facturación electrónica](e-invoicing-service-overview.md)
+- [Comenzar con la administración de servicios de complemento de facturación electrónica](e-invoicing-get-started-service-administration.md)
 - [Introducción al complemento de facturación electrónica para Brasil](e-invoicing-bra-get-started.md)
 - [Introducción al complemento de facturación electrónica para México](e-invoicing-mex-get-started.md)
 - [Introducción al complemento de facturación electrónica para Italia](e-invoicing-ita-get-started.md)

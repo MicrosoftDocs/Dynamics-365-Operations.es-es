@@ -3,10 +3,9 @@ title: P+F de las libretas de direcciones
 description: Este tema proporciona respuestas a las preguntas más frecuentes relacionadas con las libretas de direcciones.
 author: msftbrking
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -17,16 +16,17 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796907"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559950"
 ---
 # <a name="address-books-faq"></a>Preguntas frecuentes sobre Libretas de direcciones
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>¿Cómo compruebo los registros duplicados?
 
@@ -68,5 +68,10 @@ Puede especificar registros de partes en la libreta de direcciones global o en l
 
 Puede configurar traducciones de la información de dirección de modo que la información aparezca en el idioma del usuario (idioma del sistema) en su programa pero en otro idioma en documentos como los pedidos de ventas. Puede especificar las traducciones para los nombres de país o región, los propósitos de direcciones y las secuencias de nombres. Por ejemplo, su idioma del sistema es el danés y crea un pedido de ventas para un cliente en Francia. En este caso, puede ver el registro del cliente en danés en el programa pero visualizar la información de dirección en francés en el pedido de ventas impreso. Al configurar traducciones, debe especificar una traducción para cada elemento de la lista. Los artículos para los que no especifique una traducción aparecerán en el idioma del sistema. Por ejemplo, su idioma del sistema es el danés y envía un documento a un cliente en España. Si no ha especificado las traducciones de español (ESP) para la información de dirección, esa información aparecerá en danés tanto en el programa como en el documento impreso.
 
+## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Después de importar direcciones, cuando accedo a los registros, ¿por qué no puedo editar las direcciones importadas?
+
+Al importar direcciones, hay un campo etiquetado **IsLocationOwner**, que indica si la parte asociada a la ubicación (dirección) es la propietaria de la dirección. Si la parte es el propietario de la dirección, la dirección se puede editar cuando se accede utilizando la parte en la libreta de direcciones global o desde el formulario de registro maestro (como cliente, proveedor o trabajador). Si la parte no es el propietario de la dirección, el registro no se puede editar desde los formularios enumerados anteriormente. Al importar direcciones, **IsLocationOwner** debe establecerse en **Sí** si desea que la dirección sea editable utilizando la parte asociada. Sin embargo, hay ocasiones en las que este campo se importa incorrectamente. Para solucionar este problema, el propietario de la ubicación se puede actualizar dentro de la libreta de direcciones global desde el registro de la parte o desde la página **Confirmar los propietarios de la ubicación**. Para actualizar un único registro de parte, vaya a **Libreta de direcciones global > Dirección**. Seleccione **Editar** para lanzar la página **Editar dirección** para cambiar el propietario de la ubicación. Seleccione **Cambiar el propietario de la ubicación** para ver el propietario de la ubicación anterior, con la parte seleccionada como la nueva propietaria de la ubicación. Si el propietario de la ubicación anterior está en blanco, significa que no se estableció un propietario de la ubicación. Seleccionando la opción **Avanzado**, se abrirá la página **Administrar direcciones**, en la que también se puede establecer el propietario de la ubicación. Seleccione la ubicación a actualizar y luego seleccione **Establecer propietario de la ubicación** en el menú. Para actualizar el propietario de la ubicación para varios registros, vaya a **Libreta de direcciones global > Ubicaciones > Confirmar propietarios de ubicaciones**. La lista contiene ubicaciones que están vinculadas a un solo partido, pero ese partido no es el propietario. Seleccionando **Confirmar propietario** se establecerá el **Id. de la parte propietaria propuesta** como propietario de la dirección vinculada. Una vez que la parte se establece como propietaria, la dirección vinculada se podrá editar desde el registro de la parte. Para cambiar el propietario de la ubicación, se le debe asignar el privilegio **Establecer propietario de la ubicación** en la página **Configuración de seguridad**.  El administrador del sistema tiene este privilegio de forma predeterminada.
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

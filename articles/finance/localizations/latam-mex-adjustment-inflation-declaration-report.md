@@ -17,12 +17,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d96cf1e38543c6d23e1617c4b8a9cdbd9d4ae0a7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 12ab589f78b534655ddb20a0c132a01d1ac78f1a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964654"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254418"
 ---
 # <a name="adjustment-inflation-declaration-report"></a>Informe de la declaración de inflación de ajuste
 

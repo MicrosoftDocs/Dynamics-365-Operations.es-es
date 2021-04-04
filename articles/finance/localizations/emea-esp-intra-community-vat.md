@@ -16,12 +16,12 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 631e0824c2df36ad1a1c615f1a1dd1c63e793ecc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 93d04633baaaf87005544527480dcdea90266b22
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992739"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264095"
 ---
 # <a name="intra-community-vat-for-spain"></a>IVA intracomunitario para España
 [!include [banner](../includes/banner.md)]

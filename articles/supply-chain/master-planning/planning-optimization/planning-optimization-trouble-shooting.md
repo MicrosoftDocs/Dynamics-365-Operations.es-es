@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8e67a6faf52b51264555b06f56b289d19ca580d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39583c244f09f54551d560e8b1dd9f1a5a1590cc
+ms.sourcegitcommit: 72f70c81176e86cda714a4712525f73514c895b7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992579"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "5457338"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Solución de problemas de optimización de planificación 
 
@@ -48,12 +48,6 @@ Cuando se habilita Optimización de planificación, el motor de planificación m
 Optimización de planificación difiere del diseño de planificación maestra incorporado en algunas áreas. Esto también pueden provocarlo funciones pendientes.
 
 **Reparar**: ejecute el análisis de ajuste de Optimización de planificación y luego analice los resultados mientras consulta la documentación relacionada para comprender la incidencia. Para obtener más información, consulte [Análisis de aptitud de optimización de la planificación](planning-optimization-fit-analysis.md).
-
-## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>La planificación maestra no respeta el intervalo de tiempo de cobertura
-
-Esto se debe a una función pendiente de Optimización de planificación.
-
-**Reparar**: hasta que la función pendiente esté disponible, filtre o elimine los pedidos planificados para eliminar sugerencias de suministro fuera del intervalo de tiempo de cobertura.
 
 ## <a name="cant-enable-planning-optimization"></a>No es posible habilitar Optimización de planificación
 

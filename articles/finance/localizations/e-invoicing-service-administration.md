@@ -3,7 +3,7 @@ title: Componentes de administración del complemento de facturación electróni
 description: Este tema proporciona información sobre los componentes relacionados con la administración del complemento de facturación electrónica.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6f630ebb694217c3bd52378a649933a670c090f2
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104435"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592583"
 ---
 # <a name="electronic-invoicing-add-on-administration-components"></a>Componentes de administración del complemento de facturación electrónica
 
@@ -39,11 +39,15 @@ Utilice Microsoft Azure para crear los secretos para el almacén de claves y la 
 
 Utilice Microsoft Dynamics Lifecycle Services (LCS) para habilitar el complemento de los microservicios para su proyecto de implementación de LCS.
 
-En LCS, seleccione el mosaico **Gestión de funciones de versión preliminar** y luego active la característica **Servicio de facturación electrónica**.
+> [!NOTE]
+> La instalación del complemento de microservicio en LCS requiere al menos una máquina virtual de nivel 2. Para obtener más información sobre planificación de ambientes, consulte [Planificación de ambientes](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+ 
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
 
 Dynamics 365 Regulatory Configuration Services (RCS) es la interfaz para configurar el complemento de facturación electrónica. Los recursos, como los entornos y las funciones de facturación electrónica se crean, mantienen y alojan en RCS. Cuando los recursos están listos, se publican en el servicio adicional de facturación electrónica.
+
+Para registrarse en RCS, consulte [Regulatory services](https://marketing.configure.global.dynamics.com/).
 
 Para más información sobre RCS, consulte [Regulatory Configuration Services (RCS): características de globalización](rcs-globalization-feature.md)
 
@@ -53,22 +57,14 @@ Antes de poder utilizar RCS para configurar facturas electrónicas, debe configu
 
 #### <a name="service-endpoint"></a>Extremo del servicio
 
-La URL del punto de conexión del complemento de facturación electrónica puede variar según la geografía del centro de datos de Azure. La siguiente tabla enumera la disponibilidad por región:
+El complemento de facturación electrónica está disponible en diversas geografías de centros de datos de Azure. La siguiente tabla enumera la disponibilidad por región.
 
-| Geografía de centros de datos de Azure | URL de extremo de servicio                                                       |
-|----------------------------|----------------------------------------------------------------------------|
-| Este de EE. UU.                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-| Oeste de EE. UU.                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-| Norte de la UE                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-| Oeste de la UE                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
-
-#### <a name="application-id"></a>Id. de la aplicación
-
-El id. de la aplicación es el id. de la aplicación de complemento de facturación electrónica. En este caso, el valor es fijo: **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
-
-#### <a name="lcs-environment-id"></a>Id. de entorno LCS
-
-El id. del entorno de LCS es el id. de la suscripción LCS de su organización.
+| Geografía de centros de datos de Azure |
+|----------------------------|
+| Este de EE. UU.                    |
+| Oeste de EE. UU.                    |
+| Norte de la UE                   |
+| Oeste de la UE                    |
 
 ### <a name="service-environments"></a>Entornos de servicio
 

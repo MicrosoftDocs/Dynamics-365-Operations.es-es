@@ -1,9 +1,9 @@
 ---
 title: Automatización del proceso de cobros
-description: Este tema describe el proceso de configuración de estrategias de procesos de cobro que identifican automáticamente las facturas de los clientes que requieren un recordatorio por correo electrónico, una actividad de cobro (como una llamada telefónica) o una carta de cobro que se enviará al cliente.
+description: Este tema describe el proceso de configuración de estrategias de procesos de cobro que identifican automáticamente las facturas de los clientes que requieren un recordatorio por correo electrónico, una actividad de cobro o una carta de cobro que se enviará al cliente.
 author: panolte
 manager: AnnBe
-ms.date: 08/26/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5f5d65f3f757163b22d35c3c99b4d6b7fbdfafb
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969710"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582760"
 ---
 # <a name="collections-process-automation"></a>Automatización del proceso de cobros
 
@@ -28,10 +28,12 @@ ms.locfileid: "4969710"
 
 Este tema describe el proceso de configuración de estrategias de procesos de cobro que identifican automáticamente las facturas de los clientes que requieren un recordatorio por correo electrónico, una actividad de cobro (como una llamada telefónica) o una carta de cobro que se enviará al cliente. 
 
-Las organizaciones dedican una cantidad significativa de tiempo a investigar informes de saldos antiguos, cuentas de clientes y facturas abiertas para determinar qué clientes deben ser contactados sobre una factura abierta o un saldo de cuenta. Esta investigación le quita tiempo al agente de cobros que dedica a comunicarse con los clientes para cobrar saldos deudores o resolver disputas de facturas. La automatización del proceso de cobros le permite configurar un enfoque basado en estrategias para su proceso de cobros. Esto le ayuda a aplicar las actividades de cobros de manera consistente al proporcionar recordatorios personalizados por correo electrónico o un proceso programado para enviar cartas de cobro. 
+Las organizaciones dedican una cantidad significativa de tiempo a investigar informes de saldos antiguos, cuentas de clientes y facturas abiertas para determinar con qué clientes hay que contactar sobre una factura abierta o un saldo de cuenta. Esta investigación le quita tiempo al agente de cobros que dedica a comunicarse con los clientes para cobrar saldos deudores o resolver disputas de facturas. La automatización del proceso de cobros le permite configurar un enfoque basado en estrategias para su proceso de cobros. Esto le ayuda a aplicar las actividades de cobros de manera consistente al proporcionar recordatorios personalizados por correo electrónico o un proceso programado para enviar cartas de cobro. 
 
 ## <a name="collections-process-setup"></a>Configuración del proceso de cobros
 Puede usar la página **Configuración del proceso de cobros** (**Crédito y cobros > Configuración > Configuración del proceso de cobros**) para crear un proceso de cobros automatizado que programará actividades, enviará mensajes de correo electrónico y creará y publicará cartas de cobro de clientes. Los pasos del proceso se basan en la factura abierta principal o más antigua. Cada paso utiliza esta factura para determinar qué comunicación o actividad debe realizarse con un cliente específico.  
+
+Los equipos de cobranza generalmente envían un aviso temprano relacionado con cada factura pendiente, para que se notifique al cliente cuando la factura está a punto de vencer. La selección **Prereclamación** se puede configurar para permitir dar un paso en cada jerarquía de proceso cuando la temporización de la factura llega a ese momento.
 
 ### <a name="process-hierarchy"></a>Jerarquía de procesos
 Cada grupo de clientes solo se puede asignar a una jerarquía de procesos. El rango de jerarquía de este paso identifica qué proceso tendrá prioridad si un cliente está incluido en más de un grupo que tiene asignada una jerarquía de procesos. El identificador del grupo determina qué clientes se asignarán al proceso. 
@@ -82,6 +84,7 @@ Las siguientes tablas enumeran las páginas y los campos desde los que se puede 
 |                                                           |     Documento empresarial                           |     Define la actividad o plantilla de correo electrónico que se utiliza durante el paso del proceso.                                                                        |
 |                                                           |     Cuándo                                          |     Define si el paso del proceso ocurrirá antes o después de la fecha de vencimiento de la factura principal junto con el campo **Días en relación con la fecha de vencimiento de la factura**.        |
 |                                                           |     Días en relación con la fecha de vencimiento de la factura        |     Junto con el campo **Cuándo** identifica el tiempo del paso del proceso.                                                                          |
+|                                                           |     Reclamación previa                                   |     Esta selección permite establecer un paso por jerarquía de proceso y ejecutarlo en cada factura a medida que alcanza los criterios de tiempo.                                                |
 |                                                           |     Destinatario                                     |     Identifica si se enviará un correo electrónico a un cliente, grupo de ventas o contacto del agente de cobros.                                                   |
 |                                                           |     Contacto para propósito comercial                    |     Determina qué dirección de correo electrónico del destinatario se utiliza en las comunicaciones por correo electrónico.                                                                                 |
 
@@ -100,7 +103,7 @@ Las siguientes tablas enumeran las páginas y los campos desde los que se puede 
 ### <a name="collections-history"></a>Historial de cobros 
 |     Página                              |     Campo     |      Descripción                                                          |
 |------------------------------------   |-------------- |---------------------------------------------------------------------  |
-|     Configuración del proceso de cobros       |               |     Ver el historial reciente de la jerarquía de procesos seleccionada.     |
+|     Configuración del proceso de cobros       |               |     Ver el historial reciente de la jerarquía de procesos seleccionada.       |
 
 ### <a name="collection-process-assignment"></a>Asignación del proceso de cobros
 |     Página                              |     Campo     |      Descripción                                                  |
@@ -110,6 +113,11 @@ Las siguientes tablas enumeran las páginas y los campos desde los que se puede 
 |     Vista previa de la asignación del proceso      |               |     Obtenga una vista previa de los clientes que se asignarán a una estrategia cuando se ejecute.   |
 |     Obtener vista previa de asignación de clientes     |               |     Vea la estrategia que se le asigna a un cliente específico.    |
  
+ ### <a name="process-simulation"></a>Simulación del proceso
+|     Página                              |     Campo     |      Descripción                                                  |
+|------------------------------------   |-------------- |-----------------------------------------------------------    |
+|    Simulación del proceso                 |               |     Obtenga una vista previa de las acciones que se crearán si la automatización del proceso seleccionado se ejecuta en este momento. |
+
 ### <a name="parameters"></a>Parámetros
 |     Página                                                                  |     Campo                                             |      Descripción                              |
 |-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
@@ -117,6 +125,7 @@ Las siguientes tablas enumeran las páginas y los campos desde los que se puede 
 |     Parámetros de clientes > Automatización del proceso de cobros     |     Registrar cartas de cobro automáticamente           |     Los tipos de acciones de cartas de cobro publicarán la carta durante la automatización.                                      |
 |     Parámetros de clientes > Automatización del proceso de cobros     |     Crear actividades para la automatización                |     Cree y cierre actividades para tipos de acciones que no sean actividades para ver todos los pasos automatizados realizados en una cuenta.        |
 |     Parámetros de clientes > Automatización del proceso de cobros     |     Días para mantener la automatización del proceso de cobros     |     Define el número de días que se almacena el historial de colecciones.                                                       |
+|     Parámetros de clientes > Automatización del proceso de cobros     |     Excluir factura tras activar el último paso del proceso    |     Una factura que llega al último paso del proceso de cobranza no se utilizará para crear tipos de acciones de automatización de procesos futuros. La siguiente factura más antigua determinará el siguiente paso de automatización del proceso para garantizar que continúen las acciones de automatización del proceso de cobranza.                                                        |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

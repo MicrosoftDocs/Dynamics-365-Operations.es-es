@@ -18,12 +18,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 91e614889c719ae700b13e54150e5025d64e2b97
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104949"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580974"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -85,7 +85,14 @@ El centro posee los siguientes datos:
 > [!NOTE]
 > El flujo del pedido de compra entrante es conceptualmente diferente del flujo de salida. Puede operar el mismo almacén en la unidad de escalado o en el concentrador, dependiendo de si el pedido de compra se ha entregado al almacén o no. Una vez que haya enviado un pedido al almacén, solo podrá trabajar con ese pedido mientras esté conectado a la unidad de escalado.
 
-Si está usando el proceso de *liberación al almacén*, se crean los [*pedidos de almacén*](cloud-edge-warehouse-order.md) y la propiedad del flujo de recepción relacionado se asigna a la unidad de escala. El hub no podrá registrar la recepción entrante.
+Si está usando el proceso de *Liberación al almacén*, se crean los [*pedidos de almacén*](cloud-edge-warehouse-order.md) y la propiedad del flujo de recepción relacionado se asigna a la unidad de escala. El hub no podrá registrar la recepción entrante.
+
+Debe iniciar sesión en el concentrador para usar el proceso *Liberar al almacén*. Vaya a una de las siguientes páginas para ejecutarlo o programarlo:
+
+- **Adquisición y abastecimiento > Pedidos de compra > Todos los pedidos de compra > Almacén > Acciones > Liberación a almacén**
+- **Gestión de almacén > Despachar al almacén > Despacho automático de pedidos de ventas**
+
+Cuando usa **Liberación automática de órdenes de compra**, puede seleccionar líneas de pedido de compra específicas en función de una consulta. Un escenario típico sería configurar un trabajo por lotes recurrente que libere todas las líneas de órdenes de compra confirmadas que se espera lleguen al día siguiente.
 
 El trabajadore puede ejecutar el proceso de recepción utilizando una aplicación de almacén que está conectada a la unidad de báscula. Luego, la unidad de báscula registra los datos y se reportan contra el pedido de almacén de entrada. La creación y el procesamiento del almacenamiento posterior también serán manejados por la unidad de báscula.
 
@@ -222,7 +229,7 @@ La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se
 | Recepción de línea del pedido de transferencia y ubicación                        | Sí | N.º |
 | Cancelar trabajo (entrante)                                              | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Si, pero solo cuando la opción <b>Dar de baja el recibo al cancelar el trabajo</b> (en la página <b>Parámetros de gestión de almacén</b>) se ha desactivado</p> |
 | Procesamiento de recepción de producto de pedido de compra                          | Sí | N.º |
-| Recepción de pedidos de compra con entrega incompleta                        | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No, porque solo pueden cancelar las cantidades completas de la línea de pedido de almacén |
+| Recepción de pedidos de compra con entrega incompleta                        | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí, pero solo haciendo una solicitud de cancelación desde el concentrador |
 | Recepción de pedidos de compra con entrega excesiva                        | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí  |
 | Recepción con la creación del trabajo *Tránsito directo*                   | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | N.º |
 | Recepción con la creación del trabajo *Pedido de calidad*                  | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | N.º |
