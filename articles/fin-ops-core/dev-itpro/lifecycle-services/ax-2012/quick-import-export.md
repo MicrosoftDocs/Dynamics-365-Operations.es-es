@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
-ms.service: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,27 +15,30 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
-ms.openlocfilehash: c5425f53ba66b4123457154386bf51342697fbd1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 57d0ce9d483f4c849855e4247b4fd0fd067abb1b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683211"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565315"
 ---
-# <a name="quick-import-export"></a><span data-ttu-id="4e31d-103">Importación y exportación rápidas</span><span class="sxs-lookup"><span data-stu-id="4e31d-103">Quick import export</span></span>
+# <a name="quick-import-export"></a><span data-ttu-id="733bc-103">Importación y exportación rápidas</span><span class="sxs-lookup"><span data-stu-id="733bc-103">Quick import export</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4e31d-104">El propósito de la importación y exportación rápidas es permitirle importar y exportar con menos pasos.</span><span class="sxs-lookup"><span data-stu-id="4e31d-104">The purpose of Quick import export is to let you import and export with fewer steps.</span></span>
+<span data-ttu-id="733bc-104">El propósito de la importación y exportación rápidas es permitirle importar y exportar con menos pasos.</span><span class="sxs-lookup"><span data-stu-id="733bc-104">The purpose of Quick import export is to let you import and export with fewer steps.</span></span>
 
-<span data-ttu-id="4e31d-105">Hemos agregado la característica Importación y exportación rápidas para permitir a los usuarios importar o exportar tareas sencillas que desean ejecutar con rapidez.</span><span class="sxs-lookup"><span data-stu-id="4e31d-105">We added the Quick Import Export feature to let users import or export simple jobs that they want to execute quickly.</span></span> <span data-ttu-id="4e31d-106">Lo ideal es que esta característica se utilice en escenarios en los que un archivo se asigna automáticamente al sistema y el usuario no necesita pasar por la asignación avanzada ni crear trabajos repetidos de importación o exportación.</span><span class="sxs-lookup"><span data-stu-id="4e31d-106">Ideally this feature is used in scenarios in which a file automatically maps to the system and user does not need to go through advanced mapping or create repeated import or export jobs.</span></span>
+<span data-ttu-id="733bc-105">Hemos agregado la característica Importación y exportación rápidas para permitir a los usuarios importar o exportar tareas sencillas que desean ejecutar con rapidez.</span><span class="sxs-lookup"><span data-stu-id="733bc-105">We added the Quick Import Export feature to let users import or export simple jobs that they want to execute quickly.</span></span> <span data-ttu-id="733bc-106">Lo ideal es que esta característica se utilice en escenarios en los que un archivo se asigna automáticamente al sistema y el usuario no necesita pasar por la asignación avanzada ni crear trabajos repetidos de importación o exportación.</span><span class="sxs-lookup"><span data-stu-id="733bc-106">Ideally this feature is used in scenarios in which a file automatically maps to the system and user does not need to go through advanced mapping or create repeated import or export jobs.</span></span>
 
-- <span data-ttu-id="4e31d-107">Esta característica es compatible con el trabajo tantos con entidades personalizadas como inmediatas.</span><span class="sxs-lookup"><span data-stu-id="4e31d-107">This feature supports working with both out-of-the-box and custom entities.</span></span>
-- <span data-ttu-id="4e31d-108">Puede importar desde archivos y, si está utilizando un origen de datos ODBC, puede seleccionar una consulta para usarla para definir la importación.</span><span class="sxs-lookup"><span data-stu-id="4e31d-108">You can import from files, and if you are using an ODBC data source, you can select a query to use to define your import.</span></span>
-- <span data-ttu-id="4e31d-109">Debe haber definido anteriormente formatos de datos de origen para AX o archivo, y saber dónde se encuentran.</span><span class="sxs-lookup"><span data-stu-id="4e31d-109">You must have previously defined source data formats for either AX or File, and know where they are located.</span></span>
-- <span data-ttu-id="4e31d-110">No necesita crear un grupo de procesamiento para usar importación y exportación rápidas, el sistema creará uno automáticamente al ejecutar el trabajo de importación o exportación.</span><span class="sxs-lookup"><span data-stu-id="4e31d-110">You do not need to create a processing group to use quick import/export, one will be automatically created by the system when executing the import or export job.</span></span> <span data-ttu-id="4e31d-111">También puede elegir conservar el historial de los datos importados por la importación o exportación rápidas.</span><span class="sxs-lookup"><span data-stu-id="4e31d-111">You can also choose keep the history of the data imported by the quick import/export.</span></span>
+- <span data-ttu-id="733bc-107">Esta característica es compatible con el trabajo tantos con entidades personalizadas como inmediatas.</span><span class="sxs-lookup"><span data-stu-id="733bc-107">This feature supports working with both out-of-the-box and custom entities.</span></span>
+- <span data-ttu-id="733bc-108">Puede importar desde archivos y, si está utilizando un origen de datos ODBC, puede seleccionar una consulta para usarla para definir la importación.</span><span class="sxs-lookup"><span data-stu-id="733bc-108">You can import from files, and if you are using an ODBC data source, you can select a query to use to define your import.</span></span>
+- <span data-ttu-id="733bc-109">Debe haber definido anteriormente formatos de datos de origen para AX o archivo, y saber dónde se encuentran.</span><span class="sxs-lookup"><span data-stu-id="733bc-109">You must have previously defined source data formats for either AX or File, and know where they are located.</span></span>
+- <span data-ttu-id="733bc-110">No necesita crear un grupo de procesamiento para usar importación y exportación rápidas, el sistema creará uno automáticamente al ejecutar el trabajo de importación o exportación.</span><span class="sxs-lookup"><span data-stu-id="733bc-110">You do not need to create a processing group to use quick import/export, one will be automatically created by the system when executing the import or export job.</span></span> <span data-ttu-id="733bc-111">También puede elegir conservar el historial de los datos importados por la importación o exportación rápidas.</span><span class="sxs-lookup"><span data-stu-id="733bc-111">You can also choose keep the history of the data imported by the quick import/export.</span></span>
 
-  <span data-ttu-id="4e31d-112">Tenga en cuenta que la importación y exportación rápidas supone que está familiarizado con los conceptos de DIXF.</span><span class="sxs-lookup"><span data-stu-id="4e31d-112">Note that Quick import export assumes that you are familiar with the concepts of DIXF.</span></span>
+  <span data-ttu-id="733bc-112">Tenga en cuenta que la importación y exportación rápidas supone que está familiarizado con los conceptos de DIXF.</span><span class="sxs-lookup"><span data-stu-id="733bc-112">Note that Quick import export assumes that you are familiar with the concepts of DIXF.</span></span>
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
