@@ -16,48 +16,51 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08a806514a92a99a9f0b18b36817f49a09516ab8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ecf6fe97287fcfb3c070215b563542878175789c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964854"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264293"
 ---
-# <a name="create-call-center-orders"></a><span data-ttu-id="56b67-103">Crear pedidos de centro de llamadas</span><span class="sxs-lookup"><span data-stu-id="56b67-103">Create call center orders</span></span>
+# <a name="create-call-center-orders"></a><span data-ttu-id="8475d-103">Crear pedidos de centro de llamadas</span><span class="sxs-lookup"><span data-stu-id="8475d-103">Create call center orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="56b67-104">Este procedimiento le guía por la búsqueda de un cliente, la creación de un nuevo pedido, la búsqueda de un producto y el cobro de pagos del cliente.</span><span class="sxs-lookup"><span data-stu-id="56b67-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="56b67-105">Este procedimiento usa la empresa de datos de demostración USRT y está pensado para el funcionario de ventas.</span><span class="sxs-lookup"><span data-stu-id="56b67-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="56b67-106">Requisitos previos: el usuario que complete el procedimiento se configura como usuario del centro de llamadas y el catálogo semestral de Fabrikam se publica con al menos un código fuente en él.</span><span class="sxs-lookup"><span data-stu-id="56b67-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
+<span data-ttu-id="8475d-104">Este procedimiento le guía por la búsqueda de un cliente, la creación de un nuevo pedido, la búsqueda de un producto y el cobro de pagos del cliente.</span><span class="sxs-lookup"><span data-stu-id="8475d-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="8475d-105">Este procedimiento usa la empresa de datos de demostración USRT y está pensado para el funcionario de ventas.</span><span class="sxs-lookup"><span data-stu-id="8475d-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="8475d-106">Requisitos previos: el usuario que complete el procedimiento se configura como usuario del centro de llamadas y el catálogo semestral de Fabrikam se publica con al menos un código fuente en él.</span><span class="sxs-lookup"><span data-stu-id="8475d-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
 
-1. <span data-ttu-id="56b67-107">Vaya a **Retail y Commerce \> Clientes \> Servicio al cliente**.</span><span class="sxs-lookup"><span data-stu-id="56b67-107">Go to **Retail and Commerce \> Customers \> Customer service**.</span></span>
-2. <span data-ttu-id="56b67-108">En **SearchText**, especifique los criterios de búsqueda para buscar el cliente.</span><span class="sxs-lookup"><span data-stu-id="56b67-108">For **SearchText**, enter the search criteria to look up the customer.</span></span>
-    * <span data-ttu-id="56b67-109">Para este procedimiento de ejemplo, escriba "Karen" y seleccione **Tabulador**.</span><span class="sxs-lookup"><span data-stu-id="56b67-109">For this example procedure, enter "Karen" and select **Tab**.</span></span>  
-3. <span data-ttu-id="56b67-110">Selección Buscar.</span><span class="sxs-lookup"><span data-stu-id="56b67-110">Select Search.</span></span>
-    * <span data-ttu-id="56b67-111">Dado que solo hay un cliente llamado "Karen" en los datos de demostración, el resultado se seleccionará automáticamente.</span><span class="sxs-lookup"><span data-stu-id="56b67-111">Since there is only one customer named "Karen" in demo data, the result will be automatically selected.</span></span>  
-4. <span data-ttu-id="56b67-112">Seleccione **Nuevo pedido de ventas**.</span><span class="sxs-lookup"><span data-stu-id="56b67-112">Select **New sales order**.</span></span>
-5. <span data-ttu-id="56b67-113">Expanda o contraiga la sección de encabezado **Pedido de ventas**.</span><span class="sxs-lookup"><span data-stu-id="56b67-113">Expand or collapse the **Sales order** header section.</span></span>
-6. <span data-ttu-id="56b67-114">Seleccione el código fuente para el catálogo.</span><span class="sxs-lookup"><span data-stu-id="56b67-114">Select the source code for the catalog.</span></span>
-    * <span data-ttu-id="56b67-115">Si no hay códigos de origen activos, puede omitir este paso.</span><span class="sxs-lookup"><span data-stu-id="56b67-115">If there are no active source codes you can skip this step.</span></span>  
-7. <span data-ttu-id="56b67-116">Seleccione **Agregar línea**.</span><span class="sxs-lookup"><span data-stu-id="56b67-116">Select **Add line**.</span></span>
-8. <span data-ttu-id="56b67-117">En el campo **Código de artículo**, especifique el término de búsqueda del artículo.</span><span class="sxs-lookup"><span data-stu-id="56b67-117">For **Item number**, enter the item search term.</span></span>
-    * <span data-ttu-id="56b67-118">Para este procedimiento de ejemplo, escriba el código de artículo parcial "8111 " y presione el tabulador. Esto hará que se muestre la ventana de búsqueda del artículo.</span><span class="sxs-lookup"><span data-stu-id="56b67-118">For this sample procedure, enter a partial item number of '8111' and press tab. This action will bring up the item search window.</span></span>  
-9. <span data-ttu-id="56b67-119">Seleccione el producto que se agregará al pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="56b67-119">Select the product to add to the sales order.</span></span>
-10. <span data-ttu-id="56b67-120">Especifique la cantidad de ventas.</span><span class="sxs-lookup"><span data-stu-id="56b67-120">Enter the sales quantity.</span></span>
-11. <span data-ttu-id="56b67-121">Seleccione **Crear**.</span><span class="sxs-lookup"><span data-stu-id="56b67-121">Select **Create**.</span></span>
-12. <span data-ttu-id="56b67-122">Seleccione **Completar** para capturar el pago del cliente.</span><span class="sxs-lookup"><span data-stu-id="56b67-122">Select **Complete** to capture the customer payment.</span></span>
-13. <span data-ttu-id="56b67-123">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="56b67-123">Select **Add**.</span></span>
-    * <span data-ttu-id="56b67-124">El vínculo "Agregar" se encuentra en la pestaña de pagos. Si está contraída, abra la pestaña de pagos.</span><span class="sxs-lookup"><span data-stu-id="56b67-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
-14. <span data-ttu-id="56b67-125">Seleccione el método de pago.</span><span class="sxs-lookup"><span data-stu-id="56b67-125">Select the payment method.</span></span>
-    * <span data-ttu-id="56b67-126">Para este procedimiento, seleccione el método de pago en efectivo.</span><span class="sxs-lookup"><span data-stu-id="56b67-126">For this procedure, select the cash payment method.</span></span>  
-15. <span data-ttu-id="56b67-127">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="56b67-127">Close the page.</span></span>
-16. <span data-ttu-id="56b67-128">Especifique el importe.</span><span class="sxs-lookup"><span data-stu-id="56b67-128">Enter the amount.</span></span>
-    * <span data-ttu-id="56b67-129">Para este procedimiento, especifique un importe igual al saldo del pedido que se puede ver en la página Resumen de pedido de ventas a la izquierda del campo de importe.</span><span class="sxs-lookup"><span data-stu-id="56b67-129">For this procedure, enter an amount equal to the order balance that can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="56b67-130">Esta acción le permitirá que completar el pedido como totalmente pagado.</span><span class="sxs-lookup"><span data-stu-id="56b67-130">This action will allow you to complete the order as fully paid.</span></span>  
-17. <span data-ttu-id="56b67-131">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="56b67-131">Select **OK**.</span></span>
-18. <span data-ttu-id="56b67-132">Seleccione **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="56b67-132">Select **Submit**.</span></span>
+1. <span data-ttu-id="8475d-107">Vaya a **Retail y Commerce \> Clientes \> Servicio al cliente**.</span><span class="sxs-lookup"><span data-stu-id="8475d-107">Go to **Retail and Commerce \> Customers \> Customer service**.</span></span>
+2. <span data-ttu-id="8475d-108">En **SearchText**, especifique los criterios de búsqueda para buscar el cliente.</span><span class="sxs-lookup"><span data-stu-id="8475d-108">For **SearchText**, enter the search criteria to look up the customer.</span></span>
+    * <span data-ttu-id="8475d-109">Para este procedimiento de ejemplo, escriba "Karen" y seleccione **Tabulador**.</span><span class="sxs-lookup"><span data-stu-id="8475d-109">For this example procedure, enter "Karen" and select **Tab**.</span></span>  
+3. <span data-ttu-id="8475d-110">Selección Buscar.</span><span class="sxs-lookup"><span data-stu-id="8475d-110">Select Search.</span></span>
+    * <span data-ttu-id="8475d-111">Dado que solo hay un cliente llamado "Karen" en los datos de demostración, el resultado se seleccionará automáticamente.</span><span class="sxs-lookup"><span data-stu-id="8475d-111">Since there is only one customer named "Karen" in demo data, the result will be automatically selected.</span></span>  
+4. <span data-ttu-id="8475d-112">Seleccione **Nuevo pedido de ventas**.</span><span class="sxs-lookup"><span data-stu-id="8475d-112">Select **New sales order**.</span></span>
+5. <span data-ttu-id="8475d-113">Expanda o contraiga la sección de encabezado **Pedido de ventas**.</span><span class="sxs-lookup"><span data-stu-id="8475d-113">Expand or collapse the **Sales order** header section.</span></span>
+6. <span data-ttu-id="8475d-114">Seleccione el código fuente para el catálogo.</span><span class="sxs-lookup"><span data-stu-id="8475d-114">Select the source code for the catalog.</span></span>
+    * <span data-ttu-id="8475d-115">Si no hay códigos de origen activos, puede omitir este paso.</span><span class="sxs-lookup"><span data-stu-id="8475d-115">If there are no active source codes you can skip this step.</span></span>  
+7. <span data-ttu-id="8475d-116">Seleccione **Agregar línea**.</span><span class="sxs-lookup"><span data-stu-id="8475d-116">Select **Add line**.</span></span>
+8. <span data-ttu-id="8475d-117">En el campo **Código de artículo**, especifique el término de búsqueda del artículo.</span><span class="sxs-lookup"><span data-stu-id="8475d-117">For **Item number**, enter the item search term.</span></span>
+    * <span data-ttu-id="8475d-118">Para este procedimiento de ejemplo, escriba el código de artículo parcial "8111 " y presione el tabulador. Esto hará que se muestre la ventana de búsqueda del artículo.</span><span class="sxs-lookup"><span data-stu-id="8475d-118">For this sample procedure, enter a partial item number of '8111' and press tab. This action will bring up the item search window.</span></span>  
+9. <span data-ttu-id="8475d-119">Seleccione el producto que se agregará al pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="8475d-119">Select the product to add to the sales order.</span></span>
+10. <span data-ttu-id="8475d-120">Especifique la cantidad de ventas.</span><span class="sxs-lookup"><span data-stu-id="8475d-120">Enter the sales quantity.</span></span>
+11. <span data-ttu-id="8475d-121">Seleccione **Crear**.</span><span class="sxs-lookup"><span data-stu-id="8475d-121">Select **Create**.</span></span>
+12. <span data-ttu-id="8475d-122">Seleccione **Completar** para capturar el pago del cliente.</span><span class="sxs-lookup"><span data-stu-id="8475d-122">Select **Complete** to capture the customer payment.</span></span>
+13. <span data-ttu-id="8475d-123">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="8475d-123">Select **Add**.</span></span>
+    * <span data-ttu-id="8475d-124">El vínculo "Agregar" se encuentra en la pestaña de pagos. Si está contraída, abra la pestaña de pagos.</span><span class="sxs-lookup"><span data-stu-id="8475d-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
+14. <span data-ttu-id="8475d-125">Seleccione el método de pago.</span><span class="sxs-lookup"><span data-stu-id="8475d-125">Select the payment method.</span></span>
+    * <span data-ttu-id="8475d-126">Para este procedimiento, seleccione el método de pago en efectivo.</span><span class="sxs-lookup"><span data-stu-id="8475d-126">For this procedure, select the cash payment method.</span></span>  
+15. <span data-ttu-id="8475d-127">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8475d-127">Close the page.</span></span>
+16. <span data-ttu-id="8475d-128">Especifique el importe.</span><span class="sxs-lookup"><span data-stu-id="8475d-128">Enter the amount.</span></span>
+    * <span data-ttu-id="8475d-129">Para este procedimiento, especifique un importe igual al saldo del pedido que se puede ver en la página Resumen de pedido de ventas a la izquierda del campo de importe.</span><span class="sxs-lookup"><span data-stu-id="8475d-129">For this procedure, enter an amount equal to the order balance that can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="8475d-130">Esta acción le permitirá que completar el pedido como totalmente pagado.</span><span class="sxs-lookup"><span data-stu-id="8475d-130">This action will allow you to complete the order as fully paid.</span></span>  
+17. <span data-ttu-id="8475d-131">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="8475d-131">Select **OK**.</span></span>
+18. <span data-ttu-id="8475d-132">Seleccione **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="8475d-132">Select **Submit**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="56b67-133">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="56b67-133">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="8475d-133">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="8475d-133">Additional resources</span></span>
 
-[<span data-ttu-id="56b67-134">Personalizar correos electrónicos transaccionales por modo de entrega</span><span class="sxs-lookup"><span data-stu-id="56b67-134">Customize transactional emails by mode of delivery</span></span>](../customize-email-delivery-mode.md)
+[<span data-ttu-id="8475d-134">Personalizar correos electrónicos transaccionales por modo de entrega</span><span class="sxs-lookup"><span data-stu-id="8475d-134">Customize transactional emails by mode of delivery</span></span>](../customize-email-delivery-mode.md)
 
-[<span data-ttu-id="56b67-135">Cambiar el modo de entrega en PDV</span><span class="sxs-lookup"><span data-stu-id="56b67-135">Change mode of delivery in POS</span></span>](../pos-change-delivery-mode.md)
+[<span data-ttu-id="8475d-135">Cambiar el modo de entrega en PDV</span><span class="sxs-lookup"><span data-stu-id="8475d-135">Change mode of delivery in POS</span></span>](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,28 +15,31 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e45ed2090fe0e8ee1d128d1ed448844bd6741791
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 786083e4befdb9ebe081b1238c5eb2179b32e01a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983215"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258623"
 ---
-# <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="94e5e-103">Liberar un producto maestro basado en dimensiones</span><span class="sxs-lookup"><span data-stu-id="94e5e-103">Release a dimension-based product master</span></span>
+# <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="a9d34-103">Liberar un producto maestro basado en dimensiones</span><span class="sxs-lookup"><span data-stu-id="a9d34-103">Release a dimension-based product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="94e5e-104">Este procedimiento muestra cómo emitir un producto maestro que se usará para las configuraciones basadas en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="94e5e-104">This procedure shows how to release a product master, which will be used for the dimension-based configurations.</span></span> <span data-ttu-id="94e5e-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="94e5e-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="94e5e-106">Es un requisito previo haber creado un producto maestro con la tecnología de configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="94e5e-106">It is a prerequisite that you have created a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="94e5e-107">Este es el segundo procedimiento de ocho que explica cómo crear combinaciones para la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="94e5e-107">This is the second procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="a9d34-104">Este procedimiento muestra cómo emitir un producto maestro que se usará para las configuraciones basadas en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="a9d34-104">This procedure shows how to release a product master, which will be used for the dimension-based configurations.</span></span> <span data-ttu-id="a9d34-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="a9d34-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a9d34-106">Es un requisito previo haber creado un producto maestro con la tecnología de configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="a9d34-106">It is a prerequisite that you have created a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="a9d34-107">Este es el segundo procedimiento de ocho que explica cómo crear combinaciones para la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="a9d34-107">This is the second procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="94e5e-108">Vaya a Gestión de información de productos > Productos > Productos maestros.</span><span class="sxs-lookup"><span data-stu-id="94e5e-108">Go to Product information management > Products > Product masters.</span></span>
-    * <span data-ttu-id="94e5e-109">Filtre la columna Tecnología de configuración para mostrar solo la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="94e5e-109">Filter the Configuration technology column so that only the dimension-based configuration is displayed.</span></span> <span data-ttu-id="94e5e-110">Por ejemplo, puede filtrar la columna escribiendo "Dimension".</span><span class="sxs-lookup"><span data-stu-id="94e5e-110">For example, you can filter the column by typing Dimension.</span></span>    
-2. <span data-ttu-id="94e5e-111">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="94e5e-111">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="94e5e-112">Haga clic en Emitir productos.</span><span class="sxs-lookup"><span data-stu-id="94e5e-112">Click Release products.</span></span>
-4. <span data-ttu-id="94e5e-113">Haga clic en Siguiente.</span><span class="sxs-lookup"><span data-stu-id="94e5e-113">Click Next.</span></span>
-    * <span data-ttu-id="94e5e-114">Para los productos creados con tecnología de configuración basada en dimensiones, las variantes de producto se deben crear en la empresa donde se creará la lista de materiales.</span><span class="sxs-lookup"><span data-stu-id="94e5e-114">For products that are crated with the dimension-based configuration technology, the product variants must be created in the company where the bill of materials will be created.</span></span>  
-5. <span data-ttu-id="94e5e-115">Haga clic en Siguiente.</span><span class="sxs-lookup"><span data-stu-id="94e5e-115">Click Next.</span></span>
-6. <span data-ttu-id="94e5e-116">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="94e5e-116">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="94e5e-117">Seleccione la empresa USMF para este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="94e5e-117">Select the company USMF for this procedure.</span></span>  
-7. <span data-ttu-id="94e5e-118">Haga clic en Siguiente.</span><span class="sxs-lookup"><span data-stu-id="94e5e-118">Click Next.</span></span>
-8. <span data-ttu-id="94e5e-119">Haga clic en Finalizar.</span><span class="sxs-lookup"><span data-stu-id="94e5e-119">Click Finish.</span></span>
+1. <span data-ttu-id="a9d34-108">Vaya a Gestión de información de productos > Productos > Productos maestros.</span><span class="sxs-lookup"><span data-stu-id="a9d34-108">Go to Product information management > Products > Product masters.</span></span>
+    * <span data-ttu-id="a9d34-109">Filtre la columna Tecnología de configuración para mostrar solo la configuración basada en dimensiones.</span><span class="sxs-lookup"><span data-stu-id="a9d34-109">Filter the Configuration technology column so that only the dimension-based configuration is displayed.</span></span> <span data-ttu-id="a9d34-110">Por ejemplo, puede filtrar la columna escribiendo "Dimension".</span><span class="sxs-lookup"><span data-stu-id="a9d34-110">For example, you can filter the column by typing Dimension.</span></span>    
+2. <span data-ttu-id="a9d34-111">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="a9d34-111">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="a9d34-112">Haga clic en Emitir productos.</span><span class="sxs-lookup"><span data-stu-id="a9d34-112">Click Release products.</span></span>
+4. <span data-ttu-id="a9d34-113">Haga clic en Siguiente.</span><span class="sxs-lookup"><span data-stu-id="a9d34-113">Click Next.</span></span>
+    * <span data-ttu-id="a9d34-114">Para los productos creados con tecnología de configuración basada en dimensiones, las variantes de producto se deben crear en la empresa donde se creará la lista de materiales.</span><span class="sxs-lookup"><span data-stu-id="a9d34-114">For products that are crated with the dimension-based configuration technology, the product variants must be created in the company where the bill of materials will be created.</span></span>  
+5. <span data-ttu-id="a9d34-115">Haga clic en Siguiente.</span><span class="sxs-lookup"><span data-stu-id="a9d34-115">Click Next.</span></span>
+6. <span data-ttu-id="a9d34-116">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="a9d34-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a9d34-117">Seleccione la empresa USMF para este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="a9d34-117">Select the company USMF for this procedure.</span></span>  
+7. <span data-ttu-id="a9d34-118">Haga clic en Siguiente.</span><span class="sxs-lookup"><span data-stu-id="a9d34-118">Click Next.</span></span>
+8. <span data-ttu-id="a9d34-119">Haga clic en Finalizar.</span><span class="sxs-lookup"><span data-stu-id="a9d34-119">Click Finish.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
