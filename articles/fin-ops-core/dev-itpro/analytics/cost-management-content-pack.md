@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 38f499a18e6757c60755a91ba62937350ef7550a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683904"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564901"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenido de gestión de costes de Power BI
 
@@ -31,7 +30,7 @@ ms.locfileid: "4683904"
 
 ## <a name="overview"></a>Información general
 
-El contenido de **Gestión de costes** de Microsoft Power BI está destinado a los contables de inventario o individuos en la organización que son responsable o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
+El contenido de **Gestión de costes** de Microsoft Power BI está destinado a los contables de inventario o personas de la organización que son responsables o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
 
 > [!NOTE]
 > Los contenidos de **Gestión de costes** Power BI descrito en este tema se aplican a Dynamics 365 Finance and Operations 8.0.

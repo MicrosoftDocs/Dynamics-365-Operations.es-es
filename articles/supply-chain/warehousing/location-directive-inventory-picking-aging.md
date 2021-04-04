@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9107a14a79883dc0e33de311baeec5fd6d692a35
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004636"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500511"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vencimiento de picking de inventario de directiva de ubicación
 
@@ -119,7 +119,7 @@ La estrategia FIFO busca la ubicación que contiene la fecha de vencimiento más
 1. En la página **Pedido de ventas** del panel de acciones, en la pestaña **Almacén**, seleccione el grupo **Acciones** y **Despachar al almacén**. Recibirá mensajes informativos. El sistema crea un envío, lo agrega a una nueva carga y crea el trabajo requerido.
 1. En la ficha desplegable **Líneas de pedido de ventas**, en el menú **Almacén**, seleccione **Detalles del trabajo** para abrir el trabajo creado para este pedido de ventas. Observe que la línea donde el valor **Tipo de trabajo** es *Seleccionar* muestra un valor **Ubicación** de *FL-002*. Esta ubicación contiene la matrícula que tiene la fecha de vencimiento más antigua (FIFO).
 1. Seleccione **Almacén \> Detalles del envío**.
-1. En la ficha desplegable **_General_*, tome nota del ID de oleada para que pueda usarlo en el escenario 2.
+1. En la ficha desplegable **General**, tome nota del ID de oleada para que pueda usarlo en el escenario 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Escenario 2: configurar y usar el vencimiento de la ubicación LIFO
 

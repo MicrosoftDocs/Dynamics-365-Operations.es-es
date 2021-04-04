@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 90a3d624dac6c78dfbf2479c5ac7eab76dd4b542
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f90e49c6191134a99b306fdc9de6b46c07844dea
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115957"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463415"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Crear un plan de permisos y ausencias
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Defina planes de permisos y ausencias en Dynamics 365 Human Resources para cada tipo de licencia que ofrezca. Los planes de permisos y ausencias pueden acumularse en diferentes frecuencias, como anualmente, mensualmente o cada dos meses. También puede definir un plan como concesión, donde una sola acumulación se produce en una fecha específica. Por ejemplo, puede crear un plan que conceda vacaciones flotantes anualmente.
 
