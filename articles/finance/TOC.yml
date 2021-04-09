@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (febrero de 2021)
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: Finance 10.0.15 (enero de 2021)
-                      href: get-started/whats-new-changed-10-0-15.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -1418,13 +1416,13 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Actualizaciones reglamentarias
               href: localizations/regulatory-updates.md
-            - name: Complemento de facturación electrónica
+            - name: Facturación electrónica
               items:
-                - name: Información general del complemento de facturación electrónica
+                - name: Información general sobre la facturación electrónica
                   href: localizations/e-invoicing-service-overview.md
-                - name: Componentes de administración de complementario de facturación electrónica
+                - name: Componentes de administración de la facturación electrónica
                   href: localizations/e-invoicing-service-administration.md
-                - name: Configurar el complemento de facturación electrónica en Regulatory Configuration Services (RCS)
+                - name: Configurar la facturación electrónica en Regulatory Configuration Services (RCS)
                   href: localizations/e-invoicing-configuration-rcs.md
                 - name: Emitir facturas electrónicas en Finance y Supply Chain Management
                   href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
@@ -1432,20 +1430,22 @@
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
                 - name: Introducción
                   items:
-                    - name: Comenzar con la administración de servicios de complemento de facturación electrónica
+                    - name: Comenzar con la administración de servicios de facturación electrónica
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Comenzar con el complemento de facturación electrónica
+                    - name: Comenzar con la facturación electrónica
                       href: localizations/e-invoicing-get-started.md
-                    - name: Comenzar con el complemento de facturación electrónica para Brasil
+                    - name: Comenzar la facturación electrónica para Brasil
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Comenzar con el complemento de facturación electrónica para Egipto
+                    - name: Comenzar con la facturación electrónica para Egipto
                       href: localizations/e-invoicing-eg-get-started.md
-                    - name: Comenzar con el complemento de facturación electrónica para Italia
+                    - name: Comenzar con la facturación electrónica para Italia
                       href: localizations/e-invoicing-ita-get-started.md
-                    - name: Comenzar con el complemento de facturación electrónica para México
+                    - name: Comenzar con la facturación electrónica para México
                       href: localizations/e-invoicing-mex-get-started.md
-                    - name: Configurar el complemento de facturación electrónica
+                    - name: Configurar la facturación electrónica
                       href: localizations/e-invoicing-setup.md
+                - name: Preguntas más frecuentes sobre la facturación electrónica
+                  href: localizations/e-invoicing-faq.md
             - name: Australia
               items:
                 - name: Información general para Australia
@@ -1798,6 +1798,10 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: Facturas electrónicas de clientes en Egipto
                   href: localizations/emea-egy-e-invoices.md
+                - name: Declaración de IVA para Egipto
+                  href: localizations/emea-egy-vat-declaration.md
+                - name: Declaración de retención de impuestos para Egipto
+                  href: localizations/emea-egy-wht-declaration.md
             - name: Estonia
               items:
                 - name: Información general de Estonia
@@ -2082,6 +2086,38 @@
                   href: localizations/india.md
                 - name: Ámbito de las localizaciones de la India
                   href: localizations/apac-ind-scope.md
+                - name: Novedades o cambios para la localización de India
+                  items:
+                    - name: Novedades y cambios en 10.0.0
+                      href: localizations/apac-ind-news-letter-10-0-00.md
+                    - name: Novedades y cambios en 10.0.01
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: Novedades y cambios en 10.0.02
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: Novedades y cambios en 10.0.03
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: Novedades y cambios en 10.0.04
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: Novedades y cambios en 10.0.05
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: Novedades y cambios en 10.0.06
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: Novedades y cambios en 10.0.07
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: Novedades y cambios en 10.0.08
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: Novedades y cambios en 10.0.09
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: Novedades y cambios en 10.0.10
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: Novedades y cambios en 10.0.11
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: Novedades y cambios en 10.0.12
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: Novedades y cambios en 10.0.13
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: Novedades y cambios en 10.0.14
+                      href: localizations/apac-ind-news-letter-10-0-14.md
                 - name: Activos fijos
                   items:
                     - name: Información general de los activos fijos de la India
@@ -2108,210 +2144,198 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Transferencia de elementos principales al activo fijo
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: India GST
+                - name: Impuestos indirectos
                   items:
-                    - name: Información general de India GST
-                      href: localizations/apac-ind-gst.md
-                    - name: Novedades o cambios para la localización India GST de India
+                    - name: India GST
                       items:
-                        - name: Novedades y cambios en 10.0.0
-                          href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: Novedades y cambios en 10.0.01
-                          href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: Novedades y cambios en 10.0.02
-                          href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: Novedades y cambios en 10.0.03
-                          href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: Novedades y cambios en 10.0.04
-                          href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: Novedades y cambios en 10.0.05
-                          href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: Novedades y cambios en 10.0.06
-                          href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: Novedades y cambios en 10.0.07
-                          href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: Novedades y cambios en 10.0.08
-                          href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: Novedades y cambios en 10.0.09
-                          href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: Novedades y cambios en 10.0.10
-                          href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: Novedades y cambios en 10.0.11
-                          href: localizations/apac-ind-news-letter-10-0-11.md
-                        - name: Novedades y cambios en 10.0.12
-                          href: localizations/apac-ind-news-letter-10-0-12.md
-                        - name: Novedades y cambios en 10.0.13
-                          href: localizations/ind-news-letter-10-0-13.md
-                        - name: Novedades y cambios en 10.0.14
-                          href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: Grupos de referencia de India GST
-                      href: localizations/apac-ind-gst-reference-groups.md
-                    - name: Integración de GST para cajas registradoras
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
-                    - name: Instalación de datos maestros
-                      items:
-                        - name: Crear un segmento vertical
-                          href: localizations/apac-ind-GST-create-business-vertical.md
-                        - name: Actualizar el código de estado y el territorio de unión
-                          href: localizations/apac-ind-GST-update-state-code-union-territory.md
-                        - name: Crear un producto maestro de GSTIN
-                          href: localizations/apac-ind-GST-create-gstin-master.md
-                        - name: Definir instancias de GSTIN y hacer referencia a secuencias numéricas
-                          href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
-                        - name: Definir códigos HSN y códigos de contabilidad de servicio
-                          href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
-                        - name: Crear tipo de tasa impositiva
-                          href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: Crear cuentas principales para el tipo de registro de GST
-                          href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
-                        - name: Crear un período de liquidación de impuestos
-                          href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: Vincular el GSTIN a un grupo de registro de impuestos
-                          href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
-                    - name: Configuración de impuestos
-                      items:
-                        - name: Definir una configuración de impuestos e implementarla para las entidades jurídicas
-                          href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
-                        - name: 'Asignar tipos de impuestos de la configuración: aduanas'
-                          href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: Configurar las tablas de coeficientes y porcentajes
-                          href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
-                        - name: Configurar una jerarquía de impuestos y reglas de compensación
-                          href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                    - name: Transacción de compra
-                      items:
-                        - name: Compras de proveedores no registrados
-                          href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
-                        - name: Adquisición de un artículo sujeto a impuestos de un proveedor no registrado
-                          href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
-                        - name: Compras de proveedores registrados
-                          href: localizations/apac-ind-GST-purchases-registered-vendor.md
-                        - name: Compras de mercancías descontadas
-                          href: localizations/apac-ind-GST-purchase-discounted-goods.md
-                        - name: Compra de mercancías exentas
-                          href: localizations/apac-ind-GST-purchase-exempted-goods.md
-                        - name: Compra de mercancías de coeficiente cero
-                          href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: Compras de mercancías sin GST
-                          href: localizations/apac-ind-GST-purchase-non-gst-goods.md
-                        - name: Compras de intermediarios compuestos
-                          href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
-                        - name: Compras de mercancías gravables que tienen gastos de envío
-                          href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
-                        - name: Revisar una factura de compra con mercancías gravables
-                          href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
-                        - name: Compras de activos fijos
-                          href: localizations/apac-ind-GST-purchase-fixed-asset.md
-                        - name: Crear una nota de abono para una factura de compra
-                          href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
-                        - name: Crear una nota de débito para una factura de compra
-                          href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
-                        - name: Pedidos de calidad que implican la destrucción del artículo de muestreo
-                          href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                        - name: Pedidos de devolución de compra
-                          href: localizations/apac-ind-GST-purchase-return-order.md
-                        - name: Anticipos del proveedor con gastos invertidos
-                          href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: Transacción de venta
-                      items:
-                        - name: Ventas de mercancías gravable a los consumidores
-                          href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
-                        - name: Ventas a clientes registrados
-                          href: localizations/apac-ind-GST-sell-registered-customer.md
-                        - name: Facturas de servicios
-                          href: localizations/apac-ind-GST-free-text-invoices.md
-                        - name: Ventas de mercancías gravables con un gasto invertido
-                          href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
-                        - name: Ventas de artículos exentos
-                          href: localizations/apac-ind-GST-sales-exempted-item.md
-                        - name: Ventas de mercancías de coeficiente cero
-                          href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: Ventas de mercancías sin GST
-                          href: localizations/apac-ind-GST-sell-non-gst-goods.md
-                        - name: Ventas de mercancías gravables que tienen un descuento y valoración provisional
-                          href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
-                        - name: Ventas de mercancías gravables con impuestos sobre los gastos de envío
-                          href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
-                        - name: Ventas en las que los precios incluyen y excluyen impuestos
-                          href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
-                        - name: Crear una nota de débito para una factura de ventas
-                          href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
-                        - name: Crear una nota de crédito para una factura de ventas
-                          href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
-                        - name: Facturas de ventas divididas por direcciones de entrega
-                          href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                        - name: Pedidos de devolución
-                          href: localizations/apac-ind-GST-return-order-form.md
-                    - name: Transacciones extranjeras
-                      items:
-                        - name: Mercancías de importación que tienen GST
-                          href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: Servicios de importación que tienen GST
-                          href: localizations/apac-ind-import-services-gst.md
-                        - name: Mercancías de exportación que tienen impuestos coeficiente cero
-                          href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: Servicios de exportación que tienen impuestos coeficiente cero
-                          href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: Transacción de existencias
-                      items:
-                        - name: Pedidos de transferencias de existencias
-                          href: localizations/apac-ind-stock-transfer.md
-                        - name: Pedidos de transferencia de existencias que tienen impuesto sobre el precio de transferencia
-                          href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                    - name: Transacción de pago de cliente
-                      items:
-                        - name: Anticipos que incluyen impuesto
-                          href: localizations/apac-ind-GST-advance-payment-includes-tax.md
-                        - name: Anticipos que se liquidan durante el registro de facturas
-                          href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
-                        - name: Liquidación manual de un anticipo y factura que incluye impuesto
-                          href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
-                        - name: Pago de facturas que incluyen impuesto
-                          href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
-                        - name: Revisar anticipos que incluyen impuesto
-                          href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
-                        - name: Devoluciones de pago de cliente
-                          href: localizations/apac-ind-GST-customer-payment-refund.md
-                    - name: Transacción de impuestos directa
+                        - name: Información general de India GST
+                          href: localizations/apac-ind-gst.md
+                        - name: Motor de impuestos
+                          items:
+                            - name: Información general del motor de impuestos
+                              href: general-ledger/tax-engine.md
+                            - name: Configuración de importación
+                              href: general-ledger/tax-engine-import-configuration.md
+                            - name: Diseñador de fórmulas avanzadas
+                              href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                            - name: Aplicabilidad del motor de impuestos
+                              href: general-ledger/tax-engine-applicability.md
+                            - name: Crear componentes de impuestos
+                              href: localizations/tax-engine-create-tax-component.md
+                            - name: Integración del motor de impuestos
+                              href: general-ledger/tax-engine-integration.md
+                            - name: Ampliación del motor de impuestos
+                              href: general-ledger/extend-tax-engine-configurations.md
+                            - name: Limpiar la tabla TaxDocumentJSON
+                              href: localizations/gte-clean-up-tax-document-json-table.md
+                            - name: Solucionar problemas de GTE
+                              href: localizations/tax-engine-trouble-shooting.md
+                        - name: Instalación de datos maestros
+                          items:
+                            - name: Crear un segmento vertical
+                              href: localizations/apac-ind-GST-create-business-vertical.md
+                            - name: Actualizar el código de estado y el territorio de unión
+                              href: localizations/apac-ind-GST-update-state-code-union-territory.md
+                            - name: Crear un producto maestro de GSTIN
+                              href: localizations/apac-ind-GST-create-gstin-master.md
+                            - name: Definir instancias de GSTIN y hacer referencia a secuencias numéricas
+                              href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                            - name: Definir códigos HSN y códigos de contabilidad de servicio
+                              href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                            - name: Crear tipo de tasa impositiva
+                              href: localizations/apac-ind-GST-create-tax-rate-type.md
+                            - name: Crear cuentas principales para el tipo de registro de GST
+                              href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                            - name: Crear un período de liquidación de impuestos
+                              href: localizations/apac-ind-GST-create-tax-settlement-period.md
+                            - name: Vincular el GSTIN a un grupo de registro de impuestos
+                              href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                        - name: Configuración de impuestos
+                          items:
+                            - name: Definir una configuración de impuestos e implementarla para las entidades jurídicas
+                              href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                            - name: 'Asignar tipos de impuestos de la configuración: aduanas'
+                              href: localizations/apac-ind-GST-map-configuration-tax-types.md
+                            - name: Configurar las tablas de coeficientes y porcentajes
+                              href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                            - name: Configurar una jerarquía de impuestos y reglas de compensación
+                              href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                            - name: Grupos de referencia de India GST
+                              href: localizations/apac-ind-gst-reference-groups.md
+                        - name: Transacciones de impuestos
+                          items:
+                            - name: Transacciones de compras
+                              items:
+                                - name: Compras de proveedores no registrados
+                                  href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                                - name: Adquisición de un artículo sujeto a impuestos de un proveedor no registrado
+                                  href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                                - name: Compras de proveedores registrados
+                                  href: localizations/apac-ind-GST-purchases-registered-vendor.md
+                                - name: Compras de mercancías descontadas
+                                  href: localizations/apac-ind-GST-purchase-discounted-goods.md
+                                - name: Compra de mercancías exentas
+                                  href: localizations/apac-ind-GST-purchase-exempted-goods.md
+                                - name: Compra de mercancías de coeficiente cero
+                                  href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                                - name: Compras de mercancías sin GST
+                                  href: localizations/apac-ind-GST-purchase-non-gst-goods.md
+                                - name: Compras de intermediarios compuestos
+                                  href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                                - name: Compras de mercancías gravables que tienen gastos de envío
+                                  href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                                - name: Revisar una factura de compra con mercancías gravables
+                                  href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                                - name: Compras de activos fijos
+                                  href: localizations/apac-ind-GST-purchase-fixed-asset.md
+                                - name: Crear una nota de abono para una factura de compra
+                                  href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                                - name: Crear una nota de débito para una factura de compra
+                                  href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                                - name: Pedidos de calidad que implican la destrucción del artículo de muestreo
+                                  href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                                - name: Pedidos de devolución de compra
+                                  href: localizations/apac-ind-GST-purchase-return-order.md
+                                - name: Anticipos del proveedor con gastos invertidos
+                                  href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                            - name: Transacciones de venta
+                              items:
+                                - name: Ventas de mercancías gravable a los consumidores
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                                - name: Ventas a clientes registrados
+                                  href: localizations/apac-ind-GST-sell-registered-customer.md
+                                - name: Facturas de servicios
+                                  href: localizations/apac-ind-GST-free-text-invoices.md
+                                - name: Ventas de mercancías gravables con un gasto invertido
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                                - name: Ventas de artículos exentos
+                                  href: localizations/apac-ind-GST-sales-exempted-item.md
+                                - name: Ventas de mercancías de coeficiente cero
+                                  href: localizations/apac-ind-GST-sell-zero-rated-goods.md
+                                - name: Ventas de mercancías sin GST
+                                  href: localizations/apac-ind-GST-sell-non-gst-goods.md
+                                - name: Ventas de mercancías gravables que tienen un descuento y valoración provisional
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                                - name: Ventas de mercancías gravables con impuestos sobre los gastos de envío
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                                - name: Ventas en las que los precios incluyen y excluyen impuestos
+                                  href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                                - name: Crear una nota de débito para una factura de ventas
+                                  href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                                - name: Crear una nota de crédito para una factura de ventas
+                                  href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                                - name: Facturas de ventas divididas por direcciones de entrega
+                                  href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                                - name: Pedidos de devolución
+                                  href: localizations/apac-ind-GST-return-order-form.md
+                            - name: Transacciones extranjeras
+                              items:
+                                - name: Mercancías de importación que tienen GST
+                                  href: localizations/apac-ind-GST-import-goods-gst.md
+                                - name: Servicios de importación que tienen GST
+                                  href: localizations/apac-ind-import-services-gst.md
+                                - name: Mercancías de exportación que tienen impuestos coeficiente cero
+                                  href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                                - name: Servicios de exportación que tienen impuestos coeficiente cero
+                                  href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                                - name: Nota de crédito o débito contra una orden de exportación
+                                  href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
+                            - name: Transacciones de transferencia de existencias
+                              items:
+                                - name: Pedidos de transferencias de existencias
+                                  href: localizations/apac-ind-stock-transfer.md
+                                - name: Pedidos de transferencia de existencias que tienen impuesto sobre el precio de transferencia
+                                  href: localizations/apac-ind-GST-stock-transfer-transactions.md
+                            - name: Transacciones de pagos de cliente
+                              items:
+                                - name: Anticipos que incluyen impuesto
+                                  href: localizations/apac-ind-GST-advance-payment-includes-tax.md
+                                - name: Anticipos que se liquidan durante el registro de facturas
+                                  href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                                - name: Liquidación manual de un anticipo y factura que incluye impuesto
+                                  href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                                - name: Pago de facturas que incluyen impuesto
+                                  href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                                - name: Revisar anticipos que incluyen impuesto
+                                  href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                                - name: Devoluciones de pago de cliente
+                                  href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Ajuste de impuestos
+                              items:
+                                - name: Ajuste del importe de impuestos
+                                  href: localizations/apac-ind-GST-tax-adjustments.md
+                                - name: Crear un diario de impuestos
+                                  href: localizations/apac-ind-GST-tax-journal.md
+                            - name: Consultas sobre documentos de impuestos
+                              items:
+                                - name: Consulta fiscal
+                                  href: localizations/apac-ind-GST-tax-inquiry.md
+                        - name: Liquidación de impuestos
+                          items:
+                            - name: Liquidación de impuestos basada en reglas
+                              href: localizations/apac-ind-GST-tax-settlement.md
+                        - name: Informes de GSTR
+                          items:
+                            - name: Nuevos formatos de devolución GSTR-1 y GSTR-2
+                              href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
+                            - name: Nueva herramienta GSTR sin conexión para ANX-1 y el registro de compras
+                              href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
+                            - name: Generar los datos del informe de GSTR para devoluciones de impuestos
+                              href: localizations/apac-ind-GST-tax-returns.md
+                            - name: Habilitar el procesamiento multilote de los informes de GSTR
+                              href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                - name: Impuestos directos
+                  items:
+                    - name: Retención de impuestos en India
                       items:
                         - name: Incluir GST al calcular deducciones fiscales
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
                         - name: Incluir GST al calcular recaudaciones fiscales
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                    - name: Ajuste del importe de impuestos
-                      href: localizations/apac-ind-GST-tax-adjustments.md
-                    - name: Liquidación de impuestos basada en reglas
-                      href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: Crear un diario de impuestos
-                      href: localizations/apac-ind-GST-tax-journal.md
-                    - name: Generar los datos del informe de GSTR para devoluciones de impuestos
-                      href: localizations/apac-ind-GST-tax-returns.md
-                    - name: Habilitar el procesamiento multilote de los informes de GSTR
-                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: Consulta fiscal
-                      href: localizations/apac-ind-GST-tax-inquiry.md
-                    - name: Limpiar la tabla TaxDocumentJSON
-                      href: localizations/gte-clean-up-tax-document-json-table.md
-                - name: Motor de impuestos
-                  items:
-                    - name: Información general del motor de impuestos
-                      href: general-ledger/tax-engine.md
-                    - name: Importar configuración
-                      href: general-ledger/tax-engine-import-configuration.md
-                    - name: Diseñador de fórmulas avanzadas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: Aplicabilidad del motor de impuestos
-                      href: general-ledger/tax-engine-applicability.md
-                    - name: Crear componentes de impuestos
-                      href: localizations/tax-engine-create-tax-component.md
-                    - name: Integración del motor de impuestos
-                      href: general-ledger/tax-engine-integration.md
-                    - name: Ampliación del motor de impuestos
-                      href: general-ledger/extend-tax-engine-configurations.md
-                    - name: Solucionar problemas de GTE
-                      href: localizations/tax-engine-trouble-shooting.md
-                - name: Preguntas frecuentes sobre los umbrales de impuestos
-                  href: localizations/apac-ind-tax-thresholds.md
+                        - name: Preguntas frecuentes sobre los umbrales de impuestos
+                          href: localizations/apac-ind-tax-thresholds.md
+                        - name: TCS en la venta de mercancías
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: Italia
               items:
                 - name: Información general de Italia
@@ -2568,6 +2592,8 @@
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: Informes i.SAF para Lituania
                   href: localizations/emea-ltu-isaf.md
+                - name: Archivo de auditoría estándar para impuestos (SAF-T) para Lituania
+                  href: localizations/emea-ltu-saf-t.md
             - name: Malasia
               items:
                 - name: Información general de Malasia
@@ -2930,6 +2956,8 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: Registros de impuestos sobre flujos de efectivo
                       href: localizations/rus-cash-flow-tax-registers.md
+                    - name: Registros de gastos calificados
+                      href: localizations/rus-rated-expenses-registers.md
             - name: Arabia Saudí
               items:
                 - name: Información general de Arabia Saudí
@@ -3377,15 +3405,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Preparar componentes de la solución de informes electrónicos
                   items:
-                    - name: Diseñar modelo de datos específicos del dominio
+                    - name: Diseñar modelos de datos específicos del dominio
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Prepare metadatos específicos de aplicación
                       items:
-                        - name: (ER) preparar metadatos de aplicación para usarlos en RCS
+                        - name: Preparar metadatos de aplicación en ER para usarlos en RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Acceder a metadatos de aplicación con la configuración de informes electrónicos
+                        - name: Acceder a metadatos de aplicación en RCS con la configuración de ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Acceder a metadatos de aplicación a través de aplicaciones conectadas
+                        - name: Acceder a metadatos de aplicación en RCS a través de aplicaciones conectadas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: Definir asignaciones del modelo y seleccionar orígenes de datos
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3403,9 +3431,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: Actualizar el formato adoptando una nueva versión de base de ese formato
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-            - name: Diseñadores de fórmulas en los informes electrónicos
+            - name: Diseñadores de fórmulas en ER
               items:
-                - name: Diseñador de fórmula
+                - name: Diseñador de fórmulas
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
                 - name: Diseñador de fórmulas avanzadas
                   href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
@@ -3675,7 +3703,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'Texto: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: Diseñar formatos de informes electrónicos para generar documentos electrónicos de salida en diversos formatos
+            - name: Diseñar formatos de informes electrónicos para generar documentos de salida en diversos formatos
               items:
                 - name: Diseñar configuraciones para generar documentos salientes en formato de Excel
                   items:
@@ -3703,7 +3731,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Incrustar imágenes y formas
                   items:
-                    - name: (ER) Insertar imágenes y formas en los documentos generados
+                    - name: Insertar imágenes y formas en los documentos que genere
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
                     - name: Ejemplo de incrustación de imágenes y formas
                       items:
@@ -3717,7 +3745,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Suprimir caracteres de L. MAT. en archivos generados
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
-            - name: Actualizar datos de aplicación mediante informes electrónicos
+            - name: Actualizar datos de aplicación mediante ER
               items:
                 - name: Generar documentos electrónicos y actualizar datos de aplicaciones
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/finance/toc.json
@@ -3763,9 +3791,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: 'Regulatory Configuration Services (RCS): características de globalización'
-                      href: localizations/rcs-globalization-feature.md
-                    - name: Descargue configuraciones de informes electrónicos a Finance
+                    - name: Características de globalización en RCS
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
+                    - name: Descargar configuraciones de informes electrónicos a Finance
                       items:
                         - name: Descargar configuraciones desde RCS
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
@@ -3896,17 +3924,17 @@
                     - name: Tipos de destino
                       items:
                         - name: Destino de archivo
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/finance/toc.json
                         - name: Destino de correo electrónico
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/finance/toc.json
                         - name: Destino de archivo
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/finance/toc.json
                         - name: Destino de Power BI
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: Destino de la impresora
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/finance/toc.json
                         - name: Destino de la pantalla
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar destinos
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar destinos dependientes de la acción
@@ -3919,11 +3947,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
                     - name: Mejoras de los resultados del seguimiento de los informes electrónicos generados y comparación con valores de línea base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                    - name: Automatizar pruebas con informes electrónicos
+                    - name: Automatizar pruebas con ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
                 - name: Automatizar procesos empresariales mediante configuraciones de informes electrónicos
                   items:
-                    - name: Configurar informes electrónicos para proporcionar datos a Power BI
+                    - name: Configurar ER para proporcionar datos a Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Generar formularios de factura de servicios (FTI) imprimibles
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json

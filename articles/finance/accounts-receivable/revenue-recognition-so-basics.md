@@ -2,11 +2,9 @@
 title: Reconocimiento de ingresos en pedidos de ventas
 description: En este tema se describe la funcionalidad básica para reconocer ingresos en pedidos de ventas y facturas. El reconocimiento de ingresos está disponible en el pedido de ventas y en la factura correspondiente que se crea a partir del pedido de ventas.
 author: kweekley
-manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b59e7506f5b02ba7d5d522dd22f4e4bfd3e0c10b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9c6423a7fb604005d4fb7f1eca05a1ef7d210e5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245649"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817230"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Reconocimiento de ingresos en pedidos de ventas
 

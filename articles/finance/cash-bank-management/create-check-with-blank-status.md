@@ -2,11 +2,9 @@
 title: Crear cheques que tengan el estado en blanco
 description: En este tema se explica cómo crear cheques en blanco para una cuenta bancaria en la página de cheques.
 author: abruer
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankChequeTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 94d3a4ac8a3906e48f5a6053c031001c111549ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1b01daa86055156092d035d61aad78a13349f869
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254044"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815965"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Crear cheques que tengan el estado en blanco
 

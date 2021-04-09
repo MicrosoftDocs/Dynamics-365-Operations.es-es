@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platform updates para 10.0.16 (febrero de 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: Platform updates para 10.0.15 (enero de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -226,11 +224,15 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Trabajador integrado, trabajo y puesto'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Parte y libreta de direcciones global
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Usar Power Portal con el modelo de datos de parte
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Integración de notas
                               href: data-entities/dual-write/notes-integration.md
                             - name: Referencia de asignación
                               href: data-entities/dual-write/mapping-reference.md
-                        - name: Compatibilidad para escritura dual
+                        - name: Compatibilidad con la doble escritura
                           items:
                             - name: Compatibilidad para soluciones de Field Service y de Project Service Automation
                               href: data-entities/dual-write/field-service-project-service-automation.md
@@ -526,13 +528,15 @@
                   items:
                     - name: Configurar proyectos locales en LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Configurar e implementar entornos locales
+                    - name: Configurar e implementar entornos locales (Platform update 41 y posteriores)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: Configurar e implementar entornos locales (Platform updates de la 12 a la 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Pasos de instalación para los componentes del canal Retail en un entorno local
                       href: deployment/deploy-retail-onprem.md
                     - name: Desarrollar e implementar modelos personalizados para entornos locales
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Mantenimiento del entorno
+                - name: Operaciones del entorno
                   items:
                     - name: Aplicar actualizaciones a una implementación local
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: Configurar nodos AOS solo por lotes y solo interactivos en implementaciones locales
                       href: deployment/onprem-batchonly.md
+                    - name: Configurar la alta disponibilidad para los nodos de SQL Server Reporting Services (SSRS)
+                      href: deployment/onprem-SSRSHA.md
                     - name: Configurar servidores proxy para entornos locales
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnósticos locales
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Integración de Microsoft Power Platform
           items:
-            - name: Integración de Microsoft Power Platform con Finance and Operations
-              href: power-platform/overview.md
-            - name: Información general sobre los complementos
-              href: power-platform/add-ins-overview.md
-            - name: Modelado de entidades
-              href: power-platform/entity-modeling.md
-            - name: Administración de ciclo de vida de la aplicación
-              href: power-platform/application-lifecycle-management.md
-            - name: Referencia de administrador de Finance and Operations y Dataverse
-              href: power-platform/admin-reference.md
-            - name: Portales de Power Apps con Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: Preguntas frecuentes sobre entidades virtuales de Finance and Operations
-              href: power-platform/faq.md
+            - name: Entidades virtuales
+              items:
+                - name: Integración de Microsoft Power Platform con Finance and Operations
+                  href: power-platform/overview.md
+                - name: Modelado de entidades
+                  href: power-platform/entity-modeling.md
+                - name: Administración de ciclo de vida de la aplicación
+                  href: power-platform/application-lifecycle-management.md
+                - name: Referencia de administrador de Finance and Operations y Dataverse
+                  href: power-platform/admin-reference.md
+                - name: Portales de Power Apps con Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: Preguntas frecuentes sobre entidades virtuales de Finance and Operations
+                  href: power-platform/faq.md
+            - name: Complementos
+              items:
+                - name: Información general sobre los complementos
+                  href: power-platform/add-ins-overview.md
         - name: Plataforma móvil
           items:
             - name: Recursos de plataforma móvil
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Tutorial de Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
+            - name: Configurar usuarios no administradores
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: Prácticas recomendadas
               href: perf-test/rsat/rsat-best-practices.md
             - name: Prueba independiente de datos mediante Regression Suite Automation Tool
