@@ -2,7 +2,6 @@
 title: Asignar usuarios a roles de seguridad
 description: Para obtener acceso a aplicaciones de Finance and Operations, se debe asignar a los usuarios a roles de seguridad.
 author: Peakerbl
-manager: AnnBe
 ms.date: 05/06/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a6d904ae3df23dd1c602cfdfecc40411aba5724
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: bb4b143400a1f092c8f7a15bbb047eda52a4a4d8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569883"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745894"
 ---
 # <a name="assign-users-to-security-roles"></a>Asignar usuarios a roles de seguridad
 

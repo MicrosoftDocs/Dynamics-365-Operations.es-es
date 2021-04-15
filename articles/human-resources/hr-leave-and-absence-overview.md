@@ -2,11 +2,9 @@
 title: Visión general de bajas y ausencias
 description: En Dynamics 365 Human Resources, el espacio de trabajo de permisos y ausencias proporciona un marco flexible para crear nuevos planes de permisos y ausencias. También proporciona flujos de trabajo para gestionar solicitudes y una página de autoservicio intuitiva para que los empleados soliciten permisos.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1192a45d0d2fffbe2ecba65551641c090c08db8e
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 827d0325fc9a97cf2b143e1c2705232dfd8a7ab2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463439"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794670"
 ---
 # <a name="leave-and-absence-overview"></a>Visión general de bajas y ausencias
 

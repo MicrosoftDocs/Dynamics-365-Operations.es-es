@@ -2,7 +2,6 @@
 title: Página principal de Administración de la organización
 description: Este tema nos señala los recursos que le ayudarán en una organización.
 author: sericks007
-manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c5db94aad99a6ec17a52aee4876d40912a95ce9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0b9e69db0cd5533f52243e6d22110f9acc66b589
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560760"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747670"
 ---
 # <a name="organization-administration-home-page"></a>Página principal de Administración de la organización
 

@@ -2,7 +2,6 @@
 title: Configurar y filtrar espacios de trabajo
 description: Este artículo proporciona una visión general sobre cómo configurar y filtrar espacios de trabajo.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4f587608b03512aabce1d9b76ec4b9d6ec9227b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559441"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744036"
 ---
 # <a name="configure-and-filter-workspaces"></a>Configurar y filtrar espacios de trabajo
 
@@ -55,9 +54,9 @@ Al hacer clic para abrir el filtro, se le presentarán varias opciones.
 
 Seleccione una opción para filtrar el espacio de trabajo en función de esa opción.
 
-### <a name="workspace-section-filters"></a>Filtros de la sección del espacio de trabajo
+### <a name="workspace-section-filters&quot;></a>Filtros de la sección del espacio de trabajo
 
-Si las secciones individuales del espacio de trabajo tienen filtros, puede filtrar cada sección por separado. En la siguiente ilustración, el filtro (el campo que contiene el texto "Filtro") es un ejemplo de un filtro del campo de texto en formato libre.
+Si las secciones individuales del espacio de trabajo tienen filtros, puede filtrar cada sección por separado. En la siguiente ilustración, el filtro (el campo que contiene el texto &quot;Filtro") es un ejemplo de un filtro del campo de texto en formato libre.
 
 [![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 

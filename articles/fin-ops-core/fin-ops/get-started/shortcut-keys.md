@@ -2,7 +2,6 @@
 title: Métodos abreviados de teclado
 description: Este tema proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de Finance and Operations.
 author: jasongre
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a08e01c17ec3c1e47e9e58f2fbccf2159d34559d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: bbb60a8d6de01affbf5d257145cbe660434fa914
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566361"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744600"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 

@@ -2,11 +2,9 @@
 title: Novedades o cambios en Dynamics 365 Human Resources (23 de julio de 2020)
 description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 23 de julio de 2020.
 author: andreabichsel
-manager: tfehr
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6da636cfe4a36cca57d30bde5ab830b78b351bc5
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 10369bd5aa67641fe840312bc3d8ebc0e91865e0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463583"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791302"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Novedades o cambios en Dynamics 365 Human Resources (23 de julio de 2020)
 

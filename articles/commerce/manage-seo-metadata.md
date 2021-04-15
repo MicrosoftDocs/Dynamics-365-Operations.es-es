@@ -2,11 +2,9 @@
 title: Administrar metadatos de SEO
 description: Este tema describe cómo administrar los metadatos de la optimización de motor de búsqueda (SEO) en Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00942befef9f9b6a878766bbbb5341426e31db2c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1e03ef346df92a94b0a403f241d0f7d1f64fd210
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252615"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794220"
 ---
 # <a name="manage-seo-metadata"></a>Administrar metadatos de SEO
-
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo administrar los metadatos de la optimización de motor de búsqueda (SEO) en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Los metadatos SEO para un sitio se pueden administrar mediante mapas de sitio y metadatos de página.
     

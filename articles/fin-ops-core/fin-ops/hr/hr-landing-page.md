@@ -1,8 +1,7 @@
 ---
-title: Visión general de los recursos humanos
-description: Recursos humanos simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. También proporciona un marco de trabajo para que el personal de recursos humanos administre áreas de supervisión. Estas áreas incluyen la contratación y retención de empleados, la administración de prestaciones, la formación, las revisiones de rendimiento y la gestión de cambios.
+title: Información general de Human Resources
+description: El módulo de recursos humanos optimiza las tareas rutinarias de mantenimiento de registros, automatiza procesos relacionados con la plantilla de la organización y ofrece un marco para que el personal de recursos humanos gestione áreas de supervisión.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566707"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752189"
 ---
-# <a name="human-resources-overview"></a>Visión general de los recursos humanos
+# <a name="human-resources-overview"></a>Información general de Human Resources
 
 [!include [banner](../includes/banner.md)]
 

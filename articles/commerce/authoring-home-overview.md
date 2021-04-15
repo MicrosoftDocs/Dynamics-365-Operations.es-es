@@ -2,11 +2,9 @@
 title: Visión general de creación de páginas
 description: Este tema proporciona una visión general de la página de creación en Microsoft Dynamics 365 Commerce.
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
@@ -16,21 +14,19 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b5e1e7dd669a9608d385086cf24d388b065c9ca6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211306"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799886"
 ---
-# <a name="authoring-page-overview"></a>Visión general de creación de páginas
+# <a name="authoring-page-overview"></a>Información general de creación de páginas
 
   
  [!include [banner](includes/banner.md)]
 
 Este tema proporciona una visión general de la página de creación en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Las páginas web se pueden crear para admitir diversas necesidades empresariales. Pueden representar un negocio completo, ofrecer un canal único del negocio o tener como objetivo un público específico o un segmento de un público. Por ejemplo, es posible que un fabricante de ropa pueda tener un sitio web que muestre todas las marcas que posee. El mismo fabricante de ropa puede tener entonces un sitio web independiente para cada una de esas marcas, y también un conjunto de sitios web que ofrezcan moda de lujo, moda de actividades de exterior y moda de niños.
 

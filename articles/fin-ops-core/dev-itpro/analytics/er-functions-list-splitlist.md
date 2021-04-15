@@ -2,8 +2,7 @@
 title: Función SPLITLIST de ER
 description: En este tema se proporciona información acerca de cómo se usa la función SPLITLIST de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559147"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745578"
 ---
 # <a name="splitlist-er-function"></a>Función SPLITLIST de ER
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559147"
 
 La función `SPLITLIST` función divide la lista especificada en sublistas (o lotes), cada uno conteniendo el número de registros especificado. Devuelve luego el resultado como un nuevo valor *Lista de registros* que consiste en los lotes.
 
-## <a name="syntax"></a>Sintaxis
+## <a name="syntax-1"></a>Sintaxis 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Sintaxis 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argumentos
@@ -44,6 +49,10 @@ La ruta válida de un origen de datos del tipo de datos *Lista de registros*.
 `number`: *Entero*
 
 El número máximo de registros por lote.
+
+`on-demand reading flag`: *Booleano*
+
+Un valor *Booleano* que especifica si los elementos de las sublistas deben generarse a petición.
 
 ## <a name="return-values"></a>Valores de retorno
 
@@ -62,6 +71,8 @@ La lista de lotes que se devuelve contiene los elementos siguientes:
 - **Número de lote:** *Entero*
 
     El número del lote actual en la lista devuelta.
+
+Cuando el indicador de lectura bajo demanda se establece en **Verdadero**, las sublistas se generan a petición, lo que permite una reducción en el consumo de memoria, pero puede causar una degradación del rendimiento si los elementos no se utilizan secuencialmente.
 
 ## <a name="example"></a>Ejemplo
 

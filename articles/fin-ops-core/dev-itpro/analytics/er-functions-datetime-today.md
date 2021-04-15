@@ -2,7 +2,6 @@
 title: Función TODAY ER
 description: Este tema proporciona información general sobre cómo usar la función TODAY de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9288baf4e6123a7c03152f524a852eae9b671dde
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 45ee4282acf4d6a5febe4b74b6955410e73e86a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567925"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746756"
 ---
 # <a name="today-er-function"></a>Función TODAY ER
 
