@@ -2,11 +2,9 @@
 title: Utilizar más que el descuento calculado para un pago de proveedor
 description: Este artículo le guía por un escenario en el que se toma un descuento por pronto pago para un importe superior al descuento que estaba originalmente disponible en la factura. Este escenario podría surgir si una organización llega a un acuerdo con el proveedor para pagar un importe menor en la factura.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a56331f76867aeac0bad0912749d96f959513e0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62f2088ff04a0ef5ffe6ffe47b85f47e6957264d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235894"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810255"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Utilizar más que el descuento calculado para un pago de proveedor
 
@@ -38,10 +36,10 @@ El proveedor 3.051 ofrece a Fabrikam un descuento por pronto pago del 4 por cien
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones**.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 12/7/2015 |
-| Importe de descuento por pronto pago         | 60,00     |
+| Importe de descuento por pronto pago         | 60.00     |
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 0,00      |
 | Importe de descuento por pronto pago para aplicar | 60,00     |

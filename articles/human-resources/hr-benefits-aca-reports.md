@@ -2,11 +2,9 @@
 title: Generar informes de la Ley de atención sanitaria asequible (ACA)
 description: Los informes de la Ley de Cuidado de salud asequible (ACA) generan los formularios 1095-B y 1095-C para respaldar la parte de la **Orden del empresario** de la Ley del Cuidado de salud asequible.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f46a8efefd8e41c08bf4de49cfec856dc0a86da1
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 055de1f0ff3f8fd4fadba0a685fd703b9d19d918
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468044"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5806003"
 ---
 # <a name="generate-aca-reports"></a>Generar informes ACA
 

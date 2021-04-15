@@ -2,11 +2,9 @@
 title: Solución de problemas de la importación de archivos de extractos bancarios
 description: Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 Finance. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas.
 author: panolte
-manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac82a269e8f7773c58517ef017576c82c52039cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0e01881a6b68526479d27014d49a718069cffc9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253972"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815893"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Solución de problemas de la importación de archivos de extractos bancarios
 
@@ -35,11 +33,14 @@ Es importante que el archivo de extracto bancario del banco coincida con el dise
 
 Tras intentar importar un archivo de extracto bancario, vaya al historial de trabajos de administración de datos y sus detalles de ejecución para encontrar el error. El error puede resultar de ayuda al señalar la instrucción, el saldo o la línea de extracto. Sin embargo, es poco probable que proporcione suficiente información para ayudarle a identificar el campo o el elemento que está ocasionando el problema.
 
+> [!NOTE]
+> Los extractos bancarios importados pueden superponerse solo en un momento determinado del tiempo.  Por ejemplo, si un extracto finaliza a las 12:00 a. m. del 1 de enero de 2021, la fecha de inicio del siguiente extracto puede ser las 12:00 a. m. del 1 de enero de 2021 12:00:00 a. m.
+
 ## <a name="what-are-the-differences"></a>¿Cuáles son las diferencias?
 Compare la definición del diseño de archivos de banco con la definición de importación de Finance y observe los posibles diferencias en los campos y elementos. Compare el archivo de extracto bancario con el archivo de muestra relacionado de Finance. En los archivos ISO20022 las diferencia se verán fácilmente.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Diferencias de zona horaria de extractos bancarios importados
-Los valores de fecha y hora en el archivo de importación pueden ser distintos de los valores de fecha y hora que se muestran en Finance and Operations. Para evitar esta discrepancia, especifique una preferencia de zona horaria en la página **Configurar orígenes de datos**. Consulte [Configurar el proceso avanzado de importación de conciliación bancaria](set-up-advanced-bank-reconciliation-import-process.md) para obtener más información sobre cómo especificar una preferencia de zona horaria.
+Los valores de fecha y hora en el archivo de importación pueden ser distintos de los valores de fecha y hora que se muestran en Finance and Operations. Para evitar esta discrepancia, especifique una preferencia de zona horaria en la página **Configurar orígenes de datos**. Para obtener más información sobre cómo especificar una preferencia de zona horaria, consulte [Configurar el proceso avanzado de importación de conciliación bancaria](set-up-advanced-bank-reconciliation-import-process.md).
 
 ## <a name="transformations"></a>Transformaciones
 Normalmente, el cambio se debe realizar en una de tres transformaciones. Cada transformación se escribe para un estándar específico.
@@ -94,14 +95,13 @@ A veces, los débitos se pueden importar como créditos y los créditos se puede
 -   Plantilla GetCreditDebitIndicator de MT940XML-to-Reconcilation.xslt
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Ejemplos de diseños técnicos y formatos de extracto bancario
-En la tabla siguiente se muestran ejemplos de las definiciones de diseño técnico para los archivos de importación de conciliación bancaria avanzados y tres archivos de ejemplo de extracto bancario relacionados. Puede descargar los archivos de ejemplo y los diseños técnicos aquí: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
-
+En la tabla siguiente se muestran ejemplos de las definiciones de diseño técnico para los archivos de importación de conciliación bancaria avanzados y tres archivos de ejemplo de extracto bancario relacionados. Puede descargar los archivos de ejemplo y los diseños técnicos aquí: [Ejemplos de archivos de importación](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
 
 | Definición de diseño técnico                             | Archivo de ejemplo de extracto bancario          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| DynamicsAXMT940Layout                                   | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)                |
+| DynamicsAXISO20022Layout                                | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout                                    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)                 |
 
 
 

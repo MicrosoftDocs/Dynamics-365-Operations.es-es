@@ -2,11 +2,9 @@
 title: Orígenes comunes de desviaciones de producción
 description: Este artículo explica diversos orígenes de cada tipo de desviación de producción.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcVarianceTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f36e482595cad49d1149873f8bcdd6a05a3287d5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f627cb1d15d0fa858abae588d149875967cff97c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229288"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813252"
 ---
 # <a name="common-sources-of-production-variances"></a>Orígenes comunes de desviaciones de producción
 

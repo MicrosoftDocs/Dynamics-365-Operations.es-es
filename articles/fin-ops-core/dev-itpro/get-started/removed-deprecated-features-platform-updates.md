@@ -2,7 +2,6 @@
 title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
-manager: AnnBe
 ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564003"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814329"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -37,7 +36,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Trabajo por lotes para administrar la desfragmentación del índice de SQL
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Con el fin de reducir los gastos generales de operación, monitoreo y mantenimiento de la administración de índices por parte de los clientes, esta característica ha sido eliminada. |
 | **¿Reemplazado por otra característica?**   | En el futuro, los servicios de Microsoft realizarán el mantenimiento del índice. Esto ocurrirá continuamente sin afectar las cargas de trabajo de los usuarios. |
@@ -48,12 +47,10 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.17 de aplicaciones Finance and Operations
 
-> [!IMPORTANT]
-> La versión 10.0.17 está disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Para admitir las últimas versiones de Visual Studio, se deben realizar algunos cambios en las extensiones X++ para Visual Studio. Estos cambios son incompatibles con Visual Studio 2015. |
 | **¿Reemplazado por otra característica?**   | Visual Studio 2017 reemplazará a Visual Studio 2015 como versión implementada y necesaria. |
@@ -63,7 +60,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="user-avatar"></a>Avatar de usuario 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El avatar de usuario que se muestra en el lado derecho de la barra de navegación se recuperó mediante una API del control de encabezado de Dynamics 365, que ha quedado en desuso. |
 | **¿Reemplazado por otra característica?**   | Los usuarios verán sus iniciales en un círculo en la barra de navegación. Este es el mismo objeto visual que se usa actualmente en las máquinas de desarrollo. |
@@ -73,7 +70,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="enterprise-portal-ep-deprecation"></a>Desactivación del Enterprise Portal (EP)  
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Los artefactos de metadatos asociados con Dynamics AX 2012 Enterprise Portal (EP) han quedado obsoletos, ya que EP nunca fue compatible con aplicaciones de Finance and Operations. |
 | **¿Reemplazado por otra característica?**   | N.º |
@@ -85,7 +82,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La compatibilidad de Internet Explorer 11 con Dynamics 365 está en desuso
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | A partir de diciembre de 2020, queda en desuso la compatibilidad de Microsoft Internet Explorer 11 con todos los productos de Dynamics 365 e Internet Explorer 11 no se admitirá después de agosto de 2021.<br><br>Esto afectará a los clientes que usan productos Dynamics 365 que están diseñados para usarse a través de una interfaz de Internet Explorer 11. Después de agosto de 2021, Internet Explorer 11 no será compatible con dichos productos de Dynamics 365. |
 | **¿Reemplazado por otra característica?**   | Recomendamos que los clientes hagan la transición a Microsoft Edge.|
@@ -96,7 +93,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Complemento de Visual Studio para aplicar revisiones de metadatos
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Las revisiones de metadatos ya no son compatibles con las actualizaciones del servicio [One Version](../../fin-ops/get-started/one-version.md) que se introdujeron en julio de 2018 con la versión 8.1. |
 | **¿Reemplazado por otra característica?**   | Las revisiones de metadatos individuales no están disponibles para las versiones compatibles. En su lugar, se aplican actualizaciones de calidad acumulativas. |
@@ -109,7 +106,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="online-users-page"></a>Página de usuarios en línea 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Esta es una página heredada que se creó para la arquitectura cliente/servidor anterior. La información de esta página no siempre es precisa, lo que puede resultar confuso y engañoso. |
 | **¿Reemplazado por otra característica?**   | Proporcionaremos una página nueva en una actualización futura.|
@@ -123,7 +120,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Código personalizado definido en las propiedades de informe de SSRS 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | En general, el código personalizado ofrece ventajas limitadas y requiere una gran cantidad de recursos y procesamiento. El código personalizado lo utilizan principalmente los autores de informes para llamar a métodos públicos desde un ensamblado de código personalizado. Sin embargo, el servicio alojado en la nube no admite referencias a ensamblados personalizados para informes de SSRS. |
 | **¿Reemplazado por otra característica?**   | Los autores de informes pueden optar por seguir haciendo referencia a las API de .NET públicas para operaciones de matemáticas, conversión y formato desde cualquier expresión de cuadro de texto. Para obtener más información, consulte [Agregar código a un informe (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
@@ -133,7 +130,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Actualización de tres bibliotecas de componentes jQuery 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Se están actualizando tres bibliotecas de componentes jQuery para las correcciones de seguridad y para mantener la moneda.   
 | **¿Reemplazado por otra característica?**   | Las siguientes bibliotecas se ven afectadas: jQuery (a la versión 3.5.0 de la versión 2.1.4), jQuery UI (a la versión 1.12.1 de la versión 1.11.4), jQuery qTip (a la versión 3.0.3 de 2.2.1). La guía de migración ha sido proporcionada en línea por jQuery.  |
@@ -143,7 +140,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="existing-grid-controlforcelegacygrid-api"></a>Control de cuadrícula existente/API forceLegacyGrid()
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El control de cuadrícula existente se está reemplazando por el nuevo control de cuadrícula. |
 | **¿Reemplazado por otra característica?**   | El [nuevo control de cuadrícula](../..//fin-ops/get-started/grid-capabilities.md) |
@@ -153,7 +150,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="personalization-without-saved-views"></a>Personalización sin vistas guardadas 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El subsistema de personalización se ha revisado con la característica de vistas guardadas, para que tenga un mejor rendimiento y ofrezca capacidades adicionales. |
 | **¿Reemplazado por otra característica?**   | Vistas guardadas |
@@ -166,7 +163,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensiones de formulario de control de grupo o cuadrícula que contienen referencias de campo no válidas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La propiedad del grupo de datos en los controles de cuadrícula o grupo se usa para mostrar automáticamente todos los campos de un grupo de campos. Un control de cuadrícula o grupo agregado por extensión podría contener campos que ya no están definidos en el grupo de campos, o podrían faltar campos que están definidos en el grupo de campos. Esto puede causar un comportamiento incoherente en tiempo de ejecución. Las actualizaciones de plataforma para la versión 10.0.12 de las aplicaciones de Finance and Operations clasifican ahora este problema como una *advertencia* de compilador. Para solucionar este problema, abra la extensión del formulario y guárdelo.
 | **¿Reemplazado por otra característica?**   | Esta advertencia del compilador se reemplazará con un error del compilador en una actualización futura. |
@@ -178,7 +175,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Lista segura explícita para entornos de autoservicio
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El proceso para mover IP a listas seguras ha cambiado. El autoservicio ya no admite la lista segura de IP. |
 | **¿Reemplazado por otra característica?**   | Para más información, consulte [Configuración de acceso condicional de Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
@@ -188,7 +185,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Para admitir las últimas versiones de Visual Studio, se deben realizar algunos cambios en las extensiones X++ para Visual Studio. Estos cambios son incompatibles con Visual Studio 2015. |
 | **¿Reemplazado por otra característica?**   | Visual Studio 2017 reemplazará a Visual Studio 2015 como versión implementada y necesaria. |
@@ -198,7 +195,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Grupos de campos que contienen referencias de campo no válidas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Los grupos de campos en las definiciones de metadatos de la tabla pueden contener referencias de campo que no son válidas. Si estos grupos de campos se implementan, pueden provocar errores del tiempo de ejecución en Financial Reporting y Microsoft SQL Server Reporting Services (SSRS). La Platform update 23 introdujo una *advertencia* de compilador que permitió abordar este problema de metadatos. Platform updates para la versión 10.0.11 de las aplicaciones Finance and Operations clasifican este problema como un *error* de compilador.<p>Para arreglar este problema, siga estos pasos.</p><ol><li>Quite la referencia de campo no válida de la definición del grupo de campos de tabla.</li><li>Vuelva a compilar.</li><li>Asegúrese de abordar cualquier error.</li></ol> |
 | **¿Reemplazado por otra característica?**   | Este error del compilador reemplaza permanentemente la advertencia del compilador.  |
@@ -208,7 +205,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licencias de ISV creadas utilizando el algoritmo de hash SHA1
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El proceso para crear licencias de proveedores de software independientes (ISV) ha cambiado. Para más información, ver [Licencia de proveedor de software independiente (ISV)](../dev-tools/isv-licensing.md#appendix-create-self-signed-certificates-for-test-purposes). |
 | **¿Reemplazado por otra característica?**   | Sí. Use Windows PowerShell para crear licencias. |
@@ -219,7 +216,8 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 ## <a name="platform-update-32"></a>Platform update 32
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>El cuadro de diálogo de cambio de solicitud de flujo de trabajo ya no incluye la lista desplegable de selección de usuario
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Este era un problema de seguridad porque la solicitud de cambio se podía enviar a un usuario no deseado. Esto también fue un problema de usabilidad porque obligó al usuario a determinar quién era el creador del flujo de trabajo y seleccionarlos manualmente.  |
 | **¿Reemplazado por otra característica?**   | No |
@@ -228,7 +226,8 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Estado**                         | La lista desplegable de selección de usuario se eliminó del cuadro de diálogo de solicitud de cambio en la Platform update 32. Las solicitudes de cambio de solicitud se enviarán automáticamente al originador según lo previsto. Para obtener más información sobre esta funcionalidad, consulte [Acciones en procesos de aprobación de flujo de trabajo](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Los vínculos de obtención de detalles integrados ya no se admiten en los documentos paginados que genera el servicio hospedado en la nube 
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Las direcciones URL de navegación integradas en documentos generados por el servicio pueden contener datos empresariales confidenciales. Vamos a eliminar la compatibilidad con los vínculos de obtención de detalles integrados en los documentos como medida de seguridad para mejorar la protección de los datos del cliente. Los usuarios también se beneficiarán de un rendimiento mejorado al producir documentos de manera interactiva como consecuencia de este cambio.  |
 | **¿Reemplazado por otra característica?**   | Nº |

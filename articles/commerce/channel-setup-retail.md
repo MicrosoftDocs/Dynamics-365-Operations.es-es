@@ -2,11 +2,9 @@
 title: Configurar un canal comercial
 description: En este tema se describe cómo crear un nuevo canal comercial en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a5d0a081cff9fab8dc0a513496e6a5eccd03c871
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 713cbe68c151b6893519843611089941cabf0e70
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478269"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800600"
 ---
 # <a name="set-up-a-retail-channel"></a>Configurar un canal comercial
 

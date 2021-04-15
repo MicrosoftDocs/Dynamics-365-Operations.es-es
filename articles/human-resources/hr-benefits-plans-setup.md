@@ -2,11 +2,9 @@
 title: Crear un nuevo plan de prestaciones
 description: Configurar planes de prestaciones en Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d398da8fa53f39cfbdc3911d5acd0967f0c5d5b
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: da11799d3340798067fc03061159896f44750c77
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464287"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805739"
 ---
-# <a name="create-a-benefits-plan"></a>Crear un nuevo plan de prestaciones
+# <a name="create-a-benefit-plan"></a>Crear planes de prestaciones
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -46,9 +44,8 @@ Este artículo le muestra cómo configurar planes de prestaciones en Dynamics 36
    | **Programa** | Especifica un programa para asignarlo opcionalmente al plan. |
    | **Agrupación de trabajos** | Especifica una agrupación para asignarla opcionalmente al plan. |
    | **Embarque maestro** | Especifica si el plan es el plan maestro de la agrupación a la que está asignado. |
-   | **Estado** | Indica el estado actual del plan de prestaciones. El valor predeterminado es Activo. Si cambia el estado a Inactivo, el plan no estará disponible como selección durante la inscripción. |
    | **Fecha y hora de inicio de validez** | La fecha y la hora en las que empieza el plan. El valor predeterminado de la fecha actual del sistema. |
-   | **Fecha y hora de fin de validez** | La fecha y hora en las que finaliza el plan (el estado cambia a Inactivo). El valor predeterminado es 12/31/2154, que significa nunca. |
+   | **Fecha y hora de fin de validez** | La fecha y la hora en las que finaliza el plan. El valor predeterminado es 12/31/2154, que significa nunca. |
 
 4. En la pestaña **Configuración**, especifique valores para los siguientes campos, según el tipo de plan que esté creando:
 
@@ -56,18 +53,18 @@ Este artículo le muestra cómo configurar planes de prestaciones en Dynamics 36
    | --- | --- | --- |
    | Médico (médico, dental, de visión, HMO) | COBRA | Especifica si el plan es idóneo para COBRA (ley de reconciliación presupuestaria consolidada de autobús). |
    | Médico (médico, dental, de visión, HMO) | HIPAA | Especifica si el plan es idóneo para la HIPAA (ley de responsabilidad y portabilidad del seguro médico). |
-   | <ul><li>Médico (médico, dental, de visión, HMO)</li><li>Otro (PTO, bienestar físico)</li><li>Otras</li><li>Incapacidad de larga duración</li><li>ADD (vida básica, vida voluntaria)</li><li>Ahorros (por ejemplo, 401(k))</li><li>FSA</li></ul> | Antes de impuestos elegible | Especifica si se pueden hacer contribuciones al plan antes de aplicar los impuestos. |
-   | <ul><li>Médico (médico, dental, de visión, HMO)</li><li>Otro (PTO, bienestar físico)</li><li>Incapacidad de larga duración</li><li>ADD (vida básica, vida voluntaria)</li><li>Ahorros (por ejemplo, 401(k))</li><li>FSA</li></ul> | Después de impuestos aptos | Especifica si se pueden hacer contribuciones al plan después de aplicar los impuestos. |
-   | <ul><li>Médico (médico, dental, de visión, HMO)</li><li>Otro (PTO, bienestar físico)</li><li>Incapacidad de larga duración</li><li>ADD (vida básica, vida voluntaria)</li><li>Ahorros (por ejemplo, 401(k))</li><li>FSA</li></ul> | Contribuyente | Especifica quién contribuye al plan: el empleado, el empleador o ambos. |
-   | <ul><li>Incapacidad de larga duración</li><li>ADD (vida básica, vida voluntaria)</li></ul> | Cobertura mínima | El importe mínimo de cobertura de seguro necesario para el plan. |
-   | <ul><li>Incapacidad de larga duración</li><li>ADD (vida básica, vida voluntaria)</li></ul> | Cobertura máxima | El importe máximo de cobertura de seguro necesario para el plan. |
-   | <ul><li>Incapacidad de larga duración</li><li>ADD (vida básica, vida voluntaria)</li></ul> | Usar incrementos de cobertura | Especifica si se debe validar que el importe de la cobertura coincida con un importe incremental válido. |
-   | <ul><li>Incapacidad de larga duración</li><li>ADD (vida básica, vida voluntaria)</li></ul> | Importe incremental | El importe incremental de cobertura de seguro para el plan. Por ejemplo, si el importe incremental es 1000, un empleado no puede tener 200 500 $ de seguro y necesitaría redondear a 201 000 $ o bajar a 200 000 $. |
-   | <ul><li>Incapacidad de larga duración</li><li>ADD (vida básica, vida voluntaria)</li></ul> | Dirección incremental | Especifica la dirección en la que se debe redondear, hacia arriba o hacia abajo, si el importe de cobertura no satisface el valor del importe incremental. |
+   | Médico (médico, dental, de visión, HMO)<br><br>Otro (PTO, bienestar físico)<br><br>Otras<br><br>Incapacidad de larga duración<br><br>ADD (vida básica, vida voluntaria)<br><br>Ahorros (por ejemplo, 401(k))<br><br>FSA | Antes de impuestos elegible | Especifica si se pueden hacer contribuciones al plan antes de aplicar los impuestos. |
+   | Médico (médico, dental, de visión, HMO)<br><br>Otro (PTO, bienestar físico)<br><br>Incapacidad de larga duración<br><br>ADD (vida básica, vida voluntaria)<br><br>Ahorros (por ejemplo, 401(k))<br><br>FSA | Después de impuestos aptos | Especifica si se pueden hacer contribuciones al plan después de aplicar los impuestos. |
+   | Médico (médico, dental, de visión, HMO)<br><br>Otro (PTO, bienestar físico)<br><br>Incapacidad de larga duración<br><br>ADD (vida básica, vida voluntaria)<br><br>Ahorros (por ejemplo, 401(k))<br><br>FSA | Contribuyente | Especifica quién contribuye al plan: el empleado, el empleador o ambos. |
+   | Incapacidad de larga duración<br><br>ADD (vida básica, vida voluntaria) | Cobertura mínima | El importe mínimo de cobertura de seguro necesario para el plan. |
+   | Incapacidad de larga duración<br><br>ADD (vida básica, vida voluntaria) | Cobertura máxima | El importe máximo de cobertura de seguro necesario para el plan. |
+   | Incapacidad de larga duración<br><br>ADD (vida básica, vida voluntaria) | Usar incrementos de cobertura | Especifica si se debe validar que el importe de la cobertura coincida con un importe incremental válido. |
+   | Incapacidad de larga duración<br><br>ADD (vida básica, vida voluntaria) | Importe incremental | El importe incremental de cobertura de seguro para el plan. Por ejemplo, si el importe incremental es 1000, un empleado no puede tener 200 500 $ de seguro y necesitaría redondear a 201 000 $ o bajar a 200 000 $. |
+   | Incapacidad de larga duración<br><br>ADD (vida básica, vida voluntaria) | Dirección incremental | Especifica la dirección en la que se debe redondear, hacia arriba o hacia abajo, si el importe de cobertura no satisface el valor del importe incremental. |
    | ADD (vida básica, vida voluntaria) | Prueba de asegurabilidad | Especifica si un empleado debe proporcionar pruebas de asegurabilidad. |
    | ADD (vida básica, vida voluntaria) | Importe | El importe en la divisa de contabilidad. Este campo sólo está activo si está activada la casilla de pruebas de asegurabilidad. |
-   | <ul><li>Ahorros (por ejemplo, 401(k))</li><li>FSA</li></ul> | Contribución mínima anual | El importe mínimo de contribución necesario para el plan. |
-   | <ul><li>Ahorros (por ejemplo, 401(k))</li><li>FSA</li></ul> | Contribución máxima anual | El importe máximo de contribución necesario para el plan. |
+   | Ahorros (por ejemplo, 401(k))<br><br>FSA | Contribución mínima anual | El importe mínimo de contribución necesario para el plan. |
+   | Ahorros (por ejemplo, 401(k))<br><br>FSA | Contribución máxima anual | El importe máximo de contribución necesario para el plan. |
    | Ahorros (por ejemplo, 401(k)) | Importe anual máximo de la empresa | El importe máximo que un empleador puede contribuir a un plan de ahorro para empleados durante un periodo de prestaciones. Debe seleccionar la casilla de verificación Correspondencia con el empleador para usar este campo. |
    | Ahorros (por ejemplo, 401(k)) | Correspondiente a la empresa | Especifica si el empleador contribuye a un plan de ahorros del empleado. |
    | Ahorros (por ejemplo, 401(k)) | Porcentaje que la empresa igualará | El porcentaje de una contribución del empleado que el empleador igualará. |
@@ -122,7 +119,7 @@ Puede ver los trabajadores que están inscritos al plan de prestaciones seleccio
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Planes**, seleccione **Planes de prestaciones**.
 
-2. Seleccione **Trabajadores inscritos**.
+2. En la pestaña **Prestaciones** de la barra de navegación, seleccione **Trabajadores inscritos**.
 
 ## <a name="attach-coverage-options"></a>Vincular opciones de cobertura
 
@@ -130,7 +127,7 @@ Puede agregar opciones de cobertura al plan de prestaciones seleccionado. Adjunt
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Planes**, seleccione **Planes de prestaciones**.
 
-2. Seleccione **Adjuntar opciones de cobertura**.
+2. En la pestaña **Prestaciones** de la barra de navegación, seleccione **Adjuntar opciones de cobertura**.
 
 ## <a name="override-eligibility-rules"></a>Anulación de reglas de idoneidad
 
@@ -138,7 +135,7 @@ Puede agregar trabajadores a un plan como excepciones a las reglas de idoneidad.
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Planes**, seleccione **Planes de prestaciones**.
 
-2. Seleccione **Anulación de reglas de idoneidad**.
+2. En la pestaña **Prestaciones** de la barra de navegación, seleccione **Anular regla de idoneidad**.
 
 ## <a name="view-attached-periods"></a>Ver los periodos adjuntos
 
@@ -146,21 +143,21 @@ Puede ver una lista de los periodos de prestaciones disponibles.
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Planes**, seleccione **Planes de prestaciones**.
 
-2. Seleccione **Periodos**.
+2. Seleccione la pestaña **Periodos** en la barra de navegación.
 
-## <a name="view-plan-information"></a>Ver información del plan
+## <a name="view-plan-description"></a>Ver descripción del plan
 
-Puede proporcionar una descripción del plan para ayudar a los empleados con sus selecciones de prestaciones. La información del plan que introduzca aquí se muestra en el autoservicio del empleado al pasar el ratón sobre el plan en la lista de opciones de cobertura.
+Puede proporcionar una descripción del plan para ayudar a los empleados con sus selecciones de prestaciones. La descripción del plan que introduzca aquí se muestra en el autoservicio del empleado al pasar el ratón sobre el plan en la lista de opciones de cobertura.
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Planes**, seleccione **Planes de prestaciones**.
 
-2. Seleccione **Información del plan**.
+2. En la pestaña **Prestaciones** de la barra de navegación, seleccione **Descripción del plan**.
 
 ## <a name="view-flex-credit-programs"></a>Ver programas de crédito flexible
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Planes**, seleccione **Planes de prestaciones**.
 
-2. Seleccione **Programas de crédito flexible**.
+2. En la pestaña **Prestaciones** de la barra de navegación, seleccione **Programas de crédito flexible**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Configurar y administrar el registro de la base de datos
 description: Puede realizar un seguimiento de los cambios en las tablas y campos en Dynamics 365 Human Resources con registro de base de datos.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467658"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801344"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurar y administrar el registro de la base de datos
 
@@ -68,7 +66,22 @@ Para mejorar el rendimiento, limite las entradas en el registro seleccionando ca
 Puede usar el asistente **Registro de cambios en la base de datos** para configurar el registro de bases de datos. El asistente proporciona una forma flexible de configurar el registro de tablas o campos.
 
 1. Vaya a **Administración del sistema> Enlaces > Base de datos > Configuración del registro de bases de datos**. Seleccione **Nuevo** para comenzar el asistente **Registro de cambios en la base de datos**.
-2. Complete el asistente.
+2. Seleccione **Siguiente**. 
+3. En la página **Tablas y campos** del asistente, seleccione las tablas y los campos en los que desea habilitar el registro de la base de datos y seleccione **Siguiente**.
+
+   > [!Note]
+   > El registro de la base de datos no está disponible en todas las tablas de la base de datos de Human Resources. La selección de **Mostrar todas las tablas**, situada a continuación de la lista, expande la lista de tablas y campos para mostrar todas las tablas de la base de datos para las que está disponible el registro de la base de datos, pero esto será un subconjunto de la lista completa de tablas de la base de datos.
+
+4. En la página **Tipos de cambio** del asistente, seleccione las operaciones de datos para las que desea realizar un seguimiento de los cambios para cada uno de los campos y tablas, y seleccione **Siguiente**. Consulte la tabla siguiente para obtener una descripción de las operaciones de datos disponibles para el registro.
+5. En la página **Terminar**, revise los cambios que se realizarán y seleccione **Terminar**.
+
+| Operación | Descripción |
+| -- | -- |
+| Realizar seguimiento de transacciones nuevas | Cree un registro para los nuevos registros que se crean en la tabla. |
+| Actualización | Cree un registro para las actualizaciones de los registros de la tabla o actualizaciones de los campos seleccionados individualmente en la tabla. Si selecciona registrar las actualizaciones para la tabla, se crea un registro de registro cada vez que se realiza una actualización en cualquier campo de cualquier registro de la tabla. Si selecciona registrar actualizaciones para campos específicos, se crea un registro solo cuando se realizan actualizaciones en esos campos de registros de tabla. |
+| Suprimir | Cree un registro de los registros eliminados de la tabla. |
+| Asignar nuevo nombre a la clave | Cree un registro de registros cuando se cambie el nombre de una clave de tabla. |
+
 
 ## <a name="clean-up-database-logs"></a>Limpiar registros de bases de datos
 

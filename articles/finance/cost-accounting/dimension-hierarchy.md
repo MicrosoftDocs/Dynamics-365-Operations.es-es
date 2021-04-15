@@ -2,11 +2,9 @@
 title: Jerarquía de dimensiones
 description: Este tema proporciona información sobre las jerarquías de dimensiones. Use una jerarquía de dimensiones para definir la estructura del informe, las directivas de coste y configurar la seguridad en la contabilidad de costes.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217395"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810183"
 ---
 # <a name="dimension-hierarchy"></a>Jerarquía de dimensiones
 
@@ -124,12 +122,13 @@ Una jerarquía de dimensión que cumple los requisitos de generación de informe
 
 La jerarquía de dimensión para informar se puede configurar como se muestra aquí.
 
-|                   | Intervalos de miembros de dimensión   |                         |
+**Intervalos de miembros de dimensión**
+
+|   Nodos           |   Desde miembro de dimensión   |   Hasta miembro de dimensión   |
 |-------------------|---------------------------|-------------------------|
-| **Nodos**         | **Desde miembro de dimensión** | **Hasta miembro de dimensión** |
 | Organización      |                           |                         |
 | &nbsp;&nbsp;Administrador         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finanzas   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Finanzas   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;RR. HH.        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Producción    |                           |                         |
@@ -146,12 +145,13 @@ Una jerarquía de dimensión que cumple los requisitos de la directiva se puede 
 
 La jerarquía de dimensión para la directiva se puede configurar como se muestra aquí.
 
-|                   | Intervalos de miembros de dimensión   |                         |
+**Intervalos de miembros de dimensión**
+
+|   Nodos           |   Desde miembro de dimensión   |   Hasta miembro de dimensión   |
 |-------------------|---------------------------|-------------------------|
-| **Nodos**         | **Desde miembro de dimensión** | **Hasta miembro de dimensión** |
 | Comportamiento de costes     |                           |                         |
 | &nbsp;&nbsp;Coste fijo    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Coste variable | 40001                     | 40010                   |
+| &nbsp;&nbsp;Coste variable | 40001                     | 40010                   |
 
 > [!NOTE]
 > En **Intervalos de miembros de dimensión**, un nodo puede contener 1: intervalos de miembros de dimensión _n_. Puede insertar los identificadores de miembro de dimensión que aún no existen como miembros de dimensión. Este enfoque hace que la jerarquía sea resistente para el futuro.  
@@ -297,9 +297,10 @@ Potencialmente, todos los administradores podrán tener acceso a datos empresari
 
 Un nuevo FastTab **Usuarios** está disponible en el diseñador de jerarquías. Aquí, puede insertar uno o más identificadores de usuarios en cada nodo de la jerarquía.
 
-|                 | Usuarios            | Intervalos de miembros de dimensión   |                         |
+**Usuarios e intervalos de miembros de dimensión**
+
+|   Nodos         |   Id. de usuario        |   Desde miembro de dimensión   |   Hasta miembro de dimensión   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Nodos**       | **Id. de usuario**      | **Desde miembro de dimensión** | **Hasta miembro de dimensión** |
 | Organización    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administrador         | Abril            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finanzas   | Alicia           | CC002                     | CC003                   |

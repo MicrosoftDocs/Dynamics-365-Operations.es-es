@@ -2,11 +2,9 @@
 title: Tránsito directo planificado
 description: Este tema describe la planificación avanzada del tránsito directo, donde la cantidad de inventario que se requiere para un pedido se dirige directamente desde la recepción o la creación hasta el muelle de salida o el área de preparación correcta. Todo el inventario restante de la fuente entrante se dirige a la ubicación de almacenamiento correcta a través del proceso regular de almacenamiento.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 49807c90c145eee55fae2d515fd19925eb2d944c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556275"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810423"
 ---
 # <a name="planned-cross-docking"></a>Tránsito directo planificado
 

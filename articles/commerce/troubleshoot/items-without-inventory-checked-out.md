@@ -2,7 +2,6 @@
 title: Los artículos agotados se pueden comprar
 description: Este tema proporciona una guía para la resolución de problemas que puede ayudar cuando los clientes pueden agregar artículos agotados a su carrito y proceder al pago.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6df9c77248c7f4e16765b98327fe5838f0fce7e4
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: af44def901d3aa7d4b24ab6abfac60d066a8d1a3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585517"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801756"
 ---
 # <a name="items-without-inventory-can-be-checked-out"></a>Los artículos agotados se pueden comprar
 

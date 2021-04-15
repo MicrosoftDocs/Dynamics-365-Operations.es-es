@@ -2,7 +2,6 @@
 title: Error de sincronización de pedidos relacionado con el servicio de pago predeterminado
 description: Este tema proporciona una guía de resolución de problemas que puede ayudar a corregir un error que podría ocurrir cuando se sincroniza un pedido en línea.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dd7c400f26b6fc7fbe1d4fec43a52295eb363333
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 45eeae751051b58e1c9e725eb4ed4b5240026e7f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585513"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801444"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Error de sincronización de pedidos relacionado con el servicio de pago predeterminado
 

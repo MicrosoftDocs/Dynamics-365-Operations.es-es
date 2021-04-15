@@ -2,11 +2,9 @@
 title: Diseñar la interfaz de ejecución de la planta de producción
 description: Este tema describe cómo diseñar el contenido de la interfaz de usuario para cada configuración.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501039"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814689"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Diseñar la interfaz de ejecución de la planta de producción
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Puede diseñar el contenido de la interfaz de usuario para cada configuración utilizada por la interfaz de ejecución de la planta de producción. Por ejemplo, es posible que los trabajadores de una celda de trabajo necesiten poder abrir las instrucciones de trabajo en el piso de producción, mientras que en otra celda de trabajo, las instrucciones no son necesarias. En ese caso, se deben crear dos configuraciones, una con un botón para abrir documentos adjuntos y otra sin este botón.
 
