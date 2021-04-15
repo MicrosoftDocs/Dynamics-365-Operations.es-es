@@ -2,7 +2,6 @@
 title: Función EMPTYLIST ER
 description: En este tema se proporciona información sobre cómo usar la función EMPTYLIST de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,44 +15,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6c2777065656affc992a427194286008c1df42f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1e2a92d9951c3ad27503cf82f1b45026f16c3835
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559209"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746684"
 ---
-# <a name="emptylist-er-function"></a><span data-ttu-id="ece34-103">Función EMPTYLIST ER</span><span class="sxs-lookup"><span data-stu-id="ece34-103">EMPTYLIST ER function</span></span>
+# <a name="emptylist-er-function"></a><span data-ttu-id="ae41b-103">Función EMPTYLIST ER</span><span class="sxs-lookup"><span data-stu-id="ae41b-103">EMPTYLIST ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ece34-104">La función `EMPTYLIST` devuelve un valor *Lista de registros* vacío usando la lista especificada como origen para la estructura de la lista.</span><span class="sxs-lookup"><span data-stu-id="ece34-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
+<span data-ttu-id="ae41b-104">La función `EMPTYLIST` devuelve un valor *Lista de registros* vacío usando la lista especificada como origen para la estructura de la lista.</span><span class="sxs-lookup"><span data-stu-id="ae41b-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ece34-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ece34-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ae41b-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="ae41b-105">Syntax</span></span>
 
 ```vb
 EMPTYLIST (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="ece34-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="ece34-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="ae41b-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="ae41b-106">Arguments</span></span>
 
-<span data-ttu-id="ece34-107">`list`: *Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="ece34-107">`list`: *Record list*</span></span>
+<span data-ttu-id="ae41b-107">`list`: *Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="ae41b-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="ece34-108">La ruta válida de un origen de datos del tipo de datos *Lista de registros*.</span><span class="sxs-lookup"><span data-stu-id="ece34-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="ae41b-108">La ruta válida de un origen de datos del tipo de datos *Lista de registros*.</span><span class="sxs-lookup"><span data-stu-id="ae41b-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="ece34-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="ece34-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ae41b-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="ae41b-109">Return values</span></span>
 
-<span data-ttu-id="ece34-110">*Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="ece34-110">*Record list*</span></span>
+<span data-ttu-id="ae41b-110">*Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="ae41b-110">*Record list*</span></span>
 
-<span data-ttu-id="ece34-111">La lista de registros resultante.</span><span class="sxs-lookup"><span data-stu-id="ece34-111">The resulting list of records.</span></span>
+<span data-ttu-id="ae41b-111">La lista de registros resultante.</span><span class="sxs-lookup"><span data-stu-id="ae41b-111">The resulting list of records.</span></span>
 
-## <a name="example"></a><span data-ttu-id="ece34-112">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="ece34-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ae41b-112">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="ae41b-112">Example</span></span>
 
-<span data-ttu-id="ece34-113">`EMPTYLIST (SPLIT ("abc", 1))` devuelve una nueva lista vacía que tiene la misma estructura que la lista que se devuelve por la función `SPLIT` utilizada.</span><span class="sxs-lookup"><span data-stu-id="ece34-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
+<span data-ttu-id="ae41b-113">`EMPTYLIST (SPLIT ("abc", 1))` devuelve una nueva lista vacía que tiene la misma estructura que la lista que se devuelve por la función `SPLIT` utilizada.</span><span class="sxs-lookup"><span data-stu-id="ae41b-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ece34-114">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="ece34-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ae41b-114">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="ae41b-114">Additional resources</span></span>
 
-[<span data-ttu-id="ece34-115">Funciones de lista</span><span class="sxs-lookup"><span data-stu-id="ece34-115">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="ae41b-115">Funciones de lista</span><span class="sxs-lookup"><span data-stu-id="ae41b-115">List functions</span></span>](er-functions-category-list.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
