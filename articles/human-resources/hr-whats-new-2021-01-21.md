@@ -2,11 +2,9 @@
 title: Novedades y cambios en Dynamics 365 Human Resources del 21 de enero de 2021
 description: Este tema describe las características nuevas o modificadas en Microsoft Dynamics 365 Human Resources para el 21 de julio de 2021.
 author: marcelbf
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fc3bb035686a46030514aca1f5ad03a2681845fd
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 14df61a68ed402365bd26257cfc5e9b6b4c14db3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463535"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803378"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Novedades y cambios en Dynamics 365 Human Resources del 21 de enero de 2021
 

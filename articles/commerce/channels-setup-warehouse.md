@@ -2,11 +2,9 @@
 title: Configurar un almacén
 description: En este tema se describe cómo configurar un almacén para utilizarlo con un nuevo canal en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477643"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800504"
 ---
 # <a name="warehouse-set-up"></a>Configuración de almacén
 
@@ -49,7 +47,7 @@ La siguiente imagen muestra un ejemplo de sitio de almacén.
 
 ![Ejemplo de sitio de almacén](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse"></a>Configurar un almacén
+## <a name="set-up-a-warehouse&quot;></a>Configurar un almacén
 
 Para configurar un almacén, siga estos pasos.
 
@@ -63,14 +61,14 @@ Para configurar un almacén, siga estos pasos.
     - Si desea establecer un **Almacén de tránsito**, primero debe seguir estos pasos para crear un almacén adicional donde se establezca **Tipo** en **Tránsito**.
 1. En el panel de acciones, seleccione **Guardar**.
 
-## <a name="set-up-inventory-aisles"></a>Configurar pasillos de inventario
+## <a name=&quot;set-up-inventory-aisles&quot;></a>Configurar pasillos de inventario
 
 Para configurar pasillos de inventario, siga estos pasos.
 
 1. En el panel de navegación, vaya a **Módulos \> Retail y Commerce \> Configuración de canal \> Configuración de la ubicación \> Pasillos de inventario**.
 1. En el panel de acciones, seleccione **Nueva**.
 1. En la lista desplegable **Almacén**, seleccione el almacén creado previamente.
-1. En el campo **Pasillo**, especifique un nombre (por ejemplo, "Predet").
+1. En el campo **Pasillo**, especifique un nombre (por ejemplo, &quot;Predet").
 1. En el campo **Nombre**, escriba un nombre (por ejemplo, "Pasillo predeterminado").
 1. En el panel de acciones, seleccione **Guardar**.
 

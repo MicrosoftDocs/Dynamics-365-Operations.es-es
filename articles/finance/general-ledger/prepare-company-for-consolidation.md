@@ -2,11 +2,9 @@
 title: Preparar una entidad jurídica para el proceso de consolidación
 description: En una consolidación, se recopilan transacciones de varios conjuntos de cuentas de entidades jurídicas en un único conjunto de cuentas de entidades jurídicas. Este tema explica cómo preparar una entidad jurídica para una consolidación.
 author: jinniew
-manager: AnnBe
 ms.date: 10/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 07988e71276c6439e392bce2087f3a8923f5f40b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6f718bef3b1b07d3bb03dbf6acbf1cdf58aa7b8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230211"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815485"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Preparar una entidad jurídica para el proceso de consolidación
 

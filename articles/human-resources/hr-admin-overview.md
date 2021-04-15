@@ -2,11 +2,9 @@
 title: Visión general de la administración
 description: Esta Guía del administrador lo ayuda a configurar, administrar y solucionar problemas de Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f55977fc45424ea7e514a741f9dd7f8f9306b015
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466937"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801152"
 ---
 # <a name="administration-overview"></a>Visión general de la administración
 
@@ -60,7 +58,7 @@ Esta Guía del administrador lo ayuda a configurar, administrar y solucionar pro
 - Explorar la interfaz de usuario
   - [Elementos de la interfaz de usuario](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
   - [Características de accesibilidad](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
-  - [Visión general de la administración de características](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
+  - [Información general de la administración de características](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Preguntas frecuentes de clientes](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
   - [Búsqueda de acción](../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json)
   - [Sintaxis de consulta y filtro avanzados](../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json)

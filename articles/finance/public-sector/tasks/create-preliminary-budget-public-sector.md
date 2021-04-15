@@ -2,11 +2,9 @@
 title: Creación de un presupuesto preliminar para el sector público
 description: Puede crear entradas de registro de presupuesto preliminar para un modelo presupuestario concreto y valores de dimensión.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40371809f3855e57db4bc12f5466f7cef5cec600
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c7937402f63db23c2b42d61c584c17dce5e1bf10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235565"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811224"
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Creación de un presupuesto preliminar para el sector público
 

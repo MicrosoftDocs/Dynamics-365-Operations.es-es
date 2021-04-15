@@ -2,11 +2,9 @@
 title: Obtener un descuento por pronto pago fuera del período de descuento por pronto pago
 description: Este artículo proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df635e78fff1994b9a9e1abc99c67470852ad81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 47acacf9b1e9667e86fcdd5ce1ed62e79d8afec3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235870"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810231"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Obtener un descuento por pronto pago fuera del período de descuento por pronto pago
 
@@ -43,7 +41,7 @@ April marca la factura para su pago. No se aplica ningún descuento por pronto p
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones**.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 12/7/2015 |
 | Importe de descuento por pronto pago         | -20,00    |
@@ -61,7 +59,7 @@ Si se han registrado la factura y el pago, el descuento por pronto pago todavía
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**. El importe de descuento que se aplica es de 20,00, dado que el importe a liquidar para la factura es el importe predeterminado, 1.980,00.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 12/7/2015 |
 | Importe de descuento por pronto pago         | -20,00    |
@@ -78,7 +76,7 @@ April actualiza el valor del campo **Importe para liquidar** a **500,00**. El va
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**. El valor del campo **Importe de descuento por pronto pago para aplicar** es **5,05**, dado que el importe que liquidar para la factura se ha cambiado por el importe de pago, 500,00.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 12/7/2015 |
 | Importe de descuento por pronto pago         | -20,00    |

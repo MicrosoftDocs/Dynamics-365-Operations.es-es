@@ -2,11 +2,9 @@
 title: Nomenclatura de los nombres y los números de variante de los productos
 description: En este tema se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo].
 author: roxanadiaconu
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f4d6ece092f2e592351b4081de9b5d17ed3b9a43
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0ccb2ed2a143735c199c36f2da357996ad3fbff3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260632"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812845"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de los nombres y los números de variante de los productos
 

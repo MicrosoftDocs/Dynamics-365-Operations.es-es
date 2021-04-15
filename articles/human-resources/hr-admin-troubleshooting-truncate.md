@@ -2,11 +2,9 @@
 title: Evitar el truncamiento del texto en la jerarquía de puestos y exportar a Visio
 description: Este artículo explica cómo resolver una incidencia en la que los nombres de los individuos y las posiciones se truncan cuando los clientes ven la jerarquía de posiciones en Microsoft Dynamics 365 Human Resources. El truncamiento de texto puede hacer difícil tomar una captura de pantalla o imprimir la jerarquía.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a745543f4d2a2e2a94a820f4ff5f35f8067a83d7
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: f8310def6f33b807f7f749e659432e482245d007
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466385"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803882"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evitar truncamiento del texto en la jerarquía de puestos y exportar a Visio
 

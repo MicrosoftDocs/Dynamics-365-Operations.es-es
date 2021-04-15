@@ -2,11 +2,9 @@
 title: Liquidar un pago parcial antes de la fecha de descuento y un pago final después de la fecha de descuento
 description: Este artículo le guía por un escenario donde se realizan múltiples pagos parciales, algunos dentro del período del descuento por pronto pago y otros fuera del período de descuento por pronto pago.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227337"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810351"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Liquidar un pago parcial antes de la fecha de descuento y un pago final después de la fecha de descuento
 
@@ -48,9 +46,9 @@ El 2 de julio, April quiere liquidar 300,00 de esta factura. El pago puede optar
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 7/09/2015 |
+| Fecha del descuento por pronto pago           | 09/7/2015 |
 | Importe de descuento por pronto pago         | -10,00    |
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 0,00      |
@@ -73,9 +71,9 @@ April paga el resto de la factura el 15 de julio, tras el período de descuento.
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones**. April puede observar que ya ha aprovechado un descuento de 3,00.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 7/09/2015 |
+| Fecha del descuento por pronto pago           | 09/7/2015 |
 | Importe de descuento por pronto pago         | 0,00      |
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | -3,00     |
@@ -99,10 +97,10 @@ Si el proveedor permite a April disfrutar de un descuento aunque pague después 
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones**.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 7/09/2015 |
-| Importe de descuento por pronto pago         | 7,00      |
+| Fecha del descuento por pronto pago           | 09/7/2015 |
+| Importe de descuento por pronto pago         | 7.00      |
 | Utilizar el descuento por pronto pago            | Siempre    |
 | Descuento por pronto pago aplicado          | -3,00     |
 | Importe de descuento por pronto pago para aplicar | -7,00     |

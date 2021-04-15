@@ -2,11 +2,9 @@
 title: Visión general de gestión de inventarios
 description: Este tema proporciona una visión general de gestión del inventario.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a76177a083aded953aab13fbb81681d7f117828d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2bdf4a1ae691e50f7e41374db6c2dde10b9329cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225035"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809575"
 ---
 # <a name="inventory-management-overview"></a>Visión general de gestión de inventarios
 
