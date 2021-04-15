@@ -2,11 +2,9 @@
 title: Guardar, obtener una vista previa y publicar una página
 description: En este tema se describe cómo guardar, obtener una vista previa y publicar una página en Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68fec8c2ddc05c71394045351cef880361f2e306
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1eff0edeb630628057bd0a90e2dadc4857600f1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254826"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791832"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Guardar, obtener una vista previa y publicar una página
 

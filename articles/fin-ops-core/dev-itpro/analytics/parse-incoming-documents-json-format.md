@@ -2,7 +2,6 @@
 title: Analizar documentos de entrada en formato JSON
 description: En este tema se explica cómo configurar formatos de informes electrónicos (ER) para analizar documentos de entrada en formato JavaScript Object Notation (JSON).
 author: kfend
-manager: AnnBe
 ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: d39a697876641b4c9647dc1a55243ac2ca7cb9e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4e598dc15b619c2f6a0525ea18c371484ca26fa4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564504"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755163"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>Analizar documentos de entrada en formato JSON
 

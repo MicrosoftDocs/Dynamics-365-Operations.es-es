@@ -2,7 +2,6 @@
 title: Función INDEX de ER
 description: Este tema proporciona información general sobre cómo usar la función INDEX de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88be8f8bdc82bf3eab5c99e72046c794d8fac361
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 14f10359a3f20fb9d23639babce764b9ef64243d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566934"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750469"
 ---
 # <a name="index-er-function"></a>Función INDEX de ER
 

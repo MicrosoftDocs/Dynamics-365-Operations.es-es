@@ -2,7 +2,6 @@
 title: Búsqueda de acción
 description: Este artículo describe la funcionalidad de búsqueda de la acción. La búsqueda de acción le ayudará a encontrar y ejecutar acciones en una página.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb268c2643b45f6797793dbc5b7cc2e33d5218d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 41313dd1fde51cb84bc971bb7bb98841222259b1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564223"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754835"
 ---
 # <a name="action-search"></a>Búsqueda de acción
 
