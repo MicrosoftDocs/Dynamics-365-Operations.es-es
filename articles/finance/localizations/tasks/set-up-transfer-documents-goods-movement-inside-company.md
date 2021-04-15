@@ -2,11 +2,9 @@
 title: Configurar los documentos de transferencia para el movimiento de mercancías dentro de una empresa
 description: Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa.
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 756b3568d1d43805a5786f0c90a0a198f89e7c2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2228f7354a91eda7e03ba4d3001265bfcbc20e90
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206008"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816859"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>Configurar los documentos de transferencia para el movimiento de mercancías dentro de una empresa
 
