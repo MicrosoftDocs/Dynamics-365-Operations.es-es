@@ -2,11 +2,9 @@
 title: Directivas de idoneidad para beneficio
 description: Este artículo proporciona información acerca de las directivas de idoneidad de prestación, que le ayudan a definir quién es apto para las prestaciones específicas.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,35 +16,35 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e0c0aa7eebf32fc404e0519c6068b4427e6b87b2
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: a5046f1d32fb965c7cb3793daf1ba40b9c2a1d10
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465159"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805907"
 ---
-# <a name="benefit-eligibility-policies"></a><span data-ttu-id="62d34-103">Directivas de idoneidad para prestaciones</span><span class="sxs-lookup"><span data-stu-id="62d34-103">Benefit eligibility policies</span></span>
+# <a name="benefit-eligibility-policies"></a><span data-ttu-id="8a7bb-103">Directivas de idoneidad para prestaciones</span><span class="sxs-lookup"><span data-stu-id="8a7bb-103">Benefit eligibility policies</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="62d34-104">Este artículo proporciona información acerca de las directivas de idoneidad de prestación, que le ayudan a definir quién es apto para las prestaciones específicas.</span><span class="sxs-lookup"><span data-stu-id="62d34-104">This article provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
+<span data-ttu-id="8a7bb-104">Este artículo proporciona información acerca de las directivas de idoneidad de prestación, que le ayudan a definir quién es apto para las prestaciones específicas.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-104">This article provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
 
-<span data-ttu-id="62d34-105">Cuando crea prestaciones, decide qué beneficios estarán disponibles para qué empleados.</span><span class="sxs-lookup"><span data-stu-id="62d34-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="62d34-106">En la tabla siguiente se muestran ejemplos de las prestaciones que puede poner a disposición de empleados específicos.</span><span class="sxs-lookup"><span data-stu-id="62d34-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
+<span data-ttu-id="8a7bb-105">Cuando crea prestaciones, decide qué beneficios estarán disponibles para qué empleados.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="8a7bb-106">En la tabla siguiente se muestran ejemplos de las prestaciones que puede poner a disposición de empleados específicos.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
 
-| <span data-ttu-id="62d34-107">Prestación</span><span class="sxs-lookup"><span data-stu-id="62d34-107">Benefit</span></span>          | <span data-ttu-id="62d34-108">Para quién está disponible la prestación</span><span class="sxs-lookup"><span data-stu-id="62d34-108">Who the benefit is available to</span></span> |
+| <span data-ttu-id="8a7bb-107">Prestación</span><span class="sxs-lookup"><span data-stu-id="8a7bb-107">Benefit</span></span>          | <span data-ttu-id="8a7bb-108">Para quién está disponible la prestación</span><span class="sxs-lookup"><span data-stu-id="8a7bb-108">Who the benefit is available to</span></span> |
 |------------------|---------------------------------|
-| <span data-ttu-id="62d34-109">Seguro médico</span><span class="sxs-lookup"><span data-stu-id="62d34-109">Health insurance</span></span> | <span data-ttu-id="62d34-110">Todos los empleados</span><span class="sxs-lookup"><span data-stu-id="62d34-110">All employees</span></span>                   |
-| <span data-ttu-id="62d34-111">Teléfono móvil</span><span class="sxs-lookup"><span data-stu-id="62d34-111">Mobile phone</span></span>     | <span data-ttu-id="62d34-112">Personal de ventas, ejecutivos</span><span class="sxs-lookup"><span data-stu-id="62d34-112">Sales staff, executives</span></span>         |
-| <span data-ttu-id="62d34-113">Pases para aparcamiento</span><span class="sxs-lookup"><span data-stu-id="62d34-113">Parking passes</span></span>   | <span data-ttu-id="62d34-114">Ejecutivos</span><span class="sxs-lookup"><span data-stu-id="62d34-114">Executives</span></span>                      |
+| <span data-ttu-id="8a7bb-109">Seguro médico</span><span class="sxs-lookup"><span data-stu-id="8a7bb-109">Health insurance</span></span> | <span data-ttu-id="8a7bb-110">Todos los empleados</span><span class="sxs-lookup"><span data-stu-id="8a7bb-110">All employees</span></span>                   |
+| <span data-ttu-id="8a7bb-111">Teléfono móvil</span><span class="sxs-lookup"><span data-stu-id="8a7bb-111">Mobile phone</span></span>     | <span data-ttu-id="8a7bb-112">Personal de ventas, ejecutivos</span><span class="sxs-lookup"><span data-stu-id="8a7bb-112">Sales staff, executives</span></span>         |
+| <span data-ttu-id="8a7bb-113">Pases para aparcamiento</span><span class="sxs-lookup"><span data-stu-id="8a7bb-113">Parking passes</span></span>   | <span data-ttu-id="8a7bb-114">Ejecutivos</span><span class="sxs-lookup"><span data-stu-id="8a7bb-114">Executives</span></span>                      |
 
-<span data-ttu-id="62d34-115">Se usan los siguientes componentes para crear directivas de idoneidad:</span><span class="sxs-lookup"><span data-stu-id="62d34-115">The following components in are used to create eligibility policies:</span></span>
+<span data-ttu-id="8a7bb-115">Se usan los siguientes componentes para crear directivas de idoneidad:</span><span class="sxs-lookup"><span data-stu-id="8a7bb-115">The following components in are used to create eligibility policies:</span></span>
 
--   <span data-ttu-id="62d34-116">Tipos de reglas de directivas</span><span class="sxs-lookup"><span data-stu-id="62d34-116">Policy rule types</span></span>
--   <span data-ttu-id="62d34-117">Directivas de idoneidad para prestación</span><span class="sxs-lookup"><span data-stu-id="62d34-117">Benefit eligibility policies</span></span>
+-   <span data-ttu-id="8a7bb-116">Tipos de reglas de directivas</span><span class="sxs-lookup"><span data-stu-id="8a7bb-116">Policy rule types</span></span>
+-   <span data-ttu-id="8a7bb-117">Directivas de idoneidad para prestación</span><span class="sxs-lookup"><span data-stu-id="8a7bb-117">Benefit eligibility policies</span></span>
 
-<span data-ttu-id="62d34-118">Los tipos de reglas de directivas definen los parámetros de consulta que se usan al desarrollar reglas de directivas específicas.</span><span class="sxs-lookup"><span data-stu-id="62d34-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="62d34-119">Tras crear tipos de reglas de directivas, puede crear directivas de idoneidad de prestación.</span><span class="sxs-lookup"><span data-stu-id="62d34-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="62d34-120">Las directivas le permiten crear una colección de reglas que se aplican a una o más entidades jurídicas.</span><span class="sxs-lookup"><span data-stu-id="62d34-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="62d34-121">Dentro de cada directiva, puede ver cualquiera de los tipos de reglas de directivas de idoneidad de prestación que haya creado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="62d34-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
+<span data-ttu-id="8a7bb-118">Los tipos de reglas de directivas definen los parámetros de consulta que se usan al desarrollar reglas de directivas específicas.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="8a7bb-119">Tras crear tipos de reglas de directivas, puede crear directivas de idoneidad de prestación.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="8a7bb-120">Las directivas le permiten crear una colección de reglas que se aplican a una o más entidades jurídicas.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="8a7bb-121">Dentro de cada directiva, puede ver cualquiera de los tipos de reglas de directivas de idoneidad de prestación que haya creado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
 
-<span data-ttu-id="62d34-122">Define el ámbito de la regla dentro de la directiva.</span><span class="sxs-lookup"><span data-stu-id="62d34-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="62d34-123">Por ejemplo, si crea un tipo de regla de directivas de idoneidad de prestación que se llama **Ejecutivo**, puede especificar cuáles es la regla dentro de dicha directiva.</span><span class="sxs-lookup"><span data-stu-id="62d34-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="62d34-124">En este ejemplo, la regla podría indicar que se debe incluir en la regla cualquier título de trabajo que contenga la palabra "ejecutivo".</span><span class="sxs-lookup"><span data-stu-id="62d34-124">In this example, the rule might state that any job title that contains the word "executive" should be included in the rule.</span></span> <span data-ttu-id="62d34-125">Una vez que haya definido los parámetros de la regla o las reglas que se incluyen en la directiva, puede asignar una regla específica a la prestación.</span><span class="sxs-lookup"><span data-stu-id="62d34-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
+<span data-ttu-id="8a7bb-122">Define el ámbito de la regla dentro de la directiva.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="8a7bb-123">Por ejemplo, si crea un tipo de regla de directivas de idoneidad de prestación que se llama **Ejecutivo**, puede especificar cuáles es la regla dentro de dicha directiva.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="8a7bb-124">En este ejemplo, la regla podría indicar que se debe incluir en la regla cualquier título de trabajo que contenga la palabra "ejecutivo".</span><span class="sxs-lookup"><span data-stu-id="8a7bb-124">In this example, the rule might state that any job title that contains the word "executive" should be included in the rule.</span></span> <span data-ttu-id="8a7bb-125">Una vez que haya definido los parámetros de la regla o las reglas que se incluyen en la directiva, puede asignar una regla específica a la prestación.</span><span class="sxs-lookup"><span data-stu-id="8a7bb-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
 
 
 
