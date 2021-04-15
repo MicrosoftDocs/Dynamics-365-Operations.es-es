@@ -2,11 +2,9 @@
 title: Visión general de las páginas del carro y de la finalización de la compra
 description: Este tema proporciona una visión general de las páginas de carro y finalización de pago en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f7c708aa7f1a858e78cdbda809b90b944606022
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0b5a74a9880a5cabfdbc124f557998540c94a4d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244801"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792252"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Visión general de las páginas del carro y de la finalización de la compra
 
 [!include [banner](includes/banner.md)]
 
 Este tema proporciona una visión general de las páginas de carro y finalización de pago en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 La página del carro de una sitio web de comercio electrónico muestra todos los artículos que un cliente ha agregado al carro. La página del carro se crea con el módulo del carro. El módulo del carro es un contenedor que hospeda todos los módulos que se necesitan para mostrar artículos en el carro. El módulo del carro puede usar otros módulos para mostrar el resumen de pedidos y los códigos promocionales que se han aplicado al pedido de cliente.
 

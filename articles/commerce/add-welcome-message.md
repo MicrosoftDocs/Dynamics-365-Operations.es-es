@@ -2,11 +2,9 @@
 title: Agregar un mensaje de bienvenida
 description: Este tema describe cómo agregar un mensaje de bienvenida en su sitio web de Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d17ad7cfd6f11e84fdd1c8ebccca6f786b83c62d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3e61f43eca7d1343d020e1c01b5b1140f07b63c6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209164"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797392"
 ---
 # <a name="add-a-welcome-message"></a>Agregar un mensaje de bienvenida
-
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo agregar un mensaje de bienvenida en su sitio web de Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Un mensaje de bienvenida en su sitio web de comercio electrónico puede informar a los visitantes acerca de las ventas continuas, las actualizaciones de sitio o la disponibilidad de colecciones de temporada. El mensaje de bienvenida se establece mediante el módulo de alerta.
 

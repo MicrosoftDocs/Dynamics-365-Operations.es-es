@@ -2,7 +2,6 @@
 title: Comparación de las características en la nube y locales
 description: En este tema se muestran qué características se admiten en la nube y en local.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 52dfff77fa7d14e560ce20596a4d79edeadb5390
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566645"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744060"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparación de características locales y en la nube
 
@@ -43,9 +42,9 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 |---------------------|-----------------------------|-----------|-----------------|
 | Cumplimiento y certificaciones        |                                                                                           | Sí       | Sí             |
 |                                      | Certificación SOC 1 de tipo 1                                                                | Sí       | No              |
-| Administración de datos e integración      |                                                                                           | Sí       | Sí             
+| Administración de datos e integración      |                                                                                           | Sí       | Sí             |
 |                                      | Exportar datos a su propio almacén de datos                                                    | Sí       | Sí             |
-|                                      | Habilitar la exportación de actualizaciones incrementales a una entidad de datos                                 | Sí       | Sí              |
+|                                      | Habilitar la exportación de actualizaciones incrementales a una entidad de datos                                 | Sí       | Sí             |
 |                                      | Integraciones de datos                                                                         | Sí       | Sí             |
 | Administración de documentos                  |                                                                                           | Sí       | Sí             |
 | Administración financiera                 |                                                                                           | Sí       | Sí             |
@@ -62,8 +61,8 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 |                                      | Espacios de trabajo analíticos                                                                     | Sí       | N.º              |
 |                                      | Proceso empresarial inteligente: recomendaciones                                             | Sí       | Nº              |
 |                                      | Creación de informes de Power BI con OData mediante el escritorio de Power BI o herramientas de Excel PowerQuery    | Sí       | Nº              |
-|                                      | SQL Server Reporting Services (SSRS) admite el escalado                                 | Sí       | No              |
-|                                      | La telemetría se transfiere a la nube                                                   | Sí       | No              |
+|                                      | SQL Server Reporting Services (SSRS) admite el escalado                                 | Sí       | Sí             |
+|                                      | La telemetría se transfiere a la nube                                                   | Sí       | N.º              |
 | Servicios de Lifecycle                   |                                                                                           | Sí       | Sí             |
 |                                      | Procesos empresariales configurables                                                           | Sí       | No              |
 | Localizaciones                        |                                                                                           | Sí       | Sí             |
@@ -85,7 +84,7 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 
 | **Área**                | **Característica**             | **Nube** | **Local** |
 |-------------------------|-------------------|-----------|-----------------|
-| Administración de activos                     |                                                                                           | Sí       | N.º |
+| Administración de activos                     |                                                                                           | Sí       | N.º              |
 | Cumplimiento y certificaciones        |                                                                                           | Sí       | Sí             |
 |                                      | Certificación SOC 1 de tipo 1                                                                | Sí       | Nº              |
 | Contabilidad de costes                      |                                                                                           | Sí       | Sí             |
@@ -96,7 +95,7 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 | Administración de datos e integración      |                                                                                           | Sí       | Sí             |
 |                                      | Extensión diseñada según la configuración                                                            | Sí       | N.º              |
 |                                      | Exportar datos a su propio almacén de datos                                                    | Sí       | Sí             |
-|                                      | Habilitar la exportación de actualizaciones incrementales a una entidad de datos                                 | Sí       | Sí              |
+|                                      | Habilitar la exportación de actualizaciones incrementales a una entidad de datos                                 | Sí       | Sí             |
 |                                      | Integraciones de datos                                                                         | Sí       | Sí             |
 | Administración de documentos                  |                                                                                           | Sí       | Sí             |
 | Ayuda                                 |                                                                                           | Sí       | No              |
@@ -111,9 +110,9 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 |                                      | Espacios de trabajo analíticos                                                                     | Sí       | N.º              |
 |                                      | Proceso empresarial inteligente: recomendaciones                                             | Sí       | Nº              |
 |                                      | Creación de informes de Power BI con OData mediante el escritorio de Power BI o herramientas de Excel PowerQuery    | Sí       | Nº              |
-|                                      | SQL Server Reporting Services (SSRS) admite el escalado                                 | Sí       | N.º              |
+|                                      | SQL Server Reporting Services (SSRS) admite el escalado                                 | Sí       | Sí             |
 |                                      | La telemetría se transfiere a la nube                                                   | Sí       | N.º              |
-| Gestión del inventario                 |                                                                                           | Sí       | Sí             |
+| Gestión de inventarios                 |                                                                                           | Sí       | Sí             |
 | Servicios de Lifecycle                   |                                                                                           | Sí       | Sí             |
 |                                      | Procesos empresariales configurables                                                           | Sí       | N.º              |
 | Localizaciones                        |                                                                                           | Sí       | Sí             |

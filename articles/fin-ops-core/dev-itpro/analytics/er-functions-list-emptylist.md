@@ -2,7 +2,6 @@
 title: Función EMPTYLIST ER
 description: En este tema se proporciona información sobre cómo usar la función EMPTYLIST de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6c2777065656affc992a427194286008c1df42f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1e2a92d9951c3ad27503cf82f1b45026f16c3835
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559209"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746684"
 ---
 # <a name="emptylist-er-function"></a>Función EMPTYLIST ER
 

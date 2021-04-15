@@ -2,11 +2,9 @@
 title: Administrar usuarios y roles de comercio electrónico
 description: Este tema explica cómo conceder acceso a los usuarios para el entorno de creación del sitio de Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a2235a43fd69adddeaba4c29305435db0fa39d64
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 44b02f262136c0d970ca9eee3e5e63ef6dc8ccb7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255928"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794292"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Administrar usuarios y roles de comercio electrónico
 
