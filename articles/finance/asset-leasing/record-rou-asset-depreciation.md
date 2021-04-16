@@ -2,11 +2,9 @@
 title: Registrar depreciación de activo por derecho de uso (Vista previa)
 description: Este tema explica cómo crear el asiento de diario para la amortización que se requiere para los arrendamientos que se reconocen en el balance de situación de una organización.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5cbbb42b25f5611fab65d7dbc114bd2505492b65
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c64f19d4cf334a6cbcacaaa3753dbafe8cbf1ffe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241427"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823080"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Registrar depreciación de activo por derecho de uso (Vista previa)
 

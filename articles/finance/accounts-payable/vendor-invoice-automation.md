@@ -2,11 +2,9 @@
 title: Automatización de facturas para documentos escaneados
 description: Este tema explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos.
 author: abruer
-manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05a796e7ea520e7f25be9e0a1f766b08f75254bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239660"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841246"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatización de facturas para documentos escaneados
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos.
+Este tema explica las entidades de datosdisponibles para la automatización completa de las facturas de proveedor, incluidas las facturas con adjuntos.
 
 Las organizaciones que desean para agilizar los procesos de proveedores (AP) con frecuencia identifican el procesamiento de facturas como una de las principales áreas de proceso que deben aumentar su eficacia. En muchos casos, estas organizaciones delegan el procesamiento de las facturas de papel en un proveedor de servicios de reconocimiento de caracteres ópticos (OCR) de terceros. A continuación reciben metadatos de la factura que se pueden leer automáticamente junto con una imagen digitalizada de cada factura. Para contribuir a la automatización, se incorpora una solución de recta final para habilitar el consumo de estos artefactos en el sistema de facturación. Ahora esta automatización de "recta final" está habilitada desde el principio a través de una solución de automatización de facturas.
 
@@ -90,9 +88,9 @@ Las facturas que se importan mediante los paquetes de datos se pueden asociar a 
 
 En los escenarios en los que las facturas de proveedores se introducen en Finance and Operations a través de integración, debe haber una forma sencilla de que un miembro del equipo de Proveedores procese las facturas con excepciones o errores y cree facturas pendientes a partir de las facturas con errores. Este procesamiento de excepciones para facturas de proveedores ya forma parte de Finance and Operations.
 
-### <a name="exceptions-list-page"></a>Página de lista de excepciones
+### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Facturas de proveedores que no pudieron importar la página de lista
 
-La nueva página de lista para las excepciones de facturas está disponible en **Proveedores** > **Facturas** > **Errores de importación** > **Facturas de proveedor que no se han importado**. Esta página muestra todos los registros de encabezado de facturas de proveedor de la tabla de ensayo de la entidad de los datos de encabezado de facturas de proveedor. Tenga en cuenta que puede ver los mismos registros del espacio de trabajo **Administración de datos** , donde también puede efectuar las mismas acciones que se proporcionan en la función de control de excepciones. Sin embargo, la interfaz de usuario que ofrece la función de control de excepciones está optimizada para un usuario funcional.
+La nueva página de lista para las excepciones de facturas está disponible en **Proveedores** > **Facturas** > **Errores de importación** > **Facturas de proveedor que no se han importado**. Esta página muestra todos los registros de encabezado de facturas de proveedor de la tabla de ensayo de la entidad de los datos de encabezado de facturas de proveedor. Tenga en cuenta que puede ver los mismos registros desde el espacio de trabajo **Administración de datos**. Tenga en cuenta que puede realizar las mismas acciones proporcionadas en la característica de tratamiento de excepciones del espacio de trabajo **Administración de datos**. La función de tratamiento de excepciones se ha optimizado para usuarios funcionales, lo que facilita su uso.
 
 ![Página de lista de excepciones](media/vendor_invoice_automation_02.png)
 
@@ -118,24 +116,17 @@ Esta página de lista incluye los siguientes campos que se incluyen en la incorp
 Esta página de lista también tiene un panel de vista previa que se puede utilizar de las siguientes formas:
 
 + Permite ver el mensaje de error completo, de modo que no tiene que expandir la columna **Mensaje de error** en la cuadrícula.
-+ Permite ver la lista completa de adjuntos de la factura, si factura tiene adjuntos.
 
 La página de lista admite las siguientes acciones:
 
 + **Editar** - Abre el registro de excepciones en modo de edición, para que pueda corregir los problemas.
 + **Opciones** - Ofrece acceso a las opciones estándar que están disponibles en las páginas de lista. Puede usar la opción **Agregar al espacio de trabajo** para anclar la página de lista de excepciones en su espacio de trabajo como una lista o mosaico.
 
-### <a name="exception-details-page"></a>Página de detalles de excepciones
+### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Facturas de proveedores que no pudieron importar la página de detalles
 
-Al iniciar el modo de edición, aparece la página de detalles de excepciones de la factura que tiene problemas. Si hay adjuntos, la factura y los adjuntos predeterminados aparecen de forma simultánea en la página de detalles de la excepción.
+Cuando inicia el modo de edición, se abrirá la página **Facturas de proveedor que no pudieron importar detalles** para la factura con problemas. Si hay problemas con una factura que tiene un archivo adjunto, el archivo adjunto no se mostrará. El archivo adjunto debe volver a adjuntarse a la factura.
 
-![Página de detalles de excepciones](media/vendor_invoice_automation_03.png)
-
-En la ilustración anterior, no había ninguna línea para el encabezado de factura de proveedor entrante. Por lo tanto, la sección líneas está vacía.
-
-La página de detalles de excepciones admite la operación siguiente:
-
-+ **Crear factura pendiente** - Después de corregir los problemas en la factura como parte del procesamiento de excepciones, puede hacer clic en este botón para crear la factura pendiente. La creación de facturas pendientes se produce en segundo plano (como operación asincrónica).
+La página **Facturas de proveedores que no pudieron importar detalles** le permite crear una factura pendiente. Después de corregir los problemas de una factura como parte del procesamiento de una excepción, seleccione el botón **Crear factura pendiente** para crear la factura pendiente. La factura pendiente se creará en segundo plano. 
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Procesamiento de servicio compartido versus procesamiento de excepciones basado en la organización
 
@@ -187,7 +178,7 @@ Sólo un documento se puede definir como adjunto predeterminado. Una vez que def
 
 Un nuevo botón que está disponible en las páginas de consulta **Procesamiento de excepciones**, **Factura pendiente** y **Diario de facturas** permite mostrar u ocultar el visualizador de adjuntos.
 
-### <a name="security"></a>Seguridad
+## <a name="security"></a>Seguridad
 
 Las siguientes acciones en el visualizador de adjuntos se controlan mediante seguridad basada en roles:
 
@@ -212,7 +203,7 @@ Los siguientes roles proporcionan acceso de solo lectura o acceso de lectura/esc
 + **Funcionario de proveedores** y **Administrador de los proveedores** - El derecho de mantener las facturas de proveedor se asigna a estos roles.
 + **Funcionario de proveedores**, **Administrador de los proveedores**, **Funcionario de pagos centralizados de proveedores**, y **Funcionario de pagos de proveedores** - El derecho de consulta sobre el estado de la factura de proveedor se asigna a estos roles.
 
-### <a name="invoice-exception-details-page"></a>Página de detalles de excepciones de factura
+### <a name="vendor-invoice-attachment"></a>Archivo adjunto de factura de proveedor
 
 Los privilegios siguientes ofrecen acceso de solo lectura o lectura/escritura al visualizador de adjuntos para las acciones de resaltar, bloquear y anotar.
 

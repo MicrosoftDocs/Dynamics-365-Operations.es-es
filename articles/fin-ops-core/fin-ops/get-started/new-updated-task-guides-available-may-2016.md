@@ -2,7 +2,6 @@
 title: Guías de tareas nuevas o actualizadas (mayo de 2016)
 description: 'En este artículo se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (mayo de 2016: todos los idiomas) para Microsoft Dynamics AX. No se publicó ninguna biblioteca de introducción nueva.'
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 6a9276f65c293ca73b417229838dab145aa92dc8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 47ade053846e39ae6e5a914bb002b20a18b8ecde
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566465"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749737"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Guías de tareas nuevas o actualizadas (mayo de 2016)
 

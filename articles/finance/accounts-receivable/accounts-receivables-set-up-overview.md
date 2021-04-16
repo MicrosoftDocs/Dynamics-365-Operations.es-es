@@ -2,11 +2,9 @@
 title: Configurar clientes, créditos y cobros
 description: Configure Clientes y Crédito y cobros para controlar todas las facturas y los pagos entrantes de clientes.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1be05b7378c778f030d25e4905753607b3ec3743
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a6eb2f89a11a9195783e838f33321f34021a288c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248024"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827683"
 ---
 # <a name="configure-accounts-receivable-and-credit-and-collections"></a>Configurar clientes, créditos y cobros
 

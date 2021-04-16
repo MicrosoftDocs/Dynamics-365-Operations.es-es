@@ -2,11 +2,9 @@
 title: Automatización del proceso de cobros
 description: Este tema describe el proceso de configuración de estrategias de procesos de cobro que identifican automáticamente las facturas de los clientes que requieren un recordatorio por correo electrónico, una actividad de cobro o una carta de cobro que se enviará al cliente.
 author: panolte
-manager: AnnBe
 ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a5f5d65f3f757163b22d35c3c99b4d6b7fbdfafb
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: ce83b8e66abece2c40ca0a7ca3bf67894b97c287
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582760"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827635"
 ---
 # <a name="collections-process-automation"></a>Automatización del proceso de cobros
 

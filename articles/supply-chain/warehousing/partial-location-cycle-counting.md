@@ -2,11 +2,9 @@
 title: Recuento cíclico de ubicaciones parcial
 description: Los planes de recuento cíclico dirigen las operaciones de recuento. Puede solicitar que solo los productos específicos y las variantes de producto entren en el recuento en lugar de todos los inventarios disponibles en una ubicación.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234690"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818905"
 ---
 # <a name="partial-location-cycle-counting"></a>Recuento cíclico de ubicaciones parcial
 
@@ -48,7 +46,7 @@ Antes de que el trabajo de recuento cíclico parcial se pueda procesar, debe, al
 Para el proceso de recuento de ciclo parcial, la fecha y hora del **Recuento del último ciclo** no se actualizarán para la ubicación, aunque se cuentan todos los elementos disponibles en una ubicación determinada. El recuento de ciclos parciales no considera el parámetro **Días entre recuento de ciclos** en la página **Planes de recuento de ciclos**. El recuento de ciclo parcial no admite el recuento simultáneo de varios artículos en la misma ubicación. La funcionalidad de recuento de ciclos parcial puede resultar en que la misma ubicación se cuente varias veces para un artículo cuando **Plan de recuento del ciclo de proceso** se ejecuta. Para evitar ese escenario, especifique filtros en el campo **Seleccionar ubicaciones**.
 
 > [!NOTE]
-> La aplicación del almacén no proporciona **Agregar LP o artículo** cuando utilice el proceso de recuento de ciclos parciales.
+> La aplicación móvil Warehouse Management no proporciona **Agregar LP o artículo** cuando utilice el proceso de recuento de ciclos parciales.
 
 ## <a name="example"></a>Ejemplo
 
