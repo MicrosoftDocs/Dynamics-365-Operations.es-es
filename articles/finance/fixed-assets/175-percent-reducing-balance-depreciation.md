@@ -2,11 +2,9 @@
 title: Depreciación con amortización degresiva del 175%
 description: Este tema le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 175%.
 author: saraschi2
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8138003971ace280b08760df718671b1779bd101
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0747c34a4b28340227209adadf367f672deb1ab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230355"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827155"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 175%
 
@@ -66,9 +64,9 @@ Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opc
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Ejemplo de depreciación con amortización degresiva del 175%
 
-|                                |        |
+| Campo                          | Valor  |
 |--------------------------------|--------|
-| Coste de adquisición               | 11.000 |
+| Coste de adquisición               | 11,000 |
 | Valor residual                  | 1.000  |
 | Base de depreciación              | 10.000 |
 | Años de tiempo de vida             | 5      |

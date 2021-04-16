@@ -2,11 +2,9 @@
 title: Administrar cambios en productos de ingeniería
 description: Este tema proporciona información acerca de la gestión de cambios de ingeniería. La gestión de cambios de ingeniería proporciona procesos estructurados para gestionar los cambios en los productos de ingeniería, desde proponer, solicitar y realizar cambios, hasta revisar y aprobar cambios, evaluar su impacto en las transacciones existentes y darles seguimiento.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 24892195a9f1c39e891e2dcb95482f019ba05365
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262342"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830037"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Administrar cambios en productos de ingeniería
 

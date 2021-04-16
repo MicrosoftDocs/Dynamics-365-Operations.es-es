@@ -2,11 +2,9 @@
 title: Ampliar las entidades de datos disponibles de inventario
 description: Este tema proporciona un ejemplo que muestra cómo agregar campos extendidos a las vistas INVENTORSITEONHANDENTITY e INVENTWAREHOUSEONHANDENTITY, de modo que las capacidades de las entidades de datos disponibles del inventario puedan funcionar con las extensiones.
 author: sherry-zheng
-manager: tfehr
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0f48e424a9ab3349d3c114ecbd01424005b9a9c6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7863f37e66727e2e80ea8c8b013ee49930e7c684
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219350"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829917"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Ampliar las entidades de datos disponibles de inventario
 

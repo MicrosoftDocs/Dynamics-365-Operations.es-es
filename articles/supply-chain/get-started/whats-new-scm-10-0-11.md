@@ -2,11 +2,9 @@
 title: Novedades o cambios en Dynamics 365 Supply Chain Management 10.0.11 (junio de 2020)
 description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.11.
 author: kamaybac
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 16195e8dd99161cd812dea7dd6f3024b10b94713
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259004"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821186"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Novedades o cambios en Dynamics 365 Supply Chain Management 10.0.11 (julio de 2020)
 
@@ -39,7 +37,7 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 
 - [Almacenamiento de informe de inventario disponible](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [Matrícula de entidad de almacén que recibe mejoras para la aplicación de almacén](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Para obtener más información, consulte [Matrícula de entidad de almacén a través de la aplicación de almacén](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Matrícula de entidad de almacén que recibe mejoras para la aplicación de almacén](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Para obtener más información, consulte [Matrícula de entidad de almacén a través de la aplicación móvil Warehouse Management](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
 - [Mejoras de reserva de línea para el formulario de reserva de número de lote](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Para obtener más información, consulte [Reservar el mismo lote para un pedido de ventas](../sales-marketing/reserve-same-batch-sales-order.md).
 

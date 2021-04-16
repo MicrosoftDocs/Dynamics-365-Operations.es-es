@@ -2,11 +2,9 @@
 title: Configuración de Finance Insights (versión preliminar)
 description: Este tema explica los pasos de configuración que permitirán que su sistema utilice las capacidades que están disponibles en Finance Insights.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 11/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cf29e3c05f9fdcc685017a4c640ef32c40989c73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208566"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818809"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Configuración de Finance Insights (versión preliminar)
 

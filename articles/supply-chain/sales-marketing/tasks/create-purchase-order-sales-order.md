@@ -2,11 +2,9 @@
 title: Crear un pedido de compra desde un pedido de ventas
 description: Este procedimiento muestra cómo crear un pedido de compra basado en un pedido de ventas.
 author: omulvad
-manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cb1829c6ed8b5ea6dbbf7fe465b270e264b78db
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 77cb07bfbc7aad74970d38f78d780889f96e1048
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266040"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819193"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Crear un pedido de compra desde un pedido de ventas
 

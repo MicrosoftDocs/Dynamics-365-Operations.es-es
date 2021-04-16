@@ -2,11 +2,9 @@
 title: Regla de liberación al almacén
 description: En este tema se ofrece información sobre la característica Regla de liberación al almacén, que proporciona flexibilidad durante la liberación al almacén. Agrega una opción de configuración que controla si el sistema permite liberar líneas de pedido parcialmente reservadas.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b23ef104b918f44eed6508319d9b58f2b8355ff1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 77714d6bda27d8d29b10177dd87e61839295e47e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228426"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823272"
 ---
 # <a name="release-to-warehouse-rule"></a>Regla de liberación al almacén
 

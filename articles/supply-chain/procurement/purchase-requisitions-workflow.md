@@ -1,12 +1,10 @@
 ---
 title: Flujo de trabajo de solicitudes de compra
 description: El proceso del flujo de trabajo mueve las solicitudes de compra por el proceso de revisión, desde un estado inicial de Borrador a un estado final de Aprobado. Cuando se envía una solicitud de compra a revisión, se inicia el proceso del flujo de trabajo. Cuando se aprueba una solicitud de compra, se puede generar un pedido de compra para las líneas de la solicitud de compra y enviarlo al proveedor para su cumplimiento.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67bad698584c4a49cc5ce82682bb32cd1e32bbd5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 12497e4b6dde44cc7f3701cf6e00c90f109ff16c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215922"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825383"
 ---
 # <a name="purchase-requisition-workflow"></a>Flujo de trabajo de solicitudes de compra
 

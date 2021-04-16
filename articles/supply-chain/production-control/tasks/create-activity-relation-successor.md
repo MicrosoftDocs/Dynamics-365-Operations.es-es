@@ -2,11 +2,9 @@
 title: Crear relación de actividad - Sucesor
 description: El flujo de actividades en un flujo de producción lean se documenta a través de relaciones de actividad.
 author: cvocph
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup, DefaultDashboard
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f10ecb8e579975327440ede6ea383226645c8cf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e46dda12d4ad2b23ee86d240e6cdd8a1d46f1838
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255310"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829243"
 ---
 # <a name="create-activity-relation---successor"></a>Crear relación de actividad - Sucesor
 

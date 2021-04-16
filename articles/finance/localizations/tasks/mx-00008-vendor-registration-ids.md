@@ -2,11 +2,9 @@
 title: 'MX-00008: Id. de registro de proveedores'
 description: Este procedimiento le muestra cómo crear el proveedor para México de modo que se admita una declaración DIOT y otros informes legales.
 author: sndray
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 400c135608d2a2ac9b615552402374de2d1a044e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6c13d12ae87e5fdff9d1c92e062a1e740424fda2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234089"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819534"
 ---
 # <a name="mx-00008---vendor-registration-ids"></a>MX-00008: Id. de registro de proveedores
 

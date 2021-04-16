@@ -2,11 +2,9 @@
 title: Visión general de la conciliación de facturas de proveedores
 description: La conciliación de facturas de proveedores es el proceso de conciliación de la factura de proveedor, el pedido de compra y la información de recepción de producto.
 author: abruer
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ecbfdd157985899da04aa6b41d9a96cdf2fa6bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 86fe870c43721ac737a7bd34cc3c985e61911dc1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213053"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820916"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Visión general de la conciliación de facturas de proveedores
 
@@ -48,7 +46,7 @@ Puede usar los siguientes tipos de conciliación de facturas de proveedores:
 
 La doble conciliación y la triple conciliación siempre concilian la información del precio por precio unitario. También puede configurar estas directivas de conciliación para que coincida con la información del precio por el total de precio.
 -   Conciliación de precio unitario neto: concilie la información de precio para doble conciliación o triple conciliación comparando el precio unitario neto de cada línea de la factura con el precio unitario neto correspondiente del pedido de compra. El precio unitario neto se determina por la fórmula siguiente: importe neto de la línea/cantidad de la línea
--   Conciliación de totales de precio: concilie la información de precio para doble o triple conciliación comparando el importe neto (total de precio) de cada línea de la factura con el importe neto correspondiente del pedido de compra. El importe neto se determina por la fórmula siguiente: *(precio unitario \* cantidad de línea) + gastos de línea - descuentos de línea*. Al correlacionar los totales de precio por porcentaje, el sistema compara los valores utilizando la divisa de transacción. Al correlacionar los totales de precio por importe, el sistema compara los valores utilizando la divisa de contabilidad.
+-   Conciliación de totales de precio: concilie la información de precio para doble o triple conciliación comparando el importe neto (total de precio) de cada línea de la factura con el importe neto correspondiente del pedido de compra. El importe neto se determina por la fórmula siguiente: *(precio unitario \* cantidad de línea) + gastos de línea - descuentos de línea*. Al correlacionar los totales de precio por porcentaje, el sistema compara los valores utilizando la divisa de transacción. Al correlacionar los totales de precio por importe, el sistema compara los valores utilizando la divisa de contabilidad. Cuando factura parcialmente una línea de orden de compra, la validación de la coincidencia del total del precio ocurre en la última factura de esa línea. 
 
 Normalmente, los cálculos de conciliación de facturas se realizan automáticamente al editar facturas de proveedor en la página Factura de proveedor. Como alternativa, la conciliación de facturas se puede realizar a pedido, según sea necesario. La conciliación de facturas bajo pedido se controla para la entidad jurídica mediante Actualizar estado de encabezado de factura automáticamente en la página Parámetros de proveedores en la ficha Validación de factura. También se pueden conciliar facturas como parte de un proceso de revisión de facturas. Puede ver los resultados de la conciliación de facturas en la página Factura de proveedor y las páginas de conciliación de facturas relacionadas.
 

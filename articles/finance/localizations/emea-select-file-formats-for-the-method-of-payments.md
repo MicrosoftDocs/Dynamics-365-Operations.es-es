@@ -2,11 +2,9 @@
 title: Formatos de archivo para métodos de pago
 description: En este tema se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, VendPaymMode
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: beeee6922b4d3baeb2f818d1d540f86a4843d714
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 97bf9a70c1fc170ca8878a99bd16c9a0cb9c7309
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236228"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818293"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Formatos de archivo para métodos de pago
 

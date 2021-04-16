@@ -1,12 +1,10 @@
 ---
-title: Matrícula que se recibe a través de la aplicación de almacén
-description: Este tema explica cómo configurar la aplicación de almacén para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
+title: Recepción de matrículas mediante la aplicación móvil Gestión de almacenes
+description: Este tema explica cómo configurar la aplicación móvil Warehouse Management para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245163"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823200"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Matrícula que se recibe a través de la aplicación de almacén
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recepción de matrículas mediante la aplicación móvil Gestión de almacenes
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar la aplicación de almacén para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
+Este tema explica cómo configurar la aplicación móvil Warehouse Management para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
 
 Puede usar esta funcionalidad para registrar rápidamente la recepción del inventario entrante relacionado con un aviso de envío por adelantado (ASN). El sistema crea automáticamente un aviso de envío por adelantado cuando los procesos de gestión de almacén se utilizan para enviar un pedido de transferencia. Para el proceso de pedido de compra, un aviso de envío por adelantado puede registrarse manualmente o puede importarse automáticamente mediante el uso de un proceso de entidad de datos de aviso de envío por adelantado entrante.
 
@@ -72,7 +70,7 @@ Para que esta funcionalidad esté disponible en su sistema, debe activar la cara
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Mostrar u omitir la página de resumen de recepción
 
-Puedes usar la característica *Controle si desea mostrar una página de resumen de recepción en dispositivos móviles* para aprovechar un flujo adicional detallado de la aplicación Warehouse como parte del proceso de recepción de matrículas.
+Puedes usar la característica *Controle si desea mostrar una página de resumen de recepción en dispositivos móviles* para aprovechar un flujo adicional detallado de la aplicación móvil Warehouse Management como parte del proceso de recepción de matrículas.
 
 Cuando esta característica está activada, los elementos del menú del dispositivo móvil para la recepción de matrículas o la recepción y almacenamiento de matrículas proporcionarán un ajuste **Mostrar la página de resumen de recepción**. Esta configuración tiene las siguientes opciones:
 

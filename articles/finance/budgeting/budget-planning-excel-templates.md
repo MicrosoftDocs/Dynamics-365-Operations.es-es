@@ -2,11 +2,9 @@
 title: Plantillas de planificación presupuestaria para Excel
 description: Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios.
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f7564ea4372e3d5a532daa33ff59802ba7dede6c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 80190419176848f10d9a3908350d57ddaadfd8c3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210370"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822188"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Plantillas de planificación presupuestaria para Excel
 
