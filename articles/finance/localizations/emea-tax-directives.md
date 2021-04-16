@@ -2,11 +2,9 @@
 title: Directivas fiscales para Europa
 description: Puede especificar incluir una explicación de códigos de impuestos en las facturas de ventas y facturas de proyecto. Puede imprimir los números de referencia en facturas de venta, facturas de servicios y facturas de proyecto.
 author: epodkolz
-manager: AnnBe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,24 +12,24 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 02a6bcf7573012cc57f5adbf67d2d0c9ecd34db4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4350711be763e4811b516e27591fb49135176a71
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236197"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818265"
 ---
-# <a name="tax-directives-for-europe"></a><span data-ttu-id="374f0-104">Directivas fiscales para Europa</span><span class="sxs-lookup"><span data-stu-id="374f0-104">Tax directives for Europe</span></span>
+# <a name="tax-directives-for-europe"></a><span data-ttu-id="ab1ec-104">Directivas fiscales para Europa</span><span class="sxs-lookup"><span data-stu-id="ab1ec-104">Tax directives for Europe</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="374f0-105">La directiva de la UE proporciona la normativa que seguirán todos los estados miembros en relación con las reglas y a la información de la factura que se van a incluir al crear facturas.</span><span class="sxs-lookup"><span data-stu-id="374f0-105">EU Directive provides regulations to be followed by all Member States regarding invoice rules and information that must be included when creating invoices.</span></span> <span data-ttu-id="374f0-106">La directiva de la UE incluye la información requerida por los proveedores para los clientes en la UE.</span><span class="sxs-lookup"><span data-stu-id="374f0-106">EU Directive lists the information that is required by suppliers for their customers in the EU.</span></span> <span data-ttu-id="374f0-107">Por ejemplo, una factura podría incluir una referencia que describe los argumentos legales para una categoría de IVA cero o una exención.</span><span class="sxs-lookup"><span data-stu-id="374f0-107">For example, an invoice could include a reference that describes the legal grounds for a VAT zero-rating or an exemption.</span></span> <span data-ttu-id="374f0-108">Si una factura ajusta una factura emitida anterior, como una nota de abono, se debe realizar una referencia clara a la factura original.</span><span class="sxs-lookup"><span data-stu-id="374f0-108">If an invoice adjusts an earlier issued invoice, such as a credit note, an unambiguous reference should be made to the original invoice.</span></span>
+<span data-ttu-id="ab1ec-105">La directiva de la UE proporciona la normativa que seguirán todos los estados miembros en relación con las reglas y a la información de la factura que se van a incluir al crear facturas.</span><span class="sxs-lookup"><span data-stu-id="ab1ec-105">EU Directive provides regulations to be followed by all Member States regarding invoice rules and information that must be included when creating invoices.</span></span> <span data-ttu-id="ab1ec-106">La directiva de la UE incluye la información requerida por los proveedores para los clientes en la UE.</span><span class="sxs-lookup"><span data-stu-id="ab1ec-106">EU Directive lists the information that is required by suppliers for their customers in the EU.</span></span> <span data-ttu-id="ab1ec-107">Por ejemplo, una factura podría incluir una referencia que describe los argumentos legales para una categoría de IVA cero o una exención.</span><span class="sxs-lookup"><span data-stu-id="ab1ec-107">For example, an invoice could include a reference that describes the legal grounds for a VAT zero-rating or an exemption.</span></span> <span data-ttu-id="ab1ec-108">Si una factura ajusta una factura emitida anterior, como una nota de abono, se debe realizar una referencia clara a la factura original.</span><span class="sxs-lookup"><span data-stu-id="ab1ec-108">If an invoice adjusts an earlier issued invoice, such as a credit note, an unambiguous reference should be made to the original invoice.</span></span>
 
-- <span data-ttu-id="374f0-109">Para imprimir una descripción de códigos de impuestos en una factura de ventas, la factura de servicios o el informe de la factura del proyecto, configure el texto de referencia a la directiva fiscal en los códigos de impuestos.</span><span class="sxs-lookup"><span data-stu-id="374f0-109">To print a description of sales tax codes on a sales invoice, free text invoice, or project invoice report, set up the Tax Directive reference text on the sales tax codes.</span></span>
-- <span data-ttu-id="374f0-110">Para las notas de crédito, el número y la fecha de la factura original se imprimen junto con el motivo de la corrección.</span><span class="sxs-lookup"><span data-stu-id="374f0-110">For credit notes, the number and date of the original invoice are printed along with the reason for correction.</span></span>
+- <span data-ttu-id="ab1ec-109">Para imprimir una descripción de códigos de impuestos en una factura de ventas, la factura de servicios o el informe de la factura del proyecto, configure el texto de referencia a la directiva fiscal en los códigos de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ab1ec-109">To print a description of sales tax codes on a sales invoice, free text invoice, or project invoice report, set up the Tax Directive reference text on the sales tax codes.</span></span>
+- <span data-ttu-id="ab1ec-110">Para las notas de crédito, el número y la fecha de la factura original se imprimen junto con el motivo de la corrección.</span><span class="sxs-lookup"><span data-stu-id="ab1ec-110">For credit notes, the number and date of the original invoice are printed along with the reason for correction.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="374f0-111">Verifique que el campo **Especificación de impuestos de venta** esté establecido en **Divisa de registro** o **Divisa de registro y empresa** en la página **Configuración de formulario** de la pestaña **General** (**Clientes > Configuración > Formularios > Configuración de formulario** o **Gestión y contabilidad de proyectos > Configuración > Formularios > Configuración de formularios**).</span><span class="sxs-lookup"><span data-stu-id="374f0-111">Verify that the **Sales tax specification** field is set to **Registration currency** or **Registration and company currency** on the **Form setup** page on the **General** tab (**Accounts receivable > Setup > Forms > Form setup** or **Project management and accounting > Setup > Forms > Form setup**).</span></span>
+> <span data-ttu-id="ab1ec-111">Verifique que el campo **Especificación de impuestos de venta** esté establecido en **Divisa de registro** o **Divisa de registro y empresa** en la página **Configuración de formulario** de la pestaña **General** (**Clientes > Configuración > Formularios > Configuración de formulario** o **Gestión y contabilidad de proyectos > Configuración > Formularios > Configuración de formularios**).</span><span class="sxs-lookup"><span data-stu-id="ab1ec-111">Verify that the **Sales tax specification** field is set to **Registration currency** or **Registration and company currency** on the **Form setup** page on the **General** tab (**Accounts receivable > Setup > Forms > Form setup** or **Project management and accounting > Setup > Forms > Form setup**).</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
