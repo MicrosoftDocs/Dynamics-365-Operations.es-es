@@ -2,11 +2,9 @@
 title: Crear una orden de domiciliación bancaria para un cliente
 description: Esta guía de tarea muestra cómo crear una orden de domiciliación bancaria y cómo usarla en una factura.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, BankAccountTable, CustPaymMode, CustDirectDebitMandate, BankAccountTableLookUp, SrsReportViewerForm,  LogisticsAddressCityLookup, CustFreeInvoice, CustTableLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef9beae6769c361680832d81ddda00e1237d3297
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e3bbf3703941255dfd82b8fb501ba8a9d1f3a2ec
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241643"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835085"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Crear una orden de domiciliación bancaria para un cliente
 

@@ -2,7 +2,6 @@
 title: Gestionar viajes
 description: En este tema se describe cómo trabajar con viajes. Un viaje típicamente representa una nave. Sin embargo, dependiendo de sus prácticas y procedimientos, puede representar un proveedor, una orden de compra o algún otro artículo que tenga sentido para su organización.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 850fbb2077a592ec4ba8578cab4795d573464f54
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 0b1414efbdde77af5d7fa15ff066e4ddcfd6bad2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501015"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833794"
 ---
 # <a name="manage-voyages"></a>Gestionar viajes
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Un viaje típicamente representa una nave. Sin embargo, dependiendo de sus prácticas y procedimientos, puede representar un proveedor, una orden de compra o algún otro artículo que tenga sentido para su organización.
 
@@ -74,9 +72,9 @@ La tabla siguiente describe las acciones disponibles en la pestaña **Gestionar*
 | Registrar factura | Publique una factura para todas las líneas de órdenes de compra en el viaje. Si las mercancías en el viaje pasarán por el procesamiento de mercancías en tránsito, las líneas de la orden de compra se facturarán antes de que se complete el proceso de recepción. Cuando se factura la orden de compra original, se crearán las órdenes de mercancías en tránsito asociadas con las líneas de la orden de compra original. A continuación, el almacén podrá recibir esos pedidos. Si se utilizan envíos de varias empresas, se abre un nuevo cuadro de diálogo de contabilización de facturas para cada empresa. |
 | Pedido de transferencia de envío | Publique un viaje de orden de transferfencia para todas las líneas de órdenes de transferencia en el viaje. Cuando se selecciona este botón, solo las órdenes de transferencia estarán disponibles para su actualización. |
 | Recibir pedido de transferencia | Publique un recibo de orden de transferfencia para todas las líneas de órdenes de transferencia en el viaje. |
-| Recibir mercancía en tránsito | Reciba todas las líneas de pedido que se encuentren en tránsito en el viaje. Este botón es una de las tres opciones disponibles para recibir mercancías en tránsito en un viaje. (Las otras dos opciones son el botón **Crear diario de llegadas** que se describe más adelante en esta tabla, y la aplicación del almacén). Esta opción es la opción más simple y procesará las mercancías en tránsito desde el almacén de mercancías en tránsito hasta el almacén de destino final. Si desea tener más control sobre el proceso, utilice el diario de llegadas o un dispositivo móvil para procesar la recepción de mercancías. |
+| Recibir mercancía en tránsito | Reciba todas las líneas de pedido que se encuentren en tránsito en el viaje. Este botón es una de las tres opciones disponibles para recibir mercancías en tránsito en un viaje. (Las otras dos opciones son el botón **Crear diario de llegadas** que se describe más adelante en esta tabla, y la aplicación móvil Warehouse Management). Esta opción es la opción más simple y procesará las mercancías en tránsito desde el almacén de mercancías en tránsito hasta el almacén de destino final. Si desea tener más control sobre el proceso, utilice el diario de llegadas o un dispositivo móvil para procesar la recepción de mercancías. |
 | Buscar costes automáticos | Encuentre los costos de viaje relevantes. Si estos costos ya se han encontrado o actualizado, recibirá el siguiente mensaje: "Existen líneas de costo no facturadas. ¿Desea sobrescribirlos? Se encontrarán todos los costos que no estaban asociados con el viaje en el momento de la creación. Los costos de viaje que se adjuntan a un viaje y que se hayan facturado no se sobrescribirán. |
-| Crear diario de llegadas | <p>Abre el cuadro de diálogo **Crear diario de llegadas**, donde puede crear un diario de llegada que especifica una ubicación. El cuadro de diálogo proporciona las siguientes opciones:</p><ul><li>**Crear a partir de mercancías en tránsito** o **Crear desde orden de transferencia** - La etiqueta de esta opción cambia dependiendo de si está utilizando el proceso de mercancías en tránsito. Establézcalo en *Sí* para abrir una página de diario de llegadas que le permite procesar un diario de llegadas estándar para las mercancías en tránsito que están asociadas con el viaje. Si el artículo ya se recibió en el almacén de destino final, no se agregará a las líneas del diario de llegada.</li><li>**Inicializar cantidad** - Establezca esta opción en *Sí* para inicializar la cantidad que se recibirá, con base en la cantidad de mercancías que se especifica en la línea de viaje. Si la línea de viaje se ha recibido parcialmente, esta cantidad será la cantidad restante. Le recomendamos que establezca esta opción en *Sí*.</li><li>**Crear a partir de líneas de pedido** - Establezca esta opción en *Sí* para tomar el valor de las líneas de pedido.</li></ul><p>Este botón es una de las tres opciones disponibles para recibir mercancías en un viaje. (Las otras opciones son el botón **Recibir mercancías en tránsito** que se describió anteriormente en esta tabla y la aplicación de almacén).</p> |
+| Crear diario de llegadas | <p>Abre el cuadro de diálogo **Crear diario de llegadas**, donde puede crear un diario de llegada que especifica una ubicación. El cuadro de diálogo proporciona las siguientes opciones:</p><ul><li>**Crear a partir de mercancías en tránsito** o **Crear desde orden de transferencia** - La etiqueta de esta opción cambia dependiendo de si está utilizando el proceso de mercancías en tránsito. Establézcalo en *Sí* para abrir una página de diario de llegadas que le permite procesar un diario de llegadas estándar para las mercancías en tránsito que están asociadas con el viaje. Si el artículo ya se recibió en el almacén de destino final, no se agregará a las líneas del diario de llegada.</li><li>**Inicializar cantidad** - Establezca esta opción en *Sí* para inicializar la cantidad que se recibirá, con base en la cantidad de mercancías que se especifica en la línea de viaje. Si la línea de viaje se ha recibido parcialmente, esta cantidad será la cantidad restante. Le recomendamos que establezca esta opción en *Sí*.</li><li>**Crear a partir de líneas de pedido** - Establezca esta opción en *Sí* para tomar el valor de las líneas de pedido.</li></ul><p>Este botón es una de las tres opciones disponibles para recibir mercancías en un viaje. (Las otras opciones son el botón **Recibir mercancías en tránsito** que se describió anteriormente en esta tabla y la aplicación móvil Warehouse Management).</p> |
 | Acumular costes | Puede acumular costos cuando un tipo de costo tiene una cuenta contable especificada para el débito. Este botón se utiliza normalmente cuando el stock está en tránsito o cuando se han recibido y facturado mercancías. |
 | Costes agregados | Mueva los costos del nivel del contenedor de envío al nivel del viaje. Puede utilizar este botón en un escenario de envío / servicios compartidos, donde varias entidades comparten un contenedor de envío o un espacio de cartón. Por ejemplo, el viaje tiene un contenedor de envío de 40 pies y un contenedor de envío de 20 pies, y la distribución se realiza por volumen. En este caso, los bienes / entidades que comparten o usan el espacio en el contenedor de envío de 20 pies podrían ser penalizados. Para distribuir equitativamente los costos, algunas organizaciones pueden querer transferir los costos al viaje y distribuirlos según el método de prorrateo a nivel del viaje. |
 | Cambiar plantilla de recorrido | Abra un cuadro de diálogo donde pueda cambiar la plantilla del viaje. Después de cambiar la plantilla, se eliminarán los costos del viaje. Por lo tanto, es posible que deba seleccionar **Buscar costes automáticos** (consulte la descripción anterior en esta tabla) o agregue costos manualmente nuevamente. |

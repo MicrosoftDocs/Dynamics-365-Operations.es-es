@@ -2,11 +2,9 @@
 title: Configuración de cuadrículas de compensación
 description: Las cuadrículas de compensación se usan para definir y mantener las estructuras de pagos para los planes de compensación fija.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompGridView, HcmCompensationWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7e68ec4d172ced7ac66837e9580971d22b23b5f
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: c393dc3393b5331b5594e39254ffe208ff439bc7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465759"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800960"
 ---
 # <a name="set-up-compensation-grids"></a>Configuración de cuadrículas de compensación
 

@@ -2,11 +2,9 @@
 title: Solución de problemas de flujos de trabajo de adquisición y abastecimiento
 description: Este tema describe cómo solucionar problemas que pueden surgir al trabajar con flujos de trabajo de adquisición y abastecimiento.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d5d688c5769a62580e48908117d0562b26eab10a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 100adef4dfd257ba86dd394b401766d2cb00394c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222834"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832043"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Solución de problemas de flujos de trabajo de adquisición y abastecimiento
 

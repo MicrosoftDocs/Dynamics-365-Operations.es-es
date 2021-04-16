@@ -2,11 +2,9 @@
 title: Retención de impuestos en transacciones de ventas
 description: Este tema enumera los pasos para evitar el cálculo de la retención de impuestos para clientes seleccionados. Para los clientes que especifican la retención de impuestos en sus pagos, puede asignar el grupo de retención de impuestos predeterminado.
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: c839df1b54cdb60beefa6dc6c3fc6e945a6eac85
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8e11ce10faa9b450b6f36a856b34b06b4ee1838d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256652"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842353"
 ---
 # <a name="withholding-tax-in-sales-transactions"></a>Retención de impuestos en transacciones de ventas
 

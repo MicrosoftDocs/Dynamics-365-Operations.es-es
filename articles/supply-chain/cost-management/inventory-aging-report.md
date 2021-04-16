@@ -1,12 +1,10 @@
 ---
 title: Ejemplos de informes de antigüedad de inventario y lógica
 description: Este tema presenta algunos ejemplos que muestran cómo interpretar los resultados de un informe de antigüedad del inventario.
-author: RichardLuan
-manager: tfehr
+author: AndersGirke
 ms.date: 5/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1d9c70a7931c009cd53fbd28a3f4c768d04964a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: edc974bcbd72ef62438fd6271a6fd0e56143f976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214427"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821594"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Ejemplos de informes de antigüedad de inventario y lógica
 

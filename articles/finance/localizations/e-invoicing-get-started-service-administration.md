@@ -1,12 +1,10 @@
 ---
-title: Comenzar con la administración del servicio del complemento de facturación electrónica
-description: Este tema explica cómo comenzar con el complemento de facturación electrónica.
+title: Comenzar con la administración de servicios de facturación electrónica
+description: Este tema explica cómo comenzar con la facturación electrónica.
 author: gionoder
-manager: AnnBe
-ms.date: 03/12/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592535"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840157"
 ---
-# <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Comenzar con la administración del servicio del complemento de facturación electrónica
+# <a name="get-started-with-electronic-invoicing-service-administration"></a>Comenzar con la administración de servicios de facturación electrónica
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -46,7 +42,7 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 - Debe activar la característica de globalización para su cuenta RCS a través del módulo de administración de características. Para más información, consulte [Regulatory Configuration Services (RCS): características de globalización](rcs-globalization-feature.md).
 - Debe crear un almacén de claves y una cuenta de almacenamiento en Azure. Para más información, consulte [Crear cuenta de almacenamiento de Azure y un almacén de claves](e-invoicing-create-azure-storage-account-key-vault.md).
 
-## <a name="install-the-add-on-for-microservices-in-lifecycle-services"></a>Instalar el complemento para microservicios en Lifecycle Services
+## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Instalar el complemento para microservicios en Lifecycle Services
 
 1. Inicie sesión en su cuenta de LCS.
 2. Seleccione el mosaico **Gestión de características de vista previa**.
@@ -54,13 +50,14 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 4. Compruebe que la opción **Característica en vista previa** esté establecida en **Sí**.
 5. En su panel de LCS, seleccione su proyecto de implementación de LCS. El proyecto LCS debe estar en ejecución.
 7. En la pestaña **Complementos de ambiente**, seleccione **Instalar un nuevo complemento**.
-8. Seleccione **Servicios de facturación electrónica** y, en el **Id. de la aplicación AAD**, introduzca **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Este valor es fijo.
+8. Seleccione **Servicios de facturación electrónica**.
+9. En el campo **Id. de la aplicación AAD**, introduzca **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Este valor es fijo.
 10. En el campo **Id. de inquilino de AAD**, introduzca el id. de su cuenta de suscripción de Azure.
 11. Revise los términos y condiciones, y luego seleccione la casilla.
 12. Seleccione **Instalar**.
 
 
-## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Configurar los parámetros para la integración de RCS con el complemento de facturación electrónica
+## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Configurar los parámetros para la integración de RCS con la facturación electrónica
 
 1. Inicie sesión en su cuenta de RCS.
 2. En el espacio de trabajo **Informes electrónicos**, en la sección **Vínculos relacionados**, seleccione **Parámetros de informes electrónicos**.
@@ -74,58 +71,56 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
     | Oeste de la UE                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
 4. Compruebe que el campo **Id. de aplicación** esté establecido en **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Este valor es un valor fijo.
-5. En el campo **Id. de entorno de LCS**, introduzca el id. de su cuenta de suscripción de LCS.
+5. En el campo **Id. de entorno de LCS**, introduzca el id. de su ambiente de LCS.
 6. Haga clic en **Guardar** y, a continuación, cierre la página.
 
-## <a name="create-key-vault-secret"></a>Crear secretos de Key Vault
+## <a name="create-key-vault-references"></a>Crear referencias de Key Vault
 
 1. Inicie sesión en su cuenta de RCS.
-2. En el espacio de trabajo **Características de globalización**, en la sección **Ambiente**, seleccione el mosaico **Complemento de facturación electrónica**.
+2. En el espacio de trabajo **Características de globalización**, en la sección **Ambiente**, seleccione el mosaico **Facturación electrónica**.
 3. En la página **Configuraciones de entorno**, en el panel de acciones, seleccione **Entorno de servicio** y luego seleccione **Parámetros de Key Vault**.
-4. Seleccione **Nuevo** para crear un secreto de almacén de claves.
-5. En el campo **Nombre**, especifique el nombre del secreto de almacén de claves. En el campo **Descripción**, escriba una descripción.
-6. En el campo **URI de Key Vault**, pegue el secreto de Azure Key Vault.
+4. Seleccione **Nuevo** para crear una referencia de almacén de claves.
+5. En el campo **Nombre**, especifique el nombre de la referencia del almacén de claves. En el campo **Descripción**, escriba una descripción.
+6. En el campo **URI de Key Vault**, pegue el secreto del almacén de claves de Azure Key Vault. Para más información, consulte [Crear cuenta de almacenamiento de Azure y un almacén de claves](e-invoicing-create-azure-storage-account-key-vault.md).
 7. Seleccione **Guardar**.
 
 ## <a name="create-storage-account-secret"></a>Crear secreto de cuenta de almacenamiento
 
-1. Vaya a **Administracion del sistema** > **Configuración** > **Parámetros de Key Vault** y seleccione un secreto de almacén de claves.
-2. En la sección **Certificados**, seleccione **Agregar**.
-3. En el campo **Nombre**, introduzca el nombre del secreto de la cuenta de almacenamiento y, en el campo **Descripción**, introduzca una descripción.
-4. En el campo **Tipo**, seleccione **Certificado**.
-5. Haga clic en **Guardar** y, a continuación, cierre la página.
+1. En la página **Configuraciones de ambiente**, en el panel de acciones, seleccione **Entorno de servicio** > **Parámetros de Key Vault**.
+2. Seleccione una **Referencia de Key Vault** y, en la sección **Certificados**, seleccione **Agregar**.
+3. En el campo **Nombre**, introduzca el nombre del secreto de la cuenta de almacenamiento. Para más información, consulte [Crear cuenta de almacenamiento de Azure y un almacén de claves](e-invoicing-create-azure-storage-account-key-vault.md).
+4. En el campo **Descripción**, escriba una descripción.
+5. En el campo **Tipo**, seleccione **Secreto**.
+6. Haga clic en **Guardar** y, a continuación, cierre la página.
 
 ## <a name="create-a-digital-certificate-secret"></a>Crear un secreto de certificado digital
 
-1. Vaya a **Administracion del sistema** > **Configuración** > **Parámetros de Key Vault** y seleccione un secreto de almacén de claves.
-2. En la sección **Certificados**, seleccione **Agregar**.
-3. En el campo **Nombre**, introduzca el nombre del secreto del certificado digital y, en el campo **Descripción**, introduzca una descripción.
-4. En el campo **Tipo**, seleccione **Certificado**.
-5. Haga clic en **Guardar** y, a continuación, cierre la página.
-
-## <a name="create-an-electronic-invoicing-add-on-environment"></a>Crear un entorno del complemento de facturación electrónica
-
-1. Inicie sesión en su cuenta de RCS.
-2. En el espacio de trabajo **Características de globalización**, en la sección **Ambiente**, seleccione el mosaico **Complemento de facturación electrónica**.
+1. En la página **Configuraciones de entorno**, en el panel de acciones, seleccione **Entorno de servicio** y luego seleccione **Parámetros de Key Vault**.
+2. Seleccione una **Referencia de Key Vault** y luego, en la sección **Certificados**, seleccione **Agregar**.
+3. En el campo **Nombre**, introduzca el nombre del secreto del certificado digital. Para más información, consulte [Crear cuenta de almacenamiento de Azure y un almacén de claves](e-invoicing-create-azure-storage-account-key-vault.md).
+4. En el campo **Descripción**, escriba una descripción.
+5. En el campo **Tipo**, seleccione **Certificado**.
+6. Haga clic en **Guardar** y, a continuación, cierre la página.
 
 ## <a name="create-a-service-environment"></a>Crear un entorno de servicio
 
-1. En la página **Configuraciones de entorno**, en el panel de acciones, seleccione **Entorno de servicio**.
-2. Seleccione **Nuevo** para crear un nuevo entorno de servicio.
-3. En el campo **Nombre**, especifique el nombre del entorno de facturación electrónica. En el campo **Descripción**, escriba una descripción.
-4. En el campo **Secreto de token SAS de almacenamiento**, seleccione el nombre del secreto de cuenta de almacenamiento que se debe utilizar para autenticar el acceso a la cuenta de almacenamiento.
-5. En la sección **Usuarios**, seleccione **Agregar** para agregar un usuario que puede enviar facturas electrónicas a través del entorno y también conectarse a la cuenta de almacenamiento.
-6. En el campo **Id. de usuario**, introduzca el alias del usuario. En el campo **Correo electrónico**, escriba la dirección de correo electrónico del usuario.
-7. Seleccione **Guardar**.
-8. Si las facturas específicas de su país o región requieren una cadena de certificados para aplicar firmas digitales, seleccione **Parámetros del almacén de claves** en el Panel de acciones y luego seleccione **Cadena de certificados** y siga estos pasos:
-
+1. Inicie sesión en su cuenta de RCS.
+2. En el espacio de trabajo **Características de globalización**, en la sección **Ambiente**, seleccione el mosaico **Facturación electrónica**.
+3. En la página **Configuraciones de entorno**, en el panel de acciones, seleccione **Entorno de servicio**.
+4. Seleccione **Nuevo** para crear un nuevo entorno de servicio.
+5. En el campo **Nombre**, especifique el nombre del entorno de facturación electrónica. En el campo **Descripción**, escriba una descripción.
+6. En el campo **Secreto de token SAS de almacenamiento**, seleccione el nombre del secreto de cuenta de almacenamiento que se debe utilizar para autenticar el acceso a la cuenta de almacenamiento.
+7. En la sección **Usuarios**, seleccione **Agregar** para agregar un usuario que puede enviar facturas electrónicas a través del entorno y también conectarse a la cuenta de almacenamiento.
+8. En el campo **Id. de usuario**, introduzca el alias del usuario. En el campo **Correo electrónico**, escriba la dirección de correo electrónico del usuario.
+9. Seleccione **Guardar**.
+10. Si las facturas específicas de su país o región requieren una cadena de certificados para aplicar firmas digitales, seleccione **Parámetros del almacén de claves** en el Panel de acciones y luego seleccione **Cadena de certificados** y siga estos pasos:
     1. Seleccione **Nuevo** para crear una cadena de certificados.
     2. En el campo **Nombre**, introduzca el nombre de la cadena de certificado. En el campo **Descripción**, escriba una descripción.
     3. En la sección **Certificados**, seleccione **Agregar** para agregar un certificado a la cadena.
     4. Utilice el botón **Arriba** o **Abajo** para cambiar la posición del certificado en la cadena.
     5. Haga clic en **Guardar** y, a continuación, cierre la página.
     6. Cierre la página.
-9. En la página **Entorno de servicio**, seleccione **Publicar** en el panel de acciones para publicar el entorno en la nube. El valor del campo **Estado** se cambia a **Publicado**.
+11. En la página **Entorno de servicio**, seleccione **Publicar** en el panel de acciones para publicar el entorno en la nube. El valor del campo **Estado** se cambia a **Publicado**.
 
 ## <a name="create-a-connected-application"></a>Crear una aplicación conectada
 
@@ -144,12 +139,12 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 3. En el campo **Entorno de servicio**, seleccione un entorno de servicio.
 4. Haga clic en **Guardar** y, a continuación, cierre la página.
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance-and-supply-chain-management"></a>Configurar la integración del complemento de facturación electrónica en Finance y Supply Chain Management
+## <a name="set-up-electronic-invoicing-integration-in-finance-and-supply-chain-management"></a>Configurar la integración de la facturación electrónica en Finance y Supply Chain Management
 
-### <a name="turn-on-the-electronic-invoicing-add-on-integration-feature"></a>Active la característica de integración del complemento de facturación electrónica
+### <a name="turn-on-the-electronic-invoicing-integration-feature"></a>Active la característica de integración de la facturación electrónica
 
 1. Inicie sesión en su instancia de Finance o Supply Chain Management.
-2. En el espacio de trabajo **Administración de características**, busque la nueva característica, **Integración de complemento de facturación electrónica**. Si esta característica no aparece en la página, seleccione **Buscar actualizaciones**.
+2. En el espacio de trabajo **Administración de características**, busque la característica, **Integración de facturación electrónica**. Si esta característica no aparece en la página, seleccione **Buscar actualizaciones**.
 3. Seleccione la característica y, a continuación, seleccione **Habilitar ahora**.
 
 ### <a name="set-up-the-service-endpoint-url"></a>Configurar la URL del punto de conexión de servicio
@@ -164,8 +159,18 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
     | Norte de la UE                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
     | Oeste de la UE                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
-3. En el campo **Entorno**, especifique el nombre del entorno del complemento de facturación electrónica.
+3. En el campo **Ambiente**, especifique el nombre del ambiente de servicio publicado en facturación electrónica.
 4. Haga clic en **Guardar** y, a continuación, cierre la página.
 
+### <a name="enable-flighting-keys"></a>Habilitar claves de tramo
+
+Habilite las claves de tramo para Microsoft Dynamics 365 Finance o Microsoft Dynamics 365 Supply Chain Management, versiones 10.0.17 o anteriores. 
+1. Ejecute el siguiente comando SQL:
+
+    INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BusinessDocumentSubmissionServiceEnabled', 1)
+    
+    INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('ElectronicInvoicingServiceIntegrationFeature', 1)
+
+2. Ejecute un comando IISreset para todos los Microsoft Dynamics AX Application Object Server (AOS).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

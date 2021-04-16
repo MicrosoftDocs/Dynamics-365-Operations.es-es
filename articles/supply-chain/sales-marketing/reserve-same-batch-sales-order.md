@@ -2,11 +2,9 @@
 title: Reserva del mismo lote para un pedido de ventas
 description: Este artículo explica cómo configurar un producto para permitir la reserva de inventario con un único lote de inventario.
 author: omulvad
-manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c7745b1306142678760318cc47f54b93d6f727a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e0937be76aa687ed986ff83e67f2db3e2dadd0f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231825"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807665"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Reserva del mismo lote para un pedido de ventas
 
@@ -43,7 +41,7 @@ Al reservar inventario para un producto en una línea de pedido de ventas config
 - El lote ha caducado según la fecha de vencimiento y los días para ventas al cliente aplicables. El artículo aún se podrá reservar si el grupo de modelos de artículo está controlado por fecha FEFO y se selecciona la fecha de consumo preferente como criterio de selección.
 - El lote no tiene suficientes días de vida útil restantes según la fecha de caducidad/consumo preferente y los días para ventas al cliente.
 
-Para los elementos asociados con un grupo de dimensiones de almacenamiento que tiene **Utilizar procesos de gestión de almacenes** habilitado, puede reservar números de lote específicos utilizando una jerarquía de reserva con la dimensión de inventario de número de lote definida arriba de la dimensión de ubicación. La página **Reserva de lotes** de ventas y líneas de pedido de transferencia también le permite seleccionar y reservar varias líneas en función de los números de lote disponibles. Para obtener más información sobre qué hacer si está utilizando una jerarquía de reservas que tiene la dimensión del número de lote debajo de la ubicación, vea [Política de reserva de dimensión de nivel de almacén flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+Para los elementos asociados con un grupo de dimensiones de almacenamiento que tiene **Utilizar procesos de gestión de almacenes** habilitado, puede reservar números de lote específicos utilizando una jerarquía de reserva con la dimensión de inventario de número de lote definida arriba de la dimensión de ubicación. Este tipo de jerarquía de reservas también se conoce como jerarquía de reservas *Batch-above \[ubicación\]*. La página **Reserva de lotes** de ventas y líneas de pedido de transferencia también le permite seleccionar y reservar varias líneas en función de los números de lote disponibles. Para obtener más información sobre qué hacer si está utilizando una jerarquía de reservas que tiene la dimensión del número de lote debajo de la ubicación (*Batch-below \[ubicación\]*), vea [Política de reserva de dimensión de nivel de almacén flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

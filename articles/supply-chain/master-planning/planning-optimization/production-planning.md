@@ -2,11 +2,9 @@
 title: Planificación de producción
 description: Este tema describe la planificación de la producción y explica cómo modificar los pedidos de producción planificados mediante Optimización de planificación.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,18 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f9b5e4122fbd83ff76e0605b2f0816e10d2d9aab
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470842"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839232"
 ---
 # <a name="production-planning"></a>Planificación de producción
 
 Optimización de planificación admite varios escenarios de producción. Si está migrando desde el motor de planificación maestro integrado existente, es importante que esté al tanto de algunos cambios de comportamiento.
 
 El siguiente video ofrece una breve introducción a algunos de los conceptos discutidos en este tema: [Dynamics 365 Supply Chain Management: mejoras en la optimización de la planificación](https://youtu.be/u1pcmZuZBTw).
+
+## <a name="turn-on-this-feature-for-your-system"></a>Activar esta función para su sistema
+
+Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Pedidos de producción planificados para Planning Optimization*.
 
 ## <a name="planned-production-orders"></a>Pedidos de producción planificados
 

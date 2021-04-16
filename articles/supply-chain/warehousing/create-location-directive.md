@@ -2,11 +2,9 @@
 title: Trabajar con directivas de ubicación
 description: Este tema describe cómo trabajar con directivas de ubicación. Las directivas de ubicación son reglas definidas por el usuario que ayudan a identificar las ubicaciones de picking y de colocación para el movimiento de inventario.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470528"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838403"
 ---
 # <a name="work-with-location-directives"></a>Trabajar con directivas de ubicación
 
@@ -152,7 +150,7 @@ Los campos en la ficha desplegable **Directivas de ubicación** son específicos
     > [!IMPORTANT]
     > Para poder realizar colocaciones de varios elementos y de un solo SKU, debe especificar dos líneas que tengan la misma estructura y configuración, pero debe establecer la opción **Varios SKU** en *Sí* para una línea y *No* para la otra. Por lo tanto, para las operaciones de colocación, debe tener dos directivas de ubicación idénticas, aunque usted no distinga entre SKU únicas y SKU múltiples en el identificador de trabajo. A menudo, si no configura estas dos directivas de ubicación, las ubicaciones inesperadas de los procesos comerciales vendrán de la directiva de ubicación aplicada. Debe utilizar una configuración similar para las directivas de ubicación que tienen un **Tipo de trabajo** de *selección* si necesita procesar pedidos que incluyen varios SKU.
 
-    Utilice la opción **Varios SKU** para líneas de trabajo que manejan más de un número de artículo. (El número de artículo estará en blanco en los detalles del trabajo y se mostrará como **Múltiple** en las páginas de procesamiento en la aplicación del almacén).
+    Utilice la opción **Varios SKU** para líneas de trabajo que manejan más de un número de artículo. (El número de artículo estará en blanco en los detalles del trabajo y se mostrará como **Múltiple** en las páginas de procesamiento en la aplicación móvil Warehouse Management).
 
     En un escenario de ejemplo típico, una plantilla de trabajo se configura de modo que tenga más de un par de selección/colocación. En este caso, es posible que desee buscar una ubicación de ensayo específica para usar para las líneas con un **Tipo de trabajo** de *Ubicación*.
 
@@ -171,7 +169,7 @@ Los campos en la ficha desplegable **Directivas de ubicación** son específicos
     > [!NOTE]
     > Este campo está disponible solo para tipos de órdenes de trabajo seleccionados donde se permite el reabastecimiento. Para obtener una lista completa, consulte la sección [Campos que son específicos de los tipos de órdenes de trabajo](#fields-specific-types).
 
-- **Código de disposición** - Este campo se utiliza para las directivas de ubicación que tienen un tipo de orden de trabajo de *Órdenes de compra*, *Almacenamiento de productos terminados* o *Órdenes de devolución*, y un tipo de trabajo de *Ubicación*. Úselo para guiar el flujo para usar una directiva de ubicación específica, según el código de disposición que seleccionó un trabajador en la aplicación de almacén. Por ejemplo, puede dirigir los productos devueltos a una ubicación de inspección antes de que se devuelvan al stock. Un código de disposición se puede vincular a un estado de inventario. De esta forma, se puede utilizar para cambiar el estado del inventario como parte de un proceso de recepción. Por ejemplo, tiene un código de disposición, *QA*, que establece el estado del inventario en *QA*. Luego, puede tener una directiva de ubicación separada para mover ese inventario a una ubicación de cuarentena.
+- **Código de disposición** - Este campo se utiliza para las directivas de ubicación que tienen un tipo de orden de trabajo de *Órdenes de compra*, *Almacenamiento de productos terminados* o *Órdenes de devolución*, y un tipo de trabajo de *Ubicación*. Úselo para guiar el flujo para usar una directiva de ubicación específica, según el código de disposición que seleccionó un trabajador en la aplicación móvil Warehouse Management. Por ejemplo, puede dirigir los productos devueltos a una ubicación de inspección antes de que se devuelvan al stock. Un código de disposición se puede vincular a un estado de inventario. De esta forma, se puede utilizar para cambiar el estado del inventario como parte de un proceso de recepción. Por ejemplo, tiene un código de disposición, *QA*, que establece el estado del inventario en *QA*. Luego, puede tener una directiva de ubicación separada para mover ese inventario a una ubicación de cuarentena.
 
     > [!NOTE]
     > Este campo está disponible solo para tipos de órdenes de trabajo seleccionados donde se permite el reabastecimiento. Para obtener una lista completa, consulte la sección [Campos que son específicos de los tipos de órdenes de trabajo](#fields-specific-types).

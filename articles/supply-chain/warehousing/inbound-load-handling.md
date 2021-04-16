@@ -2,11 +2,9 @@
 title: Manejo de almacén de cargas entrantes para pedidos de compra
 description: Este tema describe el proceso de manejo de almacén para cargas entrantes para pedidos de compra.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235349"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835639"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
@@ -66,7 +64,7 @@ Cuando una carga entrante llega por primera vez al almacén, los trabajadores de
 
 - **Un menú de dispositivo móvil que está configurado para admitir la recepción de carga**
 
-    La [aplicación de almacén](install-configure-warehousing-app.md) para dispositivos móviles es compatible con los siguientes procesos de creación de trabajo:
+    La [aplicación móvil Warehouse Management](../warehousing/install-configure-warehouse-management-app.md) para dispositivos móviles es compatible con los siguientes procesos de creación de trabajo:
 
     - Recepción de artículo de carga
     - Recepción de artículo de carga y ubicación
@@ -285,7 +283,7 @@ Para trabajar en estos escenarios mediante el uso de los registros y valores de 
 
 Antes de que los empleados de recepción del almacén puedan usar un dispositivo móvil para registrar el inventario entrante que está vinculado a una carga, debe crear un elemento de menú del dispositivo móvil para ese propósito.
 
-En esta sección, creará un elemento de menú del dispositivo móvil y lo agregará a un menú existente. Un trabajador de almacén puede seleccionar el elemento del menú en la aplicación de almacén.
+En esta sección, creará un elemento de menú del dispositivo móvil y lo agregará a un menú existente. Un trabajador de almacén puede seleccionar el elemento del menú en la aplicación móvil Warehouse Management.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Dispositivo móvil \> Elementos del menú del dispositivo móvil** y asegúrese de que el menú de su dispositivo móvil incluya un elemento de menú que tenga la siguiente configuración:
 

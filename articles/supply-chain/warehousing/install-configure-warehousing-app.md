@@ -2,11 +2,9 @@
 title: Instalar y conectar la aplicación de almacén
 description: Este tema explica cómo instalar la aplicación de almacén en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486986"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835584"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar y conectar la aplicación de almacén
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Este tema describe cómo configurar la antigua aplicación de almacén. Si busca información sobre cómo configurar la nueva aplicación móvil Warehouse Management, consulte [Instalar y conectar la aplicación móvil Warehouse Management](install-configure-warehouse-management-app.md).
+> Este tema describe cómo configurar la aplicación de almacén anterior (que ahora está en desuso). Si busca información sobre cómo configurar la nueva aplicación móvil Warehouse Management, consulte [Instalar y conectar la aplicación móvil Warehouse Management](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > Este tema describe cómo configurar la aplicación de almacén para implementaciones en la nube. Si busca información sobre cómo configurar la aplicación de almacén para implementaciones locales, consulte [Almacenamiento para implementaciones locales](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

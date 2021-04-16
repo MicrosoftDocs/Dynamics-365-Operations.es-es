@@ -2,11 +2,9 @@
 title: Plantillas de proveedor para miembros de dimensiones estadísticas y proveedores de medidas
 description: Este tema proporciona información acerca de miembros de dimensión estadística y plantillas de proveedor de medidas estadísticas. Los miembros de dimensión estadística se pueden usar como base de asignación en directivas como la distribución de costes y la asignación de costes. También se pueden usar para notificar el consumo no monetario del coste.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 330b7dfd3937d0d7c4a394b55972d75e876aea17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208832"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833075"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Plantillas de proveedor para miembros de dimensiones estadísticas y proveedores de medidas
 
@@ -162,7 +160,7 @@ Una vez se hayan procesado los datos de origen de la medida estadística, las en
 
 **Entradas estadísticas**
 
-| Objeto de coste |    | Fecha contable | Miembro de dimensión estadística |  Descripción        | Magnitud |
+| Objeto de coste |  Descripción  | Fecha contable | Miembro de dimensión estadística |  Descripción        | Magnitud |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | RR. HH. | 31/1/17      | EJC                         | Empleados a jornada completa | 1,00      |
 | CC002       | FI | 31/1/17      | EJC                         | Empleados a jornada completa | 2.00      |
@@ -328,7 +326,7 @@ Vaya a **Libro mayor de contabilidad de costes** \> **Versión real** \> **Gesti
 
 **Entradas estadísticas**
 
-| Objeto de coste |    | Fecha contable | Miembro de dimensión estadística |      Descripción                   | Magnitud  |
+| Objeto de coste | Descripción | Fecha contable | Miembro de dimensión estadística |      Descripción                   | Magnitud  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | RR. HH. | 31/1/17      | Electricidad                  | Consumo de electricidad | 2,450.00   |
 | CC002       | FI | 31/1/17      | Electricidad                  | Consumo de electricidad | 4,100.00   |
@@ -336,11 +334,11 @@ Vaya a **Libro mayor de contabilidad de costes** \> **Versión real** \> **Gesti
 
 Si la base de asignación del miembro de dimensión predefinida de electricidad se asigna como base de asignación en una regla de distribución de costes, el coste se distribuirá mediante el siguiente factor de asignación.
 
-| Objeto de coste |    | Magnitud | Factor de asignación          |
-|-------------|----|-----------|----------------------------|
-| CC001       | RR. HH. | 2,450.00  | (2450 ÷ 21 550) × Importe  |
-| CC002       | FI | 4,100.00  | (4100 ÷ 21 550) × Importe  |
-| CC003       | TI | 15.000,00 | (15 000 ÷ 21 550) × Importe |
+| Objeto de coste | Descripción   | Magnitud | Factor de asignación          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | RR. HH.            | 2,450.00  | (2450 ÷ 21 550) × Importe  |
+| CC002       | FI            | 4,100.00  | (4100 ÷ 21 550) × Importe  |
+| CC003       | TI            | 15.000,00 | (15 000 ÷ 21 550) × Importe |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
