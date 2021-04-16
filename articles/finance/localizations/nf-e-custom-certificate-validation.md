@@ -2,11 +2,9 @@
 title: Validación de certificados personalizados NF-e
 description: Este tema proporciona información sobre cómo habilitar y usar el certificado personalizado NF-e.
 author: gionoder
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,22 +15,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3efa05f49748f6bbff680f322a77cec24da46c0c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 895513f51798a797ebf59f8a5be4f5cde006726d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240588"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813977"
 ---
-# <a name="nf-e-custom-certificate-validation"></a><span data-ttu-id="6c990-103">Validación de certificados personalizados NF-e</span><span class="sxs-lookup"><span data-stu-id="6c990-103">NF-e custom certificate validation</span></span>
+# <a name="nf-e-custom-certificate-validation"></a><span data-ttu-id="805e4-103">Validación de certificados personalizados NF-e</span><span class="sxs-lookup"><span data-stu-id="805e4-103">NF-e custom certificate validation</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6c990-104">Cuando activa la función de verificación de certificado personalizado NF-e, la validación personalizada permite una conexión con los servicios web.</span><span class="sxs-lookup"><span data-stu-id="6c990-104">When you turn the NF-e custom certificate verification feature, custom validation allows a connection with the web services.</span></span> <span data-ttu-id="6c990-105">Esta conexión es necesaria para transmitir NF-e y recibir autorización de SEFAZ.</span><span class="sxs-lookup"><span data-stu-id="6c990-105">This connection is required to transmit NF-e and receive authorization from SEFAZ.</span></span>
+<span data-ttu-id="805e4-104">Cuando activa la función de verificación de certificado personalizado NF-e, la validación personalizada permite una conexión con los servicios web.</span><span class="sxs-lookup"><span data-stu-id="805e4-104">When you turn the NF-e custom certificate verification feature, custom validation allows a connection with the web services.</span></span> <span data-ttu-id="805e4-105">Esta conexión es necesaria para transmitir NF-e y recibir autorización de SEFAZ.</span><span class="sxs-lookup"><span data-stu-id="805e4-105">This connection is required to transmit NF-e and receive authorization from SEFAZ.</span></span>
 
-<span data-ttu-id="6c990-106">La propiedad **Propósito de autenticación del servidor** del certificado V5 es emitida por la Autoridad de Certificación Raíz de Brasil.</span><span class="sxs-lookup"><span data-stu-id="6c990-106">The **Server authentication purpose** property from the certificate V5 is issued by the Brazilian Root Certificate Authority.</span></span> <span data-ttu-id="6c990-107">Esta propiedad está desactivada de forma predeterminada y debe habilitarse manualmente.</span><span class="sxs-lookup"><span data-stu-id="6c990-107">This property is turned off by default and must be manually enabled.</span></span> <span data-ttu-id="6c990-108">En algunas circunstancias, la actualización automática del certificado puede cambiar esta propiedad para que ya no esté habilitada.</span><span class="sxs-lookup"><span data-stu-id="6c990-108">In some circumstances, the automatic certificate update can switch this property to no longer be enabled.</span></span> <span data-ttu-id="6c990-109">Si esto sucede, la conexión TLS se ve afectada y ya no es de confianza.</span><span class="sxs-lookup"><span data-stu-id="6c990-109">If this happens, the TLS connection is affected and is no longer trusted.</span></span> <span data-ttu-id="6c990-110">La capacidad de emitir NF-e en entornos de producción para los estados de Minas Gerais (MG) y Paraná (PR) también se ve afectada.</span><span class="sxs-lookup"><span data-stu-id="6c990-110">The ability to issue NF-e on production environments for states of Minas Gerais (MG) and Paraná (PR) states is also impacted.</span></span>
+<span data-ttu-id="805e4-106">La propiedad **Propósito de autenticación del servidor** del certificado V5 es emitida por la Autoridad de Certificación Raíz de Brasil.</span><span class="sxs-lookup"><span data-stu-id="805e4-106">The **Server authentication purpose** property from the certificate V5 is issued by the Brazilian Root Certificate Authority.</span></span> <span data-ttu-id="805e4-107">Esta propiedad está desactivada de forma predeterminada y debe habilitarse manualmente.</span><span class="sxs-lookup"><span data-stu-id="805e4-107">This property is turned off by default and must be manually enabled.</span></span> <span data-ttu-id="805e4-108">En algunas circunstancias, la actualización automática del certificado puede cambiar esta propiedad para que ya no esté habilitada.</span><span class="sxs-lookup"><span data-stu-id="805e4-108">In some circumstances, the automatic certificate update can switch this property to no longer be enabled.</span></span> <span data-ttu-id="805e4-109">Si esto sucede, la conexión TLS se ve afectada y ya no es de confianza.</span><span class="sxs-lookup"><span data-stu-id="805e4-109">If this happens, the TLS connection is affected and is no longer trusted.</span></span> <span data-ttu-id="805e4-110">La capacidad de emitir NF-e en entornos de producción para los estados de Minas Gerais (MG) y Paraná (PR) también se ve afectada.</span><span class="sxs-lookup"><span data-stu-id="805e4-110">The ability to issue NF-e on production environments for states of Minas Gerais (MG) and Paraná (PR) states is also impacted.</span></span>
 
-<span data-ttu-id="6c990-111">Esta actualización permite una solución alternativa para la validación de certificados, lo que significa que es posible establecer una comunicación segura.</span><span class="sxs-lookup"><span data-stu-id="6c990-111">This update allows for an alternative solution for certificate validation, which means that it’s possible to establish a secure communication.</span></span>
+<span data-ttu-id="805e4-111">Esta actualización permite una solución alternativa para la validación de certificados, lo que significa que es posible establecer una comunicación segura.</span><span class="sxs-lookup"><span data-stu-id="805e4-111">This update allows for an alternative solution for certificate validation, which means that it’s possible to establish a secure communication.</span></span>
 
 
 

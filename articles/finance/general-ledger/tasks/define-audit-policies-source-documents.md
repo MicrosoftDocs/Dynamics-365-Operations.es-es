@@ -2,11 +2,9 @@
 title: Definir directivas de auditoría para documentos de origen
 description: En este tema se explica cómo configurar y ejecutar las reglas de directivas de auditoría.
 author: panolte
-manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
@@ -15,77 +13,77 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 545ed1ee9faea8aac9a39e5812e815c85e2dd9a8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62ebe3d6ba1208bd5f9a2082969b1960c413c152
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240795"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836970"
 ---
-# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="22ce9-103">Definir directivas de auditoría para documentos de origen</span><span class="sxs-lookup"><span data-stu-id="22ce9-103">Define audit policies for source documents</span></span>
+# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="07947-103">Definir directivas de auditoría para documentos de origen</span><span class="sxs-lookup"><span data-stu-id="07947-103">Define audit policies for source documents</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="22ce9-104">En este tema se explica cómo configurar y ejecutar las reglas de directivas de auditoría.</span><span class="sxs-lookup"><span data-stu-id="22ce9-104">This topic explains how to set up and run audit policy rules.</span></span> <span data-ttu-id="22ce9-105">En el ejemplo se usan informes de gastos con el tipo de gastos de hotel.</span><span class="sxs-lookup"><span data-stu-id="22ce9-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="22ce9-106">Este procedimiento usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="22ce9-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="22ce9-107">El rol de auditor contiene los permisos correctos para llevar a cabo estas tareas.</span><span class="sxs-lookup"><span data-stu-id="22ce9-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
+<span data-ttu-id="07947-104">En este tema se explica cómo configurar y ejecutar las reglas de directivas de auditoría.</span><span class="sxs-lookup"><span data-stu-id="07947-104">This topic explains how to set up and run audit policy rules.</span></span> <span data-ttu-id="07947-105">En el ejemplo se usan informes de gastos con el tipo de gastos de hotel.</span><span class="sxs-lookup"><span data-stu-id="07947-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="07947-106">Este procedimiento usa la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="07947-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="07947-107">El rol de auditor contiene los permisos correctos para llevar a cabo estas tareas.</span><span class="sxs-lookup"><span data-stu-id="07947-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
 
-1. <span data-ttu-id="22ce9-108">En el panel de exploración, vaya a **Módulos > Área de trabajo de auditoría > Configuración > Tipo de regla de directivas**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-108">In the navigation pane, go to **Modules > Audit workbench > Setup > Policy rule type**.</span></span>
-2. <span data-ttu-id="22ce9-109">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-109">Select **New**.</span></span>
-3. <span data-ttu-id="22ce9-110">En el campo **Nombre de regla**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="22ce9-110">In the **Rule name** field, type a value.</span></span>
-4. <span data-ttu-id="22ce9-111">En el campo **Descripción**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="22ce9-111">In the **Description** field, type a value.</span></span>
-5. <span data-ttu-id="22ce9-112">En el campo **Nombre de la consulta**, seleccione **Línea de informe de gastos**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-112">In the **Query name** field, select **Expense report line**</span></span>
-6. <span data-ttu-id="22ce9-113">En el campo **Tipo de consulta**, seleccione **Agregado**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-113">In the **query type** field, select **Aggregate**</span></span>
-7. <span data-ttu-id="22ce9-114">En el campo **Entidad jurídica**, seleccione **Entidad jurídica**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-114">In the **Legal entity** field, select **Legal entity**</span></span>
-8. <span data-ttu-id="22ce9-115">En el campo **Referencia de fecha de documento**, seleccione **Fecha y hora de modificación**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-115">In the **Document date reference** field, select **Modified date and time**</span></span>
-9. <span data-ttu-id="22ce9-116">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-116">Select **Save**.</span></span>
-10. <span data-ttu-id="22ce9-117">En el panel de exploración, vaya a **Módulos > Área de trabajo de auditoría > Configuración > Directivas de auditoría**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-117">In the navigation pane, go to **Modules > Audit workbench > Setup > Audit policies**.</span></span>
-11. <span data-ttu-id="22ce9-118">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-118">Select **New**.</span></span>
-12. <span data-ttu-id="22ce9-119">En el campo **Nombre**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="22ce9-119">In the **Name** field, type a value.</span></span>
-13. <span data-ttu-id="22ce9-120">Expanda la sección **Organizaciones de directivas**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-120">Expand the **Policy organizations** section.</span></span>
-14. <span data-ttu-id="22ce9-121">En el árbol, seleccione **Contoso Entertainment System USA** y, después, **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-121">In the tree, select **Contoso Entertainment System USA**, then select **Add**.</span></span>
-15. <span data-ttu-id="22ce9-122">En el árbol, seleccione **Contoso Consulting USA** y, después, **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-122">In the tree, select **Contoso Consulting USA**, then select **Add**.</span></span>
-16. <span data-ttu-id="22ce9-123">En el árbol, seleccione **Contoso Retail USA** y, después, **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-123">In the tree, select **Contoso Retail USA**, then select **Add**.</span></span>
-17. <span data-ttu-id="22ce9-124">Contraiga la sección **Organizaciones de directivas**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-124">Collapse the **Policy organizations** section.</span></span>
-18. <span data-ttu-id="22ce9-125">Expanda la sección **Reglas de directivas**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-125">Expand the **Policy rules** section.</span></span>
-19. <span data-ttu-id="22ce9-126">En la lista, busque y seleccione la regla de directivas que creó anteriormente.</span><span class="sxs-lookup"><span data-stu-id="22ce9-126">In the list, find and select the Policy Rule that was created previously.</span></span>
-20. <span data-ttu-id="22ce9-127">Seleccione **Crear regla de directivas**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-127">Select **Create policy rule**.</span></span>
-21. <span data-ttu-id="22ce9-128">En el campo **Fecha de vigencia**, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="22ce9-128">In the **Effective date** field, enter a date and time.</span></span>
-22. <span data-ttu-id="22ce9-129">Seleccione **Filtro**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-129">Select **Filter**.</span></span>
-23. <span data-ttu-id="22ce9-130">En la lista, seleccione la fila para **Categoría de gastos** y establezca los detalles en **Hotel**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-130">In the list, select the row for **Expense category**, and set the details to **Hotel**.</span></span>
-24. <span data-ttu-id="22ce9-131">En el campo **Criterios**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="22ce9-131">In the **Criteria** field, enter or select a value.</span></span>
-25. <span data-ttu-id="22ce9-132">Seleccione la pestaña **Agregado**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-132">Select the **Aggregate** tab.</span></span>
-26. <span data-ttu-id="22ce9-133">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-133">Select **Add**.</span></span>
-27. <span data-ttu-id="22ce9-134">En la lista, seleccione un valor de campo de **Importe de la transacción**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-134">In the list, select a field value of **Transaction amount**.</span></span>
-28. <span data-ttu-id="22ce9-135">En el campo **Campo**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="22ce9-135">In the **Field** field, enter or select a value.</span></span>
-29. <span data-ttu-id="22ce9-136">En el campo de **AggregateFunction**, seleccione **Suma**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-136">In the **AggregateFunction** field, select **Sum**.</span></span>
-30. <span data-ttu-id="22ce9-137">Seleccione la ficha **Agrupar por**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-137">Select the **Group by** tab.</span></span>
-31. <span data-ttu-id="22ce9-138">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-138">Select **Add**.</span></span>
-32. <span data-ttu-id="22ce9-139">En la lista, seleccione un valor de **Empleado**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-139">In the list, select a value of **Employee** .</span></span>
-33. <span data-ttu-id="22ce9-140">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-140">Select **Add**.</span></span>
-34. <span data-ttu-id="22ce9-141">En la lista, seleccione un valor de **Categoría de gastos**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-141">In the list, select a value of **Expense category**.</span></span>
-35. <span data-ttu-id="22ce9-142">En el campo **Campo**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="22ce9-142">In the **Field** field, enter or select a value.</span></span>
-36. <span data-ttu-id="22ce9-143">Seleccione la pestaña **Tiene**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-143">Select the **Having** tab.</span></span>
-37. <span data-ttu-id="22ce9-144">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-144">Select **Add**.</span></span>
-38. <span data-ttu-id="22ce9-145">Seleccione **Importe de transacción**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-145">Select **Transaction amount**.</span></span>
-39. <span data-ttu-id="22ce9-146">En el campo **Campo**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="22ce9-146">In the **Field** field, enter or select a value.</span></span>
-40. <span data-ttu-id="22ce9-147">En el campo de **AggregateFunction**, seleccione **Suma**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-147">In the **AggregateFunction** field, select **Sum**.</span></span>
-41. <span data-ttu-id="22ce9-148">En el campo **Criterios**, escriba `>2000`.</span><span class="sxs-lookup"><span data-stu-id="22ce9-148">In the **Criteria** field, type `>2000`.</span></span>
-42. <span data-ttu-id="22ce9-149">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-149">Select **OK**.</span></span>
-43. <span data-ttu-id="22ce9-150">Seleccione **Prueba**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-150">Select **Test**.</span></span>
-44. <span data-ttu-id="22ce9-151">En el campo **Fecha inicial de selección de documentos**, especifique una fecha y hora.</span><span class="sxs-lookup"><span data-stu-id="22ce9-151">In the **Document selection starting date** field, enter a date and time.</span></span>
-45. <span data-ttu-id="22ce9-152">En el campo **Fecha final de selección de documentos**, especifique una fecha y hora.</span><span class="sxs-lookup"><span data-stu-id="22ce9-152">In the **Document selection ending date** field, enter a date and time.</span></span>
-46. <span data-ttu-id="22ce9-153">Seleccione **Ejecutar prueba**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-153">Select **Run test**.</span></span>
-47. <span data-ttu-id="22ce9-154">En el panel de acciones, seleccione **Directiva de auditoría**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-154">On the Action Pane, select **Audit policy**.</span></span>
-48. <span data-ttu-id="22ce9-155">Seleccione **Opciones adicionales**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-155">Select **Additional options**.</span></span>
-49. <span data-ttu-id="22ce9-156">En el campo **Fecha inicial**, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="22ce9-156">In the **Starting date** field, enter a date and time.</span></span>
-50. <span data-ttu-id="22ce9-157">En el campo **Fecha de finalización**, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="22ce9-157">In the **Ending date** field, enter a date and time.</span></span>
-51. <span data-ttu-id="22ce9-158">Seleccione **Lote**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-158">Select **Batch**.</span></span>
-52. <span data-ttu-id="22ce9-159">Expanda la sección **Ejecutar en segundo plano**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-159">Expand the **Run in the background** section.</span></span>
-53. <span data-ttu-id="22ce9-160">Seleccione **Sí** en el campo **Procesamiento por lotes**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-160">Select **Yes** in the **Batch processing** field.</span></span>
-54. <span data-ttu-id="22ce9-161">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-161">Select **OK**.</span></span>
-55. <span data-ttu-id="22ce9-162">En el panel de exploración, vaya a **Módulos > Área de trabajo de auditoría > Configuración > Casos de auditoría**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-162">In the navigation pane, go to **Modules > Audit workbench > Audit cases**.</span></span>
-56. <span data-ttu-id="22ce9-163">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="22ce9-163">In the list, find and select the desired record.</span></span>
-57. <span data-ttu-id="22ce9-164">Expanda la sección **Asociaciones**.</span><span class="sxs-lookup"><span data-stu-id="22ce9-164">Expand the **Associations** section.</span></span>
-58. <span data-ttu-id="22ce9-165">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="22ce9-165">In the list, find and select the desired record.</span></span>
+1. <span data-ttu-id="07947-108">En el panel de exploración, vaya a **Módulos > Área de trabajo de auditoría > Configuración > Tipo de regla de directivas**.</span><span class="sxs-lookup"><span data-stu-id="07947-108">In the navigation pane, go to **Modules > Audit workbench > Setup > Policy rule type**.</span></span>
+2. <span data-ttu-id="07947-109">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="07947-109">Select **New**.</span></span>
+3. <span data-ttu-id="07947-110">En el campo **Nombre de regla**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="07947-110">In the **Rule name** field, type a value.</span></span>
+4. <span data-ttu-id="07947-111">En el campo **Descripción**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="07947-111">In the **Description** field, type a value.</span></span>
+5. <span data-ttu-id="07947-112">En el campo **Nombre de la consulta**, seleccione **Línea de informe de gastos**.</span><span class="sxs-lookup"><span data-stu-id="07947-112">In the **Query name** field, select **Expense report line**</span></span>
+6. <span data-ttu-id="07947-113">En el campo **Tipo de consulta**, seleccione **Agregado**.</span><span class="sxs-lookup"><span data-stu-id="07947-113">In the **query type** field, select **Aggregate**</span></span>
+7. <span data-ttu-id="07947-114">En el campo **Entidad jurídica**, seleccione **Entidad jurídica**.</span><span class="sxs-lookup"><span data-stu-id="07947-114">In the **Legal entity** field, select **Legal entity**</span></span>
+8. <span data-ttu-id="07947-115">En el campo **Referencia de fecha de documento**, seleccione **Fecha y hora de modificación**.</span><span class="sxs-lookup"><span data-stu-id="07947-115">In the **Document date reference** field, select **Modified date and time**</span></span>
+9. <span data-ttu-id="07947-116">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="07947-116">Select **Save**.</span></span>
+10. <span data-ttu-id="07947-117">En el panel de exploración, vaya a **Módulos > Área de trabajo de auditoría > Configuración > Directivas de auditoría**.</span><span class="sxs-lookup"><span data-stu-id="07947-117">In the navigation pane, go to **Modules > Audit workbench > Setup > Audit policies**.</span></span>
+11. <span data-ttu-id="07947-118">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="07947-118">Select **New**.</span></span>
+12. <span data-ttu-id="07947-119">En el campo **Nombre**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="07947-119">In the **Name** field, type a value.</span></span>
+13. <span data-ttu-id="07947-120">Expanda la sección **Organizaciones de directivas**.</span><span class="sxs-lookup"><span data-stu-id="07947-120">Expand the **Policy organizations** section.</span></span>
+14. <span data-ttu-id="07947-121">En el árbol, seleccione **Contoso Entertainment System USA** y, después, **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="07947-121">In the tree, select **Contoso Entertainment System USA**, then select **Add**.</span></span>
+15. <span data-ttu-id="07947-122">En el árbol, seleccione **Contoso Consulting USA** y, después, **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="07947-122">In the tree, select **Contoso Consulting USA**, then select **Add**.</span></span>
+16. <span data-ttu-id="07947-123">En el árbol, seleccione **Contoso Retail USA** y, después, **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="07947-123">In the tree, select **Contoso Retail USA**, then select **Add**.</span></span>
+17. <span data-ttu-id="07947-124">Contraiga la sección **Organizaciones de directivas**.</span><span class="sxs-lookup"><span data-stu-id="07947-124">Collapse the **Policy organizations** section.</span></span>
+18. <span data-ttu-id="07947-125">Expanda la sección **Reglas de directivas**.</span><span class="sxs-lookup"><span data-stu-id="07947-125">Expand the **Policy rules** section.</span></span>
+19. <span data-ttu-id="07947-126">En la lista, busque y seleccione la regla de directivas que creó anteriormente.</span><span class="sxs-lookup"><span data-stu-id="07947-126">In the list, find and select the Policy Rule that was created previously.</span></span>
+20. <span data-ttu-id="07947-127">Seleccione **Crear regla de directivas**.</span><span class="sxs-lookup"><span data-stu-id="07947-127">Select **Create policy rule**.</span></span>
+21. <span data-ttu-id="07947-128">En el campo **Fecha de vigencia**, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="07947-128">In the **Effective date** field, enter a date and time.</span></span>
+22. <span data-ttu-id="07947-129">Seleccione **Filtro**.</span><span class="sxs-lookup"><span data-stu-id="07947-129">Select **Filter**.</span></span>
+23. <span data-ttu-id="07947-130">En la lista, seleccione la fila para **Categoría de gastos** y establezca los detalles en **Hotel**.</span><span class="sxs-lookup"><span data-stu-id="07947-130">In the list, select the row for **Expense category**, and set the details to **Hotel**.</span></span>
+24. <span data-ttu-id="07947-131">En el campo **Criterios**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="07947-131">In the **Criteria** field, enter or select a value.</span></span>
+25. <span data-ttu-id="07947-132">Seleccione la pestaña **Agregado**.</span><span class="sxs-lookup"><span data-stu-id="07947-132">Select the **Aggregate** tab.</span></span>
+26. <span data-ttu-id="07947-133">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="07947-133">Select **Add**.</span></span>
+27. <span data-ttu-id="07947-134">En la lista, seleccione un valor de campo de **Importe de la transacción**.</span><span class="sxs-lookup"><span data-stu-id="07947-134">In the list, select a field value of **Transaction amount**.</span></span>
+28. <span data-ttu-id="07947-135">En el campo **Campo**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="07947-135">In the **Field** field, enter or select a value.</span></span>
+29. <span data-ttu-id="07947-136">En el campo de **AggregateFunction**, seleccione **Suma**.</span><span class="sxs-lookup"><span data-stu-id="07947-136">In the **AggregateFunction** field, select **Sum**.</span></span>
+30. <span data-ttu-id="07947-137">Seleccione la ficha **Agrupar por**.</span><span class="sxs-lookup"><span data-stu-id="07947-137">Select the **Group by** tab.</span></span>
+31. <span data-ttu-id="07947-138">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="07947-138">Select **Add**.</span></span>
+32. <span data-ttu-id="07947-139">En la lista, seleccione un valor de **Empleado**.</span><span class="sxs-lookup"><span data-stu-id="07947-139">In the list, select a value of **Employee** .</span></span>
+33. <span data-ttu-id="07947-140">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="07947-140">Select **Add**.</span></span>
+34. <span data-ttu-id="07947-141">En la lista, seleccione un valor de **Categoría de gastos**.</span><span class="sxs-lookup"><span data-stu-id="07947-141">In the list, select a value of **Expense category**.</span></span>
+35. <span data-ttu-id="07947-142">En el campo **Campo**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="07947-142">In the **Field** field, enter or select a value.</span></span>
+36. <span data-ttu-id="07947-143">Seleccione la pestaña **Tiene**.</span><span class="sxs-lookup"><span data-stu-id="07947-143">Select the **Having** tab.</span></span>
+37. <span data-ttu-id="07947-144">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="07947-144">Select **Add**.</span></span>
+38. <span data-ttu-id="07947-145">Seleccione **Importe de transacción**.</span><span class="sxs-lookup"><span data-stu-id="07947-145">Select **Transaction amount**.</span></span>
+39. <span data-ttu-id="07947-146">En el campo **Campo**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="07947-146">In the **Field** field, enter or select a value.</span></span>
+40. <span data-ttu-id="07947-147">En el campo de **AggregateFunction**, seleccione **Suma**.</span><span class="sxs-lookup"><span data-stu-id="07947-147">In the **AggregateFunction** field, select **Sum**.</span></span>
+41. <span data-ttu-id="07947-148">En el campo **Criterios**, escriba `>2000`.</span><span class="sxs-lookup"><span data-stu-id="07947-148">In the **Criteria** field, type `>2000`.</span></span>
+42. <span data-ttu-id="07947-149">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="07947-149">Select **OK**.</span></span>
+43. <span data-ttu-id="07947-150">Seleccione **Prueba**.</span><span class="sxs-lookup"><span data-stu-id="07947-150">Select **Test**.</span></span>
+44. <span data-ttu-id="07947-151">En el campo **Fecha inicial de selección de documentos**, especifique una fecha y hora.</span><span class="sxs-lookup"><span data-stu-id="07947-151">In the **Document selection starting date** field, enter a date and time.</span></span>
+45. <span data-ttu-id="07947-152">En el campo **Fecha final de selección de documentos**, especifique una fecha y hora.</span><span class="sxs-lookup"><span data-stu-id="07947-152">In the **Document selection ending date** field, enter a date and time.</span></span>
+46. <span data-ttu-id="07947-153">Seleccione **Ejecutar prueba**.</span><span class="sxs-lookup"><span data-stu-id="07947-153">Select **Run test**.</span></span>
+47. <span data-ttu-id="07947-154">En el panel de acciones, seleccione **Directiva de auditoría**.</span><span class="sxs-lookup"><span data-stu-id="07947-154">On the Action Pane, select **Audit policy**.</span></span>
+48. <span data-ttu-id="07947-155">Seleccione **Opciones adicionales**.</span><span class="sxs-lookup"><span data-stu-id="07947-155">Select **Additional options**.</span></span>
+49. <span data-ttu-id="07947-156">En el campo **Fecha inicial**, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="07947-156">In the **Starting date** field, enter a date and time.</span></span>
+50. <span data-ttu-id="07947-157">En el campo **Fecha de finalización**, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="07947-157">In the **Ending date** field, enter a date and time.</span></span>
+51. <span data-ttu-id="07947-158">Seleccione **Lote**.</span><span class="sxs-lookup"><span data-stu-id="07947-158">Select **Batch**.</span></span>
+52. <span data-ttu-id="07947-159">Expanda la sección **Ejecutar en segundo plano**.</span><span class="sxs-lookup"><span data-stu-id="07947-159">Expand the **Run in the background** section.</span></span>
+53. <span data-ttu-id="07947-160">Seleccione **Sí** en el campo **Procesamiento por lotes**.</span><span class="sxs-lookup"><span data-stu-id="07947-160">Select **Yes** in the **Batch processing** field.</span></span>
+54. <span data-ttu-id="07947-161">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="07947-161">Select **OK**.</span></span>
+55. <span data-ttu-id="07947-162">En el panel de exploración, vaya a **Módulos > Área de trabajo de auditoría > Configuración > Casos de auditoría**.</span><span class="sxs-lookup"><span data-stu-id="07947-162">In the navigation pane, go to **Modules > Audit workbench > Audit cases**.</span></span>
+56. <span data-ttu-id="07947-163">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="07947-163">In the list, find and select the desired record.</span></span>
+57. <span data-ttu-id="07947-164">Expanda la sección **Asociaciones**.</span><span class="sxs-lookup"><span data-stu-id="07947-164">Expand the **Associations** section.</span></span>
+58. <span data-ttu-id="07947-165">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="07947-165">In the list, find and select the desired record.</span></span>
 
 
 

@@ -2,11 +2,9 @@
 title: Asignar trabajadores a un plan de bajas
 description: Asigne empleados y contratistas a planes de bajas en Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,49 +16,49 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0447096548a4cb6caacf146f9c9a8e968c989acf
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: bf868101d7ea749eedb1ea53bafd772c05107b0d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468116"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803618"
 ---
-# <a name="assign-workers-to-a-leave-plan"></a><span data-ttu-id="cb69a-103">Asignar trabajadores a un plan de bajas</span><span class="sxs-lookup"><span data-stu-id="cb69a-103">Assign workers to a leave plan</span></span>
+# <a name="assign-workers-to-a-leave-plan"></a><span data-ttu-id="63d32-103">Asignar trabajadores a un plan de bajas</span><span class="sxs-lookup"><span data-stu-id="63d32-103">Assign workers to a leave plan</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="cb69a-104">Una vez haya creado un plan de permisos y ausencias en Dynamics 365 Human Resources, asígnelo a los trabajadores.</span><span class="sxs-lookup"><span data-stu-id="cb69a-104">After you've created a leave and absence plan in Dynamics 365 Human Resources, assign it to workers.</span></span>
+<span data-ttu-id="63d32-104">Una vez haya creado un plan de permisos y ausencias en Dynamics 365 Human Resources, asígnelo a los trabajadores.</span><span class="sxs-lookup"><span data-stu-id="63d32-104">After you've created a leave and absence plan in Dynamics 365 Human Resources, assign it to workers.</span></span>
 
-## <a name="assign-a-plan-to-a-group-of-employees"></a><span data-ttu-id="cb69a-105">Asignar un plan a un grupo de empleados</span><span class="sxs-lookup"><span data-stu-id="cb69a-105">Assign a plan to a group of employees</span></span>
+## <a name="assign-a-plan-to-a-group-of-employees"></a><span data-ttu-id="63d32-105">Asignar un plan a un grupo de empleados</span><span class="sxs-lookup"><span data-stu-id="63d32-105">Assign a plan to a group of employees</span></span>
 
-1. <span data-ttu-id="cb69a-106">En la página **Permisos y ausencias**, seleccione el plan que desea asignar.</span><span class="sxs-lookup"><span data-stu-id="cb69a-106">On the **Leave and absence** page, select the plan you want to assign.</span></span>
+1. <span data-ttu-id="63d32-106">En la página **Permisos y ausencias**, seleccione el plan que desea asignar.</span><span class="sxs-lookup"><span data-stu-id="63d32-106">On the **Leave and absence** page, select the plan you want to assign.</span></span>
 
-2. <span data-ttu-id="cb69a-107">Seleccione **Asignar a empleados**.</span><span class="sxs-lookup"><span data-stu-id="cb69a-107">Select **Assign to employees**.</span></span>
+2. <span data-ttu-id="63d32-107">Seleccione **Asignar a empleados**.</span><span class="sxs-lookup"><span data-stu-id="63d32-107">Select **Assign to employees**.</span></span>
 
-3. <span data-ttu-id="cb69a-108">Ajuste la siguiente configuración según corresponda:</span><span class="sxs-lookup"><span data-stu-id="cb69a-108">Adjust the following settings as appropriate:</span></span>
+3. <span data-ttu-id="63d32-108">Ajuste la siguiente configuración según corresponda:</span><span class="sxs-lookup"><span data-stu-id="63d32-108">Adjust the following settings as appropriate:</span></span>
 
-   - <span data-ttu-id="cb69a-109">**Fecha de inicio de inscripción en empleo**</span><span class="sxs-lookup"><span data-stu-id="cb69a-109">**Enroll on employment start date**</span></span>
-   - <span data-ttu-id="cb69a-110">**Fecha de inscripción**</span><span class="sxs-lookup"><span data-stu-id="cb69a-110">**Enrollment date**</span></span>
-   - <span data-ttu-id="cb69a-111">**Fecha de finalización**</span><span class="sxs-lookup"><span data-stu-id="cb69a-111">**End date**</span></span>
-   - <span data-ttu-id="cb69a-112">**Base de nivel**</span><span class="sxs-lookup"><span data-stu-id="cb69a-112">**Tier basis**</span></span>
+   - <span data-ttu-id="63d32-109">**Fecha de inicio de inscripción en empleo**</span><span class="sxs-lookup"><span data-stu-id="63d32-109">**Enroll on employment start date**</span></span>
+   - <span data-ttu-id="63d32-110">**Fecha de inscripción**</span><span class="sxs-lookup"><span data-stu-id="63d32-110">**Enrollment date**</span></span>
+   - <span data-ttu-id="63d32-111">**Fecha de finalización**</span><span class="sxs-lookup"><span data-stu-id="63d32-111">**End date**</span></span>
+   - <span data-ttu-id="63d32-112">**Base de nivel**</span><span class="sxs-lookup"><span data-stu-id="63d32-112">**Tier basis**</span></span>
 
-4. <span data-ttu-id="cb69a-113">Debajo de **Trabajadores para inscribirse**, seleccione todas las obras para asignar al plan.</span><span class="sxs-lookup"><span data-stu-id="cb69a-113">Under **Workers to enroll**, select all the works to assign to the plan.</span></span>
+4. <span data-ttu-id="63d32-113">Debajo de **Trabajadores para inscribirse**, seleccione todas las obras para asignar al plan.</span><span class="sxs-lookup"><span data-stu-id="63d32-113">Under **Workers to enroll**, select all the works to assign to the plan.</span></span>
 
-5. <span data-ttu-id="cb69a-114">Seleccione **Asignar plan** en la parte inferior de la página.</span><span class="sxs-lookup"><span data-stu-id="cb69a-114">Select **Assign plan** at the bottom of the page.</span></span>
+5. <span data-ttu-id="63d32-114">Seleccione **Asignar plan** en la parte inferior de la página.</span><span class="sxs-lookup"><span data-stu-id="63d32-114">Select **Assign plan** at the bottom of the page.</span></span>
 
-## <a name="assign-a-plan-to-an-employee"></a><span data-ttu-id="cb69a-115">Asignar un plan a un empleado</span><span class="sxs-lookup"><span data-stu-id="cb69a-115">Assign a plan to an employee</span></span>
+## <a name="assign-a-plan-to-an-employee"></a><span data-ttu-id="63d32-115">Asignar un plan a un empleado</span><span class="sxs-lookup"><span data-stu-id="63d32-115">Assign a plan to an employee</span></span>
 
-1. <span data-ttu-id="cb69a-116">En el registro del empleado, seleccione **Baja**.</span><span class="sxs-lookup"><span data-stu-id="cb69a-116">On the employee's record, select **Leave**.</span></span>
+1. <span data-ttu-id="63d32-116">En el registro del empleado, seleccione **Baja**.</span><span class="sxs-lookup"><span data-stu-id="63d32-116">On the employee's record, select **Leave**.</span></span>
 
-2. <span data-ttu-id="cb69a-117">Seleccione **Bajas y ausencias**.</span><span class="sxs-lookup"><span data-stu-id="cb69a-117">Select **Leave and absence**.</span></span>
+2. <span data-ttu-id="63d32-117">Seleccione **Bajas y ausencias**.</span><span class="sxs-lookup"><span data-stu-id="63d32-117">Select **Leave and absence**.</span></span>
 
-3. <span data-ttu-id="cb69a-118">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="cb69a-118">Select **New**.</span></span>
+3. <span data-ttu-id="63d32-118">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="63d32-118">Select **New**.</span></span>
 
-4. <span data-ttu-id="cb69a-119">Introduzca una fecha de inscripción y seleccione un plan de bajas.</span><span class="sxs-lookup"><span data-stu-id="cb69a-119">Enter an enrollment date and select a leave plan.</span></span>
+4. <span data-ttu-id="63d32-119">Introduzca una fecha de inscripción y seleccione un plan de bajas.</span><span class="sxs-lookup"><span data-stu-id="63d32-119">Enter an enrollment date and select a leave plan.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="cb69a-120">Consulte también</span><span class="sxs-lookup"><span data-stu-id="cb69a-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="63d32-120">Consulte también</span><span class="sxs-lookup"><span data-stu-id="63d32-120">See also</span></span>
 
-- [<span data-ttu-id="cb69a-121">Visión general de bajas y ausencias</span><span class="sxs-lookup"><span data-stu-id="cb69a-121">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="cb69a-122">Crear un plan de permisos y ausencias</span><span class="sxs-lookup"><span data-stu-id="cb69a-122">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+- [<span data-ttu-id="63d32-121">Visión general de bajas y ausencias</span><span class="sxs-lookup"><span data-stu-id="63d32-121">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="63d32-122">Crear un plan de permisos y ausencias</span><span class="sxs-lookup"><span data-stu-id="63d32-122">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
