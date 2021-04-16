@@ -2,7 +2,6 @@
 title: Definiciones de informes en el diseñador de informes financieros
 description: Este artículo proporciona información acerca de las definiciones de informes.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 073df430892e01d4842b2af147b0ae2765b1c66a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 52322453328814b06bacefb4829bb10bf9953186
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570351"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755453"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>Definiciones de informes en el diseñador de informes financieros
 

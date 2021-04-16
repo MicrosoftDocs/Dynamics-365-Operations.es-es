@@ -2,7 +2,6 @@
 title: Inspeccionar el componente ER configurado para evitar problemas de runtime
 description: Este tema explica cómo inspeccionar los componentes de informes electrónicos (ER) configurados para evitar problemas de runtime que puedan ocurrir.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574134"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753849"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspeccionar el componente ER configurado para evitar problemas de runtime
 
@@ -666,19 +665,19 @@ La siguiente ilustración muestra el error de runtime que se produce si ignora l
 
 ![Error de runtime que ocurre durante la ejecución de asignación de formato en la página Diseñador de formato](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Resolución automática
+### <a name="automatic-resolution&quot;></a>Resolución automática
 
 No hay ninguna opción disponible para solucionar este problema automáticamente.
 
-### <a name="manual-resolution"></a>Resolución manual
+### <a name=&quot;manual-resolution&quot;></a>Resolución manual
 
-#### <a name="option-1"></a>Opción 1
+#### <a name=&quot;option-1&quot;></a>Opción 1
 
 Eliminar la etiqueta **Caché** del origen de datos **Proveedor**. El origen de datos **FilteredVendor** se volverá ejecutable, pero el origen de datos **Proveedor** al que se hace referencia en la tabla VendTable se accederá cada vez que se llame al origen de datos **FilteredVendor**.
 
-#### <a name="option-2"></a>Opción 2
+#### <a name=&quot;option-2&quot;></a>Opción 2
 
-Cambiar la expresión del origen de datos **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum="US-101")` a `WHERE(Vendor, Vendor.AccountNum="US-101")`. En este caso, el origen de datos **Proveedor** al que se referencia en la tabla VendTable se accederá solo durante la primera llamada al origen de datos **Proveedor**. Sin embargo, la selección de registros se hará en memoria. Por lo tanto, este enfoque puede provocar un rendimiento deficiente.
+Cambiar la expresión del origen de datos **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` a `WHERE(Vendor, Vendor.AccountNum="US-101")`. En este caso, el origen de datos **Proveedor** al que se referencia en la tabla VendTable se accederá solo durante la primera llamada al origen de datos **Proveedor**. Sin embargo, la selección de registros se hará en memoria. Por lo tanto, este enfoque puede provocar un rendimiento deficiente.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Falta enlace
 

@@ -2,7 +2,6 @@
 title: Función DATETODATETIME ER
 description: Este tema proporciona información general sobre cómo usar la función DATETODATETIME de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d30fdc9c7b6f277b8712b733cabdb0552db2a748
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: bb90c58544eeba804cd39542cc70fab3b840af80
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563591"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746972"
 ---
 # <a name="datetodatetime-er-function"></a>Función DATETODATETIME ER
 

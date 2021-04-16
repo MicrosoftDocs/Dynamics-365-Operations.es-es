@@ -2,7 +2,6 @@
 title: Funciones quitadas u obsoletas en Lifecycle Services (LCS)
 description: En este tema se describen las funciones que se han eliminado, o que está previsto que se eliminen, de Microsoft Dynamics Lifecycle Services (LCS).
 author: AngelMarshall
-manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b49a6f26b4c2fa895fe0e49f716ce423c3c0057
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e583ec66f24940f44113433042f5e2340cf0f52c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559094"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748448"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Funciones quitadas u obsoletas en Lifecycle Services (LCS)
 

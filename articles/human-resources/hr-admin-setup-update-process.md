@@ -2,11 +2,9 @@
 title: Actualizar proceso
 description: Microsoft Dynamics 365 Human Resources es un verdadero software como servicio (SaaS) que proporciona actualizaciones continuas y sin contacto del servicio para la aplicación y cambios de plataforma.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466841"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791542"
 ---
 # <a name="update-process"></a>Actualizar proceso
 
@@ -58,14 +56,14 @@ Cuando es necesario, Human Resources también proporciona los siguientes tipos d
 
 Las versiones se revisan, prueban y validan en un entorno interno. Después de que las compilaciones se cierran, se implementan en producción.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Liberar excepciones de cadencia en 2020
+## <a name="release-cadence-exceptions-in-2021"></a>Liberar excepciones de cadencia en 2021
 
-Para tener en cuenta los días festivos, el calendario de lanzamientos para noviembre y diciembre de 2020 es el siguiente:
+Para tener en cuenta los días festivos, el calendario de lanzamientos para noviembre y diciembre de 2021 es el siguiente:
 
-- Lanzamiento de noviembre: 2 de noviembre - 13 de noviembre
-- Lanzamiento de diciembre: 30 de noviembre - 11 de diciembre
+- Lanzamiento de noviembre: 1 de noviembre - 14 de noviembre
+- Lanzamiento de diciembre: 29 de noviembre - 12 de diciembre
  
-La cadencia de lanzamiento de dos semanas se reanudará como de costumbre el 11 de enero de 2021.
+La cadencia de lanzamiento de dos semanas se reanudará como de costumbre el 10 de enero de 2022.
 
 ## <a name="communications"></a>Comunicaciones
 

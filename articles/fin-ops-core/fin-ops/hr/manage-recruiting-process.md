@@ -1,8 +1,7 @@
 ---
 title: Gestión de procesos de contratación
-description: Este artículo describe un concepto que permite a los empleadores hacer un seguimiento de los pasos de un proceso de contratación, incluidas las tareas para publicitar vacantes y contratar candidatos, hacer un seguimiento de la información del candidato y de la solicitud, entrevistar a candidatos y seleccionar uno o varios candidatos para cubrir vacantes en su organización.
+description: Este artículo describe un concepto que los reclutadores pueden usar para realizar un seguimiento de los pasos de un proceso de reclutamiento.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,14 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b08f8837f4c3ffaa17ed740c2659cd8eb311a808
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 74ff8b081f5c82a089eef47b5cc18bc498a34c21
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560862"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752087"
 ---
-# <a name="manage-recruiting-processes"></a>Gestión de procesos de contratación
+# <a name="manage-recruiting-processes"></a>Gestionar procesos de contratación
 
 [!include [banner](../includes/banner.md)]
 

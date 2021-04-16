@@ -2,7 +2,6 @@
 title: Función COUNT ER
 description: Este tema proporciona información general sobre cómo usar la función COUNT de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36347d928148e85bc9295d529cbf2801946433a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a0b780051684ef52d06a9baf78d9b513d9ac1f0e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567901"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746636"
 ---
 # <a name="count-er-function"></a>Función COUNT ER
 

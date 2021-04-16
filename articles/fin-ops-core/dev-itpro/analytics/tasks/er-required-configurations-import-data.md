@@ -2,8 +2,7 @@
 title: ER Crear las configuraciones requeridas para importar datos desde un archivo externo
 description: Este tema describe cómo diseñar configuraciones de informes electrónicos para importar datos a la aplicación Microsoft Dynamics 365 Finance desde un archivo externo.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b8a94173c7c5367b79bfcb354f0397515d94445
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2194bdc918035bf3aebe9b90ddc8a30f9937bb0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564299"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751471"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Crear las configuraciones requeridas para importar datos desde un archivo externo
 
 [!include [banner](../../includes/banner.md)]
 
-En los siguientes pasos se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede diseñar configuraciones de informes electrónicos (ER) para importar datos en la aplicación desde un archivo externo. En este ejemplo, creará las configuraciones necesarias de ER para la empresa del ejemplo, Litware, Inc. Para completar estos pasos, primero debe completar los pasos en la guía de la tarea, "ER crea un proveedor de la configuración y marcarlo como activo". Estos pasos se pueden completar mediante el conjunto de datos de USMF. También debe descargar y guardar los archivos siguientes localmente mediante vínculos desde el tema Visión general de los informes electrónicos (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+En los siguientes pasos se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede diseñar configuraciones de informes electrónicos (ER) para importar datos en la aplicación desde un archivo externo. En este ejemplo, creará las configuraciones necesarias de ER para la empresa del ejemplo, Litware, Inc. Para completar estos pasos, primero debe completar los pasos en la guía de la tarea, "ER crea un proveedor de la configuración y marcarlo como activo". Estos pasos se pueden completar mediante el conjunto de datos de USMF. También debe descargar y guardar localmente los archivos siguientes: 
+
+| Descripción del contenido                       | Nombre de archivo                                     |
+|-------------------------------------------|-----------------------------------------------|
+| Configuración del modelo datos de ER: 1099 | [1099model,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| Configuración del formato de ER: 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| Ejemplo del documento de entrada en formato XML                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Ejemplo de libro de trabajo para administrar datos del documento entrante                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 ER ofrece a los usuarios de empresas la posibilidad de configurar el proceso de importar archivos de datos externos a las tablas en formato .XML o .TXT. En primer lugar, se debe diseñar un modelo de datos abstracto y una configuración del modelo de datos de ER para representar los datos que está importando. A continuación, es necesario definir la estructura del archivo que está importando y el método que se utilizará para trasladar los datos del archivo al modelo de datos abstracto. La configuración del formato de ER que se asigna al modelo de datos diseñado debe crearse para ese modelo de datos abstracto. A continuación, la configuración del modelo de datos debe ampliarse con una asignación que describa cómo se conservan los datos importados como datos de un modelo de datos abstractos y cómo se usa para actualizar las tablas.  La configuración del modelo de datos de ER se debe anexar con una nueva asignación de modelo que describa el enlace del modelo de datos con los destinos de la aplicación.  
 
