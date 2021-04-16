@@ -2,11 +2,9 @@
 title: Liquidar un pago de proveedor parcial con descuentos en notas de abono
 description: Este artículo le guía por un escenario donde se liquida una nota de crédito con una factura.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a23ef6bff5f135e7f4189add776aeed18fbe79
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e634796c7143c14a872c721f298f3ab28cbddd6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227313"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827851"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Liquidar un pago de proveedor parcial con descuentos en notas de abono
 
@@ -42,10 +40,10 @@ El 29 de junio, April crea una factura de 1.000,00 del proveedor 3050. El 2 de j
 
 La información de descuento para la nota de abono aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 7/13/2015 |
-| Importe de descuento por pronto pago         | 2,00      |
+| Importe de descuento por pronto pago         | 2.00      |
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 0,00      |
 | Importe de descuento por pronto pago para aplicar | 2,00      |

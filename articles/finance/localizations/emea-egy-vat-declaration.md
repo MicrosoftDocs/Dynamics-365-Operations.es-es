@@ -2,7 +2,6 @@
 title: Declaración de IVA para Egipto
 description: Este tema explica cómo configurar y generar el formulario de devolución de IVA para Egipto.
 author: sndray
-manager: AnnBe
 ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7859d5a5e3273cd6e55edd1c1ce9fc4699d7ab33
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: 3ebb78f3fa481cc63376b7d6428cf4944bbf6f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574347"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839825"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Declaración de IVA para Egipto (EG-00002)
 

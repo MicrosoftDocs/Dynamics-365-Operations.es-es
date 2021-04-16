@@ -2,11 +2,9 @@
 title: Simular cambios de coste mediante una versión de gestión de costes para costes planificados
 description: Este artículo explica cómo puede simular los efectos de los cambios de coste en los costes calculados de un artículo fabricado con una versión de gestión de costes independiente para los costes planificados.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74bea14699628bf5ec1d8bc8a3d6d1f341f5b982
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 627c45a6cd7b647c0cb11ad4a4470bf143fff6cd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239599"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821474"
 ---
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simular cambios de coste mediante una versión de gestión de costes para costes planificados
 

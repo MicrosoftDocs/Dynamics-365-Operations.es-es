@@ -2,11 +2,9 @@
 title: Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
 description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259100"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821282"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
 
@@ -34,6 +32,18 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 > [!NOTE]
 > La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://docs.microsoft.com/dynamics/s-e/). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Funciones quitadas o en desuso en la versión 10.0.18 de Supply Chain Management
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations- Almacenamiento (la aplicación de almacén)
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | A partir de abril de 2021, *Dynamics 365 for Finance and Operations - Almacenamiento* (la aplicación de almacén) está obsoleta y no se admitirá después de abril de 2022. Ahora es reemplazado por la *Aplicación móvil Warehouse Management*, que se lanzó con la versión 10.0.17 de Supply Chain Management. La nueva aplicación es un reemplazo completo, pero utiliza el mismo marco subyacente, lo que facilita la migración. Si es necesario, las dos aplicaciones se pueden usar una al lado de la otra para ayudar a los usuarios a adaptarse gradualmente a medida que aprenden a usar la nueva aplicación.<br><br>Para más información sobre la nueva aplicación móvil Warehouse Management, consulte [Aplicación móvil Warehouse Management](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Instalar y conectar la aplicación móvil Warehouse Management](../warehousing/install-configure-warehouse-management-app.md). |
+| **¿Reemplazado por otra característica?**   | Sí, reemplazada por la nueva aplicación móvil Warehouse Management. |
+| **Áreas de producto afectadas**         | Supply Chain Management: aplicación de almacén |
+| **Opción de implementación**              | Nube y local |
+| **Estado**                         | En desuso. La aplicación del almacén recibirá soporte con correcciones de errores y seguridad, pero ya no se proporcionarán mejoras de funciones. Después de abril de 2022, la antigua aplicación de almacén ya no será compatible y se les pedirá a los clientes que se pasen a la nueva aplicación móvil de Warehouse Management. La aplicación de almacén anterior se eliminará de Microsoft Store y Google Play Store.  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Funciones quitadas o en desuso en la versión 10.0.15 de Supply Chain Management
 

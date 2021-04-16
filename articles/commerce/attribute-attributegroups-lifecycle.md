@@ -2,11 +2,9 @@
 title: Administrar atributos y grupos de atributos
 description: Este tema describe cómo usar atributos para proporcionar una forma de describir un producto y sus características a través de campos definidos por el usuario.
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: db72e70f880dfd68cdd35762677c412fb810e4ec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211481"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797266"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Administrar atributos y grupos de atributos
 

@@ -2,11 +2,9 @@
 title: Combinación de dimensiones de producto de ubicación
 description: Este tema proporciona información acerca de la combinación de dimensiones de producto de ubicación. Esta funcionalidad de perfil de ubicación ayuda a mejorar la administración de ubicación cuando se utilizan variantes de productos o productos que tienen dimensiones, como en la industria de la moda. Le permite decidir si las configuraciones, colores, estilos y tallas se pueden mezclar para un perfil de ubicación específico, o si solo una de estas dimensiones o una combinación de ellas se puede colocar en la misma ubicación.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217038"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831299"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinación de dimensiones de producto de ubicación
 
@@ -206,9 +204,9 @@ Creará un pedido de compra que tiene tres líneas: dos líneas para el mismo n�
 
 1.Seleccione **Guardar**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Reciba líneas de pedido de compra en la aplicación de almacén
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Reciba líneas de pedido de compra en la aplicación móvil Warehouse Management
 
-1. Inicie sesión en la aplicación de almacén como un usuario habilitado para el almacén *24*.
+1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario habilitado para el almacén *24*.
 1. Seleccione el menú **Entrante**.
 1. Seleccione **Recepción de línea de pedido**.
 1. Seleccione el campo **PONUM** e introduzca el número de pedido de compra.

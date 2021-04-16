@@ -2,11 +2,9 @@
 title: Reabastecimiento según la capacidad de la ubicación
 description: Este tema proporciona información sobre la característica Reabastecimiento según la capacidad de la ubicación. Esta característica permite crear todo el trabajo de reabastecimiento que se requerirá para el día y administra la disponibilidad de ese trabajo de reabastecimiento para garantizar que la ubicación de picking no se quede sin inventario ni supere la capacidad.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228402"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823248"
 ---
 # <a name="replenishment-over-location-capacity"></a>Reabastecimiento según la capacidad de la ubicación
 
@@ -241,7 +239,7 @@ Dependiendo de las cantidades disponibles, las cantidades de trabajo que se crea
 
 #### <a name="on-hand-inventory-license-plate-id"></a>Identificador de matrícula de inventario disponible
 
-Más adelante en este escenario, usará la aplicación de almacén (o un emulador), donde debe identificar la placa de licencia para completar los escenarios de recolección y reabastecimiento.
+Más adelante en este escenario, usará la aplicación móvil Warehouse Management (o un emulador), donde debe identificar la placa de licencia para completar los escenarios de recolección y reabastecimiento.
 
 Para encontrar los identificadores de matrícula de licencia que necesitará más adelante, siga estos pasos.
 
@@ -266,7 +264,7 @@ Realizará el reabastecimiento de la ubicación del almacén para los dos primer
 
 #### <a name="replenishment"></a>Reabastecimiento
 
-1. Inicie sesión en la aplicación de almacén como un usuario en el almacén *61*. (Escriba *61* como el identificador de usuario y *1* como la contraseña).
+1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario en el almacén *61*. (Escriba *61* como el identificador de usuario y *1* como la contraseña).
 1. Vaya a **Inventario \> Reabastecimiento**.
 
     Se le solicitará que complete el primer trabajo de reabastecimiento. Se muestran el número de artículo, la cantidad y la ubicación de selección.
@@ -296,7 +294,7 @@ Hasta que se seleccione suficiente inventario en la ubicación para colocarlo po
 
 Antes de que se pueda completar la tarea de reabastecimiento restante, la ubicación de picking debe agotarse del inventario a un nivel donde el trabajo de reabastecimiento restante se pueda desbloquear. Es decir, la suma de la cantidad de inventario disponible en la ubicación y la cantidad de reabastecimiento no puede exceder el valor **Cantidad de desbordamiento**. Cuando esta suma es menor que la cantidad de desbordamiento, el trabajo de reabastecimiento restante se desbloqueará.
 
-1. Inicie sesión en la aplicación de almacén como un usuario en el almacén *61*. (Escriba *61* como el identificador de usuario y *1* como la contraseña).
+1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario en el almacén *61*. (Escriba *61* como el identificador de usuario y *1* como la contraseña).
 1. Vaya a **Salida \> Selección de ventas**.
 1. Especifique el primer identificador de trabajo para el pedido de cliente 1.
 

@@ -2,11 +2,9 @@
 title: Pedidos de clientes en el punto de venta (PDV)
 description: Este tema proporciona información sobre los pedidos de clientes en el punto de venta (PDV). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220519"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821017"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pedidos de clientes en el punto de venta (PDV)
 
@@ -61,7 +59,8 @@ En la versión 10.0.12 de Commerce y posteriores, las organizaciones pueden defi
 
 Cuando trabaja con pedidos de clientes en PDV, debe considerar algunas de las configuraciones del canal de la tienda. Estos ajustes se encuentran en la página **Tiendas** en la central de Commerce.
 
-- **Almacén**: este campo indica el almacén que se utiliza para cumplir con los pedidos que están configurados para su envío desde la tienda.
+- **Almacén**: este campo indica el almacén que se utilizará al disminuir el inventario de efectivo y llevar y los pedidos de recogida del cliente vinculados a esta tienda. Como práctica recomendada, recomendamos el uso de almacenes únicos para cada canal de tienda, a fin de evitar problemas de lógica empresarial conflictivos entre las tiendas.
+- **Almacén de envío**: este campo indica el almacén que se utilizará al disminuir el inventario de inventario para pedidos de clientes que se enviarán desde la tienda seleccionada. Si la característica **Posibilidad de especificar ubicaciones como "Envío" o "Recogida" habilitadas dentro del grupo de Cumplimiento** se ha habilitado en su entorno, los usuarios de PDV pueden elegir un almacén específico desde donde enviar en PDV, en lugar de elegir una tienda desde donde enviar. Por lo tanto, cuando esa función está habilitada, el almacén de envío ya no se utiliza, ya que el usuario seleccionará el almacén específico desde donde enviar el pedido cuando se crea el pedido.
 - **Asignación de grupo de cumplimiento**: seleccione este botón (en la pestaña **Configuración** en el Panel de acciones) para vincular los grupos de cumplimiento a los que se hace referencia para mostrar opciones para ubicaciones de recolección u orígenes de envío cuando los pedidos de los clientes se crean en PDV.
 - **Utilizar impuestos basados en el destino**: esta opción indica si la dirección de envío se utiliza para determinar el grupo de impuestos que se aplica a las líneas de pedido que se envían a la dirección del cliente.
 - **Utilizar impuestos basados en el cliente**: esta opción indica si el grupo de impuestos que se define para la dirección de entrega del cliente se usa para gravar los pedidos de los clientes que se crean en PDV para su envío al domicilio del cliente.

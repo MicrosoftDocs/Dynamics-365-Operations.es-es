@@ -2,11 +2,9 @@
 title: Solucionar problemas de configuración de almacén
 description: Este tema describe cómo solucionar problemas comunes que pueden surgir al configurar almacenes en Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f2e111930431e908e5aaa2f08d04adbb2d952f0f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8d1ed8e3b6f13f83e3c870b17b423cf42ad0ecc1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208120"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828067"
 ---
 # <a name="troubleshoot-warehouse-setup"></a>Solucionar problemas de configuración de almacén
 
@@ -38,7 +36,7 @@ No puede usar ningún rol excepto el de administrador para acceder al emulador d
 
 ### <a name="issue-resolution"></a>Solución del problema
 
-El emulador de aplicaciones para dispositivos móviles está configurado para funcionar solo con la cuenta de administrador. Para todos los propósitos de pruebas y procesos en vivo, le recomendamos que utilice la propia aplicación del almacén.
+El emulador de aplicaciones para dispositivos móviles está configurado para funcionar solo con la cuenta de administrador. Para todos los propósitos de pruebas y procesos en vivo, le recomendamos que utilice la propia aplicación móvil Warehouse Management.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

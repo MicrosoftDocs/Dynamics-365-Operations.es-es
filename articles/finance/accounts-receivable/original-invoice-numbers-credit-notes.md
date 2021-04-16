@@ -2,11 +2,9 @@
 title: Referencias a facturas originales en notas de crédito
 description: Este tema explica cómo configurar e imprimir los números de factura originales en notas de crédito relacionadas.
 author: ilkond
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,18 +14,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 04a4fc96cb7de60052b17e36c33ad5d5be322be4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ce06a0ce4f2a308e1917ac2c7cbc66f0494a2ec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207360"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811519"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Referencias a facturas originales en notas de crédito
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 En algunos países y regiones, existe un requisito legal de que las notas de crédito impresas incluyan referencias a las facturas originales. Este tema explica cómo configurar e imprimir los números de factura originales en notas de crédito relacionadas.
 

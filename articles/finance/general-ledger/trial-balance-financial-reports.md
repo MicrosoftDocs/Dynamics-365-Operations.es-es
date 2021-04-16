@@ -2,11 +2,9 @@
 title: Informes financieros de saldo de comprobación
 description: En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d753b99b126bf8097e8270f4774db854fa2d279
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240649"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816940"
 ---
 # <a name="trial-balance-financial-reports"></a>Informes financieros de saldo de comprobación
 

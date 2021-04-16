@@ -2,11 +2,9 @@
 title: Especificación de impuestos por informe de transacción contable
 description: Este tema explica cómo usar la especificación de impuestos por libro mayor de la transacción contable que desea ver e imprimir información sobre transacciones contables que los impuestos se calcularán para.
 author: ericwang
-manager: Ann Beebe
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b90ae491605bf59b93137936a2804c4b84c6e1b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 75913edcbac0151d5d27d866ff5430b194c62738
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204891"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815269"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>Especificación de impuestos por informe de transacción contable
 [!include [banner](../includes/banner.md)]
