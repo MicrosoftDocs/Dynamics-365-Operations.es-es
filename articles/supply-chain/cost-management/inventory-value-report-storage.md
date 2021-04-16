@@ -2,11 +2,9 @@
 title: Informe de almacenamiento de valor de inventario
 description: Este tema explica cómo ejecutar un informe de almacenamiento de valor de inventario y hacer que la salida esté disponible digitalmente, ya sea como una página interactiva en Microsoft Dynamics 365 Supply Chain Management o como documento exportado en cualquiera de varios formatos.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6f0c382c56ea0c576134f2871cba7a71b44e6528
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f32e175319d93ed1323129f1ea2896a435d8081c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262486"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821570"
 ---
 # <a name="inventory-value-storage-report"></a>Informe de almacenamiento de valor de inventario
 

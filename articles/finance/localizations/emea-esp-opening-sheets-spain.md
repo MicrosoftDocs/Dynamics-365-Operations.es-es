@@ -2,11 +2,9 @@
 title: Entradas especiales y hojas de apertura
 description: Las entidades jurídicas de España pueden registrar entradas especiales como entradas de apertura para el período actual, mientras adaptan sus cuentas a los cambios de las reglas de contabilidad.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerOpeningSheet_ES
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3b6ca27cb731f8ca81989d5b51dfaca223200d60
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c771a3f0cc91f80ef15087c11264846af7cca0ca
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212977"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834366"
 ---
 # <a name="special-entries-and-opening-sheets"></a>Entradas especiales y hojas de apertura
 
@@ -39,9 +37,8 @@ Al cerrar las entradas del ejercicio anterior, puede crear varias líneas config
 ## <a name="create-a-new-opening-sheet"></a>Crear una nueva hoja de apertura
 Para crear una nueva **Hoja de apertura**, haga clic en **Nueva** en la página **Hojas de apertura**, y especifique lo siguiente.
 
-|                    |                                                                                                                                                                                                                                                                                                   |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Campo**          | **Descripción**                                                                                                                                                                                                                                                                                   |
+|  Campo           |  Descripción |
+|--------------------|----------------------------------|
 | **Hojas de apertura** | Escriba un código para la hoja de apertura. Puede crear varias hojas de apertura para cada año, pero cada una debe tener un identificador exclusivo en el campo **Hojas de apertura**.                                                                                                                                  |
 | **Nombre**           | Nombre para la hoja de apertura.                                                                                                                                                                                                                                                                       |
 | **Capa de registro**  | Seleccione la capa de registro para las transacciones.                                                                                                                                                                                                                                                    |

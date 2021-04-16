@@ -2,11 +2,9 @@
 title: Configuración de almacenes para pedidos de transferencia
 description: Este tema describe cómo puede configurar los almacenes para pedidos de transferencia.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: e01629982bb383078e90ff3dad0592371f44bd1b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9e4ea0f9720bd4e5d2724b507aa32525ac25fa52
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206856"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823224"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Configuración de almacenes para pedidos de transferencia 
 

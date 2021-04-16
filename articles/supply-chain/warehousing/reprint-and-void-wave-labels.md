@@ -2,10 +2,8 @@
 title: Reimprimir y anular etiquetas de oleada
 description: En este tema se explica cómo anular y reimprimir las etiquetas de oleada existentes.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
@@ -13,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3d67052d47cf23acbb51354773fbd306545bbfa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b309a0e40541463db4d71fa9e7cac5db2d799be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228378"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817374"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Reimprimir y anular etiquetas de oleada
 
@@ -218,5 +216,8 @@ Las excepciones de trabajo controlan el comportamiento de la selección corta. S
 1. Seleccione el código de excepción de trabajo que creó para este escenario.
 1. Si seleccionó la excepción correcta, la casilla **Anular y reimprimir** debe estar disponible. Seleccione esta casilla y confirme. Cuando se confirme, la secuencia del rollo de etiquetas identificada por el campo **Id. de compilación de etiqueta** se recalcula en función de la cantidad de línea de trabajo modificada. A continuación, se reimprime en la impresora especificada.
 
+## <a name="additional-resources"></a>Recursos adicionales
+
+- [Impresión de etiquetas de oleadas](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
