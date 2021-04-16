@@ -2,7 +2,6 @@
 title: Función VALUE ER
 description: Este tema proporciona información general sobre cómo usar la función VALUE de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,52 +15,52 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cdaa302e757b54858e36c3716167593383d7071
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2252823d98b63d36d9bb195696abef34ac9c98b6
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561455"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752589"
 ---
-# <a name="value-er-function"></a><span data-ttu-id="f5da9-103">Función VALUE ER</span><span class="sxs-lookup"><span data-stu-id="f5da9-103">VALUE ER function</span></span>
+# <a name="value-er-function"></a><span data-ttu-id="20d26-103">Función VALUE ER</span><span class="sxs-lookup"><span data-stu-id="20d26-103">VALUE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f5da9-104">La función `VALUE` devuelve un valor *Real* que se convierte de la cadena especificada.</span><span class="sxs-lookup"><span data-stu-id="f5da9-104">The `VALUE` function returns a *Real* value that is converted from the specified string.</span></span>
+<span data-ttu-id="20d26-104">La función `VALUE` devuelve un valor *Real* que se convierte de la cadena especificada.</span><span class="sxs-lookup"><span data-stu-id="20d26-104">The `VALUE` function returns a *Real* value that is converted from the specified string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f5da9-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="f5da9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="20d26-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="20d26-105">Syntax</span></span>
 
 ```vb
 VALUE (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="f5da9-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="f5da9-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="20d26-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="20d26-106">Arguments</span></span>
 
-<span data-ttu-id="f5da9-107">`text`: *Cadena*</span><span class="sxs-lookup"><span data-stu-id="f5da9-107">`text`: *String*</span></span>
+<span data-ttu-id="20d26-107">`text`: *Cadena*</span><span class="sxs-lookup"><span data-stu-id="20d26-107">`text`: *String*</span></span>
 
-<span data-ttu-id="f5da9-108">Un valor de cadena que debe convertirse en un valor numérico.</span><span class="sxs-lookup"><span data-stu-id="f5da9-108">A string value that must be converted to a numeric value.</span></span>
+<span data-ttu-id="20d26-108">Un valor de cadena que debe convertirse en un valor numérico.</span><span class="sxs-lookup"><span data-stu-id="20d26-108">A string value that must be converted to a numeric value.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f5da9-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="f5da9-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="20d26-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="20d26-109">Return values</span></span>
 
-<span data-ttu-id="f5da9-110">*Real*</span><span class="sxs-lookup"><span data-stu-id="f5da9-110">*Real*</span></span>
+<span data-ttu-id="20d26-110">*Real*</span><span class="sxs-lookup"><span data-stu-id="20d26-110">*Real*</span></span>
 
-<span data-ttu-id="f5da9-111">El valor numérico resultante.</span><span class="sxs-lookup"><span data-stu-id="f5da9-111">The resulting numeric value.</span></span>
+<span data-ttu-id="20d26-111">El valor numérico resultante.</span><span class="sxs-lookup"><span data-stu-id="20d26-111">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="f5da9-112">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="f5da9-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="20d26-112">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="20d26-112">Usage notes</span></span>
 
-<span data-ttu-id="f5da9-113">Las comas y los caracteres de punto (.) se consideran separadores decimales y los guiones iniciales (-) se usan como signo negativo.</span><span class="sxs-lookup"><span data-stu-id="f5da9-113">Commas and dot characters (.) are considered decimal separators, and a leading hyphen (-) is used as a negative sign.</span></span> <span data-ttu-id="f5da9-114">Se generará una excepción en el tiempo de ejecución si la cadena especificada contiene otros caracteres no numéricos.</span><span class="sxs-lookup"><span data-stu-id="f5da9-114">An exception is thrown at runtime if the specified string contains other non-numeric characters.</span></span>
+<span data-ttu-id="20d26-113">Las comas y los caracteres de punto (.) se consideran separadores decimales y los guiones iniciales (-) se usan como signo negativo.</span><span class="sxs-lookup"><span data-stu-id="20d26-113">Commas and dot characters (.) are considered decimal separators, and a leading hyphen (-) is used as a negative sign.</span></span> <span data-ttu-id="20d26-114">Se generará una excepción en el tiempo de ejecución si la cadena especificada contiene otros caracteres no numéricos.</span><span class="sxs-lookup"><span data-stu-id="20d26-114">An exception is thrown at runtime if the specified string contains other non-numeric characters.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="f5da9-115">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="f5da9-115">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="20d26-115">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="20d26-115">Example 1</span></span>
 
-<span data-ttu-id="f5da9-116">`VALUE ("1 234,56")` genera una excepción.</span><span class="sxs-lookup"><span data-stu-id="f5da9-116">`VALUE ("1 234,56")` throws an exception.</span></span>
+<span data-ttu-id="20d26-116">`VALUE ("1 234,56")` genera una excepción.</span><span class="sxs-lookup"><span data-stu-id="20d26-116">`VALUE ("1 234,56")` throws an exception.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="f5da9-117">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="f5da9-117">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="20d26-117">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="20d26-117">Example 2</span></span>
 
-<span data-ttu-id="f5da9-118">`VALUE ("1234,56")` devuelve **1234,56**.</span><span class="sxs-lookup"><span data-stu-id="f5da9-118">`VALUE ("1234,56")` returns **1234.56**.</span></span>
+<span data-ttu-id="20d26-118">`VALUE ("1234,56")` devuelve **1234,56**.</span><span class="sxs-lookup"><span data-stu-id="20d26-118">`VALUE ("1234,56")` returns **1234.56**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="f5da9-119">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="f5da9-119">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="20d26-119">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="20d26-119">Additional resources</span></span>
 
-[<span data-ttu-id="f5da9-120">Funciones de conversión de tipos</span><span class="sxs-lookup"><span data-stu-id="f5da9-120">Type conversion functions</span></span>](er-functions-category-type-conversion.md)
+[<span data-ttu-id="20d26-120">Funciones de conversión de tipos</span><span class="sxs-lookup"><span data-stu-id="20d26-120">Type conversion functions</span></span>](er-functions-category-type-conversion.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

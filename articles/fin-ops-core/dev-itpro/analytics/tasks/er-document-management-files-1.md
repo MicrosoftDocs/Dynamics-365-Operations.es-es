@@ -2,7 +2,6 @@
 title: 'Informe electrónico Archivos de gestión de documentos en las salidas de formato (Parte 1: Preparación del modelo de datos)'
 description: Este tema describe cómo configurar un formato de informes electrónicos (ER) para utilizar archivos de administración de documentos (adjuntos) en la salida de informes electrónicos. (Parte 1)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,64 +13,64 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35bffd6d3688a9887fcdaf4edbd89c344cb9b18d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6b265c9af0635e6c9fb6295f7e8e4e353b2a5ba5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559806"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754947"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a><span data-ttu-id="507f8-104">Informe electrónico Archivos de gestión de documentos en las salidas de formato (Parte 1: Preparación del modelo de datos)</span><span class="sxs-lookup"><span data-stu-id="507f8-104">ER Use Document Management files in format outputs (Part 1 - Prepare data model)</span></span>
+# <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a><span data-ttu-id="2f7f7-104">Informe electrónico Archivos de gestión de documentos en las salidas de formato (Parte 1: Preparación del modelo de datos)</span><span class="sxs-lookup"><span data-stu-id="2f7f7-104">ER Use Document Management files in format outputs (Part 1 - Prepare data model)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="507f8-105">En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema, o a un rol de desarrollador de informes electrónicos, puede configurar un formato de informe electrónico (ER) para usar archivos de gestión de documentos (adjuntos) en formato ER.</span><span class="sxs-lookup"><span data-stu-id="507f8-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="507f8-106">Estos pasos se pueden llevar a cabo en cualquier empresa.</span><span class="sxs-lookup"><span data-stu-id="507f8-106">These steps can be performed in any company.</span></span>
+<span data-ttu-id="2f7f7-105">En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema, o a un rol de desarrollador de informes electrónicos, puede configurar un formato de informe electrónico (ER) para usar archivos de gestión de documentos (adjuntos) en formato ER.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="2f7f7-106">Estos pasos se pueden llevar a cabo en cualquier empresa.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-106">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="507f8-107">Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones".</span><span class="sxs-lookup"><span data-stu-id="507f8-107">To complete these steps, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span>
+<span data-ttu-id="2f7f7-107">Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones".</span><span class="sxs-lookup"><span data-stu-id="2f7f7-107">To complete these steps, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span>
 
-<span data-ttu-id="507f8-108">Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="507f8-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="2f7f7-108">Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="507f8-109">Obtenga acceso a la lista de configuraciones proporcionada por Microsoft</span><span class="sxs-lookup"><span data-stu-id="507f8-109">Get access to the list of configurations provided by Microsoft</span></span>
-1. <span data-ttu-id="507f8-110">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="507f8-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="2f7f7-109">Obtenga acceso a la lista de configuraciones proporcionada por Microsoft</span><span class="sxs-lookup"><span data-stu-id="2f7f7-109">Get access to the list of configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="2f7f7-110">Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
 
-    <span data-ttu-id="507f8-111">Asegúrese de que el proveedor “Litware, Inc.”</span><span class="sxs-lookup"><span data-stu-id="507f8-111">Make sure that the 'Litware, Inc.'</span></span> <span data-ttu-id="507f8-112">está disponible y marcado como activo.</span><span class="sxs-lookup"><span data-stu-id="507f8-112">provider is available and marked as active.</span></span>  
+    <span data-ttu-id="2f7f7-111">Asegúrese de que el proveedor “Litware, Inc.”</span><span class="sxs-lookup"><span data-stu-id="2f7f7-111">Make sure that the 'Litware, Inc.'</span></span> <span data-ttu-id="2f7f7-112">está disponible y marcado como activo.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-112">provider is available and marked as active.</span></span>  
 
-2. <span data-ttu-id="507f8-113">Seleccione el proveedor "Litware,</span><span class="sxs-lookup"><span data-stu-id="507f8-113">Select the 'Litware, Inc.'</span></span> <span data-ttu-id="507f8-114">Inc.</span><span class="sxs-lookup"><span data-stu-id="507f8-114">provider.</span></span>
-3. <span data-ttu-id="507f8-115">Haga clic en Repositorios.</span><span class="sxs-lookup"><span data-stu-id="507f8-115">Click Repositories.</span></span>
+2. <span data-ttu-id="2f7f7-113">Seleccione el proveedor "Litware,</span><span class="sxs-lookup"><span data-stu-id="2f7f7-113">Select the 'Litware, Inc.'</span></span> <span data-ttu-id="2f7f7-114">Inc.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-114">provider.</span></span>
+3. <span data-ttu-id="2f7f7-115">Haga clic en Repositorios.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-115">Click Repositories.</span></span>
 
-    <span data-ttu-id="507f8-116">Si ya existe un repositorio tipo “Recursos de operaciones", omita los pasos restantes de la subtarea actual.</span><span class="sxs-lookup"><span data-stu-id="507f8-116">If a repository of the 'Operations resources' type already exists, skip the remaining steps of the current sub-task.</span></span>  
+    <span data-ttu-id="2f7f7-116">Si ya existe un repositorio tipo “Recursos de operaciones", omita los pasos restantes de la subtarea actual.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-116">If a repository of the 'Operations resources' type already exists, skip the remaining steps of the current sub-task.</span></span>  
 
-4. <span data-ttu-id="507f8-117">Haga clic en Agregar para abrir el cuadro desplegable.</span><span class="sxs-lookup"><span data-stu-id="507f8-117">Click Add to open the drop dialog.</span></span>
-5. <span data-ttu-id="507f8-118">En el campo Tipo de repositorio de configuración, escriba "Recursos de Operations".</span><span class="sxs-lookup"><span data-stu-id="507f8-118">In the Configuration repository type field, enter 'Operations resources'.</span></span>
-6. <span data-ttu-id="507f8-119">Haga clic en Crear repositorio.</span><span class="sxs-lookup"><span data-stu-id="507f8-119">Click Create repository.</span></span>
-7. <span data-ttu-id="507f8-120">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="507f8-120">Click OK.</span></span>
+4. <span data-ttu-id="2f7f7-117">Haga clic en Agregar para abrir el cuadro desplegable.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-117">Click Add to open the drop dialog.</span></span>
+5. <span data-ttu-id="2f7f7-118">En el campo Tipo de repositorio de configuración, escriba "Recursos de Operations".</span><span class="sxs-lookup"><span data-stu-id="2f7f7-118">In the Configuration repository type field, enter 'Operations resources'.</span></span>
+6. <span data-ttu-id="2f7f7-119">Haga clic en Crear repositorio.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-119">Click Create repository.</span></span>
+7. <span data-ttu-id="2f7f7-120">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="2f7f7-120">Click OK.</span></span>
 
-## <a name="get-the-customer-invoice-model-configurations-provided-by-microsoft"></a><span data-ttu-id="507f8-121">Obtenga las configuraciones del modelo de factura de Cliente proporcionadas por Microsoft</span><span class="sxs-lookup"><span data-stu-id="507f8-121">Get the Customer invoice model configurations provided by Microsoft</span></span>
-1. <span data-ttu-id="507f8-122">Haga clic en Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="507f8-122">Click Show filters.</span></span>
-2. <span data-ttu-id="507f8-123">Aplique los filtros siguientes: Introduzca un valor de filtro de “Recursos de operaciones” en el campo ”Nombre” mediante el operador de filtro “comienza con”; introduzca un valor de filtro de "" en el campo “Descripción”, mediante el operador de filtro “comienza con”</span><span class="sxs-lookup"><span data-stu-id="507f8-123">Apply the following filters: Enter a filter value of "Operations resources" on the "Name" field using the "begins with" filter operator; Enter a filter value of "" on the "Description" field using the "begins with" filter operator</span></span>
-3. <span data-ttu-id="507f8-124">Haga clic en Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="507f8-124">Click Show filters.</span></span>
-4. <span data-ttu-id="507f8-125">Haga clic en Abrir.</span><span class="sxs-lookup"><span data-stu-id="507f8-125">Click Open.</span></span>
-5. <span data-ttu-id="507f8-126">En el árbol, seleccione “Modelo de factura del cliente”.</span><span class="sxs-lookup"><span data-stu-id="507f8-126">In the tree, select 'Customer invoice model'.</span></span>
+## <a name="get-the-customer-invoice-model-configurations-provided-by-microsoft"></a><span data-ttu-id="2f7f7-121">Obtenga las configuraciones del modelo de factura de Cliente proporcionadas por Microsoft</span><span class="sxs-lookup"><span data-stu-id="2f7f7-121">Get the Customer invoice model configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="2f7f7-122">Haga clic en Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-122">Click Show filters.</span></span>
+2. <span data-ttu-id="2f7f7-123">Aplique los filtros siguientes: Introduzca un valor de filtro de “Recursos de operaciones” en el campo ”Nombre” mediante el operador de filtro “comienza con”; introduzca un valor de filtro de "" en el campo “Descripción”, mediante el operador de filtro “comienza con”</span><span class="sxs-lookup"><span data-stu-id="2f7f7-123">Apply the following filters: Enter a filter value of "Operations resources" on the "Name" field using the "begins with" filter operator; Enter a filter value of "" on the "Description" field using the "begins with" filter operator</span></span>
+3. <span data-ttu-id="2f7f7-124">Haga clic en Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-124">Click Show filters.</span></span>
+4. <span data-ttu-id="2f7f7-125">Haga clic en Abrir.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-125">Click Open.</span></span>
+5. <span data-ttu-id="2f7f7-126">En el árbol, seleccione “Modelo de factura del cliente”.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-126">In the tree, select 'Customer invoice model'.</span></span>
 
-    <span data-ttu-id="507f8-127">Seleccione la configuración del modelo “Modelo de factura del cliente” para importarla.</span><span class="sxs-lookup"><span data-stu-id="507f8-127">Select the model configuration 'Customer invoice model' to import it.</span></span>  
+    <span data-ttu-id="2f7f7-127">Seleccione la configuración del modelo “Modelo de factura del cliente” para importarla.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-127">Select the model configuration 'Customer invoice model' to import it.</span></span>  
 
-6. <span data-ttu-id="507f8-128">Haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="507f8-128">Click Import.</span></span>
+6. <span data-ttu-id="2f7f7-128">Haga clic en Importar.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-128">Click Import.</span></span>
 
-    <span data-ttu-id="507f8-129">Haga clic en importar la versión 1 de la configuración seleccionada.</span><span class="sxs-lookup"><span data-stu-id="507f8-129">Click Import for version 1 of the selected configuration.</span></span>  
+    <span data-ttu-id="2f7f7-129">Haga clic en importar la versión 1 de la configuración seleccionada.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-129">Click Import for version 1 of the selected configuration.</span></span>  
 
-7. <span data-ttu-id="507f8-130">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="507f8-130">Click Yes.</span></span>
-8. <span data-ttu-id="507f8-131">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="507f8-131">Close the page.</span></span>
-9. <span data-ttu-id="507f8-132">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="507f8-132">Close the page.</span></span>
-10. <span data-ttu-id="507f8-133">Haga clic en Configuraciones de informes.</span><span class="sxs-lookup"><span data-stu-id="507f8-133">Click Reporting configurations.</span></span>
-11. <span data-ttu-id="507f8-134">En el árbol, seleccione “Modelo de factura del cliente”.</span><span class="sxs-lookup"><span data-stu-id="507f8-134">In the tree, select 'Customer invoice model'.</span></span>
+7. <span data-ttu-id="2f7f7-130">Haga clic en Sí.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-130">Click Yes.</span></span>
+8. <span data-ttu-id="2f7f7-131">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-131">Close the page.</span></span>
+9. <span data-ttu-id="2f7f7-132">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-132">Close the page.</span></span>
+10. <span data-ttu-id="2f7f7-133">Haga clic en Configuraciones de informes.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-133">Click Reporting configurations.</span></span>
+11. <span data-ttu-id="2f7f7-134">En el árbol, seleccione “Modelo de factura del cliente”.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-134">In the tree, select 'Customer invoice model'.</span></span>
 
-## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a><span data-ttu-id="507f8-135">Cree el modelo derivado para admitir el acceso a los archivos de la gestión de documentos.</span><span class="sxs-lookup"><span data-stu-id="507f8-135">Create the derived model to support access to the Document Management files.</span></span>
-<span data-ttu-id="507f8-136">Usted creará su propia configuración del modelo de factura de Cliente derivándola de la configuración proporcionada por Microsoft.</span><span class="sxs-lookup"><span data-stu-id="507f8-136">You will create our own configuration of the Customer invoice model deriving it from the configuration provided by Microsoft.</span></span> <span data-ttu-id="507f8-137">Use esta configuración para implementar el acceso a los archivos de gestión de documentos, y permita que estén disponibles para los documentos electrónicos que cree en base a este modelo.</span><span class="sxs-lookup"><span data-stu-id="507f8-137">You will use this configuration to implement access to the Document Management files and make them available for electronic documents that you will create based on this model.</span></span>  
-1. <span data-ttu-id="507f8-138">Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="507f8-138">Click Create configuration to open the drop dialog.</span></span>
-2. <span data-ttu-id="507f8-139">En el campo Nuevo, introduzca “Derivar de nombre: Modelo de factura de cliente, Microsoft”.</span><span class="sxs-lookup"><span data-stu-id="507f8-139">In the New field, enter 'Derive from Name: Customer invoice model, Microsoft'.</span></span>
-3. <span data-ttu-id="507f8-140">En el campo Nombre, introduzca "Modelo de factura de cliente (personalizado)".</span><span class="sxs-lookup"><span data-stu-id="507f8-140">In the Name field, type 'Customer invoice model (custom)'.</span></span>
-4. <span data-ttu-id="507f8-141">Haga clic en Crear configuración.</span><span class="sxs-lookup"><span data-stu-id="507f8-141">Click Create configuration.</span></span>
+## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a><span data-ttu-id="2f7f7-135">Cree el modelo derivado para admitir el acceso a los archivos de la gestión de documentos.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-135">Create the derived model to support access to the Document Management files.</span></span>
+<span data-ttu-id="2f7f7-136">Usted creará su propia configuración del modelo de factura de Cliente derivándola de la configuración proporcionada por Microsoft.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-136">You will create our own configuration of the Customer invoice model deriving it from the configuration provided by Microsoft.</span></span> <span data-ttu-id="2f7f7-137">Use esta configuración para implementar el acceso a los archivos de gestión de documentos, y permita que estén disponibles para los documentos electrónicos que cree en base a este modelo.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-137">You will use this configuration to implement access to the Document Management files and make them available for electronic documents that you will create based on this model.</span></span>  
+1. <span data-ttu-id="2f7f7-138">Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-138">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="2f7f7-139">En el campo Nuevo, introduzca “Derivar de nombre: Modelo de factura de cliente, Microsoft”.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-139">In the New field, enter 'Derive from Name: Customer invoice model, Microsoft'.</span></span>
+3. <span data-ttu-id="2f7f7-140">En el campo Nombre, introduzca "Modelo de factura de cliente (personalizado)".</span><span class="sxs-lookup"><span data-stu-id="2f7f7-140">In the Name field, type 'Customer invoice model (custom)'.</span></span>
+4. <span data-ttu-id="2f7f7-141">Haga clic en Crear configuración.</span><span class="sxs-lookup"><span data-stu-id="2f7f7-141">Click Create configuration.</span></span>
 
 
 

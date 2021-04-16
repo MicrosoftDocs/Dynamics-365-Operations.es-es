@@ -2,7 +2,6 @@
 title: Función TEXT de ER
 description: Este tema proporciona información general sobre cómo usar la función TEXT de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
@@ -16,48 +15,48 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da7375020be827f432ba97740da37abe48962fc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0694480f5d6892d13fe0c0d9ad191cdf2332dfec
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560070"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746108"
 ---
-# <a name="text-er-function"></a><span data-ttu-id="3e8e7-103">Función TEXT de ER</span><span class="sxs-lookup"><span data-stu-id="3e8e7-103">TEXT ER function</span></span>
+# <a name="text-er-function"></a><span data-ttu-id="a9868-103">Función TEXT de ER</span><span class="sxs-lookup"><span data-stu-id="a9868-103">TEXT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3e8e7-104">La función `TEXT` devuelve el número especificado como un valor de tipo *Cadena* después de que se haya convertido en una cadena de texto que se formatea según la configuración regional del servidor de la instancia actual de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="3e8e7-104">The `TEXT` function returns the specified number as a *String* value after it has been converted to a text string that is formatted according to the server locale settings of the current application instance.</span></span>
+<span data-ttu-id="a9868-104">La función `TEXT` devuelve el número especificado como un valor de tipo *Cadena* después de que se haya convertido en una cadena de texto que se formatea según la configuración regional del servidor de la instancia actual de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="a9868-104">The `TEXT` function returns the specified number as a *String* value after it has been converted to a text string that is formatted according to the server locale settings of the current application instance.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3e8e7-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="3e8e7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a9868-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="a9868-105">Syntax</span></span>
 
 ```vb
 TEXT (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="3e8e7-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="3e8e7-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="a9868-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="a9868-106">Arguments</span></span>
 
-<span data-ttu-id="3e8e7-107">`number`: *Entero* o *Real*</span><span class="sxs-lookup"><span data-stu-id="3e8e7-107">`number`: *Integer* or *Real*</span></span>
+<span data-ttu-id="a9868-107">`number`: *Entero* o *Real*</span><span class="sxs-lookup"><span data-stu-id="a9868-107">`number`: *Integer* or *Real*</span></span>
 
-<span data-ttu-id="3e8e7-108">Un valor numérico que debe convertirse en una cadena de texto.</span><span class="sxs-lookup"><span data-stu-id="3e8e7-108">A number that must be converted to a text string.</span></span>
+<span data-ttu-id="a9868-108">Un valor numérico que debe convertirse en una cadena de texto.</span><span class="sxs-lookup"><span data-stu-id="a9868-108">A number that must be converted to a text string.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="3e8e7-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="3e8e7-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="a9868-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="a9868-109">Return values</span></span>
 
-<span data-ttu-id="3e8e7-110">*Cadena*</span><span class="sxs-lookup"><span data-stu-id="3e8e7-110">*String*</span></span>
+<span data-ttu-id="a9868-110">*Cadena*</span><span class="sxs-lookup"><span data-stu-id="a9868-110">*String*</span></span>
 
-<span data-ttu-id="3e8e7-111">El valor de texto resultante.</span><span class="sxs-lookup"><span data-stu-id="3e8e7-111">The resulting text value.</span></span>
+<span data-ttu-id="a9868-111">El valor de texto resultante.</span><span class="sxs-lookup"><span data-stu-id="a9868-111">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="3e8e7-112">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="3e8e7-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="a9868-112">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="a9868-112">Usage notes</span></span>
 
-<span data-ttu-id="3e8e7-113">Para los valores del tipo *Real*, la conversión de la cadena está limitada a dos posiciones decimales.</span><span class="sxs-lookup"><span data-stu-id="3e8e7-113">For values of the *Real* type, the string conversion is limited to two decimal places.</span></span>
+<span data-ttu-id="a9868-113">Para los valores del tipo *Real*, la conversión de la cadena está limitada a dos posiciones decimales.</span><span class="sxs-lookup"><span data-stu-id="a9868-113">For values of the *Real* type, the string conversion is limited to two decimal places.</span></span>
 
-## <a name="example"></a><span data-ttu-id="3e8e7-114">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="3e8e7-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a9868-114">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="a9868-114">Example</span></span>
 
-<span data-ttu-id="3e8e7-115">Si se define la configuración regional del servidor de la instancia de Microsoft Dynamics 365 Finance como **EN-US**, `TEXT (NOW ())` devuelve la fecha de la sesión de Finance actual, el 17 de diciembre de 2015, como la cadena de texto **"12/17/2015 07:59:23 AM"**.</span><span class="sxs-lookup"><span data-stu-id="3e8e7-115">If the server locale of the Microsoft Dynamics 365 Finance instance is defined as **EN-US**, `TEXT (NOW ())` returns the current Finance session date, December 17, 2015, as the text string **"12/17/2015 07:59:23 AM"**.</span></span> <span data-ttu-id="3e8e7-116">`TEXT (1/3)` devuelve **"0.33"**.</span><span class="sxs-lookup"><span data-stu-id="3e8e7-116">`TEXT (1/3)` returns **"0.33"**.</span></span>
+<span data-ttu-id="a9868-115">Si se define la configuración regional del servidor de la instancia de Microsoft Dynamics 365 Finance como **EN-US**, `TEXT (NOW ())` devuelve la fecha de la sesión de Finance actual, el 17 de diciembre de 2015, como la cadena de texto **"12/17/2015 07:59:23 AM"**.</span><span class="sxs-lookup"><span data-stu-id="a9868-115">If the server locale of the Microsoft Dynamics 365 Finance instance is defined as **EN-US**, `TEXT (NOW ())` returns the current Finance session date, December 17, 2015, as the text string **"12/17/2015 07:59:23 AM"**.</span></span> <span data-ttu-id="a9868-116">`TEXT (1/3)` devuelve **"0.33"**.</span><span class="sxs-lookup"><span data-stu-id="a9868-116">`TEXT (1/3)` returns **"0.33"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="3e8e7-117">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="3e8e7-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="a9868-117">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="a9868-117">Additional resources</span></span>
 
-[<span data-ttu-id="3e8e7-118">Funciones de texto</span><span class="sxs-lookup"><span data-stu-id="3e8e7-118">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="a9868-118">Funciones de texto</span><span class="sxs-lookup"><span data-stu-id="a9868-118">Text functions</span></span>](er-functions-category-text.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
