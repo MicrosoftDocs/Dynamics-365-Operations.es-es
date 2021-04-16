@@ -2,11 +2,9 @@
 title: Clientes plantilla
 description: Este tema proporciona información sobre los clientes plantilla.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
@@ -16,31 +14,31 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 60743fb352b93a204246a4fcb44bac4651ae9d97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 446396ad344b822f1aa36e5fd7b4410578b53edb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214486"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839749"
 ---
-# <a name="one-time-customers"></a><span data-ttu-id="82380-103">Clientes plantilla</span><span class="sxs-lookup"><span data-stu-id="82380-103">One-time customers</span></span>
+# <a name="one-time-customers"></a><span data-ttu-id="4235d-103">Clientes plantilla</span><span class="sxs-lookup"><span data-stu-id="4235d-103">One-time customers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="82380-104">Este tema proporciona información sobre los clientes plantilla.</span><span class="sxs-lookup"><span data-stu-id="82380-104">This topic provides information about one-time customers.</span></span>  
+<span data-ttu-id="4235d-104">Este tema proporciona información sobre los clientes plantilla.</span><span class="sxs-lookup"><span data-stu-id="4235d-104">This topic provides information about one-time customers.</span></span>  
 
-<span data-ttu-id="82380-105">Un cliente plantilla es un cliente que no tiene una relación a largo plazo con su empresa.</span><span class="sxs-lookup"><span data-stu-id="82380-105">A one-time customer is a customer who does not have a long-term relationship with your company.</span></span> <span data-ttu-id="82380-106">Para los clientes plantilla, normalmente no es necesario guardar información como la dirección, el contacto, o los detalles de identificación fiscal.</span><span class="sxs-lookup"><span data-stu-id="82380-106">For one-time customers, you typically don't need to save information like address, contact, or tax exempt details.</span></span> <span data-ttu-id="82380-107">Para indicar que un cliente es un cliente plantilla, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="82380-107">To indicate that a customer is a one-time customer, complete the following steps:</span></span>
+<span data-ttu-id="4235d-105">Un cliente plantilla es un cliente que no tiene una relación a largo plazo con su empresa.</span><span class="sxs-lookup"><span data-stu-id="4235d-105">A one-time customer is a customer who does not have a long-term relationship with your company.</span></span> <span data-ttu-id="4235d-106">Para los clientes plantilla, normalmente no es necesario guardar información como la dirección, el contacto, o los detalles de identificación fiscal.</span><span class="sxs-lookup"><span data-stu-id="4235d-106">For one-time customers, you typically don't need to save information like address, contact, or tax exempt details.</span></span> <span data-ttu-id="4235d-107">Para indicar que un cliente es un cliente plantilla, siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="4235d-107">To indicate that a customer is a one-time customer, complete the following steps:</span></span>
 
-1.  <span data-ttu-id="82380-108">Abra la página **Todos los clientes**.</span><span class="sxs-lookup"><span data-stu-id="82380-108">Open the **All customers** page.</span></span>
-2.  <span data-ttu-id="82380-109">Seleccione un nombre de cliente para abrir el registro del cliente.</span><span class="sxs-lookup"><span data-stu-id="82380-109">Select a customer name to open the customer's record.</span></span>
-3.  <span data-ttu-id="82380-110">En la ficha desplegable **Detalles varios**, establezca la opción **Cliente plantilla** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="82380-110">On the **Miscellaneous details** FastTab, set the **One-time customer** option to **Yes**.</span></span>
-4.  <span data-ttu-id="82380-111">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="82380-111">Click **Save**.</span></span>
+1.  <span data-ttu-id="4235d-108">Abra la página **Todos los clientes**.</span><span class="sxs-lookup"><span data-stu-id="4235d-108">Open the **All customers** page.</span></span>
+2.  <span data-ttu-id="4235d-109">Seleccione un nombre de cliente para abrir el registro del cliente.</span><span class="sxs-lookup"><span data-stu-id="4235d-109">Select a customer name to open the customer's record.</span></span>
+3.  <span data-ttu-id="4235d-110">En la ficha desplegable **Detalles varios**, establezca la opción **Cliente plantilla** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="4235d-110">On the **Miscellaneous details** FastTab, set the **One-time customer** option to **Yes**.</span></span>
+4.  <span data-ttu-id="4235d-111">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="4235d-111">Click **Save**.</span></span>
 
-<span data-ttu-id="82380-112">**Nota:** para poder registrar transacciones para un cliente plantilla, debe especificar una cuenta para dicho cliente en el campo **Cuenta de cliente plantilla** de la página **Parámetros de clientes**.</span><span class="sxs-lookup"><span data-stu-id="82380-112">**Note:** Before you can post transactions for a one-time customer, you must specify an account to use for one-time customers in the **One-time customer account** field on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="82380-113">Para España, puede especificar restricciones de usuario para la creacción de contratos de proyecto para clientes plantilla.</span><span class="sxs-lookup"><span data-stu-id="82380-113">For Spain, you can restrict users from creating project contracts for one-time customers.</span></span> <span data-ttu-id="82380-114">Para ello, realice los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="82380-114">To do this, complete the following steps:</span></span>
+<span data-ttu-id="4235d-112">**Nota:** para poder registrar transacciones para un cliente plantilla, debe especificar una cuenta para dicho cliente en el campo **Cuenta de cliente plantilla** de la página **Parámetros de clientes**.</span><span class="sxs-lookup"><span data-stu-id="4235d-112">**Note:** Before you can post transactions for a one-time customer, you must specify an account to use for one-time customers in the **One-time customer account** field on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="4235d-113">Para España, puede especificar restricciones de usuario para la creacción de contratos de proyecto para clientes plantilla.</span><span class="sxs-lookup"><span data-stu-id="4235d-113">For Spain, you can restrict users from creating project contracts for one-time customers.</span></span> <span data-ttu-id="4235d-114">Para ello, realice los pasos siguientes:</span><span class="sxs-lookup"><span data-stu-id="4235d-114">To do this, complete the following steps:</span></span>
 
-1.  <span data-ttu-id="82380-115">Abra la página **Parámetros de gestión de proyectos y contabilidad**.</span><span class="sxs-lookup"><span data-stu-id="82380-115">Open the **Project management and accounting parameters** page.</span></span>
-2.  <span data-ttu-id="82380-116">Establezca el parámetro **No se permite usar clientes plantilla para contratos de proyectos** en **Verdadero**.</span><span class="sxs-lookup"><span data-stu-id="82380-116">Set the **No one-time customer for project contracts** parameter to **True**.</span></span>
-3.  <span data-ttu-id="82380-117">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="82380-117">Click **Save**.</span></span>
+1.  <span data-ttu-id="4235d-115">Abra la página **Parámetros de gestión de proyectos y contabilidad**.</span><span class="sxs-lookup"><span data-stu-id="4235d-115">Open the **Project management and accounting parameters** page.</span></span>
+2.  <span data-ttu-id="4235d-116">Establezca el parámetro **No se permite usar clientes plantilla para contratos de proyectos** en **Verdadero**.</span><span class="sxs-lookup"><span data-stu-id="4235d-116">Set the **No one-time customer for project contracts** parameter to **True**.</span></span>
+3.  <span data-ttu-id="4235d-117">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="4235d-117">Click **Save**.</span></span>
 
 
 
