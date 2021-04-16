@@ -2,11 +2,9 @@
 title: Visión general de las devoluciones del cliente
 description: Cree y utilice códigos de devolución y códigos de disposición para dar soporte al proceso de devolución de productos.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnReasonCodeLookup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c352c91ee9a6ae97d8cab12abb8a91e77a3d2b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a0f4d8825a4218b440affee3aad3d52902aef89f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247391"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824543"
 ---
 # <a name="customer-returns-overview"></a>Visión general de las devoluciones del cliente
 

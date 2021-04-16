@@ -2,11 +2,9 @@
 title: Planificar cargas y envíos mediante el área de trabajo de planificación de la carga
 description: Este tema muestra cómo usar el área de trabajo de planificación de cargas para crear una carga para un pedido de ventas.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 277b91944d8f7ee79bed9b85ee6ebd275e72c75b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0ef95dfc3dba8ef162d0be145a52b7153912cb77
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223299"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828260"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Planificar cargas y envíos mediante el área de trabajo de planificación de la carga
 

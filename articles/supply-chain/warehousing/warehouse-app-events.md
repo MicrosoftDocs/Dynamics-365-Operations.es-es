@@ -2,11 +2,9 @@
 title: Eventos de la aplicación de almacén
 description: Este tema describe el procesamiento de eventos de la aplicación de almacén que se usa para procesar mensajes de eventos de la aplicación de almacén como parte de un trabajo por lotes.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0bafcbd5306860cb80d6e813aabf83853a9011c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248652"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837402"
 ---
 # <a name="warehouse-app-event-processing"></a>Procesamiento de eventos de la aplicación de almacén
 
 [!include [banner](../includes/banner.md)]
 
-Los trabajos por lotes que se ejecutan en Supply Chain Management pueden usar datos de una cola para procesar eventos emitidos por la aplicación del almacén para reaccionar según sea necesario a los eventos señalados. Esta función agrega eventos relevantes a la cola en respuesta a ciertos tipos de acciones realizadas por los trabajadores que usan la aplicación. Un ejemplo es cuando se usa la característica **Crear y procesar pedidos de transferencia desde la aplicación de almacén**, el encabezado y las líneas de la orden de transferencia se crean y actualizan en el back-end cuando el sistema está ejecutando el trabajo por lotes **Procesar eventos de aplicaciones de almacén**.
+Los trabajos por lotes que se ejecutan en Supply Chain Management pueden usar datos de una cola para procesar eventos emitidos por la aplicación móvil Warehouse Management para reaccionar según sea necesario a los eventos señalados. Esta función agrega eventos relevantes a la cola en respuesta a ciertos tipos de acciones realizadas por los trabajadores que usan la aplicación. Un ejemplo es cuando se usa la característica *Crear y procesar pedidos de transferencia desde la aplicación de almacén*, el encabezado y las líneas de la orden de transferencia se crean y actualizan en el back-end cuando el sistema está ejecutando el trabajo por lotes **Procesar eventos de aplicaciones de almacén**.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Habilitar la función Procesar eventos de aplicación de almacén
 
@@ -50,7 +48,7 @@ Configure un trabajo por lotes programado para procesar los eventos de la aplica
 
 ## <a name="query-warehouse-app-events"></a>Eventos de la aplicación de almacén de consultas
 
-Puede ver la cola de eventos y los mensajes de eventos generados por la aplicación del almacén yendo a **Gestión de almacenes \> Consultas e informes \> Registros de dispositivos móviles \> Eventos de la aplicación de almacén**.
+Puede ver la cola de eventos y los mensajes de eventos generados por la aplicación móvil Warehouse Management yendo a **Gestión de almacenes \> Consultas e informes \> Registros de dispositivos móviles \> Eventos de la aplicación de almacén**.
 
 ## <a name="the-standard-event-queue-process"></a>El proceso de cola de eventos estándar
 

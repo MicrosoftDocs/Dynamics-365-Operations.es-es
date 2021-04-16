@@ -2,11 +2,9 @@
 title: Conversión de unidad de medida por variante del producto
 description: Este tema explica cómo configurar las conversiones de unidades de medida para variantes de producto. Incluye un ejemplo de configuración.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ddb6c614ede98e46e46ff284a1a16669bbaaaf66
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eaa20f9a8f145fa8d44bfe77cc85f4dc565c2d27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258056"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841512"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversión de unidad de medida por variante del producto
 

@@ -2,11 +2,9 @@
 title: Solución de problemas de reservas en gestión de almacenes
 description: Este tema describe cómo solucionar problemas comunes que pueden surgir al trabajar con reservas de almacenes en Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,18 +15,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a9a5d20732a802fc58c392853af8334bbc07de73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0d73396772ed9e8397797d6685fb550d911303b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248724"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828115"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>Solución de problemas de reservas en gestión de almacenes
 
 [!include [banner](../includes/banner.md)]
 
 Este tema describe cómo solucionar problemas comunes que pueden surgir al trabajar con reservas de almacenes en Microsoft Dynamics 365 Supply Chain Management.
+
+Para temas relacionados con los registros de lotes y números de serie, consulte [Solucionar problemas de jerarquías de reserva en serie y por lotes del almacén](troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md).
 
 ## <a name="i-receive-the-following-error-message-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations"></a>Aparece el mensaje de error: "No se pueden quitar las reservas porque se ha creado un trabajo que depende de ellas".
 
@@ -63,20 +63,6 @@ Este problema puede ocurrir si el sistema no puede actualizar una cantidad de in
 ### <a name="issue-resolution"></a>Solución del problema
 
 Este problema probablemente se deba al trabajo abierto. Completar el trabajo o recibir sin creación de trabajo. Asegúrese de que ninguna transacción de inventario esté reservando físicamente la cantidad. Por ejemplo, estas transacciones pueden ser pedidos de calidad, registros de bloqueo de inventario o pedidos de salida abiertos.
-
-## <a name="i-receive-the-following-error-message-to-be-assigned-to-wave-load-lines-must-specify-the-dimensions-above-the-location-to-assign-these-dimensions-reserve-and-recreate-the-load-line"></a>Recibo el siguiente mensaje de error: "Para ser asignado a la ola, las líneas de carga deben especificar las dimensiones por encima de la ubicación. Para asignar estas dimensiones, reserve y vuelva a crear la línea de carga ".
-
-### <a name="issue-description"></a>Descripción del problema
-
-Cuando utiliza un artículo que tiene una jerarquía de reserva "lote por encima" (con la dimensión **Número de lote** colocada *sobre* la dimensión **Ubicación**), el comando **Liberar al almacén** en la página **Banco de trabajo de planificación de carga** para una cantidad parcial no funciona. Recibe este mensaje de error y no se crea ningún trabajo para la cantidad parcial.
-
-Sin embargo, si utiliza un artículo que tiene una jerarquía de reserva "lote por debajo" (con la dimensión **Número de lote** colocada *bajo* la dimensión **Ubicación**), puede liberar una carga desde la página **Banco de trabajo de planificación de carga** para una cantidad parcial.
-
-### <a name="issue-resolution"></a>Solución del problema
-
-Este comportamiento se debe al diseño. Si pone una dimensión por encima de la dimensión **Ubicación** en la jerarquía de reservas, debe especificarse antes del lanzamiento al almacén. Microsoft ha evaluado este problema y ha determinado que es una limitación de funciones durante las versiones al almacén desde el entorno de trabajo de planificación de carga. Las cantidades parciales no se pueden liberar si no se especifican una o más dimensiones sobre **Ubicación**.
-
-Para obtener más información, consulte [Directiva de reserva de dimensión de nivel de almacén flexible](flexible-warehouse-level-dimension-reservation.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Pedidos de almacenes para unidades de escalado en el perímetro y en la nube
 description: Este tema proporciona información sobre la capacidad de pedidos de almacén que se utiliza como parte de la carga de trabajo de la unidad de escalada de almacén.
 author: perlynne
-manager: tfeyr
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
@@ -19,12 +17,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556371"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836695"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Pedidos de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -38,7 +36,7 @@ ms.locfileid: "5556371"
 
 Los *pedidos de almacén* son un tipo de pedido que se creó para admitir implementaciones de almacén de unidades de escalado y concentradores. Le permiten recibir inventario cuando está ejecutando una carga de trabajo de almacén en una unidad de escalado. Actualmente se utilizan solo con pedidos de compra.
 
-Los pedidos de almacén se utilizan como parte del procesamiento de la administración del almacén, como cuando la aplicación de almacén se utiliza para registrar el inventario físico disponible durante el procesamiento de un pedido de compra entrante. Los pedidos de almacén se crean como parte del proceso *Liberar al almacén* que está disponible para pedidos de compra que especifican un almacén de unidad de escalada y artículos que están habilitados para usar procesos de administración de almacén.
+Los pedidos de almacén se utilizan como parte del procesamiento de la administración del almacén, como cuando la aplicación móvil Warehouse Management se utiliza para registrar el inventario físico disponible durante el procesamiento de un pedido de compra entrante. Los pedidos de almacén se crean como parte del proceso *Liberar al almacén* que está disponible para pedidos de compra que especifican un almacén de unidad de escalada y artículos que están habilitados para usar procesos de administración de almacén.
 
 > [!IMPORTANT]
 > Los pedidos de almacén están disponibles solo en implementaciones que utilizan [cargas de trabajo de administración de almacenes para unidades de escalado de perímetro y en la nube](cloud-edge-workload-warehousing.md).
@@ -70,7 +68,7 @@ Para cancelar las líneas de pedido de almacén, siga estos pasos.
 
 ## <a name="monitor-a-warehouse-order"></a>Supervisar un pedido de almacén
 
-En la visualización **Líneas de pedido de almacén**, puede supervisar el progreso de la recepción entrante revisando los valores en la columna **Cantidad restante**. Para ver los detalles relacionados con el trabajo que se realiza mediante la aplicación del almacén, siga uno de estos pasos.
+En la visualización **Líneas de pedido de almacén**, puede supervisar el progreso de la recepción entrante revisando los valores en la columna **Cantidad restante**. Para ver los detalles relacionados con el trabajo que se realiza mediante la aplicación móvil Warehouse Management, siga uno de estos pasos.
 
 - Vaya a **Gestión de almacenes \> Consultas e informes \> Líneas de pedido de almacén** y use el filtro para encontrar las líneas que está buscando.
 - Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra** y abra el pedido de compra relevante. En la sección **Líneas de pedido de compra**, seleccione una o más líneas y luego, en la barra de herramientas, seleccione **Almacén \> Entradas de recepción de almacén**.

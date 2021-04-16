@@ -2,11 +2,9 @@
 title: Subcontratación
 description: Este tema le ayudará a compilar un tutorial de subcontratación en la fabricación en Dynamics 365 Supply Chain Management.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255550"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825191"
 ---
 # <a name="subcontracting"></a>Subcontratación
 
@@ -210,7 +208,7 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
 
     ![Dos conjuntos de trabajos para la selección de la materia prima en la página Trabajo](./media/subcontract22_work-page.png)
 
-26. Inicie la aplicación del almacén para procesar el trabajo del almacén para la operación 10.
+26. Inicie la aplicación móvil Warehouse Management para procesar el trabajo del almacén para la operación 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
     - En el campo **Desde n.º oper.** seleccione **10**.
     - En el campo **Hasta n.º oper.** seleccione **10**.
 
-    ![Valores definidos en la ficha General](./media/subcontract23_start-dialog.png)
+    ![Valores definidos en la ficha General 1](./media/subcontract23_start-dialog.png)
 
 31. Seleccione **Aceptar** para cerrar el cuadro **Inicio** y regresar a la página **Todos los pedidos de producción**.
 
     Tenga en cuenta que el estado del pedido de producción ahora es **Iniciado**. El material para la operación 10 es consumido por un registro automático del diario de lista de selección. El consumo de tiempo para la operación 10 se indica mediante un registro automático de un diario de tarjeta de ruta.
 
-32. Inicie la aplicación del almacén para procesar el trabajo del almacén para la operación 20.
+32. Inicie la aplicación móvil Warehouse Management para procesar el trabajo del almacén para la operación 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
     - En el campo **Cantidad**, especifique **10**.
     - Establezca la opción **Registrar ahora la lista de selección** en **No**.
 
-    ![Valores definidos en la ficha General](./media/subcontract24_general-tab.png)
+    ![Valores definidos en la ficha General 2](./media/subcontract24_general-tab.png)
 
 35. Seleccione **Aceptar** para cerrar el cuadro **Inicio** y regresar a la página **Todos los pedidos de producción**.
 

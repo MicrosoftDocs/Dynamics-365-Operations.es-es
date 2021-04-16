@@ -2,11 +2,9 @@
 title: Certificados de entrada de la UE
 description: Este artículo proporciona información acerca de los certificados de entrada en la Unión Europea (UE).
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustEntryCertificateJour_W, CustParameters, CustTable, SalesTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1f763bb818bbbbb4ced1ce03f175df725cebc4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5bf074f54448dd10f190263c09e731c4f4b7a61c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243572"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839779"
 ---
 # <a name="eu-entry-certificates"></a>Certificado de entrada de la UE
 

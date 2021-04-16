@@ -2,11 +2,9 @@
 title: Recuento de etiquetas de inventario
 description: En este tema se proporciona información sobre el recuento de etiquetas, que se usa para comparar el contenido real de un almacén con el inventario disponible.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCountTag
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78402840ad86a0f43d30b3c80307b4646fffbaeb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1df4a97dee3dc24856a1b40f3dc8dd095338b614
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216138"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825972"
 ---
 # <a name="inventory-tag-counting"></a>Recuento de etiquetas de inventario
 

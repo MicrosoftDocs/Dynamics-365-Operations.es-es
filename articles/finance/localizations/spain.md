@@ -2,11 +2,9 @@
 title: Visión general de España
 description: Este tema proporciona vínculos a recursos de documentación para España.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Spain
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5cb08bb62488d686c6f9c8c93071c27f2f115dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ab9394a6fda3b09ccf833c6619b03f3a0d43559b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228059"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825748"
 ---
 # <a name="spain-overview"></a>Visión general de España
 

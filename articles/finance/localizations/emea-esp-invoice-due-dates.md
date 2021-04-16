@@ -2,11 +2,9 @@
 title: Calcular las fechas de vencimiento y el informe en el período medio de pagos (España)
 description: Este tema proporciona información acerca de las fechas de vencimiento y el período medio de pagos para España.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 75aa395292635c47ff85d7efc25d1d424eef2ae7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 86582af935133825ab1b48280009911e693e19e7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252149"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839751"
 ---
 # <a name="calculate-due-dates-and-report-on-the-average-period-of-payments-spain"></a>Calcular las fechas de vencimiento y el informe en el período medio de pagos (España)
 

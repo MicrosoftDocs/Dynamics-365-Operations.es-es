@@ -2,11 +2,9 @@
 title: Visión general del plan de cargas mediante la consolidación de concentrador
 description: En este artículo se describe la característica de consolidación de envíos en un concentrador al entregar mercancías desde almacenes diferentes al mismo cliente, o cuando recibe mercancías de varios proveedores en el mismo almacén.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, TMSParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b599c953244109b56958c0fe02deedfa252973
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4f0e7ae8db62ce374b991ac5f117e3d1d33534df
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205211"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828475"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>Visión general del plan de cargas mediante la consolidación de concentrador
 

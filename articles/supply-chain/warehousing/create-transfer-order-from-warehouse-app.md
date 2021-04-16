@@ -1,12 +1,10 @@
 ---
 title: Crear pedidos de transferencia desde la aplicación de almacén
-description: Este tema describe cómo crear y procesar pedidos de transferencia desde la función de la aplicación de almacén.
+description: Este tema describe cómo crear y procesar pedidos de transferencia desde la función de la aplicación móvil de gestión de almacenes
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 855b057706bc2f8315084a3cebec6f855a4d01e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214139"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838379"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Crear pedidos de transferencia desde la aplicación de almacén
 
 [!include [banner](../includes/banner.md)]
 
-Esta característica permite a los trabajadores de almacén crear y procesar pedidos de transferencia directamente desde la aplicación de almacén. Los trabajadores del almacén comienzan seleccionando el almacén de destino y luego pueden escanear una o más placas con la aplicación para agregar placas a la orden de transferencia. Cuando el trabajador del almacén selecciona **Orden completa**, un trabajo por lotes creará la orden de transferencia requerida y las líneas de orden según el inventario disponible registrado para esas placas.
+Esta característica permite a los trabajadores de almacén crear y procesar pedidos de transferencia directamente desde la aplicación móvil de gestión de almacenes. Los trabajadores comienzan seleccionando el almacén de destino y luego pueden escanear una o más placas con la aplicación para agregar placas a la orden de transferencia. Cuando el trabajador del almacén selecciona **Orden completa**, un trabajo por lotes creará la orden de transferencia requerida y las líneas de orden según el inventario disponible registrado para esas placas.
 
-## <a name="enable-the-create-transfer-orders-from-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Habilitar la característica para crear pedidos de transferencia desde la aplicación de almacén
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Habilitar la característica para crear pedidos de transferencia desde la aplicación de almacén
 
 Antes de poder usar esta característica, esta y sus requisitos previos deben estar habilitados en su sistema. Los administradores pueden usar la página [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario.
 
@@ -50,8 +48,8 @@ A continuación, se incluyen pautas generales para configurar un elemento de men
 1. Seleccionar **Nuevo** para agregar un elemento de menú nuevo. Luego, realice los siguientes ajustes para comenzar:
 
     - **Nombre del elemento del menú** - Asigne un nombre como debería aparecer en Supply Chain Management.
-    - **Título** - Asigne un nombre de menú como se debe presentar a los trabajadores en la aplicación del almacén.
-    - **Modo** - Establezca en *Indirecto* (esta aplicación de almacén no creará trabajo).
+    - **Título** - Asigne un nombre de menú como se debe presentar a los trabajadores en la aplicación móvil de gestión de almacenes.
+    - **Modo** - Establezca en *Indirecto* (esta artículo de menú no creará trabajo).
     - **Código de actividad** - Ajustado como *Crear orden de transferencia a partir de matrículas* para permitir que los trabajadores del almacén creen una orden de transferencia basada en una o más placas escaneadas.
 
 1. Utilice la opción **Política de creación de línea de orden de transferencia** para controlar cómo las líneas de orden de transferencia serán creadas por este elemento de menú. Las líneas se crearán/actualizarán según el inventario disponible registrado para las matrículas escaneadas. Elija uno de los siguientes valores:
@@ -74,7 +72,7 @@ A continuación, se incluyen pautas generales para configurar un elemento de men
 
 ## <a name="create-a-transfer-order-based-on-license-plates"></a>Cree una orden de transferencia basada en matrículas
 
-La aplicación del almacén tiene un proceso simple para crear órdenes de transferencia basadas en matrículas. Para hacer esto, el trabajador hace lo siguiente usando la aplicación del almacén:
+La aplicación móvil de gestión de almacenes tiene un proceso simple para crear órdenes de transferencia basadas en matrículas. Para hacer esto, el trabajador hace lo siguiente usando la aplicación móvil de gestión de almacenes:
 
 1. Cree la orden de transporte e identifique el almacén de destino.
 1. Identifique cada placa que se enviará.
@@ -258,9 +256,9 @@ Para el ejemplo mencionado, dos **Eventos de la aplicación de almacén** (*Crea
 
 ### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Consultar los eventos de la aplicación del almacén
 
-Puede ver la cola de eventos y los mensajes de eventos generados por la aplicación del almacén yendo a **Gestión de almacenes \> Consultas e informes \> Registros de dispositivos móviles \> Eventos de la aplicación de almacén**.
+Puede ver la cola de eventos y los mensajes de eventos generados por la aplicación móvil Warehouse Management yendo a **Gestión de almacenes \> Consultas e informes \> Registros de dispositivos móviles \> Eventos de la aplicación de almacén**.
 
-Los mensajes de eventos *Crear orden de transferencia* recibirán el estado *Esperando*, lo que significa que el trabajo por lotes **Procesar eventos de aplicaciones de almacén** no recogerá ni procesará los mensajes de eventos. Tan pronto como el mensaje del evento se actualice al estado *Puesto en cola*, el trabajo por lotes procesará los eventos. Esto sucederá al mismo tiempo que la creación del evento *Orden de transferencia completa* (cuando un trabajador selecciona el botón **Orden completa** en la aplicación del almacén). Cuando los mensajes del evento *Crear orden de transferencia* se han procesado, el estado se actualiza a *Terminado* o *Error*. Cuando el estado *Orden de transferencia completa* se actualiza a *Terminado*, todos los eventos relacionados se eliminan de la cola.
+Los mensajes de eventos *Crear orden de transferencia* recibirán el estado *Esperando*, lo que significa que el trabajo por lotes **Procesar eventos de aplicaciones de almacén** no recogerá ni procesará los mensajes de eventos. Tan pronto como el mensaje del evento se actualice al estado *Puesto en cola*, el trabajo por lotes procesará los eventos. Esto sucederá al mismo tiempo que la creación del evento *Orden de transferencia completa* (cuando un trabajador selecciona el botón **Orden completa** en la aplicación móvil de gestión de almacenes). Cuando los mensajes del evento *Crear orden de transferencia* se han procesado, el estado se actualiza a *Terminado* o *Error*. Cuando el estado *Orden de transferencia completa* se actualiza a *Terminado*, todos los eventos relacionados se eliminan de la cola.
 
 Porque **Eventos de la aplicación de almacén** para la creación de datos de orden de transferencia no serán procesados por el trabajo por lotes antes de que los mensajes se actualicen al estado *Puesto en cola*, deberá buscar los números de orden de transferencia solicitados como parte del campo **Identificador**. El campo **Identificador** está en el encabezado de la página **Eventos de la aplicación de almacén**.
 
@@ -276,11 +274,11 @@ Para más información, vea [Procesamiento de eventos de la aplicación de almac
 
 Durante este escenario, se produce lo siguiente:
 
-1. Usando la aplicación del almacén, seleccionó un elemento de menú que usa el código de actividad **Crear orden de transferencia a partir de matrículas**.
+1. Usando la aplicación móvil de gestión de almacenes, seleccionó un elemento de menú que usa el código de actividad **Crear orden de transferencia a partir de matrículas**.
 1. La aplicación le pidió que seleccionara el almacén de destino para la orden de transferencia. El almacén de origen es siempre en el que está conectado actualmente como trabajador.
 1. En la selección del almacén de destino, el sistema reservó un número de identificación para la próxima orden de transferencia (basado en la secuencia de números de orden de transferencia definida en su sistema) pero aún no creó la orden de transferencia.
 1. Cuando escaneaste la matrícula *LP10* que contiene inventario disponible que debe trasladarse al nuevo almacén, un **Evento de aplicación de almacén** fue agregado a la cola de eventos para ser procesado más tarde. El evento del almacén contenía detalles del mensaje sobre el escaneo, incluido el número de orden de transferencia previsto.
-1. En la aplicación del almacén, cuando se selecciona el botón **Orden completa**, un nuevo evento de aplicación de almacén, **Orden de transferencia completa**, se crea y el evento existente relacionado, **Crear orden de transferencia**, cambia el estado a **Puesto en cola**.
+1. En la aplicación móvil de gestión de almacenes, cuando se selecciona el botón **Orden completa**, un nuevo evento de aplicación de almacén, **Orden de transferencia completa**, se crea y el evento existente relacionado, **Crear orden de transferencia**, cambia el estado a **Puesto en cola**.
 1. En la parte trasera, el **Proceso por lotes de eventos de aplicaciones de almacén** recogió el eveneto **Puesto en cola** y recogió lo disponible relacionado con la matrícula escaneada. Sobre la base de la disponibilidad, se crearon el registro de la orden de transporte real y las líneas asociadas. El trabajo también pobló el campo **Política de envío saliente** para la orden de transferencia con el valor basado en la configuración de *Liberar y enviar confirmar* y vinculó la matrícula con las líneas para la estrategia **Guiado por matrícula guiada**.
 1. Basado en el valor del campo **Política de envío saliente** de la línea de la orden de transferencia, la consulta **Liberación automática del trabajo por lotes de órdenes de transferencia** ahora resultó en la liberación de la orden de transferencia al almacén de envío. Y debido a la configuración de los valores usados para **Plantilla de onda**, **Plantilla de trabajo** y **Directivas de ubicación**, el trabajo tiene procesos automáticos que resultan en el **Estado de carga** actualizado como *Cargado*.
 1. **Procesar trabajo por lotes de envío saliente** se ejecuta para la carga, lo que resulta en el envío de la orden de transferencia y se genera el Aviso de envío anticipado (ASN).
@@ -294,13 +292,13 @@ Durante este escenario, se produce lo siguiente:
 
 La característica *Crear y procesar pedidos de transferencia desde la aplicación de almacén* debe habilitarse. Para más información, vea [Habilitar la creación de órdenes de transferencia desde la aplicación Warehouse](#enable-create-transfer-order-from-warehouse-app).
 
-### <a name="warehouse-app-processes"></a>Procesos de aplicación de almacén
+### <a name="warehouse-management-mobile-app-processes"></a>Procesos de la aplicación móvil de gestión de almacenes
 
 #### <a name="why-cant-i-see-the-menu-button-complete-order"></a>¿Por qué no puedo ver el botón de menú "Completar pedido"?
 
 Debe tener al menos una placa asignada a la orden de transferencia.
 
-#### <a name="can-several-warehouse-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>¿Pueden varios usuarios de aplicaciones de almacén agregar placas de matrícula a la misma orden de transferencia al mismo tiempo?
+#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>¿Pueden varios usuarios de la aplicación móvil de gestión de almacenes agregar placas de matrícula a la misma orden de transferencia al mismo tiempo?
 
 Sí, varios trabajadores del almacén pueden escanear matrículas en la misma orden de transferencia.
 
@@ -312,11 +310,11 @@ No, solo se puede agregar una placa a una orden de transferencia a la vez.
 
 No, no puede agregar más placas a una orden de transferencia que tiene un evento de aplicación de almacén **Orden de transferencia completa**.
 
-#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>¿Cómo puedo encontrar órdenes de transferencia existentes para usar a través del botón "Seleccionar orden de transferencia" en la aplicación del almacén, si la orden aún no se ha creado en el sistema backend?
+#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>¿Cómo puedo encontrar órdenes de transferencia existentes para usar a través del botón "Seleccionar orden de transferencia" en la aplicación móvil de gestión de almacenes, si la orden aún no se ha creado en el sistema backend?
 
 Actualmente, no puede buscar órdenes de transferencia en la aplicación, pero puede encontrar los números de las órdenes de transferencia en la página **Eventos de la aplicación de almacén**. Para más información, vea [Consultar los eventos de la aplicación de almacén](#inquire-the-warehouse-app-events).
 
-#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-app"></a>¿Puedo seleccionar manualmente el número de orden de transferencia que se utilizará desde la aplicación del almacén?
+#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>¿Puedo seleccionar manualmente el número de orden de transferencia que se utilizará desde la aplicación móvil de gestión de almacenes?
 
 Solo se admiten los números de orden de transferencia generados automáticamente mediante secuencias de números.
 

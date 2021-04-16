@@ -2,11 +2,9 @@
 title: Estados de inventario
 description: Este artículo describe cómo puede usar los estados de inventario para clasificar y realizar un seguimiento del inventario.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
-ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
+ms.openlocfilehash: e3c8b467f29037bbb869189e3607e11f40aad2c2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476708"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829869"
 ---
 # <a name="inventory-statuses"></a>Estados de inventario
 
@@ -45,10 +43,14 @@ El estado de inventario es una de las dimensiones del grupo de dimensiones de al
 
 Puede usar artículos de almacén que tengan estados de inventario disponible o no disponible para el trabajo de entrada. Por ejemplo, crea un estado disponible con el nombre *Listo*, un estado no disponible con el nombre *Dañado* y un estado bloqueado con el nombre *Bloqueado*. Cuando crea un pedido de compra para artículos recibidos o devueltos, si cualquier artículo está dañado o roto, puede cambiar el estado de inventario de esos artículos a *Dañado* en la línea de pedido de compra. Después de recibir estos artículos, el estado se establece automáticamente en *Bloqueado*. Si escanea los artículos dañados con un dispositivo móvil, Supply Chain Management puede usar los directorios de ubicación y las plantillas de trabajo para mostrar información acerca una ubicación apropiada o el intervalo de ubicaciones en las que puede ubicar esos artículos. Para los artículos devueltos, se crea un tipo de asunto de *Reserva* en la página **Transacciones de inventario**.
 
+Puede especificar qué estados de inventario son estados de bloqueo mediante las casillas de verificación **Bloqueo de inventario** en la página **Estados de inventario**. No puede usar los estados de inventario como estados de bloqueo para los pedidos de ventas, los pedidos de transferencia ni las integraciones de proyectos.
+
+Para el trabajo de salida, puede usar diferentes estados de inventario sin bloqueo para controlar qué inventario reservar. Si tiene artículos que tiene un estado de *Bloqueos*, y la planificación maestra se ejecuta en estos artículos, se considera que faltan los artículos y el inventario se reabastece automáticamente. Además, para los pedidos de calidad asociados con el trabajo de salida, no es posible actualizar el **Estado de inventario** como parte de la validación del pedido de calidad.
+
 > [!NOTE]
 > No puede cambiar el estado del inventario en ubicaciones donde existe trabajo abierto. Por ejemplo, si realizó una recepción de compra para un artículo, pero no realizó el paso de almacenamiento, existirá trabajo abierto para la ubicación de recepción y obtendrá un error si intenta cambiar el estado del inventario en esa ubicación. Completar o cancelar el trabajo relacionado le permitiría cambiar el estado.
- 
-Para el trabajo de salida, use artículos que tengan un estado de inventario de disponible. Si tiene artículos que tiene un estado de *Roto*, y la planificación maestra se ejecuta en estos artículos, se considera que faltan los artículos y el inventario se reabastece automáticamente.
+>
+> Por lo general, el estado del inventario disponible relacionado con el trabajo de almacén abierto solo lo cambian los trabajadores que utilizan la aplicación móvil Warehouse Management, por ejemplo, mientras ejecutan un proceso de movimiento.
 
 Una vez que configure estados de inventario, puede establecer el estado de inventario predeterminado para un sitio, artículo y almacén. También puede establecer un estado predeterminado para ventas, transferencia y pedidos de compra. El estado predeterminado para pedidos de ventas y el pedido de transferencia saliente no pueden tener la opción **Bloqueo del inventario** establecida en *Sí*. El estado de inventario que se hereda de la configuración predeterminada en un sitio, almacén, artículo, pedido de compra, pedido de transferencia o pedido de ventas se puede cambiarse mediante el dispositivo móvil, o en el pedido de compra, el pedido de ventas o la línea de pedido de transferencia.
 

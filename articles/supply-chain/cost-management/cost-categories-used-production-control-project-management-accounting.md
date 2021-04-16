@@ -2,11 +2,9 @@
 title: Categorías de coste usadas en el control de producción y en la contabilidad de la administración de proyectos
 description: Algunos tipos de trabajo de producción se pueden aplicar a estimaciones del tiempo del proyecto y a los informes. Este artículo proporciona información acerca de las categorías de coste que debe definir para estos tipos de trabajos de producción con fines de producción y del proyecto.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540d020820222b024f838f8156aaef823605e950
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bffb56fa195c040520ad35bbadaa90816f14dc2a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228716"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839472"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Categorías de coste usadas en el control de producción y en la contabilidad de la administración de proyectos
 

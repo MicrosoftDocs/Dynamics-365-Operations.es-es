@@ -2,11 +2,9 @@
 title: Solucionar problemas de operaciones de almacén de entrada
 description: Este tema describe cómo solucionar problemas comunes que pueden surgir al trabajar con operaciones de almacén de entrada en Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250891"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828235"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Solucionar problemas de operaciones de almacén de entrada
 
@@ -65,5 +63,22 @@ Una nueva función de manipulación de carga entrante, *Sobre recepción de cant
 
 Para más información, vea [Contabilice las cantidades de producto registradas contra las órdenes de compra](inbound-load-handling.md#post-registered-quantities).
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>Cuando registro pedidos entrantes, recibo el siguiente mensaje de error: "La cantidad no es válida".
+
+### <a name="issue-description"></a>Descripción del problema
+
+Si el campo **Directiva de agrupación de matrículas** está configurado en *Definido por el usuario* para un elemento de menú de dispositivo móvil que se utiliza para registrar pedidos entrantes, recibe un mensaje de error ("La cantidad no es válida") y no puede completar el registro.
+
+### <a name="issue-cause"></a>Causa del problema
+
+Cuándo *Definido por el usuario* se utiliza como una directiva de agrupación de matrículas, el sistema divide el inventario entrante en matrículas separadas, como lo indica el grupo de secuencia de unidades. Si se utilizan números de lote o de serie para rastrear el artículo que se está recibiendo, las cantidades de cada lote o serie deben especificarse por matrícula registrada. Si la cantidad que se especifica para una matrícula excede la cantidad que aún debe recibirse para las dimensiones actuales, recibirá el mensaje de error.
+
+### <a name="issue-resolution"></a>Solución del problema
+
+Cuando registra un elemento utilizando un elemento de menú de dispositivo móvil donde el campo **Directiva de agrupación de matrículas** el campo está configurado en *Definido por el usuario*, es posible que el sistema requiera que confirme o ingrese números de matrícula, números de lote o números de serie.
+
+En la página de confirmación de la matrícula, el sistema mostrará la cantidad asignada para la matrícula actual. En las páginas de confirmación del lote o de la serie, el sistema mostrará la cantidad que aún debe recibirse en la matrícula actual. También incluirá un campo donde puede ingresar la cantidad a registrar para esa combinación de placa y lote o número de serie. En este caso, asegúrese de que la cantidad que se está registrando para la matrícula no exceda la cantidad que aún debe recibirse.
+
+Alternativamente, si se generan demasiadas matrículas en el registro de pedidos entrantes, el valor del campo **Directiva de agrupación de matrículas** se puede cambiar a *Agrupación de matrículas*, se puede asignar un nuevo grupo de secuencia de unidades al artículo, o la opción **Agrupación de matrículas** para el grupo de secuencia de unidades se puede desactivar.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

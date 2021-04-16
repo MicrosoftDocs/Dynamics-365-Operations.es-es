@@ -2,11 +2,9 @@
 title: Envío de paquetes pequeños
 description: Este tema proporciona información acerca de la función de envío de paquetes pequeños (SPS). Esta característica permite a Microsoft Dynamics 365 Supply Chain Management enviar detalles sobre un contenedor empaquetado al transportista y luego recibir una etiqueta de envío, tarifa de envío y número de seguimiento de ese transportista.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501183"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831179"
 ---
 # <a name="small-parcel-shipping"></a>Envío de paquetes pequeños
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La función de envío de paquetes pequeños (SPS) permite a Microsoft Dynamics 365 Supply Chain Management interactuar directamente con los transportistas proporcionando un marco para la comunicación a través de las API del transportista. Esta funcionalidad es útil cuando envía pedidos de venta individuales a través de transportistas comerciales en lugar de utilizar el envío con contenedores o el envío inferior a clases de camión (LTL).
 

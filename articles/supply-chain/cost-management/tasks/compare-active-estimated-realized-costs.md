@@ -2,11 +2,9 @@
 title: Comparar los costes activos, estimados y realizados en un pedido de producción
 description: Este procedimiento muestra cómo ver los motivos de la alta desviación de producción para un pedido de producción.
 author: AndersGirke
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, CostSelectPeriodDialogForm, CostCalculationPeriodTopVariancesListFormPart, ProdTable, CostCalculationCompareDialog
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 38d8258c577cf64d41cf10ee5936719996eab0a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c77f7ba17d263c61719f3eaeeadd95ca7700286
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239551"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830229"
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>Comparar los costes activos, estimados y realizados en un pedido de producción
 

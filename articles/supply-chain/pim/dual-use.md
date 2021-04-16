@@ -2,11 +2,9 @@
 title: Bienes de doble uso
 description: En este tema se explica cómo realizar un seguimiento de productos identificados como de bienes de doble uso, almacenar números de certificados para cada producto relevante y país de destino, e imprimir números de certificados validos en facturas relevantes, albaranes y/o pedidos de ventas.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a6cc730f8d672d906072a9b97b737dbdea9faf2d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15e8696b2bfa9f1df3cecd2d98b9ad2f6c5d6000
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243210"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829483"
 ---
 # <a name="dual-use-goods"></a>Bienes de doble uso
 

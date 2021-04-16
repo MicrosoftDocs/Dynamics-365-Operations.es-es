@@ -2,11 +2,9 @@
 title: Clústeres de ubicación
 description: Los grupos de almacenamiento ofrecen una forma de elegir varias placas al mismo tiempo y luego llevarlas a almacenamiento en diferentes ubicaciones. Pueden ser muy útiles para negocios minoristas, donde las placas de matrícula generalmente no son paletas llenas de inventario.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228450"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840374"
 ---
 # <a name="putaway-clusters"></a>Clústeres de ubicación
 
@@ -230,7 +228,7 @@ Este escenario simula el procesamiento del clúster de almacenamiento.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Reciba y clasifique el inventario en un grupo
 
-1. Inicie sesión en la aplicación de almacén como un usuario configurado para el almacén *61*.
+1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario configurado para el almacén *61*.
 1. En el menú principal, seleccione **Entrada**.
 1. En el menú **Entrante**, seleccione **Recibir y ordenar clúster**.
 1. En el campo **Ponum**, introduzca el número de orden de compra.
@@ -272,7 +270,7 @@ Antes de que los elementos del clúster se puedan guardar, el clúster debe cerr
 
 #### <a name="put-the-cluster-away"></a>Guardar el clúster
 
-1. Inicie sesión en la aplicación de almacén como un usuario configurado para el almacén *61*.
+1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario configurado para el almacén *61*.
 1. En el menú principal, seleccione **Entrada**.
 1. En el menú **Entrante**, seleccione **Ubicación de clúster**.
 1. Seleccione **ID de clúster** e ingrese el ID de clúster que ingresó anteriormente para el clúster cerrado.

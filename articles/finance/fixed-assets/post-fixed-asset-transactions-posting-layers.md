@@ -2,11 +2,9 @@
 title: Registrar las transacciones de activos fijos para registrar capas
 description: Este artículo ofrece una visión general de la funcionalidad de la capa de registro para las transacciones de activos fijos.
 author: moaamer
-manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a52374d52b3dcd435c79033d462a2982316a68b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0d1c66df39c9712a5d4d26ba4eaa1ce079719c31
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240867"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833003"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Registrar las transacciones de activos fijos para registrar capas
 

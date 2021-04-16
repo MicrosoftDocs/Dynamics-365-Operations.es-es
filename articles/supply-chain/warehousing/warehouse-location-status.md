@@ -2,11 +2,9 @@
 title: Estado de ubicación de almacén
 description: En este tema se ofrece una visión general de la característica Estado de ubicación de almacén.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e343fbd33ca616b0e20efb1f1fd66ed4863a72dd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4f31fd424760aa677df9235e53dc4af20cc2ea94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248628"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837354"
 ---
 # <a name="warehouse-location-status"></a>Estado de ubicación de almacén
 
@@ -53,7 +51,7 @@ Antes de poder usar la característica *Estado de ubicación de almacén*, esta 
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>Preparar los datos de muestra necesarios para el escenario de ejemplo
 
-Antes de empezar a trabajar en el escenario, debe activar los datos de muestra y configurar la característica como se describe en esta sección. Para completar el escenario de ejemplo, debe usar la aplicación de almacén o el emulador basado en navegador. Los pasos que se proporcionan aquí usan la aplicación de almacén. Los pasos para el emulador basado en navegador son similares.
+Antes de empezar a trabajar en el escenario, debe activar los datos de muestra y configurar la característica como se describe en esta sección. Para completar el escenario de ejemplo, debe usar la aplicación móvil Warehouse Management o el emulador basado en navegador. Los pasos que se proporcionan aquí usan la aplicación móvil Warehouse Management. Los pasos para el emulador basado en navegador son similares.
 
 #### <a name="use-the-usmf-legal-entity"></a>Usar la entidad jurídica USMF
 

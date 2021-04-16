@@ -2,11 +2,9 @@
 title: Solucionar problemas de lanzamientos parciales y envíos parciales
 description: Este tema describe cómo solucionar problemas comunes que pueden surgir al trabajar con liberaciones parciales y envíos parciales en Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1c9246376505e163a4a41bf141a98deed0fd511f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5534099f81a97a1dcf4908784fd71dd03cf94eaf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263278"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828163"
 ---
 # <a name="troubleshoot-partial-releases-and-partial-shipments"></a>Solucionar problemas de lanzamientos parciales y envíos parciales
 
