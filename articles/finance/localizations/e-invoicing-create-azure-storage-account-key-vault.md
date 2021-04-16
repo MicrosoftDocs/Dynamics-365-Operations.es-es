@@ -2,11 +2,9 @@
 title: Crear una cuenta de almacenamiento en Azure y un almacén de claves
 description: Este tema explica cómo crear una cuenta de almacenamiento de Azure y un almacén de claves.
 author: gionoder
-manager: AnnBe
 ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
-ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
+ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2021
-ms.locfileid: "5479354"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840229"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Crear una cuenta de almacenamiento en Azure y un almacén de claves
 
@@ -44,7 +42,7 @@ En este tema, completará dos pasos principales:
 
 ## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a>Configure la cuenta de almacenamiento de Azure para obtener el URI de la cuenta de almacenamiento
 
-1. Abra la cuenta de almacenamiento que planea usar con el complemento de facturación electrónica.
+1. Abra la cuenta de almacenamiento que planea usar con la facturación electrónica.
 2. Ir **Servicio blob** \> **Contenedores** y cree un nuevo contenedor.
 3. Introduzca un nombre para el contenedor y establezca el campo **Nivel de acceso público** en **Privado (sin acceso anónimo)**.
 4. Abra el contenedor y vaya a **Configuraciones \> Directiva de acceso**.
@@ -63,12 +61,12 @@ En este tema, completará dos pasos principales:
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Configure el almacén de claves para almacenar el URI de la cuenta de almacenamiento
 
-1. Abra el almacén de claves que tiene intención de usar con el complemento de facturación electrónica.
+1. Abra el almacén de claves que tiene intención de usar con la facturación electrónica.
 2. Ir **Configuraciones** \> **Misterios** y luego seleccione **Generar/Importar** para crear un nuevo secreto.
 3. En la página **Crea un secreto**, en el campo **Opciones de carga**, seleccione **Manual**.
 4. Permite escribir el nombre del secreto. Este nombre se utilizará durante la configuración del servicio en el Servicio de configuración reguladora (RCS) y se denominará el *nombre secreto del almacén de claves*.
 5. En el campo **Valor**, seleccione **URI de firma de acceso compartido** y luego seleccione **Crear**.
-6. Configure la política de acceso para otorgar al complemento de facturación electrónica el nivel correcto de acceso seguro al secreto que creó. Ir **Configuraciones \> Política de acceso** y seleccione **Agregar política de acceso**.
+6. Configure la directiva de acceso para conceder a la facturación electrónica el nivel correcto de acceso seguro al secreto que creó. Ir **Configuraciones \> Política de acceso** y seleccione **Agregar política de acceso**.
 7. Establezca los permisos secretos para las operaciones **Obtener** y **Lista**.
 
     ![Otorgar acceso al servicio](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)

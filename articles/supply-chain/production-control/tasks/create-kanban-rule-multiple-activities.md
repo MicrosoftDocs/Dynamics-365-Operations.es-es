@@ -2,11 +2,9 @@
 title: Crear una regla kanban para varias actividades
 description: Este procedimiento muestra cómo crear una regla kanban que incluya varias actividades de un flujo de producción.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, KanbanFlowSelection, InventItemIdLookupSimple, KanbanCreateScheduled, Kanban
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcf507611d7f85800b2012e8372d5f91bbc8d724
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 828b01fbb3b94b1fcb9fe8a565b1191a4f4bf630
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255190"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829123"
 ---
 # <a name="create-a-kanban-rule-for-multiple-activities"></a>Crear una regla kanban para varias actividades
 

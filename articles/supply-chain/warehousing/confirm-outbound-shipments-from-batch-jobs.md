@@ -2,11 +2,9 @@
 title: Confirmar envíos salientes de trabajos por lotes
 description: Este tema describe cómo configurar un trabajo por lotes que confirma automáticamente los envíos de pedidos de transferencia salientes para cargas listas para enviar.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f4c4fd5e8cdea9a7fc05ec9cbc7866c44c6f78b2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 69e61e1c04dd72efbe1d2f028c078100e07176f6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243976"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838451"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Confirmar envíos salientes de trabajos por lotes
 
@@ -31,8 +29,8 @@ Este tema describe cómo configurar un trabajo por lotes que confirma automátic
 
 Antes de poder usar esta característica, debe estar habilitada en su sistema. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario. La característica aparece como:
 
-- **Módulo**: *Gestión de almacén*
-- **Nombre de la característica**: *Confirmar envíos salientes desde trabajos por lotes*
+- **Módulo** - *Gestión de almacén*
+- **Nombre de la característica** - *Confirmar envíos salientes desde trabajos por lotes*
 
 ## <a name="process-outbound-shipments"></a>Procesar envíos salientes
 
@@ -41,10 +39,10 @@ Para configurar un trabajo por lotes programado para ejecutar la confirmación d
 1. Vaya a **Gestión de almacenes \> Tareas periódicas \> Procesar envíos salientes**.
 1. El cuadro de diálogo **Confirmar envío** se abre. En la ficha desplegable **Registros a incluir**, seleccione **Filtro**.
 1. El cuadro de diálogo del editor de consultas se abre. En la pestaña **Intervalo**, agregue una fila con los siguientes valores:
-    - **Tabla**: *Cargas*
-    - **Tabla derivada**: *Cargas*
-    - **Campo**: *Estado de carga*
-    - **Criterios**: *Cargado*
+    - **Tabla** - *Cargas*
+    - **Tabla derivada** - *Cargas*
+    - **Campo** - *Estado de carga*
+    - **Criterios** - *Cargado*
 1. Seleccione **Aceptar** para volver al cuadro de diálogo **Confirmar envío**.
 1. En la ficha desplegable **Ejecutar en segundo plano**, establezca **Procesamiento por lotes** en **Sí**.
 1. En la ficha desplegable **Ejecutar en segundo plano**, seleccione **Periodicidad**.

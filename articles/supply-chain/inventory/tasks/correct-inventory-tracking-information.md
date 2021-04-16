@@ -2,11 +2,9 @@
 title: Corrección de información de seguimiento de inventario
 description: Este procedimiento le muestra el proceso de crear y registrar un diario de transferencia de inventario para corregir la información de seguimiento de inventario.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventBatchIdLookup, InventLocationIdLookup, InventDimTracking, InventTrans
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76e73f10df5bb520b6d0d787eda08053a5e33c81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d7bbb1f2e6128b1dea2be8dc737d5ae526195f08
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223419"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834082"
 ---
 # <a name="correct-inventory-tracking-information"></a>Corrección de información de seguimiento de inventario
 

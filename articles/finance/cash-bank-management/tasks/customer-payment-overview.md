@@ -2,11 +2,9 @@
 title: Visión general de pagos de cliente
 description: Esta guía de tareas le muestra los distintos métodos para introducir pagos de cliente.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e93703815d899baa7045f2c5f1e0323944e91c6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0721349529aa27247ed876ec8af6e0d16b5316e9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225426"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834773"
 ---
 # <a name="customer-payment-overview"></a>Visión general de pagos de cliente
 

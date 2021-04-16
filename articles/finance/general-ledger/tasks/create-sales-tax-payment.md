@@ -2,11 +2,9 @@
 title: Crear un pago de impuestos
 description: El procedimiento de la tarea de liquidar y registrar impuestos liquida los saldos de impuestos de las cuentas de impuestos y los anota como contrapartida en la cuenta de liquidación de impuestos para un período determinado.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9523ef75953bdca36f509f596c51c08b12b3fdb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5066689fb85dd176da1ca1561614e443cb87d816
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254472"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832763"
 ---
 # <a name="create-a-sales-tax-payment"></a>Crear un pago de impuestos
 

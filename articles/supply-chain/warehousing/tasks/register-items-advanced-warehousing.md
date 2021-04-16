@@ -1,12 +1,10 @@
 ---
-title: Registro de artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
-description: Este procedimiento muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes.
+title: Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
+description: Este tema presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes.
 author: ShylaThompson
-manager: tfehr
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
@@ -16,65 +14,66 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c25fb55afb01ed59b66045f24400e03e2ec60b2a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238903"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830843"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registro de artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
+# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimiento muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes. Esto lo realiza normalmente un empleado de recepción. 
+Este tema presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes. Esto lo realiza normalmente un empleado de recepción.
 
-Puede realizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Necesita tener un pedido de compra confirmado con una línea de pedido de compra abierta antes de comenzar esta guía. El artículo en la línea debe estar en existencias, no debe usar variantes de producto y no debe tener dimensiones de seguimiento. El artículo debe estar asociado con un grupo de dimensiones de almacenamiento habilitado con proceso de gestión de almacenes. El almacén que se usa debe estar habilitado para los procesos de gestión de almacén y la ubicación que usa para recepción debe controlada por matrículas de entidad de almacén. Si está usando USMF, puede usar la cuenta de empresa 1001, el almacén 51 y el artículo M9200 para crear su pedido de compra. 
+## <a name="enable-sample-data"></a>Habilitar datos de muestra
 
-Anote el número de pedido de compra que cree y también tenga en cuenta el código de artículo y el sitio que usó para la línea de pedido de compra.
+Para trabajar en este escenario utilizando los registros de muestra y los valores especificados en este tema, debe utilizar un sistema en el que estén instalados los datos de demostración estándar y debe seleccionar la entidad jurídica *USMF* antes de comenzar.
 
+En su lugar, puede trabajar en este escenario sustituyendo valores de sus propios datos siempre que tenga los siguientes datos disponibles:
 
-## <a name="create-an-item-arrival-journal-header"></a>Creación de un encabezado del diario de recepción de artículos
-1. Vaya a Recepción de artículos.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, escriba un valor.
-    * Si está usando USMF, puede escribir WHS. Si está usando otros datos, el diario cuyo nombre elija tiene que tener las siguientes propiedades: Comprobar ubicación de picking debe estar definido en No, y Gestión de cuarentena debe estar definido en No.  
-4. En el campo Número, escriba un valor.
-5. En el campo Sitio, escriba un valor.
-    * Seleccione el sitio que usó para la línea de pedido de compra. Esto servirá como valor predeterminado para todas las líneas del diario. Si ha usado el almacén 51 en USMF, elija el sitio 5.  
-6. En el campo Almacén, escriba un valor.
-    * Seleccione un almacén válido para el sitio que ha seleccionado. Esto servirá como valor predeterminado para todas las líneas del diario. Si está usando los valores de ejemplo en USMF, seleccione 51.  
-7. En el campo Ubicación, escriba un valor.
-    * Seleccione una ubicación válida en el almacén que ha seleccionado. La ubicación se tiene que asociar con un perfil de ubicación, que está controlado por matrículas de entidad de almacén. Esto servirá como valor predeterminado para todas las líneas del diario. Si está usando los valores de ejemplo en USMF, seleccione Bulk-008.  
-8. Haga clic con el botón secundario en la flecha desplegable del campo Matrícula de entidad de almacén y seleccione a continuación Ver detalles.
-9. Haga clic en Nuevo.
-10. En el campo Matrícula de entidad de almacén, escriba un valor.
-    * Anote el valor.  
-11. Haga clic en Guardar.
-12. Cierre la página.
-13. En el campo Matrícula de entidad de almacén, escriba un valor.
-    * Especifique el valor de la matrícula de entidad de almacén que acaba de crear. Esto servirá como valor predeterminado para todas las líneas del diario.  
-14. Haga clic en Aceptar
+- Debe tener un pedido de compra confirmada con una línea de pedido de compra abierta.
+- El artículo de la línea debe mantenerse en existencias. No debe utilizar variantes de producto y no debe tener dimensiones de seguimiento.
+- El artículo debe estar asociado con un grupo de dimensiones de almacenamiento habilitado con proceso de gestión de almacenes.
+- El almacén que se usa debe estar habilitado para los procesos de gestión de almacén y la ubicación que usa para recepción debe controlada por matrículas de entidad de almacén.
 
-## <a name="add-a-line"></a>Adición de una línea
-1. Haga clic en Agregar línea.
-2. En el campo Código de artículo, escriba un valor.
-    * Especifique el código de artículo que usó en la línea de pedido de compra.  
-3. En el campo Cantidad, especifique un número.
-    * Escriba la cantidad que desee registrar.  
-    * El campo Fecha determina la fecha en la que la cantidad disponible del artículo se registrará en el inventario.  
-    * El sistema rellenará el Id. de lote si se puede identificar de forma exclusiva con la información proporcionada. De lo contrario, tendrá que agregar esto manualmente. Esto es un campo obligatorio, que vincula este registro a una línea de documento de origen específica.  
+## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Cree un encabezado de diario de llegada de artículos que utilice la gestión de almacén
 
-## <a name="complete-the-registration"></a>Completar el registro
-1. Haga clic en Validar.
-    * Esto comprueba que el diario está listo para registrarse. Si se produce un error en la validación, tendrá que corregir los errores para poder registrar el diario.  
-2. Haga clic en Aceptar
-    * Una vez que haya hecho clic en Aceptar, compruebe el mensaje. Debe haber un mensaje que indica que el diario es correcto.  
-3. Haga clic en Registrar.
-4. Haga clic en Aceptar
-    * Una vez que haya hecho clic en Aceptar, compruebe la barra de mensajes. Debe haber un mensaje que indica que se ha completado la operación.  
-5. Cierre la página.
+El siguiente escenario muestra cómo crear un encabezado de diario de llegada de artículos que utiliza la gestión de almacén:
 
+1. Asegúrese de que su sistema contenga un pedido de compra confirmada que cumpla con los requisitos descritos en la sección anterior. Este escenario utiliza una orden de compra para la empresa *USMF*, cuenta de proveedor *1001*, almacén *51*, con una línea de pedido para *10 PL* (10 palets) del número de artículo *M9200*.
+1. Anote el número del pedido de compra que usará.
+1. Vaya a **Gestión del inventario \> Movimientos de diario \> Recepción de artículos \> Recepción de artículos**.
+1. En el panel Acciones, seleccione **Nuevo**.
+1. El cuadro de diálogo **Crear diario de administración de almacén** se abre. Seleccione un nombre de diario en el campo **Nombre**.
+    - Si va a utilizar los datos de demostración de la empresa *USMF*, seleccione *WHS*.
+    - Si está utilizando sus propios datos, el diario que elija debe tener **Verificar ubicación de picking** establecido en *No* y **Gestión de cuarentena** establecido en *No*.
+1. Establezca **Referencia** a *Pedido de compra*.
+1. Establezca **Número de cuenta** en *1001*.
+1. Establezca **Número** al número del pedido de compra que identificó para este ejercicio.
+
+    ![Diario de recepción de artículos](../media/item-arrival-journal-header.png "Diario de recepción de artículos")
+
+1. Seleccione **Aceptar** para crear el encabezado del diario.
+1. En la sección **Líneas de diario**, seleccione **Agregar línea** e introduzca los siguientes datos:
+    - Establezca **Número de artículo** en *M9200*. El **Sitio**, **Almacén**, y **Cantidad** se configurarán en función de los datos de la transacción de inventario para los 10 palés (1000 c / u).
+    - **Ubicación**: establecida en *001*. Esta ubicación específica no rastrea las matrículas.
+
+    ![Línea de diario de recepción de artículos](../media/item-arrival-journal-line.png "Línea de diario de recepción de artículos")
+
+    > [!NOTE]
+    > El campo **Fecha** determina la fecha en la que la cantidad disponible del artículo se registrará en el inventario.  
+    >
+    > El sistema rellenará el **Identificador de lote** si se puede identificar de forma exclusiva con la información proporcionada. De lo contrario, tendrá que introducir esto manualmente. Esto es un campo obligatorio, que vincula este registro a una línea de documento de origen específica.  
+
+1. En el panel de acciones, seleccione **Validar**. Esto comprueba que el diario está listo para registrarse. Si se produce un error en la validación, tendrá que corregir los errores para poder registrar el diario.  
+1. El cuadro de diálogo **Comprobar diario** se abre. Seleccione **Aceptar**.
+1. Revisar la barra de mensajes. Debe haber un mensaje que indica que se ha completado la operación.  
+1. En el panel de acciones, seleccione **Registrar**.
+1. El cuadro de diálogo **Registrar diario** se abre. Seleccione **Aceptar**.
+1. Revisar la barra de mensajes. Debe haber mensajes que indican que se ha completado la operación.
+1. Seleccione **Funciones > Recibo de producto** en el Panel de acciones para actualizar la línea del pedido de compra y publicar un recibo de producto.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

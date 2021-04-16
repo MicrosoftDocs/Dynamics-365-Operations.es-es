@@ -2,11 +2,9 @@
 title: Resumen de materiales peligrosos
 description: Este tema proporciona una descripción general de las características relacionadas con la manipulación y documentación de materiales peligrosos durante la gestión de información de productos y de almacén.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4ff997214f80d97f6e558d32fbf66663cbc84143
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231897"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829387"
 ---
 # <a name="hazardous-materials-overview"></a>Resumen de materiales peligrosos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Para seguir cumpliendo con las regulaciones de envío y transporte, las organizaciones que envían materiales clasificados como mercancías peligrosas deben incluir documentación adicional con sus envíos. La función de materiales peligrosos permite a los clientes almacenar información relacionada con los artículos despachados. Esta información se puede utilizar para ayudar a preparar la documentación de envío. Una organización que envía mercancías peligrosas debe tener sus propios procesos y procedimientos para gestionar el proceso de envío. Microsoft Dynamics 365 Supply Chain Management es solo una herramienta que puede ayudar a generar los documentos requeridos.
 

@@ -2,11 +2,9 @@
 title: Importar tipos de cambio de divisa
 description: Este tema proporciona información sobre los requisitos para importar tasas de referencia de divisa extranjera publicadas por los proveedores de tipo de cambio.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249128"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823749"
 ---
 # <a name="import-currency-exchange-rates"></a>Importar tipos de cambio de divisa
 
@@ -35,9 +33,8 @@ Las siguientes secciones describen el flujo de información que se utiliza para 
 ## <a name="configure-an-exchange-rate-provider"></a>Configurar un proveedor de tipo de cambio
 Para poder importar tipos de cambio, debe configurar la información requerida por los proveedores que ofrecen los tipos de cambio. Use la página **Configurar proveedores de tipo de cambio** para seleccionar los proveedores de tipo de cambio. Algunos proveedores de tipo de cambio se incluyen con los datos de demostración en Dynamics 365 Finance. En la siguiente tabla se proporcionan descripciones de los controles de este página.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Campo** | **Descripción**                                                                                                                                                                                                             |
+| Campo | Descripción                   |
+|-----------|-----------------------------------|
 | **Nombre**  | El nombre del proveedor de tipos de cambio.                                                                                                                                                                                     |
 | **Clave**   | El identificador único para cada fragmento de información de configuración que requiere el proveedor. Esta información se agrega automáticamente para cada proveedor de tipos de cambio que se agregue. |
 | **Valor** | Información para cada clave. Esta información se agrega para cada proveedor de tipos de cambio que se agregue.                                                                                         |
@@ -45,9 +42,8 @@ Para poder importar tipos de cambio, debe configurar la información requerida p
 ## <a name="import-currency-exchange-rates"></a>Importar tipos de cambio de divisa
 Puede importar tipos de cambio desde el origen de los proveedores del tipo de cambio y agregarlos a la página **Tipos de cambio de divisas**. Use la página **Importar tipos de cambio de divisa** para importar los tipos de cambio. La siguiente tabla proporciona descripciones de los campos necesarios para completar correctamente el proceso de importación.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Campo**                              | **Descripción**                                                                                                                                                                                                                                                                                                                                                             |
+| Campo | Descripción                   |
+|-----------|-----------------------------------|
 | **Tipo de cambio**                 | Un tipo de cambio.                                                                                                                                                                                                                                                                                                                                                      |
 | **Proveedor de tipos de cambio**             | Un proveedor de tipos de cambio.                                                                                                                                                                                                                                                                                                                                                  |
 | **Importar a partir de**                       | Este parámetro administra si importa a partir de la fecha actual o durante un intervalo de fechas específico. Si desea utilizar un intervalo de fecha, escriba o seleccione las fechas inicial y final.                                                                                                                                                                                                                |
