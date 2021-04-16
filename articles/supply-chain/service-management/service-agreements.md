@@ -2,11 +2,9 @@
 title: Visión general del desarrollo y establecimiento de acuerdos de servicio
 description: El acuerdo de servicio le permite definir los recursos utilizados en una visita de servicio típica y cómo se facturan dichos servicios al cliente.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86855e8893cdf5d6e53cb34465480ade06a6da95
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5f906beb4f239add265cf280f6bfade66cb9eadc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258503"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835951"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>Visión general del desarrollo y establecimiento de acuerdos de servicio
 

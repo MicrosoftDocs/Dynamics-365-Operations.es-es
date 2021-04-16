@@ -2,11 +2,9 @@
 title: Opciones de pagaré español
 description: Este tema describe opciones y cambios en la funcionalidad básica de pagarés implementada en Microsoft Dynamics 365 Finance para las entidades jurídicas en España.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters, BankPromissoryNoteTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 810614a44431f69c11f1e63ec2b6e7be4a11869f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 597332ab00068f096ca94ca44bb120d36ebc9cf1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260768"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823652"
 ---
 # <a name="spanish-promissory-note-options"></a>Opciones de pagaré español
 

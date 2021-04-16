@@ -2,11 +2,9 @@
 title: Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos
 description: Este tema explica el proceso de enviar facturas de proveedores al sistema de flujo de trabajo y hacer coincidir automáticamente las líneas de recepción de productos registradas con las facturas de proveedores.
 author: abruer
-manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534b5dbc54a516fea0b3f7090042d247c1076737
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84699746349024854a4eeb9cee62960ec38bc338
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231551"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827827"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos
 
@@ -41,7 +39,9 @@ El valor **Presentado por** en el flujo de trabajo es el ID de usuario que se in
 
 Como parte de un proceso de facturación de Cuentas por pagar sin contacto, el sistema puede hacer coincidir automáticamente los recibos de productos registrados con las líneas de facturación. Se debe definir una política de coincidencia de tres vías para esta tarea. Esta función está disponible si la función **Automatización de facturas de proveedores** se ha habilitado en la página **Gestión de funciones**.
 
-El proceso se ejecutará hasta que la cantidad recibida del producto coincidente sea igual a la cantidad de la factura. Como parte de este proceso, puede especificar el número máximo de veces que el sistema debe intentar hacer coincidir los recibos de productos con una línea de factura antes de concluir que el proceso falló. El proceso se ejecutará en segundo plano, ya sea cada hora o diariamente. Puede ejecutar el proceso de comparación automatizado como parte del proceso para enviar facturas al sistema de flujo de trabajo. Alternativamente, puede ejecutarlo como un proceso independiente. Los ajustes del proceso match-product-receipts-to-invoice-lines se configuran en la pestaña **Automatización de facturas de proveedores** de la página **Parámetros de cuentas por pagar** (**Cuentas por pagar \> Preparar \> Parámetros de cuentas por pagar**).
+El proceso de correspondencia se ejecutará hasta que la cantidad recibida del producto correspondiente sea igual a la cantidad de la factura. Sin embargo, si hay varios recibos de productos para una sola línea de factura, deberá ejecutar el proceso varias veces para lograr la coincidencia total de la cantidad. Puede especificar el número máximo de veces que el sistema debe intentar hacer coincidir los recibos de productos con una línea de factura antes de concluir que el proceso falló. El proceso se ejecutará en segundo plano, ya sea cada hora o diariamente. 
+
+Puede ejecutar el proceso de comparación automatizado como parte del proceso para enviar facturas al sistema de flujo de trabajo. Alternativamente, puede ejecutarlo como un proceso independiente. Los ajustes del proceso match-product-receipts-to-invoice-lines se configuran en la pestaña **Automatización de facturas de proveedores** de la página **Parámetros de cuentas por pagar** (**Cuentas por pagar \> Preparar \> Parámetros de cuentas por pagar**).
 
 Las líneas de factura que tienen una política de coincidencia de tres vías, donde la cantidad de recibo coincidente es menor que la cantidad de la factura, se incluirán en el proceso automatizado de coincidencia de recepción de producto.
 

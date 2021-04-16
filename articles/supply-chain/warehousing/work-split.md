@@ -2,11 +2,9 @@
 title: División del trabajo
 description: Este tema proporciona información sobre la funcionalidad de división de trabajo. Esta funcionalidad le permite dividir órdenes de trabajo grandes en varias órdenes de trabajo más pequeñas que luego puede asignar a varios trabajadores del almacén. De esta forma, el mismo trabajo puede ser recogido simultáneamente por varios trabajadores del almacén.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245091"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830771"
 ---
 # <a name="work-split"></a>División del trabajo
 
@@ -69,7 +67,7 @@ La función *Trabajo dividido* añade los siguientes dos botones a la pestña **
 >
 > - Actualmente, otro usuario está dividiendo el trabajo. Si intenta abrir la página de división para un trabajo que ya está siendo dividido por otro usuario, recibirá el siguiente mensaje de error: "El trabajo con ID \#\#\#\# actualmente se está dividiendo. Vuelva a intentarlo en unos minutos. Si continúa recibiendo este mensaje, comuníquese con un supervisor ".
 
-Una nueva razón para bloquear el trabajo, *Trabajo dividido*, indica cuando el ID de trabajo está en proceso de ser dividido. Se muestra tanto en la página **Trabajo dividido** como en la aplicación del almacén si un usuario intenta ejecutar el trabajo. Cuando se utilizan motivos de bloqueo, el nombre del campo **Ola bloqueada** del ID de trabajo se cambia a **Bloqueado**.
+Una nueva razón para bloquear el trabajo, *Trabajo dividido*, indica cuando el ID de trabajo está en proceso de ser dividido. Se muestra tanto en la página **Trabajo dividido** como en la aplicación móvil Warehouse Management si un usuario intenta ejecutar el trabajo. Cuando se utilizan motivos de bloqueo, el nombre del campo **Ola bloqueada** del ID de trabajo se cambia a **Bloqueado**.
 
 ## <a name="initiate-a-work-split"></a>Iniciar una división de trabajo
 
@@ -147,9 +145,9 @@ Para terminar de dividir el trabajo, debe eliminarse el motivo de bloqueo de *Tr
 
 Después de que se elimina la razón de bloqueo de *Trabajo dividido*, el trabajo se puede ejecutar en el dispositivo móvil, siempre que el estado **Bloqueado** esté configurado en *No* en la identificación del trabajo.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Bloqueo de usuarios en la aplicación del almacén
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Bloqueo de usuarios en la aplicación móvil Warehouse Management
 
-Si intenta utilizar la aplicación del almacén para ejecutar el trabajo de picking con un ID de trabajo que se está dividiendo, recibirá el siguiente mensaje de error: "El trabajo con ID \#\#\#\# se está dividiendo actualmente". Si recibe este mensaje, seleccione **Cancelar**. Luego puede continuar procesando otro trabajo.
+Si intenta utilizar la aplicación móvil Warehouse Management para ejecutar el trabajo de picking con un ID de trabajo que se está dividiendo, recibirá el siguiente mensaje de error: "El trabajo con ID \#\#\#\# se está dividiendo actualmente". Si recibe este mensaje, seleccione **Cancelar**. Luego puede continuar procesando otro trabajo.
 
 ## <a name="other-blocked-operations"></a>Otras operaciones bloqueadas
 

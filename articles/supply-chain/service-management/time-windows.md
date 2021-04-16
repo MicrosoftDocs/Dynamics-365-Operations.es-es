@@ -2,11 +2,9 @@
 title: Ventanas de plazo
 description: Puede usar ventanas de plazo para optimizar la programación de líneas de pedido de servicio.
 author: ShylaThompson
-manager: tfehr
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATimeAgreement
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40ab085c84b54e15030e73fe43909e616dccbdcd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 99a958c76e8bd31b57e3f89b2be45028c0597a58
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259659"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824303"
 ---
 # <a name="time-windows"></a>Ventanas de plazo  
 

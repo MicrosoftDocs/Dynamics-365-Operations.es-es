@@ -2,11 +2,9 @@
 title: Política de reserva de dimensión de nivel de almacén flexible
 description: Este tema describe la política de reserva de inventario que permite a las empresas que venden productos con seguimiento por lotes y ejecutan su logística como operaciones habilitadas para WMS reservar lotes específicos para pedidos de clientes, a pesar de que la jerarquía de reservas asociada con los productos no permite la reserva de lotes específicos.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,33 +13,33 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7d855914e59d90dd082c9e9a027604579a2f411
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 17ae3cc788c60917807acece2fc21f6c52d8ffe0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235421"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835687"
 ---
-# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensión de nivel de almacén flexible
+# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Directiva de reserva de dimensión de nivel de almacén flexible
 
 [!include [banner](../includes/banner.md)]
 
-Cuando una jerarquía de reserva de inventario de tipo "Batch-below\[ubicación\]" está asociada con productos, las empresas que venden productos con seguimiento de lotes y ejecutan su logística como operaciones habilitadas para Microsoft Dynamics 365 Warehouse Management System (WMS) no pueden reservar lotes específicos de esos productos para pedidos de clientes.
+Cuando una jerarquía de reserva de inventario de tipo *Batch-below\[ubicación\]* está asociada con productos, las empresas que venden productos con seguimiento de lotes y ejecutan su logística como operaciones habilitadas para Microsoft Dynamics 365 Warehouse Management System (WMS) no pueden reservar lotes específicos de esos productos para pedidos de clientes.
 
 De manera similar, las placas específicas no se pueden reservar para productos en pedidos de ventas cuando esos productos están asociados con la jerarquía de reserva predeterminada.
 
-Este tema describe la política de reserva de inventario que permite a estas empresas reservar lotes específicos o matrículas de entidad, incluso cuando los productos están asociados con una jerarquía de reservas "Batch-below\[ubicación\]".
+Este tema describe la política de reserva de inventario que permite a estas empresas reservar lotes específicos o matrículas de entidad, incluso cuando los productos están asociados con una jerarquía de reservas *Batch-below\[ubicación\]*.
 
 ## <a name="inventory-reservation-hierarchy"></a>Jerarquía de reservas de inventario
 
 Esta sección resume la jerarquía de reservas de inventario existente.
 
-La jerarquía de reservas de inventario dicta que, en lo que respecta a las dimensiones de almacenamiento, la orden de demanda lleva las dimensiones obligatorias de sitio, almacén y estado del inventario, mientras que la lógica de almacén es responsable de asignar una ubicación a las cantidades solicitadas y reservar la ubicación. En otras palabras, en las interacciones entre el pedido de demanda y las operaciones de almacén, se espera que el pedido de demanda indique de dónde debe enviarse el pedido (es decir, qué sitio y almacén). El almacén se basa en su lógica para encontrar la cantidad requerida en las instalaciones del almacén.
+La jerarquía de reserva de inventario dicta que, en lo que respecta a las dimensiones de almacenamiento, la orden de demanda lleva las dimensiones obligatorias del sitio, el almacén y el estado del inventario. En otras palabras, las dimensiones obligatorias son todas las dimensiones por encima de la dimensión de ubicación en la jerarquía de reservas, mientras que la lógica del almacén es responsable de asignar una ubicación a las cantidades solicitadas y reservar la ubicación. En las interacciones entre el pedido de demanda y las operaciones de almacén, se espera que el pedido de demanda indique de dónde debe enviarse el pedido (es decir, qué sitio y almacén). El almacén se basa en su lógica para encontrar la cantidad requerida en las instalaciones del almacén.
 
 Sin embargo, para reflejar el modelo operativo de la empresa, las dimensiones de seguimiento (números de serie y de lote) están sujetas a una mayor flexibilidad. Una jerarquía de reserva de inventario puede acomodar escenarios donde se aplican las siguientes condiciones:
 
-- El negocio se basa en sus operaciones de almacén para gestionar la recolección de cantidades que tienen números de lote o de serie después de que las cantidades se hayan encontrado en el espacio de almacenamiento de almacenamiento. Este modelo a menudo se conoce como *Batch-below\[ubicación\]*. Por lo general, se usa cuando la identificación de un lote o número de serie de un producto no es importante para los clientes que colocan la demanda en la empresa vendedora.
-- Si los números de lote o de serie son parte de la especificación de pedido de un cliente y se registran en el pedido de demanda, las operaciones de almacén que encuentran las cantidades en el almacén están restringidas por los números solicitados específicos y no se les permite cambiarlos. Este modelo a menudo se conoce como *Batch-above\[ubicación\]*.
+- El negocio se basa en sus operaciones de almacén para gestionar la recolección de cantidades que tienen números de lote o de serie *después* de que las cantidades se hayan encontrado en el espacio de almacenamiento de almacenamiento. Este modelo a menudo se conoce como *Batch-below\[ubicación\]* o *Serial-below\[ubicación\]*. Por lo general, se usa cuando la identificación de un lote o número de serie de un producto no es importante para los clientes que colocan la demanda en la empresa vendedora.
+- El negocio se basa en sus operaciones de almacén para gestionar la recolección de cantidades que tienen números de lote o de serie *antes* de que las cantidades se hayan encontrado en el espacio de almacenamiento de almacenamiento. Si los números de lote o de serie son parte necesaria de la especificación de pedido de un cliente y se registran en el pedido de demanda y las operaciones de almacén que encuentran las cantidades en el almacén no se les permite cambiarlos. Este modelo se conoce como *Batch-above\[ubicación\]* o *Serial-above\[ubicación\]*. Debido a que las dimensiones anteriores a la ubicación son los requisitos específicos para las demandas que deben cumplirse, la lógica del almacén no las asignará. Estas dimensiones **deben** siempre especificarse en el pedido de demanda o en las reservas relacionadas.
 
 En estos escenarios, el desafío es que solo se puede asignar una jerarquía de reserva de inventario a cada producto lanzado. Por lo tanto, para que el WMS maneje los artículos rastreados, una vez que la asignación de la jerarquía determina cuándo se debe reservar el lote o el número de serie (cuando se toma la orden de demanda o durante el trabajo de selección de almacén), este momento no se puede cambiar ad hoc.
 
@@ -49,16 +47,16 @@ En estos escenarios, el desafío es que solo se puede asignar una jerarquía de 
 
 ### <a name="business-scenario"></a>Escenario empresarial
 
-En este escenario, una compañía usa una estrategia de inventario donde se hace un seguimiento de los productos terminados por número de lote. Esta compañía también usa la carga de trabajo de WMS. Debido a que esta carga de trabajo tiene una lógica bien equipada para planificar y ejecutar operaciones de picking y envío de almacén para artículos habilitados por lotes, la mayoría de los artículos terminados están asociados con una jerarquía de reservas de inventario "Batch-below\[ubicación\]". La ventaja de este tipo de configuración operativa es que las decisiones (que son efectivamente decisiones de reserva) sobre qué lotes elegir y dónde colocarlas en el almacén se posponen hasta que comiencen las operaciones de selección del almacén. No se toman cuando se realiza el pedido del cliente.
+En este escenario, una compañía usa una estrategia de inventario donde se hace un seguimiento de los productos terminados por número de lote. Esta compañía también usa la carga de trabajo de WMS. Debido a que esta carga de trabajo tiene una lógica bien equipada para planificar y ejecutar operaciones de picking y envío de almacén para artículos habilitados por lotes, la mayoría de los artículos terminados están asociados con una jerarquía de reservas de inventario *Batch-below\[ubicación\]*. La ventaja de este tipo de configuración operativa es que las decisiones (que son efectivamente decisiones de reserva) sobre qué lotes elegir y dónde colocarlas en el almacén se posponen hasta que comiencen las operaciones de selección del almacén. No se toman cuando se realiza el pedido del cliente.
 
-Aunque la jerarquía de reservas "Batch-below\[ubicación\]" sirve bien a los objetivos comerciales de la compañía, muchos de los clientes establecidos de la compañía requieren el mismo lote que compraron previamente cuando reordenan productos. Por lo tanto, la compañía busca flexibilidad en la forma en que se manejan las reglas de reserva de lotes, de modo que, dependiendo de la demanda de los clientes por el mismo artículo, ocurran los siguientes comportamientos:
+Aunque la jerarquía de reservas *Batch-below\[ubicación\]* sirve bien a los objetivos comerciales de la compañía, muchos de los clientes establecidos de la compañía requieren el mismo lote que compraron previamente cuando reordenan productos. Por lo tanto, la compañía busca flexibilidad en la forma en que se manejan las reglas de reserva de lotes, de modo que, dependiendo de la demanda de los clientes por el mismo artículo, ocurran los siguientes comportamientos:
 
 - Se puede registrar y reservar un número de lote cuando el procesador de ventas toma el pedido, y no se puede cambiar durante las operaciones de almacén ni otras demandas. Este comportamiento ayuda a garantizar que el número de lote que se solicitó se envíe al cliente.
 - Si el número de lote no es importante para el cliente, las operaciones del almacén pueden determinar un número de lote durante el trabajo de recolección, después de que se haya realizado el registro y la reserva del pedido de ventas.
 
 ### <a name="allowing-reservation-of-a-specific-batch-on-the-sales-order"></a>Permitir la reserva de un lote específico en el pedido de ventas
 
-Para admitir la flexibilidad deseada en el comportamiento de reserva de lotes para artículos que están asociados con una jerarquía de reservas de inventario "Batch-below\[ubicación\]", los gerentes de inventario deben seleccionar la casilla **Permitir reserva bajo pedido** para el nivel de **Número de lote** en la página **Jerarquías de reservas de inventario**.
+Para admitir la flexibilidad deseada en el comportamiento de reserva de lotes para artículos que están asociados con una jerarquía de reservas de inventario *Batch-below\[ubicación\]*, los gerentes de inventario deben seleccionar la casilla **Permitir reserva bajo pedido** para el nivel de **Número de lote** en la página **Jerarquías de reservas de inventario**.
 
 ![Hacer que la jerarquía de reservas de inventario sea flexible](media/Flexible-inventory-reservation-hierarchy.png)
 
@@ -69,25 +67,25 @@ Cuando se selecciona en la jerarquía el nivel de **Número de lote**, todas las
 >
 > **Número de lote** y **Matrícula de entidad** es el único nivel en la jerarquía que está abierto para la política de reserva flexible. En otras palabras, no puede seleccionar la casilla **Permitir reserva bajo pedido** para el nivel **Ubicación** o **Número de serie**.
 >
-> Si su jerarquía de reservas incluye la dimensión del número de serie (que siempre debe estar por debajo del nivel de **Número de lote**) y si ha activado la reserva específica de lote para el número de lote, el sistema continuará manejando las operaciones de reserva y selección de número de serie, de acuerdo con las reglas que se aplican a la política de reserva "Serial-below\[ubicación\]".
+> Si su jerarquía de reservas incluye la dimensión del número de serie (que siempre debe estar por debajo del nivel de **Número de lote**) y si ha activado la reserva específica de lote para el número de lote, el sistema continuará manejando las operaciones de reserva y selección de número de serie, de acuerdo con las reglas que se aplican a la directiva de reserva *Serial-below\[ubicación\]*.
 
-En cualquier momento, puede permitir una reserva específica de lote para la jerarquía de reservas "Batch-below\[ubicación\]" en su implementación. Este cambio no afectará ninguna reserva ni el trabajo de almacén abierto que se creó antes de que ocurriera el cambio. Sin embargo, la casilla de verificación **Permitir reserva bajo pedido** no se puede desactivar si las transacciones de inventario de tipo de problema **Pedido reservado**, **Cantidad física reservada** o **Cantidad pedida** existen para uno o más elementos que están asociados con esa jerarquía de reservas.
+En cualquier momento, puede permitir una reserva específica de lote para la jerarquía de reservas *Batch-below\[ubicación\]* en su implementación. Este cambio no afectará ninguna reserva ni el trabajo de almacén abierto que se creó antes de que ocurriera el cambio. Sin embargo, la casilla de verificación **Permitir reserva bajo pedido** no se puede desactivar si las transacciones de inventario de tipo de problema **Pedido reservado**, **Cantidad física reservada** o **Cantidad pedida** existen para uno o más elementos que están asociados con esa jerarquía de reservas.
 
 > [!NOTE]
 > Si la jerarquía de reservas existente de un artículo no permite la especificación de lotes en el pedido, puede reasignarla a una jerarquía de reservas que sí permita la especificación de lotes, siempre que la estructura de nivel de jerarquía sea la misma en ambas jerarquías. Utilice la función **Cambiar jerarquía de reservas para artículos** para hacer la reasignación. Este cambio puede ser pertinente cuando desea evitar la reserva flexible de lotes para un subconjunto de artículos rastreados por lotes, pero permitirlo para el resto de la cartera de productos.
 
-Independientemente de si ha seleccionado la casilla **Permitir reserva bajo pedido**, si no desea reservar un número de lote específico para el artículo en una línea de pedido, la lógica de operaciones de almacén predeterminada que es válida para una jerarquía de reservas "Batch-below\[ubicación\]" seguirá siendo aplicable.
+Independientemente de si ha seleccionado la casilla **Permitir reserva bajo pedido**, si no desea reservar un número de lote específico para el artículo en una línea de pedido, la lógica de operaciones de almacén predeterminada que es válida para una jerarquía de reservas *Batch-below\[ubicación\]* seguirá siendo aplicable.
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Reservar un número de lote específico para un pedido del cliente
 
-Después de que la jerarquía de reservas de inventario "Batch-below\[ubicación\]" de un artículo con seguimiento por lotes está configurada para permitir la reserva de números de lote específicos en pedidos de venta, los procesadores de pedidos de venta pueden tomar pedidos de clientes para el mismo artículo de una de las siguientes maneras, dependiendo de la solicitud del cliente:
+Después de que la jerarquía de reservas de inventario *Batch-below\[ubicación\]* de un artículo con seguimiento por lotes está configurada para permitir la reserva de números de lote específicos en pedidos de venta, los procesadores de pedidos de venta pueden tomar pedidos de clientes para el mismo artículo de una de las siguientes maneras, dependiendo de la solicitud del cliente:
 
 - **Introducir los detalles del pedido sin especificar un número de lote**: este enfoque debe usarse cuando la especificación de lote del producto no es importante para el cliente. Todos los procesos existentes que están asociados con el manejo de un pedido de este tipo del sistema permanecen sin cambios. No se requieren consideraciones adicionales por parte de los usuarios.
 - **Introducir los detalles del pedido y reservar un número de lote específico**: este enfoque debe usarse cuando el cliente solicita un lote específico. Por lo general, los clientes solicitarán un lote específico cuando reordenen un producto que compraron previamente. Este tipo de reserva específica de lote se conoce como *reserva comprometida con el pedido*.
 
 El siguiente conjunto de reglas es válido cuando se procesan cantidades y se confirma un número de lote para un pedido específico:
 
-- Para permitir la reserva de un número de lote específico para un artículo bajo la política de reserva "Batch-below\[ubicación\]", el sistema debe reservar todas las dimensiones a través de la ubicación. Este rango generalmente incluye la dimensión de la matrícula de entidad de almacén.
+- Para permitir la reserva de un número de lote específico para un artículo bajo la directiva de reserva *Batch-below\[ubicación\]*, el sistema debe reservar todas las dimensiones a través de la ubicación. Este rango generalmente incluye la dimensión de la matrícula de entidad de almacén.
 - Las directivas de ubicación no se utilizan cuando el trabajo de selección se crea para una línea de ventas que utiliza la reserva de lotes confirmada por pedido.
 - Durante el procesamiento del trabajo en el almacén para lotes confirmados por pedido, ni el usuario ni el sistema pueden cambiar el número de lote. (Este procesamiento incluye el control de excepciones).
 
@@ -131,19 +129,19 @@ Para este ejemplo, los datos de prueba deben estar instalados y debe usar los da
 2. Seleccione **Nuevo**.
 3. En el encabezado del pedido de venta, en el campo **Cuenta de cliente**, ingrese **US-003**.
 4. Agregue una línea para el nuevo artículo y escriba **10** como cantidad. Asegúrese de que el campo **Almacén** se haya definido como **24**.
-5. En la ficha desplegable **Líneas de pedido de venta**, seleccione **Inventario** y, luego, en el grupo **Mantener**, seleccione **Reserva de lotes**. La página **Reserva de lotes** muestra una lista de los lotes disponibles para la reserva para la línea de pedido. En este ejemplo, muestra una cantidad de **20** para el número de lote **B11** y una cantidad de **10** para el número de lote **B22**. Tenga en cuenta que no se puede acceder a la página **Reserva de lotes** desde una línea si el elemento en esa línea está asociado con la jerarquía de reservas "Batch-below\[ubicación\]" a menos que esté configurado para permitir reservas específicas de lote.
+5. En la ficha desplegable **Líneas de pedido de venta**, seleccione **Inventario** y, luego, en el grupo **Mantener**, seleccione **Reserva de lotes**. La página **Reserva de lotes** muestra una lista de los lotes disponibles para la reserva para la línea de pedido. En este ejemplo, muestra una cantidad de **20** para el número de lote **B11** y una cantidad de **10** para el número de lote **B22**. Tenga en cuenta que no se puede acceder a la página **Reserva de lotes** desde una línea si el elemento en esa línea está asociado con la jerarquía de reservas *Batch-below\[ubicación\]* a menos que esté configurado para permitir reservas específicas de lote.
 
     > [!NOTE]
     > Para reservar un lote específico para un pedido de venta, debe utilizar la página **Reserva de lotes**.
     >
-    > Si introduce el número de lote directamente en la línea de pedido de venta, el sistema se comportará como si ingresara un valor de lote específico para un artículo que está sujeto a la política de reserva "Batch-below\[ubicación\]". Cuando guarde la línea, recibirá un mensaje de advertencia. Si confirma que el número de lote debe especificarse directamente en la línea de pedido, la línea no será manejada por la lógica de administración de almacén regular.
+    > Si introduce el número de lote directamente en la línea de pedido de venta, el sistema se comportará como si ingresara un valor de lote específico para un artículo que está sujeto a la política de reserva *Batch-below\[ubicación\]*. Cuando guarde la línea, recibirá un mensaje de advertencia. Si confirma que el número de lote debe especificarse directamente en la línea de pedido, la línea no será manejada por la lógica de administración de almacén regular.
     >
-    > Si reserva la cantidad en la página **Reserva**, no se reservará ningún lote específico y la ejecución de las operaciones de almacén para la línea seguirá las reglas que se aplican en la política de reserva "Batch-below\[ubicación\]".
+    > Si reserva la cantidad en la página **Reserva**, no se reservará ningún lote específico y la ejecución de las operaciones de almacén para la línea seguirá las reglas que se aplican en la política de reserva *Batch-below\[ubicación\]*.
 
-    En general, esta página funciona y se interactúa de la misma manera que funciona y se interactúa con los elementos que tienen una jerarquía de reservas asociada del tipo "Batch-above\[ubicación\]". Sin embargo, se aplican las siguientes excepciones:
+    En general, esta página funciona y se interactúa de la misma manera con los elementos que tienen una jerarquía de reservas asociada del tipo *Batch-above\[ubicación\]*. Sin embargo, se aplican las siguientes excepciones:
 
     - La ficha desplegable **Números de lote comprometidos con la línea de origen** muestra los números de lote que están reservados para la línea de pedido. Los valores del lote en la cuadrícula se mostrarán durante todo el ciclo de cumplimiento de la línea de pedido, incluidas las etapas de procesamiento del almacén. Por el contrario, en la ficha desplegable **Visión general**, la reserva de línea de pedido regular (es decir, la reserva que se realiza para las dimensiones por encima del nivel **Ubicación**) se muestra en la cuadrícula hasta el punto en que se crea el trabajo de almacén. La entidad de trabajo se hace cargo de la reserva de línea y la reserva de línea ya no aparece en la página. La ficha desplegable **Números de lote comprometidos con la línea de origen** ayuda a garantizar que el procesador de pedidos de ventas pueda ver los números de lote que se comprometieron con el pedido del cliente en cualquier momento durante su ciclo de vida, hasta la facturación.
-    - Además de reservar un lote específico, un usuario puede seleccionar manualmente la ubicación y la placa específica del lote en lugar de permitir que el sistema las seleccione automáticamente. Esta capacidad está relacionada con el diseño del mecanismo de reserva de lotes confirmado por pedido. Como se mencionó anteriormente, cuando se reserva un número de lote para un artículo bajo la política de reserva "Batch-below\[ubicación\]", el sistema debe reservar todas las dimensiones a través de la ubicación. Por lo tanto, el trabajo en el almacén tendrá las mismas dimensiones de almacenamiento que fueron reservadas por los usuarios que trabajaron con los pedidos, y puede que no siempre represente la ubicación de almacenamiento del artículo que sea conveniente, o incluso posible, para las operaciones de picking. Si los procesadores de pedidos conocen las restricciones del almacén, pueden querer seleccionar manualmente las ubicaciones específicas y las placas de matrícula cuando reservan un lote. En este caso, el usuario debe usar la funcionalidad de **Mostrar dimensiones** en el encabezado de la página y debe agregar la ubicación y la matrícula en la cuadrícula en la ficha desplegable **Visión general**.
+    - Además de reservar un lote específico, un usuario puede seleccionar manualmente la ubicación y la placa específica del lote en lugar de permitir que el sistema las seleccione automáticamente. Esta capacidad está relacionada con el diseño del mecanismo de reserva de lotes confirmado por pedido. Como se mencionó anteriormente, cuando se reserva un número de lote para un artículo bajo la política de reserva *Batch-below\[ubicación\]*, el sistema debe reservar todas las dimensiones a través de la ubicación. Por lo tanto, el trabajo en el almacén tendrá las mismas dimensiones de almacenamiento que fueron reservadas por los usuarios que trabajaron con los pedidos, y puede que no siempre represente la ubicación de almacenamiento del artículo que sea conveniente, o incluso posible, para las operaciones de picking. Si los procesadores de pedidos conocen las restricciones del almacén, pueden querer seleccionar manualmente las ubicaciones específicas y las placas de matrícula cuando reservan un lote. En este caso, el usuario debe usar la funcionalidad de **Mostrar dimensiones** en el encabezado de la página y debe agregar la ubicación y la matrícula en la cuadrícula en la ficha desplegable **Visión general**.
 
 6. En la página **Reserva de lotes**, seleccione la línea para el lote **B11** y luego seleccione **Reservar línea**. No existe una lógica designada para asignar ubicaciones y placas durante la reserva automática. Puede introducir manualmente la cantidad en el campo **Reserva**. Tenga en cuenta que, en la ficha desplegable **Números de lote comprometidos con la línea de origen**, el lote **B11** se muestra como **Comprometido**.
 
@@ -172,7 +170,7 @@ Para este ejemplo, los datos de prueba deben estar instalados y debe usar los da
     El trabajo que maneja la operación de picking para cantidades de lote que se comprometen con la línea de pedido de ventas tiene las siguientes características:
 
     - Para crear trabajo, el sistema usa plantillas de trabajo pero no directivas de ubicación. Todas las configuraciones estándar que se definen para las plantillas de trabajo, como un número máximo de líneas de selección o una unidad de medida específica, se aplicarán para determinar cuándo se debe crear un nuevo trabajo. Sin embargo, las reglas asociadas con las directivas de ubicación para identificar ubicaciones de selección no se tienen en cuenta, ya que la reserva confirmada por pedido ya especifica todas las dimensiones del inventario. Esas dimensiones de inventario incluyen las dimensiones en el nivel de almacenamiento del almacén. Por lo tanto, el trabajo hereda esas dimensiones sin tener que consultar las directivas de ubicación.
-    - El número de lote no se muestra en la línea de selección (como es el caso de la línea de trabajo que se crea para un artículo que tiene asociada una jerarquía de reservas "Batch-above\[ubicación\]"). En cambio, el número de lote "desde" y todas las demás dimensiones de almacenamiento se muestran en la transacción de inventario de trabajo de la línea de trabajo a la que se hace referencia desde las transacciones de inventario asociadas.
+    - El número de lote no se muestra en la línea de selección (como es el caso de la línea de trabajo que se crea para un artículo que tiene asociada una jerarquía de reservas *Batch-above\[ubicación\]*). En cambio, el número de lote "desde" y todas las demás dimensiones de almacenamiento se muestran en la transacción de inventario de trabajo de la línea de trabajo a la que se hace referencia desde las transacciones de inventario asociadas.
 
         ![Transacción de inventario de almacén para el trabajo que se origina en la reserva comprometida con el pedido](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
@@ -215,7 +213,7 @@ Puede habilitar la reserva de matrículas en el pedido en cualquier punto de su 
 
 Incluso si la casilla **Permitir reserva bajo pedido** está seleccionada para **Matrícula de entidad**, todavía es posible *no* reservar una matrícula de entidad de almacén específica en el pedido. En este caso, se aplica la lógica de operaciones de almacén predeterminada que es válida para la jerarquía de reservas.
 
-Para reservar una matrícula de entidad de almacén específica, debe usar un proceso [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). En la aplicación, puede hacer esta reserva directamente desde un pedido de ventas utilizando la opción **Reservas confirmadas por pedido por matrícula de entidad de almacén** del comando **Abrir en Excel**. En los datos de la entidad que se abren en el complemento de Excel, debe especificar los siguientes datos relacionados con la reserva y luego seleccionar **Publicar** para enviar los datos nuevamente a Supply Chain Management:
+Para reservar una matrícula específica, debe usar un proceso de [Protocolo de datos abiertos (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). En la aplicación, puede hacer esta reserva directamente desde un pedido de cliente utilizando la opción **Reservas comprometidas por pedido por matrícula** del comando **Abrir en Excel**. En los datos de la entidad que se abren en el complemento de Excel, debe especificar los siguientes datos relacionados con la reserva y luego seleccionar **Publicar** para enviar los datos nuevamente a Supply Chain Management:
 
 - Referencia (solo el valor *Órdenes de venta* es compatible).
 - Número de pedido (el valor puede derivarse del lote).
@@ -409,7 +407,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Anular ubicación</strong> en la aplicación de almacén al comenzar a seleccionar trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Anular ubicación</strong> en la aplicación móvil de administración de almacén al comenzar a seleccionar trabajo.</li>
 <li>Seleccione <strong>Sugerir</strong>.</li>
 <li>Confirme la nueva ubicación que se sugiere según la disponibilidad de la cantidad de lote.</li>
 </ol>
@@ -423,10 +421,10 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>No aplicable</td>
 </tr>
 <tr>
-<td>Nº</td>
+<td>N.º</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Anular ubicación</strong> en la aplicación de almacén al comenzar a seleccionar trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Anular ubicación</strong> en la aplicación móvil de administración de almacén al comenzar a seleccionar trabajo.</li>
 <li>Introduzca manualmente una ubicación.</li>
 </ol>
 </td>
@@ -454,7 +452,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>No aplicable</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Completo</strong> en la aplicación de almacén al procesar la selección de trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Completo</strong> en la aplicación móvil de administración de almacén al procesar la selección de trabajo.</li>
 <li>En el campo <strong>Cant. picking</strong>, introduzca una cantidad parcial de la selección requerida para indicar la capacidad total.</li>
 </ol>
 </td>
@@ -529,7 +527,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Inicie un movimiento en la aplicación de almacén.</li>
+<li>Iniciar un movimiento en la aplicación móvil Gestión de almacenes.</li>
 <li>Especifique las ubicaciones de origen y destino.</li>
 </ol></td>
 <td>
@@ -645,7 +643,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacén al ejecutar la selección de trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Shortpick</strong> en la aplicación móvil de administración de almacén al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Seleccionar cantidad</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, introduzca <strong>Sin reasignación</strong>.</li>
 </ol>
@@ -674,7 +672,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacén al ejecutar la selección de trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Shortpick</strong> en la aplicación móvil de administración de almacén al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Seleccionar cantidad</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, introduzca <strong>Sin reasignación</strong>.</li>
 </ol>
@@ -698,7 +696,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacén al ejecutar la selección de trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Shortpick</strong> en la aplicación móvil de administración de almacén al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Cantidad de selección corta</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, seleccione <strong>Selección corta con reasignación manual</strong>.</li>
 <li>Seleccione la ubicación/matrícula en la lista.</li>
@@ -721,10 +719,10 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 </tr>
 <tr>
 <td>Se ha configurado una excepción de trabajo del tipo <strong>Selección corta</strong> donde <strong>Reasignación de artículos</strong> = <strong>Manual</strong>, <strong>Ajustar inventario</strong> = <strong>Sí</strong> y <strong>Eliminar reservas</strong> = <strong>No</strong>. Además, la opción <strong>Permitir reasignación manual de artículos</strong> está habilitada en el trabajador.</td>
-<td>Nº</td>
+<td>N.º</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacén al ejecutar la selección de trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Shortpick</strong> en la aplicación móvil de administración de almacén al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Cantidad de selección corta</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, seleccione <strong>Selección corta con reasignación manual</strong>.</li>
 </ol>
@@ -734,10 +732,10 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 </tr>
 <tr>
 <td>Se ha configurado una excepción de trabajo del tipo <strong>Selección corta</strong> donde <strong>Reasignación de artículos</strong> = <strong>Manual</strong>, <strong>Ajustar inventario</strong> = <strong>Sí</strong> y <strong>Eliminar reservas</strong> = <strong>Sí</strong>. Además, la opción <strong>Permitir reasignación manual de artículos</strong> está habilitada en el trabajador.</td>
-<td>Nº</td>
+<td>N.º</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacén al ejecutar la selección de trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Shortpick</strong> en la aplicación móvil de administración de almacén al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Cantidad de selección corta</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, seleccione <strong>Selección corta con reasignación manual</strong>.</li>
 <li>Seleccione la ubicación/matrícula en la lista.</li>
@@ -761,7 +759,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>No aplicable</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacén al ejecutar la selección de trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Shortpick</strong> en la aplicación móvil de administración de almacén al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Cantidad de selección corta</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, seleccione <strong>Selección corta con reasignación automática</strong>.</li>
 </ol>
@@ -853,6 +851,14 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
     - Órdenes de transferencia y selección de materia prima.
 
 - La regla de consolidación de contenedores para el embalaje por unidad directiva tiene limitaciones. Para las reservas confirmadas por pedido, le recomendamos que no use plantillas de compilación de contenedores donde el campo **Unidad de directiva de empaque** esté habilitado. En el diseño actual, las directivas de ubicación no se utilizan cuando se crea el trabajo de almacén. Por lo tanto, solo la unidad más baja en el grupo de secuencia de unidades (la unidad de inventario) se aplica durante el paso de oleada de contenedorización.
+
+## <a name="see-also"></a>Consulte también
+
+- [Números de lote en gestión de almacenes](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
+- [Reserva del mismo lote para un pedido de ventas](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Seleccionar el lote más antiguo en un dispositivo móvil](pick-oldest-batch.md)
+- [Confirmación de lote y matrícula](batch-and-license-plate-confirmation.md)
+- [Solución de problemas de reservas en gestión de almacenes](troubleshoot-warehouse-reservations.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

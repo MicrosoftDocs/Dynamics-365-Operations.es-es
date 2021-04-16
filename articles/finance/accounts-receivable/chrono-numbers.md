@@ -2,11 +2,9 @@
 title: Numeración cronológica de documentos y vales
 description: Este tema explica cómo configurar y utilizar números cronológicos para documentos aplicables y vales relacionados.
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a27b6fdd1e244fb0cb8c5fcefc484494aeb88bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254539"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838870"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numeración cronológica de documentos y vales
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 En algunos países, existe el requisito legal de numerar los documentos y los vales relacionados en orden cronológico. La cronología debe estar organizada por períodos. Todos los números que pertenecen a períodos anteriores deben ser menores que los números que pertenecen a períodos posteriores. Para cumplir con este requisito, se ha implementado la funcionalidad de numeración cronológica. Este tema explica cómo configurar y utilizar números cronológicos para documentos aplicables y vales relacionados.
 

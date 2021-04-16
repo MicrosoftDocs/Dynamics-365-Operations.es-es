@@ -2,11 +2,9 @@
 title: Posición de matrícula de entidad de almacén de ubicación
 description: El posicionamiento de la ubicación de la matrícula de entidad le permite ver dónde se encuentra una matrícula de entidad en una ubicación de paletas múltiples, como una ubicación que utiliza estanterías de paletas de doble profundidad.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: cfab8c36adb08f799305a153589926bfc1ae31fe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217110"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831395"
 ---
 # <a name="location-license-plate-positioning"></a>Posición de matrícula de entidad de almacén de ubicación
 

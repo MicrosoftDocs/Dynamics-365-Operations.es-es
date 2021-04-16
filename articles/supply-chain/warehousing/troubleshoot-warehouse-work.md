@@ -2,11 +2,9 @@
 title: Solucionar problemas de trabajo de almacén
 description: Este tema describe cómo solucionar problemas comunes que pueden surgir al trabajar con trabajo de almacenes en Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08cc074fe851b952ebfc942ae3d1cb05240d3b91
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237068"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837450"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Solucionar problemas de trabajo de almacén
 
@@ -40,11 +38,11 @@ No puede mover una matrícula usando un elemento de menú **Movimiento** si el n
 
 Este problema se solucionará con los cambios implementados en [KB 4571546](https://fix.lcs.dynamics.com/Issue/Details?kb=4571546&bugId=467880&dbType=3&qc=5b46d7faa9cc326cebfe9854cb30be8ea30b21ef33d3572c325fbb21202de687). Esos cambios harán que el campo opcional **Número de serie** cuando se permiten recibo en blanco y emisión en blanco.
 
-## <a name="i-receive-the-following-error-message-in-the-warehouse-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Recibo el siguiente mensaje de error en la aplicación del almacén cuando proceso movimientos: "El propietario del inventario %1 no está permitido en este proceso".
+## <a name="i-receive-the-following-error-message-in-the-warehouse-management-mobile-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Recibo el siguiente mensaje de error en la aplicación móvil Warehouse Management cuando proceso movimientos: "El propietario del inventario %1 no está permitido en este proceso".
 
 ### <a name="issue-description"></a>Descripción del problema
 
-La dimensión de seguimiento **Propietario** falta cuando se utiliza la aplicación del almacén para realizar movimientos. Un diario de transferencia de inventario regular del cliente de Supply Chain Management parece funcionar según lo previsto y solo se puede registrar si la dimensión **Propietario** se completa.
+La dimensión de seguimiento **Propietario** falta cuando se utiliza la aplicación móvil Warehouse Management para realizar movimientos. Un diario de transferencia de inventario regular del cliente de Supply Chain Management parece funcionar según lo previsto y solo se puede registrar si la dimensión **Propietario** se completa.
 
 ### <a name="issue-resolution"></a>Solución del problema
 

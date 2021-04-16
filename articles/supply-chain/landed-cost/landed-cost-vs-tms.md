@@ -2,7 +2,6 @@
 title: Administración de costes descargados frente a transporte
 description: Microsoft Dynamics 365 Supply Chain Management proporciona dos módulos diferentes para trabajar con el transporte, la gestión del transporte (TMS) y el costo de aterrizaje. Este tema resume la funcionalidad que los dos módulos tienen en común y destaca las diferencias entre ellos.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500727"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833866"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Administración de costes descargados frente a transporte
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management proporciona dos módulos diferentes para trabajar con el transporte: **gestión del transporte** (TMS) y **coste descargado**. Este tema resume la funcionalidad que los dos módulos tienen en común y destaca las diferencias entre ellos. Puede utilizar esta información para decidir qué módulo se adapta mejor a sus prácticas comerciales. Es posible que descubra que algunas prácticas comerciales funcionan mejor con TMS, mientras que otras funcionan mejor con el costo de aterrizaje. Luego, dependiendo de los requisitos de su negocio, puede optar por utilizar un módulo exclusivamente, o puede combinar los dos módulos.
 
@@ -158,15 +156,15 @@ Tanto el TMS como el Landed cost proporcionan funcionalidad para administrar la 
 
 ### <a name="tms-receiving-by-container-features"></a>Características de recepción por contenedor en TMS
 
-TMS admite ASN entrantes, todas las variantes de recepción a través de la aplicación de almacén y todos los métodos de recepción a través del cliente de Supply Chain Management.
+TMS admite ASN entrantes, todas las variantes de recepción a través de la aplicación móvil Warehouse Management y todos los métodos de recepción a través del cliente de Supply Chain Management.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Características de recepción por contenedor en el coste descargado
 
 Para respaldar la recepción por contenedor, Landed Cost crea registros de contenedores de envío y asocia las órdenes de compra con un contenedor de envío específico mediante el uso de su ID de contenedor. Los costos generales se pueden aplicar a ese contenedor de envío y desglosarlos para que estén asociados con las órdenes de compra relevantes.
 
-Los contenedores con costo de entrega se pueden recibir a través de un nuevo tipo de recibo que se conoce como *recibo de mercancías en tránsito*, a través de diarios de llegada, o mediante la recepción de dispositivos móviles. Cuando se utilizan diarios de llegada, las cantidades se pueden inicializar a partir de las mercancías en la orden de tránsito o las líneas de la orden de compra original en el contenedor. El costo de entrega proporciona dos tipos de trabajo para recibir a través de la aplicación del almacén.
+Los contenedores con costo de entrega se pueden recibir a través de un nuevo tipo de recibo que se conoce como *recibo de mercancías en tránsito*, a través de diarios de llegada, o mediante la recepción de dispositivos móviles. Cuando se utilizan diarios de llegada, las cantidades se pueden inicializar a partir de las mercancías en la orden de tránsito o las líneas de la orden de compra original en el contenedor. El costo de entrega proporciona dos tipos de trabajo para recibir a través de la aplicación móvil Warehouse Management.
 
-El costo de entrega no proporciona un ASN para la recepción electrónica de mercancías. Además, no admite los flujos de aplicaciones de almacén que procesan la recepción de carga, la recepción de matrículas o la recepción de matrículas mixtas.
+El costo de entrega no proporciona un ASN para la recepción electrónica de mercancías. Además, no admite los flujos de aplicación móvil Warehouse Management que procesan la recepción de carga, la recepción de matrículas o la recepción de matrículas mixtas.
 
 ## <a name="rate-shopping-by-vendor"></a>Calificar las compras por proveedor
 
