@@ -2,11 +2,9 @@
 title: Control de calidad
 description: Este tema proporciona información acerca de la característica Control de calidad. Esta característica permite que los trabajadores del almacén realicen verificaciones rápidas de calidad mientras reciben artículos en la zona del muelle de llegada.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 31afcfcb9d8dbb91f4ea4e3e7a7282c2a87328d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228474"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838235"
 ---
 # <a name="quality-check"></a>Control de calidad
 
@@ -301,7 +299,7 @@ Una vez que se ha creado el pedido de compra, se puede recibir utilizando el ele
 
 #### <a name="receive-pallet-1"></a>Recibir pallet1
 
-1. Inicie sesión en la aplicación de almacén como un usuario en el almacén *51*. (Escriba *51* como el identificador de usuario y *1* como la contraseña).
+1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario del almacén *51*. (Escriba *51* como el identificador de usuario y *1* como la contraseña).
 1. Vaya a **Entrante \> Recepción de línea de pedido**.
 1. En el campo **PONUM**, introduzca el número de orden de compra.
 1. Confirme el número pedido de compra.

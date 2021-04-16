@@ -1,12 +1,10 @@
 ---
-title: Digitalizar códigos de barras mediante una cámara en la aplicación de almacén
-description: Este tema explica cómo configurar la aplicación de almacén para digitalizar códigos de barras mediante una cámara en un dispositivo móvil.
+title: Digitalizar códigos de barras mediante una cámara en la aplicación Gestión de almacenes
+description: Este tema explica cómo configurar la aplicación móvil Warehouse Management para digitalizar códigos de barras mediante una cámara en un dispositivo móvil.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 01/03/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
@@ -16,41 +14,38 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 28a49736f43bd2d3bfd4c6856f2f87079a005ba2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2f61f9c45b95b730a7f1743963658ec00abfbb56
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239311"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831227"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Digitalizar códigos de barras mediante una cámara en la aplicación de almacén
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>Digitalizar códigos de barras mediante una cámara en la aplicación Gestión de almacenes
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar la aplicación de almacén para digitalizar códigos de barras mediante una cámara en un dispositivo móvil. 
-
-## <a name="prerequisites"></a>Requisitos previos
-Para utilizar esta característica, debe tener instalada la versión 1.2.0.0 de la aplicación de almacén y su dispositivo debe tener una cámara. Cuando abra la aplicación después de actualizarla, se le solicitará que permita a la aplicación usar la cámara. Si su dispositivo no tiene cámara, no se mostrará ningún mensaje y no podrá utilizar una cámara como escáner. 
+Este tema explica cómo configurar la aplicación móvil Warehouse Management para digitalizar códigos de barras mediante una cámara en un dispositivo móvil.
 
 ## <a name="setup"></a>Configurar
-En la configuración de visualización de la aplicación de almacén, puede seleccionar si la cámara debe utilizarse para la digitalización de códigos de barras. Si habilita la opción **Usar la cámara como escáner**, puede usar la cámara en cada campo de entrada que tenga el modo de entrada preferido establecido en **Exploración**. 
 
-Para controlar si un campo de entrada debe ser escaneable, en la página **Nombres de campo de aplicación Warehouse**, establezca **Modo de entrada preferido** en **Exploración**. Cuando se selecciona esta opción, se puede usar una cámara para escanear en la aplicación de almacén. Para obtener información sobre cómo configurar nombres de campo en Warehousing, consulte [Configurar nombres de campo de aplicación en la aplicación de almacén](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+En la configuración de visualización de la aplicación móvil Warehouse Management, puede seleccionar si la cámara debe utilizarse para la digitalización de códigos de barras. Si habilita la opción **Usar la cámara como escáner**, puede usar la cámara en cada campo de entrada que tenga el modo de entrada preferido establecido en **Exploración**.
+
+Para controlar si un campo de entrada debe ser escaneable, en la página **Nombres de campo de aplicación Warehouse**, establezca **Modo de entrada preferido** en **Exploración**. Cuando se selecciona esta opción, se puede usar una cámara para escanear en la aplicación móvil Warehouse Management. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="supported-bar-code-formats"></a>Formatos de códigos de barras admitidos
-Se admiten los formatos de códigos de barras más comúnes, incluido el Código 128, el Código 39, el Código 93, EAN-8, EAN-13, UPC-E, UPC-A y códigos QR. 
+
+Se admiten los formatos de códigos de barras más comúnes, incluido el Código 128, el Código 39, el Código 93, EAN-8, EAN-13, UPC-E, UPC-A y códigos QR.
 
 ## <a name="navigation"></a>Navegación
-La página de la cámara se iniciará en cada página donde el campo de entrada tenga el modo de entrada preferido establecido en Exploración, cuando se encuentre en la página Cámara, use las siguientes opciones para navegar:
-- Haga clic en el botón Atrás para volver a la página de tarea y detalles. 
-- Haga clic en el lápiz en la página de tarea y detalles para pasar a la página donde puede escribir la entrada manualmente.
-- Haga clic en la cámara en la página de tarea y detalles para volver a la página Cámara. 
 
-| Página de tarea y detalles | Página de la cámara | 
-| :---------------------: | :--------------------: |
-| ![Página de detalles de tarea de ejemplo de escaneo de cámara](./media/camera-scanning-example-task-detail-page50.png)          | ![Ejemplo de escaneo de cámara, página de cámara más pequeña](./media/camera-scanning-example-camera-page50.png)          |
+La página de la cámara se iniciará en cada página donde el campo de entrada tenga el **Modo de entrada preferido** establecido en *Exploración*, cuando se encuentre en la página Cámara, use las siguientes opciones para navegar:
 
-En la página de la cámara, al hacer clic en el botón Cámara, aparecerá atenuada mientras trata de identificar un código de barras. Si no se identifica un código de barras en menos de 5 segundos, el proceso se pondrá en tiempo de espera y el botón Cámara volverá a estar disponible. A continuación, podrá intentar escanear de nuevo un código de barras.
+- Seleccione el botón Atrás para volver a la página de **Tarea y detalles**.
+- Seleccione el lápiz en la página de **Tarea y detalles** para pasar a la página donde puede escribir la entrada manualmente.
+- Seleccione la cámara en la página de **Tarea y detalles** para volver a la página Cámara.
+
+En la página de la cámara, al seleccionar el botón Cámara, aparecerá atenuada mientras trata de identificar un código de barras. Si no se identifica un código de barras en menos de 5 segundos, el proceso se pondrá en tiempo de espera y el botón cámara volverá a estar disponible. A continuación, podrá intentar escanear de nuevo un código de barras.
 
 Cuando apunte la cámara a un código de barras, mantenga el código de barras alineado entre los corchetes para lograr un mejor resultado. Cuando un código de barras se digitaliza correctamente, el resultado se procesará y pasará al siguiente paso. Si el siguiente paso contiene otro campo de entrada con el modo de entrada preferido establecido en Exploración, la página de la cámara se volverá a iniciar. Si el paso siguiente no es un campo de exploración, la página de la cámara no se iniciará.
 

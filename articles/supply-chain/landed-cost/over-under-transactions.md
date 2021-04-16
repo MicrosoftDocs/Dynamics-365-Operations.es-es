@@ -2,7 +2,6 @@
 title: Transacciones de exceso o falta
 description: Este tema proporciona información que ayuda a configurar los detalles de las políticas de transacciones excesivas / insuficientes, de modo que el sistema pueda determinar cómo gestionar el procesamiento excesivo y el procesamiento insuficiente de mercancías en el momento de la recepción.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500991"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833746"
 ---
 # <a name="overunder-transactions"></a>Transacciones de exceso o falta
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cuando se procesan los pedidos de un viaje, el sistema espera que la cantidad de artículo que se recibe en el almacén de destino final para consumo coincida con la cantidad especificada en las líneas de pedido de compra asociadas con el viaje. Sin embargo, debido a que la cantidad exacta en las líneas de la orden de compra no siempre se recibe en el almacén, el módulo **Coste de aterrizaje** define un conjunto de reglas que se utilizan para manejar la recepción excesiva y la recepción insuficiente de bienes. Estas reglas son especialmente importantes porque la orden de compra original se ha facturado y ya no se puede modificar. Al configurar los detalles de las políticas de transacciones excesivas / insuficientes, habilita el sistema para determinar cómo gestionar el procesamiento excesivo y el procesamiento insuficiente de mercancías en el momento de la recepción. También puede administrar manualmente el inventario por encima y por debajo de la página **Transacciones por encima/por debajo**.
 

@@ -2,11 +2,9 @@
 title: Visión general del registro de tiempo y asistencia
 description: Los trabajadores del registro de horas pueden especificar distintos tipos de registros de horas, por ejemplo entrada, salida, registro de actividades indirectas y registro de ausencia. Este tema describe registros, su cálculo, aprobación y uso del flujo de trabajo para agregar la estructura y la aprobación automatizada al proceso de aprobación de hojas de horas.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22ad53e333e6c85f8e55f04c27c6573c5738ec84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ed7a596ef0c8a17cdc2e8b943d3f73d00340f26e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226698"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840830"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Visión general del registro de tiempo y asistencia
 

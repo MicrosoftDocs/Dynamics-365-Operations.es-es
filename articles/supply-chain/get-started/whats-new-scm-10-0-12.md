@@ -2,11 +2,9 @@
 title: Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
 description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258980"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832211"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
 
@@ -47,9 +45,9 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 
 - [Conocimientos básicos de inteligencia de IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Para obtener más información, consulte la [página principal de Inteligencia de IoT](../iot/iot-intelligence-home-page.md).
 
-- [Matrícula de entidad de almacén que recibe mejoras para la aplicación de almacén (continuación)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Para obtener más información, consulte [Matrícula de entidad de almacén a través de la aplicación de almacén](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Matrícula de entidad de almacén que recibe mejoras para la aplicación de almacén (continuación)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Para obtener más información, consulte [Matrícula de entidad de almacén a través de la aplicación móvil Warehouse Management](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Implementación masiva para Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obtener más información, consulte [Instalar y configurar la descripción general de la aplicación de almacén](../warehousing/install-configure-warehousing-app.md).
+- [Implementación masiva para Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obtener más información, consulte [Instale y conecte la aplicación móvil Warehouse Management](../warehousing/install-configure-warehouse-management-app.md).
 
 - [Tiempo de ejecución máximo para el trabajo de limpieza de entradas disponibles de gestión de almacenes](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Para obtener más información, consulte [Trabajo de limpieza de entradas disponibles de gestión de almacenes](../warehousing/onhand-cleanup.md).
 

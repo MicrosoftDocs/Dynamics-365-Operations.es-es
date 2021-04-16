@@ -2,11 +2,9 @@
 title: Visión general de la configuración de producto basada en dimensiones
 description: La configuración de producto basada en dimensiones representa una solución sencilla para crear muchas variantes de producto a partir de un producto maestro único y su lista de materiales.
 author: cvocph
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 823d1b356d914eb0477c41d77a690d02fc4ee630
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 16027cc7fd22a34e3f689678aa9f5e85800cbf02
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243258"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829531"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Visión general de la configuración de producto basada en dimensiones
 

@@ -2,13 +2,11 @@
 title: Visibilidad sobre excepciones de material
 description: Este tema describe cómo puede obtener una mejor visibilidad en las excepciones para las materias primas para los pedidos de producción y los pedidos por lote.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246174"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831995"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidad sobre excepciones de material
 
@@ -59,9 +57,13 @@ Al seleccionar el mosaico, se abre la página **Liberar a almacenar**. Esta pág
 
 Cuando se libere una LM o una línea de fórmula, se agrega a una nueva oleada de la producción o a una oleada abierta existente, en función de la configuración de la plantilla de la oleada de la producción. Mediante la configuración de la plantilla de la oleada también puede configurar una oleada para procesarla automáticamente cuando se libera una LM o una línea de fórmula. Cuando se procesa la oleada, el trabajo del almacén para el picking de materia prima se genera. Si la plantilla de la oleada se configura para que las oleadas no estén procesadas en el momento de liberación, la oleada se queda en un estado sin procesar. El mosaico **Oleadas sin procesar que necesiten asistencia** muestra el número de LM y las líneas de fórmula que se han liberado al almacén en oleadas sin procesar y que tienen una fecha de la materia prima que es anterior o igual a la fecha del espacio de trabajo. Las líneas también se deben consumir por un recurso de operaciones que aplique al filtro del espacio de trabajo.
 
-Cuando se selecciona el mosaico, se abre la página **Todas las oleadas de la producción**. Esta página se filtra en función del número de oleadas abiertas que contengan las líneas de la oleada de la LM liberada y las líneas de fórmula que cumplan los criterios para el mosaico. En la página **Todas las oleadas de la producción**, puede procesar manualmente la oleada.
+Cuando se selecciona el mosaico, se abre la página **Todas las oleadas de la producción**. Esta página se filtra en función del número de oleadas abiertas que contengan las líneas de la oleada de la LM liberada y las líneas de fórmula que cumplan los criterios para el mosaico.
 
-## <a name="open-warehouse-work-needing-attention"></a>Abrir trabajo de almacén que requiere atención
+### <a name="manually-maintain-production-waves"></a>Mantenga manualmente las oleadas de producción
+
+En la página **Todas las oleadas de producción** página, puede utilizar botones en la pestaña **Oleada** del Panel de acciones para **Procesar** y **Liberar** una oleada. También puede utilizar la opción **Mantener producciones** para ver y mantener los datos **Conjunto de L. MAT de producción**, que se utilizan para manejar el proceso de oleada.
+
+## <a name="open-warehouse-work-needing-attention"></a>Trabajo de almacén que requiere atención abierto
 
 El mosaico **Trabajo de almacén abierto que necesiten asistencia** muestra el número de LM y las líneas de fórmula que se han liberado al almacén, que tienen oleadas sin procesar y que tienen una fecha de la materia prima que es anterior o igual a la fecha del espacio de trabajo. Las líneas también se deben consumir por un recurso de operaciones que aplique al filtro del espacio de trabajo.
 

@@ -2,11 +2,9 @@
 title: Configurar y generar archivos de pago positivo
 description: Este tema explica cómo configurar un pago positivo y generar archivos de pago positivo.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227385"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830721"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Configurar y generar archivos de pago positivo
 
@@ -140,6 +138,9 @@ Los archivos de pago positivo se crean mediante entidades de datos. Para poder g
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> Los nombres XML del XSLT deben coincidir con las mayúsculas y minúsculas de los nodos en XML. Tanto los archivos XSLT como XML distinguen mayúsculas de minúsculas. 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Asignar el formato de pago positivo a una cuenta bancaria
 Para cada cuenta bancaria para la que desea generar información de pago positivo, debe asignar el formato de pago positivo que ha especificado en la sección anterior. En la página **Cuentas bancarias**, seleccione el formato de pago positivo que se corresponde con la cuenta bancaria. En el campo **Fecha inicial de pago positivo**, escriba la primera fecha para generar archivos de pago positivo. Es importante que especifique una fecha en este campo. De lo contrario, el primer archivo de pago positivo que genere incluirá todos los cheques que se han creado para esta cuenta bancaria.

@@ -2,11 +2,9 @@
 title: Tutorial de la característica de gestión de cambios de ingeniería
 description: Este tema proporciona un tutorial de un extremo a otro que muestra cómo trabajar con la administración de cambios de ingeniería.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 91b19598075871dcfaed3ad9978aa8fe8181aa6f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487930"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836671"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tutorial de la característica de gestión de cambios de ingeniería
 

@@ -2,11 +2,9 @@
 title: Espacio de trabajo de entrada de facturas de proveedor
 description: Este tema explica cómo configurar el espacio de trabajo relacionado con las facturas de proveedores que muestra la información que está disponible a través de Microsoft Power BI.
 author: abruer
-manager: AnnBe
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0a32fc46fe6ac33abe5fcebb2ee5e2c92f468f84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254139"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837273"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Espacio de trabajo de entrada de facturas de proveedor
 

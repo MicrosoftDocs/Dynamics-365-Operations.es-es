@@ -2,11 +2,9 @@
 title: Solucionar problemas de actualización y migración a la gestión avanzada de almacenes
 description: Este tema describe cómo solucionar problemas comunes que pueden surgir al actualizar y migrar a la gestión de almacenes avanzada.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208096"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826404"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Solucionar problemas de actualización y migración a la gestión avanzada de almacenes
 
@@ -34,11 +32,11 @@ Este tema describe cómo solucionar problemas comunes que pueden surgir al actua
 
 ### <a name="issue-description"></a>Descripción del problema
 
-Recibe este mensaje de error en la aplicación del almacén, porque los certificados autofirmados no son confiables en Android 8+ en entornos locales.
+Recibe este mensaje de error en la aplicación móvil Warehouse Management, porque los certificados autofirmados no son confiables en Android 8+ en entornos locales.
 
 ### <a name="issue-resolution"></a>Solución del problema
 
-Utilice una autoridad de certificación (CA) externa (pública). Hay una solución para este problema disponible en la versión 1.9.0.0 de la aplicación de almacén. Para obtener más información sobre este problema y cómo solucionarlo, consulte [Solucionar problemas de conexión de la aplicación de almacén](troubleshoot-warehouse-app-connection.md).
+Utilice una autoridad de certificación (CA) externa (pública). Hay una solución para este problema disponible en la versión 1.9.0.0 de la aplicación de almacén. Para obtener más información sobre este problema y cómo solucionarlo, consulte [Solucionar problemas de conexión de la aplicación móvil Warehouse Management](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>¿Cuál es el proceso aprobado para pasar del almacenamiento básico al almacenamiento avanzado?
 

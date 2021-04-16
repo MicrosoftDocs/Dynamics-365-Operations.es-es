@@ -1,12 +1,10 @@
 ---
 title: Análisis de defectos de activos
 description: Este tema explica el análisis de los defectos de activos en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7f4d7b4a92486287027cba79c43ca5933cce42a1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253863"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837882"
 ---
 # <a name="asset-fault-analysis"></a>Análisis de defectos de activos
 
