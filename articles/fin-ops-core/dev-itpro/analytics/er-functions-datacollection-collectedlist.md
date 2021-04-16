@@ -2,7 +2,6 @@
 title: Función ER de COLLECTEDLIST
 description: Este tema proporciona información general sobre cómo usar la función COLLECTEDLIST de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff48170247130a03b10dc8fe2973f8d774046944
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 494fb0fa1000abe8d0234d512e41926103c56f05
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561407"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755333"
 ---
 # <a name="collectedlist-er-function"></a>Función ER de COLLECTEDLIST
 

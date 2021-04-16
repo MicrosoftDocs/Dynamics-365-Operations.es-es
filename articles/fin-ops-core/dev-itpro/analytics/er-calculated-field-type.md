@@ -2,7 +2,6 @@
 title: Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado
 description: Este tema proporciona información sobre cómo usar el tipo de campo calculado para los orígenes de datos de ER.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569210"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749498"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado
 
@@ -194,7 +193,7 @@ En la página **Diseñador de formato**, el campo calculado configurado con par�
 
 ![Lista ampliada de niveles del campo calculado](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Use el campo calculado configurado para vincular elementos del formato
+### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Use el campo calculado configurado para vincular elementos del formato
 
 1. Seleccione **Model.Data2.Levels** para seleccionar el campo calculado configurado.
 2. Seleccione el elemento de formato **Statement.Taxation.Regular**.
@@ -215,7 +214,7 @@ En la página **Diseñador de formato**, el campo calculado configurado con par�
 9. Seleccione **Enlazar**.
 10. Seleccione **Sí** para confirmar la sustitución del origen de datos usado actualmente, **Level3**, para el nuevo origen de datos, **Niveles**, en todos los elementos del formato anidados en el elemento del formato seleccionado.
 
-   Cuando se especifica el argumento del campo calculado con parámetros para el elemento XML que representa el nivel de impuestos (por ejemplo, **Model.Data2.Levels ("Reduced")** como valor de texto), no es necesario hacer lo mismo para atributos XML anidados -sus vínculos heredarán automáticamente el valor del argumento definido en el nivel principal (**Model.Data2.Levels.aggregated.Base**, no **Model.Data2.Levels("Reduced").aggregated.Base**).
+   Cuando se especifica el argumento del campo calculado con parámetros para el elemento XML que representa el nivel de impuestos (por ejemplo, **Model.Data2.Levels (&quot;Reduced")** como valor de texto), no es necesario hacer lo mismo para atributos XML anidados -sus vínculos heredarán automáticamente el valor del argumento definido en el nivel principal (**Model.Data2.Levels.aggregated.Base**, no **Model.Data2.Levels("Reduced").aggregated.Base**).
 
 Las llamadas periódicas de cualquier campo calculado con parámetros no se admiten.
 

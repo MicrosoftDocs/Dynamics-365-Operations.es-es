@@ -2,7 +2,6 @@
 title: Visión general de las secuencias numéricas
 description: Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores.
 author: MargoC
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de5cc79b5c1e38e10bb6a382b279459a64a03c7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 95cb8bffee313b5d7c057684666d5ffebbd42a0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559393"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747695"
 ---
 # <a name="number-sequences-overview"></a>Visión general de las secuencias numéricas
 

@@ -2,7 +2,6 @@
 title: Contenido de director de prácticas de Power BI
 description: En este tema se describe lo que se incluye en el contenido de Power BI para Director de práctica.
 author: KimANelson
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 757c9bea86d0cba9b67c40ed5afd19804e01778c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 77079a8013cb98acc5f36787ca10706c361736d3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564444"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753099"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenido de director de prácticas de Power BI
 
