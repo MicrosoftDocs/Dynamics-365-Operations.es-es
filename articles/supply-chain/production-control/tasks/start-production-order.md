@@ -2,11 +2,9 @@
 title: Iniciar un pedido de producción
 description: Este procedimiento muestra cómo iniciar un pedido de producción en la planta.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationStartJob
 audience: Application User
@@ -16,60 +14,60 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3934db907c137f25c39c5769f96f0807eb597e37
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: be1c389bc4193ef080dbeb1639b69acf466ef0de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231873"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831875"
 ---
-# <a name="start-a-production-order"></a><span data-ttu-id="60396-103">Iniciar un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="60396-103">Start a production order</span></span>
+# <a name="start-a-production-order"></a><span data-ttu-id="413e4-103">Iniciar un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="413e4-103">Start a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="60396-104">Este procedimiento muestra cómo iniciar un pedido de producción en la planta.</span><span class="sxs-lookup"><span data-stu-id="60396-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="60396-105">En este proceso se informa del consumo de tiempo y materiales.</span><span class="sxs-lookup"><span data-stu-id="60396-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="60396-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="60396-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="60396-107">Este es el quinto procedimiento de siete que explica el ciclo de vida del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="60396-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="413e4-104">Este procedimiento muestra cómo iniciar un pedido de producción en la planta.</span><span class="sxs-lookup"><span data-stu-id="413e4-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="413e4-105">En este proceso se informa del consumo de tiempo y materiales.</span><span class="sxs-lookup"><span data-stu-id="413e4-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="413e4-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="413e4-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="413e4-107">Este es el quinto procedimiento de siete que explica el ciclo de vida del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="413e4-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a><span data-ttu-id="60396-108">Iniciar un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="60396-108">Start a production order</span></span>
-1. <span data-ttu-id="60396-109">Vaya a Control de producción > Pedidos de producción > Todos los pedidos de producción.</span><span class="sxs-lookup"><span data-stu-id="60396-109">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="60396-110">Seleccione un pedido de producción con estado Liberado.</span><span class="sxs-lookup"><span data-stu-id="60396-110">Select a production order that has the Released status.</span></span>  
-2. <span data-ttu-id="60396-111">En el panel de acciones, haga clic en Pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="60396-111">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="60396-112">Haga clic en Inicio.</span><span class="sxs-lookup"><span data-stu-id="60396-112">Click Start.</span></span>
-    * <span data-ttu-id="60396-113">En esta página, puede confirmar el inicio del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="60396-113">On this page, you can confirm the start of the production order.</span></span>  
-4. <span data-ttu-id="60396-114">Haga clic en la pestaña General.</span><span class="sxs-lookup"><span data-stu-id="60396-114">Click the General tab.</span></span>
-5. <span data-ttu-id="60396-115">En el campo Desde</span><span class="sxs-lookup"><span data-stu-id="60396-115">In the From Oper.</span></span> <span data-ttu-id="60396-116">N. º</span><span class="sxs-lookup"><span data-stu-id="60396-116">No.</span></span> <span data-ttu-id="60396-117">oper., especifique "10".</span><span class="sxs-lookup"><span data-stu-id="60396-117">field, enter '10'.</span></span>
-6. <span data-ttu-id="60396-118">En el campo Consumo de ruta automático, seleccione Siempre.</span><span class="sxs-lookup"><span data-stu-id="60396-118">In the Automatic route consumption field, select 'Always'.</span></span>
-7. <span data-ttu-id="60396-119">Haga clic en la casilla Registrar ahora la tarjeta de ruta.</span><span class="sxs-lookup"><span data-stu-id="60396-119">Click the Post route card now checkbox.</span></span>
-8. <span data-ttu-id="60396-120">En el campo Consumo automático de L. MAT, seleccione Siempre.</span><span class="sxs-lookup"><span data-stu-id="60396-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
-9. <span data-ttu-id="60396-121">Haga clic en la casilla Registrar ahora la lista de selección.</span><span class="sxs-lookup"><span data-stu-id="60396-121">Click the Post picking list now checkbox.</span></span>
-10. <span data-ttu-id="60396-122">Haga clic en la casilla Imprimir lista de selección.</span><span class="sxs-lookup"><span data-stu-id="60396-122">Click the Print picking list checkbox.</span></span>
-11. <span data-ttu-id="60396-123">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="60396-123">Click OK.</span></span>
-    * <span data-ttu-id="60396-124">Esta es la lista de selección impresa que muestra los materiales usados para el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="60396-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
-12. <span data-ttu-id="60396-125">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="60396-125">Close the page.</span></span>
+## <a name="start-a-production-order"></a><span data-ttu-id="413e4-108">Iniciar un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="413e4-108">Start a production order</span></span>
+1. <span data-ttu-id="413e4-109">Vaya a Control de producción > Pedidos de producción > Todos los pedidos de producción.</span><span class="sxs-lookup"><span data-stu-id="413e4-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="413e4-110">Seleccione un pedido de producción con estado Liberado.</span><span class="sxs-lookup"><span data-stu-id="413e4-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="413e4-111">En el panel de acciones, haga clic en Pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="413e4-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="413e4-112">Haga clic en Inicio.</span><span class="sxs-lookup"><span data-stu-id="413e4-112">Click Start.</span></span>
+    * <span data-ttu-id="413e4-113">En esta página, puede confirmar el inicio del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="413e4-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="413e4-114">Haga clic en la pestaña General.</span><span class="sxs-lookup"><span data-stu-id="413e4-114">Click the General tab.</span></span>
+5. <span data-ttu-id="413e4-115">En el campo Desde</span><span class="sxs-lookup"><span data-stu-id="413e4-115">In the From Oper.</span></span> <span data-ttu-id="413e4-116">N. º</span><span class="sxs-lookup"><span data-stu-id="413e4-116">No.</span></span> <span data-ttu-id="413e4-117">oper., especifique "10".</span><span class="sxs-lookup"><span data-stu-id="413e4-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="413e4-118">En el campo Consumo de ruta automático, seleccione Siempre.</span><span class="sxs-lookup"><span data-stu-id="413e4-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="413e4-119">Haga clic en la casilla Registrar ahora la tarjeta de ruta.</span><span class="sxs-lookup"><span data-stu-id="413e4-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="413e4-120">En el campo Consumo automático de L. MAT, seleccione Siempre.</span><span class="sxs-lookup"><span data-stu-id="413e4-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="413e4-121">Haga clic en la casilla Registrar ahora la lista de selección.</span><span class="sxs-lookup"><span data-stu-id="413e4-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="413e4-122">Haga clic en la casilla Imprimir lista de selección.</span><span class="sxs-lookup"><span data-stu-id="413e4-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="413e4-123">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="413e4-123">Click OK.</span></span>
+    * <span data-ttu-id="413e4-124">Esta es la lista de selección impresa que muestra los materiales usados para el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="413e4-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="413e4-125">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="413e4-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a><span data-ttu-id="60396-126">Validación de la lista de selección</span><span class="sxs-lookup"><span data-stu-id="60396-126">Validate the picking list</span></span>
-1. <span data-ttu-id="60396-127">En el panel de acciones, haga clic en Ver.</span><span class="sxs-lookup"><span data-stu-id="60396-127">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="60396-128">Haga clic en Lista de selección.</span><span class="sxs-lookup"><span data-stu-id="60396-128">Click Picking list.</span></span>
-3. <span data-ttu-id="60396-129">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="60396-129">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="60396-130">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="60396-130">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="60396-131">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="60396-131">Click Edit.</span></span>
-6. <span data-ttu-id="60396-132">En el campo Consumo, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="60396-132">In the Consumption field, enter a number.</span></span>
-7. <span data-ttu-id="60396-133">Haga clic en Registrar.</span><span class="sxs-lookup"><span data-stu-id="60396-133">Click Post.</span></span>
-8. <span data-ttu-id="60396-134">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="60396-134">Click OK.</span></span>
-    * <span data-ttu-id="60396-135">En el diario de lista de selección se registran los materiales consumidos por el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="60396-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="60396-136">Antes de registrar el diario, puede realizar ajustes si existe diferencia entre la cantidad estimada y la cantidad consumida real.</span><span class="sxs-lookup"><span data-stu-id="60396-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
-9. <span data-ttu-id="60396-137">Haga clic en la pestaña del panel de cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="60396-137">Click the GridPanel tab.</span></span>
-10. <span data-ttu-id="60396-138">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="60396-138">Close the page.</span></span>
+## <a name="validate-the-picking-list"></a><span data-ttu-id="413e4-126">Validación de la lista de selección</span><span class="sxs-lookup"><span data-stu-id="413e4-126">Validate the picking list</span></span>
+1. <span data-ttu-id="413e4-127">En el panel de acciones, haga clic en Ver.</span><span class="sxs-lookup"><span data-stu-id="413e4-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="413e4-128">Haga clic en Lista de selección.</span><span class="sxs-lookup"><span data-stu-id="413e4-128">Click Picking list.</span></span>
+3. <span data-ttu-id="413e4-129">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="413e4-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="413e4-130">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="413e4-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="413e4-131">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="413e4-131">Click Edit.</span></span>
+6. <span data-ttu-id="413e4-132">En el campo Consumo, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="413e4-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="413e4-133">Haga clic en Registrar.</span><span class="sxs-lookup"><span data-stu-id="413e4-133">Click Post.</span></span>
+8. <span data-ttu-id="413e4-134">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="413e4-134">Click OK.</span></span>
+    * <span data-ttu-id="413e4-135">En el diario de lista de selección se registran los materiales consumidos por el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="413e4-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="413e4-136">Antes de registrar el diario, puede realizar ajustes si existe diferencia entre la cantidad estimada y la cantidad consumida real.</span><span class="sxs-lookup"><span data-stu-id="413e4-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="413e4-137">Haga clic en la pestaña del panel de cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="413e4-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="413e4-138">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="413e4-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a><span data-ttu-id="60396-139">Verificación del diario de tarjeta de ruta</span><span class="sxs-lookup"><span data-stu-id="60396-139">Verify the route card journal</span></span>
-1. <span data-ttu-id="60396-140">En el panel de acciones, haga clic en Ver.</span><span class="sxs-lookup"><span data-stu-id="60396-140">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="60396-141">Haga clic en tarjeta de ruta.</span><span class="sxs-lookup"><span data-stu-id="60396-141">Click Route card.</span></span>
-3. <span data-ttu-id="60396-142">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="60396-142">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="60396-143">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="60396-143">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="60396-144">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="60396-144">Click Edit.</span></span>
-6. <span data-ttu-id="60396-145">En el campo Horas, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="60396-145">In the Hours field, enter a number.</span></span>
-7. <span data-ttu-id="60396-146">Haga clic en Registrar.</span><span class="sxs-lookup"><span data-stu-id="60396-146">Click Post.</span></span>
-8. <span data-ttu-id="60396-147">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="60396-147">Click OK.</span></span>
-    * <span data-ttu-id="60396-148">En el diario de tarjeta de ruta se registra el tiempo empleado en las operaciones individuales.</span><span class="sxs-lookup"><span data-stu-id="60396-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="60396-149">También se puede informar de la cantidad de errores y aciertos.</span><span class="sxs-lookup"><span data-stu-id="60396-149">Good and error quantity can also be reported.</span></span>  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="413e4-139">Verificación del diario de tarjeta de ruta</span><span class="sxs-lookup"><span data-stu-id="413e4-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="413e4-140">En el panel de acciones, haga clic en Ver.</span><span class="sxs-lookup"><span data-stu-id="413e4-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="413e4-141">Haga clic en tarjeta de ruta.</span><span class="sxs-lookup"><span data-stu-id="413e4-141">Click Route card.</span></span>
+3. <span data-ttu-id="413e4-142">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="413e4-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="413e4-143">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="413e4-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="413e4-144">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="413e4-144">Click Edit.</span></span>
+6. <span data-ttu-id="413e4-145">En el campo Horas, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="413e4-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="413e4-146">Haga clic en Registrar.</span><span class="sxs-lookup"><span data-stu-id="413e4-146">Click Post.</span></span>
+8. <span data-ttu-id="413e4-147">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="413e4-147">Click OK.</span></span>
+    * <span data-ttu-id="413e4-148">En el diario de tarjeta de ruta se registra el tiempo empleado en las operaciones individuales.</span><span class="sxs-lookup"><span data-stu-id="413e4-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="413e4-149">También se puede informar de la cantidad de errores y aciertos.</span><span class="sxs-lookup"><span data-stu-id="413e4-149">Good and error quantity can also be reported.</span></span>  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

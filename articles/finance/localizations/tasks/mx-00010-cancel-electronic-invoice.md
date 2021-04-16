@@ -2,11 +2,9 @@
 title: MX-00010 Cancelar facturas electrónicas
 description: Puede cancelar una factura electrónica CFDI validada y certificada anteriormente por el PAC.
 author: sndray
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EInvoiceCFDIJournal_AR
 audience: Application User
@@ -15,43 +13,43 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: acc5a8846c85b15fe9f0a5b1ff571963830c1536
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4623c9d70b7c80bd5ac35b7a576c571b231ea765
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234087"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823574"
 ---
-# <a name="mx-00010-cancel-an-electronic-invoice"></a><span data-ttu-id="098b2-103">MX-00010 Cancelar facturas electrónicas</span><span class="sxs-lookup"><span data-stu-id="098b2-103">MX-00010 Cancel an electronic invoice</span></span>
+# <a name="mx-00010-cancel-an-electronic-invoice"></a><span data-ttu-id="395c5-103">MX-00010 Cancelar facturas electrónicas</span><span class="sxs-lookup"><span data-stu-id="395c5-103">MX-00010 Cancel an electronic invoice</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="098b2-104">Puede cancelar una factura electrónica CFDI validada y certificada anteriormente por el PAC.</span><span class="sxs-lookup"><span data-stu-id="098b2-104">You can cancel a CFDI electronic invoice that was previously validated and certified by the PAC.</span></span> <span data-ttu-id="098b2-105">También puede cancelar una factura electrónica CFDI mediante el proceso manual.</span><span class="sxs-lookup"><span data-stu-id="098b2-105">You can also cancel a CFDI electronic invoice by using the manual process.</span></span>
+<span data-ttu-id="395c5-104">Puede cancelar una factura electrónica CFDI validada y certificada anteriormente por el PAC.</span><span class="sxs-lookup"><span data-stu-id="395c5-104">You can cancel a CFDI electronic invoice that was previously validated and certified by the PAC.</span></span> <span data-ttu-id="395c5-105">También puede cancelar una factura electrónica CFDI mediante el proceso manual.</span><span class="sxs-lookup"><span data-stu-id="395c5-105">You can also cancel a CFDI electronic invoice by using the manual process.</span></span>
 
-## <a name="cancel-a-cfdi-electronic-invoice"></a><span data-ttu-id="098b2-106">Cancelación de una factura electrónica CFDI</span><span class="sxs-lookup"><span data-stu-id="098b2-106">Cancel a CFDI electronic invoice</span></span>
-1. <span data-ttu-id="098b2-107">Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).</span><span class="sxs-lookup"><span data-stu-id="098b2-107">Go to Accounts receivable > Inquiries and reports > CFDI (electronic invoices).</span></span>
-2. <span data-ttu-id="098b2-108">Seleccione una factura electrónica con estado Aprobada.</span><span class="sxs-lookup"><span data-stu-id="098b2-108">Select an electronic invoice with a status of Approved.</span></span>
-3. <span data-ttu-id="098b2-109">Haga clic en el vínculo del número de factura para ver los detalles.</span><span class="sxs-lookup"><span data-stu-id="098b2-109">Click the invoice number link to see the details.</span></span>
-4. <span data-ttu-id="098b2-110">En el panel de acciones, haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="098b2-110">On the Action Pane, click Functions.</span></span>
-5. <span data-ttu-id="098b2-111">Haga clic en Cancelar CFDI.</span><span class="sxs-lookup"><span data-stu-id="098b2-111">Click Cancel CFDI.</span></span>
-6. <span data-ttu-id="098b2-112">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="098b2-112">Close the page.</span></span>
-7. <span data-ttu-id="098b2-113">Vaya a Clientes > Facturas > Facturas electrónicas > Proceso de exportar/importar factura electrónica.</span><span class="sxs-lookup"><span data-stu-id="098b2-113">Go to Accounts receivable > Invoices > E-Invoices > Export/import electronic invoice process.</span></span>
-8. <span data-ttu-id="098b2-114">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="098b2-114">Click OK.</span></span>
-    * <span data-ttu-id="098b2-115">Cuando se confirma la cancelación, el estado de la factura electrónica cambia a Cancelada.</span><span class="sxs-lookup"><span data-stu-id="098b2-115">When the cancelation is confirmed, the status of the electronic invoice is changed to be Canceled.</span></span>  
-9. <span data-ttu-id="098b2-116">Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).</span><span class="sxs-lookup"><span data-stu-id="098b2-116">Go to Accounts receivable > Inquiries and reports > CFDI (electronic invoices).</span></span>
-10. <span data-ttu-id="098b2-117">Seleccione la factura cancelada para comprobar el estado.</span><span class="sxs-lookup"><span data-stu-id="098b2-117">Select the canceled invoice to verify the status.</span></span>
+## <a name="cancel-a-cfdi-electronic-invoice"></a><span data-ttu-id="395c5-106">Cancelación de una factura electrónica CFDI</span><span class="sxs-lookup"><span data-stu-id="395c5-106">Cancel a CFDI electronic invoice</span></span>
+1. <span data-ttu-id="395c5-107">Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).</span><span class="sxs-lookup"><span data-stu-id="395c5-107">Go to Accounts receivable > Inquiries and reports > CFDI (electronic invoices).</span></span>
+2. <span data-ttu-id="395c5-108">Seleccione una factura electrónica con estado Aprobada.</span><span class="sxs-lookup"><span data-stu-id="395c5-108">Select an electronic invoice with a status of Approved.</span></span>
+3. <span data-ttu-id="395c5-109">Haga clic en el vínculo del número de factura para ver los detalles.</span><span class="sxs-lookup"><span data-stu-id="395c5-109">Click the invoice number link to see the details.</span></span>
+4. <span data-ttu-id="395c5-110">En el panel de acciones, haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="395c5-110">On the Action Pane, click Functions.</span></span>
+5. <span data-ttu-id="395c5-111">Haga clic en Cancelar CFDI.</span><span class="sxs-lookup"><span data-stu-id="395c5-111">Click Cancel CFDI.</span></span>
+6. <span data-ttu-id="395c5-112">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="395c5-112">Close the page.</span></span>
+7. <span data-ttu-id="395c5-113">Vaya a Clientes > Facturas > Facturas electrónicas > Proceso de exportar/importar factura electrónica.</span><span class="sxs-lookup"><span data-stu-id="395c5-113">Go to Accounts receivable > Invoices > E-Invoices > Export/import electronic invoice process.</span></span>
+8. <span data-ttu-id="395c5-114">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="395c5-114">Click OK.</span></span>
+    * <span data-ttu-id="395c5-115">Cuando se confirma la cancelación, el estado de la factura electrónica cambia a Cancelada.</span><span class="sxs-lookup"><span data-stu-id="395c5-115">When the cancelation is confirmed, the status of the electronic invoice is changed to be Canceled.</span></span>  
+9. <span data-ttu-id="395c5-116">Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).</span><span class="sxs-lookup"><span data-stu-id="395c5-116">Go to Accounts receivable > Inquiries and reports > CFDI (electronic invoices).</span></span>
+10. <span data-ttu-id="395c5-117">Seleccione la factura cancelada para comprobar el estado.</span><span class="sxs-lookup"><span data-stu-id="395c5-117">Select the canceled invoice to verify the status.</span></span>
 
 >[!NOTE] 
-> <span data-ttu-id="098b2-118">No puede cancelar un documento CFDI si existe un documento asociado.</span><span class="sxs-lookup"><span data-stu-id="098b2-118">You cannot cancel a CFDI document if an associated document exists.</span></span> <span data-ttu-id="098b2-119">Por ejemplo, no puede cancelar un pago por adelantado si una factura hace referencia a ese pago.</span><span class="sxs-lookup"><span data-stu-id="098b2-119">For example, you cannot cancel a prepayment if an invoice references that payment.</span></span> <span data-ttu-id="098b2-120">Primero debe cancelar los documentos asociados y luego cancelar el documento CFDI.</span><span class="sxs-lookup"><span data-stu-id="098b2-120">You first need to cancel associated documets and then cancel the CFDI document.</span></span>
+> <span data-ttu-id="395c5-118">No puede cancelar un documento CFDI si existe un documento asociado.</span><span class="sxs-lookup"><span data-stu-id="395c5-118">You cannot cancel a CFDI document if an associated document exists.</span></span> <span data-ttu-id="395c5-119">Por ejemplo, no puede cancelar un pago por adelantado si una factura hace referencia a ese pago.</span><span class="sxs-lookup"><span data-stu-id="395c5-119">For example, you cannot cancel a prepayment if an invoice references that payment.</span></span> <span data-ttu-id="395c5-120">Primero debe cancelar los documentos asociados y luego cancelar el documento CFDI.</span><span class="sxs-lookup"><span data-stu-id="395c5-120">You first need to cancel associated documets and then cancel the CFDI document.</span></span>
 
-## <a name="manually-cancel-a-cfdi-electronic-invoice"></a><span data-ttu-id="098b2-121">Cancelación manual de una factura electrónica CFDI</span><span class="sxs-lookup"><span data-stu-id="098b2-121">Manually cancel a CFDI electronic invoice</span></span>
-1. <span data-ttu-id="098b2-122">Seleccione una factura con estado Aprobada.</span><span class="sxs-lookup"><span data-stu-id="098b2-122">Select an invoice with status Approved.</span></span>
-2. <span data-ttu-id="098b2-123">En el panel de acciones, haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="098b2-123">On the Action Pane, click Functions.</span></span>
-3. <span data-ttu-id="098b2-124">Haga clic en Cancelación manual.</span><span class="sxs-lookup"><span data-stu-id="098b2-124">Click Manual cancel.</span></span>
-4. <span data-ttu-id="098b2-125">Especifique la fecha de cancelación.</span><span class="sxs-lookup"><span data-stu-id="098b2-125">Enter the date of cancelation.</span></span>
-5. <span data-ttu-id="098b2-126">En el campo Nombre de clave de cancelación, escriba el motivo de la cancelación.</span><span class="sxs-lookup"><span data-stu-id="098b2-126">In the Cancel key name field, enter the reason for the cancelation..</span></span>
-6. <span data-ttu-id="098b2-127">Haga clic en Aceptar para confirmar la cancelación de la factura electrónica.</span><span class="sxs-lookup"><span data-stu-id="098b2-127">Click OK to confirm the cancelation of the electronic invoice.</span></span>
-    * <span data-ttu-id="098b2-128">El estado de la factura electrónica es Cancelación manual.</span><span class="sxs-lookup"><span data-stu-id="098b2-128">The status of electronic invoice is Manual cancel.</span></span>  
+## <a name="manually-cancel-a-cfdi-electronic-invoice"></a><span data-ttu-id="395c5-121">Cancelación manual de una factura electrónica CFDI</span><span class="sxs-lookup"><span data-stu-id="395c5-121">Manually cancel a CFDI electronic invoice</span></span>
+1. <span data-ttu-id="395c5-122">Seleccione una factura con estado Aprobada.</span><span class="sxs-lookup"><span data-stu-id="395c5-122">Select an invoice with status Approved.</span></span>
+2. <span data-ttu-id="395c5-123">En el panel de acciones, haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="395c5-123">On the Action Pane, click Functions.</span></span>
+3. <span data-ttu-id="395c5-124">Haga clic en Cancelación manual.</span><span class="sxs-lookup"><span data-stu-id="395c5-124">Click Manual cancel.</span></span>
+4. <span data-ttu-id="395c5-125">Especifique la fecha de cancelación.</span><span class="sxs-lookup"><span data-stu-id="395c5-125">Enter the date of cancelation.</span></span>
+5. <span data-ttu-id="395c5-126">En el campo Nombre de clave de cancelación, escriba el motivo de la cancelación.</span><span class="sxs-lookup"><span data-stu-id="395c5-126">In the Cancel key name field, enter the reason for the cancelation..</span></span>
+6. <span data-ttu-id="395c5-127">Haga clic en Aceptar para confirmar la cancelación de la factura electrónica.</span><span class="sxs-lookup"><span data-stu-id="395c5-127">Click OK to confirm the cancelation of the electronic invoice.</span></span>
+    * <span data-ttu-id="395c5-128">El estado de la factura electrónica es Cancelación manual.</span><span class="sxs-lookup"><span data-stu-id="395c5-128">The status of electronic invoice is Manual cancel.</span></span>  
 
 
 
