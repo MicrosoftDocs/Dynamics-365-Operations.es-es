@@ -2,11 +2,9 @@
 title: Configuración de grupos de registro para impuestos
 description: Los impuestos se calculan y registran en las cuentas principales que se especifican en los grupos de registro de los libros de contabilidad.
 author: twheeloc
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1860f338faf357ecb8faa04cc687a6ec08cdc6c3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 509fb03708670d056edb97dcc1c656b9fcca9cac
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222272"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818377"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Configuración de grupos de registro para impuestos
 

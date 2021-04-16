@@ -2,11 +2,9 @@
 title: Mensajes de acción
 description: Un mensaje de acción es una sugerencia generada por el sistema para cambiar una orden de planificada o en firme existente.
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, MCRSalesOrderMessages, MCRSalesTableDetailedStatus, TAMItemVendRebateGroup, TAMVendRebate, TAMVendRebateAgreementLineInfoPart, TAMVendRebateGroup, TAMVendRebateTable, TAMVendRebateTrans, ReqTransActionListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e87c5188ff3b598ee1b53ce26e1ce4acf96a93d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ea565a8935151235e4c3b103dd86b7131711a4a2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264780"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816589"
 ---
 # <a name="action-messages"></a>Mensajes de acción
 

@@ -2,7 +2,6 @@
 title: Procesamiento de mercancía en tránsito
 description: En este tema se describe cómo trabajar con pedidos de mercancía en tránsito. Cuando se configura un pedido o un viaje para utilizar el procesamiento de mercancías en tránsito, las mercancías se pueden facturar antes de que se reciban en el almacén para su consumo.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500413"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823418"
 ---
 # <a name="goods-in-transit-processing"></a>Procesamiento de mercancía en tránsito
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 En este tema se describe cómo trabajar con pedidos de mercancía en tránsito. Este tipo de orden es utilizado solo por el módulo **Coste de aterrizaje**. Cuando se configura un pedido o un viaje para utilizar el procesamiento de mercancías en tránsito, no tiene que esperar hasta que los productos se reciban en el almacén para facturarlos. En cambio, las mercancías se facturan cuando salen del almacén del vendedor o del puerto de origen, y los costos financieros se reconocen cuando comienza el viaje. Esta funcionalidad le permite apropiarse correctamente del inventario, porque las mercancías a menudo se convierten en propiedad de su organización cuando salen del puerto de envío.
 
@@ -135,7 +133,7 @@ El costo de entrega agrega los siguientes procesos de creación de trabajo a los
 
 Los ajustes de configuración de estos procesos se asemejan a los ajustes de [procesos de creación de trabajos de recepción y almacenamiento de pedidos](https://technet.microsoft.com/library/dn553216.aspx). Sin embargo, el proceso *Recepción y almacenamiento de artículos en tránsito* también agrega el siguiente campo.
 
-- **Habilitar contenedor de envío completo** - Si esta opción está configurada en *Sí*, cuando se completa el trabajo de almacenamiento, la aplicación del almacén proporcionará una opción adicional que se denomina **Contenedor de envío completo**. Cuando se selecciona esa opción, se le pedirá al trabajador que confirme que el contenedor está completo. En ese momento, todos los recibos cortos se procesarán como una transacción inferior.
+- **Habilitar contenedor de envío completo** - Si esta opción está configurada en *Sí*, cuando se completa el trabajo de almacenamiento, la aplicación móvil Warehouse Management proporcionará una opción adicional que se denomina **Contenedor de envío completo**. Cuando se selecciona esa opción, se le pedirá al trabajador que confirme que el contenedor está completo. En ese momento, todos los recibos cortos se procesarán como una transacción inferior.
 
 ### <a name="location-directives"></a>Directivas de ubicación
 

@@ -2,11 +2,9 @@
 title: Número de libros por diario
 description: Este tema describe la relación entre diarios y libros de activos cuando crea una propuesta de adquisición o depreciación de activos fijos a través de un trabajo por lotes. Puede definir el número máximo de libros que se incluyen para cada adquisición y para depreciación.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7f266e458802e65f0955ae8f8933f9bee2eca972
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256724"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822042"
 ---
 # <a name="number-of-books-per-journal"></a>Número de libros por diario
 
@@ -43,11 +41,14 @@ Puede utilizar el procesamiento por lotes para ejecutar la depreciación del mis
 
 El trabajo de procesamiento por lotes excluye los libros cerrados. Por ejemplo, en un trabajo por lotes para depreciación, se cierran 10 de los primeros 2000 libros. En este caso, el primer diario contendrá libros asociados con los activos fijos numerados del 1 al 2011. El segundo diario contendrá entonces los libros asociados con los activos fijos numerados del 2012 al 4000.
 
+> [!NOTE]
+> Si tiene id. de activos fijos con diferentes separadores (como - o /) y crea transacciones de activos fijos en trabajos por lotes, debe ejecutar un trabajo por lotes independiente para cada tipo de separador. El sistema no puede procesar diferentes separadores dentro del mismo trabajo por lotes.
+
 El límite en la cantidad de libros se aplica si no existen id. de activos duplicados en el mismo diario. Sin embargo, si el id. del activo es el mismo que el id. del libro, se puede exceder el número de libros por diario para mantener el id. del activo en el mismo diario.
 
 Por ejemplo, hay 5001 id. de activos fijos, tres libros están asociados con cada id. de activo fijo y cada libro de activos se publica en la misma capa de registro. Ejecute la depreciación durante tres meses consecutivos, sin resumen.  El diario de depreciación se creará mediante un trabajo por lotes y el sistema creará siete diarios que tienen 667 id. de activos fijos y tres libros para cada id. de activo fijo. El resultado serán 2001 libros. Por lo tanto, en tres meses, habrá 6003 líneas de diario para mantener los mismos id. de activos en el mismo diario. El sistema también creará un diario que tiene 332 id. de activos fijos y tres libros para cada id. de activo fijo. En tres meses, habrá 2988 líneas.
 
-> [!Note] 
+> [!NOTE] 
 > Si se activa el parámetro **Resumir depreciación** al crear una propuesta de depreciación, el valor del campo **Número de libros por diario - Propuesta de depreciación** no surtirá efecto. En este caso, el número de libros por diario es 6000, el límite interno definido.
 
 

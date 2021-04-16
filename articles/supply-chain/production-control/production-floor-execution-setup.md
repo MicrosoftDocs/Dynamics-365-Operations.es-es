@@ -2,11 +2,9 @@
 title: Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
 description: La interfaz de ejecución de la planta de producción está configurada para cada dispositivo en la planta de producción. Las empresas suelen configurar cada dispositivo de forma diferente, según su propósito. Por ejemplo, una empresa puede tener un dispositivo en el área de recepción, donde los trabajadores registran la entrada y la salida, y otro en el piso de producción, donde los trabajadores administran sus trabajos.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 641273dd3ae189853326bf7af7ceb06d48465b5c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500559"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814715"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La interfaz de ejecución de la planta de producción está configurada para cada dispositivo en la planta de producción. Las empresas suelen configurar cada dispositivo de forma diferente, según su propósito. Por ejemplo, una empresa puede tener un dispositivo en el área de recepción, donde los trabajadores registran la entrada y la salida, y otro en el piso de producción, donde los trabajadores administran sus trabajos.
 

@@ -2,11 +2,9 @@
 title: Configurar materiales peligrosos
 description: Este tema explica cómo configurar los datos necesarios para clasificar artículos como materiales peligrosos. Cuando crea un pedido de venta que incluye un artículo clasificado como material peligroso, el sistema genera documentación de material peligroso para el pedido de venta cuando se envía.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0f0b706568048480cf5bf85cfcb4388666432212
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cf323272926936ba6397a9f98cfff8d8a31d091
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266112"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820355"
 ---
 # <a name="set-up-hazardous-materials"></a>Configurar materiales peligrosos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Para utilizar la funcionalidad de materiales peligrosos, primero debe configurar los datos necesarios para clasificar los artículos como materiales peligrosos. Luego, cuando crea un pedido de venta que incluye un artículo clasificado como material peligroso, el sistema genera documentación de material peligroso para el pedido de venta cuando se envía.
 

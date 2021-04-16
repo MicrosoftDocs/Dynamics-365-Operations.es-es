@@ -2,7 +2,6 @@
 title: Estimar y administrar los costos descargados
 description: El sistema utiliza su configuración de costo automático para determinar una estimación de su costo de entrega. Este tema explica cómo puede definir varios escenarios para ofrecer una estimación más precisa.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/26/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: cbd652f2b29f7a78ad9e4e1d3dda4a3ef8a9f3f3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 510f5fc4910dde2f91fe2d666abb23a9bd7381f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501279"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823442"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Estimar y administrar los costos descargados
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 El sistema utiliza su [configuración de costo automático](auto-cost-setup.md) para determinar una estimación de su costo descargado. Además, puede definir varios escenarios para ofrecer una estimación más precisa. Estos escenarios se almacenan. Por lo tanto, puede revisarlos más tarde y compararlos con los datos reales de un informe. También puede actualizar el precio del artículo.
 

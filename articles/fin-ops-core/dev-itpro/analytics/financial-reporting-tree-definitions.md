@@ -1,27 +1,26 @@
 ---
 title: Definiciones de organigramas en informes financieros
 description: Este artículo describe los organigramas de informes. Una definición del organigrama es un componente de informe que define la estructura de una organización.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568784"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819947"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definiciones de organigramas en informes financieros
 
@@ -74,7 +73,7 @@ Para crear una definición de organigrama, siga estos siguientes pasos.
     | Incluir/posición de carácter       | En esta sección se muestran las dimensiones que se definen en los datos financieros y muestra el número de caracteres del valor más largo que se define para cada dimensión. Active la casilla para una dimensión para incluir esa dimensión en la jerarquía del organigrama. |
     | Jerarquía e intervalos de segmentación     | En esta sección se muestra la jerarquía de la dimensión. Puede mover las dimensiones en la lista para cambiar el orden de las notificaciones. En los cuadros **Desde la dimensión** y **Hasta la dimensión**, puede especificar un intervalo de valores en cada dimensión. Si no se especifica un intervalo, se insertan todos los valores de dimensión en el organigrama.<blockquote>[!NOTE] Si usa más de una dimensión, en los resultados solo se devuelven las combinaciones de dimensiones registradas.</blockquote> |
 
-    Para una captura de pantalla que muestre un ejemplo del cuadro de diálogo **Insertar unidades de informe de dimensiones**, consulte la sección "Ejemplo del cuadro de diálogo Insertar las unidades de informe de dimensiones" más adelante en este artículo.
+    Para ver una ilustración que muestra un ejemplo del cuadro de diálogo **Insertar unidades de informe de dimensiones**, consulte la sección "Ejemplo del cuadro de diálogo Insertar unidades de informe de dimensiones", más adelante en este artículo.
 
 5. Para crear segmentos adicionales (por ejemplo, como la división de un segmento en dos segmentos más cortos), haga clic en la ubicación correcta en un campo de **Posición del carácter**, y luego haga clic en **Dividir segmentos**.
 6. Para combinar dos segmentos en un segmento, haga clic en cualquiera de los cuadros de segmento para combinar y, a continuación, en **Combinar segmentos**.
@@ -186,23 +185,23 @@ Consulte la estructura de las unidades organizacionales en el siguiente organigr
 - Las unidades de notificación de detalle más bajo (ventas para el hogar, ventas de automóviles, servicios al cliente y operaciones) representan departamentos en los datos financieros. Estas unidades de notificación se encuentran en el área sombreada del diagrama.
 - Las unidades de resumen de alto nivel resumen la información de las unidades de detalle.
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Estructura del informe de resumen de Contoso: ejemplo 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Estructura de la unidad organizacional – Ejemplo 2
 
 En el diagrama siguiente, el organigrama tiene una estructura de organización que está dividida por la función de negocio.
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Estructura del informe de resumen de Contoso: ejemplo 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Ejemplo del cuadro de diálogo Insertar unidades organizacionales de dimensiones
 
 En la siguiente ilustración se muestra un ejemplo del cuadro de diálogo **Insertar unidades de notificaciones de dimensiones**. Para este ejemplo, los resultados devolverán la combinación de unidades de negocio, centros de costes y departamentos.
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Insertar unidades de informes](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 La definición del organigrama resultante se clasifica por unidad de negocio, a continuación, por centro de coste y, por último, por departamento. La dimensión para la quinta unidad organizacional es **Unidad de negocio = \[001\], Centro de coste =\[\], Departamento = \[022\]** e identifica una unidad organizacional para las cuentas que son específicas de la unidad de negocio 001 y el departamento 022.
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Ilustración del árbol de informes](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Ejemplos de distribución de datos
 
@@ -210,11 +209,11 @@ Los ejemplos siguientes muestran información que se puede usar en una definici�
 
 #### <a name="example-1"></a>Ejemplo 1
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Ejemplo multiempresa](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Ejemplo 2
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Ejemplo de departamentos interempresas](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

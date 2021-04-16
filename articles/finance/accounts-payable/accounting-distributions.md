@@ -2,11 +2,9 @@
 title: Distribuciones contables
 description: Este tema proporciona información acerca de distribuciones contables y describe las opciones disponibles para procesarlas.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7191e1e48283d2468155c84d408b030a7c50e4d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c17c2e00c8c3b32062f70baf1da76a04dcd5d924
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252178"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820964"
 ---
 # <a name="accounting-distributions"></a>Distribuciones contables
 
