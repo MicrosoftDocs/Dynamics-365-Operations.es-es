@@ -2,11 +2,9 @@
 title: Administración de surtidos.
 description: En este tema se explican los conceptos básicos de administración de surtidos en Dynamics 365 Commerce y se proporcionan consideraciones sobre implementaciones para el proyecto.
 author: jblucher
-manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 6a7a488b6684c23ceac9f35abf9e93e5c7261eb9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211507"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797290"
 ---
 # <a name="assortment-management"></a>Administración de surtidos
 

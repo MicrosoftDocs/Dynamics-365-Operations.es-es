@@ -2,11 +2,9 @@
 title: Cargar imágenes
 description: En este tema se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51571ce221714598b2e2d39c76cb69dcb57cc52b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0a2fdb275cbeb65c06c01128e90ba660f98c9b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213803"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799238"
 ---
 # <a name="upload-images"></a>Cargar imágenes
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 La Biblioteca de medios del creador de sitios de Commerce le permite cargar imágenes, ya sea individualmente o en masa, utilizando carpetas. Siempre debe cargar la versión de la imagen con la mayor resolución y calidad, ya que el componente de cambio de tamaño de la imagen optimizará automáticamente la imagen para diferentes ventanas y sus puntos de interrupción.
 
@@ -58,7 +54,8 @@ La convención de nomenclatura predeterminada varía según la categoría:
 - Las imágenes de los empleados deben llamarse "**/Workers/\{WorkerNumber\}.jpg**"
 - Las imágenes del producto deben llamarse "**/Products/\{ProductNumber\}_000_001.png**"
     - 001 es la secuencia de la imagen y puede ser 001, 002, 003, 004 o 005
-- Las imágenes de variante del producto deben llamarse "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
+- Las imágenes de variante del producto deben llamarse "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
+    - Por ejemplo: 93039 \^ \^ 2 \^ Black \^_000_001.png
 
 ## <a name="upload-an-image"></a>Subir una imagen
 

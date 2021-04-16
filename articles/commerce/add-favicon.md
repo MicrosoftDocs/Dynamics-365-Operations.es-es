@@ -2,11 +2,9 @@
 title: Agregar un icono de favoritos
 description: En este tema se explica cómo agregar un icono de favoritos al sitio.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 786ba02c312b7cdb3cf7f0689737084887d536bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9268bc74a4131256f5a2e88df833104db271b56a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206352"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797728"
 ---
-# <a name="add-a-favicon"></a>Agregar un icono de favoritos
+# <a name="add-a-favicon"></a>Agregar un icono favorito
 
 [!include [banner](includes/banner.md)]
 
 En este tema se explica cómo agregar un icono de favoritos al sitio.
-
-## <a name="overview"></a>Visión general
 
 Un icono de favoritos es un pequeño archivo gráfico que se muestra en una pestaña del explorador web, en la barra de direcciones, en el historial de exploración, y en marcadores o favoritos, entre otros lugares. Recomendamos que agregue un icono de favoritos al sitio, ya que representa y refuerza su marca, y ayuda a diferenciar el sitio de otros que los clientes visitan.
 

@@ -2,11 +2,9 @@
 title: Métodos para agregar contenido
 description: En este tema se proporciona una descripción general y vínculos seleccionados para saber dónde y cómo comenzar a administrar el contenido mediante el conjunto de herramientas de creación web del configurador de sitios de Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208072"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797584"
 ---
 # <a name="ways-to-add-content"></a>Métodos para agregar contenido
 
 [!include [banner](includes/banner.md)]
 
 En este tema se proporciona una descripción general y vínculos a la documentación sobre cómo administrar contenido mediante el conjunto de herramientas de creación web del configurador de sitios de Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Hay muchas maneras de cambiar el aspecto y el contenido del sitio. En función del nivel de personalización requerido, muchos de estos cambios pueden ser implementados por personas sin conocimientos de programación en el configurador de sitios, el conjunto de herramientas de creación web incluido en Dynamics 365 Commerce. El configurador de sitios le permite crear plantillas, seleccionar temas y seleccionar y configurar módulos sin tener que escribir código. Por el contrario, se requieren aptitudes de desarrollo para crear un nuevo tema o módulo, ya que deben usarse el kit de desarrollo de software (SDK) de comercio electrónico y el flujo de trabajo de implementación de Lifecycle Services (LCS) de Microsoft Dynamics.
 

@@ -1,12 +1,10 @@
 ---
 title: Control de costes de defecto de activo
 description: Este tema explica el control de costes de los defectos de activos en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCostControlFault
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c25b3efbd0f2f0ec22a08aeac54ffb7fd9398c83
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 44b101c3b386c3edd8aec4c44e8ee834519718ec
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253839"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811191"
 ---
 # <a name="asset-fault-cost-control"></a>Control de costes de defecto de activo
 

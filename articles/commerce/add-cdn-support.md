@@ -2,11 +2,9 @@
 title: Agregar soporte para una red de entrega de contenido (CDN)
 description: Este tema describe cómo agregar una red de entrega de contenido (CDN) a su entorno de Microsoft Dynamics 365 Commerce.
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582728"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797848"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Agregar soporte para una red de entrega de contenido (CDN)
 
@@ -41,11 +39,7 @@ Además, los (archivos JavaScript o de hojas de estilo CSS \[CSS\] ) *estáticos
 
 ## <a name="set-up-ssl"></a>Configurar SSL
 
-Para ayudar a garantizar que SSL está configurado, y que la estática se almacena en caché, debe configurar su CDN para que se asocie al nombre de host que Commerce generó para su entorno. También debe almacenar en caché el siguiente patrón solo para estática: 
-
-/\_msdyn365/\_scnr/\*
-
-Tras aprovisionar su entorno de Commerce con el dominio personalizado que se proporciona, o una vez que proporciona el dominio personalizado para su entorno usando una solicitud de servicio, apunte su dominio personalizado al nombre de host o extremo que Commerce generó.
+Tras aprovisionar su entorno de Commerce con el dominio personalizado que se proporciona, o una vez que proporciona el dominio personalizado para su entorno usando una solicitud de servicio, necesita trabajar con el equipo de incorporación de Commerce para planear los cambios de DNS.
 
 Como se ha mencionado anteriormente, el nombre de host o extremo generado admite un certificado SSL solo para \*.commerce.dynamics.com. No admite SSL para dominios personalizados.
 
@@ -62,7 +56,7 @@ El proceso de configuración de CDN consta de estos pasos generales:
 
 1. Agregue un host front-end.
 1. Configure un grupo back-end.
-1. Configurar reglas para enrutamiento y almacenamiento en caché.
+1. Configurar reglas de enrutamiento.
 
 ### <a name="add-a-front-end-host"></a>Agregar un host front-end
 
@@ -74,8 +68,9 @@ Para obtener información acerca de cómo configurar Azure Front Door Service, c
 
 Para configurar un grupo back-end en Azure Front Door Service, siga estos pasos.
 
-1. Agregue **&lt;nombre-comercio-electrónico-inquilino&gt;.commerce.dynamics.com** a un grupo back-end como host personalizado que tenga un encabezado de host de back-end vacío.
+1. Agregue **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** a un grupo de backend como un host personalizado que tiene un encabezado de host de backend que es el mismo que **&lt;ecom-tenant-name&gt;.commerce.dynamics.com**.
 1. En **Equilibrio de carga**, deje los valores predeterminados.
+1. Inhabilite las verificaciones de estado para el grupo de backend.
 
 En la ilustración siguiente se muestra el cuadro de diálogo **Agregar un grupo back-end** en Azure Front Door Service con el nombre de host del back-end.
 
@@ -84,6 +79,10 @@ En la ilustración siguiente se muestra el cuadro de diálogo **Agregar un grupo
 En la ilustración siguiente se muestra el cuadro de diálogo **Agregar un grupo back-end** en Azure Front Door Service con los valores de equilibrio de carga predeterminados.
 
 ![Cuadro de diálogo Agregar un grupo back-end (continuación)](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> Asegúrese de deshabilitar **Sondas de salud** al configurar su propio servicio Azure Front Door para Commerce.
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Configurar reglas en Azure Front Door Service
 
@@ -100,24 +99,6 @@ Para configurar una regla de ruta en Azure Front Door Service, siga estos pasos.
 1. Establezca la opción **URL Rewrite** en **Deshabilitado**.
 1. Establezca la opción **Memoria caché** en **Deshabilitado**.
 
-Para configurar una regla de almacenamiento en caché en Azure Front Door Service, siga estos pasos.
-
-1. Agregue una regla de almacenamiento en caché.
-1. En el campo **Nombre**, especifique **estática**.
-1. En el campo **Protocolo aceptado**, seleccione **HTTP y HTTPS**.
-1. En el campo **Hosts de front-end**, especifique **dynamics-ecom-tenant-name.azurefd.net**.
-1. En **Patrones de coincidencia**, en el campo superior, especifique **/\_msdyn365/\_scnr/\***.
-1. En **Detalles de ruta**, establezca la opción **Tipo de ruta** en **Reenviar**.
-1. En el campo **Grupo back-end**, seleccione **ecom-backend**.
-1. En el grupo del campo **Protocolo de reenvío**, seleccione la opción **Confrontar solicitud**.
-1. Establezca la opción **URL Rewrite** en **Deshabilitado**.
-1. Establezca la opción **Memoria caché** en **Deshabilitado**.
-1. En el campo **Comportamiento del almacenamiento en caché de cadenas de consulta**, seleccione **Almacenar en caché todas las URL únicas**.
-1. En el grupo del campo **Compresión dinámica**, seleccione la opción **Habilitado**.
-
-En la ilustración siguiente se muestra el cuadro de diálogo **Agregar una regla** en Azure Front Door Service.
-
-![Cuadro de diálogo Agregar una regla](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > Si el dominio que usará ya está activo y en funcionamiento, cree una incidencia de soporte técnico desde el icono **Soporte técnico** en [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) para obtener asistencia para sus próximos pasos. Para más información, consulte [Obtener soporte técnico para aplicaciones de Finance and Operations o Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).

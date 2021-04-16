@@ -2,11 +2,9 @@
 title: Generar un plan con restricciones
 description: Este tema explica cómo crear un plan que tenga en cuenta las restricciones de materiales y de capacidad.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqPlanSched
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d238ffd7ee76dcb782931312a132545a89f537b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c35d5a7465cc6cfe0bc12cb00796eff2aeed1ece
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214403"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808025"
 ---
 # <a name="generate-a-constrained-plan"></a>Generar un plan con restricciones
 

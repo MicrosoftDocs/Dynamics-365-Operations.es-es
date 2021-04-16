@@ -2,11 +2,9 @@
 title: Posición completa del clúster
 description: Este tema proporciona información acerca de la característica Posición completa de clústeres. Esta característica ofrece una alternativa a la aplicación más estricta de las reglas de las pausas laborales cuando se utiliza el picking en clúster, ya que permite un mayor margen de error en las restricciones volumétricas de los contenedores o bolsas.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233016"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808855"
 ---
 # <a name="cluster-position-full"></a>Posición completa del clúster
 
@@ -213,7 +211,7 @@ Se deberían haber creado dos identificadores de trabajo, cada uno de los cuales
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Ejecución del flujo de dispositivos móviles: configuración de la confirmación de trabajo para el producto
 
-1. Inicie sesión en la aplicación de almacén como un usuario en el almacén *61*.
+1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario en el almacén *61*.
 1. Vaya a **Saliente \> Creación de picking en clúster**.
 
     La página **TAREA: Asignar trabajo al clúster** aparece.
