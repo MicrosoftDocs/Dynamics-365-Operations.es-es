@@ -2,11 +2,9 @@
 title: Liquidar un pago parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
 description: En este artículo se aborda el efecto de liquidar pagos de las facturas para los clientes. El escenario se centra en los efectos del subdiario, no en la Contabilidad general.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250563"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835157"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Liquidar un pago parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
 
@@ -48,7 +46,7 @@ El 2 de julio, el cliente 4027 hace un pago parcial de 297,00 para la factura. E
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**. Si no cambia el valor de **Importe para liquidar** a 297,00, los valores de **Importe de descuento por pronto pago** que aparecen variarán. No obstante, se extraerá un valor de 3,00 como descuento por pronto pago cuando se registre el pago, ya que la liquidación ajusta automáticamente el valor de **Importe para liquidar**.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 09/7/2015 |
 | Importe de descuento por pronto pago         | 10,00     |
@@ -73,7 +71,7 @@ El 11 de julio, que es después del período de descuento, el cliente 4027 paga 
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 09/7/2015 |
 | Importe de descuento por pronto pago         | 0,00      |
@@ -89,10 +87,10 @@ Si Arnie cambia el valor en el campo **Utilizar descuento por pronto pago** a **
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
-|                              |           |
+| Campo                        | Valor     |
 |------------------------------|-----------|
 | Fecha del descuento por pronto pago           | 09/7/2015 |
-| Importe de descuento por pronto pago         | 7,00      |
+| Importe de descuento por pronto pago         | 7.00      |
 | Utilizar el descuento por pronto pago            | Siempre    |
 | Descuento por pronto pago aplicado          | 3,00      |
 | Importe de descuento por pronto pago para aplicar | 7,00      |
