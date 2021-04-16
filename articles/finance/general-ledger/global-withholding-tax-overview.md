@@ -2,11 +2,9 @@
 title: Retención de impuestos global
 description: Este tema proporciona información sobre la funcionalidad de retención de impuestos global y cómo configurarla. La funcionalidad de retención de impuestos global se ha mejorado para las transacciones de proveedores y clientes, de modo que la retención de impuestos se calcula a nivel de artículo.
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,33 +15,33 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 25fc503d6145872b8e9f28b8d9a4d7b9c1ba53a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9a73d34fb4fbf007cbb5a996cfa6e9719532869c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249176"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826675"
 ---
-# <a name="global-withholding-tax"></a><span data-ttu-id="ebcfa-104">Retención de impuestos global</span><span class="sxs-lookup"><span data-stu-id="ebcfa-104">Global withholding tax</span></span>
+# <a name="global-withholding-tax"></a><span data-ttu-id="1f1f0-104">Retención de impuestos global</span><span class="sxs-lookup"><span data-stu-id="1f1f0-104">Global withholding tax</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ebcfa-105">Este tema proporciona información sobre la funcionalidad de retención de impuestos global y explica cómo configurarla.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-105">This topic provides information about global withholding tax functionality and explains how to set it up.</span></span> <span data-ttu-id="ebcfa-106">La nueva funcionalidad está disponible en las versiones 10.0.17 y posteriores.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-106">The new functionality is available in version 10.0.17 and later.</span></span>
+<span data-ttu-id="1f1f0-105">Este tema proporciona información sobre la funcionalidad de retención de impuestos global y explica cómo configurarla.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-105">This topic provides information about global withholding tax functionality and explains how to set it up.</span></span> <span data-ttu-id="1f1f0-106">La nueva funcionalidad está disponible en las versiones 10.0.17 y posteriores.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-106">The new functionality is available in version 10.0.17 and later.</span></span>
 
-<span data-ttu-id="ebcfa-107">La funcionalidad de retención de impuestos global se ha mejorado para las transacciones de proveedores y clientes, de modo que la retención de impuestos se calcula a nivel de artículo.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-107">Global withholding tax functionality is enhanced for vendor and customer transactions, so that withholding tax is calculated at the item level.</span></span> <span data-ttu-id="ebcfa-108">El saldo en la cuenta de retención de impuestos de las transacciones de compra se puede liquidar ejecutando el trabajo de pago de retención de impuestos en la cuenta de liquidación de retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-108">The balance in the withholding tax account from purchase transactions can be settled by running the withholding tax payment job against the withholding tax settlement account.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="ebcfa-109">La retención de impuestos global no respalda la función **Mantener cargos** función en las páginas de pedidos de compra, facturas de proveedor y pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-109">Global withholding tax doesn't support the **Maintain charges** function on the purchase order, vendor invoice, and sales order pages.</span></span>
-
-## <a name="turn-on-global-withholding-tax"></a><span data-ttu-id="ebcfa-110">Activar la retención de impuestos global</span><span class="sxs-lookup"><span data-stu-id="ebcfa-110">Turn on global withholding tax</span></span>
-
-1. <span data-ttu-id="ebcfa-111">En el espacio de trabajo **Administración de características**, seleccione **Retención de impuestos global** y luego seleccione **Habilitar ahora**.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-111">In the **Feature management** workspace, select **Global withholding tax**, and then select **Enable now**.</span></span>
-2. <span data-ttu-id="ebcfa-112">Vaya a **Impuesto \> Configuración \> Parámetros \> Parámetros del libro mayor**, y luego, en la pestaña **Retención de impuestos**, configure la opción **Habilitar la retención de impuestos global** a **Sí**.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-112">Go to **Tax \> Setup \> Parameters \> General ledger parameters**, and then, on the **Withholding tax** tab, set the **Enable global withholding tax** option to **Yes**.</span></span>
-3. <span data-ttu-id="ebcfa-113">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-113">Select **Save**.</span></span>
-4. <span data-ttu-id="ebcfa-114">Actualice la página en su navegador web.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-114">Refresh the page in your web browser.</span></span>
+<span data-ttu-id="1f1f0-107">La funcionalidad de retención de impuestos global se ha mejorado para las transacciones de proveedores y clientes, de modo que la retención de impuestos se calcula a nivel de artículo.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-107">Global withholding tax functionality is enhanced for vendor and customer transactions, so that withholding tax is calculated at the item level.</span></span> <span data-ttu-id="1f1f0-108">El saldo en la cuenta de retención de impuestos de las transacciones de compra se puede liquidar ejecutando el trabajo de pago de retención de impuestos en la cuenta de liquidación de retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-108">The balance in the withholding tax account from purchase transactions can be settled by running the withholding tax payment job against the withholding tax settlement account.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ebcfa-115">La funcionalidad de retención de impuestos global no se puede activar para países o regiones donde ya existen soluciones de retención de impuestos localizadas.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-115">Global withholding tax functionality can’t be turned on for countries/regions where localized withholding tax solutions already exist.</span></span> <span data-ttu-id="ebcfa-116">Estas áreas incluyen, entre otras, India, Brasil, Tailandia, Arabia Saudí, Irlanda, Gran Bretaña y Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="ebcfa-116">These areas include but are not restricted to India, Brazil, Thailand, Saudi Arabia, Ireland, Great Britain and the United States.</span></span>
+> <span data-ttu-id="1f1f0-109">La retención de impuestos global no respalda la función **Mantener cargos** función en las páginas de pedidos de compra, facturas de proveedor y pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-109">Global withholding tax doesn't support the **Maintain charges** function on the purchase order, vendor invoice, and sales order pages.</span></span>
+
+## <a name="turn-on-global-withholding-tax"></a><span data-ttu-id="1f1f0-110">Activar la retención de impuestos global</span><span class="sxs-lookup"><span data-stu-id="1f1f0-110">Turn on global withholding tax</span></span>
+
+1. <span data-ttu-id="1f1f0-111">En el espacio de trabajo **Administración de características**, seleccione **Retención de impuestos global** y luego seleccione **Habilitar ahora**.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-111">In the **Feature management** workspace, select **Global withholding tax**, and then select **Enable now**.</span></span>
+2. <span data-ttu-id="1f1f0-112">Vaya a **Impuesto \> Configuración \> Parámetros \> Parámetros del libro mayor**, y luego, en la pestaña **Retención de impuestos**, configure la opción **Habilitar la retención de impuestos global** a **Sí**.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-112">Go to **Tax \> Setup \> Parameters \> General ledger parameters**, and then, on the **Withholding tax** tab, set the **Enable global withholding tax** option to **Yes**.</span></span>
+3. <span data-ttu-id="1f1f0-113">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-113">Select **Save**.</span></span>
+4. <span data-ttu-id="1f1f0-114">Actualice la página en su navegador web.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-114">Refresh the page in your web browser.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="1f1f0-115">La funcionalidad de retención de impuestos global no se puede activar para países o regiones donde ya existen soluciones de retención de impuestos localizadas.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-115">Global withholding tax functionality can’t be turned on for countries/regions where localized withholding tax solutions already exist.</span></span> <span data-ttu-id="1f1f0-116">Estas áreas incluyen, entre otras, India, Brasil, Tailandia, Arabia Saudí, Irlanda, Gran Bretaña y Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="1f1f0-116">These areas include but are not restricted to India, Brazil, Thailand, Saudi Arabia, Ireland, Great Britain and the United States.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
