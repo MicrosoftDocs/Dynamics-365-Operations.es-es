@@ -2,11 +2,9 @@
 title: Solucionar problemas de picking y embalaje
 description: Este tema describe cómo solucionar problemas comunes que pueden surgir al Seleccionar y empaquetar en Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 01e33b63e09a035f5243bd57faf53b522737c987
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a54fa9dc21fb1691d74905a1215f4dfea31f136
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223251"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828139"
 ---
 # <a name="troubleshoot-picking-and-packing"></a>Solucionar problemas de picking y embalaje
 
@@ -44,7 +42,7 @@ El campo **Ubicación de recibo predeterminada** está en blanco para un almacé
 
 ### <a name="issue-description"></a>Descripción del problema
 
-Recibe este mensaje de error en la aplicación de almacén cuando escanea la identificación de una placa de matrícula.
+Recibe este mensaje de error en la aplicación móvil Warehouse Management cuando escanea la identificación de una placa de matrícula.
 
 ### <a name="issue-resolution"></a>Solución del problema
 
@@ -68,7 +66,7 @@ Recibe este mensaje de error cuando intenta realizar una *selección dividida* e
 
 ### <a name="issue-resolution"></a>Solución del problema
 
-El trabajador del almacén debe utilizar el proceso de *picking corto* en la aplicación de almacén. Si está intentando elegir varios lotes de la misma ubicación, también puede utilizar la opción **Lleno** en la aplicación del almacén.
+El trabajador del almacén debe utilizar el proceso de *picking corto* en la aplicación móvil Warehouse Management. Si está intentando elegir varios lotes de la misma ubicación, también puede utilizar la opción **Lleno** en la aplicación.
 
 ## <a name="i-cant-move-inventory-to-a-location-that-is-license-platecontrolled"></a>No puedo mover el inventario a una ubicación que esté controlada por matrículas.
 

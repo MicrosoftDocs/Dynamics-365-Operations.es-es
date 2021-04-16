@@ -2,11 +2,9 @@
 title: Registrar un cheque con pago diferido para un cliente
 description: Puede registrar detalles de un cheque con fecha futura recibido de un cliente.
 author: kweekley
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7b7899e11849175976b4c7ee44be4355e733d1d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9cb49ac6ebbd04e71215af010cb5a7b6302fe44e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225354"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834701"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrar un cheque con pago diferido para un cliente
 

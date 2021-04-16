@@ -2,11 +2,9 @@
 title: Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 description: Este tema describe cómo se utiliza la interfaz de ejecución de la planta de producción desde el punto de vista de un trabajador.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500799"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814665"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La interfaz de ejecución de la planta de producción está optimizada para la interacción táctil. Su diseño proporciona un contraste visual que cumple con los requisitos de accesibilidad para entornos de planta. Ofrece las mismas capacidades funcionales que el dispositivo de tarjeta de trabajo. Sin embargo, también permite iniciar varios trabajos en paralelo desde una lista de trabajos. (Esta capacidad también se conoce como *agrupación de trabajos*). Además, desde una lista de trabajos, los trabajadores pueden abrir una guía que se creó en Microsoft Dynamics 365 Guide. De esta forma, pueden obtener instrucciones visuales en un HoloLens.
 
@@ -90,7 +87,7 @@ La pestaña **Mi maquina** tiene las siguientes columnas. Los números se corres
 
 1. **Configuraciones** - Seleccione el icono de engranaje para abrir un cuadro de diálogo donde puede elegir qué contadores ver para el activo de máquina seleccionado. Los valores de estos contadores se muestran en la parte superior de la pestaña **Gestión de activos**. El menú **Configuraciones** (que se muestra en la siguiente captura de pantalla) le permite habilitar hasta cuatro contadores. Para cada contador que desee habilitar, use el campo de búsqueda en la parte superior del icono para seleccionar un contador. Las listas del campo de búsqueda enumera todos los contadores asociados al activo seleccionado en la parte superior de la página **Gestión de activos**. Configure cada contador para supervisar el valor **Agregado** o el último valor **Real** para el contador. Por ejemplo, si configura un contador que rastrea cuántas horas ha estado funcionando la máquina, debe configurarlo en **Agregado**. Si configura un contador para medir la temperatura o presión actualizada más reciente, debe configurarlo en **Real**. Seleccione **Aceptar** para guardar la configuración y cerrar el cuadro de diálogo.
 
-    ![La pestaña Mi máquina](media/pfei-my-machine-tab-settings.png "La pestaña Mi máquina")
+    ![Configuración de la pestaña Mi máquina](media/pfei-my-machine-tab-settings.png "Configuración de la pestaña Mi máquina")
 
 1. **Solicitar mantenimiento** - Seleccione este botón para abrir un cuadro de diálogo donde puede crear una solicitud de mantenimiento. Podrá proporcionar una descripción y una nota. La solicitud se presentará a un usuario de Supply Chain Management, que luego podrá convertir la solicitud de mantenimiento en una orden de trabajo de mantenimiento.
 1. **Registrar el tiempo de inactividad** - Seleccione este botón para abrir un cuadro de diálogo donde puede registrar el tiempo de inactividad de la máquina. Podrá seleccionar un código de motivo e ingresar un intervalo de fecha/hora para el tiempo de inactividad. El registro del tiempo de inactividad de la máquina se utiliza para calcular la eficiencia del activo de la máquina.

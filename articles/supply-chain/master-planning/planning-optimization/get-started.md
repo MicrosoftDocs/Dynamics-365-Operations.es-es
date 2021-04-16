@@ -2,11 +2,9 @@
 title: Introducción a la optimización de la planificación
 description: Este tema explica cómo empezar a usar la función de optimización de la planificación.
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 50633d1e5dd47b61e074d33a9d77a1f9ece0c223
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e85c18e548d82b2a369a1e8a5573800067b1935c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263383"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808073"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introducción a la optimización de la planificación
 

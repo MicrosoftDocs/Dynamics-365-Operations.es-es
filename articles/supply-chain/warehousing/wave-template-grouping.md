@@ -2,11 +2,9 @@
 title: Agrupación de plantillas de oleada
 description: La agrupación de plantillas de oleada permite que el sistema utilice configuraciones de plantilla de oleada para determinar, según los criterios que defina, cómo debe dividir las líneas liberadas y asignarlas a oleadas nuevas o existentes. Esta característica puede ser útil en almacenes en los que se crean oleadas según determinados criterios, pero donde los administradores prefieren crear oleadas automáticamente en lugar de hacerlo manualmente.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 520338683443105ffd1df7fc2569cd95a5f50879
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a591624f6611148abe4888e67d8d3a9bbea9cd27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245139"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838043"
 ---
 # <a name="wave-template-grouping"></a>Agrupación de plantillas de oleada
 

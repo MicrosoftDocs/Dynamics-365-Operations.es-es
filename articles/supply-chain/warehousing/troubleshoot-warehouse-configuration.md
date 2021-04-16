@@ -2,11 +2,9 @@
 title: Solución de problemas de configuración de almacén
 description: Este tema describe cómo solucionar problemas comunes que pueden surgir al configurar Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487106"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814401"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Solución de problemas de configuración de almacén
 
@@ -38,7 +36,7 @@ Recibe este mensaje de error cuando escanea la identificación o ubicación de u
 
 ### <a name="issue-resolution"></a>Solución del problema
 
-Asegúrese de que la identificación de la matrícula no esté reservada por otra persona. Este problema solía ocurrir cuando el valor que un usuario escaneaba en la aplicación del almacén era tanto una ubicación válida como una identificación de matrícula válida. Sin embargo, este problema se resolvió en la versión 10.0.11.
+Asegúrese de que la identificación de la matrícula no esté reservada por otra persona. Este problema solía ocurrir cuando el valor que un usuario escaneaba en la aplicación móvil Warehouse Management era tanto una ubicación válida como una identificación de matrícula válida. Sin embargo, este problema se resolvió en la versión 10.0.11.
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>Recibo el siguiente mensaje de error: "La matrícula se debe especificar para esta ubicación".
 
@@ -82,7 +80,7 @@ Las directivas de ubicación del tipo de orden de trabajo *Ordenes de venta* y d
 
 Una nueva característica, *Evaluar todas las acciones para las directivas de ubicación de múltiples SKU*, se ha agregado en la versión 10.0.15 (ver [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Esta función evalúa todas las acciones para las directivas de ubicación de varios SKU. Si necesita esta función, utilice [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activarla.
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>No puedo usar la aplicación del almacén para hacer picking parcial.
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>No puedo usar la aplicación móvil Warehouse Management para hacer picking parcial.
 
 ### <a name="issue-description"></a>Descripción del problema
 
@@ -100,7 +98,7 @@ Desea realizar un cambio de estado de inventario para una cantidad parcial de un
 
 ### <a name="issue-resolution"></a>Solución del problema
 
-Para permitir que los trabajadores realicen este cambio, puede crear un elemento de menú para la aplicación del almacén. En la página **Elementos de menú del dispositivo móvil**, cree (o edite) un elemento de menú con la siguiente configuración:
+Para permitir que los trabajadores realicen este cambio, puede crear un elemento de menú para la aplicación móvil Warehouse Management. En la página **Elementos de menú del dispositivo móvil**, cree (o edite) un elemento de menú con la siguiente configuración:
 
 - **Modo:** *Trabajo*
 - **Usar trabajo existente:** *No*

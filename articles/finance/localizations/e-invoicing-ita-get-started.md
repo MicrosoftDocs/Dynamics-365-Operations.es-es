@@ -1,12 +1,10 @@
 ---
-title: Introducción al complemento de facturación electrónica para Italia
-description: Este tema proporciona información que le ayudará a comenzar con el complemento de facturación electrónica para Italia en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
+title: Comenzar con la facturación electrónica para Italia
+description: Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Italia.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,26 +15,26 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259229"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840109"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Introducción al complemento de facturación electrónica para Italia
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>Comenzar con la facturación electrónica para Italia
 
 [!include [banner](../includes/banner.md)]
 
 
 > [!IMPORTANT]
-> Es posible que el complemento de facturación electrónica para Italia no admita actualmente todas las funciones que están disponibles para las facturas electrónicas en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management. 
+> Es posible que la facturación electrónica para Italia no admita actualmente todas las funciones que están disponibles para las facturas electrónicas en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management. 
 
-Este tema proporciona información que le ayudará a comenzar con el complemento de facturación electrónica para Italia. Le guía a través de los pasos de configuración que dependen del país o la región en Regulatory Configuration Services (RCS) y Finance. También le guía a través del proceso de envío de facturas electrónicas que se generan en el formato **FatturaPA** específico de Italia a través del servicio y explica cómo revisar los resultados del procesamiento.
+Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Italia. Le guía a través de los pasos de configuración que dependen del país o la región en Regulatory Configuration Services (RCS) y Finance. También le guía a través del proceso de envío de facturas electrónicas que se generan en el formato **FatturaPA** específico de Italia a través del servicio y explica cómo revisar los resultados del procesamiento.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de completar los pasos de este tema, debe completar los pasos en [Comience con el complemento de facturación electrónica](e-invoicing-get-started.md).
+Antes de completar los pasos de este tema, debe completar los pasos de [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>Configuración de RCS
 
@@ -48,7 +46,7 @@ Durante la configuración de RCS, completará estas tareas:
 4. Publicar la función de facturación electrónica.
 
 > [!NOTE]
-> "Característica de facturación electrónica" es el nombre genérico del recurso que se configura y publica para consumir el servidor complementario de facturación electrónica. En este caso, la exportación de facturas electrónicas de clientes es la característica de facturación electrónica que va a configurar.
+> "Característica de facturación electrónica" es el nombre genérico del recurso que se configura y publica para utilizar el servidor de facturación electrónica. En este caso, la exportación de facturas electrónicas de clientes es la característica de facturación electrónica que va a configurar.
 
 ## <a name="import-the-e-invoicing-feature"></a>Importar la función de facturación electrónica
 
@@ -153,7 +151,7 @@ Puede publicar la función de facturación electrónica cambiando el estado de l
 
 ![Cambiar el estado de la función de facturación electrónica](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Configurar la integración del complemento de facturación electrónica en Finance
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Configurar la integración de la facturación electrónica en Finance
 
 Durante la configuración de Finance, completará estas tareas:
 
@@ -193,17 +191,17 @@ Durante la configuración de Finance, completará estas tareas:
 
 Durante el procesamiento en Finance, completará estas tareas:
 
-1. Genere facturas electrónicas italianas a través del complemento de facturación electrónica
+1. Generar facturas electrónicas italianas mediante facturación electrónica
 2. Ver los registros de ejecución y revisar los resultados del procesamiento.
 
 ### <a name="generate-electronic-invoices"></a>Generar facturas electrónicas
 
-Después de activar la función **Integración adicional configurable de facturación electrónica** y activar la característica **IT00036**, el antiguo proceso de Finance para generar facturas electrónicas italianas ya no se puede utilizar. Es reemplazado por un nuevo proceso que se llama **Presentar documentos electrónicos**.
+Después de activar la característica **Integración configurable de facturación electrónica** y activar la característica **IT00036**, el antiguo proceso de Finance para generar facturas electrónicas italianas ya no se puede utilizar. Es reemplazado por un nuevo proceso que se llama **Presentar documentos electrónicos**.
 
 Puede enviar los documentos manualmente, según su demanda de documentos de factura electrónica.
 
 > [!NOTE]
-> Antes de continuar, verifique que se haya completado la configuración necesaria para las facturas electrónicas italianas. Para obtener más información, consulte [Facturas electrónicas de cliente](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Tenga en cuenta que algunos de los pasos de configuración que se describen en ese tema pueden no estar disponibles debido a la activación del complemento de facturación electrónica.
+> Antes de continuar, verifique que se haya completado la configuración necesaria para las facturas electrónicas italianas. Para obtener más información, consulte [Facturas electrónicas de cliente](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Tenga en cuenta que algunos de los pasos de configuración que se describen en ese tema pueden no estar disponibles debido a la activación de la facturación electrónica.
 
 1. Vaya a **Administración de la organización \> Periódico \> Documentos electrónicos \> Presentar documentos electrónicos**.
 2. Para el primer envío de cualquier documento, establezca la opción **Reenviar documentos** en **No**. Si debe volver a enviar un documento a través del servicio, configure esta opción en **Sí**.
@@ -220,7 +218,7 @@ Puede enviar los documentos manualmente, según su demanda de documentos de fact
 2. Seleccione **Aceptar** para cerrar el cuadro de diálogo **Consulta**.
 3. Seleccione **Aceptar** para enviar los documentos seleccionados.
 
-> ![NOTE] Durante su primer intento de enviar un documento a través del servicio, se le pedirá que confirme la conexión con el complemento de facturación electrónica. Seleccione **Haga clic aquí para conectar al servicio de envío de documentos electrónicos**.
+> ![NOTE] Durante su primer intento de enviar un documento a través del servicio, se le pedirá que confirme la conexión con la facturación electrónica. Seleccione **Haga clic aquí para conectar al servicio de envío de documentos electrónicos**.
 
 #### <a name="view-submission-logs"></a>Ver registros de envío
 
@@ -242,9 +240,9 @@ Puede ver los registros de envío de todos los documentos enviados.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Descripción general del complemento de facturación electrónica](e-invoicing-service-overview.md)
-- [Introducción al complemento de facturación electrónica](e-invoicing-get-started.md)
-- [Configurar el complemento de facturación electrónica](e-invoicing-setup.md)
+- [Información general sobre facturación electrónica](e-invoicing-service-overview.md)
+- [Comenzar con la facturación electrónica](e-invoicing-get-started.md)
+- [Configurar la facturación electrónica](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

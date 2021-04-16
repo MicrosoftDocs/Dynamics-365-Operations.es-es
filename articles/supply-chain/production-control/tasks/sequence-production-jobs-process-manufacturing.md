@@ -2,11 +2,9 @@
 title: Secuenciar trabajos de producción para fabricación en procesos
 description: Este procedimiento usa productos de pintura como ejemplo para mostrar cómo establecer la secuencia de los pedidos planificados según la prioridad de color y tamaño de paquete.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage, PMFSeqReqRoute, PMFSeqReqRouteChanges, PMFSeqReqSchedDetailsFactBox, PMFSequenceGroup, PMFSequenceItemTable, PMFSequenceTable, PmfSeqWrkCtrCapRes
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9ca04c140e7e7810e84a9efe73a6d97a7525ea1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 461893c355ac2ebf8124591f93d025cae49081fc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231921"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810993"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Secuenciar trabajos de producción para fabricación en procesos
 

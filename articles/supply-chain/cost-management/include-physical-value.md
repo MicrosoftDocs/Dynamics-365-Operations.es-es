@@ -2,11 +2,9 @@
 title: Incluir valor físico en coste
 description: Use la casilla Incluir valor físico en coste de la ficha desplegable Modelo de inventario del formulario Grupos de modelos de artículo se utiliza para especificar si las transacciones actualizadas físicamente se incluyen en el cálculo del precio de coste promedio móvil del artículo.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a769f9cb5b34581b9bd20b19bcd8bcd0b1c7bff8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 16ab5ecc74d41610098bf927fc4768bc216e42f4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205446"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816685"
 ---
 # <a name="include-physical-value"></a>Incluir valor físico en coste
 

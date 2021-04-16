@@ -1,12 +1,10 @@
 ---
 title: Planes de mantenimiento
 description: En este tema se explican los planes de mantenimiento en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500823"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839616"
 ---
 # <a name="maintenance-plans"></a>Planes de mantenimiento
 
@@ -195,8 +193,6 @@ La siguiente ilustración muestra un ejemplo de planes de mantenimiento configur
 
 ## <a name="counter-based-maintenance-enhancements"></a>Mejoras de mantenimiento basadas en contadores
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 La característica *Mejoras de mantenimiento basadas en contadores* presenta la siguiente funcionalidad:
 
 - La opción de insertar automáticamente un contador que tiene un valor de *0* (cero) cuando se crea un activo. Esta opción puede resultar útil cuando utiliza el mantenimiento predictivo que se basa en contadores. Cuando la característica *Mejoras de mantenimiento basadas en contadores* no se utiliza, los contadores que tienen un valor de *0* (cero) deben insertarse manualmente.
@@ -209,7 +205,7 @@ La característica *Mejoras de mantenimiento basadas en contadores* presenta la 
 Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Administración de activos*
-- **Nombre de la característica:** *(vista previa) mejoras de mantenimiento basadas en contadores*
+- **Nombre de la característica:** *mejoras de mantenimiento basadas en contadores*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Crear e inicializar contadores cuando se crea un activo
 
