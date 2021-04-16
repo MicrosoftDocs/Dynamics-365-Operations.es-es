@@ -2,11 +2,9 @@
 title: Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 description: Este tema proporciona información sobre la función que permite que las unidades de báscula ejecuten procesos seleccionados de la carga de trabajo de administración de su almacén.
 author: perlynne
-manager: tfeyr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, SysSecRolesEditUsers
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580974"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832403"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -70,7 +68,7 @@ El centro posee los siguientes datos:
 - Asignación de pedidos y procesamiento de carga saliente
 - Los procesos de liberación al almacén, creación de envíos, creación de oleadas y finalización de oleadas
 
-Las unidades de escala son propietarias del procesamiento de oleadas real (como la asignación de trabajo, el trabajo de reabastecimiento y la creación de trabajos por demanda) después del lanzamiento de la oleada. Por lo tanto, los trabajadores del almacén pueden procesar el trabajo saliente utilizando una aplicación de almacén que está conectada a la unidad de báscula.
+Las unidades de escala son propietarias del procesamiento de oleadas real (como la asignación de trabajo, el trabajo de reabastecimiento y la creación de trabajos por demanda) después del lanzamiento de la oleada. Por lo tanto, los trabajadores del almacén pueden procesar el trabajo saliente utilizando una aplicación móvil Warehouse Management que está conectada a la unidad de báscula.
 
 ![Flujo de procesamiento de oleada](./media/wes-wave-processing-ga.png "Flujo de procesamiento de oleada")
 
@@ -94,7 +92,7 @@ Debe iniciar sesión en el concentrador para usar el proceso *Liberar al almacé
 
 Cuando usa **Liberación automática de órdenes de compra**, puede seleccionar líneas de pedido de compra específicas en función de una consulta. Un escenario típico sería configurar un trabajo por lotes recurrente que libere todas las líneas de órdenes de compra confirmadas que se espera lleguen al día siguiente.
 
-El trabajadore puede ejecutar el proceso de recepción utilizando una aplicación de almacén que está conectada a la unidad de báscula. Luego, la unidad de báscula registra los datos y se reportan contra el pedido de almacén de entrada. La creación y el procesamiento del almacenamiento posterior también serán manejados por la unidad de báscula.
+El trabajador puede ejecutar el proceso de recepción utilizando una aplicación móvil Warehouse Management que está conectada a la unidad de báscula. Luego, la unidad de báscula registra los datos y se reportan contra el pedido de almacén de entrada. La creación y el procesamiento del almacenamiento posterior también serán manejados por la unidad de báscula.
 
 Si no está utilizando el proceso de *liberación al almacén* y por lo tanto no están usando *pedidos de almacén*, el centro puede procesar la recepción del almacén y el procesamiento del trabajo independientemente de las unidades de escala.
 
@@ -117,10 +115,10 @@ A los usuarios que actúan como gerentes en el centro y unidades de escalado se 
 Los siguientes procesos de ejecución de almacén se pueden habilitar para una carga de trabajo de WES en una unidad de báscula:
 
 - Métodos de oleada seleccionados para pedidos de venta y transferencia (asignación, reabastecimiento de demanda, creación de contenedores, creación de trabajo e impresión de etiquetas de oleada)
-- Procesar el trabajo de almacén de pedidos de transferencia y ventas utilizando la aplicación del almacén (incluido el trabajo de reabastecimiento)
-- Consultar el inventario disponible mediante la aplicación de almacén
-- Creación y ejecución de movimientos de inventario mediante la aplicación de almacén
-- Registrar órdenes de compra y realizar trabajos de almacenamiento mediante la aplicación de almacén
+- Procesar el trabajo de almacén de pedidos de transferencia y ventas utilizando la aplicación móvil Warehouse Management (incluido el trabajo de reabastecimiento)
+- Consultar el inventario disponible mediante la aplicación móvil Warehouse Management
+- Creación y ejecución de movimientos de inventario mediante la aplicación móvil Warehouse Management
+- Registrar órdenes de compra y realizar trabajos de almacenamiento mediante la aplicación móvil Warehouse Management
 
 Los siguientes tipos de órdenes de trabajo se admiten actualmente para cargas de trabajo WES en implementaciones de unidades de báscula:
 
@@ -133,7 +131,7 @@ Los siguientes tipos de órdenes de trabajo se admiten actualmente para cargas d
 Actualmente, no se admite ningún otro tipo de procesamiento de documentos de origen o trabajo de almacén en unidades de escalado. Por ejemplo, para una carga de trabajo de WES en una unidad de escalado, no puede realizar un proceso de recepción de pedidos de transferencia (recepción de transferencias) o un trabajo de recuento cíclico de procesos.
 
 > [!NOTE]
-> Los elementos del menú del dispositivo móvil y los botones para funciones no compatibles no se muestran en la _aplicación del almacén_ cuando está conectada a una implementación de unidad de escalado.
+> Los elementos del menú del dispositivo móvil y los botones para funciones no compatibles no se muestran en la _aplicación móvil Warehouse Management_ cuando está conectada a una implementación de unidad de escalado.
 
 > [!WARNING]
 > Cuando ejecuta una carga de trabajo en una unidad de escalado, no puede ejecutar procesos no admitidos para ese almacén específico en el concentrador. Las tablas que se proporcionan más adelante en este tema documentan las capacidades admitidas.
@@ -164,7 +162,7 @@ Actualmente, la siguiente funcionalidad de administración de almacenes no es co
 - Procesamiento de trabajos de almacén con notas de envío
 - Procesamiento de trabajos de almacén con activación de umbral de recuento cíclico
 - Procesamiento de trabajos de almacén con manipulación de materiales y automatización de almacén
-- Uso de la imagen de datos maestros del producto (por ejemplo, en la aplicación del almacén)
+- Uso de la imagen de datos maestros del producto (por ejemplo, en la aplicación móvil Warehouse Management)
 
 > [!WARNING]
 > Algunas funciones de almacén no estarán disponibles para los almacenes que ejecutan las cargas de trabajo de administración de almacenes en una unidad de escalado y tampoco se admiten en el concentrador o en la carga de trabajo de la unidad de escalado.
@@ -253,7 +251,7 @@ La siguiente tabla muestra qué funciones de control de excepciones y operacione
 | Movimiento                                           | Sí | Sí                          |
 | Plantilla de movimiento por                               | Sí | Sí                          |
 | Transferencia de almacén                                 | Sí | N.º                           |
-| Crear pedidos de transferencia desde la aplicación de almacén           | Sí | N.º                           |
+| Cree una orden de transferencia desde la aplicación móvil Warehouse Management           | Sí | N.º                           |
 | Ajuste (entrada/salida)                                | Sí | N.º                           |
 | Cambio de estado de inventario                            | Sí | N.º                           |
 | Ciclo de recuento y procesamiento de discrepancias de recuento | Sí | N.º                           |

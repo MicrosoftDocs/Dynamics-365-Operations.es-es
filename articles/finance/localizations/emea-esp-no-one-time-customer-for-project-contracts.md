@@ -2,11 +2,9 @@
 title: Clientes plantilla
 description: Este tema proporciona información sobre los clientes plantilla.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 60743fb352b93a204246a4fcb44bac4651ae9d97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 446396ad344b822f1aa36e5fd7b4410578b53edb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214486"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839749"
 ---
 # <a name="one-time-customers"></a>Clientes plantilla
 

@@ -2,11 +2,9 @@
 title: Tipos de registro de arrendamientos
 description: Este tema describe los tipos de registro que se utilizan para transacciones de arrendamiento de activos.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229511"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841150"
 ---
 # <a name="lease-posting-types"></a>Tipos de registro de arrendamientos
 
@@ -90,15 +88,6 @@ La cuenta está asociada con la cuenta enfrentada al activo del activo por derec
 **Entradas de diario de ejemplo:** depreciación acumulada<br>
 **Débito:** gasto de depreciación XXX<br>
 **Crédito:** depreciación acumulada XXX
-
-## <a name="retained-earnings"></a>Ganancias retenidas
-
-La cuenta que está asociada con los ingresos retenidos. Esta cuenta puede adeudarse o abonarse en un movimiento de diario de ajuste de transición utilizando el método retrospectivo completo o el método de opción A de recuperación acumulativa. La diferencia entre el activo por derecho de uso inicial y el pasivo por arrendamiento se registra en los ingresos retenidos. En casos raros, las ganancias retenidas también pueden verse afectadas durante la modificación del arrendamiento, si la clasificación de un arrendamiento se cambia de financiero a operativo para registrar un aumento o disminución del activo por derecho de uso para que sea igual al pasivo por arrendamiento.
-
-**Entradas de diario de ejemplo:** ajuste de transición (método de opción A de recuperación total retrospectiva o acumulativa)<br>
-**Débito:** pasivo por arrendamiento XXX<br>
-**Crédito:** activo por arrendamiento XXX<br>
-**Crédito:** ingresos retenidos XXX
 
 ## <a name="variable-payment"></a>Pago variable
 

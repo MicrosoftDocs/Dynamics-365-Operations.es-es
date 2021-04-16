@@ -2,11 +2,9 @@
 title: Previsión de las claves de reducción
 description: Este tema proporciona ejemplos que muestran cómo configurar una clave de reducción. Incluye información sobre los distintos ajustes de la clave de reducción y los resultados de cada uno. Puede usar una clave de reducción para definir cómo reducir los requisitos de previsión.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqReduceKeyDefaultDataWizard, ReqReduceKey
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d16de8c339fadff074ef8ec30b0b4d6e3412569
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 5d9e9d8808781d6c19c407565b901ee55400e07b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470778"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841848"
 ---
 # <a name="forecast-reduction-keys"></a>Previsión de las claves de reducción
 

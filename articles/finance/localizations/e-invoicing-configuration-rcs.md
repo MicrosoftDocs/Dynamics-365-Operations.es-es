@@ -1,12 +1,10 @@
 ---
-title: Configurar el complemento de facturación electrónica en Regulatory Configuration Services (RCS)
-description: Este tema explica cómo configurar el complemento de facturación electrónica en Dynamics 365 Regulatory Configuration Services (RCS).
+title: Configurar la facturación electrónica en Regulatory Configuration Services (RCS)
+description: Este tema explica cómo configurar la facturación electrónica en Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,34 +15,32 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592631"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840253"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Configurar el complemento de facturación electrónica en Regulatory Configuration Services (RCS)
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurar la facturación electrónica en Regulatory Configuration Services (RCS)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/banner.md)]
+Este tema proporciona información sobre las capacidades de configuración de la facturación electrónica en Dynamics 365 Regulatory Configuration Services (RCS).
 
-Este tema proporciona información sobre las capacidades de configuración del complemento de facturación electrónica en Dynamics 365 Regulatory Configuration Services (RCS).
-
-Es a través de las capacidades de configuración como el complemento de facturación electrónica le ayuda a cumplir con los requisitos comerciales y normativos de las facturas electrónicas, sin tener que realizar ninguna codificación. Y en los escenarios donde las facturas electrónicas deben aprobarse electrónicamente mediante servicios web, las capacidades de configuración también le ayudan a cumplir con los requisitos para intercambiar mensajes con servicios web, sin necesidad de codificación.
+Es a través de las capacidades de configuración como la facturación electrónica le ayuda a cumplir con los requisitos comerciales y normativos de las facturas electrónicas, sin tener que programar. Y en los escenarios donde las facturas electrónicas deben aprobarse electrónicamente mediante servicios web, las capacidades de configuración también le ayudan a cumplir con los requisitos para intercambiar mensajes con servicios web, sin necesidad de codificación.
 
 ## <a name="electronic-reporting"></a>Informes electrónicos
 
-La facturación electrónica (ER) se basa en el complemento de facturación electrónica.
+Informes electrónicos (ER) admite la facturación electrónica.
 
-La asignación y los formatos del modelo de datos son componentes configurables que se crean y mantienen a través de ER y se utilizan en el complemento de facturación electrónica. El diseñador de formatos de ER es la herramienta para crear y mantener formatos de archivo. Se utiliza para configurar las características de facturación electrónica.
+La asignación y los formatos del modelo de datos son componentes configurables que se crean y mantienen a través de ER y se utilizan en la facturación electrónica. El diseñador de formatos de ER es la herramienta para crear y mantener formatos de archivo. Se utiliza para configurar las características de facturación electrónica.
 
 Para obtener más información, consulte [Visión general de los informes electrónicos (ER)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="electronic-invoicing-features"></a>Características de facturación electrónica
 
-Las características de facturación electrónica se encargan de generar facturas electrónicas a través del complemento de facturación electrónica. Encapsulan las reglas de configuración y las utilizan para procesar los datos que Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management envían al complemento de facturación electrónica y a las facturas electrónicas.
+Las características de facturación electrónica se encargan de generar facturas electrónicas a través de la facturación electrónica. Encapsulan las reglas de configuración y las utilizan para procesar los datos que Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management envían a la facturación electrónica y a las facturas electrónicas.
 
 Las características también admiten escenarios en los que se requiere el cumplimiento de las especificaciones de formato de archivo y la salida es un archivo electrónico independiente. En la mayoría de los casos, la autoridad fiscal publica las especificaciones del formato de archivo.
 
@@ -81,13 +77,13 @@ La siguiente tabla muestra las características de facturación electrónica que
 
 Las características de facturación electrónica constan de los siguientes grupos de componentes configurables:
 
-- **Formatos**: los formatos permiten configurar qué debe generar el complemento de facturación electrónica cuando un documento electrónico se convierte en factura electrónica. Los formatos incluyen la configuración del formato para la factura electrónica y para los archivos y mensajes que se utilizan para enviar solicitudes y recibir respuestas cuando se requiere comunicación con un servicio web externo.
-- **Acciones**: las acciones le permiten configurar cómo el complemento de facturación electrónica genera la transformación de un documento electrónico que Finance and Supply Chain Management envió en una factura electrónica.
-- **Reglas de aplicabilidad**: las reglas de aplicabilidad le permiten configurar el contexto que el complemento de facturación electrónica debe considerar para procesar una característica de facturación electrónica.
-- **Variables**: las variables permiten configurar el soporte para la construcción de la lógica de configuración. Las variables pueden funcionar como entrada de valores para realizar una acción específica. Alternativamente, pueden funcionar como un intercambio de valores entre Finance y Supply Chain Management y el complemento de facturación electrónica.
-- **Asignación de modelos de documentos electrónicos**: la asignación del modelo de documento electrónico le permite configurar la asignación del modelo ER. La asignación del modelo define la asignación de datos de la factura abstracta que se integra en el complemento de facturación electrónica cuando se envían los documentos electrónicos.
+- **Formatos**: los formatos permiten configurar qué debe generar la facturación electrónica cuando un documento electrónico se convierte en factura electrónica. Los formatos incluyen la configuración del formato para la factura electrónica y para los archivos y mensajes que se utilizan para enviar solicitudes y recibir respuestas cuando se requiere comunicación con un servicio web externo.
+- **Acciones**: las acciones le permiten configurar cómo la facturación electrónica genera la transformación de un documento electrónico que Finance and Supply Chain Management envió en una factura electrónica.
+- **Reglas de aplicabilidad**: las reglas de aplicabilidad le permiten configurar el contexto que la facturación electrónica debe considerar para procesar una característica de facturación electrónica.
+- **Variables**: las variables permiten configurar el soporte para la construcción de la lógica de configuración. Las variables pueden funcionar como entrada de valores para realizar una acción específica. Alternativamente, pueden funcionar como un intercambio de valores entre Finance y Supply Chain Management y la facturación electrónica.
+- **Asignación de modelos de documentos electrónicos**: la asignación del modelo de documento electrónico le permite configurar la asignación del modelo ER. La asignación del modelo define la asignación de datos de la factura abstracta que se integra en la facturación electrónica cuando se envían los documentos electrónicos.
 - **Modelo de contexto de factura**: el modelo de contexto de factura le permite configurar el modelo de contexto de factura de ER y definir el contexto de una característica de facturación electrónica.
-- **Tipos de respuesta**: los tipos de respuesta le permiten configurar qué debe actualizar el complemento de facturación electrónica en Finance y Supply Chain Management como resultado del procesamiento de la factura electrónica.
+- **Tipos de respuesta**: los tipos de respuesta le permiten configurar qué debe actualizar la facturación electrónica en Finance y Supply Chain Management como resultado del procesamiento de la factura electrónica.
 
 ### <a name="formats"></a>Formatos
 
@@ -237,7 +233,7 @@ Las versiones de la característica de facturación electrónica siguen un ciclo
 
 - **Borrador**: si una versión de característica se encuentra en este estado, puede editar sus atributos de configuración y cualquiera de sus artefactos (por ejemplo, configuraciones de formato de archivo).
 - **Completar**: si una versión de característica se encuentra en este estado, se ha publicado en el repositorio global asociado a su organización. Ya no puede editar la versión de la característica ni ninguno de los componentes de ER.
-- **Publicado**: si una versión de la característica se encuentra en este estado, se ha publicado en el complemento de facturación electrónica. Ya no puede editar la versión de la característica ni ninguno de los componentes de ER.
+- **Publicado**: si una versión de la característica se encuentra en este estado, se ha publicado en la facturación electrónica. Ya no puede editar la versión de la característica ni ninguno de los componentes de ER.
 
 ### <a name="feature-configurations"></a>Configuraciones de características
 
@@ -266,14 +262,14 @@ A través de la configuración de la aplicación, puede configurar la parte de u
 
 En RCS, use el comando **Implementar** para publicar como destino una versión de característica de facturación electrónica. Seleccione **Implementar** y luego seleccione una de las siguientes opciones para definir el destino de la implementación: 
 
-- **Entorno de servicio**: cuando el objetivo de la implementación es el entorno del servicio, la versión de la característica de facturación electrónica se publica en el entorno del servicio. El complemento de facturación electrónica está listo para recibir y procesar documentos electrónicos enviados por Finance y Supply Chain Management.
+- **Entorno de servicio**: cuando el objetivo de la implementación es el entorno del servicio, la versión de la característica de facturación electrónica se publica en el entorno del servicio. La facturación electrónica está lista para recibir y procesar documentos electrónicos enviados por Finance y Supply Chain Management.
 - **Aplicación conectada**: cuando el destino de la implementación es la aplicación conectada, la configuración proporcionada por la instalación de la aplicación se escribe en la instancia de Finance y Supply Chain Management que estaba asociada anteriormente.
 
 Solo las versiones de la característica de facturación electrónica que tienen un estado de **Completado** se pueden implementar en un entorno de servicio o en una aplicación conectada.
 
 ### <a name="removing-feature-versions"></a>Eliminación de versiones de características
 
-En RCS, use el comando **Anular implementación** para eliminar una versión específica de la característica de facturación electrónica de un entorno de servicio en el complemento de facturación electrónica.
+En RCS, use el comando **Anular implementación** para eliminar una versión específica de la característica de facturación electrónica de un entorno de servicio de la facturación electrónica.
 
 > [!IMPORTANT]
 > El comando **Anular implementación** solo funciona en entornos de servicio. No elimina las versiones de la característica de facturación electrónica de las aplicaciones conectadas.

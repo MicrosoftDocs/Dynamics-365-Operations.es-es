@@ -2,11 +2,9 @@
 title: Informe de la declaración de inflación de ajuste
 description: Los usuarios de Microsoft Dynamics 365 Finance pueden procesar ajustes de inflación mediante coeficientes de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual y fecha de transacción) y diversas dimensiones.
 author: sndray
-manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InflationAdjJournal_MX, InpcRateTable_MX, LedgerParameters, MainAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12ab589f78b534655ddb20a0c132a01d1ac78f1a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8d4e076257414dbcd8f1f9d5fc2a16254361ed79
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254418"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837968"
 ---
 # <a name="adjustment-inflation-declaration-report"></a>Informe de la declaración de inflación de ajuste
 

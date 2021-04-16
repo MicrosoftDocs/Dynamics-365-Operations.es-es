@@ -2,11 +2,9 @@
 title: Grupos de revalorización de activos fijos
 description: Este tema proporciona información acerca de la revalorización de activos fijos para España.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetRevaluationGroup, AssetBookTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Spain
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f379df64af94a5343062e35750166a52724febf4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d6868cd050d13790692365f2f798a09523727873
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258167"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839755"
 ---
 # <a name="fixed-asset-revaluation-groups"></a>Grupos de revalorización de activos fijos
 

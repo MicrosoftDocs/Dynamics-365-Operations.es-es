@@ -2,11 +2,9 @@
 title: 'Consolidación de artículos: utilización de ubicación'
 description: Este tema proporciona información sobre la funcionalidad que facilita a los gerentes de almacén ver y filtrar la utilización volumétrica de ubicaciones en todo el almacén. Los gerentes pueden seleccionar ubicaciones y crear trabajos de movimiento de inventario directamente desde la página Consolidación de artículos para consolidar artículos y, por lo tanto, hacer un mejor uso del espacio de almacén.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217014"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835589"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidación de artículos: utilización de ubicación
 
@@ -149,7 +147,7 @@ Esta sección describe cómo preparar su sistema para utilizar la consolidación
 
 ## <a name="example-scenario"></a>Supuesto de ejemplo
 
-El siguiente escenario usa la aplicación de almacén en un dispositivo móvil para hacer un *ajuste en* inventario a dos ubicaciones del almacén.
+El siguiente escenario usa la aplicación móvil Warehouse Management para hacer un *ajuste en* inventario a dos ubicaciones del almacén.
 
 ### <a name="add-inventory-to-locations"></a>Agregar inventario a ubicaciones
 

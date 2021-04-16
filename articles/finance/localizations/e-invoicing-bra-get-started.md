@@ -1,12 +1,10 @@
 ---
-title: Introducción al complemento de facturación electrónica para Brasil
-description: Este tema proporciona información que le ayudará a comenzar con el complemento de facturación electrónica para Brasil en Finance y Supply Chain Management.
+title: Comenzar con la facturación electrónica para Brasil
+description: Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Brasil en Finance y Supply Chain Management.
 author: gionoder
-manager: AnnBe
-ms.date: 03/12/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,29 +15,27 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: eaf9433ad2d9ccf3d3c5632d0f2d4fe772ff8bde
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: f8caaa6417365a131da0565cbc4a9f79425d0c7e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592679"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840277"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-brazil"></a>Introducción al complemento de facturación electrónica para Brasil 
+# <a name="get-started-with-electronic-invoicing-for-brazil"></a>Comenzar con la facturación electrónica para Brasil 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo comenzar con el complemento de facturación electrónica para Brasil. Los procedimientos de este tema le guían a través de los pasos de configuración que dependen del país en Regulatory Configuration Services (RCS) y complementa los pasos descritos en el tema [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
+Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Brasil. El tema le guía a través de los pasos de configuración que dependen del país en Regulatory Configuration Services (RCS) y complementa los pasos descritos en el tema [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Configuración específica del país para la función de facturación electrónica brasileña NF-e (BR)
 
-La configuración de la función de facturación electrónica brasileña NF-e (BR) requiere que se completen pasos específicos. Algunos de los parámetros de las configuraciones se publican con valores predeterminados, por lo que deben revisarse y actualizarse para adaptarse mejor a su operación comercial.
+Algunos de los parámetros de la **Característica de facturación electrónica brasileña NF-e (BR)** se publican con valores predeterminados. Revise los valores y, si es necesario, actualícelos para que reflejen mejor sus necesidades de operación comercial antes de implementar la función de facturación electrónica en el entorno del servicio.
 
-### <a name="prerequisites"></a>Requisitos previos
+Esta sección complementa la sección **Configuración específica del país para la característica de facturación electrónica** en el tema [Comenzar con la de facturación electrónica](e-invoicing-get-started.md).
 
-Antes de completar el procedimiento de esta sección, cree una característica de facturación electrónica de factura electrónica brasileña NF-e (BR) para su organización, como se describe en la sección **Crear una característica de facturación electrónica en el proveedor de su organización**, en [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
-
-1. En RCS, en la sección **Características**, del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Complemento de facturación electrónica**.
-2. En la página **Características del complemento de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NF-e (BR)** que creó.
+1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
+2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NF-e (BR)** que creó.
 3. En la pestaña **Versiones**, verifique que esté seleccionada la versión **Borrador**.
 4. En la pestaña **Configuraciones**, en la cuadrícula, seleccione **Enviar** y luego seleccione **Editar.**
 5. En la pestaña **Acciones**, del grupo de campo **Acciones**, seleccione la acción **(Versión preliminar) Firmar documento xml**.
@@ -47,20 +43,18 @@ Antes de completar el procedimiento de esta sección, cree una característica d
 7. En la pestaña **Acciones**, del grupo de campos **Acciones**, seleccione la acción **(Versión preliminar) Llamar al servicio SEFAZ brasileño**.
 8. En el grupo de campos **Parámetros**, seleccione el parámetro **Dirección URL**.
 9. En el campo **Valor**, si es necesario, revise y actualice la URL de los servicios web publicados por la documentación de SEFAZ para su estado y luego seleccione **Guardar.**
-10. En la pestaña **Reglas de aplicabilidad**, en el grupo de campos **Configurar la regla de aplicabilidad**, reviser y actualice el criterio de campo **Estado** según sea necesario para el mismo estado al que se refiere la URL de los servicios web.
+10. En la pestaña **Reglas de aplicabilidad**, en el grupo de campos **Configurar regla de aplicabilidad**, revise y actualice el criterio de campo **Estado** según sea necesario para el mismo estado al que se refiere la URL de los servicios web.
 11. Seleccione **Guardar** y cierre la página.
-12. Para configurar la instalación de la aplicación, consulte [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
+12. Para implementar la función de facturación electrónica en el ambiente del servicio, consulte [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-of-application-setup-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Configuración específica del país para la instalación de la aplicación para la característica de facturación electrónica brasileña NF-e (BR)
 
-La configuración de la aplicación para la característica de facturación electrónica brasileña NF-e (BR) requiere que se completen pasos específicos. Complete esos pasos antes de implementar su función de facturación electrónica en su ambiente de servicio de complemento de facturación electrónica.
+Complete estos pasos antes de implementar la configuración de la aplicación en su aplicación conectada Finance o Supply Chain Management.
 
-### <a name="prerequisites"></a>Requisitos previos
+Esta sección complementa la sección **Configuración específica del país para la instalación de la aplicación** en el tema [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
-Antes de completar el procedimiento de esta sección, cree e inicie la configuración de la aplicación de la característica de facturación electrónica de factura electrónica brasileña NF-e (BR) para su organización, como se describe en la sección **Configurar la instalación de la aplicación** de este tema [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
-
-1. En RCS, en la sección **Características**, del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Complemento de facturación electrónica**.
-2. En la página **Características del complemento de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NF-e (BR)**.
+1. En RCS, en la sección **Características**, del espacio de trabajo **Característica de globalización**, seleccione el mosaico *Facturación electrónica*.
+2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NF-e (BR)**.
 3. En la pestaña **Versiones**, verifique que esté seleccionada la versión **Borrador**.
 4. En la pestaña **Configuraciones**, seleccione **Configuración de la aplicación** y, en el campo **Aplicación conectada**, seleccione la aplicación donde desea implementar.
 5. En el campo **Nombre de tabla**, compruebe que esté seleccionado **Encabezado del documento fiscal**.
@@ -71,18 +65,16 @@ Antes de completar el procedimiento de esta sección, cree e inicie la configura
 10. Seleccione **Nuevo** y, en el campo **Tipo de respuesta**, introduzca "ResponseData" como valor fijo y, en el campo **Descripción**, introduzca "Descripción".
 11. En el campo **Estado de envío**, seleccione **Pendiente**.
 12. En el campo **Asignación de modelos**, seleccione **Importación de datos de respuesta**, con **(Versión preliminar) Formato de importación de datos de respuesta NF-e** y luego seleccione **Guardar**.
-13. Para implementar la función de facturación electrónica, consulte [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
+13. Para implementar la configuración de la aplicación en la aplicación conectada Finance o Supply Chain, consulte [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nfs-e-abrasf-curitiba-br-electronic-invoicing-feature"></a>Configuración específica del país para la función de facturación electrónica brasileña NFS-e ABRASF Curitiba (BR)
 
-La configuración de la función de facturación electrónica brasileña NFS-e ABRASF Curitiba (BR) requiere que se completen pasos específicos. Algunos de los parámetros de las configuraciones se publican con valores predeterminados, por lo que deben revisarse y actualizarse para adaptarse mejor a su operación comercial.
+Algunos de los parámetros de la **Característica de facturación electrónica brasileña NFS-e ABRASF Curitiba (BR)** se publican con valores predeterminados. Revise y, si es necesario, actualice los valores para que se adapten mejor a sus necesidades de operación comercial antes de implementar la función de facturación electrónica en el entorno del servicio.
 
-### <a name="prerequisites"></a>Requisitos previos
+Esta sección complementa la sección **Configuración específica del país para la característica de facturación electrónica** en el tema [Comenzar con la de facturación electrónica](e-invoicing-get-started.md).
 
-Antes de completar el procedimiento en esta sección, cree una función de facturación electrónica brasileña NFS-e ABRASF Curitiba (BR) en su organización. Esto se describe en la sección **Configurar la característica de facturación electrónica** en el tema [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
-
-1. En RCS, en la sección **Características**, del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Complemento de facturación electrónica**.
-2. En la página **Características del complemento de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NFS-e ABRASF Curitiba (BR)** que creó.
+1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
+2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NFS-e ABRASF Curitiba (BR)** que creó.
 3. En la pestaña **Versiones** compruebe que esté seleccionada la versión **Borrador** y, en la pestaña **Configuraciones** de la cuadrícula, seleccione **Enviar**.
 4. Seleccione **Editar** y, en la pestaña **Acciones** del grupo de campos **Acciones**, seleccione la primera aparición de **(Versión preliminar) Firmar documento xml**.
 5. En el grupo de campos **Parámetros**, seleccione **Nombre de certificado**.
@@ -98,18 +90,16 @@ Antes de completar el procedimiento en esta sección, cree una función de factu
 15. En el grupo de campos **Parámetros**, seleccione el parámetro **Dirección URL**.
 16. En el campo **Valor**, si es necesario, revise y actualice la URL de los servicios web publicados por el departamento de impuestos para la ciudad de Curitiba.
 17. Seleccione **Guardar** y, a continuación, cierre la página.
-18. Para configurar la instalación de la aplicación, consulte [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
+18. Para implementar la función de facturación electrónica en el ambiente del servicio, consulte [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-of-application-setup-for-brazilian-nfs-e-abrasf-curitiba-br-electronic-invoicing-feature"></a>Configuración específica del país de la instalación de la aplicación para la función de facturación electrónica brasileña NFS-e ABRASF Curitiba (BR)
 
-Configurar la instalación de la aplicación para la función de facturación electrónica NFS-e ABRASF Curitiba (BR) brasileña requiere que se completen pasos específicos antes de implementar su función de facturación electrónica en su ambiente de servicio complementario de facturación electrónica.
+Complete estos pasos antes de implementar la configuración de la aplicación en su aplicación conectada Finance o Supply Chain Management.
 
-### <a name="prerequisites"></a>Requisitos previos
+Esta sección complementa la sección **Configuración específica del país para la instalación de la aplicación** en el tema [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
-Antes de completar el procedimiento de esta sección, cree e inicie una característica de facturación electrónica de factura electrónica brasileña NFS-e ABRASF Curitiba (BR) para su organización, como se describe en la sección **Configurar la instalación de la aplicación** del tema [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
-
-1. En RCS, en la sección **Características**, del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Complemento de facturación electrónica**.
-2. En la página **Características del complemento de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NFS-e ABRASF Curitiba (BR)**.
+1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
+2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NFS-e ABRASF Curitiba (BR)**.
 3. En la pestaña **Versiones** compruebe que esté seleccionada la versión **Borrador** y, en la pestaña **Configuraciones** de la cuadrícula, seleccione **Configuración de aplicación**.
 4. En el campo **Aplicación conectada**, seleccione la aplicación donde desea implementar.
 5. En el campo **Nombre de tabla**, compruebe que esté seleccionado el encabezado del documento fiscal.
@@ -123,19 +113,20 @@ Antes de completar el procedimiento de esta sección, cree e inicie una caracter
 13. Seleccione **Nuevo** y, en el campo **Tipo de respuesta**, introduzca "ABRASFCuritibaInquireResponse" y, en el campo **Descripción**, introduzca "Descripción".
 14. En el campo **Estado de envío**, seleccione **Pendiente**.
 15. En el campo **Asignación de modelos**, seleccione **Importar mensaje de respuesta**, con **(Versión preliminar) Importación de mensaje de respuesta NFS-e ABRASF Curitiba (BR).**
-16. Seleccione **Guardar** y luego vuelva al tema [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md) para implementar la función de facturación electrónica.
+16. Seleccione **Guardar** y cierre la página.
+17. Para implementar la configuración de la aplicación en la aplicación conectada Finance o Supply Chain, consulte [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 Habilitar las características **NF-e Federal, Factura electrónica brasileña (BR)** y el **NFS-e, Factura electrónica del servicio brasileño (ciudad)** puede requerir el envío de datos limitados, incluido el id. de registro fiscal de la organización. Este dato se transmite a agencias de terceros autorizadas por la autoridad tributaria con el fin de enviar facturas electrónicas a esta autoridad tributaria en el formato predefinido requerido para la integración con el servicio web del gobierno. Como administrador, puede activar o desactivar las características **NF-e Federal, Factura electrónica brasileña (BR)** y el **NFS-e, Factura electrónica del servicio brasileño (ciudad)**. En los pasos siguientes se muestra cómo hacer esto: 
 
 1. Vaya a **Administración de la organización** > **Configuración** > **Parámetros de documentos electrónicos**. 
-2. En la pestaña **Características**, seleccione la fila que contiene la característica **NF-e Federal, Factura electrónica brasileña (BR)** o la **NFS-e, Factura electrónica del servicio brasileño (ciudad)** y seleccione la característica. Los datos importados de estos sistemas externos a este servicio en línea de Dynamics 365 están sujetos a nuestra [declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte las secciones de Aviso de privacidad en la documentación de funciones específicas de cada país o región para obtener más información.
+2. En la pestaña **Características**, seleccione la fila que contiene la característica **NF-e Federal, Factura electrónica brasileña (BR)** o la **NFS-e, Factura electrónica del servicio brasileño (ciudad)** y seleccione la característica. Los datos importados de estos sistemas externos a este servicio en línea de Dynamics 365 están sujetos a nuestra [declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte las secciones de Aviso de privacidad en la documentación de características específicas de cada país o región para obtener más información.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Visión general del complemento de facturación electrónica](e-invoicing-service-overview.md)
-- [Comenzar con la administración de servicios de complemento de facturación electrónica](e-invoicing-get-started-service-administration.md)
-- [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md)
+- [Información general sobre facturación electrónica](e-invoicing-service-overview.md)
+- [Comenzar con la administración de servicios de facturación electrónica](e-invoicing-get-started-service-administration.md)
+- [Comenzar con la facturación electrónica](e-invoicing-get-started.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

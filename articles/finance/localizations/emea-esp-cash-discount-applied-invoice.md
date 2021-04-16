@@ -2,11 +2,9 @@
 title: Parámetro El descuento por pronto pago se aplica a la factura
 description: En este tema se describe el descuento por pronto pago aplicado en el parámetro de factura para España.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 947f85f07ae7904a46f6549fd00171edaaf9504f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 472c216e692c9a58a810810641e10fe6fb80cf23
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228751"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839763"
 ---
 # <a name="cash-discount-is-applied-in-the-invoice-parameter"></a>Parámetro El descuento por pronto pago se aplica a la factura
 

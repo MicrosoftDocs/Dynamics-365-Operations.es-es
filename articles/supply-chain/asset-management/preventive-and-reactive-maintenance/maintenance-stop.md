@@ -1,12 +1,10 @@
 ---
 title: Actividades de tiempo de inactividad por mantenimiento
 description: Este tema explica cómo se utiliza el tiempo de inactividad por mantenimiento para obtener una visión general de la capacidad necesaria para llevar a cabo trabajos de mantenimiento en determinados activos durante un período concreto.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6251422755cf39930d48221e9de82ef16b4d96a7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252927"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837834"
 ---
 # <a name="maintenance-downtime-activities"></a>Actividades de tiempo de inactividad por mantenimiento
 

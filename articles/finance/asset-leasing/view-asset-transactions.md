@@ -2,11 +2,9 @@
 title: Ver transacciones de pasivos, activos y gastos
 description: Este tema explica cómo ver las transacciones de un activo arrendado. Estas transacciones incluyen transacciones de pasivo por arrendamiento y transacciones de gastos de ejecución que se han registrado.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 17753087adb835b4632e929451e2cf3e2d772ed4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6dbb5de75780091d3392e413e3a2415067ac6dda
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249542"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827491"
 ---
 # <a name="view-liability-asset-and-expense-transactions"></a>Ver transacciones de pasivos, activos y gastos
 

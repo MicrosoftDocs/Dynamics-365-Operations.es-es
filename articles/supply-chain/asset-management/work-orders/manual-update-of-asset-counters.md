@@ -1,12 +1,10 @@
 ---
 title: Actualización manual de los contadores de activos
 description: En este tema se describe la actualización manual de contadores de activos en la Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6dfea7ca166948f507a1cdea20f3e4cce16080ce
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4618ff2d6880f478683fbed0ed716af5ab8d4d9c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219494"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842258"
 ---
 # <a name="manual-update-of-asset-counters"></a>Actualización manual de los contadores de activos
 

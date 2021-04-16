@@ -2,11 +2,9 @@
 title: Características quitadas u obsoletas de Dynamics 365 Finance
 description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474072"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836922"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Características quitadas u obsoletas de Dynamics 365 Finance
 
@@ -39,7 +37,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Repositorio LCS como opción de almacenamiento para configuraciones de informes electrónicos
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Reemplazado con el nuevo repositorio global del Servicio de configuración regulatoria (RCS) |
 | **¿Reemplazado por otra característica?**   | Sí |
@@ -51,7 +49,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Formatos de informes electrónicos "Declaración de IVA (CZ)" y "Exportación de declaración de control (CZ)" para la República Checa
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Se han reemplazado con nuevos formatos |
 | **¿Reemplazado por otra característica?**   | Sí |
@@ -61,7 +59,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>Formato de informes electrónicos "Formato de exportación de transacciones contables (BE)" y modelo respectivo de "Exportación de transacciones contables (BE)" para Bélgica
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Reemplazado con el nuevo formato ER bajo el modelo "Archivo de auditoría estándar (SAF-T)".  |
 | **¿Reemplazado por otra característica?**   | Sí |
@@ -71,7 +69,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Informe "VAT 100" para el Reino Unido en formato SSRS
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Reemplazado con el nuevo formato ER: formato "Declaración de IVA en Excel (Reino Unido)" en "Modelo de declaración de impuestos".  |
 | **¿Reemplazado por otra característica?**   | Sí |
@@ -83,7 +81,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La compatibilidad de Internet Explorer 11 con Dynamics 365 está en desuso
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | A partir de diciembre de 2020, queda en desuso la compatibilidad de Microsoft Internet Explorer 11 con todos los productos de Dynamics 365 e Internet Explorer 11 no se admitirá después de agosto de 2021.<br><br>Esto afectará a los clientes que usan productos Dynamics 365 que están diseñados para usarse a través de una interfaz de Internet Explorer 11. Después de agosto de 2021, Internet Explorer 11 no será compatible con dichos productos de Dynamics 365. |
 | **¿Reemplazado por otra característica?**   | Recomendamos que los clientes hagan la transición a Microsoft Edge.|
@@ -95,7 +93,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Informes de SSRS polacos: registro de IVA diferido, registro de IVA soportado, registro de resumen de IVA de la UE - Referencia de características PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Legalmente no requerido.  |
 | **¿Reemplazado por otra característica?**   | Sí (formato Excel para el archivo de auditoría estándar con declaración de IVA - JPK_VDEK) |
@@ -107,7 +105,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ### <a name="norwegian-standard-main-accounts"></a>Cuentas principales noruegas estándar
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Rediseño  |
 | **¿Reemplazado por otra característica?**   | Sí (reemplazado con parámetros específicos de la aplicación en formato ER) |
@@ -118,7 +116,8 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Características quitadas o en desuso en la versión Finance 10.0.7
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>El cuadro de diálogo de cambio de solicitud de flujo de trabajo ya no incluye la lista desplegable de selección de usuario
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Cambiado a la característica con la selección de grupos de cuentas.  |
 | **¿Reemplazado por otra característica?**   | Sí |

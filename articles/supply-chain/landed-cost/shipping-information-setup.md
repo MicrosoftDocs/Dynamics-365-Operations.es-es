@@ -2,7 +2,6 @@
 title: Configurar información de envío
 description: Este tema describe cómo configurar la información de envío para el módulo de costo de entrega.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 90794a154eb2a63f33277383cda80323dafd77b0
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 74ac7e0eac545369eef1a48f0085c820a4728e75
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500943"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833698"
 ---
 # <a name="shipping-information-setup"></a>Configurar información de envío
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema describe cómo configurar la información de envío para el módulo de **costo de entrega**.
 

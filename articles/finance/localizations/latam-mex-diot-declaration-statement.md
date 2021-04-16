@@ -2,11 +2,9 @@
 title: Informe de declaración DIOT
 description: En este tema se proporciona información acerca del informe de declaración DIOT para México.
 author: sndray
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DIOTDeclarationConcept_MX, DIOTDeclarationTaxCode_MX, VendTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f8a7acade66b171fd8fa70efd5d2929fac2bd8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5309c04f99c8917df60fd43b1f38e2189444c8bc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254415"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838768"
 ---
 # <a name="diot-declaration-statement"></a>Informe de declaración DIOT
 
