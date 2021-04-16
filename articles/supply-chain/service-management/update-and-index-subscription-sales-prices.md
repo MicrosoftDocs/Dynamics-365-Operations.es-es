@@ -2,11 +2,9 @@
 title: Actualizar e indexar precios de ventas de la suscripción
 description: Actualizar e indexar precios de ventas de la suscripción
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
@@ -17,39 +15,39 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b365717cf49e8ae9503955883240c706731ddc7d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 77c01add90094028a273febdae31d7fca416b2f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242238"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824279"
 ---
-# <a name="update-and-index-subscription-sales-prices"></a><span data-ttu-id="8a729-103">Actualizar e indexar precios de ventas de la suscripción</span><span class="sxs-lookup"><span data-stu-id="8a729-103">Update and index subscription sales prices</span></span> 
+# <a name="update-and-index-subscription-sales-prices"></a><span data-ttu-id="63182-103">Actualizar e indexar precios de ventas de la suscripción</span><span class="sxs-lookup"><span data-stu-id="63182-103">Update and index subscription sales prices</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="8a729-104">Haga clic en **Gestión de servicio** \> **Común** \> **Suscripciones de servicio** \> **Todas las suscripciones de servicio**.</span><span class="sxs-lookup"><span data-stu-id="8a729-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
+1.  <span data-ttu-id="63182-104">Haga clic en **Gestión de servicio** \> **Común** \> **Suscripciones de servicio** \> **Todas las suscripciones de servicio**.</span><span class="sxs-lookup"><span data-stu-id="63182-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
 
-2.  <span data-ttu-id="8a729-105">Seleccione la suscripción para la que desea actualizar el índice o precio base.</span><span class="sxs-lookup"><span data-stu-id="8a729-105">Select the subscription to update the index or base price for.</span></span>
+2.  <span data-ttu-id="63182-105">Seleccione la suscripción para la que desea actualizar el índice o precio base.</span><span class="sxs-lookup"><span data-stu-id="63182-105">Select the subscription to update the index or base price for.</span></span>
 
-3.  <span data-ttu-id="8a729-106">Haga clic en **Índice**.</span><span class="sxs-lookup"><span data-stu-id="8a729-106">Click **Index**.</span></span> <span data-ttu-id="8a729-107">En el campo **Cambiar**, indique cómo actualizar el precio base o el índice, y si la actualización debe usar un porcentaje o un valor nuevo.</span><span class="sxs-lookup"><span data-stu-id="8a729-107">In the **Change** field, indicate how to update the base price or index, and whether the update must use a percentage or a new value.</span></span> <span data-ttu-id="8a729-108">Puede seleccionar de entre las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="8a729-108">You can select from the following options:</span></span>
+3.  <span data-ttu-id="63182-106">Haga clic en **Índice**.</span><span class="sxs-lookup"><span data-stu-id="63182-106">Click **Index**.</span></span> <span data-ttu-id="63182-107">En el campo **Cambiar**, indique cómo actualizar el precio base o el índice, y si la actualización debe usar un porcentaje o un valor nuevo.</span><span class="sxs-lookup"><span data-stu-id="63182-107">In the **Change** field, indicate how to update the base price or index, and whether the update must use a percentage or a new value.</span></span> <span data-ttu-id="63182-108">Puede seleccionar de entre las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="63182-108">You can select from the following options:</span></span>
     
-      - <span data-ttu-id="8a729-109">**Indexar por un porcentaje**</span><span class="sxs-lookup"><span data-stu-id="8a729-109">**Index by a percentage**</span></span>
+      - <span data-ttu-id="63182-109">**Indexar por un porcentaje**</span><span class="sxs-lookup"><span data-stu-id="63182-109">**Index by a percentage**</span></span>
     
-      - <span data-ttu-id="8a729-110">**Indexar a**</span><span class="sxs-lookup"><span data-stu-id="8a729-110">**Index to**</span></span>
+      - <span data-ttu-id="63182-110">**Indexar a**</span><span class="sxs-lookup"><span data-stu-id="63182-110">**Index to**</span></span>
     
-      - <span data-ttu-id="8a729-111">**Precio base por porcentaje**</span><span class="sxs-lookup"><span data-stu-id="8a729-111">**Base price by percentage**</span></span>
+      - <span data-ttu-id="63182-111">**Precio base por porcentaje**</span><span class="sxs-lookup"><span data-stu-id="63182-111">**Base price by percentage**</span></span>
     
-      - <span data-ttu-id="8a729-112">**Precio base para**</span><span class="sxs-lookup"><span data-stu-id="8a729-112">**Base price to**</span></span>
+      - <span data-ttu-id="63182-112">**Precio base para**</span><span class="sxs-lookup"><span data-stu-id="63182-112">**Base price to**</span></span>
 
-4.  <span data-ttu-id="8a729-113">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="8a729-113">Click **OK**.</span></span>
+4.  <span data-ttu-id="63182-113">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="63182-113">Click **OK**.</span></span>
 
-<span data-ttu-id="8a729-114">El precio base o índice de la suscripción se actualiza con el valor especificado.</span><span class="sxs-lookup"><span data-stu-id="8a729-114">The base price or index of the subscription is updated with the specified value.</span></span>
+<span data-ttu-id="63182-114">El precio base o índice de la suscripción se actualiza con el valor especificado.</span><span class="sxs-lookup"><span data-stu-id="63182-114">The base price or index of the subscription is updated with the specified value.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="8a729-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="8a729-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="63182-115">Consulte también</span><span class="sxs-lookup"><span data-stu-id="63182-115">See also</span></span>
 
-<span data-ttu-id="8a729-116">[Indexar suscripción (formulario de clase)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="8a729-116">[Index subscription (class form)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))</span></span>
+<span data-ttu-id="63182-116">[Indexar suscripción (formulario de clase)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="63182-116">[Index subscription (class form)](https://technet.microsoft.com/library/aa558579\(v=ax.60\))</span></span>
 
   
 
