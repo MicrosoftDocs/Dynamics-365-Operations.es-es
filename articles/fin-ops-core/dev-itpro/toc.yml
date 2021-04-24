@@ -228,6 +228,8 @@
                               href: data-entities/dual-write/party-gab.md
                             - name: Usar Power Portal con el modelo de datos de parte
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: Actualizar al modelo de parte y libreta de direcciones global
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: Integración de notas
                               href: data-entities/dual-write/notes-integration.md
                             - name: Referencia de asignación
@@ -714,6 +716,8 @@
               items:
                 - name: Características de X++ y el depurador
                   href: dev-tools/new-x-debugger-features.md
+                - name: Requisitos para X++ de Visual Studio 2017
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: Depurar código X++
                   href: dev-tools/debug-xpp.md
                 - name: Clases EventHandlerResult en escenarios de solicitud o respuesta
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: Fecha de vigencia
               href: dev-tools/date-effectivity.md
-            - name: Licencias de ISV
-              href: dev-tools/isv-licensing.md
-            - name: Licencias de ISV locales
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: Desarrollo para proveedores de software independientes
+              items:
+                - name: Vincular módulos X++ a paquetes mediante ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: Licencias de ISV
+                  href: dev-tools/isv-licensing.md
+                - name: Licencias de ISV locales
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: Reglamento general de protección de datos (RGPD)
           items:
             - name: Información general del Reglamento general de protección de datos
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Integración de Microsoft Power Platform
           items:
+            - name: Integración de Microsoft Power Platform con Finance and Operations
+              href: power-platform/overview.md
             - name: Entidades virtuales
               items:
-                - name: Integración de Microsoft Power Platform con Finance and Operations
-                  href: power-platform/overview.md
                 - name: Modelado de entidades
                   href: power-platform/entity-modeling.md
                 - name: Administración de ciclo de vida de la aplicación
@@ -1446,14 +1454,16 @@
           items:
             - name: Obtener soporte para Finance and Operations y Lifecycle Services
               href: lifecycle-services/lcs-support.md
-            - name: Información general del soporte técnico de Dynamics 365
+            - name: Visión general del soporte técnico de Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Obtener soporte técnico para Finance and Operations operado por 21Vianet en China
+            - name: Obtener soporte técnico para Finance and Operations gestionado por 21Vianet en China
               href: lifecycle-services/21vianet-support.md
             - name: Configurar el soporte técnico para aplicaciones de Finance and Operations
               href: lifecycle-services/support-experience.md
             - name: Administrar las experiencias de soporte técnico con aplicaciones de Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Soporte y supervisión de la producción
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Administración del sistema
           items:
             - name: Página principal de Administración del sistema
