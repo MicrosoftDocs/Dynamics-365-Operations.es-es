@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811303"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897045"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introducción a Financial Reporting 
 
@@ -148,7 +148,7 @@ Problema 1: Diseñador de informes no se inicia cuando selecciona **Nuevo** o **
 * En Internet Explorer, seleccione **Configuración** y luego **Opciones de Internet**. Seleccione la pestaña **Seguridad**. Seleccione Sitios de confianza. En el área etiquetada como Nivel de seguridad para esta zona, cambie la opción a **Medio-bajo**.
 * Deshabilite el bloqueador de elementos emergentes en su navegador.
 * Se requieren estaciones de trabajo para instalar Microsoft .NET Framework 4.6.2 o superior. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde el [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Si está usando el explorador Chrome, debe instalar una extensión ClickOnce para descargar el cliente de Diseñador de informes. Si está ejecutando Chrome en modo ingógnito, asegúrese de que la extensión ClickOnce esté activada para el modo incógnito. Para obtener más información acerca de la extensión ClickOnce de Chrome, consulte [Requisitos del sistema para implementaciones en la nube](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Si está usando el explorador Chrome, debe instalar una extensión ClickOnce para descargar el cliente de Diseñador de informes. Si está ejecutando Chrome en modo ingógnito, asegúrese de que la extensión ClickOnce esté activada para el modo incógnito. Para obtener más información acerca de la extensión ClickOnce de Chrome, consulte [Requisitos del sistema para implementaciones en la nube](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Si esta usando Microsoft Edge con un navegador Chrome, no es necesario instalar una extensión ClickOnce para Edge Chromium. Sin embargo, debe habilitar la opción ClickOnce para descargar el cliente Diseñador de informes. Si está ejecutando en modo incógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito.
      1. Abra un nuevo navegador en Microsoft Edge.
      2. Introduzca **edge://flags** y seleccione **Intro**.

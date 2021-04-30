@@ -13,12 +13,12 @@ ms.search.region: Mexico
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc867ace25372d8d3d7e017a82f0def9dadf45f5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4f8db764342daea7d91a8397b4d94d306b50f74
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840963"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893033"
 ---
 # <a name="mexico-overview"></a>Visión general de México
 
@@ -49,8 +49,8 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Visión general de los informes electrónicos](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Visión general de los informes electrónicos](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Microsoft Dynamics Portal de localización: Informe de Australia (requiere cuenta CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/mexico.html)
 
 

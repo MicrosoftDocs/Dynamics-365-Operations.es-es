@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830601"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897461"
 ---
 # <a name="cash-overview-power-bi-content"></a>Visión general de contenido de efectivo de Power BI
 
@@ -38,7 +38,7 @@ Es necesario completar la siguiente configuración para que los datos se muestre
 2. Para validar las fechas del calendario fiscal asignadas al período de tiempo activo, vaya a **Contabilidad general > Calendarios > Calendarios fiscales**.
 3. Vaya a **Contabilidad general > Configuración > Libro mayor** para establecer **Divisa de contabilidad** y **Tipo de cambio**.
 4. Defina los tipos de cambio entre las divisas de transacción y la divisa de contabilidad, la divisa de contabilidad y la divisa del sistema, y la divisa de contabilidad y las divisas bancarias. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
-5. Configurar y ejecutar Previsiones de flujo de efectivo. Para obtener más información sobre cómo configurar Previsiones de flujo de efectivo, consulte [Previsiones de flujo de efectivo](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. Configurar y ejecutar Previsiones de flujo de efectivo. Para obtener más información sobre cómo configurar Previsiones de flujo de efectivo, consulte [Previsiones de flujo de efectivo](./cash-flow-forecasting.md). 
 6. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI

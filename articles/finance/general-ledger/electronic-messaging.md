@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823797"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897609"
 ---
 # <a name="electronic-messaging"></a>Mensajería electrónica
 
@@ -29,7 +29,7 @@ Recientemente, los gobiernos y las autoridades legislativas de varios países y 
 
 La funcionalidad de los mensajes electrónicos en Finance admite varios procesos de interoperación electrónica entre Finance y los sistemas que los gobiernos y las autoridades legislativas proporcionan para informar, enviar y recibir información oficial.
 
-La funcionalidad de los mensajes electrónicos se integra con el módulo **Informes electrónicos** (ER). Por lo tanto, puede configurar los formatos de ER para los mensajes electrónicos. Para obtener más información, consulte [Informes electrónicos (ER)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+La funcionalidad de los mensajes electrónicos se integra con el módulo **Informes electrónicos** (ER). Por lo tanto, puede configurar los formatos de ER para los mensajes electrónicos. Para obtener más información, consulte [Informes electrónicos (ER)](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 Los mensajes electrónicos se basan en las entidades siguientes:
 
@@ -56,7 +56,7 @@ La funcionalidad de los mensajes electrónicos admite los escenarios siguientes:
 
 ## <a name="set-up-electronic-messaging"></a>Configurar mensajes electrónicos
 
-Los mensajes electrónicos pueden ayudarle a mantener varios procesos electrónicos de informes para distintos tipos de documentos. En algunas escenarios complejos, el correo electrónico se configura para que tenga una combinación de muchos estados de mensajes, estados de elementos de mensaje, acciones, más campos, y clases ejecutables. Para estos casos, los paquetes de entidades de los datos están disponibles para la importación. Si usa estos paquetes de entidad de datos, debe importarlos a una entidad jurídica mediante la herramienta de administración de datos. Para obtener más información sobre cómo usar la herramienta de gestión de datos, vea [Administración de datos](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Los mensajes electrónicos pueden ayudarle a mantener varios procesos electrónicos de informes para distintos tipos de documentos. En algunas escenarios complejos, el correo electrónico se configura para que tenga una combinación de muchos estados de mensajes, estados de elementos de mensaje, acciones, más campos, y clases ejecutables. Para estos casos, los paquetes de entidades de los datos están disponibles para la importación. Si usa estos paquetes de entidad de datos, debe importarlos a una entidad jurídica mediante la herramienta de administración de datos. Para obtener más información sobre cómo usar la herramienta de gestión de datos, vea [Administración de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 Si no importa un paquete de entidad de datos, puede configurar manualmente la funcionalidad de mensajes electrónicos. En tal caso, debe configurar los elementos siguientes:
 

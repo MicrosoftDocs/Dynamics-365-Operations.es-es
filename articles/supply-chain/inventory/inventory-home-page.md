@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bdf4a1ae691e50f7e41374db6c2dde10b9329cb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 40d443e52a2b781a40e2db1dbccd2351405ffff1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809575"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909752"
 ---
 # <a name="inventory-management-overview"></a>Visión general de gestión de inventarios
 
@@ -51,7 +51,7 @@ Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.c
 Para obtener más información, consulte [Cierre de inventario](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogs de fabricación y Supply Chain Management
-Puede encontrar opiniones, novedades y otra información acerca de la gestión de inventarios y otras soluciones en el [blog del equipo de I+D y fabricación de Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) y el [blog del equipo de I+D de Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Puede encontrar opiniones, novedades y otra información acerca de la gestión de inventarios y otras soluciones en el [blog del equipo de I+D y fabricación de Dynamics AX](/archive/blogs/axmfg/) y el [blog del equipo de I+D de Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tarea. Para tener acceso a las guías de tareas, haga clic en el botón **Ayuda** en cualquier página.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823418"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909460"
 ---
 # <a name="goods-in-transit-processing"></a>Procesamiento de mercancía en tránsito
 
@@ -40,7 +40,7 @@ Cuando habilita el módulo **Coste de aterrizaje**, la entidad estándar de *con
 
 Cuando la opción **Gestión de mercancías en tránsito** está configurada en *Sí* para los términos aplicables del registro de entrega, las mercancías se colocan en el almacén de mercancías en tránsito. Esta acción se activa solo si el recibo de inventario no se procesa antes de que se procese una factura. Cuando los términos de entrega de un pedido están configurados para utilizar mercancías en tránsito, los usuarios ya no pueden registrar una recepción de producto para el pedido de compra. Si lo intentan, se produce un error. El mensaje de error indica que deben utilizar la función de mercancías en tránsito para continuar.
 
-Para trabajar con la información de condiciones de entrega para mercancías en tránsito, vaya a **Adquisiciones y abastecimiento \> Configuración \> Distribución \> Condiciones de entrega**. La siguiente tabla describe los campos que el módulo **Coste de aterrizaje** suma a la página **Condiciones de entrega** para admitir la funcionalidad de mercancías en tránsito. Ambos campos están en la ficha desplegable **General**. Para obtener más información sobre los otros campos de esta página, consulte [Condiciones de entrega (formulario)](https://technet.microsoft.com/library/aa575567.aspx).
+Para trabajar con la información de condiciones de entrega para mercancías en tránsito, vaya a **Adquisiciones y abastecimiento \> Configuración \> Distribución \> Condiciones de entrega**. La siguiente tabla describe los campos que el módulo **Coste de aterrizaje** suma a la página **Condiciones de entrega** para admitir la funcionalidad de mercancías en tránsito. Ambos campos están en la ficha desplegable **General**. Para obtener más información sobre los otros campos de esta página, consulte [Condiciones de entrega (formulario)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Campo | Descripción |
 |---|---|
@@ -55,7 +55,7 @@ El costo de entrega agrega dos nuevos tipos de almacén: *mercancías en tránsi
 
 El tipo de almacén de *mercancías en tránsito* se asociará con su almacén de mercancías en tránsito, y ese almacén se utilizará para procesar las mercancías en los pedidos de mercancías en tránsito antes de que se reciban en el almacén de destino final. En general, un almacén de mercancías en tránsito es suficiente para cada sitio si Sitio y Almacén son las únicas dimensiones de inventario que se utilizan para la gestión de inventario. Si también se utiliza la dimensión de inventario de ubicación, se debe configurar un almacén de mercancías en tránsito para cada combinación de un sitio y un almacén, de modo que también se pueda especificar la ubicación predeterminada.
 
-Para trabajar con la configuración de mercancías en tránsito para sus almacenes, vaya a **Gestión del inventario \> Configuración \> Desglose de inventario \> Almacenes**. La siguiente tabla describe los campos que el módulo **Coste de aterrizaje** suma a la página **Almacenes** para admitir la funcionalidad de mercancías en tránsito. Ambos campos aparecen en la ficha desplegable **General**. Para obtener más información acerca de los otros campos de la página, vea [Almacenes (formulario)](https://technet.microsoft.com/library/aa620570.aspx).
+Para trabajar con la configuración de mercancías en tránsito para sus almacenes, vaya a **Gestión del inventario \> Configuración \> Desglose de inventario \> Almacenes**. La siguiente tabla describe los campos que el módulo **Coste de aterrizaje** suma a la página **Almacenes** para admitir la funcionalidad de mercancías en tránsito. Ambos campos aparecen en la ficha desplegable **General**. Para obtener más información acerca de los otros campos de la página, vea [Almacenes (formulario)](/dynamicsax-2012//warehouses-form).
 
 | Campo | Descripción |
 |---|---|
@@ -109,7 +109,7 @@ También puede recibir mercancías creando un diario de llegadas. Puede crear un
     - **Crear a partir de mercancías en tránsito** - Establezca esta opción en *Sí* para tomar cantidades de las líneas en tránsito seleccionadas para el viaje, contenedor o folio seleccionado.
     - **Crear a partir de líneas de pedido** - Establezca esta opción en *Sí* para establecer la cantidad predeterminada en el diario de llegadas de las líneas de la orden de compra. La cantidad predeterminada en el diario de llegadas se puede establecer de esta manera solo si la cantidad en la línea del pedido de compra coincide con la cantidad en el pedido de mercancías en tránsito.
 
-1. Procese el diario de llegadas como se describe en [Registrar recibos de artículos con un diario de llegada de artículos](https://technet.microsoft.com/library/aa571129.aspx).
+1. Procese el diario de llegadas como se describe en [Registrar recibos de artículos con un diario de llegada de artículos](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal).
 
 > [!NOTE]
 > El diario de llegadas se utiliza generalmente en situaciones en las que se utilizan ubicaciones y seguimiento de lotes / series, pero no se utiliza la gestión del almacén.
@@ -131,15 +131,14 @@ El costo de entrega agrega los siguientes procesos de creación de trabajo a los
 - Recepción de artículos de mercancía en tránsito
 - Recepción y almacenamiento de artículos en tránsito
 
-Los ajustes de configuración de estos procesos se asemejan a los ajustes de [procesos de creación de trabajos de recepción y almacenamiento de pedidos](https://technet.microsoft.com/library/dn553216.aspx). Sin embargo, el proceso *Recepción y almacenamiento de artículos en tránsito* también agrega el siguiente campo.
+Los ajustes de configuración de estos procesos se asemejan a los ajustes de [procesos de creación de trabajos de recepción y almacenamiento de pedidos](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work). Sin embargo, el proceso *Recepción y almacenamiento de artículos en tránsito* también agrega el siguiente campo.
 
 - **Habilitar contenedor de envío completo** - Si esta opción está configurada en *Sí*, cuando se completa el trabajo de almacenamiento, la aplicación móvil Warehouse Management proporcionará una opción adicional que se denomina **Contenedor de envío completo**. Cuando se selecciona esa opción, se le pedirá al trabajador que confirme que el contenedor está completo. En ese momento, todos los recibos cortos se procesarán como una transacción inferior.
 
 ### <a name="location-directives"></a>Directivas de ubicación
 
-El costo de entrega agrega un nuevo tipo de orden de trabajo que se denomina *Mercancías en tránsito* a la página **Directivas de ubicación**. Este tipo de orden de trabajo debe configurarse de la misma manera que los [tipos de orden de trabajo de órdenes de compra](https://technet.microsoft.com/library/dn553184.aspx).
+El costo de entrega agrega un nuevo tipo de orden de trabajo que se denomina *Mercancías en tránsito* a la página **Directivas de ubicación**. Este tipo de orden de trabajo debe configurarse de la misma manera que los [tipos de orden de trabajo de órdenes de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 ### <a name="work-templates"></a>Plantillas de trabajo
 
-El costo de entrega agrega un nuevo tipo de orden de trabajo que se denomina *Mercancías en tránsito* a la página **Plantillas de trabajo**. Este tipo de orden de trabajo debe configurarse de la misma manera que las [plantillas de trabajo de órdenes de compra](https://technet.microsoft.com/library/dn553184.aspx).
-
+El costo de entrega agrega un nuevo tipo de orden de trabajo que se denomina *Mercancías en tránsito* a la página **Plantillas de trabajo**. Este tipo de orden de trabajo debe configurarse de la misma manera que las [plantillas de trabajo de órdenes de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template).

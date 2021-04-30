@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 74bdf891ffa7a9d875e23cf46aeee1dbaf86db48
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cd66cb4f5ac02407250e15ae134b36f5ccd4d290
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802416"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889941"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurar parámetros de Human Resources
 
@@ -92,7 +92,7 @@ Los ajustes en la pestaña **Secuencia numérica** determinan las secuencias uti
 
 Para mantener las referencias y los códigos de la secuencia numérica, use la página de lista **Secuencias numéricas** (seleccione **Administración de la organización > Secuencias numéricas > Secuencias numéricas**).
 
-Para obtener más información, consulte [Información general de secuencias numéricas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/human-resources/toc.json).
+Para obtener más información, consulte [Información general de secuencias numéricas](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 > [!NOTE]
 > El número de horas que se trabaja no puede superar 1250, y la duración del empleo no puede superar 12 meses. Estos valores máximos están de acuerdo con la legislación federal en los Estados Unidos.

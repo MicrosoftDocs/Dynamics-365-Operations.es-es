@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840710"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907774"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Crear y administrar usuarios del portal del cliente
 
@@ -44,26 +44,26 @@ Antes de comenzar a invitar a nuevos clientes, asegúrese de haber habilitado la
 
 ## <a name="the-invitation-process"></a>El proceso de invitación
 
-Para invitar a un contacto existente al portal del Cliente, siga los pasos de [Invitar contactos a los portales](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) en la documentación de portales Power Apps.
+Para invitar a un contacto existente al portal del Cliente, siga los pasos de [Invitar contactos a los portales](/powerapps/maker/portals/configure/invite-contacts) en la documentación de portales Power Apps.
 
-Antes de invitar a un cliente a unirse al portal del cliente, asegúrese de que el [registro de contacto](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) del cliente está disponible y configurado de la siguiente manera:
+Antes de invitar a un cliente a unirse al portal del cliente, asegúrese de que el [registro de contacto](/powerapps/maker/portals/configure/configure-contacts) del cliente está disponible y configurado de la siguiente manera:
 
 1. Establezca el campo **Empresa** en la entidad jurídica a la que desea que pertenezca el cliente en Supply Chain Management.
 2. Establezca el campo **Número de cuenta** en el número de cuenta de cliente que desea que tenga el usuario en Supply Chain Management.
 
 Después de crear un contacto, debería poder verlo en Supply Chain Management.
 
-Para más información, consulte [Configurar un contacto para usarlo en un portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) en la documentación de portales Power Apps.
+Para más información, consulte [Configurar un contacto para usarlo en un portal](/powerapps/maker/portals/configure/configure-contacts) en la documentación de portales Power Apps.
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>Roles web y permisos de tabla listos para usar
 
-Los roles de usuario en los portales Power Apps se definen mediante [roles web](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) y [permisos de tabla](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). El Portal del cliente ofrece algunos roles listos para usar. Puede crear nuevos roles y puede modificar o eliminar roles existentes.
+Los roles de usuario en los portales Power Apps se definen mediante [roles web](/powerapps/maker/portals/configure/create-web-roles) y [permisos de tabla](/powerapps/maker/portals/configure/assign-entity-permissions). El Portal del cliente ofrece algunos roles listos para usar. Puede crear nuevos roles y puede modificar o eliminar roles existentes.
 
 ### <a name="out-of-box-web-roles"></a>Roles web listos para usar
 
 Esta sección describe los roles web que se entregan con el portal del Cliente.
 
-Para obtener más información sobre cómo modificar los roles de usuario listos para usar, consulte [Crear roles web para portales](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) y [Agregar seguridad basada en registros mediante el uso de permisos de tabla para portales](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) en la documentación de portales Power Apps.
+Para obtener más información sobre cómo modificar los roles de usuario listos para usar, consulte [Crear roles web para portales](/powerapps/maker/portals/configure/create-web-roles) y [Agregar seguridad basada en registros mediante el uso de permisos de tabla para portales](/powerapps/maker/portals/configure/assign-entity-permissions) en la documentación de portales Power Apps.
 
 #### <a name="administrator"></a>Administrador
 

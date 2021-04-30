@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835615"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908961"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instale y conecte la aplicación móvil Warehouse Management
 
@@ -50,7 +50,7 @@ Antes de poder usar la aplicación, debe estar activada en su sistema una caract
 
 Para implementaciones más pequeñas, normalmente deseará instalar la aplicación desde la tienda correspondiente en cada dispositivo y luego configurar manualmente la conexión a los entornos que está utilizando.
 
-Para implementaciones más grandes, puede automatizar la implementación y / o configuración de la aplicación, lo que puede ser más conveniente si administra muchos dispositivos. Por ejemplo, puede utilizar una solución de administración de dispositivos móviles y administración de aplicaciones móviles, como [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Para obtener información sobre cómo usar Intune para agregar aplicaciones, consulte [Agregar aplicaciones a Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Para implementaciones más grandes, puede automatizar la implementación y / o configuración de la aplicación, lo que puede ser más conveniente si administra muchos dispositivos. Por ejemplo, puede utilizar una solución de administración de dispositivos móviles y administración de aplicaciones móviles, como [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Para obtener información sobre cómo usar Intune para agregar aplicaciones, consulte [Agregar aplicaciones a Microsoft Intune](/mem/intune/apps/apps-add).
 
 ### <a name="install-the-app-from-an-app-store"></a>Instale la aplicación desde una tienda de aplicaciones
 
@@ -65,10 +65,10 @@ La forma más sencilla de instalar la aplicación en un solo dispositivo es inst
 Como alternativa a la instalación desde una tienda de aplicaciones, puede descargar la aplicación desde Microsoft App Center. El App Center proporciona paquetes instalables que puede descargar. Además de la versión actual, App Center también le permite descargar versiones anteriores y puede proporcionar versiones de vista previa con las próximas funciones que puede probar. Para descargar versiones actuales, anteriores o de vista previa de la aplicación móvil Warehouse Management desde Microsoft App Center, utilice uno de los siguientes enlaces:
 
 - **Windows (UWP):** [Gestión de almacenes (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
-    Para obtener instrucciones sobre cómo instalar un paquete descargado en un dispositivo Windows y luego configurar los certificados necesarios, consulte [Instalar una compilación desde App Center](https://docs.microsoft.com/appcenter/distribution/installation).
+    Para obtener instrucciones sobre cómo instalar un paquete descargado en un dispositivo Windows y luego configurar los certificados necesarios, consulte [Instalar una compilación desde App Center](/appcenter/distribution/installation).
 
 - **Android:** [Warehouse Management (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
-    Si descarga una versión en vista previa, se requieren algunos pasos adicionales para instalarla. Para obtener más detalles, consulte [Probar aplicaciones Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+    Si descarga una versión en vista previa, se requieren algunos pasos adicionales para instalarla. Para obtener más detalles, consulte [Probar aplicaciones Android](/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Crear una aplicación de servicio web en Azure Active Directory
 
@@ -103,11 +103,11 @@ Para habilitar la aplicación móvil Warehouse Management para interactuar con u
 
 Para obtener más información sobre cómo configurar aplicaciones de servicios web en Azure AD, vea los siguientes recursos:
 
-- Para obtener instrucciones que muestran cómo usar Windows PowerShell para configurar aplicaciones de servicio web en Azure AD, consulte [Procedimiento: usar Azure PowerShell para crear una entidad de servicio con un certificado](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Para obtener instrucciones que muestran cómo usar Windows PowerShell para configurar aplicaciones de servicio web en Azure AD, consulte [Procedimiento: usar Azure PowerShell para crear una entidad de servicio con un certificado](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Para obtener detalles completos sobre cómo crear manualmente una aplicación de servicio web en Azure AD, vea los siguientes temas:
 
-    - [Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Procedimiento: usar el portal para crear una aplicación de Azure AD y entidad de servicio que puede acceder a los recursos](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [Procedimiento: usar el portal para crear una aplicación de Azure AD y entidad de servicio que puede acceder a los recursos](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Cree y configure una cuenta de usuario en Supply Chain Management.
 
@@ -135,7 +135,7 @@ La autenticación con Azure AD proporciona una forma segura de conectar un dispo
 
 Los certificados se pueden usar como secretos para probar la identidad de la aplicación cuando se solicita un token. La parte pública del certificado se carga en el registro de la aplicación en Azure Portal, mientras que el certificado completo debe implementarse en cada dispositivo donde está instalada la aplicación móvil Warehouse Management. Su organización es responsable de administrar el certificado en términos de rotación, etc. Puede usar certificados autofirmados, pero siempre debe usar certificados no exportables.
 
-Debe hacer que el certificado esté disponible localmente en cada dispositivo donde ejecute la aplicación móvil Warehouse Management. Para obtener información sobre cómo administrar certificados para dispositivos controlados por Intune si está usando Intune, consulte [Usar certificados para autenticación en Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Debe hacer que el certificado esté disponible localmente en cada dispositivo donde ejecute la aplicación móvil Warehouse Management. Para obtener información sobre cómo administrar certificados para dispositivos controlados por Intune si está usando Intune, consulte [Usar certificados para autenticación en Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurar la aplicación importando la configuración de conexión
 

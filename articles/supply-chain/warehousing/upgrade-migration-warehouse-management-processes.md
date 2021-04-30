@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8969345b8499bacfeecb0a1535174ce988eabc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 31bfc203e9db28acee4b5b52b36f64d90dc4f714
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837426"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909264"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Actualizar la gestión de almacenes Microsoft Dynamics AX 2012 a Supply Chain Management 
 
@@ -66,7 +66,7 @@ Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, 
 1.  Cree al menos un nuevo perfil de ubicación.
 2.  Haga clic en **Gestión de almacenes** &gt; **Configuración** &gt; **Habilitar procesos de gestión de almacenes** &gt; **Habilitar la configuración del almacén**.
 3.  En la página **Habilitar la configuración del almacén**, agregue los almacenes que deban habilitarse. Puede completar este paso directamente en la página o mediante la integración de Microsoft Office.
-4.  Asigne un perfil de ubicación a todas las ubicaciones. Puede completar fácilmente este paso usando la integración de Microsoft Office directamente en la página. Puede exportar e importar los datos, o utilizar el procesamiento de entidades de datos en [Administración de datos](../../dev-itpro/data-entities/data-entities.md).
+4.  Asigne un perfil de ubicación a todas las ubicaciones. Puede completar fácilmente este paso usando la integración de Microsoft Office directamente en la página. Puede exportar e importar los datos, o utilizar el procesamiento de entidades de datos en [Administración de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 5.  Valide los cambios. Como parte del proceso de validación se producen varias validaciones de la integridad de datos. Como parte de un proceso de actualización mayor, es posible que los problemas que aparezcan tengan que ajustarse en la implementación de origen. En este caso, una actualización de datos adicional será necesaria.
 6.  Procese los cambios.
 
@@ -77,7 +77,7 @@ Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, 
 3.  En la página **Jerarquía de reserva**, defina una nueva jerarquía de la reserva en función del almacenamiento y los grupos de dimensiones de seguimiento del artículo.
 4.  Cree uno o varios grupos de secuencias de unidades que incluyen al menos las mismas unidades que se usan para las unidades de inventario de los artículos.
 5.  Haga clic en **Gestión de almacenes** &gt; **Configuración** &gt; **Habilitar procesos de gestión de almacenes** &gt; **Cambiar grupo de dimensiones de almacenamiento para artículos**.
-6.  En la página **Cambiar grupo de dimensiones de almacenamiento para artículos**, agregue los números de artículo, los grupos de dimensiones de almacenamiento y los grupos de secuencias de unidades. Puede completar este paso directamente en la página, mediante la integración de Microsoft Office, o mediante el proceso de entidades de datos en [Administración de datos](../../dev-itpro/data-entities/data-entities.md).
+6.  En la página **Cambiar grupo de dimensiones de almacenamiento para artículos**, agregue los números de artículo, los grupos de dimensiones de almacenamiento y los grupos de secuencias de unidades. Puede completar este paso directamente en la página, mediante la integración de Microsoft Office, o mediante el proceso de entidades de datos en [Administración de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 7.  Valide los cambios. Como parte del proceso de validación se producen varias validaciones de la integridad de datos. Como parte de un proceso de actualización mayor, es posible que los problemas que aparezcan tengan que ajustarse en la implementación de origen. En este caso, será necesaria otra actualización de datos.
 8.  Procese los cambios. Una actualización de todas las dimensiones de inventario puede tardar. Puede controlar el progreso mediante las tareas de los trabajos por lotes.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b0a3efffaac5158f8dcdbc424139046a3fbc2f07
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c232955873706bcceb6c685527a0dd92b129e543
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793666"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893433"
 ---
 # <a name="custom-fields"></a>Campos personalizados
 
@@ -29,16 +29,16 @@ ms.locfileid: "5793666"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Puede agregar campos personalizados a páginas en Dynamics 365 Human Resources. Para obtener más información sobre cómo crear campos personalizados, consulte [Crear y trabajar con campos personalizados](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
+Puede agregar campos personalizados a páginas en Dynamics 365 Human Resources. Para obtener más información sobre cómo crear campos personalizados, consulte [Crear y trabajar con campos personalizados](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 
-La mayoría de los campos personalizados admiten tablas de Dataverse. Para ver una lista completa de tablas de Dataverse, consulte [Tablas de Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
+La mayoría de los campos personalizados admiten tablas de Dataverse. Para ver una lista completa de tablas de Dataverse, consulte [Tablas de Dataverse](./hr-developer-entities.md). 
 
-Asegúrese de habilitar los campos personalizados que cree para poder usarlos en Dataverse. Para obtener más información, consulte [Exponer campos personalizados en entidades de datos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
+Asegúrese de habilitar los campos personalizados que cree para poder usarlos en Dataverse. Para obtener más información, consulte [Exponer campos personalizados en entidades de datos](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
 
 ## <a name="see-also"></a>Consulte también
 
-[Tablas de Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
-[Crear y trabajar con campos personalizados](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
-[Exponer campos personalizados en entidades de datos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+[Tablas de Dataverse](./hr-developer-entities.md)</br>
+[Crear y trabajar con campos personalizados](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[Exponer campos personalizados en entidades de datos](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

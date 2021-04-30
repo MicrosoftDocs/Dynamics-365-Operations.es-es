@@ -2,7 +2,8 @@
 title: Módulo selector de tienda
 description: En este tema se trata el modulo selector de tiendao y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798642"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853426"
 ---
 # <a name="store-selector-module"></a>Módulo de selector de tienda
 
@@ -32,11 +33,32 @@ Los clientes pueden usar el módulo selector de tiendas para recoger un producto
 
 El módulo selector de tiendas permite a los usuarios especificar una ubicación (ciudad, estado, dirección, etc.) para buscar tiendas dentro de un radio de búsqueda. Cuando se abre el módulo por primera vez, utiliza la ubicación del navegador del cliente para encontrar tiendas (si se proporciona el consentimiento).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Uso del módulo selector de tienda en comercio electrónico
+## <a name="store-selector-module-usage"></a>Uso del módulo de selector de tienda
 
 - Se puede usar un módulo selector de tiendas en una página de detalles del producto (PDP) para seleccionar una tienda como punto de recogida.
 - Se puede usar un módulo selector de tiendas en una página de carrito para seleccionar una tienda como punto de recogida.
 - Se puede usar un módulo selector de tiendas en una página independiente que muestra todas las tiendas disponibles.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Configuración de grupos de cumplimentación en la sede de Commerce
+
+Para que el selector de tiendas muestre las tiendas disponibles, el grupo de cumplimiento debe estar configurado en la sede de Commerce. Para obtener más información, consulte [Configurar grupos de cumplimentación](customer-orders-overview.md#set-up-fulfillment-groups).
+
+Además, para cada tienda del grupo de cumplimiento, la latitud y la longitud de la ubicación de la tienda deben definirse en la sede.
+
+Para introducir la longitud y latitud de una ubicación de la tienda en la sede de Commerce, siga estos pasos.
+
+1. Vaya a **Gestión del inventario \> Configuración \> Desglose del inventario**
+1. Seleccione la ubicación de almacén en el panel izquierdo.
+1. En la ficha desplegable **Direcciones**, seleccione **Avanzado**.
+
+    ![Ejemplo de detalles de la tienda en la sede](./media/Store-address.png)
+
+1. En el panel Acciones, seleccione **Editar**.
+1. En la ficha desplegable **General**, introduzca valores para **Latitud** y **Longitud**.
+
+    ![Ejemplo de configuración de latitud y longitud para una tienda en la sede](./media/Store-latitude-longitude.png)
+
+1. En el panel Acciones, seleccione **Guardar**. 
 
 ## <a name="bing-maps-integration"></a>Integración con Bing Maps
 
@@ -48,6 +70,7 @@ Para la API REST de Autosuggest, debe asegurarse de que las siguientes URL esté
 - Para la directiva **img-src**, agregue **&#42;.virtualearth.net**.
 - Para la directiva **script-src**, **agregue &#42;.bing.com, &#42;.virtualearth.net**.
 - Para la directiva **script style-src**, agregue **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>Modo Recoger en tienda
 

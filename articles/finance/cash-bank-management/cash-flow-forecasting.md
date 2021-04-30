@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7642b26be08427ccbef3929f2a2e083ce43d4e75
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819659"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897413"
 ---
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
@@ -144,7 +144,7 @@ El espacio de trabajo **Visión general del efectivo para todas las empresas** m
 
 El espacio de trabajo **Visión general del efectivo para la empresa actual** muestra los análisis de previsión de flujo de efectivo en la divisa de contabilidad definida de la empresa. La divisa de contabilidad que se usa para el análisis se define en la página **Libro mayor**. Este espacio de trabajo muestra una visión general de la previsión del flujo de efectivo y los saldos de cuenta bancaria para la empresa actual. Un gráfico de los flujos de entrada y de salida de efectivo ofrece una visión general de los movimientos y los saldos de futuros de efectivo en la divisa de contabilidad, así como información detallada sobre las transacciones de previsión. También puede ver los saldos previstos de la divisa.
 
-Para obtener más información sobre los análisis de previsión de flujo de efectivo, consulte el tema de [contenido de Power BI de visión general de efectivo](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
+Para obtener más información sobre los análisis de previsión de flujo de efectivo, consulte el tema de [contenido de Power BI de visión general de efectivo](./cash-overview-power-bi-content.md).
 
 Además, puede ver los datos de previsión de flujo de efectivo para cuentas, pedidos y artículos específicos en las siguientes páginas:
 

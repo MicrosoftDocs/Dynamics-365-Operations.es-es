@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c263fdcf7fdf2888e1c66e7e2b67d8b26729128c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808927"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907628"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -40,7 +40,7 @@ Para poder usar el producto en la gestión del almacén, debe hacer cierta confi
 - Configurar un grupo de la secuencia de la unidad en la unidad de peso capturado se define como la referencia de almacén inferior (SKU).
 - Configurar una directiva de manipulación de artículos con peso capturado
 
-Para obtener más información, consulte [Configuración y mantenimiento de artículos con peso capturado](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
+Para obtener más información, consulte [Configuración y mantenimiento de artículos con peso capturado](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
 
 ## <a name="transaction-adjustments"></a>Ajustes de transacciones
 

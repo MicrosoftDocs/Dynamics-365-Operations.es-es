@@ -12,12 +12,12 @@ ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0832fdfda6567c985ed0c7b3fcfadd04ce32ef56
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: 9ba1fafe2dc5c8cbe7542545f2e831fcbd21ed53
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5606921"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892447"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
@@ -64,7 +64,7 @@ Para obtener más información sobre cómo descargar configuraciones de ER desde
 
 ## <a name="import-a-package-of-data-entities-that-includes-a-predefined-em-setup"></a>Importar un paquete de entidades de datos que incluya una configuración EM predefinida
 
-La funcionalidad de mensajes electrónicos se proporciona para mantener los diferentes procesos que se utilizan en los informes electrónicos para diferentes tipos de documentos. Para obtener más información sobre los mensajes electrónicas, consulte [Mensajes electrónicos](https://docs.microsoft.com/dynamics365/finance/general-ledger/electronic-messaging).
+La funcionalidad de mensajes electrónicos se proporciona para mantener los diferentes procesos que se utilizan en los informes electrónicos para diferentes tipos de documentos. Para obtener más información sobre los mensajes electrónicas, consulte [Mensajes electrónicos](../general-ledger/electronic-messaging.md).
 
 El proceso de configuración de la funcionalidad de mensajes electrónicos para interoperar con el sistema SII tiene muchos pasos. Debido a que los nombres de algunas entidades predefinidas se usan en las configuraciones de ER, es importante que use un conjunto de valores predefinidos que se entregan en un paquete de entidades de datos para las tablas relacionadas, y que importe las configuraciones de ER antes de importar las entidades de datos.
 
@@ -75,13 +75,13 @@ El proceso de configuración de la funcionalidad de mensajes electrónicos para 
 
 3.  Después de descargar el archivo, abra Finance y seleccione la compañía desde la cual interoperará con el sistema SII.
 4.  Vaya a **Espacios de trabajo \> Administración de datos**.
-5.  En el espacio de trabajo **Administración de datos**, vaya a **Parámetros del marco de trabajo \> Configuración de entidad** y seleccione **Actualizar lista de entidades**. Espere la confirmación de que la actualización se ha completado. Para obtener más información sobre cómo actualizar la lista de entidades, vea [Actualización de la lista de entidades](https://docs.microsoft.com/dynamics365/dev-itpro/data-entities/data-entities#entity-list-refresh).
-6.  Confirme que los datos de origen y destino estén asignados correctamente. Para obtener más información, consulte [Confirmar que los datos de origen y destino estén asignados correctamente](https://docs.microsoft.com/dynamics365/dev-itpro/data-entities/data-import-export-job#validate-that-the-source-data-and-target-data-are-mapped-correctly).
+5.  En el espacio de trabajo **Administración de datos**, vaya a **Parámetros del marco de trabajo \> Configuración de entidad** y seleccione **Actualizar lista de entidades**. Espere la confirmación de que la actualización se ha completado. Para obtener más información sobre cómo actualizar la lista de entidades, vea [Actualización de la lista de entidades](../../fin-ops-core/dev-itpro/data-entities/data-entities.md#entity-list-refresh).
+6.  Confirme que los datos de origen y destino estén asignados correctamente. Para obtener más información, consulte [Confirmar que los datos de origen y destino estén asignados correctamente](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md#validate-that-the-source-data-and-target-data-are-mapped-correctly).
 7.  Antes de que las entidades de datos se usen por primera vez para importar los datos del paquete, sincronice el mapeo de los datos de origen y de destino. En la lista del paquete, seleccione una entidad de datos y luego, en el Panel de acciones, seleccione **Modificar la asignación objetivo**.
 8.  Sobre la cuadrícula del paquete, seleccione **Generar asignación** para crear una asignación desde cero y luego guardar la asignación.
 9.  Repita los pasos 7 y 8 para cada entidad de datos en el paquete antes de comenzar la importación.
 
-Para obtener más información sobre la administración de datos, vea [Descripción general de la administración de datos](https://docs.microsoft.com/dynamics365/dev-itpro/data-entities/data-entities-data-packages).
+Para obtener más información sobre la administración de datos, vea [Descripción general de la administración de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 Importe los datos desde el archivo **ES SII setup.zip** en la empresa seleccionada. En el espacio de trabajo **Administración de datos**, seleccione **Importar**, especifique un **Nombre de grupo**, seleccione **Agregar archivo** y luego, en el cuadro de diálogo desplegable, establezca el campo **Formato de datos de origen** en **Paquete** y establezca el campo **Formato de datos de origen** en **Paquete**.
 
@@ -571,7 +571,7 @@ Para informar correctamente los dos escenarios anteriores que involucran una tas
 
 De acuerdo con las reglas del sistema SII, se debe usar un conjunto extendido de parámetros cuando las facturas intracomunitarias se informan al sistema SII. Para enviar información adicional en un formato específico para facturas intracomunitarias, el procesamiento de **SII** Finance llena en el tipo de elemento de mensaje **Operaciones intracomunitarias** para facturas que se informaron previamente como facturas estándar. La acción **GenerateMessageItem** ejecuta la clase ejecutable **SIIGenerateItems**. Según los siguientes criterios, identifica las facturas como facturas del tipo de elemento de mensaje **Operaciones intracomunitarias**:
 
--   La casilla **Intracomunitario** está seleccionada para el grupo de impuestos sobre las ventas (**Impuesto \> Impuestos \> Grupo de impuestos**) que se utiliza en la transacción del impuesto que está relacionada con la factura. Compruebe que la característica [IVA intracomunitario para España](https://docs.microsoft.com/dynamics365/finance/localizations/emea-esp-intra-community-vat) esté configurada y se utiliza en su sistema.
+-   La casilla **Intracomunitario** está seleccionada para el grupo de impuestos sobre las ventas (**Impuesto \> Impuestos \> Grupo de impuestos**) que se utiliza en la transacción del impuesto que está relacionada con la factura. Compruebe que la característica [IVA intracomunitario para España](./emea-esp-intra-community-vat.md) esté configurada y se utiliza en su sistema.
 -   El país o región de la dirección principal de la contrapartida de la factura se identifica como **UE** en la sección **Propiedades del país o región** de la página **Parámetros de comercio exterior** (**Impuesto \> Configuración \> Comercio Exterior \> Parámetros de comercio exterior**).
 -   La contrapartida está incluida en la configuración intracomunitaria de SII (vaya a **Impuesto \> Configuración \> Mensajes electrónicos \> Campos adicionales del elemento de mensaje**, y luego, en el campo **TipoOperación**, especifique aquellas contrapartidas para las que las facturas deben registrarse como facturas intracomunitarias).
 

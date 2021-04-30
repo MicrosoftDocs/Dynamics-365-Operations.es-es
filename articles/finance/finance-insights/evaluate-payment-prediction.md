@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818640"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897921"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Evaluar el modelo de predicción de pagos de clientes inicial (versión preliminar)
 
@@ -41,7 +41,7 @@ Este vínculo le lleva a AI Builder, donde puede obtener más información sobre
 
 La página que se abre muestra la siguiente información:
 
-- En la sección **Rendimiento**, el grado de rendimiento del modelo proporciona una perspectiva sobre la calidad del modelo. Para obtener más información sobre este grado, consulte [Rendimiento del modelo de predicción](https://docs.microsoft.com/ai-builder/prediction-performance) en la documentación de AI Builder.
+- En la sección **Rendimiento**, el grado de rendimiento del modelo proporciona una perspectiva sobre la calidad del modelo. Para obtener más información sobre este grado, consulte [Rendimiento del modelo de predicción](/ai-builder/prediction-performance) en la documentación de AI Builder.
 - La sección **Datos más influyentes** muestra la importancia de los diferentes tipos de datos de entrada para su modelo. Puede evaluar esta lista y los porcentajes correspondientes para determinar si la información es coherente con lo que sabe sobre su negocio y mercado.
 
     [![Secciones de datos Rendimiento y Más influyentes para el modelo de predicción](./media/models.png)](./media/models.png)

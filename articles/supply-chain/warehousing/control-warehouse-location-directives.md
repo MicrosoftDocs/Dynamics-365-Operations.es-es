@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91c8df8a111132d75ec02b79912c66e02aef4ea6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 36471cf76615e22c2ca80163756e2fd05aaf6a0f
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831323"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911281"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación
 
@@ -73,7 +73,7 @@ Las directivas de ubicación determinan *dónde* los artículos deben ser recogi
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - Vídeo: [Análisis profundo de la configuración de la gestión de almacenes](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Tema de ayuda: [Crear directivas de ubicación](create-location-directive.md)
+- Tema de ayuda: [Trabajar con directivas de ubicación](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

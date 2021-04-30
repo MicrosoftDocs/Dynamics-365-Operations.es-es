@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753705"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894157"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Especificar ubicaciones de almacenamiento personalizado para documentos generados
 
@@ -27,7 +27,7 @@ La interfaz de programación de aplicaciones (API) del marco de informes electr�
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Implementar una topología que admita una compilación continua. Para obtener más información, consulte [Implementar topologías que admiten la automatización continua de la compilación y la prueba](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). También debe tener acceso a esta topología para uno de los siguientes roles:
+Implementar una topología que admita una compilación continua. Para obtener más información, consulte [Implementar topologías que admiten la automatización continua de la compilación y la prueba](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). También debe tener acceso a esta topología para uno de los siguientes roles:
 
 - Desarrollador de informes electrónicos
 - Consultor funcional de informes electrónicos
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modifique la clase existente `AssetRollForwardService` y escriba el código para configurar una fábrica de destino personalizada para el ejecutor de informes. Observe que cuando se construye una fábrica de destino personalizada, se pasa el parámetro controlado por la aplicación que especifica una carpeta de destino. De esta manera, esa carpeta de destino se usa para almacenar archivos generados.
 
     > [!NOTE] 
-    > Asegúrese de que la carpeta especificada (**c:\\0** en este ejemplo) está presente en el sistema de archivos local del servidor que ejecuta el servicio AOS. De lo contrario, una excepción [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) se lanzará en runtime.
+    > Asegúrese de que la carpeta especificada (**c:\\0** en este ejemplo) está presente en el sistema de archivos local del servidor que ejecuta el servicio AOS. De lo contrario, una excepción [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) se lanzará en runtime.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

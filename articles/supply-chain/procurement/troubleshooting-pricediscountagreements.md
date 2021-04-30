@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 12bc3cbccb1577c278489f640299510b3ced17e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ccc1d52b83f9319af1c6336c1876c795c70028a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811095"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908528"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Solucionar problemas de precios, descuentos, acuerdos y devoluciones
 
@@ -37,7 +37,7 @@ Al cambiar la fecha de envío, es posible que reciba el mensaje "Actualizar prec
 
 El mensaje se genera cada vez que se cambia alguna de las fechas u otros parámetros. El propósito del mensaje es asegurarse de que esté al tanto de los cambios de precios que pueden ocurrir a causa de esos cambios.
 
-El mensaje es el aviso de evaluación del acuerdo comercial (TAE). Para obtener una descripción completa, consulte [Políticas de evaluación de acuerdos comerciales](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
+El mensaje es el aviso de evaluación del acuerdo comercial (TAE). Para obtener una descripción completa, consulte [Políticas de evaluación de acuerdos comerciales](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
 
 ## <a name="a-purchase-order-receipt-doesnt-include-all-charges"></a>El recibo de un pedido de compra no incluye todos los cargos.
 

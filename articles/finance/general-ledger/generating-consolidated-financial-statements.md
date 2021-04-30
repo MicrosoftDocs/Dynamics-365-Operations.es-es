@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826699"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897873"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Generar informes financieros consolidados
 
@@ -34,7 +34,7 @@ El método más sencillo para consolidar mediante un informe financiero es usar 
 3. Cree un árbol de notificación que incluya un nodo de informes para cada empresa que utiliza en los informes consolidados.
 
 > [!TIP]
-> Para obtener más información acerca de cómo crear y gestionar definiciones de filas, definiciones de columna, y organigramas, consulte [Componentes de los informes financieros](../../dev-itpro/analytics/financial-report-components.md).
+> Para obtener más información acerca de cómo crear y gestionar definiciones de filas, definiciones de columna, y organigramas, consulte [Componentes de los informes financieros](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md).
 
 La ilustración siguiente muestra cómo puede usar una definición del organigrama en informes financieros para identificar cada empresa que va a consolidar.
 
