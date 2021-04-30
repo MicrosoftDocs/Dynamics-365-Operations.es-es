@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 586c0f807cf45908bacd88ff4e4d5793db054e4d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5ab53f4b8888f77cd41ccbd7956ed307ba1b54ff
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815413"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897145"
 ---
 # <a name="reverse-journal-posting"></a>Invertir diario de registro
 
@@ -65,7 +65,7 @@ Si el asiento supera las 100 líneas, el proceso de inversión se ejecuta median
 
 Si el número de líneas de asiento es 100 o menos, el proceso de inversión se ejecutará inmediatamente. Los resultados se mostrarán en un cuadro diálogo que muestra cualquier asiento que no se ha podido invertir y la razón por la que no ha podido invertirse. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
 
-Las transacciones se pueden invertir solo si satisfacen las reglas empresariales para invertirlas. Los pagos de proveedor no se pueden invertir con la capacidad anteriormente descrita en este tema. Los pagos de proveedor deben invertirse de acuerdo con los pasos que se describen en [Inversión de un pago de proveedor](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
+Las transacciones se pueden invertir solo si satisfacen las reglas empresariales para invertirlas. Los pagos de proveedor no se pueden invertir con la capacidad anteriormente descrita en este tema. Los pagos de proveedor deben invertirse de acuerdo con los pasos que se describen en [Inversión de un pago de proveedor](../accounts-payable/reverse-vendor-payment.md).
 
 
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791956"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857282"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -142,6 +142,9 @@ UWP, en el caso de los periféricos, está relacionada con la compatibilidad de 
 ### <a name="keyboard-wedge"></a>Cuña de teclado
 
 Los dispositivos de cuña de teclado envían datos al equipo como si los datos se escribieran en un teclado. Por lo tanto, de forma predeterminada, el campo que está activo en PDV recibirá los datos que se escanean o pasan por la banda. En algunos casos, este comportamiento puede producir el tipo incorrecto de datos que se digitalizarán en el campo incorrecto. Por ejemplo, un código de barras se puede escanear en un campo que se ha creado para la entrada de los datos de la tarjeta de crédito. En muchos casos, hay lógica en los PDV que determina si los datos que se escanean o se pasan por la banda es un una tarjeta de código de barras o una tarjeta que se ha pasado por la banda. De esta forma, los datos se gestionan correctamente. Sin embargo, cuando los dispositivos se configuran como OPDV en lugar de dispositivos de cuña de teclado, hay más control sobre cómo los datos de esos dispositivos se pueden utilizar, porque se tiene más información sobre el dispositivo que origina estos datos. Por ejemplo, los datos de un escáner de códigos de barras se reconoce automáticamente como código de barras y el registro asociado en la base de datos se encuentra más fácilmente y más rápidamente que si se usara una búsqueda de cadenas genérica, como en el caso de los dispositivos de cuña de teclado.
+
+> [!NOTE]
+> Cuando se utilizan escáneres de cuña de teclado en el POS, deben programarse para enviar un retorno de carro o evento **Entrar**, después del último carácter escaneado. Si no se realiza esta configuración, los escáneres de cuña de teclado no funcionarán correctamente. Consulte la documentación proporcionada por el fabricante de su dispositivo para obtener detalles sobre cómo agregar el evento de devolución de carro.  
 
 ### <a name="native-printer"></a>Impresora nativa
 

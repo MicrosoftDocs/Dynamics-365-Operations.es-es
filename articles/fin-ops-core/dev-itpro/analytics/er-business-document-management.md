@@ -2,7 +2,7 @@
 title: Visión general de la gestión de documentos empresariales
 description: Este tema proporciona información acerca de cómo utilizar la característica de gestión de documentos empresarial del marco de ER.
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749546"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891314"
 ---
 # <a name="business-document-management-overview"></a>Visión general de la gestión de documentos empresariales
 
@@ -45,9 +45,9 @@ Para usar la gestión de documentos empresariales para editar plantillas en form
 
 ## <a name="business-document-availability"></a>Disponibilidad de los documentos empresariales
 
-Para ver una lista completa de todos los informes previstos para la versión de octubre de 2019, consulte [Informes de documentos empresariales configurables en Word y Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Para ver una lista completa de todos los informes previstos para la versión de octubre de 2019, consulte [Informes de documentos empresariales configurables en Word y Excel](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Para ver una lista completa de todos los informes previstos para la versión de octubre de 2020, consulte [Documentos empresariales configurables: plantillas de Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Para ver una lista completa de todos los informes previstos para la versión de octubre de 2020, consulte [Documentos empresariales configurables: plantillas de Word](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Más informes estarán disponibles en versiones futuras. Las notificaciones especiales sobre informes adicionales se enviarán por separado. Para saber cómo revisar la lista de informes disponibles actualmente, consulte la siguiente sección [Lista de configuraciones de informes electrónicos que se han publicado en Finance para admitir documentos empresariales configurables](#list-of-configurations-cbd).
 
@@ -272,7 +272,23 @@ La opción **Editar plantilla** está disponible para la plantilla seleccionada.
 
 ![Confirmar el inicio del proceso de edición para crear una nueva plantilla](./media/BDM-Overview-EditingTemplate4.png)
 
+Si no hay ningún proveedor, se ofrecerá crear. Si no hay un proveedor activo, se le ofrecerá elegirlo para activarlo.
+
+Para crear un proveedor, cambie el nombre del proveedor en el campo **Nombre**, actualice la dirección de Internet del nuevo proveedor en el campo **Dirección de Internet** y seleccione **Aceptar** para confirmar.
+
+   ![Crear nuevo proveedor en BDM](./media/bdm_create_provider.png)
+
+Para activar el proveedor existente, elija el nombre del proveedor en el campo **Proveedor de configuración** y seleccione **Aceptar** para configurar el proveedor como activo.
+
+   ![Activar proveedor en BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Cada plantilla BDM hace referencia al proveedor como autor de la configuración. Es por eso que se requiere un proveedor activo para la plantilla.
+
+
 La opción **Nuevo documento** está siempre disponible para una plantilla en una configuración de formato de ER que proporciona el actual y otro proveedor (Microsoft en este ejemplo) sin ninguna revisión. La plantilla editada se almacenará en una nueva configuración del formato de ER que se genera automáticamente.
+
+
 
 ### <a name="start-editing-a-template"></a>Comenzar a editar plantillas
 
@@ -419,7 +435,7 @@ Probablemente inició sesión en la instancia actual de la aplicación del domin
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Lista de configuraciones de informes electrónicos que se han publicado en Finance para admitir documentos empresariales configurables
 
-La [lista](general-electronic-reporting.md#list-of-configurations) de las configuraciones de informes electrónicos para Finance se actualiza constantemente. Abra el [Repositorio global](er-download-configurations-global-repo.md) para revisar la lista de configuraciones de informes electrónicos que son compatibles actualmente. Puede [filtrar](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) el repositorio global para revisar la lista de configuraciones de informes electrónicos que se utilizan para admitir documentos empresariales configurables.
+La [lista](general-electronic-reporting.md#list-of-configurations) de las configuraciones de informes electrónicos para Finance se actualiza constantemente. Abra el [Repositorio global](er-download-configurations-global-repo.md) para revisar la lista de configuraciones de informes electrónicos que son compatibles actualmente. Puede [filtrar](../../../finance/localizations/enhanced-filtering-global-repo.md) el repositorio global para revisar la lista de configuraciones de informes electrónicos que se utilizan para admitir documentos empresariales configurables.
 
 ![Filtrar el contenido del repositorio global en la página de configuración del repositorio](./media/bdm-overview-filterglobalrepo.gif)
 

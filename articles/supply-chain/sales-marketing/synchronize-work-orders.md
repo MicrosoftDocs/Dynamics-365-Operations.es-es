@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: d733bf3256fa1f6c572bd0aa35c228490d409bbc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0956e7aa51973014ee474d97829d3d15dfdea3b3
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836503"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909952"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Sincronizar pedidos de trabajo con proyecto de Field Service a Supply Chain Management
 
@@ -31,7 +31,7 @@ En este tema se describe las plantillas y la tarea subyacente que se usan para s
 
 [![Sincronización de procesos empresariales entre Supply Chain Management y Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-La plantilla **Pedidos de trabajo con proyecto (de Field Service a Supply Chain Management)** se basa en la plantilla **Pedidos de trabajo (de Field Service a Supply Chain Management)**. Para obtener más información, consulte [Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)
+La plantilla **Pedidos de trabajo con proyecto (de Field Service a Supply Chain Management)** se basa en la plantilla **Pedidos de trabajo (de Field Service a Supply Chain Management)**. Para obtener más información, consulte [Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)
 
 Este tema describe sólo las diferencias entre las dos plantillas:
 - **Órdenes de trabajo con proyecto (Field Service a Supply Chain Management)**

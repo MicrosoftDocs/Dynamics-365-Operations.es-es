@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 132d91c2a17fa5116d7aa6650e4ee807a03030bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8fe6d8a4ca42cd1f3c3b26a9c52f1a639170252c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802296"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894615"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (6 de octubre de 2020)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5802296"
 
 Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources. Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
-Para obtener más información sobre las nuevas características y sus fechas de disponibilidad general previstas, consulte [Visión general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Para obtener más información sobre las nuevas características y sus fechas de disponibilidad general previstas, consulte [Visión general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>En este lanzamiento
 
@@ -42,7 +42,7 @@ La siguiente característica estará disponible de forma generalizada en esta ve
 
 | Característica | Plan de lanzamiento | Documentación |
 | --- | --- | --- |
-| Información adicional sobre los calendarios de bajas | [Proporcionar información adicional sobre las vistas de calendarios de bajas](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Ver calendario de equipo y empresa](hr-employee-self-service-calendar.md) |
+| Información adicional sobre los calendarios de bajas | [Proporcionar información adicional sobre las vistas de calendarios de bajas](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Ver calendario de equipo y empresa](hr-employee-self-service-calendar.md) |
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 
@@ -70,9 +70,9 @@ La siguientes características nuevas se incluyen como versión preliminar. Para
 
 | Característica | Plan de lanzamiento | Documentación |
 | --- | --- | --- |
-| Aplicación Human Resources en Microsoft Teams | [Experiencia de bajas y ausencias de empleados en Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Aplicación Human Resources en Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Administrar solicitudes de bajas en Teams](hr-teams-leave-app.md) |
-| Solicitudes y aprobaciones de flujo de trabajo mejoradas | [Mejoras en la experiencia de los flujos de trabajo de organización y administración de personal](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Opción de configuración de la lista de elementos de trabajo de puesto asignados a mí](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Entidades virtuales disponibles Dataverse para Human Resources | [Expandir datos básicos de Dynamics 365 Human Resources en Dataverse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Configurar entidades virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md) |
+| Aplicación Human Resources en Microsoft Teams | [Experiencia de bajas y ausencias de empleados en Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Aplicación Human Resources en Teams](./hr-admin-teams-leave-app.md)<br>[Administrar solicitudes de bajas en Teams](hr-teams-leave-app.md) |
+| Solicitudes y aprobaciones de flujo de trabajo mejoradas | [Mejoras en la experiencia de los flujos de trabajo de organización y administración de personal](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Opción de configuración de la lista de elementos de trabajo de puesto asignados a mí](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Entidades virtuales disponibles Dataverse para Human Resources | [Expandir datos básicos de Dynamics 365 Human Resources en Dataverse](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Configurar entidades virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md) |
 
 ## <a name="coming-soon"></a>Próximamente
 
@@ -82,14 +82,14 @@ Las siguientes características nuevas están programadas para versiones futuras
 
 - **Códigos de motivo de la administración de prestaciones**: estos códigos pronto se combinarán con los códigos de motivo existentes en Human Resources. Si creó códigos de motivo en la Administración de prestaciones que tienen más de 15 caracteres, debe cambiar el nombre del código de motivo en la Administración de prestaciones. Formulario de **Códigos de motivo** que tenga 15 caracteres o menos. Después de actualizar el nombre, el código de motivo aparecerá bajo el formulario de código de motivo existente en Administración de personal. Este cambio estará disponible en el futuro y no afectará la funcionalidad existente.
 
-- **Vínculos personalizados en Autoservicio para directores**: para ayudar a los directores estamos ampliando la funcionalidad del autoservicio para directores. Estamos agregando la capacidad de agregar vínculos personalizados en la pestaña **Mi equipo**. Esta característica es similar a la función de vínculos personalizados en la pestaña **Mi información** del autoservicio para empleados. Para obtener más información, consulte [Vínculos personalizados en el autoservicio para directores](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
+- **Vínculos personalizados en Autoservicio para directores**: para ayudar a los directores estamos ampliando la funcionalidad del autoservicio para directores. Estamos agregando la capacidad de agregar vínculos personalizados en la pestaña **Mi equipo**. Esta característica es similar a la función de vínculos personalizados en la pestaña **Mi información** del autoservicio para empleados. Para obtener más información, consulte [Vínculos personalizados en el autoservicio para directores](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 
-Para obtener una lista completa de las características previstas y sus lanzamientos programados, consulte [Visión general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
+Para obtener una lista completa de las características previstas y sus lanzamientos programados, consulte [Visión general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Novedades y cambios en Human Resources](hr-admin-whats-new.md)</br>
-[Visión general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Visión general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839376"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908791"
 ---
 # <a name="cost-management-home-page"></a>Página principal de la gestión de costes
 
@@ -43,7 +43,7 @@ Puede obtener acceso a la contabilidad de inventario y la contabilidad de fabric
 
 La contabilidad de fabricación le permite administrar la [Gestión de costes de órdenes de producción](production-order-cost-analysis.md) en pedidos de producción y pedidos de lote, y [Contabilización previa de los costes](backflush-costing.md) en producción ajustada.
 
-El Contenido de [Gestión de costes en Power BI](../../dev-itpro/analytics/cost-management-content-pack.md) proporciona información administrativa de inventario y de inventario del trabajo en curso, y explica cómo el coste fluye por categoría en el tiempo. La información se puede usar como suplemento detallado del informe financiero.
+El Contenido de [Gestión de costes en Power BI](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) proporciona información administrativa de inventario y de inventario del trabajo en curso, y explica cómo el coste fluye por categoría en el tiempo. La información se puede usar como suplemento detallado del informe financiero.
 
 ### <a name="additional-resources"></a>Recursos adicionales
 
@@ -57,7 +57,7 @@ El [cálculo de L. MAT. con una hoja de gestión de costes](https://www.microsof
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, novedades y otra información acerca de la Gestión de costes en el [blog del equipo de I+D y fabricación de Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) y el [blog del equipo de I+D de administración de Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Aunque la mayoría de ellos se escribieron para la versión anterior de Gestión de costes, aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son también similares.
+Puede encontrar opiniones, novedades y otra información acerca de la Gestión de costes en el [blog del equipo de I+D y fabricación de Dynamics AX](/archive/blogs/axmfg/) y el [blog del equipo de I+D de administración de Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Aunque la mayoría de ellos se escribieron para la versión anterior de Gestión de costes, aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son también similares.
 
 #### <a name="task-guides"></a>Guías de tareas
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814665"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907726"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -136,7 +136,7 @@ El trabajador selecciona el tercer trabajo en la pestaña **Todos los trabajos**
 
 ## <a name="working-on-indirect-activities"></a>Trabajar en actividades indirectas
 
-Las actividades indirectas son actividades que no están directamente relacionadas con un pedido de producción. Las actividades indirectas se pueden definir de manera flexible, como se describe en [Configurar actividades indirectas para el tiempo y la asistencia](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+Las actividades indirectas son actividades que no están directamente relacionadas con un pedido de producción. Las actividades indirectas se pueden definir de manera flexible, como se describe en [Configurar actividades indirectas para el tiempo y la asistencia](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
 Por ejemplo, Shannon, un trabajador de planta en Contoso, desea asistir a una reunión de la empresa y las reuniones se consideran una actividad indirecta. Se aplica uno de los dos escenarios siguientes:
 

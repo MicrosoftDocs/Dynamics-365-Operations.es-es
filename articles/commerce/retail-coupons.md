@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792034"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906658"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar vales para ventas minoristas
 
@@ -38,6 +38,8 @@ Para crear un vale, cree el descuento y el vale por separado. A continuación lo
 
 > [!NOTE]
 > Después de vincular un vale a un descuento, varios campos de la página de descuentos de Commerce se vuelven de solo lectura porque son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.
+> 
+> Mientras usa el cupón en el canal del centro de llamadas, debe seleccionar el botón **Recalcular** **(Pestaña Vender> Calcular> Recalcular)** para que se aplique el descuento asociado al cupón. Este paso adicional se eliminará en una versión futura.
 
 ### <a name="limited-use-coupons"></a>Vales de uso limitado
 

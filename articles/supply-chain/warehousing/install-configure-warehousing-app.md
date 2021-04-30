@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835584"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909388"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar y conectar la aplicación de almacén
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835584"
 > Este tema describe cómo configurar la aplicación de almacén anterior (que ahora está en desuso). Si busca información sobre cómo configurar la nueva aplicación móvil Warehouse Management, consulte [Instalar y conectar la aplicación móvil Warehouse Management](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Este tema describe cómo configurar la aplicación de almacén para implementaciones en la nube. Si busca información sobre cómo configurar la aplicación de almacén para implementaciones locales, consulte [Almacenamiento para implementaciones locales](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Este tema describe cómo configurar la aplicación de almacén para implementaciones en la nube. Si busca información sobre cómo configurar la aplicación de almacén para implementaciones locales, consulte [Almacenamiento para implementaciones locales](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 La aplicación de almacén está disponible en Google Play Store y Microsoft Store. Se proporciona como un componente independiente. Por lo tanto, debe descargarlo en cada dispositivo y luego configurarlo para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management.
 
@@ -54,7 +54,7 @@ Use uno de los siguientes vínculos para descargar la aplicación:
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Warehousing en Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 en Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Para implementaciones más pequeñas, es posible que desee instalar la aplicación desde la tienda correspondiente en cada dispositivo y luego configurar manualmente la conexión a los entornos que está utilizando. Sin embargo, en la versión 1.7.0.0 y posterior de la aplicación de almacén, también puede automatizar la implementación y/o configuración de la aplicación. Es posible que este enfoque le resulte conveniente si administra muchos dispositivos y está utilizando una solución de administración de dispositivos móviles y aplicaciones móviles como [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Para obtener información sobre cómo usar Intune para agregar aplicaciones, consulte [Agregar aplicaciones a Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Para implementaciones más pequeñas, es posible que desee instalar la aplicación desde la tienda correspondiente en cada dispositivo y luego configurar manualmente la conexión a los entornos que está utilizando. Sin embargo, en la versión 1.7.0.0 y posterior de la aplicación de almacén, también puede automatizar la implementación y/o configuración de la aplicación. Es posible que este enfoque le resulte conveniente si administra muchos dispositivos y está utilizando una solución de administración de dispositivos móviles y aplicaciones móviles como [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Para obtener información sobre cómo usar Intune para agregar aplicaciones, consulte [Agregar aplicaciones a Microsoft Intune](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Crear una aplicación de servicio web en Azure Active Directory
 
@@ -89,11 +89,11 @@ Para habilitar la aplicación de almacén para interactuar con un servidor espec
 
 Para obtener más información sobre cómo configurar aplicaciones de servicios web en Azure AD, vea los siguientes recursos:
 
-- Para obtener instrucciones que muestran cómo usar Windows PowerShell para configurar aplicaciones de servicio web en Azure AD, consulte [Procedimiento: usar Azure PowerShell para crear una entidad de servicio con un certificado](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Para obtener instrucciones que muestran cómo usar Windows PowerShell para configurar aplicaciones de servicio web en Azure AD, consulte [Procedimiento: usar Azure PowerShell para crear una entidad de servicio con un certificado](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Para obtener detalles completos sobre cómo crear manualmente una aplicación de servicio web en Azure AD, vea los siguientes temas:
 
-    - [Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Procedimiento: usar el portal para crear una aplicación de Azure AD y entidad de servicio que puede acceder a los recursos](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [Procedimiento: usar el portal para crear una aplicación de Azure AD y entidad de servicio que puede acceder a los recursos](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Cree y configure una cuenta de usuario en Supply Chain Management.
 
@@ -121,7 +121,7 @@ La autenticación con Azure AD proporciona una forma segura de conectar un dispo
 
 Los certificados se pueden usar como secretos para probar la identidad de la aplicación cuando se solicita un token. La parte pública del certificado se carga en el registro de la aplicación en Azure Portal, mientras que el certificado completo debe implementarse en cada dispositivo donde está instalada la aplicación de almacén. Su organización es responsable de administrar el certificado en términos de rotación, etc. Puede usar certificados autofirmados, pero siempre debe usar certificados no exportables.
 
-Debe hacer que el certificado esté disponible localmente en cada dispositivo donde ejecute la aplicación de almacén. Para obtener información sobre cómo administrar certificados para dispositivos controlados por Intune si está usando Intune, consulte [Usar certificados para autenticación en Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Debe hacer que el certificado esté disponible localmente en cada dispositivo donde ejecute la aplicación de almacén. Para obtener información sobre cómo administrar certificados para dispositivos controlados por Intune si está usando Intune, consulte [Usar certificados para autenticación en Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurar la aplicación importando la configuración de conexión
 

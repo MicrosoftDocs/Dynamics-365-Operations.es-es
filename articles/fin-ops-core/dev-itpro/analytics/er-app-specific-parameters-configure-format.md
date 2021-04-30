@@ -2,7 +2,8 @@
 title: Configurar formatos de ER para usar parámetros que se especifican por entidad jurídica
 description: En este tema se explica cómo puede configurar formatos de informes electrónicos (ER) para usar parámetros que se especifican por entidad jurídica.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751187"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853502"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurar formatos de ER para usar parámetros que se especifican por entidad jurídica
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751187"
 
 ## <a name="overview"></a>Visión general
 
-En muchos de los formatos de informes electrónicos (ER) que diseñará, debe filtrar los datos mediante un conjunto de valores que son específicos para cada entidad jurídica de su instancia (por ejemplo, un conjunto de códigos de impuestos para filtrar transacciones de impuestos). Actualmente, cuando el filtrado de este tipo se configura en un formato de ER, los valores que dependan de la entidad jurídica (por ejemplo, los códigos de impuestos) se usan en expresiones del formato de ER para especificar reglas de filtrado de datos. Por lo tanto, el formato de ER se convierte en específico de la entidad jurídica y, para generar los informes necesarios, debe crear copias derivadas del formato de ER original para cada entidad jurídica en la que tenga que ejecutar el formato de ER. Cada formato de ER derivado debe editarse para que incorpore valores específicos de la entidad jurídica, reorganizarse cada vez que se actualice la versión original (base), exportarse desde un entorno de prueba e importarse a un entorno de producción cuando deba implementarse para uso de producción, etc. Por lo tanto, el mantenimiento de este tipo de solución de ER configurada es bastante complejo y largo por varios motivos:
+En muchos de los formatos de informes electrónicos (ER) que diseñará, debe filtrar los datos mediante un conjunto de valores que son específicos para cada entidad jurídica de su instancia (por ejemplo, un conjunto de códigos de impuestos para filtrar transacciones de impuestos). Actualmente, cuando el filtrado de este tipo se configura en un formato de ER, los valores que dependan de la entidad jurídica (por ejemplo, los códigos de impuestos) se usan en expresiones del formato de ER para especificar reglas de filtrado de datos. Por lo tanto, el formato de ER se convierte en específico de la entidad jurídica y, para generar los informes necesarios, debe crear copias derivadas del formato de ER original para cada entidad jurídica en la que tenga que ejecutar el formato de ER. Cada formato de ER derivado debe editarse para que incorpore valores específicos de la entidad jurídica, reorganizarse cada vez que se actualice la versión original (base), exportarse desde un entorno de prueba e importarse a un entorno de producción cuando deba implementarse para uso de producción, etc. Por lo tanto, el mantenimiento de este tipo de solución de ER configurada es complejo y largo por varios motivos:
 
 -   Cuantas más entidades jurídicas haya, más configuraciones de formato de ER deberán mantenerse.
 -   El mantenimiento de configuraciones de ER requiere que los usuarios empresariales tengan conocimiento de ER.
@@ -86,7 +87,7 @@ En este ejemplo, creará una configuración para la empresa de muestra Litware, 
 
     ![El origen de datos Model.Data.Summary enumera la lista de transacciones de impuestos](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    El campo calculado **Model.Data.Summary.Level** se ha configurado para que contenga una expresión de ER. Tenga en cuenta que los códigos de impuestos (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** e **InVAT0**) están codificados en esta configuración. Por lo tanto, este formato de ER depende de la entidad jurídica en la que se configuraron estos códigos de impuestos.
+    El campo calculado **Model.Data.Summary.Level** se ha configurado para que contenga una expresión de ER. Los códigos de impuestos (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** e **InVAT0**) están codificados en esta configuración. Por lo tanto, este formato de ER depende de la entidad jurídica en la que se configuraron estos códigos de impuestos.
 
     ![El campo calculado Model.Data.Summary.Level con códigos de impuestos codificados](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -153,12 +154,12 @@ A continuación, agregará un nuevo origen de datos para especificar cómo los u
 1.  En la pestaña **Asignación**, seleccione **Agregar**.
 2.  Seleccione **Enumeración de formato\Búsqueda**.
 
-    Acaba de identificar que cada regla que los usuarios empresariales especifiquen para el reconocimiento del nivel impositivo devolverá un valor de una enumeración de formato de ER. Tenga en cuenta que se puede acceder al tipo de origen de datos **Búsqueda** en los bloques **Modelo de datos** y **Dynamics 365 for Operations**, además del bloque **Enumeración de formato**. Por lo tanto, las enumeraciones de modelo de datos de ER y las enumeraciones de aplicación se pueden usar para especificar el tipo de valores que se devuelve para orígenes de datos de ese tipo.
+    Acaba de identificar que cada regla que los usuarios empresariales especifiquen para el reconocimiento del nivel impositivo devolverá un valor de una enumeración de formato de ER. Tenga en cuenta que se puede acceder al tipo de origen de datos **Búsqueda** en los bloques **Modelo de datos** y **Dynamics 365 for Operations**, además del bloque **Enumeración de formato**. Por lo tanto, las enumeraciones de modelo de datos de ER y las enumeraciones de aplicación se pueden usar para especificar el tipo de valores que se devuelve para orígenes de datos de ese tipo. Para aprender más sobre el **Buscar** fuentes de datos, ver [Configure las fuentes de datos de búsqueda para utilizar la función de parámetros específicos de la aplicación de ER](er-lookup-data-sources.md).
     
 3.  En el campo **Nombre**, especifique **Selector**.
 4.  En el campo **Enumeración de formato**, seleccione **Lista de niveles impositivos**.
 
-    Acaba de especificar que, para cada regla que se especifique en este origen de datos, un usuario empresarial debe seleccionar uno de los valores de la enumeración de formato **Lista de niveles impositivos** como un valor devuelto.
+    Ha especificado que, para cada regla que se especifique en este origen de datos, un usuario empresarial debe seleccionar uno de los valores de la enumeración de formato **Lista de niveles impositivos** como un valor devuelto.
     
 5.  Seleccione **Editar búsqueda**.
 6.  Seleccione **Columnas**.
@@ -190,7 +191,7 @@ A continuación, agregará un nuevo origen de datos para especificar cómo los u
     
     ![Formatear la página del diseñador con un nuevo origen de datos](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    Tenga en cuenta que la evaluación de reglas configuradas depende del tipo de datos de los campos que se han seleccionado para definir condiciones de dichas reglas. Cuando seleccione un campo que está configurado como un campo del tipo de datos **Numérico** o **Fecha**, los criterios diferirán de los criterios que se describieron anteriormente para el tipo de datos **Cadena**. Para los campos **Numérico** y **Fecha**, la regla debe especificarse como un intervalo de valores. La condición de la regla se considerará cumplida cuando un valor que se pasa al origen de datos esté en el intervalo configurado.
+    La evaluación de reglas configuradas depende del tipo de datos de los campos que se han seleccionado para definir condiciones de dichas reglas. Cuando seleccione un campo que está configurado como un campo del tipo de datos **Numérico** o **Fecha**, los criterios diferirán de los criterios que se describieron anteriormente para el tipo de datos **Cadena**. Para los campos **Numérico** y **Fecha**, la regla debe especificarse como un intervalo de valores. La condición de la regla se considerará cumplida cuando un valor que se pasa al origen de datos esté en el intervalo configurado.
     
     En la siguiente ilustración se muestra un ejemplo de este tipo de configuración. Además del campo **Model.Data.Tax.Code** del tipo de datos **Cadena**, el campo **Model.Tax.Summary.Base** del tipo de datos **Real** se usa para especificar condiciones para un origen de datos de la búsqueda.
     
@@ -306,7 +307,9 @@ Para aprender a usar el formato de ER **Formato para aprender a buscar datos de 
 
 [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
 
-[Configurar los parámetros de un formato de ER por entidad jurídica](er-app-specific-parameters-set-up.md)
+[Configurar los parámetros de un formato de informes electrónicos por entidad jurídica](er-app-specific-parameters-set-up.md)
+
+[Configurar las fuentes de datos de Búsqueda para utilizar la característica de parámetros específicos de la aplicación de ER](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

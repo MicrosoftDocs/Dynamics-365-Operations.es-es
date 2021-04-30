@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f405fba2b28ccae6b3aadbcf683d050040587cde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f491cebacad1e289e6b004d573916eaf8ec0e110
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832187"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909558"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management (10.0.13 de octubre de 2020)
 
@@ -33,23 +33,23 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-En esta versión se incluyen las siguientes características. Los títulos de características están vinculados a información adicional en el sitio [Planes de lanzamiento](https://docs.microsoft.com/dynamics365/release-plans/). Los vínculos adicionales apuntan a documentación que están disponibles actualmente para esa característica. La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
+En esta versión se incluyen las siguientes características. Los títulos de características están vinculados a información adicional en el sitio [Planes de lanzamiento](/dynamics365/release-plans/). Los vínculos adicionales apuntan a documentación que están disponibles actualmente para esa característica. La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
 
-- [Cambie la terminología de "cancelación de cierre de inventario" a "cierre de inventario a invertir"](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Para obtener más información, consulte [Cierre de inventario](../cost-management/inventory-close.md).
+- [Cambie la terminología de "cancelación de cierre de inventario" a "cierre de inventario a invertir"](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Para obtener más información, consulte [Cierre de inventario](../cost-management/inventory-close.md).
 
-- [Confirmar envíos salientes de trabajos por lotes](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Para obtener más información, consulte [Confirmar envíos salientes de trabajos por lotes](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [Confirmar envíos salientes de trabajos por lotes](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Para obtener más información, consulte [Confirmar envíos salientes de trabajos por lotes](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [Delegación de múltiples artículos de trabajo de compras](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Para obtener más información, consulte [Delegar elementos de trabajo en un flujo de trabajo](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [Delegación de múltiples artículos de trabajo de compras](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Para obtener más información, consulte [Delegar elementos de trabajo en un flujo de trabajo](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [Especificar números de serie mientras se notifica como terminado desde el dispositivo de tarjeta de trabajo](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Para más información, consulte [Notificar como terminado desde el dispositivo de tarjetas de trabajo](../production-control/report-finished-job-device.md).
+- [Especificar números de serie mientras se notifica como terminado desde el dispositivo de tarjeta de trabajo](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Para más información, consulte [Notificar como terminado desde el dispositivo de tarjetas de trabajo](../production-control/report-finished-job-device.md).
 
-- [Nuevas dimensiones de inventario para el seguimiento de la versión del producto y una extensibilidad mejorada](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Para obtener más información, consulte [Dimensiones del producto](../pim/product-dimensions.md).
+- [Nuevas dimensiones de inventario para el seguimiento de la versión del producto y una extensibilidad mejorada](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Para obtener más información, consulte [Dimensiones del producto](../pim/product-dimensions.md).
 
-- [Reserva confirmada por pedido basada en matrículas de entidad de almacén](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Para más información, consulte [Reserva de matrícula de entidad de almacén flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [Reserva confirmada por pedido basada en matrículas de entidad de almacén](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Para más información, consulte [Reserva de matrícula de entidad de almacén flexible](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [Visión general de la línea de picking de trabajo](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [Visión general de la línea de picking de trabajo](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [Mejoras de la directiva de trabajo para el trabajo de entrada](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Para obtener más información, consulte [Directivas de almacén](../warehousing/warehouse-work-policies.md).
+- [Mejoras de la directiva de trabajo para el trabajo de entrada](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Para obtener más información, consulte [Directivas de almacén](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -65,7 +65,7 @@ Para obtener información sobre las correcciones de errores incluidas en cada un
 
 ¿Le gustaría conocer las nuevas y futuras funcionalidades disponibles en nuestra plataforma y en nuestras aplicaciones empresariales?
 
-Consulte [Dynamics 365: plan del segundo lanzamiento de versiones de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
+Consulte [Dynamics 365: plan del segundo lanzamiento de versiones de 2020](/dynamics365-release-plan/2020wave2/index). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840782"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909009"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizar y usar el Portal del cliente
 
@@ -33,14 +33,14 @@ El Portal del cliente ofrece algunas páginas web y acciones listas para usar. E
 
 Los siguientes temas le ayudarán a aprender los conceptos básicos sobre portales Power Apps y cómo puede personalizar los portales:
 
-- [Trabajar con plantillas](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates): este tema proporciona una descripción general de cómo funcionan los portales Power Apps y cómo puede hacer personalizaciones simples de portales.
-- [Administrar contenido del portal](https://docs.microsoft.com/dynamics365/portals/manage-portal-content): este tema explica cómo puede administrar y personalizar el contenido que aparece en su portal.
-- [Editar CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css): este tema le ayuda a realizar personalizaciones más complejas en la interfaz de usuario (UI) de su portal.
-- [Crear un tema para el portal](https://docs.microsoft.com/dynamics365/portals/create-theme): este tema le ayuda a crear un tema de interfaz de usuario para su portal.
-- [Crear y exponer el contenido del portal fácilmente](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content): este tema le ayuda a administrar los datos y tablas subyacentes que utiliza para su portal.
-- [Configurar un contacto para usar en un portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts): este tema explica cómo crear y personalizar roles de usuario, y cómo funcionan la seguridad y la autenticación en los portales Power Apps.
-- [Configurar notas para formularios de tabla y formularios web en portales](https://docs.microsoft.com/powerapps/maker/portals/configure-notes): este tema explica cómo agregar documentos y almacenamiento adicional a su portal.
-- [Manejo de errores para el sitio web del portal](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log): este tema explica cómo ver los registros de errores del portal y almacenarlos en su cuenta de almacenamiento de blobs Microsoft Azure.
+- [Trabajar con plantillas](/powerapps/maker/portals/work-with-templates): este tema proporciona una descripción general de cómo funcionan los portales Power Apps y cómo puede hacer personalizaciones simples de portales.
+- [Administrar contenido del portal](/dynamics365/portals/manage-portal-content): este tema explica cómo puede administrar y personalizar el contenido que aparece en su portal.
+- [Editar CSS](/powerapps/maker/portals/edit-css): este tema le ayuda a realizar personalizaciones más complejas en la interfaz de usuario (UI) de su portal.
+- [Crear un tema para el portal](/dynamics365/portals/create-theme): este tema le ayuda a crear un tema de interfaz de usuario para su portal.
+- [Crear y exponer el contenido del portal fácilmente](/dynamics365/portals/create-expose-portal-content): este tema le ayuda a administrar los datos y tablas subyacentes que utiliza para su portal.
+- [Configurar un contacto para usar en un portal](/powerapps/maker/portals/configure/configure-contacts): este tema explica cómo crear y personalizar roles de usuario, y cómo funcionan la seguridad y la autenticación en los portales Power Apps.
+- [Configurar notas para formularios de tabla y formularios web en portales](/powerapps/maker/portals/configure-notes): este tema explica cómo agregar documentos y almacenamiento adicional a su portal.
+- [Manejo de errores para el sitio web del portal](/powerapps/maker/portals/admin/view-portal-error-log): este tema explica cómo ver los registros de errores del portal y almacenarlos en su cuenta de almacenamiento de blobs Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>Personalizar el proceso de creación de pedidos
 
@@ -88,7 +88,7 @@ Estos son los pasos estándar para enviar un pedido desde el Portal del cliente.
 
 Para ayudar a garantizar una experiencia de usuario fluida, el Portal del cliente completa automáticamente los valores de varios campos obligatorios. Estos valores se basan en la información del registro de contacto del cliente que envía el pedido.
 
-Para cada [fila de contacto](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) que pertenece a un cliente que utilizará el Portal del cliente para enviar pedidos, los valores deben especificarse para los siguientes campos obligatorios. De lo contrario, se producirán errores.
+Para cada [fila de contacto](/powerapps/maker/portals/configure/configure-contacts) que pertenece a un cliente que utilizará el Portal del cliente para enviar pedidos, los valores deben especificarse para los siguientes campos obligatorios. De lo contrario, se producirán errores.
 
 - **Empresa**: entidad jurídica a la que pertenece el pedido
 - **Cliente potencial**: cuenta de cliente asociada al pedido
@@ -134,16 +134,16 @@ Las columnas siguientes son obligatorios para los artículos:
 
 Debe asegurarse de que su Portal de clientes de alguna manera envíe valores para todas estas columnas.
 
-Si desea agregar columnas a la página o eliminar columnas, consulte [Crear o editar formularios de creación rápida para una experiencia de entrada de datos optimizada](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Si desea agregar columnas a la página o eliminar columnas, consulte [Crear o editar formularios de creación rápida para una experiencia de entrada de datos optimizada](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
 Si desea cambiar cómo se configuran las columnas y cómo se configuran los valores cuando se guarda la página, consulte la siguiente información en la documentación de portales Power Apps:
 
-- [Campo prerellenado](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [Establecer valor al guardar](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [Campo prerellenado](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [Establecer valor al guardar](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>Personaliza la página de inicio
 
-Todos los controles del Portal del cliente son controles de portales Power Apps integrados. Puede personalizarlos siguiendo los pasos de [Componer una página](https://docs.microsoft.com/powerapps/maker/portals/compose-page) en la documentación de portales Power Apps.
+Todos los controles del Portal del cliente son controles de portales Power Apps integrados. Puede personalizarlos siguiendo los pasos de [Componer una página](/powerapps/maker/portals/compose-page) en la documentación de portales Power Apps.
 
 El único control personalizado que se incluye en la plantilla del Portal del cliente se usa para crear las ventanas de la página de inicio.
 
@@ -151,7 +151,7 @@ El único control personalizado que se incluye en la plantilla del Portal del cl
 
 Para modificar las ventanas, siga estos pasos.
 
-1. Abra la [aplicación Gestión de portales](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1. Abra la [aplicación Gestión de portales](/powerapps/maker/portals/configure/configure-portal).
 1. En el panel de navegación de la izquierda, seleccione **Plantillas de página**.
 
     ![Panel de navegación de gestión de portales](media/customer-portal-nav.png "Panel de navegación de gestión de portales")
@@ -167,11 +167,11 @@ Para modificar las ventanas, siga estos pasos.
 
 Para obtener más información sobre cómo puede configurar y personalizar el Portal del cliente, consulte los siguientes recursos:
 
-- [Documentación de portales Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Documentación de portales Power Apps](/powerapps/maker/portals/overview)
 - [Documentación de doble escritura](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [Sobre el ciclo de vida del portal](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Actualizar un portal](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Migrar la configuración del portal](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Sobre el ciclo de vida del portal](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Actualizar un portal](/powerapps/maker/portals/admin/upgrade-portal)
+- [Migrar la configuración del portal](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Administración de ciclo de vida de solución: Dynamics 365 para aplicaciones de Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

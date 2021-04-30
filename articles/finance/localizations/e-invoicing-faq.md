@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 41cddcdad5043ec314a94dda67f4f2e9de406cac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ba1a6c5542c10306d4b7494d33e7ff04504fa95
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840181"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893787"
 ---
 # <a name="electronic-invoicing-faq"></a>Preguntas frecuentes sobre facturación electrónica
 
@@ -55,7 +55,7 @@ La plataforma actual no permite el uso de la versión local y no hay planes para
 
 ## <a name="does-electronic-invoicing-interface-with-the-vendor-import-automation-feature"></a>¿La facturación electrónica interactúa con la característica de automatización de importación de proveedores?
 
-No. Hay planes para esta interfaz, pero no hay una escala de tiempo planificada. Cuando esté previsto, las fechas se anunciarán en los [Planes de lanzamiento](https://docs.microsoft.com/dynamics365/release-plans/).
+No. Hay planes para esta interfaz, pero no hay una escala de tiempo planificada. Cuando esté previsto, las fechas se anunciarán en los [Planes de lanzamiento](/dynamics365/release-plans/).
 
 ## <a name="how-does-electronic-invoicing-handle-file-attachments-into-the-electronic-invoice-is-a-sharepoint-server-needed-when-embedding-pdf-files-into-the-xml-file"></a>¿Cómo maneja la facturación electrónica los archivos adjuntos en la factura electrónica? ¿Es necesario un servidor de SharePoint al incrustar archivos PDF en el archivo XML?
 

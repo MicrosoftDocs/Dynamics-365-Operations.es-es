@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837642"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910386"
 ---
 # <a name="modeling-a-lean-organization"></a>Modelar una organización eficiente
 
@@ -51,7 +51,7 @@ El flujo de valor en estado futuro se puede modelar como una versión del flujo 
 
 El flujo de valor en sí se modela como unidad operativa. Por lo tanto, el flujo de valor se puede usar como dimensión financiera.
 
-Para obtener más información sobre cómo crear unidades operativas, vea [Crear una unidad operativa](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
+Para obtener más información sobre cómo crear unidades operativas, vea [Crear una unidad operativa](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Gestión de costes de lean manufacturing en función del flujo de producción
 La consolidación periódica del coste para un flujo de producción corrige la cuenta relacionada de trabajo en curso y habilita la determinación de las desviaciones de los productos que se proporcionan por el flujo de producción.

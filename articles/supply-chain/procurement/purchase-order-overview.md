@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825335"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909141"
 ---
 # <a name="purchase-order-overview"></a>Visión general de pedidos de compra
 
@@ -41,7 +41,7 @@ Los siguientes artículos proporcionan una visión general de las distintas fase
 -   [Crear pedidos de compra](purchase-order-creation.md)
 -   [Aprobar y confirmar pedidos de compra](purchase-order-approval-confirmation.md)
 -   [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
--   [Visión general de facturas de proveedores](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Visión general de facturas de proveedores](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Tipos de pedidos de compra
 Hay tres tipos de pedidos de compra. Al crear un pedido de compra, debe especificar el tipo. Puede configurar un tipo de pedido predeterminado para nuevos pedidos en la página **Parámetros de adquisición y abastecimiento**.
@@ -85,7 +85,7 @@ El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa po
 
 [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
 
-[Visión general de facturas de proveedores](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Visión general de facturas de proveedores](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

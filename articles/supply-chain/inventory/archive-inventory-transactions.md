@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: bacc27c1a9066892c51110d28ba9a2ad26bebe77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839304"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881841"
 ---
 # <a name="archive-inventory-transactions"></a>Archivar transacciones del inventario
 
@@ -38,7 +38,7 @@ Si una combinación `itemId` e `inventDimId` contiene solo un recibo o transacci
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Activar la función en el sistema
 
-Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Archivo de transacciones de inventario*.
+Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Archivo de transacciones de inventario*. Tenga en cuenta que esta función no se puede desactivar una vez que se ha activado.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Cosas a considerar antes de archivar transacciones de inventario
 

@@ -14,12 +14,12 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 386ccb271b830c9902118639583200faa5881c02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bfe7c3cca27d8e29e26661b1a7f9976b0846d7fd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839759"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894764"
 ---
 # <a name="declaration-347-report"></a>Informe del Modelo 347
 [!include [banner](../includes/banner.md)]
@@ -61,7 +61,7 @@ Se deben establecer los siguientes requisitos previos antes de comenzar a trabaj
     -   Formato de exportación del Modelo 347 (ES)
     -   Formato de informes del Modelo 347 (ES)
 
-Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 2.  Vaya a **Impuestos** \> **Configuración** \> **Impuestos** \> **Cuentas contables de efectivo**.
 3.  En la página **Cuentas contables de efectivo**, especifique las cuentas contables de efectivo que se requieren para el Modelo 347.
@@ -113,7 +113,7 @@ La pestaña **Totales** muestra el número de operaciones y los importes totales
 
 6.  Seleccione **Transacciones** para revisar y modificar la información para las transacciones agregadas de cliente y las transacciones de proveedor antes de generar el informe como archivo ASCII.
 
-![Página Transacciones](media/2_Transactions.png)
+![Página Transacciones, pestaña Descripción general](media/2_Transactions.png)
 
 7.  En la página **Transacciones**, en la pestaña **General**, revise los siguientes campos.
 

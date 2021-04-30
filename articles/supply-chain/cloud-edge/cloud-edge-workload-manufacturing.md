@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809791"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899104"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de ejecución de fabricación para unidades de escalado en el perímetro y en la nube
 
@@ -29,9 +29,10 @@ ms.locfileid: "5809791"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> La carga de trabajo de ejecución de fabricación está disponible en versión preliminar en este momento.
 > Algunas funciones comerciales no son totalmente compatibles en la versión preliminar pública cuando se utilizan unidades de escala de carga de trabajo.
 
-En la ejecución de fabricación, las unidades de escala en la nube y en el borde ofrecen las siguientes capacidades, incluso cuando las unidades en el borde no están conectadas al concentrador:
+En la ejecución de la fabricación, las unidades de escala ofrecen las siguientes capacidades:
 
 - Los operadores de máquinas y los supervisores de planta pueden acceder al plan de producción operativo.
 - Los operadores de máquinas pueden mantener el plan actualizado mediante la ejecución de trabajos de fabricación discretos y de proceso.
@@ -108,5 +109,6 @@ Para revisar el historial de trabajos de fabricación que se han procesado en un
 
 El trabajo _Centro de fabricación para el procesador de mensajes de la unidad de escala_ procesa datos desde el centro hasta la unidad de escalado. Este trabajo se inicia automáticamente cuando se implementa la carga de trabajo de ejecución de fabricación. Sin embargo, puede ejecutarlo manualmente en cualquier momento yendo a **Control de producción \> Tareas periódicas \> Gestión de la carga de trabajo de backoffice \> Centro de fabricación para el procesador de mensajes de la unidad de escala**.
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

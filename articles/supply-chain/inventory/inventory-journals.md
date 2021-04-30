@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826044"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910194"
 ---
 # <a name="inventory-journals"></a>Diarios de inventario
 
@@ -95,7 +95,7 @@ Las entidades de datos admiten los siguientes tipos de escenarios de integració
 -    Servicio sincrónico (OData)
 -  Integración asincrónica
 
-Para obtener más información, consulte [Entidades de datos](../../dev-itpro/data-entities/data-entities.md).
+Para obtener más información, consulte [Entidades de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
 > No todos los diarios de inventario están habilitados OData, por lo tanto no puede usar el conector de datos de Excel para obtener datos actualizados, publicados e importados de nuevo a Supply Chain Management. 
@@ -113,7 +113,7 @@ Estos dos diarios de inventario solo admiten el escenario *Inicializar existenci
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Entidades de datos](../../dev-itpro/data-entities/data-entities.md)
+[Entidades de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 59a421b5e81366845901c44486acb3dfa3781850
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753657"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894109"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Aplazar la ejecución de elementos de secuencia en formatos ER
 
@@ -42,7 +42,7 @@ La opción **Ejecución aplazada** no es aplicable a las secuencias que se han c
 
 ## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Ejemplo: aplazar la ejecución de un elemento de secuencia en formato ER
 
-Los siguientes pasos explican cómo un usuario con el [rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) de administrador del sistema o consultor funcional de informes electrónicos puede configurar un formato ER que contiene un elemento de secuencia donde el orden de ejecución difiere del orden de la jerarquía de formatos.
+Los siguientes pasos explican cómo un usuario con el [rol](../sysadmin/tasks/assign-users-security-roles.md) de administrador del sistema o consultor funcional de informes electrónicos puede configurar un formato ER que contiene un elemento de secuencia donde el orden de ejecución difiere del orden de la jerarquía de formatos.
 
 Estos pasos se pueden llevar a cabo en la empresa **USMF** de Microsoft Dynamics 365 Finance.
 

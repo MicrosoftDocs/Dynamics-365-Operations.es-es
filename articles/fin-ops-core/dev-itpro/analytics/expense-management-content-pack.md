@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743516"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893261"
 ---
 # <a name="expense-management-power-bi-content"></a>Contenidos de gestión de gastos de Power BI
 
@@ -41,7 +41,7 @@ Hay dos paquetes de contenido de Power BI disponibles para su uso con la gestió
 Todos los importes se muestran en la divisa de la empresa. Se muestran los datos de todas las empresas, pero si es necesario, puede agregar un filtro de empresa. 
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-Puede encontrar los contenidos del Expense Admin Dashboard.pbix y Expense Personal Dashboard.pbix Power BI en la bibilioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte Contenido de [Power BI en LCS en Microsoft y sus socios](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Puede encontrar los contenidos del Expense Admin Dashboard.pbix y Expense Personal Dashboard.pbix Power BI en la bibilioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte Contenido de [Power BI en LCS en Microsoft y sus socios](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 El contenido está disponible en el área de trabajo de gestión de gastos como contenido incrustado de Power BI. Cualquier propietario de gastos puede tener acceso a gastos personales para ellos mismos, mientras que sólo los vendedores y los administradores de los proveedores pueden acceder al contenido de la gestión de casos para ver los datos de gastos de todo el usuario.
 
 ## <a name="refreshing-the-power-bi-content"></a>Actualizar el contenido de Power BI

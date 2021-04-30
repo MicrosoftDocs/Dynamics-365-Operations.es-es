@@ -1,0 +1,69 @@
+---
+title: Detalles de nómina para puestos
+description: Este tema proporciona detalles y una consulta de ejemplo para la entidad de detalles de nóminas par las posiciones en Dynamics 365 Human Resources.
+author: jcart
+manager: tfehr
+ms.date: 04/07/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: jcart
+ms.search.validFrom: 2021-04-07
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: f6c4bb0e2f4521e8c870f6c4fb645e2ce506138c
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882068"
+---
+# <a name="payroll-position"></a>Puesto de nómina
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Este tema proporciona detalles y una consulta de ejemplo para la entidad de detalles de nóminas par las posiciones en Dynamics 365 Human Resources.
+
+## <a name="properties"></a>Propiedades
+
+| Propiedad<br>**Nombre físico**<br>**_Tipo_** | Utilizar | Descripción |
+| --- | --- | --- |
+| **Horas ordinarias anuales**<br>Horas regulares anuales<br>*Decimal* | Solo lectura<br>Obligatorio | Horas regulares anuales definidas en el puesto.  |
+| **Id de entidad de detalle de puesto de nómina**<br>Nómina posicióndetallesentidadid<br>*Guid* | Obligatorio<br>Generado por el sistema. | Valor GUID generado por el sistema para identificar el puesto de forma única.  |
+| **Campo primario**<br>mshr_primaryfield<br>*Cadena* | Obligatorio<br>Generado por el sistema |  |
+| **Valor de id. de trabajo de puesto**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_PayrollPositionJobEntity de la mshr_payrollpositionjobentity |Id. del trabajo asociado al puesto.|
+| **Valor de id. de plan de compensación fijo**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_FixedCompPlan_id de mshr_payrollfixedcompensationplanentity  | Id. del plan de compensación fijo asociado al puesto. |
+| **Id. de ciclo de pago**<br>mshr_primaryfield<br>*Cadena* | Solo lectura<br>Obligatorio | El ciclo de pago definido en la posición. |
+| **Pagado por la entidad jurídica**<br>paidbylegalentity<br>*Cadena* | Solo lectura<br>Obligatorio | La entidad legal definida en el puesto responsable de emitir el pago. |
+| **Id. de puesto**<br>mshr_positionid<br>*Cadena* | Solo lectura<br>Obligatorio | El id. del puesto. |
+| **Válido hasta**<br>validto<br>*Desplazamineto de fecha y hora* | Solo lectura<br>Obligatorio |La fecha desde la que son válidos los detalles del puesto.  |
+| **Válido desde**<br>validfrom<br>*Desplazamineto de fecha y hora* | Solo lectura<br>Obligatorio |La fecha hasta la que son válidos los detalles del puesto.  |
+
+**Consulta**
+
+**Solicitud**
+
+```http
+GET [Organizaton URI]/api/data/v9.1/mshr_payrollpositionentities?$filter=mshr_positionid eq @positionid and mshr_validfrom le @asofdate and mshr_validto ge @asofdate&@positionid='000276'&@asofdate=2021-04-01
+```
+
+**Respuesta**
+
+```json
+{
+            "mshr_positionid": "000276",
+            "mshr_paycycleid": "w",
+            "mshr_annualregularhours": 3000,
+            "mshr_paidbylegalentity": "USMF",
+            "mshr_validfrom": "2021-03-14T00:00:00Z",
+            "mshr_validto": "2154-12-31T00:00:00Z",
+            "mshr_primaryfield": "000276 | 3/14/2021",
+            "_mshr_fk_job_id_value": "00010094-0000-0000-df00-014105000000",
+            "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
+            "mshr_payrollpositionentityid": "00010097-0000-0000-df00-014105000000"
+}
+```

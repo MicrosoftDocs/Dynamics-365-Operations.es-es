@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841488"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910170"
 ---
 # <a name="automatic-allocation-of-charges"></a>Asignación automática de gastos
 
@@ -144,7 +144,7 @@ Una vez que haya configurado los códigos de gasto, siga estos pasos para defini
     - **Sitio** y **Almacén**: especifique un sitio y un almacén si los cargos deben aplicarse solo a un sitio y un almacén específicos.
     - **Conservar**: active esta casilla para conservar las transacciones de gastos tras la facturación, de modo que el gasto se pueda aplicar cada vez que se cree una nueva factura para la cuenta de cliente seleccionada.
 
-1. **Solo para pedidos de ventas:** Si desea calcular los gastos por niveles, consulte [Gastos por niveles en pedidos de ventas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) para obtener más información.
+1. **Solo para pedidos de ventas:** Si desea calcular los gastos por niveles, consulte [Gastos por niveles en pedidos de ventas](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) para obtener más información.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Asignar gastos del encabezado a una línea
 

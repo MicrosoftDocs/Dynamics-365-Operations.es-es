@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822766"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890785"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822766"
 
 Este tema muestra las actualizaciones normativas que se planifican y emiten en las ubicaciones admitidas por Dynamics 365 Finance. Las escalas de tiempo de entrega pueden cambiar, y la funcionalidad prevista puede cambiar o puede que no se publique. Para más información, consulte [Directiva de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Las actualizaciones normativas son características que se implementan para admitir la legislación nueva o modificada específica del país. Para obtener información adicional sobre otras características normativas planeadas y emitidas, consulte los [planes de lanzamiento de Dynamics 365 y Power Platform](https://docs.microsoft.com/business-applications-release-notes/index).
+Las actualizaciones normativas son características que se implementan para admitir la legislación nueva o modificada específica del país. Para obtener información adicional sobre otras características normativas planeadas y emitidas, consulte los [planes de lanzamiento de Dynamics 365 y Power Platform](/business-applications-release-notes/index).
 
 Microsoft se esfuerza en implementar las nuevas normas legales lo antes posible. La fecha de entrega real depende de la fecha de presentación de la ley, de la disponibilidad de los detalles del requisito de las autoridades locales, de la disponibilidad de las herramientas de validación y el tamaño y la complejidad del cambio.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810183"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897585"
 ---
 # <a name="dimension-hierarchy"></a>Jerarquía de dimensiones
 
@@ -331,7 +331,7 @@ Los valores para la jerarquía de listas de acceso se utilizan para controlar lo
     - Visualización de los datos de Power BI que se insertarán en el cliente de Dynamics 365 Finance
 
 > [!NOTE] 
-> - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La jerarquía de la lista de acceso no ayuda a proteger la exportación de datos a Excel. Por lo tanto, esa herramienta de informes solo se debe usar por contables y administradores de costes que deban tener acceso completo para ver los datos.
 
 

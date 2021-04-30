@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753585"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894085"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Diseñar una nueva configuración de ER para generar informes en formato Word
 
@@ -38,7 +38,7 @@ Para utilizar un documento de Word como plantilla para informes en formato Word,
 El componente de formato ER de la solución debe contener el elemento de formato **Excel\\Archivo**, y ese elemento de formato debe estar vinculado al documento de Word que se utilizará como plantilla para los informes generados en runtime. Para configurar el componente de formato ER, debe abrir el la versión de [borrador](general-electronic-reporting.md#component-versioning) de la configuración ER creada en el diseñador de formato ER. Después, agregue el elemento **Excel\\Archivo**, adjunte su plantilla de Word al formato ER editable y vincule esa plantilla al elemento **Excel\\Archivo** que agregó.
 
 > [!NOTE]
-> Cuando adjunte una plantilla manualmente, debe usar un [tipo de documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) que se haya [configurado](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) previamente para almacenar las plantillas de formatos ER.
+> Cuando adjunte una plantilla manualmente, debe usar un [tipo de documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) que se haya [configurado](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) previamente para almacenar las plantillas de formatos ER.
 
 ![Adjuntar una plantilla en la página del diseñador de formato](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ Puede agregar los elementos anidados **Excel\\Rango** y **Excel\\Celda** para el
 
 ![Agregar elementos anidados en la página del diseñador de formato](./media/er-design-configuration-word-image4.gif)
 
-Cuando guarda sus cambios en el formato ER a la hora de diseñar, la estructura jerárquica del formato se almacena en la plantilla de Word adjunta como un [elemento XML personalizado](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) que se llama **Informe**. Debe acceder a la plantilla modificada, descargarla de Finance, almacenarla localmente y abrirla en la aplicación de escritorio de Word. La siguiente ilustración muestra la plantilla de ejemplo almacenada localmente para el informe de control que contiene el elemento XML personalizado **Informe**.
+Cuando guarda sus cambios en el formato ER a la hora de diseñar, la estructura jerárquica del formato se almacena en la plantilla de Word adjunta como un [elemento XML personalizado](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) que se llama **Informe**. Debe acceder a la plantilla modificada, descargarla de Finance, almacenarla localmente y abrirla en la aplicación de escritorio de Word. La siguiente ilustración muestra la plantilla de ejemplo almacenada localmente para el informe de control que contiene el elemento XML personalizado **Informe**.
 
 ![Obtener una vista previa de la plantilla de informe de ejemplo en la aplicación de escritorio de Word](./media/er-design-configuration-word-image5.gif)
 
-Cuando los enlaces de los elementos de formato **Excel\\Rango** y **Excel\\Celda** se ejecutan en runtime, los datos que entrega cada enlace entran en el documento de Word generado como un campo individual del elemento XML personalizado **Informe**. Para introducir los valores de los campos del elemento XML personalizado en un documento generado, debe agregar los [controles de contenido](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) de Word apropiados a su plantilla de Word para que sirvan como marcadores de posición para los datos que se completarán en runtime. Para especificar cómo se completan los controles de contenido, asigne cada control de contenido al campo apropiado del elemento XML personalizado **Informe**.
+Cuando los enlaces de los elementos de formato **Excel\\Rango** y **Excel\\Celda** se ejecutan en runtime, los datos que entrega cada enlace entran en el documento de Word generado como un campo individual del elemento XML personalizado **Informe**. Para introducir los valores de los campos del elemento XML personalizado en un documento generado, debe agregar los [controles de contenido](/office/client-developer/word/content-controls-in-word) de Word apropiados a su plantilla de Word para que sirvan como marcadores de posición para los datos que se completarán en runtime. Para especificar cómo se completan los controles de contenido, asigne cada control de contenido al campo apropiado del elemento XML personalizado **Informe**.
 
 ![Agregar y asignar controles de contenido en la aplicación de escritorio de Word](./media/er-design-configuration-word-image6.gif)
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791542"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892284"
 ---
 # <a name="update-process"></a>Actualizar proceso
 
@@ -39,7 +39,7 @@ Las actualizaciones se lanzan en una cadencia regular en todos los entornos. Hum
 
 Las actualizaciones de Human Resources se aplican a todos los entornos automáticamente. Human Resources proporciona dos tipos de lanzamientos:
 
-- **Actualizaciones de servicio**: las actualizaciones se producen cada dos semanas e incluyen correcciones de errores y nuevas características. Las actualizaciones de servicio también incluyen actualizaciones de plataforma aplicables cuando se lanzan. Para tener una idea de cuándo se lanzan las actualizaciones de la Plataforma, vea [Tabla 3: Lanzamientos de plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Las actualizaciones quincenales tienen una implementación global por etapas en todas las regiones. Para obtener más información sobre las actualizaciones quincenales, vea [Novedades o cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Actualizaciones de servicio**: las actualizaciones se producen cada dos semanas e incluyen correcciones de errores y nuevas características. Las actualizaciones de servicio también incluyen actualizaciones de plataforma aplicables cuando se lanzan. Para tener una idea de cuándo se lanzan las actualizaciones de la Plataforma, vea [Tabla 3: Lanzamientos de plataforma](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). Las actualizaciones quincenales tienen una implementación global por etapas en todas las regiones. Para obtener más información sobre las actualizaciones quincenales, vea [Novedades o cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Todos los centros de datos compatibles se actualizan cada dos semanas, a menos que se indique lo contrario. Las regiones de EE. UU., Australia, Europa, Reino Unido, Asia y Canadá se incluyen en las actualizaciones quincenales. 
 
@@ -71,11 +71,11 @@ Puede averiguar qué se está trabajando para Recursos Humanos y qué hemos publ
 
 - [Hoja de ruta de Dynamics 365 Human Resources](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Planes de la versión de Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Planes de la versión de Dynamics 365](/dynamics365/release-plans/)
 
 - [Novedades y cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [Búsqueda de problemas en Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (solo para errores relacionados con la plataforma)
+- [Búsqueda de problemas en Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (solo para errores relacionados con la plataforma)
 
 - [Blog de Human Resources](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ Puede averiguar qué se está trabajando para Recursos Humanos y qué hemos publ
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Vista previa de características en un entorno sandbox
 
-Puede validar las funciones de vista previa en un entorno de espacio aislado antes de habilitarlas en su entorno de producción. Para obtener más información acerca de la activación nuevas características, consulte [Visión general de la Administración de características](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Puede validar las funciones de vista previa en un entorno de espacio aislado antes de habilitarlas en su entorno de producción. Para obtener más información acerca de la activación nuevas características, consulte [Visión general de la Administración de características](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Todas las características nuevas siguen en versión preliminar durante al menos 30 días como mínimo, y normalmente 30-60 días. Las características más importantes están disponibles en octubre y abril de cada año tras el periodo de prueba preliminar. En cuanto vea características nuevas en el espacio de trabajo Administración de características, puede activarlas. Algunas características pueden estar activadas de forma predeterminada.
 
@@ -101,9 +101,9 @@ Mientras prueba las funciones de vista previa o prueba nuevas capacidades, puede
 
 ## <a name="see-also"></a>Consulte también
 
-[Planes de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Planes de la versión de Dynamics 365 y Power Platform](/dynamics365/release-plans)</br>
 [Novedades y cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
-[Directiva del ciclo de vida del software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Directiva del ciclo de vida del software](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

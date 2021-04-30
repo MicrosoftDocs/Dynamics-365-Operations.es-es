@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840061"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894892"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Comenzar con la facturación electrónica para México
 
@@ -86,7 +86,7 @@ Puede crear una nueva versión si, por ejemplo, se deben actualizar las URL. Par
 
     ![Abrir la página Diseñador de formato](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. Utilice la página **Diseñador de formatos** para editar y ver las configuraciones de archivo del formato ER. Para obtener más información, consulte [Crear configuraciones de documentos electrónicos](../../dev-itpro/analytics/electronic-reporting-configuration.md).
+3. Utilice la página **Diseñador de formatos** para editar y ver las configuraciones de archivo del formato ER. Para obtener más información, consulte [Crear configuraciones de documentos electrónicos](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Página de diseñador de formato](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
@@ -161,7 +161,7 @@ Para configurar la facturación electrónica en Finance, completará estas tarea
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>Importe el modelo de datos ER, el mapeo del modelo de datos ER y las configuraciones de contexto para facturas CFDI
 
 1. Iniciar sesión en Finance.
-2. En el espacio de trabajo **Informes electrónicos**, en la sección **Proveedores de configuración**, seleccione el título **Microsoft**. Asegúrese de que este proveedor de configuración esté establecido en **Activo**. Para obtener más información sobre cómo establecer un proveedor en **Activo**, vea [Crear proveedores de la configuración y marcarlos como activos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. En el espacio de trabajo **Informes electrónicos**, en la sección **Proveedores de configuración**, seleccione el título **Microsoft**. Asegúrese de que este proveedor de configuración esté establecido en **Activo**. Para obtener más información sobre cómo establecer un proveedor en **Activo**, vea [Crear proveedores de la configuración y marcarlos como activos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Seleccione **Repositorios**.
 4. Seleccione **Recurso global \> Abierto**.
 5. Importe **Modelo de factura**, **Mapeo del modelo de factura**, **Formato de factura CFDI (MX)**, **Formato de solicitud de cancelación de factura CFDI (MX)** y **Formato de cancelación de factura CFDI (MX)**.
@@ -215,7 +215,7 @@ Durante el procesamiento de facturas CFDI en Finance a través de facturación e
 Después de activar la característica **Integración configurable de facturación electrónica**, el proceso **Exportar/Importar factura electrónica** (**Clientes \> Facturas \> Facturas electrónicas**) para enviar facturas CFDI ya no se puede utilizar. Es reemplazado por un nuevo proceso que se llama **Presentar documentos electrónicos**.
 
 > [!NOTE]
-> Antes de usar el nuevo proceso **Presentar documentos electrónicos**, verifique que se haya completado la configuración requerida para las facturas electrónicas mexicanas. Para obtener más información acerca de la conversión, consulte [Versión de diseño CFDI 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Antes de usar el nuevo proceso **Presentar documentos electrónicos**, verifique que se haya completado la configuración requerida para las facturas electrónicas mexicanas. Para obtener más información acerca de la conversión, consulte [Versión de diseño CFDI 3.3](./latam-mex-cfdi-3-3.md).
 
 1. Vaya a **Administración de la organización \> Periódico \> Documentos electrónicos \> Presentar documentos electrónicos**.
 2. Para el primer envío de cualquier documento, establezca siempre la opción **Reenviar documentos** en **No**. Si debe volver a enviar un documento a través del servicio, configure esta opción en **Sí**.

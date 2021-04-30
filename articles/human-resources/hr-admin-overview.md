@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801152"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889773"
 ---
 # <a name="administration-overview"></a>Visión general de la administración
 
@@ -46,10 +46,10 @@ Esta Guía del administrador lo ayuda a configurar, administrar y solucionar pro
   - [Configurar la integración con Dayforce](hr-admin-integration-dayforce.md)
   - [Crear una aplicación de exportación de datos periódica](hr-admin-integration-recurring-data-export.md)
   - Integrar con Office
-    - [Tutorial de integración con Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Actualizar los datos de la entidad en Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Crear experiencias de tipo Abrir en Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Solución de problemas de la integración con Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Tutorial de integración con Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Actualizar los datos de la entidad en Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Crear experiencias de tipo Abrir en Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Solución de problemas de la integración con Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Administrar características](hr-admin-manage-features.md)
 
@@ -84,7 +84,7 @@ Esta Guía del administrador lo ayuda a configurar, administrar y solucionar pro
   - [Crear documentación o formación con el Grabador de tareas](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Solución de problemas de Human Resources
-  - [Obtener soporte](hr-admin-troubleshooting-support.md)
+  - [Obtener soporte](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Optimizar el rendimiento con tareas automáticas de limpieza](hr-admin-troubleshooting-batch-history.md)
   - [Los informes de análisis no están actualizados](hr-admin-troubleshooting-analytic-reports.md)
   - [No se puede crear un entorno en el centro de administración de Power Apps](hr-admin-troubleshooting-power-apps.md)

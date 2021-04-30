@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818569"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898069"
 ---
 # <a name="finance-insights-home-page-preview"></a>Página de inicio de información financiera (versión preliminar)
 
@@ -31,7 +31,7 @@ Finance Insights proporciona modelos configurables y extensibles para ayudarle a
 
 La versión preliminar de Finance Insights está disponible para implementaciones de prueba en los Estados Unidos de América, Europa y el Reino Unido. Microsoft está agregando gradualmente soporte para más regiones.
 
-Las características en vista previa (GB) pueden y deben activarse solo en entornos de espacio aislado de nivel 2. Los modelos de configuración e inteligencia artificial (IA) que se crean en un entorno de espacio aislado no se pueden migrar a un entorno de producción. Para más información, consulte [Condiciones de uso suplementarias para Vistas previas de Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Las características en vista previa (GB) pueden y deben activarse solo en entornos de espacio aislado de nivel 2. Los modelos de configuración e inteligencia artificial (IA) que se crean en un entorno de espacio aislado no se pueden migrar a un entorno de producción. Para más información, consulte [Condiciones de uso suplementarias para Vistas previas de Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -43,7 +43,7 @@ Para solicitar el programa de vista previa, complete el [Contrato de Finance ins
 
 ### <a name="system-requirements"></a>Requisitos del sistema
 
-Se requiere un entorno de espacio aislado de nivel 2 (caja múltiple) para obtener una vista previa de la información financiera. Para información general sobre los entornos, consulte [Planificación de entornos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
+Se requiere un entorno de espacio aislado de nivel 2 (caja múltiple) para obtener una vista previa de la información financiera. Para información general sobre los entornos, consulte [Planificación de entornos](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Requisitos de las versiones
 
@@ -79,7 +79,7 @@ Deberá crear un proyecto integrador de datos para que los datos que genera el m
 Cuando haya completado los pasos de configuración y haya configurado los datos de demostración, debe activar y configurar cada capacidad que planea usar: predicciones de pago de clientes, pronóstico de flujo de efectivo y propuestas de presupuesto.
 
 ### <a name="enable-customer-payment-predictions"></a>Habilitar las predicciones de pago de clientes
-Si está utilizando datos de demostración para probar las predicciones de pago de los clientes, es posible que deba importar datos de demostración adicionales para crear su modelo de IA correctamente. Para conocer los pasos específicos para importar datos de demostración, consulte [Configurar datos de demostración para predicciones de pago](set-up-demo-data.md).
+Si está utilizando datos de demostración para probar las predicciones de pago de los clientes, es posible que deba importar datos de demostración adicionales para crear su modelo de IA correctamente. 
 
 Para habilitar las predicciones de pago de clientes, debe completar un conjunto de pasos para crear un modelo de Machine Learning que use los datos de su organización para generar predicciones sobre cuándo es probable que los clientes paguen facturas pendientes y cuándo es probable que se paguen facturas específicas. Para obtener más información y los pasos específicos para completarlo, consulte [Habilitar las predicciones de pago de los clientes](enable-cust-paymnt-prediction.md). 
 

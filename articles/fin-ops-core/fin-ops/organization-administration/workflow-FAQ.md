@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747210"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890366"
 ---
 # <a name="workflow-faq"></a>Preguntas frecuentes sobre flujos de trabajo
 
@@ -45,9 +45,9 @@ A continuación se muestran algunas áreas fundamentales a tener en cuenta para 
     - En una actualización futura, agregaremos un mensaje del Centro de actividades para que se asigne a un usuario un elemento de trabajo del flujo de trabajo. 
 - Agregar notificaciones a flujos de trabajo
     - Se pueden crear mensajes del Centro de actividades para determinados usuarios, como un mensaje creado desde un flujo de trabajo en X++.
-    - [Los flujos de trabajo tienen eventos de negocio](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que el cliente podría utilizar para activar los flujos que tienen las notificaciones que está buscando.   
+    - [Los flujos de trabajo tienen eventos de negocio](../../dev-itpro/business-events/business-events-workflow.md) que el cliente podría utilizar para activar los flujos que tienen las notificaciones que está buscando.   
 
-En resumen, si un usuario no obtiene la notificación adecuada del Centro de actividades cuando se le asigna un elemento de trabajo del flujo de trabajo, utilice [Eventos de negocio del flujo de trabajo](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Power Automate para proporcionar notificaciones adicionales o distintas.
+En resumen, si un usuario no obtiene la notificación adecuada del Centro de actividades cuando se le asigna un elemento de trabajo del flujo de trabajo, utilice [Eventos de negocio del flujo de trabajo](../../dev-itpro/business-events/business-events-workflow.md) con Microsoft Power Automate para proporcionar notificaciones adicionales o distintas.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>¿Por qué el editor de flujo de trabajo no puede iniciarse en AD FS?
 Cuando el editor de flujo de trabajo se ejecuta con los Servicios de federación de Active Directory (AD FS) en un entorno actualizado, es posible que tenga problemas para iniciarse. Si es así, asegúrese de agregar la dirección URL " https://dynamicsaxworkfloweditor/" a la propiedad **Microsoft Dynamics 365 for Operations On-premises - Flujo de trabajo - Aplicación nativa** en la configuración de ADFS.

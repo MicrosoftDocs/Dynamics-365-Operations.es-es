@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832403"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899176"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832403"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Ejecución de almacén en unidades de escala
 
-Esta característica permite que las unidades de báscula ejecuten procesos seleccionados de las capacidades de administración del almacén. Las unidades de escala en la nube ejecutan sus cargas de trabajo en la nube utilizando capacidad de procesamiento dedicada en su región de Microsoft Azure. Para las unidades de escala de borde, puede ejecutar algunas cargas de trabajo de forma independiente en las instalaciones, incluso cuando las unidades de escala están desconectadas temporalmente de la nube.
+Esta característica permite que las unidades de báscula ejecuten procesos seleccionados de las capacidades de administración del almacén.
 
 En este tema, las ejecuciones de gestión de almacenes en un almacén que se define como una unidad de escala se conocen como *Sistema de ejecución de almacén* (*WES*).
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Debe tener un centro de Dynamics 365 Supply Chain Management y una unidad de escala que se ha implementado con la carga de trabajo de gestión del almacén. Para más información sobre la arquitectura y el proceso de implementación, vea [Unidades de escalado en la nube y en el perímetro para cargas de trabajo de gestión de almacenes y fabricación](cloud-edge-landing-page.md).
+Debe tener un centro de Dynamics 365 Supply Chain Management y una unidad de escala que se ha implementado con la carga de trabajo de gestión del almacén. Para más información sobre la arquitectura y el proceso de implementación, vea [Usar unidades de escalado para aumentar la resilicencia para las cargas de trabajo de Supply Chain Management](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Cómo funciona la carga de trabajo de WES en unidades de escala
 
@@ -297,6 +297,8 @@ En la carga de trabajo, en unidades de escalado, puede gestionar los siguientes 
 - Procesar registros de tabla de oleada
 - Procesador de mensajes del centro de almacén a la unidad de escalado
 - Procesar solicitudes de actualización de cantidad para líneas de pedido de almacén
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

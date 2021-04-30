@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ce06a0ce4f2a308e1917ac2c7cbc66f0494a2ec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811519"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897341"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Referencias a facturas originales en notas de crédito
 
@@ -30,7 +30,7 @@ En algunos países y regiones, existe un requisito legal de que las notas de cr�
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-- En espacio de trabajo **Administración de características**, active la característica **Diseño de facturación de crédito para informes de facturas de ventas y proyectos**. Para más información, consulte [Resumen de administración de funciones](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- En espacio de trabajo **Administración de características**, active la característica **Diseño de facturación de crédito para informes de facturas de ventas y proyectos**. Para más información, consulte [Resumen de administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Los formatos imprimibles de los documentos necesarios deben configurarse en la Administración de impresión.
 
 La funcionalidad que se describe en este tema se aplica a los siguientes documentos:

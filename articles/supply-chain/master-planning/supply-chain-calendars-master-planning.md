@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841776"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908380"
 ---
 # <a name="calendars-and-master-planning"></a>Calendarios y planificación maestra
 
@@ -90,7 +90,7 @@ Para indicar las fechas en que un cliente puede aceptar entregas, puede asignar 
 
 Tenga en cuenta que solo es posible incluir un calendario por cliente. Si necesita incluir un calendario para cada dirección diferente para un cliente, puede crear un cliente por dirección y asignarle su calendario respectivo. 
 
-La fecha de recepción solicitada en las líneas de pedido de ventas se verá afectada por el calendario de cliente y por el método de control de fecha de entrega. Puede leer más sobre cómo se calcula la fecha de entrega más temprana en [Compromisos de pedidos.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+La fecha de recepción solicitada en las líneas de pedido de ventas se verá afectada por el calendario de cliente y por el método de control de fecha de entrega. Puede leer más sobre cómo se calcula la fecha de entrega más temprana en [Compromisos de pedidos.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Calendario de envíos para una entidad jurídica
 Para indicar las fechas en las que una entidad jurídica puede enviar mercancías, puede configurar un calendario de envío en **Administración de la organización > organizaciones > entidades jurídicas**. Seleccione la entidad jurídica y agregue el calendario en la pestaña **Comercio exterior y logística** en el campo **Calendario de envío**. El calendario de envío hará de origen de los valores predeterminados para todos los calendarios de almacén en la entidad jurídica. 

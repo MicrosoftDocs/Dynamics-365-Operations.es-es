@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: df2c55a8a69efa20c6d8c41e97c9e1f80ee1640d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795150"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892762"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Prepararse para poner en marcha Human Resources
 
@@ -43,7 +43,7 @@ En la tabla siguiente se enumeran todos los pasos del proceso y se especifican l
 | 2 | Completar y enviar la lista de comprobación | Después de que se haya completado la prueba de aceptación de usuarios (UAT). | Partner/Cliente | Siga las instrucciones proporcionadas en [Evaluación de la puesta en marcha de FastTrack](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | Evaluación de proyectos (FastTrack) | Arquitecto de FastTrack* | El arquitecto asesora después de que se reciba la lista de comprobación y continúa con la revisión hasta que se aclaren las preguntas y se implementen las mitigaciones, si corresponde. |
 | 4 | Taller de proyectos (FastTrack) | Arquitecto de FastTrack* | |
-| 5 | Importaciones de paquetes de datos | Depende del proyecto | Partner/Cliente | Siga las instrucciones de [Visión general de la administración de datos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | Importaciones de paquetes de datos | Depende del proyecto | Partner/Cliente | Siga las instrucciones de [Visión general de la administración de datos](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | Preparado para producción | Una vez que se hayan completado todos los pasos anteriores | Partner/Cliente | El partner/cliente puede tomar el control del entorno de producción.|
 | 7 | Actividades de transferencia | Depende del proyecto | Partner/Cliente | |
 | 8 | Puesta en marcha | Depende del proyecto | Cliente  | |
@@ -66,7 +66,7 @@ Durante la fase de UAT, debe probar todos los procesos comerciales que ha implem
 
 - Recomendamos que su proceso de UAT comience con un entorno limpio y fresco donde los datos de su configuración GOLD se copien en el entorno antes del inicio del proceso de UAT. Le recomendamos que utilice el entorno de producción como su entorno GOLD hasta la puesta en marcha, momento en el que el entorno se convierte en producción.
 - Los casos de prueba cubren todo el ámbito de los requisitos. 
-- Pruebe a utilizar datos migrados. Estos datos deben incluir datos maestros, como trabajadores, trabajos y puestos. También incluya los saldos iniciales, como la acumulación de bajas y ausencias. Por último, incluya transacciones abiertas, como inscripciones a las prestaciones actuales. Realice pruebas con todo tipo de datos, aunque el conjunto de datos no esté finalizado. 
+- Pruebe a utilizar datos migrados. Estos deben incluir datos como de trabajadores, trabajos y puestos. También incluya los saldos iniciales, como la acumulación de bajas y ausencias. Por último, incluya transacciones abiertas, como inscripciones a las prestaciones actuales. Realice pruebas con todo tipo de datos, aunque el conjunto de datos no esté finalizado. 
 - Pruebe a utilizar los roles de seguridad correctos (roles predeterminados y roles personalizados) que se asignan a los usuarios. 
 - Asegúrese de que la solución cumpla con los requisitos reglamentarios específicos de la empresa y la industria. 
 - Documente todas las funciones y obtenga la aprobación y el visto bueno del cliente. 
@@ -86,7 +86,7 @@ Antes de la puesta en marcha, debe realizar una simulación de la puesta en marc
 
 ## <a name="fasttrack-go-live-assessment"></a>Evaluación de puesta en marcha de FastTrack
 
-Los clientes aptos para FastTrack que estén trabajando con un arquitecto de soluciones FastTrack completarán una revisión de la puesta en marcha con Microsoft FastTrack. Para obtener más información, consulte  [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+Los clientes aptos para FastTrack que estén trabajando con un arquitecto de soluciones FastTrack completarán una revisión de la puesta en marcha con Microsoft FastTrack. Para obtener más información, consulte  [Microsoft FastTrack](/dynamics365/fasttrack/). 
 
 Aproximadamente ocho semanas antes de la puesta en marcha, el equipo de FastTrack le pedirá que rellene un [Lista de comprobación de puesta en marcha](https://go.microsoft.com/fwlink/?linkid=2146013).
 

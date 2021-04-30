@@ -2,11 +2,11 @@
 title: Propuesta de finalización de arrendamiento
 description: Este tema explica cómo proponer la rescisión de un arrendamiento.
 author: moaamer
-ms.date: 1/14/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AssetLease
+ms.search.form: AssetLeaseTerminateLeaseListPage
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e303821bd41751cb0a07442613b8b20e8061b052
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b32f9e8f80827e04269ac8cb6a4fbb5a13af8bc
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819875"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881117"
 ---
 # <a name="propose-a-lease-for-termination"></a>Proponer un arrendamiento para su rescisión
 

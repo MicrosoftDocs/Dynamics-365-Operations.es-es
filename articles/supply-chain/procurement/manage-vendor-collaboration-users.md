@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22a372ad4bfcae4a1d66635921a680cdb04cc2f0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1231c942e2ab3dd6b48655ac8c6e24c87165c009
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840856"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908552"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestionar usuarios de colaboración de proveedor
 
@@ -62,7 +62,7 @@ Para poder solicitar el aprovisionamiento de un nuevo usuario, esa persona debe 
 4. En la sección **Asignar roles de usuario**, seleccione la casilla **Asignar** para los roles de seguridad que debe tener el nuevo usuario.
 5. Haga clic en **Enviar**.
 
-Cuando se envíe la solicitud de usuario proveedor, el campo **Acceso a la colaboración de proveedor permitido** se establece en **Sí** para la cuenta de proveedor seleccionada y se inicia un flujo de trabajo de solicitud del usuario. Como parte del flujo de trabajo, se crea un nuevo usuario en y se asignan los roles de seguridad. Además, el servicio Azure B2B que inicia la interacción con el portal Azure se activa y se asocia a una cuenta nueva o existente de AAD con la cuenta de usuario de Supply Chain Management. Para obtener más información, consulte [¿Qué es la colaboración B2B de Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Cuando se envíe la solicitud de usuario proveedor, el campo **Acceso a la colaboración de proveedor permitido** se establece en **Sí** para la cuenta de proveedor seleccionada y se inicia un flujo de trabajo de solicitud del usuario. Como parte del flujo de trabajo, se crea un nuevo usuario en y se asignan los roles de seguridad. Además, el servicio Azure B2B que inicia la interacción con el portal Azure se activa y se asocia a una cuenta nueva o existente de AAD con la cuenta de usuario de Supply Chain Management. Para obtener más información, consulte [¿Qué es la colaboración B2B de Azure AD?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Desactivar un usuario
 

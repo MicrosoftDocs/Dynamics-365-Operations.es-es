@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840229"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893811"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Crear una cuenta de almacenamiento en Azure y un almacén de claves
 
@@ -30,8 +30,8 @@ ms.locfileid: "5840229"
 
 Antes de que pueda completar los pasos de este tema, debe asegurarse de que se han completado las tareas siguientes:
 
-- Crear un recurso de almacén de claves en Azure. Para obtener información, vea [Acerca de Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview).
-- Cree una cuenta de Azure Storage (Blob Storage). Para más información, vea [Mantenimiento de la cuenta de Azure Storage](https://docs.microsoft.com/azure/storage/blobs/).
+- Crear un recurso de almacén de claves en Azure. Para obtener información, vea [Acerca de Azure Key Vault](/azure/key-vault/general/overview).
+- Cree una cuenta de Azure Storage (Blob Storage). Para más información, vea [Mantenimiento de la cuenta de Azure Storage](/azure/storage/blobs/).
 
 ## <a name="overview"></a>Información general
 
@@ -83,4 +83,3 @@ En este tema, completará dos pasos principales:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

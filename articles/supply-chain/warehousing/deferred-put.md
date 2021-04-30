@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838331"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908020"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Procesamiento aplazado de trabajo de almacén
 
@@ -28,7 +28,7 @@ En este tema se describe la funcionalidad que crea el procesamiento diferido de 
 
 La funcionalidad de procesamiento diferido permite a trabajadores de almacén seguir realizando otros trabajos mientras se procesa la operación de colocación en segundo plano. El procesamiento diferido es útil cuando hay que procesar muchas líneas de trabajo y el trabajador puede dejar que ese trabajo se procese de forma asincrónica. También resulta útil si puede haber aumentos ad hoc o imprevistos de tiempo de procesamiento en el servidor y ese aumento del tiempo de procesamiento puede afectar a la productividad del usuario.
 
-El procesamiento en segundo plano se consigue con el marco de SysOperation. Para obtener más información, consulte [Información general sobre el marco SysOperation](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+El procesamiento en segundo plano se consigue con el marco de SysOperation. Para obtener más información, consulte [Información general sobre el marco SysOperation](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Configurar las directivas de procesamiento de trabajo
 

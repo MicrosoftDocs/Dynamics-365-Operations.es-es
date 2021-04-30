@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751241"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893587"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de informes electrónicos dependientes de acciones
 
@@ -60,7 +60,7 @@ Si selecciona tipo de documento **Cualquiera**, se selecciona automáticamente *
     - Cuando la acción **Enviar** se proporciona en runtime, se aplica el destino de informes electrónicos **Correo electrónico**.
     - Cuando la acción **Imprimir** se proporciona en runtime, se aplica el destino de informes electrónicos **Impresora**.
 
-Por ejemplo, puede utilizar el formato de informes electrónicos **Factura de servicios (Excel)** para imprimir una [factura de servicios](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) cuando lo publique. Para dirigir un documento generado, debe configurar destinos de informes electrónicos para este formato de informes electrónicos. Por ejemplo, es posible que deba configurar estos destinos de informes electrónicos para realizar lo siguiente en un documento generado:
+Por ejemplo, puede utilizar el formato de informes electrónicos **Factura de servicios (Excel)** para imprimir una [factura de servicios](../../../finance/accounts-receivable/create-free-text-invoice-new.md) cuando lo publique. Para dirigir un documento generado, debe configurar destinos de informes electrónicos para este formato de informes electrónicos. Por ejemplo, es posible que deba configurar estos destinos de informes electrónicos para realizar lo siguiente en un documento generado:
 
 - Archivar el documento si se ejecuta el formato de informes electrónicos pero no se proporciona ningún código de acción (por ejemplo, cuando el documento se envía electrónicamente).
 - Obtener una vista preliminar del documento en un navegador web cuando un usuario realiza la acción **Ver**.
@@ -82,7 +82,7 @@ La siguiente ilustración muestra cómo puede lograr lo mismo de forma alternati
 
 Cuando se ejecuta un formato de informes electrónicos, si las acciones del usuario han sido aprovisionadas por usuarios que tienen los [permisos](electronic-reporting-destinations.md#security-considerations) adecuados para cambiar la configuración de destino configurada en runtime, aparece un cuadro de diálogo que ofrece la opción de cambiar la configuración de destino configurada. Este cuadro de diálogo es opcional y su apariencia depende de cómo se haya implementado la llamada que hace el marco de informes electrónicos para ejecutar un formato de informes electrónicos. Si aparece este cuadro de diálogo, los destinos de informes electrónicos en él se habilitarán de acuerdo con la acción del usuario que se proporcione.
 
-La siguiente ilustración muestra un ejemplo del cuadro de diálogo **Destinos de formato de informes electrónicos** que aparece cuando se [publica](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) una factura de servicios y el formato de informes electrónicos **Factura de servicios (Excel)** se ejecuta para generar este documento si se ha proporcionado la acción **Impresora** y los destinos de informes electrónicos se configuraron para este formato, como se mostró anteriormente en este tema.
+La siguiente ilustración muestra un ejemplo del cuadro de diálogo **Destinos de formato de informes electrónicos** que aparece cuando se [publica](../../../finance/accounts-receivable/create-free-text-invoice-new.md) una factura de servicios y el formato de informes electrónicos **Factura de servicios (Excel)** se ejecuta para generar este documento si se ha proporcionado la acción **Impresora** y los destinos de informes electrónicos se configuraron para este formato, como se mostró anteriormente en este tema.
 
 ![Cuadro de diálogo que ofrece la opción de cambiar los destinos de informes electrónicos configurados inicialmente para el formato de informes electrónicos en ejecución](./media/er-destination-action-dependent-02.gif)
 

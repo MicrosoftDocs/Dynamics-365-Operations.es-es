@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5051bbf9e550add6a0cfc5e23f3aeb7b379ef03
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9a285e3c60df713ceaee1fae72b2a1d54fa5c431
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789645"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890756"
 ---
 # <a name="performance-management"></a>Gestión del rendimiento
 
@@ -93,7 +93,7 @@ También puede usar la sección **Capacidades** para discutir, revisar y calific
 
 Puede crear nuevas evaluaciones basadas en plantillas que ha creado. Por ejemplo, puede tener una plantilla para reuniones de uno en uno, planes de desarrollo o evaluaciones periódicas. Puede seleccionar la plantilla al crear una nueva evaluación.
 
-Para imprimir revisiones, seleccione el botón **Imprimir revisión**. Si no ve el botón en la página **Revisión**, asegúrese de que ha habilitado la característica en el espacio de trabajo **Administración de características**. Para obtener más información acerca de la administración de características, consulte [Visión general de la Administración de características](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Para imprimir revisiones, seleccione el botón **Imprimir revisión**. Si no ve el botón en la página **Revisión**, asegúrese de que ha habilitado la característica en el espacio de trabajo **Administración de características**. Para obtener más información acerca de la administración de características, consulte [Visión general de la Administración de características](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
 > La capacidad de imprimir evaluaciones de rendimiento solo está disponible en Human Resources. No está disponible en Dynamics 365 Finance.

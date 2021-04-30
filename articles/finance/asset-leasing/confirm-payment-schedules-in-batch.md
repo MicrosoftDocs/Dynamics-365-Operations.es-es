@@ -2,11 +2,11 @@
 title: Confirmar programaciones de pago de arrendamiento de activos en un lote
 description: Este tema explica cómo confirmar varias programaciones de pago en un lote.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeasePaymConfirmationDetails
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9a3bd7293fed4b8df5d7bd76edacbcae253aa1f5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eaff604b92c412cd35c5c2aeadb2d9ed8dc77706
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816085"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881261"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>Confirmar programaciones de pago de arrendamiento de activos en un lote
 

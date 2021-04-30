@@ -16,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803498"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891063"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Configurar los componentes de un trabajo
 
@@ -86,7 +86,7 @@ Se mantienen las tareas de trabajo mediante la página **Tareas de trabajo**. En
 Use las áreas de responsabilidad para indicar los roles de trabajo, los procesos y los productos de los que sería responsable un trabajador en un puesto para dicho trabajo. Un ejemplo de área de responsabilidad para un trabajo denominado "Contable" podría ser "Informes financieros del producto A". Las áreas de responsabilidad se mantienen mediante la página **Áreas de responsabilidad** que puede encontrar mediante la función de búsqueda. En la página **Áreas de responsabilidad**, especifique un nombre y una descripción para la responsabilidad. En el campo **Nota** puede especificar información adicional opcionalmente. Las notas se pueden actualizar para un trabajo específico sin cambiar las notas que ha especificado aquí.
 
 ## <a name="steps-for-creating-a-job"></a>Pasos para crear un trabajo
-Consulte el artículo [Definir nuevos trabajos](../fin-and-ops/hr/tasks/define-new-jobs.md) para informarse del procedimiento detallado para crear un nuevo trabajo. 
+Consulte el artículo [Definir nuevos trabajos](./hr-personnel-define-jobs.md) para informarse del procedimiento detallado para crear un nuevo trabajo. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

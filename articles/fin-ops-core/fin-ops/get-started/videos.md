@@ -2,7 +2,7 @@
 title: Vídeos
 description: Esta página enumera vídeos de "procedimientos" y de charlas técnicas relacionados con aplicaciones de Finance and Operations que están disponibles en YouTube y otros sitios.
 author: sericks007
-ms.date: 02/11/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754713"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881745"
 ---
 # <a name="videos"></a>Vídeos 
 
@@ -84,6 +84,9 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 
 ## <a name="videos-for-dynamics-365-finance"></a>Vídeos para Dynamics 365 Finance
 
+### <a name="business-document-management"></a>Administración de documentos empresariales
+- [Crear un nuevo documento comercial mediante la Administración de documentos empresariales](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>Personalizar la aplicación
 - [Agregar campos personalizados](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Insertar Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -108,10 +111,13 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 
 ### <a name="tax-engine"></a>Motor de impuestos
 
-- [Visión general del motor de impuestos](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
+- [Información general del motor de impuestos](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Vídeos para Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>Administración de documentos empresariales
+- [Crear un nuevo documento comercial mediante la Administración de documentos empresariales](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Costes
 - [Espacio de trabajo móvil de control de costes](https://youtu.be/imsuTg8rUVk)

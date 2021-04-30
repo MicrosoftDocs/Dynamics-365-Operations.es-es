@@ -13,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a95dd6caf01e2c1079d6d9690b52e9ef65d87ea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0df3f840162cf93c9e9f5f34a22e8b49171ea71f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839966"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891167"
 ---
 # <a name="import-iso20022-files"></a>Importar archivos ISO20022
 
@@ -114,7 +114,7 @@ Al importar una configuración del formato de LCS, se importa el árbol entero d
  - **Pain.002** este formato se usará junto con la asignación modelo de pago al destino ISO20022 para importar el archivo pain.002 en el diario de transferencias de los pagos de proveedor
  - **Camt.054** este formato se usará junto con la asignación modelo de pago al destino ISO20022 para importar el archivo Camt.054 en el diario de transferencias de los pagos de proveedor La misma configuración del formato se usará en la funcionalidad de importación de los pagos de clientes, pero la asignación diferente se usará en la asignación modelo de pago al destino ISO20022.
 
-Para obtener más información acerca de las informes electrónicos, consulte [Información general de informes electrónicos](../../dev-itpro/analytics/general-electronic-reporting.md).
+Para obtener más información acerca de las informes electrónicos, consulte [Información general de informes electrónicos](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 - [Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)

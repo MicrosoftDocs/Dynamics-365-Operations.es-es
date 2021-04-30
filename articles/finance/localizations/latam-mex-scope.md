@@ -13,12 +13,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4f5ab3180f11bfb867acb437a66bdb5f5bdc682
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: afed2ab518810f39108282559997161a03e36c06
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839743"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893762"
 ---
 # <a name="scope-of-mexican-localization"></a>Ámbito de localización mexicana
 
@@ -101,7 +101,7 @@ El ámbito de localización para la versión de Finance que está disponible en 
 - Presupuesto para efectivo
 - Informes estatutarios y normativos
 
-Para ver una lista de las características específicas que ofrece y admite Microsoft, consulte la sección [Características compatibles](#supported-features) más adelante en este documento. Puede encontrar los detalles acerca de cada característica en la ayuda de Finance, en la ayuda en línea, y en el informe que se publican en la sección [Portal de localización de Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/).
+Para ver una lista de las características específicas que ofrece y admite Microsoft, consulte la sección [Características compatibles](#supported-features) más adelante en este documento. Puede encontrar los detalles acerca de cada característica en la ayuda de Finance, en la ayuda en línea, y en el informe que se publican en la sección [Portal de localización de Microsoft Dynamics](/dynamics/s-e/).
 
 ## <a name="market-availability"></a>Disponibilidad de mercado
 Microsoft tiene como objetivo entregar características normativas de una forma que dé suficiente tiempo para la instalación o actualización de las soluciones existentes de los clientes. Si las actualizaciones de impuestos y normativas contienen cambios necesarios para implementar requisitos de informes fiscales, contables, financieros o normativos y estatutarios que comúnmente afectan a la mayoría de las empresas en México, nuestro objetivo es publicar las actualizaciones antes de la fecha de vigencia o antes de cualquier otra fecha obligatoria según se requiera a nivel federal o estatal. Para más información, vea [Estrategia de localización mexicana](#mexican-localization-strategy). 
@@ -598,7 +598,7 @@ Las siguientes características y funciones están fuera de ámbito en las local
     - **Características de impresora fiscal**
 
 ## <a name="references"></a>Referencias
-El [Portal de localización de Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/) proporciona información sobre las características y documentos de localización que Microsoft ha liberado, así como sobre los que tiene previsto su lanzamiento.
+El [Portal de localización de Microsoft Dynamics](/dynamics/s-e/) proporciona información sobre las características y documentos de localización que Microsoft ha liberado, así como sobre los que tiene previsto su lanzamiento.
 
 ## <a name="notes"></a>Notas
 **Régimen especial (régimen especial)** hace referencia a cualquier tratamiento diferenciado, excepto la liberación de los impuestos, que la autoridad fiscal autoriza con respecto a los requisitos generales de la regla de impuestos (federal, estatal o municipal) y las obligaciones suplementarias, para simplificar el cumplimiento de las obligaciones fiscales del contribuyente en casos peculiares.

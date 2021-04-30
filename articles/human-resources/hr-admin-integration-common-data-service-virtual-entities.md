@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805115"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890061"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurar tablas virtuales de Dataverse
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources es una fuente de datos virtual en Microsoft Dataver
 Para habilitar las operaciones CRUD en entidades de Human Resources desde Dataverse, debe hacer que las entidades estén disponibles como tablas virtuales en Dataverse. Esto le permite realizar operaciones CRUD desde Dataverse y Microsoft Power Platform en datos que se encuentran en Human Resources. Las operaciones también respaldan las validaciones de la lógica empresarial completa de Human Resources para garantizar la integridad de los datos al escribir datos en las entidades.
 
 > [!NOTE]
-> Las entidades de Human Resources se corresponden con tablas de Dataverse. Para obtener más información sobre Dataverse (antes denominado Common Data Service) y actualizaciones de terminología, consulte [¿Qué es Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Las entidades de Human Resources se corresponden con tablas de Dataverse. Para obtener más información sobre Dataverse (antes denominado Common Data Service) y actualizaciones de terminología, consulte [¿Qué es Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Tablas virtuales disponibles para Human Resources
 
@@ -51,7 +51,7 @@ Las tablas virtuales de Human Resources no son lo mismo que las tablas de Datave
 Las tablas nativas para Human Resources se generan por separado y se mantienen en la solución HCM Common en Dataverse. Con tablas nativas, los datos se almacenan en Dataverse y esto requiere la sincronización con la base de datos de la aplicación Human Resources.
 
 > [!NOTE]
-> Para obtener una lista de las tablas de Dataverse nativas para Human Resources, vea [Tablas de Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Para obtener una lista de las tablas de Dataverse nativas para Human Resources, vea [Tablas de Dataverse](./hr-developer-entities.md).
 
 ## <a name="setup"></a>Configurar
 
@@ -71,7 +71,7 @@ Para obtener más información sobre cómo habilitar y deshabilitar característ
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Registrar la aplicación en Microsoft Azure
 
-Debe registrar su instancia de Human Resources en Azure Portal para que la plataforma de identidad de Microsoft pueda proporcionar servicios de autenticación y autorización para la aplicación y los usuarios. Para obtener más información sobre cómo registrar aplicaciones en Azure, consulte [Inicio rápido: registre una aplicación con la plataforma de identidad de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Debe registrar su instancia de Human Resources en Azure Portal para que la plataforma de identidad de Microsoft pueda proporcionar servicios de autenticación y autorización para la aplicación y los usuarios. Para obtener más información sobre cómo registrar aplicaciones en Azure, consulte [Inicio rápido: registre una aplicación con la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 1. Abra el [portal de Microsoft Azure](https://portal.azure.com).
 
@@ -93,7 +93,7 @@ Debe registrar su instancia de Human Resources en Azure Portal para que la plata
 
 10. Proporcione una descripción, seleccione una duración y seleccione **Añadir**.
 
-11. Registre el valor del secreto. Debe introducir esta información al [Configurar el origen de datos de la tabla virtual](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. Registre el valor del secreto de la propiedad de la tabla **Valor**. Debe introducir esta información al [Configurar el origen de datos de la tabla virtual](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Asegúrese de tomar nota del valor del secreto en este momento. El secreto nunca se vuelve a mostrar después de salir de esta página.
@@ -215,12 +215,11 @@ El panel deslizante muestra los resultados de ejecución más recientes del proc
 
 ## <a name="see-also"></a>Consulte también
 
-[¿Qué es Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Tablas en Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Visión general de las relaciones entre tablas](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Crear y editar tablas virtuales que contienen datos de un origen de datos externo](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[¿Que son los portales de Power Apps?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Descripción general de la creación de aplicaciones en Power Apps](https://docs.microsoft.com/powerapps/maker/)
-
+[¿Qué es Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Tablas en Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[Visión general de las relaciones entre tablas](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Crear y editar tablas virtuales que contienen datos de un origen de datos externo](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[¿Que son los portales de Power Apps?](/powerapps/maker/portals/overview)<br>
+[Descripción general de la creación de aplicaciones en Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

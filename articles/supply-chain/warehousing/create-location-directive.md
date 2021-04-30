@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838403"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911305"
 ---
 # <a name="work-with-location-directives"></a>Trabajar con directivas de ubicación
 
@@ -44,8 +44,8 @@ Para poder crear una directiva de ubicación, debe seguir estos pasos a fin de a
 1. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Almacenes**.
 1. Cree un almacén.
 1. En la ficha desplegable **Almacenes**, establezca la opción **Usar procesos de gestión de almacenes** en *Sí*.
-1. Cree ubicaciones, tipos de ubicación, perfiles de ubicación y formatos de ubicación. Para obtener más información, consulte [Configurar ubicaciones en un almacén con WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Cree sitios, zonas y grupos de zona. Para obtener más información, consulte [Configuración de almacén](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) y [Configurar ubicaciones en un almacén con WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Cree ubicaciones, tipos de ubicación, perfiles de ubicación y formatos de ubicación. Para obtener más información, consulte [Configurar ubicaciones en un almacén con WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Cree sitios, zonas y grupos de zona. Para obtener más información, consulte [Configuración de almacén](../../commerce/channels-setup-warehouse.md) y [Configurar ubicaciones en un almacén con WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Tipos de órdenes de trabajo para directivas de ubicación
 
@@ -143,7 +143,7 @@ Los campos en la ficha desplegable **Directivas de ubicación** son específicos
 - **Código de directiva** - Seleccione el código de directiva que se debe asociar con una plantilla de trabajo o de reabastecimiento. En la página **Código de directiva** puede crear nuevos códigos para utilizarlos con el fin de conectar plantillas de trabajo o plantillas de reabastecimiento a directivas de ubicación. También pueden usar códigos de directiva para establecer un vínculo entre cualquier línea de plantilla de trabajo y una directiva de ubicación (como compuerta o ubicación provisional).
 
     > [!TIP]
-    > Si se establece un código de directiva, el sistema no buscará las directivas de ubicación por número de secuencia cuando se debe generar el trabajo. En cambio, buscará por código de directiva. De esta manera, se puede ser más específico sobre la plantilla de ubicación que se usa para un paso determinado en una plantilla de trabajo, como el paso de almacenamiento provisional de los materiales.
+    > Si se establece un código de directiva, el sistema no buscará las directivas de ubicación por número de secuencia cuando se debe generar el trabajo. En cambio, buscará por código de directiva. De esta manera, se puede ser más específico sobre la directiva de ubicación que se usa para un paso determinado en una plantilla de trabajo, como el paso de almacenamiento provisional de los materiales.
 
 - **Múltiples SKU** – Establezca esta opción en *Sí* para habilitar varias referencias de almacén (SKU) para usar en una ubicación. Por ejemplo, se deben habilitar varios SKU para la ubicación de la puerta de bahía. Si habilita varios SKU, su ubicación de colocación se especificará en el trabajo, como se esperaba. Sin embargo, la ubicación de colocación solo podrá manejar una colocación de varios elementos (si el trabajo incluye diferentes SKU que deben seleccionarse y colocarse). No podrá manejar una sola puesta de SKU. Si configura esta opción en *No*, su ubicación de colocación se especificará solo si su colocación tiene solo un tipo de SKU.
 
@@ -249,7 +249,7 @@ Para esta situación, tiene que definir dos acciones de la directiva de la ubica
 
 ## <a name="next-step"></a>Paso siguiente
 
-Tras crear las directivas de ubicación, puede asociar cada código de directiva a un código de plantilla de trabajo para la creación de trabajos. Para obtener más información, consulte [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Tras crear las directivas de ubicación, puede asociar cada código de directiva a un código de plantilla de trabajo para la creación de trabajos. Para obtener más información, consulte [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
