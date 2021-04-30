@@ -2,11 +2,11 @@
 title: Configurar tipos indexados
 description: En este tema se explica cómo configurar tipos indexados. Se requieren tipos indexados si su organización asocia los importes de pago de arrendamientos con un conjunto de tipos indexados.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseIndexRateType
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,31 +15,31 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6424248e8d01d04720ad65e80aaa543b42abccc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 40f230a9d69a142b18eb27a2d5e420dbadc600d2
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823032"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880969"
 ---
-# <a name="set-up-index-rates"></a><span data-ttu-id="ae76e-104">Configurar tipos indexados</span><span class="sxs-lookup"><span data-stu-id="ae76e-104">Set up index rates</span></span>
+# <a name="set-up-index-rates"></a><span data-ttu-id="ba472-104">Configurar tipos indexados</span><span class="sxs-lookup"><span data-stu-id="ba472-104">Set up index rates</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ae76e-105">Si los pagos de arrendamientos dependen de un índice, los tipos indexados se pueden agregar y mantener en el sistema.</span><span class="sxs-lookup"><span data-stu-id="ae76e-105">If lease payments depend on an index, the index rate types can be added and maintained in the system.</span></span> <span data-ttu-id="ae76e-106">Para revalorizar los pagos de arrendamientos de la página **Tipo de tipo indexado**, el proceso de revalorización del tipo indexado utiliza el tipo indexado más reciente desde la fecha de la revalorización.</span><span class="sxs-lookup"><span data-stu-id="ae76e-106">To revalue the lease payments from the **Index rate type** page, the index rate revaluation process uses the most recent index rate from the date of revaluation.</span></span>
+<span data-ttu-id="ba472-105">Si los pagos de arrendamientos dependen de un índice, los tipos indexados se pueden agregar y mantener en el sistema.</span><span class="sxs-lookup"><span data-stu-id="ba472-105">If lease payments depend on an index, the index rate types can be added and maintained in the system.</span></span> <span data-ttu-id="ba472-106">Para revalorizar los pagos de arrendamientos de la página **Tipo de tipo indexado**, el proceso de revalorización del tipo indexado utiliza el tipo indexado más reciente desde la fecha de la revalorización.</span><span class="sxs-lookup"><span data-stu-id="ba472-106">To revalue the lease payments from the **Index rate type** page, the index rate revaluation process uses the most recent index rate from the date of revaluation.</span></span>
 
-<span data-ttu-id="ae76e-107">Para agregar tipos de tipo indexado y tipos indexados, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="ae76e-107">To add index rate types and index rates, follow these steps.</span></span>
+<span data-ttu-id="ba472-107">Para agregar tipos de tipo indexado y tipos indexados, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="ba472-107">To add index rate types and index rates, follow these steps.</span></span>
 
-1. <span data-ttu-id="ae76e-108">Vaya a **Arrendamiento de activos \> Configuración \> Tipo de tipo indexado**.</span><span class="sxs-lookup"><span data-stu-id="ae76e-108">Go to **Asset leasing \> Setup \> Index rate type**.</span></span>
-2. <span data-ttu-id="ae76e-109">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="ae76e-109">Select **New**.</span></span>
-3. <span data-ttu-id="ae76e-110">En los campos correspondientes, introduzca el tipo de tipo y el nombre del tipo indexado.</span><span class="sxs-lookup"><span data-stu-id="ae76e-110">In the appropriate fields, enter the rate type and the name of the index rate.</span></span>
-4. <span data-ttu-id="ae76e-111">Para agregar un nuevo valor de tipo indexado, seleccione el tipo de tipo indexado y luego seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="ae76e-111">To add a new index rate value, select the index rate type, and then select **Add**.</span></span>
-5. <span data-ttu-id="ae76e-112">Seleccione la fecha de inicio efectiva del tipo y seleccione el valor del tipo.</span><span class="sxs-lookup"><span data-stu-id="ae76e-112">Select the effective start date of the rate, and select the rate value.</span></span>
+1. <span data-ttu-id="ba472-108">Vaya a **Arrendamiento de activos \> Configuración \> Tipo de tipo indexado**.</span><span class="sxs-lookup"><span data-stu-id="ba472-108">Go to **Asset leasing \> Setup \> Index rate type**.</span></span>
+2. <span data-ttu-id="ba472-109">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="ba472-109">Select **New**.</span></span>
+3. <span data-ttu-id="ba472-110">En los campos correspondientes, introduzca el tipo de tipo y el nombre del tipo indexado.</span><span class="sxs-lookup"><span data-stu-id="ba472-110">In the appropriate fields, enter the rate type and the name of the index rate.</span></span>
+4. <span data-ttu-id="ba472-111">Para agregar un nuevo valor de tipo indexado, seleccione el tipo de tipo indexado y luego seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="ba472-111">To add a new index rate value, select the index rate type, and then select **Add**.</span></span>
+5. <span data-ttu-id="ba472-112">Seleccione la fecha de inicio efectiva del tipo y seleccione el valor del tipo.</span><span class="sxs-lookup"><span data-stu-id="ba472-112">Select the effective start date of the rate, and select the rate value.</span></span>
 
-<span data-ttu-id="ae76e-113">Debe seleccionar **Diferencia de valor de tipo indexado** o **Valor de tipo indexado** como método de tipo indexado.</span><span class="sxs-lookup"><span data-stu-id="ae76e-113">You must select either **Index rate value difference** or **Index rate value** as the index rate method.</span></span>
+<span data-ttu-id="ba472-113">Debe seleccionar **Diferencia de valor de tipo indexado** o **Valor de tipo indexado** como método de tipo indexado.</span><span class="sxs-lookup"><span data-stu-id="ba472-113">You must select either **Index rate value difference** or **Index rate value** as the index rate method.</span></span>
 
-- <span data-ttu-id="ae76e-114">Seleccione el método **Diferencia de valor de tipo indexado** para calcular un nuevo pago por arrendamiento, basado en la diferencia entre el tipo indexado en la fecha de inicio y el tipo indexado más reciente.</span><span class="sxs-lookup"><span data-stu-id="ae76e-114">Select the **Index rate value difference** method to calculate a new lease payment, based on the difference between the index rate on the start date and the most recent index rate.</span></span> <span data-ttu-id="ae76e-115">El tipo indexado se define en el campo **Tipo indexado (%)**.</span><span class="sxs-lookup"><span data-stu-id="ae76e-115">The index rate is defined in the **Index rate (%)** field.</span></span>
-- <span data-ttu-id="ae76e-116">Seleccione el método **Valor de tipo indexado** para calcular el pago del arrendamiento utilizando el porcentaje que se especifica en el campo **Tipo indexado (%)**.</span><span class="sxs-lookup"><span data-stu-id="ae76e-116">Select the **Index rate value** method to calculate the lease payment by using the percentage that is specified in the **Index rate (%)** field.</span></span>
+- <span data-ttu-id="ba472-114">Seleccione el método **Diferencia de valor de tipo indexado** para calcular un nuevo pago por arrendamiento, basado en la diferencia entre el tipo indexado en la fecha de inicio y el tipo indexado más reciente.</span><span class="sxs-lookup"><span data-stu-id="ba472-114">Select the **Index rate value difference** method to calculate a new lease payment, based on the difference between the index rate on the start date and the most recent index rate.</span></span> <span data-ttu-id="ba472-115">El tipo indexado se define en el campo **Tipo indexado (%)**.</span><span class="sxs-lookup"><span data-stu-id="ba472-115">The index rate is defined in the **Index rate (%)** field.</span></span>
+- <span data-ttu-id="ba472-116">Seleccione el método **Valor de tipo indexado** para calcular el pago del arrendamiento utilizando el porcentaje que se especifica en el campo **Tipo indexado (%)**.</span><span class="sxs-lookup"><span data-stu-id="ba472-116">Select the **Index rate value** method to calculate the lease payment by using the percentage that is specified in the **Index rate (%)** field.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
