@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823869"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897317"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensiones financieras y registro 
 
@@ -83,17 +83,17 @@ La dimensión predeterminada en la cabecera de diario hará que el departamento 
 
 Sin embargo, cuando se registra la línea, se aplica la dimensión fija, y la línea se envía al departamento 022. La ilustración siguiente muestra el asiento enviado, donde la dimensión fija se aplica para la cuenta de ventas.
 
-[![Transacciones de asiento](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Transacciones de cupones con dimensión fija aplicada](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Ejemplo 2
 
 Este ejemplo usa la misma configuración que el primer ejemplo. Sin embargo, agregaremos a un segundo componente y utilizaremos la dimensión de departamento como dimensión del saldo. En la siguiente ilustración, **Departamento** se establece como la dimensión financiera del saldo para el libro mayor de USMF.
 
-[![Contabilidad](./media/ledger.png)](./media/ledger.png)
+[![Ilustración que muestra el departamento como la dimensión financiera de equilibrio](./media/ledger.png)](./media/ledger.png)
 
 Cuando se usa la misma configuración de la cabecera de diario, y se registra la misma transacción, la dimensión fija se aplica primero. A continuación la lógica de saldo se aplica para ayudar a garantizar que cada departamento tiene una entrada saldada. La ilustración siguiente muestra las transacciones de asiento que incluyen la entrada de saldo después de que se aplique la dimensión fija.
 
-[![Transacciones de asiento](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Transacciones de comprobantes después de que se aplica el asiento de compensación](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Ejemplo 3
 
@@ -119,11 +119,11 @@ Algunos de los siguientes recursos se refieren a una versión anterior de nuestr
 
 [Planificar su plan de cuentas](plan-chart-of-accounts.md) 
 
-[Planee su plan te cuentas en el blog de AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Este vínculo va a la Parte 1 de una serie de siete partes.
+[Planee su plan te cuentas en el blog de AX 2012](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – Este vínculo va a la Parte 1 de una serie de siete partes.
 
-[Dimensión que establece como valor predeterminado en distribuciones contables](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Dimensión que establece como valor predeterminado en distribuciones contables](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Dimensión que establece como valor predeterminado en marco de las dimensiones](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Dimensión que establece como valor predeterminado en marco de las dimensiones](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

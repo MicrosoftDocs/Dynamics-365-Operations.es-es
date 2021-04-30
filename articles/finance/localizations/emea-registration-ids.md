@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 01f9ef1bcf520ba5dd44c3a1e79cf0ea6c777eef
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a062235bfce6ccb8ad62c8c299418e933d3d42f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818333"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894707"
 ---
 # <a name="registration-ids"></a>Id. de registro
 
@@ -55,7 +55,7 @@ La categoría del registro es un identificador de registro de país/región apro
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Especificar el identificador del registro de los registros de la libreta de direcciones global
 
-La libreta de direcciones global (GAB) contiene información de dirección consolidada para clientes, proveedores, contactos, relaciones empresariales y entidades jurídicas. Para obtener más información, consulte la [visión global de la libreta de direcciones global](../../fin-and-ops/organization-administration/overview-global-address-book.md). Los registros de partes que se almacenan en la libreta de direcciones global pueden contener uno o varios registros de dirección. Estas direcciones se usan para distintos fines, por ejemplo la facturación o entrega. Puede configurar los identificadores de registro de la información de dirección de clientes, proveedores, trabajadores y entidades jurídicas. Encuentre el registro de la parte (entidad jurídica, proveedor, cliente, trabajador) cuyo identificador de registro quiera especificar y haga clic en **Id. de registro** en los formularios relacionados con la parte, entidad jurídica, proveedor, cliente, trabajador, para abrir la página **Administrar direcciones**. En la ficha **Registro de impuestos**, haga clic en **Agregar** y especifique la siguiente información sobre el identificador del registro.
+La libreta de direcciones global (GAB) contiene información de dirección consolidada para clientes, proveedores, contactos, relaciones empresariales y entidades jurídicas. Para obtener más información, consulte la [visión global de la libreta de direcciones global](../../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md). Los registros de partes que se almacenan en la libreta de direcciones global pueden contener uno o varios registros de dirección. Estas direcciones se usan para distintos fines, por ejemplo la facturación o entrega. Puede configurar los identificadores de registro de la información de dirección de clientes, proveedores, trabajadores y entidades jurídicas. Encuentre el registro de la parte (entidad jurídica, proveedor, cliente, trabajador) cuyo identificador de registro quiera especificar y haga clic en **Id. de registro** en los formularios relacionados con la parte, entidad jurídica, proveedor, cliente, trabajador, para abrir la página **Administrar direcciones**. En la ficha **Registro de impuestos**, haga clic en **Agregar** y especifique la siguiente información sobre el identificador del registro.
 
 
 |Campo                |Descripción                                                |

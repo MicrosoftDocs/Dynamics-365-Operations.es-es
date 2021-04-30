@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753369"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893965"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importar versiones actualizadas de configuraciones ER
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753369"
 
 Los [repositorios](general-electronic-reporting.md#Repository) de informes electrónicos (ER) se usan para compartir [configuraciones ER](general-electronic-reporting.md#Configuration). Puede [importar](download-electronic-reporting-configuration-lcs.md) configuraciones de ER desde diferentes repositorios en su instancia de Microsoft Dynamics 365 Finance. Cuando importa configuraciones de ER, los [proveedores de configuración](general-electronic-reporting.md#Provider) puede publicar [versiones](general-electronic-reporting.md#component-versioning) nuevas de repositorios para que puedan ser compartidos.
 
-Este tema explica cómo importar versiones actualizadas de ER desde el repositorio global del servicio de configuración. Para más información, consulte [Microsoft Dynamics 365 for Finance and Operations: Regulatory services, servicio de configuración](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Este tema explica cómo importar versiones actualizadas de ER desde el repositorio global del servicio de configuración. Para más información, consulte [Microsoft Dynamics 365 for Finance and Operations: Regulatory services, servicio de configuración](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Revise las versiones actualizadas disponibles
 

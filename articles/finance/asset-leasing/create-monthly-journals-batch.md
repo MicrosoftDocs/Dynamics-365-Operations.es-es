@@ -2,11 +2,11 @@
 title: Crear movimientos de diario mensuales en lote
 description: Este tema explica cómo crear asientos de diario en un lote para ayudar a aumentar la eficiencia cuando se registran los gastos de arrendamiento mensuales.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 664001dd6e9da449dec65750da53d58bd27438b4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ca84e56569ea5ddbb4d5335d0944a6bd8a50a1b1
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816037"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881213"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Crear movimientos de diario mensuales en lote
 

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750067"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893186"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -183,11 +183,11 @@ Tenga en cuenta que este tipo de repositorio es accesible en los entornos siguie
 
 Para obtener más información, consulte [Importar configuraciones de informes electrónicos (ER)](./electronic-reporting-import-ger-configurations.md).
 
-Un repositorio **RCS** proporciona acceso a la lista de configuraciones de una instancia específica del [servicio de configuración](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia actual para que pueda usarlas en los informes electrónicos.
+Un repositorio **RCS** proporciona acceso a la lista de configuraciones de una instancia específica del [servicio de configuración](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia actual para que pueda usarlas en los informes electrónicos.
 
 Para obtener más información, consulte [Importar configuraciones de informes electrónicos (ER) desde RCS](./rcs-download-configurations.md).
 
-Un **repositorio global** proporciona acceso a la lista de configuraciones del repositorio global en el [servicio de configuración](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Este tipo de repositorio de ER se puede registrar solo para el proveedor de Microsoft. Desde el repositorio global, puede importar las últimas versiones de las configuraciones de ER en la instancia actual.
+Un **repositorio global** proporciona acceso a la lista de configuraciones del repositorio global en el [servicio de configuración](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Este tipo de repositorio de ER se puede registrar solo para el proveedor de Microsoft. Desde el repositorio global, puede importar las últimas versiones de las configuraciones de ER en la instancia actual.
 
 Para más información, consulte [Importar configuraciones de informes electrónicos (ER) del repositorio Global del servicio de configuración](./er-download-configurations-global-repo.md).
 

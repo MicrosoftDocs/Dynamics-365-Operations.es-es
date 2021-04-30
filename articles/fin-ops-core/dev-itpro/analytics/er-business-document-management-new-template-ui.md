@@ -1,8 +1,8 @@
 ---
-title: Nueva interfaz de usuario de documentos en la gestión de documentos empresariales
-description: Este tema proporciona información sobre cómo usar la nueva interfaz de usuario de documentos en la función de Administración de documentos empresariales del marco de informes electrónicos.
+title: Interfaz de usuario estilo Microsoft Office en la Administración de documentos empresariales
+description: Este tema explica cómo usar la nueva interfaz de usuario de documentos en la función de Administración de documentos empresariales del marco de informes electrónicos (ER).
 author: v-anamir
-ms.date: 05/12/2019
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,27 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4c430e21e3bf7f1c01c7b60c0bef58fb49c0c601
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6c5081f71a18dfac83b7aea950395436b42f50e
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748350"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881045"
 ---
-# <a name="new-document-user-interface-in-business-document-management"></a>Nueva interfaz de usuario de documentos en la Administración de documentos empresariales
+# <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Interfaz de usuario estilo Microsoft Office en la Administración de documentos empresariales
 
 [!include [banner](../includes/banner.md)]
 
 La gestión de documentos empresariales aprovecha el marco de ER y permite a los usuarios empresariales editar plantillas de documentos empresariales mediante el servicio de Microsoft 365 o la aplicación de escritorio de Microsoft Office apropiada. Las ediciones pueden incluir cambios de diseño o nuevas implementaciones, o los usuarios pueden agregar marcadores de posición para incluir datos adicionales sin tener que cambiar el código fuente. Para obtener más información sobre cómo trabajar con la gestión de documentos empresariales, vea [Resumen de gestión de documentos comerciales](er-business-document-management.md).
 
-La nueva interfaz de usuario del documento (UI) es más clara y más cómoda de usar. El área **Documento empresarial** muestra solo las plantillas que están disponibles para el proveedor actual.
+La nueva interfaz de usuario (UI) es más clara y más cómoda de usar. El área **Documento empresarial** muestra solo las plantillas que están disponibles para el proveedor actual. En la interfaz de usuario anterior, la pestaña **Plantilla** incluía todas las plantillas que estaban disponibles para cualquier proveedor. También mostraba todas las plantillas que fueron creadas y editadas por cualquier usuario que tuviera el mismo rol.
 
-El botón **Nuevo documento** permite a los usuarios crear y editar una plantilla en una configuración de formato de informes electrónicos (ER) proporcionada por otro proveedor. En el ejemplo de este tema, el proveedor es Microsoft.
+Puede usar el botón **Nuevo documento** para crear y editar una plantilla en una configuración de formato de informes electrónicos (ER) proporcionada por otro proveedor. En el ejemplo de este tema, el proveedor es Microsoft. Alternativamente, puede crear una plantilla cargando su propia plantilla en formato Excel.
+
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWAVQg]
+
+El vídeo [Crear un nuevo documento comercial utilizando la gestión de documentos comerciales](https://youtu.be/gAIYl-mM_pw) (mostrado arriba) está incluido en la [lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 ## <a name="make-the-new-document-ui-in-business-document-management-available"></a>Poner a disposición la nueva interfaz de usuario de documentos en la gestión de documentos empresariales
 
@@ -38,17 +43,17 @@ Para comenzar a utilizar la nueva interfaz de usuario de documentos en la gesti�
 
 Siga estos pasos para activar esta función para todas las entidades jurídicas.
 
-1. En el espacio de trabajo **Administración de características**, en la pestaña **Nuevo**, seleccione la característica **Experiencia de IU similar a oficina para la gestión de documentos empresariales** en la lista.
+1. En el espacio de trabajo **Administración de características**, en la pestaña **Todo**, seleccione la característica **Experiencia de IU similar a oficina para la gestión de documentos empresariales** en la lista.
 2. Seleccione **Habilitar ahora** para activar la característica seleccionada.
 3. Actualice la página para obtener acceso a la característica nueva.
 
-### <a name="edit-templates-that-are-owned-by-other-providers"></a>Editar plantillas propiedad de otros proveedores
+## <a name="edit-templates-that-are-owned-by-other-providers"></a>Editar plantillas propiedad de otros proveedores
 
 1. En el espacio de trabajo de **Gestión de documentos empresariales**, seleccione **Nuevo documento**.
 
     ![Espacio de trabajo de la gestión de documentos empresariales](./media/BDM_overview_new_template1.png)
 
-2. En el cuadro de diálogo, seleccione el documento para usar como plantilla y luego seleccione **Crear documento**.
+2. En la pestaña **Seleccionar**, seleccione el documento para usar como plantilla y luego seleccione **Crear documento**.
 
     ![Cuadro de diálogo Documentos empresariales](./media/BDM_overview_new_template2.png)
 
@@ -61,7 +66,49 @@ Siga estos pasos para activar esta función para todas las entidades jurídicas.
 
 El botón **Nuevo documento** se usa para crear y editar una plantilla en una configuración de formato ER proporcionada por otro proveedor. En el ejemplo, el proveedor es Microsoft. Cuando seleccione **Nuevo documento**, verá todas las plantillas que poseen los proveedores actuales y otros proveedores. Después de seleccionar la plantilla, se abrirá para editarla. La plantilla editada se almacenará en una nueva configuración del formato de ER que se genera automáticamente.
 
+## <a name="upload-a-template-that-uses-an-existing-excel-format"></a>Cargue una plantilla que use un formato de Excel existente
+Siga estos pasos para proporcionar la información requerida antes de cargar una plantilla.
+
+1. En el espacio de trabajo de **Gestión de documentos empresariales**, seleccione **Nuevo documento**.
+
+    ![Espacio de trabajo de la gestión de documentos empresariales](./media/BDM_overview_new_template1.png)
+    
+2. En la página **Crear una nueva plantilla**, en la pestaña **Subir**, en la pestaña **Plantilla**, seleccione **Navegar** para buscar y seleccionar el archivo de Excel que desea utilizar como plantilla. En la sección **Plantilla**, los campos **Título** y **Descripción** se completan automáticamente. Especifican el nombre y la descripción de la nueva configuración de formato ER que se crea automáticamente. Si es necesario, puede editar estos campos.
+3. En la sección **Tipo de Documento**, en el campo **Nombre**, especifique el tipo de documento comercial. Este valor se utilizará para buscar la fuente de datos correcta (es decir, la configuración del modelo ER).
+
+    ![Pestaña Plantilla](./media/BDM_overview_new_UI_import_21.jpg)
+
+4. En la pestaña **Fuente de datos**, en la ficha desplegable **Filtro**, seleccione **Aplicar filtro**. En la sección **Fuente de datos**, el campo **Nombre** se rellena automáticamente o puede seleccionar manualmente un valor. Puede utilizar el filtro para buscar el nombre de fuente de datos adecuado por nombre, descripción, código de país o región y tipo de documento comercial.
+
+    ![Pestaña Origen de datos](./media/BDM_overview_new_UI_import_31.jpg)
+    
+    > [!NOTE]
+    > La ficha desplegable **Filtro** se utiliza para buscar la fuente de datos correcta (es decir, la configuración del modelo ER). Puede editar todos los campos de filtro para encontrar la fuente de datos más adecuada para el documento que está cargando.
+    > 
+    > Las condiciones de la ficha desplegable **Filtro** se utilizan como condiciones **O**.
+    
+5. En la pestaña **Asignación**, seleccione **Detectar automáticamente**. El campo **Definición raíz** se rellena automáticamente, o puede seleccionar manualmente un valor. Esta pestaña muestra el mapeo final para los elementos de la plantilla y el modelo.
+
+    ![Pestaña Asignación](./media/BDM_overview_new_UI_import_41.jpg)
+    
+   > [!NOTE]
+   > La asignación en la sección **Estructura de la plantilla** utiliza la coincidencia completa de las etiquetas o descripciones en la fuente de datos en el idioma del usuario y en el nombre de la celda en la plantilla.
+
+6. Seleccione **Crear documento** para confirmar que desea crear una plantilla e iniciar el proceso de edición.
+
 Para más información, vea [Resumen de gestión de documentos empresariales](er-business-document-management.md).
 
+Si no hay un proveedor de informes electrónicos, puede crear uno. Si no hay un proveedor activo, puede seleccionar activar uno.
+
+- Para crear un proveedor, cambie el nombre del proveedor en el campo **Nombre**, actualice la dirección de Internet del nuevo proveedor en el campo **Dirección de Internet** y seleccione **Aceptar** para confirmar.
+
+    ![Crear nuevo proveedor en BDM](./media/bdm_create_provider.png)
+    
+- Para activar el proveedor existente, elija el nombre del proveedor en el campo **Proveedor de configuración** y seleccione **Aceptar** para configurar el proveedor como activo.
+
+    ![Activar proveedor en BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Cada plantilla BDM hace referencia al proveedor como autor de la configuración. Es por eso que se requiere un proveedor activo para la plantilla.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

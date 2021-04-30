@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751325"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893613"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
@@ -57,7 +57,7 @@ El comportamiento predeterminado para una configuración de formato ER depende d
 
 En el cuadro de diálogo **Informe Intrastat**, en la ficha desplegable **Ejecutar en segundo plano**, si configura la opción de **Procesamiento por lotes** en **No**, un formato ER se ejecuta inmediatamente en modo interactivo. Cuando esta ejecución se completa con éxito, un documento resultante generado está disponible para descargar.
 
-Si configura la opción **Procesamiento por lotes** en **Sí**, se ejecuta un formato ER en modo [lote](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Se crea el trabajo por lotes adecuado, en función de los parámetros que especifique en la pestaña **Ejecutar en segundo plano** del cuadro de diálogo **Parámetros ER**.
+Si configura la opción **Procesamiento por lotes** en **Sí**, se ejecuta un formato ER en modo [lote](../sysadmin/batch-processing-overview.md). Se crea el trabajo por lotes adecuado, en función de los parámetros que especifique en la pestaña **Ejecutar en segundo plano** del cuadro de diálogo **Parámetros ER**.
 
 > [!NOTE]
 > La descripción del trabajo le informa sobre la ejecución de una asignación de formato de informes electrónicos. También contiene el nombre del componente de informes electrónicos que se ejecuta.
@@ -70,7 +70,7 @@ Puede encontrar información sobre este trabajo en varios lugares:
 - Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Trabajos de informes electrónicos** para verificar el estado del trabajo programado y los resultados de ejecución del trabajo completado. Cuando la ejecución del trabajo se complete con éxito, seleccione **Mostrar archivos** en la página **Trabajos de informes electrónicos** para obtener un documento resultante generado.
 
     > [!NOTE]
-    > Este documento se almacena como un archivo adjunto del registro de trabajo actual y se controla mediante el marco de referencia [Gestión de documentos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). El [tipo de Documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) que se utiliza para almacenar artefactos ER de este tipo se configura en los [Parámetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+    > Este documento se almacena como un archivo adjunto del registro de trabajo actual y se controla mediante el marco de referencia [Gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md). El [tipo de Documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) que se utiliza para almacenar artefactos ER de este tipo se configura en los [Parámetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 - En la página **Trabajos de informes electrónicos**, seleccione **Mostrar archivos** para ver la lista de errores y advertencias que se generaron durante la ejecución del trabajo.
 

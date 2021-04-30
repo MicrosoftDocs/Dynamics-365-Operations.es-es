@@ -1,8 +1,8 @@
 ---
 title: Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)
-description: Este tema describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Microsoft Dynamics 365 Finance.
+description: Este tema describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Dynamics 365 Finance.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 165f2c981b550f8a6fd4d2ce08763e6fa3c8b6e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750115"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893210"
 ---
-# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)
+# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Microsoft Dynamics 365 Finance.
+Este tema describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Dynamics 365 Finance.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Informes electrónico (ER) es un motor que ofrece asistencia con documentos electrónicos específicos de país y necesarios reglamentarios. En general, ER asume la capacidad de realizar las actividades siguientes para un único documento electrónico. Para obtener más información, consulte [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md).
 
@@ -45,7 +45,7 @@ Informes electrónico (ER) es un motor que ofrece asistencia con documentos elec
 
 - Haga que una plantilla esté disponible para que se pueda usar en otras instancias:
 
-    - Transforme una plantilla de documento que se creó en una configuración de ER y exportar la configuración de la instancia actual de la aplicación como paquete XML que se puede almacenar de forma local o en LCS.
+    - Transforme una plantilla de documento que se creó en una configuración de ER y exportar la configuración de la instancia actual de la aplicación como paquete XML que se puede almacenar de forma local o en Lifecycle Services (LCS).
     - Transforme una configuración de ER en una plantilla de documento de la aplicación.
     - Importe un paquete XML que se almacena de forma local o en LCS en la instancia.
 
@@ -78,13 +78,24 @@ Para los siguientes motivos relacionados con ER, se recomienda diseñar las conf
 - Los usuarios con los roles de **Desarrollador de notificación electrónica** o **Consultor de funciones de notificación electrónica** pueden editar las configuraciones y ejecutarlas con fines de prueba. Este escenario puede provocar llamadas de métodos de clases y de tablas que pueden dañar los datos empresariales y el rendimiento de la instancia.
 - Las llamadas de métodos de clases y de tablas como orígenes de datos de ER de las configuraciones de ER no están restringidas por puntos de entrada y contenido registrado de la empresa. Por lo tanto, los usuarios con los roles de **Desarrollador de notificación electrónica** o **Consultor de funciones de notificación electrónica** pueden obtener acceso a los datos confidenciales de la empresa.
 
-Las configuraciones de ER que se diseñan en el entorno de desarrollo se pueden cargar en el entorno de prueba para la evaluación de la configuración (integración adecuada de proceso, corrección de resultados y rendimiento) y el control de calidad, como la corrección de los derechos de acceso del rol y la segregación de controles. Las características que permiten el intercambio de configuración de ER pueden usarse para este propósito. Finalmente, las configuraciones de ER probadas se pueden cargar al LCS, donde se pueden compartir con los suscriptores del servicio o al entorno de producción para el uso interno, tal como se muestran en la siguiente ilustración.
+Las configuraciones de ER que se diseñan en el entorno de desarrollo se pueden [cargar](#data-persistence-consideration) en el entorno de prueba para la evaluación de la configuración (integración adecuada de proceso, corrección de resultados y rendimiento) y el control de calidad, como la corrección de los derechos de acceso del rol y la segregación de controles. Las características que permiten el intercambio de configuración de ER pueden usarse para este propósito. Las configuraciones de ER probadas se pueden cargar en LCS para compartirlas con los suscriptores del servicio o se pueden [importar](#data-persistence-consideration) al entorno de producción para el uso interno.
 
 ![Ciclo de vida de la configuración de ER](./media/ger-configuration-lifecycle.png)
 
+## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Consideración de la persistencia de datos
+
+Puede individualmente [importar](tasks/er-import-configuration-lifecycle-services.md) diferentes [versiones](general-electronic-reporting.md#component-versioning) de una [configuración](general-electronic-reporting.md#Configuration) de ER a su instancia de Finance. Cuando se importa una nueva versión de una configuración de ER, el sistema controla el contenido de la versión preliminar de esta configuración:
+
+   - Cuando la versión importada es inferior a la versión más alta de esta configuración en la instancia de Finance actual, el contenido de la versión preliminar de esta configuración permanece sin cambios.
+   - Cuando la versión importada es superior a cualquier otra versión de esta configuración en la instancia de Finance actual, el contenido de la versión importada se copia en la versión preliminar de esta configuración para permitirle continuar editando la última versión completa.
+
+Si esta configuración es propiedad del [proveedor](general-electronic-reporting.md#Provider) de la configuración que está actualmente activada, la versión preliminar de esta configuración está visible para usted en la ficha desplegable **Versiones** de la página **Configuraciones** (**Administración de la organización** > **Informes electrónicos** > **Configuraciones**). Puede seleccionar la versión preliminar de la configuración y [modificar](er-quick-start2-customize-report.md#ConfigureDerivedFormat) su contenido utilizando el diseñador de ER relevante. Cuando haya editado la versión en borrador de una configuración de ER, su contenido ya no coincide con el contenido de la versión más alta de esta configuración en la instancia de Finance actual. Para evitar la pérdida de sus cambios, el sistema muestra un error de que la importación no puede continuar porque la versión de esta configuración es superior a la versión más alta de esta configuración en la instancia de Finance actual. Cuando esto sucede, por ejemplo con la configuración de formato **X**, se muestra el error de que la **versión de formato 'X' no está completa**.
+
+Para deshacer los cambios que introdujo en la versión preliminar, seleccione la versión más alta completada o compartida de su configuración de ER en Finanzas en la ficha desplegable **Versiones** y, a continuación, seleccione la opción **Obtener esta versión**. El contenido de la versión seleccionada se copia a la versión preliminar.
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
+[Información general de los informes electrónicos (ER)](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

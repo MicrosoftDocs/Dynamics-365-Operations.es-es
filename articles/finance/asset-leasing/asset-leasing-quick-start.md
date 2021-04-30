@@ -2,11 +2,11 @@
 title: Introducción al arrendamiento de activos
 description: Este tema describe la capacidad de arrendamiento de activos y recorre los pasos para crear un arrendamiento de activos y ver la información de esos arrendamientos.
 author: moaamer
-ms.date: 10/16/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814137"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892442"
 ---
 # <a name="asset-leasing-get-started"></a>Introducción al arrendamiento de activos
 
 [!include [banner](../includes/banner.md)]
 
 Este tema describe la capacidad de arrendamiento de activos y recorre los pasos para crear un arrendamiento de activos y ver la información de esos arrendamientos. El tema también define la terminología utilizada en la interfaz de usuario y la documentación. El arrendamiento de activos es una capacidad avanzada para administrar, rastrear y automatizar las transacciones financieras del arrendatario para los activos arrendados en Microsoft Dynamics 365 Finance. El arrendamiento de activos cumple con las normas internacionales de contabilidad (NIIF 16) y las normas US GAAP (ASC 842). El arrendamiento de activos captura y procesa la información principal sobre los arrendamientos y ayuda a generar asientos de diario en todo el ciclo de vida del arrendamiento desde el reconocimiento inicial, los asientos de diario mensuales, hasta el deterioro y la terminación del arrendamiento. El arrendamiento de activos se integra a la perfección con otros componentes de Dynamics 365 Finance, incluidos Activos fijos, Proveedores y Contabilidad general.
+
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de la característica y activarla si es necesario. En el espacio de trabajo **Gestión de funciones**, busque y seleccione la característica denominada **Arrendamiento de activos** y luego haga clic en el boton **Habilitar ahora**.
 
 Para obtener más información sobre las normas de contabilidad, consulte la documentación estándar de la NIIF 16 y la US GAAP ASC 842.
 

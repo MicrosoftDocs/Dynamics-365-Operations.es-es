@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829700"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909436"
 ---
 # <a name="master-planning-setup-wizard"></a>Asistente de configuración de planificación maestra
 
@@ -45,13 +45,13 @@ La primera página del asistente pregunta por los requisitos específicos de la 
 
 Si el número de subprocesos calculado excede el 75 por ciento del número de subprocesos disponible, se limita en el 75 por ciento del número de subprocesos que está disponible para cada cliente. (El número de subprocesos disponible será determinado para cada cliente).
 
-Para más información, consulte [Número de subprocesos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Para más información, consulte [Número de subprocesos](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Tamaño de agrupación de trabajos
 
 El tamaño de la agrupación de trabajos se establecerá en **1**. Este valor es a menudo el mejor valor, ya que ayuda a mejorar el rendimiento de la planificación maestra.
 
-Para obtener más información, consulte [Número de tareas en la agrupación de trabajos del ayudante](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Para obtener más información, consulte [Número de tareas en la agrupación de trabajos del ayudante](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Tamaño de agrupación de trabajos de puesta en firme
 
@@ -64,7 +64,7 @@ Cálculo de la agrupación de trabajos = (Número de pedidos planificados × (l�
 
 El tamaño de caché se establecerá en **Máximo**. Este valor es a menudo el mejor valor, ya que ayuda a mejorar el rendimiento de la planificación maestra.
 
-Para obtener más información, consulte [Asignar tiempo a los trabajos de una agrupación de trabajos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Para obtener más información, consulte [Asignar tiempo a los trabajos de una agrupación de trabajos](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Configuración de la fabricación
 
@@ -88,7 +88,7 @@ La resto de las preguntas en esta página y sus respuestas siguen el mismo esque
 - **Sí, como se define en este plan maestro**: la opción **Plan de previsión (límite de tiempo)** se establecerá en **Sí**. Se usará el número de días que especifique y se invalidarán los valores que se establecen en los grupos de cobertura.
 - **Sí, como se define en el grupo de cobertura**: la opción **Plan de previsión (límite de tiempo)** se establecerá en **No**.
 
-Para obtener más información, consulte [Programación de trabajos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Para obtener más información, consulte [Programación de trabajos](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Opciones de programación
 
@@ -99,7 +99,7 @@ La respuesta a la primera pregunta de esta página (“¿Necesita programar las 
 - **Sí**: se usará la programación de trabajos.
 - **No**. se ussará la programación de operaciones.
 
-Para obtener más información, consulte [Programación de operaciones](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) y [Programación de trabajos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Para obtener más información, consulte [Programación de operaciones](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) y [Programación de trabajos](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Actualizaciones de demanda y suministro
 

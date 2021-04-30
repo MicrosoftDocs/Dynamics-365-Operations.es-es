@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833866"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909484"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Administración de costes descargados frente a transporte
 
@@ -51,8 +51,8 @@ TMS y Landed cost no comparten datos de referencia para entidades como configura
 
 Los siguientes informes no funcionan junto con la función de mercancías en tránsito que proporciona el costo de aterrizaje:
 
-- [Informe de totales de mercancía en tránsito de empresas vinculadas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Informe de totales de mercancía en tránsito de empresas vinculadas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Informe de totales de mercancía en tránsito de empresas vinculadas](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Informe de totales de mercancía en tránsito de empresas vinculadas](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 Estos informes asumen que las mercancías se ponen en tránsito tan pronto como se emite un albarán de venta y que se incluyen en el inventario desde el tránsito al recibirlas. Sin embargo, las mercancías en tránsito no se procesan de esta manera. Por lo tanto, si utiliza las funciones de mercancías en tránsito y de empresas vinculadas juntas, los resultados de ambos informes serán incorrectos.
 

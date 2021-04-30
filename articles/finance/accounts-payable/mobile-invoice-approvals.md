@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828043"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897705"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprobaciones de factura móvil
 
@@ -32,7 +32,7 @@ Las capacidades móviles permiten a un usuario empresarial diseñar experiencias
 
 | Requisito previo                                                                                            | Descripción                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Manual sobre capacidades móviles de lectura previa                                                                                |[Plataforma móvil](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Manual sobre capacidades móviles de lectura previa                                                                                |[Plataforma móvil](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Un entorno que tiene la versión 1611 y la actualización de plataforma 3 (noviembre de 2016)                   |
 | Instalar revisión KB 3204341.                                                                              | El grabador de tareas puede registrar de forma errónea dos comandos Close para diálogos desplegables incluidos la actualización de plataforma 3 (noviembre de 2016). |
 | Instalar revisión KB 3207800.                                                                              | Esta revisión habilita los datos adjuntos que se verán en el cliente móvil, lo cual se incluye en la actualización de plataforma 3 (noviembre de 2016).           |
@@ -213,7 +213,7 @@ Para diseñar la página de detalles de la factura para móvil, use la página *
 
 11. Después de agregar todos los campos de los dos pasos anteriores, haga clic en **Listo**. La página deben asemejarse a la siguiente ilustración.
     
-    [![Página después de haber agregado campos](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Ilustración que muestra campos adicionales agregados](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Haga clic en **Listo** para salir del modo de edición.
 

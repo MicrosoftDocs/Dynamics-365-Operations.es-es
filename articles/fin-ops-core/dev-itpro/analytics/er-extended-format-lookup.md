@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ff00b577428c96804af5af29a91c7048bf736400
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753345"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893941"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Permitir a los usuarios configurar una referencia de formato ER preguntando un formato desde el repositorio global
 
@@ -30,7 +30,7 @@ Puede usar el marco de [informes electrónicos](general-electronic-reporting.md)
 
 Por lo general, debe especificar qué formato de ER se debe utilizar en un determinado proceso empresarial. Para hacerlo, seleccione un único formato de ER en un campo de búsqueda que esté configurado como parte de los parámetros específicos del proceso empresarial. Estos campos de búsqueda generalmente se implementan utilizando la API apropiada del marco de ER. Para más información, vea [API del marco de ER: código para mostrar una búsqueda de asignación de formato](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
-Por ejemplo, cuando configura [parámetros de comercio exterior](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters), debe configurar las referencias a formatos ER individuales que se utilizarán para generar la declaración Intrastat y el informe de control de la declaración Intrastat. Las capturas de pantalla a continuación muestran cómo se ve el campo de búsqueda de formatos ER en la página **Parámetros de comercio exterior**.
+Por ejemplo, cuando configura [parámetros de comercio exterior](../../../finance/localizations/emea-intrastat.md#set-up-foreign-trade-parameters), debe configurar las referencias a formatos ER individuales que se utilizarán para generar la declaración Intrastat y el informe de control de la declaración Intrastat. Las capturas de pantalla a continuación muestran cómo se ve el campo de búsqueda de formatos ER en la página **Parámetros de comercio exterior**.
 
 Si la instancia actual de Finance no contiene formatos de ER relacionados con el proceso comercial Intrastat, este campo de búsqueda estará vacío.
 

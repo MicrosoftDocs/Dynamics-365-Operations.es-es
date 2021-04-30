@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cb8050980b9b54480d09a59379430cd229ff141
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44df05083cd3c91e5dcbdb3062665c2145d92a7e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801104"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889821"
 ---
 # <a name="copy-an-instance"></a>Copiar una instancia
 
@@ -39,7 +39,7 @@ Para copiar una instancia, tenga en cuenta los siguientes consejos:
 
 - Debe ser un administrador en el entorno de destino para poder iniciar sesión después de copiar la instancia.
 
-- Cuando copia la base de datos de Human Resources, no copia los elementos (aplicaciones o datos) contenidos en un entorno de Microsoft Power Apps. Para obtener información sobre cómo copiar elementos en un entorno de Power Apps, vea [Copiar un entorno](https://docs.microsoft.com/power-platform/admin/copy-environment). El entorno de Power Apps que desea sobrescribir debe ser un entorno de espacio aislado. Debe ser un administrador global de inquilinos para cambiar un entorno de producción de Power Apps a un entorno de espacio aislado. Para obtener más información sobre cómo cambiar un entorno de Power Apps, vea [Cambiar una instancia](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- Cuando copia la base de datos de Human Resources, no copia los elementos (aplicaciones o datos) contenidos en un entorno de Microsoft Power Apps. Para obtener información sobre cómo copiar elementos en un entorno de Power Apps, vea [Copiar un entorno](/power-platform/admin/copy-environment). El entorno de Power Apps que desea sobrescribir debe ser un entorno de espacio aislado. Debe ser un administrador global de inquilinos para cambiar un entorno de producción de Power Apps a un entorno de espacio aislado. Para obtener más información sobre cómo cambiar un entorno de Power Apps, vea [Cambiar una instancia](/dynamics365/admin/switch-instance).
 
 - Si copia una instancia en su entorno de espacio aislado y desea integrar su entorno de espacio aislado con Dataverse, debe volver a aplicar campos personalizados a tablas de Dataverse. Consulte [Aplicar campos personalizados a Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
@@ -80,7 +80,7 @@ Para completar esta tarea, primero copie una instancia y luego inicie sesión en
 
 6. Seleccione el entorno de Power Apps para copiar y luego seleccione **Copiar**.
 
-7. Cuando se complete el proceso de copia, inicie sesión en la instancia de destino y habilite la integración con Dataverse. Para obtener más información e instrucciones, consulte [Configurar la integración de Dataverse](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Cuando se complete el proceso de copia, inicie sesión en la instancia de destino y habilite la integración con Dataverse. Para obtener más información e instrucciones, consulte [Configurar la integración de Dataverse](./hr-admin-integration-common-data-service.md).
 
 ## <a name="data-elements-and-statuses"></a>Elementos de datos y estados
 
@@ -142,7 +142,7 @@ Para cada campo personalizado que se expone en tablas de Dataverse, siga los sig
 
 El proceso de deseleccionar, aplicar cambios, volver a seleccionar y volver a aplicar cambios hace que el esquema se actualice en Dataverse para incluir los campos personalizados.
 
-Para obtener más información sobre los campos personalizados, consulte [Crear y trabajar con campos personalizados](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+Para obtener más información sobre los campos personalizados, consulte [Crear y trabajar con campos personalizados](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
 
 ## <a name="see-also"></a>Consulte también
 

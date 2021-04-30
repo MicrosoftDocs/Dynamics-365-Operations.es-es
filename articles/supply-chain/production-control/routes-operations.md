@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819289"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908937"
 ---
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
@@ -79,7 +79,7 @@ Se debe aprobar una ruta antes de que se pueda utilizar en el proceso de planifi
 
 Cada ruta se puede aprobar o desaprobar por separado. Sin embargo, tenga en cuenta que, cuando una ruta se desaprueba, también se desaprobarán todas las versiones de ruta relacionadas. En los parámetros de control de producción, puede especificar si las rutas pueden desaprobarse y si las rutas aprobadas se pueden modificar.  
 
-Si debe retener un registro que registre quién aprueba cada ruta, puede requerir firmas electrónicas para la aprobación de la ruta. Los usuarios tendrán que confirmar su identidad con una [firma electrónica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Si debe retener un registro que registre quién aprueba cada ruta, puede requerir firmas electrónicas para la aprobación de la ruta. Los usuarios tendrán que confirmar su identidad con una [firma electrónica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Las operaciones son un paso del proceso de producción. Cada operación tiene un identificador y una descripción sencilla. Las siguientes tablas muestran ejemplos típicos de operaciones de una tienda de máquinas.
@@ -185,7 +185,7 @@ Al activar una versión de ruta, la designa como la versión de ruta predetermin
 
 ### <a name="electronic-signatures"></a>Firmas electrónicas
 
-Si debe retener un registro que registre quién aprueba y activa cada versión de la ruta, puede requerir firmas electrónicas para estas tareas. Los usuarios que aprueban y activan las versiones de ruta tendrán que confirmar su identidad con una [firma electrónica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Si debe retener un registro que registre quién aprueba y activa cada versión de la ruta, puede requerir firmas electrónicas para estas tareas. Los usuarios que aprueban y activan las versiones de ruta tendrán que confirmar su identidad con una [firma electrónica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Cambio de producto que usa administración de casos
 
@@ -253,7 +253,7 @@ Por lo tanto, cuando la activación se selecciona para la superposición, el res
 
 - [Capacidades de recursos](resource-capabilities.md)
 
-- [Visión general de la firma electrónica](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Visión general de la firma electrónica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

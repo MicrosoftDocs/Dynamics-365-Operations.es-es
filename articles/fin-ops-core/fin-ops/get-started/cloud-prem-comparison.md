@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 497061500660e41c8f82c73e5dd6c085810c9209
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744060"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910458"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparación de características locales y en la nube
 
@@ -84,7 +84,7 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 
 | **Área**                | **Característica**             | **Nube** | **Local** |
 |-------------------------|-------------------|-----------|-----------------|
-| Administración de activos                     |                                                                                           | Sí       | N.º              |
+| Administración de activos                     |                                                                                           | Sí       | Sí             |
 | Cumplimiento y certificaciones        |                                                                                           | Sí       | Sí             |
 |                                      | Certificación SOC 1 de tipo 1                                                                | Sí       | Nº              |
 | Contabilidad de costes                      |                                                                                           | Sí       | Sí             |
@@ -147,7 +147,7 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Para ver una lista de capacidades que estén disponibles en implementaciones locales, consulte [Capacidades de Commerce que están disponibles en implementaciones locales](../../../retail/retail-onprem.md).
+Para ver una lista de capacidades que estén disponibles en implementaciones locales, consulte [Capacidades de Commerce que están disponibles en implementaciones locales](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

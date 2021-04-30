@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 725bce4b3aa7feb61bd7d7ded1be07f803424e57
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7c6e4dcbd854cfadbc34f0040dcffd277d32a8d9
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745206"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909043"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Configurar e instalar tutorial Regression Suite Automation Tool
 
@@ -54,7 +54,7 @@ Este tema es un tutorial que le ayuda a configurar e iniciar la RSAT y las herra
 
 ### <a name="user-eligibility"></a>Idoneidad del usuario
 
-Asegúrese de que el usuario se crea en Azure DevOps y tiene un nivel de suscripción que brinda acceso a Azure Test Plans. Se requiere una licencia de Azure DevOps Test Plans solo si el usuario creará y administrará casos de prueba (es decir, no todos los usuarios de RSAT requieren esta licencia). Para obtener información sobre los requisitos de la licencia, consulte [Requisitos de la licencia](https://docs.microsoft.com/azure/devops/test/manual-test-permissions#license-requirements).
+Asegúrese de que el usuario se crea en Azure DevOps y tiene un nivel de suscripción que brinda acceso a Azure Test Plans. Se requiere una licencia de Azure DevOps Test Plans solo si el usuario creará y administrará casos de prueba (es decir, no todos los usuarios de RSAT requieren esta licencia). Para obtener información sobre los requisitos de la licencia, consulte [Requisitos de la licencia](/azure/devops/test/manual-test-permissions#license-requirements).
 
 ### <a name="create-a-new-azure-devops-project"></a>Crear un proyecto nuevo de Azure DevOps
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807953"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909240"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Flujos de trabajo de adquisición y abastecimiento
 
@@ -47,7 +47,7 @@ Los siguientes tipos de flujo de trabajo están disponibles para Adquisición y 
 | Flujo de trabajo de solicitud de adición de proveedor | Cree su revisión y flujos de trabajo de aprobación para agregar nuevos proveedores mediante solicitudes de proveedor. |
 
 > [!IMPORTANT]
-> Cuando agrega un nuevo flujo de trabajo, también puede ver los siguientes flujos de trabajo obsoletos enumerados en el cuadro de diálogo **Crear flujo de trabajo**. Estos están relacionados con la funcionalidad *Acuse de recibo* que estaba disponible en [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), pero que ahora ha quedado obsoleto. Actualmente, estos flujos de trabajo no son compatibles.
+> Cuando agrega un nuevo flujo de trabajo, también puede ver los siguientes flujos de trabajo obsoletos enumerados en el cuadro de diálogo **Crear flujo de trabajo**. Estos están relacionados con la funcionalidad *Acuse de recibo* que estaba disponible en [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), pero que ahora ha quedado obsoleto. Actualmente, estos flujos de trabajo no son compatibles.
 > 
 > - Flujo de trabajo de notificación de fecha de vencimiento de entrega
 > - Flujo de trabajo de notificación de factura recibida

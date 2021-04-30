@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840253"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897729"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurar la facturación electrónica en Regulatory Configuration Services (RCS)
 
@@ -50,6 +50,14 @@ Finalmente, las características admiten el intercambio de mensajes con servicio
 
 La disponibilidad de las características de facturación electrónica depende del país o región. Aunque algunas características están generalmente disponibles, otras están en versión preliminar.
 
+#### <a name="generally-available-features"></a>Funciones generalmente disponibles
+
+La siguiente tabla muestra las características de facturación electrónica que se encuentran actualmente generalmente disponibles.
+
+| País/región | Nombre de característica                         | Documento empresarial |
+|----------------|--------------------------------------|-------------------|
+| Egipto          | Factura electrónica egipcia (EG) | Facturas de ventas y facturas de proyectos |
+
 #### <a name="preview-features"></a>Características de vista previa
 
 La siguiente tabla muestra las características de facturación electrónica que se encuentran actualmente en versión preliminar.
@@ -61,7 +69,6 @@ La siguiente tabla muestra las características de facturación electrónica que
 | Brasil         | NF-e brasileño (BR)                  | Modelo de documento fiscal 55, cartas de corrección, cancelaciones y descartes |
 | Brasil         | NFS-e brasileño ABRASF Curitiba (BR) | Documentos fiscales de servicios |
 | Dinamarca        | Factura electrónica para Dinamarca (DK)       | Facturas de ventas y facturas de proyectos |
-| Egipto          | Factura electrónica egipcia (EG) | Facturas de ventas y facturas de proyectos |
 | Estonia        | Factura electrónica para Estonia (EE)     | Facturas de ventas y facturas de proyectos |
 | Finlandia        | Factura electrónica para Finlandia (FI)      | Facturas de ventas y facturas de proyectos |
 | Francia         | Factura electrónica para Francia (FR)       | Facturas de ventas y facturas de proyectos |
@@ -202,6 +209,91 @@ La siguiente tabla enumera las acciones disponibles y si están actualmente disp
 | Llamar al servicio PAC mexicano                      | Intégrese con el servicio PAC mexicano para el envío de CFDI.                      | En vista previa           |
 | Respuesta de proceso                              | Analice la respuesta recibida desde la llamada del servicio web.                     | Disponibilidad general  |
 | Usar MS Power Automate                         | Integrar con flujo incorporado en Microsoft Power Automate.                       | En vista previa           |
+
+### <a name="applicability-rules"></a>Reglas de aplicabilidad
+
+Las reglas de aplicabilidad son cláusulas configurables que se definen en el nivel de la función de facturación electrónica. Las reglas están configuradas para proporcionar un contexto para la ejecución de funciones de facturación electrónica a través del conjunto de capacidades de facturación electrónica.
+
+Cuando un documento comercial de Finance o Supply Chain Management se envía a la facturación electrónica, el documento comercial no incluye una referencia explícita que permita al conjunto de capacidades de facturación electrónica llamar a una función de facturación electrónica en particular para procesar el envío.
+
+No obstante, cuando se configura adecuadamente, el documento comercial contiene los elementos necesarios que permiten que la facturación electrónica resuelva qué función de facturación electrónica se debe seleccionar y luego generar la factura electrónica.
+
+Las reglas de aplicabilidad permiten que el conjunto de capacidades de facturación electrónica encuentre las características exactas de facturación electrónica que se deben utilizar para procesar el envío. Esto se hace haciendo coincidir el contenido del documento comercial enviado con las cláusulas de las reglas de aplicabilidad.
+
+Por ejemplo, dos funciones de facturación electrónica con reglas de aplicabilidad relacionadas se implementan en el conjunto de capacidades de facturación electrónica.
+
+| Característica de facturación electrónica | Reglas de aplicabilidad        |
+|------------------------------|--------------------------- |
+| C                            | <p>País = BR</p><p>y</p><p>Entidad jurídica = BRMF</p>  |
+| mil millones                            | <p>País = MX</p><p>y</p><p>Entidad jurídica = MXMF</p>  |
+
+Si un documento comercial de Finance o Supply Chain Management se envía al conjunto de capacidades de Facturación electrónica, el documento comercial contiene los siguientes atributos rellenados como:
+
+- País = BR
+- Entidad jurídica = BRMF
+
+El conjunto de capacidades de facturación electrónica seleccionará la función de facturación electrónica **A** para procesar el envío y generar la factura electrónica.
+
+Del mismo modo, si el documento comercial contiene:
+
+- País = MX
+- Entidad jurídica = MXMF
+
+Función de facturación electrónica **B** se selecciona para generar la factura electrónica.
+
+La configuración de las reglas de aplicabilidad no puede ser ambigua. Esto significa que dos o más funciones de facturación electrónica no pueden tener las mismas cláusulas; de lo contrario, no se realizará ninguna selección. Si hay una duplicación de las funciones de facturación electrónica, para evitar la ambigüedad, utilice cláusulas adicionales para permitir que el conjunto de capacidades de facturación electrónica distinga entre las dos funciones de facturación electrónica.
+
+Por ejemplo, considere la función de facturación electrónica **C**. Esta función es una copia de la función de facturación electrónica **A**.
+
+| Característica de facturación electrónica | Reglas de aplicabilidad        |
+|------------------------------|--------------------------- |
+| C                            | <p>País = BR</p><p>y</p><p>Entidad jurídica = BRMF</p>  |
+| C                            | <p>País = BR</p><p>y</p><p>Entidad jurídica = BRMF</p>  |
+
+En este ejemplo, la característica **C** está delante de un envío de documento comercial que contiene lo siguiente:
+
+- País = BR
+- Entidad jurídica = BRMF
+
+La capacidad de facturación electrónica no puede distinguir qué función de facturación electrónica se debe utilizar para procesar el envío porque los envíos contienen exactamente las mismas cláusulas.
+
+Para crear una distinción entre las dos características a través de las reglas de aplicabilidad, se debe agregar una nueva cláusula a una de las características para permitir que el conjunto de capacidades de facturación electrónica seleccione la característica de facturación electrónica adecuada.
+
+| Característica de facturación electrónica | Reglas de aplicabilidad        |
+|------------------------------|--------------------------- |
+| C                            | <p>País = BR</p><p>y</p><p>Entidad jurídica = BRMF</p>  |
+| C                            | <p>País = BR</p><p>y</p><p>Entidad jurídica = BRMF</p><p>y</p><p>Modelo=55</p>  |
+
+Para apoyar la creación de cláusulas más complejas, están disponibles los siguientes recursos:
+
+Operadores lógicos:
+- Y
+- O
+
+Tipos de operadores:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Posterior o igual a
+- Anterior o igual a
+- Contains
+- Empieza por
+
+Tipos de datos:
+- Cadena
+- Número
+- Booleano
+- Fecha
+- UUID
+
+Capacidad para agrupar y desagrupar cláusulas.
+El ejemplo tiene el aspecto siguiente.
+
+| Característica de facturación electrónica | Reglas de aplicabilidad        |
+|------------------------------|--------------------------- |
+| C                            | <p>País = BR</p><p>y</p><p>( Entidad jurídica = BRMF</p><p>o</p><p>Modelo=55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Proveedores de configuración
 

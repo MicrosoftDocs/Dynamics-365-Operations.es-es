@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752975"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908350"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Ver y actualizar datos de entidad con Excel 
 
@@ -45,7 +45,7 @@ Para obtener más información sobre el uso del complemento de Excel, vea el bre
 2. Seleccione la opción **Abrir en Excel** y abra el libro que se ha generado. Este libro contiene información vinculante para la entidad, un puntero para su entorno y un puntero para el complemento de Excel.
 3. En Excel, seleccione **Habilitar edición** para habilitar el complemento de Excel que desee ejecutar. El complemento de Excel se ejecuta en un panel a la derecha de la ventana de Excel.
 4. Si ejecuta el complemento de Excel por primera vez, seleccione **Confiar en este complemento**.
-5. Si se le pide que inicie sesión, seleccione **Iniciar sesión** y, a continuación, inicie sesión con las mismas credenciales empleadas para la aplicación de Finance and Operations. El complemento de Excel utilizará el contexto de un inicio de sesión anterior desde el explorador e iniciará su sesión automáticamente, si es posible. (Para obtener información sobre el explorador que se utiliza en función del sistema operativo, consulte [Exploradores utilizados por los complementos de Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Para asegurarse de que el inicio de sesión se ha realizado correctamente, compruebe el nombre de usuario en la esquina superior derecha del complemento de Excel. 
+5. Si se le pide que inicie sesión, seleccione **Iniciar sesión** y, a continuación, inicie sesión con las mismas credenciales empleadas para la aplicación de Finance and Operations. El complemento de Excel utilizará el contexto de un inicio de sesión anterior desde el explorador e iniciará su sesión automáticamente, si es posible. (Para obtener información sobre el explorador que se utiliza en función del sistema operativo, consulte [Exploradores utilizados por los complementos de Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Para asegurarse de que el inicio de sesión se ha realizado correctamente, compruebe el nombre de usuario en la esquina superior derecha del complemento de Excel. 
 
 El complemento de Excel lee automáticamente los datos de la entidad que ha seleccionado. Tenga en cuenta que no habrá datos en el libro hasta que el complemento de Excel lo haya leído.
 
@@ -60,7 +60,7 @@ El complemento de Excel lee automáticamente los datos de la entidad que ha sele
 
 6. Seleccione **Aceptar** y, a continuación **Sí** para confirmar el cambio. El complemento de Excel se reinicia y carga los metadatos.
 
-    El botón **Diseño** está ahora disponible. Si el complemento de Excel tiene un botón **Cargar applets**, probablemente no haya iniciado sesión como el usuario correcto. Para obtener más información, consulte “Aparece el botón Cargar applets” en la sección [Solución de problemas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) de este tema.
+    El botón **Diseño** está ahora disponible. Si el complemento de Excel tiene un botón **Cargar applets**, probablemente no haya iniciado sesión como el usuario correcto. Para obtener más información, consulte “Aparece el botón Cargar applets” en la sección [Solución de problemas](../office-integration/use-excel-add-in.md#troubleshooting) de este tema.
 
 7. Seleccione **Diseño**. El complemento de Excel recupera los metadatos de la entidad.
 8. Seleccione **Agregar tabla**. Aparece una lista de entidades. Las entidades aparecen con el formato "Nombre - Etiqueta".
@@ -138,7 +138,7 @@ Existen problemas que se pueden resolver con unos sencillos pasos.
 
 - **Aparece el botón Cargar applets** - Si el complemento de Excel tiene un botón **Cargar applets** tras el inicio de sesión, probablemente no haya iniciado sesión como el usuario correcto. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, selecciónelo, cierre la sesión y vuelva a abrirla.
 - **Recibe un "Mensaje prohibido"** - Si recibe un mensaje “Prohibido” mientras que el complemento de Excel está cargando metadatos, la cuenta que ha iniciado sesión en el complemento de Excel no tiene permisos para usar el servicio, la instancia o en la base de datos objetivo. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, selecciónelo, cierre la sesión y vuelva a abrirla.
-- **Aparece una página web en blanco sobre Excel** - Si se abre una página web en blanco durante proceso de inicio de sesión, la cuenta requiere AD FS, pero la versión de Excel que está ejecutando el complemento de Excel no es lo suficientemente reciente para cargar el cuadro de diálogo de inicio de sesión. Para resolver este problema, actualice la versión de Excel que usa. Para actualizar la versión de Excel si se encuentra en una empresa que está en el canal diferido, utilice la [Herramienta de implementación de Office](https://technet.microsoft.com/library/jj219422.aspx) para [cambiar del canal diferido al canal actual](https://technet.microsoft.com/library/mt455210.aspx).
+- **Aparece una página web en blanco sobre Excel** - Si se abre una página web en blanco durante proceso de inicio de sesión, la cuenta requiere AD FS, pero la versión de Excel que está ejecutando el complemento de Excel no es lo suficientemente reciente para cargar el cuadro de diálogo de inicio de sesión. Para resolver este problema, actualice la versión de Excel que usa. Para actualizar la versión de Excel si se encuentra en una empresa que está en el canal diferido, utilice la [Herramienta de implementación de Office](/deployoffice/overview-office-deployment-tool) para [cambiar del canal diferido al canal actual](/deployoffice/overview-update-channels).
 - **Recibe un tiempo de espera mientras publica cambios de datos**: si recibe mensajes de tiempo de espera mientras intenta publicar cambios de datos en una entidad, piense en reducir el tamaño del lote de publicación para el libro afectado. Las entidades que desencadenan mayores cantidades de lógica en los cambios de registro pueden requerir que las actualizaciones se envíen en lotes más pequeños para ayudar a evitar tiempos de espera.
 
 

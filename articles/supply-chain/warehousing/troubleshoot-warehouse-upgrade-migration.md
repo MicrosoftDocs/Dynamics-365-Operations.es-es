@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 12dcadae2a65d71614a2eee9468ec93cac284a7b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826404"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907896"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Solucionar problemas de actualización y migración a la gestión avanzada de almacenes
 
@@ -51,7 +51,7 @@ Para obtener más información sobre el proceso para pasar del almacenamiento b�
 - [Habilitar el proceso de gestión de almacén para artículos y almacenes existentes](https://cleverax.wordpress.com/2017/12/06/d365fo-enable-warehouse-management-process-for-existing-items-and-warehouses/)
 - [Migración de Microsoft Dynamics AX WMS a la nueva funcionalidad de transporte y almacenamiento R3](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [Migración de elementos WMSI/WMS2](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
-- [Actualizar la gestión de almacenes de Microsoft Dynamics AX 2012 a Supply Chain Management](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+- [Actualizar la gestión de almacenes de Microsoft Dynamics AX 2012 a Supply Chain Management](./upgrade-migration-warehouse-management-processes.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

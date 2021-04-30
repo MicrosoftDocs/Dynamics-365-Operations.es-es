@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793834"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889845"
 ---
 # <a name="manage-features-in-human-resources"></a>Administrar características en Human Resources
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793834"
 
 Como parte de nuestro desarrollo continuo de nuevas capacidades de Microsoft Dynamics 365 Human Resources, deseamos que los clientes experimenten las nuevas características lo más rápidamente posible. Ofrecemos características en versión preliminar, que están casi preparadas para la disponibilidad general y han pasado por un amplio proceso de pruebas. Simplemente estamos buscando una ronda final de comentarios de clientes y de validación antes de estén disponibles de forma general.
 
-Para obtener más información sobre características nuevas en Human Resources, consulte [Novedades en Human Resources](hr-admin-whats-new.md) y [Plan de lanzamiento de Dynamics 365 and Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Para obtener más información sobre características nuevas en Human Resources, consulte [Novedades en Human Resources](hr-admin-whats-new.md) y [Plan de lanzamiento de Dynamics 365 and Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-El espacio de trabajo **Administración de características** proporciona una lista de características entregadas en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación. Para obtener más información acerca de la administración de características, consulte [Visión general de la Administración de características](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+El espacio de trabajo **Administración de características** proporciona una lista de características entregadas en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación. Para obtener más información acerca de la administración de características, consulte [Visión general de la Administración de características](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Todas las características nuevas siguen en versión preliminar durante al menos 30 días como mínimo, y normalmente 30-60 días. Las características más importantes están disponibles en octubre y abril de cada año tras el periodo de prueba preliminar. En cuanto vea características nuevas en el espacio de trabajo **Administración de características**, puede activarlas. Algunas características pueden estar activadas de forma predeterminada.
 
@@ -93,6 +93,6 @@ No incluya los datos personales (información que podría identificarle) en los 
 ## <a name="see-also"></a>Consulte también
 
 - [Novedades de Human Resources](hr-admin-whats-new.md)
-- [Plan de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Plan de la versión de Dynamics 365 y Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

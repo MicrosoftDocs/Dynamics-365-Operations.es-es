@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753729"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894133"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Especifique una ubicación de almacenamiento personalizada para los documentos generados
 
@@ -27,7 +27,7 @@ La interfaz de programación de aplicaciones (API) del marco de informes electr�
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Debe implementar una topología que admita una compilación continua. (Para obtener más información, consulte [Implementar topologías que admiten la automatización continua de la compilación y la prueba](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)). Debe tener acceso a esta topología para uno de los roles siguientes:
+Debe implementar una topología que admita una compilación continua. (Para obtener más información, consulte [Implementar topologías que admiten la automatización continua de la compilación y la prueba](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)). Debe tener acceso a esta topología para uno de los roles siguientes:
 
 - Desarrollador de informes electrónicos
 - Consultor funcional de informes electrónicos
@@ -53,7 +53,7 @@ En la topología actual, [cree un nuevo formato de ER](tasks/er-format-configura
 
 Para especificar cómo se distribuyen los documentos que un formato de ER genera, debe configurar [Informes electrónicos (ER)](electronic-reporting-destinations.md). En cada destino de ER que se configure para almacenar documentos generados como archivos, debe especificar un tipo de documento del marco de la gestión de documentos. Los distintos tipos de documentos se pueden usar para distribuir los documentos que distintos formatos de ER generan.
 
-1. Agregue un nuevo [tipo de documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) para el formato de ER que ha creado o importado anteriormente. En la ilustración siguiente, el tipo de documento es **FileX**.
+1. Agregue un nuevo [tipo de documento](../../fin-ops/organization-administration/configure-document-management.md) para el formato de ER que ha creado o importado anteriormente. En la ilustración siguiente, el tipo de documento es **FileX**.
 2. Para distinguir este tipo de documento de otros tipos de documentos, incluya una palabra clave específica en su nombre. Por ejemplo, en la ilustración siguiente, el nombre es **Carpeta (LOCAL)**.
 3. En el campo **Clase**, especifique **Asociar archivo**.
 4. En el campo **Grupo**, especifique **archivo**.
@@ -117,14 +117,14 @@ Se activa el evento **AttachingFile()** cuando se procesan los destinos de ER si
 
 ## <a name="configure-an-er-destination"></a>Configurar un destino de ER
 
-1. Configure el destino archivado de uno de los elementos anteriormente mencionados (archivo, carpeta, combinación o datos adjuntos) del formato de ER que ha creado o importado. Para obtener instrucciones, consulte [Destinación de configuración de ER](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Configure el destino archivado de uno de los elementos anteriormente mencionados (archivo, carpeta, combinación o datos adjuntos) del formato de ER que ha creado o importado. Para obtener instrucciones, consulte [Destinación de configuración de ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Utilice el tipo de documento que ha agregado anteriormente para el destino configurado. (Para el ejemplo en este tema, el tipo de documento es **FileX**.)
 
 ![Cuadro de diálogo Configuración de destino](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Modificación de código de origen
 
-1. Agregue una nueva clase al proyecto de Microsoft Visual Studio , y escriba el código para suscribirse al evento **AttachingFile()** que se menciona anteriormente. (Para obtener más información sobre el patrón de extensibilidad usado, consulte [Responder mediante EventHandlerResult](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Por ejemplo, en la nueva clase, escriba código que realice las acciones siguientes:
+1. Agregue una nueva clase al proyecto de Microsoft Visual Studio , y escriba el código para suscribirse al evento **AttachingFile()** que se menciona anteriormente. (Para obtener más información sobre el patrón de extensibilidad usado, consulte [Responder mediante EventHandlerResult](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Por ejemplo, en la nueva clase, escriba código que realice las acciones siguientes:
 
     1. Almacenar los archivos generados en una carpeta del sistema de archivos local del servidor que ejecuta el servicio Application Object Server (AOS).
     2. Almacenar estos archivos generados solo si se utiliza el nuevo tipo de documento (por ejemplo, el tipo **FileX** que tiene la palabra clave “(LOCAL)” en su nombre) mientras se asocia un archivo al registro en el registro de trabajo de la ejecución de ER.

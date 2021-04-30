@@ -2,7 +2,7 @@
 title: Número de libros por diario
 description: Este tema describe la relación entre diarios y libros de activos cuando crea una propuesta de adquisición o depreciación de activos fijos a través de un trabajo por lotes. Puede definir el número máximo de libros que se incluyen para cada adquisición y para depreciación.
 author: moaamer
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb2a25d9e2ffc26f0a37a09cdf3e28a7ca4b84bc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822042"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892416"
 ---
 # <a name="number-of-books-per-journal"></a>Número de libros por diario
 

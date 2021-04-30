@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: c0db0c143abb8ce26a4a3007845050e4ddb02363
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 15466699b94c284208330d50b840c874534b879c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840590"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910289"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Sincronizar información de nivel de inventario de Supply Chain Management a Field Service 
 
@@ -67,7 +67,7 @@ Supply Chain Management actuará como el maestro de los niveles de inventario. P
 Los productos y los almacenes dónde se han realizado los niveles de inventario se gestionan desde Supply Chain Management y se pueden controlar con la consulta y el filtrado avanzados (Power Query).
 
 > [!NOTE]
-> Es posible crear varios almacenes en Field Services (con **Se mantiene externamente = No**) y después asignarlos a un único almacén en Supply Chain Management, con la funcionalidad de consulta y filtrado avanzados. Se usa en situaciones en las que desea que Field Service domine el nivel de inventario detallado y solo envíe actualizaciones a Supply Chain Management. En este caso Field Service no recibirá actualizaciones del nivel de inventario desde Supply Chain Management. Para consultar información adicional, vea [Sincronizar los ajustes de inventario desde Field Service a Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) y [Sincronizar pedidos de trabajo en Field Service con pedidos de ventas vinculados a proyecto en Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Es posible crear varios almacenes en Field Services (con **Se mantiene externamente = No**) y después asignarlos a un único almacén en Supply Chain Management, con la funcionalidad de consulta y filtrado avanzados. Se usa en situaciones en las que desea que Field Service domine el nivel de inventario detallado y solo envíe actualizaciones a Supply Chain Management. En este caso Field Service no recibirá actualizaciones del nivel de inventario desde Supply Chain Management. Para consultar información adicional, vea [Sincronizar los ajustes de inventario desde Field Service a Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) y [Sincronizar pedidos de trabajo en Field Service con pedidos de ventas vinculados a proyecto en Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>Solución CRM de Field Service
 La entidad del **inventario de productos externos** solo se usa para back end en la integración. Esta entidad recibe los valores del nivel de inventario de Supply Chain Management en la integración y después transforma estos valores en diarios de inventario manual, que luego cambia los productos de inventario en el almacén.

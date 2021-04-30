@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810207"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897633"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Derechos de acceso para controladores de objeto de coste
 
@@ -62,9 +62,8 @@ El siguiente ejemplo muestra cómo puede ser el aspecto de las jerarquías de di
 
 Puede usar el FastTab **Usuarios** en el diseñador de jerarquías para insertar uno o más Id. de usuarios en cada nodo.
 
-|                                   | Usuarios            | Intervalos de miembros de dimensión   |                         |
+|             Nodos                 | Usuarios            | Desde miembro de dimensión     |   Hasta miembro de dimensión   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Nodos**                         | **Id. de usuario**      | **Desde miembro de dimensión** | **Hasta miembro de dimensión** |
 | Organización                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administrador                 | Abril            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finanzas   | Alicia           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ Los valores para la jerarquía de listas de acceso se utilizan para controlar lo
     - Visualización de los datos de Power BI que se insertarán en el cliente de Dynamics 365 Finance
 
 > [!IMPORTANT]
-> - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Este tema muestra los requisitos previos que deben estar presentes antes de poder usar el espacio de trabajo **Control de costes**.
 
 Recursos adicionales
 
 - [Espacio de trabajo de control de costes](cost-control-workspace.md)
 - [Jerarquía de dimensiones](dimension-hierarchy.md)
-- [Configurar la seguridad del paquete contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Configurar la seguridad del paquete contenido de contabilidad de costes](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

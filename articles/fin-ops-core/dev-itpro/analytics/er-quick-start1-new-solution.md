@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743736"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891802"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Diseñar una nueva solución de informes electrónicos para imprimir un informe personalizado
 
@@ -119,7 +119,7 @@ Los siguientes pasos explican cómo un usuario con el rol de Administrador del s
 
 - [Recursos adicionales](#References)
 
-En este ejemplo, va a crear una nueva solución de informes electrónicos para el módulo [Cuestionario](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Esta nueva solución de informes electrónicos le permite diseñar un informe utilizando una hoja de cálculo de Microsoft Excel como plantilla. A continuación, puede generar el informe de **Cuestionario** con formato Excel o PDF, y generar el informe de SQL Server Reporting Services (SSRS) existente. También puede modificar el nuevo informe posteriormente, a petición. No se requiere codificación.
+En este ejemplo, va a crear una nueva solución de informes electrónicos para el módulo [Cuestionario](../../../human-resources/hr-learning-questionnaires.md). Esta nueva solución de informes electrónicos le permite diseñar un informe utilizando una hoja de cálculo de Microsoft Excel como plantilla. A continuación, puede generar el informe de **Cuestionario** con formato Excel o PDF, y generar el informe de SQL Server Reporting Services (SSRS) existente. También puede modificar el nuevo informe posteriormente, a petición. No se requiere codificación.
 
 1. Para ejecutar el informe existente, vaya a **Cuestionario** \> **Diseño** \> **Informe de cuestionarios**.
 

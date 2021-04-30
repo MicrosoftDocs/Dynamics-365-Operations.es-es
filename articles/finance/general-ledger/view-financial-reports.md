@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e744ade8b02b288821dd9142c85092d384db4b2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816964"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897293"
 ---
 # <a name="view-financial-reports"></a>Ver informes financieros
 
@@ -79,7 +79,7 @@ Para exportar un informe financiero, en el Panel de acciones, haga clic en **Exp
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Informes financieros](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Informes financieros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: cda743983f84edf0fa8c513013de812698cbb9ba
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748230"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908241"
 ---
 # <a name="mobile-app-home-page"></a>Página principal de aplicación móvil
 
@@ -91,8 +91,8 @@ La siguiente tabla incluye vínculos a los recursos que pueden ayudarle a implem
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Espacio de trabajo móvil de inventario disponible</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Espacios de trabajo móviles de pedidos de ventas</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Espacio de trabajo de móvil de colaboración de proveedor</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Espacio de trabajo móvil de entrada de tiempo de proyecto</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Espacio de trabajo móvil de gestión de gastos</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Espacio de trabajo móvil de entrada de tiempo de proyecto</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Espacio de trabajo móvil de gestión de gastos</a></li>
 
 </ul></td>
 </tr>

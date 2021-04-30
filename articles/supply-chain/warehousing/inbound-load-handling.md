@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835639"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910024"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
 Este tema describe el proceso de manejo de almacén para cargas entrantes para pedidos de compra.
 
-Para cada carga entrante, su sistema ya debe incluir un pedido de ventas relacionado y también puede contener una especificación de carga relacionada y / o un plan de transporte. Para obtener más información sobre cómo crear y administrar cargas entrantes, vea [Proceso empresarial: planificación del transporte para cargas entrantes](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Para cada carga entrante, su sistema ya debe incluir un pedido de ventas relacionado y también puede contener una especificación de carga relacionada y / o un plan de transporte. Para obtener más información sobre cómo crear y administrar cargas entrantes, vea [Proceso empresarial: planificación del transporte para cargas entrantes](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Descripción general: cómo se crean, registran y reciben las cargas entrantes
 
@@ -38,11 +38,11 @@ La siguiente ilustración muestra el flujo típico para manejar cargas entrantes
 
 1. **Se crea un registro de carga entrante para planificar la llegada y su contenido.**
 
-    El registro de carga entrante representa un envío de proveedor de uno o más pedidos de compra. Se espera que la carga llegue al almacén como una unidad de transporte física (como una carga de camión). El registro de carga entrante se utiliza con fines de planificación y permite al coordinador de logística realizar un seguimiento del progreso de la carga del proveedor. También se utiliza para registrar cantidades de línea de pedido y administrar el progreso a través de las operaciones de almacén, como el trabajo de llegada y su guardado. Las cargas se pueden crear de forma automática o manual y se pueden basar en un pedido de compra o en un aviso de envío avanzado (ASN) del proveedor. Para más información, consulte [Crear o modificar una carga entrante](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    El registro de carga entrante representa un envío de proveedor de uno o más pedidos de compra. Se espera que la carga llegue al almacén como una unidad de transporte física (como una carga de camión). El registro de carga entrante se utiliza con fines de planificación y permite al coordinador de logística realizar un seguimiento del progreso de la carga del proveedor. También se utiliza para registrar cantidades de línea de pedido y administrar el progreso a través de las operaciones de almacén, como el trabajo de llegada y su guardado. Las cargas se pueden crear de forma automática o manual y se pueden basar en un pedido de compra o en un aviso de envío avanzado (ASN) del proveedor. Para más información, consulte [Crear o modificar una carga entrante](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **El proveedor confirma el despacho de carga.**
 
-    Cuando el proveedor despacha la carga, el coordinador de logística en el almacén receptor confirma el envío de la carga. Si la empresa receptora está utilizando el módulo **Gestión del transporte**, la confirmación del envío entrante activará otros procesos de gestión de carga que están asociados con las cargas entrantes. Para más información, consulte [Confirmar una carga para envío](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Cuando el proveedor despacha la carga, el coordinador de logística en el almacén receptor confirma el envío de la carga. Si la empresa receptora está utilizando el módulo **Gestión del transporte**, la confirmación del envío entrante activará otros procesos de gestión de carga que están asociados con las cargas entrantes. Para más información, consulte [Confirmar una carga para envío](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **La carga llega al almacén y los trabajadores registran cantidades.**
 

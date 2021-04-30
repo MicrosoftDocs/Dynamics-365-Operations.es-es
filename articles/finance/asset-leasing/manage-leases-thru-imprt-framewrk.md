@@ -2,11 +2,11 @@
 title: Gestionar arrendamientos a través del marco de importación de arrendamientos
 description: Este tema explica cómo utilizar el marco de importación de arrendamientos para ajustar varios arrendamientos al mismo tiempo.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 083adf0a4bb74ac65e6f8b5077f65c74eb3fa337
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819803"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880919"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Gestionar arrendamientos a través del marco de importación de arrendamientos
 
@@ -53,7 +53,7 @@ La función de comparación le permite comparar un registro que está importando
 > [!NOTE]
 > La función Comparar no funciona para arrendamientos que tienen el tipo de proceso **Agregar registro**, porque no hay nada que comparar con ese arrendamiento.
 >
-> Para comparar varios arrendamientos al mismo tiempo, vaya a **Arrendamiento de activos \> Marco de importación de arrendamientos \> Periódico \> Comparar** y seleccione **Comparar**.
+> Para comparar varios arrendamientos al mismo tiempo, vaya a **Arrendamiento de activos \> Marco de importación de arrendamientos \> Periódico** y seleccione **Comparar**.
 
 Para cada entidad, puede ver las diferencias entre lo que hay actualmente en el sistema y lo que está en las tablas de almacenamiento provisional. Para cada entidad en las tablas de almacenamiento provisional, seleccione **Ver diferencias**. El cuadro de diálogo que aparece muestra el valor actual y el valor de almacenamiento provisional propuesto.
 
@@ -62,17 +62,17 @@ También puede actualizar el valor de almacenamiento provisional cambiándolo en
 Puede validar los arrendamientos para asegurarse de que los registros se puedan incorporar al sistema sin introducir errores. Antes de que se migre un registro de arrendamiento, el sistema ejecuta varias validaciones para garantizar que el registro se importe correctamente. Para validar un arrendamiento individual, seleccione **Validar**.
 
 > [!NOTE]
-> Para validar varios arrendamientos al mismo tiempo, vaya a **Arrendamiento de activos \> Marco de importación de arrendamientos \> Periódico \> Validar** y seleccione **Comparar**.
+> Para validar varios arrendamientos al mismo tiempo, vaya a **Arrendamiento de activos \> Marco de importación de arrendamientos \> Periódico** y seleccione **Validar**.
 
 Para procesar un arrendamiento individual, seleccione **Migrar registros de arrendamiento** en la página **Importar encabezado**. Cuando se migra un arrendamiento, el sistema realiza la acción que se especifica en el campo **Tipo de proceso**.
 
 > [!NOTE]
-> Para validar varios arrendamientos al mismo tiempo, vaya a **Arrendamiento de activos \> Marco de importación de arrendamientos \> Periódico \> Validar** y seleccione **Comparar**.
+> Para migrar varios arrendamientos al mismo tiempo, vaya a **Arrendamiento de activos \> Marco de importación de arrendamientos \> Periódico** y seleccione **Migrar**.
 
 Después de comparar los arrendamientos, puede generar un informe para ver las diferencias para cada arrendamiento que se incluye en el id. de importación. Para generar el informe de un arrendamiento, seleccione ese arrendamiento en los datos de almacenamiento provisional y luego seleccione **Comparar y ver informe \> Informe de diferencias**.
 
 > [!NOTE]
-> Para validar varios arrendamientos al mismo tiempo, vaya a **Arrendamiento de activos \> Conultas e informes \> Informe de diferencias** y seleccione **Comparar**.
+> Para comparar varios arrendamientos al mismo tiempo, vaya a **Arrendamiento de activos \> Marco de importación de arrendamientos \> Periódico** y seleccione **Comparar**. 
 
 ## <a name="set-up-update-fields"></a>Configurar la actualización de campos
 

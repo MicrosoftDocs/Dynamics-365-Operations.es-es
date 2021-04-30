@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822140"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898219"
 ---
 # <a name="budget-planning-overview"></a>Visión general de la planificación presupuestaria
 
@@ -75,7 +75,7 @@ La siguiente ilustración muestra un ejemplo en el que, la sede corporativa esti
 
 En la página **Jerarquía organizativa**, puede especificar una jerarquía organizativa como jerarquía de planificación presupuestaria para cada proceso de planificación presupuestaria. La jerarquía de planificación presupuestaria no tiene que coincidir con la jerarquía organizativa estándar que se usa para otros propósitos. Dado que esta jerarquía se usa para agregar y distribuir datos, puede que desee que tenga otra estructura. En el esquema de ejemplo, los departamentos de ventas se encuentran en un nivel de sede que incluye departamentos de finanzas y presupuesto. Esta estructura se diferencia probablemente de la estructura que se usa para gestionar operaciones para los departamentos de ventas. Solo una jerarquía de organización se puede asignar a cada proceso de planificación presupuestaria.
 
-Para obtener más información acerca de las jerarquías organizativas, consulte [Organizaciones y las jerarquías organizativas](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Para obtener más información acerca de las jerarquías organizativas, consulte [Organizaciones y las jerarquías organizativas](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Seguridad de usuario
 
@@ -163,7 +163,7 @@ Además de las columnas para los importes presupuestarios, puede definir columna
 
 Para el esquema de ejemplo, es posible que desee crear columnas para los escenarios "Ventas de PY", "Contratos" y "Previsión". (La siguiente ilustración muestra la sección relevante del esquema). A continuación, podrá separar uno o todos estos escenarios en columnas independientes para cada trimestre del ejercicio, de modo que el director del departamento de ventas pueda especificar de manera precisa los importes de previsión para cada período.
 
-[![Columnas](./media/columns.png)](./media/columns.png)
+[![Ilustración de secciones del esquema para agregar columnas](./media/columns.png)](./media/columns.png)
 
 También puede especificar si cada elemento de diseño (columna) es editable y si está disponible en cualquier plantilla de hoja de cálculo que se cree para ese diseño. Para el esquema de ejemplo, en el diseño que se usa para la etapa "Estimación", las columnas de "Previsión" son editables, mientras que las columnas de "Ventas PY" y "Contratos" son de solo lectura.
 

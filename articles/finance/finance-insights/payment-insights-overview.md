@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 079ac1e8020c5fb80618b0237c4cf3a747b1e85c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4151b56b8b385e29d3926dc7e245728158cbcd34
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827275"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898021"
 ---
 # <a name="customer-payment-predictions-preview"></a>Previsiones de pago de clientes (versión preliminar)
 
@@ -71,7 +71,7 @@ En el pasado, normalmente era difícil desarrollar e implementar una solución d
 
 La versión preliminar pública de Finance Insights está disponible para probarla en implementaciones en los Estados Unidos de América, Europa y el Reino Unido. Microsoft está agregando gradualmente soporte para otras más regiones.
 
-Las funciones de versión preliminar pública deben activarse solo en entornos de espacio aislado de nivel 2. Los modelos de configuración e IA que se crean en un entorno de espacio aislado no se pueden migrar al entorno de producción. Para más información, consulte [Condiciones de uso suplementarias para Vistas previas de Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Las funciones de versión preliminar pública deben activarse solo en entornos de espacio aislado de nivel 2. Los modelos de configuración e IA que se crean en un entorno de espacio aislado no se pueden migrar al entorno de producción. Para más información, consulte [Condiciones de uso suplementarias para Vistas previas de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 

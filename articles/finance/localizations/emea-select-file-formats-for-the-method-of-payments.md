@@ -14,12 +14,12 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97bf9a70c1fc170ca8878a99bd16c9a0cb9c7309
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 895fbe2a46d99aed175676c22ba13c30d6d8b98e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818293"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894679"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Formatos de archivo para métodos de pago
 
@@ -36,7 +36,7 @@ Hay dos métodos que puede utilizar para obtener formatos de archivo para su uso
 
 ### <a name="method-1-electronic-reporting-file-formats"></a>Método 1: formatos de archivo de informes electrónicos
 
-Para formatos de archivo basados en configuraciones de ER, debe importar las configuraciones de Lifecycle Services (LCS). Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Después de importar las configuraciones de informes para esos formatos de archivo, los formatos importados estarán disponibles para seleccionar en la página **Métodos de pago**. El proceso para importar y seleccionar formatos de archivo para Europa es similar al procedimiento para Japón. Para obtener más información, consulte [Habilitar el formato de archivo de pago de JBA](tasks/jba-payment-file-format.md)
+Para formatos de archivo basados en configuraciones de ER, debe importar las configuraciones de Lifecycle Services (LCS). Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Después de importar las configuraciones de informes para esos formatos de archivo, los formatos importados estarán disponibles para seleccionar en la página **Métodos de pago**. El proceso para importar y seleccionar formatos de archivo para Europa es similar al procedimiento para Japón. Para obtener más información, consulte [Habilitar el formato de archivo de pago de JBA](tasks/jba-payment-file-format.md)
 
 ### <a name="method-2-x-file-formats"></a>Método 2: formatos de archivo X++
 

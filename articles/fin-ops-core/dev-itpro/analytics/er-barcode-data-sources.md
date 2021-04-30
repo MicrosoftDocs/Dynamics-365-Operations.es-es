@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 08b9d03517a600cf46b1093cfa3bc454621eabd0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cbc2b5870e855ff4d4a099a51cbb6887dd30bba7
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748374"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893561"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Usar fuentes de datos de código de barras para generar imágenes de código de barras
 
@@ -37,7 +37,7 @@ ER ahora admite el tipo de origen de datos **Código de barras**. Por lo tanto, 
 
 Los siguientes marcadores de posición pueden usarse en plantillas de informes para ingresar imágenes de código de barras:
 
-- [Imagen](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word), control de contenido para Word
+- [Imagen](/office/client-developer/word/content-controls-in-word), control de contenido para Word
 - [Imagen](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344), objeto en Excel
 
 Mediante el uso de un origen de datos del tipo **Código de barras**, puede generar códigos de barras en los siguientes formatos:

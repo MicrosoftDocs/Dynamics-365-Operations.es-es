@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e85c18e548d82b2a369a1e8a5573800067b1935c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808073"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907676"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introducción a la optimización de la planificación
 
 [!include [banner](../../includes/banner.md)]
 
-Como se [anunció previamente](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), Planning Optimization está programado para reemplazar el motor de planificación maestro integrado existente.
+Como se [anunció previamente](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), Planning Optimization está programado para reemplazar el motor de planificación maestro integrado existente.
 
 Si actualmente utiliza el motor de planificación maestro integrado, debería comenzar a planificar su migración a Planning Optimization ahora. Es importante comenzar el proceso de migración de inmediato porque sus operaciones pueden verse afectadas cuando se aplica la obsolescencia. Para evitar problemas de última hora cuando se aplica la desactivación, le recomendamos encarecidamente que complete la migración antes del 1 de diciembre de 2020. 
 

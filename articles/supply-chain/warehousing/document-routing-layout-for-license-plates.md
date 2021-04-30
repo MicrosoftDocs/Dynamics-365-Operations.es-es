@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838283"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907996"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Diseño de enrutamiento de documentos para matrículas de entidad
 
@@ -73,7 +73,7 @@ Los siguientes ejemplos muestran cómo puede personalizar el campo cantidad de t
 - Para mostrar siempre cuatro dígitos (usando ceros como marcadores de posición), use `$Qty:0000$`. Por ejemplo, si la cantidad es 10, la etiqueta mostrará "0010".
 - Para mostrar siempre dos lugares decimales, use `$Qty:0.00$`. Por ejemplo, si la cantidad es 10, la etiqueta mostrará "10,00".
 
-Para obtener una lista completa de las cadenas de formato de número disponibles, vea [Cadenas de formato numérico personalizado](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Para obtener una lista completa de las cadenas de formato de número disponibles, vea [Cadenas de formato numérico personalizado](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Formatos de cadena personalizados
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 En este ejemplo, la fecha 30 de abril de 2020 se imprimirá como "30-04-2020".
 
-Para obtener una lista completa de las formatos de fecha / hora disponibles, vea [Cadenas de formato de fecha y personalizadas](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Para obtener una lista completa de las formatos de fecha / hora disponibles, vea [Cadenas de formato de fecha y personalizadas](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Imprima líneas individuales a partir de datos multilínea
 

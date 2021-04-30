@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825527"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909213"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de adquisición y abastecimiento
 
@@ -83,12 +83,12 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 ## <a name="prices-and-discounts"></a>Precios y descuentos
 -   [Acuerdos de compra](purchase-agreements.md)
 -   [Crear un acuerdo de compra](tasks/create-purchase-agreement.md)
--   [Devoluciones de proveedor](https://docs.microsoft.com/dynamics/s-e/) (notas del producto)
+-   [Devoluciones de proveedor](/dynamics/s-e/) (notas del producto)
 
 ## <a name="product-receipt-and-invoicing"></a>Recepción y facturación de productos
 -   [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
--   [Visión general de facturas de proveedores](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Perfiles de contabilización del proveedor](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Visión general de facturas de proveedores](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Perfiles de contabilización del proveedor](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Flujos de trabajo de adquisición y abastecimiento
 -   [Vista general de adquisición y abastecimiento](procurement-sourcing-overview.md)

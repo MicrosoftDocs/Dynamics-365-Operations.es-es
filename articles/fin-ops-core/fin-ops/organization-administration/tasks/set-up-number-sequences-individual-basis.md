@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74422a9f2b737053288d21ba7a578c854cab1335
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747330"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890867"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Configurar secuencias numéricas de manera individual
 
@@ -30,7 +30,7 @@ Este tema explica cómo configurar secuencias numéricas de manera individual. L
 2. Seleccione **Secuencia numérica**.
 3. En el campo **Código de secuencia numérica,** escriba un valor.
 4. En el campo **Nombre**, escriba un valor.
-5. En la ficha desplegable **Parámetros del ámbito**, seleccione un ámbito para la secuencia numérica y seleccione los valores de ámbito en la lista desplegable. El ámbito define qué organizaciones usan la secuencia numérica. Además, las secuencias numéricas con un ámbito distinto de **Compartido** pueden contener segmentos que correspondan a su ámbito. Por ejemplo, una secuencia numérica con un ámbito de **Entidad jurídica** puede contener un segmento de entidad jurídica. Para obtener más información acerca de los alcances, consulte [Información general de secuencias numéricas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
+5. En la ficha desplegable **Parámetros del ámbito**, seleccione un ámbito para la secuencia numérica y seleccione los valores de ámbito en la lista desplegable. El ámbito define qué organizaciones usan la secuencia numérica. Además, las secuencias numéricas con un ámbito distinto de **Compartido** pueden contener segmentos que correspondan a su ámbito. Por ejemplo, una secuencia numérica con un ámbito de **Entidad jurídica** puede contener un segmento de entidad jurídica. Para obtener más información acerca de los alcances, consulte [Información general de secuencias numéricas](../number-sequence-overview.md). 
 6. Expanda la sección **Segmentos**.
     - Defina el formato de la secuencia numérica agregando, quitando y reorganizando segmentos.  
     - Las secuencias numéricas de todos los ámbitos pueden contener *segmentos constantes* y *segmentos alfanuméricos*. Los segmentos constantes contienen un conjunto de caracteres alfanuméricos que no cambian. Use este tipo de segmento para agregar un guión u otros separadores entre segmentos de secuencias numéricas. Los segmentos alfanuméricos contienen una combinación de signos de número (#) y ampersands (&). Estos caracteres representan letras y números que aumentan siempre que se usa un número de la secuencia. Use un signo de número (#) para indicar el incremento de números y un ampersand (&) para incrementar un incremento de letras. Por ejemplo, el formato `#####_2014` crea la secuencia `00001_2014`, `00002_2014`, etc. Debe haber, como mínimo, un segmento alfanumérico. Los segmentos de ámbito, como empresa o entidad jurídica, no son obligatorios. Sin embargo, si no incluye segmentos de ámbito en el formato, se siguen generando por ámbito números para la referencia seleccionada.  

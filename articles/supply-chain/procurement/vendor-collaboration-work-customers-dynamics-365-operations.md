@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825215"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908044"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Colaboración de proveedor con los clientes
 
@@ -31,7 +31,7 @@ Este tema describe cómo puede usar la colaboración del proveedor para trabajar
 - **Confirmación de pedidos de compra** Controle y respuesta a los pedidos de compra (PO).
 - **Oferta del proveedor**: Ver solicitudes de presupuesto y responder a ellas especificando propuestas.
 - **Información de proveedor**: Ver y actualizar datos maestros de proveedores.
-- **Facturación**: Trabajo con facturas. Este tema no cubre el área de trabajo **Facturación**. Para obtener más información sobre este área de trabajo, consulte [Espacio de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Facturación**: Trabajo con facturas. Este tema no cubre el área de trabajo **Facturación**. Para obtener más información sobre este área de trabajo, consulte [Espacio de trabajo de facturación de colaboración de proveedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Los proveedores también pueden controlar la información acerca del inventario de entrega.
 

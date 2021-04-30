@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824927"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908093"
 ---
 # <a name="credit-limits-for-customers"></a>Límites de crédito para clientes
 
@@ -90,7 +90,7 @@ Use el formulario **Parámetros de clientes** para especificar la información q
 
 **¿Dónde se utiliza la información acerca del crédito restante de un cliente?**
 
-La información acerca del saldo y el importe de crédito restante de un cliente se calcula y se almacena al crear una instantánea de vencimientos, y se muestra en el formulario **Cobros**. Es posible que los importes que se muestran en el formulario **Cobros** no incluyan toda la actividad de las transacciones hasta que se cree una nueva instantánea de vencimientos. Para obtener más información, consulte [Cobros y crédito en clientes](https://technet.microsoft.com/library/hh209221.aspx).
+La información acerca del saldo y el importe de crédito restante de un cliente se calcula y se almacena al crear una instantánea de vencimientos, y se muestra en el formulario **Cobros**. Es posible que los importes que se muestran en el formulario **Cobros** no incluyan toda la actividad de las transacciones hasta que se cree una nueva instantánea de vencimientos. Para obtener más información, consulte [Cobros y crédito en clientes](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 En función de los documentos seleccionados, la información sobre el saldo y el importe de crédito restante de un cliente se calcula cuando los pedidos de ventas, los albaranes y las facturas del cliente se actualizan. Si el importe del documento con el que está trabajando hará que se supere el límite de crédito, aparecerá un mensaje.
 

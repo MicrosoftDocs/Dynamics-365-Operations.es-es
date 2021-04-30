@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840734"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907824"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Instalar, configurar y actualizar el portal del cliente
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840734"
 
 Para implementar el portal del Cliente, debe tener las siguientes licencias:
 
-- **Portales Power Apps**: esta licencia es necesaria para alojar el portal del Cliente. Los portales tienen licencia en función del uso. Para más información, consulte los [requisitos de licencia de portales Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **Portales Power Apps**: esta licencia es necesaria para alojar el portal del Cliente. Los portales tienen licencia en función del uso. Para más información, consulte los [requisitos de licencia de portales Power Apps](/power-platform/admin/powerapps-flow-licensing-faq#portals).
 - **Doble escritura**: debe tener las licencias necesarias para habilitar la escritura dual para las tablas de Supply Chain Management. Para obtener más información, consulte los [requisitos del sistema para escritura dual](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Dependencias de doble escritura y los portales Power Apps
@@ -40,7 +40,7 @@ A diferencia de otras características de Supply Chain Management, la plantilla 
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Configuración requerida para habilitar el portal del cliente
 
-Después de asegurarse de que tiene las licencias requeridas, puede configurar la escritura dual como se describe en [instrucciones de sincronización inicial de doble escritura](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Después de asegurarse de que tiene las licencias requeridas, puede configurar la escritura dual como se describe en [instrucciones de sincronización inicial de doble escritura](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
 
 Asegúrese de habilitar las siguientes asignaciones de tablas en doble escritura:
 
@@ -74,14 +74,14 @@ Se podría agregar más funcionalidad al portal del Cliente más adelante. Cualq
 
 Para saber cómo puede configurar y personalizar el portal del Cliente, debe comenzar por revisar la siguiente documentación para las tecnologías subyacentes:
 
-- [Documentación de portales Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Documentación de portales Power Apps](/powerapps/maker/portals/overview)
 - [Documentación de doble escritura](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 Para gestionar eficazmente sus portales, debe conocer los portales Power Apps y el ciclo de vida de Microsoft Dataverse. Para obtener más información, consulte los siguientes recursos:
 
-- [Sobre el ciclo de vida del portal](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Actualizar un portal](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Migrar la configuración del portal](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Sobre el ciclo de vida del portal](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Actualizar un portal](/powerapps/maker/portals/admin/upgrade-portal)
+- [Migrar la configuración del portal](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Administración de ciclo de vida de solución: Dynamics 365 para aplicaciones de Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

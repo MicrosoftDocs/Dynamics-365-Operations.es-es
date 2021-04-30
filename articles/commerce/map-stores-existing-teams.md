@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3edd176788b24a5f5246e9b7bcb3c6fbcdca2254
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5a711c1057b87bd792755ef91a84d1c28879c590
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842739"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908504"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Asignar tiendas y equipos si estos últimos ya existen en Microsoft Teams
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tema cubre cómo asignar tiendas y equipos correspondientes en la sede de Dynamics 365 Commerce si su organización ya ha creado equipos en Microsoft Teams antes de la integración con Commerce.
 
