@@ -13,45 +13,45 @@ ms.search.region: Mexico
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc867ace25372d8d3d7e017a82f0def9dadf45f5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4f8db764342daea7d91a8397b4d94d306b50f74
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840963"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893033"
 ---
-# <a name="mexico-overview"></a><span data-ttu-id="8c35f-103">Visión general de México</span><span class="sxs-lookup"><span data-stu-id="8c35f-103">Mexico overview</span></span>
+# <a name="mexico-overview"></a><span data-ttu-id="72b3b-103">Visión general de México</span><span class="sxs-lookup"><span data-stu-id="72b3b-103">Mexico overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8c35f-104">Este tema incluye información y vínculos a recursos que pueden ayudarle a configurar para personas jurídicas con una dirección principal en México.</span><span class="sxs-lookup"><span data-stu-id="8c35f-104">This topic includes information and links to resources that can help you set up legal entities with a primary address in Mexico.</span></span> 
+<span data-ttu-id="72b3b-104">Este tema incluye información y vínculos a recursos que pueden ayudarle a configurar para personas jurídicas con una dirección principal en México.</span><span class="sxs-lookup"><span data-stu-id="72b3b-104">This topic includes information and links to resources that can help you set up legal entities with a primary address in Mexico.</span></span> 
 
 
-- [<span data-ttu-id="8c35f-105">Ámbito de localización mexicana</span><span class="sxs-lookup"><span data-stu-id="8c35f-105">Scope of Mexican localization</span></span>](latam-mex-scope.md)
-- [<span data-ttu-id="8c35f-106">Informe de la declaración de inflación de ajuste</span><span class="sxs-lookup"><span data-stu-id="8c35f-106">Adjustment inflation declaration report</span></span>](latam-mex-adjustment-inflation-declaration-report.md)
-- [<span data-ttu-id="8c35f-107">Cancelar una factura electrónica</span><span class="sxs-lookup"><span data-stu-id="8c35f-107">Cancel an electronic invoice</span></span>](tasks/mx-00010-cancel-electronic-invoice.md)
-- [<span data-ttu-id="8c35f-108">Versión 3.3 del diseño CFDI</span><span class="sxs-lookup"><span data-stu-id="8c35f-108">CFDI layout version 3.3</span></span>](latam-mex-cfdi-3-3.md)
-- [<span data-ttu-id="8c35f-109">Id. de registro de cliente y otra información</span><span class="sxs-lookup"><span data-stu-id="8c35f-109">Customer registration IDs and other information</span></span>](tasks/mx-00007-customer-registration-ids-other-information.md)
-- [<span data-ttu-id="8c35f-110">Informe de declaración DIOT</span><span class="sxs-lookup"><span data-stu-id="8c35f-110">DIOT declaration statement</span></span>](latam-mex-diot-declaration-statement.md)
-- [<span data-ttu-id="8c35f-111">Facturación electrónica de CFDI</span><span class="sxs-lookup"><span data-stu-id="8c35f-111">E-invoicing CFDI</span></span>](tasks/mx-00010-e-invoicing-cfdi.md)
-- [<span data-ttu-id="8c35f-112">Facturas electrónicas (CFDI)</span><span class="sxs-lookup"><span data-stu-id="8c35f-112">Electronic invoices (CFDI)</span></span>](latam-mex-CFDI-electronic-invoices.md)
-- [<span data-ttu-id="8c35f-113">Extractos electrónicos de cuenta contable</span><span class="sxs-lookup"><span data-stu-id="8c35f-113">Electronic ledger accounting statements</span></span>](latam-mex-electronic-ledger-accounting-statements.md)
-- [<span data-ttu-id="8c35f-114">Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas</span><span class="sxs-lookup"><span data-stu-id="8c35f-114">Enter tax registration IDs for Mexican legal entities</span></span>](tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md)
-- [<span data-ttu-id="8c35f-115">Consultar e imprimir una factura electrónica</span><span class="sxs-lookup"><span data-stu-id="8c35f-115">Inquire and print an electronic invoice</span></span>](tasks/mx-00010-inquire-print-electronic-invoice.md)
-- [<span data-ttu-id="8c35f-116">Informe de declaración de ISR y procesos auxiliares</span><span class="sxs-lookup"><span data-stu-id="8c35f-116">ISR declaration report and supporting processes</span></span>](latam-mex-isr-declaration-report-supporting-processes.md)
-- [<span data-ttu-id="8c35f-117">Registrar una factura de servicios</span><span class="sxs-lookup"><span data-stu-id="8c35f-117">Post a free text invoice</span></span>](tasks/mx-00010-post-free-text-invoice.md)
-- [<span data-ttu-id="8c35f-118">Extractos electrónicos de cuenta contable</span><span class="sxs-lookup"><span data-stu-id="8c35f-118">Electronic ledger accounting statements</span></span>](latam-mex-electronic-ledger-accounting-statements.md)
-- [<span data-ttu-id="8c35f-119">Configurar parámetros para una factura electrónica</span><span class="sxs-lookup"><span data-stu-id="8c35f-119">Set parameters for an electronic invoice</span></span>](tasks/mx-00010-set-parameters-electronic-invoice.md)
-- [<span data-ttu-id="8c35f-120">Configurar códigos de impuestos para México</span><span class="sxs-lookup"><span data-stu-id="8c35f-120">Set up sales tax codes for Mexico</span></span>](tasks/mx-00006-sales-tax-code.md)
-- [<span data-ttu-id="8c35f-121">Configuración del plan de cuentas para una entidad jurídica en México</span><span class="sxs-lookup"><span data-stu-id="8c35f-121">Set up the chart of accounts for a legal entity in Mexico</span></span>](tasks/mx-00020-chart-accounts-legal-entity-mexico.md)
-- [<span data-ttu-id="8c35f-122">Especificar la identificación del registro de RFC para las cuentas bancarias mejicanas</span><span class="sxs-lookup"><span data-stu-id="8c35f-122">Specify the RFC registration ID for Mexican bank accounts</span></span>](tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md)
-- [<span data-ttu-id="8c35f-123">Id. de registro de proveedores</span><span class="sxs-lookup"><span data-stu-id="8c35f-123">Vendor registration IDs</span></span>](tasks/mx-00008-vendor-registration-ids.md)
+- [<span data-ttu-id="72b3b-105">Ámbito de localización mexicana</span><span class="sxs-lookup"><span data-stu-id="72b3b-105">Scope of Mexican localization</span></span>](latam-mex-scope.md)
+- [<span data-ttu-id="72b3b-106">Informe de la declaración de inflación de ajuste</span><span class="sxs-lookup"><span data-stu-id="72b3b-106">Adjustment inflation declaration report</span></span>](latam-mex-adjustment-inflation-declaration-report.md)
+- [<span data-ttu-id="72b3b-107">Cancelar una factura electrónica</span><span class="sxs-lookup"><span data-stu-id="72b3b-107">Cancel an electronic invoice</span></span>](tasks/mx-00010-cancel-electronic-invoice.md)
+- [<span data-ttu-id="72b3b-108">Versión 3.3 del diseño CFDI</span><span class="sxs-lookup"><span data-stu-id="72b3b-108">CFDI layout version 3.3</span></span>](latam-mex-cfdi-3-3.md)
+- [<span data-ttu-id="72b3b-109">Id. de registro de cliente y otra información</span><span class="sxs-lookup"><span data-stu-id="72b3b-109">Customer registration IDs and other information</span></span>](tasks/mx-00007-customer-registration-ids-other-information.md)
+- [<span data-ttu-id="72b3b-110">Informe de declaración DIOT</span><span class="sxs-lookup"><span data-stu-id="72b3b-110">DIOT declaration statement</span></span>](latam-mex-diot-declaration-statement.md)
+- [<span data-ttu-id="72b3b-111">Facturación electrónica de CFDI</span><span class="sxs-lookup"><span data-stu-id="72b3b-111">E-invoicing CFDI</span></span>](tasks/mx-00010-e-invoicing-cfdi.md)
+- [<span data-ttu-id="72b3b-112">Facturas electrónicas (CFDI)</span><span class="sxs-lookup"><span data-stu-id="72b3b-112">Electronic invoices (CFDI)</span></span>](latam-mex-CFDI-electronic-invoices.md)
+- [<span data-ttu-id="72b3b-113">Extractos electrónicos de cuenta contable</span><span class="sxs-lookup"><span data-stu-id="72b3b-113">Electronic ledger accounting statements</span></span>](latam-mex-electronic-ledger-accounting-statements.md)
+- [<span data-ttu-id="72b3b-114">Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas</span><span class="sxs-lookup"><span data-stu-id="72b3b-114">Enter tax registration IDs for Mexican legal entities</span></span>](tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md)
+- [<span data-ttu-id="72b3b-115">Consultar e imprimir una factura electrónica</span><span class="sxs-lookup"><span data-stu-id="72b3b-115">Inquire and print an electronic invoice</span></span>](tasks/mx-00010-inquire-print-electronic-invoice.md)
+- [<span data-ttu-id="72b3b-116">Informe de declaración de ISR y procesos auxiliares</span><span class="sxs-lookup"><span data-stu-id="72b3b-116">ISR declaration report and supporting processes</span></span>](latam-mex-isr-declaration-report-supporting-processes.md)
+- [<span data-ttu-id="72b3b-117">Registrar una factura de servicios</span><span class="sxs-lookup"><span data-stu-id="72b3b-117">Post a free text invoice</span></span>](tasks/mx-00010-post-free-text-invoice.md)
+- [<span data-ttu-id="72b3b-118">Extractos electrónicos de cuenta contable</span><span class="sxs-lookup"><span data-stu-id="72b3b-118">Electronic ledger accounting statements</span></span>](latam-mex-electronic-ledger-accounting-statements.md)
+- [<span data-ttu-id="72b3b-119">Configurar parámetros para una factura electrónica</span><span class="sxs-lookup"><span data-stu-id="72b3b-119">Set parameters for an electronic invoice</span></span>](tasks/mx-00010-set-parameters-electronic-invoice.md)
+- [<span data-ttu-id="72b3b-120">Configurar códigos de impuestos para México</span><span class="sxs-lookup"><span data-stu-id="72b3b-120">Set up sales tax codes for Mexico</span></span>](tasks/mx-00006-sales-tax-code.md)
+- [<span data-ttu-id="72b3b-121">Configuración del plan de cuentas para una entidad jurídica en México</span><span class="sxs-lookup"><span data-stu-id="72b3b-121">Set up the chart of accounts for a legal entity in Mexico</span></span>](tasks/mx-00020-chart-accounts-legal-entity-mexico.md)
+- [<span data-ttu-id="72b3b-122">Especificar la identificación del registro de RFC para las cuentas bancarias mejicanas</span><span class="sxs-lookup"><span data-stu-id="72b3b-122">Specify the RFC registration ID for Mexican bank accounts</span></span>](tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md)
+- [<span data-ttu-id="72b3b-123">Id. de registro de proveedores</span><span class="sxs-lookup"><span data-stu-id="72b3b-123">Vendor registration IDs</span></span>](tasks/mx-00008-vendor-registration-ids.md)
 
-## <a name="additional-resources"></a><span data-ttu-id="8c35f-124">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="8c35f-124">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="72b3b-124">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="72b3b-124">Additional resources</span></span>
 
-- [<span data-ttu-id="8c35f-125">Visión general de los informes electrónicos</span><span class="sxs-lookup"><span data-stu-id="8c35f-125">Electronic reporting overview</span></span>](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [<span data-ttu-id="8c35f-126">Descargar configuraciones de informes electrónicos de Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="8c35f-126">Download Electronic reporting configurations from Lifecycle Services</span></span>](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-- [<span data-ttu-id="8c35f-127">Microsoft Dynamics Portal de localización: Informe de Australia (requiere cuenta CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="8c35f-127">Microsoft Dynamics Localization Portal: Australia report (requires CustomerSource account)</span></span>](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/mexico.html)
+- [<span data-ttu-id="72b3b-125">Visión general de los informes electrónicos</span><span class="sxs-lookup"><span data-stu-id="72b3b-125">Electronic reporting overview</span></span>](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [<span data-ttu-id="72b3b-126">Descargar configuraciones de informes electrónicos de Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="72b3b-126">Download Electronic reporting configurations from Lifecycle Services</span></span>](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [<span data-ttu-id="72b3b-127">Microsoft Dynamics Portal de localización: Informe de Australia (requiere cuenta CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="72b3b-127">Microsoft Dynamics Localization Portal: Australia report (requires CustomerSource account)</span></span>](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/mexico.html)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
