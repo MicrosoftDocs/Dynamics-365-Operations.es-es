@@ -1,8 +1,8 @@
 ---
-title: Aprobar pedidos planificados
-description: Este tema describe la aprobación de pedidos planificados que se admiten en Planning Optimization.
+title: Ver, administrar y aprobar pedidos planificados
+description: Este tema proporciona información sobre cómo ver, administrar y aprobar pedidos planificados en Optimización de planificación.
 author: ChristianRytt
-ms.date: 08/21/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,30 +16,62 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 6c215a89403f16336caae5c62cde6df469c4091c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b9b5274481e693f9fa05eb084ec5505ce5bc2eb
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825900"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935666"
 ---
-# <a name="approve-planned-orders"></a>Aprobar pedidos planificados
+# <a name="view-manage-and-approve-planned-orders"></a>Ver, administrar y aprobar pedidos planificados
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema proporciona información sobre cómo actualizar el estado de los pedidos planificados en Planning Optimization.
+Este tema proporciona información sobre cómo ver, administrar y aprobar pedidos planificados en Optimización de planificación.
 
-Tenga en cuenta que la aprobación de pedidos planificados es un paso opcional, en el proceso para crear un pedido en firme a partir de un pedido planificado. Se recomienda aprobar los pedidos planificados modificados; de lo contrario, las ediciones se ignorarán y se sobrescribirán en la siguiente ejecución de planificación.
+## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>Ver y administrar pedidos planificados
+
+Puede ver y administrar los pedidos planificados en cualquier página de lista de pedidos planificados. Vaya a uno de los siguientes lugares, según el tipo de pedidos planificados con los que desee trabajar:
+
+- Planificacion maestra \> Espacios de trabajo \> Planificacion maestra
+- Planificación maestra \> Planificación maestra \> Pedidos planificados
+- Vaya a Control de producción \> Pedidos de producción \> Pedidos de producción planificados
+- Adquisición y abastecimiento \> Pedidos de compra \> Pedidos de producción planificados
+- Gestión del inventario \> Pedidos de entrada \> Transferencias planificadas
+- Gestión del inventario \> Pedidos de salida \> Transferencias planificadas
+
+## <a name="view-and-edit-the-status-of-planned-orders"></a>Ver y editar el estado de los pedidos planificados
+
+Puede usar el campo **Estado** de cada orden planificada para ayudar a realizar un seguimiento de su progreso o cambiar la forma en que se procesará una orden planificada. Están disponibles los siguientes valores de **Estado**:
+
+- **No procesado**: cuando la planificación maestra genera pedidos planificados, se les da este estado. Los pedidos planificados que tienen este estado se eliminarán durante la siguiente ejecución de planificación.
+- **Terminado**: este estado indica que la orden planificada se ha completado. Si decide no poner en firme un pedido planificado, puede cambiar manualmente su estado a *Finalizado*. Tenga en cuenta que el sistema trata los estados *No procesado* y *Completado* de la misma manera.
+- **Aprobado**: este estado indica que la orden planificada está aprobada para confirmación. Si desea consolidar un pedido planificado, puede cambiar su estado a *Aprobado*. Si desea conservar las ediciones que se han realizado en una orden planificada, o si está planeando confirmar una orden planificada, cambie su estado a *Aprobado*. Las órdenes planificadas que tienen un estado de *Aprobado* se consideran suministros fijos y esperados por planificación maestra. Por lo tanto, no se modifican ni se eliminan durante las ejecuciones posteriores de la planificación maestra. Para lograr este comportamiento, la lógica de planificación copia los pedidos planificados con estado *Aprobado* desde la versión anterior del plan a la nueva versión del plan durante la planificación maestra. Tenga en cuenta que los pedidos planificados con estado *Aprobado** solo se consideran un suministro dentro del plan maestro específico.
+
+Para cambiar el estado de una sola orden planificada, [abra cualquier página de lista de pedidos planificados](#view-planned-orders), abra el pedido y luego siga uno de estos pasos:
+
+- En la ficha desplegable **General**, cambie el valor del campo **Estado**.
+- En el panel de acciones, en la pestaña **Pedido planificado**, en el grupo **Proceso**, seleccione **Cambiar estado**.
+- En el panel de acciones, seleccione **Aprobar** para marcar el pedido como aprobado.
+
+Para cambiar el estado de varias órdenes planificadas al mismo tiempo, [abra cualquier página de lista de pedidos planificados](#view-planned-orders), seleccione la casilla para cada pedido que desee cambiar y luego siga uno de estos pasos:
+
+- En el panel de acciones, en la pestaña **Pedido planificado**, en el grupo **Proceso**, seleccione **Cambiar estado**.
+- En el panel de acciones, seleccione **Aprobar** para marcar los pedidos como aprobados.
+
+## <a name="approve-planned-orders"></a>Aprobar pedidos planificados
+
+La aprobación de pedidos planificados es un paso opcional en el proceso de crear un pedido confirmado a partir de un pedido planificado.
+
+La siguiente ilustración muestra cómo puede utilizar el valor **Estado** que se asigna a cada orden planificada para implementar un flujo de trabajo de aprobación. Para implementar un proceso de aprobación, ajuste manualmente el valor **Estado** para cada orden planificada, como se describe en la sección anterior.
 
 ![Flujo de pedido planificado](media/approved-planned-orders-1.png)
 
-El campo **Estado** le ayuda a seguir su progreso utilizando los siguientes valores:
+> [!TIP]
+> Le recomendamos que apruebe cualquier pedido planificado modificado. De lo contrario, las ediciones se ignorarán y se sobrescribirán en la siguiente ejecución de planificación.
 
-- **No procesado**: cuando la planificación maestra genera pedidos planificados, estos tienen un estado *No procesado*. Los pedidos planificados con este estado se eliminarán durante la siguiente ejecución de planificación.
-- **Completado**: si decide no firmar un pedido planificado, puede cambiar el estado a *Completado* para indicar que completó la evaluación de este pedido planificado. Tenga en cuenta que un estado de *No procesado* y *Completado* se tratan de la misma manera por el sistema.
-- **Aprobado**: si desea mantener las ediciones o tiene previsto poner en firme un pedido planificado, cambie el estado a *Aprobado*. Los pedidos planificados con estado *Aprobado* se consideran un suministro fijo y esperado por la planificación maestra, por lo que no se modifican ni se eliminan durante una ejecución de planificación maestra posterior. Para lograr esto, la lógica de planificación copia los pedidos planificados *Aprobados* desde la versión anterior del plan a la nueva versión del plan durante la planificación maestra. Tenga en cuenta los pedidos planificados con estado *Aprobado* solo se consideran un suministro dentro del plan maestro específico.
+## <a name="additional-resources"></a>Recursos adicionales
 
-Puede gestionar pedidos planificados desde el espacio de trabajo **Planificación maestra**, la lista **Pedido planificado** o las listas **Pedidos de producción planificados**, **Pedidos de compra planificados** y **Transferencia planificada**.
-
+- [Poner en firme pedidos planificados](planned-order-firming.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fdfe4d5042e0a6a7948a09334dc675e210e765a1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a8adf8cd736dd74e8a706e3692df93d7957a3402
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909824"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935842"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.9 (abril de 2020)
 
@@ -35,7 +35,7 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 
 En esta versión se incluyen las siguientes características. Los títulos de características están vinculados a información adicional en el sitio [Planes de lanzamiento](/dynamics365/release-plans/). Los vínculos adicionales apuntan a documentación o vídeos adicionales que están disponibles actualmente para esa característica. Es posible que algunas de estas características también se hayan incluido en una versión incremental anterior pero no hayan anunciado en el tema *Novedades* anterior, por lo que las agregamos aquí. La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
 
-- [Creación avanzada de carga durante una oleada](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Para más información, consulte [Planificación de carga avanzada durante una oleada](../warehousing/advanced-load-building-during-wave.md).
+- [Creación avanzada de carga durante un lanzamiento](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Para más información, consulte [Planificación de carga avanzada durante un lanzamiento](../warehousing/advanced-load-building-during-wave.md).
 
 - [Liberación automática de envíos para tránsito directo](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock)<br> - Para obtener más información, consulte [Liberación automática de envíos para tránsito directo](../warehousing/auto-release-shipment-for-cross-docking.md).
 
@@ -71,7 +71,7 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 
 - [Dimensiones de embalaje frente a dimensiones de almacenamiento](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 
-- [Consolidación en paralelo de órdenes planificadas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Para obtener más información, consulte [Consolidación en paralelo](../master-planning/maintain-planned-orders.md#parallelize-firming) y consulte el vídeo [Mejoras de rendimiento y usabilidad de MRP](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
+- [Consolidación en paralelo de órdenes planificadas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Para obtener más información, consulte [Confirmar pedidos planificados](../master-planning/planning-optimization/planned-order-firming.md) y vea el vídeo [Mejoras de rendimiento y usabilidad de MRP](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 
 - [Planificación de optimización para distribución](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Para obtener más información, consulte la [Descripción general de la optimización de planificación](../master-planning/planning-optimization/planning-optimization-overview.md).
 
@@ -91,9 +91,9 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 
 - [Slotting de almacén](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)<br> - Para más información, consulte [Slotting de almacén](../warehousing/warehouse-slotting.md).
 
-- [Mejoras en la impresión de etiquetas de oleada](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
+- [Mejoras en la impresión de etiquetas de lanzamiento](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 
-- [Código de paso de oleada](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)<br> - Para obtener más información, consulte [Códigos de pasos de oleadas](../warehousing/wave-step-codes.md).
+- [Código de paso de lanzamiento](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)<br> - Para obtener más información, consulte [Códigos de pasos de lanzamientos](../warehousing/wave-step-codes.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -105,11 +105,11 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.9 incluye la Platform update
 
 Para obtener información sobre las correcciones de errores incluidas en cada una de las actualizaciones que forman parte de la versión 10.0.9, inicie sesión en Lifecycle Services (LCS) y consulte el [artículo de KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=415034&dbType=3&qc=7bdf05cf1859a5a56f4b9c0dae88fa1653d489181b3a2c1f19429225daf5724b).
 
-### <a name="dynamics-365-2020-release-wave-1-plan"></a>Dynamics 365: primera oleada de lanzamiento de versiones de 2020
+### <a name="dynamics-365-2020-release-wave-1-plan"></a>Dynamics 365: primer lanzamiento de versiones de 2020
 
 ¿Le gustaría conocer las nuevas y futuras funcionalidades disponibles en nuestra plataforma y en nuestras aplicaciones empresariales?
 
-Consulte [Dynamics 365: primera oleada de lanzamiento de versiones de 2020](/dynamics365-release-plan/2020wave1/index). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
+Consulte [Dynamics 365: primer lanzamiento de versiones de 2020](/dynamics365-release-plan/2020wave1/index). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 

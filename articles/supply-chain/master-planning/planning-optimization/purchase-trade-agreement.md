@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 138bf58e07d4d6df3c2106e4176e02fcdb0a6dba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
+ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820427"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961714"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planificación maestra con acuerdos comerciales de compra
 
@@ -67,7 +67,7 @@ Una vez que su sistema esté preparado como se describe en la sección anterior,
 1. Repita este procedimiento para cada producto relevante.
 
 > [!NOTE]
-> La divisa de la línea del acuerdo comercial de compra debe coincidir con la divisa del proveedor seleccionado. La planificación maestra solo incluirá información de las líneas de acuerdos comerciales de compra donde la divisa coincida con la divisa del proveedor.
+> La Optimización de planificación admite contratos comerciales de compra mutidivisa. Al buscar un acuerdo comercial utilizando la opción **Precio unitario más bajo**, el sistema considerará las líneas de acuerdos de compras comerciales con diferentes divisas, siempre que se haya definido un tipo de cambio entre la divisa de la línea del acuerdo comercial y la divisa contable de la entidad jurídica. De lo contrario, se ignorará la línea del acuerdo comercial y verá un error durante la planificación maestra. Por lo tanto, la planificación maestra incluirá información de todas las líneas de acuerdos comerciales de compra relevantes donde los precios se pueden convertir a la divisa contable.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Ejemplos de cómo Optimización de planificación encuentra proveedores y plazos de entrega
 

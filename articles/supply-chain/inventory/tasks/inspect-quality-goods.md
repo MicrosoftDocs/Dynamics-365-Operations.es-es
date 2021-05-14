@@ -1,8 +1,8 @@
 ---
 title: Inspeccionar la calidad de las mercancías
-description: Este tema explica cómo procesar un pedido de calidad.
+description: Este tema explica cómo procesar los pedidos de calidad.
 author: perlynne
-ms.date: 08/01/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,40 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47e7156e5c57d5f983564cc966b4108f1180ff8d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ec67e7864db12178c0f3cfe8b93d510a46e8a0d4
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825924"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956143"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Inspeccionar la calidad de las mercancías
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo procesar un pedido de calidad. Puede ejecutar esta guía en la empresa de datos de demostración USMF. Antes de comenzar este procedimiento de ejemplo, debe confirmar el pedido de compra "000016" y registrar una recepción de producto. Esto crea automáticamente un pedido de calidad. Las inspecciones de calidad las lleva a cabo normalmente un empleado de control de calidad.
+Este tema explica cómo procesar los pedidos de calidad. Las inspecciones de calidad las realiza normalmente un empleado de control de calidad.
 
+Si los datos de demostración estándar están instalados, puede utilizarlos para completar los procedimientos de este tema. Para usar los datos de demostración, seleccione la entidad legal *USMF* antes de empezar. A continuación, debe confirmar la orden de compra *000016* y registrar una recepción de producto. Se genera automáticamente un pedido de calidad.
 
-## <a name="select-a-quality-order"></a>Selección de un pedido de calidad
-1. En el panel de navegación, vaya a **Módulos > Gestión de inventario > Tareas periódicas > Administración de calidad > Pedidos de calidad**.
-2. Seleccione el pedido de calidad que se creó antes de empezar este procedimiento.  
+## <a name="step-1-select-a-quality-order"></a>Paso 1: seleccionar un pedido de calidad
 
-## <a name="record-test-results"></a>Registrar resultados de prueba
+Para seleccionar un pedido de calidad, siga estos pasos.
+
+1. Vaya a **Gestión del inventario \> Tareas periódicas \> Administración de calidad \> Pedidos de calidad**.
+1. Seleccione el pedido de calidad que se generó antes de empezar este procedimiento.
+
+## <a name="step-2-record-test-results"></a>Paso 2: registrar resultados de prueba
+
+Para registrar los resultados de prueba, siga estos pasos.
+
 1. Seleccione **Resultados**.
-2. Seleccione **Editar**.
-3. En el campo **Cantidad de resultado**, especifique un número.
-4. En el campo **Resultado**, seleccione en el menú desplegable el registro que desee.  
-- En este ejemplo, el resultado se basa en un resultado predefinido. Normalmente, registrará un resultado de prueba más específico, como el tamaño u otra dimensión.  
-5. Seleccione **Guardar**.
-6. Cierre la página.
+1. Seleccione **Editar**.
+1. En el campo **Cantidad de resultado**, especifique un número.
+1. En el campo **Resultado**, seleccione el registro deseado. En este ejemplo, el resultado se basa en un resultado predefinido. Normalmente, registrará un resultado de prueba más específico, como el tamaño u otra dimensión.
+1. Seleccione **Guardar**.
+1. Cierre la página.
 
-## <a name="validate-the-quality-order"></a>Validar el pedido de calidad
+## <a name="step-3-validate-the-quality-order"></a>Paso 3: validar el pedido de calidad
+
+Para validar el pedido de calidad, siga estos pasos.
+
 1. Seleccione **Validar**.
-2. En el campo **Validado por** , seleccione el usuario que estaba realizando la inspección en el menú desplegable.  
-3. Haga clic en **Seleccionar**.
-4. Seleccione **Aceptar**.
-5. Cierre la página.
-
-
+1. En el campo **Validado por**, seleccione el usuario que está realizando la inspección.
+1. Seleccione **Seleccionar**.
+1. Seleccione **Aceptar**.
+1. Cierre la página.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

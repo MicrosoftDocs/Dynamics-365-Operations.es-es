@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 54929f924bd9c2b59dec453cf580e0b2bc149d38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799478"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937071"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Cambiar el orden de clasificación de entidades de comercialización
 
@@ -84,7 +84,7 @@ El orden de visualización para la jerarquía de navegación de canales se refle
 ![PDV con categorías ordenadas de forma personalizada](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> De forma predeterminada, la característica de orden de clasificación personalizado está desactivada. Para obtener información sobre cómo activar esta característica y otras, consulte [Administración de características](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+> De forma predeterminada, la característica de orden de clasificación personalizado está desactivada. Para obtener información sobre cómo activar esta característica y otras, consulte [Administración de características](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

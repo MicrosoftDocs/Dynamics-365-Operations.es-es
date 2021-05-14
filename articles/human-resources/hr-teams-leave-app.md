@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48bf6f7997d6159077419bcd05d27fd711c8fb4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
+ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891039"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5953421"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de bajas en Teams
 
@@ -207,6 +207,14 @@ Si recibe un error cuando intenta aprobar solicitudes de permiso en la aplicaci�
 1. Verifique que la cuenta que está usando para iniciar sesión en Microsoft Teams es la misma que usa para acceder a Dynamics 365 Human Resources.
 
 2. Verifique que es un aprobador válido para la solicitud al verificar la configuración del flujo de trabajo para la aprobación de la licencia. Para obtener más información sobre los flujos de trabajo de solicitud de licencia, consulte [Crear un flujo de trabajo de solicitud de licencia](hr-leave-and-absence-workflow.md).
+
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>Los aprobadores de bajas no reciben mensajes de chat de Teams para aprobar solicitudes de bajas
+
+1. Asegúrese de que las notificaciones estén habilitadas para el entorno y el usuario. Para más información, vea [Habilitar notificaciones para la aplicación Human Resources en Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) y [Activar o desactivar las notificaciones para usuarios individuales](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. Asegúrese de que los usuarios estén conectados en la pestaña **Chats** con las mismas credenciales que utilizan para aprobar solicitudes de baja. Utilice los mensajes "cerrar sesión" y luego "iniciar sesión" para iniciar sesión con las credenciales correctas.
+
+3. Si el problema persiste, verifique el estado del trabajo por lotes del sistema Business Events como administrador del sistema. Si está en una etapa de espera o ejecución, vuelva a consultar en unos minutos. Si el estado permanece sin cambios, registre un vale de soporte para que nuestro equipo pueda ayudar a resolver el problema.
 
 ## <a name="known-accessibility-issues"></a>Problemas de accesibilidad conocidos
 

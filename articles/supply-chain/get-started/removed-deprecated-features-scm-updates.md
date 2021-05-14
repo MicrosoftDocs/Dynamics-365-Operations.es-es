@@ -2,7 +2,7 @@
 title: Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
 description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 12/07/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909656"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947553"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
 
@@ -32,6 +32,19 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 > [!NOTE]
 > La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Funciones quitadas o en desuso en la versión 10.0.19 de Supply Chain Management
+
+### <a name="job-card-device"></a>Dispositivo de tarjetas de trabajo
+
+|   |   |
+|---|---|
+| **Motivo de la depreciación/eliminación** | El [dispositivo de tarjeta de trabajo](../production-control/config-job-card-device.md) está siendo reemplazado por la nueva [interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-configure.md). |
+| **¿Reemplazado por otra característica?**   | Sí, el [dispositivo de tarjeta de trabajo](../production-control/config-job-card-device.md) está siendo reemplazado por la nueva [interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-configure.md). |
+| **Áreas de producto afectadas** | Supply Chain Management: control de producción |
+| **Opción de implementación** | Nube y local |
+| **Estado** | En desuso. El dispositivo de tarjeta de trabajo recibirá soporte con correcciones de errores y seguridad, pero ya no se proporcionarán mejoras de funciones. Después de abril de 2022, el dispositivo de tarjeta de trabajo ya no recibirá soporte y se les pedirá a los clientes que se pasen a la nueva interfaz de ejecución de planta de producción. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Funciones quitadas o en desuso en la versión 10.0.18 de Supply Chain Management
 

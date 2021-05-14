@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799862"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936665"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
 
@@ -43,7 +43,7 @@ Para activar la característica de funciones de comercio electrónico B2B en la 
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Crear una secuencia numérica y agregársela a los parámetros compartidos de Commerce
 
-Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores. Para obtener más información sobre las secuencias numéricas, consulte [Información general de secuencias numéricas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview).
+Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores. Para obtener más información sobre las secuencias numéricas, consulte [Información general de secuencias numéricas](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
 
 Para crear una secuencia numérica y agregársela a los parámetros compartidos de Commerce en la sede central de Commerce, siga estos pasos.
 
@@ -136,7 +136,7 @@ Para incorporar socios comerciales y usuarios directamente en la sede central de
 
 [Establecer límites de cantidad de productos para sitios de comercio electrónico B2B](quantity-limits.md)
 
-[Visión general de las secuencias numéricas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[Visión general de las secuencias numéricas](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

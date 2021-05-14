@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d910b89330865b0bcf3f6cd05b761506f339a45f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b51e4b4d00da2babb5128d8c4c22139b0c1853d4
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841680"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920738"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Creación de un plan de materiales para coproductos
 
@@ -26,88 +26,88 @@ ms.locfileid: "5841680"
 
 El planificador de producción planifica los requisitos de material para los artículos que son coproductos de la fórmula. La empresa de datos de demostración utilizada para crear este procedimiento es USP2.
 
-
 ## <a name="create-requirement-for-a-co-product"></a>Creación de un requisito para un coproducto
-1. Vaya al panel predeterminado.
-2. Haga clic en Consulta y procesamiento de pedido de ventas.
-3. Haga clic en Nuevo.
-4. Haga clic en Pedido de ventas.
-5. En el campo Cuenta de cliente, escriba un valor.
+
+1. Vaya a **Ventas y marketing \> Espacios de trabajo \> Procesamiento y consulta de pedidos de venta**.
+1. Seleccione **Nuevo**.
+1. Seleccione **Pedido de ventas**.
+1. En el campo **Cuenta de cliente**, escriba un valor.
     * Ejemplo: US-001  
-6. Haga clic en Aceptar
-7. En el campo Código de artículo, escriba un valor.
+1. Seleccione **Aceptar**.
+1. En el campo **Código de artículo**, escriba un valor.
     * Ejemplo: P6003  
-8. En el campo Cantidad, especifique un número.
+1. En el campo **Cantidad**, especifique un número.
     * Ejemplo: 50000  
-9. Haga clic en Guardar.
+1. Seleccione **Guardar**.
 
 ## <a name="create-a-material-plan-for-co-products"></a>Crear un plan de materiales para coproductos
+
 1. Cierre la página.
-2. Cierre la página.
-3. Haga clic en Planificación maestra.
-4. En el campo Plan, haga clic en el botón desplegable para abrir la búsqueda.
-5. En la lista, haga clic en el vínculo de la fila seleccionada.
+1. Cierre la página.
+1. Seleccione **Planificación maestra**.
+1. En el campo **Plan**, seleccione el botón desplegable para abrir la búsqueda.
+1. En la lista, seleccione el vínculo de la fila seleccionada.
     * Ejemplo: Plan maestro  
-6. Haga clic en Ejecutar.
-7. Expanda o contraiga la sección Registros que incluir.
-8. Haga clic en Filtro.
-9. En la lista, seleccione la fila para Campo = Número de artículo.
-10. En el campo Criterios, escriba un valor.
+1. Seleccione **Ejecutar**.
+1. Expanda o contraiga la sección **Registros a incluir**.
+1. Seleccione **Filtro**.
+1. En la lista, seleccione la fila de **Campo** = *Número de artículo*.
+1. En el campo **Criterios**, escriba un valor.
     * Ejemplo: P6003  
-11. Haga clic en Aceptar
-12. Haga clic en Aceptar
-13. Haga clic en Pedidos planificados.
-14. Use el filtro rápido para buscar registros. Por ejemplo, filtre por el campo Número de artículo con un valor de "P6000".
+1. Seleccione **Aceptar**.
+1. Seleccione **Aceptar**.
+1. Seleccione **Pedidos planificados**.
+1. Use el filtro rápido para buscar registros. Por ejemplo, filtre por el campo **Número de artículo** con un valor de 'P6000'.
     * Filtre por el producto de fórmula que tiene como coproducto el producto para el cual ha creado un pedido de ventas.  
-15. En la lista, marque la fila seleccionada.
+1. En la lista, marque la fila seleccionada.
     * Seleccione cualquiera de las filas que haya devuelto el filtro.  
-16. En la lista, haga clic en el vínculo de la fila seleccionada.
-17. Expanda o contraiga la sección Diagrama de árbol.
-18. En la lista, haga clic en el vínculo de la fila seleccionada.
+1. En la lista, seleccione el vínculo de la fila seleccionada.
+1. Expanda la sección **Diagrama de árbol**.
+1. En la lista, seleccione el vínculo de la fila seleccionada.
     * El pedido planificado se adjunta al pedido de ventas para el coproducto.  
-19. Cierre la página.
+1. Cierre la página.
 
-## <a name="create-requirement-for-a-co-product"></a>Creación de un requisito para un coproducto
-1. Vaya al panel predeterminado.
-2. Haga clic en Consulta y procesamiento de pedido de ventas.
-3. Haga clic en Nuevo.
-4. Haga clic en Pedido de ventas.
-5. En el campo Cuenta de cliente, escriba un valor.
+## <a name="create-a-second-requirement-for-a-co-product"></a>Creación de un segundo requisito para un coproducto
+
+1. Vaya a **Ventas y marketing \> Espacios de trabajo \> Procesamiento y consulta de pedidos de venta**.
+1. Seleccione **Nuevo**.
+1. Seleccione **Pedido de ventas**.
+1. En el campo **Cuenta de cliente**, escriba un valor.
     * Ejemplo: US-001  
-6. Haga clic en Aceptar
-7. En el campo Código de artículo, escriba un valor.
+1. Seleccione **Aceptar**.
+1. En el campo **Código de artículo**, escriba un valor.
     * Ejemplo: P6003  
-8. En el campo Cantidad, especifique un número.
+1. En el campo **Cantidad**, especifique un número.
     * Ejemplo: 50000  
-9. Haga clic en Guardar.
+1. Seleccione **Guardar**.
 
-## <a name="create-a-material-plan-for-co-products"></a>Crear un plan de materiales para coproductos
-1. En el campo Plan, haga clic en el botón desplegable para abrir la búsqueda.
-2. En la lista, haga clic en el vínculo de la fila seleccionada.
+## <a name="create-a-second-material-plan-for-co-products"></a>Crear un segundo plan de materiales para coproductos
+
+1. En el campo **Plan**, seleccione el botón desplegable para abrir la búsqueda.
+2. En la lista, seleccione el vínculo de la fila seleccionada.
     * Ejemplo: Plan maestro  
-3. Haga clic en Ejecutar.
-4. Expanda o contraiga la sección Registros que incluir.
-5. Haga clic en Filtro.
-6. En la lista, seleccione la fila para Campo = Número de artículo.
-7. En el campo Criterios, escriba un valor.
+3. Seleccione **Ejecutar**.
+4. Expanda o contraiga la sección **Registros a incluir**.
+5. Seleccione **Filtro**.
+6. En la lista, seleccione la fila de **Campo** = *Número de artículo*.
+7. En el campo *Criterios*, escriba un valor.
     * Ejemplo: P6003  
-8. Haga clic en Aceptar
-9. Haga clic en Aceptar
-10. Haga clic en Pedidos planificados.
-11. Use el filtro rápido para buscar registros. Por ejemplo, filtre por el campo Número de artículo con un valor de "P6000".
+8. Seleccione **Aceptar**.
+9. Seleccione **Aceptar**.
+10. Seleccione **Pedidos planificados**.
+11. Use el filtro rápido para buscar registros. Por ejemplo, filtre por el campo **Número de artículo** con un valor de 'P6000'.
     * Filtre por el producto de fórmula que tiene como coproducto el producto para el cual ha creado un pedido de ventas.  
 12. En la lista, marque la fila seleccionada.
     * Seleccione cualquiera de las filas que haya devuelto el filtro.  
-13. En la lista, haga clic en el vínculo de la fila seleccionada.
-14. Expanda o contraiga la sección Diagrama de árbol.
-15. En la lista, haga clic en el vínculo de la fila seleccionada.
+13. En la lista, seleccione el vínculo de la fila seleccionada.
+14. Expanda o contraiga la sección **Diagrama de árbol**.
+15. En la lista, seleccione el vínculo de la fila seleccionada.
     * El pedido planificado se adjunta al pedido de ventas para el coproducto.  
 16. Cierre la página.
-17. Haga clic en Planificación maestra.
-18. Vaya a Planificación maestra > Configuración > Parámetros de planificación maestra.
-19. Seleccione No en el campo Deshabilitar todos los procesos de planificación.
+17. Seleccione **Planificación maestra**.
+18. Vaya a **Planificación maestra \> Configuración \> Parámetros de planificación maestra**.
+19. Seleccione *No* en el campo **Deshabilitar todos los procesos de planificación**.
 20. Cierre la página.
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

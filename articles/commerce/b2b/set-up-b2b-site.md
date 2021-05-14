@@ -2,7 +2,8 @@
 title: Configurar un sitio de comercio electrónico B2B
 description: Este tema describe cómo configurar un sitio de comercio electrónico de empresa a empresa (B2B) en Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799766"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937515"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Configurar un sitio de comercio electrónico B2B
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Los sitios de comercio electrónico de empresa a empresa (B2B) proporcionan algunas funciones esenciales que optimizan el flujo de trabajo para un usuario de B2B. Este tema describe cómo configurar un sitio de comercio electrónico B2B en Microsoft Dynamics 365 Commerce. Recorre la los módulos y las opciones de sitio que hay que configurar para habilitar escenarios específicos de B2B.
 
@@ -283,13 +285,39 @@ Para crear una página de detalles de facturas en el generador de sitios, siga e
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 1. Publique la dirección URL de la página.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Agregar un módulo de adición rápida a la página del carrito
+
+El módulo de adición rápida proporciona una manera de agregar rápidamente varios artículos al carrito mediante el uso de los id. de artículo (también conocidos como id. de referencia de almacén \[ SKU\]). El módulo de adición rápida se agrega a la página del carrito de un sitio.
+
+Para agregar un módulo de adición rápida a una página de carrito en el generador de sitios de Commerce, siga estos pasos.
+
+1. Vaya a **Plantillas** y seleccione la plantilla de página de carrito de su sitio.
+1. Seleccione **Editar**.
+1. En el espacio **Principal** del módulo **Página predeterminada**, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
+1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Adición rápida** y, a continuación, seleccione **Aceptar**.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
+1. Vaya a **Páginas** y seleccione la página de carrito de su sitio.
+1. En el espacio **Principal** del módulo **Página predeterminada**, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
+1. En el panel de propiedades del módulo **Contenedor**, en **Anchura**, seleccione **Rellenar contenedor**.
+1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Adición rápida** y, a continuación, seleccione **Aceptar**.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
+
+> [!NOTE] 
+> El módulo de adición rápida está disponible a partir de la versión 10.0.17 de Commerce. Si está actualizando desde una versión anterior de Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones, consulte [Actualizaciones del SDK y la biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Descripción general de la biblioteca de módulos](../starter-kit-overview.md)
 
-[Visión general de creación de páginas](../authoring-home-overview.md)
+[Actualizaciones de SDK y bibliotecas de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
-[Visión general de plantillas y diseños](../templates-layouts-overview.md)
+[Información general de creación de páginas](../authoring-home-overview.md)
+
+[Información general de plantillas y diseños](../templates-layouts-overview.md)
 
 [Trabajar con fragmentos](../work-with-fragments.md)
 
@@ -299,7 +327,7 @@ Para crear una página de detalles de facturas en el generador de sitios, siga e
 
 [Módulo de bloque de contenido](../add-hero-module.md)
 
-[Colección de productos](../product-collection-module-overview.md)
+[Módulo de colección de productos](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

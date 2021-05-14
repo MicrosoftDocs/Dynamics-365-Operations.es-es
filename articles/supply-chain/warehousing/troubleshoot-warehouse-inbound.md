@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828235"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920996"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Solucionar problemas de operaciones de almacén de entrada
 
@@ -56,7 +56,7 @@ Después de ejecutar la tarea periódica *Actualizar recibos de productos*, el s
 
 ### <a name="issue-resolution"></a>Solución del problema
 
-Una nueva función de manipulación de carga entrante, *Sobre recepción de cantidades de carga*, soluciona este problema. Para activar esta característica, vaya a [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active las siguientes características (en el mismo orden):
+Una nueva función de manipulación de carga entrante, *Sobre recepción de cantidades de carga*, soluciona este problema. Para activar esta característica, vaya al espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active las siguientes características (en el mismo ordenen que se enumeran):
 
 1. Asociar transacciones de inventario de pedido de compra a carga
 1. Recepción en exceso de cantidades de carga

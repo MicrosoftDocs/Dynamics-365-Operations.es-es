@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
-ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
+ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
+ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5898296"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5965319"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Características quitadas u obsoletas de Dynamics 365 Finance
 
@@ -104,7 +104,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Características quitadas o en desuso en la versión Finance 10.0.12
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Informes de SSRS polacos: registro de IVA diferido, registro de IVA soportado, registro de resumen de IVA de la UE - Referencia de características PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>No en desuso: Informes de SSRS polacos de registro de IVA devengado, registro de IVA soportado, registro de resumen de IVA de la UE, referencia de características PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -112,7 +112,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **¿Reemplazado por otra característica?**   | Sí (formato Excel para el archivo de auditoría estándar con declaración de IVA - JPK_VDEK) |
 | **Áreas de producto afectadas**         | Solicitud |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | En desuso: está previsto que el 1 de julio de 2021 se retiren los informes de SSRS: **Registro de IVA diferido, Registro de IVA soportado, Registro de resumen de IVA de la UE - Referencia de características PL-00014**. En su lugar se incluirá el ejemplo con formato Excel del archivo de auditoría estándar con declaración de IVA (JPK_VDEK). |
+| **Estado**                         | En desuso: a partir del 27 de abril de 2021 está pensado continuar soportando los informes de SSRS: **Registro de IVA devengado, Registro de IVA soportado, Registro de resumen de IVA de la UE, referencia de características PL-00014**. El ejemplo con formato Excel del archivo de auditoría estándar con declaración de IVA (JPK_VDEK) también se ha introducido. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Características quitadas o en desuso en la versión Finance 10.0.11
 

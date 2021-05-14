@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797848"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936839"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Agregar soporte para una red de entrega de contenido (CDN)
 
@@ -47,7 +47,7 @@ Como se ha mencionado anteriormente, el nombre de host o extremo generado admite
 
 Cualquier servicio de CDN se puede usar con un entorno de Commerce. Estos son dos ejemplos:
 
-- **Microsoft Azure Front Door Service**: la solución de CDN de Azure. Para obtener más información acerca de Azure Front Door Service, consulte [Documentación de Azure Front Door Service](https://docs.microsoft.com/azure/frontdoor/).
+- **Microsoft Azure Front Door Service**: la solución de CDN de Azure. Para obtener más información acerca de Azure Front Door Service, consulte [Documentación de Azure Front Door Service](/azure/frontdoor/).
 - **Acelerador de sitios dinámicos de Akamai**: para obtener más información, consulte [Acelerador de sitios dinámicos](https://www.akamai.com/us/en/products/performance/dynamic-site-accelerator.jsp).
 
 ## <a name="cdn-setup"></a>Configuración de CDN
@@ -62,7 +62,7 @@ El proceso de configuración de CDN consta de estos pasos generales:
 
 Se puede usar cualquier servicio de CDN, pero para el ejemplo que se muestra en este tema, se usa Azure Front Door Service. 
 
-Para obtener información acerca de cómo configurar Azure Front Door Service, consulte [Inicio rápido: crear una puerta delantera para una aplicación web global de alta disponibilidad](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
+Para obtener información acerca de cómo configurar Azure Front Door Service, consulte [Inicio rápido: crear una puerta delantera para una aplicación web global de alta disponibilidad](/azure/frontdoor/quickstart-create-front-door).
 
 ### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Configurar un grupo back-end en Azure Front Door Service
 
@@ -115,7 +115,7 @@ En la ilustración siguiente se muestra el cuadro de diálogo **Personalizar HTT
 
 ![Cuadro de diálogo Personalizar HTTPS de dominio](./media/Custom_Domain_HTTPS.png)
 
-Para obtener instrucciones detalladas sobre cómo agregar un dominio personalizado a Azure Front Door, consulte [Agregar un dominio personalizado a su instancia de Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
+Para obtener instrucciones detalladas sobre cómo agregar un dominio personalizado a Azure Front Door, consulte [Agregar un dominio personalizado a su instancia de Front Door](/azure/frontdoor/front-door-custom-domain).
 
 Su CDN debe estar ahora configurado correctamente para que se pueda usar con su sitio de Commerce.
 

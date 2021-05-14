@@ -2,7 +2,7 @@
 title: Aplazar la ejecución de elementos de secuencia en formatos ER
 description: Este tema explica cómo diferir la ejecución de un elemento de secuencia en un formato de informe electrónico (ER).
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894109"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944518"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Aplazar la ejecución de elementos de secuencia en formatos ER
 
@@ -57,14 +57,14 @@ Si aún no ha completado el ejemplo del tema [Aplazar la ejecución de elementos
 
 | Descripción del contenido            | Nombre de archivo |
 |--------------------------------|-----------|
-| Configuración del modelo datos de ER    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuración de la asignación del modelo ER | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuración del modelo datos de ER    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configuración de la asignación del modelo ER | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Antes de comenzar, también debe descargar y guardar la siguiente configuración de la solución ER de ejemplo.
 
 | Descripción del contenido     |Nombre de archivo |
 |-------------------------|----------|
-| Configuración del formato de ER | [Format to learn deferred sequences.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuración del formato de ER | [Format to learn deferred sequences.version.1.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importar las configuraciones de ER de ejemplo
 
@@ -169,7 +169,7 @@ Revise la configuración del componente de asignación del modelo ER que está c
 1. En la página **Diseñador de formato**, seleccione **Ejecutar**.
 2. Descargue el archivo que ofrece el navegador web y ábralo para su revisión.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run.png)
+    ![Archivo de informe de muestra descargado](./media/ER-DeferredSequence-Run.png)
 
 Observe que la línea de resumen 22 presenta la suma de los valores de impuestos para las transacciones procesadas. Debido a que el formato está configurado para usar el enlace **model.Data.Summary.Total** para devolver esta suma, la suma se calcula llamando a la agregación **TotalSum** del origen de datos **Grouped** del tipo *GroupBy* que usa la asignación del modelo. Para calcular esta agregación, la asignación de modelo recorre en iteración todas las transacciones que se han seleccionado en el origen de datos **Filtered**. Al comparar los tiempos de ejecución de las líneas 21 y 22, puede determinar que el cálculo de la suma tardó 10 milisegundos (ms). Al comparar los tiempos de ejecución de las líneas 2 y 21, puede determinar que la generación de todas las líneas transaccionales tardó 7 ms. Por lo tanto, se requirió un total de 17 ms.
 
@@ -202,7 +202,7 @@ Si el volumen de transacciones es mucho mayor que el volumen del ejemplo actual,
 12. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 13. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run1.png)
+    ![Archivo descargado: valores de impuestos sumados](./media/ER-DeferredSequence-Run1.png)
 
     La línea 21 contiene el total acumulado de los valores impositivos para todas las transacciones procesadas utilizando la salida generada como origen de datos. Este origen de datos comienza desde el principio del informe y continúa hasta la última transacción fiscal. La línea 22 contiene la suma de los valores impositivos para todas las transacciones procesadas que se calculan en la asignación del modelo utilizando el origen de datos del tipo *GroupBy*. Tenga en cuenta que los valores son iguales. Por lo tanto, la suma basada en la salida se puede usar en lugar de **GroupBy**. Al comparar los tiempos de ejecución de las líneas 2 y 21, puede determinar que la generación y suma de todas las líneas transaccionales tardó 9 ms. Por lo tanto, en lo que respecta a la generación de líneas detalladas y la suma de los valores fiscales, el formato modificado es aproximadamente dos veces más rápido que el formato original.
 
@@ -211,7 +211,7 @@ Si el volumen de transacciones es mucho mayor que el volumen del ejemplo actual,
 16. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 17. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run2.png)
+    ![Archivo descargado con fórmula editada](./media/ER-DeferredSequence-Run2.png)
 
     Observe que el total acumulado de los valores de impuestos de la última línea de detalles de la transacción ahora es igual a la suma en la línea de resumen.
 
@@ -224,7 +224,7 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 3. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 4. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run3.png)
+    ![Archivo descargado para sumar en el encabezado del informe](./media/ER-DeferredSequence-Run3.png)
 
     Observe que la suma de los valores impositivos en la línea de resumen 2 ahora es igual a 0 (cero), porque esta suma ahora se calcula en función de la salida generada. Cuando se genera la línea 2, la salida generada aún no contiene líneas que tienen detalles de transacción. Puede configurar este formato para aplazar la ejecución del elemento de secuencia **Report\\Lines\\Summary** hasta que el elemento de secuencia **Report\\Lines\\Record** se haya ejecutado para todas las transacciones fiscales.
 
@@ -238,7 +238,7 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 3. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 4. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run4.png)
+    ![Archivo descargado: ejecución diferida](./media/ER-DeferredSequence-Run4.png)
 
     El elemento de secuencia **Report\\Lines\\Summary** ahora se ejecuta solo después de todos los demás elementos que están anidados bajo su elemento principal, **Report\\Lines**. Por lo tanto, se ejecuta después de que el elemento de secuencia **Report\\Lines\\Record** se haya ejecutado para todas las transacciones fiscales del origen de datos **model.Data.List**. Los tiempos de ejecución de las líneas 1, 2 y 3 y de la última línea, 22, revelan este hecho.
 

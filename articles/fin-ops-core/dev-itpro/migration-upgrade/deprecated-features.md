@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745272"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921432"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas o en desuso de versiones anteriores
 
@@ -37,7 +37,7 @@ Este tema describe las características que se eliminaron o que están en desuso
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 con Platform update 31
 
@@ -147,7 +147,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Alineación de cabecera con otros productos de Dynamics y de Office. Para más información, consulte [Barra de exploración que se alinea con el encabezado de Office](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Motivo de la depreciación/eliminación** | Alineación de cabecera con otros productos de Dynamics y de Office. Para más información, consulte [Barra de exploración que se alinea con el encabezado de Office](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **¿Reemplazado por otra característica?**   | A partir de la Platform update 24 se introdujo una barra de navegación rediseñada que cuenta con búsqueda. |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todas |
@@ -161,7 +161,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El comportamiento heredado de las acciones predeterminadas de las cuadrículas resulta en una columna inesperada que tiene el vínculo predeterminado de la acción después de que las columnas de la cuadrícula se hayan reordenado a través de la personalización. La nueva función acción adhesiva predeterminada corrige esto. Para más información, consulte [Acciones adhesivas predeterminadas en cuadrículas](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Motivo de la depreciación/eliminación** | El comportamiento heredado de las acciones predeterminadas de las cuadrículas resulta en una columna inesperada que tiene el vínculo predeterminado de la acción después de que las columnas de la cuadrícula se hayan reordenado a través de la personalización. La nueva función acción adhesiva predeterminada corrige esto. Para más información, consulte [Acciones adhesivas predeterminadas en cuadrículas](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **¿Reemplazado por otra característica?**   | A partir de Platform update 21 se añadió una función para "acciones adhesivas predeterminadas". Esta función se puede habilitar en la página **Opciones de rendimiento del cliente**. |
 | **Áreas de producto afectadas**         | Cuadrículas en el cliente web |
 | **Opción de implementación**              | Todas |
@@ -172,7 +172,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La experiencia de filtrado "es uno de" se ha rediseñado en la Platform update 22, y se planea que acabe siendo la única experiencia de filtrado "es uno de". |
-| **¿Reemplazado por otra característica?**   | A partir de la Platform update 22 tiene disponible una experiencia filtrado mejorada "es uno de" en la página **Opciones de rendimiento del cliente**. Para más información, consulte [Optimizado es una experiencia de filtrado es uno de](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **¿Reemplazado por otra característica?**   | A partir de la Platform update 22 tiene disponible una experiencia filtrado mejorada "es uno de" en la página **Opciones de rendimiento del cliente**. Para más información, consulte [Optimizado es una experiencia de filtrado es uno de](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | Desusado: a partir de abril de 2020, la experiencia mejorada "es uno de" será el comportamiento predeterminado, sin un mecanismo para volver al antiguo comportamiento. |
@@ -1333,7 +1333,7 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 
 ### <a name="virtual-company-accounts"></a>Cuentas de empresa virtuales
 
-La característica de empresas virtuales ya no se admite en Dynamics AX. La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas. Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes. Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.
+La característica de empresas virtuales ya no se admite en Dynamics AX. La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas. Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](../../fin-ops/get-started/ax4-content-retired.md). La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes. Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

@@ -2,7 +2,7 @@
 title: Diseñar informes multilingües en informes electrónicos
 description: Este tema explica cómo puede usar las etiquetas de informes electrónicos (ER) para diseñar y generar informes multilingües.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753561"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951994"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Diseñar informes multilingües en informes electrónicos
 
@@ -158,6 +158,31 @@ ER admite diferentes formas de especificar un idioma para un informe generado. E
 - **Definido en tiempo de ejecución**: genere un informe en un idioma que se especifica en tiempo de ejecución. Si selecciona este valor, en el campo **Idioma**, configure una expresión ER que devuelva el código de idioma para el idioma, como el idioma del cliente correspondiente.
 
     ![Especificar en el diseñador de operaciones ER un idioma definido en tiempo de ejecución de la empresa como el idioma de un informe generado](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Formato específico de cultura
+
+ER admite diferentes formas de especificar la cultura para un informe generado. Por lo tanto, se puede utilizar el formato específico de la cultura correcta para la fecha, la hora y los valores numéricos. Cuando diseña un formato ER, en la pestaña **Formato**, en el campo **Preferencias culturales**, puede seleccionar uno de los siguientes valores para cada componente de formato del tipo **Común\\Archivo**, **Excel\\Archivo**, **PDF\\Archivo** o **PDF\\Fusión**:
+
+- **Preferencia de usuario**: formatee los valores de acuerdo con la cultura preferida del usuario. Esa cultura se define en el campo **Formato de fecha, hora y número** de la pestaña **Preferencias** de la página **Opciones de usuario**.
+
+    ![Definición de la cultura preferida del usuario como la cultura de un informe generado en el diseñador de operaciones de ER](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Definido explícitamente**: formatee los valores de acuerdo con la cultura que se especifica en el momento del diseño.
+
+    ![Definición de la cultura especificada en el momento del diseño como la cultura de un informe generado en el diseñador de operaciones de ER](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Definido en tiempo de ejecución**: formatee los valores de acuerdo con la cultura que se especifica en el tiempo de ejecución. Si selecciona este valor, en la pestaña **Asignación**, en el campo **Formato de fecha, hora y número**, configure una expresión de ER que devuelva el código de cultura para la cultura, como la cultura del cliente correspondiente.
+
+    ![Definición de la cultura definida en el tiempo de ejecución como la cultura de un informe generado en el diseñador de operaciones de ER](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> Un componente de ER para el que define una cultura específica podría contener componentes de ER secundarios que se configuraron para completar un valor de texto. De forma predeterminada, la cultura del componente principal se utiliza para formatear los valores de esos componentes. Puede utilizar las siguientes funciones de ER integradas para configurar enlaces para esos componentes y aplicar una cultura alternativa para el formato de valor:
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> En la versión 10.0.20 y posteriores, la configuración regional de los componentes de formato de los tipos **Común\\Archivo** y **Excel\\Archivo** se utiliza para formatear valores durante la [Conversión de PDF](electronic-reporting-destinations.md#OutputConversionToPDF) de un documento generado.
 
 ## <a name="translation"></a>Traducción
 

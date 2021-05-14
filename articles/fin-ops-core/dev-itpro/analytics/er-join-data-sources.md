@@ -2,7 +2,7 @@
 title: Usar los orígenes de datos de JOIN del modelo ER asignaciones para recopilar datos de las tablas de la aplicación múltiple
 description: En este tema se explica cómo puede usar orígenes de datos de tipo JOIN en informes electrónicos (ER).
 author: NickSelin
-ms.date: 05/04/2020
+ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: d42016b914d7992b6f4ae1c573eb8f867ba87e22
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be5646eaf395310c8b34586ef1274a41b5b97029
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743986"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944736"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar los orígenes de datos de JOIN para obtener datos de varias tablas de aplicación múltiple en las asignaciones de modelo de informes electrónicos (ER)
 
@@ -64,13 +64,13 @@ Para completar los ejemplos de este tema, debe obtener acceso a uno de los sigui
 
 También debe completar primero los pasos del procedimiento [Creación de un proveedor de configuraciones y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Por adelantado, también deberá descargar del [Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=000000) y guardar localmente los archivos de configuración siguientes de ER de ejemplo:
+De antemano, también debe descargar y guardar los siguientes archivos de configuración de ER de muestra:
 
 | **Descripción del contenido**  | **Nombre de archivo**   |
 |--------------------------|-----------------|
-| Ejemplo de archivo de configuración de **Modelo de datos de ER**, que se usa como origen de datos para los ejemplos.| [Modelo para aprender fuentes de datos JOIN.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Ejemplo de archivo de configuración de **Asignación de modelo ER**, que implementa el modelo de datos ER para los ejemplos. | [Asignación para aprender fuentes de datos JOIN.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Archivo de configuración de ejemplo del **Formato ER**. En este archivo se describen los datos para rellenar el componente del formato de ER para los ejemplos. | [Formato para aprender fuentes de datos JOIN.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Ejemplo de archivo de configuración de **Modelo de datos de ER**, que se usa como origen de datos para los ejemplos.| [Modelo para aprender fuentes de datos JOIN.version.1.1.xml](https://download.microsoft.com/download/5/c/1/5c1d8a57-6ebd-425b-bc5d-c71dde92c6af/ModeltolearnJOINdatasources.version.1.xml) |
+| Ejemplo de archivo de configuración de **Asignación de modelo ER**, que implementa el modelo de datos ER para los ejemplos. | [Asignación para aprender fuentes de datos JOIN.version.1.1.xml](https://user-images.githubusercontent.com/19827601/115923048-86b10400-a432-11eb-9e57-c37a02effcb4.png)|
+| Archivo de configuración de ejemplo del **Formato ER**. En este archivo se describen los datos para rellenar el componente del formato de ER para los ejemplos. | [Formato para aprender fuentes de datos JOIN.version.1.1.xml](https://download.microsoft.com/download/f/f/8/ff8f1b48-14d0-4c73-9145-bcdf8b5265bc/FormattolearnJOINdatasources.version.1.1.xml) |
 
 ### <a name="activate-a-configurations-provider"></a>Activar un proveedor de las configuraciones
 
@@ -99,7 +99,7 @@ Por adelantado, también deberá descargar del [Centro de descarga de Microsoft]
     3. Seleccione **Explorar** para encontrar el archivo **Formato para aprender las fuentes de datos JOIN.version.1.1.xml**.
     4. Seleccione **Aceptar**.
 5. En el árbol de las configuraciones, expanda el elemento **Modelo para aprender fuentes de datos JOIN** junto con otros elementos de modelo (si está disponible).
-6. Observe la lista de la configuración de ER en los detalles del árbol además de la versión en la ficha desplegable **Versiones** se usarán como origen de los datos del informe de ejemplo.
+6. Observe la lista de la configuración de ER en los detalles del árbol además de la versión en la ficha desplegable **Versiones**, se usarán como origen de los datos del informe de ejemplo.
 
     ![Página de configuraciones de informes electrónicos](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
@@ -123,18 +123,18 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 4. Seleccionar **Mostrar detalles**.
 5. En el árbol de las configuraciones, expanda los artículos del modelo de datos **Set1** y **Set1.Details** :
 
-    1. Enlazar **Detalles: Lista de registro = versiones** indica que el elemento **Set1.Details** está enlazado en el origen datos **Versiones** que devuelve los registros de la tabla **ERSolutionVersionTable** . Cada registro de esta tabla representa una única versión de una configuración de ER. El contenido de esta tabla se muestra en la ficha desplegable **Versiones** en la página **Configuraciones**.
+    1. Enlazar **Detalles: Lista de registro = versiones** indica que el elemento **Set1.Details** está enlazado en el origen datos **Versiones** que devuelve los registros de la tabla **ERSolutionVersionTable** . Cada registro de esta tabla representa una única versión de una configuración de ER. El contenido de esta tabla se muestra en la ficha desplegable **Versiones**, en la página **Configuraciones**.
     2. Enlazar **ConfigurationVersion: String = @.PublicVersionNumber** significa que el valor de la versión pública de la versión de cada configuración de ER está tomado del campo **PublicVersionNumber** de la tabla **ERSolutionVersionTable** y se incluirán al elemento **ConfigurationVersion**.
     3. Enlazar **ConfigurationTitle: String = @.'>Relations'. Solution.Name** indica que el nombre de una configuración de ER está tomado del campo **Nombre** de la tabla **ERSolutionTable** que evalúa mediante la relación varios-a-uno (**'>Relations'**) entre **ERSolutionVersionTable** y las tablas **ERSolutionTable** . Los nombres de las configuraciones de ER de la instancia de aplicación actual se muestran en el árbol de las configuraciones de la página **Configuraciones**.
     4. Enlazar **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** significa que el nombre del proveedor de configuración propietario de la configuración actual se toma del campo **Nombre** de la tabla **ERVendorTable** evaluando mediante la relación varios-a-uno entre las tablas **ERSolutionTable** y **ERVendorTable**. Los nombres de los proveedores de configuración de ER de la instancia de aplicación actual se muestran en el árbol de las configuraciones de la página **Configuraciones** en el encabezado de página de cada configuración. La lista completa de proveedores de la configuración del ER se puede encontrar en la página de la tabla **Administración de la organización \> Informes electrónicos \> Proveedor de configuración**.
 
-    ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-Set1Review.PNG)
+    ![Página del diseñador de asignación de modelos de ER, lista de elementos del modelo de datos enazado](./media/GER-JoinDS-Set1Review.PNG)
 
 6. En el árbol de las configuraciones, expanda los artículos del elemento de modelo de datos **Set1.Summary**:
 
     1. Enlazar **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** indica que el elemento **Set1.Summary.VersionsNumber** está enlazado al campo del agregado **VersionsNumber** del origen de datos **VersionsSummary** del tipo **GroupBy** que se haya configurado devolver el número de registros de la tabla **ERSolutionVersionTable** mediante el origen de datos **Versiones**.
 
-    ![Página de los parámetros del origen de datos de GROUPBY](./media/GER-JoinDS-Set1GroupByReview.PNG)
+    ![Editar la página de parámetros 'Agrupar por'](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
 7. Cierre la página.
 
@@ -144,11 +144,11 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
 1. En el árbol de las configuraciones, expanda los artículos del modelo de datos **Set2** y **Set2.Details**. El enlace **Detalles: Registro enumerado = detalles** indica que el elemento **Set2.Details** está enlazado el origen de datos **Detalles** configurado como origen de datos del tipo **Unión**.
 
-    ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-Set2Review.PNG)
+    ![Página del diseñador de asignación del modelo ER que muestra los elementos del modelo de datos Set2:Record](./media/GER-JoinDS-Set2Review.PNG)
 
     El origen de datos **Unión** se puede agregar seleccionando el origen de datos **Funciones\Unión**:
 
-    ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-AddJoinDS.PNG)
+    ![Página del diseñador de asignación de modelo de ER, unirse al tipo de origen de datos](./media/GER-JoinDS-AddJoinDS.PNG)
 
 2. Seleccionar **Detalle** s del origen de datos.
 3. Seleccione **Editar** en el panel **Orígenes de datos**.
@@ -196,21 +196,21 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
     Este formato están diseñado para rellenar un archivo de texto generado con una nueva línea para cada versión de una configuración ER (secuencia **Versión**). Cada línea generada contendrá el nombre de un proveedor de la configuración que posee la configuración actual, el nombre de la configuración y la versión de configuración separados por la marca del punto y coma. La línea final de archivo generado contendrá el número de versiones detectadas de las configuraciones de ER (secuencia **Resumen**).
 
-    ![Página de diseñador de formato ER](./media/GER-JoinDS-FormatReview.PNG)
+    ![Página del diseñador de formato ER, pestaña Formato](./media/GER-JoinDS-FormatReview.PNG)
 
     Los orígenes de datos **Datos** y **Resumen** se usan para rellenar los detalles de la versión de la configuración al archivo generado:
 
     - La información del modelo de datos **Set1** se usa cuando elija **No** para el origen de datos **Selector** en el tiempo de ejecución en la página del cuadro de diálogo cuando ejecuta formato de ER.
     - La información del modelo de datos **Set2** se usa cuando elija **Sí** para el origen de datos **Selector** en el tiempo de ejecución en la página del cuadro de diálogo.
 
-    ![Página de diseñador de formato ER](./media/GER-JoinDS-FormatMappingReview.PNG)
+    ![Página del diseñador de formato de ER, pestaña Asignación](./media/GER-JoinDS-FormatMappingReview.PNG)
 
 9. Seleccione **Ejecutar**.
 10. En la página de diálogo, seleccione **No** en el campo **Usar origen de datos JOIN**.
 11. Seleccione **Aceptar**.
 12. Revisar el archivo generado.
 
-    ![Página del diálogo de usuario del ER](./media/GER-JoinDS-Set1Run.PNG)
+    ![Archivo generado de parámetros de informe electrónico que no utiliza la fuente de datos JOIN](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>Analizar el seguimiento de la ejecución del formato de ER
 
@@ -224,7 +224,7 @@ Revise los valores del componente de asignación del modelo de ER. El componente
     - **ERSolutionTable** se ha llamado tantas veces que tiene registros de versión de la configuración de la tabla **ERSolutionVersionTable**, mientras que el número de tales llamadas se podría reducir para la mejora de rendimiento.
     - **ERVendorTable** se ha llamado dos por cada registro de versión de configuración que se encontró en la tabla **ERSolutionVersionTable**, mientras que el número de tales llamadas también se podría reducir.
 
-    ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-Set1Run2.PNG)
+    ![Estadísticas de ejecución en la página del diseñador de asignación de modelo de ER](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Cierre la página.
 
@@ -236,7 +236,7 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 4. Seleccione **Aceptar**.
 5. Revisar el archivo generado.
 
-    ![Página del diálogo de usuario del ER](./media/GER-JoinDS-Set2Run.PNG)
+    ![Archivo generado de parámetros de informes electrónicos que utiliza la fuente de datos JOIN](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analizar el seguimiento de la ejecución del formato de ER
 
@@ -249,11 +249,11 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
     - La base de datos de aplicación se ha llamado una vez para conseguir los registros de las tablas **ERVendorTable**, **ERSolutionTable** y **ERSolutionVersionTable** para obtener el acceso a campos necesarios.
 
-    ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-Set2Run2.PNG)
+    ![Detalles de estadísticas de rendimiento en la página del diseñador de asignación de modelo de ER](./media/GER-JoinDS-Set2Run2.PNG)
 
     - La base de datos de aplicación se ha llamado una vez para calcular el número de versiones de la configuración mediante las uniones que se hayan configurado en el origen de datos **Detalles**.
 
-    ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-Set2Run3.PNG)
+    ![Página del diseñador de asignación del modelo ER que muestra las llamadas a la base de datos de aplicaciones](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Limitaciones
 

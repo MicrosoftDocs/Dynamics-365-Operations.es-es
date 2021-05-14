@@ -10,22 +10,20 @@ ms.technology: ''
 ms.search.form: InventTransArchiveProcessForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 0526eb42a886817d50e1ecfd252a6e971875ba92
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881841"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956067"
 ---
 # <a name="archive-inventory-transactions"></a>Archivar transacciones del inventario
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Con el tiempo, la tabla de transacciones de inventario (`InventTrans`) seguirá creciendo y consumiendo más espacio en la base de datos. Por lo tanto, las consultas que se realicen en la tabla se volverán gradualmente más lentas. Este tema describe cómo puede utilizar la función *Archivo de transacciones de inventario* función para archivar datos sobre transacciones de inventario para ayudar a mejorar el rendimiento del sistema.
 

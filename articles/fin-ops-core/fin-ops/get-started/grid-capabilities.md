@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c8f417b3ba427104d6d0e57ac595ab7b453f48fa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749574"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923607"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -134,7 +134,7 @@ Tenga en cuenta que las columnas de selección de fila y estado de fila en la nu
 
 **10.0.9/Platform update 33 y posterior**
 
-La característica **Nuevo control de cuadrícula** está disponible directamente en la administración de características de cualquier entorno. Al igual que otras características de vista previa pública, la habilitación de esta característica en producción está sujeta a [Acuerdo de términos de uso complementarios](https://go.microsoft.com/fwlink/?linkid=2105274).  
+La característica **Nuevo control de cuadrícula** está disponible directamente en la administración de características de cualquier entorno. Al igual que otras características de vista previa pública, la habilitación de esta característica en producción está sujeta a [Acuerdo de términos de uso complementarios](public-preview-terms.md).  
 
 **10.0.8/Platform update 32 y 10.0.7/Platform update 31**
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797266"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936813"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Administrar atributos y grupos de atributos
 
@@ -101,7 +101,7 @@ Aquí se muestran las opciones restantes de los metadatos de atributos en la pá
 
 Estas opciones estaban pensadas originalmente para mejorar la funcionalidad de búsqueda para el escaparate en línea. Aunque Commerce no incluye el escaparate en línea listo para usar, incluye el kit de desarrollo de software (SDK) de publicación de comercio electrónico. Los clientes pueden usar este SDK para poner productos en un índice de búsqueda de su elección. Aunque los datos del productos son importados, los clientes aún deben poder distinguir los datos que se pueden buscar, los datos que se pueden consultar, etc. De esa manera, pueden crear un índice óptimo para asegurarse de que solo indexan los atributos que, *en su opinión*, deben indexarse.
 
-Para obtener información acerca del propósito de estas opciones restantes, consulte [Visión general del esquema de búsqueda en SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
+Para obtener información acerca del propósito de estas opciones restantes, consulte [Visión general del esquema de búsqueda en SharePoint Server 2013](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Parámetros de filtro para atributos
 

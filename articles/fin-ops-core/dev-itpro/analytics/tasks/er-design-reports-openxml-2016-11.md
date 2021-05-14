@@ -2,7 +2,7 @@
 title: ER Diseña una configuración para generar informes en formato OPENXML (noviembre de 2016)
 description: Este tema describe cómo crear una nueva configuración de informes electrónicos que contiene una plantilla para generar documentos electrónicos en formato OPENXML.
 author: NickSelin
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2f84621028c36cf79d6fb9ab07707bdb970d97e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0f23748f6f1d2c3045b1dc69d8e46821f67da593
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754995"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944277"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Diseña una configuración para generar informes en formato OPENXML (noviembre de 2016)
 
@@ -28,7 +28,7 @@ En este tema se explica cómo un usuario con rol de administrador del sistema o 
 
 En este ejemplo, creará una configuración para la empresa de demostración, Litware, Inc. Estos pasos se pueden realizar en empresa GBSI.
 
-Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones". También debe tener un archivo Excel que se importará el crear la plantilla. A este archivo se obtiene acceso desde la [Plantilla de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266).
+Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones". También debe tener un archivo Excel que se importará el crear la plantilla. A este archivo se obtiene acceso desde la [Plantilla de informe de pago](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Cargar la configuración del modelo de datos de pagos

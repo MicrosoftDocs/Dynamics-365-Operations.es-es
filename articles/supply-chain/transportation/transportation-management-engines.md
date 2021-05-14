@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828379"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920118"
 ---
 # <a name="transportation-management-engines"></a>Motores de administración del transporte
 
@@ -94,8 +94,14 @@ Los metadatos para motores de administración del transporte se configuran de fo
 | 1        | Código postal de origen            | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 2        | Estado o comunidad autónoma de destino             | Asignación | Cadena    | Estatal          |           |
 | 3        | Código postal inicial de destino | Asignación | Cadena    | Código postal    | Seleccionado  |
-| 4        | Código postal final de destino   | Asignación | Cadena    | Código postal    | Seleccionado  |
-| 5        | País de destino           | Asignación | Cadena    | País o región |           |
+| 4        | Código postal final de destino   | Asignación | Cadena    | Código postal    | Seleccionadas  |
+| 5        | País de destino           | Asignación | Cadena    | País/región |           |
+
+### <a name="whitepaper"></a>Notas del producto
+
+Para obtener más información, descargue las siguientes notas del producto (escrito para ser compatible con AX2012, pero aún sirve para Dynamics 365 Supply Chain Management)
+
+- [Motores de administración de transporte](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

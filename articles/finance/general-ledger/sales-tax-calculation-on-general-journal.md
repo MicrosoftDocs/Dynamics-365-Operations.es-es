@@ -2,25 +2,25 @@
 title: Cálculo de impuestos en líneas de diario generales
 description: Este tema explica cómo se calculan los impuestos para distintos tipos de cuentas (proveedor, cliente, contabilidad, y proyecto) en las líneas del diario general.
 author: EricWang
-ms.date: 08/14/2019
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e4d367fe6cb729c9c5658a9bbbac04e53fdf9644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815341"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937315"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Cálculo de impuestos en líneas de diario generales
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ Esta sección describe cómo se calcula el signo del importe de impuestos.
 
 ![Página de transacciones de impuestos](media/sales-tax-amount-sign.jpg)
 
-En la tabla siguiente se muestra la regla genérica para determinar el signo de los importes de impuestos en la tabla temporal de impuestos.
+En la tabla siguiente se muestra la regla genérica para determinar la dirección de los impuestos y el signo de los importes de impuestos en la tabla temporal de impuestos.
 
 | Cantidad de línea del diario | Dirección del impuesto  | Signo de importe de impuestos |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +126,7 @@ En la tabla siguiente se muestra la regla genérica para determinar el signo de 
 | Negativo            | Impuestos soportados | Negativo              |
 | Negativo            | Impuestos repercutidos    | Positivo              |
 
-Hay una regla especial para los asientos con líneas sólo **Proyecto** o **Libro mayor** , cuando se selecciona un grupo de impuestos o grupo de impuestos en la línea **Libro mayor**. Esta regla se controla mediante la función Habilitar cálculo independiente de impuestos para los diarios generales. Cuando se desactiva esta función, el importe de impuestos de los usos en línea **Libro mayor** usan la línea de débito/crédito de la línea **Proyecto**. Cuando se activa esta función, el importe de impuestos en la línea **Libro mayor** usa su propia dirección de crédito/débito. En las siguientes tablas se muestra la regla para cada escenario. 
+Hay una regla especial para los asientos con líneas sólo **Proyecto** o **Libro mayor** , cuando se selecciona un grupo de impuestos o grupo de impuestos en la línea **Libro mayor**. Esta regla se controla mediante la función **Habilitar cálculo independiente de impuestos para los diarios generales**. Cuando se desactiva esta función, el importe de impuestos de los usos en línea **Libro mayor** usan la línea de débito/crédito de la línea **Proyecto**. Cuando se activa esta función, el importe de impuestos en la línea **Libro mayor** usa su propia dirección de crédito/débito. En las siguientes tablas se muestra la regla para cada escenario. 
 
 **Regla cuando se activa la función**
 

@@ -2,7 +2,8 @@
 title: Módulo de galería multimedia
 description: En este tema se tratan los módulos de galería multimedia y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b0b1ec7324ff60ee7cdd01c97c8c08260bd8c947
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802824"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937395"
 ---
 # <a name="media-gallery-module"></a>Módulo de galería de medios
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 En este tema se tratan los módulos de galería multimedia y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
@@ -50,10 +52,12 @@ En el ejemplo de la siguiente ilustración, un cuadro de compra en un PDP hosped
 | Origen de imagen | **Contexto de la página** o **Id. de producto** | El valor predeterminado es **Contexto de la página**. Si **Contexto de la páginaI** está seleccionado, el módulo espera que la página proporcione la información del identificador del producto. Si **Id. de producto** está seleccionado, el identificador del producto para una imagen debe proporcionarse como el valor de la propiedad del **Id. de producto**. Esta funcionalidad está disponible en Commerce, versión 10.0.12. |
 | Identificador de producto | Un identificador de producto | Esta propiedad solo es aplicable si el valor de la propiedad **Origen de la imagen** es **Id. de producto**. |
 | Zoom de imagen | **En línea** o **Contenedor** | Esta propiedad permite al usuario hacer zoom en las imágenes en el módulo de galería multimedia. Una imagen se puede ampliar en línea o en un contenedor separado junto a la imagen. Esta funcionalidad está disponible en la versión 10.0.12. |
-| Escala de zoom | Número decimal | Esta propiedad especifica el factor de escala para hacer zoom en las imágenes. Por ejemplo, si el valor se establece en **2,5**, las imágenes se amplían 2,5 veces.|
-| Pantalla completa | **Verdadero** o **Falso** | Esta propiedad especifica si las imágenes se pueden ver en modo de pantalla completa. En el modo de pantalla completa, las imágenes también se pueden ampliar aún más si se activa la capacidad de zoom. Esta funcionalidad está disponible en Commerce, versión 10.0.13. |
+| Factor de zoom | Número decimal | Esta propiedad especifica el factor de escala para hacer zoom en las imágenes. Por ejemplo, si el valor se establece en **2,5**, las imágenes se amplían 2,5 veces. |
+| Pantalla completa | **Verdadero** o **Falso** | Esta propiedad especifica si las imágenes se pueden ver en modo de pantalla completa. En el modo de pantalla completa, las imágenes también pueden ampliarse aún más si se activa la capacidad de zoom. Esta capacidad está disponible en Commerce, versión 10.0.13. |
+| Calidad de imagen ampliada | Un número del 1 al 100 que representa un porcentaje y que se selecciona mediante un control de la barra de seguimiento | Esta propiedad define la calidad de la imagen para imágenes ampliadas. Se puede configurar al 100 por cien para garantizar que una imagen ampliada utilice siempre la resolución más alta posible. Esta propiedad no se aplica a los archivos PNG, porque utilizan un formato sin pérdidas. Esta capacidad está disponible a partir de la versión 10.0.19 de Commerce. |
 | Imágenes | Imágenes que se seleccionan de la Biblioteca multimedia del creador de sitios | Además de representarse desde un producto, las imágenes se pueden mantener para un módulo de galería multimedia. Estas imágenes se agregarán a cualquier imagen de producto que esté disponible. Esta funcionalidad está disponible en Commerce, versión 10.0.12. |
 | Orientación de miniaturas | **Vertical** u **Horizontal** | Esta propiedad especifica si las imágenes en miniatura deben mostrarse en una franja vertical o una franja horizontal. |
+| Ocultar imágenes maestras del producto para la variante | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero**, cuando se selecciona una variante, las imágenes del producto maestro se ocultan, a menos que la variante no tenga imágenes. Esta propiedad no afecta a los productos que no tienen variantes. |
 
 La siguiente ilustración muestra un ejemplo de un módulo de galería multimedia donde están disponibles las opciones de pantalla completa y zoom.
 

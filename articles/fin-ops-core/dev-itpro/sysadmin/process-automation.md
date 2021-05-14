@@ -2,7 +2,7 @@
 title: Automatización de procesos
 description: En este tema se ofrece información sobre cómo la automatización de procesos permite una programación sencilla de los procesos que ejecutará el servidor de lotes.
 author: RyanCCarlson2
-ms.date: 08/12/2020
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 509decec3c3d3b598a2457cddba4896730480ec6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a8722adfe410f15bc379f9b550f0618c881f067d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745934"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920838"
 ---
 # <a name="process-automation"></a>Automatización de procesos
 
@@ -30,7 +30,7 @@ La automatización de procesos permite una programación sencilla de los proceso
 
 La página de administración central para todas las automatizaciones de procesos se encuentra en el módulo de Gestión del sistema en el menú **Configuración**. En esta página se mostrarán todos los procesos automatizados (serie) que se configuran en el sistema. También le permitirá agregar nuevas automatizaciones de procesos directamente desde esta página. Después de configurar una serie, puede administrar cada serie de esta lista. Puede optar por editar la serie completa, eliminarla, ver todas las repeticiones en una vista de lista o deshabilitar la serie si desea pausar el trabajo programado durante un período de tiempo. 
 
-Cualquier proceso que esté deshabilitado en la administración de características no se mostrará cuando la característica esté deshabilitada. Además, el motor de programación de automatización de procesos no programará ninguna instancia ni procesos en segundo plano para una característica deshabilitada. Si se vuelve a habilitar la característica, las instancias programadas o los procesos en segundo plano del pasado se ejecutarán de inmediato.
+Cualquier proceso que esté deshabilitado en la administración de características no se mostrará cuando la característica esté deshabilitada. Además, el motor de programación de automatización de procesos no programará ninguna instancia ni procesos en segundo plano para una característica deshabilitada. Si se vuelve a habilitar la característica, las instancias programadas o los procesos en segundo plano del pasado se ejecutarán de inmediato. El motor de programación de automatización de procesos se basa en la ejecución del trabajo por lotes del sistema **Trabajo del sistema de sondeo de automatización de procesos**. El trabajo no debe modificarse ni manipularse en ningún momento. 
 
 ## <a name="calendar-view"></a>Vista de calendario
 

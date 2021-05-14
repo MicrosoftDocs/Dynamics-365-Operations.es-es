@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c716707140c85b06ad2f084c10c4b2d0ecfea82e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754023"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941064"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante la sincronización
 
@@ -192,7 +192,7 @@ Si tiene filas en la tabla del cliente con valores en las columnas **ContactPers
 6. Ejecute otra vez la sincronización inicial para la asignación **Clientes V3 (Cuentas)**. Debido a que el seguimiento de cambios está deshabilitado, los datos para **InvoiceAccount** y **ContactPersonId** se sincronizarán desde la aplicación Finance and Operations a Dataverse.
 7. Para sincronizar los datos para **InvoiceAccount** y **ContactPersonId** desde Dataverse a la aplicación Finance and Operations, debe utilizar un proyecto de integración de datos.
 
-    1. En Power Apps, cree un proyecto de integración de datos entre **Sales.Account** y las tablas **Finance and Operations.Customers V3**. La dirección de datos debe ser de Dataverse a la aplicación Finance and Operations. Como **InvoiceAccount** es un nuevo atributo en doble escritura, es posible que desee omitir la sincronización inicial para este atributo. Para obtener más información, consulte [Integrar datos en Dataverse](https://docs.microsoft.com/power-platform/admin/data-integrator).
+    1. En Power Apps, cree un proyecto de integración de datos entre **Sales.Account** y las tablas **Finance and Operations.Customers V3**. La dirección de datos debe ser de Dataverse a la aplicación Finance and Operations. Como **InvoiceAccount** es un nuevo atributo en doble escritura, es posible que desee omitir la sincronización inicial para este atributo. Para obtener más información, consulte [Integrar datos en Dataverse](/power-platform/admin/data-integrator).
 
         La siguiente ilustración muestra un proyecto que actualiza **CustomerAccount** y **ContactPersonId**.
 

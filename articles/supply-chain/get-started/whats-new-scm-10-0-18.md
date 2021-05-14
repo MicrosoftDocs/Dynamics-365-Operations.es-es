@@ -1,5 +1,5 @@
 ---
-title: Vista previa de Dynamics 365 Supply Chain Management 10.0.18 (mayo de 2021)
+title: Novedades y cambios en la versión 10.0.18 de Dynamics 365 Supply Chain Management (mayo de 2021)
 description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909362"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934976"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Vista previa de Dynamics 365 Supply Chain Management 10.0.18 (mayo de 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Novedades y cambios en la versión 10.0.18 de Dynamics 365 Supply Chain Management (mayo de 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en la versión preliminar de Microsoft Dynamics 365 Supply Chain Management de la versión 10.0.18. Esta versión tiene el número de compilación 10.0.793 y está disponible de la siguiente manera:
+En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.18. Esta versión tiene el número de compilación 10.0.793 y está disponible de la siguiente manera:
 
 - **Vista previa de la versión:** marzo 2021
 - **Disponibilidad general de la versión (actualización automática):** abril de 2021
@@ -43,9 +42,17 @@ En esta versión se incluyen las siguientes características. Siga los vínculos
 
 - [Gestión de devoluciones](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Para más información, vea [Resumen de gestión de módulos de devoluciones](../rebate-management/rebate-management-overview.md)
 
+- [Directiva de configuración de exportación de entidades de datos de ventas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Registro de línea de pedido de devolución de ventas con precisión decimal con y sin peso capturado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Confirmación de pedidos de ventas con un solo clic](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Directiva de eliminación de línea de pedido de ventas para línea de pedido de compra](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - Interfaz simplificada solo para entrada y salida (mejora para [Interfaz mejorada de ejecución de la planta de producción para la fabricación](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Para obtener más información, vea [Configurar la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-configure.md).
 
-La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse. Algunas de las funciones enumeradas todavía están en vista previa, mientras que otras pueden estar ya disponibles de manera general. 
+La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
 
@@ -66,11 +73,11 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.18 incluye Platform updates.
 
 Para obtener información sobre las correcciones de errores incluidas en cada una de las actualizaciones que forman parte de la versión 10.0.18, inicie sesión en Lifecycle Services (LCS) y consulte el [artículo de KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=561679&dbType=3&qc=13bb1641c1be430ead8b21ae3d4e0f800d5b81c39b3a56e890db1de7ede59e46).
 
-### <a name="dynamics-365-2021-release-wave-1-plan"></a>Dynamics 365: plan de la primera oleada de lanzamiento de versiones de 2021
+### <a name="dynamics-365-2021-release-wave-1-plan"></a>Dynamics 365: plan del primer lanzamiento de versiones de 2021
 
 ¿Le gustaría conocer las nuevas y futuras funcionalidades disponibles en nuestra plataforma y en nuestras aplicaciones empresariales?
 
-Consulte [Dynamics 365: plan de la primera oleada de lanzamiento de versiones de 2021](/dynamics365-release-plan/2021wave1/). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
+Consulte [Dynamics 365: plan del primer lanzamiento de versiones de 2021](/dynamics365-release-plan/2021wave1/). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 

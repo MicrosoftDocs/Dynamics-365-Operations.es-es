@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0c29d68b29475c2c7040d06e60f7624c49a42002
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890085"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951941"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Optimizar los trabajos por lotes programados de BYOD
 
@@ -90,9 +90,15 @@ La característica BYOD tiene las siguientes limitaciones:
 
 **Solución:** es posible que las tablas de seguimiento de cambios de SQL no estén en el estado esperado. En casos de este tipo, le recomendamos que desactive el seguimiento de cambios para la entidad y luego lo vuelva a activar. Para obtener más información, consulte [Habilitar el seguimiento de cambios para entidades](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
+### <a name="staging-tables-arent-clearing"></a>Las tablas de almacenamiento provisional no se limpian
+
+**Problema:** cuando se utiliza almacenamiento provisional para el proyecto, las tablas de almacenamiento provisional no se limpian correctamente. Los datos de las tablas continúan creciendo, lo que provoca problemas de rendimiento.
+
+**Solución:** se mantienen siete días de historia en las tablas de almacenamiento provisional. Los datos históricos de más de siete días se borran automáticamente de las tablas de almacenamiento provisional mediante el trabajo por lotes **Importación y exportación de limpieza de almacenamiento provisional**. Si este trabajo se atasca, las tablas no se limpiarán correctamente. Reiniciar este trabajo por lotes continuará el proceso para borrar automáticamente las tablas de almacenamiento provisional.
+
 ## <a name="see-also"></a>Consulte también
 
-[Visión general de la administración de datos](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Información general de la administración de datos](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
 [Usar su propia base de datos (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
 [Visión general de los trabajos de exportación e importación de datos](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
 [Habilitar seguimiento de cambios para entidades](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)

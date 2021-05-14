@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c69dc3f8e70c3b0a760f54d2251757ac997a432
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4bb73854f52525c0722683086d1b4f1dd7173306
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841632"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920666"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Crear una nomenclatura de números de producto para las variantes de producto predefinidas
 
@@ -28,33 +28,33 @@ Este tema explica cómo configurar una nomenclatura del número de producto para
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Crear una nomenclatura de número de producto
-1. Seleccione **Definición de modelo de variante del producto**.
-2. Seleccione **Nomenclatura de producto**.
-3. Seleccione **Nuevo**.
-4. En el campo **Nombre**, escriba el nombre de la nomenclatura que ayude a identificar el grupo de dimensiones de producto de destino, por ejemplo, `ColorSize`.
-5. En el campo **Descripción**, escriba un valor.
-6. Seleccione **Agregar**.
-7. Seleccione el número de **Producto maestro**.
-8. Seleccione **Agregar**.
-9. Seleccione **Constante de texto**.
-10. En el campo **Texto**, escriba un valor.
-11. Seleccione **Agregar**.
-12. Seleccione **Color**.
-13. Seleccione **Agregar**.
-14. Seleccione **Constante de texto**.
-15. En el campo **Texto**, escriba un valor.
-16. Seleccione **Agregar**.
-17. Seleccione **Tamaño**.
-18. Cierre la página.
+
+1. Vaya a **Gestión de información de productos \> Configuración \> Nomenclatura de productos**.
+1. Seleccione **Nuevo**.
+1. En el campo **Nombre**, escriba el nombre de la nomenclatura que ayude a identificar el grupo de dimensiones de producto de destino, por ejemplo, `ColorSize`.
+1. En el campo **Descripción**, escriba un valor.
+1. Seleccione **Agregar**.
+1. Seleccione el número de **Producto maestro**.
+1. Seleccione **Agregar**.
+1. Seleccione **Constante de texto**.
+1. En el campo **Texto**, escriba un valor.
+1. Seleccione **Agregar**.
+1. Seleccione **Color**.
+1. Seleccione **Agregar**.
+1. Seleccione **Constante de texto**.
+1. En el campo **Texto**, escriba un valor.
+1. Seleccione **Agregar**.
+1. Seleccione **Tamaño**.
+1. Cierre la página.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>Asignar la nomenclatura a un producto maestro
+
 1. Seleccione **Grupos de dimensiones de producto**.
 2. Seleccione el grupo **Dimensiones de productos SizeCol**.
 3. Seleccione **Editar**.
 4. Seleccione **Sí** en el campo **Usar nomenclatura**.
 5. En el campo **Nomenclatura del número de variante del producto**, especifique o seleccione un valor.
 6. Cierre la página.
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

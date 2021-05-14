@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed48d41926c801c9017867be2eaa9af85a94b119
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f29a5014b98daa5150e01b541a076237e45ff180
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817686"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951968"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generar y procesar devoluciones de cliente
 
@@ -62,7 +62,7 @@ Este procedimiento muestra cómo procesar devoluciones de cliente desde que se g
 
 ## <a name="process-rebate-claims"></a>Procesar demandas de devolución
 1. Vaya al **Panel de navegación > Módulos > Ventas y marketing >Devoluciones de cliente > Devoluciones**.
-    - La página Devoluciones funciona como área de trabajo desde donde se pueden revisar, aprobar y procesar reclamaciones de devoluciones. Ahora procesará las reclamaciones creadas como resultado de facturar un pedido de ventas para el cliente US-009, el tema del acuerdo de devolución USMF-000001.   
+    - La página Devoluciones funciona como un banco de trabajo donde se pueden revisar, aprobar y procesar reclamaciones. Ahora procesará las reclamaciones creadas como resultado de facturar un pedido de ventas para el cliente US-009, el tema del acuerdo de devolución USMF-000001.   
     - La primera línea representa una reclamación de devolución de 800 USD, que se basa en las ventas de 40 unidades del producto T0020, calculado a 20 USD por unidad. Esto coincide con las condiciones del primer nivel de cantidad del acuerdo de devolución.  
     - La segunda reclamación es por 2.400 USD y se basa en la venta de 60 unidades del producto T0020, calculado a 40 USD por unidad, según el segunda nivel de cantidad del acuerdo.  
     - Ambas reclamaciones se encuentran en estado "Para calcularse". Esto significa que están asociadas con un contrato que sigue el rendimiento de ventas del cliente periódicamente y que tienen que volver a calcularse para representar el volumen total de ventas dentro del período correspondiente.   

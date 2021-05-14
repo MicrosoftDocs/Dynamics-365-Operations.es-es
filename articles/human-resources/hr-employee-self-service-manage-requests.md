@@ -2,7 +2,7 @@
 title: Administrar solicitudes de bajas y ausencias
 description: Ver y aprobar solicitudes de bajas y ausencias en Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53d4651b60da63243547ee8a5da6e105705640c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 301b8978264dd3cb517652492a0b1791df63e6f3
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790749"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924812"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Administrar solicitudes de bajas y ausencias
 
@@ -31,13 +31,24 @@ Administre las solicitudes de permiso en el espacio de trabajo **Autoservicio pa
 
 1. En el espacio de trabajo **Autoservicio para empleados**, seleccione **Mi equipo**.
 
-2. Debajo de **Información de mi equipo**, seleccione la pestaña **Bajas y ausencias**. 
+2. Debajo de **Información de mi equipo**, seleccione la pestaña **Bajas y ausencias**.
 
 3. Vea y apruebe las solicitudes de permisos de los miembros de su equipo según sea necesario.
+
+## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Versión preliminar) Mejoras de la experiencia del flujo de trabajo de solicitud de baja
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+Esta función de vista previa proporciona las siguientes mejoras:
+
+- Puede seleccionar varias solicitudes de baja y realizar la misma acción en todas ellas.
+- La cinta de la parte superior y un nuevo botón de flujo de trabajo en la página muestran las acciones que puede realizar en las solicitudes de baja.
+
+![Experiencia de gerentes](media/hr-leave-and-absence-manager-experience.png)
 
 ## <a name="see-also"></a>Consulte también
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
-- [Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)
+- [Crear un plan de bajas y ausencias](hr-leave-and-absence-plans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Componentes de administración de facturación electrónica
 description: Este tema proporciona información sobre los componentes relacionados con la administración de la facturación electrónica.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840037"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963200"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Componentes de administración de facturación electrónica
 
@@ -31,7 +31,7 @@ Este tema proporciona información sobre los componentes relacionados con la adm
 
 ## <a name="azure"></a>Azure
 
-Utilice Microsoft Azure para crear los secretos para el almacén de claves y la cuenta de almacenamiento. Luego, utilice los secretos de la configuración de la facturación electrónica.
+Utilice Microsoft Azure para crear los secretos para el Key Vault y la cuenta de almacenamiento. Luego, utilice los secretos de la configuración de la facturación electrónica.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
@@ -85,12 +85,14 @@ Los entornos de servicio se pueden gestionar a través del estado. Las posibles 
 El servicio de facturación electrónica es responsable de almacenar todos sus datos comerciales en los recursos de Azure que son propiedad de su empresa. Para asegurarse de que el servicio funcione correctamente y de que solo la facturación electrónica acceda a todos los datos comerciales necesarios y generados por ella, debe crear dos recursos principales de Azure:
 
 - Una cuenta de almacenamiento de Azure (Blob Storage) que almacenará facturas electrónicas
-- Un almacén de claves de Azure que almacenará certificados y el identificador uniforme de recursos (URI) de la cuenta de almacenamiento
+- Un Azure Key Vault que almacenará certificados y el identificador uniforme de recursos (URI) de la cuenta de almacenamiento
 
-> [!NOTE]
-> Se debe asignar un almacén de claves dedicado y una cuenta de almacenamiento de cliente específicamente para su uso con la facturación electrónica.
 
-Para más información, consulte [Crear cuenta de almacenamiento de Azure y un almacén de claves](e-invoicing-create-azure-storage-account-key-vault.md).
+Se debe asignar un Key Vault dedicado y una cuenta de almacenamiento de cliente específicamente para su uso con la facturación electrónica. Para más información, consulte [Crear una cuenta de almacenamiento de Azure y un Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
+
+Para supervisar el estado de su Key Vault y recibir alertas, configure Azure Monitor para Key Vault. Al habilitar el registro de Key Vault, puede controlar cómo, cuándo y quién accede a sus Key Vaults. Para más información, consulte [Supervisión y alerta para Azure Key Vault](/azure/key-vault/general/alert) y [Cómo habilitar el registro de Key Vault](/azure/key-vault/general/howto-logging?tabs=azure-cli).
+
+Como práctica recomendada, rote periódicamente los secretos. Para obtener más información, consulte [Documentación de secretos](/azure/key-vault/secrets/).
 
 #### <a name="users"></a>Usuarios
 

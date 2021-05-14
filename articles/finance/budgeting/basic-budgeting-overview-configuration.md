@@ -1,8 +1,8 @@
 ---
 title: Visión general de Gestión presupuestaria
 description: Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 Finance tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations o cargarlos desde un programa de terceros.
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827467"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960058"
 ---
 # <a name="budgeting-overview"></a>Visión general de la gestión presupuestaria
 
@@ -71,7 +71,7 @@ La funcionalidad que se introdujo en la versión 10.0.7 de Microsoft Dynamics 36
 
 La característica **Asientos de registro presupuestario solo para cantidad** solo le permite registrar un asiento del registro de presupuestos con importes de solo cantidad. Por ejemplo, podría registrar un asiento de presupuesto con una cantidad de 32 y un precio de cero, lo que da lugar a un importe de cero. Puede usar esta cantidad en el contexto de un informe financiero para determinar un precio por cantidad. Tenga en cuenta que no se actualizó ninguna consulta o informe como parte de esta característica; la característica solo permite registrar un importe de cero.
 
-La característica **Valor predeterminado de entradas de registro presupuestario de tipo de importe** permite que el tipo de importe predeterminado dentro de una entrada del registro presupuestario sea un tipo de importe distinto de gastos. La línea de entrada del registro presupuestario ahora se establecerá como predeterminada para gastos cuando el tipo de cuenta principal sea gastos; se establecerá como predeterminada para ingresos cuando el tipo de cuenta principal sea gastos; y se establecerá como predeterminada para gastos para el resto de tipos de cuenta.
+La característica **Valor predeterminado de entradas de registro presupuestario de tipo de importe** permite que el tipo de importe predeterminado dentro de una entrada del registro presupuestario sea un tipo de importe distinto de gastos. La línea de entrada del registro presupuestario ahora se establecerá como predeterminada para gastos cuando el tipo de cuenta principal sea de gastos; se establecerá como predeterminada para ingresos cuando el tipo de cuenta principal sea de ingresos; y se establecerá como predeterminada para gastos para el resto de tipos de cuenta.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Usar los espacios de trabajo y las páginas de consulta para realizar un seguimiento del presupuesto frente a gastos reales
 El administrador de presupuestos puede revisar el estado actual de un presupuesto en el espacio de trabajo **Presupuestos contables y previsiones**. Las pestañas **Gastos sobre presupuesto** y **Ingresos bajo presupuesto** proporcionan una vista rápida de las combinaciones de dimensiones financieras en que los objetivos de presupuesto no se están resolviendo ni se están acercando al umbral. Puede personalizar el porcentaje del umbral del presupuesto y los conjuntos de dimensiones financieras que se usan en esas fichas haciendo clic en **Configurar mi espacio de trabajo**. Puede hacer clic en **Directores de unidad** en para ver qué trabajadores son los responsables de las combinaciones de dimensiones financieras específicas que están activadas en esas fichas. Por ejemplo, si observa que el presupuesto de gastos del departamento de operaciones está pasando el umbral de presupuesto, puede encontrar fácilmente y ponerse en contacto con el director de departamento de operaciones para hablar del problema. 

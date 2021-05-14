@@ -2,7 +2,7 @@
 title: Aplazar la ejecución de elementos XML en formatos ER
 description: Este tema explica cómo diferir la ejecución de un elemento XML en un formato de informe electrónico (ER).
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894061"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944494"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Aplazar la ejecución de elementos XML en formatos ER
 
@@ -59,14 +59,14 @@ Si aún no ha completado el ejemplo del tema [Aplazar la ejecución de elementos
 
 | Descripción del contenido            | Nombre de archivo |
 |--------------------------------|-----------|
-| Configuración del modelo datos de ER    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuración de la asignación del modelo ER | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuración del modelo datos de ER    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configuración de la asignación del modelo ER | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Antes de comenzar, también debe descargar y guardar la siguiente configuración de la solución ER de ejemplo en su equipo local.
 
 | Descripción del contenido     | Nombre de archivo |
 |-------------------------|-----------|
-| Configuración del formato de ER | [Format to learn deferred XML elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuración del formato de ER | [Format to learn deferred XML elements.version.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importar las configuraciones de ER de ejemplo
 
@@ -164,7 +164,7 @@ Revise la configuración del componente de asignación del modelo ER que está c
 1. En la página **Diseñador de formato**, seleccione **Ejecutar**.
 2. Descargue el archivo que ofrece el navegador web y ábralo para su revisión.
 
-    ![Archivo descargado](./media/ER-DeferredXml-Run.png)
+    ![Archivo descargado de formato importado](./media/ER-DeferredXml-Run.png)
 
 Observe que el nodo de resumen presenta la suma de los valores de impuestos para las transacciones procesadas. Debido a que el formato está configurado para usar el enlace **model.Data.Summary.Total** para devolver esta suma, la suma se calcula llamando a la agregación **TotalSum** del origen de datos **Grouped** del tipo *GroupBy* en la asignación del modelo. Para calcular esta agregación, la asignación de modelo recorre en iteración todas las transacciones que se han seleccionado en el origen de datos **Filtered**. Al comparar los tiempos de ejecución del nodo de resumen y el último nodo de registro, puede determinar que el cálculo de la suma tomó 12 milisegundos (ms). Al comparar los tiempos de ejecución del primer y último nodo de registro, puede determinar que la generación y suma de todos los nodos de registro tardó 9 ms. Por lo tanto, se requirió un total de 21 ms.
 
@@ -196,7 +196,7 @@ Si el volumen de transacción es mucho mayor que el volumen del ejemplo actual, 
 11. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 12. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredXml-Run1.png)
+    ![Lista generada de valor fiscal con total acumulado](./media/ER-DeferredXml-Run1.png)
 
     El último nodo de registro contiene el total acumulado de los valores impositivos para todas las transacciones procesadas utilizando la salida generada como origen de datos. Este origen de datos comienza desde el principio del informe y continúa hasta la última transacción fiscal. El nodo de resumen contiene la suma de los valores impositivos para todas las transacciones procesadas que se calculan en la asignación del modelo utilizando el origen de datos del tipo *GroupBy*. Tenga en cuenta que los valores son iguales. Por lo tanto, la suma basada en la salida se puede usar en lugar de **GroupBy**. Al comparar los tiempos de ejecución del primer nodo de registro y del nodo de resumen, puede determinar que la generación y suma de todos los nodos de registro tardó 11 ms. Por lo tanto, en lo que respecta a la generación de nodos de registro y la suma de los valores fiscales, el formato modificado es aproximadamente dos veces más rápido que el formato original.
 
@@ -205,7 +205,7 @@ Si el volumen de transacción es mucho mayor que el volumen del ejemplo actual, 
 15. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 16. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredXml-Run2.png)
+    ![Lista generada de valores impositivos mediante fórmula editada](./media/ER-DeferredXml-Run2.png)
 
     Observe que el total acumulado de los valores de impuestos del último nodo de registro ahora es igual a la suma en el nodo de resumen.
 
@@ -218,7 +218,7 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 3. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 4. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredXml-Run3.png)
+    ![Archivo descargado de valores de impuestos para el encabezado del informe](./media/ER-DeferredXml-Run3.png)
 
     Observe que la suma de los valores impositivos del nodo de resumen ahora es igual a 0 (cero), porque esta suma ahora se calcula en función de la salida generada. Cuando se genera el primer nodo de registro, la salida generada aún no contiene nodos de registro que tienen detalles de transacción. Puede configurar este formato para aplazar la ejecución del elemento **Report\\Message\\Summary** hasta que el elemento **Report\\Message\\Record** se haya ejecutado para todas las transacciones fiscales.
 
@@ -232,7 +232,7 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 3. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 4. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredXml-Run4.png)
+    ![Archivo descargado de ejecución diferida](./media/ER-DeferredXml-Run4.png)
 
     El elemento **Report\\Message\\Summary** ahora se ejecuta solo después de todos los demás elementos que están anidados bajo su elemento principal, **Report\\Message**. Por lo tanto, se ejecuta después de que el elemento **Report\\Message\\Record** se haya ejecutado para todas las transacciones fiscales del origen de datos **model.Data.List**. Los tiempos de ejecución del primer y último nodo de registro, y de los nodos de encabezado y resumen, revelan este hecho.
 

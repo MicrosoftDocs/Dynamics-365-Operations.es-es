@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4de916fcd09b4eaa041dea0a1d1f843ce0e8f10a
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749314"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5940970"
 ---
 # <a name="on-premises-deployment-home-page"></a>Página principal de Implementación local
 
@@ -56,10 +56,10 @@ Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando sele
 - [Reutilizar la misma instancia de AD FS para múltiples entornos](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Comercio
-- [Capacidades de Commerce que están disponibles en implementaciones locales](../../../retail/retail-onprem.md)
+- [Capacidades de Commerce que están disponibles en implementaciones locales](../../../commerce/retail-onprem.md)
 - [Pasos de instalación para los componentes del canal minorista en un entorno local](deploy-retail-onprem.md)
-- [Configurar, instalar y activar Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [Configurar e instalar Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Configurar, instalar y activar Modern POS (MPOS)](../../../commerce/retail-modern-pos-device-activation.md)
+- [Configurar e instalar Commerce Scale Unit](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Actualizar
 - [Proceso de actualización in situ para los entornos locales](../migration-upgrade/on-prem-upgrade.md)

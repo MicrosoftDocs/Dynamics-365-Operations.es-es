@@ -1,5 +1,5 @@
 ---
-title: Espacio de trabajo de entrada de facturas de proveedor
+title: Espacio de trabajo de automatización de facturas de proveedor
 description: Este tema explica cómo configurar el espacio de trabajo relacionado con las facturas de proveedores que muestra la información que está disponible a través de Microsoft Power BI.
 author: abruer
 ms.date: 09/28/2020
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
+ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837273"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954144"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Espacio de trabajo de entrada de facturas de proveedor
+# <a name="vendor-invoice-automation-workspace"></a>Espacio de trabajo de automatización de facturas de proveedor
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +30,11 @@ Este tema explica cómo configurar el espacio de trabajo relacionado con las fac
 
 ## <a name="overview"></a>Información general
 
-El espacio de trabajo **Entrada de factura de proveedor** muestra la información relacionada con el procesamiento de facturas de proveedor. Este espacio de trabajo incluye un vista **Mi trabajo** y una página **Análisis de todas las empresas**. La vista **Mi trabajo** muestra mosaicos de resumen, cuadrículas de transacciones con proveedores y la información de proveedor relacionada. La página **Análisis de todas las empresas** utiliza la funcionalidad de Microsoft Power BI para mostrar visualizaciones relacionadas con las facturas de proveedor.
+El espacio de trabajo **Automatización de facturas de proveedor** muestra la información relacionada con el procesamiento de facturas de proveedor. Este espacio de trabajo incluye un vista **Mi trabajo** y una página **Análisis de todas las empresas**. La vista **Mi trabajo** muestra mosaicos de resumen, cuadrículas de transacciones con proveedores y la información de proveedor relacionada. La página **Análisis de todas las empresas** utiliza la funcionalidad de Microsoft Power BI para mostrar visualizaciones relacionadas con las facturas de proveedor.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Configurar el espacio de trabajo para mostrar contenido de Power BI
 
-Debe completar esta configuración para poder mostrar los datos en visualizaciones de Power BI en el espacio de trabajo **Entrada de factura de proveedor**.
+Debe completar esta configuración para poder mostrar los datos en visualizaciones de Power BI en el espacio de trabajo **Automatización de facturas de proveedor**.
 
 1. En el espacio de trabajo **Administración de características**, filtre la lista para encontrar la característica **Automatización de factura de proveedor**.
 3. Seleccione **Habilitar ahora**.
@@ -54,7 +54,7 @@ Para poder ver la información que se muestra en el espacio de trabajo debe tene
 
 ### <a name="company-selection"></a>Selección de empresa
 
-Cuando la característica **Automatizar facturas de proveedor** está activada, aparece un campo **Empresa** en la parte superior del espacio de trabajo. La selección del campo **Empresa** afecta a toda la información que se muestra en el espacio de trabajo. De forma predeterminada, la vista muestra información de la empresa en la que inició sesión. Al seleccionar una empresa diferente en el campo **Empresa**, puede mostrar información de esa empresa en el espacio de trabajo. Puede seleccionar un icono del espacio de trabajo para ir a la página relacionada en la empresa seleccionada.
+Cuando la característica **Automatización de facturas de proveedor** está activada, aparece un campo **Empresa** en la parte superior del espacio de trabajo. La selección del campo **Empresa** afecta a toda la información que se muestra en el espacio de trabajo. De forma predeterminada, la vista muestra información de la empresa en la que inició sesión. Al seleccionar una empresa diferente en el campo **Empresa**, puede mostrar información de esa empresa en el espacio de trabajo. Puede seleccionar un icono del espacio de trabajo para ir a la página relacionada en la empresa seleccionada.
 
 ### <a name="summary-tiles"></a>Iconos de resumen
 

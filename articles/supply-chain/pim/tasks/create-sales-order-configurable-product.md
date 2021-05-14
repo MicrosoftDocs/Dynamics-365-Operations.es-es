@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81e573593fbbb0bf87e53c5cbd985b38a8db89ac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8607de5705354aa58c985fb536f3e1d52acd1f37
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841608"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921298"
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>Crear un pedido de ventas para un producto configurable
 
@@ -26,30 +26,27 @@ ms.locfileid: "5841608"
 
 Este procedimiento muestra cómo se debe aplicar una plantilla de configuración a un producto en un pedido de ventas. Este ejemplo usa el modelo de altavoz D0006 en la empresa de datos de demostración USMF. Normalmente, un procesador del pedido de ventas utiliza este procedimiento.
 
-
 ## <a name="create-a-sales-order"></a>Crear un pedido de ventas
-1. Haga clic en Consulta y procesamiento de pedido de ventas.
-2. Haga clic en Nuevo.
-3. Haga clic en Pedido de ventas.
-4. En el campo Cuenta de cliente, seleccione US-001. 
-5. Haga clic en Aceptar
-6. En el campo Código de artículo, seleccione D0006.
+
+1. Vaya a **Ventas y marketing \> Espacios de trabajo \> Procesamiento y consulta de pedidos de venta**.
+1. Seleccione **Nuevo**.
+1. Seleccione **Pedido de ventas**.
+1. En el campo **Cuenta de cliente**, seleccione *US-001*. 
+1. Seleccione **Aceptar**.
+1. En el campo **Código de artículo**, seleccione *D0006*.
     * Para esta tarea, debe seleccionar un producto configurable.  
-7. Haga clic en Producto y suministro.
-8. Haga clic en Configurar la línea.
-    * Tenga en cuenta que el precio ha cambiado, en función de la configuración seleccionada, y que ahora el campo Incluir cable se ha establecido como Verdadero.  
+1. Seleccione **Producto y suministro**.
+1. Seleccione **Configurar línea**.
+    * Tenga en cuenta que el precio ha cambiado, en función de la configuración seleccionada, y que ahora el campo **Incluir cable** se ha establecido como *Verdadero*.  
     * Anote el precio predeterminado y la configuración que se selecciona para el cable.  
-9. Haga clic en Cargar plantilla.
-    * Este ejemplo muestra cómo puede aplicar una plantilla para seleccionar una configuración predefinida. Si utiliza este procedimiento como una guía de la tarea y desea ver los otros valores de atributo que están disponibles, debe hacer clic en el botón Desbloquear.  
-10. Haga clic en Aceptar
-11. Haga clic en Aceptar
-12. Expanda la sección Detalles de línea.
-13. Haga clic en la ficha Producto.
+1. Seleccione **Cargar plantilla**.
+    * Este ejemplo muestra cómo puede aplicar una plantilla para seleccionar una configuración predefinida. Si utiliza este procedimiento como una guía de la tarea y desea ver los otros valores de atributo que están disponibles, debe seleccionar el botón **Desbloquear**.  
+1. Seleccione **Aceptar**.
+1. Seleccione **Aceptar**.
+1. Expanda la sección **Detalles de línea.**
+1. Seleccione la pestaña **Producto**.
     * La configuración del artículo se enumera ahora bajo las dimensiones del producto.  
-14. Cierre la página.
-
-## <a name="select-the-product-configuration"></a>Seleccione la configuración del producto
-
+1. Cierre la página.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

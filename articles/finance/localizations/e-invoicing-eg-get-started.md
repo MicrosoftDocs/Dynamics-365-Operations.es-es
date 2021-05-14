@@ -2,7 +2,7 @@
 title: Comenzar con la facturación electrónica para Egipto
 description: Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Egipto en Finance y Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f6175a50a88d2d636bfafc5988265b8657630758
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: abae35db7e37e65950c05c8e21b8e8555edbf3be
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840205"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920790"
 ---
 # <a name="get-started-with-electronic-invoicing-for-egypt"></a>Comenzar con la facturación electrónica para Egipto
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Egipto. El tema le guía a través de los pasos de configuración que dependen del país en Regulatory Configuration Services (RCS) y complementa los pasos descritos en [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 

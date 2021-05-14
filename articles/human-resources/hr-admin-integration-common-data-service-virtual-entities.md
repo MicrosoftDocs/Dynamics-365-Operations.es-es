@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890061"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935762"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurar tablas virtuales de Dataverse
 
@@ -102,27 +102,15 @@ Debe registrar su instancia de Human Resources en Azure Portal para que la plata
 
 Instale la aplicación Dynamics 365 HR Virtual Tabla en su entorno de Power Apps para implementar el paquete de solución de tabla virtual para Dataverse.
 
-1. Abra el [centro de administración de Power Platform](https://admin.powerplatform.microsoft.com).
+1. En Human Resources, abra la página **Integración de Microsoft Dataverse**.
 
-2. En la lista **Entornos**, seleccione el entorno de Power Apps asociado a su instancia de Human Resources.
+2. Seleccione la pestaña **Tablas virtuales**.
 
-3. En la sección **Recursos** de la página, seleccione **Aplicaciones de Dynamics 365**.
+3. Seleccione **Instalar aplicación de tablas virtuales**.
 
-4. Seleccione la acción **Instalar aplicación**.
+### <a name="configure-the-virtual-table-data-source"></a>Configurar el origen de datos de la tabla virtual
 
-5. Seleccione **Dynamics 365 HR Virtual Table** y seleccione **Siguiente**.
-
-6. Revise y marque para aceptar los términos de servicio.
-
-7. Seleccione **Instalar**.
-
-La instalación tarda unos minutos. Cuando se complete, continúe con los siguientes pasos.
-
-![Instalar la aplicación Dynamics 365 HR Virtual Table desde el centro de administración de Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>Configurar el origen de datos de la tabla virtual 
-
-El siguiente paso es configurar el origen de datos de la tabla virtual en el entorno de Power Apps. 
+El siguiente paso es configurar el origen de datos de la tabla virtual en el entorno de Power Apps.
 
 1. Abra el [centro de administración de Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -133,6 +121,9 @@ El siguiente paso es configurar el origen de datos de la tabla virtual en el ent
 4. En el **Centro de estado de la solución**, selecciona el icono **Búsqueda avanzada** en la parte superior derecha de la página de la aplicación.
 
 5. En la página **Búsqueda avanzada**, en la lista desplegable **Buscar**, seleccione **Configuraciones de fuentes de datos virtuales de Finance and Operations**.
+
+   > [!NOTE]
+   > La instalación de la aplicación de tablas virtuales desde el paso de configuración anterior puede tardar unos minutos. Si las **Configuraciones de datos de origen virtuales de Finance and Operations** no están disponibles en la lista, espere un minuto y actualice la lista.
 
 6. Seleccione **Resultados**.
 
@@ -186,7 +177,7 @@ Otorgar permisos para los las dos aplicaciones de Azure AD en Human Resources:
 
 Cuando se haya completado la configuración, puede seleccionar las tablas virtuales que desea generar y habilitar en su instancia de Dataverse.
 
-1. En Human Resources, abra la página **Integración de Dataverse**.
+1. En Human Resources, abra la página **Integración de Microsoft Dataverse**.
 
 2. Seleccione la pestaña **Tablas virtuales**.
 
@@ -197,7 +188,7 @@ Cuando se haya completado la configuración, puede seleccionar las tablas virtua
 
 4. Seleccione **Generar/actualizar**.
 
-![Integración de Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Integración de Dataverse](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Comprobar el estado de generación de tablas
 

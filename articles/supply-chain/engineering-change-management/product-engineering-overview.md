@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 964db71efc9dc81d60199e37de8668de9d667496
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842090"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947529"
 ---
 # <a name="engineering-change-management-overview"></a>Visión general de la gestión de cambios de ingeniería
 
@@ -48,7 +48,7 @@ Antes de que pueda usar la administración de cambios de ingeniería, debe activ
 
 Primero, active esas funciones siguiendo estos pasos.
 
-1. Vaya a [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Vaya al espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Busque actualizaciones.
 1. Active la característica llamada **Administración de cambios de ingeniería**.
 1. Si desea utilizarlo, active también la función que se denomina **Versión de dimensión del producto**.
@@ -58,8 +58,11 @@ Luego, active las claves de configuración siguiendo estos pasos.
 1. Coloque su sistema en modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**.
 1. Expanda el nodo **Comercio**.
-1. Seleccione la casilla **Gestión de cambios de ingeniería**.
-1. Si desea utilizarlo, seleccione también la casilla **Dimensión del producto - Versión**.
+1. Habilite la clave de configuración para la función principal seleccionando la casilla **Gestión de cambios de ingeniería**. (No es necesario expandir el nodo a menos que también desee deshabilitar una o ambas subfunciones).
+1. Si también desea utilizar la dimensión de versión, seleccione también la casilla **Dimensión del producto: versión**. (Esta casilla está más abajo en la lista, no anidada debajo del nodo **Gestión de cambios de ingeniería**).
 1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+> [!IMPORTANT]
+> A partir de abril de 2022, las claves de licencia para **Gestión de cambios de ingeniería** y **Dimensión del producto: versión** estará habilitado de forma predeterminada para todas las instalaciones nuevas, pero seguirá pudiendo deshabilitarlas si es necesario.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

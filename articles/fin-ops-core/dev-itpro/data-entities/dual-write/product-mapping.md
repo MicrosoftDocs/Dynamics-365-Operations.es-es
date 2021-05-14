@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3087ab8853b14308da9496eead7478822cec86b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750749"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941205"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
@@ -124,7 +124,7 @@ Las dimensiones de un producto son las características que identifican una vari
 
 Cuando un producto tiene distintas dimensiones de producto (por ejemplo, un producto maestro tiene el tamaño y el color como dimensiones de producto), cada producto único (es decir, cada variante del producto) se define como una combinación de dichas dimensiones del producto. Por ejemplo, el número de producto B0001 es una camiseta negra extrapequeña, y el número de producto B0002 es una pequeña camiseta negra. En este caso, se definen las combinaciones de dimensiones de producto existentes. Por ejemplo, la camiseta del ejemplo anterior puede ser extrapequeña y negra, pequeña y negra, mediana y negra, o grande y negra, pero no puede ser extragrande y negra. Es decir las dimensiones de producto que un producto maestro puede tomar se especifican, y las variantes se pueden lanzar en función de estos valores.
 
-Para realizar un seguimiento de las dimensiones de producto que un producto maestro puede aceptar, se crean y se asignan las tablas siguientes en Dataverse para cada dimensión de producto. Para obtener más información, consulte [Visión general de la información de producto](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/pim/product-information).
+Para realizar un seguimiento de las dimensiones de producto que un producto maestro puede aceptar, se crean y se asignan las tablas siguientes en Dataverse para cada dimensión de producto. Para obtener más información, consulte [Descripción general de la información del producto]../../../supply-chain/pim/product-information.md).
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 
@@ -138,7 +138,7 @@ Para realizar un seguimiento de las dimensiones de producto que un producto maes
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Configuración predeterminada de pedido y Configuración de pedido predeterminada específica del producto
 
-Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. Este información está disponible en Dataverse mediante la configuración de pedido predeterminada y la entidad de configuración de pedido predeterminada específica del producto. Puede leer más información sobre la funcionalidad en el [Tema de la configuración de pedido predeterminada](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
+Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. Este información está disponible en Dataverse mediante la configuración de pedido predeterminada y la entidad de configuración de pedido predeterminada específica del producto. Puede leer más información sobre la funcionalidad en el [Tema de la configuración de pedido predeterminada](../../../../supply-chain/production-control/default-order-settings.md).
 
 [!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830037"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954654"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Administrar cambios en productos de ingeniería
 
@@ -139,13 +139,14 @@ Mientras revisa una solicitud de cambio, en el Panel de acciones, en la pesetañ
 
 Como se describe en [Empresas de ingeniería y reglas de propiedad de datos](engineering-org-data-ownership-rules.md), los datos de productos que puede editar varían, según el tipo de entidad jurídica en la que trabaja (una empresa de ingeniería frente a una empresa operativa). Las reglas de propiedad de datos también se aplican a las órdenes de cambio de ingeniería. Por lo tanto, según la entidad jurídica en la que cree una orden de cambio de ingeniería, se pueden realizar diferentes tipos de cambios. A continuación, encontrará algunos ejemplos:
 
-- Para las órdenes de cambio de ingeniería en una **compañía de ingeniería**, puede realizar cambios básicos en los datos de ingeniería. Por ejemplo, puede crear nuevas versiones de un producto, cambiar la estructura de un producto a través de la lista de materiales y cambiar los valores de los atributos de ingeniería. Para cada producto afectado, seleccione uno de los siguientes valores en el campo **Impacto**:
+- Para las órdenes de cambio de ingeniería en una *compañía de ingeniería*, puede realizar cambios básicos en los datos de ingeniería. Por ejemplo, puede crear nuevas versiones de un producto, cambiar la estructura de un producto a través de la lista de materiales y cambiar los valores de los atributos de ingeniería. Para cada producto afectado, seleccione uno de los siguientes valores en el campo **Impacto**:
 
     - **Ninguna** - Actualice la versión del producto existente (actualización en versión).
     - **Nueva versión** - Cree una nueva versión basada en la versión del producto seleccionado.
-    - **Nuevo producto** - Cree un producto completamente nuevo o una variante de producto que se base en la versión del producto seleccionada.
+    - **Nuevo producto**: cree un producto completamente nuevo que se base en la versión del producto seleccionada.
+    - **Nueva variante**: cree una nueva variante basada en la versión del producto seleccionado. Se copiará su L. MAT. y la información de ruta.
 
-- Para órdenes de cambio de ingeniería en una **empresa operativa**, puede cambiar los datos logísticos del producto. Por ejemplo, puede enriquecer la lista de materiales existente con configuraciones para el abastecimiento, agregar rutas locales o listas de materiales locales e incluso enriquecer una lista de materiales agregando nuevas líneas de lista de materiales para materiales de embalaje locales, fluidos de lubricación o instrucciones en el idioma local. Los enriquecimientos que hagan los usuarios en la empresa operativa se conservarán cuando se envíen nuevas actualizaciones desde la empresa de ingeniería. Para más información, vea [Empresas de ingeniería y reglas de propiedad de datos](engineering-org-data-ownership-rules.md).
+- Para órdenes de cambio de ingeniería en una *empresa operativa*, puede cambiar los datos logísticos del producto. Por ejemplo, puede enriquecer la lista de materiales existente con configuraciones para el abastecimiento, agregar rutas locales o listas de materiales locales e incluso enriquecer una lista de materiales agregando nuevas líneas de lista de materiales para materiales de embalaje locales, fluidos de lubricación o instrucciones en el idioma local. Los enriquecimientos que hagan los usuarios en la empresa operativa se conservarán cuando se envíen nuevas actualizaciones desde la empresa de ingeniería. Para más información, vea [Empresas de ingeniería y reglas de propiedad de datos](engineering-org-data-ownership-rules.md).
 
     Cuando las órdenes de cambio de ingeniería se procesan en la empresa de ingeniería, los productos se crean o actualizan solo en la empresa de ingeniería. Por lo tanto, si los datos maestros del producto también deben actualizarse, también debe liberar los productos a las empresas operativas.
 

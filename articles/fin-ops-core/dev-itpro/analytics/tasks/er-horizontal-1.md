@@ -2,7 +2,7 @@
 title: 'ER Usar los intervalos horizontalmente ensanchables para agregar de forma dinámica columnas en Excel (Parte 1: Diseño de formato)'
 description: Este tema describe cómo configurar un formato de informes electrónicos (ER) para generar informes como archivos de hojas de cálculo OPENXML (Excel). (Parte 1)
 author: NickSelin
-ms.date: 08/29/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9eef9ffaadbd7010129cc9850ded1ba67bc281d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af3d7bdf6bf0de371fa0896bf5f668c98498640d
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745020"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944614"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Usar los intervalos horizontalmente ensanchables para agregar de forma dinámica columnas en Excel (Parte 1: Diseño de formato)
 
@@ -34,7 +34,7 @@ Para completar estos pasos, primero debe completar estas tres guías de tarea:
 
 "ER Usar dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)"
 
-También debe descargar y guardar una copia local de la plantilla con un informe de ejemplo que se encuentra aquí, [Informe de ejemplo de servicio web de dimensiones financieras](https://go.microsoft.com/fwlink/?linkid=862266).
+También debe descargar y guardar una copia local de la plantilla con un informe de ejemplo que se encuentra aquí, [Informe de ejemplo de servicio web de dimensiones financieras](https://download.microsoft.com/download/3/1/3/313e2090-bc0a-421f-bf96-c58da9bc0dea/SampleFinDimWsReport.xlsx).
 
 Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814329"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923547"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -30,7 +30,7 @@ En este tema se describen las características que se han eliminado, o que está
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Función eliminada a partir del 28 de enero de 2021
 
@@ -123,7 +123,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | En general, el código personalizado ofrece ventajas limitadas y requiere una gran cantidad de recursos y procesamiento. El código personalizado lo utilizan principalmente los autores de informes para llamar a métodos públicos desde un ensamblado de código personalizado. Sin embargo, el servicio alojado en la nube no admite referencias a ensamblados personalizados para informes de SSRS. |
-| **¿Reemplazado por otra característica?**   | Los autores de informes pueden optar por seguir haciendo referencia a las API de .NET públicas para operaciones de matemáticas, conversión y formato desde cualquier expresión de cuadro de texto. Para obtener más información, consulte [Agregar código a un informe (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **¿Reemplazado por otra característica?**   | Los autores de informes pueden optar por seguir haciendo referencia a las API de .NET públicas para operaciones de matemáticas, conversión y formato desde cualquier expresión de cuadro de texto. Para obtener más información, consulte [Agregar código a un informe (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
 | **Áreas de producto afectadas**         | Subconjunto de diseños de informes de aplicaciones definidos en un RDL que contiene código personalizado. |
 | **Opción de implementación**              | Todos |
 | **Estado**                         | Con la versión 10.0.13, el compilador comenzará a emitir una advertencia para las instancias en las que se detecte código personalizado en una definición de informe de SSRS. Para solucionar el problema, abra la definición de diseño del informe y quite todos los artefactos de código personalizados. Esta advertencia se reemplazará con un error del compilador en una actualización futura.   |
@@ -178,7 +178,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El proceso para mover IP a listas seguras ha cambiado. El autoservicio ya no admite la lista segura de IP. |
-| **¿Reemplazado por otra característica?**   | Para más información, consulte [Configuración de acceso condicional de Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **¿Reemplazado por otra característica?**   | Para más información, consulte [Configuración de acceso condicional de Azure Active Directory](/appcenter/general/configuring-aad-conditional-access).|
 | **Áreas de producto afectadas**         | Seguridad |
 | **Opción de implementación**              | Nube |
 | **Estado**                         | **Obsoleto:** esta característica está totalmente en desuso para las implementaciones en autoservicio. |
@@ -223,7 +223,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Flujo de trabajo |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | La lista desplegable de selección de usuario se eliminó del cuadro de diálogo de solicitud de cambio en la Platform update 32. Las solicitudes de cambio de solicitud se enviarán automáticamente al originador según lo previsto. Para obtener más información sobre esta funcionalidad, consulte [Acciones en procesos de aprobación de flujo de trabajo](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
+| **Estado**                         | La lista desplegable de selección de usuario se eliminó del cuadro de diálogo de solicitud de cambio en la Platform update 32. Las solicitudes de cambio de solicitud se enviarán automáticamente al originador según lo previsto. Para obtener más información sobre esta funcionalidad, consulte [Acciones en procesos de aprobación de flujo de trabajo](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Los vínculos de obtención de detalles integrados ya no se admiten en los documentos paginados que genera el servicio hospedado en la nube 
 
@@ -233,7 +233,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | Nº |
 | **Áreas de producto afectadas**         | Notificación |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | Esta característica se está quitando de manera activa del servicio.<br><br>El cliente moderno ofrece numerosas opciones para producir vistas que incluyen vínculos generados automáticamente para facilitar la navegación de la aplicación. Se recomienda usar los documentos paginados que genera el servicio para las comunicaciones externas que se envían por correo electrónico, se archivan y se imprimen para los destinatarios. Hemos mejorado la experiencia de vista previa de documentos directamente en el explorador, que ofrece acceso directo a impresoras locales. Para obtener más información, consulte [Mostrar vista previa de documentos PDF con un visor incrustado](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/preview-pdf-documents). |
+| **Estado**                         | Esta característica se está quitando de manera activa del servicio.<br><br>El cliente moderno ofrece numerosas opciones para producir vistas que incluyen vínculos generados automáticamente para facilitar la navegación de la aplicación. Se recomienda usar los documentos paginados que genera el servicio para las comunicaciones externas que se envían por correo electrónico, se archivan y se imprimen para los destinatarios. Hemos mejorado la experiencia de vista previa de documentos directamente en el explorador, que ofrece acceso directo a impresoras locales. Para obtener más información, consulte [Mostrar vista previa de documentos PDF con un visor incrustado](../analytics/preview-pdf-documents.md). |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Anuncios anteriores sobre características quitadas u obsoletas
 Para obtener más información sobre las características que se han eliminado o desaprobado en versiones anteriores, consulte [Funciones eliminadas o en desuso en versiones anteriores](../migration-upgrade/deprecated-features.md).

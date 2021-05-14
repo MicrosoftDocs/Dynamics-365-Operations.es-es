@@ -1,8 +1,8 @@
 ---
 title: Novedades y cambios en Human Resources
-description: Cada semana, proporcionamos una nueva versión para Microsoft Dynamics 365 Human Resources. Los temas en esta lista detallan los cambios realizados cada semana.
+description: Cada dos semanas, proporcionamos una nueva versión para Microsoft Dynamics 365 Human Resources. Los temas en esta lista detallan los cambios realizados cada semana.
 author: andreabichsel
-ms.date: 09/01/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bbcedfe45801d0892d80d3e18f78be00bdfdc40
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 4aaa52fa52964f68405596fd510a1aefca89edbf
+ms.sourcegitcommit: e24e335811727c4b12152323b2bcb25495c08c5b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892186"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934853"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novedades y cambios en Human Resources
 
@@ -47,8 +47,9 @@ Para obtener más información sobre las próximas características o el proceso
 
 ## <a name="human-resources-weekly-releases"></a>Publicaciones semanales de Human Resources
 
-Para ver las novedades o los cambios de cada versión quincenal de Human Resources, consulte los siguientes artículos:
+Para ver las novedades o los cambios de cada versión quincenal de Human Resources, consulte los siguientes temas:
 
+[19 de abril de 2021](hr-whats-new-2021-04-19.md)</br>
 [5 de abril de 2021](hr-whats-new-2021-04-05.md)</br>
 [22 de marzo de 2021](hr-whats-new-2021-03-22.md)</br>
 [8 de marzo de 2021](hr-whats-new-2021-03-08.md)</br>

@@ -2,7 +2,7 @@
 title: Configurar informes electrónicos (ER) para proporcionar datos a Power BI
 description: Este tema explica cómo puede usar su configuración de informes electrónicos (ER) para organizar la transferencia de datos de la instancia a los servicios de Power BI.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750091"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944446"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurar informes electrónicos (ER) para proporcionar datos a Power BI
 
@@ -68,10 +68,10 @@ Para completar el ejemplo de este tema, debe tener el acceso siguiente:
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Use un modelo de datos de ER como origen de datos
 Debe tener un modelo de datos de ER como origen de los datos empresariales que se usarán en los informes de Power BI. Este modelo de datos se carga desde el almacén de configuraciones de ER. Para obtener más información, consulte [Descargar las configuraciones de informes electrónicos de servicios del ciclo de vida](download-electronic-reporting-configuration-lcs.md), o consulte la guía de tareas **Importación de una configuración ER de Lifecycle Services**. Seleccione **Intrastat** como modelo de datos que se cargará desde el almacén de las configuraciones de ER seleccionado. (En este ejemplo se usa la versión 1 del modelo). Después puede tener acceso a la configuración del modelo de ER **Intrastat** en la página **Configuraciones**.
 
-[![Página Configuraciones](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Configuración del modelo Intrastat ER en la página Configuraciones](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Diseñar una configuración del formato de ER
-Debe crear una nueva configuración del formato de ER que use el modelo de datos **Intrastat** como origen de datos empresariales. Esta configuración del formato debe generar resultados de salida como documentos electrónicos en formato OpenXML (archivo de Excel). Para obtener más información, consulte la guía de tareas **Crear una configuración de ER para informes en formato OPENXML**. Asignar un nombre a la nueva configuración de **Actividades de importación / exportación**, como se muestra en la siguiente ilustración. Use el archivo de Excel [Datos de ER: detalles de importación y exportación](https://go.microsoft.com/fwlink/?linkid=845208) como plantilla cuando diseñe el formato de ER. (Para obtener más información sobre cómo importar una plantilla de formato, consulte la guía de tareas.)
+Debe crear una nueva configuración del formato de ER que use el modelo de datos **Intrastat** como origen de datos empresariales. Esta configuración del formato debe generar resultados de salida como documentos electrónicos en formato OpenXML (archivo de Excel). Para obtener más información, consulte la guía de tareas **Crear una configuración de ER para informes en formato OPENXML**. Asignar un nombre a la nueva configuración de **Actividades de importación / exportación**, como se muestra en la siguiente ilustración. Use el archivo de Excel [Datos de ER: detalles de importación y exportación](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) como plantilla cuando diseñe el formato de ER. (Para obtener más información sobre cómo importar una plantilla de formato, consulte la guía de tareas.)
 
 [![Configuración de actividades de importación/exportación](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Haga clic en el botón de **Ajustes** para el nuevo registro de destino. A conti
 1. En la página **Configuraciones** (**Gestión de la organización** &gt; **Informes electrónicos** &gt; **Configuraciones**), en el árbol de configuraciones, seleccione la configuración de **Actividades de importación / exportación** que creó anteriormente.
 2. Cambiar el estado de la versión 1.1 de **Borrador** a **Completado** para hacer que este formato esté disponibles para su uso.
 
-    [![Página Configuraciones](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Configuración de actividades de importación/exportación en la página Configuraciones](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Seleccione la versión completada de la configuración de **Actividades de importación / exportación**, y haga clic en **Ejecutar**. Tenga en cuenta que el destino configurado se aplica al resultado de salida que se genera en formato Excel.
 4. Configure la opción **Procesamiento por lotes** a **Sí** para ejecutar este informe modo desatendido.
@@ -187,7 +187,7 @@ Configurar la integración con Power BI. Para obtener más información, consult
 2. Seleccione el informe **Detalles de exportación e importación** de Power BI que ha creado, para mostrar dicho informe como un artículo de acción en la página seleccionada.
 3. Haga clic en el elemento de acción para abrir la página que muestra el informe que ha diseñado en Power BI.
 
-    [![Informe de detalles de importación y exportación](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Informe de detalles de importación y exportación diseñado en Power BI](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

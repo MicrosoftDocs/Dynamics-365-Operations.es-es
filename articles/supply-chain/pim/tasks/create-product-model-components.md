@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f62398934d029a3269bd2b6aa33531e6807be490
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6452a126f4962104fca7c62f3518b89fff657f08
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809335"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921044"
 ---
 # <a name="create-product-model-components"></a>Crear componentes de modelo de producto
 
@@ -26,14 +26,13 @@ ms.locfileid: "5809335"
 
 Los modelos de configuración de productos basados en restricciones usan componentes como bloques de creación para establecer la estructura de modelo de producto. Para que se pueda crear un modelo de producto, se deben crear componentes. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
-1. Haga clic en Definición de modelo de variante del producto.
-2. Haga clic en Modelos de configuración del producto.
-3. En el panel de acciones, haga clic en Modelo.
-4. Haga clic en Componentes.
-5. Haga clic en Nuevo.
-6. En el campo Nombre, escriba un valor.
-7. En el campo Descripción, escriba un valor.
-8. Cierre la página.
+1. Vaya a **Gestión de información de productos \> Productos \> Modelos de configuración del producto**.
+1. En el panel de acciones, haga clic en **Modelo**.
+1. Seleccione **Componentes**.
+1. Seleccione **Nuevo**.
+1. En el campo **Nombre**, escriba un valor.
+1. En el campo **Descripción**, escriba un valor.
+1. Cierre la página.
 
 
 

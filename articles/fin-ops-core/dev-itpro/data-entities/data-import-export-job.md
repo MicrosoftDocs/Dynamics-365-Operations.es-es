@@ -2,7 +2,7 @@
 title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751009"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937339"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -161,19 +161,7 @@ Para acelerar la importación de datos, se puede habilitar el procesamiento para
     - En el campo **Importar recuento de registros de umbral**, ingrese el recuento de registros de umbral para la importación. Esto determina el recuento de registros que debe procesar un subproceso. Si un archivo tiene 10K registros, un recuento de registros de 2500 con un recuento de tareas de 4 significará que cada subproceso procesará 2500 registros.
     - En el campo **Recuento de tareas de importación**, ingrese el recuento de tareas de importación. Este no debe exceder los subprocesos de lote máximos asignados para el procesamiento por lotes en **Administracion del sistema \>Configuración del servidor**.
 
-## <a name="clean-up-the-staging-tables"></a>Limpiar las tablas de almacenamiento provisional
-Esta funcionalidad ha quedado en desuso desde la Platform update 29. Se ha reemplazado por una nueva versión de la funcionalidad de limpieza del historial de trabajo que se explica a continuación.
-
-Puede limpiar las tablas de almacenamiento provisional si usa la característica **Limpieza del almacenamiento provisional** del espacio de trabajo **Administración de datos**. Puede usar las opciones siguientes para seleccionar qué registros deben ser eliminados de una tabla de almacenamiento provisional específica:
-
-- **Entidad**: si solo se proporciona una entidad, todos los registros de la tabla de almacenamiento provisional de esa entidad se borran. Seleccione esta opción para borrar todos los datos de la entidad incluyendo todos los proyectos y trabajos de datos.
-- **Id. de trabajo**: si solo se proporciona un id. de trabajo, todos los registros de todas las entidades del trabajo seleccionado se eliminan de las tablas de almacenamiento provisional adecuadas.
-- **Proyectos de datos**: si solo se selecciona un proyecto de datos, todos los registros de las entidades y de todos los trabajos del proyecto de datos seleccionado se eliminan.
-
-También puede combinar estas opciones para restringir aún más el conjunto de registros que se van a eliminar.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Limpieza del historial de trabajo (disponible en Platform update 29 y actualizaciones posteriores)
-
+## <a name="job-history-clean-up"></a>Limpieza del historial de trabajos 
 La funcionalidad de limpieza del historial de trabajo de la administración de datos debe usarse para programar una limpieza periódica del historial de ejecución. Esta funcionalidad reemplaza la funcionalidad anterior de limpieza de tablas de almacenamiento provisional, que ahora ha quedado en desuso. Se limpiarán las tablas siguientes mediante el proceso de limpieza.
 
 -   Todas las tablas de almacenamiento provisional

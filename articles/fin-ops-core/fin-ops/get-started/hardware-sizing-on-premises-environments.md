@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748754"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923489"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamiento de hardware para entornos locales
 
@@ -134,7 +134,7 @@ Solo puede implementarse un nodo SSRS para la versión de disponibilidad general
 
 ## <a name="environment-orchestrator"></a>Orquestador de entorno
 
-El servicio del orquestador es el servicio que administra su implementación y la comunicación relacionada con LCS. Este servicio se implementa como el servicio principal del Service Fabric y requiere al menos tres MV. Este servicio se ubica en el mismo lado que los servicios de orquestación de Service Fabric. Este debe dimensionarse a la carga máxima del clúster. Para obtener más información, consulte [Planificar y preparar la implementación del clúster autónomo de Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+El servicio del orquestador es el servicio que administra su implementación y la comunicación relacionada con LCS. Este servicio se implementa como el servicio principal del Service Fabric y requiere al menos tres MV. Este servicio se ubica en el mismo lado que los servicios de orquestación de Service Fabric. Este debe dimensionarse a la carga máxima del clúster. Para obtener más información, consulte [Planificar y preparar la implementación del clúster autónomo de Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualización y sobresuscripción
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fb2a25d9e2ffc26f0a37a09cdf3e28a7ca4b84bc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c56b5a333854c9a95fdc74b8f98a3552ff0f7719
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892416"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944810"
 ---
 # <a name="number-of-books-per-journal"></a>Número de libros por diario
 
@@ -47,9 +47,5 @@ El trabajo de procesamiento por lotes excluye los libros cerrados. Por ejemplo, 
 El límite en la cantidad de libros se aplica si no existen id. de activos duplicados en el mismo diario. Sin embargo, si el id. del activo es el mismo que el id. del libro, se puede exceder el número de libros por diario para mantener el id. del activo en el mismo diario.
 
 Por ejemplo, hay 5001 id. de activos fijos, tres libros están asociados con cada id. de activo fijo y cada libro de activos se publica en la misma capa de registro. Ejecute la depreciación durante tres meses consecutivos, sin resumen.  El diario de depreciación se creará mediante un trabajo por lotes y el sistema creará siete diarios que tienen 667 id. de activos fijos y tres libros para cada id. de activo fijo. El resultado serán 2001 libros. Por lo tanto, en tres meses, habrá 6003 líneas de diario para mantener los mismos id. de activos en el mismo diario. El sistema también creará un diario que tiene 332 id. de activos fijos y tres libros para cada id. de activo fijo. En tres meses, habrá 2988 líneas.
-
-> [!NOTE] 
-> Si se activa el parámetro **Resumir depreciación** al crear una propuesta de depreciación, el valor del campo **Número de libros por diario - Propuesta de depreciación** no surtirá efecto. En este caso, el número de libros por diario es 6000, el límite interno definido.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

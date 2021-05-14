@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754809"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923316"
 ---
 # <a name="feature-management-overview"></a>Visión general de la administración de características
 
@@ -140,7 +140,7 @@ La Administración de características le permite controlar las características
 
 ## <a name="new-features-are-optional-for-12-months"></a>Las nuevas funciones son opcionales durante 12 meses
 
-Cuando se instala una nueva característica no crítica, será opcional por un período de 12 meses. Esto le permite a usted y a su organización tiempo para planificar con anticipación cuándo utilizar una función y hacer que se pruebe en sus operaciones diarias. Para obtener más información, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+Cuando se instala una nueva característica no crítica, será opcional por un período de 12 meses. Esto le permite a usted y a su organización tiempo para planificar con anticipación cuándo utilizar una función y hacer que se pruebe en sus operaciones diarias. Para obtener más información, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Usar la Administración de características para activar las características de ISV o las personalizadas
 
@@ -161,7 +161,7 @@ La política es que todas las nuevas características se habiliten por un perío
 El tiempo de actualización es variable, el tiempo de actualización del entorno es variable y los clientes pueden optar por omitir algunas actualizaciones. Como resultado, las fechas específicas son difíciles de determinar. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>¿Dónde está la documentación de las características que se hacen obligatorias? 
-Esta documentación proviene de los equipos de aplicación. A menudo, estos se mencionarán en [Funciones eliminadas o en desuso](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+Esta documentación proviene de los equipos de aplicación. A menudo, estos se mencionarán en [Funciones eliminadas o en desuso](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>¿Hay una notificación en el producto o una señal de que una característica será obligatoriamente habilitada? 
 Hoy en día no existe un mecanismo de notificación relacionado con hacer que una característica sea obligatoria.

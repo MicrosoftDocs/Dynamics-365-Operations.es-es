@@ -2,7 +2,7 @@
 title: Administración de la calidad para procesos de almacén
 description: Este tema proporciona información acerca de la característica de gestión de calidad para los procesos de almacén. Esta característica amplía las capacidades de gestión de calidad y permite a los usuarios integrar controles de muestreo de artículos en el proceso de recepción del almacén mediante la gestión avanzada de almacenes.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834274"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956091"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Administración de la calidad para procesos de almacén
 
@@ -620,5 +620,8 @@ Ha configurado los datos de trabajo y ubicación para el almacén 51 para garant
 > [!NOTE]
 > Considere agregar la entrada de calidad de salida a un elemento del menú del dispositivo móvil con código de actividad *Mostrar lista de trabajo abierta*. Por ejemplo, vea el elemento del menú del dispositivo móvil que se llama **Lista de trabajo** en los datos de demostración. Primero agregue la clase de trabajo *Orden de calidad* a un elemento de menú dirigido por el usuario, porque esta clase de trabajo es necesaria para que el trabajo se muestre en la lista de trabajo. Luego agregue la clase de trabajo *Orden de calidad* al elemento de menú **Lista de trabajo**. Los usuarios que tienen acceso a la lista de trabajo podrán seleccionar y procesar el trabajo que se genere automáticamente mediante la validación de pedidos de calidad.
 
+## <a name="additional-resources"></a>Recursos adicionales
+
+- [Información general sobre gestión de calidad y disconformidades](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd11068a31b5324d87416e7c00f75a59743f695a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 83587df3963d215fec020150e6b707e431c1b6eb
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813516"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944786"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Configurar períodos de liquidación de impuestos
 
@@ -37,9 +37,7 @@ Esta tarea usa la empresa de demostración USMF.
 7. En el campo **Condiciones de pago**, seleccione en el menú desplegable el registro que desee. La autoridad fiscal relacionada se puede establecer como proveedor y la liquidación de impuestos creará una factura de proveedor abierta. Las condiciones de pago definen la fecha de vencimiento de la factura de proveedor abierta.  
 8. Seleccione un tipo para los intervalos del período de liquidación.
 9. Especifique el número de unidades del intervalo de períodos por período. Por ejemplo, un trimestre tiene 3 meses.
-10. Active o desactive la casilla **Usar procesamiento por lotes para la liquidación de impuestos**. El proceso de liquidación para el período de liquidación se puede procesar como un trabajo por lotes en segundo plano. Esto se recomienda para un gran número de transacciones de impuestos dentro de un intervalo de períodos.  
-    > [!NOTE]
-    > No se admite actualmente en España, Japón y Países Bajos.
+10. Active o desactive la casilla **Usar procesamiento por lotes para la liquidación de impuestos**. El proceso de liquidación para el período de liquidación se puede procesar como un trabajo por lotes en segundo plano. Esto se recomienda para un gran número de transacciones de impuestos dentro de un intervalo de períodos.
 11. Seleccione o borre la casilla **Evitar generar transacciones de impuestos de contrapartida**. De forma predeterminada, el sistema genera transacciones de impuestos de contrapartida durante el proceso de liquidación, lo que puede crear un problema de rendimiento si existe un gran número de transacciones de impuestos dentro de un intervalo de períodos. Seleccione esta casilla de verificación para evitar generar transacciones de impuestos de contrapartida.
 12. Expanda la pestaña **Intervalos de período**.
 13. Seleccione **Agregar**.

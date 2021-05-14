@@ -2,7 +2,7 @@
 title: Visión general de los informes electrónicos (ER)
 description: Este tema proporciona una visión general de la herramienta de informes electrónicos. Describe conceptos clave, escenarios compatibles y formatos que forman parte de la solución.
 author: NickSelin
-ms.date: 12/07/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893186"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944374"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -236,7 +236,7 @@ Para familiarizarse con los detalles de este escenario, reproduzca la guía de t
 
 El diseñador de formato de ER se puede utilizar para generar un documento electrónico en formato de hoja de cálculo OPENXML. 
 
-Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **Crear una configuración ER para generar informes en formato OPENXML** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**). Como parte del paso de la guía de la tarea para importar una plantilla, utilice [Plantilla de informe de pago (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) el archivo de Excel como plantilla.
+Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **Crear una configuración ER para generar informes en formato OPENXML** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**). Como parte del paso de la guía de la tarea para importar una plantilla, utilice [Plantilla de informe de pago (SampleVendPaymWsReport.xlsx)](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx) el archivo de Excel como plantilla.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Creación de una configuración para generar documentos electrónicos en formato documento de Word.
 
@@ -244,8 +244,8 @@ El diseñador de formato de ER se puede utilizar para generar un documento elect
 
 Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas Diseñar una configuración ER para generar informes en formato de Microsoft WORD (parte del proceso empresarial 7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)). Como parte del paso de la guía de tareas para importar una plantilla, use los archivos de Word siguientes como plantillas para el formato de ER:
 
-- [Plantilla de informe de pago (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Plantilla enlazada de pago (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Plantilla de informe de pago (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
+- [Plantilla enlazada de pago (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Generar una configuración para importar datos desde documentos electrónicos entrantes
 
@@ -253,10 +253,10 @@ El diseñador del formato de ER se puede utilizar para describir un documento el
 
 Para familiarizarse con los detalles de este escenario, reproduzca la guía Crear configuraciones de ER requeridas para importar datos desde una guía de tareas de archivo externo (parte del proceso empresarial 7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)). Use archivos siguientes para reproducir este manual:
 
-- [Configuración del modelo de datos de ER (1099model.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Configuración del formato de ER (1099format.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Ejemplo de documento de entrada en formato XML (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Ejemplo de libro para administrar datos del documento de entrada (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Configuración del modelo de datos de ER (1099model.xml)](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)
+- [Configuración del formato de ER (1099format.xml)](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)
+- [Ejemplo de documento de entrada en formato XML (1099entries.xml)](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)
+- [Ejemplo de libro para administrar datos del documento de entrada (1099entries.xlsx)](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Almacenar un componente diseñado del formato en una configuración del formato
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811999"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920590"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos
 
@@ -32,7 +32,7 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Introduzca una respuesta como un proveedor
 
-1. En el panel de información, seleccione **Oferta de proveedor**.
+1. Vaya a **Colaboración de proveedores \> Espacios de trabajo \> Ofertas de proveedores**.
 2. En el lista **Nuevas invitaciones de la oferta**, encuentre una solicitud de presupuesto que acaba de registrar. Seleccione la solicitud de presupuesto para revisar qué se solicitó.
 3. Seleccione **Datos adjuntos de la solicitud de presupuesto** para revisar los archivos adjuntos que se hayan agregado.
 4. Seleccione **Propuesta** para hacer que los campos puedan editarse. Observe que el campo **Progreso de la oferta** está establecido en **El proveedor está actualizando**.

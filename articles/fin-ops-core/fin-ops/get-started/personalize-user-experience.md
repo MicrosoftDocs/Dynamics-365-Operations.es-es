@@ -2,7 +2,7 @@
 title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
-ms.date: 09/11/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efc5afc9d685954bf736686bbed3e7575f76e7e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744702"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944542"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -98,7 +98,7 @@ Puede usar la ventana de propiedad para personalizar un elemento de las siguient
 
 La ventana de la propiedad puede incluir otras capacidades de personalización, en función del elemento. Por ejemplo, la ventana de propiedad de un icono puede permitirle ascender ese icono a un panel de información y ventanas de la propiedad para elementos del panel puede de información predeterminado pueden dejarle crear un nuevo espacio de trabajo.
 
-### <a name="the-personalization-toolbar"></a>La barra de herramientas de personalización
+### <a name="personalization-toolbar"></a>Barra de herramientas de personalización
 
 Si desea implementar varios cambios en una página o hacer cambios que no están disponibles con otros mecanismos (como reordenar elementos), puede utilizar la barra de herramientas **Personalización**. Para abrir la barra de herramientas **Personalización**, siga uno de estos pasos:
 
@@ -173,7 +173,90 @@ Una funcionalidad de personalización única que está disponible en el tablero 
 
 ## <a name="sharing-personalizations"></a>Uso compartido de personalizaciones
 
-Tras personalizar una página, puede compartir sus personalizaciones con otros usuarios exportando la página personalizada. Luego puede solicitar a otros usuarios que importen el archivo de personalización. Como alternativa, puede dar sus personalizaciones a un usuario que tenga privilegios de administración. Ese usuario puede aplicar su archivo de personalización a muchos usuarios al mismo tiempo, utilizando la página de administración **Personalización**.
+Tras personalizar una página, hay varios métodos que puede usar para compartir sus personalizaciones con otros usuarios. En la siguiente lista, los métodos están ordenados del más recomendado al menos recomendado.
+
+1. Publique vistas para los usuarios.
+2. Copie vistas o personalizaciones para los usuarios.
+3. Exporte e importe vistas o personalizaciones.
+
+### <a name="publish-views-to-users"></a>Publicar vistas para los usuarios
+
+Si la característica [Vistas guardadas](saved-views.md) está activada y la página admite vistas, la mejor manera de compartir personalizaciones con otros usuarios es publicar la vista para los usuarios que tienen uno o más roles de seguridad. Para obtener más información, consulte [Publicación de vistas](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Copiar vistas o personalizaciones para los usuarios
+
+Si la característica [Vistas guardadas](saved-views.md) está desactivada o, si la página no admite vistas, la forma recomendada de compartir personalizaciones es copiarlas entre usuarios. Este método está disponible solo para usuarios privilegiados (por ejemplo, administradores del sistema). Sin embargo, los administradores pueden buscar la personalización de un usuario específico en el sistema (incluida la vista personal del usuario si las vistas guardadas están habilitadas) y copiar la configuración a otros usuarios.
+
+Si las vistas guardadas están habilitadas, siga estos pasos para copiar personalizaciones.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. Siga estos pasos para copiar vistas personales:
+
+    1. Seleccione **Puntos de vista personales**.
+    2. Seleccione las vistas deseadas en la lista.
+    3. Seleccione **Copiar a los usuarios**.
+    4. Seleccione los usuarios a los que distribuir las vistas.
+
+    Siga estos pasos para copiar personalizaciones en páginas que no admiten vistas:
+
+    1. Seleccione **configuración de usuario**.
+    2. Seleccione el usuario que tiene la personalización que desea distribuir.
+    3. Seleccione **Gestionar todas las personalizaciones**.
+    4. Seleccione las personalizaciones deseadas en la lista.
+    5. Seleccione **Copiar a los usuarios**.
+    6. Seleccione los usuarios a los que distribuir las personalizaciones.
+
+Si las vistas guardadas no están habilitadas, siga estos pasos para copiar una personalización.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. Seleccionar **Aplicar**.
+3. Seleccione los usuarios a los que distribuir la personalización.
+4. Seleccione **Seleccionar personalización existente**.
+5. Busque y seleccione la personalización (única) que le interesa.
+6. Seleccione **Aceptar**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Exportar e importar vistas o personalizaciones
+
+Otra forma de compartir personalizaciones es mediante la exportación y la importación. Los usuarios individuales, o un administrador que actúe en su nombre, pueden utilizar este método para exportar sus personalizaciones o vistas, y luego entregar el archivo exportado a otros usuarios para que lo importen. Alternativamente, los usuarios pueden dar sus personalizaciones exportadas a un usuario que tiene privilegios de administrador, y ese usuario puede usar la página de administración **Personalización** para aplicar el archivo de personalización a muchos usuarios al mismo tiempo.
+
+#### <a name="export"></a>Exportar
+
+En general, puede exportar una de sus propias vistas o personalizaciones abriendo la página correspondiente, abriendo la barra de herramientas **Personalización** y luego seleccionando **Exportar**. Para obtener más información sobre la barra de herramientas, consulte la sección [Barra de herramientas de personalización](#personalization-toolbar) anteriormente en este tema. Alternativamente, si están habilitadas las [vistas guardadas](saved-views.md), puede ir a **Configuración \> Opciones de usuario \> Personalización** para ver una lista de todas sus personalizaciones en el sistema. Desde allí, puede seleccionar las vistas o personalizaciones para exportar y luego seleccionar **Exportar**.
+
+Además, los administradores pueden exportar las personalizaciones de otros usuarios siguiendo estos pasos.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. En la pestaña **Usuarios**, seleccione el usuario deseado.
+3. Busque y seleccione la vista o personalización que le interesa.
+4. Seleccione **Exportar**.
+
+#### <a name="import"></a>Importar
+
+Para importar una vista o personalización, simplemente puede abrir la barra de herramientas **Personalización** y seleccionar **Importar**. Además, los administradores pueden importar un archivo y entregárselo inmediatamente a uno o más usuarios.
+
+Si las vistas guardadas están habilitadas, siga estos pasos.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. En el panel de acciones, seleccione **Importar vistas \> Vistas de usuarios**.
+3. Seleccione el modo de importar:
+
+    - **Seleccionar usuarios específicos**: facilite la vista o la personalización a los usuarios seleccionados.
+    - **Importar como está**: importe la vista o personalización al mismo usuario que la exportó.
+
+4. Seleccione **Exploraar** y, a continuación, seleccione la personalización a importar.
+5. Seleccione **Siguiente**.
+6. Si seleccionó **Seleccionar usuarios específicos** en el paso 3, seleccione los usuarios a los que desea importar la personalización.
+7. Seleccione **Importar**.
+8. Resuelva los conflictos según sea necesario.
+
+Si las vistas guardadas no están habilitadas, siga estos pasos.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. Seleccionar **Aplicar**.
+3. Seleccione los usuarios a los que distribuir la personalización.
+4. Seleccione **Importar personalizaciones de un archivo**.
+5. Seleccione **Exploraar** y, a continuación, seleccione la personalización a importar.
+6. Seleccione **Aceptar**.
 
 ## <a name="administration-of-personalizations"></a>Administración de personalizaciones
 
@@ -184,8 +267,11 @@ Para clientes que han activado la característica **Vistas guardadas**, consulte
 Para los clientes que no hayan activado aún la característica [Vistas guardadas](saved-views.md), esta página tiene cuatro fichas:
 
 - **Aplicar**: puede importar o seleccionar una personalización para uno o varios usuarios. Para aplicar una personalización a uno o varios usuarios, seleccione primero un rol y a los usuarios con dicho rol. A continuación seleccione una personalización para aplicarla a los usuarios seleccionados o importe un archivo de personalización. La personalización se validará y aplicará a todos los usuarios seleccionados la próxima vez que abran la página seleccionada.
+
 - **Borrar**: puede borrar todas las personalizaciones de una página o espacio de trabajo de uno o varios usuarios. Primero seleccione una página o espacio de trabajo para ver la lista de los usuarios que la han personalizado. A continuación, seleccione los usuarios que deberían tener borradas las personalizaciones de esa página o espacio de trabajo, y seleccione **Borrar**. Se eliminan todas las personalizaciones que los usuarios seleccionados han aplicado a la página o al espacio de trabajo seleccionado. Esta acción no se puede deshacer. Sin embargo, si se guardó una personalización para la página o el espacio de trabajo, se podrá volver a importar dicha personalización.
+
 - **Usuarios**: seleccione un usuario para ver la lista de páginas que este usuario ha personalizado. A continuación puede habilitar o deshabilitar la capacidad del usuario seleccionado para utilizar personalizaciones para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario. Además, puede restablecer las llamadas de características del usuario. En este caso, si el usuario descartó anteriormente algunas ventanas emergentes que introducían nuevas características, aparecerán de nuevo la próxima vez que el usuario se encuentre con aquellas características.
+
 - **Sistema:** – Puede desactivar temporalmente la personalización para todos los usuarios del sistema. En este caso, todas las personalizaciones se eliminan para todos los usuarios, y todas las páginas se restablecen a su estado predeterminado. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se volverán a aplicar. También puede desactivar permanentemente todas las personalizaciones para todos los usuarios del sistema. No es posible recuperar las personalizaciones que se han eliminado. Por lo tanto, antes de realizar esta tarea, asegúrese de exportar todas las personalizaciones que pueda querer más tarde.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalización de dimensiones de inventario

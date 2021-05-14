@@ -2,7 +2,7 @@
 title: Configurar un canal comercial
 description: En este tema se describe cómo crear un nuevo canal comercial en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 713cbe68c151b6893519843611089941cabf0e70
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800600"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937543"
 ---
 # <a name="set-up-a-retail-channel"></a>Configurar un canal comercial
 
@@ -34,7 +34,7 @@ Antes de crear un canal comercial, asegúrese de cumplir los [requisitos previos
 ## <a name="create-and-configure-a-new-retail-channel"></a>Crear y configurar un nuevo canal comercial
 
 1. En el panel de navegación, vaya a **Módulos \> Canales \> Tiendas \> Todas las tiendas**.
-1. En el panel de acciones, seleccione **Nueva**.
+1. En el panel de acciones, haga clic en **Nueva**.
 1. En el campo **Nombre**, escriba un nombre para el nuevo canal.
 1. En el campo **Número de tienda**, especifique un número de tienda único. El número puede ser alfanumérico, con un máximo de 10 caracteres.
 1. En la lista desplegable **Entidad jurídica**, introduzca la entidad jurídica correspondiente.
@@ -46,7 +46,7 @@ Antes de crear un canal comercial, asegúrese de cumplir los [requisitos previos
 1. En el campo **Cliente predeterminado**, especifique un cliente predeterminado válido.
 1. En el campo **Perfil de funcionalidad**, seleccione un perfil de funcionalidad si corresponde.
 1. En el campo **Perfil de notificación por correo electrónico**, proporcione un perfil de notificación de correo electrónico válido.
-1. En el panel de acciones, seleccione **Guardar**.
+1. En el panel Acciones, seleccione **Guardar**.
 
 La siguiente imagen muestra la creación de un nuevo canal comercial.
 
@@ -68,7 +68,7 @@ En la siguiente imagen se muestra un ejemplo de configuración de instalación d
 
 ## <a name="additional-channel-set-up"></a>Configuración adicional de canal
 
-Hay elementos adicionales que debe configurar para un canal que se pueden encontrar en el **Panel de acciones** bajo la sección **Configurar**.
+Hay elementos adicionales que debe configurar para un canal que se pueden encontrar en el panel de acciones, en la sección **Configurar**.
 
 Las tareas adicionales requeridas para la configuración del canal en línea incluyen: configuración de métodos de pago, declaración de efectivo, modos de entrega, cuenta de ingresos/gastos, secciones, asignación de grupo de cumplimiento y cajas fuertes.
 
@@ -81,11 +81,11 @@ En la imagen siguiente se muestran varias opciones adicionales de configuración
 Para configurar métodos de pago, siga los pasos siguientes para cada tipo de pago admitido en este canal.
 
 1. En el panel de acciones, seleccione la pestaña **Configurar** y, a continuación, seleccione **Métodos de pago**.
-1. En el panel de acciones, seleccione **Nueva**.
+1. En el panel de acciones, haga clic en **Nueva**.
 1. En el panel de navegación, seleccione el método de pago deseado.
 1. En la sección **General**, proporcione un **Nombre de la operación** y configure las otras opciones de configuración que desee.
 1. Configure opciones de configuración adicionales según sea necesario para el tipo de pago.
-1. En el panel de acciones, seleccione **Guardar**.
+1. En el panel Acciones, seleccione **Guardar**.
 
 En la imagen siguiente se muestra un ejemplo de método de pago en efectivo.
 
@@ -102,7 +102,7 @@ En la imagen siguiente se muestra un ejemplo de declaración de efectivo.
 
 ### <a name="set-up-modes-of-delivery"></a>Configurar modos de entrega
 
-Para ver los modos de entrega configurados, seleccione **Modos de entrega** en la pestaña **Configurar** del **Panel de acciones**.  
+Para ver los modos de entrega configurados, seleccione **Modos de entrega** en la pestaña **Configurar** del panel de acciones.  
 
 Para cambiar o agregar un modo de entrega, siga estos pasos.
 
@@ -118,14 +118,14 @@ En la imagen siguiente se muestra un ejemplo de mode de entrega.
 
 Para configurar una cuenta de ingresos y gastos siga estos pasos.
 
-1. En el panel de acciones, seleccione la pestaña **Configurar** y, a continuación, seleccione **Cuenta de ingresos y gastos**.
-1. En el panel de acciones, seleccione **Nueva**.
+1. En el panel de acciones, seleccione la pestaña **Configurar** y, a continuación, seleccione **Cuenta de ingresos/gastos**.
+1. En el panel de acciones, haga clic en **Nueva**.
 1. En **Nombre**, escriba un nombre.
 1. En **Nombre de búsqueda**, escriba un nombre de búsqueda.
 1. En **Tipo de cuenta**, especifique el tipo de cuenta.
 1. Introduzca texto para **Línea de mensaje 1**, **Línea de mensaje 2**, **Texto de resguardo 1** y **Texto de resguardo 2** según sea necesario.
 1. En **Registro**, introduzca la información de registro.
-1. En el panel de acciones, seleccione **Guardar**.
+1. En el panel Acciones, seleccione **Guardar**.
 
 La siguiente imagen muestra un ejemplo de cuenta de ingresos/gastos.
 
@@ -135,23 +135,23 @@ La siguiente imagen muestra un ejemplo de cuenta de ingresos/gastos.
 
 para configurar secciones, siga estos pasos.
 
-1. En el panel de acciones, seleccione la pestaña **Configurar** y, a continuación, seleccione **Secciones**.
-1. En el panel de acciones, seleccione **Nueva**.
+1. En el panel de acciones, seleccione la pestaña **Configurar** y, a continuación, haga clic en **Secciones**.
+1. En el panel de acciones, haga clic en **Nueva**.
 1. En **Numero de sección**, introduzca un número de sección.
 1. En **Descripción**, escriba una descripción.
 1. En **Tamaño de sección**, introduzca un tamaño de sección.
 1. Establezca opciones de configuración adicionales para **General** y **Estadísticas de ventas** según sea necesario.
-1. En el panel de acciones, seleccione **Guardar**.
+1. En el panel Acciones, seleccione **Guardar**.
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Configurar una asignación de grupo de cumplimiento
 
 Para configurar una asignación de grupo de cumplimiento, siga estos pasos.
 
 1. En el panel de acciones, seleccione la pestaña **Configurar** y, a continuación, seleccione **Asignación de grupo de cumplimiento**.
-1. En el panel de acciones, seleccione **Nueva**.
+1. En el panel de acciones, haga clic en **Nueva**.
 1. En la lista desplegable **Grupo de cumplimiento**, seleccione un grupo de cumplimiento.
 1. En la lista desplegable **Descripción**, escriba una descripción.
-1. En el panel de acciones, seleccione **Guardar**.
+1. En el panel Acciones, seleccione **Guardar**
 
 La siguiente imagen muestra un ejemplo de configuración de asignación de grupo de cumplimiento.
 
@@ -162,15 +162,46 @@ La siguiente imagen muestra un ejemplo de configuración de asignación de grupo
 para configurar cajas fuertes, siga estos pasos.
 
 1. En el panel de acciones, seleccione la pestaña **Configurar** y, a continuación, seleccione **Cajas fuertes**.
-1. En el panel de acciones, seleccione **Nueva**.
+1. En el panel de acciones, haga clic en **Nueva**.
 1. Introduzca un nombre para la caja fuerte.
-1. En el panel de acciones, seleccione **Guardar**.
+1. En el panel Acciones, seleccione **Guardar**.
+
+### <a name="ensure-unique-transaction-ids"></a>Garantizar id. de transacción únicos
+
+A partir de la versión 10.0.18 de Commerce, los id. de transacción generados para el punto de venta (PDV) son secuenciales e incluyen las siguientes partes:
+
+- Una parte fija, que es una concatenación del id. de la tienda y el id. del terminal. 
+- Una parte secuencial, que es una secuencia numérica. 
+
+Específicamente, el formato es *{store}-{terminal}-{numbersequence}*. 
+
+Debido a que los id. de transacción se pueden generar en modo fuera de línea y en línea, ha habido casos en que se han generado id. de transacción duplicados. La eliminación de id. de transacciones duplicadas requiere mucha corrección manual de datos. 
+
+Con la versión 10.0.19 de Commerce, el formato de id. de transacción se ha actualizado para eliminar la parte secuencial y, en su lugar, utiliza un número de 13 dígitos generado calculando el tiempo en milisegundos desde 1970. Con este cambio, el nuevo formato de id. de transacción es *{store}-{terminal}-{millisecondsSince1970}*. Esta actualización hace que el id. de transacción no sea secuencial y garantiza que los id. de transacción sean siempre únicos. 
+
+> [!NOTE]
+> Los id. de transacción están destinados solo para uso interno del sistema, por lo que no es necesario que sean secuenciales. Sin embargo, muchos países requieren que los id. sean secuenciales.
+
+La nueva función de formato de id. de transacción se puede habilitar desde el espacio de trabajo **Gestión de funciones**. 
+
+Para habilitar el uso de nuevos id. de transacción, siga estos pasos:
+
+1. En la sede de Commerce, vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
+1. Filtre por el módulo "Minorista y comercio".
+1. Busque el nombre de la función **Habilitar nuevo id. de transacción para evitar id. de transacción duplicados**.
+1. Seleccione la característica y, a continuación, en el panel de la derecha, seleccione **Habilitar ahora**.  
+1. Vaya a **Retail y Commerce \> TI de Retail y Commerce \> Programación de distribución**.
+1. Ejecute los traajos **1070 Configuración de canal** y **1170 Registrador de tareas PDV** para sincronizar la función habilitada con las tiendas.
+1. Después de que los cambios se hayan enviado a las tiendas, los terminales PDV deben cerrarse y volverse a abrir para usar el nuevo formato de id. de transacción. 
+
+> [!NOTE]
+> Una vez habilitada la nueva función de formato de id. de transacción, no podrá deshabilitar esta función. Si debe deshabilitarse, comuníquese con el soporte técnico de Commerce.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Resumen de canales](channels-overview.md)
+[Información general de canales](channels-overview.md)
 
-[Requisitos previos de configuración de canales](channels-prerequisites.md)
+[Requisitos previos de configuración del canal](channels-prerequisites.md)
 
 [Configurar un canal en línea](channel-setup-online.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821017"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936739"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pedidos de clientes en el punto de venta (PDV)
 
@@ -42,7 +42,7 @@ Antes de intentar usar la funcionalidad de pedidos de clientes en PDV, asegúres
 
 ### <a name="configure-modes-of-delivery"></a>Configurar modos de entrega
 
-Para utilizar los pedidos de los clientes, debe configurar los modos de entrega que puede utilizar el canal de la tienda. Debe definir al menos un modo de entrega que se puede utilizar cuando las líneas de pedido se envían a un cliente desde una tienda. Debe también definir al menos un modo de entrega para la recogida que se puede utilizar cuando las se recogen desde la tienda. Los modos de entrega se definen en la página **Modos de entrega** en la central de Commerce. Para obtener más información sobre cómo configurar el modo de entrega para los canales de Commerce, consulte [Definir modos de entrega](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
+Para utilizar los pedidos de los clientes, debe configurar los modos de entrega que puede utilizar el canal de la tienda. Debe definir al menos un modo de entrega que se puede utilizar cuando las líneas de pedido se envían a un cliente desde una tienda. Debe también definir al menos un modo de entrega para la recogida que se puede utilizar cuando las se recogen desde la tienda. Los modos de entrega se definen en la página **Modos de entrega** en la central de Commerce. Para obtener más información sobre cómo configurar el modo de entrega para los canales de Commerce, consulte [Definir modos de entrega](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Página Modos de entrega](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ Antes de intentar crear pedidos de clientes en PDV, debe configurar los parámet
 - **Porcentaje de cargo de cancelación**: si se debe aplicar un cargo cuando un pedido de cliente se cancela, especifique el importe de dicho cargo.
 - **Código de cargo por cancelación**: especifique el código de cargo de Clientes que se debe usar cuando se aplica un cargo por cancelación a pedidos de clientes cancelados a través del PDV. El código de cargo define la lógica de contabilización financiera para el cargo de cancelación.
 - **Código de cargo de envío**: si la opción **Utilizar cargos automatizados** se establece en **Sí**, este ajuste de parámetro no tiene ningún efecto. Si esa opción está configurada en **No**, se les pedirá a los usuarios que ingresen manualmente un cargo de envío cuando creen pedidos de clientes en PDV. Utilice este parámetro para asignar un código de cargo a Clientes que se aplicará a los pedidos cuando los usuarios especifiquen un cargo de envío. El código de cargo define la lógica de contabilización financiera para el cargo de envío.
-- **Utilizar cargos automatizados avanzados**: establecer esta opción en **Sí** para usar cargos automatizados calculados por el sistema cuando los pedidos de los clientes se crean en PDV. Estos cargos automáticos se pueden usar para calcular tarifas de envío u otros cargos específicos de pedidos o artículos. Para obtener más información sobre cómo configurar y utilizar los cargos automatizados, consulte [Cargos automatizados avanzados de omnicanal](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+- **Utilizar cargos automatizados avanzados**: establecer esta opción en **Sí** para usar cargos automatizados calculados por el sistema cuando los pedidos de los clientes se crean en PDV. Estos cargos automáticos se pueden usar para calcular tarifas de envío u otros cargos específicos de pedidos o artículos. Para obtener más información sobre cómo configurar y utilizar los cargos automatizados, consulte [Cargos automatizados avanzados de omnicanal](./omni-auto-charges.md).
 
 ![Pestaña de pedidos de clientes en la página de parámetros de Commerce](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Actualizar diseños de pantalla de transacciones en PDV
 
-Asegúrese de que el PDV [diseño de pantalla](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) está configurado para admitir la creación y gestión de pedidos de clientes, y que todas las operaciones de PDV requeridas están configuradas. Estas son algunas de las operaciones de PDV que se recomiendan para respaldar correctamente la creación y gestión de pedidos de los clientes:
+Asegúrese de que el PDV [diseño de pantalla](./pos-screen-layouts.md) está configurado para admitir la creación y gestión de pedidos de clientes, y que todas las operaciones de PDV requeridas están configuradas. Estas son algunas de las operaciones de PDV que se recomiendan para respaldar correctamente la creación y gestión de pedidos de los clientes:
 - **Enviar todos los productos**: esta operación se utiliza para especificar que todas las líneas del carrito de transacciones se enviarán a un destino.
 - **Enviar productos seleccionados**: esta operación se utiliza para especificar que las líneas seleccionadas del carrito de transacciones se enviarán a un destino.
 - **Recoger todos los productos**: esta operación se utiliza para especificar que todas las líneas del carrito de transacciones se recogerán en la ubicación de la tienda seleccionada.
 - **Recoger los productos seleccionados**: esta operación se utiliza para especificar que las líneas seleccionadas del carrito de transacciones se recogerán en la ubicación de la tienda seleccionada.
 - **Llevar todos los productos**: esta operación se utiliza para especificar que se recogerán todas las líneas del carrito de transacciones. Si esta operación se utiliza en PDV, el pedido del cliente se convertirá en una transacción al contado.
-- **Llevar productos seleccionados**: esta operación se utiliza para especificar que las líneas seleccionadas en el carrito de transacciones las llevará en el cliente en el momento de realizar la compra. Esta operación es útil solo en un escenario de [pedidos híbridos](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders).
+- **Llevar productos seleccionados**: esta operación se utiliza para especificar que las líneas seleccionadas en el carrito de transacciones las llevará en el cliente en el momento de realizar la compra. Esta operación es útil solo en un escenario de [pedidos híbridos](./hybrid-customer-orders.md).
 - **Recuperar pedido**: esta operación se utiliza para buscar y recuperar pedidos de clientes para que los usuarios de PDV puedan editar, cancelar o realizar operaciones relacionadas con el cumplimiento en ellos según sea necesario.
 - **Cambiar modo de entrega**: esta operación se puede utilizar para cambiar rápidamente el modo de entrega de las líneas que ya están configuradas para el envío, sin requerir que los usuarios vuelvan a pasar por el flujo de "enviar todos los productos" o "enviar productos seleccionados".
 - **Anulación de depósito**: esta operación se puede utilizar para cambiar el importe del depósito que el cliente pagará por el pedido del cliente seleccionado.
@@ -128,7 +128,7 @@ Asegúrese de que el PDV [diseño de pantalla](https://docs.microsoft.com/dynami
 Los pedidos minoristas que se crean en el canal en línea o en la tienda se pueden recuperar y editar a través de POS según sea necesario.
 
 > [!IMPORTANT]
-> No todos los pedidos minoristas se pueden editar a través de la aplicación PDV. Los pedidos que se crean en un canal de centro de llamadas no se pueden editar a través del PDV si el valor de configuración [Habilitar la finalización del pedido](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) está activado para el canal del centro de llamadas. Para garantizar un procesamiento de pago correcto, los pedidos que se originaron en un canal de centro de llamadas y que utilizan la función Habilitar finalización de pedidos deben editarse a través de la aplicación del centro de llamadas en la central de Commerce.
+> No todos los pedidos minoristas se pueden editar a través de la aplicación PDV. Los pedidos que se crean en un canal de centro de llamadas no se pueden editar a través del PDV si el valor de configuración [Habilitar la finalización del pedido](./set-up-order-processing-options.md#enable-order-completion) está activado para el canal del centro de llamadas. Para garantizar un procesamiento de pago correcto, los pedidos que se originaron en un canal de centro de llamadas y que utilizan la función Habilitar finalización de pedidos deben editarse a través de la aplicación del centro de llamadas en la central de Commerce.
 
 En la versión 10.0.17 y posteriores, los usuarios pueden editar los pedidos aptos a través de la aplicación PDV, incluso si el pedido se ha cumplimentado parcialmente. Sin embargo, los pedidos que se facturan en su totalidad aún no se pueden editar a través de PDV. Para habilitar esta capacidad, active la característica **Editar pedidos parcialmente cumplimentados en el punto de venta**, en el espacio de trabajo **Administración de características**. Si esta función no está habilitada, o si está utilizando la versión 10.0.16 o anterior, los usuarios solo podrán editar los pedidos de los clientes en PDV si el pedido está completamente abierto. Además, si la característica está habilitada, puede limitar las tiendas que pueden editar pedidos parcialmente cumplimentados. La opción para deshabilitar esta capacidad para tiendas específicas se puede configurar a través del **Perfil de funcionalidad** en la ficha desplegable **General**.
 
@@ -153,7 +153,7 @@ En la versión 10.0.17 y posteriores, los usuarios pueden editar los pedidos apt
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Finalizar el envío o recogida del pedido del cliente en un PDV
 
-Después de que se crea un pedido, el cliente recogerá los artículos en una tienda o se enviarán, según la configuración del pedido. Para obtener más información sobre este proceso, consulte la documentación sobre el [realización de pedidos para recoger en la tienda](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview).
+Después de que se crea un pedido, el cliente recogerá los artículos en una tienda o se enviarán, según la configuración del pedido. Para obtener más información sobre este proceso, consulte la documentación sobre el [realización de pedidos para recoger en la tienda](./order-fulfillment-overview.md).
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Flujo de transacciones asíncrono para pedidos de cliente
 

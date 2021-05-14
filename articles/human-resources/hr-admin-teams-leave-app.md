@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3926acd07a68f59682c18f4f7bc290dc1e21d0b6
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 9cc15c33c7efdd515121db67331477baa4bdacaf
+ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889749"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5953397"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicación Recursos humanos en Teams
 
@@ -125,11 +125,19 @@ Si un usuario recibe un error mientras intenta aprobar solicitudes de permiso en
 
 2. Verifique que son un aprobador válido para la solicitud al verificar la configuración del flujo de trabajo para la aprobación de la licencia. Para obtener más información sobre los flujos de trabajo de solicitud de licencia, consulte [Crear un flujo de trabajo de solicitud de licencia](hr-leave-and-absence-workflow.md).
 
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>Los aprobadores de bajas no reciben mensajes de chat de Teams para aprobar solicitudes de bajas
+
+1. Asegúrese de que las notificaciones estén habilitadas para el entorno y el usuario. Para más información, vea [Habilitar notificaciones para la aplicación Human Resources en Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) y [Activar o desactivar las notificaciones para usuarios individuales](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. Asegúrese de que los usuarios estén conectados en la pestaña **Chats** con las mismas credenciales que utilizan para aprobar solicitudes de baja. Utilice los mensajes "cerrar sesión" y luego "iniciar sesión" para iniciar sesión con las credenciales correctas.
+
+3. Si el problema persiste, verifique el estado del trabajo por lotes del sistema Business Events como administrador del sistema. Si está en una etapa de espera o ejecución, vuelva a consultar en unos minutos. Si el estado permanece sin cambios, registre un vale de soporte para que nuestro equipo pueda ayudar a resolver el problema.
+
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Servicio inteligente de comprensión del lenguaje de Microsoft (LUIS)
 
-Con el bot de Dynamics 365 Human Resources en Microsoft Teams, las entradas de texto del usuario se analizan para comprender la consulta/intención subyacente. La entrada del usuario como “Buscar cuenta de Contoso” se enruta a uno de los Servicios cognitivos de Microsoft, denominado Servicio inteligente de comprensión del lenguaje (LUIS). Obtenga más información sobre LUIS [aquí](https://www.luis.ai/). El servicio LUIS desambigua o comprende la intención de la entrada del usuario (en este caso, la intención es encontrar información) y la entidad objetivo (en este caso, la entidad objetivo es una cuenta llamada Contoso). Esta información se pasa luego al  [marco de bot de Azure](https://azure.microsoft.com/services/bot-service/) de Microsoft, que interactúa con los datos de Dynamics 365 Human Resources y recupera la información deseada para la consulta del usuario. 
+Con el bot de Dynamics 365 Human Resources en Microsoft Teams, las entradas de texto del usuario se analizan para comprender la consulta/intención subyacente. La entrada del usuario como “Buscar cuenta de Contoso” se enruta a uno de los Servicios cognitivos de Microsoft, denominado Servicio inteligente de comprensión del lenguaje (LUIS). Obtenga más información sobre LUIS [aquí](https://www.luis.ai/). El servicio LUIS desambigua o comprende la intención de la entrada del usuario (en este caso, la intención es encontrar información) y la entidad objetivo (en este caso, la entidad objetivo es una cuenta llamada Contoso). Esta información se pasa luego al  [marco de bot de Azure](https://azure.microsoft.com/services/bot-service/) de Microsoft, que interactúa con los datos de Dynamics 365 Human Resources y recupera la información deseada para la consulta del usuario.
 
 Al instalar y permitir el acceso al uso del bot, usted acepta permitir que el servicio LUIS y el marco del bot de Azure procesen la intención de detrás de la entrada, lo que da por resultado una experiencia de usuario conversacional mejorada. El servicio LUIS y el marco de bot de Azure pueden tener diferentes niveles de cumplimiento en comparación con Dynamics 365 Human Resources. Si bien el servicio LUIS solo tiene acceso a las consultas del usuario y no está diseñado para conectarse a datos o a la cuenta Dynamics 365 Human Resources del usuario, un usuario del bot Dynamics 365 Human Resources podría Introducir voluntariamente una consulta que contenga datos del cliente, datos personales u otros datos y dicho contenido de la consulta podría enviarse al servicio LUIS y al marco del bot de Azure. 
 
