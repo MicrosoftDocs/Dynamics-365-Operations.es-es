@@ -1,74 +1,109 @@
 ---
 title: Crear variantes de productos predefinidas
 description: Este procedimiento le guía por la creación de variantes de productos para un producto maestro mediante las combinaciones de dimensiones de productos.
-author: ShylaThompson
-ms.date: 08/29/2018
+author: t-benebo
+manager: tfehr
+ms.date: 04/22/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
+ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart, EcoResProductVariantSuggestionsEnhanced
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8340d295ffd072c95d9b174507ef4203131c8165
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: acd2e3f1464dfed09ee24764270b06970b747d7c
+ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809359"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938211"
 ---
-# <a name="create-predefined-product-variants"></a><span data-ttu-id="8912c-103">Crear variantes de productos predefinidas</span><span class="sxs-lookup"><span data-stu-id="8912c-103">Create predefined product variants</span></span>
+# <a name="predefined-product-variants"></a><span data-ttu-id="54c0d-103">Variantes de productos predefinidas</span><span class="sxs-lookup"><span data-stu-id="54c0d-103">Predefined product variants</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8912c-104">Este procedimiento le guía por la creación de variantes de productos para un producto maestro mediante las combinaciones de dimensiones de productos.</span><span class="sxs-lookup"><span data-stu-id="8912c-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="8912c-105">La empresa de demostración utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="8912c-105">The demo company used to create this procedure is USMF.</span></span>
+## <a name="example-scenario-create-predefined-product-variants"></a><span data-ttu-id="54c0d-104">Escenario de ejemplo: crear variantes de productos predefinidas</span><span class="sxs-lookup"><span data-stu-id="54c0d-104">Example scenario: Create predefined product variants</span></span>
 
+<span data-ttu-id="54c0d-105">Este escenario de ejemplo le muestra cómo crear variantes de productos para un producto maestro mediante las combinaciones de dimensiones de productos.</span><span class="sxs-lookup"><span data-stu-id="54c0d-105">This example scenario shows how to create product variants for a product master using a combinations of product dimensions.</span></span>
 
-## <a name="create-a-product-master"></a><span data-ttu-id="8912c-106">Crear un producto maestro</span><span class="sxs-lookup"><span data-stu-id="8912c-106">Create a product master</span></span>
-1. <span data-ttu-id="8912c-107">Vaya a Gestión de información de productos > Productos > Productos maestros.</span><span class="sxs-lookup"><span data-stu-id="8912c-107">Go to Product information management > Products > Product masters.</span></span>
-2. <span data-ttu-id="8912c-108">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8912c-108">Click New.</span></span>
-3. <span data-ttu-id="8912c-109">En el campo Número de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-109">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="8912c-110">Especificar un número de producto manualmente solo es obligatorio si no se ha establecido ninguna secuencia numérica para el campo del número de producto.</span><span class="sxs-lookup"><span data-stu-id="8912c-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="8912c-111">En otras palabras, omita el paso si se ha establecido la secuencia numérica para el campo.</span><span class="sxs-lookup"><span data-stu-id="8912c-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
-4. <span data-ttu-id="8912c-112">En el campo Nombre de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-112">In the Product name field, type a value.</span></span>
-5. <span data-ttu-id="8912c-113">En el campo Grupo de dimensiones de producto, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-113">In the Product dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="8912c-114">Seleccione el grupo de dimensiones de producto SizeCol (tamaño y color).</span><span class="sxs-lookup"><span data-stu-id="8912c-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
-6. <span data-ttu-id="8912c-115">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="8912c-115">Click OK.</span></span>
+### <a name="make-demo-data-available"></a><span data-ttu-id="54c0d-106">Hacer que los datos de demostración estén disponibles</span><span class="sxs-lookup"><span data-stu-id="54c0d-106">Make demo data available</span></span>
 
-## <a name="add-product-dimensions"></a><span data-ttu-id="8912c-116">Agregar dimensiones de productos</span><span class="sxs-lookup"><span data-stu-id="8912c-116">Add product dimensions</span></span>
-1. <span data-ttu-id="8912c-117">Haga clic en Dimensiones de producto.</span><span class="sxs-lookup"><span data-stu-id="8912c-117">Click Product dimensions.</span></span>
-    * <span data-ttu-id="8912c-118">Este ejemplo muestra cómo especificar manualmente dimensiones de producto.</span><span class="sxs-lookup"><span data-stu-id="8912c-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="8912c-119">También puede elegir seleccionar un grupo de tamaños, colores o estilos que incluya los valores de dimensiones de productos que desea usar.</span><span class="sxs-lookup"><span data-stu-id="8912c-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
-2. <span data-ttu-id="8912c-120">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8912c-120">Click New.</span></span>
-3. <span data-ttu-id="8912c-121">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8912c-121">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="8912c-122">En el campo Tamaño, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-122">In the Size field, enter or select a value.</span></span>
-5. <span data-ttu-id="8912c-123">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-123">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="8912c-124">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8912c-124">Click New.</span></span>
-7. <span data-ttu-id="8912c-125">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8912c-125">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="8912c-126">En el campo Tamaño, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-126">In the Size field, enter or select a value.</span></span>
-9. <span data-ttu-id="8912c-127">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-127">In the Name field, type a value.</span></span>
-10. <span data-ttu-id="8912c-128">Haga clic en la ficha Colores.</span><span class="sxs-lookup"><span data-stu-id="8912c-128">Click the Colors tab.</span></span>
-11. <span data-ttu-id="8912c-129">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8912c-129">Click New.</span></span>
-12. <span data-ttu-id="8912c-130">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8912c-130">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="8912c-131">En el campo Color, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-131">In the Color field, enter or select a value.</span></span>
-14. <span data-ttu-id="8912c-132">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-132">In the Name field, type a value.</span></span>
-15. <span data-ttu-id="8912c-133">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8912c-133">Click New.</span></span>
-16. <span data-ttu-id="8912c-134">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8912c-134">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="8912c-135">En el campo Color, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-135">In the Color field, enter or select a value.</span></span>
-18. <span data-ttu-id="8912c-136">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8912c-136">In the Name field, type a value.</span></span>
-19. <span data-ttu-id="8912c-137">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8912c-137">Click Save.</span></span>
-20. <span data-ttu-id="8912c-138">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8912c-138">Close the page.</span></span>
+<span data-ttu-id="54c0d-107">Para seguir este escenario con los valores sugeridos aquí, los datos de demostración deben estar instalados y debe seleccionar la entidad jurídica *USMF*.</span><span class="sxs-lookup"><span data-stu-id="54c0d-107">To follow this scenario using the values suggested here, you must have demo data installed, and you must select the *USMF* legal entity.</span></span>
 
-## <a name="generate-product-variants"></a><span data-ttu-id="8912c-139">Generar variantes de productos</span><span class="sxs-lookup"><span data-stu-id="8912c-139">Generate product variants</span></span>
-1. <span data-ttu-id="8912c-140">Haga clic en Variantes del producto.</span><span class="sxs-lookup"><span data-stu-id="8912c-140">Click Product variants.</span></span>
-2. <span data-ttu-id="8912c-141">Haga clic en Sugerencias de variantes.</span><span class="sxs-lookup"><span data-stu-id="8912c-141">Click Variant suggestions.</span></span>
-3. <span data-ttu-id="8912c-142">Haga clic en Seleccionar todo.</span><span class="sxs-lookup"><span data-stu-id="8912c-142">Click Select all.</span></span>
-    * <span data-ttu-id="8912c-143">En este ejemplo, se seleccionan todas las variantes posibles.</span><span class="sxs-lookup"><span data-stu-id="8912c-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="8912c-144">Si solo se usará un subconjunto de las combinaciones de dimensiones de productos posibles para crear variantes, puede seleccionar las entradas individuales.</span><span class="sxs-lookup"><span data-stu-id="8912c-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
-4. <span data-ttu-id="8912c-145">Haga clic en Crear.</span><span class="sxs-lookup"><span data-stu-id="8912c-145">Click Create.</span></span>
-    * <span data-ttu-id="8912c-146">Puede generar descripciones para todas sus variantes en función de la combinación de los valores de dimensiones de productos.</span><span class="sxs-lookup"><span data-stu-id="8912c-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="8912c-147">Las descripciones son opcionales.</span><span class="sxs-lookup"><span data-stu-id="8912c-147">The descriptions are optional.</span></span>  
-5. <span data-ttu-id="8912c-148">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8912c-148">Click Save.</span></span>
+### <a name="step-1-create-a-product-master"></a><span data-ttu-id="54c0d-108">Paso 1: crear un producto maestro</span><span class="sxs-lookup"><span data-stu-id="54c0d-108">Step 1: Create a product master</span></span>
 
+<span data-ttu-id="54c0d-109">Para crear un producto maestro:</span><span class="sxs-lookup"><span data-stu-id="54c0d-109">To create a product master:</span></span>
 
+1. <span data-ttu-id="54c0d-110">Vaya a **Gestión de información de productos > Productos > Productos maestros**.</span><span class="sxs-lookup"><span data-stu-id="54c0d-110">Go to **Product information management > Products > Product masters**.</span></span>
+1. <span data-ttu-id="54c0d-111">Seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="54c0d-111">Select **New**.</span></span>
+1. <span data-ttu-id="54c0d-112">Si el campo **Número de producto** aún no muestra un número, en ese caso introduzca un valor.</span><span class="sxs-lookup"><span data-stu-id="54c0d-112">If the **Product number** field doesn't already show a number, then enter a value.</span></span> <span data-ttu-id="54c0d-113">Este paso solo es necesario si no se ha configurado ninguna secuencia numérica para este campo.</span><span class="sxs-lookup"><span data-stu-id="54c0d-113">This is only required if no number sequence has been set for this field.</span></span>
+1. <span data-ttu-id="54c0d-114">Introduzca un nombre en el campo **Nombre de producto**.</span><span class="sxs-lookup"><span data-stu-id="54c0d-114">Enter a name in the **Product name** field.</span></span>
+1. <span data-ttu-id="54c0d-115">En el campo **Grupo de dimensiones de producto**, seleccione el grupo de dimensiones del producto *SizeCol* (Tamaño y color).</span><span class="sxs-lookup"><span data-stu-id="54c0d-115">In the **Product dimension group** field, select the product dimension group *SizeCol* (Size and Color).</span></span>
+1. <span data-ttu-id="54c0d-116">Seleccione **Aceptar** para crear y abrir el nuevo producto maestro.</span><span class="sxs-lookup"><span data-stu-id="54c0d-116">Select **OK** to create and open the new product master.</span></span>
+
+### <a name="step-2-add-product-dimensions"></a><span data-ttu-id="54c0d-117">Paso 2: agregar dimensiones de productos</span><span class="sxs-lookup"><span data-stu-id="54c0d-117">Step 2: Add product dimensions</span></span>
+
+<span data-ttu-id="54c0d-118">Este ejemplo muestra cómo especificar manualmente dimensiones de producto.</span><span class="sxs-lookup"><span data-stu-id="54c0d-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="54c0d-119">También puede elegir seleccionar un grupo de tamaños, colores o estilos que incluya los valores de dimensiones de productos que desea usar.</span><span class="sxs-lookup"><span data-stu-id="54c0d-119">You can also choose to select a size, color, or style group that includes the product dimension values you want to use.</span></span>
+
+<span data-ttu-id="54c0d-120">Para agregar dimensiones de productos:</span><span class="sxs-lookup"><span data-stu-id="54c0d-120">To add product dimensions:</span></span>
+
+1. <span data-ttu-id="54c0d-121">Con su nuevo producto maestro aún abierto, seleccione **Dimensiones del producto** en el panel de acciones.</span><span class="sxs-lookup"><span data-stu-id="54c0d-121">With your new product master still open, select **Product dimensions** on the Action Pane.</span></span>
+1. <span data-ttu-id="54c0d-122">Abra la pestaña **Tamaño** y seleccione **Nuevo** en la barra de herramientas para agregar una fila a la cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="54c0d-122">Open the **Size** tab and select **New** on the toolbar to add a row to the grid.</span></span> <span data-ttu-id="54c0d-123">Realice las siguientes configuraciones para la nueva fila:</span><span class="sxs-lookup"><span data-stu-id="54c0d-123">Make the following settings for the new row:</span></span>
+    - <span data-ttu-id="54c0d-124">**Tamaño:** seleccione un valor de tamaño.</span><span class="sxs-lookup"><span data-stu-id="54c0d-124">**Size:** Select a size value.</span></span>
+    - <span data-ttu-id="54c0d-125">**Nombre:** escriba un nombre para el tamaño.</span><span class="sxs-lookup"><span data-stu-id="54c0d-125">**Name:** Enter a name for the size.</span></span>
+1. <span data-ttu-id="54c0d-126">Seleccione **Nuevo** en la barra de herramientas y agregue un segundo tamaño a la cuadrícula con un nuevo **Tamaño** y **Nombre**.</span><span class="sxs-lookup"><span data-stu-id="54c0d-126">Select **New** on the toolbar and add a second size to the grid with a new **Size** and **Name**.</span></span>
+1. <span data-ttu-id="54c0d-127">Abra la pestaña **Coores** y seleccione **Nuevo** en la barra de herramientas para agregar una fila a la cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="54c0d-127">Open the **Colors** tab and select **New** on the toolbar to add a row to the grid.</span></span> <span data-ttu-id="54c0d-128">Realice las siguientes configuraciones para la nueva fila:</span><span class="sxs-lookup"><span data-stu-id="54c0d-128">Make the following settings for the new row:</span></span>
+    - <span data-ttu-id="54c0d-129">**Color:** seleccione un valor de color.</span><span class="sxs-lookup"><span data-stu-id="54c0d-129">**Color:** Select a color value.</span></span>
+    - <span data-ttu-id="54c0d-130">**Nombre:** escriba un nombre para el color.</span><span class="sxs-lookup"><span data-stu-id="54c0d-130">**Name:** Enter a name for the color.</span></span>
+1. <span data-ttu-id="54c0d-131">Seleccione **Nuevo** en la barra de herramientas y agregue un segundo color a la cuadrícula con un nuevo **Color** y **Nombre**.</span><span class="sxs-lookup"><span data-stu-id="54c0d-131">Select **New** on the toolbar and add a second color to the grid with a new **Color** and **Name**.</span></span>
+1. <span data-ttu-id="54c0d-132">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="54c0d-132">Select **Save**.</span></span>
+1. <span data-ttu-id="54c0d-133">Cierre la página para volver a su nuevo producto maestro.</span><span class="sxs-lookup"><span data-stu-id="54c0d-133">Close the page to return to your new product master.</span></span>
+
+### <a name="step-3-generate-product-variants"></a><span data-ttu-id="54c0d-134">Paso 3: generar variantes de productos</span><span class="sxs-lookup"><span data-stu-id="54c0d-134">Step 3: Generate product variants</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="54c0d-135">Esta sección describe cómo generar variantes de producto cuando la función *Mejoras en la página de sugerencias de variantes* no está habilitada.</span><span class="sxs-lookup"><span data-stu-id="54c0d-135">This section describes how to generate product variants when the *Variant suggestions page improvements* feature isn't enabled.</span></span> <span data-ttu-id="54c0d-136">Consulte la siguiente sección para obtener detalles sobre cómo generar variantes de productos cuando esa función está disponible.</span><span class="sxs-lookup"><span data-stu-id="54c0d-136">See the next section for details about how to generate product variants when that feature is available.</span></span>
+
+<span data-ttu-id="54c0d-137">Para generar variantes de productos:</span><span class="sxs-lookup"><span data-stu-id="54c0d-137">To generate product variants:</span></span>
+
+1. <span data-ttu-id="54c0d-138">Con su nuevo producto maestro aún abierto, seleccione **Variantes del producto** en el panel de acciones.</span><span class="sxs-lookup"><span data-stu-id="54c0d-138">With your new product master still open, select **Product variants** on the Action Pane.</span></span>
+1. <span data-ttu-id="54c0d-139">Seleccione **Sugerencias de variantes** en el panel de acciones.</span><span class="sxs-lookup"><span data-stu-id="54c0d-139">Select **Variant suggestions** on the Action Pane.</span></span>
+1. <span data-ttu-id="54c0d-140">El sistema genera una lista con todas las combinaciones posibles de los tamaños y colores que definió para el producto.</span><span class="sxs-lookup"><span data-stu-id="54c0d-140">The system generates a list with all possible combinations of the sizes and colors you defined for the product.</span></span> <span data-ttu-id="54c0d-141">Seleccione **Seleccionar todo** en la barra de herramientas.</span><span class="sxs-lookup"><span data-stu-id="54c0d-141">Select **Select all** on the toolbar.</span></span>
+    - <span data-ttu-id="54c0d-142">En este ejemplo, seleccione todas las variantes posibles.</span><span class="sxs-lookup"><span data-stu-id="54c0d-142">In this example, select all of the possible variants.</span></span> <span data-ttu-id="54c0d-143">Si solo desea utilizar un subconjunto de las posibles combinaciones de dimensiones del producto, seleccione solo las casillas requeridas, según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="54c0d-143">If you only want to use a subset of the possible product dimension combinations, select only the required check boxes as needed.</span></span>  
+1. <span data-ttu-id="54c0d-144">Seleccione **Crear**.</span><span class="sxs-lookup"><span data-stu-id="54c0d-144">Select **Create**.</span></span>
+1. <span data-ttu-id="54c0d-145">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="54c0d-145">Select **Save**.</span></span>
+
+## <a name="improved-variant-suggestions"></a><span data-ttu-id="54c0d-146">Sugerencias de variantes mejoradas</span><span class="sxs-lookup"><span data-stu-id="54c0d-146">Improved variant suggestions</span></span>
+
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
+
+<span data-ttu-id="54c0d-147">La característica *Mejoras en la página de sugerencias de variantes* mejora la página **Sugerencias de variantes** para abordar problemas de rendimiento y usabilidad para empresas que tienen un gran número de combinaciones de dimensiones de productos.</span><span class="sxs-lookup"><span data-stu-id="54c0d-147">The *Variant suggestions page improvements* feature improves the **Variant suggestions** page to address performance and usability issues for companies that have a high number of product dimension combinations.</span></span> <span data-ttu-id="54c0d-148">El proceso mejorado para seleccionar los valores de dimensión de producto para los que generar sugerencias de variantes hace que sea más rápido y más fácil identificar y liberar el conjunto relevante de variantes de producto.</span><span class="sxs-lookup"><span data-stu-id="54c0d-148">The enhanced process for selecting the product dimension values for which to generate variant suggestions makes it faster and easier to identify and release the relevant set of product variants.</span></span>
+
+<span data-ttu-id="54c0d-149">Esta característica agrega las siguientes mejoras:</span><span class="sxs-lookup"><span data-stu-id="54c0d-149">The following improvements are added by this feature:</span></span>
+
+- <span data-ttu-id="54c0d-150">**Generación diferida de sugerencias de variantes:** la página **Sugerencias de variantes** ya no muestra sugerencias cuando la abre por primera vez.</span><span class="sxs-lookup"><span data-stu-id="54c0d-150">**Deferred generation of variant suggestions:** The **Variant suggestions** page no longer shows suggestions when you first open it.</span></span> <span data-ttu-id="54c0d-151">En su lugar, debe elegir explícitamente qué valores necesitará y luego seleccionar el botón **Sugerir** para generar las combinaciones.</span><span class="sxs-lookup"><span data-stu-id="54c0d-151">Instead, you must explicitly choose which values you will need and then select the **Suggest** button to generate the combinations.</span></span> <span data-ttu-id="54c0d-152">Esto hace que el proceso sea más visible e interactivo.</span><span class="sxs-lookup"><span data-stu-id="54c0d-152">This makes the process more visible and interactive.</span></span>
+- <span data-ttu-id="54c0d-153">**Selección de valores de dimensiones:** cuando tiene muchos valores de dimensión, normalmente le interesa generar sugerencias de variantes que incluyan solo algunos de ellos (por ejemplo, al introducir un nuevo conjunto de colores o estilos).</span><span class="sxs-lookup"><span data-stu-id="54c0d-153">**Selection of dimensions values:** When you have many dimension values, you are typically interested in generating variant suggestions that include just a few of them (such as when introducing a new set of colors or styles).</span></span> <span data-ttu-id="54c0d-154">Con el diseño mejorado, puede seleccionar los valores de dimensión para los que desea generar sugerencias de variantes de producto.</span><span class="sxs-lookup"><span data-stu-id="54c0d-154">With the improved design, you can select the dimension values for which you want to generate product variant suggestions.</span></span> <span data-ttu-id="54c0d-155">Esto aumenta enormemente la relevancia de las variantes sugeridas y mejora tanto el rendimiento del sistema como la productividad del usuario.</span><span class="sxs-lookup"><span data-stu-id="54c0d-155">This greatly increases the relevance of the suggested variants and improves both system performance and user productivity.</span></span>
+
+### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a><span data-ttu-id="54c0d-156">Active la función de mejoras de la página de sugerencias de variantes</span><span class="sxs-lookup"><span data-stu-id="54c0d-156">Turn on the Variant suggestions page improvements feature</span></span>
+
+<span data-ttu-id="54c0d-157">Antes de poder usar la característica *Mejoras de la página de sugerencias de variantes*, esta debe estar activada en su sistema.</span><span class="sxs-lookup"><span data-stu-id="54c0d-157">Before you can use *Variant suggestions page improvements* feature, it must be turned on in your system.</span></span> <span data-ttu-id="54c0d-158">Los administradores pueden usar la configuración de [gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla.</span><span class="sxs-lookup"><span data-stu-id="54c0d-158">Admins can use the [feature management](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on.</span></span> <span data-ttu-id="54c0d-159">En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:</span><span class="sxs-lookup"><span data-stu-id="54c0d-159">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
+
+- <span data-ttu-id="54c0d-160">**Módulo:** *Gestión de información de productos*</span><span class="sxs-lookup"><span data-stu-id="54c0d-160">**Module:** *Product information management*</span></span>
+- <span data-ttu-id="54c0d-161">**Nombre de función:** *Mejoras de la página de sugerencias de variantes*</span><span class="sxs-lookup"><span data-stu-id="54c0d-161">**Feature name:** *Variant suggestions page improvements*</span></span>
+
+### <a name="work-with-the-improved-variant-suggestions"></a><span data-ttu-id="54c0d-162">Trabajar con las sugerencias de variantes mejoradas</span><span class="sxs-lookup"><span data-stu-id="54c0d-162">Work with the improved variant suggestions</span></span>
+
+<span data-ttu-id="54c0d-163">Para generar sugerencias de variantes de producto cuando la función *Mejoras de la página de sugerencias de variantes* no está habilitada:</span><span class="sxs-lookup"><span data-stu-id="54c0d-163">To generate product variant suggestions when the *Variant suggestions page improvements* feature is enabled:</span></span>
+
+1. <span data-ttu-id="54c0d-164">Abra o cree un producto maestro y agregue las dimensiones de producto requeridas, como se describe en la sección anterior.</span><span class="sxs-lookup"><span data-stu-id="54c0d-164">Open or create a product master and add the required product dimensions to it, as described in the previous section.</span></span>
+1. <span data-ttu-id="54c0d-165">Con el nuevo producto maestro aún abierto, seleccione **Variantes del producto** en el panel de acciones.</span><span class="sxs-lookup"><span data-stu-id="54c0d-165">With the product master open, select **Product variants** on the Action Pane.</span></span>
+1. <span data-ttu-id="54c0d-166">Seleccione **Sugerencias de variantes** en el panel de acciones.</span><span class="sxs-lookup"><span data-stu-id="54c0d-166">Select **Variant suggestions** on the Action Pane.</span></span>
+1. <span data-ttu-id="54c0d-167">Seleccione los valores que desee usar para cada una de las dimensiones.</span><span class="sxs-lookup"><span data-stu-id="54c0d-167">Select the values that you want to use for each of the dimensions.</span></span>
+1. <span data-ttu-id="54c0d-168">En la barra de herramientas superior, seleccione **Sugerir**.</span><span class="sxs-lookup"><span data-stu-id="54c0d-168">On the top toolbar, select **Suggest**.</span></span>
+1. <span data-ttu-id="54c0d-169">El sistema genera una lista con todas las combinaciones posibles de los tamaños y colores que haya seleccionado.</span><span class="sxs-lookup"><span data-stu-id="54c0d-169">The system generates a list with all possible combinations of the sizes and colors you selected.</span></span> <span data-ttu-id="54c0d-170">En la ficha desplegable **Variantes sugeridas**, seleccione la casilla para cada combinación de dimensión de producto que desee utilizar, o seleccione **Seleccionar todo** en la barra de herramientas para seleccionarlos todos.</span><span class="sxs-lookup"><span data-stu-id="54c0d-170">On the **Suggested variants** FastTab, select the check box for each product dimension combination that you want to use, or select **Select all** on the toolbar to select all of them.</span></span>  
+1. <span data-ttu-id="54c0d-171">Seleccione **Crear** para agregar las variantes al producto maestro actual.</span><span class="sxs-lookup"><span data-stu-id="54c0d-171">Select **Create** to add the variants to the current product master.</span></span>
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
