@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 237a2a594abba7d74e7c1aba33a6f4e72b1e2e69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e5abef8a25513898d6dbef2604d10373394c95c6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830529"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897437"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Página principal de gestión de efectivo y bancos
 
@@ -83,7 +83,7 @@ Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras 
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Vaya a las [Planes de la versión de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver las nuevas características que se han planificado. 
+Vaya a las [Planes de la versión de Microsoft Dynamics 365](/dynamics365/release-plans/) para ver las nuevas características que se han planificado. 
 
 #### <a name="blogs"></a>Blogs
 

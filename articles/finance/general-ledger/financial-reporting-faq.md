@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811319"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923034"
 ---
 # <a name="financial-reporting-faq"></a>Preguntas frecuentes sobre informes financieros 
 
-Este tema enumera preguntas relacionadas con los informes financieros que han tenido otros usuarios. 
-
+En este tema se proporcionan respuestas a las preguntas más frecuentes sobre los informes financieros. 
 
 ## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>¿Cómo puedo restringir el acceso a un informe mediante seguridad de árbol?
 
-Escenario: la empresa de demostración USMF tiene un informe de balance de situación que no desea que todos los usuarios de informes financieros puedan ver en D365. Solución: puede utilizar la seguridad de árbol para restringir el acceso a un solo informe, de modo que solo determinados usuarios puedan acceder al informe. 
+En el siguiente ejemplo se muestra cómo restringir el acceso a un informe mediante seguridad de árbol.
 
-1.  Inicie sesión en Financial Reporter Report Designer
+La empresa de demostración USMF tiene un informe de balance de situación al que no todos los usuarios de informes financieros deberían tener acceso. Para restringir el acceso, puede usar la seguridad de árbol para restringir el acceso a un solo informe, de modo que solo determinados usuarios puedan acceder al informe. Siga estos pasos para restringir el acceso: 
 
-2.  Cree una nueva definición de árbol (Archivo | Nuevo | Definición de árbol) a.    Haga doble clic en la línea **Resumen** de la columna **Seguridad de la unidad**.
-  i.    Haga clic en Usuarios y grupos.  
-          1.    Seleccione los usuarios o el grupo a los que desearía conceder acceso a este informe. 
-          
-[![pantalla de usuario](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)
+1. Inicie sesión en Financial Reporter Report Designer.
+2. Cree una nueva definición de árbol. Vaya a **Archivo > Nuevo > Definición de árbol**.
+3. Haga doble clic en la línea **Resumen** de la columna **Seguridad de la unidad**.
+4. Seleccione **Usuarios y grupos**.  
+5. Seleccione los usuarios o grupos a los que debe conceder acceso a este informe. 
+6. Seleccione **Guardar**.
+7. En la definición del informe, agregue su nueva definición de árbol.
+8. En la definición del árbol, seleccione **Configuración**. En **Selección de unidad de informes**, seleccione **Incluir todas las unidades**.
 
-[![pantalla de seguridad](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a>¿Cómo identifico qué cuentas no coinciden con mis saldos?
 
-  b.    Haga clic en **Guardar**.
-  
-[![botón de guardar](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)
+Si cuenta con un informe que no tiene saldos coincidentes, aquí hay algunos pasos que puede seguir para identificar cada una de las cuentas y desviaciones. 
 
-3.  En su definición del informe, agregue su nueva definición de árbol
+**Financial Reporter Report Designer**
+1. En Financial Reporter Report Designer, cree una nueva definición de fila. 
+2. Seleccione **Editar > Insertar filas desde Dimensiones**.
+3. Seleccione **MainAccount**.  
+4. Seleccione **Aceptar**.
+5. Guarde la definición de fila.
+6. Cree una nueva definición de columna.
+7. Cree una nueva definición de informe.
+8. Seleccione **Ajustes** y desmarque esta opción.  
+9. Genere el informe. 
+10. Exporte el informe a Microsoft Excel.
 
-[![formulario de definición de árbol](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)
+**Dynamics 365 Finance** 
+1. En Dynamics 365 Finance, vaya a **Contabilidad general > Consultas e informes > Saldo de comprobación**.
+2. Configure los siguientes parámetros:
+   - **Fecha inicial**: introduzca el inicio del ejercicio.
+   - **Fecha final**: introduzca la fecha para la que está generando el informe.
+   - **Dimensión financiera**: establezca este campo en **Conjunto de cuenta principal**.
+ 3. Seleccione **Calcular**.
+ 4. Exporte el informe a Microsoft Excel.
 
-A.  Mientras se encuentra en la definición de árbol, haga clic en Configuración y, en "Selección de unidad de informes", marque “Incluir todas las unidades”
-
-[![formulario de selección de unidad de informes](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)
-
-**Antes:** [![antes de la captura de pantalla](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)
-
-**Después:** [![después de la captura de pantalla](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)
-
-Nota: el motivo del mensaje anterior es que mi usuario no tiene acceso a ese informe después de aplicar Seguridad de la unidad
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a>¿Cómo puedo determinar qué cuentas no coinciden con mis saldos en D365?
-
-Cuando tenga un informe que no coincida con lo que podría esperar en D365, aquí hay algunos pasos que puede seguir para identificar esas cuentas y las desviaciones. 
-
-### <a name="in-financial-reporter-report-designer"></a>En Financial Reporter Report Designer
-
-1.  Cree una nueva definición de fila a.    Haga clic en Editar | Insertar filas desde Dimensiones i.  Seleccione MainAccount [![Seleccione Pantalla principal_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)
-    
-    ii. Haga clic en Aceptar b.    Guardar la definición de fila
-
-2.  Crear una nueva definición de columna     [![Crear una nueva definición de columna](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)
-
-3.  Cree una nueva definición del informe a.    Haga clic en Configuración y desmarque [![Formulario de configuración](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)
-   
-4.  Genere el informe. 
-
-5.  Exportar el informe a Excel.
-
-### <a name="in-d365"></a>En D365: 
-1.  Haga clic en Contabilidad general | Consultas e informes | Saldo de comprobación a.    Parámetros i.  Desde la fecha: inicio del ejercicio ii. Hasta la fecha: fecha en la que generó el informe para iii.    Conjunto de dimensiones financieras “Conjunto de cuenta principal” [![Formulario de cuenta principal](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
-      
-  b.    Haga clic en Calcular
-
-2.  Exportar el informe a Excel
-
-Ahora debería poder copiar los datos desde el informe de Excel de FR al informe de saldo de comprobación de D365 y comparar las columnas "Saldo de cierre".
-
+Ahora debería poder copiar los datos desde el informe de Excel de Financial Reporter al informe de saldo de comprobación, de modo que puede comparar las columnas **Saldo de cierre**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
