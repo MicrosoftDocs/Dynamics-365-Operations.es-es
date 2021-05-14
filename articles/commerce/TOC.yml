@@ -94,12 +94,12 @@
                   items:
                     - name: Novedades y cambios en la página principal de Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.19 (julio de 2021)
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (mayo de 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: Commerce 10.0.17 (abril de 2021)
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: Commerce 10.0.16 (febrero de 2021)
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Características quitadas o en desuso
                   items:
                     - name: Página de inicio de características quitadas o en desuso
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Insertar aplicaciones de lienzo desde Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Insertar aplicaciones de terceros
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Encontrar información mediante el uso de búsquedas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Cambiar la fecha de una sesión
@@ -252,7 +254,7 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: Solución de problemas de Commerce Data Exchange
                       href: dev-itpro/CDX-Troubleshooting.md
-                - name: Arquitectura de Modern PDV
+                - name: Arquitectura de Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Arquitectura de publicación de tienda en línea
                   href: dev-itpro/retail-online-store-publishing-architecture.md
@@ -270,7 +272,7 @@
                   href: dev-itpro/retail-store-system-begin.md
                 - name: Configurar e instalar Commerce Scale Unit (autoalojado)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-                - name: Instalación y configuración de Modern PDV
+                - name: Instalación y configuración de Modern POS
                   href: retail-modern-pos-device-activation.md
                 - name: Administrar cuentas y dispositivos desde la sede central
                   href: set-up-activation-accounts-validate-devices-hq.md
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Instalación y configuración de Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
+                - name: Implementación masiva de componentes de autoservicio de Commerce sellados
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: Implementación masiva de componentes de autoservicio heredados
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Diagnóstico y solución de problemas de eventos de componentes de Commerce
@@ -366,9 +370,9 @@
                       href: MPOS-or-CPOS.md
                     - name: Operaciones de PDV en línea y sin conexión
                       href: pos-operations.md
-                    - name: Activación de dispositivo de un Modern PDV personalizado
+                    - name: Activación de dispositivo de un Modern POS personalizado
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: Habilitar la autenticación de Azure Active Directory para el inicio de sesión de PDV
+                    - name: Configurar la autenticación de Azure Active Directory para el inicio de sesión de PDV
                       href: aad-pos-logon.md
                     - name: Búsqueda de producto y cliente en el PDV
                       href: POS-search-improvements.md
@@ -444,7 +448,7 @@
                   items:
                     - name: Configurar y diseñar formatos de recibo
                       href: receipt-templates-printing.md
-                    - name: Enviar recibos por correo electrónico desde Modern PDV (MPOS)
+                    - name: Enviar recibos por correo electrónico desde Modern POS (MPOS)
                       href: email-receipts.md
                     - name: Restablecer números de recibo
                       href: reset_receipt_number_sequence.md
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: Información general de descuento de envío
                   href: retail-shipping-discount.md
+                - name: Configurar regalo con promociones de compra
+                  href: gift-with-purchase.md
                 - name: Configurar vales
                   href: retail-coupons.md
                 - name: Mostrar descuentos en PDV
@@ -760,6 +766,8 @@
                   href: notifications-pos.md
                 - name: Vender programas de continuidad y procesar pedidos de ventas
                   href: tasks/use-continuity-program.md
+                - name: Habilitar notificaciones de protección del cliente en el punto de venta (PDV)
+                  href: enable-customer-check-in.md
             - name: Devoluciones
               items:
                 - name: Devoluciones vinculadas
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: Cancelar la recopilación de eventos de actividades web
                   href: web-activity-opt-out.md
+                - name: Aplicar configuración de unidad de medida
+                  href: unit-of-measure.md
             - name: Administrar el contenido de su sitio
               items:
                 - name: Métodos para agregar contenido
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: Módulo de información de recogida
                       href: pickup-info-module.md
+                    - name: Protección para el módulo de recogida
+                      href: check-in-pickup-module.md
                     - name: Módulo de detalles del pedido
                       href: order-confirmation-module.md
                     - name: Módulo de tarjeta de regalo
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: 'Configurar análisis de novedad, frecuencia y monetario (RFM)'
               href: set-up-rfm-analysis.md
+            - name: Configurar Microsoft Clarity en Dynamics 365 Commerce
+              href: set-up-clarity.md
         - name: Globalización
           items:
             - name: Información general de la integración fiscal para el canal de Commerce
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Perfiles de certificado definidos por el usuario para tiendas
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: Información general de Regulatory Configuration Service
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Regulatory Configuration Service: características de globalización'
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: Crear configuraciones de informes electrónicos en Regulatory Configuration Service y cargarlas en el repositorio global
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: Austria
               items:
                 - name: Ejemplo de integración de servicio de registro para Austria
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: Archivo props.autogenerated.ts de módulo
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Preajustes de configuración del módulo
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Desarrollar módulos
                   items:
                     - name: Crear un nuevo módulo
@@ -2398,7 +2422,7 @@
                   href: dev-itpro/pos-app-signing-certificate.md
                 - name: Extender vistas de PDV para agregar columnas personalizadas y botones de barra de aplicación
                   href: dev-itpro/pos-view-extension.md
-                - name: Agregar controles personalizados a las páginas de transacción de Modern PDV
+                - name: Agregar controles personalizados a las páginas de transacción de Modern POS
                   href: dev-itpro/pos-custom-transaction.md
                 - name: Agregar columnas personalizadas a una cuadrícula de transacción de PDV
                   href: dev-itpro/pos-custom-transaction-column.md
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: Agregar botones personalizados a la barra de encabezado de PDV
                   href: dev-itpro/pos-header-bar.md
+                - name: SDK de embalaje independiente de PDV
+                  items:
+                    - name: Información general de la extensión de PDV
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Introducción a las extensiones de PDV
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: Crear un proyecto de paquete de extensión de PDV
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Crear un archivo appx de extensión de Modern POS
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: Depurar una extensión de PDV
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: Extensibilidad de Hardware Station
               items:
                 - name: Hardware Station y extensibilidad

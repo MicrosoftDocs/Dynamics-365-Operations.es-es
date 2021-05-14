@@ -14,12 +14,12 @@
               items:
                 - name: Novedades y cambios en la página principal de Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.19 (julio de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform updates para 10.0.18 (mayo de 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Platform updates para 10.0.17 (abril de 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: Platform updates para 10.0.16 (febrero de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -303,19 +303,19 @@
                         - name: Configurar la integración de Project Service Automation
                           items:
                             - name: Información general de Project Service Automation
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: Parámetros de integración de Project Service Automation
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Sincronizar proyectos y contratos de proyecto
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Sincronizar tareas del proyecto
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Sincronizar categorías de gastos de proyectos
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Sincronizar estimaciones del proyecto con las previsiones del proyecto
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Sincronizar valores reales del proyecto con el diario de integración del proyecto
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Consumir servicios web externos
               href: data-entities/consume-external-web-service.md
             - name: Mensajería electrónica
@@ -691,7 +691,7 @@
                     - name: Información general de la creación de modelos y elementos de modelo de datos
                       href: dev-tools/create-data-model-elements.md
                     - name: Directrices de nomenclatura para extensiones
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Desactivar la personalización de modelos y dejar de utilizar la funcionalidad
                       href: dev-tools/lock-models.md
                 - name: Informe de análisis de personalización
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Novedades y cambios en Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Problemas conocidos
-                  href: lifecycle-services/known-issues.md
                 - name: Características quitadas o en desuso en Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Guía del usuario de Lifecycle Services
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Usar Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
+            - name: Mantener casos de prueba dentro de Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Validar valores esperados
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Encadenar casos de prueba
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Casos de prueba derivados
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Actualizar los archivos de parámetros
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: Tutorial de Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: Configurar usuarios no administradores
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: 'Actualización de AX 2012: actualización de datos en entornos de espacio aislado mediante el proceso dacpac'
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: 'Actualizar desde AX 2012: replicación transaccional de SQL'
+                  href: database/replication-setup.md
                 - name: 'Actualización de AX 2012: actualización de datos en entornos de espacio aislado'
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: 'Actualización de AX 2012: entornos locales'
