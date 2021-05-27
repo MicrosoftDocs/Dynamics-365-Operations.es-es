@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8334b46f7e943e888c3a4db7580eeca30d49ad39
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 401fb9af5d2d50a14c288363af3e0b814dcbf7c6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793978"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018550"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Configuración y trabajo con alertas de fraudes de centro de asistencia telefónica
 
@@ -34,13 +34,13 @@ Este tema explica cómo configurar criterios y reglas para poner en espera pedid
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Activación de la función de comprobación de fraudes
 
-Para usar la función de comprobación de fraudes, debe establecer la opción **Realización de pedidos de permiso** en el canal en **Sí** cuando el canal del centro de llamadas está [definido](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Cuando está activada la finalización del pedido, los usuarios del centro de asistencia telefónica deben seleccionar **Completado** en la página del pedido de ventas para todos los pedidos de ventas que se creen. La acción completado hace que la página **Resumen de pedido de ventas** se abra. Una vez que los usuarios especifiquen los datos de pago requeridos en la página **Resumen de pedido de ventas**, seleccionan **Enviar** para finalizar el pedido. Cuando se envía el pedido, se activa la función de comprobación de fraudes y las reglas que están activas en el sistema se validan automáticamente.
+Para usar la función de comprobación de fraudes, debe establecer la opción **Realización de pedidos de permiso** en el canal en **Sí** cuando el canal del centro de llamadas está [definido](/dynamics365/unified-operations/retail/set-up-order-processing-options). Cuando está activada la finalización del pedido, los usuarios del centro de asistencia telefónica deben seleccionar **Completado** en la página del pedido de ventas para todos los pedidos de ventas que se creen. La acción completado hace que la página **Resumen de pedido de ventas** se abra. Una vez que los usuarios especifiquen los datos de pago requeridos en la página **Resumen de pedido de ventas**, seleccionan **Enviar** para finalizar el pedido. Cuando se envía el pedido, se activa la función de comprobación de fraudes y las reglas que están activas en el sistema se validan automáticamente.
 
-Los usuarios de centro de asistencia telefónica también pueden poner en espera manualmente los pedidos de ventas para que se revisen posibles fraudes antes de seleccionar **Enviar**. Para poner manualmente un pedido de ventas en espera, en la página **Resumen de pedido de ventas**, seleccione **En espera** \> **Retención manual por fraude**. A continuación se le pedirá que escriba un comentario para explicar el motivo de poner pedido en espera. Este comentario aparecerá en el banco de trabajo [bloqueos del pedido](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) para proporcionar contexto al usuario que revisa los pedidos que están en espera para determinar si el pedido debe liberarse.
+Los usuarios de centro de asistencia telefónica también pueden poner en espera manualmente los pedidos de ventas para que se revisen posibles fraudes antes de seleccionar **Enviar**. Para poner manualmente un pedido de ventas en espera, en la página **Resumen de pedido de ventas**, seleccione **En espera** \> **Retención manual por fraude**. A continuación se le pedirá que escriba un comentario para explicar el motivo de poner pedido en espera. Este comentario aparecerá en el banco de trabajo [bloqueos del pedido](/dynamics365/unified-operations/retail/work-with-order-holds) para proporcionar contexto al usuario que revisa los pedidos que están en espera para determinar si el pedido debe liberarse.
 
 Además de configurar la opción **Habilitar finalización de pedidos** en el canal, debe configurar la función de comprobación de fraudes en los parámetros del centro de llamadas. Vaya a **Retail y Commerce** \> **Configuración del canal** \> **Configuración de centro de llamadas** \> **Parámetros de centro de llamadas**. En la página **Parámetros de centro de llamadas**, en la pestaña **Esperas**, establezca la opción **Comprobación de fraudes** en **Sí**.
 
-En la pestaña **Esperas**, también deberá definir los [códigos de bloqueo](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) que se aplicarán a un pedido que se haya puesto en espera manualmente o automáticamente para revisar los posibles fraudes. Defina los códigos de bloqueo en los campos **Código de retención manual por fraude** y **Código de retención por fraude**. Es posible que encuentre útil crear dos códigos exclusivos del bloqueo, de modo que los usuarios que trabajan en el banco de trabajo de los bloqueos pueda filtrar y distinguir fácilmente los bloqueos automáticos de los bloqueos manuales.
+En la pestaña **Esperas**, también deberá definir los [códigos de bloqueo](/dynamics365/unified-operations/retail/work-with-order-holds) que se aplicarán a un pedido que se haya puesto en espera manualmente o automáticamente para revisar los posibles fraudes. Defina los códigos de bloqueo en los campos **Código de retención manual por fraude** y **Código de retención por fraude**. Es posible que encuentre útil crear dos códigos exclusivos del bloqueo, de modo que los usuarios que trabajan en el banco de trabajo de los bloqueos pueda filtrar y distinguir fácilmente los bloqueos automáticos de los bloqueos manuales.
 
 Para que la función de comprobación de fraudes funcione de manera eficaz, debe establecer el campo **Puntuación mínima**. Cada criterio y regla de fraude que se define en el sistema tiene una puntuación. Cuando un pedido de ventas se comprueba para detectar la existencia de coincidencias de fraude, si se encuentran una o más coincidencias, las puntuaciones se agregan conjuntamente para dar al pedido una puntuación total por fraude. Si la puntuación total para fraude de un pedido supera el valor del campo **Puntuación mínima**, el pedido se pone en espera automáticamenta. Puede usar opcionalmente los demás campos relacionados con la puntuación-en la pestaña **Esperas** para definir la puntuación de correo electrónico, la puntuación del teléfono, la puntuación del código postal, y la puntuación extendida del código postal. Si no especifica una puntuación de alguno de estos criterios estáticos de fraude cuando los define en la página **Datos de fraude estáticos**, el sistema los puntuará usando las puntuaciones predeterminadas que especifique en la pestaña **Esperas** de la página **Parámetros de centro de asistencia telefónica**.
 
@@ -65,7 +65,7 @@ Se guardará el pedido, pero el indicador **No procesar** se establecerá en él
 
 Para ver y administrar los pedidos que están en espera para detectar fraudes, vaya a **Retail y Commerce** \> **Clientes** \> **Bloqueos del pedido**. En la página **Bloqueos del pedido**, seleccione una entrada en la lista y, a continuación, haga clic en **Retención del pedido** para obtener una vista detallada que incluye información acerca del motivo de bloqueo. En la ficha desplegable  **Detalles del fraude**, puede ver los criterios sistemáticos de fraude que se han detectado en el pedido y las puntuaciones que se han aplicado. Si el pedido se coloca en el bloqueo manual, puede revisar los comentarios que realizó el usuario que puso el pedido en espera mirando la sección **Notas de fraudes** en la ficha desplegable **Notas**.
 
-Para obtener más información sobre cómo trabajar con pedidos en espera, consulte [Retenciones de pedidos](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+Para obtener más información sobre cómo trabajar con pedidos en espera, consulte [Retenciones de pedidos](/dynamics365/unified-operations/retail/work-with-order-holds).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

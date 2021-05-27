@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f70f42f2650a439c7131f228588c11124d326aec
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 80d62b29fcc95a3153c604512e1ee6b3e55ba840
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792376"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019796"
 ---
 # <a name="generate-online-channel-reports"></a>Generar informes de canales en línea
 
@@ -131,7 +131,7 @@ Para generar un informe de **Ventas de la organización**, siga estos pasos.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Página principal de Commerce](../retail/index.md)
+- [Página principal de Commerce](./index.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 39135111a8e7bf16d1e56ca42726ae8a8e130c5d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7b1b004d7a910e3b53eb584dbceb4d52d41fe409
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798690"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022692"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Trabajar con artículos serializados en el PDV
 
@@ -130,9 +130,9 @@ Las validaciones de los números de serie también se producirán cuando un usua
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Operación de inventario entrante en PDV](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
+[Operación de inventario entrante en PDV](./pos-inbound-inventory-operation.md)
 
-[Operación de inventario de salida en PDV](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+[Operación de inventario de salida en PDV](./pos-outbound-inventory-operation.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

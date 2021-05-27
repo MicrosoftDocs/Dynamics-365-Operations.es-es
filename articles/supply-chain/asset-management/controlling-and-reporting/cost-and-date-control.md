@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808673"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016164"
 ---
 # <a name="cost-and-date-control"></a>Controlar costes y fechas
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-En Administración de activos, puede calcular los costes para obtener una visión general de los costes reales comparados con los costes del presupuesto sobre los activos, ubicaciones técnicas y órdenes de trabajo. Los costes reales se basan en las transacciones registradas. 
+En Administración de activos, puede calcular los costes para obtener una visión general de los costes reales comparados con los costes del presupuesto sobre los activos, ubicaciones técnicas y órdenes de trabajo. Los costes reales se basan en las transacciones registradas.
 
 También puede crear un cálculo de fecha si desea comparar las fechas de inicio y fin programadas con las fechas de inicio y fin reales en las órdenes de trabajo.
 
@@ -46,8 +44,8 @@ Los cálculos realizados para los activos, las ubicaciones técnicas y las órde
 
 5. Puede usar el campo **Nivel** para indicar el nivel de detalle que desea para las líneas de control de costes con respecto a las ubicaciones técnicas. 
 
-    Por ejemplo, si especifica el número "1 "en el campo, y tiene una jerarquía de ubicación técnica de varios niveles, todas las líneas de control de costes de defectos del activo para una ubicación técnica se mostrarán en el nivel superior, y por tanto, las horas en una línea se pueden agregar desde las ubicaciones técnicas ubicadas en un nivel inferior. 
-    
+    Por ejemplo, si especifica el número "1 "en el campo, y tiene una jerarquía de ubicación técnica de varios niveles, todas las líneas de control de costes de defectos del activo para una ubicación técnica se mostrarán en el nivel superior, y por tanto, las horas en una línea se pueden agregar desde las ubicaciones técnicas ubicadas en un nivel inferior.
+
     Si especifica el número "0 "en el campo **Nivel** , verá un resultado detallado que muestra todas las líneas de control de costes en todo el nivel de la ubicación técnica con el que están relacionadas.
 
 6. Seleccione "Sí" en el botón de alternar **Mostrar gasto comprometido abierto** si desea incluir esa columna en el cálculo.
@@ -64,7 +62,7 @@ Los cálculos realizados para los activos, las ubicaciones técnicas y las órde
 
 10. En la página **Control de costes de activos**, haga clic en los botones **Agrupar por** para mostrar el nivel de detalle necesario del cálculo. Se resaltarán los botones **Agrupar por** seleccionados. Haga clic en un botón para activarlo o desactivarlo.
 
-## <a name="example"></a>Ejemplo
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Resultados del cálculo de ejemplo en control de costes de activos
 
 La captura de pantalla siguiente muestra un ejemplo de resultados del cálculo en **Control de costes de activos**.
 
@@ -76,7 +74,6 @@ La captura de pantalla siguiente muestra un ejemplo de resultados del cálculo e
 ![Resultados del cálculo de ejemplo en Control de costes de activos](media/02-controlling-and-reporting.png)
 
 Otra forma de realizar un cálculo de costes se seleccionar múltiples activos en **Todos los activos** o **Activos activos**. A continuación, haga clic en el botón **Control de costes** en la pestaña **General**. En el diálogo **Control de costes de activos**, los activos seleccionados se insertan automáticamente en el campo **Activo** en la ficha desplegable **Registros que incluir**. Haga clic en **Aceptar** y aparece un cálculo de costes de los activos seleccionados. El mismo procedimiento se puede realizar para las ubicaciones técnicas en **Todas las ubicaciones técnicas** o **Ubicaciones técnicas activas**, y para las órdenes de trabajo en **Todas las órdenes de trabajo** o **Órdenes de trabajo activas**.
-
 
 ## <a name="work-order-date-control"></a>Control de fecha de orden de trabajo
 
@@ -94,7 +91,7 @@ Use esta página para obtener una visión general de las fechas de inicio y fin 
 
 6. Haga clic en los botones **Agrupar por** para mostrar el nivel de detalle necesario del cálculo. Se resaltarán los botones **Agrupar por** seleccionados. Haga clic en un botón para activarlo o desactivarlo.
 
-## <a name="example"></a>Ejemplo
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Resultados del cálculo de ejemplo en control de fecha de orden de trabajo
 
 La captura de pantalla siguiente muestra un ejemplo de resultados del cálculo en **Control de fechas de órdenes de trabajo**.
 

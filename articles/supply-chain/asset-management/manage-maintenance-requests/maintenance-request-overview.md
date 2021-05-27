@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dceb179d0a17d8025d88c5945b9571de65c86449
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838619"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015887"
 ---
 # <a name="maintenance-requests"></a>Solicitudes de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Las solicitudes de mantenimiento son las notas o declaraciones que se crean para notificar a un administrador o planificador sobre un activo que requiere un trabajo de mantenimiento o de reparación, sin crear una orden de trabajo. Si el contenido de una solicitud de mantenimiento se considera válido, se puede crear una orden de trabajo a partir de la solicitud de mantenimiento.
 

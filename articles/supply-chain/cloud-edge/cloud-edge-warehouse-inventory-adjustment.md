@@ -2,11 +2,9 @@
 title: Ajuste de inventario de almacén
 description: Este tema proporciona información sobre el procesamiento y el diario de ajuste de inventario del almacén cuando utiliza unidades de escalado.
 author: perlynne
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventoryAdjustmentJournal, InventJournalCount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: be386539ea7addf20256ac2b1f8a2a72736fcbec
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: a451816078ca2e77f30379828777209dc48bd849
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938235"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026142"
 ---
 # <a name="warehouse-inventory-adjustment"></a>Ajuste de inventario de almacén
 
@@ -40,7 +38,7 @@ Los siguientes procesos de trabajo de la aplicación de almacén utilizan actual
 - Recuento cíclico
 - Carga de matrícula de entidad de almacén
 
-Varias transacciones de inventario se crean como parte de la nube y el borde de un proceso de ajuste de inventario porque las implementaciones de unidades de escala y centro de conectividad comparten los registros de inventario.
+Varias transacciones de inventario se crean como parte de cada proceso de ajuste de inventario porque las implementaciones de unidades de escala y centro de conectividad comparten los registros de inventario.
 
 ## <a name="inventory-adjustment-example"></a>Ejemplo de ajuste de inventario
 

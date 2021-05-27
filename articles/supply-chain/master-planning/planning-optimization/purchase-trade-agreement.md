@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961714"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015910"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planificación maestra con acuerdos comerciales de compra
 
@@ -67,7 +67,7 @@ Una vez que su sistema esté preparado como se describe en la sección anterior,
 1. Repita este procedimiento para cada producto relevante.
 
 > [!NOTE]
-> La Optimización de planificación admite contratos comerciales de compra mutidivisa. Al buscar un acuerdo comercial utilizando la opción **Precio unitario más bajo**, el sistema considerará las líneas de acuerdos de compras comerciales con diferentes divisas, siempre que se haya definido un tipo de cambio entre la divisa de la línea del acuerdo comercial y la divisa contable de la entidad jurídica. De lo contrario, se ignorará la línea del acuerdo comercial y verá un error durante la planificación maestra. Por lo tanto, la planificación maestra incluirá información de todas las líneas de acuerdos comerciales de compra relevantes donde los precios se pueden convertir a la divisa contable.
+> La Optimización de planificación admite contratos comerciales de compra mutidivisa. Al buscar un acuerdo comercial utilizando la opción **Precio unitario más bajo**, el sistema considerará las líneas de acuerdos de compras comerciales con diferentes divisas, siempre que se haya definido un tipo de cambio entre la divisa de la línea del acuerdo comercial y la divisa contable de la entidad jurídica. De lo contrario, se ignorará la línea del acuerdo comercial y verá un error durante la planificación maestra. Por lo tanto, la planificación maestra incluirá información de todas las líneas de acuerdos comerciales de compra relevantes donde los precios se pueden convertir a la divisa contable. Es importante tener en cuenta que las reglas de redondeo no se tendrán en cuenta durante la conversión del precio de línea del acuerdo comercial.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Ejemplos de cómo Optimización de planificación encuentra proveedores y plazos de entrega
 

@@ -2,11 +2,9 @@
 title: Habilitar la integración de Dynamics 365 Commerce y Microsoft Teams
 description: Este tema describe cómo habilitar la integración de Microsoft Dynamics 365 Commerce y Microsoft Teams.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908404"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019844"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Habilitar la integración de Dynamics 365 Commerce y Microsoft Teams
 
@@ -39,9 +37,9 @@ Antes de que pueda habilitar la integración de Microsoft Teams con Commerce, de
 
 Para registrar la aplicación Teams con su inquilino en Azure Portal, siga estos pasos.
 
-1. Siga los pasos en [Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) para registrar la aplicación de Teams con su inquilino en Azure Portal.
+1. Siga los pasos en [Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app) para registrar la aplicación de Teams con su inquilino en Azure Portal.
 1. Copie el valor **Identificador de aplicación (cliente)** de la página **Visión general** de la aplicación registrada. Utilizará este valor para habilitar la integración de Teams en la sede de Commerce.
-1. Copie el valor del certificado que introdujo cuando [agregó un certificado](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) en el paso 1. El certificado también se conoce como clave pública o clave de aplicación. Utilizará este valor para habilitar la integración de Teams en la sede de Commerce.
+1. Copie el valor del certificado que introdujo cuando [agregó un certificado](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) en el paso 1. El certificado también se conoce como clave pública o clave de aplicación. Utilizará este valor para habilitar la integración de Teams en la sede de Commerce.
 
 Para habilitar la integración de Teams en la sede central de Commerce, siga estos pasos.
 

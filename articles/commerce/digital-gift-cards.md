@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792880"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019942"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Tarjetas regalo digitales de comercio electrónico
 
@@ -51,12 +51,12 @@ Los productos de tarjetas regalo digitales deben configurarse en la sede central
 
     ![Campo de producto de tarjeta regalo en la sede de Commerce](./media/PostGiftcard.png)
 
-- Si una tarjeta regalo debe admitir varios importes predefinidos (por ejemplo, 25 $, 50 $ y 100 $), la dimensión **Tamaño** debe utilizarse para configurar esos importes predefinidos. Cada importe predefinido será una variante. Para obtener más información, consulte [Dimensiones del producto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Si una tarjeta regalo debe admitir varios importes predefinidos (por ejemplo, 25 $, 50 $ y 100 $), la dimensión **Tamaño** debe utilizarse para configurar esos importes predefinidos. Cada importe predefinido será una variante. Para obtener más información, consulte [Dimensiones del producto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Si los clientes deben poder especificar un importe personalizado para una tarjeta regalo, primero configure una variante que permita un importe personalizado. A continuación, abra el producto desde la página **Productos lanzados en la categoría** y luego, en la ficha desplegable **Commerce**, establezca el campo **Teclear precio** en **Debe teclear un nuevo precio**, como se muestra en la siguiente ilustración. Esta configuración garantiza que los clientes puedan introducir un precio cuando exploran el producto en un PDP.
 
     ![Teclear en el campo de precio en la sede central de Commerce](./media/KeyInPrice.png)
 
-- El modo de entrega de una tarjeta regalo digital debe establecerse en **Electrónico**. En la página **Modos de entrega** (**Venta minorista y comercio \> Configuración de cana l\> Modos de entrega**), selecciona el modo **Electrónico** de entrega en el panel de la lista, y luego agregue el producto de tarjeta regalo digital a la cuadrícula en la ficha desplegable **Productos**, como se muestra en la siguiente ilustración. Para obtener más información, consulte [Configurar los modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- El modo de entrega de una tarjeta regalo digital debe establecerse en **Electrónico**. En la página **Modos de entrega** (**Venta minorista y comercio \> Configuración de cana l\> Modos de entrega**), selecciona el modo **Electrónico** de entrega en el panel de la lista, y luego agregue el producto de tarjeta regalo digital a la cuadrícula en la ficha desplegable **Productos**, como se muestra en la siguiente ilustración. Para obtener más información, consulte [Configurar los modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Productos de tarjetas regalo digitales en la página Modo de entrega en la sede de Commerce](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Para configurar una cantidad personalizada para una tarjeta regalo digital en el
 
 [Crear un nuevo producto en Commerce](create-new-product-commerce.md)
 
-[Configurar modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Dimensiones de producto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Dimensiones de producto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [Configurar perfil de notificación por correo electrónico](email-notification-profiles.md)
 

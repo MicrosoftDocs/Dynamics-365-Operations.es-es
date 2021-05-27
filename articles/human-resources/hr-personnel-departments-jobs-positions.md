@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 48427bb52d4e398edba152ff25e28c3625b6a5d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 31b9532eea82fd5b88fe59718af7be4d242dc885
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803594"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027899"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar los recursos mediante departamentos, trabajos y puestos
 
@@ -159,7 +159,7 @@ Para algunos registros, puede especificar cambios futuros al registro. La siguie
 </tbody>
 </table>
 
-Puede modificar la información que se indica en la tabla anterior para un puesto o trabajo y especificar una fecha en la que deben aplicarse las modificaciones al puesto o trabajo. Por ejemplo, un puesto solo se puede asignar a un único trabajador, pero Sanjay Patel, asignado al puesto Contable-A, se irá en dos semanas. Joe Healy reemplazará a Sanjay Patel cuando éste se vaya. Aunque Sanjay aún está asignado al puesto, puede asignar a Joe Healy al mismo puesto de modo que la asignación solo será vigente después del último día de Sanjay.
+Puede modificar la información que se indica en la tabla anterior para un puesto o trabajo y especificar una fecha en la que deben aplicarse las modificaciones al puesto o trabajo. Por ejemplo, un puesto solo se puede asignar a un único trabajador, pero Sanjay Patel, asignado al puesto Contable-A, se irá en dos semanas. Joe Healy reemplazará a Sanjay Patel cuando Sanjay se vaya. Aunque Sanjay aún está asignado al puesto, puede asignar a Joe Healy al mismo puesto de modo que la asignación solo será vigente después del último día de Sanjay.
 
 
 

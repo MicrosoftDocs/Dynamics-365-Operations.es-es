@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791063"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018615"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Prorratear los cargos de encabezado con las líneas de ventas coincidentes
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791063"
 
 Este tema describe la funcionalidad para agrupar cargos automáticos de nivel de encabezado y prorratearlos a las líneas de la venta de Commerce. Esta funcionalidad está disponible para las transacciones que se crean en el punto de venta (POS) en la versión 10.0.1 de Retail y las ventas que se crean en un centro de asistencia telefónica en la versión 10.0.2 de Retail.
 
-Esta funcionalidad solo está disponible si la función [cargos automáticos avanzados](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) está activada mediante la opción en la página **Parámetros de Commerce**. Además, el método de cálculo ampliado para cargos automáticos se puede aplicar solo a los pedidos de ventas que se crean mediante canales de commerce (PDV, un centro de asistencia telefónica y la plataforma de e-commerce de Dynamics).
+Esta funcionalidad solo está disponible si la función [cargos automáticos avanzados](/dynamics365/unified-operations/retail/omni-auto-charges) está activada mediante la opción en la página **Parámetros de Commerce**. Además, el método de cálculo ampliado para cargos automáticos se puede aplicar solo a los pedidos de ventas que se crean mediante canales de commerce (PDV, un centro de asistencia telefónica y la plataforma de e-commerce de Dynamics).
 
 Esta nueva funcionalidad da a las organizaciones mayor flexibilidad en el modo en que calculan y se aplican los cargos automáticos de nivel de cabecera en las transacciones de ventas.
 
@@ -38,7 +38,7 @@ En las versiones de la aplicación que sean anteriores a la versión 10.0.1, se 
 
 Por ejemplo, se definen los gastos automáticos de nivel de encabezado para el modo de entrega **99** y el modo de entrega **11**. Se crea un pedido de ventas, y se define el modo de entrega **99** en el encabezado del pedido. Sin embargo, algunas de las líneas de ventas se configuran para enviarlos mediante el modo de entrega **11**. En este caso, sólo se tienen en cuenta y se aplican al pedido de ventas los gastos de nivel de encabezado que están vinculados al modo de entrega **99**.
 
-En Commerce, los cargos de nivel de encabezado tienen una característica adicional que permite definir una [configuración de gastos con varios niveles](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) que está basada en el valor del pedido. Por ejemplo, si el valor del pedido está entre $50,00 y $200,00, una organización puede desear cobrar u gasto de flete de $5,00. Sin embargo, si el valor del pedido esTÁ entre $200,01 y $500,00 el cargo del flete podría ser $4,00.
+En Commerce, los cargos de nivel de encabezado tienen una característica adicional que permite definir una [configuración de gastos con varios niveles](/dynamics365/unified-operations/retail/configure-call-center-delivery) que está basada en el valor del pedido. Por ejemplo, si el valor del pedido está entre $50,00 y $200,00, una organización puede desear cobrar u gasto de flete de $5,00. Sin embargo, si el valor del pedido esTÁ entre $200,01 y $500,00 el cargo del flete podría ser $4,00.
 
 Algunas organizaciones desean los beneficios que ofrece el cálculo de cargos con varios niveles que se ofrece con los cargos de nivel de encabezado. Sin embargo, en las situaciones que implican modos mixtos de entrega, también desean asegurarse de que los gastos que se calculan se basan en una correlación con el modo de entrega que está definido en cada línea de ventas.
 
@@ -72,7 +72,7 @@ Se crea un pedido de ventas en el centro de asistencia telefónica y el modo de 
 
 En este escenario, la totalidad del pedido se evalúa con la tabla de gasto automático para el modo de entrega **99**. El total completo de todas las líneas de ventas se usa para determinar un nivel coincidente en la configuración de cargo automático, y este gasto se aplica en el nivel de cabecera de pedido. En este ejemplo, el total de pedido es $165,00, y se aplican los gastos de flete de $15,00 a la cabecera del pedido. Nunca se hace referencia ni se aplican los gastos automáticos configurados para el modo de entrega **11**.
 
-En esta situación, si el cliente devuelve algunos de los artículos del pedido, y si [se ha configurado el código del gasto de modo que se devuelva](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), se aplica el gasto total de nivel de encabezado sistemáticamente a la devolución, incluso si sólo algunos de los artículos se devuelven.
+En esta situación, si el cliente devuelve algunos de los artículos del pedido, y si [se ha configurado el código del gasto de modo que se devuelva](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), se aplica el gasto total de nivel de encabezado sistemáticamente a la devolución, incluso si sólo algunos de los artículos se devuelven.
 
 ### <a name="scenario-2"></a>Escenario 2
 

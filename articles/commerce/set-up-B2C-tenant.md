@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794004"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018589"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar un inquilino B2C en Commerce
 
@@ -30,7 +30,7 @@ En este tema se describe cómo configurar los inquilinos de empresa a consumidor
 Dynamics 365 Commerce usa Azure AD B2C para admitir credenciales de usuario y flujos de autenticación. Un usuario puede registrarse, iniciar sesión y restablecer su contraseña a través de estos flujos. Azure AD B2C almacena información confidencial de autenticación de usuarios, como el nombre de usuario y la contraseña. El registro de usuario en el inquilino B2C almacenará un registro de cuenta local de B2C o un registro de proveedor de identidad social de B2C. Estos registros de B2C se vincularán de nuevo con el registro del cliente en el entorno de Commerce.
 
 > [!WARNING] 
-> Azure AD B2C retirará los flujos de usuarios antiguos (heredados) antes del 1 de agosto de 2021. Por lo tanto, debe planear migrar sus flujos de usuarios a la nueva versión recomendada. La nueva versión proporciona paridad de funciones y nuevas funciones. La biblioteca de módulos para Commerce versión 10.0.15 o superior debe usarse con los flujos de usuarios B2C recomendados. Para obtener más información, vea [Flujos de usuario en Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> Azure AD B2C retirará los flujos de usuarios antiguos (heredados) antes del 1 de agosto de 2021. Por lo tanto, debe planear migrar sus flujos de usuarios a la nueva versión recomendada. La nueva versión proporciona paridad de funciones y nuevas funciones. La biblioteca de módulos para Commerce versión 10.0.15 o superior debe usarse con los flujos de usuarios B2C recomendados. Para obtener más información, vea [Flujos de usuario en Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview).
  
  > [!NOTE]
  > Los entornos de evaluación de comercio vienen con un inquilino de Azure AD B2C cargado previamente con fines de demostración. Cargar su propio inquilino Azure AD B2C con los pasos a continuación no es necesario para entornos de evaluación.
@@ -88,7 +88,7 @@ Para crear la aplicación B2C, siga estos pasos.
 1. En **Concesión implícita**, seleccione **Tokens de acceso** y **Tokens de identificación** para habilitarlos para la aplicación. Seleccione **Guardar**.
 1. Vaya al menú **Visión general** menú de Azure Portal y copie el **ID de aplicación (cliente)**. Anote esta ID para los pasos de configuración posteriores (a la que se hace referencia más adelante como **GUID del cliente**).
 
-Para obtener más información sobre los registros de aplicaciones en Azure AD B2C, consulte [La nueva experiencia de registro de aplicaciones para Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
+Para obtener más información sobre los registros de aplicaciones en Azure AD B2C, consulte [La nueva experiencia de registro de aplicaciones para Azure Active Directory B2C](/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>Direcciones URL de respuesta
 
@@ -110,7 +110,7 @@ Azure AD B2C proporciona tres tipos básicos de flujo de usuario:
 
 Puede optar por usar los flujos de usuario predeterminados proporcionados por Azure AD, que mostrarán una página hospedad en AAD B2C. Como alternativa, puede crear una página HTML para controlar la apariencia de estas experiencias de flujo de usuario. 
 
-Para personalizar las páginas de directiva de usuario con páginas incluidas en Dynamics 365 Commerce, consulte [Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md). Para obtener información adicional, consulte [Personalizar las experiencias de interfaz de usuario en Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
+Para personalizar las páginas de directiva de usuario con páginas incluidas en Dynamics 365 Commerce, consulte [Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md). Para obtener información adicional, consulte [Personalizar las experiencias de interfaz de usuario en Azure Active Directory B2C](/azure/active-directory-b2c/tutorial-customize-ui).
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Crear una directiva de flujo de usuario registro e inicio de sesión
 
@@ -197,15 +197,15 @@ Si se agrega la autenticación de proveedor de identidad social y un usuario eli
 
 Antes de poder agregar un proveedor de identidad social para la autenticación, debe ir al portal del proveedor de identidad y configurar una aplicación de proveedor de identidad como se indica en la documentación de Azure AD B2C. A continuación se proporciona una lista de vínculos a la documentación.
 
-- [Amazon](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
-- [Azure AD (Inquilino único)](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
-- [Cuenta Microsoft](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
-- [Facebook](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
-- [GitHub](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
-- [Google](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
-- [LinkedIn](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
-- [OpenID Connect](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
-- [Twitter](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
+- [Amazon](/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
+- [Azure AD (Inquilino único)](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
+- [Cuenta Microsoft](/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
+- [Facebook](/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
+- [GitHub](/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
+- [Google](/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
+- [LinkedIn](/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
+- [OpenID Connect](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
+- [Twitter](/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
 
 ### <a name="add-and-set-up-a-social-identity-provider"></a>Agregar y configurar un proveedor de identidad social
 
@@ -346,11 +346,11 @@ Para asociar la aplicación B2C a su sitio y canal, siga estos pasos.
 
 Si se está planteando la posibilidad de migrar registros de clientes desde una plataforma de proveedor de identidad anterior, trabaje con el equipo de Dynamics 365 Commerce para revisar sus necesidades de migración de clientes.
 
-Para adicional obtener documentación adicional de Azure AD B2C sobre migración de clientes, consulte [Migrar usuarios a Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-user-migration).
+Para adicional obtener documentación adicional de Azure AD B2C sobre migración de clientes, consulte [Migrar usuarios a Azure Active Directory B2C](/azure/active-directory-b2c/active-directory-b2c-user-migration).
 
 ### <a name="custom-policies"></a>Directivas personalizadas
 
-Para obtener información adicional sobre la personalización de las interacciones y los flujo de directiva de Azure AD más allá de lo que ofrecen las directivas estándar de B2C, consulte [Directivas personalizadas en Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
+Para obtener información adicional sobre la personalización de las interacciones y los flujo de directiva de Azure AD más allá de lo que ofrecen las directivas estándar de B2C, consulte [Directivas personalizadas en Azure Active Directory B2C](/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
 
 ### <a name="secondary-admin"></a>Administrador secundario
 

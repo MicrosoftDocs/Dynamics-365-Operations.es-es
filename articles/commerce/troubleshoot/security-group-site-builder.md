@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aa00e9331693600ced2f4ead399a0c005b77ad08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d29e560d0f7b2bbc2415d7a0f6fe18f2ca17dc7c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801516"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020741"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>No se puede configurar un grupo de seguridad para el creador de sitios de Commerce durante la implementación inicial
 
@@ -38,7 +37,7 @@ Cuando crea los componentes de comercio electrónico como parte del proceso de i
 ### <a name="provision-the-e-commerce-site-with-a-user-in-the-correct-tenant"></a>Aprovisionar el sitio de comercio electrónico con un usuario en el inquilino correcto
 
 1. Vaya a [Azure Portal](https://portal.azure.com/).
-1. En el inquilino para el que se aprovisionó el proyecto LCS para su sitio de comercio electrónico, siga las instrucciones en [Crear un grupo básico y agregar miembros usando Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+1. En el inquilino para el que se aprovisionó el proyecto LCS para su sitio de comercio electrónico, siga las instrucciones en [Crear un grupo básico y agregar miembros usando Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 1. Vaya a [LCS](https://lcs.dynamics.com/) e inicie sesión con una cuenta que comparta el mismo inquilino que el grupo de seguridad de Azure AD que acaba de crear. La cuenta debe tener acceso para ver el grupo de seguridad de Azure AD.
 1. Complete los pasos de configuración para configurar el sitio de comercio electrónico. Cuando aprovisiona los componentes de comercio electrónico, el grupo de seguridad ahora debería aparecer como una opción en el cuadro de diálogo.
 
@@ -47,6 +46,6 @@ Cuando crea los componentes de comercio electrónico como parte del proceso de i
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Crear un grupo básico y agregar miembros usando Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+[Crear un grupo básico y agregar miembros usando Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
 [Implementar un inquilino nuevo de comercio electrónico](../deploy-ecommerce-site.md)

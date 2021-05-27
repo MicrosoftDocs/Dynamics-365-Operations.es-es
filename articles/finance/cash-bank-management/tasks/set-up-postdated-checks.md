@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adb8b969a6e86becaa3c0a3b59d8f8f259e5a64
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834605"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026214"
 ---
 # <a name="set-up-postdated-checks"></a>Configuración de cheques con pago diferido
 
@@ -53,7 +53,11 @@ El rol de este procedimiento es Tesorero. Este procedimiento usa la empresa de d
     * Seleccione la cuenta bancaria que se utiliza para deducir el importe de la factura.  
 18. Haga clic en Guardar.
 19. Cierre la página.
-
-
+> [!NOTE]
+> Para poder registrar un cheque con pago diferido en una cuenta bancaria cuando la fecha de la sesión es mayor o igual que la fecha de vencimiento, debe habilitar la función **Validación de la fecha de vencimiento del registro del diario de pagos con cheques con pago diferido en la cuenta bancaria**. Esta función le permite registrar diarios de pago para proveedores o clientes con cheques con pago diferido cuando la fecha de la sesión es mayor o igual que la fecha de vencimiento.
+> 
+> Al configurar la **Forma de pago** (**Proveedores > Configuración de pagos > Métodos de pago**), no rellene **Cuenta puente**. En este caso, la cuenta de contrapartida se completa con la cuenta bancaria, que se configura en la **Forma de pago**.
+>  
+> Cuando la función está habilitada y la fecha de la sesión es menor que la fecha de vencimiento, se muestra el siguiente mensaje de error al registrar un diario de pagos, "La fecha de vencimiento debe ser menor o igual a la fecha de la sesión si el tipo de cuenta de contrapartida es Banco". Si la función no está habilitada, puede registrar un diario de pagos con un cheque con pago diferido cuando la fecha de la sesión es menor que la fecha de vencimiento.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
