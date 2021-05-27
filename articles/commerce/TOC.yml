@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Mejoras de administración de efectivo
                       href: cash-mgmt.md
-                    - name: Búsqueda de inventario en el PDV
-                      href: product-variants-POS.md
                     - name: Suspender y reanudar transacciones en el PDV
                       href: pos-suspend-recall-transactions.md
                     - name: Funcionalidad sin conexión de PDV
@@ -712,8 +710,10 @@
                       href: pos-inbound-inventory-operation.md
                     - name: Operación de inventario de salida en PDV
                       href: pos-outbound-inventory-operation.md
-                    - name: Calcular la disponibilidad de inventario para canales comerciales
+                    - name: Calcular la disponibilidad de inventario para canales minoristas
                       href: calculated-inventory-retail-channels.md
+                    - name: Operación de búsqueda de inventario en PDV
+                      href: pos-inventory-lookup-operation.md
                 - name: Pedidos de compra
                   items:
                     - name: Información general de los pedidos de compra
@@ -2446,12 +2446,36 @@
                       href: dev-itpro/pos-extension/pos-extension-overview.md
                     - name: Introducción a las extensiones de PDV
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
-                    - name: Crear un proyecto de paquete de extensión de PDV
+                    - name: Crear un proyecto de paquete de extensiones de PDV
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Crear un archivo appx de extensión de Modern POS
+                    - name: Crear un archivo .appx para un paquete de extensiones de Modern POS
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Depurar una extensión de PDV
+                    - name: Depurar extensiones de PDV
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Empaquetado e implementación de extensiones
+                      items:
+                        - name: Crear un paquete de extensión de Modern POS
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: Firma de código de un paquete de extensión de Modern POS (MSIX)
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: Crear un paquete de extensión de Cloud POS
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Migrar una extensión de PDV al modelo de empaquetado independiente
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Guía de desarrollo de extensiones de PDV
+                      items:
+                        - name: Conceptos básicos de la extensión de PDV
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: Crear una vista personalizada en PDV
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: Usar los controles de PDV en extensiones
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Tareas
+                          items:
+                            - name: Utilice Knockout.js en extensiones de PDV
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Consumir las API de Commerce personalizadas sin periféricos
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Extensibilidad de Hardware Station
               items:
                 - name: Hardware Station y extensibilidad
