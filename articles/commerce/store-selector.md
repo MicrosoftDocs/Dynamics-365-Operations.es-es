@@ -2,7 +2,6 @@
 title: Módulo selector de tienda
 description: En este tema se trata el modulo selector de tiendao y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853426"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021473"
 ---
 # <a name="store-selector-module"></a>Módulo de selector de tienda
 
@@ -62,7 +61,7 @@ Para introducir la longitud y latitud de una ubicación de la tienda en la sede 
 
 ## <a name="bing-maps-integration"></a>Integración con Bing Maps
 
-El módulo selector de tiendas está integrado con las [Interfaces de programación de aplicaciones (API) REST de Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/) para utilizar las características de geocodificación y Autosuggest de Bing. Se requiere una clave de la API de Bing Maps, y debe agregarse a la página de parámetros compartidos en la Central de Commerce. La API de geocodificación se utiliza para convertir una ubicación en valores de latitud y longitud. La integración con la API de Autosuggest se utiliza para mostrar sugerencias de búsqueda cuando los usuarios ingresan ubicaciones en el campo de búsqueda.
+El módulo selector de tiendas está integrado con las [Interfaces de programación de aplicaciones (API) REST de Bing Maps](/bingmaps/rest-services/) para utilizar las características de geocodificación y Autosuggest de Bing. Se requiere una clave de la API de Bing Maps, y debe agregarse a la página de parámetros compartidos en la Central de Commerce. La API de geocodificación se utiliza para convertir una ubicación en valores de latitud y longitud. La integración con la API de Autosuggest se utiliza para mostrar sugerencias de búsqueda cuando los usuarios ingresan ubicaciones en el campo de búsqueda.
 
 Para la API REST de Autosuggest, debe asegurarse de que las siguientes URL estén permitidas según la directiva de seguridad de contenido (CSP) de su sitio. Esta configuración se realiza en el creador de sitios de Commerce, agregando las direcciones URL permitidas a varias directivas CSP para el sitio (por ejemplo, **img-src**). Para más información, consulte [Directiva de seguridad de contenido](manage-csp.md). 
 
@@ -78,14 +77,14 @@ El módulo selector de tienda admite un modo **Recoger en tienda** que muestra u
 
 El módulo selector de tiendas se puede agregar a un módulo de caja de compra en la página de detalles del producto para mostrar las tiendas donde hay un producto disponible para su recogida. También se puede agregar a un módulo de carrito. En este caso, el módulo selector de tienda muestra las opciones de recogida para cada artículo de línea en el carrito. El módulo selector de tienda también se puede agregar a otras páginas o módulos a través de extensiones y personalizaciones.
 
-Para que funcione este escenario, los productos deben configurarse para poder utilizr el modo de entrega de **recogida**. De lo contrario, el módulo no se mostrará en las páginas de productos. Para obtener más información sobre cómo configurar el modo de entrega, consulte [Configurar modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Para que funcione este escenario, los productos deben configurarse para poder utilizr el modo de entrega de **recogida**. De lo contrario, el módulo no se mostrará en las páginas de productos. Para obtener más información sobre cómo configurar el modo de entrega, consulte [Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 La siguiente imagen muestra un ejemplo de un módulo selector de tienda utilizado en un PDP.
 
 ![Ejemplo de un módulo selector de tienda utilizado en un PDP](./media/BOPIS.PNG)
 
 > [!NOTE]
-> En la versión 10.0.16 y posteriores, se puede habilitar una nueva características que permite a una organización definir múltiples modos de recogida de opciones de entrega para los clientes.  Si esta función está habilitada, el selector de tiendas y otros módulos de comercio electrónico se mejorarán para permitir que el comprador elija entre múltiples opciones de entrega de recogida si están configuradas.  Para obtener más información sobre esta característica, consulte [esta documentación](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> En la versión 10.0.16 y posteriores, se puede habilitar una nueva características que permite a una organización definir múltiples modos de recogida de opciones de entrega para los clientes.  Si esta función está habilitada, el selector de tiendas y otros módulos de comercio electrónico se mejorarán para permitir que el comprador elija entre múltiples opciones de entrega de recogida si están configuradas.  Para obtener más información sobre esta característica, consulte [esta documentación](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Modo Buscar tiendas
 
@@ -157,11 +156,11 @@ Para configurar el módulo selector de tiendas para mostrar las tiendas disponib
 
 [Paseo rápido por el carro y la finalización de la compra](quick-tour-cart-checkout.md)
 
-[Configurar modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Administrar Mapas de Bing para su organización](dev-itpro/manage-bing-maps.md)
 
-[API de REST de Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/)
+[API de REST de Bing Maps](/bingmaps/rest-services/)
 
 [Módulo de Maps](map-module.md)
 

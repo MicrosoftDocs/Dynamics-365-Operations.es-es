@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944422"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980959"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -58,7 +58,10 @@ Las unidades de escala poseen los siguientes datos:
   - **Pedidos de transferencia** (solo salida con trabajos simples de picking y carga)
 
 - **Datos de recepción de pedidos de almacén**: estos datos se utilizan solo para órdenes de compra que se han liberado a un almacén.
-- **Datos de la matrícula** - Se pueden crear placas de matrícula en el cubo y la unidad de escala. Se ha proporcionado un manejo de conflictos dedicado. Tenga en cuenta que estos datos no son específicos del almacén.
+- **Datos de la matrícula** - Se pueden crear placas de matrícula en el centro de conectividad y en las unidades de escalado. Se ha proporcionado un manejo de conflictos dedicado. 
+
+    > [!IMPORTANT]
+    > Los datos de la matrícula no son específicos del almacén. Si se crea el mismo número de matrícula de entidad de almacén, tanto en el centro de conectividad como en una unidad de escalado durante el mismo ciclo de sincronización, la siguiente sincronización fallará. Si esto ocurre, vaya a **Administración del sistema > Consultas > Consultas sobre cargas de trabajo > Registros duplicados**, donde puede ver y combinar los datos.
 
 ## <a name="outbound-process-flow"></a>Flujo de proceso de salida
 

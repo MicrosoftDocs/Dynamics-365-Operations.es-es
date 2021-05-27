@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21600c0815da99314dcbb8f123449c2ae93a3c1a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835109"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027489"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidar un pago de cliente parcial con varios períodos de descuento
 
@@ -31,7 +31,7 @@ En este artículo se muestra cómo se liquidan los pagos de clientes parciales c
 Fabrikam ofrece al cliente 4.031 dos períodos de descuento por pronto pago. El cliente recibe un descuento por pronto pago del 2 por ciento si la factura se paga en cinco días, y un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días. Fabrikam también ofrece descuentos por pronto pago en pagos parciales. Los parámetros de liquidación se encuentran en la página **Parámetros de clientes**.
 
 ## <a name="invoice"></a>Factura
-El 25 de junio, Arnie introduce y registra una factura para 1.000,00 del cliente 4.031. Cuando revisa los descuentos por pronto pago de esta factura, Arnie ve que el cliente 4.031 recibe un descuento de 20,00 si la factura se paga antes del 30 de junio. Si la factura se paga antes del 9 de julio, el cliente recibe un descuento de 10,00.
+El 25 de junio, Arnie introduce y registra una factura para 1.000,00 del cliente 4.031. Cuando Arnie revisa los descuentos por pronto pago de esta factura, Arnie ve que el cliente 4031 recibe un descuento de 20,00 si la factura se paga antes del 30 de junio. Si la factura se paga antes del 9 de julio, el cliente recibe un descuento de 10,00.
 
 | Fecha del descuento por pronto pago | Importe de descuento por pronto pago | Importe en divisa de la transacción |
 |--------------------|----------------------|--------------------------------|

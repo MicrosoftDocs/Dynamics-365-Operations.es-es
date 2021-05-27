@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71e523cab20281d5db7efff40b5ef4f7293a4765
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3e26c3130914ebef5a63b79c477d7d5846fd5b71
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799140"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027609"
 ---
 # <a name="enable-location-based-store-detection"></a>Habilitar la detección de tienda según la ubicación
 
@@ -31,7 +31,7 @@ La detección de tienda basada en ubicación le permite proporcionar el contenid
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
-Si activa la función de detección de tienda basada en ubicación, la información del explorador del cliente se envía un servicio de ubicación de Microsoft. Esta información se usa a continuación para proporcionar contenido del cliente que sea relevante para su ubicación. Tanto la información que se envía desde el explorador del cliente como la información basada en la ubicación que se devuelve al cliente están sujetas a directivas de cumplimiento de cookies y privacidad.
+Si activa la función de detección de tienda basada en ubicación, la información del explorador del cliente se envía un servicio de ubicación de Microsoft. Esta información se usa a continuación para proporcionar contenido del cliente que sea relevante para la ubicación del mismo. Tanto la información que se envía desde el explorador del cliente como la información basada en la ubicación que se devuelve al cliente están sujetas a directivas de cumplimiento de cookies y privacidad.
 
 ## <a name="turn-on-location-based-store-detection"></a>Activar la detección de tienda según la ubicación
 

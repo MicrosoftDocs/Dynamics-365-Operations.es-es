@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45376e43c00116d403f00c58772aefba6fa33eeb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794028"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028164"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Mejoras en el punto de venta (PDV) para productos serializados
 
@@ -30,7 +30,7 @@ Según la configuración de Commerce Headquarters, los productos se pueden clasi
 
 ## <a name="pos-improvements"></a>Mejoras de PDV
 
-- **Los números de serie no se solicitan hasta el fin de la transacción**: antes un cajero que añadía un producto serializado a la transacción necesitaba escribir el número de serie. Este requisito se convirtió en un problema en las situaciones relacionadas con los clientes, si los cajeros y los ayudantes de ventas tenían la oportunidad de realizar una venta vertical de productos. Hasta el paso en el que se realizaba el pago, los productos se actualizaban a menudo en el carro. Debido a ello, cada vez que el cajero tenía que agregar un nuevo producto, el sistema le pedía que añadiera el número de serie. El cuadro de diálogo del número de serie ahora incluye un botón **Agregar más adelante**. Por lo tanto, los ayudantes de ventas pueden agregar el artículo a la transacción pero pueden escribir el número de serie más adelante. Igualmente, los ayudantes de ventas pueden agregar y reemplazar artículos serializados en el carro y proporcionar el número de serie justo antes de realizar la venta. Si no se proporciona el número de serie de ningún producto serializado, el cajero que intente completar la transacción recibirá un mensaje de error. Este mensajes indica al cajero que debe proporcionar los números de serie que faltan antes de poder continuar.
+- **Los números de serie no se solicitan hasta el fin de la transacción**: antes un cajero que añadía un producto serializado a la transacción necesitaba escribir el número de serie. Este requisito se convirtió en un problema en las situaciones relacionadas con los clientes, si los cajeros y los ayudantes de ventas tenían la oportunidad de realizar una venta vertical de productos. Hasta el paso en el que se realizaba el pago, los productos se actualizaban a menudo en el carro. Debido a ello, cada vez que el cajero tenía que agregar un nuevo producto, el sistema le pedía que añadiera el número de serie. El cuadro de diálogo del número de serie ahora incluye un botón **Agregar más adelante**. Por lo tanto, los ayudantes de ventas pueden agregar el artículo a la transacción pero pueden escribir el número de serie más adelante. Igualmente, los ayudantes de ventas pueden agregar y reemplazar artículos serializados en el carro y proporcionar el número de serie justo antes de realizar la venta. Si no se proporciona el número de serie de ningún producto serializado, el cajero que intente completar la transacción recibirá un mensaje de error. Este mensaje indica al cajero que debe proporcionar los números de serie que faltan antes de poder continuar.
 
     Para cada artículo serializado donde el número de serie se ha omitido, aparecerá un comentario en la línea de transacción. Este comentario indica que no se proporcionó el número de serie del artículo. Por lo tanto, el cajero puede buscar rápidamente los artículos a los que les falta el número de serie.
 

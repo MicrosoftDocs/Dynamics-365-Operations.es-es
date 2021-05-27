@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804340"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018963"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operación de inventario entrante en PDV
 
@@ -70,7 +70,7 @@ Los trabajos por lotes que cree se usarán para procesar documentos que fallan o
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Prerrequisito: agregar operación de entrada al diseño de pantalla PDV
 
-Antes de que su organización pueda usar la funcionalidad de operación de entrada, debe configurar la operación de PDV **Operación de entrada** en uno o más de sus [Diseños de pantalla de PDV](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implementar la nueva operación en un entorno de producción, asegúrese de probarla exhaustivamente y capacitar a sus usuarios para que la utilicen.
+Antes de que su organización pueda usar la funcionalidad de operación de entrada, debe configurar la operación de PDV **Operación de entrada** en uno o más de sus [Diseños de pantalla de PDV](/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implementar la nueva operación en un entorno de producción, asegúrese de probarla exhaustivamente y capacitar a sus usuarios para que la utilicen.
 
 ## <a name="overview"></a>Visión general
 
@@ -159,9 +159,9 @@ En Commerce, versión 10.0.14 y posteriores, los usuarios pueden recibir un prod
 
 Esta función solo funciona para recibir pedidos de compra. No es posible recibir artículos contra pedidos de transferencia cuando los artículos no fueron pedidos y enviados previamente desde el almacén de salida.
 
-Los usuarios no pueden agregar nuevos productos al pedido de compra durante la recepción de PDV si el pedido de compra [flujo de trabajo de gestión de cambios](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) está habilitado en la sede de Commerce (HQ). Para habilitar la gestión de cambios, todos los cambios de un pedido de compra deben aprobarse antes de permitir la recepción. Debido a que este proceso permite que un receptor agregue nuevas líneas al pedido de compra, la recepción fallará si el flujo de trabajo de administración de cambios está habilitado. Si la gestión de cambios está habilitada para todos los pedidos de compra o para el proveedor vinculado a la orden de compra que se recibe activamente en PDV, el usuario no puede agregar nuevos productos al pedido de compra durante la recepción en PDV.
+Los usuarios no pueden agregar nuevos productos al pedido de compra durante la recepción de PDV si el pedido de compra [flujo de trabajo de gestión de cambios](../supply-chain/procurement/purchase-order-approval-confirmation.md) está habilitado en la sede de Commerce (HQ). Para habilitar la gestión de cambios, todos los cambios de un pedido de compra deben aprobarse antes de permitir la recepción. Debido a que este proceso permite que un receptor agregue nuevas líneas al pedido de compra, la recepción fallará si el flujo de trabajo de administración de cambios está habilitado. Si la gestión de cambios está habilitada para todos los pedidos de compra o para el proveedor vinculado a la orden de compra que se recibe activamente en PDV, el usuario no puede agregar nuevos productos al pedido de compra durante la recepción en PDV.
 
-La funcionalidad que permite agregar líneas no se puede utilizar como una solución para recibir cantidades adicionales de productos que ya están en el pedido de compra. La sobrerecepción se gestiona mediante la configuración estándar de [sobrerecepción](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) para la línea de producto en el pedido de compra.
+La funcionalidad que permite agregar líneas no se puede utilizar como una solución para recibir cantidades adicionales de productos que ya están en el pedido de compra. La sobrerecepción se gestiona mediante la configuración estándar de [sobrerecepción](#over-receiving-validations) para la línea de producto en el pedido de compra.
 
 Si **Agregar líneas al pedido de compra durante la recepción del punto de venta** está habilitado y un usuario está recibiendo con la **Operación entrante** en el PDV, si el usuario escanea o teclea un código de barras de producto o un número de producto que no se reconoce como un artículo en el pedido de compra actual, pero se reconoce como un artículo válido, el usuario recibe un mensaje sobre cómo agregar el artículo al pedido de compra. Si el usuario agrega el artículo al pedido de compra, la cantidad introducida en **Recibiendo ahora** se considera la cantidad solicitada para la línea del pedido de compra.
 

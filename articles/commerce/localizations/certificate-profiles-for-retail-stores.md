@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798870"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020322"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perfiles de certificado definidos por el usuario para tiendas
 
@@ -79,7 +79,7 @@ Cuando agrega una nueva línea a la página **Configuración de perfil de certif
 - **Certificado de Key Vault** - Este campo es obligatorio si configura el campo **Tipo de ubicación** como **Almacén de claves**. Úselo para especificar un certificado secreto de Key Vault.
 
     > [!NOTE]
-    > Antes de usar un certificado de Key Vault en perfiles de certificado, asegúrese de cargar un certificado en el almacenamiento de Key Vault y siga las instrucciones en [Configurar el cliente de Azure Key Vault](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Antes de usar un certificado de Key Vault en perfiles de certificado, asegúrese de cargar un certificado en el almacenamiento de Key Vault y siga las instrucciones en [Configurar el cliente de Azure Key Vault](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Nombre de la tienda** - Este campo es opcional y está disponible solo si configura el campo **Tipo de ubicación** como **Certificado local**. Úselo para especificar un nombre de tienda predeterminado que debe usarse para buscar certificados locales.
 - **Ubicación de la tienda** - Este campo es opcional y está disponible solo si configura el campo **Tipo de ubicacion** como **Certificado local**. Úselo para especificar una ubicación de tienda predeterminado que debe usarse para buscar certificados locales.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827355"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028236"
 ---
 # <a name="position-forecasting"></a>Previsión de puestos
 
@@ -67,9 +67,9 @@ La organización de Jorge proporciona un permiso de formación del 5 por ciento 
 
 Jorge no quiere que los directores cambien el importe de la prestación. Por lo tanto, selecciona **No permitir cambios de coste** en el campo **Anulación del puesto de previsión**. La organización desea que este coste se asigne uniformemente a cada mes. Por lo tanto, Jorge selecciona **Trimestral** en el campo **Método de asignación**. 
 
-A continuación, Jorge agrega una línea de cálculo de costes, establece las fechas y una cuenta principal, y especifica **5.00** como porcentaje. Su organización tiene un límite de $5.000 por ejercicio para esta prestación. Por lo tanto, Jorge especifica dicho importe como el límite anual. 
+A continuación, Jorge agrega una línea de cálculo de costes, establece las fechas y una cuenta principal, y especifica **5.00** como porcentaje. La organización tiene un límite de 5000 $ por ejercicio para esta prestación. Por lo tanto, Jorge especifica dicho importe como el límite anual. 
 
-Finalmente, Jorge agrega todos los elementos de coste de la ganancia que se usan para el sueldo base como bases de cálculo. Su elemento de coste presupuestario está ahora listo para usar.
+Finalmente, Jorge agrega todos los elementos de coste de la ganancia que se usan para el sueldo base como bases de cálculo. El elemento de coste presupuestario está ahora listo para usar.
 
 ### <a name="compensation-groups"></a>Grupos de compensación
 
@@ -137,7 +137,7 @@ Las líneas del elemento de coste presupuestario se deben recalcular cuando el v
 
 **Ejemplo** 
 
-La organización está considerando dos opciones para reducir el coste de un puesto de contable. Una opción es terminar el puesto parte del año. Otra opción es cambiar el puesto a tiempo parcial para todo el año. Alberto ha creado un puesto de previsión para el puesto existente de contable en una situación de línea base. Copia este puesto de previsión de línea base en la situación A, establece la fecha de jubilación al 31 de mayo, y vuelve a calcular. Alberto después copia el puesto de previsión de la línea base en la situación B, cambia el valor de FTE a **0,50**, y recalcula. Alberto ahora tiene tres versiones, cada una con totales de coste que se alinean con sus opciones.
+La organización está considerando dos opciones para reducir el coste de un puesto de contable. Una opción es terminar el puesto parte del año. Otra opción es cambiar el puesto a tiempo parcial para todo el año. Alberto ha creado un puesto de previsión para el puesto existente de contable en una situación de línea base. Brad copia este puesto de previsión de línea base en la situación A, establece la fecha de jubilación al 31 de mayo, y vuelve a calcular. Alberto después copia el puesto de previsión de la línea base en la situación B, cambia el valor de FTE a **0,50**, y recalcula. Alberto ahora tiene tres versiones, cada una con totales de coste que se alinean con las opciones.
 
 #### <a name="assigning-a-compensation-group"></a>Asignar un grupo de compensación
 

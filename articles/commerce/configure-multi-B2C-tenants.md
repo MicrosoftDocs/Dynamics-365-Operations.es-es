@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c813adb79ae1b78a052332e077393f125830633f
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796108"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027731"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurar múltiples inquilinos B2C en un entorno de Commerce
 
@@ -27,7 +27,7 @@ ms.locfileid: "5796108"
 
 Este tema describe cuándo y cómo configurar múltiples inquilinos de empresa a consumidor (B2C) por canal Microsoft Azure Active Directory (Azure AD) para la autenticación de usuarios en un entorno dedicado Dynamics 365 Commerce.
 
-Dynamics 365 Commerce usa el servicio de identidad en la nube Azure AD B2C para admitir credenciales de usuario y flujos de autenticación. Los usuarios pueden usar los flujos de autenticación para registrarse, iniciar sesión y restablecer su contraseña. Azure AD B2C almacena la información confidencial de autenticación de un usuario, como su nombre de usuario y contraseña. El registro de usuario es exclusivo de cada inquilino B2C y utiliza credenciales de nombre de usuario (dirección de correo electrónico) o credenciales de proveedor de identidad social.
+Dynamics 365 Commerce usa el servicio de identidad en la nube Azure AD B2C para admitir credenciales de usuario y flujos de autenticación. Los usuarios pueden usar los flujos de autenticación para registrarse, iniciar sesión y restablecer su contraseña. Azure AD B2C almacena la información confidencial de autenticación, como el nombre de usuario y contraseña. El registro de usuario es exclusivo de cada inquilino B2C y utiliza credenciales de nombre de usuario (dirección de correo electrónico) o credenciales de proveedor de identidad social.
 
 En la mayoría de los casos, solo se usa un inquilino Azure AD B2C en un entorno de Commerce. Los clientes de Commerce pueden crear y publicar múltiples sitios en el mismo entorno de Commerce, y las mismas credenciales de clientes se utilizarán en estos sitios. Sin embargo, si los sitios en el entorno deben tratarse como marcas diferentes y aparecer a los usuarios como negocios separados, se puede configurar un inquilino B2C para el canal que se utiliza para la separación sitio / marca.
 

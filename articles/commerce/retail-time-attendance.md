@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791904"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021497"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Gestión del tiempo y la asistencia en Retail
 
@@ -38,9 +38,9 @@ Este tema describe los escenarios que se admiten para la gestión del tiempo y l
 
 ### <a name="plan-worker-schedules"></a>Planificar las programaciones de los trabajadores
 
-- Aplicar perfiles mediante el planificador de trabajo. Para obtener más información, vea [Aplicar perfiles mediante el planificador de trabajo](https://technet.microsoft.com/library/aa551234.aspx).
+- Aplicar perfiles mediante el planificador de trabajo. Para obtener más información, vea [Aplicar perfiles mediante el planificador de trabajo](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
 
-Para obtener información sobre los pasos de configuración, consulte [Configuración del tiempo y la asistencia](https://technet.microsoft.com/library/aa496971.aspx).
+Para obtener información sobre los pasos de configuración, consulte [Configuración del tiempo y la asistencia](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
 
 ### <a name="commerce-specific-configuration"></a>Configuración específica de Commerce
 
@@ -135,7 +135,7 @@ Un usuario de Commerce sigue al flujo de trabajo para calcular, aprobar y transf
 - Hora de salida en masa
 - Registrar ausencias
 
-Para obtener más información sobre cómo procesar los registros de tiempo y asistencia, consulte [Procesar registros de tiempo y asistencia](https://technet.microsoft.com/library/aa573180.aspx).
+Para obtener más información sobre cómo procesar los registros de tiempo y asistencia, consulte [Procesar registros de tiempo y asistencia](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

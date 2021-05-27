@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 829c9c5549c337c5c2b118f3027111831f2632ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814305"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027803"
 ---
 # <a name="three-way-matching-policies"></a>Directivas de triple conciliación
 
@@ -37,9 +37,9 @@ Fabrikam funciona con las entidades jurídicas y los empleados varias en todas l
 
 Las directivas de conciliación de facturas en este personas de la ayuda de ejemplo de los roles siguientes cumplen estos objetivos:
 
--   Ken es el controlador de la empresa de Fabrikam. Este puede ayudar a las personas de su organización a identificar y a sortear problemas con pedir, recepción, y pagar artículos (las mercancías y servicios) de los proveedores.
+-   Ken es el controlador de la empresa de Fabrikam. Ken puede ayudar a las personas de la organización a identificar y a sortear problemas con pedir, recepción, y pagar artículos (las mercancías y servicios) de los proveedores.
 -   Phyllis y april son directores de contabilidad del departamento de los proveedores de la división de Estados Unidos de Fabrikam. Pueden aplicar la directiva corporativa y asegurarse de que las facturas se hayan pagado solo después de que las facturas se asocian al pedido de compra y las recepciones de bienes y servicios, según proceda.
--   Tony es el director de producción para la división de Estados Unidos de Fabrikam. Él y otros personales de producción pueden asegurarse de que los artículos estén recibidos como se pidieron de proveedores, y explicados de modo que personal tengan lo que deben tener para llevar a cabo sus trabajos.
+-   Tony es el director de producción para la división de Estados Unidos de Fabrikam. Tony y otros personales de producción pueden asegurarse de que los artículos estén recibidos como se pidieron de proveedores, y explicados de modo que personal tengan lo que deben tener para llevar a cabo sus trabajos.
 
 ### <a name="prerequisites"></a>Requisitos previos
 
@@ -47,18 +47,18 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 -   Ken establece la actualización automática de la alternancia de estado de coincidencia del encabezado en la entidad jurídica en Sí.
 -   Ken establece el campo Conciliar totales de precios para la entidad jurídica en Porcentaje, y especifica 15% como porcentaje de tolerancia.
 -   Ken establece la directiva de conciliación en el nivel de artículo para el artículo 1500 - Máquina de CNC Milicron en Triple conciliación. Este artículo es un artículo del activo que se usa para la producción en Fabrikam. Las facturas para este artículo se asocian a las líneas de pedido de compra para los precios y con las recepciones de producto para las cantidades.
--   Tony especifica un pedido para cinco máquinas de CNC Milicron. Alicia, vendedor del pedido de compra en Fabrikam, emite un pedido de compra en una entidad jurídica denominada Contoso para suministrar artículos.
+-   Tony especifica un pedido para cinco máquinas de CNC Milicron. Alicia, vendedora del pedido de compra en Fabrikam, emite un pedido de compra en una entidad jurídica denominada Contoso para suministrar artículos.
 
     | Número de artículo                 | Cantidad | Precio unitario | Importe neto | Código de gastos        | Valor de gastos |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 - Máquina de CNC Milicron | 5        | 8.000,00   | 40.000,00  | Envío y dirección | 3.000,00      |
+    | 1500 - Máquina de CNC Milicron | 5        | 8.000,00   | 40.000,00  | Envío y dirección | 3,000.00      |
 
 -   Arnie, vendedor de clientes en Contoso, revise los envíos para la semana. Arnie selecciona transacciones de envío a la factura Fabrikam para la entrega de las máquinas de CNC Milicron. Arnie incluye un gasto para enviar y guiar. Fabrikam tendrá en cuenta el gasto formar parte del coste del activo.
 
 ### <a name="scenario"></a>Escenario
 
-1.  Sammy, trabajador en el departamento de recepción de Fabrikam, recibe la cantidad total de máquinas que se envían de Contoso. Éste especifica una cantidad de 5 en una recepción de producto. Dado que el pedido de compra se ha recibido completamente, el estado del pedido de compra cambia a Recibido.
-2.  April, el coordinador de proveedores en Fabrikam, especifique y comprueba la factura que se produce por Contoso. Comprueba la siguiente información:
+1.  Sammy, trabajador en el departamento de recepción de Fabrikam, recibe la cantidad total de máquinas que se envían de Contoso. Sammy especifica una cantidad de 5 en una recepción de producto. Dado que el pedido de compra se ha recibido completamente, el estado del pedido de compra cambia a Recibido.
+2.  April, el coordinador de proveedores en Fabrikam, especifica y comprueba la factura que produce Contoso. Comprueba la siguiente información:
     -   Para los artículos que requieren triple conciliación, la cantidad de la línea de factura coincide con la cantidad que se ha recibido. La cantidad recibida se indica en la recepción de producto que se asigna a la factura.
     -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en Microsoft Dynamics 365 Finance. Esto incluye los siguientes tipos de conciliación de precio:
         -   Conciliación de precio neto unitario – el precio unitario neto de la línea de factura coincide con el precio unitario neto de la línea de pedido de compra, dentro del porcentaje de tolerancia. En este ejemplo, la tolerancia de precio unitario neto es el +8%.
@@ -66,7 +66,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 
 La factura de papel de Contoso contiene la siguiente información.
 
-| Artículo                        | La cantidad | Precio unitario | Importe neto |
+| Artículo                        | Cantidad | Precio unitario | Importe neto |
 |-----------------------------|----------|------------|------------|
 | 1500 - Máquina de CNC Milicron | 5        | 8.100,00   | 40,500.00  |
 | Envío y manipulación       |          |            | 4,000.00   |
@@ -87,7 +87,7 @@ Resumen: Ken es el controlador en las jefaturas corporativas de una entidad jur�
 El volumen y los importes son pequeños, y ha habido problemas con la entrega de algunos proveedores en Malasia. Por estas razones, Cassie establece el nivel de comprobación para ciertas combinaciones de artículo y proveedor que se adquieren en Malasia en la triple conciliación. 
 
 Las directivas de conciliación de facturas en este personas de la ayuda de ejemplo de los roles siguientes cumplen estos objetivos:
--   Ken es el controlador de la empresa de Fabrikam. Este puede ayudar a las personas de su organización a identificar y a sortear problemas con pedir, recepción, y pagar artículos (las mercancías y servicios) de los proveedores.
+-   Ken es el controlador de la empresa de Fabrikam. Ken puede ayudar a las personas de la organización a identificar y a sortear problemas con pedir, recepción, y pagar artículos (las mercancías y servicios) de los proveedores.
 -   Cassie es la contable en la división de Fabrikam en Malasia. Puede aplicar la directiva corporativa y asegurarse de que las facturas se hayan pagado solo después de que se asocien a las líneas de pedido de compra y recepciones de producto que representan el envío de bienes y servicios, según proceda. Ella también puede aumentar el nivel de comprobación a la triple conciliación para los artículos específicos para controlar los costes operativos.
 
 ### <a name="prerequisites"></a>Requisitos previos
@@ -107,7 +107,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 ### <a name="scenario"></a>Situación
 
 1.  Llegan los artículos. Se interrumpe a Sammy, trabajador en el departamento de recepción de Fabrikam en la división de Malasia, y no registra la recepción del producto inmediatamente.
-2.  April, el coordinador de proveedores en Fabrikam, especifique y comprueba la factura que se produce por Contoso. Comprueba la siguiente información:
+2.  April, el coordinador de proveedores en Fabrikam, especifica y comprueba la factura que produce Contoso. Comprueba la siguiente información:
     -   Para los artículos que requieren triple conciliación, la cantidad de la línea de factura coincide con la cantidad que se ha recibido. La cantidad recibida se indica en la recepción de producto que se asigna a la factura.
     -   Para los artículos que requieren doble o triple conciliación, los precios en la línea de factura se encuentran dentro de las tolerancias que se definen en la aplicación. Esto incluye los siguientes tipos de conciliación de precio:
         -   Conciliación de precio neto unitario – el precio unitario neto de la línea de factura coincide con el precio unitario neto de la línea de pedido de compra, dentro del porcentaje de tolerancia. En este ejemplo, la tolerancia de precio unitario neto es el +2%.
@@ -115,7 +115,7 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 
 La factura de papel de Contoso contiene la siguiente información.
 
-| Artículo                  | La cantidad | Precio unitario | Importe neto |
+| Artículo                  | Cantidad | Precio unitario | Importe neto |
 |-----------------------|----------|------------|------------|
 | Equipo: PH2500     | 2        | 2.500,00   | 5.000,00   |
 | MM01: mouse inalámbrico | 2        | 41.00      | 82.00      |

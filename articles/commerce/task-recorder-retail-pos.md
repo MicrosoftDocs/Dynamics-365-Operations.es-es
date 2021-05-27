@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d4bb8ce1abc07bc57e90e893e7e327761131d52a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795222"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028116"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Grabador de tareas y ayuda para Retail Modern POS (MPOS) y Cloud POS
 
@@ -135,7 +135,7 @@ El texto que especifique en el campo **Notas** aparecerá *por debajo* del texto
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Ayuda en Retail Modern POS y Cloud POS
 
-Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda de Retail Modern POS y Cloud POS para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión con el sistema de Ayuda](../fin-and-ops/get-started/help-connect.md). La Ayuda de Retail Modern POS y Cloud POS realiza búsquedas en tiempo real en LCS. Busca en todas las bibliotecas de BPM seleccionadas en los parámetros del sistema de Ayuda de Commerce y muestra los resultados relevantes. Para acceder al menú **Ayuda**, haga clic en el botón **Ayuda** (signo de interrogación) en la parte superior de la pantalla. A continuación, escriba en el cuadro de búsqueda el nombre del proceso y haga clic en el botón de búsqueda.
+Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda de Retail Modern POS y Cloud POS para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión con el sistema de Ayuda](../fin-ops-core/fin-ops/get-started/help-connect.md). La Ayuda de Retail Modern POS y Cloud POS realiza búsquedas en tiempo real en LCS. Busca en todas las bibliotecas de BPM seleccionadas en los parámetros del sistema de Ayuda de Commerce y muestra los resultados relevantes. Para acceder al menú **Ayuda**, haga clic en el botón **Ayuda** (signo de interrogación) en la parte superior de la pantalla. A continuación, escriba en el cuadro de búsqueda el nombre del proceso y haga clic en el botón de búsqueda.
 
 [![Botón Ayuda](./media/help.jpg)](./media/help.jpg)
 

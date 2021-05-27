@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (abril de 2021)
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: Finance 10.0.16 (febrero de 2021)
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -304,7 +302,7 @@
                   href: accounts-payable/tasks/define-vendor-payment-terms.md
                 - name: Creación de pagos de proveedor mediante una propuesta de pago
                   href: accounts-payable/create-vendor-payments-payment-proposal.md
-                - name: Inversión de un pago de proveedor
+                - name: Reversión de un pago de proveedor
                   href: accounts-payable/reverse-vendor-payment.md
                 - name: Cheques de proveedor de ejemplo para informes electrónicos
                   href: accounts-payable/electronic-reporting-sample-vendor-checks.md
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: Liquidar un pago de cliente parcial con varios períodos de descuento
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: Anticipos de clientes
+                  href: accounts-receivable/customer-prepayments.md
                 - name: Reembolsar a clientes
                   href: accounts-receivable/reimburse-customers.md
                 - name: Pagos de clientes por importe parcial
@@ -484,7 +484,9 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: Configurar y generar información de vencimiento de clientes
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: Informe de vencimiento de clientes
+            - name: Instantánea de vencimientos de clientes
+              href: accounts-receivable/customer-aging-snapshot.md
+            - name: Informe de vencimientos de clientes
               href: accounts-receivable/customer-aging.md
             - name: Crear un diario de cancelaciones para un cliente
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
@@ -510,8 +512,10 @@
               href: budgeting/position-forecasting.md
             - name: Documentos de justificación de la planificación presupuestaria
               href: budgeting/budget-planning-justification-docs.md
-            - name: Creación de un presupuesto desde cuentas de transacción y cuentas totales
+            - name: Crear un presupuesto desde cuentas de transacción y cuentas totales
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Descripción del plan presupuestario
+              href: budgeting/budget-narrative.md
             - name: Plantillas de planificación presupuestaria para Excel
               href: budgeting/budget-planning-excel-templates.md
             - name: Ampliar el diseño de planificación presupuestaria
@@ -814,7 +818,7 @@
                   href: fixed-assets/tasks/set-up-bonus-depreciation.md
                 - name: Depreciación de consumo
                   href: fixed-assets/consumption-depreciation.md
-                - name: Efectos de depreciación con inversiones
+                - name: Efectos de depreciación con reversiones
                   href: fixed-assets/depreciation-effects-reversals.md
                 - name: Convenciones y métodos de depreciación
                   href: fixed-assets/depreciation-methods-conventions.md
@@ -874,7 +878,7 @@
                   href: asset-leasing/create-payment-invoice.md
                 - name: Registrar depreciación de activos por derecho de uso
                   href: asset-leasing/record-rou-asset-depreciation.md
-                - name: Invertir transacciones de arrendamiento registradas
+                - name: Revertir transacciones de arrendamiento registradas
                   href: asset-leasing/reverse-posted-lease-trans.md
                 - name: Convenciones de arrendamiento de activos
                   href: asset-leasing/asset-leasing-convention.md
@@ -912,9 +916,9 @@
                   href: asset-leasing/manage-leases-thru-imprt-framewrk.md
             - name: Informes de arrendamiento de activos
               href: asset-leasing/asset-leasing-rprts.md
-        - name: Contabilidad general
+        - name: Libro mayor
           items:
-            - name: Información general de la contabilidad general
+            - name: Información general del libro mayor
               href: general-ledger/general-ledger.md
             - name: Cuentas
               items:
@@ -932,7 +936,7 @@
                   href: general-ledger/example-posting-definitions.md
                 - name: Configurar descripciones predeterminadas para registro automático
                   href: general-ledger/set-up-default-descriptions-for-automatic-posting.md
-                - name: Saldos de cuentas contables
+                - name: Saldos de cuentas del libro mayor
                   href: general-ledger/general-ledger-account-balances.md
                 - name: Definir dimensiones financieras
                   href: general-ledger/tasks/define-financial-dimensions.md
@@ -1004,7 +1008,7 @@
                   href: general-ledger/general-journal-processing.md
                 - name: Registrar diarios periódicos
                   href: general-ledger/tasks/post-periodic-journals.md
-                - name: Invertir diario de registro
+                - name: Revertir diario de registro
                   href: general-ledger/reverse-journal-posting.md
                 - name: Procesar diario de asignaciones contables
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
@@ -1030,7 +1034,7 @@
                   href: general-ledger/tasks/create-journal-entry-template.md
                 - name: Crear transacciones de provisiones de contabilidad
                   href: general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Transferencia de subdiarios a la contabilidad general
+                - name: Transferencia de subdiarios al libro mayor
                   href: general-ledger/subledger-transfer.md
                 - name: Publicar líneas de diario y documentos de Excel
                   href: general-ledger/open-lines-excel-journals-documents.md
@@ -1042,7 +1046,7 @@
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Revalorización de divisa en una empresa de consolidación
                   href: general-ledger/currency-revaluation-consolidation-company.md
-                - name: Revalorización de divisa extranjera para contabilidad general
+                - name: Revalorización de divisa extranjera para el libro mayor
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Importar tipos de cambio de divisa
                   href: general-ledger/import-currency-exchange-rates.md
@@ -1054,7 +1058,7 @@
                   href: general-ledger/ledger-settlements.md
             - name: Cierre de final del período
               items:
-                - name: Cerrar la contabilidad general al final del período
+                - name: Cerrar el libro mayor al final del período
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Espacio de trabajo de cierre del período financiero
                   href: general-ledger/financial-period-close-workspace.md
@@ -1146,6 +1150,16 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Definir directivas de auditoría para documentos de origen
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Solución de problemas
+              items:
+                - name: Cambiar la divisa contable o de notificación
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: Cambiar o reasignar un calendario de libro mayor
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: Configuración de reversiones en diarios y líneas
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: Saldos de apertura que faltan en el cierre de fin de año
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: Informes financieros
           items:
             - name: Introducción a los informes financieros
@@ -1396,9 +1410,9 @@
                   href: public-sector/general-budget-reservations-project-accounting.md
             - name: Activos fijos en el sector público
               href: public-sector/fixed-asset-public-sector.md
-            - name: Contabilidad general en el sector público
+            - name: Libro mayor en el sector público
               items:
-                - name: Información general de la contabilidad general en el sector público
+                - name: Información general del libro mayor en el sector público
                   href: public-sector/general-ledger-public-sector.md
                 - name: Asientos contables avanzados en el sector público
                   href: public-sector/advanced-ledger-entries-public-sector.md
@@ -1564,7 +1578,7 @@
                       href: localizations/latam-bra-icms-tax-fiscal-documents.md
                     - name: Importar documentos fiscales
                       href: localizations/latam-bra-import-fiscal-documents.md
-                    - name: Exportar e importar transacciones de entidad jurídica desde la consolidación de contabilidad general
+                    - name: Exportar e importar transacciones de entidad jurídica desde la consolidación del libro mayor
                       href: localizations/latam-bra-general-ledger-consolidation-transactions.md
                     - name: Importar y comprobar documentos NF-e XML y archivos DANFE
                       href: localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
@@ -1644,15 +1658,23 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: NT2020.006 - Plataforma digital de ventas de intermedio para NF-e
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
-                    - name: 'NT2019.001: Reglas de exenciones y beneficios fiscales para NF-e/NFC-e'
+                    - name: 'NT2019.001: reglas de exenciones y beneficios fiscales para NF-e/NFC-e'
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: Extracto de impuestos SPED-Reinf
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: Información general de SPED-Reinf
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: Configurar mensaje electrónico
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: Configurar libros fiscales
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: Eventos
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: Resolución fiscal SPED 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
-                - name: 'SPED fiscal 2020: Información complementaria del ICMS-ST para el diseño fiscal SPED 014'
+                - name: 'SPED fiscal 2020: información complementaria del ICMS-ST para el diseño fiscal SPED 014'
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: 'Fiscal SPED: diseño 014'
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
@@ -1778,10 +1800,12 @@
                   href: localizations/tasks/fixed-asset-depreciation-allocation.md
                 - name: Mostrar importes de débito y de crédito en cuentas contables
                   href: localizations/apac-chn-negative-debits-credits.md
-                - name: Registro de operaciones del usuario por la regla de trabajo de China
+                - name: Registro de operaciones del usuario según la regla de trabajo de China
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: Preguntas frecuentes sobre facturas de cliente con IVA
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
+                - name: Exportación GB/T 24589-2010
+                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: República Checa
               items:
                 - name: República Checa
@@ -1964,7 +1988,7 @@
                   href: localizations/tasks/eur-00012-receive-eu-entry-certificate.md
                 - name: Id. de registro
                   href: localizations/emea-registration-ids.md
-                - name: Cargos invertidos
+                - name: Cargos revertidos
                   href: localizations/emea-reverse-charge.md
                 - name: Información general de transferencias de crédito SEPA
                   href: accounts-payable/sepa-credit-transfer.md
@@ -2038,11 +2062,21 @@
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: Asientos cronológicos de facturas
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Crear archivo de auditoría estándar para Francia (FEC)
-                  href: localizations/emea-fra-fec-audit-file.md
+                - name: Archivo de auditoría para Francia
+                  items:
+                    - name: Información general de archivo de auditoría para Francia (FEC)
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: Requisitos previos para generar un archivo de auditoría FEC en Francia
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: Estructura de los orígenes de datos de Finance para el FEC
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: Preparar el entorno para generar un FEC
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: Generar un FEC en Dynamics 365 Finance
+                      href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Extractos de cuentas de clientes y proveedores
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
-                - name: Cálculo diario de interés de pagos atrasados y suma total en la factura y la carta de cobro
+                - name: Cálculo diario de intereses de pagos atrasados y suma total en la factura y la carta de cobro
                   href: localizations/tasks/fr-00018-daily-interest.md
                 - name: Depreciación excepcional
                   href: localizations/emea-fra-derogatory-depreciation.md
@@ -2262,7 +2296,7 @@
                                   href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
                                 - name: Pedidos de devolución de compra
                                   href: localizations/apac-ind-GST-purchase-return-order.md
-                                - name: Anticipos del proveedor con gastos invertidos
+                                - name: Anticipos del proveedor con gastos revertidos
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
                             - name: Transacciones de venta
                               items:
@@ -2272,7 +2306,7 @@
                                   href: localizations/apac-ind-GST-sell-registered-customer.md
                                 - name: Facturas de servicios
                                   href: localizations/apac-ind-GST-free-text-invoices.md
-                                - name: Ventas de mercancías gravables con un gasto invertido
+                                - name: Ventas de mercancías gravables con un gasto revertido
                                   href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
                                 - name: Ventas de artículos exentos
                                   href: localizations/apac-ind-GST-sales-exempted-item.md
@@ -2388,10 +2422,88 @@
                       href: localizations/tasks/apac-ind-day-based-calendar.md
                     - name: Configurar parámetros para calcular la depreciación
                       href: localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: Configurar depreciación de grupo de activos para libros de amortización
+                    - name: Configurar la depreciación de los grupos de activos para libros de amortización
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Transferencia de elementos principales al activo fijo
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: TDS de India
+                  items:
+                    - name: Información general de Impuestos deducidos en origen (TDS) de la India
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: Configuración básica para TDS
+                      items:
+                        - name: Configurar los parámetros de TDS
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: Configurar cuentas de TDS en el libro mayor
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: Configurar números de registro de TDS para entidades jurídicas
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: Configurar autoridades de retención de impuestos para el tipo de impuesto TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Configurar componentes de impuestos para el tipo de impuesto TDS
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: Configurar códigos de retención de impuestos para el tipo de impuesto TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Configurar periodos de liquidación de retención de impuestos para el tipo de impuesto TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: Configurar códigos de informes de retención de impuestos para el tipo de impuesto TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: Configurar códigos de retención de impuestos para el tipo de impuesto TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: Adjuntar códigos de impuestos de TDS a los grupos de impuestos de TDS y definir la fórmula para calcular el TDS
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: Registrar los números de certificado de concesión de TDS
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: Establecer parámetros de TDS en Proveedores y Clientes
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: Configurar programas de pago con asignación de TDS
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: Configurar tarifas de pago para pagos a la autoridad de TDS
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: 'Configuración de información de grupo TDS, PAN y TAN para proveedores y clientes'
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: Diseñador de fórmulas y límite de umbral para el cálculo de TDS
+                      items:
+                        - name: Diseñador de fórmulas para cálculos de TDS
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: Límite de umbral y límite de umbral de excepción
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: Cálculo de TDS en facturas
+                      items:
+                        - name: Cálculo de TDS en facturas
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: Calcular TDS en facturas usando diarios
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: Calcule facturas de TDS utilizando el formulario de pedido de compra y el formulario de pedido de ventas
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: Cálculo de TDS en facturas desde la página de facturas de servicios
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: Funcionalidad de factura dividida
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: Cálculo de TDS sobre pagos y pagarés
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: Cálculo de TDS en transacciones entre empresas
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: Proceso de liquidación de TDS
+                      items:
+                        - name: Cálculo de TDS sobre pagos y pagarés
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: Cálculo de TDS en transacciones entre empresas
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: Proceso de liquidación de TDS
+                          items:
+                            - name: Ejecutar el proceso periódico de liquidación de TDS
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: Liquidar pagos de TDS a proveedores de autoridad de TDS y generar challan TDS
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: Ver pagos y transacciones de TDS registrados para un período de liquidación de TDS
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: Registrar y actualizar los números y fechas de los certificados de TDS
+                          items:
+                            - name: Registrar los números de certificado recuperables de TDS
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: Actualizar los números y fechas de los certificados para transacciones de TDS
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Italia
               items:
                 - name: Información general para Italia
@@ -2440,7 +2552,7 @@
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
                 - name: Liquidación de comisión sobre pagos
                   href: localizations/emea-ita-exil-commission-settlement.md
-                - name: Simulaciones de contabilidad general (Italia)
+                - name: Simulaciones del libro mayor (Italia)
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
                 - name: Perfiles de registro configurable para bancos y tipos de remesas
                   href: localizations/emea-ita-exil-bank-remittance.md
@@ -2578,7 +2690,7 @@
                   href: localizations/tasks/reopen-edit-customer-consolidated-invoice.md
                 - name: Reabrir y editar una factura consolidada del proveedor
                   href: localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
-                - name: Invertir una letra de cambio endosada
+                - name: Revertir una letra de cambio endosada
                   href: localizations/tasks/reverse-endorsed-bill-exchange.md
                 - name: Ejecutar la prueba de reconocimiento y calcular el importe de la debilitación en activos individuales
                   href: localizations/tasks/run-recognition-test-calculate.md
@@ -2790,7 +2902,7 @@
               items:
                 - name: Información general de Rusia
                   href: localizations/russia.md
-                - name: Contabilidad general
+                - name: Libro mayor
                   items:
                     - name: Correspondencia de las cuentas
                       href: localizations/rus-correspondence-accounts.md
@@ -3118,19 +3230,19 @@
                   href: localizations/united-kingdom.md
                 - name: Esquema del sector de la construcción
                   href: localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: Cargo invertido
+                - name: Cargo revertido
                   items:
                     - name: Crear un crédito en el descuento de liquidación
                       href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                    - name: Crear un pedido de compra que incluya artículos sujetos a IVA de cargo invertido
+                    - name: Crear un pedido de compra que incluya artículos sujetos a IVA de cargo revertido
                       href: localizations/tasks/purchase-order-reverse-charge-vat.md
-                    - name: Crear un pedido de ventas que incluya artículos sujetos a IVA de cargo invertido
+                    - name: Crear un pedido de ventas que incluya artículos sujetos a IVA de cargo revertido
                       href: localizations/tasks/gb-00002-sales-order.md
-                    - name: Configurar grupos de impuestos de artículos para IVA de cargo invertido
+                    - name: Configurar grupos de impuestos de artículos para IVA de cargo revertido
                       href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                    - name: 'Configurar grupos, reglas y parámetros de artículos con IVA de cargo invertido'
+                    - name: 'Configurar grupos, reglas y parámetros de artículos con IVA de cargo revertido'
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                    - name: Configurar grupos de impuestos para IVA de cargo invertido
+                    - name: Configurar grupos de impuestos para IVA de cargo revertido
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
                 - name: Crear impuestos digitales para IVA
                   href: localizations/emea-gbr-mtd-vat-integration.md

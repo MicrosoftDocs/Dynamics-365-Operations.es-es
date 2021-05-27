@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800392"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027465"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configurar y trabajar con retenciones de pedidos del centro de llamadas
 
@@ -53,7 +53,7 @@ Una vez especificada y guardada la información de bloqueo, el usuario puede cer
 
 Si el indicador **Habilitar finalización de pedidos** está activado en el canal del centro de asistencia telefónica, el pago no tiene que aplicarse a un pedido que se haya puesto en espera. Por el contrario, para un pedido de ventas que no esté en espera, el usuario no puede salir de la página de entrada de pedidos de ventas hasta que no se haya aplicado el pago. Por supuesto, se exigirá el pago antes de liberar el bloqueo del pedido.
 
-Además, los usuarios del centro de asistencia telefónica pueden colocar un bloqueo manual de fraudes en los pedidos que sean sospechosos por algún motivo. Los pedidos también pueden ponerse en espera automáticamente cuando coincidan con los criterios y las reglas de fraude activos. Para obtener más información acerca de este tipo de bloqueo de pedido, consulte [Configurar alertas de fraude](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Además, los usuarios del centro de asistencia telefónica pueden colocar un bloqueo manual de fraudes en los pedidos que sean sospechosos por algún motivo. Los pedidos también pueden ponerse en espera automáticamente cuando coincidan con los criterios y las reglas de fraude activos. Para obtener más información acerca de este tipo de bloqueo de pedido, consulte [Configurar alertas de fraude](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Visualización y gestión de los pedidos que están en espera
 

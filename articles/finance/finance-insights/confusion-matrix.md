@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818761"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028212"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Resultados de modelos de aprendizaje automático (versión preliminar)
 
@@ -63,8 +63,8 @@ Para comenzar a abordar esta pregunta, considere la precisión de una suposició
 
 Otro aspecto que cabe destacar. Considere un escenario en el que se utiliza una prueba médica para detectar una enfermedad en un paciente. Este problema es un problema de clasificación binaria donde un resultado positivo indica que el paciente tiene la enfermedad. En este escenario, debe pensar en el impacto de los siguientes errores:
 
-- Falsos positivos, donde la prueba dice que una paciente tiene la enfermedad, pero en realidad no la tiene
-- Falsos negativos, donde la prueba dice que una paciente no tiene la enfermedad, pero en realidad la tiene
+- Falsos positivos, donde la prueba dice que una paciente tiene la enfermedad, pero en realidad no la tiene.
+- Falsos negativos, donde la prueba dice que una paciente no tiene la enfermedad, pero en realidad la tiene.
 
 Obviamente, ambos tipos de error son indeseables, pero ¿cuál es peor? De nuevo, depende. En el caso de una enfermedad potencialmente mortal que requiere un tratamiento rápido, la minimización de los falsos negativos (con suerte, seguida de pruebas adicionales) tiene prioridad. En otras situaciones menos críticas, los creadores del modelo pueden minimizar los falsos positivos. En cualquier caso, una conclusión razonable es que, para determinar de forma eficaz la calidad de un modelo, debe tener más información de la que proporciona una métrica de precisión.
 

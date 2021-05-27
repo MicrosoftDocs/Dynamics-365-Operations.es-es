@@ -1,6 +1,6 @@
 ---
 title: Revalorización de divisa extranjera para clientes y proveedores
-description: Las fluctuaciones en los tipos de cambio hacen que el valor teórico (valor en los libros) de las transacciones abiertas en divisas extranjeras varíen con el tiempo. Este artículo proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas.
+description: Este tema proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df0ae1aa0e75eb8c64d5ca31fcd3605b5112cdd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e9a4bfdad4e69b13d7b0324f4978f13d6d295
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815917"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026166"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Revalorización de divisa extranjera para clientes y proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Las fluctuaciones en los tipos de cambio hacen que el valor teórico (valor en los libros) de las transacciones abiertas en divisas extranjeras varíen con el tiempo. Este artículo proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas. 
+Las fluctuaciones en los tipos de cambio hacen que el valor teórico (valor en los libros) de las transacciones abiertas en divisas extranjeras varíen con el tiempo. Este tema proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas. 
 
 El valor teórico, o valor en los libros, de las transacciones de proveedores abiertas en divisas extranjeras varía con el tiempo debido a las fluctuaciones del tipo de cambio. Para actualizar el valor de las transacciones de proveedores y clientes abiertas, ejecute un proceso de revalorización de divisa extranjera. Puede ejecutarse una revalorización de divisa extranjera tanto para clientes como para proveedores. Este proceso utiliza un nuevo tipo de cambio para revalorizar los importes abiertos o no liquidados en una fecha concreta. Las diferencias entre los importes registrados originales y los importes revalorizados generarán un beneficio no realizado o una pérdida para cada transacción abierta. Los subdiarios contables de proveedores y clientes se actualizarán a continuación para reflejar el beneficio no realizado o la pérdida, y se registrará un asiento en la contabilidad general.
 
@@ -55,7 +55,7 @@ Se mantiene un registro cada vez que se ejecuta una revalorización de divisa ex
     -   **Registro**: se utiliza el perfil de contabilización de la transacción del cliente.
     -   **Seleccionar**: el perfil de contabilización viene determinado por el campo **Perfil de contabilización**.
 -   **Perfil de contabilización**: si se ha habilitado **Seleccionar** en el campo **Utilizar el perfil de contabilización desde**, el perfil de contabilización que se indique en este campo determina el perfil de contabilización de las transacciones de revalorización de divisa extranjera.
--   **Dimensiones financieras**: las dimensiones financieras contabilizadas en los asientos contables de las transacciones de revalorización de divisa extranjera:
+-   **Dimensiones financieras**: las dimensiones financieras contabilizadas en los asientos contables de las transacciones de revalorización de divisa extranjera. Las dimensiones financieras no se validan con las reglas para la estructura contable. La estructura contable que estaba vigente en el momento en que se contabilizaron las facturas podría no ser la misma que las reglas vigentes cuando se completó la revalorización. No existe la opción de seleccionar dimensiones financieras específicas en el proceso de revalorización, por lo que se omite la validación de la estructura contable.  
     -   **Ninguno**: no se contabilizan dimensiones financieras. Si tiene una dimensión financiera necesaria en su estructura contable, el proceso de revalorización se ejecuta y crea los asientos contables sin ninguna dimensión financiera. Recibirá un mensaje de advertencia primero para que pueda cancelar el proceso de revalorización.
     -   **Tabla**: las dimensiones financieras de la cuenta de cliente o de proveedor se contabilizan en las transacciones de revalorización de divisa extranjera.
     -   **Registro**: las dimensiones financieras de la transacción que se está revalorizando se registran en las transacciones de revalorización de divisa extranjera. De forma predeterminada, las dimensiones financieras de la cuenta contable de cliente o proveedor de la transacción original se usarán para la cuenta principal de cliente o proveedor de la transacción de revalorización, y las dimensiones financieras de la cuenta contable de gastos/activos/ingresos de la transacción original se usarán para la cuenta principal de beneficio no realizado y pérdidas de la transacción de revalorización.

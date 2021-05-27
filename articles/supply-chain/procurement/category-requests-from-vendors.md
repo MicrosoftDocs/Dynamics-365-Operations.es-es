@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb3555e6d923fe37479c3204f0b78f7cdf510118
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938543"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015960"
 ---
 # <a name="category-requests-from-vendors"></a>Solicitudes de categoría desde proveedores
 
@@ -36,10 +36,7 @@ Una vez activada la función, aún puede agregar manualmente categorías de comp
 
 Antes de que un proveedor pueda interactuar con las solicitudes de categoría, debe configurarse para la colaboración de proveedores.
 
-El proveedor debe tener al menos un usuario de colaboración de proveedor. Solo los usuarios de proveedores que tienen uno o ambos de los siguientes roles de seguridad pueden crear y enviar solicitudes de categoría:
-
-- Contacto del proveedor (externo)
-- Administrador de proveedor (externo)
+El proveedor debe tener al menos un usuario de colaboración de proveedor. Solo los usuarios que son proveedores con el rol de seguridad *Administrador de proveedor (externo)* pueden crear y enviar solicitudes de categorías.
 
 Para obtener más información, consulte [Configuar y mantener la colaboración del proveedor](set-up-maintain-vendor-collaboration.md).
 

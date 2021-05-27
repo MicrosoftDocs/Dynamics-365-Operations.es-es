@@ -2,11 +2,9 @@
 title: Aprovisionar Microsoft Teams desde Dynamics 365 Commerce
 description: Este tema describe cómo aprovisionar Microsoft Teams mediante el uso de datos organizativos de Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba7c74942735b723d1015dc4da0068fbb631bc6b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908913"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022455"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Aprovisionar Microsoft Teams desde Dynamics 365 Commerce
 
@@ -75,9 +73,9 @@ Para subir un jerarquía organizativa de Commerce a Teams, siga estos pasos.
     
 1. En la sede central de Commerce, vaya a **Retail y Commerce \> Configuración de sede central \> Configuración de integración de Microsoft Teams**.
 1. Seleccione **Descargar la jerarquía de destino** y luego seleccione **Tiendas minoristas por región** para descargar un archivo de valores separados por comas (CSV) de la jerarquía organizativa.
-1. Instale el módulo Microsoft Teams PowerShell siguiendo los pasos en [Instalar Microsoft Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Instale el módulo Microsoft Teams PowerShell siguiendo los pasos en [Instalar Microsoft Teams PowerShell](/microsoftteams/teams-powershell-install).
 1. Cuando se le solicite en la ventana de Teams PowerShell, inicie sesión con la cuenta de administrador para su inquilino de Azure AD.
-1. Siga los pasos en [Configurar la jerarquía de orientación de su equipo](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy) para cargar el archivo CSV para la jerarquía de orientación.
+1. Siga los pasos en [Configurar la jerarquía de orientación de su equipo](/microsoftteams/set-up-your-team-hierarchy) para cargar el archivo CSV para la jerarquía de orientación.
 
 ## <a name="verify-that-the-organizational-hierarchy-was-uploaded-to-teams"></a>Verifique que la jerarquía organizativa se cargó en Teams
 

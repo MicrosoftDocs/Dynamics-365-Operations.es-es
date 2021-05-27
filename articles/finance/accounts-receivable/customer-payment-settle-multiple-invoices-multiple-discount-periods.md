@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56d74b6700b48a8c523d02a1affc421ee370215e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819923"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027755"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Usar un pago para liquidar facturas que abarcan varios períodos de descuento
 
@@ -66,7 +66,7 @@ Si Arnie crea un diario de pagos para liquidar completamente estas facturas el 1
 | Seleccionado y resaltado | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Liquidación parcial el 29 de junio
-El cliente 4.032 puede pagar un importe parcial, como la mitad de cada factura. Arnie crea un pago para el cliente 4032 y después abre la página **Liquidar transacciones**. En la página **Liquidar transacciones**, Arnie marca las tres líneas de factura para su liquidación. En cada línea, especifica el importe que liquidar en función de las instrucciones que el cliente ha proporcionado. Cuando Arnie selecciona una línea, ve el importe del descuento de dicha línea y el importe de descuento por pronto pago aplicado. Dado que el cliente paga la mitad de la factura, Arnie ve que el valor del campo **Importe de descuento por pronto pago** de la factura FTI-10042 es **20,00**, pero el valor del campo **Descuento por pronto pago aplicado** es **10,00**. El importe del pago es de 1.485,00.
+El cliente 4.032 puede pagar un importe parcial, como la mitad de cada factura. Arnie crea un pago para el cliente 4032 y después abre la página **Liquidar transacciones**. En la página **Liquidar transacciones**, Arnie marca las tres líneas de factura para su liquidación. En cada línea, Arnie especifica el importe que liquidar en función de las instrucciones que el cliente ha proporcionado. Cuando Arnie selecciona una línea, ve el importe del descuento de dicha línea y el importe de descuento por pronto pago aplicado. Dado que el cliente paga la mitad de la factura, Arnie ve que el valor del campo **Importe de descuento por pronto pago** de la factura FTI-10042 es **20,00**, pero el valor del campo **Descuento por pronto pago aplicado** es **10,00**. El importe del pago es de 1.485,00.
 
 | Marcar                     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Divisa | Importe para liquidar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +74,11 @@ El cliente 4.032 puede pagar un importe parcial, como la mitad de cada factura. 
 | Seleccionado                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | USD      | 495,00           |
 | Seleccionado y resaltado | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
 
-Arnie también puede especificar manualmente el importe de pago de 1.485,00 antes de abrir la página **Liquidar transacciones**. Si Arnie especifica manualmente el importe del pago y después marca las tres transacciones, pero no ajusta el valor del campo **Importe para liquidar** para cada transacción, recibe el siguiente mensaje al cerrar la página:
+Arnie también puede especificar manualmente el importe de pago de 1485,00 antes de abrir la página **Liquidar transacciones**. Si Arnie especifica manualmente el importe del pago y después marca las tres transacciones, pero no ajusta el valor del campo **Importe para liquidar** para cada transacción, recibe el siguiente mensaje al cerrar la página:
 
 > El importe total de las transacciones marcadas es distinto al del diario. ¿Desea cambiar el importe del diario?
 
-Si Arnie desea que el importe del pago sea de solo 1.485,00, debe hacer clic en **No** y, continuación, registrar el diario. Las transacciones se liquidan como sigue:
+Si Arnie desea que el importe del pago sea de solo 1485,00, debe hacer clic en **No** y, continuación, registrar el diario. Las transacciones se liquidan como sigue:
 
 1.  La factura FTI-10040 se ha liquidado totalmente por un valor de 1.000,00, ya que se introdujo el 15 de mayo y es la factura más antigua. No se ha aplicado ningún descuento por pronto pago. El importe restante de la transacción de pago es de 485,00.
 2.  No se ha liquidado ningún importe de la factura FTI-10041. Las facturas FTI-10041 y FTI-10042 se introdujeron la misma fecha. Sin embargo, un descuento del uno por ciento está disponible para la factura FTI-10041 y un descuento del dos por ciento está disponible para la factura FTI-10042. Dado que un mejor descuento está disponible para la factura FTI-10042, los 485,00 restantes se liquidan con la factura FTI-10042.

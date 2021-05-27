@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857282"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018840"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -158,7 +158,7 @@ Las cajas registradoras, las impresoras de recibos y los terminales de pago gest
 
 ### <a name="dedicated"></a>Dedicada
 
-Los clientes de Modern POS para Windows y Android incluyen estaciones de hardware **dedicadas** o integradas. Esos clientes pueden comunicarse directamente con los periféricos utilizando la lógica de negocios que está integrada en las aplicaciones. La aplicación Android solo admite dispositivos de red. Para más información sobre soporte periférico para Android, visite el artículo [Configurar la aplicación POS hybrid en Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Los clientes de Modern POS para Windows y Android incluyen estaciones de hardware **dedicadas** o integradas. Esos clientes pueden comunicarse directamente con los periféricos utilizando la lógica de negocios que está integrada en las aplicaciones. La aplicación Android solo admite dispositivos de red. Para más información sobre soporte periférico para Android, visite el artículo [Configurar la aplicación POS hybrid en Android e iOS](./dev-itpro/hybridapp.md).
 
 Para usar la estación de hardware dedicada, asigne un perfil de hardware a un registro que usará Modern POS para las aplicaciones de Windows o Android. A continuación, cree una estación de hardware de tipo **Dedicado** para la tienda donde se usará el registro. Inicie Modern POS en modo sin caja registradora y use la operación **Gestionar estaciones de hardware** para activar las capacidades de la estación de hardware, la estación de hardware dedicada estará activa de manera predeterminada. A continuación, cierre sesión en Modern POS, vuelva a iniciar sesión y abra un turno y los periféricos configurados en el perfil de hardware se podrán utilizar. 
 
@@ -199,7 +199,7 @@ Para obtener información, consulte [Configurar, instalar y activar Modern POS (
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Establecimiento y configuración de Modern POS para Android e iOS
 
-Para obtener más información, consulte [Configurar una aplicación de POS Hybrid en Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Para obtener más información, consulte [Configurar una aplicación de POS Hybrid en Android e iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Establecimiento y configuración del dispositivo de OPDV
 
@@ -494,7 +494,7 @@ Esta configuración es la más típica para los registros tradicionales y fijos 
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS para Android con una estación de hardware de IPC (integrado)
 
-**Novedad para 10.0.8**: las impresoras de red Epson y las cajas registradoras conectadas a esas impresoras a través del puerto DK ahora son compatibles con la aplicación Modern POS para Android Para obtener más información, visite el artículo [Configurar una aplicación de POS Hybrid en Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**Novedad para 10.0.8**: las impresoras de red Epson y las cajas registradoras conectadas a esas impresoras a través del puerto DK ahora son compatibles con la aplicación Modern POS para Android Para obtener más información, visite el artículo [Configurar una aplicación de POS Hybrid en Android e iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Todos los clientes de Modern POS que tienen una estación de hardware de IIS compartida comprometida
 
@@ -614,6 +614,9 @@ Los siguientes periféricos se probaron mediante la estación de hardware de IPC
 | Star         | TSP650II | Personalizado    | Conectado a través de la red   |
 | Star         | mPOP     | OPDV      | Conectado mediante Bluetooth |
 | HP           | F7M67AA  | OPDV      | Con tecnología USB             |
+
+> [!NOTE]
+> La impresora Star TSP 100 no es compatible con la estación de hardware incorporada. La estación de hardware incorporada utiliza un proceso de 64 bits, que no es compatible con los controladores de Star TP 100 existentes. 
 
 #### <a name="bar-code-scanner"></a>Escáner de códigos de barras
 

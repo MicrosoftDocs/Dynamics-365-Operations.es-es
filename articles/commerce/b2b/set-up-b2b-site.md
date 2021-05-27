@@ -2,7 +2,6 @@
 title: Configurar un sitio de comercio electrónico B2B
 description: Este tema describe cómo configurar un sitio de comercio electrónico de empresa a empresa (B2B) en Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 461e79f63569bbfe77f9075c562a5b1f3da28cc2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937515"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018864"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Configurar un sitio de comercio electrónico B2B
 

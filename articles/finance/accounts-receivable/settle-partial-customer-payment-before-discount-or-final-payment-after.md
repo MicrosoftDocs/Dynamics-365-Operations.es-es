@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4df5ebaf6e8ae8414515bd11087adcd05a88e581
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835157"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027537"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Liquidar un pago parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
 
@@ -95,7 +95,7 @@ La información de descuento aparece en la parte inferior de la página **Liquid
 | Descuento por pronto pago aplicado          | 3,00      |
 | Importe de descuento por pronto pago para aplicar | 7,00      |
 
-Arnie cambia de nuevo el valor del campo **Utilizar descuento por pronto pago** a **Normal** porque no desea permitir que este cliente aproveche el descuento por pronto pago restante de 7,00. A continuación, Arnie registra el pago. Cuando Arnie abre la página **Transacciones de cliente**, observa que la factura tiene un saldo de 0,00. También puede ver que existen dos pagos. Un pago es de 297,00 con un descuento por pronto pago de 3,00 y el otro pago es de 700,00.
+Arnie cambia de nuevo el valor del campo **Utilizar descuento por pronto pago** a **Normal** porque no desea permitir que este cliente aproveche el descuento por pronto pago restante de 7,00. A continuación, Arnie registra el pago. Cuando Arnie abre la página **Transacciones de cliente**, factura tiene un saldo de 0,00. Existen dos pagos. Un pago es de 297,00 con un descuento por pronto pago de 3,00 y el otro pago es de 700,00.
 
 | Comprobante    | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo | Divisa |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

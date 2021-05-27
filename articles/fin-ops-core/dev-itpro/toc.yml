@@ -80,11 +80,11 @@
               href: dev-tools/manage-runtime-packages.md
             - name: Paquetes implementables completos
               href: dev-tools/aio-deployable-packages.md
-            - name: Actualizar versiones de modelos en la compilación automática
+            - name: Actualizar versiones de modelos en la compilación automatizada
               href: dev-tools/version-models-build.md
         - name: Integración de datos
           items:
-            - name: Elegir una estrategia de integración de datos (importación o exportación)
+            - name: Integración entre aplicaciones de Finance and Operations y servicios de terceros
               href: data-entities/integration-overview.md
             - name: Limitación basada en prioridades
               hreF: data-entities/priority-based-throttling.md
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Crear registros usando plantillas de registro
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Integración de datos mediante Dataverse
+                - name: Integrador de datos
                   items:
-                    - name: Información general de la integración de datos mediante Dataverse
-                      href: data-entities/data-integration-cds.md
-                    - name: Integración de doble escritura
+                    - name: Configurar un escenario de cliente potencial a cliente
                       items:
-                        - name: Página de inicio de doble escritura
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Novedades y cambios en doble escritura
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Información general de la doble escritura
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: Configuración de la doble escritura
-                          items:
-                            - name: Requisitos del sistema para la doble escritura
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Orientación sobre cómo configurar la doble escritura
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: Consideraciones para la sincronización inicial
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Configuración de la doble escritura de Lifecycle Services
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: Habilitar doble escritura para aplicaciones de Finance and Operations existentes
-                              items:
-                                - name: Habilitar doble escritura para aplicaciones de Finance and Operations existentes
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: Requisitos y requisitos previos del sistema
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: Cómo usar el asistente de doble escritura para vincular sus entornos
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: Habilitar mapa de entidad para doble escritura
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: Migración de tipo de datos de divisa para doble escritura
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: Configurar la asignación de los campos de estado del pedido de ventas
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: Filtrar pedidos de empresas vinculadas para evitar la sincronización de pedidos y líneas de pedido
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: Gestión de doble escritura
-                          items:
-                            - name: Personalizar asignaciones de entidad y campo
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: Gestión de varios mapas de entidades
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: Editar una entidad jurídica después de la configuración de doble escritura
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: Gestión de errores y notificaciones de alerta
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: Administración de ciclo de vida de la aplicación
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: Conceptos de asignación entre aplicaciones
-                          items:
-                            - name: Maestro de clientes integrado
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: Integración del proveedor
-                              items:
-                                - name: Maestro de proveedores integrado
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Cambiar entre diseños de proveedor
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: Tarjetas de fidelización de clientes y puntos de recompensa
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: Integración del producto
-                              items:
-                                - name: Experiencia unificada del producto
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Sitios y almacenes integrados
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Integración de empresa
-                              items:
-                                - name: Concepto de empresa en Dataverse
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Inicializar los datos de la empresa
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Jerarquía organizativa en Dataverse
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Datos financieros y fiscales
-                              items:
-                                - name: Acceso a datos financieros y de referencia fiscal
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Libro mayor integrado
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Maestro de impuestos integrado
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: Integrar adquisiciones en Supply Chain Management con Field Service
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: Sincronizar a petición con el motor de precios de Supply Chain Management
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: Cliente potencial a cliente en doble escritura
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Usar el motor de precios Dynamics 365 Commerce con Dynamics 365 Sales
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: Activos internos para mantenimiento
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: Disponibilidad de inventario
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 'Trabajador integrado, trabajo y puesto'
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: Parte y libreta de direcciones global
-                              href: data-entities/dual-write/party-gab.md
-                            - name: Usar Power Portal con el modelo de datos de parte
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: Actualizar al modelo de parte y libreta de direcciones global
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: Integración de notas
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: Referencia de asignación
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: Compatibilidad con la doble escritura
-                          items:
-                            - name: Compatibilidad para soluciones de Field Service y de Project Service Automation
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Migrar datos de Cliente potencial a cliente desde el integrador de datos a doble escritura
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: Solución de problemas
-                              items:
-                                - name: Verificar la configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Solucionar problemas durante la configuración inicial
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: Solucionar problemas durante la sincronización inicial
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: Solucionar problemas de sincronización en vivo
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: Solucionar problemas relacionados con el conocimiento de la solución
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Solucionar problemas de actualizaciones de aplicaciones de Finance and Operations
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: Solucionar problemas generales
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Preguntas frecuentes sobre doble escritura
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: Integración con Power Platform
+                        - name: Cliente potencial a cliente
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Sincronizar cuentas directamente desde Ventas con clientes de Finance and Operations
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Sincronizar productos directamente desde Finance and Operations con productos de Ventas
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Sincronizar contactos directamente desde Ventas con contactos o clientes de Finance and Operations
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Ventas con Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Sincronización de pedidos de ventas entre Ventas y Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations con Ventas
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Configurar la integración con Field Service
                       items:
-                        - name: Configurar un escenario de cliente potencial a cliente
-                          items:
-                            - name: Cliente potencial a cliente
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Sincronizar cuentas directamente desde Sales con clientes de Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Sincronizar productos directamente desde Finance and Operations con productos de Sales
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Sincronizar contactos directamente desde Sales con contactos o clientes de Finance and Operations
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales con Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Sincronización de pedidos de ventas entre Sales y Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations con Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: Configurar la integración con Field Service
-                          items:
-                            - name: Información general de la configuración de la integración con Field Service
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Sincronizar productos de Finance and Operations con productos de Field Service
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Sincronizar transferencias y ajustes de inventario desde Field Service con Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Sincronizar información de nivel de inventario de Finance and Operations a Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Sincronizar productos con unidad de inventario de Finance and Operations a Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Sincronizar lista de proyectos de Finance and Operations a Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Sincronizar almacenes de Finance and Operations a Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Sincronizar pedidos de trabajo con proyectos de a Field Service a Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: Configurar la integración de Project Service Automation
-                          items:
-                            - name: Información general de Project Service Automation
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: Parámetros de integración de Project Service Automation
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: Sincronizar proyectos y contratos de proyecto
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: Sincronizar tareas del proyecto
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: Sincronizar categorías de gastos de proyectos
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: Sincronizar estimaciones del proyecto con las previsiones del proyecto
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: Sincronizar valores reales del proyecto con el diario de integración del proyecto
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Información general de la configuración de la integración con Field Service
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: Sincronizar productos de Finance and Operations con productos de Field Service
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Sincronizar transferencias y ajustes de inventario desde Field Service con Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Sincronizar información de nivel de inventario de Finance and Operations a Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Sincronizar productos con unidad de inventario de Finance and Operations a Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Sincronizar lista de proyectos de Finance and Operations a Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Sincronizar almacenes de Finance and Operations a Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Sincronizar pedidos de trabajo con proyectos de a Field Service a Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Configurar la integración de Project Service Automation
+                      items:
+                        - name: Información general de Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Parámetros de integración de Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: Sincronizar proyectos y contratos de proyecto
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: Sincronizar tareas del proyecto
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: Sincronizar categorías de gastos de proyectos
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: Sincronizar estimaciones del proyecto con las previsiones del proyecto
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: Sincronizar valores reales del proyecto con el diario de integración del proyecto
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Consumir servicios web externos
               href: data-entities/consume-external-web-service.md
             - name: Mensajería electrónica
@@ -494,8 +360,10 @@
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Actualizar un entorno
                       href: deployment/updateenvironment-newinfrastructure.md
-                    - name: Solución de problemas de los entornos implementados con la implementación de autoservicio
+                    - name: Solución de problemas de los entornos implementados con la implementación en autoservicio
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: Preguntas frecuentes sobre el mantenimiento planificado en entornos de autoservicio
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: Completar incorporación de Azure Resource Manager
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute y Finance and Operations
@@ -1150,11 +1018,143 @@
           items:
             - name: Integración de Microsoft Power Platform con Finance and Operations
               href: power-platform/overview.md
+            - name: Doble escritura
+              items:
+                - name: Página de inicio de Doble escritura
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: Novedades y cambios en doble escritura
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: Información general sobre la doble escritura
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: Configuración de la doble escritura
+                  items:
+                    - name: Requisitos del sistema para la doble escritura
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: Orientación sobre cómo configurar la doble escritura
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: Consideraciones para la sincronización inicial
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Configuración de la doble escritura de Lifecycle Services
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: Habilitar doble escritura para aplicaciones de Finance and Operations existentes
+                      items:
+                        - name: Habilitar doble escritura para aplicaciones de Finance and Operations existentes
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: Requisitos y requisitos previos del sistema
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: Cómo usar el asistente de doble escritura para vincular sus entornos
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: Habilitar mapa de entidad para doble escritura
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: Migración de tipo de datos de divisa para doble escritura
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: Configurar la asignación de los campos de estado del pedido de ventas
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: Filtrar pedidos de empresas vinculadas para evitar la sincronización de pedidos y líneas de pedido
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: Gestión de doble escritura
+                  items:
+                    - name: Personalizar asignaciones de entidad y campo
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: Gestión de varios mapas de entidades
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: Editar una entidad jurídica después de la configuración de doble escritura
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Gestión de errores y notificaciones de alerta
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: Administración del ciclo de vida de la aplicación
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: Conceptos de asignación entre aplicaciones
+                  items:
+                    - name: Maestro de clientes integrado
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: Integración del proveedor
+                      items:
+                        - name: Maestro de proveedores integrado
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: Cambiar entre diseños de proveedor
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: Tarjetas de fidelización de clientes y puntos de recompensa
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: Integración del producto
+                      items:
+                        - name: Experiencia unificada del producto
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: Sitios y almacenes integrados
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: Integración de empresa
+                      items:
+                        - name: Concepto de empresa en Dataverse
+                          href: data-entities/dual-write/company-data.md
+                        - name: Inicializar los datos de la empresa
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Jerarquía organizativa en Dataverse
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: Datos financieros y fiscales
+                      items:
+                        - name: Acceso a datos financieros y de referencia fiscal
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: Libro mayor integrado
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: Maestro de impuestos integrado
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Integrar adquisiciones en Supply Chain Management con Field Service
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: Sincronizar a petición con el motor de precios de Supply Chain Management
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: Cliente potencial a cliente en doble escritura
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: Usar el motor de precios Dynamics 365 Commerce con Dynamics 365 Sales
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: Activos internos para mantenimiento
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: Disponibilidad de inventario
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 'Trabajador integrado, trabajo y puesto'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: Parte y libreta de direcciones global
+                      href: data-entities/dual-write/party-gab.md
+                    - name: Usar Power Portal con el modelo de datos de parte
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: Actualizar al modelo de parte y libreta de direcciones global
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Integración de notas
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: Referencia de asignación
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: Compatibilidad con la doble escritura
+                  items:
+                    - name: Compatibilidad para soluciones de Field Service y de Project Service Automation
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: Migrar datos de Cliente potencial a cliente desde el integrador de datos a doble escritura
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: Solución de problemas
+                      items:
+                        - name: Verificar la configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Solucionar problemas durante la configuración inicial
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: Solucionar problemas durante la sincronización inicial
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Solucionar problemas de sincronización en vivo
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Solucionar problemas relacionados con el conocimiento de la solución
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: Solucionar problemas de actualizaciones de aplicaciones de Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: Solución de problemas generales
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: Preguntas frecuentes sobre doble escritura
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: Entidades virtuales
               items:
+                - name: Información general sobre entidades virtuales
+                  href: power-platform/virtual-entities-overview.md
                 - name: Modelado de entidades
                   href: power-platform/entity-modeling.md
-                - name: Administración de ciclo de vida de la aplicación
+                - name: Administración del ciclo de vida de la aplicación
                   href: power-platform/application-lifecycle-management.md
                 - name: Referencia de administrador de Finance and Operations y Dataverse
                   href: power-platform/admin-reference.md

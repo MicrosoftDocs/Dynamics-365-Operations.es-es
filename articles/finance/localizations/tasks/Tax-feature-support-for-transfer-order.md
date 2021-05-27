@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920964"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021378"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Compatibilidad de la característica de impuestos para pedidos de transferencia
 
@@ -41,7 +40,7 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
 
 1. En la página **Características fiscales**, en la pestaña **Versiones**, seleccione la versión preliminar de la función y luego seleccione **Editar**.
 
-    ![Selección de Editar](../media/image1.png)
+    ![Selección de Editar](../media/tax-feature-support-01.png)
 
 2. En la página **Configuración de características fiscales**, en la pestaña **Códigos de impuestos**, seleccione **Agregar** para crear nuevos códigos de impuestos. Para este ejemplo, se crean tres códigos de impuestos: **NL-Exento**, **BE-RC-21** y **BE-RC+21**.
 
@@ -54,7 +53,7 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
         4. Seleccione **Agregar** en la tabla **Tipo**.
         5. Cambie **Está exento** a **Sí** en la sección **General**.
 
-        ![Código fiscal NL-Exento](../media/image2.png)
+        ![Código fiscal NL-Exento](../media/tax-feature-support-02.png)
 
     - Cuando se recibe un pedido de transferencia en un almacén de Bélgica, el mecanismo de inversión del cargo se aplica mediante los códigos de impuestos **BE-RC-21** y **BE-RC+21**.
         
@@ -67,7 +66,7 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
         6. Cambie **Es cargo invertido** a **Sí** en la sección **General**.
         7. Seleccione **Guardar**.
 
-        ![Código de impuestos BE-RC-21 para cargos invertidos](../media/image3.png)
+        ![Código de impuestos BE-RC-21 para cargos invertidos](../media/tax-feature-support-03.png)
         
         Cree el código de impuestos **BE-RC+21**.
         1. Seleccione **Agregar** e introduzca **BE-RC-21** en el campo **Código de impuesto**.
@@ -77,7 +76,7 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
         5. Introduzca **21** en el campo **Tipo impositivo**.
         6. Seleccione **Guardar**.
 
-        ![Código de impuestos BE-RC+21 para cargos invertidos](../media/image4.png)
+        ![Código de impuestos BE-RC+21 para cargos invertidos](../media/tax-feature-support-04.png)
 
 3. Defina la aplicabilidad de los códigos de impuestos.
 

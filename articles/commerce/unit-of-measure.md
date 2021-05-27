@@ -2,7 +2,6 @@
 title: Aplicar la configuración de unidades de medida
 description: Este tema cubre las configuraciones de unidades de medida y describe cómo aplicarlas en Microsoft Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c5750ae506978dfac842eebf4ba6036322bdd7f
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: d1fba966434b80c9b64c1f4d9b6b87993d59c0bf
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937617"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022383"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Aplicar la configuración de unidades de medida
 
