@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,85 +15,85 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a2325da54b8d47ef39d0aacb5dac87107ebdd5bf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 154c3d70b61869795edc25514e98a28389eeb244
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019572"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052250"
 ---
-# <a name="benefits-management-workspace"></a><span data-ttu-id="26798-103">Espacio de trabajo de administración de prestaciones</span><span class="sxs-lookup"><span data-stu-id="26798-103">Benefits management workspace</span></span>
+# <a name="benefits-management-workspace"></a><span data-ttu-id="1b4ac-103">Espacio de trabajo de administración de prestaciones</span><span class="sxs-lookup"><span data-stu-id="1b4ac-103">Benefits management workspace</span></span>
 
 [!include [applies to](../includes/applies-to-hr.md)]
 
 [!include [preview feature](./includes/preview-feature.md)]
 
-<span data-ttu-id="26798-104">En este tema se describe el espacio de trabajo de **Gestión de beneficios** de Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="26798-104">This topic describes the **Benefits management** workspace in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="1b4ac-104">En este tema se describe el espacio de trabajo de **Gestión de beneficios** de Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-104">This topic describes the **Benefits management** workspace in Dynamics 365 Human Resources.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="26798-105">Para ver el espacio de trabajo **Gestión de beneficios**, primero debe habilitar la función **Espacio de trabajo de gestión de beneficios (vista previa)** en la gestión de funciones.</span><span class="sxs-lookup"><span data-stu-id="26798-105">To view the **Benefits management** workspace, you must first enable the **(Preview) Benefits management workspace** feature in Feature management.</span></span> <span data-ttu-id="26798-106">Para obtener más información sobre la habilitación de características en vista previa, consulte [Administrar características](../hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="26798-106">For more information about enabling preview features, see [Manage features](../hr-admin-manage-features.md).</span></span><br><br><span data-ttu-id="26798-107">![Habilitar el espacio de trabajo de administración de prestaciones](./media/hr-benefits-management-workspace-enable.png)</span><span class="sxs-lookup"><span data-stu-id="26798-107">![Enable Benefits management workspace](./media/hr-benefits-management-workspace-enable.png)</span></span>
+> <span data-ttu-id="1b4ac-105">Para ver el espacio de trabajo **Gestión de beneficios**, primero debe habilitar la función **Espacio de trabajo de gestión de beneficios (vista previa)** en la gestión de funciones.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-105">To view the **Benefits management** workspace, you must first enable the **(Preview) Benefits management workspace** feature in Feature management.</span></span> <span data-ttu-id="1b4ac-106">Para obtener más información sobre la habilitación de características en vista previa, consulte [Administrar características](../hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="1b4ac-106">For more information about enabling preview features, see [Manage features](../hr-admin-manage-features.md).</span></span><br><br><span data-ttu-id="1b4ac-107">![Habilitar el espacio de trabajo de administración de prestaciones](./media/hr-benefits-management-workspace-enable.png)</span><span class="sxs-lookup"><span data-stu-id="1b4ac-107">![Enable Benefits management workspace](./media/hr-benefits-management-workspace-enable.png)</span></span>
 
-<span data-ttu-id="26798-108">El espacio de trabajo **Gestión de beneficios** le brinda una vista rápida de los elementos de beneficios que requieren su atención.</span><span class="sxs-lookup"><span data-stu-id="26798-108">The **Benefits management** workspace gives you a quick view of benefits items that require your attention.</span></span> <span data-ttu-id="26798-109">En esta página, puede ver lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="26798-109">On this page, you can see:</span></span>
+<span data-ttu-id="1b4ac-108">El espacio de trabajo **Gestión de beneficios** le brinda una vista rápida de los elementos de beneficios que requieren su atención.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-108">The **Benefits management** workspace gives you a quick view of benefits items that require your attention.</span></span> <span data-ttu-id="1b4ac-109">En esta página, puede ver lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="1b4ac-109">On this page, you can see:</span></span>
 
-- <span data-ttu-id="26798-110">Totales de artículos en espera de acción</span><span class="sxs-lookup"><span data-stu-id="26798-110">Totals for items awaiting action</span></span>
-- <span data-ttu-id="26798-111">Trabajadores con selecciones no confirmadas</span><span class="sxs-lookup"><span data-stu-id="26798-111">Workers with unconfirmed selections</span></span>
-- <span data-ttu-id="26798-112">Trabajadores que se inscribieron recientemente en los beneficios</span><span class="sxs-lookup"><span data-stu-id="26798-112">Workers who recently enrolled in benefits</span></span>
-- <span data-ttu-id="26798-113">Trabajadores con eventos de la vida futura</span><span class="sxs-lookup"><span data-stu-id="26798-113">Workers with future life events</span></span>
-- <span data-ttu-id="26798-114">Nuevas contrataciones que no están inscritas</span><span class="sxs-lookup"><span data-stu-id="26798-114">New hires who aren't enrolled</span></span>
-- <span data-ttu-id="26798-115">Trabajadores con eventos de la vida activos</span><span class="sxs-lookup"><span data-stu-id="26798-115">Workers with active life events</span></span>
-- <span data-ttu-id="26798-116">Trabajadores con matrículas abiertas que no han optado por ningún plan</span><span class="sxs-lookup"><span data-stu-id="26798-116">Workers with open enrollments who haven't opted for any plans</span></span>
+- <span data-ttu-id="1b4ac-110">Totales de artículos en espera de acción</span><span class="sxs-lookup"><span data-stu-id="1b4ac-110">Totals for items awaiting action</span></span>
+- <span data-ttu-id="1b4ac-111">Trabajadores con selecciones no confirmadas</span><span class="sxs-lookup"><span data-stu-id="1b4ac-111">Workers with unconfirmed selections</span></span>
+- <span data-ttu-id="1b4ac-112">Trabajadores que se inscribieron recientemente en los beneficios</span><span class="sxs-lookup"><span data-stu-id="1b4ac-112">Workers who recently enrolled in benefits</span></span>
+- <span data-ttu-id="1b4ac-113">Trabajadores con eventos de la vida futura</span><span class="sxs-lookup"><span data-stu-id="1b4ac-113">Workers with future life events</span></span>
+- <span data-ttu-id="1b4ac-114">Nuevas contrataciones que no están inscritas</span><span class="sxs-lookup"><span data-stu-id="1b4ac-114">New hires who aren't enrolled</span></span>
+- <span data-ttu-id="1b4ac-115">Trabajadores con eventos de la vida activos</span><span class="sxs-lookup"><span data-stu-id="1b4ac-115">Workers with active life events</span></span>
+- <span data-ttu-id="1b4ac-116">Trabajadores con matrículas abiertas que no han optado por ningún plan</span><span class="sxs-lookup"><span data-stu-id="1b4ac-116">Workers with open enrollments who haven't opted for any plans</span></span>
 
 ![Espacio de trabajo de administración de prestaciones](./media/hr-benefits-management-workspace.png)
 
-## <a name="view-action-items"></a><span data-ttu-id="26798-118">Ver elementos de acción</span><span class="sxs-lookup"><span data-stu-id="26798-118">View action items</span></span>
+## <a name="view-action-items"></a><span data-ttu-id="1b4ac-118">Ver elementos de acción</span><span class="sxs-lookup"><span data-stu-id="1b4ac-118">View action items</span></span>
 
-<span data-ttu-id="26798-119">Puede ver sus elementos de acción seleccionando un mosaico o una pestaña. Si selecciona una pestaña, puede ver y seleccionar trabajadores directamente en la página del espacio de trabajo.</span><span class="sxs-lookup"><span data-stu-id="26798-119">You can view your action items by either selecting a tile or a tab. If you select a tab, you can view and select workers right on the workspace page.</span></span>
+<span data-ttu-id="1b4ac-119">Puede ver sus elementos de acción seleccionando un mosaico o una pestaña. Si selecciona una pestaña, puede ver y seleccionar trabajadores directamente en la página del espacio de trabajo.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-119">You can view your action items by either selecting a tile or a tab. If you select a tab, you can view and select workers right on the workspace page.</span></span>
 
 ![Elementos de acción](./media/hr-benefits-management-workspace-action-items.png)
 
-<span data-ttu-id="26798-121">Si selecciona un mosaico, va a la página de esa área.</span><span class="sxs-lookup"><span data-stu-id="26798-121">If you select a tile, you go to the page for that area.</span></span> <span data-ttu-id="26798-122">Por ejemplo, al seleccionar cualquiera de estos mosaicos se muestra la página **Planes de beneficios para trabajadores**, filtrada para los empleados en los que necesita tomar medidas:</span><span class="sxs-lookup"><span data-stu-id="26798-122">For example, selecting any of these tiles displays the **Worker benefits plans** page, filtered for employees you need to take action on:</span></span>
+<span data-ttu-id="1b4ac-121">Si selecciona un mosaico, va a la página de esa área.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-121">If you select a tile, you go to the page for that area.</span></span> <span data-ttu-id="1b4ac-122">Por ejemplo, al seleccionar cualquiera de estos mosaicos se muestra la página **Planes de beneficios para trabajadores**, filtrada para los empleados en los que necesita tomar medidas:</span><span class="sxs-lookup"><span data-stu-id="1b4ac-122">For example, selecting any of these tiles displays the **Worker benefits plans** page, filtered for employees you need to take action on:</span></span>
 
-- <span data-ttu-id="26798-123">**Selecciones no confirmadas**</span><span class="sxs-lookup"><span data-stu-id="26798-123">**Unconfirmed selections**</span></span>
-- <span data-ttu-id="26798-124">**Abrir inscripciones con planes sin comprobar**</span><span class="sxs-lookup"><span data-stu-id="26798-124">**Open enrollments with no checked out plans**</span></span>
-- <span data-ttu-id="26798-125">**Inscrito en prestaciones**</span><span class="sxs-lookup"><span data-stu-id="26798-125">**Enrolled in benefits**</span></span>
-- <span data-ttu-id="26798-126">**Nueva contratación no inscrita**</span><span class="sxs-lookup"><span data-stu-id="26798-126">**New hire not enrolled**</span></span>
+- <span data-ttu-id="1b4ac-123">**Selecciones no confirmadas**</span><span class="sxs-lookup"><span data-stu-id="1b4ac-123">**Unconfirmed selections**</span></span>
+- <span data-ttu-id="1b4ac-124">**Abrir inscripciones con planes sin comprobar**</span><span class="sxs-lookup"><span data-stu-id="1b4ac-124">**Open enrollments with no checked out plans**</span></span>
+- <span data-ttu-id="1b4ac-125">**Inscrito en prestaciones**</span><span class="sxs-lookup"><span data-stu-id="1b4ac-125">**Enrolled in benefits**</span></span>
+- <span data-ttu-id="1b4ac-126">**Nueva contratación no inscrita**</span><span class="sxs-lookup"><span data-stu-id="1b4ac-126">**New hire not enrolled**</span></span>
 
 ![Planes de prestaciones de trabajador](./media/hr-benefits-management-workspace-plans.png)
 
-<span data-ttu-id="26798-128">Seleccionando los iconos **Acontecimientos de la vida activa** o **Eventos de la vida futura** le lleva a una lista de eventos de la vida activos o futuros.</span><span class="sxs-lookup"><span data-stu-id="26798-128">Selecting the **Active life events** or **Future life events** tiles takes you to a list of active or future life events.</span></span>
+<span data-ttu-id="1b4ac-128">Seleccionando los iconos **Acontecimientos de la vida activa** o **Eventos de la vida futura** le lleva a una lista de eventos de la vida activos o futuros.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-128">Selecting the **Active life events** or **Future life events** tiles takes you to a list of active or future life events.</span></span>
 
 ![Eventos de vida](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a><span data-ttu-id="26798-130">En procesamiento</span><span class="sxs-lookup"><span data-stu-id="26798-130">Processing</span></span>
+## <a name="processing"></a><span data-ttu-id="1b4ac-130">En procesamiento</span><span class="sxs-lookup"><span data-stu-id="1b4ac-130">Processing</span></span>
 
-<span data-ttu-id="26798-131">Para procesar la elegibilidad de inscripción, eventos de la vida o actualizaciones de cambio de tarifas, seleccione el elemento apropiado en la barra de navegación.</span><span class="sxs-lookup"><span data-stu-id="26798-131">To process enrollment eligibility, life events, or rate change updates, select the appropriate item on the navigation bar.</span></span>
+<span data-ttu-id="1b4ac-131">Para procesar la elegibilidad de inscripción, eventos de la vida o actualizaciones de cambio de tarifas, seleccione el elemento apropiado en la barra de navegación.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-131">To process enrollment eligibility, life events, or rate change updates, select the appropriate item on the navigation bar.</span></span>
 
 ![En procesamiento](./media/hr-benefits-management-workspace-processing.png)
 
-<span data-ttu-id="26798-133">Para ver los resultados del proceso, seleccione **Resultados de proceso** en la página.</span><span class="sxs-lookup"><span data-stu-id="26798-133">To view process results, select **Process results** on the page.</span></span>
+<span data-ttu-id="1b4ac-133">Para ver los resultados del proceso, seleccione **Resultados de proceso** en la página.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-133">To view process results, select **Process results** on the page.</span></span>
 
 ![Procesar resultados](./media/hr-benefits-management-workspace-process-results.png)
 
-<span data-ttu-id="26798-135">Para obtener más información acerca del procesamiento de beneficios, vea .</span><span class="sxs-lookup"><span data-stu-id="26798-135">For more information about benefits processing, see:</span></span>
+<span data-ttu-id="1b4ac-135">Para obtener más información acerca del procesamiento de beneficios, vea .</span><span class="sxs-lookup"><span data-stu-id="1b4ac-135">For more information about benefits processing, see:</span></span>
 
-- [<span data-ttu-id="26798-136">Procesar idoneidad de inscripción</span><span class="sxs-lookup"><span data-stu-id="26798-136">Process enrollment eligibility</span></span>](hr-benefits-process-enrollment-eligibility.md)
-- [<span data-ttu-id="26798-137">Procesar cambios de eventos de vida</span><span class="sxs-lookup"><span data-stu-id="26798-137">Process life event changes</span></span>](hr-benefits-process-life-event-changes.md)
-- [<span data-ttu-id="26798-138">Procesar idoneidad de eventos de vida</span><span class="sxs-lookup"><span data-stu-id="26798-138">Process life event eligibility</span></span>](hr-benefits-process-life-event-eligibility.md)
-- [<span data-ttu-id="26798-139">Procesar eventos de vida</span><span class="sxs-lookup"><span data-stu-id="26798-139">Process life events</span></span>](hr-benefits-process-life-events.md)
-- [<span data-ttu-id="26798-140">Procesar cambios de tipo</span><span class="sxs-lookup"><span data-stu-id="26798-140">Process rate changes</span></span>](hr-benefits-process-rate-changes.md)
+- [<span data-ttu-id="1b4ac-136">Procesar idoneidad de inscripción</span><span class="sxs-lookup"><span data-stu-id="1b4ac-136">Process enrollment eligibility</span></span>](hr-benefits-process-enrollment-eligibility.md)
+- [<span data-ttu-id="1b4ac-137">Procesar cambios de eventos de vida</span><span class="sxs-lookup"><span data-stu-id="1b4ac-137">Process life event changes</span></span>](hr-benefits-process-life-event-changes.md)
+- [<span data-ttu-id="1b4ac-138">Procesar idoneidad de eventos de vida</span><span class="sxs-lookup"><span data-stu-id="1b4ac-138">Process life event eligibility</span></span>](hr-benefits-process-life-event-eligibility.md)
+- [<span data-ttu-id="1b4ac-139">Procesar eventos de vida</span><span class="sxs-lookup"><span data-stu-id="1b4ac-139">Process life events</span></span>](hr-benefits-process-life-events.md)
+- [<span data-ttu-id="1b4ac-140">Procesar cambios de tipo</span><span class="sxs-lookup"><span data-stu-id="1b4ac-140">Process rate changes</span></span>](hr-benefits-process-rate-changes.md)
 
-## <a name="change-period"></a><span data-ttu-id="26798-141">Cambio de período</span><span class="sxs-lookup"><span data-stu-id="26798-141">Change period</span></span>
+## <a name="change-period"></a><span data-ttu-id="1b4ac-141">Cambio de período</span><span class="sxs-lookup"><span data-stu-id="1b4ac-141">Change period</span></span>
 
-<span data-ttu-id="26798-142">Para ver un período de beneficios diferente, selecciónelo en la lista desplegable **Período**.</span><span class="sxs-lookup"><span data-stu-id="26798-142">To view a different benefits period, select it from the **Period** dropdown.</span></span>
+<span data-ttu-id="1b4ac-142">Para ver un período de beneficios diferente, selecciónelo en la lista desplegable **Período**.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-142">To view a different benefits period, select it from the **Period** dropdown.</span></span>
 
 ![Cambio de período](./media/hr-benefits-management-workspace-period.png)
 
-## <a name="view-more-options"></a><span data-ttu-id="26798-144">Ver más opciones</span><span class="sxs-lookup"><span data-stu-id="26798-144">View more options</span></span>
+## <a name="view-more-options"></a><span data-ttu-id="1b4ac-144">Ver más opciones</span><span class="sxs-lookup"><span data-stu-id="1b4ac-144">View more options</span></span>
 
-<span data-ttu-id="26798-145">Para ver más información y acciones que puede realizar, seleccione **Vínculos**.</span><span class="sxs-lookup"><span data-stu-id="26798-145">To view more information and actions you can take, select **Links**.</span></span>
+<span data-ttu-id="1b4ac-145">Para ver más información y acciones que puede realizar, seleccione **Vínculos**.</span><span class="sxs-lookup"><span data-stu-id="1b4ac-145">To view more information and actions you can take, select **Links**.</span></span>
 
 ![Vínculos](./media/hr-benefits-management-workspace-links.png)
 
-## <a name="see-also"></a><span data-ttu-id="26798-147">Consulte también</span><span class="sxs-lookup"><span data-stu-id="26798-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1b4ac-147">Consulte también</span><span class="sxs-lookup"><span data-stu-id="1b4ac-147">See also</span></span>
 
-[<span data-ttu-id="26798-148">Visión general de administración de prestaciones</span><span class="sxs-lookup"><span data-stu-id="26798-148">Benefits management overview</span></span>](hr-benefits-management-overview.md)
+[<span data-ttu-id="1b4ac-148">Visión general de administración de prestaciones</span><span class="sxs-lookup"><span data-stu-id="1b4ac-148">Benefits management overview</span></span>](hr-benefits-management-overview.md)
