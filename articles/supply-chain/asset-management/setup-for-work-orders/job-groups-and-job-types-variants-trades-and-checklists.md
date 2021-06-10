@@ -1,5 +1,5 @@
 ---
-title: Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento
+title: Tipos de trabajos de mantenimiento, categorías, variantes, oficios y listas de verificación
 description: En este tema se describen las categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento en Administración de activos.
 author: johanhoffmann
 ms.date: 08/13/2019
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb73fb36ee31d93b2121437d57d959ba6c01a337
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842282"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117092"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tipos de trabajos de mantenimiento, categorías, variantes, oficios y listas de verificación
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Se adjunta un tipo de activo a cada activo. Los tipos de activo definen los tipos de trabajo de mantenimiento (y por lo tanto, los trabajos de mantenimiento) que se pueden realizar en los activos. Cuando crea una orden de trabajo, debe seleccionar un tipo de trabajo de mantenimiento. Puede seleccionar solo los tipos de trabajo de mantenimiento relacionadas con la configuración del tipo de activo que se usa para el activo.
 

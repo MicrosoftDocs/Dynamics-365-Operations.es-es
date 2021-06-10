@@ -2,13 +2,12 @@
 title: Administrar solicitudes de baja en Teams
 description: Este tema muestra cómo solicitar tiempo libre en la aplicación Dynamics 365 Human Resources en Microsoft Teams.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953421"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097268"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de bajas en Teams
 
@@ -33,21 +32,13 @@ La aplicación Dynamics 365 Human Resources en Microsoft Teams le permite solici
 
 Puede encontrar la aplicación Dynamics 365 Human Resources en la tienda de Teams.
 
-1. En Microsoft Teams, seleccione los puntos suspensivos.
-
-   ![Puntos suspensivos de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-ellipses.png)
+1. En Microsoft Teams, vaya hasta la lista de aplicaciones.
  
 2. Busque Dynamics 365 Human Resources y luego seleccione el icono **Recursos humanos**.
 
-   ![Icono RR. HH. de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Seleccione el botón **Agregar** para instalar la aplicación.
 
-   ![Instalación de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-in-store.png)
-
 Si la aplicación no inicia sesión automáticamente, seleccione la pestaña **Configuración** para iniciar sesión.
-
-![Pestaña Configuración de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Si no ve un cuadro de diálogo de inicio de sesión, verifique la configuración de su navegador para permitir ventanas emergentes. 
@@ -61,20 +52,24 @@ Si tiene acceso a más de una instancia de Recursos humanos, puede seleccionar a
 
 Después de la instalación de la aplicación, aparece un mensaje de bienvenida, que le permite saber los tipos de acciones que el bot puede tomar en su nombre.
 
-![Mensaje de bienvenida del bot de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Al interactuar por primera vez con el bot, es posible que deba iniciar sesión. Si no ve un cuadro de diálogo de inicio de sesión, verifique la configuración de su navegador para permitir ventanas emergentes.
 
 Puede pedirle al bot que:
 
-- Comience una solicitud de licencia por usted.
+- Ver sus saldos de bajas actuales. Por ejemplo, envíe un mensaje que diga "Ver saldos de bajas".
+
+- Comience una solicitud de licencia por usted. Por ejemplo, envíe un mensaje que diga "Tómese un tiempo libre" o "Quiero tomarme un tiempo libre el próximo jueves y viernes" para ser más específico para solicitar una baja por el tipo de baja por vacaciones. 
 
   ![Iniciar una solicitud de permiso en el chat de Teams](./media/hr-teams-leave-app-initiate.png)
 
 - El bot de chat completará una solicitud de permiso para usted. Seleccione **Solicitar tiempo libre** y edite los detalles de su solicitud.
 
-  ![Editar detalles de solicitud de baja](./media/hr-teams-leave-app-details.png)
+   Si desea enviar solicitudes de baja para varios tipos de baja para la misma fecha, seleccione la opción **Dividir el día con** opción del menú **Más opciones**. 
+
+   Si selecciona una baja de medio día cuando la unidad de solicitud de baja está en días, puede especificar si desea solicitar tiempo libre el primer medio día o el segundo medio día seleccionando la opción **Definición de medio día** en el menú **Más opciones**.
+   
+   ![Definiciones de medio día](./media/HalfDayDefinitions.png)
 
 - Cuando haya terminado de editar los detalles de su solicitud de permiso, seleccione **Enviar** para enviarlo para su aprobación.
 
@@ -91,42 +86,36 @@ La pestaña **Tiempo libre** le permite ver:
 - Solicitudes de tiempo libre
 
 - Borrador de solicitudes de baja
-
-![Pestaña Tiempo libre de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Crear una nueva solicitud
 
 1. Para crear una nueva solicitud de baja, seleccione **Nueva solicitud**.
 
-   ![Nueva solicitud de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Introduzca el día o días que desea tomarse y luego seleccione **Agregar**.
 
-   ![Adición de tiempo libre en la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![Adición de tiempo libre en la aplicación de bajas de Recursos Humanos en Teams](./media/TimeOffHours.png)
 
 3. Si corresponde, introduzca un código de razón. Introduzca también cualquier comentario y agregue cualquier archivo adjunto.
 
-4. Cuando haya terminado de Introducir información, escriba **Enviar** para enviarlo para su aprobación. También puede escribir **Guardar como borrador** para volver a ello más tarde.
+4. Si desea enviar solicitudes de baja para varios tipos de baja para la misma fecha, seleccione la opción **Dividir el día con** del menú **Más opciones**.
+
+5. Seleccione la opción **Definición de medio día** para especificar si desea solicitar el primer medio día libre o el segundo medio día libre. Esta opción está disponible cuando la unidad de solicitud de baja está en días y el monto solicitado es de 0,5 días.
+
+6. Cuando haya terminado de Introducir información, introduzca **Enviar** para enviarlo para su aprobación. También puede introducir **Guardar como borrador** para volver a ello más tarde.
 
 ### <a name="manage-draft-requests"></a>Administrar solicitudes en borrador
 
 1. Seleccione la pestaña **Borradores**.
 
-   ![Pestaña Borradores de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. Seleccione el lápiz para editar la solicitud o seleccione la papelera para eliminar la solicitud.
 
 3. Realice los cambios necesarios. Cuando haya terminado de Introducir información, escriba **Enviar** para enviarlo para su aprobación. También puede seleccionar **Guardar como borrador** para volver a ello más tarde.
-
-   ![Borrador de edición en la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Responder a notificaciones de Teams
 
 Cuando usted o un trabajador del que es aprobador envíen una solicitud de baja, recibirá una notificación en la aplicación Human Resources en Teams. Puede seleccionar la notificación para verla. Las notificaciones también aparecen en el área **Chat**.
 
 Si es un aprobador, puede seleccionar **Aprobar** o **Denegar** en la notificación. También puede proporcionar un mensaje opcional.
-
-![Notificación de solicitud de baja en la aplicación Recursos Humanos en Teams](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Enviar información sobre el próximo tiempo libre a sus compañeros de trabajo
 
@@ -138,15 +127,9 @@ Después de instalar la aplicación Recursos humanos para Teams, puede enviar f�
 
 2. Seleccione la solicitud de baja que desea compartir. Si desea compartir un borrador de solicitud de baja, primero seleccione **Borradores**.
 
-   ![Seleccionar una solicitud de baja próxima para compartirla](./media/hr-teams-leave-app-chat-search.png)
-
 Su solicitud de baja se mostrará en el chat.
 
-![Tarjeta de solicitud de baja de recursos humanos](./media/hr-teams-leave-app-chat-card.png)
-
-Si compartió un borrador de solicitud, se mostrará como un borrador:
-
-![Tarjeta de solicitud de baja de recursos humanos](./media/hr-teams-leave-app-chat-draft-card.png)
+Si compartió un borrador de solicitud, se mostrará como un borrador.
 
 ## <a name="view-your-teams-leave-calendar"></a>Ver el calendario de bajas de su equipo
 
@@ -155,8 +138,6 @@ Si es un director con subordinados directos, puede ver el tiempo libre aprobado 
 1. En la aplicación Human Resources en Teams, seleccione **Tiempo libre**.
 
 2. Seleccione **Calendario del equipo**. El calendario muestra el tiempo libre aprobado y pendiente de sus subordinados directos.
-
-   ![Ver el calendario en la aplicación Human Resources Teams](./media/hr-teams-leave-app-view-calendar.png)
 
    > [!NOTE]
    > Si no puede ver el calendario del equipo, pídale a su administrador que lo habilite. Para obtener más información consulte [Instalar y configurar](hr-admin-teams-leave-app.md#install-and-setup).

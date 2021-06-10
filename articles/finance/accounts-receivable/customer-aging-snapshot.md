@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039936"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123371"
 ---
 # <a name="customer-aging-snapshots"></a>Instantáneas de vencimientos de clientes
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039936"
 Este tema proporciona información sobre las instantáneas de vencimientos de clientes. Una instantánea de vencimientos calcula los saldos para un grupo de clientes en un momento determinado. Puede crear registros de instantánea de vencimientos para todos los clientes o para los clientes de un grupo de clientes.
 
 La información de la instantánea de vencimientos se muestra en la página de lista **Saldos vencidos** y en la página **Cobros**. Debe crear una instantánea de vencimientos antes de poder usar la página de lista **Saldos vencidos**. La página de lista solo muestra clientes para los que se haya creado una instantánea de vencimientos.
+
+El espacio de trabajo **Crédito y cobros de clientes** también muestra el vencimiento del cliente. Para más información, consulte [el contenido de Power BI sobre administración de créditos y cobros](credit-collections-power-bi.md).
 
 > [!NOTE]
 > Para ayudar a reducir el tiempo necesario para crear una instantánea de vencimientos, active la característica **Mejora del rendimiento de vencimiento del cliente** en el espacio de trabajo **Administración de características**. Sin embargo, no utilice secciones de clientes cuando esta característica esté activada. Si se selecciona una sección de clientes, la característica no funcionará, pero aún puede crear una instantánea de vencimiento.
@@ -62,4 +64,3 @@ Le recomendamos que programe este proceso para que se ejecute en un lote.
 > [!NOTE]
 > Para ayudar a mejorar el rendimiento del lote cuando se crean instantáneas de vencimiento, introduzca un número en el campo **Número máximo de tareas por lotes** en la ficha desplegable **Valores predeterminados de cobros** en la pestaña **Cobros** de la página **Parámetros de clientes**. En el campo **Calcular vencimientos de saldos de clientes**, le recomendamos que comience con el valor predeterminado de **100** y luego ajuste el valor para optimizar el procesamiento para su situación.
 
-El espacio de trabajo **Crédito y cobros de clientes** también muestra el vencimiento del cliente. Para más información, consulte [el contenido de Power BI sobre administración de créditos y cobros](credit-collections-power-bi.md).

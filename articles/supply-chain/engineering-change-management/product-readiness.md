@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8f80458de69a77846259c9a0707c05098d13e12a
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909728"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115082"
 ---
 # <a name="product-readiness"></a>Preparación de producto
 
@@ -27,6 +27,8 @@ Puede utilizar las verificaciones de preparación para asegurarse de que se comp
 
 La casilla **Activo** para un producto de ingeniería, variante o versión está disponible solo después de que se hayan ingresado y verificado todos los datos requeridos, y después de que se hayan procesado todas las verificaciones de preparación. En ese momento, el producto, la versión o la variante pueden entregarse a otras empresas y utilizarse en transacciones. Puede crear verificaciones de preparación para nuevos productos, nuevas variantes y nuevas versiones de ingeniería.
 
+También puede aplicar verificaciones de preparación a productos estándar (que no sean de ingeniería). Para obtener más información, consulte la sección [Comprobaciones de preparación de productos estándar](#standard-products) más adelante en este tema.
+
 ## <a name="types-of-readiness-checks"></a>Tipos de controles de preparación
 
 Hay tres tipos de comprobaciones de preparación:
@@ -35,22 +37,29 @@ Hay tres tipos de comprobaciones de preparación:
 - **Verificación manual** - Un usuario verifica si el registro es válido. Por ejemplo, una verificación de preparación puede requerir la validación de la configuración predeterminada del pedido. En algunos casos, como cuando el producto aún se está diseñando y, por lo tanto, no se colocará en stock, no se requieren configuraciones de pedido predeterminadas. Sin embargo, es posible que se requiera una configuración de pedido predeterminada para otro producto del mismo tipo, ya que el producto se puede mantener en stock. El usuario es responsable de saber cómo decidir correctamente si se requiere una verificación de preparación.
 - **Lista de Verificación** - El usuario responde una serie de preguntas de una lista de verificación y el sistema determina si las respuestas cumplen con las expectativas. La lista de verificación puede tener cualquier tema. Por ejemplo, se puede utilizar para determinar si se completan los materiales de marketing o la documentación del producto.
 
-## <a name="how-readiness-checks-are-created-for-a-new-product-variant-or-version"></a>Cómo se crean las verificaciones de preparación para un nuevo producto, variante o versión
+<a name="checks-engineering"></a>
 
-Cuando crea un nuevo **producto** de ingeniería, el sistema determina si se ha configurado una política de verificación de disponibilidad para la categoría de producto de ingeniería. (Las políticas de verificación de preparación se pueden aplicar en el nivel de producto publicado, el nivel de variante publicado y el nivel de versión de ingeniería). Si se ha configurado una política, se producen los siguientes eventos:
+## <a name="how-readiness-checks-are-created-for-a-new-engineering-product-variant-or-version"></a>Cómo se crean las verificaciones de preparación para un nuevo producto de ingeniería, variante o versión
+
+Las políticas de verificación de preparación se pueden aplicar en el nivel de producto publicado, el nivel de variante publicado y el nivel de versión de ingeniería.
+
+Cuando crea un nuevo *producto de ingeniería*, el sistema determina si [se le aplica la política de verificación de preparación](#assign-policy). Si se aplica una política de verificación de preparación, se producen los siguientes eventos:
 
 - Se crean verificaciones de preparación para el producto, de acuerdo con la política aplicable.
-- La versión de ingeniería está configurada como inactiva para bloquear el uso del producto. Todas las versiones del producto específico involucrado están inactivas.
+- La versión de ingeniería está configurada como inactiva para bloquear el uso del producto. Todas las versiones de ingeniería del producto están inactivas.
 
-Si se crea una nueva **variante** para un producto, el sistema verifica si se han configurado verificaciones de preparación en la categoría de producto de ingeniería. (Las comprobaciones de preparación se pueden aplicar en el nivel de variante publicado y el nivel de versión de ingeniería). Si se ha configurado una comprobación de preparación, se producen los siguientes eventos:
+Si se crea una *variante* nueva para un producto, el sistema verifica si se le aplica una política de verificación de disponibilidad. (Las comprobaciones de preparación se pueden aplicar en el nivel de variante publicado y el nivel de versión de ingeniería). Si una directiva se aplica, se producen los siguientes eventos:
 
-- Se crean controles de preparación para el producto.
+- Se crean verificaciones de preparación para el producto, de acuerdo con la política aplicable.
+- La versión de ingeniería y variante están configuradas como inactivas para bloquear el uso del producto.
+
+Si se crea una *versión* de ingeniería para un producto, el sistema verifica si se le aplica una política de verificación de disponibilidad. (Las comprobaciones de preparación se pueden aplicar en el nivel de versión de ingeniería). Si una directiva se aplica, se producen los siguientes eventos:
+
+- Se crean verificaciones de preparación para el producto, de acuerdo con la política aplicable.
 - La versión de ingeniería está configurada como inactiva para bloquear el uso del producto.
 
-Si se crea una nueva **versión** de ingeniería para un producto, el sistema verifica si se han configurado verificaciones de preparación en la categoría de producto de ingeniería. (Las comprobaciones de preparación se pueden aplicar en el nivel de vesión de ingeniería). Si se ha configurado una comprobación de preparación, se producen los siguientes eventos:
-
-- Se crean controles de preparación para el producto.
-- La versión de ingeniería está configurada como inactiva para bloquear el uso del producto.
+> [!NOTE]
+> También puede configurar verificaciones de directivas de preparación para productos estándar (que no sean de ingeniería). Para obtener más información, consulte la sección [Comprobaciones de preparación de productos estándar](#standard-products) más adelante en este tema.
 
 ## <a name="view-readiness-checks"></a>Ver verificaciones de preparación
 
@@ -67,7 +76,7 @@ Para ver las comprobaciones de disponibilidad abiertas que se le asignaron, siga
 - Ir **Gestión de cambios de ingeniería \> Común \> Disponibilidad del producto \> Mis comprobaciones abiertas de preparación**.
 - Ir **Gestión de información de producto \> Espacios de trabajo \> Disponibilidad del producto para fabricación discreta**.
 
-La configuración que especifica a quién se asigna una verificación de preparación se realiza para la categoría de producto de ingeniería. Los controles de preparación pueden asignarse a una persona o un equipo. Si se asigna una verificación de preparación a un equipo, hay una persona en el equipo que debe procesar la verificación de disponibilidad. Para más información, vea [Versiones de ingeniería y categorías de productos de ingeniería](engineering-versions-product-category.md).
+La configuración que especifica a quién se asigna una verificación de preparación se realiza para la directiva de preparación. Los controles de preparación pueden asignarse a una persona o un equipo. Si se asigna una verificación de preparación a un equipo, hay una persona en el equipo que debe procesar la verificación de disponibilidad.
 
 ## <a name="process-open-readiness-checks"></a>Procesar comprobaciones de disponibilidad abiertas
 
@@ -92,9 +101,7 @@ Cuando todas las verificaciones de disponibilidad abiertas para un nuevo product
 
 ## <a name="create-and-manage-product-readiness-policies"></a>Crear y administrar políticas de preparación de productos
 
-Utilice las políticas de preparación del producto para administrar las comprobaciones de preparación que se aplican a un producto. Dado que se asigna una política de preparación a la categoría de ingeniería, todas las comprobaciones de la política de preparación se aplican a todos los productos de ingeniería que se basan en la categoría de ingeniería. Para más información, vea [Versiones de ingeniería y categorías de productos de ingeniería](engineering-versions-product-category.md).
-
-Cada política de preparación contiene un conjunto de comprobaciones de preparación. Cuando se asigna una política de preparación a una categoría de productos de ingeniería, todos los productos que se crean a partir de esa categoría de productos de ingeniería tendrán las verificaciones de preparación que se indican en la política de preparación.
+Utilice las políticas de preparación del producto para administrar las comprobaciones de preparación que se aplican a un producto. Cada política de preparación contiene un conjunto de comprobaciones de preparación. Cuando se asigna una política de preparación a una categoría de productos de ingeniería o producto compartido, todos los productos que están relacionados con esa categoría o producto compartido tendrán las verificaciones de preparación que se incluyen en la directiva de preparación.
 
 Para trabajar con directivas de preparación de productos, vaya a **Gestión de cambios de ingeniería \> Preparar \> Directivas de preparación de productos**. Luego siga uno de estos pasos.
 
@@ -118,7 +125,7 @@ Configure los siguientes campos en la ficha desplegable **General** de una direc
 | Campo | Descripción |
 |---|---|
 | Tipo de producto | Seleccione si la política se aplica a los productos de tipo *Artículo* o *Servicio*. No puede cambiar esta configuración después de guardar el registro. |
-| Activa | Utilice esta opción para ayudar a mantener sus políticas de preparación. Ponlo en *Sí* para todas las políticas de preaparación que utilice. Ponlo en *No* para marcar una política de preparación como inactiva cuando no se utiliza. Tenga en cuenta que no puede desactivar una política de preparación asignada a una categoría de producto de ingeniería y solo puede eliminar las políticas de lanzamiento inactivas. |
+| Activa | Utilice esta opción para ayudar a mantener sus políticas de preparación. Ponlo en *Sí* para todas las políticas de preaparación que utilice. Ponlo en *No* para marcar una política de preparación como inactiva cuando no se utiliza. Tenga en cuenta que no puede desactivar una política de preparación asignada a una categoría de producto de ingeniería o un producto compartido y solo puede eliminar las políticas de lanzamiento inactivas. |
 
 ### <a name="readiness-control-fasttab"></a>Ficha desplegable de control de preparación
 
@@ -146,5 +153,70 @@ Para cada fila que agregue, configure los siguientes campos.
 | Aprobación automática | Los registros de verificación de preparación incluyen una casilla **Aprobado** que indica el estado de aprobación. Seleccione la casilla **Aprobación automática** para verificaciones que deben establecerse como aprobadas inmediatamente después de que el usuario asignado las complete. Desactive esta casilla de verificación para solicitar una aprobación explícita como paso adicional. |
 | Obligatoria | Seleccione esta casilla de verificación para las comprobaciones que debe completar el usuario asignado. Los controles obligatorios no se pueden omitir. |
 
+<a name="assign-policy"></a>
+
+## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Asignar directivas de preparación a productos estándar y de ingeniería
+
+Cuando crea un nuevo producto basado en una categoría de ingeniería, crea un *producto lanzado* y un *producto compartido* relacionado. La forma en que se resuelven las políticas de preparación para un producto lanzado depende de si ha activado la característica *Comprobaciones de disponibilidad del producto* característica. (Para obtener más información, consulte la sección [Comprobaciones de preparación de productos estándar](#standard-products) más adelante en este tema).
+
+- Cuando la función *Comprobaciones de disponibilidad del producto* está *desactivada* en su sistema, la directiva de preparación se establece y se muestra solo en los registros de [categoría de ingeniería](engineering-versions-product-category.md). Para saber qué directiva se aplica a un producto lanzado, el sistema verifica el campo **Directiva de preparación del producto** para la categoría de ingeniería relacionada. Puede cambiar la directiva de preparación de un producto existente editando la categoría de ingeniería relacionada (no el producto compartido).
+- Cuando la función *Comprobaciones de disponibilidad del producto* está *activada*, agrega un campo **Política de preparación del producto** a la página **Producto** (donde se configuran los productos compartidos) y a la página **Producto lanzado** (donde el valor es de solo lectura y se toma del producto compartido relacionado). El sistema encuentra la directiva de preparación para un producto lanzado al verificar el producto compartido relacionado. Cuando utiliza una categoría de ingeniería para crear un nuevo producto de ingeniería, el sistema crea tanto un producto compartido como un producto lanzado, y copia cualquier configuración de **Directiva de preparación del producto** de la categoría de ingeniería para el nuevo producto compartido. Entonces puede cambiar la directiva de preparación de un producto existente editando el producto compartido (no la categoría de ingeniería de lanzamiento).
+
+Para asignar una directiva de preparación a un producto compartido, siga estos pasos:
+
+1. Vaya a **Información de producto \> Productos \> Productos**.
+1. Abra o cree el producto al que desea asignar una política de preparación.
+1. En la ficha desplegable **General**, establezca el campo **Política de preparación del producto** al nombre de la directiva que debe aplicarse al producto.
+
+Para asignar una directiva de preparación a una categoría de ingeniería, siga estos pasos:
+
+1. Vaya a **Gestión de cambios de ingeniería \> Configuración \> Detalles de la categoría de productos de ingeniería**.
+1. Abra o cree la categoría de ingeniería al que desea asignar una política de preparación.
+1. En la ficha desplegable **Directiva de preparación del producto**, establezca el campo **Política de preparación del producto** al nombre de la directiva que debe aplicarse a la categoría de ingeniería.
+
+<a name="standard-products"></a>
+
+## <a name="readiness-checks-on-standard-products"></a>Comprobaciones de preparación de productos estándar
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Puede habilitar las comprobaciones de disponibilidad de productos para productos estándar (que no sean de ingeniería) activando la función *Comprobaciones de disponibilidad del producto* en la gestión de funciones. Esta función realiza algunos pequeños cambios en el sistema de verificación de disponibilidad para que admita productos estándar.
+
+### <a name="enable-readiness-checks-on-standard-products"></a>Habilitar comprobaciones de preparación de productos estándar
+
+Para permitir que su sistema realice comprobaciones de disponibilidad en productos estándar, siga estos pasos.
+
+- Habilite la función de administración de cambios de ingeniería en su sistema como se describe en [Descripción general de la gestión de cambios de ingeniería](product-engineering-overview.md).
+- Use [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la función llamada *Comprobaciones de disponibilidad del producto*.
+
+<!-- KFM: This section requires confirmation before publishing
+
+### How readiness checks are created for standard products
+
+When you create a new non-engineering *released product*, the system determines whether a readiness check policy has been set up for the related shared product. If a policy has been set up, the following events occur:
+
+- Readiness checks are created for the released product, according to the applicable policy.
+- The released product is blocked from being used until all checks are marked as completed.
+
+If a new *variant* is created for a product, the system checks whether readiness checks have been set up on the related shared product. If a readiness check has been set up, the following events occur:
+
+- Readiness checks are created for the released product, according to the applicable policy.
+- The released product is blocked from being used until all checks are marked as completed.
+
+For engineering products, readiness checks are created in the same way that they are created when the *Product readiness checks* feature is turned off. For more information, see the [How readiness checks are created for a new engineering product, variant, or version](#checks-engineering) section earlier in this topic.
+
+-->
+
+### <a name="create-readiness-policies-for-standard-products"></a>Cree políticas de preparación para productos estándar
+
+Puede crear políticas de preparación para productos estándar del mismo modo que lo hace para productos de ingeniería. Consulte la información anterior en este tema.
+
+### <a name="assign-readiness-policies-to-standard-products"></a>Asignar políticas de preparación a productos estándar
+
+Para asignar una directiva de preparación a un producto estándar, abra el producto compartido relacionado y configure el campo **Directiva de preparación del producto** al nombre de la directiva que se debe aplicar. Para obtener más información, consulte la sección [Asignar políticas de preparación a productos estándar y de ingeniería](#assign-policy) anterior en este tema.
+
+### <a name="view-and-process-readiness-checks-on-standard-products"></a>Ver y procesar comprobaciones de preparación de productos estándar
+
+Cuando esta función está activada, puede ver y procesar las comprobaciones de preparación para productos estándar de la misma manera que lo hace para productos de ingeniería. Consulte la información anterior en este tema.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

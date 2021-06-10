@@ -1,8 +1,8 @@
 ---
 title: Informes financieros de saldo de comprobación
 description: En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26ec03422315a280f7e779f992cf694eb5f845ea
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816940"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103667"
 ---
 # <a name="trial-balance-financial-reports"></a>Informes financieros de saldo de comprobación
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816940"
 
 En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales. 
 
-<a name="default-trial-balance-reports"></a>Informes de saldo de comprobación predeterminados
------------------------------
+## <a name="default-trial-balance-reports"></a>Informes de saldo de comprobación predeterminados
 
 Hay tres informes de saldo de comprobación disponibles en Informes financieros.
 
@@ -47,6 +46,9 @@ Los informes financieros del saldo de comprobación usan los siguientes bloques 
 | Saldo de comprobación detallado - predeterminado               | Saldo de comprobación - predeterminado | Saldo de comprobación detallado - predeterminado               |
 | Resumen de saldo de comprobación – predeterminado                | Saldo de comprobación - predeterminado | Resumen de saldo de comprobación - predeterminado                |
 | Resumen de saldo de comprobación año por año – predeterminado | Saldo de comprobación - predeterminado | Resumen de saldo de comprobación año por año - predeterminado |
+
+> [!NOTE] 
+> Al ejecutar el informe **Saldo de comprobación** en Financial Reporting, asegúrese de seleccionar las casillas de verificación para **Mostrar filas sin importes** y **Mostrar informes sin filas activas** en la pestaña **Configuración**.
 
 ### <a name="row-definition"></a>Definición de filas
 
@@ -94,10 +96,7 @@ Cada informe de saldo de comprobación usa otra definición de columna. Estas de
     -   **FD**: los datos financieros que solo contienen débitos para el año pasado
     -   **FD**: los datos financieros que solo contienen créditos para el año pasado
 
-
-
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de informes financieros](financial-reporting-getting-started.md)
 

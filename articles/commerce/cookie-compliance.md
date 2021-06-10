@@ -2,7 +2,7 @@
 title: Cumplimiento de cookies
 description: Este tema describe consideraciones para el cumplimiento de cookies y las políticas predeterminadas que se incluyen en Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 04/16/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908193"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088396"
 ---
 # <a name="cookie-compliance"></a>Cumplimiento de cookies
 
@@ -52,8 +52,7 @@ La siguiente tabla muestra la lista de referencia actual de cookies colocadas po
 | x-ms-cpim-trans                             | Se utiliza para llevar el seguimiento de transacciones (el número de pestañas abiertas que se autentican en un sitio de empresa a cliente (B2C)), incluida la transacción actual. |
 | \_msdyn365___muid_                            | Se utiliza si la experimentación está activada para el medio ambiente; utilizado como un ID de usuario con fines de experimentación. |
 | \_msdyn365___exp_                             | Se utiliza si la experimentación está activada para el medio ambiente; utilizado para medir el rendimiento del equilibrio de carga.         |
-
-
+| d365mkt                                       | Se usa si la detección basada en la ubicación para rastrear la dirección IP de un usuario para sugerencias de ubicación de la tienda está habilitada en el creador de sitios de Commerce en **Configuración del sitio > General > Habilitar la detección de tiendas basada en la ubicación**.      |
 
 Si un usuario del sitio selecciona cualquier enlace de redes sociales dentro de un sitio, las cookies de la siguiente tabla también se rastrearán en su navegador.
 

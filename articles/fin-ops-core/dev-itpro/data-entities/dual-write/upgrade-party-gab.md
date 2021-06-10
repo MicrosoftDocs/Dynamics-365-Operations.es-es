@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018321"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112682"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Actualizar al modelo de parte y libreta de direcciones global
 
@@ -22,28 +22,29 @@ ms.locfileid: "6018321"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-La [Plantilla de Azure Data Factory](https://aka.ms/dual-write-gab-adf) le ayuda a actualizar los datos de tabla **Cuenta**, **Contacto** y **Vendedor** en escritura dual en el modelo de libreta de direcciones global y de grupo. La plantilla reconcilia los datos de aplicaciones de Finance and Operations y aplicaciones de participación del cliente. Al final del proceso, los campos **Parte** y **Contacto** de registros de **Parte** se crearán y asociarán con los registros **Cuenta**, **Contacto** y **Vendedor** en aplicaciones de participación del cliente. Un archivo .csv (`FONewParty.csv`) se genera para crear nuevos registros de **Parte** dentro de la aplicación Finance and Operations. Este tema proporciona las instrucciones para usar la plantilla de Data Factory y actualizar sus datos.
+La [Plantilla de Microsoft Azure Data Factory](https://aka.ms/dual-write-gab-adf) le ayuda a actualizar los datos de tabla **Cuenta**, **Contacto** y **Proveedor** en escritura dual en el modelo de libreta de direcciones global y de grupo. La plantilla reconcilia los datos de aplicaciones de aplicaciones Finance and Operations y aplicaciones Customer Engagement. Al final del proceso, los campos **Parte** y **Contacto** de registros de **Parte** se crearán y asociarán con los registros **Cuenta**, **Contacto** y **Vendedor** en aplicaciones de participación del cliente. Un archivo .csv (`FONewParty.csv`) se genera para crear nuevos registros de **Parte** dentro de la aplicación Finance and Operations. Este tema proporciona instrucciones sobre cómo usar la plantilla de Data Factory y actualizar sus datos.
 
 Si no tiene ninguna personalización, puede usar la plantilla tal cual. Si tiene personalizaciones para **Cuenta**, **Contacto** y **Vendedor**, debe modificar la plantilla siguiendo las siguientes instrucciones.
 
-> [!Note]
-> La plantilla ayuda a actualizar solo los datos de **Parte**. En una versión futura, se incluirán direcciones postales y electrónicas.
+> [!NOTE]
+> La plantilla solo actualiza los datos de **Parte**. En una versión futura, se incluirán direcciones postales y electrónicas.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Estos requisitos previos son necesarios:
+Se requieren los siguientes requisitos previos para actualizar al modelo de libreta de direcciones global y de grupo:
 
 + [Suscripción a Azure](https://portal.azure.com/)
 + [Acceso a la plantilla](https://aka.ms/dual-write-gab-adf)
-+ Es un cliente de escritura dual existente.
++ Debe ser un cliente de escritura dual existente.
 
 ## <a name="prepare-for-the-upgrade"></a>Prepararse para la actualización
+Se necesitan las siguientes actividades para prepararse para la actualización:
 
-+ **Totalmente sincronizado**: ambos entornos están completamente sincronizados para **Cuenta (cliente)**, **Contacto** y **Vendedor**.
++ **Totalmente sincronizado**: ambos entornos están en un estado completamente sincronizado para **Cuenta (cliente)**, **Contacto** y **Proveedor**.
 + **Claves de integración**: las tablas **Cuenta (cliente)**, **Contacto** y **Vendedor** de las aplicaciones de interacción con el cliente utilizan las claves de integración que se envían listas para usar. Si personalizó las claves de integración, debe personalizar la plantilla.
 + **Número de parte**: todos los registros de **Cuenta (cliente)**, **Contacto** y **Vendedor** que se actualizarán tienen un número de **Parte**. Los registros sin número de **Parte** se ignorarán. Si desea actualizar esos registros, agregue un número de **Parte** antes de iniciar el proceso de actualización.
-+ **Interrupción del sistema**: durante el proceso de actualización, deberá desconectar los entornos de Finance and Operations y de participación del cliente.
-+ **Instantánea**: Toma instantáneas de aplicaciones de Finance and Operations e interacción con el cliente. Utilice las instantáneas para restaurar el estado anterior si es necesario.
++ **Interrupción del sistema**: durante el proceso de actualización, deberá desconectar los entornos de Finance and Operations y entornos sin conexión Customer Engagement.
++ **Instantánea**: toma instantáneas de aplicaciones de Finance and Operaciones y aplicaciones Customer Engagement. Utilice las instantáneas para restaurar el estado anterior si es necesario.
 
 ## <a name="deployment"></a>Implementación
 
@@ -78,15 +79,19 @@ Estos requisitos previos son necesarios:
     FO Linked Service_properties_type Properties_tenant | Especifique la información del inquilino (nombre de dominio o ID de inquilino) bajo la cual reside su aplicación.
     FO Linked Service_properties_type Properties_aad Resource Id | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO Linked Service_properties_type Properties_service Principal Id | Especifique el Id. de cliente de la aplicación.
-    Dynamics Crm Linked Service_properties_type Properties_username | El nombre de usuario para conectarse a Dynamics.
+    Dynamics Crm Linked Service_properties_type Properties_username | El nombre de usuario para conectarse a Dynamics 365.
 
-    Para más información, vea [Promocionar manualmente una plantilla de Resource Manager para cada entorno](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Propiedades de servicios vinculados](/azure/data-factory/connector-dynamics-ax#linked-service-properties) y [Copiar datos con Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Para obtener más información, consulte los temas siguientes: 
+    
+    - [Promocionar manualmente una plantilla de Resource Manager para cada entorno](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [Propiedades de servicios vinculados](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [Copiar datos con Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Después de la implementación, valide los conjuntos de datos, el flujo de datos y el servicio vinculado de la factoría de datos.
 
    ![Conjuntos de datos, flujo de datos y servicio vinculado](media/data-factory-validate.png)
 
-11. Navegar a **Gestionar**. Debajo de **Conexiones**, seleccione **Servicio vinculado**. Seleccione **DynamicsCrmLinkedService**. En el formulario **Editar servicio vinculado (Dynamics CRM)**, ingrese los siguientes valores:
+11. Navegar a **Gestionar**. Debajo de **Conexiones**, seleccione **Servicio vinculado**. Seleccione **DynamicsCrmLinkedService**. En el formulario **Editar servicio vinculado (Dynamics CRM)**, ingrese los siguientes valores.
 
     Campo | Valor
     ---|---
@@ -102,7 +107,7 @@ Estos requisitos previos son necesarios:
 
 ## <a name="run-the-template"></a>Ejecutar la plantilla
 
-1. Detenga la doble escritura de **Cuenta**, **Contacto** y **Vendedor** a continuación usando la aplicación Finance and Operations.
+1. Detenga las asignaciones de doble escritura de **Cuenta**, **Contacto** y **Proveedor** a continuación usando la aplicación Finance and Operations.
 
     + Clientes V3 (cuentas)
     + Clientes V3 (contactos)
@@ -125,7 +130,7 @@ Estos requisitos previos son necesarios:
 
 5. En la aplicación de interacción con el cliente, desactive los siguientes pasos del complemento.
 
-    + Actualización de cuentas
+    + Actualización de cuenta
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: actualización de cuenta
          + Microsoft.Dynamics.FinanceExtended.Plugins.TriggerNotesForCustomerTypeCodes: actualización de cuenta
     + Actualización de contacto
@@ -152,18 +157,18 @@ Estos requisitos previos son necesarios:
     ![Ejecución de desencadenador](media/data-factory-trigger.png)
 
     > [!NOTE]
-    > Si tiene personalizaciones para **Cuenta**, **Contacto** y **Vendedor**, debe modificar la plantilla.
+    > Si tiene personalizaciones para **Cuenta**, **Contacto** y **Proveedor**, debe modificar la plantilla.
 
 8. Importe los nuevos registros de **Parte** en la aplicación Finance and Operations.
 
     + Descargue el archivo `FONewParty.csv` de Azure Blob Storage. La ruta es `partybootstrapping/output/FONewParty.csv`.
-    + Convierta el archivo `FONewParty.csv` en un archivo de Excel e importe el archivo de Excel en la aplicación de Finance and Operations.  Si la importación de csv funciona para usted, puede importar el archivo csv directamente. La importación puede tardar unas horas en ejecutarse, según el volumen de datos. Para obtener más información, consulte [Resumen de trabajos de importación y exportación de datos](../data-import-export-job.md).
+    + Convierta el archivo `FONewParty.csv` en un archivo de Excel e importe el archivo de Excel en la aplicación de Finances and Operations. Si la importación de csv funciona para usted, puede importar el archivo csv directamente. La importación puede tardar unas horas en ejecutarse, según el volumen de datos. Para obtener más información, consulte [Resumen de trabajos de importación y exportación de datos](../data-import-export-job.md).
 
     ![Importar los registros del partido de Datavers](media/data-factory-import-party.png)
 
 9. En la aplicación de interacción con el cliente, habilite los siguientes pasos del complemento:
 
-    + Actualización de cuentas
+    + Actualización de cuenta
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: actualización de cuenta
          + Microsoft.Dynamics.FinanceExtended.Plugins.TriggerNotesForCustomerTypeCodes: actualización de cuenta
     + Actualización de contacto
@@ -198,4 +203,4 @@ Estos requisitos previos son necesarios:
 
 ## <a name="learn-more-about-the-template"></a>Más información sobre la plantilla
 
-Puede encontrar comentarios para la plantilla en el archivo [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+Puede encontrar información adicional sobre la plantilla en [Comentarios para el archivo Léame de la plantilla de Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).

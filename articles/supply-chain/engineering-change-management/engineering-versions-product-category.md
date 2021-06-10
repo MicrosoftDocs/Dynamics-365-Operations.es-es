@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d6e5725255c43b808d656a46cbcdeca4d200b768
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920166"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115154"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versiones de ingeniería y categorías de productos de ingeniería
 
@@ -48,7 +48,8 @@ Cuando utiliza productos de ingeniería, cada producto tiene al menos una versi�
 - La empresa de ingeniería que creó y es propietaria del producto (para obtener más información, consulte [Empresas de ingeniería y reglas de propiedad de datos](engineering-org-data-ownership-rules.md) .)
 - Documentos de ingeniería relacionados, como un manual de ensamblaje, instrucciones para el usuario, imágenes y enlaces
 - Los atributos de ingeniería (Para obtener más información, consulte [Atributos de ingeniería y búsqueda de atributos de ingeniería](engineering-attributes-and-search.md)).
-- Las listas de materiales de ingeniería
+- Lista de materiales (BOM) para productos de ingeniería
+- Fórmulas para procesar productos de fabricación
 - Las rutas de ingeniería
 
 Puede actualizar estos datos en una versión existente, o crear una nueva versión, utilizando una *orden de cambio de ingeniería*. (Para más información, vea [Gestionar cambios en productos de ingeniería](engineering-change-management.md)). Si crea una nueva versión de un producto, el sistema copia todos los datos relevantes para la ingeniería en esa nueva versión. A continuación, puede modificar los datos de esa nueva versión. De esta manera, puede rastrear datos específicos para cada versión consecutiva. Para comparar las diferencias entre versiones de ingeniería consecutivas, inspeccione la orden de cambio de ingeniería, que incluye tipos de cambio que indican todos los cambios.
@@ -110,6 +111,8 @@ Configure los siguientes campos en la ficha desplegable **Detalles** de una cate
 | Campo | Descripción |
 |---|---|
 | Tipo de producto | Seleccione si la categoría se aplica a productos o servicios. |
+| Tipo de producción | Este campo aparece solo cuando ha habilitado [gestión del cambio de fórmula](manage-formula-changes.md) en su sistema. Seleccione el tipo de producción al que se aplica esta categoría de producto de ingeniería:<ul><li>**Elemento de planificación**: utilice esta categoría de ingeniería para realizar la gestión de cambios de fórmula para elementos de planificación. Los elementos de planificación utilizan fórmulas. Se parecen a los productos de fórmula, pero se utilizan para producir solo coproductos y productos derivados, no productos terminados. Las fórmulas se utilizan durante el proceso de fabricación.</li><li>**BOM**: utilice esta categoría de ingeniería para administrar productos de ingeniería, que no usan fórmulas y, por lo general (pero no necesariamente) incluyen listas de materiales.</li><li>**Fórmula**: utilice esta categoría de ingeniería para realizar la gestión de cambios de fórmula para productos terminados. Estos elementos tendrán una fórmula pero no una lista de materiales. Las fórmulas se utilizan durante el proceso de fabricación.</li></ul> |
+| Peso capturado | Esta opción aparece solo cuando ha habilitado [gestión del cambio de fórmula](manage-formula-changes.md) en su sistema. Está disponible solo cuando el **Tipo de producción** el campo está configurado en *Elemento de planificación* o *Fórmula*. Establezca esta opción en *Sí* si va a utilizar esta categoría de ingeniería para administrar elementos que requieren soporte de peso capturado. |
 | Seguimiento de versiones en transacciones | Seleccione si la versión del producto debe estamparse en todas las transacciones (impacto logístico). Por ejemplo, si realiza un seguimiento de la versión en las transacciones, cada orden de venta mostrará qué versión específica del producto se vendió en esa orden de venta. Si no realiza un seguimiento de la versión en las transacciones, los pedidos de venta no mostrarán qué versión específica se vendió. En cambio, siempre muestran la última versión.<ul><li>Si esta opción se establece en *Sí*, se crea un producto maestro para el producto, y cada versión del producto será una variante que utiliza la dimensión de producto *versión*. El campo **Subtipo de producto** se establece automáticamente en *Producto maestro* y, en el campo **Grupo de dimensiones de producto** debe seleccionar un grupo de dimensiones de producto donde la dimensión *versión* está activa. Solo se mostrarán los grupos de dimensiones de productos donde *versión* sea una dimensión activa. Puede crear nuevos grupos de dimensiones de productos seleccionando el botón **Editar** (símbolo de lápiz).</li><li>Si esta opción se establece en *No*, la la dimensión del producto *versión* no se utilizará. A continuación, puede seleccionar si desea crear un producto o un producto maestro que utilice las otras dimensiones.</li></ul><p>Esta opción se usa a menudo para productos que tienen una diferencia de costo entre versiones, o productos donde se aplican diferentes condiciones en relación con el cliente. Por tanto, es importante indicar qué versión se utilizó en cada transacción.</p> |
 | Subtipo de producto | Seleccione si la categoría incluirá productos o productos maestros. Para los maestros de producto, se utilizarán las dimensiones del producto.
 | Grupo de dimensiones de producto | La opción **Seguimiento de versiones en transacciones** le ayuda a seleccionar el grupo de dimensiones de producto. Si especificó que desea realizar un seguimiento de la versión en las transacciones, se mostrarán los grupos de dimensiones de producto donde se use la dimensión *versión*. En caso contrario, solo se mostrarán los grupos de dimensiones de productos donde no se use la dimensión *versión*. |
@@ -139,7 +142,10 @@ Para cada fila que agregue a la cuadrícula, configure los siguientes campos.
 
 ### <a name="readiness-policy-fasttab"></a>Ficha desplegable Política de preparación
 
-Utilice el campo **Política de preparación del producto** para seleccionar la política de preparación que se aplica a los productos que pertenecen a esta categoría. Para obtener más información, consulte [Preparación del producto](product-readiness.md).
+Utilice el campo **Política de preparación del producto** para seleccionar la política de preparación que se debería aplicar a los productos que se crean basados en esta categoría de ingeniería. Para obtener más información, consulte [Preparación del producto](product-readiness.md).
+
+> [!NOTE]
+> El campo **Directiva de preparación del producto** funciona de forma ligeramente diferente si ha activado la función *Comprobaciones de disponibilidad del producto* en su sistema. (Esa función le permite aplicar políticas de preparación a los estándares \[no ingeniería\] productos). Para más información, consulte [Asignar directivas de preparación a productos estándar y de ingeniería](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>Ficha desplegable Política de versiones
 

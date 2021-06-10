@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814739"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115032"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -71,6 +71,14 @@ Esta función agrega una pestaña de administración de activos a la interfaz de
 
 - Funcionalidad de administración de activos para la interfaz de ejecución de la planta de producción
 
+### <a name="enable-job-search"></a>Habilitar la búsqueda de empleo
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Esta función permite agregar un campo de búsqueda a la lista de trabajos. Los trabajadores pueden encontrar un trabajo específico ingresando el ID del trabajo o encontrar todos los trabajos para un pedido específico ingresando el ID del pedido. Los trabajadores pueden ingresar la identificación usando un teclado o escaneando un código de barras. Si desea usarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Búsqueda de trabajos para la interfaz de ejecución de la planta de producción
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabajar con configuraciones de ejecución de la planta de producción
 
 Para crear y mantener configuraciones de dispositivos, vaya a **Control de producción \> Configuración \> Ejecución de fabricación \> Configurar la ejecución de la planta de producción**. La página **Configurar la ejecución de la planta de producción** muestra una lista de configuraciones existentes. En esta página , puede realizar las acciones siguientes:
@@ -81,6 +89,7 @@ Para crear y mantener configuraciones de dispositivos, vaya a **Control de produ
 A continuación, configure los distintos ajustes para la configuración del dispositivo seleccionado. Están disponibles los siguientes campos:
 
 - **Ficha de entrada y salida solamente** - Establezca esta opción en *Sí* para crear una interfaz simplificada que solo proporcione funciones de reloj de entrada y salida. Esto desactiva la mayoría de las otras opciones de esta página. Debe eliminar todas las líneas de la ficha desplegable **Selección de pestaña** antes de que pueda habilitar esta opción.
+- **Habilitar búsqueda**: establezca esta opción en *Sí* para incluir un campo de búsqueda en la lista de trabajos. Los trabajadores pueden encontrar un trabajo específico ingresando el ID del trabajo o encontrar todos los trabajos para un pedido específico ingresando el ID del pedido. Los trabajadores pueden ingresar la identificación usando un teclado o escaneando un código de barras.
 - **Informar de cantidad a la salida del trabajo**: establezca esta opción en *Sí* para solicitar a los trabajadores que aporten comentarios sobre los trabajos en curso al salir del trabajo. Cuando se establece en *No*, no se avisará a los trabajadores.
 - **Bloquear empleado**: cuando esta opción se establece en *No*, se cerrará inmediatamente la sesión de los trabajadores cuando se registren (en un nuevo trabajo, por ejemplo). El dispositivo volverá a la página de inicio de sesión. Cuando esta opción se establece en *Sí*, los trabajadores permanecerán conectados al dispositivo de la tarjeta de trabajo. Sin embargo, un trabajador puede cerrar sesión manualmente para que otro trabajador pueda iniciar sesión mientras el dispositivo de tarjeta de trabajo continúe ejecutándose con la misma cuenta de usuario del sistema. Para obtener más información sobre estos tipos de cuentas, consulte [Usuarios asignados](config-job-card-device.md#assigned-users).
 - **Usar el tiempo real de registro**: establezca esta opción en *Sí* para establecer la hora de cada nuevo registro en la hora exacta a la que el trabajador envió el registro. Cuando esta opción se establece en *No*, se utiliza en su lugar la hora de inicio de sesión. Por lo general, querrá establecer esta opción en *Sí*, si ha establecido las opciones **Bloquear empleado** o **Trabajador único**, en *Sí* en aquellos casos en los que los trabajadores suelen permanecer conectados durante períodos más largos.

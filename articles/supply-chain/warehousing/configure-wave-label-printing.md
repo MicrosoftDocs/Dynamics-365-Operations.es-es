@@ -1,24 +1,24 @@
 ---
 title: Impresión de etiquetas de oleadas
 description: Este tema describe la impresión de etiquetas de oleada y explica cómo configurarla.
-author: GarmMSFT
+author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
-ms.reviewer: PJacobse
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: fe04b841dbb3bb237de53f74d73f2b3f9162ae6b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14a32f7fc4608ef8910646f80786a188c46dc89d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840446"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102623"
 ---
 # <a name="wave-label-printing"></a>Impresión de etiquetas de oleadas
 

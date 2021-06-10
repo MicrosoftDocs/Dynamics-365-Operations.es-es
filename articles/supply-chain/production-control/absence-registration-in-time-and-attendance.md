@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b765ae63cfb17e26439758f2a0ed64770ef70881
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a94df9dd706c2540779db70e794e4a0a3f2dd186
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809287"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103031"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Registro de ausencia en Tiempo y asistencia
 
@@ -31,7 +31,7 @@ Este tema describe los conceptos para ausencia y explica cómo gestionar ausenci
 
 Los trabajadores se consideran ausentes por las horas que no trabajen durante las horas de trabajo normales. Las horas de trabajo normales se definen en el perfil de tiempo estándar de un trabajador.
 
-Por ejemplo, un trabajador trabaja en un perfil de día que tiene hora de entrada a las 7:00 y salida a las 15:00. Si el trabajador entra a trabajar a las 9:00, se considera ausentes de 7:00 a 9:00 ese día.
+Por ejemplo, un trabajador trabaja en un perfil de día que tiene hora de entrada a las 7:00 y salida a las 15:00. Si el trabajador entra a trabajar a las 9:00, se considera ausente de 7:00 a 9:00 ese día.
 
 En este caso, se pide a los trabajadores que especifiquen un motivo de la ausencia. Pueden especificar un motivo seleccionando un código de ausencia.
 

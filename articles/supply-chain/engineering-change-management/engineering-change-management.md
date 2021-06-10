@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
-ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
+ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954654"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115008"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Administrar cambios en productos de ingeniería
 
@@ -92,9 +92,13 @@ La lista es meramente informativa. Por lo tanto, puede agregar tantos productos 
 
 La ficha desplegable **Origen** le permite realizar un seguimiento del punto de inicio de la solicitud de cambio. Es útil si, por ejemplo, desea ver si la solicitud de cambio se creó a partir de un pedido de cliente, quién la creó y en qué empresa se creó.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Evaluar el impacto comercial de una solicitud de cambio
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Evaluar el impacto comercial de una solicitud de cambio y enviar notificaciones
 
-Cuando revisa una solicitud de cambio, puede buscar dependencias. De esta manera, puede evaluar el impacto del cambio solicitado en transacciones abiertas, como pedidos de venta, pedidos de producción e inventario disponible.
+Cuando revisa una solicitud de cambio, puede buscar dependencias. De esta manera, puede evaluar el impacto del cambio solicitado en transacciones abiertas, como pedidos de venta, pedidos de producción e inventario disponible. A medida que revisa las solicitudes de cambios, puede enviar notificaciones a las personas responsables de cumplir con los distintos tipos de pedidos relacionados.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Revise las transacciones afectadas, bloquee las transacciones seleccionadas y envíe notificaciones
+
+Para revisar las transacciones afectadas, bloquear las transacciones seleccionadas y enviar notificaciones relacionadas, siga estos pasos.
 
 1. Vaya a **Gestión de cambios de ingeniería \> Común \> Gestión de cambios de ingeniería \> Solicitudes de cambio de ingeniería**.
 1. Abra una solicitud de cambio existente o seleccione **Nuevo** en el Panel de acciones para crear una nueva solicitud de cambio.
@@ -103,7 +107,30 @@ Cuando revisa una solicitud de cambio, puede buscar dependencias. De esta manera
     - **Buscar** - Analiza todas las transacciones abiertas y luego abre el cuadro de diálogo **Impacto empresarial en transacciones abiertas**, que enumera todas las transacciones que se verán afectadas por el cambio.
     - **Ver búsqueda anterior** - Abre el cuadro de diálogo **Impacto empresarial en transacciones abiertas**, que enumera los resultados de la búsqueda anterior. (No se realiza una nueva búsqueda).
 
-1. Si el problema que requiere un cambio se considera crítico, puede bloquear las transacciones abiertas o notificar al usuario responsable mediante los botones de la barra de herramientas en el cuadro de diálogo **Impacto empresarial en transacciones abiertas**.
+1. El cuadro de diálogo **Impacto empresarial en las transacciones abiertas** proporciona un conjunto de pestañas, cada una de las cuales muestra una lista de transacciones afectadas de un tipo específico (**Pedidos de ventas**, **Pedidos de compras**, **Pedidos de producción**, **Inventario** y similares). Cada pestaña también muestra un número que indica el número de transacciones afectadas de ese tipo. Seleccione una pestaña para ver la lista relevante.
+1. Para trabajar con una transacción en la lista, selecciónela y luego seleccione uno de los siguientes botones en la barra de herramientas:
+
+    - **Ver transacción**: abre el registro de transacción seleccionado.
+    - **Bloquear pedido**: este botón está disponible solo en la pestaña **Pedidos de ventas**. Selecciónelo para bloquear el pedido de ventas seleccionado.
+    - **Bloquear línea**: este botón está disponible solo en la pestaña **Pedidos de compras**. Selecciónelo para bloquear la línea de pedido de compras seleccionada.
+    - **Notificar al responsable**: este botón está disponible solo en la pestaña **Pedidos de ventas**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como responsable del pedido de ventas seleccionado.
+    - **Notificar pedido**: este botón está disponible solo en la pestaña **Pedidos de compras**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como el que pide el pedido de ventas seleccionado.
+    - **Notificar producción**: este botón está disponible solo en la pestaña **Pedidos de producción**. A diferencia de los pedidos de ventas y los pedidos de compras, los pedidos de producción no tienen un solo usuario que se establezca como responsable de ellas de principio a fin. En cambio, varios supervisores o planificadores suelen tomar posesión de un sitio específico o de una parte específica de la producción (por ejemplo, para recursos o grupos de recursos específicos). Por lo tanto, cuando selecciona este botón, todos los usuarios responsables de cualquier recurso relacionado con la orden de producción seleccionada reciben una notificación de cambio.
+    - **Notificar preparador**: este botón está disponible solo en la pestaña **Solicitud de compra**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como el preparador de la solicitud de compra seleccionada.
+    - **Notificar al responsable de ventas**: este botón está disponible solo en la pestaña **Presupuestos**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como responsable del presupuesto seleccionado.
+    - **Rechazar**: este botón está disponible solo en la pestaña **Inventario**. Selecciónelo para rechazar el inventario seleccionado.
+    - **Ver historial**: abre un historial de acciones que se han realizado en la transacción seleccionada utilizando el cuadro de diálogo **Impacto empresarial en las transacciones abiertas**. (Por ejemplo, el historial muestra si se han enviado notificaciones o si se han bloqueado transacciones). 
+    - **Ver todas las transacciones**: abre la lista completa de todas las transacciones, no solo las transacciones abiertas.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a>Revisar y procesar notificaciones de cambios para transacciones
+
+Puede leer y procesar las notificaciones de cambio que recibe de las siguientes formas:
+
+- Excepto en el caso de las órdenes de producción, las notificaciones de cambios para las transacciones de las que es responsable aparecen en el Centro de actividades. El botón **Mostrar mensajes** (símbolo de campana) en el lado derecho de la barra de navegación indica cuando un mensaje del Centro de actividades está disponible para usted. Seleccione el botón **Mostrar mensajes** para abrir el Centro de actividades y revisar los mensajes.
+- Para ver todas los pedidos de producción para los que se ha enviado una notificación de ingeniería, vaya a **Pedidos de producción \> Pedidos de producción \> Todos los pedidos de producción**. Luego, en el panel de acciones, en la pestaña **Pedido de producción**, en el grupo **Solicitar cambio de ingeniería**, seleccione **Notificaciones de ingeniería** para abrir la página **Notificaciones de ingeniería**.
+- Para los pedidos de producción, puede optar por revisar solo las notificaciones de cambios que se aplican a los recursos de producción que administra. En el espacio de trabajo **Gestión de planta de producción**, en el Panel de acciones, seleccione **Configurar mi espacio de trabajo** para filtrar la página para que muestre solo información sobre las unidades de producción, grupos y / o recursos que administra. En la sección **Resumen**, un mosaico que se llama **Pedidos de producción con productos modificados** muestra un recuento de notificaciones que coinciden con la configuración de su filtro. Seleccione este mosaico para abrir la página **Notificaciones de ingeniería**, que muestra la lista completa de transacciones que cumplen con los criterios de su filtro.
+
+Mientras revisa las notificaciones de órdenes de producción en la página **Notificaciones de ingeniería**, puede seguir enlaces a órdenes de cambio u órdenes de producción relacionadas seleccionando valores de columna o utilizando los comandos relacionados en el Panel de acciones. Una vez que haya terminado de evaluar un cambio y después de haber cancelado o modificado los pedidos de producción según sea necesario, puede marcar una notificación como resuelta. Seleccione la notificación y luego, en el Panel de acciones, seleccione **Resolver**. La notificación se elimina de las vistas de todos los usuarios.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Crear una orden de cambio a partir de una solicitud de cambio
 
