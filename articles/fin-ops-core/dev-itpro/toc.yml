@@ -14,7 +14,9 @@
               items:
                 - name: Novedades y cambios en la página principal de Platform update
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates para 10.0.19 (julio de 2021)
+                - name: Platform updates para la versión 10.0.20 (julio de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: Platform updates para 10.0.19 (junio de 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform updates para 10.0.18 (mayo de 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Novedades y cambios en Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Características quitadas o en desuso en Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Guía del usuario de Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Incorporación de proyecto
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Administración del ciclo de vida de la aplicación
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Propietario del equipo especificado por el usuario
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Desvincular y volver a vincular entornos de doble escritura
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Conceptos de asignación entre aplicaciones
                   items:
                     - name: Maestro de clientes integrado
@@ -1166,6 +1170,8 @@
               items:
                 - name: Información general sobre los complementos
                   href: power-platform/add-ins-overview.md
+            - name: Directivas y comunicaciones
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Plataforma móvil
           items:
             - name: Recursos de plataforma móvil

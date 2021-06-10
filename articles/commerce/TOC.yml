@@ -94,7 +94,9 @@
                   items:
                     - name: Novedades y cambios en la página principal de Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.19 (julio de 2021)
+                    - name: Commerce 10.0.20 (julio de 2021)
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: Commerce 10.0.19 (junio de 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (mayo de 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Crear y actualizar franjas horarias para la recogida del cliente
                   href: dev-itpro/pickup-timeslots.md
+                - name: Configurar los valores de las dimensiones del producto para que aparezcan como muestras
+                  href: dev-itpro/dimensions-swatch.md
         - name: Comercialización de sus productos y servicios
           items:
             - name: 'Categorías, productos y selecciones'
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: Aplicar configuración de unidad de medida
                   href: unit-of-measure.md
+                - name: Aplicar la configuración de visualización para las dimensiones del producto
+                  href: dimension-settings.md
             - name: Administrar el contenido de su sitio
               items:
                 - name: Métodos para agregar contenido
@@ -1946,7 +1952,7 @@
                   items:
                     - name: Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Mejoras de los resultados del seguimiento de los informes electrónicos generados y comparación con valores de línea base
+                    - name: Mejorar los resultados del seguimiento de los informes electrónicos generados para compararlos con los valores de línea base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: Automatizar pruebas con ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Configuración de la aplicación
                       href: e-commerce-extensibility/app-settings.md
+                    - name: Configurar las opciones de configuración global del configurador de sitios según las características habilitadas
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: Archivo de configuración de la plataforma
                       href: e-commerce-extensibility/platform-settings.md
                     - name: Ampliar una definición de módulo
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: "Cambios de desarrollo y ALM de la versión 10.0.10\_a 10.0.13"
                   href: dev-itpro/dev-changes-10-13.md
+                - name: Configurar una canalización de compilación para el SDK de empaquetado independiente
+                  href: dev-itpro/build-pipeline.md
                 - name: Fusionar los sistemas de compilación para Commerce y Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: "Migrar el SDK de Retail desde Visual Studio 2015\_a Visual Studio 2017"
@@ -2386,6 +2396,8 @@
               items:
                 - name: Diseños de pantalla de PDV
                   href: pos-screen-layouts.md
+                - name: Aplicación Store Commerce en Microsoft Dynamics 365 Commerce
+                  href: dev-itpro/store-commerce.md
                 - name: Abrir dirección URL en PDV
                   href: Open-URL-in-POS.md
                 - name: Instalar el diseñador de PDV
