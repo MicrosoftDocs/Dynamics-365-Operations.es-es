@@ -72,7 +72,9 @@
                   items:
                     - name: Novedades y cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.19 (julio de 2021)
+                    - name: Supply Chain Management 10.0.20 (julio de 2021)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (junio de 2021)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (mayo de 2021)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,7 +389,7 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Configuración de órdenes de trabajo
               items:
-                - name: 'Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento'
+                - name: 'Tipos de trabajos de mantenimiento, categorías, variantes, comercios y listas de comprobación'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Estados de ciclo de vida de orden de trabajo
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Mejoras de los resultados del seguimiento de los informes electrónicos generados y comparación con valores de línea base
+                    - name: Mejorar los resultados del seguimiento de los informes electrónicos generados para compararlos con los valores de línea base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Automatizar pruebas con ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,6 +2227,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Versiones de ingeniería y categorías de productos de ingeniería
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Administrar cambios en fórmulas y sus componentes
+              href: engineering-change-management/manage-formula-changes.md
             - name: Habilitar la administración de cambios en productos existentes
               href: engineering-change-management/change-management-existing-products.md
             - name: Transacciones y estado del ciclo de vida de producto
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Secuencia numérica unificada para id. de trabajo
               href: production-control/unified-job-ids.md
+            - name: Invocar flujos de automatización de procesos para crear pedidos de calidad
+              href: production-control/process-automation-quality-orders.md
             - name: Fabricación discreta
               items:
                 - name: Mantener datos maestros de producción
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
                           href: production-control/production-floor-execution-use.md
-                        - name: Estilos de control de la interfaz de usuario para la ejecución de la planta de producción
+                        - name: Diseñar la interfaz de ejecución de la planta de producción
                           href: production-control/production-floor-execution-styles.md
                     - name: Configurar tarjeta de trabajo para dispositivos
                       href: production-control/config-job-card-device.md
@@ -3139,11 +3145,11 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Configurar directivas de consolidación de envíos
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: 'Escenario 1: consolidar envíos cuando se manden al almacén mediante la Liberación automática de pedidos de ventas'
+                    - name: 'Escenario 1: consolidar envíos enviados al almacén mediante la liberación automática de pedidos de ventas'
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: 'Escenario 2: consolidar envíos cuando la directiva de consolidación de envíos se anula desde la página Liberar al almacén'
+                    - name: 'Escenario 2: consolidar envíos cuando se reemplaza la directiva de consolidación de envíos'
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: 'Escenario 3: consolidar envíos utilizando Liberar al almacén desde el área de trabajo de planificación de la carga'
+                    - name: 'Escenario 3: consolidar envíos liberando al almacén desde el área de trabajo de planificación de la carga'
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: 'Escenario 4: consolidar envíos mediante el área de trabajo de consolidación de envíos'
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3287,23 +3293,25 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Solución de problemas de configuración de almacén
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Instalar y configurar la aplicación móvil Gestión de almacenes
+                - name: Instalar y configurar la aplicación móvil Warehouse Management
                   items:
-                    - name: Instalar y conectar la aplicación móvil Gestión de almacenes
+                    - name: Instalar y conectar la aplicación móvil Warehouse Management
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Configuración de usuario del dispositivo móvil
                       href: warehousing/mobile-device-user-settings.md
                     - name: Instalar y conectar la aplicación de almacén
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: Digitalizar códigos de barras mediante una cámara en la aplicación Gestión de almacenes
+                    - name: Digitalizar códigos de barras mediante una cámara en la aplicación Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Configurar campos para la aplicación móvil Gestión de almacenes
+                    - name: Configurar campos para la aplicación móvil Warehouse Management
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurar dispositivos móviles para el trabajo de almacén
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Asignar iconos y títulos de pasos
+                      href: warehousing/step-icons-titles.md
                     - name: Procesamiento de eventos de la aplicación de almacén
                       href: warehousing/warehouse-app-events.md
-                    - name: Recepción de matrículas mediante la aplicación móvil Gestión de almacenes
+                    - name: Recepción de matrículas mediante la aplicación móvil Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Configurar un elemento de menú del dispositivo móvil para trabajar en un pedido de compra
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3321,7 +3329,7 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Marco de guías de proceso
                       href: warehousing/process-guide-framework.md
-                    - name: Solucionar problemas de conexión de la aplicación móvil Gestión de almacenes
+                    - name: Solucionar problemas de conexión de la aplicación móvil Warehouse Management
                       href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Actualizar y migrar
                   items:
@@ -3345,7 +3353,7 @@
               items:
                 - name: Falta la configuración de campo al copiar grupos de modelos de elementos a otra entidad jurídica
                   href: troubleshooting/costing/copying-item-model-groups.md
-                - name: El informe "Costes indirectos en proceso" incluye pedidos de producción eliminados
+                - name: El informe de costes indirectos en proceso incluye pedidos de producción eliminados
                   href: troubleshooting/costing/indirect-costs-in-pr.md
                 - name: Acumulación de compras registrada con importe cero para la recepción de productos de valor cero
                   href: troubleshooting/costing/posting-to-purchase.md
@@ -3359,37 +3367,41 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Revertir un informe como terminado crea una transacción abierta inesperada
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: No se pueden mostrar nuevas notas adjuntas a un diario en el informe de lista de selección
+                - name: El informe de lista de selección no muestra las nuevas notas que están adjuntas a un diario
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: La cantidad de un pedido iniciado en cuarentena no se actualiza cuando se divide el pedido
                   href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: El campo "Fecha de última prueba" no se actualiza al crear varios pedidos de calidad
+                - name: El campo Fecha de última prueba no se actualiza cuando se crean varios pedidos de calidad
                   href: troubleshooting/inventory/the-field-last-test.md
-                - name: 'Al dividir una cantidad de peso aproximado, se usa la cantidad mínima en lugar de la nominal'
+                - name: 'Cuando se divide una cantidad de peso capturado, se usa la cantidad mínima en lugar de la nominal'
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Planificación maestra
               items:
                 - name: Los pedidos confirmados derivados directamente se procesan mediante un flujo de trabajo de revisión
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: No puede filtrar elementos de planificación maestra por sus valores de grupo de cobertura relacionados
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: La planificación maestra genera pedidos planificados para productos fantasma
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Pedido de compra planificado creado cuando existe un pedido en días negativos
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: No se puede cargar el precio de coste en las entradas de previsión de demanda
+                - name: No puede actualizar el coste unitario previsto cuando importa registros de previsión de la demanda
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: No se puede eliminar la dimensión de previsión de la demanda del almacén de las líneas de previsión
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: Se le solicitará que guarde la configuración de cobertura del artículo aunque no haya realizado cambios
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Adquisición
               items:
-                - name: No se puede facturar un pedido de ventas de cara al cliente en la empresa VEL
+                - name: No puede facturar un pedido de ventas dirigido al cliente
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: No se puede agregar una línea a una solicitud de compra después de solicitar un cambio
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Gestión de información de productos
               items:
-                - name: No se puede aplicar una plantilla para crear un producto liberado
+                - name: No puede aplicar una plantilla para crear un producto liberado
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: No se puede importar un artículo con la entidad Productos liberados V2
+                - name: No puede importar un artículo utilizando la entidad Productos liberados V2
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: Los pedidos de compra no muestran el texto del producto traducido
                   href: troubleshooting/products/when-the-customer-ad.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: Los usuarios pueden deshacer las líneas de material de los productos que se han notificado como terminados
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: Error al publicar el informe como diario terminado
+                - name: Error cuando se registra el diario Notificar como terminado
                   href: troubleshooting/production/posting-report-as-.md
                 - name: El almacén del diario de la lista de selección no se actualiza en una línea de L. MAT
                   href: troubleshooting/production/the-warehouse-in-pic.md
@@ -3447,7 +3459,7 @@
                   href: troubleshooting/warehousing/the-weight-fields-on.md
                 - name: No es posible elegir la oleada para limpieza
                   href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: El peso debe ser positivo
+                - name: El peso debe ser positivo.
                   href: troubleshooting/warehousing/weight-must-be-posit.md
                 - name: El trabajo no se puede cancelar porque está bloqueado
                   href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md

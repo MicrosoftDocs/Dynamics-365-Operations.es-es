@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017064"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085483"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Cambiar la divisa contable o de notificación
 
@@ -31,12 +31,12 @@ Este tema explica cómo cambiar la divisa contable o de notificación, o agregar
 Puede que desee cambiar la divisa contable o de notificación, o agregar una divisa de notificación a la configuración del libro mayor. Esto suele ocurrir en los siguientes escenarios:
 
 - Se especificó una divisa contable o de notificación errónea al configurar una entidad jurídica. Ahora desea cambiar esa divisa.
-- No se especificó ninguna divisa de notificación al configurar una entidad jurídica. (Una divisa de notificación es opcional). Ahora desea agregar una divisa de notificación.
+- Se especificó una divisa de notificación al configurar una entidad jurídica, pero la organización ahora quiere eliminar la divisa de notificación.
+- La organización está actualizando o migrando a Microsoft Dynamics 365 Finance y desea cambiar la divisa contable o de notificación.
 
 Una organización que no usó anteriormente la capacidad de doble divisa quiere comenzar a usarla. Este problema suele ocurrir en los siguientes escenarios.
 
-- Se especificó una divisa de notificación al configurar una entidad jurídica, pero la organización ahora quiere eliminar la divisa de notificación.
-- La organización está actualizando o migrando a Microsoft Dynamics 365 Finance y desea cambiar la divisa contable o de notificación.
+- No se especificó ninguna divisa de notificación al configurar una entidad jurídica. (Una divisa de notificación es opcional). Ahora desea agregar una divisa de notificación.
 
 ## <a name="resolution"></a>Resolución
 

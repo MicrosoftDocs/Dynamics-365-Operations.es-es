@@ -72,6 +72,8 @@
                   items:
                     - name: Novedades y cambios en la página principal de Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20 (julio de 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (julio de 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (mayo de 2021)
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Saldos de apertura que faltan en el cierre de fin de año
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Abrir plantillas de diario financiero en Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Informes financieros
           items:
             - name: Introducción a los informes financieros
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Agregar campos de datos en la integración fiscal mediante el uso de extensiones
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Números de registro de IVA múltiple
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar un entorno para la búsqueda de datos maestros
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Números de registro de IVA múltiple
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Informes de varios registros de IVA
+                      items:
+                        - name: Informes de varios registros de IVA
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Informes de los Países Bajos
+                          items:
+                            - name: Declaración de IVA
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: Lista de ventas de la UE
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Actualizaciones reglamentarias
               href: localizations/regulatory-updates.md
             - name: Australia
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: Habilitar el procesamiento multilote de los informes de GSTR
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: Solución de problemas de GST
+                          items:
+                            - name: Importe de impuesto incorrecto después del cálculo
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Errores de configuración de impuestos
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: Los impuestos no se calculan
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: La activación de las reglas de compensación tarda más de lo esperado
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: No se genera el asiento o TaxTrans
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: El id. de transacción fiscal es incorrecto
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Impuestos directos
                   items:
                     - name: Retención de impuestos en India
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Archivo de auditoría (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: Declaración de IVA (Países Bajos)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Lista de ventas de la UE
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Noruega
               items:
                 - name: Información general de Noruega
@@ -3376,7 +3408,7 @@
                   href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
             - name: Desarrollar empleados
               items:
-                - name: Información general de la gestión del desempeño
+                - name: Información general de la gestión del rendimiento
                   href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Alinear aptitudes de recursos
                   href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
@@ -4123,7 +4155,7 @@
                   items:
                     - name: Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Mejoras de los resultados del seguimiento de los informes electrónicos generados y comparación con valores de línea base
+                    - name: Mejorar los resultados del seguimiento de los informes electrónicos generados para compararlos con los valores de línea base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: Automatizar pruebas con ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
