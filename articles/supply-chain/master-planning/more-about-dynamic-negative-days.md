@@ -1,27 +1,21 @@
 ---
 title: Días negativos y días negativos dinámicos
 description: En este tema se proporciona información acerca de los días negativos y los días negativos dinámicos, y cómo puede utilizarlos para ayudar a su negocio.
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907750"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097243"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Días negativos y días negativos dinámicos
 
@@ -45,7 +39,7 @@ Es posible que obtenga la demanda relativamente pronto en el plazo del artículo
 - El artículo DemoProduct tiene un plazo de compra de seis días.
 - El día cero (1 de enero), el nivel de inventario para el artículo DemoProduct es 0 (cero).
 - El día cero (1 de enero), obtiene un pedido de ventas para una cantidad de 10 del artículo DemoProduct.
-- El día siete (7 de enero), hay un pedido de compra existente para una cantidad de 10 del artículo DemoProduct.
+- El día siete (8 de enero), hay un pedido de compra existente para una cantidad de 10 del artículo DemoProduct.
 
 En la ilustración siguiente se muestra una vista gráfica de este escenario.
 
@@ -112,7 +106,7 @@ Es posible que obtenga demanda alguna vez durante el plazo de su artículo. A co
 
 En la ilustración siguiente se muestra una vista gráfica de este escenario.
 
-![Vista gráfica del escenario 1](./media/negative-days-8.png)
+![Vista gráfica del escenario 2](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Caso A: los días negativos son menos que el plazo del artículo
 
@@ -157,7 +151,7 @@ Puede que obtenga la demanda después del plazo del artículo. A continuación s
 - El artículo DemoProduct tiene un plazo de compra de seis días.
 - El día cero (1 de enero), el inventario para el artículo DemoProduct es 0 (cero).
 - El día siete (8 de enero), que se encuentra fuera del plazo del artículo, obtiene un pedido de ventas para una cantidad de 10 del artículo DemoProduct.
-- El día 10 (11 de enero), hay un pedido de compra para una cantidad de 10 del artículo DemoProduct.
+- El día diez (11 de enero), hay un pedido de compra para una cantidad de 10 del artículo DemoProduct.
 
 En la ilustración siguiente se muestra una vista gráfica de este escenario.
 
@@ -219,8 +213,8 @@ Es posible que desee establecer los días negativos en un límite de tiempo mayo
 - El artículo DemoProduct tiene un plazo de compra de seis días.
 - El día cero (1 de enero), el inventario para el artículo DemoProduct es 0 (cero).
 - El día cero (1 de enero), obtiene un pedido de ventas para una cantidad de 10 del artículo DemoProduct.
-- El día 10 (10 de enero), obtiene un pedido de ventas para una cantidad de 10 del artículo DemoProduct.
-- El día 12 (12 de enero), hay un pedido de compra para una cantidad de 10 del artículo DemoProduct.
+- El día nueve (10 de enero), obtiene un pedido de ventas para una cantidad de 10 del artículo DemoProduct.
+- El día once (12 de enero), hay un pedido de compra para una cantidad de 10 del artículo DemoProduct.
 - Los días negativos se establecen en **20**, que es mucho más que el plazo del artículo.
 
 En la ilustración siguiente se muestra una vista gráfica de lo que ocurre.
@@ -229,7 +223,7 @@ En la ilustración siguiente se muestra una vista gráfica de lo que ocurre.
 
 MRP produce los siguientes resultados.
 
-![Resultados](./media/negative-days-20.png)
+![Ejemplo de resultados 1](./media/negative-days-20.png)
 
 En el captura de pantalla anterior, la fecha de requisito del pedido de ventas es el 9 de enero, en lugar del 10 de enero. Puesto que la captura de pantalla se tomó en 2015, cuando el 10 de enero era sábado, la fecha de requisito del pedido debería ser el día laborable anterior, que era viernes 9 de enero.
 
@@ -239,7 +233,7 @@ Los resultados no son incorrectos, pero el tiempo de ejecución para MRP puede s
 
 Si reduce los días negativos a un número que es más cercano al plazo del artículo, y utiliza días negativos dinámicos, MRP produce los siguientes resultados.
 
-![Resultados](./media/negative-days-21.png)
+![Ejemplo de resultados 2](./media/negative-days-21.png)
 
 MRP crea un pedido planificado que se vincula al primer pedido de ventas. A continuación, como se espera, el segundo pedido de ventas se fija al pedido de compra existente, según la configuración de días negativos. Este resultado de planificación también es correcto, y el tiempo de ejecución para MRP puede ser más breve. En este caso, no es fundamental que entienda y sepa cómo trabajar con los mensajes de acción.
 

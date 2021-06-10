@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673642729aa41fa3c00a09fe8fe205edd0624c7
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832979"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088474"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Soporte de divisa doble para impuestos
 [!include [banner](../includes/banner.md)]
@@ -42,8 +42,9 @@ Para obtener más información sobre la divisa doble, consulte [Divisa doble](du
 Como consecuencia del soporte para divisas dobles, hay dos nuevas funciones disponibles en la administración de funciones: 
 
 - Conversión de impuestos de ventas (nuevo en la versión 10.0.13)
+- Introduzca las dimensiones financieras en las cuentas de pérdidas / ganancias de ajuste de divisa para la liquidación de impuestos sobre las ventas (nuevo en la versión 10.0.17)
 
-El soporte de divisa doble para los impuestos garantiza que los impuestos se calculen con precisión en la divisa del impuesto, y que el saldo de liquidación de impuestos se calcule con precisión tanto en la divisa de contabilidad como en la divisa de notificación. 
+El soporte de divisa doble para los impuestos garantiza que los impuestos se calculen con precisión en la divisa del impuesto, y que el saldo de liquidación de impuestos se calcule con precisión tanto en la divisa de contabilidad como en la divisa de notificación.
 
 ## <a name="sales-tax-conversion"></a>Conversión de impuestos
 
@@ -88,6 +89,10 @@ Esta función solo se aplicará a las transacciones nuevas. Para las transaccion
 
 Para evitar el escenario anterior, recomendamos cambiar el valor de este parámetro en un nuevo período de liquidación de impuestos (limpio) que no contenga ninguna transacción de impuestos sin resolver. Para cambiar este valor en la mitad de un período de liquidación de impuestos, ejecute el programa "Liquidación y post impuesto" para el período de liquidación de impuestos actual antes de cambiar este valor de parámetro.
 
+Esta función agregará asientos contables que aclaran las ganancias y pérdidas de los cambios de divisas. Los asientos se realizarán en las cuentas de pérdidas y ganancias del ajuste de moneda realizado cuando se realice la revaluación durante la liquidación del impuesto sobre las ventas. Para obtener más información, consulte la sección [Balance automático de liquidación de impuestos en la moneda del informe](#tax-settlement-auto-balance-in-reporting-currency) más adelante en este tema.
+
+> [!NOTE]
+> Durante la liquidación, la información para las dimensiones financieras se toma de las cuentas de impuestos sobre las ventas, que son cuentas de balance, y se ingresa en las cuentas de pérdidas y ganancias de ajuste de moneda, que son cuentas de pérdidas y ganancias. Debido a que las restricciones sobre el valor de las dimensiones financieras difieren entre las cuentas del balance y las cuentas del estado de pérdidas y ganancias, se puede producir un error durante el proceso de Liquidación y posterior al impuesto a las ventas. Para evitar tener que modificar las estructuras de las cuentas, puede activar la función "Completar dimensiones financieras para las cuentas de pérdidas / ganancias de ajuste de divisa para liquidación de impuestos sobre las ventas". Esta característica forzará la derivación de dimensiones financieras a cuentas de pérdidas / ganancias de ajuste de divisa. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Seguir la cantidad de impuestos de divisa de notificación
 
@@ -114,7 +119,7 @@ Utilizando el ejemplo anterior para demostrar esta característica, suponga que 
 | Divisa de contabilidad             | 100                        | 111                       | 83                       | **83.25**          |
 | Divisa de notificación              | 100                        | 111                       | 83                       | **83**             |
 
-Cuando ejecute el programa de liquidación de impuestos al final del mes, la entrada contable será la siguiente:
+Cuando ejecute el programa de liquidación de impuestos al final del mes, la entrada contable será la siguiente.
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Escenario: conversión de impuestos = "Divisa de contabilidad"
 
 | Cuenta principal           | Divisa de la transacción (GBP) | Divisa de contabilidad (USD) | Divisa de notificación (GBP) |

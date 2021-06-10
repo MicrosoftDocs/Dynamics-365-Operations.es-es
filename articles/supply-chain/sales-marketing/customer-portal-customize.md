@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909009"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102719"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizar y usar el Portal del cliente
 
@@ -82,7 +82,7 @@ Estos son los pasos estándar para enviar un pedido desde el Portal del cliente.
 1. Cuando haya terminado de agregar elementos, seleccione **Siguiente** en la página **Artículos**.
 1. La página **Información del pedido** proporciona un resumen del pedido. Revise el contenido del pedido y los detalles de entrega. Si todo parece correcto, seleccione **Enviar** para enviar el pedido.
 
-    ![Página de información de pedido](media/customer-portal-order-submit.png "Página de información de pedido")
+    ![Página de información de pedido completada](media/customer-portal-order-submit.png "Página de información de pedido completada")
 
 ### <a name="standard-data-setup"></a>Configuración de datos estándar
 

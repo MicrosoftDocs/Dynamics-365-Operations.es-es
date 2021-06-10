@@ -2,7 +2,7 @@
 title: Comenzar con la administración de servicios de facturación electrónica
 description: Este tema explica cómo comenzar con la facturación electrónica.
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980985"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092415"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Comenzar con la administración de servicios de facturación electrónica
 
@@ -44,18 +44,14 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Instalar el complemento para microservicios en Lifecycle Services
 
-1. Inicie sesión en su cuenta de LCS.
-2. Seleccione el mosaico **Gestión de características de vista previa**.
-3. En la sección **Funciones de versión preliminar pública**, seleccione **Facturación electrónica**.
-4. Compruebe que la opción **Característica en vista previa** esté establecida en **Sí**.
-5. En su proyecto de LCS, seleccione un proyecto de LCS.
-6. En el proyecto de LCS, en el panel del entorno de LCS, seleccione su proyecto de implementación de LCS. El proyecto de implementación de LCS debe estar en ejecución.
-7. En la pestaña **Integracion de Power Platform**, en el grupo de campo **Complementos del entorno**, seleccione **Instalar un nuevo complemento**.
-8. Seleccione **Facturacion electrónica**.
-9. En el campo **Id. de la aplicación AAD**, introduzca **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Este valor es fijo.
-10. En el campo **Id. de inquilino de AAD**, introduzca el id. de su cuenta de suscripción de Azure.
-11. Revise los términos y condiciones, y luego seleccione la casilla.
-12. Seleccione **Instalar**.
+1. Inicie sesión en su cuenta de LCS y en el panel de proyecto de LCS, seleccione un proyecto de LCS.
+2. En el proyecto, en el panel del entorno, seleccione su proyecto de implementación de LCS. El proyecto que seleccione debe estar en ejecución.
+3. En la pestaña **Integracion de Power Platform**, en el grupo de campo **Complementos del entorno**, seleccione **Instalar un nuevo complemento**.
+4. Seleccione **Facturacion electrónica**.
+5. En el campo **Id. de la aplicación AAD**, introduzca **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Este valor es fijo.
+6. En el campo **Id. de inquilino de AAD**, introduzca el id. de su cuenta de suscripción de Azure.
+7. Revise los términos y condiciones, y luego seleccione la casilla.
+8. Seleccione **Instalar**.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Configurar los parámetros para la integración de RCS con la facturación electrónica

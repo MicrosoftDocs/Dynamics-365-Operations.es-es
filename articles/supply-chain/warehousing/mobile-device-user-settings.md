@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837474"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049301"
 ---
 # <a name="mobile-device-user-settings"></a>Configuración de usuario del dispositivo móvil
 
@@ -94,3 +94,8 @@ Siga estos pasos para crear y administrar las marcas y modelos de los dispositiv
 
     - **ID de modelo de dispositivo** - El ID del modelo del dispositivo, como *Surface Book 2*.
     - **Descripción** - Puede ingresar una descripción para ayudar a distinguir los id. de los modelos.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+- [Instalar y conectar la aplicación móvil Gestión de almacenes](install-configure-warehouse-management-app.md)
+- [Asignar iconos y títulos de paso para la aplicación móvil Warehouse Management](step-icons-titles.md)

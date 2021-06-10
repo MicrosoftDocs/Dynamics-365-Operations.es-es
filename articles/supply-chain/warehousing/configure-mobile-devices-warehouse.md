@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 657dd864885bc7c8216aab95a73f389f21f7cccd
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808807"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102935"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
@@ -41,6 +41,7 @@ Para crear un elemento de menú para una actividad o una consulta, establezca el
 > En función del modo seleccionado para el elemento de menú, y de si el elemento de menú se usa para realizar el trabajo existente, el elemento de menú puede ofrecer otros campos. Para obtener información sobre otras selecciones de campos, consulte la sección “Opciones del elemento de menú adicionales” más adelante en este tema.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurar elementos de menú para las actividades y consultas
+
 Si el campo **Modo** para un elemento de menú se establece en **Indirecto**, puede crear un elemento de menú para realizar una actividad o una consulta general que no cree el trabajo. Entre los ejemplos se incluyen la reimpresión de etiquetas de número de matrícula y una consulta sobre los artículos en una ubicación. En la tabla siguiente se muestran las opciones disponibles.
 
 | Opción | Descripción |
@@ -58,16 +59,15 @@ Si el campo **Modo** para un elemento de menú se establece en **Indirecto**, pu
 | Creación de matrícula de entidad de almacén | Cree una matrícula principal combinando varias matrículas en la misma ubicación. Esta opción resulta útil si mueve varias matrículas de entidad de almacén simultáneamente. Después de que se mueva el número de matrícula principal, debe realizar una interrupción del número de matrícula antes de poder seleccionar artículos de cada número de matrícula. <p></p>**Sugerencia**: para mover una matrícula de entidad de almacén, debe usar un dispositivo móvil que está configurado para crear el trabajo para los movimientos. |
 | Interrupción de matrícula de entidad de almacén | Interrumpa una estructura del número de matrícula de manera que pueda seleccionar artículos de las matrícula que se encontraban en la estructura. |
 | Registro de entrada del conductor | Si está usando Gestión de transporte, registre la llegada de un conductor explorando la identificación de carga de salida, la identificación de la cita o la identificación del envío. Para esta opción, una carga tiene que estar asignada a la cita y el estado de la carga tiene que ser **Cargado**. |
-| Registro de salida del conductor | Registre que un conductor ha completado la cita. |
+| Registro de salida del conductor | Registre que un conductor ha completado su cita. |
 | Vaciar caché de secuencia numérica | Elimine números de la secuencia numérica de la caché de la secuencia numérica. Esta actividad la realizará normalmente un administrador del sistema para solucionar los problemas de la memoria caché cuando se utilizan dispositivos móviles. |
 | Cambiar disposición de lote | Permita que un trabajador especifique un código de disposición de lote para un artículo y un lote. Esta selección actualiza el código de disposición que se especifica para el lote. |
 | Mostrar lista de trabajo abierta | Muestra una lista de trabajo disponible para un usuario concreto. El usuario puede seleccionar el trabajo para realizar y se le dirige a él. Esta lista está diseñada para verla en dispositivos de tableta que tienen tamaños de pantalla de 7 pulgadas o más. Cuando se selecciona esta opción, están disponibles los elementos de menú **Editar consulta** y **Lista de campos**. La página **Editar la consulta** permite configurar los criterios para el trabajo que aparece en la lista. La página **Lista de campos** permite seleccionar los campos que aparecen en la lista de trabajo. Por ejemplo, puede reducir el número de campos que aparecen para que el usuario pueda seleccionar con más rapidez el elemento de trabajo más adecuado. En la ficha desplegable **General**, en el campo **Registros por página**, también puede seleccionar cuántos registros se muestran por página. Si selecciona la opción **Permitir a los usuarios filtrar por tipo de transacción**, la lista de trabajos incluirá un control **Filtrar trabajo** que el usuario puede usar para filtrar por tipo de transacción. En la lista de trabajos, los usuarios solo verán aquellos trabajos para los que tienen permiso de acceso. Debe asegurarse de que esos usuarios tienen permiso para uno o más elementos de menú dirigidos al usuario que admiten los tipos de clase de trabajo específicos a los que deben poder tener acceso. Los permisos se verificarán cuando un usuario intente realizar el trabajo desde la lista.|
 | Crear pedido de transferencia a partir de las matrículas de entidad de almacén | Permite a los trabajadores de almacén crear y procesar pedidos de transferencia directamente desde la aplicación móvil Warehouse Management. Los trabajadores del almacén comienzan seleccionando el almacén de destino y luego pueden escanear una o más placas con la aplicación para agregar placas a la orden de transferencia. Cuando el trabajador del almacén selecciona **Orden completa**, un trabajo por lotes creará la orden de transferencia requerida y las líneas de orden según el inventario disponible registrado para esas placas. Para más información, vea [Crear órdenes de transferencia desde la aplicación Warehouse](create-transfer-order-from-warehouse-app.md).
 
-
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurar elementos de menú para crear trabajo para otro trabajador o proceso
-Puede configurar un elemento de menú que crea trabajo para otro trabajador tras realizar una acción inicial en el dispositivo móvil. Por ejemplo, cuando un trabajador usa un dispositivo móvil para recibir un artículo, el trabajo de ubicación se crea para otro trabajador. Para configurar un elemento de menú que crea el trabajo, en la página **Elementos de menú del dispositivo móvil**, en el campo **Modo**, seleccione **Trabajo**. En la tabla siguiente, las opciones del campo **Proceso de creación de trabajo** están organizadas por el tipo de pedido de trabajo.
 
+Puede configurar un elemento de menú que crea trabajo para otro trabajador tras realizar una acción inicial en el dispositivo móvil. Por ejemplo, cuando un trabajador usa un dispositivo móvil para recibir un artículo, el trabajo de ubicación se crea para otro trabajador. Para configurar un elemento de menú que crea el trabajo, en la página **Elementos de menú del dispositivo móvil**, en el campo **Modo**, seleccione **Trabajo**. En la tabla siguiente, las opciones del campo **Proceso de creación de trabajo** están organizadas por el tipo de pedido de trabajo.
 
 <table>
 <tbody>
@@ -407,6 +407,7 @@ La siguiente tabla describe estas opciones.
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Requerir a los trabajadores confirmar el producto, la ubicación o la cantidad cuando seleccionan artículos
+
 Puede configurar las confirmaciones de trabajo que requieren que un trabajador use un dispositivo móvil para registrar la ubicación o la cantidad cuando realizan el trabajo en el almacén. Las confirmaciones de trabajo ayudan a garantizar que el trabajador esté en la ubicación correcta o que está manejando la cantidad correcta de artículos. También puede habilitar Supply Chain Management para confirmar automáticamente el registro del trabajador. Si permite la confirmación automática, no puede requerir también las confirmaciones para la ubicación o la cantidad. Las confirmaciones de trabajo también incluyen los productos y las variantes de producto. Además, puede registrar confirmaciones explorando un código de barras. Para confirmar los productos y las variantes de producto, debe especificar una identificación del producto o la variante del producto. Este identificador puede ser un id. del producto, un id. de búsqueda del producto, un id. externo, GTIN o un código de barras. Tras escribir la identificación o explorar el código de barras, las dimensiones para la variante del producto se muestran en el dispositivo móvil. 
 
 La siguiente tabla describe los distintos tipos de trabajo con los que puede usar confirmaciones de trabajo.
@@ -426,14 +427,11 @@ La siguiente tabla describe los distintos tipos de trabajo con los que puede usa
 > [!NOTE]
 > Puede exigir la confirmación del producto solo para tipos de trabajo de picking y ubicación.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
-[Configurar un elemento de menú del dispositivo móvil para completar trabajo del tipo pedido de compra](tasks/set-up-mobile-device-menu.md)
-
-[Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-
-[Estados de inventario](../inventory/inventory-statuses.md)
+- [Configurar un elemento de menú del dispositivo móvil para completar trabajo del tipo pedido de compra](tasks/set-up-mobile-device-menu.md)
+- [Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [Estados de inventario](../inventory/inventory-statuses.md)
 
 
 

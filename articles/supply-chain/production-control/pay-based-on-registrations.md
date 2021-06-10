@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39786323e1ea11a960332e6e0a01f6ef8de1838d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814835"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103008"
 ---
 # <a name="pay-based-on-registrations"></a>Paga basada en los registros
 
@@ -77,7 +77,7 @@ Para comprender esta situación, vea los campos siguientes.
 
 #### <a name="calculation-of-flex"></a>Cálculo del horario flexible+.
 
-De acuerdo con el perfil flexible, el tiempo entre las 06:00 a. m. y las 07:00 a. m. es un período de horario flexible+. Por lo tanto, si el trabajador entra a las 06:30, obtiene 0.5 horas. Esta cantidad de tiempo se agrega a la cuenta de horario flexible del trabajador.
+De acuerdo con el perfil flexible, el tiempo entre las 06:00 a. m. y las 07:00 a. m. es un período de horario flexible+. Por lo tanto, si el trabajador entra a las 06:30, obtiene 0,5 horas. Esta cantidad de tiempo se agrega a la cuenta de horario flexible del trabajador.
 
 #### <a name="calculation-of-flex-"></a>Cálculo del horario flexible-
 
@@ -116,7 +116,7 @@ Una vez que haya calculado los registros de diario en la página **Aprobar**, pu
 
 #### <a name="calculation-of-flex"></a>Cálculo del horario flexible+.
 
-De acuerdo con el perfil flexible, el tiempo entre las 06:00 a. m. y las 07:00 a. m. es un período de horario flexible+. Por lo tanto, si la trabajadora entra a las 06:30, gana 0.5 horas de tiempo de horario flexible+ en su saldo de horario flexible.
+De acuerdo con el perfil flexible, el tiempo entre las 06:00 a. m. y las 07:00 a. m. es un período de horario flexible+. Por lo tanto, si la trabajadora entra a las 06:30, gana 0,5 horas de tiempo de horario flexible+ en su saldo de horario flexible.
 
 #### <a name="calculation-of-flex-"></a>Cálculo del horario flexible-
 
@@ -168,7 +168,7 @@ Para configurar el sistema para distinguir claramente el tiempo estándar y las 
 
 En la página **Parámetros de cálculo**, seleccione **Horas extra** como el tipo de especificación de perfil y establezca la opción **Tiempo salarial** en **No**, como se muestra aquí.
 
-| Especificación del registro | Tipo de especificación de perfil | Cálculo   |     | Pagado         |     |
+| Especificación del registro | Tipo de especificación de perfil | Cálculo   | Configuración | Pagado         | Configuración |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
 | Horario de trabajo       | Horas extra                   | Hora estándar | Sí | Tiempo salarial     | N.º  |
 |                    |                            | Tiempo salarial      | Sí | Horas extra de sueldo | Sí |
@@ -559,7 +559,7 @@ Por el contrario, si la casilla de verificación **Deducir horas extra** se dese
 
 El siguiente ejemplo muestra cómo una cuenta de horario flexible de un trabajo puede ser reducida convirtiendo el período de ausencia en un período de horarios flexibles.
 
-El trabajador entra a las 7:00 y sale a las 13:00. Ella ha alcanzado un acuerdo con el supervisor por el que puede irse a casa para el fin de semana si resta estas horas de su cuenta de horario flexible. Cuando la trabajadora registra la hora de salida a la 01:00 P.M., se le pide que seleccione un código de ausencia, ya que el período de ausencia para la parte restante del día laborable afectado no es un período de horario flexible- planificado. Para convertir la parte restante del día laborable a un período de horario flexible-, el trabajador puede seleccionar un código de ausencia que esté configurado para reducir su cuenta de horario flexible.
+El trabajador entra a las 7:00 y sale a las 13:00. El trabajador tiene un acuerdo de que puede irse a casa durante el fin de semana si deducen estas horas de su cuenta flexible. Cuando la trabajadora registra la hora de salida a la 01:00 P.M., se le pide que seleccione un código de ausencia, ya que el período de ausencia para la parte restante del día laborable afectado no es un período de horario flexible- planificado. Para convertir la parte restante del día laborable a un período de horario flexible-, el trabajador puede seleccionar un código de ausencia que esté configurado para reducir su cuenta de horario flexible.
 
 Para reducir el saldo de horas flexibles de los trabajadores que registran ausencia en un día laborable, seleccione **Tiempo y asistencia** &gt; **Configuración** &gt; **Grupos** &gt; **Grupos de ausencias** y seleccione la casilla de verificación **Reducir horario flexible**.
 

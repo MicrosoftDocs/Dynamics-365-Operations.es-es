@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908961"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049325"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instale y conecte la aplicación móvil Warehouse Management
 
@@ -92,7 +92,7 @@ Para habilitar la aplicación móvil Warehouse Management para interactuar con u
 
 1. Se abre su nuevo registro de aplicación. Anote el valor de **Id. de aplicación (cliente)**, puesto que lo necesitará más adelante. Este id. se referirá más adelante en este tema como *Id. de cliente*.
 
-    ![Identificador de aplicación (cliente)](media/app-connect-azure-app-id.png "Identificador de aplicación (cliente)")
+    ![Identificador de aplicación (cliente)](media/app-connect-azure-app-id.png "Id. de aplicación (cliente)")
 
 1. En la lista **Administrar**, seleccione **Certificado y secretos**. Luego, seleccione uno de los siguientes botones, según cómo desee configurar la aplicación para la autenticación. (Para obtener más información, consulte la sección [Autenticar usando un certificado o secreto de cliente](#authenticate), más adelante en este tema).
 
@@ -295,5 +295,9 @@ Si un dispositivo está perdido o defectuoso, debe quitar el acceso a Supply Cha
 1. En la barra de herramientas, seleccione **Eliminar**.
 1. En el mensaje de confirmación que aparece, haga clic en **Sí**.
 
+## <a name="additional-resources"></a>Recursos adicionales
+
+- [Configuración de usuario del dispositivo móvil](mobile-device-user-settings.md)
+- [Asignar iconos y títulos de paso para la aplicación móvil Warehouse Management](step-icons-titles.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

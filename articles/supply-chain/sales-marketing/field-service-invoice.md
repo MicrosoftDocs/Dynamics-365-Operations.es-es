@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f3066741781bd9058e09d7f577a35df4c9b453d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21a77a0289055285f47323803a484c012e662e3a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819217"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102743"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sincronizar facturas de acuerdos en Field Service con facturas de texto libre en Supply Chain Management
 
@@ -100,11 +100,11 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Facturas de acuerdo (Field service a Supply Chain Management): encabezados de facturas
 
-[![Asignación de la plantilla en la integración de datos](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![Asignación de plantillas en la integración de datos para encabezados de facturas](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Facturas de acuerdo (Field service a Supply Chain Management): líneas de facturas
 
-[![Asignación de la plantilla en la integración de datos](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![Asignación de plantillas en la integración de datos para líneas de facturas](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
