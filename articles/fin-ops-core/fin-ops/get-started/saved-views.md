@@ -2,7 +2,7 @@
 title: Vistas guardadas
 description: Este tema describe cómo usar las características guardadas de las vistas.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744624"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050565"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -126,17 +126,26 @@ Para publicar una vista, siga estos pasos:
 5. **Actualización 10.0.17 o posterior:** Si la función de **(vista previa) Soporte de traducción para vistas de organización** está activada, puede agregar traducciones para el nombre de su vista en tantos idiomas como su organización lo requiera seleccionando el botón **Traducciones** junto al campo **Nombre**. El nombre de la vista se mostrará a los usuarios en su idioma actual. También puede establecer el idioma predeterminado para especificar la traducción que se mostrará a los usuarios que ejecutan idiomas para los que no se ha definido ninguna traducción.
 5. Opcional: ingrese una descripción para la vista, de modo que los usuarios que reciben esta vista puedan comprender mejor su propósito. 
 6. Determine si la vista debe publicarse como la vista predeterminada para los usuarios seleccionados. Cuando una vista se establece como vista predeterminada, los usuarios la verán la próxima vez que abran la página de destino. Se modificará la vista predeterminada global única de cada usuario objetivo. Sin embargo, los usuarios aún pueden cambiar su vista predeterminada después de que se haya publicado.
-7. Agregue los roles de seguridad que corresponden a los usuarios que son el objetivo de esta vista. 
-8. Determine si desea publicar la vista en los roles secundarios de cada rol de seguridad seleccionado. Si lo hace, seleccione la casilla **Incluir roles secundarios** en la fila para los roles de seguridad apropiados. Tenga en cuenta que esta casilla de verificación no está disponible para roles que no tienen roles secundarios.
-9. Agregue las entidades jurídicas para las que esta vista debe estar disponible. 
-10. Seleccione **Publicar**.
+
+    > [!NOTE]
+    > Tenga en cuenta lo siguiente al publicar una vista como vista predeterminada: 
+    > -  Si publica una vista como vista predeterminada para todas o algunas entidades jurídicas, cambia la vista predeterminada **global** única de cada usuario objetivo. 
+    > -  Si un usuario tiene roles donde se publican varias vistas como la vista predeterminada, la última vista que se publicó se usará como la vista predeterminada del usuario. 
+
+8. Agregue los roles de seguridad que corresponden a los usuarios que son el objetivo de esta vista. 
+9. Determine si desea publicar la vista en los roles secundarios de cada rol de seguridad seleccionado. Si lo hace, seleccione la casilla **Incluir roles secundarios** en la fila para los roles de seguridad apropiados. Tenga en cuenta que esta casilla de verificación no está disponible para roles que no tienen roles secundarios.
+10. Agregue las entidades jurídicas para las que esta vista debe estar disponible. 
+
+    > [!NOTE]
+    > Tenga en cuenta las siguientes expectativas cuando publique una vista para una entidad legal.
+    > 
+    > Si publica una vista en una entidad jurídica, pero no la publica como la vista predeterminada, los usuarios verán inicialmente la vista en el selector de vista solo para las entidades jurídicas especificadas. Sin embargo, después de cargar la vista por primera vez, siempre estará en el selector de vista del usuario para esa página, independientemente de la entidad jurídica.
+
+11. Seleccione **Publicar**.
 
 Tenga en cuenta que en algunos entornos esto podrá llevar tiempo (hasta una hora) antes de que los usuarios vean la vista publicada.
 
-> [!NOTE]
-> Tenga en cuenta las siguientes expectativas cuando publique una vista en una entidad jurídica o cuando publique una vista como vista predeterminada.
-> - Si publica una vista como vista predeterminada para todas o algunas entidades jurídicas, cambia la vista predeterminada global única de cada usuario objetivo. Si un usuario tiene roles donde se publican varias vistas como la vista predeterminada, la última vista que se publicó se usará como la vista predeterminada del usuario. 
-> - Si publica una vista en una entidad jurídica, pero no la publica como la vista predeterminada, los usuarios verán inicialmente la vista en el selector de vista solo para las entidades jurídicas especificadas. Sin embargo, después de cargar la vista por primera vez, siempre estará en el selector de vista del usuario para esa página, independientemente de la entidad jurídica. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Modificar una vista publicada
 

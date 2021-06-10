@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812988"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049445"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
@@ -89,13 +89,13 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Producción | Planes que incluyen la secuenciación: _\#_ | Esta característica está pendiente. Actualmente, la secuenciación se ignora cuando la optimización de planificación está habilitada, independientemente de esta configuración. | Octubre de 2021 - abril de 2022 |
 | Producción | Pedidos de producción emitidos que no se han iniciado, cuando el inicio programado es anterior al día de hoy: _\#_ | Esta característica está pendiente. Actualmente, si se retrasa una orden de producción, la planificación maestra asumirá que se completará hoy. Esto es relevante para las órdenes de producción emitidas en las que una fecha de entrega es del pasado, pero aún no se ha completado. | Octubre de 2021 - abril de 2022 |
 | Producción | Recursos programados con capacidad finita: _\#_ | Esta característica está pendiente. Actualmente, los recursos que están programados con capacidad finita se ignoran cuando la optimización de la planificación está habilitada. La programación se realiza en función del tiempo de entrega predeterminado del producto. | Infinito: junio de 2021, finito: octubre de 2021 |
-| Producción | Rutas usadas en la planificación: _\#_ | Esta característica está pendiente. Actualmente, las rutas se ignoran cuando la optimización de la planificación está habilitada. Se utiliza el tiempo de entrega predeterminado del producto. | 2021 de junio |
+| Producción | Rutas usadas en la planificación: _\#_ | Esta característica está pendiente. Actualmente, las rutas se ignoran cuando la optimización de la planificación está habilitada. Se utiliza el tiempo de entrega predeterminado del producto. | Julio de 2021 |
 | Producción | Reserva de línea de ventas mediante expansión: _\#_ | La reserva de línea de ventas mediante expansión no se admite cuando la optimización de la planificación está habilitada. | 2021 de octubre |
 | Producción | Programación con expansión de pedidos de producción: _\#_ | La programación con expansión de pedidos de producción no se admite cuando la optimización de la planificación está habilitada. Los pedidos de producción se pueden programar individualmente. | 2021 de octubre |
 | Solicitud de presupuestos | Planes maestros con solicitudes de presupuestos habilitadas: _\#_ | Esta característica está pendiente. Actualmente, las solicitudes de presupuesto (RFQ) no se consideran demanda cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. | Octubre de 2021 - abril de 2022 |
 | Solicitudes | Planes maestros con solicitudes habilitadas: _\#_ | Esta característica ahora se admite. Para obtener más información, consulte [Solicitudes de compra](purchase-requisitions.md) | Compatible |
-| Márgenes de seguridad | Grupos de cobertura con margen de seguridad: _\#_ | Esta característica ahora se admite parcialmente. Para obtener información adicional, consulte [Márgenes de seguridad](safety-margins.md) | Margen de recepción: compatible. Margen de administración y margen de emisión: abril de 2021 |
-| Márgenes de seguridad | Planes maestros con margen de seguridad: _\#_ | Esta característica ahora se admite parcialmente. Para obtener información adicional, consulte [Márgenes de seguridad](safety-margins.md) | Margen de recepción: compatible. Margen de administración y margen de emisión: abril de 2021 |
+| Márgenes de seguridad | Grupos de cobertura con margen de seguridad: _\#_ | Esta característica ahora se admite parcialmente. Para obtener información adicional, consulte [Márgenes de seguridad](safety-margins.md) | Margen de recepción: compatible. Margen de administración y margen de emisión: abril - octubre de 2021 |
+| Márgenes de seguridad | Planes maestros con margen de seguridad: _\#_ | Esta característica ahora se admite parcialmente. Para obtener información adicional, consulte [Márgenes de seguridad](safety-margins.md) | Margen de recepción: compatible. Margen de administración y margen de emisión: abril - octubre de 2021 |
 | Cumplimiento de existencias de seguridad | Registros de cobertura de artículos con "Cumplimiento mínimo" diferente de "Fecha de hoy + tiempo de adquisición": _\#_ | La optimización de la planificación siempre utiliza *Fecha de hoy + tiempo de adquisición*. Este cambio se realiza para prepararse para una configuración de planificación simplificada en el futuro y para proporcionar un resultado procesable. Si no se incluye el tiempo de adquisición para el stock de seguridad, los pedidos planificados que se creen para el inventario disponible bajo actual siempre se retrasarán debido al tiempo de entrega. Este comportamiento puede causar ruido significativo y órdenes planificadas no deseadas. La mejor práctica es cambiar la configuración para que se use *Fecha de hoy + tiempo de adquisición*. Actualice los datos maestros para evitar advertencias. | N/D |
 | Presupuestos de ventas | Planes maestros con presupuestos de ventas habilitados: _\#_ | Esta característica está pendiente. Actualmente, los presupuestos no se consideran cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. | Octubre de 2021 - abril de 2022 |
 | Vida útil | Planes maestros con vida útil habilitada: _\#_ | Esta característica está pendiente. Actualmente, la vida útil no se considera cuando la optimización de planificación está habilitada, independientemente de esta configuración. | 2021 de octubre |
