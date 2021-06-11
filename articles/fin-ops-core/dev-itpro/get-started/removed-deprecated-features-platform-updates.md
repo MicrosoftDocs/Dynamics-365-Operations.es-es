@@ -2,7 +2,7 @@
 title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
-ms.date: 02/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 435f7f0090ca16a9e8cfee2d1ceb65bec8457d09
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923547"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111733"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -31,6 +31,19 @@ En este tema se describen las características que se han eliminado, o que está
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
 La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+## <a name="feature-deprecation-notice-effective-may-2021"></a>Aviso de desactivación de funciones a partir de mayo de 2021
+
+### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Portal de globalización en Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Estamos abandonando el portal de globalización en LCS ya que esta función ha sido reemplazada por otros servicios basados en LCS. |
+| **¿Reemplazado por otra característica?**   | Sí, esta función es reemplazada por LCS [Búsqueda de temas](../lifecycle-services/issue-search-lcs.md) y [Servicio de envío de alertas regulatorias dinámicas](../lcs-solutions/submit-localization-alerts.md). |
+| **Áreas de producto afectadas**         | Portal de globalización en LCS|
+| **Opción de implementación**              | Implementación en la nube |
+| **Estado**                         | En desuso: fecha de eliminación planificada en mayo de 2022. |
+
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Función eliminada a partir del 28 de enero de 2021
 
@@ -56,7 +69,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | Visual Studio 2017 reemplazará a Visual Studio 2015 como versión implementada y necesaria. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | En desuso. Tras la actualización, las herramientas X++ anteriores se eliminarán de Visual Studio 2015, y las herramientas actualizadas no se instalarán en Visual Studio 2015. No hay impacto en las compilaciones alojadas. Para compilar máquinas virtuales, la canalización de compilación (definición de compilación) debe actualizarse manualmente para cambiar la dependencia de MSBuild 14.0 (Visual Studio 2015) a MSBuild 15.0 (Visual Studio 2017) como se describe en [Actualizar una canalización heredada en Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+| **Estado**                         | En desuso: tras la actualización, las herramientas X++ anteriores se eliminarán de Visual Studio 2015, y las herramientas actualizadas no se instalarán en Visual Studio 2015. No hay impacto en las compilaciones alojadas. Para compilar máquinas virtuales, la canalización de compilación (definición de compilación) debe actualizarse manualmente para cambiar la dependencia de MSBuild 14.0 (Visual Studio 2015) a MSBuild 15.0 (Visual Studio 2017) como se describe en [Actualizar una canalización heredada en Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
 
 ### <a name="user-avatar"></a>Avatar de usuario 
 
@@ -76,7 +89,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | N.º |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | En desuso. Todo el código EP está programado para ser eliminado en el lanzamiento de octubre de 2021. |
+| **Estado**                         | En desuso: todo el código EP está programado para ser eliminado en el lanzamiento de octubre de 2021. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.15 de aplicaciones Finance and Operations
 
@@ -88,7 +101,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | Recomendamos que los clientes hagan la transición a Microsoft Edge.|
 | **Áreas de producto afectadas**         | Todos los productos Dynamics 365 |
 | **Opción de implementación**              | Todos|
-| **Estado**                         | En desuso. Internet Explorer 11 no se admitirá después de agosto de 2021.|
+| **Estado**                         | En desuso: Internet Explorer 11 no se admitirá después de agosto de 2021.|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Complemento de Visual Studio para aplicar revisiones de metadatos
@@ -181,7 +194,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | Para más información, consulte [Configuración de acceso condicional de Azure Active Directory](/appcenter/general/configuring-aad-conditional-access).|
 | **Áreas de producto afectadas**         | Seguridad |
 | **Opción de implementación**              | Nube |
-| **Estado**                         | **Obsoleto:** esta característica está totalmente en desuso para las implementaciones en autoservicio. |
+| **Estado**                         | Obsoleto: esta característica está totalmente en desuso para las implementaciones en autoservicio. |
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
 
@@ -201,7 +214,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | Este error del compilador reemplaza permanentemente la advertencia del compilador.  |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | **Obsoleto:** la advertencia del compilador es un error del compilador en las Platform updates para la versión 10.0.11 de aplicaciones Finance and Operations. |
+| **Estado**                         | En desuso: la advertencia del compilador es un error del compilador en las Platform updates para la versión 10.0.11 de aplicaciones Finance and Operations. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licencias de ISV creadas utilizando el algoritmo de hash SHA1
 
@@ -211,7 +224,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | Sí. Use Windows PowerShell para crear licencias. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | <strong>Obsoleto:</strong> las licencias de ISV que se crearon utilizando el algoritmo de hash SHA1. Este algoritmo dependía de los certificados que se crearon utilizando la utilidad MakeCert, y esta utilidad ha quedado en desuso.<p><strong>Obsoleto:</strong> el uso de SHA1 para fines de seguridad o hashing. SHA1 dejará de funcionar a principios de 2021. Por lo tanto, ya no debe usarse.<p><strong>Eliminado:</strong> soporte para Transport Layer Security (TLS) 1.0 y TLS 1.1 solicitudes entrantes o salientes. |
+| **Estado**                         | Obsoleto: las licencias de ISV que se crearon utilizando el algoritmo de hash SHA1. Este algoritmo dependía de los certificados que se crearon utilizando la utilidad MakeCert, y esta utilidad ha quedado en desuso.<br><br>Obsoleto: el uso de SHA1 para fines de seguridad o hashing. SHA1 dejará de funcionar a principios de 2021. Por lo tanto, ya no debe usarse.<br><br>Eliminado: soporte para Transport Layer Security (TLS) 1.0 y TLS 1.1 solicitudes entrantes o salientes. |
 
 ## <a name="platform-update-32"></a>Platform update 32
 

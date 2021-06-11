@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019503"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103637"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -77,6 +77,7 @@ Para confirmar manualmente los pedidos planificados, busque y seleccione los ped
 
     - **Agrupar por proveedor**: establezca esta opción en *Sí* para agrupar pedidos de compra planificadas y crear un pedido de compra por proveedor durante la confirmación. También puede crear un pedido de compra que tenga una línea para cada pedido planificado.
     - **Agrupar por grupo de compradores**: establezca esta opción en *Sí* para agrupar los pedidos de compra planificados y crear un pedido de compra que combine el grupo de compradores y de proveedores. Para utilizar esta opción, también debe seleccionar la opción **Agrupar por proveedor** en *Sí*.
+    - **Agrupar por acuerdo de compra**: establezca esta opción en *Sí* para agrupar órdenes de compra planificadas que tienen el mismo proveedor que los acuerdos de compra existentes y crear una orden de compra por acuerdo de compra. Esta opción se habilita automáticamente cuando **Agrupar por proveedor** está habilitado. Para usar **Agrupar por acuerdo de compra**, **Encontrar acuerdo de compra** debe establecerse en *Sí* en la página **Parámetros de planificación maestra**.
     - **Agrupar por período** (en la sección **Pedidos de compra**): seleccione el período por el que agrupar los pedidos de compra planificados. Para utilizar esta opción, también debe seleccionar la opción **Agrupar por proveedor**.
     - **Agrupar por período** (en la sección **Transferencias**): seleccione el período por el que agrupar los pedidos de transferencia planificados. Los pedidos se agruparán en función de los valores **Desde el almacén** y **Al almacén**.
 

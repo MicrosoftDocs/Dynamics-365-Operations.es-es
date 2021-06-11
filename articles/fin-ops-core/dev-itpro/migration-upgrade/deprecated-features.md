@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921432"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112630"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas o en desuso de versiones anteriores
 
@@ -104,6 +104,39 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Opción de implementación**              | Todas |
 | **Estado**                         | Desusado: El 1 de octubre de 2020, planificamos dejar de admitir el **Informe sobre impuestos nacionales - Referencia de funcionalidad IT-00003**. |
 
+## <a name="october-2019-deprecation-announcement"></a>Anuncio de desactivación de octubre de 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Diagramas de flujo en el Modelador de procesos empresariales
+
+<table>
+<tbody>
+<tr>
+<td><strong>Motivo de la depreciación/eliminación</strong></td>
+<td>Vamos a dejar de usar el componente de diagramas de flujo en el Modelador de procesos empresariales (BPM), ya que el diseño heredado hizo que se usara poco.</td>
+</tr>
+<tr>
+<td><strong>¿Reemplazado por otra función?</strong></td>
+<td>No</td>
+</tr>
+<tr>
+<td><strong>Áreas afectadas</strong></td>
+<td>Modelador de procesos empresariales</td>
+</tr>
+<tr>
+<td><strong>Estado</strong></td>
+<td>En desuso: se prevé la eliminación del componente de diagramas de flujo en BPM en 2020. La siguiente funcionalidad no estará disponible:
+<ul>
+<li>Todos los diagramas de flujo serán de solo lectura y no estarán disponibles para edición. Las propiedades de forma asociadas con las actividades del diagrama de flujo tampoco estarán disponibles. Estos diagramas de flujo incluyen diagramas de flujo predeterminados que se generan automáticamente y diagramas de flujo personalizados que se modifican en función de esos diagramas de flujo predeterminados.</li>
+<li>Los pasos del proceso serán de solo lectura y no estarán disponibles para edición.</li>     
+<li>La función de análisis de idoneidad/lagunas heredado no estará disponible. Por lo tanto, no se creará automáticamente una lista de lagunas ni estará disponible para la exportación.
+<p><strong>Nota:</strong> esta función quedó en desuso anteriormente y fue reemplazada por las integraciones de Microsoft Azure DevOps.</p>
+</li>
+<li>El historial de versiones del diagrama de flujo no estará disponible.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 con Platform update 29
 

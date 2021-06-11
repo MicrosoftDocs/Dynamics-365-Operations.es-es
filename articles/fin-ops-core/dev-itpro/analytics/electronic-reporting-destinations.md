@@ -2,7 +2,7 @@
 title: Destinos de informes electrónicos (ER)
 description: Este tema proporciona información sobre la administración de los destinos de informes electrónicos, los tipos de destinos admitidos y las consideraciones de seguridad.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893613"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085509"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
@@ -199,6 +199,34 @@ Si genera una configuración de informes electrónicos en formato Excel y desea 
 > La orientación de página seleccionada se aplica a todas las configuraciones de ER que se generan en formato Excel y luego se convierten a formato PDF.
 >
 > Si una configuración de informes electrónicos en formato Word se convierte a formato PDF, se toma la orientación de página del documento en Word para el documento en PDF.
+
+## <a name="output-unfolding"></a>Despliegue de salida
+
+Cuando configura un destino para el componente **Carpeta** de su formato ER, puede especificar cómo se entrega la salida de ese componente al destino configurado.
+
+### <a name="make-output-unfolding-available"></a>Haga que el despliegue de salida esté disponible
+
+Para que la opción de despliegue de salida esté disponible en la instancia de Finance actual, abra el espacio de trabajo **Gestión de funciones** y active la característica **Permitir configurar destinos ER para enviar contenido de carpetas como archivos separados**.
+
+### <a name="applicability"></a>Aplicabilidad
+
+La opción de despliegue de salida se puede configurar solo para los componentes de formato del tipo **Carpeta**. Cuando empiece a configurar un componente **Carpeta**, la ficha desplegable **General** está disponible en la página **Destino de informes electrónicos**. 
+
+### <a name="use-the-output-unfolding-option"></a>Utilice la opción de despliegue de salida
+
+En la ficha desplegable **General**, en el campo **Enviar carpeta como**, seleccione uno de los siguientes valores:
+
+- **Archivo ZIP**: entregue un archivo generado como un archivo zip.
+- **Archivos separados**: entregue cada archivo de un archivo zip generado como un archivo individual.
+
+    > [!NOTE]
+    > Cuando selecciona **Archivos separados**, la salida generada se recopila en la memoria en un estado comprimido. Por lo tanto, el [límite de tamaño de archivo](er-compress-outbound-files.md) máximo se aplica para la salida comprimida cuando el tamaño real del archivo puede exceder este límite. Le recomendamos que seleccione este valor cuando espere que el tamaño de la salida generada también sea bastante grande.
+
+[![Configuración de un destino para un componente de formato de carpeta](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Limitaciones
+
+Si configura el campo **Enviar carpeta como** a **Archivos separados** para **Carpeta** componente que contiene otros anidados componentes **Carpeta**, la configuración no se aplica de forma recursiva a los componentes anidados **Carpeta**.
 
 ## <a name="security-considerations"></a>Consideraciones de seguridad
 

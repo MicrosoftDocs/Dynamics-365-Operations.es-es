@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e9cd90d74b92754d4a5432485d5dd59c31e34c61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45763d5e602946fc3328cc3b565777fb7e549c61
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841994"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115106"
 ---
 # <a name="release-product-structures"></a>Liberar estructuras de producto
 
@@ -103,6 +103,7 @@ Configure los siguientes campos en la ficha desplegable **General** de una direc
 | Campo | Descripción |
 |---|---|
 | Tipo de producto | Seleccione si la política se aplica a los productos de tipo *Artículo* o *Servicio*. No puede cambiar esta configuración después de guardar el registro. |
+| Tipo de producción | Este campo aparece solo cuando ha habilitado [gestión del cambio de fórmula](manage-formula-changes.md) en su sistema. Seleccione el tipo de producción al que se aplica esta política de lanzamiento:<ul><li>**Coproducto**: utilice esta directiva de lanzamiento para administrar coproductos. Los coproductos se producen durante el proceso de fabricación y no se versionan ni son productos de ingeniería. Las directivas de lanzamiento de coproductos pueden ayudar a garantizar que configuraciones importantes, como **Grupo de dimensiones de almacenamiento** y **Grupo de dimensiones de seguimiento**, se configuran mediante una plantilla de producto publicado antes de que se publiquen en una empresa.</li><li>**Producto derivado**: utilice esta directiva de lanzamiento para administrar productos derivados. Los productos derivados se producen durante el proceso de fabricación y no se versionan ni son productos de ingeniería. Las directivas de lanzamiento de productos derivados pueden ayudar a garantizar que configuraciones importantes, como **Grupo de dimensiones de almacenamiento** y **Grupo de dimensiones de seguimiento**, se configuran mediante una plantilla de producto publicado antes de que se publiquen en una empresa.</li><li>**Ninguno**: utilice esta directiva para administrar productos estándar que no tienen versiones o productos de ingeniería, o coproductos o productos derivados.</li><li>**Elemento de planificación**: utilice esta directiva de liberación para gestionar los elementos de planificación que se producen mediante el proceso de fabricación. Los elementos de planificación utilizan fórmulas. Se parecen a los productos de fórmula, pero se utilizan para producir solo coproductos y productos derivados, no productos terminados.</li><li>**BOM**: utilice esta directiva de lanzamiento para administrar productos de ingeniería, que no usan fórmulas y, por lo general (pero no necesariamente) incluyen listas de materiales.</li><li>**Fórmula**: utilice esta directiva de liberación para gestionar los elementos terminados que se producen mediante el proceso de fabricación. Estos elementos tendrán una fórmula pero no una lista de materiales.</li></ul> |
 | Aplicar plantillas | Seleccione una de las siguientes opciones para especificar si se deben aplicar las plantillas de lanzamiento de productos y cómo se deben aplicar cuando se utiliza la política:<ul><li>**Siempre** - Siempre se debe utilizar una plantilla de producto liberado para los lanzamientos. Si selecciona esta opción, utilice la ficha desplegable **Todos los productos** para especificar la plantilla que se utiliza para cada empresa a la que se envía. Si no especifica una plantilla para cada empresa que aparece en la ficha desplegable **Todos los productos**, recibirá un error cuando intente guardar la política.</li><li>**Opcional** - Si se especifica un producto publicado por plantilla para una empresa que figura en la ficha desplegable **Todos los productos**, esa plantilla se usará cuando la publique para esa empresa. De lo contrario, no se utilizará ninguna plantilla. Si selecciona esta opción, puede guardar la política sin asignar plantillas a todas las empresas. (No se mostrará ninguna advertencia).</li><li>**Nunca** - No se utilizará ningún producto publicado por plantilla para ninguna empresa a la que le entregue, incluso si se especifica una plantilla para las empresas que figuran en la ficha desplegable **Todos los productos**. Las columnas de la plantilla no estarán disponibles.</li></ul> |
 | Activa | Utilice esta opción para ayudar a mantener sus políticas de lanzamiento. Ponlo en *Sí* para todas las políticas de lanzamiento que utilice. Ponlo en *No* para marcar una política de lanzamiento como inactiva cuando no se utiliza. Tenga en cuenta que no puede desactivar una política de lanzamiento asignada a una categoría de producto de ingeniería y solo puede eliminar las políticas de lanzamiento inactivas. |
 

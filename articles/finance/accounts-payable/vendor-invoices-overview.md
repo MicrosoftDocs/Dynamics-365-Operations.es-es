@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841270"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111703"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Este tema ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago recibido para productos y servicios. Las facturas de proveedor pueden representar una cuenta para servicios continuos o se pueden basar en pedidos de compra para artículos y servicios específicos.
 
@@ -71,7 +73,9 @@ A continuación se indican varias maneras de impedir que se envíe una factura a
 
 - **La factura contiene cargos no asignados.** La persona que envió la factura recibirá una alerta que le comunicará que la factura contiene cargos no asignados para que pueda corregir la factura antes de volver a enviarla al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si hay cargos no asignados en una factura de proveedor** de la página **Administración de características** está activado.
 
-- **La factura contiene el mismo número de factura que otra factura registrada.** La persona que envió la factura recibirá una alerta que le comunicará que se ha encontrado una factura con un número duplicado para que pueda corregirla antes de volver a enviarla al flujo de trabajo. Esta alerta se mostrará cuando el parámetro **Comprobar el número de factura utilizado** de Proveedores esté establecido en **Rechazar duplicado**. Esta función está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el número de factura ya existe en una factura registrada y su sistema no está configurado para aceptar números de factura duplicados** de la página **Administración de características** está activado.  
+- **La factura contiene el mismo número de factura que otra factura registrada.** La persona que envió la factura recibirá un mensaje indicándole que se encontró una factura con un número duplicado. El número duplicado se puede corregir antes de volver a enviar la factura al flujo de trabajo. Esta alerta se mostrará cuando el parámetro **Comprobar el número de factura utilizado** de Proveedores esté establecido en **Rechazar duplicado**. Esta función está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el número de factura ya existe en una factura registrada y su sistema no está configurado para aceptar números de factura duplicados** de la página **Administración de características** está activado.
+
+- **La factura contiene una línea en la que la cantidad de la factura es menor que la cantidad de recepción del producto correspondiente.** La persona que envíe la factura o intente publicar recibirá un mensaje de que las cantidades no son iguales. Este mensaje ofrece la oportunidad de corregir los valores antes de volver a enviar la factura al flujo de trabajo. Esta función está disponible si el parámetro **Bloquear la publicación y el envío de facturas de proveedores al flujo de trabajo** en la página **Gestión de funciones** está activada y el parámetro **Bloquear publicación y envío al flujo de trabajo** en la página **Parámetros de cuentas por pagar** está encendida.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Conciliación de facturas de proveedor a recepciones de producto
 
