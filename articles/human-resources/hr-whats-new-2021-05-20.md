@@ -1,0 +1,90 @@
+---
+title: Novedades y cambios en Dynamics 365 Human Resources a 20 de mayo de 2021
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 20 de mayo de 2021.
+author: marcelbf
+ms.date: 05/20/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.search.scope: Human Resources
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: marcelbf
+ms.search.validFrom: 2021-05-20
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: afa64474e8eaf4c7b73e4f76d85e379f77b570a7
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111576"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a><span data-ttu-id="420da-103">Novedades y cambios en Dynamics 365 Human Resources a 20 de mayo de 2021</span><span class="sxs-lookup"><span data-stu-id="420da-103">What's new or changed in Dynamics 365 Human Resources May 20, 2021</span></span>
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+<span data-ttu-id="420da-104">Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="420da-104">This topic describes features that are new, changed, or coming soon in Dynamics 365 Human Resources.</span></span>
+
+<span data-ttu-id="420da-105">Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).</span><span class="sxs-lookup"><span data-stu-id="420da-105">For more information about our update process and schedule, see [Update process](hr-admin-setup-update-process.md).</span></span>
+
+<span data-ttu-id="420da-106">Para obtener más información sobre las nuevas características y sus fechas de disponibilidad general previstas, consulte [Visión general del primer lanzamiento de versiones de Dynamics 365 Human Resources en 2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).</span><span class="sxs-lookup"><span data-stu-id="420da-106">For more information about new features and their expected general availability dates, see [Overview of Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).</span></span>
+
+## <a name="in-this-release"></a><span data-ttu-id="420da-107">En este lanzamiento</span><span class="sxs-lookup"><span data-stu-id="420da-107">In this release</span></span>
+
+<span data-ttu-id="420da-108">Esta versión incluye las características nuevas y correcciones de errores siguientes.</span><span class="sxs-lookup"><span data-stu-id="420da-108">This release includes the following new features and bug fixes.</span></span> <span data-ttu-id="420da-109">Los cambios se aplican al número de compilación 8.1.4189.</span><span class="sxs-lookup"><span data-stu-id="420da-109">Changes apply to build number 8.1.4189.</span></span>
+
+### <a name="new-features"></a><span data-ttu-id="420da-110">Nuevas características</span><span class="sxs-lookup"><span data-stu-id="420da-110">New features</span></span>
+
+<span data-ttu-id="420da-111">Las siguientes características estarán disponible de forma generalizada en esta versión.</span><span class="sxs-lookup"><span data-stu-id="420da-111">The following features are generally available with this release.</span></span>
+
+| <span data-ttu-id="420da-112">Característica</span><span class="sxs-lookup"><span data-stu-id="420da-112">Feature</span></span> | <span data-ttu-id="420da-113">Plan de lanzamiento</span><span class="sxs-lookup"><span data-stu-id="420da-113">Release plan</span></span> | <span data-ttu-id="420da-114">Documentación</span><span class="sxs-lookup"><span data-stu-id="420da-114">Documentation</span></span> |
+| --- | --- | --- |
+| <span data-ttu-id="420da-115">Actualización de la plataforma 10.0.18 (42)</span><span class="sxs-lookup"><span data-stu-id="420da-115">Platform update 10.0.18 (42)</span></span> | -- | [<span data-ttu-id="420da-116">Platform updates para aplicaciones de la versión 10.0.18 de Finance and Operations (mayo de 2021)</span><span class="sxs-lookup"><span data-stu-id="420da-116">Platform updates for version 10.0.18 of Finance and Operations apps (May 2021)</span></span>](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
+| <span data-ttu-id="420da-117">Aplicación Human Resources para Microsoft Teams ahora admite definiciones de medio día y capacidad de día dividido</span><span class="sxs-lookup"><span data-stu-id="420da-117">Human Resources app for Microsoft Teams now supports half day definitions and split day capability</span></span> | -- | [<span data-ttu-id="420da-118">Administrar solicitudes de bajas en Teams</span><span class="sxs-lookup"><span data-stu-id="420da-118">Manage leave requests in Teams</span></span>](/dynamics365/human-resources/hr-teams-leave-app#create-a-new-request) |
+
+### <a name="bug-fixes"></a><span data-ttu-id="420da-119">Correcciones de errores</span><span class="sxs-lookup"><span data-stu-id="420da-119">Bug fixes</span></span>
+
+<span data-ttu-id="420da-120">En esta versión se incluyen las siguientes correcciones de errores.</span><span class="sxs-lookup"><span data-stu-id="420da-120">The following bug fixes are included in this release.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="420da-121">Nuestro objetivo es hacer llegar esta información lo antes posible.</span><span class="sxs-lookup"><span data-stu-id="420da-121">Our goal is to get you this information as soon as possible.</span></span> <span data-ttu-id="420da-122">Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.</span><span class="sxs-lookup"><span data-stu-id="420da-122">We may update this topic to include bug fixes that made it into the build after this topic was initially published.</span></span>
+
+| <span data-ttu-id="420da-123">Número del problema</span><span class="sxs-lookup"><span data-stu-id="420da-123">Issue number</span></span> | <span data-ttu-id="420da-124">Problema</span><span class="sxs-lookup"><span data-stu-id="420da-124">Issue</span></span> |  <span data-ttu-id="420da-125">Descripción</span><span class="sxs-lookup"><span data-stu-id="420da-125">Description</span></span> |
+| --- | --- | --- |
+| <span data-ttu-id="420da-126">583776</span><span class="sxs-lookup"><span data-stu-id="420da-126">583776</span></span> | <span data-ttu-id="420da-127">La inscripción masiva de empleados en planes de vacaciones está provocando un error de registro duplicado</span><span class="sxs-lookup"><span data-stu-id="420da-127">Mass enrollments of employees into leave plans is causing a duplicate record error</span></span> | <span data-ttu-id="420da-128">Este error se ha corregido con la última versión y las inscripciones al plan de licencia masiva deben procesarse correctamente.</span><span class="sxs-lookup"><span data-stu-id="420da-128">This bug has been fixed with the latest release and mass leave plan enrollments should be processed successfully.</span></span> |
+| <span data-ttu-id="420da-129">582263</span><span class="sxs-lookup"><span data-stu-id="420da-129">582263</span></span> | <span data-ttu-id="420da-130">No se puede ejecutar el procesamiento de eventos de vida para todos los trabajadores a la vez</span><span class="sxs-lookup"><span data-stu-id="420da-130">Cannot run life event processing for all workers at once</span></span> | <span data-ttu-id="420da-131">Cuando el campo **Trabajador** se deja en blanco para el procesamiento de eventos de vida, todos los trabajadores serán procesados.</span><span class="sxs-lookup"><span data-stu-id="420da-131">When the **Worker** field is left blank for life event processing, all workers will be processed.</span></span> |
+| <span data-ttu-id="420da-132">558383</span><span class="sxs-lookup"><span data-stu-id="420da-132">558383</span></span> | <span data-ttu-id="420da-133">Beneficiario principal no marcado como 100% si no se selecciona la persona designada por defecto</span><span class="sxs-lookup"><span data-stu-id="420da-133">Primary beneficiary not marked as 100% if default designee is not selected</span></span> | <span data-ttu-id="420da-134">El error se ha corregido para que el usuario solo tenga que seleccionar la alternancia del beneficiario principal.</span><span class="sxs-lookup"><span data-stu-id="420da-134">Bug has been fixed so that user only needs to select primary beneficiary toggle.</span></span>|
+| <span data-ttu-id="420da-135">509404</span><span class="sxs-lookup"><span data-stu-id="420da-135">509404</span></span> | <span data-ttu-id="420da-136">El análisis de la plantilla de departamento no tiene en cuenta el movimiento de empleados entre departamentos</span><span class="sxs-lookup"><span data-stu-id="420da-136">Department Headcount analytics not taking into consideration movement of employees between department</span></span> |<span data-ttu-id="420da-137">Los análisis se han actualizado para incluir transferencias de empleados entre departamentos</span><span class="sxs-lookup"><span data-stu-id="420da-137">The analytics have been updated to include transfers of employees between departments</span></span>|
+| <span data-ttu-id="420da-138">579420</span><span class="sxs-lookup"><span data-stu-id="420da-138">579420</span></span> | <span data-ttu-id="420da-139">La función de congelación de columnas en cuadrículas aún no debería estar disponible</span><span class="sxs-lookup"><span data-stu-id="420da-139">Freezing columns in grids feature should not yet be available</span></span> | <span data-ttu-id="420da-140">La función **Columnas de congelación en rejillas**, que no está disponible en Human Resources, se enumeró como disponible en Gestión de funciones.</span><span class="sxs-lookup"><span data-stu-id="420da-140">The **Freezing columns in grids** feature, which is not available in Human Resources, was listed as available in Feature Management.</span></span> <span data-ttu-id="420da-141">La función se ha eliminado de la lista de funciones para habilitar.</span><span class="sxs-lookup"><span data-stu-id="420da-141">The feature has been removed from the list of features to enable.</span></span> |
+
+## <a name="in-preview"></a><span data-ttu-id="420da-142">En vista previa</span><span class="sxs-lookup"><span data-stu-id="420da-142">In preview</span></span>
+
+<span data-ttu-id="420da-143">La siguientes características nuevas se incluyen como versión preliminar.</span><span class="sxs-lookup"><span data-stu-id="420da-143">The following new features are in preview.</span></span> <span data-ttu-id="420da-144">Para obtener más información acerca cómo activar o desactivar características, consulte [Administrar características](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="420da-144">For more information about turning features on or off, see [Manage features](hr-admin-manage-features.md).</span></span>
+
+| <span data-ttu-id="420da-145">Característica</span><span class="sxs-lookup"><span data-stu-id="420da-145">Feature</span></span> | <span data-ttu-id="420da-146">Plan de lanzamiento</span><span class="sxs-lookup"><span data-stu-id="420da-146">Release plan</span></span> | <span data-ttu-id="420da-147">Documentación</span><span class="sxs-lookup"><span data-stu-id="420da-147">Documentation</span></span> |
+| --- | --- | --- |
+| <span data-ttu-id="420da-148">Soporte de campos personalizados en las reglas de idoneidad de gestión de prestaciones</span><span class="sxs-lookup"><span data-stu-id="420da-148">Custom field support in Benefits management eligibility rules</span></span> | [<span data-ttu-id="420da-149">Soporte de campo personalizado para el procesamiento de idoneidad</span><span class="sxs-lookup"><span data-stu-id="420da-149">Custom field support for eligibility processing</span></span>](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[<span data-ttu-id="420da-150">Configurar reglas de elegibilidad</span><span class="sxs-lookup"><span data-stu-id="420da-150">Configuring eligibility rules</span></span>](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
+| <span data-ttu-id="420da-151">Espacio de trabajo de administración de prestaciones</span><span class="sxs-lookup"><span data-stu-id="420da-151">Benefits management workspace</span></span> | [<span data-ttu-id="420da-152">Espacio de trabajo de administración de prestaciones (versión preliminar)</span><span class="sxs-lookup"><span data-stu-id="420da-152">Benefits management workspace (Preview)</span></span>](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [<span data-ttu-id="420da-153">Espacio de trabajo de administración de prestaciones</span><span class="sxs-lookup"><span data-stu-id="420da-153">Benefits management workspace</span></span>](hr-benefits-management-workspace.md) |
+| <span data-ttu-id="420da-154">Mejoras en la experiencia del flujo de trabajo de bajas y ausencias</span><span class="sxs-lookup"><span data-stu-id="420da-154">Leave and absence workflow experience enhancements</span></span> | [<span data-ttu-id="420da-155">Mejoras en la experiencia del flujo de trabajo de bajas y ausencias</span><span class="sxs-lookup"><span data-stu-id="420da-155">Leave and absence workflow experience enhancements</span></span>](https://go.microsoft.com/fwlink/?linkid=2147528) | [<span data-ttu-id="420da-156">Solicitar permiso</span><span class="sxs-lookup"><span data-stu-id="420da-156">Request time off</span></span>](hr-employee-self-service-request-time-off.md)|
+| <span data-ttu-id="420da-157">Habilitar la integración de nóminas simplificada (API de integración de nóminas)</span><span class="sxs-lookup"><span data-stu-id="420da-157">Enable simplified payroll integration (Payroll integration APIs)</span></span> | [<span data-ttu-id="420da-158">Habilitar la integración simplificada proveedores de nóminas</span><span class="sxs-lookup"><span data-stu-id="420da-158">Enable simplified integration with payroll providers</span></span>](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [<span data-ttu-id="420da-159">API de integración de nóminas</span><span class="sxs-lookup"><span data-stu-id="420da-159">Payroll integration API</span></span>](hr-admin-integration-payroll-api-introduction.md)|
+| <span data-ttu-id="420da-160">Auditoría de transacciones de acumulación de bajas</span><span class="sxs-lookup"><span data-stu-id="420da-160">Leave accrual transaction auditing</span></span> | - | [<span data-ttu-id="420da-161">Auditoría de transacciones de acumulación de bajas</span><span class="sxs-lookup"><span data-stu-id="420da-161">Leave accrual transaction auditing</span></span>](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+
+## <a name="coming-soon"></a><span data-ttu-id="420da-162">Próximamente</span><span class="sxs-lookup"><span data-stu-id="420da-162">Coming soon</span></span>
+
+| <span data-ttu-id="420da-163">Característica</span><span class="sxs-lookup"><span data-stu-id="420da-163">Feature</span></span> | <span data-ttu-id="420da-164">Detalles</span><span class="sxs-lookup"><span data-stu-id="420da-164">Details</span></span> |
+| --- | --- |
+|  <span data-ttu-id="420da-165">Habilitar a un administrador de ausencias para administrar la licencia</span><span class="sxs-lookup"><span data-stu-id="420da-165">Enable an absence manager to manage leave</span></span> | [<span data-ttu-id="420da-166">Habilitar a un administrador de ausencias para administrar la licencia</span><span class="sxs-lookup"><span data-stu-id="420da-166">Enable an absence manager to manage leave</span></span>](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
+
+<span data-ttu-id="420da-167">Para obtener una lista completa de las características previstas y sus lanzamientos programados, consulte [Visión general del primer lanzamiento de versiones de Dynamics 365 Human Resources en 2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).</span><span class="sxs-lookup"><span data-stu-id="420da-167">For a complete list of planned features and their scheduled releases, see [Overview of Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="420da-168">Consulte también</span><span class="sxs-lookup"><span data-stu-id="420da-168">See also</span></span>
+
+[<span data-ttu-id="420da-169">Novedades y cambios en Human Resources</span><span class="sxs-lookup"><span data-stu-id="420da-169">What's new or changed in Human Resources</span></span>](hr-admin-whats-new.md)</br>
+[<span data-ttu-id="420da-170">Visión general del primer lanzamiento de versiones de Dynamics 365 Human Resources en 2021</span><span class="sxs-lookup"><span data-stu-id="420da-170">Overview of Dynamics 365 Human Resources 2021 release wave 1</span></span>](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[<span data-ttu-id="420da-171">Actualizar proceso</span><span class="sxs-lookup"><span data-stu-id="420da-171">Update process</span></span>](hr-admin-setup-update-process.md)</br>
+[<span data-ttu-id="420da-172">Administrar características</span><span class="sxs-lookup"><span data-stu-id="420da-172">Manage features</span></span>](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
