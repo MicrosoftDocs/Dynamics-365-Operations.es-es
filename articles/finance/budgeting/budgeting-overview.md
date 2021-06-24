@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4aa89f27925b88be947f27303957cd53089b8290
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960025"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187925"
 ---
 # <a name="budgeting-home-page"></a>Página principal de Gestión presupuestaria
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960025"
 
 En este tema se proporciona información general de los componentes de la funcionalidad de gestión presupuestaria, las herramientas de gestión presupuestaria y las funciones de informes. 
 
-<a name="components-of-budgeting-functionality"></a>Componentes de la funcionalidad de gestión presupuestaria
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Componentes de la funcionalidad de gestión presupuestaria
 
 El ciclo de planificación de recursos para una empresa consta, normalmente, de las actividades de planificación, gestión presupuestaria y previsión.
 
