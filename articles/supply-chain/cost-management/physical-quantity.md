@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 543253714b3cf318ad5f6092b190e777772f956f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3a55b1068835f1e050110c57e6af3340a018ff31
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910146"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187779"
 ---
 # <a name="inventory-object-values"></a>Valores de objeto de inventario
 
@@ -133,8 +133,7 @@ La tabla siguiente muestra el resultado del cálculo de un objeto de inventario.
 
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Objetos de coste](cost-object.md)
 

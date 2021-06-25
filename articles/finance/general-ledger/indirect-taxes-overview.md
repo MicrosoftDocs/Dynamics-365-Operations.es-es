@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826627"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188449"
 ---
 # <a name="sales-tax-overview"></a>Visión general de impuestos
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826627"
 
 Este tema proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
 
-<a name="overview"></a>Visión general
---------
+## <a name="overview"></a>Visión general
 
 El marco de impuestos admite muchos tipos de impuestos indirectos, como impuestos, impuesto sobre el valor añadido (IVA), impuesto de bienes y servicios (GST), cuotas basadas en unidad y retención de impuestos. Estos impuestos se calculan y se documentan durante transacciones de compra y de ventas. Periódicamente, se notifican y se pagan a las autoridades fiscales. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 43ab01d36f032e36a0daed6f94897bba42f8a189
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897045"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189006"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introducción a Financial Reporting 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897045"
 
 Este tema describe cómo acceder a los informes financieros y cómo usar las capacidades de informes financieros. También incluye una descripción de los informes financieros predeterminados proporcionados.
 
-<a name="accessing-financial-reporting"></a>Acceso a informes financieros
------------------------------
+## <a name="accessing-financial-reporting"></a>Acceso a informes financieros
 
 Encontrará el menú **Informes financieros** en los siguientes lugares:
 

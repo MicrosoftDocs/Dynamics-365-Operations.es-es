@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2780edc75891d565a184135d6a915a0e6f8504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7d64729d6da5c57267d6d62274cce496888548d7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839086"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190001"
 ---
 # <a name="order-entry-deadlines"></a>Fechas límite del pedido
 
@@ -99,8 +99,7 @@ En la siguiente tabla, se muestra cómo se convierten a hora MST las fechas lím
 
 **Nota**: si el ajuste de horario de verano está en vigor, las fechas límite de entrada de pedidos se ajustan como corresponda.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Programaciones de entrega](delivery-schedules.md)
 

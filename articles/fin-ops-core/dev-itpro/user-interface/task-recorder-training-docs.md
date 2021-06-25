@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744172"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188084"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Crear documentación o formación con Grabador de tareas
 
@@ -31,8 +31,7 @@ Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo c
 > [!IMPORTANT]
 > Puede registrar sus propias guías de tareas para Dynamics 365 Human Resources, pero no podrá salvarlas en una biblioteca del modelador de procesos empresariales (BPM) o abrirlas desde el panel de Ayuda en este momento. Puede salvarlas localmente o en una ubicación de red y, a continuación, abrirlas y volver a verlas utilizando el Grabador de tareas. 
 
-<a name="learn-about-task-recorder"></a>Información sobre el grabador de tareas
--------------------------
+## <a name="learn-about-task-recorder"></a>Información sobre el grabador de tareas
 
 El Grabador de tareas es una herramienta que puede usar para grabar las acciones que realice en la interfaz de usuario (IU) del producto. Al usar el Grabador de tareas, se capturan todos los eventos que realiza en la IU que se ejecutan en relación con el servidor, entre los que se incluyen la adición de valores, el cambio de configuración y la eliminación de datos. Los pasos que grabe se denominan conjuntamente *grabación de tareas*. Las grabaciones de tareas se pueden usar de muchas maneras:
 
@@ -111,8 +110,7 @@ Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas par
 
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Sistema de ayuda](../../fin-ops/get-started/help-overview.md)
 

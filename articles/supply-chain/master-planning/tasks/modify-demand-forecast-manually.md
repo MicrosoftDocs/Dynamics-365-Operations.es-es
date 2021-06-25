@@ -1,5 +1,5 @@
 ---
-title: Modificar manualmente una previsión de demanda
+title: 'Guía: Modificar manualmente una previsión de demanda'
 description: Este tema describe cómo modificar la previsión de un artículo
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889033"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224019"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Modificar manualmente una previsión de demanda
+# <a name="guide-modify-a-demand-forecast-manually"></a>Guía: Modificar manualmente una previsión de demanda
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimiento muestra cómo modificar la previsión de un artículo. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento se va a utilizar para el planificador de producción.
+Este procedimiento muestra cómo modificar la previsión de un artículo. Este procedimiento se va a utilizar para el planificador de producción.
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>Modificación de la previsión para un artículo seleccionado
 
@@ -36,9 +36,9 @@ Para modificar la previsión para un artículo seleccionado:
 1. Rellene los demás campos según sea necesario.
 1. Seleccione **Guardar** en el panel Acciones.
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>Modificar la previsión de uno o más elementos en Microsoft Excel
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Modificar la previsión de uno o más elementos con Microsoft Excel
 
-Para modificar la previsión de uno o más elementos en Microsoft Excel:
+Para modificar la previsión de uno o más elementos con Microsoft Excel:
 
 1. Realice una de las acciones siguientes:
     - Abra la página **Previsión de demanda** para cualquier elemento (no importa cuál) como se describe en la sección anterior.

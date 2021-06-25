@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811370"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193914"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visión general de la conversión de consolidaciones financieras y divisa
 
@@ -165,7 +165,8 @@ Los clientes que usan informes financieros para las consolidaciones financieras 
 - **Conversión agilizada de la divisa**: tras la configuración mínima en Finance, puede convertir cualquier informe de notificación financiera a cualquier divisa de notificación que se haya configurado. Además, puede configurar un número ilimitado de divisas de notificación.
 - **Registrar eliminaciones en el origen** Puede crear e imprimir un informe de eliminación para verificar transacciones de eliminación. Puede registrar cualquier nueva eliminación como transacciones de empresas vinculadas estándar. También puede usar una entidad jurídica de eliminación para cualquier transacción que no desee en las entidades jurídicas.
 
-## <a name="supported-consolidation-scenarios"></a>Situaciones de ejemplo de consolidaciones admitidas
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Situaciones de consolidación admitidas para Financial Reporting
+
 Aquí hay alguna de las situaciones de consolidación que Informes financieros admite:
 
 - Consolidaciones de un solo nivel y varios niveles entre entidades jurídicas

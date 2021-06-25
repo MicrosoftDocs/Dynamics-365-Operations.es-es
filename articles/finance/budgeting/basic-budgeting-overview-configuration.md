@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960058"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187949"
 ---
 # <a name="budgeting-overview"></a>Visión general de la gestión presupuestaria
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960058"
 
 Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 Finance tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations o cargarlos desde un programa de terceros.
 
-<a name="overview"></a>Información general
---------
+## <a name="overview"></a>Información general
 
 El presupuesto aprobado para una entidad jurídica se mantiene en un documento que se conoce como un *asiento de registro presupuestario* Las líneas de un documento de asiento de registro presupuestario se conocen como entradas de *cuenta de presupuesto* y contienen información de dimensión financiera, fechas y los importes de presupuesto aprobados. El documento del asiento de registro presupuestario se integra con los informes financieros básicos y las páginas de consulta donde los importes reales del libro mayor se comparan con los importes presupuestarios. 
 

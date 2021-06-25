@@ -2,7 +2,7 @@
 title: Resultados de modelos de aprendizaje automático (versión preliminar)
 description: Este tema analiza las matrices de confusión, los problemas de clasificación y la precisión en los modelos de aprendizaje automático (ML). El propósito es mejorar su conocimiento de la precisión en los resultados de la predicción de ML.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028212"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193549"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Resultados de modelos de aprendizaje automático (versión preliminar)
 
@@ -129,16 +129,12 @@ Para simplificar los cálculos, se crearon matrices de ejemplo para comparar los
 
 Para obtener más detalles sobre cómo funciona este cálculo, aquí está el informe de clasificación sklearn.metrics para el modelo 1. Los tres estados, "Puntual", "Tarde" y "Muy tarde", están representados por las filas etiquetadas como 1, 2 y 3, respectivamente. El promedio macro es simplemente el promedio de la columna "f1-score".
 
-|           | precisión | recuperación   | f1-score |
+| &nbsp;    | precisión | recuperación   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 Como muestran estos resultados, los dos modelos tienen puntuaciones de precisión macro F1 casi idénticas. En este y muchos otros casos, la precisión F1 proporciona un mejor indicador de la capacidad de un modelo. En cuanto a la precisión, la interpretación de los resultados requiere que comprenda qué es lo más importante a considerar en el modelo.
-
-#### <a name="privacy-notice"></a>Aviso de privacidad
-Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

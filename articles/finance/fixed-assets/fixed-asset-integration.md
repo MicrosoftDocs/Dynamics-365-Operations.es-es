@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826843"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189793"
 ---
 # <a name="fixed-assets-integration"></a>Integración de activos fijos
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826843"
 
 Los activos fijos se pueden integrar con el Libro mayor, la Gestión de inventario, los Clientes y los Proveedores. También es posible configurar los activos fijos para que se integren con los pedidos de compra.
 
-<a name="general-ledger"></a>Contabilidad general
---------------
+## <a name="general-ledger"></a>Contabilidad general
 
 En Contabilidad general, el valor de todos los activos fijos se resume normalmente en varias cuentas principales necesarias para los informes financieros. No obstante, en la página **Activos fijos,** puede crear varios registros de activos fijos. Estos registros pueden incluir información como el precio de adquisición, la depreciación, y la evaluación. Cada vez que registre una transacción de un activo fijo, las cuentas principales adecuadas se actualizarán. Las cuentas principales de los activos fijos siempre muestran el valor actualizado de los activos fijos.
 

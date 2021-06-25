@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018395"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186795"
 ---
 # <a name="note-integration"></a>Integración de notas
 
@@ -122,5 +122,9 @@ La integración de notas incluye una colección de mapas de tabla que funcionan 
 | [Documentos adjuntos de proveedor](mapping-reference.md#231) | Anotaciones | Empresas que utilizan texto sin formato y las URL para capturar información específica del proveedor (tanto para organizaciones como para personas). |
 | [Datos adjuntos de documento de encabezado de pedido de ventas](mapping-reference.md#229) | Anotaciones | Empresas que utilizan texto sin formato y las URL para capturar información específica de pedidos de ventas. |
 | [Datos adjuntos de documento de encabezado de pedido de compra](mapping-reference.md#232) | Anotaciones | Empresas que utilizan texto sin formato y las URL para capturar información específica de pedidos de compras. |
+
+## <a name="limitations"></a>Limitaciones
+
+Una vez que instale la solución de notas, no podrá desinstalarla. 
 
 Para más información, consulte [Referencia de asignación de escritura doble](mapping-reference.md).

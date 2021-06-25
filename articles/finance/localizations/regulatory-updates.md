@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 24743bd15f77769e2d4ca81981284995ce3a576e
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941149"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129786"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -38,37 +38,52 @@ Las actualizaciones normativas que se publican como parte del actualizado mensua
 Para ver los últimos planes de actualizaciones regulatorias, consulte la siguiente tabla.   
 
 |País|Fecha de emisión|Versión|Actualización reglamentaria|
-|--------------------|---------------|-------|-------|
-|      Austria         |   2020 de septiembre      | 10.0.15      |   El formato de la declaración de IVA U30 se ha actualizado para los informes de 2020   |
-|      Bélgica         |   2020 de diciembre      | 10.0.16      |   Bélgica: mejora del rendimiento del informe "Exportar transacciones contables" en Dynamics 365 Finance   |   
-|      Brasil         |   noviembre de 2020      | 10.0.15HF      |   SPED fiscal ICMS/IPI - Registro C176 - Estado RS   |
-|      Brasil         |   2020 de octubre      | 10.0.16, 10.0.15HF      |   NF-e NT2019.001 v1.51: adopción de las reglas de validación con código de beneficio por parte del Distrito Federal   |
-|      Brasil         |   Octubre de 2020, Noviembre de 2020      | 10.0.16, 10.0.15HF      |   Fiscal SPED: diseño 015   |
-|      Brasil         |   2020 de octubre      | 10.0.16      |   SC de la declaración de DRCST: SEF 262/2020   |
-|      Brasil         |   2020 de octubre      | 10.0.16      |   Registro ICMS de fiscal SPED/IPI C176   |
-|      Brasil         |   2020 de diciembre      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006: identificación del intermediario de la plataforma digital (actualizaciones de reglas de diseño y validación)   |
-|      Brasil         |   2021 de marzo         | 10.0.17, 10.0.18, 10.0.19         |    Diseño SPED REINF 1.5.1
-|      Europa        |   2021 de enero       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit: impacto del Protocolo de Irlanda del Norte en los informes comerciales intracomunitarios en los países de la UE  |
-|      Alemania        |   2021 de enero       | 10.0.16HF      |   El formato de notificación anticipada de IVA de ELSTER UstVA se amplió con dos nuevas casillas 37,50 para la cancelación de deudas irrecuperables  |
+|--------------------|---------------|-------|-------| 
+|      Brasil         |   Mayo 2021 - Diciembre 2020      | 10.0.20, 10.0.19, 10.0.17      |   NF-e NT2020.006: identificación del intermediario de la plataforma digital (actualizaciones de reglas de diseño y validación)   |
+|      Brasil         |   2021 de marzo         | 10.0.19         |    Diseño SPED REINF 1.5.1  |
+|      Brasil         |   2021 de febrero         | 10.0.18         |    SPED Fiscal 015 - Reglas RS |
+|      Brasil         |   2021 de marzo         | 10.0.17 HF       |    NFS-e Factura electrónica de servicios para Brasil (ciudad)  |
+|      Brasil         |   2021 de abril         | 10.0.20        |    SPED ECD Diseño 9  |
+|      Brasil         |   mayo de 2021         | 10.0.20         |    Contribuciones de SPED - Guía de versión 1.34  |
+|      Egipto         |   2021 de febrero         | 10.0.17         |    Formulario e informes de devolución de IVA  |
+|      Egipto        |   2021 de febrero         | 10.0.17         |    Configuración del diseño de la factura  |
+|      Egipto         |   2021 de febrero         | 10.0.17         |    Formulario 41 de declaración de retención  |
+|      Egipto         |   2021 de febrero         | 10.0.17         |    Formulario 11 de declaración de retención  |
+|      Egipto         |   2021 de febrero         | 10.0.17         |    Referencias a facturas originales en notas de abono  |
+|      Europa        |   2021 de enero       | 10.0.17      |   Brexit: impacto del Protocolo de Irlanda del Norte en los informes comerciales intracomunitarios en los países de la UE  |
+|      Francia        |   2021 de marzo       | 10.0.18      |   Minorista - Actualización certificada del sistema POS - Dynamics 365 Commerce  |
+|      Francia        |   2021 de abril       | 10.0.20      |   Mejora de la exportación de archivos de datos en francés (FEC)  |
 |      Alemania        |   2021 de enero       | 10.0.17      |   Cambios en la estructura XML de notificación anticipada de IVA de ELSTER (UstVA)  |
-|      Global        |   2021 de enero       | 10.0.16      |   Habilitar mecanismo de cargo invertido para el esquema de IVA/GST  |
-|      India         |   2020 de diciembre      | 10.0.16, HF, 10.0.15HF      |   TCS sobre Ventas de Bienes, Sección 206 9 (1H), cambio basado en el comunicado de prensa de CBDT  |
+|      Alemania        |   2021 de marzo       | 10.0.19      |   Extensiones de GDPDU para transacciones y tabla de Activos Fijos  |
+|      Alemania        |   2021 de abril       | 10.0.20HF      |   Cambios en el formato de facturación electrónica (xRechnung) en Alemania desde 2021  |
+|      Global        |   2021 de enero       | 10.0.17      |   Retención de impuestos en nivel de línea  |
+|      Global        |   2021 de enero       | 10.0.17      |   Pago de retención de impuestos  |
+|      Global        |   2021 de enero       | 10.0.17      |   Retención de impuestos en pedidos de ventas  |
+|      Global        |   2021 de enero       | 10.0.17      |   Umbral de retención de impuestos sobre el importe de la factura  |
+|      Global        |   2021 de enero       | 10.0.17      |   Validación de la emisión de la fecha de la factura después de la publicación del albarán disponible para todos los países  |
+|      Hungría        |   2021 de febrero       | 10.0.17HF, 10.0.18      |   Sistema de facturación en línea v.3.0  |
+|      India         |   2021 de febrero      | 10.0.17HF, 10.0.18      |   Facturas electrónicas GST: información de eWay Bill  |
+|      India         |   2021 de marzo      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Facturas electrónicas GST: pedidos de exportación, exportación considerada, SEZ  |
+|      India         |   2021 de marzo      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Código QR de Dynamics en factura B2C  |
+|      Italia         |   2021 de marzo      | 10.0.19      |   Cambios en el formato de comunicación de facturas (Esterometro) v.2.1.1  |
+|      Italia        |   mayo de 2021      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Minorista: actualización de muestra de integración de impresoras fiscales para admitir XML RT 2.0  |
+|      Italia         |   2021 de marzo      | 10.0.19      |   Minorista: habilitación de facturas específicas para minoristas que violen la contabilización cronológica  |
+|      Italia         |   2021 de febrero      | 10.0.19      |   Certificación única - 2021  |
 |      Letonia         |   2020 de diciembre      | 10.0.17      |   El formato Intrastat se actualiza a partir de 2021  |
-|      México         |   2020 de diciembre      | 10.0.17, 10.0.16, 10.0.15      |   Actualización del atributo "Monto" |
-|      Países Bajos         |   2020 de octubre      | 10.0.16     |   El formato Intrastat se actualiza a partir de 2021 |
-|      Países Bajos         |   2020 de diciembre      | 10.0.167     |   Nueva versión de la taxonomía holandesa NT15 |
-|      Polonia          |   2020 de septiembre     | 10.0.15     |   Mejoras en el pago fraccionado voluntario |
-|      Polonia          |   noviembre de 2020     | 10.0.16, 10.0.15     |   JPK-V7M (VDEK): tipo de documento de ventas FP y RO para transacciones minoristas |
-|      Polonia          |   2020 de septiembre     | 10.0.15     |   Polonia, JPK-V7M (VDEK): desbloquea la posibilidad de ejecutar la generación de informes por partes |
-|      Polonia          |   2020 de octubre     | 10.0.16     |   Informe JPK-V7M (VDEK): captación del parámetro 'Pago dividido voluntariamente' |
-|      Polonia          |   noviembre de 2020     | 10.0.16, 10.0.15HF     |   Retail: emitir factura para cliente minorista por solicitud |
-|      Polonia          |   2021 de enero     | 10.0.17, 10.0.16HF, 10.0.15HF     |   Polonia: aclaraciones sobre JPK_KR (libros contables SAF), a partir de enero de 2021 |
-|      Rusia          |   noviembre de 2020     | 10.0.16    |   El formato de declaración de IVA se actualiza a la versión 5.07 a partir de los informes del cuarto trimestre de 2020|
-|      Rusia          |   2020 de octubre     | 10.0.16    |   Cambios en PBU18 para informes contables de 2020|
+|      Lituania         |   2021 de marzo      | 10.0.18      |   Versión de informe SAF-T 2.01  |
+|      México         |   2020 de diciembre      | 10.0.17      |   Actualización del atributo "Monto" |
+|      Países Bajos         |   2020 de diciembre      | 10.0.17     |   Nueva versión de la taxonomía holandesa NT15 |
+|      Polonia          |   2021 de enero     | 10.0.17     |   Polonia: aclaraciones sobre JPK_KR (libros contables SAF), a partir de enero de 2021 |
 |      Rusia          |   2021 de enero     | 10.0.17    |   Nuevo formato de declaración de impuestos de la propiedad (versión técnica 5.07 en lugar de 5.06) para la presentación de informes de 2020|
+|      Rusia          |   2021 de marzo     | 10.0.19    |   La declaración del impuesto sobre la propiedad de 2020 deberá indicar el valor medio anual de los activos fijos muebles|
+|      Rusia          |   2021 de marzo     | 10.0.19HF    |   Declaración de impuestos sobre las ganancias versión 5.09 para informes de 2020|
+|      Rusia          |   2021 de marzo     | 10.0.19    |   Se requiere el decreto gubernamental N 2200 21.12.2020 aplicación 4 nuevo formato para factura de transporte|
 |      España          |   noviembre de 2020     | 10.0.17    |   Validación de actualización de SII y errores v.2.1 (bis) desde el 1 de enero de 2021|
-|      Reino Unido         |   2020 de diciembre     | 10.0.17, 10.0.16, 10.0.15    |   Registro del impuesto de empresa en las facturas de los clientes (Brexit: Protocolo de Irlanda del Norte)|
-|      Reino Unido          |   2020 de diciembre     | 10.0.17, 10.0.16HF. 10.0.15HF    |   Brexit: impacto del Protocolo de Irlanda del Norte en las empresas que comercializan mercancías en ubicaciones de GB y NI|
+|      Tailandia          |   2021 de febrero     | 10.0.17HF    |   Formulario de retención Por Ngor Dor 53, 3 y 2 |
+|      Emiratos Árabes Unidos   |   mayo de 2021     | 10.0.20    |   Contabilización del diario de pagos con cheques posfechados en la cuenta bancaria |
+|      Reino Unido         |   2020 de diciembre     | 10.0.17    |   Registro del impuesto de empresa en las facturas de los clientes (Brexit: Protocolo de Irlanda del Norte)|
+|      Reino Unido          |   2020 de diciembre     | 10.0.17    |   Brexit: impacto del Protocolo de Irlanda del Norte en las empresas que comercializan mercancías en ubicaciones de GB y NI|
+|      Reino Unido          |   2021 de marzo     | 10.0.18    |   MTD VAT> cambios de redacción en el diseño de impresión de vista previa (cuadros 2, 8, 9) 2021|
 
 
 

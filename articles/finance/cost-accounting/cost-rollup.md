@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815773"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189054"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Directiva de acumulación de costes y cálculo de costes generales 
 
@@ -149,8 +149,7 @@ Las reglas de asignación de costes se puede establecer del modo siguiente.
 | CC001                                | Total         | **Servicios RR. HH.**        |
 | CC002                                | Total         | **Servicios financieros** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Cómo el coste fluye entre los centros de coste 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Cómo el coste fluye entre los centros de coste 
 
 Si desea obtener información sobre cómo el coste fluye entre los centros de coste de la organización, puede crear elementos de coste del tipo **Secundario** para cada centro de coste. Estos artículos de coste se usarán para transferir los saldos entre los centros de coste durante el cálculo de gastos generales.
 

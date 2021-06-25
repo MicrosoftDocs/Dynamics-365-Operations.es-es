@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db97d05d79a100ebdcfb5b4931b37243b77bd352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bafbb908531e003d2184409bf5d09ed5848fc474
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815000"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216793"
 ---
 # <a name="intrastat-overview"></a>Visión general de intrastat
 
@@ -73,7 +73,7 @@ La tabla siguiente muestra los requisitos previos para los informes Intrastat.
 </tr>
 <tr class="odd">
 <td>Jerarquía de categorías de productos (jerarquía de ventas, jerarquía de compras)</td>
-<td>Asigne los códigos de mercancías de Intrastat a los nodos de categorías en la ficha <strong>Códigos de mercancía</strong> de la página <strong>Jerarquía de categoría</strong>. Cuando se asigna un código de mercancía a un nodo de categoría principal, dicho código se aplica a todos los nodos de categorías secundarias. Los códigos de mercancía seleccionados estarán disponibles en la vista <strong>Seleccionado</strong> al seleccionar un código de mercancía en los detalles de los productos emitidos y en el pedido de ventas, el pedido de compra y las líneas de pedido de transferencia.</td>
+<td>Asigne los códigos de mercancías de Intrastat a los nodos de categorías en la ficha <strong>Códigos de mercancía</strong> de la página <strong>Jerarquía de categoría</strong>. Cuando se asigna un código de mercancía a un nodo de categoría principal, dicho código se aplica a todos los nodos de categorías secundarias. Los códigos de mercancía seleccionados estarán disponibles en la vista <strong>Seleccionado</strong> al seleccionar un código de mercancía en los detalles de los productos y en el pedido de ventas, el pedido de compra y las líneas de pedido de transferencia.</td>
 </tr>
 <tr class="even">
 <td>Detalles de producto emitido</td>
@@ -84,10 +84,11 @@ La tabla siguiente muestra los requisitos previos para los informes Intrastat.
 <li><strong>País/región de origen</strong>: seleccione el país o la región predeterminado donde se obtiene o se producen las mercancías.</li>
 <li><strong>Comunidad autónoma/provincia de origen/destino</strong>: seleccione la comunidad autónoma o la provincia de destino predeterminados para las llegadas y la comunidad autónoma o la provincia de origen para distribuciones.</li>
 <li><strong>Peso neto en kg</strong></li>
+<li><strong>Excluir</strong> - Habilite este parámetro para no transferir transacciones con este producto a Intrastat</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Clientes</td>
+<td>Empresas cliente</td>
 <td>Configure la dirección de entrega del cliente en el país o la región de la UE.</td>
 </tr>
 <tr class="even">

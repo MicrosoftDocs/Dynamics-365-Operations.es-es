@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937895"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216621"
 ---
 # <a name="party-and-global-address-book"></a>Libreta de direcciones de partes y global
 
@@ -143,16 +143,22 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
 
 ## <a name="setup"></a>Configurar
 
-1. Instale la última versión (2.2.2.60 o posterior) de [Solución de orquestación de aplicaciones de doble escritura](https://aka.ms/dual-write-app).
+1. Abra el entorno de su aplicación de interacción con el cliente.
 
-2. Instale [Soluciones de libreta de direcciones global y de parte de escritura dual](https://aka.ms/dual-write-gab).
+2. Instale la última versión (2.2.2.60 o posterior) de [Solución de orquestación de aplicaciones de doble escritura](https://aka.ms/dual-write-app).
 
-3. Detenga los siguientes mapas, porque ya no son necesarios. En su lugar, ejecute la asignación `Contacts V2 (msdyn_contactforparties)`.
+3. Instale [Soluciones de libreta de direcciones global y de parte de escritura dual](https://aka.ms/dual-write-gab).
+
+4. Abra la aplicación Finance and Operations. Navegue hasta el módulo Gestión de datos y seleccione la pestaña Escritura dual. Se abre la página de administración de escritura dual.
+
+5. Aplique las dos soluciones instaladas en los pasos 2 y 3 utilizando la función [Aplicar solución](link-your-environment.md).
+
+6. Detenga los siguientes mapas, porque ya no son necesarios. En su lugar, ejecute la asignación `Contacts V2 (msdyn_contactforparties)`.
 
     + Contactos CDS V2 y Contactos (se refiere a los contactos del cliente)
     + Contactos CDS V2 y Contactos (se refiere a los contactos del proveedor)
 
-4. Las siguientes asignaciones de entidades se actualizan para la funcionalidad de las partes, por lo que se debe aplicar la última versión a estas asignaciones.
+7. Las siguientes asignaciones de entidades se actualizan para la funcionalidad de las partes, por lo que se debe aplicar la última versión a estas asignaciones.
 
     Mapa | Actualizar a esta versión | Cambios
     ---|---|---
@@ -176,7 +182,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
 
-5. Antes de ejecutar los mapas anteriores, debe actualizar las claves de integración manualmente como se describe en los siguientes pasos. A continuación, seleccione **Guardar**.
+8. Antes de ejecutar los mapas anteriores, debe actualizar las claves de integración manualmente como se describe en los siguientes pasos. A continuación, seleccione **Guardar**.
 
     | Mapa | Claves |
     |-----|------|
@@ -185,7 +191,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
     | Contacto para cliente/proveedor | msdyn_contactforpartynumber [Contacto de número de parte]<br>msdyn_associatedcompanyid.cdm_companycode [Empresa asociada (código de empresa)] |
     | Proveedor | msdyn_vendoraccountnumber [Número de cuenta de proveedor]<br>msdyn_company.cdm_companycode [Empresa (código de empresa)]|
 
-6. En Dataverse, los límites de caracteres de las reglas de detección de duplicados han aumentado de 450 a 700 caracteres. Este límite le permite agregar una o más claves a las reglas de detección de duplicados. Expanda la regla de detección de duplicados para la tabla **Cuentas** configurando los siguientes campos.
+9. En Dataverse, los límites de caracteres de las reglas de detección de duplicados han aumentado de 450 a 700 caracteres. Este límite le permite agregar una o más claves a las reglas de detección de duplicados. Expanda la regla de detección de duplicados para la tabla **Cuentas** configurando los siguientes campos.
 
     | Campo | Valor |
     |-------|-------|
@@ -201,7 +207,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
 
     ![Regla de duplicados para Cuentas](media/duplicate-rule-1.PNG)
 
-7. Expanda la regla de detección de duplicados para la tabla **Contactos** configurando los siguientes campos.
+10. Expanda la regla de detección de duplicados para la tabla **Contactos** configurando los siguientes campos.
 
     | Campo | Valor |
     |-------|-------|
@@ -217,9 +223,9 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
 
     ![Regla de duplicados para Contactos](media/duplicate-rule-2.PNG)
 
-8. Si ya es usuario de escritura dual, siga las instrucciones en [Actualizar al modelo de libreta de direcciones global y de parte](upgrade-party-gab.md) y actualice sus datos.
+11. Si ya es usuario de escritura dual, siga las instrucciones en [Actualizar al modelo de libreta de direcciones global y de parte](upgrade-party-gab.md) y actualice sus datos.
 
-9. Ejecute las asignaciones en el orden siguiente. Si recibe un error que dice "Error en la validación del proyecto. Falta el campo de destino... ", entonces abra el mapa y seleccione **Actualizar tablas**. Luego ejecute la asignación.
+12. Ejecute las asignaciones en el orden siguiente. Si recibe un error que dice "Error en la validación del proyecto. Falta el campo de destino... ", entonces abra el mapa y seleccione **Actualizar tablas**. Luego ejecute la asignación.
 
     Aplicación de Finance and Operations | Aplicación Customer Engagement  
     ----------------------------|------------------------

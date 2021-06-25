@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56069b1d2cf72eb29737b0aa7d066c998c0c423c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dbcdc852bf42038761b4ea19fd7fe7cbfc45f713
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833650"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187443"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Realización de ajustes manuales en la previsión de línea base
 
@@ -73,8 +73,7 @@ La página **Detalles de previsión de la demanda** muestra la siguiente informa
 
 También puede realizar ajustes manuales en la previsión en la página **Detalles de previsión de la demanda**, modificando los valores en la fila **Previsión** en la sección **Previsión**.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Supervisión de la precisión de previsión](monitor-forecast-accuracy.md)
 

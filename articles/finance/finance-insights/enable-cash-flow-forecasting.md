@@ -2,7 +2,7 @@
 title: Habilitar la previsión de flujo de efectivo (versión preliminar)
 description: Este tema explica cómo activar la característica de previsiones de flujo de efectivo en Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818737"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222567"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>Habilitar la previsión de flujo de efectivo (versión preliminar)
 
@@ -37,7 +37,7 @@ Este tema explica cómo activar la característica de previsiones de flujo de ef
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > Si su implementación de Microsoft Dynamics 365 Finance es una implementación de Service Fabric, puede omitir este paso. El equipo de Finance Insights ya debería haber activado el paquete piloto por usted. Si no ve las características en el espacio de trabajo **Administración de funciones**, o si experimenta problemas al intentar activarlas, póngase en contacto con <fiap@microsoft.com>.
+    > Omita este paso si usa la versión 10.0.20 o posterior, o si usa una implementación de Service Fabric. El equipo de información financiera ya debería haber activado el paquete piloto por usted. Si no ve la característica en el espacio de trabajo **Administración de características**, o si experimenta problemas al intentar activarlas, póngase en contacto con <fiap@microsoft.com>.
   
 2. Abra el espacio de trabajo **Administración de funciones** y siga estos pasos:
 
@@ -60,10 +60,5 @@ Este tema explica cómo activar la característica de previsiones de flujo de ef
     2. Seleccione **Crear modelo de predicción**.
 
 Para obtener más información sobre cómo configurar la capacidad de previsión de flujo de efectivo, consulte [Previsiones de flujo de efectivo](cash-flow-forecast-intro.md).
-
-## <a name="privacy-notice"></a>Aviso de privacidad
-
-Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

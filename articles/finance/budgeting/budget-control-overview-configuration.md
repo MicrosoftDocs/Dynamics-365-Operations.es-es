@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9a4897f34d016da8dd03d3108069e8aaa1369f7
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5959978"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188054"
 ---
 # <a name="budget-control-overview"></a>Visión general del control presupuestario
 
@@ -28,8 +28,7 @@ ms.locfileid: "5959978"
 
 Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario de manera que pueda gestionar los recursos financieros.
 
-<a name="overview"></a>Visión general
---------
+## <a name="overview"></a>Visión general
 
 El control presupuestario admite la administración de los recursos financieros de una organización a través del plan de cuentas, los flujos de trabajo, los grupos de usuarios, los documentos de origen y los diarios, el cálculo configurable de los fondos disponibles, los ciclos presupuestarios y los umbrales. Cuando los controles están vigentes, una organización puede planear, medir, gestionar y realizar una previsión de sus recursos financieros en su ejercicio. 
 

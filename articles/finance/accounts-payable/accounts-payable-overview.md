@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e334c6351814db191731ce94c4a704863679dd85
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0edc2fcbde536e98fa3ce3567c2c8fdf3fc864ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820892"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188791"
 ---
 # <a name="configure-accounts-payable-overview"></a>Visión general de la configuración de proveedores
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820892"
 
 Este artículo describe las páginas que usa para configurar la funcionalidad básica y opcional para Proveedores. También describen los pasos de configuración que debe completar antes de comenzar a configurar Proveedores.
 
-<a name="prerequisites-for-accounts-payable-setup"></a>Requisitos previos para la configuración de proveedores
-----------------------------------------
+## <a name="prerequisites-for-accounts-payable-setup"></a>Requisitos previos para la configuración de proveedores
 
 Para poder configurar los proveedores, debe completar la configuración siguiente:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891802"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224043"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Diseñar una nueva solución de informes electrónicos para imprimir un informe personalizado
 
@@ -285,7 +285,7 @@ Para continuar, omita el siguiente procedimiento, [Crear una nueva configuració
 
 El estado de la versión 1 de esta configuración cambia de **Borrador** a **Completada**. La versión 1 ya no se puede cambiar. Esta versión contiene el modelo de datos configurado y se puede utilizar como la base de otras configuraciones de informes electrónicos. Se crea la versión 2 de esta configuración y tiene un estado de **Borrador**. Puede editar esta versión para ajustar el modelo de datos **Questionnaire**.
 
-![Versiones de la configuración de ER editable en la página Configuraciones](./media/er-quick-start1-model-configuration.png)
+![Versiones de la configuración editable en la página Configuraciones](./media/er-quick-start1-model-configuration.png)
 
 Para obtener más información sobre el control de versiones para configuraciones de ER, consulte [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md#component-versioning).
 
@@ -799,7 +799,7 @@ La siguiente ilustración muestra un informe generado en formato Excel donde las
 
 El estado de la versión 1.1 de esta configuración cambia de **Borrador** a **Completada**. La versión 1.1 ya no se puede cambiar. Esta versión contiene el formato configurado y se puede utilizar para imprimir su informe personalizado. Se crea la versión 1.2 de esta configuración y tiene un estado de **Borrador**. Puede editar esta versión con el fin de ajustar el formato del informe **Questionnaire**.
 
-![Versiones de la configuración de ER editable en la página Configuraciones](./media/er-quick-start1-format-configuration.png)
+![Configuración de ER editable en la página Configuraciones](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > El formato configurado es su diseño del informe **Questionnaire** y no contiene ninguna relación con los artefactos específicos de Finance.

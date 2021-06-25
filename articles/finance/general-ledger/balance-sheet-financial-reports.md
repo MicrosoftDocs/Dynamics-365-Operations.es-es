@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e3624b387820bea3bfea9c2a4b2f48b0aa9822
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821946"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189030"
 ---
 # <a name="balance-sheet-financial-reports"></a>Informes financieros de balance de situación
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821946"
 
 En este artículo se describen los informes predeterminados para los balances de situación. También se describen los componentes de estos informes. 
 
-<a name="default-balance-sheet-reports"></a>Informes de balance de situación predeterminados
------------------------------
+## <a name="default-balance-sheet-reports"></a>Informes de balance de situación predeterminados
 
 Hay dos informes de balance de situación predeterminados. En un informe, se apilan las secciones. En el otro, las secciones se encuentran en paralelo.
 
@@ -68,8 +67,7 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
 
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de informes financieros](financial-reporting-getting-started.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
-ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
+ms.openlocfilehash: e72b81d4a109db2dd8b4c6ca2ca0b030220e25f3
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6060572"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216728"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Comenzar con el cálculo de impuestos (versión preliminar)
 
@@ -58,7 +58,7 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 Los pasos de esta sección no están relacionados con una entidad jurídica específica. Debe completar este procedimiento solo una vez, y puede completarlo en cualquier entidad jurídica en RCS.
 
 1. Inicie sesión en [RCS](https://marketing.configure.global.dynamics.com/).
-2. En Finance, en el espacio de trabajo **Informes electrónicos**, agregue un nuevo proveedor de configuración. Utilice el nombre de su empresa como el nombre del proveedor. Para obtener más información, consulte [Crear proveedores de la configuración y marcarlos como activos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. En el área de trabajo **Informes electrónicos**, agregue un nuevo proveedor de configuración. Utilice el nombre de su empresa como el nombre del proveedor. Para obtener más información, consulte [Crear proveedores de la configuración y marcarlos como activos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Seleccione el proveedor de configuración que acaba de crear y luego seleccione **Establecer como activo**.
 4. Seleccione el proveedor de configuración **Microsoft** y luego **Repositorios**.
 5. En el campo **Tipo**, seleccione **Global**.

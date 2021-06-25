@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980959"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184031"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -289,14 +289,15 @@ La siguiente tabla muestra qué funciones de control de excepciones y operacione
 | Cambiar grupo de trabajo en trabajo                           | Sí | Sí                          |
 | Cancelar trabajo                                        | Sí | Sí                          |
 
-
 ### <a name="production"></a>Producción
 
-Actualmente, no se admite la gestión de almacén para escenarios de producción en las cargas de trabajo de unidades de escalado, como se indica en la siguiente tabla.
+La siguiente tabla resume qué escenarios de producción de gestión de almacenes se admiten (y cuáles no) en las cargas de trabajo de la unidad de escalado actualmente.
 
 | Proceso | Concentrador | Carga de trabajo de WES en una unidad de escala |
 |---------|-----|------------------------------|
-| <p>Todos los procesos de gestión de almacenes relacionados con la producción. A continuación, encontrará algunos ejemplos:</p><li>Liberar al almacén</li><li>Procesamiento de oleadas de producción</li><li>Picking de materia prima</li><li>Ubicación de bienes terminados y notificados como terminados</li><li>Ubicación de coproducto y producto derivado</li><li>Ubicación de kanban</li><li>Picking de kanban</li><li>Iniciar pedido de producción</li><li>Residuo de producción</li><li>Último pallet de producción</li><li>Registrar lista de selección</li><li>Vaciar kanban</li></ul> | Sí | N.º |
+| Ubicación de bienes terminados y notificados como terminados | Sí | Sí |
+| Ubicación de coproducto y producto derivado | Sí | Sí |
+| <p>Todos los demás procesos de gestión de almacenes están relacionados con la producción, incluyendo:</p><li>Liberar al almacén</li><li>Procesamiento de oleadas de producción</li><li>Picking de materia prima</li><li>Ubicación de kanban</li><li>Picking de kanban</li><li>Iniciar pedido de producción</li><li>Residuo de producción</li><li>Último pallet de producción</li><li>Registrar lista de selección</li><li>Vaciar kanban</li></ul> | Sí | N.º |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Mantenimiento de unidades de escala para WES
 

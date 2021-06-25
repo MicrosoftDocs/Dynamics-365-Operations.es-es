@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f89b3d94fd16aa9cf27931d11fd8fff22048d40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c6d96f1f957bfe8002a763d98f170681ad92b23
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824037"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188743"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Pagos de cliente para un importe parcial
 
@@ -28,8 +28,7 @@ ms.locfileid: "5824037"
 
 A veces, los clientes realizan un pago inferior al importe de la factura. Este artículo describe las diferentes opciones para gestionar esta situación. Las opciones disponibles dependen de la configuración y de los requisitos empresariales.
 
-<a name="partial-payment-with-no-discount"></a>Pagos parciales sin descuento
---------------------------------
+## <a name="partial-payment-with-no-discount"></a>Pagos parciales sin descuento
 
 Los clientes pueden realizar un pago parcial porque no dispongan de efectivo disponible para pagar la factura por completo, o porque haya desacuerdo acerca de un artículo en la factura. En esta situación, la factura se puede liquidar parcialmente con el pago. La factura permanecerá abierta y mostrará un saldo.
 

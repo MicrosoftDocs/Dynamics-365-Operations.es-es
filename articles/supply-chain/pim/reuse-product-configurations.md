@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a3aca07388a440ce5168fa4106d90d931f7f194
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4c997e8cf8b2456ffe12a552577902da171cc1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812796"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189853"
 ---
 # <a name="reuse-product-configurations"></a>Volver a utilizar configuraciones de producto
 
@@ -29,8 +29,7 @@ ms.locfileid: "5812796"
 
 Puede especificar que desee volver a usar automáticamente una configuración existente para un producto. A continuación, cuando un usuario completa una sesión de configuración, el sistema comprueba si ya existe una configuración que coincide con las selecciones del usuario. Si se encuentra una configuración que coincide, se vuelven a usar el id. de configuración, la lista de materiales (L. MAT) correspondiente y la ruta.
 
-<a name="requirements-for-reusing-configurations"></a>Requisitos para volver a usar las configuraciones
----------------------------------------
+## <a name="requirements-for-reusing-configurations"></a>Requisitos para volver a usar las configuraciones
 
 Para habilitar las configuraciones que se reutilizarán, debe especificar la siguiente información para componentes y atributos en la página de **Detalles del modelo de configuración de productos**:
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 73e6a45dedba0831c15d70ad35676c62a14acabb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e389a6af02b8ee30bc491606f72a2e8e250ef00
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809167"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193315"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 
@@ -115,9 +115,9 @@ Puede definir las reglas de configuración del pedido para cualquier dimensión 
 
 Considere el siguiente producto de ejemplo.
 
-|                                                     |                                         |
+| Artículo                                                | Valor                                   |
 |-----------------------------------------------------|-----------------------------------------|
-| **Nombre de producto**                                    | Sensor fotoeléctrico                    |
+| **Nombre del producto**                                    | Sensor fotoeléctrico                    |
 | **Número de artículo**                                     | XW56                                    |
 | **Configuración** (usada para mostrar el tipo de luz) | C1-Luz roja visible, C2-luz infrarroja |
 | **Versión** | V1, V2, V3                              |

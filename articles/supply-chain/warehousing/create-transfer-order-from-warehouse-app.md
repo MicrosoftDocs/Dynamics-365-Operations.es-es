@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
+ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838379"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "6164855"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Crear pedidos de transferencia desde la aplicación de almacén
 
@@ -330,7 +330,6 @@ Las órdenes de transporte se crean sin utilizar las capacidades de **Control de
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>¿Puedo usar una placa que tenga un inventario físico negativo a mano?
 
-La función solo admite cantidades físicas positivas disponibles. Asegúrese de tener cantidades físicas positivas disponibles en el nivel de estado de inventario y almacén antes de asignar placas de matrícula a una orden de transferencia.
-
+La función solo admite cantidades físicas positivas disponibles en el nivel de las matrículas de entidad, pero puede tener cantidades físicas negativas disponibles en los niveles superiores de estado de almacén y de inventario al asignar matrículas de entidad a los pedidos de transferencia.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 252b24919e4c22233ee8fe7e94c9bc6bbf60dacd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 43f28d9b7acb05a83544b04f6786dfe91f2d9f18
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796471"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193212"
 ---
-# <a name="open-url-in-pos"></a>Abrir dirección URL en el punto de venta
+# <a name="open-url-in-pos"></a>Abrir dirección URL en PDV
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo puede configurar un botón en Retail POS (PDV) para abrir una dirección URL. Esta función no requiere una personalización de código, y se puede configurar por una persona con un rol que no es un desarrollador. 
+Este tema describe cómo puede configurar un botón en un punto de venta (POS) Dynamics 365 Commerce para abrir una dirección URL. Esta función no requiere una personalización de código, y se puede configurar por una persona con un rol que no es un desarrollador. 
 
 Esta característica permite la configuración de un botón en PDV, mediante el Diseñador de la cuadrícula de botones para abrir una dirección URL. Actualmente, esto se admite en las siguientes configuraciones:
 
@@ -46,15 +46,15 @@ El abrir una dirección URL web dentro de PDV se admite actualmente solo para Mo
 
 Esta función también le permite especificar URL que no son de Web para abrir una aplicación nativa. Por ejemplo, puede especificar protocolos de URL como Mailto, SIP, IM o MSTEAMS, que se pueden administrar mediante aplicaciones nativas respectivas en el dispositivo del host. Para habilitarla, debe configurar la URL con la opción **Abrir en ventana nueva** seleccionada.
 
-- Para los equipos de Windows, consulte [Exportar o importar asociaciones de aplicaciones predeterminadas](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) para establecer las asociaciones predeterminadas de protocolos si configura su equipo utilizando la Administración y mantenimiento de imágenes de implementación (DISM).
-- Si utiliza MDM, como Intune para administrar los equipos de Windows, consulte [Directiva CSP - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
-- Si es desarrollador de software que crea una página Web personalizada, consulte [Iniciar la aplicación predeterminada para URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
+- Para los equipos de Windows, consulte [Exportar o importar asociaciones de aplicaciones predeterminadas](/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) para establecer las asociaciones predeterminadas de protocolos si configura su equipo utilizando la Administración y mantenimiento de imágenes de implementación (DISM).
+- Si utiliza MDM, como Intune para administrar los equipos de Windows, consulte [Directiva CSP - ApplicationDefaults](/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Si es desarrollador de software que crea una página Web personalizada, consulte [Iniciar la aplicación predeterminada para URI](/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Abrir una aplicación nativa fácilmente
 
 Windows, IOS y, Android también permiten abrir aplicaciones más fácilmente, en función de la asociación del protocolo de la aplicación. Si su aplicación no está ya configurada para gestionar la apertura desde un explorador web, puede necesitar que un programador la configure.
 
-- Para Windows, consulte [Habilitar aplicaciones de páginas Web mediante controladores de URI de la aplicación](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
+- Para Windows, consulte [Habilitar aplicaciones de páginas Web mediante controladores de URI de la aplicación](/windows/uwp/launch-resume/web-to-app-linking).
 - Para IOS, consulte [Vínculos universales para los desarrolladores](https://developer.apple.com/ios/universal-links/).
 - Para Android, consulte [Administrar vínculos de la aplicación de Android](https://developer.android.com/training/app-links/).
 

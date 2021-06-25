@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: a88ca9cc8fc8cde6d738dbc4fcf474f1e27e05dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fd69d82536047c06e94ba4a7e860ef54680619a4
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796399"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193140"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Cambiar modo de entrega en PDV
 
@@ -31,7 +31,7 @@ En Dynamics 365 Commerce versión 10.0.10 y posteriores está disponible la oper
 
 La característica de cambio de modo de entrega le ofrece la opción de cambiar el modo de entrega de una o más líneas de venta configuradas para el envío en la transacción de PDV. En versiones anteriores de Commerce, tenía que pasar por los flujos de configuración **Enviar todo** o **Enviar selección** completos si quería cambiar el modo de entrega en una línea existente que estaba configurada para el envío. Este proceso requería mucho tiempo y podía provocar cambios accidentales en el origen de la entrega o las fechas de entrega para la línea. La nueva funcionalidad proporciona un método alternativo para actualizar de forma eficiente el modo de entrega en estas líneas de venta.
 
-Para obtener más información sobre cómo agregar una operación a un botón en la cuadrícula de botones de PDV, consulte [Diseños de pantalla para el punto de venta](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts).
+Para obtener más información sobre cómo agregar una operación a un botón en la cuadrícula de botones de PDV, consulte [Diseños de pantalla para el punto de venta](pos-screen-layouts.md).
 
 Una vez configurada esta función en PDV, al seleccionar **Cambiar modo de entrega**, se le presentará una página de lista en la que podrá elegir las líneas de la transacción para las que desea cambiar el modo de entrega. Puede elegir algunas de las líneas o todas ellas, o salir sin realizar ningún cambio. Las líneas de ventas que se configuraron previamente para el envío son las únicas líneas que puede cambiar de la lista. Si desea cambiar una línea designada para recogida o reparto para envío, debe usar las operaciones **Enviar todo** o **Enviar selección**. Y a la inversa, si desea cambiar una línea designada como un envío para recogida o reparto, debe usar las operaciones **Recoger todo**, **Recoger selección**, **Repartir todo** o **Repartir selección**.
 

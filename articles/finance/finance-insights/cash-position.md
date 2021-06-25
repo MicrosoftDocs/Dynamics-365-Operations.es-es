@@ -2,7 +2,7 @@
 title: Posición de efectivo (versión preliminar)
 description: Este tema describe cómo la característica de pronóstico de flujo de efectivo predice la posición de efectivo de una organización para momentos específicos. También describe las opciones que están disponibles para mostrar pronósticos para diferentes períodos.
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123399"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186501"
 ---
 # <a name="cash-position-preview"></a>Posición de efectivo (versión preliminar)
 
@@ -48,6 +48,5 @@ Para guardar y editar la posición de efectivo, cree una instantánea. Para obte
 
 #### <a name="privacy-notice"></a>Aviso de privacidad
 Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

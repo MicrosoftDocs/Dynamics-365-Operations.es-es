@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80190419176848f10d9a3908350d57ddaadfd8c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822188"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190294"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Plantillas de planificación presupuestaria para Excel
 
@@ -66,8 +66,7 @@ Coloque el cursor en la ubicación deseada del archivo de Excel. Haga clic en **
 
 ## <a name="select-add-valuemediabpt7png"></a>[![Seleccionar Agregar valor](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Agregue una columna calculada a la tabla de plantillas de documento de plan presupuestario
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Agregue una columna calculada a la tabla de plantillas de documento de plan presupuestario
 
 A continuación, las columnas calculadas se agregará a la plantilla de documento de plan presupuestario generada. Una columna **Total de la solicitud** que suma las columnas Solicitud de primer trimestre: Solicitud de cuarto trimestre y una columna **Ajuste** que recalcula la columna **Total de la solicitud** con un factor predefinido.
 

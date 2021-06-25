@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908937"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188943"
 ---
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
@@ -29,8 +29,7 @@ ms.locfileid: "5908937"
 
 Este tema proporciona información acerca de las rutas y las operaciones. Una ruta define el proceso para producir un producto o una variante del producto. Describe cada paso (operación) en el proceso de producción y el orden en que estos pasos se deben realizar. Para cada etapa, la ruta también define los recursos de operaciones necesarios, el tiempo de configuración necesaria y el tiempo de ejecución, y cómo el coste se debe calcular.
 
-<a name="overview"></a>Visión general
---------
+## <a name="overview"></a>Visión general
 
 Una ruta describe el orden de las operaciones que se necesitan para producir un producto o una variante del producto. Para cada operación, la ruta también define los recursos de operaciones que se necesitan, el tiempo necesario para configurar y ejecutar la operación, y cómo el coste se debe calcular. Puede usar la misma ruta para generar varios productos o puede definir una ruta única para cada producto o variante del producto. Puede incluso tener varias rutas para el mismo producto. En este caso, la ruta que se utiliza varía, en función de factores como la cantidad que se debe producir. La definición de una ruta en Supply Chain Management consta de cuatro elementos independientes, en conjunto, describen el proceso de producción:
 

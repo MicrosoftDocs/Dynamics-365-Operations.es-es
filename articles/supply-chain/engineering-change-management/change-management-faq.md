@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018694"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187280"
 ---
 # <a name="engineering-change-management-faq"></a>Preguntas frecuentes de administración de cambios de ingeniería
 
@@ -46,7 +46,7 @@ Esta opción es mucho más fácil de administrar, porque si desea cambiar de una
 
 La mayoría de las organizaciones eligen esta opción porque proporciona administración de versiones y cambios, pero no agrega la sobrecarga adicional de seguir la versión en cada transacción, en el inventario y durante la planificación maestra.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>¿Qué campos se copian en la plantilla de artículo liberado?
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>¿Qué campos se copian de la plantilla de artículo publicado?
 
 Cuando una empresa de ingeniería crea un producto de ingeniería, ese producto se crea como un producto lanzado en la empresa de ingeniería. El producto liberado que se crea se basa en la *plantilla de artículo publicado* seleccionado. (La plantilla de artículo liberado es en sí misma un producto liberado existente). La plantilla de artículo liberado también se utiliza cuando el producto se libera a una empresa operativa. En cada caso, la plantilla de artículo liberado define la mayoría de los valores de campo para el producto publicado, y esos valores provienen de la página **Detalles del producto publicado**.
 

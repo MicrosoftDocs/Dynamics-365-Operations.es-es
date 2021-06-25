@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5544fefbbf0dfc012e868b672f80cc2be30fe7ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f80d1509c7c363e93b83cb47c1b93ab00bf67180
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020871"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193477"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Características quitadas u obsoletas de Dynamics 365 Commerce
 
@@ -37,7 +37,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ### <a name="full-dataset-generation-interval-is-deprecated"></a>El intervalo de generación del conjunto de datos completo está en desuso
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | A partir de esta versión, en el formulario **Parámetros del programador de comercio** de la sede central de Dynamics 365, el campo **Intervalo completo de generación de conjunto de datos en días** quedará en desuso. Además, el campo se eliminará visualmente para que su valor no se pueda editar. Su valor será **0**. |
 | **¿Reemplazado por otra característica?**   | N.º |
@@ -49,7 +49,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La compatibilidad de Internet Explorer 11 con Dynamics 365 está en desuso
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | A partir de diciembre de 2020, queda en desuso la compatibilidad de Microsoft Internet Explorer 11 con todos los productos de Dynamics 365 e Internet Explorer 11 no se admitirá después de agosto de 2021.<br><br>Esto afectará a los clientes que usan productos Dynamics 365 que están diseñados para usarse a través de una interfaz de Internet Explorer 11. Después de agosto de 2021, Internet Explorer 11 no será compatible con dichos productos de Dynamics 365. |
 | **¿Reemplazado por otra característica?**   | Recomendamos que los clientes hagan la transición a Microsoft Edge.|
@@ -59,7 +59,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.11
 ### <a name="data-action-hooks"></a>Enlaces de acción de datos
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La función de enlaces de acción de datos ha quedado en desuso debido a problemas de rendimiento. |
 | **¿Reemplazado por otra característica?**   | Le recomendamos utilizar las [anulaciones de acción de datos](../e-commerce-extensibility/data-action-overrides.md) para modificar la lógica de negocios en la capa de acción de datos.|
@@ -68,7 +68,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **Estado**                         | En desuso: a partir de la versión 10.0.11 |
 
 ### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Soporte de SDK de Retail para Visual Studio 2015, msbuild 14.0 y SDK de Retail\bibliotecas y herramientas de referencia
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El soporte de SDK de Retail para Visual Studio 2015 ha quedado desuso y se ha actualizado para admitir VS 2017, msbuild 15.0 y todas las bibliotecas de referencia y herramientas generadoras de proxy de comercio en la carpeta RetailSDK\References movida a paquetes de NuGet para simplificar el modelo de extensión y el proceso de actualización del SDK.|
 | **¿Reemplazado por otra característica?**   | Le recomendamos que siga la información en [Migrar el SDK de Retail desde Visual Studio 2015 a Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) para actualizar su sistema. |
@@ -77,7 +77,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **Estado**                         | En desuso: a partir de la versión 10.0.11 |
 
 ### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>Extensión de Retail Server con IEdmModelExtender y CommerceController
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La extensión de Retail Server que utiliza IEdmModelExtender y CommerceController ha quedado en desuso para proporcionar un modelo de extensión simplificado. La nueva implementación solo tendrá la clase de controlador sin ninguna implementación de clase IEdmModelExtender adicional. Esto también evita la dependencia con una versión particular de OData (si la versión de OData se actualiza, se pueden romper las extensiones.) |
 | **¿Reemplazado por otra característica?**   |  Le recomendamos que utilice el modelo de extensión de clase IController importando el paquete de NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
@@ -86,7 +86,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **Estado**                         | En desuso: a partir de la versión 10.0.11 |
 
 ### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Extensión de estación de hardware mediante IHardwareStationController
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La extensión de la estación de hardware mediante IHardwareStationController ha quedado en desuso para proporcionar un modelo de extensión simplificado. La nueva implementación solo tendrá la clase IController sin ninguna implementación de clase adicional y, para evitar la dependencia con las principales bibliotecas de estaciones de hardware, previamente la extensión debe hacer referencia a varias bibliotecas.) |
 | **¿Reemplazado por otra característica?**   | Se recomienda usar el modelo de extensión de clase IController importando el paquete de NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
@@ -96,7 +96,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.10
 ### <a name="pos-operation-803---picking-and-receiving"></a>Operación POS 803: recogida y recepción
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Las operaciones de recogida y recepción están en desuso debido al nuevo diseño de la operación. |
 | **¿Reemplazado por otra característica?**   | Sí. Se reemplazan por dos nuevas operaciones POS: operación entrante (804) y operación saliente (805).|
@@ -107,7 +107,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.7
 ### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>API de GetProductAvailabilities y GetAvailableInventoryNearby
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Se han creado API nuevas y optimizadas para reemplazar las API de GetProductAvailabilities y GetAvailableInventoryNearby. |
 | **¿Reemplazado por otra característica?**   | Sí: se reemplaza por las API de GetEstimatedAvailability y GetEstimatedProductWarehouseAvailability. |

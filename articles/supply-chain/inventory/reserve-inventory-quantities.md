@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1fcdb43f95892c541be2c31101d8f592f5d5e16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 052cb56e026fbfe5cf5f6ad5d265337d7b88dc4d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834202"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193962"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar cantidades de inventario
 
@@ -46,7 +46,7 @@ Las directivas de reserva de inventario se establecen en la página de **Grupos 
 
 La sección de **Directivas de inventario** contiene las siguientes directivas de reserva.
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Directiva de las reservas**  | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Fecha FIFO controlada    | Si activa la opción **FIFO controlado mediante la fecha**, la reserva de inventario se controla mediante una fecha de ordenación según el principio FIFO. Los lotes se reservan en función de la fecha de recepción de artículos más antigua, según el principio de que el primero en entrar es el primero en salir (FIFO).                                                                                                                                                                                                                                                                       |

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941118"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219796"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrar las adquisiciones entre Supply Chain Management y Field Service
 
@@ -196,23 +196,10 @@ Las siguientes plantillas están disponibles para la integración de documentos 
 
 | Gestión de la cadena de abastecimiento | Field Service | Descripción |
 |---|---|---|
-| Encabezado de pedido de compras V2 | msdyn\_Purchaseorders | Esta tabla contiene las columnas que representan el encabezado del pedido de compra. |
-| Entidad de línea de pedido de compra | msdyn\_PurchaseOrderProducts | Esta tabla contiene las filas que representan las lineas en un pedido de compra. El número de producto se usa para la sincronización. Esto identifica el producto como una unidad de mantenimiento de existencias (SKU), incluidas las dimensiones del producto. Para obtener más información sobre la integración de productos con Dataverse, consulte [Experiencia unificada del producto](product-mapping.md). |
-| Encabezado de recepción de producto | msdyn\_purchaseorderreceipts | Esta tabla contiene los encabezados de recepción de productos que se crean cuando se registra una recepción de producto en Supply Chain Management. |
-| Línea de recepción de producto | msdyn\_purchaseorderreceiptproducts | Esta tabla contiene las líneas de recepción de productos que se crean cuando se registra una recepción de producto en Supply Chain Management. |
-| Entidad de línea de pedido de compra eliminada provisionalmente | msdyn\_purchaseorderproducts | Esta tabla contiene información sobre las líneas de pedido de compra que se eliminan temporalmente. Una línea de pedido de compra en Supply Chain Management se puede eliminar temporalmente solo cuando el pedido de compra ha sido confirmado o aprobado, si la gestión de cambios está activada. La fila existe en la base de datos de Supply Chain Management y está marcada como **IsDeleted**. Ya que Dataverse no admite la eliminación temporal, es importante que esta información se sincronice con Dataverse. De esta manera, las líneas que se eliminan temporalmente en Supply Chain Management se pueden eliminar automáticamente de Dataverse. En este caso, la lógica para borrar una línea en Dataverse se encuentra en Supply Chain Management Extended. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [Encabezado de pedido de compras V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Esta tabla contiene las columnas que representan el encabezado del pedido de compra. |
+| [Entidad de línea de pedido de compra](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Esta tabla contiene las filas que representan las lineas en un pedido de compra. El número de producto se usa para la sincronización. Esto identifica el producto como una unidad de mantenimiento de existencias (SKU), incluidas las dimensiones del producto. Para obtener más información sobre la integración de productos con Dataverse, consulte [Experiencia unificada del producto](product-mapping.md). |
+| [Encabezado de recepción de producto](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Esta tabla contiene los encabezados de recepción de productos que se crean cuando se registra una recepción de producto en Supply Chain Management. |
+| [Línea de recepción de producto](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Esta tabla contiene las líneas de recepción de productos que se crean cuando se registra una recepción de producto en Supply Chain Management. |
+| [Entidad de línea de pedido de compra eliminada provisionalmente](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Esta tabla contiene información sobre las líneas de pedido de compra que se eliminan temporalmente. Una línea de pedido de compra en Supply Chain Management se puede eliminar temporalmente solo cuando el pedido de compra ha sido confirmado o aprobado, si la gestión de cambios está activada. La fila existe en la base de datos de Supply Chain Management y está marcada como **IsDeleted**. Ya que Dataverse no admite la eliminación temporal, es importante que esta información se sincronice con Dataverse. De esta manera, las líneas que se eliminan temporalmente en Supply Chain Management se pueden eliminar automáticamente de Dataverse. En este caso, la lógica para borrar una línea en Dataverse se encuentra en Supply Chain Management Extended. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

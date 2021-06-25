@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792156"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193291"
 ---
 # <a name="ratings-and-reviews-modules"></a>Módulos de clasificaciones y opiniones
 
@@ -54,7 +54,11 @@ La siguiente ilustración muestra cómo el cuadro de diálogo **Agregar módulo*
 
 El módulo Escribir opinión incluye un botón **Escribir una opinión** que permite a los usuarios iniciar sesión, asigne una clasificación y escribir una opinión de un producto. Este módulo también permite a los usuarios editar una clasificación u opinión que han enviado anteriormente. Este módulo aparece normalmente encima de los módulos de lista de opiniones de productos e histograma de clasificaciones en un PDP.
 La ilustración siguiente muestra el cuadro de diálogo **Escribir una opinión** que aparece cuando un cliente selecciona **Escribir una opinión**. El cliente puede usar este cuadro de diálogo para enviar una clasificación y una revisión.
-![Escribir un cuadro de diálogo de opinión](media/rnr-eCommerce-write-review-module.png) En la tabla siguiente se muestra la propiedad del módulo de escribir una opinión que tiene que configurarse en la herramienta de creación.
+
+![Cuadro de diálogo Escribir una opinión](media/rnr-eCommerce-write-review-module.png)
+
+En la tabla siguiente se muestra la propiedad del módulo de escribir una opinión que tiene que configurarse en la herramienta de creación.
+
 | Nombre de la propiedad | Valor        | Descripción de la propiedad                 |
 |---------------|--------------|--------------------------------------|
 | Nombre          | Escribir opinión | El nombre del módulo de escribir opinión. |

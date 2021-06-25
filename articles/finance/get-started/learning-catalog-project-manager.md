@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fee455fe1e51ac99fe6f38a63b48c7b92d32ac7a
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 01d6d79c482871c9f39898298292b21367c9a48e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897073"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193340"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Catálogo de aprendizaje para directores de proyectos de implementación que trabajen con Dynamics 365 Finance
 
@@ -88,10 +88,10 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 
 ## <a name="exams"></a>Exámenes<a name="exams"></a>
 
-| Contenido  | Descripción  | Formato   |
-|-------------|-----------------|-------------|
-| [Inspección MB-300: Aspectos básicos de Microsoft Dynamics 365 Unified Operations](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Este inspección mide la capacidad de realizar las siguientes tareas técnicas: uso de herramientas comunes funcionales y de implementación, configuración de la seguridad, procesos y opciones, efectuar la migración de datos y validar y prestar soporte a la solución. | Inspección; el coste varía según la región | |
-| [Inspección MB-310: Microsoft Dynamics 365 for Finance and Operations, aspectos financieros](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Esta inspección mide la capacidad de realizar las tareas siguientes técnicas: definición y configuración de la gestión financiera, administrar y aplicar procesos comunes, implementar y gestionar los proveedores y los clientes y gestionar el presupuesto y los activos fijos. | Inspección; el coste varía según la región | |
+| Contenido | Descripción | Formato |
+|---|---|---|
+| [Inspección MB-300: Aspectos básicos de Microsoft Dynamics 365 Unified Operations](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Este inspección mide la capacidad de realizar las siguientes tareas técnicas: uso de herramientas comunes funcionales y de implementación, configuración de la seguridad, procesos y opciones, efectuar la migración de datos y validar y prestar soporte a la solución. | Inspección; el coste varía según la región |
+| [Inspección MB-310: Microsoft Dynamics 365 for Finance and Operations, aspectos financieros](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Esta inspección mide la capacidad de realizar las tareas siguientes técnicas: definición y configuración de la gestión financiera, administrar y aplicar procesos comunes, implementar y gestionar los proveedores y los clientes y gestionar el presupuesto y los activos fijos. | Inspección; el coste varía según la región |
 | [Certificado de Microsoft: Dynamics 365 for Finance and Operations, Asociado consultor de la funcionalidad de los aspectos financieros](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Certificado de Microsoft: Dynamics 365 for Finance and Operations, los consultores de la funcionalidad de los aspectos financieros, unifican las operaciones globales y las operaciones y automatizan las tareas y los flujos de trabajo, agilizan el proceso de pedidos, ventas, facturación y generación de informes de los clientes. | Certificación; el coste varía según la región |
 
 

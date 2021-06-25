@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835013"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188599"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Conciliar extractos bancarios mediante la conciliación bancaria avanzada
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835013"
 
 La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Dynamics 365 Finance. En este tema se explica el proceso de conciliación.  
 
-<a name="import-an-electronic-bank-statement"></a>Importar un extracto bancario electrónico
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Importar un extracto bancario electrónico
 
 Importa los extractos bancarios mediante la acción **Importar extracto** en la página **Extractos bancarios**. En el extracto bancario, la cuenta bancaria se identifica mediante una combinación de valores que se establecen en los detalles de la cuenta bancaria. Estos valores incluyen el nombre del banco, el número de cuenta bancaria, el número de ruta, el código SWIFT (Society for Worldwide Interbank Financial Telecommunication, Sociedad para la telecomunicación financiera interbancaria en el mundo) y el número internacional de cuenta bancaria (IBAN). 
 

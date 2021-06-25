@@ -2,7 +2,7 @@
 title: Evaluar el modelo de predicción de pagos de clientes inicial (versión preliminar)
 description: Este tema describe los pasos que puede seguir para conocer el modelo de predicción de pagos de clientes y evaluar su efectividad.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897921"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186747"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Evaluar el modelo de predicción de pagos de clientes inicial (versión preliminar)
 
@@ -95,9 +95,5 @@ Una vez que comprenda mejor los resultados de su primer modelo, es posible que d
 ## <a name="for-more-information"></a>Para obtener más información
 
 Para obtener más información sobre cómo evaluar modelos de predicción, consulte [Resultados de los modelos de Machine Learning](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Aviso de privacidad
-Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

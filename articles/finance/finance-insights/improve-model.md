@@ -2,7 +2,7 @@
 title: Mejorar el modelo de predicción (versión preliminar)
 description: Este tema describe las características que puede utilizar para mejorar el rendimiento de los modelos de predicción.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 197aba724ea68ef79c2d16028c23533d952329a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810038"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186651"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Mejorar el modelo de predicción (versión preliminar)
 
@@ -77,9 +77,5 @@ El campo siguiente no debe seleccionarse para el entrenamiento:
 Actualmente, los filtros no son compatibles con el escenario del predictor de pagos de clientes. Por lo tanto, seleccione **Omitir este paso** y continúe con la página de resumen.
 
 [![Modelo de enfoque con filtros](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
-
-#### <a name="privacy-notice"></a>Aviso de privacidad
-Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

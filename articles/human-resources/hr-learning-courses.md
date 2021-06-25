@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054028"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190241"
 ---
 # <a name="set-up-training-courses"></a>Configuración de cursos de formación.
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054028"
 
 Los administradores y directores de Recursos humanos pueden usar las características de los cursos para mantener información sobre la formación que se ofrece a los trabajadores.
 
- <a name="set-up-prerequisites"></a> Requisitos previos de configuración
----------------------
+##  <a name="set-up-prerequisites"></a> Requisitos previos de configuración
 
 La siguiente información es necesaria y debe estar configurada antes de crear cursos.
 -   **Tipos de curso**
@@ -127,8 +126,7 @@ En la tabla siguiente se muestran los estados posibles del curso y las acciones 
 ## <a name="course-participants"></a>Participantes en el curso
 Los participantes del curso son trabajadores que participan en un evento o curso de aprendizaje. Solo es posible registrar participantes para cursos abiertos. El número mínimo y máximo de participantes que se pueden registrar para un curso se define en la ficha desplegable **General** en la página **Cursos**.
 
-<a name="workflow"></a>Flujo de trabajo
---------
+## <a name="workflow"></a>Flujo de trabajo
 
 Los empleados que se registran para un curso por medio de la página **Autoservicio del empleado** pueden dirigir su registro a través del flujo de trabajo para su aprobación. Puede asignar un flujo de trabajo a un curso en la ficha desplegable **General** de la página **Cursos**.
 

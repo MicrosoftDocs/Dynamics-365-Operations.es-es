@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75d994db80071c4ef9e23caf24cb4cadbc1473ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839206"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189901"
 ---
 # <a name="use-tracing-for-explosion"></a>Usar seguimiento para expansiones
 
@@ -38,8 +38,7 @@ Al activar el seguimiento se puede ver información acerca de los factores que c
 
 Puede ver los detalles acerca de futuros y acciones para un pedido seleccionado. En la página **Expansión**, la información de seguimiento aparece disponible en la ficha **Explicación** del panel superior. El seguimiento tiene lugar cuando se expande un pedido. Para iniciar el seguimiento del pedido, haga clic en **Actualizar** y, a continuación, active la casilla **Habilitar seguimiento**. Puede usar el campo **Buscar texto** para buscar en el registro información específica. Los resultados de la búsqueda se resaltan en el árbol.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los planes maestros](master-plans.md)
 

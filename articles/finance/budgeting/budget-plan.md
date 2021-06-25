@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822236"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188030"
 ---
 # <a name="budget-planning"></a>Planificación presupuestaria
 
@@ -34,13 +34,12 @@ El objetivo de este laboratorio es proporcionar una visita guiada de las actuali
 - Uso de asignaciones para ajustar datos de documentos de plan presupuestario
 - Edición de datos de documentos de plan presupuestario en Excel 
 
-<a name="prerequisites"></a>Requisitos previos 
-------------------
+## <a name="prerequisites"></a>Requisitos previos 
 
-Para este tutorial, deberá tener acceso al entorno de Microsoft Dynamics 365 Finance con datos de demostración de Contoso, y se aprovisionará como administrador en la instancia. No use el modo de explorador privado para este laboratorio; cierre sesión de cualquier otra cuenta en el explorador si lo necesita e inicie sesión con las credenciales de administrador. Al iniciar sesión, **DEBE** activar la casilla "Mantener la sesión iniciada". Esto crea una cookie persistente que la aplicación Excel necesita actualmente. Si inicia sesión en la aplicación con un explorador distinto de IE, le pedirá que inicie sesión dentro de la aplicación Excel. Al hacer clic en "Iniciar sesión" en la aplicación Excel, se abrirá una ventana emergente de IE y al iniciar sesión **DEBE** activar la casilla "Mantener la sesión iniciada". Si al hacer clic en "Iniciar sesión” en la aplicación Excel no parece hacer nada, debe borrar la caché de cookies de IE.
+Para este tutorial, deberá tener acceso al entorno Microsoft Dynamics 365 Finance con datos de demostración de Contoso, y se aprovisionará como administrador en la instancia. No use el modo de explorador privado para este laboratorio; cierre sesión de cualquier otra cuenta en el explorador si lo necesita e inicie sesión con las credenciales de administrador. Al iniciar sesión, **DEBE** activar la casilla "Mantener la sesión iniciada". Esto crea una cookie persistente que la aplicación Excel necesita actualmente. Si inicia sesión en la aplicación con un explorador distinto de IE, le pedirá que inicie sesión dentro de la aplicación Excel. Al hacer clic en "Iniciar sesión" en la aplicación Excel, se abrirá una ventana emergente de IE y al iniciar sesión **DEBE** activar la casilla "Mantener la sesión iniciada". Si al hacer clic en "Iniciar sesión” en la aplicación Excel no parece hacer nada, debe borrar la caché de cookies de IE.
 
 ## <a name="scenario-overview"></a>**Visión general del escenario**
-Julia funciona como director de finanzas en Contoso Entertainment Systems en Alemania (DEMF). Conforme se acerca el AF2016, necesita trabajar en la configuración del presupuesto de la empresa durante el próximo año. La preparación del presupuesto se parece a lo siguiente:
+Julia trabaja como directora de finanzas en Contoso Entertainment Systems en Alemania (DEMF). Conforme se acerca el AF2016, necesita trabajar en la configuración del presupuesto de la empresa durante el próximo año. La preparación del presupuesto se parece a lo siguiente:
 
 1.  Julia usa los importes de los valores reales del año anterior como punto de partida para crear el presupuesto.
 2.  En función de los valores reales del año anterior, crea estimaciones para 12 meses del próximo año.

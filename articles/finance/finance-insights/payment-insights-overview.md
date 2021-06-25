@@ -2,7 +2,7 @@
 title: Previsiones de pago de clientes (versión preliminar)
 description: Este tema describe la capacidad de predicciones de pago que puede ayudarle a conocer mejor las prácticas de pago típicas de un cliente. Esta característica también puede ayudarle a identificar circunstancias que deberían provocar que comience procesos de cobro antes de lo haya hecho de otra manera.
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 4151b56b8b385e29d3926dc7e245728158cbcd34
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898021"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186405"
 ---
 # <a name="customer-payment-predictions-preview"></a>Previsiones de pago de clientes (versión preliminar)
 
@@ -72,10 +72,5 @@ En el pasado, normalmente era difícil desarrollar e implementar una solución d
 La versión preliminar pública de Finance Insights está disponible para probarla en implementaciones en los Estados Unidos de América, Europa y el Reino Unido. Microsoft está agregando gradualmente soporte para otras más regiones.
 
 Las funciones de versión preliminar pública deben activarse solo en entornos de espacio aislado de nivel 2. Los modelos de configuración e IA que se crean en un entorno de espacio aislado no se pueden migrar al entorno de producción. Para más información, consulte [Condiciones de uso suplementarias para Vistas previas de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
-
-## <a name="privacy-notice"></a>Aviso de privacidad
-
-Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56384a2e4d5b280ad8d73d4c995710bcdf420245
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8a78908cc0b5a06d3183080bcb8756b5e46442df
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838764"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193738"
 ---
 # <a name="isr-declaration-report-and-supporting-processes-for-mexico"></a>Informe de declaración de ISR y procesos auxiliares para México
 
@@ -43,7 +43,7 @@ Antes de generar el informe de ISR, configure la categoría del concepto y para 
 
 Debe crear conceptos para identificar las distintas secciones del informe y vincular a continuación una o más cuentas principales para cada concepto. Puede vincular un intervalo o cuentas principales específicas, en función de la estructura del plan de cuentas. Cuando se vincula una cuenta principal, puede seleccionar **Débitos** para usar el importe del débito, **Crédito** para usar solo el importe de crédito o **Ambos**. El informe de ISR muestra el valor, en función del concepto que haya configurado. **Ejemplo**
 
-|               |                                                          |
+| &nbsp;        | &nbsp;                                                   |
 |---------------|----------------------------------------------------------|
 | **Ingresos**   | Cuentas principales 4010001, 401002, 4010003, 4100001, 4100002 |
 | **Inventario** | Cuentas principales 1155001, 1155002, 1155003                  |

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814593"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188158"
 ---
 # <a name="production-process-overview"></a>Visión general del proceso de producción
 
@@ -74,8 +74,7 @@ Se pueden dar los siguientes pasos en el ciclo de vida de producción para todos
 12. **Cierre de período**: algunos principios de contabilidad de costes, como media periódica, costes de contabilización previa, FIFO o LIFO, requieren actividades periódicas para cerrar el inventario o el período financiero. Normalmente, el sistema intenta informar de todo el material y los recurso consumidos, y también las correcciones del inventario y los residuos, antes de cerrar los períodos. Estos informes se realizan normalmente mediante los diarios de movimientos de inventario o los diarios de ajuste. El objetivo es evaluar el rendimiento económico de unidades operativas por período. En algunos casos, cuando se usan pedidos de producción duraderos que abarcan los períodos de informes financieros, los diarios de producción se usan para notificar sobre el progreso de producción y el consumo de recursos para el final del período.
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Comentarios de producción](production-feedback.md)
 

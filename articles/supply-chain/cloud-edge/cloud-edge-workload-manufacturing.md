@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899104"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184005"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de ejecución de fabricación para unidades de escalado en el perímetro y en la nube
 
@@ -72,6 +72,7 @@ Las siguientes tareas de ejecución de fabricación se pueden ejecutar actualmen
 - Notificar residuos
 - Actividad indirecta
 - Descanso
+- Notificar como terminado y almacenado (requiere que también ejecute la carga de trabajo de ejecución del almacén en su unidad de escalado, consulte también [Notificar como terminado y almacenado en una unidad de escalado](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Trabajar con cargas de trabajo de ejecución de fabricación en el hub
 
@@ -108,6 +109,26 @@ Para revisar el historial de trabajos de fabricación que se han procesado en un
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Centro de fabricación para escalar el trabajo del procesador de mensajes de la unidad
 
 El trabajo _Centro de fabricación para el procesador de mensajes de la unidad de escala_ procesa datos desde el centro hasta la unidad de escalado. Este trabajo se inicia automáticamente cuando se implementa la carga de trabajo de ejecución de fabricación. Sin embargo, puede ejecutarlo manualmente en cualquier momento yendo a **Control de producción \> Tareas periódicas \> Gestión de la carga de trabajo de backoffice \> Centro de fabricación para el procesador de mensajes de la unidad de escala**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Notificar como terminado y almacenado en una unidad de escalado
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+En la versión actual, las operaciones de notificación como terminadas y almacenadas (para productos terminados, coproductos y subproductos) son compatibles con la [carga de trabajo de ejecución de almacén](cloud-edge-workload-warehousing.md) (no con la carga de trabajo de ejecución de fabricación). Por lo tanto, para usar esta funcionalidad cuando está conectado a una unidad de escalado, debe hacer lo siguiente:
+
+- Instale tanto la carga de trabajo de ejecución del almacén como la carga de trabajo de ejecución de fabricación en su unidad de escalado.
+- Utilice la aplicación móvil Warehouse Management para notificar como terminado y procesar el trabajo de almacenamiento. Actualmente, la interfaz de ejecución de la planta de producción no admite estos procesos.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

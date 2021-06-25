@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c59a4f098ac19223c5b2fb6808d18d8fea4f4290
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2673ecb09cd479eb10182a4345fe89d8f6b8d404
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815941"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188473"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Cartas de crédito y remesas documentarias
 
@@ -28,8 +28,7 @@ ms.locfileid: "5815941"
 
 Este artículo proporciona información general acerca de las cartas de crédito y los cobros. Ambos tipos de documentos bancarios se usan a menudo para la compra y la venta de bienes entre fronteras internacionales.
 
-<a name="letters-of-credit"></a>Carta de crédito
------------------
+## <a name="letters-of-credit"></a>Carta de crédito
 
 Las cartas de crédito se usan en transacciones internacionales y ayudan a garantizar que se efectuarán los pagos. Una carta de crédito es un contrato que emite un banco, por el cual el banco acepta garantizar el pago en nombre de un comprador, siempre que se cumplan las condiciones del contrato entre el comprador y el vendedor. Una carta de crédito también se conoce como un crédito documentario (CD).
 

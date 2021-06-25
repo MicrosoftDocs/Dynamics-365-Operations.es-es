@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835205"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188719"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Establecer tipos de interés para un código de interés
 
@@ -90,7 +90,6 @@ Configure la información del intervalo de la siguiente manera:
 
 
 ## <a name="example-2-interest-by-range--days"></a>Ejemplo 2: interés por intervalo = días
---------------------------------------------------
 
 Establezca el código de interés que evalúa el interés una vez por cada 15 días que el pago de la factura supere la fecha de vencimiento de la transacción. Deberá basar el cálculo en un valor de interés del importe, de acuerdo con los intervalos escalonados del día. El valor del interés será de 10,00 por 15 días durante los primeros 60 días, de 15,00 por 15 días durante los días 61 a 90, y de 20,00 por 15 días a partir del día 91. Configure los valores del campo del código de interés de la siguiente manera:
 
@@ -111,7 +110,6 @@ Configure la información del intervalo de la siguiente manera:
 
 
 ## <a name="example-3-interest-by-range--months"></a>Ejemplo 3: interés por intervalo = meses
-----------------------------------------------------
 
 Establezca el código de interés que evalúa el interés una vez por cada mes que el pago de la factura supere la fecha de vencimiento de la transacción. Deberá basar el cálculo en un valor de interés de porcentaje, de acuerdo con los intervalos escalonados del mes. El valor del interés será del 1,5 por ciento por mes para los primeros tres meses vencidos, del 2,0 por ciento por mes para los segundos tres meses y del 2,5 por ciento por mes para cada mes pasados los primeros seis meses. Configure los valores del campo del código de interés de la siguiente manera:
 

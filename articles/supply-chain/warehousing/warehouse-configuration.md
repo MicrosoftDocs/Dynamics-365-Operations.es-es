@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1dc6c99a986bad767691f7cac7e0135c54e1d0b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837378"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189560"
 ---
 # <a name="warehouse-configuration-overview"></a>Visión general de la configuración de almacén
 
@@ -109,8 +109,7 @@ Como el nombre sugiere, las directivas de ubicación se usan para dirigir las tr
 
 Para facilitar y agilizar la definición de las acciones asociadas con cada línea de directiva de ubicación, use una de las estrategias predefinidas. Por ejemplo, puede usar la estrategia **Ubicación vacía sin trabajo entrante** para buscar las ubicaciones libres de un almacén, o puede usar la estrategia **Reserva de lote de FEFO** para el picking de ventas salientes.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Configurar ubicaciones en un almacén con WMS](tasks/configure-locations-wms-enabled-warehouse.md)
 

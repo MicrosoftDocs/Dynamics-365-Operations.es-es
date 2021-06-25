@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d09b6f693f3396da181a0f47051b7c961aa55e03
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909165"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188254"
 ---
 # <a name="create-purchase-orders"></a>Crear pedidos de compra
 
@@ -80,8 +80,7 @@ Los pedidos de compra se pueden configurar para requerir la asignación de fondo
 
 Es posible que deba retrasar la finalización de un pedido de compra. Por ejemplo, es posible que requiera información adicional sobre productos o servicios, o que tenga que obtener autorización para el gasto. Hay varias maneras de retener un pedido. Por ejemplo, puede esperar para confirmar el pedido. De forma alternativa, si se utiliza un flujo de trabajo de administración de cambios, no envíe el pedido para su aprobación. Si debe bloquear todos los pedidos para un proveedor determinado, también puede marcar el proveedor como **En espera** para su procesamiento en el maestro de proveedores. También hay circunstancias que pueden impedir el procesamiento del pedido. Por ejemplo, es posible evitar el procesamiento si se han superado los límites de crédito o si los fondos presupuestarios necesarios no están disponibles.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los pedidos de compra](purchase-order-overview.md)
 

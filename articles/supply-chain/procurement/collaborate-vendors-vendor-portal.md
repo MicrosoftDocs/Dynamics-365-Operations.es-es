@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceffa7028f4490a88027a2affdc898877cc2db43
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 2fa295c71fb82b4168123970fee6ba71d293e3c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910074"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189677"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaboración con los proveedores mediante el portal de proveedores
 
@@ -92,8 +92,7 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 |                           Envíe la nueva versión de la OC al portal de proveedores.                            |                                                                                                                                                                    La nueva versión se registra en el portal de proveedores y se cambia el estado a <strong>Revisión externa</strong>.                                                                                                                                                                     |
 |                                El proveedor aprueba la nueva versión de la OC.                                 |                                                                                                                                                     El estado se cambia a <strong>Confirmado</strong> automáticamente o cuando reciba la respuesta del proveedor y después confirma la OC.                                                                                                                                                     |
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Seguridad de usuario del portal de proveedor](configure-security-vendor-portal-users.md)
 

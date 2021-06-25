@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b72ccbcec1e3796917c041def19f3985668e7e1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6ac31634844ea5d82f795b2262d17a6be3a926c2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807929"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190145"
 ---
 # <a name="procurement-catalogs-overview"></a>Visión general de catálogos de compras
 
@@ -66,8 +66,7 @@ Las actualizaciones se publican de forma manual o automática en función de la 
 -   **Ambas**: si el catálogo incluye categorías de productos que tienen el tipo de actualización predeterminada **Estática**, se debe actualizar manualmente cuando se actualizan estas categorías. Si el catálogo incluye categorías de productos que tienen el tipo de actualización predeterminada **Dinámica**, se actualiza automáticamente siempre que haya cambiado.
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Configurar una jerarquía de categorías de compras](tasks/set-up-procurement-category-hierarchy.md)
 

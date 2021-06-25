@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f57c3405e03651798b7e0aaf1fab84d25f33f7cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821994"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187877"
 ---
 # <a name="audit-policy-rules"></a>Reglas de directivas de auditoría
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821994"
 
 Puede usar directivas de auditoría para evaluar si ciertos informes de gastos, facturas de proveedor y pedidos de compra para asegurarse de que cumplan las reglas de directivas que ha creado. Todas las reglas asociadas a una directiva de auditoría se ejecutan en el modo por lotes, de acuerdo con la programación que haya especificado.  Cada regla de directivas pertenece a un tipo de regla de directivas. Sólo puede haber una regla de directivas activa por cada tipo de regla de directivas. 
 
-<a name="queries-and-query-types"></a>Consultas y tipos de consulta
------------------------
+## <a name="queries-and-query-types"></a>Consultas y tipos de consulta
 
 Para crear una regla de directivas de auditoría, en primer lugar se selecciona un tipo de regla de directivas. El tipo de regla de directivas determina la consulta del árbol de objetos de aplicación (AOT) que se usa como punto de partida para crear la regla de directivas. También especifica el tipo de consulta que se usará para la regla de directivas. La consulta determina el documento de origen que evalúa la regla de directivas. También especifica los campos del documento de origen que identifican tanto la entidad jurídica y como la fecha que se usará al seleccionar documentos para una auditoría. El tipo de consulta controla los campos predeterminados de la página de consulta y de la página Regla de directivas de auditoría. En la tabla siguiente se incluyen los tipos de consulta disponibles para reglas de directivas de auditoría.
 
@@ -91,8 +90,7 @@ Todas las reglas de directivas de una directiva de auditoría concreta comparten
 
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Infracciones de directivas de auditoría y casos](audit-policy-violations-cases.md)
 [Defina directivas de auditoría para los documentos de origen](tasks/define-audit-policies-source-documents.md)

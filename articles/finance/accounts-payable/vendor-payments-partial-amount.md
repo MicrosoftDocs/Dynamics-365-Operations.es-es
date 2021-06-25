@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ee17aeb75e2bdc3b9c36d50914c24aa9d6218b7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841222"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189526"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Pagos de proveedor para un importe parcial
 
@@ -28,8 +28,7 @@ ms.locfileid: "5841222"
 
 En ocasiones, puede crear un pago a un proveedor inferior al importe de una factura. Este artículo describe las diferentes opciones para gestionar esta situación. Las opciones disponibles dependen de la configuración y de los requisitos empresariales. 
 
-<a name="cash-discount-amounts"></a>Importes de descuento por pronto pago
----------------------
+## <a name="cash-discount-amounts"></a>Importes de descuento por pronto pago
 
 Un proveedor puede ofrecerle un descuento por pronto pago por pagar una factura antes de la fecha de vencimiento. Por ejemplo, introduce una factura de 100,00 que especifica un descuento por pronto pago del 2% si se paga en 10 días. La fecha de vencimiento es 30 días. Si una propuesta de pago usa el descuento por pronto pago como criterio para seleccionar una factura, y si la propuesta se ejecuta en la fecha de descuento por pronto pago o antes, la factura se selecciona para su pago y se crea el pago de 98,00. También se puede obtener un descuento por pronto pago por un único pago que creado manualmente.
 

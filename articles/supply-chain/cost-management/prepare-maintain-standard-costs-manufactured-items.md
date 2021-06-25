@@ -16,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6944782ac236a3f414b1cadfb12b0f0d8c1115b9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2a82b0a205ac6b7a86b9aca0771303469c6666c1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821522"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187755"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Preparar el mantenimiento de los costes estándar de artículos fabricados
 
@@ -63,8 +63,7 @@ Las directivas que se asignan a los artículos fabricados pueden afectar a los c
 
 Si desea utilizar la información de enrutamiento para la gestión de costes necesitará pasos preparativos adicionales. Por ejemplo, las categorías de coste asignadas a las operaciones de enrutamiento deben ser correctas y estar completas.
 
-<a name="related-topics"></a>Temas relacionados
---------
+## <a name="related-topics"></a>Temas relacionados
 
 [Amortizar los costes constantes para un artículo fabricado](amortize-constant-costs-manufactured-item.md)
 

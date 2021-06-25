@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 797c5ee7a731ace8134d016272700aa9d718cf75
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 413b4c96f5ee4a3a698847ce6329773a65a712ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909189"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188326"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
@@ -53,8 +53,7 @@ Una vez que se ha procesado la recepción de producto en el pedido de compra, el
 
 Puede tener acceso a esta página desde el grupo de acción **Recibo** de la página **Pedido de compra**. La información en los diarios incluye detalles acerca de las cantidades, las fechas y las dimensiones.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los pedidos de compra](purchase-order-overview.md)
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: e6a391b10ddaef79e68f47afae7d77135a1c333a
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980907"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184134"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Características quitadas u obsoletas de Dynamics 365 Finance
 
@@ -65,7 +65,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **¿Reemplazado por otra característica?**   | Sí |
 | **Áreas de producto afectadas**         | Dynamics 365 Finance, Supply Chain Management y productos de Project Operations|
 | **Opción de implementación**              | Todos |
-| **Estado**                         | En desuso: para el 1 de abril de 2022, planeamos dejar de ofrecer soporte al repositorio de Microsoft Dynamics Lifecycle Services (LCS) como opción de almacenamiento para configuraciones de informes electrónicos (ER). Las nuevas configuraciones de Microsoft ER se publicarán para su descarga exclusivamente desde el repositorio global. Se puede acceder al repositorio global desde los productos Dynamics 365 y RCS. Para obtener más información, consulte [Importar configuraciones de ER desde RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **Estado**                         | En desuso: para el 1 de abril de 2022, planeamos dejar de ofrecer soporte al repositorio de Microsoft Dynamics Lifecycle Services (LCS) como opción de almacenamiento para configuraciones de informes electrónicos (ER). Las nuevas configuraciones de Microsoft ER se publicarán para su descarga exclusivamente desde el repositorio global. Se puede acceder al repositorio global desde los productos Dynamics 365 y RCS. Para más información, consulte [Importar configuraciones de ER desde RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) y [Regulatory Configuration Service: desactivación del almacenamiento de Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Características quitadas o en desuso en la versión Finance 10.0.16
 

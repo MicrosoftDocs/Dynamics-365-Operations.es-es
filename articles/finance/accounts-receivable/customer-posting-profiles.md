@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826380"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193627"
 ---
 # <a name="customer-posting-profiles"></a>Perfiles de contabilización del cliente
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826380"
 
 Los perfiles de contabilización del cliente controlan el registro de transacciones del cliente en la contabilidad general.
 
-<a name="customer-posting-profiles"></a>Perfiles de contabilización del cliente
--------------------------
+## <a name="customer-posting-profiles"></a>Perfiles de contabilización del cliente
 
 Los perfiles de registro de cliente le permiten asignar cuentas de contabilidad general y configuración de documentos a todos los clientes, un grupo de clientes o un único cliente. Esta configuración se usará al crear pedidos de venta, facturas de servicios, pagos en efectivo, cartas de cobro y notas de interés. Para algunas transacciones, cuando seleccione un perfil de registro diferente de los perfiles de registro configurados para las transacciones de esta página y que tenga precedencia sobre los mismos. 
 
@@ -118,7 +117,6 @@ Si desea que todas las transacciones de clientes tengan el mismo perfil de conta
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**Restricciones de tablas**
 

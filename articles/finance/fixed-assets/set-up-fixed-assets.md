@@ -1,8 +1,8 @@
 ---
 title: Configurar Activos fijos
 description: Este tema proporciona información general de la configuración del módulo de Activos fijos.
-author: ShylaThompson
-ms.date: 01/12/2018
+author: moaamer
+ms.date: 06/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff025984307f979ce98947f2225971041ebbdbae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f624ddc2e7b8f59a2ba002d757ce68ee222a7223
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818545"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216595"
 ---
 # <a name="set-up-fixed-assets"></a>Configurar Activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información general de la configuración del módulo de **Activos fijos**.
+Este tema proporciona información general de la configuración del módulo de **Activos fijos**. 
 
-## <a name="overview"></a>Información general
-
-Los parámetros controlan el comportamiento general de los Activos fijos.
-
-Los grupos de activos fijos le permiten agrupar los activos y especificar los atributos predeterminados para cada activo que se asigna a un grupo. Los libros se asignan a grupos de activos fijos. Los libros siguen al valor financiero de un activo fijo con el tiempo mediante la configuración de la depreciación que se define en el perfil de depreciación.
+Los parámetros controlan el comportamiento general de los Activos fijos. Los grupos de activos fijos le permiten agrupar los activos y especificar los atributos predeterminados para cada activo que se asigna a un grupo. Los libros se asignan a grupos de activos fijos. Los libros siguen al valor financiero de un activo fijo con el tiempo mediante la configuración de la depreciación que se define en el perfil de depreciación.
 
 Los activos fijos se asignan a un grupo cuando se crean. De forma predeterminada, los libros que se asignan al grupo de activos fijos se asignan después al activo fijo. Los libros que se configuran para registrarse en la contabilidad general se asocian a un perfil de publicación. Las cuentas del libro mayor se definen para cada libro en el perfil de publicación y se usan cuando se publican las transacciones de activos fijos.
 
@@ -49,6 +45,8 @@ Tras configurar los perfiles de depreciación, debe crear los libros necesarios 
 A cada libro se asigna un perfil de depreciación principal. Los libros también tienen un perfil de depreciación alternativo o de conversión, si se puede aplicar este tipo de perfil. Para incluir automáticamente el libro de activos fijos en ejecuciones de depreciación, debe habilitar la opción **Calcular la depreciación**. Si esta opción no está habilitada para un activo, la propuesta de depreciación omite el activo.
 
 También puede configurar los libros derivados. Las transacciones derivadas especificadas se registran con libros derivados como una copia exacta de la transacción principal. Por lo tanto, las transacciones derivadas se configuran normalmente para las adquisiciones y las cancelaciones, no para las transacciones de depreciación. Para obtener más información, consulte [Configurar modelos de valor](tasks/set-up-value-models.md).
+
+Una opción en la página de **Parámetros de activos fijos** le permite activar o desactivar la función de bloqueo. Esta característica se activa en el **área de trabajo Gestión de funciones**.
 
 ## <a name="fixed-asset-posting-profiles"></a>Perfiles de contabilización de activos fijos
 
@@ -73,6 +71,8 @@ El último paso es actualizar los parámetros de activos fijos.
 El campo **Umbral de capitalización** determina los activos que se deprecian. Si se selecciona una línea de compra como activo fijo pero no coincide con el umbral de capitalización especificado, todavía se crea o se actualiza un activo fijo, pero la opción de **Cálculo de la depreciación** se establece en **No**. Por lo tanto, el activo no se depreciará automáticamente como parte de las propuestas de depreciación.
 
 Una opción importante se denomina **Crear importes de ajuste de depreciación automáticamente con la cancelación**. Cuando establece esta opción en **Sí**, la depreciación de activos se ajusta automáticamente en función de los ajustes de depreciación en el momento de la cancelación del activo. Otra opción le permite deducir descuentos de efectivo del importe de la adquisición al adquirir activos fijos mediante una factura de proveedor.
+
+El parámetro **Bloquear libros de activos en un diario de depreciación** le permite bloquear los libros de activos en un diario de depreciación. Cuando se registran las transacciones de depreciación, el sistema verificará que el mismo libro de activos no se haya agregado a más de un diario de depreciación. Si es así, ese libro de activos se bloqueará y se detendrá la publicación. Si una id. de libro de activos está en un diario bloqueado, se desbloqueará automáticamente cuando se complete la publicación del diario original. También puede desbloquear el diario manualmente. 
 
 En la ficha desplegable de **Pedidos de compra**, puede configurar cómo se crean los activos como parte del proceso de compra. La primera opción se denomina **Permitir la adquisición de activos desde Compras**. Si establece esta opción en **Sí**, la adquisición de activos aparece cuando se registra la factura. Si establece esta opción en **No**, aún podrá configurar un activo fijo en un pedido de compra (PO) y en una factura, pero la adquisición no se registrará. El registro se debe realizar como paso independiente del diario de activos fijos. La opción **Crear activo durante la recepción de producto o el registro de facturas** le permite crear un nuevo activo "sobre la marcha" durante el registro. Por lo tanto, el activo no tiene que configurarse como un activo fijo antes de la transacción. La última opción, **Comprobar la creación de activos fijos durante la entrada de línea**, solo se aplica a las solicitudes de compra.
 

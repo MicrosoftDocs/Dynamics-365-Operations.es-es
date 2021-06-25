@@ -2,7 +2,7 @@
 title: Habilitar varios modos de recogida de la entrega para pedidos de clientes
 description: Este tema explica la funcionalidad de Microsoft Dynamics 365 Commerce que le permite crear pedidos de clientes para recoger en una tienda.
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020660"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216776"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Habilitar varios modos de recogida de la entrega para pedidos de clientes
 
@@ -38,7 +38,7 @@ Después de activar la características **Compatibilidad para múltiples modos d
 
 Los campos **Modo de realización de la entrega** y **Modo electrónico de entrega** y la opción **Mostrar solo opciones con transportista para pedidos de envío**, se han reubicado en esta ficha desplegable.
 
-Antes de configurara modos de recogida de la entrega adicionales, debe definir los modos de entrega. En la página **Modos de entrega** en la sede central de Comercio, agregue los modos de entrega que deben considerarse modos de recogida de la entrega. Asegúrese de que toda la configuración esté completada. Por ejemplo, asegúrese de que el modo de entrega esté vinculado a los canales y artículos adecuados. Cuando haya terminado, ejecute el trabajo **Procesar modos de entrega** para crear las relaciones entre el modo de entrega, los canales y los artículos. Cuando el trabajo haya terminado de ejecutarse, abra la página **Programa de distribución** en la sede central de Commerce y ejecute el trabajo de distribución **1120** para garantizar que las bases de datos relevantes del canal de Commerce se actualicen con su nueva configuración de modo de entrega.
+Antes de configurara modos de recogida de la entrega adicionales, debe definir los modos de entrega. En la página **Modos de entrega** en la sede central de Comercio, agregue los modos de entrega que deben considerarse modos de recogida de la entrega. Asegúrese de que toda la configuración esté completada. Por ejemplo, si ofrece la recogida en un punto de entrega como una opción de entrega para sus compradores en línea en determinadas tiendas, debe crear un nuevo modo de entrega para este fin. Puede crear este modo de entrega utilizando "recogida en punto de entrega" como descripción. Luego, asegúrese de que el modo de entrega de "recogida en punto de entrega" se asigne a todos los canales de Commerce que pueden ofrecerlo, incluidas las tiendas en línea que pueden ofrecer esta opción y los canales de la tienda individual que ofrecerán este método de entrega. Los modos de entrega también deben estar vinculados a los productos. En este ejemplo, si hay ciertos productos que no se pueden entregar con la "recogida en punto de entrega", debe asegurarse de que esos artículos estén excluidos. Cuando haya terminado de añadir los nuevos modos de entrega, ejecute el trabajo **Procesar modos de entrega** para crear las relaciones entre el modo de entrega, los canales y los artículos. Cuando haya terminado el trabajo, abra la página **Programa de distribución** en la sede central de Commerce y ejecute el trabajo de distribución **1120** para garantizar que las bases de datos relevantes del canal de Commerce se actualicen con su nueva configuración de modo de entrega.
 
 ![Ejemplo de configuración de modo de entrega para recogida en un punto de entrega](media/pickupmodes.png)
 

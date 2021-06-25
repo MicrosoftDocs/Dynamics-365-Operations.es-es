@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112630"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193575"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas o en desuso de versiones anteriores
 
@@ -92,7 +92,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Localización italiana |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | Desusado: El 1 de octubre de 2020, planificamos dejar de admitir el **Informe de la lista negra (TI) - Referencia de funcionalidad IT-00001**. |
+| **Estado**                         | En desuso: El 1 de octubre de 2020 planificamos no admitir más este informe. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Informe de impuestos nacional – Referencia de funcionalidad IT-00003
 
@@ -365,6 +365,16 @@ Característica para crear plantillas para nuevos registros de impuestos sobre g
 | **Opción de implementación**              | Todos |
 | **Estado**                         | Eliminado desde Finance and Operations 8.1 con Platform update 20. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Nómina y recursos humanos para Rusia
+Módulo específico del país ruso para administrar la información de administración del personal, detalles de la hoja de horas para los empleados, contabilidad de nómina y creación de extractos de pago. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | La nómina no está incluida en el enfoque estratégico global de la cartera de Dynamics 365. Los socios y los ISV están mejor posicionados para proporcionar una funcionalidad de nómina que cumpla con las regulaciones locales y las actualizaciones de impuestos.|
+| **¿Reemplazado por otra característica?**   | N.º|
+| **Áreas de producto afectadas**         | Gestión de recursos humanos y nómina rusa |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es una de las próximas actualizaciones de la versión 10.0. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 con Platform update 15
 No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión. La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.

@@ -2,7 +2,7 @@
 title: Cálculo de impuestos (versión preliminar)
 description: Este tema explica el alcance general y las características de la funcionalidad de cálculo de impuestos.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b26472e195d9bdbba340a118c106de1a4dc79b34
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9daa6e001200d03a2639974fb6de618d77ddf09d
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021941"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184110"
 ---
 # <a name="tax-calculation-preview"></a>Cálculo de impuestos (versión preliminar)
 
@@ -31,6 +31,9 @@ ms.locfileid: "6021941"
 El cálculo de impuestos es un servicio multiinquilino hiperescalable que permite que Global Tax Engine automatice y simplifique el proceso de determinación y cálculo de impuestos. El motor de impuestos es completamente configurable. Los elementos que se pueden configurar incluyen, entre otros, el modelo de datos imponibles, el código impositivo, la matriz de aplicabilidad impositiva y la fórmula de cálculo de impuestos. El motor de impuestos se ejecuta en la plataforma de servicios centrales de Microsoft Azure y ofrece tecnología moderna y escalabilidad exponencial.
 
 El cálculo de impuestos se integra con Dynamics 365 Finance y Dynamics 365 Supply Chain Management. Posteriormente, también se integrará con Dynamics 365 Project Operations, Dynamics 365 Commerce y otras aplicaciones propias y de terceros.
+
+> [!IMPORTANT]
+> Cuando habilita el servicio de cálculo de impuestos, es posible que algunas operaciones con datos relacionados se realicen en un centro de datos que no sea el centro de datos que mantiene los datos del servicio. Revise los [Términos y condiciones](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) antes de habilitar el servicio de cálculo de impuestos. Su privacidad es importante para nosotros. Para obtener más información, lea nuestra [Declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 El cálculo de impuestos es un motor de impuestos basado en microservicio que ofrece una escalabilidad exponencial. Puede ayudarle a llevar a cabo las siguientes tareas:
 

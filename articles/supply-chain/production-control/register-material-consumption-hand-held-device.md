@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814545"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189651"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrar el material de consumo mediante un dispositivo móvil
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814545"
 
 Este tema describe un flujo de trabajo que habilita el registro de consumo de materias primas en la producción mediante un dispositivo de mano.
 
-<a name="introduction"></a>Introducción
-------------
+## <a name="introduction"></a>Introducción
 
 Este flujo de trabajo es relevante si hay un requisito estricto para la trazabilidad del material. En tales casos, para mantener la trazabilidad de los materiales, la hora y la cantidad exactas se deben notificar para el consumo. Este proceso se puede ver en comparación con operaciones de autoconsumo o flujo invertido, donde hay una demora entre la hora de registro y la hora en la que tiene lugar el consumo real. Esto explica por qué una estrategia de consumo automático no se puede usar para algunos materiales con requisitos de la trazabilidad. Miremos una situación de ejemplo sencilla que explica cómo configurar un flujo de trabajo para habilitar el registro de consumo de materias primas en la producción mediante un dispositivo de mano. [![configurar un flujo de trabajo para habilitar el registro de consumo de materias primas mediante un dispositivo de mano](./media/scenario3.png)](./media/scenario3.png)
 

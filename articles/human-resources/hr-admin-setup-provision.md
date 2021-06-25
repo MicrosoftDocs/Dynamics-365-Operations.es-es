@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053668"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193733"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -56,7 +56,7 @@ Para usar LCS para administrar sus entornos de Human Resources, primero debe cre
 1. Inicie sesión en [LCS](https://lcs.dynamics.com/Logon/Index) mediante la cuenta que ha utilizado para suscribirse a Human Resources.
 
    > [!NOTE]
-   > Para garantizar un aprovisionamiento exitoso, la cuenta que utiliza para aprovisionar el entorno de Recursos Humanos debe asignarse al rol de **Administrador de sistema** o **Personalizador del sistema** en el entorno de Power Apps asociado al entorno de Recursos Humanos. Vea [Configurar la seguridad del usuario para los recursos](https://docs.microsoft.com/power-platform/admin/database-security) para obtener más información sobre la asignación de roles de seguridad a los usuarios en Power Platform.
+   > Para garantizar un aprovisionamiento exitoso, la cuenta que utiliza para aprovisionar el entorno de Recursos Humanos debe asignarse al rol de **Administrador de sistema** o **Personalizador del sistema** en el entorno de Power Apps asociado al entorno de Recursos Humanos. Vea [Configurar la seguridad del usuario para los recursos](/power-platform/admin/database-security) para obtener más información sobre la asignación de roles de seguridad a los usuarios en Power Platform.
 
 2. Seleccione el signo más (**+**) para crear un proyecto.
 

@@ -2,30 +2,25 @@
 title: Planificación de producción
 description: Este tema describe la planificación de la producción y explica cómo modificar los pedidos de producción planificados mediante Optimización de planificación.
 author: ChristianRytt
-ms.date: 12/15/2020
+ms.date: 06/01/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ffee79f152141297ceb24e2d7a40523eac18ffaf
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839232"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129762"
 ---
 # <a name="production-planning"></a>Planificación de producción
 
-Optimización de planificación admite varios escenarios de producción. Si está migrando desde el motor de planificación maestro integrado existente, es importante que esté al tanto de algunos cambios de comportamiento.
+Optimización de planificación admite varios escenarios de producción. Si está migrando desde el motor de planificación maestro integrado existente, es importante estar al tanto de algunos cambios de comportamiento.
 
 El siguiente video ofrece una breve introducción a algunos de los conceptos discutidos en este tema: [Dynamics 365 Supply Chain Management: mejoras en la optimización de la planificación](https://youtu.be/u1pcmZuZBTw).
 
@@ -79,11 +74,44 @@ Puede usar la página **Expansión** para analizar la demanda necesaria para un 
 
 ## <a name="filters"></a><a name="filters"></a>Filtros
 
-Para escenarios de planificación que incluyen producción, le recomendamos que evite las ejecuciones de planificación maestra filtradas. Para asegurarse de que la Optimización de planificación tenga la información necesaria para calcular el resultado correcto, debe incluir todos los productos que tengan alguna relación con los productos en toda la estructura de la lista de materiales del pedido planificado.
+Para asegurarse de que la Optimización de planificación tenga la información necesaria para calcular el resultado correcto, debe incluir todos los productos que tengan alguna relación con los productos en toda la estructura de la lista de materiales del pedido planificado. Para escenarios de planificación que incluyen producción, le recomendamos que evite las ejecuciones de planificación maestra filtradas.
 
-Aunque los elementos secundarios dependientes se detectan e incluyen automáticamente en las ejecuciones de planificación maestra cuando se utiliza el motor de planificación maestra incorporado, la optimización de planificación no realiza esta acción.
+Aunque los elementos secundarios dependientes se detectan e incluyen automáticamente en las ejecuciones de planificación maestra cuando se utiliza el motor de planificación maestra incorporado, actualmente la optimización de planificación no realiza esta acción.
 
-Por ejemplo, si un solo perno de la estructura de la lista de materiales del producto A también se utiliza para producir el producto B, todos los productos de la estructura de la lista de materiales de los productos A y B deben incluirse en el filtro. Debido a que puede ser muy complejo garantizar que todos los productos formen parte del filtro, le recomendamos que evite las ejecuciones de planificación maestra filtradas cuando se trata de pedidos de producción.
+Por ejemplo, si un solo perno de la estructura de la lista de materiales del producto A también se utiliza para producir el producto B, todos los productos de la estructura de la lista de materiales de los productos A y B deben incluirse en el filtro. Debido a que puede resultar complejo garantizar que todos los productos formen parte del filtro, le recomendamos que evite las ejecuciones de planificación maestra filtradas cuando se trata de pedidos de producción. De lo contrario, la planificación maestra proporcionará resultados no deseados.
 
+### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Razones para evitar ejecuciones de planificación maestra filtradas
+
+Cuando ejecuta una planificación maestra filtrada para un producto, la optimización de la planificación (a diferencia del motor de planificación maestra incorporado) no detecta todos los subproductos y las materias primas en la estructura de la lista de materiales de ese producto y, por lo tanto, no los incluye en la ejecución de planificación maestra. Aunque la optimización de planificación identifica el primer nivel en la estructura de la lista de materiales del producto, no carga ninguna configuración del producto (como el tipo de pedido predeterminado o la cobertura del artículo) de la base de datos.
+
+En la optimización de la planificación, los datos de la ejecución se cargan de antemano y se aplican los filtros. Esto significa que si un subproducto o materia prima incluida en un producto específico no forma parte del filtro, la información sobre él no se extraerá para la ejecución. Además, si el subproducto o la materia prima también se incluye en otro producto, una ejecución filtrada que incluya solo el producto original y sus componentes eliminaría la demanda planificada existente que se creó para ese otro producto.
+
+Esta lógica puede hacer que las ejecuciones de planificación maestra filtradas produzcan resultados inesperados. Las siguientes secciones proporcionan ejemplos que ilustran los resultados inesperados que podrían ocurrir.
+
+### <a name="example-1"></a>Ejemplo 1
+
+Bien terminado *FG* consta de los siguientes componentes:
+
+- Materia prima *R*
+- Subproducto *S1*, que consta de subproducto *S2*
+
+Hay inventario disponible para la materia prima *R*, mientras que el subproducto *S1* no está presente en el inventario.
+
+Cuando realiza una ejecución de planificación maestra filtrada para productos terminados *FG*, obtendrá un pedido de producción planificado para el bien terminado *FG*, un pedido de compra planificado para la materia prima *R* y un pedido de compra planificado para el subproducto *S1*. Este es un resultado indeseable porque la optimización de la planificación ha ignorado el suministro existente de materia prima *R* y el subproducto *S1* necesita ser producido usando *S2* en lugar de ser pedido directamente. Esto sucedió porque la optimización de planificación solo tiene la lista de componentes para el bien terminado *FG* sin ninguna información relacionada, como el suministro existente de sus componentes o su configuración de pedido predeterminada.
+
+### <a name="example-2"></a>Ejemplo 2
+
+Sobre la base del ejemplo anterior, un bien terminado adicional, *FG2* también usa un subproducto *S1*. Existe un pedido planificado para el bien terminado *FG2* y existe demanda planificada para todos sus componentes, incluyendo *S1*.
+
+Decide superar los resultados no deseados de la ejecución de planificación maestra filtrada del ejemplo anterior agregando todos los subproductos y materias primas de la estructura de la lista de materiales del bien terminado *FG* al filtro y luego ejecutando la regeneración completa.
+
+Cuando ejecuta la regeneración completa, el sistema elimina todos los resultados existentes para todos los productos incluidos y luego vuelve a crear los resultados en función de los nuevos cálculos. Esto significa que la demanda planificada existente de producto *S1* se elimina y luego se vuelve a crear teniendo en cuenta solamente los requisitos del bien terminado *FG*, mientras que se ignoran los requisitos del bien terminado *FG2*. Esto sucede porque cuando ejecuta la optimización de planificación, no incluye la demanda planificada de otros pedidos de producción planificados &mdash; solo se utiliza la demanda planificada generada durante la ejecución.
+
+> [!NOTE]
+> Si el pedido previsional existente para el bien terminado *FG2* está en estado *Aprobado*, entonces se incluirá la demanda planificada aprobada, incluso cuando el producto principal no se haya agregado al filtro.
+
+Por lo tanto, a menos que agregue todos los componentes del bien terminado *FG*, el bien terminado *FG2* y todos los demás productos de los que forman parte estos componentes (junto con sus componentes), la ejecución de planificación maestra filtrada proporcionará resultados no deseados.
+
+Debido a que puede resultar complejo garantizar que todos los productos formen parte del filtro, le recomendamos que evite las ejecuciones de planificación maestra filtradas cuando se trata de pedidos de producción.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

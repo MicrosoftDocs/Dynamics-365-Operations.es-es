@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f97dc4627f9bb3a0ac2020b966de7e58aafcedc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7f16a666cef5625fb159265ddc7237ad0eb45927
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833674"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187659"
 ---
 # <a name="maintain-planned-orders"></a>Mantener pedidos planificados
 
@@ -58,8 +58,7 @@ Si tiene previsto consolidar muchos pedidos al mismo tiempo, una ejecución en p
 > [!NOTE]
 > La opción para **Paralelizar la puesta en firme** solo se muestra cuando se selecciona más de un pedido planificado para la puesta en firme.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los planes maestros](master-plans.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ce0a12aff70da1ec556b69198aa5210519b6af2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 841b4b4bb3c2f98ac65491a21bb991945c9f4bc9
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834749"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193938"
 ---
 # <a name="import-letter-of-credit"></a>Importar créditos documentarios
 
@@ -128,7 +128,8 @@ Este procedimiento usa la empresa de demostración USMF.
 12. Cierre la página.
 13. Cierre la página.
 
-## <a name="verify-import-letter-of-credit-status"></a>Compruebe el estado de la carta de crédito de importación.
+## <a name="verify-import-letter-of-credit-status-and-printing"></a>Compruebe el estado de la carta de crédito de importación e impresión
+
 1. Vaya a Gestión de efectivo y bancos > Carta de crédito > Importar carta de crédito e importar cobro.
 2. En la lista, busque y seleccione el registro deseado.
 3. En la lista, haga clic en el vínculo de la fila seleccionada.

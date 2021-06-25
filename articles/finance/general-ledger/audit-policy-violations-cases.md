@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4c7b9426cc98f62cd7a62b841c0f90c7c57889d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82d94be7a0ce915b0a2b86fb3894435afdd6f37a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821970"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187853"
 ---
 # <a name="audit-policy-violations-and-cases"></a>Infracciones y casos de directivas de auditoría
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821970"
 
 El artículo explica cómo se generan los casos de auditoría a partir de infracciones de reglas de directivas de auditoría. También incluye información acerca de las distintas maneras en que las directivas de auditoría usan el intervalo de fechas de selección de documentos.
 
-<a name="how-audit-cases-are-generated"></a>Cómo se crean casos de auditoría
------------------------------
+## <a name="how-audit-cases-are-generated"></a>Cómo se crean casos de auditoría
 
 Las directivas de auditoría se usan para identificar los informes de gastos, los pedidos de compra y las facturas de proveedor que no cumplen con las reglas empresariales que defina y configure como reglas de directivas de auditoría. 
 

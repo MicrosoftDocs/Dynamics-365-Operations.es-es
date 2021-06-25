@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 246a79f6f1578e81510d4a57ee12f0e0497bff84
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796447"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193188"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Configurar cumplimiento de pedido para almacenes
 
@@ -33,9 +33,9 @@ La operación de cumplimiento en el punto de venta ofrece una sola área de trab
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>Configuración de la operación de cumplimiento de pedido
 
-El cumplimiento de pedido, [Operación ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), puede usarse para tener acceso al área de trabajo de cumplimiento de pedido del almacén en el punto de venta.
+El cumplimiento de pedido, [Operación ID 928](pos-operations.md), puede usarse para tener acceso al área de trabajo de cumplimiento de pedido del almacén en el punto de venta.
 
-Siga los pasos de [Agregar la operación a una cuadrícula de botones](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) para especificar que parámetro usar cuando invoque el cumplimiento de pedido en el punto de venta. De forma predeterminada, después de especificar las operaciones de cumplimiento, se selecciona **Todos los pedidos**. Cuando está configurado con este parámetro, la operación mostrará todas las líneas de pedido para cumplimiento en el almacén actual. También está disponible **Pedidos para enviar**, que se puede asignar a un botón y utilizar cuando el usuario solo desea consultar los pedidos que se enviarán fuera del almacén. Finalmente, hay **Pedidos para recogida**. Cuando está invocada en el punto de venta, esto solo muestra los pedidos para recoger en el almacén. Los distintos parámetros se pueden asignar a distintos botones para otorgar al usuario varias maneras para ver el cumplimiento de pedido.
+Siga los pasos de [Agregar la operación a una cuadrícula de botones](pos-screen-layouts.md) para especificar que parámetro usar cuando invoque el cumplimiento de pedido en el punto de venta. De forma predeterminada, después de especificar las operaciones de cumplimiento, se selecciona **Todos los pedidos**. Cuando está configurado con este parámetro, la operación mostrará todas las líneas de pedido para cumplimiento en el almacén actual. También está disponible **Pedidos para enviar**, que se puede asignar a un botón y utilizar cuando el usuario solo desea consultar los pedidos que se enviarán fuera del almacén. Finalmente, hay **Pedidos para recogida**. Cuando está invocada en el punto de venta, esto solo muestra los pedidos para recoger en el almacén. Los distintos parámetros se pueden asignar a distintos botones para otorgar al usuario varias maneras para ver el cumplimiento de pedido.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Habilitar usuarios para acceder al cumplimiento de pedido en el punto de venta
 
@@ -104,9 +104,9 @@ De forma predeterminada, los pedidos tendrán estado **Aceptado**. El estado del
 
 - **Editar** - Si el estado del pedido es pendiente, se puede editar en el punto de venta. Los pedidos que ya se han seleccionado, se han empaquetado, o se han facturado parcialmente no se pueden editar desde la vista de cumplimiento de pedido.
 - **Aceptar** - Si la **Aceptación manual** está configurada en el nivel de canal, las líneas primero se deben aceptar antes de que se puedan desplazar en el proceso de cumplimiento de pedido.
-- **Selección** - La opción de selección admite varias acciones. En primer lugar, **Seleccionado** actualiza el estado de la línea de pedido para que otros en el almacén no intenten seleccionar la misma línea. A continuación, **Imprimir lista de selección** imprime una lista de selección para la línea seleccionada o las líneas y también actualiza el estado a **Seleccionado**. Los formatos de la lista de selección se controlan como parte de formatos de recibo. Para obtener más información sobre cómo configurar formatos de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing). Finalmente, **Marcar como seleccionado** indica que se ha seleccionado la línea. **Marcar comos seleccionado** inicia transacciones de inventario correspondiente en back-office. Las acciones de selección se pueden realizar al mismo tiempo para varias líneas de pedido a través de pedidos y para todos los modos de entrega.
+- **Selección** - La opción de selección admite varias acciones. En primer lugar, **Seleccionado** actualiza el estado de la línea de pedido para que otros en el almacén no intenten seleccionar la misma línea. A continuación, **Imprimir lista de selección** imprime una lista de selección para la línea seleccionada o las líneas y también actualiza el estado a **Seleccionado**. Los formatos de la lista de selección se controlan como parte de formatos de recibo. Para obtener más información sobre cómo configurar formatos de recibo, consulte [Plantillas e impresión de recibos](receipt-templates-printing.md). Finalmente, **Marcar como seleccionado** indica que se ha seleccionado la línea. **Marcar comos seleccionado** inicia transacciones de inventario correspondiente en back-office. Las acciones de selección se pueden realizar al mismo tiempo para varias líneas de pedido a través de pedidos y para todos los modos de entrega.
 - **Rechazar** - Las líneas o las líneas parciales se pueden rechazar. Esto permite que se reasignen desde back-office a otro almacén. Las líneas solo se pueden rechazar si aún no se han seleccionado ni empaquetado. Para rechazar una línea que ya se ha seleccionado o se ha empaquetado, dicha línea se debe quitar o desempaquetar desde back-office.
-- **Empaquetar** - La opción de embalaje admite dos acciones: **Imprimir albarán** imprimirá un albarán para las líneas seleccionadas y **Marcar como empaquetado** marcará las líneas como empaquetadas y marcará las líneas como entregadas en back-office. Sólo las líneas de pedido que pertenecen al mismo pedido y tienen el mismo modo de entrega se pueden empaquetar al mismo tiempo. Los formatos de albarán se controlan como parte de formatos de recibo. Para obtener más información sobre cómo configurar formatos de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+- **Empaquetar** - La opción de embalaje admite dos acciones: **Imprimir albarán** imprimirá un albarán para las líneas seleccionadas y **Marcar como empaquetado** marcará las líneas como empaquetadas y marcará las líneas como entregadas en back-office. Sólo las líneas de pedido que pertenecen al mismo pedido y tienen el mismo modo de entrega se pueden empaquetar al mismo tiempo. Los formatos de albarán se controlan como parte de formatos de recibo. Para obtener más información sobre cómo configurar formatos de recibo, consulte [Plantillas e impresión de recibos](receipt-templates-printing.md).
 - **Envíar** - La acción de envío marca las líneas seleccionadas como **Entregado** en back-office. Después de que la línea se haya enviado completamente, no aparecerá en la vista de cumplimiento de pedidos.
 - **Recogida** - La acción de recogida agregar líneas a la vista de la transacción para la recogida. Si hay otras líneas en el pedido que no se están actualmente siendo recogidas, se agregarán a la vista de la transacción con la cantidad cero. Después de que la línea se haya recogido completamente, no aparecerá en la vista de cumplimiento de pedido.
 

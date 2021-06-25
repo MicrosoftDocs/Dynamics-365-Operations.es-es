@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2dddc22128621dc148a253cd568430587f294544
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822912"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188006"
 ---
 # <a name="overhead-calculation"></a>Cálculo de costes generales
 
@@ -29,8 +29,7 @@ ms.locfileid: "5822912"
 
 Este tema describe los procesos típicos para calcular y asignar costes generales.
 
-<a name="term-definition"></a>Definición del término
----------------
+## <a name="term-definition"></a>Definición del término
 
 Los costes generales son costes que se contraen para dirigir un negocio, pero que no pueden ser atribuidos directamente a ninguna actividad empresarial, productos, o servicio específicos. Los costes generales proporcionan un soporte fundamental a la generación de actividades rentables. Algunos ejemplos de costes generales son:
 

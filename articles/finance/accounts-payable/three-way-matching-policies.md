@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 87ab65469ec4a8154267b88fe45481b65ade5e7a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027803"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189187"
 ---
 # <a name="three-way-matching-policies"></a>Directivas de triple conciliación
 
@@ -28,8 +28,7 @@ ms.locfileid: "6027803"
 
 Este tema proporciona ejemplos de triple conciliación.
 
-<a name="example-three-way-matching-for-items"></a>Ejemplo: Triple conciliación para artículos
--------------------------------------
+## <a name="example-three-way-matching-for-items"></a>Ejemplo: Triple conciliación para artículos
 
 **Resumen**: Ken es controlador en las sedes corporativas de una entidad jurídica llamada Fabrikam. Ken decide que todas las facturas de proveedor basadas en pedidos de compra deben coincidir con las líneas de pedido de compra (doble conciliación). Para las compras de los artículos que se usarán como activos fijos, las facturas se deben coincidir con las líneas de pedido de compra y las líneas de recepción de producto (triple conciliación).
 

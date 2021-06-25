@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67098f6008086788ef8814f45fd0dd5add990460
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42137b9eb24e14518244d87e72e9ea1295be4485
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813708"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188967"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>Autorizar previsión de la demanda ajustada
 
@@ -39,8 +39,7 @@ Puede seleccionar las empresas y los modelos de previsión para autorizar la pro
 
 Es muy importante que entienda cómo funciona la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de la línea base**. Si ha realizado ajustes manuales a la previsión estadística de línea base, los valores ajustados están autorizados para su uso, incluso si esta casilla está desactivada. Sin embargo, los cambios se descartan después de la autorización. Por lo tanto, la próxima vez que se genera una previsión, esa previsión solo es una previsión estadística y no tiene invalidación manual, incluso si selecciona **Transferir ajustes manuales a la previsión de la demanda**. Por lo tanto, puede considerar la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de la línea base** un mecanismo que le permite conservar o descartar todos los cambios manuales.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Realización de ajustes manuales en la previsión de línea base](manual-adjustments-baseline-forecast.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897293"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187803"
 ---
 # <a name="view-financial-reports"></a>Ver informes financieros
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897293"
 
 En este tema se describe cómo ver y explorar informes financieros. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen.
 
-<a name="financial-reporting-overview"></a>Visión general de informes financieros
-----------------------------
+## <a name="financial-reporting-overview"></a>Visión general de informes financieros
 
 ## <a name="open-a-financial-report"></a>Abrir un informe financiero
 Para abrir un informe, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2015, el informe se genera para el 31 de julio de 2015. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
@@ -76,8 +75,7 @@ Una vez que haya terminado de establecer las opciones de impresión, haga clic e
 ## <a name="export-a-financial-report"></a>Exportar un informe financiero
 Para exportar un informe financiero, en el Panel de acciones, haga clic en **Exportar**. El informe se exporta a Microsoft Excel y el explorador le pregunta si desea abrir o guardar el archivo exportado. La configuración de exportación que se define en el diseño del informe se aplica al informe exportado.    
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

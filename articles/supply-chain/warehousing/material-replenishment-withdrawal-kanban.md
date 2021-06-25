@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831251"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189953"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimiento con kanbans de transporte
 
@@ -30,7 +30,6 @@ ms.locfileid: "5831251"
 Este tema describe cómo el kanban de transporte se usa para el reabastecimiento para las actividades de fabricación.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>El flujo de trabajo para reabastecimiento de material que utiliza el kanban de transporte
--------------------------------------------------------------------
 
 El kanban de transporte se puede utilizar para mover un kanban de un único artículo entre los almacenes y las ubicaciones de producción donde se consume el material. El kanban de transporte admite una solución basada en extracción para el reabastecimiento de material, donde se requiere una señal de extracción para activar un suministro para una demanda específica. 
 

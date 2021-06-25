@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dc4dc556cbb8bd461e904ef569016acd4276f7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c394219bbb58bea187d352c8817ed4c3e2eb883c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814257"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189454"
 ---
 # <a name="collections-in-accounts-receivable"></a>Cobros en Clientes
 
@@ -99,8 +99,7 @@ La transacción de cancelación se crea en la divisa de la transacción.
 
 Para obtener más información, consulte [Crear un diario de cancelación para un cliente](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Procesamiento de pagos de fondos insuficientes (NSF) 
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a>Procesamiento de pagos de fondos insuficientes (NSF) 
 
 Puede procesar pagos NSF haciendo clic en Pago NSF en la página Cobros. Al hacer clic en este botón, se cancela el pago. Si se aplica una cuota NSF para el cliente, se creará una transacción de cargos en un diario de pagos. El importe de la cuota se basa en la configuración de los cargos automáticos. Los cargos automáticos que se aplican para los pagos NSF se especifican en función del grupo de cargos seleccionado en la página Cuentas bancarias de la cuenta bancaria afectada.
 

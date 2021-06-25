@@ -2,7 +2,7 @@
 title: Requisitos de dimensionamiento de hardware para entornos locales
 description: Este tema muestra los requisitos de dimensionamiento de hardware para un entorno local.
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
+ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923489"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6168738"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamiento de hardware para entornos locales
 
@@ -131,6 +131,8 @@ En la mayoría de los casos, salvo que se utilicen extensivamente, los requisito
 ## <a name="sql-server-reporting-services"></a>SQL Server Reporting Services
 
 Solo puede implementarse un nodo SSRS para la versión de disponibilidad general. Controle su nodo SSRS mientras realiza la prueba y aumente el número de núcleos disponible para SSRS en función de las necesidades. Asegúrese de que tiene un nodo secundario preconfigurado disponible en un host virtual que sea diferente de la MV de SSR. Esto es importante si hay un problema con la máquina virtual que aloja a SSRS o al host virtual. Si este es el caso, tendría que reemplazarse.
+
+A partir de la versión 10.0.17, es posible configurar nodos SSRS adicionales para lograr una alta disponibilidad. Para obtener más información, consulte [Configurar la alta disponibilidad para los nodos de SQL Server Reporting Services (SSRS)](../../dev-itpro/deployment/onprem-ssrsha.md)
 
 ## <a name="environment-orchestrator"></a>Orquestador de entorno
 

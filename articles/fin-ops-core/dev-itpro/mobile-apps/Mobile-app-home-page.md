@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908241"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188419"
 ---
 # <a name="mobile-app-home-page"></a>Página principal de aplicación móvil
 
@@ -27,8 +27,7 @@ ms.locfileid: "5908241"
 
 Este tema describe la aplicación móvil de **Finance and Operations (Dynamics 365)** y ofrece vínculos a los recursos que pueden ayudarle a implementarla en su organización.
 
-<a name="overview"></a>Visión general
---------
+## <a name="overview"></a>Visión general
 
 La aplicación móvil permite a su organización tener los procesos de negocio disponibles en dispositivos móviles. Una vez que el administrador de TI habilita los espacios de trabajo móviles para su organización, los usuarios pueden iniciar sesión en la aplicación e inmediatamente comenzar a trabajar con procesos empresariales en sus dispositivos móviles. La aplicación móvil incluye las siguientes características que pueden ayudarle a aumentar la productividad:
 

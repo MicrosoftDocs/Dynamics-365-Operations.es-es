@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835229"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189478"
 ---
 # <a name="set-up-collections"></a>Configurar cobros
 
@@ -40,8 +40,7 @@ En este artículo se explica cómo configurar la funcionalidad de cobros. Debe c
 
 Estos puntos se tratan con más detalle en el resto de este tema. 
 
-<a name="set-up-aging-period-definitions"></a>Configurar definiciones del período de vencimiento
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Configurar definiciones del período de vencimiento
 
 Configure una definición de período de vencimiento. El período de vencimiento define las columnas que aparecen en las páginas de lista **Saldos vencidos**, **Actividades de cobros** y **Casos de cobros**. También define los períodos que aparecen en la página **Cobros**. Si un grupo de clientes está configurado, se usará la definición del período de vencimiento del grupo. Si no se ha configurado ningún grupo, se usará la definición de período de vencimiento predeterminada especificada en la página **Parámetros de clientes**. Si no se especifica ninguna definición de período de vencimiento predeterminada, se usa la primera definición de período de vencimiento de la página **Definiciones de período de vencimiento**.
 

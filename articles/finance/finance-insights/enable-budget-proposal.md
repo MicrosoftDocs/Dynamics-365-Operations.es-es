@@ -2,7 +2,7 @@
 title: Habilitar propuestas de presupuesto (versión preliminar)
 description: Este tema explica cómo activar la función de propuesta de presupuesto en Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e90a1a2f2a8e7808f03ce9a6ee58c027bd48d8d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 948a3e051e5964c5c773cefd90c8587cf833a450
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818713"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222543"
 ---
 # <a name="enable-budget-proposals-preview"></a>Habilitar propuestas de presupuesto (versión preliminar)
 
@@ -34,7 +34,7 @@ Este tema explica cómo activar la función de propuesta de presupuesto en Finan
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
 
     > [!NOTE]
-    > Si su implementación de Microsoft Dynamics 365 Finance es una implementación de Service Fabric, puede omitir este paso. El equipo de Finance Insights ya debería haber activado el paquete piloto por usted. Si no ve la característica en el espacio de trabajo **Administración de características**, o si tiene problemas cuando intenta activarla, envíe un correo electrónico al [equipo de Vista previa de la aplicación Finance Insights](mailto:fiap@microsoft.com).
+    > Omita este paso si usa la versión 10.0.20 o posterior, o si usa una implementación de Service Fabric. El equipo de información financiera ya debería haber activado el paquete piloto por usted. Si no ve la característica en el espacio de trabajo **Administración de características**, o si experimenta problemas al intentar activarlas, póngase en contacto con <fiap@microsoft.com>.
 
 2. Abra el espacio de trabajo **Administración de funciones** y siga estos pasos:
 
@@ -42,9 +42,5 @@ Este tema explica cómo activar la función de propuesta de presupuesto en Finan
     2. Busque **Propuesta de presupuesto** y active esa característica.
 
 3. Vaya a **Presupuestación \> Configurar \> Presupuesto básico \> Propuesta de presupuesto (versión preliminar)** y seleccione **Habilitar característica**.
-
-#### <a name="privacy-notice"></a>Aviso de privacidad
-Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

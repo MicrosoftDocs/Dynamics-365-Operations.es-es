@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 962edb3fd0478a8f0281054abc00c35b732620f6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 88665c70b05d9ecf8ec2641862d870d87604092f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796423"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193164"
 ---
 # <a name="store-order-fulfillment"></a>Cumplimiento de pedido de almacén
 
@@ -33,7 +33,7 @@ La operación de cumplimiento en el punto de venta ofrece una sola área de trab
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Acceso al cumplimiento unificado de pedido en el punto de venta
 
-El cumplimiento de pedido, [Operación ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), puede usarse para tener acceso al área de trabajo de cumplimiento de pedido del almacén en el punto de venta.
+El cumplimiento de pedido, [Operación ID 928](pos-operations.md), puede usarse para tener acceso al área de trabajo de cumplimiento de pedido del almacén en el punto de venta.
 
 La operación de cumplimiento de pedido no tiene su propio permiso listo para usar, pero en el futuro, los usuarios podrán utilizar el permiso **Permitir recuperar pedido** para invocar la operación desde el punto de venta.
 
@@ -93,7 +93,7 @@ Una vez aceptado un pedido, las líneas se pueden seleccionar y marcar como **Se
 
 Las listas de selección se pueden imprimir en el punto de venta para ayudar a los trabajadores a realizar el proceso de selección. Una lista de selección impresa se puede llevar con el trabajador que realiza la selección y según se seleccionan los productos, el trabajador las marcaría manualmente como seleccionado en la lista de selección.
 
-El formato de lista de selección se configura en Commerce y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+El formato de lista de selección se configura en Commerce y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](receipt-templates-printing.md).
 
 Si se seleccionan las líneas y se imprime una lista de selección para esas líneas, se actualizan automáticamente con el estado **Seleccionado**.
 
@@ -119,7 +119,7 @@ Las líneas de pedido se pueden empaquetar en cualquier momento después de que 
 - **Estado resultante:** Empaquetado o empaquetado parcialmente
 - **Estado back-office resultante:** Entregado o entregado parcialmente
 
-Esta acción marca las líneas como empaquetadas o empaquetadas parcialmente e imprime un albarán. Un albarán se puede imprimir para validar los productos que se han empaquetado conjuntamente. El formato del albarán se configura en Commerce y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Esta acción marca las líneas como empaquetadas o empaquetadas parcialmente e imprime un albarán. Un albarán se puede imprimir para validar los productos que se han empaquetado conjuntamente. El formato del albarán se configura en Commerce y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](receipt-templates-printing.md).
 
 **Acción: Marcar como empaquetado**
 

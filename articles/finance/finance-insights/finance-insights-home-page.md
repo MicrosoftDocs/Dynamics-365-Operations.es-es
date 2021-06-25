@@ -2,7 +2,7 @@
 title: Página de inicio de información financiera (versión preliminar)
 description: Finance Insights proporciona modelos configurables y extensibles para ayudarle a predecir con precisión e inteligencia el flujo de efectivo de su empresa, predecir cuándo recibirá los pagos pendientes y generar una propuesta de presupuesto que puede acelerar su proceso de presupuestación. Todas estas características se basan en modelos de Machine Learning inteligentes.
 author: ShivamPandey-msft
-ms.date: 07/20/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6086998"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222519"
 ---
 # <a name="finance-insights-home-page-preview"></a>Página de inicio de información financiera (versión preliminar)
 
@@ -68,7 +68,9 @@ Será útil familiarizarse con el proceso de creación y administración de recu
 
 ## <a name="configure-finance-insights"></a>Configurar la información financiera
 
-Debe completar algunos pasos de configuración antes de poder utilizar la información finaciera. Para obtener más información sobre cómo configurar la información financiera, consulte [Configuración de información financiera](configure-for-fin-insites.md).
+Debe completar algunos pasos de configuración antes de poder utilizar la información finaciera. Para obtener más información acerca de Finance insights, consulte:
+  - Para versiones hasta la 10.0.19: [Configuración de Finance insights - hasta la versión 10.0.19](configure-for-fin-insites.md).
+  - Para las versiones 10.0.20 y posteriores: [Configuración de Finance Insights (versión preliminar): versiones 10.0.20 y posteriores](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Crear un proyecto integrador de datos
 
@@ -84,10 +86,7 @@ Si está utilizando datos de demostración para probar las predicciones de pago 
 Para habilitar las predicciones de pago de clientes, debe completar un conjunto de pasos para crear un modelo de Machine Learning que use los datos de su organización para generar predicciones sobre cuándo es probable que los clientes paguen facturas pendientes y cuándo es probable que se paguen facturas específicas. Para obtener más información y los pasos específicos para completarlo, consulte [Habilitar las predicciones de pago de los clientes](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Habilitar previsiones de flujo de efectivo
-Para habilitar la previsión de flujo de efectivo, debe completar un conjunto de pasos para crear un modelo de Machine Learning que utilice los datos de su organización para generar previsiones de flujo de efectivo. Para obtener más información y los pasos específicos para completarlo, consulte [Habilitar las predicciones de flujo de efectivo](enable-cash-flow-forecasting.md) 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>Configurar y utilizar la previsión de flujo de efectivo
-Para obtener más información sobre cómo configurar y usar previsiones de flujo de efectivo, consulte [Habilitar previsiones de flujo de efectivo](enable-cash-flow-forecasting.md). Para obtener más información sobre cómo usar esta capacidad, consulte [Previsiones de flujo de efectivo](cash-flow-forecast-intro.md).
+Para habilitar la previsión de flujo de efectivo, debe completar un conjunto de pasos para crear un modelo de Machine Learning que utilice los datos de su organización para generar previsiones de flujo de efectivo. Para obtener más información y los pasos específicos para completarlo, consulte [Habilitar las predicciones de flujo de efectivo](enable-cash-flow-forecasting.md).
 
 ### <a name="enable-budget-proposals"></a>Habilitar propuestas de presupuesto
 
@@ -111,14 +110,12 @@ La capacidad de pronóstico de flujo de efectivo puede ayudarle a estimar con ma
 
 - Para conocer las nuevas capacidades de los pronósticos de flujo de efectivo, consulte [Pronóstico de flujo de efectivo](cash-flow-forecast-intro.md).
 - Para obtener información sobre la importación de datos externos para incluirlos en su pronóstico de flujo de efectivo aquí, consulte [Utilizar datos externos en las previsiones de flujo de efectivo](external-data-in-cash-flow.md). 
-- Para obtener información sobre cómo utilizar un modelo de IA para proyectar el flujo de efectivo a largo plazo, consulte [información general de previsiones de flujo de efectivo](cash-position.md).
+- Para obtener información sobre cómo utilizar un modelo de IA para proyectar el flujo de efectivo a corto plazo, consulte [Posición de efectivo](cash-position.md).
 - Para obtener información sobre cómo guardar posiciones de flujo de efectivo y pronósticos de flujo de efectivo como instantáneas, y para comparar una instantánea con los datos reales, consulte [Descripción general de instantáneas](payment-snapshots.md).
 
 ### <a name="using-budget-proposal"></a>Uso de propuesta de presupuesto
 
 Para obtener información sobre cómo acelerar la creación de un presupuesto, consulte [Propuestas de presupuesto](budget-proposals.md). 
-
-Datos de demostración para propuesta de presupuesto:
 
 ## <a name="feedback-and-support"></a>Comentarios y soporte técnico
 

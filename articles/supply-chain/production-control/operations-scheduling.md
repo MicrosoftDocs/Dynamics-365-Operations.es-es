@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09a420fcf5bb122b7ffa0c6ef8566efad86db4f6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16b05bfe2a8deec365bdccf56ddbb375e9c4becd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817878"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190025"
 ---
 # <a name="operations-scheduling"></a>Programación de operaciones
 
@@ -74,8 +74,7 @@ Cuando está utilizando la programación de operaciones, puede cancelar partes c
 ## <a name="finite-materials"></a>Materiales finitos
 Si trabaja con materiales finitos, la programación también depende de la disponibilidad de los materiales que se requieren para la producción. Si no hay componentes disponibles suficientes para la producción, se puede retrasar. Puede basar la programación en el uso de materiales mediante la especificación de los materiales que deben estar disponibles para la producción. Cuando optimice tanto la capacidad de recursos y la disponibilidad de materiales, la producción se calcula en función de estas restricciones. Un pedido de producción no se puede programar para que se inicie hasta que la capacidad y los materiales no estén disponibles a la vez y en las cantidades necesarias.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Opciones de programación de las operaciones](operation-scheduling-options.md)
 

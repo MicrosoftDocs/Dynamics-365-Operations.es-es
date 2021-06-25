@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b1ec24c84d2b1a3dc88bf96ae6f52441b58a694
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835277"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188695"
 ---
 # <a name="sepa-direct-debit-overview"></a>Descripción de las domiciliaciones SEPA
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835277"
 
 La Zona única de Pagos en Euros (SEPA) lo establece la Comisión Europea y dicta que todos los pagos electrónicos se consideran como nacionales, independientemente del país o región donde se encuentren el individuo, la empresa o la organización y el banco. No hay diferencia entre los pagos nacionales y transfronterizos. SEPA incluye a los 28 estados miembros de la Unión Europea (UE), además de Islandia, Liechtenstein, Noruega, Suiza, Mónaco y San Marino. SEPA ayuda a formar un mercado único para las transacciones de pago en el Área Económica Europea (AEE). En última instancia, se espera que SEPA reduzca el número de formatos de pago con los que deben trabajar los bancos, las empresas y las personas.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>¿Cuál es el objetivo de las domiciliaciones SEPA?
----------------------------------------
+## <a name="what-is-the-goal-of-sepa-direct-debits"></a>¿Cuál es el objetivo de las domiciliaciones SEPA?
 
 Una domiciliación SEPA permite a un acreedor cobrar fondos de la cuenta bancaria de un cliente, siempre y cuando el cliente haya firmado una orden y que se lo haya entregado al acreedor. El cliente firma una orden que autorice el acreedor a cobrar un pago y da instrucciones al banco del cliente para pagar el cobro. 
 

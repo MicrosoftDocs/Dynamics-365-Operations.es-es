@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839158"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190097"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Tránsito directo desde pedidos de producción a muelles de salida
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839158"
 
 Este tema describe cómo se administra el proceso de material de tránsito directo que se le notifica como terminado desde una línea de producción a un muelle de salida de transporte.
 
-<a name="introduction"></a>Introducción
-------------
+## <a name="introduction"></a>Introducción
 
 El tránsito directo desde la producción a una ubicación de salida es relevante para los fabricantes que generan grandes cantidades y desean enviar en el menor de los casos los productos terminados en cuanto se notifica que están terminados desde las líneas de producción. El objetivo es enviar los productos a los centros de distribución que se ubican físicamente cerca de la demanda de los clientes, en lugar de generar un inventario en el sitio de fabricación.
 

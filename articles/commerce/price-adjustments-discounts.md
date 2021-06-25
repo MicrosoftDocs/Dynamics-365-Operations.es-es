@@ -2,7 +2,7 @@
 title: Ajustes de precios y descuentos
 description: Este artículo proporciona información sobre ajustes de precios y descuentos en Dynamics 365 Commerce.
 author: scott-tucker
-ms.date: 11/16/2020
+ms.date: 06/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2d3e8025c5ab28296713634094694156f9addf62
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44c03ae0a04d648e788a72d8f6dcc3671c5736c7
+ms.sourcegitcommit: 7c9d6be464db058511df9cb6ba162d21dc0554e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802800"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6240951"
 ---
 # <a name="price-adjustments-and-discounts"></a>Ajustes de precios y descuentos
 
@@ -48,6 +48,13 @@ Hay muchos tipos de descuentos:
 - **Descuento de envío**: un descuento que se aplica cuando el total de la transacción es superior a una cantidad especificada y se utiliza un modo de entrega específico (por ejemplo, envío en dos días o envío al día siguiente) en el pedido.
 
 Tanto los ajustes de precios como los descuentos se pueden asociar con los grupos de precios. A continuación, los grupos de precios pueden asociarse con canales, catálogos, afiliaciones y programas de fidelidad.
+
+> [!NOTE]
+> El descuento de combinación y coincidencia y el descuento de umbral tienen propiedades denominadas "Contar productos no descontables" y "Contar productos no descontables hasta el umbral", respectivamente. Si estas propiedades están habilitadas, un artículo que no es apto para ningún descuento aún puede ser apto para una transacción para el descuento, pero el artículo no apto no obtendrá el descuento. 
+> 
+> Por ejemplo, si crea un descuento de combinación y coincidencia con dos líneas, A y B, donde un cliente debería obtener un 10 % de descuento en ambos artículos, pero el artículo A tiene marcada la configuración "Evitar todos los descuentos", entonces esto normalmente impediría que el artículo A se incluyera en el descuento. Sin embargo, si la propiedad "Contar productos no descontables" está habilitada, entonces el artículo A se puede usar para recibir el descuento de combinación, pero el descuento del 10 % solo se aplicará al artículo B. Se aplica una lógica similar al descuento de umbral. . 
+>
+> Sin embargo, la propiedad "Contar productos no descontables hasta el umbral" tiene una capacidad adicional en comparación con la propiedad "Contar productos no descontables" de los descuentos de combinación. Si el descuento de umbral está habilitado, y si hay un artículo que tiene un descuento existente que evitaría que el artículo tenga otros descuentos, entonces el precio pagado por este artículo calificaría para alcanzar el umbral, pero este artículo no obtendrá el descuento adicional.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920118"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188867"
 ---
 # <a name="transportation-management-engines"></a>Motores de administración del transporte
 
@@ -43,8 +43,7 @@ En la siguiente tabla se muestran los motores de administración del transporte 
 | **Tipo de albarán de flete**            | Estandariza la factura de flete y las líneas de albarán de flete y se usa para conciliar automáticamente albaranes de flete.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>¿Qué motores se deben configurar para clasificar un envío?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>¿Qué motores se deben configurar para clasificar un envío?
 
 Para clasificar un envío mediante un transportista específico, debe configurar varios motores de administración del transporte. El **Motor de tarifas** es necesario, pero es posible que también sean necesarios otros motores de administración del transporte para ofrecer soporte al **Motor de tarifas**. Por ejemplo, el **Motor de tarifas** se puede usar para recuperar los datos del **Motor de cálculo de kilometraje** con el fin de calcular la tasa basándose en el kilometraje entre el origen y el destino.
 
@@ -62,8 +61,7 @@ En la mayoría de los casos, puede hacer clic en el botón **Parámetros** de lo
 |  <em>MileageEngineCode</em>  |                       Código del motor de cálculo de kilometraje que identifica el registro del motor de cálculo de kilometraje en la base de datos.                        |
 | <em>ApportionmentEngine</em> |                        Código de motor genérico que identifica el motor de reparto en la base de datos.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>¿Cómo se usan los metadatos en los motores de administración del transporte?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>¿Cómo se usan los metadatos en los motores de administración del transporte?
 
 Los motores de administración del transporte que se basan en datos definidos en Supply Chain Management pueden usar diferentes esquemas de datos. El sistema de administración del transporte permite que distintos motores de administración del transporte usen las mismas tablas de base de datos física genéricas. Para garantizar que la interpretación en tiempo ejecución de los datos del motor sea correcta, puede definir los metadatos de las tablas de base de datos. Esto reduce el coste de crear nuevos motores de administración del transporte porque las estructuras adicionales de tabla y formulario no son necesarias en Operaciones.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811783"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190121"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Listas de materiales y fórmulas
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811783"
 
 Este tema proporciona información acerca de las listas de materiales y las fórmulas, que son una parte fundamental de la definición de productos y variantes de producto. Las listas de materiales y las fórmulas especifican los materiales o componentes necesarios para un producto específico. Las fórmulas también especifican los coproductos o productos derivados que se reciben en un contexto específico de la producción. 
 
-<a name="bills-of-materials"></a>Listas de materiales
-------------------
+## <a name="bills-of-materials"></a>Listas de materiales
 
 Una lista de materiales (L. MAT) define los componentes necesarios para producir un producto. Los componentes pueden ser materias primas, productos semiterminados o ingredientes. En algunos casos, se puede hacer referencia a los servicios en una L. MAT. Sin embargo, las L. MAT describen normalmente los *recursos materiales* que son necesarios.  
 

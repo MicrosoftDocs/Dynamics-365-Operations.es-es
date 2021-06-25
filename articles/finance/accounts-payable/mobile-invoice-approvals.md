@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 78ab17952801a1d77f321e212bb61e9b45d93216
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897705"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189211"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprobaciones de factura móvil
 
@@ -27,8 +27,7 @@ ms.locfileid: "5897705"
 
 Las capacidades móviles permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este tema le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
 
-<a name="prerequisites"></a>Requisitos previos
--------------
+## <a name="prerequisites"></a>Requisitos previos
 
 | Requisito previo                                                                                            | Descripción                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -2,7 +2,7 @@
 title: Previsión de flujo de efectivo (versión preliminar)
 description: Este tema describe la capacidad de pronóstico de flujos de efectivo.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6e4713aa4662714d1b2a3eeb62adce8608907054
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64935db3b50e7598f2076ecbec72aba020d4f908
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811420"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186549"
 ---
 # <a name="cash-flow-forecast-preview"></a>Previsión de flujo de efectivo (versión preliminar)
 
@@ -62,9 +62,5 @@ La funcionalidad de pronóstico de flujo de efectivo de Dynamics 365 Finance per
 Una nueva pestaña de la página **Configuración de pronósticos de flujo de efectivo** le permite controlar qué dimensiones financieras utilizar para filtrar en el espacio de trabajo **Previsión de flujo de efectivo**. Esta pestaña solo aparecerá cuando la función de pronósticos de flujo de efectivo esté habilitada. 
 
 En la pestaña **Dimensiones**, elija de la lista de dimensiones que se utilizarán para el filtrado y utilice las teclas de flecha para moverlas a la columna de la derecha. Solo se pueden seleccionar dos dimensiones para filtrar los datos de pronósticos de flujo de efectivo. 
-
-#### <a name="privacy-notice"></a>Aviso de privacidad
-Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

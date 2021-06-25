@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810879"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188134"
 ---
 # <a name="sales-and-marketing-overview"></a>Visión general de ventas y marketing
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810879"
 
 Puede usar Ventas y marketing para obtener, almacenar y usar distintos tipos de datos en el flujo de ventas. Estos datos incluyen la iniciativa de venta original, la acción de seguimiento futura y las ventas adicionales.
 
-<a name="marketing"></a>Marketing
----------
+## <a name="marketing"></a>Marketing
 
 Las actividades y las campañas de marketing se usan para encontrar y crear relaciones con clientes potenciales, para que las interacciones iniciales puedan derivar en relaciones de ventas. El siguiente flujo de procesos muestra el proceso empresarial de marketing. [![Proceso empresarial de marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
 

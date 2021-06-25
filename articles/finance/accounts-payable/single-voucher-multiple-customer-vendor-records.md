@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e9c321315f91de6cf0f2029c26bd4f398a73830
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837306"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6194010"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Asiento único con varios registros de cliente o proveedor
 
@@ -207,8 +207,6 @@ En el asiento relacionado para el descuento de efectivo, se usarán las dimensio
 |-------------|-----------------|------------------------|-----------|------------|
 | ARP-00001   | 403300-002-023- | Descuento por pronto pago del cliente | 2.00      |            |
 | ARP-00001   | 130100-002-     | Saldo del cliente       |           | 2.00       |
-
-### 
 
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Un documento con una compensación para varios clientes y proveedores
 La compensación puede ser útil cuando una organización compra y vende a la misma empresa. En lugar de pagar las facturas de proveedor y esperar a recibir el pago para las facturas de cliente, se compensan las facturas de proveedor y cliente. La transacción de compensación se liquida con los saldos pendientes. 

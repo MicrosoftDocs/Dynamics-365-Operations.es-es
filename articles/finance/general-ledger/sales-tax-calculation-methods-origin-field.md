@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815365"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189382"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Métodos de cálculo de impuestos en el campo Origen
 
@@ -52,8 +52,7 @@ Si el importe neto es 10,00, entonces ARANCEL 1 es 1,00 (10,00 x 10 %) y ARANCEL
 | Solo un código de impuestos con origen = el porcentaje del importe bruto se puede usar para una transacción. Si se determina más de un código de impuesto de este tipo para una transacción, se mostrará un error acerca de que los impuestos no se pueden calcular. |
 
 
-<a name="percentage-of-sales-tax"></a>Porcentaje de impuestos
------------------------
+## <a name="percentage-of-sales-tax"></a>Porcentaje de impuestos
 
 Al seleccionar Porcentaje de impuestos en el campo Origen, los impuestos se calculan como un porcentaje de los impuestos seleccionados en el campo Impuestos sobre impuestos. Los impuestos seleccionados en el campo Impuestos sobre impuestos se calculan en primer lugar. Los segundos impuestos se calculan a continuación en función del primer importe de impuestos.
 ### <a name="example"></a>Ejemplo
@@ -119,8 +118,7 @@ El documento o el diario se establecen en Importe impuestos incluidos = No Impor
 
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Índices de impuestos en función de la base marginal y los métodos de cálculo](marginal-base-field.md)
 

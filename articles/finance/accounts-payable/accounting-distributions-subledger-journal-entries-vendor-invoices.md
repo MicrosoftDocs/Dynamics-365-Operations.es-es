@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820993"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189102"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Distribuciones contables y movimientos del diario contable de las facturas de proveedores
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820993"
 
 Las distribuciones contables se usan para definir cómo un importe se justificará, por ejemplo, cómo se justificarán los gastos, impuestos o cargos en la factura de un proveedor. Cada importe que se debe justificar cuando se registre en el diario la factura de proveedor tendrá una o varias distribuciones contables. 
 
-<a name="accounting-distributions"></a>Distribuciones contables 
--------------------------
+## <a name="accounting-distributions"></a>Distribuciones contables 
 
 Puede usar los siguientes botones de la página Factura de proveedor para ver y para modificar probablemente las distribuciones contables de cada importe de la factura de proveedor.
 -   **Distribuir importes**: permite ver y modificar las distribuciones contables de una línea individual y todas las líneas secundarias, como impuestos o gastos. También puede ver y modificar distribuciones contables para la línea secundaria directamente desde la página Transacciones de impuestos o la página Transacciones de gastos.
@@ -227,8 +226,7 @@ Cuando se especifica una factura de proveedor, cada importe se distribuirá del 
 </table>
 
 
-<a name="distributing-taxes"></a>Distribución de impuestos
-------------------
+## <a name="distributing-taxes"></a>Distribución de impuestos
 
 Las distribuciones contables para los impuestos no se pueden crear hasta que se calculen los impuestos. Para calcular los impuestos, debe completar una de las tareas que se describen a continuación en la página Factura de proveedor:
 -   Ver el total de la factura.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020420"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216752"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuración de publicación de gestión de devoluciones
 
@@ -43,7 +43,7 @@ La siguiente tabla describe la configuración que está disponible en la secció
 | Descripción | Especifique una descripción del perfil. |
 | Módulo | Seleccione el tipo de devoluciones y regalías al que está asociado el perfil (*Cliente* o *Proveedor*). |
 | Tipo | Seleccione el tipo de perfil (*Devolución* o *Regalías*). |
-| Tipo de pago | <p>Este campo determina el formato de la salida de devolución contabilizada.<p><p>Cuando el campo **Tipo** está configurado en *Devolución*, los siguientes valores están disponibles:</p><ul><li>*Ninguno*: no hay un tipo de contabilización predeterminada. Por lo tanto, debe definir el tipo cuando realice el procesamiento.</li><li>*Pagar con proveedores*: cuando contabiliza la devolución, se crea una factura de proveedor para el proveedor de remesas que está configurado en el cliente de devolución.</li><li>*Deducciones de clientes*: cuando contabiliza la devolución, se crea un diario de deducción del cliente para el cliente de la devolución.</li><li>*Deducciones de clientes con impuestos*: cuando contabiliza la devolución, se crea una factura de servicios para el cliente de la devolución.</li><li>*Gastos comerciales*: cuando contabiliza la devolución, se crea un diario de deducción del cliente para el cliente de la devolución.</li><li>*Informe*: cuando contabiliza la devolución, se crea un diario de deducción del cliente para el cliente de la devolución.</li></ul><p>Cuando el campo **Tipo** está configurado en *Regalías*, los siguientes valores están disponibles:</p><ul><li>*Ninguno*: no hay un tipo de contabilización predeterminada. Por lo tanto, debe definir el tipo cuando realice el procesamiento.</li><li>*Pagar con proveedores*: cuando contabiliza la devolución, se crea una factura de proveedor para la cuenta de devolución del proveedor.</li><li>*Informes*: cuando contabiliza la devolución, se crea una factura de proveedor para la cuenta de devolución del proveedor.</li></ul><p>Para obtener más información, consulte la sección [Tipos de pago](#payment-types) a continuación. |
+| Tipo de pago | <p>Este campo determina el formato de la salida de devolución contabilizada.<p><p>Cuando el campo **Tipo** está configurado en *Devolución*, los siguientes valores están disponibles:</p><ul><li>*Pagar con proveedores*: cuando contabiliza la devolución de un cliente, se crea una factura de proveedor para el proveedor de devoluciones que está configurado en el cliente de devolución. Cuando contabiliza una devolución de un proveedor, se crea una factura de proveedor para la cuenta de devolución del proveedor.</li><li>*Deducciones de clientes*: cuando contabiliza la devolución, se crea un diario de deducción del cliente para el cliente de la devolución.</li><li>*Deducciones de clientes con impuestos*: cuando contabiliza la devolución, se crea una factura de servicios para el cliente de la devolución.</li><li>*Gastos comerciales*: cuando contabiliza la devolución, se crea un diario de deducción del cliente para el cliente de la devolución.</li><li>*Informe*: cuando contabiliza la devolución, se crea un diario de deducción del cliente para el cliente de la devolución.</li></ul><p>Cuando el campo **Tipo** está configurado en *Regalías*, los siguientes valores están disponibles:</p><ul><li>*Pagar con proveedores*: cuando contabiliza la devolución, se crea una factura de proveedor para la cuenta de devolución del proveedor.</li><li>*Informes*: cuando contabiliza la devolución, se crea una factura de proveedor para la cuenta de devolución del proveedor.</li></ul><p>Para obtener más información, consulte la sección [Tipos de pago](#payment-types) a continuación. |
 | Empresa | Seleccione la empresa (entidad jurídica) a la que se le devengarán las provisiones y a la que pagará las reclamaciones. |
 
 ### <a name="payment-types"></a>Tipos de pago

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058833"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189759"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar los recursos mediante departamentos, trabajos y puestos
 
@@ -42,8 +42,7 @@ El siguiente ejemplo se usa para ilustrar los conceptos descritos en este artíc
 |**Recursos humanos**|Director de RR. HH. (Central)|Director de RR. HH.|
 
 
- <a name="departments"></a>Departamentos
-------------
+##  <a name="departments"></a>Departamentos
 
 Un departamento es una unidad operativa que representa una categoría o un área funcional de una organización que es responsable de un área específica de la organización, tal como las ventas o la contabilidad. Un departamento se usa para informar sobre las áreas funcionales y puede tener responsabilidad de pérdidas y ganancias. Además, un departamento puede incluir un grupo de centros de coste. Las ventas, la contabilidad y los recursos humanos son algunos ejemplos de los departamentos de una organización.
 
@@ -96,8 +95,7 @@ Use los tipos de trabajo para clasificar trabajos similares en categorías. Los 
 
 Use las áreas de responsabilidad para indicar los roles de trabajo, los procesos y los productos de los que sería responsable un trabajador en un puesto para dicho trabajo. Un ejemplo de un área de responsabilidad para un trabajo denominado "Contable" podría ser "Informes financieros del producto A".
 
-<a name="positions"></a>Puestos
-----------
+## <a name="positions"></a>Puestos
 
 Los puestos son un aspecto importante del nivel inferior de una jerarquía organizativa. Un puesto es un caso individual de un trabajo. Por ejemplo, el puesto "Director de ventas (Este)" es solo uno de los puestos asociados al trabajo "Director de ventas". Los puestos existen en un departamento y se asignan a los trabajadores.
 ### <a name="position-creation-and-maintenance"></a>Creación y mantenimiento de puestos

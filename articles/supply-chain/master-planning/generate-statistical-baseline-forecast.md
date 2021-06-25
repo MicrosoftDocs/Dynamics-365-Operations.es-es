@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816517"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189701"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Generar previsión estadística de línea base
 
@@ -67,8 +67,7 @@ Si la previsión no se genera para un conjunto grande de artículos, sino, por e
 > [!NOTE]
 > Una previsón potencialmente plana puede deberse a que los datos históricos tienen que ser de un período de tiempo histórico más largo (un mínimo de 3 períodos de tiempo para escoger patrones, como 3 años con previsión mensual). Para obtener un mejor resultado, pruebe a cambiar la granularidad del intervalo temporal o a aumentar el intervalo temporal.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 - [Configuración de previsión de demanda](demand-forecasting-setup.md)
 

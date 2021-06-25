@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0df9177b63619787dba057e9aa532255e68bde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86fbc81de8ba59f0782bd9af5b50bfcf45d5621a
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811879"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193054"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Asignar tiempo a trabajos en una agrupación de trabajos
 
@@ -80,7 +80,7 @@ La siguiente tabla muestra la fórmula para calcular el tiempo asignado. Esta es
 ## <a name="net-time-allocation-key"></a>Clave de asignación del tiempo neto
 La siguiente tabla muestra la fórmula para calcular el tiempo asignado. Esta es la fórmula: Tiempo calculado para notificación = Tiempo de agrupación ÷ Número de trabajos
 
-|                              | 09:00–10:00 (1 hora) | 10:00–11:00 (1 hora) | 11:00–13:00 (2 horas) | 13:00–15:00 (2 horas) | Tiempo asignado |
+| Ejemplo                       | 09:00–10:00 (1 hora) | 10:00–11:00 (1 hora) | 11:00–13:00 (2 horas) | 13:00–15:00 (2 horas) | Tiempo asignado |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Número de trabajos en la agrupación | 1                    | 3                    | 2                     | 1                     | No aplicable |
 | Trabajo 1                        | 1 ÷ 1 = 1 hora       | 1 ÷ 3 = 0,33 horas    | No aplicable        | No aplicable        | 1,33 horas     |
