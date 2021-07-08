@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3b9b5274481e693f9fa05eb084ec5505ce5bc2eb
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935666"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304376"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Ver, administrar y aprobar pedidos planificados
 
@@ -46,7 +46,7 @@ Puede usar el campo **Estado** de cada orden planificada para ayudar a realizar 
 
 - **No procesado**: cuando la planificación maestra genera pedidos planificados, se les da este estado. Los pedidos planificados que tienen este estado se eliminarán durante la siguiente ejecución de planificación.
 - **Terminado**: este estado indica que la orden planificada se ha completado. Si decide no poner en firme un pedido planificado, puede cambiar manualmente su estado a *Finalizado*. Tenga en cuenta que el sistema trata los estados *No procesado* y *Completado* de la misma manera.
-- **Aprobado**: este estado indica que la orden planificada está aprobada para confirmación. Si desea consolidar un pedido planificado, puede cambiar su estado a *Aprobado*. Si desea conservar las ediciones que se han realizado en una orden planificada, o si está planeando confirmar una orden planificada, cambie su estado a *Aprobado*. Las órdenes planificadas que tienen un estado de *Aprobado* se consideran suministros fijos y esperados por planificación maestra. Por lo tanto, no se modifican ni se eliminan durante las ejecuciones posteriores de la planificación maestra. Para lograr este comportamiento, la lógica de planificación copia los pedidos planificados con estado *Aprobado* desde la versión anterior del plan a la nueva versión del plan durante la planificación maestra. Tenga en cuenta que los pedidos planificados con estado *Aprobado** solo se consideran un suministro dentro del plan maestro específico.
+- **Aprobado**: este estado indica que la orden planificada está aprobada para confirmación. Si desea consolidar un pedido planificado, puede cambiar su estado a *Aprobado*. Si desea conservar las ediciones que se han realizado en una orden planificada, o si está planeando confirmar una orden planificada, cambie su estado a *Aprobado*. Las órdenes planificadas que tienen un estado de *Aprobado* se consideran suministros fijos y esperados por planificación maestra. Por lo tanto, no se modifican ni se eliminan durante las ejecuciones posteriores de la planificación maestra. Para lograr este comportamiento, la lógica de planificación copia los pedidos planificados con estado *Aprobado* desde la versión anterior del plan a la nueva versión del plan durante la planificación maestra. Tenga en cuenta que los pedidos planificados con estado *Aprobado* solo se consideran un suministro dentro del plan maestro específico.
 
 Para cambiar el estado de una sola orden planificada, [abra cualquier página de lista de pedidos planificados](#view-planned-orders), abra el pedido y luego siga uno de estos pasos:
 

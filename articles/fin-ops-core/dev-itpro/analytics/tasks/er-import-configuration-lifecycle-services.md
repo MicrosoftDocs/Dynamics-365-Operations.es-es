@@ -2,7 +2,7 @@
 title: Importar una configuración de Lifecycle Services
 description: Este tema describe cómo importar una nueva versión de una configuración de informes electrónicos (ER) desde Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 674d0dc02b4a53e455a15a06fdb7f24ca3036ba3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b58ecb8a7d6f52631dbca7642a4acbcf6ff895a3
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752373"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270846"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Importar una configuración de Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 En este tema se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede importar una nueva versión de una [configuración de informe electrónico](../general-electronic-reporting.md#Configuration) desde la [biblioteca de activos de proyectos](../../lifecycle-services/asset-library.md) en Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> El uso de (LCS) como repositorio de almacenamiento para las configuraciones de ER se está poniendo [en desuso](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Para más ifnormación, vea: [Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 En este ejemplo, seleccionará la configuración de la versión deseada del ER y la importará a la empresa de ejemplo que se llama Litware, Inc. Estos pasos se pueden realizar en cualquier empresa porque las configuraciones de ER se comparten entre todas las empresas. Para completar estos pasos, primero debe completar los pasos del procedimiento [Cargar una configuración ER en Lifecycle Services](er-upload-configuration-into-lifecycle-services.md). También se requiere acceso a LCS.
 

@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform updates para 10.0.18 (mayo de 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: Platform updates para 10.0.17 (abril de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -278,6 +276,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Hacer que un almacén de entidades esté disponible como un Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Cambiar datos en Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Operaciones de movimientos de base de datos
           items:
             - name: Información general

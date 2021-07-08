@@ -11,19 +11,18 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2022-04-01
+ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: fee112d3211f619b2146dd21c4f8a52ad33667d6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 47f270b5fff37e8e231d8a9c4a011172df3d9385
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019163"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271386"
 ---
 # <a name="wave-execution-notifications"></a>Notificaciones de ejecución de oleadas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La función *Notificaciones de ejecución de olas* utiliza eventos comerciales y el Centro de actividades para enviar notificaciones relacionadas con la ejecución de la oleada. Le permite especificar los tipos de eventos que generan notificaciones, los almacenes que las generan y los usuarios que las reciben.
 

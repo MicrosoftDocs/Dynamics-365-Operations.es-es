@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6f78441445baecba279f96eb3935d9ebbb4ff03f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 442a5f5b321833c170cfecc4069e62a1254605cd
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021917"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270489"
 ---
 # <a name="predefined-product-variants"></a>Variantes de productos predefinidas
 
@@ -76,8 +76,6 @@ Para generar variantes de productos:
 1. Seleccione **Guardar**.
 
 ## <a name="improved-variant-suggestions"></a>Sugerencias de variantes mejoradas
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 La característica *Mejoras en la página de sugerencias de variantes* mejora la página **Sugerencias de variantes** para abordar problemas de rendimiento y usabilidad para empresas que tienen un gran número de combinaciones de dimensiones de productos. El proceso mejorado para seleccionar los valores de dimensión de producto para los que generar sugerencias de variantes hace que sea más rápido y más fácil identificar y liberar el conjunto relevante de variantes de producto.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115032"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271164"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -64,8 +64,6 @@ Esta función agrega un botón a la interfaz de ejecución de la planta de produ
 - Función para bloquear un dispositivo de tarjeta de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Funcionalidad de administración de activos para la interfaz de ejecución de la planta de producción
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Esta función agrega una pestaña de administración de activos a la interfaz de ejecución de la planta de producción. Los trabajadores pueden usar esta pestaña para seleccionar un activo que esté conectado a un recurso de máquina que esté dentro del filtro seleccionado de la lista de trabajos. Para el activo de máquina seleccionado, el trabajador puede ver el estado y la salud del activo a partir de los valores de los contadores de hasta cuatro contadores seleccionados. Si desea usar esta función, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

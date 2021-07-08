@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: e77022bde6e612392c80cf5fe2b4c1e75ec5775d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216752"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271014"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuración de publicación de gestión de devoluciones
 
@@ -41,7 +41,7 @@ La siguiente tabla describe la configuración que está disponible en la secció
 |---|---|
 | Perfil de contabilización | Especifique un nombre único para el perfil. |
 | Descripción | Especifique una descripción del perfil. |
-| Módulo | Seleccione el tipo de devoluciones y regalías al que está asociado el perfil (*Cliente* o *Proveedor*). |
+| Módulo | Seleccione el módulo con el que están asociadas las devoluciones y regalías del perfil (*Cliente* o *Proveedor*). |
 | Tipo | Seleccione el tipo de perfil (*Devolución* o *Regalías*). |
 | Tipo de pago | <p>Este campo determina el formato de la salida de devolución contabilizada.<p><p>Cuando el campo **Tipo** está configurado en *Devolución*, los siguientes valores están disponibles:</p><ul><li>*Pagar con proveedores*: cuando contabiliza la devolución de un cliente, se crea una factura de proveedor para el proveedor de devoluciones que está configurado en el cliente de devolución. Cuando contabiliza una devolución de un proveedor, se crea una factura de proveedor para la cuenta de devolución del proveedor.</li><li>*Deducciones de clientes*: cuando contabiliza la devolución, se crea un diario de deducción del cliente para el cliente de la devolución.</li><li>*Deducciones de clientes con impuestos*: cuando contabiliza la devolución, se crea una factura de servicios para el cliente de la devolución.</li><li>*Gastos comerciales*: cuando contabiliza la devolución, se crea un diario de deducción del cliente para el cliente de la devolución.</li><li>*Informe*: cuando contabiliza la devolución, se crea un diario de deducción del cliente para el cliente de la devolución.</li></ul><p>Cuando el campo **Tipo** está configurado en *Regalías*, los siguientes valores están disponibles:</p><ul><li>*Pagar con proveedores*: cuando contabiliza la devolución, se crea una factura de proveedor para la cuenta de devolución del proveedor.</li><li>*Informes*: cuando contabiliza la devolución, se crea una factura de proveedor para la cuenta de devolución del proveedor.</li></ul><p>Para obtener más información, consulte la sección [Tipos de pago](#payment-types) a continuación. |
 | Empresa | Seleccione la empresa (entidad jurídica) a la que se le devengarán las provisiones y a la que pagará las reclamaciones. |
@@ -66,7 +66,7 @@ La siguiente tabla resume cómo las distintas configuraciones del campo **Tipo d
 > Tenga en cuenta los siguientes puntos cuando configure [Ofertas de gestión de devoluciones](rebate-management-deals.md):
 >
 > - Para acuerdos donde el campo **Reconciliar por** está configurado en *Acuerdo*, no puede utilizar la cuenta de oferta dinámica durante la publicación. Debe utilizar una cuenta de cliente o proveedor específica.
-> - Para ofertas donde el campo **Reconciliar por** está configurado en *Línea*, puede utilizar un perfil de contabilización que se compensa a una cuenta de oferta dinámica en la línea de oferta, porque el cliente se establece por línea de oferta.
+> - Para ofertas donde el campo **Reconciliar por** está configurado en *Línea*, puede utilizar un perfil de contabilización que se compensa a una cuenta de oferta dinámica en la línea de oferta, porque el cliente o proveedor se establece por línea de oferta.
 
 ## <a name="posting-fasttab"></a>Ficha desplegable contabilización
 
@@ -74,15 +74,15 @@ La siguiente tabla describe los campos que están disponibles en la ficha desple
 
 | Campo | Descripción |
 |---|---|
-| Tipo de crédito | Seleccione si acreditar una cuenta contable, un cliente o un proveedor. |
-| Cuenta de cŕedito | La cuenta en la que se contabilizan los importes de crédito cuando se realizan las provisiones de devolución. Esta cuenta también se utilizará como cuenta de débito cuando se registre la devolución para acreditar al cliente. |
+| Tipo de crédito | Seleccione si acreditar una cuenta contable o un cliente. Si el campo **Tipo de pago** en el encabezado está configurado en *Deducciones de clientes de facturas de impuestos*, este campo se establece en *Cuenta contable*. Para reembolsos de proveedores, este campo se establece en *Cuenta contable*. |
+| Cuenta de cŕedito | Seleccione la cuenta en la que se contabilizan los importes de crédito cuando se realizan las provisiones de devolución. Esta cuenta también se utilizará como cuenta de contrapartida cuando se registre la devolución para acreditar al proveedor. |
 | Nombre del diario<br>(En la sección **Aprovisionar**) | Seleccione el nombre del diario que se utilizará para registrar la provisión publicada. |
 | Tipo | Seleccione si contabiliza la devolución una cuenta contable o a un cliente o un proveedor. Si el campo **Tipo de pago** en el encabezado está configurado en *Deducciones de clientes de facturas de impuestos*, este campo se establece en *Cliente / Proveedor*. |
-| Usar cuenta de origen | <p>Seleccione uno de los siguientes valores:</p><ul><li>*Ninguna*: si selecciona este valor, debe especificar una cuenta en el campo **Cuenta de devolución**.</li><li>*Cuenta de acuerdo*: utilice la cuenta de cliente o proveedor que se especifica en la línea de devolución. Puede seleccionar este valor solo para acuerdos en los que el campo **Reconciliar por** está configurado en *Línea* y líneas de acuerdo donde el campo **Código de cuenta** está configurado en *Tabla*. No se aplica a los perfiles de publicación de regalías de los clientes.</li></ul> |
+| Usar cuenta de origen | <p>Seleccione uno de los siguientes valores:</p><ul><li>*Cuenta fija*: si selecciona este valor, debe especificar una cuenta en el campo **Cuenta de devolución**.</li><li>*Cuenta de línea de acuerdo*: utilice la cuenta de cliente o proveedor que se especifica en la línea de devolución. Puede seleccionar este valor solo para acuerdos en los que el campo **Reconciliar por** está configurado en *Línea* y líneas de acuerdo donde el campo **Código de cuenta** está configurado en *Tabla*. No se aplica a los perfiles de publicación de regalías de los clientes ni a los reembolsos de proveedores que se basan en pedidos de ventas.</li></ul> |
 | Cuenta de devolución | La cuenta en la que se contabilizarán los gastos de devoluciones reales. |
-| Nombre del diario<br>(En la sección **Gestión de devoluciones**) | Seleccione el nombre del diario que se utilizará para registrar una nota de crédito por el monto de la devolución para el cliente. Esta campo no está disponible cuando el campo **Tipo de pago** en el encabezado está configurado en *Deducciones de clientes de facturas de impuestos*. |
+| Nombre del diario<br>(En el grupo de campos **Gestión de reembolsos**) | Seleccione el nombre del diario que se utilizará para registrar una nota de crédito por el monto de la devolución para el cliente o proveedor. Esta campo no está disponible cuando el campo **Tipo de pago** en el encabezado está configurado en *Deducciones de clientes de facturas de impuestos*. Para reembolsos de clientes, los nombres de diario del tipo de diario *Diario* estará disponible el tipo de revista. Para regalías de clientes y reembolsos de proveedores, los nombres de diario del *Registro de facturas de proveedores* estará disponible el tipo de revista. |
 | Grupo de impuestos de artículos | Especifique si la devolución está sujeta a impuestos. |
-| Nombre del diario<br>(En la sección **Cancelar**) | Si la devolución que se registra no es igual a la provisión, se puede cancelar la diferencia. Seleccione el nombre del diario que se utilizará para registrar la cancelación. |
+| Nombre del diario<br>(En el grupo de campos **Cancelar**) | Si la devolución que se registra no es igual a la provisión, se puede cancelar la diferencia. Seleccione el nombre del diario que se utilizará para registrar la cancelación. |
 
 ## <a name="posting-by-company-fasttab"></a>Ficha desplegable de contabilización por empresa
 
@@ -92,6 +92,6 @@ Use los botones de la barra de herramientas para agregar compañías a la cuadr�
 
 Seleccione la fila para cada empresa y luego introduzca la siguiente información usando los campos debajo de la cuadrícula:
 
-- **Tipo de débito**: seleccione si el débito es para una cuenta contable, un cliente o un proveedor.
+- **Tipo de débito**: seleccione si el débito es para una cuenta contable o un proveedor. Para reembolsos de clientes y regalías, este campo se establece en *Cuenta contable*.
 - **Cuenta de debito**: introduzca la cuenta en la que se contabiliza el monto del débito cuando se realizan las provisiones de devolución.
 - **Cuenta principal**: seleccione la cuenta principal para cancelaciones.

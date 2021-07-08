@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821258"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270668"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Vistas estándar guardadas para Supply Chain Management
 
@@ -79,16 +79,14 @@ La siguiente tabla describe las vistas guardadas disponibles para el módulo Adq
 
 ## <a name="saved-views-for-the-production-control-module"></a>Vistas guardadas para el módulo Control de producción
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 La siguiente tabla describe las vistas guardadas disponibles para el módulo Control de producción.
 
 | Página | Nombre de vista | Ver la descripción | Nombre de característica |
 |---|---|---|---|
-| Página de L.MAT de pedido de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | (Versión preliminar) Vistas guardadas para el control de producción |
-| Página de detalles del pedido de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | (Versión preliminar) Vistas guardadas para el control de producción |
-| Página de listas de selección de órdenes de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | (Versión preliminar) Vistas guardadas para el control de producción |
-| Página de lista de pedidos de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | (Versión preliminar) Vistas guardadas para el control de producción |
+| Página de L.MAT de pedido de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para control de producción |
+| Página de detalles del pedido de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para control de producción |
+| Página de listas de selección de órdenes de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para control de producción |
+| Página de lista de pedidos de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para control de producción |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Vistas guardadas para el módulo de marketing y Sales
 

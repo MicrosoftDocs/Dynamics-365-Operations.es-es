@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019060"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292746"
 ---
 # <a name="containerization"></a>Creación de contenedores
 
@@ -108,6 +108,8 @@ Para configurar una plantilla de creación de contenedores, siga estos pasos.
 
       - **Empaquetar en todos los contenedores abiertos**: el sistema evalúa si la línea de asignación cabrá en algún contenedor que se haya creado durante el ciclo de creación de contenedores.
       - **Embalar solo en el contenedor actual**: el sistema solo evalúa si la línea de asignación cabrá en el contenedor creado más recientemente.
+
+    Para obtener más información y ejemplos que muestran cómo trabajar con estrategias de embalaje de contenedores, consulte [Estrategias de embalaje de contenedores](container-packing-strategy-overview.md).
 
 1. Para configurar reglas para la asignación de líneas de embalaje en contenedores, seleccione **Mezclar interrupciones de lógica**. Por ejemplo, puede crear una regla que permita a los trabajadores embalar líneas de asignación para dos artículos diferentes en el mismo contenedor. Para definir una regla de combinación, siga estos pasos:
 

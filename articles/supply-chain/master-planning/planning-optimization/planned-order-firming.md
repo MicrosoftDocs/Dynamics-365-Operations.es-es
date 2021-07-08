@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193890"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271217"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -123,8 +123,6 @@ El límite de tiempo de confirmación automática se define por la cantidad de d
 Si establece todos los límites de tiempo mencionados anteriormente en *0* (cero), la confirmación automática queda efectivamente deshabilitada para los artículos cubiertos relevantes.
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Confirmar pedidos planificados mediante una consulta
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 La confirmación basada en consultas le permite planificar la confirmación en función de criterios que se definen de antemano. A diferencia de la confirmación automática, la confirmación basada en consultas permite la confirmación automática de diferentes subconjuntos de pedidos en diferentes momentos. Además, puede utilizar operaciones manuales o automatizadas para confirmar diferentes tipos de pedidos planificados. También puede obtener una vista previa de los pedidos confirmados seleccionados en función de su configuración. Por lo tanto, puede confirmar que la selección se ajusta a sus expectativas.
 

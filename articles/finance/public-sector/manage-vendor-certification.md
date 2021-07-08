@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 06f4a0feda82d20e5ec01fd75e4bb8a597a6d09b
-ms.sourcegitcommit: 5916ea2a94ab9af7aac21f0fc44e194d5ce82917
+ms.openlocfilehash: b6e4194a4b3463476a32679ff11b35affc131faa
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "5989025"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270513"
 ---
 # <a name="maintain-vendor-certification"></a>Mantener la certificación de proveedores
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema describe los pasos que sus proveedores pueden seguir para mantener sus certificaciones mediante el **Espacio de trabajo de colaboración de proveedores**. Los ejemplos de certificaciones pueden incluir una empresa de negocios de mujeres (WBE) o una empresa de liderazgo en energía y diseño ambiental (LEED). Los proveedores deberán introducir la información de certificación en el espacio de trabajo **Informacion del proveedor**. A partir de ahí, los proveedores seleccionarán **Más detalles** y luego seleccionarán **Certificaciones**.
 

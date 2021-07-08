@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059482"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303473"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Acumular planes de bajas y ausencias
 
@@ -104,11 +104,9 @@ Eliminar registros de acumulación para un plan e intervalo de fechas específic
 
 2. Debajo de **Administrar bajas**, seleccione **Eliminar auditoría de acumulaciones de permisos**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Versión preliminar) Auditoría de transacciones de acumulación de bajas
+## <a name="leave-accrual-transaction-auditing"></a>Auditoría de transacciones de acumulación de bajas
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Esta función de vista previa ayuda a los administradores de bajas y ausencias a comprender las transacciones de acumulación de bajas y ausencias relacionadas con los saldos de tiempo libre de un empleado para un tipo de baja específico.
+Esta función ayuda a los administradores de bajas y ausencias a comprender las transacciones de acumulación de bajas y ausencias relacionadas con los saldos de tiempo libre de un empleado para un tipo de baja específico.
 
 Para ver los detalles de la transacción:
 

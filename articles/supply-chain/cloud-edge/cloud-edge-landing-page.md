@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938309"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261755"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unidades de escalado en la nube y en el perímetro para cargas de trabajo de gestión de almacenes y fabricación
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938309"
 > [!IMPORTANT]
 > La capacidad de la unidad de escala para Microsoft Dynamics 365 Supply Chain Management está disponible para usted bajo los términos que rigen el uso del servicio. Para obtener más información, consulte [Información legal de Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Al habilitar las unidades de escala en la nube y en el borde, usted afirma que comprende que algunos datos relacionados con la configuración y el procesamiento de las unidades de escala en la nube y en el borde pueden almacenarse en un centro de datos ubicado en los Estados Unidos. Para obtener más información sobre el procesamiento de datos para unidades de escala de borde y nube, consulte [Procesamiento de datos durante la gestión de unidades de escala](#data-processing-management) sección más adelante en este tema.
+> Al habilitar las unidades de escala en la nube y en el borde, se le pedirá que afirme que comprende que algunos datos relacionados con la configuración y el procesamiento de las unidades de escala en la nube y en el borde pueden almacenarse en un centro de datos ubicado en los Estados Unidos. Para obtener más información sobre el procesamiento de datos para unidades de escala de borde y nube, consulte [Procesamiento de datos durante la gestión de unidades de escala](#data-processing-management) sección más adelante en este tema.
 
 ## <a name="core-value-proposition-for-scale-units"></a>Propuesta de valor central para unidades de escala
 

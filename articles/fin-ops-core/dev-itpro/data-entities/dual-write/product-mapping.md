@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941205"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306398"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
@@ -124,7 +124,7 @@ Las dimensiones de un producto son las características que identifican una vari
 
 Cuando un producto tiene distintas dimensiones de producto (por ejemplo, un producto maestro tiene el tamaño y el color como dimensiones de producto), cada producto único (es decir, cada variante del producto) se define como una combinación de dichas dimensiones del producto. Por ejemplo, el número de producto B0001 es una camiseta negra extrapequeña, y el número de producto B0002 es una pequeña camiseta negra. En este caso, se definen las combinaciones de dimensiones de producto existentes. Por ejemplo, la camiseta del ejemplo anterior puede ser extrapequeña y negra, pequeña y negra, mediana y negra, o grande y negra, pero no puede ser extragrande y negra. Es decir las dimensiones de producto que un producto maestro puede tomar se especifican, y las variantes se pueden lanzar en función de estos valores.
 
-Para realizar un seguimiento de las dimensiones de producto que un producto maestro puede aceptar, se crean y se asignan las tablas siguientes en Dataverse para cada dimensión de producto. Para obtener más información, consulte [Descripción general de la información del producto]../../../supply-chain/pim/product-information.md).
+Para realizar un seguimiento de las dimensiones de producto que un producto maestro puede aceptar, se crean y se asignan las tablas siguientes en Dataverse para cada dimensión de producto. Para obtener más información, consulte [Visión general de la información de producto](../../../../supply-chain/pim/product-information.md). 
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 

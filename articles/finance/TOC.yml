@@ -1208,9 +1208,9 @@
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
             - name: Preguntas frecuentes sobre informes financieros
               href: general-ledger/financial-reporting-faq.md
-        - name: Información financiera
+        - name: Finance Insights
           items:
-            - name: Página principal de información financiera
+            - name: Página principal de Finance Insights
               href: finance-insights/finance-insights-home-page.md
             - name: Configuración y administración
               items:
@@ -1226,7 +1226,7 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: Crear proyecto integrador de datos
                   href: finance-insights/create-data-integrate-project.md
-            - name: Usar información de Finance
+            - name: Usar Finance Insights
               items:
                 - name: Propuestas de presupuesto
                   href: finance-insights/budget-proposals.md
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Crear configuraciones de informes electrónicos en Regulatory Configuration Service y cargarlas en el repositorio global
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Regulatory Configuration Service: eliminar un entorno RCS'
+                      href: localizations/rcs-delete-environment.md
                     - name: 'Regulatory Configuration Service: amortización del almacenamiento de Lifecycle Services'
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Facturación electrónica
@@ -1524,6 +1526,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Lista de ventas de la UE
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Informes del Reino Unido
+                          items:
+                            - name: Prepárese para la integración con MTD para IVA
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Actualizaciones reglamentarias
               href: localizations/regulatory-updates.md
             - name: Australia
@@ -2006,7 +2012,7 @@
                   href: localizations/tasks/eur-00012-receive-eu-entry-certificate.md
                 - name: Id. de registro
                   href: localizations/emea-registration-ids.md
-                - name: Cargos revertidos
+                - name: Cargos invertidos
                   href: localizations/emea-reverse-charge.md
                 - name: Información general de transferencias de crédito SEPA
                   href: accounts-payable/sepa-credit-transfer.md
@@ -2314,7 +2320,7 @@
                                   href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
                                 - name: Pedidos de devolución de compra
                                   href: localizations/apac-ind-GST-purchase-return-order.md
-                                - name: Anticipos del proveedor con gastos revertidos
+                                - name: Anticipos del proveedor con cargos invertidos
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
                             - name: Transacciones de venta
                               items:
@@ -2324,7 +2330,7 @@
                                   href: localizations/apac-ind-GST-sell-registered-customer.md
                                 - name: Facturas de servicios
                                   href: localizations/apac-ind-GST-free-text-invoices.md
-                                - name: Ventas de mercancías gravables con un gasto revertido
+                                - name: Ventas de mercancías gravables con un cargo invertido
                                   href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
                                 - name: Ventas de artículos exentos
                                   href: localizations/apac-ind-GST-sales-exempted-item.md
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: Registros fiscales de deuda y cancelaciones de deuda de proveedores
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: Reservas de deudas incorrectas en clientes
+                      href: localizations/rus-bad-debts.md
             - name: Arabia Saudí
               items:
                 - name: Información general para Arabia Saudí
@@ -3278,22 +3286,20 @@
                   href: localizations/united-kingdom.md
                 - name: Esquema del sector de la construcción
                   href: localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: Cargo revertido
+                - name: Cargo invertido
                   items:
                     - name: Crear un crédito en el descuento de liquidación
                       href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                    - name: Crear un pedido de compra que incluya artículos sujetos a IVA de cargo revertido
+                    - name: Crear un pedido de compra que incluya artículos sujetos a IVA de cargo invertido
                       href: localizations/tasks/purchase-order-reverse-charge-vat.md
-                    - name: Crear un pedido de ventas que incluya artículos sujetos a IVA de cargo revertido
+                    - name: Crear un pedido de ventas que incluya artículos sujetos a IVA de cargo invertido
                       href: localizations/tasks/gb-00002-sales-order.md
-                    - name: Configurar grupos de impuestos de artículos para IVA de cargo revertido
+                    - name: Configurar grupos de impuestos de artículos para IVA de cargo invertido
                       href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                    - name: 'Configurar grupos, reglas y parámetros de artículos con IVA de cargo revertido'
+                    - name: 'Configurar grupos, reglas y parámetros de artículos con IVA de cargo invertido'
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                    - name: Configurar grupos de impuestos para IVA de cargo revertido
+                    - name: Configurar grupos de impuestos para IVA de cargo invertido
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Crear impuestos digitales para IVA
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Informe de estadísticas sobre prácticas de pago
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Estados Unidos
@@ -3665,6 +3671,12 @@
               items:
                 - name: Idioma de fórmulas
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: Tipos de datos admitidos para fórmulas ER
+                  items:
+                    - name: Tipos de datos primitivos
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: Tipos de datos compuestos
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Funciones
                   items:
                     - name: Contenedor
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: Diseñar formatos de informes electrónicos para generar documentos de salida en diversos formatos
               items:
+                - name: Diseñar una configuración para generar informes en formato OPENXML
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Diseñar configuraciones para generar documentos salientes en formato de Excel
                   items:
                     - name: Diseñar una configuración para generar documentos en formato de Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: Ejemplo de generación de informes en formato OPENXML
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Modificar formatos de informes electrónicos al aplicar de nuevo plantillas de Excel
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Agregar columnas dinámicamente a informes Excel como intervalos horizontalmente expandibles
@@ -4211,13 +4223,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: Application Update 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: Application Update 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: Especificar una ubicación de almacenamiento personalizado para documentos generados
                   items:
                     - name: Suscribirse a un evento para solicitar una respuesta del controlador suscriptor
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Delegar la creación de un destino de informes electrónicos a una fábrica de destino personalizado
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
-                - name: Iniciar valores de origen de datos del tipo PARÁMETRO DE ENTRADA DE USUARIO desde el código fuente
+                    - name: Implementar un destino personalizado para documentos generados
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
+                - name: Iniciar valores de origen de datos del tipo USER INPUT PARAMETER desde el código fuente
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Aplicación móvil
           items:

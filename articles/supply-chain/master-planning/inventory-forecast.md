@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216851"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306424"
 ---
 # <a name="inventory-forecasts"></a>Previsiones del inventario
 
@@ -353,20 +353,46 @@ Use este procedimiento para procesar líneas de transacción de previsión exist
 1. Utilice la sección **Dimensiones financieras** para actualizar las dimensiones financieras de las líneas de previsión. Seleccione las dimensiones financieras que desea cambiar y luego ingrese un valor para aplicar a las dimensiones seleccionadas.
 1. Seleccione **OK** para aplicar sus cambios.
 
-## <a name="run-forecast-planning"></a>Ejecutar planificación de previsión
+## <a name="use-forecasts-with-master-planning"></a>Usar previsiones con planificación maestra
 
-Después de introducir la previsión de suministro o demanda, podrá ejecutar la planificación de previsión para calcular los requisitos brutos de los materiales y capacidad y para generar los pedidos planificados.
+Después de ingresar su pronóstico de demanda y / o pronóstico de suministro, puede incluir los pronósticos durante la planificación maestra para contabilizar la demanda y / o suministro esperados en su ejecución de planificación maestra. Cuando se incluyen previsiones en la planificación maestra, se calculan las necesidades brutas de materiales y capacidad, y se generan los pedidos planificados.
 
-1. Vaya a **Planificacion maestra \> Previsión \> Planificación de previsión**.
-1. En el campo **Plan de previsión** seleccione un plan de previsión.
-1. Permita que **Realizar seguimiento del tiempo de procesamiento** registre el tiempo de procesamiento de cada tarea de planificación.
-1. En el campo **Número de subprocesos**, especifique un valor. (Para más información, consulte [Mejorar el rendimiento de la planificación maestra](master-planning-performance.md).)
-1. En el campo **Comentario**, especifique el texto para capturar cualquier información adicional necesaria.
-1. En la ficha desplegable **Registros que incluir**, seleccione **Filtrar** para limitar la selección de artículos.
-1. En la ficha desplegable **Ejecutar en segundo plano**, especifique los parámetros del lote.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Configurar un plan maestro para incluir un pronóstico de inventario
+
+Para configurar un plan maestro de modo que incluya un pronóstico de inventario, siga estos pasos.
+
+1. Vaya a **Planificación maestra \> Configurar \> Planes \> Planes maestros**.
+1. Seleccione un plan existente o cree uno nuevo.
+1. En la ficha rápida **General**, establezca los siguientes campos:
+
+    - **Modelo de previsión** - Seleccione el modelo de previsión para aplicar. Este modelo se considerará cuando se genere una sugerencia de suministro para el plan maestro actual.
+    - **Incluir previsión de suministro** - Establezca esta opción en *Sí* para incluir la previsión de suministro en el plan maestro actual. Si se configura en *No*, las transacciones de previsión de suministro no se incluirán en el plan maestro.
+    - **Incluir previsión de la demanda** - Establezca esta opción en *Sí* para incluir la previsión de demanda en el plan maestro actual. Si se configura en *No*, las transacciones de previsión de demanda no se incluirán en el plan maestro.
+    - **Método utilizado para reducir los requisitos de pronóstico** - Seleccione el método que se debe utilizar para reducir los requisitos de pronóstico. Para más información, vea [Claves de reducción de previsión](planning-optimization/demand-forecast.md#reduction-keys).
+
+1. En la ficha desplegable **Vallas de tiempo en días**, puede establecer los siguientes campos para especificar el período durante el cual se incluye el pronóstico:
+
+    - **Plan de previsión** - Establezca esta opción en *Sí* para anular el límite de tiempo del plan de pronóstico que se origina en los grupos de cobertura individuales. Establézcalo en *No* para utilizar los valores de los grupos de cobertura individuales para el plan maestro actual.
+    - **Período de tiempo de pronóstico** - Si configura la opción **Plan de previsión** como *Sí*, especifique el número de días (a partir de la fecha de hoy) que se debe aplicar el pronóstico de demanda.
+
+    > [!IMPORTANT]
+    > La opción **Plan de previsión** aún no es compatible con la Optimización de la planificación.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Ejecutar un plan maestro que incluya un pronóstico de inventario
+
+Para ejecutar un plan maestro de modo que incluya un pronóstico de inventario, siga estos pasos.
+
+1. Vaya a **Planificacion maestra \> Espacios de trabajo \> Planificacion maestra**.
+1. En el campo **Plan maestro**, ingrese o seleccione el plan maestro que configuró en el procedimiento anterior.
+1. En el icono **Planificación maestra**, seleccione **Ejecutar**.
+1. En el cuadro de diálogo **Planificacion maestra**, establezca la opción **Seguimiento del tiempo de procesamiento** en *Sí*.
+1. En el campo **Número de subprocesos**, especifique un número.
+1. En la ficha desplegable **Registros a incluir**, seleccione **Filtro**.
+1. Aparece un cuadro de diálogo de editor de consultas estándar. En la pestaña **Rango**, seleccione la fila donde el campo **Campo** está establecido en *Número de artículo*.
+1. En el campo **Criterios**, seleccione el número de artículo para incluir en el plan.
 1. Seleccione **Aceptar**.
 
-Para ver los requisitos que se calculan, abra la página **Requisitos brutos**. Por ejemplo, en la página **Productos emitidos**, en la pestaña **Plan**, en la sección **Requisitos**, seleccione **Requisito bruto**.
+Para ver los requisitos que se calculan, abra la página **Requisitos brutos**. Por ejemplo, en la página **Productos emitidos**, en el panel Acción, en la pestaña **Plan**, en el grupo **Requisitos**, seleccione **Requisito bruto**.
 
 Para ver los pedidos planificados que se generan, vaya a **Planificacion maestra \> Común \> Pedidos planificados** y seleccione el plan de previsión adecuado.
 
@@ -376,5 +402,6 @@ Para ver los pedidos planificados que se generan, vaya a **Planificacion maestra
 - [Configuración de previsión de demanda](demand-forecasting-setup.md)
 - [Generar previsión estadística de línea base](generate-statistical-baseline-forecast.md)
 - [Realización de ajustes manuales en la previsión de línea base](manual-adjustments-baseline-forecast.md)
+- [Planificación maestra con previsiones de demanda](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

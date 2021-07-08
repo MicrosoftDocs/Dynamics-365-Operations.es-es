@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020492"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271086"
 ---
-# <a name="rebate-management-groups"></a>Grupos de administración de devoluciones
+# <a name="rebate-management-groups"></a>Grupos de gestión de devoluciones
 
 [!include [banner](../includes/banner.md)]
 
-Los cálculos de devoluciones y deducciones pueden realizarse por grupos. Se pueden crear grupos de administración de devoluciones para clientes, proveedores y artículos. Se pueden adjuntar a un registro maestro.
+Los cálculos de administración de devoluciones pueden realizarse por grupos. Se pueden crear grupos de administración de devoluciones para clientes, proveedores y artículos. Se pueden adjuntar a un registro maestro.
 
 ## <a name="rebate-management-customer-groups"></a>Grupos de administración de devoluciones de cliente
 
@@ -49,10 +49,9 @@ Para ver, agregar o eliminar clientes de un grupo seleccionado, siga estos pasos
 1. Vaya a **Gestión de devoluciones \> Configuración de grupos de administración de devoluciones \> Grupos de clientes**.
 1. Seleccione el grupo para administrar.
 1. En el panel Acciones, seleccione **Clientes**. Aparece la página **Grupos de administración de devoluciones** y muestra una lista de clientes que ya son miembros del grupo seleccionado.
-1. Para agregar un cliente nuevo al grupo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca los siguientes campos para la fila nueva:
+1. Para agregar un cliente nuevo al grupo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca el siguiente campo para la fila nueva:
 
     - **Cuenta de cliente**: seleccione el identificador de la cuenta de cliente.
-    - **Nombre**: introduzca un nombre y / o descripción del cliente.
 
 1. Para eliminar un cliente del grupo, seleccione el cliente y luego seleccione **Borrar** en el Panel de acciones.
 
@@ -61,10 +60,9 @@ Para ver, agregar o eliminar asignaciones de grupo de un cliente seleccionado, s
 1. Vaya a **Clientes \> Clientes \> Todos los clientes**.
 1. Seleccione el cliente con el que trabajar.
 1. En el panel de acciones, en la pestaña **Cliente**, en el grupo **Administración de devoluciones**, seleccione **Grupos de administración de devoluciones**. Aparece la página **Grupos de administración de devoluciones** y muestra una lista de grupos a los que ya pertenece el cliente seleccionado.
-1. Para agregar el cliente a un grupo nuevo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca los siguientes campos para la fila nueva:
+1. Para agregar el cliente a un grupo nuevo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca el siguiente campo para la fila nueva:
 
     - **Grupo de gestión de devoluciones**: seleccione el grupo al que agregar el cliente.
-    - **Descripción**: introduzca una descripción del grupo (por ejemplo, para explicar por qué el cliente es miembro de él).
 
 1. Para eliminar un cliente de un grupo, seleccione el grupo y luego seleccione **Borrar** en el Panel de acciones.
 
@@ -88,10 +86,9 @@ Para ver, agregar o eliminar proveedores de un grupo seleccionado, siga estos pa
 1. Vaya a **Gestión de devoluciones \> Configuración de grupos de administración de devoluciones \> Grupos de proveedores**.
 1. Seleccione el grupo para administrar.
 1. En el panel de acciones, seleccione **Proveedores**. Aparece la página **Grupos de administración de devoluciones** y muestra una lista de proveedores que ya son miembros del grupo seleccionado.
-1. Para agregar el proveedor a un grupo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca los siguientes campos para la fila nueva:
+1. Para agregar el proveedor a un grupo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca el siguiente campo para la fila nueva:
 
     - **Cuenta de proveedor**: seleccione el identificador de la cuenta de proveedor.
-    - **Nombre**: introduzca un nombre y / o descripción del proveedor.
 
 1. Para eliminar un proveedor del grupo, seleccione el proveedor y luego seleccione **Borrar** en el Panel de acciones.
 
@@ -100,10 +97,9 @@ Para ver, agregar o eliminar asignaciones de grupo de un proveedor seleccionado,
 1. Vaya a **Proveedores \> Proveedores \> Todos los proveedores**.
 1. Seleccione el proveedor con el que trabajar.
 1. En el panel de acciones, en la pestaña **Proveedor**, en el grupo **Administración de devoluciones**, seleccione **Grupos de administración de devoluciones**. Aparece la página **Grupos de administración de devoluciones** y muestra una lista de grupos a los que ya pertenece el proveedor seleccionado.
-1. Para agregar el proveedor a un grupo nuevo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca los siguientes campos para la fila nueva:
+1. Para agregar el proveedor a un grupo nuevo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca el siguiente campo para la fila nueva:
 
     - **Grupo de gestión de devoluciones**: seleccione el grupo al que agregar el proveedor.
-    - **Descripción**: introduzca una descripción del grupo (por ejemplo, para explicar por qué el proveedor es miembro de él).
 
 1. Para eliminar un proveedor de un grupo, seleccione el grupo y luego seleccione **Borrar** en el Panel de acciones.
 
@@ -127,10 +123,9 @@ Para ver, agregar o eliminar artículos de un grupo seleccionado, siga estos pas
 1. Vaya a **Gestión de devoluciones \> Configuración de grupos de administración de devoluciones \> Grupos de artículos**.
 1. Seleccione el grupo para administrar.
 1. En el panel de acciones, haga clic en **Artículos**. Aparece la página **Grupos de administración de devoluciones** y muestra una lista de artículos que ya son miembros del grupo seleccionado.
-1. Para agregar el artículos al grupo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca los siguientes campos para la fila nueva:
+1. Para agregar el artículos al grupo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca el siguiente campo para la fila nueva:
 
     - **Cuenta de artículo**: seleccione el identificador de la cuenta de artículo.
-    - **Nombre del producto**: introduzca un nombre y / o descripción del artículo.
 
 1. Para eliminar un artículo del grupo, seleccione el artículo y luego seleccione **Borrar** en el Panel de acciones.
 
@@ -139,10 +134,9 @@ Para ver, agregar o eliminar asignaciones de grupo de un artículo seleccionado,
 1. Vaya a **Gestión de información de productos \> Productos \> Productos despachados**.
 1. Seleccione el artículo con el que trabajar.
 1. En el panel de acciones, en la pestaña **Producto**, en el grupo **Administración de devoluciones**, seleccione **Grupos de administración de devoluciones**. Aparece la página **Grupos de administración de devoluciones** y muestra una lista de grupos a los que ya pertenece el artículo seleccionado.
-1. Para agregar el artículo a un grupo nuevo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca los siguientes campos para la fila nueva:
+1. Para agregar el artículo a un grupo nuevo, seleccione **Nuevo** en el panel de acciones para añadir una fila a la cuadrícula. Entonces establezca el siguiente campo para la fila nueva:
 
     - **Grupo de gestión de devoluciones**: seleccione el grupo al que agregar el artículo.
-    - **Descripción**: introduzca una descripción del grupo (por ejemplo, para explicar por qué el artículo es miembro de él).
 
 1. Para eliminar un artículo de un grupo, seleccione el grupo y luego seleccione **Borrar** en el Panel de acciones.
 

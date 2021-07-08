@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a2db97cfd5aa6210002bf3e6abb1d7a178623c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057367"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303253"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Administrar solicitudes de bajas y ausencias
 
@@ -34,11 +34,9 @@ Administre las solicitudes de permiso en el espacio de trabajo **Autoservicio pa
 
 3. Vea y apruebe las solicitudes de permisos de los miembros de su equipo según sea necesario.
 
-## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Versión preliminar) Mejoras de la experiencia del flujo de trabajo de solicitud de baja
+## <a name="leave-request-workflow-experience-enhancements"></a>Mejoras de la experiencia del flujo de trabajo de solicitud de baja
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Esta función de vista previa proporciona las siguientes mejoras:
+Esta función proporciona las siguientes mejoras:
 
 - Puede seleccionar varias solicitudes de baja y realizar la misma acción en todas ellas.
 - La cinta de la parte superior y un nuevo botón de flujo de trabajo en la página muestran las acciones que puede realizar en las solicitudes de baja.

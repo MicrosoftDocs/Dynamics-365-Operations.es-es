@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
+ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222519"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261919"
 ---
 # <a name="finance-insights-home-page-preview"></a>Página de inicio de información financiera (versión preliminar)
 
@@ -32,6 +32,9 @@ Finance Insights proporciona modelos configurables y extensibles para ayudarle a
 La versión preliminar de Finance Insights está disponible para implementaciones de prueba en los Estados Unidos de América, Europa y el Reino Unido. Microsoft está agregando gradualmente soporte para más regiones.
 
 Las características en vista previa (GB) pueden y deben activarse solo en entornos de espacio aislado de nivel 2. Los modelos de configuración e inteligencia artificial (IA) que se crean en un entorno de espacio aislado no se pueden migrar a un entorno de producción. Para más información, consulte [Condiciones de uso suplementarias para Vistas previas de Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+
+> [!NOTE]
+> Esta funcionalidad se ofrece como un conjunto de funciones de vista previa. Como función de vista previa, no debe utilizar los modelos de aprendizaje automático resultantes para impulsar o influir en sus decisiones comerciales o propuestas presupuestarias. Su uso de esta función se rige por [Términos de uso suplementarios](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 ## <a name="prerequisites"></a>Requisitos previos
 

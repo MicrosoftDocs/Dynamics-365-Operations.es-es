@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224043"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304402"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Diseñar una nueva solución de informes electrónicos para imprimir un informe personalizado
 
@@ -185,7 +185,7 @@ Al completar los pasos de la sección [Importar una nueva configuración de mode
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importar una nueva configuración de modelo de datos
 
-1. Descargue el archivo [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) y guárdelo en su equipo local.
+1. Descargue el archivo [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) y guárdelo en su equipo local.
 2. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 3. En el espacio de trabajo **Informes electrónico**, seleccione **Configuraciones de informes**.
 4. En el panel Acción, seleccione **Exchange** \> **Cargar del archivo XML**.
@@ -300,7 +300,7 @@ Al completar los pasos de la sección [Importar una nueva configuración de asig
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importar una nueva configuración de asignación de modelo
 
-1. Descargue el archivo [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) y guárdelo en su equipo local.
+1. Descargue el archivo [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) y guárdelo en su equipo local.
 2. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 3. En el espacio de trabajo **Informes electrónico**, seleccione **Configuraciones de informes**.
 4. En el panel Acción, seleccione **Exchange** \> **Cargar del archivo XML**.
@@ -366,7 +366,7 @@ Debe configurar los orígenes de datos para acceder a las tablas de la aplicaci�
     2. Seleccione **Agregar**.
     3. En el cuadro de diálogo, en el campo **Nombre**, escriba **\$ResultGroup**.
     4. Seleccione **Editar fórmula**.
-    5. En el [Editor de fórmulas ER](general-electronic-reporting-formula-designer.md), en el campo **Fórmula**, escriba **FIRSTORNULL(\@ .'\<Relations'.KMQuestionResultGroup)** para usar la [ruta](er-formula-language.md#paths) de la relación uno a varios entre las tablas KMCollection y KMQuestionResultGroup.
+    5. En el [Editor de fórmulas ER](general-electronic-reporting-formula-designer.md), en el campo **Fórmula**, escriba **FIRSTORNULL(\@ .'\<Relations'.KMQuestionResultGroup)** para usar la [ruta](er-formula-language.md#Paths) de la relación uno a varios entre las tablas KMCollection y KMQuestionResultGroup.
     6. Seleccione **Guardar** y cierre el editor de fórmulas.
     7. Seleccione **Aceptar** para agregar el nuevo campo calculado.
 
@@ -547,7 +547,7 @@ El estado de la versión 1.1 de esta configuración cambia de **Borrador** a **C
 
 El marco de ER usa plantillas de documento predefinidas para generar informes con formatos de Microsoft Office (libros de Excel o documentos de Word). Mientras se genera el informe requerido, se rellena una plantilla con los datos necesario de acuerdo con el flujo de datos configurado. Por lo tanto, primero debe diseñar una plantilla para su informe personalizado. Esta plantilla debe diseñarse como un libro de Excel, cuya estructura representa el diseño de un informe personalizado. Debe asignar nombre a todos los elementos de Excel que planea completar con los datos requeridos.
 
-1. Descargue el archivo [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) y guárdelo en su equipo local.
+1. Descargue el archivo [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) y guárdelo en su equipo local.
 2. Abra el archivo en Excel y revise la estructura del libro.
 
 Como muestra la siguiente ilustración, la plantilla descargada ha sido diseñada para imprimir cuestionarios específicos que presentan las preguntas de un cuestionario junto con las respuestas adecuadas.
@@ -572,7 +572,7 @@ Al completar los pasos de la sección [Importar una configuración de formato di
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importar una configuración de formato diseñado
 
-1. Descargue el archivo [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) y guárdelo en su equipo local.
+1. Descargue el archivo [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) y guárdelo en su equipo local.
 2. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 3. En el espacio de trabajo **Informes electrónico**, seleccione **Configuraciones de informes**.
 4. En el panel de acciones, seleccione **Exchange** \> **Cargar desde un archivo XML**.

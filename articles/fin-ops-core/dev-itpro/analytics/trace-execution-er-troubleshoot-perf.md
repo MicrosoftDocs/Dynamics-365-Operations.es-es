@@ -2,7 +2,7 @@
 title: Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento
 description: Este tema proporciona información acerca de cómo utilizar la función de seguimiento del rendimiento en los informes electrónicos (ER) para solucionar problemas de rendimiento.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944662"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295582"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Seguir la ejecución de formatos de ER para solucionar problemas de rendimiento
 
@@ -119,12 +119,27 @@ Las versiones correspondientes de la configuración de la asignación del modelo
 2. En la página **Configuraciones**, en el panel de acciones, en la pestaña **Configuraciones**, en el grupo **Configuración avanzada**, seleccione **Parámetros de usuario**.
 3. En el cuadro **Parámetros de usuario**, en la sección **Seguimiento de la ejecución**, siga estos pasos:
 
-    1. En el campo **Formato de seguimiento de la ejecución**, seleccione **Formato de seguimiento de la depuración** para empezar a recopilar los detalles de la ejecución del formato de ER. Cuando se selecciona este valor, el seguimiento del rendimiento obtendrá información sobre el tiempo que se emplea en las acciones siguientes:
+    1. En el campo **Formato de seguimiento de la ejecución**, especifique el formato de rendimiento generado seguido paso a paso que los detalles de la ejecución se deben almacenar en para los artículos del formato y la asignación de ER:
 
-        - Ejecutar cada origen de datos en el modelo de mapeado que se usa para obtener datos
-        - Procesar cada elemento de formato para introducir datos en la salida que se genera
+        - **Formato de seguimiento de depuración** - Seleccione este valor si planea ejecutar de forma interactiva un formato ER que tiene un tiempo de ejecución corto. A continuación, se inicia la recopilación de detalles sobre la ejecución del formato ER. Cuando se selecciona este valor, el seguimiento del rendimiento obtiene información sobre el tiempo que se emplea en las acciones siguientes:
 
-        Use el campo **Formato de seguimiento de la ejecución** para especificar el formato de rendimiento generado seguido paso a paso que los detalles de la ejecución se almacenan en para los artículos del formato y la asignación de ER. Seleccionando **Formato de seguimiento de la depuración** como valor, podrá analizar el contenido del seguimiento en el Diseñador de la operación de ER y ver el formato de ER o mapear los artículos mencionados en el seguimiento.
+            - Ejecutar cada origen de datos en el modelo de mapeado que se usa para obtener datos
+            - Procesar cada elemento de formato para introducir datos en la salida que se genera
+
+            Si selecciona el valor **Formato de seguimiento de depuración**, puede analizar el contenido de la traza en el diseñador de operaciones de ER. Allí, puede ver el formato ER o los elementos de mapeo que se mencionan en el seguimiento.
+
+        - **Formato de seguimiento agregado** - Seleccione este valor si planea ejecutar un formato ER que tiene un tiempo de ejecución largo en modo por lotes. A continuación, se inicia la recopilación de detalles agregados sobre la ejecución del formato ER. Cuando se selecciona este valor, el seguimiento del rendimiento obtiene información sobre el tiempo que se emplea en las acciones siguientes:
+
+            - Ejecutar cada origen de datos en el modelo de mapeado que se usa para obtener datos
+            - Ejecutar cada origen de datos en el mapeado de formato que se usa para obtener datos
+            - Procesar cada elemento de formato para introducir datos en la salida que se genera
+
+            El valor **Formato de seguimiento agregado** está disponible en Microsoft Dynamics 365 Finance versión 10.0.20 y posteriores.
+
+            En el diseñador de formato ER y el diseñador de mapeo del modelo ER, puede ver el tiempo total de ejecución de un solo componente. Además, el seguimiento contiene detalles sobre la ejecución, como el número de ejecuciones y el tiempo mínimo y máximo de una sola ejecución.
+
+            > [!NOTE]
+            > Este rastreo se recopila en función de la ruta de los componentes rastreada. Por lo tanto, las estadísticas pueden ser incorrectas cuando un solo componente principal contiene varios componentes secundarios sin nombre o cuando varios componentes secundarios tienen el mismo nombre.
 
     2. Establezca las siguientes opciones a **Sí** para obtener los detalles específicos de la ejecución de los componentes de la asignación del modelo de ER y el formato de ER:
 

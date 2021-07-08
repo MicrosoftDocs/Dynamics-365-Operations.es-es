@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5188fa271cd9eb24140a9edcf507a3da72b61074
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82b8a4e6ba7ebea7df9f5dad5abc3dfc3ce2687d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020540"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270770"
 ---
 # <a name="process-review-and-post-rebates"></a>Procesar, revisar y publicar devoluciones
 
@@ -55,9 +55,9 @@ Cuando procesa un acuerdo, el sistema calcula todos las devoluciones y regalías
 1. Seleccione la fila para cada acuerdo que desee procesar (o abra el acuerdo que desea procesar).
 1. En el panel de acciones, en la pestaña **Gestión de acuerdos de devoluciones**, en el grupo **Generar**, seleccione uno de los siguientes comandos:
 
-    - **Proceso \> Provisión** - Aprovisione un conjunto de acumulaciones para cada oferta de reembolso relevante, pero no las publique.
+    - **Proceso \> Provisión** - Aprovisione un conjunto de acumulaciones para cada oferta de reembolso relevante, pero no las publique. Este elemento de menú no está disponible para ofertas en las que el campo **Rebaja de salida** está configurado en *Artículo*.
     - **Proceso \> Gestión de devoluciones** - Procesar una serie de transacciones que proporcionen el valor de la devolución para cada acuerdo.
-    - **Proceso \> Cancelar** - Revertir las transacciones publicadas anteriormente para cancelarlas de modo que se puedan calcular las nuevas transacciones de devolución.
+    - **Proceso \> Pedir por escrito** - Para cada transacción de origen para el acuerdo de devolución y el período especificado, procese la variación entre los importes contabilizados para una provisión y para la gestión de devolución. Este elemento de menú no está disponible para ofertas en las que el campo **Rebaja de salida** está configurado en *Artículo*.
 
 1. En el cuadro de diálogo que aparece, configure los campos **A partir de** y **Hasta** para definir el rango de fechas para el cálculo.
 1. Seleccione **Aceptar** para ejecutar el cálculo.
@@ -70,9 +70,9 @@ Cuando procesa un acuerdo, el sistema calcula todos las devoluciones y regalías
 1. En la ficha desplegable **Gestión de devoluciones**, seleccione la fila para cada línea de acuerdo que desee procesar.
 1. En la barra de herramientas de la ficha desplegable **Gestión de devoluciones**, seleccione uno de los siguientes comandos. (Estos comandos solo están disponibles para acuerdos en los que el campo **Reconciliar por** el campo está configurado en *Línea*).
 
-    - **Proceso \> Provisión** - Aprovisione un conjunto de acumulaciones para cada línea de acuerdo relevante, pero no las publique.
+    - **Proceso \> Provisión** - Aprovisione un conjunto de acumulaciones para cada línea de acuerdo relevante, pero no las publique. Este elemento de menú no está disponible para ofertas en las que el campo **Rebaja de salida** está configurado en *Artículo*.
     - **Proceso \> Gestión de devoluciones** - Procesar una serie de transacciones que proporcionen el valor de la devolución para cada línea de acuerdo.
-    - **Proceso \> Cancelar** - Revertir las transacciones publicadas anteriormente para cancelarlas de modo que se puedan calcular las nuevas transacciones de devolución.
+    - **Proceso \> Pedir por escrito** - Para cada transacción de origen para el acuerdo de devolución y el período especificado, procese la variación entre los importes contabilizados para una provisión y para la gestión de devolución. Este elemento de menú no está disponible para ofertas en las que el campo **Rebaja de salida** está configurado en *Artículo*. 
 
 1. En el cuadro de diálogo que aparece, configure los campos **A partir de** y **Hasta** para definir el rango de fechas para el cálculo.
 1. Seleccione **Aceptar** para ejecutar el cálculo.
@@ -115,26 +115,26 @@ Cuando procesa una o más transacciones, el sistema crea transacciones que puede
         - **Conjunto no reclamado \> Todo** - Marque todas las transacciones como no reclamadas.
         - **Conjunto no reclamado \> Seleccionado** - Marque las transacciones seleccionadas como no reclamadas.
 
-    - Para publicar la reclamación de una o más líneas, seleccione las líneas relevantes y luego, en el Panel de acciones, seleccione **Publicar**. (El botón **Publicar** está disponible solo para transacciones de reembolso. No está disponible para transacciones de provisión y cancelación). En el cuadro de diálogo **Publicar**, los campos **A partir de la fecha** y **Hasta la fecha** se establecen automáticamente. Establezca el campo **Fecha de publicación** y después seleccione **Aceptar**.
+    - Seleccione **Correo** en el Panel de acciones para publicar el reclamo para todas las líneas relevantes. Si está utilizando un proceso de reclamos (cuando la opción **Usar proceso de reclamo** está habilitada en la página **Parámetros de gestión de descuentos**), solo las líneas que están marcadas como **Reclamado** se publican. De lo contrario, se contabilizan todas las transacciones de origen para la transacción de devolución seleccionada. El botón **Publicar** está disponible solo para transacciones de reembolso. No está disponible para transacciones de provisión y cancelación. En el cuadro de diálogo **Correo**, los campos **Partir de la fecha** y **Hasta la fecha** se establecen automáticamente. Establezca el campo **Fecha de publicación** y después seleccione **Aceptar**.
     - Para ajustar la cantidad que se muestra para cualquier transacción abierta o no contabilizada, seleccione la transacción y luego siga uno de estos pasos:
 
         - Edite el valor en el campo **Importe corregido**.
         - En el panel de acciones, seleccione **Establecer corrección**. Luego, en el cuadro de diálogo desplegable que aparece, en el campo **Importe corregido**, introduzca un valor.
 
 > [!NOTE]
-> Cuando procese el siguiente período, la lista de transacciones incluirá todas las transacciones no reclamadas de la publicación anterior, más cualquier transacción nueva para el período seleccionado.
+> Si usa un proceso de reclamaciones, cuando procese el siguiente período, la lista de transacciones incluirá todas las transacciones no reclamadas de la publicación anterior, más cualquier transacción nueva para el período seleccionado.
 
 ## <a name="post-rebates-transactions"></a>Transacciones post devoluciones
 
-Para publicar el valor de las devoluciones y deducciones, debe ejecutar el proceso de contabilización, a menos que haya configurado su sistema para contabilizarlos automáticamente.
+Para contabilizar el valor de una provisión procesada, el monto de la gestión de reembolsos y la cancelación, debe ejecutar el proceso de contabilización. El proceso de contabilización marca la provisión, la gestión de descuentos o las transacciones de cancelación como contabilizadas y crea la transacción de destino. Si no tiene que revisar la transacción de destino, estas transacciones se pueden configurar para que se registren automáticamente.
 
-### <a name="set-up-the-system-to-post-all-transactions-automatically"></a>Configure el sistema para registrar todas las transacciones automáticamente
+### <a name="set-up-the-system-to-post-all-target-transactions-automatically"></a>Configure el sistema para registrar todas las transacciones de destino automáticamente
 
-Para configurar su sistema para que contabilice todas las transacciones tan pronto como se generen, active la opción **Publicar diarios automáticamente** y / o **Publique automáticamente facturas de servicios** en la página **Parámetros de gestión de descuentos**. Para más información, vea [Parámetros de gestión de devolución](rebate-management-parameters.md).
+Para configurar su sistema para que contabilice todas las transacciones de destino tan pronto como se generen por una provisión de registro, cantidad de gestión de descuento y cancelación, active la opción **Publicar diarios automáticamente** y/o **Publique automáticamente facturas de servicios** en la página **Parámetros de gestión de descuentos**. Para más información, vea [Parámetros de gestión de devolución](rebate-management-parameters.md).
 
 ### <a name="post-transactions-for-all-lines-for-one-or-more-deals"></a>Publicar transacciones para todas las líneas para uno o más acuerdos
 
-Si no está utilizando la publicación automática, después de haber procesado las ofertas relevantes, siga estos pasos para revisar y publicar las transacciones generadas para todas las líneas de una o más ofertas.
+Después de haber procesado las ofertas relevantes, siga estos pasos para revisar y publicar las transacciones generadas para todas las líneas de una o más ofertas.
 
 1. Abra la [página de lista de ofertas de devolución](rebate-management-deals.md) apropiada para el tipo de acuerdo con el que desea trabajar.
 1. Seleccione la fila para cada acuerdo que desee publicar (o abra el acuerdo que desea publicar).
@@ -149,7 +149,7 @@ Si no está utilizando la publicación automática, después de haber procesado 
 
 ### <a name="post-transactions-for-one-or-more-specific-deal-lines-for-a-selected-deal"></a>Publicar transacciones para una o más líneas de acuerdo específicas para un acuerdo seleccionado
 
-Si no está utilizando la publicación automática, después de haber procesado las ofertas relevantes, siga estos pasos para revisar y publicar las transacciones generadas para una o más líneas de acuerdo específicas para un acuerdo específico.
+Después de haber procesado las ofertas relevantes, siga estos pasos para revisar y publicar las transacciones generadas para una o más líneas de ofertas específicas para una oferta específica. Este procedimiento se aplica solo para acuerdos en los que el campo **Reconciliar por** el campo está configurado en *Línea*.
 
 1. Abra la [página de lista de ofertas de devolución](rebate-management-deals.md) apropiada para el tipo de acuerdo con el que desea trabajar.
 1. Abra el acuerdo que tiene una línea para la que desea registrar transacciones.
@@ -174,7 +174,7 @@ En lugar de publicar transacciones para acuerdos o líneas de acuerdos específi
     - Vaya a **Gestión de devoluciones \> Tareas periódicas \> Publicar \> Gestión de devolución** para registrar las transacciones de devolución disponibles que ha creado.
     - Vaya a **Gestión de devoluciones \> Tareas periódicas \> Publicar \> Cancelar** para registrar las transacciones de cancelación disponibles que ha creado.
 
-1. En el cuadro de diálogo que aparece, en la ficha desplegable **Parámetros**, en la sección **Período**, establezca el campo **Fecha de publicación**. Entonces establezca los campos **A partir de** y **Hasta** para definir el rango de fechas para las transacciones que deben publicarse. 
+1. En el cuadro de diálogo que aparece, en la ficha desplegable **Parámetros**, en la sección **Período**, establezca el campo **Fecha de publicación**. Entonces establezca los campos **A partir de** y **Hasta** para definir el rango de fechas para las transacciones que deben publicarse.
 1. En la sección **Período garantizado**, configure los campos **A partir de** y **Hasta** para definir el rango para las garantías que deben publicarse.
 1. En la ficha desplegable **Registros para incluir**, puede configurar filtros para limitar el conjunto de acuerdos que procesará el trabajo por lotes. Estas configuraciones funcionan de la misma forma que funcionan para otros tipos de trabajos por lotes.
 1. En la ficha desplegable **Ejecutar en segundo plano** puede configurar el proceso por lotes y opciones de programación según sea necesario. Estas configuraciones funcionan de la misma forma que funcionan para otros tipos de trabajos por lotes.
@@ -182,17 +182,17 @@ En lugar de publicar transacciones para acuerdos o líneas de acuerdos específi
 
 ## <a name="review-rebate-management-journals"></a>Revisar los diarios de gestión de devoluciones
 
-Una vez que se hayan contabilizado sus transacciones, puede revisar los diarios, documentos o artículos resultantes. Las transacciones de destino para devoluciones y regalías se basan en el tipo de pago que se establece en el perfil de contabilización y el tipo de salida de la devolución. Por ejemplo, si la salida de la devolución se establece en *Artículo*, se creará un pedido de ventas y se podrá ver a través de las transacciones de destino. Alternativamente, si el pago está configurado para usar Proveedores, se creará una factura de proveedor para el proveedor que se configura en el cliente para los reembolsos del cliente.
+Una vez que se hayan contabilizado sus transacciones, puede revisar los diarios, documentos o artículos resultantes. Las transacciones de destino para devoluciones y regalías se basan en el tipo de pago que se establece en el perfil de contabilización y el tipo de salida de la devolución. Por ejemplo, si la salida de la devolución se establece en *Artículo*, se creará una orden de venta para una devolución de cliente y se creará una orden de compra para una devolución de proveedor. Estos pedidos se pueden ver a través de las transacciones de destino. Alternativamente, si el pago está configurado para usar Proveedores, se creará una factura de proveedor para el proveedor que se configura en el cliente para los reembolsos del cliente.
 
 Para revisar los asientos de diario que están asociados con un acuerdo de gestión de devolución, siga estos pasos.
 
 1. Abra la [página de lista de ofertas de devolución](rebate-management-deals.md) apropiada para el tipo de acuerdo con el que desea trabajar.
 1. Seleccione el acuerdo para inspeccionar las entradas del diario.
-1. En el panel de acciones, en la pestaña **Gestión de acuerdos de devoluciones**, en el grupo **Transacciones**, seleccione **Transacciones** o **Transacciones de devolución**, según el tipo de transacciones que desee ver.
+1. En el panel de acciones, en la pestaña **Gestión de acuerdos de devoluciones**, en el grupo **Transacciones**, seleccione **Transacciones** o **Transacciones de garantía**, según el tipo de transacciones que desee ver.
 1. Asegúrese de que el campo **Mostrar** está configurado en *Todo* o *Publicado*.
 1. Busque y seleccione la colección de transacciones que desea inspeccionar y luego, en el Panel de acciones, seleccione uno de los siguientes botones. (Estos botones están disponibles solo cuando existen publicaciones relevantes para la colección de transacciones seleccionada).
 
     - **Transacciones objetivo** - Revisar diarios relevantes y otros tipos de documentos que fueron generados por el acuerdo seleccionado.
-    - **Artículos** - Revise los artículos relevantes que fueron generados por el acuerdo seleccionado.
+    - **Artículos** - Revise las órdenes de venta o las órdenes de compra relevantes que fueron generadas por la oferta seleccionada.
 
 1. Aparece una lista de diarios, documentos o elementos relevantes. Para ver más información sobre cualquier diario, documento o artículo, seleccione su fila y luego, en el Panel de acciones, seleccione **Ver detalles**.

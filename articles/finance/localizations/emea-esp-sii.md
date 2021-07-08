@@ -2,7 +2,7 @@
 title: Suministro inmediato de información del IVA, SII
 description: Este tema describe cómo configurar y usar Microsoft Dynamics 365 Finance para interoperar con el sistema SII de España.
 author: liza-golub
-ms.date: 07/23/2020
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,31 @@ ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9ba1fafe2dc5c8cbe7542545f2e831fcbd21ed53
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 457a47343a744069e341d447f638b478f7191704
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892447"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270723"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
 [!include [banner](../includes/banner.md)]
 
-De acuerdo con el R.D. 596/2016 en España, un nuevo sistema de gestión del impuesto sobre el valor agregado (IVA) basado en el Suministro inmediato de información del IVA (SII) permite una relación bidireccional y automatizada entre la Agencia Tributaria Española (AEAT) y el contribuyente. En el resto de este tema, este sistema se denominará el sistema SII. A partir del 1 de julio de 2017, los contribuyentes sujetos a SII, y otros que lo adopten voluntariamente, deben enviar detalles de sus registros de facturación en un plazo de cuatro días mediante presentación en línea en el sitio web de AEAT.
+De acuerdo con el R.D. 596/2016 en España, un nuevo sistema de gestión del impuesto sobre el valor agregado (IVA) basado en el Suministro inmediato de información del IVA (SII) permite una relación bidireccional y automatizada entre la Agencia Estatal de Administración Tributaria (AEAT) y el contribuyente. En este tema, este sistema se denominará el sistema SII. A partir del 1 de julio de 2017, los contribuyentes sujetos a SII, y otros que lo adopten voluntariamente, deben enviar detalles de sus registros de facturación en un plazo de cuatro días mediante presentación en línea en el sitio web de AEAT.
 
 Para obtener más información sobre el sistema SII de España, consulte el [sitio web oficial del Suministro inmediato de información del IVA (SII)](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio/La_Agencia_Tributaria/Campanas/Suministro_Inmediato_de_Informacion_en_el_IVA__SII_/Suministro_Inmediato_de_Informacion_en_el_IVA__SII_.shtml).
 
 ## <a name="overview"></a>Información general
+
+Microsoft Dynamics 365 Finance soporta el ciclo completo de tramitación, incluida la generación de formato y envío de los siguientes informes al sistema SII de España:
+
+   - 'Libro de registro de facturas Expedidas': Libro registro de facturas emitidas 
+   - 'Libro de registro de facturas Recibidas': Libro registro de facturas recibidas
+   - 'Libro de registro de determinadas operaciones intracomunitarias': Libro de registro de determinadas operaciones intracomunitarias
+   - 'Cobros sobre facturas registradas en el Libro de registro de Facturas Expedidas': Pagos por facturas registradas en el libro registro de facturas emitidas
+   - 'Pagos para facturas registradas en el Libro de registro de Facturas Recibidas': Pagos por facturas registradas en el libro registro de facturas recibidas
+   - 'Cobros en Metálico': Pagos en efectivo
 
 Este tema describe cómo configurar y usar Microsoft Dynamics 365 Finance para interoperar con el sistema SII de España. Incluye información sobre cómo completar las siguientes tareas:
 
@@ -152,8 +161,7 @@ Después de importar las entidades de datos a la base de datos, complete las sig
 1.  Configure los parámetros de clase ejecutables.
 2.  Configure los campos adicionales y reglas definidas automáticamente.
 3.  Configure secuencias numéricas para mensajes electrónicos.
-4.  Configure la configuración por lotes para el procesamiento automatizado de la interoperación con el sistema SII.
-5.  Configure los roles de seguridad para el procesamiento de mensajes electrónicos.
+4.  Configure los roles de seguridad para el procesamiento de mensajes electrónicos.
 
 ## <a name="set-up-executable-class-parameters"></a>Configurar los parámetros de clase ejecutables
 
@@ -395,7 +403,7 @@ Se pueden especificar razones financieras para las facturas que se contabilizan 
 -   Diario de proveedores (AP)
 -   Contabilidad general (GL), diario general
 
-Cuando puede crear una factura a partir de los tipos de documentos a partir de los cuales se pueden crear facturas, puede establecer un motivo específico para la factura. La acción **GenerateMessageItem** analizará este motivo y se establecerá el código de SII para el elemento del mensaje electrónico.
+Cuando crea una factura a partir de los tipos de documentos a partir de los cuales se pueden crear facturas, puede establecer un motivo específico para la factura. La acción **GenerateMessageItem** analizará este motivo y se establecerá el código de SII para el elemento del mensaje electrónico.
 
 Siga estos pasos para configurar motivos financieros.
 
@@ -417,6 +425,15 @@ Para permitir que el sistema defina el tipo de factura en función de la configu
     -   **Grupo de impuestos de artículos**
 
      También puede especificar fechas de vigencia y vencimiento para su regla.
+
+### <a name="algorithm-to-define-the-tiporectificativa-tag-for-a-credit-note"></a>Algoritmo para definir la etiqueta TipoRectificativa para una nota de crédito
+
+Ambos formatos, **Libro de registro de facturas Recibidas** (facturas recibidas) y **Libro de registro de facturas Expedidas** (facturas emitidas), deben incluir una etiqueta **TipoRectificativa** para informar notas de crédito. Esta etiqueta informa el tipo de nota de crédito y puede tener uno de los siguientes valores:
+
+   - **I** (INCREMENTAL): Incremental
+   - **S** (SUSTITUTIVA): Sustituto
+
+Para reportar una nota de crédito con un valor **I** en la etiqueta **TipoRectificativa**, antes de publicar la nota de crédito, cuando especifica la factura original utilizando la función **Facturación de crédito**, seleccione **Corrección solo por diferencias** en el campo **Método de corrección** en el cuadro de diálogo **Facturación de crédito**.
 
 ### <a name="algorithm-to-define-the-tipooperacion-intra-community-operation-type-additional-field"></a>Algoritmo para definir el valor del campo adicional TipoOperacion (Tipo de operación intracomunitaria)
 
@@ -520,12 +537,6 @@ Para trabajar con la funcionalidad de mensajes electrónicos, debe definir secue
 
 -   Mensaje
 -   Elemento de mensaje
-
-## <a name="set-up-batch-settings-for-automated-processing-of-interoperation-with-the-sii-system"></a>Configurar la configuración por lotes para el procesamiento automatizado de la interoperación con el sistema SII
-
-1.  Vaya a **Impuestos \> Configuración \> Mensajes electrónicos \> Procesamiento de mensaje electrónico**.
-2.  Seleccionar bien el procesamiento **SII** o **CollectionInCash**.
-3.  En la ficha desplegable **Lote**, seleccione **Crear lote**, y luego defina los parámetros requeridos.
 
 ## <a name="set-up-security-roles-for-electronic-message-processing"></a>Configure los roles de seguridad para el procesamiento de mensajes electrónicos
 
@@ -634,6 +645,15 @@ Para registrar facturas al sistema SII, siga estos pasos.
 2.  En el panel de acciones, seleccione **Ejecutar procesamiento**.
 3.  En el cuadro de diálogo, en campo **Procesamiento**, seleccione **SII**.
 4.  Si desea ejecutar todas las acciones posibles para el procesamiento de **SII**, anule la selección de la casilla **Elegir acción**. Si desea ejecutar solo una acción específica, seleccione la casilla **Elegir acción** y luego, en el campo **Acción**, seleccione la acción a ejecutar.
+
+### <a name="run-sii-processing-in-batch-mode-for-automated-processing-of-interoperation-with-the-sii-system"></a>Ejecute el procesamiento SII en modo por lotes para el procesamiento automatizado de la interoperación con el sistema SII
+Para ejecutar el procesamiento SII en modo por lotes para el procesamiento automatizado de la interoperación con el sistema SII, siga estos pasos:
+
+1.  Vaya a **Impuestos** > **Consultas e informes** > **Mensajes electrónicos** > **Elementos de mensajes electrónicos**.
+2.  En el panel de acciones, seleccione **Ejecutar procesamiento**.
+3.  En el cuadro de diálogo, en campo **Procesamiento**, seleccione **SII**.
+4.  Si desea ejecutar todas las acciones posibles para el procesamiento de **SII**, anule la selección de la casilla **Elegir acción**. Si desea ejecutar solo una acción específica, seleccione la casilla **Elegir acción** y luego, en el campo **Acción**, seleccione la acción a ejecutar.
+5.  Defina los parámetros del procesamiento por lotes en la ficha desplegable **Ejecutar en segundo plano** en el cuadro de diálogo **Ejecutar procesamiento**. Para obtener más información sobre el procesamiento por lotes, vea [Descripción general del procesamiento por lotes](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="exclude-an-invoice-from-reporting-to-the-sii-system"></a>Excluir una factura de su registro en el sistema SII
 

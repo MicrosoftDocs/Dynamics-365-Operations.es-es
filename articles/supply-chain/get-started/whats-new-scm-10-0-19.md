@@ -1,5 +1,5 @@
 ---
-title: Versión preliminar de Dynamics 365 Supply Chain Management 10.0.19 (junio de 2021)
+title: Novedades y cambios en la versión 10.0.19 de Dynamics 365 Supply Chain Management (junio de 2021)
 description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 7f98eee2a821191cefc27abbbd59373084c8b50c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6114984"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271458"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.19 (junio de 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novedades y cambios en la versión 10.0.19 de Dynamics 365 Supply Chain Management (junio de 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en la versión preliminar de Microsoft Dynamics 365 Supply Chain Management de la versión 10.0.19. Esta versión tiene el número de compilación 10.0.837 y está disponible de la siguiente manera:
+En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.19. Esta versión tiene el número de compilación 10.0.837 y está disponible de la siguiente manera:
 
 - **Vista previa de versión:** abril de 2021
 - **Disponibilidad general de la versión (actualización automática):** junio de 2021
@@ -32,7 +31,7 @@ En este tema se enumeran las características nuevas o modificadas en la versió
 
 La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada.
 
-La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse. Algunas de las funciones enumeradas todavía están en vista previa, mientras que otras pueden estar ya disponibles de manera general.
+La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
 
 | Área de características | Característica | Más información |
 |---|---|---|

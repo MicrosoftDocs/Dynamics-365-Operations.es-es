@@ -1,8 +1,8 @@
 ---
 title: Aprovisionar Human Resources
-description: Este artículo recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources.
+description: Este tema recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/23/2020
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2632616834e405d31facdcf3853baaf96066e9aa
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193733"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248830"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -28,9 +28,15 @@ ms.locfileid: "6193733"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este artículo recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources. Este artículo asume que ha comprado Human Resources a un proveedor de soluciones de nube (CSP) o mediante un contrato de arquitectura empresarial (EA). Si dispone de una licencia existente de Microsoft Dynamics 365 que ya incluye el plan de servicio de Human Resources y no puede realizar los pasos de este artículo, póngase en contacto con soporte.
+Este tema recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources. Este tema asume que ha comprado Human Resources a un proveedor de soluciones de nube (CSP) o mediante un contrato de arquitectura empresarial (EA). Si dispone de una licencia existente de Microsoft Dynamics 365 que ya incluye el plan de servicio de Human Resources y no puede realizar los pasos de este artículo, póngase en contacto con soporte.
 
 Para empezar, el administrador global debe iniciar sesión en [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) y crear un nuevo proyecto de Human Resources. A menos que un problema de licencia le impida aprovisionar Human Resources, no es obligatoria la ayuda de Soporte o de los representantes de la ingeniería de servicio de Dynamics.
+
+## <a name="provision-a-human-resources-trial-environment"></a>Proporcionar un entorno de prueba de recursos humanos
+
+Antes de aprovisionar su primer entorno de pruebas o producción, es posible que desee aprovisionar un [Entorno de prueba de recursos humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) para validar la funcionalidad de Recursos Humanos. Los entornos de prueba contienen datos ficticios que se pueden usar para explorar el programa de forma segura. Aunque un entorno de prueba es propiedad del usuario que lo solicitó, se puede invitar a otros usuarios a través de la experiencia de administración del sistema para Human Resources. 
+
+Los entornos de prueba no están destinados para su uso como entornos de producción. Están limitados a un período de prueba de 60 días. Cuando expira el período de prueba, el entorno y todos los datos que contiene se eliminan y no se pueden recuperar. El entorno no se puede convertir en un entorno de pruebas o de producción. Puede registrarse para obtener un nuevo entorno de prueba una vez que caduque el entorno existente.
 
 ## <a name="plan-human-resources-environments"></a>Planificar entornos de Human Resources
 
@@ -94,8 +100,6 @@ Después de crear un proyecto de LCS, puede aprovisionar Human Resources en un e
 
     > [!NOTE]
     > Si aún no ha dado la aprobación final a los requisitos finales, puede implementar una instancia de prueba de Human Resources en el proyecto. Puede utilizar esta instancia para probar su solución hasta que dé la aprobación final. Si usa su nuevo entorno para las pruebas, deberá repetir este procedimiento para crear un entorno de producción.
-
-    > Puede considerar aprovechar un período gratuito de 60 días [Entorno de prueba de Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Aunque un entorno de prueba es propiedad del usuario que lo solicitó, se puede invitar a otros usuarios a través de la experiencia de administración del sistema para Human Resources. Los entornos de prueba contienen datos ficticios que se pueden usar para explorar el programa de forma segura. No están destinados para su uso como entornos de producción. Tenga en cuenta que cuando un entorno de prueba caduca después de 60 días, todos los datos que contiene se eliminan y no se pueden recuperar. Puede registrarse para obtener un nuevo entorno de prueba una vez que caduque el entorno existente.
 
 ## <a name="select-a-power-apps-environment"></a>Seleccionar un entorno Power Apps
 
