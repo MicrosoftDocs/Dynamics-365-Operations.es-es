@@ -2,7 +2,7 @@
 title: Configurar tarifas
 description: Las tasas en Microsoft Dynamics 365 Human Resources definen cuánto aportan los empresarios y los empleados para una prestación.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054989"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266666"
 ---
 # <a name="configure-rates"></a>Configurar tarifas
 
@@ -46,7 +46,7 @@ Use tasas para determinar cuánto pagan los empleados y empresarios por cada pre
    | **Caducidad** | La fecha final de la tasa. 12/31/2154 (que representa nunca) es el valor predeterminado. |
    | **Usar niveles** | El nivel que se utilizará para el cálculo de la tasa de beneficio. Nivel único para una tasa de beneficio de un nivel o doble nivel para una tasa de beneficio de dos niveles. Un ejemplo de un nivel doble es un nivel basado en el sexo y la edad. |
    | **Frecuencia de pago** | La frecuencia de pago que determina con qué frecuencia se paga la tasa de la prima de prestación al proveedor de beneficios. Por ejemplo, si la frecuencia de pago es mensual, la tasa de beneficio representa el importe del pago mensual. |
-   | **Redondeo de la tasa de frecuencia de pago** | El método para redondear la tasa: Estándar o Truncado. |
+   | **Redondeo de la tasa de frecuencia de pago** | Los métodos para redondear la tasa son: estándar, truncado, normal, a la baja y al alza. </br></br><ul><li>**Estándar** - Siempre redondee. Por ejemplo, 10,611 se redondeará a 10,62. -10,231 se redondeará a -10,23. </li><li>**Truncado** - Siempre redondee hacia abajo. Por ejemplo, 10,619 se redondeará a 10,61. -10,231 se redondeará a -10,24. </li><li>**Normal** - Los valores decimales que terminan en 5 o más se redondearán desde cero. Los valores decimales que terminan en 4 o menos se redondearán hacia cero. Por ejemplo, 10,615 se redondeará a 10,62. -10,235 se redondeará a -10,24. 10,614 se redondeará a 10,61. -10,234 se redondeará a -10,23. </li><li>**Hacia abajo** - Redondea hacia cero. Por ejemplo, 10,619 se redondeará a 10,61. -10,231 se redondeará a -10,23. </li><li>**Redondeando** - Redondea desde cero. Por ejemplo, 10,619 se redondeará a 10,62. -10,231 se redondeará a -10,24. |
    | **Importe del empleado si no es fumador** | El importe que el proveedor de prestaciones cobra por un empleado que no fuma. Este es el importe que el empresario paga al proveedor de prestaciones y debe basarse en la frecuencia de pago para la configuración de la tasa. |
    | **Importe del empleado si no es fumador** | El importe que el proveedor de prestaciones cobra por un empleado que no fuma. Este es el importe que el empresario paga al proveedor de prestaciones y debe basarse en la frecuencia de pago para la configuración de la tasa. |
    | **Importe del empleado si es fumador** | El importe que el proveedor de prestaciones cobra por un empleado que fuma. Este es el importe que el empresario paga al proveedor de prestaciones y debe basarse en la frecuencia de pago para la configuración de la tasa. |

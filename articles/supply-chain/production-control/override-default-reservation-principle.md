@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814811"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270796"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Invalidar el principio de reserva predeterminado para materiales en producción
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 La función *Anular la reserva de producción predeterminada* le permite establecer un principio de reserva predeterminado para cada grupo de modelos de artículos. Por lo tanto, se pueden aplicar automáticamente diferentes principios de reserva para cada artículo que forma parte de una lista de materiales de producción (L.MAT) o una fórmula de orden de lote. Puede seleccionar si cada grupo de modelos de artículos debe anular el principio de reserva predeterminado que se establece para un pedido y qué principio de reserva debe usarse en su lugar (*manual*, *estimación*, *planificación*, *lanzamiento* o *comienzo*).
 
@@ -37,7 +36,7 @@ Por ejemplo, si tiene materias primas o ingredientes que requieren trabajo de se
 Antes de poder usar la característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *control de producción*
-- **Nombre de la función:** *(versión preliminar) Anular la reserva de producción predeterminada*
+- **Nombre de la función:** *Anular la reserva de producción predeterminada*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Asignar una política de reserva de producción a un grupo de modelos de artículos
 
