@@ -100,8 +100,6 @@
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (mayo de 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
-                    - name: Commerce 10.0.17 (abril de 2021)
-                      href: get-started/whats-new-commerce-10-0-17.md
                 - name: Características quitadas o en desuso
                   items:
                     - name: Página de inicio de características quitadas o en desuso
@@ -244,7 +242,7 @@
                   href: arch-auth-flow.md
                 - name: Requisitos de versiones de componentes de Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: Arquitectura del motor de Commerce sin periféricos
+                - name: Arquitectura de Commerce sin periféricos
                   href: dev-itpro/retail-server-architecture.md
                 - name: Seleccione una topología en tienda
                   href: dev-itpro/retail-in-store-topology.md
@@ -1248,6 +1246,16 @@
                   href: localizations/latam-bra-commerce-localization.md
                 - name: Configurar e implementar la localización de Commerce para Brasil
                   href: localizations/latam-bra-deployment.md
+                - name: Funcionalidad de documento fiscal NFC-e en PDV de Commerce para Brasil
+                  href: localizations/latam-bra-nfce.md
+                - name: Administrar la información del cliente en PDV para Brasil
+                  href: localizations/latam-bra-customer-information.md
+                - name: Cancelación y devolución de documentos NFC-e en PDV de Commerce para Brasil
+                  href: localizations/latam-bra-nfce-cancel-return.md
+                - name: Registro pospuesto de documentos NFC-e emitidos en modo de contingencia sin conexión
+                  href: localizations/latam-bra-nfce-contingency-mode.md
+                - name: Registrar documentos fiscales de Brasil mediante extractos comerciales en Commerce Headquarters
+                  href: localizations/latam-bra-retail-statements.md
             - name: Europa del Este
               items:
                 - name: Común
@@ -1458,6 +1466,12 @@
               items:
                 - name: Idioma de fórmulas
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: Tipos de datos admitidos para fórmulas ER
+                  items:
+                    - name: Tipos de datos primitivos
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
+                    - name: Tipos de datos compuestos
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: Funciones
                   items:
                     - name: Contenedor
@@ -2002,13 +2016,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Application Update 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
+                    - name: Application Update 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                 - name: Especificar una ubicación de almacenamiento personalizado para documentos generados
                   items:
                     - name: Suscribirse a un evento para solicitar una respuesta del controlador suscriptor
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: Delegar la creación de un destino de informes electrónicos a una fábrica de destino personalizado
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Iniciar valores de origen de datos del tipo PARÁMETRO DE ENTRADA DE USUARIO desde el código fuente
+                - name: Implementar un destino personalizado para documentos generados
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                - name: Iniciar valores de origen de datos del tipo USER INPUT PARAMETER desde el código fuente
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
         - name: Aplicación móvil de Finance and Operations (Dynamics 365)
           items:
