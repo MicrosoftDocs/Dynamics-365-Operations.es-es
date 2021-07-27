@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750627"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346505"
 ---
 # <a name="integrated-vendor-master"></a>Maestro de proveedores integrado
 
@@ -39,11 +39,11 @@ En ambos enfoques, los datos del proveedor se integran entre Dynamics 365 Supply
 
 Si no quiere almacenar los datos de proveedor de tienda en la tabla **Cuenta/Contacto** en Dataverse puede usar el nuevo diseño de proveedor.
 
-![Flujo de datos del proveedor](media/dual-write-vendor-data-flow.png)
+![Flujo de datos del proveedor.](media/dual-write-vendor-data-flow.png)
 
 Si quiere continuar almacenando los datos de proveedor de tienda en la tabla **Cuenta/Contacto** puede usar el diseño de proveedor extendido. Para usar el diseño extendido del proveedor, debe configurar los flujos de trabajo del proveedor en el paquete de solución de doble escritura. Para más información, consulte [Cambiar entre diseños de proveedores](vendor-switch.md).
 
-![Flujo de datos ampliado del proveedor](media/dual-write-vendor-detail.jpg)
+![Flujo de datos ampliado del proveedor.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > Si está usando portales Power Apps para proveedores de autoservicio, la información del proveedor puede fluir directamente a aplicaciones Finance and Operations.

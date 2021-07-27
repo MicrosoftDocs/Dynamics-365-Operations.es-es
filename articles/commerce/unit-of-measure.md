@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271410"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350337"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Aplicar la configuración de unidades de medida
 
@@ -32,7 +32,7 @@ Un producto se puede vender en diferentes unidades, como "cada uno", "par" y "do
 
 En el ejemplo de la siguiente ilustración, una unidad de medida de venta por **ea** (cada uno) se ha configurado para un producto en la sede de Commerce.
 
-![Ejemplo de un producto configurado con una unidad de medida en la sede de Commerce](./media/Productunit-headquarters.PNG)
+![Ejemplo de un producto configurado con una unidad de medida en la sede de Commerce.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > El soporte para aplicar y mostrar la unidad de medida está disponible a partir de la versión 10.0.19 de Commerce.
@@ -54,11 +54,11 @@ Los módulos que utilizan la configuración de unidades de medida incluyen el cu
 
 En el ejemplo de la siguiente ilustración, una página de detalles del producto (PDP) muestra la unidad de medida (**ea**) para un producto.
 
-![Ejemplo de un PDP que muestra la unidad de medida](./media/Productunit-PDP.png)
+![Ejemplo de un PDP que muestra la unidad de medida.](./media/Productunit-PDP.png)
 
 En el ejemplo de la siguiente ilustración, un módulo de colección de productos muestra la unidad de medida (**ea**) para un producto.
 
-![Ejemplo de un módulo de colección de productos que muestra la unidad de medida](./media/Productunit-productcollection.png)
+![Ejemplo de un módulo de colección de productos que muestra la unidad de medida.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

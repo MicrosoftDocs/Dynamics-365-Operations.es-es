@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5dbef67728e86259ee48b51c48921f6e44a61015
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 356552fd1c2001619785b6a03b8ec4cba92725da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793066"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351330"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configurar las denominaciones de efectivo para el punto de venta (POS)
 
@@ -33,7 +33,7 @@ Cobre denominaciones en las notas y las divisas se pueden definir en back office
 
 Las denominaciones se configuran por almacén en la opción **Configurar** \> **Declaración de efectivo** de la propiedad de la tienda.
 
-![Opción de declaración de efectivo](./media/image1-denomination.png)
+![Opción de declaración de efectivo.](./media/image1-denomination.png)
 
 Definir denominaciones
 
@@ -41,7 +41,7 @@ Definir denominaciones
 1. Especifique el tipo (moneda o billete).
 1. Especifique el importe (valor).
 
-![Página de denominaciones de declaración de efectivo](./media/image2-denomination.png)
+![Página de denominaciones de declaración de efectivo.](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Configure el perfil de funcionalidad.
 

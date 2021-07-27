@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 65c174896bbee07514285d4d19e1693c13dd9697
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db58e3d1a6665d15ad2f3ac25612ecbf448a9c17
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021525"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344205"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interfaz de equipo de gestión de material (MHAX)
 
@@ -29,7 +29,7 @@ Puede usar la *interfaz del equipo de manipulación de materiales* (MHAX) para c
 
 La siguiente ilustración muestra los diversos elementos y el orden en que ocurren los procesos cuando usa la integración MHAX.
 
-![Componentes e interacciones de MHAX](media/mhax-components.png "Componentes e interacciones de MHAX")
+![Componentes e interacciones de MHAX.](media/mhax-components.png "Componentes e interacciones de MHAX")
 
 A continuación, se ofrece una explicación de las interacciones que se muestran en la ilustración anterior:
 

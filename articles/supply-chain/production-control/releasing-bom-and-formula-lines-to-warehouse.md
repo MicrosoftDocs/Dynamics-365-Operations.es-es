@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811687"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350555"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar las líneas de LM y fórmula al almacén
 
@@ -61,7 +61,7 @@ En la consulta para el trabajo por lotes **Liberación automática de LM y líne
 
 La ilustración siguiente muestra unpedido de producción que tiene dos trabajos, 10 y 20, que cubre el ensamblado y el embalaje para el pedido de producción. Cada trabajo está configurado para consumir una cantidad de material. En este ejemplo, el límite de tiempo de liberación que se indica con la flecha verde por debajo de la escala temporal es igual al número de días que se ha especificado en el criterio **(LessThanDate ())**. Por ejemplo, **(LessThanDate (2))** indica que el trabajo debe buscar sólo cantidades inéditas en un límite de tiempo de dos días.
 
-![Ejemplo de un pedido de producción que tiene dos trabajos por lotes](media/bach-job-setup.PNG)
+![Ejemplo de un pedido de producción que tiene dos trabajos por lotes.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>La liberación de material por el número de operación o en proporción al importe de producto terminado
 
@@ -78,7 +78,7 @@ Para controlar las operaciones a las que liberarse el material debe , use la pá
 
 La ilustración siguiente muestra un pedido de producción que tiene dos operaciones, 10 y 20. En este ejemplo, si se limita la liberación a la operación 10, solo el material M9203 será liberado.
 
-![Ejemplo de liberación del material por el número de operación](media/two-operations.PNG)
+![Ejemplo de liberación del material por el número de operación.](media/two-operations.PNG)
 
 Para ver una demostración rápida de cómo liberar material en proporción al importe de productos terminados, mire este vídeo corto de YouTube sobre [Mejoras al proceso de liberación de una orden de producción](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 

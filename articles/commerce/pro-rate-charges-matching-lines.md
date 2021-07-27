@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018615"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352189"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Prorratear los cargos de encabezado con las líneas de ventas coincidentes
 
@@ -56,9 +56,9 @@ Esta situación delinea el comportamiento cuando la opción **Prorratear con lí
 
 En este escenario, la organización ha definido los gastos de nivel de encabezado para la relación de modo de entrega **99** y la relación de modo de entrega **11**. No se configura ningún gasto automático para el modo de entrega **21**.
 
-![Cargos automáticos para el modo de entrega 99 cuando se desactiva el prorrateo de línea que coincide](media/99_disabled.png)
+![Cargos automáticos para el modo de entrega 99 cuando se desactiva el prorrateo de línea que coincide.](media/99_disabled.png)
 
-![Cargos automáticos para el modo de entrega 11 cuando se desactiva el prorrateo de línea que coincide](media/11_disabled.png)
+![Cargos automáticos para el modo de entrega 11 cuando se desactiva el prorrateo de línea que coincide.](media/11_disabled.png)
 
 Se crea un pedido de ventas en el centro de asistencia telefónica y el modo de entrega se establece en **99**. Este pedido incluye cinco artículos. Dos líneas de pedido se han configurado para usar el modo de entrega **99**, dos líneas se han configurado para usar el modo de entrega **11** y una línea se ha configurado usar el modo de entrega **21**, como se muestra en la tabla siguiente.
 
@@ -78,9 +78,9 @@ En esta situación, si el cliente devuelve algunos de los artículos del pedido,
 
 En este escenario, los gastos de nivel de encabezado se definen para la relación de modo de entrega **99** y la relación de modo de entrega **11**. Sin embargo, la opción **Prorratear con líneas de ventas coincidentes** está configurada en **Sí** para estas tablas de gasto automático.
 
-![Cargos automáticos para el modo de entrega 99 cuando se activa el prorrateo de línea que coincide](media/99_enabled.png)
+![Cargos automáticos para el modo de entrega 99 cuando se activa el prorrateo de línea que coincide.](media/99_enabled.png)
 
-![Cargos automáticos para el modo de entrega 11 cuando se activa el prorrateo de línea que coincide](media/11_enabled.png)
+![Cargos automáticos para el modo de entrega 11 cuando se activa el prorrateo de línea que coincide.](media/11_enabled.png)
 
 Esta situación utiliza el mismo pedido de ventas que contiene cinco líneas. El modo de entrega en el encabezado del pedido se establece en **99**, pero el modo de entrega de cada artículo del pedido de ventas está configurado como se muestra en la tabla siguiente.
 
@@ -130,9 +130,9 @@ Dado que la configuración de gasto automático se establece para prorratearse c
     - Valor total de producto = 15 $
     - **Valor de gasto = $0** (No se ha configurado ningún gasto automático para esta combinación de cliente y modo de entrega).
 
-    ![Los gastos del modo de entrega 11 se encuentran en el nivel resaltado](media/step2mode11.png)
+    ![Los gastos del modo de entrega 11 se encuentran en el nivel resaltado.](media/step2mode11.png)
 
-    ![Los gastos del modo de entrega 99 se encuentran en el nivel resaltado](media/step2mode99.png)
+    ![Los gastos del modo de entrega 99 se encuentran en el nivel resaltado.](media/step2mode99.png)
 
 3. El sistema calcula el valor del gasto que se debe aplicar a cada línea, en función de la lógica de prorrateo que considera el valor proporcional de la línea en relación con el valor total del producto del grupo.
 
@@ -163,7 +163,7 @@ Dado que la configuración de gasto automático se establece para prorratearse c
 
 Por lo tanto, para este ejemplo, al artículo 81334 se le asignará un cargo de flete de $5,62. Puede consultar estos gastos en la página **Mantener gastos** de la línea de ventas. La ilustración siguiente muestra lo que parece esta página para el artículo 81334.
 
-![Cargos prorrateados en la línea de ventas para el artículo 81334](media/proratedlinecharge.png)
+![Cargos prorrateados en la línea de ventas para el artículo 81334.](media/proratedlinecharge.png)
 
 Cuando este método de cálculo se usa en una situación de devolución parcial, si el código de gasto es reembolsable se devolverán sólo la parte del gasto que se asigna a dicha línea cuando se devuelve el artículo.
 

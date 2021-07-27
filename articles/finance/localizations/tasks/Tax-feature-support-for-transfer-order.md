@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7b97eca8c2d4fe9f71c3cd8f1e40a3bbb7ee4879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021378"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348425"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Compatibilidad de la característica de impuestos para pedidos de transferencia
 
@@ -40,7 +40,7 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
 
 1. En la página **Características fiscales**, en la pestaña **Versiones**, seleccione la versión preliminar de la función y luego seleccione **Editar**.
 
-    ![Selección de Editar](../media/tax-feature-support-01.png)
+    ![Selección de Editar.](../media/tax-feature-support-01.png)
 
 2. En la página **Configuración de características fiscales**, en la pestaña **Códigos de impuestos**, seleccione **Agregar** para crear nuevos códigos de impuestos. Para este ejemplo, se crean tres códigos de impuestos: **NL-Exento**, **BE-RC-21** y **BE-RC+21**.
 
@@ -53,7 +53,7 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
         4. Seleccione **Agregar** en la tabla **Tipo**.
         5. Cambie **Está exento** a **Sí** en la sección **General**.
 
-        ![Código fiscal NL-Exento](../media/tax-feature-support-02.png)
+        ![Código fiscal NL-Exento.](../media/tax-feature-support-02.png)
 
     - Cuando se recibe un pedido de transferencia en un almacén de Bélgica, el mecanismo de inversión del cargo se aplica mediante los códigos de impuestos **BE-RC-21** y **BE-RC+21**.
         
@@ -66,7 +66,7 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
         6. Cambie **Es cargo invertido** a **Sí** en la sección **General**.
         7. Seleccione **Guardar**.
 
-        ![Código de impuestos BE-RC-21 para cargos invertidos](../media/tax-feature-support-03.png)
+        ![Código de impuestos BE-RC-21 para cargos invertidos.](../media/tax-feature-support-03.png)
         
         Cree el código de impuestos **BE-RC+21**.
         1. Seleccione **Agregar** e introduzca **BE-RC-21** en el campo **Código de impuesto**.
@@ -76,7 +76,7 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
         5. Introduzca **21** en el campo **Tipo impositivo**.
         6. Seleccione **Guardar**.
 
-        ![Código de impuestos BE-RC+21 para cargos invertidos](../media/tax-feature-support-04.png)
+        ![Código de impuestos BE-RC+21 para cargos invertidos.](../media/tax-feature-support-04.png)
 
 3. Defina la aplicabilidad de los códigos de impuestos.
 
@@ -105,11 +105,11 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
         6. En el campo **Códigos de impuestos**, seleccione **BE-RC+21** y **BE-RC-21**.
         7. En el campo **Grupo de impuestos** y en **Grupo de impuestos de artículo**, introduzca el grupo de impuestos relacionado y el grupo de impuestos de artículo que están definidos en su sistema de Finance.
 
-        ![Reglas de aplicabilidad](../media/image5.png)
+        ![Reglas de aplicabilidad.](../media/image5.png)
 
 4. Complete y publique la nueva versión de la característica fiscal.
 
-    [![Cambio del estado de la nueva versión](../media/image6.png)](../media/image6.png)
+    [![Cambio del estado de la nueva versión.](../media/image6.png)](../media/image6.png)
 
 ## <a name="set-up-finance-for-transfer-order-transactions"></a>Configurar Finance para transacciones de pedidos de transferencia
 
@@ -121,7 +121,7 @@ Siga estos pasos para habilitar y configurar impuestos para pedidos de transfere
     > [!IMPORTANT]
     > La característica **Impuesto en pedido de transferencia** depende completamente del servicio de impuestos. Por lo tanto, solo se puede activar después de haber instalado el servicio de impuestos.
 
-    ![Impuesto en la característica de pedido de transferencia](../media/image7.png)
+    ![Impuesto en la característica de pedido de transferencia.](../media/image7.png)
 
 3. Habilite el servicio de impuestos y seleccione el proceso de negocio **Inventario**.
 
@@ -131,11 +131,11 @@ Siga estos pasos para habilitar y configurar impuestos para pedidos de transfere
     1. Vaya a **Impuesto** \> **Configuración** \> **Configuración de impuestos** \> **Configuración del servicio de impuestos**.
     2. En el campo **Procesos de negocio**, seleccione **Inventario**.
 
-    ![Configuración del campo Proceso de negocio](../media/image8.png)
+    ![Configuración del campo Proceso de negocio.](../media/image8.png)
 
 4. Verifique que el mecanismo de cargo inverso esté configurado. Vaya a **Contabilidad general** \> **Configuración** \> **Parámetros** y luego, en la pestaña **Invertir cargo**, verifique que la opción **Habilitar cargo inverso** esté configurada en **Sí**.
 
-    ![Habilitar la opción de cargo inverso](../media/image9.png)
+    ![Habilitar la opción de cargo inverso.](../media/image9.png)
 
 5. Verifique que los códigos de impuestos relacionados, los grupos de impuestos, los grupos de impuestos de artículos y los números de registro de IVA se hayan configurado en Finance de acuerdo con la guía del servicio de impuestos.
 6. Configure una cuenta de tránsito provisional. Este paso es necesario solo cuando el impuesto que se aplica a un pedido de transferencia no es aplicable a un mecanismo de exención de impuestos o de cargo invertido.
@@ -143,7 +143,7 @@ Siga estos pasos para habilitar y configurar impuestos para pedidos de transfere
     1. Vaya a **Impuesto** \> **Configuración** \> **Impuesto** \> **Grupos de contabilidad**.
     2. En el campo **Tránsito provisional**, seleccione una cuenta contable.
 
-    ![Selección de una cuenta de tránsito provisional](../media/image10.png)
+    ![Selección de una cuenta de tránsito provisional.](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>Configurar el inventario básico para transacciones de pedidos de transferencia
 
@@ -158,7 +158,7 @@ Siga estos pasos para configurar el inventario básico para habilitar las transa
     > [!NOTE]
     > Uno de los sitios que cree debe tener por nombre **Tránsito**. En los pasos posteriores de este procedimiento, asignará este sitio al almacén de tránsito, de modo que los asiento de inventario relacionados con los impuestos se puedan registrar en las transacciones de "enviar" y "recibir" para los pedidos de transferencia. La dirección del sitio de tránsito es irrelevante para el cálculo de impuestos. Por tanto, no se puede dejar en blanco.
 
-    ![Configuración de sitios](../media/image11.png)
+    ![Configuración de sitios.](../media/image11.png)
 
 2. Cree almacenes de envío, tránsito y destino. Cualquier información de dirección que se mantenga en un almacén anulará la dirección del sitio durante el cálculo de impuestos.
 
@@ -166,24 +166,24 @@ Siga estos pasos para configurar el inventario básico para habilitar las transa
     2. Seleccione **Nuevo** para crear un almacén y asignarlo al sitio correspondiente.
     3. Repita el paso 2 para crear un almacén para cada sitio, según sea necesario.
 
-    ![Configuración de almacenes](../media/image12.png)
+    ![Configuración de almacenes.](../media/image12.png)
 
     > [!NOTE]
     > Para un almacén de envío, se debe seleccionar un almacén de tránsito en el campo **Almacén de tránsito** para transacciones de pedidos de transferencia.
     >
-    > ![Selección de un almacén de tránsito](../media/image13.png)
+    > ![Selección de un almacén de tránsito.](../media/image13.png)
 
 3. Verifique que la configuración de contabilización de inventario esté configurada para transacciones de pedidos de transferencia.
 
     1. Vaya a **Gestión de inventarios** \> **Configurar** \> **Registro** \> **Registro**.
     2. En la pestaña **Inventario**, verifique que una cuenta contable esté configurada para la contabilización de **Problema de inventario** y **Recibo de inventario**.
 
-        ![Configuración de incidencias de inventario y contabilización de recibos de inventario](../media/image14.png)
+        ![Configuración de incidencias de inventario y contabilización de recibos de inventario.](../media/image14.png)
 
     3. Verifique que una cuenta contable esté configurada para la contabilidad **Pagadera entre unidades**.
 
-        ![Configuración de contabilización pagadera entre unidades](../media/image15.png)
+        ![Configuración de contabilización pagadera entre unidades.](../media/image15.png)
 
     4. Verifique que una cuenta contable esté configurada para contabilización **Recibible entre unidades**.
 
-        ![Configuración de contabilización recibible entre unidades](../media/image16.png)
+        ![Configuración de contabilización recibible entre unidades.](../media/image16.png)

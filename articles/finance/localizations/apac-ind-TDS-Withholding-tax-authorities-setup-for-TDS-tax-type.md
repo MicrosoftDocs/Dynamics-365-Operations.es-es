@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5375363a9b1383a83e80fc3c4b841780adab4172
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d9cecb3598e0686192d394903e8bb58d304a7665
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023560"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349961"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>Configurar autoridades de retención de impuestos para tipos de impuestos de TDS
 
@@ -31,7 +31,7 @@ Este tema explica cómo configurar autoridades de impuestos deducidos en el orig
 
 1. Vaya a **Impuestos \> Impuestos indirectos \> Autoridades de retención de impuestos**.
 
-    [![Página Autoridades de retenciones de impuestos](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
+    [![Página Autoridades de retenciones de impuestos.](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
 
 2. En el campo **Tipo de impuesto**, seleccione **TDS** para configurar autoridades de retención de impuestos para el tipo de impuesto TDS.
 3. En el panel de acciones, haga clic en **Nuevo** para crear una línea.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba4b9ef43e27f689e1f10d2ee8f10f6ea4bf43ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ab8af010b07704a5b4994bbe356cd710ab249291
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821738"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351642"
 ---
 # <a name="calculate-capacity-load"></a>Calcular carga de capacidad
 
@@ -53,7 +53,7 @@ Esto resulta útil si desea obtener una visión general de la carga de capacidad
 
 7. En los grupos **Agrupar por...**, haga clic en los botones relevantes para mostrar el nivel de detalle necesario del cálculo. En la captura de pantalla siguiente, los botones **Agrupar por** seleccionados se destacan en color azul. Haga clic en un botón para activarlo o desactivarlo.
 
-    ![Figura 1](media/01-capacity-planning.png)
+    ![Figura 1.](media/01-capacity-planning.png)
 
 >[!NOTE]
 >Si desea centrarse únicamente en el diseño de la capacidad en relación a las órdenes de trabajo programadas, vea [Calcular la carga de capacidad en órdenes de trabajo programadas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).

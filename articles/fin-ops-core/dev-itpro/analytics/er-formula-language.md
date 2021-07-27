@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355403"
 ---
 # <a name="electronic-reporting-formula-language"></a>Idioma de fórmulas en los informes electrónicos
 
@@ -117,15 +117,15 @@ Cuando una expresión hace referencia a un origen de datos estructurado, puede u
 
 Si la ruta de un origen de datos estructurado comienza con un signo "at" (@), es una ruta relativa. Se muestra el signo "at" en lugar de la parte restante de la ruta absoluta de la estructura de árbol jerárquica que se utiliza. En la ilustración siguiente se muestra un ejemplo. Aquí, la ruta absoluta `Ledger.'accountingCurrency()'` indica que el valor contable de la moneda de la fuente de datos **Libro mayor** se ingresa en el campo **DivisadeContabilidad** del modelo de datos.
 
-![Ejemplo de una ruta absoluta en la página del diseñador de mapeo de modelos ER](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Ejemplo de una ruta absoluta en la página del diseñador de mapeo de modelos ER.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 El ejemplo en la siguiente ilustración muestra cómo se usa una ruta relativa. La ruta relativa `@.AccountNum` indica que el campo **AccountNum** de la fuente de datos **Intrastat** (que aparece un nivel por encima del campo **AccountNum** en el árbol jerárquico del modelo de datos) se utiliza para ingresar el número de cuenta del cliente o proveedor en el campo **AccountNum** del modelo de datos.
 
-![Ejemplo de una ruta relativa en la página del diseñador de mapeo de modelos ER](./media/ER-FormulaLanguage-RelativePath1.png)
+![Ejemplo de una ruta relativa en la página del diseñador de mapeo de modelos ER.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 La parte restante de la ruta absoluta también se muestra en el [Editor de fórmulas ER](general-electronic-reporting-formula-designer.md).
 
-![Parte restante de la ruta absoluta en la página del diseñador de fórmulas ER](./media/ER-FormulaLanguage-RelativePath2.png)
+![Parte restante de la ruta absoluta en la página del diseñador de fórmulas ER.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Para obtener más información, consulte [Utilizar una ruta relativa en vínculos de datos de modelos y formatos de ER](relative-path-data-bindings-er-models-format.md).
 

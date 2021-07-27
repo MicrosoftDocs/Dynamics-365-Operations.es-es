@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791713"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354574"
 ---
 # <a name="configure-task-management"></a>Configurar la administración de tareas
 
@@ -44,7 +44,7 @@ Para configurar permisos de administración de tareas para gerentes de tienda, s
 
 La siguiente ilustración muestra cómo configurar los permisos de gestión de tareas para gerentes de tienda.
 
-![Configurar permisos de administración de tareas para gerentes de tienda](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Configurar permisos de administración de tareas para gerentes de tienda.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Configurar permisos para empleados
 
@@ -78,7 +78,7 @@ Para configurar las notificaciones PDV para tareas, siga estos pasos.
 
 La siguiente ilustración muestra la operación **Administración de tareas** en la página **Operaciones PDV**.
 
-![Operación de gestión de tareas en la página de operaciones de PDV](media/HQ-POS-Tasks-Notifications.png)
+![Operación de gestión de tareas en la página de operaciones de PDV.](media/HQ-POS-Tasks-Notifications.png)
 
 Para obtener más información sobre cómo configurar las notificaciones de PDV, vea [Mostrar notificaciones de pedidos en el punto de venta (PDV)](notifications-pos.md).
 
@@ -95,11 +95,11 @@ Para configurar el mosaico **Tareas** en la página de inicio de una aplicación
 
 La ilustración siguiente muestra un ejemplo de un mosaico **Tareas** en una página principal PDV.
 
-![Mosaico de tareas en una página de principal de PDV](media/POS-home-screen-tasks-button-image.png)
+![Mosaico de tareas en una página de principal de PDV.](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la administración de tareas](task-mgmt-overview.md)
+[Información general de la administración de tareas](task-mgmt-overview.md)
 
 [Crear listas de tareas y agregar tareas](task-mgmt-create-lists.md)
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9e3f2a17e182c0e3efc8b90380eff74f350c3278
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cce8cb6ef9e0cc74abf90f16ed0ee481b8274a03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804658"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352997"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Optar por usar clasificaciones y revisiones de usuario
 
@@ -43,7 +43,7 @@ Para optar por usar las clasificaciones y revisiones en su sitio, siga estos pas
 1. Establezca la opción **Habilitar el servicio de clasificaciones y revisiones** en **Sí**.
 1. En el campo **Grupo de seguridad de AAD para moderador de clasificaciones y revisiones (id. de objeto del grupo de seguridad)**, especifique el id. del grupo de seguridad de Microsoft Azure Active Directory (Azure AD) que incluye los moderadores de clasificaciones y revisiones.
 
-    ![Optar por usar clasificaciones y revisiones de usuario](media/LCS_RnR_Preference.png)
+    ![Optar por usar clasificaciones y revisiones de usuario.](media/LCS_RnR_Preference.png)
 
 1. Complete el proceso de inicialización de comercio electrónico.
 

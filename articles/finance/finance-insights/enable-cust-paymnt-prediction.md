@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222595"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349043"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Habilitar las predicciones de pago de los clientes (versión preliminar)
 
@@ -51,7 +51,7 @@ Este tema explica cómo activar y configurar la característica de predicciones 
 
     1. Vaya a **Crédito y cobros \> Configurar \> Información financiera \> Parámetros de información financiera**.
 
-        [![Página de parámetros de información financiera antes de configurar la característica](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Página de parámetros de información financiera antes de configurar la característica.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. En la página **Parámetros de información financiera**, en la pestaña **Información sobre pagos de clientes**, seleccione el vínculo **Ver los campos de datos usados en el modelo de predicción** para abrir la página **Campos de datos para el modelo de predicción**. Allí, puede ver la lista predeterminada de campos que se utilizan para crear el modelo de predicción de inteligencia artificial (IA) para las predicciones de pago de los clientes.
 
@@ -77,7 +77,7 @@ Este tema explica cómo activar y configurar la característica de predicciones 
 
 Una vez que la característica se ha activado y configurado, el modelo de predicción se ha creado y está funcionando, la sección **Modelo de predicción** de la página **Parámetros de información financiera** muestra la precisión del modelo, como se muestra en la siguiente ilustración.
 
-[![Precisión del modelo de predicción en la página de parámetros de información financiera](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Precisión del modelo de predicción en la página de parámetros de información financiera.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Detalles de la liberación
 

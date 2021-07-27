@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815581"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352867"
 ---
 # <a name="general-journal-processing"></a>Procesamiento de diarios generales
 
@@ -42,14 +42,14 @@ En la página **Nombres de diario**, puede configurar los siguientes elementos:
 
 Un nombre de diario también se puede usar solo para ajustes. En este caso, puede especificar que solo el tipo de cuenta **Libro mayor** es válido en todas las empresas. 
 
-[![Tipos de cuenta de control de diarios](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Tipos de cuenta de control de diarios.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Un nombre de diario solo se puede usar para un segmento específico o para un intervalo para las cuentas principales. 
 
-[![Segmento de control de diarios](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Segmento de control de diarios.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 La opción **Inversión automática** solo está disponible en los diarios generales. Por ejemplo, tiene un ajuste de acumulación donde el documento real aún no se ha procesado, como se muestra en la siguiente ilustración.
-[![Inversión del diario general](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Inversión del diario general.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 El complemento de Microsoft Excel para el movimiento del diario proporciona un nivel adicional de automatización y hace que la entrada de datos sea más fácil. La acción **Líneas abiertas en Excel** está disponible en las páginas del **Diario general** y **Asiento del diario** . 
 

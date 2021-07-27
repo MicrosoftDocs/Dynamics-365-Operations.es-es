@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dcede0818630329a5608c2d294c9c9f4f749f13
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3cbd4a034b89308c33651c5a923b67bc0eabf413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750141"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345771"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Diseñador de fórmulas en los informes electrónicos (ER)
 
@@ -58,11 +58,11 @@ El diseñador de fórmulas de ER se puede usar para definir una expresión que t
 
 En la ilustración siguiente se muestra el diseño de una expresión de este tipo. En este ejemplo, la expresión redondea el valor del campo **Intrastat.AmountMST** de la tabla Intrastat hasta dos posiciones decimales y luego devuelve el valor redondeado.
 
-[![Expresión de vinculación de datos](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![Expresión de vinculación de datos.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 En la ilustración siguiente se muestra cómo usar una expresión de este tipo. En este ejemplo, el resultado de la expresión diseñada se introduce en el componente **Transaction.InvoicedAmount** del modelo de datos **Modelo de notificación tributaria**.
 
-[![Expresión de vinculación de datos empleada](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![Expresión de vinculación de datos empleada.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 En tiempo de ejecución, la fórmula designada, `ROUND (Intrastat.AmountMST, 2)`, redondea el valor del campo **AmountMST** para cada registro de la tabla Intrastat a dos posiciones decimales. A continuación, especifique el valor redondeado en el componente **Transaction.InvoicedAmount** del modelo de datos **Informe de impuestos** .
 
@@ -72,17 +72,17 @@ El diseñador de fórmula de ER se puede usar para definir una expresión que fo
 
 En la ilustración siguiente se muestra el diseño de una transformación de este tipo. En este ejemplo, la transformación **TrimmedString** trunca datos entrantes del tipo de datos *Secuencia* eliminando espacios principales y finales. A continuación, devuelve el valor de cadena truncado.
 
-[![Transformación](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![Transformación.](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 En la ilustración siguiente se muestra cómo usar una transformación de este tipo. En este ejemplo, varios componentes de formato envían texto como salida al documento electrónico de generación en el tiempo de ejecución. Todos estos componentes de formato hacen referencia a la transformación **TrimmedString** por nombre.
 
-[![Transformación que se usa](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![Transformación que se usa.](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 Cuando los componentes del formato, como el componente **partyName** en la ilustración anterior, hacen referencia a la transformación **TrimmedString**, la transformación envía texto como salida al documento electrónico de generación. Este texto no incluye espacios principales y finales.
 
 Si tiene un formato que se debe aplicar de forma individual, puede introducir ese formato como una expresión individual de una vinculación de un componente de formato concreto. En la ilustración siguiente se muestra una expresión de este tipo. En este ejemplo, el componente del formato **partyType** se vincula al origen de datos mediante una expresión que convierte los datos entrantes del campo **Model.Company.RegistrationType** del origen de datos en texto en mayúsculas. A continuación, la expresión envía ese texto como salida al documento electrónico de generación.
 
-[![Aplicar formato a un componente individual](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![Aplicar formato a un componente individual.](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>Control de flujo de proceso
 
@@ -98,7 +98,7 @@ Cada regla de control de flujo de proceso está diseñada como validación indiv
 - Si la lista de transacciones está vacía, la validación detiene el proceso de ejecución y devuelve **FALSE**.
 - La validación devuelve un mensaje de error que incluye el texto de la etiqueta SYS70894 en el idioma preferido del usuario.
 
-[![Validación](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![Validación.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 El diseñador de fórmulas de ER también se puede usar para generar un nombre de archivo para un documento electrónico que se está generando y para controlar el proceso de creación del archivo. En la ilustración siguiente se muestra el diseño de un control de flujo de proceso de este tipo. Esta es una explicación de la configuración de este ejemplo:
 
@@ -107,7 +107,7 @@ El diseñador de fórmulas de ER también se puede usar para generar un nombre d
 - Una expresión devuelve un nombre de archivo para documentos electrónicos de generación concatenando el nombre de archivo y la extensión del nombre de archivo. Para el segundo lote y todos los lotes posteriores, el nombre de archivo contiene el id. de lote como sufijo.
 - Una expresión habilita (devolviendo **TRUE**) el proceso de creación de archivos para lotes que contengan al menos un registro.
 
-[![Control de flujo de proceso](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![Control de flujo de proceso.](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Control del contenido de los documentos
 
@@ -121,18 +121,18 @@ En la ilustración siguiente se muestran expresiones de este tipo. (Se utiliza c
 - El componente **PaymentNotes** se usa para generar el texto de notas de pago.
 - El componente **DelimitedSequence** genera números de factura separados por comas que se utilizan para liquidar la transferencia de crédito actual.
 
-[![Notas de pago y componentes DelimitedSequence](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![Notas de pago y componentes DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > Los componentes **PaymentNotes** y **DelimitedSequence** se etiquetan con un signo de interrogación. Un signo de interrogación indica que el uso de un componente es condicional. En este caso, el uso de los componentes se basa en los siguientes criterios:
 >
 > - La expresión `@.PaymentsNotes <> ""` que se define para el componente **PaymentNotes** habilita (devolviendo **TRUE**) el elemento XML **Ustrd** que se debe rellenar con el texto de las notas de pago, si el texto no está vacío para la transferencia de crédito actual.
 >
->    [![Expresión para el componente PaymentNotes](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![Expresión para el componente PaymentNotes.](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
 > - La expresión `@.PaymentsNotes = ""` que se define para el componente **DelimitedSequence** habilita (devolviendo **TRUE**) el elemento XML **Ustrd** que se rellenará con una lista de números de factura separados por comas que se utilizan para liquidar la transferencia de crédito actual, si el texto de las notas de pago para esa transferencia de crédito está vacío.
 >
->    [![Expresión para el componente DelimitedSequence](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![Expresión para el componente DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > Según esta configuración, el mensaje que se genera para cada pago del deudor, el elemento XML **Ustrd**, contendrá el texto de las notas de pago o, si ese texto estuviera vacío, una lista de números de factura separados por comas que se usan para liquidar el pago.
 
@@ -140,7 +140,7 @@ En la ilustración siguiente se muestran expresiones de este tipo. (Se utiliza c
 
 En la página **Diseñador de fórmulas**, seleccione **Probar** para validar cómo funciona la fórmula configurada.
 
-[![Selección Probar para validar una fórmula](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![Selección Probar para validar una fórmula.](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 Cuando se requieren los valores de los argumentos de la fórmula, puede abrir el cuadro de diálogo **Probar expresión** de la página **Diseñador de fórmulas**. En la mayoría de los casos, estos argumentos deben definirse manualmente, ya que los enlaces configurados no se ejecutan en tiempo de diseño. La pestaña **Resultado de prueba** de la página **Diseñador de fórmulas** muestra el resultado de la ejecución de la fórmula configurada.
 
@@ -148,15 +148,15 @@ El siguiente ejemplo muestra cómo puede probar la fórmula configurada para el 
 
 Cuando pruebe esta fórmula, puede usar el cuadro de diálogo **Probar expresión** para especificar el valor del código de mercancías intrastat para la prueba.
 
-[![Especificar el código de mercancías intrastat para pruebas](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![Especificar el código de mercancías intrastat para pruebas.](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 Después de especificar el código de mercancías intrastat y seleccionar **Aceptar**, la pestaña **Resultado de prueba** de la página **Diseñador de fórmulas** muestra el resultado de la ejecución de la fórmula configurada. Después puede evaluar si el resultado es aceptable. Si el resultado no es aceptable, puede actualizar la fórmula y probarla nuevamente.
 
-[![Resultado de prueba](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Resultado de prueba.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Algunas fórmulas no se pueden probar en tiempo de diseño. Por ejemplo, una fórmula puede devolver un resultado de un tipo de datos que no se puede mostrar en la pestaña **Resultado de prueba**. En este caso, recibirá un mensaje de error que indica que la fórmula no se puede probar.
 
-[![Mensaje de error](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![Mensaje de error.](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

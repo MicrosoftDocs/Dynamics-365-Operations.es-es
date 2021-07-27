@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a20cd71c9729b492403f02f3b5576351169a6e2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0b2e2ead990332f1afd338a430406e6d1db95347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754359"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350145"
 ---
 # <a name="report-designer-interface"></a>Interfaz del diseñador de informes
 
@@ -171,24 +171,24 @@ La barra de herramientas estándar ofrece acceso rápido para archivar y editar 
 
 | Botón                                                                                       | Descripción |
 |----------------------------------------------------------------------------------------------|-------------|
-| [![Nuevo botón](./media/rowc130389.png)](./media/rowc130389.png)                              | Crear una nueva definición del informe, definición de la fila, definición de la columna o definición del organigrama (en blanco). |
-| [![Botón Abrir](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Abrir una definición de la fila, definición de la columna, definición del organigrama o definición del informe existentes. |
-| [![Botón Guardar](./media/savec130389.png)](./media/savec130389.png)                           | Guardar la definición de la fila, definición de la columna, definición del organigrama o definición del informe actuales. |
-| [![Botón Copiar](./media/copyc130389.png)](./media/copyc130389.png)                           | Copiar el texto seleccionado en el portapapeles. |
-| [![Botón Cortar](./media/cutc130389.png)](./media/cutc130389.png)                              | Eliminar el texto seleccionado y copiarlo en el Portapapeles. |
-| [![Botón Pegar](./media/pastec130389.png)](./media/pastec130389.png)                        | Insertar el texto del portapapeles. |
-| [![Botón Deshacer](./media/undoc130389.png)](./media/undoc130389.png)                           | Deshacer la última acción. |
-| [![Botón Rehacer](./media/redoc130389.png)](./media/redoc130389.png)                           | Invertir la última acción que se deshizo. |
-| [![Botón Buscar](./media/findc130389.png)](./media/findc130389.png)                           | Abra el cuadro de diálogo **Buscar y reemplazar**, donde puede buscar y reemplazar texto en la ventana activa. |
-| [![Botón Insertar fila](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Insertar una fila en blanco en la definición de fila o una fila de cabecera en blanco en la definición de columna. Este botón está disponible desde una definición de fila o una definición de columna. |
-| [![Botón insertar columna](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Insertar una columna en blanco en la definición de la columna. Este botón está disponible desde una definición de columna. |
-| [![Botón Bloquear](./media/lockc130389.png)](./media/lockc130389.png)                           | Aplicar una contraseña a la unidad del bloque de creación actual. Este botón está disponible para los usuarios que tienen el rol de **Diseñador** o de **Administrador**. |
-| [![Botón Vínculo de filas](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Abrir el cuadro de diálogo **Vínculos de filas**, donde puede especificar las fuentes de los vínculos de datos en las definiciones de filas y en definiciones de los organigramas. Este botón está disponible desde una definición de la fila. |
-| [![Botón Promover](./media/promotec130389.png)](./media/promotec130389.png)                  | Promueva una unidad de la definición del organigrama. Cuando selecciona una unidad secundaria y hace clic en **Promover**, la unidad secundaria se transfiere al mismo nivel que su unidad principal. |
-| [![Botón Degradar](./media/demotec130389.png)](./media/demotec130389.png)                     | Degrade una unidad de la definición del organigrama. Cuando selecciona una unidad y hace clic en **Degradar**, la unidad se convierte en la unidad secundaria que la precede. |
-| [![Botón Expandir](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Expandir todas las unidades de la definición del organigrama en el nivel de la unidad seleccionada. |
-| [![Botón Contraer](./media/collapsec130389.png)](./media/collapsec130389.png)               | Contraer el organigrama. |
-| [![Botón Ayuda](./media/helpc130389.png)](./media/helpc130389.png)                           | Abra la Ayuda. |
+| [![Nuevo botón.](./media/rowc130389.png)](./media/rowc130389.png)                              | Crear una nueva definición del informe, definición de la fila, definición de la columna o definición del organigrama (en blanco). |
+| [![Botón Abrir.](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Abrir una definición de la fila, definición de la columna, definición del organigrama o definición del informe existentes. |
+| [![Botón Guardar.](./media/savec130389.png)](./media/savec130389.png)                           | Guardar la definición de la fila, definición de la columna, definición del organigrama o definición del informe actuales. |
+| [![Botón Copiar.](./media/copyc130389.png)](./media/copyc130389.png)                           | Copiar el texto seleccionado en el portapapeles. |
+| [![Botón Cortar.](./media/cutc130389.png)](./media/cutc130389.png)                              | Eliminar el texto seleccionado y copiarlo en el Portapapeles. |
+| [![Botón Pegar.](./media/pastec130389.png)](./media/pastec130389.png)                        | Insertar el texto del portapapeles. |
+| [![Botón Deshacer.](./media/undoc130389.png)](./media/undoc130389.png)                           | Deshacer la última acción. |
+| [![Botón Rehacer.](./media/redoc130389.png)](./media/redoc130389.png)                           | Invertir la última acción que se deshizo. |
+| [![Botón Buscar.](./media/findc130389.png)](./media/findc130389.png)                           | Abra el cuadro de diálogo **Buscar y reemplazar**, donde puede buscar y reemplazar texto en la ventana activa. |
+| [![Botón Insertar fila.](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Insertar una fila en blanco en la definición de fila o una fila de cabecera en blanco en la definición de columna. Este botón está disponible desde una definición de fila o una definición de columna. |
+| [![Botón insertar columna.](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Insertar una columna en blanco en la definición de la columna. Este botón está disponible desde una definición de columna. |
+| [![Botón Bloquear.](./media/lockc130389.png)](./media/lockc130389.png)                           | Aplicar una contraseña a la unidad del bloque de creación actual. Este botón está disponible para los usuarios que tienen el rol de **Diseñador** o de **Administrador**. |
+| [![Botón Vínculo de filas.](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Abrir el cuadro de diálogo **Vínculos de filas**, donde puede especificar las fuentes de los vínculos de datos en las definiciones de filas y en definiciones de los organigramas. Este botón está disponible desde una definición de la fila. |
+| [![Botón Promover.](./media/promotec130389.png)](./media/promotec130389.png)                  | Promueva una unidad de la definición del organigrama. Cuando selecciona una unidad secundaria y hace clic en **Promover**, la unidad secundaria se transfiere al mismo nivel que su unidad principal. |
+| [![Botón Degradar.](./media/demotec130389.png)](./media/demotec130389.png)                     | Degrade una unidad de la definición del organigrama. Cuando selecciona una unidad y hace clic en **Degradar**, la unidad se convierte en la unidad secundaria que la precede. |
+| [![Botón Expandir.](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Expandir todas las unidades de la definición del organigrama en el nivel de la unidad seleccionada. |
+| [![Botón Contraer.](./media/collapsec130389.png)](./media/collapsec130389.png)               | Contraer el organigrama. |
+| [![Botón Ayuda.](./media/helpc130389.png)](./media/helpc130389.png)                           | Abra la Ayuda. |
 
 ### <a name="formatting-toolbar"></a>Barra de herramientas de formato
 
@@ -196,16 +196,16 @@ La barra de herramientas de formato proporciona de fácil acceso a los comandos 
 
 | Botón                                                                                                       | Descripción                                             |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Botón Estilo de fuente](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Aplicar el estilo de fuente seleccionado al texto actual.      |
-| [![Botón Fuente](./media/fonttype.png)](./media/fonttype.png)                                                 | Definir el texto actual al estilo de fuente seleccionado.              |
-| [![Botón Tamaño de fuente](./media/fontsize.png)](./media/fontsize.png)                                            | Definir el texto actual al tamaño de fuente (en puntos). |
-| [![Botón Negrita](./media/boldc130389.png)](./media/boldc130389.png)                                           | Poner el texto actual en negrita.                             |
-| [![Botón cursiva](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Poner el texto actual en cursiva.                           |
-| [![Botón Subrayado](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Surayar el texto actual.                             |
-| [![Botón Reducir sangría](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Reducir la sangría del texto actual.                |
-| [![Botón Aumentar sangría](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentar la sangría del texto actual.                |
-| [![Botón Color de fondo](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Cambiar el color de fondo de la celda actual.        |
-| [![Botón color de fuente](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Cambiar el color del texto actual                   |
+| [![Botón Estilo de fuente.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Aplicar el estilo de fuente seleccionado al texto actual.      |
+| [![Botón Fuente.](./media/fonttype.png)](./media/fonttype.png)                                                 | Definir el texto actual al estilo de fuente seleccionado.              |
+| [![Botón Tamaño de fuente.](./media/fontsize.png)](./media/fontsize.png)                                            | Definir el texto actual al tamaño de fuente (en puntos). |
+| [![Botón Negrita.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Poner el texto actual en negrita.                             |
+| [![Botón cursiva.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Poner el texto actual en cursiva.                           |
+| [![Botón Subrayado.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Surayar el texto actual.                             |
+| [![Botón Reducir sangría.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Reducir la sangría del texto actual.                |
+| [![Botón Aumentar sangría.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentar la sangría del texto actual.                |
+| [![Botón Color de fondo.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Cambiar el color de fondo de la celda actual.        |
+| [![Botón color de fuente.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Cambiar el color del texto actual                   |
 
 ### <a name="report-designer-toolbar"></a>Barra de herramientas del diseñador de informes
 
@@ -213,12 +213,12 @@ La barra de herramientas del diseñador de informes ofrece acceso rápido a los 
 
 | Botón                                                                                              | Descripción |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Botón Definición del informe](./media/reportc130389.png)](./media/reportc130389.png)                 | Mostrar la definición del informe indicada en el menú **Ventana**. |
-| [![Botón Definición de la fila](./media/rowc130389.png)](./media/rowc130389.png)                          | Mostrar la definición de filas que se asigna a la definición del informe activo. |
-| [![Botón Definición de la columna](./media/columnc130389.png)](./media/columnc130389.png)                 | Mostrar la definición de columnas que se asigna a la definición del informe activo. |
-| [![Botón Definición del organigrama](./media/treec130389.png)](./media/treec130389.png)             | Mostrar la definición del organigrama que se asigna a la definición del informe activo. |
-| [![Botón Visor de informes](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Iniciar el visor de informes y mostrar la versión más reciente del informe generado. Este botón está disponible desde una definición del informe si ha generado al menos un informe. |
-| [![Botón Generar informe](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Genera un informe a partir de la definición de informe activa. Este botón está disponible desde una definición de informe. |
+| [![Botón Definición del informe.](./media/reportc130389.png)](./media/reportc130389.png)                 | Mostrar la definición del informe indicada en el menú **Ventana**. |
+| [![Botón Definición de la fila.](./media/rowc130389.png)](./media/rowc130389.png)                          | Mostrar la definición de filas que se asigna a la definición del informe activo. |
+| [![Botón Definición de la columna.](./media/columnc130389.png)](./media/columnc130389.png)                 | Mostrar la definición de columnas que se asigna a la definición del informe activo. |
+| [![Botón Definición del organigrama.](./media/treec130389.png)](./media/treec130389.png)             | Mostrar la definición del organigrama que se asigna a la definición del informe activo. |
+| [![Botón Visor de informes.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Iniciar el visor de informes y mostrar la versión más reciente del informe generado. Este botón está disponible desde una definición del informe si ha generado al menos un informe. |
+| [![Botón Generar informe.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Genera un informe a partir de la definición de informe activa. Este botón está disponible desde una definición de informe. |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

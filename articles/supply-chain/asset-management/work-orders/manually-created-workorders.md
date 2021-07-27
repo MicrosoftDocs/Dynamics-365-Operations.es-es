@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839568"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354866"
 ---
 # <a name="manually-created-work-orders"></a>Órdenes de trabajo creadas manualmente
 
@@ -111,7 +111,7 @@ Puede crear una orden de trabajo relacionada con una orden de trabajo existente.
 
 La ilustración muestra un ejemplo del cuadro de diálogo **Crear orden de trabajo relacionada**.
 
-![Figura 1](media/03-work-orders.png)
+![Figura 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Si ha configurado una máscara de orden de trabajo relacionada en la ficha **Parámetros de administración de activos** > **Órdenes de trabajo** > campo **Máscara de orden de trabajo relacionada**, los id. de orden de trabajo se crearán de acuerdo con la configuración de la máscara. Si no se ha configurado ninguna máscara de orden de trabajo relacionada, se utiliza el siguiente id. de orden de trabajo disponible para las órdenes de trabajo relacionadas.
@@ -137,7 +137,7 @@ Puede crear rápidamente una nueva orden de trabajo a partir de una orden de tra
 
 La ilustración siguiente muestra un ejemplo del diálogo **Copiar orden de trabajo**.
 
-![Figura 2](media/04-work-orders.png)
+![Figura 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Crear una orden de trabajo basada en una solicitud de mantenimiento
@@ -157,7 +157,7 @@ La ilustración siguiente muestra un ejemplo del diálogo **Copiar orden de trab
 
 La ilustración siguiente muestra un ejemplo del diálogo **Crear orden de trabajo**.
 
-![Figura 3](media/05-work-orders.png)
+![Figura 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812920"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347719"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Mejorar el rendimiento del motor de programación
 
@@ -66,11 +66,11 @@ Como ejemplo, considere una ruta que se muestra en la siguiente tabla e imagen, 
 | 10 | Secundario&nbsp;1 | | | | 1 | 20 |
 | 20 | Principal | | 3.00 | 1.00 | 3 | 0 |
 
-![Diagrama de ruta de ejemplo](media/scheduling-engine-route.png "Diagrama de ruta de ejemplo")
+![Diagrama de ruta de ejemplo.](media/scheduling-engine-route.png "Diagrama de ruta de ejemplo")
 
 Al enviar esto al motor, se divide en ocho trabajos, como se muestra en la siguiente ilustración (seleccione la imagen para ampliarla).
 
-[![Programación de trabajos del motor](media/scheduling-engine-jobs.png "Programación de trabajos del motor")](media/scheduling-engine-jobs-large.png)
+[![Programación de trabajos del motor](media/scheduling-engine-jobs.png "Programación de trabajos del motor".](media/scheduling-engine-jobs-large.png)
 
 El vínculo estándar entre dos trabajos es `FinishStart`, lo que significa que la hora de finalización de un trabajo debe ser anterior a la hora de inicio de otro trabajo. Debido a que la configuración debe ser realizada por el mismo recurso que luego realizará el proceso, hay restricciones `OnSameResource` entre ellos. Entre los trabajos para operación primaria y secundaria para 10, hay enlaces `StartStart` y `FinishFinish` enlaces, lo que significa que los trabajos deben comenzar y terminar al mismo tiempo, y hay restricciones `NotOnSameResource`, lo que impedirá el mismo recurso para primaria y secundaria.
 

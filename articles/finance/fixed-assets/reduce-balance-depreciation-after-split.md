@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826260"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356784"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Reducir la depreciación del saldo después de una división
 
@@ -37,7 +37,7 @@ Por ejemplo, están en vigor las siguientes condiciones:
 - La depreciación del primer año fiscal es igual a 18.000 $, la depreciación mensual es igual a 150 $, y luego el activo se deprecia hasta noviembre de 2019, por un importe de 738,75 $.
 - En noviembre de 2019, el 80 por ciento del activo se divide en otro activo fijo.
 
-[![Reducir la depreciación del saldo después de una división](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Reducir la depreciación del saldo después de una división.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 La cantidad a depreciar del activo original es 1.822,25 $. Esta cantidad es igual al NBV antes de que se contabilice la transacción dividida (9.111,25), más el ajuste de adquisición que se genera durante la contabilización de la transacción dividida (- 8.000 $), más el ajuste de depreciación que se genera durante la transacción dividida (711 $). Por lo tanto, la depreciación para el segundo año es (1.822,25 × 18 por ciento) ÷ 12 = 27,33 $.
 

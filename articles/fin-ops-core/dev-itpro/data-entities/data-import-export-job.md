@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937339"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351028"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -106,7 +107,7 @@ Existen dos vistas de asignación: **Visualización de la asignación** que es l
 
 Puede crear una asignación en la página seleccionando **Crear la asignación de origen**. Una asignación generada actúa como una asignación automática. Por lo tanto, debe asignar manualmente cualquier campo sin asignar.
 
-![Asignación de datos](./media/dixf-map.png)
+![Asignación de datos.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Compruebe la seguridad del trabajo de importación o exportación
 El acceso al área de trabajo **Administración de datos** puede ser limitado, de modo que los usuarios que no sean administradores solo pueden acceder a ciertos trabajos de datos. El acceso a un trabajo de datos implica acceso total al historial de ejecución de ese trabajo y acceso a las tablas de ensayo. Por lo tanto, debe asegurarse de que los controles de acceso son los adecuados al crear un trabajo de datos.
@@ -132,7 +133,7 @@ Puede ejecutar un trabajo una vez; para ello, seleccione el botón **Importar** 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Confirme que el trabajo funciona como es debido.
 Tiene disponible el historial de trabajos por si necesita solucionar algún problema o investigar algún trabajo de importación o exportación. Las ejecuciones de trabajos del historial se organizan según intervalos de tiempo.
 
-![Rangos del historial de trabajos](./media/dixf-job-history.md.png)
+![Rangos del historial de trabajos.](./media/dixf-job-history.md.png)
 
 Cada ejecución de trabajo proporciona los siguientes detalles:
 

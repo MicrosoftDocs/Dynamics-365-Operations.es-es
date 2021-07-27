@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025457"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353789"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Operación de búsqueda de inventario en PDV
 
@@ -45,7 +45,10 @@ Para un producto individual, la operación de búsqueda de inventario proporcion
 
 La vista de lista de ubicaciones incluye todas las tiendas y almacenes que están configurados en los grupos de proceso de entrega a los que está vinculada la tienda actual, como se muestra en la siguiente imagen de ejemplo.
 
-![Vista de lista de la operación de búsqueda de inventario](media/inventory-lookup-list-view.png)
+![Vista de lista de la operación de búsqueda de inventario.](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> Asegúrese de que su tienda actual esté incluida en los grupos de cumplimiento asociados.
 
 Las siguientes acciones están disponibles en la barra de aplicaciones del PDV:
 
@@ -65,7 +68,7 @@ Las siguientes acciones están disponibles en la barra de aplicaciones del PDV:
 - **Agregar a la transacción**: esta acción agrega el producto al carrito y redirige al usuario a la pantalla de transacciones.
 
 > [!NOTE]
-> Para una clasificación basada en la ubicación, la distancia entre una ubicación y la tienda actual está determinada por las coordenadas (latitud y longitud) definidas en la sede central de Commerce. Para una tienda, la información de ubicación se define en la dirección principal de la unidad operativa asociada con la tienda. Para un almacén que no es una tienda, la información de ubicación se define en la dirección del almacén. Si la tienda actual no tiene las coordenadas definidas correctamente, la opción de clasificación basada en la ubicación mostrará la tienda actual en la parte superior de la lista y luego clasificará otras ubicaciones por nombre.
+> Para una clasificación basada en la ubicación, la distancia entre una ubicación y la tienda actual está determinada por las coordenadas (latitud y longitud) definidas en la sede central de Commerce. Para una tienda, la información de ubicación se define en la dirección principal de la unidad operativa asociada con la tienda. Para un almacén que no es una tienda, la información de ubicación se define en la dirección del almacén. Si la tienda actual no tiene las coordenadas definidas, la opción de clasificación basada en la ubicación mostrará la tienda actual en la parte superior de la lista y luego clasificará otras ubicaciones por nombre.
 
 > [!NOTE]
 > Las acciones **Mostrar disponibilidad en tienda**, **Mostrar ubicación de la tienda**, **Recoger en tienda** y **Enviar producto** no están disponibles para ubicaciones que no sean tiendas.
@@ -76,7 +79,7 @@ Para un producto maestro con variantes, la operación de búsqueda de inventario
 
 La siguiente imagen de ejemplo muestra la vista de matriz de búsqueda de inventario en el PDV.
 
-![Vista de matriz de la operación de búsqueda de inventario](media/inventory-lookup-matrix-view.png)
+![Vista de matriz de la operación de búsqueda de inventario.](media/inventory-lookup-matrix-view.png)
 
 En la vista de matriz, cada celda representa una variante individual y muestra un valor de inventario disponible (físico disponible) en la esquina inferior derecha, así como valores de **reservado** (reservado físico) y **pedido** (pedidos en total) en la esquina superior izquierda. La siguiente tabla explica el significado de los distintos valores disponibles.
 
@@ -103,7 +106,7 @@ Los usuarios del PDV pueden acceder a la operación de búsqueda de inventario d
 
 La siguiente imagen de ejemplo muestra los resultados de búsqueda de inventario desde una PDP en el PDV.
 
-![Búsqueda de inventario desde la página de detalles del producto](media/inventory-lookup-from-product-details-page.png)
+![Búsqueda de inventario desde la página de detalles del producto.](media/inventory-lookup-from-product-details-page.png)
 
 En la PDP de un producto maestro, puede utilizar la acción **Ver todas las variantes** en la barra de la aplicación para iniciar la vista de matriz de búsqueda de inventario que muestra información de disponibilidad de inventario para la tienda actual en todas las variantes de un producto. Para un producto individual, la PDP muestra el valor de inventario disponible (físico disponible) de ese producto para la tienda actual. Además, puede seleccionar el vínculo **Inventario en otras tiendas** para iniciar la operación de búsqueda de inventario y así verificar la disponibilidad de inventario de un producto en otras tiendas o almacenes.
 

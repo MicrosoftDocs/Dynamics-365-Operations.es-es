@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 15466699b94c284208330d50b840c874534b879c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ce5ddf863988475550584384f4cf26f1302768aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910289"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355910"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Sincronizar información de nivel de inventario de Supply Chain Management a Field Service 
 
@@ -31,7 +31,7 @@ ms.locfileid: "5910289"
 
 En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar información de nivel de inventario de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 
-[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 La plantilla siguiente y las tareas subyacentes se usan para sincronizar niveles disponibles de inventario de Supply Chain Management a Field Service.
@@ -89,7 +89,7 @@ Puede aplicar filtros con la consulta y un filtrado avanzados para que sólo det
 
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Inventario de producto (Supply Chain Management a Field Service): Inventario de producto
 
-[![Asignación de la plantilla en la integración de datos](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

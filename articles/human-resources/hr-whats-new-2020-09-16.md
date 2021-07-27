@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fe3ac2393e66a00e070d8cb6862c29625d39b53
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b1386cca9fd39c2cf021e87fcc33da2bbda89630
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057173"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353599"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (16 de septiembre de 2020)
 
@@ -99,9 +99,9 @@ Esta característica también promueve las opciones de flujo de trabajo que apar
 
 - [Mejoras en la experiencia del flujo de trabajo de gestión de personal y organización](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) en el plan del segundo lanzamiento de versiones de 2020 de Dynamics 365
 
-![Elementos de trabajo asignados a mí](./media/hr-workflow-work-items-assigned-to-me.png)
+![Mis elementos de trabajo.](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![Acceso rápido a elementos de flujo de trabajo](./media/hr-workflow-quick-access.png)
+![Acceso rápido a elementos de flujo de trabajo.](./media/hr-workflow-quick-access.png)
 
 ### <a name="leave-and-absence-calendar"></a>Calendario de bajas y ausencias
 

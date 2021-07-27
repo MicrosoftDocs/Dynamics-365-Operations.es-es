@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019966"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348277"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Cambio sin conexión perfecto para operaciones con tarjetas regalo y notas de crédito
 
@@ -36,7 +36,7 @@ Sin embargo, si el PDV pierde conectividad después de agregar una tarjeta de re
 
 Para habilitar la funcionalidad para concluir transacciones de tarjetas de regalo después de cambiar al modo fuera de línea, vaya a la pestaña **Registro** en la página **Parámetros de Commerce**. En esa pestaña, encuentre la ficha desplegable **Tarjeta regalo** y establezca **Permitir concluir transacciones de tarjetas de regalo en modo fuera de línea** a **Sí**.
 
-![Configuración de tarjeta de regalo sin conexión](../media/gift.png)
+![Configuración de tarjeta de regalo sin conexión.](../media/gift.png)
 
 Los parámetros de Commerce generalmente se almacenan en caché. Por lo tanto, una vez que se actualiza la configuración de este parámetro y se inicia la programación de distribución para sincronizar el cambio en el canal, el cambio puede tardar hasta 24 horas en surtir efecto. Para que el cambio entre en vigencia inmediatamente, reinicie los Servicios de Internet Information Server (IIS) de Microsoft.
 
@@ -46,7 +46,7 @@ Al igual que las tarjetas de regalo internas, las notas de crédito se mantienen
 
 Para habilitar la funcionalidad para concluir transacciones de notas de crédito después de cambiar al modo fuera de línea, vaya a la pestaña **Registro** en la página **Parámetros de Commerce**. En esa pestaña, encuentre la ficha desplegable **Nota de crédito** y establezca **Permitir concluir transacciones de notas de crédito en modo fuera de línea** a **Sí**.
 
-![Configuración de nota de crédito sin conexión](../media/creditmemo.png)
+![Configuración de nota de crédito sin conexión.](../media/creditmemo.png)
 
 Los parámetros de Commerce generalmente se almacenan en caché. Por lo tanto, una vez que se actualiza la configuración de este parámetro y se inicia la programación de distribución para sincronizar el cambio en el canal, el cambio puede tardar hasta 24 horas en surtir efecto. Para que el cambio sea efectivo de inmediato, reinicie IIS.
 

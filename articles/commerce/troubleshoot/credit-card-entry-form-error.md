@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ea9105481e6c5812565f0d3604906c905bcb5443
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 593c1bdb502330c5dc9f26254dbed809cea7651b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018515"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347401"
 ---
 # <a name="credit-card-entry-page-shows-an-error-at-checkout"></a>La página de entrada de la tarjeta de crédito muestra un error al finalizar la compra
 
@@ -32,7 +32,7 @@ Este tema proporciona una guía para la resolución de problemas que puede ayuda
 
 Cuando abre la página de pago de una tienda en línea, la sección **Método de pago** no está cargada y se muestra el siguiente mensaje de error: "Algo salió mal. Vuelva a intentarlo más tarde".
 
-![Error de módulo de pago](media/payment-module-error.jpg)
+![Error de módulo de pago.](media/payment-module-error.jpg)
 
 ## <a name="resolution"></a>Resolución
 

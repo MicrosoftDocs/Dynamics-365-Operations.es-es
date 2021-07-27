@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020100"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343823"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>El impuesto se registra en la cuenta contable incorrecta en el asiento
 
@@ -30,26 +30,26 @@ Durante el registro, el impuesto puede registrarse en la cuenta contable incorre
 
 1. En la página **Transacciones de asientos**, seleccione la transacción con la que desea trabajar y luego seleccione **Impuesto registrado**.
 
-    [![Botón de impuesto registrado en la página de transacciones de asientos](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![Botón de impuesto registrado en la página de transacciones de asientos.](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
 2. Revise el valor en el campo **Código de impuestos**. En este ejemplo, es **IVA 19**.
 
-    [![Campo de código de impuesto en la página Impuesto registrado](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![Campo de código de impuesto en la página Impuesto registrado.](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Comprobar el grupo de registro del libro mayor del código de impuestos
 
 1. Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Códigos de impuestos**.
 2. Busque y seleccione el código de impuestos y luego revise el valor en el campo **Grupo de registro del libro mayor**. En este ejemplo, es **IVA**.
 
-    [![Campo Grupo de registro del libro mayor en la página de códigos de impuestos](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
+    [![Campo Grupo de registro del libro mayor en la página de códigos de impuestos.](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
 
 3. El vaor del campo **Grupo de registro del libro mayor** es un vínculo. Para ver los detalles de la configuración del grupo, seleccione el vínculo. Alternativamente, seleccione y mantenga presionado (o haga clic con el botón derecho) en el campo y luego seleccione **Ver detalles**.
 
-    [![Comando Ver detalles](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![Comando Ver detalles.](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. En el campo **Impuesto a pagar**, verifique que el número de cuenta sea correcto, según el tipo de transacción. Si no es así, seleccione la cuenta correcta para registrar. En este ejemplo, el impuesto sobre las ventas del pedido de ventas debe contabilizarse en la cuenta de impuestos a pagar 222200.
 
-    [![Campo Impuestos a pagar en Grupos de registro de contabilidad](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
+    [![Campo Impuestos a pagar en Grupos de registro de contabilidad.](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
 
     La siguiente tabla proporciona información sobre cada campo de la página **Grupos de registro de contabilidad**.
 
@@ -71,11 +71,11 @@ En el código, la cuenta contable está determinada por la dimensión contable d
 
 1. Para un pedido de ventas, agregue un punto de interrupción en los métodos **Tax::saveAndPost()** y **Tax::post()**. Preste atención al valor de **\_ledgerDimension**.
 
-    [![Ejemplo de código de pedido de ventas que tiene un punto de interrupción](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![Ejemplo de código de pedido de ventas que tiene un punto de interrupción.](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
     Para una orden de compra, agregue un punto de interrupción en los métodos **TaxPost::saveAndPost()** y **TaxPost::postToTaxTrans()**. Preste atención al valor de **\_ledgerDimension**.
 
-    [![Ejemplo de código de pedido de compra que tiene un punto de interrupción](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![Ejemplo de código de pedido de compra que tiene un punto de interrupción.](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
 2. Ejecute la siguiente consulta SQL para encontrar el valor de visualización de la cuenta en la base de datos, según el id. de registro que guarda la dimensión del libro mayor.
 
@@ -83,7 +83,7 @@ En el código, la cuenta contable está determinada por la dimensión contable d
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![Valor de visualización del id. de registro](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![Valor de visualización del id. de registro.](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
 3. Examine la pila de llamadas para encontrar valor asignado de **_ledgerDimension**. Por lo general, el valor es de **TmpTaxWorkTrans**. En este caso, debe agregar un punto de interrupción en **TmpTaxWorkTrans::insert()** y **TmpTaxWorkTrans::update()** para encontrar dónde se asignó el valor.
 

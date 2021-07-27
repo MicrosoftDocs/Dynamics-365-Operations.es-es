@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a8dd3d8c6b92be9f22573f463aa96b13d9e3418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818593"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355541"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Metodología de la convención de depreciación semestral
 
@@ -36,7 +36,7 @@ El primer año de servicio concluirá en diciembre de 2020, lo que significa que
 > Depreciación anual 50 000/5 = 10 000 depreciación mensual 10 000/12 = 833,33 <br>
 > Depreciación del primer año 10 000/2 = 5000 y la depreciación mensual subsiguiente 5000/9 = 555,56
 
-   [![Programa de depreciación para la convención de depreciación semestral](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Programa de depreciación para la convención de depreciación semestral.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Los períodos de depreciación extendidos que se agregan por la convención semestral proporcionan una asignación más precisa de la depreciación. La convención de seis meses representa los gastos de depreciación de manera más equitativa, lo que es útil para informar sobre el estado de pérdidas y ganancias.
 

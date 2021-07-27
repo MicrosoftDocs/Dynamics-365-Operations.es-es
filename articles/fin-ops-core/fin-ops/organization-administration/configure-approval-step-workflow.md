@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86e8787320721a58f449abcfba21c2c4c6b4caf9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 988340d9e5fc12c9329a587c7401fe039c8e5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751785"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350703"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurar los pasos de aprobación en un flujo de trabajo
 
@@ -156,7 +156,7 @@ Siga estos pasos para especificar a quién se debe asignar el paso de aprobació
 
     - **Un único aprobador**: la acción que se aplica al documento la determina la primera persona que responde. Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 15.000 USD. En este momento, el informe de gastos está asignado a Sue, Jo y Bill. Si Sue es la primera persona que responde al documento, la acción que ella lleva a cabo se aplica al documento. Si Sue rechaza el documento, se lo rechaza y se lo vuelve a enviar a Sam. Si Sue aprueba el documento, se lo envía a Ann para que lo apruebe.
 
-        ![Flujo de trabajo que tiene un proceso de aprobación](./media/workflow_multipleusersinstep.gif)
+        ![Flujo de trabajo que tiene un proceso de aprobación.](./media/workflow_multipleusersinstep.gif)
 
     - **Mayoría de aprobadores**: la acción que se aplica al documento se determina cuando responde la mayoría de los aprobadores. Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 15.000 USD. En este momento, el informe de gastos está asignado a Sue, Jo y Bill. Si Sue y Jo son las dos primeras aprobadoras en responder, la acción que ellas llevan a cabo se aplica al documento.
 

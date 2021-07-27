@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188006"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355044"
 ---
 # <a name="overhead-calculation"></a>Cálculo de costes generales
 
@@ -48,7 +48,7 @@ El cálculo de costes generales ejecuta las directivas de contabilidad de costes
 
 El cálculo de costes generales se ejecuta independientemente de la versión. Por lo tanto, puede calcular la versión de presupuesto antes que la versión real. El cálculo de costes generales consta de cuatro pasos, como se muestra en la siguiente ilustración. En cada paso, se crea una cabecera de diario que tiene entradas del diario. Esta cabecera de diario guarda los datos de entrada para cada paso de cálculo. Las directivas y las reglas se aplican a cada línea de diario, y las entradas de coste se generan como resultado. Por tanto, siempre se tiene rastreabilidad completa. 
 
-[![Cálculo de costes generales](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Cálculo de costes generales.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calcular y asignar costes generales de electricidad
 En la contabilidad financiera, algunos costes, como la electricidad, se registran como suma total. Por lo tanto, no se proporciona una visión de gestión detallada para la contabilidad de costes. En contabilidad de costes, para proporcionar información de gestión correcta en todas las unidades y niveles organizativos, los costes deben fluir por las unidades organizativas. Este flujo se debe basar en cualquier registro preciso de consumo o en una evaluación justa. En la contabilidad general, un coste de la electricidad se puede registrar como se muestra en la tabla siguiente.
@@ -618,7 +618,7 @@ Para obtener más información, consulte [Realizar cálculo de costes generales]
 
 La asignación es utilizada para asignar el saldo de un objeto de coste a otros objetos de coste aplicando una base de asignación. Finance admite el método de asignación recíproco. En el método de asignación recíproco, se reconocen completamente los servicios mutuos que los objetos de coste auxiliar intercambian. El sistema determina automáticamente el orden correcto para realizar las asignaciones. El saldo de un objeto de coste se asigna según una única base de asignación. Las asignaciones entre dimensiones de objetos de coste y sus miembros respectivos se admiten. El orden de asignación se controla por unidad de control de costes. 
 
-[![Método recíproco](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Método recíproco.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Defina la asignación de costes
 

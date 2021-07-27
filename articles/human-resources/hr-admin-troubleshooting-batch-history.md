@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053500"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344673"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Optimizar el rendimiento con tareas automáticas de limpieza
 
@@ -41,23 +41,23 @@ Programe una tarea automática para limpiar el historial de trabajos por lotes. 
 
 2. En la barra **Buscar**, especifique **Limpieza del historial de trabajos por lotes**.
 
-   ![Busque limpieza de historial de trabajos por lotes](media/talent-batch-history-cleanup-search-bar.png)
+   ![Busque limpieza de historial de trabajos por lotes.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. En el **Límite de historial (días)**, especifique **30**.
 
-   ![Establezca el límite del historial en 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![Establezca el límite del historial en 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Seleccione **Funcionamiento en segundo plano** y después seleccione **Periodicidad**.
 
-   ![Establezca la periodicidad](media/talent-batch-history-cleanup-recurrence.png)
+   ![Establezca la periodicidad.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. En **Definir frecuencia**, establezca la **Fecha inicial** y **Hora de inicio** para producir durante los fines de semana o fuera del horario de oficina y después seleccione **SIN FECHA DE FINALIZACIÓN**. 
 
-   ![Defina la fecha y hora de la periodicidad](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Defina la fecha y hora de la periodicidad.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. En **PATRÓN DE PERIODICIDAD**, seleccione **Días** y establezca **REPETICIÓN DESPUÉS DEL INTERVALO ESPECIFICADO** **7**.
 
-   ![Establezca la limpieza para repetirse semanalmente](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Establezca la limpieza para repetirse semanalmente.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. Seleccione **Aceptar**.
 

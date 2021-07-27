@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5ec5b8d0ad1e85a9c4fc7c3eb762c2c7b0b52e8d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b2b22d6e18974ed600dae6501ec103a49876d2db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893309"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345921"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personalizar las configuraciones de informes electrónicos para generar un documento electrónico
 
@@ -106,7 +108,7 @@ Para agregar las configuraciones estándar de ER a su instancia actual de Financ
 5. En la ficha desplegable **Versiones**, seleccione la versión **11.2.2**.
 6. Seleccione **Importar** para descargar la versión seleccionada desde el repositorio Global.
 
-![Página de configuración del repositorio](./media/er-quick-start3-import-solution1.png)
+![Página de configuración del repositorio.](./media/er-quick-start3-import-solution1.png)
 
 > [!TIP]
 > Si tiene problemas para acceder al [Repositorio global](er-download-configurations-global-repo.md), puede [descargar configuraciones](download-electronic-reporting-configuration-lcs.md) de Microsoft Dynamics Lifecycle Services (LCS) en su lugar.
@@ -120,7 +122,7 @@ Para agregar las configuraciones estándar de ER a su instancia actual de Financ
 
 Tenga en cuenta que, además del formato de ER **Factura de ventas Peppol** seleccionado, se importaron otras configuraciones de ER necesarias. Como se publican constantemente nuevas versiones de las configuraciones de ER en el repositorio Global y LCS para mantener la compatibilidad de las soluciones correspondientes compatibles con los nuevos requisitos, se han importado las versiones más recientes de la configuración de [modelo de datos](general-electronic-reporting.md#data-model-and-model-mapping-components) requerida y su [asignación de modelo](general-electronic-reporting.md#data-model-and-model-mapping-components).
 
-![Página Configuraciones](./media/er-quick-start3-imported-solution1a.png)
+![Página Configuraciones.](./media/er-quick-start3-imported-solution1a.png)
 
 Para simular el estado en el que se encontrarían las configuraciones de ER en la instancia de Finance actual si importara la versión **11.2.2** del formato de ER **Factura de ventas Peppol** en el pasado (por ejemplo, el 7 de agosto de 2019), siga estos pasos.
 
@@ -134,7 +136,7 @@ A continuación, compruebe que las siguientes configuraciones de ER están dispo
     - La versión 11 contiene la versión 10 del componente de ER [modelo de datos](general-electronic-reporting.md#data-model-and-model-mapping-components) que representa la estructura de datos del dominio empresarial de facturación. Esta configuración de ER se ha importado como antepasado del formato de ER **Factura de ventas Peppol** que se seleccionó para importar.
     - La versión 50 contiene la versión 31 del componente de ER de modelo de datos. Esta configuración de ER se ha importado como un antepasado de la versión del 7 de agosto de 2019 de la configuración de asignación de modelo de ER **Asignación de modelo de factura**.
 
-    ![Configuración del modelo de datos de ER del modelo de factura en la página Configuraciones](./media/er-quick-start3-imported-solution1b1.png)
+    ![Configuración del modelo de datos de ER del modelo de factura en la página Configuraciones.](./media/er-quick-start3-imported-solution1b1.png)
 
     > [!TIP]
     > Si no ve la versión 50 de este modelo de datos, abra el repositorio Global e importe la versión 50.19 de la configuración de ER **Asignación de modelo de factura**.
@@ -143,7 +145,7 @@ A continuación, compruebe que las siguientes configuraciones de ER están dispo
 
     - La versión 50.19 se ha importado como la implementación más reciente de la versión 50 de la configuración de modelo de datos de ER **Modelo de factura**. Contiene dos componentes de ER de [asignación de modelo](general-electronic-reporting.md#data-model-and-model-mapping-components) que describen cómo se rellena el modelo de datos con los datos de la aplicación en tiempo de ejecución.
 
-    ![Configuración de la asignación del modelo de datos de ER para la asignación del modelo de factura en la página Configuraciones](./media/er-quick-start3-imported-solution1b2.png)
+    ![Configuración de la asignación del modelo de datos de ER para la asignación del modelo de factura en la página Configuraciones.](./media/er-quick-start3-imported-solution1b2.png)
 
     > [!TIP]
     > Si no ve la versión 50.19 de esta asignación de modelo, abra el repositorio Global e importe la versión 50.19 de la configuración de ER **Asignación de modelo de factura**.
@@ -156,7 +158,7 @@ A continuación, compruebe que las siguientes configuraciones de ER están dispo
 
     - La versión 11.2.2 contiene los componentes de ER de formato y asignación de formato que se configuraron para generar facturas electrónicas con formato Pan-European Public Procurement OnLine (PEPPOL).
 
-    ![Configuración de formato de ER de factura de ventas Peppol en la página Configuraciones](./media/er-quick-start3-imported-solution1b3.png)
+    ![Configuración de formato de ER de factura de ventas Peppol en la página Configuraciones.](./media/er-quick-start3-imported-solution1b3.png)
 
 ## <a name="configure-the-accounts-receivable-parameters"></a><a name="ConfigureAR1"></a>Configurar los parámetros de clientes
 
@@ -164,7 +166,7 @@ A continuación, compruebe que las siguientes configuraciones de ER están dispo
 2. En la pestaña **Documentos electrónicos**, en la ficha desplegable **Informes electrónicos**, en el campo **Factura de servicios y ventas**, seleccione **Factura de ventas Peppol**.
 3. Seleccione **Guardar**.
 
-![Pestaña Documentos electrónicos en la página Parámetros de clientes](./media/er-quick-start3-configure-ar1.png)
+![Pestaña Documentos electrónicos en la página Parámetros de clientes.](./media/er-quick-start3-configure-ar1.png)
 
 ## <a name="configure-the-legal-entity-parameters"></a><a name="ConfigureLE"></a>Configurar los parámetros de entidad jurídica
 
@@ -216,7 +218,7 @@ Ahora puede usar las configuraciones estándar de ER que importó para enviar po
 
 5. Seleccione **Guardar**.
 
-![Página de facturas de servicios](./media/er-quick-start3-add-invoice.png)
+![Página de facturas de servicios.](./media/er-quick-start3-add-invoice.png)
 
 Para obtener más información, consulte [Crear una factura de servicios](../../../finance/accounts-receivable/create-free-text-invoice-new.md).
 
@@ -226,14 +228,14 @@ Para obtener más información, consulte [Crear una factura de servicios](../../
 2. En la página **Factura de servicios**, en el panel de acciones, seleccione **Registrar**.
 3. En el cuadro de diálogo **Registrar factura de servicios**, seleccione **Aceptar**.
 
-![Página de detalles de factura de servicios](./media/er-quick-start3-post-invoice.png)
+![Página de detalles de factura de servicios.](./media/er-quick-start3-post-invoice.png)
 
 ### <a name="send-a-posted-invoice"></a>Enviar una factura registrada
 
 1. Vaya a **Clientes** \> **Facturas** \> **Todas las facturas de servicios**.
 2. En la página **Factura de servicios**, en el panel de acciones, en el grupo **Documento**, seleccione **Enviar** \> **Original**.
 
-    ![Vista previa de la factura original](./media/er-quick-start3-send-invoice.png)
+    ![Vista previa de la factura original.](./media/er-quick-start3-send-invoice.png)
 
 3. Cierre la página **Factura de servicios**.
 
@@ -243,12 +245,12 @@ Para obtener más información, consulte [Crear una factura de servicios](../../
 2. En la página **Trabajos de informes electrónicos**, seleccione el registro inicial que tiene la descripción de tarea **Enviar XML de factura electrónica**.
 3. Seleccione **Mostrar archivos** para acceder a la lista de archivos generados.
 
-    ![Página de trabajos de informes electrónicos](./media/er-quick-start3-jobs-list.png)
+    ![Página de trabajos de informes electrónicos.](./media/er-quick-start3-jobs-list.png)
 
 4. Seleccione **Abrir** para descargar el archivo XML de factura electrónica que se genera.
 5. Analice el archivo XML de factura electrónica. Observe que el esquema de impuestos del cliente está representado actualmente por los atributos XML **schemeID** y **schemeAgencyID**. Observe también que el elemento XML **cbc:CustomizationID** contiene actualmente el siguiente texto: `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0`.
 
-    ![Vista previa del archivo XML de factura electrónica generado](./media/er-quick-start3-e-invoice1.png)
+    ![Vista previa del archivo XML de factura electrónica generado.](./media/er-quick-start3-e-invoice1.png)
 
 ## <a name="add-a-custom-database-field"></a><a name="AddCustomField"></a>Agregar un campo de base de datos personalizado
 
@@ -280,7 +282,7 @@ Siga estos pasos para realizar la personalización.
 12. En el cuadro de mensaje que aparece, seleccione **Sí** para confirmar que desea crear una nueva entrada de campo **FederalTaxID** para la tabla **Clientes**.
 13. Seleccione **Insertar** para <a name="insert_custom_field"></a>agregar el campo **FederalTaxID\_Personalizado** a la página actual.
 
-    ![Página Todos los clientes](./media/er-quick-start3-create-new-field.gif)
+    ![Página Todos los clientes.](./media/er-quick-start3-create-new-field.gif)
 
 14. Cierre la página **Todos los clientes**.
 
@@ -310,7 +312,7 @@ Como usuario con el rol de Consultor funcional de informes electrónicos puede d
 
 Ahora puede utilizar el diseñador de modelos de datos de ER para editar la versión 50.1 de la configuración de ER **Modelo de factura (Litware)** con el [estado](general-electronic-reporting.md#component-versioning) **Borrador**.
 
-![Versión 50.1 de la configuración de ER editable en la página Configuraciones](./media/er-quick-start3-added-custom-model.png)
+![Versión 50.1 de la configuración de ER editable en la página Configuraciones.](./media/er-quick-start3-added-custom-model.png)
 
 #### <a name="configure-a-custom-data-model"></a>Configurar un modelo de datos personalizado
 
@@ -326,7 +328,7 @@ Debe modificar su modelo de datos personalizado agregando un campo nuevo para pr
 8. En el campo **Tipo de artículo**, acepte el valor predeterminado, **Cadena**.
 9. Seleccione **Agregar** y, a continuación, seleccione **Guardar**.
 
-    ![Página de diseñador del modelo de datos](./media/er-quick-start3-add-data-model-field.png)
+    ![Página de diseñador del modelo de datos.](./media/er-quick-start3-add-data-model-field.png)
 
     > [!NOTE]
     > Los campos **Etiqueta** y **Descripción** describen el propósito del nuevo campo. Puede rellenar estos campos en varios idiomas. Para obtener más información, consulte [Diseñar informes multilingües en los informes electrónicos](er-design-multilingual-reports.md).
@@ -343,7 +345,7 @@ Debe [completar](general-electronic-reporting.md#component-versioning) su trabaj
 
 El estado de la versión 50.1 se cambia de **Borrador** a **Completado** y la versión se convierte en solo lectura. Se ha agregado una nueva versión editable, 50.2, y tiene un estado de **Borrador**. Puede usar esta versión para realizar más cambios en la configuración de modelo de datos de ER personalizada.
 
-![Versión 50.1 completada en la página Configuraciones](./media/er-quick-start3-completed-custom-model1.png)
+![Versión 50.1 completada en la página Configuraciones.](./media/er-quick-start3-completed-custom-model1.png)
 
 ### <a name="customize-the-model-mapping-configuration"></a>Personalizar la configuración de la asignación de modelo
 
@@ -363,7 +365,7 @@ Como usuario con el rol de Desarrollador de informes electrónicos puede diseña
 
 7. Seleccione **Crear configuración** para agregar la nueva configuración de ER.
 
-![Agregar una asignación de modelo personalizada en la página Configuraciones](./media/er-quick-start3-adding-custom-mapping.png)
+![Agregar una asignación de modelo personalizada en la página Configuraciones.](./media/er-quick-start3-adding-custom-mapping.png)
 
 #### <a name="configure-a-custom-model-mapping"></a>Configurar una asignación de modelo personalizada
 
@@ -384,7 +386,7 @@ Debe modificar la asignación de su modelo personalizado y especificar cómo se 
 10. En el panel **Modelo de datos**, expanda **Información del cliente (cliente)** y seleccione el campo de modelo de datos **FederalTaxID\_Litware**.
 11. Seleccione **Enlazar**.
 
-    ![Página de diseñador de asignación de modelos](./media/er-quick-start3-customize-model-mapping.gif)
+    ![Página de diseñador de asignación de modelos.](./media/er-quick-start3-customize-model-mapping.gif)
 
 12. Seleccione **Guardar**.
 13. Cierre la página **Diseñador de distribución del modelo**.
@@ -400,7 +402,7 @@ Debe [completar](general-electronic-reporting.md#component-versioning) su trabaj
 
 El estado de la versión 50.19.1 se cambia de **Borrador** a **Completado** y la versión se convierte en solo lectura. Se ha agregado una nueva versión editable, 50.19.2, y tiene un estado de **Borrador**. Puede usar esta versión para realizar más cambios en la configuración de asignación de modelo de ER personalizada.
 
-![Versión 50.19.1 completada en la página Configuraciones](./media/er-quick-start3-completed-custom-mapping1.png)
+![Versión 50.19.1 completada en la página Configuraciones.](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
 > El [ciclo de vida](general-electronic-reporting-manage-configuration-lifecycle.md) de configuración admitido no cubre el ciclo de vida de los cambios de base de datos. Si exporta la versión 50.19.1 de la configuración de **Asignación de modelo de factura (Litware)** de la instancia de Finance actual e intenta importarla en otra instancia que no contenga el campo **FederalTaxID\_Personalizado** de la tabla **CustTable**, se producirá una excepción. La excepción indicará que la configuración de ER importada no es compatible con los metadatos de la instancia de Finance de destino.
@@ -424,11 +426,11 @@ Como usuario con el rol de Consultor funcional de informes electrónicos, puede 
 7. En el campo **Modelo de datos**, seleccione la definición de raíz **InvoiceCustomer**.
 8. Seleccione **Crear configuración** para agregar la nueva configuración de ER.
 
-![Agregar una configuración de formato personalizada en la página Configuraciones](./media/er-quick-start3-adding-custom-format.png)
+![Agregar una configuración de formato personalizada en la página Configuraciones.](./media/er-quick-start3-adding-custom-format.png)
 
 Ahora puede utilizar el diseñador de operaciones de ER para editar la versión 11.2.2.1 de la configuración de ER **Factura de ventas Peppol (Litware)** con el [estado](general-electronic-reporting.md#component-versioning) **Borrador**.
 
-![Versión 11.2.2.1 de la configuración de ER editable en la página Configuraciones](./media/er-quick-start3-added-custom-format.png)
+![Versión 11.2.2.1 de la configuración de ER editable en la página Configuraciones.](./media/er-quick-start3-added-custom-format.png)
 
 #### <a name="configure-a-custom-format"></a>Configurar un formato personalizado
 
@@ -444,7 +446,7 @@ Debe modificar su formato personalizado agregando un nuevo elemento de formato p
 8. En el árbol de formato, en **XMLHeader** \> **Factura** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** \> **cbc:ID**, seleccione **FederalTaxID**.
 9. Seleccione **Subir**.
 
-![Nuevo elemento de formato en la página Diseñador de formato](./media/er-quick-start3-customized-format.png)
+![Nuevo elemento de formato en la página Diseñador de formato.](./media/er-quick-start3-customized-format.png)
 
 #### <a name="configure-a-custom-format-mapping"></a>Configurar una asignación de formato personalizada
 
@@ -452,7 +454,7 @@ Debe modificar su formato personalizado agregando un nuevo elemento de formato p
 2. En **Factura**, expanda **Información del cliente (cliente)** y seleccione **FederalTaxID\_Litware**.
 3. Seleccione **Enlazar**.
 
-    ![Página de diseñador de formato](./media/er-quick-start3-customized-format-mapping.png)
+    ![Página de diseñador de formato.](./media/er-quick-start3-customized-format-mapping.png)
 
 4. Seleccione el origen de datos **Factura** del tipo **Modelo** y, a continuación, seleccione **Editar**.
 5. En el campo **Versión**, seleccione la versión **1** de su modelo de datos personalizado y, a continuación, seleccione **Aceptar**.
@@ -469,7 +471,7 @@ Debe [completar](general-electronic-reporting.md#component-versioning) su trabaj
 
 El estado de la versión 11.2.2.1 se cambia de **Borrador** a **Completado** y la versión se convierte en solo lectura. Se ha agregado una nueva versión editable, 11.2.2.2, y tiene un estado de **Borrador**. Puede usar esta versión para realizar más cambios en su configuración de formato ER personalizada.
 
-![Versión 11.2.2.1 completada en la página Configuraciones](./media/er-quick-start3-completed-custom-format1.png)
+![Versión 11.2.2.1 completada en la página Configuraciones.](./media/er-quick-start3-completed-custom-format1.png)
 
 ## <a name="configure-the-accounts-receivable-parameters-to-start-to-use-custom-er-configurations"></a><a name="ConfigureAR2"></a>Configurar los parámetros de clientes para empezar a usar las configuraciones personalizadas de ER.
 
@@ -477,7 +479,7 @@ El estado de la versión 11.2.2.1 se cambia de **Borrador** a **Completado** y l
 2. En la pestaña **Documentos electrónicos**, en la ficha desplegable **Informes electrónicos**, en el campo **Factura de servicios y ventas**, seleccione **Factura de ventas Peppol (Litware)**.
 3. Seleccione **Guardar**.
 
-![Página Parámetros de clientes, pestaña Documentos electrónicos, ficha desplegable Informes electrónicos](./media/er-quick-start3-configure-ar2.png)
+![Página Parámetros de clientes, pestaña Documentos electrónicos, ficha desplegable Informes electrónicos.](./media/er-quick-start3-configure-ar2.png)
 
 ## <a name="update-a-customer-record-by-adding-a-federal-tax-identification-code"></a><a name="ConfigureCustomer2"></a>Actualizar el registro de un cliente agregando un código de identificación fiscal federal
 
@@ -486,7 +488,7 @@ El estado de la versión 11.2.2.1 se cambia de **Borrador** a **Completado** y l
 3. En la ficha desplegable **General**, en el campo **Id. de impuestos federales**, escriba **LITWARE-6789**.
 4. Seleccione **Guardar**.
 
-    ![Página de detalles del cliente DE-014](./media/er-quick-start3-added-tax-id-value.png)
+    ![Página de detalles del cliente DE-014.](./media/er-quick-start3-added-tax-id-value.png)
 
 5. Cierre la página **Todos los clientes**.
 
@@ -507,7 +509,7 @@ El estado de la versión 11.2.2.1 se cambia de **Borrador** a **Completado** y l
 4. Seleccione **Abrir** para descargar el archivo XML de factura electrónica que se genera.
 5. Analice el archivo XML de factura electrónica. Tenga en cuenta que, de acuerdo con su personalización, el esquema de impuestos del cliente incluye el atributo XML **FederalTaxID**, además de los atributos XML **schemeID** y **schemeAgencyID**. El valor de este nuevo atributo XML lo especifica el id. fiscal federal **LITWARE-6789** que se especificó para un cliente facturado.
 
-    ![Vista previa del archivo XML de factura electrónica generado con sus personalizaciones](./media/er-quick-start3-e-invoice2.png)
+    ![Vista previa del archivo XML de factura electrónica generado con sus personalizaciones.](./media/er-quick-start3-e-invoice2.png)
 
 ## <a name="import-the-latest-versions-of-standard-er-configurations"></a><a name="ImportERConfigurations2"></a>Importar las versiones más recientes de las configuraciones estándar de ER
 
@@ -520,7 +522,7 @@ Para mantener [actualizado](general-electronic-reporting-manage-configuration-li
 5. En la ficha desplegable **Versiones**, seleccione la versión **32.6.7** de la configuración de formato de ER seleccionada que se ha lanzado para permitir el uso de facturas electrónicas de cliente con el formato PEPPOL BIS 3. Para obtener más información, consulte [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
 6. Seleccione **Importar** para descargar la versión seleccionada del repositorio Global a la instancia actual de Finance.
 
-![Versión 32.6.7 seleccionada en la página Repositorio de configuraciones](./media/er-quick-start3-import-solution2.png)
+![Versión 32.6.7 seleccionada en la página Repositorio de configuraciones.](./media/er-quick-start3-import-solution2.png)
 
 Para obtener información sobre cómo se puede automatizar este proceso, consulte [Importar versiones actualizadas de configuraciones de ER](er-download-updated-versions-global-repo.md).
 
@@ -541,13 +543,13 @@ Asegúrese de que las siguientes configuraciones de ER estén disponibles en el 
 
     - La versión 206 (o posterior) contiene la versión 24 (o posterior) del componente modelo de datos de ER que representa la estructura de datos del dominio empresarial de facturación. Esta configuración de ER se ha importado como un antepasado de la versión más reciente disponible de la configuración de asignación de modelo de ER **Asignación de modelo de factura**.
 
-    ![Versión 206 en la página Configuraciones](./media/er-quick-start3-imported-solution2b1.png)
+    ![Versión 206 en la página Configuraciones.](./media/er-quick-start3-imported-solution2b1.png)
 
 - Configuración de la asignación de modelo de ER **Asignación de modelo de factura**:
 
     - La versión 206.132 (o posterior) se ha importado como la implementación más reciente de la versión 206 de la configuración de modelo de datos de ER **Modelo de factura**. Contiene varios componentes de ER de asignación de modelo que describen cómo se rellena el modelo de datos con los datos de la aplicación en tiempo de ejecución.
 
-    ![Versión 206.132 en la página Configuraciones](./media/er-quick-start3-imported-solution2b2.png)
+    ![Versión 206.132 en la página Configuraciones.](./media/er-quick-start3-imported-solution2b2.png)
 
 - Configuración de formato de ER **Factura de ventas UBL**:
 
@@ -557,7 +559,7 @@ Asegúrese de que las siguientes configuraciones de ER estén disponibles en el 
 
     - La versión 32.6.7 contiene los componentes de ER de formato y asignación de formato que se configuraron para generar facturas electrónicas con formato PEPPOL.
 
-    ![Versión 32.6.7 en la página Configuraciones](./media/er-quick-start3-imported-solution2b3.png)
+    ![Versión 32.6.7 en la página Configuraciones.](./media/er-quick-start3-imported-solution2b3.png)
 
 ## <a name="adopt-the-changes-to-the-new-standard-er-configurations-in-your-custom-er-configurations"></a><a name="RebaseCustomERConfigurations"></a>Adoptar los cambios de las nuevas versiones de las configuraciones estándar de ER en sus configuraciones personalizadas de ER
 
@@ -577,7 +579,7 @@ Asegúrese de que las siguientes configuraciones de ER estén disponibles en el 
 
 El estado de la versión 206.2 se cambia de **Borrador** a **Completado** y la versión se convierte en solo lectura. Se ha agregado una nueva versión editable, 206.3, y tiene un estado de **Borrador**. Puede usar esta versión para realizar más cambios en la configuración de modelo de datos de ER personalizada.
 
-![Versión 206.2 completada en la página Configuraciones](./media/er-quick-start3-completed-custom-model2.png)
+![Versión 206.2 completada en la página Configuraciones.](./media/er-quick-start3-completed-custom-model2.png)
 
 ### <a name="adopt-your-custom-er-model-mapping"></a>Adoptar su asignación de modelo de ER personalizado
 
@@ -590,12 +592,12 @@ El estado de la versión 206.2 se cambia de **Borrador** a **Completado** y la v
 
     Observe que se han descubierto algunos conflictos de reorganización. Ahora debe resolver estos conflictos manualmente.
 
-    ![Mensaje de conflicto de reorganización en la página Configuraciones](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
+    ![Mensaje de conflicto de reorganización en la página Configuraciones.](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
 5. En el panel de acciones, seleccione **Diseñador** y, a continuación, en la lista de asignaciones, seleccione **Factura de cliente**.
 6. Para cada conflicto de reorganización, seleccione **Conservar su propio valor**, porque debe mantener el número de versión de su modelo de datos personalizado para cada componente que se ha mencionado.
 
-    ![Conflictos de reorganización en la página del diseñador de asignación de modelo](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
+    ![Conflictos de reorganización en la página del diseñador de asignación de modelo.](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. Seleccione **Guardar** y, a continuación, cierre la página **Diseñador de asignación de modelo**.
 8. En la lista de asignaciones, seleccione **Factura de proyecto**.
@@ -609,7 +611,7 @@ El estado de la versión 206.2 se cambia de **Borrador** a **Completado** y la v
 
 El estado de la versión 206.132.2 se cambia de **Borrador** a **Completado** y la versión se convierte en solo lectura. Se ha agregado una nueva versión editable, 206.132.3, y tiene un estado de **Borrador**. Puede usar esta versión para realizar más cambios en la configuración de asignación de modelo de ER personalizada.
 
-![Versión 206.132.2 completada en la página Configuraciones](./media/er-quick-start3-completed-custom-mapping2.png)
+![Versión 206.132.2 completada en la página Configuraciones.](./media/er-quick-start3-completed-custom-mapping2.png)
 
 ### <a name="adopt-your-custom-er-format"></a>Adoptar su formato de ER personalizado
 
@@ -637,7 +639,7 @@ El estado de la versión 206.132.2 se cambia de **Borrador** a **Completado** y 
 
 El estado de la versión 32.6.7.2 se cambia de **Borrador** a **Completado** y la versión se convierte en solo lectura. Se ha agregado una nueva versión editable, 32.6.7.3, y tiene un estado de **Borrador**. Puede usar esta versión para realizar más cambios en su configuración de formato ER personalizada.
 
-![Versión 32.6.7.2 completada en la página Configuraciones](./media/er-quick-start3-completed-custom-format2.png)
+![Versión 32.6.7.2 completada en la página Configuraciones.](./media/er-quick-start3-completed-custom-format2.png)
 
 ## <a name="process-a-customer-invoice-by-using-new-versions-of-the-custom-er-configurations"></a><a name="ProcessInvoice3"></a>Procesar una factura de cliente mediante las nuevas versiones de las configuraciones personalizadas de ER.
 
@@ -660,7 +662,7 @@ El estado de la versión 32.6.7.2 se cambia de **Borrador** a **Completado** y l
 4. Seleccione **Abrir** para descargar el archivo XML de factura electrónica que se genera.
 5. Analice el archivo XML de factura electrónica. Tenga en cuenta que, de acuerdo con su personalización, el esquema de impuestos del cliente incluye el atributo XML **FederalTaxID**, además de los atributos XML **schemeID** y **schemeAgencyID**. Además, debido a que los cambios en la nueva versión del formato base **Factura de ventas UBL** se fusionaron con su personalización, el texto del elemento XML **cbc:CustomizationID** ha cambiado de `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0` a `urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0`.
 
-    ![Vista previa del archivo XML de factura electrónica generado con sus personalizaciones](./media/er-quick-start3-e-invoice3.png)
+    ![Vista previa del archivo XML de factura electrónica generado con sus personalizaciones.](./media/er-quick-start3-e-invoice3.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

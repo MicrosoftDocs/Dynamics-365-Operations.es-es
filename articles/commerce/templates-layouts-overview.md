@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 62cc0bb9d62b0ab90e212b03e6c4efd9734dadec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804050"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347425"
 ---
 # <a name="templates-and-layouts-overview"></a>Visión general de plantillas y diseños
 
@@ -32,7 +33,7 @@ Una buena forma de comenzar a trabajar con plantillas es comprender los benefici
 
 La ilustración siguiente muestra la jerarquía del modelo de páginas que se encuentra detrás de una página web representada.
 
-![Diagrama del modelo de página](../commerce/media/page-model-diagram.png)
+![Diagrama del modelo de página.](../commerce/media/page-model-diagram.png)
 
 | Entidad        | Función básica |
 |---------------|----------------|
@@ -98,7 +99,7 @@ El diseño preestablecido y los diseños personalizados se editan en las diferen
 
 En las siguientes ilustraciones se muestran escenarios para diseños preestablecidos y personalizados.
 
-![Escenarios de diseño preestablecidos y personalizados](../commerce/media/template-figure1.png)
+![Escenarios de diseño preestablecidos y personalizados.](../commerce/media/template-figure1.png)
 
 Para empezar a usar diseños preestablecidos, consulte [Trabajar con diseños predefinidos](work-with-layouts.md).
 

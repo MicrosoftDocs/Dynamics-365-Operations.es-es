@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893989"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351755"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Descargue las configuraciones de ER del repositorio global del servicio de configuración
 
@@ -40,7 +40,7 @@ Este tema explica cómo descargar [configuraciones de informes electrónicos (ER
 3. En la sección **Proveedores de configuración**, seleccione el icono de **Microsoft**.
 3. En el icono **Microsoft**, seleccione **Repositorios**.
 
-    ![Espacio de trabajo de los informes electrónicos](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Espacio de trabajo de los informes electrónicos.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. En la página **Repositorios de configuración**, en la cuadrícula, seleccione el repositorio existente del tipo **Global**. Si este repositorio no aparece en la cuadrícula, siga estos pasos:
 
@@ -52,7 +52,7 @@ Este tema explica cómo descargar [configuraciones de informes electrónicos (ER
 
 5. Seleccione **Abrir** para ver la lista de configuraciones de ER para el repositorio seleccionado.
 
-    ![Página de repositorios de configuración](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Página de repositorios de configuración.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Importar una única configuración
 
@@ -63,7 +63,7 @@ Este tema explica cómo descargar [configuraciones de informes electrónicos (ER
     > [!NOTE]
     > El botón **Importar** no está disponible para las versiones de configuración de ER que ya están presentes en la instancia de Finance actual.
 
-    ![Página de configuración del repositorio](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Página de configuración del repositorio.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Importar configuraciones filtradas
 
@@ -77,7 +77,7 @@ Este tema explica cómo descargar [configuraciones de informes electrónicos (ER
 4. En la ficha desplegable **Configuraciones**, seleccione **Importar** para descargar las configuraciones filtradas del repositorio Global a la instancia actual.
 5. En la ficha desplegable **Configuraciones**, seleccione **Restablecer filtro** para limpiar las condiciones de selección especificadas.
 
-    ![Página de configuración del repositorio](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Página de configuración del repositorio.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > En característica de la configuración de ER, se validan las configuraciones después de haberlas importado. Es posible que se le notifique acerca de los problemas de incoherencias que se detecten. Debe resolver los problemas para poder usar la versión de configuración importada. Para obtener más información, consulte la lista de recursos relacionados para este tema.

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216621"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346629"
 ---
 # <a name="party-and-global-address-book"></a>Libreta de direcciones de partes y global
 
@@ -41,7 +41,7 @@ El modelo de parte se utiliza a menudo para representar relaciones de medianas a
 
 La siguiente ilustración muestra el modelo de datos de parte:
 
-![Modelo de datos de parte](media/party-gab-image1.png)
+![Modelo de datos de parte.](media/party-gab-image1.png)
 
 > [!TIP]
 > Cuando intente crear un nuevo registro de cuenta, utilice el campo **Parte** para buscar el registro por nombre. Así, en caso de que encuentre el registro, solo necesita seleccionarlo. El sistema rellena luego automáticamente todos los datos de la parte. No es necesario introducir manualmente todos los campos obligatorios. Este comportamiento se puede encontrar en las páginas listas para usar de **Cuenta**, **Contacto** y **Proveedor**.
@@ -58,7 +58,7 @@ Dependiendo del contexto empresarial, una persona u organización puede desempe�
 
 La ilustración siguiente muestra el modelo de datos para la libreta de direcciones global.
 
-![Modelo de datos para la libreta de direcciones global](media/party-gab-image2.png)
+![Modelo de datos para la libreta de direcciones global.](media/party-gab-image2.png)
 
 ## <a name="contact"></a>Contacto
 
@@ -94,7 +94,7 @@ Estas relaciones se almacenan en la tabla **Contacto de parte**. Puede encontrar
     + Si selecciona un valor en el campo **Contacto asociado**, entonces está seleccionando el contacto macado del tipo **Persona**.
     + Si selecciona un valor en el campo **Cuenta asociada** o **Proveedor asociado**, está seleccionando una organización.
 
-    ![Pestaña Organizaciones asociadas en la página Contacto](media/party-gab-image3.png)
+    ![Pestaña Organizaciones asociadas en la página Contacto.](media/party-gab-image3.png)
 
     Independientemente de su selección, la asociación se crea a nivel de parte, se aplica a todos los roles de parte y se almacena en la entidad **Contacto de parte**.
 
@@ -109,7 +109,7 @@ Cuando abre una fila de **Contacto** donde el campo **Es cliente** o el campo **
 
 Una nueva pestaña **Direcciones** se ha introducido en las páginas **Cuenta**, **Contacto** y **Proveedor**. Esta pestaña admite varias direcciones postales mediante el uso de una cuadrícula, como se muestra en la siguiente ilustración.
 
-![Cuadrícula para direcciones postales](media/party-gab-image4.png)
+![Cuadrícula para direcciones postales.](media/party-gab-image4.png)
 
 La cuadrícula incluye las siguientes columnas:
 
@@ -121,7 +121,7 @@ Puede usar el botón **Nueva direccion** de encima de la cuadrícula para crear 
 
 Los campos **Dirección 1** y **Dirección 2** de la pestaña **Resumen** de la página **Cuenta** corresponden a las direcciones **Entrega** y **Factura**, respectivamente.
 
-![Pestaña Resumen para direcciones postales](media/party-gab-image5.png)
+![Pestaña Resumen para direcciones postales.](media/party-gab-image5.png)
 
 Los campos **Dirección 1**, **Dirección 2** y **Dirección 3** de la página **Resumen** del formulario **Contacto** corresponden a las direcciones **Empresa**, **Entrega** y **Factura**, respectivamente.
 
@@ -129,7 +129,7 @@ Los campos **Dirección 1**, **Dirección 2** y **Dirección 3** de la página *
 
 Una nueva pestaña **Direcciones electrónicas** se ha introducido en las páginas **Cuenta**, **Contacto** y **Proveedor**. Esta pestaña admite varias direcciones electrónicas mediante el uso de una cuadrícula, como se muestra en la siguiente ilustración.
 
-![Cuadrícula para direcciones electrónicas](media/party-gab-image6.png)
+![Cuadrícula para direcciones electrónicas.](media/party-gab-image6.png)
 
 La cuadrícula incluye las siguientes columnas:
 
@@ -205,7 +205,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
     | Id. de parte (campo) | Coincidencia exacta |
     | Seleccionar (campo) | (en blanco) |
 
-    ![Regla de duplicados para Cuentas](media/duplicate-rule-1.PNG)
+    ![Regla de duplicados para Cuentas.](media/duplicate-rule-1.PNG)
 
 10. Expanda la regla de detección de duplicados para la tabla **Contactos** configurando los siguientes campos.
 
@@ -221,7 +221,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
     | Id. de parte (campo) | Coincidencia exacta |
     | Seleccionar (campo) | (en blanco) |
 
-    ![Regla de duplicados para Contactos](media/duplicate-rule-2.PNG)
+    ![Regla de duplicados para Contactos.](media/duplicate-rule-2.PNG)
 
 11. Si ya es usuario de escritura dual, siga las instrucciones en [Actualizar al modelo de libreta de direcciones global y de parte](upgrade-party-gab.md) y actualice sus datos.
 
@@ -300,11 +300,11 @@ Para más información, consulte [Referencia de asignación de escritura doble](
 + Las direcciones electrónicas establecidas en la pestaña de direcciones electrónicas de los formularios **Cuenta**, **Contacto** y **Proveedor** provienen de la tabla `msdyn_partyelectronicaddress`. Esta información no fluye a sus transacciones asociadas como pedido de ventas, presupuesto y orden de compra. Planeamos solucionar este problema en una versión incremental. Los datos existentes en los campos de dirección electrónica de la cuenta y los registros de contacto seguirán funcionando en transacciones como pedidos de venta, presupuesto y pedido de compra.
 + En aplicaciones de Finance and Operations, puede crear un registro de contacto desde el formulario **Agregar contacto**. Cuando intenta crear un nuevo contacto desde el formulario **Ver contacto**, la acción falla. Este es un problema conocido.
 
-    ![Problema conocido con Agregar contacto](media/party-gab-contact-issue.png)
+    ![Problema conocido con Agregar contacto.](media/party-gab-contact-issue.png)
 
 + **Sincronización inicial** no es compatible con los campos de tiempo **Disponible de** y **Disponible para** en **ContactForParty**, porque DIXF convierte el valor en una cadena en lugar de un número entero. La conversión desencadena el error `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Cuando una dirección postal se utiliza por más de un motivo, por ejemplo, la dirección de comunicación comercial y la dirección de facturación, debe aparecer como `Business;Invoice`, como se muestra en la siguiente imagen. Si agrega un espacio entre los valores, obtendrá un error.
 
-    ![Problema conocido con la dirección](media/party-gab-address-issue.png)
+    ![Problema conocido con la dirección.](media/party-gab-address-issue.png)
 
 + No puede introducir una dirección postal con fecha anticipada usando una aplicación de Finance and Operations con escritura dual, porque Dataverse no es compatible con la fecha de vigencia. Si introduce una dirección postal con fecha futura usando una aplicación Finance and Operations, se sincroniza con Dataverse completamente y verá la dirección en la interfaz de usuario inmediatamente. Cualquier actualización de este registro resultará en un error, ya que está fechado en el futuro y no está actualizado en la aplicación de Finance and Operations.

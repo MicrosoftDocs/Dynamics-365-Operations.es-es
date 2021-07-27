@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799188"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349611"
 ---
 # <a name="create-a-default-customer"></a>Crear un cliente predeterminado
 
@@ -47,7 +47,7 @@ Para crear un grupo de clientes, siga estos pasos.
 
 La siguiente imagen muestra varios grupos de clientes configurados.
 
-![Grupos de clientes](media/customer-groups.png)
+![Grupos de clientes.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Crear una nueva libreta de direcciones de clientes.
 
@@ -63,7 +63,7 @@ Para crear una libreta de direcciones de clientes, siga estos pasos.
 
 En la imagen siguiente se muestra un ejemplo de libreta de direcciones.
 
-![Libreta de direcciones](media/address-book.png)
+![Libreta de direcciones.](media/address-book.png)
 
 ## <a name="create-a-default-customer&quot;></a>Crear un cliente predeterminado
 
@@ -86,11 +86,11 @@ Para crear un cliente predeterminado, siga estos pasos.
 
 En la imagen siguiente se muestra un ejemplo de creación de cliente.
 
-![Creación de un cliente predeterminado](media/default-customer-creation.png)
+![Creación de un cliente predeterminado.](media/default-customer-creation.png)
 
 La siguiente imagen muestra una configuración predeterminada del cliente.
 
-![Ejemplo de configuración de cliente](media/default-customer-configuration1.png)
+![Ejemplo de configuración de cliente.](media/default-customer-configuration1.png)
 
 La mayoría de los valores predeterminados en la pantalla de desviaciones del cliente pueden permanecer, pero se deben cambiar dos valores.
 
@@ -100,13 +100,13 @@ La mayoría de los valores predeterminados en la pantalla de desviaciones del cl
 
 En la imagen siguiente se muestra un ejemplo de configuración de cliente.
 
-![Ejemplo de configuración de cliente](media/default-customer-configuration2.png)
+![Ejemplo de configuración de cliente.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Resumen de canales](channels-overview.md)
+[Información general de canales](channels-overview.md)
 
-[Requisitos previos de configuración de canales](channels-prerequisites.md)
+[Requisitos previos de configuración del canal](channels-prerequisites.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 16201
+ms.custom:
+- "16201"
+- intro-internal
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a1ee19a052c4a64995e6fcaa4afbe04b3e95fa55
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: b52dc87e4a6a47f0c656c25bd5b5506f9de919c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027561"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344332"
 ---
 # <a name="loyalty-overview"></a>Visión general de fidelidad
 
@@ -41,7 +43,7 @@ Puede configurar su programa de fidelización de modo que se incluyan las siguie
 
 Debe configurar varios componentes para habilitar la característica de fidelización en Commerce. En el siguiente diagrama se muestran los componentes de fidelización y cómo se relacionan entre sí.
 
-![Flujo de proceso de configuración de fidelización](./media/loyaltyprocess.gif "Componentes de fidelidad y cómo se relacionan entre sí")
+![Flujo de proceso de configuración de fidelización.](./media/loyaltyprocess.gif "Componentes de fidelidad y cómo se relacionan entre sí")
 
 ## <a name="loyalty-components"></a>Componentes de fidelización
 
@@ -80,15 +82,15 @@ La tabla siguiente describe los procesos que se deben ejecutar para enviar confi
     > [!NOTE]
     > Las reglas de ganancias dentro de un esquema de fidelidad son adicionales. Por ejemplo, si crea una regla para recompensar a un miembro del nivel Oro con 10 puntos por cada dólar estadounidense, y también crea una regla para un cliente con la afiliación de "veterano" para recompensar con 5 puntos cada dólar estadounidense, un veterano que sea también miembro del nivel Oro ganaría 15 puntos por cada dólar estadounidense, ya que el cliente puede optar a ambas líneas. Sin embargo, si el cliente veterano no era miembro del nivel Oro, ganaría 5 puntos por cada dólar. Para reflejar los cambios en los canales, ejecute los trabajos **Procesar esquemas de fidelidización** y **1050** (información de fidelidad).
     
-    ![Ganancia basada en la afiliación](./media/Affiliation-based-earning.png "Ganancia basada en la afiliación")
+    ![Ganancia basada en la afiliación.](./media/Affiliation-based-earning.png "Ganancia basada en la afiliación")
 
 - Los minoristas a menudo tienen precios especiales para un determinado grupo de clientes a los que no desean que se les apliquen programas de fidelidad. Por ejemplo, mayoristas o empleados que obtienen precios especiales y no puntos de fidelidad. Comúnmente, las "afiliaciones" se utilizan para proporcionar un precio especial a estos grupos de clientes. Para limitar que ciertos grupos de clientes ganan puntos de fidelidad, el minorista puede especificar una o más afiliaciones en la sección **Afiliaciones excluidas** del programa de fidelidad. De esta manera, cuando los clientes que pertenezcan a afiliaciones excluidas sean miembros ya existentes de fidelidad, no podrán obtener puntos de fidelidad por sus compras. Para reflejar los cambios en los canales, ejecute los trabajos **Procesar esquemas de fidelidización** y **1050** (información de fidelidad).
 
-    ![Afiliaciones excluidas](./media/Excluded-affiliations.png "Excluir afiliaciones de ganar puntos de fidelización")
+    ![Afiliaciones excluidas.](./media/Excluded-affiliations.png "Excluir afiliaciones de ganar puntos de fidelización")
     
 - El punto de venta permite a los minoristas la flexibilidad de utilizar las tarjetas de fidelización físicas o generar un número de tarjeta de fidelización único automáticamente. Para habilitar la generación automática de tarjetas de fidelización en tiendas, active **Generar número de tarjeta de fidelización** en el perfil de funcionalidad asociado a la tienda. Para los canales en línea, los minoristas pueden usar la API IssueLoyaltyCard para emitir las tarjetas de fidelización a los clientes. Los minoristas pueden proporcionar un número de tarjeta de fidelización a esta API, que se utilizará para generar la tarjeta de fidelización o el sistema utilizará la secuencia numérica de tarjetas de fidelización establecida en Commerce. Sin embargo, si la secuencia numérica no está presente, y el minorista no proporciona un número de tarjeta de fidelización mientras llama la API, se mostrará un error.
 
-    ![Generar tarjeta de fidelización](./media/Generate-loyalty-card.png "Generar automáticamente el número de tarjeta de fidelización")
+    ![Generar tarjeta de fidelización.](./media/Generate-loyalty-card.png "Generar automáticamente el número de tarjeta de fidelización")
 
 - Los puntos de fidelización ganados y canjeados ahora se pueden guardar para cada transacción y pedido de ventas con la línea de ventas, para poder reembolsar o retomar la misma cantidad en el caso de devoluciones completas o parciales. Por otro lado, tener la visibilidad de los puntos en el nivel de línea de ventas proporciona la capacidad para los usuarios del centro de asistencia telefónica de responder a las consultas de clientes sobre cuántos puntos se ganaron o canjearon por cada línea. Antes de este cambio, los puntos de la recompensa se volvían a calcular siempre durante las devoluciones, lo que daba lugar a un importe diferente del original si las reglas de ganancias o de canje habían cambiado. También los usuarios del centro de asistencia telefónica no tenían la visibilidad sobre el desglose de los puntos. Los puntos se pueden ver en el formulario **Transacciones de tarjeta** de cada tarjeta de fidelización. Para habilitar esta función active la configuración **Registrar puntos de fidelización por línea de ventas** en la pestaña **Parámetros compartidos de Commerce** \> **General**.
 
@@ -99,33 +101,33 @@ La tabla siguiente describe los procesos que se deben ejecutar para enviar confi
 
 Además, los minoristas pueden definir el límite de puntos de recompensa de fidelidad máximo por la tarjeta de fidelización. Este campo se puede usar para reducir el impacto de fraudes de fidelidad. Cuando se hayan alcanzado los puntos máximos de recompensa, el usuario no puede obtener más puntos. El minorista puede decidir bloquear tales tarjetas hasta que no se haya investigado el fraude potencial. Si el minorista determina que hay fraude, puede bloquear la tarjeta de fidelización del cliente y marcar al cliente como bloqueado. Para ello, establezca la propiedad **Bloquear al cliente para su inscripción en el programa de fidelización** en **Sí** en **Todos los clientes**, en la ficha desplegable **Commerce**. Los clientes bloqueadas no podrán obtener una tarjeta de fidelización en ninguno de los canales.
 
-   ![Atribución y puntos de recompensa máxima](./media/Vesting-and-maximum-reward-points.png "Definir atribución y puntos de recompensa máxima")
+   ![Atribución y puntos de recompensa máxima.](./media/Vesting-and-maximum-reward-points.png "Definir atribución y puntos de recompensa máxima")
 
 - Las afiliaciones se utilizan para proporcionar precios y descuentos especiales, pero hay algunas afiliaciones que los minoristas no quieren que los clientes vean. Por ejemplo, puede que una afiliación titulada “Cliente con muchos gastos" no sea bien recibida por algunos clientes. Por otro lado, existen algunas afiliaciones que no se deben gestionar en la tienda, por ejemplo, empleados, ya que no desea que los cajeros decidan quién es un empleado y que proporcionen, por lo tanto, descuentos en función de si se es empleado o no. Los minoristas pueden ahora seleccionar las afiliaciones que deben ocultarse en los canales. Las afiliaciones marcadas como **Ocultar en canales** no se pueden ver, agregar ni quitar, en POS. Sin embargo, los precios y descuentos asociados a la afiliación seguirán aplicándose a los productos.
 
-    ![Ocultar afiliaciones](./media/Hide-affiliations.png "Ocultar afiliaciones en canales")
+    ![Ocultar afiliaciones.](./media/Hide-affiliations.png "Ocultar afiliaciones en canales")
     
 - Los usuarios del centro de asistencia telefónica pueden ahora realizar con mayor facilidad la búsqueda de un cliente mediante su información de la tarjeta de fidelización, y navegar a las páginas de tarjeta de fidelización del cliente y de transacciones de tarjeta de fidelización, desde la página **Servicio al cliente**.
 
-    ![Servicio al cliente](./media/Customer-service.png "Buscar información de fidelidad del cliente")
+    ![Servicio al cliente.](./media/Customer-service.png "Buscar información de fidelidad del cliente")
     
 - Si se compromete una tarjeta de fidelización, debe generarse una tarjeta de sustitución y transferir los puntos existentes a la nueva tarjeta. El flujo de la tarjeta de sustitución se ha simplificado en esta versión. Además, los clientes pueden regalar algunos o todos los puntos de fidelidad a los amigos y familia. Cuando se transfieren puntos, las entradas de ajuste de puntos se crean para cada tarjeta de fidelización. Se puede acceder a la funcionalidad de tarjeta de sustitución y saldo de transferencia desde la página **Tarjetas de fidelización**.
 
-    ![Reemplazar y transferir puntos](./media/Replace-and-transfer-points.png "Reemplazar la tarjeta de fidelización o transferir saldo")
+    ![Reemplazar y transferir puntos.](./media/Replace-and-transfer-points.png "Reemplazar la tarjeta de fidelización o transferir saldo")
     
 - Los minoristas pueden querer capturar la eficacia de un canal determinado para inscribir a los clientes en un programa de fidelización. El origen de inscripción para las tarjetas de fidelización ahora se guarda de modo que los minoristas puedan ejecutar informes con estos datos. El origen de las inscripciones se captura automáticamente para todas las tarjetas de fidelización emitidas desde los canales de MPOS/CPOS o comercio electrónico. Para las tarjetas de fidelización emitidas desde la aplicación de la oficina administrativa, el usuario del centro de asistencia telefónica puede seleccionar un canal adecuado.
 - En versiones anteriores, los minoristas podían utilizar MPOS/CPOS para efectuar un canje de puntos de fidelización para clientes de una tienda. Sin embargo, en esos lanzamientos, dado que el saldo de fidelidad se mostraba en puntos de fidelidad, el cajero no podía ver el importe del valor de divisa que se podía aplicar a la transacción actual. El cajero tenía que hacer los puntos en conversión de divisa antes de pagar por puntos de fidelidad. En la versión actual, después de que las líneas se agregan a la transacción, el cajero puede ver el importe que los puntos de fidelidad pueden cubrir para la transacción actual, facilitando la aplicación de algunos o todos los puntos de fidelidad a la transacción. Además, el cajero puede ver los puntos que expirarán en los 30 días próximos, de modo que pueda sugerir una venta adicional o realizar ventas cruzadas para motivar al cliente a gastar los puntos a punto de caducar en la transacción.
 
-    ![Puntos cubiertos por saldos de fidelización](./media/Points-covered-by-loyalty-balance.png "Mostrar saldo cubierto por puntos de fidelización")
+    ![Puntos cubiertos por saldos de fidelización.](./media/Points-covered-by-loyalty-balance.png "Mostrar saldo cubierto por puntos de fidelización")
 
-    ![Puntos con fecha de vencimiento](./media/Expiring-points.png "Ver puntos de caducidad")
+    ![Puntos con fecha de vencimiento.](./media/Expiring-points.png "Ver puntos de caducidad")
 
 - Con el lanzamiento de 8.1.3, hemos habilitado la opción de “paga por fidelidad” en el canal de centro de llamadas. Para habilitar esta opción, cree un tipo de forma de pago de fidelidad y asócielo al centro de llamadas. 
 
     > [!NOTE]
     > Dado que los pagos de fidelidad se configuran como pagos de tarjeta, tendrá que seleccionar una tarjeta de la página **Configuración de tarjeta**. 
 
-    ![Configuración de tarjeta de fidelización](./media/LoyaltyCardSetup.png "Configuración de tarjeta de fidelización")
+    ![Configuración de tarjeta de fidelización.](./media/LoyaltyCardSetup.png "Configuración de tarjeta de fidelización")
 
     Una vez que lo haya configurado, los clientes pueden efectuar un canje de sus puntos de fidelidad en el centro de llamadas. Además, estamos mejorando la experiencia del usuario aún más para mostrar el “Importe cubierto por los puntos de fidelidad”, de modo que los usuarios del centro de asistencia telefónica no tengan que desplazarse a otra pantalla para ver el saldo de fidelidad.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270894"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350483"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular la disponibilidad de inventario para canales comerciales
 
@@ -105,7 +105,7 @@ En la versión 10.0.9 y anteriores de Commerce, la operación **Búsqueda de inv
 
 Cuando el cálculo del lado del canal está configurado y administrado correctamente, puede proporcionar una estimación más fiable del inventario de la tienda actual, ya que utiliza los datos transaccionales que se encuentran en la base de datos del canal de Commerce, pero de los cuales la sede central pudiera no tener información aún. Por ejemplo, si utiliza la llamada de servicio en tiempo real existente para búsquedas de inventario en PDV, la sede central probablemente todavía no tendrá información sobre una venta de pago y recogida que acaba de ocurrir para un producto. Por lo tanto, el valor de inventario disponible que devuelve la sede central para ese producto probablemente excederá el inventario disponible real de la tienda en una unidad. Sin embargo, si usa el cálculo del lado del canal, la venta de efectivo y transporte puede incluirse en el cálculo y deducirse del valor disponible que se muestra. Aunque los valores que proporcionan tanto el cálculo del lado del canal como la llamada de servicio en tiempo real son solo estimaciones del inventario disponible, el valor que proporciona el cálculo del lado del canal es mucho más probable que sea preciso para la tienda actual.
 
-Para configurar la operación de PDV **Búsqueda de inventario** en la sede para utilizar la lógica de cálculo del lado del canal y desactivar la llamada de servicio en tiempo real, siga estos pasos.
+Para configurar la operación **Búsqueda de inventario** de PDV en Commerce Headquarters para usar la lógica de cálculo del lado del canal y desactivar la llamada de servicio en tiempo real, primero debe habilitar la característica **Cálculo optimizado de disponibilidad de producto** a través del espacio de trabajo **Administración de características** de Commerce Headquarters y luego seguir estos pasos.
 
 1. Vaya a **Retail y Commerce \> Configuración de canal \> Configuración de PDV \> Perfiles de PDV \> Perfiles de funcionalidad**.
 1. Seleccione un perfil de funcionalidad.

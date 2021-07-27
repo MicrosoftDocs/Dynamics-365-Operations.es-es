@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797824"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347599"
 ---
 # <a name="checkout-module"></a>Módulo de finalización de compra
 
@@ -33,7 +33,7 @@ Un módulo de finalización de compra representa datos a partir del id. del carr
 
 La siguiente imagen muestra un ejemplo de un módulo de finalización de compra en una página de finalización de compra.
 
-![Ejemplo de módulo de finalización de compra](./media/Checkout.PNG)
+![Ejemplo de módulo de finalización de compra.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Propiedades del módulo de finalización de compra
 
@@ -52,13 +52,13 @@ Un módulo de finalización de compra muestra un resumen del pedido y proporcion
 
     La siguiente imagen muestra un ejemplo de un módulo de dirección de envío en una página de finalización de compra.
 
-    ![Ejemplo de un módulo de dirección de envío](./media/ecommerce-shippingaddress.PNG)
+    ![Ejemplo de un módulo de dirección de envío.](./media/ecommerce-shippingaddress.PNG)
 
 - **Opciones de entrega**: este módulo permite a un cliente seleccionar un modo de entrega para un pedido. Para obtener más información sobre este módulo, consulte [Módulo de opciones de entrega](delivery-options-module.md).
 
     La siguiente imagen muestra un ejemplo de un módulo de opciones de entrega en una página de finalización de compra.
  
-    ![Ejemplo de un módulo de opciones de entrega](./media/ecommerce-deliveryoptions.PNG)
+    ![Ejemplo de un módulo de opciones de entrega.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Contenedor de secciones de finalización de compra:** este módulo es un contenedor que puede colocar varios módulos dentro para crear una sección dentro del flujo de finalización de compra. Por ejemplo, puede colocar todos los módulos relacionados con pagos dentro de este contenedor para que aparezcan como una sección. Este módulo solo afecta al diseño del flujo.
 
@@ -80,7 +80,7 @@ Un módulo de finalización de compra muestra un resumen del pedido y proporcion
 
     La siguiente imagen muestra un ejemplo del módulo de términos y condiciones en una página de finalización de compra.
 
-    ![Ejemplo de términos y condiciones en una página de finalización de compra](./media/ecommerce-checkout-terms.PNG)
+    ![Ejemplo de términos y condiciones en una página de finalización de compra.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interacción con Commerce Scale Unit
 
