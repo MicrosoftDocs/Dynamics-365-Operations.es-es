@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
-ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
+ms.openlocfilehash: 460297651f2766f96c34b258edbe94a7114ee090
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6168738"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343967"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamiento de hardware para entornos locales
 
@@ -36,7 +36,7 @@ Una vez que haya revisado la documentación, puede iniciar el proceso de calcula
 
 Todos los factores que se muestran en la siguiente ilustración contribuyen al dimensionamiento. Cuanta más información detallada se recopile, con mayor precisión podrá determinar el dimensionamiento. Es probable que el dimensionamiento de hardware, sin datos complementarios, sea impreciso. El requisito mínimo absoluto para todos los datos necesarios es la carga de línea de transacción máxima por hora.
 
-[![Dimensionamiento de hardware para entornos locales](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Dimensionamiento de hardware para entornos locales.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Visto de izquierda a derecha, el primer y más importante factor necesario para calcular el dimensionamiento con precisión es un perfil de transacción o una caracterización de transacción. Es importante encontrar siempre el volumen transaccional máximo por hora. Si hay varios periodos máximos, estos periodos tienen que definirse de manera detallada.
 

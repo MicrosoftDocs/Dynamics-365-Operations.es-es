@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813734"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344625"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Tiempo de inactividad para órdenes de trabajo
 
@@ -45,7 +45,7 @@ Puede crear registros de tiempo de inactividad por mantenimiento en el activo se
 
 La ilustración siguiente muestra un ejemplo de página de **Códigos de motivo de inactividad por mantenimiento**.
 
-![Figura 1](media/15-work-orders.png)
+![Figura 1.](media/15-work-orders.png)
 
  Cuando haya creado los códigos de motivo del tiempo de inactividad por mantenimiento que desea usar, puede crear registros de tiempo de inactividad por mantenimiento para órdenes de trabajo y activos.
 
@@ -71,15 +71,15 @@ La ilustración siguiente muestra un ejemplo de página de **Códigos de motivo 
 
 En la ilustración siguiente se muestra un ejemplo de lista de registro de tiempo de inactividad por mantenimiento.
 
-![Figura 2](media/16-work-orders.png)
+![Figura 2.](media/16-work-orders.png)
 
 El calendario usado para calcular un registro de tiempo de inactividad por mantenimiento depende de la selección en la configuración de activos y parámetros. Si se selecciona un recurso en un activo en el campo **Recurso** de la ficha desplegable **Activo fijo** de la página **Todos los activos** , se utiliza la configuración del calendario para el grupo de recursos asociado, como se muestra en la ilustración siguiente.
 
-![Figura 3](media/17-work-orders.png)
+![Figura 3.](media/17-work-orders.png)
 
 Si no se selecciona ningún recurso en el activo, se utiliza el calendario estándar seleccionado en la página **Parámetros de administración de activos**, como se muestra en la siguiente figura.
 
-![Figura 4](media/18-work-orders.png)
+![Figura 4.](media/18-work-orders.png)
 
 Haga clic en **Administración de activos de la empresa** > **Consultas** > **Tiempo de inactividad por mantenimiento** para obtener una visión general de todos los registros de tiempo de inactividad por mantenimiento.
 

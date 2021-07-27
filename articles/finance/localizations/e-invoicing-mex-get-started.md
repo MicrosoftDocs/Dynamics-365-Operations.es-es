@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26091a068ed15ec9ff14c9194c3e0e0ad0779351
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894892"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344791"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Comenzar con la facturación electrónica para México
 
@@ -56,7 +58,7 @@ Durante la configuración de RCS, completará estas tareas:
     > [!NOTE]
     > Si no ve la función en la lista, seleccione **Sincronizar** y luego repita el paso 3.
 
-![Importación de la función de facturas CFDI (MX)](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
+![Importación de la función de facturas CFDI (MX).](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
 
 Cuando importa la característica **Facturas CFDI (MX)** del repositorio global, también se importan todas las configuraciones de características, incluidas las configuraciones y acciones.
 
@@ -66,13 +68,13 @@ Puede crear una nueva versión si, por ejemplo, se deben actualizar las URL. Par
 
 - En la página **Funciones de facturación electrónica**, en la pestaña **Versiones**, seleccione **Nuevo**.
 
-![Agregar una nueva versión de la función de facturación electrónica](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
+![Agregar una nueva versión de la función de facturación electrónica.](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
 
 ### <a name="update-the-configuration-version"></a>Actualizar la versión de configuración
 
 1. En la página **Funciones de facturación electrónica**, en la pestaña **Configuraciones**, seleccione **Agregar** o **Eliminar** para administrar las versiones de configuración (configuraciones de formato de archivo ER).
 
-    ![Gestión de configuraciones de funciones de facturación electrónica](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
+    ![Gestión de configuraciones de funciones de facturación electrónica.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
     Cuando crea una nueva versión, todas las configuraciones se heredan de la última versión publicada. Para procesar facturas CFDI, se requieren las siguientes configuraciones:
 
@@ -84,17 +86,17 @@ Puede crear una nueva versión si, por ejemplo, se deben actualizar las URL. Par
 
 2. En la lista, seleccione una versión de configuración y luego seleccione **Editar** o **Ver** para abrir la página **Diseñador de formatos**, donde puede editar o ver la configuración.
 
-    ![Abrir la página Diseñador de formato](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
+    ![Abrir la página Diseñador de formato.](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
 3. Utilice la página **Diseñador de formatos** para editar y ver las configuraciones de archivo del formato ER. Para obtener más información, consulte [Crear configuraciones de documentos electrónicos](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Página de diseñador de formato](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
+    ![Página de diseñador de formato.](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Administrar las configuraciones de la función de facturación electrónica
 
 - En la página **Funciones de facturación electrónica**, en la pestaña **Configuraciones**, seleccione **Agregar**, **Eliminar** o **Editar** para administrar las configuraciones de la función de facturación electrónica.
 
-![Administrar las configuraciones de la función de facturación electrónica](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
+![Administrar las configuraciones de la función de facturación electrónica.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
 Para enviar facturas CFDI para autorización (generar el archivo XML, enviar el archivo XML y procesar la respuesta), se requiere la configuración de función **Factura de venta**.
 
@@ -105,11 +107,11 @@ Para enviar la cancelación de la factura CFDI, se requieren las configuraciones
 1. En la página **Funciones de facturación electrónica**, en la pestaña **Configuraciones**, en la columna **Configuración de funciones**, seleccione **Factura de venta**.
 2. Seleccione **Editar** para configurar las acciones, reglas de aplicabilidad y variables.
 
-    ![Editar la configuración de la función de facturación electrónica](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
+    ![Editar la configuración de la función de facturación electrónica.](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
 
 3. En la página **Configuración de la versión de función**, seleccione la pestaña **Acciones** para gestionar la lista de acciones. Las acciones definen una lista de operaciones que deben ejecutarse en orden secuencial para lograr la ejecución completa del evento.
 
-    ![Pestaña Acciones](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
+    ![Pestaña Acciones.](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
     | Id. de acción | Acción                   | Nombre de acción                                  | Descripción de la acción                                          |
     |-----------|--------------------------|----------------------------------------------|-------------------------------------------------------------|
@@ -133,7 +135,7 @@ Para enviar la cancelación de la factura CFDI, se requieren las configuraciones
 3. En el campo **Válido desde**, seleccione la fecha en que el nuevo entorno debe entrar en vigencia.
 3. Seleccione **Habilitar**.
 
-![Habilitación de un entorno de facturación electrónica](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
+![Habilitación de un entorno de facturación electrónica.](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
 
 ## <a name="change-the-version-status-to-completed"></a>Cambiar el estado de la versión a Completado
 
@@ -149,7 +151,7 @@ Para enviar la cancelación de la factura CFDI, se requieren las configuraciones
 1. En la página **Funciones de facturación electrónica**, seleccione la pestaña **Versiones** para gestionar el estado de la característica **Facturas CFDI (MX)**.
 2. Seleccione **Cambiar estado** para cambiar el estado de la función.
 
-![Cambiar el estado de la función de facturación electrónica](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
+![Cambiar el estado de la función de facturación electrónica.](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Configurar la integración de la facturación electrónica en Finance
 
@@ -171,7 +173,7 @@ Para configurar la facturación electrónica en Finance, completará estas tarea
 1. Vaya a **Administración de la organización \> Configuración \> Parámetros de documentos electrónicos**.
 2. En la pestaña **Características**, seleccione la casilla **Habilitar** en las filas para referencias de características **MX-00010** y **MX-00016**.
 
-![Activar las funciones para procesar facturas CFDI](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
+![Activar las funciones para procesar facturas CFDI.](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
 
 ### <a name="import-er-configurations-and-set-up-the-response-types-for-updating-cfdi-invoices"></a>Importar configuraciones de ER y configurar los tipos de respuesta para actualizar las facturas CFDI
 
@@ -221,7 +223,7 @@ Después de activar la característica **Integración configurable de facturaci�
 2. Para el primer envío de cualquier documento, establezca siempre la opción **Reenviar documentos** en **No**. Si debe volver a enviar un documento a través del servicio, configure esta opción en **Sí**.
 3. En la ficha desplegable **Registros para incluir**, seleccione **Filtrar** para abrir el cuadro de diálogo **Investigación**, donde puede crear una consulta para seleccionar los documentos para su envío.
 
-![Envío de un documento CFDI](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
+![Envío de un documento CFDI.](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
 > Durante su primer intento de enviar un documento a través del servicio, se le pedirá que confirme la conexión con la facturación electrónica. Seleccione **Haga clic aquí para conectar al servicio de envío de documentos electrónicos**.
@@ -237,11 +239,11 @@ Después de activar la característica **Integración configurable de facturaci�
 1. Vaya a **Administración de la organización \> Periódico \> Documentos electrónicos \> Registro de envío de documentos electrónicos**.
 2. En el campo **Tipo de Documento**, seleccione **Diario de facturas del cliente** para filtrar los documentos electrónicos requeridos.
 
-    ![Seleccionar un tipo de documento para ver los registros de envío](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
+    ![Seleccionar un tipo de documento para ver los registros de envío.](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
 3. En el panel de acciones, seleccione **Consultas \> Detalles de envío** para ver los detalles de los registros de ejecución del envío.
 
-    ![Ver los detalles del registro de envío](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
+    ![Ver los detalles del registro de envío.](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
 
 La información en los registros de envío se divide en tres fichas desplegables:
 
@@ -259,7 +261,7 @@ Después de activar la característica **Integración configurable de facturaci�
 2. Seleccione una factura CFDI enviada después de activar la característica **Integración configurable de facturación electrónica**.
 3. En el panel de acciones, en la pestaña **Historial**, seleccione **Registro de documento electrónico**.
 
-![Ver registros de envío de facturas CFDI](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
+![Ver registros de envío de facturas CFDI.](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
 > Para facturas CFDI que se enviaron antes de activar la característica **Integración configurable de facturación electrónica**, el botón **Historial** está disponible. El botón **Historial** no está disponible para facturas CFDI que se enviaron después de activar la característica **Integración configurable de facturación electrónica**.
@@ -282,11 +284,11 @@ Después de activar la característica **Integración configurable de facturaci�
 
     La página **Envíos relacionados** muestra todos los envíos relacionados y su estado de envío para una factura CFDI determinada. En la siguiente ilustración, la primera línea representa el envío que solicitó la aprobación de la factura CFDI. La segunda línea representa el envío que canceló esa factura de CFDI.
 
-    ![Ver los registros de envío de cancelación](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
+    ![Ver los registros de envío de cancelación.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
 
 4. En el panel de acciones, seleccione **Consultas \> Detalles de envío** para ver los detalles de los registros de ejecución del envío.
 
-    ![Ver los detalles del registro de envío de cancelación](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
+    ![Ver los detalles del registro de envío de cancelación.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 Habilitar la característica **Factura electrónica de México CFDI (MX)** puede requerir el envío de datos limitados, que incluyen el id. de registro fiscal de la organización. Este será transmitido a agencias de terceros autorizadas por la autoridad tributaria para propósitos de enviar facturas electrónicas a esta autoridad tributaria en el formato predefinido requerido para la integración con el servicio web del gobierno. Un administrador puede habilitar y deshabilitar la característica **Factura electrónica de México CFDI (MX)**, navegando a **Administración de la organización \> Configuración \> Parámetros de documentos electrónicos**. Seleccione la pestaña **Características**, seleccione las filas que contienen la característica **Factura electrónica de México CFDI (MX)** y luego haga la selección apropiada. Los datos importados de estos sistemas externos a este servicio en línea de Dynamics 365 están sujetos a nuestra [declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte las secciones de Aviso de privacidad en la documentación de características específicas de cada país o región para obtener más información.

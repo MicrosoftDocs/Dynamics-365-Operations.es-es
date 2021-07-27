@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936789"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349659"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Configurar páginas personalizadas para inicios de sesión de usuario
 
@@ -40,7 +40,7 @@ Las páginas personalizadas de Commerce se pueden crean mediante el módulo de r
 
 Después de configurar su inquilino B2C de Azure AD y de asociarlo con su entorno de Commerce, vaya a la página **Azure AD B2C** en el portal de Azure y, a continuación, en **Directivas**, seleccione **Flujos de usuario (directivas)**.
 
-![Comando Flujos de usuario (directivas) del menú](./media/B2C_CustomPage_PoliciesMenu.png)
+![Comando Flujos de usuario (directivas) del menú.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 Ahora puede configurar los flujos de inicio de sesión de usuario "Registrarse e iniciar sesión", "Edición de perfiles" y "Restablecimiento de contraseña".
 
@@ -54,13 +54,13 @@ Para configurar la directiva “Registrarse e iniciar sesión”, siga estos pas
 1. En la columna **Recopilar atributo**, seleccione las casillas para **Dirección de correo electrónico**, **Nombre dado** y **Apellido**.
 1. En la columna **Notificación de devolución**, seleccione las casillas para **Direcciones de correo electrónico**, **Nombre dado**, **Proveedor de identidades**, **Apellido** e **Id. de objeto de usuario**.
 
-    ![Atributos y notificaciones seleccionadas](./media/B2C_SignInSignUp_Attributes.png)
+    ![Atributos y notificaciones seleccionadas.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. Seleccione **Aceptar** para crear la directiva.
 1. Haga doble clic en el nuevo nombre de la directiva y, a continuación, en el panel de navegación, seleccione **Propiedades**.
 1. Establezca la opción **Habilitar JavaScript aplicando el diseño de página (versión preliminar)** en **Activado**.
 
-    ![Página de propiedades para la nueva directiva](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![Página de propiedades para la nueva directiva.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > Al nombre de la directiva se hará referencia totalmente en el entorno de Commerce. (El prefijo **B2C\_1\_** se incluirá en la referencia.) No se puede cambiar el nombre de las directivas una vez se han creado. Si va a sustituir una directiva existente para su entorno de Commerce, puede eliminar la directiva original y crear una directiva nueva que tenga el mismo nombre. También, si el entorno ya se ha aprovisionado, puede enviar el nuevo nombre de directiva a través de una solicitud de servicio.
@@ -150,7 +150,7 @@ Para actualizar la directiva “Registrarse e iniciar sesión” con informació
     1. Para los atributos **Dirección de correo electrónico**, **Nombre dado** y **Apellido**, seleccione **No** en la columna **Opcional**.
 1. Seleccione **Guardar**.
 
-    ![Configuración de la directiva Página de registro de cuenta local](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Configuración de la directiva Página de registro de cuenta local.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>Actualizar la directiva “Edición de perfiles” con información de página personalizada
 
@@ -188,11 +188,11 @@ En la biblioteca de módulos, los módulos de inicio de sesión se llenan previa
 
 Por ejemplo, el texto predeterminado para el vínculo de contraseña olvidada es **¿Olvidó la contraseña?**. Lo siguiente muestra este texto predeterminado en la página de inicio de sesión.
 
-![Texto predeterminado para el vínculo de contraseña olvidada en la página de inicio de sesión](./media/B2C_SignUp_ModuleFace.png)
+![Texto predeterminado para el vínculo de contraseña olvidada en la página de inicio de sesión.](./media/B2C_SignUp_ModuleFace.png)
 
 Sin embargo, en el archivo global.json para el módulo de inicio de sesión de la biblioteca de módulos, puede editar el texto en **¿Olvidó la contraseña?**, como se muestra en la siguiente ilustración.
 
-![Texto de vínculo actualizado en el archivo global.json del módulo de inicio de sesión](./media/B2C_CustomizingStringsForModule.png)
+![Texto de vínculo actualizado en el archivo global.json del módulo de inicio de sesión.](./media/B2C_CustomizingStringsForModule.png)
 
 Después de actualizar el archivo global.json y publicar los cambios, el nuevo texto del vínculo aparece en el módulo de inicio de sesión tanto en Commerce como en la página de inicio de sesión activa.
 

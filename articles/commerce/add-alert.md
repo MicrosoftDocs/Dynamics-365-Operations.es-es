@@ -2,7 +2,7 @@
 title: Módulo de banner promocional
 description: En este tema se tratan los módulos de banner promocional y se describe la forma de agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796255"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479361"
 ---
 # <a name="promo-banner-module"></a>Módulo de banner promocional
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 En este tema se tratan los módulos de banner promocional y se describe la forma de agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
@@ -46,7 +47,7 @@ Los banners promocionales se pueden usar en el encabezado del sitio para mostrar
 
 La siguiente imagen muestra un ejemplo de un banner promocional.
 
-![Ejemplo de un módulo de banner promocional](./media/ecommerce-Promobanner.PNG)
+![Ejemplo de un módulo de banner promocional.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Propiedades del módulo de banner promocional
 
@@ -59,6 +60,10 @@ La siguiente imagen muestra un ejemplo de un banner promocional.
 | Mostrar aleta de carrusel     | **Verdadero** o **Falso**              | Un valor que indica si se deben mostrar las aletas del carrusel para que los clientes puedan desplazarse manualmente por varios elementos del banner. |
 | Alineación de texto            | **Derecha**, **Izquierda** o **Centro** | La alineación del texto en el módulo de banner promocional. |
 | Vincular                      | Una dirección URL                              | La dirección URL para un vínculo opcional. |
+|Alineación de texto             | **Derecha**, **Izquierda** o **Centro** | Esta propiedad está disponible como una extensión de tema en el tema Adventure Works. Permite al usuario establecer la alineación del texto en el banner promocional. |
+
+> [!IMPORTANT]
+> El tema de Adventure Works está disponible a partir del lanzamiento de la versión 10.0.20 de Dynamics 365 Commerce.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Agregar un módulo de banner promocional a una página 
 
@@ -78,7 +83,6 @@ Para agregar un módulo banner promocional a una página y establecer las propie
 
 > [!NOTE]
 > Un banner promocional se usa generalmente en la franja de encabezado de página o en una franja de subtítulo.
-
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

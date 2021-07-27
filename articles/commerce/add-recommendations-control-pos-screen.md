@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797488"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348353"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Agregar recomendaciones a la pantalla de transacción
 
@@ -43,7 +43,7 @@ Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utili
 6. Cuando inicie sesión, aparece una página similar a la siguiente. El diseño variará en función de las personalizaciones que se crearon para su tienda.
 
 
-    [![Diseñador](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Diseñador.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Elija una opción de visualización
 
@@ -58,11 +58,11 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 1. Reduzca la altura del área de detalles de las líneas de transacción de manera que tenga la misma altura que el panel de cliente a la izquierda.
 
 
-    [![La altura del espacio de los detalles de las líneas de transacción se ha reducido](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![La altura del espacio de los detalles de las líneas de transacción se ha reducido.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. En el menú de la izquierda, arrastre y suelte el control de recomendaciones entre el área de detalles de la línea de transacción y la cuadrícula de botones en la parte inferior central de la pantalla de transición. Cambie el control de modo que se ajuste a ese espacio.
 
-    [![Se han agreado al diseño las recomendaciones de control](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Se han agreado al diseño las recomendaciones de control.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Haga clic en la **X** para guardar y salir del Diseñador.
@@ -77,13 +77,13 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 
 2. Haga clic en **personalizar**.
 
-    [![Personalización - Pestaña de control del cuadro de diálogo](./media/pic-5.png)](./media/pic-5.png)
+    [![Personalización - Pestaña de control del cuadro de diálogo.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Haga clic en **Nueva pestaña**.
 4. Encuentre la nueva pestaña que acaba de agregar. Es posible que tenga que desplazarse hacia abajo.
 5. En la lista desplegable **Contenido**, seleccione **Productos recomendados**.
 
-    [![Seleccionando productos recomendados en el campo contenidos](./media/pic-6.png)](./media/pic-6.png)
+    [![Seleccionando productos recomendados en el campo contenidos.](./media/pic-6.png)](./media/pic-6.png)
 
 6. En el campo **Etiqueta** , escriba un nombre para la pestaña de recomendaciones. Por ejemplo, escriba "Productos recomendados".
 7. En el campo **Imagen**, seleccione la imagen que desea que aparezca en la pestaña.

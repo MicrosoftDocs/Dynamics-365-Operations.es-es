@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841246"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344815"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatización de facturas para documentos escaneados
 
@@ -34,7 +34,7 @@ La solución de automatización de facturas ofrece una interfaz estándar que pu
 
 La ilustración siguiente muestra un escenario de integración de ejemplo en el que Contoso colaboró con un proveedor de servicios de OCR para el procesamiento de facturas de proveedor. Los proveedores de Contoso envían las facturas al proveedor de servicios por correo electrónico. Con el procesamiento de OCR, el proveedor de servicios genera metadatos de facturas (encabezado y/o líneas) y una imagen digitalizada de la factura. A continuación, un nivel de integración transforma estas artefactos de modo que se puedan consumir.
 
-![Escenario de integración de ejemplo](media/vendor_invoice_automation_01.png)
+![Escenario de integración de ejemplo.](media/vendor_invoice_automation_01.png)
 
 Se permiten varias variaciones del escenario ejemplo anterior si se necesita la integración de facturas. La migración de datos es otro caso de uso en el que esta interfaz se puede usar para crear facturas y adjuntos.
 
@@ -92,7 +92,7 @@ En los escenarios en los que las facturas de proveedores se introducen en Financ
 
 La nueva página de lista para las excepciones de facturas está disponible en **Proveedores** > **Facturas** > **Errores de importación** > **Facturas de proveedor que no se han importado**. Esta página muestra todos los registros de encabezado de facturas de proveedor de la tabla de ensayo de la entidad de los datos de encabezado de facturas de proveedor. Tenga en cuenta que puede ver los mismos registros desde el espacio de trabajo **Administración de datos**. Tenga en cuenta que puede realizar las mismas acciones proporcionadas en la característica de tratamiento de excepciones del espacio de trabajo **Administración de datos**. La función de tratamiento de excepciones se ha optimizado para usuarios funcionales, lo que facilita su uso.
 
-![Página de lista de excepciones](media/vendor_invoice_automation_02.png)
+![Página de lista de excepciones.](media/vendor_invoice_automation_02.png)
 
 Esta página de lista incluye los siguientes campos que se incluyen en la incorporación de la información:
 
@@ -136,7 +136,7 @@ La página de lista de excepciones admite las construcciones estándar de seguri
 + Por usuario
 + Por entidad jurídica
 
-![Importe el trabajo que está asegurado por el de usuario y la entidad jurídica](media/vendor_invoice_automation_04.png)
+![Importe el trabajo que está asegurado por el de usuario y la entidad jurídica.](media/vendor_invoice_automation_04.png)
 
 Si la seguridad se ha configuro para el trabajo de importación de facturas, la página de lista de excepciones seguirá estos valores. Los usuarios podrán ver solo los registros de excepciones de factura que les permita ver esta configuración.
 

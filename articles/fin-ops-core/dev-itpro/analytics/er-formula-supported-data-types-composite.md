@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224112"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355355"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Tipos de datos compuestos admitidos para fórmulas de informes electrónicos
 
@@ -43,11 +43,11 @@ El valor predeterminado de una *clase* es **nulo**.
 
 La siguiente ilustración muestra cómo la fuente de datos **Información del sistema (xInfo)** del tipo **Clase** se agrega para hacer la instancia de la clase de aplicación **xInfo** y llamar a su método **productName()** para recibir el nombre de la aplicación actual. El nombre de la aplicación actual se obtiene en tiempo de ejecución mediante la ejecución del enlace `xInfo.productName` que se configuró para el campo **Nombre del software (SoftwareName)** del modelo de datos ER. Este enlace llama al método `productName()` de la clase de aplicación **xInfo** que se representa en la asignación del modelo actual como la fuente de datos **Información del sistema (xInfo)**.
 
-[![Configurar un origen de datos de Clase en el diseño de asignación del modelo ER](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Configurar un origen de datos de Clase en el diseño de asignación del modelo ER.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 La siguiente ilustración muestra cómo se configura el formato ER para colocar el nombre de la aplicación proporcionada en los documentos generados. El campo **Nombre del software (SoftwareName)** del modelo de datos utilizado estaba vinculado al componente **Cadena** que está anidado bajo el elemento XML **softwareUsed** del formato ER. Por lo tanto, el nombre de la aplicación actual se coloca en tiempo de ejecución en el elemento XML **softwareUsed** de un documento generado en formato XML.
 
-[![Configurar la estructura de un documento saliente electrónico en el diseñador de formato ER](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![Configurar la estructura de un documento saliente electrónico en el diseñador de formato ER.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Contenedor
 
@@ -60,7 +60,7 @@ El valor predeterminado de un *contenedor* es **nulo**.
 
 La siguiente ilustración muestra cómo el campo **Bitmap(Image)** del tipo *Contenedor* está vinculado al campo de modelo de datos **Logo** del tipo **Contenedor** en la asignación de modelo de **Factura de ventas**. Este enlace hace que el logotipo de la empresa esté disponible para cualquier formato de ER que esté diseñado para la definición de raíz de **SalesInvoice** y que utiliza esta asignación de modelo en tiempo de ejecución.
 
-[![Enlace a un campo del tipo de contenedor en el diseño de asignación del modelo ER](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Enlace a un campo del tipo de contenedor en el diseño de asignación del modelo ER.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Grabar
 
@@ -109,7 +109,7 @@ El valor predeterminado de un *objeto* es **nulo**.
 
 La siguiente ilustración muestra cómo la fuente de datos **ReportDataContract** del tipo *Objeto* se agrega para pasar información sobre una factura generada desde el código fuente a la asignación de modelo de **Factura de proyecto**. Por ejemplo, el texto de la instancia de factura se pasa como parte del contexto de ejecución. Este texto se toma del código fuente en tiempo de ejecución mediante la ejecución del enlace `ReportDataContract.parmInvoiceInstanceText` que se configuró para el campo **Nota** del modelo de datos ER. Este enlace llama al método `parmInvoiceInstanceText()` de la clase de aplicación **PSAProjInvoiceContract** que se representa en la asignación del modelo actual como la fuente de datos **ReportDataContract**.
 
-[![Configurar un origen de datos de Objeto en el diseño de asignación del modelo ER](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Configurar un origen de datos de Objeto en el diseño de asignación del modelo ER.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Para aprender a pasar detalles del contexto de ejecución desde el código fuente a la solución ER en ejecución, consulte [Desarrollar artefactos de aplicación para llamar al informe diseñado](er-quick-start1-new-solution.md#DevelopCustomCode).
 

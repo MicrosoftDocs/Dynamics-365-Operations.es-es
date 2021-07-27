@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826020"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354770"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Flujos de trabajo de aprobación de diario de inventario
 
@@ -55,7 +55,7 @@ Para crear flujos de trabajo de aprobación de diario de inventario:
     - **Diario de L. MAT de inventario**
     - **Diario de ajustes de inventario**
 
-    ![El cuadro de diálogo Crear flujo de trabajo](media/journal-workflow-create-workflow.png "El cuadro de diálogo Crear flujo de trabajo")
+    ![El cuadro de diálogo Crear flujo de trabajo.](media/journal-workflow-create-workflow.png "El cuadro de diálogo Crear flujo de trabajo")
 
 1. La aplicación del editor de flujo de trabajo se inicia en su máquina. (Es posible que se le solicite que apruebe esta acción). Úsela para diseñar su flujo de trabajo según sea necesario. Para obtener detalles sobre cómo usar el editor de flujo de trabajo, vea [Resumen del sistema de flujo de trabajo](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Después de guardar y cerrar la aplicación del editor de flujo de trabajo, debe elegir si desea activar esta versión de flujo de trabajo o mantenerla inactiva.
@@ -73,7 +73,7 @@ Para asociar un flujo de trabajo de diario de inventario con un nombre de diario
 1. Seleccione el nombre de un diario en la columna de la lista para abrir su página de configuración.
 1. En la ficha desplegable **General**, establezca **Aprobación del flujo de trabajo** en **Sí**. Si se le solicita aprobar la acción, seleccione **Sí**.
 
-    ![Asignar un flujo de trabajo a un nombre de diario](media/journal-workflow-journal-name.png "Asignar un flujo de trabajo a un nombre de diario")
+    ![Asignar un flujo de trabajo a un nombre de diario.](media/journal-workflow-journal-name.png "Asignar un flujo de trabajo a un nombre de diario")
 
 1. Abra la lista desplegable **Flujo de trabajo** y seleccione el flujo de trabajo apropiado. La lista muestra cada flujo de trabajo activo que ha creado utilizando la aplicación del editor de flujo de trabajo.
 
@@ -87,7 +87,7 @@ Después de asociar un nombre de diario de inventario con su flujo de trabajo de
 1. Complete el diario según sea necesario.
 1. Cuando crea o abre un diario de inventario con un flujo de trabajo de aprobación asociado, el botón **Flujo de trabajo** estará activo en el Panel de acciones. Cuando esté listo para enviar la revista para su aprobación, seleccione el botón **Flujo de trabajo** para abrir un cuadro de diálogo desplegable y luego seleccione **Enviar**. La solicitud de aprobación se dirigirá al aprobador correspondiente, a quien se alertará utilizando el método de notificación configurado para el flujo de trabajo.
 
-    ![Enviar un diario para su aprobación](media/journal-workflow-inventory-journal.png "Enviar un diario para su aprobación")
+    ![Enviar un diario para su aprobación.](media/journal-workflow-inventory-journal.png "Enviar un diario para su aprobación")
 
 Para recuperar una solicitud de aprobación, abra el diario relevante, seleccione el botón **Flujo de trabajo** y luego seleccione **Recordar**. Esto restablecerá el flujo de trabajo.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6c5081f71a18dfac83b7aea950395436b42f50e
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: e8a3782e5beb7d16accc0a56447d5db1f1376dd8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881045"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350193"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Interfaz de usuario estilo Microsoft Office en la Administración de documentos empresariales
 
@@ -51,18 +51,18 @@ Siga estos pasos para activar esta función para todas las entidades jurídicas.
 
 1. En el espacio de trabajo de **Gestión de documentos empresariales**, seleccione **Nuevo documento**.
 
-    ![Espacio de trabajo de la gestión de documentos empresariales](./media/BDM_overview_new_template1.png)
+    ![Espacio de trabajo de la gestión de documentos empresariales.](./media/BDM_overview_new_template1.png)
 
 2. En la pestaña **Seleccionar**, seleccione el documento para usar como plantilla y luego seleccione **Crear documento**.
 
-    ![Cuadro de diálogo Documentos empresariales](./media/BDM_overview_new_template2.png)
+    ![Cuadro de diálogo Documentos empresariales.](./media/BDM_overview_new_template2.png)
 
 3. En el nuevo cuadro de diálogo, en el campo **Título**, cambie el título según lo requiera. El texto del título se usa para asignar un nombre a la nueva configuración del formato de ER que se crea automáticamente. La versión del borrador de esta configuración (**Copia de informe FTI de cliente (GER)**) incluirá la plantilla editada y se usará para ejecutar este formato de ER para el usuario actual. La plantilla original no modificada de la configuración del formato básico de ER se usará para ejecutar este formato de ER para los otros usuarios.
 4. En el campo **Nombre**, cambie el nombre de la primera revisión de la plantilla editable que se creará automáticamente.
 5. En el campo **Comentario**, actualice los comentarios para la revisión de la plantilla editable que se creará automáticamente.
 6. Seleccione **Aceptar** para confirmar el inicio del proceso de edición.
 
-    ![Cuadro de diálogo Creación de documentos](./media/BDM_overview_new_template3.png)
+    ![Cuadro de diálogo Creación de documentos.](./media/BDM_overview_new_template3.png)
 
 El botón **Nuevo documento** se usa para crear y editar una plantilla en una configuración de formato ER proporcionada por otro proveedor. En el ejemplo, el proveedor es Microsoft. Cuando seleccione **Nuevo documento**, verá todas las plantillas que poseen los proveedores actuales y otros proveedores. Después de seleccionar la plantilla, se abrirá para editarla. La plantilla editada se almacenará en una nueva configuración del formato de ER que se genera automáticamente.
 
@@ -71,16 +71,16 @@ Siga estos pasos para proporcionar la información requerida antes de cargar una
 
 1. En el espacio de trabajo de **Gestión de documentos empresariales**, seleccione **Nuevo documento**.
 
-    ![Espacio de trabajo de la gestión de documentos empresariales](./media/BDM_overview_new_template1.png)
+    ![Espacio de trabajo de la gestión de documentos empresariales.](./media/BDM_overview_new_template1.png)
     
 2. En la página **Crear una nueva plantilla**, en la pestaña **Subir**, en la pestaña **Plantilla**, seleccione **Navegar** para buscar y seleccionar el archivo de Excel que desea utilizar como plantilla. En la sección **Plantilla**, los campos **Título** y **Descripción** se completan automáticamente. Especifican el nombre y la descripción de la nueva configuración de formato ER que se crea automáticamente. Si es necesario, puede editar estos campos.
 3. En la sección **Tipo de Documento**, en el campo **Nombre**, especifique el tipo de documento comercial. Este valor se utilizará para buscar la fuente de datos correcta (es decir, la configuración del modelo ER).
 
-    ![Pestaña Plantilla](./media/BDM_overview_new_UI_import_21.jpg)
+    ![Pestaña Plantilla.](./media/BDM_overview_new_UI_import_21.jpg)
 
 4. En la pestaña **Fuente de datos**, en la ficha desplegable **Filtro**, seleccione **Aplicar filtro**. En la sección **Fuente de datos**, el campo **Nombre** se rellena automáticamente o puede seleccionar manualmente un valor. Puede utilizar el filtro para buscar el nombre de fuente de datos adecuado por nombre, descripción, código de país o región y tipo de documento comercial.
 
-    ![Pestaña Origen de datos](./media/BDM_overview_new_UI_import_31.jpg)
+    ![Pestaña Origen de datos.](./media/BDM_overview_new_UI_import_31.jpg)
     
     > [!NOTE]
     > La ficha desplegable **Filtro** se utiliza para buscar la fuente de datos correcta (es decir, la configuración del modelo ER). Puede editar todos los campos de filtro para encontrar la fuente de datos más adecuada para el documento que está cargando.
@@ -89,7 +89,7 @@ Siga estos pasos para proporcionar la información requerida antes de cargar una
     
 5. En la pestaña **Asignación**, seleccione **Detectar automáticamente**. El campo **Definición raíz** se rellena automáticamente, o puede seleccionar manualmente un valor. Esta pestaña muestra el mapeo final para los elementos de la plantilla y el modelo.
 
-    ![Pestaña Asignación](./media/BDM_overview_new_UI_import_41.jpg)
+    ![Pestaña Asignación.](./media/BDM_overview_new_UI_import_41.jpg)
     
    > [!NOTE]
    > La asignación en la sección **Estructura de la plantilla** utiliza la coincidencia completa de las etiquetas o descripciones en la fuente de datos en el idioma del usuario y en el nombre de la celda en la plantilla.
@@ -102,11 +102,11 @@ Si no hay un proveedor de informes electrónicos, puede crear uno. Si no hay un 
 
 - Para crear un proveedor, cambie el nombre del proveedor en el campo **Nombre**, actualice la dirección de Internet del nuevo proveedor en el campo **Dirección de Internet** y seleccione **Aceptar** para confirmar.
 
-    ![Crear nuevo proveedor en BDM](./media/bdm_create_provider.png)
+    ![Crear nuevo proveedor en BDM.](./media/bdm_create_provider.png)
     
 - Para activar el proveedor existente, elija el nombre del proveedor en el campo **Proveedor de configuración** y seleccione **Aceptar** para configurar el proveedor como activo.
 
-    ![Activar proveedor en BDM](./media/bdm_choose_provider.png)
+    ![Activar proveedor en BDM.](./media/bdm_choose_provider.png)
 
 > [!NOTE]
 > Cada plantilla BDM hace referencia al proveedor como autor de la configuración. Es por eso que se requiere un proveedor activo para la plantilla.

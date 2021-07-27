@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5da18ff1013f0e767ca64b090eb1559bf05cb056
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811639"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350531"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Notificar como terminado desde el dispositivo de tarjetas de trabajo
 
@@ -85,13 +85,13 @@ Para permitir números de lote asignados manualmente, siga estos pasos para esta
 1. Cree o seleccione el grupo de números de seguimiento para configurar.
 1. En la ficha desplegable **General**, configure la opción **Manual** en **Sí**.
 
-    ![Un grupo de números de seguimiento para números de lote manuales](media/tracking-number-group-manual.png "Un grupo de números de seguimiento para números de lote manuales")
+    ![Un grupo de números de seguimiento para números de lote manuales.](media/tracking-number-group-manual.png "Un grupo de números de seguimiento para números de lote manuales")
 
 1. Establezca otros valores según lo requiera y luego seleccione este grupo de números de seguimiento como el grupo de números de lote para los productos lanzados para los que desea usar este escenario.
 
 Cuando usa este escenario, el campo **Número de lote** que la página **Informar progreso** del dispositivo de la tarjeta de trabajo proporciona un cuadro de texto donde los trabajadores pueden introducir cualquier valor.
 
-![Página de informes de progreso con un campo para números de lote manuales](media/job-card-device-batch-manual.png "Página de informes de progreso con un campo para números de lote manuales")
+![Página de informes de progreso con un campo para números de lote manuales.](media/job-card-device-batch-manual.png "Página de informes de progreso con un campo para números de lote manuales")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-batch-numbers"></a>Configurar un grupo de números de seguimiento que proporcione una lista de números de lote predefinidos
 
@@ -102,13 +102,13 @@ Para proporcionar una lista de números de lote predefinidos, siga estos pasos p
 1. En la ficha desplegable **General**, configure la opción **Solo para transacciones de inventario** en **Sí**.
 1. Utilice el campo **Por cantidad** para dividir los números de lote por cantidad, según el valor que introduzca. Por ejemplo, tiene una orden de producción para diez piezas, y el campo **Por cantidad** se establece en *2*. En este caso, se asignarán cinco números de lote a la orden de producción cuando se cree.
 
-    ![Un grupo de números de seguimiento para números de lote predefinidos](media/tracking-number-group-predefined.png "Un grupo de números de seguimiento para números de lote predefinidos")
+    ![Un grupo de números de seguimiento para números de lote predefinidos.](media/tracking-number-group-predefined.png "Un grupo de números de seguimiento para números de lote predefinidos")
 
 1. Establezca otros valores según lo requiera y luego seleccione este grupo de números de seguimiento como el grupo de números de lote para los productos lanzados para los que desea usar este escenario.
 
 Cuando usa este escenario, el campo **Número de lote** que proporciona la página **Informar de progreso** del dispositivo de la tarjeta de trabajo es una lista desplegable donde los trabajadores deben introducir un valor predefinido.
 
-![Página de informes de progreso con una lista de números de lote predefinidos](media/job-card-device-batch-predefined.png "Página de informes de progreso con una lista de números de lote predefinidos")
+![Página de informes de progreso con una lista de números de lote predefinidos.](media/job-card-device-batch-predefined.png "Página de informes de progreso con una lista de números de lote predefinidos")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-batch-numbers"></a>Configurar un grupo de números de seguimiento que asigne automáticamente números de lote
 
@@ -119,13 +119,13 @@ Si los números de lote deben asignarse automáticamente, sin la intervención d
 1. En la ficha desplegable **General**, configure la opción **Solo para transacciones de inventario** en **No**.
 1. Establezca la opción **Manual** en **No**.
 
-    ![Un grupo de números de seguimiento para números de lote fijos](media/tracking-number-group-fixed.png "Un grupo de números de seguimiento para números de lote fijos")
+    ![Un grupo de números de seguimiento para números de lote fijos.](media/tracking-number-group-fixed.png "Un grupo de números de seguimiento para números de lote fijos")
 
 1. Establezca otros valores según lo requiera y luego seleccione este grupo de números de seguimiento como el grupo de números de lote para los productos lanzados para los que desea usar este escenario.
 
 Cuando usa este escenario, el campo **Número de lote** que proporciona la página **Informar progreso** del dispositivo de la tarjeta de trabajo muestra un valor, pero los trabajadoresno pueden editarlo.
 
-![Página de informes de progreso con un número de lote fijo](media/job-card-device-batch-fixed.png "Página de informes de progreso con un número de lote fijo")
+![Página de informes de progreso con un número de lote fijo.](media/job-card-device-batch-fixed.png "Página de informes de progreso con un número de lote fijo")
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Informar de los artículos controlados por series como terminados
 
@@ -165,7 +165,7 @@ Para permitir números de serie asignados manualmente, siga estos pasos para est
 1. Cree o seleccione el grupo de números de seguimiento para configurar.
 1. En la ficha desplegable **General**, configure la opción **Manual** en **Sí**.
 
-    ![Página de grupos de números de seguimiento, números de serie](media/tracking-number-group-manual-serial.png "Página de grupos de números de seguimiento, números de serie")
+    ![Página de grupos de números de seguimiento, números de serie.](media/tracking-number-group-manual-serial.png "Página de grupos de números de seguimiento, números de serie")
 
 1. Establezca otros valores según lo requiera y luego seleccione este grupo de números de seguimiento como el grupo de números de serie para los productos lanzados para los que desea usar este escenario.
 
@@ -174,7 +174,7 @@ Cuando usa este escenario, el campo **Número de serie** que la página **Inform
 - Para marcar un número de serie como desechado, seleccione el botón **Residuo** para la fila apropiada. Se le solicitará al trabajador que proporcione una **Causa del error**.
 - Para eliminar un número de serie como eliminado, seleccione el botón **Eliminar** para la fila apropiada.
 
-![Página de informes de progreso con un campo para números de serie manuales](media/job-card-device-serial-manual.png "Página de informes de progreso con un campo para números de serie manuales")
+![Página de informes de progreso con un campo para números de serie manuales.](media/job-card-device-serial-manual.png "Página de informes de progreso con un campo para números de serie manuales")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-serial-numbers"></a>Configurar un grupo de números de seguimiento que proporcione una lista de números de serie predefinidos
 
@@ -185,13 +185,13 @@ Para proporcionar una lista de números de serie predefinidos, siga estos pasos 
 1. En la ficha desplegable **General**, configure la opción **Solo para transacciones de inventario** en **Sí**.
 1. Utilizar el campo **Por cantidad** para dividir números de serie por cantidad de uno.
 
-    ![Un grupo de números de seguimiento para números de serie predefinidos](media/tracking-number-group-predefined-sn.png "Un grupo de números de seguimiento para números de serie predefinidos")
+    ![Un grupo de números de seguimiento para números de serie predefinidos.](media/tracking-number-group-predefined-sn.png "Un grupo de números de seguimiento para números de serie predefinidos")
 
 1. Establezca otros valores según lo requiera y luego seleccione este grupo de números de seguimiento como el grupo de números de serie para los productos lanzados para los que desea usar este escenario.
 
 Cuando usa este escenario, el campo **Número de serie** que proporciona la página **Informar de progreso** del dispositivo de la tarjeta de trabajo es una lista desplegable donde los trabajadores deben introducir un valor predefinido.
 
-![Página de informes de progreso con una lista de números de serie predefinidos](media/job-card-device-serial-predefined.png "Página de informes de progreso con una lista de números de serie predefinidos")
+![Página de informes de progreso con una lista de números de serie predefinidos.](media/job-card-device-serial-predefined.png "Página de informes de progreso con una lista de números de serie predefinidos")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-serial-numbers"></a>Configurar un grupo de números de seguimiento que asigne automáticamente números de serie
 
@@ -202,13 +202,13 @@ Si un número de serie debe asignarse automáticamente, sin la intervención del
 1. En la ficha desplegable **General**, configure la opción **Solo para transacciones de inventario** en **No**.
 1. Establezca la opción **Manual** en **No**.
 
-    ![Un grupo de números de seguimiento para números de serie fijos](media/tracking-number-group-fixed-sn.png "Un grupo de números de seguimiento para números de serie fijos")
+    ![Un grupo de números de seguimiento para números de serie fijos.](media/tracking-number-group-fixed-sn.png "Un grupo de números de seguimiento para números de serie fijos")
 
 1. Establezca otros valores según lo requiera y luego seleccione este grupo de números de seguimiento como el grupo de números de serie para los productos lanzados para los que desea usar este escenario.
 
 Cuando usa este escenario, el campo **Número de serie** que proporciona la página **Informar progreso** del dispositivo de la tarjeta de trabajo muestra un valor, pero los trabajadores no pueden editarlo. Este escenario solo es relevante cuando se crea una orden de producción para una cantidad de una pieza de un artículo controlado por número de serie.
 
-![Página de informes de progreso con un número de serie fijo](media/job-card-device-serial-fixed.png "Página de informes de progreso con números de serie fijos")
+![Página de informes de progreso con un número de serie fijo.](media/job-card-device-serial-fixed.png "Página de informes de progreso con números de serie fijos")
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Notificar como terminado a una matrícula
 
@@ -232,7 +232,7 @@ Para controlar si los trabajadores deben reutilizar una matrícula existente o g
     - **Generar matrícula**: establezca esta opción en **Sí** para generar una nueva matrícula para cada informe de terminado. Establézcalo en **No** si se debe usar una matrícula existente para cada informe de terminado.
     - **Etiqueta de impresión**: establezca esta opción en **Sí** si el trabajador debe imprimir una etiqueta de matrícula para cada informe de terminado. Establézcalo en **No** si no se requiere etiqueta. 
 
-![Configurar tarjeta de trabajo para página de dispositivos](media/config-job-card-raf.png "Configurar tarjeta de trabajo para página de dispositivos")
+![Configurar tarjeta de trabajo para página de dispositivos.](media/config-job-card-raf.png "Configurar tarjeta de trabajo para página de dispositivos")
 
 > [!NOTE]
 > Para configurar la etiqueta, vaya a **Gestión de almacenes \> Configurar \> Ruta de documentos \> Ruta de documentos**. Para más información, consulte [Habilitar la impresión de etiquetas de matrículas](../warehousing/tasks/license-plate-label-printing.md).

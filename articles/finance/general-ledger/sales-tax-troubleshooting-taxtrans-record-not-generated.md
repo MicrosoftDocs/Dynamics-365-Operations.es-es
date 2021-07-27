@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 74987506699834d86703702106e5abf87bfa45da
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 284fd4047347386b3893684f077a5980f98a6788
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018790"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350009"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>El registro TaxTrans no se genera
 
@@ -26,7 +26,7 @@ ms.locfileid: "6018790"
 
 Si selecciona **Impuesto registrado** para una transacción, pero la página **Impuesto registrado** no muestra ninguna línea de impuestos o le falta una línea de impuestos, el registro **TaxTrans** podría no haberse generado.
 
-[![Página de impuestos que no tiene artículos de línea](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
+[![Página de impuestos que no tiene artículos de línea.](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
 
 Para solucionar este problema, siga los pasos de las siguientes secciones según sea necesario.
 
@@ -34,7 +34,7 @@ Para solucionar este problema, siga los pasos de las siguientes secciones según
 
 1. Antes de registrar la transacción, en la página **Registro de factura**, seleccione **Impuesto** para comprobar el cálculo.
 
-    [![Botón de impuesto en la página Registro de factura](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
+    [![Botón de impuesto en la página Registro de factura.](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
 
 2. En la página **Transacciones de impuestos temporales**, revise el resultado del cálculo. Si no se calcula ningún impuesto, consulte [El impuesto no se calcula o el importe del impuesto es cero](sales-tax-troubleshooting-tax-not-calculated-amount-zero.md).
 
@@ -44,16 +44,16 @@ Para solucionar este problema, siga los pasos de las siguientes secciones según
 2. En el encabezado de la columna **Asiento**, seleccione el símbolo de filtro para encontrar el registro **TaxTrans**.
 3. Si encuentra los registros de impuestos que está buscando, compruebe la fecha. Si la fecha difiere de la fecha del encabezado del diario, cree una solicitud de servicio de Microsoft para obtener soporte adicional.
 
-    [![Página de impuestos registrados](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
+    [![Página de impuestos registrados.](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
 
 ## <a name="debug-to-check-details"></a>Depurar para comprobar detalles
 
 1. Para obtener información sobre cómo depurar y determinar si **TmpTaxWorkTrans** y **TaxUncommitted** se generan correctamente, consulte [El valor del campo en TaxTrans es incorrecto](sales-tax-troubleshooting-field-value-taxtrans-incorrect.md).
 2. Si **TaxTmpWorkTrans** o **TaxUncommitted** se generan correctamente, agregue un punto de interrupción en **TaxPost::SaveAndPost ()** e **Impuesto::SaveAndPost** para depurar la razón por la que **TaxTrans** no está insertado.
 
-    [![Puntos de interrupción agregados en el código](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
+    [![Puntos de interrupción agregados en el código.](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
 
-    [![Resultados de los puntos de interrupción agregados](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
+    [![Resultados de los puntos de interrupción agregados.](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
 
 ## <a name="determine-whether-customization-exists"></a>Determinar si existe personalización
 

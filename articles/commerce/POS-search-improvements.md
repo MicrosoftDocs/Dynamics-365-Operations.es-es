@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796375"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345169"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Búsqueda de productos y de clientes en el punto de venta (PDV)
 
@@ -36,7 +36,7 @@ De forma predeterminada, las búsquedas de producto se realizan en el surtido de
 
 En la página **Cambiar catálogo**, los empleados pueden seleccionar cualquier forma de manera sencilla, o pueden buscar productos en todas las tiendas.
 
-![Cambio del catálogo](./media/Changecatalog.png "Cambio del catálogo")
+![Cambio del catálogo.](./media/Changecatalog.png "Cambio del catálogo")
 
 Una búsqueda de producto local realiza búsquedas en las siguientes propiedades de producto:
 
@@ -59,7 +59,7 @@ Una búsqueda de producto local realiza búsquedas en las siguientes propiedades
 - Los distribuidores pueden configurar la búsqueda de productos para que se muestren sugerencias a medida que el usuario escribe el nombre del producto. Una nueva configuración para esta funcionalidad está disponible en el perfil de funcionalidades de PDV, en un grupo denominado **Búsqueda de producto**. Esta configuración se llama **Mostrar las sugerencias de búsqueda mientras se escribe**. Esta función puede ayudar a sus empleados a buscar rápidamente el producto que quieran, ya que no tienen que escribir todo el nombre de forma manual.
 - El algoritmo de búsqueda de productos también busca términos en la propiedad de producto **Nombre de búsqueda**.
 
-![Sugerencias de productos](./media/Productsuggestions.png "Sugerencias de productos")
+![Sugerencias de productos.](./media/Productsuggestions.png "Sugerencias de productos")
 
 ## <a name="customer-search"></a>Búsqueda de clientes
 
@@ -83,7 +83,7 @@ Para realizar búsquedas globales, los empleados pueden seleccionar el botón **
 
 En la búsqueda de clientes solicitada desde otras entidades jurídicas, no se muestra el id. del cliente,ya que no se creó ningún id. de cliente para dichas partes en la empresa actual. Sin embargo, si un empleado abre la página de detalles del cliente, el sistema genera automáticamente un identificador de cliente para el grupo y también lo asocia a las libretas de direcciones de clientes de la tienda. Por lo tanto, el cliente será visible en las búsquedas de tienda locales que se hagan posteriormente.
 
-![Búsqueda global de cliente](./media/Globalcustomersearch.png "Búsqueda global de cliente")
+![Búsqueda global de cliente.](./media/Globalcustomersearch.png "Búsqueda global de cliente")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Capacidades adicionales de búsqueda de clientes locales
 
@@ -94,11 +94,11 @@ Cuando el usuario busca un número de teléfono, el sistema ignora los caractere
 
 La búsqueda tradicional de clientes puede ser larga, porque buscar en varios campos. En su lugar, los cajeros pueden buscar una única propiedad de cliente, como el nombre, dirección de correo electrónico o número de teléfono. Las propiedades que el algoritmo de búsqueda del cliente usa se conocen colectivamente como *criterios de búsqueda del cliente*. La administración del sistema puede configurar fácilmente uno o más criterios como métodos abreviados que aparecen en PDV. Dado que la búsqueda se limita a un único criterio, solo se muestran los resultados relevantes de la búsqueda y el rendimiento es mucho mejor que el rendimiento de una búsqueda estándar del cliente. La ilustración siguiente muestra los métodos abreviados de búsqueda del cliente en el PDV.
 
-![Métodos abreviados de búsqueda del cliente](./media/SearchShortcutsPOS.png "Métodos abreviados de búsqueda del cliente")
+![Métodos abreviados de búsqueda del cliente.](./media/SearchShortcutsPOS.png "Métodos abreviados de búsqueda del cliente")
 
 Para establecer criterios de búsqueda como métodos abreviados, el administrador debe abrir la página **Parámetros de Commerce** en Commerce y, a continuación, en la pestaña **Criterios de búsqueda de PDV**, seleccionar todos los criterios que se deben mostrarse como métodos abreviados.
 
-![Configurar métodos abreviados de búsqueda](./media/ConfigureShortcutsAX.png "Configurar métodos abreviados de búsqueda")
+![Configurar métodos abreviados de búsqueda.](./media/ConfigureShortcutsAX.png "Configurar métodos abreviados de búsqueda")
 
 > [!NOTE]
 > Si agrega demasiados métodos abreviados, el menú desplegable de la barra de la búsqueda en el PDV se desordenará y la experiencia de búsqueda del empleado se puede ver afectada. Es recomendable solo agragar tantos métodos abreviados como le sean necesarios.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f681018c27afbef8d34c88a518941d45aa9d72df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023577"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358491"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Adjuntar códigos de impuestos de TDS a grupos de impuestos de TDS y definir la fórmula para calcular TDS
 
@@ -33,7 +33,7 @@ Siga estos pasos para configurar un grupo de impuestos TDS, adjuntarle códigos 
 
 1. Vaya a **Impuestos \> Impuestos indirectos \> Retención de impuestos \> Grupos de retenciones de impuestos**.
 
-    [![Página de grupos de retenciones de impuestos](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![Página de grupos de retenciones de impuestos.](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. En el panel de acciones, seleccione **Nuevo** para crear un grupo de retención de impuestos para TDS e introduzca los detalles requeridos.
 3. En el campo **Tipo de impuesto**, seleccione **TDS**.
@@ -43,7 +43,7 @@ Siga estos pasos para configurar un grupo de impuestos TDS, adjuntarle códigos 
 7. Para evitar que el grupo de impuestos se calcule en las transacciones, seleccione la casilla **Exento**.
 8. En el panel de acciones, seleccione **Diseñador** para abrir el diseñador de fórmulas, de modo que pueda definir la fórmula para calcular TDS para el grupo de impuestos TDS. En la página **Diseñador**, la pestaña **Impuestos** muestra los códigos de impuestos de TDS que se han seleccionado para el grupo de impuestos de TDS.
 
-    [![Página de diseñador](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![Página de diseñador.](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. En la pestaña **Cálculo**, seleccione **Alt + N** para crear una línea. El campo **Id.** muestra el Id. de prioridad generado automáticamente para el cálculo de TDS.
 10. En el campo **Código de impuestos**, seleccione el código de impuestos de TDS para el que quiere definir la fórmula. Todos los códigos de impuestos de TDS que se han seleccionado para el grupo de impuestos de TDS están disponibles para su selección en este campo.

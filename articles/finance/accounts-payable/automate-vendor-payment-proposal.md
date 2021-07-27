@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820820"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350655"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizar propuestas de pago a proveedores
 
@@ -97,11 +97,11 @@ Le recomendamos que evalúe si la automatización será beneficiosa para su orga
 
 Después de crear la serie de automatización de propuestas de pago de proveedor, las ocurrencias de cada pago se muestran en la vista semanal de automatización de procesos. Para pagos de proveedores, la vista semanal de automatización de procesos se ha agregado al espacio de trabajo **Pagos a proveedores** y a la página **Automatización de procesos**.
 
-[![Vista semanal de automatización de procesos en el espacio de trabajo de pagos a proveedores](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Vista semanal de automatización de procesos en el espacio de trabajo de pagos a proveedores.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 La vista semanal de automatización de procesos en el espacio de trabajo **Pagos a proveedores** muestra solo las automatizaciones de propuestas de pago a proveedores. Muestra todas las ocurrencias de pagos de la semana actual, para todas las entidades jurídicas para las que el usuario que inició sesión tiene permisos de seguridad. Por ejemplo, si el empleado de pagos de AP es responsable de los pagos en las empresas USMF y USSI, verá las ocurrencias de la automatización de la propuesta de pago a proveedor para esas dos empresas, pero no para otras empresas.
 
-[![Vista semanal de automatización de procesos para las empresas USMF y USSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![Vista semanal de automatización de procesos para las empresas USMF y USSI.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Cada ocurrencia muestra la empresa en la que se creó o se creará el diario de pagos. Si los pagos se crean mediante pagos centralizados, la empresa que se muestra es la empresa en la que se crearán los pagos. La ocurrencia no necesariamente muestra qué facturas de las empresas se pagarán.
 

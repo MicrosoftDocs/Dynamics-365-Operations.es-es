@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3b042374179de7aa5bbff73719cbe8546920132e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897317"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360697"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensiones financieras y registro 
 
@@ -71,29 +71,29 @@ Las entidades tienen a menudo preguntas sobre el orden en que varios componentes
 
 La ilustración siguiente muestra la dimensión fija predeterminada que está configurada en la cuenta principal 401100.
 
-[![Dimensiones financieras predeterminadas](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Dimensiones financieras predeterminadas.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Para este ejemplo muy básico, entraremos en un diario general donde la dimensión de departamento se establece para usar el valor predeterminado **023** (operaciones). Incorporaremos y enviaremos una cuenta contable. La ilustración siguiente muestra la dimensión financiera predeterminada en el encabezado de la contabilidad general.
 
-[![Diarios generales](./media/general-journal.png)](./media/general-journal.png)
+[![Diarios generales.](./media/general-journal.png)](./media/general-journal.png)
 
 La dimensión predeterminada en la cabecera de diario hará que el departamento 023 se aplique de forma predeterminada en la línea de la cuenta de ventas. La ilustración siguiente muestra la línea de diario general, donde se aplica el valor **023** de dimensión predeterminada de cabecera.
 
-[![Asiento del diario](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Asiento del diario.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Sin embargo, cuando se registra la línea, se aplica la dimensión fija, y la línea se envía al departamento 022. La ilustración siguiente muestra el asiento enviado, donde la dimensión fija se aplica para la cuenta de ventas.
 
-[![Transacciones de cupones con dimensión fija aplicada](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Transacciones de cupones con dimensión fija aplicada.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Ejemplo 2
 
 Este ejemplo usa la misma configuración que el primer ejemplo. Sin embargo, agregaremos a un segundo componente y utilizaremos la dimensión de departamento como dimensión del saldo. En la siguiente ilustración, **Departamento** se establece como la dimensión financiera del saldo para el libro mayor de USMF.
 
-[![Ilustración que muestra el departamento como la dimensión financiera de equilibrio](./media/ledger.png)](./media/ledger.png)
+[![Ilustración que muestra el departamento como la dimensión financiera de equilibrio.](./media/ledger.png)](./media/ledger.png)
 
 Cuando se usa la misma configuración de la cabecera de diario, y se registra la misma transacción, la dimensión fija se aplica primero. A continuación la lógica de saldo se aplica para ayudar a garantizar que cada departamento tiene una entrada saldada. La ilustración siguiente muestra las transacciones de asiento que incluyen la entrada de saldo después de que se aplique la dimensión fija.
 
-[![Transacciones de comprobantes después de que se aplica el asiento de compensación](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Transacciones de comprobantes después de que se aplica el asiento de compensación.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Ejemplo 3
 
@@ -101,11 +101,11 @@ En este ejemplo, agregaremos una regla avanzada. La regla avanzada especifica qu
 
 Este ejemplo es importante debido al orden. Se determina la estructura contable tras especificar la cuenta principal. Si se hace referencia a la configuración de la estructura contable, el sistema puede determinar que la cuenta principal, departamento de unidad de negocio, y el centro de coste son relevantes. En este punto, la regla avanzada no se ha activado, ya que no se aplican las dimensiones fijas hasta que las dimensiones predeterminadas se hayan aplicado para el asiento del diario durante el registro. En la siguiente ilustración, el segmento de cliente no está presente, ya que los criterios para la regla avanzada no se han cumplido.
 
-[![Cuenta contable](./media/drop-down.png)](./media/drop-down.png)
+[![Cuenta contable.](./media/drop-down.png)](./media/drop-down.png)
 
 El registro no se realiza correctamente, porque la dimensión fija se aplicó al final del proceso. La validación de dimensiones determina que el segmento del cliente se requiere si la cuenta principal es 401100 y el departamento es 022. El registro no se puede producir debido al error de validación. La ilustración siguiente muestra el mensaje que aparece a la validación de la dimensión que determina que el cliente es un segmento requerido.
 
-[![Detalles de mensaje](./media/message.png)](./media/message.png)
+[![Detalles de mensaje.](./media/message.png)](./media/message.png)
 
 En este ejemplo, debe sobrescribir el valor predeterminado para activar la regla avanzada y puede insertar el segmento del cliente. Sin embargo, esta solución no siempre es posible, y algunos usuarios ni siquiera son conscientes de las reglas de registro. Por lo tanto, es importante que se entienda el orden en que las dimensiones predeterminadas se aplican al configurar el plan contable.
 

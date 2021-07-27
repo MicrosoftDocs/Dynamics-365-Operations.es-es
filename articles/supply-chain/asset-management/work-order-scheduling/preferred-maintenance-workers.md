@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 851cf6df576db303d9fefdcd0e732a92a019189a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822548"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354117"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Configurar trabajadores de mantenimiento preferidos
 
@@ -59,7 +59,7 @@ Cuantas más selecciones haga para el mismo registro, más específica será la 
 
     [!NOTE] Por lo general, cuando se selecciona un trabajador de mantenimiento preferido durante la programación de una orden de trabajo, la Administración de activos pasa por todos los registros **Trabajadores de mantenimiento preferidos** para comprobar si existe una coincidencia posible, comprobando siempre en primer lugar la combinación más específica. Si no se encuentra ninguna coincidencia, se utiliza el registro "predeterminado" con una selección en el campo **Grupo de trabajadores de mantenimiento preferido** o en el campo **Trabajador de mantenimiento preferido**.
 
-![Figura 1](media/02-work-order-scheduling.png)
+![Figura 1.](media/02-work-order-scheduling.png)
 
 También puede configurar los trabajadores *responsables* del mantenimiento que se pueden seleccionar cuando se crea una solicitud de mantenimiento o una orden de trabajo. Puede editar la selección en **Todas las órdenes de trabajo** y **Todas las solicitudes de mantenimiento**. Para obtener más información, consulte [Trabajadores responsables del mantenimiento](../setup-for-maintenance-requests/responsible-workers.md).
 

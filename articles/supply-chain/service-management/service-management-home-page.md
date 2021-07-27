@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1d7c6960dc48bb1bb780ecbbb36a58a1bbd7352
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 565f907dc68bcdeac948619b7a4ccafdadeefc31
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908217"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360361"
 ---
 # <a name="service-management-overview"></a>Visión general de la gestión de servicio
 
@@ -47,7 +47,7 @@ Use las herramientas de informes para controlar los márgenes de pedidos de serv
 
 El siguiente diagrama muestra los procesos empresariales de alto nivel para la **Gestión de servicio** y muestra en qué lugar se integran los procesos de servicio con otros módulos.
 
-[![Diagrama de proceso empresarial de Gestión de servicio](./media/sm_home_page.gif)](./media/sm_home_page.gif)
+[![Diagrama de proceso empresarial de Gestión de servicio.](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 
 ## <a name="service-management-at-a-glance"></a>Panorama general de la gestión de servicio
 

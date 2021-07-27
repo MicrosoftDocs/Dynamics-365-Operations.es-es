@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b6d68d62636b5750cdcdca3f8ccbe155dc249b72
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804438"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352309"
 ---
 # <a name="enable-personalized-recommendations"></a>Habilitar recomendaciones personalizadas
 
@@ -50,7 +50,7 @@ Para activar la personalización, siga estos pasos.
 1. Seleccione la característica **Recomendaciones de productos personalizados**.
 1. En el panel de propiedades **Recomendaciones de productos personalizados**, seleccione **Habilitar ahora**.
 
-![Activación de la personalización](./media/FeatureManagement_Personalized.PNG)
+![Activación de la personalización.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Cuando activa la personalización, se inicia el proceso de generar listas de recomendaciones de productos personalizadas. Es posible que se requiera hasta un día antes de que estas listas estén disponibles y visibles en línea y en el PDV.
@@ -73,7 +73,7 @@ Antes de que la lista "Picking para usted" pueda aparecer en cualquier página d
 
 La siguiente ilustración muestra un ejemplo de una lista de "Picking para usted" en la página de una tienda en línea.
 
-![Listas en línea de Picking para usted](./media/picksforyou.png)
+![Listas en línea de Picking para usted.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Listas de "Recomendado para el cliente" en el PDV
 
@@ -81,7 +81,7 @@ Para mejorar la experiencia de la relación con los clientes, los minoristas pue
 
 La siguiente ilustración muestra un ejemplo de una lista de "Recomendado para el cliente" en un terminal del PDV.
 
-![Lista Recomendado para el cliente en el PDV](./media/picksonpos.png)
+![Lista Recomendado para el cliente en el PDV.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Aplicar personalización a listas de recomendaciones existentes
 
@@ -89,7 +89,7 @@ Los minoristas pueden aplicar la personalización a listas de recomendaciones ex
 
 Por ejemplo, un usuario que haya iniciado sesión ya compró el reloj negro y las botas de trabajo marrones que aparecen en la lista "Tendencias - predeterminado" en la siguiente ilustración. Por lo tanto, el usuario verá nuevos productos en lugar de esos, como se muestra en la lista "Tendencias - personalizado".
 
-![Aplicación de la personalización](./media/applypersonalization.png)
+![Aplicación de la personalización.](./media/applypersonalization.png)
 
 Para aplicar la personalización a una lista de recomendaciones existente en el generador de sitios de comercio electrónico, siga estos pasos.
 
@@ -99,7 +99,7 @@ Para aplicar la personalización a una lista de recomendaciones existente en el 
 1. En el cuadro de diálogo **Seleccionar la configuración de la lista de productos**, debajo de **Tipo**, seleccione el tipo de lista.
 1. Selecciona la casilla **Aplicar personalización** y luego elija **Aceptar**.
 
-    ![Aplicación de la personalización a una lista de tendencias](./media/ApplyPersonalizationToTrending.PNG)
+    ![Aplicación de la personalización a una lista de tendencias.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Guarde la página, termine de editarla y publíquela. Una vez publicada la página, los usuarios que hayan iniciado sesión verán listas de tendencias personalizadas.
 

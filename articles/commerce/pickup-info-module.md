@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804414"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353813"
 ---
 # <a name="pickup-information-module"></a>Módulo de información de recogida
 
@@ -40,7 +40,7 @@ Si se seleccionan varios artículos para recoger en varias tiendas, el módulo d
 
 La siguiente ilustración muestra un ejemplo de selección de franjas horarias a través del módulo de información de recogida en una página de finalización del pedido.
 
-![Ejemplo de módulo de información de la recogida en una página de finalización de compra](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Ejemplo de módulo de información de la recogida en una página de finalización de compra.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Propiedades del módulo
 

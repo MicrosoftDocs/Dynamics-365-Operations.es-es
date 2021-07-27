@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224113"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355331"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Tipos de datos primitivos admitidos para fórmulas de informes electrónicos
 
@@ -112,13 +112,13 @@ Una aplicación *enumeración* se puede utilizar en expresiones de cualquier asi
 
 La siguiente ilustración muestra cómo puede agregar la enumeración de modelo **CustVendCorrectiveReasonCode** al modelo de datos ER editable.
 
-[![Configurar una enumeración de modelo en el diseñador de modelo de datos de ER](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![Configurar una enumeración de modelo en el diseñador de modelo de datos de ER.](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 Una *enumeración* de modelo se puede utilizar en expresiones de cualquier asignación de modelo ER y formato ER que se crearon bajo un modelo de datos donde la *enumeración* se presentó.
 
 La siguiente ilustración muestra cómo puede agregar la enumeración de formato **Lista de subcategorías de cargo revertido Natura** al formato ER editable.
 
-[![Configurar una enumeración de formato en el diseñador de formato de ER](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![Configurar una enumeración de formato en el diseñador de formato de ER.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 Una enumeración de *formato* solo se puede utilizar en expresiones del formato ER donde la *enumeración* se presentó.
 
@@ -126,15 +126,15 @@ Debe usar el tipo apropiado de fuentes de datos de ER para traer una enumeració
 
 - Se puede acceder a las enumeraciones de aplicaciones utilizando los orígenes de datos **Dynamics 365 for Operations \ Enumeración** y **General \ Parámetros de entrada de usuario**. La siguiente ilustración muestra cómo puede agregar los orígenes de datos **appenumNoYes** y **uipNoYes** que se refieren a la enumeración de aplicación **NoYes**.
 
-    [![Agregar orígenes de datos de enumeración de aplicaciones en el diseñador de formato ER](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![Agregar orígenes de datos de enumeración de aplicaciones en el diseñador de formato ER.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - Se puede acceder a las enumeraciones de modelo de datos utilizando los orígenes de datos **Modelo de datos \ Enumeración** y **Parámetros de entrada de usuario Modelo de datos \ Enumeración**. La siguiente ilustración muestra cómo puede agregar los orígenes de datos **CustVendCorrectiveReasonCode** que se refieren a la enumeración de modelo de datos **CustVendCorrectiveReasonCode** al formato ER editable.
 
-    [![Agregar orígenes de datos de enumeración de modelos en el diseñador de formato ER](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![Agregar orígenes de datos de enumeración de modelos en el diseñador de formato ER.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - Se puede acceder a las enumeraciones de formato utilizando los orígenes de datos **Formato \ Enumeración** y **Parámetros de entrada de usuario Formato \ Enumeración**. La siguiente ilustración muestra cómo puede agregar los orígenes de datos **NaturaReverseCharge** que se refieren a la enumeración de formato **Natura reverse charge subcategories** al formato ER editable.
 
-    [![Agregar orígenes de datos de enumeración de formato en el diseñador de formato ER](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![Agregar orígenes de datos de enumeración de formato en el diseñador de formato ER.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 Una *enumeración* no tiene conversiones implícitas. Sin embargo, puede utilizar la función de conversión [TEXT](er-functions-text-text.md) para convertir una *enumeración* a una cadena de texto. Esta conversión no depende del idioma. Para saber cómo puede asociar un valor de *enumeración* con las etiquetas específicas del idioma correspondientes, consulte los ejemplos de uso para las funciones [LISTOFFIELDS](er-functions-list-listoffields.md) y [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md).
 

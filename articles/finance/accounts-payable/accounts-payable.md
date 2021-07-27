@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21901
+ms.custom:
+- "21901"
+- intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 62e075fc26ee2e183cd859c5ec2c90faa3bfe3ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: e284e84c5f049c912d54d2c5ae72a622f5cfdbbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897019"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344839"
 ---
 # <a name="accounts-payable-home-page"></a>Página principal de proveedores
 
@@ -30,13 +32,13 @@ Este tema proporciona información general de los proveedores.
 
 Puede especificar facturas de proveedor manualmente o recibirlas electrónicamente a través de una entidad de datos. Después de que las facturas se especifican o se reciben, puede revisar y aprobar las facturas mediante un diario de aprobación de facturas o la página **Factura de proveedor**. Puede usar la conciliación de facturas, las directivas de facturas de proveedor y el flujo de trabajo para automatizar el proceso de revisión de manera que las facturas que cumplan determinados criterios se aprueben automáticamente y las facturas restantes se marquen para revisión por parte de un usuario autorizado.
 
-**Procesos empresariales**
+**Procesos de negocio**
 
-[![Diagrama de procesos empresariales](./media/AP-process.PNG)](./media/AP-process.PNG)
+[![Diagrama de procesos de negocio.](./media/AP-process.PNG)](./media/AP-process.PNG)
 
 ## <a name="set-up-accounts-payable"></a>Configurar proveedores
 
-Establezca grupos de proveedores, proveedores, perfiles de contabilización, varias opciones de pago, parámetros relacionados con los proveedores, cargos, entregas y destinos, pagarés y otros tipos de información de Proveedores. 
+Establezca grupos de proveedores, proveedores, perfiles de registro, varias opciones de pago, parámetros relacionados con los proveedores, cargos, entregas y destinos, pagarés y otros tipos de información de proveedores. 
 
 [Información general de la configuración de proveedores](accounts-payable-overview.md)
 

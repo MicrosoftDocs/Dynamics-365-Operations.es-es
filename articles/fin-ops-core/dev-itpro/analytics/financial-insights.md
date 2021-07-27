@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193759"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345821"
 ---
 # <a name="financial-analysis"></a>Análisis financiero
 
@@ -60,7 +60,7 @@ Para que aparezca en los informes financieros y ser incluida en distintos elemen
 ## <a name="entity-store"></a>Almacén de entidades
 Los datos para **Análisis financiero** se extraen del almacén de entidades (**Administración del sistema** \> **Configuración** \> **Almacén de entidades**). Si abre el espacio de trabajo **Visión general de CFO** o **Análisis financiero** y aparece el siguiente mensaje de advertencia en los elementos visuales, debe actualizar las entidades.
 
-![Advertencia](./media/Cantdisplay.png)
+![Advertencia.](./media/Cantdisplay.png)
 
 Debe actualizar las siguientes entidades para ver datos en el espacio de trabajo **Análisis financiero**:
 
@@ -124,7 +124,7 @@ Los usuarios pueden filtrar el informe mediante el panel **Filtro** a la izquier
 - **Filtros a nivel visual:** estos filtros solo se aplican al elemento visual seleccionado. Estos filtros se aplican encima de los filtros a nivel de página.
 - **Filtro de exploración:** este filtro filtra desde un elemento visual "de origen" que se aplica al elemento visual actual cuando se explora del elemento visual de origen al elemento visual actual.
 
-![Opciones de filtro](./media/filter.png)
+![Opciones de filtro.](./media/filter.png)
 
 Para quitar un valor específico de filtro, seleccione el símbolo de la goma situado junto a él. No quite un filtro seleccionando la X. Si selecciona la X, el campo sobre el que se está filtrando se quita como opción de filtro. Si quita accidentalmente un campo del filtro, cierre el espacio de trabajo y, a continuación, vuelva a abrirlo. Los parámetros de filtro predeterminado se volverán a aplicar.
 
@@ -169,25 +169,25 @@ Los distintos niveles de exploración están disponibles mediante Power BI. Cada
 
 En la siguiente ilustración, el informe **Saldo de comprobación** se contrae al máximo nivel de la jerarquía de la fila, el tipo de cuenta principal.
 
-![Instrucción de saldo de comprobación](./media/trial-balance.png)
+![Instrucción de saldo de comprobación.](./media/trial-balance.png)
 
 Para ver el siguiente nivel de la jerarquía, las categorías de cuenta principal, puede establecer el campo **Explorar en** para **Filas** y luego seleccionar el botón **Expandir** (el tercer botón después del campo Explorar en). Ahora verá todas las categorías de cuenta principal ampliadas. Actualmente, Power BI no le permite expandir una sola fila o columna pero puede seguir viendo el resto de filas o columnas.
 
-![Desglose del saldo de comprobación en las filas](./media/trial-balance2.png)
+![Desglose del saldo de comprobación en las filas.](./media/trial-balance2.png)
 
 Para ampliar a la cuenta principal para todas las filas, puede volver a utilizar el botón **Expandir** . Sin embargo, para explorar a fondo las cuentas principales para una sola fila, seleccione primero el botón **Explorar a fondo** (una sola flecha apuntando hacia abajo a la derecha de la ventana) y luego seleccione la fila que desea explorar a fondo. La siguiente ilustración muestra el resultado cuando se selecciona la fila **Ventas** después de que se seleccione el botón **Explorar a fondo** .
 
-![Botón para expandir el saldo de comprobación](./media/trial-balance3.png)
+![Botón para expandir el saldo de comprobación.](./media/trial-balance3.png)
 
 Tras explorar en profundidad una sola fila, se requieren múltiples clics para volver al saldo de comprobación completo. El botón **Explorar a fondo** (el primer botón después del campo **Explorar en**) explora a fondo solo en el contexto de la categoría **Ventas**, como se muestra en la siguiente ilustración.
 
-![Botón de desglose del saldo de comprobación](./media/trial-balance4.png)
+![Botón de desglose del saldo de comprobación.](./media/trial-balance4.png)
 
 Puede seguir usando el botón **Explorar a fondo** para volver al máximo nivel de resumen de las filas.
 
 Power BI también dispone de un botón que le permite ir al siguiente nivel de la jerarquía (el segundo botón después del campo **Explorar en**). El efecto de este botón es diferente al efecto del botón **Expandir** (el tercer botón después del campo **Explorar en** ), que se utiliza para expandir la jerarquía. Cuando expanda la jerarquía, la jerarquía se mantiene en el informe. Por ejemplo, como se mostró anteriormente, si expande en el tipo de cuenta principal, todavía puede ver el tipo de cuenta principal en el informe. Sin embargo, cuando va al siguiente nivel de la jerarquía, el informe ya no muestra la principal en la jerarquía, como se muestra en la siguiente ilustración.
 
-![Botón de retroceder del saldo de comprobación](./media/trial-balance5.png)
+![Botón de retroceder del saldo de comprobación.](./media/trial-balance5.png)
 
 Para ver los detalles de transacción detrás de los saldos resumidos, puede seleccionar algunas importes para volver a explorar en Finance and Operations.
 
@@ -226,7 +226,7 @@ Actualmente, los informes financieros no admiten las jerarquías organizativas, 
 ## <a name="data-limitations"></a>Limitaciones de datos
 Los elementos visuales del informe financiero tienen un límite en el número de filas que se pueden mostrar. Actualmente, el límite se establece en 30 000. Si supera este límite, el elemento visual tendrá un símbolo de advertencia para notificarle sobre esta situación.
 
-![Limitaciones de datos](./media/data-limit.png)
+![Limitaciones de datos.](./media/data-limit.png)
 
 Si se supera el máximo, los totales que aparecen en el informe financiero serán incorrectos, ya que no se cargaron todas las filas en el elemento visual.
 

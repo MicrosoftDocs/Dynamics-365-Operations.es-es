@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41c0ec805a20a525989e0133e5dffb29ce3fed39
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 32090af050fdb97e7b581cefcfc9155357327441
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748678"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351000"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Sincronizar fecha y hora en trabajos de importación
 
@@ -33,7 +33,7 @@ Esta conversión dual hace que las fechas cambien entre aplicaciones. Por ejempl
 
 3. En **Formato de fecha de origen**, seleccione **CSV-Unicode**.
 
-   [![Cambiar el formato de la fecha de origen a UTC](./media/data-source-date-format.png)](./media/data-source-date-format.png)
+   [![Cambiar el formato de la fecha de origen a UTC.](./media/data-source-date-format.png)](./media/data-source-date-format.png)
 
 4. Cambie la **Zona horaria** a **Zona horaria universal coordinada**, y cambie **Idioma** a **En-US**.
 

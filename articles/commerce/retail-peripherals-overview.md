@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189584"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345041"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -119,7 +121,7 @@ Para ayudar a garantizar que se pueden utilizar la mayor variedad posible de dis
 -   **Objeto de control**: el objeto de control para una clase de dispositivo (como pantallas de línea) ofrece la interfaz para el programa de software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) proporciona un conjunto normalizado de objetos de control de OPDV denominados Common Control Objects (CCO). Los CCO se usan para probar el componente de PDV de Commerce. Por lo tanto, las pruebas ayudan a garantizar que, si Commerce admite una clase de dispositivo con OPDV, muchos tipos de dispositivo pueden ser compatibles, siempre que el proveedor proporcione un objeto de servicio que se genere para OPDV. No es necesario probar explícitamente cada tipo de dispositivo.
 -   **Objeto de servicio**: el objeto de servicio proporciona comunicación entre el objeto de control (CCO) y el dispositivo. Por lo general, el objeto de servicio para un dispositivo lo proporciona el fabricante del dispositivo. Sin embargo, en algunos casos, es posible que tenga que descargar el objeto de servicio de la página web del fabricante. Por ejemplo, un objeto de servicio más reciente puede estar disponible. Para encontrar la dirección de la página web del fabricante, vea la documentación de hardware.
 
-[![Objeto de control y objeto de servicio](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La compatibilidad para la implementación de OPDV de OLE para PDV ayuda a garantizar que, si los fabricantes de dispositivos y los editores de PDV implementan la norma correctamente, los sistemas de PDV y los dispositivos admitidos pueden trabajar conjuntamente, incluso si no se probaron antes conjuntamente. 
+[![Objeto de control y objeto de servicio.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) La compatibilidad para la implementación de OPDV de OLE para PDV ayuda a garantizar que, si los fabricantes de dispositivos y los editores de PDV implementan la norma correctamente, los sistemas de PDV y los dispositivos admitidos pueden trabajar conjuntamente, incluso si no se probaron antes conjuntamente. 
 
 > [!NOTE]
 > La compatibilidad de OPDV no garantiza que se admitan todos los dispositivos que tienen controladores de OPDV. Commerce debe primero admitir ese tipo de dispositivo, o clase, con OPDV. Además, los objetos de servicio no siempre pueden actualizarse con la última versión del CCO. También debe tener en cuenta que, en general, la calidad de los objetos del servicio varía.

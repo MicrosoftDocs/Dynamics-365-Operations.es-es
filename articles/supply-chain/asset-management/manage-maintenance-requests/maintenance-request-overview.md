@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 536f512abc2b7ce74ebc35dfdaf48e812a85cc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015887"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344253"
 ---
 # <a name="maintenance-requests"></a>Solicitudes de mantenimiento
 
@@ -40,7 +40,7 @@ Las solicitudes de mantenimiento se pueden crear para cualquier activo en Admini
 
 Para ver las solicitudes de mantenimiento, seleccione **Administración de activos** \> **Común** \> **Solicitudes de mantenimiento** \> **Todas las solicitudes de mantenimiento**, **Solicitudes de mantenimiento activas** o **Mis solicitudes de mantenimiento de ubicación funcional**. Cada página de lista muestra la información relacionada con una solicitud de mantenimiento.
 
-![Ver solicitudes de mantenimiento](media/01-manage-maintenance-requests.png)
+![Ver solicitudes de mantenimiento.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Use la página de lista **Mis solicitudes de mantenimiento de ubicación funcional** para ver una lista de las solicitudes de mantenimiento que contienen ubicaciones funcionales con las que está relacionado como trabajador o los activos que están instalados en ubicaciones funcionales con las que está relacionado como trabajador. (Para obtener información sobre cómo configurar ubicaciones funcionales en trabajadores de mantenimiento, consulte [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md)).
@@ -49,7 +49,7 @@ Para ver las solicitudes de mantenimiento, seleccione **Administración de activ
 
 Para abrir la vista de detalles de un registro, en la página de lista **Todas las solicitudes de mantenimiento** , en la vista de cuadrícula, seleccione un vínculo en la columna **Solicitud de mantenimiento**.
 
-![Ver detalles de la solicitud de mantenimiento](media/02-manage-maintenance-requests.png)
+![Ver detalles de la solicitud de mantenimiento.](media/02-manage-maintenance-requests.png)
 
 Los botones del panel de acciones se organizan en fichas. La tabla siguiente describe brevemente los botones relacionados con Administración de activos.
 

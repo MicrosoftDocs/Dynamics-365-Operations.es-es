@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792938"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348251"
 ---
 # <a name="create-and-update-store-hours"></a>Cree y actualizar el horario comercial
 
@@ -49,14 +49,14 @@ Siga estos pasos para configurar un horario comercial.
     > [!NOTE]
     > Puede crear varias plantillas que tengan fechas de inicio y de finalización solapadas. De este modo, puede, por ejemplo, definir el horario comercial para las tiendas en distintas zonas horarias.
 
-    ![Cuadro de diálogo Agregar rango](../dev-itpro/media/Storehours1.png "Cuadro de diálogo Agregar rango")
+    ![Cuadro de diálogo Agregar rango.](../dev-itpro/media/Storehours1.png "Cuadro de diálogo Agregar rango")
 
 4. Asocie la plantilla de horario comercial a las tiendas en la que se usará. En el cuadro de diálogo **Elegir nodos organizativos**, seleccione las tiendas, regiones y organizaciones a las que debe asociarse la plantilla.
 
     - Solo se puede asociar una plantilla de horario comercial a cada tienda.
     - Use los botones de flecha para seleccionar tiendas, regiones u organizaciones. El calendario estará disponible para las tiendas o grupos de tiendas, y será visible en el PDV como referencia.
 
-    ![Cuadro de diálogo Elegir nodos organizativos](../dev-itpro/media/Storehours2.png "Cuadro de diálogo Elegir nodos organizativos")
+    ![Cuadro de diálogo Elegir nodos organizativos.](../dev-itpro/media/Storehours2.png "Cuadro de diálogo Elegir nodos organizativos")
 
 5. En la página **Programación de distribución**, ejecute los trabajos **1070** y **1090** para hacer que el horario comercial esté disponible en el PDV.
 
@@ -75,7 +75,7 @@ Siga estos pasos para agregar un horario comercial a las recepciones de PDV impr
 
 Los recibos de PDV incluyen ahora el horario comercial. Si se incluyeron algunos festivos en la plantilla, estos se muestran en el recibo.
 
-![Ejemplo de recibo](../dev-itpro/media/Storehours3.png "Ejemplo de recibo")
+![Ejemplo de recibo.](../dev-itpro/media/Storehours3.png "Ejemplo de recibo")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

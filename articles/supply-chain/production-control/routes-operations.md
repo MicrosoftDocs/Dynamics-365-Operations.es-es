@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188943"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350507"
 ---
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
@@ -45,7 +45,7 @@ Una ruta describe el orden de las operaciones que se usan para producir un produ
 
 Una ruta sencilla es secuencial y solo hay un punto de inicio para la ruta.  
 
-[![Ruta sencilla](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Ruta sencilla.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Si solo habilita rutas simples en los parámetros de control de producción, Supply Chain Management genera automáticamente los números de operación (10, 20, 30, etc.) cuando define la ruta.
 
@@ -53,7 +53,7 @@ Si solo habilita rutas simples en los parámetros de control de producción, Sup
 
 Si habilita redes de rutas más complejas en los parámetros de control de producción, puede definir las rutas que tengan múltiples puntos de inicio y operaciones que se pueden ejecutar en paralelo.  
 
-[![Red de las rutas](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Red de las rutas.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Cada operación solo puede tener una operación sucesora y la totalidad de la ruta debe terminar en una sola operación.
@@ -64,7 +64,7 @@ Si habilita redes de rutas más complejas en los parámetros de control de produ
 
 A veces, requieren una combinación de múltiples recursos de operaciones con diversas características para realizar una operación. Por ejemplo, una operación de ensamblado puede requerir una máquina, una herramienta y un trabajador para dos máquinas poder supervisar la operación. Se puede dar forma a este ejemplo con operaciones paralelas, donde una operación se designa como la operación principal y las otras son secundarias.  
 
-[![Ruta que tiene operaciones primarias y secundarias](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Ruta que tiene operaciones primarias y secundarias.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Normalmente, la operación principal representa el recurso de cuello de botella e indica el tiempo de ejecución de las operaciones secundarias. Sin embargo, durante la programación con capacidad limitada, los recursos que se programan para la operación principal y las operaciones secundarias deben estar disponibles y tener capacidad libre al mismo tiempo.  
 

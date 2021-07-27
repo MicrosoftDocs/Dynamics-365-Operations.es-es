@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 8b147c27b9309b1b3597f1194c415fbb2e2b7ad2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 77625e6e80bfa45add6839df89d9aae27e41d456
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750821"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355307"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Jerarquía organizativa en Dataverse
 
@@ -37,7 +37,7 @@ Aunque Dataverse no tenga el concepto de una jerarquía organizativa, tiene algu
 
 Un ecosistema de negocio que conste de aplicaciones de Finance and Operations y Dataverse seguirá teniendo una jerarquía organizativa. Esta jerarquía organizativa se basa en aplicaciones de Finance and Operations, pero se expone en Dataverse para fines informativos y de extensibilidad. La ilustración siguiente muestra la información de la jerarquía organizativa expuesta en Dataverse como un flujo de datos unidireccional de aplicaciones de Finance and Operations a Dataverse.
 
-![Imagen de la arquitectura](media/dual-write-data-flow.png)
+![Imagen de la arquitectura.](media/dual-write-data-flow.png)
 
 Los mapas de tabla de la jerarquía organizativa están disponibles para la sincronización unidireccional de datos de aplicaciones de Finance and Operations con Dataverse.
 

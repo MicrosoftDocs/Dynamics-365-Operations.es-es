@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193914"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345389"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visión general de la conversión de consolidaciones financieras y divisa
 
@@ -66,13 +67,13 @@ Aquí hay alguna de las situaciones de consolidación que Consolidar en línea a
 ## <a name="legal-entity-setup"></a>Configuración de entidades legales
 Antes de procesar una consolidación, debe configurar la entidad jurídica. Puede ejecutar la consolidación tantas veces como sea necesario, y todos los datos se convertirán desde la divisa de contabilidad de la empresa de origen a la divisa que está definida para la empresa de consolidación. Por lo tanto, para la siguiente estructura organizativa, si debe convertir todas las empresas norteamericanas primero a dólares estadounidenses (USD) y luego a euros (EUR), la divisa de la empresa matriz, debe tener al menos dos empresas de consolidación.
 
-![Estructura de la organización](./media/organizational-structure.png "Estructura de la organización")
+![Estructura de la organización.](./media/organizational-structure.png "Estructura de la organización")
 
 En la estructura organizativa anterior, debe tener una entidad jurídica para la consolidación norteamericana, ya que las consolidaciones se consolidan siempre desde la divisa de contabilidad de la empresa de origen hasta la divisa de la empresa de consolidación. En el ejemplo, si todas las empresas están incluidas en una sola consolidación, la filial mexicana se convertirá de Pesos mexicanos (MXN) a euros, y no del MXN a USD y a euros.
 
 Al crear la entidad jurídica, puede especificar si se usa la empresa para el proceso de consolidación y el proceso de eliminación, o sólo uno de estos procesos. En la siguiente ilustración, se usa la empresa para ambos procesos. Tenga en cuenta que no puede registrar los diarios en una empresa de consolidación, pero puede registrarlos en una empresa de eliminación. Por lo tanto, puede que desee tener una empresa de eliminación independiente.
 
-![Entidad jurídica que se utiliza para la consolidación y la eliminación](./media/sep-elimination-company.png "Entidad jurídica que se utiliza para la consolidación y la eliminación")
+![Entidad jurídica que se utiliza para la consolidación y la eliminación.](./media/sep-elimination-company.png "Entidad jurídica que se utiliza para la consolidación y la eliminación")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Cuentas principales y grupos de cuentas de consolidación
 Una decisión que debe tomar es cómo desea consolidar su plan de cuentas. Durante el proceso de consolidación, tiene tres opciones para consolidar cuentas principales.
@@ -81,11 +82,11 @@ La primera opción es usar las cuentas principales de las empresas de origen. En
 
 La segunda opción es especificar una cuenta predeterminada de consolidación en la página **Cuentas principales**. La cuenta a continuación se asignará a la cuenta de consolidación. Esta opción puede ser útil si tiene varios planes contables o debe asignar a un gráfico definido por las sedes.
 
-![Cuenta de consolidación predeterminada que se especifica en la página Cuenta principal](./media/main-accounts.png "Cuenta de consolidación predeterminada que se especifica en la página Cuenta principal")
+![Cuenta de consolidación predeterminada que se especifica en la página Cuenta principal.](./media/main-accounts.png "Cuenta de consolidación predeterminada que se especifica en la página Cuenta principal")
 
 La tercera opción es usar grupos de cuentas de consolidación. Puede definir tantos grupos de cuentas de consolidación como sea necesario. A continuación, en la página **Cuentas de consolidación adicional**, sólo se asigna la cuenta principal del plan de cuentas a la cuenta que se requiere para ese grupo.
 
-![Asignación en la página de Cuentas de consolidación adicionales](./media/additional-consolidation-accounts.png "Asignación en la página de Cuentas de consolidación adicionales")
+![Asignación en la página de Cuentas de consolidación adicionales.](./media/additional-consolidation-accounts.png "Asignación en la página de Cuentas de consolidación adicionales")
 
 ## <a name="consolidating-online"></a>Consolidación en línea
 Para aprender a especificar detalles de consolidaciones en línea, consulte [Consolidaciones financieras en línea](./consolidate-online.md).
@@ -97,7 +98,7 @@ Para ver los resultados de la consolidación, tiene varias opciones:
 - Revise la página de la lista **Saldo de comprobación** en la empresa de consolidación.
 - En la lista de transacciones de consolidación en la página **Consolidaciones**, vea los saldos que se crean por fecha para cada empresa de origen por cada período.
 
-    ![Transacciones de consolidación en la página Consolidaciones](./media/managing-consolidation-transactions.png "Transacciones de consolidación en la página Consolidaciones")
+    ![Transacciones de consolidación en la página Consolidaciones.](./media/managing-consolidation-transactions.png "Transacciones de consolidación en la página Consolidaciones")
 
 Para ejecutar la consolidación de nuevo, simplemente puede procesar la consolidación. Como alternativa, puede seleccionar **Eliminar transacciones** en la página **Consolidaciones**.
 En caso de que los saldos de su cuenta consolidada no sean precisos, estos saldos se pueden corregir utilizando la página **Ajustes del período de cierre**.
@@ -118,7 +119,7 @@ Puede encontrar la configuración de eliminaciones en el área de **Configuraci�
 
 Puede definir la fecha en la que la regla de eliminación se convierte en efectiva y la fecha en la que vence, como sea necesario. Si quiere que la regla de eliminación esté disponible en el proceso de propuesta de eliminación, debe establecer la opción **Activa** en **Sí**. Seleccione un nombre de diario del tipo **Eliminación**.
 
-![Propiedades básicas de una regla de eliminación](./media/ledger-elimination-rule-journal.png "Propiedades básicas de una regla de eliminación")
+![Propiedades básicas de una regla de eliminación.](./media/ledger-elimination-rule-journal.png "Propiedades básicas de una regla de eliminación")
 
 Una vez que haya definido los fundamentos, seleccione **Líneas** para definir las reglas de procesamiento reales. Hay dos opciones para las eliminaciones, puede eliminar el importe neto de cambio o definir un importe fijo.
 
@@ -126,7 +127,7 @@ Seleccione las cuentas de origen. Puede usar un asterisco (\*) como carácter co
 
 Una vez que haya seleccionado las cuentas de origen, use el campo **Especificación de la cuenta** para especificar la cuenta de la empresas de destino que se utiliza. Seleccione **Origen** si desea usar la misma cuenta principal que está definida en la cuenta de Origen. Si selecciona **Definido por el usuario**, deberá especificar una cuenta de destino.
 
-![Página de línea de la regla de eliminación contable](./media/ledger-elimination-rule-line.png "Página de línea de la regla de eliminación contable")
+![Página de línea de la regla de eliminación contable.](./media/ledger-elimination-rule-line.png "Página de línea de la regla de eliminación contable")
 
 El campo **Especificación de la dimensión** funciona como el campo **Especificación de la cuenta**. Seleccione **Origen** para utilizar las mismas dimensiones en la empresa de destino y la empresa de origen. Si selecciona **Definido por el usuario**, tiene que especificar las dimensiones de la empresa de destino seleccionando **Dimensiones de destino**. A continuación, seleccione las dimensiones de origen y las dimensiones financieras y los valores que se usan como origen de la eliminación.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0462958d8225de145a8d886b096f96cd3f2cb5c5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b47f38375fc8925288db36f066ed7820bab3fe9b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799550"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353165"
 ---
 # <a name="create-a-variant-group"></a>Crear un grupo de variantes
 
@@ -61,11 +61,11 @@ Para agregar atributos a un grupo de tamaños, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de grupo de tamaños para "tallas de camisetas informales".
 
-![Crear grupo de tamaños](media/create-variant-group.png)
+![Crear grupo de tamaños.](media/create-variant-group.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del producto](../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json)
+[Información general del producto](../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json)
 
 [Configurar productos comerciales](set-up-retail-products.md)
 

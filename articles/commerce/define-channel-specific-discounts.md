@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4003bd78e400994f3c164d2f7e8e3aa5ce93146
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76b8111ddc9e634ce689999da7b8621f550afc5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802078"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349585"
 ---
 # <a name="define-channel-specific-discounts"></a>Definir descuentos específicos de un canal
 
@@ -35,9 +35,9 @@ Los minoristas ofrecen a menudo distintos descuentos en diferentes canales. Esto
 
 Commerce usa grupos de precios para definir descuentos específicos de canal. Los grupos de precios se pueden asignar a una o más de las entidades siguientes: canales, catálogos, afiliaciones y programas de fidelidad. Este artículo describe los canales, pero los mismos conceptos se aplican a los descuentos de catálogo, descuentos de afiliaciones y los descuentos por fidelidad.
 
-## <a name="price-groups"></a>Grupos de precio
+## <a name="price-groups"></a>Grupos de precios
 
-[![Grupos de precio](./media/price-groups-1024x608.png)](./media/price-groups.png)
+[![Grupos de precio](./media/price-groups-1024x608.png)](./media/price-groups.png).
 
 En el diagrama anterior se muestra la relación entre las entidades que pueden estar incluidas en una transacción (canal, catálogo, afiliación, cliente o tarjeta de fidelización) y los distintos tipos de descuento que pueden configurarse. Todas las transacciones se producen en un canal, por lo que se garantiza la presencia del canal en una transacción. Las entidades restantes son opcionales. En cada página de datos maestros hay un vínculo a una página de grupos de precios relacionada donde se pueden ver y agregar grupos de precios según sea necesario. El grupo de precios se usa para relacionar cuatro tipos diferentes de entidades a los descuentos, los ajustes de precios y los acuerdos comerciales. Se recomienda planear una estrategia para nombrar a los grupos de precios con objeto de tenerlos organizados. Una opción sería usar una letra o un prefijo o un sufijo numérico para distinguir entre los diferentes tipos. Por ejemplo, 1-xxxxx para grupos de precios de canal y 2-xxxxx para grupos de precios de catálogo. Existen cuatro páginas de consulta que se centran en cada una de las entidades de Commerce que pueden tener descuentos asociados.
 

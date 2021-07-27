@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8df8e6204e9c64305387e6aed304142d7f13b33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6affcc20c2c2e2b8fa9e38cb523e172bb2a79f22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808337"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349827"
 ---
 # <a name="asset-management-parameters"></a>Parámetros de administración de activos
 
@@ -99,7 +99,7 @@ Los campos que se describen en la lista siguiente están relacionados con las pu
 
 ## <a name="the-document-types-tab"></a>La pestaña Tipos de documento
 
-Seleccione los tipos de documento que deben estar disponibles para imprimir los datos adjuntos relacionados con un informe de orden de trabajo. Para ello seleccione un tipo de documento en la sección **Disponible** y seleccione la ![flecha atrás](media/15-setup-for-objects.png). Si desea quitar un tipo de documento seleccionado, seleccione el tipo de documento en la sección **Seleccionado** y seleccione la ![flecha hacia delante](media/16-setup-for-objects.png) .
+Seleccione los tipos de documento que deben estar disponibles para imprimir los datos adjuntos relacionados con un informe de orden de trabajo. Para ello seleccione un tipo de documento en la sección **Disponible** y seleccione la ![flecha adelante.](media/15-setup-for-objects.png). Si desea quitar un tipo de documento seleccionado, seleccione el tipo de documento en la sección **Seleccionado** y seleccione la ![flecha hacia delante](media/16-setup-for-objects.png) .
 
 ## <a name="the-number-sequences-tab"></a>La pestaña Secuencias numéricas
 

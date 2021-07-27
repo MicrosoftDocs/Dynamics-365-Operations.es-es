@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: d80c754b7aa154d9636bb0d9fbfb448987d01e48
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cc9273cc46e2549765dec4b2bbc9a3030753791d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841800"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353525"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Cumplimiento de existencias de seguridad para los artículos
 
@@ -72,37 +72,50 @@ El siguiente escenario muestra cómo funciona este parámetro y cuáles son las 
 > [!NOTE]
 > Para todas las ilustraciones en este tema, el eje X representa el inventario, el eje Y representa días, las barras representan el nivel de inventario, las flechas representan transacciones, como las líneas de pedido de ventas, las líneas de pedido de compra, o pedidos planificados.
 
-[![Escenario común para el cumplimiento de existencias de seguridad](./media/Scenario1.png)](./media/Scenario1.png) El parámetro **Cumplir mínimos** puede tener los siguientes valores:
+[![Escenario común de cumplimiento de existencias de seguridad.](./media/Scenario1.png)](./media/Scenario1.png)
+El parámetro **Cumplir con el mínimo** puede tener los siguientes valores:
 ### <a name="todays-date"></a>Fecha de hoy 
 La cantidad mínima especificada se alcanza en la fecha en que se ejecuta la planificación maestra. El sistema intenta cumplir el límite de existencias de seguridad lo más rápidamente posible, aunque es posible que sea poco realista debido al plazo. 
-[![Requerimiento en la fecha actual](./media/TodayReq.png)](./media/TodayReq.png) El pedido planificado P1 se crea para que la fecha de hoy supere el nivel de inventario disponible de existencias de seguridad en esta fecha. Las líneas de pedido de ventas S1 a S3 continúan bajando el nivel de inventario. Los pedidos planificados P2 a P4 se generan mediante la planificación maestra para que el nivel de inventario vuelva al límite de seguridad después de cada requerimiento de pedido de ventas.
+[![Requisito en la fecha de hoy.](./media/TodayReq.png)](./media/TodayReq.png)
+El pedido planificado P1 se crea para que la fecha de hoy supere el nivel de inventario disponible de existencias de seguridad en esta fecha. Las líneas de pedido de ventas S1 a S3 continúan bajando el nivel de inventario. Los pedidos planificados P2 a P4 se generan mediante la planificación maestra para que el nivel de inventario vuelva al límite de seguridad después de cada requerimiento de pedido de ventas.
 Cuando se utiliza tipo de cobertura **Requerimiento**, se crean múltiples pedidos planificados. Siempre es una buena idea utilizar **Período** o el alcance **Mín/Máx.** para artículos y el material con demanda frecuente, para agrupar el reabastecimiento. En la siguiente ilustración se muestra un ejemplo tipo de cobertura **Periodo**.
-[![Periodo fecha actual](./media/TodayPeriod.png)](./media/TodayPeriod.png) En la siguiente ilustración se muestra un ejemplo de tipo de cobertura **Min/Máx**.
-[![MinMax. fecha actual](./media/TodayMinMax.png)](./media/TodayMinMax.png)
+[![Período. Fecha actual.](./media/TodayPeriod.png)](./media/TodayPeriod.png)
+En la siguiente ilustración se muestra un ejemplo de tipo de cobertura **Mín./Máx.**.
+[![MinMax. fecha actual.](./media/TodayMinMax.png)](./media/TodayMinMax.png)
 ### <a name="todays-date--procurement-time"></a>Fecha de hoy + tiempo de adquisición 
 La cantidad mínima especificada se alcanza en la fecha cuando se ejecuta la planificación maestra más el tiempo de compra o de producción. Este tiempo incluye los márgenes de seguridad. Si el artículo incorpora un acuerdo comercial y se selecciona la casilla de verificación **Buscar acuerdos comerciales** en la página **Planificación de parámetros maestros**, no se considerará el plazo de entrega del acuerdo comercial. Los plazos se toman de los parámetros de cobertura de artículos o del artículo.
 Este modo de cumplimiento creará planes con menos retrasos y menos los pedidos planificados independientemente del grupo de cobertura configurado en el artículo. La ilustración siguiente muestra el resultado del plan si el tipo de cobertura es **Requerimiento** o **Período**.  
-[![Requerimiento. Periodo. Fecha actual y plazo de entrega](./media/TodayPLTReq.png)](./media/TodayPLTReq.png) La ilustración siguiente muestra el resultado del plan si el tipo de cobertura es **Min/Máx**.  
-[![MinMax. Fecha actual y plazo de entrega](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
+[![Requisito. Período. Fecha actual y plazo de entrega.](./media/TodayPLTReq.png)](./media/TodayPLTReq.png)
+La ilustración siguiente muestra el resultado del plan si el tipo de cobertura es **Mín./Máx.**  
+[![MinMax. Fecha actual y plazo de entrega.](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
 ### <a name="first-issue"></a>Primera emisión 
 La cantidad mínima especificada se alcanza en la fecha en la que el inventario disponible va por debajo del nivel mínimo, como se muestra en la siguiente ilustración. Incluso si el inventario disponible está por debajo del nivel mínimo en la fecha en que se ejecuta la planificación maestra, la **Primera emisión** no tratará de cubrirla hasta que no llegue el siguiente requerimiento.
 En la siguiente ilustración se muestra un ejemplo de tipo de cobertura **Requerimiento**.
-[![Planificar un artículo con tipo de **Requerimiento** y cumplimiento **Primera emisión**](./media/FirstIssueReq.png)](./media/FirstIssueReq.png) La ilustración siguiente muestra un ejemplo del tipo de cobertura es **Periodo**.
-[![Planificar un artículo con tipo de **Periodo** y cumplimiento **Primera emisión**](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png) La ilustración siguiente muestra un ejemplo del tipo de cobertura es **Min/Máx**.
-[![Planificar un artículo con el tipo de cobertura **MinMax** y el cumplimiento de la **Primera emisión**](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png) En la fecha en la que se ejecute la planificación maestra, si el inventario disponible ya se encuentra bajo límite de existencias de seguridad, **Fecha actual** y **Fecha actual + tiempo de compras** el reabastecimiento activará inmediatamente. La **Primera emisión** esperará hasta que haya otra transacción de emisión, como un pedido de ventas y requerimiento de LM, para el artículo y, a continuación activará el reabastecimiento en la fecha de esta transacción. En la fecha en la que se ejecute la planificación maestra, si el inventario disponible no se encuentra bajo el límite de existencias de seguridad, **Fecha actual** y **Primera emisión** proporcionarán exactamente el mismo resultado, tal y como se muestra en la ilustración siguiente. 
+[![Planificación de un artículo con el tipo de cobertura **Requerimiento** y el cumplimiento de la **Primera emisión**](./media/FirstIssueReq.png)](./media/FirstIssueReq.png)
+En la siguiente ilustración se muestra un ejemplo tipo de cobertura **Periodo**.
+[![Planificación de un artículo con el tipo de cobertura **Período** y el cumplimiento de la **Primera emisión**](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png)
+En la siguiente ilustración se muestra un ejemplo de tipo de cobertura **Mín./Máx.**.
+[![Planificación de un artículo con el tipo de cobertura **MinMax** y el cumplimiento de la **Primera emisión**](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png)
+En la fecha en la que se ejecute la planificación maestra, si el inventario disponible ya se encuentra bajo límite de existencias de seguridad, **Fecha actual** y **Fecha actual + tiempo de compras** el reabastecimiento activará inmediatamente. La **Primera emisión** esperará hasta que haya otra transacción de emisión, como un pedido de ventas y requerimiento de LM, para el artículo y, a continuación activará el reabastecimiento en la fecha de esta transacción. En la fecha en la que se ejecute la planificación maestra, si el inventario disponible no se encuentra bajo el límite de existencias de seguridad, **Fecha actual** y **Primera emisión** proporcionarán exactamente el mismo resultado, tal y como se muestra en la ilustración siguiente. 
 
-[![NotUnderLimit](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png) En la fecha en la que se ejecute la planificación maestra, si el inventario disponible no se encuentra bajo el límite de existencias de seguridad, **Fecha actual + tiempo de compras** proporcionarán el siguiente resultado, ya que el cumplimiento se pospone hasta el final del plazo de compra.
-![Planificación de un artículo con el tipo de cobertura **Requerimiento** y el cumplimiento de la **Primera emisión**](./media/ReqTodayLT.png)
+[![NotUnderLimit.](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png)
+En la fecha en la que se ejecute la planificación maestra, si el inventario disponible no se encuentra bajo el límite de existencias de seguridad, **Fecha actual + tiempo de compras** proporcionarán el siguiente resultado, ya que el cumplimiento se pospone hasta el final del plazo de compra.
+![Planificación de un artículo con el tipo de cobertura **Requerimiento** y el cumplimiento de la **Primera emisión**.](./media/ReqTodayLT.png)
 ### <a name="coverage-time-fence"></a>Límite de tiempo de cobertura
 La cantidad mínima especificada se alcanza dentro del período de tiempo que se especifique en el campo **Tiempo límite de cobertura**. Esta opción es útil cuando la planificación maestra no permite que el inventario disponible se use para pedidos reales, como ventas o transferencias, en un intento por mantener el nivel de seguridad. Sin embargo, en una versión futura, este modo de reabastecimiento ya no será necesario y esta opción se dejará de usar.
 ## <a name="plan-safety-stock-replenishment-for-first-expired-first-out-fefo-items"></a>Planificación del reabastecimiento de existencias de seguridad para artículos, primero en caducar primero en salir (FEFO)
 En cualquier momento, la recepción de inventario con la última fecha de caducidad se usará para que las existencias de seguridad permitan que la demanda real, como las líneas de ventas o líneas de LM, se cumpla en el orden FEFO (primero en caducar, primero en salir).
 Para mostrar cómo funciona esto, considere el escenario siguiente.
-[![FEFOScenario](./media/FEFOScenario.png)](./media/FEFOScenario.png) Cuando se ejecuta la planificación, cubrirá el primer pedido de ventas del inventario disponible existente y un pedido de compra adicional para la cantidad restante.
-[![FEFO1](./media/FEFO1.png)](./media/FEFO1.png) Se crea un pedido planificado para asegurarse de que el inventario disponible vuelve de nuevo al límite de seguridad.
-[![FEFO2](./media/FEFO2.png)](./media/FEFO2.png) Cuando se planifica el segundo pedido de ventas, el pedido planificado creado previamente para cubrir las existencias de seguridad se utiliza para cubrir esta cantidad. Por lo tanto, las existencias de seguridad están en constantemente movimento.
-[![FEFO3](./media/FEFO3.png)](./media/FEFO3.png) Finalmente, se crea otro pedido planificado que cubra las existencias de seguridad.
-[![FEFO4](./media/FEFO4.png)](./media/FEFO4.png) Todos los lotes se expiran según corresponda y se crean los pedidos planificados para reabastecer las existencias de seguridad después de que hayan caducado.
+[![FEFOScenario.](./media/FEFOScenario.png)](./media/FEFOScenario.png)
+Cuando se ejecuta la planificación, cubrirá el primer pedido de ventas del inventario disponible existente y un pedido de compra adicional para la cantidad restante.
+[![FEFO1.](./media/FEFO1.png)](./media/FEFO1.png)
+Se crea un pedido planificado para asegurarse de que el inventario disponible vuelve de nuevo al límite de seguridad.
+[![FEFO2.](./media/FEFO2.png)](./media/FEFO2.png)
+Cuando se planifica el segundo pedido de ventas, el pedido planificado creado previamente para cubrir las existencias de seguridad se utiliza para cubrir esta cantidad. Por lo tanto, las existencias de seguridad están en constantemente movimento.
+[![FEFO3.](./media/FEFO3.png)](./media/FEFO3.png)
+Finalmente, se crea otro pedido planificado que cubra las existencias de seguridad.
+[![FEFO4.](./media/FEFO4.png)](./media/FEFO4.png)
+Todos los lotes se expiran según corresponda y se crean los pedidos planificados para reabastecer las existencias de seguridad después de que hayan caducado.
 
 ## <a name="how-master-planning-handles-the-safety-stock-constraint"></a>Cómo la planificación maestra gestiona la restricción de existencias de seguridad
 

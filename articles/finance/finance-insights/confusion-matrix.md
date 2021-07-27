@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 32561935958268f35acc24f1cfb823546636c1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193549"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349067"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Resultados de modelos de aprendizaje automático (versión preliminar)
 
@@ -34,7 +34,7 @@ Una vez que se entrena un problema de ML supervisado en un conjunto de datos his
 
 Por ejemplo, su objetivo es predecir si una mascota es un perro o un gato, basándose en algunos atributos físicos y de comportamiento. Si tiene un conjunto de datos de prueba que contiene 30 perros y 20 gatos, la matriz de confusión puede parecerse a la siguiente ilustración.
 
-![Ejemplo de predicción de especies](media/species-prediction-matrix.png)
+![Ejemplo de predicción de especies.](media/species-prediction-matrix.png)
 
 Los números de las celdas verdes representan predicciones correctas. Como puede ver, el modelo predijo correctamente un porcentaje más alto de gatos reales. La precisión general del modelo es fácil de calcular. En este caso, es 42 ÷ 50, o sea 0,84.
 
@@ -44,7 +44,7 @@ La mayoría de las discusiones sobre la matriz de confusión se centran en clasi
 
 A continuación, consideraremos un problema de clasificación para un escenario financiero que tiene tres estados. El modelo predice si la factura de un cliente se pagará a tiempo, tarde o muy tarde. Por ejemplo, de 100 facturas de prueba, 50 se pagan a tiempo, 35 se pagan con retraso y 15 se pagan con mucho retraso. En este caso, un modelo puede producir una matriz de confusión similar a la siguiente ilustración.
 
-![Modelo 1](media/payment-prediction-matrix.png)]
+![Modelo 1.](media/payment-prediction-matrix.png)]
 
 Una matriz de confusión proporciona mucha más información que una simple métrica de precisión. Sin embargo, pese a ello es relativamente fácil de entender. Una matriz de confusión le dice si tiene un conjunto de datos equilibrado donde las clases de salida tienen recuentos similares. Para el escenario de clases múltiples, le indica lo desacertada que podría ser una predicción cuando las clases de salida son ordinales, como en el ejemplo anterior sobre pagos de clientes.
 
@@ -55,7 +55,7 @@ Debido a que la precisión es una métrica fácil de entender, es un buen punto 
 
 Sin embargo, para una comprensión más profunda, deben tenerse en cuenta varios desafíos asociados con la precisión. La utilidad de la métrica depende del contexto del problema. Una pregunta que surge a menudo en relación con el rendimiento del modelo es: "¿Cómo de bueno es el modelo?" Sin embargo, la respuesta a esta pregunta no es necesariamente sencilla. Considere la siguiente matriz de confusión (modelo 2).
 
-![Ejemplo de predicción de pago con una muestra más grande](media/payment-prediction-matrix-2.png)
+![Ejemplo de predicción de pago con una muestra más grande.](media/payment-prediction-matrix-2.png)
 
 Un cálculo rápido muestra que la precisión de este modelo es (70 + 10 + 3) ÷ 100, o sea 0,83. En la superficie, este resultado parece mejor que el resultado del modelo multiclase anterior (modelo 1), que tiene una precisión de 0,73. ¿Pero es mejor?
 
@@ -87,7 +87,7 @@ La consideración final en este tema es una medida más avanzada del rendimiento
 
 Antes de poder definir la precisión F1, se deben introducir dos métricas adicionales: precisión y recuperación. La precisión indica cuántas del número total de predicciones que se especifican como positivas se asignaron correctamente. Esta métrica también se conoce como valor predictivo positivo. Recuperación es el número total de casos positivos reales que se predijeron correctamente. Esta métrica también se conoce como sensibilidad.
 
-[![Resultados verdaderos frente a resultados falsos](./media/tn-fn.png)](./media/tn-fn.png)
+[![Resultados verdaderos frente a resultados falsos.](./media/tn-fn.png)](./media/tn-fn.png)
 
 En la matriz de confusión de la ilustración anterior, estas métricas se calculan de la siguiente manera:
 
@@ -100,7 +100,7 @@ La medida F1 combina precisión y recuperación. El resultado es la media armón
 
 Veamos un ejemplo concreto. Anteriormente en este tema, hubo un ejemplo de un modelo que predijo si un animal era un perro o un gato. Aquí se repite la ilustración.
 
-[![Ejemplo de predicción de especies (repetido)](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Ejemplo de predicción de especies (repetido).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Estos son los resultados si se utiliza "Perro" como respuesta positiva.
 
@@ -114,9 +114,9 @@ Aunque la precisión de F1 no es tan fácil de entender, agrega matices al núme
 
 La sección [Precisión del modelo](#model-accuracy) de este tema comparó las siguientes dos matrices de confusión. Aunque el primer modelo tenía una precisión menor, se consideró un modelo más útil porque mostró más mejoras que la suposición predeterminada de un pago puntual.
 
-![Ejemplo de predicción de pago frente a datos reales](media/payment-prediction-matrix.png)
+![Ejemplo de predicción de pago frente a datos reales.](media/payment-prediction-matrix.png)
 
-![Ejemplo de predicción de pago con una muestra más grande (repetido)](media/payment-prediction-matrix-2.png)
+![Ejemplo de predicción de pago con una muestra más grande (repetido).](media/payment-prediction-matrix-2.png)
 
 Veamos cómo se comparan estos dos modelos cuando se usa la puntuación F1. La puntuación F1 tiene en cuenta la precisión y la recuperación de cada estado, y el cálculo macro F1 luego promedia la puntuación F1 en todos los estados para determinar una puntuación F1 general. Hay otras variantes de F1, pero es de mayor interés considerar la versión macro, dada la misma consideración que se le da a los tres estados.
 

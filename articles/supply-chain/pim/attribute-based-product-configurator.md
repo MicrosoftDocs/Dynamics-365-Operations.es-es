@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c42a11055e98da59e0428a156ca127529589abab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1538b806a60a9a9950f54c29bd19447c66ac9ec2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812939"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359110"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Precios de venta basados en atributos para la configuración de productos basada en restricciones
 
@@ -33,7 +33,7 @@ Para configurar su moneda predeterminada:
 1. Abra la pestaña **Modelos de configuración de productos basada en restricciones**.
 1. Abra la lista desplegable **Moneda predeterminada** y seleccione su moneda.
 
-    ![Establecer la moneda predeterminada para la configuración del producto basada en restricciones](media/prod-config-currency.png "Establecer la moneda predeterminada para la configuración del producto basada en restricciones")
+    ![Establecer la moneda predeterminada para la configuración del producto basada en restricciones.](media/prod-config-currency.png "Establecer la moneda predeterminada para la configuración del producto basada en restricciones")
 
 1. Si desea adjuntar un archivo de Excel con un desglose de precios para todas las líneas de pedido o presupuesto, en la sección **Modelo de precio**, establezca **Adjuntar** en *Sí*.
 
@@ -60,7 +60,7 @@ El siguiente ejemplo muestra un precio base de un número estático de 899,95 EU
 - Para el acabado del gabinete de palisandro, agregue 119,95 EUR.
 - Añada 12,95 EUR por cada unidad de altura de altavoz.
 
-![Modelo de precios de ejemplo](media/prod-config-rules-example.png "Modelo de precios de ejemplo")
+![Modelo de precios de ejemplo.](media/prod-config-rules-example.png "Modelo de precios de ejemplo")
 
 ## <a name="add-support-for-multiple-currencies"></a>Agregar soporte para múltiples monedas
 
@@ -81,7 +81,7 @@ Para agregar precios explícitos en una moneda adicional:
 
 En el siguiente ejemplo, _EUR_ es la moneda predeterminada y _Dólar estadounidense_ se ha añadido como moneda adicional.
 
-![Ejemplo de un modelo con múltiples monedas](media/prod-config-rules-currency-example.png "Ejemplo de un modelo con múltiples monedas")
+![Ejemplo de un modelo con múltiples monedas.](media/prod-config-rules-currency-example.png "Ejemplo de un modelo con múltiples monedas")
 
 > [!NOTE]
 > No puede agregar reglas de expresión que sean únicas para una moneda no predeterminada. Para crear reglas de expresión que sean relevantes solo para una moneda que no sea la moneda predeterminada, establezca la expresión de precio para la moneda predeterminada en cero. Luego, establezca la expresión adecuada para la moneda no predeterminada.
@@ -93,11 +93,11 @@ Para probar cómo funcionan los precios de venta en una sesión de configuració
 - Utilice los ajustes de configuración que se ofrecen aquí para seleccionar opciones de producto y luego ver cómo afectan el valor mostrado para **Precio y fecha de envío**.
 - Seleccione **Ver desglose de precios** para descargar un documento de Excel que muestra todos los detalles sobre cómo se calculó el precio.
 
-![Pruebe su modelo de producto](media/prod-config-test.png "Pruebe su modelo de producto")
+![Pruebe su modelo de producto.](media/prod-config-test.png "Pruebe su modelo de producto")
 
 La hoja de cálculo descargada muestra tanto el valor absoluto como la contribución como porcentaje para cada elemento de precio activo. Si ha configurado la opción de modelo de precio **Adjuntar** en la página **Parámetros de gestión de la información del producto**, esta hoja de Excel se adjunta a la línea de pedido o presupuesto.
 
-![Hoja de cálculo de Excel que muestra el desglose de precios](media/prod-config-excel-example.png "Hoja de cálculo de Excel que muestra el desglose de precios")
+![Hoja de cálculo de Excel que muestra el desglose de precios.](media/prod-config-excel-example.png "Hoja de cálculo de Excel que muestra el desglose de precios")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Configurar criterios de selección para modelos de precios
 
@@ -116,7 +116,7 @@ Para configurar criterios de selección para modelos de precios:
     - **Válida desde** - Especifique el primer día en que se aplicará la consulta.
     - **Caduca por** - Especifique la última fecha en la que se aplicará la consulta.
 
-    ![Criterios de modelo de precio](media/prod-config-price-model-criteria.png "Criterios de modelo de precio")
+    ![Criterios de modelo de precio.](media/prod-config-price-model-criteria.png "Criterios de modelo de precio")
 
 1. Seleccione la fila de la consulta que desea definir y luego seleccione **Editar** en el **Panel de acciones**. El cuadro de diálogo del diseñador de consultas se abre. Funciona como la mayoría de los diseñadores de consultas en Supply Chain Management. Úselo para definir las condiciones bajo las cuales se debe aplicar el modelo de precios para la fila que seleccionó.
 
@@ -137,7 +137,7 @@ El paso final es especificar precios de venta basados en atributos para la versi
 1. Seleccione el modelo de configuración de productos de destino.
 1. En el panel Acción, abra la pestaña **Modelo** y, desde el grupo **Detalles de modelo de producto**, seleccione **Versiones**.
 1. Se abrirá la página **Versiones**. Asegúrese de que **Método de fijación de precios** se establece en **Basado en atributos**.
-    ![Establecer el método de fijación de precios en Basado en atributos](media/prod-config-versions.png "Establecer el método de fijación de precios en Basado en atributos")
+    ![Establecer el método de fijación de precios en Basado en atributos.](media/prod-config-versions.png "Establecer el método de fijación de precios en Basado en atributos")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

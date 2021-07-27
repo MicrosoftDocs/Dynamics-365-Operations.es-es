@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a03c8f340e8ebb2fb0440518c154ed3bdd0197f6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 7f735726a7e126174bc9c6a4002e421df3f21298
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053260"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360625"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evitar truncamiento del texto en la jerarquía de puestos y exportar a Visio
 
@@ -29,7 +29,7 @@ ms.locfileid: "6053260"
 
 Cuando los clientes ven la jerarquía de puestos en Microsoft Dynamics 365 Human Resources, los nombres de personas y puestos se truncan. Por lo tanto, puede resultar difícil tomar una captura de pantalla, o imprimir y distribuir la jerarquía.
 
-![Jerarquía de puestos](media/position-h.png)
+![Jerarquía de puestos.](media/position-h.png)
 
 **Causa**
 
@@ -47,48 +47,48 @@ Siga estos pasos para exportar a Visio.
 
 2. En el panel de acciones, seleccione el botón **Abrir en Microsoft Office** y, a continuación, en **Exportar a Excel**, seleccione **Puestos**. Como alternativa, presione Ctrl+T.
 
-    ![Exportación de la página de lista de puestos a Excel](media/org-admin.png)
+    ![Exportación de la página de lista de puestos a Excel.](media/org-admin.png)
 
 3. Guarde el archivo de Excel que se exporta.
 
-    ![Exportación al cuadro de diálogo de Excel](media/export-excel.png)
+    ![Exportación al cuadro de diálogo de Excel.](media/export-excel.png)
 
 4. En Visio, seleccione **Visio - Crear nuevo**, y seleccione la categoría de plantilla **Negocio**.
 
-    ![Nuevo gráfico](media/new.png)
+    ![Nuevo gráfico.](media/new.png)
 
 5. Seleccione **Asistente para organigramas**, y después seleccione **Crear**.
 
-    ![Cuadro de diálogo del Asistente para organigramas](media/orgchart-wizard.png)
+    ![Cuadro de diálogo del Asistente para organigramas.](media/orgchart-wizard.png)
 
 6. Seleccione **Información que ya está guardada en un archivo o una base de datos**, y después seleccione **Siguiente**.
 
-    ![Asistente para Organigrama 1](media/orgchart-wizard7.png)
+    ![Asistente para Organigrama 1.](media/orgchart-wizard7.png)
 
 7. Seleccione **Un archivo de texto, Org Plus (\*.txt), o Excel** y, a continuación seleccione **Siguiente**.
 
-    ![Asistente para Organigrama 2](media/orgchart-wizard3.png)
+    ![Asistente para Organigrama 2.](media/orgchart-wizard3.png)
 
 8. Explore para seleccionar el archivo de Excel exportado que contiene la jerarquía de puestos, y después selecciona **Siguiente**.
 
-    ![Asistente para Organigrama 3](media/orgchart-wizard2.png)
+    ![Asistente para Organigrama 3.](media/orgchart-wizard2.png)
 
 9. Establezca el campo **Nombre** en **Puesto**, establezca el campo **Informa a** en **Notifica al puesto** y continuación seleccione **Siguiente**.
 
-    ![Asistente para Organigrama 4](media/orgchart-wizard1.png)
+    ![Asistente para Organigrama 4.](media/orgchart-wizard1.png)
 
 10. Seleccione los campos que se deben mostrar en cada nodo y, a continuación seleccione **Siguiente**.
 
-    ![Asistente para Organigrama 5](media/orgchart-wizard5.png)
+    ![Asistente para Organigrama 5.](media/orgchart-wizard5.png)
 
 11. Agregue la columna **Puesto** a la lista **Campos de los datos de formas** y, a continuación, seleccione **Siguiente**.
 
-    ![Asistente para Organigrama 6](media/orgchart-wizard6.png)
+    ![Asistente para Organigrama 6.](media/orgchart-wizard6.png)
 
 12. Las imágenes no se encuentran disponibles. Por tanto, en la siguiente página, seleccione **Siguiente**.
 13. Seleccione **Deseo que el asistente divida automáticamente el organigrama entre las distintas páginas**.
 
-    ![Asistente para Organigrama 7](media/orgchart-wizard4.png)
+    ![Asistente para Organigrama 7.](media/orgchart-wizard4.png)
 
 14. Seleccione **Fin**.
 
@@ -98,7 +98,7 @@ El gráfico que se genera en Visio muestra a cada administrador en una hoja de c
 
 Según los campos que incluya en el gráfico, cada nodo muestra la información adecuada cuando se genera el archivo de Visio.
 
-![Diagrama de jerarquía](media/hierarchy.png)
+![Diagrama de jerarquía.](media/hierarchy.png)
 
 **Opción adicional**
 

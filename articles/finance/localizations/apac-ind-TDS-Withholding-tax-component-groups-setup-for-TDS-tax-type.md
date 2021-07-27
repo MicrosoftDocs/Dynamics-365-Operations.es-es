@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 23124d36389b08726defbedbd1bab9a7eb43c197
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9ececb030432028512ff2d75a772761df4d416a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023579"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356618"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>Configurar grupos de componentes de retención de impuestos para el tipo de impuestos de TDS
 
@@ -31,7 +31,7 @@ Este tema explica cómo configurar grupos de componentes de retención de impues
 
 1. Vaya a **Impuesto \> Configuración \> Retención de impuestos \> Grupos de componentes de retención de impuestos**.
 
-    [![Página de grupos de componentes de retenciones de impuestos](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
+    [![Página de grupos de componentes de retenciones de impuestos.](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
 
 2. En el campo **Tipo de impuesto**, seleccione **TDS** para configurar grupos de componentes de retención de impuestos para el tipo de impuesto TDS.
 3. En el panel de acciones, haga clic en **Nuevo** para crear una línea.

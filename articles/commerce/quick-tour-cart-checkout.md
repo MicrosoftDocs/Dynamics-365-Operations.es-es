@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 81cbabb2499fc0fdf3c043c9b15e4429b036e3c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027948"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352045"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Visión general de las páginas del carro y de la finalización de la compra
 
@@ -37,7 +38,7 @@ La página del carro sirve como el carro de la compara e incluye todos los artí
 
 En la siguiente ilustración se muestra un ejemplo de una página de carro que se creó mediante la biblioteca de módulos y el tema de “Fabrikam”.
 
-![Ejemplo de una página de carro](./media/cart2.PNG)
+![Ejemplo de una página de carro.](./media/cart2.PNG)
 
 El cuerpo principal de la página del carro muestra todos los artículos que el cliente ha agregado al carro. Se muestran todos los descuentos aplicables. Estos descuentos incluyen descuentos complejos. Entre los ejemplos se incluyen “Comprar 3 artículos y obtener el 10% de descuento“ o “Comprar una botella y una mochila para obtener el 10% de descuento”. El módulo de resumen de pedidos muestra el importe que se debe después de que se hayan aplicado los descuentos, el envío, los impuestos, etc. También un módulo de código de promoción que permite al cliente aplicar o quitar códigos promocionales.
 
@@ -53,7 +54,7 @@ La página de finalización de compra es donde los clientes especifican la infor
 
 En la siguiente ilustración se muestra un ejemplo de una página de finalización de pago que se creó con la biblioteca de módulos.
 
-![Ejemplo de una página de finalización de compra](./media/Checkout.PNG)
+![Ejemplo de una página de finalización de compra.](./media/Checkout.PNG)
 
 El cuerpo principal de página de finalización de compra es donde se recoge toda la información del pedido. Esta información incluye la dirección de envío, las opciones de entrega y la información de pago. La finalización de pago tiene un flujo detallado porque la información se debe especificar en un orden determinado de ser procesada. Por ejemplo, la dirección de envío se debe especificar antes de que se puedan calcular los costes de envío y se pueda autorizar el pago.
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937071"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349683"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Cambiar el orden de clasificación de entidades de comercialización
 
@@ -51,9 +51,9 @@ Antes de poder completar este procedimiento, los datos de prueba se deben instal
 
 El orden de visualización para la jerarquía de navegación de canal se reflejará en la sede para la jerarquía de productos comerciales y productos liberados por categoría.
 
-![Jerarquía de productos ordenada de forma personalizada con valores negativos](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Jerarquía de productos ordenada de forma personalizada con valores negativos.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Productos liberados por categoría ordenados de forma personalizada en función de la jerarquía de productos](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Productos liberados por categoría ordenados de forma personalizada en función de la jerarquía de productos.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Configurar el orden de visualización para las categorías de la jerarquía de navegación de canales
 
@@ -77,11 +77,11 @@ Antes de poder completar este procedimiento, los datos de prueba se deben instal
 
 El orden de visualización para la jerarquía de navegación de canales se refleja en la sede, el catálogo y los canales.
 
-![Jerarquía de navegación de canales ordenada de forma personalizada](./media/ChannelNavCustomSorted.png)
+![Jerarquía de navegación de canales ordenada de forma personalizada.](./media/ChannelNavCustomSorted.png)
 
-![Jerarquía de navegación de catálogos ordenada de forma personalizada en función de la jerarquía de navegación de canales](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Jerarquía de navegación de catálogos ordenada de forma personalizada en función de la jerarquía de navegación de canales.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![PDV con categorías ordenadas de forma personalizada](./media/POSChannelCategoriesCustomSorted.png)
+![PDV con categorías ordenadas de forma personalizada.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > De forma predeterminada, la característica de orden de clasificación personalizado está desactivada. Para obtener información sobre cómo activar esta característica y otras, consulte [Administración de características](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
