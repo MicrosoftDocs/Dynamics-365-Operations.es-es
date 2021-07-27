@@ -2,7 +2,7 @@
 title: Preguntas frecuentes sobre acciones de personal
 description: Este artículo contiene respuestas a preguntas que puede que tenga si su organización usa acciones de personal. Las acciones de personal son pasos adicionales que debe completar cuando realice ciertas tareas relacionadas con el personal.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054557"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333028"
 ---
 # <a name="personnel-actions-faq"></a>Preguntas frecuentes sobre acciones de personal
 
@@ -51,7 +51,7 @@ Las acciones de personal pueden tener los siguientes estados:
 - **Denegada**: el aprobador ha denegado la solicitud de acción.
 
 ## <a name="can-i-delete-a-personnel-action"></a>¿Se puede eliminar una acción de personal?
-Sí, puede eliminar las acciones de personal que tengan el estado de **Borrador**, **Error**, **Fallida** o **Cancelada**.
+Sí, puede eliminar las acciones de personal que tengan el estado de **Borrador**, **Error**, **Fallida** o **Cancelada**. Puede eliminar acciones de personal que tengan un estado de **Terminado** solo si ha configurado la opción **Permitir eliminar las acciones de los trabajadores completadas** como **Sí** en la página **Parámetros compartidos de recursos humanos**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>¿Cuál es la forma más rápida de comprobar el estado de una solicitud de acción de personal?
 Abra cualquiera de las páginas de lista de la acción de personal y seleccione una acción de personal.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222621"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309674"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configuración de Finance insights para la versión preliminar pública (versión preliminar): versión 10.0.20 y posteriores
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222621"
 Finance Insights combina la funcionalidad de Microsoft Dynamics 365 Finance con Dataverse, Azure y AI Builder para proporcionar potentes herramientas de pronóstico para su organización. Este tema explica cómo configurar Dynamics 365 Finance versión 10.0.20 para que su sistema pueda utilizar las capacidades que están disponibles en Finance Insights para la versión preliminar pública.
 
 > [!NOTE]
-> Los pasos de configuración que se describen en este tema se aplican solo a la versión 10.0.20 y posteriores de Finance. Para configurar Finance Insights en la versión 10.0.19 y anteriores, consulte [Configuración de Finance Insights: versiones hasta la 10.0.18](configure-for-fin-insites.md).
+> Los pasos de configuración que se describen en este tema se aplican solo a la versión 10.0.20 y posteriores de Finance. Para configurar Finance Insights en la versión 10.0.19 y anteriores, consulte [Configuración de Finance Insights: versiones hasta la 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Implementar Finance
 
@@ -748,6 +748,8 @@ Siga estos pasos para instalar el complemento Finance Insights.
 2. En la sección **Complementos de entorno**, seleccione **Instalar un nuevo complemento**.
 3. Seleccione el complemento **Finance Insights**.
 4. Acepte los términos y luego seleccione **Instalar**.
+
+El complemento puede tardar varios minutos en instalarse.
 
 ## <a name="feedback-and-support"></a>Comentarios y soporte técnico
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026214"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309775"
 ---
 # <a name="set-up-postdated-checks"></a>Configuración de cheques con pago diferido
 
@@ -58,6 +58,7 @@ El rol de este procedimiento es Tesorero. Este procedimiento usa la empresa de d
 > 
 > Al configurar la **Forma de pago** (**Proveedores > Configuración de pagos > Métodos de pago**), no rellene **Cuenta puente**. En este caso, la cuenta de contrapartida se completa con la cuenta bancaria, que se configura en la **Forma de pago**.
 >  
-> Cuando la función está habilitada y la fecha de la sesión es menor que la fecha de vencimiento, se muestra el siguiente mensaje de error al registrar un diario de pagos, "La fecha de vencimiento debe ser menor o igual a la fecha de la sesión si el tipo de cuenta de contrapartida es Banco". Si la función no está habilitada, puede registrar un diario de pagos con un cheque con pago diferido cuando la fecha de la sesión es menor que la fecha de vencimiento.    
+> Cuando la función está habilitada y la fecha de la sesión es menor que la fecha de vencimiento, se muestra el siguiente mensaje de error al registrar un diario de pagos, "La fecha de vencimiento debe ser menor o igual a la fecha de la sesión si el tipo de cuenta de contrapartida es Banco". Si la función no está habilitada, puede registrar un diario de pagos con un cheque con pago diferido cuando la fecha de la sesión es menor que la fecha de vencimiento.
+> Esta característica está disponible en versión 10.0.21 o posterior.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
