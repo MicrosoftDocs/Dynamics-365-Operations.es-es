@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 27e52a94208129aee0e33074e7fc3778de53733a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193291"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355838"
 ---
 # <a name="ratings-and-reviews-modules"></a>Módulos de clasificaciones y opiniones
 
@@ -42,20 +42,20 @@ Tres módulos muestran el resumen de clasificaciones y opiniones en PDP:
  
 La ilustración siguiente muestra el aspecto de los módulos de clasificaciones y opiniones en un PDP.
 
-![Módulos de clasificaciones y opiniones en un PDP](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![Módulos de clasificaciones y opiniones en un PDP.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > Para obtener información acerca de cómo optimizar diseños y plantillas PDP de modo que pueda compartir las configuraciones para los módulos de clasificaciones y opiniones entre varios PDP en su sitio de comercio electrónico, consulte [Visión general de plantillas y diseños](templates-layouts-overview.md).
 
 La siguiente ilustración muestra cómo el cuadro de diálogo **Agregar módulo** presenta módulos de calificaciones y opiniones en Dynamics 365 Commerce.
-![Cuadro de diálogo Agregar módulo](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Cuadro de diálogo Agregar módulo.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Módulo Escribir opinión
 
 El módulo Escribir opinión incluye un botón **Escribir una opinión** que permite a los usuarios iniciar sesión, asigne una clasificación y escribir una opinión de un producto. Este módulo también permite a los usuarios editar una clasificación u opinión que han enviado anteriormente. Este módulo aparece normalmente encima de los módulos de lista de opiniones de productos e histograma de clasificaciones en un PDP.
 La ilustración siguiente muestra el cuadro de diálogo **Escribir una opinión** que aparece cuando un cliente selecciona **Escribir una opinión**. El cliente puede usar este cuadro de diálogo para enviar una clasificación y una revisión.
 
-![Cuadro de diálogo Escribir una opinión](media/rnr-eCommerce-write-review-module.png)
+![Cuadro de diálogo Escribir una opinión.](media/rnr-eCommerce-write-review-module.png)
 
 En la tabla siguiente se muestra la propiedad del módulo de escribir una opinión que tiene que configurarse en la herramienta de creación.
 
@@ -67,7 +67,7 @@ En la tabla siguiente se muestra la propiedad del módulo de escribir una opini�
 
 El módulo del histograma de clasificaciones muestra un histograma de clasificaciones. Este módulo normalmente aparece entre el módulo de escribir opinión y el módulo de lista de opiniones de productos en un PDP.
 El módulo del histograma de calificaciones no requiere ninguna configuración. Solo tiene que agregar el módulo en la plantilla PDP. En las siguientes ilustraciones se muestran el aspecto de una plantilla PDP en Dynamics 365 Commerce cuando se configuran los módulos de clasificaciones y opiniones para su visualización en PDP.
-![Plantilla PDP cuando se configuran las clasificaciones y las opiniones para su visualización en PDP](media/rnr-eCommerce-pdp-reviews-modules.png)
+![Plantilla PDP cuando se configuran las clasificaciones y las opiniones para su visualización en PDP.](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Módulo de lista de opiniones de productos
 
@@ -82,11 +82,11 @@ En la tabla siguiente se muestra las propiedades del módulo de lista de opinion
 
 El módulo de lista de opiniones de productos incluye una franja donde puede agregar un módulo de histograma de clasificaciones. La ilustración siguiente muestra cómo puede agregar un módulo de histograma de clasificaciones en el módulo de la lista de opiniones de productos en Dynamics 365 Commerce.
 
-![Adición de un módulo de histograma de clasificaciones en un módulo de lista de opiniones de productos](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Adición de un módulo de histograma de clasificaciones en un módulo de lista de opiniones de productos.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la biblioteca de módulos](starter-kit-overview.md)
+[Descripción general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de contenedor](add-container-module.md)
 

@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792204"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352021"
 ---
 # <a name="home-page-overview"></a>Información general de la página principal
 
@@ -31,7 +32,7 @@ La página principal es la página predeterminada a la que van los compradores c
 
 En la siguiente ilustración se muestra un ejemplo de una página principal que se creó mediante la biblioteca de módulos y el tema de “Fabrikam”.
 
-![Ejemplo de una página principal](./media/Homepage2.PNG)
+![Ejemplo de una página principal.](./media/Homepage2.PNG)
 
 La parte superior de la página principal tiene un encabezado que muestra todas las categorías de producto y otras páginas que el minorista desea que los clientes exploren. La parte inferior de la página principal tiene un pie de página que contiene vínculos rápidos a diversos temas que pueden interesar a clientes.
 
@@ -41,13 +42,13 @@ La sección principal de la página principal puede resaltar productos, categor�
 
     La ilustración siguiente muestra un ejemplo de una página principal donde el primer artículo de la sección principal es un diseño de elemento principal de un módulo de bloque de contenido que se denomina "Nueva llegada".
 
-    ![Ejemplo de un módulo de elemento principal](./media/Hero.PNG)
+    ![Ejemplo de un módulo de elemento principal.](./media/Hero.PNG)
 
 - **Característica**: un diseño de característica de un módulo de bloque de contenido se usa para promociones o productos de mercado mediante una combinación de imágenes y texto. Los diseños de características se pueden usar de manera independiente o se pueden hospedar en un módulo de carrusel.
 
     La ilustración siguiente muestra un ejemplo de diseño de características de un módulo de bloque de contenido en una página principal.
 
-    ![Ejemplos de módulos de características](./media/Feature.PNG)
+    ![Ejemplos de módulos de características.](./media/Feature.PNG)
 
 - **Icono**: un diseño de icono de un módulo de bloque de contenido se usa para mostrar varios productos o categoría de productos mediante una combinación de imágenes y texto en un diseño de varias columnas. En la ilustración de una página principal que aparece anteriormente en este tema, se usa un diseño de icono para la representación de tres columnas de los elementos **Tienda de mujeres**, **Tienda de hombres** y **Tienda de accesorios**.
 - **Reproductor de vídeo:** se puede usar un módulo de reproductor de vídeo para mostrar el contenido del vídeo en la página principal. La ilustración de una página principal que aparece anteriormente en este tema incluye un módulo reproductor de vídeo.
@@ -56,7 +57,7 @@ La sección principal de la página principal puede resaltar productos, categor�
 
     La ilustración siguiente muestra un ejemplo de módulos de recomendaciones de productos en una página principal.
 
-    ![Ejemplos de módulos de recomendaciones de productos](./media/Recommendations.PNG)
+    ![Ejemplos de módulos de recomendaciones de productos.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Todos los módulos que se muestran aquí se pueden utilizar en cualquier página del sitio. Sin embargo, su colocación en la página principal es importante porque esa página es donde los clientes interactúan primero con el sitio.

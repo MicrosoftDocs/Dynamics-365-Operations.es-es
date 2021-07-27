@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015862"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360409"
 ---
 # <a name="set-up-consignment"></a>Configuración de entrega
 
@@ -61,7 +61,7 @@ Un pedido de reabastecimiento de envío es un documento que se usa para solicita
 
 La dimensión del **Propietario** se utiliza para separar la información sobre qué inventario es propiedad del proveedor y cuál es propiedad de la entidad jurídica receptora. Las líneas de pedido de reabastecimiento del envío tienen un estado de **Pedido abierto** siempre que la cantidad completa de las líneas no se haya recibido ni cancelado. Cuando la cantidad completa se ha recibido o cancelado, el estado se cambia a **Completado**. El inventario físico disponible relacionado con un pedido de reabastecimiento de envío se puede registrar mediante un Proceso de registro así como mediante un Proceso de actualización de recepción de producto. El registro se puede realizar como parte del proceso de recepción de artículo o actualizando manualmente las líneas de pedido. Cuando se usa el Proceso de actualización de la recepción de producto, se realiza un registro en el diario de recepción de producto, que puede usarse para confirmar la recepción de mercancías a los proveedores.
 
-[![Pedidos de reabastecimiento de entrega](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Pedidos de reabastecimiento de entrega.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Diario de cambio de propiedad de inventario
 
@@ -74,7 +74,7 @@ Las únicas transacciones de inventario que se crean son aquellas relacionadas c
 
 No es posible actualizar la cantidad de líneas de pedido de compra del envío después de que se haya creado el pedido.
 
-[![Diario de cambio de propiedad de inventario](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![Diario de cambio de propiedad de inventario.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboración de proveedor en procesos de envío
 
@@ -90,13 +90,13 @@ Para obtener más información acerca de la configuración de los proveedores pa
 
 Para registrar el inventario entrante físico de envío, es necesario definir un propietario de proveedor. Esto se hace en la página **Propietario de inventario**. Al seleccionar **Cuenta de proveedor** se generan valores predeterminados para los campos **Nombre** y **Propietario**. El valor del campo **Propietario** estará visible para el proveedor, por lo que es posible que desee cambiarlo si los nombres de cuenta de sus proveedores no son fáciles de reconocer por parte de las entidades externas. Es posible editar el campo **Propietario**, pero solo hasta el punto al guardar el registro **Propietario de inventario**. El campo **Nombre** se rellena con el nombre de la parte a la que se asocia la cuenta del proveedor y no se puede cambiar.
 
-[![Propietarios de inventario](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![Propietarios de inventario.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Grupo de dimensiones de seguimiento
 
 Los artículos que se van a usar en procesos de envío se deben asociar al **Grupo de dimensiones de seguimiento** donde la dimensión de **Propietario** está establecida en **Activa**. La dimensión de Propietario siempre tiene las opciones **Inventario físico** e **Inventario financiero** seleccionadas. El **Plan de cobertura por dimensión** nunca está seleccionado.
 
-[![Grupo de dimensiones de seguimiento](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![Grupo de dimensiones de seguimiento.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

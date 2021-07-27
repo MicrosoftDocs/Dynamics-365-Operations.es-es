@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9ced76e20a54d61fe96b5d2a5118adb0c5eb7ccf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187925"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355709"
 ---
 # <a name="budgeting-home-page"></a>Página principal de Gestión presupuestaria
 
@@ -32,7 +34,7 @@ En este tema se proporciona información general de los componentes de la funcio
 
 El ciclo de planificación de recursos para una empresa consta, normalmente, de las actividades de planificación, gestión presupuestaria y previsión.
 
-[![Componentes de la funcionalidad Gestión presupuestaria](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Componentes de la funcionalidad Gestión presupuestaria.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Los procesos tanto para la planificación estratégica a largo plazo como para la planificación presupuestaria anual se admiten a través de un documento de plan presupuestario. Los documentos del plan presupuestario están estrechamente integrados con Microsoft Excel. Los usuarios pueden configurar escenarios monetarios y cuantitativos sin límites y, también, definir una jerarquía organizativa de gestión presupuestaria para admitir métodos de gestión presupuestaria ascendentes y descendentes. Una vez establecido y aprobado un presupuesto en la aplicación, el plan presupuestario se convierte en una entrada de registro presupuestario. Las entradas de registro presupuestario proporcionan herramientas para mantener el presupuesto y para que los importes se puedan seguir localizando mediante los códigos de presupuesto. Las entradas de registro presupuestario le permiten revisar presupuestos originales, realizar transferencias y transferir importes de presupuesto del año anterior. En función del presupuesto establecido, una empresa puede habilitar el control presupuestario. El nivel de control depende de la cultura de la organización y del nivel de vencimiento de la organización. Las organizaciones que tienen un nivel de vencimiento bajo pueden dejar el presupuesto "tal cual" y ser más reactivas que proactivas si un presupuesto no cumple las expectativas. Otras organizaciones pueden habilitar las directivas de control presupuestario que impiden a los usuarios comprar si no hay fondos presupuestarios disponibles.
 
@@ -46,7 +48,7 @@ Por último, las organizaciones muy maduras pueden establecer una cultura de org
 -   [Plantillas de planificación presupuestaria para Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Herramientas de gestión presupuestaria
-[![Herramientas de gestión presupuestaria](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Herramientas de gestión presupuestaria.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Existen otras funciones de planificación y gestión presupuestaria que se integran con los presupuestos contables.
 

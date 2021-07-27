@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754097"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361421"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial a efectivo en doble escritura
 
@@ -33,7 +33,7 @@ Un objetivo importante de la mayoría de las empresas es convertir clientes pote
 
 En las interfaces de la aplicación, puede acceder a los estados de procesamiento y a la información de la factura en tiempo real. Por lo tanto, puede administrar más fácilmente funciones como el almacenamiento de productos, el manejo de inventario y el cumplimiento en Supply Chain Management, sin tener que volver a crear los presupuestos y los pedidos.
 
-![Flujo de datos de doble escritura en cliente potencial a efectivo](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Flujo de datos de doble escritura en cliente potencial a efectivo.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Para obtener información sobre la integración de clientes y contactos, consulte [Maestro de clientes integrado](customer-mapping.md). Para obtener información sobre la integración de productos, consulte [Experiencia unificada del producto](product-mapping.md).
 
@@ -48,7 +48,7 @@ Antes de poder sincronizar los presupuestos de ventas, debe actualizar la siguie
 
 En Ventas vaya a **Configuración \> Administración \> Configuración del sistema \> Sales**, y asegúrese de que se utilicen los valores siguientes:
 
-- La opción de sistema **Usar el sistema de cálculo del sistema de precios** está en **Sí**.
+- La opción del sistema **Usar el cálculo de precios del sistema** se establece en **Sí**.
 - La columna **Método de cálculo de descuentos** se establece en **Artículo de línea**.
 
 ### <a name="sites-and-warehouses"></a>Ubicaciones y almacenes

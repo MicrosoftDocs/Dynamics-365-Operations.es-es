@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95704b944f86a1cfc0654f0ebf5bc7c79bbeec9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b54b58a29dc23e19f5065363c331351f24267ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808697"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360955"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Estados de ciclo de vida de solicitud de mantenimiento
 
@@ -48,7 +48,7 @@ Los estados de ciclo de vida de solicitud de mantenimiento definen las etapas po
 
 La ilustración siguiente muestra un ejemplo de la página **Estados de ciclo de vida de solicitud de mantenimiento**.
 
-![Página de estados de ciclo de vida de solicitud de mantenimiento](media/02-setup-for-requests.png)
+![Página de estados de ciclo de vida de solicitud de mantenimiento.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Los estados de ciclo de vida de solicitud de mantenimiento, los grupos de estados de ciclo de vida y sus tipos están relacionados con (y se usan del mismo modo que) los estados de ciclo de vida de la orden de trabajo, los grupos de estados de ciclo de vida y sus tipos. 
@@ -66,9 +66,9 @@ Una vez que haya creado los estados de ciclo de vida necesarios para sus solicit
 
 5. En el FastTab **Estados de ciclo de vida**, seleccione los estados de ciclo de vida que se deben incluir en el modelo de ciclo de vida:
 
-    - Para incluir un estado de ciclo de vida en el modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida restantes** y seleccione el botón de la ![flecha derecha](media/03-setup-for-requests.png) para moverlo a la sección **Estados del ciclo de vida seleccionados** .
-    - Para incluir todos los estados de ciclo de vida disponibles en el modelo de ciclo de vida, seleccione el botón **Seleccionar todos los estados disponibles** ![Seleccionar todos los estados disponibles](media/04-setup-for-requests.png). Todos los estados de ciclo de vida se mueven a la sección **Estados de ciclo de vida seleccionados**.
-    - Para quitar un estado de ciclo de vida del modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de la ![flecha izquierda](media/05-setup-for-requests.png) para moverlo a la sección **Estados del ciclo de vida restantes**.
+    - Para incluir un estado de ciclo de vida en el modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida restantes** y seleccione el botón de la ![flecha derecha.](media/03-setup-for-requests.png) para moverlo a la sección **Estados del ciclo de vida seleccionados**.
+    - Para incluir todos los estados de ciclo de vida disponibles en el modelo de ciclo de vida, seleccione el botón **Seleccionar todos los estados disponibles** ![Seleccionar todos los estados disponibles.](media/04-setup-for-requests.png). Todos los estados de ciclo de vida se mueven a la sección **Estados de ciclo de vida seleccionados**.
+    - Para quitar un estado de ciclo de vida del modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de flecha izquierda ![flecha izquierda.](media/05-setup-for-requests.png) para moverlo a la sección **Estados del ciclo de vida restantes**.
 
 6. En el FastTab **General**, los campos de la sección **Actualizaciones** son relevantes si usa la reparación interna.
 
@@ -77,7 +77,7 @@ Una vez que haya creado los estados de ciclo de vida necesarios para sus solicit
 
 La ilustración siguiente muestra un ejemplo de la página **Modelos de ciclo de vida de solicitud de mantenimiento**.
 
-![Página de modelos de ciclo de vida de solicitud de mantenimiento](media/06-setup-for-requests.png)
+![Página de modelos de ciclo de vida de solicitud de mantenimiento.](media/06-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

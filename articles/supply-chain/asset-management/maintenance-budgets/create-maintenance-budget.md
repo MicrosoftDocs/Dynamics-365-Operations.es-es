@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b91b398c4ef864a92a5318b7e80f71a5a572844e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75deb3dcca2c5a7fd7341b30411e04715bf27c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836767"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361195"
 ---
 # <a name="create-maintenance-budgets"></a>Crear presupuestos de mantenimiento
 
@@ -50,7 +50,7 @@ Los presupuestos de mantenimiento se basan en los tipos de coste que se usan en 
     > [!NOTE]
     > Una vez que haya aprobado un presupuesto de mantenimiento, no puede volver a calcular o ajustar las líneas relacionadas en la página **Líneas de presupuesto de mantenimiento**, a menos que primero quite la aprobación. Para quitar la aprobación de un presupuesto de mantenimiento, selecciónelo en la página **Presupuestos de mantenimiento** y, a continuación, seleccione **Aprobar**. A continuación, en el cuadro **Aprobar el presupuesto**, seleccione **Aceptar**.
 
-![Presupuestos de mantenimiento](media/01-maintenance-budgets.png)
+![Presupuestos de mantenimiento.](media/01-maintenance-budgets.png)
 
 También puede crear un nuevo presupuesto de mantenimiento copiando un presupuesto existente. En la página **Presupuestos de mantenimiento**, seleccione el presupuesto que quiere copiar y, a continuación, seleccione **Copiar**. Este es enfoque es práctico si, por ejemplo, ha creado un presupuesto para un mes y desea copiarlo a otros meses.
 

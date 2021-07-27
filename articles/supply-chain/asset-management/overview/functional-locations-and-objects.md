@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e626daa89eecf838d7cda0663d00c1c2dbecb76
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa61f9ab9d38a748742733a4143e6d50b82caf4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816781"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351594"
 ---
 # <a name="functional-locations-and-assets"></a>Ubicaciones funcionales y activos
 
@@ -34,13 +34,13 @@ En este tema se describen las ubicaciones técnicas y los activos en Administrac
 
 Administración de activos está integrado de manera fluida con varios módulos con otras aplicaciones Finance and Operations. La ilustración siguiente muestra las interfaces con otros módulos.
 
-![Diagrama que muestra cómo la Administración de activos interactúa con otros módulos](media/01-overview-image.png)
+![Diagrama que muestra cómo la Administración de activos interactúa con otros módulos.](media/01-overview-image.png)
 
 Administración de activos permite administrar y realizar todas las tareas relacionadas con la gestión y el mantenimiento de muchos tipos de equipos de la empresa eficientemente. Los equipos incluyen las máquinas, los equipos de producción y los vehículos. Administración de activos también admite soluciones de numerosos sectores.
 
 La ilustración siguiente muestra una visión general de la funcionalidad principal que cubre Administración de activos.
 
-![Diagrama que muestra la funcionalidad principal en Administración de activos](media/02-overview-image.png)
+![Diagrama que muestra la funcionalidad principal en Administración de activos.](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Ubicaciones funcionales y activos
 
@@ -50,11 +50,11 @@ Los costes de los activos siempre siguen la ubicación del activo. Es decir, si 
 
 La forma en que se crea la jerarquía de ubicaciones funcionales depende de los requisitos de la empresa para mantener el equipo interno o reparar el equipo del cliente. En la ilustración siguiente se muestra un ejemplo de ubicaciones funcionales que se basan en ubicaciones geográficas.
 
-![Diagrama que muestra las ubicaciones técnicas basadas en ubicaciones geográficas](media/03-overview-image.png)
+![Diagrama que muestra las ubicaciones técnicas basadas en ubicaciones geográficas.](media/03-overview-image.png)
 
 En la ilustración siguiente se muestra un ejemplo de ubicaciones funcionales que se basan en clientes.
 
-![Diagrama que muestra las ubicaciones técnicas basadas en clientes](media/04-overview-image.png)
+![Diagrama que muestra las ubicaciones técnicas basadas en clientes.](media/04-overview-image.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

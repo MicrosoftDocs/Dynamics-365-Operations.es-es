@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92dfb05addc1c791b24f129587b842d22423eb54
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 15fbab7d0260ed714edfbbb5ef54caddb69cae3c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908765"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360014"
 ---
 # <a name="master-planning-home-page"></a>Página principal de planificación maestra
 
@@ -50,11 +50,11 @@ Los planes de programación maestra normalmente abordan el a corto plazo, que pu
 
 El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que forman el marco del módulo de planificación maestra. Haga clic en la sección [Vínculos rápidos](#quick-links) para obtener información sobre cómo utilizar el módulo.
 
-[![Mapa de aprendizaje de la planificación maestra](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
+[![Mapa de aprendizaje de la planificación maestra.](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Vínculos rápidos
 
-- [Visión general de los planes maestros](master-plans.md)  
+- [Información general de los planes maestros](master-plans.md)  
 - [Generar un plan con restricciones](./tasks/constrained-plan.md)
 - [Crear un plan de materiales para coproductos](./tasks/create-material-plan-co-products.md)
 - [Visión general de la planificación maestra y la funcionalidad multisitio](master-plan-multisite-functionality.md)

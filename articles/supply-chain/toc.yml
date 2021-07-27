@@ -244,11 +244,9 @@
                           href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Comenzar la facturación electrónica para Brasil
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Comenzar con la facturación electrónica para Egipto
+                        - name: Introducción la facturación electrónica para Egipto
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Comenzar con la facturación electrónica para Italia
-                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Comenzar con la facturación electrónica para México
+                        - name: Introducción a la facturación electrónica para México
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Configurar la facturación electrónica
                           href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
@@ -1607,6 +1605,8 @@
                   href: master-planning/planning-optimization/get-started.md
                 - name: Análisis de idoneidad de optimización de la planificación
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Parámetros no utilizados por la optimización de la planificación
+                  href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Aplicar filtros a un plan
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Planificación maestra con previsión de la demanda
@@ -1621,7 +1621,9 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Planificación de producción
                   href: master-planning/planning-optimization/production-planning.md
-                - name: Marcado de inventario con Optimización de planificación
+                - name: Programación con capacidad infinita
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Marcado de inventario con optimización de planificación
                   href: master-planning/planning-optimization/marking.md
                 - name: Planificación de empresas vinculadas
                   href: master-planning/planning-optimization/Intercompany-planning.md
@@ -1861,6 +1863,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar pasos de aprobación
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Configurar revisores de gastos
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar decisiones manuales
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar decisiones condicionales

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963248"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357423"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Crear una cuenta de almacenamiento en Azure y un almacén de claves
 
@@ -49,7 +49,7 @@ En este tema, completará dos pasos principales:
 5. Seleccione **Agregar política** para agregar una política de acceso almacenada.
 6. Seleccione los campos **Identificador** y **Permisos** según corresponda. En el campo **Permisos**, debe seleccionar todos los permisos.
 
-    ![Otorgar permiso de almacenamiento de blobs](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![Otorgar permiso de almacenamiento de blobs.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Ingrese las fechas de inicio y vencimiento. La fecha de caducidad debería ser futura.
 8. Seleccione **Aceptar** para guardar la política y luego guardar los cambios en el contenedor.
@@ -57,7 +57,7 @@ En este tema, completará dos pasos principales:
 10. Haga clic con el botón derecho en el contenedor y luego seleccione **Obtener firma de acceso compartido**.
 11. En el cuadro de diálogo **Firma de acceso compartido**, copie y almacene el valor en el campo **URI**. Este valor se utilizará en el siguiente procedimiento y se denominará *URI de firma de acceso compartido*.
 
-    ![Seleccionar y copiar el valor de URI](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![Seleccionar y copiar el valor de URI.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Configure el almacén de claves para almacenar el URI de la cuenta de almacenamiento
 
@@ -69,11 +69,11 @@ En este tema, completará dos pasos principales:
 6. Configure la directiva de acceso para conceder a la facturación electrónica el nivel correcto de acceso seguro al secreto que creó. Ir **Configuraciones \> Política de acceso** y seleccione **Agregar política de acceso**.
 7. Establezca los permisos secretos para las operaciones **Obtener** y **Lista**.
 
-    ![Otorgar acceso al servicio](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![Otorgar acceso al servicio.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. Establezca los permisos de certificado para las operaciones **Obtener** y **Lista**.
 
-    ![Otorgar permiso de certificado](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![Otorgar permiso de certificado.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. En el campo **Seleccionar entidad de seguridad**, seleccione **Ninguna seleccionada**.
 10. En el cuadro de diálogo **Entidad de seguridad**, seleccione la entidad de seguridad agregando **Servicio de facturación electrónica**.

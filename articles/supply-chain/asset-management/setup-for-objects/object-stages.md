@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985fedc13e28caee90c9db27b145e415d256208d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db025b3edb9daa2ffc19b5fc92930f76d8007dce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808309"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360110"
 ---
 # <a name="asset-lifecycle-states"></a>Estados de ciclo de vida de activos
 
@@ -61,9 +61,9 @@ Una vez que haya creado los estados de ciclo de vida de activo necesarios, puede
 
 5. En el FastTab **Estados de ciclo de vida**, seleccione los estados de ciclo de vida de activo que se deben incluir en el modelo de ciclo de vida de activo:
 
-    - Para usar un estado de ciclo de vida para el modelo, selecciónelo en la sección **Estados de ciclo de vida restantes** y seleccione el botón de la flecha derecha ![Flecha derecha](media/15-setup-for-objects.png) para moverlo a la sección **Estados del ciclo de vida seleccionados**.
-    - Para usar todos los estados de ciclo de vida disponibles para el modelo, seleccione el botón **Todos los estados de ciclo de vida disponibles** ![Todos los estados de ciclo de vida disponibles](media/20-setup-for-objects.png). Todos los estados de ciclo de vida se transfieren a la sección **Estados de ciclo de vida seleccionados**.
-    - Para quitar un estado de ciclo de vida del modelo, selecciónelo en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de la flecha izquierda ![Flecha izquierda](media/16-setup-for-objects.png) para moverlo a la sección **Estados del ciclo de vida restantes**.
+    - Para usar un estado de ciclo de vida para el modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida restantes** y seleccione el botón de la ![flecha derecha.](media/15-setup-for-objects.png) para moverlo a la sección **Estados del ciclo de vida seleccionados**.
+    - Para usar todos los estados de ciclo de vida disponibles para el modelo, seleccione el botón **Todos los estados de ciclo de vida disponibles** ![Todos los estados de ciclo de vida disponibles.](media/20-setup-for-objects.png). Todos los estados de ciclo de vida se transfieren a la sección **Estados de ciclo de vida seleccionados**.
+    - Para quitar un estado de ciclo de vida del modelo, selecciónelo en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de flecha izquierda ![flecha izquierda.](media/16-setup-for-objects.png) para moverlo a la sección **Estados del ciclo de vida restantes**.
 
 6. Seleccione **Actualizaciones de estado de ciclo de vida** para definir los estados de ciclo de vida de activo que pueden seguir un estado de ciclo de vida seleccionado.
 7. Use el FastTab **Estado de activo** si administra activos que recibe para su reparación. En la sección **Entrante/saliente**, puede seleccionar estados de ciclo de vida de activo para indicar el flujo de trabajo de un activo que recibe para reparación. Si ofrece activos de préstamo a los clientes o departamentos, en la sección **Préstamo** puede seleccionar estados de ciclo de vida de activos de préstamo.

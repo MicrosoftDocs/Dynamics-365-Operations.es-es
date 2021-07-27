@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017015"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358107"
 ---
 # <a name="inventory-visibility-add-in"></a>Complemento de visibilidad de inventario
 
@@ -143,7 +143,7 @@ Una vez que haya cumplido los requisitos previos, utilice el siguiente procedimi
 
             Para obtener más información sobre esta variable, consulte la sección [Configurar la integración de visibilidad de inventario](#setup-inventory-visibility-integration) más adelante en este tema.
 
-        ![Desencadenador de configuración](media/configuration-trigger.png "Desencadenador de configuración")
+        ![Desencadenador de configuración.](media/configuration-trigger.png "Desencadenador de configuración")
 
     1. Seleccione **Encender**.
 
@@ -157,7 +157,7 @@ Para instalar el complemento de visibilidad de inventario, haga lo siguiente:
 1. En la página del entorno, desplácese hacia abajo hasta que vea la sección **Complementos de entorno** en la sección **Integración de Power Platform**, donde puede encontrar el nombre del entorno Dataverse.
 1. En la sección **Complementos de entorno**, seleccione **Instalar un nuevo complemento**.
 
-    ![Página de entorno en LCS](media/inventory-visibility-environment.png "Página de entorno en LCS")
+    ![Página de entorno en LCS.](media/inventory-visibility-environment.png "Página de entorno en LCS")
 
 1. Seleccione el vínculo **Instalar un nuevo complemento**. Se abre una lista de complementos disponibles.
 1. En la lista, seleccione **Visibilidad de inventario**.
@@ -166,7 +166,7 @@ Para instalar el complemento de visibilidad de inventario, haga lo siguiente:
     - **ID de aplicación de AAD (cliente)**
     - **Id. de suscriptor de AAD**
 
-    ![Agregar en la página de configuración](media/inventory-visibility-setup.png "Página de configuración del complemento")
+    ![Agregar en la página de configuración.](media/inventory-visibility-setup.png "Página de configuración del complemento")
 
 1. Acepte los términos y condiciones seleccionando la casilla de verificación **Términos y Condiciones**.
 1. Seleccione **Instalar**. El estado del complemento se mostrará como **Instalando**. Cuando haya terminado, actualice la página para ver el cambio de estado a **Instalado**.

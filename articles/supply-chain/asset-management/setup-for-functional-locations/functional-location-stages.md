@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ab19358857440e46d3df2323fbcea19a476903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837762"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360979"
 ---
 # <a name="functional-location-lifecycle-states"></a>Estados de ciclo de vida de ubicaciones funcionales
 
@@ -56,9 +56,9 @@ Cuando haya creado los estados de ciclo de vida necesarios para las ubicaciones 
 1. Seleccione **Administración de activos** > **Configuración** > **Ubicaciones funcionales** > **Modelos de ciclo de vida**.
 2. Seleccione **Nuevo** para crear un nuevo modelo de ciclo de vida.
 3. Inserte el identificador de modelo de ciclo de vida en el campo **Modelo de ciclo de vida** y un nombre para el modelo de ciclo de vida en el campo **Nombre**. En los campos **Tipos de ubicación funcional** y **Estados de ciclo de vida** puede ver el número de tipos de ubicación funcional que usan el modelo del ciclo de vida y el número de estados seleccionados en el modelo de ciclo de vida.
-4. En el FastTab **Estados de ciclo de vida**, seleccione los estados que se van a incluir en el modelo. Para ello, haga clic en un estado en la sección **Estados de ciclo de vida restantes** y haga clic en el botón de la ![flecha atrás](media/02-setup-for-functional-locations.png).
-5. Si desea seleccionar todos los estados disponibles para un modelo, haga clic en el botón ![seleccionar todos los estados disponibles](media/03-setup-for-functional-locations.png) . Transfiere todos los estados a la sección **Estados de ciclo de vida seleccionados**.
-6. Si desea quitar un estado seleccionado del modelo, seleccione el estado en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de la ![flecha atrás](media/04-setup-for-functional-locations.png) .
+4. En el FastTab **Estados de ciclo de vida**, seleccione los estados que se van a incluir en el modelo. Para ello, haga clic en un estado en la sección **Estados de ciclo de vida restantes** y haga clic en el botón de la ![flecha atrás.](media/02-setup-for-functional-locations.png) .
+5. Si desea seleccionar todos los estados disponibles para un modelo, haga clic en el botón ![seleccionar todos los estados disponibles.](media/03-setup-for-functional-locations.png) . Transfiere todos los estados a la sección **Estados de ciclo de vida seleccionados**.
+6. Si desea quitar un estado seleccionado del modelo, seleccione el estado en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de la ![flecha atrás.](media/04-setup-for-functional-locations.png) .
 7. Seleccione **Actualizaciones de estado de ciclo de vida** para definir qué estados de ciclo de vida pueden seguir un estado seleccionado.
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838728"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361234"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Crear configuraciones en Regulatory Configuration Services (RCS) y cargarlas en el repositorio global
 
@@ -51,7 +51,7 @@ Si ya se ha aprovisionado un entorno RCS para su empresa, use la URL de la pági
 5. Introduzca un nombre y una descripción, y luego seleccione **Crear configuración** para crear una nueva versión derivada.
 6. Seleccione la configuración recién derivada, agregue una descripción de la versión y luego seleccione **Aceptar**. El estado de la configuración se cambia a **Completado**.
 
-![Nueva versión de configuración en RCS](media/RCS_CompleteConfig.JPG)
+![Nueva versión de configuración en RCS.](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Cuando se cambia el estado de la configuración, es posible que reciba un mensaje de error de validación relacionado con las aplicaciones conectadas. Para desactivar la validación, en el Panel de acciones de la pestaña **Configuraciones**, seleccione **Parámetros de usuario** y luego establezca la opción **Omitir validación en el cambio de estado y reorganización de la configuración** en **Sí** 
@@ -63,7 +63,7 @@ Para compartir una configuración nueva o derivada con su organización, puede s
 1. Seleccione la versión completa de la configuración y luego seleccione **Cargar al repositorio**.
 2. Seleccione la opción **Global (Microsoft)** y luego seleccione **Cargar**.
 
-    ![Cargar en opciones de repositorio](media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Cargar en opciones de repositorio.](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. En el cuadro de mensaje de confirmación, haga clic en **Sí**. 
 4. Actualice la descripción de la versión según sea necesario y luego seleccione **Aceptar**. 
@@ -73,7 +73,7 @@ El estado de la configuración se actualiza a **Compartir**, y la configuración
 - Impórtela a su instancia de Dynamics 365. Para obtener más información, consulte [Importar configuraciones (ER) desde RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
 - Compártalo con un tercero o una organización externa, consulte [Configuraciones de informes electrónicos (ER) de uso compartido de RCS con organizaciones externas](rcs-global-repo-share-configuration.md)
 
-    ![Versión de configuración de Intrastat Contoso derivada en el repositorio global](media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Versión de configuración de Intrastat Contoso derivada en el repositorio global.](media/RCS_Config_upload_GlobalRepo.JPG)
 
 ## <a name="delete-a-configuration-from-the-global-repository"></a>Eliminar una configuración del repositorio global
 Complete los siguientes pasos para eliminar una configuración creada por su organización.
@@ -84,11 +84,11 @@ Complete los siguientes pasos para eliminar una configuración creada por su org
 4. En la ficha desplegable **Filtrar**, busque la configuración que desea eliminar mediante la funcionalidad de **Filtro**.
 5. En la ficha desplegable **Versión**, seleccione la versión de la configuración que desea eliminar y, a continuación, seleccione **Eliminar**:
 
-    ![Eliminar una configuración del repositorio global](media/RCS_Delete_from_GlobalRepo.JPG)
+    ![Eliminar una configuración del repositorio global.](media/RCS_Delete_from_GlobalRepo.JPG)
 
 6. En el cuadro de mensaje de confirmación, haga clic en **Sí**.
 
-    ![Eliminar el mensaje de confirmación de una versión de configuración](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+    ![Eliminar el mensaje de confirmación de una versión de configuración.](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
  
 Se elimina la versión de configuración y se muestra un mensaje de confirmación. 
 

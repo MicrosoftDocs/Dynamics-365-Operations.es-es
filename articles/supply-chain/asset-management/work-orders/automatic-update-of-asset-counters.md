@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15aea2f867de6f0bcf01ecfd046efc44581a1ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1e8a3b34cb359b7ea7f7181d2308f8e021f3c95
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820451"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359134"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Actualización automática de los contadores de activos
 
@@ -49,7 +49,7 @@ Como se mencionó anteriormente, los contadores automáticos se pueden actualiza
 
     La ilustración siguiente muestra un ejemplo del cuadro de diálogo **Actualizar contadores de activos**.
 
-    ![Figura 1](media/12-work-orders.png)
+    ![Figura 1.](media/12-work-orders.png)
 
 5. Seleccione **Aceptar**. 
 
@@ -59,7 +59,7 @@ En la página **Valor agregado de activo**, puede obtener una visión general de
 
 La ilustración siguiente muestra un ejemplo de la página **Valor agregado de activos**.
 
-![Figura 2](media/13-work-orders.png)
+![Figura 2.](media/13-work-orders.png)
 
 Tenga en cuenta los aspectos siguientes:
 

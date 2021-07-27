@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 071c73f9295ad7911037cbd10a48b46b044eebda
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 19cdc33fcc9d1293b235facbaffd1ccf62875217
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808241"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360062"
 ---
 # <a name="work-order-project-setup"></a>Configuración de proyecto de orden de trabajo
 
@@ -69,7 +69,7 @@ La configuración permite una integración completa con el módulo **Gestión de
 
     De forma predeterminada, la fecha inicial es la fecha en que agrega el proyecto de pedido de trabajo a la página. Se controla mediante el campo **Válido desde**, que está oculto de forma predeterminada. Para mostrar el campo **Válido desde**, seleccione **Ver** \> **Todos**. Luego puede utilizar el campo **Válido desde** junto con el campo **Fecha de finalización** para configurar un período de validez limitado para el proyecto de la orden de trabajo.
 
-    ![Página Configuración de proyecto de orden de trabajo](media/17-setup-for-work-orders.png)
+    ![Página Configuración de proyecto de orden de trabajo.](media/17-setup-for-work-orders.png)
 
 6. En la pestaña **Grupo de proyectos** haga clic en **Agregar**.
 7. En el campo **Tipo de orden de trabajo**, seleccione un tipo de orden de trabajo.
@@ -77,7 +77,7 @@ La configuración permite una integración completa con el módulo **Gestión de
 9. En el campo **Grupo de proyectos**, seleccione el grupo de proyectos que debe estar relacionado con el tipo de pedido del trabajo. Por ejemplo, un tipo de pedido de trabajo que se llama **Mantenimiento preventivo** puede estar asociado a un grupo de proyectos que se denomina **Mant ant** o **Interno**. Como alternativa, un tipo de pedido del trabajo **Inversión** que se usa para órdenes de trabajo relacionados con inversiones y activos fijos puede estar asociado un grupo de proyectos que se denomina **Invertir** o **Inversión**.
 10. Seleccione **Guardar**.
 
-![Página Configuración de proyecto de orden de trabajo, Agregar pedido de trabajo](media/18-setup-for-work-orders.png)
+![Página Configuración de proyecto de orden de trabajo, Agregar pedido de trabajo.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Cada vez que se crea una línea de pedido de trabajo, la administración de activos busca un grupo de proyectos que debe estar relacionado con el proyecto de trabajo de la orden de trabajo. La búsqueda se basa en la configuración que se describe en este tema. Cada grupo de proyectos tiene un tipo de proyecto relacionado. Los grupos de proyectos que tienen el tipo de proyecto **Tiempo y material** o **precio fijo** solo serán válidos para los activos relacionados con una cuenta de cliente.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: dda276b7d634317aae26728f7d9f51af9ccfb896
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b74a1ab6d0f17367fc16f795e1b28ff5d0c5508e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023566"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358251"
 ---
 # <a name="set-the-tds-parameters"></a>Configurar los parámetros de TDS
 
@@ -34,13 +34,13 @@ Este tema explica cómo configurar parámetros para activar la característica d
 3. Establezca la opción **Factura** a **Sí** para activar los campos que se utilizan para calcular y deducir el TDS a nivel de factura.
 4. Establezca la opción **Pago** a **Sí** para activar los campos que se utilizan para calcular y deducir el TDS a nivel de pagos.
 
-    [![Pestaña de impuestos directos](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
+    [![Pestaña de impuestos directos.](./media/apac-ind-TDS-1.png)](./media/apac-ind-TDS-1.png)
 
 5. En la pestaña **Secuencias numéricas**, busque la fila donde el campo **Referencia** está configurado en **Pago de retención de impuestos**. En el campo **Código de secuencia numérica** para la fila, seleccione el código de secuencia numérica. El código de secuencia numérica se utiliza para generar números de asiento para el proceso de liquidación periódica de TDS.
 
     > [!NOTE]
     > Para ejecutar el proceso de liquidación periódica de TDS, vaya a **Impuesto \> Declaraciones \> Retención de impuestos \> Pago de retención de impuestos**.
 
-    [![Ficha Secuencias numéricas](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
+    [![Ficha Secuencias numéricas.](./media/apac-ind-TDS-2.png)](./media/apac-ind-TDS-2.png)
 
 6. Cierre la página.

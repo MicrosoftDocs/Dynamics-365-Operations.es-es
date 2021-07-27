@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: bce824267f435d9de0acd43ca145e0d148dfe67c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9afc7786de16cb1cada982f43beb956e062777a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816277"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347791"
 ---
 # <a name="revenue-recognition-bundles"></a>Agrupaciones de reconocimiento de ingresos
 
@@ -57,19 +57,19 @@ Los siguientes precios de venta base se definen para los elementos componentes:
 - **S0021:** 150,00 $
 - **Soporte:** 500,00 $
 
-Se introduce un pedido de ventas para el cliente US-004, Cave Wholesales. La única línea que se introduce es para el elemento Agrupación de portátil. El precio unitario predeterminado para la línea principal se puede tomar de varios lugares, como el acuerdo comercial o el precio de venta base. En este ejemplo, se introdujo 2.300 $ como precio unitario.
+Se introduce un pedido de ventas para el cliente US-004, Cave Wholesales. La única línea que se introduce es para el elemento Agrupación de portátil. El precio unitario predeterminado para la línea principal se puede tomar de varios lugares, como el acuerdo comercial o el precio de venta base. En este ejemplo, se introdujo 2300 $ como precio unitario.
 
-[![Elemento de agrupación de portátil en un pedido de ventas](./media/bundle-01.png)](./media/bundle-01.png)
+[![Artículo de agrupación de portátil en un pedido de ventas.](./media/bundle-01.png)](./media/bundle-01.png)
 
 Debido a que el pedido de ventas contiene una agrupación, debe confirmarse. El cuadro de diálogo de confirmación muestra los componentes de la agrupación.
 
-[![Confirmar el cuadro de diálogo del pedido de ventas que muestra los elementos componentes](./media/bundle-02.png)](./media/bundle-02.png)
+[![Confirmar el cuadro de diálogo del pedido de ventas que muestra los artículos componentes.](./media/bundle-02.png)](./media/bundle-02.png)
 
-Sin embargo, el informe de confirmación impreso mostrará solo el elemento principal del paquete, porque ese informe es el documento de cara al exterior para el cliente.
+Sin embargo, el informe de confirmación impreso mostrará solo el artículo principal del paquete, porque ese informe es el documento de cara al exterior para el cliente.
 
-[![Informe de confirmación que muestra solo el elemento principal](./media/bundle-03.png)](./media/bundle-03.png)
+[![Informe de confirmación que muestra solo el artículo principal.](./media/bundle-03.png)](./media/bundle-03.png)
 
-Una vez confirmado el pedido de ventas, el elemento principal sigue apareciendo en el pedido de ventas, pero su estado se ha cambiado a **Cancelado**. Además, el importe neto puede seguirse en el campo **Importe neto de la agrupación**. Esta cantidad es necesaria para imprimir la factura, porque la factura muestra el elemento principal y no los elementos componentes.
+Una vez confirmado el pedido de ventas, el artículo principal sigue apareciendo en el pedido de ventas, pero su estado se ha cambiado a **Cancelado**. Además, el importe neto puede seguirse en el campo **Importe neto de la agrupación**. Esta cantidad es necesaria para imprimir la factura, porque la factura muestra el elemento principal y no los elementos componentes.
 
 La suma de los elementos componentes debe ser igual al valor del **Importe neto de la agrupación** del artículo principal, porque ese valor es la cantidad que se presenta al cliente en la factura impresa. Para asegurarse de que la factura coincida con los importes registrados en la contabilidad general, están limitadas las modificaciones de los elementos componentes. Por ejemplo, el sitio y el almacén no se pueden cambiar, porque esos cambios pueden desencadenar un cambio de precio, según un acuerdo comercial.
 
@@ -83,9 +83,9 @@ El precio unitario de la línea del elemento principal se asigna a los component
 
 La suma de los componentes debe ser igual a 2.300 $ y, en efecto, es así (1.713,73 $ + 450,98 $ + 135,29 $ = 2.300 $).
 
-Si se requieren cambios para todos los elementos componentes, se puede eliminar el elemento principal. En este caso, los elementos componentes también se eliminan. El elemento principal se puede volver a agregar, y las ediciones necesarias se pueden completar antes de confirmarse el pedido de ventas.
+Si se requieren cambios para todos los elementos componentes, se puede eliminar el elemento principal. En este caso, los elementos componentes también se eliminan. El artículo principal se puede volver a agregar, y las ediciones necesarias se pueden completar antes de confirmarse el pedido de ventas.
 
-[![Agrupación de elementos que incluye cambios en los elementos componentes](./media/bundle-04.png)](./media/bundle-04.png)
+[![Agrupación de artículos que incluye cambios en los artículos componentes.](./media/bundle-04.png)](./media/bundle-04.png)
 
 Cuando se selecciona y empaqueta el pedido de ventas, los documentos incluirán solo los componentes de la agrupación. El albarán y la factura deben incluir una agrupación completa. De lo contrario, no se pueden registrar. Por ejemplo, el cuadro de diálogo muestra tres elementos componentes. Si intenta eliminar uno de ellos, recibirá un mensaje de error que indica que todos los productos de la agrupación deben enviarse antes de facturarlos.
 
@@ -93,21 +93,21 @@ Una agrupación debe enviarse y facturarse como una agrupación completa. Por ej
 
 Se puede enviar y facturar una cantidad parcial solo si la cantidad se reduce para todos los componentes de la agrupación. Por ejemplo, se ingresa una cantidad de 5 del elemento de la agrupación Portátil en un pedido de ventas. Una vez confirmado el pedido de ventas, los tres elementos componentes se muestran en el pedido de ventas y la cantidad de cada uno es 5. De forma predeterminada, durante el envío y la facturación, la cantidad se establecerá en 5 para cada componente. Sin embargo, puede rebajar la cantidad a 3 para los tres elementos componentes. En este caso, se enviarán y facturarán tres agrupaciones completas. Los dos elementos restantes de la agrupación (una cantidad de 2 de cada uno de los tres elementos componentes) se pueden enviar y facturar más tarde.
 
-El último paso es facturar el pedido de ventas. Durante la facturación, el cuadro de diálogo de la factura mostrará los elementos componentes.
+El último paso es facturar el pedido de ventas. Durante la facturación, el cuadro de diálogo de la factura mostrará los artículos componentes.
 
-[![Cuadro de diálogo de factura que muestra los elementos componentes](./media/bundle-06.png)](./media/bundle-06.png)
+[![Cuadro de diálogo de factura que muestra los artículos componentes.](./media/bundle-06.png)](./media/bundle-06.png)
 
-Sin embargo, la factura impresa solo mostrará el elemento principal.
+Sin embargo, la factura impresa solo mostrará el artículo principal.
  
-[![Factura impresa que muestra solo el elemento principal](./media/bundle-07.png)](./media/bundle-07.png)
+[![Factura impresa que muestra solo el artículo principal.](./media/bundle-07.png)](./media/bundle-07.png)
 
-El diario de facturas que se crea después del registro no incluye el elemento principal de la agrupación, porque dicho elemento tiene un estado de **Cancelado**.
+El diario de facturas que se crea después del registro no incluye el artículo principal de la agrupación, porque dicho artículo tiene un estado de **Cancelado**.
 
-[![Diario de facturas que no incluye el elemento principal](./media/bundle-08.png)](./media/bundle-08.png)
+[![Diario de facturas que no incluye el artículo principal.](./media/bundle-08.png)](./media/bundle-08.png)
 
-Es importante que el diario de facturas no incluya el elemento principal de la agrupación, porque los procesos que se realizan después de registrar la factura se basan en ese diario de facturas. Por ejemplo, si crea una nota de crédito desde la pestaña **Vender** del panel de acciones, la nota de crédito que se crea incluirá los elementos componentes, pero no el elemento principal.
+Es importante que el diario de facturas no incluya el artículo principal de la agrupación, porque los procesos que se realizan después de registrar la factura se basan en ese diario de facturas. Por ejemplo, si crea una nota de crédito desde la pestaña **Vender** del panel de acciones, la nota de crédito que se crea incluirá los elementos componentes, pero no el elemento principal.
 
-[![Nota de crédito que muestra los elementos componentes pero no el elemento principal](./media/bundle-09.png)](./media/bundle-09.png)
+[![Nota de crédito que muestra los artículos componentes pero no el artículo principal.](./media/bundle-09.png)](./media/bundle-09.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

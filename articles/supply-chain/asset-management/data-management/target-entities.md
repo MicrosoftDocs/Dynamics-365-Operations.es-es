@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b9fd32d539a8f2e038f571910314889f92e3fd9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e3b28475e6432294b3a9ed0c63341122bedca037
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838643"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346187"
 ---
 # <a name="target-entities"></a>Entidades de destino
 
@@ -34,13 +34,13 @@ En el espacio de trabajo **Administración de datos**, puede obtener una visión
 
 2. En la sección **Importar/exportar**, haga clic en **Entidades de datos**. 
 
-    ![Figura 1](media/01-data-management.png)
+    ![Figura 1.](media/01-data-management.png)
 
 3. En la página **Entidades de destino**, busque “administración de activos” en el filtro y presione Entrar para ver una lista de entidades relacionadas con la Administración de activos.
 
     La ilustración siguiente muestra algunas de las entidades de administración de activos.
 
-   ![Figura 2](media/02-data-management.png)
+   ![Figura 2.](media/02-data-management.png)
 
 4. Seleccione una entidad y haga clic en **Modificar asignación de destino**.
 
@@ -48,7 +48,7 @@ En el espacio de trabajo **Administración de datos**, puede obtener una visión
 
     En la siguiente ilustración se muestra una visualización de los campos relacionados con la entidad de tipos de activos.
 
-    ![Figura 3](media/03-data-management.png)
+    ![Figura 3.](media/03-data-management.png)
 
 
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271217"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360385"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -81,7 +81,7 @@ Para confirmar manualmente los pedidos planificados, busque y seleccione los ped
     - **Agrupar por período** (en la sección **Pedidos de compra**): seleccione el período por el que agrupar los pedidos de compra planificados. Para utilizar esta opción, también debe seleccionar la opción **Agrupar por proveedor**.
     - **Agrupar por período** (en la sección **Transferencias**): seleccione el período por el que agrupar los pedidos de transferencia planificados. Los pedidos se agruparán en función de los valores **Desde el almacén** y **Al almacén**.
 
-    ![Ficha desplegable Parámetros en el cuadro de diálogo Confirmación](./media/manual-firming.png "Ficha desplegable Parámetros en el cuadro de diálogo Confirmación")
+    ![Ficha desplegable Parámetros en el cuadro de diálogo Confirmación.](./media/manual-firming.png "Ficha desplegable Parámetros en el cuadro de diálogo Confirmación")
 
 1. En la ficha desplegable **Ejecutar en segundo plano**, configure el trabajo para que se ejecute en modo por lotes. Sin embargo, no tiene sentido establecer una programación periódica si está haciendo confirmación manual. Los campos funcionan igual que para otros tipos de [trabajos en segundo plano](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) en Supply Chain Management. Sin embargo, para confirmación manual, el trabajo por lotes procesará solo los pedidos planificados seleccionados actualmente. No procesará ningún pedido que se ajuste a los filtros que se aplican actualmente en la página.
 1. Seleccione **Aceptar** para aplicar su configuración y generar los pedidos confirmados.
@@ -140,15 +140,15 @@ Para confirmar un pedido planificado mediante el proceso de confirmación basado
     - **Días hacia adelante del límite de tiempo de confirmación**: seleccione hasta qué punto del futuro la planificación maestra debe calcular los distintos requisitos y otras consideraciones.
     - **Días hacia atrás del límite de tiempo de confirmación**: seleccione hasta qué punto del pasado la planificación maestra debe calcular los distintos requisitos y otras consideraciones.
 
-    ![Ficha desplegable Parámetros en el cuadro de diálogo Confirmación de pedidos planificados](./media/planned-order-firming-main-1.png "Ficha desplegable Parámetros en el cuadro de diálogo Confirmación de pedidos planificados")
+    ![Ficha desplegable Parámetros en el cuadro de diálogo Confirmación de pedidos planificados.](./media/planned-order-firming-main-1.png "Ficha desplegable Parámetros en el cuadro de diálogo Confirmación de pedidos planificados")
 
 1. Para especificar qué registros deben incluirse en el pedido, seleccione el botón **Filtrar** en la ficha desplegable **Registros a incluir**. Aparece un cuadro de diálogo de consulta estándar, donde puede definir criterios de selección, criterios de clasificación y combinaciones. Los campos funcionan igual que para otros tipos de consultas en Supply Chain Management. Los campos aquí son de solo lectura y muestran valores relacionados con su consulta.
 
-    ![Ficha desplegable Registros a incluir en el cuadro de diálogo Confirmación de pedidos planificados](./media/planned-order-firming-main-2.png "Ficha desplegable Registros a incluir en el cuadro de diálogo Confirmación de pedidos planificados")
+    ![Ficha desplegable Registros a incluir en el cuadro de diálogo Confirmación de pedidos planificados.](./media/planned-order-firming-main-2.png "Ficha desplegable Registros a incluir en el cuadro de diálogo Confirmación de pedidos planificados")
 
 1. Seleccione **Vista previa** para obtener una vista previa del contenido de su pedido confirmado, según su configuración hasta el momento. La lista de pedidos planificados que se confirmarán se muestra como un mensaje. A continuación, puede ajustar la configuración según sea necesario hasta que la vista previa muestre el pedido confirmado como lo desea.
 
-    ![Ejemplo de vista previa de un pedido confirmado](./media/planned-order-firming-preview.png "Ejemplo de vista previa de un pedido confirmado")
+    ![Ejemplo de vista previa de un pedido confirmado.](./media/planned-order-firming-preview.png "Ejemplo de vista previa de un pedido confirmado")
 
     > [!WARNING]
     > Esta función confirmará todos los pedidos planificados que coincidan con los criterios del filtro. La confirmación no crítica de los pedidos planificados puede provocar la creación de un gran número de pedidos de compra, transferencia y producción no deseados. Antes de continuar, utilice siempre el botón **Vista previa** para validar los registros que se incluirán.

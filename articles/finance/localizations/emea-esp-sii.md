@@ -2,7 +2,7 @@
 title: Suministro inmediato de información del IVA, SII
 description: Este tema describe cómo configurar y usar Microsoft Dynamics 365 Finance para interoperar con el sistema SII de España.
 author: liza-golub
-ms.date: 06/16/2021
+ms.date: 07/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 457a47343a744069e341d447f638b478f7191704
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 131f74c7e1ee6ff67a862b562b02113bcc71097a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270723"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360186"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
@@ -80,7 +80,7 @@ El proceso de configuración de la funcionalidad de mensajes electrónicos para 
 1.  En [Microsoft Dynamics Lifecycle Service (LCS)](https://lcs.dynamics.com/v2), vaya a la Biblioteca de activos compartidos y seleccione el tipo de activo **Paquete de datos**.
 2.  En la lista de archivos de paquetes de datos, busque y descargue **ES SII setup.zip**.
 
-![Biblioteca de activos compartidos de LCS](media/emea-esp-sii-data-package-file.png)
+![Biblioteca de activos compartidos de LCS.](media/emea-esp-sii-data-package-file.png)
 
 3.  Después de descargar el archivo, abra Finance y seleccione la compañía desde la cual interoperará con el sistema SII.
 4.  Vaya a **Espacios de trabajo \> Administración de datos**.
@@ -97,7 +97,7 @@ Importe los datos desde el archivo **ES SII setup.zip** en la empresa selecciona
 10.  Seleccione **Cargar y agregar**, seleccione el archivo **ES SII setup.zip** en su ordenador y cárguelo.
 11.  Después de cargar las entidades de datos, en el Panel de acciones, seleccione **Importar**.
 
-![Página de configuración de SII (ES)](media/emea-esp-sii-data-entities-upload.png)
+![Página de configuración de SII (ES).](media/emea-esp-sii-data-entities-upload.png)
 
 Recibirá una notificación en **Centro de acción**, o puede actualizar manualmente la página para ver el progreso de la importación de datos. Cuando se completa la importación, la página **Resumen de ejecución** muestra los resultados.
 
@@ -152,7 +152,7 @@ Las direcciones de Internet están sujetas a cambios por la AEAT. Por lo tanto, 
 
 6.  En la pestaña **General**, en el campo **Certificado de Key Vault** seleccione el certificado de seguridad que configuró para todos los servicios Web que utilizará para la interactuación con el sistema SII: **Factura de clie.**, **Factura de prov.**, **Intracomunitario**, **Pago de clie.**, **Pago de prov.** y **CollectionInCash**.
 
-![Página de configuración de los servicios Web](media/emea-esp-sii-setup-key-vault-certificate.png)
+![Página de configuración de los servicios Web.](media/emea-esp-sii-setup-key-vault-certificate.png)
 
 ## <a name="set-up-em-parameters-for-the-sii-system"></a>Configurar los parámetros de EM para el sistema SII
 
@@ -209,7 +209,7 @@ Para elementos EM rellenados, esta clase evalúa los valores para los siguientes
 
 4.  Seleccione **Aceptar** para iniciar la clase ejecutable.
 
-![Agregar nuevo panel de elementos de mensajería electrónica](media/emea-esp-sii-siigenerateitems-executable-class.png)
+![Agregar nuevo panel de elementos de mensajería electrónica.](media/emea-esp-sii-siigenerateitems-executable-class.png)
 
 ### <a name="set-up-the-siipartyattributesevaluation-executable-class"></a>Configurar la clase ejecutable SIIPartyAttributesEvaluation
 
@@ -225,7 +225,7 @@ Para elementos EM rellenados, esta clase evalúa los valores para los siguientes
 
 4.  Seleccione **Aceptar** para iniciar la clase ejecutable.
 
-![Agregar el panel de parámetros de evaluación de campos](media/emea-esp-sii-siipartyattributesevaluation-executable-class.png)
+![Agregar el panel de parámetros de evaluación de campos.](media/emea-esp-sii-siipartyattributesevaluation-executable-class.png)
 
 ### <a name="set-up-the-monitorcollectionincash-executable-class"></a>Configurar la clase ejecutable MonitorCollectionInCash
 
@@ -240,7 +240,7 @@ Para elementos EM rellenados, esta clase evalúa los valores para los siguientes
 
 4.  Seleccione **Aceptar** para iniciar la clase ejecutable.
 
-![Cobros de SII en el panel de parámetros de supervisión de efectivo](media/emea-esp-sii-monitorcollectionincash-executable-class.png)
+![Cobros de SII en el panel de parámetros de supervisión de efectivo.](media/emea-esp-sii-monitorcollectionincash-executable-class.png)
 
 ## <a name="set-up-additional-fields-and-automatically-defined-rules"></a>Configurar los campos adicionales y reglas definidas automáticamente
 
@@ -487,6 +487,7 @@ De acuerdo con la documentación oficial del sistema SII, los siguientes valores
 | 14              | Factura con IVA pendiente de devengo sobre certificaciones de trabajo con destinatarios de la Administración Pública para el primer semestre de 2017.                                                                                                                    |
 | 15              | Factura con IVA pendiente de devengo en transacciones de naturaleza consecutiva.                                                                                                                                                                    |
 | 16              | Primer semestre de 2017.                                                                                                                                                                                                                             |
+| 17              | Operación bajo cualquiera de los regímenes previstos en el Capítulo XI del Título IX (OSS e IOSS). |
 
 Puede configurar reglas definidas automáticamente para cualquier valor de la lista anterior. También puede ajustar la lista de posibles valores. Para las reglas definidas automáticamente, están disponibles los siguientes criterios:
 
@@ -526,7 +527,7 @@ La búsqueda por **Grupo de impuestos de ventas** y **Grupo de impuestos de vent
 
 La siguiente ilustración muestra el esquema del algoritmo para cada una de estas cuatro subetapas.
 
-![Esquema de algoritmo para las subetapas](media/emea-esp-sii-claveregimenespecialotrascendencia-additional-field.png)
+![Esquema de algoritmo para las subetapas.](media/emea-esp-sii-claveregimenespecialotrascendencia-additional-field.png)
 
 ## <a name="set-up-number-sequences-for-electronic-messages"></a>Configurar secuencias numéricas para mensajes electrónicos
 
@@ -558,7 +559,7 @@ Si la casilla **Porcentaje de impuestos negativo** está desactivada en la pági
 -   Las facturas que solo tienen transacciones de impuestos con porcentajes negativos de impuestos a las ventas no se completarán como elementos de mensajes electrónicos para el procesamiento SII.
 -   Solo transacciones de impuestos que tienen códigos de impuestos a las ventas donde cuando la casilla **Porcentaje negativo de impuesto** está desactivada se incluirá en el archivo XML que se informa al sistema SII.
 
-![Página de parámetros del libro mayor, pestaña Libro mayor](media/emea-esp-sii-negative-sales-tax-percentage.png)
+![Página de parámetros del libro mayor, pestaña Libro mayor.](media/emea-esp-sii-negative-sales-tax-percentage.png)
 
 La casilla **Porcentaje negativo de impuesto** en la página **Parámetros del libro mayor** no afecta el informe de transacciones de cambio inverso.
 
@@ -574,9 +575,9 @@ Para informar correctamente los dos escenarios anteriores que involucran una tas
 | **Etiqueta en el sistema SII**         | **Tipo de valor impositivo** |
 |-------------------------------|-----------------------|
 | ImportePorArticulos7_14_Otros | IVA 0 %                |
-| ImporteTAIReglasLocalización  | Otros                 |
+| ImporteTAIReglasLocalización  | Otra                 |
 
-![Página de códigos de impuestos](media/emea-esp-sii-zero-percent-vat-rates.png)
+![Página de códigos de impuestos.](media/emea-esp-sii-zero-percent-vat-rates.png)
 
 ### <a name="intra-community-sales-tax-reporting-to-the-sii-system"></a>Registrar impuestos de ventas intracomunitarios en el sistema SII
 
@@ -600,7 +601,7 @@ La funcionalidad EM ejecuta automáticamente acciones que se incluyen en el proc
 
 El paquete **ES SII setup.zip** proporciona la configuración para el procesamiento **SII** en la funcionalidad EM que admite la interactuación con el sistema SII. La siguiente ilustración muestra el esquema general del procesamiento **SII**. Las acciones manuales del usuario no se incluyen en esta ilustración, pero se explican más adelante en este tema.
 
-![Esquema para el procesamiento general de SII](media/emea-esp-sii-process.png)
+![Esquema para el procesamiento general de SII.](media/emea-esp-sii-process.png)
 
 ### <a name="actions-of-sii-processing"></a>Acciones de procesamiento de SII
 
@@ -701,7 +702,7 @@ Utilice la funcionalidad de EM para generar un informe XML de datos que se gener
 
 El paquete **ES SII setup.zip** proporciona la configuración para el procesamiento **SCollectionInCash** en la funcionalidad EM que admite la interactuación con el sistema SII. La siguiente ilustración muestra el esquema general del procesamiento **CollectionInCash**.
 
-![Esquema para el procesamiento general de CollectionInCash](media/emea-esp-sii-collection-in-cash-process.png)
+![Esquema para el procesamiento general de CollectionInCash.](media/emea-esp-sii-collection-in-cash-process.png)
 
 ### <a name="actions-of-collectionincash-processing"></a>Acciones de procesamiento de CollectionInCash
 

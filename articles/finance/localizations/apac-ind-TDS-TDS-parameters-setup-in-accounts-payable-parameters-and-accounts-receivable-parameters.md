@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023568"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358227"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>Configurar los parámetros de TDS en proveedores y clientes
 
@@ -38,12 +38,12 @@ Este tema explica cómo establecer parámetros en proveedores y clientes para qu
     - **Bajo petición**: los usuarios reciben un mensaje que les pide que actualicen el grupo de TDS en las líneas de pedido.
 4. Seleccione **Aceptar**.
 
-    [![Cuadro de diálogo de actualizar líneas de pedido](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![Cuadro de diálogo de actualizar líneas de pedido.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. Vaya a **Impuesto \> Configuración \> Parámetros \> Parámetros de proveedores**.
 6. En la pestaña **General**, en la ficha desplegable **Dividir según la información de entrega**, establezca la opción **Recepción del producto** a **Sí** para registrar y dividir una recepción de producto que tiene diferentes direcciones de entrega y números de cuenta de impuestos (TAN). Si esta opción se establece en **No**, no puede registrar un albarán de compra que tenga diferentes direcciones de entrega y TAN.
 7. Establezca la opción **Factura** a **Sí** para registrar y dividir una factura de compra que tiene diferentes direcciones de entrega y TAN.
 
-    [![Ficha desplegable Dividir según la información de entrega](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![Ficha desplegable Dividir según la información de entrega.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. Cierre la página.

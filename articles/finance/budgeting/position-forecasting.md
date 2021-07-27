@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: c76919c6289fe0c2367cedecc64bbdae9ee86e63
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028236"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358520"
 ---
 # <a name="position-forecasting"></a>Previsión de puestos
 
@@ -30,7 +30,7 @@ Los gastos relacionados con los trabajadores componen a menudo una proporción g
 
 ## <a name="position-forecasting-in-budget-planning"></a>Previsión de puestos en la planificación de presupuesto
 
-[![Componentes de previsión del puesto](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Componentes de previsión del puesto.](./media/graphic-top.png)](./media/graphic-top.png) 
 
 La previsión de puestos usa tres componentes principales para proporcionar los importes presupuestarios exactos para los gastos de los puestos. Estos importes se pueden introducir en un plan de presupuesto para los cálculos de presupuestos. 
 
@@ -42,14 +42,14 @@ Un **grupo de compensación** es un componente opcional de la configuración que
 
 ### <a name="position-forecasting-processes"></a>Procesos de la previsión de puestos
 
-[![Ilustración de los procesos de previsión de la posición](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Ilustración de los procesos de previsión de la posición.](./media/graphic1b.png)](./media/graphic1b.png) 
 
 En un proceso típico para la previsión de puestos, primero se crean los componentes de configuración (los elementos de coste presupuestario y los grupos de compensación). Luego se generan los puestos de previsión, en función de puestos existentes. A continuación podrá realizar ajustes. Por ejemplo, puede agregar o finalizar puestos, cambiar índices salariales y costes de prestación, y agregar mejoras salariales. Puede crear varias versiones de un puesto de previsión para facilitar comparaciones entre diferentes escenarios de presupuestos. A continuación, puede incluir los puestos de previsión en los planes de presupuesto e incorporar los costes de los puestos de previsión como líneas de plan de presupuesto.
 
 Puede crear versiones de puestos adicionales de previsión a medida que se revisan planes de presupuesto. Estas nuevas versiones proporcionan una base para las revisiones.
 
 ## <a name="position-forecasting-setup"></a>Configuración de la previsión de puestos
-[![Configuración del resalte de la ilustración](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Configuración del resalte de la ilustración.](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Elementos de coste presupuestario
 
@@ -86,7 +86,7 @@ Los campos **Aumentar programación** y **Fecha del aumento** del grupo de compe
 Se usa el elemento de coste de la ganancia que se seleccionó en el grupo de compensación al crear las ganancias para los puestos de previsión en el grupo, incluido el sueldo base y cualquier aumento de etapa. El campo **Plan fijo de compensación** vincula el grupo de compensación a un plan de compensación fija en recursos humanos. Este vínculo puede asignar la información de compensación fija de un trabajador a un puesto de previsión, y puede por lo tanto realizar una planificación de presupuesto más precisa. Recuerde que la estructura de la cuadrícula de compensación (niveles y pasos) para el grupo de compensación debe coincidir con la estructura del plan de compensación fija. De lo contrario, el sistema no puede vincular correctamente el grupo de compensación y el plan de compensación fija.
 
 ## <a name="creating-forecast-positions"></a>Crear puestos de previsión
-[![Resalte de la ilustración, “crear ubicaciones de previsión”](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Resalte de la ilustración, “crear ubicaciones de previsión”.](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Crear puestos de previsión para puestos existentes
 
@@ -115,7 +115,7 @@ Si se ha seleccionado un puesto de previsión, seleccione **Copiar el puesto de 
 También puede crear un puesto de previsión totalmente nuevo. Seleccione un trabajo existente, y también seleccione la situación del proceso de planificación presupuestaria y el plan de presupuesto. Puede agregar cualquier otro detalle que desee agregar. De nuevo, un puesto nuevo se crea en recursos humanos al mismo tiempo.
 
 ## <a name="working-with-forecast-positions"></a>Trabajar con puestos de previsión
-[![Resalte de la ilustración, “modificar ubicaciones de previsión”](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Resalte de la ilustración, “modificar ubicaciones de previsión”.](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Varias versiones de un puesto de previsión
 
@@ -171,7 +171,7 @@ El proceso de recálculo se usa automáticamente en cualquier puesto de previsi�
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Incorporar puestos de previsión en los planes de presupuesto
 
-[![Resalte de la ilustración, “agregar al plan del presupuesto”](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Resalte de la ilustración, “agregar al plan del presupuesto”.](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 El propósito de crear y modificar puestos de la previsión es agregarlos a los planes de presupuesto, de modo que los planes de presupuesto incluyan los importes presupuestarios más precisos. Existen dos métodos para agregar puestos de previsión a planes de presupuesto. Puede usar un proceso de generación o un proceso de selección en el plan de presupuesto.
 

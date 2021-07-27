@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: d0b12908993070a41d21ac57d6fb504fc6e3b06a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f236f861434eb2eaa26eab92e25a0b83a8026972
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053524"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357346"
 ---
 # <a name="reset-stuck-batch-jobs"></a>Restablecer trabajos por lotes bloqueados
 
@@ -46,7 +46,7 @@ Cuando un trabajo por lotes se atasca en un estado **Ejecución** o **Cancelaci�
 
 5. En la página **Seleccionar nuevo estado**, seleccione **Esperando** y luego seleccione **Aceptar**.
 
-   ![Seleccionar un nuevo estado de trabajo por lotes](./media/hr-admin-reset-batch-job-status.png)
+   ![Seleccionar un nuevo estado de trabajo por lotes.](./media/hr-admin-reset-batch-job-status.png)
 
 ## <a name="see-also"></a>Consulte también
 

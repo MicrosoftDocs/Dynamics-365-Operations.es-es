@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814787"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360907"
 ---
 # <a name="phantom-items"></a>Artículos fantasma
 
@@ -27,12 +27,12 @@ ms.locfileid: "5814787"
 
 Este tema describe, en detalle, cómo el tipo de línea fantasma puede usarse para las líneas de una lista de materiales (BOM) y una fórmula. En la siguiente ilustración, (a) es el L.MAT para el producto H y las parte F y G y (b) es la hoja de ruta de los productos H y la parte F.
 
-![Producto H y parte F](media/product-H-part-F.png)
+![Producto H y parte F.](media/product-H-part-F.png)
 
 
 Esta ilustración muestra un ejemplo de una estructura de L. MAT en dos niveles. El producto terminado H representa un producto para un ensamblado de equipo. El ensamblado de equipo consta de dos partes, una unidad de iluminación (F) con dos materiales (A y B) y un grupo de materiales de embalaje (G) que también tiene dos materiales (C y D). Otro material (E) se usa durante el montaje general del equipo.
 
-![Producto H y parte F](media/product-H-part-B.png)
+![Producto H y parte F.](media/product-H-part-B.png)
 
 La ilustración anterior representa el L. MAT de ingeniería del producto H. Esta estructura proporciona una buena visión general de las piezas y los componentes de montaje total del equipo. Sin embargo, aunque los diseñadores del producto puedan preferir ver la L. MAT representada de esta manera, esta estructura puede que no represente correctamente la forma en que el equipo se construye en planta. 
 
@@ -53,23 +53,23 @@ La transición entre el MAT de ingeniería y el MAT de fabricación se habilita 
 ## <a name="multilevel-phantom-bom-structures"></a>Estructuras L. MAT fantasma de varios niveles
 El tipo de línea fantasma puede usarse en estructuras de varios niveles de L MAT, como se muestra en la siguiente ilustración. En este ejemplo, (a) es la L. MAT del producto G y (b) es la hoja de ruta de las piezas E y F y el producto G. 
 
-![Producto G y parte F con hojas de ruta](media/product-G-route-sheet-G.png)
+![Producto G y parte F con hojas de ruta.](media/product-G-route-sheet-G.png)
 
 
 La ilustración siguiente muestra la L. MAT de fabricación resultante y la hoja de ruta si las líneas de L. MAT de las partes E y F se configuran de modo que el tipo de línea sea fantasma. En este ejemplo, (a) es la L. MAT del producto G y (b) es la hoja de ruta del producto G.
 
-![Producto G](media/product-G.png)
+![Producto G.](media/product-G.png)
 
 
 ## <a name="phantom-and-route-network"></a>Fantasma y red de rutas
 Los L. MAT fantasma también se pueden usar para una L. MAT con una red de rutas. En una red de rutas, una o más operaciones se ejecutan en paralelo. La ilustración siguiente muestra un ejemplo de una red de rutas que se usa en una L. MAT multinivel. En este ejemplo, (a) es la L. MAT del producto G y la parte F y (b) es la hoja de ruta del producto G y la parte F, que tiene una red de rutas.
 
-![Producto G y parte F](media/product-G-part-F.png)
+![Producto G y parte F.](media/product-G-part-F.png)
 
 
 En la siguiente ilustración, (a) es el la L.MAT del producto G y la parte F y (b) es la hoja de ruta del producto G y la parte F.
 
-![Producto G y parte F con hojas de ruta](media/product-G-part-F-with-route-sheet.png)
+![Producto G y parte F con hojas de ruta.](media/product-G-part-F-with-route-sheet.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

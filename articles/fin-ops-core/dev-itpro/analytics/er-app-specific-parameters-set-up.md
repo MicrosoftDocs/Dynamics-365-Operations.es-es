@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751163"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351899"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Configurar los parámetros de un formato de ER por entidad jurídica
 
@@ -49,7 +49,7 @@ Para completar los ejemplos de este tema, debe tener acceso a Microsoft Dynamics
     
     La siguiente ilustración muestra las configuraciones que debe tener cuando haya terminado.
 
-    ![Página de configuraciones de ER](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![Página de configuraciones de ER.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>Configurar parámetros para la empresa DEMF
 
@@ -59,7 +59,7 @@ Puede usar el marco de ER para configurar los parámetros específicos de la apl
 2.  En el árbol de configuraciones, seleccione el formato **Formato para aprender a buscar datos de LE**.
 3.  En el panel de acciones, en la pestaña **Configuraciones**, en el grupo **Parámetros específicos de la aplicación**, seleccione **Configurar**.
 
-    ![Página de parámetros específicos de la aplicación de ER](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![Página de parámetros específicos de la aplicación de ER.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     En la página **Parámetros específicos de la aplicación**, puede configurar las reglas para el origen de datos **Selector** del formato **Formato para aprender a buscar datos de LE**.
     
@@ -75,14 +75,14 @@ Puede usar el marco de ER para configurar los parámetros específicos de la apl
 
     La búsqueda presenta la lista de códigos de impuestos para la selección. El origen de datos **Model.Data.Tax** que se ha configurado en el formato básico de ER ha devuelto esta lista. Puesto que este origen de datos contiene el campo **Nombre**, el nombre de cada código de impuestos aparece en la búsqueda.
 
-    ![Página de parámetros específicos de la aplicación de ER](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![Página de parámetros específicos de la aplicación de ER.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Seleccione el código de impuestos **VAT19**.
 8.  En el campo **Resultado de la búsqueda** del nuevo registro, seleccione la flecha desplegable para abrir la búsqueda. La búsqueda presenta la lista de valores para la enumeración del formato TaxationLevel para la selección.
 
     Tenga en cuenta que, si selecciona el alemán como el idioma preferido del usuario que inicia sesión, las etiquetas de los valores de la búsqueda estarán en alemán, siempre que se haya traducido en el formato básico de ER. Además, si se ha traducido la etiqueta de un origen de datos de la búsqueda, esa etiqueta aparecerá en el idioma preferido del usuario en la pestaña **Búsquedas**.
 
-    ![Página de parámetros específicos de la aplicación de ER](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![Página de parámetros específicos de la aplicación de ER.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Seleccione el valor **Impuesto normal**.
 
@@ -120,7 +120,7 @@ Puede usar el marco de ER para configurar los parámetros específicos de la apl
     
     Al agregar este último registro, define la siguiente regla: Siempre que el código se impuestos que se pasa como argumento no cumpla ninguna de las reglas anteriores, el origen de datos de la búsqueda devolverá **Otro** como el nivel impositivo solicitado.
 
-    ![Página de parámetros específicos de la aplicación de ER](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![Página de parámetros específicos de la aplicación de ER.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. En el campo **Estado**, seleccione **Completado**.
 
@@ -144,7 +144,7 @@ Puede usar el marco de ER para configurar los parámetros específicos de la apl
 6.  Seleccione el código de impuestos **InVAT7**.
 7.  En el panel de acciones, en la pestaña **Código de impuestos**, en el grupo **Consultas**, seleccione **Impuestos registrados** para ver información acerca del valor de los impuestos y el tipo impositivo aplicado por código de impuestos.
 
-    ![Página de impuestos registrados](./media/GER-AppSpecParms-Statement.PNG)
+    ![Página de impuestos registrados.](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  Cierre la página Impuestos registrados.
 
@@ -160,7 +160,7 @@ Puede usar el marco de ER para configurar los parámetros específicos de la apl
 
     La búsqueda presenta ahora la lista de códigos de impuestos para los impuestos de empresa **USMF** para su selección.
 
-    ![Página de parámetros específicos de la aplicación de ER](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![Página de parámetros específicos de la aplicación de ER.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Seleccione el código de impuestos **EXEMPT**.
 9.  En el campo **Resultado de la búsqueda** del nuevo registro, seleccione el valor **Ningún impuesto**.
@@ -170,7 +170,7 @@ Puede usar el marco de ER para configurar los parámetros específicos de la apl
 13. En el campo **Estado**, seleccione **Completado**.
 14. Seleccione **Guardar**.
 
-    ![Página de parámetros específicos de la aplicación de ER](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![Página de parámetros específicos de la aplicación de ER.](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. Cierre la página **Parámetros específicos de la aplicación**.
 
@@ -225,13 +225,13 @@ En el ejemplo anterior, ha accedido a parámetros específicos de la aplicación
 
 1.  Volver a usar un elemento de menú **ERSolutionAppSpecificParametersDesigner** existente o implemente su propio elemento de menú **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Página Visual Studio](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Página Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Siga uno de estos pasos:
 
     1.  Cree un nuevo botón de elementos de menú y vincúlelo al registro correspondiente de la tabla **ERSolutionTable** estableciendo su propiedad **Origen de datos** en **ERSolutionTable**.
     
-        ![Página Visual Studio](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Página Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Cree un simple botón y anule el método **En el que se ha hecho clic** como se muestra en el siguiente ejemplo.
     

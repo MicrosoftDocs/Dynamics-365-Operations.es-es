@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 913e5cf8d39dfe36efea0526d84808e7d736b030
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837882"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361170"
 ---
 # <a name="asset-fault-analysis"></a>Análisis de defectos de activos
 
@@ -60,7 +60,7 @@ En el captura de pantalla abajo, solo se selecciona el botón **Síntoma**.
 - Los registros de defectos se han hecho sobre tres síntomas de defecto: "Escape de aire", "Fusible fundido", y "Equipo atascado".  
 - En la columna **Porcentaje de probabilidad**, todos porcentajes suman 100 %. La probabilidad se basa en todos los registros de **Síntoma** en este análisis de defectos.
 
-![Figura 1](media/06-controlling-and-reporting.png)
+![Figura 1.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Agrupar por síntomas y período de tiempo
 
@@ -69,7 +69,7 @@ En el captura de pantalla de abajo, **Año** y **Mes** se agregan para mostrar c
 - Los síntomas de los defectos ahora se mostrarán a modo de registros de año/mes.  
 - En la columna **Porcentaje de probabilidad**, si agrega todos los porcentajes de cada mes, sumarán 100 %. La probabilidad se basa en todos los registros de **Síntoma** en este análisis de defectos. Si tiene un gran número de líneas en un activo, pero resalta un gran porcentaje en una línea, sería una indicación de síntoma de defecto que se debe examinar con más detenimiento para encontrar una forma de limitar el número de registros para dicho síntoma del defecto.
 
-![Figura 2](media/07-controlling-and-reporting.png)
+![Figura 2.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Agrupar por múltiples síntomas y activos
 
@@ -84,7 +84,7 @@ En el captura de pantalla de abajo, **Activo** y **Tipo de activo** se han agreg
 - Los síntomas de error ahora se dividen en las combinaciones **Activo** / **Tipo de activo** / **Síntoma**.  
 - En la columna **Porcentaje de probabilidad**, si suma todos los porcentajes para la combinación **Activo** / **Tipo de activo** / **Síntoma** respectivamente, cada uno de ellos sumará 100 %. La probabilidad se basa en todos los registros de **Síntoma** en este análisis de defectos. Si tiene un gran número de líneas en un activo, pero resalta un gran porcentaje en una línea, sería una indicación de síntoma de defecto que se debe examinar con más detenimiento para encontrar una forma de limitar el número de registros para dicho síntoma del defecto.
 
-![Figura 3](media/08-controlling-and-reporting.png)
+![Figura 3.](media/08-controlling-and-reporting.png)
 
 **Agrupar por dos síntomas, activo y tipo de activo**
 
@@ -92,7 +92,7 @@ En el captura de pantalla de abajo, **Área** se agregó a **Síntoma**, **Activ
 
 - En la columna **Porcentaje de probabilidad**, si suma todos los porcentajes para la combinación **Activo** / **Tipo de activo** / **Síntoma** en un activo, cada uno de ellos sumará 100 %. La probabilidad se basa en la combinación de **Síntoma** y **Área** en este análisis de defectos. Si tiene un gran número de líneas en un activo, pero resalta un gran porcentaje en una línea, sería una indicación de área de defecto que se debe examinar con más detenimiento para encontrar una forma de limitar el número de registros para dicha área del defecto.  
 
-![Figura 4](media/09-controlling-and-reporting.png)
+![Figura 4.](media/09-controlling-and-reporting.png)
 
 **Agrupar por tres síntomas, activo y tipo de activo**
 
@@ -100,7 +100,7 @@ En el captura de pantalla de abajo, **Tipo** se ha agregado y se muestra el cál
  
 - En la columna **Porcentaje de probabilidad**, si suma todos los porcentajes para la combinación **Activo** / **Tipo de activo** / **Síntoma** en un activo, cada uno de ellos sumará 100 %. La probabilidad se basa en la combinación de **Síntoma**, **Área** y **Tipo** en este análisis de defectos. Si tiene un gran número de líneas en un activo, pero resalta un gran porcentaje en una línea, sería una indicación de tipo de defecto que se debe examinar con más detenimiento para encontrar una forma de limitar el número de registros para dicho tipo del defecto.
 
-![Figura 5](media/10-controlling-and-reporting.png)
+![Figura 5.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

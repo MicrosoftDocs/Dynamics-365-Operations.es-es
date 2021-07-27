@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112682"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346555"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Actualizar al modelo de parte y libreta de direcciones global
 
@@ -89,7 +89,7 @@ Se necesitan las siguientes actividades para prepararse para la actualización:
 
 10. Después de la implementación, valide los conjuntos de datos, el flujo de datos y el servicio vinculado de la factoría de datos.
 
-   ![Conjuntos de datos, flujo de datos y servicio vinculado](media/data-factory-validate.png)
+   ![Conjuntos de datos, flujo de datos y servicio vinculado.](media/data-factory-validate.png)
 
 11. Navegar a **Gestionar**. Debajo de **Conexiones**, seleccione **Servicio vinculado**. Seleccione **DynamicsCrmLinkedService**. En el formulario **Editar servicio vinculado (Dynamics CRM)**, ingrese los siguientes valores.
 
@@ -154,7 +154,7 @@ Se necesitan las siguientes actividades para prepararse para la actualización:
 
 7. En la factoría de datos, ejecute la plantilla seleccionando **Activar ahora** como se muestra en la siguiente imagen. Este proceso puede tardar algunas horas en completarse según el volumen de datos.
 
-    ![Ejecución de desencadenador](media/data-factory-trigger.png)
+    ![Ejecución de desencadenador.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > Si tiene personalizaciones para **Cuenta**, **Contacto** y **Proveedor**, debe modificar la plantilla.
@@ -164,7 +164,7 @@ Se necesitan las siguientes actividades para prepararse para la actualización:
     + Descargue el archivo `FONewParty.csv` de Azure Blob Storage. La ruta es `partybootstrapping/output/FONewParty.csv`.
     + Convierta el archivo `FONewParty.csv` en un archivo de Excel e importe el archivo de Excel en la aplicación de Finances and Operations. Si la importación de csv funciona para usted, puede importar el archivo csv directamente. La importación puede tardar unas horas en ejecutarse, según el volumen de datos. Para obtener más información, consulte [Resumen de trabajos de importación y exportación de datos](../data-import-export-job.md).
 
-    ![Importar los registros del partido de Datavers](media/data-factory-import-party.png)
+    ![Importar los registros del partido de Datavers.](media/data-factory-import-party.png)
 
 9. En la aplicación de interacción con el cliente, habilite los siguientes pasos del complemento:
 
@@ -199,7 +199,7 @@ Se necesitan las siguientes actividades para prepararse para la actualización:
 3. La factoría de datos se ejecuta en función de archivos csv delimitados por comas. Si hay un valor de campo que tiene una coma, puede interferir con los resultados. Necesitas quitar las comas.
 4. La pestaña **Supervisión** proporciona información sobre todos los pasos y datos procesados. Seleccione un paso específico para depurarlo.
 
-    ![Pestaña de seguimiento](media/data-factory-monitor.png)
+    ![Pestaña de seguimiento.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Más información sobre la plantilla
 

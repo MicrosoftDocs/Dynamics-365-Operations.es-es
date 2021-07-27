@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: efa85c4a3371bb5096df1a56d818527156654279
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303253"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357224"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Administrar solicitudes de bajas y ausencias
 
@@ -41,7 +41,7 @@ Esta función proporciona las siguientes mejoras:
 - Puede seleccionar varias solicitudes de baja y realizar la misma acción en todas ellas.
 - La cinta de la parte superior y un nuevo botón de flujo de trabajo en la página muestran las acciones que puede realizar en las solicitudes de baja.
 
-![Experiencia de gerentes](media/hr-leave-and-absence-manager-experience.png)
+![Experiencia de gerentes.](media/hr-leave-and-absence-manager-experience.png)
 
 ## <a name="see-also"></a>Consulte también
 

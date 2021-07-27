@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055109"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360601"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrar con LinkedIn Talent Hub
 
@@ -91,7 +91,7 @@ Hay que crear un usuario de aplicación para que el adaptador de LinkedIn Talent
 
 6. Utilice el menú desplegable situado encima de la lista para pasar de la vista predeterminada **Usuarios habilitados** a **Usuarios de la aplicación**.
 
-    ![Vista Usuarios de la aplicación](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Vista Usuarios de la aplicación.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. En la barra de herramientas, seleccione **Nuevo**.
 
@@ -163,7 +163,7 @@ Una vez que un candidato ha pasado por el proceso de contratación y ha sido con
     - En el campo **Ubicación**, especifique la ubicación en la que estará basado el empleado.
     - Escriba o compruebe la dirección de correo electrónico del empleado.
 
-![Exportar al panel HRIS en LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Exportar al panel HRIS en LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Completar la incorporación en Human Resources
 

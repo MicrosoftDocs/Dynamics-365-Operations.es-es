@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
-ms.openlocfilehash: 451cddcf324c8ddc97f8b68d27a1eaaef6a79269
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4dec8d083b3bf9d75a9747130e80211ed265f682
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838770"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359697"
 ---
 # <a name="cfdi-layout-version-33"></a>Versión 3.3 del diseño CFDI
 
@@ -246,7 +246,7 @@ Esta sección describe el procesamiento y la configuración de un anticipo del c
 2. **Factura CFDI:** una vez que se realice la operación y se aplique el anticipo, la empresa debe emitir la factura CFDI de la operación y los detalles del UUID del anticipo de CFDI que se emitió en el paso 1.
 3. **Inversión del anticipo de CFDI:** se emite una factura electrónica para invertir el anticipo que se aplicó.
 
-![Proceso de pago avanzado](./media/mex-advance-payments-cfdi.png "Diagrama que muestra el proceso de pago por adelantado")
+![Proceso de pago avanzado.](./media/mex-advance-payments-cfdi.png "Diagrama que muestra el proceso de pago por adelantado")
 
 ## <a name="prerequisites"></a>Requisitos previos
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e066deedcdb02237d6f492047e19100255dab84e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bd33158514de149ecc7da5823c799dd567aeee13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795558"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357843"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Configurar y administrar imágenes para Modern POS (MPOS)
 
@@ -46,11 +46,11 @@ En los siguientes procedimientos, la imágenes se configuran para la entidad del
 1. Abre el portal de la sede de Commerce.
 2. Haga clic en **Retail y Commerce** &gt; **Configuración de canales** &gt; **Perfiles de canales**.
 
-    [![Navegación](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![Navegación.](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. En el perfil del canal que su tienda usa para MPOS, actualice el campo **URL de base multimedia** con la URL base de su servidor multimedia o CDN. El URL base es la primera parte de la dirección URL que es común para todas las carpetas de imagen de distintas entidades.
 
-    [![Página de perfiles del canal](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![Página de perfiles del canal.](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Definir la plantilla multimedia para una entidad
 
@@ -68,7 +68,7 @@ En los siguientes procedimientos, la imágenes se configuran para la entidad del
 8. Ejecute los trabajos de sincronización para llevar la nueva plantilla a la base de datos del canal, de modo que MPOS pueda usar la plantilla para tener acceso a las imágenes.
 9. Para actualizar la plantilla multimedia para las imágenes del catálogo en el lado del canal, asegúrese de ejecutar **Catalog Job 1150** de **TI de Retail y Commerce** &gt; **Programa de distribución**.
 
-    [![Defina la plantilla de medios del cuadro de diálogo](./media/catalog1.png)](./media/catalog1.png)
+    [![Defina la plantilla de medios del cuadro de diálogo.](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Ver una imagen de una vista previa del nivel de entidad
 
@@ -77,7 +77,7 @@ En los siguientes procedimientos, la imágenes se configuran para la entidad del
 3. Puede usar los botones **Agregar** y **Quitar** para cambiar manualmente la ruta que se basa en la plantilla implícita y se usa para una imagen específica. Para obtener más información, consulte [Sobrescribir la plantilla multimedia para los artículos de la entidad](#overwriting-the-media-template-for-entity-items) que aparece más adelante en este artículo.
 4. Una vez que haya terminado de previsualizar una imagen y de realizar los cambios que requiere, inicie la instancia de MPOS para la tienda adecuada, y compruebe si las imágenes del catálogo se aparecen.
 
-    [![Cuadro de diálogo de imágenes](./media/catalog4.png)](./media/catalog4.png)
+    [![Cuadro de diálogo de imágenes.](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > Puede usar el mismo procedimiento para las cinco entidades que se admiten: Trabajador, cliente, catálogo, categoría y productos. “Productos del catálogo” (productos que se establecen en el nivel del catálogo) y “productos del canal” (productos que se establecen en el nivel del canal) usan la plantilla multimedia que se establece para la entidad de los productos. Para la plantilla multimedia de los productos, puede seleccionar el número de imágenes de productos para mostrar por producto. También puede establecer la imagen predeterminada para un producto determinado. De esta manera, puede evitar imágenes en blanco en MPOS y ayudar a controlar qué imagen se usa como la imagen predeterminada para un producto. En el siguiente ejemplo, cada producto tiene cinco imágenes, y la primera imagen se establece como la imagen predeterminada. Los productos variantes se tratan la misma manera que los productos principales. El nombre de archivo de imagen se debe basar en el número de producto. Algunos caracteres también se escapan mientras se genera el nombre de archivo. Por lo tanto, se debe comprobar el nombre de archivo en la sección **Generar URL de imagen para Excel**. Consulte la sección [Sobrescribir mediante Edición en Excel](#overwrite-by-using-edit-in-excel) más adelante en este artículo.
@@ -117,17 +117,17 @@ Como en la sección anterior, la plantilla multimedia para una entidad determina
 6. Después de que se inicie la hoja de cálculo de Microsoft Excel, haga clic en **Activar edición** cuando se le pida.
 7. Cuando se le pida, haga clic en **Confiar en este complemento** en el panel derecho, y espere a que el complemento complete la instalación.
 
-    [![Confiar en este complemento](./media/excel4.jpg)](./media/excel4.jpg)
+    [![Confiar en este complemento.](./media/excel4.jpg)](./media/excel4.jpg)
 
 8. Si se le pide que inicie sesión, especifique las credenciales que usó para iniciar sesión en HQ.
 
-    [![Petición de iniciar sesión](./media/excel5.png)](./media/excel5.png)
+    [![Petición de iniciar sesión.](./media/excel5.png)](./media/excel5.png)
 
 9. Tras iniciar sesión, debe poder ver la lista de URL de imagen para varias entradas del catálogo.
 10. Puede corregir, agregar y eliminar las URL de imagen para diferentes artículos de la entidad.
 11. Para todas las entidades excepto los productos, puede sobrescribir la URL de imagen. Modifique la URL de imagen existente, de modo que use la nuevo dirección URL de destino de la imagen, y actualice el nombre de archivo con el nuevo nombre de archivo para el archivo de imagen. El nombre de archivo debe ser único para ayudar a garantizar que el registro sea único.
 
-    [![Sobrescribir las URL de imagen en Excel](./media/excel6.jpg)](./media/excel6.jpg)
+    [![Sobrescribir las URL de imagen en Excel.](./media/excel6.jpg)](./media/excel6.jpg)
 
     > [!NOTE]
     > Cuando sobrescribe la URL de imagen para entidades de los productos mediante la función Editar de Excel o la página del artículo de la entidad, MPOS muestra siempre todas las URL de imagen de la plantilla multimedia junto con la URL de la imagen sobrescrita.
@@ -153,11 +153,11 @@ Para todas las entidades excepto los productos, puede sobrescribir la URL de ima
 3. Si desea que la imagen se muestre en MPOS para el catálogo, puede establecerla como la imagen predeterminada.
 4. Haga clic en **Aceptar**. La URL de imagen se actualiza para esta imagen del catálogo, y se mostrará una vista previa.
 
-    [![Dirección URL actualizada en el nuevo cuadro de diálogo de imagen](./media/preview3.png)](./media/preview3.png)
+    [![Dirección URL actualizada en el nuevo cuadro de diálogo de imagen.](./media/preview3.png)](./media/preview3.png)
 
 5. También puede ver el la vista previa de la imagen para todas las URL de imágenes sobreescritas en la página de galería **Imágenes del catálogo**.
 
-    [![Página de galería de imágenes del catálogo](./media/preview-4.png)](./media/preview-4.png)
+    [![Página de galería de imágenes del catálogo.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > Actualmente, la galería no muestra vistas previas de imagen para las URL de imagen de la plantilla multimedia. Para las entidades del catálogo, del trabajador, del cliente y de la categoría, si el usuario proporciona explícitamente una URL a través de esta página, se recomienda que indique qué imagen es la imagen predeterminada, ya que los clientes de Commerce Scale Unit muestran solo una imagen por catálogo, cliente, trabajador y categoría. Si el usuario no especifica una imagen predeterminada, el sistema determina la imagen predeterminada y la envía al visitante del servicio Commerce (MPOS o comercio electrónico).
@@ -172,7 +172,7 @@ Para sobrescribir las URL de imagen para imágenes de productos del catálogo, d
 4. Haga clic en **Agregar**, y sobrescriba la URL de imagen con nueva dirección URL.
 5. Haga clic en **Aceptar**. Ahora verá la vista previa de la nueva imagen y podrá establecerla como la imagen predeterminada.
 
-    [![Imagen de la vista previa en el cuadro de diálogo de Imagen nueva](./media/cat3.png)](./media/cat3.png)
+    [![Imagen de la vista previa en el cuadro de diálogo de Imagen nueva.](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > Tras la asociación de categoría de la imagen, debe publicar el canal y ejecutar el trabajo del canal para ayudar a garantizar que los cambios se publican en la base de datos del canal.
@@ -193,7 +193,7 @@ Las imágenes de los productos que se deben usar en modo sin conexión pueden co
 6. Mientras MPOS se encuentra en el modo en línea, ejecute el trabajo del catálogo en el HQ, para asegurarse de que los datos se envían al menos una vez a la base de datos sin conexión.
 7. Configure MPOS en modo sin conexión. Debería ver la imagen que cargó para el producto específico en el HQ.
 
-    [![Imagen de producto en modo sin conexión](./media/offline1.png)](./media/offline1.png)
+    [![Imagen de producto en modo sin conexión.](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Configurar imagénes del catálogo, la categoría, el empleado y el cliente para que aparezcan en el modo sin conexión para MPOS
 
@@ -205,7 +205,7 @@ Las imágenes del catálogo, la categoría, el empleado y el cliente que se debe
 4. Ejecute el trabajo de catálogo. La imagen ahora se usará como la imagen sin conexión para dicho catálogo en MPOS.
 5. Siga un proceso similar para otras entidades, como categoría, empleado y cliente.
 
-    [![Imagen sin conexión](./media/offline2.png)](./media/offline2.png)
+    [![Imagen sin conexión.](./media/offline2.png)](./media/offline2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 09da3c3a79b5540670db25d5466023132d2848f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9521d9be3c380795abf476646d2d0e1cd36e8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832283"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354794"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Media móvil secuencia de costes de reserva
 
@@ -42,7 +42,7 @@ Para seleccionar la secuencia de costes de respaldo para los cálculos de promed
     - **Coste activo - Última emisión**
     - **Coste activo - Precio del artículo** - Las organizaciones pueden experimentar problemas de rendimiento si utilizan procesos comerciales en los que el inventario se vuelve negativo regularmente y, al mismo tiempo, el volumen de transacciones es alto. Esta configuración puede ayudar a mitigar esos problemas de rendimiento.
 
-![Parámetros de contabilidad de inventario](media/inventory-accounting-parameters.png "Parámetros de contabilidad de inventario")
+![Parámetros de contabilidad de inventario.](media/inventory-accounting-parameters.png "Parámetros de contabilidad de inventario")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

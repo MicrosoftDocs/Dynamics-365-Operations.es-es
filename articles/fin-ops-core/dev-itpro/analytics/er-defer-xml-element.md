@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: f89c671ae012907a4c3e07c09bdc867c1d67a101
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944494"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348078"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Aplazar la ejecución de elementos XML en formatos ER
 
@@ -90,14 +90,14 @@ Antes de comenzar, también debe descargar y guardar la siguiente configuración
 6. En el árbol de configuración, expanda **Modelo para aprender elementos aplazados**.
 7. Revise la lista de configuraciones de ER importadas en el árbol de configuración.
 
-    ![Configuraciones de ER importadas en la página Configuraciones](./media/ER-DeferredXml-Configurations.png)
+    ![Configuraciones de ER importadas en la página Configuraciones.](./media/ER-DeferredXml-Configurations.png)
 
 ### <a name="activate-a-configuration-provider"></a>Activar un proveedor de configuración
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el [proveedor de la configuración](general-electronic-reporting.md#Provider) para la empresa de ejemplo Litware, Inc. (`http://www.litware.com`) y que se ha marcado como activo. Si este proveedor de configuración no aparece en la lista o si no está marcado como activo, siga los pasos de [Crear un proveedor de configuración y marcarlo como activo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![Empresa de ejemplo Litware, Inc. en la página Configuraciones de localización](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
+    ![Empresa de ejemplo Litware, Inc. en la página Configuraciones de localización.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Revisar la asignación de modelo importada
 
@@ -119,7 +119,7 @@ Revise la configuración del componente de asignación del modelo ER que está c
     - El origen de datos **Agrupado** del tipo *Agrupar por* está configurado para agrupar transacciones de impuestos filtradas del origen de datos **Filtrado**.
     - El campo de agregación **TotalSum** del origen de datos **Agrupado** está configurado para resumir los valores del campo **\$TaxAmount** del origen de datos **Filtrado** para todas las transacciones de impuestos filtradas de ese origen de datos.
 
-        ![Campo de agregación TotalSum en la página de parámetros Editar 'GroupBy'](./media/ER-DeferredXml-GroupByParameters.png)
+        ![Campo de agregación TotalSum en la página de parámetros Editar 'GroupBy'.](./media/ER-DeferredXml-GroupByParameters.png)
 
 9. Revise cómo los orígenes de datos configurados están vinculados al modelo de datos y cómo exponen los datos a los que se accede para que estén disponibles en un formato ER:
 
@@ -127,7 +127,7 @@ Revise la configuración del componente de asignación del modelo ER que está c
     - El campo **\$TaxAmount** del origen de datos **Filtrado** está vinculado al campo **Data.List.Value** del modelo de datos.
     - El campo **TotalSum** del origen de datos **Agrupado** está vinculado al campo **Data.Summary.Total** del modelo de datos.
 
-    ![Página de diseñador de asignación de modelos](./media/ER-DeferredXml-ModelMapping.png)
+    ![Página de diseñador de asignación de modelos.](./media/ER-DeferredXml-ModelMapping.png)
 
 10. Cierre las páginas **Diseñador de asignación de modelos** y **Asignaciones de modelos**.
 
@@ -143,7 +143,7 @@ Revise la configuración del componente de asignación del modelo ER que está c
     - El elemento XML **Report \\Message\\Record** está configurado para llenar el documento saliente con un solo nodo de registro que muestra los detalles de una sola transacción de impuestos.
     - El elemento XML **Report\\Message\\Summary** está configurado para llenar el documento saliente con un solo nodo de resumen que incluye la suma de los valores de impuestos de las transacciones de impuestos procesadas.
 
-    ![Elemento XML de mensaje y elementos XML anidados en la página Diseñador de formato](./media/ER-DeferredXml-Format.png)
+    ![Elemento XML de mensaje y elementos XML anidados en la página Diseñador de formato.](./media/ER-DeferredXml-Format.png)
 
 5. En la pestaña **Cartografía**, revise los siguientes detalles:
 
@@ -157,14 +157,14 @@ Revise la configuración del componente de asignación del modelo ER que está c
     - El atributo **TotalTaxAmount** está enlazado a **model.Data.Summary.Total** para generar la suma de los valores fiscales de las transacciones fiscales procesadas.
     - El atributo **ExecutionDateTime** genera la fecha y la hora (incluidos los milisegundos) en que se agrega el nodo de resumen.
 
-    ![Pestaña Asignación en la página Diseñador de formato](./media/ER-DeferredXml-Format2.png)
+    ![Pestaña Asignación en la página Diseñador de formato.](./media/ER-DeferredXml-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Ejecutar el formato importado
 
 1. En la página **Diseñador de formato**, seleccione **Ejecutar**.
 2. Descargue el archivo que ofrece el navegador web y ábralo para su revisión.
 
-    ![Archivo descargado de formato importado](./media/ER-DeferredXml-Run.png)
+    ![Archivo descargado de formato importado.](./media/ER-DeferredXml-Run.png)
 
 Observe que el nodo de resumen presenta la suma de los valores de impuestos para las transacciones procesadas. Debido a que el formato está configurado para usar el enlace **model.Data.Summary.Total** para devolver esta suma, la suma se calcula llamando a la agregación **TotalSum** del origen de datos **Grouped** del tipo *GroupBy* en la asignación del modelo. Para calcular esta agregación, la asignación de modelo recorre en iteración todas las transacciones que se han seleccionado en el origen de datos **Filtered**. Al comparar los tiempos de ejecución del nodo de resumen y el último nodo de registro, puede determinar que el cálculo de la suma tomó 12 milisegundos (ms). Al comparar los tiempos de ejecución del primer y último nodo de registro, puede determinar que la generación y suma de todos los nodos de registro tardó 9 ms. Por lo tanto, se requirió un total de 21 ms.
 
@@ -178,25 +178,25 @@ Si el volumen de transacción es mucho mayor que el volumen del ejemplo actual, 
 4. Configure la expresión **Nombre de clave de datos recopilados** como `WsColumn`.
 5. Configure la expresión **Valor de clave de datos recopilados** como `WsRow`.
 
-    ![Elemento XML de registro en la página Diseñador de formato](./media/ER-DeferredXml-Format3.png)
+    ![Elemento XML de registro en la página Diseñador de formato.](./media/ER-DeferredXml-Format3.png)
 
 6. Seleccione el atributo **Report\\Message\\Record\\TaxAmount**.
 7. Configure la expresión **Nombre de clave de datos recopilados** como `SummingAmountKey`.
 
-    ![Atributo TaxAmount en la página Diseñador de formato](./media/ER-DeferredXml-Format4.png)
+    ![Atributo TaxAmount en la página Diseñador de formato.](./media/ER-DeferredXml-Format4.png)
 
     Puede considerar esta configuración como el cumplimiento de una hoja de trabajo virtual, donde el valor de la celda A1 se agrega con el valor del importe de los impuestos de cada transacción de impuestos procesada.
 
 8. Seleccione el atributo **Report\\Message\\Record\\RunningTotal** y luego seleccione **Editar fórmula**.
 9. Configure la expresión `SUMIF(SummingAmountKey, WsColumn, WsRow)` utilizando la función ER [SUMIF](er-functions-datacollection-sumif.md) integrada y seleccione **Guardar**.
 
-    ![Expresión SUMIF](./media/ER-DeferredXml-FormulaDesigner.png)
+    ![Expresión SUMIF.](./media/ER-DeferredXml-FormulaDesigner.png)
 
 10. Cierre la página **Diseñador de fórmula**.
 11. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 12. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Lista generada de valor fiscal con total acumulado](./media/ER-DeferredXml-Run1.png)
+    ![Lista generada de valor fiscal con total acumulado.](./media/ER-DeferredXml-Run1.png)
 
     El último nodo de registro contiene el total acumulado de los valores impositivos para todas las transacciones procesadas utilizando la salida generada como origen de datos. Este origen de datos comienza desde el principio del informe y continúa hasta la última transacción fiscal. El nodo de resumen contiene la suma de los valores impositivos para todas las transacciones procesadas que se calculan en la asignación del modelo utilizando el origen de datos del tipo *GroupBy*. Tenga en cuenta que los valores son iguales. Por lo tanto, la suma basada en la salida se puede usar en lugar de **GroupBy**. Al comparar los tiempos de ejecución del primer nodo de registro y del nodo de resumen, puede determinar que la generación y suma de todos los nodos de registro tardó 11 ms. Por lo tanto, en lo que respecta a la generación de nodos de registro y la suma de los valores fiscales, el formato modificado es aproximadamente dos veces más rápido que el formato original.
 
@@ -205,7 +205,7 @@ Si el volumen de transacción es mucho mayor que el volumen del ejemplo actual, 
 15. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 16. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Lista generada de valores impositivos mediante fórmula editada](./media/ER-DeferredXml-Run2.png)
+    ![Lista generada de valores impositivos mediante fórmula editada.](./media/ER-DeferredXml-Run2.png)
 
     Observe que el total acumulado de los valores de impuestos del último nodo de registro ahora es igual a la suma en el nodo de resumen.
 
@@ -218,7 +218,7 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 3. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 4. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado de valores de impuestos para el encabezado del informe](./media/ER-DeferredXml-Run3.png)
+    ![Archivo descargado de valores de impuestos para el encabezado del informe.](./media/ER-DeferredXml-Run3.png)
 
     Observe que la suma de los valores impositivos del nodo de resumen ahora es igual a 0 (cero), porque esta suma ahora se calcula en función de la salida generada. Cuando se genera el primer nodo de registro, la salida generada aún no contiene nodos de registro que tienen detalles de transacción. Puede configurar este formato para aplazar la ejecución del elemento **Report\\Message\\Summary** hasta que el elemento **Report\\Message\\Record** se haya ejecutado para todas las transacciones fiscales.
 
@@ -227,12 +227,12 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 1. En la página **Diseñador de formato**, en la pestaña **Formato**, seleccione el elemento XML **Report\\Message\\Summary**.
 2. Establezca la opción **Ejecución aplazada** en **Sí**.
 
-    ![Opción Ejecución aplazada del elemento XML Resumen en la página Diseñador de formato](./media/ER-DeferredXml-Format5.png)
+    ![Opción Ejecución aplazada del elemento XML Resumen en la página Diseñador de formato.](./media/ER-DeferredXml-Format5.png)
 
 3. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 4. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado de ejecución diferida](./media/ER-DeferredXml-Run4.png)
+    ![Archivo descargado de ejecución diferida.](./media/ER-DeferredXml-Run4.png)
 
     El elemento **Report\\Message\\Summary** ahora se ejecuta solo después de todos los demás elementos que están anidados bajo su elemento principal, **Report\\Message**. Por lo tanto, se ejecuta después de que el elemento **Report\\Message\\Record** se haya ejecutado para todas las transacciones fiscales del origen de datos **model.Data.List**. Los tiempos de ejecución del primer y último nodo de registro, y de los nodos de encabezado y resumen, revelan este hecho.
 

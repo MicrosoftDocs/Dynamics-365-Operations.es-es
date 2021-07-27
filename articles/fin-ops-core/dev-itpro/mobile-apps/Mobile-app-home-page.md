@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e13e99515d52e1e24970908a106ae99a7e8b0d80
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188419"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360825"
 ---
 # <a name="mobile-app-home-page"></a>Página principal de aplicación móvil
 
@@ -39,7 +39,7 @@ La aplicación móvil permite a su organización tener los procesos de negocio d
 ## <a name="elements-of-the-mobile-app"></a>Elementos de la aplicación móvil
 La exploración en la aplicación móvil consiste en cuatro conceptos básicos: el panel de información, los espacios de trabajo, las páginas, y las acciones. 
 
-[![Conceptos de navegación en la aplicación móvil](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Conceptos de navegación en la aplicación móvil.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Al iniciar la aplicación, vaya al **panel de información**.
 2. En el panel, puede ver una lista de **espacios de trabajo** que ya sea han publicado.
@@ -53,7 +53,7 @@ La exploración en la aplicación móvil consiste en cuatro conceptos básicos: 
 ## <a name="implementation-process"></a>Proceso de implementación
 La ilustración siguiente muestra el proceso para implementar ambos espacios de trabajo móviles que proporciona Microsoft y los espacios de trabajo móviles personalizados. 
 
-[![Proceso de implementación de aplicaciones móviles](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Proceso de implementación de aplicaciones móviles.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 La siguiente tabla incluye vínculos a los recursos que pueden ayudarle a implementar ambos espacios de trabajo móviles que proporciona Microsoft y los espacios de trabajo móviles personalizados. Los números de la primera columna corresponden a los pasos numerados de la ilustración anterior.
 

@@ -2,7 +2,7 @@
 title: Módulo de reproductor de vídeo
 description: En este tema se tratan los módulos de reproductor de vídeo y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa1efa6ce959439c49983553edfaf247c8e8dcd5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 48d7a047a739420fa4aaa3f520c774854f254ef9
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797416"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479289"
 ---
 # <a name="video-player-module"></a>Módulo de reproductor de vídeo
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 En este tema se tratan los módulos de reproductor de vídeo y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
@@ -43,12 +44,16 @@ El módulo del reproductor de vídeo también admite pistas de audio secundarias
 
 La siguiente imagen muestra un ejemplo de un módulo de reproductor de vídeo en una página principal.
 
-![Ejemplo de un módulo de reproductor de vídeo](./media/ecommerce-videoplayer.PNG)
+![Ejemplo de un módulo de reproductor de vídeo.](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Propiedades de módulo de reproductor de vídeo
 
 | Nombre de la propiedad         | Valor                               | Descripción |
 |-----------------------|-------------------------------------|-------------|
+| Cabecera               | Etiqueta de encabezado y texto de encabezado (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | De manera predeterminada, la etiqueta de encabezado **H2** se usa para el encabezado, pero la etiqueta de encabezado se puede cambiar para cumplir los requisitos de accesibilidad. |
+| Texto enriquecido             | Texto de párrafo | El módulo admite texto de párrafo en formato de texto enriquecido. Se admiten algunas capacidades básicas de texto enriquecido, hipervínculos y subrayado y cursiva. Algunas de estas capacidades se pueden anular por el tema de página que se aplica al módulo. |
+| Vincular                  | Texto de vínculo, dirección URL de vínculo, etiqueta de aplicaciones de Internet enriquecidas accesibles (ARIA) y el selector de **Abrir vínculo en una nueva pestaña** | El módulo admite uno o más vínculos de “llamada a la acción”. Si se agrega un vínculo, se requiere un texto de vínculo, una dirección URL y una etiqueta ARIA. Las etiquetas ARIA deben ser descriptivas para cumplir los requisitos de accesibilidad. Los vínculos se pueden configurar para abrirlos en una nueva pestaña. |
+| Trasfondo              | Encabezado, texto o enlaces | Se puede agregar contexto adicional para el módulo del reproductor de video, como el nombre de un autor o diseñador, o enlaces a blogs personales. |
 | Reproducción automática             | **Verdadero** o **Falso**               | Si el valor está establecido en **Verdadero**, el vídeo se reproduce automáticamente. |
 | Silenciar                  | **Verdadero** o **Falso**               | Si el valor está establecido en **Verdadero**, el audio está silenciado. Para este reproductor, el valor predeterminado es **Falso**. En el explorador de Chrome, los vídeos de reproducción automática están silenciados de manera predeterminada y el sonido solo se reproduce si el usuario reproduce el vídeo manualmente. |
 | Bucle                  | **Verdadero** o **Falso**               | Si el valor está establecido en **Verdadero**, el vídeo se repite en un bucle. |
@@ -58,6 +63,9 @@ La siguiente imagen muestra un ejemplo de un módulo de reproductor de vídeo en
 | Controles de reproductor de vídeo | **Verdadero** o **Falso**               | Si el valor está establecido en **Verdadero**, se muestran todos los controles del reproductor de vídeo. Estos controles incluyen los botones de reproducción y pausa, un indicador de progreso y opciones de subtítulos. |
 | Ocultar imagen del publicador     | **Verdadero** o **Falso**               | Un vídeo puede tener un marco de póster. Si el valor de esta propiedad se establece en **Verdadero**, se oculta el marco de póster. |
 | Nivel de máscara            | Un número del **0** al **100** | La máscara que se aplica al vídeo para estilo. |
+
+> [!IMPORTANT]
+> Las propiedades **Encabezado**, **Texto enriquecido**, **Enlace** y **Trasfondo** están disponibles a partir del lanzamiento de la versión 10.0.20 de Dynamics 365 Commerce.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Agregar un módulo de reproductor de vídeo a una página
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 3550b2b7b305702ffc337ba0a9bb79f60a9de120
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db7bdfe102fa5e24816f2cfaf2b53351362cddd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023565"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358203"
 ---
 # <a name="set-up-tds-registration-numbers-for-legal-entities"></a>Configurar números de registro de TDS para entidades jurídicas
 
@@ -31,7 +31,7 @@ Este tema explica cómo configurar números de registro para entidades jurídica
 
 1. Vaya a **Administración de la organización \> Organizaciones \> Entidades jurídicas**.
 
-    [![Página Entidades jurídicas](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
+    [![Página Entidades jurídicas.](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
 
 2. En la ficha desplegable **Información de impuestos**, en el campo **Número de cuenta permanente**, introduzca el número de cuenta permanente (PAN) de la entidad jurídica.
 3. En el campo **Número de círculo**, introduzca el número de círculo de la autoridad de TDS.
@@ -41,11 +41,11 @@ Este tema explica cómo configurar números de registro para entidades jurídica
 7. En el panel de acciones, seleccione **Id. de registro** para abrir la página **Administrar direcciones**.
 8. En la ficha desplegable **Información de impuestos**, seleccione **Agregar** o **Editar** para abrir la página **Administrar información de impuestos**, donde puede mantener la entrada de registro de impuestos.
 
-    [![Página Administrar direcciones](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
+    [![Página Administrar direcciones.](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
 
 9. En la ficha desplegable **Retención de impuestos**, en el campo **Número de cuenta de impuestos (TAN)**, introduzca el número de registro. Este número debe constar de cuatro caracteres alfabéticos, luego cinco caracteres numéricos y luego un carácter alfabético. Este es un ejemplo: **AXDF87645F**.
 10. En el campo **Nombre o descripción**, escriba una descripción del número de registro de la retención de impuestos.
 
-    [![Página Administrar información de impuestos](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
+    [![Página Administrar información de impuestos.](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
 
 11. Cierre la página.

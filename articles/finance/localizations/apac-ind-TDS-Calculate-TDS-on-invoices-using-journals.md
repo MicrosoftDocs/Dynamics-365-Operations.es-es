@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d68e1b3a4dc31823ec56a525149f16bdc23c0883
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: bc1a8570e60e2b17f27c3e63c5ff847b3cb7a2dd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023582"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358467"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>Calcular TDS en facturas usando diarios
 
@@ -31,7 +31,7 @@ Este tema enumera los pasos para calcular los impuestos deducidos en el origen (
 
 Empiece por abrir la página **Diarios generales** (**Contabilidad general > Entradas del diario > Diarios generales**).
 
-[![Diarios generales](./media/apac-ind-TDS-57.png)](./media/apac-ind-TDS-57.png)
+[![Diarios generales.](./media/apac-ind-TDS-57.png)](./media/apac-ind-TDS-57.png)
 
 1. Cree líneas de diario utilizando los formularios de diario que se enumeran en la tabla. Seleccione el tipo de cuenta y el tipo de cuenta de contrapartida e introduzca el importe de la transacción. 
 

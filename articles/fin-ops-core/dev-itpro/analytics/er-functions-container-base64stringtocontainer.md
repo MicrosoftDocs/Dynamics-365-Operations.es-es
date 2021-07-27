@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6fd08d9a2522bdf497b1926c884a4583065d9f19
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754383"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355379"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Función ER Base64StringToContainer
 
@@ -73,7 +73,7 @@ Defina los siguientes orígenes de datos en la asignación de su modelo:
 
 En este ejemplo, el origen de datos **\#MediaAsBase64String** codifica el contenido binario del adjunto multimedia actual como texto que representa un grupo Base64 de esquemas de codificación de binario a texto. El origen de datos **\#BlobFomBase64** decodifica la cadena Base64 y devuelve un valor binario en formato BLOB.
 
-![Orígenes de datos de ejemplo en la página del diseñador de asignación de modelo ER](./media/er-functions-container-base64stringtocontainer-1.png)
+![Orígenes de datos de ejemplo en la página del diseñador de asignación de modelo ER.](./media/er-functions-container-base64stringtocontainer-1.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
