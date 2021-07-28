@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e9d1f33102ed08d9e5c486d4d1490d4b278a28e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744132"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360312"
 ---
 # <a name="accessibility-features"></a>Características de accesibilidad
 
@@ -52,13 +52,13 @@ Puede accederse a cada acción que se ofrece en una página desde un teclado, me
 
 Desea ejecutar la acción **Registro de notificación por correo electrónico** que aparece en el grupo **Notificación por correo electrónico** en la pestaña **Pedido de ventas** del panel de acciones.
 
-![Acción de registro de la notificación por correo electrónico en el panel de acciones](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Acción de &quot;Registro de la notificación por correo electrónico&quot; en el panel de acciones")
+![Acción de registro de la notificación por correo electrónico en el panel de acciones.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Acción de &quot;Registro de la notificación por correo electrónico&quot; en el panel de acciones")
 
 Una opción es para usar el teclado. Presione Ctrl+F6 para mover el enfoque al panel de acciones, y presione la ficha repetidamente para pasar por todas las fichas y acciones, hasta que la acción **Registro de notificación por correo electrónico** tenga el foco.
 
 Sin embargo, también puede ejecutar la acción más directamente. En cualquier lugar de la página, presione Ctrl+Apóstrofo (') para mostrar el cuadro de búsqueda para las acciones.
 
-![Cuadro de búsqueda de acciones](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Cuadro de búsqueda de acciones")
+![Cuadro de búsqueda de acciones.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Cuadro de búsqueda de acciones")
 
 En el cuadro de búsqueda, escriba palabras que describen la acción. La acción se a pone a su disposición, y puede ejecutarla directamente. Por ejemplo, si especifica **correo electrónico**, **notific** (una palabra parcial), o **registro**, puede "saltar" a la funcionalidad de registro de la notificación por correo electrónico.
 

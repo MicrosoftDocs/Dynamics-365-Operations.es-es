@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 03150ccdaeaf48754f04a4329cb1bc14ea2b6895
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9215672f4ace591bf7d964c8fbd3ad483bacca5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840422"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360433"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar directivas de consolidación de envíos
 
@@ -179,7 +179,7 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 1. Deje la opción **Consolidar con envíos abiertos** establecida en *No*.
 1. En el panel Acciones, seleccione **Guardar**.
 1. En la ficha desplegable **Campos de consolidacion**, en la lista **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
-1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
+1. Seleccione el botón **Agregar** ![Flecha derecha.](media/forward-button.png) Para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
 1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango**, en la cuadrícula, busque la fila donde el campo **Campo** está establecido en *Cuenta de cliente* y establezca el campo **Criterio** para esa fila en *US-001*.
 1. Seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
@@ -214,7 +214,7 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 1. Configure la opción **Consolidar con envíos abiertos** en *Sí*.
 1. En el panel Acciones, seleccione **Guardar**.
 1. En la ficha desplegable **Campos de consolidacion**, en la lista **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
-1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
+1. Seleccione el botón **Agregar** ![Flecha derecha.](media/forward-button.png) Para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
 1. En el cuadro de diálogo del editor de consultas, en la pestaña **Uniones**, expanda y seleccione **Tablas \> Detalles de carga** en el árbol.
 1. Seleccione **Agregar unión de tabla**.
@@ -251,9 +251,9 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 1. Configure la opción **Consolidar con envíos abiertos** en *Sí*.
 1. En el panel Acciones, seleccione **Guardar**.
 1. En la ficha desplegable **Campos de consolidacion**, en la lista **Campos restantes**, seleccione la fila donde el campo **Nombre de campo** está establecido en *Solicitud de cliente*.
-1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
+1. Seleccione el botón **Agregar** ![Flecha derecha.](media/forward-button.png) Para mover el campo a la lista **Campos seleccionados**.
 1. En la lista **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
-1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
+1. Seleccione el botón **Agregar** ![Flecha derecha.](media/forward-button.png) Para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
 1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango**, busque la fila donde el campo **Campo** está establecido en *Cuenta de cliente* y establezca el campo **Criterio** para esa fila en *US-001*.
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
@@ -283,7 +283,7 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 1. Deje la opción **Consolidar con envíos abiertos** establecida en *No*.
 1. En el panel Acciones, seleccione **Guardar**.
 1. En la ficha desplegable **Campos de consolidacion**, en la lista **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
-1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
+1. Seleccione el botón **Agregar** ![Flecha derecha.](media/forward-button.png) Para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
 1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango**, seleccione **Añadir** para agregar una fila que tenga la siguiente configuración a la cuadrícula:
 
@@ -317,7 +317,7 @@ Por lo general, este caso de negocios se puede abordar mediante las directivas p
 1. Deje la opción **Consolidar con envíos abiertos** establecida en *No*.
 1. En el panel Acciones, seleccione **Guardar**.
 1. En la ficha desplegable **Campos de consolidacion**, en el campo **Campos restantes**, seleccione la fila donde el campo **Nombre del campo** está establecido en *Modo de entrega*.
-1. Seleccione el botón **Añadir** ![Flecha correcta](media/forward-button.png) para mover el campo a la lista **Campos seleccionados**.
+1. Seleccione el botón **Agregar** ![Flecha derecha.](media/forward-button.png) Para mover el campo a la lista **Campos seleccionados**.
 1. En el panel Acciones, seleccione **Editar consulta**.
 1. En el cuadro de diálogo del editor de consultas, en la pestaña **Rango**, busque la fila donde el campo **Campo** está establecido en *Almacén* y establezca el campo **Criterio** para esa fila en *61, 63*.
 1. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.

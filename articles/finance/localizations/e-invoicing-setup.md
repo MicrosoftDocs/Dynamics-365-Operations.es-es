@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890840"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348495"
 ---
 # <a name="set-up-electronic-invoicing"></a>Configurar la facturación electrónica
 
@@ -37,7 +37,7 @@ La capacidad de configuración se basa en la configuración del formato de infor
 
 La siguiente ilustración muestra los componentes principales de una función de facturación electrónica.
 
-![Descripción general de la característica de facturación electrónica](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Descripción general de la característica de facturación electrónica.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Debido a las variaciones en los formatos de factura y los flujos de acción, la configuración de la función puede variar según el país o la región, o según los requisitos comerciales.
 
@@ -50,7 +50,7 @@ El proceso de configuración debe completarse en su entorno RCS. Siga estos paso
 3. En la página **Características de facturación electrónica**, seleccione **Importar** para importar la configuración del modelo de datos de ER desde el repositorio global.
 4. Seleccione **Agregar** para crear una característica de facturación electrónica. Puede crear la característica desde cero o derivarla de una función adicional de facturación electrónica existente.
 
-    ![Agregar una característica de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Agregar una característica de facturación electrónica.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > Cuando crea una nueva característica de facturación electrónica, tiene un número de versión y su estado predeterminado se establece en **Borrador**.
@@ -63,21 +63,21 @@ Siga estos pasos para agregar formatos ER a la función de facturación electró
 
 1. En la página **Funciones de facturación electrónica**, en la pestaña **Configuraciones**, seleccione **Agregar** para agregar configuraciones de formato de archivo ER para la función de facturación electrónica.
 
-    ![Agregar configuraciones de característica de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Agregar configuraciones de característica de facturación electrónica.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Cuando crea una función de facturación electrónica desde cero, debe agregar manualmente todas las configuraciones de formato de archivo ER. Cuando obtiene una función de facturación electrónica de una función existente, las configuraciones de formato de archivo ER se crean automáticamente, porque se heredan de la función de facturación electrónica original.
 
 2. Seleccione **Editar** para abrir la página **Diseñador de formatos**, donde puede editar la configuración del formato de archivo ER.
 
-    ![Editar configuraciones de característica de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Editar configuraciones de característica de facturación electrónica.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Mientras edita el formato, el estado de la versión de configuración se establece en **Borrador**.
 
 3. Utilice la página **Diseñador de formatos** para cambiar la configuración del formato de archivo. Para obtener más información, consulte [Crear configuraciones de documentos electrónicos](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Página de diseñador de formato](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![Página de diseñador de formato.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>Configuraciones de funciones
 
@@ -87,20 +87,20 @@ Siga estos pasos para agregar configuraciones de característica a la función d
 
 1. En la página **Funciones de facturación electrónica**, en la pestaña **Configuraciones**, seleccione **Agregar** para agregar configuraciones de característica para la función de facturación electrónica.
 
-    ![Agregar configuraciones de característica de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Agregar configuraciones de característica de facturación electrónica.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Cuando crea una función de facturación electrónica desde cero, debe agregar manualmente todas las configuraciones de característica que necesita. Cuando obtiene una función de facturación electrónica de una función existente, todas las configuraciones de característica se crean automáticamente, porque se heredan de la función de facturación electrónica original.
 
 2. Seleccione **Editar** para editar la configuración de la versión de la función.
 
-    ![Editar configuraciones de característica de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Editar configuraciones de característica de facturación electrónica.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Use la página **Configuración de la versión de función** para configurar acciones, reglas de aplicabilidad y variables.
 
-    ![Acciones, reglas de aplicabilidad y variables](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![Acciones, reglas de aplicabilidad y variables.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
-### <a name="actions"></a>Acciones
+### <a name="actions"></a>Acciones 
 
 Las acciones son una lista predefinida de operaciones que se ejecutan en orden secuencial. Esta lista representa el desglose de los pasos necesarios para la ejecución completa de la función de facturación electrónica. Las acciones pueden encapsular, en la misma facturación electrónica, la comunicación en ambas direcciones: enviar una solicitud de destino, recibir una respuesta y analizar su contenido.
 
@@ -113,7 +113,7 @@ En la página **Configuración de versiones de funciones**, en la pestaña **Acc
 - Seleccione **Nuevo** o **Eliminar** para agregar nuevas acciones o eliminar acciones existentes.
 - Seleccione **Arriba** o **Abajo** para mover las acciones seleccionadas hacia arriba o hacia abajo en la cuadrícula y, por lo tanto, cambiar el orden en el que se ejecutan. Las acciones se ejecutan en el orden en que aparecen en la cuadrícula, de arriba a abajo.
 
-![Gestionar acciones](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![Gestionar acciones.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 En la tabla siguiente se describen los campos disponibles en la ficha desplegable **Acciones**.
 
@@ -129,7 +129,7 @@ En la tabla siguiente se describen los campos disponibles en la ficha desplegabl
 
 La ficha desplegable **Parámetros** enumera los parámetros de la acción que se selecciona en la ficha desplegable **Acciones**.
 
-![Ficha desplegable Parámetros](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![Ficha desplegable Parámetros.](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 En la tabla siguiente se describen los campos disponibles en la ficha desplegable **Parámetros**.
 
@@ -259,20 +259,20 @@ Las reglas de aplicabilidad le permiten crear reglas lógicas que determinan el 
 
 1. En la página **Configuración de la versión de función**, en la pestaña **Reglas de aplicabilidad**, seleccione **Nuevo** para agregar una regla de aplicabilidad.
 
-    ![Administrar reglas de aplicabilidad](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![Administrar reglas de aplicabilidad.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. En la cuadrícula, seleccione las cláusulas que deben agruparse.
 3. Seleccione **Cláusula de grupo**.
 
-    ![Agrupación de cláusulas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![Agrupación de cláusulas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     Cuando se agrupan las cláusulas, se agrega una nueva columna a la cuadrícula. Esta columna especifica el operador lógico para las cláusulas agrupadas.
 
-    ![Operador lógico para cláusulas agrupadas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![Operador lógico para cláusulas agrupadas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 Para desagrupar cláusulas, seleccione las cláusulas agrupadas que desee desagrupar y luego seleccione **Cláusula de desagrupar**.
 
-![Desagrupación de cláusulas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![Desagrupación de cláusulas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > Cuando desagrupa una cláusula, siempre comience desde el nivel de agrupación más interno.
@@ -294,7 +294,7 @@ Puede crear variables y luego usarlas como valor de entrada para un parámetro d
 
 - En la página **Configuración de la versión de función**, en la pestaña **Variables**, seleccione **Nuevo** o **Eliminar** para gestionar variables.
 
-    ![Gestionar variables](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![Gestionar variables.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 En la tabla siguiente se describen los campos disponibles en la pestaña **Variables**.
 
@@ -310,7 +310,7 @@ En la tabla siguiente se describen los campos disponibles en la pestaña **Varia
 
 - En la página **Configuración de la versión de función**, en el panel de acciones, seleccione **Validar** para validar la configuración de la versión de la función.
 
-   ![Selección del botón Validar](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![Selección del botón Validar.](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 La validación comprueba la coherencia de toda la configuración. Por ejemplo, si un parámetro específico para una acción es obligatorio pero su valor permanece en blanco, la validación detecta esta inconsistencia y recibe una advertencia.
 
@@ -323,7 +323,7 @@ Siga estos pasos para habilitar el entorno de facturación electrónica para la 
 1. En la página **Funciones de facturación electrónica**, en la pestaña **Entornos**, seleccione **Habilitar** para agregar un entorno de facturación electrónica.
 2. En el campo **Válido desde**, ingrese la fecha en que el nuevo entorno entra en vigencia.
 
-![Habilitar un ambiente de facturación electrónica](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Habilitar un ambiente de facturación electrónica.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Organizaciones
 

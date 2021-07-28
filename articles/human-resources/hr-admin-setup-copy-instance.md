@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8961b7156f52e48dbfcf7efb14e50316e81fcfff
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053692"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360158"
 ---
 # <a name="copy-an-instance"></a>Copiar una instancia
 
@@ -71,11 +71,11 @@ Para completar esta tarea, primero copie una instancia y luego inicie sesión en
 
 4. En el panel de tareas **Copiar una instancia**, seleccione la instancia para sobrescribir y luego seleccione **Copiar**. Espere a que el valor del campo **Estado de copia** se actualice a **Terminado**.
 
-   ![[Seleccionar la instancia para sobrescribir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Seleccionar la instancia para sobrescribir.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Seleccione **Power Platform** e inicie sesión en el Centro de administración de Microsoft Power Platform.
 
-   ![[Seleccionar Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Seleccionar Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Seleccione el entorno de Power Apps para copiar y luego seleccione **Copiar**.
 

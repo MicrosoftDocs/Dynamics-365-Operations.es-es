@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c8ad853b8d1f8383b23f2ac4341a5f37a904795
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: eae89e9c3bf32ab5a4c4e6c497c9d3baa5b75fde
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054461"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359230"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (3 de septiembre de 2020)
 
@@ -99,9 +99,9 @@ Esta característica también promueve las opciones de flujo de trabajo que apar
 
 - [Mejoras en la experiencia del flujo de trabajo de gestión de personal y organización](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) en el plan del segundo lanzamiento de versiones de 2020 de Dynamics 365
 
-![Elementos de trabajo asignados a mí](./media/hr-workflow-work-items-assigned-to-me.png)
+![Mis elementos de trabajo.](./media/hr-workflow-work-items-assigned-to-me.png)
 
-![Acceso rápido a elementos de flujo de trabajo](./media/hr-workflow-quick-access.png)
+![Acceso rápido a elementos de flujo de trabajo.](./media/hr-workflow-quick-access.png)
 
 ## <a name="coming-soon"></a>Próximamente
 

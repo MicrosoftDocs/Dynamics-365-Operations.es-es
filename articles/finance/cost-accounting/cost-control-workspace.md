@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6fd2a8548d4929a7a3b3b6d20adbc230c5edf6ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833051"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355236"
 ---
 # <a name="cost-control-workspace"></a>Espacio de trabajo de control de costes 
 
@@ -116,7 +116,7 @@ El espacio de trabajo **Control de costes** está diseñado como un informe web.
 
 La lista de informes disponibles para los usuarios, como los directores, la controla la configuración de la opción **Publicación** en la página **Configuraciones del espacio de trabajo de control de costes**.
 
-![Un informe que los usuarios pueden ver en el espacio de trabajo Control de costes](./media/report-cost-control.png)
+![Un informe que los usuarios pueden ver en el espacio de trabajo Control de costes.](./media/report-cost-control.png)
 
 Un director puede seleccionar el período del calendario fiscal que se va a ver. Se utiliza la fecha de la sesión para determinar el periodo actual predeterminado.
 
@@ -136,11 +136,11 @@ Una cuadrícula muestra cada elemento de coste que está asociado al nodo de la 
 
 Dos gráficos muestran un resumen de los valores reales frente a los del presupuesto y la desviación del presupuesto por período.
 
-![Los gráficos que muestran un resumen de los valores reales frente a los del presupuesto y la desviación del presupuesto por período](./media/cost-element-details-operations.png)
+![Los gráficos que muestran un resumen de los valores reales frente a los del presupuesto y la desviación del presupuesto por período.](./media/cost-element-details-operations.png)
 
 Los usuarios pueden hacer clic en **Entradas de costes** para explorar en profundidad los detalles de la entrada según necesiten.
 
-![Entradas de costes](./media/cost-entries.png)
+![Entradas de costes.](./media/cost-entries.png)
 
 Por ejemplo, el alquiler es un gasto que se distribuye a los centros de coste. Un usuario que desee saber el coste del alquiler que su centro de coste debe asumir puede explorar en profundidad para ver cómo se ha calculado el alquiler.
 
@@ -148,7 +148,7 @@ Si los usuarios hacen clic en **Base de asignación** en la página **Entradas d
 
 En el siguiente ejemplo, la base de la asignación es del tipo **Base de asignación de la fórmula**, y se muestra la fórmula. Se enumeran los factores que definen la fórmula. Además, una cuadrícula muestra el cálculo que se realizó por objeto de coste.
 
-![Cálculos por objeto de coste](./media/cost-entries-allocation-base.png)
+![Cálculos por objeto de coste.](./media/cost-entries-allocation-base.png)
 
 Recursos adicionales 
 

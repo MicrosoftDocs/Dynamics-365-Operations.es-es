@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6fc641233a1bd217de5b9eb6e06560b989f91c7b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 176ce59547456a14b494caa4dc3c2d8251920fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056357"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360553"
 ---
 # <a name="set-up-reason-codes"></a>Configurar códigos de motivos
 
@@ -56,15 +56,15 @@ Verá un banner en la página **Vínculos** del espacio de trabajo **Administrac
 
 1. Seleccione **Códigos de motivo** para obtener detalles sobre el estado de la migración.
 
-   [![Códigos de motivos](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
+   [![Códigos de motivos.](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
 
 2. Seleccione un código de motivo que no haya podido migrar.
 
-   [![Estado de la migración de los códigos de motivo](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
+   [![Estado de la migración de los códigos de motivo.](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
 
 3. Seleccione **Migrar código de motivo**.
 
-   [![Migrar código de motivo](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
+   [![Migrar código de motivo.](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
 
 4. En el panel **Migración de código de motivo de prestación** tiene dos opciones para asignar a un código de motivo de Administración de personal:
 
@@ -73,10 +73,10 @@ Verá un banner en la página **Vínculos** del espacio de trabajo **Administrac
      > Solo puede utilizar un código de motivo existente en Administración de personal si aún no se ha migrado otro código de motivo de Administración de prestaciones.
    - Para crear un nuevo código de motivo en Administración de personal, introduzca uno nuevo en **Nuevo código de motivo** y, a continuación, escriba una descripción en **Nueva descripción**.
 
-   [![Asignar a un código de motivo de Administración de personal](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
+   [![Asignar a un código de motivo de Administración de personal.](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
 
 Una vez que se hayan migrado los códigos de motivo a Administración de personal, la opción de usarlos en Administración de prestaciones se establece automáticamente en **Sí**.
 
-[![Usar código de motivo en la Administración de prestaciones](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+[![Usar código de motivo en la Administración de prestaciones.](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17e5d8638dc02d92a0c67364790353833551250f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7c4f1306faa2c0ae02fee48449839db4ff0907ff
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187419"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348401"
 ---
 # <a name="explosion-of-a-bom-version"></a>Expansión de una versión de lista de materiales
 
@@ -34,13 +34,13 @@ Una expansión de demanda de una versión de lista de materiales (L. MAT.) crea 
 -   La dimensión Sitio es obligatoria y debe especificarse en la transacción de demanda.
 -   La dimensión Sitio es coherente. Por lo tanto, el sitio de menor nivel de demanda es equivalente al sitio de la transacción de demanda inicial.
 
-La ilustración siguiente muestra el proceso de expansión de la demanda de planificación maestra. ![Expansión de la demanda con una versión de L. MAT](./media/multisitedemandexplosionscenariousingbomversion.gif)
+La ilustración siguiente muestra el proceso de expansión de la demanda de planificación maestra. ![Expansión de la demanda con una versión de L. MAT.](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Determinar la versión de L. MAT.](master-plan-bom-version-determined.md)
 
-[Visión general de la planificación maestra y la funcionalidad multisitio](master-plan-multisite-functionality.md)
+[Información general de la planificación maestra y la funcionalidad multisitio](master-plan-multisite-functionality.md)
 
 
 

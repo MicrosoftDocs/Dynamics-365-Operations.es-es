@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791689"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354622"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Sincronizar clasificaciones de producto en Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ Para comprobar que existe el trabajo subordinado **RetailProductRating**, siga e
 
 La ilustración siguiente muestra un ejemplo de los detalles del trabajo subordinado en Commerce.
 
-![Detalles del trabajo subordinado de RetailProductRating](media/rnr-hq-ratings-sub-job.png)
+![Detalles del trabajo subordinado de RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Si no encuentra el trabajo subordinado **RetailProductRating**, es posible que ya haya ejecutado el trabajo **Sincronizar clasificaciones de producto** y el trabajo **1040 CDX** antes de haber inicializado el programador Commerce. En este caso, siga estos pasos para ejecutar el trabajo **Sincronización de datos completa**.
@@ -83,7 +83,7 @@ Para importar clasificaciones de productos en Commerce desde el servicio de clas
 
 La ilustración siguiente muestra un ejemplo de la configuración de trabajos por lotes en Commerce.
 
-![Configuración del trabajo por lotes de Sincronizar clasificaciones de productos](media/rnr-hq-batchjob-recurrence.png)
+![Configuración del trabajo por lotes de Sincronizar clasificaciones de productos.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Comprobar que el trabajo por lotes para la sincronización de la clasificación de productos fue correcto
 
@@ -95,7 +95,7 @@ Para comprobar que el trabajo por lotes **Sincronizar clasificaciones de product
 
 La ilustración siguiente se muestra un ejemplo de los detalles del trabajo por lotes en Commerce cuando el trabajo por lotes se programa para que ejecutarse en intervalos de dos horas.
 
-![Detalles del trabajo por lotes de Sincronizar clasificaciones de producto](media/rnr-hq-batchjob-status-checking.png)
+![Detalles del trabajo por lotes de Sincronizar clasificaciones de producto.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Hacer que las clasificaciones de productos estén disponibles en PDV
 
@@ -113,19 +113,19 @@ Para activar clasificaciones de productos en el PDV, siga estos pasos.
 
 La ilustración siguiente muestra un ejemplo de la configuración de los parámetros de Commerce para activar las clasificaciones de productos en el PDV.
 
-![Configuración de los parámetros de Commerce para las clasificaciones de productos en PDV](media/rnr-hq-enable-ratings-in-pos.png)
+![Configuración de los parámetros de Commerce para las clasificaciones de productos en PDV.](media/rnr-hq-enable-ratings-in-pos.png)
 
 En la siguiente ilustración se muestra un ejemplo de clasificaciones de productos en el PDV.
 
-![Clasificaciones de productos en el PDV](media/rnr-pos-catalog-ratings.png)
+![Clasificaciones de productos en el PDV.](media/rnr-pos-catalog-ratings.png)
 
 En la siguiente ilustración se muestra un ejemplo de clasificaciones de productos en los canales del centro de llamadas.
 
-![Clasificaciones de productos en un canal de centro de llamadas](media/rnr-call-center-ratings.png)
+![Clasificaciones de productos en un canal de centro de llamadas.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de clasificaciones y revisiones](ratings-reviews-overview.md)
+[Información general de clasificaciones y revisiones](ratings-reviews-overview.md)
 
 [Optar por usar clasificaciones y revisiones de usuario](opt-in-ratings-reviews.md)
 

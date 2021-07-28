@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936739"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349635"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pedidos de clientes en el punto de venta (PDV)
 
@@ -44,7 +46,7 @@ Antes de intentar usar la funcionalidad de pedidos de clientes en PDV, asegúres
 
 Para utilizar los pedidos de los clientes, debe configurar los modos de entrega que puede utilizar el canal de la tienda. Debe definir al menos un modo de entrega que se puede utilizar cuando las líneas de pedido se envían a un cliente desde una tienda. Debe también definir al menos un modo de entrega para la recogida que se puede utilizar cuando las se recogen desde la tienda. Los modos de entrega se definen en la página **Modos de entrega** en la central de Commerce. Para obtener más información sobre cómo configurar el modo de entrega para los canales de Commerce, consulte [Definir modos de entrega](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Página Modos de entrega](media/customer-order-modes-of-delivery.png)
+![Página Modos de entrega.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Configurar grupos de cumplimiento
@@ -53,7 +55,7 @@ Es posible que algunas tiendas o almacenes no puedan cumplir con los pedidos de 
 
 En la versión 10.0.12 de Commerce y posteriores, las organizaciones pueden definir si las combinaciones de almacén o almacén y tienda que se definen en los grupos de cumplimiento se pueden utilizar para el envío, la recogida o tanto para el envío como para la recogida. Esto permite una mayor flexibilidad para que la empresa determine qué almacenes se pueden seleccionar al crear un pedido de cliente para los artículos a enviar frente a qué tiendas se pueden seleccionar al crear un pedido de cliente para los artículos a recoger. Para utilizar estas opciones de configuración, debe activar la característica **Posibilidad de especificar ubicaciones como "Envío" o "Recogida" habilitadas en el grupo de cumplimiento**. Si un almacén que está vinculado a un grupo de cumplimiento no es una tienda, solo se puede configurar como ubicación de envío. No se puede utilizar cuando los pedidos de recogida están configurados en PDV.
 
-![Página de grupos de cumplimiento](media/customer-order-fulfillment-group.png)
+![Página de grupos de cumplimiento.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Configurar opciones de canal
 
@@ -65,7 +67,7 @@ Cuando trabaja con pedidos de clientes en PDV, debe considerar algunas de las co
 - **Utilizar impuestos basados en el destino**: esta opción indica si la dirección de envío se utiliza para determinar el grupo de impuestos que se aplica a las líneas de pedido que se envían a la dirección del cliente.
 - **Utilizar impuestos basados en el cliente**: esta opción indica si el grupo de impuestos que se define para la dirección de entrega del cliente se usa para gravar los pedidos de los clientes que se crean en PDV para su envío al domicilio del cliente.
 
-![Configuración del canal de la tienda en la página Tiendas](media/customer-order-all-stores.png)
+![Configuración del canal de la tienda en la página Tiendas.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Configurar parámetros de pedido de cliente
 
@@ -80,7 +82,7 @@ Antes de intentar crear pedidos de clientes en PDV, debe configurar los parámet
 - **Código de cargo de envío**: si la opción **Utilizar cargos automatizados** se establece en **Sí**, este ajuste de parámetro no tiene ningún efecto. Si esa opción está configurada en **No**, se les pedirá a los usuarios que ingresen manualmente un cargo de envío cuando creen pedidos de clientes en PDV. Utilice este parámetro para asignar un código de cargo a Clientes que se aplicará a los pedidos cuando los usuarios especifiquen un cargo de envío. El código de cargo define la lógica de contabilización financiera para el cargo de envío.
 - **Utilizar cargos automatizados avanzados**: establecer esta opción en **Sí** para usar cargos automatizados calculados por el sistema cuando los pedidos de los clientes se crean en PDV. Estos cargos automáticos se pueden usar para calcular tarifas de envío u otros cargos específicos de pedidos o artículos. Para obtener más información sobre cómo configurar y utilizar los cargos automatizados, consulte [Cargos automatizados avanzados de omnicanal](./omni-auto-charges.md).
 
-![Pestaña de pedidos de clientes en la página de parámetros de Commerce](media/customer-order-parameters.png)
+![Pestaña de pedidos de clientes en la página de parámetros de Commerce.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Actualizar diseños de pantalla de transacciones en PDV
 
@@ -95,7 +97,7 @@ Asegúrese de que el PDV [diseño de pantalla](./pos-screen-layouts.md) está co
 - **Cambiar modo de entrega**: esta operación se puede utilizar para cambiar rápidamente el modo de entrega de las líneas que ya están configuradas para el envío, sin requerir que los usuarios vuelvan a pasar por el flujo de "enviar todos los productos" o "enviar productos seleccionados".
 - **Anulación de depósito**: esta operación se puede utilizar para cambiar el importe del depósito que el cliente pagará por el pedido del cliente seleccionado.
 
-![Operaciones en la pantalla de transacciones de PDV](media/customer-order-screen-layout.png)
+![Operaciones en la pantalla de transacciones de PDV.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Trabajar con pedidos de clientes en PDV
 

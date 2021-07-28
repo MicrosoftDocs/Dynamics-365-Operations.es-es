@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020124"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352819"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>El impuesto no está calculado o el importe del impuesto es cero
 
@@ -32,17 +32,17 @@ Si la transacción no selecciona los códigos de impuestos correctos, o si no se
 
 1. En la línea de transacción, en la ficha desplegable **Detalles de línea**, en la pestaña **Configuración**, en la sección **Impuesto**, verifique que los grupos de impuestos correctos estén seleccionados en los campos **Grupo de impuestos de artículos** y **Grupo de impuestos**. Si no están seleccionados los grupos de impuestos correctos, selecciónelos.
 
-    [![Campos Grupos de impuestos de artículos y Grupo de impuestos](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![Campos Grupos de impuestos de artículos y Grupo de impuestos.](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Grupos de impuestos**.
 3. Seleccione el grupo de impuestos apropiado y luego, en la ficha desplegable **Configuración**, anote el código de impuestos en el campo **Código de impuesto**.
 
-    [![Página de grupos de impuestos](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
+    [![Página de grupos de impuestos.](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
 
 4. Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Grupos de impuestos de artículos**.
 5. Seleccione el grupo de impuestos del artículo apropiado y, a continuación, en la ficha desplegable **Configuración**, verifique que el código de impuestos del campo **Código de impuesto** coincide con el código de impuestos del grupo de impuestos.
 
-    [![Página de grupos de impuestos de artículos](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
+    [![Página de grupos de impuestos de artículos.](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
 
 6. Si los códigos de impuestos no coinciden, actualice el código de impuestos para uno de los grupos.
 
@@ -53,12 +53,12 @@ Si los códigos de impuestos son de tipo exento o si el tipo impositivo es 0 (ce
 1. Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Grupos de impuestos**.
 2. Seleccione el grupo de impuestos apropiado y luego, en la ficha desplegable **Configuración**, verifique que está desactivada la casilla **Exento**. Si está seleccionado, elimínelo.
 
-    [![Casilla de exento en la página de grupos de impuestos](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
+    [![Casilla de exento en la página de grupos de impuestos.](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
 
 3. Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Códigos de impuestos**.
 4. Seleccione el código de impuesto apropiado y luego verifique que el valor del tipo impositivo en el campo **Valor** no sea 0 (cero). Si es 0, actualice el campo para que esté configurado con ell tipo impositivo correcto.
 
-    [![Campo Valor en la página de valores de código de impuesto](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
+    [![Campo Valor en la página de valores de código de impuesto.](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
 
 ## <a name="determine-whether-zero-is-the-correct-tax-amount"></a>Determinar si cero es el importe de impuestos correcto
 
@@ -67,7 +67,7 @@ En algunos escenarios, un importe de 0 (cero) es correcto. Siga estos pasos para
 1. Vaya a **Contabilidad general** \> **Configuración de contabilidad** \> **Parámetros de Contabilidad general**.
 2. En la pestaña **Impuesto**, en el campo **Método de cálculo**, verifique que está seleccionado **Total**.
 
-    [![Campo de método de cálculo en la página Parámetros de contabilidad general](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
+    [![Campo de método de cálculo en la página Parámetros de contabilidad general.](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
 
 3. Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Códigos de impuestos**.
 4. Seleccione el código de impuesto apropiado, seleccione **Cálculo** \> **Base marginal** y verifique que la base marginal esté establecida en **Importe neto del saldo de la factura** o **Total de factura incluidos otros importes de impuestos**. Para obtener más información, consulte el [Total de factura incluidos otros importes de impuestos](marginal-base-field.md#invoice-total-incl-other-sales-tax-amounts).

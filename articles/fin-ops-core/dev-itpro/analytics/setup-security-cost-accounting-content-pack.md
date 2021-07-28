@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e51c6914aab7261862a7ce180376b67d01711e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754273"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359468"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Contenido de Power BI sobre configurar la seguridad para el análisis de la contabilidad de costes
 
@@ -42,11 +42,11 @@ Para extender la seguridad de nivel de acceso a Power BI, el propietario de cont
 3. Encuentre el conjunto de datos para el contenido de Power BI sobre el **Análisis de la contabilidad de costes**.
 4. Abrir la página de seguridad.
 
-    ![Abrir la página de seguridad](./media/CA-picture-1.png)
+    ![Abrir la página de seguridad.](./media/CA-picture-1.png)
 
 5. El rol **Controlador de objeto de coste** ya está creado. Agregar otros miembros que forman parte de la jerarquía organizativa del nivel de acceso de la contabilidad de costes.
 
-    ![Agregar miembros](./media/CA-picture-2.png)
+    ![Agregar miembros.](./media/CA-picture-2.png)
 
 Los usuarios que se agregan al rol de **Controlador de objeto de coste** solo verán los datos que se les permite ver, según la definición de la jerarquía organizativa del nivel de acceso de la contabilidad de costes.
 

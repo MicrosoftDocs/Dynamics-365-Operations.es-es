@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 17251
+ms.custom:
+- "17251"
+- intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 93e5d46d6b9817b7f019e529bf4da6199bc29dbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898219"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355733"
 ---
 # <a name="budget-planning-overview"></a>Visión general de la planificación presupuestaria
 
@@ -40,7 +42,7 @@ Una organización puede configurar la planificación presupuestaria y, a continu
 - **Etapas de planificación presupuestaria**: las etapas de planificación presupuestaria definen los pasos que un plan presupuestario sigue desde su inicio a la aprobación final. Las etapas de planificación presupuestaria se organizan en flujos de trabajo de planificación presupuestaria.
 - **Flujos de trabajo de planificación presupuestaria**: los flujos de trabajo de planificación presupuestaria constan de etapas de planificación presupuestaria y las definen. Los flujos de trabajo de planificación presupuestaria se asocian a flujos de trabajo presupuestarios. Los flujos de trabajo de gestión presupuestaria son los procesos automatizados y manuales que mueven planes presupuestarios por las etapas de planificación presupuestaria.
 
-[![Terminología de planificación presupuestaria](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Terminología de planificación presupuestaria.](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="typical-tasks"></a>Tareas típicas
 
@@ -65,11 +67,11 @@ El primer paso es opcional pero muy recomendable es crear un esquema que muestre
 
 El ejemplo siguiente muestra un ejemplo genérico, donde se crean los flujos de trabajo de planificación presupuestaria independientes para distintos niveles de la organización. Las etapas se definen en cada flujo de trabajo y se asignan escenarios específicos a cada etapa para mantener los datos del presupuesto. Las tareas se completan para mover los datos de una etapa a la siguiente. Por ejemplo, se pueden asignar o agregar importes a diferentes cuentas, aprobaciones y otras revisiones. En esta ilustración, el texto en cursiva indica un escenario que no es editable durante la etapa, o datos que son históricos o que se han aprobado en una etapa anterior y que por tanto no se deben cambiar.
 
-[![Esquema genérico de planificación presupuestaria](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Esquema genérico de planificación presupuestaria.](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
 La siguiente ilustración muestra un ejemplo en el que, la sede corporativa estima los importes de línea base de presupuesto iniciales y los distribuye a los departamentos de ventas. Los departamentos de ventas calculan y devuelven su previsión a las sedes, donde el director de presupuestos agrega y ajusta la previsión. Finalmente, el director de presupuestos envía los importes de presupuesto ajustados al director financiero (CFO) para su revisión, ajustes finales y aprobación.
 
-[![Ejemplo de esquema de planificación presupuestaria](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Ejemplo de esquema de planificación presupuestaria.](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ### <a name="organization-hierarchy-for-budget-planning"></a>Jerarquía organizativa para planificación presupuestaria
 
@@ -93,7 +95,7 @@ Una buena práctica es crear un flujo de trabajo de planificación presupuestari
 
 Cree el flujo de trabajo presupuestario para la planificación presupuestaria en la página **Flujos de trabajo presupuestarios**. El proceso es similar al proceso para crear otros flujos de trabajo. En la ilustración siguiente se muestra un ejemplo de un flujo de trabajo de sedes.
 
-[![Flujo de trabajo de presupuesto para la planificación presupuestaria](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Flujo de trabajo de presupuesto para la planificación presupuestaria.](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
 Los tipos de flujo de trabajo incluyen los siguientes elementos:
 
@@ -141,11 +143,11 @@ Cuando configura una asignación de etapa, asocia el flujo de trabajo y la etapa
 
 En el esquema de ejemplo que aparece anteriormente en este tema, se realiza una asignación para transferir importes de un plan presupuestario y escenario de la etapa de "Línea base" para de sedes a otro plan presupuestario y escenarios en la etapa de "Estimación" del departamento de ventas. En la ilustración siguiente se muestra la sección relevante del esquema de ejemplo.
 
-[![Asignación de etapa](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Asignación de etapa.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
 Además, en el esquema de ejemplo, se realiza una agregación desde los escenarios y los planes presupuestarios de la etapa "Enviado" del departamento de ventas a un plan principal de la etapa de "Acumulación" para sedes. En la ilustración siguiente se muestra la sección relevante del esquema de ejemplo.
 
-[![Agregación](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Agregación.](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Prioridades
 
@@ -163,7 +165,7 @@ Además de las columnas para los importes presupuestarios, puede definir columna
 
 Para el esquema de ejemplo, es posible que desee crear columnas para los escenarios "Ventas de PY", "Contratos" y "Previsión". (La siguiente ilustración muestra la sección relevante del esquema). A continuación, podrá separar uno o todos estos escenarios en columnas independientes para cada trimestre del ejercicio, de modo que el director del departamento de ventas pueda especificar de manera precisa los importes de previsión para cada período.
 
-[![Ilustración de secciones del esquema para agregar columnas](./media/columns.png)](./media/columns.png)
+[![Ilustración de secciones del esquema para agregar columnas.](./media/columns.png)](./media/columns.png)
 
 También puede especificar si cada elemento de diseño (columna) es editable y si está disponible en cualquier plantilla de hoja de cálculo que se cree para ese diseño. Para el esquema de ejemplo, en el diseño que se usa para la etapa "Estimación", las columnas de "Previsión" son editables, mientras que las columnas de "Ventas PY" y "Contratos" son de solo lectura.
 
@@ -201,7 +203,7 @@ También puede usar el menú **Acciones**, para crear un proceso nuevo copiando 
 
 Otro comando útil en el menú **Acciones** es **Ver estado del proceso presupuestario**. Este comando muestra gráficamente los planes presupuestarios en un proceso, junto con datos relevantes, como el estado del flujo de trabajo de los planes, resúmenes por importe y por unidad, y navegación de un solo clic a los propios planes presupuestarios.
 
-[![Estado del proceso de planificación presupuestaria](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Estado del proceso de planificación presupuestaria.](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

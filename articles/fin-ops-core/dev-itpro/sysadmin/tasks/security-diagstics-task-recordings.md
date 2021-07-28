@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745774"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358558"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnósticos de seguridad para las grabaciones de tareas
 
@@ -39,7 +39,7 @@ Este tema proporciona información sobre cómo analizar y administrar los requis
 
 4. En el campo **Id. de usuario**, seleccione un usuario. Si el usuario no tiene permisos para algunos elementos del menú, el campo **Permisos que faltan** se actualizará a **Sí**.
   
-  ![Página de detalles del elemento del menú de seguridad](../media/Security-Menu-Item-Details.png)
+  ![Página de detalles del elemento del menú de seguridad.](../media/Security-Menu-Item-Details.png)
 
 5. Seleccione **Añadir referencia** para ver una lista de los objetos de seguridad, incluidos roles, deberes y privilegios que otorgan el permiso que falta.
 6. Seleccione un objeto de seguridad en la lista:

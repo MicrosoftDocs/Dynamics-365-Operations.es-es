@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019036"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355491"
 ---
 # <a name="wave-creation-and-processing"></a>Creación y procesamiento de oleadas
 
@@ -42,7 +42,7 @@ Puede especificar cuál de estas opciones de orden de producción utilizar de fo
 
 El siguiente diagrama muestra el flujo de cómo se crean, procesan y liberan las oleadas de envío. Los números se corresponden con las secciones descritos más adelante en esta sección.
 
-![Proceso para crear una oleada](media/wave-processing-diagram.png "Proceso para crear una oleada")
+![Proceso para crear una oleada.](media/wave-processing-diagram.png "Proceso para crear una oleada")
 
 ### <a name="prerequisites"></a>Requisitos previos
 
@@ -158,7 +158,7 @@ Cuando la función *Programar creación de trabajo* está habilitada, el procesa
 
 El siguiente diagrama de flujo muestra cómo se crea el trabajo planificado durante el procesamiento de oleadas.
 
-![Programar la creación del trabajo](media/schedule-work-creation-process.png)
+![Programar la creación del trabajo.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Trabajo planificado
 

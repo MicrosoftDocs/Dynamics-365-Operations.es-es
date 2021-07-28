@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271110"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350579"
 ---
 # <a name="message-processor-messages"></a>Mensajes del procesador de mensajes
 
@@ -88,15 +88,15 @@ En este ejemplo, usar **Cuando ocurre un evento empresarial** con *Microsoft Pow
 
 1. En [Power Automate](https://preview.flow.microsoft.com), cree un nuevo flujo de nube automatizado para el desencadenador de flujo **Cuando ocurre un evento empresarial: aplicación Fin & Ops (Dynamics 365)** seguido por los pasos **Analizar JSON** y **Enviar un correo electrónico**, como se muestra en la siguiente ilustración.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flujo de nube automatizado de Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flujo de nube automatizado de Power Automate.":::
 
 1. En el paso **Cuando ocurre un evento empresarial**, puede buscar el centro de conectividad **Instancia** o entrar en él, siguiendo la **Categoría** y luego el **Evento empresarial** *Mensaje procesado del procesador de mensajes*, como se muestra en la siguiente ilustración.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Paso de Power Automate Cuando ocurre un evento empresarial":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Paso de Power Automate Cuando ocurre un evento empresarial.":::
 
 1. Para el paso **Analizar JSON**, introduzca un **Esquema** que defina los campos extendidos. Puede usar la opción *Descargar esquema* en la página **Catálogo de eventos empresariales** en Supply Chain Management o comience pegando el texto del esquema de ejemplo. Este texto de ejemplo se proporciona después de la siguiente ilustración.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Paso de Power Automate de analizar JSON":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Paso de Power Automate de analizar JSON.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ En este ejemplo, usar **Cuando ocurre un evento empresarial** con *Microsoft Pow
 
 1. En el paso **Enviar un correo electrónico**, puede seleccionar los campos individuales o comenzar pegando el ejemplo del cuerpo del correo electrónico en el campo **Cuerpo**. Este ejemplo se proporciona después de la siguiente ilustración.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Paso de Power Automate de enviar un mensaje de correo electrónico":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Paso de Power Automate de enviar un mensaje de correo electrónico.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

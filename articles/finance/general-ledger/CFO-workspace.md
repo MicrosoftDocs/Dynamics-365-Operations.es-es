@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360721"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Agregar dimensiones financieras al espacio de trabajo del CFO
 
@@ -45,14 +45,14 @@ Este tema explica cómo agregar dimensiones financieras al área de trabajo de C
 11. Cambie el valor de **Dirección del filtro cruzado** a **Individual**.
 12. Seleccione **Hacer esta relación activa** y **Asumir la integridad referencial**, seleccione **Aceptar** y, a continuación seleccione **Cerrar**.
 
-    [![Crear una relación](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Crear una relación.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. En el lista **Campos** , debe ver la tabla y las dimensiones financieras disponibles. Arrastre las dimensiones financieras que desea a los filtros de informes nivel.
 14. Guarde los cambios.
 15. En el Árbol de objetos de aplicaciones (AOT), haga clic con el botón derecho en el proyecto y, a continuación seleccione **Sincronizar**.
 16. Compile el proyecto, y después abra la aplicación para ver los resultados.
 
-    [![Espacio de trabajo completado](./media/workspace.png)](./media/workspace.png)
+    [![Espacio de trabajo completado.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

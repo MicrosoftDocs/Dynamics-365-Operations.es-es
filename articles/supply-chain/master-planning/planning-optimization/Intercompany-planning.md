@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e6fff06cb6194f17444025f7ea1f9dbb46e4f3ea
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a3b48667bb266fec082c48e777fd71d8e5ef6dae
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907652"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357032"
 ---
 # <a name="intercompany-planning"></a>Planificación de empresas vinculadas
 
@@ -76,7 +76,7 @@ Para este ejemplo, se crea una orden de producción planificada en la empresa US
 
 La siguiente ilustración muestra cómo podría aparecer este ejemplo en la página **Vinculación multinivel** de la orden de producción planificada.
 
-![Ejemplo de intercompañía que involucra a dos empresas](media/IntercompanyPlanning1.png)
+![Ejemplo de intercompañía que involucra a dos empresas.](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>Ejemplo de intercompañía que involucra a tres empresas
 
@@ -84,7 +84,7 @@ Para este ejemplo, se crea una orden de compra planificada en la empresa USMF pa
 
 La siguiente ilustración muestra cómo podría aparecer este ejemplo en la página **Vinculación multinivel** de la orden de producción planificada.
 
-![Ejemplo de intercompañía que involucra a tres empresas](media/IntercompanyPlanning2.png)
+![Ejemplo de intercompañía que involucra a tres empresas.](media/IntercompanyPlanning2.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

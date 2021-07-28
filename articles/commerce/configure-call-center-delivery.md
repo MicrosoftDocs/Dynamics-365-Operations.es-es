@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796157"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352623"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos y cargos de entrega del centro de llamadas
 
@@ -65,11 +65,11 @@ En la sección **Líneas**, puede definir uno o varios gastos por divisa, según
 
 Las empresas suelen configurar gastos por niveles. En este caso, el importe que los clientes pagan para la entrega se basa en el valor del pedido. Para configurar los gastos por niveles, introduzca valores en los campos **Importe inicial** e **Importe final** además de definir el propio gasto en el campo **Valor de gastos**. Por ejemplo, para los pedidos que tengan un valor inferior a 50 €, un distribuidor gasta 5,95 $ por el envío terrestre. Para pedidos que tengan un valor que sea igual o superior a 50 $, pero inferior 100 $, el distribuidor gasta 7,95 $. Por último, para pedidos que tengan un valor que sea igual o superior a 50 $, pero inferior 100 $, el distribuidor ofrece un envío gratuito. La siguiente ilustración muestra la configuración de estos gastos.
 
-![Ejemplo de gastos fijos por niveles](media/fixedtieredcharges.png)
+![Ejemplo de gastos fijos por niveles.](media/fixedtieredcharges.png)
 
 Puede utilizar una combinación de categorías para los gastos, en función de sus requisitos empresariales. Por ejemplo, para todos los pedidos que tengan un valor inferior a 100 €, existe un gasto fijo de 9,95 $ por el envío. A continuación, para pedidos que tengan un valor igual o superior 100 $, los gastos de entrega se calculan en un índice del 5 por ciento del valor del pedido. La siguiente ilustración muestra la configuración de estos gastos.
 
-![Ejemplo de gastos mixtos por niveles](media/mixedtieredcharges.png)
+![Ejemplo de gastos mixtos por niveles.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Aplicar modos de entrega durante la entrada de pedidos en un centro de llamadas
 

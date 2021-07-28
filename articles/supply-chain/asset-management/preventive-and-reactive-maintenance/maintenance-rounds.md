@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 24f019547b9edc932c203d5dc8c73013007af599
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825743"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361051"
 ---
 # <a name="maintenance-rounds"></a>Rondas de mantenimiento
 
@@ -80,7 +80,7 @@ En **Administración de activos**, puede crear rondas de mantenimiento para vari
 
 La ilustración siguiente muestra un ejemplo de una ronda de mantenimiento con tres activos.
 
-![Figura 1](media/13-preventive-maintenance.png)
+![Figura 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Programar rondas de mantenimiento
@@ -106,9 +106,9 @@ Cuando haya configurado una ronda de mantenimiento, ejecute un trabajo de progra
 
 Las dos siguientes ilustraciones siguientes muestran un trabajo de programación en el cuadro de diálogo **Rondas de mantenimiento de programación** y las líneas del programa de mantenimiento creadas en **Todo el programa de mantenimiento** basándose en ese trabajo de programación.
 
-![Figura 2](media/14-preventive-maintenance.png)
+![Figura 2.](media/14-preventive-maintenance.png)
 
-![Figura 3](media/15-preventive-maintenance.png)
+![Figura 3.](media/15-preventive-maintenance.png)
 
 - Cuando se crean órdenes de trabajo manualmente en activos que son cubiertos por la garantía de un proveedor, se muestra un cuadro de diálogo para que el usuario reconozca la garantía. La creación de la orden de trabajo se puede cancelar. La comprobación de una relación de garantía se omite para órdenes de trabajo que se crean automáticamente.  
 - Puede configurar un trabajo por lotes en la ficha desplegable **Ejecutar en segundo plano** para programar rondas a intervalos periódicos.  

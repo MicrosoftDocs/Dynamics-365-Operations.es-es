@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c94834a491877a69a206f827ad60f12455456e3f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c91de72f32f70fba09c6b7e3ca284553d0c858b1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188866"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353453"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Programación visual para lean manufacturing
 
@@ -47,7 +47,7 @@ Solo puede programar trabajos del tipo **Proceso**. El trabajo kanban y sus prop
 ## <a name="kanban-schedule-board"></a>Tablero de programación kanban
 La página **Tablero de programación kanban** contiene siete elementos principales, como se muestra en la siguiente ilustración. 
 
-![Tablero de programación kanban](./media/kanban-schedule-board-1024x554.png)
+![Tablero de programación kanban.](./media/kanban-schedule-board-1024x554.png)
 1.  Panel de acciones
 2.  Campos de filtro
 3.  Botón para trabajos no planificados
@@ -71,7 +71,7 @@ Para mejorar la visión general que proporciona el tablero de programación kanb
 ## <a name="plan-unplanned-jobs"></a>Planificar trabajos no planificados
 Puede programar trabajos kanban no planificados desde el cuadro de diálogo **Planificar trabajos no planificados** . Para abrir este cuadro de diálogo, haga clic en el botón **Trabajos no planificados** que muestra el número actual de trabajos no planificados. Como alternativa, haga clic en **Planificar trabajos no planificados** en la ficha **Tablero** del panel de acciones. El cuadro de diálogo muestra una lista de los trabajos kanban no planificados para la celda de trabajo. Puede usar el campo **Filtrar** para filtrar todos los campos de la cuadrícula. Por ejemplo, puede filtrar los trabajos kanban de un producto específico. Una vez que tenga una lista filtrada de los trabajos que desee programar, selecciónelos en la lista y haga clic en **Aceptar**. Para usar la planificación automática para programar los trabajos, establezca la opción **Planificación automática** en **Sí**. En este caso, los trabajos se programan en un período acorde con su fecha de vencimiento. También puede programar los trabajos por período. Basta seleccionar un período en el campo **Período**. La ilustración siguiente muestra un ejemplo del cuadro de diálogo **Planificar trabajos no planificados** . 
 
-![Cuadro de diálogo Planificar trabajos no planificados](./media/plan-unplanned-jobs-1024x564.png)
+![Cuadro de diálogo Planificar trabajos no planificados.](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>Ordenar trabajos kanban dentro del mismo período
 Puede cambiar la secuencia de uno o más trabajos seleccionado dentro un período. Esta capacidad pueden ser de utilidad si desea dar prioridad a algunos trabajos dentro del período. Como alternativa, puede que desee ordenar los trabajos que tienen los mismos atributos de producto para optimizar la ejecución del trabajo. Puede cambiar la secuencia con una operación de arrastrar y soltar, o usar los elementos de menú **Hacia atrás** y **Hacia delante** en la ficha **Tablero** del panel de acciones.

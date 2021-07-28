@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754503"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354424"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Informes y análisis con la página principal de Power BI
 
@@ -37,11 +39,11 @@ Los espacios de trabajo pueden usar infografía y elementos visuales enriquecido
 
 Los usuarios pueden interactuar con los datos tocando o haciendo clic en los elementos visuales de la página. Pueden ver la causa y efecto, así como realizar operaciones de hipótesis sencillas sin dejar el espacio de trabajo. Gracias a los increíbles elementos visuales interactivos, sus usuarios disfrutarán explorando datos y descubriendo tendencias ocultas.
 
-![Ejemplo de Power BI en un espacio de trabajo](./media/Power-BI-in-D365-Workspace.png)
+![Ejemplo de Power BI en un espacio de trabajo.](./media/Power-BI-in-D365-Workspace.png)
 
 Para obtener más información, consulte los siguientes temas:
 
-- [Power BI incrustado en espacios de trabajo](embed-power-bi-workspaces.md)
+- [Power BI insertado en espacios de trabajo](embed-power-bi-workspaces.md)
 - [Integración de Power BI Embedded](power-bi-embedded-integration.md)
 - [Agregar análisis a espacios de trabajo mediante Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Ayudar a proteger los espacios de trabajo e informes de análisis mediante Power BI Embedded](secure-analytical-workspaces.md)
@@ -50,18 +52,18 @@ Para obtener más información, consulte los siguientes temas:
 ## <a name="business-documents-and-printing"></a>Documentos empresariales e impresión
 Las soluciones de informes se suelen usar para capturar y comunicar los detalles de las transacciones empresariales. Por lo tanto, una solución de informes debe poder producir manifestaciones físicas de datos empresariales mediante dispositivos existentes como impresoras de red. Entre los ejemplos de documentos empresariales se incluyen facturas de ventas, resúmenes de cuentas de clientes y cheques.
 
-[![Ejemplo de documentos empresariales](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Ejemplo de documentos empresariales.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Para obtener más información, consulte los siguientes temas:
 
-- [Documentación de Reporting Services](document-reporting-services.md)
+- [Reporting Services de documentos](document-reporting-services.md)
 - [Información general de la impresión de documentos](print-documents.md)
 - [Instalar el agente de ruta de documentos para habilitar la impresión de red](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Informes electrónicos
 Informes electrónicos (ER) es la herramienta que usa para configurar formatos de documentos electrónicos que cumplen con los requisitos legales de diversos países o regiones. Entre las solicitudes de informes electrónicos se incluyen la auditoría financiera, la notificación de impuestos y la facturación electrónica.
 
-[![Ejemplo de informes electrónicos](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Ejemplo de informes electrónicos.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Para obtener más información, consulte los siguientes temas:
 
@@ -72,7 +74,7 @@ Para obtener más información, consulte los siguientes temas:
 ## <a name="financial-reporting"></a>Informes financieros
 Se proporcionan informes financieros estándar que usan las categorías de cuentas principales predeterminadas. Puede usar el diseñador de informes para crear o modificar informes financieros tradicionales, como balances de ingresos y balances de situación. A continuación, puede compartir los resultados con otros miembros de su organización. Entre los ejemplos de informes financieros se incluyen balances de situación, flujo de efectivo y un resumen de saldo de comprobación año por año.
 
-[![Ejemplo de informes financieros](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Ejemplo de informes financieros.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Para obtener más información, consulte los siguientes temas:
 
