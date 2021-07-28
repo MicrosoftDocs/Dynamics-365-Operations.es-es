@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359372"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuración de la doble escritura de Lifecycle Services
 
@@ -40,7 +40,7 @@ Siga estos pasos para configurar la escritura dual desde la página de LCS **Det
 
 2. Seleccione el botón **Aplicación de escritura dual**.
 
-    ![Integración de Power Platform](media/powerplat_integration_step2.png)
+    ![Integración de Power Platform.](media/powerplat_integration_step2.png)
 
 3. Revise los términos y condiciones, y luego seleccione **Configurar**.
 
@@ -52,7 +52,7 @@ Siga estos pasos para configurar la escritura dual desde la página de LCS **Det
 
 7. Seleccione **Enlazar al entorno de Power Platform** para crear un vínculo entre Dataverse y las bases de datos del entorno actual. Esto suele tardar menos de 5 minutos.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Vincular al entorno de Power Platform":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Vincular al entorno de Power Platform.":::
 
 8. Cuando se completa el vínculo, se muestra un hipervínculo. Utilice el enlace para iniciar sesión en el área de administración de escritura dual en el entorno de Finance and Operations. Desde allí, puede configurar asignaciones de entidades.
 

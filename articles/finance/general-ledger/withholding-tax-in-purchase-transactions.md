@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816892"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356685"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Retención de impuestos en transacciones de compra
 
@@ -68,11 +68,11 @@ El importe temporal de retención de impuestos está disponible en el campo **Re
 
 La retención de impuestos se calcula en el **Diario de pagos a proveedores**. Puede ajustar manualmente los códigos de retención de impuestos aplicables, así como los importes de retención de impuestos en la pestaña **Retención de impuestos** de la página **Liquidar transacciones**.
 
-![La retención se puede ajustar manualmente en la página Liquidar transacciones](media/withholding-tax-vendor-payment-tab.png)
+![La retención se puede ajustar manualmente en la página Liquidar transacciones.](media/withholding-tax-vendor-payment-tab.png)
 
 El importe de retención de impuestos derivado se deducirá del pago del proveedor y se publicará en la **Cuenta de retención de impuestos** en un asiento relacionado.
 
-![Cuenta de retención de impuestos que muestra un asiento relacionado](media/withholding-tax-adjusted.png)
+![Cuenta de retención de impuestos que muestra un asiento relacionado.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

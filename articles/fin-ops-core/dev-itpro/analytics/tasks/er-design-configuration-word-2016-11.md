@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944301"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359420"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Reutilizar las configuraciones de ER con plantillas de Excel para generar informes en formato Word
 
@@ -54,14 +54,14 @@ Estos procedimientos son para una característica que se agregó en la versión 
 5. Seleccione **Diseñador**.
 6. En la página **Diseñador de formatos**, observe que el título del elemento de formato raíz indica que se está utilizando actualmente una plantilla de Excel.
 
-![Seleccionar la configuración existente](../media/er-design-configuration-word-2016-11-image01.gif)
+![Seleccionar la configuración existente.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>Revisar la plantilla de Word descargada
 
 1. En la aplicación de escritorio de Word, abra el archivo de plantilla **SampleVendPaymDocReport.docx** que descargó anteriormente.
 2. Verifique que la plantilla solo contiene el diseño del documento que desea generar como ER de salida.
 
-![El diseño de la plantilla de Word en la aplicación de escritorio](../media/er-design-configuration-word-2016-11-image02.png)
+![El diseño de la plantilla de Word en la aplicación de escritorio.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Reemplazar la plantilla de Excel con la plantilla de Word y agregar un elemento XML personalizado
 
@@ -84,7 +84,7 @@ Actualmente, el documento de Excel se utiliza como plantilla para producir un re
 
 9. Observe que el título del elemento de formato raíz indica que se está utilizando actualmente una plantilla de Word.
 
-    ![Reemplazar la plantilla de Excel con la plantilla de Word y agregar un elemento XML personalizado](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![Reemplazar la plantilla de Excel con la plantilla de Word y agregar un elemento XML personalizado.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. En la pestaña **Formato**, seleccione **Adjuntos**.
 
@@ -110,7 +110,7 @@ Si está familiarizado con el proceso de diseñar documentos de Word como formul
 1. En la aplicación de escritorio de Word, abra el archivo de plantilla **SampleVendPaymDocReportBounded.docx**.
 2. Verifique que la plantilla contiene el diseño del documento que desea generar como ER de salida. Los controles de contenido que se utilizan como marcadores de posición para los datos que ER introducirá en esta plantilla en runtime se basan en las asignaciones que se configuran entre los elementos del elemento XML personalizado **Informe** y los controles de contenido del documento de Word.
 
-![Vista previa de la plantilla de Word en la aplicación de escritorio](../media/er-design-configuration-word-2016-11-image04.png)
+![Vista previa de la plantilla de Word en la aplicación de escritorio.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Cargar la plantilla de Word donde el elemento XML personalizado se asigna a los controles de contenido
 
@@ -144,7 +144,7 @@ Para ejecutar la versión de borrador del formato editable, debe hacerlo [ejecut
 3. En la página **Pagos a proveedores**, seleccione todas las filas de la cuadrícula.
 4. Seleccione **Estado de pago** \> **Ninguno**.
 
-    ![Pagos para procesar en la página Pagos a proveedores](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Pagos para procesar en la página Pagos a proveedores.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. En el panel de acciones, seleccione **Generar pagos**.
 6. En el cuadro de diálogo que aparece, siga estos pasos:
@@ -156,7 +156,7 @@ Para ejecutar la versión de borrador del formato editable, debe hacerlo [ejecut
 7. En el cuadro de diálogo **Parámetros de informes electrónicos**, seleccione **Aceptar**.
 8. La salida creada se presenta en formato de Word y contiene los detalles de los pagos procesados. Analice la salida generada.
 
-    ![Salida generada en formato Word](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Salida generada en formato Word.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

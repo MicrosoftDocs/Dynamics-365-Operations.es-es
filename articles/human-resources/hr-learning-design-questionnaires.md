@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2427e866a1cff91ff0ceca6a71e8052b880c7e5c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4a1cd6460ed93ce46e561071aedee314bf4f088
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056885"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357128"
 ---
 # <a name="create-questionnaires"></a>Crear cuestionarios
 
@@ -92,7 +92,7 @@ Debe definir todos los parámetros antes de empezar a crear los datos. Puede mod
 ## <a name="questionnaire-components"></a>Componentes de cuestionario
 Los cuestionarios constan de tres elementos principales: grupos de respuestas que contienen las respuestas a preguntas de respuesta múltiple, consultas y el propio cuestionario. Opcionalmente, puede agrupar las preguntas de un cuestionario en grupos de resultados. Los grupos de resultados le permiten clasificar consultas y proporcionar análisis adicional sobre el cuestionario. 
 
-[![Componentes del cuestionario](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![Componentes del cuestionario.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Responder a grupos y respuestas
 

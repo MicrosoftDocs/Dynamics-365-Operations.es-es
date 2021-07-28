@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: a2ea914344341ee26138e853727c551bdd5d733e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833099"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358626"
 ---
 # <a name="using-power-portal-with-the-party-data-model"></a>Uso de Power Portal con el modelo de datos de parte
 
@@ -28,11 +28,11 @@ En resumen, la forma en que interactúan las tablas ha cambiado, pero los permis
 
 Este diagrama muestra la relación de la tabla **sin** el modelo de datos de parte y de libreta de direcciones global:
 
-   ![sin modelo de parte](media/without-party-model.PNG)
+   ![sin modelo de parte.](media/without-party-model.PNG)
 
 Este diagrama muestra la relación de la tabla **con** el modelo de datos de parte y de libreta de direcciones global:
 
-   ![con modelo de parte](media/with-party-model.png)
+   ![con modelo de parte.](media/with-party-model.png)
 
 ## <a name="create-a-new-table-permission"></a>Crear un permiso de tabla nuevo
 

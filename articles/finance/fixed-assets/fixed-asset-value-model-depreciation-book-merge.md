@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826747"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355589"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Modelo de valor de activos fijos y fusión del libro de amortización
 
@@ -27,7 +27,7 @@ ms.locfileid: "5826747"
 
 En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En el lanzamiento de Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro.
 
-La función del nuevo libro se basa en la función anterior del modelo de valor pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de amortización. [![El libro como una combinación de la funcionalidad del modelo de valor y el libro de amortización](./media/fixed-assets.png)](./media/fixed-assets.png) Debido a esta fusión, ahora puede usar un único conjunto de páginas, preguntas e informes para todos los procesos del activo fijo. Las tablas de este tema describen la función anterior para los libros de amortización y los modelos de valor, así como la nueva función para los libros.
+La función del nuevo libro se basa en la función anterior del modelo de valor pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de amortización. [![Reservar como combinación de la funcionalidad de modelo de valor y libro de amortización.](./media/fixed-assets.png)](./media/fixed-assets.png) Debido a esta fusión, ahora puede usar un único conjunto de páginas, preguntas e informes para todos los procesos del activo fijo. Las tablas de este tema describen la función anterior para los libros de amortización y los modelos de valor, así como la nueva función para los libros.
 
 ## <a name="setup"></a>Configuración
 De forma predeterminada, los libros se registran tanto en la contabilidad general (GL) como en el subdiario de activo fijo. Los libros tienen una nueva opción de **Registrar en la contabilidad general** que permite deshabilitar la publicación en la contabilidad general y registrar solo el subdiario de activo fijo. Esta función es similar al comportamiento anterior de registro de los libros de amortización. La configuración de los nombres de diario tiene una nueva capa de registro que se denomina Ninguno. Esta capa de registro se ha añadido específicamente para las transacciones de activos fijos. Para registrar transacciones de libros que no se registran en la contabilidad general, debe utilizar un nombre de diario que tiene la capa de registro establecida en **Ninguno**.

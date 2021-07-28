@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799116"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349433"
 ---
 # <a name="recall-order-operation-in-pos"></a>Recuperar la operación de pedido en PDV
 
@@ -29,7 +29,7 @@ Para habilitar esta funcionalidad, active la función **Operación mejorada de p
 
 La configuración del botón de operación **Recuperar pedido** permite a las organizaciones implementar la operación con una pantalla predefinida.
 
-![Configuración de cuadrícula de botones](media/recallorderbuttongrid.png)
+![Configuración de cuadrícula de botones.](media/recallorderbuttongrid.png)
 
 Las opciones de visualización son las siguientes.
 - **Ninguna** - Esta opción despliega la operación sin visualización específica. Cuando un usuario abre la operación con esta configuración, se le pedirá que busque y encuentre pedidos o elija entre un filtro de pedidos predefinido.
@@ -42,11 +42,11 @@ Al iniciar la operación **Recuperar pedido** desde el PDV, si la pantalla está
 - Seleccione **Buscar órdenes** o **Buscar y filtrar** en la barra de aplicaciones para usar el mecanismo de filtrado para localizar pedidos que cumplan con los criterios de filtrado.
 - Elija entre un filtro predefinido del menú desplegable **Mostrar pedidos** (pedidos para cumplir, pedidos para recoger o pedidos para enviar).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
 Después de aplicar los criterios de búsqueda, la aplicación mostrará una lista de pedidos de ventas coincidentes. Es importante tener en cuenta que al utilizar las opciones de búsqueda/filtro, los pedidos recuperados no tienen que ser pedidos vinculados a la tienda actual del usuario. Este proceso de búsqueda recuperará y mostrará cualquier pedido de cliente que coincida con los criterios de búsqueda, incluso si el pedido se creó o configuró para ser cumplido por otra tienda/canal o ubicación de almacén.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Un usuario puede seleccionar un pedido de la lista para ver detalles adicionales. El panel de información en el lado derecho de la pantalla muestra detalles sobre el pedido seleccionado, incluidos los detalles de la línea del pedido, los detalles de la entrega y los detalles de cumplimiento.
 

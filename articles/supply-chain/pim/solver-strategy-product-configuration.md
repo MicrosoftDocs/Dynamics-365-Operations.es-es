@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82332a8ac8a68f5a9092ae08a094514827f39113
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d351066b0092318275491d933b7b90089c6855b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812724"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359942"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estrategia de solucionador para la configuración de productos
 
@@ -50,7 +50,7 @@ Los estudios reales de implementación de clientes han mostrado que un cambio en
 
 Para cambiar la estrategia de solucionador, en la página **Modelos de configuración de productos** , en el Panel de acciones, seleccione **Propiedades del modelo**. A continuación, en el cuadro de diálogo **Editar los detalles del modelo**, seleccione una estrategia de solucionador.
 
-[![Cambiar la estrategia de solucionador](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![Cambiar la estrategia de solucionador.](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Actualmente, no existe una lógica que detecte automáticamente qué estrategia de solucionador será la estrategia más eficiente para la configuración de productos basada en restricciones. Por lo tanto, debe probar las estrategias de solucionador una por una.
 

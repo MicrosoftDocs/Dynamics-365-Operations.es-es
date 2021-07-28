@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838139"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353381"
 ---
 # <a name="work-policies"></a>Directivas de trabajo
 
@@ -200,7 +200,7 @@ El pedido de compra ahora se recibe, pero no hay trabajo asociado. El inventario
 
 En el siguiente ejemplo, hay dos pedidos de producción, *PRD-001* y *PRD-002*. El pedido de producción *PRD-001* tiene una operación llamada *Montaje*, en la que el producto *SC1* se notifica a la ubicación *001* como terminado. El pedido de producción *PRD-002* tiene una operación llamada *Pintura* y consume el producto *SC1* de la ubicación *001*. El pedido de producción *PRD-002* también consume la materia prima *RM1* de la ubicación *001*. La materia prima *RM1* se almacena en la ubicación del almacén *BULK-001* y el trabajo del almacén lo escogerá como recogida de materia prima a la ubicación *001*. El trabajo de recogida se genera cuando se lanza la producción *PRD-002*.
 
-[![Directivas de trabajo de almacén](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Directivas de trabajo de almacén.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Cuando tenga previsto configurar una directiva de trabajo del almacén para este escenario, debe tener en cuenta los siguientes puntos:
 

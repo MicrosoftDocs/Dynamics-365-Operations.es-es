@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8a6b36314d9d98f971cd1619dd3604f20a3770b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193986"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360529"
 ---
 # <a name="enter-skills"></a>Introducir aptitudes
 
@@ -45,17 +45,17 @@ Para introducir aptitudes sin requerir aprobación, debe crear un flujo de traba
 
 4. En el panel **Crear flujo de trabajo**, seleccione **Aptitudes del trabajador**.
 
-   [![Seleccione el flujo de trabajo de aptitudes del trabajador](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Seleccione el flujo de trabajo de aptitudes del trabajador.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. En el diálogo **¿Abrir este archivo?**, seleccione **Abrir**. Cuando se le solicite, introduzca sus credenciales.
 
 6. En el editor de flujo de trabajo, seleccione el elemento de flujo de trabajo **Aprobar aptitudes** y arrástrelo al lienzo.
 
-   [![Seleccione el elemento de flujo de trabajo Aprobar aptitudes](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Seleccione el elemento de flujo de trabajo Aprobar aptitudes.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Conecte el elemento **Comienzo** al elemento **Aprobar aptitudes 1**, y luego conecte el elemento **Aprobar aptitudes 1** al elemento **Final**. Es posible que deba desplazarse hacia abajo para ver el elemento **Final**. Puede arrastrarlo más cerca de los otros elementos.
 
-   [![Conectar elementos del flujo de trabajo](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Conectar elementos del flujo de trabajo.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Haga doble clic en el elemento de flujo de trabajo **Aprobar aptitudes 1** y, a continuación, haga clic con el botón derecho en el elemento **Paso 1**. Haga clic con el botón secundario en el elemento **Paso 1** y, a continuación, seleccione **Propiedades**.
 
@@ -65,7 +65,7 @@ Para introducir aptitudes sin requerir aprobación, debe crear un flujo de traba
 
 11. Seleccione **Agregar condición**. Tras **Dónde**, seleccione **Aptitudes de autoservicio de los empleados** y luego seleccione **Aptitudes de autoservicio de los empleados.**. Tras **es**, seleccione **campo** y luego seleccione **Relación de usuario a persona.**.
 
-    [![Especificar condición](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Especificar condición.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Seleccione **Asignación** en la barra de navegación de la izquierda.
 
@@ -73,7 +73,7 @@ Para introducir aptitudes sin requerir aprobación, debe crear un flujo de traba
 
 14. En la pestaña **Selección de jerarquía**, en el campo **Tipo de jerarquía:**, seleccione **Jerarquía gerencial**.
 
-    [![Especificar jerarquía gerencial](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Especificar jerarquía gerencial.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Seleccione **Cerrar**, seleccione **Flujo de trabajo** en la ruta de navegación del lienzo y, a continuación, seleccione **Guardar y cerrar**.
 

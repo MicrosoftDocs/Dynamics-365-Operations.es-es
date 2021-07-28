@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097268"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356521"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de bajas en Teams
 
@@ -61,7 +61,7 @@ Puede pedirle al bot que:
 
 - Comience una solicitud de licencia por usted. Por ejemplo, envíe un mensaje que diga "Tómese un tiempo libre" o "Quiero tomarme un tiempo libre el próximo jueves y viernes" para ser más específico para solicitar una baja por el tipo de baja por vacaciones. 
 
-  ![Iniciar una solicitud de permiso en el chat de Teams](./media/hr-teams-leave-app-initiate.png)
+  ![Iniciar una solicitud de permiso en el chat de Teams.](./media/hr-teams-leave-app-initiate.png)
 
 - El bot de chat completará una solicitud de permiso para usted. Seleccione **Solicitar tiempo libre** y edite los detalles de su solicitud.
 
@@ -69,11 +69,11 @@ Puede pedirle al bot que:
 
    Si selecciona una baja de medio día cuando la unidad de solicitud de baja está en días, puede especificar si desea solicitar tiempo libre el primer medio día o el segundo medio día seleccionando la opción **Definición de medio día** en el menú **Más opciones**.
    
-   ![Definiciones de medio día](./media/HalfDayDefinitions.png)
+   ![Definiciones de medio día.](./media/HalfDayDefinitions.png)
 
 - Cuando haya terminado de editar los detalles de su solicitud de permiso, seleccione **Enviar** para enviarlo para su aprobación.
 
-  ![Enviar solicitud de licencia](./media/hr-teams-leave-app-submit.png)
+  ![Enviar solicitud de licencia.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Administrar su baja en Teams
 
@@ -93,7 +93,7 @@ La pestaña **Tiempo libre** le permite ver:
 
 2. Introduzca el día o días que desea tomarse y luego seleccione **Agregar**.
 
-   ![Adición de tiempo libre en la aplicación de bajas de Recursos Humanos en Teams](./media/TimeOffHours.png)
+   ![Adición de tiempo libre en la aplicación de bajas de Recursos Humanos en Teams.](./media/TimeOffHours.png)
 
 3. Si corresponde, introduzca un código de razón. Introduzca también cualquier comentario y agregue cualquier archivo adjunto.
 
@@ -123,7 +123,7 @@ Después de instalar la aplicación Recursos humanos para Teams, puede enviar f�
 
 1. En un equipo o chat de Teams, seleccione el botón Recursos humanos debajo de la ventana de chat.
 
-   ![Botón de recursos humanos bajo la ventana de chat](./media/hr-teams-leave-app-chat-button.png)
+   ![Botón de recursos humanos bajo la ventana de chat.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Seleccione la solicitud de baja que desea compartir. Si desea compartir un borrador de solicitud de baja, primero seleccione **Borradores**.
 
@@ -173,11 +173,11 @@ Si las traducciones no se muestran como se esperaba, asegúrese de que el idioma
 
 En Teams, mire **Idioma de la aplicación** en **Ajustes**.
 
-![Configuración de Teams](./media/hr-teams-leave-app-settings.png)
+![Configuración de Teams.](./media/hr-teams-leave-app-settings.png)
 
 En Human Resources, seleccione **Ajustes** y luego seleccione **Opciones de usuario**. Verifique que el campo **Idioma** coincide con el campo **Idioma de la aplicación** en Teams.
 
-![Opciones de usuario de Human Resources](./media/hr-teams-leave-app-user-options.png)
+![Opciones de usuario de Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
 Si aún tiene problemas de traducción, háganoslo saber. Para obtener información, consulte [Obtener soporte técnico para aplicaciones de Finance and Operations o Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 

@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0c4f028367c894c54392963ffc4f6a0f0c04c03a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 85b021f99a1260e4ed640764e4a3e96a80197768
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795270"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354598"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Asignar listas de tareas a tiendas o empleados
 
@@ -45,7 +45,7 @@ Para comenzar el proceso de asignación de una lista de tareas, siga estos pasos
 
 La siguiente ilustración muestra un ejemplo de cómo encontrar y seleccionar tiendas en el cuadro de diálogo **Iniciar proceso**.
 
-![Encontrar y seleccionar tiendas en el cuadro de diálogo Iniciar proceso](media/HQ-Assign-Tasks-Lists.png)
+![Encontrar y seleccionar tiendas en el cuadro de diálogo Iniciar proceso.](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>Asigna listas de tareas de forma periódica
 
@@ -62,7 +62,7 @@ El minorista a veces tiene tareas recurrentes, como "Lista de verificación de c
 
 La siguiente ilustración muestra un ejemplo de cómo ingresar criterios de frecuencia en el cuadro de diálogo **Definir periodicidad**.
 
-![Introducir el criterio de frecuencia en el cuadro de diálogo Definir periodicidad](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![Introducir el criterio de frecuencia en el cuadro de diálogo Definir periodicidad.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>Seguimiento del estado de la lista de tareas
 

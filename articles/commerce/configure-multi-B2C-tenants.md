@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c813adb79ae1b78a052332e077393f125830633f
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 0ad2a86fbc17f107a065330a56da6cdcca69e172
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027731"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352575"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurar múltiples inquilinos B2C en un entorno de Commerce
 
@@ -49,7 +49,7 @@ A menudo, cuando cada canal o sitio se trata como un negocio separado, la mejor 
 
 La siguiente ilustración muestra múltiples inquilinos B2C en un entorno de Commerce.
 
-![Múltiples inquilinos B2C en un entorno de Commerce](media/MultiB2C_In_Environment.png)
+![Múltiples inquilinos B2C en un entorno de Commerce.](media/MultiB2C_In_Environment.png)
 
 Si decide que su negocio requiere inquilinos B2C distintos por canal en el mismo entorno de Commerce, complete los procedimientos en las siguientes secciones para solicitar esta función.
 

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799526"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349731"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Habilitar y usar el uso compartido entre canales
 
@@ -48,15 +48,15 @@ Para habilitar el uso compartido entre canales en el creador de sitios de Commer
 1. Vaya a **Configuraciones del sitio \> Características**.
 1. Configure la opción para la característica **Canal transversal** en **Activado**.
 
-    ![Opción de canal cruzado establecida en Activado en el creador de sitios de comercio](./media/enabling-cross-channel-sharing.png)
+    ![Opción de canal cruzado establecida en Activado en el creador de sitios de comercio.](./media/enabling-cross-channel-sharing.png)
 
 Después de habilitar el uso compartido entre canales, la información entre canales aparecerá en la sección **Canales** de **Configuración del sitio \> Caracteristicas**, como muestra el ejemplo de la siguiente ilustración.
 
-![Información de canales visible después de habilitar el uso compartido entre canales](./media/channels-cross-channel.png)
+![Información de canales visible después de habilitar el uso compartido entre canales.](./media/channels-cross-channel.png)
 
 Además, después de habilitar el uso compartido entre canales, el campo **Canal** en la parte superior derecha del creador de sitios de comercio incluirá una opción **Tienda online multicanal** que puede usar para administrar contenido multicanal, como se muestra en la siguiente ilustración.
 
-![Opción Tienda en línea entre canales en el campo Canales después de que se habilita el uso compartido entre canales](./media/cross-channel-dropdown.png)
+![Opción Tienda en línea entre canales en el campo Canales después de que se habilita el uso compartido entre canales.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Crear y usar contenido entre canales
 

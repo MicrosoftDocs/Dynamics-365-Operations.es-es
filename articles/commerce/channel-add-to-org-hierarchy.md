@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f20b5c36b45fc0d242edb4e5305a4195d6dfbe94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800696"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351234"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Agregar un canal a una jerarquía organizativa
 
@@ -58,17 +58,17 @@ Para agregar un canal a un nodo de jerarquía, siga estos pasos.
 
 La siguiente imagen muestra cómo seleccionar un canal para agregarlo a un nodo de jerarquía.
 
-![Seleccionar un canal para agregarlo a un nodo de jerarquía](media/channel-add-to-org-hierarchy-2.png)
+![Seleccionar un canal para agregarlo a un nodo de jerarquía.](media/channel-add-to-org-hierarchy-2.png)
 
 La siguiente imagen muestra una jerarquía con varios canales agregados.
 
-![Una jerarquía con varios canales agregados](media/channel-add-to-org-hierarchy-3.png)
+![Una jerarquía con varios canales agregados.](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Resumen de canales](channels-overview.md)
+[Información general de canales](channels-overview.md)
 
-[Requisitos previos de configuración de canales](channels-prerequisites.md)
+[Requisitos previos de configuración del canal](channels-prerequisites.md)
 
 [Visión general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 

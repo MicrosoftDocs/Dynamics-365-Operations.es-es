@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892442"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360745"
 ---
 # <a name="asset-leasing-get-started"></a>Introducción al arrendamiento de activos
 
@@ -35,7 +37,7 @@ Para obtener más información sobre las normas de contabilidad, consulte la doc
 ## <a name="asset-leasing-elements"></a>Elementos de arrendamiento de activos
 El siguiente diagrama muestra los elementos principales del proceso empresarial de los arrendamientos.
 
-[![Elementos de arrendamiento de activos](./media/overview-01.png)](./media/overview-01.png)
+[![Elementos de arrendamiento de activos.](./media/overview-01.png)](./media/overview-01.png)
 
 Un activo arrendado contiene los siguientes componentes principales:
 
@@ -54,7 +56,7 @@ Mapas de arrendamiento de activos, información de arrendamiento, cronogramas de
 
 El siguiente diagrama muestra el libro de arrendamientos, el arrendamiento, el calendario de pagos calculado, las pruebas de clasificación para arrendamientos y libros de arrendamientos, y las transacciones contables correspondientes.
 
-[![Arrendamiento, libro de arrendamientos y calendario de pagos](./media/overview-02.png)](./media/overview-02.png)
+[![Arrendamiento, libro de arrendamientos y calendario de pagos.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Libro de alquiler** - El libro de arrendamientos incluye toda la información del contrato de arrendamiento, como términos de arrendamiento, valor razonable y pagos de arrendamiento. También incluye el estándar de contabilidad que está siguiendo, el tipo de arrendamiento y los umbrales que se consideran en la prueba de clasificación de arrendamiento. El libro de arrendamientos también contiene las transacciones de arrendamiento que se registraron en el libro mayor. 
   
@@ -117,7 +119,7 @@ El primer período comenzará con el período cero, si el tipo de anualidad es a
 
 Las pruebas de clasificación incluyen Transferencia de propiedad, Opción de compra, Plazo del arrendamiento, Valor presente neto y Activo único. El siguiente diagrama ilustra las pruebas de clasificación de arrendamientos.
 
-[![Pruebas de clasificación de arrendamientos](./media/overview-03.png)](./media/overview-03.png)
+[![Pruebas de clasificación de arrendamientos.](./media/overview-03.png)](./media/overview-03.png)
 
 Cada tipo de arrendamiento maneja la contabilidad de manera diferente para diferentes transacciones de arrendamiento. Las transacciones incluyen el reconocimiento inicial, los gastos por intereses, el pago vencido del arrendamiento y la depreciación del arrendamiento, y se basan en los estándares de contabilidad que está siguiendo (NIIF 16 o ASC 842). Las cuentas del libro mayor se definen en el perfil de registro de arrendamientos para cada tipo de transacción y marco contable.
 
@@ -232,7 +234,7 @@ Complete los siguientes pasos para crear un arrendamiento nuevo.
 
    La página **Calendario de pago** enumera los programas de pago futuros para un ID de arrendamiento. Seleccione **Confirmar horario** para poder publicar las transacciones de **Reconocimiento inicial**. 
 
-[![Función de reconocimiento inicial](./media/overview-13.png)](./media/overview-13.png)
+[![Función de reconocimiento inicial.](./media/overview-13.png)](./media/overview-13.png)
 
 8. Seleccione **Reconocimiento inicial** para crear un diario de reconocimiento inicial. 
 
@@ -246,7 +248,7 @@ Complete los siguientes pasos para crear un arrendamiento nuevo.
 
    La página **Programa de depreciación de activos** muestra las transacciones de depreciación para el ID de arrendamiento seleccionado. 
 
-   [![Página Transacciones de activos por derecho de uso](./media/overview-20.png)](./media/overview-20.png)
+   [![Página Transacciones de activos por derecho de uso.](./media/overview-20.png)](./media/overview-20.png)
 
    La página **Transacciones de activos por derecho de uso** enumera el reconocimiento inicial, la depreciación acumulada y el saldo del activo. 
 

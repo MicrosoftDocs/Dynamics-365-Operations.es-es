@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfab08a4190bf51518bd4a9b445b229a5081e87d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: bfa7dc9c2a86b5bd8783327c0e7cfa6b8b9ddd4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023557"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358347"
 ---
 # <a name="run-the-periodic-tds-settlement-process"></a>Ejecutar el proceso de liquidación periódica de TDS
 
@@ -31,7 +31,7 @@ Este tema explica cómo liquidar impuestos deducidos en el origen (TDS) periódi
 
 1. Vaya a **Impuesto \> Declaraciones \> Retención de impuestos \> Pago de retención de impuestos**.
 
-    [![Cuadro de diálogo de pago de retención de impuestos](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
+    [![Cuadro de diálogo de pago de retención de impuestos.](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
 
 2. En el cuadro de diálogo **Pago de retención de impuestos**, en el campo **Tipo de impuesto**, seleccione **TDS**.
 3. En el campo **Número de cuenta de impuestos (TAN)**, seleccione el Número de cuenta de impuestos (TAN) para ejecutar el proceso de liquidación.

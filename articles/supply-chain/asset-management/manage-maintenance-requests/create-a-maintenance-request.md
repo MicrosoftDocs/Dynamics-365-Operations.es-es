@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102983"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354914"
 ---
 # <a name="create-maintenance-requests"></a>Crear solicitudes de mantenimiento
 
@@ -52,7 +52,7 @@ La sección **Solicitudes de mantenimiento activas** del panel **Información re
 11. En el campo **Notas**, especifique las notas adicionales necesarias.
 12. Seleccione **Aceptar**.
 
-![Crear solicitud de mantenimiento](media/03-manage-maintenance-requests.png)
+![Crear solicitud de mantenimiento.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Procesamiento posterior de solicitudes de mantenimiento
 
@@ -67,7 +67,7 @@ En la vista de detalles puede actualizar diversos datos. A continuación se incl
 - Seleccione un tipo de trabajo de mantenimiento y, si esta información es relevante, elija una variante y un oficio de trabajo de mantenimiento relacionados.
 - En los campos **Latitud** y **Longitud**, especifique las coordenadas geográficas. Las coordenadas que se agreguen a una solicitud de mantenimiento se transferirán automáticamente a una orden de trabajo relacionada. 
 
-![Actualizar solicitud de mantenimiento](media/04-manage-maintenance-requests.png)
+![Actualizar solicitud de mantenimiento.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Si selecciona un activo al crear una solicitud de mantenimiento, puede agregar un error a activo. Una vez creada la solicitud de mantenimiento, puede agregar más errores si es necesario. Para agregar errores, seleccione **Error de activo** en la página **Todas las solicitudes de mantenimiento**.

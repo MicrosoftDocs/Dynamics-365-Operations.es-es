@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753999"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350845"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante la configuración inicial
 
@@ -42,7 +42,7 @@ Este tema proporciona información para solución de problemas de integración d
 
 Los errores en la página **Enlace de configuración a Dataverse** generalmente se deben a problemas de configuración o permisos incompletos. Asegúrese de que toda la compración de estado aprueba en la página **Enlace de configuración a Dataverse**, como se muestra en la siguiente ilustración. No puede vincular la escritura doble a menos que se apruebe toda la comprobación de estado.
 
-![Comprobación de estado exitosa](media/health_check.png)
+![Comprobación de estado exitosa.](media/health_check.png)
 
 Debe tener credenciales de administrador de inquilinos de Azure AD para vincular los entornos Finance and Operations y Dataverse. Después de vincular los entornos, los usuarios pueden iniciar sesión utilizando sus credenciales de cuenta y actualizar un mapa de tabla existente.
 
@@ -77,7 +77,7 @@ Para garantizar que la escritura doble funcione correctamente, las empresas que 
 4. Seleccione la compañía que estaba vinculada cuando configuró la escritura doble.
 5. Verifique que la columna **Equipo propietario predeterminado** tiene un valor. En la siguiente ilustración, la columna **Equipo propietario predeterminado** se establece en **USMF de doble escritura**.
 
-    ![Verificación del equipo propietario predeterminado](media/default_owning_team.png)
+    ![Verificación del equipo propietario predeterminado.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Encuentre el límite en el número de tablas jurídicas o empresas que pueden vincularse para doble escritura
 

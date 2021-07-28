@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7b4734fd363cd5ee44f228e0c0f9ce73abad1aaa
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 633717d77f4d31463d51c575d837a65dbb0e5ce2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021861"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358736"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>Administrar roles de usuario en Microsoft Teams
 
@@ -30,7 +30,7 @@ A medida que crea un equipo para cada tienda o canal en Teams, se crea una perte
 
 La siguiente ilustración muestra un ejemplo de una lista de miembros del equipo y sus roles de usuario en el centro de administración de Microsoft Teams.
 
-![Miembros del equipo y roles de usuario en el centro de administración de Microsoft Teams](media/d365-commerce-teams-integration-user-roles.png)
+![Miembros del equipo y roles de usuario en el centro de administración de Microsoft Teams.](media/d365-commerce-teams-integration-user-roles.png)
 
 Para más información, consulte [Asignar propietarios y miembros del equipo en Microsoft Teams](/microsoftteams/assign-roles-permissions).
 

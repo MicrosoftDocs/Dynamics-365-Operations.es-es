@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 991fe4ea56a2726c5df835cfc90a390cef2d5df5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af9f3dd81b0681579c14e0afb8281706e8aa534d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751139"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351803"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Agregar nuevos campos a una plantilla de documento empresarial en Microsoft Excel
 
@@ -50,14 +50,14 @@ La configuración del formato de ER **Factura de servicios (Excel)** de esta sol
 
 Para obtener más información acerca de cómo importar configuraciones de ER, consulte [Gestionar el ciclo de vida de la configuración de ER](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Página Biblioteca de activos compartidos de LCS](./media/BDM-AddFldExcel-LCS.png)
+![Página Biblioteca de activos compartidos de LCS.](./media/BDM-AddFldExcel-LCS.png)
 
 ### <a name="edit-the-er-solution-template"></a>Editar la plantilla de la solución de ER
 
 1.  Inicie sesión como usuario que tiene acceso al espacio de trabajo de la **gestión de documentos empresariales**.
 2.  Abra el espacio de trabajo de la **gestión de documentos empresariales**.
 
-    ![Espacio de trabajo de la gestión de documentos empresariales](./media/BDM-AddFldExcel-Workspace.png)
+    ![Espacio de trabajo de la gestión de documentos empresariales.](./media/BDM-AddFldExcel-Workspace.png)
 
 3.  En la cuadrícula, seleccione la plantilla **Factura de servicios (Excel)**.
 4.  En el panel derecho, seleccione **Nueva plantilla** para crear una nueva plantilla basada en la plantilla seleccionada.
@@ -66,20 +66,20 @@ Para obtener más información acerca de cómo importar configuraciones de ER, c
 
 Aparece la página del editor de plantillas de BDM. Puede usar Microsoft 365 para editar en línea la plantilla seleccionada en el control incrustado.
 
-![Página del editor de plantillas de BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
+![Página del editor de plantillas de BDM.](./media/BDM-AddFldExcel-EditableTemplate.png)
 
 ### <a name="add-the-label-for-a-new-field-to-the-template"></a>Agregar la etiqueta para un nuevo campo a la plantilla
 
 1.  En la página del editor de plantillas de BDM, en la cinta de opciones de Excel, en la pestaña **Ver**, seleccione las casillas **Encabezados y líneas de cuadrícula** para la plantilla de Excel editable.
 
-    ![Casillas de encabezados y líneas de cuadrícula seleccionadas](./media/BDM-AddFldExcel-EditableTemplate2.png)
+    ![Casillas de encabezados y líneas de cuadrícula seleccionadas.](./media/BDM-AddFldExcel-EditableTemplate2.png)
 
 2.  Seleccione las celdas **E8:F8**.
 3.  En la cinta de opciones de Excel, en la pestaña **Inicio**, seleccione **Combinar y centrar** para combinar las celdas seleccionadas en una nueva celda **E8:F8** combinada.
 4.  En la celda combinada **E8:F8**, introduzca la **URL**.
 5.  Seleccione la celda combinada **E7:F7**, seleccione **Copiar formato** y luego seleccione la celda combinada **E8:F8** para aplicarle formato de la misma manera que la celda combinada **E7:F7**.
 
-    ![Nuevo etiqueta de campo agregada a la plantilla](./media/BDM-AddFldExcel-EditableTemplate3.png)
+    ![Nuevo etiqueta de campo agregada a la plantilla.](./media/BDM-AddFldExcel-EditableTemplate3.png)
 
 ### <a name="format-the-template-to-reserve-space-for-a-new-field"></a>Aplicar formato a la plantilla para reservar espacio para un nuevo campo
 
@@ -87,13 +87,13 @@ Aparece la página del editor de plantillas de BDM. Puede usar Microsoft 365 par
 2.  En la cinta de opciones de Excel, en la pestaña **Inicio**, seleccione **Combinar y centrar** para combinar las celdas seleccionadas en una nueva celda **G8:H8** combinada.
 3.  Seleccione la celda combinada **G7:H7**, seleccione **Copiar formato** y luego seleccione la celda combinada **G8:H8** para aplicarle formato de la misma manera que la celda combinada **G7:H7**.
 
-    ![Espacio reservado para el nuevo campo](./media/BDM-AddFldExcel-EditableTemplate4.png)
+    ![Espacio reservado para el nuevo campo.](./media/BDM-AddFldExcel-EditableTemplate4.png)
 
 4.  En el campo **Nombre**, seleccione **CompanyInfo**.
 
     El intervalo **CompanyInfo** de la plantilla de Excel actual contiene todos los campos que se utilizan para rellenar el encabezado de un informe generado con los detalles de la empresa actual como parte vendedora.
 
-    ![Intervalo CompanyInfo seleccionado](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
+    ![Intervalo CompanyInfo seleccionado.](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
 
 ### <a name="add-a-new-field-to-the-template"></a>Agregar un nuevo campo a la plantilla
 
@@ -103,7 +103,7 @@ Aparece la página del editor de plantillas de BDM. Puede usar Microsoft 365 par
     > [!NOTE]
     > Debe ajustar la sección de la plantilla que desea utilizar como un nuevo campo. Ya hizo este ajuste al aplicar formato a la celda combinada **G8:H8**.
 
-    ![Agregando un nuevo campo a la plantilla](./media/BDM-AddFldExcel-AddCell.png)
+    ![Agregando un nuevo campo a la plantilla.](./media/BDM-AddFldExcel-AddCell.png)
 
 3.  Seleccione **Excel\Celda** para agregar un nuevo campo como celda en la plantilla.
 
@@ -114,11 +114,11 @@ Aparece la página del editor de plantillas de BDM. Puede usar Microsoft 365 par
 4.  En el campo **Intervalo de Excel**, introduzca **CompanyURL_Value**.
 5.  Seleccione **Aceptar**.
 
-    ![Campo CompanyURL_Value agregado a la estructura de la plantilla](./media/BDM-AddFldExcel-EditableTemplate5.png)
+    ![Campo CompanyURL_Value agregado a la estructura de la plantilla.](./media/BDM-AddFldExcel-EditableTemplate5.png)
 
 6.  En el panel **Estructura de la plantilla**, seleccione los puntos suspensivos (...) y, a continuación, seleccione **Mostrar enlaces**.
 
-    ![Mostrar enlaces seleccionados](./media/BDM-AddFldExcel-ShowBindings.png)
+    ![Mostrar enlaces seleccionados.](./media/BDM-AddFldExcel-ShowBindings.png)
 
     El panel **Estructura de la plantilla** ahora muestra los orígenes de datos disponibles en el formato de ER subyacente.
 
@@ -126,21 +126,21 @@ Aparece la página del editor de plantillas de BDM. Puede usar Microsoft 365 par
 8.  En la sección **Orígenes de datos** del panel **Estructura de la plantilla**, expanda **Modelo \> InvoiceBase \> CompanyInfo**.
 9.  En **CompanyInfo**, seleccione el elemento **WebsiteURI**.
 
-    ![Elemento WebsiteURI seleccionado](./media/BDM-AddFldExcel-BindURL.png)
+    ![Elemento WebsiteURI seleccionado.](./media/BDM-AddFldExcel-BindURL.png)
 
 10. Seleccione **Enlazar**.
 11. En el panel **Estructura de la plantilla**, seleccione **Guardar** y luego cierre la página del editor de la plantilla de BDM.
 
 En el espacio de trabajo **Gestión de documentos empresariales**, la pestaña **Plantilla** en el panel derecho muestra la plantilla actualizada. En la cuadrícula, tenga en cuenta que el campo **Estado** para la plantilla editada se ha cambiado a **Borrador** y el campo **Revisión** dejará de estar en blanco. Estos cambios indican que se ha iniciado el proceso de edición de esta plantilla.
 
-![Plantilla editada en el espacio de trabajo de Gestión de documentos empresariales](./media/BDM-AddFldExcel-Workspace2.png)
+![Plantilla editada en el espacio de trabajo de Gestión de documentos empresariales.](./media/BDM-AddFldExcel-Workspace2.png)
 
 ## <a name="review-company-settings"></a>Revisar configuración de empresa
 
 1.  Vaya a **Administración de la organización \> Organizaciones \> Entidades jurídicas**.
 2.  En la ficha desplegable **Información de contacto**, compruebe que está introducida la dirección URL de la empresa.
 
-![Dirección URL de la empresa introducida en la página de Entidades jurídicas](./media/BDM-AddFldExcel-CompanyInfo.png)
+![Dirección URL de la empresa introducida en la página de Entidades jurídicas.](./media/BDM-AddFldExcel-CompanyInfo.png)
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>Generar documentos empresariales para probar la plantilla actualizada
 
@@ -150,13 +150,13 @@ En el espacio de trabajo **Gestión de documentos empresariales**, la pestaña *
 4.  En **Factura de servicios**, seleccione el nivel **Documento original** para especificar el ámbito de las facturas para procesar.
 5.  En el panel derecho, en el campo **Formato del informe**, seleccione la plantilla **Factura de servicios (Excel) Contoso** para el nivel del documento especificado.
 
-    ![Plantilla Factura de servicio (Excel) Contoso seleccionada](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Plantilla Factura de servicio (Excel) Contoso seleccionada.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Presione **Esc** para cerrar la página actual.
 7.  Seleccionar **Impresión \> Seleccionada**.
 8.  Descargue el documento generado y ábralo en Excel.
 
-    ![Factura de servicios en Excel](./media/BDM-AddFldExcel-PreviewReport.png)
+    ![Factura de servicios en Excel.](./media/BDM-AddFldExcel-PreviewReport.png)
 
 La plantilla modificada se usa para generar el informe de facturas de servicios para el artículo seleccionado. Para analizar cómo este informe se ve afectado por los cambios que hace en la plantilla, ejecute el informe en una sesión de la aplicación inmediatamente después de cambiar la plantilla en otra sesión de la aplicación.
 

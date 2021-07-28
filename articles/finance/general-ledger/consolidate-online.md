@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 8a946a8325afebf76639991c60135d7425f5f211
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eca0d30903985126412e1ae0b8e3232c3e4700f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826771"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351693"
 ---
 # <a name="online-financial-consolidations"></a>Consolidaciones financieras en línea
 
@@ -31,7 +31,7 @@ Una vez completada la configuración, especifique los detalles de la consolidaci
 ## <a name="criteria"></a>Criterios
 En la pestaña **Criterios** de la página **Consolidar [En línea]**, se definen las cuentas, los períodos, y el tipo de información que se está consolidando.
 
-![Pestaña Criterios](./media/criteria-consolidate-online.png "Pestaña Criterios")
+![Pestaña Criterios.](./media/criteria-consolidate-online.png "Pestaña Criterios")
 
 Esta es una explicación de los diversos campos de esta pestaña:
 
@@ -57,16 +57,16 @@ Esta es una explicación de los diversos campos de esta pestaña:
 ## <a name="financial-dimensions"></a>Dimensiones financieras
 En la pestaña **Dimensiones financieras**, se definen las dimensiones que se deben incluir en la empresa de consolidación. Para seleccionar una dimensión, establezca el campo **Especificación** en **Dimensión**, y defina el orden de la dimensión en la empresa de consolidación.
 
-![Pestaña Dimensiones financieras](./media/financial-dimensions-cons.png "Pestaña Dimensiones financieras")
+![Pestaña Dimensiones financieras.](./media/financial-dimensions-cons.png "Pestaña Dimensiones financieras")
 
 Independientemente de la orden que se define, **Cuenta principal** siempre será el primer segmento.
 
 ## <a name="legal-entities"></a>Entidades jurídicas
 En la pestaña **Entidades legales**, se definen las empresas que se deben incluir en la empresa de consolidación. También define el porcentaje de propiedad de esas empresas. Si especifica menos del 100 por ciento de propiedad, el porcentaje especificado se revertirá a la empresa de consolidación. Para las diferencias de conversión, el campo **Tipo de cuenta para diferencias de conversión** se utiliza para seleccionar la cuenta principal de la configuración en la página **Cuentas para transacciones automáticas**.
 
-![Pestaña Entidades jurídicas](./media/legal-entities-cons.png "Pestaña Entidades jurídicas")
+![Pestaña Entidades jurídicas.](./media/legal-entities-cons.png "Pestaña Entidades jurídicas")
 
-![Página Cuentas para transacciones automáticas](./media/accounts-for-automatic-cons.png "Página Cuentas para transacciones automáticas")
+![Página Cuentas para transacciones automáticas.](./media/accounts-for-automatic-cons.png "Página Cuentas para transacciones automáticas")
 
 ## <a name="elimination"></a>Período de eliminación
 En la pestaña **Eliminación** , tiene tres opciones para procesar las eliminaciones:
@@ -75,7 +75,7 @@ En la pestaña **Eliminación** , tiene tres opciones para procesar las eliminac
 - Seleccione la regla de eliminación y, a continuación, en el campo **Opciones de propuesta**, seleccione **Sólo registrar**. Esta opción procesará la eliminación durante el proceso de consolidación y registrará todo en un paso.
 - Ejecute una propuesta de eliminación de forma independiente del proceso de consolidación usando el diario de eliminación.
 
-![Pestaña eliminación](./media/elimination-cons-onl.png "Pestaña eliminación")
+![Pestaña eliminación.](./media/elimination-cons-onl.png "Pestaña eliminación")
 
 Para obtener más información acerca de las eliminaciones, consulte [Reglas de eliminación](./elimination-rules.md).
 
@@ -86,7 +86,7 @@ En la pestaña **Conversión de la divisa**, se define la entidad jurídica, la 
 - **Fecha de transacción** La fecha de cada transacción se usará para seleccionar un tipo de cambio. Esta opción es la que más se suele usar para los activos fijos y suele denominarse tipo histórico. No puede ver una vista previa de la tasa debido a que habrá muchas tasas para las diversas transacciones en el intervalo de la cuenta.
 - **Tasa definida por el usuario** Después de activar esta opción, puede especificar el tipo de cambio que desee. Esta opción puede ser útil para los tipos de cambio medio o si está consolidando con un tipo de cambio fijo.
 
-![Pestaña Conversión de divisas](./media/currency-translation-cons-online.png "Pestaña Conversión de divisas")
+![Pestaña Conversión de divisas.](./media/currency-translation-cons-online.png "Pestaña Conversión de divisas")
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 827f4ca16341d29413f1b1d928965aa1919abf59
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c28ade5bb6a22b9d15380085ea479e79ba246c1e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822524"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354069"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Programar orden de trabajo en una fecha y hora específicas
 
@@ -38,13 +38,13 @@ Si una orden de trabajo se debe programar en una fecha *y* hora específicas, pu
 
 4. En la ficha desplegable **Encabezado de la orden de trabajo**, inserte las fechas y las horas de inicio y finalización específicas en los campos **Inicio previsto** y **Finalización prevista**.
 
-    ![Figura 1](media/05-work-order-scheduling.png)
+    ![Figura 1.](media/05-work-order-scheduling.png)
 
 5. En la pestaña **General**, haga clic en **Programación** para usar el proceso de programación estándar, o haga clic en **Distribuir** si desea asignar la orden de trabajo para un trabajador específico.
 
 6. Para anular cualquier reserva de capacidad existente a fin de garantizar que la orden de trabajo se programa en el período previsto, haga las selecciones como se muestra en la siguiente ilustración en el cuadro de diálogo **Programar orden de trabajo** > sección **Capacidad limitada**. Esto significa que el proceso de programación ignorará reservas de capacidad existentes porque la orden de trabajo debe comenzar en la hora de inicio prevista.
 
-    ![Figura 2](media/06-work-order-scheduling.png)
+    ![Figura 2.](media/06-work-order-scheduling.png)
 
 7. Haga clic en **Aceptar** para comenzar la programación.
 

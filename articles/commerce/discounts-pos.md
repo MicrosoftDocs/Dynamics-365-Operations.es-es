@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792856"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356887"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrar descuentos en PDV
 
@@ -33,7 +33,7 @@ Las promociones juegan un papel importante en motivar a los clientes que toman d
 
 Commerce incluye una operación que se denomina "Ver todos los descuentos". Esta operación muestra todos los descuentos que se están ejecutando actualmente en una tienda. La operación "Ver todos los descuentos" se puede asignar a un botón en el punto de venta (PDV), y ese botón se puede agregar a la página **Bienvenido** o **Transacción**. La ilustración siguiente muestra un ejemplo de la página **Todos los descuentos** que está abierta.
 
-![Página todos los descuentos](./media/View_all_discounts.png "Página todos los descuentos")
+![Página todos los descuentos.](./media/View_all_discounts.png "Página todos los descuentos")
 
 Para mostrar descuentos, el sistema busca todos los descuentos que coincidan con una o más de las siguientes condiciones:
 
@@ -61,11 +61,11 @@ Las siguientes ilustraciones muestran la lógica que determina qué descuentos s
 
 La siguiente ilustración muestra la lógica que se utiliza cuando el control de simultaneidad de descuento se establece en **El mejor precio y compuesto dentro de la prioridad, nunca compuesto a través de prioridades**.
 
-![Lógica para el mejor precio y compuesto dentro de la prioridad, nunca compuesto entre prioridades](./media/Model_1.png "Lógica para el mejor precio y compuesto dentro de la prioridad, nunca compuesto entre prioridades").
+![Lógica para el mejor precio y compuesto dentro de la prioridad, nunca compuesto entre prioridades.](./media/Model_1.png "Lógica para el mejor precio y compuesto dentro de la prioridad, nunca compuesto entre prioridades").
 
 La siguiente ilustración muestra la lógica que se utiliza cuando el control de simultaneidad de descuento se establece en **El mejor precio solo dentro de la prioridad, siempre compuesto a través de la prioridad**.
 
-![Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad](./media/Model_2.png "Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad").
+![Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad.](./media/Model_2.png "Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad").
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

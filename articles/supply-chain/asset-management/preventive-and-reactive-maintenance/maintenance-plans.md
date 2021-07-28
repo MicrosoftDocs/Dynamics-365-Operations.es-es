@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839616"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361123"
 ---
 # <a name="maintenance-plans"></a>Planes de mantenimiento
 
@@ -145,11 +145,11 @@ A continuación encontrará ejemplos de la configuración de líneas del plan de
 
 **Ejemplo 1 - Línea del plan de mantenimiento basada en la hora:** un trabajo de lubricación se puede configurar en un intervalo fijo que se produzca una vez a la semana. Para ello, seleccione "Repetido desde la fecha del plan" en el campo **Tipo de intervalo**. Consulte un ejemplo en la siguiente ilustración.
 
-![Un trabajo de servicio configurado en un intervalo fijo, que se realiza una vez a la semana](media/02-preventive-maintenance.png "Un trabajo de servicio configurado en un intervalo fijo, que se realiza una vez a la semana")
+![Un trabajo de servicio configurado en un intervalo fijo, que se realiza una vez a la semana.](media/02-preventive-maintenance.png "Un trabajo de servicio configurado en un intervalo fijo, que se realiza una vez a la semana")
 
 **Ejemplo 2 - Línea del plan de mantenimiento basada en la hora:** un trabajo de inspección se puede configurar para que se lleve a cabo aproximadamente una vez a la semana. Para ello, seleccione "Repetido desde la última orden de pedido" en el campo **Tipo de intervalo**. Consulte un ejemplo en la siguiente ilustración.
 
-![Un trabajo de inspección configurado que se realiza aproximadamente una vez a la semana](media/03-preventive-maintenance.png "Un trabajo de inspección configurado que se realiza aproximadamente una vez a la semana")
+![Un trabajo de inspección configurado que se realiza aproximadamente una vez a la semana.](media/03-preventive-maintenance.png "Un trabajo de inspección configurado que se realiza aproximadamente una vez a la semana")
 
 **Ejemplo 3 - Línea del plan de mantenimiento basada en contador:** la siguiente ilustración gráfica muestra un contador de horas para el que se crea una nueva línea del programa de mantenimiento cada vez que han pasado 250 horas. El tipo de intervalo para esta línea basada en contador es "Repetido desde la fecha de inicio". La fecha de inicio es la fecha de inicio de los activos relacionados en la vista de detalles **Todos los activos** \> ficha desplegable **Planes de mantenimiento del activo** \> campo **Fecha de inicio**, o en la vista de detalles **Ubicación técnica** \> ficha desplegable **Planes de mantenimiento** \> campo **Fecha de inicio**. Este es un ejemplo de un plan de mantenimiento *preventivo* porque el programa de mantenimiento se crea automáticamente cada vez que se alcanza el umbral (+ 250).
 
@@ -157,11 +157,11 @@ A continuación encontrará ejemplos de la configuración de líneas del plan de
 
 **Ejemplo 4 - Línea del plan de mantenimiento basada en contador:** la siguiente ilustración gráfica muestra una disminución en un valor de contador, que mide el desgaste de la zapata de freno. Se crea una línea del programa de mantenimiento cuando se crea un registro de contador por debajo de 20 mm en la zapata de freno. El tipo de intervalo para esta línea basada en contador es "Una vez alcanzado por debajo" o "Una vez desde la última fecha de inicio". Este es un ejemplo de un plan de mantenimiento *reactivo* porque el programa de mantenimiento no se crea hasta que se registre una medida por debajo de 20 mm.
 
-![Disminución del valor del contador, medición del desgaste de las pastillas de freno](media/05-preventive-maintenance.png "Disminución del valor del contador, medición del desgaste de las pastillas de freno")
+![Disminución del valor del contador, medición del desgaste de las pastillas de freno.](media/05-preventive-maintenance.png "Disminución del valor del contador, medición del desgaste de las pastillas de freno")
 
 **Ejemplo 5 - Línea del plan de mantenimiento basada en contador:** la siguiente ilustración gráfica muestra un contador con un umbral de -18° Celsius. Se crea una línea del programa de mantenimiento cuando se realiza un registro de contador por encima de -18° Celsius. El tipo de intervalo para esta línea basada en contador es "Una vez alcanzado por encima". Este es un ejemplo de un plan de mantenimiento *reactivo* porque el programa de mantenimiento no se crea hasta que se registre una medida por encima de -18° Celsius.
 
-![Un contador con un umbral de -18 °Celsius](media/06-preventive-maintenance.png "Un contador con un umbral de -18 °Celsius")
+![Un contador con un umbral de -18 °Celsius.](media/06-preventive-maintenance.png "Un contador con un umbral de -18 °Celsius")
 
 - Cuando cree un nuevo activo y ese activo use un tipo de activo relacionado con un plan de mantenimiento, el plan de mantenimiento se inserta automáticamente en la ficha desplegable **Todos los objetos \> Planes de mantenimiento del activo**. Además, en **Valores predeterminados de tipo de activo**, en la ficha desplegable **Planes de mantenimiento**, se insertarán automáticamente los planes de mantenimiento relacionados.
 - Si agrega o elimina tipos de activo o tipos de ubicación técnica en **Planes de mantenimiento**, ese cambio solo se reflejará en los nuevos activos creados después de hacer el cambio.
@@ -169,7 +169,7 @@ A continuación encontrará ejemplos de la configuración de líneas del plan de
 
 La siguiente ilustración muestra un ejemplo de un plan de mantenimiento de "servicio de camión” en la página **Planes de mantenimiento**.
 
-![Un ejemplo de un plan de mantenimiento de servicio de camión](media/07-preventive-maintenance.png "Un ejemplo de un plan de mantenimiento de servicio de camión")
+![Un ejemplo de un plan de mantenimiento de servicio de camión.](media/07-preventive-maintenance.png "Un ejemplo de un plan de mantenimiento de servicio de camión")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Agregar un plan de mantenimiento a un activo
 
@@ -187,11 +187,11 @@ La siguiente ilustración muestra un ejemplo de un plan de mantenimiento de "ser
 
 La siguiente ilustración muestra un ejemplo de planes de mantenimiento configurados en un activo en la página **Todos los activos**.
 
-![Un ejemplo de planes de mantenimiento establecidos en un activo](media/08-preventive-maintenance.png "Un ejemplo de planes de mantenimiento establecidos en un activo")
+![Un ejemplo de planes de mantenimiento establecidos en un activo.](media/08-preventive-maintenance.png "Un ejemplo de planes de mantenimiento establecidos en un activo")
 
 <a id="counter-based-maintenance"></a>
 
-## <a name="counter-based-maintenance-enhancements"></a>Mejoras de mantenimiento basadas en contadores
+## <a name="counter-based-maintenance-enhancements"></a>Mejoras de mantenimiento basadas en contador
 
 La característica *Mejoras de mantenimiento basadas en contadores* presenta la siguiente funcionalidad:
 

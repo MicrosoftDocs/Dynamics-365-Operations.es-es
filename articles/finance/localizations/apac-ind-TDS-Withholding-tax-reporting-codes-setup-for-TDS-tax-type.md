@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361295"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Configurar códigos de notificación de retención de impuestos para tipos de impuestos de TDS
 
@@ -31,7 +31,7 @@ Los códigos de notificación de retención de impuestos se utilizan para genera
 
 1. Vaya a **Impuesto \> Configuración \> Retención de impuestos \> Códigos de notificación de retención de impuestos**.
 
-    [![Página Códigos de notificación de retenciones de impuestos](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Página Códigos de notificación de retenciones de impuestos.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. En el campo **Tipo de impuesto**, seleccione **TDS** para definir los códigos de notificación de retención de impuestos para el tipo de impuesto TDS.
 3. En el campo **Componente de retención de impuestos**, seleccione el componente de TDS para el que está definiendo el código de notificación de retención de impuestos. El campo **Grupo de componentes de retención de impuestos** muestra el grupo de componentes de TDS que se definió para el componente de TDS que está definiendo.

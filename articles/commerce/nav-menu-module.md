@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798762"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353117"
 ---
 # <a name="navigation-menu-module"></a>Módulo de menú de navegación
 
@@ -33,7 +33,7 @@ El propósito principal de los módulos de menú de navegación es permitir que 
 El módulo de menú de navegación se puede agregar al módulo de encabezado de una página. En el tema Fabrikam, el menú de navegación muestra dos niveles por defecto. En el tema Starter, el menú de navegación muestra tres niveles por defecto. Para cambiar el número de niveles, se requiere una extensión de vista en el tema.
 
 La siguiente ilustración muestra un ejemplo de un menú de navegación para el sitio de Fabrikam con dos niveles de jerarquía de categorías y algunos elementos de menú estáticos.
-![Ejemplo de un módulo de menú de navegación](./media/ecommerce-header.png)
+![Ejemplo de un módulo de menú de navegación.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Propiedades del módulo del menú de navegación
 
@@ -50,7 +50,7 @@ La siguiente ilustración muestra un ejemplo de un menú de navegación para el 
 | Menú raíz | cadena | Esta propiedad se puede utilizar con el fin de definir texto para una raíz personalizada si la propiedad **Mostrar menú raíz** está establecida en **Verdadero**. |
 
 La siguiente ilustración muestra un ejemplo de una imagen de categoría que se muestra en el menú de navegación del sitio de Fabrikam.
-![Ejemplo de un módulo de menú de navegación con imágenes de categoría](./media/ecommerce-categoryimages.PNG)
+![Ejemplo de un módulo de menú de navegación con imágenes de categoría.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Agregar un módulo de menú de navegación a un módulo de encabezado
 

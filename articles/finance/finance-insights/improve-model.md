@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186651"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355685"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Mejorar el modelo de predicción (versión preliminar)
 
@@ -33,7 +33,7 @@ Este tema describe las características que puede utilizar para mejorar el rendi
 
 Primero seleccione uno o más de los tres posibles resultados para las facturas: **Puntual**, **Tarde** y **Muy tarde**. Deben seleccionarse los tres resultados. Si borra la selección de cualquiera de los resultados, las facturas se filtrarán fuera del proceso de capacitación y se reducirá la precisión de la predicción.
 
-[![Confirmar resultados](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Confirmar resultados.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Si su organización requiere solo dos resultados, cambie los umbrales **Tarde** y **Muy tarde** a 0 (cero) días. De esta manera, colapsa efectivamente la predicción a un estado binario de **Puntual** o **Tarde**.
 
@@ -51,7 +51,7 @@ Las siguientes secciones muestran los campos que están disponibles para la fact
 
 La siguiente ilustración muestra los campos que están disponibles para la tabla de factura.
 
-[![Campos disponibles para la tabla de factura](./media/available-fields.png)](./media/available-fields.png)
+[![Campos disponibles para la tabla de factura.](./media/available-fields.png)](./media/available-fields.png)
 
 Los siguientes campos no deben seleccionarse para el entrenamiento:
 
@@ -66,7 +66,7 @@ Los siguientes campos no deben seleccionarse para el entrenamiento:
 
 La siguiente ilustración muestra los campos que están disponibles para la tabla de cliente.
 
-[![Campos disponibles para la tabla de cliente](./media/related-entities.png)](./media/related-entities.png)
+[![Campos disponibles para la tabla de cliente.](./media/related-entities.png)](./media/related-entities.png)
 
 El campo siguiente no debe seleccionarse para el entrenamiento:
 
@@ -74,8 +74,8 @@ El campo siguiente no debe seleccionarse para el entrenamiento:
 
 ## <a name="filters"></a>Filtros
 
-Actualmente, los filtros no son compatibles con el escenario del predictor de pagos de clientes. Por lo tanto, seleccione **Omitir este paso** y continúe con la página de resumen.
+Puede filtrar las facturas que se utilizan para la formación estableciendo criterios de filtrado para los campos de la factura o en las tablas de clientes. Por ejemplo, puede establecer un umbral para incluir solo las facturas en las que el total sea igual o superior a una cantidad específica. Alternativamente, puede excluir facturas asociadas con clientes en un grupo de clientes específico.
 
-[![Modelo de enfoque con filtros](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Para obtener más información sobre cómo filtrar sus datos, consulte [Crea un modelo de predicción](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

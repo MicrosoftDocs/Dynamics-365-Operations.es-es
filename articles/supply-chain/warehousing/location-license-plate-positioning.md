@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831395"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359772"
 ---
 # <a name="location-license-plate-positioning"></a>Posición de matrícula de entidad de almacén de ubicación
 
@@ -88,7 +88,7 @@ La función debe estar activada en el perfil de ubicación para cada ubicación 
 1. Mientras **Matrícula de entidad** todavía está seleccionado, seleccione **Agregar unión de tabla**.
 1. En la lista de tablas que aparece, en la columna **Relación**, seleccione **Posicionamiento de ubicación de matrícula (matrícula de entidad)**. Luego seleccione **Seleccionar** para agregar **Posicionamiento de ubicación de matrícula de entidad** a la tabla de unión **Dimensiones de inventario**.
 
-    ![Uniones de tabla](media/LpTableJoin.png "Uniones de tabla")
+    ![Uniones de tabla.](media/LpTableJoin.png "Uniones de tabla")
 
 1. Seleccione **Aceptar** para confirmar las tablas unidas actualizadas y cerrar el editor de consultas.
 1. En la ficha desplegable **Acciones de directiva de ubicación**, seleccione **Editar consulta** para abrir de nuevo el cuadro de diálogo del editor de consultas.
@@ -100,7 +100,7 @@ La función debe estar activada en el perfil de ubicación para cada ubicación 
     - **Campo:** *Posición LP*
     - **Criterio:** *1*
 
-    ![Nuevo rango](media/LpPositionCriteria.png "Nuevo rango")
+    ![Nuevo rango.](media/LpPositionCriteria.png "Nuevo rango")
 
 1. Seleccione **Aceptar** para confirmar sus cambios y cerrar el editor de consultas.
 
@@ -275,7 +275,7 @@ Ahora que la función *Posicionamiento de ubicación de matrícula de entidad* s
 1. En la página **Escanear una identificación de trabajo / identificación de matrícula de entidad**, seleccione el campo **Identificación** y luego introduzca la identificación de trabajo desde la línea de ventas.
 1. Tenga en cuenta que el trabajo de selección lo dirige a elegir el artículo *A0002* desde la ubicación *01A01R1S2B*. Recibe esta instrucción porque el artículo *A0002* está en una matrícula de entidad que está en la posición *1* en esa ubicación.
 
-    ![Ubicación de la posición 1](media/LocationLicensePlatePositioning.png "Ubicación de la posición 1")
+    ![Ubicación de la posición 1.](media/LocationLicensePlatePositioning.png "Ubicación de la posición 1")
 
 1. Introduzca la identificación de la matrícula de entidad que creó para la ubicación y luego siga las indicaciones para elegir el pedido de ventas.
 

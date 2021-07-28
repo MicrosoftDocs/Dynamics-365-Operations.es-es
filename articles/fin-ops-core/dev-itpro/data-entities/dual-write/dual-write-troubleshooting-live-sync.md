@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748906"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350797"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronización en vivo
 
@@ -73,21 +73,21 @@ Si existen datos en ambos lados y ha confirmado que el problema no está relacio
 
 Es posible que reciba un mensaje de error "Solicitud incorrecta" similar al siguiente ejemplo cuando crea datos en una aplicación Finance and Operations
 
-![Ejemplo del mensaje de error de solicitud incorrecta](media/error_record_id_source.png)
+![Ejemplo del mensaje de error de solicitud incorrecta.](media/error_record_id_source.png)
 
 Para solucionar el problema, debe asignar la función de seguridad correcta al equipo de la unidad de negocio asignada a Dynamics 365 Sales o Dynamics 365 Customer Service para habilitar el privilegio faltante.
 
 1. En la aplicación Finance and Operations, busque la unidad de negocio que está asignada en el conjunto de conexión de integración de datos.
 
-    ![Asignación de la organización](media/mapped_business_unit.png)
+    ![Asignación de la organización.](media/mapped_business_unit.png)
 
 2. Inicie sesión en el entorno en la aplicación basada en modelos en Dynamics 365, vaya a **Configuración \> Seguridad** y encuentre el equipo de la unidad de negocio asignada.
 
-    ![Equipo de la unidad de negocio asignada](media/setting_security_page.png)
+    ![Equipo de la unidad de negocio asignada.](media/setting_security_page.png)
 
 3. Abra la página para que el equipo la edite y luego seleccione **Administrar roles** para abrir la ventana de diálogo **Administrar roles de equipo**.
 
-    ![Botón de administrar roles](media/manage_team_roles.png)
+    ![Botón de administrar roles.](media/manage_team_roles.png)
 
 4. Asigne el rol que tiene el privilegio de lectura / escritura para las tablas relevantes y luego seleccione **Aceptar**.
 

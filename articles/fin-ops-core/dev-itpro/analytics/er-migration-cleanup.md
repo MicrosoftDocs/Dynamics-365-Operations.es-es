@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750895"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351058"
 ---
 # <a name="er-migration-cleanup"></a>Limpieza de migración de ER 
 
@@ -30,11 +30,11 @@ Al gestionar las instancias de Finance, es posible que desee migrar su instancia
 
 Si intenta ejecutar un formato de ER que use una plantilla para generar documentos empresariales, se producirá una excepción, y se le notificará de que falta la plantilla. También se le guía para usar la herramienta de limpieza de migración de ER para eliminar y después volver a importar la configuración del formato de ER que contiene la plantilla.
 
-[![Ejecución de un formato ER](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![Ejecución de un formato ER.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 Recibirá un error similar si navega hasta la página **Configuraciones** (**Administración de la organización** \> **Informes electrónicos** \> **Configuraciones**) y, en el árbol de configuraciones, intente eliminar una configuración de formato ER que use una plantilla.
 
-[![Eliminación de un formato ER](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![Eliminación de un formato ER.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Complete los siguientes pasos para resolver problemas con las plantillas de ER a las que no puede acceder.
 
@@ -50,7 +50,7 @@ Complete los siguientes pasos para resolver problemas con las plantillas de ER a
 >
 > Si usa la opción **Limpieza de migración** para eliminar una configuración de formato ER cuando la plantilla referida esté disponible en el Almacenamiento de blob, solo se eliminan los artefactos de configuración de la base de datos de la aplicación. El archivo físico de la plantilla en el Almacenamiento de blob permanece. La sobrescritura de archivos en el Almacenamiento de blob ya no está permitida. Para obtener más información, consulte [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Además, ya no podrá volver a importar las configuraciones eliminadas mediante la limpieza de migración en este entorno. Para resolver este problema, debe encontrar el archivo correspondiente en Almacenamiento de blob y eliminarlo manualmente.
 
-[![Importación de un formato ER](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![Importación de un formato ER.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Puede ocurrir un problema similar si migra la instancia de la aplicación a otra ubicación que se ha utilizado como destino de migración más de una vez y para la cual el Almacenamiento de blob ya contiene archivos de plantilla ER.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053572"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357370"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicación Recursos humanos en Teams
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053572"
 
 La aplicación Microsoft Dynamics 365 Human Resources de Microsoft Teams permite a los empleados solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre en Microsoft Teams. Los empleados pueden interactuar con un bot para solicitar información. La pestaña **Tiempo libre** proporciona información más detallada. Además, pueden enviar información a los usuarios sobre el próximo tiempo libre a través de equipos y chats que haya fuera de la aplicación de Human Resources.
 
-![Bot de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-bot.png)
+![Bot de la aplicación de bajas de Recursos Humanos en Teams.](./media/hr-teams-leave-app-bot.png)
 
-![Pestaña Tiempo libre de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+![Pestaña Tiempo libre de la aplicación de bajas de Recursos Humanos en Teams.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Tarjeta de solicitud de baja de recursos humanos](./media/hr-teams-leave-app-chat-card.png)
+![Tarjeta de solicitud de baja de recursos humanos.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Instalar y configurar
 
@@ -57,11 +57,11 @@ Si desea que los usuarios reciban notificaciones de solicitud de permiso en la a
 
 4. En la pestaña **General**, establezca **Habilitar notificaciones para la aplicación Teams** en **Sí**.
 
-   ![Habilitar las notificaciones de la aplicación Teams en los parámetros del sistema](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Habilitar las notificaciones de la aplicación Teams en los parámetros del sistema.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Para activar las notificaciones de Teams para todos los usuarios, seleccione **Sí** en el aviso.
 
-   ![Habilitar notificaciones de Teams para todos los usuarios](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Habilitar notificaciones de Teams para todos los usuarios.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Activar o desactivar las notificaciones de Teams para usuarios individuales
 
@@ -77,7 +77,7 @@ Una vez que haya habilitado las notificaciones para la aplicación en la aplicac
 
 5. Establezca **Habilitar notificaciones para la aplicación Teams** en **Sí** para habilitar notificaciones para el usuario o **No** para deshabilitar las notificaciones para el usuario.
 
-   ![Habilitar las notificaciones de la aplicación Teams en la pestaña Flujo de trabajo de opciones de usuario](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Habilitar las notificaciones de la aplicación Teams en la pestaña Flujo de trabajo de opciones de usuario.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. Seleccione **Guardar**.
 

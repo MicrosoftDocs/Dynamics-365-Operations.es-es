@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b501c331cccc6d030f36d0a13ba0a6a13c08c733
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2c7fe2e1050053fb2ddaf85854e7ac46dd6912a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023554"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358371"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Registrar los números de los certificados recuperables de TDS
 
@@ -33,7 +33,7 @@ Siga estos pasos para registrar los números y fechas del certificado TDS.
 
 1. Vaya a **Impuestos \> Impuesto indirecto \> Retención de impuestos \> Certificados recuperables**.
 
-    [![Página de certificados recuperables](./media/apac-ind-TDS-49.png)](./media/apac-ind-TDS-49.png) 
+    [![Página de certificados recuperables.](./media/apac-ind-TDS-49.png)](./media/apac-ind-TDS-49.png) 
 
 2. En la página **Certificados recuperables**, en el campo **Tipo de impuesto**, seleccione **TDS**.
 3. Seleccione **Nuevo** para crear un registro.

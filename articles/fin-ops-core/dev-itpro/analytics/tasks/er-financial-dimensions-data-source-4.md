@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a06936da71d7b05f312a99c8c11d148403d29c3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 11d15a9e932eb02fc1bc8960d9c7ecbf4b57a4e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752397"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356304"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER Usar dimensiones financieras como origen de datos (Parte 4: Ejecución del informe)
 
@@ -34,19 +34,19 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 2. En el árbol, expanda "Modelo de ejemplo de las dimensiones financieras".
 3. En el árbol, seleccione "Modelo de ejemplo de las dimensiones financieras\Informe del diario contable".
 4. Haga clic en Ejecutar.
-![Página de configuraciones de ER](../media/er-financial-dimensions-guides-run1.png)
+![Página de configuraciones de ER.](../media/er-financial-dimensions-guides-run1.png)
 5. En el campo nombre de Dimensión, especifique o seleccione un valor.
     * Para seleccionar todas las dimensiones de la empresa actual, introduzca la siguiente información: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![Página de configuraciones de ER](../media/er-financial-dimensions-guides-run2.png)
+![Página de configuraciones de ER.](../media/er-financial-dimensions-guides-run2.png)
 6. Expanda la sección Registros que incluir.
 7. Haga clic en Filtro.
 8. Seleccione la fila de la tabla de diario contable y el campo Número de lote del diario.
 9. En el campo Criterios, escriba "00057".
 10. Haga clic en Aceptar.
 11. Haga clic en Aceptar.
-![Página de configuraciones de ER](../media/er-financial-dimensions-guides-run3.png)
+![Página de configuraciones de ER.](../media/er-financial-dimensions-guides-run3.png)
     * Revise la salida generada. Para cada transacción del lote seleccionado, se presentan las dimensiones financieras del conjunto de dimensiones correspondiente. Ejecute este informe y seleccione diferentes dimensiones para ver que el informe no depende del número de dimensiones seleccionado o el número de dimensiones configurado para esta instancia.  
-![Página de configuraciones de ER](../media/er-financial-dimensions-guides-run4.png)
+![Página de configuraciones de ER.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

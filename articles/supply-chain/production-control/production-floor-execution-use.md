@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907726"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349779"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -32,7 +32,7 @@ Antes de que los trabajadores puedan empezar a usar el dispositivo, un superviso
 
 Una vez que se ha preparado el dispositivo, aparece la página de inicio de sesión. Esta página muestra información sobre el estado de los trabajos para la celda de trabajo local. Esta información se actualiza periódicamente. En la página, los trabajadores usan sus credenciales de identificación para firmar. Aunque los trabajadores no tienen que tener una cuenta de usuario para Supply Chain Management, sí deben tener una cuenta de *trabajador con tiempo registrado* que pueden usar cuando inician sesión.
 
-![Página de inicio de sesión de la interfaz de ejecución de la planta de producción](media/pfei-sign-in-page.png "Página de inicio de sesión de la interfaz de ejecución de la planta de producción")
+![Página de inicio de sesión de la interfaz de ejecución de la planta de producción.](media/pfei-sign-in-page.png "Página de inicio de sesión de la interfaz de ejecución de la planta de producción")
 
 Las secciones restantes de este tema describen cómo interactúan los trabajadores con la interfaz.
 
@@ -40,7 +40,7 @@ Las secciones restantes de este tema describen cómo interactúan los trabajador
 
 La pestaña **Todos los trabajos** proporciona una lista de trabajos que muestra todos los trabajos de producción que tienen un estado de *No empezado*, *Detenido* o *Empezado*. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
 
-![Pestaña Todos los trabajos](media/pfei-all-jobs-tab.png "Pestaña Todos los trabajos")
+![Pestaña Todos los trabajos.](media/pfei-all-jobs-tab.png "Pestaña Todos los trabajos")
 
 La lista de trabajos tiene las siguientes columnas. Los números se corresponden con los números de la ilustración anterior.
 
@@ -59,7 +59,7 @@ La lista de trabajos tiene las siguientes columnas. Los números se corresponden
 
 Las pestañas **Trabajos activos** muestran una lista de todos los trabajos que el trabajador que inició sesión ya ha comenzado. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
 
-![Pestaña Trabajos activos](media/pfei-active-jobs-tab.png "Pestaña Trabajos activos")
+![Pestaña Trabajos activos.](media/pfei-active-jobs-tab.png "Pestaña Trabajos activos")
 
 La lista de trabajos activos tiene las siguientes columnas:
 
@@ -76,7 +76,7 @@ La lista de trabajos activos tiene las siguientes columnas:
 
 La pestaña **Mi maquina** permite a los trabajadores seleccionar un activo que está conectado a un recurso de máquina dentro del filtro establecido en la pestaña **Todos los trabajos**. Luego, el trabajador puede ver el estado y la salud del activo seleccionado leyendo los valores de hasta cuatro contadores seleccionados y listas de solicitudes de mantenimiento recientes y tiempos de inactividad registrados. El trabajador también puede solicitar mantenimiento para el activo seleccionado y registrar y editar el tiempo de inactividad de la máquina. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
  
-![La pestaña Mi máquina](media/pfei-my-machine-tab.png "La pestaña Mi máquina")
+![La pestaña Mi máquina.](media/pfei-my-machine-tab.png "La pestaña Mi máquina")
 
 La pestaña **Mi maquina** tiene las siguientes columnas. Los números se corresponden con los números de la ilustración anterior.
 
@@ -87,7 +87,7 @@ La pestaña **Mi maquina** tiene las siguientes columnas. Los números se corres
 
 1. **Configuraciones** - Seleccione el icono de engranaje para abrir un cuadro de diálogo donde puede elegir qué contadores ver para el activo de máquina seleccionado. Los valores de estos contadores se muestran en la parte superior de la pestaña **Gestión de activos**. El menú **Configuraciones** (que se muestra en la siguiente captura de pantalla) le permite habilitar hasta cuatro contadores. Para cada contador que desee habilitar, use el campo de búsqueda en la parte superior del icono para seleccionar un contador. Las listas del campo de búsqueda enumera todos los contadores asociados al activo seleccionado en la parte superior de la página **Gestión de activos**. Configure cada contador para supervisar el valor **Agregado** o el último valor **Real** para el contador. Por ejemplo, si configura un contador que rastrea cuántas horas ha estado funcionando la máquina, debe configurarlo en **Agregado**. Si configura un contador para medir la temperatura o presión actualizada más reciente, debe configurarlo en **Real**. Seleccione **Aceptar** para guardar la configuración y cerrar el cuadro de diálogo.
 
-    ![Configuración de la pestaña Mi máquina](media/pfei-my-machine-tab-settings.png "Configuración de la pestaña Mi máquina")
+    ![Configuración de la pestaña Mi máquina.](media/pfei-my-machine-tab-settings.png "Configuración de la pestaña Mi máquina")
 
 1. **Solicitar mantenimiento** - Seleccione este botón para abrir un cuadro de diálogo donde puede crear una solicitud de mantenimiento. Podrá proporcionar una descripción y una nota. La solicitud se presentará a un usuario de Supply Chain Management, que luego podrá convertir la solicitud de mantenimiento en una orden de trabajo de mantenimiento.
 1. **Registrar el tiempo de inactividad** - Seleccione este botón para abrir un cuadro de diálogo donde puede registrar el tiempo de inactividad de la máquina. Podrá seleccionar un código de motivo e ingresar un intervalo de fecha/hora para el tiempo de inactividad. El registro del tiempo de inactividad de la máquina se utiliza para calcular la eficiencia del activo de la máquina.
@@ -98,7 +98,7 @@ La pestaña **Mi maquina** tiene las siguientes columnas. Los números se corres
 
 Para iniciar un trabajo de producción, los trabajadores seleccionan un trabajo en la pestaña **Todos los trabajos** y después seleccionan **Iniciar trabajo** para abrir el cuadro de diálogo **Iniciar trabajo**.
 
-![Cuadro de diálogo Iniciar trabajo](media/pfei-start-job-dialog.png "Cuadro de diálogo Iniciar trabajo")
+![Cuadro de diálogo Iniciar trabajo.](media/pfei-start-job-dialog.png "Cuadro de diálogo Iniciar trabajo")
 
 Los trabajadores utilizan el cuadro de diálogo **Iniciar trabajo** para confirmar la cantidad de producción y después iniciar el trabajo. Para ajustar la cantidad, los trabajadores pueden seleccionar el campo **Cantidad** y usar el teclado numérico que aparece. A continuación, los trabajadores seleccionan **Iniciar** para empezar a desarrollar el trabajo. El cuadro de diálogo **Iniciar trabajo** se cierra y el trabajo se agrega a la pestaña **Trabajos activos**.
 
@@ -108,13 +108,13 @@ Los trabajadores pueden iniciar un trabajo que se encuentra en cualquier estado.
 
 Cuando un trabajador completa (o completa parcialmente) un trabajo, puede notificar buenas cantidades que se produjeron seleccionando un trabajo en la pestaña **Trabajos activos** y seleccionando a continuación **Notificar progreso**. En el cuadro de diálogo **Notificar progreso**, el trabajador introduce la cantidad buena a través del teclado numérico. La cantidad está en blanco de forma predeterminada. Después de especificar una cantidad, el trabajador puede actualizar el estado del trabajo a *En curso*, *Detenido* o *Terminado*.
 
-![Cuadro de diálogo Notificar progreso](media/pfei-report-progress-dialog.png "Cuadro de diálogo Notificar progreso")
+![Cuadro de diálogo Notificar progreso.](media/pfei-report-progress-dialog.png "Cuadro de diálogo Notificar progreso")
 
 ## <a name="reporting-scrap"></a>Notificar residuo
 
 Cuando un trabajador completa (o completa parcialmente) un trabajo, puede notificar residuos seleccionando un trabajo en la pestaña **Trabajos activos** y seleccionando a continuación **Notificar residuo**. En el cuadro de diálogo **Notificar residuo**, el trabajador introduce la cantidad de residuo a través del teclado numérico. El trabajador también selecciona un motivo (*Ninguno*, *Máquina*, *Operador* o *Material*).
 
-![Cuadro de diálogo Notificar residuo](media/pfei-report-scrap-dialog.png "Cuadro de diálogo Notificar residuo")
+![Cuadro de diálogo Notificar residuo.](media/pfei-report-scrap-dialog.png "Cuadro de diálogo Notificar residuo")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Completar un trabajo e iniciar un trabajo nuevo
 

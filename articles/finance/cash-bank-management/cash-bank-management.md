@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21941
+ms.custom:
+- "21941"
+- intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5abef8a25513898d6dbef2604d10373394c95c6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: c948cf34b198769a67c9e6981ab49c9d4482ef25
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897437"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352891"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Página principal de gestión de efectivo y bancos
 
@@ -30,12 +32,12 @@ Puede usar la Gestión de efectivo y bancos para mantener las cuentas bancarias 
 
 Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras de cambio y pagarés. También puede conciliar extractos bancarios e imprimir los datos bancarios en informes estándar.
 
-**Procesos empresariales**
+**Procesos de negocio**
 
-[![Proceso empresarial](./media/Cash-process.PNG)](./media/Cash-process.PNG)
+[![Proceso de negocio.](./media/Cash-process.PNG)](./media/Cash-process.PNG)
 
 -   [Descuentos por pronto pago](cash-discounts.md)
--   [Descripción de la liquidación](settlement-overview.md)
+-   [Información general de la liquidación](settlement-overview.md)
 -   [Configurar liquidación](configure-settlement.md)
 -   [Revalorización de divisa extranjera para clientes y proveedores](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 -   [Carta de crédito](letters-of-credit.md)
@@ -83,7 +85,7 @@ Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras 
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Vaya a las [Planes de la versión de Microsoft Dynamics 365](/dynamics365/release-plans/) para ver las nuevas características que se han planificado. 
+Vaya a los [Planes de la versión de Microsoft Dynamics 365](/dynamics365/release-plans/) para ver las nuevas características que se han planificado. 
 
 #### <a name="blogs"></a>Blogs
 

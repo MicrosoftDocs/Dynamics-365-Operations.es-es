@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dad1cad6dcda1c7768f9be8bd7bd4426be7fbcbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815461"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358866"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>Imprimir el informe Pago de impuestos por código 
 
@@ -40,11 +40,11 @@ En el espacio de trabajo **Gestión de características**, active la siguiente: 
     - **Divisa de contabilidad** - Imprime los importes del informe en la divisa de contabilidad.
     - **Divisa del código de impuestos** - Imprime los importes del informe en las divisas de los códigos de impuestos.
 
-    ![Cuadro de diálogo pago de impuestos por código](media/Sales-tax-payment-by-code.png)
+    ![Cuadro de diálogo pago de impuestos por código.](media/Sales-tax-payment-by-code.png)
 
 La ilustración siguiente muestra un ejemplo del informe que se genera. El informe muestra que el código de informe **101** tiene la divisa **EUR** si el campo **Divisa de impuestos** se establece en **EUR** para el código de impuestos al que está asignado el código de informe.
 
-![Ejemplo de pago de impuestos por código de informe](media/Sales-tax-payment-by-code-2.png)
+![Ejemplo de pago de impuestos por código de informe.](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

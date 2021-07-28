@@ -2,7 +2,8 @@
 title: Módulo selector de tienda
 description: En este tema se trata el modulo selector de tiendao y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021473"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479385"
 ---
 # <a name="store-selector-module"></a>Módulo de selector de tienda
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 En este tema se trata el modulo selector de tiendao y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
@@ -50,12 +52,12 @@ Para introducir la longitud y latitud de una ubicación de la tienda en la sede 
 1. Seleccione la ubicación de almacén en el panel izquierdo.
 1. En la ficha desplegable **Direcciones**, seleccione **Avanzado**.
 
-    ![Ejemplo de detalles de la tienda en la sede](./media/Store-address.png)
+    ![Ejemplo de detalles de la tienda en la sede.](./media/Store-address.png)
 
 1. En el panel Acciones, seleccione **Editar**.
 1. En la ficha desplegable **General**, introduzca valores para **Latitud** y **Longitud**.
 
-    ![Ejemplo de configuración de latitud y longitud para una tienda en la sede](./media/Store-latitude-longitude.png)
+    ![Ejemplo de configuración de latitud y longitud para una tienda en la sede.](./media/Store-latitude-longitude.png)
 
 1. En el panel Acciones, seleccione **Guardar**. 
 
@@ -70,7 +72,6 @@ Para la API REST de Autosuggest, debe asegurarse de que las siguientes URL esté
 - Para la directiva **script-src**, **agregue &#42;.bing.com, &#42;.virtualearth.net**.
 - Para la directiva **script style-src**, agregue **&#42;.bing.com**.
 
- 
 ## <a name="pickup-in-store-mode"></a>Modo Recoger en tienda
 
 El módulo selector de tienda admite un modo **Recoger en tienda** que muestra una lista de tiendas donde un producto está disponible para su recogida. También muestra el horario de la tienda y el inventario de productos para cada tienda en la lista. El módulo selector de tienda requiere el contexto de un producto para representar la disponibilidad del producto y permitir que el usuario agregue el producto al carrito, si el modo de entrega del producto está configurado en **recoger** en la tienda seleccionada. Para obtener más información, consulte [Configuración de inventario](inventory-settings.md). 
@@ -81,7 +82,7 @@ Para que funcione este escenario, los productos deben configurarse para poder ut
 
 La siguiente imagen muestra un ejemplo de un módulo selector de tienda utilizado en un PDP.
 
-![Ejemplo de un módulo selector de tienda utilizado en un PDP](./media/BOPIS.PNG)
+![Ejemplo de un módulo selector de tienda utilizado en un PDP.](./media/BOPIS.PNG)
 
 > [!NOTE]
 > En la versión 10.0.16 y posteriores, se puede habilitar una nueva características que permite a una organización definir múltiples modos de recogida de opciones de entrega para los clientes.  Si esta función está habilitada, el selector de tiendas y otros módulos de comercio electrónico se mejorarán para permitir que el comprador elija entre múltiples opciones de entrega de recogida si están configuradas.  Para obtener más información sobre esta característica, consulte [esta documentación](./multiple-pickup-modes.md). 
@@ -92,7 +93,7 @@ El módulo selector de tienda también admite un modo **Buscar tiendas**. Este m
 
 La siguiente ilustración muestra un ejemplo de un módulo selector de tiendas que se utiliza junto con un módulo de mapa en una página de ubicaciones de tiendas.
 
-![Ejemplo de un módulo selector de tienda y un módulo de mapa en una página de ubicaciones de tiendas](./media/ecommerce-Storelocator.PNG)
+![Ejemplo de un módulo selector de tienda y un módulo de mapa en una página de ubicaciones de tiendas.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Representar un mapa
 
@@ -110,6 +111,10 @@ El módulo selector de tiendas se puede usar junto con el módulo de mapa para m
 | Opciones de Autosuggest: resultados máximos | Número | Esta propiedad define el número máximo de resultados de sugerencias automáticas que se pueden mostrar a través de la API de Bing Autosuggest. |
 | Radio de búsqueda | Número | Esta propiedad define el radio de búsqueda de tiendas, en millas. Si no se especifica ningún valor, se utiliza el radio de búsqueda predeterminado: 50 millas. |
 | Términos del servicio | Dirección URL |  Esta propiedad especifica la URL de los términos del servicio que se requiere para usar el servicio Bing Maps. |
+
+## <a name="site-settings"></a>Valores de configuración de sitio
+
+El módulo selector de tiendas respeta la configuración de [Agregar el producto al carrito](add-cart-settings.md). Una vez que se agrega un artículo al carrito desde el módulo selector de tiendas, los usuarios del sitio verán los flujos de trabajo configurados correspondientes.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Agregar un módulo de selector de tienda a una página
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b617ce4358a6b6aaacea9069d8db40c4aa82b7ed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 01797b5a1c29ee608e7796319a18d6402b542409
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798714"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353763"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configuraciones visuales de la interfaz de usuario de PDV
 
@@ -32,15 +32,15 @@ La interfaz de usuario (IU) de punto de venta (PDV) de Microsoft Dynamics 365 Co
 
 La siguiente ilustración muestra las relaciones entre las distintas entidades que comprenden los aspectos configurables de la IU del sistema PDV.
 
-![Entidades de diseño de pantalla de PDV](../commerce/media/POS-layout-configuration-entities-diagram.png)
+![Entidades de diseño de pantalla de PDV.](../commerce/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Perfil visual
 
 Los perfiles visuales se asignan a registros y especifican los elementos visuales que son específicos del registro y que se comparten entre los usuarios. Cada usuario que inicia sesión en el registro ve el mismo tema, diseño, colores e imágenes.
 
-![Pantalla de bienvenida de PDV con tema claro](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
+![Pantalla de bienvenida de PDV con tema claro.](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
-![Pantalla de transacción de PDV con tema oscuro](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
+![Pantalla de transacción de PDV con tema oscuro.](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
 - **Número de perfil** – El número del perfil es el identificador exclusivo del perfil visual.
 - **Descripción** – Puede especificar un nombre descriptivo que ayude a identificar el perfil correcto para su situación.
@@ -65,15 +65,15 @@ Debe ejecutar el trabajo de programación de distribución **1090** (**Registros
 
 Las configuraciones del diseño de pantalla determinan las acciones, el contenido y la posición de los controles de la interfaz de usuario en la pantalla de **Bienvenida** del PDV y en la pantalla **Transacción**.
 
-![Vista Diseño de pantalla de PDV](../commerce/media/POS-Screen-Layout-View.png)
+![Vista Diseño de pantalla de PDV.](../commerce/media/POS-Screen-Layout-View.png)
 
 - **Pantalla de bienvenida** – En la mayoría de los casos, la pantalla de bienvenida es la página que verán los usuarios la primera vez que inicien sesión en el PDV. La pantalla de bienvenida puede constar de una imagen de marca y de cuadrículas de botones que proporcionan acceso a las operaciones del PDV. Normalmente, las operaciones que no son específicas de la transacción actual se colocan en esta pantalla.
 
-    ![Pantalla de bienvenida de PDV](../commerce/media/POS-Welcome-Screen.png)
+    ![Pantalla de bienvenida de PDV.](../commerce/media/POS-Welcome-Screen.png)
 
 - **Pantalla de transacción** – La pantalla **Transacción** es la pantalla principal del PDV para procesar transacciones de venta y pedidos. El contenido y el diseño se configuran mediante el diseñador de pantalla.
 
-    ![Pantalla de transacción del PDV](../commerce/media/POS-Transaction-Screen.png)
+    ![Pantalla de transacción de PDV.](../commerce/media/POS-Transaction-Screen.png)
 
 - **Pantalla de inicio predeterminada** – Algunos minoristas prefieren que los cajeros vayan directamente a la pantalla **Transacción** después de iniciar sesión. La configuración **Pantalla de inicio predeterminada** le permite especificar la pantalla predeterminada que aparece después de iniciar sesión para cada diseño de pantalla.
 
@@ -89,7 +89,7 @@ La mayoría de aspectos de la interfaz de usuario del sistema PDV son dinámicos
 
 Al iniciar, la aplicación del PDV selecciona automáticamente el tamaño de diseño más cercano que está configurado para el dispositivo. Un diseño de pantalla también puede contener configuraciones para los modos horizontal y vertical, y para dispositivos compactos y de tamaño completo. Por tanto, se puede asignar a los usuarios un diseño monopantalla que funciona con diferentes tamaños y factores de formulario que se utilizan en la tienda.
 
-![Tamaños de diseño de PDV](../commerce/media/POS-Screen-Layout-Sizes.png)
+![Tamaños de diseño de PDV.](../commerce/media/POS-Screen-Layout-Sizes.png)
 
 - **Nombre** – Puede introducir un nombre descriptivo para identificar el tamaño de la pantalla.
 - **Tipo de diseño** – La aplicación de PDV puede mostrar su interfaz de usuario en distintos modos para ofrecer la mejor experiencia del usuario en un dispositivo determinado.
@@ -102,7 +102,7 @@ Al iniciar, la aplicación del PDV selecciona automáticamente el tamaño de dis
 > [!TIP]
 > Puede conocer el tamaño de diseño necesario para una pantalla del PDV viendo la resolución en la aplicación. Inicie el PDV y vaya **Configuración \> Información sobre la sesión**. El PDV muestra el diseño de pantalla que se carga actualmente, el tamaño de diseño y la resolución de la ventana de la aplicación.
 
-![Página de información de la sesión de PDV que muestra el diseño de pantalla que se carga actualmente, el tamaño de diseño y la resolución de la ventana de la aplicación](../commerce/media/POS-Session-Information.png)
+![Página de información de la sesión de PDV que muestra el diseño de pantalla que se carga actualmente, el tamaño de diseño y la resolución de la ventana de la aplicación.](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Cuadrículas de botones
 
@@ -112,7 +112,7 @@ En diseños de PDV completa, la colocación de las cuadrículas de botones se es
 
 En diseños de PDV compacto, las cuadrículas de botones se disponen automáticamente de arriba a abajo, del número inferior (pantalla de transacción 1) al número más alto. Pueden obtener acceso en el menú **Acciones**.
 
-![Cuadrículas de botones de diseño compacto](../commerce/media/Compact-View-Button-Grids.png)
+![Cuadrículas de botones de diseño compacto.](../commerce/media/Compact-View-Button-Grids.png)
 
 > [!NOTE]
 > Los tamaños de los botones en el diseñador se ajustarán al tamaño de la ventana, por lo que es posible que no reflejen con precisión los botones reales representados en el PDV. Para simular mejor el diseño de la cuadrícula de botones, ajuste las ventanas del diseñador al mismo tamaño que el PDV.
@@ -132,7 +132,7 @@ El diseñador de pantalla le permite configurar diversos aspectos de la pantalla
 
 El diseñador completo permite a los usuarios arrastrar controles de la interfaz de usuario en la pantalla **Transacción** de PDV y configurar los valores de estos controles.
 
-![Diseñador completo de PDV (modo horizontal)](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
+![Diseñador completo de PDV (modo horizontal).](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
 
 - **Importar diseño/Exportar diseño** – Puede exportar e importar diseños de pantalla de PDV como archivos XML, de manera que pueda volver a utilizarlos y compartirlos con facilidad entre entornos. Es importante que importe diseños para los tamaños de diseño correctos. De lo contrario, puede que los elementos de interfaz de usuario no se ajusten correctamente en la pantalla.
 - **Horizontal/Vertical** – Si el dispositivo de PDV permite a los usuarios cambiar entre los modos horizontal y vertical, debe definir un diseño de pantalla para cada modo. El PDV detecta automáticamente la rotación de la pantalla y muestra el diseño correcto.
@@ -140,11 +140,11 @@ El diseñador completo permite a los usuarios arrastrar controles de la interfaz
 - **Zoom del diseñador** – Puede acercar o alejar la vista de diseñador para ver mejor el contenido en la pantalla de PDV. Esta función resulta útil cuando la resolución de pantalla en el sistema PDV difiere significativamente de la resolución de la pantalla que se utiliza en el diseñador.
 - **Mostrar/ocultar barra de navegación** – Para diseños de PDV completos, puede seleccionar si la barra de navegación izquierda es visible en la pantalla **Transacción**. Esta función resulta útil para pantallas que tiene una resolución más baja. Para establecer la visibilidad, haga clic con el botón derecho en la barra de exploración del diseñador, y active o desactive la casilla de verificación **Siempre visible**. Si la barra de navegación está oculta, los usuarios del PDV pueden seguir teniendo acceso mediante el menú de la parte superior izquierda.
 
-    ![Mostrar/ocultar barra de navegación](../commerce/media/Navigation-Bar.PNG)
+    ![Mostrar/ocultar barra de navegación.](../commerce/media/Navigation-Bar.PNG)
 
 - **Controles de PDV** – El diseñador de PDV admite los siguientes controles. Puede configurar muchos controles haciendo clic con el botón derecho y usando el menú contextual.
 
-    ![Controles de interfaz de usuario de PDV](../commerce/media/POS-UI-Controls.png)
+    ![Controles de interfaz de usuario de PDV.](../commerce/media/POS-UI-Controls.png)
 
     - **Teclado numérico** – El teclado numérico es el mecanismo principal para la entrada de usuario en la pantalla **Transacción** del PDV. Puede configurar el control para que se muestre el teclado numérico completo. Esta opción es ideal para dispositivos con pantalla táctil. De forma alternativa, puede configurarla para que se muestre solo el campo de entrada. En este caso, se utiliza un teclado físico para la entrada. Los ajustes del teclado numérico están disponibles solo en los diseños completos. Para diseños compactos, el teclado numérico completo siempre se muestra en la pantalla **Transacción**.
     - **Panel de totales** – Puede configurar el panel de totales en una o dos columnas para mostrar valores como el recuento de líneas, el importe de descuento, los gastos, el subtotal y los impuestos. Los diseño compactos solo admiten una única columna.
@@ -159,13 +159,13 @@ El diseñador completo permite a los usuarios arrastrar controles de la interfaz
 
 Al igual que el diseñador de diseño completo, el diseñador de diseño compacto le permite configurar el diseño de pantalla de PDV para teléfonos y tabletas pequeñas. Sin embargo, en este caso, el diseño en sí es fijo. Puede configurar los controles en el diseño haciendo clic con el botón derecho y usando el menú contextual. Sin embargo, no puede usar la función de arrastrar y colocar para contenido adicional.
 
-![Diseñador de diseño compacto](../commerce/media/Compact-Layout-Designer.png)
+![Diseñador de diseño compacto.](../commerce/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Diseñador de cuadrícula de botones
 
 El diseñador de cuadrícula de botones le permite configurar botones de cuadrícula que se pueden usar en la pantalla de bienvenida de PDV y la pantalla **Transacción** para diseños completos y compactos. La misma cuadrícula de botones se puede usar en diseños y tipos de diseño. Al igual que el diseñador de pantalla, el diseño de cuadrícula de botones emplea la tecnología de implementación ClickOnce para descargar, instalar e iniciar la última versión de la aplicación cada vez que los usuarios acceden a ella. Asegúrese de comprobar los requisitos del explorador para ClickOnce. Algunos exploradores, como Google Chrome, requieren extensiones.
 
-![Diseñador de cuadrícula de botones](../commerce/media/Button-Grid-Designer.png)
+![Diseñador de cuadrícula de botones.](../commerce/media/Button-Grid-Designer.png)
 
 - **Nuevo botón** – Haga clic para agregar un nuevo botón a la cuadrícula de botones. De forma predeterminada, los nuevos botones aparecen en la esquina superior izquierda de la cuadrícula. Sin embargo, puede organizar los botones arrastrándolos en el diseño.
 
@@ -178,7 +178,7 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
     > [!IMPORTANT]
     > Algunos ajustes de la cuadrícula de botones solo se aplican a Enterprise POS, no a Modern POS o Cloud POS.
 
-    ![Propiedades del botón de cuadrícula de botones](../commerce/media/Button-grid-button-properties.png)
+    ![Propiedades del botón de cuadrícula de botones.](../commerce/media/Button-grid-button-properties.png)
 
     - **Acción** – En la lista de operaciones de PDV aplicables, seleccione la operación que se invoca cuando se hace clic en el botón en el PDV.
 
@@ -190,7 +190,7 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
     - **Información sobre herramientas** – Especifique texto de Ayuda adicional que aparece cuando los usuarios pasan el ratón por encima del botón.
     - **Tamaño en columnas/Tamaño en filas** – Puede especificar lo alto y ancho que es el botón.
 
-        ![Tamaños de los botones del PDV en filas y columnas](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+        ![Tamaños de los botones del PDV en filas y columnas.](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
     - **Fuente personalizada** – Cuando seleccione la casilla de verificación **Habilitar fuente personalizada para PDV**, puede especificar una fuente distinta de la fuente predeterminada del sistema para el PDV.
     - **Tema personalizado** – De forma predeterminada, los botones de PDV emplean el color de acento del perfil visual. Al seleccionar la casilla de verificación **Usar tema personalizado**, puede especificar colores adicionales.
@@ -200,7 +200,7 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
 
     - **Imagen de los botones** – Los botones pueden incluir imágenes o iconos. Seleccione entre las imágenes disponibles que se especifican en **Retail y Commerce \> Configuración de canal \> Configuración de PDV \> PDV \> Imágenes**.
 
-![Cuadrícula de botones de ejemplo en el PDV](../commerce/media/Example-Button-Grid-In-POS.png)
+![Cuadrícula de botones de ejemplo en el PDV.](../commerce/media/Example-Button-Grid-In-POS.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
