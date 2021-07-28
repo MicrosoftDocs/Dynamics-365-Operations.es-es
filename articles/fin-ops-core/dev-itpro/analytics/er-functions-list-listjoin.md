@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027924"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353739"
 ---
 # <a name="listjoin-er-function"></a>Función LISTJOIN de ER
 
@@ -66,15 +66,15 @@ Entonces especifique el origen de datos **Registro 2** del tipo `Container`. Est
 - **Cantidad**: este campo contiene una expresión que devuelve un valor de tipo `Real`.
 - **IsValid**: este campo contiene una expresión que devuelve un valor de tipo `Boolean`.
 
-![Página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image1.gif)
+![Página de diseñador de asignación de modelos de ER.](./media/er-functions-list-listjoin-image1.gif)
 
 En este caso, la expresión `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` devuelve una nueva lista que contiene dos registros.
 
-![Página del diseñador de asignación de modelos de ER con dos registros](./media/er-functions-list-listjoin-image2.gif)
+![Página del diseñador de asignación de modelos de ER con dos registros.](./media/er-functions-list-listjoin-image2.gif)
 
 La estructura de esta lista consta de un solo campo **Importe** del tipo `Real`, porque este campo es el único campo que se presenta en cada argumento de la función llamada.
 
-![Campo de cantidad de la página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image3.gif)
+![Campo de cantidad de la página de diseñador de asignación de modelos de ER.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

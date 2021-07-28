@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830843"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358011"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
 
@@ -53,14 +53,14 @@ El siguiente escenario muestra cómo crear un encabezado de diario de llegada de
 1. Establezca **Número de cuenta** en *1001*.
 1. Establezca **Número** al número del pedido de compra que identificó para este ejercicio.
 
-    ![Diario de recepción de artículos](../media/item-arrival-journal-header.png "Diario de recepción de artículos")
+    ![Diario de recepción de artículos.](../media/item-arrival-journal-header.png "Diario de recepción de artículos")
 
 1. Seleccione **Aceptar** para crear el encabezado del diario.
 1. En la sección **Líneas de diario**, seleccione **Agregar línea** e introduzca los siguientes datos:
     - Establezca **Número de artículo** en *M9200*. El **Sitio**, **Almacén**, y **Cantidad** se configurarán en función de los datos de la transacción de inventario para los 10 palés (1000 c / u).
     - **Ubicación**: establecida en *001*. Esta ubicación específica no rastrea las matrículas.
 
-    ![Línea de diario de recepción de artículos](../media/item-arrival-journal-line.png "Línea de diario de recepción de artículos")
+    ![Línea de diario de recepción de artículos.](../media/item-arrival-journal-line.png "Línea de diario de recepción de artículos")
 
     > [!NOTE]
     > El campo **Fecha** determina la fecha en la que la cantidad disponible del artículo se registrará en el inventario.  

@@ -687,7 +687,15 @@
             - name: Usar un espacio de trabajo de control de costes para la aplicación móvil
               href: cost-accounting/cost-controlling-mobile-workspace.md
         - name: Mensajería electrónica
-          href: general-ledger/electronic-messaging.md
+          items:
+            - name: Información general sobre la mensajería electrónica
+              href: general-ledger/electronic-messaging.md
+            - name: Configurar mensajes electrónicos
+              href: general-ledger/electronic-messaging-setup.md
+            - name: Trabajar con la funcionalidad de mensajes electrónicos
+              href: general-ledger/electronic-messaging-work-with-em.md
+            - name: Llamar a un formato de informes electrónicos de exportación simple para generar un informe de Excel
+              href: general-ledger/electronic-messaging-example.md
         - name: Gestión de gastos
           items:
             - name: Información general de la gestión de gastos
@@ -1206,17 +1214,17 @@
               href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
             - name: Cuando restablecer un data mart
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
-            - name: Preguntas frecuentes sobre informes financieros
+            - name: Preguntas frecuentes sobre Financial Reporting
               href: general-ledger/financial-reporting-faq.md
         - name: Finance Insights
           items:
             - name: Página principal de Finance Insights
               href: finance-insights/finance-insights-home-page.md
-            - name: Configuración y administración
+            - name: Configurar y administrar
               items:
                 - name: Configurar Finance Insights para la versión preliminar pública
                   href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: Configurar Finance Insights
+                - name: Configurar Finance Insights para la versión preliminar privada
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Habilitar predicciones de pago de cliente
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1226,6 +1234,16 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: Crear proyecto integrador de datos
                   href: finance-insights/create-data-integrate-project.md
+                - name: Ajustar y mejorar las predicciones
+                  items:
+                    - name: Resultados de los modelos de aprendizaje automático
+                      href: finance-insights/confusion-matrix.md
+                    - name: Evaluar el modelo de predicción de pago de cliente inicial
+                      href: finance-insights/evaluate-payment-prediction.md
+                    - name: Mejorar el modelo de predicción
+                      href: finance-insights/improve-model.md
+                    - name: Ciclo de vida de la administración de modelos
+                      href: finance-insights/model-manage-lifecycle.md
             - name: Usar Finance Insights
               items:
                 - name: Propuestas de presupuesto
@@ -1242,12 +1260,6 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Información general de instantáneas
                   href: finance-insights/payment-snapshots.md
-                - name: Resultados de los modelos de aprendizaje automático
-                  href: finance-insights/confusion-matrix.md
-                - name: Evaluar el modelo de predicción de pago de cliente inicial
-                  href: finance-insights/evaluate-payment-prediction.md
-                - name: Mejorar el modelo de predicción
-                  href: finance-insights/improve-model.md
         - name: Gestión de proyectos y contabilidad
           items:
             - name: Información general de la gestión y contabilidad de proyectos
@@ -1490,11 +1502,9 @@
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Comenzar la facturación electrónica para Brasil
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Comenzar con la facturación electrónica para Egipto
+                        - name: Introducción la facturación electrónica para Egipto
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Comenzar con la facturación electrónica para Italia
-                          href: localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Comenzar con la facturación electrónica para México
+                        - name: Introducción a la facturación electrónica para México
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Configurar la facturación electrónica
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
@@ -2196,38 +2206,40 @@
                   href: localizations/india.md
                 - name: Ámbito de las localizaciones de la India
                   href: localizations/apac-ind-scope.md
-                - name: Novedades o cambios para la localización de India
+                - name: Novedades y cambios para la localización de India
                   items:
-                    - name: Novedades y cambios en 10.0.0
-                      href: localizations/apac-ind-news-letter-10-0-00.md
-                    - name: Novedades y cambios en 10.0.01
-                      href: localizations/apac-ind-news-letter-10-0-01.md
-                    - name: Novedades y cambios en 10.0.02
-                      href: localizations/apac-ind-news-letter-10-0-02.md
-                    - name: Novedades y cambios en 10.0.03
-                      href: localizations/apac-ind-news-letter-10-0-03.md
-                    - name: Novedades y cambios en 10.0.04
-                      href: localizations/apac-ind-news-letter-10-0-04.md
-                    - name: Novedades y cambios en 10.0.05
-                      href: localizations/apac-ind-news-letter-10-0-05.md
-                    - name: Novedades y cambios en 10.0.06
-                      href: localizations/apac-ind-news-letter-10-0-06.md
-                    - name: Novedades y cambios en 10.0.07
-                      href: localizations/apac-ind-news-letter-10-0-07.md
-                    - name: Novedades y cambios en 10.0.08
-                      href: localizations/apac-ind-news-letter-10-0-08.md
-                    - name: Novedades y cambios en 10.0.09
-                      href: localizations/apac-ind-news-letter-10-0-09.md
-                    - name: Novedades y cambios en 10.0.10
-                      href: localizations/apac-ind-news-letter-10-0-10.md
-                    - name: Novedades y cambios en 10.0.11
-                      href: localizations/apac-ind-news-letter-10-0-11.md
-                    - name: Novedades y cambios en 10.0.12
-                      href: localizations/apac-ind-news-letter-10-0-12.md
-                    - name: Novedades y cambios en 10.0.13
-                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: Novedades y cambios en 10.0.15 - 10.0.19
+                      href: localizations/ind-news-letter-10-0-15-19.md
                     - name: Novedades y cambios en 10.0.14
                       href: localizations/apac-ind-news-letter-10-0-14.md
+                    - name: Novedades y cambios en 10.0.13
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: Novedades y cambios en 10.0.12
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: Novedades y cambios en 10.0.11
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: Novedades y cambios en 10.0.10
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: Novedades y cambios en 10.0.09
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: Novedades y cambios en 10.0.08
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: Novedades y cambios en 10.0.07
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: Novedades y cambios en 10.0.06
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: Novedades y cambios en 10.0.05
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: Novedades y cambios en 10.0.04
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: Novedades y cambios en 10.0.03
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: Novedades y cambios en 10.0.02
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: Novedades y cambios en 10.0.01
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: Novedades y cambios en 10.0.0
+                      href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Impuestos indirectos
                   items:
                     - name: India GST
@@ -2288,6 +2300,8 @@
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: Transacciones de impuestos
                           items:
+                            - name: TDS de GST sobre el pago de bienes y servicios
+                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: Transacciones de compras
                               items:
                                 - name: Compras de proveedores no registrados
@@ -2438,6 +2452,8 @@
                               href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
                             - name: Error de regla de compensación cuando se ejecuta una liquidación de impuestos
                               href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
+                            - name: El valor del campo predeterminado en la información fiscal no es el esperado
+                              href: localizations/apac-ind-GST-troubleshooting-default-value-in-tax-information-not-expected.md
                 - name: Impuestos directos
                   items:
                     - name: Retención de impuestos en India
@@ -2456,11 +2472,15 @@
                               href: localizations/apac-ind-TDS-India-TDS-overview.md
                             - name: Incluir GST al calcular deducciones fiscales
                               href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                            - name: TDS de compras de mercancías descontadas de acuerdo con la sección 194Q
+                              href: localizations/ind-tds-purchases-goods.md
+                            - name: Registrar TDS/TCS sobre no contribuyentes a una tasa de impuestos más alta
+                              href: localizations/post-tds-tcs-non-filers-higher-tax.md
                             - name: Configuración básica para TDS
                               items:
                                 - name: Configurar los parámetros de TDS
                                   href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                                - name: Configurar cuentas de TDS en el libro mayor
+                                - name: Configurar cuentas contables de TDS
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: Configurar números de registro de TDS para entidades jurídicas
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
@@ -4351,6 +4371,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar pasos de aprobación
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/finance/toc.json
+                    - name: Configurar revisores de gastos
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar decisiones manuales
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar decisiones condicionales

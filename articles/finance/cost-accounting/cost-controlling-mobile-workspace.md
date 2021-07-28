@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 569f932b256054f2d93a6d699ca5d5af3da08ca6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: df727f3e66691409b98d2f74f78329b03e638959
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897945"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355212"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Espacio de trabajo móvil de control de costes
 
@@ -70,7 +70,7 @@ El espacio de trabajo móvil **Control costes** proporciona las acciones, las vi
 
     Al seleccionar un vínculo, una tarjeta se muestra por cada artículo de coste. Los importes siguientes se muestran en todas las tarjetas: Real, Presupuesto, Desviación de presupuesto, Desviación de presupuesto en %, Presupuesto revisado, Desviación de presupuesto revisado y Desviación de presupuesto revisado en %.
     
-    [![Tarjeta para un elemento de coste ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    [![Tarjeta para un elemento de coste.](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>Requisitos previos
 Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
@@ -125,7 +125,7 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
 4.  Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
 
-[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Toque la pantalla para actualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>Visualizar el rendimiento del centro de coste según el espacio de trabajo móvil de control de costes
 

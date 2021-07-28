@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37efef723a7ca5e5f2333ff41cdf8351156e9bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 393239571de8a8d845107a8a8a151748c6b963c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821618"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356006"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO con valor físico y marcado
 
@@ -51,7 +51,7 @@ En este ejemplo, el grupo de modelos de artículo no está marcado para incluir 
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente. Los ejemplos siguientes muestran los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. 
 
-![FIFO sin Incluir valor físico en coste](./media/fifowithoutincludephysicalvalue.gif) 
+![FIFO sin Incluir valor físico en coste.](./media/fifowithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -83,7 +83,7 @@ Si se ha seleccionado la casilla **Incluir valor físico** para un artículo en 
 
 La transacción 5b se liquidará contra la transacción de recepción 1b. Se producirá un ajuste de 11,25 USD a esta transacción de emisión. El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. 
 
-![FIFO con Incluir valor físico en coste](./media/fifowithincludephysicalvalue.gif) 
+![FIFO con Incluir valor físico en coste.](./media/fifowithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -115,7 +115,7 @@ La marcación es un proceso que permite vincular, o marcar, una transacción de 
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO en esta serie de transacciones al emplear marcado entre emisiones y recepciones. 
 
-![FIFO con marcado](./media/fifowithmarking.gif) 
+![FIFO con marcado.](./media/fifowithmarking.gif) 
 
 **Clave del diagrama**
 

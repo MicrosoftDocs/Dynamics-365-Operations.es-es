@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261755"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354818"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unidades de escalado en la nube y en el perímetro para cargas de trabajo de gestión de almacenes y fabricación
 
@@ -41,7 +41,7 @@ Las capacidades de carga de trabajo se lanzan de forma continua a través de mej
 
 Las unidades de escala amplían su entorno central de Supply Chain Management agregando capacidad de procesamiento dedicada. Las unidades de escala se pueden ejecutar en la nube. Alternativamente, pueden ejecutarse en el borde, en las instalaciones de su instalación local.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 con unidades de escalado":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 con unidades de escalado.":::
 
 Las unidades de escala proporcionan resistencia, confiabilidad y escala para las cargas de trabajo asignadas. Las unidades de escala de borde se pueden desconectar temporalmente del entorno del centro de la nube y los trabajadores continúan trabajando en las cargas de trabajo asignadas en el borde.
 
@@ -157,7 +157,7 @@ Las unidades de báscula se ofrecen en varias unidades de mantenimiento de exist
 
 El SKU de nivel de entrada se conoce como *Básico* y el SKU de mayor rendimiento se conoce como *Estándar*. Cada SKU viene precargado con un número específico de transacciones mensuales. Sin embargo, puede aumentar el presupuesto de transacciones mensual agregando complementos excedentes para cada SKU.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Complementos para unidades de escala de nube":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Complementos para unidades de escala de nube.":::
 
 > [!TIP]
 > Para identificar el tamaño que mejor se adapte a sus necesidades, trabaje con su socio y Microsoft para comprender el tamaño de transacción mensual que necesita.
@@ -181,11 +181,11 @@ Si el inquilino que está buscando no está en la lista, vaya a [LCS](https://lc
 
 Para cada inquilino, la lista muestra el estado de incorporación.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Lista de inquilinos en la pestaña Dynamics 365 Tenants":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Lista de inquilinos en la pestaña Dynamics 365 Tenants.":::
 
 Seleccione **Haz clic para comenzar** para solicitar la incorporación del inquilino de LCS. Debe aceptar los términos. También debe proporcionar una dirección de correo electrónico comercial a la que Microsoft pueda enviar comunicaciones relacionadas con el proceso de incorporación.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Envío de registro para una suscripción":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Envío de registro para una suscripción.":::
 
 Microsoft revisará su solicitud y le informará sobre los próximos pasos enviando un correo electrónico a la dirección que proporcionó en el formulario de registro. Microsoft trabajará en estrecha colaboración con usted para habilitar las unidades de escala en la topología híbrida para su escenario empresarial.
 
@@ -195,13 +195,13 @@ Una vez completada la incorporación, puede usar el puerto para configurar las u
 
 Vaya al [Portal de Scale Unit Manager](https://aka.ms/SCMSUM) e inicie sesión con su cuenta de inquilino. En la página **Configurar unidades de escala**, puede agregar un entorno de concentrador si aún no está en la lista. Luego, puede seleccionar el concentrador que desea configurar con unidades de escala y cargas de trabajo.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Experiencia en gestión de cargas de trabajo y unidades de escala":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Experiencia en gestión de cargas de trabajo y unidades de escala.":::
 
 Para agregar una o más unidades de escala que están disponibles en sus suscripciones, seleccione **Agregar unidades de escala**.
 
 En la pestaña **Cargas de trabajo definidas**, use el botón **Crear carga de trabajo** para agregar una carga de trabajo de gestión de almacén a una de sus unidades de báscula. Para cada carga de trabajo, debe especificar el contexto de los procesos que serán propiedad de la carga de trabajo. Para las cargas de trabajo de gestión de almacenes, el contexto es un almacén específico en un sitio y entidad legal específicos.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Creación de cargas de trabajo":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Creación de cargas de trabajo.":::
 
 > [!TIP]
 > Con el tiempo, se agregarán mejoras incrementales a la experiencia de Scale Unit Manager para ayudar a facilitar las operaciones de administración del ciclo de vida. Las capacidades específicas para la versión actual están documentadas en un manual de incorporación que está disponible para los clientes que están en el proceso de incorporación a la topología híbrida distribuida para Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

@@ -9,16 +9,17 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c22af9bf76818dd682b4147c3677cd1715e4cbf8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352647"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Información general sobre integración de Dynamics 365 Commerce y Microsoft Teams
 
@@ -50,7 +51,7 @@ Deben cumplirse los siguientes requisitos previos antes de que pueda empezar a u
 
 La siguiente ilustración muestra la arquitectura conceptual de la integración de Dynamics 365 Commerce y Microsoft Teams, usando una tienda de San Francisco como ejemplo. Tanto Teams como la aplicación Commerce PDV usan Microsoft Planner como repositorio para que las tareas publicadas desde Teams aparezcan en la aplicación PDV y las tareas ad hoc creadas por los gerentes de tienda en la aplicación PDV aparezcan en Teams, lo que resulta en una experiencia de gestión de tareas perfecta entre las aplicaciones.    
 
-![Arquitectura de la integración de Commerce y Teams](media/d365-commerce-teams-integration-conceptual-architecture.png)
+![Arquitectura de la integración de Commerce y Teams.](media/d365-commerce-teams-integration-conceptual-architecture.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dd07c9c95639c8e69e1013fd7da283cf51b60ed0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d4f2ee97db52c055136912b237412b1148c26bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804536"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352357"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Restringir métodos de pago para devoluciones sin un recibo
 
@@ -38,7 +38,7 @@ Para configurar los métodos de pago, debe completar las tareas siguientes.
 3. Configurar métodos de pago en tienda. Asocie métodos de pago a cada tienda e indique la configuración específica de la tienda para cada método de pago.
 4. Configurar tipos de pago con tarjeta para tiendas. Complete la configuración de tarjeta para todos los métodos de pago con tarjeta que acepte la tienda.
 
-![Configuración de tienda](media/NoReceiptReturns1.png "Configuración de tienda") 
+![Configuración de tienda.](media/NoReceiptReturns1.png "Configuración de tienda") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Restringir métodos de pago para devoluciones sin un recibo
@@ -49,12 +49,12 @@ El valor predeterminado es **No**, que garantiza que el método de pago se tiene
 
 Cuando **Limitar devoluciones sin recibo** se establece en **Sí**, el método de pago seleccionado no se permitirá para las devoluciones. 
 
-![Método de pago de la tienda](media/NoReceiptReturns3.png "Método de pago de tienda") 
+![Método de pago de la tienda.](media/NoReceiptReturns3.png "Método de pago de tienda") 
 
 > [!NOTE]
 > Si un cajero selecciona un método de pago limitado para la devolución sin un recibo, aparece un mensaje para comprobar los métodos de los pagos aceptables.
 
-![Métodos de pago aceptables](media/NoReceiptReturns4.png "Métodos de pago aceptables") 
+![Métodos de pago aceptables.](media/NoReceiptReturns4.png "Métodos de pago aceptables") 
 
 Si una transacción tiene una devolución con recibo como sin él, las condiciones de la restricción no se aplicarán porque la transacción será un flujo de trabajo de devolución con un recibo. 
 

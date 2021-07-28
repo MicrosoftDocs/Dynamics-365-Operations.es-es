@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748834"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350749"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -44,16 +44,16 @@ Después de instalar la herramienta Package Deployer, instale el paquete de la s
 
 1. Descargue el archivo del paquete de solución más reciente de Yammer.com. Después de descargar el archivo zip del paquete, haga clic con el botón derecho y seleccione **Propiedades**. Selecciona la casilla **Desbloquear** y luego elija **Aplicar**. Si no ve la casilla de verificación **Desbloquear**, el archivo zip ya está desbloqueado y puede omitir este paso.
 
-    ![Cuadro de diálogo Propiedades](media/unblock_option.png)
+    ![Cuadro de diálogo Propiedades.](media/unblock_option.png)
 
 2. Extraiga el archivo zip del paquete y copie todos los archivos en la carpeta **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
 
-    ![Contenido de la carpeta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+    ![Contenido de la carpeta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
 
 3. Pegue todos los archivos copiados en la carpeta **Herramientas** de la herramienta Package Deployer. 
 4. Ejecute **PackageDeployer.exe** para seleccionar el entorno Dataverse e instalar las soluciones.
 
-    ![Contenido de la carpeta Herramientas](media/paste_copied_files.png)
+    ![Contenido de la carpeta Herramientas.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite y vea el inicio de sesión de seguimiento del complemento Dataverse para ver detalles del error
 

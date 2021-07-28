@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 62b4285f2f5ad93e0a888dd47d22ab5f2caa184c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897997"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355565"
 ---
 # <a name="fixed-assets-home-page"></a>Página principal de Activos fijos
 
@@ -30,7 +32,7 @@ Los activos fijos son artículos de valor que pertenecen a un individuo u organi
 
 Puede configurar y especificar información de adquisición para activos fijos y, a continuación, gestionar dichos activos depreciándolos y configurando un umbral de capitalización para determinar la depreciación. Puede calcular ajustes para los activos fijos y también desecharlos. Al utilizar Contabilidad general junto con Activos fijos, puede ver el valor actual de todos los activos fijos. La forma de gestionar los activos fijos se debe corresponder a los estándares de contabilidad internacional y a la legislación de contabilidad en cada país/región. Los requisitos deben incluir las reglas para registrar transacciones de uso y cancelación, depreciación, tiempo de vida útil, revalorizaciones y devaluaciones de los activos fijos. La función de activos fijos incorpora muchos de estos estándares y reglas.
 
-[![Proceso empresarial](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Proceso de negocio.](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 
@@ -38,7 +40,7 @@ Puede configurar y especificar información de adquisición para activos fijos y
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Vaya a las [Planes de la versión de Microsoft Dynamics 365](/dynamics365/release-plans/) para ver las nuevas características que se han planificado. 
+Vaya a los [Planes de la versión de Microsoft Dynamics 365](/dynamics365/release-plans/) para ver las nuevas características que se han planificado. 
 
 #### <a name="blogs"></a>Blogs
 

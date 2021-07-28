@@ -2,7 +2,7 @@
 title: Módulo de encabezado
 description: En este tema se tratan los módulos de encabezado y se describe como crear encabezados de página en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799929"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479265"
 ---
 # <a name="header-module"></a>Módulo de encabezado
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 En este tema se tratan los módulos de encabezado y se describe como crear encabezados de página en Microsoft Dynamics 365 Commerce.
 
@@ -33,7 +34,7 @@ El módulo de encabezado incluye un logotipo del sitio, vínculos a la jerarquí
 
 La siguiente imagen muestra un ejemplo de un módulo de encabezado en una página de sitio.
 
-![Ejemplo de módulo de cabecera](./media/ecommerce-header.png)
+![Ejemplo de módulo de cabecera.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Propiedades de un módulo de encabezado
 
@@ -58,9 +59,16 @@ Los módulos siguientes se pueden usar en un módulo de encabezado:
 - **Selector de tienda**: el módulo selector de tienda se puede incluir en una franja de selector de tienda del módulo de encabezado. Permite a los usuarios encontrar tiendas cercanas y navegar por ellas. Los usuarios también pueden especificar una tienda preferida. Esa tienda se mostrará en el encabezado. Cuando el módulo selector de tienda está incluido en el módulo de encabezado, su propiedad **Modo** debe establecerse en **Buscar tiendas**. Para obtener más información, consulte [Módulo selector de tienda](store-selector.md).
 
 > [!NOTE]
-> - La compatibilidad con el uso del icono de carro en los módulos de encabezado está disponible en Dynamics 365 Commerce 10.0.11.
-> - La compatibilidad con el uso del módulo selector de sitio en los módulos de encabezado está disponible en Dynamics 365 Commerce 10.0.14.
-> - La compatibilidad con el uso del módulo selector de tienda en los módulos de encabezado está disponible en Dynamics 365 Commerce 10.0.15.
+> - La compatibilidad con el uso del icono de carro en los módulos de encabezado está disponible en la versión de Dynamics 365 Commerce 10.0.11.
+> - La compatibilidad con el uso del selector de sitios en los módulos de encabezado está disponible en la versión de Dynamics 365 Commerce 10.0.14.
+> - La compatibilidad con el uso del selector de tiendas en los módulos de encabezado está disponible en la versión de Dynamics 365 Commerce 10.0.15.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Módulo de encabezado en el tema Adventure Works
+
+En el tema Adventure Works, el módulo de encabezado admite la propiedad **Logotipo móvil**. Esta propiedad permite especificar un logotipo para las ventanas gráficas móviles. La propiedad **Logotipo móvil** está disponible como una extensión de definición de módulo.
+
+> [!IMPORTANT]
+> El tema de Adventure Works está disponible a partir del lanzamiento de la versión 10.0.20 de Dynamics 365 Commerce.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Crear un fragmento de encabezado para una página
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941038"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350968"
 ---
 # <a name="company-concept-in-dataverse"></a>Concepto de empresa en Dataverse
 
@@ -43,7 +43,7 @@ Dado que la unidad de negocio y la empresa no son conceptos equivalentes, no es 
 
 En la siguiente ilustración se muestra un ejemplo de esta configuración de datos en Dataverse.
 
-![Configuración de datos en Dataverse](media/dual-write-company-1.png)
+![Configuración de datos en Dataverse.](media/dual-write-company-1.png)
 
 Debido a esta configuración, cualquier fila relacionada con la empresa USMF será propiedad de un equipo que está vinculado a la unidad de negocio de USMF en Dataverse. Por lo tanto, cualquier usuario que tenga acceso a esa unidad de negocio con un rol de seguridad que se establezca en la visibilidad de nivel de unidad de negocio podrá ver dichas filas. El siguiente ejemplo muestra cómo se pueden utilizar los equipos para proporcionar acceso correcto a dichas filas.
 
@@ -52,21 +52,21 @@ Debido a esta configuración, cualquier fila relacionada con la empresa USMF ser
 + El equipo de “ventas de USMF" está vinculado a la unidad de negocio de USMF antes mencionada.
 + Por lo tanto, los miembros del equipo de "ventas de USMF" pueden ver cualquier cuenta que sea propiedad del usuario de "USMF DW", que habría llegado de la tabla de la empresa USMF en Finance and Operations.
 
-![Cómo se pueden usar los equipos](media/dual-write-company-2.png)
+![Cómo se pueden usar los equipos.](media/dual-write-company-2.png)
 
 Como muestra la ilustración anterior, esta asignación 1:1 entre la unidad de negocio, la empresa y el equipo es solo un punto de partida. En este ejemplo, una nueva unidad de negocio “Europa” se crea manualmente en Dataverse como principal para DEMF y ESMF. Esta nueva unidad de negocio raíz no está relacionada con la escritura dual. Sin embargo, se puede usar para dar a los miembros del “equipo de ventas EUR” acceso a los datos de la cuenta en DEMF y ESMF estableciendo la visibilidad de los datos en **BU principal/secundaria** en el rol de seguridad asociado.
 
 Un tema final a discutir es cómo la escritura dual determina a qué equipo propietario debe asignar las filas. Este comportamiento se controla mediante la columna **Equipo propietario predeterminado** en la fila cdm\_Company. Cuando la fila cdm\_Company está habilitada para la escritura dual, un complemento crea automáticamente la unidad de negocio asociada y el equipo propietario (si no existe ya) y establece la columna **Equipo propietario predeterminado** . El administrador puede cambiar esta columna a un valor distinto. Sin embargo, el administrador no puede desactivar la columna cuando la tabla está habilitada para la escritura dual.
 
 > [!div class="mx-imgBorder"]
-![Columna de Equipo propietario predeterminado](media/dual-write-default-owning-team.jpg)
+![Columna de Equipo propietario predeterminado.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Fragmentación y arranque de la empresa
 
 La integración de Dataverse aporta paridad a la empresa mediante un identificador de empresa para fragmentar los datos. Como muestra la siguiente ilustración, todas las tablas específicas de la empresa se extienden de modo que tengan una relación muchos a uno (N:1) con la tabla cdm\_Company.
 
 > [!div class="mx-imgBorder"]
-![Relación N:1 entre una tabla específica de la empresa y la tabla cdm_Company](media/dual-write-bootstrapping.png)
+![Relación N:1 entre una tabla específica de la empresa y la tabla cdm_Company.](media/dual-write-bootstrapping.png)
 
 + Para las filas, después de que se agrega y se guarda una empresa, el valor pasa a ser de solo lectura. Por lo tanto, los usuarios deben asegurarse de que se selecciona la empresa correcta.
 + Solo las filas con datos de la empresa son aptos para la escritura dual entre la aplicación y Dataverse.
@@ -98,7 +98,7 @@ Hay varias formas de completar automáticamente el nombre de la empresa en las a
 
 Para aplicar el filtrado basado en el contexto de la empresa en sus formularios personalizados o en las columnas de búsqueda personalizadas agregadas a los formularios estándar, abra el formulario y use la sección **Filtrado de registros relacionados** para aplicar el filtro de empresa. Debe establecer esto para cada columna de búsqueda que requiera filtrado según la empresa subyacente en una fila determinada. El ajuste se muestra para **Cuenta** en la siguiente ilustración.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Aplicar el contexto de la empresa":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Aplicar el contexto de la empresa.":::
 
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b652045b130eca7e8236b4952b7c829e53a2269e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746420"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352947"
 ---
 # <a name="getenumvaluebyname-er-function"></a>Función GETENUMVALUEBYNAME de ER
 
@@ -62,7 +62,7 @@ No se produce ninguna excepción si no se encuentra un valor de tipo *Enum* con 
 
 En la siguiente ilustración, la enumeración **ReportDirection** se introduce en un modelo de datos. Tenga en cuenta que se definen etiquetas para los valores de enumeración.
 
-![Valores disponibles para una enumeración de modelo de datos](./media/ER-data-model-enumeration-values.PNG)
+![Valores disponibles para una enumeración de modelo de datos.](./media/ER-data-model-enumeration-values.PNG)
 
 La siguiente ilustración muestra estos detalles:
 
@@ -70,7 +70,7 @@ La siguiente ilustración muestra estos detalles:
 - La expresión `$IsArrivals` está diseñada para usar el origen de datos **$Direction** basado en la enumeración del modelo como un parámetro de esta función.
 - El valor de esta expresión de comparación es **TRUE**.
 
-![Ejemplo de enumeración de modelo de datos](./media/ER-data-model-enumeration-usage.PNG)
+![Ejemplo de enumeración de modelo de datos.](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>Ejemplo 2
 
@@ -78,14 +78,14 @@ Las funciones `GETENUMVALUEBYNAME` y [`LISTOFFIELDS`](er-functions-list-listoffi
 
 En la siguiente ilustración, el origen de datos **TransType** se introduce en una asignación de modelos. Este origen de datos hace referencia a la enumeración de aplicación **LedgerTransType**.
 
-![Fuente de datos de un mapeo de modelo que se refiere a una enumeración de aplicaciones](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![Fuente de datos de un mapeo de modelo que se refiere a una enumeración de aplicaciones.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 En la siguiente ilustración se muestra el origen de datos **TransTypeList** que se configura en una asignación de modelos. Este origen de datos se configura en función de la enumeración de aplicación **TransType**. La función `LISTOFFIELDS` se utiliza para devolver todos los valores de enumeración como una lista de registros que contienen campos. De esta manera, se exponen los detalles de cada valor de enumeración.
 
 > [!NOTE]
 > El campo **EnumValue** está configurado para el origen de datos **TransTypeList** mediante la expresión `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`. Este campo devuelve un valor de enumeración para cada registro de esta lista.
 
-![Fuente de datos de un mapeo de modelo que devuelve todos los valores de enumeración de una enumeración seleccionada como una lista de registros](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![Fuente de datos de un mapeo de modelo que devuelve todos los valores de enumeración de una enumeración seleccionada como una lista de registros.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 En la siguiente ilustración se muestra el origen de datos **VendTrans** que se configura en una asignación de modelos. Esta fuente de datos devuelve registros de transacciones de proveedores de la tabla de aplicación **VendTrans**. El tipo de libro mayor de cada transacción se define por el valor del campo **TransType**.
 
@@ -94,11 +94,11 @@ En la siguiente ilustración se muestra el origen de datos **VendTrans** que se 
 >
 > El campo **TransTypeTitle** está vinculado al campo **LedgerType** de un modelo de datos que permite que esta información se utilice en todos los formatos ER que utilizan el modelo de datos como fuente de datos.
 
-![Fuente de datos de un mapeo de modelo que devuelve transacciones de proveedores](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![Fuente de datos de un mapeo de modelo que devuelve transacciones de proveedores.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 La siguiente ilustración muestra cómo puede utilizar el [depurador de fuente de datos](er-debug-data-sources.md) para probar el mapeo del modelo configurado.
 
-![Usar el depurador de la fuente de datos para probar el mapeo del modelo configurado](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![Usar el depurador de la fuente de datos para probar el mapeo del modelo configurado.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 El campo **LedgerType** de un modelo de datos expone las etiquetas de tipos de transacciones como se esperaba.
 

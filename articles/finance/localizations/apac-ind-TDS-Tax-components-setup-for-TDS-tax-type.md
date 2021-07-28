@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023563"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358179"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Configurar componentes de impuestos para el tipo de impuestos TDS
 
@@ -33,7 +33,7 @@ Siga estos pasos para configurar los componentes de TDS.
 
 1. Vaya a **Impuesto \> Configuración \> Retención de impuestos \> Componentes de retención de impuestos**.
 
-    [![Página de componentes de retenciones de impuestos](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Página de componentes de retenciones de impuestos.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. En campo **Tipo de impuesto**, seleccione **TDS** para configurar componentes de retención de impuestos para el tipo de impuesto TDS.
 3. En el panel de acciones, haga clic en **Nuevo** para crear una línea.
@@ -50,7 +50,7 @@ Siga estos pasos para configurar los componentes de TDS.
 
     Por ejemplo, si el importe del umbral de excepción es 5000, los TDS se calculan en una línea de factura específica si el importe de la línea de factura excede 5000 (en otras palabras, si es 5001 o más).
 
-    [![Página de umbral](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Página de umbral.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > El importe del umbral de excepción debe ser menor o igual al importe del umbral.
@@ -66,6 +66,6 @@ Siga estos pasos para configurar los componentes de TDS.
 
 14. Seleccione **Aceptar** para copiar y crear componentes de TDS para el otro grupo de componentes de TDS en la página **Componentes de retención de impuestos**.
 
-    [![Cuadro de diálogo Copiar componentes de retención de impuestos](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Cuadro de diálogo Copiar componentes de retención de impuestos.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Cierre la página.

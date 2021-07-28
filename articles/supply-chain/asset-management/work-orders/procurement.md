@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842234"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352771"
 ---
 # <a name="procurement"></a>Adquisición
 
@@ -36,7 +36,7 @@ En la página de lista **Solicitud de compra de orden de trabajo** (**Administra
 
 La ilustración siguiente muestra un ejemplo de la página de lista **Solicitud de compra de orden de trabajo**.
 
-![Figura 1](media/08-work-orders.png)
+![Figura 1.](media/08-work-orders.png)
 
 
 En la página de lista **Solicitud de compra de orden de trabajo** (**Administración de activos** > **Común** > **Adquisición** > **Solicitud de compra de orden de trabajo**), se ve una lista de órdenes de compra relacionadas con órdenes de trabajo. Cuando selecciona un trabajo de orden de trabajo en esta página, puede utilizar los botones del grupo **Mostrar** de la ficha del panel de acciones **Compra del pedido de trabajo** para realizar distintas acciones:
@@ -47,7 +47,7 @@ En la página de lista **Solicitud de compra de orden de trabajo** (**Administra
 
 La ilustración siguiente muestra un ejemplo de la página de lista **Compra de orden de trabajo**.
 
-![Figura 2](media/09-work-orders.png)
+![Figura 2.](media/09-work-orders.png)
 
 
 En la página de lista **Compra de orden de trabajo** y la página de lista **Solicitud de compra del pedido de trabajo**, un símbolo relacionado con el control de fecha de entrega aparece a la derecha de cada línea. Si el símbolo muestra un signo de exclamación en un círculo rojo, significa que se puede retrasar la entrega de la solicitud de compra o el pedido de compra relacionado.
@@ -93,7 +93,7 @@ Para ver o especificar el número de actividad relacionado con una línea de ped
 
 La ilustración siguiente muestra un ejemplo de la página **Pedido de compra**, con enfoque en el **Número de actividad**.
 
-![Figura 3](media/10-work-orders.png)
+![Figura 3.](media/10-work-orders.png)
 
 Igualmente, para ver o especificar el número de actividad relacionado con una línea de solicitud de compra de orden de trabajo, en la página de lista **Solicitud de compra de orden de trabajo**, seleccione el registro de la solicitud de compra y, a continuación, en la columna **Solicitud de compra**, seleccione el vínculo para el pedido de compra. Puede encontrar el campo **Número de actividad** en la pestaña **Proyecto** de la ficha desplegable **Detalles de línea**.
 

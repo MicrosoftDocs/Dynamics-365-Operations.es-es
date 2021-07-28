@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 94ecd623d445e23cc41829c51429e4783daa49f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304376"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355982"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Ver, administrar y aprobar pedidos planificados
 
@@ -65,7 +65,7 @@ La aprobación de pedidos planificados es un paso opcional en el proceso de crea
 
 La siguiente ilustración muestra cómo puede utilizar el valor **Estado** que se asigna a cada orden planificada para implementar un flujo de trabajo de aprobación. Para implementar un proceso de aprobación, ajuste manualmente el valor **Estado** para cada orden planificada, como se describe en la sección anterior.
 
-![Flujo de pedido planificado](media/approved-planned-orders-1.png)
+![Flujo de pedido planificado.](media/approved-planned-orders-1.png)
 
 > [!TIP]
 > Le recomendamos que apruebe cualquier pedido planificado modificado. De lo contrario, las ediciones se ignorarán y se sobrescribirán en la siguiente ejecución de planificación.

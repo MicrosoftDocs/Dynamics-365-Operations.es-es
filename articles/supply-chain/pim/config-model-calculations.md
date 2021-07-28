@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0806a5b36b04e77a5a6d10f3c2eb3d7ba680e75
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829627"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356425"
 ---
 # <a name="product-configuration-model-calculations"></a>Cálculos de modelo de configuración de producto
 
@@ -70,7 +70,7 @@ Este ejemplo usa el atributo de texto `textFixedList` como atributo de destino. 
 
 La siguiente captura de pantalla muestra cómo podría verse la configuración de este atributo en su sistema.
 
-![Configuración de tipo de atributo, por ejemplo 2](media/model-calculations-example2.png "Configuración de tipo de atributo, por ejemplo 2")
+![Configuración de tipo de atributo, por ejemplo 2.](media/model-calculations-example2.png "Configuración de tipo de atributo, por ejemplo 2")
 
 El atributo se utiliza en la siguiente declaración condicional:
 
@@ -92,7 +92,7 @@ Este ejemplo usa el atributo de destino `textFixedList` del ejemplo anterior. Ta
 
 La siguiente captura de pantalla muestra cómo podría verse la configuración de este atributo en su sistema.
 
-![Configuración de tipo de atributo, por ejemplo 3](media/model-calculations-example3.png "Configuración de tipo de atributo, por ejemplo 3")
+![Configuración de tipo de atributo, por ejemplo 3.](media/model-calculations-example3.png "Configuración de tipo de atributo, por ejemplo 3")
 
 El valor del atributo `textFixedList` se calcula utilizando la siguiente declaración condicional:
 

@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbcab469e1dc8c139d180abdb7ed0bd8fba488a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: dc73f1bde3407c144dc1cd48283385c19713430e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747744"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349093"
 ---
 # <a name="workflow-system-overview"></a>Visión general del sistema de flujo de trabajo
 
@@ -39,7 +41,7 @@ El flujo de trabajo es un sistema que se ejecuta en Application Object Server (A
 
 Un flujo de trabajo representa un proceso empresarial. El flujo de trabajo define el flujo o movimiento de un documento en el sistema al mostrar quién debe completar una tarea, tomar una decisión o aprobar un documento. Por ejemplo, en la siguiente ilustración se muestra un flujo de trabajo de informes de gastos.
 
-![Flujo de trabajo con elementos que están asignados a usuarios](./media/workflow_user.gif)
+![Flujo de trabajo con elementos que están asignados a usuarios.](./media/workflow_user.gif)
 
 Para comprender mejor este flujo de trabajo, supongamos que Sam envía un informe de gastos por un total de 7.000 USD. En esta situación, Ivan debe revisar los recibos que Sam le envía. A continuación, Frank y Sue deben aprobar el informe de gastos. Ahora supongamos que Sam envía un informe de gastos por un total de 11.000 USD. En esa situación, Ivan debe revisar los recibos y Frank, Sue y Ann deben aprobar el informe de gastos.
 

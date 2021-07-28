@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306398"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358602"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
@@ -33,15 +33,15 @@ Cuando un ecosistema de negocio está compuesto de aplicaciones de Dynamics 365,
 
 A continuación se indica el modelo de datos del producto de Sales.
 
-![Modelo de datos para productos de CE](media/dual-write-product-4.jpg)
+![Modelo de datos para productos de CE.](media/dual-write-product-4.jpg)
 
 A continuación se indica el modelo de datos de productos de las aplicaciones de Finance and Operations.
 
-![Modelo de datos para productos de Finance and Operations](media/dual-write-products-5.jpg)
+![Modelo de datos para productos de Finance and Operations.](media/dual-write-products-5.jpg)
 
 Estos dos modelos de datos se han integrado en Dataverse como se indica a continuación.
 
-![Modelo de datos para productos de aplicaciones de Dynamics 365](media/dual-write-products-6.jpg)
+![Modelo de datos para productos de aplicaciones de Dynamics 365.](media/dual-write-products-6.jpg)
 
 Los mapas de tabla de escritura dual para productos se diseñaron para que los datos fluyan solo en una dirección y es una experiencia de tiempo casi real desde las aplicaciones de Finance and Operations hasta Dataverse. Sin embargo, la infraestructura del producto se ha creado abierta para hacerla bidireccional si procede. Aunque pueda personalizarla, este planteamiento es por su cuenta y riesgo, ya que Microsoft no recomienda este planteamiento.
 
@@ -86,7 +86,7 @@ Dado que el producto se representa como SKU, los conceptos de productos únicos,
 - Los **productos maestros** se usan como productos genéricos bloqueo que contienen la definición y las reglas que determinan el comportamiento en procesos empresariales. Según estas definiciones, los productos únicos que se conozcan como variantes de producto pueden generarse. Por ejemplo, si camiseta es el producto maestro, puede tener Color y Tamaño como dimensiones. Se pueden lanzar variantes que tienen diferentes combinaciones de estas dimensiones, como una pequeña camiseta azul o una camiseta verde de tamaño mediano. En la integración, se crea una fila por variante en la tabla del producto. Esta fila contiene información específica de las variantes, como las diferentes dimensiones. La información genérica del producto se almacena en la tabla **msdyn\_sharedproductdetails**. (Esta información genérica se conserva en el producto maestro). La información de producto maestro se sincroniza con Dataverse tan pronto como se crea el producto maestro lanzado (pero antes de que se lancen variantes).
 - **Productos únicos** hace referencia a todos los productos de subtipo de productos y a todas las variantes de producto. 
 
-![Modelo de datos para productos](media/dual-write-product.png)
+![Modelo de datos para productos.](media/dual-write-product.png)
 
 Con la función de doble escritura habilitada, los productos de Finance and Operations se sincronizarán en otros productos de Dynamics 365 en el estado **Borrador**. Se agregan a la primera lista de precios con la misma divisa. Es decir se agregan a la primera lista de precios de una aplicación de Dynamics 365 que coincida con la divisa de la tabla jurídica donde el producto se lance en una aplicación de Finance and Operations. Si no hay una lista de precios para la moneda dada, se creará automáticamente una lista de precios y se le asignará el producto. 
 
@@ -112,7 +112,7 @@ La sincronización de productos se produce de las aplicaciones de Finance and Op
 
 Las dimensiones de un producto son las características que identifican una variante del producto. Las cuatro dimensiones de producto (El color, tamaño, estilo, y configuración) también se asignan a Dataverse para definir las variantes de producto. La ilustración siguiente muestra el modelo de datos para la dimensión del producto Color. El mismo modelo se aplica a los tamaños, a los estilos y a las configuraciones. 
 
-![Modelos de datos para dimensiones de producto](media/dual-write-product-two.png)
+![Modelos de datos para dimensiones de producto.](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ Los configuración de pedido predeterminada define el sitio y el almacén de dó
 
 Las unidades de medida y sus conversiones respectivas están disponibles en el Dataverse según se indica en el modelo de datos indicado en el diagrama.
 
-![Modelo de datos para unidad de medida](media/dual-write-product-three.png)
+![Modelo de datos para unidad de medida.](media/dual-write-product-three.png)
 
 El concepto de unidad de medida está integrado entre aplicaciones de Finance and Operations y otras aplicaciones de Dynamics 365. Para cada clase de unidad en una aplicación de Finance and Operations se crea un grupo de unidades en una aplicación de Dynamics 365, que contiene las unidades que pertenecen a la clase de unidad. Una unidad base predeterminada también se crea para cada grupo de unidad. 
 

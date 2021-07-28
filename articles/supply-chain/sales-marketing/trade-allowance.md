@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102815"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359542"
 ---
 # <a name="trade-allowance-management"></a>Administración de concesión de comercialización
 
@@ -59,7 +59,7 @@ Un acuerdo de concesión comercial es un programa de incentivo donde los premios
 
 Los fondos asignados a los acuerdos de concesión comercial se registran en la página **Fondos**. Para abrir la página **Fondos**, selecciona **Ventas y marketing** \> **Permisos comerciales** \> **Fondos** \> **Fondos**.
 
-![Página de fondos](./media/trade-allowance-management-funds-page.png "Página de fondos")
+![Página de fondos.](./media/trade-allowance-management-funds-page.png "Página de fondos")
 
 En la página **Fondos**, puede ver los detalles de los fondos promocionales.
 
@@ -75,7 +75,7 @@ Después de que la definición de fondo se active, el paso siguiente de la plani
 
 Los acuerdos de concesión comercial se registran en la página **Acuerdos de concesión comercial**. Para abrir la página **Acuerdos de concesión comercial**, seleccione **Ventas y marketing** \> **Permisos comerciales** \> **Acuerdos de concesión comercial**.
 
-![Página de acuerdos de concesión de comercialización](./media/trade-allowance-management-agreements-page.png "Página de acuerdos de concesión de comercialización")
+![Página de acuerdos de concesión de comercialización.](./media/trade-allowance-management-agreements-page.png "Página de acuerdos de concesión de comercialización")
 
 #### <a name="header"></a>Encabezado
 
@@ -103,7 +103,7 @@ La pestaña **Eventos de marketing** muestra los tipos de eventos que cubre un a
 
 Cuando selecciona el evento de marketing y después selecciona la pestaña **Importes**, los detalles del evento se encuentran.
 
-![Líneas de acuerdo de concesión de comercialización](./media/trade-allowance-management-agreements-lines.png "Líneas de acuerdo de concesión de comercialización")
+![Líneas de acuerdo de concesión de comercialización.](./media/trade-allowance-management-agreements-lines.png "Líneas de acuerdo de concesión de comercialización")
 
 En la sección **Líneas de concesión de comercialización** , especifique los intervalos de cantidad o importe que el cliente debe conseguir para que las definicones obtengan las recompensas.
 

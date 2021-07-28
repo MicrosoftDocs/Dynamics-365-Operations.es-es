@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 141d58c2183c386584b0b974f4997e7a81ef3109
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b9d072914b5effdd733ec2c18e4ada877f932ba8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350169"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utilizar una ruta relativa en vínculos de datos de modelos y formatos de ER
 
@@ -31,20 +31,20 @@ La herramienta Informes electrónicos (ER) permite a los usuarios definir estruc
 
 Para mejorar la facilidad de uso de los diseñadores de asignación de ER, se ha liberado la función de [ruta relativa](er-formula-language.md#relative-path). De forma predeterminada, la opción de representación de la ruta relativa está activada para cualquier nueva instancia de la aplicación donde se habilita la experiencia de diseño de ER ( Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Implementamos el parámetro de la ruta relativa de modo que los usuarios puedan seguir utilizando la ruta completa cuando trabajen con esta presentación de enlaces de ER.
 
-[![Parámetros de usuario](./media/relative-path-01.png)](./media/relative-path-01.png)
+[![Parámetros de usuario.](./media/relative-path-01.png)](./media/relative-path-01.png)
 
  
 Cuando se activa el parámetro de uso de la ruta relativa, un único carácter @ reemplaza la ruta del elemento principal en el enlace del elemento del modelo actual. La ruta de enlace completa se acorta, lo que hace que toda la asignación sea más obvia y más fácil de entender. En la mayoría de los casos, no se requiere desplazamiento adicional en el diseñador de ER para ver todos los enlaces del modelo de datos.
 
-[![Diseñador de asignación de modelo](./media/relative-path-02.png)](./media/relative-path-02.png)
+[![Diseñador de asignación de modelo.](./media/relative-path-02.png)](./media/relative-path-02.png)
  
 Cuando empiece a diseñar una nueva expresión de ER, debe introducir solo un carácter para definir un enlace a un campo del elemento principal.
 
-[![Diseñador de fórmula](./media/relative-path-03.png)](./media/relative-path-03.png)
+[![Diseñador de fórmula.](./media/relative-path-03.png)](./media/relative-path-03.png)
  
 Si decide cambiar el origen de datos del elemento del modelo principal, con un uso de ruta absoluta, tiene que volver a enlazar manualmente este elemento del modelo, así como todos los elementos anidados, a un nuevo origen de datos. Cuando se activa el uso de una ruta relativa y selecciona un nuevo origen de datos que se enlazará a un elemento principal, se le ofrece una opción para volver a enlazar automáticamente todos los elementos anidados de este elemento principal con un clic.
 
-[![Reemplazar mensaje de ruta existente](./media/relative-path-04.png)](./media/relative-path-04.png)
+[![Reemplazar mensaje de ruta existente.](./media/relative-path-04.png)](./media/relative-path-04.png)
  
 Si confirma que vuelve a enlazar elementos anidados, el nuevo elemento principal se colocará en la ruta de cada elemento anidado que contenga el elemento principal existente.
 Esta característica no interrumpe la compatibilidad con versiones anteriores del marco de ER. Todas las configuraciones de ER previamente diseñadas funcionarán con esta nueva característica, y no se requiere ninguna actualización o conversión.

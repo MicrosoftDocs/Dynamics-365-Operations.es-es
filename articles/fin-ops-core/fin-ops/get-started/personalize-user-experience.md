@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944542"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348688"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -85,7 +85,7 @@ Algunos de los cambios más habituales y más importantes que se pueden realizar
 
 Además, los tipos más básicos de personalización están disponibles haciendo clic con el botón secundario en un elemento y después seleccionando **Personalizar**. (Tenga en cuenta que no todos los elementos en su página se pueden personalizar.) Si usa este método de personalización, aparecerá la *ventana de la propiedad* del elemento.
 
-![Personalización de las propiedades de un elemento](./media/cli-element-property-window.png)
+![Personalización de las propiedades de un elemento.](./media/cli-element-property-window.png)
 
 Puede usar la ventana de propiedad para personalizar un elemento de las siguientes formas:
 
@@ -107,7 +107,7 @@ Si desea implementar varios cambios en una página o hacer cambios que no están
 - En el panel Acciones de la página, seleccione **Personalizar esta página** en el grupo **Personalizar** en la ficha **Opciones**.
 - Seleccione el botón **Configuración** (el símbolo de engranaje) en la barra de navegación y, a continuación, seleccione **Personalizar**.
 
-[![Barra de herramientas de personalización](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Barra de herramientas de personalización.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navegación por la página
 
@@ -147,7 +147,7 @@ Para algunas páginas que incluyan listas, la característica de personalizació
 > [!NOTE]
 > Si la característica [Vistas guardadas](saved-views.md) está activada, el contenido que se inserta en un espacio de trabajo se vincula directamente a una vista. La consulta de la vista se utiliza para recuperar datos en el espacio de trabajo, y el mosaico o el vínculo correspondiente en el espacio de trabajo abre la página de esa vista para aplicar la consulta y las personalizaciones a la vista. Si la vista se actualiza, los elementos del espacio de trabajo correspondientes se ajustarán a la nueva definición de vista.
 
-[![Agregar al espacio de trabajo](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Agregar al espacio de trabajo.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Para agregar una lista a un espacio de trabajo, primero debe clasificar o filtrar la lista de la página para que muestre la información tal y como desee que aparezca en el área de trabajo. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Lista**. Tras seleccionar **Configurar**, aparecerá un cuadro de diálogo, donde puede seleccionar las columnas que deben aparecer en la lista del área de trabajo. También puede especificar la etiqueta que se debe usar para la lista del espacio de trabajo.
 - Para agregar un mosaico a un espacio de trabajo, primero debe filtrar la lista de la página para que muestre los datos que debe resumir o a los que quiere tener acceso rápido. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Mosaico**. Tras seleccionar **Configurar**, aparece un cuadro de diálogo donde puede especificar la etiqueta que se debe usar para el mosaico en el espacio de trabajo. También puede especificar si el mosaico debe mostrar un recuento. Una vez que el mosaico se agrega al espacio de trabajo, puede seleccionarlo para abrir la página actual del espacio de trabajo. Puede ver la lista filtrada que está asociada al mosaico.

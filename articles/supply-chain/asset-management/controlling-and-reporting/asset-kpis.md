@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90759931fcbdb1e5acbd62f8a40e5b37b918f31a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b2122cb123e041d2194fa1ef5fd8024ec4c1a2a0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813878"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361099"
 ---
 # <a name="asset-kpis"></a>KPI de activo
 
@@ -82,7 +82,7 @@ En la siguiente tabla, aparecerá una descripción de los campos de la página *
 
 La ilustración siguiente muestra una captura de pantalla de un cálculo de KPI para cuatro activos.
 
-![Captura de pantalla de un cálculo de KPI para cuatro activos](media/11-controlling-and-reporting.png)
+![Captura de pantalla de un cálculo de KPI para cuatro activos.](media/11-controlling-and-reporting.png)
 
 - Puede seleccionar varios activos en **Todos los activos** y hacer clic en el botón **KPI de activo** en la pestaña **General**. A continuación, haga clic en **Aceptar** en el cuadro de diálogo **Calcular los KPI del activo** para calcular los KPI de los activos seleccionados.  
 - Los resultados de un cálculo de KPI pueden o no incluir los [registros de tiempo de inactividad por mantenimiento](../work-orders/maintenance-downtime.md), en función de la configuración y el uso de los códigos del motivo del tiempo de inactividad por mantenimiento. 

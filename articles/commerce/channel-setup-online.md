@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936953"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351185"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar un canal en línea
 
@@ -55,11 +55,11 @@ Para crear y configurar un nuevo canal en línea, siga estos pasos.
 
 La siguiente imagen muestra la creación de un nuevo canal en línea.
 
-![Nuevo canal en línea](media/channel-setup-online-1.png)
+![Nuevo canal en línea.](media/channel-setup-online-1.png)
 
 La siguiente imagen muestra un ejemplo de canal en línea.
 
-![Ejemplo de canal en línea](media/channel-setup-online-2.png)
+![Ejemplo de canal en línea.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Configurar idiomas
 
@@ -75,7 +75,7 @@ Las tareas adicionales requeridas para la configuración del canal en línea inc
 
 La siguiente imagen muestra las opciones de configuración **Modos de entrega**, **Métodos de pago** y **Asignación de grupo de cumplimiento** en la pestaña **Configurar**.
 
-![Acciones adicionales de configuración de canales en línea](media/channel-setup-online-3.png)
+![Acciones adicionales de configuración de canales en línea.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Configurar métodos de pago
 
@@ -90,11 +90,11 @@ Para configurar métodos de pago, siga los pasos siguientes para cada tipo de pa
 
 En la imagen siguiente se muestra un ejemplo de método de pago en efectivo.
 
-![Ejemplo de métodos de pago](media/channel-setup-retail-5.png)
+![Ejemplo de métodos de pago.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Configurar modos de entrega
 
-Para ver los modos de entrega configurados, seleccione **Modos de entrega** en la pestaña **Configurar** del **Panel de acciones**.  
+Para ver los modos de entrega configurados, seleccione **Modos de entrega** en la pestaña **Configurar** del **panel Acciones**.  
 
 Para cambiar o agregar un modo de entrega, siga estos pasos.
 
@@ -104,7 +104,7 @@ Para cambiar o agregar un modo de entrega, siga estos pasos.
 
 En la imagen siguiente se muestra un ejemplo de mode de entrega.
 
-![Configurar modos de entrega](media/channel-setup-retail-7.png)
+![Configurar modos de entrega.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Configurar una asignación de grupo de cumplimiento
 
@@ -118,13 +118,13 @@ Para configurar una asignación de grupo de cumplimiento, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de configuración de asignación de grupo de cumplimiento.
 
-![Configurar la asignación de grupo de cumplimiento](media/channel-setup-retail-9.png)
+![Configurar la asignación de grupo de cumplimiento.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Resumen de canales](channels-overview.md)
+[Información general de canales](channels-overview.md)
 
-[Requisitos previos de configuración de canales](channels-prerequisites.md)
+[Requisitos previos de configuración del canal](channels-prerequisites.md)
 
 [Configurar un canal comercial](channel-setup-retail.md)
 

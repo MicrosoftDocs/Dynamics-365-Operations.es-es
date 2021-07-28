@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053404"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357298"
 ---
 # <a name="integration-with-finance-faq"></a>P+F sobre la integración con Finance
 
@@ -37,7 +37,7 @@ Nº Si edita el usuario de la aplicación Human Resources, se puede producir un 
 | --- | --- | --- | --- |
 | Dynamics 365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![Configuración predeterminada para el usuario de la aplicación Talent](media/DynamicsApplicationUser.png)
+![Configuración predeterminada para el usuario de la aplicación Talent.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>¿Se sincronizan todos los datos o solo algunas entidades de datos?
 
@@ -57,7 +57,7 @@ Las dimensiones financieras no están actualmente en Dataverse y como consecuenc
 
 Para los datos que residen en Finance pero no existen en Human Resources, enlace los dos sistemas usando **Configurar vínculos** en Human Resources.
 
-![Distribuir dimensiones financieras](media/MapFinancialDimensions.png)
+![Distribuir dimensiones financieras.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>A veces cuando importo empleados, van a empleados inactivos en Finance. ¿Por qué?
 
@@ -71,7 +71,7 @@ La sincronización de datos sigue la programación de ejecución. La integració
 
 Con el uso de la "consulta avanzada”, puede filtrar y volver a dar forma a datos de origen antes de pasarlos al destino.
 
-![Consulta avanzada de trabajadores activos](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Consulta avanzada de trabajadores activos.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>¿Puedo especificar qué campos debo enviar a Finance para una entidad específica?
 
@@ -126,21 +126,21 @@ Haga un seguimiento del tiempo del historial de la ejecución del integrador de 
 
 1. Obtenga el índice de la tarea del integrador de datos (en este ejemplo es “9 ").
 
-    ![Captura del índice de la tarea desde el integrador de datos](media/CaptureTaskIndex.png)
+    ![Captura del índice de la tarea desde el integrador de datos.](media/CaptureTaskIndex.png)
 
 2. Realice un seguimiento del tiempo de ejecución del proyecto.
 
-    ![Seguimiento del tiempo de ejecución del proyecto](media/CaptureTimeOfExecution.png)
+    ![Seguimiento del tiempo de ejecución del proyecto.](media/CaptureTimeOfExecution.png)
 
 3. En Finance, identifique el índice. - 1. En este ejemplo, el proyecto con el sufijo "8 "y el tiempo de ejecución de índice "0 "coincide con el tiempo de ejecución del paso 2.
 
-    ![Identificar el índice](media/IdentifyIndex.png)
+    ![Identificar el índice.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Después de integrar Human Resources y Finance, no veo mis datos de Human Resources en Finance. ¿Qué hago?
 
 La integración en Finance es un proceso de dos pasos. En primer lugar, compruebe que los datos de Human Resources estén actualizados y disponibles en Dataverse. Esto es una sincronización prácticamente en tiempo real y se puede comprobar en Power Apps buscando los datos en las tablas de datos.
 
-![Datos en Dataverse](media/DataInCDS.png)
+![Datos en Dataverse.](media/DataInCDS.png)
 
 Si los datos no aparecen como se esperaba en Dataverse, compruebe que la entidad se admita en la integración. Para incluir datos adicionales en Dataverse, se necesitará un cambio en el lado de Microsoft.
 
@@ -165,7 +165,7 @@ Además, asegúrese de que está seleccionando las entidades jurídicas correcta
 
 Actualice las entidades de datos en Finance en **Administración de datos \> Parámetros del marco \> Configuración de entidad \> Actualizar lista de entidades.** Esto debe necesitar un par de minutos para completarse, luego deberá ver las asignaciones. Este error ocurre cuando se crean nuevos proyectos.
 
-![Falta asignación de campos](media/MissingFieldMapping.png)
+![Falta asignación de campos.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

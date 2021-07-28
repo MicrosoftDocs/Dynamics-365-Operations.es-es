@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: c4f663ae36f7d4ea3db9888e618f2fe3bf8c3256
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 073f89b5ae44e20d1d2e854341afaa176f9b6280
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748956"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350944"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migración de tipo de datos de divisa para doble escritura
 
@@ -82,13 +82,13 @@ Hay algunas limitaciones:
 
 Una vez completada la migración, los administradores pueden establecer la precisión de la divisa. Vaya a **Configuración \> Administración** y seleccione **Ajustes del sistema**. Luego, en la pestaña **General**, cambie el valor de la columna **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema**, como se muestra en la siguiente ilustración.
 
-![Configuraciones del sistema para la divisa](media/currency-system-settings.png)
+![Configuraciones del sistema para la divisa.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Administración empresarial: divisas
 
 Si necesita que la precisión de la divisa para una divisa específica difiera de la precisión de la divisa que se usa para fijar el precio, puede cambiarla. Vaya a **Configuraciones \> Administración empresarial**, S¡seleccione **Divisas** y seleccione la divisa que se va a cambiar. Luego configure la columna **Precisión de la divisa** según número de decimales que desee, como se muestra en la siguiente ilustración.
 
-![Configuración de la divisa para un entorno local específico](media/specific-currency.png)
+![Configuración de la divisa para un entorno local específico.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>tablas: columna Divisa
 

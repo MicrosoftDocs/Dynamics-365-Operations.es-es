@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f50bc2828df19062a6bdced6faaa7b4d66c38bed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 52d8b1055517bc544eea6a8e405a8b6d5c0eee0a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792784"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356863"
 ---
 # <a name="distributed-order-management-dom"></a>Gestión de pedidos distribuida (DOM)
 
@@ -34,7 +34,7 @@ DOM optimiza el cumplimiento de pedidos a través de una red compleja de sistema
 
 La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un sistema DOM.
 
-![Ciclo de vida de pedido de ventas en el contexto de DOM](./media/flow.png "Ciclo de vida de pedido de ventas en el contexto de DOM")
+![Ciclo de vida de pedido de ventas en el contexto de DOM.](./media/flow.png "Ciclo de vida de pedido de ventas en el contexto de DOM")
 
 ## <a name="set-up-dom"></a>Configurar DOM
 
@@ -200,11 +200,11 @@ Durante el procesamiento, DOM tendrá en cuenta los pedidos y las líneas de ped
 
 Después de aplicar las reglas, las restricciones de inventario y la optimización, DOM elige la ubicación más cercana a la dirección de entrega del cliente.
 
-![Criterios de pedidos de ventas](./media/ordercriteria.png "Criterios de pedidos de ventas")
+![Criterios de pedidos de ventas.](./media/ordercriteria.png "Criterios de pedidos de ventas")
 
 ## <a name="results-of-dom-runs"></a>Resultados de las ejecuciones de DOM
 
-Si el perfil de cumplimiento se establece en **Aplicar resultado automáticamente**, los resultados de la ejecución se aplicarán automáticamente a las líneas de pedido de ventas, y el plan de cumplimiento se podrá ver por separado. Sin embargo, si el perfil de cumplimiento no está establecido en **Aplicar resultado automáticamente**, los resultados de la ejecución solo se podrán ver desde la vista de plan de cumplimiento. 
+Si el perfil de cumplimiento se establece en **Aplicar resultado automáticamente**, los resultados de la ejecución se aplicarán automáticamente a las líneas de pedido de ventas y el plan de cumplimiento se podrá ver por separado. Sin embargo, si el perfil de cumplimiento no está establecido en **Aplicar resultado automáticamente**, los resultados de la ejecución solo se podrán ver desde la vista de plan de cumplimiento. 
 
 Para ver todos los planes de cumplimiento generados, siga estos pasos.
 

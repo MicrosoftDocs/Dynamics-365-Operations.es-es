@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356839"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dominios en Dynamics 365 Commerce
 
@@ -38,7 +38,7 @@ Al aprovisionar un ambiente de comercio electrónico en [Microsoft Dynamics Life
 
 La siguiente ilustración muestra la pantalla de aprovisionamiento de comercio electrónico LCS con el cuadro **Nombres de host admitidos** resaltado. 
 
-![Pantalla de aprovisionamiento de comercio electrónico de LCS con el cuadro **Nombres de host admitidos** resaltado](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Pantalla de aprovisionamiento de comercio electrónico de LCS con el cuadro **Nombres de host admitidos** resaltado.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Puede crear una solicitud de servicio para agregar dominios adicionales a un ambiente si ya se ha realizado el aprovisionamiento. Para crear una solicitud de servicio en LCS, en su ambiente vaya a **Soporte \> Problemas de soporte** y seleccione **Presentar un incidente**.
 
@@ -56,7 +56,7 @@ Cuando configura por primera vez un sitio en el creador de sitios, el cuadro de 
 
 La siguiente ilustración muestra el cuadro de diálogo **Configurar su sitio** para un sitio llamado "predeterminado" cuando accede al sitio por primera vez en el creador de sitios.
 
-![Cuadro de diálogo **Configurar su sitio**](./media/Domains_SetupyoursiteScreen.png)
+![Cuadro de diálogo **Configurar su sitio**.](./media/Domains_SetupyoursiteScreen.png)
 
 El cuadro de diálogo **Seleccionar un dominio** le permite asociar uno de los nombres de host admitidos proporcionados para su sitio en LCS a su sitio en el creador de sitios.
 
@@ -79,11 +79,11 @@ Una vez que su sitio está configurado con una ruta de acceso, todas las direcci
 
 La siguiente ilustración muestra el cuadro de diálogo **Dirección URL nueva** en el creador de sitios con una ruta de la dirección URL de ejemplo resaltada. 
 
-![Cuadro de diálogo **Nueva dirección URL** en el creador de sitios](./media/Domains_PageSetup2a.png)
+![Cuadro de diálogo **Nueva dirección URL** en el creador de sitios.](./media/Domains_PageSetup2a.png)
 
 La siguiente ilustración muestra la página **Direcciones URL** en el creador de sitios con una ruta de la dirección URL de ejemplo resaltada en la lista.
 
-![Opción Ejecutar flujo de usuario en flujo de directiva](./media/Domains_URLsInSiteBuilder2a.png)
+![Opción Ejecutar flujo de usuario en flujo de directiva.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Dominios en el creador de sitios
 

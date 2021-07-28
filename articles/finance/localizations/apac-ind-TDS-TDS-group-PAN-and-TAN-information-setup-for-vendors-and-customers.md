@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023569"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358275"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Configuración de la información de grupo de TDS, PAN y TAN para proveedores y clientes
 
@@ -31,7 +31,7 @@ Este tema explica cómo configurar información sobre el grupo de impuestos dedu
 
 1. Vaya a **Proveedores \> Proveedores \> Todos los proveedores** o **Clientes \> Clientes \> Todos los clientes**.
 
-    [![Página de todos los proveedores](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![Página de todos los proveedores.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. En el panel de acciones, seleccione **Nuevo** para crear un proveedor o cliente e introduzca los detalles requeridos. Alternativamente, seleccione un proveedor o cliente existente.
 3. En la ficha desplegable **Factura y entrega**, en la sección **Retención de impuestos**, establezca la opción **Calcular retención de impuestos** a **Sí** para calcular la retención de impuestos, TDS o impuestos cobrados en el origen (TCS) para el proveedor o cliente.
@@ -60,7 +60,7 @@ Este tema explica cómo configurar información sobre el grupo de impuestos dedu
     - Autoridad local
     - Otros
 
-    [![Ficha desplegable de información de impuestos](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![Ficha desplegable de información de impuestos.](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. En el Panel de acciones, en la pestaña **Proveedor**, en el grupo **Registro**, seleccione **Id. de registro** para abrir la página **Administrar direcciones**.
 10. En la página **Administrar direcciones**, en la ficha desplegable **Información de impuestos**, seleccione **Agregar** o **Editar** para abrir la página **Administrar información de impuestos**, donde puede mantener la entrada de registro de impuestos.

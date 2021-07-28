@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: beacff21c6468e9c4b387a654e95f25572c0ede9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348377"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidad sobre excepciones de material
 
@@ -37,7 +37,7 @@ Una línea inédita de LM o una línea de fórmula requiere atención si la fech
 
 En la siguiente ilustración, la barra azul representa un trabajo de producción que está programado en un recurso. El trabajo está programado para iniciarse el 1 de mayo de 2017 (01/05/2017). Esta fecha es la fecha de materia prima. Es decir el material que se asigna al trabajo en la lista de materiales y las líneas de fórmula deben estar listos en esta fecha. La otra fecha en la ilustración, el 6 de mayo de 2017 (06/05/2017), representa la fecha del espacio de trabajo. En este ejemplo, la fecha de la materia prima es anterior a la fecha del área de trabajo. Por lo tanto, la fecha en la que el consumo de materias primas debería iniciar ha pasado, y la LM y las líneas de fórmula cumplen los criterios para requerir asistencia.
 
-![Ejemplo de un trabajo de producción en el que la fecha de la materia prima es anterior a la fecha del área de trabajo](./media/improved-visibility.png)
+![Ejemplo de un trabajo de producción en el que la fecha de la materia prima es anterior a la fecha del área de trabajo.](./media/improved-visibility.png)
 
 ## <a name="unreleased-material-lines-needing-attention"></a>Líneas de material sin liberar que requieren atención
 

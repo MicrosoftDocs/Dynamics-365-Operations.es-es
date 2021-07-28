@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743856"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351851"
 ---
 # <a name="backup-storage-of-er-templates"></a>Almacenamiento de copia de seguridad de las plantillas de ER
 
@@ -65,19 +65,19 @@ Para configurar el parámetro **Ejecutar automáticamente el procedimiento de re
 > [!NOTE]
 > Este parámetro se define como usuario de aplicación y específico de la empresa registrada.
 
-![Página de configuraciones de ER](./media/GER-BackupTemplates-1.png)
+![Página de configuraciones de ER.](./media/GER-BackupTemplates-1.png)
 
 La ilustración siguiente muestra un ejemplo del mensaje que se genera cuando el parámetro **Ejecutar automáticamente el procedimiento de restablecer las plantillas rotas por lotes** se establece en **Activado**.
 
-![Página del diario de pagos a proveedores](./media/GER-BackupTemplates-2.png)
+![Página del diario de pagos a proveedores.](./media/GER-BackupTemplates-2.png)
 
 La ilustración siguiente muestra el proceso por lotes **Restaurar plantillas rotas desde la copia de seguridad interna de la base de datos** en la página **trabajo por lotes**.
 
-![Página de trabajos por lotes](./media/GER-BackupTemplates-3.png)
+![Página de trabajos por lotes.](./media/GER-BackupTemplates-3.png)
 
 El registro de la ejecución del proceso por lotes **Restaurar plantillas rotas desde la copia de seguridad interna de la base de datos** completado incluye información acerca de las plantillas que se han restablecido desde la ubicación de almacenamiento de copia de seguridad a la ubicación de almacenamiento principal.
 
-![Página del historial de trabajos por lotes](./media/GER-BackupTemplates-4.png)
+![Página del historial de trabajos por lotes.](./media/GER-BackupTemplates-4.png)
 
 De forma predeterminada, el proceso de crear automáticamente las copias de seguridad de las plantillas que residen en configuraciones de formato de ER está activado. Para detener el crear copias de seguridad de plantillas, establezca la opción **Detener la creación de copias de seguridad de plantillas** en **Sí** en la pestaña **Archivos adjuntos** de la página **Parámetros de informes electrónicos**. Puede abrir esta página desde el espacio de trabajo **Informes electrónicos**.
 
@@ -85,7 +85,7 @@ Si establece la opción **Detener la creación de copias de seguridad de plantil
 
 Si ha actualizado el entorno a Finance and Operations, versión 10.0.5 (octubre de 2019), y desea migrar a un nuevo entorno que incluye las configuraciones del formato de ER que pueden ejecutarse, seleccione **Rellenar el almacenamiento de copia de seguridad** en la página **Parámetros de informes electrónicos** antes de que se produzca la migración. Este botón inicia el proceso de crear las copias de seguridad de todas las plantillas disponibles, para que se puedan almacenar en la ubicación de almacenamiento de copia de seguridad de ER para plantillas.
 
-![Página de parámetros de informes electrónicos](./media/GER-BackupTemplates-5.png)
+![Página de parámetros de informes electrónicos.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Recuperación manual
 

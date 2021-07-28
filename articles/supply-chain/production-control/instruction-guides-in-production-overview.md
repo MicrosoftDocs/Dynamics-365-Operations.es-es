@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 61943
+ms.custom:
+- "61943"
+- intro-internal
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 15595c46f9d6ff91f6fd618859e9f059ae88bd78
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d172e3dfcb9ca70e1047a174040e7940bdd25296
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910098"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354021"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Proporcionar guías de realidad mixta para trabajadores en producción
 
@@ -57,7 +59,7 @@ Las siguientes subsecciones describen algunos escenarios seleccionados en los qu
 
 ### <a name="assembly"></a>Ensamblado
 
-![Utilizar guías en tareas de montaje](media/instruction-guides-hero-assembly.png "Utilizar guías en tareas de servicio")
+![Utilizar guías en tareas de montaje.](media/instruction-guides-hero-assembly.png "Utilizar guías en tareas de servicio")
 
 Las instrucciones en las operaciones de montaje muestran a los trabajadores las herramientas y piezas que necesitan y cómo utilizarlas en situaciones de trabajo reales.
 
@@ -65,7 +67,7 @@ Los gerentes de producción pueden crear y asignar guías, por ejemplo, para [ru
 
 ### <a name="service"></a>Servicio
 
-![Utilizar guías en tareas de servicio](media/instruction-guides-hero-service.png "Utilizar guías en tareas de servicio")
+![Utilizar guías en tareas de servicio.](media/instruction-guides-hero-service.png "Utilizar guías en tareas de servicio")
 
 Equipe a los técnicos con instrucciones guiadas en el lugar de trabajo, eliminando la necesidad de programar visitas adicionales.
 
@@ -73,7 +75,7 @@ Los gerentes de servicio pueden asignar guías, por ejemplo, a [productos](../..
 
 ### <a name="quality"></a>Calidad
 
-![Utilice guías en tareas de aseguramiento de la calidad](media/instruction-guides-hero-quality.png "Utilice guías en tareas de aseguramiento de la calidad")
+![Utilice guías en tareas de aseguramiento de la calidad.](media/instruction-guides-hero-quality.png "Utilice guías en tareas de aseguramiento de la calidad")
 
 Implemente nuevos procesos y garantice una mayor coherencia al convertir el conocimiento de los empleados en una herramienta repetible.
 
@@ -81,13 +83,13 @@ Los gerentes de control de calidad pueden asignar guías, por ejemplo, a [produc
 
 ### <a name="certifications"></a>Certificaciones
 
-![Utilice guías para tareas relacionadas con la certificación](media/instruction-guides-hero-certification.png "Utilice guías para tareas relacionadas con la certificación")
+![Utilice guías para tareas relacionadas con la certificación.](media/instruction-guides-hero-certification.png "Utilice guías para tareas relacionadas con la certificación")
 
 Asegúrese de que cada empleado cumpla con altos estándares identificando rápidamente quién necesita ayuda y dónde.
 
 ### <a name="safety"></a>Seguridad
 
-![Utilice guías en las instrucciones de seguridad laboral](media/instruction-guides-hero-safety.png "Utilice guías en las instrucciones de seguridad laboral")
+![Utilice guías en las instrucciones de seguridad laboral.](media/instruction-guides-hero-safety.png "Utilice guías en las instrucciones de seguridad laboral")
 
 Proporcione instrucciones que recorran los procedimientos peligrosos virtualmente antes de intentarlo en el entorno físico. Con un enfoque de realidad mixta, los trabajadores pueden experimentar procedimientos peligrosos de forma virtual.
 
@@ -119,7 +121,7 @@ Para que la función esté disponible en su sistema, debe habilitar sus claves d
 
 Para configurar cómo aparecen las guías en el taller, vaya a **Realidad mixta \> Dynamics 365 Guides \> Configurar la integración de guías**.
 
-![Configurar la integración de guías para la fabricación](media/instruction-guides-configure-integration.png "Configurar la integración de guías para la fabricación")
+![Configurar la integración de guías para la fabricación.](media/instruction-guides-configure-integration.png "Configurar la integración de guías para la fabricación")
 
 Establezca los campos siguientes:
 
@@ -136,7 +138,7 @@ Establezca los campos siguientes:
 
 Utilice la página **Todas las guías** para ver la lista de todas las Guías disponibles en su organización y todas las asignaciones a sus procesos y recursos de producción. Para abrirlo, vaya a **Realidad mixta \> Guías \> Todas las guías**. La lista en la parte superior muestra todas las guías disponibles y puede usar el campo aquí para filtrar la lista. La lista en la parte inferior muestra todas las asignaciones de la Guía y proporciona una barra de herramientas para administrarlas.
 
-![Administrar guías](media/instruction-guides-allguides.png "Administrar guías")
+![Administrar guías.](media/instruction-guides-allguides.png "Administrar guías")
 
 Las siguientes secciones describen los tipos de objetos a los que puede asignar guías. Cada guía asignada proporciona instrucciones que se adjuntan automáticamente a los respectivos trabajos de producción y estarán disponibles en el taller.
 
@@ -157,7 +159,7 @@ Para agregar una guía a un recurso:
 1. Amplíe la ficha desplegable **Guías asociadas**.
 1. Seleccione **Añadir** desde la barra de herramientas **Guías asociadas**. Se agrega una nueva línea a la cuadrícula.
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar. Si tiene una gran cantidad de guías, puede filtrar la lista para encontrar la que está buscando.
-    ![Administrar guías](media/instruction-guides-allguides.png "Administrar guías")
+    ![Administrar guías.](media/instruction-guides-allguides.png "Administrar guías")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Asociar una guía a un grupo de recursos
 
@@ -178,7 +180,7 @@ Para agregar una guía a un grupo de recursos:
 1. Amplíe la ficha desplegable **Guías asociadas**.
 1. Seleccione **Añadir** desde la barra de herramientas **Guías asociadas**. Se agrega una nueva línea a la cuadrícula.
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar. Si tiene una gran cantidad de guías, puede filtrar la lista para encontrar la que está buscando.
-    ![Agregar una guía a un grupo de recursos](media/instruction-guides-resourcegroup.png "Agregar una guía a un grupo de recursos")
+    ![Agregar una guía a un grupo de recursos.](media/instruction-guides-resourcegroup.png "Agregar una guía a un grupo de recursos")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Asociar una guía a un producto liberado
 
@@ -198,7 +200,7 @@ Para agregar una guía a un producto liberado:
 1. La página **Guías asociadas** se abre para el producto seleccionado.
 1. En el Panel de acciones, seleccione **Agregar** para agregar una nueva línea a la cuadrícula. 
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar.
-    ![Agregar una guía a un producto liberado](media/instruction-guides-ReleasedProduct-AddGuides.png "Agregar una guía a un producto liberado")
+    ![Agregar una guía a un producto liberado.](media/instruction-guides-ReleasedProduct-AddGuides.png "Agregar una guía a un producto liberado")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Asociar una guía a una fórmula
 
@@ -223,7 +225,7 @@ Para agregar una guía a una fórmula:
 1. Amplíe la ficha desplegable **Guías asociadas**.
 1. Seleccione **Añadir** desde la barra de herramientas **Guías asociadas**. Se agrega una nueva línea a la cuadrícula.
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar.
-    ![Agregar una guía a una fórmula](media/instruction-guides-Formula.png "Agregar una guía a una fórmula")
+    ![Agregar una guía a una fórmula.](media/instruction-guides-Formula.png "Agregar una guía a una fórmula")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Asociar una guía a una versión de una fórmula
 
@@ -248,11 +250,11 @@ Para agregar una guía a una versión de fórmula:
 1. Abra la pestaña **Encabezamiento** encima de la pestaña desplegable superior.
 1. Sobre la ficha desplegable **Versiones de fórmulas**, seleccione la versión a la que desea asignar una guía.
 1. Sobre la barra de herramientas **Versiones de fórmulas**, seleccione **Guías asociadas**.
-    ![Abra las guías asociadas con una versión de fórmula seleccionada](media/instruction-guides-FormulaVersion.png "Abra las guías asociadas con una versión de fórmula seleccionada")
+    ![Abra las guías asociadas con una versión de fórmula seleccionada.](media/instruction-guides-FormulaVersion.png "Abra las guías asociadas con una versión de fórmula seleccionada")
 1. La página **Guías asociadas** se abre para la versión de fórmula.
 1. En el Panel de acciones, seleccione **Agregar** para agregar una nueva línea a la cuadrícula. 
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar.
-    ![Agregar una guía a una versión de fórmula](media/instruction-guides-FormulaVersionAddGuide.png "Agregar una guía a una versión de fórmula")
+    ![Agregar una guía a una versión de fórmula.](media/instruction-guides-FormulaVersionAddGuide.png "Agregar una guía a una versión de fórmula")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Asociar una guía a una lista de materiales
 
@@ -275,7 +277,7 @@ Para agregar una guía a una lista de materiales:
 1. Amplíe la ficha desplegable **Guías asociadas**.
 1. Seleccione **Añadir** desde la barra de herramientas **Guías asociadas**. Se agrega una nueva línea a la cuadrícula.
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar.
-    ![Agregar una guía a una LMAT](media/instruction-guides-BOM.png "Agregar una guía a una LMAT")
+    ![Agregar una guía a una LMAT.](media/instruction-guides-BOM.png "Agregar una guía a una LMAT")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Asociar una guía a una versión de lista de materiales
 
@@ -297,11 +299,11 @@ Para agregar una guía a una versión de lista de materiales:
 1. Abra la pestaña **Encabezamiento** encima de la pestaña desplegable superior.
 1. Sobre la ficha desplegable **Versiones de LMAT**, seleccione la versión a la que desea asignar una guía.
 1. Sobre la barra de herramientas **Versiones de LMAT**, seleccione **Guías asociadas**.
-    ![Abra las guías asociadas con una versión de LMAT seleccionada](media/instruction-guides-BOMVersion.png "Abra las guías asociadas con una versión de LMAT seleccionada")
+    ![Abra las guías asociadas con una versión de LMAT seleccionada.](media/instruction-guides-BOMVersion.png "Abra las guías asociadas con una versión de LMAT seleccionada")
 1. La página **Guías asociadas** se abre para la versión de LMAT.
 1. En el Panel de acciones, seleccione **Agregar** para agregar una nueva línea a la cuadrícula.
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar.
-    ![Agregar una guía a una versión de LMAT](media/instruction-guides-BOMVersionAddGuide.png "Agregar una guía a una versión de LMAT")
+    ![Agregar una guía a una versión de LMAT.](media/instruction-guides-BOMVersionAddGuide.png "Agregar una guía a una versión de LMAT")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Asociar una guía a una ruta
 
@@ -322,7 +324,7 @@ Para agregar una guía a una ruta:
 1. Amplíe la ficha desplegable **Guías asociadas**.
 1. Seleccione **Añadir** desde la barra de herramientas **Guías asociadas**. Se agrega una nueva línea a la cuadrícula.
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar.
-    ![Agregar una guía a una ruta](media/instruction-guides-Route.png "Agregar una guía a una ruta")
+    ![Agregar una guía a una ruta.](media/instruction-guides-Route.png "Agregar una guía a una ruta")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Asociar una guía a una versión de una ruta
 
@@ -340,11 +342,11 @@ Para agregar una guía a una versión de ruta:
 1. Abra la ruta a la que desea asignar una guía.
 1. Sobre la ficha desplegable **Versiones**, seleccione la versión a la que desea asignar una guía.
 1. Sobre la barra de herramientas **Versiones**, seleccione **Guías asociadas**.
-    ![Abra las guías asociadas con una versión de ruta seleccionada](media/instruction-guides-RouteVersion.png "Abra las guías asociadas con una versión de ruta seleccionada")
+    ![Abra las guías asociadas con una versión de ruta seleccionada.](media/instruction-guides-RouteVersion.png "Abra las guías asociadas con una versión de ruta seleccionada")
 1. La página **Guías asociadas** se abre para la versión de LMAT.
 1. En el Panel de acciones, seleccione **Agregar** para agregar una nueva línea a la cuadrícula.
 1. Para la nueva línea, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar.
-    ![Agregar una guía a una versión de ruta](media/instruction-guides-RouteVersionAddGuide.png "Agregar una guía a una versión de ruta")
+    ![Agregar una guía a una versión de ruta.](media/instruction-guides-RouteVersionAddGuide.png "Agregar una guía a una versión de ruta")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Asociar una guía a una relación de operación de ruta
 
@@ -367,8 +369,8 @@ Para agregar una guía a una relación de operación de ruta:
 1. Se abre la página **Detalles de ruta** para la ruta seleccionada.
 1. En la cuadrícula superior, seleccione la operación para la que desea proporcionar orientación.
 1. En la cuadrícula inferior, seleccione una relación específica (o la relación genérica **Todos**).
-    ![Seleccione una operación y luego una relación](media/instruction-guides-RouteOperationRelation.png "Seleccione una operación y luego una relación")
-1. Encima de la cuadrícula inferior, abra la pestaña **Guías asociadas**. ![ La pestaña Guías asociadas](media/instruction-guides-RouteOperationRelation-AddGuide.png "La pestaña Guías asociadas")
+    ![Seleccione una operación y luego una relación.](media/instruction-guides-RouteOperationRelation.png "Seleccione una operación y luego una relación")
+1. Encima de la cuadrícula inferior, abra la pestaña **Guías asociadas**. ![ La pestaña Guías asociadas.](media/instruction-guides-RouteOperationRelation-AddGuide.png "La pestaña Guías asociadas")
 1. Seleccione **Añadir** en la barra de herramientas en la parte superior de la cuadrícula inferior para agregar una nueva línea a la cuadrícula.
 1. Para la nueva fila, use la lista desplegable en la columna **Nombre** para elegir la Guía que desea asignar. En el resto de la fila, seleccione la casilla de verificación para cada contexto donde la Guía seleccionada debería estar disponible.
 
@@ -379,11 +381,11 @@ Para agregar una guía a una relación de operación de ruta:
 
 Cuando un trabajador abre una lista de trabajos en la interfaz de ejecución de la planta, Supply Chain Management encuentra las guías relevantes para los trabajos que se muestran. Utilice el botón **Guías** para ver las guías relevantes.
 
-![Botón Guías en la interfaz de ejecución de la planta](media/instruction-guides-Shopfloor1.png "Botón Guías en la interfaz de ejecución de la planta")
+![Botón Guías en la interfaz de ejecución de la planta.](media/instruction-guides-Shopfloor1.png "Botón Guías en la interfaz de ejecución de la planta")
 
 Entonces coloque un HoloLens y acceda a la guía respectiva echando un vistazo al código QR y activando la Guía respectiva.
 
-![Código QR para acceder a las guías mediante un HoloLens](media/instruction-guides-Shopfloor2.png "Código QR para acceder a las guías mediante un HoloLens")
+![Código QR para acceder a las guías mediante HoloLens.](media/instruction-guides-Shopfloor2.png "Código QR para acceder a las guías mediante un HoloLens")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>Resolver la lógica para seleccionar guías
 
@@ -406,7 +408,7 @@ Cuando Supply Chain Management genera los trabajos para el piso de producción, 
 - Si adjunta una versión de ruta a una orden de producción, las guías adjuntas a esta versión, y también las guías adjuntas a la ruta principal de esa versión, se mostrarán en el trabajo.
 - Si define varias relaciones de operación de ruta que incluyen la relación *Todos* y asignar Guías a esos, solo se mostrarán las Guías de la relación más específica para el trabajo.  
 
-![Diagrama de resolución de las Guías relevantes](media/instruction-guides-Resolve.png "Diagrama de resolución de las Guías relevantes")
+![Diagrama de resolución de las Guías relevantes.](media/instruction-guides-Resolve.png "Diagrama de resolución de las Guías relevantes")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897777"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356712"
 ---
 # <a name="one-voucher"></a>Un asiento
 
@@ -33,18 +33,18 @@ La funcionalidad existente para los diarios financieros (diario, diario de activ
 
 - Configure el nombre de diario (**contabilidad general** \> **Configuración del diario** \> **Nombres de diario**) para que el campo **Nuevo asiento** esté establecido en **Solo un número de asiento**. Cada línea que agrega al diario ahora se incluye en el mismo asiento. Por lo tanto, el asiento se puede introducir como asiento multilínea, como una cuenta/cuenta de contrapartida en la misma línea o como una combinación.
 
-    [![Una línea](./media/same-line.png)](./media/same-line.png)
+    [![Una línea.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > La definición de Un asiento **no** incluye los casos donde los nombres de diario se configuran como **Solo un número de asiento** pero el usuario escribe un asiento que incluye solo tipos de cuenta contable. En este tema, Un asiento significa que hay un único asiento que contiene más de un proveedor, cliente, banco, activo fijo o proyecto.
 
 - Especifique un asiento multilínea donde no haya cuenta de contrapartida.
 
-    [![Asiento multilínea](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Asiento multilínea.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Introduzca un asiento en el que tanto la cuenta como la cuenta de contrapartida contengan un tipo de cuenta de subdiario contable, como **proveedor**/**proveedor**, **cliente**/**cliente**, **proveedor**/**cliente** o **banco**/**banco**.
 
-    [![Asiento de subdiario](./media/subledger.png)](./media/subledger.png)
+    [![Asiento de subdiario.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Problemas con un comprobante
 
@@ -52,11 +52,11 @@ La funcionalidad de asiento único produce problemas durante el acuerdo, el cál
 
 Por ejemplo, registra el siguiente asiento múltiple.
 
-[![Ejemplo de un asiento multilínea](./media/example.png)](./media/example.png)
+[![Ejemplo de un asiento multilínea.](./media/example.png)](./media/example.png)
 
 A continuación, genere el informe **Gastos por proveedor** en el espacio de trabajo **Información financiera**. En este informe, los saldos de cuenta de gastos se agrupan por grupo de proveedores y el proveedor. Cuando se genera el informe, el sistema no puede determinar qué grupos de proveedores/proveedores incurrieron en el gasto de 250.00. Dado que faltan detalles de la transacción, el sistema presupone que el primer proveedor que se encuentra en el asiento incurrió la totalidad de gastos de 250,00. Por lo tanto, el gasto de 250,00, que se incluye en el saldo de la cuenta principal 600120, se muestra en ese grupo de proveedores/proveedor. Sin embargo, es muy probable que el primer proveedor del asiento no sea el proveedor correcto. Por lo tanto, el informe es probablemente incorrecto.
 
-[![Informe de gastos por proveedor](./media/expenses.png)](./media/expenses.png)
+[![Informe de gastos por proveedor.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>El futuro de un asiento
 

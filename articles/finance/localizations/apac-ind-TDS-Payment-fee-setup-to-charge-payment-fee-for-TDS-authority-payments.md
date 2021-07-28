@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b52331bb1c7a1bc2c764008112f3df9cc0385995
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9213827ea1ad342beb7ac2fe586606651cfdcfa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023583"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358443"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Configurar un cuotas de pago para pagos de la autoridad de TDS
 
@@ -31,7 +31,7 @@ Este tema explica cómo configurar las cuotas de pago que se cobran por los pago
 
 1. Vaya a **Proveedores \> Configuración de pagos \> Cuota de pago**.
 
-    [![Página de cuota de pago](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
+    [![Página de cuota de pago.](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
 
 2. Seleccione **Nuevo** para crear una cuota de pago y especificar los detalles necesarios.
 3. En el campo **Tipo de cuota**, seleccione el tipo de cuota de pago:
@@ -46,7 +46,7 @@ Este tema explica cómo configurar las cuotas de pago que se cobran por los pago
 5. Especifique los otros detalles.
 6. En el panel de acciones, seleccione **Configuración de cuota de pago** para abrir la página **Configuración de cuota de pago**, donde puede configurar cuotas de pago para varias combinaciones de bancos, métodos de pago, especificaciones de pago, divisas e intervalos de fechas.
 
-    [![Página de configuración de cuota de pago](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
+    [![Página de configuración de cuota de pago.](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
 7. En la pestaña **Información general**, en el campo **Agrupaciones**, especifique para qué bancos está configurando la cuota de pago:
 
@@ -64,7 +64,7 @@ Este tema explica cómo configurar las cuotas de pago que se cobran por los pago
 15. En el campo **Divisa de cuota**, seleccione el código de divisa para la cuota.
 16. Seleccione la pestaña **General** para ver o modificar los detalles de la cuenta bancaria seleccionada.
 
-    [![Pestaña General](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
+    [![Pestaña General.](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
 16. En el campo **Mínimo**, introduzca el importe mínimo de transacción que activa la cuota.
 17. En el campo **Máximo**, introduzca el importe máximo de transacción que activa la cuota.
@@ -74,7 +74,7 @@ Este tema explica cómo configurar las cuotas de pago que se cobran por los pago
 21. En el campo **Grupo de impuestos de artículos**, seleccione el grupo de impuestos de artíuclos que se utilizará para calcular el impuesto de artículos para el importe de la cuota.
 22. Seleccione la pestaña **Intervalo**. 
 
-    [![Pestaña de intervalo](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
+    [![Pestaña de intervalo.](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
 23. En el campo **Días**, especifique el número de días entre la fecha de registro (fecha de descuento) del pago y la fecha de vencimiento del pagaré.
 24. En el campo **Porcentaje/Importe**, seleccione si la especificación es un porcentaje o una cantidad fija.

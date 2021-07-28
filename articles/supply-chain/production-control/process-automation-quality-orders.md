@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115216"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353997"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Invocar flujos de automatización de procesos para crear pedidos de calidad
 
@@ -30,7 +30,7 @@ Puede descargar la plantilla de la solución de automatización [aquí](https://
 
 Para obtener una descripción general de esta función y sus capacidades, vea el siguiente video: [Utilice RPA para crear pedidos de calidad en Dynamics 365 Supply Chain Management](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![Opciones de automatización con RPA](media/rpa-automation-options.png "Opciones de automatización con RPA")
+![Opciones de automatización con RPA.](media/rpa-automation-options.png "Opciones de automatización con RPA")
 
 La plantilla de solución Power Automate incluye un flujo de automatización en la nube y un flujo de automatización de escritorio que automatizan la creación de pedidos de calidad en Supply Chain Management.
 
@@ -38,7 +38,7 @@ La automatización se puede iniciar en respuesta a muchos eventos y señales, in
 
 Los parámetros de la solución se incluyen para configurar la automatización para un caso de uso específico en una instalación de producción.
 
-![Crear pedido de calidad](media/rpa-create-quality-roder.png "Crear pedido de calidad")
+![Crear pedido de calidad.](media/rpa-create-quality-roder.png "Crear pedido de calidad")
 
 Para obtener una guía completa paso a paso sobre cómo descargar, instalar y utilizar la solución de muestra para automatizar la creación de pedidos de calidad, consulte [Automatice la creación de pedidos de calidad en Dynamics 365 Supply Chain Management con automatización robótica de procesos utilizando Power Automate Desktop](/power-automate/desktop-flows/dynamics365-scm-rpa).
 
