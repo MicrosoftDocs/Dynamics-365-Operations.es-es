@@ -2,7 +2,7 @@
 title: Configurar parámetros de Human Resources
 description: Este tema explica cómo configurar parámetros específicos de la empresa en Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052418"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356545"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurar parámetros de Human Resources
 
@@ -30,7 +30,7 @@ La configuración de algunos parámetros de Recursos Humanos se comparten entre 
 
 Se usan dos páginas para definir los parámetros de recursos humanos. Para los parámetros que se comparten entre las empresas, se usa la página **Parámetros compartidos de recursos humanos**. Para los parámetros que son específicos de la empresa (es decir, los ajustes se aplican a una sola empresa), se usa la página **Parámetros de recursos humanos**.
 
-![Ir a Parámetros de recursos humanos](./media/hr-employee-self-service-human-resources-parameters.png)
+![Ir a Parámetros de recursos humanos.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 En la página **Parámetros de recursos humanos**, los ajustes se dividen en seis pestañas:
 
@@ -51,14 +51,15 @@ Cada pestaña contiene información que pertenece a una sola empresa.
 
 Los ajustes en la pestaña **General** definen el aspecto de la información acerca de ausencia, lesión y enfermedad, y los nuevos trabajadores. Los ajustes de esta pestaña también definen algunas entradas predeterminadas que aparecen mientras trabaja. Específicamente, esta pestaña le permite:
 
-- Seleccionar un color para aplicarlo a transacciones de ausencia abiertas
-- Especificar la hoja de estilo que se utilizará para los informes
-- Habilitar la integración entre los cursos de formación y el registro de ausencias
+- Seleccionar un color para aplicarlo a transacciones de ausencia abiertas.
+- Especificar la hoja de estilo que se utilizará para los informes.
+- Habilitar la integración entre los cursos de formación y el registro de ausencias.
 - Seleccionar el código de ausencia que se utiliza para controlar esta integración
 - Indicar cuánto tiempo se deben conservar los incidentes de casos de lesiones y enfermedades
 - Especificar el número de identificación predeterminado que se muestra cuando se contrata a un nuevo trabajador.
+- Especifique la fecha que se utiliza para calcular los años de servicio. 
 
-![Pestaña General](./media/hr-setup-parameters-general.png)
+![Pestaña General.](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>Contratación
 
@@ -76,7 +77,7 @@ En Human Resources, puede utilizar la pesetaña **Compensación** para elegir re
 
 Para obtener más información acerca de los panes de compensación, consulte [Información general de planes de compensación](hr-compensation-overview.md).
 
-![Pestaña Compensación](./media/hr-setup-parameters-compensation.png)
+![Pestaña Compensación.](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>Secuencias numéricas
 
@@ -96,13 +97,13 @@ Para obtener más información, consulte [Información general de secuencias num
 > [!NOTE]
 > El número de horas que se trabaja no puede superar 1250, y la duración del empleo no puede superar 12 meses. Estos valores máximos están de acuerdo con la legislación federal en los Estados Unidos.
 
-![Ficha Secuencias numéricas](./media/hr-setup-parameters-number-sequences.png)
+![Ficha Secuencias numéricas.](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 En la pestaña FMLA, establece los requisitos de elegibilidad de FMLA y las horas de derecho de FMLA. Para más información, consulte [Configurar parámetros de bajas y ausencias](hr-leave-and-absence-parameters.md).
 
-![Ficha FMLA](./media/hr-setup-parameters-fmla.png)
+![Ficha FMLA.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>Autoservicio para empleados
 
@@ -115,7 +116,7 @@ Los ajustes en la pestaña **Autoservicio para los empleados** afectan la aparie
 
 Para obtener más información sobre cómo configurar el autoservicio para empleados, consulte [Descripción general del autoservicio para empleados y gerentes ](hr-employee-manager-self-service-overview.md).
 
-![Pestaña Autoservicio para empleados](./media/hr-setup-parameters-employee-self-service.png)
+![Pestaña Autoservicio para empleados.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Autoservicio para directores
 
@@ -129,13 +130,13 @@ Los ajustes en la pestaña **Autoservicio para gerentes** afectan lo que ven los
 
 Para obtener más información sobre cómo configurar el autoservicio para gerenets, consulte [Descripción general del autoservicio para empleados y gerentes](hr-employee-manager-self-service-overview.md).
 
-![Pestaña Autoservicio para directores](./media/hr-setup-parameters-manager-self-service.png)
+![Pestaña Autoservicio para directores.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Administración de prestaciones
 
 En la pestaña Administración de beneficios, puede configurar las opciones de correo electrónico para la administración de Beneficios. Para obtener más información sobre la configuración y el uso de la administración de beneficios, consulte [Resumen de gestión de beneficios](hr-benefits-management-overview.md).
 
-![Pestaña Administración de prestaciones](./media/hr-setup-parameters-benefits-management.png)
+![Pestaña Administración de prestaciones.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>Bajas y ausencias
 
@@ -145,7 +146,7 @@ Para obtener más información acerca de la configuración y el uso de Bajas y a
 
 Sobre la pestaña **Métodos de pago**, puede seleccionar los métodos de pago admitidos por su organización. Para obtener más información acerca de la configuración de la compensación, consulte [Información general de planes de compensación](hr-compensation-overview.md).
 
-![Ficha Métodos de pago](./media/hr-setup-parameters-payment-methods.png)
+![Ficha Métodos de pago.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

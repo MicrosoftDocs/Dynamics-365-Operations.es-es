@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893587"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358678"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de informes electrónicos dependientes de acciones
 
@@ -69,11 +69,11 @@ Por ejemplo, puede utilizar el formato de informes electrónicos **Factura de se
 
 La siguiente ilustración muestra cómo puede lograr esto configurando destinos de informes electrónicos como el conjunto de registros de destino individuales cuando cada registro está configurado para una acción de usuario individual:
 
-![Página de destino de informes electrónicos que tiene configuraciones de destino dependientes de acciones para un formato de informes electrónicos cuando cada registro de destino está configurado para una sola acción de usuario](./media/er-destination-action-dependent-01.png)
+![Página de destino de informes electrónicos que tiene configuraciones de destino dependientes de acciones para un formato de informes electrónicos cuando cada registro de destino está configurado para una sola acción de usuario.](./media/er-destination-action-dependent-01.png)
 
 La siguiente ilustración muestra cómo puede lograr lo mismo de forma alternativa configurando destinos de informes electrónicos como el conjunto de registros de destino individuales cuando cada registro está configurado para un destino individual:
 
-![Página de destino de informes electrónicos que tiene configuraciones de destino dependientes de acciones para un formato de informes electrónicos cuando cada registro de destino está configurado para un solo destino](./media/er-destination-action-dependent-01a.png)
+![Página de destino de informes electrónicos que tiene configuraciones de destino dependientes de acciones para un formato de informes electrónicos cuando cada registro de destino está configurado para un solo destino.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Si se proporciona un código de acción para el formato de informes electrónicos en ejecución, pero no se han configurado destinos para ese código de acción, se aplica el comportamiento de destino [predeterminado](electronic-reporting-destinations.md#default-behavior).
@@ -84,7 +84,7 @@ Cuando se ejecuta un formato de informes electrónicos, si las acciones del usua
 
 La siguiente ilustración muestra un ejemplo del cuadro de diálogo **Destinos de formato de informes electrónicos** que aparece cuando se [publica](../../../finance/accounts-receivable/create-free-text-invoice-new.md) una factura de servicios y el formato de informes electrónicos **Factura de servicios (Excel)** se ejecuta para generar este documento si se ha proporcionado la acción **Impresora** y los destinos de informes electrónicos se configuraron para este formato, como se mostró anteriormente en este tema.
 
-![Cuadro de diálogo que ofrece la opción de cambiar los destinos de informes electrónicos configurados inicialmente para el formato de informes electrónicos en ejecución](./media/er-destination-action-dependent-02.gif)
+![Cuadro de diálogo que ofrece la opción de cambiar los destinos de informes electrónicos configurados inicialmente para el formato de informes electrónicos en ejecución.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Si configuró destinos de informes electrónicos para varios componentes del formato de informes electrónicos en ejecución, se ofrecerá una opción por separado para cada componente configurado del formato de informes electrónicos.
@@ -103,7 +103,7 @@ Siga estos pasos para verificar el código de acción del usuario que se proporc
 6. En la página **Configurar registros de depuración**, filtre los registros de ejecución de informes electrónicos para encontrar el registro de su ejecución en formato de informes electrónicos.
 7. Revise las entradas del registro que deben contener el registro que presenta el código de acción del usuario proporcionado, si se ha proporcionado alguna acción para la ejecución del formato de informes electrónicos.
 
-    ![Página de registros de ejecución de informes electrónicos que contiene información sobre el código de acción del usuario que se ha proporcionado para la ejecución filtrada de un formato de informes electrónicos](./media/er-destination-action-dependent-03.png)
+    ![Página de registros de ejecución de informes electrónicos que contiene información sobre el código de acción del usuario que se ha proporcionado para la ejecución filtrada de un formato de informes electrónicos.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Lista de documentos empresariales (oleada 1)</a>
 

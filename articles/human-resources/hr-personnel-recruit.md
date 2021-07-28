@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051818"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359686"
 ---
 # <a name="recruit-job-candidates"></a>Contratar candidatos de trabajo
 
@@ -61,13 +61,13 @@ Si su organización tiene varias ubicaciones, puede agregarlas para que los soli
 
 3. En el campo **Ubicación de la solicitud de contratación**, introduzca el nombre de la ubicación.
 
-   ![Agregar una ubicación de solicitud de contratación](./media/hr-recruit-0a-add-location.png)
+   ![Agregar una ubicación de solicitud de contratación.](./media/hr-recruit-0a-add-location.png)
 
 4. En la **Descripción**, escriba una descripción para la ubicación.
 
 5. En **Ubicación**, seleccione **Agregar**. Si aparece la ventana emergente **Nueva dirección**, introduzca la dirección de la ubicación.
 
-   ![Especificar dirección](./media/hr-recruit-0b-address.png)
+   ![Especificar dirección.](./media/hr-recruit-0b-address.png)
 
 6. En **Información del contacto**, introduzca la información del contacto de la ubicación.
 
@@ -83,11 +83,11 @@ Los responsables pueden enviar solicitudes de contratación en Human Resources. 
 
 3. Seleccione **Solicitud de contratación**.
 
-   ![Iniciar una solicitud de contratación](./media/hr-recruit-1-request-to-recruit.png)
+   ![Iniciar una solicitud de contratación.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. Complete los campos **Descripción**, **Trabajo** y **Fecha de inicio estimada**.
 
-   ![Completar la solicitud de contratación](./media/hr-recruit-2-request-to-recruit.png)
+   ![Completar la solicitud de contratación.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Seleccione **Continuar**. Aparece la solicitud de contratación para su puesto.
 
@@ -95,7 +95,7 @@ Los responsables pueden enviar solicitudes de contratación en Human Resources. 
 
 7. En **Trabajo**, cambie cualquier información según sea necesario y, a continuación, seleccione **Crear detalles a partir del trabajo**.
 
-   ![Crear detalles desde el trabajo](./media/hr-recruit-3-create-details-from-job.png)
+   ![Crear detalles desde el trabajo.](./media/hr-recruit-3-create-details-from-job.png)
 
    El resto de la solicitud de contratación se completará con la información predeterminada para el trabajo que ha introducido.
 
@@ -103,13 +103,13 @@ Los responsables pueden enviar solicitudes de contratación en Human Resources. 
 
 9. En **Puestos**, seleccione **Agregar** y, a continuación, un puesto para esta solicitud de contratación.
 
-   ![Agregar un puesto](./media/hr-recruit-4-select-position.png)
+   ![Agregar un puesto.](./media/hr-recruit-4-select-position.png)
 
 10. En **Aptitudes**, seleccione **Agregar** y, a continuación, una aptitud.
 
 11. En **Requisitos educativos**, seleccione **Agregar** y, a continuación, seleccione valores en los menús desplegables **Aptitudes** y **Nivel de formación**.
 
-   ![Agregar requisitos educativos](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Agregar requisitos educativos.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. En **Comentario**, agregue comentarios según sea necesario.
 
@@ -117,7 +117,7 @@ Los responsables pueden enviar solicitudes de contratación en Human Resources. 
 
 14. Cuando se complete su solicitud de contratación y esté listo para iniciar el proceso de contratación, seleccione **Activar** en la barra de menús.
 
-   ![Activar solicitud de contratación](./media/hr-recruit-6-activate-recruit-request.png)
+   ![Activar solicitud de contratación.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. Seleccione **Guardar**.
 
@@ -131,7 +131,7 @@ Si es un responsable y desea ver sus propias solicitudes:
 
 3. En **Información de mi equipo**, seleccione la pestaña **Solicitudes de contratación**.
 
-   ![Seleccionar la pestaña Solicitudes de contratación](./media/hr-recruit-7-recruiting-requests.png)
+   ![Seleccionar la pestaña Solicitudes de contratación.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Para ver o editar una solicitud de contratación, selecciónela en la cuadrícula.
 
@@ -141,7 +141,7 @@ Si es un profesional de recursos humanos y desea ver todas las solicitudes de co
 
 2. Seleccione **Solicitudes de contratación**.
 
-   ![Ver solicitudes de contratación en Administración de personal](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Ver solicitudes de contratación en Administración de personal.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. Para ver o editar una solicitud de contratación, selecciónela en la cuadrícula.
 
@@ -155,7 +155,7 @@ Si su organización se ha integrado con otra aplicación para administrar las so
 
 3. En **Contratación**, seleccione **Candidatos**.
 
-   ![Ver candidatos](./media/hr-recruit-9-candidates.png)
+   ![Ver candidatos.](./media/hr-recruit-9-candidates.png)
 
 4. Para agregar un candidato, seleccione **Nuevo**. Para editar un candidato existente, selecciónelo en la lista y después seleccione **Editar**. Aparece el perfil del candidato.
 
@@ -163,7 +163,7 @@ Si su organización se ha integrado con otra aplicación para administrar las so
 
 6. En **Solicitud de reclutamiento**, seleccione una solicitud de contratación a la que vincular al candidato. A continuación, complete los campos **Fecha de inicio estimada**, **Responsable de contratación**, **Puesto** y **Descripción** según sea apropiado.
 
-   ![Vincular a la solicitud de contratación](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![Vincular a la solicitud de contratación.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Complete toda la información en las siguientes áreas que desea incluir en el registro del candidato:
    - **Comentarios**
@@ -182,11 +182,11 @@ Cuando esté listo para contratar a un candidato, siga este procedimiento para h
 
 1. En el formulario del candidato, seleccione **Contratar**.
 
-   ![Contratar un candidato](./media/hr-recruit-11-hire.png)
+   ![Contratar un candidato.](./media/hr-recruit-11-hire.png)
 
 2. En el formulario **Contratar nuevo trabajador**, en **Detalles**, complete todos los campos.
 
-   ![Introducir los detalles de la nueva contratación](./media/hr-recruit-12-hire-new-worker.png)
+   ![Introducir los detalles de la nueva contratación.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. En **Detalles del puesto**, compruebe y cambie la información según sea necesario.
 
@@ -203,7 +203,7 @@ Si decide no contratar a un candidato, siga este procedimiento para eliminarlo d
 
 1. En el formulario del candidato, seleccione **No contratar**.
 
-   ![No contratar candidato](./media/hr-recruit-13-do-not-hire.png)
+   ![No contratar candidato.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Seleccione un **Código de motivo** e incluya cualquier comentario.
 
@@ -215,7 +215,7 @@ Si es necesario, puede despedir a un candidato después de contratarlo. Por ejem
 
 - En el formulario del candidato, seleccione **Despedir candidato**.
 
-  ![Descartar candidato](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Descartar candidato.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Consulte también
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750573"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352921"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Plantillas de datos con varias hojas de cálculo
 
@@ -32,13 +32,13 @@ Tomemos un ejemplo en el que exista un archivo de Excel con las hojas de cálcul
 
 Si agrega la segunda entidad **Almacenes** sin salir del formulario **Agregar archivo** , la búsqueda de la hoja de cálculo le permitirá seleccionar la hoja de cálculo **Almacenes** sin tener que cargar el archivo de nuevo. El único motivo para cargar un nuevo archivo sería si los datos **Almacenes** figuraban en un archivo diferente.
 
-![Varias hojas de cálculo](./media/AddFileMultipleWorkSheets.png)
+![Varias hojas de cálculo.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Corregir hoja de cálculo para la asignación de la entidad
 
 La asignación de la hoja de cálculo a una entidad de datos en el trabajo de importación se puede corregir desde la cuadrícula. La columna **Hoja de cálculo** en la cuadrícula muestra las hojas de cálculo del archivo que se ha asignado. Puede elegir otra hoja de cálculo del menú desplegable. Si la hoja de cálculo seleccionada ya está asignada a una entidad en el proyecto de los datos, el sistema le pedirá que confirme el cambio. Recomendamos que corrija todas las asignaciones en la cuadrícula.
 
-![Actualizar la asignación de hoja de cálculo](./media/UpdateMappings.png)
+![Actualizar la asignación de hoja de cálculo.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Volver a asignar a un nuevo archivo
 

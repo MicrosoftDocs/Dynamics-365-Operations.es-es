@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 530cb77ccbca1b6946b5a96cee4e6226ed3467e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361267"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Compartir configuraciones de informes electrónicos (ER) en el repositorio global de Regulatory Configuration Service (RCS) con organizaciones externas.
 
@@ -47,7 +47,7 @@ Siga estos pasos para verificar que la configuración que desea compartir ya se 
 
 1. En el espacio de trabajo **Informes electrónicos**, seleccione **Repositorios** para su proveedor de configuración.
 
-    ![Proveedores de configuración](media/1_RCS_Repo_for_config_provider.JPG)
+    ![Proveedores de configuración.](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Seleccione **Repositorio global** \> **Abierto**.
 3. Busque la configuración que desea compartir. Puede utilizar el campo de filtro para precisar los resultados de la búsqueda. Si no puede encontrar la configuración en el repositorio global, siga los pasos de [Crear y cargar una nueva versión de una configuración de informes electrónicos (ER)](rcs-global-repo-upload.md).
@@ -61,11 +61,11 @@ Después de crear una configuración con su proveedor de configuración, puede c
 3. Seleccione la configuración que desea compartir.
 4. En la ficha desplegable , **Compartido con**, seleccione **Organización**.
 
-    ![Ficha desplegable Compartido con](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Ficha desplegable Compartido con.](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. En el cuadro de diálogo, introduzca el nombre de dominio para la organización externa y luego seleccione **Aceptar**.
 
-    ![Cuadro de diálogo Compartir versión de configuración con organización externa](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Cuadro de diálogo Compartir versión de configuración con organización externa.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 La configuración se comparte con la organización externa y está disponible para esa organización en el repositorio global. A partir de ahí, se puede importar a la instancia de RCS de la organización o a sus instancias de las aplicaciones de Finance and Operations.
 

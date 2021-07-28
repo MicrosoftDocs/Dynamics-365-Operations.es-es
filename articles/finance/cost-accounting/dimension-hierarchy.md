@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897585"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355092"
 ---
 # <a name="dimension-hierarchy"></a>Jerarquía de dimensiones
 
@@ -39,7 +39,7 @@ Las jerarquías de dimensión se usan en distintas ubicaciones en contabilidad d
 
 A continuación se muestra un ejemplo de una jerarquía de dimensiones.
 
-![Ejemplo de una jerarquía de dimensiones](./media/dimension-hierarchy.png)
+![Ejemplo de una jerarquía de dimensiones.](./media/dimension-hierarchy.png)
 
 Una jerarquía de dimensión se puede crear para los siguientes tipos de dimensión:
 
@@ -80,7 +80,7 @@ Una jerarquía de dimensiones se crea como estructura de árbol que tiene relaci
 
 Una empresa pequeña tiene la estructura organizativa siguiente, donde los recursos de finanzas y recursos humanos son departamentos de Administración y ensamblaje y empaquetado son departamentos de Producción.
 
-![Ejemplo de una estructura de organización](./media/dimension-hierarchy-org.png)
+![Ejemplo de una estructura de organización.](./media/dimension-hierarchy-org.png)
 
 Una dimensión de objetos de coste representa todos los centros de coste de la organización.
 

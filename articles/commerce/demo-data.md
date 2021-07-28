@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: a3daa2286eb444d3aaad1fd29eb6be5737415a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c3670cc1f690e8b65b53beb9128554216b2a95f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801992"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350435"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Diseños de pantalla de datos de demostración en Modern POS (MPOS) y Cloud POS
 
@@ -33,13 +33,13 @@ Este tema proporciona información sobre los diseños de pantalla que se incluye
 
 Los diseños de pantalla de ejemplo que se incluyen con datos de demostración de Commerce proporcionan contenido que está optimizado para distintos segmentos de venta minorista, roles del trabajador en la tienda, y dispositivos. Un solo diseño puede contener varias combinaciones de y tamaños de diseño de cuadrículas de botones, para ayudar a garantizar la cobertura cuando los trabajadores se desplazan entre dispositivos y estaciones. En este tema se destacan las diferencias entre estos diseños, las operaciones que proporcionan y las experiencias totales que brindan.
 
-![Diseños de datos de demostración interdispositivo](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Diseños de datos de demostración interdispositivo.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomía de un identificador de diseño de pantalla
 
 Para encontrar diseños de pantalla, vaya a **Retail y Commerce** \> **Configuración del canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
 
-![Página Diseños de pantalla](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Página Diseños de pantalla.](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Los id. de diseño de pantalla pueden tener un máximo de 10 caracteres. El identificador es una cadena que constas de tres datos, en este orden:
 
@@ -47,12 +47,12 @@ Los id. de diseño de pantalla pueden tener un máximo de 10 caracteres. El iden
 2. Versión del diseño
 3. Rol
 
-### <a name="company"></a>Compañía
+### <a name="company"></a>Empresa
 
-| Carta | Compañía         |
+| Carta | Empresa         |
 |--------|-----------------|
 | C      | Adventure Works |
-| F      | Fabrikam        |
+| V      | Fabrikam        |
 | C      | Contoso         |
 
 ### <a name="layout-version"></a>Versión del diseño
@@ -79,7 +79,7 @@ F4MGR
 
 La ilustración siguiente muestra un ejemplo de la pantalla de bienvenida para un encargado de tienda de Fabrikam.
 
-![Pantalla de bienvenida para el encargado de tienda de Fabrikam](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Pantalla de bienvenida para el encargado de tienda de Fabrikam.](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Tamaños de diseño
 
@@ -108,7 +108,7 @@ En la tabla siguiente se muestran los tamaños de diseño que se ofrecen para re
 > [!TIP]
 > PDV selecciona automáticamente los tamaños de diseño, en función del tamaño más cercano disponible para la resolución de pantalla de la ventana de la aplicación actual. Para buscar el identificador de diseño de pantalla y la resolución de diseño que se usan actualmente, en Modern POS (MPOS) o Retail Cloud POS (CPOS), abra la página **Valores** , y busque en la sección **Información sobre la sesión**. También puede ver la resolución real de la ventana para la aplicación o el marco del explorador actual. Cuando tenga esta información, puede buscar el origen del contenido de diseño yendo a **Configuración de canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
 
-![Diseños de pantalla y resoluciones/tamaños del diseño en Commerce y PDV](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Diseños de pantalla y resoluciones/tamaños del diseño en Commerce y PDV.](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Empresas y marcas
 
@@ -129,19 +129,19 @@ Las siguientes ilustraciones muestran ejemplos de la página de bienvenida y la 
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Página de bienvenida de datos de demostración para Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Página de bienvenida de datos de demostración para Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Página de transacción de datos de demostración para Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Página de transacción de datos de demostración para Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Página de bienvenida de datos de demostración para Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Página de bienvenida de datos de demostración para Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Página de transacción de datos de demostración para Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Página de transacción de datos de demostración para Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Diseños de datos de demostración para Contoso](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Diseños de datos de demostración para Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Matriz de inicio de sesión del usuario
 
@@ -168,7 +168,7 @@ Se han proporcionado usuarios para los distintos diseños de pantalla. Mediante 
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 

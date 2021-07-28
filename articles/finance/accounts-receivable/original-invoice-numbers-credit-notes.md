@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897341"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347843"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Referencias a facturas originales en notas de crédito
 
@@ -51,7 +51,7 @@ Siga estos pasos para configurar el parámetro que controla si las referencias a
 1. Vaya a **Clientes** \> **Configuración** \> **Parámetros de clientes**.
 2. En la pestaña **Actualizaciones**, en la ficha desplegable **Factura**, establezca la opción **Aplicar el diseño de facturación de crédito en informes de facturas de proyectos y ventas** en **Sí**.
 
-![Configurar los parámetros de clientes](media/original-invoice-number-in-credit-note.jpg)
+![Configurar los parámetros de clientes.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>Definir referencias a facturas originales
 
@@ -65,7 +65,7 @@ Utilice los siguientes procedimientos para definir referencias a facturas origin
 4. En el panel de acciones, en la ficha **Factura**, en el grupo **Funciones**, seleccione **Factura rectificativa**.
 5. Introduzca la referencia a la factura original y seleccione el motivo de la corrección.
 
-![Definición de la referencia para una factura de servicios](media/reference-original-invoice-FTI.jpg)
+![Definición de la referencia para una factura de servicios.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>Nota de abono de cliente
 
@@ -74,7 +74,7 @@ Utilice los siguientes procedimientos para definir referencias a facturas origin
 3. En el panel de acciones en la ficha **Vender**, en el grupo **Nota de abono**, seleccione **Nota de abono**.
 4. Especifique el motivo de la corrección. La referencia a la factura original se establece automáticamente.
 
-![Definición de la referencia para un pedido de ventas](media/reference-original-invoice-SO.jpg)
+![Definición de la referencia para un pedido de ventas.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>Nota de abono de proyecto
 
@@ -84,13 +84,13 @@ Utilice los siguientes procedimientos para definir referencias a facturas origin
 4. Seleccione **Factura rectificativa**.
 5. Especifique el motivo de la corrección. La referencia a la factura original se establece automáticamente.
 
-![Definición de la referencia para una factura de proyecto](media/reference-original-invoice-project.jpg)
+![Definición de la referencia para una factura de proyecto.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>Imprimir notas de abono
 
 Al imprimir notas de abono de texto libre, clientes y proyectos, incluirán la referencia a la factura original y el motivo de la corrección.
 
-![Nota de abono impresa](media/credit-note-FTI.jpg)
+![Nota de abono impresa.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > Asegúrese de que los formatos imprimibles de los documentos estén configurados correctamente, asumiendo que se imprimirán referencias a facturas originales.

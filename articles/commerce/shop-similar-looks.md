@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795390"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357771"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Habilitar recomendaciones de "comprar looks similares"
 
@@ -68,7 +68,7 @@ Para habilitar la características de recomendaciones "comprar looks similares" 
 
 La siguiente ilustración muestra la característica **Comprar looks similares** en la página **Administración de características** de la sede de Commerce.
 
-![La característica Comprar looks similares en la página de Administración de características de la sede de Commerce](./media/enableshopsimilarlooks.png)
+![La característica Comprar looks similares en la página de Administración de características de la sede de Commerce.](./media/enableshopsimilarlooks.png)
 
 Una vez completadas las tareas anteriores, los terminales de PDV se mejoran automáticamente con un panel **Comprar productos similares** contextual. Si selecciona **Ver más**, se puede llevar a los usuarios de terminales de PDV a una página "comprar looks similares" dedicada que se puede filtrar más.
 
@@ -88,13 +88,13 @@ Para agregar un botón **Comprar looks similares** a un PDP a través del genera
 
 La siguiente ilustración muestra la casilla **Habilitar vínculo para comprar looks similares** y **Comprar looks similares** en un ejemplo de PDP en el generador de sitios.
 
-![La casilla Habilitar vínculo para comprar looks similares y el botón Comprar looks similares en un PDP en el generador de sitios](./media/SSLecomtooling.png)
+![La casilla Habilitar vínculo para comprar looks similares y el botón Comprar looks similares en un PDP en el generador de sitios.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de recomendaciones de producto](product-recommendations.md)
+[Información general de recomendaciones de producto](product-recommendations.md)
 
-[Habilitar Azure Data Lake Storage en un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
+[Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Habilitar recomendaciones de producto](enable-product-recommendations.md)
 

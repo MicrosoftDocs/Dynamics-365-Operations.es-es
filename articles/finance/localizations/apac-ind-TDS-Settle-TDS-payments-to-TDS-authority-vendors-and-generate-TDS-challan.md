@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5b77985a75d2930267cf94d6f218d53b47e6e705
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a9912151ef9fc68941858545e39bccc1e5d3e411
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023575"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358323"
 ---
 # <a name="settle-tds-payments-to-tds-authority-vendors-and-generate-tds-challan"></a>Liquidar pagos de TDS a proveedores de autoridad de TDS y generar challan de TDS
 
@@ -31,7 +31,7 @@ Este tema explica cómo liquidar pagos de impuestos deducidos en el origen (TDS)
 
 1. Vaya a **Proveedores \> Pagos \> Diario de pagos a proveedores**.
 
-    [![Página del diario de pagos a proveedores](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
+    [![Página del diario de pagos a proveedores.](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
 
 2. En la página **Diario de pagos del proveedor**, seleccione **Nuevo** para crear una línea de diario.
 3. En el campo **Cuenta**, seleccione el proveedor de autoridad de TDS al que liquidar los pagos de TDS.

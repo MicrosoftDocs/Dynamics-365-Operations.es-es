@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358131"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -41,7 +43,7 @@ RCS proporciona las prestaciones siguientes:
 
 Puede registrarse o iniciar sesión en RCS desde la [Página de Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/).
 
-![Registro e inicio de sesión en RCS](media/202103_RCS%20Marketing%20page_updated_1.jpg)
+![Registro e inicio de sesión en RCS.](media/202103_RCS%20Marketing%20page_updated_1.jpg)
 
 En la página **Regulatory Configuration Service**, revise y acepte los términos y condiciones suplementarios para el uso del servicio, y luego seleccione uno de los siguientes botones:
 
@@ -91,7 +93,7 @@ Para obtener más información acerca componentes relacionados, consulte los sig
 
 Cuando se registra en RCS desde la página de servicios, puede encontrar un problema relacionado con Azure Active Directory (Azure AD). El mensaje de error que recibe indica que el registro para RCS está actualmente desactivado y debe ser activado antes de que pueda completar el proceso de registro.
 
-![Mensaje de error de registro de RCS](media/01_RCSSignUpError.jpg)
+![Mensaje de error de registro de RCS.](media/01_RCSSignUpError.jpg)
 
 El problema se produce porque se bloquea la suscripción ad-hoc, y la propiedad `AllowAdHocSubscriptions` debe estar habilitada en su inquilino. 
 

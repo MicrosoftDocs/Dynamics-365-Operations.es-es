@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ac440362379475b05c6a37019c25e3a96be3739
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792616"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349505"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce 
 
@@ -59,7 +59,7 @@ Para obtener una descripción más detallada de los pasos necesarios para habili
 
 En la imagen siguiente se muestra un ejemplo de configuración de Azure Data Lake Storage.
 
-![Ejemplo de configuración de Azure Data Lake Storage](./media/exampleADLSConfig1.png)
+![Ejemplo de configuración de Azure Data Lake Storage.](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>Probar la conexión de Azure Data Lake Storage
 
@@ -79,7 +79,7 @@ Para habilitar la actualización automática para el almacén de entidades, siga
 
 La siguiente imagen muestra un ejemplo de almacén de entidades con la actualización automática habilitada.
 
-![Ejemplo de almacén de entidades con actualización automática habilitada](./media/exampleADLSConfig2.png)
+![Ejemplo de almacén de entidades con actualización automática habilitada.](./media/exampleADLSConfig2.png)
 
 Azure Data Lake Storage ya está configurado para el entorno. 
 

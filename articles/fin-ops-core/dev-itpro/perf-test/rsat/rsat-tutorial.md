@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866165"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357527"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Tutorial de Regression Suite Automation Tool
 
@@ -67,11 +67,11 @@ RSAT le permite utilizar la misma grabación de tareas con múltiples casos de p
 
 Esta característica se puede utilizar para validar si se produjo una acción. Por ejemplo, cuando se crea, estima y inicia una orden de producción, la aplicación muestra un mensaje "Producción – Inicio" para notificarle que se ha iniciado el pedido de producción.
 
-![Notificación Producción – Inicio](./media/use_rsa_tool_05.png)
+![Notificación Producción – Inicio.](./media/use_rsa_tool_05.png)
 
 Puede validar este mensaje a través RSAT introduciendo el texto del mensaje en la pestaña **MessageValidation** del archivo de parámetros de Excel para la grabación adecuada.
 
-![Pestaña Validación de mensaje](./media/use_rsa_tool_06.png)
+![Pestaña Validación de mensaje.](./media/use_rsa_tool_06.png)
 
 Una vez que se ejecute el caso de prueba, el mensaje del archivo de parámetros de Excel se compara con el mensaje que se muestra. Si los mensajes no coinciden, el caso de prueba fallará.
 
@@ -104,11 +104,11 @@ Cuando ejecute el caso de prueba, RSAT generará instantáneas (imágenes) de lo
 
 En la ilustración siguiente se muestra el flujo para este escenario.
 
-![Flujo para el escenario de demostración](./media/use_rsa_tool_14.png)
+![Flujo para el escenario de demostración.](./media/use_rsa_tool_14.png)
 
 La siguiente ilustración muestra la jerarquía de procesos empresariales para este escenario en Modelador de procesos empresariales LCS.
 
-![Procesos empresariales para el escenario de demostración](./media/use_rsa_tool_15.png)
+![Procesos empresariales para el escenario de demostración.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>Estrategia – Aprendizaje clave
 

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 19821
+ms.custom:
+- "19821"
+- intro-internal
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16027cc7fd22a34e3f689678aa9f5e85800cbf02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 604b9e14d7a218ab75ebeff5b686f380ef88b34e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829531"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354698"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Visión general de la configuración de producto basada en dimensiones
 
@@ -66,7 +68,7 @@ La ruta de configuración determina la secuencia de los grupos de configuración
 Las reglas de configuración representan un mecanismo para garantizar que un producto incluido en un grupo de configuración de una L. MAT fuerza una inclusión o una exclusión de un producto en un grupo de configuración diferente en la misma L. MAT.
 
 ## <a name="product-modeling-process"></a>Proceso de modelos del producto
-La secuencia natural para crear un modelo de producto para un producto basado en dimensiones comienza con la definición de los grupos de configuración pertinentes. Es importante garantizar que todos los productos que se usarán en la L. MAT se han liberado a la empresa para la que se crea el modelo de producto. Con estos bloques de creación implementados, el usuario puede crear la L. MAT y asignar grupos de configuración a todas las líneas de L. MAT pertinentes. Cuando se completa la L. MAT, se puede definir una ruta de configuración para solicitar los grupos de configuración en la secuencia adecuada. [![Proceso de modelado de productos basado en dimensiones](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Si hay determinados productos de diferentes grupos de configuración que deben o no deben usarse juntos, puede crear reglas de configuración que se aplicarán a estas relaciones de productos. Después de que la L. MAT. se haya vinculado a un producto maestro basado en dimensiones a través de una versión de L. MAT y se hayan tanto aprobado como activado, puede crear configuraciones de productos y especificar un nombre para cada configuración. Las configuraciones se pueden definir antes de que se genere cualquier transacción o se pueden realizar cuando se produzca la necesidad de una configuración determinada.
+La secuencia natural para crear un modelo de producto para un producto basado en dimensiones comienza con la definición de los grupos de configuración pertinentes. Es importante garantizar que todos los productos que se usarán en la L. MAT se han liberado a la empresa para la que se crea el modelo de producto. Con estos bloques de creación implementados, el usuario puede crear la L. MAT y asignar grupos de configuración a todas las líneas de L. MAT pertinentes. Cuando se completa la L. MAT, se puede definir una ruta de configuración para solicitar los grupos de configuración en la secuencia adecuada. [![Proceso de modelado de productos basado en dimensiones.](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Proceso de modelado de productos basado en dimensiones Si hay determinados productos de diferentes grupos de configuración que deben o no deben usarse juntos, puede crear reglas de configuración que se aplicarán a estas relaciones de productos. Después de que la L. MAT. se haya vinculado a un producto maestro basado en dimensiones a través de una versión de L. MAT y se hayan tanto aprobado como activado, puede crear configuraciones de productos y especificar un nombre para cada configuración. Las configuraciones se pueden definir antes de que se genere cualquier transacción o se pueden realizar cuando se produzca la necesidad de una configuración determinada.
 
 ### <a name="suggested-use"></a>Uso sugerido
 

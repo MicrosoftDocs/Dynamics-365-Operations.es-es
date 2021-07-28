@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd3bea647698f76efa5831d0b8b34d3cb0ad479a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 344f015b5d2de45e3eca1eb8c0f3b1676da945d2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825551"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354165"
 ---
 # <a name="dispatch-work-order"></a>Distribuir orden de trabajo
 
@@ -52,7 +52,7 @@ Puede programar una orden de trabajo o varias para un trabajador mediante la fun
 
 La ilustración siguiente muestra un ejemplo de las selecciones de distribución en el cuadro de diálogo **Programar orden de trabajo**.
 
-![Figura 1](media/04-work-order-scheduling.png)
+![Figura 1.](media/04-work-order-scheduling.png)
 
 [!NOTE]
 Si desea eliminar la programación en una orden de trabajo, seleccione la orden de trabajo en **Todas las órdenes de trabajo** y haga clic en **Eliminar programación** en la pestaña **General**. Recuerde actualizar manualmente el estado de ciclo de vida de la orden de trabajo si elimina la programación.

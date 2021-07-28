@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023556"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358395"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>Registrar los números de los certificados de concesión de TDS
 
@@ -33,7 +33,7 @@ Este tema explica cómo registrar los números de certificado de concesión de i
 2. En el campo **Tipo de impuesto**, seleccione **TDS** para registrar certificados de concesión para el tipo de impuesto TDS.
 3. En la pestaña **Información general**, seleccione **Alt + N** para crear una línea.
 
-    [![Encabezado de la nueva línea](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![Encabezado de la nueva línea.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. En el campo **Código de retención de impuestos**, seleccione el código de impuestos TDS para el que se emiten los certificados de concesión del proveedor. El campo **Nombre del código de retención de impuestos** muestra el nombre del código de impuestos de TDS.
 5. En los campos **Fecha inicial** y **Fecha final**, defina el periodo de validez del certificado de concesión que utiliza el código de impuestos de TDS para calcular los TDS para el proveedor en condiciones favorables.
@@ -50,6 +50,6 @@ Este tema explica cómo registrar los números de certificado de concesión de i
 
 11. En el campo **Certificado**, introduzca el número del certificado de concesión de TDS.
 
-    [![Ficha desplegable Certificado](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![Ficha desplegable Certificado.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. Cierre la página.

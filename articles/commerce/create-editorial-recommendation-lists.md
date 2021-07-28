@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 00f7d076d745cb750dbfdd3a95130196edd888bc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 250b2a050acc384c6971fa7f7385681ef15f9a1f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795772"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352455"
 ---
 # <a name="manually-create-curated-recommendations"></a>Crear manualmente recomendaciones curadas
 
@@ -47,11 +47,11 @@ Para crear una lista de recomendaciones de productos mantenida, siga estos pasos
 
 ## <a name="example-list"></a>Lista de ejemplos
 
-![Lista mantenida de ejemplos en oficina administrativa](./media/examplecuratedrecolist.png)
+![Lista mantenida de ejemplos en oficina administrativa.](./media/examplecuratedrecolist.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de recomendaciones de producto](product-recommendations.md)
+[Información general de recomendaciones de producto](product-recommendations.md)
 
 [Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce](enable-adls-environment.md)
 

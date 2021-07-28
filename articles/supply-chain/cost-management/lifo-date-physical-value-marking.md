@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821546"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344577"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fecha LIFO con valor físico y marcado
 
@@ -55,7 +55,7 @@ En este ejemplo, el grupo de modelos de artículo no está marcado para incluir 
 
 El nuevo precio de coste promedio móvil reflejará la media de transacciones actualizadas financieramente de 15,00 dólares USD. 
 
-La ilustración siguiente muestra los efectos del modelo de inventario de fecha LIFO cuando no se usa la opción **Incluir valor físico**. ![Fecha LIFO con Incluir valor físico en coste](./media/lifodatewithoutincludephysicalvalue.gif) 
+La ilustración siguiente muestra los efectos del modelo de inventario de fecha LIFO cuando no se usa la opción **Incluir valor físico**. ![Fecha LIFO con Incluir valor físico en coste.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -90,7 +90,7 @@ En la ilustración siguiente se muestran estas transacciones:
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente a 20,00 dólares USD. 
 
-La ilustración siguiente muestra los efectos del modelo de inventario LIFO cuando se usa la opción **Incluir valor físico**. ![Fecha LIFO con Incluir valor físico en coste](./media/lifodatewithincludephysicalvalue.gif) 
+La ilustración siguiente muestra los efectos del modelo de inventario LIFO cuando se usa la opción **Incluir valor físico**. ![Fecha LIFO con Incluir valor físico en coste.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -136,7 +136,7 @@ En la ilustración siguiente se muestran estas transacciones:
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente a 27,50 dólares USD. 
 
-La siguiente ilustración muestra el efecto que se deriva de seleccionar el modelo de inventario LIFO cuando se usa el marcado entre las emisiones y recepciones. ![Fecha LIFO con marcado](./media/lifodatewithmarking.gif) 
+La siguiente ilustración muestra el efecto que se deriva de seleccionar el modelo de inventario LIFO cuando se usa el marcado entre las emisiones y recepciones. ![Fecha LIFO con marcado.](./media/lifodatewithmarking.gif) 
 
 **Clave del diagrama**
 

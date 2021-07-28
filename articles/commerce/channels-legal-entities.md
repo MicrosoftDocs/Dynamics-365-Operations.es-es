@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 225fd6a07fee29414ac30a4602b4dfccdc4d742b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 698c556b8839ae1d657ef02796fe08ab9cd3621e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800624"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346043"
 ---
 # <a name="create-legal-entities"></a>Crear entidades jurídicas
 
@@ -44,7 +44,7 @@ Para crear una nueva entidad jurídica en Dynamics 365 Commerce, siga estos paso
 1. En el campo **País o región**, especifique o seleccione un valor.
 1. Seleccione **Aceptar**. 
 
-   ![Creación de entidad jurídica](media/legal-entities.png)
+   ![Creación de entidad jurídica.](media/legal-entities.png)
 
 1. En la sección **General**, proporcione la siguiente información general sobre la entidad jurídica: 
    1. Especifique un nombre de búsqueda, si es necesario. Un nombre de búsqueda es un nombre alternativo que puede usarse para buscar esta entidad jurídica. 
@@ -67,11 +67,11 @@ Para crear una nueva entidad jurídica en Dynamics 365 Commerce, siga estos paso
 
 En la imagen siguiente se muestran los detalles de una entidad jurídica de ejemplo.
 
-![Sección general de entidad jurídica](media/legal-entities-general.png)
+![Sección general de entidad jurídica.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[Información general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
 [Planificación de su jerarquía organizativa](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 

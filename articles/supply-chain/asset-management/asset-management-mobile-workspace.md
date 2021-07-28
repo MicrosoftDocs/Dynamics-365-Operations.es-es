@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837954"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360134"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Usar el espacio de trabajo móvil de gestión de activos
 
@@ -60,7 +60,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 1. Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
 
-    ![Seleccionar un espacio de trabajo](media/am-mobile-01.png "Seleccionar un espacio de trabajo")
+    ![Seleccionar un espacio de trabajo.](media/am-mobile-01.png "Seleccionar un espacio de trabajo")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Ver trabajos de órdenes de trabajo asignados en una vista de calendario
 
@@ -72,7 +72,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 1. Seleccione un trabajo del pedido de trabajo en la lista para ver los detalles de trabajo: detalles de la ubicación técnica y los activos, así como otros vínculos de navegación para ver **Datos adjuntos**, **Listas de comprobación**, **Herramientas**, **Contadores de activos**, **Notas**, **Diarios**.
 
-    ![Ver trabajos de órdenes de trabajo asignados en una vista de calendario](media/am-mobile-02.png "Ver trabajos de órdenes de trabajo asignados en una vista de calendario")
+    ![Ver trabajos de órdenes de trabajo asignados en una vista de calendario.](media/am-mobile-02.png "Ver trabajos de órdenes de trabajo asignados en una vista de calendario")
 
 ## <a name="create-a-work-order-job"></a>Crear un trabajo de una orden de trabajo
 
@@ -90,7 +90,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 1. Seleccione **Listo**.
 
-    ![La pantalla Agregar línea](media/am-mobile-03.png "La pantalla Agregar línea")
+    ![La pantalla Agregar línea.](media/am-mobile-03.png "La pantalla Agregar línea")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Agregar datos adjuntos a un trabajo de pedido de trabajo
@@ -112,7 +112,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 1. Seleccione **Listo**.
 
-    ![Ver y agregar archivos adjuntos para un trabajo de una orden de trabajo](media/am-mobile-04.png "Ver y agregar archivos adjuntos para un trabajo de una orden de trabajo")
+    ![Ver y agregar archivos adjuntos para un trabajo de una orden de trabajo.](media/am-mobile-04.png "Ver y agregar archivos adjuntos para un trabajo de una orden de trabajo")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Ver la lista de comprobación de mantenimiento de un trabajo de una orden de trabajo
 
@@ -129,7 +129,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 1. Seleccione el botón Atrás (**<**) para volver a la página anterior.
 
-    ![Lista de comprobación de mantenimiento y detalles de la línea](media/am-mobile-05.png "Lista de comprobación de mantenimiento y detalles de la línea")
+    ![Lista de comprobación de mantenimiento y detalles de la línea.](media/am-mobile-05.png "Lista de comprobación de mantenimiento y detalles de la línea")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Ver y actualizar contadores de activos en un trabajo de pedidos de trabajo
 
@@ -146,7 +146,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 1. Introduzca un nuevo valor de contador y seleccione **Listo**.
 
-    ![Ver y actualizar los contadores de activos](media/am-mobile-06.png "Ver y actualizar los contadores de activos")
+    ![Ver y actualizar los contadores de activos.](media/am-mobile-06.png "Ver y actualizar los contadores de activos")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Registrar el consumo en un trabajo de orden de trabajo
 
@@ -178,7 +178,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
     1. Escriba el **Precio de coste** para el registro de gasto.
     1. Seleccione **Listo**.
 
-    ![Actualizar un diario de órdenes de trabajo](media/am-mobile-07.png "Actualizar un diario de órdenes de trabajo")
+    ![Actualizar un diario de órdenes de trabajo.](media/am-mobile-07.png "Actualizar un diario de órdenes de trabajo")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Actualizar el estados de ciclo de vida de una orden de trabajo
 
@@ -194,7 +194,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 1. Seleccione **Listo**.
 
-    ![Actualizar el estados de ciclo de vida de una orden de trabajo](media/am-mobile-08.png "Actualizar el estados de ciclo de vida de una orden de trabajo")
+    ![Actualizar el estados de ciclo de vida de una orden de trabajo.](media/am-mobile-08.png "Actualizar el estados de ciclo de vida de una orden de trabajo")
 
 ## <a name="create-a-maintenance-request"></a>Crear una solicitud de mantenimiento
 
@@ -216,7 +216,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 1. Seleccione **Listo**.
 
-    ![Crear una solicitud de mantenimiento](media/am-mobile-09.png "Crear una solicitud de mantenimiento")
+    ![Crear una solicitud de mantenimiento.](media/am-mobile-09.png "Crear una solicitud de mantenimiento")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Agregar datos adjuntos a una solicitud de mantenimiento
 
@@ -236,7 +236,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 1. Seleccione **Listo**.
 
-    ![Agregar un archivo adjunto a una solicitud de mantenimiento](media/am-mobile-10.png "Agregar un archivo adjunto a una solicitud de mantenimiento")
+    ![Agregar un archivo adjunto a una solicitud de mantenimiento.](media/am-mobile-10.png "Agregar un archivo adjunto a una solicitud de mantenimiento")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

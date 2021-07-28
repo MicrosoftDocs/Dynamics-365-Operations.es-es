@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 0015ca2ccbb0098a5a96bf56ff355fb2f9f8f626
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748932"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350920"
 ---
 # <a name="integrated-customer-master"></a>Maestro de clientes integrado
 
@@ -36,7 +36,7 @@ Los datos del cliente se pueden dominar en más de una aplicación de Dynamics 3
 
 *Cliente* es un concepto bien definido en aplicaciones. Por lo tanto, la integración de los datos del cliente solo implica la armonización del concepto de cliente entre las dos aplicaciones. La ilustración siguiente muestra el flujo de datos del cliente.
 
-![Flujo de datos del cliente](media/dual-write-customer-data-flow.png)
+![Flujo de datos del cliente.](media/dual-write-customer-data-flow.png)
 
 En general, los clientes pueden clasificarse en dos tipos: clientes comerciales/organizativos y consumidores/usuarios finales. Estos dos tipos de clientes se almacenan y controlan de forma diferente en Finance and Operations y en Dataverse.
 

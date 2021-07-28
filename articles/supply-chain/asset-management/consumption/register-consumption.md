@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f38b01d94fd2efcce5de210f77124fdc24be6e39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50ace9a2f8f5fa39dc927e11f0acd707167ef126
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837906"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346235"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -54,7 +54,7 @@ En algunos casos, es posible que pueda agregar o eliminar líneas de previsión 
 
 La siguiente captura de pantalla muestra un ejemplo de los registros de horas y artículos en una orden de trabajo en **Diarios de órdenes de trabajo**.
 
-![Figura 1](media/01-consumption.png)
+![Figura 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Horas divididas en órdenes de trabajo con varios trabajos de una orden trabajo
@@ -73,13 +73,13 @@ Si una orden de trabajo contiene varias tareas, puede registrar las horas de tra
 
 6. Inserte el número de horas de trabajo que se van a dividir en el campo **Horas**.
 
-    ![Figura 2](media/02-consumption.png)
+    ![Figura 2.](media/02-consumption.png)
 
 7. Haga clic en **Aceptar**.
 
 *Ejemplo:* en la siguiente captura de pantalla se muestran las líneas de diario para una orden de trabajo que contiene tres tareas. La primera línea, que contiene tres horas de trabajo, se ha dividido, y una hora de trabajo se registra en cada tarea de la orden de trabajo. Una vez creadas las tres líneas de registro de horas, decida qué hacer con la línea de registro de horas original (la primera línea del ejemplo). Puede conservarla tal cual o eliminarla. 
 
-![Figura 3](media/03-consumption.png)
+![Figura 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Dimensiones financieras en los registros de consumo
 

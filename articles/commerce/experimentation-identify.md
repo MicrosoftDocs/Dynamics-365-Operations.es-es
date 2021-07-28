@@ -15,17 +15,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a3f5d44e008e4092557d75c8f5d830d5ae36a091
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 265a54fc67fba85b23b372af3403cded29545c4f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799064"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349361"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Identificar una hipótesis y determinar métricas de éxito para un experimento
 La primera fase del ciclo de vida de la experimentación incluye identificar la hipótesis para el experimento y determinar las métricas que rastreará para evaluar el éxito. El siguiente diagrama muestra todos los pasos necesarios para [configurar y ejecutar un experimento](experimentation-overview.md) en un sitio web de comercio electrónico en Dynamics 365 Commerce. Los pasos adicionales se tratan en temas separados. 
 
-[ ![Recorrido del usuario de experimentación: identificar](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
+[ ![Recorrido del usuario de experimentación: identificar.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
 Una hipótesis es una declaración en la que predice el resultado del experimento. Muchos factores intervienen en la definición de una hipótesis, por ejemplo, la investigación sobre el comportamiento del usuario y los datos del sitio web que ha recopilado. Con la hipótesis, definirás la suposición o teoría que deseas validar con tu experimento. Un ejemplo de hipótesis para su experimento puede ser "*una imagen de una camiseta blanca en mi página de inicio generará una tasa de clics más alta que un suéter azul marino durante los meses de verano porque la gente quiere usar algo liviano y de colores claros en el verano*". En ese caso, creará variaciones que incluyen una camiseta blanca y un suéter azul marino, y publicará ambos al mismo tiempo.
 

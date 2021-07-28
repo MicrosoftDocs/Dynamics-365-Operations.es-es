@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937021"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352697"
 ---
 # <a name="clienteling-overview"></a>Visión general de relación con los clientes
 
@@ -68,7 +70,7 @@ Para activar la funcionalidad de clienteling en su entorno, siga estos pasos.
 
 1. En el espacio de trabajo **Administración de características**, filtre las características por el módulo **Retail y Commerce**.
 
-    ![Clienteling en la lista de características del módulo Commerce](./media/Enable_clienteling.png "Clienteling en la lista de características del módulo Retail y Commerce")
+    ![Clienteling en la lista de características del módulo Commerce.](./media/Enable_clienteling.png "Clienteling en la lista de características del módulo Retail y Commerce")
 
 2. Activa la función **Clienteling**; para ello seleccione **Habilitar ahora**.
 3. En la página **Parámetros de Commerce**, en la pestaña **Secuencia numérica**, seleccione la fila **Identificador de libro de clientes**. Luego, en el campo **Código de secuencia numérica**, seleccione una secuencia numérica. El sistema utilizará esta secuencia numérica para asignar un Id a los libros de clientes.
@@ -83,7 +85,7 @@ Para activar la funcionalidad de clienteling en su entorno, siga estos pasos.
 
 6. En la página **Parámetros de Commerce**, en la pestaña **Clienteling**, en el campo **Grupo de atributos del libro de clientes**, seleccione el grupo de atributos que acaba de crear.
 
-    ![Grupo de atributos del libro de clientes seleccionado](./media/Client%20book%20attributes.png "Grupo de atributos del libro de clientes seleccionado")
+    ![Grupo de atributos del libro de clientes seleccionado.](./media/Client%20book%20attributes.png "Grupo de atributos del libro de clientes seleccionado")
 
 7. Para capturar las actividades que se producen en el PDV, defina los tipos de actividad en la página **Tipos de actividad** (**Retail y Commerce \> Clientes \> Tipos de actividad**).
 
@@ -95,7 +97,7 @@ Para activar la funcionalidad de clienteling en su entorno, siga estos pasos.
 
 Cuando haya completado este procedimiento, los socios de ventas podrán abrir la página de detalles del cliente en el PDV y agregar clientes a su libro de clientes, ver y capturar actividades y notas para clientes, y seleccionar clientes como objetivo mediante atributos del libro de clientes y de cliente para filtrar el libro de clientes. En la ilustración siguiente se muestra un ejemplo de un libro de clientes.
 
-![Ejemplo de un libro de clientes](./media/client_book.png "Ejemplo de un libro de clientes")
+![Ejemplo de un libro de clientes.](./media/client_book.png "Ejemplo de un libro de clientes")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Activar la integración de Customer Insights con Commerce
 

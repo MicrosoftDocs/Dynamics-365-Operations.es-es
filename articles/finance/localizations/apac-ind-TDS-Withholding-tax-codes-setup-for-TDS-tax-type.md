@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d56a23f7af7633e1761a8a7c48f71381d6f14df2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 57de382c6d363a6c1d87cf734e9aedb32d6009a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349937"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>Configurar códigos de retención de impuestos para tipos de impuestos de TDS
 
@@ -31,7 +31,7 @@ Este tema explica cómo configurar códigos de impuestos de impuestos deducidos 
 
 1. Vaya a **Impuestos \> Impuestos indirectos \> Retención de impuestos \> Códigos de retenciones de impuestos**.
 
-    [![Página Códigos de retenciones de impuestos](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
+    [![Página Códigos de retenciones de impuestos.](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
 
 2. En el panel de acciones, seleccione **Nuevo** para crear un código de retención de impuestos para TDS e introduzca los detalles requeridos.
 3. En la ficha desplegable **General**, en el campo **Tipo de impuesto**, seleccione **TDS** para categorizar el código de impuestos como un código de impuestos de TDS.

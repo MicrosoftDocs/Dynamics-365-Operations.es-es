@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022716"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353069"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Cargos automáticos avanzados omnicanal
 
@@ -43,7 +43,7 @@ Con la función avanzado de cargos automáticos, los usuarios de PDV pueden tene
 
 En la página **Retail y Commerce \> Configuración de sede \> Parámetros \> Parámetros de Commerce**, vaya a la pestaña **Pedidos de cliente**. En la ficha desplegable **Cargos**, establezca **Usar cargos automáticos avanzados** en **Sí**.
 
-![Parámetros de cargos automáticos avanzados](media/advancedchargesparameter.png)
+![Parámetros de cargos automáticos avanzados.](media/advancedchargesparameter.png)
 
 Cuando se habilitan los cargos automáticos, ya no se pide a los usuarios que especifiquen manualmente un cargo de envío en el terminal del PDV al crear un pedido de cliente con enviar todo o enviar selección. Los cargos de pedidos PDV se calculan sistemáticamente y se añaden a la transacción del PDV (si se encuentra la tabla correspondiente de cargos automáticos que coincide con el criterio del pedido que se está creando). Los usuarios también pueden agregar o mantener los cargos de encabezado o de nivel de línea manualmente con las operaciones recién agregadas de PDV que se pueden agregar a los diseños de pantalla de PDV.
 
@@ -86,7 +86,7 @@ Configure dos cargos automáticos a nivel de encabezado. Configurar uno para el 
 
 Para los cargos de entrega por tierra, en la sección líneas de la página **cargos automáticos** , defina un cargo que se aplique para los pedidos entre 0,01 $ y 100 $ como 10 $. Cree otra línea de cargos para indicar que los pedidos de más de 100,01 $ no tendrán cargos.
 
-![Ejemplo de dos tablas de cobro automático](media/headerchargesexample.png)
+![Ejemplo de dos tablas de cobro automático.](media/headerchargesexample.png)
 
 Para los cargos de entrega por aire, en la sección líneas del formulario cargos automáticos, defina un cargo de 20 $ que se aplicará a todos los pedidos (entre un valor de 0,01 $ a 9 999 999 $).
 
@@ -116,7 +116,7 @@ Vaya a **Clientes \> Configuración de cargos \> Cargos automáticos**.
 
 Establezca el menú desplegable **Nivel** en **Línea**, y cree un nuevo registro de cargos automáticos para todos los clientes y para el producto o el grupo de productos específico donde se cargarán las cuotas de configuración.
 
-![Ejemplo de tabla de cargos automáticos de nivel de línea](media/linechargesexample.png)
+![Ejemplo de tabla de cargos automáticos de nivel de línea.](media/linechargesexample.png)
 
 Envíe los cargos a Commerce Scale Unit/DB de canal para que los PDV puedan usarlos ejecutando el trabajo **Programación de distribución 1040**.
 
@@ -136,7 +136,7 @@ Un minorista está creando una excepción a los procesos típicos ofertando un s
 
 Asegúrese de que el código de cargo que se usará en este escenario se ha configurado correctamente al encabezado **Clientes \> Configuración de cargos \> Cargos** para definir un código de cargo adecuado para la situación.
 
-![Ejemplo de cargos](media/chargesexample.png)
+![Ejemplo de cargos.](media/chargesexample.png)
 
 Si se considerará que el cargo un cargo relacionado con el “envío” con el fin de descuentos de promociones o relacionados de envío, establezca el **Cargo de envío** en el código de cargos en **Sí**. Si se permite que este cargo también pueda reembolsarse sistemáticamente durante el procesamiento de una transacción de devolución en la aplicación del PDV, establezca **Reembolsable** en **Sí**. El indicador **Reembolsable** solo se aplica cuando el parámetro **Usar cargos automáticos avanzados** se establece en **Sí**.
 

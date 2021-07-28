@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 42280c811e1f4ed5d33c66f5a8634417a61be905
-ms.sourcegitcommit: f9b145ef4a81cec81f420871b4130b05db4f4500
+ms.openlocfilehash: 79eb7d750869ef365ad117ecc024afc8db2edbf7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301338"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348838"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Administración de la calidad para procesos de almacén
 
@@ -43,7 +43,7 @@ La característica _Administración de la calidad para procesos de almacén_ gen
 
 Cuando la característica _Administración de la calidad para procesos de almacén_ está activada, cambia la configuración de las entidades clave de gestión de almacén y gestión de calidad. La siguiente ilustración proporciona una descripción general de las entidades que permiten pedidos de calidad para procesos de almacén. El texto entre paréntesis indica acciones sugeridas si se realizó gestión de calidad antes de activar la característica _Administración de la calidad para procesos de almacén_.
 
-![Entidades de administración de la calidad](media/quality-management-entity-diagram.png "Entidades de administración de la calidad")
+![Entidades de administración de la calidad.](media/quality-management-entity-diagram.png "Entidades de administración de la calidad")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Habilitadores: los tipos de orden de trabajo Muestreo de artículos de calidad y Pedido de calidad
 

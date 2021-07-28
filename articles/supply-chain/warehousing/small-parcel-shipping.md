@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910218"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358035"
 ---
 # <a name="small-parcel-shipping"></a>Envío de paquetes pequeños
 
@@ -274,7 +274,7 @@ Para embalar el envío, siga estos pasos:
 
     La etiqueta de envío ahora debería imprimirse en la impresora ZPL que seleccionó anteriormente. El resultado se parecerá al ejemplo siguiente.
 
-    ![Ejemplo de etiqueta de envío](media/sps-label-example.png "Ejemplo de etiqueta de envío")
+    ![Ejemplo de etiqueta de envío.](media/sps-label-example.png "Ejemplo de etiqueta de envío")
 
 1. Observe que los valores **Id. de manifiesto de contenedor** y **Flete total** se han agregado como se recibieron del transportista.
 

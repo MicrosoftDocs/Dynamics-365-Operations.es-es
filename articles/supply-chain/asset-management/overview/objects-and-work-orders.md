@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2fe5523edf46712b17aa7abcad50da44c3eaffd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4be7d3b77f72a9d79047d31b46dcabcb2bf09d12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816775"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351570"
 ---
 # <a name="assets-and-work-orders"></a>Activos y órdenes de trabajo
 
@@ -32,23 +32,23 @@ En este tema se describen los activos y las órdenes de trabajo en Administraci�
 
 Los distintos datos, como la información de producto y la especificación del activo, así como los planes de mantenimiento necesarios, se configuran en cada activo. La ilustración siguiente muestra una visión general de los datos de activos y la afiliación de los activos con los tipos de trabajo. El texto rojo se usa para ejemplos que muestran herencia y dependencias.
 
-![Diagrama que muestra los datos de activos relacionados con los tipos de trabajo](media/05-overview-image.png)
+![Diagrama que muestra los datos de activos relacionados con los tipos de trabajo.](media/05-overview-image.png)
 
 Cada orden de trabajo tiene un tipo de orden de trabajo, tal como mantenimiento preventivo, mantenimiento correctivo o inspección. La orden de trabajo contiene uno o más trabajos de orden de trabajo. Cada trabajo de la orden de trabajo define un trabajo que se debe realizar en un activo y en un tipo de trabajo relacionado. Ejemplos de tipos de trabajo relacionados son 10 000 km, 50 000 km, revisión de un año e inspección de seguridad. Una orden de trabajo puede estar relacionada con varios activos.
 
 La ilustración siguiente muestra una visión general de los datos clave en una orden de trabajo.
 
-![Diagrama que muestra los datos clave de una orden de trabajo](media/06-overview-image.png)
+![Diagrama que muestra los datos clave de una orden de trabajo.](media/06-overview-image.png)
 
 Una orden de trabajo puede estar relacionada con otra y los tipos de trabajo pueden contener trabajos posteriores que creen una orden de trabajo. En genearl, no hay dependencias entre las órdenes de trabajo. Por lo tanto, pueden cambiar su estado de ciclo de vida de orden de trabajo y pueden programarse independientemente entre sí.
 
 Las órdenes de trabajo se pueden crear de distintas maneras que guardan relación con el mantenimiento correctivo, preventivo o reactivo. También puede crear órdenes de trabajo de manera manual. La ilustración siguiente muestra una visión general del proceso de creación automática o manual de órdenes de trabajo.
 
-![Diagrama que muestra la creación automática o manual de las órdenes de trabajo](media/07-overview-image.png)
+![Diagrama que muestra la creación automática o manual de las órdenes de trabajo.](media/07-overview-image.png)
 
 Se deben cojpletar varios pasos para programar y ejecutar un trabajo de mantenimiento en una orden de trabajo. La ilustración siguiente muestra una visión general del procesameinto de una orden de trabajo.
 
-![Diagrama que muestra la información general de procesamiento de una orden de trabajo](media/08-overview-image.png)
+![Diagrama que muestra la información general de procesamiento de una orden de trabajo.](media/08-overview-image.png)
 
 > [!NOTE]
 > Normalmente, cuando se trabaja en Dynamics 365 Supply Chain Management y el módulo **Administración de activos**, se selecciona **Nuevo** para crear un nuevo registro, se selecciona **Editar** para actualizar un registro existente y se selecciona **Guardar** para guardar datos nuevos o modificados.

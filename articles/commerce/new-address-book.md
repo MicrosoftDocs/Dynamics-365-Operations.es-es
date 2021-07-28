@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e963cf8cbae4651ad05126cdf465a386dea2d7a5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 052ac3291ea6d2984c25445b7165284dfdcfa2b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798738"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353093"
 ---
 # <a name="create-new-address-book"></a>Crear nueva libreta de direcciones
 
@@ -40,7 +40,7 @@ Para crear una nueva libreta de direcciones, siga estos pasos.
 
 La siguiente imagen muestra la creación de una libreta de direcciones de empleados para una tienda.
 
-![Ejemplo de libreta de direcciones de empleado](media/address-books.png)
+![Ejemplo de libreta de direcciones de empleado.](media/address-books.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

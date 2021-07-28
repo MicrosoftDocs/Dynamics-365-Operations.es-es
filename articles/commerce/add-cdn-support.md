@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936839"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346837"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Agregar soporte para una red de entrega de contenido (CDN)
 
@@ -74,11 +74,11 @@ Para configurar un grupo back-end en Azure Front Door Service, siga estos pasos.
 
 En la ilustración siguiente se muestra el cuadro de diálogo **Agregar un grupo back-end** en Azure Front Door Service con el nombre de host del back-end.
 
-![Cuadro de diálogo Agregar un grupo back-end](./media/CDN_BackendPool.png)
+![Cuadro de diálogo Agregar un grupo back-end.](./media/CDN_BackendPool.png)
 
 En la ilustración siguiente se muestra el cuadro de diálogo **Agregar un grupo back-end** en Azure Front Door Service con los valores de equilibrio de carga predeterminados.
 
-![Cuadro de diálogo Agregar un grupo back-end (continuación)](./media/CDN_BackendPool_2.png)
+![Cuadro de diálogo Agregar un grupo back-end (continuación).](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > Asegúrese de deshabilitar **Sondas de salud** al configurar su propio servicio Azure Front Door para Commerce.
@@ -107,13 +107,13 @@ Si su dominio es nuevo y no es un dominio activo preexistente, puede agregar su 
 
 En la ilustración siguiente se muestra el cuadro de diálogo **Configuración de CNAME** en Azure Front Door Service.
 
-![Cuadro de diálogo Configuración de CNAME](./media/CNAME_Configuration.png)
+![Cuadro de diálogo Configuración de CNAME.](./media/CNAME_Configuration.png)
 
 Puede usar Azure Front Door Service para administrar el certificado o usar su propio certificado para el dominio personalizado.
 
 En la ilustración siguiente se muestra el cuadro de diálogo **Personalizar HTTPS de dominio** en Azure Front Door Service.
 
-![Cuadro de diálogo Personalizar HTTPS de dominio](./media/Custom_Domain_HTTPS.png)
+![Cuadro de diálogo Personalizar HTTPS de dominio.](./media/Custom_Domain_HTTPS.png)
 
 Para obtener instrucciones detalladas sobre cómo agregar un dominio personalizado a Azure Front Door, consulte [Agregar un dominio personalizado a su instancia de Front Door](/azure/frontdoor/front-door-custom-domain).
 

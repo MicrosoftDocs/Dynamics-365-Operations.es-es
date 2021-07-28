@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822404"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359326"
 ---
 # <a name="customer-payment-insights-preview"></a>Información de pago del cliente (vista previa)
 
@@ -47,11 +49,11 @@ Para cada factura abierta, la Información de pago de clientes (Vista previa) pu
 
 La información de pago de clientes (Vista previa) también proporciona una vista agregada de los pagos esperados, que puede ayudar a las organizaciones a conocer el importe total de pago que pueden esperar de un cliente en una de las tres categorías, Puntual, Tarde y Muy tarde.
 
-[![Vista agregada de las predicciones de pago](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Vista agregada de las predicciones de pago.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Además, cada factura se asigna a una probabilidad de pago a tiempo. Si la probabilidad de pago a tiempo es inferior al 50 %, las facturas se etiquetan con un círculo rojo para indicar que estas facturas puede requerir la asistencia de cobros. 
 
-[![Lista de posibilidades de pago](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Lista de posibilidades de pago.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Información de pago del cliente (versión preliminar) también proporcionan información contextual para explicar la predicción, como los factores de alto nivel que influenciaron las predicciones, el estado actual del negocio con el cliente, y los detalles sobre el comportamiento histórico de pago del cliente. En muchos negocios, el proceso de cobros se ha sido una actividad reactiva; el proceso de cobros no se inicia hasta que vencen las facturas debidas. 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fb5b851c71ac632a045cf09c725a088d13f21ad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752923"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360267"
 ---
 # <a name="client-alert-notifications-by-email"></a>Notificaciones por correo electrónico de alertas del cliente
 
@@ -36,7 +36,7 @@ Para obtener más información sobre cómo configurar el correo electrónico, co
 
 En la imagen siguiente se muestra el cuadro **Crear regla de alertas** , que ahora incluye una opción **Enviar correo electrónico** .
 
-[![Cree el cuadro de diálogo de la regla de alerta, donde la opción de correo electrónico de envío se establece en Sí](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Cree el cuadro de diálogo de la regla de alerta, donde la opción de correo electrónico de envío se establece en Sí.](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Cuando la opción **Enviar correo electrónico** se establece en **Sí**, las notificaciones de alertas continuarán siendo entregadas Centro de actividades.
@@ -47,7 +47,7 @@ El servicio registra notificaciones por correo electrónico mediante las plantil
 
 La siguiente imagen muestra la estructura de las notificaciones alertas cuando se reciben por correo electrónico.
 
-[![Notificaciones de alerta basadas en plantillas para la creación de registros, cambios de campos y eliminación de plantilla](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![Notificaciones de alerta basadas en plantillas para la creación de registros, cambios de campos y eliminación de plantilla.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

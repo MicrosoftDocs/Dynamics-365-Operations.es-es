@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a16006a18e552c00fbed5eda7579fbcb77c315ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908117"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355934"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizar contactos directamente desde Sales con contactos o clientes de Supply Chain Management
 
@@ -38,7 +38,7 @@ En este tema se describen las plantillas y las tareas subyacentes que se usan pa
 
 La solución Prospect to cash usa la característica de integración de datos para sincronizar datos a través de las instancias de Supply Chain Management y Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Supply Chain Management y Sales. La ilustración siguiente muestra cómo se sincronizan los datos entre Supply Chain Management y Sales.
 
-[![Flujo de datos en Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flujo de datos en Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
@@ -119,11 +119,11 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 
 ### <a name="contact-to-contact"></a>Contacto con contacto
 
-![Asignación de la plantilla en el integrador de datos](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Asignación de la plantilla en el integrador de datos.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer"></a>Contacto con cliente
 
-![Asignación de la plantilla en el integrador de datos](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Asignación de la plantilla en el integrador de datos.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Temas relacionados

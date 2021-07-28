@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d780c7a52570e8e8dbd0c42c6d1aa8e41d2d4819
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 164926714717addc486a69f4ae913dcef2bc4c41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809887"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361162"
 ---
 # <a name="asset-management-overview"></a>Información general sobre la gestión de activos
 
@@ -32,7 +32,7 @@ Administración de activos es un módulo avanzado para gestionar activos y traba
 
 En la imagen siguiente es una ilustración de las interfaces con otros módulos de Finance and Operations.
 
-![Descripción general de cómo se integra Administración de activos](media/overview-integrate2.jpg)
+![Descripción general de cómo se integra Administración de activos.](media/overview-integrate2.jpg)
 
 Administración de activos permite gestionar y realizar eficientemente tareas relacionadas con la gestión y el mantenimiento de muchos tipos de equipos de la empresa, por ejemplo, máquinas, equipos de producción y vehículos. Administración de activos admite soluciones de numerosos sectores.
 

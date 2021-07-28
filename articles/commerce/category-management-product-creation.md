@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 678561856fbb5514ff954363a767091edac6dee2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89237c830109e8cb304b2547230484f15b90d875
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794382"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351306"
 ---
 # <a name="manage-product-categories-and-products"></a>Administrar las categorías de productos y los productos
 
@@ -35,17 +35,17 @@ Observe la estructura ampliada de la página **Jerarquía de productos de Commer
 
 En la estructura mejorada de categorías de productos, las propiedades del producto se separan de forma lógica en función de su aplicabilidad en un grupo, para así reflejar la estructura del formulario de detalles del producto liberado.
 
-![Campos agrupados en función del ámbito de aplicabilidad de las propiedades](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Campos agrupados en función del ámbito de aplicabilidad de las propiedades.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 Puede alternar entre gestionar las propiedades de entidades jurídicas específicas de todas las entidades jurídicas o gestionarlas según una entidad jurídica específica.
 
 Para gestionar propiedades en todas las entidades jurídicas, seleccione **Ver todas las entidades jurídicas** (o **Editar todas las entidades jurídicas**).
 
-![Ver o editar todas las entidades jurídicas](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![Ver o editar todas las entidades jurídicas.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 Para gestionar las propiedades de una entidad jurídica específica, seleccione **Ver una entidad jurídica específica** (o **Editar una entidad jurídica específica**).
 
-![Ver o editar una entidad jurídica específica](media/ToggleToEditForAllLegalEntities.PNG)
+![Ver o editar una entidad jurídica específica.](media/ToggleToEditForAllLegalEntities.PNG)
 
 Además, ahora en la estructura mejorada de categorías de productos un responsable de comercialización podrá definir valores predeterminados para un conjunto adicional de propiedades de producto en el nivel de categoría individual. Después, cuando se cran los productos, heredan los valores predeterminados de sus propiedades de producto, en función de la asociación de esas propiedades con una categoría individual de la jerarquía del producto. Estas propiedades de producto heredadas también se pueden modificar para cada producto y así poder cumplir con los requisitos empresariales individuales.
 
@@ -53,7 +53,7 @@ Además, ahora en la estructura mejorada de categorías de productos un responsa
 
 Puede usar la nueva estructura mejorada para las propiedades del producto para seleccionar las propiedades de producto actualizadas que deben incluirse en los productos asociados. En la página **Jerarquía de productos de Commerce**, en el panel de acciones, seleccione **Categoría** y, a continuación, seleccione **Actualizar productos** para abrir el cuadro de diálogo **Actualizar productos**.
 
-![Cuadro de diálogo Actualizar productos](media/NewUpdateProductsEnhancedView.PNG)
+![Cuadro de diálogo Actualizar productos.](media/NewUpdateProductsEnhancedView.PNG)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

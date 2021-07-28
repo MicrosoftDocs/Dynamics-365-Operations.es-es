@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 9f3bfe950446a6e87e34c32d2593cba0af84d8e8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fd0a9b10f86699739fb529487cee124f99a0175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838990"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356984"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Sincronizar transferencias y ajustes de inventario de Field Service a Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "5838990"
 
 En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar transferencias y ajustes de inventario de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 
-[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
+[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service.](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 La plantilla siguiente y las tareas subyacentes se usan para sincronizar ajustes y transferencias de inventario de Field Service a Supply Chain Management.
@@ -72,12 +72,12 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>Ajuste de inventario (Field Service a Supply Chain Management): Ajuste de inventario
 
-[![Asignación de la plantilla en la integración de datos](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Transferencia de inventario (Field Service a Supply Chain Management): Transferencia de inventario
 
-[![Asignación de la plantilla en la integración de datos](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

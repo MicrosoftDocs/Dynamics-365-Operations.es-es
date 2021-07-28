@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804242"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347475"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Configurar y ejecutar trabajo para registrar extractos
 
@@ -31,9 +31,9 @@ Este procedimiento le muestra la configuración y ejecución de un trabajo por l
 2. Haga clic en Registrar extractos por lotes.
     * Seleccione una jerarquía organizativa y en el árbol de nodos de la organización, seleccione un nodo o una tienda individual. Seleccione un nodo si desea crear el trabajo por lotes para un grupo de tiendas.  
     * Haga clic en la flecha para agregar su selección.  
-3. Haga clic en la pestaña Ejecutar en segundo plano. ![Ejecutar en segundo planoEjecutar en segundo plano](../dev-itpro/media/runbackground.png "Ejecutar en segundo plano") 
+3. Haga clic en la pestaña Ejecutar en segundo plano. ![Ejecutar en segundo planoEjecutar en segundo plano.](../dev-itpro/media/runbackground.png "Ejecutar en segundo plano") 
 4. Active o desactive la casilla Procesamiento por lotes.
-![Procesamiento por lotes](../dev-itpro/media/batchprocessing.png "Procesamiento por lotes y periodicidad") 
+![Procesamiento por lotes.](../dev-itpro/media/batchprocessing.png "Procesamiento por lotes y periodicidad") 
 5. Haga clic en Periodicidad.
 6. En el campo Fecha inicial, especifique una fecha.
 7. Especifique una hora en el campo Hora inicial.

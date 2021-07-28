@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 222bb25b6851fe60f3d872e5d7431094ac916dd4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 206f0096f481fc37d05a8258535c016e2834e732
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791015"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352213"
 ---
 # <a name="product-collection-modules"></a>Módulos de colección de productos
 
@@ -40,7 +40,7 @@ Los orígenes de las colecciones de productos pueden ser listas de los cuatro ti
 
 La ilustración siguiente muestra los diferentes tipos de colecciones de productos que se utilizan en un sitio de comercio electrónico.
 
-![Ejemplo de los diferentes tipos de colecciones de productos en un sitio de comercio electrónico](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![Ejemplo de los diferentes tipos de colecciones de productos en un sitio de comercio electrónico.](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > Use siempre los módulos de colección de productos para mostrar un grupo de productos de un tipo similar.

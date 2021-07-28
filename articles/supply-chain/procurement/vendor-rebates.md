@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822476"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344229"
 ---
 # <a name="vendor-rebates"></a>Devoluciones de proveedor
 
@@ -53,7 +53,7 @@ Un acuerdo de devolución del proveedor es el registro de un contrato con un pro
 
 Para abrir la página **Acuerdos de devoluciones del proveedor**, seleccione **Adquisición y abastecimiento** &gt; **Devoluciones del proveedor** &gt; **Acuerdos de devoluciones**.
 
-![Acuerdo de compra](media/purchase-agreement.PNG)
+![Acuerdo de compra.](media/purchase-agreement.PNG)
 
 En la página **Acuerdos de devoluciones del proveedor**, puede ver información detallada sobre las condiciones negociadas en un contrato de proveedor.
 
@@ -129,7 +129,7 @@ Una vez aprobadas las reclamaciones, los proveedores (A/P) pueden procesarlas. U
 
     Se publicará un diario de acumulación de devoluciones según el importe reclamado. Este registro carga en la cuenta "Devoluciones del proveedor por cobrar acumuladas" el crédito esperado del proveedor y carga en la cuenta "Devoluciones del proveedor acumuladas recibidas" la ganancia prevista.
 
-    ![Mensaje](media/message.png)
+    ![Mensaje.](media/message.png)
 
 5. En la lista de devoluciones, seleccione la línea y en el panel de acciones, seleccione **Transacciones de devolución** para consultar el número de lote del diario de este registro de acumulación de devoluciones.
 

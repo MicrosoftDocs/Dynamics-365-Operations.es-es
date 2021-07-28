@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356134"
 ---
 # <a name="revenue-recognition-reallocation"></a>Reasignación de reconocimiento de ingresos
 
@@ -48,7 +48,7 @@ Debido a que la reasignación se puede realizar en un pedido de ventas que se fa
 
 Cada organización debe decidir si la corrección debe actualizar solo la contabilidad general o si también debe actualizar los clientes. La decisión que se tome determina la configuración adecuada de la **Registrar correcciones de factura en clientes** en la pestaña **Reconocimiento de ingresos** de la página **Parámetros de Contabilidad general** (**Reconocimiento de ingresos \> Configuración \> Parámetros de Contabilidad general**). La configuración adecuada depende de cada escenario específico. Para obtener más información sobre posibles escenarios, utilice los vínculos de la sección [Escenarios de reasignación](#scenarios-for-reallocation) más adelante en este tema.
 
-[![Pestaña Reconocimiento de ingresos en la página Parámetros de Contabilidad general](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Pestaña Reconocimiento de ingresos en la página Parámetros de Contabilidad general.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Si la opción **Registrar correcciones de factura en clientes** se establece en **Sí**, el proceso de reasignación genera el siguiente resultado:
 
@@ -76,7 +76,7 @@ Como se ha mencionado, solo puede actualizar la contabilidad general, o bien pue
 
 Para iniciar el proceso de reasignación, seleccione **Reasignar precio con nuevas líneas de pedido** en cualquier pedido de ventas que deba reasignar. Alternativamente, vaya a **Reconocimiento de ingresos \> Tareas periódicas \> Reasignar precio con nuevas líneas de pedido** y luego introduzca los filtros apropiados, como la cuenta del cliente.
 
-[![Página Reasignar precio con nuevas líneas de pedido](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![Página Reasignar precio con nuevas líneas de pedido.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 La cuadrícula superior de la página **Reasignar precio con nuevas líneas de pedido** se llama **Ventas**. Enumera los pedidos de ventas del cliente. Seleccione los pedidos de ventas que deben reasignarse. No puede seleccionar pedidos de ventas de proyectos, porque estos no se pueden reasignar. Tampoco puede seleccionar pedidos de ventas que ya tengan un identificador de reasignación, porque los pedidos de ventas que no pertenecen al proyecto solo se pueden reasignar una vez. Si un pedido de ventas tiene un identificador de reasignación, ya ha sido marcado para reasignación por otro usuario.
 
@@ -86,13 +86,13 @@ Una vez que haya terminado de seleccionar las líneas de pedido de ventas necesa
 
 - **Actualizar reasignación**: calcula los nuevos importes de precios de ingresos para las líneas de pedido de ventas seleccionadas. Si se eliminó o canceló una línea, la reasignación se realizará solo para las líneas existentes que seleccionó. En la siguiente ilustración se muestra un ejemplo de líneas de pedido de ventas antes de actualizarse la reasignación.
 
-    [![Líneas de pedido de ventas antes de que se actualice la reasignación](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Líneas de pedido de ventas antes de que se actualice la reasignación.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     Los nuevos importes de precios de ingresos se muestran en la columna **Importe reasignado** de la cuadrícula **Líneas**. En este punto, la reasignación se ha procesado pero aún no se ha calculado. En la siguiente ilustración se muestra un ejemplo de líneas de pedido de ventas después de actualizarse la reasignación.
 
-    [![Líneas de pedido de ventas después de que se actualice la reasignación](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Líneas de pedido de ventas después de que se actualice la reasignación.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
-- **Procesar**: procesa o publica los precios de ingresos reasignados. Después de seleccionar este botón, no hay forma de revertir la reasignación. Si no seleccionó **Actualizar reasignación** antes de seleccionar **Procesar**, la reasignación se ejecuta automáticamente.
+- **Procesar**: procesa o registra los precios de ingresos reasignados. Después de seleccionar este botón, no hay forma de revertir la reasignación. Si no seleccionó **Actualizar reasignación** antes de seleccionar **Procesar**, la reasignación se ejecuta automáticamente.
 
     - Si no se ha facturado ninguna línea de pedido de ventas, los importes de los precios de ingresos se actualizan en los pedidos de ventas que se seleccionaron para la reasignación.
     - Si se ha facturado una o más líneas de pedido de ventas, se registran los asientos contables de corrección y se corrigen los detalles del programa de ingresos que se crearon para la línea de pedido de ventas facturada.
@@ -100,7 +100,7 @@ Una vez que haya terminado de seleccionar las líneas de pedido de ventas necesa
 - **Asiento esperado**: muestra una vista previa de los asientos contables que se han creado para cualquier línea de pedido de ventas que se haya facturado. Si no se han facturado líneas, no se muestra nada. Si no seleccionó **Actualizar reasignación** antes de seleccionar **Asiento esperado**, la reasignación se ejecuta automáticamente.
 - **Reasignación de ingresos**: abre una página que muestra la asignación de precios de ingresos para todas las líneas seleccionadas. No puede cambiar la información de la página. Muestra los importes de línea que se utilizaron para realizar la reasignación.
 
-    [![Cantidades de línea que se utilizaron para la reasignación](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Importes de línea que se utilizaron para la reasignación.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
 - **Restablecer datos para el cliente seleccionado**: si el proceso de reasignación se inició pero no se completó, borra los datos de la tabla de reasignación solo para el cliente seleccionado. Suponga, por ejemplo, que marca varias líneas de pedido de ventas para reasignarlas, deja la página abierta sin seleccionar **Procesar** y se agota el tiempo de espera de la página. En este caso, las líneas de pedido de ventas permanecerán marcadas y no estarán disponibles para que otro usuario complete el proceso de reasignación. La página puede incluso estar en blanco cuando se abre. En este caso, se puede utilizar el botón **Restablecer datos para el cliente seleccionado** para borrar los pedidos de ventas no procesados de modo que otro usuario pueda completar el proceso de reasignación.
 

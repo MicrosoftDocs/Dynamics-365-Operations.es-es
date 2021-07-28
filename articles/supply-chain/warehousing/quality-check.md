@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4ff6b8495f3ef0d75ffc8f829a9f332f507789d0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838235"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358059"
 ---
 # <a name="quality-check"></a>Control de calidad
 
@@ -310,7 +310,7 @@ Una vez que se ha creado el pedido de compra, se puede recibir utilizando el ele
 
     La página **Control de calidad** que aparece no tiene campos de entrada. Solo tiene el botón de confirmación (marca de verificación) en la parte inferior y el botón Menú (**≡**) en la parte superior. (El botón Menú a veces se denomina hamburguesa o botón de hamburguesa). Para acelerar el proceso de control de calidad, cuando el pallet pase el control de calidad, el usuario simplemente confirma la página **Control de calidad**.
 
-    ![Página Control de calidad](media/quality-check.png "Página Control de calidad")
+    ![Página Control de calidad.](media/quality-check.png "Página Control de calidad")
 
 1. Seleccione el botón de confirmación para pasar el control de calidad para el pallet 1 desde la línea 1.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751665"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359014"
 ---
 # <a name="generate-printable-fti-forms"></a>Generar formularios de FTI imprimibles
 
@@ -77,7 +77,7 @@ Para generar los formularios de FTI mediante el marco de ER, puede asignar los f
 3. Seleccione el nivel de documento para especificar el ámbito de las facturas que se procesarán.
 4. Seleccione el formato de ER para el nivel de documento especificado.
 
-![Configuración de la gestión de impresiones](media/FTIbyGER-PMSetting.png)
+![Configuración de la gestión de impresiones.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Solo los formatos de ER que usan el descriptor raíz **FreeTextInvoice** del modelo de datos **CustomersInvoicing** aparecen en el campo **Búsqueda de formato de informe** para el formato seleccionado.
@@ -87,9 +87,9 @@ Los formularios de FTI se generan en el marco de ER de la misma manera que se ge
 
 Para generar los formularios de FTI, puede seleccionar facturas por intervalo o por selección. 
 
-![Selección de facturas](media/FTIbyGER-InvoiceSelection.png)
+![Selección de facturas.](media/FTIbyGER-InvoiceSelection.png)
 
-![Vista previa de facturas](media/FTIbyGER-InvoiceExcelPreview.png)
+![Vista previa de facturas.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 Cuando se utilizan formatos de ER para imprimir formularios de FTI de este modo, se utilizan los destinos de archivo de ER predeterminados. No puede cambiar el destino. Para obtener más información sobre cómo configurar los destinos de ER para formatos de ER, consulte [Informes electrónicos (ER)](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ También puede generar formularios de FTI al registrar una FTI, activando **Impr
 > - **Nombre:** ERFormatDestinationRuntimeMaintain
 > - **Etiqueta:** Mantener destino de formato de informes electrónicos durante el tiempo de ejecución
 
-![Destino de informes electrónicos](media/FTIbyGER-ERFileDestinationSetting.png)
+![Destino de informes electrónicos.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Destino de formato de informes electrónicos](media/FTIbyGER-ERFileDestinationUsage.png)
+![Destino de formato de informes electrónicos.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 El marco de ER admite actualmente los siguientes destinos para documentos generados:
 
@@ -128,7 +128,7 @@ Puede descargar ejemplos de configuraciones de ER para utilizarlos como una plan
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>Características que están implementadas en el formato de ER de ejemplo
 En el ejemplo de configuración de formato de ER, se utiliza un archivo Excel como plantilla para generar formularios de FTI.
 
-![Diseñador de formato](media/FTIbyGER-ERFormat.png)
+![Diseñador de formato.](media/FTIbyGER-ERFormat.png)
 
 Actualmente, este ejemplo de formato de ER admite las siguientes características para generar formularios de FTI:
 
@@ -179,7 +179,7 @@ Además del formulario de factura generado, los resguardos de transferencia por 
 - Para la entidad jurídica que utiliza el contexto de país o región para Finlandia y que tiene al menos una cuenta bancaria marcada como **Cuenta de giros bancarios** y **Código de barras del banco**. 
 - Para una factura marcada como necesaria para el archivo adjunto de pago asociado **Finlandés**.
 
-![Resguardo del giro bancario](media/FTIbyGER-GiroSlip.PNG)
+![Resguardo del giro bancario.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > El modelo de formato de ER se ha configurado para generar opcionalmente los resguardos de transferencia por giro bancario en la hoja de cálculo independiente.
@@ -194,7 +194,7 @@ Use los siguientes elementos del formato de ER de ejemplo para configurar los de
 - Al texto del asunto del mensaje de correo electrónico se puede acceder con la expresión de ER siguiente: **Emailing.TxtToUse.Subject**.
 - Al texto del cuerpo del mensaje de correo electrónico se puede acceder con la expresión de ER siguiente: **Emailing.TxtToUse.Body**.
 
-![Configuración de destino](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Configuración de destino.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 El texto predeterminado del asunto y del cuerpo del mensaje de correo electrónico se define en el formato de ER de muestra. El idioma depende de las etiquetas del formato. Este texto predeterminado se utilizará para los mensajes de correo electrónico si no se ha agregado una plantilla de correo electrónico de organización personalizada que tenga el identificador **ERFTITMP** predefinido.
 
@@ -203,9 +203,9 @@ El texto predeterminado del asunto y del cuerpo del mensaje de correo electróni
 
 Si se ha agregado la plantilla de correo electrónico de la organización que tiene el identificador **ERFTITMP** predefinido para la entidad jurídica para la que está procesando la factura, se utilizará la plantilla del asunto y del texto del cuerpo del correo electrónico para generar el correo electrónico. 
 
-![Plantillas de correo electrónico de organización](media/FTIbyGER-EmailTemplate.png)
+![Plantillas de correo electrónico de organización.](media/FTIbyGER-EmailTemplate.png)
 
-![Cargar plantilla de correo electrónico](media/FTIbyGER-EmailTemplateBody.png)
+![Cargar plantilla de correo electrónico.](media/FTIbyGER-EmailTemplateBody.png)
 
 La expresión de ER **Emailing.TxtToUse.Subject** del formato de ER de ejemplo está configurada para reemplazar cualquier repetición del marcador de posición %1 por el identificador de factura de procesamiento.
 
@@ -218,10 +218,10 @@ La expresión **Emailing.TxtToUse.Body** del formato de muestra está configurad
 - "%5" se reemplaza por el cargo de la persona de contacto de la empresa.
 - "%6" se reemplaza por la dirección de correo electrónico de la persona de contacto de la empresa.
 
-![Correo electrónico](media/FTIbyGER-Email.PNG)
+![Correo.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Recursos adicionales
-[Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
+[Información general de los informes electrónicos (ER)](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

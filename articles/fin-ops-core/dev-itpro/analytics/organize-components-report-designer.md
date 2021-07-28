@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb3e09ad849b250ed3f1d7aec910b44d591cb88e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e1672ee1777150a7f78c03d07dc79df118a3632f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751641"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347885"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizar los componentes del informe en el diseñador de informes
 
@@ -47,7 +47,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 ### <a name="create-a-report-group"></a>Crear un grupo de informes
 
 1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
-2. En el menú **Archivo**, haga clic en **Nuevo** &gt; **Definición de grupo de informes** para abrir un nuevo grupo de informe en la ventana del visor. De forma alternativa, haga clic en el botón **Grupo de informes** ![Grupo de informes](media/report-group.gif "Grupo de informes") de la barra de herramientas.
+2. En el menú **Archivo**, haga clic en **Nuevo** &gt; **Definición de grupo de informes** para abrir un nuevo grupo de informe en la ventana del visor. De forma alternativa, haga clic en el botón **Grupo de informes** ![Grupo de informes.](media/report-group.gif "Grupo de informes") en la barra de herramientas.
 3. Haga clic en la pestaña **Grupo de informes**. Para reemplazar la información sobre las definiciones de informes individuales para la generación de este informe, active la casilla **Eliminar la configuración de empresa, detalles y fecha de las definiciones de informes individuales**. La información sobre el nombre de la empresa, el nivel de detalle, la configuración provisional y la fecha se especifica automáticamente, pero puede realizar actualizaciones.
 4. Para generar varios informes que muestren las divisas de notificación, active la casilla **Incluir todas las divisas de notificación**. A continuación, para obtener acceso a varias vistas, haga clic en el botón **Divisa** en el visor de la web al ver el informe.
 5. En el campo **Informes en grupo**, haga clic en **Agregar** para seleccionar los informes que se incluirán en el grupo de informes. Para seleccionar varios informes en el cuadro de diálogo **Agregar**, mantenga presionada la tecla Ctrl mientras selecciona los informes. Cuando haya finalizado de seleccionar informes, haga clic en **Aceptar**.
@@ -58,7 +58,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
 2. Haga doble clic en el grupo de informes para modificarlo.
 3. En la pestaña **Grupo de informes**, realice los cambios que desee.
-4. En el menú **Archivo**, haga clic en **Guardar** para guardar el grupo de informes modificado. De forma alternativa, haga clic en el botón **Guardar** ![Guardar](media/save.gif "Guardar") de la barra de herramientas.
+4. En el menú **Archivo**, haga clic en **Guardar** para guardar el grupo de informes modificado. De forma alternativa, haga clic en el botón **Guardar** ![Guardar.](media/save.gif "Guardar") en la barra de herramientas.
 
 > \[NOTA\]: Si ha programado informes para que se generen en intervalos definidos, puede anular esos ajustes y generar un informe inmediatamente.
 
@@ -66,7 +66,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 
 1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
 2. Abra el grupo de informes que desea generar.
-3. Haga clic en el botón **Generar informe** ![Generar informe](media/generate-report.gif "Generar informe") para generar informes.
+3. Haga clic en el botón **Generar informe** ![Generar informe.](media/generate-report.gif "Generar informe") para generar informes.
 
 ### <a name="delete-a-report-group"></a>Eliminar un grupo de informes
 

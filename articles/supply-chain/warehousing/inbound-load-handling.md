@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103177"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359796"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
@@ -30,7 +30,7 @@ Para cada carga entrante, su sistema ya debe incluir un pedido de ventas relacio
 
 La siguiente ilustración muestra el flujo típico para manejar cargas entrantes que tienen cantidades de pedidos de compra cuando llegan a su almacén.
 
-![El proceso de manejo de carga entrante](media/inbound-process.png "El proceso de manejo de carga entrante")
+![El proceso de manejo de carga entrante.](media/inbound-process.png "El proceso de manejo de carga entrante")
 
 1. **El proveedor confirma el pedido de compra.**
 
@@ -293,7 +293,7 @@ En esta sección, creará un elemento de menú del dispositivo móvil y lo agreg
 
     Puede dejar todas las demás configuraciones en sus valores predeterminados.
 
-    ![Configuración del elemento de menú del dispositivo móvil](media/inbound-mobile-menu-items.png "Configuración del elemento de menú del dispositivo móvil")
+    ![Configuración del elemento de menú del dispositivo móvil.](media/inbound-mobile-menu-items.png "Configuración del elemento de menú del dispositivo móvil")
 
     Para obtener más información sobre cómo configurar los elementos del menú del dispositivo móvil, vea [Configurar dispositivos móviles para trabajos de almacén](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ En este procedimiento, creará manualmente un pedido de compra y una carga asoci
     - En la ficha desplegable **Carga**, el campo **Estado de carga** se establece en _Abierto_.
     - En la sección **Líneas de carga**, hay una sola línea donde el campo **Cantidad** se establece en _10_ y el campo **Cantidad de trabajo creado** se establece en _0_ (cero).
 
-    ![Detalles de la carga](media/inbound-load-details.png "Detalles de la carga")
+    ![Detalles de la carga.](media/inbound-load-details.png "Detalles de la carga")
 
 1. En el panel de acciones, en la ficha **Enviar y recibir**, seleccione **Confirmar \> Envío entrante**. Tenga en cuenta que el **Estado de carga** ha cambiado a _Enviado_.
 1. Tome nota del valor **Id. de carga**, para que pueda usarlo en el siguiente procedimiento.

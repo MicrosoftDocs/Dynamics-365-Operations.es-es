@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4238d1aa277bf2f1df30825ef20dbf3095d13ebc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f6e791ffd15128d2076340515a08b5ea6be70dae
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800576"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346017"
 ---
 # <a name="set-up-organization-hierarchies"></a>Configurar jerarquías organizativas
 
@@ -54,7 +54,7 @@ Para crear una jerarquía organizativa, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de jerarquía organizativa creada para un conjunto de tiendas ficticio llamado "Adventure Works".
 
-![Ejemplo de jerarquía organizativa](media/organizational-hierarchies.png)
+![Ejemplo de jerarquía organizativa.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Agregar organizaciones a una jerarquía
 
@@ -67,11 +67,11 @@ Para agregar organizaciones a una jerarquía, siga estos pasos.
 
 En la siguiente imagen se muestra una entidad jurídica agregada en la raíz de la jerarquía con cuatro centros de coste agregados para los canales "Centro comercial", "Tienda de ofertas", "En línea" y "Centro de llamadas". Se pueden agregar a cada uno de ellos varios canales minoristas, de centro de llamadas y en línea.
 
-![Ejemplo de diseñador de jerarquías](media/hierarchy-designer.png)
+![Ejemplo de diseñador de jerarquías.](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[Información general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
 [Planificación de su jerarquía organizativa](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 

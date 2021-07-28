@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754607"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354454"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Agregar análisis a espacios de trabajo mediante Power BI Embedded
 
@@ -54,11 +54,11 @@ Siga estos pasos para agregar un archivo .pbix como artefacto del proyecto de Vi
 3. En el cuadro de diálogo **Agregar nuevo artículo** , en **Artefactos de operaciones**, seleccione la plantilla **Recurso**.
 4. Escriba un nombre que se usará para hacer referencia al informe en metadatos X++, y después haga clic en **Agregar**.
 
-    ![Cuadro de diálogo Agregar nuevo artículo](media/analytical-workspace-add.png)
+    ![Cuadro de diálogo Agregar nuevo artículo.](media/analytical-workspace-add.png)
 
 5. Busque el archivo .pbix que contiene la definición del informe analítico y, a continuación haga clic en **Abrir**.
 
-    ![Seleccione un cuadro de diálogo del archivo de recursos](media/analytical-workspace-select-resource.png)
+    ![Seleccione un cuadro de diálogo del archivo de recursos.](media/analytical-workspace-select-resource.png)
 
 Ahora que ha agregado el archivo .pbix como recurso de Dynamics 365, puede insertar los informes en los espacios de trabajo y agregar vínculos directos mediante elementos de menú.
 
@@ -67,7 +67,7 @@ En este ejemplo, extenderemos el espacio de trabajo **Administración de reserva
 
 La ilustración siguiente muestra qué parece el formulario **FMClerkWorkspace** en el diseñador en Microsoft Visual Studio.
 
-![Formulario FMClerkWorkspace antes de los cambios](media/analytical-workspace-definition-before.png)
+![Formulario FMClerkWorkspace antes de los cambios.](media/analytical-workspace-definition-before.png)
 
 Siga estos pasos para extender la definición del formulario para el espacio de trabajo **Administración de reserva**.
 
@@ -92,7 +92,7 @@ Siga estos pasos para extender la definición del formulario para el espacio de 
 
 La ilustración siguiente muestra el aspecto del diseño después de aplicar estos cambios.
 
-![FMClerkWorkspace después de los cambios](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace después de los cambios.](media/analytical-workspace-definition-after.png)
 
 Ahora que ha agregado los controles de formulario que se usarán para insertar el informe del espacio de trabajo, debe definir el tamaño del control principal de modo que aloje el diseño. De forma predeterminada, la página **Panel de los filtros** y la página **Ficha** serán visibles en el informe. Sin embargo, puede cambiar la visibilidad de estos controles según corresponda para el consumidor de destino del informe.
 
@@ -142,7 +142,7 @@ Siga estos pasos para agregar la lógica de negocios que inicializa el control d
 
 Ha terminado la tarea de agregar la lógica de negocios para inicializar el control del visor del informe incrustado. La ilustración siguiente muestra el aspecto del espacio de trabajo después de aplicar estos cambios.
 
-![Informe insertado en el espacio de trabajo](media/analytical-workspace-final.png)
+![Informe insertado en el espacio de trabajo.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Puede obtener acceso a la vista operativa existente mediante las fichas del espacio de trabajo de debajo del título de la página.

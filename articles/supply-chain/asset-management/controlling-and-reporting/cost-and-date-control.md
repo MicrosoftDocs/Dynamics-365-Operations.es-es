@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016164"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354963"
 ---
 # <a name="cost-and-date-control"></a>Controlar costes y fechas
 
@@ -58,7 +58,7 @@ Los cálculos realizados para los activos, las ubicaciones técnicas y las órde
 
     La ilustración siguiente muestra un ejemplo del cuadro de diálogo **Control de costes de activos**.
 
-    ![Cuadro de diálogo Control de costes de activo](media/01-controlling-and-reporting.png)
+    ![Cuadro de diálogo Control de costes de activo.](media/01-controlling-and-reporting.png)
 
 10. En la página **Control de costes de activos**, haga clic en los botones **Agrupar por** para mostrar el nivel de detalle necesario del cálculo. Se resaltarán los botones **Agrupar por** seleccionados. Haga clic en un botón para activarlo o desactivarlo.
 
@@ -71,7 +71,7 @@ La captura de pantalla siguiente muestra un ejemplo de resultados del cálculo e
 - El campo **Gasto comprometido abierto** muestra los compromisos de pago de artículos, las horas y los servicios que pedido o recibido pero que aún no pagado. 
 - El campo **Coste real** muestra los costes relacionados después de que se hayan enviado todos los registros de consumo.
 
-![Resultados del cálculo de ejemplo en Control de costes de activos](media/02-controlling-and-reporting.png)
+![Resultados del cálculo de ejemplo en Control de costes de activos.](media/02-controlling-and-reporting.png)
 
 Otra forma de realizar un cálculo de costes se seleccionar múltiples activos en **Todos los activos** o **Activos activos**. A continuación, haga clic en el botón **Control de costes** en la pestaña **General**. En el diálogo **Control de costes de activos**, los activos seleccionados se insertan automáticamente en el campo **Activo** en la ficha desplegable **Registros que incluir**. Haga clic en **Aceptar** y aparece un cálculo de costes de los activos seleccionados. El mismo procedimiento se puede realizar para las ubicaciones técnicas en **Todas las ubicaciones técnicas** o **Ubicaciones técnicas activas**, y para las órdenes de trabajo en **Todas las órdenes de trabajo** o **Órdenes de trabajo activas**.
 
@@ -99,7 +99,7 @@ La captura de pantalla siguiente muestra un ejemplo de resultados del cálculo e
 - El campo **Retraso de fin promedio** muestra la diferencia en días entre la fecha de fin programada para una orden de trabajo en comparación con la fecha de fin real. Si, por ejemplo, la fecha de fin real era tres días después de la fecha de fin programada, "3 "se mostrará en este campo.  
 - Los campos **Repeticiones** muestran el número de veces que se producen desviaciones en relación con la fecha de inicio programada y real y la fecha de fin programada y real en la orden de trabajo.
 
-![Resultados del cálculo de ejemplo en Control de fecha de orden de trabajo](media/03-controlling-and-reporting.png)
+![Resultados del cálculo de ejemplo en Control de fecha de orden de trabajo.](media/03-controlling-and-reporting.png)
 
 
 
