@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 67af34d2c9c583d8c9befbd2675cee41a3db05e0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bda671923c79d028b77e255f6e5b0e829a63e466
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753417"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351779"
 ---
 # <a name="screen-destination"></a>Destino de la pantalla
 
@@ -30,11 +30,11 @@ Puede configurar un destino de pantalla para cada componente de carpeta o archiv
 
 Si establece **Habilitado** en **Sí**, se crea una vista previa de la salida. Puede ver algunos tipos de archivo, como XML, TXT o PDF, directamente en una ventana de explorador. Para otros tipos de archivo, como Microsoft Excel o Word, se usa el servicio de Microsoft Office Online.
 
-[![Página Configuración de destino](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
+[![Página Configuración de destino.](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
+- [Información general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 
 

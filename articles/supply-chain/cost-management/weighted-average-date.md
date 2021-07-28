@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821306"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343709"
 ---
 # <a name="weighted-average-date"></a>Fecha de media ponderada
 
@@ -39,7 +39,7 @@ Media ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2
 
 Durante el cierre de inventario, el cálculo se realiza a diario hasta el período de cierre, tal y como se muestra en la ilustración siguiente. 
 
-![Modelo de cálculo diario de fecha de media ponderada](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Modelo de cálculo diario de fecha de media ponderada.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Las transacciones de inventario que salen del inventario, como los pedidos de ventas, los diarios de inventario y los pedidos de producción, se producen con un precio de coste estimado en la fecha del registro. Este precio de coste estimado recibe también el nombre de precio de coste promedio móvil. En la fecha de cierre del inventario, el sistema analizará las transacciones de inventario de los períodos anteriores, los días anteriores y del día actual. Este análisis se utiliza para determinar cuáles de los siguientes principios de cierre deberán utilizarse:
 
@@ -72,7 +72,7 @@ La ilustración que sigue muestra estas transacciones:
 -   2b. Emisión del inventario financiero actualizado para una cantidad de 2 unidades a un coste de 10,00 dólares USD por unidad.
 -   3. El cierre de inventario se realiza mediante el método de liquidación directa para liquidar la recepción financiera de inventario a la emisión financiera de inventario.
 
-![Liquidación directa de la fecha de media ponderada sin la opción Incluir valor físico en coste](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Liquidación directa de la fecha de media ponderada sin la opción Incluir valor físico en coste.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Clave de la ilustración:**
 
@@ -126,7 +126,7 @@ El sistema genera y registra la transacción de transferencia de inventario resu
 
 En la ilustración siguiente se muestra esta serie de transacciones con los efectos que resultan de elegir el modelo de inventario de media ponderada y el principio de liquidación resumida pero sin usar la opción **Incluir valor físico en coste**. 
 
-![Liquidación resumida de la fecha de media ponderada sin la opción Incluir valor físico en coste](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Liquidación resumida de la fecha de media ponderada sin la opción Incluir valor físico en coste.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Clave de la ilustración**
 
@@ -175,7 +175,7 @@ Puede marcar una transacción de emisión con una transacción de recepción ant
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente a 27,50 dólares USD. La ilustración siguiente muestra esta serie de transacciones y los efectos que resultan de usar el inventario de fecha de media ponderada y el marcado.
 
-![Fecha de media ponderada con marcado](./media/weightedaveragedatewithmarking.gif) 
+![Fecha de media ponderada con marcado.](./media/weightedaveragedatewithmarking.gif) 
 
 **Clave de la ilustración:**
 

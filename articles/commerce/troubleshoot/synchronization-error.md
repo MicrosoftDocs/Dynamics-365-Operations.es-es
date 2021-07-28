@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fa174bbb257379f6ce906dd21180bbcb19f8bc3f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 647060635813ad7e680ea88be76668818ff606d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021136"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350363"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Error de sincronización de pedidos relacionado con el servicio de pago predeterminado
 
@@ -32,7 +32,7 @@ Este tema proporciona una guía de resolución de problemas que puede ayudar a c
 
 Cuando sincroniza un pedido en línea, recibe el siguiente mensaje de error: "Debe haber un servicio de pago predeterminado para procesar transacciones con tarjeta de crédito".
 
-![Error del servicio de pago predeterminado que falta](media/default-payment-method-error.jpg)
+![Error del servicio de pago predeterminado que falta.](media/default-payment-method-error.jpg)
 
 ## <a name="resolution"></a>Resolución
 

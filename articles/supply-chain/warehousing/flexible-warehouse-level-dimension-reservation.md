@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103055"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343783"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Directiva de reserva de dimensión de nivel de almacén flexible
 
@@ -58,7 +58,7 @@ Aunque la jerarquía de reservas *Batch-below\[ubicación\]* sirve bien a los ob
 
 Para admitir la flexibilidad deseada en el comportamiento de reserva de lotes para artículos que están asociados con una jerarquía de reservas de inventario *Batch-below\[ubicación\]*, los gerentes de inventario deben seleccionar la casilla **Permitir reserva bajo pedido** para el nivel de **Número de lote** en la página **Jerarquías de reservas de inventario**.
 
-![Hacer que la jerarquía de reservas de inventario sea flexible](media/Flexible-inventory-reservation-hierarchy.png)
+![Hacer que la jerarquía de reservas de inventario sea flexible.](media/Flexible-inventory-reservation-hierarchy.png)
 
 Cuando se selecciona en la jerarquía el nivel de **Número de lote**, todas las dimensiones por encima de ese nivel hasta el nivel **Ubicación** se seleccionarán automáticamente. (Por defecto, todas las dimensiones por encima del nivel de **Ubicación** están preseleccionadas). Este comportamiento refleja la lógica en la que todas las dimensiones en el rango entre el número de lote y la ubicación también se reservan automáticamente después de reservar un número de lote específico en la línea de pedido.
 
@@ -145,7 +145,7 @@ Para este ejemplo, los datos de prueba deben estar instalados y debe usar los da
 
 6. En la página **Reserva de lotes**, seleccione la línea para el lote **B11** y luego seleccione **Reservar línea**. No existe una lógica designada para asignar ubicaciones y placas durante la reserva automática. Puede introducir manualmente la cantidad en el campo **Reserva**. Tenga en cuenta que, en la ficha desplegable **Números de lote comprometidos con la línea de origen**, el lote **B11** se muestra como **Comprometido**.
 
-    ![Confirmación de un número de lote específico en una línea de pedido de venta en la página de reserva de lote](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Confirmación de un número de lote específico en una línea de pedido de venta en la página de reserva de lote.](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > La reserva de la cantidad en una línea de pedido de ventas se puede realizar en varios lotes. Del mismo modo, la reserva del mismo lote se puede realizar en múltiples ubicaciones y placas de matrícula (si las placas están habilitadas para las ubicaciones).
@@ -154,7 +154,7 @@ Para este ejemplo, los datos de prueba deben estar instalados y debe usar los da
 
 7. Vaya a **Gestión de información de productos** \> **Productos** \> **Productos emitidos**. Seleccione su artículo y luego seleccione **Administrar inventario** \> **Ver** \> **Transacciones**.
 
-    ![Reserva confirmada por pedido como un tipo de transacción de inventario](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Reserva confirmada por pedido como un tipo de transacción de inventario.](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Revise las transacciones de inventario del artículo que están relacionadas con la reserva de línea de pedido de ventas.
 
@@ -172,7 +172,7 @@ Para este ejemplo, los datos de prueba deben estar instalados y debe usar los da
     - Para crear trabajo, el sistema usa plantillas de trabajo pero no directivas de ubicación. Todas las configuraciones estándar que se definen para las plantillas de trabajo, como un número máximo de líneas de selección o una unidad de medida específica, se aplicarán para determinar cuándo se debe crear un nuevo trabajo. Sin embargo, las reglas asociadas con las directivas de ubicación para identificar ubicaciones de selección no se tienen en cuenta, ya que la reserva confirmada por pedido ya especifica todas las dimensiones del inventario. Esas dimensiones de inventario incluyen las dimensiones en el nivel de almacenamiento del almacén. Por lo tanto, el trabajo hereda esas dimensiones sin tener que consultar las directivas de ubicación.
     - El número de lote no se muestra en la línea de selección (como es el caso de la línea de trabajo que se crea para un artículo que tiene asociada una jerarquía de reservas *Batch-above\[ubicación\]*). En cambio, el número de lote "desde" y todas las demás dimensiones de almacenamiento se muestran en la transacción de inventario de trabajo de la línea de trabajo a la que se hace referencia desde las transacciones de inventario asociadas.
 
-        ![Transacción de inventario de almacén para el trabajo que se origina en la reserva comprometida con el pedido](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Transacción de inventario de almacén para el trabajo que se origina en la reserva comprometida con el pedido.](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - Después de crear el trabajo, se elimina la transacción de inventario del artículo donde el campo **Referencia** se establece en **Reserva comprometida con el pedido**. La transacción de inventario donde el campo **Referencia** se establece en **Trabajo** mantiene la reserva física en todas las dimensiones de inventario de la cantidad.
 
@@ -207,7 +207,7 @@ Antes de que pueda usar la reserva de matrícula de entidad de almacén flexible
 
 Para habilitar la reserva de matrículas de entidad en un pedido, debe seleccionar la casilla **Permitir reserva bajo pedido** para el nivel **Matrícula de entidad** en la página **Jerarquías de reserva de inventario** para la jerarquía asociada con el elemento relevante.
 
-![Página de jerarquías de reserva de inventario para una jerarquía de reserva de matrículas de entidad flexible](media/Flexible-LP-reservation-hierarchy.png)
+![Página de jerarquías de reserva de inventario para una jerarquía de reserva de matrículas de entidad flexible.](media/Flexible-LP-reservation-hierarchy.png)
 
 Puede habilitar la reserva de matrículas en el pedido en cualquier punto de su implementación. Este cambio no afectará ninguna reserva o al trabajo de almacén abierto que se creó antes de que ocurriera el cambio. Sin embargo, no puede anular la selección de la casilla de verificación **Permitir reserva bajo pedido** si existen transacciones de inventario de salida con un estado de problema de *En pedido*, *Pedido reservado* o *Cantidad física reservada* para uno o más elementos que están asociados con esa jerarquía de reservas.
 
@@ -227,7 +227,7 @@ Cuando la línea de pedido de ventas que utiliza una reserva de matrícula de en
 
 Si un elemento de trabajo de almacén consta de líneas que equivalen a un pallet completo y tienen cantidades confirmadas por la matrícula de entidad de almacén, puede optimizar el proceso de selección utilizando un elemento de menú del dispositivo móvil donde la opción **Gestionar por matrícula de entidad de almacén** esté establecida en *Sí*. Un trabajador del almacén puede escanear una placa para completar una selección en lugar de tener que escanear los artículos del trabajo uno por uno.
 
-![Elemento del menú del dispositivo móvil en el que la opción Gestionar por matrícula de entidad de almacén está establecida en Sí](media/Handle-by-LP-menu-item.png)
+![Elemento del menú del dispositivo móvil en el que la opción Gestionar por matrícula de entidad de almacén está establecida en Sí.](media/Handle-by-LP-menu-item.png)
 
 Dado que la funcionalidad **Gestionar por matrícula de entidad de almacén** no admite trabajos que cubran múltiples pallets, es mejor tener un elemento de trabajo separado para diferentes matrículas de entidad. Para usar este enfoque, agregue el campo **Id. de matrícula de entidad de almacén confirmada por pedido** como un salto de encabezado de trabajo en la página **Plantilla de trabajo**.
 
@@ -249,7 +249,7 @@ Este escenario hace referencia a valores y registros que se incluyen en los dato
 1. En el campo **Nombre**, escriba un valor (por ejemplo, *FlexibleLP*).
 1. En el campo **Descripción**, indique un valor (por ejemplo, *Reserva de Flexible LP*).
 1. En la lista **Seleccionado**, seleccione **Número de lote**, **Número de serie** y **Propietario**.
-1. Seleccione el botón **Quitar** ![flecha hacia atrás](media/backward-button.png) para mover los registros seleccionados a la lista **Disponible**.
+1. Selecciona el botón **Eliminar** ![Flecha hacia atrás.](media/backward-button.png) para mover los registros seleccionados a la lista **Disponible**.
 1. Seleccione **Aceptar**.
 1. En la fila para el nivel de dimensión **Matrícula de entidad**, seleccione la casilla **Permitir reserva bajo pedido**. El nivel **Ubicación** se seleccionan automáticamente y no se pueden desactivar la casilla de verificación para este.
 1. Seleccione **Guardar**.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941064"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350821"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante la sincronización
 
@@ -38,7 +38,7 @@ Este tema proporciona información para solución de problemas de integración d
 
 Después de habilitar las plantillas de asignación, el estado de los mapas debe ser **Ejecutando**. Si el estado es **No ejecutando**, se produjeron errores durante la sincronización inicial. Para ver los errores, seleccione la pestaña **Detalles de sincronización inicial** en la página **Escritura doble**.
 
-![Error en la pestaña Detalles de sincronización inicial](media/initial_sync_status.png)
+![Error en la pestaña Detalles de sincronización inicial.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>No puede completar la sincronización inicial: 400 Solicitud incorrecta
 
@@ -85,7 +85,7 @@ Para arreglar el problema, siga estos pasos.
 1. Iniciar sesión en la aplicación Finance and Operations.
 2. En la págona **aplicaciones Azure Active Directory**, elimine el cliente **DtAppID**, y luego agréguelo nuevamente.
 
-![Cliente DtAppID en la lista de aplicaciones de Azure AD](media/aad_applications.png)
+![Cliente DtAppID en la lista de aplicaciones de Azure AD.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Errores de autorreferencia o de referencia circular durante la sincronización inicial
 
@@ -115,11 +115,11 @@ Si tiene filas con valores en estos campos en la tabla del proveedor, en las col
     2. Busque **primarycontactperson** para encontrar la columna de origen **PrimaryContactPersonId**.
     3. Seleccione **Acciones** y luego seleccione **Eliminar**.
 
-        ![Eliminar la columna PrimaryContactPersonId](media/vend_selfref3.png)
+        ![Eliminar la columna PrimaryContactPersonId.](media/vend_selfref3.png)
 
     4. Repita estos pasos para eliminar la columna **InvoiceVendorAccountNumber**.
 
-        ![Eliminar la columna InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![Eliminar la columna InvoiceVendorAccountNumber.](media/vend-selfref4.png)
 
     5. Guardar los cambios en la asignación.
 
@@ -129,11 +129,11 @@ Si tiene filas con valores en estos campos en la tabla del proveedor, en las col
     2. Seleccione la tabla **Proveedores V2**.
     3. En el panel de acciones, seleccione **Opciones** y después seleccione **Change Tracking**.
 
-        ![Seleccionar la opción Change Tracking](media/selfref_options.png)
+        ![Seleccionar la opción Change Tracking.](media/selfref_options.png)
 
     4. Seleccione **Deshabilitar Change Tracking**.
 
-        ![Seleccionar Deshabilitar Change Tracking](media/selfref_tracking.png)
+        ![Seleccionar Deshabilitar Change Tracking.](media/selfref_tracking.png)
 
 3. Ejecutar la sincronización inicial para la asignación de **Proveedores V2 (msdyn\_vendors)**. La sincronización inicial debe ejecutarse correctamente sin ningún error.
 4. Ejecute la sincronización inicial para la asignación **Contactos CDS V2 (contactos)**. Debe sincronizar esta asignación si desea sincronizar la columna de contacto principal en la tabla proveedores, ya que la sincronización inicial también debe efectuarse para las filas de contactos.
@@ -162,11 +162,11 @@ Si tiene filas en la tabla del cliente con valores en las columnas **ContactPers
     2. Busque **contactperson** para encontrar la columna de origen **ContactPersonID**.
     3. Seleccione **Acciones** y luego seleccione **Eliminar**.
 
-        ![Eliminar la columna ContactPersonID](media/cust_selfref3.png)
+        ![Eliminar la columna ContactPersonID.](media/cust_selfref3.png)
 
     4. Repita estos pasos para eliminar la columna **InvoiceAccount**.
 
-        ![Eliminar la columna InvoiceAccount](media/cust_selfref4.png)
+        ![Eliminar la columna InvoiceAccount.](media/cust_selfref4.png)
 
     5. Guardar los cambios en la asignación.
 
@@ -176,11 +176,11 @@ Si tiene filas en la tabla del cliente con valores en las columnas **ContactPers
     2. Seleccione la tabla **Clientes V3**.
     3. En el panel de acciones, seleccione **Opciones** y después seleccione **Change Tracking**.
 
-        ![Seleccionar la opción Change Tracking](media/selfref_options.png)
+        ![Seleccionar la opción Change Tracking.](media/selfref_options.png)
 
     4. Seleccione **Deshabilitar Change Tracking**.
 
-        ![Seleccionar Deshabilitar Change Tracking](media/selfref_tracking.png)
+        ![Seleccionar Deshabilitar Change Tracking.](media/selfref_tracking.png)
 
 3. Ejecute otra vez la sincronización inicial para la asignación **Clientes V3 (Cuentas)**. La sincronización inicial debe ejecutarse correctamente sin ningún error.
 4. Ejecute la sincronización inicial para la asignación **Contactos CDS V2 (contactos)**.
@@ -196,7 +196,7 @@ Si tiene filas en la tabla del cliente con valores en las columnas **ContactPers
 
         La siguiente ilustración muestra un proyecto que actualiza **CustomerAccount** y **ContactPersonId**.
 
-        ![Proyecto de integración de datos para actualizar CustomerAccount y ContactPersonId](media/cust_selfref6.png)
+        ![Proyecto de integración de datos para actualizar CustomerAccount y ContactPersonId.](media/cust_selfref6.png)
 
     2. Agregue los criterios de la empresa en el filtro del lado Dataverse, de forma que solo las filas que coinciden con los criterios de filtro se actualizarán en la aplicación Finance and Operations. Para agregar un filtro, seleccione el botón del filtro. Posteriormente, en el cuadro de diálogo **Editar consulta** puede agregar una consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**. 
 
@@ -204,7 +204,7 @@ Si tiene filas en la tabla del cliente con valores en las columnas **ContactPers
 
         Si no especifica una consulta de filtro para **\_msdyn\_company\_value**, entonces todas las filas se sincronizarán.
 
-        ![Agregar una consulta de filtro](media/cust_selfref7.png)
+        ![Agregar una consulta de filtro.](media/cust_selfref7.png)
 
     La sincronización inicial de las filas ahora se ha completado.
 

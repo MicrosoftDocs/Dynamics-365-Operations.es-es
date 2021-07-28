@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809743"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344553"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO con valor físico y marcado
 
@@ -53,7 +53,7 @@ En este ejemplo, el grupo de modelos de artículo no está marcado para incluir 
 
 El nuevo precio de coste promedio móvil reflejará la media de transacciones actualizadas financieramente de 15,00 dólares USD. El ejemplo siguiente muestra los efectos del modelo de inventario LIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. 
 
-![LIFO sin Incluir valor físico en coste](./media/lifowithoutincludephysicalvalue.gif) 
+![LIFO sin Incluir valor físico en coste.](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -89,7 +89,7 @@ La transacción 6a se ajustará a la transacción de recepción 4b. El sistema n
 
 La ilustración siguiente muestra los efectos del modelo de inventario LIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. 
 
-![LIFO con Incluir valor físico en coste](./media/lifowithincludephysicalvalue.gif) 
+![LIFO con Incluir valor físico en coste.](./media/lifowithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -133,7 +133,7 @@ El nuevo precio de coste promedio móvil refleja la media de las transacciones a
 
 La ilustración siguiente muestra los efectos del modelo de inventario LIFO en esta serie de transacciones al emplear marcado entre emisiones y recepciones. 
 
-![LIFO con marcado](./media/lifowithmarking.gif) 
+![LIFO con marcado.](./media/lifowithmarking.gif) 
 
 **Clave del diagrama**
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 47551f52f35fec5ae49d696e3f4027b7d2eb2e19
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 27f6750dd91a211ad12a1bd5d9c4ab9a2e1e4a79
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023576"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358419"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>Configurar los multivencimientos con la asignación de TDS
 
@@ -31,7 +31,7 @@ Este tema explica cómo configurar multivencimientos con la asignación de impue
 
 1. Vaya a **Proveedores \> Configuración de pagos \> Multivencimientos**.
 
-    [![Página de multivencimientos](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
+    [![Página de multivencimientos.](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
 
 2. En el panel de acciones, seleccione **Nuevo** para crear un multivencimiento e introduzca los detalles requeridos.
 3. En el campo **Asignación**, seleccione el método que se utilizará para asignar el pago para el multivencimiento:

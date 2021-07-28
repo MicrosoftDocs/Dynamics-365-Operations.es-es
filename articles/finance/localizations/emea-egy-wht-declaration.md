@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: afb9f95458089e854335399ea3d14ba229c02bbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022820"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349882"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Declaración de retención de impuestos para Egipto (EG-00005)
 
@@ -103,7 +103,7 @@ Para generar los informes del formulario de declaración WHT en Microsoft Excel,
 2. En la pestaña **Retención de impuestos**, en el campo **Asignación de formato de declaración WHT**, seleccione **Excel de declaración WHT (EG)**. Si deja el campo en blanco, el informe estándar de impuestos sobre las ventas se generará en formato SSRS.
 
 
-![Formulario de declaración](media/egypt-wht-declaration-setup1.png)
+![Formulario de declaración.](media/egypt-wht-declaration-setup1.png)
 
 ## <a name="generate-the-withholding-declaration-forms"></a>Generar los formularios de declaración de retención
 El proceso de preparación y envío de un formulario de declaración de retención para un período específico se basa en las transacciones de retención de impuestos contabilizadas durante el trabajo de liquidación y contabilización de pago de impuestos. Para obtener más información sobre la retención de impuestos global, consulte [Retención global de impuestos](../general-ledger/global-withholding-tax-overview.md).

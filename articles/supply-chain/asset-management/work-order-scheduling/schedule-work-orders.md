@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813758"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347125"
 ---
 # <a name="schedule-work-orders"></a>Programar órdenes de trabajo
 
@@ -56,7 +56,7 @@ Solo se pueden programar las órdenes de trabajo con un estado de ciclo de vida 
 
 *Ejemplo:* en la ilustración siguiente, la fórmula insertada en el campo **Inicio previsto** generará la programación de la orden de trabajo para todas las órdenes de trabajo con fecha de inicio prevista de aquí a una semana y posteriormente. Esta fórmula puede ser útil cuando ejecute la programación de una orden de trabajo de forma continua, pero desea asegurarse de que las órdenes de trabajo programadas para los próximos 5-6 días no se vuelvan a programar.
 
-![Figura 1](media/03-work-order-scheduling.png)
+![Figura 1.](media/03-work-order-scheduling.png)
 
 El tipo de orden de trabajo relacionada con órdenes de trabajo puede configurar la programación para un trabajador de mantenimiento (botón de alternancia **Administración de activos** > **Configuración** > **Órdenes de trabajo** > **Tipos de órdenes de trabajo** > **Un trabajador de mantenimiento** establecido en "Sí"). Esto significa que si se utiliza el tipo de orden del trabajo en una orden de trabajo, el botón de alternancia **Un trabajador de mantenimiento** se establece automáticamente en "Sí" en la página de detalles **Todas las órdenes de trabajo** > vista **Encabezado** > ficha desplegable **Programar**. Durante la programación de la orden de trabajo, todas las tareas de la orden de trabajo creados en la orden de trabajo se programarán posteriormente al mismo trabajador de mantenimiento. Si es necesario, puede editar la selección en el botón de alternancia **Un trabajador de mantenimiento** en **Todas las órdenes de trabajo** para permitir la programación de varios trabajadores o de un trabajador en los trabajos de la orden de trabajo.
 

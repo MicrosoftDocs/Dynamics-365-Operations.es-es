@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261705"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347767"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Métodos de reabastecimiento y modificación de cantidades
 
@@ -34,15 +34,15 @@ Los siguientes códigos de cobertura se pueden utilizar en Planning Optimization
 
 - **Período**: el método de reabastecimiento combina toda la demanda durante un período en un pedido del producto. El pedido se planificará se para el primer día del período y la cantidad satisfará los requisitos netos durante el período establecido. El período comienza con la primera demanda del producto y cubre la longitud definida de tiempo. El período siguiente comenzará con los siguientes requisitos del producto. El código de cobertura *Período* se utiliza a menudo para la extracción de inventario no predecible, productos influenciados por la temporada o productos de alto costo. En la ilustración siguiente se muestra un ejemplo.
 
-    ![Ejemplo de uso del código de cobertura del período](./media/coverage-code-period.png "Ejemplo de uso del código de cobertura del período")
+    ![Ejemplo de uso del código de cobertura del período.](./media/coverage-code-period.png "Ejemplo de uso del código de cobertura del período")
 
 - **Requisito**: en el método de reabastecimiento, el sistema crea una compra, una transferencia, o un pedido de producción planificados de acuerdo con el requisito del producto. Este método se utiliza para productos costosos que tienen una demanda intermitente. El código de cobertura *Requisito* se usa a menudo para productos configurables o escenarios de fabricación bajo pedido. En la ilustración siguiente se muestra un ejemplo.
 
-    ![Ejemplo de uso del código de cobertura de requisito](./media/coverage-code-requirement.png "Ejemplo de uso del código de cobertura de requisito")
+    ![Ejemplo de uso del código de cobertura de requisito.](./media/coverage-code-requirement.png "Ejemplo de uso del código de cobertura de requisito")
 
 - **Mín./Máx.** - El método de reabastecimiento se basa en el nivel de inventario. Define la reposición del inventario hasta un nivel específico cuando el nivel disponible previsto está por debajo de un umbral específico. La cantidad de reabastecimiento será la diferencia entre el nivel máximo y el nivel disponible previsto. El código de cobertura *Mínimo/Máximo* se utiliza a menudo para obtener un inventario predecible, productos de alto rendimiento o productos menos costosos. En la ilustración siguiente se muestra un ejemplo.
 
-    ![Ejemplo de uso del código de cobertura de mínimo/máximo](./media/coverage-code-min-max.png "Ejemplo de uso del código de cobertura de mínimo/máximo")
+    ![Ejemplo de uso del código de cobertura de mínimo/máximo.](./media/coverage-code-min-max.png "Ejemplo de uso del código de cobertura de mínimo/máximo")
 
 - **Manual**: en el método de reabastecimiento, el sistema no sugiere pedidos de compra, transferencia o producción para el producto. En cambio, el planificador del producto es responsable de crear los pedidos necesarios para el reabastecimiento del producto. El código de cobertura *Manual* se usa a menudo para productos para los que no se necesitan pedidos planificados generados por el sistema.
 

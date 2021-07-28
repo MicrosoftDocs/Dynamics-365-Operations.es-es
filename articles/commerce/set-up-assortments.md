@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 447c5f580e5d925efbfeaabc3890e2d67f9688f5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790991"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344356"
 ---
 # <a name="set-up-assortments"></a>Configurar selecciones
 
@@ -31,7 +31,7 @@ Este artículo describe qué es una selección y explica cómo configurar selecc
 
 Una selección es una colección de productos relacionados que se asigna a un canal de Commerce, como una tienda física o en línea. Las selecciones se usan para identificar los productos disponibles en cada tienda. Una selección puede incluir categorías de productos. Por lo tanto, todos los productos asignados a una categoría específica se incluyen en la selección. Una selección también puede incluir productos específicos y variantes específicas de producto. Al configurar una selección, puede asignar miles de productos a los canales al mismo tiempo, en cualquier combinación que las tiendas requieran. Puede configurar tantas selecciones de producto como sea necesario. Cada producto se puede incluir en una o varias selecciones y cada selección se puede asignar a uno o varios canales. Por ejemplo, puede definir una selección que incluya un conjunto básico de productos. Todas las tiendas reciben esta selección. A continuación, puede definir otra selección que incluya solo equipamiento deportivo en gran volumen. Solo sus tiendas más grandes reciben esta selección. En el diagrama siguiente se muestra cómo se pueden asignar los productos a selecciones y cómo se pueden asignar las selecciones a los canales.
 
-![Relaciones de selecciones de productos](./media/assortments_relationship.gif)
+![Relaciones de selecciones de productos.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Requisitos previos
 

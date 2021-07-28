@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021280"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345533"
 ---
 # <a name="archive-inventory-transactions"></a>Archivar transacciones del inventario
 
@@ -64,7 +64,7 @@ Para archivar transacciones de inventario, siga estos pasos.
 
     La página **Archivo de transacciones de inventario** aparece y muestra una lista de registros de procesos archivados.
 
-    ![Página Archivar transacciones de inventario](media/archive-inventory-empty.png "Página Archivar transacciones de inventario")
+    ![Página Archivar transacciones de inventario.](media/archive-inventory-empty.png "Página Archivar transacciones de inventario")
 
 1. En el panel de acciones, seleccione **Archivo de transacciones de inventario** para crear un archivo de transacciones de inventario.
 1. En el cuadro de diálogo **Archivo de transacciones de inventario**, en la ficha desplegable **Parámetros**, establezca los siguientes campos:
@@ -72,7 +72,7 @@ Para archivar transacciones de inventario, siga estos pasos.
     - **Desde la fecha en el período del libro mayor cerrado** - Seleccione la fecha de transacción más temprana para incluir en el archivo.
     - **Hasta la fecha en el período del libro mayor cerrado** - Seleccione la fecha de transacción más tardía para incluir en el archivo.
 
-    ![Cuadro de diálogo Archivar transacciones de inventario](media/archive-inventory-dates.png "Cuadro de diálogo Archivar transacciones de inventario")
+    ![Cuadro de diálogo Archivar transacciones de inventario.](media/archive-inventory-dates.png "Cuadro de diálogo Archivar transacciones de inventario")
 
     > [!NOTE]
     > Sólo períodos que cumplen con los [prerrequisitos](#prerequisites) estarán disponible para su selección.
@@ -87,7 +87,7 @@ Para archivar transacciones de inventario, siga estos pasos.
 
 La página **Archivo de transacciones de inventario** muestra su historial de archivo completo. Cada fila de la cuadrícula muestra información como la fecha en la que se creó el archivo, el usuario que lo creó y su estado.
 
-![Historial de archivo en la página Archivo de transacciones de inventario](media/archive-inventory-full.png "Historial de archivo en la página Archivo de transacciones de inventario")
+![Historial de archivo en la página Archivo de transacciones de inventario.](media/archive-inventory-full.png "Historial de archivo en la página Archivo de transacciones de inventario")
 
 En la lista desplegable en la parte superior de la página, seleccione uno de los siguientes valores para filtrar los archivos que se muestran en la cuadrícula:
 
@@ -109,7 +109,7 @@ La barra de herramientas sobre la cuadrícula proporciona los siguientes botones
 
 - **Transacciones archivadas** - Ver los detalles completos del archivo seleccionado. La página **Transacciones archivadas** que aparece muestra todas las transacciones en el archivo.
 
-    ![Página Transacciones archivadas](media/archive-inventory-transactions.png "Página Transacciones archivadas")
+    ![Página Transacciones archivadas.](media/archive-inventory-transactions.png "Página Transacciones archivadas")
 
     Para ver más información sobre una transacción específica en la página **Transacciones archivadas**, selecciónela en la cuadrícula y, a continuación, en el Panel de acciones, seleccione **Detalles de transacción archivados**. La página **Detalles de transacción archivados** que aparece muestra información como la contabilización del libro mayor, las referencias del libro mayor auxiliar relacionadas y las dimensiones financieras.
 

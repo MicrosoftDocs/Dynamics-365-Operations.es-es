@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838870"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350081"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numeración cronológica de documentos y vales
 
@@ -69,7 +69,7 @@ Para definir secuencias numéricas, vaya a **Administración de la organización
 
 Especifique una empresa para cada secuencia numérica. Los segmentos de las secuencias numéricas deben definirse de modo que proporcionen un orden cronológico a los períodos. Por ejemplo, los nombres de los segmentos pueden contener un prefijo especial que identifique un período específico.
 
-![Configurar secuencia numérica](media/chrono-num-sequence.jpg)
+![Configurar secuencia numérica.](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Configurar grupos de secuencias numéricas
 
@@ -77,7 +77,7 @@ Para configurar grupos de secuencias numéricas, vaya a **Clientes** > **Configu
 
 Para cada grupo, en la sección **Referencia**, seleccione una de las referencias de documentos compatibles y, en el campo **Código de secuencia numérica**, haga referencia a una secuencia numérica que se creó previamente para el período relacionado.
 
-![Configurar grupo de secuencias numéricas](media/chrono-num-sequence-group.jpg)
+![Configurar grupo de secuencias numéricas.](media/chrono-num-sequence-group.jpg)
 
 De manera similar, configure grupos de secuencias numéricas en los módulos **Proveedores** y **Gestión de proyectos y contabilidad**.
 
@@ -85,7 +85,7 @@ De manera similar, configure grupos de secuencias numéricas en los módulos **P
 
 Para configurar la cronología de los grupos de secuencias numéricas, vaya a **Administración de la organización** > **Secuencias numéricas** > **Grupos de secuencias numéricas cronológicas**. Defina las condiciones de aplicabilidad para grupos de secuencias numéricas.
 
-![Configuración de números cronológicos](media/chrono-num-sequence-group-period.jpg)
+![Configuración de números cronológicos.](media/chrono-num-sequence-group-period.jpg)
 
 | Campo            | Descripción                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Para configurar la cronología de los grupos de secuencias numéricas, vaya a **
 ## <a name="document-posting"></a>Contabilización de documentos
 Al registrar un documento, el grupo de secuencias numéricas apropiado se asigna al documento, según la fecha de contabilidad del documento, y luego se usa para generar un número de documento basado en la secuencia numérica detectada. El sistema proporciona un mensaje sobre la asignación del grupo de secuencias numéricas.
 
-![Número de documento](media/chrono-num-sequence-fti.jpg)
+![Número de documento.](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > Para algunos países, ya existe una lógica específica implementada para la numeración de documentos. En este caso, la lógica específica del país anulará la característica **Numeración cronológica**.

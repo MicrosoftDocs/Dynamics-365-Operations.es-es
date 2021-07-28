@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830133"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352721"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Media ponderada con valor físico y marcado
 
@@ -65,7 +65,7 @@ En las siguientes secciones del escenario, se ha registrado una recepción y una
 
 En el diagrama siguiente se muestra esta serie de transacciones con los efectos que resultan de elegir el modelo de inventario de media ponderada y el principio de liquidación directa sin la opción Incluir valor físico en coste. 
 
-![LD de media ponderada sin Incluir valor físico en coste](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![LD de media ponderada sin Incluir valor físico en coste.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 - Las transacciones de inventario se representan por medio de flechas verticales.
@@ -99,7 +99,7 @@ En el gráfico que aparece a continuación se muestran las transacciones siguien
 
 En el diagrama siguiente se muestra esta serie de transacciones con los efectos que resultan de elegir el modelo de inventario de media ponderada y el principio de liquidación resumida sin la opción Incluir valor físico en coste. 
 
-![LR de media ponderada sin Incluir valor físico en coste](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![LR de media ponderada sin Incluir valor físico en coste.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 - Las transacciones de inventario se representan por medio de flechas verticales.
@@ -128,7 +128,7 @@ En el gráfico que se incluye a continuación se muestran las siguientes transac
 
 En el diagrama siguiente se muestra esta serie de transacciones con los efectos que resultan de elegir el modelo de inventario de media ponderada y el principio de liquidación directa con la opción Incluir valor físico en coste. 
 
-![LD de media ponderada con Incluir valor físico en coste](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![LD de media ponderada con Incluir valor físico en coste.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 - Las transacciones de inventario se representan por medio de flechas verticales.
@@ -161,7 +161,7 @@ En el gráfico que aparece a continuación se muestran las transacciones siguien
 
 En el diagrama siguiente se muestra esta serie de transacciones con los efectos que resultan de elegir el modelo de inventario de media ponderada y el principio de liquidación resumida sin la opción Incluir valor físico en coste. 
 
-![LR de media ponderada con Incluir valor físico en coste](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![LR de media ponderada con Incluir valor físico en coste.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 - Las transacciones de inventario se representan por medio de flechas verticales.
@@ -209,7 +209,7 @@ El nuevo precio de coste promedio móvil refleja la media de las transacciones a
 
 En el diagrama siguiente se muestra esta serie de transacciones con los efectos que resultan de la selección del modelo de inventario de media ponderada con marcado. 
 
-![Media ponderada con marcado](./media/weightedaveragewithmarking.gif) 
+![Media ponderada con marcado.](./media/weightedaveragewithmarking.gif) 
 
 **Clave del diagrama**
 - Las transacciones de inventario se representan por medio de flechas verticales.

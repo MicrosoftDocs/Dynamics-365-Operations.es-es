@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 20671
+ms.custom:
+- "20671"
+- intro-internal
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 799619e6fc03174c8ad47512ea839ca7b2aab20e
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 931339ea42d0ce504f61d7bc3de4bec876fc22ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898145"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348538"
 ---
 # <a name="accounts-receivable-home-page"></a>Página principal de clientes
 
@@ -31,11 +33,11 @@ Use Clientes para controlar todas las facturas de cliente y los pagos entrantes.
 Puede crear facturas de cliente basadas en pedidos de ventas o albaranes. También se pueden especificar facturas de servicios que no estén relacionadas con pedidos de ventas. Puede recibir pagos mediante varios tipos de pago. Entre estos se incluyen letras de cambio, efectivo, cheques, tarjetas de crédito y pagos electrónicos. Si la organización incluye varias entidades jurídicas, puede usar pagos centralizados para registrar pagos en una entidad jurídica única en nombre de las demás entidades jurídicas.
 
 
-**Procesos empresariales**
+**Procesos de negocio**
 
-[![Proceso empresarial](./media/AR-process.PNG)](./media/AR-process.PNG)
+[![Proceso de negocio.](./media/AR-process.PNG)](./media/AR-process.PNG)
 
-## <a name="set-up-accounts-receivable"></a>Configurar clientes
+## <a name="set-up-accounts-receivable"></a>Configurar Clientes
 
 Use Clientes para controlar todas las facturas y los pagos que reciba de los clientes. Puede configurar los grupos de clientes, perfiles de registro, notas de interés, cartas de cobro, comisiones, parámetros relativos a los clientes, cargos, entregas y destinos, letras de cambio, así como otros tipos de informaciones de clientes. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2c70b6ecd284acc8817970e090583603d1b8e110
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189651"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345413"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrar el material de consumo mediante un dispositivo móvil
 
@@ -30,7 +30,7 @@ Este tema describe un flujo de trabajo que habilita el registro de consumo de ma
 
 ## <a name="introduction"></a>Introducción
 
-Este flujo de trabajo es relevante si hay un requisito estricto para la trazabilidad del material. En tales casos, para mantener la trazabilidad de los materiales, la hora y la cantidad exactas se deben notificar para el consumo. Este proceso se puede ver en comparación con operaciones de autoconsumo o flujo invertido, donde hay una demora entre la hora de registro y la hora en la que tiene lugar el consumo real. Esto explica por qué una estrategia de consumo automático no se puede usar para algunos materiales con requisitos de la trazabilidad. Miremos una situación de ejemplo sencilla que explica cómo configurar un flujo de trabajo para habilitar el registro de consumo de materias primas en la producción mediante un dispositivo de mano. [![configurar un flujo de trabajo para habilitar el registro de consumo de materias primas mediante un dispositivo de mano](./media/scenario3.png)](./media/scenario3.png)
+Este flujo de trabajo es relevante si hay un requisito estricto para la trazabilidad del material. En tales casos, para mantener la trazabilidad de los materiales, la hora y la cantidad exactas se deben notificar para el consumo. Este proceso se puede ver en comparación con operaciones de autoconsumo o flujo invertido, donde hay una demora entre la hora de registro y la hora en la que tiene lugar el consumo real. Esto explica por qué una estrategia de consumo automático no se puede usar para algunos materiales con requisitos de la trazabilidad. Miremos una situación de ejemplo sencilla que explica cómo configurar un flujo de trabajo para habilitar el registro de consumo de materias primas en la producción mediante un dispositivo de mano. [![configurar un flujo de trabajo para habilitar el registro de consumo de materias primas mediante un dispositivo de mano.](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Detalles del escenario
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799930"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349707"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Habilitar y configurar cargos automáticos por canal
 
@@ -66,7 +66,7 @@ Para asignar una jerarquía predeterminada a un propósito de jerarquía de orga
 1. En el panel de acciones, seleccione **Ejecutar ahora**.
 1. Repita los dos pasos anteriores para ejecutar los trabajos **1070** (**Configuración del canal**) y **1110** (**Configuración global**).
 
-![Configuración del propósito de la jerarquía organizativa de cargo automático minorista](media/Auto-charges-org-hierarchy-purpose.png)
+![Configuración del propósito de la jerarquía organizativa de cargo automático minorista.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Defina cargos automáticas por canal
 
@@ -86,7 +86,7 @@ Para definir los cargos automáticos por canal en Commerce, siga estos pasos.
 1. En el panel de acciones, seleccione **Ejecutar ahora**.
 1. Repita los dos pasos anteriores para ejecutar los trabajos **1070** (**Configuración del canal**) y **1110** (**Configuración global**).
     
-![Cargos automáticos definidos por canal](media/Auto-charges-line-charge-by-channel.png)
+![Cargos automáticos definidos por canal.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Supuesto de ejemplo
 
@@ -94,7 +94,7 @@ El siguiente ejemplo describe los pasos necesarios para configurar un producto p
 
 La organización define un código de cargos que se denomina **RECICLAR**, como se muestra en la siguiente ilustración.
 
-![Código de cargos de RECICLAR](media/Auto-charges-charge-code.png)
+![Código de cargos de RECICLAR.](media/Auto-charges-charge-code.png)
 
 Se crea un cargo automático al nivel de línea. Tiene la siguiente configuración:
 
@@ -112,13 +112,13 @@ Se crea una línea de cargos automáticos. Tiene la siguiente configuración:
 - El campo **Categoría** se establece en **Fijo**.
 - El campo **Cargos** se establece en **6,25 $**.
 
-![Configuración del cargo automática de nivel de línea y la línea de cargo automática](media/Auto-charges-recyclingfee-line-fee.png)
+![Configuración del cargo automática de nivel de línea y la línea de cargo automática.](media/Auto-charges-recyclingfee-line-fee.png)
 
 En la aplicación PDV, se crea un pedido de ventas en el canal de la tienda **San Francisco**. La línea **Cargos** línea muestra la tarifa de reciclaje de **6,25 $**.
 
 Seleccionando **Opciones de transacción \> Cargos \> Administrar cargos** en la aplicación PDV, puede ver el código de cargos y la descripción de la tarifa de reciclaje.
 
-![Tarifa de reciclaje en la aplicación PDV](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Tarifa de reciclaje en la aplicación PDV.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

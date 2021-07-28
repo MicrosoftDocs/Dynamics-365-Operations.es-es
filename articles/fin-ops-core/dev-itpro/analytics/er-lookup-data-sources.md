@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 131d14f1f1aa329bd71b1f8a4015192736bd8e44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 682910350832e441ed13c716c0c18200a3b7865d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022584"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351082"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Configurar las fuentes de datos de búsqueda para utilizar parámetros específicos de la aplicación de informes electrónicos 
 
@@ -44,38 +44,38 @@ Puede configurar los siguientes tipos de orígenes de datos de **búsqueda** seg
 
 La siguiente ilustración muestra cómo se puede configurar una enumeración de formato en el formato ER de muestra.
 
-   ![Mostrar una enumeración de formato como base para la fuente de datos de búsqueda configurada](./media/er-lookup-data-sources-img1.gif)
+   ![Mostrar una enumeración de formato como base para la fuente de datos de búsqueda configurada.](./media/er-lookup-data-sources-img1.gif)
 
 La siguiente ilustración muestra los componentes de formato que se configuraron para informar diferentes tipos de impuestos en una sección diferente de un informe generado.
 
-   ![Mostrar las secciones de formato para informar por separado diferentes tipos de impuestos](./media/er-lookup-data-sources-img2.png)
+   ![Mostrar las secciones de formato para informar por separado diferentes tipos de impuestos.](./media/er-lookup-data-sources-img2.png)
 
 La siguiente ilustración muestra cómo el diseñador de operaciones de ER permite la adición de una fuente de datos del tipo **Formato de enumeración\Búsqueda**.  La fuente de datos agregada se configura para devolver un valor de la enumeración de formato de `List of taxation levels`.
 
-   ![Agregar una fuente de datos ER del tipo de enumeración\Búsqueda de formato](./media/er-lookup-data-sources-img3.gif)
+   ![Agregar una fuente de datos ER del tipo de enumeración\Búsqueda de formato.](./media/er-lookup-data-sources-img3.gif)
 
 La siguiente ilustración muestra cómo la fuente de datos agregada está configurada para usar el campo **Código** de la lista de registros **Model.Data.Tax** del origen de datos **Modelo** como parámetro que debe especificarse para cada regla configurada.
 
-![Configuración de parámetros de la fuente de datos agregada del tipo de enumeración\Búsqueda de formato](./media/er-lookup-data-sources-img4.gif)
+![Configuración de parámetros de la fuente de datos agregada del tipo de enumeración\Búsqueda de formato.](./media/er-lookup-data-sources-img4.gif)
 
 La fuente de datos `Model.Data.Tax` agregada está configurada para especificar un código de impuestos para cada regla configurada accediendo a los registros de la tabla de aplicaciones **TaxTable**.
 
-   ![Revisión del origen de datos de búsqueda de una empresa de tipo de enumeración\Búsqueda de formato](./media/er-lookup-data-sources-img5.gif)
+   ![Revisión del origen de datos de búsqueda de una empresa de tipo de enumeración\Búsqueda de formato.](./media/er-lookup-data-sources-img5.gif)
 
 Puede configurar las reglas de búsqueda para el formato de ER seleccionado mediante la interfaz de usuario que se alinea automáticamente con la estructura de la fuente de datos configurada. Actualmente, esta interfaz de usuario requiere que para cada regla, especifique el valor devuelto como el formato de valor de enumeración de `List of taxation levels`, así como el código de impuestos como parámetro.
 
-   ![Configure las reglas para la fuente de datos configurada](./media/er-lookup-data-sources-img6.gif)
+   ![Configure las reglas para la fuente de datos configurada.](./media/er-lookup-data-sources-img6.gif)
 
 La siguiente ilustración muestra cómo la fuente de datos `Model.Data.Summary.LevelByLookup` del tipo **Campo calculado** se puede configurar para llamar a la fuente de datos de **búsqueda** configurada que proporciona los parámetros necesarios. Para procesar esta llamada en tiempo de ejecución, ER revisa la lista de reglas configuradas en la secuencia definida para ubicar la primera regla que satisface las condiciones proporcionadas. En este ejemplo, es la regla que contiene el código de impuestos que coincide con el proporcionado. Como resultado, se encuentra la regla más adecuada y esta fuente de datos devuelve el valor de enumeración configurado para la regla encontrada.
 
 > [!NOTE]
 > Se lanza una excepción cuando no se encuentra una regla aplicable. Para evitar estas excepciones, configure reglas adicionales al final de la lista de reglas para manejar los casos en los que se proporciona un valor no configurado o ningún valor. Utilizar las opciones **\*No en blanco\*** y **\*En blanco\*** en consecuencia.  
 >
-> ![Agregar una fuente de datos para llamar a la fuente de datos de búsqueda configurada](./media/er-lookup-data-sources-img7.png)
+> ![Agregar una fuente de datos para llamar a la fuente de datos de búsqueda configurada.](./media/er-lookup-data-sources-img7.png)
 
 Cuando configura la opción **Compañías cruzadas** como **Sí** para la fuente de datos de búsqueda editable, agrega un nuevo parámetro requerido **Empresa** al conjunto de parámetros de esta fuente de datos. El valor del parámetro **Empresa** debe especificarse en tiempo de ejecución cuando se llama a la fuente de datos de búsqueda. Cuando se especifica el código de la empresa en tiempo de ejecución, las reglas configuradas para esta empresa se utilizan para encontrar la regla más adecuada y se devuelve el valor correspondiente. La siguiente ilustración muestra cómo puede hacer esto y cómo se cambia el conjunto de parámetros de la fuente de datos editables.
 
-   ![Revisión del origen de datos de búsqueda entre empresas de tipo de enumeración\Búsqueda de formato](./media/er-lookup-data-sources-img8.gif)
+   ![Revisión del origen de datos de búsqueda entre empresas de tipo de enumeración\Búsqueda de formato.](./media/er-lookup-data-sources-img8.gif)
 
 > [!NOTE]
 > Seleccione cada empresa por separado para configurar el conjunto de reglas para esta fuente de datos de búsqueda del formato ER editable. Se lanza una excepción en tiempo de ejecución cuando se llama a la búsqueda entre empresas con el código de la empresa para la que no se completó la configuración de búsqueda.
@@ -84,7 +84,7 @@ Cuando configura la opción **Compañías cruzadas** como **Sí** para la fuente
 
 A partir de la versión 10.0.19, las capacidades ampliadas de las fuentes de datos de **búsqueda** están disponibles. Cuando configura la opción **Extendido** en **Sí** para la fuente de datos de búsqueda editable, la fuente de datos de búsqueda configurada se transforma en la fuente de datos estructurados que ofrece las capacidades adicionales para analizar el conjunto de reglas configurado. En la ilustración siguiente se muestra esta transformación.
 
-   ![Revisión del origen de datos de búsqueda estructurado de tipo de enumeración\Búsqueda de formato](./media/er-lookup-data-sources-img9.gif)
+   ![Revisión del origen de datos de búsqueda estructurado de tipo de enumeración\Búsqueda de formato.](./media/er-lookup-data-sources-img9.gif)
 
 - El subelemento de **búsqueda** está diseñado como una función para encontrar la regla más apropiada del conjunto de reglas configurables según el conjunto de parámetros proporcionado.
 - El subelemento **IsLookupResultSet** está diseñado como una función para aceptar el valor proporcionado de la fuente de datos de enumeración base y devolver el valor *booleano* de **True** cuando el conjunto de reglas contiene al menos una regla para la cual el valor de enumeración proporcionado se configuró como valor devuelto. Esta función devuelve el valor *Booleano* de **False** cuando no hay reglas configuradas para devolver el valor de enumeración proporcionado.

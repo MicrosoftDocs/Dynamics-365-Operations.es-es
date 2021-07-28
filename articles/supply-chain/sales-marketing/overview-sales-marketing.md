@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188134"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359870"
 ---
 # <a name="sales-and-marketing-overview"></a>Visión general de ventas y marketing
 
@@ -29,18 +31,18 @@ Puede usar Ventas y marketing para obtener, almacenar y usar distintos tipos de 
 
 ## <a name="marketing"></a>Marketing
 
-Las actividades y las campañas de marketing se usan para encontrar y crear relaciones con clientes potenciales, para que las interacciones iniciales puedan derivar en relaciones de ventas. El siguiente flujo de procesos muestra el proceso empresarial de marketing. [![Proceso empresarial de marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
+Las actividades y las campañas de marketing se usan para encontrar y crear relaciones con clientes potenciales, para que las interacciones iniciales puedan derivar en relaciones de ventas. El siguiente flujo de procesos muestra el proceso empresarial de marketing. [![Proceso empresarial de marketing.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Relaciones
 
-En ventas y marketing, las interacciones iniciales que tenga con clientes potenciales se pueden producir en varias situaciones. Por ejemplo, podría encontrar un cliente potencial mientras asista a una feria comercial o puede tener un posible cliente potencial con un cliente después de que la organización dirija una campaña de correo masivo. Es muy importante que comprenda el flujo de la entidad de una parte antes de que dicha parte se convierta en cliente. En el gráfico siguiente se muestra el flujo de las relaciones de entidades conforme un cliente potencial se convierte en un cliente real. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+En ventas y marketing, las interacciones iniciales que tenga con clientes potenciales se pueden producir en varias situaciones. Por ejemplo, podría encontrar un cliente potencial mientras asista a una feria comercial o puede tener un posible cliente potencial con un cliente después de que la organización dirija una campaña de correo masivo. Es muy importante que comprenda el flujo de la entidad de una parte antes de que dicha parte se convierta en cliente. En el gráfico siguiente se muestra el flujo de las relaciones de entidades conforme un cliente potencial se convierte en un cliente real. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campañas
 
 Una campaña está destinada a los contactos para clientes potenciales, oportunidades y clientes que se han seleccionado para participar en la campaña. En Supply Chain Management, puede crear varios tipos de campañas, como telemarketing, correo y campañas de correo electrónico, para maximizar a su potencial de clientes. Conforme su campaña progresa y recibe respuestas positivas, puede cambiar el proceso de ventas con los destinatarios que han respondido de manera positiva a la campaña.
 
 ## <a name="sales"></a>Ventas
-Utilice la funcionalidad de venta para crear presupuestos, venta vertical y venta cruzada para clientes nuevos y existentes, crear pedidos de ventas y crear facturas de venta para clientes. El siguiente flujo de procesos muestra el proceso empresarial de ventas. [![Proceso empresarial de ventas](./media/sales01.jpg)](./media/sales01.jpg)
+Utilice la funcionalidad de venta para crear presupuestos, venta vertical y venta cruzada para clientes nuevos y existentes, crear pedidos de ventas y crear facturas de venta para clientes. El siguiente flujo de procesos muestra el proceso empresarial de ventas. [![Proceso empresarial de ventas.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Presupuestos de ventas
 

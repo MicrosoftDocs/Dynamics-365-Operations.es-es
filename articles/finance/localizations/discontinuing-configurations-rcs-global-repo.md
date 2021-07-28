@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d25d583580af3d73a3ac1eaebc9f7d8413c6563
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018742"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360222"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Suspender configuraciones en el repositorio RCS Global
 
@@ -45,7 +45,7 @@ Para interrumpir la configuración, complete los siguientes pasos.
 2. Seleccione el parámetro **Interrumpir** en **Sí**.
 3. Seleccione **Aceptar** para interrumpir las configuraciones. El campo **Fecha de interrupción** se completará cuando guarde los cambios.
 
-![Interrumpir la información de configuración](media/Discontinue-details-2.png)
+![Interrumpir la información de configuración.](media/Discontinue-details-2.png)
   
 Puede revertir la configuración a **Compartido** o ajustar la información de interrupción en cualquier momento. Si comparte una configuración, especifique la fecha **Soportado hasta** y cualquier otra información relacionada con la interrupción para indicar sus planes para la interrupción futura.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188182"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353477"
 ---
 # <a name="purchase-requisition-workflow"></a>Flujo de trabajo de solicitudes de compra
 
@@ -51,7 +51,7 @@ En la siguiente ilustración se muestra la manera en la que una solicitud de com
 -   **Agente de compras**: usuario que realiza la revisión de una compra y que puede aprobar el documento.
 -   **Administrador del solicitante**: usuario que realiza la revisión administrada y que puede aprobar el documento.
 
-![Proceso de revisión de flujo de trabajo de solicitudes de compra](./media/purchreqworkflowoverview_submission.gif)  
+![Proceso de revisión de flujo de trabajo de solicitudes de compra.](./media/purchreqworkflowoverview_submission.gif)  
 En este ejemplo, el proceso del flujo de trabajo de la solicitud de compra incluye los pasos siguientes:
 
 1.  El preparador envía una solicitud de compra a revisión.
@@ -74,7 +74,7 @@ Los roles siguientes están incluidos en el proceso de flujo de trabajo de este 
 -   **Director de departamento**: usuario que realiza la revisión de gastos y que puede aprobar el documento.
 -   **Director de grupo**: usuario que realiza la revisión de autoridad de firmas y que puede aprobar el documento.
 
-![Proceso de revisión del flujo de trabajo de la línea de la solicitud de compra](./media/purchreqlineworkflowoverview.gif)  
+![Proceso de revisión del flujo de trabajo de la línea de la solicitud de compra.](./media/purchreqlineworkflowoverview.gif)  
 En este ejemplo, el proceso del flujo de trabajo de las líneas de la solicitud de compra incluye los pasos siguientes:
 
 1.  El preparador envía una solicitud de compra a revisión. Cada línea se enruta al revisor configurado para recibirla en el proceso del flujo de trabajo.

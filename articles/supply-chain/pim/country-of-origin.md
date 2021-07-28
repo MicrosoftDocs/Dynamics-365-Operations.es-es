@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: b07747752dd09f39c3a7a9a647cc3d10cc4b5cc7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f97a003ab35192d164741ef2e6b6597d3df46b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829555"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358794"
 ---
 # <a name="country-of-origin"></a>País de origen
 
@@ -86,7 +86,7 @@ Cuando genera un informe de L. MAT, puede incluir el país de origen para cada u
 
 Se genera y muestra un informe con información sobre el país de origen de cada pieza. A continuación se muestra un ejemplo del informe.
 
-![Informe del país de origen](media/country-of-origin-report.png "Informe del país de origen")
+![Informe del país de origen.](media/country-of-origin-report.png "Informe del país de origen")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

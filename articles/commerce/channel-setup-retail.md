@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937543"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346067"
 ---
 # <a name="set-up-a-retail-channel"></a>Configurar un canal comercial
 
@@ -50,11 +50,11 @@ Antes de crear un canal comercial, asegúrese de cumplir los [requisitos previos
 
 La siguiente imagen muestra la creación de un nuevo canal comercial.
 
-![Nuevo canal de comercial](media/channel-setup-retail-1.png)
+![Nuevo canal de comercial.](media/channel-setup-retail-1.png)
 
 La siguiente imagen muestra un canal comercial de ejemplo.
 
-![Ejemplo de canal comercial](media/channel-setup-retail-2.png)
+![Ejemplo de canal comercial.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Otras opciones de configuración
 
@@ -64,7 +64,7 @@ Consulte también [Diseños de pantalla para el punto de venta (PDV)](pos-screen
 
 En la siguiente imagen se muestra un ejemplo de configuración de instalación de canal comercial.
 
-![Ejemplo de configuración de canal comercial](media/channel-setup-retail-3.png)
+![Ejemplo de configuración de canal comercial.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Configuración adicional de canal
 
@@ -74,7 +74,7 @@ Las tareas adicionales requeridas para la configuración del canal en línea inc
 
 En la imagen siguiente se muestran varias opciones adicionales de configuración de canales comerciales en la pestaña **Configurar**.
 
-![Configurar canal](media/channel-setup-retail-4.png)
+![Configurar canal.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Configurar métodos de pago
 
@@ -89,7 +89,7 @@ Para configurar métodos de pago, siga los pasos siguientes para cada tipo de pa
 
 En la imagen siguiente se muestra un ejemplo de método de pago en efectivo.
 
-![Ejemplo de métodos de pago](media/channel-setup-retail-5.png)
+![Ejemplo de métodos de pago.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Configurar declaración de efectivo
 
@@ -98,7 +98,7 @@ En la imagen siguiente se muestra un ejemplo de método de pago en efectivo.
 
 En la imagen siguiente se muestra un ejemplo de declaración de efectivo.
 
-![Configurar declaraciones de efectivo](media/channel-setup-retail-6.png)
+![Configurar declaraciones de efectivo.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Configurar modos de entrega
 
@@ -112,7 +112,7 @@ Para cambiar o agregar un modo de entrega, siga estos pasos.
 
 En la imagen siguiente se muestra un ejemplo de mode de entrega.
 
-![Configurar modos de entrega](media/channel-setup-retail-7.png)
+![Configurar modos de entrega.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Configurar una cuenta de ingresos y gastos
 
@@ -129,7 +129,7 @@ Para configurar una cuenta de ingresos y gastos siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de cuenta de ingresos/gastos.
 
-![Configurar una cuenta de ingresos/gastos](media/channel-setup-retail-8.png)
+![Configurar una cuenta de ingresos/gastos.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Configurar secciones
 
@@ -155,7 +155,7 @@ Para configurar una asignación de grupo de cumplimiento, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de configuración de asignación de grupo de cumplimiento.
 
-![Configurar asignaciones de grupo de cumplimiento](media/channel-setup-retail-9.png)
+![Configurar asignaciones de grupo de cumplimiento.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Configurar cajas fuertes
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 12ba639ccf670997d4f16325172aa351732a5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023555"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348918"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>Configurar períodos de liquidación de retención de impuestos para el tipo de impuesto de TDS
 
@@ -31,7 +31,7 @@ Este tema explica cómo configurar períodos de liquidación para períodos de l
 
 1. Vaya a **Impuestos \> Impuestos indirectos \> Retención de impuestos \> Períodos de liquidación de retención de impuestos**.
 
-    [![Página Períodos de liquidación de retención de impuestos](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![Página Períodos de liquidación de retención de impuestos.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. En el campo **Tipo de impuesto**, seleccione **TDS** para configurar períodos de liquidación de retención de impuestos para el tipo de impuesto TDS.
 3. Seleccione **Nuevo** para crear una línea.
@@ -47,6 +47,6 @@ Este tema explica cómo configurar períodos de liquidación para períodos de l
     > [!NOTE]
     > Para ejecutar el proceso de liquidación periódica de TDS, vaya a **Contabilidad general \> Periódica \> Retención de impuestos \> Pago de retención de impuestos**.
 
-    [![Página Pago de retención de impuestos](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![Página Pago de retención de impuestos.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
 12. Cierre la página.

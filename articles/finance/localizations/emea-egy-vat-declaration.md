@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186623"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349906"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Declaración de IVA para Egipto (EG-00002)
 
@@ -77,7 +77,7 @@ Los parámetros específicos de la aplicación le permiten establecer los criter
 
 Los informes del libro de compras y ventas para Egipto incluyen un conjunto de columnas que corresponden a clasificaciones de transacciones específicas, como tipos de operaciones, productos y documentos que son específicos para Egipto. En lugar de incluir estas nuevas clasificaciones como nuevos datos de entrada cuando se publican las transacciones, las clasificaciones se determinarán en función de las diferentes búsquedas introducidas en **Configuraciones** > **Configurar parámetros específicos de la aplicación** > **Configuración** para cumplir con los requisitos de los informes de IVA para Egipto. 
 
-![Página de parámetros específicos de la aplicación](media/egypt-vat-declaration-setup1.png)
+![Página de parámetros específicos de la aplicación.](media/egypt-vat-declaration-setup1.png)
 
 Las siguientes configuraciones de búsqueda se utilizan para clasificar las transacciones en los informes de libros de IVA de compras y ventas:
 
@@ -206,7 +206,7 @@ Para generar los informes del formulario de devolución de IVA en Microsoft Exce
 2. En la pestaña **Impuesto**, en la sección **Opciones de impuestos**, en el campo **Asignación de formato de declaración de IVA**, seleccione **Excel de declaración de IVA (EG)**. Si deja el campo en blanco, el informe estándar de impuestos sobre las ventas se generará en formato SSRS.
 3. Seleccione la **Jerarquía de categoría**. Esta categoría habilita el código de la mercancía en las transacciones de la pestaña Comercio exterior para permitir a los usuarios seleccionar y clasificar bienes y servicios. La descripción de esta clasificación se detalla en los informes de transacciones de compra y venta. Esta configuración es opcional.
 
-![Formulario de declaración](media/egypt-vat-declaration-setup2.png)
+![Formulario de declaración.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>Generar un informe de devolución de iVA

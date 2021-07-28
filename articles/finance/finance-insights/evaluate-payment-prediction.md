@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186747"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349019"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Evaluar el modelo de predicción de pagos de clientes inicial (versión preliminar)
 
@@ -33,32 +33,32 @@ Este tema explica cómo evaluar un modelo de predicción después de haber activ
 
 En la página **Parámetros de Finance Insights** de Microsoft Dynamics 365 Finance, aparece un vínculo **Mejorar la precisión del modelo** junto a la puntuación de precisión.
 
-[![Vínculo Mejorar la precisión del modelo](./media/prediction-model.png)](./media/prediction-model.png)
+[![Vínculo Mejorar la precisión del modelo.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Este vínculo le lleva a AI Builder, donde puede obtener más información sobre el modelo actual y también tomar medidas para mejorarlo. La ilustración siguiente muestra la página que se abre.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 La página que se abre muestra la siguiente información:
 
 - En la sección **Rendimiento**, el grado de rendimiento del modelo proporciona una perspectiva sobre la calidad del modelo. Para obtener más información sobre este grado, consulte [Rendimiento del modelo de predicción](/ai-builder/prediction-performance) en la documentación de AI Builder.
 - La sección **Datos más influyentes** muestra la importancia de los diferentes tipos de datos de entrada para su modelo. Puede evaluar esta lista y los porcentajes correspondientes para determinar si la información es coherente con lo que sabe sobre su negocio y mercado.
 
-    [![Secciones de datos Rendimiento y Más influyentes para el modelo de predicción](./media/models.png)](./media/models.png)
+    [![Secciones de datos Rendimiento y Más influyentes para el modelo de predicción.](./media/models.png)](./media/models.png)
 
 - En la sección **Rendimiento**, seleccione **Ver detalles** para obtener más información sobre el grado y otras consideraciones. En la siguiente ilustración, los detalles muestran que el modelo usa menos información de la recomendada. Por tanto, el sistema ha generado un mensaje de advertencia.
 
-    [![Advertencias sobre el rendimiento del modelo](./media/details.png)](./media/details.png)
+    [![Advertencias sobre el rendimiento del modelo.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Mayor profundidad
 
 Aunque la precisión es un buen punto de partida para evaluar un modelo, y el grado de rendimiento proporciona perspectiva, AI Builder proporciona métricas más detalladas que puede utilizar para su evaluación. Para descargar los detalles, en la sección **Rendimiento**, seleccione el botón de puntos suspensivos (**...**) próximo al botón **Modelo de uso** y luego seleccione **Descargar métricas detalladas**.
 
-[![Comando Descargar métricas detalladas](./media/performance.png)](./media/performance.png)
+[![Comando Descargar métricas detalladas.](./media/performance.png)](./media/performance.png)
 
 La siguiente ilustración muestra el formato en el que puede descargar los datos.
 
-[![Formato de datos descargados](./media/data-format.png)](./media/data-format.png)
+[![Formato de datos descargados.](./media/data-format.png)](./media/data-format.png)
 
 Para un análisis más profundo de los resultados, un buen punto de partida es revisar la métrica "Matriz de confusión". Por ejemplo, aquí están los datos que se muestran para esta métrica en la ilustración anterior.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825719"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347173"
 ---
 # <a name="asset-types"></a>Tipos de activos
 
@@ -45,9 +45,9 @@ Primero, se deben configurar los tipos de activo requeridos. A continuación, cr
 7. Seleccione **Guardar**.
 8. En la ficha desplegable **Tipos de trabajos de mantenimiento**, seleccione los tipos de trabajo de mantenimiento que deben relacionarse con el tipo de activo.
 
-    - Para seleccionar un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento restantes** y seleccione el botón de flecha derecha ![botón de flecha derecha](media/29-setup-for-objects.png) para moverlo a la sección **Tipos de trabajo de mantenimiento seleccionados**.
-    - Para seleccionar todos los tipos de trabajo de mantenimiento disponibles, seleccione el botón de ![flecha todo hacia delante](media/30-setup-for-objects.png). Todos los tipos de trabajo de mantenimiento se transfieren del campo **Tipos de trabajo de mantenimiento restantes** al campo **Tipos de trabajo de mantenimiento seleccionados**.
-    - Para cancelar la selección de un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento seleccionados** y seleccione el botón de flecha izquierda ![botón de flecha izquierda](media/31-setup-for-objects.png) para moverlo al campo **Tipos de trabajo de mantenimiento restantes**.
+    - Para seleccionar un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento restantes** y seleccione el botón de flecha derecha ![botón de flecha derecha.](media/29-setup-for-objects.png) para moverlo a la sección **Tipos de trabajo de mantenimiento seleccionados**.
+    - Para seleccionar todos los tipos de trabajo de mantenimiento disponibles, seleccione el botón de ![flecha todo hacia delante.](media/30-setup-for-objects.png) . Todos los tipos de trabajo de mantenimiento se transfieren del campo **Tipos de trabajo de mantenimiento restantes** al campo **Tipos de trabajo de mantenimiento seleccionados**.
+    - Para cancelar la selección de un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento seleccionados** y seleccione el botón de flecha izquierda ![botón de flecha izquierda.](media/31-setup-for-objects.png) para moverlo al campo **Tipos de trabajo de mantenimiento restantes**.
 
 9. También puede seleccionar los contadores que deben estar relacionados con el tipo de activo. En la ficha desplegable **Contadores**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo de mantenimiento en el paso 8. Para obtener más información sobre la configuración de los contadores, consulte [Contadores](counters.md).
 10. También puede seleccionar los tipos de atributo que deben estar relacionados con el tipo de activo. En la ficha desplegable **Evaluaciones de condición**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo de mantenimiento en el paso 8. A continuación, cree la secuencia preferida de tipos de atributo, seleccione un tipo de atributo en el campo **Tipos de atributo seleccionados** y use los botones de flecha arriba y abajo para moverlo. La secuencia de tipos de atributo se mostrará en los activos que usen este tipo de activo. Para obtener más información sobre los atributos de activo, consulte [Tipos de atributo de mantenimiento](../setup-for-functional-locations/specification-types.md).

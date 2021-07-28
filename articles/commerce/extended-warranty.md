@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 699c285ba0f92df4ccc05790b813ff423c01b62a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792472"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353837"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Crear y configurar garantías extendidas
 
@@ -81,7 +81,7 @@ Para crear un artículo de garantía en Commerce, siga estos pasos.
 
     Por ejemplo, para una garantía de dos años, configure el campo **Unidad de tiempo** en **Años** y el campo **Duración** en **2**. Alternativamente, configure el campo **Unidad de tiempo** en **Meses** y el campo **Duración** en **24**, como se muestra en la siguiente ilustración.
 
-    ![Página de detalles del producto para un artículo de garantía](./media/ew-time-properties.png)
+    ![Página de detalles del producto para un artículo de garantía.](./media/ew-time-properties.png)
 
 1. Seleccione **Guardar** para guardar el artículo de garantía.
 1. Entregue el producto de garantía a la empresa para que pueda venderse. Para obtener más información, consulte [Configurar productos minoristas](set-up-retail-products.md).
@@ -94,7 +94,7 @@ Para crear un artículo de garantía en Commerce, siga estos pasos.
 
     Por ejemplo, la siguiente ilustración muestra el campo **Rango de precio base** establecido en **Precio base**, el campo **Límite inferior** establecido en 500 $, y el campo **Limite superior** establecido en 1000 $.
     
-    ![Página de detalles del producto publicado para un artículo de garantía](./media/ew-release-product-details.png)
+    ![Página de detalles del producto publicado para un artículo de garantía.](./media/ew-release-product-details.png)
 
 1. Seleccione el artículo de garantía al canal donde se venderá. Para obtener más información, consulte [Configurar selecciones](set-up-assortments.md).
 
@@ -161,11 +161,11 @@ Dos operaciones de PDV permiten a los asociados de ventas vender artículos de g
 
 La siguiente ilustración muestra un ejemplo de una página de terminal del PDV con un aviso para agregar un artículo de garantía para la compra actual de un artículo sujeto a garantía.
 
-![Ejemplo de un aviso para agregar un artículo de garantía para la compra actual](./media/ew-sell-warranty.png)
+![Ejemplo de un aviso para agregar un artículo de garantía para la compra actual.](./media/ew-sell-warranty.png)
 
 La siguiente ilustración muestra un ejemplo de la característica para agregar un artículo de garantía para un artículo sujeto a garantía que se vendió anteriormente.
 
-![Ejemplo de la característica para agregar un artículo de garantía para un artículo sujeto a garantía vendido anteriormente](./media/ew-add-warranty-existing.png)
+![Ejemplo de la característica para agregar un artículo de garantía para un artículo sujeto a garantía vendido anteriormente.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Procesar transacciones de garantía
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 1349521d65511864747de6c2fed3a904dea8917e
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 873a11f3151344de63ee0b01b586ccbffe0df51b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186573"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355637"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Usar predicciones de pago de clientes (versión preliminar)
 
@@ -38,13 +38,13 @@ El espacio de trabajo **Administrar crédito y cobros de clientes** incluye dos 
 - El mosaico **Predicción de pago por transacción** muestra el número de transacciones de clientes abiertas que tienen una probabilidad de pago inferior al 50 por ciento en la categoria **Puntual**. Puede seleccionar este mosaico para abrir la página de lista **Predicciones de pago por transacción**.
 - El mosaico **Clientes con saldos atrasados altos previstos** muestra el número de clientes para los que se prevé que más de la mitad (50 por ciento) del saldo total se pagará tarde o muy tarde. Puede seleccionar este mosaico para abrir la página de lista **Predicción de pago por transacción**.
 
-[![Gestionar el espacio de trabajo de crédito y cobros de clientes](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
+[![Gestionar el espacio de trabajo de crédito y cobros de clientes.](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
 
 ### <a name="payment-predictions-per-transaction-list-page"></a>Predicciones de pago por página de lista de transacciones
 
 En la página de lista **Predicciones de pago por transacción** puede ver la probabilidad de pago de las transacciones abiertas en las categorías **Puntual**, **Tarde** y **Muy tarde**. Para cada transacción de la cuadrícula, la columna **Probabilidad de Puntual** muestra la probabilidad de que la factura se pague en la fecha de vencimiento o antes. Si la probabilidad de un pago puntual es inferior al 50 por ciento, aparece un círculo rojo junto al porcentaje en la columna **Probabilidad de Puntual** para indicar el riesgo de pago tardío.
 
-[![Predicción de pago por página de lista de transacciones](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![Predicción de pago por página de lista de transacciones.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 El panel **Información relacionada** del lado derecho de la página muestra más detalles sobre las predicciones:
 
@@ -54,13 +54,13 @@ El panel **Información relacionada** del lado derecho de la página muestra má
 
 Los datos de la sección **Factores principales** y de las fichas desplegables **Información del cliente** e **Historial del cliente** ayudan a explicar las predicciones de pago. Puede ayudarle a aumentar su confianza en la eficacia de las predicciones.
 
-[![Indicadores gráficos de predicciones de pago en el panel Información relacionada](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![Indicadores gráficos de predicciones de pago en el panel Información relacionada.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
 ### <a name="payment-prediction-per-customer-list-page"></a>Predicción de pago por página de lista de clientes
 
 La página de lista **Predicción de pago por cliente** muestra el saldo abierto total y la cantidad que se prevé que se pague en las categorías **Puntual**, **Tarde** y **Muy tarde**.
 
-[![Predicciones de pago por página de clientes](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![Predicciones de pago por página de clientes.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 El importe del pago en cada categoría se calcula como la suma del promedio ponderado del saldo de transacciones. Este importe se calcula en función de las probabilidades de pago de cada categoría.
 
@@ -92,11 +92,11 @@ Los datos de la sección **Factores principales** y de las fichas desplegables *
 
 Puede ver la precisión de las predicciones de pagos yendo a **Crédito y cobros \> Configurar \> Información financiera \> Parámetros de información financiera**. En la pestaña **Información de pagos del clientes**, la sección **Modelo de predicción** muestra la precisión del modelo de predicción en forma de porcentaje.
 
-[![Precisión de las predicciones de pagos](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![Precisión de las predicciones de pagos.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
 Si no está satisfecho con la precisión, seleccione el vínculo **Mejorar la precisión del modelo** para abrir la experiencia de la extensión AI Builder. En la experiencia de la extensión AI Builder, puede seleccionar o cancelar la selección de campos hasta que haya seleccionado los campos que crea que son más importantes para predecir con precisión las probabilidades de pago. Cuando haya terminado, puede volver a entrenar fácilmente el modelo de predicción y publicar sus cambios. El modelo de predicción recién entrenado se seleccionará automáticamente para las predicciones en Dynamics 365 Finance.
 
-[![Experiencia de extensión AI Builder](./media/ai-builder.png)](./media/ai-builder.png)
+[![Experiencia de extensión AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
 
 ## <a name="release-details"></a>Detalles de la liberación
 

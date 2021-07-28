@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b85084a2ccb9e9cad09f86af43995bfbce44a1e9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: fd92ab2646031a488352e1a0d250c21d1527eaa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051338"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357248"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Crear vínculos personalizados en el autoservicio para el director
 
@@ -38,11 +38,11 @@ Para utilizar esta función, habilite **Vínculos personalizados en el Autoservi
 
 2. En **Configurar vínculos para directores**, puede agregar, editar o quitar un vínculo. También puede agrupar los vínculos para que se muestren en un grupo en el Autoservicio para directores.
 
-   ![Configurar vínculos personalizados en el Autoservicio para directores](./media/hr-employee-manager-self-service-custom-links-setup.png)
+   ![Configurar vínculos personalizados en el Autoservicio para directores.](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
 3. Para ver los vínculos, vaya a la pestaña **Mi equipo** de Autoservicio para empleados.
 
-   ![Ver vínculos personalizados en el Autoservicio para directores](./media/hr-employee-manager-self-service-custom-links-view.png)
+   ![Ver vínculos personalizados en el Autoservicio para directores.](./media/hr-employee-manager-self-service-custom-links-view.png)
 
 ## <a name="see-also"></a>Consulte también
 

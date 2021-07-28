@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745698"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343943"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar la experiencia de ayuda para aplicaciones de Finance and Operations
 
@@ -32,7 +32,7 @@ En este tema, encontrará una descripción general de los componentes del sistem
 
 Las aplicaciones de Finance and Operations incluyen descripciones generales conceptuales y otros temas que se publican en el sitio [https://docs.microsoft.com/dynamics365](/dynamics365/). Se puede acceder a este contenido desde el panel **Ayuda** del producto. En el ejemplo siguiente se muestra las partes del sistema de Ayuda.
 
-[![Arquitectura de la Ayuda](./media/help-architecture.png)](./media/help-architecture.png)
+[![Arquitectura de la Ayuda.](./media/help-architecture.png)](./media/help-architecture.png)
 
 El sistema de ayuda integrado en el producto extrae artículos de docs.microsoft.com y otros sitios web conectados. También extrae guías de tareas que se almacenan en Modelador de procesos empresariales (BPM), en Lifecycle Services de Microsoft Dynamics (LCS).
 
@@ -47,14 +47,14 @@ En la página **Parámetros del sistema**, los administradores del sistema puede
 > - Para configurar Ayuda, debe iniciar sesión con una cuenta en el mismo inquilino que el inquilino en el que se implementa la aplicación.
 > - No es posible conectar una biblioteca LCS desde una instancia de la aplicación que se ejecute en un disco duro virtual (VHD) local.
 
-[![Formulario Parámetros del sistema con configuración de Ayuda](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Formulario Parámetros del sistema con configuración de Ayuda.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Para configurar guías de tareas para una solución, siga estos pasos en la página **Parámetros del sistema**.
 
 > [!IMPORTANT]
 > La primera vez que abra la ficha **Ayuda** debe conectarse a Lifecycle Services. Asegúrese de seleccionar el vínculo que está en la mitad del formulario, espere a la conexión, cierre el cuadro de diálogo y luego seleccione **Aceptar** para obtener la página **Parámetros del sistema**.
 >
-> [![Conectarse a LCS](./media/connect-to-lcs-crop-1024x365.png "Conectarse a LCS")](./media/connect-to-lcs-crop.png)
+> [![Conectar a LCS](./media/connect-to-lcs-crop-1024x365.png "Conectar a LCS".](./media/connect-to-lcs-crop.png)
 
 1. Seleccione el proyecto de Lifecycle Services al que conectarse.
 2. Seleccione las bibliotecas de BPM (dentro del proyecto seleccionado) desde la que recuperar grabaciones de tareas.

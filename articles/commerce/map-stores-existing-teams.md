@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020228"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346701"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Asignar tiendas y equipos si estos últimos ya existen en Microsoft Teams
 
@@ -57,7 +57,7 @@ Para asignar tiendas y equipos correspondientes en la sede de Commerce, siga est
 
 La siguiente imagen de ejemplo muestra el grupo **Exportar asignación de equipos** en Commerce con elementos de **Agregar entidad** y los encabezados del archivo CSV exportado resaltados.
 
-![Exportar asignación de equipos en Commerce con elementos de agregar entidad y los encabezados del archivo CSV exportado resaltados](media/d365-commerce-data-mgmt-export-entity.png)
+![Exportar asignación de equipos en Commerce con elementos de agregar entidad y los encabezados del archivo CSV exportado resaltados.](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > Después de completar los pasos anteriores, siga los pasos en [Sincronizar la gestión de tareas entre Microsoft Teams y PDV](synchronize-tasks-teams-pos.md) para sincronizar la gestión de tareas. 

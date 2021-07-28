@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791174"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355461"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Crear y actualizar franjas horarias para la recogida del cliente
 
@@ -34,7 +34,7 @@ La característica de franja horaria ofrece a los minoristas una forma de defini
 
 La siguiente ilustración muestra un ejemplo de selección de franjas horarias durante la finalización de la compra de comercio electrónico.
 
-![Ejemplo de selección de franja horaria durante la finalización de la compra en comercio electrónico](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Ejemplo de selección de franja horaria durante la finalización de la compra en comercio electrónico.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Propiedades de la franja horaria
 
@@ -60,7 +60,7 @@ Una franja horaria se define mediante las siguientes propiedades:
 - **Días activos**: especifique los días de la semana en los que las franjas horarias de recogida están activas. Esta propiedad permite al minorista definir los días en los que desea admitir pedidos de recogida.
 - **Canales minoristas**: especifique los canales minoristas. Cada franja horaria se puede asociar con una o más tiendas minoristas. Dependiendo del horario de atención de cada tienda, se pueden crear una o más entradas de franjas horarias y asociarlas con un canal. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Solo se puede configurar una plantilla de intervalo de tiempo por canal. Estos canales incluyen tiendas físicas, centros de llamadas, dispositivos móviles y sitios de comercio electrónico.
 
@@ -85,14 +85,14 @@ Para configurar la función de franja horaria en la sede central de Commerce, si
     > [!NOTE]
     > Puede crear varias plantillas, pero solo una plantilla se puede asociar a un solo canal o tienda.
 
-    ![Cuadro de diálogo Recogida de pedidos: configuración de horas](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Cuadro de diálogo Recogida de pedidos: configuración de horas.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Cuando haya terminado, haga clic en **Aceptar**.
 1. Si las franjas horarias de un día varían, cree entradas adicionales en la ficha desplegable **Recogida de pedidos: configuración de horas** para asegurarse de que las fechas y las horas no se superpongan.
 1. En la ficha desplegable **Canales minoristas**, seleccione **Agregar** para asociar la plantilla de franja horaria con las tiendas o canales donde se utilizará.
 1. En el cuadro de diálogo **Elegir nodos organizativos**, use los botones de flecha para seleccionar (o anular la selección) las tiendas, regiones y organizaciones a las que debe asociarse la plantilla.
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Cuando haya terminado, haga clic en **Aceptar**.
 1. En la página **Programador de distribución** , ejecute los trabajos **1070** y **1135** para sincronizar los datos con los canales.
@@ -103,7 +103,7 @@ En el punto de venta (PDV), cuando se identifica un pedido o una línea de pedid
 
 La siguiente ilustración muestra un ejemplo de selección de franjas horarias para un pedido en el PDV.
 
-![Un ejemplo de selección de franja horaria para un pedido el PDV](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Un ejemplo de selección de franja horaria para un pedido el PDV.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>Selección de franja horaria para pedidos de comercio electrónico
 
@@ -114,13 +114,13 @@ Para obtener información sobre cómo hacer que la selección de franjas horaria
 
 La siguiente ilustración muestra un ejemplo de un pedido de comercio electrónico en el que se ha seleccionado un horario de recogida.
 
-![Ejemplo de pedido de comercio electrónico en el que se ha seleccionado un horario de recogida](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Ejemplo de pedido de comercio electrónico en el que se ha seleccionado un horario de recogida.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Selección de franja horaria para pedidos de centro de llamadas
 
 En la aplicación del centro de llamadas, los agentes del centro de llamadas pueden seleccionar la tienda o la ubicación de recogida, así como una fecha y un intervalo de tiempo, como se muestra en la siguiente ilustración.
 
-![Ejemplo de pedido de central de llamadas en el que se ha seleccionado un horario de recogida](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Ejemplo de pedido de central de llamadas en el que se ha seleccionado un horario de recogida.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

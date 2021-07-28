@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1abf029e6f72c1c6a827a00483bb34c4abcaec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e5cc7d21a9993985d1ad1fc2684777ff7ceb138
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808145"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354141"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Calendario y programación de trabajador de mantenimiento
 
@@ -32,7 +32,7 @@ Cuando programe órdenes de trabajo, puede crear una programación para los trab
 
 La captura de pantalla siguiente muestra un ejemplo de un trabajador de mantenimiento que se relaciona con un recurso que utiliza el calendario laboral "Producción".
 
-![Figura 1](media/01-work-order-scheduling.png)
+![Figura 1.](media/01-work-order-scheduling.png)
 
 La configuración del calendario para herramientas y activos no es necesaria en relación con la programación de órdenes de trabajo. La suposición es que las herramientas y activos están disponibles 24 horas al día para el mantenimiento.
 

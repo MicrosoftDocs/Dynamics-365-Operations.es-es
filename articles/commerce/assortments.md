@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797290"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348716"
 ---
 # <a name="assortment-management"></a>Administración de surtidos
 
@@ -35,27 +35,27 @@ La combinación general de productos de un canal viene determinada por surtidos 
 
 En el siguiente ejemplo, se configura un surtido único para cada tienda. En este caso, solo el producto 1 está disponible en la tienda 1, y solo el producto 2 está disponible en la tienda 2.
 
-![Cada producto está disponible en una tienda](./media/Managing-assortments-figure1.png)
+![Cada producto está disponible en una tienda.](./media/Managing-assortments-figure1.png)
 
 Para hace que el producto 2 esté disponible en la tienda 1, puede agregar el producto al surtido 1.
 
-![Producto 2 agregado productos a surtido 1](./media/Managing-assortments-figure2.png)
+![Producto 2 agregado productos a surtido 1.](./media/Managing-assortments-figure2.png)
 
 Como alternativa, puede agregar la tienda 1 al surtido 2.
 
-![Tienda 1 agregada a surtido 2](./media/Managing-assortments-figure3.png)
+![Tienda 1 agregada a surtido 2.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Jerarquías organizativas
 
 En situaciones en las que varios canales comparten los mismos surtidos de productos, puede configurar los surtidos mediante la jerarquía organizativa de surtidos de Commerce. Cuando se agregan nodos de esta jerarquía, se incluirán todos los canales de ese nodo y sus nodos secundarios.
 
-![Jerarquía organizativa](./media/Managing-assortments-figure4.png)
+![Jerarquía organizativa.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Categorías de productos
 
 De forma similar, en el lado de los productos, puede incluir grupos de productos mediante jerarquías de categorías de productos. Puede configurar surtidos incluyendo uno o más nodos de jerarquía de categoría. En este caso, el surtido incluirá todos los productos de ese nodo de categorías y sus nodos secundarios.
 
-![Categorías de productos](./media/Managing-assortments-figure5.png)
+![Categorías de productos.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Productos o categorías excluidos
 
@@ -64,7 +64,7 @@ Además de incluir productos y categorías en surtidos, puede usar la opción Ex
 > [!NOTE]
 > Si un producto se incluye y excluye en uno o más surtidos por definición, el producto siempre se considerará como excluido.
 
-![Producto excluido](./media/Managing-assortments-figure6.png)
+![Producto excluido.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Productos globales y emitidos
 

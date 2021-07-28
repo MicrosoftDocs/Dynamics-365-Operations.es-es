@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753615"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348053"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Suprimir los controles de contenido de Word en los informes generados
 
@@ -63,7 +63,7 @@ También debe descargar y guardar la siguiente plantilla siguientes para el info
     > [!NOTE]
     > El control de contenido repetido está etiquetado con la clave **SummaryLines** que coincide con el campo de la parte XML personalizada a la que se ha asignado.
 
-    ![Diseño de plantilla de Word](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Diseño de plantilla de Word.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Seleccione la configuración existente del informe ER
 
@@ -98,7 +98,7 @@ Actualmente, el archivo SampleVendPaymDocReportBounded.docx se utiliza como plan
 7. Seleccione **Aceptar**.
 8. En el cuadro de diálogo **Parámetros de informes electrónicos**, seleccione **Aceptar** y analice la salida generada.
 
-    ![Pagos para procesar en la página Pagos a proveedores](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Pagos para procesar en la página Pagos a proveedores.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     La salida se presenta en formato Word y contiene la sección de resumen.
 
@@ -149,7 +149,7 @@ Si desea suprimir la sección de resumen en un documento generado, según la sol
 
 9. Seleccione **Guardar** para guardar los cambios del formato editable.
 
-    ![Salida generada en formato Word](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Salida generada en formato Word.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Ejecutar el formato modificado para crear una salida en Word
 
@@ -163,7 +163,7 @@ Si desea suprimir la sección de resumen en un documento generado, según la sol
 8. En el cuadro de diálogo **Parámetros de informes electrónicos**, en el campo **Suprimir la sección de resumen**, seleccione **Sí**.
 9. Seleccione **Aceptar** y analice la salida generada.
 
-    ![Salida generada en formato Word](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Salida generada en formato Word.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Observe que la salida no contiene la sección de resumen, porque se ha suprimido.
 

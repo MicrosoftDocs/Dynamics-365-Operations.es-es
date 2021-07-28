@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093929"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351666"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar reglas y opciones de idoneidad
 
@@ -137,20 +137,20 @@ Puede definir reglas que tengan varios criterios. Cuando define varios criterios
 
 Por ejemplo, la regla anterior **Empleados activos** se compone de los siguientes criterios. Para que el empleado sea elegible según la regla **Empleados activos**, el empleado debe estar empleado en la entidad legal USMF *y* tener un tipo de puesto de tiempo completo.  
 
-![Criterios dentro de una regla de elegibilidad](media/CriteriaWithinAnEligibilityRule.png) 
+![Criterios dentro de una regla de elegibilidad.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Múltiples condiciones dentro de los criterios
 
 Las reglas se pueden expandir aún más para usar múltiples condiciones dentro de un solo criterio. El empleado debe cumplir con al menos una condición para ser elegible. Para seguir con el ejemplo anterior, la regla **Empleados activos** se puede ampliar aún más para incluir a los empleados que también son empleados a tiempo parcial. Como resultado, ahora el empleado debe ser un empleado en USMF *y* ser un empleado a tiempo completo o parcial.  
 
-![Múltiples condiciones dentro de los criterios](media/MultipleConditionsWithinCriteria.png) 
+![Múltiples condiciones dentro de los criterios.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Condiciones de elegibilidad dentro de un criterio de campo personalizado 
 De manera similar a lo anterior, los campos personalizados se pueden usar al crear reglas de elegibilidad y funcionan de la misma manera. Por ejemplo, es posible que desee ofrecer un reembolso por Internet a los empleados de Fargo y Copenhagen que trabajan desde casa, ya que los costos de Internet son más altos en esos lugares. Para hacer esto, cree dos campos personalizados: **Ubicación de la oficina** (lista de selección) y **Trabajando desde casa** (casilla de verificación). Luego cree una regla llamada **Empleados de la FMH**. El criterio para la regla es donde **Ubicación de la oficina = Fargo** o **Copenhague** *y* dónde **Trabajar desde casa = Sí**.
 
 Las reglas de elegibilidad personalizadas deberían configurarse como se indica en la siguiente imagen. 
 
-![Condiciones de elegibilidad dentro de un criterio de campo personalizado](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Condiciones de elegibilidad dentro de un criterio de campo personalizado.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Configurar agrupaciones
 

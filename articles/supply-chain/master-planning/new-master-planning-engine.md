@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907700"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348766"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migración a la Optimización de planificación para la planificación maestra
 
@@ -65,7 +65,7 @@ Una vez que las funciones necesarias estén disponibles, Microsoft proporcionar�
 
 El siguiente diagrama de flujo resume la información proporcionada en este tema para que pueda averiguar rápidamente si debe solicitar una excepción. Si necesita solicitar una excepción, complete y envíe el [Cuestionario de excepción y migración de Planning Optimization](https://go.microsoft.com/fwlink/?linkid=2144962).
 
-![Diagrama de flujo de excepciones](media/exception-diagram.png "Diagrama de flujo de excepciones")
+![Diagrama de flujo de excepciones.](media/exception-diagram.png "Diagrama de flujo de excepciones")
 
 > [!NOTE]
 > Solo puede solicitar una excepción para los inquilinos que actualmente incluyen, o incluirán, un entorno de producción, no solo para los inquilinos con entornos de espacio aislado. Si necesita deshabilitar el error de excepción de Planning Optimization en un entorno de espacio aislado de infraestructura como servicio (IaaS), ejecute la consulta SQL proporcionada en [Entornos de espacio aislado](#faq-sandbox).

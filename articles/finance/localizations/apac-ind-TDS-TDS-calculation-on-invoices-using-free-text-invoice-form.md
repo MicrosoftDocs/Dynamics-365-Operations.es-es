@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7d551a8ba6ba9ca282fd9de3fa7d7c7303e394ed
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 702fffa6b958e5cec26029bd5a12d01b0467ee6d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358299"
 ---
 # <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>Cálculo de TDS en facturas desde la página de facturas de servicios
 
@@ -31,7 +31,7 @@ Este tema explica cómo calcular los impuestos deducidos en el origen (TDS) en f
 
 1. Vaya a **Clientes \> Facturas \> Todas las facturas de servicios**.
 
-    [![Página de facturas de servicios](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
+    [![Página de facturas de servicios.](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
 
 2. Seleccione **Nuevo** para crear una factura de servicios y especificar los detalles necesarios.
 3. Seleccione la pestaña **Factura**. En la sección **Grupo de retención de impuestos**, el campo **Naturaleza del evaluado** muestra la categoría de naturaleza del evaluado del cliente.
