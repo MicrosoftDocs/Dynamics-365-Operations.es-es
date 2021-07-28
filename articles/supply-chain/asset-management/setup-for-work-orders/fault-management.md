@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c87bfa057fd2808551674f2acb9d654ad47e9a42
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11f5a77dc9d36436c8ab3e0634dc98aa5d2f35ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825671"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347149"
 ---
 # <a name="fault-management"></a>Administración de defectos
 
@@ -106,7 +106,7 @@ En el diseñador de defectos, configure los datos del defecto en tipos de activo
 
 7. Seleccione **Guardar** para guardar los cambios.
 
-![Página de diseñador de defecto](media/21-setup-for-work-orders.png)
+![Página de diseñador de defecto.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Crear causas de defecto
 

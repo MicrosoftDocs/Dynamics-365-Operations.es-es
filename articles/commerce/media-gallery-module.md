@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271289"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346725"
 ---
 # <a name="media-gallery-module"></a>Módulo de galería de medios
 
@@ -41,7 +41,7 @@ Aquí hay algunos ejemplos de uso para módulos de galería multimedia:
 
 En el ejemplo de la siguiente ilustración, un cuadro de compra en un PDP hospeda imágenes de productos utilizando un módulo de galería multimedia.
 
-![Ejemplo de un cuadro de compra en una página de detalles del producto que hospeda imágenes del producto utilizando un módulo de galería multimedia](./media/ecommerce-pdp-buybox.PNG)
+![Ejemplo de un cuadro de compra en una página de detalles del producto que hospeda imágenes del producto utilizando un módulo de galería multimedia.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Módulo de galería multimedia
 
@@ -63,7 +63,7 @@ La siguiente ilustración muestra un ejemplo de un módulo de galería multimedi
 
 La siguiente ilustración muestra un ejemplo de un módulo de galería multimedia que tiene imágenes mantenidas (es decir, las imágenes especificadas no dependen del identificador del producto o del contexto de la página).
 
-![Ejemplo de un módulo de galería multimedia que tiene imágenes mantenidas](./media/ecommerce-media-curated.PNG)
+![Ejemplo de un módulo de galería multimedia que tiene imágenes mantenidas.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interacción con Commerce Scale Unit
 

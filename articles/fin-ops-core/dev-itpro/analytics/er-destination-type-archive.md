@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 079eda04fcc41fc637419a83452db10b89ed1ab9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a9e0f07241de003dd2971e0d336f89795ad1319b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894037"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348029"
 ---
 # <a name="archive-er-destination-type"></a>Tipo de destino de ER de archivo
 
@@ -30,7 +30,7 @@ Puede configurar un destino de archivo para cada componente **Carpeta** o **Arch
 
 Puede utilizar esta opción para enviar el documento generado a una carpeta de Microsoft SharePoint o Microsoft Azure Storage. Establezca **Habilitada** en **Sí** para enviar la salida a un destino que se define por el tipo de documento seleccionado. Solo los tipos de documento donde el grupo se establece en **Archivo** están disponibles para su selección. Defina los [tipos](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) de documento en **Administración de la organización** \> **Administración de documentos** \> **Tipos de documento**. La configuración de destinos de ER es la misma que la configuración para el sistema de administración de documentos.
 
-[![Página de tipos de documento](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
+[![Página de tipos de documento.](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 
 La ubicación determina dónde se guarda el archivo. Una vez que se habilite el destino de **Archivado**, los resultados se pueden guardar en el archivo de trabajo. Puede ver los resultados en **Administración de organización** \> **Informes electrónicos** \> **Trabajos archivados de informes electrónicos**.
 
@@ -41,7 +41,7 @@ La ubicación determina dónde se guarda el archivo. Una vez que se habilite el 
 
 Puede guardar un archivo en una carpeta de SharePoint designada. Para definir el servidor de SharePoint predeterminado, vaya a **Administración de la organización** \> **Administración de documentos** \> **Parámetros de la administración de documentos**. En la pestaña **SharePoint**, configure la carpeta SharePoint. Luego, puede seleccionarla como carpeta donde se guardará la salida ER. La ubicación de **SharePoint** debe seleccionarse en este tipo de documento.
 
-[![Selección de una carpeta de SharePoint](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
+[![Selección de una carpeta de SharePoint.](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
 
 ## <a name="azure-storage"></a>Almacenamiento de Azure
 

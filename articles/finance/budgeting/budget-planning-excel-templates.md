@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7c94cdfda4bab43cfc753374d517e22fd21da4bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190294"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343847"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Plantillas de planificación presupuestaria para Excel
 
@@ -37,17 +37,17 @@ Los documentos de plan presupuestario se pueden ver y editar mediante uno o vari
 1. Abra la **Lista de planes presupuestarios** (**Gestión presupuestaria** &gt; **Planes presupuestarios**). 
 2. Haga clic en **Nuevo** para crear un documento de plan presupuestario. 
 
-   [![Lista de planes presupuestarios](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Lista de planes presupuestarios.](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Emplee la opción de línea **Agregar** para agregar líneas. Haga clic en **Diseños** para ver la configuración del diseño de documento de plan presupuestario. 
 
-   [![Agregar planes presupuestarios](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Agregar planes presupuestarios.](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Puede revisar la configuración de diseño y ajustarla según sea necesario. 
 1. Vaya a **Plantilla** &gt; **Generar** para crear un archivo de Excel para este diseño. 
 2. Después de que se cree la plantilla, vaya a **Plantilla** &gt; **Ver** para abrir y revisar la plantilla de documento de plan presupuestario. Puede guardar el archivo de Excel en la unidad local. 
 
-[![Guardar como](./media/bpt3-1024x545.png)](./media/bpt3.png)
+[![Guardar como.](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > El diseño de documento del plan presupuestario no se puede editar después de asociarle una plantilla de Excel. Para modificar el diseño, elimine el archivo de plantilla de Excel asociado y regenérelo. Esto es necesario para mantener sincronizados los campos del diseño y la hoja de cálculo. 
@@ -64,7 +64,7 @@ En la pestaña **Diseño** haga clic en los campos **Agregar** y seleccione **Bu
 
 Coloque el cursor en la ubicación deseada del archivo de Excel. Haga clic en **Agregar etiqueta** para agregar la etiqueta de campo a la ubicación seleccionada. Seleccione **Agregar valor** para agregar el campo de valor al lugar seleccionado. Haga clic en **Listo** para cerrar el diseñador.
 
-## <a name="select-add-valuemediabpt7png"></a>[![Seleccionar Agregar valor](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Seleccionar Agregar valor.](./media/bpt7.png)](./media/bpt7.png)
 
 ## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Agregue una columna calculada a la tabla de plantillas de documento de plan presupuestario
 
@@ -72,11 +72,11 @@ A continuación, las columnas calculadas se agregará a la plantilla de document
 
 Haga clic en **Diseño** en el **Conector de datos** para agregar columnas a la tabla. Haga clic en **Editar** junto al origen de datos **BudgetPlanWorksheet** para comenzar a agregar columnas.
 
-[![Comenzar a agregar columnas](./media/bpt8-1024x301.png)](./media/bpt8.png) 
+[![Comenzar a agregar columnas.](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
 El grupo de campos seleccionado muestra las columnas disponibles en la plantilla. Haga clic en **Fórmula** para agregar una nueva columna. Designe un nombre a la nueva columna y copie la fórmula en el campo **Fórmula**. Haga clic en **Actualizar** para insertar la columna.
 
-[![Agregar y insertar columnas](./media/bpt12-1024x565.png)](./media/bpt12.png)
+[![Agregar y insertar columnas.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
 > Para definir la fórmula, cree la fórmula en la hoja de cálculo y, a continuación, cópiela en la ventana **Diseño**. Una tabla enlazada de Finance and Operations normalmente se denominará "AXTable1". Por ejemplo, para sumar las columnas Solicitud de primer trimestre : Solicitud de cuarto trimestre en la hoja de cálculo; la fórmula = AxTable1\[Solicitud primer trimestre\]+AxTable1\[Solicitud segundo trimestre\]+AxTable1\[Solicitud tercer trimestre\]+AxTable1\[Solicitud cuarto trimestre\].
@@ -85,11 +85,11 @@ Repita estos pasos para insertar la columna **Ajuste**. Use la fórmula = AxTabl
 
 Guarde y cierre el archivo de Excel. En **Diseños** haga clic en clic **Plantilla &gt; Cargar** para cargar la plantilla de Excel guardada que se utilizará para el plan presupuestario. 
 
-[![Cargar plantilla de Excel](./media/bpt10-1024x352.png)](./media/bpt10.png) 
+[![Cargar plantilla de Excel.](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
 Cierre el control deslizante **Diseños**. En el documento **Plan presupuestario**, haga clic en **Hoja de cálculo** para ver y editar el documento en Excel. Tenga en cuenta que la plantilla de Excel ajustada se usó para crear esta hoja de cálculo de plan presupuestario y las columnas calculadas están actualizadas con las fórmulas que se definieron en los pasos anteriores. 
 
-[![Ver y editar documento en Excel](./media/bpt111-1024x431.png)](./media/bpt111.png)
+[![Ver y editar documento en Excel.](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
 ## <a name="tips--tricks-for-creating-budget-plan-templates"></a>Trucos para crear plantillas de plan presupuestario
 ### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>¿Puedo agregar y utilizar orígenes de datos adicionales para una plantilla de plan presupuestario?
@@ -102,21 +102,21 @@ Puede usar la opción **Filtro** en **Conector de datos** de agregar los filtros
 
 Sí, abra las opciones del **Conector de datos** para ocultar la opción **Diseño** de otros usuarios.
 
-[![Abrir opciones de conector de datos](./media/bpt13-1024x565.png)](./media/bpt13.png)
+[![Abrir opciones de conector de datos.](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
 Expanda las opciones de **Conector de datos** y desmarque la casilla de verificación **Habilitar diseño**. Esto ocultará la opción de **Diseño** del **Conector de datos**.
 
-[![Opción de ocultar diseños de conector de datos](./media/bpt14-1024x592.png)](./media/bpt14.png)
+[![Opción de ocultar diseños de conector de datos.](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
 ### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>¿Puedo evitar que los usuarios cierren accidentalmente el Conector de datos mientras trabajan con los datos?
 
 Es recomendable bloquear la plantilla para evitar que los usuarios la cierren. Para activar el bloqueo, haga clic en **Conector de datos**; en la esquina superior derecha aparece una flecha. 
 
-[![Activar el bloqueo](./media/bpt15-1024x285.png)](./media/bpt15.png) 
+[![Activar el bloqueo.](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
 Haga clic en la flecha para un menú adicional. Seleccione **Bloquear**.
 
-### <a name="select-lockmediabpt16png"></a>[![Seleccione Bloquear](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Seleccione Bloquear.](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>¿Puedo usar otras funciones de Excel, como formato de celda, colores, formato condicional y gráficos mis con plantillas del plan presupuestario?
 

@@ -9,17 +9,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
-ms.custom: 62303
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be65f8c49d5a4fb87f7d859c1e012d53515ad073
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bc81c7eed4724f9f68b592b23818781e1b047ebf
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893507"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340310"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación Finance and Operations
 
@@ -44,11 +44,11 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
  <p><a href="get-started/purchase-on-premises.md">Comprar Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Ciclo de vida de la implementación</a></h3>
-<p><a href="/dynamics365/fasttrack/">FastTrack para Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Incorporación de un proyecto</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Prepararse para la publicación</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Actualizaciones del servicio de una versión</a></h3>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Actualizaciones del servicio de One Version</a></h3>
 <p><a href="get-started/one-version.md">Preguntas frecuentes sobre actualizaciones del servicio de One Version</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Directiva del ciclo de vida del software: nube</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Directiva del ciclo de vida del software: local</a></p>

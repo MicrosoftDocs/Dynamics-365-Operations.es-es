@@ -15,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02d71d07239791a368e37320463d360ebc1e597e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1f184c0816dfb275d66d9e10d1cedca209dd5cb7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839747"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347180"
 ---
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 
@@ -50,7 +50,7 @@ Hay dos métodos para generar facturas electrónicas:
 
 El ejemplo siguiente muestra el proceso para generar una factura electrónica usando el método CFDI. 
 
-![El proceso de facturas electrónicas en México](./media/about-electronic-invoices-cfdi.jpg "Proceso para generar facturas electrónicas para le método CFDI")    
+![El proceso de facturas electrónicas en México.](./media/about-electronic-invoices-cfdi.jpg "Proceso para generar facturas electrónicas para le método CFDI")    
 
 ### <a name="requirements-for-using-electronic-invoices"></a>Requisitos para el uso de facturas electrónicas
 

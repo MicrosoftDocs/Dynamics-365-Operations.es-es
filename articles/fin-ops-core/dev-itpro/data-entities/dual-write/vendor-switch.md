@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 5a18fed2eac4c120dca20a1d7797d047639275b9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 70904ee716aabd019210e92895a894810bde27fb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750603"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346529"
 ---
 # <a name="switch-between-vendor-designs"></a>Cambiar entre diseños de proveedor
 
@@ -48,14 +48,14 @@ Para crear nuevos procesos de flujo de trabajo mediante las plantillas de proces
 
 1. Cree un proceso de flujo de trabajo para la tabla **Proveedor** y seleccione la plantilla de proceso de flujo de trabajo **Crear proveedores en la tabla Cuentas**. A continuación seleccione **Aceptar**. Este flujo de trabajo gestiona el escenario de creación de proveedor para la tabla **Cuenta**.
 
-    ![Crear proveedores en el proceso de flujo de trabajo de la tabla Cuentas](media/create_process.png)
+    ![Crear proveedores en el proceso de flujo de trabajo de la tabla Cuentas.](media/create_process.png)
 
 2. Cree un proceso de flujo de trabajo para la tabla **Proveedor** y seleccione la plantilla de proceso de flujo de trabajo **Actualizar proveedores en la tabla Cuentas**. A continuación seleccione **Aceptar**. Este flujo de trabajo gestiona el escenario de actualización de proveedor para la tabla **Cuenta**.
 3. Cree un proceso de flujo de trabajo para la tabla **Cuenta** y seleccione la plantilla de proceso de flujo de trabajo **Crear proveedores en la tabla Proveedores**.
 4. Cree un proceso de flujo de trabajo para la tabla **Cuenta** y seleccione la plantilla de proceso de flujo de trabajo **Actualizar proveedores en la tabla Proveedores**.
 5. Puede configurar los flujos de trabajo como flujos de trabajo en tiempo real o en segundo plano, dependiendo de sus requisitos. Para configurar un flujo de trabajo como flujo de trabajo en segundo plano, seleccione **Convertir a un flujo de trabajo en segundo plano**.
 
-    ![Botón convertir a un flujo de trabajo en segundo plano](media/background_workflow.png)
+    ![Botón convertir a un flujo de trabajo en segundo plano.](media/background_workflow.png)
 
 6. Active los flujos de trabajo que ha creado para las tablas **Cuenta** y **Proveedor** para comenzar a utilizar la tabla **Cuenta** para almacenar información de proveedores del tipo **Organización**.
 

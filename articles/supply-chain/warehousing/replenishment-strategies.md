@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8ddc7022a1e9a7db14aaa67efcd442025b0f9d8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814521"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344485"
 ---
 # <a name="replenishment-strategies"></a>Estrategias de reabastecimiento
 
@@ -45,7 +45,7 @@ Antes de poder usar esta característica debe estar activada en su sistema. Los 
 
 Para acceder a las plantillas, vaya a **Gestión de almacén \> Configuración \> Reabastecimiento \> Plantillas de reabastecimiento**. En la sección **Visión de conjunto**, seleccione o cree una plantilla de reabastecimiento de demanda de oleada donde el campo **Tipo de reposición** esté configurado en *Demanda de olas*. Luego configure las líneas de la plantilla de reabastecimiento en la sección **Detalles de la plantilla de reabastecimiento**. Para cada línea, en el campo **Estrategia de reposición**, seleccione la estrategia de reabastecimiento que desea utilizar.
 
-![Página Plantillas de reabastecimiento](media/ReplenTempWaveDmdMaxLocCap.png "Página Plantillas de reabastecimiento")
+![Página Plantillas de reabastecimiento.](media/ReplenTempWaveDmdMaxLocCap.png "Página Plantillas de reabastecimiento")
 
 Si la columna **Estrategia de reposición** no aparece en la cuadrícula en la sección **Detalles de la plantilla de reabastecimiento**, asegúrese de que la función esté activada y de que la plantilla de reabastecimiento seleccionada tenga un tipo de reabastecimiento de *Demanda de olas*.
 
@@ -85,7 +85,7 @@ Si establece la estrategia de reabastecimiento en *Capacidad máxima de ubicaci�
 - **Trabajo de reposición 1:** Elija 4 cajas de la ubicación a granel y colóquelas en la ubicación pick-001.
 - **Trabajo de reposición 2:** Elija 5 cajas de la ubicación a granel y colóquelas en la ubicación pick-002.
 
-[![Ejemplo 1](media/ReplenTemp_example_1.png "Ejemplo 1")](media/ReplenTemp_example_1_large.png)
+[![Ejemplo 1.](media/ReplenTemp_example_1.png "Ejemplo 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Ejemplo 2
 
@@ -109,7 +109,7 @@ Dependiendo del ajuste de la opción **Permitir dividir** en las directivas de u
 
 Los resultados difieren debido a la información que está disponible cuando crea el trabajo. Cuando **Permitir dividir** se establece en *Sí* en las directivas de ubicación para el picking de reabastecimiento, sabe que logró encontrar 160 unidades. Por lo tanto, puede crear trabajo para esa cantidad. Sin embargo, cuando la opción **Permitir dividir** está configurada en *No*, no conoces la existencia de las 160 uds. Debido a que la cantidad extra que decidió reponer era de 3 cajas, suelte esa cantidad extra y vuelva a intentar la cantidad original.
 
-[![Ejemplo 2](media/ReplenTemp_example_2.png "Ejemplo 2")](media/ReplenTemp_example_2_large.png)
+[![Ejemplo 2.](media/ReplenTemp_example_2.png "Ejemplo 2")](media/ReplenTemp_example_2_large.png)
 
 Por lo tanto, para obtener la cantidad máxima en las ubicaciones reabastecidas, debe establecer la opción **Permitir dividir** en *Sí* en las directivas de ubicación para el picking de reabastecimiento.
 

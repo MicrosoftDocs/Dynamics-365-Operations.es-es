@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0646f8b6371ffbb5d203f8fd062999fb22613240
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837162"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345635"
 ---
 # <a name="revenue-recognition-setup"></a>Configuración de reconocimiento de ingresos
 [!include [banner](../includes/banner.md)]
@@ -72,7 +72,7 @@ Los parámetros de reconocimiento de ingresos se configuran en la pestaña **Rec
     - Establezca esta opción en **No** para limitar el registro de la transacción correctiva en la contabilidad general. Cuando esta opción se establece en **No**, no se crea ningún documento adicional en los clientes para la corrección de la contabilidad interna. Cuando se abona la factura, el proceso de liquidación utiliza la antigua entrada contable para registrar los descuentos por pronto pago o los beneficios o pérdidas realizados.
     - Establezca esta opción en **Sí** para crear automáticamente un documento de inversión y una nueva factura para la transacción correctiva en los clientes. Puesto que esta corrección es una corrección de la contabilidad interna, los nuevos documentos no se envían o comunican al cliente. El documento de inversión se liquida en la factura original y el cliente abona la nueva factura corregida. Tenga en cuenta que los tres documentos se muestran en informes, como el extracto del cliente.
 
-[![Información de configuración](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Información de configuración.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Programaciones de ingresos
 
@@ -82,7 +82,7 @@ Si reconoce ingresos por hito, se recomienda crear una programación de reconoci
 
 Las programaciones de ingresos se crean en la página **Programaciones de ingresos** (**Reconocimiento de ingresos \> Configuración \> Programaciones de ingresos**).
 
-[![Programaciones de ingresos](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Programaciones de ingresos.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Especifique valores descriptivos en los campos **Programación de ingresos** y **Descripción**. Los parámetros adicionales siguientes se usan para crear la programación de ingresos cuando se registra la factura.
 
@@ -104,7 +104,7 @@ Especifique valores descriptivos en los campos **Programación de ingresos** y *
 
 Seleccione el botón **Detalles de la programación de ingresos** para ver los períodos generales y los porcentajes que se reconocen en cada período. De forma predeterminada, el valor de **Porcentaje de reconocimiento** se divide equitativamente entre el número de períodos. Si la base de reconocimiento se establece en **Mensual** o **Repeticiones**, el porcentaje de reconocimiento se puede modificar. Al cambiar el porcentaje de reconocimiento, un mensaje de advertencia le notifica que el total no es igual al 100 por cien. Si recibe el mensaje, puede continuar editando las líneas. Sin embargo, el porcentaje total debe ser igual a 100 antes de cerrar la página.
 
-[![Detalles de programación de ingresos](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+[![Detalles de programación de ingresos.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>Configuración del inventario
 
@@ -137,9 +137,9 @@ Los grupos de artículos y los productos emitidos se pueden configurar mediante 
     - **Tolerancia máxima**: especifique el porcentaje que se permite por encima del precio medio.
     - **Tolerancia mínima**: especifique el porcentaje que se permite por debajo del precio medio.
 
-Una vez que haya terminado de configurar los parámetros para el producto emitido, debe definir manualmente el precio de ingresos al especificar el precio de valor justo o el precio medio (si utiliza el método de precio medio) en la página **Precios de ingresos** (vaya a **Reconocimiento de ingresos \> Configuración \> Configuración de inventario \> Productos emitidos** y, a continuación, en el panel de acciones, en la pestaña **Venta**, en el grupo **Reconocimiento de ingresos**, seleccione **Precios de ingresos**).
+Una vez que haya terminado de configurar los parámetros para el producto emitido, debe definir manualmente el precio de ingresos al especificar el precio de valor razonable o el precio medio (si utiliza el método de precio medio) en la página **Precios de ingresos** (vaya a **Reconocimiento de ingresos \> Configuración \> Configuración de inventario \> Productos emitidos** y, a continuación, en el panel de acciones, en la pestaña **Venta**, en el grupo **Reconocimiento de ingresos**, seleccione **Precios de ingresos**).
 
-[![Precios de ingresos](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Precios de ingresos.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 El precio de ingresos que se define manualmente en esta página se usa para determinar la asignación de precios de ingresos en cada pedido de ventas, en función de los criterios definidos. Cada criterio se asocia a la línea de pedido de ventas para determinar el precio de ingresos que se debe usar en el proceso de asignación.
 
@@ -181,7 +181,7 @@ Cuando configure un artículo de agrupación de trabajos, debe configurar dos ca
 
 Los componentes se deben asignar a continuación al artículo principal de agrupación de trabajos/L. MAT en la página **Versiones de L. MAT** (vaya a **Reconocimiento de ingresos \> Configuración \> Configuración de inventario y producto \> Productos emitidos** y, a continuación, en el panel de acciones, en la pestaña **Ingeniero**, en el grupo **L. MAT**, seleccione **Versiones de L. MAT**). Para obtener más información, consulte la documentación de configuración de L. MAT.
 
-[![Productos emitidos, programaciones de L. MAT](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Productos emitidos, programaciones de L. MAT.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
 Si el artículo principal de agrupación de trabajos y los componentes de agrupación de trabajos se establecen para la asignación, el precio de ingresos de la agrupación de trabajos se distribuirá entre los componentes, en función de sus porcentajes de contribución de ingresos.
 

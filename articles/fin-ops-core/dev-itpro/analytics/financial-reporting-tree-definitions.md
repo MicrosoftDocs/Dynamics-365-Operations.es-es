@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866311"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345795"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definiciones de organigramas en informes financieros
 
@@ -170,23 +170,23 @@ Consulte la estructura de las unidades organizacionales en el siguiente organigr
 - Las unidades de notificación de detalle más bajo (ventas para el hogar, ventas de automóviles, servicios al cliente y operaciones) representan departamentos en los datos financieros. Estas unidades de notificación se encuentran en el área sombreada del diagrama.
 - Las unidades de resumen de alto nivel resumen la información de las unidades de detalle.
 
-[![Estructura del informe de resumen de Contoso: ejemplo 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Estructura del informe de resumen de Contoso: ejemplo 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Estructura de la unidad organizacional – Ejemplo 2
 
 En el diagrama siguiente, el organigrama tiene una estructura de organización que está dividida por la función de negocio.
 
-[![Estructura del informe de resumen de Contoso: ejemplo 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Estructura del informe de resumen de Contoso: ejemplo 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Ejemplo del cuadro de diálogo Insertar unidades organizacionales de dimensiones
 
 En la siguiente ilustración se muestra un ejemplo del cuadro de diálogo **Insertar unidades de notificaciones de dimensiones**. Para este ejemplo, los resultados devolverán la combinación de unidades de negocio, centros de costes y departamentos.
 
-[![Insertar unidades de informes](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Insertar unidades de informes.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 La definición del organigrama resultante se clasifica por unidad de negocio, a continuación, por centro de coste y, por último, por departamento. La dimensión para la quinta unidad organizacional es **Unidad de negocio = \[001\], Centro de coste =\[\], Departamento = \[022\]** e identifica una unidad organizacional para las cuentas que son específicas de la unidad de negocio 001 y el departamento 022.
 
-[![Ilustración del árbol de informes](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Ilustración del árbol de informes.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Ejemplos de distribución de datos
 
@@ -194,11 +194,11 @@ Los ejemplos siguientes muestran información que se puede usar en una definici�
 
 #### <a name="example-1"></a>Ejemplo 1
 
-[![Ejemplo multiempresa](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Ejemplo multiempresa.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Ejemplo 2
 
-[![Ejemplo de departamentos interempresas](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Ejemplo de departamentos interempresas.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12e9446c145752cd74fb71884fcabe9d4bd03c68
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4d0a298a8f782ae318971e99c03e864fa5a4ef88
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187707"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343659"
 ---
 # <a name="production-order-cost-analysis"></a>Análisis del coste del pedido de producción
 
@@ -41,7 +41,7 @@ Las desviaciones reflejan la comparación de las actividades de producción noti
 
 En el siguiente diagrama se muestran las cuatro desviaciones que justifican la diferencia entre los costes reales de un pedido de producción y los costes calculados en el registro de costes del artículo en el momento de finalizar el pedido de producción. 
 
-![Desviaciones que explican las diferencias en un pedido de producción completado](./media/control.jpg) 
+![Desviaciones que explican las diferencias en un pedido de producción completado.](./media/control.jpg) 
 
 Puede analizar las desviaciones de producción mediante la página **Desviación** o el informe **Desviación de producción** . Use las opciones de visualización para ver las desviaciones detalladas por artículo y recurso de operaciones, o por grupo de costes. La directiva de análisis de costes de los parámetros del inventario determina si se realizará un seguimiento de las desviaciones por grupo de costes. También puede usar las opciones de visualización **única**, **múltiple** y **total** para ver las desviaciones resumidas. La información sobre las desviaciones detalladas puede ayudarlo a comprender el origen de cada desviación. Con el fin de poder anticipar las desviaciones antes de que finalice el pedido de producción, analice la información detallada que se proporciona en el informe **Estimaciones y gestión de costes**.
 

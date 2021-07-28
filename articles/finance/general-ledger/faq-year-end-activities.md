@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 379bb8a1f969a74618db0e57c84c2038db1b631c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822840"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345485"
 ---
 # <a name="year-end-activities-faq"></a>Preguntas frecuentes sobre las actividades de fin de año 
 
@@ -29,7 +29,7 @@ Este tema se ha resumido para ayudar con las actividades de cierre de fin de añ
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Contabilidad general: ¿cómo puedo saber que estamos llevando a cabo el cierre de fin de año y no deshaciendo el cierre de fin de año?
 Hemos visto organizaciones que intentas llevar a cabo el cierre de fin de año, pero, en su lugar, estaban deshaciéndolo. Si el cierre de fin de año está acabando muy rápido o no produce saldos de apertura, valide el ajuste **Deshacer cierre anterior** en **Cierre de fin de año** (**Contabilidad general > Cierre de período > Cierre de fin de año > Ejecutar cierre fiscal**). 
 
-[![Ejecutar el cierre de fin de año frente a deshacer el cierre de fin de año](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+[![Ejecutar el cierre de fin de año frente a deshacer el cierre de fin de año.](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
 
 Si la selección **Deshacer cierre anterior** se ha establecido en **Sí**, se estará deshaciendo el cierre de año anterior. Al deshacer, se eliminarán todos los saldos de cierre y apertura, como si nunca se hubiera ejecutado el cierre de fin de año. Los asientos se eliminan. El cierre de fin de año no se volverá a ejecutar de forma automática. Debe iniciar el proceso de nuevo, pero esta vez cambie **Deshacer cierre anterior** a **No**. 
 
@@ -39,11 +39,11 @@ Si la selección **Deshacer cierre anterior** se ha establecido en **Sí**, se e
 ## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>Contabilidad general: ¿cuál es la diferencia entre los parámetros de Contabilidad general Deshacer y Eliminar con respecto al cierre de fin de año?
 Puede haber confusión sobre la diferencia entre el parámetro **Deshacer cierre anterior**, que se encuentra en el cuadro de diálogo **Cierre de fin de año**, y el parámetro **Eliminar el asiento de cierre y apertura y generar uno nuevo** en Contabilidad general (**Contabilidad general > Cierre de período > Cierre de fin de año > Ejecutar cierre fiscal**).  
 
-[![Diferencia entre los parámetros de Contabilidad general Deshacer y Eliminar con respecto al cierre de fin de año](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+[![Diferencia entre los parámetros de Contabilidad general Deshacer y Eliminar con respecto al cierre de fin de año.](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
 
-Seleccione **Deshacer cierre anterior** en el menú de diálogo desplegable al ejecutar el proceso de cierre de fin de año para eliminar todos los saldos de cierre y de apertura, como si el cierre de fin de año nunca se hubiera ejecutado. Los asientos se eliminarán. El cierre de fin de año no se volverá a ejecutar de forma automática. Para ejecutar el cierre de fin de año, debe iniciar este proceso nuevamente, pero esta vez cambie **Deshacer cierre anterior** a **No** (**Contabilidad general > Configuración de contabilidad general > Parámetros de contabilidad general**). 
+Seleccione **Deshacer cierre anterior** en el menú de diálogo desplegable al ejecutar el proceso de cierre de fin de año para eliminar todos los movimientos de saldo de cierre y de apertura, como si el cierre de fin de año nunca se hubiera ejecutado. Los asientos se eliminarán. El cierre de fin de año no se volverá a ejecutar de forma automática. Para ejecutar el cierre de fin de año, debe iniciar este proceso nuevamente, pero esta vez cambie **Deshacer cierre anterior** a **No** (**Contabilidad general > Configuración de contabilidad general > Parámetros de contabilidad general**). 
 
-[![Configuración de los parámetros de contabilidad general](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+[![Configuración de los parámetros de contabilidad general.](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
 
 El parámetro **Eliminar el asiento de cierre y apertura y generar uno nuevo** en Contabilidad general se usa solo cuando se ejecuta (no al deshacer) el cierre de fin de año (la selección **Deshacer cierre anterior** está establecida en **No**). Si ese parámetro se establece en **Sí**, todas las entradas de saldo de cierre y de apertura se eliminarán y el cierre de fin de año se ejecutará de nuevo. Este proceso se utiliza cuando la organización desea que todas las transacciones, incluidos los ajustes desde el último cierre de año, se registren en una sola entrada contable para las entradas de saldo de cierre y de apertura. 
 
@@ -60,7 +60,7 @@ Al ejecutar el cierre de fin de año, se vuelve a crear el saldo de cada conjunt
 
 Los conjuntos de dimensiones innecesarios también afectan al trabajo por lotes **BudgetDimensionFocusInitializeBalance** (**Contabilidad general > Plan de cuentas > Dimensiones > Conjuntos de dimensiones financieras**).
 
-[![Conjuntos de dimensiones financieras](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
+[![Conjuntos de dimensiones financieras.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Configuración de la plantilla del cierre de fin de año
 La plantilla del cierre de fin de año permite a las organizaciones seleccionar el nivel de la dimensión financiera que deben mantener a la hora de transferir los saldos de pérdidas y ganancias a las ganancias retenidas. La configuración permite que una organización mantenga las dimensiones financieras detalladas (**Cerrar todo**) al mover los saldos a ganancias retenidas o elegir resumir los importes en un valor de dimensión única (**Cerrar uno**). Esto se puede definir para cada dimensión financiera. Para obtener más información sobre estas configuraciones, consulte el tema [Cierre de fin de año](year-end-close.md).
@@ -72,14 +72,14 @@ Si ha actualizado a la versión 10.0.13 o posterior desde la última vez que su 
  
 ## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Contabilidad general: ¿qué hace el Cierre de período: cierre de fin de año?
  
-[![Cierre de período, cierre de fin de año](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
+[![Cierre de período, cierre de fin de año.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
 ### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Mejoras de rendimiento para volver a crear conjuntos de dimensiones financieras (nueva característica)
 Una nueva característica agregada en la versión 10.0.16 mejora el rendimiento de los procesos de cierre y consolidación de fin de año. La característica se llama: Mejoras de rendimiento para volver a crear conjuntos de dimensiones financieras. Esta función cambia la forma en que se reconstruyen los conjuntos de dimensiones para que se vuelvan a crear solo durante un plazo de tiempo relevante. En las versiones anteriores, los conjuntos de dimensiones se volvían a crear para todas las fechas. Por ejemplo, si está cerrando el año 2020, el sistema solo volverá a crear los saldos de las transacciones dentro del ejercicio de 2020. Si está ejecutando la consolidación para un rango de fechas del 1 de noviembre de 2020 al 30 de noviembre de 2020, el sistema solo volverá a crear los saldos para ese tramo.
 
 Esta función se considera un cambio importante y deberá habilitarla mediante el espacio de trabajo **Administración de características**.
  
-[![Cierre de fin de año](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+[![Cierre de fin de año.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Proveedores: ¿qué cambios se han realizado para respaldar la declaración de informe 1099 de fin de año para 2020?
 
@@ -114,15 +114,15 @@ No. La rutina de Actualizar IRPF se lleva a cabo en un solo proveedor al mismo t
 ## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Proveedores: IRPF - "Volver a calcular los importes existentes de la declaración de IRPF" frente a "Actualizar todo" en la función Actualizar IRPF.
 La casilla **Volver a calcular los importes existentes de la declaración de IRPF** restablecerá el importe de la declaración de IRPF a los valores pagados totales cuando se use junto a la casilla **Actualizar todo**. 
 
-[![Transacciones de IRPF: antes de ejecutar la rutina de actualización](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+[![Transacciones de IRPF: antes de ejecutar la rutina de actualización.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
 
 La casilla **Volver a calcular los importes existentes de la declaración de IRPF** solo es útil cuando hay valores parciales en la declaración de IRPF en la factura o si se ha modificado en el formulario de IRPF. Por ejemplo, suponga que tiene una factura con valor de 1000 $, pero el usuario introduce manualmente un importe de declaración de IRPF en la factura de 500 $.
 
-[![Transacciones de IRPF: marcar Actualizar todo y Volver a calcular los importes existentes de la declaración de IRPF](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
+[![Transacciones de IRPF: marcar Actualizar todo y Volver a calcular los importes existentes de la declaración de IRPF.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
 Cuando se pague, 500 $ será el importe de IRPF que se pague. Si vuelve a calcular los importes, el sistema cambiará el importe de IRPF a 1000 $, que es el total que se ha pagado.
 
-[![Transacciones de IRPF: después de ejecutar la rutina de IRPF](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
+[![Transacciones de IRPF: después de ejecutar la rutina de IRPF.](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
 
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Proveedores: IRPF - Crear manualmente transacciones de IRPF
 Es posible que una organización deba crear manualmente transacciones de IRPF que no estén asociadas con una factura. Puede agregar transacciones de IRPF manuales si va a **Proveedores > Tareas periódicas > IRPF > Liquidación del proveedor para IRPF**. Seleccione el botón **Transacciones manuales de IRPF**. 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190097"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347695"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Tránsito directo desde pedidos de producción a muelles de salida
 
@@ -42,7 +42,7 @@ Un producto se registra como terminado a la ubicación de salida de producción 
 -   Si hay un tráiler asignado en la compuerta, se indicará al conductor del camión que cargue el producto directamente en el tráiler.
 -   Si no hay ninguna actividad planificada para transferir el producto, se indicará al conductor del elevador que coloque el producto en una ubicación en el almacén interno (5).
 
-[![Tránsito directo oportunista](./media/scenario1.png)](./media/scenario1.png)
+[![Tránsito directo oportunista.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Configurar el tránsito directo
 Puede configurar el proceso de tránsito director en las **directivas de trabajo**. Una directiva de trabajo incluye un tipo de pedido de trabajo, una ubicación y un producto. En el siguiente ejemplo, el tránsito directo se configura para el producto X y la ubicación Y.

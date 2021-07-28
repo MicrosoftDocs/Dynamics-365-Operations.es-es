@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838259"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345243"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurar filtros de productos para transacciones de almacén
 
@@ -46,11 +46,11 @@ Los filtros de producto proporcionan hasta 10 características **Título del fil
 1. Seleccione un valor en el campo **Título de filtro**.
 1. En el campo **Código de filtro**, escriba un valor.
 
-    ![Configurar un filtro de producto](media/Product_Filters10.png "Configurar un filtro de producto")
+    ![Configurar un filtro de producto.](media/Product_Filters10.png "Configurar un filtro de producto")
 
 1. En el campo **Descripción**, especifique un nombre para el código. Por ejemplo, *Codigo 2* podría representar a los proveedores. A continuación, puede crear un filtro de producto para un proveedor o grupo de proveedores específico. Para obtener más información, consulte la sección [Configurar códigos de filtro de proveedor](#vendor-product-filters) más adelante en este tema.
 
-    ![Configuración de filtros de producto](media/Product_Filters.png "Configuración de filtros de producto")
+    ![Configuración de filtros de producto.](media/Product_Filters.png "Configuración de filtros de producto")
 
 ## <a name="set-up-product-filter-groups"></a>Configuración de los grupos de filtro de producto
 
@@ -69,7 +69,7 @@ Para configurar grupos de filtros, siga estos pasos.
 1. En el campo **Grupo de artículos**, seleccione el grupo de artículos al que se debe aplicar el filtro de productos.
 1. En los campos de **Código 1** a **Código 10**, seleccione los códigos de filtro para incluir en el grupo, según sea necesario.
 
-    ![Grupo de artículos](media/ProdFilterGroup.png "Grupo de artículos")
+    ![Grupo de artículos.](media/ProdFilterGroup.png "Grupo de artículos")
 
 > [!NOTE]
 > Si recibe un mensaje de error al cerrar la página, es posible que falte una configuración de código. En la página **Grupos de artículos**, puede hacer que los códigos sean obligatorios para un grupo de artículos seleccionando las casillas de verificación **Asignar filtro Código 1 para el grupo de artículos**, **Asignar filtro Código 2 para el grupo de artículos**, y así sucesivamente.
@@ -88,7 +88,7 @@ Para configurar códigos de filtro en grupos de artículos, siga estos pasos.
 
     Para actualizar un producto lanzado, abra su página **Detalles del producto publicado** y, a continuación, en el panel de Acción, seleccione **Editar**. Los filtros que están asociados con los códigos están disponibles en la ficha desplegable **Almacén**.
 
-    ![Grupos de artículos](media/ItemGroup10.png "Grupos de artículos")
+    ![Grupos de artículos.](media/ItemGroup10.png "Grupos de artículos")
 
 1. En la sección **Filtro de grupo de artículos**, seleccione las casillas de verificación de los filtros que deben coincidir para que el grupo de filtros sea el grupo de filtros predeterminado para un elemento.
 

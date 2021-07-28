@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049325"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346091"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instale y conecte la aplicación móvil Warehouse Management
 
@@ -78,28 +78,28 @@ Para habilitar la aplicación móvil Warehouse Management para interactuar con u
 1. Especifique el nombre y la contraseña del usuario que tiene acceso a la suscripción de Azure.
 1. En el portal de Azure, en el panel de navegación izquierdo, seleccione **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Asegúrese de estar trabajando con la instancia de Azure AD que utilice Supply Chain Management.
 1. En la lista **Administrar**, seleccione **Registros de aplicación**.
 
-    ![Registros de aplicación](media/app-connect-azure-register.png "Registros de aplicación")
+    ![Registros de aplicación.](media/app-connect-azure-register.png "Registros de aplicación")
 
 1. En la barra de herramientas, seleccione **Nuevo registro** para abrir el asistente **Registrar una solicitud**.
 1. Escriba un nombre para la aplicación, seleccione la opción **Solo cuentas en el directorio de esta organización** y luego elija **Registrar**.
 
-    ![Asistente de Registrar una aplicación](media/app-connect-azure-register-wizard.png "Asistente de Registrar una aplicación")
+    ![Asistente de Registrar una aplicación.](media/app-connect-azure-register-wizard.png "Asistente de Registrar una aplicación")
 
 1. Se abre su nuevo registro de aplicación. Anote el valor de **Id. de aplicación (cliente)**, puesto que lo necesitará más adelante. Este id. se referirá más adelante en este tema como *Id. de cliente*.
 
-    ![Identificador de aplicación (cliente)](media/app-connect-azure-app-id.png "Id. de aplicación (cliente)")
+    ![Identificador de aplicación (cliente).](media/app-connect-azure-app-id.png "Id. de aplicación (cliente)")
 
 1. En la lista **Administrar**, seleccione **Certificado y secretos**. Luego, seleccione uno de los siguientes botones, según cómo desee configurar la aplicación para la autenticación. (Para obtener más información, consulte la sección [Autenticar usando un certificado o secreto de cliente](#authenticate), más adelante en este tema).
 
     - **Cargar certificado**: cargue un certificado para usarlo como secreto. Recomendamos este enfoque, porque es más seguro y también se puede automatizar más completamente. Si está ejecutando la aplicación móvil Warehouse Management en dispositivos Windows, anote el valor de **Huella digital** que se muestra después de cargar el certificado. Necesitará este valor cuando configure el certificado en dispositivos Windows.
     - **Nuevo secreto de cliente**: cree una clave introduciendo una descripción de clave y una duración en la sección **Contraseñas** y luego seleccione **Añadir**. Haga una copia de la clave y guárdela de forma segura.
 
-    ![Certificado y secretos](media/app-connect-azure-authentication.png "Certificado y secretos")
+    ![Certificado y secretos.](media/app-connect-azure-authentication.png "Certificado y secretos")
 
 Para obtener más información sobre cómo configurar aplicaciones de servicios web en Azure AD, vea los siguientes recursos:
 
@@ -119,7 +119,7 @@ Para permitir que Supply Chain Management use su aplicación Azure AD, siga esto
     1. Crear un usuario.
     1. Asigne el usuario del dispositivo móvil de almacenamiento.
 
-    ![Asignar el usuario del dispositivo móvil de almacenamiento](media/app-connect-app-users.png "Asignar el usuario del dispositivo móvil de almacenamiento")
+    ![Asigne el usuario del dispositivo móvil de almacenamiento.](media/app-connect-app-users.png "Asignar el usuario del dispositivo móvil de almacenamiento")
 
 1. Asocie su aplicación Azure AD con el usuario de la aplicación móvil Warehouse Management:
 
@@ -127,7 +127,7 @@ Para permitir que Supply Chain Management use su aplicación Azure AD, siga esto
     1. Crear una línea.
     1. Introduzca la ID de cliente que anotó en la sección anterior, asígnele un nombre y seleccione el usuario que acaba de crear. Se reomienda etiquetar todos los dispositivos. Luego, si un dispositivo se pierde, puede eliminar fácilmente su acceso a Supply Chain Management desde esta página.
 
-    ![Aplicaciones de Azure Active Directory](media/app-connect-aad-apps.png "Aplicaciones de Azure Active Directory")
+    ![Aplicaciones de Azure Active Directory.](media/app-connect-aad-apps.png "Aplicaciones de Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticar usando un certificado o secreto de cliente
 
@@ -213,30 +213,30 @@ Siga estos pasos para importar la configuración de conexión desde un archivo o
 
 1. Inicie la aplicación móvil Warehouse Management en su dispositivo móvil. La primera vez que inicie la aplicación, se mostrará un mensaje de bienvenida. Seleccione **Seleccionar una conexión**.
 
-    ![Mensaje de bienvenida](media/app-configure-welcome-screen.png "Mensaje de bienvenida")
+    ![Mensaje de bienvenida.](media/app-configure-welcome-screen.png "Mensaje de bienvenida")
 
 1. Si está importando la configuración de conexión de un archivo, es posible que la aplicación ya haya encontrado el archivo si el nombre predeterminado y la ubicación predeterminada se usaron cuando se guardó. En este caso, continúe con el paso 4. De lo contrario, seleccione **Configurar conexión** y luego continúe con el paso 3.
 
-    ![Configurar conexión](media/app-configure-set-up-connection.png "Configurar conexión")
+    ![Configurar conexión.](media/app-configure-set-up-connection.png "Configurar conexión")
 
 1. En el cuadro de diálogo **Configuración de la conexión**, seleccione **Agregar desde archivo** o **Agregar desde código QR**, dependiendo de cómo desee importar la configuración:
 
     - Si está importando la configuración de conexión desde un archivo, seleccione **Agregar desde archivo**, busque el archivo en su dispositivo local y selecciónelo. Si selecciona una ubicación personalizada, la aplicación la almacenará y la usará automáticamente la próxima vez.
     - Si está importando la configuración de conexión escaneando un código QR, seleccione **Añadir desde código QR**. La aplicación le solicita permiso para usar la cámara del dispositivo. Después de otorgar el permiso, se inicia la cámara para que pueda usarla para escanear. Dependiendo de la calidad de la cámara del dispositivo y la complejidad del código QR, es posible que le resulte difícil obtener un escaneo correcto. En ese caso, intente reducir la complejidad del código QR generando solo una conexión por código QR. (Actualmente, solo puede usar la cámara del dispositivo para escanear el código QR).
 
-    ![Menú de configuración de conexión](media/app-configure-connection-setup-flyout.png "Menú de configuración de conexión")
+    ![Menú de configuración de conexión.](media/app-configure-connection-setup-flyout.png "Menú de configuración de conexión")
 
 1. Cuando los ajustes de conexión se cargan correctamente, se muestra la conexión seleccionada.
 
-    ![Configuración de conexión cargada](media/app-configure-select-connection.png "Configuración de conexión cargada")
+    ![Configuración de conexión cargada.](media/app-configure-select-connection.png "Configuración de conexión cargada")
 
 1. Si estás usando un dispositivo Android y utiliza un certificado para la autenticación, el dispositivo le solicita que seleccione el certificado.
 
-    ![Seleccione la solicitud de certificado en un dispositivo Android](media/app-configure-select-certificate.png "Seleccione la solicitud de certificado en un dispositivo Android")
+    ![Seleccione la solicitud de certificado en un dispositivo Android.](media/app-configure-select-certificate.png "Seleccione la solicitud de certificado en un dispositivo Android")
 
 1. La aplicación se conecta a su servidor de Supply Chain Management y muestra la página de inicio de sesión.
 
-    ![Página de inicio de sesión](media/app-configure-sign-in-page.png "Página de inicio de sesión")
+    ![Página de inicio de sesión.](media/app-configure-sign-in-page.png "Página de inicio de sesión")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Configurar manualmente la aplicación
 
@@ -246,15 +246,15 @@ Si no dispone de un archivo o de un código QR, puede configurar la aplicación 
 1. Si la aplicación se inicia en **Modo de demostración**, seleccione **Configuraciones de conexión**. Si aparece la página **Iniciar sesión** cuando se inicia la aplicación, seleccione **Cambiar conexión**.
 1. Seleccione **Configurar conexión**.
 
-    ![Configurar conexión](media/app-configure-set-up-connection.png "Configurar conexión")
+    ![Configurar conexión.](media/app-configure-set-up-connection.png "Configurar conexión")
 
 1. Seleccione **Introducir manualmente**.
 
-    ![Menú de configuración de conexión](media/app-configure-connection-setup-flyout.png "Menú de configuración de conexión")
+    ![Menú de configuración de conexión.](media/app-configure-connection-setup-flyout.png "Menú de configuración de conexión")
 
     Aparece la página **Nueva conexión** y muestra la configuración necesaria para Introducir manualmente los detalles de la conexión.
 
-    ![Campos de conexión manual](media/app-configure-input-manually.png "Campos de conexión manual")
+    ![Campos de conexión manual.](media/app-configure-input-manually.png "Campos de conexión manual")
 
 1. Especifique la siguiente información:
 

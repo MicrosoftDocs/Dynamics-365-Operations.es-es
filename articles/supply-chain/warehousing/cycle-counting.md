@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838355"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345267"
 ---
 # <a name="cycle-counting"></a>Recuento cíclico
 
@@ -34,7 +34,7 @@ La cuenta de ciclo es un proceso de almacén que puede usar para revisar artícu
 2.  **Procesar el recuento cíclico**: una vez creado el trabajo de recuento cíclico, realice el trabajo de recuento cíclico contando los artículos de una ubicación de almacén y usando a continuación un dispositivo móvil para especificar el resultado en Dynamics 365 Supply Chain Management. Como alternativa, puede contar los artículos de una ubicación de almacén sin crear el trabajo de recuento cíclico. Este proceso se denomina *recuento cíclico puntual*.
 3.  **Resolver diferencias en el valor de recuento**: tras un recuento cíclico, todos los artículos que tengan diferencias en el valor del recuento tendrán un estado de trabajo de **Revisión pendiente** en la página **Todo el trabajo**. Puede resolver estas diferencias en la página **Revisión pendiente del trabajo de recuento cíclico**.
 
-En la ilustración siguiente se muestra el proceso de recuento cíclico. ![Flujo del proceso de recuento cíclico](./media/performcyclecountinginawarehouselocation.jpg)
+En la ilustración siguiente se muestra el proceso de recuento cíclico. ![Flujo del proceso de recuento cíclico.](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Requisitos previos de recuento cíclico
 La tabla siguiente muestra los requisitos previos que deben cumplirse para poder usar el recuento cíclico.

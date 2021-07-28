@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129830"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345193"
 ---
 # <a name="create-returns-in-pos"></a>Crear devoluciones en PDV.
 
@@ -48,7 +48,7 @@ Si se encuentra una transacción o un pedido que coincide con los criterios de b
 
 Para cada línea de pedido en la lista de productos que se pueden devolver, el PDV muestra información sobre la cantidad de compra original y las cantidades de las devoluciones que se procesaron previamente. La cantidad de devolución que ingresa un usuario para una línea de pedido debe ser menor o igual al valor del campo **Disponible para la devolución**.
 
-![Página de productos que se pueden devolver](media/returnslist.png)
+![Página de productos que se pueden devolver.](media/returnslist.png)
 
 Durante el proceso de devolución, si un usuario tiene el producto físico y ese producto tiene un código de barras, el usuario puede escanear el código de barras para registrar la devolución. Cada lectura del código de barras aumenta la cantidad de devolución en un artículo. Sin embargo, si la etiqueta del código de barras tiene una cantidad incrustada, esa cantidad se ingresará en el campo **En devolución**.
 
@@ -97,6 +97,13 @@ Si la información del lado del canal no está actualizada por algún motivo y s
 
 > [!NOTE]
 > Cuando la función **Experiencia unificada de procesamiento de devoluciones en el PDV** está activada, se encuentran disponibles nuevas funciones opcionales que admiten la validación de devoluciones de productos serializados. Para más información, consulte [Devolver productos controlados por número de serie en el punto de venta (PDV)](POS-serial-returns.md).
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial
+
+Esta característica garantiza que cuando se devuelve un pedido con varias facturas, los impuestos serán, finalmente, iguales al importe de impuestos cargado originalmente.
+1.  Vaya al espacio de trabajo **Administración de características** y busque **Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial**.
+2.  Seleccione **Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial** y luego haga clic en **Habilitar**.
+
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

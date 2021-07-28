@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800504"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345993"
 ---
 # <a name="warehouse-set-up"></a>Configuración de almacén
 
@@ -45,7 +45,7 @@ Para configurar un sitio de almacén, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de sitio de almacén.
 
-![Ejemplo de sitio de almacén](media/warehouse-site.png)
+![Ejemplo de sitio de almacén.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse&quot;></a>Configurar un almacén
 
@@ -98,7 +98,7 @@ Para configurar ubicaciones de inventario de almacén para inventario estándar,
     
 La siguiente imagen muestra una configuración de ubicación de inventario de almacén en San Francisco.
 
-![Ejemplo de configuración de ubicación de inventario](media/warehouse-inventory-locations.png)
+![Ejemplo de configuración de ubicación de inventario.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Configuración de almacén completo
 
@@ -121,13 +121,13 @@ Para completar la configuración de almacén, siga estos pasos.
 
 La siguiente imagen muestra los detalles de un almacén configurado.
 
-![Ejemplo de almacén configurado](media/warehouse-sample.png)
+![Ejemplo de almacén configurado.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la gestión de almacenes](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
+[Información general de la gestión de almacenes](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
-[Resumen de canales](channels-overview.md)
+[Información general de canales](channels-overview.md)
 
 [Requisitos previos de configuración de canales](channels-prerequisites.md)
 

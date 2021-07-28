@@ -13,18 +13,24 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87efbf7063de373e1e0b844ff1b942cdaab4a021
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
+ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055061"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6314294"
 ---
 # <a name="payroll-employee"></a>Empleado con nómina
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema proporciona detalles y una consulta de ejemplo para la entidad Empleado de nóminas en Dynamics 365 Human Resources.
+Este tema describe la entidad empleado de nómina para Dynamics 365 Human Resources.
+
+Nombre físico: mshr_payrollemployeeentity.
+
+### <a name="description"></a>Descripción
+
+Esta entidad proporciona información sobre el empleado. Debes configurar los [parámetros de integración de nómina](hr-admin-integration-payroll-api-parameters.md) antes de usar esta entidad.
 
 ## <a name="properties"></a>Propiedades
 
@@ -35,7 +41,7 @@ Este tema proporciona detalles y una consulta de ejemplo para la entidad Emplead
 | **Apellidos**<br>mshr_lastname<br>*Cadena* | Solo lectura<br>Obligatorio | Apellido del empleado. |
 | **Id. de entidad jurídica**<br>mshr_legalentityID<br>*Cadena* | Solo lectura<br>Obligatorio | Especifica la entidad jurídica (empresa). |
 | **Válido desde**<br>mshr_namevalidfrom<br>*Desplazamineto de fecha y hora* | Solo lectura <br>Obligatorio | Fecha de inicio de la validez de la información del empleado.  |
-| **Género**<br>mshr_gender<br>*Int32* | Solo lectura<br>Obligatorio | El sexo del empleado. |
+| **Género**<br>mshr_gender<br>[Opción mshr_hcmpersongender establecida](hr-admin-integration-payroll-api-gender.md) | Solo lectura<br>Obligatorio | El sexo del empleado. |
 | **ID de entidad de empleado de nómina**<br>mshr_payrollemployeeentityid<br>*GUID* | Obligatorio<br>Generado por el sistema | Valor GUID generado por el sistema para identificar de forma única el empleado. |
 | **Fecha inicial del empleo**<br>mshr_employmentstartdate<br>*Desplazamineto de fecha y hora* | Solo lectura<br>Obligatorio | La fecha de inicio del empleo del empleado. |
 | **Id. de tipo de identificación**<br>mshr_identificationtypeid<br>*Cadena* |Solo lectura<br>Obligatorio | El tipo de identificación definido para el empleado. |
@@ -59,25 +65,30 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
 
 ```json
 {
-         "mshr_legalentityid": "USMF",
-            "mshr_personnelnumber": "000041",
-            "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
-            "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-            "mshr_firstname": "Cassie",
-            "mshr_middlename": "Lassie",
-            "mshr_lastname": "Hicks",
-            "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-            "mshr_namevalidto": "2154-12-31T23:59:59Z",
-            "mshr_birthdate": "1987-09-12T00:00:00Z",
-            "mshr_gender": 200000002,
-            "mshr_identificationtypeid": "SSN",
-            "mshr_identificationnumber": "888-99-9342",
-            "mshr_dataareaid": "USMF",
-            "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
-            "_mshr_fk_worker_id_value": "000000ad-0000-0000-d5ff-004105000000",
-            "_mshr_fk_employment_id_value": "00000d0d-0000-0000-0600-014105000000",
-            "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
-            "mshr_payrollemployeeentityid": "00000d3c-0000-0000-d5ff-004105000000",
-            "_mshr_dataareaid_id_value": null
+    "mshr_legalentityid": "USMF",
+    "mshr_personnelnumber": "000041",
+    "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
+    "mshr_employmentenddate": "2154-12-31T23:59:59Z",
+    "mshr_firstname": "Cassie",
+    "mshr_middlename": "Lassie",
+    "mshr_lastname": "Hicks",
+    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
+    "mshr_namevalidto": "2154-12-31T23:59:59Z",
+    "mshr_birthdate": "1987-09-12T00:00:00Z",
+    "mshr_gender": 200000002,
+    "mshr_identificationtypeid": "SSN",
+    "mshr_identificationnumber": "888-99-9342",
+    "mshr_dataareaid": "USMF",
+    "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
+    "_mshr_fk_worker_id_value": "000000ad-0000-0000-d5ff-004105000000",
+    "_mshr_fk_employment_id_value": "00000d0d-0000-0000-0600-014105000000",
+    "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
+    "mshr_payrollemployeeentityid": "00000d3c-0000-0000-d5ff-004105000000",
+    "_mshr_dataareaid_id_value": null
 }
 ```
+## <a name="see-also"></a>Consulte también
+
+[Introducción a la API de integración de nóminas](hr-admin-integration-payroll-api-introduction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

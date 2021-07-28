@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753513"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348005"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER de correo electrónico
 
@@ -48,13 +48,13 @@ Para enviar un archivo de salida o varios archivos de salida por correo electró
 
 Puede configurar direcciones de correo electrónico para el ER de dos maneras. La configuración se puede completar de la misma manera que la función de administración de impresión la completa, o puede resolver una dirección de correo electrónico utilizando una referencia directa a la configuración de ER a través de una fórmula.
 
-[![Establecer la opción Activado en Sí para un destino de correo electrónico](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+[![Establecer la opción Activado en Sí para un destino de correo electrónico.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>Tipos de direcciones de correo electrónico
 
 Si selecciona **Editar** al lado del campo **Para** o **Cc** en el cuadro de diálogo **Configuración de destino**, aparecerá el cuadro de diálogo **Correo para**. Seleccione **Agregar** y después seleccione el tipo de dirección de correo electrónico que se usará. Actualmente se admiten dos tipos: **Correo electrónico de configuración** y **Correo electrónico de gestión de impresión**.
 
-[![Seleccionar el tipo de dirección de correo electrónico](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![Seleccionar el tipo de dirección de correo electrónico.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Correo electrónico de administración de impresión
 
@@ -84,7 +84,7 @@ Después de seleccionar el rol deseado, seleccione el botón **Enlazar** (símbo
 
 En la página del **Diseñador de fórmulas**, en el campo **Fórmula**, introduzca una referencia específica del documento a un rol admitido. En lugar de escribir la referencia, en el panel **Origen de datos**, busque y seleccione el nodo de origen de datos que representa una cuenta del rol configurado y luego seleccione **Agregar origen de datos** para actualizar la fórmula. Por ejemplo, si configura el destino de correo electrónico para la configuración **Transferencia de crédito ISO 20022** que se utiliza para procesar pagos a proveedores, el nodo que representa una cuenta de proveedor es `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
 
-![Configurar una cuenta de origen de correo electrónico](./media/er_destinations-emaildefineaddresssource.gif)
+![Configurar una cuenta de origen de correo electrónico.](./media/er_destinations-emaildefineaddresssource.gif)
 
 Si los números de cuenta del rol configurado son únicos para toda la instancia de Microsoft Dynamics 365 Finance, el campo **Compañía de origen del correo electrónico** en el cuadro de diálogo **Correo para** puede permanecer en blanco.
 
@@ -108,7 +108,7 @@ Para especificar el tipo de direcciones de correo electrónico que se deben util
 
 Seleccione **Correo electrónico de configuración** como tipo de dirección de correo electrónico si la configuración que utiliza tiene un nodo en las fuentes de datos que devuelve una sola dirección de correo electrónico o varias direcciones de correo electrónico separadas por punto y coma (;). Puede usar [orígenes de datos](general-electronic-reporting.md#FormatComponentOutbound) y [funciones](er-formula-language.md#functions) en el diseñador de fórmulas para obtener una dirección de correo electrónico con el formato correcto o direcciones de correo electrónico con el formato correcto que estén separadas por punto y coma. Por ejemplo, si usa la configuración **Transferencia de crédito ISO 20022**, el nodo que representa la dirección de correo electrónico principal de un proveedor de los detalles de contacto del proveedor al que se debe enviar la carta de presentación es `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
-[![Configurar un origen de dirección de correo electrónico](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![Configurar un origen de dirección de correo electrónico.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>Componentes de formato de grupo
 
@@ -126,15 +126,15 @@ Para desagrupar componentes de formato, en la ficha desplegable **Destino del ar
 
 La siguiente ilustración muestra la estructura de un formato ER que se configuró para producir un archivo de salida comprimido que contiene una nota de carta de cobro y las facturas de cliente correspondientes en formato PDF.
 
-[![Estructura de un formato ER que genera documentos salientes](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![Estructura de un formato ER que genera documentos salientes.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 La siguiente ilustración muestra el proceso, como se describe en este tema, de agrupar componentes individuales y habilitar el destino **Correo** para el nuevo grupo, de modo que se envíe una nota de carta de cobro junto con las facturas de cliente correspondientes como archivos adjuntos de correo electrónico.
 
-[![Agrupar componentes individuales y habilitar el destino del correo electrónico](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![Agrupar componentes individuales y habilitar el destino del correo electrónico.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
+- [Información general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 - [Diseñador de fórmulas en los informes electrónicos (ER)](general-electronic-reporting-formula-designer.md)
 

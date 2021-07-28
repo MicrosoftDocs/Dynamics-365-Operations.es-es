@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c2e207efe0eeec6fc7e679a6ae12edcb21b291f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f0dac25ede6c9b9dfcfa1be1f1a5f4d7a7752112
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058593"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344723"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurar tablas virtuales de Dataverse
 
@@ -41,7 +41,7 @@ Todas las entidades de Protocolo de datos abiertos (OData) de Human Resources es
 
 Puede ver la lista de tablas virtuales habilitadas en el entorno y comenzar a trabajar con las tablas en [Power Apps](https://make.powerapps.com), en la solución **Tablas virtuales de Dynamics 365 HR**.
 
-![Tablas virtuales de Dynamics 365 HR en Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+![Tablas virtuales de Dynamics 365 HR en Power Apps.](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
 ## <a name="virtual-tables-versus-native-tables"></a>Tablas virtuales versus tablas nativas
 
@@ -147,7 +147,7 @@ El siguiente paso es configurar el origen de datos de la tabla virtual en el ent
 
    - **Secreto de aplicación de AAD**: secreto de aplicación creado para la aplicación registrada en el portal de Microsoft Azure. Recibió esta información anteriormente durante el paso [Registrar la aplicación en Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
-   ![Fuente de datos de HR de Microsoft](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+   ![Fuente de datos de HR de Microsoft.](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
 9. Seleccione **Guardar y cerrar**.
 
@@ -187,7 +187,7 @@ Cuando se haya completado la configuración, puede seleccionar las tablas virtua
 
 4. Seleccione **Generar/actualizar**.
 
-![Integración de Dataverse](./media/hr-admin-integration-dataverse-integration.png)
+![Integración de Dataverse.](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Comprobar el estado de generación de tablas
 

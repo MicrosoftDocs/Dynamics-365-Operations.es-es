@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908576"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344279"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrar Dynamics 365 Supply Chain Management (Administración de activos) con Dynamics 365 Guides
 
@@ -56,38 +56,38 @@ Para asociar una guía con una plantilla de lista de verificación de mantenimie
     1. En la ficha desplegable **Líneas de control de mantenimiento**, seleccione la línea con la que desea asociar la guía.
     1. En la ficha desplegable **Guías asociadas**, seleccione **Agregar guía**.
 
-        ![Asociar una guía con una línea de lista de verificación de mantenimiento](media/am-guides-integration-add-guide.png "Asociar una guía con una línea de lista de verificación de mantenimiento")
+        ![Asociar una guía con una línea de lista de verificación de mantenimiento.](media/am-guides-integration-add-guide.png "Asociar una guía con una línea de lista de verificación de mantenimiento")
 
     1. En el campo **Nombre**, seleccione una guía y luego seleccione **Guardar**.
 
-        ![Seleccione una guía en el campo Nombre](media/am-guides-integration-select-guide.png "Seleccione una guía en el campo Nombre")
+        ![Seleccione una guía en el campo Nombre.](media/am-guides-integration-select-guide.png "Seleccione una guía en el campo Nombre")
 
 1. Asocie la plantilla de lista de verificación de mantenimiento con un tipo de trabajo:
 
     1. [Cree un tipo de trabajo de mantenimiento](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) o seleccione un tipo de trabajo de mantenimiento existente.
     1. En el Panel Acciones, seleccione **Tipos de trabajo de mantenimiento predeterminados**.
 
-        ![Botón de tipos predeterminados de trabajo de mantenimiento](media/am-guides-integration-job-defaults.png "Botón de tipos predeterminados de trabajo de mantenimiento")
+        ![Botón de tipos predeterminados de trabajo de mantenimiento.](media/am-guides-integration-job-defaults.png "Botón de tipos predeterminados de trabajo de mantenimiento")
 
     1. Cree una línea y luego seleccione **Guardar**.
 
-        ![Crear una línea](media/am-guides-integration-add-line.png "Crear una línea")
+        ![Crear una línea.](media/am-guides-integration-add-line.png "Crear una línea")
 
     1. En el panel Acciones, seleccione **Lista de comprobación de mantenimiento**.
 
-        ![Botón de lista de comprobación de mantenimiento](media/am-guides-integration-maintenance-checklist.png "Botón de lista de comprobación de mantenimiento")
+        ![Botón de lista de comprobación de mantenimiento.](media/am-guides-integration-maintenance-checklist.png "Botón de lista de comprobación de mantenimiento")
 
     1. En la ficha desplegable **Líneas de control de mantenimiento**, agregue una línea y luego cambie el valor del campo **Tipo** a **Plantilla**.
 
-        ![Cambiar el valor de Tipo](media/am-guides-integration-checklist-lines.png "Cambiar el valor de Tipo")
+        ![Cambiar el valor de Tipo.](media/am-guides-integration-checklist-lines.png "Cambiar el valor de Tipo")
 
     1. En la ficha desplegable **Detalles de línea**, en el campo **Modelo**,seleccione la plantilla con la que asoció la guía y luego seleccione **Guardar**.
 
-        ![Seleccione la plantilla](media/am-guides-integration-checklist-line-details.png "Seleccionar la plantilla")
+        ![Seleccione la plantilla.](media/am-guides-integration-checklist-line-details.png "Seleccionar la plantilla")
 
 1. [Cree una orden de trabajo](work-orders/manually-created-workorders.md#create-work-order) y luego seleccione el tipo de trabajo de mantenimiento que utiliza la plantilla de la lista de verificación de mantenimiento con la que asoció la guía. La guía se asocia automáticamente con la orden de trabajo.
 
-    ![Seleccionar un tipo de trabajo de mantenimiento](media/am-guides-integration-create-work-order.png "Seleccionar un tipo de trabajo de mantenimiento")
+    ![Seleccionar un tipo de trabajo de mantenimiento.](media/am-guides-integration-create-work-order.png "Seleccionar un tipo de trabajo de mantenimiento")
 
 1. Vea la guía asociada a la orden de trabajo y trabajadores:
 
@@ -95,11 +95,11 @@ Para asociar una guía con una plantilla de lista de verificación de mantenimie
     1. [Abra la lista de verificación de mantenimiento](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) para la orden de trabajo.
     1. Seleccione una línea de lista de verificación para ver la guía asociada.
 
-        ![Guía asociada con una línea de lista de verificación](media/am-guides-integration-show-guide.png "Guía asociada con una línea de lista de verificación")
+        ![Guía asociada con una línea de lista de verificación.](media/am-guides-integration-show-guide.png "Guía asociada con una línea de lista de verificación")
 
     1. Abra la guía en HoloLens.
 
-        ![Abrir la guía en HoloLens](media/am-guides-integration-hololens-select.png "Abrir la guía en HoloLens")
+        ![Abrir la guía en HoloLens.](media/am-guides-integration-hololens-select.png "Abrir la guía en HoloLens")
 
 > [!NOTE]
 > También puede asociar una guía directamente en la lista de verificación de mantenimiento de una orden de trabajo o un tipo de trabajo.

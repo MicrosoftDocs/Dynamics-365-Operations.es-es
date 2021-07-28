@@ -14,12 +14,12 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 468dc75bf4dd09820c1f5108e0af32e5723ad58f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45a6d9e68c5e3652b2cd36a7ddab389590e13b27
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839753"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343664"
 ---
 # <a name="intra-community-vat-for-spain"></a>IVA intracomunitario para España
 [!include [banner](../includes/banner.md)]
@@ -50,7 +50,7 @@ En el siguiente ejemplo se muestra cómo puede configurar códigos de impuestos 
 1. Vaya a **Proveedores** \> **Configuración** \> **Parámetros de proveedores**. 
 2. En la pestaña **Impuestos y contabilidad**, en la ficha desplegable **Impuestos**, establezca la opción **IVA intracomunitario** en **Sí**.
 
-![Página de parámetros de proveedores, pestaña de impuestos y contabilidad, campo de IVA intracomunitario](media/1_Intra-community_VAT.png)
+![Página de parámetros de proveedores, pestaña de impuestos y contabilidad, campo de IVA intracomunitario.](media/1_Intra-community_VAT.png)
 
 3. Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Códigos de impuestos** y cree un par de códigos de impuestos con el mismo porcentaje de impuestos para cada índice de impuestos. Un código debe tener un porcentaje de impuestos positivo, y el otro código debe tener un porcentaje de impuestos negativo. Para códigos con porcentaje de impuestos negativo, en la ficha desplegable **Cálculo**, establezca la opción **Permitir porcentaje de impuestos negativo a las ventas** en **Sí**.
 
@@ -91,7 +91,7 @@ En el siguiente ejemplo se muestra cómo puede configurar códigos de impuestos 
 
 8.  Verifique que haya dos líneas en la lista **Transacciones de impuestos**.
 
-    ![Líneas de transacción de impuestos](media/2_Sales_tax.png)
+    ![Líneas de transacción de impuestos.](media/2_Sales_tax.png)
 
 9.  Seleccione **Registrar** para registrar la transacción y luego seleccione **Aceptar**.
 

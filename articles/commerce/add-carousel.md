@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5bc2227e08dbbf5f76a37180114e5affff131658
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 69f6b0c6dab5dd5a9e15e2b7ec2a6301d13ab810
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797896"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346885"
 ---
 # <a name="carousel-module"></a>Módulo de carrusel
 
@@ -40,7 +40,7 @@ Puede agregar los módulos de bloque de contenido dentro de un módulo de carrus
 
 La siguiente imagen muestra un ejemplo de un módulo de carrusel utilizado en una página principal. Este módulo de carrusel contiene múltiples elementos de bloque de contenido.
 
-![Ejemplo de módulo de carrusel](./media/Hero.PNG)
+![Ejemplo de módulo de carrusel.](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Propiedades de módulo de carrusel
 

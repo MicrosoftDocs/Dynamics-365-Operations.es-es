@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908302"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347743"
 ---
 # <a name="safety-margins"></a>Márgenes de seguridad
 
@@ -41,7 +41,7 @@ Hay tres tipos de pedidos de márgenes de seguridad:
 
 La siguiente ilustración muestra cómo se aplican estos márgenes de seguridad a lo largo del tiempo.
 
-![Márgenes de seguridad](media/safety-margins-1.png)
+![Márgenes de seguridad.](media/safety-margins-1.png)
 
 Todos los márgenes se definen en días. Un valor predeterminado, *0* (cero) indica que no se aplican márgenes. Si configura varios márgenes, todos se suman al tiempo total del suministro *fecha de pedido* a la demanda *fecha de requisito*. Por ejemplo, una configuración no tiene tiempo de espera y los tres tipos de margen se establecen en un día. En este caso, habrá tres días entre la fecha del pedido de suministro y la fecha del requisito de demanda, por lo que si la fecha de pedido es el 1 de julio, la fecha de requisito sería el 4 de julio.
 
@@ -51,7 +51,7 @@ El margen de recepción es probablemente el más utilizado de los tres márgenes
 
 La siguiente ilustración destaca el margen de recepción.
 
-![Margen de recepción](media/safety-margins-2.png)
+![Margen de recepción.](media/safety-margins-2.png)
 
 El margen de recepción se usa generalmente como una reserva para asegurar el tiempo para el registro del almacén u otros procesos que requieren mucho tiempo y que no se capturan como parte del tiempo de entrega general en el sistema. Para las compras, una ventaja es que la *fecha de entrega* del pedido de compra se avanza en consecuencia. Si aumenta el tiempo de entrega en lugar de utilizar un margen de seguridad, se le pedirá al proveedor que entregue en el último minuto.
 
@@ -66,7 +66,7 @@ Tenga en cuenta que no se aplica un margen de recepción cuando el inventario di
 
 La siguiente ilustración destaca los días de administración.
 
-![Días de administración](media/safety-margins-3.png)
+![Días de administración.](media/safety-margins-3.png)
 
 Los días de administración se agregan antes del plazo del artículo para todos los pedidos planificados durante la programación maestra. Por lo tanto, asegura tiempo adicional para que se realice un pedido de suministro. Este margen se usa generalmente como una reserva para asegurar el tiempo para los procesos de aprobación u otros procesos internos que se requieren durante la creación de pedidos de suministro. Los días de administración se colocan entre la *fecha de pedido* y *fecha de inicio* del suministro.
 
@@ -77,7 +77,7 @@ Los días de administración se agregan antes del plazo del artículo para todos
 
 La siguiente ilustración destaca los días de emisión.
 
-![Días de emisión](media/safety-margins-4.png)
+![Días de emisión.](media/safety-margins-4.png)
 
 Los días de emisión se deducen de la fecha de requisito de demanda durante la planificación maestra. Ayuda a garantizar que tenga tiempo para reaccionar y enviar los pedidos entrantes. Este margen se utiliza normalmente como una reserva para asegurar el tiempo de envío y los procesos de salida del almacén relacionados.
 
@@ -165,7 +165,7 @@ La siguiente ilustración presenta una matriz que resume qué calendarios se apl
 - **Almacén (WH)**: amarillo
 - **Proveedor (V)**: azul
 
-[![Matriz de descripción general de la configuración del calendario](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Matriz de descripción general de la configuración del calendario.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Calcular retrasos
 
@@ -173,7 +173,7 @@ Los tres tipos de márgenes de seguridad se incluyen cuando el sistema determina
 
 Por ejemplo, un artículo tiene un plazo de entrega de un día y un margen de recepción de tres días. Un pedido de venta para este artículo se establece como se requiere hoy. En este caso, el retraso se calcula como *tiempo de espera* + *margen de recepción* = cuatro días. Por tanto, si hoy es 14 de agosto, los cuatro días de retraso producen una entrega el 18 de agosto. En la ilustración siguiente se muestra este ejemplo.
 
-![Ejemplo de cálculo de retraso](media/safety-margins-delays.png)
+![Ejemplo de cálculo de retraso.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

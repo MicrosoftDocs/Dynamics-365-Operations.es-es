@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 29b9e920744296d458e74ff3990191bde72b9e58
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744036"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344306"
 ---
 # <a name="configure-and-filter-workspaces"></a>Configurar y filtrar espacios de trabajo
 
@@ -32,11 +32,11 @@ Este artículo proporciona una visión general sobre cómo configurar y filtrar 
 
 Puede cambiar el aspecto y comportamiento de algunos espacios de trabajo actualizando la configuración que se aplica a todo el espacio de trabajo. Cuando se puede configurar un espacio de trabajo, el Panel de acciones incluye un botón que le indica que haga clic en él para realizar los cambios de configuración. Por ejemplo, en la siguiente ilustración, el botón se denomina **Configurar mi espacio de trabajo**.
 
-[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![configure-and-filter-workspaces.](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 Cuando haga clic en el botón, aparecerá un diálogo en el que puede modificar la configuración predefinida para el espacio de trabajo. Los parámetros específicos que ve en este cuadro de diálogo varían con cada espacio de trabajo y dependen de los controles específicos y de los datos empresariales que están disponibles en el espacio de trabajo.
 
-[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![configure-my-workspace.](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Filtrado de un espacio de trabajo
 
@@ -46,11 +46,11 @@ Muchos espacios de trabajo le permiten filtrar el contenido que aparece en ellos
 
 Puede filtrar todo el espacio de trabajo con un filtro de todo el espacio de trabajo. Un filtro de todo el espacio de trabajo aparece en la esquina superior izquierda del espacio de trabajo. Al seleccionar un valor específico en la lista desplegable, el contenido del espacio de trabajo se filtra en función de esa selección.
 
-[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)
+[![workspace-filter.](./media/workspace-filter.png)](./media/workspace-filter.png)
 
 Al hacer clic para abrir el filtro, se le presentarán varias opciones.
 
-[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
+[![workspace-filter-expanded.](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
 
 Seleccione una opción para filtrar el espacio de trabajo en función de esa opción.
 
@@ -58,7 +58,7 @@ Seleccione una opción para filtrar el espacio de trabajo en función de esa opc
 
 Si las secciones individuales del espacio de trabajo tienen filtros, puede filtrar cada sección por separado. En la siguiente ilustración, el filtro (el campo que contiene el texto &quot;Filtro") es un ejemplo de un filtro del campo de texto en formato libre.
 
-[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
+[![workspace-section-filters.](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Como un filtro de todo el espacio de trabajo, seleccione o especifique un valor en el campo para filtrar el contenido de la sección.
 

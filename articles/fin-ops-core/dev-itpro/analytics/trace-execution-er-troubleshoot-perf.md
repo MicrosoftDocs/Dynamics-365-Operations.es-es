@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295582"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344891"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Seguir la ejecución de formatos de ER para solucionar problemas de rendimiento
 
@@ -56,14 +56,14 @@ Debe descargar y también almacenar localmente los archivos siguientes.
 
 Cada seguimiento de rendimiento de ER que se genera en la aplicación se almacena como adjunto de la entrada de registro de la ejecución. El marco de gestión de documentos (DM) se usa para administrar estos datos adjuntos. Debe configurar los parámetros de ER por adelantado, para especificar el tipo de documento de DM que se utilizará para adjuntar seguimientos de rendimiento. En el área de trabajo de **Informes electrónicos**, seleccione **Parámetros de informes electrónicos**. A continuación, en la página **Parámetros de informes electrónicos**, en la pestaña **Datos adjuntos**, en el campo **Otros**, seleccione el tipo de documento de DM para utilizar para los seguimientos de rendimiento.
 
-![Página de parámetros de informes electrónicos](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Página de parámetros de informes electrónicos.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 Para estar disponible en el campo búsqueda **Otros**, el tipo de documento del DM debe estar configurado de la forma siguiente en la página **Tipos de documento** (**Administración de la organización \> Gestión de documentos \> Tipos de documento**):
 
 - **Clase:** Adjuntar archivo
 - **Grupo:** Archivo
 
-![Página de tipos de documento](./media/GER-PerfTrace-DM-DocumentType.png)
+![Página de tipos de documento.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > El tipo de documento seleccionado debe estar disponible en cada empresa de la instancia actual, ya que los archivos adjuntos de DM son específicos de la empresa.
@@ -72,7 +72,7 @@ Para estar disponible en el campo búsqueda **Otros**, el tipo de documento del 
 
 Para los seguimientos del rendimiento de ER que se generan se importarán en el RCS para su análisis utilizando el diseñador del formato de ER y el diseñador de la asignación de ER. Dado que los seguimientos de rendimiento de ER se almacenan como adjunto de la entrada de registro de la ejecución relacionada con el formato de ER, debe configurar los parámetros de RCS por adelantado, para especificar el tipo de documento de DM que se utilizará para vincular seguimientos de rendimiento. En la instancia de RCS que se ha aprovisionado para su empresa, en el área de trabajo **Informes electrónicos**, seleccione **Parámetros electrónicos de informes**. A continuación, en la página **Parámetros de informes electrónicos**, en la pestaña **Datos adjuntos**, en el campo **Otros**, seleccione el tipo de documento de DM para utilizar para los seguimientos de rendimiento.
 
-![Página de parámetros de informes electrónicos en RCS](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![Página de parámetros de informes electrónicos en RCS.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 Para estar disponible en el campo búsqueda **Otros**, el tipo de documento del DM debe estar configurado de la forma siguiente en la página **Tipos de documento** (**Administración de la organización \> Gestión de documentos \> Tipos de documento**):
 
@@ -92,7 +92,7 @@ Supongamos que ha empezado a diseñar una nueva solución de ER para generar un 
     2. Seleccione **Exploración** para seleccionar el archivo adecuado para la configuración necesaria de ER en formato XML.
     3. Seleccione **Aceptar**.
 
-    ![Página Configuraciones en RCS](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![Página Configuraciones en RCS.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>Ejecute la solución de ER para realizar un seguimiento de la ejecución
 
@@ -109,7 +109,7 @@ Supongamos que haya terminado de diseñar de la primera versión de la solución
     3. En la ficha desplegable **Configuraciones**, seleccione la configuración **Formato de seguimiento del rendimiento**.
     4. En la ficha desplegable **Versiones**, seleccione la versión **1.1** de la configuración de ER seleccionada y después seleccione **Importar**.
 
-    ![Página de configuración del repositorio](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![Página de configuración del repositorio.](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 Las versiones correspondientes de la configuración de la asignación del modelo de datos y de modelo se importan automáticamente como requisitos previos para la configuración importada del formato de ER.
 
@@ -156,7 +156,7 @@ Las versiones correspondientes de la configuración de la asignación del modelo
     > [!NOTE]
     > Los parámetros en el cuadro **Parámetros de usuario** son específicos al usuario y para la empresa actual.
 
-    ![Cuadro de diálogo parámetros de usuario](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Cuadro de diálogo parámetros de usuario.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>Ejecutar formato del ER
 
@@ -177,11 +177,11 @@ Para realizar el seguimiento del rendimiento se desemparejan del formato de ER d
 2. En la página **Registros de ejecución de informes electrónicos**, en el panel izquierdo, en el campo **Nombre de configuración**, seleccione **Formato de seguimiento del rendimiento** para buscar las entradas de registro que han sido generadas por la ejecución de la configuración **Formato de seguimiento del rendimiento**.
 3. Seleccione el botón **Adjuntos** (el símbolo de clip de papel) en la esquina superior derecha de la página o pulse **Ctrl+Shift+A**.
 
-    ![El botón Adjuntos en la página registros de ejecución de informes electrónicos](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![El botón Adjuntos en la página registros de ejecución de informes electrónicos.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. En la página **Datos adjuntos para los informes de los registros electrónicos de la ejecución**, en el panel de acciones, seleccione **Abrir** para obtener el seguimiento del rendimiento como archivo zip y para almacenarlo localmente.
 
-    ![Datos adjuntos para los registros electrónicos de informe de la ejecución](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Datos adjuntos para los registros electrónicos de informe de la ejecución.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > El seguimiento que se genera tiene una referencia al informe de ER de origen a través de un identificador único del informe en el formato **GUID**. La numeración de la versión de formato no se tiene en cuenta.
@@ -198,7 +198,7 @@ Observe que la asociación entre el rendimiento de seguimiento que se ha generad
 6. Seleccione **Examinar**, para seleccionar el archivo zip que exportó anteriormente.
 7. Seleccione **Aceptar**.
 
-    ![Cuadro de diálogo de los valores del resultado de seguimiento del rendimiento del RCS](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![Cuadro de diálogo de los valores del resultado de seguimiento del rendimiento del RCS.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Usar el seguimiento de rendimiento para el análisis en RCS – Formato de la ejecución
 
@@ -209,7 +209,7 @@ Observe que la asociación entre el rendimiento de seguimiento que se ha generad
     - El tiempo real empleado que se usó para introducir datos en la salida generada mediante el elemento de formato
     - El mismo tiempo expresado como un porcentaje de tiempo total que se ha dedicado a generar toda la salida
 
-    ![Página de diseñador de formato en RCS](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![Página de diseñador de formato en RCS.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. Cierre la página **Diseñador de formato**.
 
@@ -232,7 +232,7 @@ Tenga en cuenta que el ER le informa de que la distribución del modelo actual d
 - Una llamada se hace para especificar los detalles de cada transacción en el modelo de datos, basándose en las vinculaciones configuradas.
 - Una llamada se hace para especificar el número calculado de transacciones por proveedor en el modelo de datos.
 
-![Mensaje sobre solicitudes duplicadas a la base de datos en la página de diseñador de la distribución del modelo en el RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![Mensaje sobre solicitudes duplicadas a la base de datos en la página de diseñador de la distribución del modelo en el RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 El valor **\[Q:530\]** indica que la tabla de VendTrans se llamó a 530 veces para devolver un registro desde esta tabla al origen de datos VendTable/\<Relations/VendTrans.VendTable\_AccountNum. El valor **\[530\]** indica que el origen de datos VendTable/\<Relations/VendTrans.VendTable\_AccountNum se ha llamado 530 veces para devolver un registro de ese origen de datos de y especificar detalles de en el modelo de datos.
 
@@ -240,7 +240,7 @@ Se recomienda que use la caché para el origen de datos VendTable/\<Relations/Ve
 
 También puede ser útil reducir el número de llamadas que se realizan al origen de datos de LedgerTransTypeList. Este origen de datos se usa para asociar cada valor de la anumeración **LedgerTransType** con su etiqueta. Mediante este origen de datos, puede buscar una etiqueta adecuada y especificarla en el modelo de datos para cada transacción de proveedor. El número actual de llamadas a este origen de datos (9027) es muy alto para 265 transacciones.
 
-![La página de modelo del diseñador de asignación en RCS muestra 9027 llamadas al origen de los datos](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![La página de modelo del diseñador de asignación en RCS muestra 9027 llamadas al origen de los datos.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Mejorar la distribución del de modelo según la información de seguimiento de la ejecución
 
@@ -253,7 +253,7 @@ También puede ser útil reducir el número de llamadas que se realizan al orige
     3. Expanda el elemento **VendTable**, amplíe la lista de una-a-muchas relaciones para el origen de datos VendTable (el elemento **\<Relaciones** ), y seleccione el elemento **VendTrans.VendTable\_AccountNum**.
     4. Seleccione **Memoria caché**.
 
-    ![Configurar la caché para ayudar a impedir llamadas duplicadas](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Configurar la caché para ayudar a impedir llamadas duplicadas.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. Siga estos pasos para llevar el origen de datos de LedgerTransTypeList al ámbito del origen de datos de VendTable:
 
@@ -274,7 +274,7 @@ También puede ser útil reducir el número de llamadas que se realizan al orige
     3. Seleccione el elemento **VendTable.\$TransType**.
     4. Seleccione **Memoria caché**.
 
-    ![Configuración de la caché para el campo $TransType](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![Configuración de la caché para el campo $TransType.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. Siga estos pasos para cambiar el campo **\$TransTypeRecord** de modo que empiece para utilizar el campo **\$TransType** almacenado en caché:
 
@@ -329,19 +329,19 @@ Repita los pasos de la sección anterior [Usar el seguimiento del rendimiento pa
 
 Observe que los ajustes que realizó en la distribución de modelo han eliminado las consultas duplicadas en la base de datos. El número de llamadas a las tablas de base de datos y de orígenes de datos para esta distribución de modelo también se ha reducido. Por lo tanto, el rendimiento de la solución completa de ER ha mejorado.
 
-![Seguir la información de la fuente de datos VendTable en la página del diseñador de distribución del modelo en RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![Seguir la información de la fuente de datos VendTable en la página del diseñador de distribución del modelo en RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 En la información de seguimiento, el valor **\[12\]** para el origen de datos de VendTable indica que este origen de datos se llamó 12 veces. El valor **\[Q:6\]** indica que seis llamadas se tradujeron en llamadas a la base de datos a la tabla de VendTable. El valor **\[C:6\]** indica que los registros que se recuperarán de la base de datos se almacenaron en caché, y seis otras llamadas se procesaran mediante la memoria caché.
 
 Tenga en cuenta que el número de llamadas de origen de datos de LedgerTransTypeList se ha reducido de 9027 a 240.
 
-![Seguir la información de la fuente de datos LedgerTransTypeList en la página del diseñador de distribución del modelo en RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![Seguir la información de la fuente de datos LedgerTransTypeList en la página del diseñador de distribución del modelo en RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>Revise la ejecución seguida paso a paso en la aplicación
 
 Además del RCS, algunas versiones pueden proporcionar las funciones de la experiencia del diseñador del marco de ER. Estas versiones tienen una opción **Habilitar diseño de modelo** que se puede activar. Puede encontrar esta opción en la pestaña **General** de la página **Parámetros de informes electrónicos**, que puede abrir desde el área de trabajo **Informes electrónico**.
 
-![Habilite la opción del modo de diseño en la página de los parámetros de los informes electrónicos](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![Habilite la opción del modo de diseño en la página de los parámetros de los informes electrónicos.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Si usa una de estas versiones, puede analizar los detalles de seguimientos generados por rendimiento directamente en la aplicación. No es necesario exportarlas desde la aplicación e importarlas al RCS.
 
@@ -359,7 +359,7 @@ Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) 
 
 Observe que el explorador web proporciona un archivo zip para su descarga. Este archivo contiene el seguimiento del rendimiento en el formato de PerfView. Puede utilizar la herramienta de análisis de rendimiento de PerfView para analizar los detalles de la ejecución del formato de ER.
 
-![Información de seguimiento de rendimiento en formato PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Información de seguimiento de rendimiento en formato PerfView.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utilice herramientas externas para revisar una seguimiento de ejecución que incluya consultas en bases de datos
 
@@ -375,7 +375,7 @@ Debido a mejoras que se han realizado en el marco de ER, el seguimiento del rend
     - Establezca la opción **Recopilar estadísticas de consulta** en **Sí**.
     - Establezca la opción **Consulta de seguimiento** en **Sí**.
 
-    ![Sección de seguimiento de ejecución, cuadro de diálogo Parámetros de usuario](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Sección de seguimiento de ejecución, cuadro de diálogo Parámetros de usuario.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>Ejecutar formato del ER
 
@@ -383,7 +383,7 @@ Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) 
 
 Observe que el explorador web proporciona un archivo zip para su descarga. Este archivo contiene el seguimiento del rendimiento en el formato de PerfView. Puede utilizar la herramienta de análisis de rendimiento de PerfView para analizar los detalles de la ejecución del formato de ER. Este seguimiento ahora incluye los detalles del acceso a la base de datos SQL durante la ejecución del formato de ER.
 
-![Información de seguimiento para el formato de ER ejecutado en PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![Información de seguimiento para el formato de ER ejecutado en PerfView.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

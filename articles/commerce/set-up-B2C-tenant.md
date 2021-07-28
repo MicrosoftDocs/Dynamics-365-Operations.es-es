@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1351b9f22416e8ce6d90022997f0a15e9eb4042a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018589"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344380"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar un inquilino B2C en Commerce
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce usa Azure AD B2C para admitir credenciales de usuario y fl
 1. Inicie sesión en el [portal de Azure](https://portal.azure.com/).
 1. En el menú del portal de Azure, seleccione **Crear un recurso**. Asegúrese de utilizar la suscripción y el directorio que se conectarán con su entorno de Commerce.
 
-    ![Crear un recurso en el portal de Azure](./media/B2CImage_1.png)
+    ![Crear un recurso en el portal de Azure.](./media/B2CImage_1.png)
 
 1. Vaya a **Identidad \> Azure Active Directory B2C**.
 1. Cuando esté en la página **Crear o vincular un inquilino de AAD B2C existente en el portal de Azure**, utilice de las opciones siguientes la que mejor se adapte a las necesidades de su empresa:
@@ -52,25 +52,25 @@ Dynamics 365 Commerce usa Azure AD B2C para admitir credenciales de usuario y fl
         1. En **País o región**, seleccione el país o región.
         1. Seleccione **Crear** para crear el inquilino.
 
-     ![Crear un nuevo inquilino de Azure AD](./media/B2CImage_2.png)
+     ![Crear un nuevo inquilino de Azure AD.](./media/B2CImage_2.png)
 
      - **Vincular un inquilino de Azure AD B2C existente a mi suscripción de Azure**: use esta opción si ya tiene un inquilino de Azure AD B2C al que desee vincularse.
         1. Seleccione **Vincular un inquilino de Azure AD B2C existente a mi suscripción de Azure**.
         1. Para **Inquilino de Azure AD B2C**, seleccione el inquilino de B2C apropiado. Si aparece el mensaje "No se encontraron inquilinos B2C válidos" en el cuadro de selección, significa que no tiene ningún inquilino de B2C válido, por lo que deberá crear uno nuevo.
         1. Para **Grupo de recursos**, seleccione **Crear nuevo**. Introduzca un **Nombre** para el grupo de recursos que contendrá el inquilino, seleccione **Ubicación del grupo de recursos** y, a continuación, seleccione **Crear**.
 
-    ![Vincular un inquilino de Azure AD B2C existente a la suscripción de Azure](./media/B2CImage_3.png)
+    ![Vincular un inquilino de Azure AD B2C existente a la suscripción de Azure.](./media/B2CImage_3.png)
 
 1. Una vez creado el nuevo directorio de Azure AD B2C (puede tardar unos minutos), aparecerá un vínculo al nuevo directorio en el panel de información. Este vínculo le dirigirá a la página "Esto es Azure Active Directory B2C".
 
-    ![Vínculo al nuevo directorio de AAD](./media/B2CImage_4.png)
+    ![Vínculo al nuevo directorio de AAD.](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Si tiene varias suscripciones en su cuenta de Azure o ha configurado el inquilino de B2C sin vincularlo a una suscripción activa, un encabezado **Solución de problemas** le dirigirá en el proceso de vincular el inquilino a una suscripción. Seleccione el mensaje de solución de problemas y siga las instrucciones para resolver el problema de suscripción.
 
 La siguiente imagen muestra un ejemplo de encabezado **Solución de problemas** de Azure AD B2C.
 
-![Advertencia que indica que el directorio no tiene una suscripción activa](./media/B2CImage_5.png)
+![Advertencia que indica que el directorio no tiene una suscripción activa.](./media/B2CImage_5.png)
 
 ## <a name="create-the-b2c-application"></a>Crear la aplicación B2C
 
@@ -136,11 +136,11 @@ Para crear una directiva de flujo de usuario de registro e inicio de sesión, si
 
 La siguiente imagen es un ejemplo de flujo de usuario de registro e inicio de sesión de Azure AD B2C.
 
-![Configuración de la directiva de registro e inicio de sesión](./media/B2CImage_11.png)
+![Configuración de la directiva de registro e inicio de sesión.](./media/B2CImage_11.png)
 
 La siguiente imagen muestra la opción **Ejecutar flujo de usuario** en el flujo de usuario de registro e inicio de sesión de Azure AD B2C.
 
-![Opción Ejecutar flujo de usuario en flujo de directiva](./media/B2CImage_23.png)
+![Opción Ejecutar flujo de usuario en flujo de directiva.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Crear una directiva de flujo de usuario de edición de perfil
 
@@ -161,7 +161,7 @@ Para crear una directiva de flujo de usuario de edición de perfil, siga estos p
 
 La siguiente imagen muestra un ejemplo de flujo de usuario de edición de perfil de Azure AD B2C.
 
-![Crear el flujo de usuario de edición de perfil](./media/B2CImage_12.png)
+![Crear el flujo de usuario de edición de perfil.](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Crear una directiva de flujo de usuario de restablecimiento de contraseña
 
@@ -225,18 +225,18 @@ Para agregar y configurar un proveedor de identidad social, siga estos pasos.
 
 La siguiente imagen muestra ejemplos de pantallas **Agregar proveedor de identidad** y **Configurar el proveedor de identidad social** en Azure AD B2C.
 
-![Agregar un proveedor de identidad social a su aplicación](./media/B2CImage_14.png)
+![Agregar un proveedor de identidad social a su aplicación.](./media/B2CImage_14.png)
 
 La siguiente imagen muestra un ejemplo de cómo seleccionar proveedores de identidad en la página **Proveedores de identidad** de Azure AD B2C.
 
-![Seleccionar cada proveedor de identidad social que hay que habilitar para su directiva](./media/B2CImage_16.png)
+![Seleccionar cada proveedor de identidad social que hay que habilitar para su directiva.](./media/B2CImage_16.png)
 
 La siguiente imagen muestra un ejemplo de pantalla de inicio de sesión predeterminada con un botón de inicio de sesión del proveedor de identidad social.
 
 > [!NOTE]
 > Si utiliza las páginas personalizadas creadas en Commerce para sus flujos de usuario, los botones para proveedores de identidad social deberán agregarse utilizando las funciones de extensibilidad de la biblioteca del módulo de Commerce. Además, al configurar sus aplicaciones con un proveedor de identidad social específico, en algunos casos la URL o las cadenas de configuración pueden distinguir entre mayúsculas y minúsculas. Consulte las instrucciones de conexión de su proveedor de identidad social para obtener más información.
  
-![Ejemplo de pantalla de inicio de sesión predeterminada que muestra el botón de inicio de sesión del proveedor de identidad social](./media/B2CImage_17.png)
+![Ejemplo de pantalla de inicio de sesión predeterminada que muestra el botón de inicio de sesión del proveedor de identidad social.](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>Actualizar la sede de Commerce con la nueva información de Azure AD B2C
 
@@ -291,15 +291,15 @@ Para recopilar la información de la aplicación necesaria, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de la página **Azure AD B2C - Aplicaciones**.
 
-![Ir a la aplicación B2C en el inquilino](./media/B2CImage_19.png)
+![Ir a la aplicación B2C en el inquilino.](./media/B2CImage_19.png)
 
 La siguiente imagen muestra un ejemplo de la página **Propiedades** de una aplicación en Azure AD B2C. 
 
-![Copiar el id. de aplicación desde la página Propiedades de la aplicación B2C](./media/B2CImage_21.png)
+![Copiar el id. de aplicación desde la página Propiedades de la aplicación B2C.](./media/B2CImage_21.png)
 
 La siguiente imagen muestra un ejemplo de directivas de flujo de usuario en la página **Azure AD B2C - Flujos de usuarios (directivas)**.
 
-![Recopilar los nombres de cada flujo de directiva de B2C](./media/B2CImage_22.png)
+![Recopilar los nombres de cada flujo de directiva de B2C.](./media/B2CImage_22.png)
 
 ### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>Introducir en Commerce la información de su aplicación de inquilino de AAD B2C
 

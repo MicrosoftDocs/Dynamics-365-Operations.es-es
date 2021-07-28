@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7dbeb8785641960cc2680335436aea10775759d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 20a2e0bc46e182172ccd96f556fd398e8bffc34b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797776"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347551"
 ---
 # <a name="text-block-module"></a>Módulo de bloque de texto
 
@@ -42,7 +42,7 @@ Los módulos de bloque de texto se pueden utilizar de las siguientes maneras:
 
 La siguiente imagen muestra un ejemplo de un módulo de bloque de texto utilizado en una página principal.
 
-![Ejemplo de un módulo de bloque de texto](./media/ecommerce-textblock.PNG)
+![Ejemplo de un módulo de bloque de texto.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Propiedades de módulo de bloque de texto
 

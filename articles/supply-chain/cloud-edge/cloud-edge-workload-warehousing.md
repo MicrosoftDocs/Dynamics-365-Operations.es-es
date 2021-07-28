@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184031"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345509"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -73,7 +73,7 @@ El centro posee los siguientes datos:
 
 Las unidades de escala son propietarias del procesamiento de oleadas real (como la asignación de trabajo, el trabajo de reabastecimiento y la creación de trabajos por demanda) después del lanzamiento de la oleada. Por lo tanto, los trabajadores del almacén pueden procesar el trabajo saliente utilizando una aplicación móvil Warehouse Management que está conectada a la unidad de báscula.
 
-![Flujo de procesamiento de oleada](./media/wes-wave-processing-ga.png "Flujo de procesamiento de oleada")
+![Flujo de procesamiento de oleada.](./media/wes-wave-processing-ga.png "Flujo de procesamiento de oleada")
 
 ### <a name="process-work-and-ship"></a>Trabajo de proceso y envío
 
@@ -81,7 +81,7 @@ Tan pronto como el proceso de trabajo final coloca el inventario en una ubicaci�
 
 Tan pronto como el hub haya actualizado las transacciones a *Recogido*, puede procesar la confirmación del envío de salida y el albarán de venta asociado o el envío de la orden de transferencia para la carga.
 
-![Flujo de procesamiento de salida](./media/WES-outbound-processing-19.png "Flujo de procesamiento de salida")
+![Flujo de procesamiento de salida.](./media/WES-outbound-processing-19.png "Flujo de procesamiento de salida")
 
 ## <a name="inbound-process-flow"></a>Flujo de proceso de entrada
 
@@ -107,11 +107,11 @@ El trabajador puede ejecutar el proceso de recepción utilizando una aplicación
 
 Si no está utilizando el proceso de *liberación al almacén* y por lo tanto no están usando *pedidos de almacén*, el centro puede procesar la recepción del almacén y el procesamiento del trabajo independientemente de las unidades de escala.
 
-![Flujo de proceso de entrada](./media/wes-inbound-ga.png "Flujo de proceso de entrada")
+![Flujo de proceso de entrada.](./media/wes-inbound-ga.png "Flujo de proceso de entrada")
 
 Al realizar el registro entrante a través de un proceso de recepción de la aplicación de almacén contra la orden de almacén de la unidad de escalado, la carga de trabajo de la unidad de báscula le indicará al centro de conectividad que actualice las transacciones de la línea de orden de compra relacionada a *Registrado*. Tan pronto como termine, podrá ejecutar un recibo de producto de orden de compra en el centro de conectividad.
 
-![Flujo de procesamiento de entrada](./media/WES-inbound-processing-19.png "Flujo de procesamiento de entrada")
+![Flujo de procesamiento de entrada.](./media/WES-inbound-processing-19.png "Flujo de procesamiento de entrada")
 
 ## <a name="supported-processes-and-roles"></a>Procesos y roles admitidos
 

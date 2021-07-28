@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944374"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345699"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -101,7 +103,7 @@ Un componente de formato le permite adjuntar archivos específicos que se pueden
 
 La ilustración siguiente muestra fluyen los datos para estos formatos.
 
-[![Flujo de datos para componentes de formato saliente](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Flujo de datos para componentes de formato saliente.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Para ejecutar una sola configuración de formato ER y generar un documento electrónico salientes, debe identificar la asignación de la configuración del formato.
 
@@ -115,7 +117,7 @@ Un componente de formato es el esquema del documento entrante que se importa en 
 
 La ilustración siguiente muestra fluyen los datos para estos formatos.
 
-[![Flujo de datos para componentes de formato entrante](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Flujo de datos para componentes de formato entrante.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Para ejecutar una única configuración del formato de ER para importar datos desde un documento electrónico entrante, debe identificar la asignación deseada de una configuración del formato, así como el punto de la integración de una asignación de modelo. Puede usar la misma asignación y destinos de modelos así como los formatos diferentes para el tipo distinto de documentos de entrada.
 
@@ -290,7 +292,7 @@ ER le permite adoptar automáticamente los cambios de la última versión del co
 
 La lista de las configuraciones de informes electrónicos para Finance se actualiza constantemente. Abra el [Repositorio global](er-download-configurations-global-repo.md) para revisar la lista de configuraciones de informes electrónicos que son compatibles actualmente. En la ficha desplegable **Detalles de discontinuación** puede revisar la información sobre las configuraciones que se han discontinuado o que ya no se mantienen. 
 
-![Contenido del repositorio global en la página de configuración del repositorio](./media/er-overview-03.gif)
+![Contenido del repositorio global en la página de configuración del repositorio.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
