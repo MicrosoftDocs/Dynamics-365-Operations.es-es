@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (junio de 2021)
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: Finance 10.0.18 (mayo de 2021)
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Informe de servicios transfronterizos
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Aranceles sobre la compra
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Baréin
               items:
                 - name: Información general para Baréin
@@ -1990,8 +1990,12 @@
                       href: localizations/tasks/transfer-transactions-intrastat.md
                     - name: Especificar una dirección de embarque para una transacción intracomunitaria
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
-                    - name: Generar una declaración intrastat de la UE
+                    - name: Generar una declaración Intrastat de la UE
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: Intrastat francés
+                      href: localizations/emea-fra-intrastat.md
+                    - name: Intrastat italiano
+                      href: localizations/emea-ita-intrastat.md
                 - name: Informes de diario de inventario
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Fechas límite de emisión de factura
@@ -2964,10 +2968,16 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: Extracto de saldos y facturación
                   href: localizations/emea-pol-turnover-balances-statement.md
-                - name: Dividir diferencia de cambio de proveedores/clientes
+                - name: Repartir diferencia de cambio de proveedores/clientes
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'Declaración de IVA con registros (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: Preparar informes JPK-V7M
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: Informes JPK-V7M
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: Detalles de escenarios comerciales específicos en el informe JPK-V7M
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Catar
               items:
                 - name: Información general de Catar
@@ -2976,7 +2986,7 @@
               items:
                 - name: Información general de Rusia
                   href: localizations/russia.md
-                - name: Libro mayor
+                - name: Contabilidad General
                   items:
                     - name: Correspondencia de las cuentas
                       href: localizations/rus-correspondence-accounts.md
@@ -3200,10 +3210,12 @@
                       href: localizations/rus-cash-flow-tax-registers.md
                     - name: Registros de gastos calificados
                       href: localizations/rus-rated-expenses-registers.md
-                    - name: Registros fiscales de deuda y cancelaciones de deuda de proveedores
+                    - name: 'Deuda de proveedores, registros fiscales y cancelaciones de deuda'
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
-                    - name: Reservas de deudas incorrectas en clientes
+                    - name: Reservas de deudas incobrables en clientes
                       href: localizations/rus-bad-debts.md
+                    - name: Cálculo de activos fiscales y deudas tributarias
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Arabia Saudí
               items:
                 - name: Información general para Arabia Saudí
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Generar informes en formatos de Office con imágenes incrustadas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Diseñar un formato ER para generar un informe en formato Excel con imágenes incrustadas en encabezados o pies de página
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Dividir los archivos XML generados según su tamaño y la cantidad de contenido
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Suprimir caracteres de L. MAT. en archivos generados

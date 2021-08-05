@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (junio de 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
-                    - name: Commerce 10.0.18 (mayo de 2021)
-                      href: get-started/whats-new-commerce-10-0-18.md
                 - name: Características quitadas o en desuso
                   items:
                     - name: Página de inicio de características quitadas o en desuso
@@ -900,6 +898,8 @@
                   href: set-up-B2C-tenant.md
                 - name: Configurar páginas personalizadas para inicios de sesión de usuario
                   href: custom-pages-user-logins.md
+                - name: Habilitar la vinculación automática de registros de identidad con cuentas de clientes
+                  href: identity-record-linking.md
                 - name: Configurar múltiples inquilinos B2C en un entorno de Commerce
                   href: configure-multi-B2C-tenants.md
                 - name: Dominios en Dynamics 365 Commerce
@@ -1022,6 +1022,8 @@
                   items:
                     - name: Información general del tema de Adventure Works
                       href: adventure-works-theme.md
+                    - name: Instalar el tema de Adventure Works
+                      href: install-adventure-works.md
             - name: Administrar activos digitales
               items:
                 - name: Información general de la administración de activos digitales

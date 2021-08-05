@@ -14,12 +14,10 @@
               items:
                 - name: Novedades y cambios en la página principal de Platform update
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates para la versión 10.0.20 (agosto de 2021)
+                - name: Actualizaciones de la plataforma para la versión 10.0.20 (agosto de 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Platform updates para 10.0.19 (junio de 2021)
+                - name: Actualizaciones de la plataforma para 10.0.19 (junio de 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: Platform updates para 10.0.18 (mayo de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -362,11 +360,13 @@
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Actualizar un entorno
                       href: deployment/updateenvironment-newinfrastructure.md
-                    - name: Solución de problemas de los entornos implementados con la implementación en autoservicio
+                    - name: Solución de problemas de los entornos implementados con la implementación de autoservicio
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Preguntas frecuentes sobre el mantenimiento planificado en entornos de autoservicio
                       href: deployment/plannedmaintenance-selfservice.md
-                - name: Completar incorporación de Azure Resource Manager
+                    - name: Continuidad empresarial y recuperación ante desastres
+                      href: sysadmin/business-continuity-disaster-recovery.md
+                - name: Completar la incorporación de Azure Resource Manager
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute y Finance and Operations
                   href: deployment/expressroute.md
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Aplicar actualizaciones y extensiones a Commerce Scale Unit (nube)
                   href: deployment/Update-retail-channel.md
+                - name: Actualización automática para Commerce Scale Unit (nube)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Inicializar Commerce Scale Unit (nube)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Migrar canales a otra instancia de Commerce Scale Unit
@@ -388,13 +390,15 @@
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: Prepararse para implementaciones locales
                   items:
-                    - name: Información general de la implementación local
+                    - name: Información general de la implementación en el entorno local
                       href: deployment/on-premises-overview.md
-                    - name: Planificar y prepararse para implementaciones locales
+                    - name: Planificar y prepararse para las implementaciones en el entorno local
                       href: deployment/plan-onprem-deployment.md
-                    - name: Requisitos de tamaño de hardware
+                    - name: Software compatible con Microsoft Dynamics 365 Finance and Operations (on-premises)
+                      href: deployment/onprem-compatibility.md
+                    - name: Requisitos de dimensionamiento de hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Autenticación en Dynamics 365 Finance + Operaciones (on-premises)
+                    - name: Autenticación en Dynamics 365 Finance and Operations (on-premises)
                       href: deployment/authentication-onprem.md
                 - name: Configurar e implementar entornos locales
                   items:
@@ -498,13 +502,11 @@
               href: dev-tools/sign-up-preview-subscription.md
             - name: Implementar entornos de desarrollo y acceder a dichos entornos
               items:
-                - name: Entorno de desarrollo
+                - name: Entornos de desarrollo
                   href: dev-tools/access-instances.md
                 - name: Configurar entornos de desarrollo de un solo equipo
                   href: dev-tools/configure-developer-vm.md
-                - name: Crear nuevos usuarios en máquinas de desarrollo
-                  href: dev-tools/enable-development-machine.md
-                - name: Preguntas frecuentes sobre VM de desarrollo y compilación que no permiten el acceso del administrador
+                - name: Preguntas frecuentes sobre las VM de desarrollo y compilación que no permiten el acceso del administrador
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Cambiar el nombre de los entornos locales para tener acceso a Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
@@ -1116,9 +1118,9 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Parte y libreta de direcciones global
                       href: data-entities/dual-write/party-gab.md
-                    - name: Usar Power Portal con el modelo de datos de parte
+                    - name: Usar portales de Microsoft Power Apps con el modelo de datos de Parte
                       href: data-entities/dual-write/party-gab-portal.md
-                    - name: Actualizar al modelo de parte y libreta de direcciones global
+                    - name: Actualizar al modelo de parte y de libreta de direcciones global
                       href: data-entities/dual-write/upgrade-party-gab.md
                     - name: Integración de notas
                       href: data-entities/dual-write/notes-integration.md
@@ -1600,10 +1602,12 @@
                   href: migration-upgrade/app-validation-process.md
                 - name: 'Actualización de AX 2012: pruebas funcionales'
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: 'Actualización de AX 2012: preparación para la publicación'
+                - name: 'Actualización de AX 2012: preparación para la puesta en funcionamiento'
                   href: migration-upgrade/upgrade-go-live-prep.md
-                - name: 'Actualización de AX 2012: publicación'
+                - name: 'Actualización de AX 2012: puesta en funcionamiento'
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: 'Actualización desde AX 2012: preguntas frecuentes sobre la actualización de datos'
+                  href: migration-upgrade/upgrade-faq.md
                 - name: Cambios que afectan a la actualización desde AX 2012
                   items:
                     - name: Hacer único el delimitador del plan de cuentas

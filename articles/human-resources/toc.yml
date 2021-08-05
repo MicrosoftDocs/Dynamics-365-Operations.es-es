@@ -5,6 +5,8 @@
       items:
         - name: Novedades y cambios en Human Resources
           href: hr-admin-whats-new.md
+        - name: 12 de julio de 2021
+          href: hr-whats-new-2021-07-12.md
         - name: 22 de junio de 2021
           href: hr-whats-new-2021-06-22.md
         - name: 20 de mayo de 2021
@@ -255,6 +257,8 @@
           href: hr-admin-go-live-prepare.md
         - name: Preguntas frecuentes sobre la publicación
           href: hr-admin-go-live-faq.md
+        - name: Preguntas frecuentes relativas a la fusión de la infraestructura de Human Resources
+          href: hr-infrastructure-merge-faq.md
         - name: Recursos de documentación
           items:
             - name: Sistema de ayuda
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: Procesar planes de compensación
               href: hr-compensation-process.md
+            - name: Marcar a un empleado como preparado para pagarle
+              href: hr-compensation-payroll.md
         - name: Administrar prestaciones
           items:
             - name: Administración de prestaciones
@@ -715,7 +721,7 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Configurar tipos de eventos de vida
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Crear tipos de planes
+                    - name: Descripción general del tipo de plan
                       href: hr-benefits-setup-plan-types.md
                     - name: Configurar códigos de motivos
                       href: hr-benefits-setup-reason-codes.md
@@ -807,9 +813,11 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Ver calendarios de equipo y empresa
               href: hr-employee-self-service-calendar.md
-            - name: Gestionar directivas de compra y venta de bajas
+            - name: Configurar el rol del administrador de ausencias
+              href: hr-configure-absence-manager.md
+            - name: Gestionar directivas de compra y venta
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
-            - name: Crear flujos de trabajo de compra y venta de bajas
+            - name: Crear flujos de trabajo de compra y venta
               href: hr-leave-and-absence-buy-sell-workflow.md
             - name: Comprar y vender bajas
               href: hr-employee-self-service-buy-sell-leave.md

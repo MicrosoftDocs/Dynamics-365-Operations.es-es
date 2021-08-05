@@ -76,8 +76,6 @@
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (junio de 2021)
                       href: get-started/whats-new-scm-10-0-19.md
-                    - name: Supply Chain Management 10.0.18 (mayo de 2021)
-                      href: get-started/whats-new-scm-10-0-18.md
                 - name: Características quitadas o en desuso
                   items:
                     - name: Página de inicio de características quitadas o en desuso
@@ -1999,11 +1997,9 @@
                   href: procurement/tasks/create-purchase-order.md
                 - name: Crear un pedido de compra con una programación de entrega
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
-                - name: Crear un pedido de compra para un proveedor plantilla
+                - name: Crear un pedido de compra para un proveedor ocasional
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: Creación de un pedido parcial de compra al crear el pedido de compra
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: Crear un pedido parcial de compra de un acuerdo de compra
+                - name: Asociar un acuerdo de compra cuando se cree un pedido de compra
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Crear un pedido de devolución de compra
                   href: procurement/tasks/create-purchase-return-order.md
