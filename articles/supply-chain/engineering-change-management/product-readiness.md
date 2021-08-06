@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f80458de69a77846259c9a0707c05098d13e12a
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: ecffbfa00aee1dd3197aeeab3b292aba8aafd82f
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115082"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641165"
 ---
 # <a name="product-readiness"></a>Preparación de producto
 
@@ -177,8 +177,6 @@ Para asignar una directiva de preparación a una categoría de ingeniería, siga
 <a name="standard-products"></a>
 
 ## <a name="readiness-checks-on-standard-products"></a>Comprobaciones de preparación de productos estándar
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Puede habilitar las comprobaciones de disponibilidad de productos para productos estándar (que no sean de ingeniería) activando la función *Comprobaciones de disponibilidad del producto* en la gestión de funciones. Esta función realiza algunos pequeños cambios en el sistema de verificación de disponibilidad para que admita productos estándar.
 

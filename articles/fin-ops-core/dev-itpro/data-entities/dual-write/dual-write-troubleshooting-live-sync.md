@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350797"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542524"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronización en vivo
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Dataverse. Proporciona información específica que puede ayudarlo a solucionar problemas con la sincronización en vivo.
 
@@ -81,7 +79,7 @@ Para solucionar el problema, debe asignar la función de seguridad correcta al e
 
     ![Asignación de la organización.](media/mapped_business_unit.png)
 
-2. Inicie sesión en el entorno en la aplicación basada en modelos en Dynamics 365, vaya a **Configuración \> Seguridad** y encuentre el equipo de la unidad de negocio asignada.
+2. Inicie sesión en el entorno en la aplicación Customer Engagement, vaya a **Configuración \> Seguridad** y encuentre el equipo de la unidad de negocio asignada.
 
     ![Equipo de la unidad de negocio asignada.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ Es posible que reciba el siguiente mensaje de error cuando crea datos en una apl
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**No se puede generar la carga útil para la entidad CustCustomerV3Entity**","logDateTime":" 2019-08-27T18:51:52.5843124Z","verboseError":"Error en la creación de la carga útil con error URI no válido: el URI está vacío".}\], isErrorCountUpdated":true}*
 
-Este es el aspecto del error en la aplicación basada en modelos en Dynamics 365:
+Así es como se ve el error en la aplicación Customer Engagement:
 
 *Se produjo un error inesperado del código ISV. (ErrorType = ClientError) Excepción inesperada del complemento (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: no se pudo procesar la cuenta de la entidad - (Un intento de conexión falló porque la parte conectada no respondió correctamente después de un período de tiempo, o la conexión establecida falló porque el anfitrión conectado no pudo responder).*
 
@@ -125,6 +123,5 @@ Para arreglar el problema, siga estos pasos.
 
 3. Asegúrese de que la columna **externalenvironmentURL** tiene el Dataverse o URL de la aplicación correctos. Elimine cualquier fila duplicada que apunte al error Dataverse URL. Elimine las filas correspondientes en las tablas DUALWRITEPROJECTFIELDCONFIGURATION y DUALWRITEPROJECTCONFIGURATION.
 4. Detenga la asignación de tabla y luego reiníciela
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

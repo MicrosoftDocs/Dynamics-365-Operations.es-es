@@ -2,7 +2,7 @@
 title: Configurar reglas y opciones de idoneidad
 description: Establezca reglas y opciones de idoneidad en la administración de prestaciones en Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 05/20/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351666"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558378"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Configurar reglas y opciones de idoneidad
+# <a name="configure-eligibility-rules-and-options"></a>Configurar reglas y opciones de elegibilidad 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Después de configurar los parámetros necesarios para la administración de prestaciones en Microsoft Dynamics 365 Human Resources, puede crear reglas de idoneidad, paquetes, periodos y programas que asociará con sus planes de prestaciones.
+Después de configurar los parámetros necesarios para la administración de prestaciones, puede crear reglas de idoneidad, paquetes, periodos y programas que asociará con sus planes de prestaciones.
+
+Reglas de elegibilidad - Las reglas de elegibilidad se utilizan para determinar si los empleados son elegibles para un plan. Los empleados deben cumplir con la condición de al menos una regla para ser considerados elegibles para la prestación. Por ejemplo, tiene dos reglas en un plan. La primera regla (línea 1) establece que el tipo de empleado debe ser **Empleado**. La segunda regla (línea 2) establece que el tipo de empleado debe ser empleado a tiempo completo. Por lo tanto, los empleados que cumplen con la regla 1 son elegibles incluso si están empleados solo a tiempo parcial.
+
+Sin embargo, puede configurar una sola regla que tenga varias condiciones. En este caso, los empleados deben cumplir todas las condiciones de la regla para ser considerados elegibles para la prestación. Por ejemplo, tiene una regla que se llama **Empleado a tiempo completo**. Esta regla establece que el tipo de empleado debe ser **Empleado** *y* el empleado debe estar empleado a tiempo completo. Por lo tanto, los empleados deben cumplir con ambas condiciones de la regla para ser elegibles.
+
+> [!IMPORTANT]
+> Se debe asociar al menos una regla de elegibilidad con cada plan de beneficios. Puede asociar varias reglas con una prestación.
 
 ## <a name="create-an-eligibility-rule"></a>Crear regla de idoneidad
 
@@ -72,7 +79,7 @@ Durante la inscripción abierta, los empleados pueden seleccionar planes de pres
    | **Tipo de puesto apto** | Especifica el tipo o tipos de posición que satisfacen la regla de idoneidad. Por ejemplo, a tiempo completo. |
    | **Estado apto** | Especifica los estados o provincias que satisfacen la regla de idoneidad. Por ejemplo, Dakota del Norte, EE. UU., o Columbia Británica, Canadá. |
    | **Condiciones laborables aptas** | Especifica las condiciones de empleo que cumplen con la regla de idoneidad. Por ejemplo, a voluntad o contrato grupal. |
-   | **Sindicato apto** | Especifica la membresía de sindicato que satisface la regla de idoneidad. Por ejemplo, Forklift Drivers of America. </br></br>Cuando se usa una regla de idoneidad basada en un sindicato, el registro del sindicato del trabajador debe tener la fecha de finalización completada. No se puede dejar en blanco. |
+   | **Sindicato apto** | Especifica la membresía de sindicato que satisface la regla de idoneidad. Por ejemplo, Forklift Drivers of America.</br></br>Cuando se usa una regla de idoneidad basada en un sindicato, el registro del sindicato del trabajador debe tener la fecha de finalización completada. No se puede dejar en blanco. |
    | **Código postal idóneo** | Especifica los códigos postales que satisfacen la regla de idoneidad. Por ejemplo, 58104. |
 
 5. En **Detalles adicionales**, puede ver los siguientes detalles adicionales.

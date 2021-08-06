@@ -4,30 +4,21 @@ description: Este tema proporciona información sobre cliente potencial a efecti
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0fcbc5b0f571e9f2cf7f1ad7c1e976d022199b47
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361421"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542280"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial a efectivo en doble escritura
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Un objetivo importante de la mayoría de las empresas es convertir clientes potenciales en clientes y luego mantener una relación comercial continua con esos clientes. En las aplicaciones Microsoft Dynamics 365, el proceso de cliente potencial a efectivo ocurre a través de presupuestos o flujos de trabajo de procesamiento de pedidos, y las finanzas se concilian y reconocen. La integración de cliente potencial a efectivo con doble escritura crea un flujo de trabajo que toma una cotización y un pedido que se origina en Dynamics 365 Sales o Dynamics 365 Supply Chain Management y hace que la oferta y el pedido estén disponibles en ambas aplicaciones.
 
@@ -70,6 +61,7 @@ Los presupuestos de ventas pueden crearse en Sales o Supply Chain Management. Si
 + Las columnas **Condiciones de flete**, **Condiciones de entrega**, **Método de envío** y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estas columnas, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la tabla.
 
 Si también está utilizando la solución Field Service, asegúrese de volver a habilitar el parámetro **Creación rápida de línea de presupuesto**. Volver a habilitar el parámetro le permite continuar creando líneas de presupuesto usando la función de creación rápida.
+
 1. Navegue a su aplicación Dynamics 365 Sales.
 2. Seleccione el icono de configuración en la barra de navegación superior.
 3. Seleccione **Ajustes avanzados**.
@@ -121,43 +113,25 @@ Cliente potencial a efectivo incluye una colección de mapas de tabla básicos q
 
 | Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement | Descripción |
 |-----------------------------|-----------------------------------|-------------|
-| Encabezados de factura de ventas V2    | facturas                          | La tabla V2 de encabezados de facturas de Sales en la aplicación Finance and Operations contiene facturas para pedidos de venta y facturas de servicios. Se aplica un filtro en Dataverse para escritura dual que filtrará cualquier documento de factura de servicios. |
-| Líneas de factura de ventas V2      | invoicedetails                    |             |
-| Encabezado de pedidos de ventas de CDS     | salesorders                       |             |
-| Líneas de pedido de ventas de CDS       | salesorderdetails                 |             |
-| Códigos de origen de pedido de ventas    | msdyn\_salesorderorigins          |             |
-| Encabezado de presupuesto de ventas de CDS  | presupuestos                            |             |
-| Líneas de presupuesto de ventas de CDS   | quotedetails                      |             |
+[Todos los productos](mapping-reference.md#138) | msdyn_globalproducts | |
+[Clientes V3](mapping-reference.md#101) | cuentas | |
+[Clientes V3](mapping-reference.md#116) | contactos | |
+[Contactos V2](mapping-reference.md#221) | msdyn_contactforparties | |
+[Encabezado de pedidos de ventas de CDS](mapping-reference.md#217) | salesorders | |
+[Líneas de pedido de ventas de CDS](mapping-reference.md#216) | salesorderdetails | |
+[Encabezado de presupuesto de ventas de CDS](mapping-reference.md#215) | presupuestos | |
+[Líneas de presupuesto de ventas de CDS](mapping-reference.md#214) | quotedetails | |
+[Productos liberados V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
+[Encabezados de factura de ventas V2](mapping-reference.md#118) | facturas | La tabla V2 de encabezados de facturas de Sales en la aplicación Finance and Operations contiene facturas para pedidos de venta y facturas de servicios. Se aplica un filtro en Dataverse para escritura dual que filtrará cualquier documento de factura de servicios. |
+[Líneas de factura de ventas V2](mapping-reference.md#117) | invoicedetails | |
+[Códigos de origen de pedido de ventas](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
-Estos son los mapas de tablas centrales relacionadas para cliente potencial a efectivo:
-
-+ [Clientes V3 para cuentas](customer-mapping.md#customers-v3-to-accounts)
-+ [Contactos V2 de CDS para contactos](customer-mapping.md#cds-contacts-v2-to-contacts)
-+ [Clientes V3 para contactos](customer-mapping.md#customers-v3-to-contacts)
-+ [Productos lanzados V2 para msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
-+ [Todos los productos para msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
-+ [Lista de precios](product-mapping.md)
+Para obtener información sobre las listas de precios, consulte [Experiencia unificada del producto](product-mapping.md).
 
 ## <a name="limitations"></a>Limitaciones
+
 - No se admiten pedidos de devolución.
 - No se admiten notas de abono.
-- Las dimensiones financieras deben establecerse para los datos maestros, por ejemplo, cliente y proveedor. Cuando se agrega un cliente a un presupuesto o pedido de venta, las dimensiones financieras asociadas con el registro del cliente fluyen automáticamente al pedido. Actualmente, la escritura dual no incluye datos de dimensiones financieras para datos maestros. 
-
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
-
-[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
-
-[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
-
-[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
-
-[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
-
-[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
-
-[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
+- Las dimensiones financieras deben establecerse para los datos maestros, por ejemplo, cliente y proveedor. Cuando se agrega un cliente a un presupuesto o pedido de venta, las dimensiones financieras asociadas con el registro del cliente fluyen automáticamente al pedido. Actualmente, la escritura dual no incluye datos de dimensiones financieras para datos maestros.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

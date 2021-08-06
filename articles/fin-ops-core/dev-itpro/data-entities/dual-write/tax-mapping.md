@@ -4,24 +4,17 @@ description: Este tema describe la integración de datos de impuestos entre Fina
 author: robinarh
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: rhaertle
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a7992520b57b4c19b6dc8e13bd8e9ffc87b40f5a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e1b5d62e56dd1f87dbfedc6a8ca7379587481ff4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750651"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542328"
 ---
 # <a name="integrated-tax"></a>Impuestos integrados
 
@@ -29,41 +22,20 @@ ms.locfileid: "5750651"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 Los datos de configuración de impuestos definen la configuración para los impuestos indirectos (IVA, impuestos, GST) y la retención de impuestos. Describe la regla de cálculo del impuesto, el índice de impuestos, la contabilidad del impuesto, su liquidación y otros conceptos.
 
 ## <a name="templates"></a>Plantillas
 
 Los datos de los impuestos incluyen una colección de mapas de tabla que funcionan conjuntamente durante la interacción de los datos, como se muestra en la tabla siguiente.
 
-Aplicaciones de Finance and Operations | Aplicaciones basadas en modelos en Dynamics 365 | Descripción |
--------------------------|---------------------------------|----|
-Grupo de impuestos de artículos | msdyn_taxitemgroups |
-Autoridades fiscales | msdyn_taxauthorities |
-Entidad de código de exención de impuestos para CDS | msdyn_taxexemptcodes |
-Grupos de impuestos | msdyn_taxgroups |
-Grupos de registro contable de impuestos de ventas V2 | msdyn_taxpostinggroups |
-Códigos de retenciones de impuestos | msdyn_withholdingtaxcodes |
-Grupos de retenciones de impuestos | msdyn_withholdingtaxgroups | 
-
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
-
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
-
-[!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
-
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
-
-[!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
-
-[!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
-
+| Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement | Descripción |
+|-----------------------------|-----------------------------------|-------------|
+[Grupo de impuestos de artículos](mapping-reference.md#196) | msdyn_taxitemgroups | |
+[Autoridades fiscales](mapping-reference.md#193) | msdyn_taxauthorities | |
+[Entidad de código de exención de impuestos para CDS](mapping-reference.md#194) | msdyn_taxexemptcodes | |
+[Grupos de impuestos](mapping-reference.md#195) | msdyn_taxgroups | |
+[Grupos de registro contable de impuestos de ventas V2](mapping-reference.md#197) | msdyn_taxpostinggroups | |
+[Códigos de retenciones de impuestos](mapping-reference.md#210) | msdyn_withholdingtaxcodes | |
+[Grupos de retenciones de impuestos](mapping-reference.md#211) | msdyn_withholdingtaxgroups | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

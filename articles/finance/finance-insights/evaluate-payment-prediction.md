@@ -2,7 +2,7 @@
 title: Evaluar el modelo de predicción de pagos de clientes inicial (versión preliminar)
 description: Este tema describe los pasos que puede seguir para conocer el modelo de predicción de pagos de clientes y evaluar su efectividad.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 97228a68d9eaa02388675238d5a196b4af30daa5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349019"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638569"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Evaluar el modelo de predicción de pagos de clientes inicial (versión preliminar)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema explica cómo evaluar un modelo de predicción después de haber activado Finance Insights y luego haber generado y entrenado su primer modelo. Este tema trata los modelos para predecir los pagos de los clientes. Describe los pasos que puede seguir para conocer el modelo de predicción de pagos de clientes y evaluar su efectividad.
 

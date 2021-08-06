@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
+ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815725"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6645381"
 ---
 # <a name="fixed-asset-transaction-options"></a>Opciones de transacciones de activos fijos
 
@@ -46,7 +46,7 @@ Cuando se usa un pedido de compra o el Inventario en diario de activos fijos par
 ## <a name="general-ledger"></a>Contabilidad general
 Cualquier tipo de transacción de activos fijos se puede registrar en la página Diario general. También puede usar diarios de activos fijos para registrar transacciones de activos fijos.
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>Opciones para especificar los tipos de transacción de activos fijos
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>Opciones para especificar los tipos de transacción de activos fijos
 
 
 | Tipo de transacción                    | Módulo                   | Opciones                                   |
@@ -61,10 +61,20 @@ Cualquier tipo de transacción de activos fijos se puede registrar en la página
 | ** **                               | Contabilidad general           | Diario general                           |
 | ** **                               | Clientes      | Factura de servicios                         |
 
-
 El valor restante de los períodos de depreciación del activo fijo no se actualiza cuando una línea de diario del tipo de transacción de depreciación se crea o se importa manualmente a través de una entidad de los datos. Este valor se actualiza cuando el proceso de propuesta de depreciación se utiliza para crear la línea de diario.
 
 Para obtener más información, consulte [Integración de activos fijos](fixed-asset-integration.md).
 
+### <a name="transactions-that-require-different-voucher-numbers"></a>Transacciones que requieren números de asiento distintos
+
+Las siguientes transacciones de activos fijos utilizarán diferentes números de asiento:
+
+- Se crea una adquisición adicional en un activo y se calcula la depreciación de "actualización".
+- Un activo está dividido.
+- Un parámetro para calcular la depreciación al cancelar se habilita y luego el activo se cancela.
+- La fecha de servicio de un activo es anterior a la fecha de adquisición. Por lo tanto, se registra un ajuste de depreciación.
+
+> [!NOTE]
+> Cuando introduzca transacciones, asegúrese de que todas las transacciones se aplican al mismo activo fijo. Un asiento no se registrará si incluye más de un activo fijo, incluso si el campo **Nuevo asiento** se establece en **Un número de asiento únicamente** en la página **Nombres de diario** en contabilidad general. Si incluye más de un activo fijo en el asiento, recibirá el mensaje "Solo puede haber una transacción de activo fijo por asiento" y no se podrá registrar el asiento.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

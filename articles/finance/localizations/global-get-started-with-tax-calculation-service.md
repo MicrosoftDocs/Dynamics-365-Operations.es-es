@@ -2,7 +2,7 @@
 title: Introducción al cálculo de impuestos
 description: Este tema explica cómo configurar el cálculo de impuestos.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336665"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644983"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Comenzar con el cálculo de impuestos (versión preliminar)
 
@@ -58,15 +58,16 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 Los pasos de esta sección no están relacionados con una entidad jurídica específica. Debe completar este procedimiento solo una vez, y puede completarlo en cualquier entidad jurídica en RCS.
 
 1. Inicie sesión en [RCS](https://marketing.configure.global.dynamics.com/).
-2. En el área de trabajo **Informes electrónicos**, agregue un nuevo proveedor de configuración. Utilice el nombre de su empresa como el nombre del proveedor. Para obtener más información, consulte [Crear proveedores de la configuración y marcarlos como activos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-3. Seleccione el proveedor de configuración que acaba de crear y luego seleccione **Establecer como activo**.
-4. Seleccione el proveedor de configuración **Microsoft** y luego **Repositorios**.
-5. En el campo **Tipo**, seleccione **Global**.
-6. Seleccione **Abrir**.
-7. Vaya a **Modelo de datos fiscales**, expanda el árbol de archivos y luego seleccione **Configuración fiscal**.
-8. Seleccione la última versión y luego seleccione **Importar**.
-9. Vuelva al espacio de trabajo **Características de globalización (versión preliminar)**, seleccione **Características**, elija el mosaico **Cálculo de impuestos** y finalmente **Agregar**.
-10. Seleccione uno de los siguientes tipos de característica:
+2. En el espacio de trabajo **Administración de características**, seleccione y habilite la característica **Funciones de globalización**.
+3. En el área de trabajo **Informes electrónicos**, agregue un nuevo proveedor de configuración. Utilice el nombre de su empresa como el nombre del proveedor. Para obtener más información, consulte [Crear proveedores de la configuración y marcarlos como activos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+4. Seleccione el proveedor de configuración que acaba de crear y luego seleccione **Establecer como activo**.
+5. Seleccione el proveedor de configuración **Microsoft** y luego **Repositorios**.
+6. En el campo **Tipo**, seleccione **Global**.
+7. Seleccione **Abrir**.
+8. Vaya a **Modelo de datos fiscales**, expanda el árbol de archivos y luego seleccione **Configuración fiscal**.
+9. Seleccione la última versión y luego seleccione **Importar**.
+10. Vuelva al espacio de trabajo **Características de globalización**, seleccione **Características**, elija el mosaico **Cálculo de impuestos** y finalmente **Agregar**.
+11. Seleccione uno de los siguientes tipos de característica:
 
     - **Nueva caracteristica**: cree una configuración de característica con el contenido en blanco.
     - **Basada en una característica existente**: cree una función a partir de una función existente y copie el contenido de la configuración de la función existente.

@@ -1,8 +1,8 @@
 ---
-title: Crear tipos de planes
+title: Descripción general del tipo de plan
 description: Un tipo de plan en Microsoft Dynamics 365 Human Resources es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan tiene un código de tipo de plan que determina reglas para el tipo de plan.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 806b3839feb1e1bf889747986388a56113c3ebe1
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057871"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558282"
 ---
-# <a name="create-plan-types"></a>Crear tipos de planes
+# <a name="plan-type-overview"></a>Descripción general del tipo de plan
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Un tipo de plan en Microsoft Dynamics 365 Human Resources es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan tiene un código de tipo de plan que determina reglas para el tipo de plan. Por ejemplo, el tipo de plan Vida básica tendría el código de tipo de plan Vida porque es un tipo de plan de seguro de vida y debe cumplir las reglas establecidas para el código de tipo de plan de vida. Otro tipo de plan podría ser vida complementaria, también con el código de tipo de plan Vida.
+Un tipo de plan es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan tiene un código de tipo de plan que determina reglas para el tipo de plan. Por ejemplo, el tipo de plan **Vida básica** tendría el código de tipo de plan **Vida** porque es un tipo de plan de seguro de vida y debe cumplir las reglas establecidas para el código de tipo de plan de **Vida**. Otro tipo de plan podría ser **Vida suplementaria**. Este tipo de plan también tendrá el código de tipo de plan de **Vida** código de tipo de plan.
 
 Cada tipo de plan indica si un empleado puede inscribirse en un plan de su tipo o en varios. Por ejemplo, es probable que un empleado pueda inscribirse tanto en las directivas de vida básica como vida complementaria del tipo de plan Vida. Es probable que a un empleado se le permita inscribirse en una sola directiva de tipo médico.
 
 Si un tipo de plan implica contactos, el tipo de plan indica si los contactos son beneficiarios o dependientes. Por ejemplo, un tipo de plan de vida básico tendría beneficiarios, mientras que un tipo de plan médico básico tendría dependientes. En algunos casos, es posible que un plan no tenga contactos personales. Por ejemplo, una cuenta de gastos flexible o una concesión de aparcamiento.
 
 Un tipo de plan puede definir opciones de cobertura. Las opciones de cobertura se definen en el formulario de opción de cobertura. Una opción de cobertura puede especificar el importe del beneficio o los contactos que son aptos para el tipo de plan. Por ejemplo, si el tipo de contacto es Beneficiario, la opción de cobertura debe definir los términos para lo que el beneficiario es elegible para recibir cuando se utiliza la prestación. Si el tipo de contacto es Dependiente, la opción de cobertura debe definir la relación entre el dependiente y el empleado. 
+
+> [!IMPORTANT]
+> El formulario incluye datos clave que afectan las opciones que están disponibles cuando se crea un nuevo plan de beneficios:
+>
+> - **Código de tipo de plan**: este campo afecta lo que se muestra en la pestaña **Configuración** cuando se configura la prestación real.  
+> - **Inscripción concurrente**: este campo determina si se permiten múltiples inscripciones. (Para un plan médico, este campo generalmente se establece en **Una inscripción**).
+> - **Tipo de contacto**: este campo permite agregar dependientes o beneficiarios a un plan. Si está configurado para **Ninguno**, los empleados que se inscriban en las prestaciones no tendrán la opción de seleccionar un beneficiario o un dependiente.
+> - **Opciones de cobertura**: utilice este campo para vincular las opciones de cobertura con los tipos de planes. Define las personas que estarán cubiertas por este tipo de plan o los montos de cobertura que están disponibles para este tipo de plan. Por ejemplo, puede especificar que la cobertura para un tipo de plan médico estará disponible solo para el empleado, el empleado y otra persona, o el empleado y su familia.
+
+## <a name="create-plan-types"></a>Crear tipos de planes
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Configuración**, seleccione **Tipos de plan**.
 

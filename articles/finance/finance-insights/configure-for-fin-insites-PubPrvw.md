@@ -2,7 +2,7 @@
 title: 'Configuración de Finance insights para la versión preliminar pública (versión preliminar): versión 10.0.20 y posteriores'
 description: Este tema explica cómo configurar su sistema para que utilice las capacidades que están disponibles en Finance Insights para la versión preliminar pública en la versión 10.0.20 y posteriores.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
-ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
+ms.openlocfilehash: 859385f8feb240d3860ae37d3500029b818a5458
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "6309674"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638713"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configuración de Finance insights para la versión preliminar pública (versión preliminar): versión 10.0.20 y posteriores
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 

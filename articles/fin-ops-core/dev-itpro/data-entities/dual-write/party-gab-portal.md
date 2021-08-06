@@ -1,6 +1,6 @@
 ---
-title: Uso de Power Portal con el modelo de datos de parte
-description: Este tema describe los cambios en los roles web de Power Portal debido al modelo de datos de parte en escritura dual.
+title: Usar portales de Microsoft Power Apps con el modelo de datos de parte
+description: Este tema describe los cambios en los roles web para portales de Microsoft Power Apps debido al modelo de datos de parte en escritura dual.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358626"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542572"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>Uso de Power Portal con el modelo de datos de parte
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Usar portales de Microsoft Power Apps con el modelo de datos de parte
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ Para crear estos nuevos permisos de tabla, siga estos pasos:
 
     Debe crear tres permisos nuevos:
 
-    + Conexión de contacto a parte
-    + Conexión de parte a contacto
-    + Conexión de cuenta a pedido
+    + Conexión de tabla **Contacto** a **Parte**
+    + Conexión de tabla **Parte** a **Cuenta**
+    + Conexión de tabla **Cuenta** a **Pedido**
 
 4. Cree y guarde un nuevo permiso para la conexión de contacto a parte, estableciendo estos parámetros:
 
-    + **Nombre**: conexión de parte a cuenta (o su elección)
+    + **Nombre**: conexión de tabla **Parte** a **Cuenta** (o su elección)
     + **Nombre de tabla**: msdyn_contactforparty
     + **Sitio web**: portal del cliente
     + **Ámbito**: contacto

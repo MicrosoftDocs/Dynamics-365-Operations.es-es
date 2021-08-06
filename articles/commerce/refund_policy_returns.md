@@ -2,7 +2,7 @@
 title: Crear y actualizar una directiva de devoluciones y reembolsos para un canal
 description: Este tema explica cómo configurar una directiva de devoluciones y reembolsos para un canal.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345117"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558306"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Crear y actualizar una directiva de devoluciones y reembolsos para un canal
 
@@ -36,12 +36,21 @@ El alcance de la directiva se limita actualmente a establecer las formas de pago
 
 ## <a name="enable-return-policy"></a>Habilitar directiva de devolución
 
-Para habilitar la funcionalidad de directiva de devolución del canal, haga lo siguiente:
+Para habilitar la función de directiva de retorno de canal en la sede de Commerce, siga estos pasos.
 
 1. Vaya al espacio de trabajo **Administración de características** en Dynamics 365 Commerce.
 1. Busque la característica **Habilitar directiva de devoluciones del canal** en la lista de nombres de características.
 1. Seleccione **Habilitar ahora**.
-1. Sobre la página **Programa de distribución**, ejecute el trabajo **1110** (Configuración global) para distribuir el cambio de función. 
+1. Sobre la página **Programa de distribución**, ejecute el trabajo **1110** (Configuración global) para distribuir el cambio de función.
+
+## <a name="initialize-the-commerce-scheduler"></a>Inicializar el programador de Commerce
+
+Después de habilitar la función **Habilitar políticas de devolución de canales**, debe inicializar el programador de Commerce para asegurarse de que los cambios en la base de datos de nuevas funciones se agreguen a través de la sincronización de Commerce Data Exchange (CDX). 
+
+Para inicializar el programador de Commerce en la sede central de Commerce, siga estos pasos.
+
+- Vaya a **Retail y Commerce \> Configuración de sede central \> Programador de Commerce \> Inicializar programador de Commerce**. Como alternativa, puede buscar “Inicializar programador de Commerce”.
+- En el cuadro de diálogo **Inicializar el programador de Commerce**, asegúrese de que la opción **Configuración de la existente Eliminar** está establecida en **No** y, a continuación, seleccione **Aceptar**.
 
 ## <a name="configure-return-policy"></a>Configurar directiva de devoluciones
 

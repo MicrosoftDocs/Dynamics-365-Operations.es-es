@@ -2,7 +2,7 @@
 title: Crear un calendario de equipo
 description: Vea y cree calendarios de equipo en Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cedff4031c6455b446af9c56a770a00f3b2efc80
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052106"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639399"
 ---
 # <a name="view-team-and-company-calendars"></a>Ver calendarios de equipo y empresa
 
@@ -30,7 +30,7 @@ Puede ver calendarios de equipo y empresa en Dynamics 365 Human Resources. Los c
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Ver el calendario de su equipo como empleado
 
-1. En el espacio de trabajo **Autoservicio para empleados**, seleccione **Calendario de ausencias del equipo** en **Resumen**.
+- En el espacio de trabajo **Autoservicio para empleados**, seleccione **Calendario de ausencias del equipo** en **Resumen**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Ver el calendario de su equipo como gerente
 
@@ -39,6 +39,21 @@ Puede ver calendarios de equipo y empresa en Dynamics 365 Human Resources. Los c
 2. Seleccione **Bajas y ausencias** y luego seleccione **Ver calendario de ausencias del administrador**.
 
 Los gerentes también pueden acceder al calendario del equipo desde **Solicitudes pendientes de mi equipo**, **Tiempo libre aprobado** y **Solicitudes de tiempo libre**. 
+
+## <a name="view-your-absence-manager-calendar-as-the-absence-manager"></a>Ver el calendario de su administrador de ausencias como administrador de ausencias
+
+> [!NOTE]
+> Para ver el calendario del administrador de ausencias, primero debe activar la función **(Vista previa) Gestor de ausencias para gestionar la baja** en la gestión de funciones. Para obtener más información acerca cómo activar las características de vista previa, consulte [Administrar características](hr-admin-manage-features.md).
+
+Los usuarios con la función de administrador de ausencias pueden ver las solicitudes de tiempo libre en su calendario. Siga estos pasos para acceder al calendario de bajas.
+
+1. En el espacio de trabajo **Autoservicio para los empleados**, seleccione **Gerente de ausencias** y luego **Calendario del administrador de ausencias**.
+
+2. En el campo **Fecha**, escriba la fecha deseadas.
+
+3. Actualice las opciones de vista según sea necesario.
+
+El calendario del administrador de ausencias muestra todos los registros de los empleados que informan al administrador de ausencias en la jerarquía de ausencias.
 
 ## <a name="view-a-company-calendar"></a>Ver un calendario de empresa
 
@@ -64,13 +79,11 @@ La configuración del calendario en los parámetros de permisos y ausencias dete
 
 También puede filtrar calendarios por gerente o departamento. La asignación de puesto principal determina los empleados que se muestran cuando se establecen estos filtros. 
 
->[!IMPORTANT]
->La visualización de permisos y ausencias en todas las empresas se encuentra actualmente en versión preliminar. Deberá habilitarlo en su entorno de **Espacio** aislado. Para obtener más información sobre cómo habilitar las características en versión preliminar, consulte [Administrar características](hr-admin-manage-features.md).<br><br>
->A continuación, debe habilitar la característica en **Parámetros compartidos de recursos humanos** para mostrar el filtro de entidad jurídica en calendarios. Para más información, consulte [Configurar parámetros de bajas y ausencias](hr-leave-and-absence-parameters.md).<br><br>
->Puede filtrar el calendario por entidad jurídica. Si desea ver a todos los empleados independientemente de su entidad jurídica, desactive la casilla de filtro y seleccione Entrar. 
+> [!IMPORTANT]
+> Puede activar la función **Vista de bajas cruzada en la compañía** en la gestión de funciones. Debe habilitar la característica en la página **Parámetros compartidos de recursos humanos** para mostrar el filtro de entidad jurídica en calendarios. Para más información, consulte [Configurar parámetros de bajas y ausencias](hr-leave-and-absence-parameters.md).
+> 
+> Puede filtrar el calendario por entidad jurídica. Para ver a todos los empleados independientemente de su entidad jurídica, desactive el campo de filtro y seleccione **Entrar**. 
 
 Para obtener información acerca de la configuración del calendario, consulte [Configurar parámetros de calendario](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

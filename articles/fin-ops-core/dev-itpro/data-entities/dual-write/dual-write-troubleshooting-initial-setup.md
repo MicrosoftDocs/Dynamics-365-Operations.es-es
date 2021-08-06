@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350845"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542424"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante la configuración inicial
 
@@ -71,7 +71,7 @@ Para proporcionar el consentimiento de la aplicación, siga estos pasos.
 
 Para garantizar que la escritura doble funcione correctamente, las empresas que seleccione durante la configuración se crean en el entorno Dataverse. Por defecto, estas empresas son de solo lectura, y la propiedad **IsDualWriteEnable** se establece en **Verdadero**. Además, se crean el propietario y el equipo de la unidad de negocios propietaria predeterminada e incluyen el nombre de la empresa. Antes de habilitar los mapas, verifique que se haya especificado el propietario del equipo predeterminado. Para encontrar la tabla **Empresas (MDL\_Empresa)**, siga estos pasos.
 
-1. En la aplicación basada en modelos en Dynamics 365, seleccione el filtro en la esquina superior derecha.
+1. En la aplicación de Customer Engagement, seleccione el filtro en la esquina superior derecha.
 2. En la lista desplegable , seleccione **Compañía**.
 3. Seleccione **Ejecutar** para ver los resultados.
 4. Seleccione la compañía que estaba vinculada cuando configuró la escritura doble.

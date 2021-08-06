@@ -2,7 +2,7 @@
 title: Información general del tema de Adventure Works
 description: Este tema ofrece una descripción general del tema de Adventure Works y describe cómo aplicarlo a las páginas del sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479530"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655641"
 ---
 # <a name="adventure-works-theme-overview"></a>Información general del tema de Adventure Works
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tema ofrece una descripción general del tema de Adventure Works y describe cómo aplicarlo a las páginas del sitio en Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce tiene un tema para el comercio electrónico que se llama Adventure Works. El tema Adventure Works muestra productos deportivos y recreativos, y está optimizado para una experiencia narrativa rica y mejorada. Proporciona una apariencia moderna, nuevos diseños y efectos de animación para crear una experiencia de compra en línea envolvente y atractiva para los clientes de comercio electrónico.
 
-El tema Adventure Works proporciona los siguientes nuevos flujos de trabajo:
+## <a name="trial-environments-in-commerce"></a>Entornos de prueba en Commerce
+
+Para ver cómo se ve el tema Adventure Works cuando se implementa para sitios de empresa a consumidor (B2C) y de empresa a empresa (B2B), visite los siguientes sitios de prueba:
+
+- [Sitio B2C de Adventure Works](https://www.adventure-works.com/)
+- [Sitio B2B de Adventure Works](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>Funcionalidades de tema
+
+El tema Adventure Works proporciona las siguientes nuevas funcionalidades:
 
 - El módulo de reproductor de video ahora admite la funcionalidad de encabezados, párrafos y enlaces para contar historias adicionales.
-- La acción de agregar al carrito invoca el mini carrito en lugar de proporcionar una notificación.
+- Hay mejores transiciones de contenido a través de la animación.
+- La acción de "agregar al carrito" invoca el mini carrito en lugar de proporcionar una notificación.
 - El módulo de vista rápida es un panel que se desliza en las ventanas gráficas de escritorio y móviles.
-- Un carrito vacío ahora puede mostrar promociones.
+- Hay nuevos diseños para las páginas del sitio. 
+- El contenido de marketing se puede configurar para el carrito y el mini carrito cuando están vacíos.
+- El mini carrito puede mostrar mensajes promocionales, como "Envío gratuito en pedidos superiores a 50 $".
+- Las tarjetas de descripción se representan en las páginas de búsqueda y categoría.
 
-El tema Adventure Works incluye los siguientes módulos de narración de historias en la biblioteca de módulos de Comercio:
+El tema Adventure Works ahora incluye los siguientes módulos de narración de historias en la biblioteca de módulos de Commerce:
 
-- Módulo de lista de iconos
-- Módulo de funciones interactivas
-- Módulo de suscripción
-- Módulo de imagen activa
-- Módulo de lista de imágenes
+- [Módulo de lista de iconos](tile-list-module.md)
+- [Módulo de funciones interactivas](interactive-feature-module.md)
+- [Módulo de imagen activa](active-image-module.md)
+- [Módulo de suscripción](subscribe-module.md)
+- [Módulo de lista de imágenes](image-list-module.md)
 
 El tema Adventure Works es totalmente receptivo y proporciona una experiencia optimizada para las ventanas gráficas de escritorio, dispositivos móviles y tabletas.
 
@@ -77,6 +89,10 @@ El tema de Adventure Works incluye varias extensiones de tema, como las extensio
 Asimismo, otros módulos incluyen extensiones de definición de módulo. Por ejemplo, el [módulo de icono de carrito](cart-icon-module.md) incluye dos ranuras adicionales **Carro vacio** y **Contenido promocional** que se implementan mediante extensiones de definición de módulo. Además, una nueva propiedad **Logotipo móvil** se ha agregado al módulo de encabezado para admitir un logotipo en las ventanas gráficas móviles. Esta propiedad se implementa como una extensión de la definición del módulo de encabezado.
 
 Para obtener más información sobre las extensiones de tema, consulte [Extensiones de tema](e-commerce-extensibility/theme-module-extensions.md).
+
+## <a name="install-the-adventure-works-theme"></a>Instalar el tema de Adventure Works
+
+Para obtener información sobre cómo instalar el tema Adventure Works, consulte [Instalar el tema de Adventure Works](install-adventure-works.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

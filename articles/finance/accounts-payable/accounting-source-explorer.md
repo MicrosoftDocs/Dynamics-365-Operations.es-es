@@ -1,7 +1,7 @@
 ---
 title: Explorador de origen de contabilidad
 description: Este artículo proporciona información acerca del explorador del origen de contabilidad, que puede usar para análisis detallado de la información de origen detrás de asientos contables de la contabilidad general.
-author: ShylaThompson
+author: rcarlson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4624a740538493c247b6c3a0f051ed6208c52504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1ab7cb7f8f9a42d5f311f8760ff2463055dc178
+ms.sourcegitcommit: f2dfec2f4c427e37a574e6acdfaaf150bc92ebb6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820940"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6661046"
 ---
 # <a name="accounting-source-explorer"></a>Explorador de origen de contabilidad
 
@@ -46,8 +46,10 @@ Para documentos de origen que usen el concepto de identidades de referencia de d
 
 Para estos documentos, también puede navegar hasta el documento de origen real desde el Explorador de origen de contabilidad.
 
-
-
-
+> [!NOTE]
+> A partir de la versión 10.0.20, el botón **Actualizar** proporciona dos rangos adicionales para restringir la consulta inicial que se ejecuta para ingresar datos en la página. Estos rangos adicionales también están disponibles en la versión 10.0.19 como actualización de servicio. Se añadieron los campos siguientes:
+>
+> - De asiento, A asiento
+> - De Cuenta principal, A Cuenta principal
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

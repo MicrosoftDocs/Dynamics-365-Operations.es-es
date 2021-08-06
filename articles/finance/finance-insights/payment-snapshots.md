@@ -2,7 +2,7 @@
 title: Descripción general de instantáneas (Vista previa)
 description: Este tema describe la característica de instantáneas, que le permite guardar un pronóstico de flujo de efectivo para analizarlo o compararlo con los datos reales más adelante. Cuando genera un pronóstico de flujo de efectivo, puede guardar ese pronóstico como una "instantánea". Luego, puede usar esas instantáneas para editar las cuentas que se incluyeron en el pronóstico o comparar el pronóstico en la instantánea con los datos reales.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23df01603e74847f6f01a1eaa84b8fd3bb1d6e59
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: cf39e5233b2ef4d50d6c5ace57ba2574ed5fe6fe
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337217"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638353"
 ---
 # <a name="snapshots-overview-preview"></a>Descripción general de instantáneas (Vista previa)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Las instantáneas permiten a las organizaciones editar y guardar información sobre su posición de efectivo y pronósticos de efectivo en un momento determinado. Puede comparar la instantánea con las finanzas reales, examinar la desviación y usar esa información para mejorar los pronósticos de flujo de efectivo a lo largo del tiempo. Más específicamente, las instantáneas se pueden utilizar de las siguientes maneras:
 

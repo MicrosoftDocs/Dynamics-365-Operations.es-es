@@ -2,7 +2,7 @@
 title: Sistema de ayuda
 description: Este tema proporciona una visión general del sistema de ayuda para las aplicaciones de Finance and Operations.
 author: edupont04
-ms.date: 04/14/2021
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
-ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
+ms.openlocfilehash: e0ba083c64c840e17bf2fba982b2686c8a47e097
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373376"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646522"
 ---
 # <a name="help-system"></a>Sistema de ayuda
 
@@ -30,7 +30,7 @@ ms.locfileid: "6373376"
 
 Los usuarios de las siguientes aplicaciones pueden acceder a la ayuda contextual y a otro contenido basado en el mismo sistema de ayuda:
 
-- Microsoft Dynamics 365 Commerce
+- Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
@@ -48,23 +48,23 @@ El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) es
 
 Puede encontrar contenido en docs.microsoft.com utilizando cualquier motor de búsqueda. Para obtener los mejores resultados, se recomienda utilizar una búsqueda de sitio como **site:docs.microsoft.com dynamics 365 "search term"**.
 
-<!--## Get notified about changes through an RSS feed
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Recibir notificaciones sobre cambios a través de una fuente RSS
 
-To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
+Para suscribirse a una fuente RSS de todas las actualizaciones que se encuentran en el contenido de docs.microsoft.com en las aplicaciones de Finance and Operations, use el siguiente vínculo:
 
-[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
+[Fuente RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+> La fuente RSS devuelve una lista de los 100 temas actualizados más recientemente. La lista no se ordena por fecha.  
 
-Alternatively, you can subscribe to an RSS feed by app:
+Alternativamente, puede suscribirse a una fuente RSS por aplicación:
 
 - [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
 - [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
 - [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Cadena de suministro](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
 - [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
-COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
+
 ### <a name="leave-us-feedback"></a>Envíenos sus comentarios
 
 Si tiene opiniones o preguntas sobre un tema, déjenos un comentario en la parte inferior de la página.

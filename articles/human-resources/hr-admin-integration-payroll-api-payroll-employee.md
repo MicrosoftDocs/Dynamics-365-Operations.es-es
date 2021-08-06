@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314294"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538863"
 ---
 # <a name="payroll-employee"></a>Empleado con nómina
 
@@ -32,15 +32,19 @@ Nombre físico: mshr_payrollemployeeentity.
 
 Esta entidad proporciona información sobre el empleado. Debes configurar los [parámetros de integración de nómina](hr-admin-integration-payroll-api-parameters.md) antes de usar esta entidad.
 
+>[!IMPORTANT] 
+>**FirstName**, **MiddleName**, **LastName**, **NameValidFrom** y **NameValidTo** ya no estarán disponibles en esta entidad. Esto es para garantizar que solo haya una fuente de datos con fecha de vigencia que respalde esta entidad, que es **HcmEmployment** con los campos **EmploymentStartDate** y **EmploymentEndDate**.
+
+>Estos campos estarán disponibles en el **DirPersonNameHistoricalEntity**, que se publicó en la Platform update 43. Hay una relación OData de **PayrollEmployeeEntity** para **DirPersonNameHistoricalEntity** en el campo **Persona**. Alternativamente, la entidad **DirPersonNameHistoricalEntity** se puede consultar directamente a través de OData utilizando el nombre público, **PersonHistoricalNames**.
+
+
 ## <a name="properties"></a>Propiedades
 
 | Propiedad<br>**Nombre físico**<br>**_Tipo_** | Utilizar | Descripción |
 | --- | --- | --- |
 | **Número de personal**<br>mshr_personnelnumber<br>*Cadena* | Solo lectura<br>Obligatorio | El número de personal exclusivo del empleado. |
 | **Campo primario**<br>mshr_primaryfield<br>*Cadena* | Obligatorio<br>Generado por el sistema |  |
-| **Apellidos**<br>mshr_lastname<br>*Cadena* | Solo lectura<br>Obligatorio | Apellido del empleado. |
 | **Id. de entidad jurídica**<br>mshr_legalentityID<br>*Cadena* | Solo lectura<br>Obligatorio | Especifica la entidad jurídica (empresa). |
-| **Válido desde**<br>mshr_namevalidfrom<br>*Desplazamineto de fecha y hora* | Solo lectura <br>Obligatorio | Fecha de inicio de la validez de la información del empleado.  |
 | **Género**<br>mshr_gender<br>[Opción mshr_hcmpersongender establecida](hr-admin-integration-payroll-api-gender.md) | Solo lectura<br>Obligatorio | El sexo del empleado. |
 | **ID de entidad de empleado de nómina**<br>mshr_payrollemployeeentityid<br>*GUID* | Obligatorio<br>Generado por el sistema | Valor GUID generado por el sistema para identificar de forma única el empleado. |
 | **Fecha inicial del empleo**<br>mshr_employmentstartdate<br>*Desplazamineto de fecha y hora* | Solo lectura<br>Obligatorio | La fecha de inicio del empleo del empleado. |
@@ -50,8 +54,6 @@ Esta entidad proporciona información sobre el empleado. Debes configurar los [p
 | **Válido hasta**<br>mshr_namevalidto<br>*Desplazamineto de fecha y hora* |  Solo lectura<br>Obligatorio | Fecha de finalización de la validez de la información del empleado. |
 | **Fecha de nacimiento**<br>mshr_birthdate<br>*Desplazamineto de fecha y hora* | Solo lectura <br>Obligatorio | La fecha de nacimiento del empleado. |
 | **El número de identificación para**<br>mshr_identificationnumber<br>*Cadena* | Solo lectura <br>Obligatorio |El número de identificación definido para el empleado.  |
-| **Nombre**<br>mshr_firstname<br>*Cadena* | Solo lectura<br>Obligatorio | Nombre del empleado. |
-| **Segundo nombre**<br>mshr_middlename<br>*Cadena* | Solo lectura<br>Obligatorio |Segundo nombre del empleado.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Consulta de ejemplo para empleado de nómina
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

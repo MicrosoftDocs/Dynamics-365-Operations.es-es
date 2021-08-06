@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056333"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639423"
 ---
 # <a name="request-a-leave-of-absence"></a>Solicitar una excedencia
 
@@ -48,6 +48,10 @@ Puede enviar una solicitud de excedencia y ver el estado de sus solicitudes de l
 1. En el espacio de trabajo **Autoservicio para empleados**, seleccione **Más** (...) en el icono **Saldos de permisos**.
 
 2. Para ver sus solicitudes de excedencia, seleccione **Ver excedencia**.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Importar solicitudes de baja de otros sistemas o sistemas más antiguos
+
+Para importar solicitudes de bajas de otro sistema, debe seguir el flujo de trabajo normal para crear las transacciones de permisos correspondientes. Alternativamente, puede importar las transacciones bancarias de licencia y las solicitudes de licencia en un estado completo. Tenga en cuenta que las transacciones bancarias de licencia no se crean automáticamente si importa solo las solicitudes de licencia.
 
 ## <a name="see-also"></a>Consulte también
 

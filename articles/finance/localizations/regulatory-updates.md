@@ -1,8 +1,8 @@
 ---
 title: Actualizaciones reglamentarias
 description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-ms.date: 02/04/2021
+author: VStamberg
+ms.date: 07/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 24743bd15f77769e2d4ca81981284995ce3a576e
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: b6519465ca4e205eb86a595f82ce1278a9a90ce2
+ms.sourcegitcommit: bf2daeccbe3f2826e734f409bfc823820144aa23
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129786"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "6617976"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -39,51 +39,34 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 
 |País|Fecha de emisión|Versión|Actualización reglamentaria|
 |--------------------|---------------|-------|-------| 
-|      Brasil         |   Mayo 2021 - Diciembre 2020      | 10.0.20, 10.0.19, 10.0.17      |   NF-e NT2020.006: identificación del intermediario de la plataforma digital (actualizaciones de reglas de diseño y validación)   |
+|      Australia         |   2021 de junio      | 10.0.21      |   AU - Factura de informes de tiempos de pago 2020 para Microsoft Dynamics 365 Finance   |
+|      Brasil         |   Mayo 2021, febrero 2021      | 10.0.20, 10.0.19      |   NF-e NT2020.006: identificación del intermediario de la plataforma digital (actualizaciones de reglas de diseño y validación)   |
 |      Brasil         |   2021 de marzo         | 10.0.19         |    Diseño SPED REINF 1.5.1  |
-|      Brasil         |   2021 de febrero         | 10.0.18         |    SPED Fiscal 015 - Reglas RS |
-|      Brasil         |   2021 de marzo         | 10.0.17 HF       |    NFS-e Factura electrónica de servicios para Brasil (ciudad)  |
 |      Brasil         |   2021 de abril         | 10.0.20        |    SPED ECD Diseño 9  |
 |      Brasil         |   mayo de 2021         | 10.0.20         |    Contribuciones de SPED - Guía de versión 1.34  |
-|      Egipto         |   2021 de febrero         | 10.0.17         |    Formulario e informes de devolución de IVA  |
-|      Egipto        |   2021 de febrero         | 10.0.17         |    Configuración del diseño de la factura  |
-|      Egipto         |   2021 de febrero         | 10.0.17         |    Formulario 41 de declaración de retención  |
-|      Egipto         |   2021 de febrero         | 10.0.17         |    Formulario 11 de declaración de retención  |
-|      Egipto         |   2021 de febrero         | 10.0.17         |    Referencias a facturas originales en notas de abono  |
-|      Europa        |   2021 de enero       | 10.0.17      |   Brexit: impacto del Protocolo de Irlanda del Norte en los informes comerciales intracomunitarios en los países de la UE  |
-|      Francia        |   2021 de marzo       | 10.0.18      |   Minorista - Actualización certificada del sistema POS - Dynamics 365 Commerce  |
+|      Brasil         |   2021 de junio         | 10.0.21         |    SPED ECF - Diseño 7  |
+|      Brasil         |   mayo de 2021         | 10.0.20         |    NF-e NT2020.005 v1.10 - Reglas de validación y actualizaciones PED ECF - Diseño 7  |
+|      Brasil         |   mayo de 2021         | 10.0.21         |    SPED Reinf 1.5.1 - Cambios en el método de servicio web de EVENT 5011  |
 |      Francia        |   2021 de abril       | 10.0.20      |   Mejora de la exportación de archivos de datos en francés (FEC)  |
-|      Alemania        |   2021 de enero       | 10.0.17      |   Cambios en la estructura XML de notificación anticipada de IVA de ELSTER (UstVA)  |
 |      Alemania        |   2021 de marzo       | 10.0.19      |   Extensiones de GDPDU para transacciones y tabla de Activos Fijos  |
 |      Alemania        |   2021 de abril       | 10.0.20HF      |   Cambios en el formato de facturación electrónica (xRechnung) en Alemania desde 2021  |
-|      Global        |   2021 de enero       | 10.0.17      |   Retención de impuestos en nivel de línea  |
-|      Global        |   2021 de enero       | 10.0.17      |   Pago de retención de impuestos  |
-|      Global        |   2021 de enero       | 10.0.17      |   Retención de impuestos en pedidos de ventas  |
-|      Global        |   2021 de enero       | 10.0.17      |   Umbral de retención de impuestos sobre el importe de la factura  |
-|      Global        |   2021 de enero       | 10.0.17      |   Validación de la emisión de la fecha de la factura después de la publicación del albarán disponible para todos los países  |
-|      Hungría        |   2021 de febrero       | 10.0.17HF, 10.0.18      |   Sistema de facturación en línea v.3.0  |
-|      India         |   2021 de febrero      | 10.0.17HF, 10.0.18      |   Facturas electrónicas GST: información de eWay Bill  |
-|      India         |   2021 de marzo      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Facturas electrónicas GST: pedidos de exportación, exportación considerada, SEZ  |
-|      India         |   2021 de marzo      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Código QR de Dynamics en factura B2C  |
+|      India         |   2021 de marzo      | 10.0.19      |   Facturas electrónicas GST: pedidos de exportación, exportación considerada, SEZ  |
+|      India         |   2021 de marzo      | 10.0.19      |   Código QR de Dynamics en factura B2C  |
+|      India         |   2021 de junio      | 10.0.21      |   Nueva versión de API para factura electrónica (v.1.04)  |
 |      Italia         |   2021 de marzo      | 10.0.19      |   Cambios en el formato de comunicación de facturas (Esterometro) v.2.1.1  |
-|      Italia        |   mayo de 2021      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Minorista: actualización de muestra de integración de impresoras fiscales para admitir XML RT 2.0  |
+|      Italia        |   mayo de 2021      | 10.0.19      |   Minorista: actualización de muestra de integración de impresoras fiscales para admitir XML RT 2.0  |
 |      Italia         |   2021 de marzo      | 10.0.19      |   Minorista: habilitación de facturas específicas para minoristas que violen la contabilización cronológica  |
 |      Italia         |   2021 de febrero      | 10.0.19      |   Certificación única - 2021  |
-|      Letonia         |   2020 de diciembre      | 10.0.17      |   El formato Intrastat se actualiza a partir de 2021  |
-|      Lituania         |   2021 de marzo      | 10.0.18      |   Versión de informe SAF-T 2.01  |
-|      México         |   2020 de diciembre      | 10.0.17      |   Actualización del atributo "Monto" |
-|      Países Bajos         |   2020 de diciembre      | 10.0.17     |   Nueva versión de la taxonomía holandesa NT15 |
-|      Polonia          |   2021 de enero     | 10.0.17     |   Polonia: aclaraciones sobre JPK_KR (libros contables SAF), a partir de enero de 2021 |
-|      Rusia          |   2021 de enero     | 10.0.17    |   Nuevo formato de declaración de impuestos de la propiedad (versión técnica 5.07 en lugar de 5.06) para la presentación de informes de 2020|
+|      Omán         |   2021 de junio      | 10.0.21      |   Declaración de IVA  |
+|      Polonia          |   2021 de junio     | 10.0.21     |   JPK_V7M (VDEK): mejora de las marcas de procedimiento |
+|      Polonia          |   Julio de 2021     | 10.0.21     |   JPK-V7M nuevas reglas para completar a partir de julio de 2021 |
 |      Rusia          |   2021 de marzo     | 10.0.19    |   La declaración del impuesto sobre la propiedad de 2020 deberá indicar el valor medio anual de los activos fijos muebles|
 |      Rusia          |   2021 de marzo     | 10.0.19HF    |   Declaración de impuestos sobre las ganancias versión 5.09 para informes de 2020|
 |      Rusia          |   2021 de marzo     | 10.0.19    |   Se requiere el decreto gubernamental N 2200 21.12.2020 aplicación 4 nuevo formato para factura de transporte|
-|      España          |   noviembre de 2020     | 10.0.17    |   Validación de actualización de SII y errores v.2.1 (bis) desde el 1 de enero de 2021|
-|      Tailandia          |   2021 de febrero     | 10.0.17HF    |   Formulario de retención Por Ngor Dor 53, 3 y 2 |
+|      Rusia          |   2021 de junio     | 10.0.21HF, 10.0.20HF, 10.0.19 HF    |   Cambios en los diseños imprimibles de facturas-facturas y facturas correctivas|
+|      España          |   Julio de 2021     | 10.0.21    |    Escenario OSS / IOSS - ClaveRegimenEspecialOTrascendencia = 17- KB4623605|
+|      Suecia          |   Julio de 2021     | 10.0.21    |    Formato de declaración de IVA que incluye importes de inversión del sujeto pasivo|
 |      Emiratos Árabes Unidos   |   mayo de 2021     | 10.0.20    |   Contabilización del diario de pagos con cheques posfechados en la cuenta bancaria |
-|      Reino Unido         |   2020 de diciembre     | 10.0.17    |   Registro del impuesto de empresa en las facturas de los clientes (Brexit: Protocolo de Irlanda del Norte)|
-|      Reino Unido          |   2020 de diciembre     | 10.0.17    |   Brexit: impacto del Protocolo de Irlanda del Norte en las empresas que comercializan mercancías en ubicaciones de GB y NI|
-|      Reino Unido          |   2021 de marzo     | 10.0.18    |   MTD VAT> cambios de redacción en el diseño de impresión de vista previa (cuadros 2, 8, 9) 2021|
 
 
 

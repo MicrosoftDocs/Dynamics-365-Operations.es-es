@@ -2,7 +2,7 @@
 title: Configurar tarifas
 description: Las tasas en Microsoft Dynamics 365 Human Resources definen cuánto aportan los empresarios y los empleados para una prestación.
 author: andreabichsel
-ms.date: 06/15/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 85cf561828aa8ef9d80df31436f473b29406e2fd
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266666"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558354"
 ---
 # <a name="configure-rates"></a>Configurar tarifas
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Las tasas en Microsoft Dynamics 365 Human Resources definen cuánto aportan los empresarios y los empleados para una prestación. El valor puede ser un importe o créditos flexibles, en función de su configuración.
+Las tasas en definen cuánto aportan los empresarios y los empleados para una prestación. El valor puede ser un importe o un número de créditos flexibles, en función de su configuración.
 
 Use tasas para determinar cuánto pagan los empleados y empresarios por cada prestación, en función de varios factores. Las tasas de cobertura son efectivas a partir de una fecha, por lo que puede mantener un registro histórico de tasas. 
 
@@ -42,11 +42,11 @@ Use tasas para determinar cuánto pagan los empleados y empresarios por cada pre
    | --- | --- |
    | **Tipo** | Un nombre único que identifica la tasa de beneficio. |
    | **Descripción** | Descripción de la tasa de beneficio. |
-   | **Vigente** | La fecha en que la tasa tiene vigencia. La fecha actual del sistema es el valor predeterminado. 
+   | **Vigente** | La fecha de entrada en vigor de esta tasa. La fecha actual del sistema es el valor predeterminado. Esta fecha debe coincidir con su período de beneficios o antes. Una buena práctica es establecer esta fecha en la fecha del plan de prestaciones. |
    | **Caducidad** | La fecha final de la tasa. 12/31/2154 (que representa nunca) es el valor predeterminado. |
-   | **Usar niveles** | El nivel que se utilizará para el cálculo de la tasa de beneficio. Nivel único para una tasa de beneficio de un nivel o doble nivel para una tasa de beneficio de dos niveles. Un ejemplo de un nivel doble es un nivel basado en el sexo y la edad. |
-   | **Frecuencia de pago** | La frecuencia de pago que determina con qué frecuencia se paga la tasa de la prima de prestación al proveedor de beneficios. Por ejemplo, si la frecuencia de pago es mensual, la tasa de beneficio representa el importe del pago mensual. |
-   | **Redondeo de la tasa de frecuencia de pago** | Los métodos para redondear la tasa son: estándar, truncado, normal, a la baja y al alza. </br></br><ul><li>**Estándar** - Siempre redondee. Por ejemplo, 10,611 se redondeará a 10,62. -10,231 se redondeará a -10,23. </li><li>**Truncado** - Siempre redondee hacia abajo. Por ejemplo, 10,619 se redondeará a 10,61. -10,231 se redondeará a -10,24. </li><li>**Normal** - Los valores decimales que terminan en 5 o más se redondearán desde cero. Los valores decimales que terminan en 4 o menos se redondearán hacia cero. Por ejemplo, 10,615 se redondeará a 10,62. -10,235 se redondeará a -10,24. 10,614 se redondeará a 10,61. -10,234 se redondeará a -10,23. </li><li>**Hacia abajo** - Redondea hacia cero. Por ejemplo, 10,619 se redondeará a 10,61. -10,231 se redondeará a -10,23. </li><li>**Redondeando** - Redondea desde cero. Por ejemplo, 10,619 se redondeará a 10,62. -10,231 se redondeará a -10,24. |
+   | **Usar niveles** |  Use este campo si tiene lógica que deba usarse para determinar una tasa. Por ejemplo, si una tasa debe aumentar según la edad, seleccione un valor aquí. Seleccione **Nivel único** para una tasa de prestación de un nivel o **Doble nivel** para una tasa de prestación de dos niveles. Un ejemplo de un nivel doble es un nivel basado en el sexo y la edad. Después de seleccionar un valor, seleccione **Acciones** y luego seleccione **Tarifas de nivel**. Si tiene una tarifa fija que no cambia, deje este campo en blanco. |
+   | **Frecuencia de pago** | Especifique la frecuencia con la que se debe pagar la tarifa de la prima de beneficios al proveedor de beneficios. Las tarifas que ingrese en la página que se describe más adelante en este tema se basarán en la frecuencia de pago que especifique aquí. Por ejemplo, si ingresa **Mensual** en este campo, e ingresa una tarifa de empleado de **100 $**, se supone que la prestación le costará al empleado 100 $ por mes. Sin embargo, a un empleado se le puede pagar dos veces al mes, según la frecuencia de pago de beneficios que se establece en el registro del empleado. En este caso, cuando el empleado se registre en el autoservicio para empleados, la cantidad que pagará será 50 $, porque la tarifa que muestra el autoservicio para empleados se basa en la frecuencia de pago del empleado. |
+   | **Redondeo de la tasa de frecuencia de pago** | Los métodos para redondear la tasa son: estándar, truncado, normal, a la baja y al alza. </br></br><ul><li>**Estándar**: siempre redondea hacia arriba. Por ejemplo, 10,611 se redondeará a 10,62. -10,231 se redondeará a -10,23. </li><li>**Truncado** : siempre redondea hacia abajo. Por ejemplo, 10,619 se redondeará a 10,61. -10,231 se redondeará a -10,24. </li><li>**Normal**: los valores decimales que terminan en 5 o más se redondearán desde cero. Los valores decimales que terminan en 4 o menos se redondearán hacia cero. Por ejemplo, 10,615 se redondeará a 10,62. -10,235 se redondeará a -10,24. 10,614 se redondeará a 10,61. -10,234 se redondeará a -10,23. </li><li>**Hacia abajo**: redondea hacia cero. Por ejemplo, 10,619 se redondeará a 10,61. -10,231 se redondeará a -10,23. </li><li>**Redondeando**: redondea desde cero. Por ejemplo, 10,619 se redondeará a 10,62. -10,231 se redondeará a -10,24. |
    | **Importe del empleado si no es fumador** | El importe que el proveedor de prestaciones cobra por un empleado que no fuma. Este es el importe que el empresario paga al proveedor de prestaciones y debe basarse en la frecuencia de pago para la configuración de la tasa. |
    | **Importe del empleado si no es fumador** | El importe que el proveedor de prestaciones cobra por un empleado que no fuma. Este es el importe que el empresario paga al proveedor de prestaciones y debe basarse en la frecuencia de pago para la configuración de la tasa. |
    | **Importe del empleado si es fumador** | El importe que el proveedor de prestaciones cobra por un empleado que fuma. Este es el importe que el empresario paga al proveedor de prestaciones y debe basarse en la frecuencia de pago para la configuración de la tasa. |
@@ -66,6 +66,9 @@ Puede usar tasas de niveles en su configuración de tasas si la tasa varía en f
 
 También puede usar niveles dobles. Si selecciona **Nivel doble** para el valor de **Usar niveles** en el formulario **Configuración de tasas**, puede definir tasas basadas en dos dimensiones. Por ejemplo, podría configurar un sistema de nivel doble para indicar que si usted es hombre y su edad es de hasta 34,99, el importe para no fumador es de 2. Si es hombre y su edad es de hasta 39,99, el importe para no fumador es de 3. Si es mujer y su edad es de hasta 34,99, el importe para no fumador es de 1,8. Si es mujer y su edad es de hasta 39,99, el importe para no fumador es de 2,8.
 
+> [!IMPORTANT]
+> Una opción bajo **Informacion personal** en el registro del trabajador se utiliza para indicar si el empleado es fumador. Si el empleado está registrado como fumador, se utilizará la tasa de fumador. (La indicación de fumador nunca se muestra al empleado).
+   
 1. En el espacio de trabajo **Administración de prestaciones**, en **Configuración**, seleccione **Tasas**.
 
 2. Seleccione una o más tasas en la lista, seleccione **Acciones** y luego seleccione **Tasas de nivel**.
@@ -92,6 +95,7 @@ También puede usar niveles dobles. Si selecciona **Nivel doble** para el valor 
    | **Tasa de fumador de crédito flexible** | El número de créditos flexibles de los costes de prestación, en función del cálculo definido para el nivel para fumadores. |
 
 5. Seleccione **Guardar**. 
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

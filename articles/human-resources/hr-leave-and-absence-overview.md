@@ -2,7 +2,7 @@
 title: Visión general de bajas y ausencias
 description: En Dynamics 365 Human Resources, el espacio de trabajo de permisos y ausencias proporciona un marco flexible para crear nuevos planes de permisos y ausencias. También proporciona flujos de trabajo para gestionar solicitudes y una página de autoservicio intuitiva para que los empleados soliciten permisos.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339724"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639495"
 ---
 # <a name="leave-and-absence-overview"></a>Visión general de bajas y ausencias
 
@@ -34,7 +34,8 @@ Para poder crear planes de bajas para sus empleados, necesita realizar algunos p
 
 - [Configurar parámetros de bajas y ausencias](hr-leave-and-absence-parameters.md)
 - [Crear un calendario de horas de trabajo](hr-leave-and-absence-working-time-calendar.md)
-- [Crear una solicitud de baja de flujo de trabajo](hr-leave-and-absence-workflow.md)
+- [Crear un flujo de trabajo de solicitud de baja](hr-leave-and-absence-workflow.md)
+- [Configurar el rol de administrador de ausencias](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Crear y administrar planes de bajas
 
@@ -50,8 +51,9 @@ Antes de crear planes de bajas para sus trabajadores, debe crear tipos de permis
 
 Sus empleados pueden enviar solicitudes de tiempo libre y usted puede administrarlas en el espacio de trabajo **Autoservicio para empleados**.
 
-[Solicitar permiso](hr-employee-self-service-request-time-off.md)
-[Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)
+- [Solicitar permiso](hr-employee-self-service-request-time-off.md)
+- [Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)
+- [Configurar el rol de administrador de ausencias](hr-configure-absence-manager.md)
 
 
 

@@ -2,7 +2,7 @@
 title: Solicitar licencia
 description: Solicite licencia en Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/21/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86a0c659c8b586912ee848aa5f233f2e16f05fd4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: da04e3f93f381fbe25c7e1ed117b7ce10e8b04e9
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357200"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639567"
 ---
 # <a name="request-time-off"></a>Solicitar licencia
 
@@ -41,6 +41,8 @@ Puede enviar solicitudes de permisos, ver sus saldos de vacaciones y bajas, y ve
 5. Introduzca información en **Comentario**, si es necesario.
 
 6. Seleccione **Enviar** cuando esté listo para enviar su solicitud. De lo contrario, seleccione **Guardar borrador**.
+
+Los empleados que envían una nueva solicitud de licencia pueden seleccionar diferentes tipos de licencia para construir su solicitud de licencia. Sin embargo, todos los tipos de licencia que se seleccionan como parte de una única solicitud de licencia deben tener la misma unidad de licencia. Los empleados pueden ver la unidad de licencia para cada tipo de licencia formulario **Solicitar tiempo libre**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Agregar un archivo adjunto a una solicitud existente
 

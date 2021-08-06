@@ -2,7 +2,7 @@
 title: P+F de restablecimiento de data mart
 description: En este tema se proporcionan respuestas a algunas preguntas más frecuentes sobre los restblecimientos de data mart.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266618"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638276"
 ---
 # <a name="data-mart-resets-faq"></a>P+F de restablecimiento de data mart
 
@@ -37,6 +37,9 @@ Si una o más de las siguientes afirmaciones se aplican a su situación, su orga
 
 - La base de datos de la aplicación se restauró.
 - Ha abierto un vale de soporte y un ingeniero de soporte le ha indicado que reinicie el data mart como parte de un paso de la solución de problemas.
+ 
+> [!NOTE]
+> El proceso de restablecimiento de una despensa de datos se ve afectado por la cantidad de transacciones presupuestarias y del libro mayor en su base de datos. Dependiendo de la cantidad de transacciones en su sistema, un restablecimiento de la despensa de datos se puede completar en tan solo 15 minutos o puede demorar hasta cuatro horas. Sin embargo, si su restablecimiento se retrasa más de cuatro horas, le recomendamos que contacte con el Soporte.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>¿Cuando es apropiado restablecer un data mart?
 

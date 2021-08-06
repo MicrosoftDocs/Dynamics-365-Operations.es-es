@@ -2,7 +2,7 @@
 title: Previsión de flujo de efectivo (versión preliminar)
 description: Este tema describe la capacidad de pronóstico de flujos de efectivo.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3f16c8471123969443af52ff9bed7fc017b8e9c2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f4b48122ea54c201888d71afb5fb731ebcab230d
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339224"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638785"
 ---
 # <a name="cash-flow-forecast-preview"></a>Previsión de flujo de efectivo (versión preliminar)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 El flujo de efectivo es crítico para cualquier negocio. Incluso las empresas rentables pueden enfrentarse a la insolvencia si no mantienen el flujo de efectivo para satisfacer las necesidades inmediatas. La capacidad de previsión de flujo de efectivo en las informaciones de Finance puede ayudar a las empresas a monitorear y administrar sus saldos de efectivo de manera efectiva. Esta característica utiliza el aprendizaje automático para ayudar a las empresas a pronosticar los flujos de efectivo con mayor precisión que antes. También puede ayudar a los gerentes a tomar decisiones que optimicen las oportunidades en el contexto de su posición de efectivo actual. 
 

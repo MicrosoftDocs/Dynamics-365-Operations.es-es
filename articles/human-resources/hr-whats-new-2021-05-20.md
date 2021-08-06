@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afa64474e8eaf4c7b73e4f76d85e379f77b570a7
-ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
+ms.openlocfilehash: c7b7f71cf084a05bb0278f5df4ddb022ef3d640f
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6111576"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560059"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a>Novedades y cambios en Dynamics 365 Human Resources a 20 de mayo de 2021
 
@@ -70,7 +70,7 @@ La siguientes características nuevas se incluyen como versión preliminar. Para
 | Espacio de trabajo de administración de prestaciones | [Espacio de trabajo de administración de prestaciones (versión preliminar)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Espacio de trabajo de administración de prestaciones](hr-benefits-management-workspace.md) |
 | Mejoras en la experiencia del flujo de trabajo de bajas y ausencias | [Mejoras en la experiencia del flujo de trabajo de bajas y ausencias](https://go.microsoft.com/fwlink/?linkid=2147528) | [Solicitar permiso](hr-employee-self-service-request-time-off.md)|
 | Habilitar la integración de nóminas simplificada (API de integración de nóminas) | [Habilitar la integración simplificada proveedores de nóminas](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [API de integración de nóminas](hr-admin-integration-payroll-api-introduction.md)|
-| Auditoría de transacciones de acumulación de bajas | - | [Auditoría de transacciones de acumulación de bajas](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Auditoría de transacciones de acumulación de bajas | - | [Auditoría de transacciones de acumulación de bajas](hr-leave-and-absence-accrue.md)|
 
 ## <a name="coming-soon"></a>Próximamente
 

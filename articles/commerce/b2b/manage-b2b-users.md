@@ -2,24 +2,24 @@
 title: Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
 description: Este tema describe cómo los administradores pueden agregar, editar y eliminar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B).
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936665"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655615"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
 
@@ -67,7 +67,7 @@ Para aprobar y configurar un usuario administrador de socio comercial en la sede
 
 1. Vaya a **TI de Retail y Commerce \> Programa de distribución** y ejecuta el trabajo **1010** (**Clientes**) para enviar los registros de clientes y jerarquía de clientes recién creados a la base de datos del canal.
 
-Una vez que se haya aprobado la solicitud y se hayan sincronizado los registros de clientes y jerarquías de clientes con la base de datos del canal, el solicitante podrá iniciar sesión en el sitio web de comercio electrónico B2B con la dirección de correo electrónico que proporcionó al enviar la solicitud. Los usuarios pueden utilizar el flujo de registro para definir la contraseña de su cuenta.
+Una vez que se haya aprobado la solicitud y se hayan sincronizado los registros de clientes y jerarquías de clientes con la base de datos del canal, el solicitante podrá iniciar sesión en el sitio web de comercio electrónico B2B con la dirección de correo electrónico que proporcionó al enviar la solicitud. Los usuarios pueden utilizar el flujo de registro para definir la contraseña de su cuenta. Para habilitar el proveedor de identidad (Azure AD B2C) para vincularlo al registro de cliente B2B que se creó al registrarse o iniciar sesión, siga las instrucciones en [Habilitar la vinculación automática de registros de identidad a cuentas de clientes](../identity-record-linking.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Incorporar usuarios socios comerciales adicionales
 
@@ -83,7 +83,7 @@ Para incorporar usuarios socios comerciales adicionales a un sitio web de comerc
 
 1. Ejecute el trabajo **1010** (**Clientes**) para sincronizar el nuevo usuario del socio comercial con la base de datos del canal.
 
-Una vez que se haya sincronizado el registro del cliente, el estado del usuario en el sitio web de comercio electrónico B2B se establece en **Activo**, y el nuevo usuario podrá iniciar sesión en el sitio web de comercio electrónico B2B utilizando su dirección de correo electrónico. Los usuarios pueden utilizar el flujo de registro para definir la contraseña de su cuenta.
+Una vez que se haya sincronizado el registro del cliente, el estado del usuario en el sitio web de comercio electrónico B2B se establece en **Activo**, y el nuevo usuario podrá iniciar sesión en el sitio web de comercio electrónico B2B utilizando su dirección de correo electrónico. Los usuarios pueden utilizar el flujo de registro para definir la contraseña de su cuenta. Para habilitar el proveedor de identidad (Azure AD B2C) para vincularlo al registro de cliente B2B que se creó al registrarse o iniciar sesión, siga las instrucciones en [Habilitar la vinculación automática de registros de identidad a cuentas de clientes](../identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Editar los detalles del usuario del socio comercial
 

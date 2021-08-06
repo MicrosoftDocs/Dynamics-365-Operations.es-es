@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2da3c0415e996cadb5261d90c6353aa28bff3abb
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: 10bf7139ba89f5089d288e78fab9e3d63249aac9
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479533"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638913"
 ---
 # <a name="tile-list-module"></a>Módulo de lista de iconos
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 En este tema se tratan los módulos de lista y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 

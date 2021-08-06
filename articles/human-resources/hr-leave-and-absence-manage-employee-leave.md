@@ -2,7 +2,7 @@
 title: Administrar bajas de empleados
 description: Administre las bajas de empleados en Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33080fc5ca43f3d83ee9d17565f4c229ced7b94f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c161e324a1ebe5b30c95d6d3e0468da671a7c2de
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055637"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639471"
 ---
 # <a name="manage-employee-leave"></a>Administrar bajas de empleados
 
@@ -44,12 +44,11 @@ Puede administrar las bajas de empleados por tipo de baja. Esto incluye la final
 
 Puede incluir un código de razón y un comentario al ajustar el resultado de bajas de un empleado. 
 
->[!IMPORTANT]
->La visualización de información adicional sobre los saldos de licencias está en versión preliminar. Deberá habilitarlo en su entorno de **Espacio** aislado. Para obtener más información sobre cómo habilitar las características en versión preliminar, consulte [Administrar características](hr-admin-manage-features.md).<br>
->Al mantener el puntero encima de cualquier saldo de licencia, ahora verá:<br>
->- **Disponible**: Total de este año - Tomar este año
->- **Total de este año**: todas las acumulaciones, ajustes y transferencia para el año.
->- **Tomado este año**: todo el tiempo libre aprobado
+Ahora, cuando pasa el cursor sobre cualquier saldo de licencia, se muestra la siguiente información:
+
+- **Disponible** - El valor **Total este año** menos el valor **Tomado este año**.
+- **Total de este año**: todas las acumulaciones, ajustes y transferencia para el año.
+- **Tomado este año**: todo el tiempo libre aprobado.
 
 ## <a name="see-also"></a>Consulte también
 

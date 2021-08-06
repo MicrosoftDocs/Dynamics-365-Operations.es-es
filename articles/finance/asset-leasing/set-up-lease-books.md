@@ -2,7 +2,7 @@
 title: Configurar libros de arrendamiento
 description: Este tema describe la información que se mantiene en los libros de arrendamiento. Los libros de arrendamiento contienen las directivas contables que determinan cómo se contabiliza un arrendamiento en el sistema.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: aafb5913d9aff8b0ac2cfbb8126f4b6d8362c96c
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: cf663c95095c0b31a6282f96c50303b40e212646
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880945"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638462"
 ---
 # <a name="set-up-lease-books"></a>Configurar libros de arrendamiento
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Los libros de arrendamiento contienen las directivas contables que determinan cómo se contabiliza un arrendamiento en el sistema. Además de la contabilidad basada en efectivo, Arrendamiento de activos admite los siguientes estándares:
 

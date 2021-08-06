@@ -1,5 +1,5 @@
 ---
-title: Vista previa de Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
+title: Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301755"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641065"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Vista previa de Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en la versión preliminar de Microsoft Dynamics 365 Supply Chain Management de la versión 10.0.20. Esta versión tiene el número de compilación 10.0.886 y está disponible de la siguiente manera:
+En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.20. Esta versión tiene el número de compilación 10.0.886 y está disponible de la siguiente manera:
 
 - **Vista previa de la versión:** mayo 2021
 - **Disponibilidad general de la versión (actualización automática):** julio de 2021
 - **Disponibilidad general de la versión (actualización automática):** agosto de 2021
 
-
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
 La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada.
 
-La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse. Algunas de las funciones enumeradas todavía están en vista previa, mientras que otras pueden estar ya disponibles de manera general.
+La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
 
 | Área de características | Característica | Más información |
 |---|---|---|
@@ -49,7 +47,7 @@ La tabla siguiente enumera las mejoras de características incluidas en esta ver
 
 | Área de características | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
 |---|---|---|
-| Planificación maestra | Días negativos para Optimización de planificación | Esta función de vista previa permite que Planning Optimization considere la tolerancia de demora en función del parámetro **Días negativos** definido en grupos de cobertura. |
+| Planificación maestra | Días negativos para Optimización de planificación | Esta función permite que Planning Optimization considere la tolerancia de demora en función del parámetro **Días negativos** definido en grupos de cobertura. |
 | Planificación maestra | Autorización paralela de previsión de la demanda ajustada | Esta característica permite la autorización paralela de la previsión de demanda ajustada de la página **Previsión de la demanda ajustada**. La intención de esta función es aumentar el rendimiento cuando se autoriza una gran cantidad de pronósticos. Al autorizar, el usuario puede especificar el **Número de hilos** en el diálogo de autorización. |
 | Planificación maestra | (Versión preliminar) Consolidación y puesta en firme por lotes de pedidos de lote masivos y empaquetados planificados | Esta característica permite usar trabajos por lotes para poner en firme y consolidar pedidos masivos y empaquetados planificados. |
 | Control de producción | Copiar rutas genéricas | Esta característica mejora la función de copia de ruta para permitir a los usuarios copiar rutas que no son específicas de un artículo. Permite que el sistema actualice toda la información relevante (como el sitio, el grupo de rutas, los requisitos de recursos y varias horas) después de que se haya utilizado la función de copia de ruta para sobrescribir una ruta que aún no está asignada a un elemento. |
@@ -75,7 +73,7 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.20 de aplicaciones Finance and Operations (julio de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.20 de aplicaciones Finance and Operations (julio de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 
