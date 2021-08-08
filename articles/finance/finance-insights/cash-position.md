@@ -2,7 +2,7 @@
 title: Posición de efectivo (versión preliminar)
 description: Este tema describe cómo la característica de pronóstico de flujo de efectivo predice la posición de efectivo de una organización para momentos específicos. También describe las opciones que están disponibles para mostrar pronósticos para diferentes períodos.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 1935be3b2d52e19b764e6afdf00a8bc546f801df
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186501"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638761"
 ---
 # <a name="cash-position-preview"></a>Posición de efectivo (versión preliminar)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La posición de efectivo es la proyección del flujo de efectivo que se prevé para el corto plazo. Se basa en la proyección de los recibos de efectivo de los clientes que pagan facturas y pedidos pendientes, y también en la proyección de los desembolsos de efectivo que se pagan a los proveedores por las facturas y los pedidos de compra.
 

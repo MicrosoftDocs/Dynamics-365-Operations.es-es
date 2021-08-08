@@ -2,7 +2,7 @@
 title: Información general
 description: La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones acerca de cómo configurar Recursos humanos, cómo establecer compensaciones y prestaciones para sus empleados, y cómo administrar sus recursos laborales.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338063"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639519"
 ---
 # <a name="overview"></a>Información general
 
@@ -99,13 +99,14 @@ La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones
 [Asignar trabajadores a un plan de ausencias](hr-leave-and-absence-enroll.md)</br>
 [Acumular planes de permisos y ausencias](hr-leave-and-absence-accrue.md)</br>
 [Ver análisis de permisos y ausencias](hr-leave-and-absence-analytics.md)</br>
-[Administrar solicitudes de permisos y ausencias](hr-employee-self-service-manage-requests.md)</br>
-[Solicitar tiempo libre](hr-employee-self-service-request-time-off.md)</br>
+[Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)</br>
+[Solicitar permiso](hr-employee-self-service-request-time-off.md)</br>
 [Ver calendarios de equipo y empresa](hr-employee-self-service-calendar.md)</br>
+[Configurar el rol de administrador de ausencias](hr-configure-absence-manager.md)</br>
 
 ## <a name="develop-employees"></a>Desarrollar empleados
 
-[Visión general de la gestión del desempeño](hr-develop-performance-management-overview.md)</br>
+[Información general de la gestión del rendimiento](hr-develop-performance-management-overview.md)</br>
 [Alinear aptitudes de recursos](hr-develop-skills.md)</br>
 [Agregar a su diario de rendimiento](hr-develop-add-performance-journal.md)</br>
 [Crear un objetivo](hr-develop-create-goal.md)</br>
