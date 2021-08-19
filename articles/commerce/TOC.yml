@@ -76,7 +76,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Aplicaciones de Finance and Operations en Francia
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: Obtener soporte
+            - name: Obtener asistencia
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Actualización y compatibilidad de N-1
               items:
@@ -94,6 +94,8 @@
                   items:
                     - name: Novedades y cambios en la página principal de Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.21 (octubre de 2021)
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (junio de 2021)
@@ -516,8 +518,16 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Omitir el cuadro de diálogo "cambio a devolver" en PDV
                       href: dev-itpro/skip-change-due.md
-                    - name: Conector de pago Adyen
-                      href: dev-itpro/adyen-connector.md
+                    - name: Dynamics 365 Payment Connector para Adyen
+                      items:
+                        - name: Información general de Dynamics 365 Payment Connector para Adyen
+                          href: dev-itpro/adyen-connector.md
+                        - name: Configurar Dynamics 365 Payment Connector para Adyen
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: Preguntas frecuentes sobre Dynamics 365 Payment Connector para Adyen
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Solucionar problemas de Dynamics 365 Payment Connector para Adyen
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Guardar los instrumentos de pago en línea con el conector de Adyen
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Autenticación de cliente sólida (SCA) usando el conector Adyen
@@ -680,7 +690,7 @@
                   href: create-editorial-recommendation-lists.md
                 - name: Crear recomendaciones de producto mediante datos de demostración
                   href: product-recommendations-demo-data.md
-                - name: Preguntas más frecuentes de recomendaciones de producto
+                - name: Preguntas frecuentes de recomendaciones de producto
                   href: faq-recommendations.md
             - name: Clasificaciones y revisiones
               items:
@@ -730,7 +740,7 @@
                       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                     - name: Crear paquetes de producto para pedidos de compra
                       href: tasks/create-product-packages-purchase-orders.md
-        - name: Administrar sus pedidos
+        - name: Administrar los pedidos
           items:
             - name: Pedidos de cliente
               items:
@@ -874,7 +884,7 @@
                   href: manage-user-roles-teams.md
                 - name: Asignar tiendas y equipos si estos últimos ya existen en Teams
                   href: map-stores-existing-teams.md
-                - name: Preguntas más frecuentes sobre la integración de Commerce y Teams
+                - name: Preguntas frecuentes sobre la integración de Commerce y Teams
                   href: teams-integration-faq.md
         - name: Administrar su sitio de comercio electrónico
           items:
@@ -1182,6 +1192,10 @@
               items:
                 - name: Generar informes de canales en línea
                   href: generate-reports.md
+            - name: Segmentación
+              items:
+                - name: 'Segmentación por dispositivo, mercado y geolocalización'
+                  href: targeting-overview.md
             - name: Experimentación
               items:
                 - name: Experimentación en Dynamics 365 Commerce
@@ -1336,6 +1350,10 @@
               items:
                 - name: Localización de Commerce para Rusia
                   href: localizations/rus-commerce-localization.md
+                - name: Configurar la localización de Commerce para Rusia
+                  href: localizations/rus-commerce-setup.md
+                - name: Pagos anticipados en Commerce para Rusia
+                  href: localizations/rus-commerce-prepayments.md
             - name: Suecia
               items:
                 - name: Funcionalidad de caja registradora
@@ -2446,7 +2464,7 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Descargar muestras y paquetes de GitHub y NuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
-                - name: Preguntas más frecuentes del SDK de Retail
+                - name: Preguntas frecuentes del SDK de Retail
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Extensibilidad de punto de venta (PDV)
               items:
