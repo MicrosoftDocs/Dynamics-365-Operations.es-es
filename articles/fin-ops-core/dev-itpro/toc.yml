@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novedades y cambios en Platform updates
               items:
-                - name: Novedades y cambios en la página principal de Platform update
+                - name: Novedades y cambios en la página principal de actualizaciones de la plataforma
                   href: get-started/whats-new-home-page.md
+                - name: Actualizaciones de la plataforma para la versión 10.0.21 (octubre de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.20 (agosto de 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Actualizaciones de la plataforma para 10.0.19 (junio de 2021)
@@ -446,6 +448,8 @@
                       href: deployment/onprem-adfscompatibility.md
                     - name: Scripts para fases previas y posteriores a la implementación de agente local
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: Configuraciones de implementación para el agente local
+                      href: deployment/onprem-localagent-options.md
                     - name: Actualizar el agente local
                       href: lifecycle-services/update-local-agent.md
                 - name: Solución de problemas
