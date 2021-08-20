@@ -72,6 +72,8 @@
                   items:
                     - name: Novedades y cambios en la página principal de Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.21 (octubre de 2021)
+                      href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (junio de 2021)
@@ -1168,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Abrir plantillas de diario financiero en Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: ¿Por qué no puedo revertir esta transacción?
+                  href: general-ledger/cant-reverse-transctns.md
         - name: Informes financieros
           items:
             - name: Introducción a los informes financieros
@@ -1494,19 +1498,23 @@
                       href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                     - name: Introducción
                       items:
-                        - name: Comenzar con la administración de servicios de facturación electrónica
+                        - name: Introducción a la administración de servicios de facturación electrónica
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Comenzar con la facturación electrónica
+                        - name: Introducción a la facturación electrónica
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Comenzar la facturación electrónica para Brasil
+                        - name: Crear una nueva característica de facturación electrónica
+                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
+                        - name: Introducción a la facturación electrónica para Brasil
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Introducción la facturación electrónica para Egipto
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Introducción a la facturación electrónica para México
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Utilizar el servicio de facturación electrónica para importar facturas de proveedores
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Configurar la facturación electrónica
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                    - name: Preguntas más frecuentes sobre la facturación electrónica
+                    - name: Preguntas frecuentes sobre facturación electrónica
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Cálculo de impuestos
                   items:
@@ -1514,8 +1522,12 @@
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Introducción al cálculo de impuestos
                       href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                    - name: Aplicabilidad de los impuestos y lógica de determinación del grupo de impuestos
+                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Compatibilidad de la característica de impuestos para pedidos de transferencia
                       href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Cálculo del impuesto a partir del precio cuando está habilitado que los precios incluyen impuestos
+                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                     - name: Agregar campos de datos en configuraciones de impuestos
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Agregar campos de datos en la integración fiscal mediante el uso de extensiones
@@ -1528,15 +1540,19 @@
                       items:
                         - name: Informes de varios registros de IVA
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Informes de Francia
+                          items:
+                            - name: Declaración de IVA
+                          href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Informes de los Países Bajos
                           items:
                             - name: Declaración de IVA
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Lista de ventas de la UE
                               href: localizations/emea-nl-eu-sales-list.md
-                        - name: Informes del Reino Unido
+                        - name: Informes de Reino Unido
                           items:
-                            - name: Prepárese para la integración con MTD para IVA
+                            - name: Prepararse para la integración con MTD para IVA
                               href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Actualizaciones reglamentarias
               href: localizations/regulatory-updates.md
@@ -1544,17 +1560,21 @@
               items:
                 - name: Información general para Australia
                   href: localizations/australia.md
+                - name: Formatos de archivo bancario para bancos australianos
+                  href: localizations/apac-aus-bank-file-formats.md
                 - name: Extracto de actividades comerciales (BAS)
                   href: localizations/apac-aus-business-activity-statement.md
-                - name: Agregar casillas de informes y generar el BAS
+                - name: Agregar casillas de informes y generar BAS
                   href: localizations/tasks/add-bas-report-boxes.md
                 - name: Depreciación de activos de valor reducido
                   href: localizations/apac-aus-low-value-pool-depreciation.md
                 - name: Configurar códigos de motivo para el extracto BAS
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
+                - name: Esquema de informes de tiempos de pago
+                  href: localizations/apac-aus-payment-times-report.md
             - name: Austria
               items:
-                - name: Información general de Austria
+                - name: Información general para Austria
                   href: localizations/austria.md
                 - name: Depreciación de medio año sobre adquisiciones adicionales
                   href: localizations/emea-aut-half-year-depreciation.md
@@ -1798,10 +1818,12 @@
                   href: localizations/can-gst-hst-internet-file-transfer.md
             - name: China
               items:
-                - name: Visión general de China
+                - name: Información general para China
                   href: localizations/china.md
                 - name: Finance and Operations operado por 21Vianet en China
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
+                - name: Selección de grupos de cuentas para tipos de asientos chinos
+                  href: localizations/apac-chn-account-groups-selection.md
                 - name: Comparación de lista de materiales
                   href: localizations/apac-chn-bom-comparison.md
                 - name: Jerarquía china de plan de cuentas
@@ -1870,11 +1892,15 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: Declaración de IVA (República Checa)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Símbolos bancarios para cuentas bancarias
+                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
+                - name: IVA intracomunitario
+                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: Cierre de fin de año
                   href: localizations/emea-cze-hun-year-end.md
             - name: Dinamarca
               items:
-                - name: Información general de Dinamarca
+                - name: Información general para Dinamarca
                   href: localizations/denmark.md
                 - name: Asignar un formato al resguardo de pago a una cuenta de cliente
                   href: localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1990,12 +2016,8 @@
                       href: localizations/tasks/transfer-transactions-intrastat.md
                     - name: Especificar una dirección de embarque para una transacción intracomunitaria
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
-                    - name: Generar una declaración Intrastat de la UE
+                    - name: Generar una declaración intrastat de la UE
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                    - name: Intrastat francés
-                      href: localizations/emea-fra-intrastat.md
-                    - name: Intrastat italiano
-                      href: localizations/emea-ita-intrastat.md
                 - name: Informes de diario de inventario
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Fechas límite de emisión de factura
@@ -2120,6 +2142,8 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: Letras de cambio y pagarés franceses
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+                - name: Intrastat francés
+                  href: localizations/emea-fra-intrastat.md
                 - name: Códigos NAF y números de siret
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: Configurar códigos NAF y números de siret
@@ -2134,15 +2158,17 @@
                   href: localizations/emea-fra-print-lump-sum-recovery-text.md
                 - name: Depreciación de RB/SL
                   href: localizations/emea-fra-rbsl-depreciation.md
-                - name: Configurar el método de pago
+                - name: Configurar método de pago
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Actualizar el método de pago en el cliente
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: Declaración de IVA
+                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: Informe DAS-2
                   href: localizations/emea-fra-das2-report.md
             - name: Alemania
               items:
-                - name: Información general de Alemania
+                - name: Información general para Alemania
                   href: localizations/germany.md
                 - name: Depreciación de adquisición adicional
                   href: localizations/emea-deu-additional-acquisition-depreciation.md
@@ -2162,17 +2188,21 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Transmisión electrónica de la declaración de IVA (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Intrastat alemán
+                  href: localizations/emea-deu-intrastat.md
                 - name: Declaración de IVA para Alemania
                   href: localizations/emea-de-vat-declaration.md
-                - name: Informe Facturas electrónicas de clientes
+                - name: Informe de facturas electrónicas de clientes
                   href: localizations/emea-deu-e-invoices.md
                 - name: Informe de lista de diarios
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Configurar declaraciones de impuestos electrónicas
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
+                - name: Imprimir una etiqueta independiente para notas de crédito que se originan de las ventas
+                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: Hungría
               items:
-                - name: Información general de Hungría
+                - name: Información general para Hungría
                   href: localizations/hungary.md
                 - name: Cálculo del tipo de cambio promedio y diario
                   href: localizations/emea-hun-average-daily-exchange-rate-calculation.md
@@ -2616,6 +2646,8 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Mejora de la usabilidad de datos bancarios
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: Intrastat italiano
+                  href: localizations/emea-ita-intrastat.md
                 - name: Cargos varios por kilogramo en una declaración de Intrastat
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: 'Cartas de intención: facturación a exportadores habituales'
@@ -2836,9 +2868,11 @@
                   href: localizations/emea-ltu-isaf.md
                 - name: Archivo de auditoría estándar para impuestos (SAF-T) para Lituania
                   href: localizations/emea-ltu-saf-t.md
+                - name: Configurar los documentos de transferencia para el movimiento de mercancías dentro de una empresa
+                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: Malasia
               items:
-                - name: Información general de Malasia
+                - name: Información general para Malasia
                   href: localizations/malaysia.md
                 - name: Generar crédito de cliente para las ventas del proyecto
                   href: localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
@@ -2966,18 +3000,22 @@
                   href: localizations/emea-pol-standard-audit-file-saf.md
                 - name: Gravar interés e interés libre
                   href: localizations/emea-pol-interest-calculation.md
-                - name: Extracto de saldos y facturación
+                - name: Extracto de saldos de facturación
                   href: localizations/emea-pol-turnover-balances-statement.md
-                - name: Repartir diferencia de cambio de proveedores/clientes
+                - name: Dividir diferencia de cambio de proveedores/clientes
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: Configurar y usar códigos PKWiU para Polonia
+                  href: localizations/emea-pol-pkwiu-code.md
                 - name: 'Declaración de IVA con registros (JPK_V7M, VDEK)'
-                  href: localizations/emea-pol-vdek.md
-                - name: Preparar informes JPK-V7M
-                  href: localizations/emea-pol-vdek-setup.md
-                - name: Informes JPK-V7M
-                  href: localizations/emea-pol-vdek-reporting.md
-                - name: Detalles de escenarios comerciales específicos en el informe JPK-V7M
-                  href: localizations/emea-pol-vdek-scenarios.md
+                  items:
+                    - name: 'Información general de declaración de IVA con registros (JPK_V7M, VDEK)'
+                      href: localizations/emea-pol-vdek.md
+                    - name: Prepararse para informes JPK-V7M
+                      href: localizations/emea-pol-vdek-setup.md
+                    - name: Informes JPK-V7M
+                      href: localizations/emea-pol-vdek-reporting.md
+                    - name: Detalles de escenarios comerciales específicos en el informe JPK-V7M
+                      href: localizations/emea-pol-vdek-scenarios.md
             - name: Catar
               items:
                 - name: Información general de Catar
@@ -3196,10 +3234,12 @@
                       href: localizations/rus-dispose-deferrals.md
                     - name: Recuento de aplazamientos
                       href: localizations/rus-counting-deferrals.md
-                    - name: Informes para aplazamientos
+                    - name: Informes de aplazamientos
                       href: localizations/rus-reporting-deferrals.md
                 - name: Contabilidad de impuestos
                   items:
+                    - name: Crear registros fiscales y el diario de registros fiscales
+                      href: localizations/rus-profit-tax-registers.md
                     - name: Códigos de gastos e ingresos
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Registros fiscales de activos
@@ -3214,11 +3254,15 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Reservas de deudas incobrables en clientes
                       href: localizations/rus-bad-debts.md
-                    - name: Cálculo de activos fiscales y deudas tributarias
+                    - name: Registros de cálculo de activos fiscales y deudas tributarias
                       href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
+                    - name: Registros de impuestos sobre el movimiento de mercancías
+                      href: localizations/rus-goods-movement-tax-registers.md
+                    - name: Otros registros fiscales
+                      href: localizations/rus-other-tax-registers.md
             - name: Arabia Saudí
               items:
-                - name: Información general para Arabia Saudí
+                - name: Información general de Arabia Saudí
                   href: localizations/saudi-arabia.md
                 - name: Impuestos
                   href: localizations/apac-sau-sales-tax.md
@@ -3298,14 +3342,12 @@
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: IVA no realizado
                   href: localizations/apac-tha-unrealized-vat.md
-                - name: IVA promedio por transacciones de compra
+                - name: IVA promedio para transacciones de compra
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Dimensiones de subsidiaria fiscal
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Informe de IVA diferido
                   href: localizations/apac-tha-sales-vat-report.md
-                - name: IVA promedio por transacciones de compra
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Retención de impuestos
                   href: localizations/apac-tha-withholding-tax.md
             - name: Emiratos Árabes Unidos (EAU)
