@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc81c7eed4724f9f68b592b23818781e1b047ebf
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 0746b420d770896ee6010c0e5f5fe17d2e6e52bf0b5d10bf831df7901060c983
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739440"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación Finance and Operations
 
@@ -135,7 +135,7 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 <h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
 <p><a href="../../human-resources/hr-admin-overview.md">Guía del administrador</a></p>
 <p><a href="../../human-resources/hr-developer-overview.md">Guía de desarrollador</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Manual del usuario</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Guía del usuario</a></p>
 
 
 </td>
