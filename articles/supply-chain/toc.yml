@@ -72,6 +72,8 @@
                   items:
                     - name: Novedades y cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.21 (octubre de 2021)
+                      href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (junio de 2021)
@@ -236,11 +238,11 @@
                       href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Introducción
                       items:
-                        - name: Comenzar con la administración de servicios de facturación electrónica
+                        - name: Introducción a la administración de servicios de facturación electrónica
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Comenzar con la facturación electrónica
+                        - name: Introducción a la facturación electrónica
                           href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Comenzar la facturación electrónica para Brasil
+                        - name: Introducción a la facturación electrónica para Brasil
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Introducción la facturación electrónica para Egipto
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
@@ -248,7 +250,7 @@
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Configurar la facturación electrónica
                           href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Preguntas más frecuentes sobre la facturación electrónica
+                    - name: Preguntas frecuentes sobre facturación electrónica
                       href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Cálculo de impuestos
                   items:
@@ -1599,11 +1601,13 @@
               items:
                 - name: Información general de la optimización de la planificación
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Introducción a la optimización de la planificación
+                - name: Introducción a Optimización de planificación
                   href: master-planning/planning-optimization/get-started.md
-                - name: Análisis de idoneidad de optimización de la planificación
+                - name: Proceso de lanzamiento de Optimización de planificación e historial de versiones
+                  href: master-planning/planning-optimization/release-process.md
+                - name: Análisis de idoneidad de Optimización de planificación
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Parámetros no utilizados por la optimización de la planificación
+                - name: Parámetros no utilizados por Optimización de planificación
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Aplicar filtros a un plan
                   href: master-planning/planning-optimization/plan-filters.md
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Límites de tiempo de cobertura
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: Requisitos netos e información de diagrama de árbol con Optimización de planificación
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Aprobar pedidos planificados
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Poner en firme pedidos planificados
@@ -1705,10 +1711,12 @@
                   href: master-planning/more-about-dynamic-negative-days.md
                 - name: Crear un plan de empresas vinculadas
                   href: master-planning/tasks/create-intercompany-plan.md
-                - name: Ver la demanda planificada de empresa vinculada saliente
+                - name: Ver la demanda planificada de empresas vinculadas saliente
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Colaborar con clientes de cadena de suministro interna
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+                - name: Requisitos netos e información de diagrama de árbol con planificación integrada
+                  href: master-planning/net-requirements-built-in-master-planning.md
             - name: Previsión
               items:
                 - name: Previsión de demanda y suministro
@@ -1961,15 +1969,17 @@
                   href: procurement/purchase-requisitions-overview.md
                 - name: Flujo de trabajo de solicitudes de compra
                   href: procurement/purchase-requisitions-workflow.md
-            - name: Solicitud de presupuestos
+            - name: Solicitud de presupuestos (RFQ)
               items:
-                - name: Información general de las solicitudes de presupuestos
+                - name: Información general de solicitudes de presupuestos (RFQ)
                   href: procurement/request-quotations.md
                 - name: Crear una solicitud de presupuesto
                   href: procurement/tasks/create-request-quotation.md
+                - name: Oferta cerrada para solicitudes de presupuesto
+                  href: procurement/sealed-bidding.md
                 - name: Crear una solicitud que utilice una solicitud de presupuesto
                   href: procurement/tasks/create-requisition-uses-rfq.md
-                - name: Crear un método de puntuación para solicitudes de presupuesto
+                - name: Crear un método de puntuación para solicitudes de presupuestos
                   href: procurement/tasks/create-scoring-method-rfqs.md
                 - name: Crear tipos de solicitud y criterios de puntuación para solicitudes de presupuesto
                   href: procurement/tasks/create-solicitation-types-scoring-criteria-rfqs.md
@@ -2281,6 +2291,8 @@
               href: engineering-change-management/product-readiness.md
             - name: Liberar estructura de producto
               href: engineering-change-management/release-product-structure.md
+            - name: Generar variantes de productos de ingeniería
+              href: engineering-change-management/engineering-variants.md
             - name: Preguntas frecuentes sobre la administración de cambios de ingeniería
               href: engineering-change-management/change-management-faq.md
         - name: Control de producción
@@ -2603,6 +2615,8 @@
               href: rebate-management/rebate-management-overview.md
             - name: Instalar y configurar el módulo de gestión de devoluciones
               items:
+                - name: Activar el módulo de gestión de devoluciones para el sistema
+                  href: rebate-management/rebate-management-enable.md
                 - name: Parámetros de gestión de devoluciones
                   href: rebate-management/rebate-management-parameters.md
                 - name: Flujos de trabajo de acuerdos de gestión de devoluciones
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: 'Procesar, revisar y registrar devoluciones'
               href: rebate-management/process-review-post.md
+            - name: Gestionar las deducciones utilizando el banco de trabajo de deducciones
+              href: rebate-management/deduction-workbench.md
         - name: Ventas y marketing
           items:
             - name: Información general de ventas y marketing
@@ -3057,6 +3073,8 @@
               href: landed-cost/in-transit-processing.md
             - name: Procesar transacciones por encima/por debajo
               href: landed-cost/over-under-transactions.md
+            - name: Seguimiento de actualización para colocación
+              href: landed-cost/update-tracking-putaway.md
             - name: Consultas de costes en destino
               href: landed-cost/landed-cost-inquiries.md
             - name: Informes de costes en destino
@@ -3111,12 +3129,14 @@
                       href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Picking y embalaje
                   items:
-                    - name: Configurar picking de clústeres
+                    - name: Configurar selección de clústeres
                       href: warehousing/set-up-cluster-picking.md
                     - name: Posición completa del clúster
                       href: warehousing/cluster-position-full.md
-                    - name: Picking de clústeres dirigidos por el sistema
+                    - name: Selección de clústeres dirigida por el sistema
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Selección en exceso de pedidos de ventas y pedidos de transferencia
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Establecer diferentes dimensiones para embalaje y almacenamiento
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: Confirmación de lote y matrícula
@@ -3509,6 +3529,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gestión de almacenes
               items:
+                - name: No puede confirmar un envío porque el cliente está en espera
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: No puede confirmar un envío porque las líneas de carga tienen una cantidad cero
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: No se puede actualizar una línea de carga porque la cantidad liberada sería negativa
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
                 - name: Los recibos de productos cancelados no actualizan el estado de las transacciones a registrado
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: El redondeo decimal de la cantidad de actualización física es incorrecto
