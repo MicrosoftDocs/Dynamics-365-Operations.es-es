@@ -1,8 +1,8 @@
 ---
 title: Preguntas frecuentes sobre informes financieros
-description: En este tema se proporcionan respuestas a algunas de las preguntas más frecuentes sobre los informes financieros.
+description: En este tema se proporcionan respuestas a algunas de las preguntas frecuentes sobre los informes financieros.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266642"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733620"
 ---
 # <a name="financial-reporting-faq"></a>Preguntas frecuentes sobre informes financieros
 
-En este tema se proporcionan respuestas a las preguntas más frecuentes sobre los informes financieros.
+En este tema se proporcionan respuestas a las preguntas frecuentes sobre los informes financieros.
 
 ## <a name="how-do-i-restrict-access-to-a-report-by-using-tree-security"></a>¿Cómo puedo restringir el acceso a un informe mediante seguridad de árbol?
 
@@ -76,6 +76,30 @@ Ahora debería poder copiar los datos desde el informe de Excel de Financial Rep
 El mensaje indica que se produjo un problema cuando el sistema intentó recuperar metadatos financieros del data mart mientras usaba Financial Reporting. Hay dos formas de responder a este problema:
 
 - Revise el estado de integración de los datos yendo a **Herramientas \> Estado de integración** en Report Designer. Si la integración está incompleta, espere a que se complete. Luego, vuelva a intentar lo que estaba haciendo cuando recibió el mensaje.
-- Póngase en contacto con el servicio de asistencia para identificar y solucionar el problema. Puede haber datos incoherentes en el sistema. Los ingenieros de soporte pueden ayudarle a identificar ese problema en el servidor y encontrar datos específicos que pueden requerir una actualización.
+- Póngase en contacto con el servicio de asistencia para identificar y solucionar el problema. Puede haber datos incoherentes en el sistema. Los ingenieros de soporte pueden ayudarle a identificar ese problema del servidor y encontrar datos específicos que pueden requerir una actualización.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>¿Cómo afecta la selección de conversión del tipo histórico al rendimiento del informe?
+
+El tipo histórico se usa típicamente con ganancias retenidas, propiedades, plantas y equipos y cuentas de recursos propios. Es posible que se requiera el tipo histórico, según las pautas del Consejo de Normas de Contabilidad Financiera (FASB) o los principios de contabilidad generalmente aceptados (GAAP). Para más información, consulte [Capacidades monetarias en los informes financieros](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>¿Cuántos tipos de cambio existen?
+
+Existen tres tipos:
+
+- **Tipo actual**: este tipo se utiliza normalmente con cuentas del balance de situación. Suele conocerse como *tipo de cambio actual* y puede ser el tipo del último día del mes u otra fecha predeterminada.
+- **Tasa promedio**: este tipo se utiliza normalmente con las cuentas de la cuenta de resultados (pérdidas/ganancias). Puede configurar la tasa promedio para realizar un promedio simple o un promedio ponderado.
+- **Tipo histórico**: este tipo se usa típicamente con ganancias retenidas, propiedades, plantas y equipos y cuentas de recursos propios. Estas cuentas pueden ser necesarias, según las directrices de FASB o GAAP.
+
+## <a name="how-does-historical-currency-translation-work"></a>¿Cómo funciona la conversión de divisa histórica?
+
+Los tipos son específicos de la fecha de transacción. Por lo tanto, cada transacción se convierte individualmente, basándose en el tipo de cambio más próximo.
+
+Para la conversión de divisa histórica, se pueden usar los saldos del período precalculados en lugar de los detalles de transacciones individuales. Este comportamiento difiere del de la tasa de conversión actual.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>¿Cómo afecta la conversión de divisa histórica al rendimiento?
+
+Cuando se actualizan los datos que se presentan en los informes, puede haber una demora porque los importes deben recalcularse comprobando los detalles de las transacciones. Este retraso se desencadena cada vez que se actualizan las tarifas o se registran más transacciones. Por ejemplo, si se configuran miles de cuentas para la conversión histórica un par de veces al día, puede haber una demora de hasta una hora hasta que se actualicen los datos del informe. Por otro lado, si hay un número menor de cuentas específicas, los tiempos de procesamiento de las actualizaciones de los datos del informe se pueden reducir a minutos, o incluso menos.
+
+Del mismo modo, cuando los informes se generan utilizando la conversión de moneda para cuentas de tipo histórico, habrá cálculos adicionales por cada transacción. Dependiendo del número de cuentas, el tiempo de generación de los informes puede llegar a ser más del doble.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
