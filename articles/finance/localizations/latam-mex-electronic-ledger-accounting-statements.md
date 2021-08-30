@@ -15,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fcf3684ccbb1c51d09d4bd4ee082fe7b6a0cc35
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3aa934b6e6cd6535a54d9b29704727c1aefeefb6e7aa11c07f7fd38da6a30375
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778098"
 ---
 # <a name="electronic-ledger-accounting-statements"></a>Extractos electrónicos de cuenta contable
 

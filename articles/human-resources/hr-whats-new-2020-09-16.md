@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b1386cca9fd39c2cf021e87fcc33da2bbda89630
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e135af7670e24fb9c988b99b6ea7bd5cdede12e43754cda3fc0fa2f158280d22
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723632"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (16 de septiembre de 2020)
 

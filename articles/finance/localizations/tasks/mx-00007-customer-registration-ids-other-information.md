@@ -13,12 +13,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e314f6bb6b1acebbc5648052228a2e34ee01a449
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d460721d798b06c8253b9c9be3993948560eb8afd9a179b7af70d58a0722bbf3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760600"
 ---
 # <a name="mx-00007-customer-registration-ids-and-other-information"></a>MX-00007 Id. de registro del cliente y otra información
 

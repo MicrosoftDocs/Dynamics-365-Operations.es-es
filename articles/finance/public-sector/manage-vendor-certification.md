@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b6e4194a4b3463476a32679ff11b35affc131faa
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 932b8bc2982a7c38404ff4203fce7fb65c1182d4490d2aad5a6d78fd809ec768
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736121"
 ---
 # <a name="maintain-vendor-certification"></a>Mantener la certificación de proveedores
 
@@ -23,13 +23,20 @@ ms.locfileid: "6270513"
 
 Este tema describe los pasos que sus proveedores pueden seguir para mantener sus certificaciones mediante el **Espacio de trabajo de colaboración de proveedores**. Los ejemplos de certificaciones pueden incluir una empresa de negocios de mujeres (WBE) o una empresa de liderazgo en energía y diseño ambiental (LEED). Los proveedores deberán introducir la información de certificación en el espacio de trabajo **Informacion del proveedor**. A partir de ahí, los proveedores seleccionarán **Más detalles** y luego seleccionarán **Certificaciones**.
 
+## <a name="turn-on-the-vendor-certification-feature"></a>Activar la función de certificación de proveedores
+
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+
+- **Módulo** - *Proveedores*
+- **Nombre de la función** - *Activar la gestión de certificación de colaboración de proveedores*
+
 ## <a name="add-a-new-certification"></a>Agregar una nueva certificación
 
 Para agregar una nueva certificación, seleccione el botón **Agregar** que se encuentra encima de la cuadrícula **Certificación** del espacio de trabajo **Informacion del proveedor**. Especifique la siguiente información:
- 
+
 - Número de certificación
 - Tipo de certificación
-- Organización certificadora 
+- Organización certificadora
 - Fecha de certificación
 - Montante de responsabilidad, si corresponde
 - Fecha desde
@@ -42,9 +49,9 @@ A las certificaciones que introduzcan sus proveedores en esta página se les asi
 
 Los proveedores pueden editar o eliminar sus certificaciones según sea necesario.
 
-## <a name="vendor-collaboration-generated-certification-records"></a>Registros de certificación generados por la colaboración de proveedor 
- 
+## <a name="vendor-collaboration-generated-certification-records"></a>Registros de certificación generados por la colaboración de proveedor
+
 Después de que un proveedor haya agregado la información de certificación, dicha información será visible en la página **Certificaciones generadas por la colaboración de proveedor**. Para abrir la página, vaya a **Proveedores > Consultas > Informes de proveedores > Certificaciones generadas por la colaboración de proveedor**. De forma predeterminada, todos los registros de certificación nuevos o modificados están visibles. Un contable de proveedores puede ver los cambios y validar la información a través de su proceso de confirmación para validar. Cuando se haya confirmado la información, el registro de certificación que figura en la página se puede seleccionar y marcar como revisado. Marcar el registro como revisado lo eliminará de la lista predeterminada.
- 
-Todos los cambios de certificación son visibles en la página **Certificaciones generadas por la colaboración de proveedor**. Si un cambio no se muestra en la página, puede verlo ajustando los filtros para la cuenta del proveedor, el período de fecha de vigencia o eligiendo si incluir información para los cambios de certificación que se han revisado. 
+
+Todos los cambios de certificación son visibles en la página **Certificaciones generadas por la colaboración de proveedor**. Si un cambio no se muestra en la página, puede verlo ajustando los filtros para la cuenta del proveedor, el período de fecha de vigencia o eligiendo si incluir información para los cambios de certificación que se han revisado.
 

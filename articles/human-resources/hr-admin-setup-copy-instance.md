@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740848"
 ---
 # <a name="copy-an-instance"></a>Copiar una instancia
 
@@ -52,9 +52,9 @@ Los siguientes eventos ocurren cuando copia una base de datos de Human Resources
 
 - Los documentos de almacenamiento en blobs de Microsoft Azure no se copian de un entorno a otro. Como resultado, los documentos y plantillas que se adjunten no se copiarán y permanecerán en el entorno de origen.
 
-- Se deshabilitarán todos los usuarios, excepto el usuario Admin, y otras cuentas de usuario de servicio interno no estarán disponibles. El usuario administrador puede eliminar u ofuscar datos antes de permitir que otros usuarios vuelvan al sistema.
+- Todos los usuarios, excepto aquellos con el rol de seguridad "Administrador del sistema" y otras cuentas de usuario de servicios internos, no estarán disponibles. El usuario administrador puede eliminar u ofuscar datos antes de permitir que otros usuarios vuelvan al sistema.
 
-- El usuario administrador debe realizar los cambios de configuración necesarios, como volver a conectar los puntos finales de integración a servicios o URL específicos.
+- Los usuarios con el rol de seguridad "Administrador del sistema" deben realizar los cambios de configuración necesarios, como volver a conectar los puntos finales de integración a servicios o URL específicos.
 
 ## <a name="copy-the-human-resources-database"></a>Copiar la base de datos de Human Resources
 
@@ -71,11 +71,11 @@ Para completar esta tarea, primero copie una instancia y luego inicie sesión en
 
 4. En el panel de tareas **Copiar una instancia**, seleccione la instancia para sobrescribir y luego seleccione **Copiar**. Espere a que el valor del campo **Estado de copia** se actualice a **Terminado**.
 
-   ![[Seleccionar la instancia para sobrescribir.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Seleccione la instancia que desea sobrescribir.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Seleccione **Power Platform** e inicie sesión en el Centro de administración de Microsoft Power Platform.
 
-   ![[Seleccionar Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Seleccione Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Seleccione el entorno de Power Apps para copiar y luego seleccione **Copiar**.
 
@@ -111,7 +111,7 @@ Algunos de estos elementos no se copian porque son específicos del entorno. Alg
 
 Por otra parte, los siguientes estados cambian cuando copia una instancia:
 
-- Todos los usuarios, excepto el administrador, están establecidos en **Deshabilitado**.
+- Todos los usuarios, salvo aquellos con el rol de seguridad "Administrador del sistema", están establecidos en **Desactivado**.
 
 - Todos los trabajos por lotes, excepto algunos trabajos del sistema, están configurados como **Retener**.
 

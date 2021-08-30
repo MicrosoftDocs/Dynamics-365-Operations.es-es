@@ -2,7 +2,7 @@
 title: Módulo de tarjeta de regalo
 description: En este tema se tratan los módulos de tarjeta regalo y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728348"
 ---
 # <a name="gift-card-module"></a>Módulo de tarjeta de regalo
 
@@ -48,11 +48,17 @@ La siguiente imagen muestra un ejemplo de un módulo de tarjeta regalo en una p�
 
 - **Mostrar campos adicionales**: esta propiedad define qué campos se deben mostrar para las tarjetas de regalo, además del número de la tarjeta regalo, que siempre se muestra de forma predeterminada. Por ejemplo, algunas tarjetas de regalo admiten mostrar un número de identificación personal (PIN), y otras admiten mostrar un PIN y una fecha de vencimiento. Alternativamente, esta propiedad podría establecerse en "Ninguno", que solo mostraría el número de la tarjeta de regalo y ningún campo adicional.
 
-Valores admitidos:
--   PIN
--   Fecha de caducidad
--   PIN y fecha de vencimiento 
--   None
+    Se admiten los siguientes valores:
+
+    - PIN
+    - Fecha de expiración
+    - PIN y fecha de vencimiento 
+    - None
+
+- **Habilitar para usuarios invitados**: cuando esta propiedad está habilitada, los usuarios invitados pueden canjear o consultar los saldos de las tarjetas regalo. Esta propiedad requiere que el acceso anónimo (invitado) para las tarjetas regalo esté habilitado en la sede central de Commerce. Para obtener más información, consulte [Habilitar pagos con tarjeta regalo para la finalización de compra de invitados](#enable-gift-card-payments-for-guest-checkout).
+
+> [!IMPORTANT]
+> La propiedad **Habilitar para usuarios invitados** está disponible a partir de la versión 10.0.21 de Commerce. Requiere que esté instalada la versión 9.31 del paquete de la biblioteca de módulos de Commerce.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Configuración del sitio para módulos de tarjetas de regalo
 

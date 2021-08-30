@@ -13,12 +13,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dce90258422ea90d7ff8fd4e9ac5ba33b4e8836
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 81912f9d888d4c551d23b0ced90680a530188602155d2ec066d8b6b6de69cd40
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744264"
 ---
 # <a name="mx-00020-set-up-the-chart-of-accounts-for-a-legal-entity-in-mexico"></a>MX-00020 Configuración del plan de cuentas para una entidad jurídica en México
 

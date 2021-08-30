@@ -2,7 +2,7 @@
 title: Crear plantillas de correo electrónico para eventos transaccionales
 description: Este tema describe cómo crear, cargar y configurar plantillas de correo electrónico para eventos transaccionales en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bfc773bec035ceee151e2e2dd8925aa772747452
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2da1044cd332d841a8c18f7139d0d8c09bad95f446494034060e59416b4018b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718716"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Crear plantillas de correo electrónico para eventos transaccionales
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo crear, cargar y configurar plantillas de correo electrónico para eventos transaccionales en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Dynamics 365 Commerce proporciona una solución inmediata para enviar correos electrónicos que alertan a los clientes sobre eventos transaccionales (por ejemplo, cuando se realiza un pedido, un pedido está listo para ser recogido o se ha enviado un pedido). Este tema describe los pasos para crear, cargar y configurar las plantillas de correo electrónico que se utilizan para enviar correos electrónicos transaccionales.
 
@@ -79,26 +77,33 @@ Los siguientes marcadores de posición recuperan y muestran datos definidos en e
 | Nombre de marcador de posición     | Valor de marcador de posición                                            |
 | -------------------- | ------------------------------------------------------------ |
 | customername         | El nombre del cliente que hizo el pedido.               |
-| salesid              | El id. de ventas del pedido.                                   |
-| deliveryaddress      | Dirección de entrega de los pedidos enviados.                     |
 | customeraddress      | Dirección del cliente.                                 |
 | customeremailaddress | La dirección de correo electrónico que el cliente introdujo al finalizar la compra.     |
+| salesid              | El id. de ventas del pedido.                                   |
+| orderconfirmationid  | Id. de canal cruzado que se generó en la creación del pedido. |
+| channelid            | Id. del canal minorista o en línea a través del cual se realizó el pedido. |
+| deliveryname         | Nombre que se especifica para la dirección de entrega.        |
+| deliveryaddress      | Dirección de entrega de los pedidos enviados.                     |
 | deliverydate         | Fecha de entrega.                                           |
 | shipdate             | Fecha de envío.                                               |
 | modeofdelivery       | Modo de entrega del pedido.                              |
+| ordernetamount       | Importe total del pedido, menos los impuestos totales.         |
+| descuento             | Descuento total del pedido.                            |
 | gastos              | Cargos totales del pedido.                             |
 | impuesto                  | Impuestos totales del pedido.                                 |
 | total                | Importe total del pedido.                              |
-| ordernetamount       | Importe total del pedido, menos los impuestos totales.         |
-| descuento             | Descuento total del pedido.                            |
 | storename            | Nombre de la tienda en que se hizo el pedido.            |
 | storeaddress         | Dirección de la tienda que hizo el pedido.              |
 | storeopenfrom        | Hora de apertura de la tienda que hizo el pedido.         |
 | storeopento          | Hora de cierre de la tienda que hizo el pedido.         |
-| pickupstorename      | Nombre de la tienda en la que se recogerá el pedido.     |
-| pickupstoreaddress   | Dirección de la tienda en la que se recogerá el pedido.  |
-| pickupopenstorefrom  | Hora de apertura de la tienda en la que se recogerá el pedido. |
-| pickupopenstoreto    | Hora de cierre de la tienda en la que se recogerá el pedido. |
+| pickupstorename      | Nombre de la tienda en la que se recogerá el pedido.\* |
+| pickupstoreaddress   | Dirección de la tienda en la que se recogerá el pedido.\* |
+| pickupopenstorefrom  | Hora de apertura de la tienda en la que se recogerá el pedido.\* |
+| pickupopenstoreto    | Hora de cierre de la tienda en la que se recogerá el pedido.\* |
+| pickupchannelid      | Id. de canal de la tienda que se especifica para un modo de entrega de recogida.\* |
+| packingslipid        | Id. del albarán que se generó cuando se empaquetaron las líneas de un pedido.\* |
+
+\* Estos marcadores de posición devuelven datos solo cuando se utilizan para el tipo de notificaicón **Pedido listo para recoger**. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Marcadores de posición de línea (nivel de línea de ventas)
 
@@ -106,7 +111,10 @@ Los siguientes marcadores de posición recuperan y muestran datos de productos i
 
 | Nombre de marcador de posición               | Valor de marcador de posición |
 |--------------------------------|-------------------|
-| productid                      | Id. del producto para la línea. |
+| productid                      | <p>El id. del producto. Este id. tiene en cuenta las variantes.</p><p><strong>Nota:</strong> este marcador de posición ha quedado en desuso en favor de **lineproductrecid**.</p> |
+| lineproductrecid               | El id. del producto. Este id. tiene en cuenta las variantes. Identifica de forma única un artículo en el nivel de variante. |
+| lineitemid                     | Id. de nivel de producto del producto. (Este id. tiene en cuenta las variantes.) |
+| lineproductvariantid           | El id. de la variante del producto. |
 | lineproductname                | El nombre del producto. |
 | lineproductdescription         | Descripción del producto. |
 | linequantity                   | Número de unidades que se pidieron para la línea, más la unidad de medida (por ejemplo, **ea** o **par**). |
@@ -125,6 +133,8 @@ Los siguientes marcadores de posición recuperan y muestran datos de productos i
 | linedeliverydate               | Fecha de entrega para la línea. |
 | linedeliverymode               | Modo de entrega para la línea. |
 | linedeliveryaddress            | Dirección de entrega para la línea. |
+| linepickupdate                 | Fecha de recogida que especificó el cliente, para pedidos que utilizan un modo de recogida de entrega. |
+| linepickuptimeslot             | Intervalo de tiempo de recogida que especificó el cliente, para pedidos que utilizan un modo de recogida de entrega. |
 | giftcardnumber                 | Número de la tarjeta regalo, para productos del tipo de tarjeta regalo. |
 | giftcardbalance                | Saldo de la tarjeta regalo, para productos del tipo de tarjeta regalo. |
 | giftcardmessage                | Mensaje de la tarjeta regalo, para productos del tipo de tarjeta regalo. |

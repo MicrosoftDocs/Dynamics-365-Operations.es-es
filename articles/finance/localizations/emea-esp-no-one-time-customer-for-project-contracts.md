@@ -14,12 +14,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 446396ad344b822f1aa36e5fd7b4410578b53edb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1477d108a6cd70c4c86c25b524f4befc95062eb84be75d77caa16615ac9ef67f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741496"
 ---
 # <a name="one-time-customers"></a>Clientes plantilla
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e48b0694418710322957de811952e12da22b0509
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 615d18865be20bfdce76d1f39ea73b220c171a8794c01b1ddfe11496fc2a658b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055398"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761911"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Novedades o cambios en Dynamics 365 Human Resources (23 de julio de 2020)
 

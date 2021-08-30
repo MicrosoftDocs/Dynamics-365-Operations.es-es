@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2321c78ba50ba0bfc996e8bd4e96cfbd0843ec45
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 91d5b7077b033514f699c0393ec151d82dae5bf2551546c7371cb934273310e9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769304"
 ---
 # <a name="manage-assortments-november-2016"></a>Gestionar surtidos (noviembre de 2016)
 
@@ -42,7 +42,7 @@ Este procedimiento demuestra cómo crear y publicar un nuevo surtido de producto
 8. Haga clic en Agregar línea.
 9. En el árbol, seleccione "Contoso Retail\Electronics\Boston".
 10. Haga clic en Agregar.
-11. Haga clic en Aceptar
+11. Haga clic en Aceptar.
 12. Expanda la sección Productos.
 13. Haga clic en Agregar línea.
 14. En el campo Categoría, especifique o seleccione un valor.

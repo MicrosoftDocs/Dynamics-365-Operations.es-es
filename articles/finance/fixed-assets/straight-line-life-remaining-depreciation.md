@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd7bc6d773d85a1ba02151b96bf80f970845d4a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b4c150b779ab3ea98ff3390b0dca5a7e7d892ba40a60d350f3a721e0d4e6ca3e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733014"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Tiempo de vida restante de depreciación lineal
 
@@ -35,7 +35,7 @@ Puede seleccionar **Calendario** o **Fiscal** en el campo **Año de depreciació
 
 ### <a name="calendar"></a>Calendario
 
-Si selecciona **Calendario** en el campo **_Año de depreciación_*, se supone un año del 1 de enero al 31 de diciembre, incluso si ha definido el calendario fiscal de otra manera. La opción* Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
+Si selecciona **Calendario** en el campo **_Año de depreciación_*_, se supone un año del 1 de enero al 31 de diciembre, incluso si ha definido el calendario fiscal de otra manera. La opción* Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
 -   **Anual** registra un importe el 31 de diciembre.
 -   **Mensual** registra un importe mensual al final de cada mes del calendario.

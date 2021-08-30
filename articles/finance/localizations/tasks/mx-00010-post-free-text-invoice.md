@@ -13,12 +13,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6de36f6269870fc3d2479291ba27a1ede33a906
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ea22d9836645aed68a98b4cb2ffda11989fc6db4fdf07d45554365817feaa1a7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814906"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762036"
 ---
 # <a name="mx-00010-post-a-free-text-invoice"></a>MX-00010 Registrar una factura de servicio
 

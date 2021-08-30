@@ -3,7 +3,6 @@ title: Función PADLEFT de ER
 description: En este tema se proporciona información sobre cómo usar la función PADLEFT de informes electrónicos (ER).
 author: NickSelin
 ms.date: 12/10/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 806b1d318f18b0ade01f7b03909c90b1e4fd29b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a45333b8160a42063de8000ab27ea23136eb75ee7b55162b4602a5f3c52550de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746252"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770053"
 ---
 # <a name="padleft-er-function"></a>Función PADLEFT de ER
 

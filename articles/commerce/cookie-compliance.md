@@ -2,7 +2,7 @@
 title: Cumplimiento de cookies
 description: Este tema describe consideraciones para el cumplimiento de cookies y las políticas predeterminadas que se incluyen en Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/01/2021
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747706"
 ---
 # <a name="cookie-compliance"></a>Cumplimiento de cookies
 
@@ -54,6 +54,10 @@ La siguiente tabla muestra la lista de referencia actual de cookies colocadas po
 | \_msdyn365___muid_                            | Se utiliza si la experimentación está activada para el entorno usado como id. de usuario con fines de experimentación. | 1 año |
 | \_msdyn365___exp_                             | Se utiliza si la experimentación está activada para el medio ambiente; utilizado para medir el rendimiento del equilibrio de carga.         | 1 hora |
 | d365mkt                                       | Se usa si la detección basada en la ubicación para rastrear la dirección IP de un usuario para sugerencias de ubicación de la tienda está habilitada en el creador de sitios de Commerce en **Configuración del sitio \> General \> Habilitar la detección de tiendas basada en la ubicación**.      | 1 hora |
+| \_msdyn365___tuid_                           | Se usa solo si la experimentación se activa para un entorno; genera un GUID que sirve como identificador de usuario. El valor cambiará si el estado de inicio de sesión de un usuario cambia.      | 1 año |
+| \_msdyn365___aud_0                          | Almacena los valores de segmento utilizados por la segmentación y solo se emplea si la segmentación está configurada en una página o un fragmento solicitado por un usuario del sitio. La cookie se coloca solo cuando los valores del segmento proceden de un proveedor de segmentación externo.      | 7 días |
+| \_msdyn365___aud_1                           | Almacena los valores de segmento utilizados por la segmentación y solo se emplea si la segmentación está configurada en una página o un fragmento solicitado por un usuario del sitio. La cookie se coloca solo cuando los valores del segmento proceden de un proveedor de segmentación externo.      | 7 días |
+| \_msdyn365___aud_2                           | Almacena los valores de segmento utilizados por la segmentación y solo se emplea si la segmentación está configurada en una página o un fragmento solicitado por un usuario del sitio. La cookie se coloca solo cuando los valores del segmento proceden de un proveedor de segmentación externo.      | 7 días |
 
 Si un usuario del sitio selecciona cualquier enlace de redes sociales dentro de un sitio, las cookies de la siguiente tabla también se rastrearán en su navegador.
 

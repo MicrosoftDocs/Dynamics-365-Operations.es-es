@@ -2,7 +2,7 @@
 title: Pedidos de clientes en el punto de venta (PDV)
 description: Este tema proporciona información sobre los pedidos de clientes en el punto de venta (PDV). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados.
 author: josaw1
-ms.date: 01/06/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755092"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pedidos de clientes en el punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona información sobre cómo crear y administrar pedidos de clientes en el punto de venta (PDV). Los pedidos de los clientes se pueden utilizar para capturar las ventas en las que los compradores desean recoger productos en una fecha posterior, recoger productos de una ubicación diferente o que se les envían artículos. 
+Este tema proporciona información sobre cómo crear y administrar pedidos de clientes en la aplicación de punto de venta (PDV). Los pedidos de los clientes se pueden utilizar para capturar las ventas en las que los compradores desean recoger productos en una fecha posterior, recoger productos de una ubicación diferente o que se les envían artículos. 
 
 En un mundo de comercio onmicanal, muchos minoristas ofrecen la opción de pedidos de cliente, o pedidos especiales, para cumplir diferentes requisitos de producto y de cumplimiento. Aquí hay algunas situaciones habituales:
 
@@ -132,6 +132,10 @@ Los pedidos minoristas que se crean en el canal en línea o en la tienda se pued
 > [!IMPORTANT]
 > No todos los pedidos minoristas se pueden editar a través de la aplicación PDV. Los pedidos que se crean en un canal de centro de llamadas no se pueden editar a través del PDV si el valor de configuración [Habilitar la finalización del pedido](./set-up-order-processing-options.md#enable-order-completion) está activado para el canal del centro de llamadas. Para garantizar un procesamiento de pago correcto, los pedidos que se originaron en un canal de centro de llamadas y que utilizan la función Habilitar finalización de pedidos deben editarse a través de la aplicación del centro de llamadas en la central de Commerce.
 
+> [!NOTE]
+> Le recomendamos que no edite en el PDV pedidos y presupuestos creados por un usuario que no sea del centro de llamadas en la sede central de Commerce. Esos pedidos y presupuestos no utilizan el motor de precios de Commerce, por lo que si se editan en el PDV, el motor de precios de Commerce volverá a asignarles precio.
+
+
 En la versión 10.0.17 y posteriores, los usuarios pueden editar los pedidos aptos a través de la aplicación PDV, incluso si el pedido se ha cumplimentado parcialmente. Sin embargo, los pedidos que se facturan en su totalidad aún no se pueden editar a través de PDV. Para habilitar esta capacidad, active la característica **Editar pedidos parcialmente cumplimentados en el punto de venta**, en el espacio de trabajo **Administración de características**. Si esta función no está habilitada, o si está utilizando la versión 10.0.16 o anterior, los usuarios solo podrán editar los pedidos de los clientes en PDV si el pedido está completamente abierto. Además, si la característica está habilitada, puede limitar las tiendas que pueden editar pedidos parcialmente cumplimentados. La opción para deshabilitar esta capacidad para tiendas específicas se puede configurar a través del **Perfil de funcionalidad** en la ficha desplegable **General**.
 
 
@@ -142,7 +146,23 @@ En la versión 10.0.17 y posteriores, los usuarios pueden editar los pedidos apt
 5. Complete el proceso de edición seleccionando una operación de pago.
 6. Para salir del proceso de edición sin guardar ningún cambio, puede utilizar la operación **Anular transacción**.
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Impacto en los precios cuando se editan pedidos
 
+Cuando los pedidos se realizan en PDV o en un sitio de comercio electrónico de Commerce, los clientes se comprometen a pagar un importe. Este importe incluye un precio y también puede incluir un descuento. Un cliente que realice un pedido y luego se ponga en contacto con el centro de llamadas para modificar ese pedido (por ejemplo, para agregar otro artículo) tendrá determinadas expectativas sobre la aplicación de descuentos. Incluso si las promociones en las líneas de pedido existentes han caducado, el cliente esperará que los descuentos que se aplicaron originalmente a esas líneas sigan vigentes. Sin embargo, si no había ningún descuento vigente cuando se realizó el pedido originalmente, pero ha entrado en vigor un descuento desde entonces, el cliente esperará que el nuevo descuento se aplique al pedido modificado. De lo contrario, el cliente podría cancelar el pedido existente y crear uno nuevo al que se aplique el nuevo descuento. Como muestra este escenario, se deben mantener los precios y descuentos que se hayan acordado con los clientes. Al mismo tiempo, los usuarios de PDV y del centro de llamadas deben tener la flexibilidad de volver a calcular los precios y los descuentos para las líneas de los pedido de ventas según sea necesario.
+
+Cuando los pedidos se recuperan y editan en PDV, los precios y descuentos de las líneas de pedido existentes se consideran "bloqueados". Es decir, no cambian, incluso aunque se cancelen o cambien algunas líneas de pedido, o se agreguen líneas de pedido nuevas. Para cambiar los precios y descuentos de las líneas de pedidos de ventas existentes, el usuario de PDV debe seleccionar **Recalcular**. Entonces, se elimina el bloqueo de precio de las líneas de pedido existentes. Sin embargo, antes del lanzamiento de la versión 10.0.21 de Commerce, esta funcionalidad no estaba disponible en el centro de llamadas. Cualquier cambio en las líneas de pedido hacía que se volvieran a calcular los precios y descuentos.
+
+En la versión 10.0.21 de Commerce, hay disponible una nueva función denominada **Impedir cálculo de precios no intencionado para pedidos de comercio electrónico** en el espacio de trabajo **Administración de características**. Esta función está activada de forma predeterminada. Cuando se activa, hay disponible una nueva propiedad **Precio bloqueado** para todos los pedidos de comercio electrónico. Una vez que se terminan de capturar los pedidos realizados desde cualquier canal, esta propiedad se habilita automáticamente (es decir, se activa la casilla) para todas las líneas de pedido. El motor de precios de Commerce excluye entonces esas líneas de pedido de todos los cálculos de precios y descuentos. Por tanto, si se edita el pedido, las líneas del pedido se excluirán del cálculo de precios y descuentos de forma predeterminada. Sin embargo, los usuarios del centro de llamadas pueden deshabilitar la propiedad (es decir, desactivar la casilla) para cualquier línea de pedido y luego seleccionar **Recalcular** para incluir las líneas de pedido existentes en los cálculos de precios.
+
+Incluso cuando están aplicando un descuento manual a una línea de ventas existente, los usuarios del centro de llamadas deben deshabilitar la propiedad **Precio bloqueado** de la línea de ventas antes de aplicar el descuento manual.
+
+Los usuarios del centro de llamadas también pueden deshabilitar la propiedad **Precio bloqueado** para líneas de pedido de forma masiva seleccionando **Quitar bloqueo de precio** en el grupo **Calcular** de la pestaña **Vender** en el panel de acciones de la página **Pedido de ventas**. En este caso, el bloqueo de precio se quita de todas las líneas de pedido, excepto de las líneas que no son editables (es decir, de las líneas cuyo estado es **Facturado parcialmente** o **Facturado**). Después, una vez que los cambios al pedido se completan y se han enviado, el bloqueo de precio se vuelve a aplicar a todas las líneas de pedido.
+
+> [!IMPORTANT]
+> Cuando la función **Impedir cálculo de precios no intencionado para pedidos de comercio electrónico** está activada, la configuración de la evaluación del acuerdo comercial se pasará por alto en los flujos de trabajo de precios. Es decir, los cuadros de diálogo de evaluación de acuerdos comerciales no mostrarán la sección **Relacionado con el precio**. Este comportamiento se produce porque tanto la configuración de evaluación del acuerdo comercial como la función de bloqueo de precios tienen un propósito similar: evitar cambios de precios no intencionados. Sin embargo, la experiencia del usuario para la evaluación de acuerdos comerciales no se adapta bien a los pedidos grandes en los que los usuarios deben seleccionar una o más líneas de pedido para cambiar el precio.
+
+> [!NOTE]
+> La propiedad **Precio bloqueado** solo se puede deshabilitar para una o más líneas seleccionadas cuando se utiliza el módulo **Centro de llamadas**. El comportamiento de PDV se mantiene sin cambios. Es decir, el usuario de PDV no puede desbloquear los precios de las líneas de pedido seleccionadas. Sin embargo, pueden seleccionar **Recalcular** para quitar el bloqueo de precio de todas las líneas de pedido existentes.
 
 ### <a name="cancel-a-customer-order"></a>Cancelar un pedido de cliente
 

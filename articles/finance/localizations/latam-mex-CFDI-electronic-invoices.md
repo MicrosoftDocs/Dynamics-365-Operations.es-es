@@ -15,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f184c0816dfb275d66d9e10d1cedca209dd5cb7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fb5d24158f723fd8002e260698a85ba845d28f0fe2025e740d653b370366b8e5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712137"
 ---
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 

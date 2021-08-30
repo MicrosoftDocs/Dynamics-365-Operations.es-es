@@ -1,8 +1,8 @@
 ---
 title: Configuración de la doble escritura de Lifecycle Services
 description: Este tema explica cómo configurar una conexión de escritura dual desde Microsoft Dynamics Lifecycle Services (LCS).
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729052"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuración de la doble escritura de Lifecycle Services
 
@@ -66,5 +66,18 @@ Para configurar la escritura dual para un entorno de Dataverse, debe crear una [
 
 > [!NOTE]
 > No puede desvincular entornos utilizando LCS. Para desvincular un entorno, abra el espacio de trabajo **Integración de datos** en el entorno Finance and Operations, y luego seleccione **Desvincular**.
+
+## <a name="linking-mismatch"></a>Desajuste de vinculación
+
+Es posible que su entorno LCS esté vinculado a una instancia de Dataverse, mientras que su entorno de escritura dual esté vinculado a otra instancia de Dataverse. Este desajuste de vinculación puede provocar un comportamiento inesperado y podría terminar enviando datos al entorno incorrecto. El entorno recomendado para usar para escritura dual es el que se crea como parte de la integración de Power Platform y, a largo plazo, esta será la única forma de establecer un vínculo entre entornos.
+
+Si su entorno tiene un desajuste de vinculación, LCS muestra una advertencia en la página de detalles de su entorno similar a "Microsoft ha detectado que su entorno está vinculado mediante escritura dual a un destino diferente al especificado en Integración de Power Platform, lo cual no se recomienda":
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="El vínculo de integración de Power Platform no coincide.":::
+
+Si encuentra este error, hay dos opciones, según sus necesidades:
+
++ [Desvincular y volver a vincular entornos de escritura dual (restablecer o cambiar la vinculación)](relink-environments.md#scenario-reset-or-change-linking) según se especifica en la página de detalles del entorno LCS. Esta es la opción ideal, porque puede ejecutarla sin el soporte técnico de Microsoft.  
++ Si desea mantener su vínculo en escritura dual, puede solicitar ayuda al soporte técnico de Microsoft para cambiar la integración de Power Platform para usar su entorno de Dataverse existente como se documenta en la sección anterior.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

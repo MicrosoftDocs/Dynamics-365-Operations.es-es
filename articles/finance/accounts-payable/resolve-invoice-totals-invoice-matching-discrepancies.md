@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e9b4940f910e0ecb7bff148b5cb7b77ab66ec9
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 3a938dcc1b574361b6f0c8ed5f245b0d9443d2b50cef7153a5ed2bd9cb265d01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337336"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737244"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>Visión general de la resolución de discrepancias durante la conciliación de los totales de las facturas
 

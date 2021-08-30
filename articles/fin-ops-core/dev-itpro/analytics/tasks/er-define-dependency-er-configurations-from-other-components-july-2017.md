@@ -2,7 +2,7 @@
 title: Definir la dependencia que tienen las configuraciones de informes electrónicos de otros componentes
 description: Este tema describe cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia de otros componentes de software.
 author: NickSelin
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4aef052a77428bb783a3a098754ca4dcc1b4296
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717603"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir la dependencia que tienen las configuraciones de informes electrónicos de otros componentes
 
@@ -138,5 +138,8 @@ Eliminaremos las configuraciones creadas del sistema y las descargaremos de nuev
     * Tenga en cuenta que la configuración de asignación "Asignación de ejemplo” se ha descargado junto con la configuración seleccionada del modelo de datos. Los dos archivos se descargan conjuntamente porque la asignación “Asignación de ejemplo” se ha definido como implementación del modelo de datos seleccionado, y es aplicable para la aplicación. La configuración de "Asignación de ejemplo (alternativa)” no se ha descargado porque la condición para la versión de la aplicación requerida no se cumplió.   
     * Si inicia sesión en Finance and Operations, registra el mismo proveedor, accede al mismo proyecto de LCS y descarga la misma configuración del modelo de datos, la configuración "Asignación de ejemplo (alternativa)” se descargará, mientras que la configuración "Asignación de ejemplo” se omitirá.  
 
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

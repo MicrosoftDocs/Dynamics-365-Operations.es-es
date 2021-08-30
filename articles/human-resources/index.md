@@ -1,8 +1,8 @@
 ---
-title: Bienvenido a Dynamics 365 Human Resources
+title: Página principal de Recursos Humanos
 description: Dynamics 365 Human Resources proporciona los conocimientos de los recursos que necesita para crear experiencias de empleados basadas en datos en varias áreas.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.custom:
 - intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b294cbc8d73858aeb6ab358cad608c78c911b0a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 25b3a9271dd3a906c5077f2e509cacf37ce1eb9ccb37131bb7ea31fa72ddd57f
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339700"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7011988"
 ---
-# <a name="welcome-to-dynamics-365-human-resources"></a>Bienvenido a Dynamics 365 Human Resources
+# <a name="human-resources-home-page"></a>Página principal de Recursos Humanos
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -47,45 +47,54 @@ Recursos Humanos conecta a los datos de operaciones y personas para contribuir a
 
 ## <a name="administrator-guide"></a>Guía del administrador
 
-[Información general](hr-admin-overview.md)</br>
-[Requisitos del sistema](hr-admin-system-requirements.md)</br>
-[Configurar y administrar instancias](hr-admin-setup-provision.md)</br>
-[Configurar integración de datos](hr-admin-integration-choose-technology.md)</br>
-[Configurar la administración de datos](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Administrar características](hr-admin-manage-features.md)</br>
-[Explorar la interfaz de usuario](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Aplicación Human Resources en Teams](hr-admin-teams-leave-app.md)</br>
-[Prepararse para la publicación](hr-admin-go-live-prepare.md)</br>
-[Preguntas frecuentes sobre la publicación](hr-admin-go-live-faq.md)</br>
-[Recursos de documentación](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Solución de problemas de Human Resources](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+- [Información general](hr-admin-overview.md)</br>
+- [Requisitos del sistema](hr-admin-system-requirements.md)</br>
+- [Configurar y administrar instancias](hr-admin-setup-provision.md)</br>
+- [Configurar integración de datos](hr-admin-integration-choose-technology.md)</br>
+- [Configurar la administración de datos](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Administrar características](hr-admin-manage-features.md)</br>
+- [Explorar la interfaz de usuario](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Aplicación Human Resources en Teams](hr-admin-teams-leave-app.md)</br>
+- [Prepararse para la publicación](hr-admin-go-live-prepare.md)</br>
+- [Preguntas frecuentes sobre la publicación](hr-admin-go-live-faq.md)</br>
+- [Recursos de documentación](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Solución de problemas de Human Resources](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
 
 ## <a name="developer-guide"></a>Guía de desarrollador
 
-[Información general](hr-developer-overview.md)</br>
-[Ampliar con Power Apps y Power Automate](hr-developer-power-apps.md)</br>
-[Entidades de Recursos Humanos en Dataverse](hr-developer-entities.md)</br>
-[Campos personalizados](hr-developer-custom-fields.md)</br>
-[Tablas de Dataverse](hr-developer-entities.md)</br>
-[Configurar integración de datos](hr-admin-integration-choose-technology.md)</br>
-[Solucionar problemas de desarrollo con las tablas virtuales de Dataverse](hr-developer-optimize-virtual-table-queries.md)</br>
-[Referencia de API de entidad](hr-developer-api-authentication.md)</br>
-[API de integración de ATS](hr-admin-integration-ats-api-introduction.md)</br>
-[API de integración de nóminas](hr-admin-integration-payroll-api-introduction.md)
+- [Información general](hr-developer-overview.md)</br>
+- [Ampliar con Power Apps y Power Automate](hr-developer-power-apps.md)</br>
+- [Entidades de Recursos Humanos en Dataverse](hr-developer-entities.md)</br>
+- [Campos personalizados](hr-developer-custom-fields.md)</br>
+- [Tablas de Dataverse](hr-developer-entities.md)</br>
+- [Configurar integración de datos](hr-admin-integration-choose-technology.md)</br>
+- [Solucionar problemas de desarrollo con las tablas virtuales de Dataverse](hr-developer-optimize-virtual-table-queries.md)</br>
+- [Referencia de API de entidad](hr-developer-api-authentication.md)</br>
+- [API de integración de ATS](hr-admin-integration-ats-api-introduction.md)</br>
+- [API de integración de nóminas](hr-admin-integration-payroll-api-introduction.md)
 
 ## <a name="user-guide"></a>Manual del usuario
 
-[Información general](hr-hrpro-overview.md)</br>
-[Explorar la interfaz de usuario](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Configurar Human Resources](hr-setup-parameters.md)</br>
-[Configurar ajustes de organización](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Administrar personal](hr-personnel-departments-jobs-positions.md)</br>
-[Configurar planes de compensación](hr-compensation-overview.md)</br>
-[Administrar prestaciones](hr-benefits-management-overview.md)</br>
-[Administrar bajas y ausencias](hr-leave-and-absence-overview.md)</br>
-[Administrar solicitudes de bajas en Teams](hr-teams-leave-app.md)</br>
-[Desarrollar empleados](hr-develop-performance-management-overview.md)</br>
-[Crear cursos](hr-learning-courses.md)</br>
-[Configurar autoservicio para empleado y director](hr-employee-manager-self-service-overview.md)
+- [Información general](hr-hrpro-overview.md)</br>
+- [Explorar la interfaz de usuario](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Configurar Human Resources](hr-setup-parameters.md)</br>
+- [Configurar ajustes de organización](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
+- [Administrar personal](hr-personnel-departments-jobs-positions.md)</br>
+- [Configurar planes de compensación](hr-compensation-overview.md)</br>
+- [Administrar prestaciones](hr-benefits-management-overview.md)</br>
+- [Administrar bajas y ausencias](hr-leave-and-absence-overview.md)</br>
+- [Administrar solicitudes de bajas en Teams](hr-teams-leave-app.md)</br>
+- [Desarrollar empleados](hr-develop-performance-management-overview.md)</br>
+- [Crear cursos](hr-learning-courses.md)</br>
+- [Configurar autoservicio para empleado y director](hr-employee-manager-self-service-overview.md)
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+### <a name="elearning-courses"></a>Cursos de eLearning
+Para cursos y formación en línea, consulte [Dynamics 365 Human Resources en Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>Vídeos
+
+Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el [canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

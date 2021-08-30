@@ -13,12 +13,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3d9c3b2cb8ad902b7327a0423277b89a630501f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e2ee11df34a7872d2590762b7d0c0857101be5c10d93c5231dd416ef9d547538
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718193"
 ---
 # <a name="e-invoicing-cfdi"></a>Facturación electrónica de CFDI
 

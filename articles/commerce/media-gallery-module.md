@@ -2,7 +2,7 @@
 title: Módulo de galería multimedia
 description: En este tema se tratan los módulos de galería multimedia y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733206"
 ---
 # <a name="media-gallery-module"></a>Módulo de galería de medios
 
@@ -56,6 +56,10 @@ En el ejemplo de la siguiente ilustración, un cuadro de compra en un PDP hosped
 | Imágenes | Imágenes que se seleccionan de la Biblioteca multimedia del creador de sitios | Además de representarse desde un producto, las imágenes se pueden mantener para un módulo de galería multimedia. Estas imágenes se agregarán a cualquier imagen de producto que esté disponible. Esta funcionalidad está disponible en Commerce, versión 10.0.12. |
 | Orientación de miniaturas | **Vertical** u **Horizontal** | Esta propiedad especifica si las imágenes en miniatura deben mostrarse en una franja vertical o una franja horizontal. |
 | Ocultar imágenes maestras del producto para la variante | **Verdadero** o **Falso** | Si esta propiedad se establece en **Verdadero**, cuando se selecciona una variante, las imágenes del producto maestro se ocultan, a menos que la variante no tenga imágenes. Esta propiedad no afecta a los productos que no tienen variantes. |
+| Actualizar medios en selección de dimensión | **Verdadero** o **Falso** | Si esta propiedad se establece en **True**, las imágenes de la biblioteca multimedia se actualizarán cuando se seleccione cualquier dimensión (como color, estilo o tamaño) y si hay una imagen disponible. Esta propiedad ayuda a simplificar la experiencia de navegación, ya que no es necesario seleccionar todas las dimensiones de las variantes del producto para que se actualice la imagen correspondiente. Esta propiedad está disponible en la pestaña **Avanzado**. |
+
+> [!IMPORTANT]
+> La propiedad **Actualizar loss elmentos multimedia al seleccionar dimensiones** está disponible a partir de la versión 10.0.21 de Commerce. Requiere que esté instalada la versión 9.31 del paquete de la biblioteca de módulos de Commerce.
 
 La siguiente ilustración muestra un ejemplo de un módulo de galería multimedia donde están disponibles las opciones de pantalla completa y zoom.
 

@@ -2,7 +2,7 @@
 title: Configurar la facturación electrónica en Regulatory Configuration Services (RCS)
 description: Este tema explica cómo configurar la facturación electrónica en Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 05/19/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
-ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6075152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757983"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurar la facturación electrónica en Regulatory Configuration Services (RCS)
 
@@ -46,21 +46,13 @@ Las características también admiten escenarios en los que se requiere el cumpl
 
 Finalmente, las características admiten el intercambio de mensajes con servicios web externos alojados por la autoridad tributaria o por alguna parte acreditada, y solicitudes de autorización o sello de aprobación en la factura electrónica.
 
-### <a name="availability-of-electronic-invoicing-features"></a>Disponibilidad de características de facturación electrónica
+## <a name="availability-of-electronic-invoicing-features"></a>Disponibilidad de características de facturación electrónica
 
 La disponibilidad de las características de facturación electrónica depende del país o región. Aunque algunas características están generalmente disponibles, otras están en versión preliminar.
 
-#### <a name="generally-available-features"></a>Funciones generalmente disponibles
+### <a name="generally-available-features"></a>Funciones generalmente disponibles
 
 La siguiente tabla muestra las características de facturación electrónica que se encuentran actualmente generalmente disponibles.
-
-| País/región | Nombre de característica                         | Documento empresarial |
-|----------------|--------------------------------------|-------------------|
-| Egipto          | Factura electrónica egipcia (EG) | Facturas de ventas y facturas de proyectos |
-
-#### <a name="preview-features"></a>Características de vista previa
-
-La siguiente tabla muestra las características de facturación electrónica que se encuentran actualmente en versión preliminar.
 
 | País/región | Nombre de característica                         | Documento empresarial |
 |----------------|--------------------------------------|-------------------|
@@ -68,17 +60,27 @@ La siguiente tabla muestra las características de facturación electrónica que
 | Bélgica        | Factura electrónica para Bélgica (BE)      | Facturas de ventas y facturas de proyectos |
 | Brasil         | NF-e brasileño (BR)                  | Modelo de documento fiscal 55, cartas de corrección, cancelaciones y descartes |
 | Brasil         | NFS-e brasileño ABRASF Curitiba (BR) | Documentos fiscales de servicios |
+| Brasil         | Importación brasileña de NF-e desde correo electrónico (BR) | Modelo de documento fiscal 55 |
 | Dinamarca        | Factura electrónica para Dinamarca (DK)       | Facturas de ventas y facturas de proyectos |
+| Egipto          | Factura electrónica egipcia (EG)     | Facturas de ventas y facturas de proyectos |
 | Estonia        | Factura electrónica para Estonia (EE)     | Facturas de ventas y facturas de proyectos |
 | Finlandia        | Factura electrónica para Finlandia (FI)      | Facturas de ventas y facturas de proyectos |
 | Francia         | Factura electrónica para Francia (FR)       | Facturas de ventas y facturas de proyectos |
 | Alemania        | Factura electrónica para Alemania (DE)       | Facturas de ventas y facturas de proyectos |
 | Italia          | FatturaPA (IT)                       | Facturas de ventas y facturas de proyectos |
-| México         | CFDI mexicano (MX)                    | Facturas de venta, albaranes, transferencias de inventario, complementos de pago y cancelaciones |
 | Países Bajos    | Factura electrónica para Países Bajos (NL)        | Facturas de ventas y facturas de proyectos |
 | Noruega         | Factura electrónica para Noruega (NO)    | Facturas de ventas y facturas de proyectos |
 | España          | Factura electrónica para España (ES)      | Facturas de ventas y facturas de proyectos |
 | Europa         | Factura electrónica PEPPOL            | Facturas de ventas PEPPOL y facturas de proyectos |
+| Europa         | Factura de proveedor PEPPOL                | Facturas de proveedor de importación PEPPOL |
+
+### <a name="preview-features"></a>Características de vista previa
+
+La siguiente tabla muestra las características de facturación electrónica que se encuentran actualmente en versión preliminar.
+
+| País/región | Nombre de característica                         | Documento empresarial |
+|----------------|--------------------------------------|-------------------|
+| México         | CFDI mexicano (MX)                    | Facturas de venta, albaranes, transferencias de inventario, complementos de pago y cancelaciones |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>Componentes configurables de las características de facturación electrónica
 
@@ -204,10 +206,10 @@ La siguiente tabla enumera las acciones disponibles y si están actualmente disp
 | Acción                                        | Descripción                                                                  | Disponibilidad         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Documento de transformación                            | Ejecute el formato de informes electrónicos para transformar el documento.                   | Disponibilidad general  |
-| Firmar documento xml                             | Firme documentos xml con firma digital.                                   | En vista previa           |
-| Firmar el documento json para la autoridad fiscal egipcia | Firme documentos json con firma digital para la autoridad fiscal egipcia.       | Disponibilidad general  |
+| Firmar documento xml                             | Firme documentos xml con firma digital.                                   | Disponibilidad general  |
+| Firmar documento json para la autoridad fiscal egipcia | Firme documentos json con firma digital para la autoridad fiscal egipcia.       | Disponibilidad general  |
 | Integrar con el servicio ETA egipcio           | Comuníquese con la autoridad fiscal egipcia.                                     | Disponibilidad general  |
-| Llamar al servicio SEFAZ brasileño                  | Intégrese con el servicio SEFAZ brasileño para el envío de documentos fiscales.       | En vista previa           |
+| Llamar al servicio SEFAZ brasileño                  | Intégrese con el servicio SEFAZ brasileño para el envío de documentos fiscales.       | Disponibilidad general  |
 | Llamar al servicio PAC mexicano                      | Intégrese con el servicio PAC mexicano para el envío de CFDI.                      | En vista previa           |
 | Respuesta de proceso                              | Analice la respuesta recibida desde la llamada del servicio web.                     | Disponibilidad general  |
 | Usar MS Power Automate                         | Integrar con flujo incorporado en Microsoft Power Automate.                       | En vista previa           |

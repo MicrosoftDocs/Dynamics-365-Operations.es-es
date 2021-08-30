@@ -3,7 +3,6 @@ title: Función ER Base64StringToContainer
 description: En este tema se proporciona información sobre cómo usar la función Base64StringToContainer de informes electrónicos (ER).
 author: NickSelin
 ms.date: 12/14/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 01f7f032915a5e4170cae5e28a445081aef075fa
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3e813c628bfe783fb8e93fc5d7e8b275405245c42710f9ea691d4c06afff0d84
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772041"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Función ER Base64StringToContainer
 
 [!include [banner](../includes/banner.md)]
 
-La [función](er-formula-language.md#functions) `BASE64STRINGTOCONTAINER` convierte la entrada especificada del tipo *Cadena* a un elemento de datos del tipo *[Contenedor](er-functions-category-container.md)*.
+La [función](er-formula-language.md#Functions) `BASE64STRINGTOCONTAINER` convierte la entrada especificada del tipo *Cadena* a un elemento de datos del tipo *[Contenedor](er-functions-category-container.md)*.
 
 ## <a name="syntax"></a>Sintaxis
 

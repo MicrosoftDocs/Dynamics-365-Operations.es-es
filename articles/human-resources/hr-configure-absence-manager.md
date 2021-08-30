@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8a8250b36d2774ac308637253b780592df316cd
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732354"
 ---
 # <a name="configure-the-absence-manager-role"></a>Configurar el rol de administrador de ausencias
 
@@ -89,16 +89,21 @@ El rol de administrador de ausencias debe asignarse a los empleados para permiti
 
 ## <a name="absence-manager-workspace"></a>Área de trabajo del administrador de ausencias
 
-En el espacio de trabajo **Autoservicio para los empleados**, la pestaña **Gerente de ausencias** muestra la información de ausencias sobre los empleados que están asignados al administrador de ausencias en la jerarquía de ausencias.
+En el espacio de trabajo **Autoservicio para los empleados**, la pestaña **Administrador de bajas** muestra la información de ausencias sobre los empleados que están asignados al administrador de ausencias en la jerarquía de ausencias. Hay algunas opciones disponibles para el administrador de ausencias: 
+ - Revise las solicitudes de permisos.</br>
+ - Envíe una solicitud de permiso en nombre de un empleado.</br>
+ - Vea todos los empleados asignados a ellos como parte de la jerarquía de bajas.</br>
+ - Vea el calendario de administrador de ausencias.</br>
 
-En la pestaña **Bajas y ausencias**, las siguientes opciones están disponibles para cada empleado:
-
-- **Tiempo libre** - Ver saldos, tiempo libre aprobado y solicitudes de tiempo libre para el empleado seleccionado.
-- **Saldos de baja** - Ver una lista de los saldos de los diferentes planes de vacaciones para el empleado seleccionado.
+En el espacio de trabajo **Administrador de bajas**, hay dos pestañas:
+ - **Solicitudes de permiso**: esta pestaña enumerará todas las solicitudes de permiso pendientes que el administrador de ausencias puede aprobar. El administrador de ausencias puede seleccionar varios registros y actuar sobre ellos al mismo tiempo. Si la vista de permisos entre empresas está habilitada, esta lista mostrará las solicitudes de permiso pendientes en todas las entidades legales a las que tienen acceso. De lo contrario, mostrará las solicitudes de permiso pendientes para la entidad legal actualmente seleccionada. </br>
+ - **Todos los empleados**: esta pestaña mostrará una lista de todos los empleados que están asignados al administrador de ausencias en la jerarquía de permisos. Hay un par de opciones disponibles para cada empleado:
+    - **Solicitar permiso**: envíe una nueva solicitud de permiso para el empleado seleccionado.</br>
+    - **Tiempo libre** - Ver saldos, tiempo libre aprobado y solicitudes de tiempo libre para el empleado seleccionado.</br>
 
 ## <a name="approve-time-off-requests"></a>Aprobar solicitudes de permisos
 
-Los administradores de ausencias pueden aprobar o denegar las solicitudes de tiempo libre para los empleados. También pueden crear solicitudes en nombre de los empleados, según sea necesario.
+Los administradores de ausencias pueden aprobar o denegar las solicitudes de tiempo libre para los empleados. 
 
 > [!IMPORTANT]
 > Antes de que los administradores de ausencia puedan aprobar o denegar las solicitudes de tiempo libre, el flujo de trabajo de la solicitud de ausencia debe configurarse para asignarles elementos de trabajo de solicitud de ausencia para su revisión.
@@ -109,15 +114,13 @@ Los administradores de ausencias pueden aprobar o denegar las solicitudes de tie
 >
 > Para obtener información sobre cómo crear los flujos de trabajo de solicitud de bajas, consulte [Crear un flujo de trabajo de solicitud de baja](hr-leave-and-absence-workflow.md).
 
-1. En el espacio de trabajo **Autoservicio del empleado**, seleccione la pestaña **Administrador de ausencia**.
+1. En el espacio de trabajo **Autoservicio del empleado**, seleccione la pestaña **Administración de bajas**.
 
-2. En la pestaña **Gerente de ausencias**, seleccione el empleado deseado.
+2. En la pestaña **Solicitudes de permiso**, seleccione las solicitudes de permiso en las que desea tomar medidas. Puede seleccionar varios registros en esta vista de lista.
 
-3. Seleccione **Detalles** y luego **Tiempo libre**.
+3. Utilice los botones de acción en la parte superior de la cuadrícula para Aprobar, Denegar o Delegar la solicitud de permiso. 
 
-4. Busque la solicitud de tiempo libre y seleccione la opción **Aprobar** opción. Luego, puede seleccionar una opción para aprobar o cancelar la solicitud de tiempo libre.
-
-Un estado de **Cancelar** indica que la solicitud ha sido denegada. Un estado de **Completado** indica que la solicitud ha sido aprobada.
+Alternativamente, el usuario también puede utilizar el icono **Solicitudes de permiso** a la izquierda para navegar a la lista de todos los elementos de trabajo de solicitud de permiso. 
 
 ## <a name="view-time-off-in-the-calendar"></a>Ver tiempo libre en el calendario
 
@@ -126,7 +129,7 @@ Los usuarios con la función de administrador de ausencias pueden ver las solici
 > [!IMPORTANT]
 > Un administrador del sistema debe configurar las opciones de visualización para el calendario del administrador de ausencias. En la página **Parámetros de bajas y ausencias**, en la pestaña **Calendario**, hay opciones para ocultar o mostrar cumpleaños, ausencias sin detalles, permisos y solicitudes de permisos pendientes. También hay una opción para filtrar la opción de vista de calendario por tipo de trabajador.
 
-1. En el espacio de trabajo **Autoservicio para los empleados**, seleccione **Gerente de ausencias** y luego **Calendario del administrador de ausencias**.
+1. En el espacio de trabajo **Autoservicio para los empleados**, seleccione **Administración de bajas** y luego **Calendario del administrador de ausencias**.
 
 2. En el campo **Fecha**, escriba la fecha deseadas.
 

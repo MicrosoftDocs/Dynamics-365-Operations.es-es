@@ -1,8 +1,8 @@
 ---
 title: Retenciones de crédito para pedidos de ventas
 description: En este tema se describe la configuración de las reglas utilizadas para colocar un pedido de ventas en retención de crédito.
-author: mikefalkner
-ms.date: 01/25/2019
+author: JodiChristiansen
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827659"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723976"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Retenciones de crédito para pedidos de ventas
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 En este tema se describe la configuración de las reglas utilizadas para colocar un pedido de ventas en retención de crédito. Las reglas de bloqueo de la administración de crédito pueden aplicarse a un cliente individual o a un grupo de clientes. Las reglas de bloqueo definen respuestas a las siguientes circunstancias:
 
@@ -41,6 +42,11 @@ Además, hay dos parámetros que controlan escenarios adicionales que bloqueará
 
 Cuando un cliente inicia una transacción de ventas, la información en el pedido de ventas se revisa con un conjunto de reglas de bloqueo que guían la decisión de ampliar o no el crédito al cliente, y permitir continuar con la venta. También puede definir exclusiones que anulen las reglas de bloqueo y permitan que se procese un pedido de ventas. Puede configurar reglas de bloqueo y reglas de exclusión en la página **Administración de crédito > Configuración > Configuración de administración de crédito> Reglas de bloqueo**.
 
+A partir de la versión 10.0.21, las reglas de bloqueo de la Administración de crédito se han rediseñado de las siguientes formas para proporcionar más flexibilidad:
+
+- Se han habilitado las solicitudes de extensibilidad para que pueda crear sus propias reglas de bloqueo.
+- La casilla **Despachar pedido de venta** ahora está disponible para todas las reglas de bloqueo. Anteriormente, solo estaba disponible para la regla de bloqueo Pedido de ventas. Cuando se activa esta casilla, la regla de exclusión liberará el pedido de ventas sin tener en cuenta ninguna otra regla que pueda bloquear los pedidos de ventas. Esta casilla solo está disponible para el tipo de regla **Exclusión**.
+
 ### <a name="days-overdue"></a>Días desde el vencimiento
 
 Abre la pestaña **Días desde el vencimiento** si la regla de bloqueo se aplica al cliente con una o más facturas vencidas durante un número de días determinado.
@@ -57,7 +63,7 @@ Abre la pestaña **Días desde el vencimiento** si la regla de bloqueo se aplica
 5. Seleccione un **Tipo de valor**. La entrada predeterminada es un número fijo de días. Si va a crear una exclusión, puede especificar un número fijo de días o un importe en su lugar. 
 6. Introduzca en **Vencido** el número de días vencidos que se permitirán para la regla de bloqueo seleccionada antes de colocar un pedido en espera de administración de crédito para su revisión. El número de días vencidos representa un número adicional de días de gracia que se agregan al número de días más allá de la fecha de vencimiento del pago que puede tener la factura antes de que se considere vencida. Si especificó el **Tipo de valor** como un importe para una exclusión, introduzca un importe y una divisa para ese importe.
 
-### <a name="accounts-status"></a>Estado de cuentas
+### <a name="account-status"></a>Estado de cuenta
 
 Abre la pestaña **Estado de cuentas** si la regla de bloqueo se aplica a un cliente con el estado de cuentas seleccionado.
 1. Seleccione el tipo de proyecto que está configurando.  La opción **Bloqueo** creará una regla que bloquea un pedido. La opción **Exclusión** creará una regla que excluirá a otra regla de bloquear un pedido. 
@@ -102,7 +108,7 @@ Abra la pestaña **Importe vencida** si la regla de bloqueo se aplica a clientes
    - Seleccione **Bloqueo** para crear una regla que bloquea un pedido. 
    - Seleccione **Exclusión** para crear una regla que excluirá a otra regla de bloquear un pedido. 
 5. Introduzca el **Importe vencido** para la regla de bloqueo seleccionada antes de que se coloque un pedido en espera de administración de crédito. 
-6. Seleccione el **Tipo de valor** que define el tipo de valor que se usará para probar también cuánto del límite de crédito se ha usado. Las reglas de bloqueo requieren un porcentaje, pero una exclusión puede tener un importe fijo o un porcentaje. El umbral se relaciona con el límite de crédito.
+6. Seleccione el **Tipo de valor** que define el tipo de valor que se usará para probar también cuánto del límite de crédito se ha usado. Las reglas de bloqueo y las reglas de exclusión solo permiten un porcentaje para **Importe vencido**. El umbral se relaciona con el límite de crédito.
 7. Introduzca el valor del **Umbral de límite de crédito** para la regla seleccionada antes de que un cliente quede en espera de administración de crédito. Puede ser un importe o un porcentaje según el tipo de valor seleccionado en el tipo de valor.
 8. La regla comprueba que se superan el **Importe vencido** y el **Umbral de límite de crédito**. 
 
@@ -122,8 +128,6 @@ Seleccione **Pedido de ventas** si la regla de bloqueo se aplica al valor del pe
    - Seleccione **Bloqueo** para crear una regla que bloquea un pedido. 
    - Seleccione **Exclusión** para crear una regla que excluirá a otra regla de bloquear un pedido. 
 5. Introduzca el **Importe de pedido de ventas** para la regla de bloqueo seleccionada antes de que se coloque un pedido en espera de administración de crédito. 
-
-La regla del pedido de ventas incluye una configuración adicional que anula todas las demás reglas. Para crear una exclusión que libere el pedido de ventas sin tener en cuenta ninguna otra regla, marque la casilla **Liberar pedido de ventas** en la línea de exclusión.
 
 ### <a name="credit-limit-used"></a>Límite de crédito utilizado
 

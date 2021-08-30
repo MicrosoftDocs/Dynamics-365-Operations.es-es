@@ -2,7 +2,7 @@
 title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. Debe activar la nueva característica de cuadrícula para tener acceso a estas capacidades.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923607"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775251"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -158,6 +158,13 @@ Si su organización detecta una página que tiene problemas al utilizar la nueva
  ```this.forceLegacyGrid();```
 
 Esta API se aplicará hasta la versión de octubre de 2021, cuando el nuevo control de cuadrícula se vuelva obligatorio. Si algún problema requiere el uso de esta API, notifíqueselo a Microsoft.
+
+### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forzar una página a usar la nueva cuadrícula después de haber optado previamente por no recibir la cuadrícula
+Si ha optado por que una página individual no use la nueva cuadrícula, es posible que desee volver a habilitar la nueva cuadrícula después de que se hayan resuelto los problemas subyacentes. Para hacer esto, simplemente necesita eliminar la llamada a `forceLegacyGrid()`. El cambio no entrará en vigor hasta que ocurra una de las siguientes situaciones:
+
+- **Reimplementación del entorno**: cuando un entorno se actualiza y se vuelve a implementar, la tabla que almacena las páginas que se excluyeron de la nueva cuadrícula (FormControlReactGridState) se borra automáticamente.
+
+- **Borrado manual de la tabla**: para escenarios de desarrollo, deberá usar SQL para borrar la tabla FormControlReactGridState y luego reiniciar el AOS. Esta combinación de acciones restablecerá el almacenamiento en caché de las páginas que se excluyeron de la nueva cuadrícula.  
 
 ## <a name="developer-size-to-available-width-columns"></a>[Desarrollador] Columnas de tamaño hasta el ancho disponible
 Si un desarrollador establece la propiedad **WidthMode** en **SizeToAvailable** para las columnas que hay dentro de la nueva cuadrícula, esas columnas tendrán inicialmente el mismo ancho que tendrían si la propiedad estuviera establecida en **SizeToContent**. Sin embargo, se estiran para utilizar el ancho adicional disponible en la cuadrícula. Si la propiedad se establece en **SizeToAvailable** para varias columnas, todas esas columnas compartirán el ancho adicional disponible en la cuadrícula. Sin embargo, si un usuario cambia manualmente el tamaño de una de esas columnas, la columna se volverá estática. Permanecerá en ese ancho y ya no se estirará para ocupar el ancho de cuadrícula adicional disponible.  

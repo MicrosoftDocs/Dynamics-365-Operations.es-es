@@ -2,7 +2,7 @@
 title: Configurar los valores de las dimensiones del producto para que aparezcan como muestras
 description: Este tema describe cómo configurar valores de dimensión de producto como muestras en la sede de Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764623"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurar los valores de las dimensiones del producto para que aparezcan como muestras
 
@@ -46,7 +46,7 @@ La siguiente ilustración muestra un ejemplo en el que los colores aparecen como
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Habilite la función de dimensiones de visualización como muestras en la sede de Commerce
 
-Para habilitar la función de dimensiones de visualización como muestras en la sede de Commerce, vaya a **Espacios de trabajo \> Gestión de funciones** y active la característica **Habilitar la compatibilidad de imágenes para los valores de dimensión del producto**. Cuando esta marca de función está habilitada, se agregan tres nuevos campos para cada dimensión en las tablas correspondientes en la sede de Commerce: **Código hexadecimal**, **URL** (para imágenes) y **RefinerGroup**.
+Para habilitar la función de dimensiones de visualización como muestras en la sede de Commerce, vaya a **Espacios de trabajo \> Administración de características** y active la función **Habilitar un mecanismo para representar dimensiones como muestras**. Cuando esta marca de función está habilitada, se agregan tres nuevos campos para cada dimensión en las tablas correspondientes en la sede de Commerce: **Código hexadecimal**, **URL** (para imágenes) y **RefinerGroup**.
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>Configurar valores de dimensión en la sede de Commerce
 
@@ -125,9 +125,22 @@ Antes de que las muestras puedan aparecer en las páginas del sitio de comercio 
 
 Además, debe habilitar la propiedad **Incluir atributos de productos en los resultados de búsqueda** para módulos de resultados de búsqueda. Si su sitio utiliza páginas de categorías personalizadas, debe actualizar los módulos de resultados de búsqueda que se utilizan en esas páginas, de modo que la propiedad **Incluir atributos de productos en los resultados de búsqueda** está habilitada. Para obtener más información, consulte [Módulo de resultados de búsqueda](../search-result-module.md).
 
+## <a name="inventory-awareness-on-swatches"></a>Reconocimiento de inventario en muestras
+
+Las muestras tienen una capacidad opcional para mostrar la disponibilidad de inventario de un color o dimensión de variante de producto. Por ejemplo, un producto se vende en varios tamaños, pero algunos tamaños están agotados. En este caso, las muestras de los productos agotados se representan de forma diferente para indicar que no están disponibles. Esta funcionalidad ayuda a reducir la cantidad de clics de clientes que se necesitan para determinar la disponibilidad de los productos.
+
+La función de disponibilidad de inventario de muestra se puede configurar para su uso tanto en las PDP como en páginas de búsqueda o lista de categorías donde aparecen las muestras. Para activarla, debe establecer la propiedad **Actualizar los elementos multimedia al seleccionar dimensiones** en **Verdadero** en el [módulo de galería multimedia](../media-gallery-module.md). Esa configuración permite actualizar las imágenes de la galería multimedia cuando se seleccionan dimensiones. 
+
+> [!IMPORTANT]
+> La función de disponibilidad de inventario de muestras está disponible a partir de la versión 10.0.21 de Commerce. Requiere que esté instalada la versión 9.31 del paquete de la biblioteca de módulos de Commerce.
+
+La siguiente ilustración muestra un ejemplo de reconocimiento del inventario en las muestras de tamaño de una PDP.
+
+![Ejemplo de reconocimiento del inventario en las muestras de tamaño de una PDP](../dev-itpro/media/swatch_inventory.png)
+
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Muestra muestras en PDV y otros canales
 
-Actualmente, Commerce no tiene una implementación lista para usar que admita la visualización de muestras en el punto de venta (PDV) y otros canales. Sin embargo, puede implementar la funcionalidad de visualización de muestras como una extensión que hace que las API de canal devuelvan los códigos hexadecimales y las URL de imagen que se requieren para representar las muestras.
+Actualmente, Commerce no tiene una implementación lista para usar que admita la visualización de muestras en el punto de venta (PDV) y otros canales. Sin embargo, puede implementar la funcionalidad de visualización de muestras como una extensión porque las API de canal devuelven los códigos hexadecimales y las URL de imagen que se requieren para representar las muestras.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

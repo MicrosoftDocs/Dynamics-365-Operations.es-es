@@ -2,7 +2,7 @@
 title: Módulo de icono de carro
 description: En este tema se trata el modulo de icono de carro y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9e3850d98e716d1bbea2017f6e8c9d75f19adc9
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638010"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735687"
 ---
 # <a name="cart-icon-module"></a>Módulo de icono de carro
 
@@ -35,9 +35,14 @@ La siguiente imagen muestra un ejemplo de un módulo de icono de carro que muest
 
 ## <a name="module-properties"></a>Propiedades del módulo
 
-- **Mostrar mini carrito** - Cuando es verdadera, esta propiedad permite que se muestre un resumen del carrito (mini carrito) cuando se pasa el icono del carrito. Esta funcionalidad solo es compatible con los puertos de vista de escritorio.
+- **Mostrar mini carrito**: si esta propiedad se establece en **Verdadero**, se muestra un resumen del carrito (mini carrito) cuando los usuarios pasan el puntero sobre el icono del carrito. Esta funcionalidad solo es compatible con los puertos de vista de escritorio.
+- **Permitir finalización de compra anónima**: cuando esta propiedad se establece en **Verdadero**, el mini carrito permite que los usuarios que no han iniciado sesión finalicen la compra como invitados. Esta propiedad está disponible en la versión 10.0.21 de Commerce, como parte del paquete de la biblioteca de módulos de Commerce.
+- **Orden de los artículos**: esta propiedad controla el orden en que aparecen los artículos en el mini carrito. Cuando está seleccionada la opción **Nuevos artículos agregados al principio de la lista**, los artículos nuevos que se agregan al carro aparecen al principio de la lista de artículos del mini carrito. Cuando está seleccionada la opción predeterminada **Nuevos artículos agregados al final de la lista**, los artículos nuevos que se agregan al carrito aparecen al final de la lista de artículos del mini carrito. Esta propiedad está disponible a partir de la versión 10.0.21 de Commerce, como parte del paquete de la biblioteca de módulos de Commerce.
 
-## <a name="module-properties-in-the-adventure-works-theme"></a>Propiedades del módulo en el tema Adventure Works
+> [!IMPORTANT]
+> Las propiedades **Permitir finalización de compra anónima** y **Orden de los artículos** están disponibles a partir de la versión 10.0.21 de Commerce. Requieren que esté instalada la versión 9.31 del paquete de la biblioteca de módulos de Commerce.
+
+## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Franjas y propiedades del módulo en el tema Adventure Works
 
 En el tema Adventure Works, el módulo de icono de carrito incluye dos ranuras adicionales para el mini carrito. Estas ranuras se incluyen como una extensión de definición de módulo.
 

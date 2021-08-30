@@ -14,12 +14,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c771a3f0cc91f80ef15087c11264846af7cca0ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a6a93410ec3c2efe8b452f1109735e3a844671330f926613bbfab33254075d2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834366"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756234"
 ---
 # <a name="special-entries-and-opening-sheets"></a>Entradas especiales y hojas de apertura
 

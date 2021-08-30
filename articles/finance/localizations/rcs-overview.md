@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4ee68b691bba7f3314b5278b0bcc26504c1583335914a1e7c645abd5303f02c6
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358131"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012022"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -49,6 +49,9 @@ En la página **Regulatory Configuration Service**, revise y acepte los término
 
 - **Inscribirse** si es la primera vez que utiliza el servicio y utiliza una dirección de correo electrónico empresarial para proporcionar a su organización un entorno de servicio
 - **Iniciar sesión** si se ha registrado anteriormente en el servicio y desea acceder al entorno de su organización
+
+> [!NOTE] 
+> Después de registrarse, le recomendamos que agregue un usuario de SysAdmin adicional al entorno RCS. Este usuario se asignará como coadministrador del entorno. Esto ayudará a proporcionar estabilidad para el acceso al entorno RCS, ya que el rol de SysAdmin es administrar usuarios para ese entorno. Puede agregar usuarios usando **Espacio de trabajo RCS > Administración del sistema**.
 
 ## <a name="regional-availability"></a>Disponibilidad regional
 

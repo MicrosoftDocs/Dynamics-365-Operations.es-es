@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744235"
 ---
 # <a name="view-team-and-company-calendars"></a>Ver calendarios de equipo y empresa
 
@@ -47,7 +47,7 @@ Los gerentes también pueden acceder al calendario del equipo desde **Solicitude
 
 Los usuarios con la función de administrador de ausencias pueden ver las solicitudes de tiempo libre en su calendario. Siga estos pasos para acceder al calendario de bajas.
 
-1. En el espacio de trabajo **Autoservicio para los empleados**, seleccione **Gerente de ausencias** y luego **Calendario del administrador de ausencias**.
+1. En el espacio de trabajo **Autoservicio para los empleados**, seleccione **Administración de bajas** y luego **Calendario del administrador de ausencias**.
 
 2. En el campo **Fecha**, escriba la fecha deseadas.
 

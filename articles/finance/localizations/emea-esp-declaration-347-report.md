@@ -14,12 +14,12 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1770dacdc15ee2764535f733e065e1dd4eff3955
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0f296cbc1cf3ddf77398114641e28fd5352f2d0118d0de98c25723197961f06b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349861"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752114"
 ---
 # <a name="declaration-347-report"></a>Informe del Modelo 347
 [!include [banner](../includes/banner.md)]
