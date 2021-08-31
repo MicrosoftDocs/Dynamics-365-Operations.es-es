@@ -2,7 +2,7 @@
 title: Página principal de Finance
 description: En este tema se proporciona una lista de los temas de ayuda y de otros recursos para las características de gestión financiera en Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 06/20/2018
+ms.date: 08/18/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779431"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394572"
 ---
 # <a name="finance-home-page"></a>Página principal de Finance
 
@@ -35,6 +35,7 @@ Seleccione un área de características para obtener más información al respec
     :::column:::
         - [Proveedores](accounts-payable/accounts-payable.md) 
         - [Clientes](accounts-receivable/accounts-receivable.md)
+        - [Arrendamiento de activos](asset-leasing/asset-leasing-homepage.md)
         - [Gestión presupuestaria](budgeting/budgeting-overview.md) 
         - [Gestión de efectivo y bancos](cash-bank-management/cash-bank-management.md)
         - [Contabilidad de costes](cost-accounting/cost-accounting-home-page.md)
@@ -43,6 +44,7 @@ Seleccione un área de características para obtener más información al respec
         - [Gestión de gastos](/dynamics365/project-operations/prod-exp/expense-management)
         - [Informes financieros](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Activos fijos](fixed-assets/fixed-assets.md)
+        - [Finance insights](finance-insights/finance-insights-home-page.md)
         - [Contabilidad general e informes financieros](general-ledger/general-ledger.md) 
         - [Gestión y contabilidad de proyectos](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Sector público](public-sector/public-sector-functionality.md) 
@@ -57,9 +59,6 @@ Seleccione un área de características para obtener más información al respec
 - [Blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 - [Blog de Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
-
-### <a name="task-guides"></a>Guías de tareas
-Hay ayuda adicional disponible como guías de tareas en Finance and Operations. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.
 
 ### <a name="videos"></a>Vídeos
 

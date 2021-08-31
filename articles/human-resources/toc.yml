@@ -5,6 +5,8 @@
       items:
         - name: Novedades y cambios en Human Resources
           href: hr-admin-whats-new.md
+        - name: 9 de agosto de 2021
+          href: hr-whats-new-2021-08-09.md
         - name: 26 de julio de 2021
           href: hr-whats-new-2021-07-26.md
         - name: 12 de julio de 2021
@@ -127,9 +129,9 @@
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
                 - name: Actualizar los datos de la entidad en Excel
                   href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                - name: Crear experiencias de tipo Abrir en Excel
+                - name: Preguntas frecuentes de experiencias de abrir en Excel
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
-                - name: Solucionar problemas de la integración con Office
+                - name: Solucionar problemas de integración con Office
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
         - name: Configurar la administración de datos
           items:
@@ -337,7 +339,7 @@
                   href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
                 - name: Crear experiencias de tipo Abrir en Excel
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
-                - name: Solucionar problemas de la integración con Office
+                - name: Solucionar problemas de integración con Office
                   href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
         - name: Solucionar problemas de desarrollo con las tablas virtuales de Dataverse
           items:

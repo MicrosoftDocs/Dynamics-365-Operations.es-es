@@ -332,11 +332,9 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Obtener estado de actividad de la operación
                       href: database/api/v1/reference-get-status.md
-                    - name: Iniciar y detener entornos
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Datos de demostración
           items:
-            - name: Información general de datos de demostración
+            - name: Visión general de datos de demostración
               href: ../fin-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
             - name: Generar datos de demostración mediante paquetes de datos
               href: data-entities/generate-demo-data-packages.md
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Continuidad empresarial y recuperación ante desastres
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Completar la incorporación de Azure Resource Manager
+                - name: Completar el proceso de incorporación de Azure Resource Manager
                   href: deployment/arm-onboarding.md
+                - name: Completar el proceso de incorporación de Azure Resource Manager para proyectos LCS del gobierno de EE. UU.
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute y Finance and Operations
                   href: deployment/expressroute.md
                 - name: Arquitectura de Finance and Operations
@@ -942,8 +942,18 @@
                   href: lifecycle-services/lcs.md
                 - name: LCS para clientes
                   href: lifecycle-services/lcs-works-lcs.md
-                - name: LCS para socios
+                - name: LCS para partners
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful APIs
+                  items:
+                    - name: Iniciar y detener entornos
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Capturar metadatos del entorno
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Historial del entorno de capturas
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Capturar el ZIP del certificado RSAT del entorno
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Novedades y cambios en Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: Guía del usuario de Lifecycle Services
@@ -1134,26 +1144,28 @@
                   items:
                     - name: Compatibilidad para soluciones de Field Service y de Project Service Automation
                       href: data-entities/dual-write/field-service-project-service-automation.md
-                    - name: Migrar datos de Cliente potencial a cliente desde el integrador de datos a doble escritura
+                    - name: Migrar datos de cliente potencial a efectivo desde el integrador de datos a doble escritura
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Solución de problemas
                       items:
-                        - name: Verificar la configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Solución de problemas generales
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Solucionar problemas durante la configuración inicial
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Solucionar problemas durante la sincronización inicial
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Solucionar problemas de sincronización en vivo
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Solucionar problemas relacionados con el conocimiento de la solución
+                        - name: Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Solucionar problemas de entidades y de la libreta de direcciones global
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
+                        - name: Solucionar problemas relacionados con el conocimiento de soluciones
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Solucionar problemas de actualizaciones de aplicaciones de Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Solución de problemas generales
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Verificar la configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: Preguntas frecuentes sobre doble escritura
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Entidades virtuales
