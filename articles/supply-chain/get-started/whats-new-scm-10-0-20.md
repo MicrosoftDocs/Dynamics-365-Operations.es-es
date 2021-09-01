@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641065"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773522"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
@@ -47,7 +47,6 @@ La tabla siguiente enumera las mejoras de características incluidas en esta ver
 
 | Área de características | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
 |---|---|---|
-| Planificación maestra | Días negativos para Optimización de planificación | Esta función permite que Planning Optimization considere la tolerancia de demora en función del parámetro **Días negativos** definido en grupos de cobertura. |
 | Planificación maestra | Autorización paralela de previsión de la demanda ajustada | Esta característica permite la autorización paralela de la previsión de demanda ajustada de la página **Previsión de la demanda ajustada**. La intención de esta función es aumentar el rendimiento cuando se autoriza una gran cantidad de pronósticos. Al autorizar, el usuario puede especificar el **Número de hilos** en el diálogo de autorización. |
 | Planificación maestra | (Versión preliminar) Consolidación y puesta en firme por lotes de pedidos de lote masivos y empaquetados planificados | Esta característica permite usar trabajos por lotes para poner en firme y consolidar pedidos masivos y empaquetados planificados. |
 | Control de producción | Copiar rutas genéricas | Esta característica mejora la función de copia de ruta para permitir a los usuarios copiar rutas que no son específicas de un artículo. Permite que el sistema actualice toda la información relevante (como el sitio, el grupo de rutas, los requisitos de recursos y varias horas) después de que se haya utilizado la función de copia de ruta para sobrescribir una ruta que aún no está asignada a un elemento. |

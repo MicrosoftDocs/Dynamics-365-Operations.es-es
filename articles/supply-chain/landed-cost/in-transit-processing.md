@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021209"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744807"
 ---
 # <a name="goods-in-transit-processing"></a>Procesamiento de mercancía en tránsito
 
@@ -104,6 +104,7 @@ También puede recibir mercancías creando un diario de llegadas. Puede crear un
 1. Abra el viaje, contenedor o folio.
 1. En el Panel de acciones, en la ficha **Gestionar**, en el grupo **Funciones**, seleccione **Crear un diario de llegadas**.
 1. En el cuadro de diálogo **Crear un diario de llegadas**, establezca los siguientes valores:
+
     - **Inicializar cantidad** - Establezca esta opción en *Sí* para establecer la cantidad a partir de la cantidad en tránsito. Si esta opción se establece en *No*, no se establece ninguna cantidad predeterminada de las líneas de mercancías en tránsito.
     - **Crear a partir de mercancías en tránsito** - Establezca esta opción en *Sí* para tomar cantidades de las líneas en tránsito seleccionadas para el viaje, contenedor o folio seleccionado.
     - **Crear a partir de líneas de pedido** - Establezca esta opción en *Sí* para establecer la cantidad predeterminada en el diario de llegadas de las líneas de la orden de compra. La cantidad predeterminada en el diario de llegadas se puede establecer de esta manera solo si la cantidad en la línea del pedido de compra coincide con la cantidad en el pedido de mercancías en tránsito.
@@ -140,4 +141,21 @@ El costo de entrega agrega un nuevo tipo de orden de trabajo que se denomina *Me
 
 ### <a name="work-templates"></a>Plantillas de trabajo
 
+Esta sección describe las características que el módulo **Coste en destino** agrega a las plantillas de trabajo.
+
+#### <a name="goods-in-transit-work-order-type"></a>Tipo de orden de trabajo de mercancías en tránsito
+
 El costo de entrega agrega un nuevo tipo de orden de trabajo que se denomina *Mercancías en tránsito* a la página **Plantillas de trabajo**. Este tipo de orden de trabajo debe configurarse de la misma manera que las [plantillas de trabajo de órdenes de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+
+#### <a name="work-header-breaks"></a>Interrupciones de encabezados de trabajo
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Las plantillas de trabajo que tienen un tipo de orden de trabajo de *Mercancías en tránsito* se pueden configurar para dividir los encabezados de trabajo. En la página **Plantillas de trabajo**, siga uno de estos pasos:
+
+- En la ficha **General** de la plantilla, establezca los máximos de encabezado de trabajo. Estos máximos funcionan de la misma manera que funcionan para las plantillas de trabajo de órdenes de compra. (Para obtener más información, consulte [Plantillas de trabajo de órdenes de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template)).
+- Utilice el botón **Saltos de encabezado de trabajo** para definir cuándo el sistema debe crear nuevos encabezados de trabajo, según los campos usados para ordenar. Por ejemplo, para crear un encabezado de trabajo para cada ID de contenedor, seleccione **Editar consulta** en el Panel de acciones y luego agregue el campo **ID de contenedor** a la pestaña **Ordenación** del editor de consultas. Los campos que se agregan a la pestaña **Clasificación** están disponibles para su selección como *campos de agrupación*. Para configurar campos de agrupación, seleccione **Saltos de encabezado de trabajo** en el Panel de acciones y, a continuación, para cada campo que desee utilizar como campo de agrupación, seleccione la casilla de verificación en la columna **Agrupar por este campo**.
+
+Coste en destino [crea una transacción en exceso](over-under-transactions.md) si la cantidad registrada excede la cantidad del pedido original. Cuando se completa un encabezado de trabajo, el sistema actualiza el estado de las transacciones de inventario para la cantidad de pedido principal. Sin embargo, primero actualiza la cantidad que está vinculada a la transacción en exceso después de que el principal se haya comprado por completo.
+
+Si cancela un encabezado de trabajo para una transacción en exceso que ya se ha registrado, la transacción en exceso primero se reduce por la cantidad cancelada. Después de que la transacción en exceso se reduce a una cantidad de 0 (cero), el registro se elimina y las cantidades adicionales se anulan contra la cantidad del pedido principal.
