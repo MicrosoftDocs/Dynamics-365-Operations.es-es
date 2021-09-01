@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720261"
 ---
 # <a name="rebate-management-module-overview"></a>Descripción general del módulo de gestión de devoluciones
 
@@ -91,10 +91,9 @@ Los usuarios ya no tienen que gestionar acuerdos o provisiones en dos pasos. Las
 
 Cuando se calculan las devoluciones, el proceso crea transacciones que se pueden revisar antes de que se produzca la contabilización. Un proceso separado contabiliza las transacciones de adminstración de devoluciones. Luego, se puede crear una transacción de diario, nota de crédito o débito durante la contabilización en las transacciones propuestas. Se pueden obtener declaraciones de informes y listados de transacciones para garantizar el cumplimiento, la eficacia y la transparencia.
 
-
 ## <a name="guaranteed-royalty-payments"></a>Pagos de regalías garantizados
 
-En la gestión de devoluciones, la generación automática de pagos permite gestionar las regalías de forma rápida y sencilla, incluso cuando se aplican los mínimos garantizados. 
+En la gestión de devoluciones, la generación automática de pagos permite gestionar las regalías de forma rápida y sencilla, incluso cuando se aplican los mínimos garantizados.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Maximizar el gasto frente a las devoluciones
 

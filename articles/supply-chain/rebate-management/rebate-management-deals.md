@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716501"
 ---
 # <a name="rebate-management-deals"></a>Acuerdos de gestión de devoluciones
 
@@ -102,6 +102,7 @@ Una vez que haya creado un acuerdo como se describe en la sección anterior, pue
         - *Todos*: la línea de acuerdo se aplica a todos los artículos.
 
     - **Relación de artículo**: si seleccionó *Tabla* en el campo **Código de artículo**, seleccione el artículo al que se aplica la línea de acuerdo. Si ha seleccionado *Grupo*, seleccione el grupo de artículos. Si ha seleccionado *Todos*, este campo no está disponible.
+    - **Tipo de unidad** - Seleccione el tipo de unidad que se aplica a la línea del acuerdo (*Unidad de inventario* o *Unidad de peso capturado*). Tenga en cuenta que este campo puede estar en blanco para registros más antiguos. En este caso, se asume el valor de *Unidad de inventario*.
     - **(Parámetros de gestión de inventario)**: en los campos restantes de la línea de oferta, especifique valores para los parámetros de gestión de inventario que se utilizarán para definir los artículos que se incluyen en el acuerdo (como el tamaño, el color, el estilo, el sitio y el almacén del artículo). Para agregar o eliminar las dimensiones, seleccione **Dimensiones de la pantalla** en el Panel de acciones.
 
 1. En el panel Acciones, seleccione **Guardar**.

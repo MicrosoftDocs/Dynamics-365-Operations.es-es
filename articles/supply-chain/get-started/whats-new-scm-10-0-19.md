@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773546"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novedades y cambios en la versión 10.0.19 de Dynamics 365 Supply Chain Management (junio de 2021)
 
@@ -35,6 +35,7 @@ La mayoría de estas características deben habilitarse mediante la [Administrac
 
 | Área de características | Característica | Más información |
 |---|---|---|
+| Inventario&nbsp;y&nbsp;logística | [Aprobar y guardar los datos bancarios enviados por el proveedor](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [Mantener información de cuentas bancarias del proveedor](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | Inventario y logística | [Optimización de exportación de entidad de datos de persona de contacto](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Cuando está característica está habilitada, los cambios en los datos referenciados no harán que los contactos se incluyan en la siguiente exportación incremental. Cuando está característica está deshabilitada, los cambios en los datos referenciados harán que los contactos se incluyan en la siguiente exportación incremental. |
 | Inventario y logística | [Mejoras incrementales para las capacidades de ejecución del almacén con unidades de escalado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Mensajes del procesador de mensajes](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Ajuste de inventario de almacén](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Inventario y logística | [Funcionalidad de búsqueda para los campos Introducción de documento y Conclusión de documento en la página presupuesto de venta](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Esta función añade la funcionalidad de búsqueda para los campos **Introducción de documento** y **Conclusión de documento** en la página **Presupuesto de venta**.<br><br>De forma predeterminada, esta característica está habilitada. |

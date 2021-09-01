@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 5e63c5f3f327870b616eb93f80544c4f1e89980e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a1454e3d9045810f20460610124c04cfff92171960e3b01962a1332b78191d71
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720381"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.10 (mayo de 2020)
 
@@ -57,11 +57,11 @@ Dynamics 365 Supply Chain Management 10.0.10 incluye Platform updates. Para obte
 
 Para obtener información sobre las correcciones de errores incluidas en esta actualización, inicie sesión en Lifecycle Services (LCS) y consulte el [artículo de KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=424137&dbType=3&qc=bf63d49dcc96e51eb42ac1dd66c6c5e5d7548f1e176f729e324ea3353b9860cb).
 
-### <a name="dynamics-365-2020-release-wave-1-plan"></a>Dynamics 365: primera oleada de lanzamiento de versiones de 2020
+### <a name="dynamics-365-2020-release-wave-1-plan"></a>Dynamics 365: primer lanzamiento de versiones de 2020
 
 ¿Le gustaría conocer las nuevas y futuras funcionalidades disponibles en nuestra plataforma y en nuestras aplicaciones empresariales?
 
-Consulte [Dynamics 365: primera oleada de lanzamiento de versiones de 2020](/dynamics365-release-plan/2020wave1/index). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
+Consulte [Dynamics 365: primer lanzamiento de versiones de 2020](/dynamics365-release-plan/2020wave1/index). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 

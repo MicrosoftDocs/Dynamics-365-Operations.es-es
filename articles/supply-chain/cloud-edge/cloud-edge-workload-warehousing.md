@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345509"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740704"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -142,7 +142,7 @@ Los siguientes tipos de órdenes de trabajo se admiten actualmente para cargas d
 
 - Pedidos de ventas
 - Emisión de transferencia
-- Reabastecimiento
+- Reabastecimiento (sin incluir materias primas para la producción)
 - Movimiento de inventario
 - Recuento cíclico
 - Pedidos de compra (vinculadas a pedidos de almacén)
@@ -298,6 +298,7 @@ La siguiente tabla resume qué escenarios de producción de gestión de almacene
 | Ubicación de bienes terminados y notificados como terminados | Sí | Sí |
 | Ubicación de coproducto y producto derivado | Sí | Sí |
 | <p>Todos los demás procesos de gestión de almacenes están relacionados con la producción, incluyendo:</p><li>Liberar al almacén</li><li>Procesamiento de oleadas de producción</li><li>Picking de materia prima</li><li>Ubicación de kanban</li><li>Picking de kanban</li><li>Iniciar pedido de producción</li><li>Residuo de producción</li><li>Último pallet de producción</li><li>Registrar lista de selección</li><li>Vaciar kanban</li></ul> | Sí | N.º |
+| Reabastecimiento de materias primas | N.º | N.º |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Mantenimiento de unidades de escala para WES
 

@@ -2,7 +2,7 @@
 title: Planificación con cantidades negativas disponibles
 description: Este tema explica cómo se maneja la disponibilidad negativa cuando utiliza la optimización de planificación.
 author: ChristianRytt
-ms.date: 02/18/2020
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1c403e23309dda36dd1c99e22bbae0aa2d6d76a4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97688e09aae9706dd85e7965aa08c7ea873a44d81391c39406e2e6367660e0d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758553"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planificación con cantidades negativas disponibles
 
@@ -73,17 +73,29 @@ En este caso, el motor de planificación supone que la cantidad disponible para 
 
 El resultado es un pedido planificado de 25 uds. (= 25 uds. &minus; 0 uds.) para rellenar el almacén 13 desde 0 uds. a 25 unidades.
 
+## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Planificación cuando hay una reserva contra el inventario disponible negativo
+
+Si ajusta el inventario mientras existen reservas físicas, puede provocar una situación en la que un pedido se reserve físicamente frente a un inventario negativo. En este caso, debido a que existe una reserva física, Optimización de planificación asume que está respaldada por el inventario disponible, incluso si la recepción del inventario disponible aún no está registrada en el sistema. Por lo tanto, asume que el reabastecimiento no es necesario y no crea un pedido planificado para reabastecer la cantidad del pedido.
+
+En el siguiente ejemplo se muestra este escenario.
+
+### <a name="example"></a>Ejemplo
+
+El sistema se configura de la siguiente manera:
+
+- El producto *FG* existe y tiene *10* unidades de inventario disponible.
+- La configuración del producto permite un inventario físico negativo.
+- Existe un pedido de ventas por una cantidad de *10* unidades del producto *FG*.
+- La cantidad del pedido de ventas se reserva físicamente contra el inventario disponible existente.
+
+Luego ajusta la cantidad del producto *FG* de modo que el inventario disponible se convierte en 0 (cero). Debido a que el inventario de productos disponibles es cero, la cantidad del pedido de ventas ahora se reserva contra el inventario negativo. Sin embargo, si ejecuta la planificación maestra ahora, no se creará ningún pedido planificado para suministrar el pedido de ventas, porque Optimización de planificación asumirá que existe el inventario disponible necesario para suministrar la reserva física.
+
 ## <a name="related-resources"></a>Recursos relacionados
 
-[Visión general de la optimización de la planificación](planning-optimization-overview.md)
-
-[Introducción a la optimización de la planificación](get-started.md)
-
-[Análisis de aptitud de la optimización de la planificación](planning-optimization-fit-analysis.md)
-
-[Ver el historial del plan y los registros de planificación](plan-history-logs.md)
-
-[Cancelar un trabajo de planificación](cancel-planning-job.md)
-
+- [Información general de la optimización de la planificación](planning-optimization-overview.md)
+- [Introducción a la optimización de la planificación](get-started.md)
+- [Análisis de aptitud de la optimización de la planificación](planning-optimization-fit-analysis.md)
+- [Ver el historial del plan y los registros de planificación](plan-history-logs.md)
+- [Cancelar un trabajo de planificación](cancel-planning-job.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
