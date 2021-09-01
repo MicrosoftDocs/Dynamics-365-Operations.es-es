@@ -2,7 +2,7 @@
 title: Novedades o cambios en la aplicación móvil Warehouse Management
 description: Este tema enumera las funciones nuevas y modificadas para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
 author: ivanv-microsoft
-ms.date: 06/07/2021
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,38 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61124728942c0b8162de9f687ae752773c47d07e
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720093"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="2070"></a>2.0.7.0
+
+### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Nuevas funciones, correcciones y mejoras en la versión 2.0.7.0
+
+- Se agregó una sección a la página **Acerca de** que verifica la última versión publicada de la aplicación.
+- Se facilitó el desplazamiento y el deslizamiento entre páginas.
+- Se modificó el icono del botón ascendente/descendente en la lista de trabajo.
+- Se redujeron los márgenes de la tarjeta **Detalles** para permitir que quepa más información.
+- Se aplicaron varias mejoras de rendimiento para reducir el problema de que la aplicación se ralentizara con el tiempo.
+- Si hay más controles de los que caben en la pantalla, lo que genera una paginación, el control giratorio ya no se desplaza de la misma forma que la página.
+- Se da prioridad a mostrar el último valor escaneado sobre mostrar el título de la tarea, por lo que si se superponen, el título de la tarea se truncará.
+- Se han solucionado varios problemas que provocaban que el sistema dejara de responder.
+- El texto en varios lugares ya no se corta en algunos idiomas.
+- La aplicación ahora se ejecuta en modo de pantalla completa de forma predeterminada.
+- Se solucionó un problema que ocasionalmente causaba que los escaneos se ignoraran en la página principal con ciertos dispositivos.
+
+### <a name="known-issues-in-version-2070"></a>Problemas conocidos en la versión 2.0.7.0
+
+- En algunos dispositivos, recibirá el siguiente mensaje de error cuando inicie la aplicación o comience una tarea: "No se puede encontrar una vista adecuada para el tamaño especificado". Si ve este mensaje de error en cualquiera de sus dispositivos, debe degradar la aplicación móvil Warehouse Management a la versión 2.0.6.0 en ese dispositivo y esperar para actualizar hasta que se publique la próxima versión de la aplicación.
 
 ## <a name="version-2060"></a>Versión 2.0.6.0
 

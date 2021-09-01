@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336988"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773305"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introducción a la contabilidad de inventario global
 
@@ -42,7 +42,7 @@ Actualmente, la contabilidad de inventario global no admite todas las funciones 
 > [!IMPORTANT]
 > Para utilizar la contabilidad de inventario global, debe tener un entorno de alta disponibilidad habilitado para LCS (no un entorno OneBox). Además, debe ejecutar Supply Chain Management versión 10.0.19 o posterior.
 
-Para suscribirse a la vista previa pública de Contabilidad de inventario global, envíe su ID de entorno LCS por correo electrónico al [Equipo de contabilidad de inventario global](mailto:GlobalInventoryAccounting@service.microsoft.com). Una vez que haya sido aprobado para el programa, el equipo le enviará un correo electrónico de seguimiento que contiene una clave beta de Contabilidad de inventario global y los puntos finales de su servicio. Después de recibir la clave beta, puede [instalar el complemento](#install).
+Para suscribirse a la vista previa pública de Contabilidad de inventario global, envíe su ID de entorno LCS por correo electrónico al [Equipo de contabilidad de inventario global](mailto:GlobalInvAccount@microsoft.com). Una vez que haya sido aprobado para el programa, el equipo le enviará un correo electrónico de seguimiento que contiene una clave beta de Contabilidad de inventario global y los puntos finales de su servicio. Después de recibir la clave beta, puede [instalar el complemento](#install).
 
 ## <a name="licensing"></a>Licencias
 
