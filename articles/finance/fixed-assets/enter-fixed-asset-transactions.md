@@ -1,8 +1,8 @@
 ---
 title: Opciones de transacciones de activos fijos
 description: Este tema describe los diferentes métodos disponibles para crear transacciones de activos fijos.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764272"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344699"
 ---
 # <a name="fixed-asset-transaction-options"></a>Opciones de transacciones de activos fijos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema describe los diferentes métodos disponibles para crear transacciones de activos fijos.
 
@@ -56,16 +57,18 @@ Cualquier tipo de transacción de activos fijos se puede registrar en la página
 |                                     | Proveedores         | Diario de facturas, Diario de aprobación de facturas |
 |                                     | Adquisición y abastecimiento | Pedido de compra                            |
 | Depreciación                        | Activos fijos             | Activos fijos                              |
-|                                     | Contabilidad general           | Diario general                           |
+|                                     | Contabilidad General           | Diario general                           |
 | Cancelación                            | Activos fijos             | Activos fijos                              |
-| ** **                               | Contabilidad general           | Diario general                           |
-| ** **                               | Clientes      | Factura de servicios                         |
+|                                     | Contabilidad General           | Diario general                           |
+|                                     | Clientes      | Factura de servicios                         |
 
-El valor restante de los períodos de depreciación del activo fijo no se actualiza cuando una línea de diario del tipo de transacción de depreciación se crea o se importa manualmente a través de una entidad de los datos. Este valor se actualiza cuando el proceso de propuesta de depreciación se utiliza para crear la línea de diario.
+El valor restante no se actualiza para los períodos de depreciación de un activo fijo cuando una línea de diario del tipo de transacción de depreciación se crea manualmente o se importa a través de una entidad de datos. El valor restante se actualiza cuando se utiliza el proceso de propuesta de depreciación para crear la línea de diario.
 
 Para obtener más información, consulte [Integración de activos fijos](fixed-asset-integration.md).
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Transacciones que requieren números de asiento distintos
+El sistema impide contabilizar dos veces la depreciación en el mismo período. Por ejemplo, si dos usuarios crean propuestas de depreciación por separado para enero, la depreciación del primer usuario se contabilizará en el primer diario. Cuando el segundo usuario registra la depreciación en el segundo diario, el sistema comprueba la fecha en que se ejecutó la depreciación por última vez y no registrará la depreciación para el mismo período por segunda vez.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Transacciones que requieren un número de asiento distinto
 
 Las siguientes transacciones de activos fijos utilizarán diferentes números de asiento:
 

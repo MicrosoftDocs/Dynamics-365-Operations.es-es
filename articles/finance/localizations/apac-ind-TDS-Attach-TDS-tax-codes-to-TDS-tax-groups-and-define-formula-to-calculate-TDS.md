@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 81aac53cca91a75cde811c314bd6f7039852d32505fe6540921e17f3d1bbc7ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98d6ceb794716f39c6ae47b300bdb7618a8e688b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739319"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345237"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Adjuntar códigos de impuestos de TDS a grupos de impuestos de TDS y definir la fórmula para calcular TDS
 
@@ -55,7 +55,7 @@ Siga estos pasos para configurar un grupo de impuestos TDS, adjuntarle códigos 
     > [!NOTE]
     > El campo **Base imponible** no se puede establecer en **Importe bruto excluido** para el código de impuestos TDS que tiene un Id. de prioridad de **1**.
 
-12. El cálculo de TDS se basa en la fórmula que se define en el campo **Expresión de cálculo** para cada código de impuestos que se adjunta al grupo de impuestos TDS. Seleccione el signo más (**+**), signo menos (**-**), signo de multiplicación (**\**_) o el signo de división (_*/**) para introducir la expresión de cálculo para el código de impuestos TDS seleccionado en el campo **Expresión de cálculo**.
+12. El cálculo de TDS se basa en la fórmula que se define en el campo **Expresión de cálculo** para cada código de impuestos que se adjunta al grupo de impuestos TDS. Seleccione el signo más (+), signo menos (-), signo de multiplicación (\*) o el signo de división (/) para introducir la expresión de cálculo para el código de impuestos TDS seleccionado en el campo **Expresión de cálculo**.
 
     > [!NOTE]
     > No se puede definir ninguna expresión de cálculo para el código de impuestos TDS que tiene un Id. de prioridad de **1**.

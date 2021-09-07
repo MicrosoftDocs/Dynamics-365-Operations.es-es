@@ -1,8 +1,8 @@
 ---
-title: Proceso de idoneidad para inscripción
-description: Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
-author: andreabichsel
-ms.date: 04/06/2020
+title: Procesar idoneidad de inscripción
+description: En este tema se explica cómo ejecutar el proceso de idoneidad de inscripción.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782081"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417493"
 ---
-# <a name="process-enrollment-eligibility"></a>Proceso de idoneidad para inscripción
+# <a name="process-enrollment-eligibility"></a>Procesar idoneidad de inscripción
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
+En este tema se explica cómo ejecutar el proceso de idoneidad de inscripción.
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Procesamiento**, seleccione **Procesamiento de idoneidad para inscripción**.
 
@@ -53,11 +53,11 @@ Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
 
 ## <a name="view-process-results"></a>Ver resultados de proceso
 
-Este artículo explica cómo ver los resultados del proceso de idoneidad.
+En este tema se explica cómo ver los resultados del proceso de idoneidad.
 
 1.  En el espacio de trabajo **Administración de prestaciones**, en **Procesamiento**, seleccione **Procesar resultados**.
 
-2.  En el formulario **Procesar resultados**, se especifican los siguientes campos:
+2.  En la página **Procesar resultados**, se especifican los siguientes campos:
 
    | Campo | Descripción |
    | --- | --- |

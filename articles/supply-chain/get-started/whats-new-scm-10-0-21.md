@@ -2,7 +2,7 @@
 title: Versión preliminar de Dynamics 365 Supply Chain Management 10.0.21 (octubre de 2021)
 description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
-ms.date: 08/02/2021
+ms.date: 08/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 517411512760374f1d1fd3b8ea3615563c47202c2e847569d00cb17a94657630
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
+ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012046"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7391217"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.21 (octubre de 2021)
 
@@ -24,22 +24,23 @@ ms.locfileid: "7012046"
 
 En este tema se enumeran las características nuevas o modificadas en la versión preliminar de Microsoft Dynamics 365 Supply Chain Management de la versión 10.0.21. Esta versión tiene el número de compilación 10.0.960 y está disponible de la siguiente manera:
 
-- **Versión preliminar de l versión:** agosto de 2021
+- **Versión preliminar de la versión:** agosto de 2021
 - **Disponibilidad general de la versión (actualización automática):** septiembre de 2021
 - **Disponibilidad general de la versión (actualización automática):** octubre de 2021
 
 ## <a name="known-deployment-issue"></a>Problema de implementación conocido
+
 Al implementar la versión 10.0.21 en IaaS, es posible que reciba la siguiente advertencia de implementación:
 
 **Código de advertencia:** 95017
 
-**Mensaje de advertencia:** Fallo de ejecución del script [SetupDiagnostics] respecto a VM
+**Mensaje de advertencia:** Fallo de ejecución del script \[SetupDiagnostics\] respecto a VM
 
-La implementación funcionará a pesar de la advertencia; sin embargo, pueden ocurrir los siguientes problemas conocidos en Lifecycle Services (LCS):
+La implementación funcionará a pesar de la advertencia. Sin embargo, los siguientes problemas conocidos pueden ocurrir en Lifecycle Services (LCS):
 
--   En la página **Supervisión del entorno**, el enlace **Ver información detallada de la versión** no aparecerá, por lo que no podrá ver las versiones específicas de los módulos instalados en su entorno. Sin estos datos, las revisiones posteriores pueden fallar porque el proceso que aplica las revisiones utiliza estos datos para verificar que se cumplan los requisitos previos de la versión del módulo. Debido a que no es posible usar la compilación PEAP/Versión preliminar en producción o aplicar revisiones, el impacto debería ser mínimo.
--   Las fichas **Métricas de rendimiento** y **Análisis de índice** de la página **Supervisión del entorno** de SQL Insights no mostrarán ningún dato. Todas las demás funciones de **Supervisión del entorno** funcionarán según lo previsto.
--   La página **Diagnóstico completo del sistema** no será accesible. Los datos asociados sobre el estado de las ejecuciones nocturnas del recopilador y los problemas detectados por sus reglas tampoco aparecerán.
+- En la página **Supervisión del entorno**, el enlace **Ver información detallada de la versión** no aparecerá, por lo que no podrá ver las versiones específicas de los módulos instalados en su entorno. Sin estos datos, las revisiones posteriores pueden fallar porque el proceso que aplica las revisiones utiliza estos datos para verificar que se cumplan los requisitos previos de la versión del módulo. Debido a que no es posible usar la compilación PEAP/Versión preliminar en producción o aplicar revisiones, el impacto debería ser mínimo.
+- Las fichas **Métricas de rendimiento** y **Análisis de índice** de la página **Supervisión del entorno** de SQL Insights no mostrarán ningún dato. Todas las demás funciones de **Supervisión del entorno** funcionarán según lo previsto.
+- La página **Diagnóstico completo del sistema** no será accesible. Los datos asociados sobre el estado de las ejecuciones nocturnas del recopilador y los problemas detectados por sus reglas tampoco aparecerán.
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
@@ -52,11 +53,11 @@ La mayoría de estas características deben habilitarse mediante la [Administrac
 | Inventario&nbsp;y&nbsp;logística | [Complemento de contabilidad de inventario global para Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Página principal de Contabilidad de inventario global](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Inventario&nbsp;y&nbsp;logística | [Contabilizar ajustes disponibles utilizando códigos de motivo configurables conectados a cuentas de contrapartida](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Códigos de motivo de recuento de inventario](../warehousing/reason-codes-for-counting-journals.md) |
 | Inventario&nbsp;y&nbsp;logística | [Directiva de exportación de datos de referencia del presupuesto de ventas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Elija si los cambios en los datos referenciados por los presupuestos harán que esos presupuestos (o líneas) se incluyan en la siguiente exportación incremental. Sus exportaciones incrementales se ejecutarán más rápidamente si decide no incluir dichos presupuestos o líneas.<br><br>Esta función agrega una configuración llamada **Omitir los datos de referencia de presupuestos de ventas durante el seguimiento de cambios** en la página **Parámetros de cliente**. |
-| Inventario&nbsp;y&nbsp;logística | [Escanear códigos de barras en el almacén utilizando los estándares de formato GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | *Próximamente*<!-- KFM: Add doc link when ready. --> |
-| Inventario&nbsp;y&nbsp;logística | Ofertas selladas <!-- KFM: Add RP link when available --> | *Próximamente*<!-- KFM: Add doc link when ready. --> |
+| Inventario&nbsp;y&nbsp;logística | [Escanear códigos de barras en el almacén utilizando los estándares de formato GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Códigos de barras GS1 y códigos QR](../warehousing/gs1-barcodes.md) |
+| Inventario&nbsp;y&nbsp;logística | [Reserva flexible para el complemento de Visibilidad de inventario](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Reservas de visibilidad de inventario](../inventory/inventory-visibility-reservations.md) |
 | Inventario&nbsp;y&nbsp;logística | [Mejoras en la deducción y en la ponderación para la gestión de las devoluciones](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Gestionar las deducciones utilizando el banco de trabajo de deducciones](../rebate-management/deduction-workbench.md )<br><br>[Procesar, revisar y registrar devoluciones](../rebate-management/process-review-post.md)<br><br>[Acuerdos de gestión de devoluciones](../rebate-management/rebate-management-deals.md) |
-| Inventario&nbsp;y&nbsp;logística | [Instrucciones detalladas de la aplicación de almacén](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | *Próximamente*<!-- KFM: Add doc link when ready --> |
-| Inventario&nbsp;y&nbsp;logística | [Descansos laborales y actualizaciones de seguimiento para el coste en destino](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Seguimiento de actualización para ubicación](../landed-cost/update-tracking-putaway.md )<br><br>[Procesamiento de mercancía en tránsito](../landed-cost/in-transit-processing.md) |
+| Inventario&nbsp;y&nbsp;logística | [Instrucciones detalladas de la aplicación de almacén](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](../warehousing/mobile-app-titles-instructions.md) |
+| Inventario&nbsp;y&nbsp;logística | [Descansos laborales y actualizaciones de seguimiento para el coste en destino](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Seguimiento de actualización para colocación](../landed-cost/update-tracking-putaway.md )<br><br>[Procesamiento de mercancía en tránsito](../landed-cost/in-transit-processing.md) |
 | Planificación maestra | [Días negativos para Optimización de planificación](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/negative-days-support-planning-optimization) | [Tolerancia al retraso (días negativos)](../master-planning/planning-optimization/delay-tolerance.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Mejoras de características incluidas en esta versión
@@ -66,9 +67,9 @@ La tabla siguiente enumera las mejoras de características incluidas en esta ver
 | Área de características | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
 |---|---|---|
 | Gestión de costes | Detalles del progreso del cierre de inventario | Esta función de vista previa permite una vista detallada del progreso de cierre del inventario. |
-| Planificación maestra | (Versión preliminar) Compatibilidad de MRP basada en prioridad para la Optimización de planificación | Esta función de vista previa de Optimización de planificación permite la planificación maestra impulsada por la prioridad de planificación con el punto de pedido. Los cambios destacados incluyen: campo **Prioridad de planificación** en líneas de pedidos de ventas, líneas de pedidos de compra, previsión de demanda y órdenes planificadas; una nueva opción de código de cobertura; campo **Cobertura de artículos** para el punto de reorden; formularios de configuración de planificación maestra para controlar la configuración de prioridad de planificación y lógica de cálculo de optimización de planificación para establecer y respetar la prioridad de planificación. |
 | Adquisición y abastecimiento | Evitar el consumo excesivo de reservas de presupuesto general cuando hay varias solicitudes de compra en el flujo de trabajo | Esta función de vista previa mejora la verificación de errores cuando los usuarios envían y aprueban solicitudes de compra que exceden el saldo restante de una línea de reserva de presupuesto general. Esto ayuda a evitar el consumo excesivo de reservas presupuestarias generales cuando hay varias solicitudes de compra en el flujo de trabajo. |
 | Control de producción | Mostrar los números de serie completa, lote y matrícula de entidad de almacén en la interfaz de ejecución de planta de producción | Esta función proporciona una experiencia mejorada para ver listas de números de serie, lote y matrícula de entidad de almacén en la interfaz de ejecución de la planta de producción. La pantalla cambia de una vista de tarjeta con un número limitado de caracteres a una vista de lista que proporciona suficiente espacio para mostrar los valores completos. La lista también ofrece la posibilidad de buscar números específicos. |
+| Ventas y marketing | Limitar el número de pedidos de ventas que pueden seleccionarse para registro | Esta función le permite definir el número máximo de pedidos de ventas que se pueden seleccionar al registrar confirmaciones, listas de selección, albaranes y facturas desde la página de lista de pedidos de ventas. Se habilita automáticamente. La función agrega una configuración llamada **Número máximo de pedidos de ventas para registrar** en la página **Parámetros de clientes**. La nueva configuración tiene un valor predeterminado de *100*. La función ayuda a mejorar el rendimiento de la página de lista de pedidos de ventas cuando se selecciona una cantidad sustancial de pedidos de ventas. No tiene ningún impacto en el número de pedidos de ventas que se pueden procesar mediante una tarea periódica. |
 | Gestión de almacenes | Desacoplar el trabajo de ubicación de los avisos de envío por adelantado | Esta función es necesaria para enviar y recibir avisos de envío anticipados (ASN) cuando está ejecutando una carga de trabajo de administración de almacén en una unidad de escalado (como parte de una topología híbrida distribuida). Agrega una nueva tabla de base de datos dedicada a almacenar información sobre el trabajo de almacenamiento. Anteriormente, esta información se almacenaba en tablas que también se usaban para los ASN. |
 | Gestión de almacenes | Asignar unidades mixtas | Permite que el sistema coloque artículos en ubicaciones que incluyan unidades mixtas (como cajas y estuches). Para cada línea de plantilla de asignación de posiciones, esta función le permite elegir si la línea debe ubicar los artículos en ubicaciones de unidades mixtas o de unidades individuales. |
 | Gestión de almacenes | Use una API más rápida para el cierre o la reapertura de contenedores en la estación de embalaje | Cuando esta función de vista previa está habilitada, las transacciones de inventario relacionadas con los contenedores se crean mediante un nuevo proceso liviano que mejora el rendimiento del cierre o reapertura de los contenedores durante el procesamiento manual de la estación de embalaje. |
@@ -80,7 +81,7 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 | Área de características | Temas nuevos o actualizados |
 |---|---|
 | Planificación maestra | [Previsiones de inventario](../master-planning/inventory-forecast.md) |
-| Planificación maestra | [Parámetros no utilizados por la optimización de la planificación](../master-planning/planning-optimization/not-used-parameters.md) |
+| Planificación maestra | [Parámetros no utilizados por Optimización de planificación](../master-planning/planning-optimization/not-used-parameters.md) |
 | Planificación maestra | [Métodos de reabastecimiento y modificación de cantidades](../master-planning/planning-optimization/replenishment-methods-quantity-modification.md) |
 | Planificación maestra | [Programación con capacidad infinita](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Planificación maestra | [Ver historial del plan y registros de planificación](../master-planning/planning-optimization/plan-history-logs.md) |

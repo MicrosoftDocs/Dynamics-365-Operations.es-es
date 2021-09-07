@@ -1,8 +1,8 @@
 ---
-title: Configurar parámetros de Administración de prestaciones por empresa
-description: Configure los parámetros para la Administración de prestaciones por empresa en Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 12/07/2020
+title: Configurar parámetros de administración de prestaciones por empresa
+description: En este tema se describe cómo configurar los parámetros para la administración de prestaciones por empresa en Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 8/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c0f9f31006ca83082ddc61da5927841855077737289e31f66708ade6d66acaf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d0bc8d511126901be09028dc3c10636f2902e79
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732810"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423314"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>Configurar parámetros de Administración de prestaciones por empresa
 
@@ -36,7 +36,7 @@ Para cada organización que ofrece prestaciones, debe definir la configuración 
 
    | Campo | Descripción |
    | --- | --- |
-   | **Enviar un correo de confirmación** | Cuando esta característica está activada, se enviará un correo electrónico de confirmación a los empleados cuando comprueben de la experiencia de inscripción de prestaciones en Autoservicio para empleados. |
+   | **Enviar un correo de confirmación** | Cuando esta función está activada, se enviará un correo electrónico de confirmación a los empleados cuando salgan de la experiencia de inscripción de prestaciones en **Autoservicio para empleados**. |
    | **Plantilla de correo de confirmación** | Seleccione la plantilla de correo electrónico de la organización que se usará al enviar la confirmación de inscripción. Si no selecciona una plantilla, se enviará el siguiente correo electrónico genérico:<br><br>%EmployeeFirstName%,<br><br>¡Enhorabuena! Ha completado correctamente la inscripción a las prestaciones.<br><br>Gracias,<br>Prestaciones de <Company/Org name>. |
    | **Dirección predeterminada de correo del remitente** | La dirección de correo electrónico que se usará al enviar el correo electrónico de confirmación. |
 

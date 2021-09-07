@@ -1,8 +1,8 @@
 ---
-title: Crear una aplicación de exportación de datos recurrente
-description: Este artículo muestra cómo crear una aplicación lógica de Microsoft Azure que exporta datos de Microsoft Dynamics 365 Human Resources según una programación periódica.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Crear una aplicación de exportación de datos periódica
+description: En este tema se describe cómo crear una aplicación lógica de Microsoft Azure que exporta datos de Microsoft Dynamics 365 Human Resources según una programación periódica.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cef9e7f78646a4a5794eb14a9f1ad355768480644504c548afbb32e23fff4cd5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ce9fe4e77fa968463052e037ca767ed38e72796
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744879"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414771"
 ---
-# <a name="create-a-recurring-data-export-app"></a>Crear una aplicación de exportación de datos recurrente
+# <a name="create-a-recurring-data-export-app"></a>Crear una aplicación de exportación de datos periódica
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artículo muestra cómo crear una aplicación lógica de Microsoft Azure que exporta datos de Microsoft Dynamics 365 Human Resources según una programación periódica. El tutorial aprovecha la interfaz de programación de aplicaciones (API) REST del paquete DMF de Human Resources para exportar los datos. Después de exportar los datos, la aplicación lógica guarda el paquete de datos exportados en la carpeta de Microsoft OneDrive for Business.
+En este tema se describe cómo crear una aplicación lógica de Microsoft Azure que exporta datos de Microsoft Dynamics 365 Human Resources según una programación periódica. El tutorial aprovecha la interfaz de programación de aplicaciones (API) REST del paquete DMF de Human Resources para exportar los datos. Después de exportar los datos, la aplicación lógica guarda el paquete de datos exportados en la carpeta de Microsoft OneDrive for Business.
 
 ## <a name="business-scenario"></a>Escenario empresarial
 
@@ -92,7 +92,7 @@ La mayor parte del ejercicio implica la creación de la aplicación lógica.
     1. Utilice la acción **Invocar una solicitud HTTP** desde el conector HTTP con Azure AD.
 
         - **URL de recurso base:** la URL del entorno de Human Resources (no incluya información de ruta/espacio de nombres).
-        - URI de recurso de **Azure AD**: `http://hr.talent.dynamics.com`
+        - **URI de recurso de Azure AD**: `http://hr.talent.dynamics.com`
 
         > [!NOTE]
         > El servicio Human Resources aún no proporciona un conector que exponga todas las API que componen la API REST de paquetes DMF, como **ExportToPackage**. En su lugar, debe llamar a las API utilizando solicitudes HTTPS sin procesar a través del conector HTTP con Azure AD. Este conector usa Azure Active Directory (Azure AD) para la autenticación y autorización en Human Resources.

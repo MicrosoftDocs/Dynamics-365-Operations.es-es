@@ -2,7 +2,7 @@
 title: Cargar imágenes
 description: En este tema se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757407"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423264"
 ---
 # <a name="upload-images"></a>Cargar imágenes
 
@@ -52,10 +52,17 @@ La convención de nomenclatura predeterminada varía según la categoría:
 - Las imágenes de categoría deben llamarse "**/Categories/\{CategoryName\}.png**"
 - Las imágenes de los clientes deben llamarse "**/Customers/\{CustomerNumber\}.jpg**"
 - Las imágenes de los empleados deben llamarse "**/Workers/\{WorkerNumber\}.jpg**"
-- Las imágenes del producto deben llamarse "**/Products/\{ProductNumber\}_000_001.png**"
+- Las imágenes del producto deben llamarse "**/Products/\{ProductNumber\}\_000_001.png**"
     - 001 es la secuencia de la imagen y puede ser 001, 002, 003, 004 o 005
 - Las imágenes de variante del producto deben llamarse "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - Por ejemplo: 93039 \^ \^ 2 \^ Black \^_000_001.png
+    - Por ejemplo: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- Las imágenes de variante del producto con dimensión de configuración deben llamarse "**/Products/\{ProductNumber\} \^ \{Configuration\}\_Color 000_001.png**"
+    - Por ejemplo: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Para las imágenes de variante del producto, si el valor de la dimensión está vacío, debe haber dos espacios en blanco entre los signos de intercalación en el nombre del archivo.
+
+Los ejemplos anteriores utilizan la configuración predeterminada. El carácter y las dimensiones del separador son configurables y el nombre exacto requerido puede variar entre implementaciones. Un método para identificar la convención de nomenclatura exacta requerida es usar la consola de desarrollador del explorador para inspeccionar las solicitudes de imágenes de variantes del producto mientras se cambian las dimensiones del producto en la página de detalles del producto (PDP) del escaparate.
 
 ## <a name="upload-an-image"></a>Subir una imagen
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720093"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386108"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720093"
 
 Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>Versión 2.0.9.0
+
+Esta versión soluciona un problema en el que la aplicación podía dejar de responder si los usuarios subían una página desde la parte superior de una lista.
+
+## <a name="version-2080"></a>Versión 2.0.8.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+- Soporte agregado para la [función de instrucciones de paso](mobile-app-titles-instructions.md) que se introdujo en Supply Chain Management versión 10.0.21.
+- Se agregó una animación de sugerencias para mostrar a los usuarios que pueden cerrar superposiciones deslizando hacia abajo.
+- Se agregó soporte para teclas de función en listas de acciones y menús. Los usuarios pueden mantener pulsada cualquier tecla de función durante tres segundos para obtener una lista de los comandos disponibles.
+- Se solucionó un problema que causaba que se mostrara el siguiente mensaje de error en algunos dispositivos: "No se puede encontrar una vista adecuada para el tamaño especificado".
+- Se solucionó un problema por el cual el modo de pantalla completa no siempre funcionaba cuando se usaba el teclado en pantalla.
+- Se solucionó un problema por el cual el deslizamiento de página no funcionaba en dispositivos Windows.
+- Se han solucionado varios problemas que provocaban que el sistema dejara de responder.
+
+## <a name="version-2070"></a>Versión 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Nuevas funciones, correcciones y mejoras en la versión 2.0.7.0
 

@@ -1,8 +1,8 @@
 ---
 title: Elegir una tecnología de integración de datos
-description: Este artículo proporciona información sobre la integración con datos administrados por Human Resources. Describe diferentes tecnologías de integración para ayudarlo a decidir qué tecnologías se adaptan mejor a sus necesidades.
-author: andreabichsel
-ms.date: 02/28/2020
+description: Este tema proporciona información sobre la integración con datos administrados por Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720477"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414723"
 ---
 # <a name="choose-a-data-integration-technology"></a>Elegir una tecnología de integración de datos
 
@@ -28,14 +28,13 @@ ms.locfileid: "6720477"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este artículo proporciona información para la integración con datos administrados por Dynamics 365 Human Resources. Describe diferentes tecnologías de integración para ayudarlo a decidir qué tecnologías se adaptan mejor a sus necesidades.
+Este tema proporciona información para la integración con datos administrados por Dynamics 365 Human Resources. Describe diferentes tecnologías de integración para ayudarlo a decidir qué tecnologías se adaptan mejor a sus necesidades.
 
 ## <a name="data-integration-background"></a>Trasfondo de integración de datos
 
 Los datos comerciales son un activo clave que hace que su empresa sea única. Los datos de su negocio son muy valiosos. Puede utilizar las relaciones entre los datos recopilados en toda su empresa para mejorar los procesos empresariales y la inteligencia empresarial en toda su organización. Nos esforzamos por proporcionar un acceso fácil, seguro y estable a los datos de su empresa, independientemente del sistema del que provengan.
 
-Históricamente, la integración de datos entre múltiples sistemas ha sido difícil.
-Microsoft está tomando medidas para facilitar la integración de datos, y se logra un gran paso hacia ese objetivo a través de [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Históricamente, la integración de datos entre múltiples sistemas ha sido difícil. Microsoft está tomando medidas para facilitar la integración de datos, y se logra un gran paso hacia ese objetivo a través de [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Human Resources va a hacer que Dataverse sea la interfaz pública preferida para los datos de Human Resources. Con el tiempo, esperamos que todos los datos más importantes administrados por Human Resources se expongan en Dataverse. Nosotros recomendamos Dataverse como la tecnología elegida para la mayoría de las aplicaciones integradoras.
 

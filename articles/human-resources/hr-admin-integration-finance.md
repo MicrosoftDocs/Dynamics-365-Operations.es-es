@@ -1,8 +1,8 @@
 ---
 title: Configurar la integración con Finance
-description: Este artículo describe la funcionalidad disponible para la integración de Dynamics 365 Human Resources y Dynamics 365 Finance.
-author: andreabichsel
-ms.date: 03/26/2020
+description: En este tema se describe la integración entre Dynamics 365 Human Resources y Dynamics 365 Finance.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d4bbd0c95126bd869fafccc3e7c63f65f939d8c6b2a1afec8ff95f8519fe9af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba984d26c5c0b1376c0ad85e5c0665da004a46a5
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756181"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414697"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar la integración con Finance
 
@@ -141,7 +141,7 @@ En las siguientes tablas de asignación de plantillas, el nombre de la tarea con
 
 | Tabla de Dataverse (origen)              | Entidad de Finance (destino)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
-| cdm_jobpositionnumber  (Número de puesto de trabajo)                            | POSITIONID (POSITIONID)                             |
+| cdm_jobpositionnumber (Número de puesto de trabajo)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (Trabajo (Nombre))                                        | JOBID (JOBID)                                    |
 | cdm_description   (cdm_description)                                        | DESCRIPTION   (DESCRIPTION)                       |
 | cdm_departmentid.cdm_departmentnumber   (Departamento (número de departamento)) | DEPARTMENTNUMBER   (DEPARTMENTNUMBER)             |

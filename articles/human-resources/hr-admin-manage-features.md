@@ -1,8 +1,8 @@
 ---
 title: Administrar características en Human Resources
-description: Aprenda a activar o desactivar nuevas funciones en Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Este tema describe la función de Administración de características y cómo puede utilizarla.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a9c459b2b34164a9be3ed609a99deb4c5b710d340ef560e6f991e760375d6146
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 61e40f7177a1c8cf3d60a9a991ecbb0ed4d93aa1
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738376"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414642"
 ---
 # <a name="manage-features-in-human-resources"></a>Administrar características en Human Resources
 
@@ -28,7 +28,7 @@ ms.locfileid: "6738376"
 
 Como parte de nuestro desarrollo continuo de nuevas capacidades de Microsoft Dynamics 365 Human Resources, deseamos que los clientes experimenten las nuevas características lo más rápidamente posible. Ofrecemos características en versión preliminar, que están casi preparadas para la disponibilidad general y han pasado por un amplio proceso de pruebas. Simplemente estamos buscando una ronda final de comentarios de clientes y de validación antes de estén disponibles de forma general.
 
-Para obtener más información sobre características nuevas en Human Resources, consulte [Novedades en Human Resources](hr-admin-whats-new.md) y [Plan de lanzamiento de Dynamics 365 and Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
+Para obtener más información sobre características nuevas en Human Resources, consulte [Novedades en Human Resources](hr-admin-whats-new.md) y [Plan de lanzamiento de Dynamics 365 y Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
 
 El espacio de trabajo **Administración de características** proporciona una lista de características entregadas en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación. Para obtener más información acerca de la administración de características, consulte [Visión general de la Administración de características](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
@@ -69,7 +69,7 @@ La gestión de beneficios reemplaza la funcionalidad en el espacio de trabajo **
 - **Directivas de idoneidad para prestaciones**
 - **Eventos de idoneidad**
 
-Puede ver la información en estos formularios en modo de solo lectura. Si desea editar la información, primero debe deshabilitar la función administración de prestaciones (aplicable solo a entornos **Espacio aislado**).
+Puede ver la información en estas páginas en modo de solo lectura. Si desea editar la información, primero debe deshabilitar la administración de prestaciones (aplicable solo a entornos **Espacio aislado**).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Habilitar o deshabilitar Permiso y ausencia
 
@@ -92,6 +92,6 @@ No incluya los datos personales (información que podría identificarle) en los 
 ## <a name="see-also"></a>Consulte también
 
 - [Novedades de Human Resources](hr-admin-whats-new.md)
-- [Plan de la versión de Dynamics 365 y Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
+- [Plan de lanzamiento de Dynamics 365 y Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

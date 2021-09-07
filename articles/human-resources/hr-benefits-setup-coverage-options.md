@@ -1,8 +1,8 @@
 ---
 title: Crear opciones de cobertura
-description: Las opciones de cobertura en Microsoft Dynamics 365 Human Resources son niveles de cobertura para la elección de un participante en un plan o programa de prestaciones.
-author: andreabichsel
-ms.date: 06/25/2021
+description: En este tema se describen las opciones de cobertura en Microsoft Dynamics 365 Human Resources para la elección de un participante en un plan o programa de prestaciones.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 447317d0e9cb23bea21dae448048d05a3d989c89df17e4b8ea836201c20aefff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a553fa1aa4bac0d2fb11b87ee05e4e52c019411d
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741438"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423529"
 ---
 # <a name="create-coverage-options"></a>Crear opciones de cobertura
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Las opciones de cobertura determinan quién debe estar cubierto o cuánta cobertura está disponible en un plan de seguro. Por ejemplo, para un plan médico, es posible que tenga una opción **solo empleado**, una opción **empleado + 1** y opción **familia**. Para el seguro de vida, puede ofrecer cobertura para **1 x salario** o **2 x salario**.
+Las opciones de cobertura determinan quién debe estar cubierto o cuánta cobertura está disponible en un plan de seguro. Por ejemplo, para un plan médico, es posible que tenga una opción **Solo empleado**, una opción **Empleado + 1** y una opción **Familia**. Para el seguro de vida, puede ofrecer cobertura para **1 x salario** o **2 x salario**.
 
 Una vez las opciones de cobertura de prestación se definen, puede reutilizarlas. Puede asociar una opción con uno o más planes.
 
@@ -46,9 +46,9 @@ Una vez las opciones de cobertura de prestación se definen, puede reutilizarlas
    | **Descripción** | Una descripción de la opción de cobertura. |
    | **Tipo de cobertura** | Los códigos de cobertura asignan importes mínimos y máximos para cada tipo de persona cubierta idónea. Un código de cobertura indica quién se ve afectado o el importe de cobertura permitido para un tipo de plan. Puede expresar el importe de la cobertura como un importe en dólares o un porcentaje. Por ejemplo:<ul><li>**Emp+1**: para poder optar, el empleado debe tener un dependiente seleccionado (si se selecciona más de uno, ya no se califica).</li><li>**Emp+familia**: para poder optar, el empleado debe tener al menos dos dependientes seleccionados.</li></ul> |
    | **Número máximo** | El número máximo de dependientes. |
-   | **Estado** | El estado de la opción de cobertura. Si el estado de la opción de cobertura se establece en inactivo, la opción de cobertura no se puede seleccionar en los tipos de planes. |
+   | **Estado** | El estado de la opción de cobertura. Si el estado de la opción de cobertura se establece en **Inactivo**, la opción de cobertura no se puede seleccionar en los tipos de planes. |
    | **Porcentaje** | El porcentaje del importe. Este campo solo está activo si se seleccionó Sueldo x % en el campo de código de cobertura. |
-   | **Divisor** | El divisor a usar en el cálculo cuando selecciona el código de cobertura Sueldo x %. |
+   | **Divisor** | El divisor que se usará en el cálculo cuando seleccione el código de cobertura Sueldo x %. |
    | **Porcentaje mínimo** | El porcentaje mínimo cuando selecciona el código de cobertura Porcentaje. |
    | **Porcentaje máximo** | El porcentaje máximo cuando selecciona el código de cobertura Porcentaje. |
 
@@ -58,7 +58,7 @@ Una vez las opciones de cobertura de prestación se definen, puede reutilizarlas
 
    | Campo | Descripción |
    | --- | --- |
-   | **Permitir importe de contribución del empleado** | Especifica si se permite a los empleados modificar el importe de la contribución en el autoservicio de prestaciones cuando seleccionan las prestaciones. Si selecciona esta casilla, el sistema calculará los parámetros del plan de prestaciones en función del importe de contribución que el empleado introduce en el autoservicio de prestaciones. |
+   | **Permitir importe de contribución del empleado** | Especifica si se permite a los empleados modificar el importe de la contribución en el autoservicio de prestaciones cuando seleccionan las prestaciones. Si activa esta casilla, el sistema calculará los parámetros del plan de prestaciones en función del importe de contribución que el empleado introduce en el autoservicio de prestaciones. |
    | **Permitir importe de cobertura del empleado** | Especifica si se permite a los empleados modificar el importe de la cobertura en el autoservicio de prestaciones cuando seleccionan las prestaciones. Si selecciona esta casilla, el sistema calculará los parámetros del plan de prestaciones en función del importe de cobertura que el empleado introduce en el autoservicio del empleado. |
 
 6. Seleccione **Guardar**. 

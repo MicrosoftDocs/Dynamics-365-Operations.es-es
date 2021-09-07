@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720607"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343665"
 ---
 # <a name="budgeting-overview"></a>Visión general de la gestión presupuestaria
 
@@ -38,7 +38,7 @@ Hay varios métodos para crear asientos de registro presupuestario:
 
 -   Especificar manualmente la información del documento en la página **Asientos de registro presupuestario**.
 -   Use la plantilla de Microsoft Excel que puede abrir haciendo clic en el botón **Abrir en Excel** en la página **Asientos de registro presupuestario**.
--   Use la entidad de datos **Asientos contables presupuestarios** en la gestión de datos para importar asientos de registro presupuestario. Debe considerar usar este método y activar el parámetro **Procesamiento** **basado** en conjuntos cuando tiene que importar muchos asientos contables presupuestarios en el sistema.
+-   Use la entidad de datos **Asientos contables presupuestarios** en la gestión de datos para importar asientos de registro presupuestario. Debe considerar usar este método y activar el parámetro **Procesamiento basado en conjuntos** cuando tiene que importar muchos asientos contables presupuestarios en el sistema.
 -   Si la empresa usa la funcionalidad de planificación presupuestaria para preparar datos de presupuesto, puede usar el proceso periódico **Generar el asiento de registro presupuestario**.
 
 El asiento de registro presupuestario se considera completado cuando se han actualizado los saldos presupuestarios. En la página **Asientos de registro presupuestario**, haga clic en **Actualizar saldos presupuestarios** para un asiento de registro presupuestario seleccionado o varios asientos. Tras actualizar los saldos presupuestarios, el estado del asiento de registro presupuestario cambia a **Completado**. El asiento de registro presupuestario completado no se puede abrir de nuevo para editar. Por lo tanto, si los datos presupuestarios se deben ajustar, debe crear un nuevo asiento de registro presupuestario en lugar de corregir los datos en el asiento de registro presupuestario completado.
@@ -50,7 +50,7 @@ A continuación, si hay directivas que rigen la aprobación de asientos de regis
 
 En la página **Dimensiones de la gestión presupuestaria**, debe seleccionar las dimensiones financieras que se usan para la gestión presupuestaria, en función de las dimensiones que se usan en el plan contable. Se pueden seleccionar todas las dimensiones financieras o un subconjunto para la gestión presupuestaria.
 
-Defina un *modelo presupuestario* que corresponde a todos o a algunos presupuestos. Puede usar un único modelo presupuestario para todos los asientos de registro presupuestario. Como alternativa, puede crear modelos independientes basados en el tipo de presupuesto, la ubicación geográfica o algún otro modo en que un presupuesto puede ser clasificado. 
+Defina un *modelo presupuestario* que corresponda a todos o a algunos presupuestos. Puede usar un único modelo presupuestario para todos los asientos de registro presupuestario. Como alternativa, puede crear modelos independientes basados en el tipo de presupuesto, la ubicación geográfica o algún otro modo en que un presupuesto puede ser clasificado. 
 
 > [!NOTE] 
 > Si se usa el control presupuestario, solo puede asociar un modelo presupuestario a un intervalo de tiempo del ciclo presupuestario concreto. 

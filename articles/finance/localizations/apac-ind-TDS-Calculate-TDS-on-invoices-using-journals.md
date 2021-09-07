@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfe473f39ee729957924fd7c161aed01138cd507eea56766af35177891676f65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fde81efed6b8a72e2149056f0196e4f9d60e59f2
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778902"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345528"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>Calcular TDS en facturas usando diarios
 
@@ -65,6 +65,6 @@ Empiece por abrir la página **Diarios generales** (**Contabilidad general > Ent
 
 8. Especifique los otros detalles. Valide y registre el diario. La cantidad de TDS que se calcula en las facturas de compra se registra en la cuenta de proveedor. El importe de TDS que se calcula en las facturas de ventas se registra en la cuenta de cliente que se define para cada código de impuestos de TDS en el grupo de TDS. Las cuentas de proveedores o de clientes para los códigos de impuestos TDS se definen en la página **Códigos de retención de impuestos**.
 
-9. Seleccione **Retención de impuestos registrados** para abrir la página **Transacciones** **de retención** **de impuestos**. Puede ver el porcentaje total utilizado para calcular TDS para la transacción en el campo **Valor**.
+9. Seleccione **Retención de impuestos registrados** para abrir la página **Transacciones de retención de impuestos**. Puede ver el porcentaje total utilizado para calcular TDS para la transacción en el campo **Valor**.
 
    Los campos en las pestañas **Información general**, **General** e **Importe** en la página Transacciones de retención de impuestos muestran la cantidad de TDS calculada y los detalles de la cantidad de TDS ajustada para cada código de impuestos de TDS adjunto al grupo de TDS.

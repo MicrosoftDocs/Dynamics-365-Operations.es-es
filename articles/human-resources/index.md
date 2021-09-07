@@ -1,5 +1,5 @@
 ---
-title: Página principal de Recursos Humanos
+title: Página principal de Human Resources
 description: Dynamics 365 Human Resources proporciona los conocimientos de los recursos que necesita para crear experiencias de empleados basadas en datos en varias áreas.
 author: twheeloc
 ms.date: 08/03/2020
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25b3a9271dd3a906c5077f2e509cacf37ce1eb9ccb37131bb7ea31fa72ddd57f
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 18c0ea18ff8ec79501d39a93ad68aa8a706ad1fc
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7011988"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394397"
 ---
-# <a name="human-resources-home-page"></a>Página principal de Recursos Humanos
+# <a name="human-resources-home-page"></a>Página principal de Human Resources
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -91,7 +91,7 @@ Recursos Humanos conecta a los datos de operaciones y personas para contribuir a
 ## <a name="additional-resources"></a>Recursos adicionales
 
 ### <a name="elearning-courses"></a>Cursos de eLearning
-Para cursos y formación en línea, consulte [Dynamics 365 Human Resources en Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+Para cursos y formación en línea, consulte [Dynamics 365 Human Resources en Microsoft Learn](//learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
 ### <a name="videos"></a>Vídeos
 

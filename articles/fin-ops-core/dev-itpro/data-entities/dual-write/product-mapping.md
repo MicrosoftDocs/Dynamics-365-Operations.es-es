@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726196"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423456"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
@@ -81,9 +81,9 @@ Dado que el producto se representa como SKU, los conceptos de productos únicos,
 
 ![Modelo de datos para productos.](media/dual-write-product.png)
 
-Con la función de doble escritura habilitada, los productos de Finance and Operations se sincronizarán en otros productos de Dynamics 365 en el estado **Borrador**. Se agregan a la primera lista de precios con la misma divisa. Es decir se agregan a la primera lista de precios de una aplicación de Dynamics 365 que coincida con la divisa de la tabla jurídica donde el producto se lance en una aplicación de Finance and Operations. Si no hay una lista de precios para la moneda dada, se creará automáticamente una lista de precios y se le asignará el producto.
+Con la función de doble escritura habilitada, los productos de Finance and Operations se sincronizarán en otros productos de Dynamics 365 en el estado **Borrador**. Se agregan a la primera lista de precios con la misma moneda que se usa en la aplicación de Customer Engagement y se ordena alfabéticamente en el nombre de la lista de precios. Es decir se agregan a la primera lista de precios de una aplicación de Dynamics 365 que coincida con la divisa de la tabla jurídica donde el producto se lance en una aplicación de Finance and Operations. Si no hay una lista de precios para la moneda dada, se creará automáticamente una lista de precios y se le asignará el producto.
 
-La implementación actual de los complementos de escritura dual que asocian la lista de precios predeterminada a la unidad busca la moneda asociada con la aplicación Finance and Operations y busca la primera lista de precios en la aplicación de interacción con el cliente, utilizando el orden alfabético en el nombre de la lista de precios. Para establecer una lista de precios predeterminada para una divisa específica cuando tiene varias listas de precios para esa divisa, debe actualizar el nombre de la lista de precios a un nombre que sea anterior en orden alfabético a cualquier otra lista de precios para esa misma divisa.
+La implementación actual de los complementos de escritura dual que asocian la lista de precios predeterminada a la unidad busca la moneda asociada con la aplicación Finance and Operations y busca la primera lista de precios en la aplicación de interacción con el cliente, utilizando el orden alfabético en el nombre de la lista de precios. Para establecer una lista de precios predeterminada para una divisa específica cuando tiene varias listas de precios para esa divisa, debe actualizar el nombre de la lista de precios a un nombre que sea anterior en orden alfabético a cualquier otra lista de precios para esa misma divisa. Si no tiene ninguna lista de precios para la moneda dada, se crea una nueva.
 
 De forma predeterminada los productos de las aplicaciones de Finance and Operations se sincronizan con otras aplicaciones de Dynamics 365 en el estado **Borrador**. Para sincronizar el producto con el estado **Activo** para que pueda utilizarlo directamente en presupuestos de pedidos de ventas, por ejemplo, es necesario elegir la siguiente configuración: **Sistema > Administración > Administración del sistema > ventas** y seleccionar **Crear productos en estado activo = sí**.
 

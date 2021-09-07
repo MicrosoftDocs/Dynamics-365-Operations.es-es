@@ -1,5 +1,5 @@
 ---
-title: Habilitar las predicciones de pago de los clientes (versión preliminar)
+title: Habilitar las predicciones de pago de clientes
 description: Este tema explica cómo activar y configurar la característica de predicciones de pago de clientes en Finance Insights.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0b945111f360838dfa35cddb916c4fb34a41f55bdd8f3095bd97c906b7dd3dd7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b324891b38f851f8cce9210e3d09a26d567a291
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768900"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386596"
 ---
-# <a name="enable-customer-payment-predictions-preview"></a>Habilitar las predicciones de pago de los clientes (versión preliminar)
+# <a name="enable-customer-payment-predictions"></a>Habilitar las predicciones de pago de clientes
 
 [!include [banner](../includes/banner.md)]
 

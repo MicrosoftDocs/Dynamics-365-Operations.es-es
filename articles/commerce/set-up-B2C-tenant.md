@@ -2,7 +2,7 @@
 title: Configurar un inquilino B2C en Commerce
 description: En este tema se describe cómo configurar los inquilinos de empresa a consumidor (B2C) de Azure Active Directory (Azure AD) para la autenticación del sitio del usuario en Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 03/17/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772261"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344507"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar un inquilino B2C en Commerce
 
@@ -34,6 +34,9 @@ Dynamics 365 Commerce usa Azure AD B2C para admitir credenciales de usuario y fl
  
  > [!NOTE]
  > Los entornos de evaluación de comercio vienen con un inquilino de Azure AD B2C cargado previamente con fines de demostración. Cargar su propio inquilino Azure AD B2C con los pasos a continuación no es necesario para entornos de evaluación.
+
+> [!TIP]
+> Puede proteger aún más a los usuarios de su sitio y mejorar la seguridad de sus inquilinos B2C de Azure AD con Protección de identidad y acceso condicional de Azure AD. Para revisar las capacidades disponibles para Inquilinos de B2C Premium P1 y Premium P2 de Azure AD, consulte [Protección de identidad y acceso condicional para B2C de Azure AD](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Crear o vincular un inquilino de AAD B2C existente en el portal de Azure
 

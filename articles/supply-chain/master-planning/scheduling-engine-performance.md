@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738278"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343486"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Mejorar el rendimiento del motor de programación
 
@@ -70,7 +70,7 @@ Como ejemplo, considere una ruta que se muestra en la siguiente tabla e imagen, 
 
 Al enviar esto al motor, se divide en ocho trabajos, como se muestra en la siguiente ilustración (seleccione la imagen para ampliarla).
 
-[![Programación de trabajos del motor](media/scheduling-engine-jobs.png "Programación de trabajos del motor".](media/scheduling-engine-jobs-large.png)
+[![Programación de trabajos del motor](media/scheduling-engine-jobs.png "Programación de trabajos del motor.")](media/scheduling-engine-jobs-large.png)
 
 El vínculo estándar entre dos trabajos es `FinishStart`, lo que significa que la hora de finalización de un trabajo debe ser anterior a la hora de inicio de otro trabajo. Debido a que la configuración debe ser realizada por el mismo recurso que luego realizará el proceso, hay restricciones `OnSameResource` entre ellos. Entre los trabajos para operación primaria y secundaria para 10, hay enlaces `StartStart` y `FinishFinish` enlaces, lo que significa que los trabajos deben comenzar y terminar al mismo tiempo, y hay restricciones `NotOnSameResource`, lo que impedirá el mismo recurso para primaria y secundaria.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd37c98b64e6074d54b40e20f87f24912abcdd75575aa92e1e2b7345d3cce5a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccf2a78a5ffdb95b334f751944fdd010bf8cbf01
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730486"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345206"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Comenzar con la facturación electrónica para Brasil 
 
@@ -55,7 +55,7 @@ Complete estos pasos antes de implementar la configuración de la aplicación en
 
 Esta sección complementa la sección **Configuración específica del país para la instalación de la aplicación** en el tema [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
-1. En RCS, en la sección **Características**, del espacio de trabajo **Característica de globalización**, seleccione el mosaico *Facturación electrónica*.
+1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
 2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NF-e (BR)**.
 3. En la pestaña **Versiones**, verifique que esté seleccionada la versión **Borrador**.
 4. En la pestaña **Configuraciones**, seleccione **Configuración de la aplicación** y, en el campo **Aplicación conectada**, seleccione la aplicación donde desea implementar.

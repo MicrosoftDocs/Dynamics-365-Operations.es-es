@@ -1,8 +1,8 @@
 ---
 title: P+F sobre la integración con Finance
-description: Este artículo explica qué datos se sincronizan en una integración de Human Resources y Finance.
-author: andreabichsel
-ms.date: 02/03/2020
+description: En este tema se explica qué datos se sincronizan en una integración de Human Resources y Finance.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782153"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413420"
 ---
 # <a name="integration-with-finance-faq"></a>P+F sobre la integración con Finance
 
@@ -45,7 +45,7 @@ Un subconjunto de los datos se sincroniza. Para ver una lista de todas las entid
 
 ## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>¿Por qué no veo los datos sincronizados con Dataverse?
 
-De forma predeterminada, la integración de Dataverse se desactiva en los entornos nuevos que no incluyen los datos proporcionados de prueba. De forma predeterminada, está activado en los entornos nuevos que incluyen datos de demostración, y la sincronización de datos empieza cuando se aprovisiona el entorno. Después de que el entorno esté listo para sincronizar datos, puede activar la integración. Para obtener más información, consulte la sección [Configurar la integración Dataverse](hr-admin-integration-common-data-service.md).
+De forma predeterminada, la integración de Dataverse se desactiva en los entornos nuevos que no incluyen los datos proporcionados de prueba. De forma predeterminada, está activado en los entornos nuevos que incluyen datos de demostración, y la sincronización de datos empieza cuando se aprovisiona el entorno. Después de que el entorno esté listo para sincronizar datos, puede activar la integración. Para obtener más información, consulte la sección [Configurar la integración de Dataverse](hr-admin-integration-common-data-service.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>¿Puedo crear una nueva asignación sin usar plantillas?
 
@@ -158,8 +158,7 @@ Asegúrese de que al crear sus conexiones, elija Dynamics 365 Finance y Datavers
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Al sincronizar los empleos, obtengo los errores “CompanyInfo_FK no existe“o “el valor “12/31/2154 11:59: pm" del campo "Fecha final del empleo" no se encuentra en la tabla "Empleo" relacionada.” ¿Qué debo hacer?
 
-Asegúrese de que está realizando asignaciones a las entidades jurídicas correctas. La sincronización de entidades jurídicas no es parte de la plantilla predeterminada, por lo que se espera que cada entidad jurídica que está presente en Human Resources y Dataverse también esté en Finance.
-Además, asegúrese de que está seleccionando las entidades jurídicas correctas para el conjunto de conexiones asociado.
+Asegúrese de que está realizando asignaciones a las entidades jurídicas correctas. La sincronización de entidades jurídicas no es parte de la plantilla predeterminada, por lo que se espera que cada entidad jurídica que está presente en Human Resources y Dataverse también esté en Finance. Además, asegúrese de que está seleccionando las entidades jurídicas correctas para el conjunto de conexiones asociado.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Después de configurar mi proyecto, la asignación de campos para Finance parece estar vacía. ¿Qué hago?
 

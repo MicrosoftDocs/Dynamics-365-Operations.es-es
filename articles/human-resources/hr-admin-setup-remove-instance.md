@@ -1,8 +1,8 @@
 ---
 title: Quitar una instancia
-description: Este artículo recorre con el usuario el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 08/07/2020
+description: Este tema recorre con el usuario el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 978bbbe9ecd57c8a80cfc0c17f1a3e2d8422482fddc1c4f2ea0bc8ac91d6615c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740824"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393506"
 ---
 # <a name="remove-an-instance"></a>Quitar una instancia
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artículo recorre con el usuario el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 Human Resources.
+En este tema se explica el proceso de quitar una versión de prueba o un entorno de producción de Microsoft Dynamics 365 Human Resources.
 
 ## <a name="remove-a-test-drive-environment"></a>Quitar un entorno de unidad de prueba
 
@@ -41,7 +41,7 @@ El entorno existente de la unidad de prueba se eliminará. Cuando se elimina, pu
 
 ## <a name="remove-a-production-environment"></a>Quitar un entorno de producción
 
-Este artículo asume que ha comprado Human Resources a un proveedor de soluciones de nube (CSP) o mediante un contrato de arquitectura empresarial (EA). 
+En este tema se supone que ha comprado Human Resources a un proveedor de soluciones en la nube (CSP) o mediante un contrato de arquitectura empresarial (EA). 
 
 Dado que un solo entorno de Human Resources está “contenido” dentro de un único entorno de Power Apps, hay dos opciones que deben tenerse en cuenta. La primera opción implica quitar todo el entorno de Power Apps; la segunda opción implica sólo quitar Human Resources. Se prefiere la primera opción cuando ha creado un entorno de Power Apps expresamente con el fin de aprovisionar Human Resources y que acaba de empezar la implementación, o no tiene ninguna integración establecida. La segunda opción es adecuada cuando tiene un entorno Power Apps establecido cumplimentado con datos enriquecidos que se optimizan en Power Apps y Power Automate.
 

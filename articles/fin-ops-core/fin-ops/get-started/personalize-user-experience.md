@@ -2,7 +2,7 @@
 title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719310"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344383"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -169,7 +169,7 @@ El panel de información suele ser la primera página que verá al abrir la apli
 Una funcionalidad de personalización única que está disponible en el tablero es la capacidad de agregar iconos. 
 
 - Si la característica **Aplicaciones de página completa** está desactivada, los iconos nuevos se agregan haciendo clic con el botón derecho en un elemento en el panel de información y luego seleccionando **Agregar un espacio de trabajo**. Se creará un nuevo mosaico del espacio de trabajo en la parte inferior del panel de información. Puede cambiar el nombre de este nuevo mosaico de área de trabajo tal y como desee. También puede agregar listas, iconos y vínculos al área de trabajo tal y como se describe en la sección [Agregar listas, iconos, listas y vínculos a los espacios de trabajo](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) de este tema.
-- Si la característica **Aplicaciones de página completa** está activada, los iconos nuevos se agregan haciendo clic con el botón derecho en un elemento en el panel de información y luego seleccionando **Agregar una aplicación**. En el cuadro de diálogo, seleccione si desea agregar un icono para un nuevo espacio de trabajo o un icono que tenga contenido de Power Apps o un sitio web. Luego, siga los pasos para configurar la opción que seleccionó. Se creará un nuevo icono en la parte inferior del panel de información. 
+- Si la característica **Aplicaciones de página completa** está activada, los iconos nuevos se agregan haciendo clic con el botón derecho en un elemento en el panel de información y luego seleccionando **Agregar una aplicación**. En el cuadro de diálogo, seleccione si desea agregar un icono para un nuevo espacio de trabajo o un icono que tenga contenido de Power Apps o un sitio web. Luego, siga los pasos para configurar la opción que seleccionó. Se creará un nuevo icono en la parte inferior del panel de información. Para obtener más información sobre cómo agregar, editar, eliminar y compartir estas aplicaciones integradas, consulte [Insertar aplicaciones de lienzo desde Power Apps](embed-power-apps.md) e [Insertar aplicaciones de terceros](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Uso compartido de personalizaciones
 

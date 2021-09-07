@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763702"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388942"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Crear y actualizar una directiva de devoluciones y reembolsos para un canal
 
@@ -42,15 +42,6 @@ Para habilitar la función de directiva de retorno de canal en la sede de Commer
 1. Busque la característica **Habilitar directiva de devoluciones del canal** en la lista de nombres de características.
 1. Seleccione **Habilitar ahora**.
 1. Sobre la página **Programa de distribución**, ejecute el trabajo **1110** (Configuración global) para distribuir el cambio de función.
-
-## <a name="initialize-the-commerce-scheduler"></a>Inicializar el programador de Commerce
-
-Después de habilitar la función **Habilitar políticas de devolución de canales**, debe inicializar el programador de Commerce para asegurarse de que los cambios en la base de datos de nuevas funciones se agreguen a través de la sincronización de Commerce Data Exchange (CDX). 
-
-Para inicializar el programador de Commerce en la sede central de Commerce, siga estos pasos.
-
-- Vaya a **Retail y Commerce \> Configuración de sede central \> Programador de Commerce \> Inicializar programador de Commerce**. Como alternativa, puede buscar “Inicializar programador de Commerce”.
-- En el cuadro de diálogo **Inicializar el programador de Commerce**, asegúrese de que la opción **Configuración de la existente Eliminar** está establecida en **No** y, a continuación, seleccione **Aceptar**.
 
 ## <a name="configure-return-policy"></a>Configurar directiva de devoluciones
 

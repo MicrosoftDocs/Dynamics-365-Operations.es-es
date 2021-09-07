@@ -1,5 +1,5 @@
 ---
-title: Visión general de pagos de proveedor
+title: Información general de pagos de proveedor
 description: Este procedimiento le mostrará los distintos métodos usados para crear pagos de proveedor, incluido cómo usar una propuesta de pago o especificar manualmente un pago único.
 author: kweekley
 ms.date: 06/25/2019
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 997d505cc89eaa39b2bac273a5ae381c1c892a9537cbaa9b45156ecbb6fd237c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721836"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394447"
 ---
-# <a name="vendor-payment-overview"></a>Visión general de pagos de proveedor
+# <a name="vendor-payment-overview"></a>Información general de pagos de proveedor
 
 [!include [banner](../../includes/banner.md)]
 
@@ -31,7 +31,7 @@ Este procedimiento le mostrará los distintos métodos usados para crear pagos d
 3. Seleccione el diario de pagos en el que guardar los pagos de proveedor. 
 4. Seleccione el diario o especifíquelo manualmente.
 5. Haga clic en **Líneas**.
-6. En el **Panel de acción**, haga clic en **Propuesta de pago**.
+6. En el **Panel de acciones**, haga clic en **Propuesta de pago**.
 7. Haga clic en **Crear propuesta de pago**. La propuesta de pago es una consulta que se utiliza para seleccionar facturas de pago. Puede editar la lista de facturas de pago antes de crear o de generar pagos de proveedor.
 8. Seleccione las facturas para el pago por la fecha de vencimiento, descuento por pronto pago, o ambos. 
 9. Especifique la fecha que comparar con la fecha de vencimiento o de descuento por pronto pago. 

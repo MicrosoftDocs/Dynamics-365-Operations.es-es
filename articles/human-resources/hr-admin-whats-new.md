@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 278783cc0eb1677682236781fd5340607fc06b52d43a1897db1345008fef96e8
-ms.sourcegitcommit: f69d53f27061437d6e466645875283757a1eec45
+ms.openlocfilehash: 640a9bc9c0514d395b0fb216c0eb38bf8483242e
+ms.sourcegitcommit: fc19ee0aba2a6174fef305d151f1eb23ca6c0346
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7016022"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7383242"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novedades y cambios en Human Resources
 
@@ -30,7 +30,7 @@ Cada dos semanas, proporcionamos una nueva versión para Microsoft Dynamics 365 
 
 Para obtener más información sobre las próximas características o el proceso de actualización de Human Resources, consulte los siguientes artículos: 
 
-- [Información general del lanzamiento de versiones 2 de Dynamics 365 Human Resources 2021](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)
+- [Información general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2021](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)
 
 - [Actualizar proceso](hr-admin-setup-update-process.md)
 
@@ -40,6 +40,7 @@ Para obtener más información sobre las próximas características o el proceso
 
 Para ver las novedades o los cambios de cada versión quincenal de Human Resources, consulte los siguientes temas:
 
+[9 de agosto de 2021](hr-whats-new-2021-08-09.md)</br>
 [26 de julio de 2021](hr-whats-new-2021-07-26.md)</br>
 [12 de julio de 2021](hr-whats-new-2021-07-12.md)</br>
 [22 de junio de 2021](hr-whats-new-2021-06-22.md)</br>
@@ -57,7 +58,7 @@ Para ver las novedades o los cambios de cada versión quincenal de Human Resourc
 
 ## <a name="see-also"></a>Consulte también
 
-[Información general del lanzamiento de versiones 2 de Dynamics 365 Human Resources 2021](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)</br>
+[Información general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2021](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
 

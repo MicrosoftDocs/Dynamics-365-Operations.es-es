@@ -2,7 +2,7 @@
 title: Insertar aplicaciones de terceros
 description: Este tema explica cómo insertar aplicaciones de terceros para aumentar la funcionalidad de producto.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737808"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345419"
 ---
 # <a name="embed-third-party-apps"></a>Insertar aplicaciones de terceros
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Muchos clientes utilizan diversas aplicaciones para administrar su negocio. Algunas de esas aplicaciones son aplicaciones web de terceros que funcionan junto con aplicaciones de Finance and Operations. Para proporcionar una experiencia de usuario más fluida, puede utilizar la característica **(Versión preliminar) Aplicaciones de página completa** para insertar esas aplicaciones de terceros directamente en sus aplicaciones de Finance and Operations (siempre que las aplicaciones de terceros permitan insertarlas). De esta manera, los usuarios pueden acceder a los sitios web y aplicaciones que necesitan sin tener que cambiar de pestaña o ventana.
+Muchos clientes utilizan diversas aplicaciones para administrar su negocio. Algunas de esas aplicaciones son aplicaciones web de terceros que funcionan junto con aplicaciones de Finance and Operations. Para proporcionar una experiencia de usuario más fluida, puede utilizar la característica **Aplicaciones de página completa** para insertar esas aplicaciones de terceros directamente en sus aplicaciones de Finance and Operations (siempre que las aplicaciones de terceros permitan insertarlas). De esta manera, los usuarios pueden acceder a los sitios web y aplicaciones que necesitan sin tener que cambiar de pestaña o ventana.
 
-Antes de poder insertar aplicaciones de terceros en el producto, debe activar la característica **(Versión preliminar) Aplicaciones de página completa** en Administración de funciones. A continuación, puede utilizar uno de los siguientes métodos para insertar una aplicación o un sitio web de terceros. Estos métodos son análogos a los métodos que se utilizan para insertar aplicaciones de lienzo desde Microsoft Power Apps en Finance and Operations.
+Antes de poder insertar aplicaciones de terceros en el producto, debe activar la característica **Aplicaciones de página completa** en Administración de características. A continuación, puede utilizar uno de los siguientes métodos para insertar una aplicación o un sitio web de terceros. Estos métodos son análogos a los métodos que se utilizan para insertar aplicaciones de lienzo desde Microsoft Power Apps en Finance and Operations.
 
 - Inserte la aplicación o el sitio web en una página existente como una página de pestaña nueva (pestaña dinámica, pestaña desplegable, hoja o sección del espacio de trabajo).
 - Cree una nueva experiencia de página completa para la aplicación o el sitio web desde el panel.
@@ -64,7 +64,7 @@ Utilice este procedimiento si desea complementar una página existente en el sis
 Utilice este procedimiento si la aplicación que desea insertar no está relacionada con una página existente, o si solo desea una experiencia de página completa para la aplicación dentro de la aplicación Finance and Operations.
 
 1. Abra el panel.
-2. Seleccione y mantenga presionada (o haga clic con el botón derecho) la página, seleccione **Personalizar** y luego seleccione **Agregar una página**.
+2. Seleccione y mantenga presionada (o haga clic con el botón derecho en) el panel de información, seleccione **Personalizar** y, a continuación, seleccione **Agregar una página**.
 3. En el panel **Agregar una página**, seleccione **Sitio web**.
 4. Configurar la aplicación insertada:
 
@@ -82,9 +82,9 @@ Utilice este procedimiento si la aplicación que desea insertar no está relacio
 
 Una vez que haya insertado una aplicación mediante uno de los métodos que se describen en las secciones anteriores, es posible que desee compartir la vista con otros usuarios del sistema. Para compartir una aplicación insertada, utilice uno de los siguientes métodos:
 
-- **Publicar la vista (recomendado):** si la aplicación insertada se ha guardado en una vista, la forma recomendada y preferida de compartirla es publicar la vista para los usuarios que tengan los roles de seguridad adecuados. A continuación, todos los usuarios que tienen los roles de seguridad a los que se dirige la vista publicada verán la aplicación en aplicaciones de Finance and Operations. Para obtener más información sobre cómo publicar una vista, vea [Publicación de vistas](saved-views.md#publishing-views).
+- **Publicar la vista (recomendado):** si la aplicación insertada se ha guardado en una vista, la forma recomendada y preferida de compartirla es publicar la vista para los usuarios que tengan los roles de seguridad adecuados en las entidades jurídicas de destino. En este caso, solo los usuarios deseados verán la aplicación insertada en esa página. Para obtener más información sobre cómo publicar una vista, vea [Publicación de vistas](saved-views.md#publishing-views).
 
-    También puede publicar una aplicación que se haya insertado como una experiencia de página completa desde el panel. En el tablero, seleccione y mantenga presionado (o haga clic con el botón derecho) en el mosaico asociado con la aplicación, seleccione **Personalizar** y luego seleccione **Publicar página**. Actualmente, puede publicar solo en roles de seguridad. Sin embargo, la capacidad de publicar para entidades jurídicas se agregará antes de que la función esté disponible de forma generalizada.
+    También puede publicar una aplicación que se haya insertado como una experiencia de página completa desde el panel. En el tablero, seleccione y mantenga presionado (o haga clic con el botón derecho) en el mosaico asociado con la aplicación, seleccione **Personalizar** y luego seleccione **Publicar página**. Se muestra una experiencia que se asemeja a la experiencia *Publicar vistas*, y puede seleccionar los roles de seguridad en los que desea publicar. En la actualización 10.0.21 o posterior, si la característica **Compatibilidad mejorada con entidades jurídicas para vistas guardadas** está activada, también puede publicar la aplicación para las entidades jurídicas deseadas.
 
 - **Copiar la personalización:** para las páginas que no admiten vistas (por ejemplo, cuadros de diálogo o áreas de trabajo), o para la experiencia de la aplicación de página completa, puede copiar la personalización a los usuarios adecuados. Para más información, consulte [Compartir personalizaciones](personalize-user-experience.md#sharing-personalizations).
 

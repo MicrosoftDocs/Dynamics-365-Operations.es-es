@@ -1,8 +1,8 @@
 ---
 title: Inscribir y quitar prestaciones para trabajadores
-description: Este procedimiento muestra cómo se puede inscribir un único trabajador en una o más prestaciones, así como varios trabajadores se pueden inscribir en una prestación.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Este procedimiento muestra cómo inscribir a un único trabajador en una o más prestaciones y a varios trabajadores en una prestación.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 0e508a0a4d89f91ef76cbf2724c7b77510a8ef028dde0c4e1c2a4200b96e39fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb9baef543e2d8e069c3e7ea667e3fdf0811fe10
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727146"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416464"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Inscribir y quitar prestaciones para trabajadores
 
@@ -26,7 +26,7 @@ ms.locfileid: "6727146"
 
 
 
-Este procedimiento muestra cómo se puede inscribir un único trabajador en una o más prestaciones, así como varios trabajadores se pueden inscribir en una prestación. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
+Este procedimiento muestra cómo inscribir a un único trabajador en una o más prestaciones y a varios trabajadores en una prestación. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
 
 ## <a name="enroll-a-single-worker-in-benefits"></a>Inscripción de un trabajador en prestaciones

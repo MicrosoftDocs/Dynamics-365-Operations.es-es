@@ -1,8 +1,8 @@
 ---
 title: Aprovisionar Human Resources
-description: Este tema recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/14/2021
+description: En este tema se explica el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58ffce072c8b73f4907b18c6c60b022f9a3b55f26cb785238367254021afdc28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756157"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393532"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -28,9 +28,15 @@ ms.locfileid: "6756157"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tema recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources. Este tema asume que ha comprado Human Resources a un proveedor de soluciones de nube (CSP) o mediante un contrato de arquitectura empresarial (EA). Si dispone de una licencia existente de Microsoft Dynamics 365 que ya incluye el plan de servicio de Human Resources y no puede realizar los pasos de este artículo, póngase en contacto con soporte.
+En este tema se explica el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources. 
 
-Para empezar, el administrador global debe iniciar sesión en [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) y crear un nuevo proyecto de Human Resources. A menos que un problema de licencia le impida aprovisionar Human Resources, no es obligatoria la ayuda de Soporte o de los representantes de la ingeniería de servicio de Dynamics.
+## <a name="prerequisites"></a>Requisitos previos
+
+Para poder aprovisionar un nuevo entorno de producción, deben cumplirse los siguientes requisitos previos:
+
+- Haber comprado Human Resources a un proveedor de soluciones en la nube (CSP) o mediante un contrato de arquitectura empresarial (EA). Si dispone de una licencia de Microsoft Dynamics 365 que ya incluye el plan de servicio de Human Resources y no puede realizar los pasos de este tema, póngase en contacto con soporte técnico.
+
+- El administrador global ha iniciado sesión en [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) y ha creado un nuevo proyecto de Human Resources. 
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Proporcionar un entorno de prueba de recursos humanos
 
@@ -42,7 +48,7 @@ Los entornos de prueba no están destinados para su uso como entornos de producc
 
 Antes de crear su primer entorno de Human Resources, debe planificar cuidadosamente las necesidades del entorno para el proyecto. Una suscripción básica a Human Resources incluye dos entornos: un entorno de producción y un entorno de espacio aislado. En función de la complejidad del proyecto, es posible que tenga que comprar entornos de espacio aislado para respaldar las actividades del proyecto. 
 
-Las consideraciones para entornos adicionales incluyen, entre otras, las siguientes:
+Consideraciones sobre entornos adicionales:
 
 - **Migración de datos**: es posible que deba considerar un entorno adicional para las actividades de migración de datos a fin de permitir que su entorno de espacio aislado se utilice con fines de prueba durante todo el proyecto. Disponer de un entorno adicional permite que las actividades de migración de datos continúen mientras las actividades de prueba y configuración se llevan a cabo simultáneamente en un entorno diferente.
 - **Integración**: es posible que deba considerar un entorno adicional para configurar y probar integraciones. Esto podría incluir integraciones nativas como la de Ceridian Dayforce LinkedIn Talent Hub, o integraciones personalizadas como las de nómina, sistemas de seguimiento de candidatos o sistemas y proveedores de prestaciones.
@@ -50,10 +56,11 @@ Las consideraciones para entornos adicionales incluyen, entre otras, las siguien
 - **Proyecto multifase**: es posible que necesite un entorno adicional para la configuración, la migración de datos, las pruebas u otras actividades en una fase del proyecto que se planifica después de la puesta en funcionamiento inicial del proyecto.
 
  > [!IMPORTANT]
- > Le recomendamos que utilice su entorno de producción en todo el proyecto como su entorno de configuración GOLD. Esto es importante, ya que no puede copiar un entorno de espacio aislado en un entorno de producción. Por lo tanto, cuando su entorno GOLD entre en funcionamiento, será su entorno de producción y usted completará las actividades de transición en este entorno.</br></br>
- > Le recomendamos que utilice el espacio aislado u otro entorno para realizar una transición simulada antes de la puesta en funcionamiento. Puede hacer esto actualizando el entorno de producción con la configuración GOLD en el entorno de espacio aislado.</br></br>
- > Le recomendamos que mantenga una lista de comprobación de transición detallada que incluya cada uno de los paquetes de datos necesarios para migrar los datos finales al entorno de producción durante la transición de puesta en funcionamiento.</br></br>
- > También le recomendamos que utilice el entorno de espacio aislado en todo el proyecto como entorno de pruebas. Si necesita entornos adicionales, su organización puede adquirirlos por un coste adicional.</br></br>
+ > Al considerar su entorno, le recomendamos lo siguiente:
+ > - Utilice su entorno de producción en todo el proyecto como su entorno de configuración GOLD. Esto es importante, ya que no puede copiar un entorno de espacio aislado en un entorno de producción. Por lo tanto, cuando su entorno GOLD entre en funcionamiento, será su entorno de producción y usted completará las actividades de transición en este entorno.</br></br>
+ > - Utilice su entorno de espacio aislado u otro entorno para realizar una transición simulada antes de la puesta en funcionamiento. Puede hacer esto actualizando el entorno de producción con la configuración GOLD en el entorno de espacio aislado.</br></br>
+ > - Mantenga una lista de comprobación de transición detallada que incluya cada uno de los paquetes de datos necesarios para migrar los datos finales al entorno de producción durante la transición de puesta en funcionamiento.</br></br>
+ > - Utilice su entorno de espacio aislado en todo el proyecto como su entorno de PRUEBA. Si necesita entornos adicionales, su organización puede adquirirlos por un coste adicional.</br></br>
 
 ## <a name="create-an-lcs-project"></a>Crear un proyecto de LCS
 
@@ -86,9 +93,9 @@ Después de crear un proyecto de LCS, puede aprovisionar Human Resources en un e
     > El tipo de instancia de Human Resources no se puede cambiar una vez establecido. Compruebe que se ha seleccionado el tipo de instancia correcto antes de continuar.</br></br>
     > El tipo de instancia de Human Resources es independiente del tipo de instancia del entorno de Microsoft Power Apps, que establece en el Centro de administración de Power Apps.
     
-3. Seleccione la opción **Incluir datos de la demostración** si desea que el entorno incluya el mismo conjunto de datos de demostración utilizado en la experiencia de la prueba de conducción de Human Resources. Los datos de demostración son beneficiosos para los entornos de demostración o de formación a largo plazo, y no se debe usar nunca en entornos de producción. Debe elegir esta opción sobre la implementación inicial. No puede actualizar una implementación existente más adelante.
+3. Seleccione la opción **Incluir datos de la demostración** si desea que el entorno incluya el mismo conjunto de datos de demostración utilizado en el entorno de prueba de Human Resources. Los datos de demostración son beneficiosos para los entornos de demostración o de formación a largo plazo, y no se debe usar nunca en entornos de producción. Debe elegir esta opción sobre la implementación inicial. No puede actualizar una implementación existente más adelante.
 
-4. Human Resources siempre se aprovisiona en un entorno de Microsoft Power Apps para habilitar la integración y la extensibilidad de Power Apps. Lea la sección “Selección de un entorno de Power Apps” de este artículo antes de continuar. Si todavía no tiene un entorno de Power Apps, seleccione Administrar entornos en el LCS o vaya el centro de gestión de Power Apps. A continuación siga los pasos a [Crear entorno de Power Apps](/powerapps/administrator/create-environment).
+4. Human Resources siempre se aprovisiona en un entorno de Microsoft Power Apps para habilitar la integración y la extensibilidad de Power Apps. Lea la sección “Selección de un entorno de Power Apps” de este artículo antes de continuar. Si todavía no tiene un entorno de Power Apps, seleccione Administrar entornos en el LCS o vaya el centro de gestión de Power Apps. A continuación siga los pasos para [Crear un entorno de Power Apps](/powerapps/administrator/create-environment).
 
 5. Seleccione el entorno para aprovisionar Human Resources.
 
@@ -115,9 +122,9 @@ Use la orientación siguiente al determinar en qué entorno de Power Apps implem
 
 4. La integración de datos y estrategias de prueba se deben considerar como Espacio aislado, UAT o producción. Tenga en cuenta con cuidado las distintas implicaciones para la implementación, ya que no es fácil cambiar el entorno de Human Resources que se asigna al entorno de Power Apps posteriormente.
 
-5. No puede usar los siguientes entornos de Power Apps para Human Resources. Se filtran de la lista de selección dentro de LCS:
+5. Los siguientes entornos de Power Apps no se pueden usar para Human Resources. Se filtran de la lista de selección dentro de LCS:
  
-    - **Entornos predeterminados de Power Apps**: si bien cada inquilino se aprovisiona automáticamente con entorno predeterminado de Power Apps, no recomendamos usarlos con Human Resources. Todos los usuarios suscriptores pueden acceder al entorno de Power Apps y podrían dañar involuntariamente los datos de producción al probar y explorar con integraciones de Power Apps o Power Automate.
+    - **Entornos predeterminados de Power Apps**: si bien cada inquilino se aprovisiona automáticamente con un entorno predeterminado de Power Apps, no recomendamos usarlos con Human Resources. Todos los usuarios suscriptores pueden acceder al entorno de Power Apps y podrían dañar involuntariamente los datos de producción al probar y explorar con integraciones de Power Apps o Power Automate.
    
     - **Entornos de prueba**: estos entornos se crean con una fecha de vencimiento. Al vencimiento, su entorno y cualquier instancia de Human Resources que contenga se eliminarán automáticamente.
    
@@ -147,7 +154,7 @@ Los datos para el entorno de Recursos Humanos siempre estarán contenidos dentro
 
 ## <a name="grant-access-to-the-environment"></a>Conceda acceso al entorno
 
-De forma predeterminada, solo tiene acceso el administrador global que creó el entorno. Debe conceder acceso de forma explícita a los usuarios de aplicaciones adicionales. Debe agregar usuarios y asignar los roles adecuados a ellos en el entorno de Human Resources. El administrador global que implementó Human Resources también debe poner en Attract y Onboard para completar la inicialización y para habilitar el acceso a otros usuarios inquilinos. Hasta que esto ocurra, otros usuarios no podrán tener acceso a Attract y Onboard y obtendrán errores de infracción de acceso. Para obtener más información, consulte [Crear nuevos usuarios](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) y [Asignar usuarios a roles de seguridad](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+De forma predeterminada, solo tiene acceso el administrador global que creó el entorno. Debe conceder acceso de forma explícita a los usuarios de aplicaciones adicionales. Debe agregar usuarios y asignar los roles adecuados a ellos en el entorno de Human Resources. Para obtener más información, consulte [Crear nuevos usuarios](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) y [Asignar usuarios a roles de seguridad](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

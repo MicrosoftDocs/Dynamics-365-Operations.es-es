@@ -1,8 +1,8 @@
 ---
-title: Configurar las opciones de idoneidad de contacto personal
-description: Configurar opciones de idoneidad para contactos personales en Microsoft Dynamics 365 Human Resources. Los contactos personales pueden ser beneficiarios o dependientes.
-author: andreabichsel
-ms.date: 06/25/2021
+title: Configurar las opciones de elegibilidad de contacto personal
+description: En este tema se explica cómo configurar opciones de idoneidad para contactos personales en Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 50f290bbf53c70a7b33d061aaa80a9a1b3583d2c0fc2bb15f31f877b611187cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd0ba4b609aaf05d37b120eaea71095a589bcc0a
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735384"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423371"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Configurar las opciones de elegibilidad de contacto personal
 

@@ -2,7 +2,7 @@
 title: Análisis financiero
 description: El análisis financiero utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767836"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416314"
 ---
 # <a name="financial-analysis"></a>Análisis financiero
 
@@ -36,9 +36,9 @@ ms.locfileid: "6767836"
 > - **Página**: una pestaña en un único archivo .pbix. Cada página puede contener uno o más elementos visuales.
 > - **Elemento visual**: una única fuente de datos, como una tarjeta, un KPI, un gráfico, una matriz o un informe financiero. Una página que tiene un informe financiero como un elemento visual no puede tener otros elementos visuales debido al tamaño de los datos que se están notificando.
 
-Actualmente, **Análisis financiero** se emplea para ver los datos de la entidad jurídica activa o de todas las entidades jurídicas. En versiones futuras, el espacio de trabajo evolucionará hasta convertirse en el lugar en el que puede usar Power BI para editar y crear elementos visuales.
+El espacio de trabajo **Análisis financiero** se centra en permitirle ver y filtrar los datos de informes existentes. Puede agregar nuevos elementos visuales al espacio de trabajo **Análisis financiero**. El espacio de trabajo **Análisis financiero** está disponible para la empresa actual, así como para todas las empresas, para mostrar datos de todas las entidades jurídicas, independientemente de las entidades jurídicas a las que tenga acceso el rol.
 
-El espacio de trabajo **Visión general de CFO** muestra los mismos elementos visuales que **Análisis financiero**, pero se centra en permitirle visualizar y filtrar los datos en informes existentes. En versiones futuras, podrá agregar nuevos elementos visuales al espacio de trabajo **Análisis financiero** . Los nuevos elementos visuales también pueden estar disponibles en espacios de trabajo que se centran en otros roles, como gestores de proyectos o administradores de proveedores. El espacio de trabajo **Visión general de director financiero (CFO)** sigue mostrando los datos de todas las entidades jurídicas, independientemente de las entidades jurídicas a las que el rol tiene acceso.
+- [Agregar o editar visualizaciones de Power BI en su panel](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Instalación de Dynamics 365 Finance
 **Contabilidad general**
@@ -154,7 +154,7 @@ Las siguientes dimensiones se utilizan en los informes predeterminados. Ninguna 
 
 - Proveedor
 - Grupo de proveedores
-- Cliente 
+- Cliente
 - Grupo de clientes
 - País o región
 - Estado o provincia

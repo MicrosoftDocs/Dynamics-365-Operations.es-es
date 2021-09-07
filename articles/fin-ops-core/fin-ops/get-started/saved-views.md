@@ -2,7 +2,7 @@
 title: Vistas guardadas
 description: Este tema describe cómo usar las características guardadas de las vistas.
 author: jasongre
-ms.date: 05/17/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: dd658aeb8964907fe9f950fe2a6474c5df7e80b74986ddf332286a2f89bc0aeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cca56a108177520f4aebea03f7f4d776f46fa3f
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752310"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344353"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introducción
 
@@ -48,6 +48,8 @@ Existen dos variantes de tamaño en selector de la vista:
  
 Si selecciona el nombre de vista, el selector de la vista se abre y muestra la lista de vistas disponibles para esta página
 
+**Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas muestra las vistas disponibles en dos secciones. La primera sección muestra las vistas que son específicas de la entidad jurídica actual y la segunda muestra las vistas que están disponibles para todas las entidades jurídicas. La primera sección es visible solo si hay vistas específicas de la entidad jurídica para la página.
+
 - **Vista estándar**: la vista **estándar** es la vista de lista para usar la página sin personalizaciones aplicadas.
 - **Vistas personales**: las vistas sin los candados representan las vistas personales. Éstas son las vistas que ha creado o que le ha asignado un administrador.
 - **Vistas bloqueadas**: algunas vistas (por ejemplo la vista **Estándar** y las opiniones que se publiquen en su rol) tienen un símbolo de candado junto a ellas en el selector de la vista. Este símbolo indica que no se pueden editar las vistas. Sin embargo, los cambios que reflejan el uso de las páginas se guardan automáticamente. Estos cambios incluyen cambios en el ancho de una columna de cuadrícula y cambios en el estado expandido o contraído de una ficha desplegable. Sin embargo, si tiene privilegios de personalización, puede usar la acción **Guardar como** para crear una vista personal basada en una vista bloqueada.
@@ -68,15 +70,18 @@ Si desea guardar los cambios, siga estos pasos.
 3. Para crear una vista nueva:
 
     1. Seleccione **Guardar como**. 
-    2. Especifique un nombre de vista y una descripción (opcional).
-    3. Seleccione **Guardar**.
+    2. En el panel **Guardar vista como**, introduzca un nombre y, opcionalmente, una descripción para la vista.
+    3. Si desea que esta vista sea su vista predeterminada, seleccione **Anclar como predeterminada**. Para obtener más información sobre las vistas predeterminadas, consulte la sección [Cambiar la vista predeterminada](#changing-the-default-view) que sigue. 
+    4. **Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, puede seleccionar si desea que esta vista esté disponible para todas las entidades jurídicas o solo para un subconjunto de ellas.
+    5. Seleccione **Guardar**.
 
 ## <a name="changing-the-default-view"></a>Cambiar la vista predeterminada
 
 La vista predeterminada es la vista que el sistema intenta abrir cuando abra la página por primera vez. Debe establecer la vista predeterminada que espera usar más a menudo. 
 
 > [!NOTE]
-> Hay una única vista global predeterminada en todas las empresas. Si cambia la vista predeterminada, esa vista se abrirá de manera predeterminada, independientemente de la entidad jurídica en la que se encuentre actualmente. 
+> - En la función **Vistas guardadas**, hay una vista predeterminada global única para todas las entidades jurídicas. Si cambia la vista predeterminada, esa vista se abrirá de manera predeterminada, independientemente de la entidad jurídica en la que se encuentre actualmente.
+> - **Versión 10.0.21 o posterior:** Cuando la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, cada entidad jurídica puede tener su propia vista predeterminada por página.
 
 Para cambiar la vista predeterminada de una página, siga estos pasos:
 
@@ -86,20 +91,23 @@ Para cambiar la vista predeterminada de una página, siga estos pasos:
 
 Como alternativa, al crear una nueva vista (mediante la acción **Guardar como**), puede hacer que esa nueva vista sea la vista predeterminada mediante la opción **Anclar como predeterminada** antes de guardar la vista.
 
-Tenga en cuenta que en algunos casos, la consulta asociada a la vista predeterminada no se ejecuta cuando abre por primera vez a una página. Por ejemplo, si abre la página a través de un icono, la consulta del icono se ejecutará independientemente de que la consulta esté asociada a la vista predeterminada. Además, si abre una página cuya vista **Estándar** ya tiene una consulta definida, la consulta original se ejecutará en lugar de la consulta predeterminada de la vista. En este caso, recibirá un mensaje informativo cuando se cargue la vista. Si cambia de vista después de que se haya cargado la página, la consulta de vista debería poder ejecutarse como se esperaba. En la versión 10.0.10 y versiones posteriores, el mensaje informativo que recibe tendrá una acción incrustada que le permitirá cargar directamente la consulta de la vista predeterminada.
+> [!WARNING]
+> En algunos casos, la consulta asociada a la vista predeterminada no se ejecuta cuando abre por primera vez una página. Por ejemplo, si abre la página a través de un icono, la consulta del icono se ejecutará independientemente de que la consulta esté asociada a la vista predeterminada. Además, si abre una página cuya vista **Estándar** ya tiene una consulta definida, la consulta original se ejecutará en lugar de la consulta predeterminada de la vista. En este caso, recibirá un mensaje informativo cuando se cargue la vista. Si cambia de vista después de que se haya cargado la página, la consulta de vista debería poder ejecutarse como se esperaba. En la versión 10.0.10 y versiones posteriores, el mensaje informativo que recibe tendrá una acción incrustada que le permitirá cargar directamente la consulta de la vista predeterminada.
 
 ## <a name="managing-personal-views"></a>Gestión de vistas personales
 
 El cuadro **Gestionar mis vistas** le da capacidades de mantenimiento básicas sobre sus vistas personales y el orden de vistas en el selector de la vista. Para abrir esta página, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más** y, a continuación **Administrar mis vistas**.
 
+**Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, la sección **Mis vistas** del cuadro de diálogo **Gestionar mis vistas** muestra las vistas disponibles para la página en secciones. Cualquier vista que sea específica de la entidad jurídica actual se muestra en su propia sección. La sección **Vistas globales** siempre se muestra, para que pueda administrar las vistas que están disponibles para la página en todas las entidades jurídicas. 
+
 Para una lista de vistas disponibles para dicha página, el conjunto de acciones siguiente está disponible.
 
-- **Cambiar la vista predeterminada**: use la acción **Anclar como predeterminada** para hacer que la vista actualmente seleccionada sea la vista predeterminada para esta página.
+- **Cambiar la vista predeterminada**: use la acción **Anclar como predeterminada** para hacer que la vista actualmente seleccionada sea la vista predeterminada para esta página. Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, la sección **Vistas globales** le permite hacer que una vista sea la vista predeterminada para la entidad jurídica actual o para todas las entidades jurídicas.
 - **Reordenar de sus vistas**: use las acciones **Trasladar hacia arriba** y **Trasladar hacia abajo** para reorganizar sus vistas en un orden determinado.
 - **Renombrar una vista**: use la acción **Renombrar** para cambiar el nombre de la vista personal seleccionada actualmente. Esta acción se desactiva para las vistas bloqueadas. 
 - **Eliminar una vista**: Use la acción **Eliminar** para eliminar de forma permanente la vista actualmente seleccionada desde la página. No es posible de recuperar una vista tras eliminarla.
 
-Cualquier cambio realizado en este cuadro de diálogo tomará efecto después de activar el botón **Guardar**.
+Cualquier cambio realizado en este cuadro de diálogo tomará efecto después de activar el botón **Actualizar**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Administrar personalizaciones a nivel de organización con vistas
 
@@ -128,24 +136,28 @@ Para publicar una vista, siga estos pasos:
 6. Determine si la vista debe publicarse como la vista predeterminada para los usuarios seleccionados. Cuando una vista se establece como vista predeterminada, los usuarios la verán la próxima vez que abran la página de destino. Se modificará la vista predeterminada global única de cada usuario objetivo. Sin embargo, los usuarios aún pueden cambiar su vista predeterminada después de que se haya publicado.
 
     > [!NOTE]
-    > Tenga en cuenta lo siguiente al publicar una vista como vista predeterminada: 
-    > -  Si publica una vista como vista predeterminada para todas o algunas entidades jurídicas, cambia la vista predeterminada **global** única de cada usuario objetivo. 
-    > -  Si un usuario tiene roles donde se publican varias vistas como la vista predeterminada, la última vista que se publicó se usará como la vista predeterminada del usuario. 
+    > Tenga en cuenta el siguiente comportamiento al publicar una vista como vista predeterminada:
+    >
+    > - Si publica una vista como vista predeterminada para algunas o todas las entidades jurídicas, se produce el siguiente comportamiento:
+    >
+    >    - Si solo se ha activado la función base **Vistas guardadas**, la vista predeterminada global única se cambiará para cada usuario objetivo. 
+    >    - **Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada y publica la vista en un subconjunto de entidades jurídicas, la vista predeterminada para esas entidades jurídicas se cambiará para cada usuario objetivo.
+    >
+    > - Si un usuario tiene roles donde se publican varias vistas como la vista predeterminada, la última vista que se publicó se usará como la vista predeterminada del usuario. 
 
 8. Agregue los roles de seguridad que corresponden a los usuarios que son el objetivo de esta vista. 
 9. Determine si desea publicar la vista en los roles secundarios de cada rol de seguridad seleccionado. Si lo hace, seleccione la casilla **Incluir roles secundarios** en la fila para los roles de seguridad apropiados. Tenga en cuenta que esta casilla de verificación no está disponible para roles que no tienen roles secundarios.
 10. Agregue las entidades jurídicas para las que esta vista debe estar disponible. 
 
     > [!NOTE]
-    > Tenga en cuenta las siguientes expectativas cuando publique una vista para una entidad legal.
-    > 
-    > Si publica una vista en una entidad jurídica, pero no la publica como la vista predeterminada, los usuarios verán inicialmente la vista en el selector de vista solo para las entidades jurídicas especificadas. Sin embargo, después de cargar la vista por primera vez, siempre estará en el selector de vista del usuario para esa página, independientemente de la entidad jurídica.
+    > Tenga en cuenta el siguiente comportamiento si publica una vista en una entidad jurídica específica pero no la publica como vista predeterminada:
+    >
+    > - Si solo la función base **Vistas guardadas** está activada, el selector de vistas del usuario para la página muestra inicialmente la vista solo para las entidades jurídicas especificadas. Sin embargo, después de cargar la vista por primera vez, el selector de vistas de la página siempre la mostrará, independientemente de la entidad jurídica.
+    > - **Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas solo mostrará la vista para las entidades jurídicas especificadas.
 
 11. Seleccione **Publicar**.
 
 Tenga en cuenta que en algunos entornos esto podrá llevar tiempo (hasta una hora) antes de que los usuarios vean la vista publicada.
-
- 
 
 ## <a name="modifying-a-published-view"></a>Modificar una vista publicada
 
@@ -193,6 +205,7 @@ Aunque aparecen algunas capacidades de administración en cada página, como se 
 Los usuarios con acceso a la página **Personalización** también pueden importar las vistas de la organización o de la plantilla con el botón **Importar vistas** del panel Acciones. Para las vistas de la organización, puede seleccionar **Publica inmediatamente** para que las vistas estén disponibles para los usuarios sin una publicación explícita adicional.
 
 ## <a name="known-issues"></a>Problemas conocidos
+
 Para obtener una lista de los problemas conocidos con las vistas guardadas, consulte [Crear formularios que usan completamente las vistas guardadas](../../dev-itpro/user-interface/understanding-saved-views.md).
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
@@ -232,5 +245,11 @@ Para las páginas con selectores de vista grandes (las personalizaciones y consu
 - Si navega a través de un mosaico a una página, la consulta del mosaico se ejecutará independientemente de la consulta asociada a la vista predeterminada. Si creó ese icono después de que se hubieran habilitado las vistas, al seleccionar un icono se abrirá la página con la vista asociada a ese icono.
 - Si navega a una página cuyo punto de entrada incluye una consulta, la consulta original se ejecutará originalmente en lugar de la consulta predeterminada de la vista. Debería recibir una alerta cuando esto se produce mediante un mensaje informativo cuando se cargue la vista. También puede confirmar esto cambiando a esta vista después de que la página cargue, ya que eso debería permitir a la consulta de la vista ejecutarse de forma independiente.
 
+### <a name="why-is-a-view-that-was-published-for-a-specific-legal-entity-visible-in-all-legal-entities"></a>¿Por qué una vista que se publicó para una entidad jurídica específica está visible en todas las entidades jurídicas?
+
+Si publica una vista en una entidad jurídica específica pero no la publica como vista predeterminada, se produce el siguiente comportamiento:
+
+- Si solo la función base **Vistas guardadas** está activada, el selector de vistas del usuario para la página muestra inicialmente la vista solo para las entidades jurídicas especificadas. Sin embargo, después de cargar la vista por primera vez, el selector de vistas de la página siempre la mostrará, independientemente de la entidad jurídica. Este comportamiento se produce porque los usuarios obtienen su propia copia personal de la vista publicada cuando se carga y las vistas personales son globales.
+- **Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas solo mostrará la vista para las entidades jurídicas especificadas. Este comportamiento se produce porque la función permite que las vistas (incluidas las vistas personales) se vinculen a entidades jurídicas específicas.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

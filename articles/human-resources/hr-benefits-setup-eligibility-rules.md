@@ -1,8 +1,8 @@
 ---
-title: Configurar reglas y opciones de idoneidad
-description: Establezca reglas y opciones de idoneidad en la administración de prestaciones en Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/25/2021
+title: Configurar reglas y opciones de elegibilidad
+description: En este tema se describe cómo establecer reglas y opciones de idoneidad en la administración de prestaciones en Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3aae50b8f7fac6991f187ced44f7d122eb7ed40824bd2d53265fa06bfa87dd6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756133"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423480"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar reglas y opciones de elegibilidad 
 
@@ -153,9 +153,9 @@ Las reglas se pueden expandir aún más para usar múltiples condiciones dentro 
 ![Múltiples condiciones dentro de los criterios.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Condiciones de elegibilidad dentro de un criterio de campo personalizado 
-De manera similar a lo anterior, los campos personalizados se pueden usar al crear reglas de elegibilidad y funcionan de la misma manera. Por ejemplo, es posible que desee ofrecer un reembolso por Internet a los empleados de Fargo y Copenhagen que trabajan desde casa, ya que los costos de Internet son más altos en esos lugares. Para hacer esto, cree dos campos personalizados: **Ubicación de la oficina** (lista de selección) y **Trabajando desde casa** (casilla de verificación). Luego cree una regla llamada **Empleados de la FMH**. El criterio para la regla es donde **Ubicación de la oficina = Fargo** o **Copenhague** *y* dónde **Trabajar desde casa = Sí**.
+De manera similar a lo anterior, los campos personalizados se pueden usar al crear reglas de elegibilidad y funcionan de la misma manera. Por ejemplo, es posible que desee ofrecer un reembolso por Internet a los empleados de Fargo y Copenhagen que trabajan desde casa, ya que los costos de Internet son más altos en esos lugares. Para hacer esto, cree dos campos personalizados: **Ubicación de la oficina** (lista de selección) y **Trabajando desde casa** (casilla de verificación). Luego cree una regla llamada **Empleados de la FMH**. El criterio para la regla es donde **Ubicación de la oficina = Fargo** o **Copenhague** *y* donde **Trabajar desde casa = Sí**.
 
-Las reglas de elegibilidad personalizadas deberían configurarse como se indica en la siguiente imagen. 
+Las reglas de idoneidad personalizadas deberían configurarse como se indica en la siguiente imagen. 
 
 ![Condiciones de elegibilidad dentro de un criterio de campo personalizado.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
@@ -217,13 +217,13 @@ Puede usar programas de crédito flexible para inscribir a los empleados en pres
 
    | Campo | Descripción |
    | --- | --- |
-   | Id. de crédito de prestación | El identificador único del programa de crédito flexible. |
-   | Descripción | Una descripción del programa de crédito flexible. | 
-   | A partir de la fecha | La fecha en que se activa el programa de crédito flexible. |
-   | Hasta fecha | La fecha en que finaliza el programa de crédito flexible. Puede dejar el valor predeterminado (31/12/2154) para indicar que el programa de crédito flexible no tiene un vencimiento programado. |
-   | Valor total del crédito | La cantidad de créditos que cada empleado tendrá que usar para sus prestaciones. |
-   | Regla de prorrateo | La regla a utilizar para prorratear los créditos flexibles cuando se contrata a un empleado en la mitad del periodo de crédito flexible. </br></br><ul><li>**Ninguno**: el empleado no recibe créditos flexibles si son contratados después de que comience el periodo del programa de crédito flexible.</li><li>**Crédito total**: el empleado recibe el importe total de créditos flexibles, independientemente de cuándo sean contratados.</li><li>**Prorrateo**: el empleado recibe un importe prorrateado de créditos flexibles en función de su fecha de inicio.</li></ul> |
-   | Fórmula de prorrateo de crédito flexible | La regla a utilizar para prorratear los créditos flexibles para los empleados que se contratan en mitad de un periodo de prestaciones del programa de crédito flexible. El prorrateo se basa en la fecha de inicio del empleo. Este campo únicamente se usa si selecciona **Prorrateo** o **Regla de prorrateo** en el campo . </br></br><ul><li>**Diario**: se prorratea el número de créditos flexibles que recibe un empleado de forma diaria. El número total de créditos flexibles se divide por el número de días en el periodo. Por ejemplo, si su periodo de prestaciones es de 400 días, el sistema dividirá la cantidad total de créditos flexibles por 400 para calcular la cantidad de créditos flexibles que reciben los empleados por día.</li><li>**Mes actual**: se prorratea el número de créditos flexibles que recibe un empleado de forma mensual, redondeado al mes actual. El número total de créditos flexibles se divide por el número de meses en el periodo. Por ejemplo, si su periodo de prestaciones es de 15 meses, el sistema dividirá la cantidad total de créditos flexibles por 15 para calcular la cantidad de créditos flexibles que reciben los empleados por mes.</li><li>**Mes siguiente**: se prorratea el número de créditos flexibles que recibe un empleado de forma mensual, redondeado al mes siguiente. El número total de créditos flexibles se divide por el número de meses en el periodo. Por ejemplo, si su periodo de prestaciones es de 15 meses, el sistema divide la cantidad total de créditos flexibles por 15 para calcular la cantidad de créditos flexibles que reciben los empleados por mes.</li></ul> |
+   | **Id. de crédito de prestación** | El identificador único del programa de crédito flexible. |
+   | **Descripción** | Una descripción del programa de crédito flexible. | 
+   | **A partir de la fecha** | La fecha en que se activa el programa de crédito flexible. |
+   | **Hasta fecha** | La fecha en que finaliza el programa de crédito flexible. Puede dejar el valor predeterminado (31/12/2154) para indicar que el programa de crédito flexible no tiene un vencimiento programado. |
+   | **Valor total del crédito** | La cantidad de créditos que cada empleado tendrá que usar para sus prestaciones. |
+   | **Regla de prorrateo** | La regla a utilizar para prorratear los créditos flexibles cuando se contrata a un empleado en la mitad del periodo de crédito flexible. </br></br><ul><li>**Ninguno**: el empleado no recibe créditos flexibles si son contratados después de que comience el periodo del programa de crédito flexible.</li><li>**Crédito total**: el empleado recibe el importe total de créditos flexibles, independientemente de cuándo sean contratados.</li><li>**Prorrateo**: el empleado recibe un importe prorrateado de créditos flexibles en función de su fecha de inicio.</li></ul> |
+   | **Fórmula de prorrateo de crédito flexible** | La regla a utilizar para prorratear los créditos flexibles para los empleados que se contratan en mitad de un periodo de prestaciones del programa de crédito flexible. El prorrateo se basa en la fecha de inicio del empleo. Este campo únicamente se usa si selecciona **Prorrateo** o **Regla de prorrateo** en el campo . </br></br><ul><li>**Diario**: se prorratea el número de créditos flexibles que recibe un empleado de forma diaria. El número total de créditos flexibles se divide por el número de días en el periodo. Por ejemplo, si su periodo de prestaciones es de 400 días, el sistema dividirá la cantidad total de créditos flexibles por 400 para calcular la cantidad de créditos flexibles que reciben los empleados por día.</li><li>**Mes actual**: se prorratea el número de créditos flexibles que recibe un empleado de forma mensual, redondeado al mes actual. El número total de créditos flexibles se divide por el número de meses en el periodo. Por ejemplo, si su periodo de prestaciones es de 15 meses, el sistema dividirá la cantidad total de créditos flexibles por 15 para calcular la cantidad de créditos flexibles que reciben los empleados por mes.</li><li>**Mes siguiente**: se prorratea el número de créditos flexibles que recibe un empleado de forma mensual, redondeado al mes siguiente. El número total de créditos flexibles se divide por el número de meses en el periodo. Por ejemplo, si su periodo de prestaciones es de 15 meses, el sistema divide la cantidad total de créditos flexibles por 15 para calcular la cantidad de créditos flexibles que reciben los empleados por mes.</li></ul> |
    
    Asegúrese de que cada plan de prestaciones esté inscrito en un solo programa de crédito flexible por periodo de prestaciones. De lo contrario, el sistema no sabrá qué programa de crédito flexible usar para otorgar créditos flexibles y le causará problemas. 
 

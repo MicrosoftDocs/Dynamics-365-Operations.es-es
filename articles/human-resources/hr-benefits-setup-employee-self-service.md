@@ -1,8 +1,8 @@
 ---
 title: Configurar autoservicio para empleados
 description: En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la navegación de nivel superior en autoservicio para empleados.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cafd89d30ca3876953df099e2e7b7cc9c3e1fdc0f69bb039310434f8d770f6f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721592"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423327"
 ---
 # <a name="configure-employee-self-service"></a>Configurar autoservicio para empleados
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la navegación de nivel superior en autoservicio para empleados. El icono del plan de prestaciones dirige a los usuarios a los planes de prestaciones a los que pueden optar.
+En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la navegación de nivel superior en **Autoservicio para empleados**. El icono del plan de prestaciones dirige a los usuarios a los planes de prestaciones a los que pueden optar.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Configurar un icono de planes de prestaciones
 
@@ -39,9 +39,9 @@ En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la naveg
    | Campo | Descripción |
    | --- | --- |
    | **Id. de icono** | El identificador único del icono. |
-   | **Texto de etiqueta de icono** | El texto que aparecerá para el icono en el autoservicio. |
+   | **Texto de etiqueta de icono** | El texto que aparecerá para el icono en **Autoservicio para empleados**. |
    | **Descripción** | Una descripción del icono. |
-   | **Dirección de Internet** | Introduzca la URL de la página de autoservicio del empleado. |
+   | **Dirección de Internet** | Introduzca la URL de la página de **Autoservicio para empleados**. |
    | **Tamaño de icono** | El tamaño del icono: pequeño, mediano o grande. |
    | **Destino** | Especifica si la página debe abrirse en una nueva ventana o en la ventana actual. |
    | **Imagen de fondo de icono** | La URL de la imagen a usar para el icono (opcional). |
@@ -61,9 +61,9 @@ En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la naveg
    | Campo | Descripción |
    | --- | --- |
    | **Id. de icono** | El identificador único del icono. |
-   | **Texto de etiqueta de icono** | El texto que aparecerá para el icono en el autoservicio. |
+   | **Texto de etiqueta de icono** | El texto que aparecerá para el icono en **Autoservicio para empleados**. |
    | **Descripción** | Una descripción del icono. |
-   | **Dirección de Internet** | Introduzca la URL de la página de autoservicio del empleado. |
+   | **Dirección de Internet** | Introduzca la URL de la página de **Autoservicio para empleados**. |
    | **Tamaño de icono** | El tamaño del icono: pequeño, mediano o grande. |
    | **Destino** | Especifica si la página debe abrirse en una nueva ventana o en la ventana actual. |
    | **Imagen de fondo de icono** | La URL de la imagen a usar para el icono (opcional). |

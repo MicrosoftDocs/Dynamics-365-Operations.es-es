@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751107"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344987"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
@@ -51,6 +51,9 @@ Para ver el resultado del análisis de ajuste de Planning Optimization, vaya a *
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Resumen de posibles resultados del análisis de idoneidad
 
 La siguiente tabla muestra los diversos resultados que se pueden mostrar después de un análisis de idoneidad. Los signos numéricos (_\#_) se reemplazarán con un número que indica el número de registros que tienen el problema mencionado. Las funciones admitidas o en vista previa están disponibles con la versión 10.0.9 o posterior (a menos que se indique un número de versión superior en la columna "Disponibilidad esperada").
+
+> [!NOTE]
+> Algunas incoherencias no se pueden identificar mediante el análisis de ajuste de Optimización de planificación. Para obtener más información, consulte [Diferencias entre la planificación maestra clásica y Optimización de planificación](planning-optimization-differences-with-built-in.md).
 
 | Característica | Problema mencionado | Explicación | Disponibilidad prevista |
 | --- | --- | --- | --- |
@@ -104,9 +107,13 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 
 [Información general de la optimización de la planificación](planning-optimization-overview.md)
 
-[Introducción a la optimización de la planificación](get-started.md)
+[Introducción a Optimización de planificación](get-started.md)
 
-[Ver el historial del plan y los registros de planificación](plan-history-logs.md)
+[Diferencias entre la planificación maestra clásica y Optimización de planificación](planning-optimization-differences-with-built-in.md)
+
+[Parámetros no utilizados por Optimización de planificación](not-used-parameters.md)
+
+[Ver historial del plan y registros de planificación](plan-history-logs.md)
 
 [Aplicar filtros a un plan](plan-filters.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Crear facturas de pedidos de ventas
-description: Esta guía de tarea describe la facturación de un pedido de ventas e incluye la combinación de facturas y el procesamiento por lotes.
+description: Este tema describe cómo se factura un pedido de ventas, e incluye la combinación de facturas y el procesamiento por lotes.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771833"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394619"
 ---
 # <a name="create-sales-order-invoices"></a>Crear facturas de pedidos de ventas
 
 [!include [banner](../../includes/banner.md)]
 
-Esta guía de tarea describe la facturación de un pedido de ventas e incluye la combinación de facturas y el procesamiento por lotes. Este procedimiento usa la empresa de demostración USMF.
+Este tema describe cómo se factura un pedido de ventas, e incluye la combinación de facturas y el procesamiento por lotes. Este procedimiento usa la empresa de demostración USMF.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Crear una factura a partir de un pedido de ventas
 1. Vaya a **Panel de navegación > Módulos > Clientes > Pedidos > Pedidos de ventas enviados pero no facturados**.
 2. Seleccione un pedido de ventas en la lista. 
-3. En el **panel de acciones**, haga clic en **Factura > Generar > Factura**. Tenga en cuenta que este pedido de ventas tiene varios albaranes asociados con él. Solo mostrará la palabra <multiple> en lugar del número de albarán.  
+3. En el **panel de acciones**, haga clic en **Factura > Generar > Factura**. Tenga en cuenta que este pedido de ventas tiene varios albaranes asociados con él. Solo mostrará la palabra *múltiple* en lugar del número de albarán.  
 4. Expanda la sección **Parámetros**.
     - El registro se debe establecer en Sí para registrar la factura. También puede desactivar el registro y solo imprimir la factura. Sin embargo, puede lograr el mismo resultado creando una factura de proforma en lugar de una factura.  
     - Esta opción es la que se usa para trabajos por lotes. El trabajo por lotes se ejecuta al registrar pedidos de ventas.

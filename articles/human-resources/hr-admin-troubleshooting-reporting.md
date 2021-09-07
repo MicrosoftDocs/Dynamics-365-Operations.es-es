@@ -1,8 +1,8 @@
 ---
-title: Opciones del informe
-description: El artículo explica cómo resolver la incidencia cuando un cliente quiere personalizar informes de Microsoft Dynamics 365 Human Resources o crear nuevos informes.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Opciones de informes
+description: En este tema se explica cómo personalizar informes de Microsoft Dynamics 365 Human Resources o crear informes nuevos.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,17 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 733ae0725f6fd9508e7d9e168d97f30a6c37f442930fb76c9415358c4dc888ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706e901e89fa618540067d68546be1cef1ee7148
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740800"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413391"
 ---
-# <a name="reporting-options"></a>Opciones del informe
+# <a name="reporting-options"></a>Opciones de informes
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

@@ -1,8 +1,8 @@
 ---
 title: Evitar el truncamiento del texto en la jerarquía de puestos y exportar a Visio
-description: Este artículo explica cómo resolver una incidencia en la que los nombres de los individuos y las posiciones se truncan cuando los clientes ven la jerarquía de posiciones en Microsoft Dynamics 365 Human Resources. El truncamiento de texto puede hacer difícil tomar una captura de pantalla o imprimir la jerarquía.
-author: andreabichsel
-ms.date: 02/03/2020
+description: En este tema se explica cómo resolver el problema por el que aparecen nombres truncados de personas y de puestos en la jerarquía de puestos en Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,17 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a9a8d22df0416ef417a6216c3131bfb6d40d200
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779335"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413544"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evitar truncamiento del texto en la jerarquía de puestos y exportar a Visio
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evitar el truncamiento del texto en la jerarquía de puestos y exportar a Visio
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -43,7 +43,7 @@ Siga estos pasos para exportar a Visio.
 
 1. En Recursos humanos, abra la página de lista **Posiciones**.
 
-    Para incluir obtener más información en el gráfico de la estructura de la organización, agregue campos a la lista **Puestos** , de modo que estén disponibles cuando utilice el asistente más adelante en este procedimiento.
+    Para incluir más información en el gráfico de la estructura de la organización, agregue campos a la lista **Puestos** para que estén disponibles cuando utilice el **Asistente para organigramas** más adelante en este procedimiento.
 
 2. En el panel de acciones, seleccione el botón **Abrir en Microsoft Office** y, a continuación, en **Exportar a Excel**, seleccione **Puestos**. Como alternativa, presione Ctrl+T.
 

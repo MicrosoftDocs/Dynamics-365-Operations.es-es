@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778371"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345379"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Registrar depreciación de activo por derecho de uso (Vista previa)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Para los arrendamientos que se reconocen en el balance de situación de una organización, el activo por derecho de uso (ROU) se amortiza mensualmente. Este tema explica cómo crear el movimiento de diario para la amortización. La amortización debita la cuenta del libro mayor de gastos y acredita la cuenta del libro mayor de depreciación acumulada, según la configuración de su perfil de contabilización y el tipo de arrendamiento. Estas entradas se pueden crear para cada arrendamiento o se pueden crear para varios arrendamientos utilizando la funcionalidad de diario por lotes.
 
@@ -36,6 +38,9 @@ Para los arrendamientos que se reconocen en el balance de situación de una orga
 
 2. Seleccione el período de depreciación y luego seleccione **Crear diario**. Recibe un mensaje que indica que se creó el diario que se utilizará para registrar la depreciación.
 3. Seleccione **Diarios \> Diarios de arrendamiento de activos** para abrir la página **Diario de arrendamiento de activos**, donde puede ver el movimiento de diario de gastos de depreciación que se creó.
+
+   El sistema bloquea la edición de ciertos campos financieros para evitar variaciones entre las transacciones y los programas. Algunos campos que están bloqueados incluyen: **Cuenta**, **Cantidades**, **Dimensiones financieras**, **Divisa** y **Tipo de transacción**. Además, no podrá agregar o eliminar líneas de asientos de diario en los asientos de diario de arrendamiento de activos, ya que esto podría causar variaciones entre los horarios y las transacciones.
+
 4. Seleccione la entrada del diario y luego seleccione **Registrar** para registrar el movimiento de depreciación en el Libro mayor.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>Cálculo del gasto de amortización de activos por derecho de uso para arrendamientos operativos

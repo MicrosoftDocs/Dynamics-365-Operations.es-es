@@ -2,7 +2,7 @@
 title: Búsqueda de navegación
 description: Este tema explica cómo usar la función de búsqueda para navegar por páginas.
 author: aneesmsft
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82c7bf17eaf0276c448223182b4268a50addb37f1ff115fec0223bc3313905e5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30b56287520bb3536b250a886e74e6cbe30b412
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749613"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344407"
 ---
 # <a name="navigation-search"></a>Búsqueda de navegación
 
@@ -34,7 +34,7 @@ Para usar esta característica, haga clic en **Buscar** para que aparezca el cua
 > [!NOTE]
 > El cuadro **Buscar** le ayuda a encontrar páginas y a desplazarse por ellas. No le ayudará a encontrar datos o acciones específicos.
 
-[![cuadro de búsqueda.](media/navigation-search.png "Cuadro de búsqueda")
+![cuadro de búsqueda.](media/navigation-search.png "Cuadro de búsqueda")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Desplácese rápidamente a una página determinada
 

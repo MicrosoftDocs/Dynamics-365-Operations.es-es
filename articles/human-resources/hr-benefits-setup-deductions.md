@@ -1,8 +1,8 @@
 ---
 title: Configurar deducciones
 description: Usar deducciones en Microsoft Dynamics 365 Human Resources para determinar cuánto, si corresponde, deducir del sueldo de un empleado por cada prestación.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 914f3348982cb10874ab585badb8bbba2885ea6970fda7cbe1c73e56c8d447a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a865f109379064ae8829532af9253238e203c322
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762007"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423506"
 ---
 # <a name="configure-deductions"></a>Configurar deducciones
 
@@ -45,7 +45,7 @@ Usar deducciones en Microsoft Dynamics 365 Human Resources para determinar cuán
    | **Partida de importe** | El código de encabezado del sistema de nóminas que este importe de deducción usará para la parte de la deducción del empleado al procesar las prestaciones de la nómina. Normalmente, se utiliza cuando usa un proveedor de nómina externo. |
    | **Se puede eliminar** | Especifica si un valor exportado de Dynamics 365 for Finance and Operations puede hacer que el valor se elimine en el sistema de nómina. |
    | **Columnas emparejadas** | Especifica si se debe exportar el encabezado y el importe de deducción en columnas adyacentes emparejadas al sistema de nómina. |
-   | **Fecha de vigencia del cambio** | La fecha en la que entrará en vigor el cambio de deducción de prestaciones. En esta fecha, el sistema cambiará automáticamente la deducción de prestaciones y actualizará todos los planes de prestaciones asociados con esta deducción, siempre que ejecute el proceso de **Actualización de cambio de deducción**. |
+   | **Fecha de vigencia del cambio** | La fecha en la que entrará en vigor el cambio de deducción de prestaciones. En esta fecha, la deducción de prestaciones cambia y todos los planes de prestaciones asociados con esta deducción se actualizan, siempre y cuando ejecute el proceso de **Actualización de cambio de deducción**. |
    | **Cambio de deducción completado** | La casilla de **Cambio de deducción completado** se seleccionará automáticamente una vez que el proceso de cambio de actualización de deducción haya completado los cambios de deducción de prestaciones. |
    
 4. Para realizar un seguimiento y mantener los cambios en la configuración de la tasa de prestaciones, seleccione **Acciones** y luego seleccione **Mantener versiones**.

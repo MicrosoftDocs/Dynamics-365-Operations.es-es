@@ -1,6 +1,6 @@
 ---
 title: Configuración de los parámetros de costo descargado
-description: En estos temas se describe cómo configurar la información general y los parámetros de configuración que se utilizan en el módulo de costos de aterrizaje para la publicación, las actualizaciones de estado, las secuencias de números y el comportamiento.
+description: En este tema se describe cómo configurar la información general y los parámetros de configuración que se utilizan en el módulo de costos de aterrizaje para la publicación, las actualizaciones de estado, las secuencias de números y el comportamiento.
 author: sherry-zheng
 ms.date: 12/07/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 138ef5b3fc210a6a717200d0c41422ea901373c1dfbf1a53cd558603c11277ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b6678b2579db00a9f8884786fdaacd027fab744
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747994"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403985"
 ---
 # <a name="landed-cost-parameters-setup"></a>Configuración de los parámetros de costo descargado
 

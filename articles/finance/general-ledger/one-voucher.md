@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 08ece85c773538283fa31ed72e8af61e2da03845fbaa4e6b0507a65626bce803
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720535"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344067"
 ---
 # <a name="one-voucher"></a>Un asiento
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>¿Qué es Un asiento?
@@ -81,7 +82,7 @@ Basado en conversaciones con clientes, Microsoft ha compilado la siguiente lista
 
 Las situaciones siguientes se pueden realizar solo con la funcionalidad de asiento único. Si su organización tiene cualquiera de estos escenarios, debe habilitar la especificación de varias transacciones en un asiento modificando el valor del parámetro **Permitir varias transacciones en un asiento** en la página **Parámetros de contabilidad general**. Estas lagunas funcionales se abordarán con otras características en posteriores lanzamientos.
 
-> [!Note]
+> [!NOTE]
 > [Para cada uno de los siguientes escenarios el campo **Permitir varias transacciones en un asiento** se debe establecer en Sí en la pestaña desplegable **General** en la página **Parámetros de contabilidad general**].
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Registrar los pagos de cliente o de proveedor en formulario resumen en una cuenta bancaria
@@ -115,15 +116,7 @@ En esta situación, los clientes del asiento único son el mismo cliente, porque
 Si la tarea periódica de reembolso se ejecuta desde el módulo Clientes, crea una transacción para mover el saldo de un cliente a un proveedor. Para esta situación, un asiento se debe usar para el reembolso al cliente.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Mantenimiento de activos fijos: La recuperación de la depreciación, división de activos, calcula la depreciación en la cancelación
-Las siguientes transacciones de activos fijos también crean varias transacciones en un asiento único:
-
-- Se crea una adquisición adicional en un activo y se calcula la depreciación de "actualización".
-- Un activo está dividido.
-- Un parámetro para calcular la depreciación al cancelar se habilita y luego el activo se cancela.
-- La fecha de servicio de un activo es anterior a la fecha de adquisición. Por lo tanto, se registra un ajuste de depreciación.
-
-> [!Note]
-> Cuando especifique transacciones, asegúrese de que todas las transacciones se aplican al mismo activo fijo. El asiento no se registrará si incluye más de un activo fijo, incluso si el campo **Nuevo asiento** se establece en un número de asiento únicamente en la página **Nombres de diario** en contabilidad general. Si incluye más de un activo fijo en el asiento, aparecerá el mensaje **Solo puede haber una transacción de activo fijo por asiento** y no se podrá registrar el asiento.  
+Con la versión 10.0.21 y posteriores, las transacciones de activos fijos para recuperar la depreciación, dividir un activo y calcular la depreciación para la disposición de un activo se crearán utilizando diferentes números de comprobante.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Letras de cambio y pagarés
 Las letras de cambio y pagarés que requieren que se use un asiento, pues las transacciones pasan al cliente o el saldo de proveedor de una cuenta contable de clientes/proveedores a otra, en función del estado del pago.

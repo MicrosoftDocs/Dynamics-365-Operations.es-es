@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a25eb9e6efc85d2c26e46b925135b3c7c69b1c26173267a2ce3f001f35fd0bab
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 77b04f417e5bd8d236fa53810f9cbfe5860d9dd7
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012212"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343247"
 ---
 # <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Requisitos netos e información de diagrama de árbol con Optimización de planificación
 
@@ -63,8 +63,8 @@ La sección inferior de la página proporciona las siguientes pestañas:
 
 Los siguientes comandos están disponibles en el Panel de acciones:
 
-- **Actualizar\> Planificacion maestra** - Ejecute la planificación maestra directamente desde la página **Requisitos netos**.
-- **Actualizar\> Planificacion de previsión** - Ejecute la planificación de previsión directamente desde la página **Requisitos netos**. Optimización de planificación aún no admite esta operación.
+- **Actualizar\> Planificación maestra** - Ejecute la planificación maestra directamente desde la página **Requisitos netos**.
+- **Actualizar\> Planificación de previsión** - Ejecute la planificación de previsión directamente desde la página **Requisitos netos**. Optimización de planificación aún no admite esta operación.
 - **Actualizar\> Programación de continuidad** - Ejecute la programación de continuidad directamente desde la página **Requisitos netos**. Optimización de planificación aún no admite esta operación.
 
 ## <a name="example-scenario"></a>Supuesto de ejemplo

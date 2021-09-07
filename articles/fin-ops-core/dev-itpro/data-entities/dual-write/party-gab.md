@@ -2,19 +2,19 @@
 title: Libreta de direcciones de partes y global
 description: Este tema describe la funcionalidad de libreta de direcciones de partes y global de escritura dual.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729785"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386694"
 ---
 # <a name="party-and-global-address-book"></a>Libreta de direcciones de partes y global
 
@@ -86,24 +86,24 @@ Por ejemplo, Natasha Jones y Miguel Reyes son veterinarios que brindan atención
 
 Estas relaciones se almacenan en la tabla **Contacto de parte**. Puede encontrar la información en las páginas listas para usar de **Cuenta**, **Contacto** y **Proveedor**:
 
-+ En la página **Cuenta**, puede utilizar la pestaña **Contactos asociados** para asociar uno o más contactos con la fila **Cuenta**. De esta manera, está asignando personas de contacto para una organización. A continuación, puede seleccionar un contacto como contacto principal de la cuenta. Si usa la página **Creación rápida**, solo puede seleccionar una persona de contacto. El comportamiento es el mismo cuando usa la página **Proveedor** y el tipo de registro es **Organización**.
-+ En la página **Contacto**, cuando la fila es un cliente, un proveedor o ambos (un contacto marcado), puede utilizar la pestaña **Contactos asociados** para asociar uno o más contactos. De esta forma, está asignando personas de contacto al cliente o proveedor B2C. A continuación, puede seleccionar un contacto como contacto principal. Si usa la página **Creación rápida**, solo puede seleccionar una persona de contacto.
-+ En la página **Contacto**, cuando la fila es una persona de contacto (un contacto no marcado), puede utilizar la pestaña **Organizaciones asociadas** para asociar uno o más clientes o proveedores. De esta manera, puede asignar clientes o proveedores a la persona de contacto subyacente. El cliente o proveedor puede ser una organización, una persona o ambas. Puede seleccionar un valor cada vez en solo uno de los cuatro campos:
++ En la página **Cuenta**, puede utilizar la ficha **Contactos asociados** para asociar uno o más contactos con la fila **Cuenta**. De esta manera, está asignando personas de contacto para una organización. A continuación, puede seleccionar un contacto como contacto principal de la cuenta. Si usa la página **Creación rápida**, solo puede seleccionar una persona de contacto. El comportamiento es el mismo cuando usa la página **Proveedor** y el tipo de registro es **Organización**.
++ En la página **Contacto**, cuando la fila es un cliente, un proveedor o ambos (un contacto marcado), puede utilizar la ficha **Contactos asociados** para asociar uno o más contactos. De esta forma, está asignando personas de contacto al cliente o proveedor B2C. A continuación, puede seleccionar un contacto como contacto principal. Si usa la página **Creación rápida**, solo puede seleccionar una persona de contacto.
++ En la página **Contacto**, cuando la fila es una persona de contacto (un contacto no marcado), puede utilizar la ficha **Organizaciones asociadas** para asociar uno o más clientes o proveedores. De esta manera, puede asignar clientes o proveedores a la persona de contacto subyacente. El cliente o proveedor puede ser una organización, una persona o ambas. Puede seleccionar un valor cada vez en solo uno de los cuatro campos:
 
     + Si selecciona un valor en e campo **Id. de parte**, el contacto subyacente se asigna a todos los roles de la parte seleccionada.
     + Si selecciona un valor en el campo **Contacto asociado**, entonces está seleccionando el contacto macado del tipo **Persona**.
     + Si selecciona un valor en el campo **Cuenta asociada** o **Proveedor asociado**, está seleccionando una organización.
 
-    ![Pestaña Organizaciones asociadas en la página Contacto.](media/party-gab-image3.png)
+    ![Ficha Organizaciones asociadas en la página Contacto.](media/party-gab-image3.png)
 
     Independientemente de su selección, la asociación se crea a nivel de parte, se aplica a todos los roles de parte y se almacena en la entidad **Contacto de parte**.
 
 > [!NOTE]
 > El nombre para mostrar de la tabla **Contacto de parte** en las aplicaciones de interacción con el cliente es **Contacto de cliente/proveedor**.
 
-Cuando abre una fila de **Contacto** donde el campo **Es cliente** y **Es proveedor** están configurados en **No**, se muestra la pestaña **Organizaciones asociadas**. Utilice esta pestaña para asociar una o más organizaciones de clientes o proveedores con el contacto.
+Cuando abre una fila de **Contacto** donde el campo **Es cliente** y **Es proveedor** están configurados en **No**, se muestra la ficha **Organizaciones asociadas**. Utilice esta ficha para asociar una o más organizaciones de clientes o proveedores con el contacto.
 
-Cuando abre una fila de **Contacto** donde el campo **Es cliente** o el campo **Es proveedor** está configurados en **Sí**, se muestra la pestaña **Contactos asociados**. Utilice esta pestaña para asociar uno o más contactos.
+Cuando abre una fila de **Contacto** donde el campo **Es cliente** o el campo **Es proveedor** está configurados en **Sí**, se muestra la ficha **Contactos asociados**. Utilice esta pestaña para asociar uno o más contactos.
 
 ## <a name="postal-addresses"></a>Direcciones postales
 
@@ -139,7 +139,10 @@ La cuadrícula incluye las siguientes columnas:
 
 Puede usar el botón **Nueva direccion electrónica** de encima de la cuadrícula para crear tantas direcciones como desee.
 
-Las direcciones electrónicas están disponibles solo en esta cuadrícula. En versiones futuras, todos los campos de direcciones electrónicas y postales se eliminarán de otras pestañas (por ejemplo, las pestañas **Resumen** y **Detalles**).
+Las direcciones electrónicas están disponibles solo en esta cuadrícula. En versiones futuras, todos los campos de direcciones electrónicas y postales se eliminarán de otras fichas (por ejemplo, las fichas **Resumen** y **Detalles**). Los datos de contacto que se muestran en la ficha **Detalles** son copias de solo lectura de la dirección electrónica principal, como el teléfono principal, el correo electrónico principal, el teléfono principal, el fax principal y el Id. de Twitter principal. Durante el proceso de calificación de clientes potenciales, puede proporcionar tanto un número de teléfono comercial como un número de teléfono móvil. El número de teléfono comercial se considera el teléfono principal si **IsMobile=No** y el número de teléfono móvil se considera el teléfono secundario si **IsMobile=Yes**.
+
+> [!TIP]
+> Use las fichas **Direcciones** y **Direcciones electrónicas** de los formularios **Cuenta** y **Contacto** para gestionar direcciones postales y electrónicas. Esto asegura que los datos de la dirección se sincronicen con las aplicaciones de Finance and Operations.
 
 ## <a name="setup"></a>Configurar
 
@@ -149,7 +152,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
 
 3. Instale [Soluciones de libreta de direcciones global y de parte de escritura dual](https://aka.ms/dual-write-gab).
 
-4. Abra la aplicación Finance and Operations. Navegue hasta el módulo Gestión de datos y seleccione la pestaña Escritura dual. Se abre la página de administración de escritura dual.
+4. Abra la aplicación Finance and Operations. Navegue hasta el módulo Gestión de datos y seleccione la ficha Escritura dual. Se abre la página de administración de escritura dual.
 
 5. Aplique las dos soluciones instaladas en los pasos 2 y 3 utilizando la función [Aplicar solución](link-your-environment.md).
 
@@ -249,13 +252,11 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
     [Encabezado de pedidos de ventas de CDS](mapping-reference.md#217) | salesorders
     [Encabezados de factura de ventas V2](mapping-reference.md#118) | facturas
 
-> [!Note]
+> [!NOTE]
 > La asignación `CDS Contacts V2 (contacts)` es la asignación que detuvo en el paso 1. Cuando intenta ejecutar otras asignaciones, estas 2 asignaciones pueden aparecer en la lista de dependientes. No ejecute estas asignaciones.
-
-> [!Note]
+>
 > Si la solución de libreta de direcciones global y de parte está instalada, debe deshabilitar el complemento denominado `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Si desinstala la solución de libreta de direcciones global y de parte, entonces debe volver a habilitar el complemento.
-
-> [!Note]
+>
 > El campo `msdyn_*partynumber` (un campo de texto de una sola línea) que se incluye en las tablas **Cuenta**, **Contacto** y **Proveedor** no debe utilizarse en el futuro. El nombre de la etiqueta tiene un prefijo de **(En desuso)** para mayor claridad. En su lugar, use el campo **msdyn_partyid**. El campo es una búsqueda de la tabla **msdyn_party**.
 
 > Nombre de la tabla | Campo antiguo | Nuevo campo
@@ -296,8 +297,7 @@ Para más información, consulte [Referencia de asignación de escritura doble](
 
 + En aplicaciones de Finance and Operations, cuando crea un cliente junto con la dirección y lo guarda, es posible que la dirección no se sincronice con la tabla **Direcciones**. Esto se debe a un problema de secuenciación de la plataforma de escritura dual. Como solución alternativa, cree el cliente primero y guárdelo. Luego agregue la dirección.
 + En aplicaciones de Finance and Operations, cuando un registro de cliente tiene una dirección principal y usted crea un nuevo contacto para ese cliente, entonces el registro de contacto hereda una dirección principal del registro de cliente asociado. Esto también sucede con el contacto del proveedor. Dataverse actualmente no admite este comportamiento. Si la escritura dual está habilitada, los contactos de cliente heredados con una dirección principal de la aplicación Finance and Operations se sincronizan con Dataverse junto con su dirección.
-+ Las direcciones electrónicas de la tabla `msdyn_partyelectronicaddress` no fluyen a los campos de direcciones electrónicas en las tablas **Cuenta** y **Contacto**. Planeamos solucionar este problema en una versión incremental. Los datos existentes en los campos de dirección electrónica de las tablas **Cuenta** y **Contacto** no se sobrescribirán.
-+ Las direcciones electrónicas establecidas en la pestaña de direcciones electrónicas de los formularios **Cuenta**, **Contacto** y **Proveedor** provienen de la tabla `msdyn_partyelectronicaddress`. Esta información no fluye a sus transacciones asociadas como pedido de ventas, presupuesto y orden de compra. Planeamos solucionar este problema en una versión incremental. Los datos existentes en los campos de dirección electrónica de la cuenta y los registros de contacto seguirán funcionando en transacciones como pedidos de venta, presupuesto y pedido de compra.
++ Las direcciones electrónicas establecidas en la ficha de direcciones electrónicas de los formularios **Cuenta**, **Contacto** y **Proveedor** provienen de la tabla `msdyn_partyelectronicaddress`. Esta información no fluye a sus transacciones asociadas como pedido de ventas, presupuesto y orden de compra. Planeamos solucionar este problema en una versión incremental. Los datos existentes en los campos de dirección electrónica de la cuenta y los registros de contacto seguirán funcionando en transacciones como pedidos de venta, presupuesto y pedido de compra.
 + En aplicaciones de Finance and Operations, puede crear un registro de contacto desde el formulario **Agregar contacto**. Cuando intenta crear un nuevo contacto desde el formulario **Ver contacto**, la acción falla. Este es un problema conocido.
 
     ![Problema conocido con Agregar contacto.](media/party-gab-contact-issue.png)

@@ -1,8 +1,8 @@
 ---
 title: Configurar tablas virtuales de Dataverse
-description: Este tema muestra cómo configurar tablas virtuales para Dynamics 365 Human Resources. Genere y actualice tablas virtuales existentes, y analice las tablas generadas y disponibles.
-author: andreabichsel
-ms.date: 01/25/2021
+description: En este tema se muestra cómo configurar, generar, actualizar tablas virtuales existentes y analizar tablas generadas y disponibles para Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721616"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414673"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurar tablas virtuales de Dataverse
 
@@ -119,10 +119,10 @@ El siguiente paso es configurar el origen de datos de la tabla virtual en el ent
 
 4. En el **Centro de estado de la solución**, selecciona el icono **Búsqueda avanzada** en la parte superior derecha de la página de la aplicación.
 
-5. En la página **Búsqueda avanzada**, en la lista desplegable **Buscar**, seleccione **Configuraciones de fuentes de datos virtuales de Finance and Operations**.
+5. En la página **Búsqueda avanzada**, en la lista desplegable **Buscar**, seleccione **Configuraciones de orígenes de datos virtuales de Finance and Operations**.
 
    > [!NOTE]
-   > La instalación de la aplicación de tablas virtuales desde el paso de configuración anterior puede tardar unos minutos. Si las **Configuraciones de datos de origen virtuales de Finance and Operations** no están disponibles en la lista, espere un minuto y actualice la lista.
+   > La instalación de la aplicación de tablas virtuales desde el paso de configuración anterior puede tardar unos minutos. Si las **Configuraciones de orígenes de datos virtuales de Finance and Operations** no están disponibles en la lista, espere un minuto y actualice la lista.
 
 6. Seleccione **Resultados**.
 
@@ -140,6 +140,9 @@ El siguiente paso es configurar el origen de datos de la tabla virtual en el ent
 
      >[!NOTE]
      >Asegúrese de incluir el carácter "**/**" al final de la URL para evitar recibir un error.
+
+     >[!NOTE]
+     >La dirección URL de destino determina el entorno de Human Resources al que apuntarán las tablas virtuales para obtener datos. Si crea un entorno de espacio aislado creando una copia de su entorno de producción, actualice este valor a la URL del espacio de nombres de su nuevo entorno de espacio aislado. Esto garantiza que las tablas virtuales se conecten a los datos del entorno de espacio aislado en lugar de seguir apuntando al entorno de producción.
 
    - **ID de inquilino**: el ID de inquilino de Azure Active Directory (Azure AD).
 

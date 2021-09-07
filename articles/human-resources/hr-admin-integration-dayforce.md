@@ -1,8 +1,8 @@
 ---
 title: Configurar la integración con Dayforce
-description: La integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce se basa en varios pasos de configuración que se describen en este artículo. Debe configurar la integración en Human Resources y Dayforce para poder procesar un período de pago.
-author: andreabichsel
-ms.date: 02/03/2020
+description: En este tema se describen los pasos de configuración necesarios para la integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782740"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414593"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurar la integración con Dayforce
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce se basa en varios pasos de configuración que se describen en este artículo. Debe configurar la integración en Human Resources y Dayforce para poder procesar un período de pago.
+La integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce se basa en varios pasos de configuración que se describen en este tema. Debe configurar la integración en Human Resources y Dayforce para poder procesar un período de pago.
 
 Cuando se utiliza un servicio como Dayforce para completar períodos de pago, debe habilitar la integración en Human Resources. La integración necesita los datos específicos de Human Resources. Por lo tanto, debe comprobar que los datos que se asignen a Dayforce se hayan configurado en Human Resources de una forma que admita la integración. La integración utiliza las amplias categorías de datos siguientes:
 
@@ -35,7 +35,7 @@ Cuando se utiliza un servicio como Dayforce para completar períodos de pago, de
 - Datos de nómina, como ciclos de pago, períodos de sueldo, y códigos de ganancias
 - Datos de trabajadores
 
-Este artículo describe los pasos que debe seguir para habilitar la integración. También explica los tipos de datos y los detalles de configuración que requiere la integración.
+En este tema se describen los pasos que debe seguir para habilitar la integración y se explican los tipos de datos y los detalles de configuración que requiere la integración.
 
 ## <a name="enable-the-integration"></a>Habilitar la integración
 
@@ -50,7 +50,7 @@ Para activar la integración en Human Resources, siga estos pasos.
 
 Cuando está activada la integración, se crean el paquete y los archivos de exportación de datos, y se establece la frecuencia. Puede cambiar esta frecuencia como sea necesario.
 
-Para obtener más información acerca de las cuentas de almacenamiento de Azure y las cadenas de conexión de Azure Storage, consulte los artículos de Azure siguientes:
+Para obtener más información acerca de las cuentas de almacenamiento de Azure y las cadenas de conexión de Azure Storage, consulte los temas de Azure siguientes:
 
 - [Acerca de las cuentas de almacenamiento de Azure](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Configurar las cadenas de conexión de Azure Storage](/azure/storage/common/storage-configure-connection-string)
@@ -122,10 +122,10 @@ Dayforce crea las deducciones siguientes, según el impacto de nómina que hay d
 | Solo contribución          | Se crea una deducción del empresario.             |
 | Deducción y contribución | Se crean las deducciones del empleado y del empresario. |
 
-Para obtener más información sobre cómo definir y administrar un programa de prestaciones, consulte los siguientes artículos:
+Para obtener más información sobre cómo definir y administrar un programa de prestaciones, consulte los siguientes temas:
 
 - [Proporcionar un programa de prestaciones de empleado](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Crear un nuevo beneficio](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Crear una nueva prestación](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
 - [Definir reglas y directivas de idoneidad para prestaciones](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
 - [Inscribir y quitar prestaciones para trabajadores](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
@@ -135,7 +135,7 @@ La gestión de compensaciones se usa para controlar la entrega de salarios base 
 
 Dayforce utiliza la información de compensación para calcular la tarifa por hora o anual de un empleado. Se requieren planes de compensación fija y conversiones de índice salarial. Los empleados deben estar asociados a un plan de compensación fija.
 
-Para obtener más información acerca de los panes de compensación, consulte los siguientes artículos:
+Para obtener más información acerca de los panes de compensación, consulte los siguientes temas:
 
 - [Crear planes de compensación fija](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [Crear planes de compensación variable](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -147,7 +147,7 @@ Para obtener más información acerca de los panes de compensación, consulte lo
 
 #### <a name="jobs"></a>Trabajos 
 
-Un trabajo es un conjunto de las tareas y responsabilidades que deberá cumplir la persona que realiza un trabajo. Para obtener más información, consulte los siguientes artículos:
+Un trabajo es un conjunto de las tareas y responsabilidades que deberá cumplir la persona que realiza un trabajo. Para obtener más información, consulte los siguientes temas:
 
 - [Configurar los componentes de un trabajo](/dynamics365/unified-operations/talent/create-job)
 - [Definir nuevos trabajos](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
@@ -172,7 +172,7 @@ Tenga en cuenta los siguientes datos y configuración al configurar los puestos:
 
 Si varios puestos en el mismo departamento están asociados al mismo trabajo, se consolidan en un solo puesto en Dayforce.
 
-Para obtener más información, consulte los siguientes artículos:
+Para obtener más información, consulte los siguientes temas:
 
 - [Organizar los recursos mediante departamentos, trabajos y puestos](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Configurar puestos](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
@@ -181,9 +181,9 @@ Para obtener más información, consulte los siguientes artículos:
 
 Un departamneto es una unidad operativa que representa una categoría o un área funcional de la organización. Un departamento es responsable de un área específica de la organización, como ventas, contabilidad o recursos humanos. Puede usar departamentos para informar sobre las áreas funcionales. Los departamentos pueden tener responsabilidad de pérdidas y ganancias.
 
-Para obtener más información, consulte los siguientes artículos:
+Para obtener más información, consulte los siguientes temas:
 
-- [Crear un departamento y asociarlo a la jerarquía del departamento](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Crear un departamento y asociarlo a la jerarquía de departamentos](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Definir nuevos departamentos](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Ciclos y períodos de pago

@@ -1,6 +1,6 @@
 ---
 title: Preparación de producto
-description: En estos temas se explica cómo puede utilizar las verificaciones de preparación para asegurarse de que se completen los datos maestros necesarios para un producto antes de que se utilicen en las transacciones.
+description: En este tema se explica cómo puede utilizar las verificaciones de preparación para asegurarse de que se completen los datos maestros necesarios para un producto antes de que se utilicen en las transacciones.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
+ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723560"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7415330"
 ---
 # <a name="product-readiness"></a>Preparación de producto
 
 [!include [banner](../includes/banner.md)]
 
-Puede utilizar las verificaciones de preparación para asegurarse de que se completen todos los datos maestros necesarios para un producto antes de que se utilicen en las transacciones. Cuando se utilizan verificaciones de preparación, un usuario o equipo es responsable de validar datos específicos predefinidos relacionados con el producto. Si hay una verificación de disponibilidad abierta para un producto, el producto no se puede lanzar ni utilizar en transacciones.
+Puede utilizar las verificaciones de preparación para asegurarse de que se completen todos los datos maestros necesarios para un producto antes de que se utilicen en las transacciones. Cuando se utilizan verificaciones de preparación, un usuario o equipo es responsable de validar datos específicos predefinidos relacionados con el producto. Si hay una verificación de disponibilidad abierta para un producto, el producto no se puede utilizar en transacciones.
 
-La casilla **Activo** para un producto de ingeniería, variante o versión está disponible solo después de que se hayan ingresado y verificado todos los datos requeridos, y después de que se hayan procesado todas las verificaciones de preparación. En ese momento, el producto, la versión o la variante pueden entregarse a otras empresas y utilizarse en transacciones. Puede crear verificaciones de preparación para nuevos productos, nuevas variantes y nuevas versiones de ingeniería.
+La casilla **Activo** para un producto de ingeniería, variante o versión está disponible solo después de que se hayan ingresado y verificado todos los datos requeridos, y después de que se hayan procesado todas las verificaciones de preparación. En ese momento, el producto, la versión o la variante pueden utilizarse en transacciones. Puede crear verificaciones de preparación para nuevos productos, nuevas variantes y nuevas versiones de ingeniería.
 
 También puede aplicar verificaciones de preparación a productos estándar (que no sean de ingeniería). Para obtener más información, consulte la sección [Comprobaciones de preparación de productos estándar](#standard-products) más adelante en este tema.
 

@@ -1,8 +1,8 @@
 ---
-title: Visión general de administración de prestaciones
-description: Visión general de la característica de administración de prestaciones en Dynamics 365 Human Resources. Ofrezca a sus empleados opciones de prestaciones ampliadas con una experiencia en línea fácil de usar.
-author: andreabichsel
-ms.date: 07/13/2021
+title: Información general de administración de prestaciones
+description: Este tema proporciona información general sobre la función Administración de beneficios de Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719152"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417418"
 ---
-# <a name="benefits-management-overview"></a>Visión general de la administración de prestaciones
+# <a name="benefits-management-overview"></a>Información general de administración de prestaciones
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Para seguir siendo competitivo, debe ofrecer un amplio conjunto de prestaciones para atraer y retener a sus mejores empleados. Además de las prestaciones estándar como la cobertura médica y dental, es posible que también quiera ofrecer servicios ampliados como asistencia de adopción, programas de recreación y asignaciones de ropa. La administración de prestaciones en Microsoft Dynamics 365 Human Resources le brinda una solución flexible que admite una amplia variedad de opciones de prestaciones. Recursos humanos también incluye una experiencia fácil de usar para los empleados que muestra sus ofertas.
+Para seguir siendo competitivo, debe ofrecer un amplio conjunto de prestaciones para atraer y retener a sus mejores empleados. Además de las prestaciones estándar como la cobertura médica y dental, es posible que también quiera ofrecer servicios ampliados como asistencia de adopción, programas de recreación y asignaciones de ropa. La administración de beneficios de Microsoft Dynamics 365 Human Resources ofrece una solución flexible que admite una amplia variedad de opciones de prestaciones. Recursos humanos también incluye una experiencia fácil de usar para los empleados que muestra sus ofertas.
 
 - Los planes de prestaciones mejoradas le permiten crear y administrar planes de prestaciones únicas y admitir tablas complejas de tasas de prestaciones y niveles anidados. Puede crear fácilmente programas de beneficios, agrupaciones y reglas de inscripción automática para una experiencia más fácil para los empleados.
 - Los programas de crédito flexible le permiten prorratear para asistir en la jubilación y otros eventos de la vida.
@@ -37,13 +37,13 @@ Para seguir siendo competitivo, debe ofrecer un amplio conjunto de prestaciones 
 Si desea acceder a los datos de demostración, deberá volver a implementar su entorno de espacio aislado.
 
 > [!NOTE]
-> Ahora puede personalizar los formularios de administración de prestaciones. Ahora puede agregar campos personalizados relacionados con las tasas de cobertura al formulario **Opción de cobertura** para planes de prestaciones. Para obtener más información sobre el trabajo con campos personalizados, consulte [Campos personalizados](hr-developer-custom-fields.md).
+> Ahora puede personalizar las páginas de administración de prestaciones. Se pueden agregar campos personalizados relacionados con las tasas de cobertura a la página **Opción de cobertura** para planes de prestaciones. Para obtener más información sobre el trabajo con campos personalizados, consulte [Campos personalizados](hr-developer-custom-fields.md).
 >
 > ![Campos personalizados de gestión de prestaciones](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Habilitar la administración de prestaciones
 
-Este tema describe cómo activar las características en Recursos humanos. También le indica qué características existentes en Human Resources son reemplazadas por la administración de prestaciones o qué características están desactivadas tras activar la administración de prestaciones.
+Este tema describe cómo activar las características en Recursos humanos. También se explica qué características existentes en Human Resources son reemplazadas por la administración de prestaciones y qué características se desactivan tras activar la administración de prestaciones.
 
 > [!IMPORTANT]
 > Después de habilitar la gestión de prestaciones en un entorno de **Producción**, no puede deshabilitarlo. Recomendamos habilitar y probar la gestión de prestaciones en un entorno **Espacio aislado** antes de habilitarlo en un entorno de **Producción**. Existen diferencias significativas entre la funcionalidad de prestación heredada y la nueva funcionalidad de administración de prestaciones que requieren una configuración adicional y deben probarse antes de su puesta en producción.

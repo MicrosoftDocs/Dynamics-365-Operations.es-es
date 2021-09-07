@@ -2,7 +2,7 @@
 title: Proceso de lanzamiento de Optimización de planificación e historial de versiones
 description: Este tema proporciona información sobre el proceso de lanzamiento y el historial de lanzamiento de Optimización de planificación.
 author: crytt
-ms.date: 7/28/2021
+ms.date: 8/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 64c8cd3ed6ff522a9ef90831ae502c5d50fbc05816aaa764d2a8e122934fc2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcd18341629afcf3092a457ae711e27b0bbfeb2a
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722400"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394426"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Proceso de lanzamiento de Optimización de planificación e historial de versiones
 
@@ -33,7 +33,8 @@ Debido a que las notificaciones no se muestran cuando se actualiza Optimización
 
 | Cambios | Detalles de la gestión de funciones | Fecha de emisión |
 |---|---|---|
-| <p>Requisitos de tipo de recurso para la programación de capacidad infinita</p><p>Eficiencia de recursos y eficiencia de calendario para una programación de capacidad infinita</p><p>Para más información, consulte [Programación con capacidad infinita ](infinite-capacity-planning.md). | <p>Disponible en la gestión de funciones a partir de la versión 10.0.20.</p><p>Nombre de la función: *Programación de capacidad infinita para Optimización de planificación*</p> | 6 de julio de 2021 |
-| Mejoras generales de calidad | No se requiere gestión de funciones. | 6 de julio de 2021 |
+| <p>Se ha agregado el campo **Plazo** a pedidos planificados.</p><p>Mejoras generales de rendimiento, calidad y estabilidad.</p> | No se requiere gestión de funciones. | 16 de agosto de 2021 |
+| <p>Se han agregado requisitos de tipo de recurso para la programación de capacidad infinita.</p><p>Se ha mejorado la eficiencia de recursos y la eficiencia de calendario para una programación de capacidad infinita.</p><p>Para más información, consulte [Programación con capacidad infinita ](infinite-capacity-planning.md). | <p>Disponible en la gestión de funciones a partir de la versión 10.0.20.</p><p>Nombre de la función: *Programación de capacidad infinita para Optimización de planificación*</p> | 6 de julio de 2021 |
+| Mejoras generales de calidad. | No se requiere gestión de funciones. | 6 de julio de 2021 |
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Tipo de destino de ER de correo electrónico
 description: Este tema explica cómo configurar un destino de correo electrónico para cada componente FOLDER o FILE de un informe electrónico (ER).
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769328"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343869"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER de correo electrónico
 
@@ -46,46 +46,59 @@ Se pueden configurar varios grupos de componentes para una única configuración
 
 Para enviar uno o más archivos de salida por correo electrónico, siga estos pasos.
 
-1. En la página **Destino de informes electrónicos**, en la ficha desplegable **Destino del archivo**, seleccione un componente o grupo de componentes en la cuadrícula.
+1. En la página **Destino de informes electrónicos**, en la ficha desplegable **Destino de archivo**, seleccione un componente o grupo de componentes en la cuadrícula.
 2. Seleccione **Configuración** y, después, en el cuadro de diálogo **Configuración de destino**, en la pestaña **Correo electrónico**, establezca la opción **Habilitado** en **Sí**.
 
 [![Establecer la opción Activado en Sí para un destino de correo electrónico.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="configure-an-email-destination"></a>Configurar un destino de correo
 
-Puede especificar el emisor de correo electrónico y los destinatarios de correo electrónico, así como editar el asunto y el cuerpo del mensaje de correo electrónico. Puede configurar textos constantes para el asunto y el cuerpo de correo electrónico, o bien usar las [fórmulas](er-formula-language.md) de ER dinámicamente para crear textos de correo electrónico.
+### <a name="email-content"></a>Contenido del correo electrónico
 
-De forma predeterminada, se envía un correo electrónico en nombre del usuario actual. Para especificar un remitente de correo electrónico diferente, debe configurar el campo **De**.
+Puede editar el asunto y el cuerpo del mensaje de correo electrónico.
+
+En el campo **Asunto**, escriba el texto del asunto del correo electrónico que debe aparecer en el campo de asunto de un mensaje electrónico que se genera en tiempo de ejecución. En el campo **Cuerpo**, escriba el texto del cuerpo del correo electrónico que debe aparecer en el campo de cuerpo de un mensaje electrónico. Puede configurar textos constantes para el asunto y el cuerpo de correo electrónico, o bien usar [fórmulas](er-formula-language.md) de informes electrónicos para crear dinámicamente textos de correo electrónico en tiempo de ejecución. La fórmula configurada debe devolver un valor de tipo [Cadena](er-formula-supported-data-types-primitive.md#string).
+
+El cuerpo del correo electrónico se compone en formato TEXTO o HTML, según el cliente de correo electrónico. Puede usar cualquier diseño, estilo y marca que permitan el HTML y las hojas de estilo en cascada en línea (CSS).
 
 > [!NOTE]
-> Cuando se configura un destino de correo electrónico, el campo **De** es visible solo para los usuarios que tengan el privilegio de seguridad `ERFormatDestinationSenderEmailConfigure`, **Configurar la dirección de correo electrónico del emisor para destinos con formato ER**.
+> Los clientes de correo electrónico imponen limitaciones de diseño y estilo que pueden requerir ajustes en el HTML y el CSS que utiliza para el cuerpo del mensaje. Le recomendamos que se familiarice con las prácticas recomendadas para crear HTML que los clientes de correo electrónico más populares admitan.
 >
-> Cuando un destino de correo electrónico se ofrece para modificación en [runtime](electronic-reporting-destinations.md#security-considerations), el campo **De** es visible solo para los usuarios que tengan el privilegio de seguridad `ERFormatDestinationSenderEmailMaintain`, **Mantener la dirección de correo electrónico del emisor para el destino con formato ER**.
->
-> Cuando el campo **De** está configurado para usar una dirección de correo electrónico distinta a la del usuario actual, ya sea el permiso **Enviar como** o **Enviar en nombre de** debe estar correctamente [configurados](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) por adelantado. De lo contrario, se lanza la siguiente excepción en runtime: "No se puede enviar el correo electrónico como \<from email account\> desde la cuenta \<current user account\>, compruebe los permisos 'Enviar como' en la \<from email account\>."
+> Utilice la codificación correcta para implementar un retorno de carro, según el formato del cuerpo. Para obtener más información, consulte la definición del tipo de datos [Cadena](er-formula-supported-data-types-primitive.md#string).
 
-Puede configurar el campo **De** para devolver más de una dirección de correo electrónico. En este caso, la primera dirección de la lista se utiliza como dirección de remitente de correo electrónico.
+### <a name="email-addresses"></a>Direcciones de correo electrónico
+
+Puede especificar el remitente y los destinatarios del correo electrónico. De forma predeterminada, se envía correo electrónico en nombre del usuario actual. Para especificar otro remitente de correo electrónico, debe configurar el campo **De**.
+
+> [!NOTE]
+> Cuando se configura un destino de correo electrónico, el campo **De** solo es visible para los usuarios que tengan el privilegio de seguridad `ERFormatDestinationSenderEmailConfigure`, **Configurar la dirección de correo electrónico del remitente para destinos de formato ER**.
+>
+> Cuando se ofrece un destino de correo electrónico para su modificación en [tiempo de ejecución](electronic-reporting-destinations.md#security-considerations), el campo **De** solo es visible para los usuarios que tengan el privilegio de seguridad `ERFormatDestinationSenderEmailMaintain`, **Mantener la dirección de correo electrónico del remitente para el destino de formato ER**.
+>
+> Cuando el campo **De** está configurado para usar una dirección de correo electrónico distinta a la del usuario actual, el permiso **Enviar como** o **Enviar en nombre de** debe estar correctamente [configurado](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) por adelantado. De lo contrario, se genera la siguiente excepción en tiempo de ejecución: "No se puede enviar correo electrónico como \<from email account\> desde la cuenta \<current user account\>, compruebe los permisos 'Enviar como' en la \<from email account\>."
+
+Puede configurar el campo **De** para devolver más de una dirección de correo electrónico. En este caso, la primera dirección de la lista se utiliza como dirección de correo electrónico del remitente.
 
 Para especificar los destinatarios de correo electrónico, debe configurar los campos **Para** y **CC** (opcionales).
 
-Puede configurar direcciones de correo electrónico para el ER de dos maneras. La configuración se puede completar de la misma manera que la función de administración de impresión o puede resolver una dirección de correo electrónico utilizando una referencia directa a la configuración de ER a través de una fórmula.
+Puede configurar direcciones de correo electrónico para el ER de dos maneras. La configuración se puede completar de la misma manera que la función de Gestión de impresión o puede resolver una dirección de correo electrónico utilizando una referencia directa a la configuración de ER mediante una fórmula.
 
 ## <a name="email-address-types"></a>Tipos de direcciones de correo electrónico
 
-Si selecciona **Editar** al lado del campo **De**, **Para** o **CC** en el cuadro de diálogo **Configuración de destino**, aparece el cuadro de diálogo **Correo electrónico de**, **Correo eletrónico para** o **Correo electrónico CC**. Allí podrá configurar el remitente y los destinatarios del correo electrónico. Seleccione **Agregar** y después seleccione el tipo de dirección de correo electrónico que se usará. Actualmente se admiten dos tipos: **Correo electrónico de configuración** y **Correo electrónico de gestión de impresión**.
+Si selecciona **Editar** junto al campo **De**, **Para** o **CC** en el cuadro de diálogo **Configuración de destino**, aparece el cuadro de diálogo **Correo electrónico de**, **Correo eletrónico para** o **CC de correo electrónico**. Allí podrá configurar el remitente y los destinatarios del correo electrónico. Seleccione **Agregar** y después seleccione el tipo de dirección de correo electrónico que se usará. Actualmente se admiten dos tipos: **Correo electrónico de configuración** y **Correo electrónico de gestión de impresión**.
 
 [![Seleccionar el tipo de dirección de correo electrónico.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Correo electrónico de administración de impresión
 
-Si selecciona **Correo electrónico de gestión de impresión** como tipo de dirección de correo electrónico, puede introducir direcciones de correo electrónico fijas en el cuadro de diálogo **Correo electrónico de**, **Correo electrónico para** o **Correo electrónico CC** configurando los siguientes campos:
+Si selecciona **Correo electrónico de gestión de impresión** como tipo de dirección de correo electrónico, puede introducir direcciones de correo electrónico fijas en el cuadro de diálogo **Correo electrónico de**, **Correo electrónico para** o **CC de correo electrónico** configurando los siguientes campos:
 
 - En el campo **Origen de correo electrónico**, seleccione **Ninguno**.
 - En el campo **Direcciones de correo electrónico adicionales, separadas por";"** campo, introduzca las direcciones de correo electrónico fijas.
 
 Alternativamente, puede obtener direcciones de correo electrónico de los datos de contacto de la parte para la que genera un documento saliente. Para utilizar direcciones de correo electrónico que no son fijas en el campo **Correo de origen**, seleccione el [rol](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) de la parte del archivo de destino. Se admiten los siguientes roles:
 
-- Cliente 
+- Cliente
 - Proveedor
 - Cliente prospecto
 - Contacto

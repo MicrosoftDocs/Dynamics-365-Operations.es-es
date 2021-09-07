@@ -4,24 +4,17 @@ description: Este tema describe cómo usar el motor de precios en Microsoft Dyna
 author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 957935a565ed70b40dcda0390e1bea3105a1f55b69e07f14d8bab42d1227c30b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729760"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416189"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sincronizar a petición con el motor de precios de Supply Chain Management
 

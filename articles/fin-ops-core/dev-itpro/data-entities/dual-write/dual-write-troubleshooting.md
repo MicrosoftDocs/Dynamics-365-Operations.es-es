@@ -4,24 +4,17 @@ description: Este tema proporciona información general para solución de proble
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 779cc80d4cb510e79885919f1c705824ab6ad58b3e2fe1bab7bbec0511d08951
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4adc2d83667a05d14a26ace23e5bd8026df4b5f
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736311"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380221"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -29,31 +22,10 @@ ms.locfileid: "6736311"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 Este tema proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Dataverse.
 
 > [!IMPORTANT]
-> Algunos de los problemas que aborda este tema pueden requerir la función de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una función o credenciales específicas.
-
-## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Cuando intenta instalar el paquete de escritura doble utilizando la herramienta Package Deployer, no se muestran soluciones disponibles
-
-Algunas versiones de la herramienta Package Deployer son incompatibles con el paquete de solución de doble escritura. Para instalar con éxito el paquete, asegúrese de usar la [versión 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) o posterior de la herramienta Package Deployer.
-
-Después de instalar la herramienta Package Deployer, instale el paquete de la solución siguiendo estos pasos.
-
-1. Descargue el archivo del paquete de solución más reciente de Yammer.com. Después de descargar el archivo zip del paquete, haga clic con el botón derecho y seleccione **Propiedades**. Selecciona la casilla **Desbloquear** y luego elija **Aplicar**. Si no ve la casilla de verificación **Desbloquear**, el archivo zip ya está desbloqueado y puede omitir este paso.
-
-    ![Cuadro de diálogo Propiedades.](media/unblock_option.png)
-
-2. Extraiga el archivo zip del paquete y copie todos los archivos en la carpeta **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
-
-    ![Contenido de la carpeta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
-
-3. Pegue todos los archivos copiados en la carpeta **Herramientas** de la herramienta Package Deployer. 
-4. Ejecute **PackageDeployer.exe** para seleccionar el entorno Dataverse e instalar las soluciones.
-
-    ![Contenido de la carpeta Herramientas.](media/paste_copied_files.png)
+> Algunos de los problemas que aborda este tema pueden requerir la función de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite y vea el inicio de sesión de seguimiento del complemento Dataverse para ver detalles del error
 
@@ -74,18 +46,17 @@ Para ver el registro de seguimiento, siga estos pasos.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilite el modo de depuración para solucionar problemas de sincronización en vivo en aplicaciones Finance and Operations
 
-**Rol requerido para ver los errores**: los errores de doble escritura del administrador del sistema que se originan en Dataverse pueden aparecer en la aplicación de Finance and Operations. En algunos casos, el texto completo del mensaje de error no está disponible porque el mensaje es demasiado largo o contiene información de identificación personal (PII). Puede activar el registro detallado de errores siguiendo estos pasos.
+**Rol requerido para ver los errores:** Administrador del sistema
 
-1. Todas las configuraciones del proyecto en las aplicaciones Finance and Operations tienen una propiedad **IsDebugMode** en la tabla **DualWriteProjectConfiguration**. Abra la tabla **DualWriteProjectConfiguration** usando el complemento de Excel.
+Los errores de doble escritura que se originan en Dataverse puede aparecer en la aplicación Finance and Operations. Para habilitar el registro detallado de errores, siga estos pasos:
 
-    > [!TIP]
-    > Una manera fácil de abrir la tabla es activar el modo **Diseño** en el complemento de Excel y luego agregar **DualWriteProjectConfigurationEntity** a la hoja de trabajo. Para más información consulte [Abrir los datos de tabla en Excel y actualizarlos mediante el complemento de Excel](../../office-integration/use-excel-add-in.md).
-
-2. Estableza la propiedad **IsDebugMode** a **Sí** para el proyecto.
-3. Ejecute el escenario que genera errores.
-4. Los registros detallados están disponibles en la tabla DualWriteErrorLog. Para buscar datos en el navegador de tablas, use la siguiente URL (reemplace **XXX** según sea apropiado):
-
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
+1. Para todas las configuraciones de proyecto en la aplicación de Finance and Operations hay un indicador **IsDebugMode** en la tabla **DualWriteProjectConfiguration**.
+2. Abra la tabla **DualWriteProjectConfiguration** mediante el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de Finance and Operations y agregue **DualWriteProjectConfiguration** a la hoja. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
+3. Establezca **IsDebugMode** en **Sí** para el proyecto.
+4. Ejecute el escenario que genera errores.
+5. Los registros detallados se almacenan en la tabla **DualWriteErrorLog**.
+6. Para buscar datos en el explorador de tablas, use el siguiente vínculo: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, reemplazando `999` según sea necesario.
+7. Actualice de nuevo después de [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), que está disponible para las actualizaciones de plataforma 37 y posteriores. Si tiene esta solución instalada, el modo de depuración capturará más registros.  
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verifique los errores de sincronización en la máquina virtual para la aplicación Finance and Operations
 
@@ -116,10 +87,28 @@ Ahora puede vincular un nuevo entorno.
 Cuando crea un pedido de ventas en Dynamics 365 Sales, al hacer clic en **+ Agregar productos** podría redirigírsele al formulario de línea de pedido de Dynamics 365 Project Operations. No hay forma desde ese formulario de ver el formulario de **Información** de la línea de pedido de ventas. La opción para **Información** no aparece en el menú desplegable bajo **Nueva línea de pedido**. Esto sucede porque Project Operations se ha instalado en su entorno.
 
 Para volver a habilitar la opción de formulario **Información**, siga estos pasos:
+
 1. Navegue hasta la tabla **Línea de pedido**.
-2. Busque el formulario **Información** bajo el nodo de formularios. 
-3. Seleccione el formulario **Información** y haga clic en **Habilitar roles de seguridad**. 
+2. Busque el formulario **Información** bajo el nodo de formularios.
+3. Seleccione el formulario **Información** y haga clic en **Habilitar roles de seguridad**.
 4. Cambie la configuración de seguridad a **Mostrar para todos**.
 
+## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Cómo habilitar y guardar el seguimiento de la red para poder adjuntar trazas a los vales de soporte
+
+Para solucionar algunos problemas, el equipo de soporte técnico puede tener que revisar trazas de red. Para crear una traza de red, siga estos pasos:
+
+### <a name="chrome"></a>Chrome
+
+1. En la pestaña abierta, presione **F12** o elija **Herramientas de desarrollo** para abrir las herramientas de desarrollo.
+2. Abra la pestaña **Red** y escriba **integ** en el cuadro de texto del filtro.
+3. Ejecute el escenario y observe las solicitudes que se registran.
+4. Haga clic con el botón secundario en las entradas y seleccione **Guardar todo como un HAR con contenido**.
+
+### <a name="microsoft-edge"></a>Microsoft Edge
+
+1. En la pestaña abierta, presione **F12** o elija **Herramientas de desarrollo** para abrir las herramientas de desarrollo.
+2. Abra la pestaña **Red**.
+3. Ejecute el escenario.
+4. Seleccione **Guardar** para exportar los resultados como HAR.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

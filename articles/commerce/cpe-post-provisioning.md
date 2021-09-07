@@ -2,7 +2,7 @@
 title: Configurar un entorno de evaluación de Dynamics 365 Commerce
 description: Este tema explica cómo configurar un entorno de evaluación de Microsoft Dynamics 365 Commerce tras aprovisionarlo.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742449"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416488"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurar un entorno de evaluación de Dynamics 365 Commerce
 
@@ -128,7 +128,7 @@ Para ejecutar la sincronización de datos completa en Commerce, siga estos pasos
 Para realizar transacciones de prueba en el sitio, puede usar esta información de la tarjeta de crédito de prueba:
 
 - **Número de tarjeta:** 4111-1111-1111-1111
-- **Fecha de vencimiento:** 10/20
+- **Fecha de vencimiento:** 10/30
 - **Código de seguridad de la tarjeta (CVV):** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ Para realizar transacciones de prueba en el sitio, puede usar esta información 
 Después de completar los pasos de aprovisionamiento y configuración, podrá comenzar a usar su entorno de evaluación. Use la URL del creador de sitios de Commerce para acceder a la experiencia de creación. Use la URL del sitio de Commerce para ir la experiencia del sitio de cliente minorista.
 
 Para configurar características opcionales para su entorno de evaluación de Commerce, consulte [Configurar características opcionales para un entorno de evaluación de Commerce](cpe-optional-features.md).
+
+> [!NOTE]
+> Los entornos de evaluación de comercio vienen con un inquilino de Azure Active Directory (Azure AD) de empresa-consumidor (B2C) cargado previamente con fines de demostración. Para entornos de evaluación, no es necesario que configure su propio inquilino Azure AD B2C con los pasos que se indican a continuación. Sin embargo, si está configurando el entorno de evaluación para utilizar su propio inquilino Azure AD B2C, asegúrese de agregar ``https://login.commerce.dynamics.com/_msdyn365/authresp`` como URL de respuesta a la aplicación Azure AD B2C a través del Azure Portal.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -159,6 +162,8 @@ Para configurar características opcionales para su entorno de evaluación de Co
 [Portal de Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Configurar un inquilino B2C en Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

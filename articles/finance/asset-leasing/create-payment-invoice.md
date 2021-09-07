@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 94657a1c423fafb89d2fe2c16937947e0d898771ddb30a029d0938cc17aaf7d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc87c329f6f5dd9532b1319f8d88fbc41dcd4d14
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716678"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344329"
 ---
 # <a name="create-payment-invoices"></a>Crear facturas de pago
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Puede crear facturas mensuales para arrendamientos individuales o puede utilizar un proceso por lotes para crearlas para arrendamientos múltiples. El siguiente procedimiento muestra cómo crear un asiento de pago de arrendamiento individual cuando el parámetro **Pagar al proveedor** de la página **Configuración del libro de arrendamiento** está activado.
 
@@ -39,6 +41,8 @@ Puede crear facturas mensuales para arrendamientos individuales o puede utilizar
 5. Seleccione el diario correcto y luego seleccione la factura que debe pagarse.
 
     Para este ejemplo, el parámetro **Pagar al proveedor** del libro de arrendamiento está activado. Por lo tanto, la factura estará en el diario de facturas. La sección **Visión de conjunto** muestra un resumen de la entrada de diario y la sección **Líneas** muestra detalles de las líneas de diario reales.
+    
+   El sistema bloquea la edición de ciertos campos financieros para evitar variaciones entre las transacciones y los programas. Algunos campos que están bloqueados incluyen: **Cuenta**, **Cantidades**, **Dimensiones financieras**, **Divisa** y **Tipo de transacción**. Además, no podrá agregar o eliminar líneas de asientos de diario en los asientos de diario de arrendamiento de activos, ya que esto podría causar variaciones entre los horarios y las transacciones.
 
     > [!NOTE]
     > Si el parámetro **Pagar al proveedor** está desactivado, las entradas del diario de pagos se enumerarán en la página **Arrendamiento de activos** del libro de arrendamiento, y el sistema creará una entrada de arrendamiento de activos en lugar de una factura. La entrada de pago de arrendamiento se publicará en el nombre del diario que se especifica en el campo **Diario de arrendamiento mensual**.

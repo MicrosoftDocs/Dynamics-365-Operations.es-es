@@ -1,8 +1,8 @@
 ---
 title: Descripción general del tipo de plan
-description: Un tipo de plan en Microsoft Dynamics 365 Human Resources es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan tiene un código de tipo de plan que determina reglas para el tipo de plan.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Un tipo de plan en Microsoft Dynamics 365 Human Resources es una agrupación de alto nivel de tipos específicos de prestaciones.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8966b0aa01795ff00832e480a186c05fa129e7c728112f81cf4f78b6b0915463
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732739"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423400"
 ---
 # <a name="plan-type-overview"></a>Descripción general del tipo de plan
 
@@ -32,10 +32,10 @@ Cada tipo de plan indica si un empleado puede inscribirse en un plan de su tipo 
 
 Si un tipo de plan implica contactos, el tipo de plan indica si los contactos son beneficiarios o dependientes. Por ejemplo, un tipo de plan de vida básico tendría beneficiarios, mientras que un tipo de plan médico básico tendría dependientes. En algunos casos, es posible que un plan no tenga contactos personales. Por ejemplo, una cuenta de gastos flexible o una concesión de aparcamiento.
 
-Un tipo de plan puede definir opciones de cobertura. Las opciones de cobertura se definen en el formulario de opción de cobertura. Una opción de cobertura puede especificar el importe del beneficio o los contactos que son aptos para el tipo de plan. Por ejemplo, si el tipo de contacto es Beneficiario, la opción de cobertura debe definir los términos para lo que el beneficiario es elegible para recibir cuando se utiliza la prestación. Si el tipo de contacto es Dependiente, la opción de cobertura debe definir la relación entre el dependiente y el empleado. 
+Un tipo de plan puede definir opciones de cobertura. Las opciones de cobertura se definen en la página **Opción de cobertura**. Una opción de cobertura puede especificar el importe del beneficio o los contactos que son aptos para el tipo de plan. Por ejemplo, si el tipo de contacto es Beneficiario, la opción de cobertura debe definir los términos para lo que el beneficiario es elegible para recibir cuando se utiliza la prestación. Si el tipo de contacto es Dependiente, la opción de cobertura debe definir la relación entre el dependiente y el empleado. 
 
 > [!IMPORTANT]
-> El formulario incluye datos clave que afectan las opciones que están disponibles cuando se crea un nuevo plan de beneficios:
+> La página incluye datos clave que afectan a las opciones que hay disponibles cuando se crea un nuevo plan de beneficios:
 >
 > - **Código de tipo de plan**: este campo afecta lo que se muestra en la pestaña **Configuración** cuando se configura la prestación real.  
 > - **Inscripción concurrente**: este campo determina si se permiten múltiples inscripciones. (Para un plan médico, este campo generalmente se establece en **Una inscripción**).

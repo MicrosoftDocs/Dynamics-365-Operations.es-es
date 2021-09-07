@@ -2,7 +2,7 @@
 title: Características quitadas u obsoletas de Dynamics 365 Commerce
 description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Commerce.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740416"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386750"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Características quitadas u obsoletas de Dynamics 365 Commerce
 
@@ -32,6 +32,55 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 > [!NOTE]
 > La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.21
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>SDK de Retail distribuido mediante el uso de Lifecycle Services
+
+El SDK de Retail se envía con Lifecycle Services (LCS). Este modo de distribución está obsoleto en la versión 10.0.21. En el futuro, los paquetes de referencia, las bibliotecas y las muestras del SDK de Retail se publicarán en repositorios públicos en GitHub.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | El SDK de Retail se envía con LCS. El proceso de LCS tarda unas horas en finalizar y el proceso debe repetirse para cada actualización. En el futuro, los paquetes de referencia, las bibliotecas y las muestras del SDK de Retail se publicarán en repositorios públicos en GitHub. Las muestras de extensión y los paquetes de referencia se pueden consumir fácilmente y las actualizaciones terminan en unos minutos. |
+| **¿Reemplazado por otra característica?**   |  [Descargar muestras y paquetes de referencia del SDK de Retail desde GitHub y NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
+| **Áreas de producto afectadas**         | SDK de Retail |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En desuso: a partir de la versión 10.0.21, el SDK enviado a través de las VM de LCS se eliminarán en octubre de 2022. |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Instaladores de paquetes desplegables de Retail e instaladores combinados de PDV, estación de hardware y unidad de escalado en la nube
+
+Los paquetes desplegables de Retail generados con el SDK de Retail MSBuild están en desuso en 10.0.21. En el futuro, use el paquete de unidad de escalado en la nube (Cloud Scale Unit, CSU) para las extensiones de unidad de escalado en la nube (Commerce Runtime, base de datos de canales, API de comercio sin periféricos, pagos y punto de venta (PDV) en la nube). Utilice instaladores solo de extensión para PDV, estación de hardware y unidad de escalado en la nube autoalojada.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Un paquete desplegable de Retail es un paquete combinado que contiene un conjunto completo de paquetes de extensión e instaladores. Este paquete combinado hace que la implementación sea compleja, ya que las extensiones de CSU van a la unidad de escalado en la nube y los instaladores se implementan en los almacenes. Los instaladores incluyen la extensión y el producto base, lo que dificulta las actualizaciones. Con cada actualización, se requiere una combinación de código y generación de paquetes. Para simplificar este proceso, los paquetes de extensión ahora están separados en componentes para una fácil implementación y administración. Con el nuevo enfoque, las extensiones y los instaladores de productos base se separan y se pueden mantener y actualizar de forma independiente sin una combinación de código o reempaquetado.|
+| **¿Reemplazado por otra característica?**   | Extensiones de CSU, instaladores de extensiones de PDV, instaladores de extensiones de estaciones de hardware |
+| **Áreas de producto afectadas**         | Extensión y despliegue de Dynamics 365 Commerce |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En desuso: a partir de la versión 10.0.21, la compatibilidad con la implementación de RetailDeployablePackage en LCS se eliminará en octubre de 2022. |
+
+Para obtener más información, consulte:
+
++ [Generar un paquete separado para Commerce Scale Unit (CSU) (nube)](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [Crear un paquete de extensión de PDV moderno](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [Integrar el PDV con un nuevo dispositivo de hardware](../dev-itpro/hardware-device-extension.md)
++ Muestras de códigos
+    + [Unidad de escalado en la nube](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [PDV, CSU y estación de hardware](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln y CloudPOs.sln en el SDK de Retail
+
+El desarrollo de extensiones de PDV mediante ModernPos.sln, CloudPOs.sln, POS.Extension.csproj y la carpeta PDV está en desuso en la versión 10.0.21. En el futuro, use el SDK de empaquetado independiente de PDV para extensiones de PDV.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | En versiones anteriores del SDK de Retail, si hay extensiones de PDV, se requiere una combinación de código y un reempaquetado para actualizar a la última versión de PDV. La combinación de código fue un proceso de actualización que requirió mucho tiempo y tuvo que mantener el SDK de Retail completo en el repositorio. También tuvo que compilar el proyecto principal POS.App. Al utilizar el modelo de empaquetado independiente, debe mantener solo su extensión. El proceso de actualización a la última versión de las extensiones de PDV es tan fácil como actualizar la versión del paquete NuGet que consume su proyecto. Las extensiones se pueden implementar de forma independiente y los servicios utilizan los instaladores de extensiones. El PDV base se puede implementar y mantener por separado y no se requiere la combinación o reempaquetado de código con el instalador o código base. |
+| **¿Reemplazado por otra característica?**   | [SDK de empaquetado independiente de PDV](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **Áreas de producto afectadas**         | Extensión y despliegue de PDV de Dynamics 365 Commerce |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En desuso: a partir de la versión 10.0.21, la compatibilidad con los paquetes de PDV combinados y el modelo de extensión que utilizan ModernPos.Sln, CloudPOs.sln y POS.Extensons.csproj en el SDK de Retail se eliminará en octubre de 2022. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.17
 
@@ -95,12 +144,12 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **Estado**                         | En desuso: a partir de la versión 10.0.11 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.10
-### <a name="pos-operation-803---picking-and-receiving"></a>Operación POS 803: recogida y recepción
+### <a name="pos-operation-803---picking-and-receiving"></a>Operación de PDV 803: recogida y recepción
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Las operaciones de recogida y recepción están en desuso debido al nuevo diseño de la operación. |
-| **¿Reemplazado por otra característica?**   | Sí. Se reemplazan por dos nuevas operaciones POS: operación entrante (804) y operación saliente (805).|
-| **Áreas de producto afectadas**         | Aplicación de punto de venta (POS) |
+| **¿Reemplazado por otra característica?**   | Sí. Se reemplazan por dos nuevas operaciones de PDV: operación entrante (804) y operación saliente (805).|
+| **Áreas de producto afectadas**         | Aplicación de punto de venta (PDV) |
 | **Opción de implementación**              | Todos |
 | **Estado**                         | En desuso: a partir de la versión 10.0.10, la operación de selección y recepción ya no recibirá actualizaciones de nuevas funciones. Solo se realizarán correcciones de errores críticos para esta operación en futuras versiones. Se anima a todos los clientes a cambiar a las nuevas [Operaciones de entrada](../pos-inbound-inventory-operation.md) y [Operaciones de salida](../pos-outbound-inventory-operation.md), que seguirán formando parte de nuestra hoja de ruta de productos a largo plazo. |
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 338c3129d81fa0428f3470808bc13fc76483ff3aaf19b06708a986aec64b4030
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782356"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384620"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instale y conecte la aplicación móvil Warehouse Management
 
@@ -150,8 +150,8 @@ Puede importar la configuración de conexión desde un archivo o un código QR. 
 | ConnectionName | Especifique el nombre de la configuración de conexión. La longitud máxima es de 20 caracteres. Dado que este valor es el identificador único de una configuración de conexión, asegúrese de que sea único en la lista. Si ya existe una conexión con el mismo nombre en el dispositivo, la configuración del archivo importado la anulará. |
 | ActiveDirectoryClientAppId | Especifica el id. de cliente que anotó mientras estaba configurando Azure AD en la sección [Crear una aplicación de servicio web en Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Especifique la URL raíz de Supply Chain Management. |
-| ActiveDirectoryTenant | Especifica el inquilino de Azure AD que está utilizando con el servidor de Supply Chain Management. Este valor tiene la forma `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Este es un ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
-| Compañía | Especifique la entidad jurídica en Supply Chain Management a la que desea que se conecte la aplicación. |
+| ActiveDirectoryTenant | Especifique el nombre de dominio de Azure AD que está utilizando con el servidor de Supply Chain Management. Este valor tiene la forma `https://login.windows.net/<your-Azure-AD-domain-name>`. Este es un ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. Para obtener más información sobre cómo encontrar su nombre de dominio de Azure AD, consulte [Localizar identificaciones importantes para un usuario](/partner-center/find-ids-and-domain-names). |
+| Empresa | Especifique la entidad jurídica en Supply Chain Management a la que desea que se conecte la aplicación. |
 | ConnectionType | (Opcional) Especifique si la configuración de conexión debe usar un certificado o un secreto de cliente para conectarse a un entorno. Los valores válidos son *"certificate"* y *"clientsecret"*. El valor predeterminado es *"certificate"*.<p>**Nota:** los secretos de cliente no pueden importarse.</p> |
 | IsEditable | (Opcional) Especifica si el usuario de la aplicación debería poder editar la configuración de conexión. Los valores válidos son *"verdadero"* y *"falso"*. El valor predeterminado es *"verdadero"*. |
 | IsDefault | (Opcional) Especifica si la conexión es la conexión predeterminada. Una conexión que se establece como conexión predeterminada se preseleccionará automáticamente cuando se abra la aplicación. Sólo puede establecerse una conexión como conexión predeterminada. Los valores válidos son *"verdadero"* y *"falso"*. El valor predeterminado es *"falso"*. |
@@ -268,7 +268,7 @@ Si no dispone de un archivo o de un código QR, puede configurar la aplicación 
         > [!IMPORTANT]
         > No termine este valor con una barra inclinada (/).
 
-    - **Inquilino de Active Directory**: introduca el inquilino de Azure AD que usa con el servidor de Supply Chain Management. Este valor tiene la forma `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Este es un ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Inquilino de Active Directory**: introduca el nombre de dominoi de Azure AD que usa con el servidor de Supply Chain Management. Este valor tiene la forma `https://login.windows.net/<your-Azure-AD-domain-name>`. Este es un ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. Para obtener más información sobre cómo encontrar su nombre de dominio de Azure AD, consulte [Localizar identificaciones importantes para un usuario](/partner-center/find-ids-and-domain-names).
 
         > [!IMPORTANT]
         > No termine este valor con una barra inclinada (/).

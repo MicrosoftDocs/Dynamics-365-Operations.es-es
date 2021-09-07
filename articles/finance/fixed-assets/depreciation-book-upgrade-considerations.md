@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 757c8b9f2b57374e4b6d35c9be95b9e1dfe7f249c9ea903009cc26e16711bead
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713813"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344723"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Visión general de la actualización del libro amortización
 
@@ -42,19 +42,19 @@ Opción 1:  **secuencia numérica definida por el sistema** - Esta es la opción
     -   Nombre constante: **NumberSequenceDefaultParameterPrefix**
     -   Valor predeterminado: "FADBUpgr"
 -   **Longitud alfanumérica** – La longitud del segmento alfanumérico de la secuencia numérica.
-    -   Nombre constante: **NumberSequenceDefaultParameterAlpanumericLength **
+    -   Nombre de constante: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Valor predeterminado: 9
 -   **Número de inicio** - El primer número que se utilizará en la secuencia numérica.
-    -   Nombre constante: **NumberSequenceDefaultParameterStartNumber  **
+    -   Nombre de constante: **NumberSequenceDefaultParameterStartNumber**
     -   Valor predeterminado: 1
 
 Opción 2: **Secuencia numérica definida por el usuario existente**: esta opción le permitirá definir la secuencia numérica que se utilizará para la actualización. Considere el uso de esta opción si necesita la configuración avanzada de la secuencia numérica. Para usar una secuencia numérica, debe modificar la clase ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans de la actualización con la siguiente información:
 
 -   **Código de secuencia numérica**: El código de la secuencia numérica.
-    -   Nombre constante: **NumberSequenceExistingCode **
+    -   Nombre de constante: **NumberSequenceExistingCode**
     -   Valor predeterminado: No hay valor predeterminado, debe actualizarse al código de secuencia numérica.
 -   **Secuencia numérica compartida**: Un valor booleano para identificar el ámbito de la secuencia numérica. Use “verdadero” para las secuencias numéricas compartidas en todas las empresas, y "falso" para el ámbito específico de una empresa. Cuando use “falso”, la secuencia numérica con el nombre especificado debe existir en cada empresa que contenga transacciones del libro de depreciación. Las secuencias numéricas compartidas existen en cada parte que contenga transacciones del libro depreciación.
-    -   Nombre constante: **NumberSequenceExistingIsShared **
+    -   Nombre de constante: **NumberSequenceExistingIsShared**
     -   Valor predeterminado: verdadero
 
 Los parámetros se encuentran al principio de la clase ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 

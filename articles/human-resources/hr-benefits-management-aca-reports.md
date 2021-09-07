@@ -1,8 +1,8 @@
 ---
 title: Generar informes de la Ley de Cuidado de salud asequible en la Administración de prestaciones
-description: Estos temas describen cómo la Administración de prestaciones ayuda a rastrear la información notificada en el Formulario 1095-B y el Formulario 1095-C para la orden del empresario de la Ley de Cuidado de salud asequible (ACA).
-author: andreabichsel
-ms.date: 12/28/2020
+description: En este tema se describe cómo la Administración de prestaciones hace un seguimiento de la información notificada en el Formulario 1095-B y el Formulario 1095-C para el mandato del empleador de la Ley de atención sanitaria asequible (ACA).
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d681514f53dbaf4aafce33722d0c1837c3d270407c19d629c3383ff1a2472d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99ac67795cd3f587e54a84361dd4744b79b4dbbd
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727074"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416263"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Genere informes de ACA en la administración de prestaciones
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La Administración de prestaciones ayuda a rastrear la información notificada en el Formulario 1095-B y el Formulario 1095-C para la orden del empresario de la Ley de Cuidado de salud asequible (ACA). Al igual que la capacidad de los informes de ACA en el antiguo espacio de trabajo **Prestaciones**, esta funcionalidad solo se aplica a las entidades jurídicas de Estados Unidos.
+La Administración de prestaciones hace un seguimiento de la información notificada en el Formulario 1095-B y el Formulario 1095-C para el mandato del empleador de la Ley de atención sanitaria asequible (ACA). Al igual que la capacidad de los informes de ACA en el antiguo espacio de trabajo **Prestaciones**, esta funcionalidad solo se aplica a las entidades jurídicas de Estados Unidos.
 
 Para usar esta funcionalidad, primero debe activar la **Administración avanzada de prestaciones**. Para obtener más información, incluidas advertencias importantes sobre la Administración de prestaciones, consulte [Habilitar o deshabilitar la Administración de prestaciones](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -145,7 +145,7 @@ Puede generar los formularios 1095-B y 1095-C de ACA y distribuirlos a cada uno 
 2. Cambie los parámetros según sea necesario y, a continuación, seleccione **Aceptar**.
 
     > [!NOTE]
-    > Si imprime formularios 1095-C para más de 500 empleados, recibirá más de un archivo PDF. Le recomendamos que aumente el valor del campo **Tamaño máximo de archivo en megabytes** en la página **Parámetros de la administración de documentos** a **150**. (Para abrir rápidamente esa página, puede usar el campo de búsqueda en la barra de navegación).
+    > Si imprime formularios 1095-C para más de 500 empleados, recibirá más de un archivo PDF. Le recomendamos que aumente el valor del campo **Tamaño máximo de archivo en megabytes** en la página **Parámetros de la administración de documentos** a **150**. (Para abrir rápidamente esa página, utilice el campo de búsqueda en la barra de navegación).
     >
     > ![Cambiar el tamaño máximo de archivo.](./media/hr-benefits-management-aca-maximum-file-size.png)
 

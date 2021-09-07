@@ -1,5 +1,5 @@
 ---
-title: Resultados de modelos de aprendizaje automático (versión preliminar)
+title: Resultados de los modelos de aprendizaje automático
 description: Este tema analiza las matrices de confusión, los problemas de clasificación y la precisión en los modelos de aprendizaje automático (ML). El propósito es mejorar su conocimiento de la precisión en los resultados de la predicción de ML.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: eef57c4515aecad83c1a7d74e9251c536e3671a7f1eec5a1ae3bbb62ec0fcb2f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2545f7d043e139606c51bc559e3aacbe73abccfc
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764321"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386646"
 ---
-# <a name="results-of-machine-learning-models-preview"></a>Resultados de modelos de aprendizaje automático (versión preliminar)
+# <a name="results-of-machine-learning-models"></a>Resultados de los modelos de aprendizaje automático
 
 [!include [banner](../includes/banner.md)]
 

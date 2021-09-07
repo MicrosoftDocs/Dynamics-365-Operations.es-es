@@ -2,7 +2,7 @@
 title: Configurar las fuentes de datos de búsqueda para utilizar parámetros específicos de la aplicación de informes electrónicos
 description: En este tema se explica cómo puede configurar orígenes de datos de búsqueda en formatos de informes electrónicos (ER) para usar parámetros específicos de la aplicación de ER.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723198"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343438"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Configurar las fuentes de datos de búsqueda para utilizar parámetros específicos de la aplicación de informes electrónicos 
 
@@ -69,7 +69,7 @@ Puede configurar las reglas de búsqueda para el formato de ER seleccionado medi
 La siguiente ilustración muestra cómo la fuente de datos `Model.Data.Summary.LevelByLookup` del tipo **Campo calculado** se puede configurar para llamar a la fuente de datos de **búsqueda** configurada que proporciona los parámetros necesarios. Para procesar esta llamada en tiempo de ejecución, ER revisa la lista de reglas configuradas en la secuencia definida para ubicar la primera regla que satisface las condiciones proporcionadas. En este ejemplo, es la regla que contiene el código de impuestos que coincide con el proporcionado. Como resultado, se encuentra la regla más adecuada y esta fuente de datos devuelve el valor de enumeración configurado para la regla encontrada.
 
 > [!NOTE]
-> Se lanza una excepción cuando no se encuentra una regla aplicable. Para evitar estas excepciones, configure reglas adicionales al final de la lista de reglas para manejar los casos en los que se proporciona un valor no configurado o ningún valor. Utilizar las opciones **\*No en blanco\*** y **\*En blanco\*** en consecuencia.  
+> Se lanza una excepción cuando no se encuentra una regla aplicable. Para evitar estas excepciones, configure reglas adicionales al final de la lista de reglas para manejar los casos en los que se proporciona un valor no configurado o ningún valor. Utilice las opciones **\*No en blanco**\* y **\*En blanco**\* en consecuencia.  
 >
 > ![Agregar una fuente de datos para llamar a la fuente de datos de búsqueda configurada.](./media/er-lookup-data-sources-img7.png)
 

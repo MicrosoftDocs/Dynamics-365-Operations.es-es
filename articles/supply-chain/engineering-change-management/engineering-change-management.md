@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714339"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384594"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Administrar cambios en productos de ingeniería
 
@@ -113,16 +113,16 @@ Para revisar las transacciones afectadas, bloquear las transacciones seleccionad
     - **Ver transacción**: abre el registro de transacción seleccionado.
     - **Bloquear pedido**: este botón está disponible solo en la pestaña **Pedidos de ventas**. Selecciónelo para bloquear el pedido de ventas seleccionado.
     - **Bloquear línea**: este botón está disponible solo en la pestaña **Pedidos de compras**. Selecciónelo para bloquear la línea de pedido de compras seleccionada.
-    - **Notificar al responsable**: este botón está disponible solo en la pestaña **Pedidos de ventas**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como responsable del pedido de ventas seleccionado.
-    - **Notificar pedido**: este botón está disponible solo en la pestaña **Pedidos de compras**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como el que pide el pedido de ventas seleccionado.
-    - **Notificar producción**: este botón está disponible solo en la pestaña **Pedidos de producción**. A diferencia de los pedidos de ventas y los pedidos de compras, los pedidos de producción no tienen un solo usuario que se establezca como responsable de ellas de principio a fin. En cambio, varios supervisores o planificadores suelen tomar posesión de un sitio específico o de una parte específica de la producción (por ejemplo, para recursos o grupos de recursos específicos). Por lo tanto, cuando selecciona este botón, todos los usuarios responsables de cualquier recurso relacionado con la orden de producción seleccionada reciben una notificación de cambio.
-    - **Notificar preparador**: este botón está disponible solo en la pestaña **Solicitud de compra**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como el preparador de la solicitud de compra seleccionada.
-    - **Notificar al responsable de ventas**: este botón está disponible solo en la pestaña **Presupuestos**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como responsable del presupuesto seleccionado.
+    - **Notificar al responsable**: este botón está disponible solo en la pestaña **Pedidos de ventas**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como responsable del pedido de ventas seleccionado. Para obtener más información sobre quién puede ver las notificaciones y cómo puede verlas, consulte [Revisar y procesar notificaciones de cambios para transacciones](#review-notifications).
+    - **Notificar pedido**: este botón está disponible solo en la pestaña **Pedidos de compras**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como el que pide el pedido de ventas seleccionado. Para obtener más información sobre quién puede ver las notificaciones y cómo puede verlas, consulte [Revisar y procesar notificaciones de cambios para transacciones](#review-notifications).
+    - **Notificar producción**: este botón está disponible solo en la pestaña **Pedidos de producción**. A diferencia de los pedidos de ventas y los pedidos de compras, los pedidos de producción no tienen un solo usuario que se establezca como responsable de ellas de principio a fin. En cambio, varios supervisores o planificadores suelen tomar posesión de un sitio específico o de una parte específica de la producción (por ejemplo, para recursos o grupos de recursos específicos). Por lo tanto, cuando selecciona este botón, todos los usuarios responsables de cualquier recurso relacionado con la orden de producción seleccionada reciben una notificación de cambio. Para obtener más información sobre quién puede ver las notificaciones y cómo puede verlas, consulte [Revisar y procesar notificaciones de cambios para transacciones](#review-notifications).
+    - **Notificar preparador**: este botón está disponible solo en la pestaña **Solicitud de compra**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como el preparador de la solicitud de compra seleccionada. Para obtener más información sobre quién puede ver las notificaciones y cómo puede verlas, consulte [Revisar y procesar notificaciones de cambios para transacciones](#review-notifications).
+    - **Notificar al responsable de ventas**: este botón está disponible solo en la pestaña **Presupuestos**. Selecciónelo para enviar una notificación de cambio al usuario que está configurado como responsable del presupuesto seleccionado. Para obtener más información sobre quién puede ver las notificaciones y cómo puede verlas, consulte [Revisar y procesar notificaciones de cambios para transacciones](#review-notifications).
     - **Rechazar**: este botón está disponible solo en la pestaña **Inventario**. Selecciónelo para rechazar el inventario seleccionado.
     - **Ver historial**: abre un historial de acciones que se han realizado en la transacción seleccionada utilizando el cuadro de diálogo **Impacto empresarial en las transacciones abiertas**. (Por ejemplo, el historial muestra si se han enviado notificaciones o si se han bloqueado transacciones). 
     - **Ver todas las transacciones**: abre la lista completa de todas las transacciones, no solo las transacciones abiertas.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Revisar y procesar notificaciones de cambios para transacciones
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Revisar y procesar notificaciones de cambios para transacciones
 
 Puede leer y procesar las notificaciones de cambio que recibe de las siguientes formas:
 

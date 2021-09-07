@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764893"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402234"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Catálogo de aprendizaje para administradores de Dynamics 365 Supply Chain Management
 
@@ -61,6 +61,14 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 | [Finance and Operations: actualización de 7.x a 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Participe en la próxima charla técnica, durante la cual abordaremos el proceso de actualización de la versión 7.x a la 8.x. Hablaremos de los diferentes escenarios y pasos a ejecutar para la actualización de código y los datos. También abordaremos escenarios de solicitud de extensibilidad y cómo activarlas si resulta apropiado. | Registro flexible de conferencias web | 61 minutos |
 | [Cómo actualizar a 7.2 (julio de 2017) desde 7.0 (RTW)/7.1 (versión 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | En esta sesión explicaremos cómo actualizar desde la versión 7.0 (RTW) y 7.1 (1611) de la aplicación Dynamics 365 Finance and Operations a la versión 7.2 (julio de 2017). Establecemos una clara diferencia entre los clientes de los proyectos que están ejecutando y los que no. | Registro flexible de conferencias web | 58 minutos |
 | [Actualización de AX2012 a Dynamics 365 for Operations (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Esta charla técnica proporcionará una visión general sobre cómo actualizar el código y las datos de Dynamics AX 2012 a Dynamics 365 for Operations. | Registro flexible de conferencias web | 45 minutos |
+| [Herramientas de migración de AX2009 a Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | Esta sesión abordará las herramientas disponibles para ayudarle a migrar de AX2009 a D365 for Operations. | Registro flexible de conferencias web | 55 minutos |
+| [Herramienta de migración AX2009](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | Esta sesión abordará las herramientas disponibles para ayudarle a migrar de AX2009 a D365 for Operations. | Registro flexible de conferencias web | 55 minutos |
+
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| Contenido | Descripción | Formato | Longitud |
+|---------|-------------|--------|--------|
+| [Configurar la gestión de cambios de ingeniería para Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Los fabricantes actuales requieren una sólida gestión de datos de productos, control de versiones y gestión de cambios de ingeniería para tener éxito en un mundo en el que los ciclos de vida de los productos se reducen constantemente, los requisitos de calidad y fiabilidad aumentan y un mayor enfoque en la seguridad del producto. Aprenda a configurar la gestión de cambios de ingeniería en esta ruta de aprendizaje. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 4 horas |
 
 ## <a name="servicing"></a>Servicio<a name="servicing"></a>
 
@@ -69,6 +77,7 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 | [Finance and Operations: administración de características (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Charla técnica sobre la experiencia de administración de características. Ofrece un área de trabajo en la que puede ver, habilitar, deshabilitar y programar las características que se han entregado en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación. Asista a esta reunión para ver qué se ofrecer en la versión 10.0.3 y nuestros planes para versiones futuras. | Registro flexible de conferencias web | 47 minutos |
 | [Finance and Operations: servicio, soporte y mantenimiento de la producción (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Tech Talk acerca de cómo prestar compatibilidad, mantenimiento y aprovisionamiento eficazmente a su entorno de producción Dynamics 365 for Finance and Operations. | Registro flexible de conferencias web | 53 minutos |
 | [Finance and Operations: actualizaciones continuas administradas por Microsoft (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | La cadencia de actualización continua para Finance and Operations ha empezado. Participe en esta hora de debate sobre las actualizaciones continuas administradas por Microsoft, la experiencia del usuario ya disponible Lifecycle Services y las actualizaciones próximas. | Registro flexible de conferencias web | 61 minutos |
+| [Finance and Operations: actualizaciones continuas administradas por Microsoft: novedades, 1 de noviembre de 2018 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | Durante esta hora hablaremos sobre las actualizaciones en la cadencia de actualizaciones continuas administradas por Microsoft y veremos la experiencia de usuario de Lifecycle Services. | Registro flexible de conferencias web | 59 minutos |
 | [Actualizaciones continuadas administradas por Microsoft: novedades (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Durante esta hora explicaremos las novedades desde nuestros anuncios iniciales sobre las actualizaciones continuas administradas por Microsoft. Hablaremos de las la cadencia de las actualizaciones, cómo hemos respondido sus valiosos comentarios acerca del proceso, y echaremos una ojeada a la próxima experiencia de usuario de Lifecycle Services con la que podrá administrar las actualizaciones. | Registro flexible de conferencias web | 56 minutos |
 | [Actualizaciones continuadas y administradas de Microsoft (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | Hablaremos de las los planes de Microsoft para conservar el sistema actualizado con los últimos lanzamientos. Abordaremos las escalas de tiempo, la cadencia de las actualizaciones principales y las menos importantes, los procedimientos planificados, las implicaciones y qué debe hacer para obtener resultados óptimos. | Registro flexible de conferencias web | 62 minutos |
 | [Supervisión, Asesor de optimización y artículos de Knowledge Base fundamentales (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | Hablaremos de las funciones de supervisión y lo que supervisa Microsoft para el usuario en el entorno de producción, el asesor de optimización y cómo se puede ampliar, la experiencia de “Actualizaciones críticas de X++” en el LCS y las prácticas recomendadas para la opción “Notificar interrupción de la producción" en LCS. | Registro flexible de conferencias web | 40 minutos |
@@ -86,6 +95,5 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 | Contenido  | Descripción  | Formato  |
 |----------|--------------|---------|
 | [Aspectos básicos de Dynamics 365](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Compruebe que se sabe cómo funciona Microsoft Dynamics 365: Power Platform, conceptos de la nube, opciones de licencia y opciones de la implementación y de publicación. | Inspección; el coste varía según la región |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

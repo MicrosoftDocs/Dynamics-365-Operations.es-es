@@ -1,8 +1,8 @@
 ---
 title: Configuración de modelos de valor
 description: Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociarlo con un grupo de activos fijos.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741545"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344667"
 ---
 # <a name="set-up-value-models"></a>Configuración de modelos de valor
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociarlo con un grupo de activos fijos. Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
-
 
 ## <a name="create-a-book"></a>Crear un libro
 1. Vaya a Activos fijos > Configuración > Libros.
@@ -48,9 +49,10 @@ Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociar
 1. Haga clic en Grupos de activos fijos.
 2. En el campo Grupo de activos fijos, escriba o seleccione un valor.
 3. En el campo Tiempo de vida, especifique un número.
-    * Tenga en cuenta que los Períodos de depreciación se calculan después de definir el tiempo de vida.  
-    * Puede establecer la convención de depreciación según sea necesario para fines de impuestos.  
 
+  - Los períodos de depreciación se calculan después de introducir el tiempo de vida del activo.  
+  - Puede establecer la convención de depreciación según sea necesario para fines de impuestos.
+  - Para los activos fijos asociados con arrendamientos, el valor del campo **Tiempo de vida** se anulará por el menor entre el plazo de arrendamiento en el libro de activos o la vida útil del activo. Si el campo **Transferencia de la propiedad** está configurado en **Sí** para el libro de arrendamiento, el valor del campo **Tiempo de vida** siempre será la vida útil del activo.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
