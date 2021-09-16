@@ -14,6 +14,8 @@
               items:
                 - name: Novedades y cambios en la página principal de actualizaciones de la plataforma
                   href: get-started/whats-new-home-page.md
+                - name: Actualizaciones de la plataforma para la versión 10.0.22 (noviembre de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.21 (octubre de 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.20 (agosto de 2021)
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: Lenguaje de programación X++
               items:
-                - name: Características de X++ y el depurador
-                  href: dev-tools/new-x-debugger-features.md
-                - name: Requisitos para X++ de Visual Studio 2017
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: Depurar código X++
-                  href: dev-tools/debug-xpp.md
-                - name: Clases EventHandlerResult en escenarios de solicitud o respuesta
-                  href: dev-tools/event-handler-result-class.md
-                - name: Escribir la lógica de negocios mediante el código fuente C# y X++
-                  href: dev-tools/write-business-logic.md
-                - name: Cambios en X++ y el compilador X++
-                  href: dev-tools/programming-language-support.md
-                - name: Proveedor de LINQ para C#
-                  href: dev-tools/linq-provider-c.md
-                - name: Escribir reglas de prácticas recomendadas
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Propiedades del Explorador de aplicaciones
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: Compatibilidad de lenguaje X++
+                  items:
+                    - name: Requisitos para X++ de Visual Studio 2017
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: Depurar código X++
+                      href: dev-tools/debug-xpp.md
+                    - name: Clases EventHandlerResult en escenarios de solicitud o respuesta
+                      href: dev-tools/event-handler-result-class.md
+                    - name: Escribir la lógica de negocios mediante el código fuente C# y X++
+                      href: dev-tools/write-business-logic.md
+                    - name: Proveedor de LINQ para C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: Escribir reglas de prácticas recomendadas
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Propiedades del Explorador de aplicaciones
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: Referencia del lenguaje X++
                   items:
                     - name: Información general de la referencia del lenguaje X++
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Bibliotecas
                           href: dev-ref/xpp-library-objects.md
-                        - name: Eventos
+                        - name: Eventos y delegados
                           href: dev-ref/xpp-events.md
                     - name: Selección y manipulación de datos de X++
                       items:
@@ -902,10 +902,12 @@
                       href: perf-test/atl-best-practices.md
                     - name: Preguntas frecuentes
                       href: perf-test/atl-faq.md
-            - name: Fecha de vigencia
+            - name: Validez de fecha
               href: dev-tools/date-effectivity.md
             - name: Desarrollo para proveedores de software independientes
               items:
+                - name: Página principal de desarrollo de ISV
+                  href: dev-tools/isv-dev-home-page.md
                 - name: Vincular módulos X++ a paquetes mediante ISV Studio
                   href: dev-tools/isv-studio-solutions.md
                 - name: Licencias de ISV
@@ -1018,6 +1020,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Guía paso a paso de consulta
               href: lifecycle-services/querycookbook.md
+            - name: Suscripciones caducadas y eliminación de datos
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Información general de Microsoft Dynamics 365 Translation Service
@@ -1048,6 +1052,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: Consideraciones para la sincronización inicial
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Límites para la sincronización en vivo
+                      href: data-entities/dual-write/sync-limits.md
                     - name: Configuración de la doble escritura de Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
                     - name: Habilitar doble escritura para aplicaciones de Finance and Operations existentes
