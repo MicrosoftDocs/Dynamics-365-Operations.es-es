@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423400"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431420"
 ---
 # <a name="plan-type-overview"></a>Descripción general del tipo de plan
 
@@ -28,14 +28,15 @@ ms.locfileid: "7423400"
 
 Un tipo de plan es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan tiene un código de tipo de plan que determina reglas para el tipo de plan. Por ejemplo, el tipo de plan **Vida básica** tendría el código de tipo de plan **Vida** porque es un tipo de plan de seguro de vida y debe cumplir las reglas establecidas para el código de tipo de plan de **Vida**. Otro tipo de plan podría ser **Vida suplementaria**. Este tipo de plan también tendrá el código de tipo de plan de **Vida** código de tipo de plan.
 
-Cada tipo de plan indica si un empleado puede inscribirse en un plan de su tipo o en varios. Por ejemplo, es probable que un empleado pueda inscribirse tanto en las directivas de vida básica como vida complementaria del tipo de plan Vida. Es probable que a un empleado se le permita inscribirse en una sola directiva de tipo médico.
+Cada tipo de plan indica si un empleado puede inscribirse en un plan de su tipo o en varios. Por ejemplo, es probable que un empleado pueda inscribirse tanto en las directivas de **vida básica** como **vida complementaria** del tipo de plan Vida. Es probable que a un empleado se le permita inscribirse en una sola directiva de tipo médico.
 
-Si un tipo de plan implica contactos, el tipo de plan indica si los contactos son beneficiarios o dependientes. Por ejemplo, un tipo de plan de vida básico tendría beneficiarios, mientras que un tipo de plan médico básico tendría dependientes. En algunos casos, es posible que un plan no tenga contactos personales. Por ejemplo, una cuenta de gastos flexible o una concesión de aparcamiento.
+Si un tipo de plan implica contactos, el tipo de plan indica si los contactos son beneficiarios o dependientes. Por ejemplo, un tipo de plan de **vida básico** tendría beneficiarios, mientras que un tipo de plan médico básico tendría dependientes. En algunos casos, es posible que un plan no tenga contactos personales. Por ejemplo, una cuenta de gastos flexible o una concesión de aparcamiento.
 
-Un tipo de plan puede definir opciones de cobertura. Las opciones de cobertura se definen en la página **Opción de cobertura**. Una opción de cobertura puede especificar el importe del beneficio o los contactos que son aptos para el tipo de plan. Por ejemplo, si el tipo de contacto es Beneficiario, la opción de cobertura debe definir los términos para lo que el beneficiario es elegible para recibir cuando se utiliza la prestación. Si el tipo de contacto es Dependiente, la opción de cobertura debe definir la relación entre el dependiente y el empleado. 
+
+Un tipo de plan puede definir opciones de cobertura. Las opciones de cobertura se definen en la página **Opciones de cobertura**. Una opción de cobertura puede especificar el importe del beneficio o los contactos que son aptos para el tipo de plan. Por ejemplo, si el tipo de contacto es **Beneficiario**, la opción de cobertura debe definir los términos para lo que el beneficiario es elegible para recibir cuando se utiliza la prestación. Si el tipo de contacto es **Dependiente**, la opción de cobertura debe definir la relación entre el dependiente y el empleado. 
 
 > [!IMPORTANT]
-> La página incluye datos clave que afectan a las opciones que hay disponibles cuando se crea un nuevo plan de beneficios:
+> La página **Tipos de plan** incluye datos clave que afectan a las opciones que hay disponibles cuando se crea un nuevo plan de beneficios:
 >
 > - **Código de tipo de plan**: este campo afecta lo que se muestra en la pestaña **Configuración** cuando se configura la prestación real.  
 > - **Inscripción concurrente**: este campo determina si se permiten múltiples inscripciones. (Para un plan médico, este campo generalmente se establece en **Una inscripción**).

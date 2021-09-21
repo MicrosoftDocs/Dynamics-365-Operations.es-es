@@ -1,8 +1,8 @@
 ---
 title: Configuración de la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS
 description: En este tema se abordan las opciones de configuración de inicio de sesión extendido para Cloud POS y Retail Modern POS (MPOS).
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748555"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478680"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Configurar la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS
 
@@ -58,6 +58,8 @@ De forma predeterminada, solo los directores pueden asignar el inicio de sesión
 Para eliminar el inicio de sesión extendido que se asigna a un trabajador, busque el trabajador mediante la operación **Inicio de sesión extendido**. Seleccione el trabajador y, a continuación, haga clic en **Anular asignación**. Se eliminarán todas las credenciales de inicio de sesión extendidas asociadas con dicho trabajador.
 
 ## <a name="extending-extended-logon"></a>Extensión de inicio de sesión extendido
+
+El inicio de sesión extendido solo permite que cinco caracteres significativos sean el identificador único listo para usar. Por ejemplo, si configura dos tarjetas con los ID "1234567" y "1234578", ambas se considerarán "12345". Podría crear una extensión para admitir más personajes. Para obtener instrucciones detalladas, consulte [Ampliación de la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
 El servicio del inicio de sesión puede ser extendido para admitir dispositivos de inicio de sesión extendidos adicionales, como escáneres de la palma. Para obtener más información, consulte la documentación de extensibilidad del PDV.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5809d4a29c4209d8fb42bdfd441a3a4fb201ca6c6318abc0315a02ead7c551de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759170"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463640"
 ---
 # <a name="address-books-faq"></a>Preguntas frecuentes sobre Libretas de direcciones
 
@@ -66,10 +66,12 @@ Puede especificar registros de partes en la libreta de direcciones global o en l
 
 Puede configurar traducciones de la información de dirección de modo que la información aparezca en el idioma del usuario (idioma del sistema) en su programa pero en otro idioma en documentos como los pedidos de ventas. Puede especificar las traducciones para los nombres de país o región, los propósitos de direcciones y las secuencias de nombres. Por ejemplo, su idioma del sistema es el danés y crea un pedido de ventas para un cliente en Francia. En este caso, puede ver el registro del cliente en danés en el programa pero visualizar la información de dirección en francés en el pedido de ventas impreso. Al configurar traducciones, debe especificar una traducción para cada elemento de la lista. Los artículos para los que no especifique una traducción aparecerán en el idioma del sistema. Por ejemplo, su idioma del sistema es el danés y envía un documento a un cliente en España. Si no ha especificado las traducciones de español (ESP) para la información de dirección, esa información aparecerá en danés tanto en el programa como en el documento impreso.
 
-## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Después de importar direcciones, cuando accedo a los registros, ¿por qué no puedo editar las direcciones importadas?
+## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Después de importar direcciones, ¿por qué no puedo editar los registros?
 
-Al importar direcciones, hay un campo etiquetado **IsLocationOwner**, que indica si la parte asociada a la ubicación (dirección) es la propietaria de la dirección. Si la parte es el propietario de la dirección, la dirección se puede editar cuando se accede utilizando la parte en la libreta de direcciones global o desde el formulario de registro maestro (como cliente, proveedor o trabajador). Si la parte no es el propietario de la dirección, el registro no se puede editar desde los formularios enumerados anteriormente. Al importar direcciones, **IsLocationOwner** debe establecerse en **Sí** si desea que la dirección sea editable utilizando la parte asociada. Sin embargo, hay ocasiones en las que este campo se importa incorrectamente. Para solucionar este problema, el propietario de la ubicación se puede actualizar dentro de la libreta de direcciones global desde el registro de la parte o desde la página **Confirmar los propietarios de la ubicación**. Para actualizar un único registro de parte, vaya a **Libreta de direcciones global > Dirección**. Seleccione **Editar** para lanzar la página **Editar dirección** para cambiar el propietario de la ubicación. Seleccione **Cambiar el propietario de la ubicación** para ver el propietario de la ubicación anterior, con la parte seleccionada como la nueva propietaria de la ubicación. Si el propietario de la ubicación anterior está en blanco, significa que no se estableció un propietario de la ubicación. Seleccionando la opción **Avanzado**, se abrirá la página **Administrar direcciones**, en la que también se puede establecer el propietario de la ubicación. Seleccione la ubicación a actualizar y luego seleccione **Establecer propietario de la ubicación** en el menú. Para actualizar el propietario de la ubicación para varios registros, vaya a **Libreta de direcciones global > Ubicaciones > Confirmar propietarios de ubicaciones**. La lista contiene ubicaciones que están vinculadas a un solo partido, pero ese partido no es el propietario. Seleccionando **Confirmar propietario** se establecerá el **Id. de la parte propietaria propuesta** como propietario de la dirección vinculada. Una vez que la parte se establece como propietaria, la dirección vinculada se podrá editar desde el registro de la parte. Para cambiar el propietario de la ubicación, se le debe asignar el privilegio **Establecer propietario de la ubicación** en la página **Configuración de seguridad**.  El administrador del sistema tiene este privilegio de forma predeterminada.
+Cuando importa direcciones, hay un campo que se llama **IsLocationOwner**. Este campo indica si la parte que está asociada con la ubicación (dirección) es el propietario de la dirección. Si la parte es el propietario de la dirección, la dirección se puede editar cuando la parte se usa en la libreta de direcciones global o desde la página de registro maestra (como el cliente, proveedor o trabajador). Si la parte no es el propietario de la dirección, el registro no se puede editar. 
 
+Al importar direcciones, el campo **IsLocationOwner** debe establecerse en **Sí** si desea que la dirección sea editable utilizando la parte asociada. Si este campo se importa incorrectamente, el propietario de la ubicación se puede actualizar en la libreta de direcciones global.
+
+Para obtener más información sobre cómo cambiar el propietario de la ubicación de una dirección importada, consulte [Gestión de propietarios de ubicaciones](./global-address-book-location-owner.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

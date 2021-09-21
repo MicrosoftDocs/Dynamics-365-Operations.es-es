@@ -2,7 +2,7 @@
 title: Mensajes electrónicos
 description: Este tema proporciona información general y de configuración del correo electrónico en Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768348"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478733"
 ---
 # <a name="electronic-messaging"></a>Mensajería electrónica
 
@@ -57,6 +57,16 @@ La funcionalidad de EM admite los escenarios siguientes:
 - Almacenar y revisar todos los informes generados.
 - Almacenar y revisar toda la información de registro relacionada con las acciones que se ejecutan para un mensaje o un elemento de mensaje.
 - Controlar el procesamiento a través de distintos estados de mensaje y estados de elementos de mensaje.
+
+## <a name="security-privileges"></a>Privilegios de seguridad
+
+Los siguientes privilegios de seguridad están disponibles para mensajes electrónicos.
+
+| Privilegio de seguridad           | Nivel de acceso | Asociación |
+|------------------------------|--------------|-------------|
+| Mantener mensajes electrónicos | Este privilegio brinda acceso completo a la funcionalidad EM. Si tiene este privilegio, puede configurar la mensajería electrónica y ejecutar todo el procesamiento. | Este privilegio está incluido en el deber de seguridad **Mantener las transacciones de impuestos sobre las ventas**. Ese deber, a su vez, está incluido en el rol de seguridad **Contador**. |
+| Visualizar mensajes electrónicos     | Este privilegio brinda acceso de solo lectura a la funcionalidad EM. Si tiene este privilegio, puede ver la configuración de mensajería electrónica y los mensajes. Sin embargo, no puede configurar ni ejecutar nada. | Este privilegio está incluido en el deber de seguridad **Consultar el estado de transacciones de impuestos**. Ese deber, a su vez, está incluido los siguientes roles de seguridad:<ul><li>Administrador de cobros</li><li>Funcionario de clientes</li><li>Administrador de clientes</li><li>Contable de impuestos</li><li>Contable</li><li>Administrador contable</li><li>Supervisor contable</li><li>Director de ventas</li><li>Funcionario de proveedores</li></ul> |
+| Operar mensajes electrónicos  | Este privilegio da acceso solo a las páginas **Mensajes electronicos** y **Elementos de mensaje electrónico**. Si tiene este privilegio, puede ejecutar todo el procesamiento que se llama desde esas páginas. | Este privilegio está incluido en el deber de seguridad **Operar mensajes electrónicos**. Ese deber, a su vez, está incluido en el rol de seguridad **Operador de mensajes electrónicos**. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Funciones normativas específicas del país compatibles con la funcionalidad EM
 

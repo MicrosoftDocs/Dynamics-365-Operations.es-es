@@ -1,8 +1,8 @@
 ---
 title: Crear un calendario de equipo
 description: Vea y cree calendarios de equipo en Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eacf2dc460367ebefb7e9f4d9e301ec719cd2317
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744235"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431495"
 ---
 # <a name="view-team-and-company-calendars"></a>Ver calendarios de equipo y empresa
 
@@ -75,7 +75,7 @@ Los calendarios ahora contienen filtros y opciones adicionales. Todos los calend
 - Solicitudes de tiempo libre 
 - Solicitudes de permiso para ausentarse
 
-La configuración del calendario en los parámetros de permisos y ausencias determina las opciones de visualización disponibles.
+La configuración del calendario en la página **Parámetros de permisos y ausencias** determina las opciones de visualización disponibles.
 
 También puede filtrar calendarios por gerente o departamento. La asignación de puesto principal determina los empleados que se muestran cuando se establecen estos filtros. 
 

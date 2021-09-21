@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384594"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467431"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Administrar cambios en productos de ingeniería
 
@@ -122,6 +122,9 @@ Para revisar las transacciones afectadas, bloquear las transacciones seleccionad
     - **Ver historial**: abre un historial de acciones que se han realizado en la transacción seleccionada utilizando el cuadro de diálogo **Impacto empresarial en las transacciones abiertas**. (Por ejemplo, el historial muestra si se han enviado notificaciones o si se han bloqueado transacciones). 
     - **Ver todas las transacciones**: abre la lista completa de todas las transacciones, no solo las transacciones abiertas.
 
+> [!IMPORTANT]
+> El botón **Notificar producción** está disponible solo si la función *Notificaciones de ingeniería para producción* está activada en su sistema. Para instrucciones, vea [Resumen de gestión de cambios de ingeniería](product-engineering-overview.md).
+
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Revisar y procesar notificaciones de cambios para transacciones
 
 Puede leer y procesar las notificaciones de cambio que recibe de las siguientes formas:
@@ -131,6 +134,9 @@ Puede leer y procesar las notificaciones de cambio que recibe de las siguientes 
 - Para los pedidos de producción, puede optar por revisar solo las notificaciones de cambios que se aplican a los recursos de producción que administra. En el espacio de trabajo **Gestión de planta de producción**, en el Panel de acciones, seleccione **Configurar mi espacio de trabajo** para filtrar la página para que muestre solo información sobre las unidades de producción, grupos y / o recursos que administra. En la sección **Resumen**, un mosaico que se llama **Pedidos de producción con productos modificados** muestra un recuento de notificaciones que coinciden con la configuración de su filtro. Seleccione este mosaico para abrir la página **Notificaciones de ingeniería**, que muestra la lista completa de transacciones que cumplen con los criterios de su filtro.
 
 Mientras revisa las notificaciones de órdenes de producción en la página **Notificaciones de ingeniería**, puede seguir enlaces a órdenes de cambio u órdenes de producción relacionadas seleccionando valores de columna o utilizando los comandos relacionados en el Panel de acciones. Una vez que haya terminado de evaluar un cambio y después de haber cancelado o modificado los pedidos de producción según sea necesario, puede marcar una notificación como resuelta. Seleccione la notificación y luego, en el Panel de acciones, seleccione **Resolver**. La notificación se elimina de las vistas de todos los usuarios.
+
+> [!IMPORTANT]
+> La capacidad de enviar notificaciones para órdenes de producción requiere que la función *Notificaciones de ingeniería para producción* esté activada en su sistema. Para instrucciones, vea [Resumen de gestión de cambios de ingeniería](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Crear una orden de cambio a partir de una solicitud de cambio
 

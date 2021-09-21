@@ -1,8 +1,8 @@
 ---
 title: Comprar y vender bajas
-description: En Dynamics 365 Human Resources, puede enviar solicitudes para comprar y vender licencias según las políticas de compra y venta de licencias establecidas por su empresa.
-author: andreabichsel
-ms.date: 08/20/2020
+description: Este tema describe cómo enviar solicitudes para comprar y vender sin permiso Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1225bcfd0c7c9dfecde2aec54983fca8a298f1cf92d2929d8b1fbe2bdf05e5f9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 716afdc4e52c3e4a0432b987cb82077012d4d0c2
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779743"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431519"
 ---
 # <a name="buy-and-sell-leave"></a>Comprar y vender bajas
 
@@ -51,7 +51,7 @@ Sus saldos se actualizarán automáticamente o pasarán por un proceso de aproba
 
 ## <a name="troubleshooting"></a>Solución de problemas 
 
-Si falla un flujo de trabajo de solicitud de licencia de compra o venta, los usuarios con el privilegio **EssLeaveBuySellRequestApprover** puede revisar el registro de mensajes para todas las solicitudes de compra y venta de licencias. Para hacer esto, vaya a **Licencias y ausencias > Enlace > Compra y venta de solicitudes de licencia> Registro de mensajes** (arriba a la izquierda). **Registro de mensajes** muestra a los usuarios cómo se procesaron las transacciones y el historial de flujo de trabajo asociado.
+Si falla un flujo de trabajo de solicitud de licencia de compra o venta, los usuarios con el privilegio **EssLeaveBuySellRequestApprover** puede revisar el registro de mensajes para todas las solicitudes de compra y venta de licencias. Para hacer esto, vaya a **Licencias y ausencias > Enlaces > Compra y venta de solicitudes de licencia> Registro de mensajes** (arriba a la izquierda). **Registro de mensajes** muestra a los usuarios cómo se procesaron las transacciones y el historial de flujo de trabajo asociado.
 
 
 ## <a name="see-also"></a>Consulte también

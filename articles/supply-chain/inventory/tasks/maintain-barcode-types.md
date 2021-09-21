@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 052311e15aeb20b927cbed217a2bda600dad60a5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4102f8036c0aede7c8a2adcaa9b8799a71ac7ada
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345659"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441298"
 ---
 # <a name="maintain-bar-code-types"></a>Mantener tipos de códigos de barras
 
@@ -32,7 +32,8 @@ Este procedimiento le muestra cómo configurar una nueva definición de código 
 1. En el campo **Configuración de código de barras**, escriba un valor.
 1. En el campo **Descripción**, escriba un valor.
 1. En el campo **Tipo de código de barra**, seleccione una opción.
-    * Si está usando USMF, puede seleccionar "Código 39".  
+    * Si está usando USMF, puede seleccionar "Código 39".
+1. En el campo **Id. de máscara**, especifique el id. de la de máscara de código de barras. Los máscaras de código de barras se usan para crear códigos de barras e identificar rápidamente los códigos de barras que se procesan en un sistema de punto de venta (PDV). Para obtener más detalles, consulte [Configurar máscaras de códigos de barras](../../../commerce/set-up-bar-code-masks.md).
 1. En el campo **Tamaño**, escriba un número.
 1. Escriba un número en el campo **Longitud máxima**.
 1. Seleccione **Guardar**.

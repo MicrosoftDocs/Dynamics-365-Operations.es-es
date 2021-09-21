@@ -2,7 +2,7 @@
 title: Configurar un inquilino B2C en Commerce
 description: En este tema se describe cómo configurar los inquilinos de empresa a consumidor (B2C) de Azure Active Directory (Azure AD) para la autenticación del sitio del usuario en Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344507"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466277"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar un inquilino B2C en Commerce
 
@@ -37,6 +37,26 @@ Dynamics 365 Commerce usa Azure AD B2C para admitir credenciales de usuario y fl
 
 > [!TIP]
 > Puede proteger aún más a los usuarios de su sitio y mejorar la seguridad de sus inquilinos B2C de Azure AD con Protección de identidad y acceso condicional de Azure AD. Para revisar las capacidades disponibles para Inquilinos de B2C Premium P1 y Premium P2 de Azure AD, consulte [Protección de identidad y acceso condicional para B2C de Azure AD](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>Requisitos previos del entorno dinámico
+
+Antes de comenzar, asegúrese de que su entorno de Dynamics 365 Commerce y el canal de comercio electrónico se configuran de forma adecuada mediante el cumplimiento de los siguientes requisitos previos.
+
+- Configure el valor de las operaciones de PDV **AllowAnonymousAccess** en "1" en Commerce Headquarters:
+    1. Vaya a **Operaciones de PDV**.
+    1. En la cuadrícula de operaciones, haga clic con el botón derecho y seleccione **Personalizar**.
+    1. Seleccione **Agregar un campo**.
+    1. En la lista de columnas disponibles, seleccione la columna **AllowAnonymousAccess** para agregarlo.
+    1. Seleccione **Actualizar**.
+    1. Para la operación **612** "Agregar cliente", cambie **AllowAnonymousAccess** a "1".
+    1. Ejecute el trabajo **1090 (registros)**.
+- Configure el atributo **Manual** de la cuenta de cliente de secuencia numérica **No** en Commerce Headquarters:
+    1. Vaya a **Retail y Commerce \> Configuración de sede central \> Parámetros \> Parámetros de clientes**.
+    1. Seleccione **Secuencias numéricas**.
+    1. En la fila **Cuenta de cliente**, haga doble clic en el valor **Código de secuencia numérica**.
+    1. Sobre la ficha desplegable **General** de la secuencia numérica, establezca **Manual** en **No**.
+
+Después del despliegue de su entorno de Dynamics 365 Commerce, también se recomienda [inicializar datos semilla](enable-configure-retail-functionality.md) en el entorno.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Crear o vincular un inquilino de AAD B2C existente en el portal de Azure
 

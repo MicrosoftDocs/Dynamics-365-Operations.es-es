@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345158"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475045"
 ---
 # <a name="inventory-visibility-reservations"></a>Reservas de visibilidad de inventario
 
@@ -32,19 +32,20 @@ Opcionalmente, puede configurar Microsoft Dynamics 365 Supply Chain Management (
 
 Cuando activa la función de reserva, Supply Chain Management está automáticamente lista para compensar las reservas que se realizan mediante el uso de visibilidad de inventario.
 
-> [!NOTE]
-> La funcionalidad de compensación requiere Supply Chain Management versión 10.0.22 o posterior. Si desea utilizar las reservas de Visibilidad de inventario, le recomendamos que espere hasta que haya actualizado Supply Chain Management a la versión 10.0.22 o posterior.
-
-## <a name="turn-on-the-reservation-feature"></a>Activar la función de reserva
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>Activar y configurar la función de reserva
 
 Para activar la función de reserva, siga estos pasos.
 
-1. En Power Apps, abra **Visibilidad de inventario**.
+1. Inicie sesión en Power Apps y abra **Visibilidad de inventario**.
 1. Abra la página **Configuración**.
 1. En la ficha **Gestión de funciones**, active la función *OnHandReservation*.
 1. Inicie sesión en de Supply Chain Management.
-1. Vaya a **Gestión del inventario \> Configuración \> Parámetros de integración de Visibilidad de inventario**.
-1. En **Compensación de reserva**, establezca la opción **Habilitar compensación de reserva** en *Sí*.
+1. Vaya al espacio de trabajo **[Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** y habilite la función *Integración de visibilidad de inventario con compensación de reserva* (requiere la versión 10.0.22 o posterior).
+1. Vaya a **Gestión del inventario \> Configuración \> Parámetros de integración de visibilidad de inventario**, abra la pestaña **Compensación de reserva** y realice los siguientes ajustes:
+    - **Habilitar compensación de reserva** - Ajustado a *Sí* para habilitar esta funcionalidad.
+    - **Modificador de compensación de reserva** - Seleccione el estado de la transacción de inventario que compensará las reservas realizadas en Visibilidad de inventario. Esta configuración determina la etapa de procesamiento del pedido que desencadena las compensaciones. La etapa se rastrea por el estado de la transacción de inventario del pedido. Elija una opción de las siguientes:
+        - *En orden* - Para el estado *En la transacción*, un pedido enviará una solicitud de compensación cuando se cree. La cantidad de compensación será la cantidad del pedido creado.
+        - *Reserva* – Para el estado *Transacción de reserva solicitada*, un pedido enviará una solicitud de compensación cuando esté reservado, recogido, publicado en el albarán o facturado. La solicitud se disparará solo una vez, para el primer paso cuando se produzca el proceso mencionado. La cantidad de compensación será la cantidad a partir de la cual cambió el estado de la transacción de inventario de *En orden* a *Reservado ordenado* (o estado posterior) en la línea de pedido correspondiente.
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Utilizar la función de reserva en Visibilidad de inventario
 
@@ -56,13 +57,21 @@ La jerarquía de reservas describe la secuencia de dimensiones que deben especif
 
 La jerarquía de reservas puede diferir de la jerarquía de índices. Esta independencia le permite implementar la gestión de categorías donde los usuarios pueden desglosar las dimensiones en detalles para especificar los requisitos para hacer reservas más precisas.
 
-Para configurar una jerarquía de reserva flexible en Power Apps, abra la página **Configuración** y luego, en la ficha **Asignación de reserva flexible**, configure la jerarquía de reserva agregando o modificando dimensiones y sus niveles de jerarquía.
+Para configurar una jerarquía de reserva flexible en Power Apps, abra la página **Configuración** y luego, en la ficha **Jerarquía de reserva flexible**, configure la jerarquía de reserva agregando o modificando dimensiones y sus niveles de jerarquía.
+
+Su jerarquía de reservas blandas debe contener `SiteId` y `LocationId` como componentes, porque construyen la configuración de la partición.
+
+Para obtener más información sobre cómo configurar reservas, consulte [Configuración de reservas](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="call-the-reservation-api"></a>Llamar a la API de reservas
 
 Las reservas se realizan en el servicio de visibilidad de inventario mediante el envío de una solicitud POST a la URL del servicio, como `/api/environment/{environment-ID}/onhand/reserve`.
 
 Para una reserva, el cuerpo de la solicitud debe contener un Id. de organización, un Id. de producto, cantidades reservadas y dimensiones. La solicitud genera un Id. de reserva único para cada registro de reserva. El registro de reservas contiene la combinación única del Id. del producto y las dimensiones.
+
+Cuando llama a la API de reserva, puede controlar la validación de la reserva especificando el parámetro booleano `ifCheckAvailForReserv` en el cuerpo de la solicitud. Un valor `True` significa que se requiere la validación, mientras que un valor `False` significa que la validación no es necesaria. El valor predeterminado es `True`.
+
+Si desea cancelar una reserva o anular la reserva de cantidades de inventario especificadas, establezca la cantidad en un valor negativo y establezca el parámetro `ifCheckAvailForReserv` en `False` para omitir la validación.
 
 A continuación, se muestra un ejemplo del cuerpo de la solicitud, como referencia.
 
@@ -108,18 +117,9 @@ Para los estados de transacciones de inventario que incluyen un modificador de c
 
 La cantidad de compensación sigue la cantidad de inventario que se especifica en las transacciones de inventario. La compensación no tiene efecto si no queda ninguna cantidad reservada en el servicio de visibilidad de inventario.
 
-> [!NOTE]
-> La funcionalidad de compensación está disponible a partir de la versión 10.0.22
+### <a name="set-up-the-reservation-offset-modifier"></a>Configurar el modificador de compensación de reserva
 
-### <a name="set-up-the-reserve-offset-modifier"></a>Configurar el modificador de compensación de reserva
-
-El modificador de compensación de reserva determina la etapa de procesamiento de la orden que activa las compensaciones. La etapa se rastrea por el estado de la transacción de inventario del pedido. Para configurar el modificador de compensación de reserva, siga estos pasos.
-
-1. Vaya a **Gestión del inventario \> Configuración \> Parámetros de integración de Visibilidad de inventario \> Compensación de reserva**.
-1. Defina el campo **Modificador de compensación de reserva** con uno de los siguientes valores:
-
-    - *En orden* - Para el estado *En la transacción*, un pedido enviará una solicitud de compensación cuando se cree.
-    - *Reserva* – Para el estado *Transacción de reserva solicitada*, un pedido enviará una solicitud de compensación cuando esté reservado, recogido, publicado en el albarán o facturado. La solicitud se disparará solo una vez, para el primer paso cuando se produzca el proceso mencionado.
+Si aún no lo ha hecho, configure el modificador de reserva como se describe en [Encienda y configure la función de reserva](#turn-on).
 
 ### <a name="set-up-reservation-ids"></a>Configurar Id. de reserva
 

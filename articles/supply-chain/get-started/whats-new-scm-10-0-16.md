@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712058"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474925"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.16 (febrero de 2021)
 
@@ -56,30 +56,6 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 - [Resumen de materiales peligrosos](../pim/hazmat-overview.md) (y temas relacionados)
 - [Migración a la Optimización de planificación para la planificación maestra](../master-planning/new-master-planning-engine.md)
 - [Mejoras de cXML de compra](../procurement/purchasing-cxml-enhancements.md)
-- [Solucionar problemas de la gestión de costes](../cost-management/troubleshoot-costmanagement.md)
-- [Solucionar problemas de operaciones de almacén de entrada](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Solucionar problemas de planificación de carga y envíos](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Solucionar problemas de planificación maestra](../master-planning/troubleshoot-masterplanning.md)
-- [Solucionar problemas de operaciones de almacén de salida](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Solucionar problemas de lanzamientos parciales y envíos parciales](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Solucionar problemas del configurador de productos](../pim/troubleshooting-productconfigurator.md)
-- [Solucionar problemas de información del producto](../pim/troubleshooting-productinformation.md)
-- [Solucionar problemas de flujos de trabajo de compras y abastecimiento](../procurement/troubleshoot-procurementworkflows.md)
-- [Solucionar problemas de pedidos de compra](../procurement/troubleshoot-purchaseorders.md)
-- [Solucionar problemas de precios, descuentos, acuerdos y devoluciones](../procurement/troubleshooting-pricediscountagreements.md)
-- [Solución de problemas de recepción y facturación de productos](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Solucionar problemas de fabricación discreta](../production-control/troubleshoot-discretemanufacturing.md)
-- [Solucionar problemas de picking y embalaje](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Solucionar problemas de fabricación en procesos](../production-control/troubleshoot-processmanufacturing.md)
-- [Solución de problemas de reservas en gestión de almacenes](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Solucionar problemas de pedidos de ventas](../sales-marketing/troubleshooting-sales.md)
-- [Solucionar problemas de presupuestos de venta](../sales-marketing/troubleshooting-salesquotation.md)
-- [Solucionar problemas de actualización y migración a la gestión avanzada de almacenes](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Solucionar problemas de conexión de la aplicación móvil Gestión de almacenes](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Solución de problemas de configuración de almacén](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Solucionar problemas de reabastecimiento de almacenes](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Solucionar problemas de configuración de almacén](../warehousing/troubleshoot-warehouse-setup.md)
-- [Solucionar problemas de trabajo de almacén](../warehousing/troubleshoot-warehouse-work.md)
 - [Clústeres de ubicación](../warehousing/putaway-clusters.md)
 - [Estrategias de reabastecimiento](../warehousing/replenishment-strategies.md)
 - [División del trabajo](../warehousing/work-split.md)

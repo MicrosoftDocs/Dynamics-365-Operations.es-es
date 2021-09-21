@@ -1,8 +1,8 @@
 ---
 title: Configurar períodos de espera
 description: En Microsoft Dynamics 365 Human Resources, los días de espera establecen un hito para usarlo en los planes de beneficios.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e928987a8e25de9c0c5429af1a305ad20b9892d9d3617482ea209af181e3227
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 537ca48e819f047f2095bd5d9337ac7d80e49c5f
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732594"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431074"
 ---
 # <a name="configure-waiting-periods"></a>Configurar períodos de espera
 
@@ -38,7 +38,7 @@ En Microsoft Dynamics 365 Human Resources, los días de espera establecen un hit
    | --- | --- |
    | **Código de espera** | El identificador único para el periodo de espera. |
    | **Descripción** | Una descripción del período de espera. |
-   | **Método de espera** | Seleccione el método de espera apropiado en la lista desplegable de valores. Las opciones son Neto, Mes actual, Trimestre actual, Año actual y Semana actual. |
+   | **Método de espera** | Seleccione el método de espera apropiado en la lista desplegable de valores. Las opciones son **Neto**, **Mes actual**, **Trimestre actual**, **Año actual** y **Semana actual**. |
    | **Meses** | Especifique el número de meses que se desea agregar al método de espera para calcular la fecha de espera. |
    | **Días** | Especifique el número de días que se desea agregar al método de espera para calcular la fecha de espera. |
    | **Día de espera** | Seleccione el día de espera que se desea usar para calcular la fecha de espera. |

@@ -1,5 +1,5 @@
 ---
-title: Establecer la visibilidad de inventario
+title: Instalar el complemento de visibilidad de inventario
 description: Este tema describe cómo instalar el complemento de visibilidad de inventario para Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343593"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474829"
 ---
-# <a name="set-up-inventory-visibility"></a>Establecer la visibilidad de inventario
+# <a name="install-and-set-up-inventory-visibility"></a>Instalar y configurar la visibilidad de inventario
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ Para poder instalar el complemento de visibilidad de inventario, debe completar 
     - `Inventory Visibility Integration.zip` (si la versión de Supply Chain Management que está ejecutando es anterior a la versión 10.0.18)
 
 > [!NOTE]
-> Los países y regiones admitidos actualmente incluyen Canadá (CCA, ECA), Estados Unidos (WUS, EUS), la Unión Europea (NEU, WEU), Reino Unido (SUK, WUK) y Australia (EAU, SEAU). .
+> Los países y regiones admitidos actualmente incluyen Canadá (CCA, ECA), Estados Unidos (WUS, EUS), la Unión Europea (NEU, WEU), Reino Unido (SUK, WUK) y Australia (EAU, SEAU), Japón (EJP, WJP) y Brasil (SBR, SCUS).
 
 Si tiene alguna pregunta sobre estos requisitos previos, comuníquese con el equipo de productos de Visibilidad de inventario.
 
@@ -119,6 +119,9 @@ Después de registrar una solicitud y agregar un secreto de cliente en Azure AD,
 1. Acepte los términos y condiciones seleccionando la casilla de verificación **Términos y condiciones**.
 1. Seleccione **Instalar**. El estado del complemento se muestra como **Instalando**. Cuando se complete la instalación, actualice la página. El estado debería cambiar a **Instalado**.
 
+> [!IMPORTANT]
+> Si tiene más de un entorno LCS, cree una aplicación de Azure AD diferente para cada entorno. Si usa el mismo ID de aplicación y el mismo ID de inquilino para instalar el complemento de visibilidad de inventario para diferentes entornos, se producirá un problema de token para los entornos más antiguos. Solo será válido el último que se instaló.
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Desinstalar el complemento de visibilidad de inventario
 
 Para desinstalar el complemento de visibilidad de inventario, seleccione **Desinstalar** en la página LCS. El proceso de desinstalación finaliza el complemento de visibilidad de inventario, anula el registro del complemento de LCS y elimina los datos temporales almacenados en la caché de datos del complemento de visibilidad de inventario. Sin embargo, los datos de inventario principal que se almacenan en su suscripción de Dataverse no se eliminan.
@@ -133,7 +136,7 @@ Para desinstalar los datos de inventario almacenados en su suscripción de Datav
 
 Después de eliminar estas soluciones, también se eliminarán los datos almacenados en tablas.
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Configurar Supply Chain Management
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Configurar la visibilidad del inventario en Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Implementar el paquete de integración de visibilidad de inventario
 
@@ -153,8 +156,23 @@ Asegúrese de que las siguientes funciones estén activadas en su entorno de Sup
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Configurar integración de Visibilidad de inventario
 
-1. En Supply Chain Management, abra el espacio de trabajo **[Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** y active la caracterísica *Integración de visibilidad de inventario*.
-1. Ir **Gestión del inventario \> Configurar \> Parámetros de integración de visibilidad de inventario** e ingrese la URL del entorno en el que está ejecutando Visibilidad de inventario. Para obtener más información, consulte [Buscar el punto de conexión de servicio](inventory-visibility-power-platform.md#get-service-endpoint).
+Una vez que haya instalado el complemento, prepare su sistema de Supply Chain Management para trabajar con él siguiendo estos pasos.
+
+1. En Supply Chain Management, abra el espacio de trabajo **[Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** y active las caracterísicas siguientes:
+    - *Integración de Visibilidad de inventario*: necesaria.
+    - *Integración de visibilidad de inventario con compensación de reserva* - Recomendado pero opcional. Requiere la versión 10.0.22 o posterior. Para obtener más información, consulte [Reservas de Visibilidad de inventario](inventory-visibility-reservations.md).
+
+1. Vaya a **Gestión del inventario \> Configuración \> Parámetros de integración de Visibilidad de inventario**.
+1. Abra la pestaña **General** y realice los siguientes ajustes:
+    - **Punto final de visibilidad de inventario** - Ingrese la URL del entorno en el que está ejecutando Visibilidad de inventario. Para obtener más información, consulte [Buscar el punto de conexión de servicio](inventory-visibility-configuration.md#get-service-endpoint).
+    - **Número máximo de registros en una sola solicitud** - Establezca el número máximo de registros para incluir en una sola solicitud. Debe ingresar un número entero positivo menor o igual que 1000. El valor predeterminado es 512. Recomendamos encarecidamente mantener el valor predeterminado a menos que haya recibido asesoramiento del soporte técnico de Microsoft o esté seguro de que necesita cambiarlo.
+
+1. Si habilitó la función opcional *Integración de visibilidad de inventario con compensación de reserva*, abra la pestña **Compensación de reserva** y realice los siguientes ajustes:
+    - **Habilitar compensación de reserva** - Ajustado a *Sí* para habilitar esta funcionalidad.
+    - **Modificador de compensación de reserva** - Seleccione el estado de la transacción de inventario que compensará las reservas realizadas en Visibilidad de inventario. Esta configuración determina la etapa de procesamiento del pedido que desencadena las compensaciones. La etapa se rastrea por el estado de la transacción de inventario del pedido. Elija una opción de las siguientes:
+        - *En orden* - Para el estado *En la transacción*, un pedido enviará una solicitud de compensación cuando se cree. La cantidad de compensación será la cantidad del pedido creado.
+        - *Reserva* – Para el estado *Transacción de reserva solicitada*, un pedido enviará una solicitud de compensación cuando esté reservado, recogido, publicado en el albarán o facturado. La solicitud se disparará solo una vez, para el primer paso cuando se produzca el proceso mencionado. La cantidad de compensación será la cantidad a partir de la cual cambió el estado de la transacción de inventario de *En orden* a *Reservado ordenado* (o estado posterior) en la línea de pedido correspondiente.
+
 1. Ir **Gestión del inventario \> Periódico \> Integración de visibilidad de inventario** y habilite el trabajo. Todos los eventos de cambio de inventario de Supply Chain Management ahora se publicarán en Visibilidad de inventario.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

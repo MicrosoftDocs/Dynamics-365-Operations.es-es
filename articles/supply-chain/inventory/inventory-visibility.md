@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344297"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474997"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Información general sobre el complemento de visibilidad de inventario
 
@@ -31,22 +31,20 @@ Como un microservicio que se basa en Microsoft Dataverse, Visibilidad de inventa
 
 Puede integrar Visibilidad de inventario con varios sistemas de terceros estableciendo opciones de configuración para dimensiones de inventario estandarizadas y configurando tipos de transacciones. Visibilidad de inventario también admite la extensibilidad personalizada a través de cantidades calculadas configurables.
 
-## <a name="supported-features"></a>Características compatibles
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Integración de Visibilidad de inventario con Dynamics 365 Supply Chain Management
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Integración de Visibilidad de inventario con Dynamics 365 Supply Chain Management
+La solución integrada extrae datos de inventario de Dynamics 365 Supply Chain Management y realiza un seguimiento continuo de los cambios de inventario. Para más información, vea [Instalar y configurar la visibilidad de inventario](inventory-visibility-setup.md) y [Configurar la visibilidad del inventario](inventory-visibility-configuration.md).
 
-La solución integrada extrae datos de inventario de Dynamics 365 Supply Chain Management y realiza un seguimiento continuo de los cambios de inventario. Para obtener más información, consulte [Configurar Visibilidad de inventario](inventory-visibility-setup.md).
+## <a name="get-a-global-view-of-inventory"></a>Obtener una vista global del inventario
 
-### <a name="get-a-global-view-of-inventory"></a>Obtener una vista global del inventario
-
-La solución integrada le permite definir sus propios orígenes de datos y centralizar los datos de inventario. Para obtener más información, consulte [Configuración de Visibilidad de inventario](inventory-visibility-configuration.md).
+La solución integrada le permite definir sus propios orígenes de datos y centralizar los datos de inventario. Para obtener más información, consulte [Configurar la visibilidad de inventario](inventory-visibility-configuration.md).
 
 Hay dos enfoques para ver su inventario:
 
 - Envíe una consulta a través de la API de alto rendimiento. Esta API puede devolver datos de inventario casi en tiempo real directamente desde una instancia almacenada en caché. Puede encontrar contratos y muestras en las [API públicas de Visibilidad de inventario](inventory-visibility-api.md).
 - Vea la lista sin procesar disponible. Esta lista se sincroniza periódicamente desde una instancia en caché y es visible en Dataverse. Para obtener más información, consulte [Aplicación Visibilidad de inventario](inventory-visibility-power-platform.md).
 
-### <a name="soft-reservations"></a>Reservas flexibles
+## <a name="soft-reservations"></a>Reservas flexibles
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

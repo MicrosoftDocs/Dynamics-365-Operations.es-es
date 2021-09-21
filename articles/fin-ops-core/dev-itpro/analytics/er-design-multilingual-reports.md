@@ -2,7 +2,7 @@
 title: Diseñar informes multilingües en informes electrónicos
 description: Este tema explica cómo puede usar las etiquetas de informes electrónicos (ER) para diseñar y generar informes multilingües.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718438"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473414"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Diseñar informes multilingües en informes electrónicos
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Información general
 
@@ -229,10 +231,14 @@ Como se describió anteriormente en este tema, los atributos **Etiqueta** y **De
 - El valor de una etiqueta ER que está vinculada a los atributos **Etiqueta** se almacena en el campo **Etiqueta** del registro devuelto.
 - El valor de una etiqueta ER que está vinculada a los atributos **Descripción** se almacena en el campo **Descripción** del registro devuelto.
 
+## <a name="performance"></a><a name=performance></a>Rendimiento
+
+Cuando configura un componente de formato ER para generar un informe en su preferencia de [idioma](#language), o para importar un documento entrante donde el contenido se analiza en su idioma preferido, le recomendamos que habilite la función **Almacene en caché el idioma preferido del usuario actual para las ejecuciones de ER** en el espacio de trabajo [Gestión de funciones](../../fin-ops/get-started/feature-management/feature-management-overview.md). Esta función ayuda a mejorar el rendimiento, especialmente para los componentes de formato ER que contienen múltiples referencias a etiquetas en fórmulas y enlaces ER y muchas reglas de [validación](general-electronic-reporting-formula-designer.md#TestFormula) para generar mensajes de usuario en su idioma preferido.
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Visión general de los informes electrónicos](general-electronic-reporting.md)
-- [Funciones de informes electrónicos](er-formula-language.md#functions)
+- [Funciones de informes electrónicos](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

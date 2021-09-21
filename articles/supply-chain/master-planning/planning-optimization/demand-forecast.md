@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778685"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474853"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planificación maestra con previsiones de demanda
 
@@ -137,32 +137,85 @@ En este caso, si ejecuta la programación de previsión el 1 de enero, los requi
 
 #### <a name="transactions--reduction-key"></a>Transacciones – clave de reducción
 
-Si seleccionó **Transacciones - clave de reducción**, los requisitos de previsión se reducen mediante las transacciones que se producen durante los períodos definidos por la clave de reducción.
+Si configura el campo **Método utilizado para reducir los requisitos de previsión** en *Transacciones - clave de reducción*, los requisitos de pronóstico se reducen por las transacciones de demanda calificadas que se producen durante los períodos definidos por la clave de reducción.
+
+La demanda calificada está definida por el campo **Reducir el pronóstico en** en la página **Grupos de cobertura**. Si configura el campo **Reducir el pronóstico en** a *Pedidos*, solo las transacciones de órdenes de venta se consideran demanda calificada. Si lo configura en *Todas las transacciones*, cualquier transacción de inventario de emisión no intercompañía se considera demanda calificada. Si se deben considerarse demanda cualificada los pedidos de ventas de empresas vinculadas, establezca la opción **Incluir pedidos de empresas vinculadas** en *Sí*.
+
+La reducción del pronóstico comienza con el primer registro de pronóstico de demanda (el más temprano) en el período clave de reducción. Si la cantidad de transacciones de inventario calificadas es mayor que la cantidad de líneas de previsión de demanda en el mismo período clave de reducción, el saldo de la cantidad de transacciones de inventario se utilizará para reducir la cantidad de previsión de demanda en el período anterior (si hay una previsión no consumida).
+
+Si no queda ningún pronóstico no consumido en el período clave de reducción anterior, el saldo de la cantidad de transacciones de inventario se utilizará para reducir la cantidad pronosticada en el mes siguiente (si hay un pronóstico no consumido).
+
+El valor del campo **Por ciento** en las líneas clave de reducción no se utiliza cuando el campo **Método utilizado para reducir los requisitos de previsión** está configurado en *Transacciones - clave de reducción*. Solo las fechas se utilizan para definir el período clave de reducción.
+
+> [!NOTE]
+> Cualquier pronóstico que se publique en o antes de la fecha de hoy se ignorará y no se utilizará para crear pedidos planificados. Por ejemplo, si su pronóstico de demanda para el mes se genera el 1 de enero y ejecuta una planificación maestra que incluye el pronóstico de demanda el 2 de enero, el cálculo ignorará la línea de pronóstico de demanda con fecha del 1 de enero.
 
 ##### <a name="example-transactions--reduction-key"></a>Ejemplo: Transacciones - clave de reducción
 
 Este ejemplo muestra cómo los pedidos reales, que se producen en períodos definidos por la clave de reducción, reducen los requisitos de previsión de la demanda.
 
-Para este ejemplo seleccione **Transacciones - clave de reducción** , en el campo **Método utilizado para reducir los requisitos de previsión** , de la página **Planes maestros**.
+[![Órdenes reales y previsión antes de ejecutar la planificación maestra.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-Los siguientes pedidos de ventas existen el 1 de enero.
+Para este ejemplo seleccione *Transacciones - clave de reducción* , en el campo **Método utilizado para reducir los requisitos de previsión** , de la página **Planes maestros**.
 
-| Mes    | Número de piezas solicitadas |
-|----------|--------------------------|
-| Enero  | 956                      |
-| Febrero | 1.176                    |
-| Marzo    | 451                      |
-| Abril    | 119                      |
+Las siguientes líneas de pronóstico de demanda existen el 1 de abril.
 
-Si utiliza la misma previsión de la demanda de 1000 piezas por mes que se usó en el ejemplo anterior, las siguientes cantidades de requisitos se transfieren al plan maestro.
+| Fecha     | Número de piezas previsto |
+|----------|-----------------------------|
+| 5 de abril  | 100                         |
+| 12 de abril | 100                         |
+| 19 de abril | 100                         |
+| 26 de abril | 100                         |
+| mayo de 3    | 100                         |
+| mayo de 10   | 100                         |
+| mayo de 17   | 100                         |
 
-| Mes                | Número de piezas requeridas |
-|----------------------|---------------------------|
-| Enero              | 44                        |
-| Febrero             | 0                         |
-| Marzo                | 549                       |
-| Abril                | 881                       |
-| De mayo a diciembre | 1.000                     |
+Las siguientes líneas de órdenes de venta existen en abril.
+
+| Fecha     | Número de piezas solicitadas |
+|----------|----------------------------|
+| 27 de abril | 240                        |
+
+[![Suministro planificado generado en base a los pedidos de abril.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+Las siguientes cantidades necesarias se transfieren al plan maestro cuando se ejecuta la planificación maestra el 1 de abril. Como puede ver, las transacciones de pronóstico de abril se redujeron en la cantidad de demanda de 240 en una secuencia, comenzando por la primera de esas transacciones.
+
+| Fecha     | Número de piezas requeridas |
+|----------|---------------------------|
+| 5 de abril  | 0                         |
+| 12 de abril | 0                         |
+| 19 de abril | 60                        |
+| 26 de abril | 100                       |
+| 27 de abril | 240                       |
+| mayo de 3    | 100                       |
+| mayo de 10   | 100                       |
+| mayo de 17   | 100                       |
+
+Ahora, suponga que se importaron nuevos pedidos para el período de mayo.
+
+Las siguientes líneas de órdenes de venta existen en mayo.
+
+| Fecha   | Número de piezas solicitadas |
+|--------|----------------------------|
+| mayo de 4  | 80                         |
+| mayo de 11 | 130                        |
+
+[![Suministro planificado generado en base a los pedidos de abril y mayo.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+Las siguientes cantidades necesarias se transfieren al plan maestro cuando se ejecuta la planificación maestra el 1 de abril. Como puede ver, las transacciones de pronóstico de abril se redujeron en la cantidad de demanda de 240 en una secuencia, comenzando por la primera de esas transacciones. Sin embargo, las transacciones de pronóstico de mayo se redujeron en un total de 210, a partir de la primera transacción de pronóstico de demanda en mayo. Sin embargo, se conservan los totales por período (400 en abril y 300 en mayo).
+
+| Fecha     | Número de piezas requeridas |
+|----------|---------------------------|
+| 5 de abril  | 0                         |
+| 12 de abril | 0                         |
+| 19 de abril | 60                        |
+| 26 de abril | 100                       |
+| 27 de abril | 240                       |
+| mayo de 3    | 0                         |
+| mayo de 4    | 80                        |
+| mayo de 10   | 0                         |
+| mayo de 11   | 130                       |
+| mayo de 17   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Transacciones – período dinámico
 

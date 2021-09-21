@@ -2,7 +2,7 @@
 title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774418"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463641"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -32,7 +32,29 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Aviso de desactivación de funciones a partir de mayo de 2021
+## <a name="feature-deprecation-effective-august-2021"></a>Aviso de desactivación de funciones a partir de agosto de 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Informes de Microsoft Azure SQL en LifeCycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Estamos desaprobando algunos informes SQL en LCS. Ya no necesitará monitorear los informes ya que esta función ha sido reemplazada por otros servicios. |
+| **¿Reemplazado por otra característica?**   | N.º |
+| **Áreas de producto afectadas**         | Informes SQL: DTU actual, Detalles de DTU actual, Obtener detalles de bloqueo, Lista de la guía del plan actual, Obtener la lista de ID de consulta, Obtener el plan de consulta SQL para un ID de plan determinado, Obtener planes de consulta y estado de ejecución, Obtener configuración de aceleración, Obtener espera estadísticas, enumera las consultas más caras |
+| **Opción de implementación**              | Implementación en la nube: afecta a los entornos de producción administrados por Microsoft y a los entornos sandbox de nivel 2 a 5. |
+| **Estado**                         | En desuso: fecha de eliminación planificada en octubre de 2021. |
+
+### <a name="azure-sql-actions-in-lcs"></a>Acciones de Azure SQL en LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Estamos desaprobando algunas acciones de SQL en LCS.  |
+| **¿Reemplazado por otra característica?**   | N.º |
+| **Áreas de producto afectadas**         | Acciones de SQL: crear una guía de plan para forzar la identificación del plan, crear una guía de plan para agregar sugerencias de tabla, quitar la guía de plan, deshabilitar / habilitar bloqueos de página y bloquear escalamiento, actualizar estadísticas en una tabla, reconstruir índice, crear índice |
+| **Opción de implementación**              | Implementación en la nube: afecta a los entornos de producción administrados por Microsoft y a los entornos sandbox de nivel 2 a 5. |
+| **Estado**                         | En desuso: fecha de eliminación planificada en octubre de 2021. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Aviso de desactivación de funciones a partir de mayo de 2021
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Portal de globalización en Lifecycle Services (LCS)
 

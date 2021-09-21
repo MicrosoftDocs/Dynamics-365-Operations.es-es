@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2112c87912a1d130017c5804c4193b62c1e5a476be79bfd485640ec98b42f77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a50c09dc9fd8a4c18bbd01c70338279ac0ad9ae6
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730908"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473534"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Sincronizar clasificaciones de producto en Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo sincronizar las clasificaciones de productos en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Para consumir clasificaciones de productos en omnicanales, como en punto de venta (PDV) y en centros de llamadas, las clasificaciones de productos del servicio de clasificaciones y revisiones deben importarse en la base de datos de canal de Commerce. Cuando las clasificaciones de productos se vuelven disponibles en omnicanales, pueden ayudar a los clientes indirectamente durante sus interacciones con socios de ventas.
 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416189"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481324"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sincronizar a petición con el motor de precios de Supply Chain Management
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Supply Chain Management incluye un motor de precios que g
     + Impuestos totales
     + Importe total
     
-5. Para garantizar que el sistema considera los acuerdos comerciales y de ventas para calcular el precio:
+5. Para garantizar que el sistema considera los acuerdos comerciales para calcular el precio:
     1. Navegue a su entorno de Supply Chain Management.
     2. Navegue a **Clientes \> Configuración \> Parámetros de clientes**.
     3. Seleccione la pestaña **Precios** en la barra de navegación lateral.
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management incluye un motor de precios que g
 
 Cuando selecciona **Precio del pedido** en Sales, la función **Totales** en la pestaña **Pedido de ventas \> Ver** en Supply Chain Management se llama para el pedido de ventas asociado. Los valores en el total del pedido en Sales se utilizan para completar las columnas correspondientes en Supply Chain Management.
 
-Cuando se calcula el total del pedido de ventas en Supply Chain Management, el cálculo evalúa los acuerdos comerciales existentes y los acuerdos de ventas para el cliente y los productos que figuran en el pedido de ventas. Esta información se usa para calcular los totales. Cuando **Precio del pedido** está seleccionado, Sales refleja automáticamente toda la configuración que se ha realizado en Supply Chain Management.
+Cuando se calcula el total del pedido de ventas en Supply Chain Management, el cálculo evalúa los acuerdos comerciales existentes para el cliente y los productos que figuran en el pedido de ventas. Esta información se usa para calcular los totales. Cuando **Precio del pedido** está seleccionado, Sales refleja automáticamente toda la configuración que se ha realizado en Supply Chain Management.
 
 ## <a name="limitations"></a>Limitaciones
 

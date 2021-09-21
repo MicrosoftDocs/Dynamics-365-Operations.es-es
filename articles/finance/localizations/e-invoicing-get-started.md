@@ -2,7 +2,7 @@
 title: Comenzar con la facturación electrónica
 description: Este tema proporciona información que le ayudará a comenzar con la facturación electrónica en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732990"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463849"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Comenzar con la facturación electrónica
 
@@ -43,11 +43,11 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 2. En el espacio de trabajo **Características de globalización**, en la sección **Características**, seleccione el mosaico **Facturación electrónica**.
 3. Seleccione **Importar** y, a continuación, **Sincronizar**.
 4. Filtre la columna **Proveedor de configuración** por el término **Microsoft**.
-5. Seleccione el nombre de una característica de facturación electrónica de la tabla al principio de este tema y luego seleccione **Importar**.
+5. Seleccione el nombre de una función de facturación electrónica de la tabla y luego seleccione **Importar**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Crear una característica de facturación electrónica para su proveedor de organización
 
-1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
+1. En RCS, en la sección **Características** del espacio de trabajo **Características de globalización**, seleccione el mosaico **Facturación electrónica**.
 2. Seleccione **Añadir** > **Basado en una característica existente**, y en el campo **Nombre**, introduzca el nombre de la característica de facturación electrónica.
 3. En el campo **Descripción**, introduzca una descripción de la característica.
 4. En el **Campo de característica base**, seleccione la característica de facturación electrónica importada del proveedor de configuración de Microsoft.
@@ -113,7 +113,7 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
     | Factura electrónica para España (ES)      | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
     | Factura electrónica PEPPOL            | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
 
-7. Seleccione e introduzca un valor de contexto para cada nombre de tabla que cree, de acuerdo con la siguiente tabla.
+6. Seleccione e introduzca un valor de contexto para cada nombre de tabla que cree, de acuerdo con la siguiente tabla.
 
     | Nombre de característica                         | Documento empresarial | Contexto |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
     | Factura electrónica para España (ES)      | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
     | Factura electrónica PEPPOL            | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
 
-8. Para cada nombre de tabla y contexto, seleccione e introduzca un valor de asignación de documento empresarial de acuerdo con la siguiente tabla.
+7. Para cada nombre de tabla y contexto, seleccione e introduzca un valor de asignación de documento empresarial de acuerdo con la siguiente tabla.
 
     | Nombre de característica                         | Documento empresarial | Asignación de documentos empresariales |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Implementar la característica de facturación electrónica en aplicaciones conectadas
 
 1. En la pestaña **Versiones**, seleccione una versión de la característica de facturación electrónica que desea implementar.
-4. Seleccione **Implementar**.
-5. Seleccione la opción **Implementar en la aplicación conectada** en **Sí**.
-6. En el campo **Conectar aplicación**, seleccione la conexión que está asociada con su instancia de Finance o Supply Chain Management.
-7. Establezca la opción **Implementar en entorno de servicio** en **No**.
-10. Seleccione **Aceptar**.
+2. Seleccione **Implementar**.
+3. Seleccione la opción **Implementar en la aplicación conectada** en **Sí**.
+4. En el campo **Conectar aplicación**, seleccione la conexión que está asociada con su instancia de Finance o Supply Chain Management.
+5. Establezca la opción **Implementar en entorno de servicio** en **No**.
+6. Seleccione **Aceptar**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Active la característica de facturación electrónica en Finance o Supply Chain Management
 
@@ -213,7 +213,7 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
 ## <a name="issue-electronic-invoices"></a>Emitir facturas electrónicas
 
 1. Vaya a **Administración de la organización** \> **Periódico** \> **Documentos electrónicos** \> **Enviar documentos electrónicos**.
-2. En la ficha desplegable **Registro a incluir**, seleccione **Filtro**.
+2. En la ficha desplegable **Registros a incluir**, seleccione **Filtro**.
 3. Seleccione **Añadir** para agregar un nombre de tabla al filtro de consulta.
 4. Seleccione la tabla que contiene las facturas.
 

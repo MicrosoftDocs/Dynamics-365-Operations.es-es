@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393532"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441174"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -43,6 +43,11 @@ Para poder aprovisionar un nuevo entorno de producción, deben cumplirse los sig
 Antes de aprovisionar su primer entorno de pruebas o producción, es posible que desee aprovisionar un [Entorno de prueba de recursos humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) para validar la funcionalidad de Recursos Humanos. Los entornos de prueba contienen datos ficticios que se pueden usar para explorar el programa de forma segura. Aunque un entorno de prueba es propiedad del usuario que lo solicitó, se puede invitar a otros usuarios a través de la experiencia de administración del sistema para Human Resources. 
 
 Los entornos de prueba no están destinados para su uso como entornos de producción. Están limitados a un período de prueba de 60 días. Cuando expira el período de prueba, el entorno y todos los datos que contiene se eliminan y no se pueden recuperar. El entorno no se puede convertir en un entorno de pruebas o de producción. Puede registrarse para obtener un nuevo entorno de prueba una vez que caduque el entorno existente.
+
+Al crear un entorno de prueba de Recursos Humanos, también se crea un entorno de prueba de Power Apps en el inquilino y se vincula con el entorno de Human Resources. El entorno de Power Apps, denominado "TestDrive", tiene el mismo período de prueba que el entorno de Human Resources.
+
+> [!NOTE]
+> El aprovisionamiento de un entorno de prueba de Human Resources fallará si el usuario autenticado no tiene permiso para crear entornos de prueba de Power Apps. El usuario debe estar incluido en el grupo de usuarios que puede crear entornos de prueba en el centro de administración de Power Platform. Para más información, vea [Controle quién puede crear y gestionar entornos en el centro de administración de Power Platform](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Planificar entornos de Human Resources
 
@@ -69,7 +74,7 @@ Para usar LCS para administrar sus entornos de Human Resources, primero debe cre
 1. Inicie sesión en [LCS](https://lcs.dynamics.com/Logon/Index) mediante la cuenta que ha utilizado para suscribirse a Human Resources.
 
    > [!NOTE]
-   > Para garantizar un aprovisionamiento exitoso, la cuenta que utiliza para aprovisionar el entorno de Recursos Humanos debe asignarse al rol de **Administrador de sistema** o **Personalizador del sistema** en el entorno de Power Apps asociado al entorno de Recursos Humanos. Vea [Configurar la seguridad del usuario para los recursos](/power-platform/admin/database-security) para obtener más información sobre la asignación de roles de seguridad a los usuarios en Power Platform.
+   > Para garantizar un aprovisionamiento exitoso, la cuenta que utiliza para aprovisionar el entorno de Recursos Humanos debe asignarse al rol de **Administrador de sistema** o **Personalizador del sistema** en el entorno de Power Apps asociado al entorno de Recursos Humanos. Para más información sobre cómo asignar roles de seguridad a los usuarios en Power Platform, vea [Configurar la seguridad de usuario para los recursos](/power-platform/admin/database-security).
 
 2. Seleccione el signo más (**+**) para crear un proyecto.
 

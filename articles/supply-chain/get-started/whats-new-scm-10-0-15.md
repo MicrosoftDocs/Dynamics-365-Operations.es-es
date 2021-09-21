@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da097f99eda239377b56e9ad35f658b3b408b5d588d82e0ec2759e6fbe72b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751155"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471821"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.15 (enero de 2021)
 
@@ -35,7 +35,7 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 
 En esta versión se incluyen las siguientes características. Siga los vínculos al [plan de lanzamiento](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) para ver las fechas de lanzamiento oficiales de cada característica.
 
-- Gestión de unidades de escala en la nube y en el borde con cargas de trabajo de ejecución de fabricación y almacenamiento<br> - Para más información, vea [Unidades de escalado en la nube y en el perímetro para cargas de trabajo de gestión de almacenes y fabricación](../cloud-edge/cloud-edge-landing-page.md).
+- Gestión de unidades de escala en la nube y en el borde con cargas de trabajo de ejecución de fabricación y almacenamiento<br> - Para más información, vea [Escale unidades en una topología híbrida distribuida](../cloud-edge/cloud-edge-landing-page.md).
 
 - [Crear y procesar pedidos de transferencia desde la aplicación de almacén](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Para más información, vea [Crear órdenes de transferencia desde la aplicación Warehouse](../warehousing/create-transfer-order-from-warehouse-app.md).
 

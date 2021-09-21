@@ -1,5 +1,5 @@
 ---
-title: Unidades de escalado en la nube y en el perímetro para cargas de trabajo de gestión de almacenes y fabricación
+title: Unidades de escalado en una topología híbrida distribuida
 description: Este tema proporciona información sobre las unidades de escalado en la nube y en el perímetro para cargas de trabajo de gestión de almacenes y fabricación.
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780683"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471749"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unidades de escalado en la nube y en el perímetro para cargas de trabajo de gestión de almacenes y fabricación
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escalado en una topología híbrida distribuida
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780683"
 >
 > Al habilitar las unidades de escala en la nube y en el borde, se le pedirá que afirme que comprende que algunos datos relacionados con la configuración y el procesamiento de las unidades de escala en la nube y en el borde pueden almacenarse en un centro de datos ubicado en los Estados Unidos. Para obtener más información sobre el procesamiento de datos para unidades de escala de borde y nube, consulte [Procesamiento de datos durante la gestión de unidades de escala](#data-processing-management) sección más adelante en este tema.
 
-## <a name="core-value-proposition-for-scale-units"></a>Propuesta de valor central para unidades de escala
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Propuesta de valor central para una topología híbrida distribuida
 
-Las empresas que trabajan con fabricación y distribución deben poder ejecutar procesos comerciales clave 24 horas al día, 7 días a la semana, sin interrupciones y a gran escala. Las unidades de escala en la nube y en el borde permiten a las empresas ejecutar procesos clave de fabricación y almacenamiento de misión crítica sin interrupciones, incluso cuando se enfrentan a problemas ocasionales de latencia o conectividad de red.
+Las empresas que trabajan con fabricación y distribución deben poder ejecutar procesos comerciales clave 24 horas al día, 7 días a la semana, sin interrupciones y a gran escala. Una topología híbrida distribuida permite a las empresas ejecutar procesos clave de fabricación y almacenamiento de misión crítica sin interrupciones, incluso cuando se enfrentan a problemas ocasionales de latencia o conectividad de red.
 
-Las unidades de escala en la nube y en el borde permiten la distribución de las cargas de trabajo de ejecución de la planta y el almacén entre diferentes entornos. Esta funcionalidad puede ayudar a mejorar el rendimiento, prevenir interrupciones del servicio y maximizar el tiempo de actividad. Las unidades de escala se proporcionan a través de los siguientes complementos para su suscripción a Supply Chain Management:
+Una topología híbrida distribuida introduce el concepto de *unidades de escala*, que permiten la distribución de las cargas de trabajo de ejecución de la planta y el almacén entre diferentes entornos. Esta funcionalidad puede ayudar a mejorar el rendimiento, prevenir interrupciones del servicio y maximizar el tiempo de actividad. Las unidades de escala se proporcionan a través de los siguientes complementos para su suscripción a Supply Chain Management:
 
 - Complemento de unidad de escala de nube para Dynamics 365 Supply Chain Management (*disponible en abril de 2021*)
 - Complemento de unidad de escala de Edge para Dynamics 365 Supply Chain Management (*disponible pronto*)

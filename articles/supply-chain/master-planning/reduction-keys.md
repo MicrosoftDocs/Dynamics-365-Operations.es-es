@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736632"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474781"
 ---
 # <a name="forecast-reduction-keys"></a>Previsión de las claves de reducción
 
@@ -86,7 +86,18 @@ En este caso, si ejecuta la programación de previsión el 1 de enero, los requi
 
 ### <a name="transactions--reduction-key"></a>Transacciones – clave de reducción
 
-Si seleccionó **Transacciones - clave de reducción**, los requisitos de previsión se reducen mediante las transacciones que se producen durante los períodos definidos por la clave de reducción.
+Si configura el campo **Método utilizado para reducir los requisitos de previsión** en *Transacciones - clave de reducción*, los requisitos de pronóstico se reducen por las transacciones de demanda calificadas que se producen durante los períodos definidos por la clave de reducción.
+
+La demanda calificada está definida por el campo **Reducir el pronóstico en** en la página **Grupos de cobertura**. Si configura el campo **Reducir el pronóstico en** a *Pedidos*, solo las transacciones de órdenes de venta se consideran demanda calificada. Si lo configura en *Todas las transacciones*, cualquier transacción de inventario de emisión no intercompañía se considera demanda calificada. Si se deben considerarse demanda cualificada los pedidos de ventas de empresas vinculadas, establezca la opción **Incluir pedidos de empresas vinculadas** en *Sí*.
+
+La reducción del pronóstico comienza con el primer registro de pronóstico de demanda (el más temprano) en el período clave de reducción. Si la cantidad de transacciones de inventario calificadas es mayor que la cantidad de líneas de previsión de demanda en el mismo período clave de reducción, el saldo de la cantidad de transacciones de inventario se utilizará para reducir la cantidad de previsión de demanda en el período anterior (si hay una previsión no consumida).
+
+Si no queda ningún pronóstico no consumido en el período clave de reducción anterior, el saldo de la cantidad de transacciones de inventario se utilizará para reducir la cantidad pronosticada en el mes siguiente (si hay un pronóstico no consumido).
+
+El valor del campo **Por ciento** en las líneas clave de reducción no se utiliza cuando el campo **Método utilizado para reducir los requisitos de previsión** está configurado en *Transacciones - clave de reducción*. Solo las fechas se utilizan para definir el período clave de reducción.
+
+> [!NOTE]
+> Cualquier pronóstico que se publique en o antes de la fecha de hoy se ignorará y no se utilizará para crear pedidos planificados. Por ejemplo, si su pronóstico de demanda para el mes se genera el 1 de enero y ejecuta una planificación maestra que incluye el pronóstico de demanda el 2 de enero, el cálculo ignorará la línea de pronóstico de demanda con fecha del 1 de enero.
 
 #### <a name="example-transactions--reduction-key"></a>Ejemplo: Transacciones - clave de reducción
 

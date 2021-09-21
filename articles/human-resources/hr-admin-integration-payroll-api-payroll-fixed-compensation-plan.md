@@ -2,7 +2,7 @@
 title: Plan de compensación fija con nómina
 description: Este tema proporciona detalles y una consulta de ejemplo para la entidad de plan de compensación fija de nóminas en Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738400"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429247"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Plan de compensación fija con nómina
 
@@ -34,18 +34,27 @@ Nombre físico: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Propiedades
 
-| Propiedad<br>**Nombre físico**<br>**_Tipo_** | Utilizar | Descripción |
+| Propiedad</br>**Nombre físico**</br>**_Tipo_** | Utilizar | Descripción |
 | --- | --- | --- |
-| **Id. de empleado**<br>mshr_fk_employee_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_Employee_id of mshr_payrollemployeeentity entity  | Id. de empleado |
-| **Índice salarial**<br>mshr_payrate<br>*Decimal* | Solo lectura<br>Obligatorio | Tasa de pago definida en el plan de compensación fijo. |
-| **Id. de plan**<br>mshr_planid<br>*Cadena* | Solo lectura<br>Obligatorio |Especifica el plan de compensación.  |
-| **Válido desde**<br>mshr_validfrom<br>*Desplazamineto de fecha y hora* |  Solo lectura<br>Obligatorio |Fecha de inicio de la validez de la compensación fija del empleado.  |
-| **Entidad de plan de compensación fija con nómina**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Obligatorio<br>Generado por el sistema | Valor GUID generado por el sistema para identificar de forma única el plan de compensación. |
-| **Frecuencia de pago**<br>mshr_payfrequency<br>*Cadena* | Solo lectura<br>Obligatorio |La frecuencia con la que se pagará al empleado.  |
-| **Válido hasta**<br>mshr_validto<br>*Desplazamineto de fecha y hora* | Solo lectura <br>Obligatorio | Fecha de finalización de la validez de la compensación fija del empleado. |
-| **Id. de puesto**<br>mshr_positionid<br>*Cadena* | Solo lectura <br>Obligatorio | ID de puesto asociado con el empleado y la inscripción al plan de compensación fija. |
-| **Divisa**<br>mshr_currency<br>*Cadena* | Solo lectura <br>Obligatorio |La moneda definida para el plan de compensación fijo   |
-| **Número de personal**<br>mshr_personnelnumber<br>*Cadena* | Solo lectura<br>Obligatorio |El número de personal exclusivo del empleado.  |
+| **Id. de plan**</br>mshr_planid</br>*Cadena* | Solo lectura | Especifica el plan de compensación.  |
+| **Número de personal**</br>mshr_personnelnumber</br>*Cadena* | Solo lectura | El número de personal exclusivo del empleado. |
+| **Índice salarial**</br>mshr_payrate</br>*Decimal* | Solo lectura | Tasa de pago definida en el plan de compensación fijo. |
+| **Id. de puesto**</br>mshr_positionid</br>*Cadena* | Solo lectura | ID de puesto asociado con el empleado y la inscripción al plan de compensación fija. |
+| **Válido desde**</br>mshr_validfrom</br>*Desplazamineto de fecha y hora* |  Solo lectura | Fecha de inicio de la validez de la compensación fija del empleado.  |
+| **Válido hasta**</br>mshr_validto</br>*Desplazamineto de fecha y hora* | Solo lectura | Fecha de finalización de la validez de la compensación fija del empleado. |
+| **Frecuencia de pago**</br>mshr_payfrequency</br>*Cadena* | Solo lectura | La frecuencia con la que se pagará al empleado.  |
+| **Divisa**</br>mshr_currency</br>*Cadena* | Solo lectura | La moneda definida para el plan de compensación fijo. |
+| **Entidad de plan de compensación fija con nómina**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Generado por el sistema | Valor GUID generado por el sistema para identificar de forma única el plan de compensación. |
+
+## <a name="relations"></a>Relaciones
+
+|Valor de la propiedad | Entidad relacionada | Propiedad de navegación | Tipo de recopilación |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Consulta de ejemplo
 

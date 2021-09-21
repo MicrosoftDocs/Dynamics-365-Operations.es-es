@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760523"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474612"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.17 (abril de 2021)
 
@@ -99,10 +99,6 @@ La mayoría de estas características deben habilitarse mediante la [Administrac
 
 Recientemente hemos agregado o actualizado significativamente los siguientes temas de ayuda. No están necesariamente relacionadas con las nuevas funciones agregadas para esta versión, como se enumeran en la sección anterior, pero pueden ayudarlo a aprovechar más las funciones existentes.
 
-### <a name="cost-management"></a>Gestión de costes
-
-- [Solucionar problemas de la gestión de costes](../cost-management/troubleshoot-costmanagement.md)
-
 ### <a name="asset-management"></a>Administración de activos
 
 - [Configurar el espacio de trabajo móvil de gestión de activos](../asset-management/set-up-asset-management-mobile.md)
@@ -114,8 +110,6 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 - [Recuento cíclico de ubicaciones parcial](../warehousing/partial-location-cycle-counting.md)
 
 - [Picking de agrupación de líneas](../warehousing/pick-line-grouping.md)
-
-- [Solucionar problemas de operaciones de inventario](../inventory/troubleshoot-inventory-operations.md)
 
 - [Slotting de almacén](../warehousing/warehouse-slotting.md)
 

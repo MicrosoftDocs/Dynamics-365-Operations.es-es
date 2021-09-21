@@ -2,7 +2,7 @@
 title: Calcular la disponibilidad de inventario para canales comerciales
 description: Este tema describe cómo una empresa puede usar Microsoft Dynamics 365 Commerce para ver la disponibilidad inmediata estimada de productos en los canales en línea y de la tienda.
 author: hhainesms
-ms.date: 04/23/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: da79aadace09ad480fa34bc03220831023e469645bb7d53af1647bd2d35af0ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741821"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472180"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular la disponibilidad de inventario para canales comerciales
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este tema describe cómo una empresa puede usar Microsoft Dynamics 365 Commerce para ver la disponibilidad inmediata estimada de productos en los canales en línea y de la tienda.
 
@@ -43,6 +44,21 @@ Los siguientes cambios de inventario se consideran actualmente en la lógica de 
 - Inventario vendido a través de pedidos de clientes en la tienda o canal en línea
 - Inventario devuelto a la tienda
 - Inventario cumplimentado (recoger, embalar, enviar) desde el almacén
+
+Para utilizar el cálculo de inventario del lado del canal, debe habilitar la característica **Cálculo optimizado de la disponibilidad del producto**.
+
+Si su entorno de Commerce tiene la versión de la **10.0.8 hasta la 10.0.11**, siga estos pasos.
+
+1. En In Commerce Headquarters, Vaya a **Retail y Commerce** \> **Parámetros compartidos de Commerce**.
+1. En la pestaña **Inventario**, en el campo **Disponibilidad de producto trabajo**, seleccione **Usar el proceso optimizado para el trabajo de disponibilidad del producto**.
+
+Si su entorno de Commerce tiene la versión **10.0.12 o posterior**, siga estos pasos.
+
+1. En Commerce Headquarters, vaya a **Espacios de trabajo \> Administración de caracterísicas** y habilite la característica **Cálculo optimizado de disponibilidad de producto**.
+1. Si sus canales en línea y de tienda utilizan los mismos almacenes de cumplimiento, también debe habilitar la característica **Lógica mejorada de cálculo de inventario del lado del canal de comercio electrónico**. De esa manera, la lógica de cálculo del lado del canal considerará las transacciones no contabilizadas que se crean en el canal de la tienda. (Esas transacciones pueden ser transacciones de efectivo y acarreo, pedidos de clientes y devoluciones).
+1. Ejecute el trabajo **1070** (**Configuración del canal**) .
+
+Si su entorno de Commerce se actualizó desde una versión anterior a la versión 10.0.8 de Commerce, después de habilitar la función **Cálculo optimizado de la disponibilidad del producto**, también debe ejecutar **Inicializar el programador de comercio** para que la función surta efecto. Para ejecutar la inicialziación, vaya a **Retail y Commerce** \> **Configuración de sede central** \> **Programador de Commerce**.
 
 Para utilizar el cálculo de inventario del lado del canal, como requisito previo, una instantánea periódica de los datos de inventario de la sede creada por el trabajo **Disponibilidad de producto** debe enviarse a las bases de datos del canal. La instantánea representa la información que la sede central tiene sobre la disponibilidad de inventario para una combinación específica de un producto o variante de producto y un almacén. Incluye solo las transacciones de inventario que se procesaron y registraron en la sede central en el momento en que se tomó la instantánea, y es posible que no sea 100 % precisa en tiempo real, debido al constante procesamiento de ventas que se produce en los servidores distribuidos.
 
@@ -74,8 +90,6 @@ Commerce proporciona las siguientes API para escenarios de comercio electrónico
 Ambas API utilizan internamente la lógica de cálculo del lado del canal y devuelven estimaciones de cantidades **físicamente disponibles**, la cantidad **total disponible**, la **unidad de medida (UoM)** y el **nivel del inventario** para el producto solicitado y el almacén. Los valores devuelltos se pueden mostrar en su sitio de comercio electrónico si lo desea, o se pueden utilizar para desencadenar otra lógica de negocios en su sitio de comercio electrónico. Por ejemplo, puede evitar la compra de productos con un nivel de inventario "agotado".
 
 Aunque otras API que están disponibles en Commerce pueden ir directamente a la sede central para obtener cantidades disponibles de productos, no recomendamos que se usen en un entorno de comercio electrónico debido a posibles problemas de rendimiento y el impacto relacionado que estas solicitudes frecuentes pueden tener en sus servidores de la sede central. Además, con el cálculo del lado del canal, las dos API mencionadas anteriormente pueden proporcionar una estimación más precisa de la disponibilidad de un producto al tener en cuenta las transacciones creadas en los canales que aún no conoce la sede central.
-
-Para utilizar las dos API, debe habilitar la característica **Cálculo optimizado de disponibilidad de producto** a través del espacio de trabajo **Administración de características** en la sede central. Si sus canales en línea y de tienda utilizan los mismos almacenes de cumplimiento, también debe habilitar la característica **Lógica mejorada de cálculo de inventario del lado del canal de comercio electrónico** para tener la lógica de cálculo del lado del canal dentro de las dos API para tener en cuenta las transacciones no contabilizadas (pago y recogida, pedidos de clientes, devoluciones) creadas en el canal de la tienda. Necesitará ejecutar el trabajo **1070** (**Configuración de canal**) después de habilitar estas funciones.
 
 Para definir cómo se debe devolver la cantidad de producto en la salida de la API, siga estos pasos.
 
@@ -136,6 +150,5 @@ Para garantizar la mejor estimación posible del inventario, es fundamental que 
 > - Por razones de rendimiento, cuando los cálculos de disponibilidad de inventario del lado del canal se utilizan para realizar una solicitud de disponibilidad de inventario utilizando las API de comercio electrónico o la lógica de inventario del lado del canal PDV, el cálculo utiliza una memoria caché para determinar si ha pasado suficiente tiempo para justificar la ejecución de la lógica de cálculo de nuevo. La caché predeterminada está fijada en 60 segundos. Por ejemplo, activó el cálculo del lado del canal para su tienda y vio el inventario disponible de un producto en la página **Búsqueda de inventario**. Si luego se vende una unidad del producto, la página **Búsqueda de inventario** no mostrará el inventario reducido hasta que se haya borrado el caché. Después de que los usuarios publiquen transacciones en PDV, deben esperar 60 segundos antes de verificar que se haya reducido el inventario disponible.
 
 Si su situación empresarial requiere un menor tiempo de caché, póngase en contacto con su representante de soporte de productos para obtener asistencia.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

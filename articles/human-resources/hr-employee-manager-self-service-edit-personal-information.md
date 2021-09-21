@@ -1,8 +1,8 @@
 ---
 title: Editar información personal
 description: Este artículo describe cómo editar información personal en el autoservicio para empleados y gerentes.
-author: andreabichsel
-ms.date: 03/19/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b4537601491c97c24cfa1fef5088cbf1ac276df76534034117161b0fe79dc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715906"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431471"
 ---
 # <a name="edit-personal-information"></a>Editar información personal
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Puede editar su información personal en Dynamics 365 Human Resources en el **Espacio de trabajo de autoservicio para empleados**.
+Puede editar su información personal en Dynamics 365 Human Resources en el espacio de trabajo **Autoservicio para empleados**.
 
 La información personal que puede editar incluye:
 
@@ -40,7 +40,7 @@ La información personal que puede editar incluye:
 >[!NOTE]
 >Es posible que no pueda editar ciertos tipos de información personal, como los datos de contacto de la empresa. Para más información, vea [Restringir la edición de información personal](hr-employee-self-service-restrict-editing.md).
 
-Los parámetros establecidos en la libreta de direcciones global determinan los roles que pueden ver su información personal.
+Los parámetros establecidos en la página **Parámetros de libreta de direcciones global** determinan los roles que pueden ver su información personal.
 
 1. En Human Resources, seleccione **Autoservicio para los empleados**.
 

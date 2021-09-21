@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753489"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463598"
 ---
 # <a name="reverse-journal-posting"></a>Invertir diario de registro
 
@@ -28,13 +28,17 @@ ms.locfileid: "6753489"
 
 Este tema describe las capacidades de Microsoft Dynamics 365 Finance que permiten que invierta el diario entero o que invierta uno o varios asientos de la transacción de asiento enumerada independientemente de su origen. 
 
+Antes de poder usar una de las funciones que se describen en este tema, debe activarlas en su sistema. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+ - Módulo: Contabilidad general
+ - Nombre de la función: **Reversiones masivas para varios documentos**
+
 ## <a name="reversing-journals"></a>Invertir los diarios
 
 Puede invertir las líneas de diario de forma individual. Con el registro de invertir diario, también puede invertir un diario financiero completo. Para invertir un diario: 
 
-- Abra el diario y filtre según los diarios registrados.
+- Filtre las revistas publicadas y abra la vista **Líneas** en la revista.
 - Haga clic en el menú **Invertir** en la parte superior de la página.
-- Verá el número total de asientos y las líneas de asiento junto con el importe total de las líneas que son invertidas
+- Verá el número total de asientos y las líneas de asiento junto con el importe total de las líneas que son invertidas.
 - Seleccione **Sí** para usar las fechas de transacción actuales o **No** para introducir una nueva. En algunos casos, el período de la transacción original puede estar cerrado y usted tiene que especificar una nueva fecha de transacción para la inversión.
 - Si selecciona **No**, especifique una fecha de transacción para la inversión. 
 - Escriba un comentario que desee agregar a la transacción de inversión.
@@ -52,8 +56,8 @@ También puede invertir los asientos de la **Lista de la transacción de asiento
 
 Para invertir uno o varios asientos: 
 
-- Haga clic en el menú **Invertir** en la parte superior de la página.
-- Verá el número total de asientos y las líneas de asiento junto con el importe total de las líneas que son invertidas.
+- Seleccione el menú desplegable **Invertir el diario completo** en la parte superior de la página.
+- Se muestra el número total de asientos y las líneas de asiento junto con el importe total de las líneas que son invertidas.
 - Seleccione **Sí** para usar las fechas de transacción actuales o **No** para introducir una nueva. En algunos casos, el período de la transacción original puede estar cerrado y usted tiene que especificar una nueva fecha de transacción para la inversión.
 - Si selecciona **No**, especifique una fecha de transacción para la inversión. 
 - Escriba un comentario para describir la transacción de inversión.

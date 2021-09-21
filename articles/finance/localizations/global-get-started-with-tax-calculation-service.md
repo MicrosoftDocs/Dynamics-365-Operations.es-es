@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394521"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465086"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introducción al cálculo de impuestos
 
@@ -49,13 +49,9 @@ Para un entorno de producción, se deben cumplir los siguientes requisitos previ
 - Debe crear un entorno de RCS para su organización y debe tener acceso a su cuenta. Para obtener más información sobre cómo crear un entorno de RCS, consulte [Información general de Regulatory Configuration Service](rcs-overview.md).
 - Las siguientes funcionalidades deben estar activadas en el espacio de trabajo **Administración de características** de su entorno implementado de Finance o Supply Chain Management, según las necesidades de su negocio:
 
-    - Cálculo de impuestos
+    - Servicio de cálculo de impuestos
     - Admitir varios números de registro de IVA
     - Impuesto en el pedido de transferencia
-    - Transferencia de lista de ventas de la UE basada en transacciones de impuestos únicamente
-    - Informes de Intrastat por múltiples id. de impuestos
-    - Informes de listas de ventas de la UE por múltiples id. de impuestos
-    - Declaración de impuestos por múltiples id. de impuestos
 
 - Las siguientes funcionalidades deben estar activadas en el espacio de trabajo **Administración de características** de su entorno de RCS implementado.
 
@@ -65,18 +61,14 @@ Para un entorno de producción, se deben cumplir los siguientes requisitos previ
 
 Para un entorno de prueba, se deben cumplir los siguientes requisitos previos:
 
-- Debe tener acceso a su cuenta de LCS y haber implementado un proyecto de LCS que tenga un entorno de Nivel 2 (o superior) que ejecute la versión 10.0.18 de Dynamics 365 con KB4616360 o una versión posterior.
+- Debe tener acceso a su cuenta de LCS y haber implementado un proyecto de LCS que tenga un entorno de Nivel 2 (o superior) que ejecute la versión 10.0.21 de Dynamics 365 o una versión posterior.
 - Debe crear un entorno de RCS para su organización y debe tener acceso a su cuenta. Para obtener más información sobre cómo crear un entorno de RCS, consulte [Información general de Regulatory Configuration Service](rcs-overview.md).
 - Debe haberse puesto en contacto con Microsoft, enviando un correo electrónico a <taxcalc@microsoft.com>, para habilitar la distribución de paquetes piloto en su entorno implementado de Finance o Supply Chain Management.
 - Las siguientes funcionalidades deben estar activadas en el espacio de trabajo **Administración de características** de su entorno implementado de Finance o Supply Chain Management, según las necesidades de su negocio:
 
-    - Cálculo de impuestos
+    - Servicio de cálculo de impuestos
     - Admitir varios números de registro de IVA
     - Impuesto en el pedido de transferencia
-    - Transferencia de lista de ventas de la UE basada en transacciones de impuestos únicamente
-    - Informes de Intrastat por múltiples id. de impuestos
-    - Informes de listas de ventas de la UE por múltiples id. de impuestos
-    - Declaración de impuestos por múltiples id. de impuestos
 
 - Las siguientes funcionalidades deben estar activadas en el espacio de trabajo **Administración de características** de su entorno de RCS implementado.
 
@@ -103,12 +95,12 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
 7. Vaya a **Modelo de datos fiscales**, expanda el árbol de archivos y luego seleccione **Configuración fiscal**.
 8. Seleccione la versión de configuración de impuestos correcta, según su versión de Finance, y después seleccione **Importar**.
 
-    | Versión | Configuración de impuestos                       | Asignación de modelos                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Configuración de impuestos - Europa 30.12.82     |                                 |
-    | 10.0.19         | Configuración de Cálculo de impuestos 36.38.193 |                                 |
-    | 10.0.20         | Configuración de Cálculo de impuestos 40.43.208 |                                 |
-    | 10.0.21         | Configuración de Cálculo de impuestos 40.46.212 | Asignación de modelos de Dataverse 40.46.9 |
+    | Versión | Configuración de impuestos                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Configuración de impuestos - Europa 30.12.82     |
+    | 10.0.19         | Configuración de Cálculo de impuestos 36.38.193 |
+    | 10.0.20         | Configuración de Cálculo de impuestos 40.43.208 |
+    | 10.0.21         | Configuración de Cálculo de impuestos 40.46.212 |
 
 9. En el espacio de trabajo **Características de globalización**, seleccione **Características**, elija el icono **Cálculo de impuestos** y finalmente **Agregar**.
 10. Seleccione uno de los siguientes tipos de característica:

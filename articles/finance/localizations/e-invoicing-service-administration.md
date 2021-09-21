@@ -2,7 +2,7 @@
 title: Componentes de administración de facturación electrónica
 description: Este tema proporciona información sobre los componentes relacionados con la administración de la facturación electrónica.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721735"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463890"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Componentes de administración de facturación electrónica
 
@@ -31,14 +31,14 @@ Este tema proporciona información sobre los componentes relacionados con la adm
 
 ## <a name="azure"></a>Azure
 
-Utilice Microsoft Azure para crear los secretos para el Key Vault y la cuenta de almacenamiento. Luego, utilice los secretos de la configuración de la facturación electrónica.
+Utilice Microsoft Azure para crear los secretos para el almacén de claves y la cuenta de almacenamiento. Luego, use los secretos del almacén de claves y el token SAS de la cuenta de almacenamiento en la configuración de la facturación electrónica.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-Utilice Microsoft Dynamics Lifecycle Services (LCS) para habilitar los microservicios para su proyecto de implementación de LCS.
+Utilice Microsoft Dynamics Lifecycle Services (LCS) para habilitar el complemento de facturación electrónica para su proyecto de implementación de LCS.
 
 > [!NOTE]
-> La instalación del microservicio en LCS requiere al menos una máquina virtual de nivel 2. Para obtener más información sobre planificación de ambientes, consulte [Planificación de ambientes](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+> La instalación de los complementos en LCS requiere al menos **un entorno de nivel 2**. Para obtener más información sobre planificación de ambientes, consulte [Planificación de ambientes](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
  
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
@@ -53,20 +53,21 @@ Para más información sobre RCS, consulte [Regulatory Configuration Services (R
 
 Antes de poder utilizar RCS para configurar facturas electrónicas, debe configurar RCS para permitir la comunicación con la facturación electrónica. Puede completar esta configuración en la pestaña **Facturación electrónica** de la página **Parámetros de informes electrónicos**.
 
-#### <a name="service-endpoint"></a>Extremo del servicio
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>Extremo del servicio
 
 La facturación electrónica está disponible en diversas geografías de centros de datos de Azure. La siguiente tabla enumera la disponibilidad por región.
 
-| Geografía de centros de datos de Azure |
-|----------------------------|
-| Estados Unidos              |
-| Europa                     |
-| Reino Unido             |
-| Asia                       |
+
+| Geografía de centros de datos de Azure | Identificador URI de extremo de servicio                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| Estados Unidos              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| Europa                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Reino Unido             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Asia                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>Entornos de servicio
 
-Los entornos de servicio son particiones lógicas que se crean para respaldar la ejecución de las características de facturación electrónica en la facturación electrónica. Los secretos de seguridad y los certificados digitales, y la gobernanza (es decir, los permisos de acceso), deben configurarse en el nivel del entorno de servicio.
+Los entornos de servicio son particiones lógicas que se crean para respaldar la ejecución de las características de globalización de la facturación electrónica. Los secretos de seguridad y los certificados digitales, y la gobernanza (es decir, los permisos de acceso), deben configurarse en el nivel del entorno de servicio.
 
 Los clientes pueden crear tantos entornos de servicio como deseen. Todos los entornos de servicio que crea un cliente son independientes entre sí.
 
@@ -84,8 +85,8 @@ Los entornos de servicio se pueden gestionar a través del estado. Las posibles 
 
 El servicio de facturación electrónica es responsable de almacenar todos sus datos comerciales en los recursos de Azure que son propiedad de su empresa. Para asegurarse de que el servicio funcione correctamente y de que solo la facturación electrónica acceda a todos los datos comerciales necesarios y generados por ella, debe crear dos recursos principales de Azure:
 
-- Una cuenta de almacenamiento de Azure (Blob Storage) que almacenará facturas electrónicas
-- Un Azure Key Vault que almacenará certificados y el identificador uniforme de recursos (URI) de la cuenta de almacenamiento
+- Una cuenta de almacenamiento de Azure (Blob Storage) que almacenará documentos electrónicos, incluidas facturas electrónicas, resultados de transformaciones de documentos y respuestas de servicios web externos.
+- Un Azure Key Vault que almacenará certificados y el identificador uniforme de recursos (URI) de la cuenta de almacenamiento (token SAS).
 
 
 Se debe asignar un Key Vault dedicado y una cuenta de almacenamiento de cliente específicamente para su uso con la facturación electrónica. Para más información, consulte [Crear una cuenta de almacenamiento de Azure y un Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -122,13 +123,13 @@ Para habilitar la comunicación entre Finance y Supply Chain Management y la fac
 
 El punto de conexión de servicio es la URL donde se encuentra la facturación electrónica. Antes de poder emitir facturas electrónicas, el punto de conexión de servicio debe configurarse en Finance y Supply Chain Management para permitir la comunicación con el servicio.
 
-Para configurar el punto de conexión de servicio, vaya a **Administración de la organización \> Configurar \> Parámetro de documento electrónico** y luego, en la pestaña **Servicios de envío**, en el campo **URL de facturación electrónica**, introduzca la URL como se describe en la sección **Punto de conexión de servicio**.
+Para configurar el punto de conexión de servicio, vaya a **Administración de la organización \> Preparar \> Parámetros de documento electrónico** y luego, en la pestaña **Facturación electrónica**, en el campo **URL de putno de conexión**, introduzca la URL apropiada de la tabla en la sección [Punto de conexión de servicio](#svc-endpoint-uris) anterior en este tema.
 
 #### <a name="environments"></a>Entornos
 
 El nombre del entorno que se introduce en Finance y Supply Chain Management hace referencia al nombre del entorno que se crea en RCS y se publica en la facturación electrónica.
 
-El ambiente debe configurarse en la pestaña **Servicios de envío** de la página **Parámetro de documento electrónico**, de modo que cada solicitud para emitir facturas electrónicas contenga el ambiente donde la facturación electrónica pueda determinar qué característica de facturación electrónica debe procesar la solicitud.
+El entorno debe configurarse en la pestaña **Facturación electrónica** de la página **Parámetros de documentos electrónicos**. De esa manera, cada solicitud para emitir facturas electrónicas contiene el entorno donde la facturación electrónica puede determinar qué función de facturación electrónica debe procesar la solicitud.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
