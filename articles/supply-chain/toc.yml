@@ -80,8 +80,6 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (junio de 2021)
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: Características quitadas o en desuso
                   items:
                     - name: Página de inicio de características quitadas o en desuso
@@ -1669,7 +1667,9 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Programación con capacidad infinita
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Marcado de inventario con optimización de planificación
+                - name: Programación con selección de recursos según la capacidad
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: Marcado de inventario con Optimización de planificación
                   href: master-planning/planning-optimization/marking.md
                 - name: Planificación de empresas vinculadas
                   href: master-planning/planning-optimization/Intercompany-planning.md
@@ -2013,13 +2013,15 @@
                   href: procurement/purchase-requisitions-workflow.md
             - name: Solicitud de presupuestos (RFQ)
               items:
-                - name: Información general de las solicitudes de presupuestos
+                - name: Información general de solicitudes de presupuestos (RFQ)
                   href: procurement/request-quotations.md
                 - name: Crear una solicitud de presupuesto
                   href: procurement/tasks/create-request-quotation.md
+                - name: Oferta cerrada para solicitudes de presupuesto
+                  href: procurement/sealed-bidding.md
                 - name: Crear una solicitud que utilice una solicitud de presupuesto
                   href: procurement/tasks/create-requisition-uses-rfq.md
-                - name: Crear un método de puntuación para solicitudes de presupuesto
+                - name: Crear un método de puntuación para solicitudes de presupuestos
                   href: procurement/tasks/create-scoring-method-rfqs.md
                 - name: Crear tipos de solicitud y criterios de puntuación para solicitudes de presupuesto
                   href: procurement/tasks/create-solicitation-types-scoring-criteria-rfqs.md

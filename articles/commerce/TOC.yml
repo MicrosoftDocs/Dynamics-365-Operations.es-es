@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19 (junio de 2021)
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Características quitadas o en desuso
                   items:
                     - name: Página de inicio de características quitadas o en desuso
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Crear acuerdos comerciales mediante reglas de precios de categoría
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Retrasar el cálculo del precio exacto y del descuento
+                  href: delayed-price-calculation.md
             - name: Recomendaciones
               items:
                 - name: Información general de recomendaciones de producto
@@ -1328,6 +1328,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Registrar documentos fiscales de Brasil mediante extractos comerciales en Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: Dynamics 365 Payment Connector para Adyen en Commerce POS para Brasil
+                  href: localizations/latam-bra-adyen.md
             - name: Europa del Este
               items:
                 - name: Común
@@ -2436,7 +2438,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Acciones de datos básicas
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: Llamar a las API de Retail Server
+                    - name: Llamar a las API de Commerce Scale Unit
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: Llamar a las API de extensión de Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Configurar una canalización de compilación para el SDK de empaquetado independiente
                   href: dev-itpro/build-pipeline.md
-                - name: Fusionar los sistemas de compilación para Commerce y Finance and Operations
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: "Migrar el SDK de Retail desde Visual Studio 2015\_a Visual Studio 2017"
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Muestras de extensibilidad de SDK de Retail
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Extensibilidad de Hardware Station
               items:
-                - name: Hardware Station y extensibilidad
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: Integrar PDV con un nuevo dispositivo de hardware
                   href: dev-itpro/hardware-device-extension.md
             - name: Extensibilidad de Retail Server

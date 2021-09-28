@@ -2,7 +2,7 @@
 title: Reasignación de reconocimiento de ingresos
 description: Este tema proporciona información sobre la reasignación, que permite a las organizaciones volver a calcular los precios de los ingresos cuando se modifican los términos de una venta contractual. Incluye vínculos a otros temas que describen cómo reconocer los ingresos en múltiples escenarios.
 author: kweekley
-ms.date: 12/21/2020
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50ae395c370947e348714ce5685123328849966f3a67903e9ddf8c27dee42f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53304842bdbe7dadb435ab3a0381f3835c2c443a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745046"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487027"
 ---
 # <a name="revenue-recognition-reallocation"></a>Reasignación de reconocimiento de ingresos
 
@@ -35,10 +35,22 @@ Su organización debe determinar por sí misma si es necesaria la reasignación.
 Existen algunas limitaciones importantes en el proceso de reasignación:
 
 - El proceso solo se puede ejecutar una vez. Por lo tanto, es importante que lo ejecute solo una vez que han finalizado todos los cambios.
+
+    - Esta limitación se elimina en la versión 10.0.17 y posteriores.
+
 - El proceso no se puede ejecutar en pedidos de ventas de proyectos.
+
+    - Esta limitación se elimina en la versión 10.0.17 y posteriores.
+
 - Si hay varios pedidos de ventas implicados, deben ser para la misma cuenta de cliente.
 - Todos los pedidos de ventas que se reasignan deben estar en la misma divisa de transacción.
 - El proceso no se puede revertir ni deshacer una vez ejecutado.
+
+    - Esta limitación se elimina en la versión 10.0.17 y posteriores.
+
+- La reasignación solo se puede realizar para pedidos de venta o para proyectos de pedidos de venta. No se puede realizar para una combinación de pedidos de venta y pedidos de venta de proyecto.
+
+    - Esta limitación se elimina en la versión 10.0.17 y posteriores.
 
 ## <a name="set-up-reallocation"></a>Configuración de la reasignación
 
@@ -78,7 +90,7 @@ Para iniciar el proceso de reasignación, seleccione **Reasignar precio con nuev
 
 [![Página Reasignar precio con nuevas líneas de pedido.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-La cuadrícula superior de la página **Reasignar precio con nuevas líneas de pedido** se llama **Ventas**. Enumera los pedidos de ventas del cliente. Seleccione los pedidos de ventas que deben reasignarse. No puede seleccionar pedidos de ventas de proyectos, porque estos no se pueden reasignar. Tampoco puede seleccionar pedidos de ventas que ya tengan un identificador de reasignación, porque los pedidos de ventas que no pertenecen al proyecto solo se pueden reasignar una vez. Si un pedido de ventas tiene un identificador de reasignación, ya ha sido marcado para reasignación por otro usuario.
+La cuadrícula superior de la página **Reasignar precio con nuevas líneas de pedido** se llama **Ventas**. Enumera los pedidos de ventas del cliente. Seleccione los pedidos de ventas que deben reasignarse. Si un pedido de ventas tiene un identificador de reasignación, ya se ha marcado para reasignación por otro usuario. Si uno o más pedidos de ventas se reasignaron anteriormente y deben incluirse en otra reasignación, primero se debe deshacer la reasignación de esos pedidos de ventas. Luego se puede incluir en una nueva reasignación. Para obtener información más detallada, consulte las secciones [Deshacer una reasignación](#undo-a-reallocation) y [Reasignar varias veces](#reallocate-multiple-times) más adelante en este tema.
 
 La cuadrícula inferior de la página se llama **Líneas**. Al seleccionar uno o más pedidos de ventas en la cuadrícula **Ventas**, la cuadrícula **Líneas** muestra las líneas correspondientes a esos pedidos. Seleccione las líneas de pedidos de ventas que deben reasignarse. Si seleccionó un solo pedido de ventas, se deben reasignar las líneas del mismo pedido de ventas. Esta situación puede darse cuando una de las líneas se facturó previamente y luego se agregó una nueva línea o se eliminó o canceló una línea existente. Si se eliminó una línea, no aparecerá en la cuadrícula. Por lo tanto, no se puede seleccionar. Sin embargo, aún se tendrá en cuenta cuando se ejecute el proceso de reasignación.
 
@@ -104,6 +116,26 @@ Una vez que haya terminado de seleccionar las líneas de pedido de ventas necesa
 
 - **Restablecer datos para el cliente seleccionado**: si el proceso de reasignación se inició pero no se completó, borra los datos de la tabla de reasignación solo para el cliente seleccionado. Suponga, por ejemplo, que marca varias líneas de pedido de ventas para reasignarlas, deja la página abierta sin seleccionar **Procesar** y se agota el tiempo de espera de la página. En este caso, las líneas de pedido de ventas permanecerán marcadas y no estarán disponibles para que otro usuario complete el proceso de reasignación. La página puede incluso estar en blanco cuando se abre. En este caso, se puede utilizar el botón **Restablecer datos para el cliente seleccionado** para borrar los pedidos de ventas no procesados de modo que otro usuario pueda completar el proceso de reasignación.
 
+## <a name="undo-a-reallocation"></a>Deshacer una reasignación
+
+Una reasignación se deshace ejecutando otra reasignación. La reasignación se vuelve a realizar y el usuario selecciona diferentes líneas de pedidos de venta para incluirlas en el segundo proceso de reasignación.
+
+Si se ha realizado una reasignación en dos o más pedidos de venta independientes, se puede deshacer seleccionando **Reasignar precio con nuevas líneas de pedido** de cualquier pedido de ventas incluido en la reasignación. No puede ir a **Reconocimiento de ingresos \> Tareas periódicas \> Reasignar precio con nuevas líneas de pedido** para deshacer la reasignación, porque la página que se abre de esta manera muestra solo los pedidos de venta que no tienen id. de reasignación. El id. de reasignación se asigna después de que se haya reasignado el documento.
+
+En la página **Reasignar precio con nuevas líneas de pedido**, desmarque los pedidos de ventas que deban excluirse del acuerdo contractual. Utilice los botones adecuados en el panel de acciones, como **Actualizar reasignación** y **Procesar**, para procesar la reasignación. Si todos los pedidos de ventas, excepto el pedido de ventas activo, no están marcados, el id. de reasignación se eliminará cuando se procese el cambio.
+
+Si se ha realizado una reasignación agregando una nueva línea a un pedido de ventas total o parcialmente facturado, la reasignación solo se puede deshacer eliminando esa línea del pedido de ventas y volviendo a ejecutar la reasignación luego. La línea de pedido de ventas debe eliminarse porque se supone que todas las líneas de un pedido de ventas forman parte del mismo contrato. No puede desmarcar una línea de pedido de ventas mientras se encuentra en la página **Reasignar precio con nuevas líneas de pedido**.
+
+## <a name="reallocate-multiple-times"></a>Reasignar varias veces
+
+Se pueden realizar varias reasignaciones con el mismo pedido de ventas si se han realizado varios cambios en el contrato. Cada reasignación desencadena la asignación de un id. de reasignación al pedido de ventas o grupo de pedidos de venta, para agrupar los cambios. Si se realizan varias reasignaciones, cada reasignación adicional utiliza el mismo id. de reasignación que la primera reasignación.
+
+Por ejemplo, se introduce el pedido de ventas 00045 y tiene varias líneas. Una vez que el pedido de ventas se ha facturado por completo, se le agrega una nueva línea de pedido de venta. A continuación, la reasignación se ejecuta abriendo la página **Reasignar precio con nuevas líneas de pedido** ya sea desde el pedido de ventas 00045 o yendo a **Reconocimiento de ingresos \> Tareas periódicas \> Reasignar precio con nuevas líneas de pedido**. El id. de reasignación **Reall000001** se asigna al pedido de ventas.
+
+Se crea un segundo pedido de ventas, 00052, para el mismo contrato. La reasignación se puede ejecutar de nuevo abriendo la página **Reasignar precio con nuevas líneas de pedido** del pedido de venta 00045, pero no del pedido de ventas 00052. Si abre la página **Reasignar precio con nuevas líneas de pedido** del pedido de ventas, 00052, el pedido de ventas 00045 no se mostrará porque se le ha asignado un id. de reasignación. La página solo muestra los pedidos de ventas que no tienen id. de reasignación.
+
+Hay dos formas de realizar la segunda reasignación. Puede deshacer la reasignación del pedido de ventas 00045. En este caso, se elimina el id. de reasignación y, a continuación, puede realizar la reasignación desde el pedido de ventas 00045 o desde el pedido de ventas 00052. Como alternativa, puede abrir la página **Reasignar precio con nuevas líneas de pedido** del pedido de ventas 00045 y agregar el segundo pedido de ventas. Cuando se procese la reasignación, se asignará el id. de reasignación **Reall000001** tanto al pedido de ventas 00045 como al pedido de ventas 00052.
+
 ## <a name="scenarios-for-reallocation"></a>Escenarios de reasignación
 
 En los siguientes temas se tratan varios escenarios de reconocimiento de ingresos:
@@ -112,6 +144,5 @@ En los siguientes temas se tratan varios escenarios de reconocimiento de ingreso
 - [Reasignación de reconocimiento de ingresos: escenario 2](rev-rec-reallocation-scenario-2.md): se introducen dos pedidos de ventas y luego el cliente agrega un artículo al contrato después de facturar el primer pedido de ventas.
 - [Reasignación de reconocimiento de ingresos: escenario 3](rev-rec-reallocation-scenario-3.md): se agrega una nueva línea a un pedido de ventas existente ya facturado.
 - [Reasignación de reconocimiento de ingresos: escenario 4](rev-rec-reallocation-scenario-4.md): se elimina una línea de un pedido de ventas existente parcialmente facturado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

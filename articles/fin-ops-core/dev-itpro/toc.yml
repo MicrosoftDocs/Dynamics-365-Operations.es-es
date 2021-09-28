@@ -1007,7 +1007,11 @@
                 - name: Preguntas frecuentes sobre el plazo del mantenimiento planificado
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Supervisión y diagnóstico
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Herramientas de supervisión y diagnóstico
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Usar Azure Data Explorer para consultar registros de información sin procesar
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Reiniciar servicios del entorno
               href: lifecycle-services/restart-environment-services.md
             - name: Notificar una interrupción de la producción
