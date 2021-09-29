@@ -2,7 +2,7 @@
 title: Inspeccionar el componente ER configurado para evitar problemas de runtime
 description: Este tema explica cómo inspeccionar los componentes de informes electrónicos (ER) configurados para evitar problemas de runtime que puedan ocurrir.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718632"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488123"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspeccionar el componente ER configurado para evitar problemas de runtime
 
@@ -229,6 +229,12 @@ La tabla siguiente proporciona información general de las inspecciones que prop
 <p>Encabezados/pies de página (&lt;tipo de componente: encabezado o pie de página&gt;) incoherentes</p>
 <p><b>Runtime:</b> el último componente configurado se utiliza en tiempo de ejecución si se ejecuta la versión de borrador del formato ER configurado.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Configuración incoherente del componente de página</a></td>
+<td>Integridad de datos</td>
+<td>Error</td>
+<td>Hay más de dos componentes de rango sin replicación. Elimine los componentes innecesarios.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Modifique el formato configurado eliminando uno de los componentes incoherentes 
 #### <a name="option-2"></a>Opción 2
 
 Modifique el valor de la propiedad **Apariencia del encabezado/pie de página** para uno de los componentes incoherentes **Excel\\Encabezamiento** o **Excel\\Pie de página**.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Configuración incoherente del componente Página
+
+Al [configurar](er-fillable-excel.md) un componente de formato ER para usar una plantilla de Excel para generar un documento saliente, puede agregar el componente **Excel\\Página** para paginar un documento generado mediante el uso de fórmulas de ER. Para cada componente **Excel\\Página** que agregue, puede agregar muchos componentes [Rango](er-fillable-excel.md#range-component) y seguirá la compatibilidad con la siguiente [estructura](er-fillable-excel.md#page-component-structure):
+
+- El primer componente **Rango** anidado se puede configurar para que la propiedad **Dirección de replicación** esté establecida en **Sin replicación**. Este rango se utiliza para crear encabezados de página en documentos generados.
+- Puede agregar muchos otros componentes **Rango** en los que la propiedad **Dirección de replicación** está establecida en **Vertical**. Estos rangos se utilizan para rellenar los documentos generados.
+- El último componente **Rango** anidado se puede configurar para que la propiedad **Dirección de replicación** esté establecida en **Sin replicación**. Este rango se utiliza para crear pies de página en documentos generados y para agregar los saltos de página necesarios.
+
+Si no sigue esta estructura para un formato ER en el diseñador de formato ER en tiempo de diseño, se produce un error de validación y se recibe el siguiente mensaje de error: "Hay más de dos componentes de rango sin replicación. Elimine los componentes innecesarios".
+
+### <a name="automatic-resolution"></a>Resolución automática
+
+No hay ninguna opción disponible para solucionar este problema automáticamente.
+
+### <a name="manual-resolution"></a>Resolución manual
+
+#### <a name="option-1"></a>Opción 1
+
+Modifique el formato configurado cambiando la propiedad **Dirección de replicación** para todos los componentes **Excel\\Rango** incoherentes.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

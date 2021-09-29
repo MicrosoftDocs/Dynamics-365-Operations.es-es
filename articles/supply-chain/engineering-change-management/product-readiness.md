@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415330"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500616"
 ---
 # <a name="product-readiness"></a>Preparación de producto
 
 [!include [banner](../includes/banner.md)]
 
-Puede utilizar las verificaciones de preparación para asegurarse de que se completen todos los datos maestros necesarios para un producto antes de que se utilicen en las transacciones. Cuando se utilizan verificaciones de preparación, un usuario o equipo es responsable de validar datos específicos predefinidos relacionados con el producto. Si hay una verificación de disponibilidad abierta para un producto, el producto no se puede utilizar en transacciones.
+Puede utilizar las comprobaciones de preparación para intentar asegurarse de que se completen todos los datos maestros necesarios para un producto antes de utilizarlo en las transacciones. Cuando se utilizan verificaciones de preparación, un usuario o equipo es responsable de validar datos específicos predefinidos relacionados con el producto.
 
-La casilla **Activo** para un producto de ingeniería, variante o versión está disponible solo después de que se hayan ingresado y verificado todos los datos requeridos, y después de que se hayan procesado todas las verificaciones de preparación. En ese momento, el producto, la versión o la variante pueden utilizarse en transacciones. Puede crear verificaciones de preparación para nuevos productos, nuevas variantes y nuevas versiones de ingeniería.
+Puede marcar la casilla **Activo** para un producto de ingeniería, variante o versión después de que se hayan introducido y verificado todos los datos requeridos, y después de que se hayan procesado todas las comprobaciones de preparación. Si una o más comprobaciones no se han procesado para el producto, la versión o la variante, cuando intente marcar la casilla **Activo** recibirá una advertencia que le indicará que no se han completado todas las comprobaciones.
 
-También puede aplicar verificaciones de preparación a productos estándar (que no sean de ingeniería). Para obtener más información, consulte la sección [Comprobaciones de preparación de productos estándar](#standard-products) más adelante en este tema.
+Puede crear comprobaciones de preparación para nuevos productos, nuevas variantes y nuevas versiones de ingeniería. También puede aplicar comprobaciones de preparación a productos estándar (que no sean de ingeniería) (consulte también [Comprobaciones de preparación en productos estándar](#standard-products)). 
+
+Puede utilizar productos estándar en transacciones aunque no se hayan completado todas las comprobaciones de preparación. Si necesita bloquear un producto para que no se use en transacciones, use su estado de ciclo de vida. Puede asignar un estado de ciclo de vida que bloquee el uso de un producto en transacciones y luego, después de que se hayan completado todas las comprobaciones de preparación, asignar un nuevo estado de ciclo de vida que permita las transacciones requeridas.
 
 ## <a name="types-of-readiness-checks"></a>Tipos de controles de preparación
 
@@ -142,8 +144,8 @@ Para cada fila que agregue, configure los siguientes campos.
 | --- | --- |
 | Área de proceso | Seleccione el área con la que está relacionada la verificación. |
 | Tipo | Seleccione si la verificación es una verificación del sistema, una verificación manual o una lista de verificación (cuestionario). |
-| Nombre | Si la verificación es una lista de verificación, ingrese un nombre. Para las verificaciones manuales y del sistema, este campo se configura automáticamente. |
-| Descripción | Si la verificación es una lista de verificación, ingrese una descripción. Para las verificaciones manuales y del sistema, este campo se establece automáticamente y la descripción explica el enfoque de la verificación. |
+| Nombre | Si la verificación es una lista de verificación, introduzca un nombre. Para las verificaciones manuales y del sistema, este campo se configura automáticamente. |
+| Descripción | Si la verificación es una lista de verificación, introduzca una descripción. Para las verificaciones manuales y del sistema, este campo se establece automáticamente y la descripción explica el enfoque de la verificación. |
 | Aplicar controles en | Seleccione si la fila debe generar verificaciones de preparación en respuesta a un nuevo producto lanzado, una variante lanzada o una versión lanzada. |
 | Ejecutar en | Seleccione si las comprobaciones de preparación que genera la fila se aplican a todas las empresas o a una sola empresa. |
 | Empresa | Si configura el campo **Ejecutar en** como *Empresa única*, seleccione la empresa. |
@@ -178,14 +180,14 @@ Para asignar una directiva de preparación a una categoría de ingeniería, siga
 
 ## <a name="readiness-checks-on-standard-products"></a>Comprobaciones de preparación de productos estándar
 
-Puede habilitar las comprobaciones de disponibilidad de productos para productos estándar (que no sean de ingeniería) activando la función *Comprobaciones de disponibilidad del producto* en la gestión de funciones. Esta función realiza algunos pequeños cambios en el sistema de verificación de disponibilidad para que admita productos estándar.
+Puede habilitar las comprobaciones de disponibilidad de productos para productos estándar (que no sean de ingeniería) activando la función *Comprobaciones de disponibilidad del producto* en la administración de características. Esta característica realiza algunos pequeños cambios en el sistema de verificación de disponibilidad para que admita productos estándar.
 
 ### <a name="enable-readiness-checks-on-standard-products"></a>Habilitar comprobaciones de preparación de productos estándar
 
 Para permitir que su sistema realice comprobaciones de disponibilidad en productos estándar, siga estos pasos.
 
 - Habilite la función de administración de cambios de ingeniería en su sistema como se describe en [Descripción general de la gestión de cambios de ingeniería](product-engineering-overview.md).
-- Use [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la función llamada *Comprobaciones de disponibilidad del producto*.
+- Use [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la función llamada *Comprobaciones de disponibilidad del producto*.
 
 <!-- KFM: This section requires confirmation before publishing
 

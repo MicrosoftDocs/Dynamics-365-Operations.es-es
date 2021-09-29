@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471725"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500437"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -32,7 +32,7 @@ ms.locfileid: "7471725"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Ejecución de almacén en unidades de escala
 
-Las cargas de trabajo de administración de almacenes permiten que las unidades de escala en la nube y en el borde ejecuten procesos seleccionados de las capacidades de administración de almacenes.
+Las cargas de trabajo de gestión de almacenes permiten que las unidades de escala en la nube y en el borde ejecuten procesos seleccionados de las capacidades de gestión de almacenes.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -142,7 +142,7 @@ Los siguientes tipos de trabajo se pueden crear en una unidad de báscula y, por
 Actualmente, no se admite ningún otro tipo de procesamiento de documentos de origen o trabajo de almacén en unidades de escalado. Por ejemplo, para una carga de trabajo de ejecución de almacén en una unidad de escalado, no puede realizar un proceso de recepción de pedidos de transferencia (recepción de transferencias); en su lugar, esto debe procesarse mediante la instancia del centro de conectividad.
 
 > [!NOTE]
-> Los elementos del menú del dispositivo móvil y los botones para funciones no compatibles no se muestran en la _aplicación móvil Warehouse Management_ cuando está conectada a una implementación de unidad de escalado.
+> Los elementos del menú de dispositivo móvil y los botones para funciones no compatibles no se muestran en la _aplicación móvil Warehouse Management_ cuando está conectada a una implementación de unidad de escalado.
 > 
 > Cuando ejecuta una carga de trabajo en una unidad de escalado, no puede ejecutar procesos no admitidos para ese almacén específico en el concentrador. Las tablas que se proporcionan más adelante en este tema documentan las capacidades admitidas.
 >
@@ -153,10 +153,11 @@ Actualmente, no se admite ningún otro tipo de procesamiento de documentos de or
 > - Si usa una consulta de directiva de ubicación que se une a un registro de tabla de datos que solo existe en la implementación del concentrador.
 > - Si usa el estado de ubicación o las funciones de carga volumétrica de ubicación. Estos datos no se sincronizarán entre las implementaciones y, por lo tanto, solo funcionarán cuando se actualice el inventario de ubicación disponible en una de las implementaciones.
 
-Actualmente, la siguiente funcionalidad de administración de almacenes no es compatible con las cargas de trabajo de las unidades de escalado:
+Actualmente, la siguiente funcionalidad de gestión de almacenes no es compatible con las cargas de trabajo de las unidades de escalado:
 
 - Procesamiento entrante de líneas de pedido de compra asignadas a una carga.
 - Procesamiento entrante de pedidos de compra para un proyecto.
+- Administración del coste de aterrizaje, uso de viajes y seguimiento de mercancías en tránsito.
 - Procesamiento de entrada y salida para artículos que tienen dimensiones de seguimiento activas **Propietario** o **Número de serie**.
 - Procesamiento de inventario que tiene un valor de estado de bloqueo.
 - Cambio de un estado de inventario durante cualquier proceso de movimiento de trabajo.
@@ -173,7 +174,7 @@ Actualmente, la siguiente funcionalidad de administración de almacenes no es co
 - Uso de la imagen de datos maestros del producto (por ejemplo, en la aplicación móvil Warehouse Management).
 
 > [!WARNING]
-> Algunas funciones de almacén no estarán disponibles para los almacenes que ejecutan las cargas de trabajo de administración de almacenes en una unidad de escalado y tampoco se admiten en el concentrador o en la carga de trabajo de la unidad de escalado.
+> Algunas funciones de almacén no estarán disponibles para los almacenes que ejecutan las cargas de trabajo de gestión de almacenes en una unidad de escalado y tampoco se admiten en el concentrador o en la carga de trabajo de la unidad de escalado.
 > 
 > Otras capacidades pueden procesarse en ambos, pero requerirán un uso cuidadoso en algunas situaciones, como cuando el inventario disponible se actualiza para el mismo almacén tanto en el concentrador como en la unidad de escalado debido al proceso de actualización de datos asincrónicos.
 > 
@@ -181,12 +182,13 @@ Actualmente, la siguiente funcionalidad de administración de almacenes no es co
 
 ### <a name="outbound-supported-only-for-sales-and-transfer-orders"></a>Saliente (compatible solo para pedidos de venta y transferencia)
 
-La siguiente tabla muestra qué funciones de salida son compatibles y dónde se admiten, cuando las cargas de trabajo de administración de almacén se utilizan en unidades de escala de borde y nube.
+La siguiente tabla muestra qué funciones de salida son compatibles y dónde se admiten, cuando las cargas de trabajo de gestión de almacén se utilizan en unidades de escala de borde y nube.
 
 | Proceso                                                      | Concentrador | Carga de trabajo de ejecución de almacén en una unidad de escala |
 |--------------------------------------------------------------|-----|------------------------------|
 | Procesamiento de documentos de origen                                   | Sí | N.º |
 | Procesado de la administración del transporte y la carga                | Sí, pero solo los procesos de planificación de carga. El procesamiento de gestión de transporte no es compatible  | N.º |
+| Coste de aterrizaje y recepción de mercancía en tránsito                                         | Sí | N.º |
 | Liberar al almacén                                         | Sí | N.º |
 | Tránsito directo planificado                                        | N.º  | N.º |
 | Consolidación de envíos                                       | Sí, al utilizar la planificación de carga | Sí |
@@ -216,7 +218,7 @@ La siguiente tabla muestra qué funciones de salida son compatibles y dónde se 
 
 ### <a name="inbound"></a>Entrada
 
-La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se admiten, cuando las cargas de trabajo de administración de almacén se utilizan en unidades de escala de borde y nube.
+La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se admiten, cuando las cargas de trabajo de gestión de almacén se utilizan en unidades de escala de borde y nube.
 
 | Proceso                                                          | Concentrador | Carga de trabajo de ejecución de almacén en una unidad de escala<BR>*(Los artículos marcados con "Sí" se aplican solo a los pedidos de almacén)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
@@ -248,7 +250,7 @@ La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Operaciones de almacén y manejo de excepciones
 
-La siguiente tabla muestra qué funciones de control de excepciones y operaciones de almacén son compatibles y dónde se admiten, cuando las cargas de trabajo de administración de almacén se utilizan en unidades de escala de borde y nube.
+La siguiente tabla muestra qué funciones de control de excepciones y operaciones de almacén son compatibles y dónde se admiten, cuando las cargas de trabajo de gestión de almacén se utilizan en unidades de escala de borde y nube.
 
 | Proceso                                            | Concentrador | Carga de trabajo de ejecución de almacén en una unidad de escala |
 |----------------------------------------------------|-----|------------------------------|

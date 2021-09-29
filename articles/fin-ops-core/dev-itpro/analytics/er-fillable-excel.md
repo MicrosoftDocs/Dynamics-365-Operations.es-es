@@ -2,7 +2,7 @@
 title: Diseñar una configuración para generar documentos en formato de Excel
 description: Este tema describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748481"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488147"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -138,6 +138,55 @@ Para obtener más información sobre cómo incrustar imágenes y formas, consult
 
 El componente **PageBreak** obliga a Excel a comenzar una nueva página. Este componente no es necesario cuando desea utilizar la paginación predeterminada de Excel, pero debe usarla cuando desea que Excel siga su formato ER para estructurar la paginación.
 
+## <a name="page-component"></a><a name="page-component"></a>Componente de página
+
+### <a name="overview"></a>Información general
+
+Pueds usar el componente **Página** cuando desee que Excel siga su formato ER y estructura la paginación en un documento saliente generado. Cuando un formato ER ejecuta componentes que están en el componente **Página**, los saltos de página requeridos se agregan automáticamente. Durante este proceso, se consideran el tamaño del contenido generado, la configuración de página de la plantilla de Excel y el tamaño del papel seleccionado en la plantilla de Excel.
+
+Si debe dividir un documento generado en diferentes secciones, cada una de las cuales tiene una paginación diferente, puede configurar varios componentes de **Página** en cada componente de [Hoja](er-fillable-excel.md#sheet-component).
+
+### <a name="structure"></a><a name="page-component-structure"></a>Estructura
+
+Si el primer componente del componente **Página** es un componente [Rango](er-fillable-excel.md#range-component) donde la propiedad **Dirección de replicación** está establecida en **Sin replicación**, este rango se considera el encabezado de página para la paginación que se basa en la configuración del componente **Página**. El rango de Excel que está asociado con este componente de formato se repite en la parte superior de cada página que se genera mediante el uso de la configuración del componente actual de **Página**.
+
+> [!NOTE]
+> Para una correcta paginación, si el rango [Filas a repetir en la parte superior](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409) está configurado en su plantilla de Excel, la dirección de este rango de Excel debe ser igual a la dirección del rango de Excel que está asociado con el componente **Distancia** anteriormente descrito.
+
+Si el último componente del componente **Página** es un componente **Rango** donde la propiedad **Dirección de replicación** está establecida en **Sin replicación**, este rango se considera el pie de página para la paginación que se basa en la configuración del componente **Página**. El rango de Excel que está asociado con este componente de formato se repite en la parte inferior de cada página que se genera mediante el uso de la configuración del componente actual de **Página**.
+
+> [!NOTE]
+> Para una correcta paginación, los rangos de Excel que están asociados con los componentes **Rango** no se deben cambiar de tamaño en tiempo de ejecución. No recomendamos que formatee las celdas de este rango utilizando las [Opciones](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84) de Excel **Ajustar texto en una celda** y **Ajuste automático de la altura de la fila**.
+
+Puede agregar varios otros componentes **Rango** entre los componentes opcionales de **Rango** para especificar cómo se completa un documento generado.
+
+Si el conjunto de componentes anidados **Rango**, en el componente **Página**, no cumple con la estructura descrita anteriormente, se produce un [error](er-components-inspections.md#i17) de validación en tiempo de diseño, en el diseñador de formato ER. El mensaje de error le informa que el problema puede causar problemas en tiempo de ejecución.
+
+> [!NOTE]
+> Para generar una salida correcta, no especifique un enlace para ningún **Rango** en el componente **Página** si la propiedad **Dirección de replicación** para ese componente **Rango** está configurada en **Sin replicación** y el rango está configurado para generar encabezados o pies de página.
+
+Si desea que la suma y el recuento relacionados con la paginación calculen los totales acumulados y los totales por página, le recomendamos que configure los orígenes de datos de [Recopilación de datos](er-data-collection-data-sources.md). Para aprender a usar el componente **Página** para paginar un documento Excel generado, complete los procedimientos de [Diseñar un formato ER para paginar un documento generado en formato Excel](er-paginate-excel-reports.md).
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>Limitaciones
+
+Cuando usa el componente **Página** para la paginación de Excel, no sabrá el número final de páginas de un documento generado hasta que se complete la paginación. Por lo tanto, no puede calcular el número total de páginas utilizando fórmulas ER ni imprimir el número correcto de páginas de un documento generado en cualquier página antes de la última página.
+
+> [!TIP]
+> Para lograr este resultado en un encabezado o pie de página de Excel, puede usar el [formato](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) Excel especial para encabezados y pies de página.
+
+Los componentes **Página** configurados no se tienen en cuenta al actualizar una plantilla de Excel en formato editable en la versión 10.0.22 de Dynamics 365 Finance. Esta funcionalidad se considera para futuras versiones de Finance.
+
+Si configura su plantilla de Excel para usar [formato condicional](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), es posible que no funcione como se esperaba en algunos casos.
+
+### <a name="applicability"></a>Aplicabilidad
+
+El componente **Página** funciona para el componente de formato de [archivo Excel](er-fillable-excel.md#excel-file-component) solo cuando ese componente está configurado para usar una plantilla en Excel. Si se [reemplaza](tasks/er-design-configuration-word-2016-11.md) la plantilla de Excel con una plantilla de Word y luego se ejecuta el formato ER editable, se ignorará el componente **Página**.
+
+El componente **Página** funciona solo cuando la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada. Se lanza una excepción en tiempo de ejecución si ER intenta procesar el componente **Página** mientras esta función está desactivada.
+
+> [!NOTE]
+> Se lanza una excepción en tiempo de ejecución si un formato ER procesa el componente **Página** de una plantilla de Excel que contiene al menos una fórmula que hace referencia a una celda que no es válida. Para ayudar a evitar errores en tiempo de ejecución, corrija la plantilla de Excel como se describe en [Cómo corregir un error #REF!](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be).
+
 ## <a name="footer-component"></a>Componente de pie de página
 
 El componente **Pie de página** se usa para completar pies de página en la parte inferior de una hoja de trabajo generada en un libro de Excel.
@@ -197,9 +246,12 @@ Cuando valida un formato ER que se puede editar, se realiza una comprobación de
 Cuando se genera el formato de libro de trabajo en un documento saliente en un Microsoft Excel, algunas celdas de este documento pueden contener fórmulas de Excel. Cuando la función **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada, puede controlar cuándo se calculan las fórmulas cambiando el valor del [parámetro](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) **Opciones de cálculo** en la plantilla de Excel que se está utilizando:
 
 - Seleccione **Automático** para volver a calcular todas las fórmulas dependientes cada vez que se agregan a un documento generado nuevos rangos, celdas, etc.
+
     >[!NOTE]
     > Esto puede causar un problema de rendimiento para las plantillas de Excel que contienen varias fórmulas relacionadas.
+
 - Seleccione **Manual** para evitar el recálculo de fórmulas cuando se genera un documento.
+
     >[!NOTE]
     > El recálculo de fórmulas se fuerza manualmente cuando un documento generado se abre para obtener una vista previa con Excel.
     > No use esta opción si configura un destino de ER que asume el uso de un documento generado sin su vista previa en Excel (conversión de PDF, envío de correo electrónico, etc.) porque el documento generado podría no contener valores en celdas que contienen fórmulas.

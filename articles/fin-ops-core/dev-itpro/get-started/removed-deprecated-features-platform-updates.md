@@ -2,7 +2,7 @@
 title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463641"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500118"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -32,13 +32,13 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
-## <a name="feature-deprecation-effective-august-2021"></a>Aviso de desactivación de funciones a partir de agosto de 2021
+## <a name="feature-deprecation-effective-august-2021"></a>Aviso de desactivación de características a partir de agosto de 2021
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Informes de Microsoft Azure SQL en LifeCycle Services (LCS)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Estamos desaprobando algunos informes SQL en LCS. Ya no necesitará monitorear los informes ya que esta función ha sido reemplazada por otros servicios. |
+| **Motivo de la depreciación/eliminación** |   Todas las actividades y el seguimiento se realizarán internamente, por la plataforma, a través de la automatización. Esto no requerirá ninguna intervención manual.|
 | **¿Reemplazado por otra característica?**   | N.º |
 | **Áreas de producto afectadas**         | Informes SQL: DTU actual, Detalles de DTU actual, Obtener detalles de bloqueo, Lista de la guía del plan actual, Obtener la lista de ID de consulta, Obtener el plan de consulta SQL para un ID de plan determinado, Obtener planes de consulta y estado de ejecución, Obtener configuración de aceleración, Obtener espera estadísticas, enumera las consultas más caras |
 | **Opción de implementación**              | Implementación en la nube: afecta a los entornos de producción administrados por Microsoft y a los entornos sandbox de nivel 2 a 5. |
@@ -54,7 +54,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Opción de implementación**              | Implementación en la nube: afecta a los entornos de producción administrados por Microsoft y a los entornos sandbox de nivel 2 a 5. |
 | **Estado**                         | En desuso: fecha de eliminación planificada en octubre de 2021. |
 
-## <a name="feature-deprecation-effective-may-2021"></a>Aviso de desactivación de funciones a partir de mayo de 2021
+## <a name="feature-deprecation-effective-may-2021"></a>Aviso de desactivación de características a partir de mayo de 2021
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Portal de globalización en Lifecycle Services (LCS)
 
@@ -181,7 +181,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | El [nuevo control de cuadrícula](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | En la versión 10.0.13, el nuevo control de cuadrícula generalmente está disponible, y los clientes pueden activar esta función opcionalmente. El nuevo control de cuadrícula será obligatorio en la versión de octubre de 2021. Cuando el nuevo control de cuadrícula pase a ser obligatorio, la API **forceLegacyGrid()** se dejará de aplicar. |
+| **Estado**                         | En la versión 10.0.13, el nuevo control de cuadrícula generalmente está disponible, y los clientes pueden activar esta función opcionalmente. El nuevo control de cuadrícula se activará de forma predeterminada con la versión de octubre de 2021 y actualmente está previsto que sea obligatorio en abril de 2022. Cuando el nuevo control de cuadrícula pase a ser obligatorio, la API **forceLegacyGrid()** se dejará de aplicar. |
 
 ### <a name="personalization-without-saved-views"></a>Personalización sin vistas guardadas 
 

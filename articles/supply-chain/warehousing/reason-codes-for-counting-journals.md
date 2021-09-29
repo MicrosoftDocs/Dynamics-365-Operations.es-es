@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345275"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500609"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Códigos de motivo para recuento de inventario
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Los códigos de motivo le permiten analizar los resultados de un proceso de recuento y cualquier discrepancia que surja durante dicho proceso. Puede especificar el motivo por el que se realiza el recuento, como un pallet roto o un ajuste de existencias basado en ejemplos de inventario. Al mismo tiempo, puede utilizar la función de ajuste para registrar el valor de los ajustes de inventario disponibles en la cuenta de contrapartida correspondiente, según el motivo de cada ajuste de inventario.
 
@@ -42,8 +41,6 @@ Antes de configurar el sistema, le recomendamos que defina una estrategia para t
 - ¿Deberían los códigos de motivo impulsar la contabilización de la cuenta de contrapartida financiera?
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Active las funciones del código de motivo en su sistema
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Si no ve todas las funciones que se describen en este tema en su sistema, probablemente tenga que activar la función *Contabilizar ajustes disponibles utilizando códigos de motivo configurables conectados a cuentas de contrapartida*. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 

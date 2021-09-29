@@ -2,7 +2,7 @@
 title: Configurar y diseñar formatos de recibo
 description: Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Dynamics 365 Commerce incluye un diseñador de formularios que puede usar para crear y modificar con facilidad diversos tipos de diseños de formulario.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715367"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500180"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Configurar y diseñar formatos de recibo
 
@@ -46,7 +46,12 @@ Este artículo describe cómo modificar diseños de formulario para modificar la
 
 ## <a name="print-images"></a>Imprimir imágenes
 
-El diseñador de recibos incluye una variable **Logotipo** que se puede utilizar para especificar imágenes que se imprimirán en el recibo. Las imágenes que se incluyan en recibos con la variable **Logotipo** deben ser archivos de tipo mapa de bits monocromo (.bmp). Si se especifica una imagen .bmp en el diseñador de recibos, pero no se imprime cuando se envía a la impresora, puede deberse a que el tamaño del archivo es demasiado grande o a que las dimensiones en píxeles de la imagen no son compatibles con la impresora. En este caso, pruebe a reducir la resolución del archivo de imagen.   
+El diseñador de recibos incluye un **Logotipo** variable. Puede utilizar esta variable para especificar una imagen que debe imprimirse en los recibos. Las imágenes que se imprimen en recibos con la variable **Logotipo** deben ser archivos de tipo mapa de bits monocromo (.bmp). Si se especifica una imagen de mapa de bits en el diseñador de recibos, pero no se imprime cuando se envía el recibo a la impresora, la causa puede ser uno de los siguientes problemas:
+
+- El tamaño del archivo es demasiado grande o las dimensiones en píxeles de la imagen no son compatibles con la impresora. En este caso, intente reducir la resolución o las dimensiones del archivo de imagen.
+- Algunos controladores de impresora de vinculación e incrustación de objetos para punto de venta (OPOS) no implementan el método **PrintMemoryBitmap** que utilizan las estaciones de hardware para imprimir imágenes de logotipos. En este caso, intente agregar la siguiente alerta al archivo **HardwareStation.Extension.config** de su estación de hardware dedicada o compartida:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Diseñar un formato de recibo
 

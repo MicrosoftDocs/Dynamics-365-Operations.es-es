@@ -1,8 +1,8 @@
 ---
 title: Archivar facturas de cliente impresas con números hash
-description: Este tema explica cómo habilitar el archivo para almacenar facturas de clientes impresas con números de hash.
-author: ilyako
-ms.date: 03/05/2021
+description: Este tema explica cómo habilitar el archivado para almacenar facturas de clientes impresas con números de hash.
+author: ilkond
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 474f5f19d709f3f04a2dbf4383360f58db7ecc8953e8624d9eef92286c52d4d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 093b1b8c516c0c659e7970d17d3f84b2ed0ccf8f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724216"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500536"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Archivar facturas de cliente impresas con números hash
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 En algunos países, existe un requisito legal para almacenar los números hash calculados en el sistema junto con las impresiones de algunos documentos. Los números hash se pueden utilizar para informar a las autoridades y durante las auditorías.
 
@@ -34,7 +32,7 @@ Este tema explica cómo configurar el archivo para almacenar facturas de cliente
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-- En el espacio de trabajo **Administración de características**, active la característica **Archivar facturas de clientes impresas con números hash**. Para más información, consulte [Resumen de administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- En el espacio de trabajo **Administración de características**, active la característica **Archivar facturas de clientes impresas con números hash**. Para más información, consulte [Resumen de administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Configure los formatos imprimibles de los documentos necesarios en **Administración de impresión**.
 
 Esta funcionalidad es aplicable a los siguientes documentos.

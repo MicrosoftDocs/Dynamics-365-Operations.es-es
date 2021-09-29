@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773522"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506840"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
@@ -38,7 +38,8 @@ La mayoría de estas características deben habilitarse mediante la [Administrac
 | Inventario&nbsp;y&nbsp;logística | [Mejora del rendimiento de los detalles del pedido de ventas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | Esta característica hace que la interfaz de usuario sea más receptiva al abrir pedidos de ventas, especialmente pedidos que incluyen muchas líneas. |
 | Fabricación | [Invocar flujos de automatización de procesos para crear pedidos de calidad](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/invoke-process-automation-flows-create-quality-orders) | [Invocar flujos de automatización de procesos para crear pedidos de calidad](../production-control/process-automation-quality-orders.md ) |
 | Fabricación | [Ejecución mejorada de interfaz de ejecución de planta de producción para fabricación](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) | [Configurar la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-configure.md) |
-| Gestión de información de productos | [Gestionar cambios en fórmulas y sus componentes](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [Gestionar cambios en fórmulas y sus componentes](../engineering-change-management/manage-formula-changes.md) |
+| Planificada | [Programación de capacidad infinita para Optimización de planificación](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Programación con capacidad infinita](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| Gestión de información de productos | [Administrar cambios en fórmulas y sus componentes](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [Gestionar cambios en fórmulas y sus componentes](../engineering-change-management/manage-formula-changes.md) |
 | Gestión de información de productos | [Comprobaciones de preparación de producto](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/product-readiness-checks) | [Preparación de producto](../engineering-change-management/product-readiness.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Mejoras de características incluidas en esta versión

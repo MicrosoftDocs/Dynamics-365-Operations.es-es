@@ -1,27 +1,39 @@
 ---
 title: Novedades o cambios en la aplicación móvil Warehouse Management
 description: Este tema enumera las funciones nuevas y modificadas para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386108"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485631"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20100"></a>Versión 2.0.10.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+- Animación agregada al deslizar por listas y páginas.
+- El texto ahora se ajusta correctamente en la página de error de conexión.
+- Los cuadros combinados sin valores predeterminados ahora se muestran correctamente.
+- La información en el área del subtítulo ahora se muestra solo en la página de detalles completos.
+- Los campos de entrada vacíos ya no se muestran en la tarjeta de detalles.
+- Los valores de confirmación ya no están duplicados en la tarjeta de detalles.
+- Se han solucionado varios problemas que provocaban que el sistema dejara de responder.
 
 ## <a name="version-2090"></a>Versión 2.0.9.0
 

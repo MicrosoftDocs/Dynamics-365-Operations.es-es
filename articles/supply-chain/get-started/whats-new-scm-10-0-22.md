@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 6fc4b9d0a0f5319c8a75e7d687ee82ea81497844
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c4aac62b36cd271e1c5fc3bcbbfdd785963fc368
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471869"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484081"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.22 (noviembre de 2021)
 
@@ -34,19 +34,19 @@ La tabla siguiente enumera las características incluidas en esta versión. La c
 
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
-| Planificada | [Soporte de Planning Optimization para la asignación de recursos basada en capacidades](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Programación con capacidad infinita](../master-planning/planning-optimization/infinite-capacity-planning.md) | Administración de características (*Programación de capacidad infinita para Optimización de planificación*) |
+| Planificada | [Soporte de Planning Optimization para la asignación de recursos basada en capacidades](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Programación con selección de recursos según la capacidad](../master-planning/planning-optimization/capability-based-scheduling.md) | Administración de características (*Programación de capacidad infinita para Optimización de planificación*) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Mejoras de características incluidas en esta versión
 
-La tabla siguiente enumera las mejoras de características incluidas en esta versión. Cada una de estas mejoras proporciona una mejora incremental de una función existente. Debido a que son solo mejoras, no se enumeran en el [plan de versión](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Sin embargo, para garantizar que estas mejoras no entren en conflicto con sus preferencias o personalizaciones existentes, cada una de ellas está desactivada de forma predeterminada (a menos que se indique lo contrario). Si desea utilizar alguna de estas funciones, debe habilitarlas explícitamente en [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+La tabla siguiente enumera las mejoras de características incluidas en esta versión. Cada una de estas mejoras proporciona una mejora incremental de una función existente. Debido a que son solo mejoras, no se enumeran en el [plan de versión](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Sin embargo, para garantizar que estas mejoras no entren en conflicto con sus preferencias o personalizaciones existentes, cada una de ellas está desactivada de forma predeterminada (a menos que se indique lo contrario). Si desea utilizar alguna de estas funciones, debe habilitarlas explícitamente en [Gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 | Área de características | Nombre de la característica en la administración de características | Más información |
 |---|---|---|
 | Gestión de costes | Cree comprobantes relacionados para reevaluaciones de redondeo de costos estándar | <p>Cuando se realiza una contabilización financiera de inventario (como una factura de orden de venta o una transacción de inventario), esta función hace que el sistema cree un comprobante separado para cualquier revalorización de redondeo de costos estándar relacionada y lo adjunte al comprobante de contabilización financiera como comprobante relacionado.</p><p>Sin esta función, el sistema registra las revalorizaciones de redondeo de costes estándar en la misma contabilización de comprobantes. Ese comportamiento a veces puede causar información de fecha conflictiva, porque las revaluaciones usan la fecha de la sesión o del sistema, mientras que las contabilizaciones financieras usan la fecha de contabilización.</p> |
-| Topología híbrida distribuida | *(No se requiere gestión de funciones).* | <p>Esta versión amplía las capacidades de planificación de carga saliente de la carga de trabajo de gestión de almacenes para unidades de escala en la nube y en el borde.</p><p>Para más información, vea [Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
-| Administración de cambios de ingeniería | Generación de variantes de productos de ingeniería | <p>Esta función le permite generar varias variantes para un producto de ingeniería, según su color, tamaño, estilo o dimensiones de configuración.</p><p>Para más información, vea [Genere variantes para productos de ingeniería](../engineering-change-management/engineering-variants.md).</p> |
-| Gestión de inventario y almacenes | Integración de Visibilidad de inventario con compensación de reserva | <p>Esta función se puede habilitar solo después de que la función *Integración de visibilidad de inventario* está habilitada. Proporciona funcionalidad para compensar las reservas que se realizan en la visibilidad del inventario.</p><p>Para obtener más información, consulte [Reservas de Visibilidad de inventario](../inventory/inventory-visibility-reservations.md).</p> |
-| Ventas y marketing | Limitar el número de pedidos de ventas que pueden seleccionarse para registro | <p>Esta característica está habilitada automáticamente. Agrega un campo **Número máximo de pedidos de ventas para registrar** a la página **Parámetros de clientes**. Este campo permite definir el número máximo de pedidos de ventas que se pueden seleccionar al registrar confirmaciones, listas de selección, albaranes y facturas desde la página de lista del pedido de ventas. El valor predeterminado es *100*.</p><p>Esta función ayuda a mejorar el rendimiento de la página de lista del pedido de ventas cuando se selecciona una cantidad sustancial de pedidos de ventas. No tiene ningún impacto en el número de pedidos de ventas que se pueden procesar mediante una tarea periódica.</p> |
+| Topología híbrida distribuida | *(No se requiere administración de características).* | <p>Esta versión amplía las capacidades de planificación de carga saliente de la carga de trabajo de gestión de almacenes para unidades de escala en la nube y en el borde.</p><p>Para más información, vea [Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
+| Administración de cambios de ingeniería | Generación de variantes de productos de ingeniería | <p>Esta característica le permite generar varias variantes para un producto de ingeniería, según su color, tamaño, estilo o dimensiones de configuración.</p><p>Para más información, vea [Genere variantes para productos de ingeniería](../engineering-change-management/engineering-variants.md).</p> |
+| Gestión de inventario y almacenes | Integración de Visibilidad de inventario con compensación de reserva | <p>Esta característica se puede habilitar solo después de que la función *Integración de visibilidad de inventario* está habilitada. Proporciona funcionalidad para compensar las reservas que se realizan en la visibilidad del inventario.</p><p>Para obtener más información, consulte [Reservas de Visibilidad de inventario](../inventory/inventory-visibility-reservations.md).</p> |
+| Ventas y marketing | Limitar el número de pedidos de ventas que pueden seleccionarse para registro | <p>Esta característica está habilitada automáticamente. Agrega un campo **Número máximo de pedidos de ventas para registrar** a la página **Parámetros de clientes**. Este campo permite definir el número máximo de pedidos de ventas que se pueden seleccionar al registrar confirmaciones, listas de selección, albaranes y facturas desde la página de lista del pedido de ventas. El valor predeterminado es *100*.</p><p>Esta característica ayuda a mejorar el rendimiento de la página de lista del pedido de ventas cuando se selecciona una cantidad sustancial de pedidos de ventas. No tiene ningún impacto en el número de pedidos de ventas que se pueden procesar mediante una tarea periódica.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
 
@@ -54,7 +54,7 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 
 | Área de características | Temas nuevos o actualizados |
 |---|---|
-| Administración de cambios de ingeniería | [Descripción general de la gestión de cambios de ingeniería](../engineering-change-management/product-engineering-overview.md) ahora enumera todas las funciones opcionales relacionadas disponibles en la gestión de funciones |
+| Administración de cambios de ingeniería | [Descripción general de la gestión de cambios de ingeniería](../engineering-change-management/product-engineering-overview.md) ahora enumera todas las funciones opcionales relacionadas disponibles en la administración de características |
 | Planificación maestra | [Configuración de previsión de demanda](../master-planning/demand-forecasting-setup.md) |
 | Planificación maestra | [Requisitos netos e información de diagrama de árbol con Optimización de planificación](../master-planning/planning-optimization/net-requirements.md) |
 | Gestión de almacenes | [Liberar al almacén](../warehousing/release-to-warehouse-process.md) proporciona una descripción detallada del proceso completo de liberación al almacén |

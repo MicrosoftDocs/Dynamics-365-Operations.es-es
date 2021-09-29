@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ef28fcaf308225a78bcbac42f591e6b24b21b1b1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 8f438e18356a6c16cc75bb59153ae7353d984a5a
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384546"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500339"
 ---
 # <a name="gs1-bar-codes-and-qr-codes"></a>Códigos de barras GS1 y códigos QR
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 A menudo, los trabajadores del almacén tienen que realizar varias tareas cuando utilizan un escáner de dispositivo móvil para registrar los movimientos de un artículo, palé o contenedor. Estas tareas pueden incluir tanto escanear códigos de barras como introducir manualmente información en el dispositivo móvil. Los códigos de barras utilizan un formato específico de la empresa que usted define y administra mediante Microsoft Dynamics 365 Supply Chain Management.
 

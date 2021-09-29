@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af7ac416053a90766138f999ce69d9993ee2ff6c
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744807"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500288"
 ---
 # <a name="goods-in-transit-processing"></a>Procesamiento de mercancía en tránsito
 
@@ -148,8 +148,6 @@ Esta sección describe las características que el módulo **Coste en destino** 
 El costo de entrega agrega un nuevo tipo de orden de trabajo que se denomina *Mercancías en tránsito* a la página **Plantillas de trabajo**. Este tipo de orden de trabajo debe configurarse de la misma manera que las [plantillas de trabajo de órdenes de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 #### <a name="work-header-breaks"></a>Interrupciones de encabezados de trabajo
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Las plantillas de trabajo que tienen un tipo de orden de trabajo de *Mercancías en tránsito* se pueden configurar para dividir los encabezados de trabajo. En la página **Plantillas de trabajo**, siga uno de estos pasos:
 

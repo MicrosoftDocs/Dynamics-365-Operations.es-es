@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acf5e191f1d4b12a59490a5ab8f222c5351886c33eedcb8833921541d1bda7d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dee8d0962626c42ab76e908072e686cc5c0a61d1
+ms.sourcegitcommit: f332cabe9d5c6ece431fd5aa06759481be53f06a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736584"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506544"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
@@ -29,7 +29,7 @@ ms.locfileid: "6736584"
 En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 
 > [!NOTE]
-> Este tema se aplica a las funciones de gestión de almacenes. No se aplica a las funciones de gestión del inventario. Los elementos de menú que aparecen en los menús en un dispositivo móvil del almacén se configuran en la página **Elementos de menú del dispositivo móvil**. Dado que los elementos de menú se pueden colocar en diferentes menús, resulta fácil configurar las estructuras de menú para que solo tipos específicos de trabajo se expongan a usuarios específicos. Puede configurar los elementos de menú para realizar las tareas siguientes:
+> Este tema se aplica a las funciones de gestión de almacenes. No se aplica a las funciones de gestión del inventario. Los elementos de menú que aparecen en los menús en un dispositivo móvil del almacén se configuran en la página **Elementos de menú de dispositivo móvil**. Dado que los elementos de menú se pueden colocar en diferentes menús, resulta fácil configurar las estructuras de menú para que solo tipos específicos de trabajo se expongan a usuarios específicos. Puede configurar los elementos de menú para realizar las tareas siguientes:
 
 - Procese una consulta o realice una actividad, como imprimir una etiqueta, generar matrículas de entidad de almacén, iniciar un pedido de producción o buscar rápidamente información sobre los elementos en una ubicación.
 - Cree el trabajo que se realizará con otro proceso. Por ejemplo, la recepción de un artículo para un pedido de compra puede crear un trabajo de ubicación para otro trabajador.
@@ -67,7 +67,7 @@ Si el campo **Modo** para un elemento de menú se establece en **Indirecto**, pu
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurar elementos de menú para crear trabajo para otro trabajador o proceso
 
-Puede configurar un elemento de menú que crea trabajo para otro trabajador tras realizar una acción inicial en el dispositivo móvil. Por ejemplo, cuando un trabajador usa un dispositivo móvil para recibir un artículo, el trabajo de ubicación se crea para otro trabajador. Para configurar un elemento de menú que crea el trabajo, en la página **Elementos de menú del dispositivo móvil**, en el campo **Modo**, seleccione **Trabajo**. En la tabla siguiente, las opciones del campo **Proceso de creación de trabajo** están organizadas por el tipo de pedido de trabajo.
+Puede configurar un elemento de menú que crea trabajo para otro trabajador tras realizar una acción inicial en el dispositivo móvil. Por ejemplo, cuando un trabajador usa un dispositivo móvil para recibir un artículo, el trabajo de ubicación se crea para otro trabajador. Para configurar un elemento de menú que crea el trabajo, en la página **Elementos de menú de dispositivo móvil**, en el campo **Modo**, seleccione **Trabajo**. En la tabla siguiente, las opciones del campo **Proceso de creación de trabajo** están organizadas por el tipo de pedido de trabajo.
 
 <table>
 <tbody>
@@ -204,7 +204,7 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configurar elementos de menú para el trabajo existente del proceso
-Además de los elementos de menú de la configuración para crear el trabajo del almacén, puede configurar los elementos de menú para procesar el trabajo que ya se ha creado. Defina el campo **Modo** en **Trabajo** y seleccione la opción **Usar trabajo existente**. A continuación, algunas opciones adicionales están disponibles en la ficha **General**. Puede controlar el acceso al elemento de menú si asigna una o varias clases de trabajo en la ficha desplegable **Clase de trabajo**. Las clases de trabajo definen el trabajo que el elemento de menú puede procesar. La clase de trabajo también se puede usar para conceder acceso a los roles de usuario específicos o al proceso independiente para distintos tipos de operaciones. En la tabla siguiente se describen las opciones disponibles. La opción se puede elegir en el campo **Dirigido por** en la página **Elementos de menú del dispositivo móvil**. 
+Además de los elementos de menú de la configuración para crear el trabajo del almacén, puede configurar los elementos de menú para procesar el trabajo que ya se ha creado. Defina el campo **Modo** en **Trabajo** y seleccione la opción **Usar trabajo existente**. A continuación, algunas opciones adicionales están disponibles en la ficha **General**. Puede controlar el acceso al elemento de menú si asigna una o varias clases de trabajo en la ficha desplegable **Clase de trabajo**. Las clases de trabajo definen el trabajo que el elemento de menú puede procesar. La clase de trabajo también se puede usar para conceder acceso a los roles de usuario específicos o al proceso independiente para distintos tipos de operaciones. En la tabla siguiente se describen las opciones disponibles. La opción se puede elegir en el campo **Dirigido por** en la página **Elementos de menú de dispositivo móvil**. 
 
 <table>
 
@@ -224,7 +224,7 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </tr>
 <tr class="even">
 <td>Dirigido por el sistema</td>
-<td>Supply Chain Management controla el tipo de trabajo asignado a un trabajador y el pedido en el que el trabajador realiza el trabajo. Cuando selecciona esta opción, puede seleccionar <strong>Trabajo dirigido por el sistema</strong>, en el panel Acciones para abrir la página <strong>Orden de clasificación dirigido por el sistema</strong>, donde puede configurar los criterios de clasificación para el trabajo. Los criterios de ordenación controlan el orden en que el trabajador realiza el trabajo. Puede agregar tantos criterios como sea necesario.</td>
+<td>Supply Chain Management controla el tipo de trabajo asignado a un trabajador y el pedido en el que el trabajador realiza el trabajo. Cuando selecciona esta opción, puede seleccionar <strong>Trabajo dirigido por el sistema</strong>, en el panel Acciones para abrir la página <strong>Orden de clasificación dirigida por el sistema</strong>, donde puede configurar los criterios de ordenación para el trabajo. Los criterios de ordenación controlan el orden en que el trabajador realiza el trabajo. Puede agregar tantos criterios como sea necesario.</td>
 </tr>
 <tr class="odd">
 <td>Dirigido por el usuario</td>
@@ -261,13 +261,13 @@ Esta opción es útil, por ejemplo, cuando varios pallets se almacenan provision
 </tr>
  <tr class="odd">
 <td>Carga de transporte</td>
-<td>Esta función permite que varios trabajadores de almacén carguen el inventario desde la misma carga o diferentes cargas en el mismo camión, con cargas que se envían completamente o parcialmente.</td>
+<td>Esta característica permite que varios trabajadores de almacén carguen el inventario desde la misma carga o diferentes cargas en el mismo camión, con cargas que se envían completamente o parcialmente.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="additional-menu-item-options"></a>Opciones del elemento de menú adicionales
-Las opciones adicionales de los elementos de menú estarán disponibles en la página **Elementos de menú del dispositivo móvil**. Las opciones varían, en función del proceso para el que está configurando el elemento de menú. 
+Las opciones adicionales de los elementos de menú estarán disponibles en la página **Elementos de menú de dispositivo móvil**. Las opciones varían, en función del proceso para el que está configurando el elemento de menú. 
 
 La siguiente tabla describe estas opciones.
 
@@ -429,8 +429,8 @@ La siguiente tabla describe los distintos tipos de trabajo con los que puede usa
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Configurar un elemento de menú del dispositivo móvil para completar trabajo del tipo pedido de compra](tasks/set-up-mobile-device-menu.md)
-- [Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [Configurar un elemento de menú de dispositivo móvil para completar trabajo del tipo pedido de compra](tasks/set-up-mobile-device-menu.md)
+- [Configurar un elemento de menú de dispositivo móvil para registrar los artículos recibidos](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 - [Estados de inventario](../inventory/inventory-statuses.md)
 
 

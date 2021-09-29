@@ -1,7 +1,7 @@
 ---
 title: Cálculo de impuestos en líneas de diario generales
 description: Este tema explica cómo se calculan los impuestos para distintos tipos de cuentas (proveedor, cliente, contabilidad, y proyecto) en las líneas del diario general.
-author: EricWang
+author: EricWangChen
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: EricWang
+ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 96a87e5de3fb247e4554a64ecff3a4c63477b6a70f7a969b80f538601cda08bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746377"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488320"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Cálculo de impuestos en líneas de diario generales
 [!include [banner](../includes/banner.md)]
@@ -99,7 +99,7 @@ La ilustración siguiente muestra la regla que se aplica cuando un asiento sólo
 
 •   Si el código de impuestos es exención de impuestos, la dirección de impuestos es Compra libre de impuestos.
 
-De lo contrario, si el importe del diario es debe (positivo), la dirección de impuestos es Impuesto soportado; si el importe del diario es de crédito (negativo), la dirección de impuestos Impuesto repercutido.
+De lo contrario, si el importe del diario es debe (positivo), la dirección de impuestos es Impuesto soportado; si el importe del diario es de crédito (negativo), la dirección del impuesto es Impuesto repercutido.
 
 El siguiente diagrama muestra gráficamente la regla.
 

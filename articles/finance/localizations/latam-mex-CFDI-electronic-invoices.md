@@ -15,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb5d24158f723fd8002e260698a85ba845d28f0fe2025e740d653b370366b8e5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0836542bcc5d6c7bcd791df60c4bf07f5270e9d
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712137"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485562"
 ---
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 
@@ -92,6 +92,7 @@ Según se indica en detalle en el documento de ámbito de localización para Mé
 - [Consultar e imprimir una factura electrónica](./tasks/mx-00010-inquire-print-electronic-invoice.md)
 - [Cancelar una factura electrónica](./tasks/mx-00010-cancel-electronic-invoice.md)
 - [Versión 3.3 del diseño CFDI](latam-mex-cfdi-3-3.md)
+- [Complemento Hoja de ruta (Carta de Porte) (version 1.0)](latam-mex-carta-de-porte.md)
 
 
 

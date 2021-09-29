@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744187"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488211"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Habilitar la administración de cambios en productos existentes
 
@@ -32,7 +32,7 @@ Cuando habilita la administración de cambios para un producto existente, puede 
 Para usar esta funcionalidad, debe completar las tareas siguientes:
 
 1. Habilite la función de administración de cambios de ingeniería y su clave de configuración como se describe en [Descripción general de la gestión de cambios de ingeniería](product-engineering-overview.md).
-1. Active la función *Habilite la gestión de cambios en productos existentes* en la gestión de funciones. Para más información, consulte [Resumen de administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Active la función *Habilite la gestión de cambios en productos existentes* en la administración de características. Para más información, consulte [Resumen de administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Restricciones y limitaciones
 
@@ -47,7 +47,9 @@ Por lo tanto, si tiene un producto distinto, puede cambiarlo solo a un producto 
 
 Una *categoría de producto de ingeniería* debe asignarse a cada producto de ingeniería. Hará esta tarea cuando ejecute el asistente **Convertir en producto de ingeniería**. Deben existir categorías de productos de ingeniería para todos los productos estándar relevantes *antes de* convertir esos productos.
 
-La categoría de productos de ingeniería proporciona una base para crear un producto de ingeniería y establece un conjunto de valores y políticas predeterminados. La categoría de producto de ingeniería debe coincidir con el producto a la que se asigna. Por ejemplo, el tipo de producto y el grupo de dimensiones deben coincidir tanto con el producto como con su categoría de producto de ingeniería. Para más información, vea [Versiones de ingeniería y categorías de productos de ingeniería](engineering-versions-product-category.md).
+La categoría de productos de ingeniería proporciona una base para crear un producto de ingeniería y establece un conjunto de valores y políticas predeterminados. Los atributos de ingeniería y sus valores predeterminados (según se define para la categoría de ingeniería) también se aplican al producto de ingeniería resultante. Puede editar los valores de los atributos y/o agregar más atributos de ingeniería al producto resultante, según sea necesario.
+
+La categoría de producto de ingeniería debe coincidir con el producto a la que se asigna. Por ejemplo, el tipo de producto y el grupo de dimensiones deben coincidir tanto con el producto como con su categoría de producto de ingeniería. Para más información, vea [Versiones de ingeniería y categorías de productos de ingeniería](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > El asistente **Convertir en producto de ingeniería** puede convertir productos solo en productos de ingeniería en los que no se realiza un seguimiento de la versión en las transacciones. Por lo tanto, la opción **Seguimiento de la versión en transacciones** debe establecerse en *No* para categorías de productos de ingeniería que crea para convertir productos existentes.

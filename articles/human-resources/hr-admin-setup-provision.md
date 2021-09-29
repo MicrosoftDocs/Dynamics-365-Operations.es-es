@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441174"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488092"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -41,6 +41,8 @@ Para poder aprovisionar un nuevo entorno de producción, deben cumplirse los sig
 ## <a name="provision-a-human-resources-trial-environment"></a>Proporcionar un entorno de prueba de recursos humanos
 
 Antes de aprovisionar su primer entorno de pruebas o producción, es posible que desee aprovisionar un [Entorno de prueba de recursos humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) para validar la funcionalidad de Recursos Humanos. Los entornos de prueba contienen datos ficticios que se pueden usar para explorar el programa de forma segura. Aunque un entorno de prueba es propiedad del usuario que lo solicitó, se puede invitar a otros usuarios a través de la experiencia de administración del sistema para Human Resources. 
+
+Los entornos de prueba brindan la capacidad de evaluar la funcionalidad de los recursos humanos para las personas que aún no tienen acceso a un entorno de recursos humanos. Si está aprovisionando un entorno de prueba y el usuario autenticado ya tiene acceso a uno o más entornos de recursos humanos existentes, el usuario será redirigido al entorno o lista de entornos existentes.
 
 Los entornos de prueba no están destinados para su uso como entornos de producción. Están limitados a un período de prueba de 60 días. Cuando expira el período de prueba, el entorno y todos los datos que contiene se eliminan y no se pueden recuperar. El entorno no se puede convertir en un entorno de pruebas o de producción. Puede registrarse para obtener un nuevo entorno de prueba una vez que caduque el entorno existente.
 
@@ -135,7 +137,12 @@ Use la orientación siguiente al determinar en qué entorno de Power Apps implem
    
     - **Geografías no admitidas**: el entorno debe estar en una geografía admitida. Para más información, consulte [Geografías admitidas](hr-admin-setup-provision.md#supported-geographies).
 
-6. Una vez que haya determinado el entorno correcto para utilizar, podrá continuar con el proceso de abastecimiento. 
+6. Las capacidades de doble escritura para integrar datos de Recursos Humanos con el entorno de Power Apps solo se pueden utilizar si la opción **Habilitar aplicaciones de Dynamics 365** se selecciona para el entorno. Consulte [Página de inicio de doble escritura](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) para obtener más información sobre doble escritura.
+
+    > [!NOTE]
+    > La opción **Habilitar aplicaciones de Dynamics 365** debe seleccionarse en el momento de crear el entorno de Power Apps. Si la opción no está seleccionada en el momento del aprovisionamiento, no podrá utilizar la dobe escritura para integrar datos entre Dynamics 365 Human Resources y el entorno de Power Apps, ni instalar aplicaciones de Dynamics 365, como Dynamics 365 Sales y Field Service, en el entorno. Esta opción no es reversible. Para más información, consulte [Algunas consideraciones importantes al crear un nuevo entorno](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) en el sitio de documentación de Power Platform.
+
+7. Una vez que haya determinado el entorno correcto para utilizar, podrá continuar con el proceso de abastecimiento. 
 
 ### <a name="supported-geographies"></a>Geografías admitidas
 

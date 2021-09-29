@@ -2,7 +2,7 @@
 title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. Debe activar la nueva característica de cuadrícula para tener acceso a estas capacidades.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775251"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483863"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -30,7 +30,7 @@ El nuevo control de cuadrícula proporciona varias capacidades útiles y potente
 -  Cálculo de los totales
 -  Escribir por delante del sistema
 -  Evaluar expresiones matemáticas 
--  Agrupar datos tabulares (habilitado por separado usando la característica **(Versión preliminar) Agrupación en cuadrículas**)
+-  Agrupar datos tabulares (habilitado por separado usando la característica **Agrupación en cuadrículas**)
 -  Columnas de congelación
 
 ## <a name="calculating-totals"></a>Cálculo de los totales
@@ -93,7 +93,7 @@ Como un refuerzo de productividad, los usuarios pueden introducir fórmulas mate
 Para que el sistema reconozca un valor como una expresión, comience el valor con un signo igual (**=**). Para obtener más información sobre los operadores y la sintaxis compatibles, consulte [Símbolos matemáticos admitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Agrupación de datos tabulares
-Los usuarios comerciales a menudo necesitan realizar análisis de datos ad-hoc. Si bien esto se puede hacer exportando datos a Microsoft Excel y usando tablas dinámicas, la característica **Agrupación en cuadrículas**, que está disponible de modo general en la versión 10.0.16/Platform update 40 y que depende de la característica de control de cuadrículas nuevas, permite a los usuarios organizar sus datos de manera interesante dentro de las aplicaciones de Finance and Operations. Dado que esta característica extiende la característica **Totales**, **Agrupamiento** también permite obtener información significativa sobre los datos al proporcionar subtotales a nivel de grupo.
+Los usuarios comerciales a menudo necesitan realizar análisis de datos ad-hoc. Si bien esto se puede hacer exportando datos a Microsoft Excel y usando tablas dinámicas, la característica **Agrupación en cuadrículas**, que depende de la característica de control de cuadrículas nuevas, permite a los usuarios organizar sus datos de manera interesante dentro de las aplicaciones de Finance and Operations. Dado que esta característica extiende la característica **Totales**, **Agrupamiento** también permite obtener información significativa sobre los datos al proporcionar subtotales a nivel de grupo.
 
 Para usar esta característica, haga clic con el botón derecho en la columna que desea agrupar y seleccione **Agrupar por esta columna**. Esta acción ordenará los datos por la columna seleccionada, agregará un nuevo **Agrupar por** columna al principio de la cuadrícula e insertará "filas de encabezado" al comienzo de cada grupo. Estas filas de encabezado proporcionan la siguiente información sobre cada grupo: 
 -  Valor de datos para el grupo 
@@ -108,9 +108,6 @@ Una vez que haya agrupado los datos en una sola columna, puede agrupar los datos
 
 En cualquier momento, puede eliminar la agrupación en cualquier columna haciendo clic derecho en esa columna y seleccionando **Desagrupar**. También puede eliminar la agrupación de todas las columnas seleccionando **Opciones de cuadrícula** y después **Desagrupar todo**.   
 
-Tenga en cuenta que antes de la versión 10.0.16 / Platform update 40, solo se admitía un nivel de agrupación. En estas versiones, si los datos están agrupados y selecciona **Agrupar por esta columna** para una columna diferente, se reemplaza la agrupación original.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Expandir y contraer grupos
 La agrupación inicial de datos tendrá todos los grupos expandidos. Puede crear vistas resumidas de los datos contrayendo grupos individuales, o puede usar la expansión y contracción de grupos para ayudar a navegar a través de los datos. Para expandir o contraer un grupo, seleccione el botón de chevron (>) en la fila de encabezado del grupo correspondiente. Tenga en cuenta que el estado expandir/contraer de grupos individuales **no** está guardado en la personalización.
 
@@ -118,10 +115,10 @@ La agrupación inicial de datos tendrá todos los grupos expandidos. Puede crear
 De la misma manera que puede seleccionar (o anular la selección) todas las filas de la cuadrícula seleccionando la casilla de verificación en la parte superior de la primera columna de la cuadrícula, también puede seleccionar rápidamente (o anular la selección) todas las filas de un grupo seleccionando la casilla de verificación en la fila de encabezado de grupo correspondiente. La casilla de verificación en la fila del encabezado del grupo siempre reflejará el estado de selección actual de las filas de ese grupo, independientemente de si todas las filas están seleccionadas, no hay filas seleccionadas o solo algunas filas están seleccionadas.
 
 ### <a name="hiding-column-names"></a>Ocultar nombres de columnas
-Al agrupar datos, el comportamiento predeterminado es mostrar el nombre de la columna en la fila del encabezado del grupo. A partir de la versión 10.0.14/Platform update 38, puede optar por suprimir el nombre de la columna en las filas de encabezado de grupo seleccionando **Opciones de cuadrícula** > **Ocultar el nombre de la columna del grupo**.
+Al agrupar datos, el comportamiento predeterminado es mostrar el nombre de la columna en la fila del encabezado del grupo. Puede optar por suprimir el nombre de la columna en las filas de encabezado de grupo seleccionando **Opciones de cuadrícula** > **Ocultar el nombre de la columna del grupo**.
 
 ## <a name="freezing-columns"></a>Columnas de congelación
-Algunas columnas en una cuadrícula pueden ser lo suficientemente importantes para el contexto como para que no desee que se desplacen fuera de la vista. En su lugar, desea que los valores de esas columnas estén siempre visibles. En la versión 10.0.17, la característica **Congelar columnas en la cuadrícula** proporciona esta flexibilidad a los usuarios. 
+Algunas columnas en una cuadrícula pueden ser lo suficientemente importantes para el contexto como para que no desee que se desplacen fuera de la vista. En su lugar, puede que desee que los valores de esas columnas estén siempre visibles. La característica **Congelar columnas en la cuadrícula** proporciona esta flexibilidad a los usuarios. 
 
 Para congelar una columna, haga clic con el botón derecho en el encabezado de la columna y luego seleccione **Congelar columna**. La primera vez que completa este paso, la columna seleccionada se convierte en la primera columna y ya no se desplazará fuera de la vista. Cualquier columna posterior que congele se agregará a la derecha de la última columna congelada. Puede utilizar la función Mover estándar para reordenar las columnas inmovilizadas según sus necesidades. Sin embargo, las columnas congeladas no se pueden mover para que aparezcan entre el conjunto de columnas no congeladas. De igual modo, las columnas no congeladas no se pueden mover para que aparezcan entre el conjunto de columnas congeladas.
 
@@ -132,32 +129,16 @@ Tenga en cuenta que las columnas de selección de fila y estado de fila en la nu
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>¿Cómo habilito el nuevo control de cuadrícula en mi entorno? 
 
-**10.0.9/Platform update 33 y posterior**
+La característica **Nuevo control de cuadrícula** está disponible directamente en la administración de características de cualquier entorno. Después de habilitar la función en Administración de características, todas las sesiones de usuario posteriores utilizarán el nuevo control de cuadrículas. 
 
-La característica **Nuevo control de cuadrícula** está disponible directamente en la administración de características de cualquier entorno. Al igual que otras características de vista previa pública, la habilitación de esta característica en producción está sujeta a [Acuerdo de términos de uso complementarios](public-preview-terms.md).  
-
-**10.0.8/Platform update 32 y 10.0.7/Platform update 31**
-
-La característica **Nuevo control de cuadrícula** se puede habilitar en entornos de Nivel 1 (desarrollo/prueba) y Nivel 2 (espacio aislado) para proporcionar pruebas adicionales y cambios de diseño siguiendo los pasos que se describen a continuación.
-
-1.  **Habilite el tramo**: ejecute la instrucción SQL siguiente: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. **Restablecer IIS** para vaciar la memoria caché estática de la distribución de paquetes piloto. 
-
-3.  **Encontrar la característica**: vaya al espacio de trabajo **Administración de características**. Si **Nuevo control de cuadrícula** no aparece en la lista de todas las características, seleccione **Buscar actualizaciones**.   
-
-4.  **Habilitar la característica**: encuentre la característica **Nuevo control de cuadrícula** en la lista de características y seleccione **Habilitar ahora** en el panel de detalles. Tenga en cuenta que se requiere una actualización del navegador. 
-
-Todas las sesiones de usuario posteriores comenzarán con el nuevo control de cuadrícula habilitado.
+Esta característica está habilitada de forma predeterminada a partir de la versión 10.0.21 y se prevé que sea obligatoria con la versión 10.0.25. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desarrollador] Desactivar páginas individuales para que no usen la nueva cuadrícula 
-Si su organización detecta una página que tiene problemas al utilizar la nueva cuadrícula, hay una API disponible a partir de la versión 10.0.13/Platform update 37 para permitir que un formulario individual use el control de cuadrícula heredado al mismo tiempo que permite que el resto del sistema utilice el nuevo control de cuadrícula. Para excluir una página individual de la nueva cuadrícula, agregue la siguiente publicación de llamada `super()` en el método `run()` del formulario.
+Si su organización detecta una página que tiene problemas al utilizar la nueva cuadrícula, hay una API disponible para permitir que un formulario individual use el control de cuadrícula heredado al mismo tiempo que permite que el resto del sistema utilice el nuevo control de cuadrícula. Para excluir una página individual de la nueva cuadrícula, agregue la siguiente publicación de llamada `super()` en el método `run()` del formulario.
 
  ```this.forceLegacyGrid();```
 
-Esta API se aplicará hasta la versión de octubre de 2021, cuando el nuevo control de cuadrícula se vuelva obligatorio. Si algún problema requiere el uso de esta API, notifíqueselo a Microsoft.
+Esta API se mantendrá hasta que el nuevo control de red se vuelva obligatorio, que actualmente está previsto para abril de 2022. Si algún problema requiere el uso de esta API, notifíqueselo a Microsoft.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forzar una página a usar la nueva cuadrícula después de haber optado previamente por no recibir la cuadrícula
 Si ha optado por que una página individual no use la nueva cuadrícula, es posible que desee volver a habilitar la nueva cuadrícula después de que se hayan resuelto los problemas subyacentes. Para hacer esto, simplemente necesita eliminar la llamada a `forceLegacyGrid()`. El cambio no entrará en vigor hasta que ocurra una de las siguientes situaciones:

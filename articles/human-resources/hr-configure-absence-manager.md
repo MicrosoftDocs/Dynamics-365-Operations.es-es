@@ -2,7 +2,7 @@
 title: Configurar el rol de administrador de ausencias
 description: Este tema explica cómo configurar el rol de administrador de ausencias para la gestión de las vacaciones de los empleados.
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732354"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485763"
 ---
 # <a name="configure-the-absence-manager-role"></a>Configurar el rol de administrador de ausencias
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 En algunas organizaciones, es posible que los gerentes de personas no administren la licencia para su equipo. En cambio, un administrador de ausencias podría manejar este proceso para los miembros del equipo en múltiples departamentos y equipos. Los administradores de ausencias tienen las siguientes capacidades para la gestión de licencias:
 
@@ -38,7 +36,7 @@ En algunas organizaciones, es posible que los gerentes de personas no administre
 
 1. En el espacio de trabajo **Administración del sistema**, seleccione **Administración de características**.
 
-2. En la pestaña **Gestión de funciones**, habilite la característica **(Vista previa) Gestor de ausencias para gestionar bajas**.
+2. En la pestaña **Administración de características**, habilite la característica **Gestor de ausencias para gestionar bajas**.
 
 ## <a name="define-a-custom-hierarchy"></a>Definir una jerarquía personalizada
 
@@ -89,7 +87,7 @@ El rol de administrador de ausencias debe asignarse a los empleados para permiti
 
 ## <a name="absence-manager-workspace"></a>Área de trabajo del administrador de ausencias
 
-En el espacio de trabajo **Autoservicio para los empleados**, la pestaña **Administrador de bajas** muestra la información de ausencias sobre los empleados que están asignados al administrador de ausencias en la jerarquía de ausencias. Hay algunas opciones disponibles para el administrador de ausencias: 
+En el espacio de trabajo **Autoservicio para los empleados**, la pestaña **Administrador de bajas** muestra la información de ausencias de los empleados que están asignados al administrador de ausencias en la jerarquía de ausencias. Hay algunas opciones disponibles para el administrador de ausencias: 
  - Revise las solicitudes de permisos.</br>
  - Envíe una solicitud de permiso en nombre de un empleado.</br>
  - Vea todos los empleados asignados a ellos como parte de la jerarquía de bajas.</br>
@@ -103,10 +101,10 @@ En el espacio de trabajo **Administrador de bajas**, hay dos pestañas:
 
 ## <a name="approve-time-off-requests"></a>Aprobar solicitudes de permisos
 
-Los administradores de ausencias pueden aprobar o denegar las solicitudes de tiempo libre para los empleados. 
+Los administradores de ausencias pueden aprobar o denegar las solicitudes de permisos de los empleados. 
 
 > [!IMPORTANT]
-> Antes de que los administradores de ausencia puedan aprobar o denegar las solicitudes de tiempo libre, el flujo de trabajo de la solicitud de ausencia debe configurarse para asignarles elementos de trabajo de solicitud de ausencia para su revisión.
+> Antes de que los administradores de ausencias puedan aprobar o denegar las solicitudes de tiempo libre, el flujo de trabajo de solicitudes de ausencia debe configurarse para asignar elementos de trabajo de solicitud de ausencia para su revisión.
 >
 > 1. En la página **Flujos de trabajo de recursos humanos**, seleccione o cree el flujo de trabajo de solicitud de permiso.
 > 2. Seleccione la opción **Jerarquía asociada** y luego, en el campo **Nombre de la jerarquía**, seleccione **Baja**.
@@ -124,7 +122,7 @@ Alternativamente, el usuario también puede utilizar el icono **Solicitudes de p
 
 ## <a name="view-time-off-in-the-calendar"></a>Ver tiempo libre en el calendario
 
-Los usuarios con la función de administrador de ausencias pueden ver las solicitudes de tiempo libre en su calendario. Siga estos pasos para acceder al calendario de bajas.
+Los usuarios con el rol Administrador de ausencias pueden ver las solicitudes de permisos en su calendario. Siga estos pasos para acceder al calendario de bajas.
 
 > [!IMPORTANT]
 > Un administrador del sistema debe configurar las opciones de visualización para el calendario del administrador de ausencias. En la página **Parámetros de bajas y ausencias**, en la pestaña **Calendario**, hay opciones para ocultar o mostrar cumpleaños, ausencias sin detalles, permisos y solicitudes de permisos pendientes. También hay una opción para filtrar la opción de vista de calendario por tipo de trabajador.

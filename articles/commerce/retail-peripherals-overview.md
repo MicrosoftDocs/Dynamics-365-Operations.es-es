@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715343"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500312"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -101,7 +101,7 @@ Los dispositivos de digitalizador de firmas se pueden conectar directamente con 
 
 Las balanzas se puede conectar al equipo mediante USB con controladores de OPDV. Cuando un producto que se marca como producto “pesado” se agrega a una transacción, el PDV lee el peso de la balanza, agrega al producto a la transacción y utiliza la cantidad ha proporcionado la balanza.
 
-### <a name="pin-pad"></a>Terminal para ingreso de PIN
+### <a name="pin-pad"></a>Terminal para introducción de PIN
 
 Las terminales para el ingreso del número de identificación personal (PIN) se admiten a través de OPDV, pero deben administrarse a través de un conector de pago.
 
@@ -319,7 +319,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <td>OPDV</td>
 </tr>
 <tr class="odd">
-<td>Terminal para ingreso de PIN</td>
+<td>Terminal para introducción de PIN</td>
 <td>OPDV (el soporte se proporciona con personalización del conector de pago.)</td>
 </tr>
 <tr class="even">
@@ -402,7 +402,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <td>OPDV</td>
 </tr>
 <tr class="even">
-<td>Terminal para ingreso de PIN</td>
+<td>Terminal para introducción de PIN</td>
 <td>OPDV (el soporte se proporciona con personalización del conector de pago.)</td>
 </tr>
 <tr class="odd">
@@ -562,7 +562,7 @@ Esta configuración se puede utilizar para todos los clientes de Modern POS que 
 > Si los dispositivos utilizan a menudo distintas estaciones de hardware, recomendamos que configure Modern POS para solicitar a los cajeros que seleccionen una estación de hardware al iniciar el proceso de forma de pago. Haga clic en **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Registros**. Seleccione el registro y, después, establezca la opción **Seleccionar en pago** en **Sí**. Use la programación de distribución **1090** para sincronizar los cambios con la base de datos de canal.
 
 ## <a name="extensibility"></a>Extensibilidad
-Para obtener información sobre los escenarios de extensibilidad para la estación de hardware, consulte [Extensibilidad de la estación de hardware](dev-itpro/hardware-station-extensibility.md).
+Para obtener información sobre escenarios de extensibilidad para la estación de hardware, consulte [Integrar el POS con un nuevo dispositivo de hardware y generar el instalador de extensiones](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Seguridad
 Según las normas actuales de seguridad, los valores siguientes se deben usar en un entorno de producción: 
@@ -630,7 +630,7 @@ Los siguientes periféricos se probaron mediante la estación de hardware de IPC
 | HP integrado | E1L07AA       | OPDV      |          |
 | Datalogic     | Magellan 8400 | OPDV      |          |
 
-#### <a name="pin-pad"></a>Terminal para ingreso de PIN
+#### <a name="pin-pad"></a>Terminal para introducción de PIN
 
 | Fabricante | Modelo  | Interfaz | Comentarios                                        |
 |--------------|--------|-----------|-------------------------------------------------|
@@ -703,7 +703,7 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 | Símbolo        | LS2208  | OPDV      |          |
 | HP integrado | E1L07AA | OPDV      |          |
 
-#### <a name="pin-pad"></a>Terminal para ingreso de PIN
+#### <a name="pin-pad"></a>Terminal para introducción de PIN
 
 | Fabricante | Modelo  | Interfaz | Comentarios                                        |
 |--------------|--------|-----------|-------------------------------------------------|

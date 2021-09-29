@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474901"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506864"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novedades y cambios en la versión 10.0.19 de Dynamics 365 Supply Chain Management (junio de 2021)
 
@@ -40,8 +40,7 @@ La mayoría de estas características deben habilitarse mediante la [Administrac
 | Inventario y logística | [Mejoras incrementales para las capacidades de ejecución del almacén con unidades de escalado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Mensajes del procesador de mensajes](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Ajuste de inventario de almacén](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Inventario y logística | [Funcionalidad de búsqueda para los campos Introducción de documento y Conclusión de documento en la página presupuesto de venta](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Esta función añade la funcionalidad de búsqueda para los campos **Introducción de documento** y **Conclusión de documento** en la página **Presupuesto de venta**.<br><br>De forma predeterminada, esta característica está habilitada. |
 | Inventario y logística | [Ejecución de almacén con unidades de escalado de borde en su hardware personalizado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Implementar unidades de escalado de borde en hardware personalizado usando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Fabricación | [Ejecución de fabricación con unidades de escalado de borde en su hardware personalizado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Implementar unidades de escalado en el perímetro en hardware personalizado mediante LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Planificada | [Programación de capacidad infinita para Optimización de planificación](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Programación con capacidad infinita](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| Fabricación | [Ejecución de fabricación con unidades de escalado de borde en su hardware personalizado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Implementar unidades de escalado de borde en hardware personalizado usando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Planificada | Confirmación de pedidos planificados basada en consultas | [Poner en firme pedidos planificados](../master-planning/planning-optimization/planned-order-firming.md) |
 | Gestión de información de productos | [Mejoras de la página de sugerencias de variantes](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Crear variantes de productos predefinidas](../pim/tasks/create-predefined-product-variants.md) |
 

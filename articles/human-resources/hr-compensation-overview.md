@@ -1,8 +1,8 @@
 ---
 title: Planes de compensación
-description: Los directores de compensación y de prestaciones pueden usar la Administración de compensaciones para mantener y procesar los planes de compensación variable y fija para los empleados de la organización.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Este tema describe cómo utilizar la administración de compensación para administrar y procesar planes de compensación.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dafba542ec1421a6ef3437d9c2f22e0c363e557d7f5b6410af36fc7cb8d4be7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64169ebc5bbd2f0a9b4be3d4ec076c8814e6eb97
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732450"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483838"
 ---
 # <a name="compensation-plans"></a>Planes de compensación
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Los directores de compensación y de prestaciones pueden usar la Administración de compensaciones para mantener y procesar los planes de compensación variable y fija para los empleados de la organización.
+Los directores de compensación y de prestaciones pueden usar **Administración de compensaciones** para mantener y procesar los planes de compensación variable y fija para los empleados de la organización.
 
 ### <a name="introduction"></a>Introducción
 
@@ -43,7 +43,7 @@ En la tabla siguiente se muestran los componentes del proceso de compensación q
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Más información...</th>
+<th>Más información</th>
 </tr>
 </thead>
 <tbody>
@@ -89,7 +89,7 @@ En la tabla siguiente se muestran los componentes del proceso de compensación q
 </tr>
 <tr class="even">
 <td>Punto de control</td>
-<td>El punto de control define qué considerar el índice salarial ideal para todos los empleados de un nivel de compensación. Para estructuras de plan medio, los puntos de control suelen ser el punto medio de los intervalos. Las estructuras de la ficha desplegable raramente usan puntos de control. Puede especificar el punto de control de un plan de compensación fija en el formulario Planes de compensación fija.</td>
+<td>El punto de control define qué considerar el índice salarial ideal para todos los empleados de un nivel de compensación. Para estructuras de plan medio, los puntos de control suelen ser el punto medio de los intervalos. Las estructuras de la ficha desplegable raramente usan puntos de control. Puede especificar el punto de control de un plan de compensación fija en la página **Planes de compensación fija**.</td>
 </tr>
 <tr class="odd">
 <td>Funciones de trabajo</td>

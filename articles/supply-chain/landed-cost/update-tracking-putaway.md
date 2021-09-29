@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d2e1e4596a6052ea80d6e578dccf2564269d97444cd5b302acb5968cca2c884f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d8e2a42d8e12a5a9cf18e876b6f9e45ecb877881
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782596"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500032"
 ---
 # <a name="update-tracking-for-put-away"></a>Seguimiento de actualización para ubicación
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 La tarea periódica *Actualizar seguimiento de colocación* está diseñada para ejecutarse como un lote recurrente nocturno. Identifica qué viajes han recibido todas las transacciones de inventario y qué viajes no tienen un valor para la fecha de finalización real. A continuación, establece la fecha de finalización real en la fecha actual según sea necesario.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729419"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500484"
 ---
 # <a name="process-review-and-post-rebates"></a>Procesar, revisar y publicar devoluciones
 
@@ -43,8 +43,6 @@ La tarea periódica **Calcular el precio de compra FIFO** se debe ejecutar para 
 Vaya a **Gestión de devoluciones \> Tareas periódicas \> Calcular el precio de compra FIFO**. En el cuadro de diálogo que aparece, seleccione **Aceptar** para ejecutar el cálculo.
 
 ## <a name="create-source-transactions"></a>Crear transacciones de origen
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Puede crear los pedidos de venta o los pedidos de compra que tengan transacciones de origen antes o después de crear un acuerdo de gestión de devoluciones aplicable.
 
@@ -158,8 +156,6 @@ En lugar de procesar acuerdos o líneas de acuerdos específicos, puede ejecutar
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>Procesar acuerdos utilizando el banco de trabajo de devoluciones
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 En lugar de procesar acuerdos o líneas de acuerdos específicos, use el *banco de trabajo de devoluciones* para procesar varios acuerdos al mismo tiempo. Opcionalmente, puede aplicar filtros de registro y / o configurar una programación periódica. No tiene que seleccionar ninguna fila. El sistema procesará todas las líneas que cumplan con los requisitos de fecha y filtro que configuró.
 
 Para procesar acuerdos mediante el banco de trabajo de devoluciones, siga estos pasos.
@@ -213,8 +209,6 @@ Para ver y editar las transacciones de gestión de devoluciones mediante la pág
 > Si usa un proceso de reclamaciones, cuando procese el siguiente período, la lista de transacciones incluirá todas las transacciones no reclamadas de la publicación anterior, más cualquier transacción nueva para el período seleccionado.
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>Ver y editar las transacciones de gestión de devoluciones mediante el banco de trabajo de devoluciones
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Para ver y editar las transacciones de gestión de devoluciones mediante el banco de trabajo de devoluciones, siga estos pasos.
 
@@ -295,8 +289,6 @@ En lugar de publicar transacciones para acuerdos o líneas de acuerdos específi
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>Registrar transacciones utilizando el banco de trabajo de devoluciones
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Una vez que haya procesado las transacciones de provisión, devolución o cancelación, siga estos pasos para usar el banco de trabajo de devoluciones para revisar y registrar las transacciones generadas para una o más líneas de transacciones específicas para todas las ofertas.
 
 1. Vaya a **Gestión de devoluciones \> Acuerdos de gestión de devoluciones \>Banco de trabajo de devoluciones**.
@@ -332,8 +324,6 @@ Para revisar los asientos de diario que están asociados con un acuerdo de gesti
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>Revisar los diarios utilizando el banco de trabajo de devoluciones
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Para revisar diarios mediante el banco de trabajo de devoluciones, siga estos pasos.
 
 1. Vaya a **Gestión de devoluciones \> Acuerdos de gestión de devoluciones \>Banco de trabajo de devoluciones**.
@@ -342,8 +332,6 @@ Para revisar diarios mediante el banco de trabajo de devoluciones, siga estos pa
 1. Aparece una lista de diarios, documentos o elementos relevantes. Para ver más información sobre cualquier diario, documento o artículo, seleccione su fila y luego, en el Panel de acciones, seleccione **Ver detalles**.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Transacciones de gestión de devoluciones en el banco de trabajo de deducción
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Cuando registra una transacción de gestión de devoluciones que tiene uno de los siguientes valores de **Tipo de pago**, el sistema crea un diario de deducción de cliente o una factura de servicios para la cuenta de cliente relevante:
 
@@ -358,8 +346,6 @@ Para obtener más información, consulte [Gestionar las deducciones utilizando e
 
 ## <a name="purge-unposted-transactions"></a>Purgar transacciones no contabilizadas
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Una vez que haya procesado las transacciones de provisión, devolución o cancelación, siga estos pasos para depurar las transacciones seleccionadas no contabilizadas.
 
 1. Vaya a **Gestión de devoluciones \> Acuerdos de gestión de devoluciones \>Banco de trabajo de devoluciones**.
@@ -368,8 +354,6 @@ Una vez que haya procesado las transacciones de provisión, devolución o cancel
 4. Seleccione **Aceptar** para eliminar las transacciones no contabilizadas.
 
 ## <a name="cancel-a-posted-provision"></a>Cancelar una provisión publicada
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Una vez que haya procesado y publicado una provisión, siga estos pasos para cancelar las transacciones de provisión publicadas.
 

@@ -2,7 +2,7 @@
 title: Listo para pagar
 description: Este tema muestra cómo marcar a un empleado como listo para pagar Dynamics 365 Human Resources.
 author: marcelbf
-ms.date: 07/13/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70b3f31db459fe021caf08fe09b2e44a597294d1992ee16a69efd8745941a4bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732426"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483791"
 ---
 # <a name="ready-to-pay"></a>Listo para pagar
 
@@ -29,9 +29,9 @@ ms.locfileid: "6732426"
 [!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
-> Si desea marcar a un empleado como listo para pagar, primero debe habilitar la característica **(Vista previa) integración de nómina** en la gestión de funciones. Para obtener más información sobre la habilitación de características en vista previa, consulte [Administrar características](hr-admin-manage-features.md).
+> Si desea marcar a un empleado como listo para pagar, primero debe habilitar la característica **(Vista previa) integración de nómina** en la administración de características. Para obtener más información sobre la habilitación de características en vista previa, consulte [Administrar características](hr-admin-manage-features.md).
 
-Esta función permite a los profesionales de recursos humanos comprender qué empleados están listos para el procesamiento de nómina y cuáles requieren acción antes de ser consumidos por un proveedor de nómina externo.
+Esta característica permite a los profesionales de recursos humanos comprender qué empleados están listos para el procesamiento de nómina y cuáles requieren acción antes de ser consumidos por un proveedor de nómina externo.
 
 ## <a name="mark-employee-as-ready-to-pay"></a>Marcar al empleado como listo para pagar
 
@@ -39,7 +39,7 @@ Recopilar y validar la información de los empleados puede llevar mucho tiempo y
 
 Para marcar un empleado como listo para pagar:
 
-1. Abra **Administración de compensaciones**. Hay dos mosaicos en el espacio de trabajo 
+1. Abra **Administración de compensaciones**. Hay dos mosaicos en el espacio de trabajo: 
     - **Empleados que están listos para pagar**
     - **Empleados que no están dispuestos a pagar**
     ![Espacio de trabajo de gestión de compensaciones.](./media/hr-ready-to-pay-1-workspace.png)
@@ -53,22 +53,20 @@ Para marcar un empleado como listo para pagar:
 
 ## <a name="validation"></a>Validación
 
-Antes de marcar a un empleado como listo para pagar, el sistema realizará una validación básica de la integridad del perfil.
+Antes de marcar a un empleado como listo para pagarle, se validará si está completo el perfil del empleado.
 
 ![Validar los resultados.](./media/hr-ready-to-pay-3-results.png)
 
-La siguiente tabla ofrece información acerca de cada una de las validaciones que se realizan. 
-
 | Validación | Detalles |
 | --- | --- |
-| Parámetro de propósito de la dirección | Validar si el parámetro **Usar direcciones de nómina con propósito** está activado. |
-| Dirección de nómina | Valida si el perfil de trabajador tiene al menos una dirección con el propósito "Lugar de residencia de nómina" o "Lugar de trabajo de nómina", y solo hay una dirección por propósito. |
-| Empleo | Verifique si el trabajador tiene al menos un empleo (actual, anterior o futuro). |
-| Número de identificación | Valida si el parámetro "Usar tipos de identificación en el procesamiento de nómina" es sí, y si el tipo de identificación indicado en el parámetro se completa en el perfil del trabajador. |
-| Nombre y apellidos | Valida si el perfil del trabajador es válido, comprobando si los campos **Nombre** y **Apellido** están rellenados.|
-| Trabajo | Verifique si el trabajador tiene un puesto asignado. |
-| Fecha de nacimiento | Valida si el perfil del trabajador es válido, comprobando si el campo **Fecha de nacimiento** está rellenado. |
-| Compensación | Verifique si el trabajador está inscrito en un plan de compensación fijo. |
+| **Parámetro de propósito de la dirección** | Validar que esté seleccionado el parámetro **Usar finalidad de direcciones de nómina**. |
+| **Dirección de nómina** | Confirma si el perfil de trabajador tiene al menos una dirección con la finalidad **Lugar de residencia de nómina** o **Lugar de trabajo de nómina**, y solo hay una dirección por finalidad. |
+| **Empleo** | Confirma que el trabajador tiene al menos un empleo (actual, anterior o futuro). |
+| **Número de identificación** | Confirma si el campo **Usar tipos de identificación en el procesamiento de nómina** tiene calor **Sí** en la página **Parámetros de recursos humanos** y si el tipo de identificación indicado en el parámetro se completa en el perfil del trabajador. |
+| **Nombre y apellidos** | Confirma que los campos **Nombre** y **Apellido** están rellenos.|
+| **Posición** | Confirma si el trabajador tiene un puesto asignado. |
+| **Fecha de nacimiento** | Confirma que el campo **Cumpleaños** está lleno. |
+| **Compensación** | Confirma que el trabajador está inscrito en un plan de compensación fija. |
 
 Si una de estas validaciones falla, no puede marcar al empleado como listo para pagar.
 
@@ -76,8 +74,8 @@ Si el campo **Listo para pagar** es **No**, esto es una indicación de que debe 
 
 ## <a name="known-issues"></a>Problemas conocidos
 
-- Debes deshabilitar la función **Entrada de empleados simplificada** en la gestión de funciones. Los mosaicos en el espacio de trabajo de administración de compensación no funcionarán correctamente si usa esta función.
-- En el formulario del trabajador, la **Ficha nómina** y el grupo **Listo para pagar** están disponibles para cualquier rol de usuario. 
+- Debes deshabilitar la función **Entrada de empleados simplificada** en la administración de características. Los mosaicos en el espacio de trabajo de administración de compensación no funcionarán correctamente si usa esta función.
+- En la página **Trabajador**, la **Pestaña Nómina** y el grupo **Listo para pagar** están disponibles para cualquier rol de usuario. 
 
 ## <a name="see-also"></a>Consulte también
 

@@ -1,8 +1,8 @@
 ---
 title: Configurar tipos de permisos y ausencias
 description: Configure los tipos de baja que los empleados pueden tomar en Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730427"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485820"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de permisos y ausencias
 
@@ -65,7 +65,7 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
 
 1. Establezca opciones de redondeo para el tipo de baja. Las opciones incluyen **Ninguno**, **Arriba**, **Abajo** y **Aproximación**. También puede establecer la precisión de redondeo para el tipo de baja.
 
-2. Establezca **Corrección de día festivo** para el tipo de baja. Cuando selecciona esta opción, Human Resources usa el número de días festivos que caen en un día laboral para determinar cómo acumular tiempo libre para el tipo de baja. Por ejemplo, si el día de Navidad cae en lunes, Human Resources restará un día del tipo de baja al procesar las acumulaciones.
+2. Establezca **Corrección de día festivo** para el tipo de baja. Cuando selecciona esta opción, el número de días festivos que caen en un día laboral se utilizará para determinar cómo acumular los permisos para el tipo de baja. Por ejemplo, si el día de Navidad cae en lunes, Human Resources restará un día del tipo de baja al procesar las acumulaciones.
 
    Puede establecer días festivos en el calendario de tiempo laborable. Para obtener más información, consulte [Crear un calendario de horas de trabajo](hr-leave-and-absence-working-time-calendar.md).
    
@@ -76,7 +76,7 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
 ## <a name="configure-the-required-attachment-per-leave-type"></a>Configurar los requisitos de archivos adjuntos por tipo de licencia
 
 > [!NOTE]
-> Para usar el campo **Se requiere adjunto**, primero debe activar la función **(Vista previa) Configurar el archivo adjunto requerido para las solicitudes de licencia** en la gestión de funciones. Para obtener más información acerca cómo activar las características de vista previa, consulte [Administrar características](hr-admin-manage-features.md).
+> Para usar el campo **Se requiere adjunto**, primero debe activar la función **Configurar el archivo adjunto requerido para las solicitudes de baja** en Administración de características. Para obtener más información acerca cómo activar las características, consulte [Administrar características](hr-admin-manage-features.md).
 
 1. En la página **Baja y ausencia**, en la pestaña **Enlaces**, en **Configuración**, seleccione **Tipos de bajas y ausencias**.
 
@@ -87,7 +87,7 @@ Se requerirá que los empleados carguen un archivo adjunto cuando envíen una nu
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Configurar unidades (horas/días) de baja por tipo de baja
 
 > [!NOTE]
-> Para usar la función de unidades de licencia por tipo de licencia, primero debe encender el **(Vista previa) Configurar unidades de licencia por tipo de baja** en la gestión de funciones. Para obtener más información acerca cómo activar las características de vista previa, consulte [Administrar características](hr-admin-manage-features.md).
+> Para usar la funcionalidad de unidades de baja por tipo de baja, primero debe activar la característica **Configurar unidades de licencia por tipo de baja** en la administración de características. Para obtener más información acerca cómo activar las características, consulte [Administrar características](hr-admin-manage-features.md).
 
 > [!IMPORTANT]
 > De forma predeterminada, los tipos de permisos de una entidad jurídica utilizan las unidades de permisos de la configuración de los parámetros de permisos a nivel de entidad jurídica.

@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417091"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486955"
 ---
 # <a name="swedish-intrastat"></a>Intrastat sueco
 
@@ -48,7 +48,7 @@ Para obtener más información, consulte [Descargue las configuraciones de ER de
 3. En el campo **Asignación de formato de informe**, seleccione **Informe Intrastat**.
 4. En la ficha desplegable **Jerarquía de códigos de bienes**, en el campo **Jerarquía de categorías**, seleccione **Intrastat**.
 5. En el campo **Codigo de transacción**, seleccione el código de transacción para transferencias de propiedad. Use este código para transacciones que provoquen transferencias de propiedad reales o planificadas a cambio de una compensación (financieras o de otro tipo). Úselo también para correcciones. Las empresas de Suecia utilizan códigos de transacción de un dígito.
-6. En el campo **Nota de abono**, seleccione el código de transacción para la devolución de mercancías. Use este código para la devolución de mercancías después de que la transacción se registrara originalmente bajo el código de transacción. Las empresas de Suecia utilizan códigos de transacción de un dígito.
+6. En el campo **Nota de abono**, seleccione el código de transacción para la devolución de mercancías.
 7. En la pestaña **Propiedades de país o región**, en el campo **País o región**, enumere todos los países o regiones con los que su organización hace negocios. Para cada país o región que forma parte de la UE, en el campo **Tipo de país o región**, seleccione **UE**, para que el país o la región aparezca en su informe de Intrastat.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>Configurar los parámetros del producto para la declaración de Intrastat

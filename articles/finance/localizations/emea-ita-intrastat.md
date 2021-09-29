@@ -1,20 +1,20 @@
 ---
 title: Intrastat italiano
 description: Este tema contiene información sobre los informes Intrastat en Italia.
-author: andosip
-ms.date: 7/9/2021
+author: anasyash
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: f80a82f4c3c00ee263cc0bf31b0dc5fc69a05dea324fe96e3e0db9a13a488fac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779377"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488268"
 ---
 # <a name="italian-intrastat"></a>Intrastat italiano
 
@@ -597,13 +597,10 @@ Debe enviar dos informes a las autoridades. Un informe es para envíos intracomu
 
 - **Portada**
 
-- **Sección 1. Bienes** - Esta sección contiene información sobre transacciones normales y notas de crédito relacionadas con facturas de bienes en el mismo período de informe que el período de declaración Intrastat.
-
-- **Sección 2. Correcciones para bienes** - Esta sección contiene información sobre correcciones y notas de crédito relacionadas con facturas de bienes en períodos de declaraciones Intrastat previo.
-
-- **Sección 3. Servicios** - Esta sección contiene información sobre transacciones normales y notas de crédito relacionadas con facturas de servicios en el mismo período de informe que el período de declaración Intrastat.
-
-- **Sección 4. Correcciones para servicios** - Esta sección contiene información sobre correcciones y notas de crédito relacionadas con facturas de servicios en períodos de declaraciones Intrastat previo.
+- **Sección 1. Bienes**: esta sección contiene información sobre transacciones normales y notas de crédito relacionadas con facturas de bienes en el mismo período de informe que el período de declaración Intrastat.
+- **Sección 2. Correcciones de bienes**: esta sección contiene información sobre correcciones y notas de crédito relacionadas con facturas de bienes en períodos anteriores de declaraciones Intrastat.
+- **Sección 3. Servicios**: esta sección contiene información sobre transacciones normales y notas de crédito relacionadas con facturas de servicios en el mismo período de informe que el período de declaración Intrastat.
+- **Sección 4. Correcciones de servicios**: esta sección contiene información sobre correcciones y notas de crédito relacionadas con facturas de servicios en períodos anteriores de declaraciones Intrastat.
 
 ## <a name="set-up-intrastat"></a>Configurar Intrastat
 
@@ -611,21 +608,14 @@ Debe enviar dos informes a las autoridades. Un informe es para envíos intracomu
 
 La siguiente información general debe configurarse antes de comenzar a trabajar con Intrastat:
 
--   Códigos de mercancías. Para los servicios, debe definir códigos de productos básicos de seis dígitos.
-
--   Códigos de transacción. Tenga en cuenta que Italia utiliza códigos de transacción de un dígito.
-
--   Métodos de transporte.
-
--   Procedimientos de estadísticas.
-
--   Parámetros de comercio exterior.
-
--   Almacenes.
-
--   Detalles de producto emitido.
-
--   Información de contacto del agente.
+   - Códigos de mercancías. Para los servicios, debe definir códigos de productos básicos de seis dígitos.
+   - Códigos de transacción. Tenga en cuenta que Italia utiliza códigos de transacción de un dígito.
+   - Métodos de transporte.
+   - Procedimientos de estadísticas.
+   - Parámetros de comercio exterior.
+   - Almacenes.
+   - Detalles de producto emitido.
+   - Información de contacto del agente.
 
 Para obtener más información, consulte [Resumen de Intrastat](emea-intrastat.md).
 
@@ -633,97 +623,68 @@ Para obtener más información, consulte [Resumen de Intrastat](emea-intrastat.m
 
 Siga estos pasos para configurar opciones específicas de italiano para que pueda trabajar con Intrastat.
 
-1.  En [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index), en la Biblioteca de activos compartidos, descargue la últimas versión de las configuraciones de informes electrónicos (ER) para el siguiente formato de declaración de Intrastat:
+1. En [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index), en la Biblioteca de activos compartidos, descargue la últimas versión de las configuraciones de informes electrónicos (ER) para el siguiente formato de declaración de Intrastat:
 
-    -   Modelo intrastat
+    - Modelo intrastat
+    - Informe intrastat
+    - Intrastat (IT)
 
-    -   Informe intrastat
+    Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-    -   Intrastat (IT)
+2. En Dynamics 365 Finance, vaya a **Impuestos** > **Configuración** > **Parámetros de comercio exterior**.
+3. En la pestaña **Intrastat**, en la ficha desplegable **General**, establezca los siguientes campos:
 
-Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+    - **Provincia de origen/destino**: seleccione la provincia de su empresa. Esta provincia se utilizará en los despachos.
+    - **Codigo de transacción**: seleccione el código de transacción para transferencias de propiedad. Este código se utilizará para transacciones que provoquen una transferencia de propiedad real o planificada contra compensación, y también para correcciones.
 
-2.  En Dynamics 365 Finance, vaya a **Impuestos** &gt; **Configuración** &gt; **Parámetros de comercio extranjero**.
+    - **Nota de crédito**: seleccione el código de transacción para la devolución de mercancías.
+    - **Periodo de informe de ventas**: seleccione el período de informe para la declaración de exportación: **Mes** o **Trimestre**. Las declaraciones trimestrales se exportan en formato simplificado.
+    - **Periodo de informe de compras**: seleccione el período de informe para la declaración de importación: **Mes** o **Trimestre**. Las declaraciones trimestrales se exportan en formato simplificado.
 
-3.  En la pestaña **Intrastat**, en la ficha desplegable **General**, establezca los siguientes campos:
+4. En la ficha desplegable **Informes electrónicos**, establezca los siguientes campos:
 
-    - **Provincia de origen / destino** - Seleccione la Provincia de su empresa. Esta provincia se utilizará en los despachos.
+    - **Asignación de formato de archivo**: seleccione **Intrastat (IT)**.
+    - **Asignación de formato de informe**: seleccione **Informe Intrastat**.
 
-    <!-- -->
+5. En la ficha desplegable **Jerarquía de códigos de bienes**, en el campo **Jerarquía de categorías**, seleccione **Intrastat**.
+6. En la ficha desplegable **Valor estadístico**, establezca la opción **Imprimir y exportar datos estadísticos** a **Sí** si necesario. Esta configuración activa la transferencia de la sección estadística. La sección estadística consta de datos sobre pesos, unidades adicionales, valores estadísticos, plazos de entrega, cronogramas de entrega, modos de transporte y regiones de origen.
 
-    - **Codigo de transacción** - Seleccione el código de transacción para transferencias de propiedad. Este código se utilizará para transacciones que provoquen una transferencia de propiedad real o planificada contra compensación, y también para correcciones.
+    > [!NOTE]
+    > Para una declaración trimestral, el informe de Intrastat no incluirá la sección estadística ni información sobre los plazos de entrega y los modos de transporte. Para obtener más información, consulte la tabla en la sección [Descripción general](#overview) de este tema.
 
-    - **Nota de crédito** - Seleccione el código de transacción para la devolución de mercancías. Este código se utilizará para la devolución de mercancías después de que la transacción original se registre bajo el código de transacción.
+7. En la pestaña **Propiedades de país / región**, enumere todos los países o regiones con los que su organización hace negocios. Para cada país o región, establezca los siguientes campos:
 
-    - **Periodo de informe de ventas** - Seleccione el período de informe para la declaración de exportación: **Mes** o **Trimestre**. Las declaraciones trimestrales se exportan en formato simplificado.
+    - **País o región de parte**: seleccione el código de país/región.
+    - **Código intrastat**: introduzca el código Intrastat de dos dígitos.
+    - **Divisa**: especifique la divisa nacional del país o región. Si el proveedor tiene su sede en un país de la UE que no utiliza el euro, los importes de la factura se informarán tanto en la moneda del proveedor como en euros. Por ejemplo, si el proveedor tiene su sede en Dinamarca, los importes notificados para la declaración de importación estarán tanto en coronas danesas (DKK) como en euros (EUR).
+    - **Tipo de país/región**: seleccione el tipo de país o región en relación con su organización. Para el diario Intrastat, solo los países o regiones del tipo **UE** y **Especial nacional** se transferirán.
 
-    - **Periodo de informe de compras** - Seleccione el período de informe para la declaración de importación: **Mes** o **Trimestre**. Las declaraciones trimestrales se exportan en formato simplificado.
+    > [!NOTE]
+    > Para países o regiones del tipo **Especial nacional**, los siguientes campos se omiten del archivo de informe de Intrastat: **Peso**, **Unidades adicionales**, **Valor estadístico**, **Términos de entrega**, **Código de transporte**, **País / región de origen / destino**, y **País de origen / destino**. Por ejemplo, en el campo **País / región de tercero**, seleccione **SMR (San Marino)**, y luego, en el campo **Tipo de país / región**, seleccione **Especial doméstico**.
 
-4.  En la ficha desplegable **Informes electrónicos**, establezca los siguientes campos:
-
-    - **Asignación de formato de archivo** - Seleccione **Intrastat (IT)**.
-
-    <!-- -->
-
-    - **Asignación de formato de informe** - Seleccione **Informe Intrastat**.
-
-5.  En la ficha desplegable **Jerarquía de códigos de bienes**, en el campo **Jerarquía de categorías**, seleccione **Intrastat**.
-
-6.  En la ficha desplegable **Valor estadístico**, establezca la opción **Imprimir y exportar datos estadísticos** a **Sí** si necesario. Esta configuración activa la transferencia de la sección estadística. La sección estadística consta de datos sobre pesos, unidades adicionales, valores estadísticos, plazos de entrega, cronogramas de entrega, modos de transporte y regiones de origen.
-
->[!NOTE]
->
->Para una declaración trimestral, el informe de Intrastat no incluirá la sección estadística ni información sobre los plazos de entrega y los modos de transporte. Para obtener más información, consulte la tabla en la sección [Descripción general](#overview) de este tema.
-
-7.  En la pestaña **Propiedades de país / región**, enumere todos los países o regiones con los que su organización hace negocios. Para cada país o región, establezca los siguientes campos:
-
-- **País o región de la parte** - Seleccione el código de país/región.
-
-- **Código intrastat** - Introduzca el código Intrastat de dos dígitos.
-
-- **Divisa** - Especifique la moneda nacional del país o región. Si el proveedor tiene su sede en un país de la UE que no utiliza el euro, los importes de la factura se informarán tanto en la moneda del proveedor como en euros. Por ejemplo, si el proveedor tiene su sede en Dinamarca, los importes notificados para la declaración de importación estarán tanto en coronas danesas (DKK) como en euros (EUR).
-
-- **Tipo de país / región** - Seleccione el tipo de país o región en relación con su organización. Para el diario Intrastat, solo los países o regiones del tipo **UE** y **Especial nacional** se transferirán.
-
->[!NOTE]
->
->Para países o regiones del tipo **Especial nacional**, los siguientes campos se omiten del archivo de informe de Intrastat: **Peso**, **Unidades adicionales**, **Valor estadístico**, **Términos de entrega**, **Código de transporte**, **País / región de origen / destino**, y **País de origen / destino**. Por ejemplo, en el campo **País / región de tercero**, seleccione **SMR (San Marino)**, y luego, en el campo **Tipo de país / región**, seleccione **Especial doméstico**.
-
-8.  Vaya a **Proveedores** &gt; **Configuración** &gt; **Condiciones de entrega**.
-
-9.  En la cuadrícula, seleccione los plazos de entrega.
-
+8. Vaya a **Proveedores** > **Configuración** > **Condiciones de entrega**.
+9. En la cuadrícula, seleccione los plazos de entrega.
 10. En la ficha desplegable **General**, en el campo **Código intrastat**, introduzca el código de un dígito que se utilizará en el informe Intrastat.
-
 11. Asigne números exentos de impuestos a clientes y proveedores siguiendo estos pasos. Estos números aparecerán en el informe de Intrastat.
+12. Vaya a **Impuesto** > **Configuración** > **Impuesto de venta** > **Números exentos de impuestos** y enumere todos los números exentos de impuestos de sus clientes y proveedores. Para cada partner, establezca los siguientes campos:
 
--   Vaya a **Impuesto** &gt; **Configuración** &gt; **Impuesto de venta** &gt; **Números exentos de impuestos** y enumere todos los números exentos de impuestos de sus clientes y proveedores. Para cada partner, establezca los siguientes campos:
+    - **País o región**: seleccione el país o región del partner.
+    - **Número de exención fiscal**: introduzca el número de identificación fiscal del partner.
+    - **Nombre de empresa**: introduzca el nombre del partner.
 
-    - **País o región** - Seleccione el país o región del partner.
+13. Vaya a **Clientes** > **Clientes** > **Todos los clientes** y siga estos pasos para cada cliente:
 
-    - **Número de identificación fiscal:** introduzca el número de identificación fiscal (NIF) del partner.
+    1. Seleccione un cliente.
+    2. En la ficha desplegable **Factura y entrega**, en la sección **Impuesto de ventas**, en el campo **Número de identificación fiscal**, seleccione **Todos**.
+    3. Seleccione el número de identificación fiscal del cliente.
 
-    - **Nombre de empresa** - Ingrese el nombre del socio.
+14. Vaya a **Clientes** > **Proveedores** > **Todos los proveedores** y siga estos pasos para cada proveedor:
 
-<!-- -->
+    1. Seleccione un proveedor.
+    2. En la ficha desplegable **Factura y entrega**, en la sección **Impuesto de ventas**, en el campo **Número de identificación fiscal**, seleccione **Todos**.
+    3. Seleccione el número de identificación fiscal del proveedor.
 
--   Vaya a **Clientes** &gt; **Clientes** &gt; **Todos los clientes** y siga estos pasos para cada cliente:
-
-    1.  Seleccione un cliente.
-
-    2.  En la ficha desplegable **Factura y entrega**, en la sección **Impuesto de ventas**, en el campo **Número de identificación fiscal**, seleccione **Todos**.
-
-    3.  Seleccione el número de identificación fiscal del cliente.
-
--   Vaya a **Clientes** &gt; **Proveedores** &gt; **Todos los proveedores** y siga estos pasos para cada proveedor:
-
-    1.  Seleccione un proveedor.
-
-    2.  En la ficha desplegable **Factura y entrega**, en la sección **Impuesto de ventas**, en el campo **Número de identificación fiscal**, seleccione **Todos**.
-
-    3.  Seleccione el número de identificación fiscal del proveedor.
-
-12. Vaya a **Impuestos** &gt; **Configuración** &gt; **Comercio Exterior** &gt; **Compresión de Intrastat** y seleccione los campos que se deben comparar cuando se resume la información de Intrastat. Para Italia, seleccione **Número de exención de impuestos**, **Código de transacción**, **Mercancía**, **Términos de entrega**, **Transporte**, **País / región**, **País / región de origen**, **Provincia de origen**, **Provincia de origen / destino**, **Divisa**, **Mes**, **Trimestre**, y **Año de corrección**.
+15. Vaya a **Impuestos** > **Configuración** > **Comercio exterior** > **Compresión de Intrastat** y seleccione los campos que se deben comparar cuando se resume la información de Intrastat. Para Italia, seleccione **Número de exención de impuestos**, **Código de transacción**, **Mercancía**, **Términos de entrega**, **Transporte**, **País / región**, **País / región de origen**, **Provincia de origen**, **Provincia de origen / destino**, **Divisa**, **Mes**, **Trimestre**, y **Año de corrección**.
 
 ## <a name="italian-vendor-invoice-journal-for-foreign-trade"></a>Diario de facturas de proveedor italiano para comercio exterior
 
@@ -762,10 +723,10 @@ Para abrir el diario de Intrastat, vaya a **Impuesto** &gt; **Declaraciones** &g
 >
 >Si recibe una corrección negativa (nota de crédito) en el mismo período que el período del informe, debe cambiar manualmente el diario Intrastat siguiendo estos pasos.
 >
->1.  Vaya a **Impuestos** &gt; **Declaraciones** &gt; **Comercio exterior** &gt; **Intrastat**.
->2.  Busque y elimine la transacción marcada como corrección.
->3.  Encuentre la transacción original y cambie el valor del campo **Monto de la factura** según corresponda.
->Por ejemplo, tiene una factura de un proveedor de 10 000 y recibe una nota de crédito de -2000. En este caso, debe abrir el diario Intrastat y buscar y eliminar la transacción de -2000. Luego, busque la transacción original por 10 000 y establezca el monto de la factura en 8000 (= 10 000 - 2000).
+> 1. Vaya a **Impuestos** > **Declaraciones** > **Comercio exterior** > **Intrastat**.
+> 2. Busque y elimine la transacción marcada como corrección.
+> 3. Encuentre la transacción original y cambie el valor del campo **Monto de la factura** según corresponda.
+> Por ejemplo, tiene una factura de un proveedor de 10 000 y recibe una nota de crédito de -2000. En este caso, debe abrir el diario Intrastat y buscar y eliminar la transacción de -2000. Luego, busque la transacción original por 10 000 y establezca el monto de la factura en 8000 (= 10 000 - 2000).
 
 ### <a name="intrastat-transfer"></a>Transferencia intrastat
 
@@ -773,235 +734,30 @@ En el panel de acciones, puede seleccionar **Transferir** para transferir autom�
 
 Alternativamente, puede introducir transacciones manualmente seleccionando **Nuevo** en el Panel de acciones.
 
-Para cada transacción, puede establecer varios parámetros específicos de Italia en la pestaña **General**.
+Para cada transacción, puede establecer varios parámetros específicos de Italia en la pestaña **General**. La siguiente tabla proporciona más información sobre los campos.
 
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Campo</strong></p>
-</td>
-<td>
-<p><strong>Descripción</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;">Sección <strong>General</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Tipo de elemento</p>
-</td>
-<td>
-<p>Este campo se puede configurar como <strong>Bienes</strong> o <strong>Servicios</strong>.</p>
-<p>Para que una transacción se considere un servicio, su línea de factura debe configurarse de una de las siguientes maneras:</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No tiene código de mercancía.</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tiene un código de mercancía de seis dígitos</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;">Sección <strong>País/región de origen</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Provincia de origen</p>
-</td>
-<td>
-<p>La provincia de origen del producto o el servicio. Este valor se especifica en la página <strong>Productos emitidos</strong>.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;">Sección <strong>Codigos</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Modo de entrega</p>
-</td>
-<td>
-<p>El modo de entrega. Para especificar el modo de entrega, vaya a <strong>Ventas y marketing</strong> &gt; <strong>Configuración</strong> &gt; <strong>Distribución</strong> &gt; <strong>Modos de entrega</strong>.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;">Sección <strong>Correcciones</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Mes</p>
-</td>
-<td>
-<p>El mes de la transacción original.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Trimestre</p>
-</td>
-<td>
-<p>El trimestre de la transacción original.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Año de corrección</p>
-</td>
-<td>
-<p>El año de la transacción original.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Registro Intrastat original</p>
-</td>
-<td>
-<p>Para las correcciones de servicio, introduzca el número del registro Intrastat original.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p style="text-align: center;">Sección <strong>Valor de la factura</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Divisa</p>
-</td>
-<td>
-<p>La divisa nacional del partner.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>El importe de la factura en la divisa de transacción</p>
-</td>
-<td>
-<p>El importe de la factura en la divisa nacional del partner.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>El importe de gastos de la factura en la divisa de transacción</p>
-</td>
-<td>
-<p>Los cargos de la factura en la divisa nacional del partner.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>El valor de la factura en la divisa de transacción</p>
-</td>
-<td>
-<p>El valor de la factura en la divisa nacional del partner.</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Campo | Descripción |
+|-------|-------------|
+| Tipo de elemento | Este campo se puede configurar como **Bienes** o **Servicios**.<br> Para que una transacción se considere un servicio, su línea de factura debe configurarse de una de las siguientes maneras:<br>- No tiene código de mercancía<br>- Tiene un código de mercancía de seis dígitos  |
+| Provincia de origen | La provincia de origen del producto o el servicio. Este valor se especifica en la página **Productos emitidos**. |
+| Modo de entrega | El modo de entrega. <br>Para especificar el modo de entrega, vaya a **Ventas y marketing** > **Configuración** > **Distribución** > **Modos de entrega**. |
+| Mes | El mes de la transacción original. |
+| Trimestre | El trimestre de la transacción original. |
+| Año de corrección | El año de la transacción original. |
+| Registro Intrastat original | Para las correcciones de servicio, introduzca el número del registro Intrastat original. |
+| Divisa | La divisa nacional del partner. |
+| El importe de la factura en la divisa de transacción | El importe de la factura en la divisa nacional del partner. |
+| El importe de gastos de la factura en la divisa de transacción | Los cargos de la factura en la divisa nacional del partner. |
+| El valor de la factura en la divisa de transacción | El valor de la factura en la divisa nacional del partner. |
 
 Para obtener más información sobre los cargos de la factura en la divisa nacional del partner, consulte [Requisitos previos de la descripción general de Intrastat (cargos varios)](emea-intrastat.md).
 
 ### <a name="generate-an-intrastat-report"></a>Genere un informe Intrastat
 
-1.  Para generar un informe Intrastat, vaya a **Impuesto** &gt; **Declaraciones** &gt; **Comercio Exterior** &gt; **Intrastat**.
-
-2.  En el panel de acciones, seleccione **Salida** &gt; **Informe**.
-
-3.  En el cuadro de diálogo **Informe Intrastat**, establezca los campos siguientes.
-
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Campo</strong></p>
-</td>
-<td>
-<p><strong>Descripción</strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p>Sección <strong>Fecha</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Fecha de inicio</p>
-</td>
-<td>
-<p>Seleccione la fecha inicial del informe.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Fecha de finalización</p>
-</td>
-<td>
-<p>Seleccione la fecha final del informe.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p>Sección <strong>Opciones de exportación</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Generar archivo</p>
-</td>
-<td>
-<p>Establezca esta opción en <strong>Sí</strong> para generar un archivo .txt.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Nombre de archivo</p>
-</td>
-<td>
-<p>Introduzca el nombre del archivo .txt para su informe Intrastat.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Generar informe</p>
-</td>
-<td>
-<p>Establezca esta opción en <strong>Sí</strong> para generar un archivo .xlsx.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Nombre de archivo del informe</p>
-</td>
-<td>
-<p>Introduzca el nombre del archivo .xlsx para su informe Intrastat.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Dirección</p>
-</td>
-<td>
-<p>Seleccione <strong>Llegadas</strong> para un informe sobre llegadas intracomunitarias. Seleccione <strong>Envíos</strong> para un informe sobre los envíos intracomunitarios.</p>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<p>Sección <strong>Asignación de formato de archivo</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Número de referencia</p>
-</td>
-<td>
-<p>Especifique el número del documento. Este valor afectará al código <strong>Número de archivo</strong> en el informe del archivo Intrastat. Para obtener más información, consulte formato de archivo.</p>
-</td>
-</tr>
-</tbody>
-</table>
+1. Para generar un informe Intrastat, vaya a **Impuesto** > **Declaraciones** > **Comercio Exterior** > **Intrastat**.
+2. En el panel de acciones, seleccione **Salida** > **Informe**.
+3. En el cuadro de diálogo **Informe Intrastat**, seleccione las fechas de inicio y finalización del informe.
+4. En el campo **Generar archivo**, seleccione **Sí** para generar un archivo .txt e introduzca el nombre del archivo.
+5. En el campo **Generar informe**, seleccione **Sí** para generar un archivo .xlsx e introduzca el nombre del informe.
+6. Seleccione **Llegadas** o **Salidas** según el tema del informe.
+7. En el campo **Número de referencia**, especifique el número de documento. Este valor afecta al código de número de archivo del informe del archivo Intrastat. 
