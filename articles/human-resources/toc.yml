@@ -5,7 +5,9 @@
       items:
         - name: Novedades y cambios en Human Resources
           href: hr-admin-whats-new.md
-        - name: 06 de septiembre de 2021
+        - name: 20 de septiembre de 2021
+          href: hr-whats-new-2021-09-20.md
+        - name: 6 de septiembre de 2021
           href: hr-whats-new-2021-09-06.md
         - name: 23 de agosto de 2021
           href: hr-whats-new-2021-08-23.md
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Restablecer trabajos por lotes bloqueados
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: Restablecer la sincronización de Dataverse
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: Los informes de análisis no están actualizados
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: No se puede crear un entorno en el centro de administración de Power Apps
@@ -485,6 +489,12 @@
               items:
                 - name: Plan de prestaciones de trabajadores en nómina
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Otras entidades
+              items:
+                - name: Historial de nombre de la persona
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Tasa de conversión
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Conjuntos de opciones
               items:
                 - name: Género
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurar la libreta de direcciones global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configuración de dirección
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: Preguntas frecuentes sobre Libretas de direcciones
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurar libretas de direcciones
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: Informe de ACA
                   href: hr-benefits-management-aca-reports.md
+                - name: Declaración de prestaciones
+                  href: hr-benefits-statement.md
             - name: Definir y gestionar un programa de prestaciones
               href: hr-benefits-manage-program.md
             - name: Directivas de idoneidad para prestaciones

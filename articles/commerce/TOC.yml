@@ -1398,12 +1398,16 @@
               items:
                 - name: Localización de Commerce para Rusia
                   href: localizations/rus-commerce-localization.md
-                - name: Formato de dirección de cliente simplificada en Commerce POS para Rusia
-                  href: localizations/rus-simplified-address.md
                 - name: Configurar la localización de Commerce para Rusia
                   href: localizations/rus-commerce-setup.md
                 - name: Pagos anticipados en Commerce para Rusia
                   href: localizations/rus-commerce-prepayments.md
+                - name: Formato de dirección de cliente simplificada en Commerce POS para Rusia
+                  href: localizations/rus-simplified-address.md
+                - name: Ejemplo de integración de impresora fiscal para Rusia
+                  href: localizations/rus-fpi-sample.md
+                - name: Gestión de información de cliente para Rusia
+                  href: localizations/rus-customer-information.md
             - name: Suecia
               items:
                 - name: Funcionalidad de caja registradora
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar la libreta de direcciones global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Configuración de dirección
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Preguntas frecuentes sobre Libretas de direcciones
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar libretas de direcciones
@@ -2329,7 +2335,11 @@
         - name: Extensibilidad
           items:
             - name: Desarrollo y extensibilidad de Commerce
-              href: dev-itpro/dev-retail-home-page.md
+              items:
+                - name: Commerce para profesionales de TI y desarrolladores
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Configurar un entorno de desarrollo local
+                  href: dev-itpro/setup-local-dev-env.md
             - name: Extensibilidad de canal en línea
               items:
                 - name: Información general de la extensibilidad de canal en línea

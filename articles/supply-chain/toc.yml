@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Parámetros no utilizados por Optimización de planificación
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Programación de suministros
+                  href: master-planning/supply-schedule.md
                 - name: Aplicar filtros a un plan
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Planificación maestra con previsión de la demanda
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Ver la demanda planificada de empresas vinculadas saliente
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Colaborar con clientes de cadena de suministro interna
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Requisitos netos e información de diagrama de árbol con planificación integrada
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Previsión
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Espacio de trabajo móvil de aprobación de pedidos de compra
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Crear y facturar un pedido de compra de empresas vinculadas para su uso interno
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Comprobar las discrepancias del precio de pedido de empresas vinculadas
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Registrar la recepción de mercancías en el pedido de compra
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Creación de pedido de compra
               items:
                 - name: Crear pedidos de compra manualmente
@@ -2729,6 +2733,62 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Crear y editar presupuestos de ventas
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: Comercio entre empresas vinculadas
+              items:
+                - name: Configurar el comercio de empresas vinculadas
+                  items:
+                    - name: Configurar el comercio de empresas vinculadas
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Parámetros de empresas vinculadas
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Configurar proveedores, clientes y artículos para el comercio entre empresas vinculadas'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Configurar gastos en los pedidos de empresas vinculadas
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Configuración de parámetros para registrar un pedido de empresas vinculadas
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Sincronizar información de empresas vinculadas
+                  items:
+                    - name: Sincronizar precios y descuentos de empresas vinculadas
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Sincronizar cargos de empresas vinculadas
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Sincronizar información de cliente de empresas vinculadas
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Sincronizar códigos de disposición de empresas vinculadas
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Facturas y pedidos de ventas de empresas vinculadas
+                  items:
+                    - name: Creación de pedidos de ventas y compra de empresas vinculadas en varias empresas
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Pedidos de empresas vinculadas y pedidos de devolución
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Crear un pedido de ventas de empresas vinculadas para su uso interno
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Crear y facturar un pedido de ventas de empresas vinculadas para un cliente externo
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Reservas de empresas vinculadas
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Cambiar o eliminar un pedido de ventas original de empresas vinculadas
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Cambiar pedidos de empresas vinculadas
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Números de serie y lote de empresas vinculadas
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Albaranes de empresas vinculadas
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Registrar pagos automáticamente para las facturas de cliente de empresas vinculadas
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Pedidos de compra de empresas vinculadas
+                  items:
+                    - name: Crear y facturar un pedido de compra de empresas vinculadas para su uso interno
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Comprobar las discrepancias del precio de pedido de empresas vinculadas
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Conversiones de divisa de empresas
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Programación maestra de empresas vinculadas
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: Devoluciones
               items:
                 - name: Devoluciones de ventas
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Instalar y configurar el módulo de costes en destino
               items:
+                - name: Activar el módulo Coste en destino para el sistema
+                  href: landed-cost/landed-cost-enable.md
                 - name: Parámetros de coste en destino
                   href: landed-cost/landed-cost-parameters.md
                 - name: Parámetros de adquisición y abastecimiento de costes en destino
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Vencimiento de picking de inventario de directiva de ubicación
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Anclaje
+                      href: warehousing/anchoring.md
                     - name: Ordenación de salida
                       href: warehousing/outbound-sorting.md
                     - name: Asignar a contenedor/Asignar a tienda
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Seleccionar el lote más antiguo en un dispositivo móvil
                       href: warehousing/pick-oldest-batch.md
+                - name: Parámetros globales de dispositivos móviles
+                  href: warehousing/mobile-device-parameters.md
                 - name: Configuración de usuario de dispositivo móvil
                   href: warehousing/mobile-device-user-settings.md
                 - name: Procesamiento de eventos de la aplicación de almacén
