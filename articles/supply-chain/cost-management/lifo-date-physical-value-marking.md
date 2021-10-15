@@ -13,15 +13,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f033dee70f3423ec560885d59e2db1bc61cb6009e9c9c151c15c0ecd8d697862
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748018"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567568"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fecha LIFO con valor físico y marcado
 
@@ -55,7 +55,9 @@ En este ejemplo, el grupo de modelos de artículo no está marcado para incluir 
 
 El nuevo precio de coste promedio móvil reflejará la media de transacciones actualizadas financieramente de 15,00 dólares USD. 
 
-La ilustración siguiente muestra los efectos del modelo de inventario de fecha LIFO cuando no se usa la opción **Incluir valor físico**. ![Fecha LIFO con Incluir valor físico en coste.](./media/lifodatewithoutincludephysicalvalue.gif) 
+La ilustración siguiente muestra los efectos del modelo de inventario de fecha LIFO cuando no se usa la opción **Incluir valor físico**. 
+
+![Fecha LIFO sin la opción Incluir valor físico.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -90,7 +92,9 @@ En la ilustración siguiente se muestran estas transacciones:
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente a 20,00 dólares USD. 
 
-La ilustración siguiente muestra los efectos del modelo de inventario LIFO cuando se usa la opción **Incluir valor físico**. ![Fecha LIFO con Incluir valor físico en coste.](./media/lifodatewithincludephysicalvalue.gif) 
+La ilustración siguiente muestra los efectos del modelo de inventario LIFO cuando se usa la opción **Incluir valor físico**. 
+
+![Fecha LIFO con la opción Incluir valor físico.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 

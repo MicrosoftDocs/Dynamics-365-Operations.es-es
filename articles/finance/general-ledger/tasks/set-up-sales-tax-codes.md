@@ -2,7 +2,7 @@
 title: Configurar códigos de impuestos
 description: Este tema explica cómo configurar códigos de impuestos en Dynamics 365 Finance.
 author: twheeloc
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5ce2c8d9a117871191dd1c2d32d822bcc72d76fabaec146d9b8c27fc85dc058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719207"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562111"
 ---
 # <a name="set-up-sales-tax-codes"></a>Configurar códigos de impuestos
 
@@ -38,11 +38,19 @@ Esta tarea usa la empresa de demostración USMF.
 8. En el **Panel de acciones** en la parte superior de la interfaz, seleccione **Código de impuestos**.
 9. Seleccione **Valores**.
 10. Escriba el valor para este código de impuestos en la columna **valor** .
-    - En la ficha desplegable **Cálculo**, en el campo Origen, si está seleccionado el importe por unidad, el valor se multiplicará por la cantidad de la transacción para calcular el importe de impuestos.  Si el código de impuesto no es un impuesto basado en la unidad, el valor es un porcentaje que se aplica en el origen de este código de impuesto para calcular el importe de impuestos.     
+
+    En la ficha desplegable **Cálculo**, en el campo **Origen**, si está seleccionado el **Importe por unidad**, el valor se multiplicará por la cantidad de la transacción para calcular el importe de impuestos.  Si el código de impuesto no es un impuesto basado en la unidad, el valor es un porcentaje que se aplica en el origen de este código de impuesto para calcular el importe de impuestos.     
+
 11. Seleccione **Guardar**.
 12. Cierre la página.
 13. Seleccione **Guardar**.
 
+A partir de Microsoft Dynamics 365 Finance versión 10.0.22, si está utilizando el [Servicio de impuestos](../../localizations/global-tax-calcuation-service-overview.md), y la función [**Admite varios números de registro de IVA**](../../localizations/emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**, puede usar el campo **Tipo de impuesto** para especificar el tipo de código de impuestos. Los siguientes valores están disponibles:
 
+- IVA estándar
+- IVA reducido
+- 0 % de IVA
+- Especial
+- Otra
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

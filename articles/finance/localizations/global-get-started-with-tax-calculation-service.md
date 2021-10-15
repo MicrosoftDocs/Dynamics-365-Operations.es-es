@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465086"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562135"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introducción al cálculo de impuestos
 
@@ -100,7 +100,7 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
     | 10.0.18         | Configuración de impuestos - Europa 30.12.82     |
     | 10.0.19         | Configuración de Cálculo de impuestos 36.38.193 |
     | 10.0.20         | Configuración de Cálculo de impuestos 40.43.208 |
-    | 10.0.21         | Configuración de Cálculo de impuestos 40.46.212 |
+    | 10.0.21         | Configuración de Cálculo de impuestos 40.48.215 |
 
 9. En el espacio de trabajo **Características de globalización**, seleccione **Características**, elija el icono **Cálculo de impuestos** y finalmente **Agregar**.
 10. Seleccione uno de los siguientes tipos de característica:

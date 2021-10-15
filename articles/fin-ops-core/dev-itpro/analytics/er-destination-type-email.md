@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343869"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595212"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER de correo electrónico
 
@@ -75,7 +75,7 @@ Puede especificar el remitente y los destinatarios del correo electrónico. De f
 >
 > Cuando se ofrece un destino de correo electrónico para su modificación en [tiempo de ejecución](electronic-reporting-destinations.md#security-considerations), el campo **De** solo es visible para los usuarios que tengan el privilegio de seguridad `ERFormatDestinationSenderEmailMaintain`, **Mantener la dirección de correo electrónico del remitente para el destino de formato ER**.
 >
-> Cuando el campo **De** está configurado para usar una dirección de correo electrónico distinta a la del usuario actual, el permiso **Enviar como** o **Enviar en nombre de** debe estar correctamente [configurado](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) por adelantado. De lo contrario, se genera la siguiente excepción en tiempo de ejecución: "No se puede enviar correo electrónico como \<from email account\> desde la cuenta \<current user account\>, compruebe los permisos 'Enviar como' en la \<from email account\>."
+> Cuando el campo **De** está configurado para usar una dirección de correo electrónico distinta a la del usuario actual, el permiso **Enviar como** o **Enviar en nombre de** debe estar correctamente [configurado](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) por adelantado. De lo contrario, se genera la siguiente excepción en tiempo de ejecución: "No se puede enviar correo electrónico como \<from email account\> desde la cuenta \<current user account\>, compruebe los permisos 'Enviar como' en la \<from email account\>."
 
 Puede configurar el campo **De** para devolver más de una dirección de correo electrónico. En este caso, la primera dirección de la lista se utiliza como dirección de correo electrónico del remitente.
 

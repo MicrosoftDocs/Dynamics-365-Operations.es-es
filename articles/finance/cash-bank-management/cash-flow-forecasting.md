@@ -1,8 +1,8 @@
 ---
 title: Previsiones de flujo de efectivo
 description: Este tema proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779455"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547964"
 ---
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
@@ -83,9 +83,12 @@ Puede anular el valor predeterminado para el campo **Cuenta de liquidez** para p
 
 ### <a name="budgeting"></a>Gestión presupuestaria
 
-Los presupuestos creados a partir de los modelos presupuestarios se pueden incluir en previsiones de flujo de efectivo. En la pestaña **Presupuesto** de la página **Configuración de la previsión de flujo de efectivo** , seleccione los modelos presupuestarios para incluir en la previsión. De forma predeterminada, los nuevos asientos de registro presupuestario se incluyen en las previsiones después de que el modelo presupuestario se haya habilitado para la previsión de flujo de efectivo. La inclusión en la previsión de flujo de efectivo se puede sobrescribir en asientos de registro presupuestario individuales.
+Los presupuestos creados a partir de los modelos presupuestarios se pueden incluir en previsiones de flujo de efectivo. En la página **Configuración de la previsión de flujo de efectivo**, en la pestaña **Presupuesto** , seleccione los modelos presupuestarios para incluir en la previsión. De forma predeterminada, los nuevos asientos de registro presupuestario se incluyen en las previsiones después de que el modelo presupuestario se haya habilitado para la previsión de flujo de efectivo.
 
-### <a name="inventory-management"></a>Gestión del inventario
+Las entradas del registro presupuestario se pueden incluir en la previsión de flujo de efectivo de forma individual a través de la personalización. Cuando agrega la columna "Incluir en las previsiones de flujo de efectivo" a la página **Entrada de registro presupuestario**, el sistema sobrescribirá la configuración en la página **Configuración de pronóstico de flujo de efectivo** para incluir una entrada de registro de presupuesto individual en el pronóstico.
+
+
+### <a name="inventory-management"></a>Administración de inventario
 
 Las previsiones de suministro y demanda de inventario se pueden incluir en las previsiones de flujo de efectivo. En la pestaña **Gestión del inventario** de la página **Configuración de la previsión de flujo de efectivo** , seleccione el modelo de previsión que se va a incluir en la previsión de flujo de efectivo. La inclusión en la previsión de flujo de efectivo se puede sobrescribir en líneas de previsión de suministro y demanda individuales.
 
@@ -144,7 +147,7 @@ El espacio de trabajo **Visión general del efectivo para todas las empresas** m
 
 El espacio de trabajo **Visión general del efectivo para la empresa actual** muestra los análisis de previsión de flujo de efectivo en la divisa de contabilidad definida de la empresa. La divisa de contabilidad que se usa para el análisis se define en la página **Libro mayor**. Este espacio de trabajo muestra una visión general de la previsión del flujo de efectivo y los saldos de cuenta bancaria para la empresa actual. Un gráfico de los flujos de entrada y de salida de efectivo ofrece una visión general de los movimientos y los saldos de futuros de efectivo en la divisa de contabilidad, así como información detallada sobre las transacciones de previsión. También puede ver los saldos previstos de la divisa.
 
-Para obtener más información sobre los análisis de previsión de flujo de efectivo, consulte el tema de [contenido de Power BI de visión general de efectivo](./cash-overview-power-bi-content.md).
+Para obtener más información sobre los análisis de previsión de flujo de efectivo, consulte [contenido de Power BI de visión general de efectivo](Cash-Overview-Power-BI-content.md).
 
 Además, puede ver los datos de previsión de flujo de efectivo para cuentas, pedidos y artículos específicos en las siguientes páginas:
 

@@ -2,7 +2,7 @@
 title: Características quitadas u obsoletas de Dynamics 365 Commerce
 description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Commerce.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386750"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559568"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Características quitadas u obsoletas de Dynamics 365 Commerce
 
@@ -36,6 +36,18 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.21
 
 [!include [banner](../includes/preview-banner.md)]
+
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Configuración de gestión de descuentos superpuestos en parámetros de Commerce
+
+La configuración **Gestión de descuentos superpuestos** en la página **Parámetros de Commerce** queda obsoleta en la versión 10.0.21 de Commerce. En el futuro, el motor de precios de Commerce utilizará un solo algoritmo para determinar la combinación óptima de descuentos superpuestos.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | <p>La configuración **Gestión de descuentos superpuestos** de los parámetros de Commerce controla cómo busca el motor de precios de Commerce y determina la combinación óptima de descuentos superpuestos. Actualmente ofrece tres opciones:<p><ul><li> **Mejor rendimiento**: esta opción utiliza un algoritmo heurístico avanzado y un método de [clasificación de valor marginal](../optimal-combination-overlapping-discounts.md) para priorizar, evaluar y determinar la mejor combinación de descuentos de manera oportuna.</li><li>**Cálculo equilibrado**: en la base de código actual, esta opción funciona igual que la opción **Mejor rendimiento**. Por lo tanto, es esencialmente una opción duplicada.</li><li>**Cálculo exhaustivo**: esta opción utiliza un algoritmo antiguo que pasa por todas las combinaciones de descuentos posibles durante el cálculo del precio. Para pedidos que tienen grandes líneas y cantidades, esta opción puede causar problemas de rendimiento.</li></ul><p>Para ayudar a simplificar la configuración, mejorar el rendimiento y reducir los incidentes causados por el algoritmo anterior, eliminaremos por completo la configuración **Gestión de descuentos superpuestos** y actualizar la lógica interna del motor de precios de Commerce para que ahora use solo el algoritmo avanzado (es decir, el algoritmo detrás de la opción **Mejor rendimiento**).</p> |
+| **¿Reemplazado por otra característica?**   | No. Recomendamos que las organizaciones que utilizan las opciones **Cálculo equilibrado** o **Cálculo exhaustivo** cambien a la opción **Mejor rendimiento** antes de que se elimine esta función. |
+| **Áreas de producto afectadas**         | Precios y descuentos |
+| **Opción de implementación**              | Todo |
+| **Estado**                         | A partir de la versión 10.0.21, la configuración **Gestión de descuentos superpuestos** se eliminará de los parámetros de Commerce en octubre de 2022. |
 
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>SDK de Retail distribuido mediante el uso de Lifecycle Services
 
@@ -103,7 +115,7 @@ El desarrollo de extensiones de PDV mediante ModernPos.sln, CloudPOs.sln, POS.Ex
 | **Motivo de la depreciación/eliminación** | A partir de diciembre de 2020, queda en desuso la compatibilidad de Microsoft Internet Explorer 11 con todos los productos de Dynamics 365 e Internet Explorer 11 no se admitirá después de agosto de 2021.<br><br>Esto afectará a los clientes que usan productos Dynamics 365 que están diseñados para usarse a través de una interfaz de Internet Explorer 11. Después de agosto de 2021, Internet Explorer 11 no será compatible con dichos productos de Dynamics 365. |
 | **¿Reemplazado por otra característica?**   | Recomendamos que los clientes hagan la transición a Microsoft Edge.|
 | **Áreas de producto afectadas**         | Todos los productos Dynamics 365 |
-| **Opción de implementación**              | Todos|
+| **Opción de implementación**              | Todo|
 | **Estado**                         | En desuso. Internet Explorer 11 no se admitirá después de agosto de 2021.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.11

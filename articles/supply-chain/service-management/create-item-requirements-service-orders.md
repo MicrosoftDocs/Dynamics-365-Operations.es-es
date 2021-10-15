@@ -1,7 +1,7 @@
 ---
-title: Crear requisito del artículo desde el pedido de servicio
-description: Si necesita reservar artículos específicos para un pedido de servicio, puede crear requisitos de artículo de inventario para él.
-author: ShylaThompson
+title: Crear requisitos de artículo para el pedido de servicio
+description: En este tema se describe cómo crear un requisitos de artículo para pedidos de servicio.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 800f8ec8c016f95fbbf88a89184ffc45d183969ef02df526bbc6b9b3b78be3ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75a05147883f1592b3a09e02e238661f6c20cf27
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773991"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575300"
 ---
-# <a name="create-item-requirements-for-service-orders"></a>Crear requisito del artículo desde el pedido de servicio 
+# <a name="create-item-requirements-for-service-orders"></a>Crear requisitos de artículo para el pedido de servicio
 
 [!include [banner](../includes/banner.md)]
-
 
 Puede crear un pedido de servicio para administrar y realizar un seguimiento de los servicios que proporciona a sus clientes. Si necesita reservar artículos específicos para un pedido de servicio, puede crear requisitos de artículo de inventario para él. Un requisito de artículo se puede usar inmediatamente del inventario o bien, puede iniciar un pedido de producción para el artículo.
 
@@ -35,40 +34,24 @@ Los requisitos de artículo para los pedidos de servicio se procesan a través d
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Crear un requisito de artículo para un pedido de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
-
-2.  Seleccione el pedido de servicio para el que desea crear un requisito de artículo.
-
-3.  A continuación, en el **panel de acciones**, en la ficha **Distribución**, haga clic en **Requisito de artículo**.
-
-4.  En el formulario **Requisitos de artículos**, especifique la información para el artículo requerido. Para obtener más información acerca de campos específicos, vea [Requisitos de artículos (formulario)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
+1. Vaya a **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
+1. Seleccione el pedido de servicio para el que desea crear un requisito de artículo.
+1. En el **Panel de acciones**, en la ficha **Distribución**, seleccione **Requisito de artículo**.
+1. En el formulario **Requisitos de artículos**, especifique la información para el artículo requerido. Para obtener más información acerca de campos específicos, vea [Requisitos de artículos (formulario)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Crear un requisito de artículo para un acuerdo de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
-
-2.  Abra el acuerdo de servicio para el que desea crear un requisito de artículo.
-
-3.  En la ficha desplegable **Líneas**, haga clic en **Agregar** para crear una línea nueva.
-
-4.  En el campo **Tipo de transacción**, seleccione **Artículo**.
-
-5.  En el campo **Configuración del artículo**, seleccione **Requisito de artículo**.
-
-6.  En el campo **Código de artículo**, seleccione el artículo que se requiere para el acuerdo de servicio.
-
-7.  En la ficha desplegable **Detalles de línea** , en la pestaña **Dimensiones del producto** , en el campo **sitio** , seleccione el sitio del inventario del artículo.
-
-8.  Para crear un pedido de servicio a partir de la línea del acuerdo de servicio, en la ficha desplegable **Líneas**, haga clic en **Crear pedidos de servicio** y especifique la información pertinente en el formulario **Crear pedidos de servicio**. 
-
+1. Vaya a **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
+1. Abra el acuerdo de servicio para el que desea crear un requisito de artículo.
+1. En la ficha desplegable **Líneas**, seleccione **Agregar** para crear una línea nueva.
+1. En el campo **Tipo de transacción**, seleccione **Artículo**.
+1. En el campo **Configuración del artículo**, seleccione **Requisito de artículo**.
+1. En el campo **Código de artículo**, seleccione el artículo que se requiere para el acuerdo de servicio.
+1. En la ficha desplegable **Detalles de línea** , en la pestaña **Dimensiones del producto** , en el campo **sitio** , seleccione el sitio del inventario del artículo.
+1. Para crear un pedido de servicio a partir de la línea del acuerdo de servicio, en la ficha desplegable **Líneas**, seleccione **Crear pedidos de servicio** y especifique la información pertinente en el formulario **Crear pedidos de servicio**.
 
 ## <a name="see-also"></a>Consulte también
 
 [Crear pedidos de servicio automáticamente](create-service-orders-automatically.md).
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718366"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595271"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Diseñar una nueva configuración de ER para generar informes en formato Word
 
@@ -46,7 +46,7 @@ Puede agregar los elementos anidados **Excel\\Rango** y **Excel\\Celda** para el
 
 ![Agregar elementos anidados en la página del diseñador de formato.](./media/er-design-configuration-word-image4.gif)
 
-Cuando guarda sus cambios en el formato ER a la hora de diseñar, la estructura jerárquica del formato se almacena en la plantilla de Word adjunta como un [elemento XML personalizado](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) que se llama **Informe**. Debe acceder a la plantilla modificada, descargarla de Finance, almacenarla localmente y abrirla en la aplicación de escritorio de Word. La siguiente ilustración muestra la plantilla de ejemplo almacenada localmente para el informe de control que contiene el elemento XML personalizado **Informe**.
+Cuando guarda sus cambios en el formato ER a la hora de diseñar, la estructura jerárquica del formato se almacena en la plantilla de Word adjunta como un [elemento XML personalizado](/visualstudio/vsto/custom-xml-parts-overview) que se llama **Informe**. Debe acceder a la plantilla modificada, descargarla de Finance, almacenarla localmente y abrirla en la aplicación de escritorio de Word. La siguiente ilustración muestra la plantilla de ejemplo almacenada localmente para el informe de control que contiene el elemento XML personalizado **Informe**.
 
 ![Obtener una vista previa de la plantilla de informe de ejemplo en la aplicación de escritorio de Word.](./media/er-design-configuration-word-image5.gif)
 

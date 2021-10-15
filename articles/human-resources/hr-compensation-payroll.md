@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483791"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559616"
 ---
 # <a name="ready-to-pay"></a>Listo para pagar
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Si desea marcar a un empleado como listo para pagar, primero debe habilitar la característica **(Vista previa) integración de nómina** en la administración de características. Para obtener más información sobre la habilitación de características en vista previa, consulte [Administrar características](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Si una de estas validaciones falla, no puede marcar al empleado como listo para 
 
 Si el campo **Listo para pagar** es **No**, esto es una indicación de que debe realizar una acción para asegurarse de que el perfil de trabajador esté completo. Esto no impedirá que los datos queden expuestos en ninguna entidad de datos. 
 
-## <a name="known-issues"></a>Problemas conocidos
+## <a name="process-automation"></a>Automatización de procesos
 
-- Debes deshabilitar la función **Entrada de empleados simplificada** en la administración de características. Los mosaicos en el espacio de trabajo de administración de compensación no funcionarán correctamente si usa esta función.
-- En la página **Trabajador**, la **Pestaña Nómina** y el grupo **Listo para pagar** están disponibles para cualquier rol de usuario. 
+Puede automatizar la validación de todos los empleados utilizando [Automatización de procesos](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). En el espacio de trabajo **Gestión de la compensación**, vaya a **Enlaces** \> **Parámetros** \> **Automatizaciones de procesos**.
 
 ## <a name="see-also"></a>Consulte también
 
