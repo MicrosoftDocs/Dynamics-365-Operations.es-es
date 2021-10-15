@@ -1,7 +1,7 @@
 ---
 title: Invertir estado del trabajo kanban
 description: Este procedimiento se centra en la inversión de un estado de trabajo kanban incorrecto.
-author: ShylaThompson
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef6d77aae52dc81bb1b34acc74d4174a7dfe0482f3af5123f93688244cf50f9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 771c3b95be05904c84483473a533c708964fbe62
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728540"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574410"
 ---
 # <a name="revert-kanban-job-status"></a>Invertir estado del trabajo kanban
 

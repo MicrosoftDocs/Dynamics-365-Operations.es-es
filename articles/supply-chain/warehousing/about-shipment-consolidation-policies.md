@@ -10,17 +10,19 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSSh
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ab7c23ac7cf70de08425783df231bc95a3252b332efa38d9b95fe8dd7f9508b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776737"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577969"
 ---
 # <a name="shipment-consolidation-policies"></a>Directivas de consolidación de envíos
+
+[!include [banner](../includes/banner.md)]
 
 El proceso de consolidación de envíos que utiliza directivas de consolidación de envíos permite la consolidación automatizada de envíos durante la liberación automática y manual al almacén. La consolidación automática que estaba disponible antes de que se introdujera esta función tenía campos codificados y se basaba en el campo **Consolidar el envío en el despacho al almacén** que se estableció para un almacén.
 

@@ -1,6 +1,6 @@
 ---
 title: Ver el extracto de inventario y KPI por el objeto de coste
-description: La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
+description: Este tema muestra cómo ver el extracto de inventario y KPI por el objeto de coste.
 author: AndersGirke
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6bc60baa723cee91b219bc078f4486e971d2c99fc89b9c42e2d4472d161a163
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f813b0e04a2450cb64e92128d36495a483ad14e1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721354"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568168"
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Ver el extracto de inventario y KPI por el objeto de coste
 
@@ -27,14 +27,14 @@ ms.locfileid: "6721354"
 
 La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento se va a utilizar para el controlador de costes.
 
-1. Haga clic en Administración de costes.
-2. Haga clic en Productos emitidos.
-3. Use el filtro rápido para buscar registros. Por ejemplo, filtre por el campo Número de artículo con un valor de "d0005".
-4. En el panel de acciones, haga clic en Gestionar costes.
-5. Haga clic en Objetos de coste.
-6. Haga clic en KPI y extracto de inventario.
-7. En el campo Fecha inicial, escriba una fecha.
-8. Especifique una fecha en el campo Fecha final.
+1. Seleccione **Administración de costes**.
+2. Seleccione **Productos liberados**.
+3. Use el filtro rápido para buscar registros. Por ejemplo, filtre por el campo **Número de artículo** con un valor de *d0005*.
+4. En el panel de acciones, seleccione **Administrar costes**.
+5. Seleccione **Objetos de coste**.
+6. Seleccione **KPI y extracto de inventario**.
+7. En el campo **Fecha inicial**, escriba una fecha.
+8. En el campo **Fecha final**, especifique una fecha.
 
 
 

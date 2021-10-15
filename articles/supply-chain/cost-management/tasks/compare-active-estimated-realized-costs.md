@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: daf073c9d56c1ed329f472ecc50014387d137502e63742a8406ff53b4a42e820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb35d92d4bda8a4616902d31a85e4999515a70f0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735336"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572082"
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>Comparar los costes activos, estimados y realizados en un pedido de producción
 

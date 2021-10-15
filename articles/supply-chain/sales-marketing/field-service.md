@@ -1,7 +1,7 @@
 ---
 title: Visión general sobre integración con Microsoft Dynamics 365 Field Service
 description: Este tema proporciona una visión general de la integración con Microsoft Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ecfd19cf79b9547c67b5bb90cef451d4aeab8f5ee775e50578161783e370462f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23661bca91ccd7b7a04c763e60cfca9a99d62bfa
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761767"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566464"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Visión general sobre integración con Microsoft Dynamics 365 Field Service
 
@@ -58,7 +58,7 @@ La función adicional de esta segunda fase enfocada en dar a los técnicos de ca
 - Proyectos de Supply Chain Management conectados a pedidos de trabajo de Dynamics 365 Field Service
 - Los pedidos de trabajo de Dynamics 365 Field Service vinculados a los proyectos Supply Chain Management, aplican este número de proyecto al pedido de ventas para permitir facturar desde el proyecto. 
 
-![Sincronización de procesos empresariales entre Supply Chain Management y Field Service.](./media/FSv2overview.png)
+![Sincronización de procesos comerciales entre Supply Chain Management y Field Service, incluida la información del inventario y del proyecto.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>La segunda fase de la integración entre Field Service y Supply Chain Management permite la sincronización con las plantillas siguientes:
 - Almacenes (Supply Chain Management a Field Service) - almacenes desde Supply Chain Management a Field Service [consulta avanzada] 

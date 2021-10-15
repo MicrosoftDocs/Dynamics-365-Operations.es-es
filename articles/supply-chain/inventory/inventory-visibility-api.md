@@ -2,7 +2,7 @@
 title: API públicas de visibilidad de inventario
 description: Este tema describe las API públicas que proporciona Visibilidad de inventario.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474661"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592497"
 ---
 # <a name="inventory-visibility-public-apis"></a>API públicas de visibilidad de inventario
 
@@ -82,6 +82,8 @@ Microsoft ha creado una interfaz de usuario (IU) en Power Apps para que pueda ob
 
 El token de seguridad de la plataforma se utiliza para llamar a la API pública de Visibilidad de inventario. Por lo tanto, debe generar un _token de Azure Active Directory (Azure AD)_ usando su aploicación de Azure AD. A continuación, debe utilizar el token de Azure AD para obtener el _token de acceso_ del servicio de seguridad.
 
+Microsoft proporciona una colección de token *Postman* lista para usar. Puede importar esta colección a su software de *Postman* mediante el siguiente enlace compartido: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+
 Para obtener un token de servicio de seguridad, siga estos pasos:
 
 1. Inicie sesión en Azure Portal y utilícelo para buscar los valores de `clientId` y `clientSecret` para su aplicación de Dynamics 365 Supply Chain Management.
@@ -131,7 +133,7 @@ Para obtener un token de servicio de seguridad, siga estos pasos:
    - El valor `context` debe ser el ID de entorno de LCS en el que desea implementar el complemento.
    - Configure todos los demás valores como se muestra en el ejemplo.
 
-1. Envíe una solicitud HTTP con las siguientes propiedades:
+1. Recupere un token de acceso (`access_token`) enviando una solicitud HTTP con las siguientes propiedades:
 
    - **URL:** `https://securityservice.operations365.dynamics.com/token`
    - **Método:** `POST`
@@ -148,7 +150,8 @@ Para obtener un token de servicio de seguridad, siga estos pasos:
    }
    ```
 
-En secciones posteriores, usará el `$access_token` para representar el token que se obtuvo en el último paso.
+> [!IMPORTANT]
+> Cuando usa la solicitud de recopilación *Postman* para llamar a las API públicas de visibilidad de inventario, debe agregar un token de portador para cada solicitud. Para encontrar su token de portador, seleccione la pestaña **Autorización** debajo de la URL de solicitud, seleccione el tipo **Token de portador** y copie el token de acceso que se obtuvo en el último paso. En secciones posteriores de este tema se usará el `$access_token` para representar el token que se obtuvo en el último paso.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Crear eventos de cambio de inventario disponible
 
@@ -508,7 +511,7 @@ En la parte del cuerpo de esta solicitud, `dimensionDataSource` sigue siendo un 
 
 - `organizationId` debería contener solo un valor, pero sigue siendo una matriz.
 - `productId` puede contener uno o más valores. Si es una matriz vacía, se devolverán todos los productos.
-- `siteId` y `locationId` se utilizan en Visibilidad de inventario para particiones.
+- `siteId` y `locationId` se utilizan para creación de particiones en visibilidad de inventario. Puede especificar más de un valor `siteId` y `locationId` en una solicitud *Consulta disponible*. En la versión actual, debe especificar ambos valores de `siteId` y `locationId`.
 
 El parámetro `groupByValues` debe seguir su configuración para la indexación. Para obtener más información, consulte [Configuración de jerarquía de índice de productos](./inventory-visibility-configuration.md#index-configuration).
 

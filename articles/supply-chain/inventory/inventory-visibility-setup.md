@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474829"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581874"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Instalar y configurar la visibilidad de inventario
 
@@ -35,63 +35,11 @@ Para poder instalar el complemento de visibilidad de inventario, debe completar 
 
 - Obtenga un proyecto de implementación de LCS con al menos un entorno implementado.
 - Asegúrese de que se hayan completado los requisitos previos para configurar complementos. Para obtener más información sobre estos requisitos previos, consulte [Información general sobre los complementos](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). La visibilidad de inventario no requiere vinculación de escritura dual.
-- Póngase en contacto con el equipo de productos de Visibilidad del inventario en [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para obtener los siguientes archivos obligatorios:
-
-    - `InventoryServiceApplication.PackageDeployer.zip`
-    - `Inventory Visibility Integration.zip` (si la versión de Supply Chain Management que está ejecutando es anterior a la versión 10.0.18)
 
 > [!NOTE]
 > Los países y regiones admitidos actualmente incluyen Canadá (CCA, ECA), Estados Unidos (WUS, EUS), la Unión Europea (NEU, WEU), Reino Unido (SUK, WUK) y Australia (EAU, SEAU), Japón (EJP, WJP) y Brasil (SBR, SCUS).
 
-Si tiene alguna pregunta sobre estos requisitos previos, comuníquese con el equipo de productos de Visibilidad de inventario.
-
-## <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Configurar Dataverse
-
-Para configurar Dataverse para que pueda usarse con Visibilidad de inventario, use la herramienta Package Deployer para implementar el paquete de Visibilidad de inventario. En las siguientes subsecciones, se describe cómo completar cada tarea.
-
-> [!NOTE]
-> Actualmente, solo se admiten entornos de Dataverse creados mediante LCS. Si su entorno de Dataverse se creó de otra forma (por ejemplo, usando el Centro de administración de Power Apps) y si está vinculado a su entorno de Supply Chain Management, primero debe comunicarse con el equipo de productos de Visibilidad de inventario para solucionar el problema de asignación. Luego podrá instalar Visibilidad de inventario.
-
-### <a name="migrate-from-an-old-version-of-the-dataverse-solution"></a>Migrar desde una versión anterior de la solución Dataverse
-
-Si ha instalado una versión anterior de la solución Dataverse de Visibilidad de inventario, siga estas instrucciones para actualizar su versión. Existen dos casos:
-
-- **Caso 1:** Si configura manualmente Dataverse importando la solución `Inventory Visibility Dataverse Solution_1_0_0_2_managed.zip`, siga estos pasos:
-
-    1. Descargue los tres archivos siguientes:
-
-        - `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip`
-        - `InventoryServiceBase_managed.cab`
-        - `InventoryServiceApplication.PackageDeployer.zip`
-
-    1. Importe manualmente `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip` e `InventoryServiceBase_managed.cab` en Dataverse siguiendo estos pasos:
-
-        1. Abra la URL de su entorno de Dataverse.
-        1. Abra la página **Soluciones**.
-        1. Seleccione **Importar**.
-
-    1. Utilice la herramienta Package Deployer para implementar el paquete de `InventoryServiceApplication.PackageDeployer.zip`. Para obtener instrucciones, consulte la sección [Utilizar la herramienta Package Deployer para implementar el paquete](#deploy-package) más adelante en este tema.
-
-- **Caso 2:** Si configuró Dataverse mediante el uso de la herramienta Package Deployer antes de instalar el antiguo paquete de `.*PackageDeployer.zip`, descargue `InventoryServiceApplication.PackageDeployer.zip` y haga una actualización. Para obtener instrucciones, consulte la sección [Utilizar la herramienta Package Deployer para implementar el paquete](#deploy-package).
-
-### <a name="use-the-package-deployer-tool-to-deploy-the-package"></a><a name="deploy-package"></a>Utilizar la herramienta Package Deployer para implementar el paquete
-
-1. Instale las herramientas de desarrollo como se describe en [Descargar herramientas de NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
-1. Desbloquee el archivo de `InventoryServiceApplication.PackageDeployer.zip` que descargó del grupo Teams siguiendo estos pasos:
-
-    1. Mantenga seleccionado (o haga clic con el botón derecho) el archivo y luego seleccione **Propiedades**.
-    1. En el cuadro de diálogo **Propiedades**, en la ficha **General**, busque la sección **Seguridad**, seleccione **Desbloquear** y aplique el cambio. Si no hay ninguna sección de **Seguridad** en la ficha **General**, el archivo no está bloqueado. En este caso, continúe con el siguiente paso.
-
-    ![Desbloquear el archivo descargado](media/unblock-file.png "Desbloquear el archivo descargado")
-
-1. Descomprima `InventoryServiceApplication.PackageDeployer.zip` para encontrar los siguientes elementos:
-
-    - Carpeta `InventoryServiceApplication`
-    - Archivo `[Content_Types].xml`
-    - Archivo `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`
-
-1. Copie cada uno de esos elementos en el directorio `.\Tools\PackageDeployment`. (Este directorio se creó cuando instaló las herramientas de desarrollo).
-1. Ejecute `.\Tools\PackageDeployment\PackageDeployer.exe` y siga las instrucciones en pantalla para importar las soluciones.
+Si tiene alguna pregunta sobre estos requisitos previos, contacte con el equipo de productos de visibilidad de inventario en [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Instalar el complemento de visibilidad de inventario
 
@@ -102,7 +50,11 @@ Después de registrar una solicitud y agregar un secreto de cliente en Azure AD,
 1. Inicie sesión en [LCS](https://lcs.dynamics.com/Logon/Index).
 1. En la página de inicio, seleccione el proyecto donde se implementa su entorno.
 1. En la página del proyecto, seleccione el entorno donde desea instalar el complemento.
-1. En la página del entorno, desplácese hacia abajo hasta que encuentre la sección **Complementos de entorno** en la sección **Integración de Power Platform**. Allí, puede encontrar el  nombre del entorno de Dataverse.
+1. En la página del entorno, desplácese hacia abajo hasta que encuentre la sección **Complementos de entorno** en la sección **Integración de Power Platform**. Allí, puede encontrar el  nombre del entorno de Dataverse. Confirme que el nombre del entorno de Dataverse es el que desea utilizar para la visibilidad del inventario.
+
+    > [!NOTE]
+    > Actualmente, solo se admiten entornos de Dataverse creados mediante LCS. Si su entorno de Dataverse se creó de otra forma (por ejemplo, usando el Centro de administración de Power Apps) y si está vinculado a su entorno de Supply Chain Management, primero debe comunicarse con el equipo de productos de Visibilidad de inventario en [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para solucionar el problema de asignación. Luego podrá instalar Visibilidad de inventario.
+
 1. En la sección **Complementos de entorno**, seleccione **Instalar un nuevo complemento**.
 
     ![Página de entorno en LCS](media/inventory-visibility-environment.png "Página de entorno en LCS")
@@ -118,6 +70,7 @@ Después de registrar una solicitud y agregar un secreto de cliente en Azure AD,
 
 1. Acepte los términos y condiciones seleccionando la casilla de verificación **Términos y condiciones**.
 1. Seleccione **Instalar**. El estado del complemento se muestra como **Instalando**. Cuando se complete la instalación, actualice la página. El estado debería cambiar a **Instalado**.
+1. En Dataverse, seleccione la sección **Aplicaciones** en la navegación de la izquierda y verifique que **Visibilidad de inventario** Power Apps se instala correctamente. Si la sección **Aplicaciones** no exsite, póngase en contacto con el equipo de productos de Visibilidad del inventario en [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!IMPORTANT]
 > Si tiene más de un entorno LCS, cree una aplicación de Azure AD diferente para cada entorno. Si usa el mismo ID de aplicación y el mismo ID de inquilino para instalar el complemento de visibilidad de inventario para diferentes entornos, se producirá un problema de token para los entornos más antiguos. Solo será válido el último que se instaló.
@@ -126,13 +79,13 @@ Después de registrar una solicitud y agregar un secreto de cliente en Azure AD,
 
 Para desinstalar el complemento de visibilidad de inventario, seleccione **Desinstalar** en la página LCS. El proceso de desinstalación finaliza el complemento de visibilidad de inventario, anula el registro del complemento de LCS y elimina los datos temporales almacenados en la caché de datos del complemento de visibilidad de inventario. Sin embargo, los datos de inventario principal que se almacenan en su suscripción de Dataverse no se eliminan.
 
-Para desinstalar los datos de inventario almacenados en su suscripción de Dataverse, abra [Power Apps](https://make.powerapps.com), seleccione **Entorno** en la barra de navegación y seleccione el entorno de Dataverse que está vinculado con su entorno LCS. Luego vaya a **Soluciones** y elimine las siguientes cinco soluciones:
+Para desinstalar los datos de inventario almacenados en su suscripción de Dataverse, abra [Power Apps](https://make.powerapps.com), seleccione **Entorno** en la barra de navegación y seleccione el entorno de Dataverse que está vinculado con su entorno LCS. Luego vaya a **Soluciones** y elimine las siguientes cinco soluciones en este orden:
 
-- Anclar la solución para la aplicación Inventory Visibility en soluciones de Dynamics 365
-- Solución de aplicaciones de Dynamics 365 FNO SCM Inventory Visibility
-- Configuración del servicio de inventario
-- Visibilidad de inventario independiente
-- Solución básica de Dynamics 365 FNO SCM Inventory Visibility
+1. Anclar la solución para la aplicación Inventory Visibility en soluciones de Dynamics 365
+1. Solución de aplicaciones de Dynamics 365 FNO SCM Inventory Visibility
+1. Configuración del servicio de inventario
+1. Visibilidad de inventario independiente
+1. Solución básica de Dynamics 365 FNO SCM Inventory Visibility
 
 Después de eliminar estas soluciones, también se eliminarán los datos almacenados en tablas.
 

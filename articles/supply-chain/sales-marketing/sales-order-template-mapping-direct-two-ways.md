@@ -1,7 +1,7 @@
 ---
 title: Sincronización de pedidos de ventas entre Sales y Supply Chain Management
 description: En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de ventas directamente entre Dynamics 365 Sales y Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9e95ba361bddf4e43b205fe580bb6f4a91dd88248a0c059ad65e66ef07de83c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad23190433b2843ec5063b5fa5b30351fcd86390
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753237"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566440"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronización de pedidos de ventas entre Sales y Supply Chain Management
 
@@ -189,19 +189,19 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Pedidos de Sales (Supply Chain Management a Sales) - Directo: OrderHeader
 
-[![Asignación de la plantilla en la integración de datos.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Asignación de plantilla en integración de datos, pedidos de ventas (Supply Chain Management a Sales) - Directo: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Pedidos de Sales (Supply Chain Management a Sales) - Directo: OrderLine
 
-[![Asignación de la plantilla en la integración de datos.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Asignación de plantilla en integración de datos, pedidos de ventas (Supply Chain Management a Sales) - Directo: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Pedidos de Sales (Sales a Supply Chain Management) - Directo: OrderHeader
 
-[![Asignación de la plantilla en la integración de datos.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Asignación de plantilla en integración de datos, pedidos de ventas (Sales a Supply Chain Management) - Directo: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Pedidos de Sales (Sales Supply Chain Management) - Directo: OrderLine
 
-[![Asignación de la plantilla en la integración de datos.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Asignación de plantilla en integración de datos, pedidos de ventas (Sales Supply Chain Management) - Directo: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>Temas relacionados
 

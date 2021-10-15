@@ -1,7 +1,7 @@
 ---
 title: Acumulación de costes de proyectos en recibos de compra
 description: Este tema describe cómo los costes de proyecto acumulados de recibos de compra se pueden controlar en Microsoft Dynamics 365 Finance.
-author: ShylaThompson
+author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ca04760c682969a409943e66f246dfa8a3bf2872183a0197c8c460cf4398c483
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7ae2f57e0104a30492363f1576962d36a2a1b04b
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737292"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595239"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Acumulación de costes de proyectos en recibos de compra
 

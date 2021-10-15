@@ -1,7 +1,7 @@
 ---
-title: Requisitos de los artículos de pedido de servicio
-description: Si necesita reservar artículos específicos para un pedido de servicio, puede crear requisitos de artículo de inventario para él.
-author: ShylaThompson
+title: Requisitos de artículos de pedido de servicio
+description: Este tema describe los requisitos de los artículos de la orden de servicio.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a57dc7f41e283d097daef1b92b6b22c093655ff48c7a3778f7ab541ebb24964
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ae211cb24e3ed0e9e54643448ee378a20658ad89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746097"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573210"
 ---
-# <a name="service-order-item-requirements"></a>Requisitos de los artículos de pedido de servicio   
+# <a name="service-order-item-requirements"></a>Requisitos de artículos de pedido de servicio
 
 [!include [banner](../includes/banner.md)]
-
 
 Puede crear un pedido de servicio para administrar y realizar un seguimiento de los servicios que proporciona a sus clientes. Si necesita reservar artículos específicos para un pedido de servicio, puede crear requisitos de artículo de inventario para él. Un requisito de artículo se puede usar inmediatamente del inventario o bien, puede iniciar un pedido de producción para el artículo.
 
@@ -37,31 +36,24 @@ Cuando se crea un requisito de artículo para un pedido de servicio, se podrá v
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Ver un requisito de artículo desde un pedido de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
-
-2.  Haga click en **Distribución** y, a continuación, haga clic en **Requisito de artículo** para abrir el formulario **Requisitos de artículo** .
-
-3.  Haga clic en la ficha **Proyecto** y compruebe el campo **Pedido de servicio** para ver los pedidos de servicio de los requisitos de artículo.
+1. Vaya a **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
+1. Seleccione **Distribución** y, a continuación, seleccione **Requisito de artículo** para abrir el formulario **Requisitos de artículo** .
+1. Seleccione la ficha **Proyecto** y compruebe el campo **Pedido de servicio** para ver los pedidos de servicio de los requisitos de artículo.
 
 ## <a name="delete-service-orders-with-item-requirements"></a>Eliminar pedidos de servicio con requisitos de artículo
 
 Si un requisito de artículo se crea en un pedido de servicio, este último no se podrá eliminar. Deberá eliminar primero el requisito de artículo para poder eliminar el pedido de servicio.
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
+1. Vaya a **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
+1. Seleccione **Distribución** y, a continuación, seleccione **Requisito de artículo** para abrir el formulario **Requisitos de artículo** . En este formulario se enumeran los requisitos de artículo creados en el pedido de servicio.
+1. Seleccione el requisito de artículo que desea eliminar y seleccione **Eliminar**.
 
-2.  Haga click en **Distribución** y, a continuación, haga clic en **Requisito de artículo** para abrir el formulario **Requisitos de artículo** . En este formulario se enumeran los requisitos de artículo creados en el pedido de servicio.
+O bien
 
-3.  Seleccione el requisito de artículo que desea eliminar y haga clic en **Eliminar**.
-
- - O bien -
-
-1.  Haga clic en **Gestión de proyectos y contabilidad** \> **Común** \> **Proyectos** \> **Todos los proyectos**.
-
-2.  Abra el proyecto con el pedido de servicio en el que se creó un requisito de artículo.
-
-3.  En el formulario **Proyectos**, en el panel derecho del formulario , haga clic en **Requisitos de artículo**. Se abrirá el formulario **Requisitos de artículo**, en el que se enumeran los requisitos de artículo asociados con el proyecto seleccionado.
-
-4.  Seleccione el requisito de artículo que desea eliminar y haga clic en **Eliminar**.
+1. Vaya a **Gestión de proyectos y contabilidad** \> **Común** \> **Proyectos** \> **Todos los proyectos**.
+1. Abra el proyecto con el pedido de servicio en el que se creó un requisito de artículo.
+1. En el formulario **Proyectos**, en el panel derecho del formulario , seleccione **Requisitos de artículo**. Se abrirá el formulario **Requisitos de artículo**, en el que se enumeran los requisitos de artículo asociados con el proyecto seleccionado.
+1. Seleccione el requisito de artículo que desea eliminar y seleccione **Eliminar**.
 
 ## <a name="see-also"></a>Consulte también
 

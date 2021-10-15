@@ -1,7 +1,7 @@
 ---
 title: Planificación presupuestaria
 description: El objetivo de este laboratorio es proporcionar una visita guiada de las actualizaciones de funcionalidades de Microsoft Dynamics 365 Finance en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración.
-author: ShylaThompson
+author: panolte
 ms.date: 06/25/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e995a3fb7f87db2aed676d12ca4b4732eb3e96c5e52b702890d53cd1840d7cb1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775203"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595343"
 ---
 # <a name="budget-planning"></a>Planificación presupuestaria
 
@@ -36,7 +36,7 @@ El objetivo de este laboratorio es proporcionar una visita guiada de las actuali
 
 ## <a name="prerequisites"></a>Requisitos previos 
 
-Para este tutorial, deberá tener acceso al entorno Microsoft Dynamics 365 Finance con datos de demostración de Contoso, y se aprovisionará como administrador en la instancia. No use el modo de explorador privado para este laboratorio; cierre sesión de cualquier otra cuenta en el explorador si lo necesita e inicie sesión con las credenciales de administrador. Al iniciar sesión, **DEBE** activar la casilla "Mantener la sesión iniciada". Esto crea una cookie persistente que la aplicación Excel necesita actualmente. Si inicia sesión en la aplicación con un explorador distinto de IE, le pedirá que inicie sesión dentro de la aplicación Excel. Al hacer clic en "Iniciar sesión" en la aplicación Excel, se abrirá una ventana emergente de IE y al iniciar sesión **DEBE** activar la casilla "Mantener la sesión iniciada". Si al hacer clic en "Iniciar sesión” en la aplicación Excel no parece hacer nada, debe borrar la caché de cookies de IE.
+Para este tutorial, deberá tener acceso al entorno de Microsoft Dynamics 365 Finance con datos de demostración de Contoso, y se aprovisionará como administrador en la instancia. No use el modo de explorador privado para este laboratorio; cierre sesión de cualquier otra cuenta en el explorador si lo necesita e inicie sesión con las credenciales de administrador. Al iniciar sesión, **DEBE** activar la casilla "Mantener la sesión iniciada". Esto crea una cookie persistente que la aplicación Excel necesita actualmente. Si inicia sesión en la aplicación con un explorador distinto de IE, le pedirá que inicie sesión dentro de la aplicación Excel. Al hacer clic en "Iniciar sesión" en la aplicación Excel, se abrirá una ventana emergente de IE y al iniciar sesión **DEBE** activar la casilla "Mantener la sesión iniciada". Si al hacer clic en "Iniciar sesión” en la aplicación Excel no parece hacer nada, debe borrar la caché de cookies de IE.
 
 ## <a name="scenario-overview"></a>**Visión general del escenario**
 Julia trabaja como directora de finanzas en Contoso Entertainment Systems en Alemania (DEMF). Conforme se acerca el AF2016, necesita trabajar en la configuración del presupuesto de la empresa durante el próximo año. La preparación del presupuesto se parece a lo siguiente:

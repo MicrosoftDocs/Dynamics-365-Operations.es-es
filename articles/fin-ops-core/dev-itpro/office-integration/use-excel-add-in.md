@@ -2,7 +2,7 @@
 title: Ver y actualizar datos de entidad con Excel
 description: Este tema explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761363"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592674"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Ver y actualizar datos de entidad con Excel 
 
@@ -60,7 +60,7 @@ El complemento de Excel lee automáticamente los datos de la entidad que ha sele
 
 6. Seleccione **Aceptar** y, a continuación **Sí** para confirmar el cambio. El complemento de Excel se reinicia y carga los metadatos.
 
-    El botón **Diseño** está ahora disponible. Si el complemento de Excel tiene un botón **Cargar applets**, probablemente no haya iniciado sesión como el usuario correcto. Para obtener más información, consulte “Aparece el botón Cargar applets” en la sección [Solución de problemas](../office-integration/use-excel-add-in.md#troubleshooting) de este tema.
+    El botón **Diseño** está ahora disponible. Si el complemento de Excel tiene un enlace **Cargar applets**, probablemente no haya iniciado sesión como el usuario correcto. Para obtener más información sobre cómo abordar este problema, consulte la entrada [Cargar subprogramas](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) de solución de problemas.
 
 7. Seleccione **Diseño**. El complemento de Excel recupera los metadatos de la entidad.
 8. Seleccione **Agregar tabla**. Aparece una lista de entidades. Las entidades aparecen con el formato "Nombre - Etiqueta".
@@ -136,7 +136,7 @@ Los datos que se leen en el libro de un entorno se pueden copiar en otro entorno
 ## <a name="troubleshooting"></a>Solución de problemas
 Existen problemas que se pueden resolver con unos sencillos pasos.
 
-- **Aparece el botón Cargar applets** - Si el complemento de Excel tiene un botón **Cargar applets** tras el inicio de sesión, probablemente no haya iniciado sesión como el usuario correcto. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, selecciónelo, cierre la sesión y vuelva a abrirla.
+- **El enlace Cargar subprogramas se muestra**: para obtener más información sobre este problema, consulte la entrada [Cargar subprogramas](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) de solución de problemas. 
 - **Recibe un "Mensaje prohibido"** - Si recibe un mensaje “Prohibido” mientras que el complemento de Excel está cargando metadatos, la cuenta que ha iniciado sesión en el complemento de Excel no tiene permisos para usar el servicio, la instancia o en la base de datos objetivo. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, selecciónelo, cierre la sesión y vuelva a abrirla.
 - **Aparece una página web en blanco sobre Excel** - Si se abre una página web en blanco durante proceso de inicio de sesión, la cuenta requiere AD FS, pero la versión de Excel que está ejecutando el complemento de Excel no es lo suficientemente reciente para cargar el cuadro de diálogo de inicio de sesión. Para resolver este problema, actualice la versión de Excel que usa. Para actualizar la versión de Excel si se encuentra en una empresa que está en el canal diferido, utilice la [Herramienta de implementación de Office](/deployoffice/overview-office-deployment-tool) para [cambiar del canal diferido al canal actual](/deployoffice/overview-update-channels).
 - **Recibe un tiempo de espera mientras publica cambios de datos**: si recibe mensajes de tiempo de espera mientras intenta publicar cambios de datos en una entidad, piense en reducir el tamaño del lote de publicación para el libro afectado. Las entidades que desencadenan mayores cantidades de lógica en los cambios de registro pueden requerir que las actualizaciones se envíen en lotes más pequeños para ayudar a evitar tiempos de espera.

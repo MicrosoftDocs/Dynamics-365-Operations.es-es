@@ -4,18 +4,18 @@ description: En este tema se describen las características nuevas o modificadas
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
-ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
+ms.openlocfilehash: db1d9d2cddfab5ca5abb50cc3ecb9c841e06b8b7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "7506840"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580993"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 

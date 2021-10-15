@@ -1,7 +1,7 @@
 ---
 title: Acumulación de suscripciones
 description: Con las suscripciones de servicios, puede acumular ingresos manualmente en los períodos siguientes a la fecha de facturación de una transacción de gastos.
-author: ShylaThompson
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d51bcdcc268cf0662ef3d82e6cc8581fd4894bba4b2f1f905b9dfd324cce98
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719584"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580489"
 ---
 # <a name="accruing-subscriptions"></a>Acumulación de suscripciones 
 
@@ -65,7 +65,7 @@ Para poder acumular ingresos para suscripciones, debe activarse la casilla **Acu
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>Habilitar acumulación de ingresos en un grupo de suscripciones
 
-1.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.
+Haga clic en **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.
 
 ## <a name="periods"></a>Períodos
 
@@ -75,8 +75,8 @@ La tabla siguiente proporciona una visión general de los períodos de acumulaci
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767960"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592637"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar y transferir
 
@@ -45,8 +45,8 @@ Puede dividir solo cargas que cumplan con los siguientes criterios:
 
 - Una o más líneas de carga han recogido cantidades.
 - El estado de carga es menor que el cargado.
-- No hay datos de línea de carga. (Estos datos se crean a través de la consolidación de matrículas de entidad en la ubicación de preparación y la función *Confirmar y transferir* no admite la consolidación de matrículas).
-- Actualmente no hay inventario en espera de embalaje en una ubicación de embalaje. (La función *Confirmar y transferir* no admite el inventario que se ha seleccionado en la estación de embalado pero que aún no se ha empaquetado).
+- No hay datos de línea de carga. (Estos datos se crean a través de la consolidación de matrículas de entidad en la ubicación de preparación y la función Confirmar y transferir no admite la consolidación de matrículas).
+- Actualmente no hay inventario en espera de embalaje en una ubicación de embalaje. (La característica *Confirmar y transferir* no admite el inventario que se ha recogido en la estación de empaquetado, pero que aún no se ha empaquetado, a menos que los contenedores que estén empacados se coloquen en ubicaciones de preparación con el trabajo de carga creado).
 
 > [!NOTE]
 > Esta funcionalidad difiere de la funcionalidad de carga de transporte, que debe usarse en almacenes que nunca pueden planificar y crear cargas antes de la recolección, sino que cargan el espacio de transporte disponible después de que se completa la recolección.

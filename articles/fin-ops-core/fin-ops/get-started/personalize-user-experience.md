@@ -2,7 +2,7 @@
 title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344383"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581074"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -119,7 +119,8 @@ Las siguientes herramientas están disponibles en la barra de herramientas **Per
 
 - Utilice la herramienta **Seleccionar** praa seleccionar y cambiar las propiedades de un elemento. Para utilizar esta herramienta, seleccione el botón **Seleccionar** en la barra de herramientas, y seleccione el artículo deseado. La ventana de la propiedad del elemento aparece, donde podrá modificar las propiedades de dicho elemento. Es posible repetir el proceso para otros elementos que se pueden personalizar en la página. Tenga en cuenta que algunas propiedades de personalización no pueden estar disponibles en algunos casos. Por ejemplo, no puede bloquear un campo que es necesario.
 - Use la herramienta **Ocultar** para ocultar un elemento de la página. Para utilizar esta herramienta, seleccione el botón **Ocultar** en la barra de herramientas, y seleccione el artículo que desea ocultar. Al usar la herramienta **Ocultar**, todos los elementos que se ocultan actualmente se hacen visibles pero se muestran en un contenedor sombreado. A continuación puede hacer que un elemento sea visible seleccionándolo. Para ver el aspecto de la página con los artículos ocultos, cambie a otra herramienta de personalización o cierre la barra de herramientas de personalización.
-- Use la herramienta **Agregar campos** para agregar campos en la página. Al usar esta herramienta, puede agregar solamente los campos que forman parte de la definición de la página. Para obtener información sobre cómo crear nuevos campos que no son parte de la definición de la página actual, consulte [Crear y trabajar con campos personalizados](user-defined-fields.md). Tras seleccionar el botón **Agregar campos** en la barra de herramientas, primero debe seleccionar la cuadrícula o la sección donde desee agregar un campo. Un cuadro de diálogo muestra la lista de campos relacionados con la cuadrícula o sección que haya seleccionado. En el cuadro de diálogo, seleccione uno o varios campos para añadirlos y luego seleccione **Actualizar**. Para quitar un campo que ha agregado anteriormente, repita el proceso, pero desactive la selección del campo en el cuadro de diálogo.
+- Use la herramienta **Agregar campos** para agregar campos en la página. Al usar esta herramienta, puede agregar solamente los campos que forman parte de la definición de la página. Para obtener información sobre cómo crear nuevos campos que no son parte de la definición de la página actual, consulte [Crear y trabajar con campos personalizados](user-defined-fields.md). Tras seleccionar el botón **Agregar campos** en la barra de herramientas, primero debe seleccionar la cuadrícula o la sección donde desee agregar un campo. Un cuadro de diálogo muestra la lista de campos relacionados con la cuadrícula o sección que haya seleccionado. En el cuadro de diálogo, seleccione uno o más campos para agregar desde las listas **Campos recomendados** o **Todos los campos**. Después de elegir los campos deseados, seleccione **Actualizar**. Para quitar un campo que ha agregado anteriormente, repita el proceso, pero desactive la selección del campo en el cuadro de diálogo.
+    - La lista **Campos recomendados** muestra los campos que otros usuarios de su organización han agregado anteriormente. Esta lista de campos se actualiza en función de la frecuencia de repetición del **Recomendación de trabajo por lotes**. Existe una experiencia similar al agregar nuevos campos de filtro usando el panel Filtro en una página.
 - Elija la herramienta **Mover** si desea mover un elemento a otra ubicación dentro del grupo actual de elementos. Tenga en cuenta que no puede mover un elemento fuera del grupo principal. Para utilizar esta herramienta, seleccione el botón **Mover** en la barra de herramientas, y seleccione el artículo que desea mover. Al seleccionar un elemento, la aplicación determina las ubicaciones adónde se puede mover el elemento. Estas ubicaciones se conocen como *zonas de colocación*. Mientras arrastra el elemento dentro del grupo actual, todas las zonas de colocación se muestran como una línea en color y negrita junto al área donde el elemento se puede colocar.
 - Use la herramienta **Omitir** para quitar un elemento de la secuencia del tabulador del teclado de la página. Al seleccionar el botón **Omitir** de la barra de herramientas, todos los elementos que se omiten se muestran en un contenedor sombreado. Puede agregar o quitar interactivamente campos de la secuencia de fichas.
 - Utilice la herramienta **Mostrar en encabezado** cuando desee que aparezca un campo en la sección de resumen de la ficha desplegable. Al seleccionar el botón **Mostrar en encabezado** en la barra de herramientas, todos los campos que se seleccionan como campos de resumen se muestran en un contenedor sombreado. Puede agregar interactivamente campos al resumen de ficha desplegable y quitar campos del resumen seleccionando los campos.

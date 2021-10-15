@@ -1,7 +1,7 @@
 ---
 title: Configuración predeterminada de pedidos para dimensiones y variantes de producto.
 description: Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido.
-author: t-benebo
+author: johanhoffmann
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5cdba1b3aaa121eed3b8f870d21aa7e58d2c7b14aa25563cd437d3769b35e872
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750061"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579433"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 

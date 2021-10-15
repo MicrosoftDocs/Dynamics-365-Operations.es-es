@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05e9d6441cf99dce3f4663b9d5ba57e2b386e8c2f3060f75550270083f3b98b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76131b6cc7ee58d4a095da4ac56cd97124e42587
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741462"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559371"
 ---
 # <a name="payroll-position"></a>Puesto de nómina
 
@@ -32,22 +32,29 @@ Nombre físico: mshr_payrollpositionentity.
 
 Esta entidad proporciona información relacionada con el puesto para un empleado dado.
 
-Nombre físico: 
+Nombre físico: mshr_payrollpositionentity.
 
 ## <a name="properties"></a>Propiedades
 
-| Propiedad<br>**Nombre físico**<br>**_Tipo_** | Utilizar | Descripción |
+| Propiedad</br>**Nombre físico**</br>**_Tipo_** | Utilizar | Descripción |
 | --- | --- | --- |
-| **Horas ordinarias anuales**<br>Horas regulares anuales<br>*Decimal* | Solo lectura<br>Obligatorio | Horas regulares anuales definidas en el puesto.  |
-| **Id de entidad de detalle de puesto de nómina**<br>Nómina posicióndetallesentidadid<br>*Guid* | Obligatorio<br>Generado por el sistema. | Valor GUID generado por el sistema para identificar el puesto de forma única.  |
-| **Campo primario**<br>mshr_primaryfield<br>*Cadena* | Obligatorio<br>Generado por el sistema |  |
-| **Valor de id. de trabajo de puesto**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_PayrollPositionJobEntity de la mshr_payrollpositionjobentity |Id. del trabajo asociado al puesto.|
-| **Valor de id. de plan de compensación fijo**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_FixedCompPlan_id de mshr_payrollfixedcompensationplanentity  | Id. del plan de compensación fijo asociado al puesto. |
-| **Id. de ciclo de pago**<br>mshr_primaryfield<br>*Cadena* | Solo lectura<br>Obligatorio | El ciclo de pago definido en la posición. |
-| **Pagado por la entidad jurídica**<br>paidbylegalentity<br>*Cadena* | Solo lectura<br>Obligatorio | La entidad legal definida en el puesto responsable de emitir el pago. |
-| **Id. de puesto**<br>mshr_positionid<br>*Cadena* | Solo lectura<br>Obligatorio | El id. del puesto. |
-| **Válido hasta**<br>validto<br>*Desplazamineto de fecha y hora* | Solo lectura<br>Obligatorio |La fecha desde la que son válidos los detalles del puesto.  |
-| **Válido desde**<br>validfrom<br>*Desplazamineto de fecha y hora* | Solo lectura<br>Obligatorio |La fecha hasta la que son válidos los detalles del puesto.  |
+| **Id. de puesto**</br>mshr_positionid</br>*Cadena* | Solo lectura | El id. del puesto. |
+| **Id. de ciclo de pago**</br>mshr_paycycleid</br>*Cadena* | Solo lectura | El ciclo de pago que se define en la posición. |
+| **Horas ordinarias anuales**</br>Horas regulares anuales</br>*Decimal* | Solo lectura | Las horas regulares anuales que se definen en el puesto. |
+| **Pagado por la entidad jurídica**</br>paidbylegalentity</br>*Cadena* | Solo lectura | La entidad legal que se define en el puesto y responsable de emitir el pago. |
+| **Válido hasta**</br>validto</br>*Desplazamineto de fecha y hora* | Solo lectura | La fecha hasta la que son válidos los detalles del puesto. |
+| **Válido desde**</br>validfrom</br>*Desplazamineto de fecha y hora* | Solo lectura | La fecha desde la que son válidos los detalles del puesto. |
+| **Campo primario**</br>mshr_primaryfield</br>*Cadena* | Generado por el sistema | El campo primario. |
+| **Id de entidad de detalle de puesto de nómina**</br>Nómina posicióndetallesentidadid</br>*Guid* | Obligatorio</br>Generado por el sistema. | Un valor de identificador único global (GUID) generado por el sistema para identificar de forma exclusiva el puesto. |
+
+## <a name="relations"></a>Relaciones
+
+| Valor de la propiedad | Entidad relacionada | Propiedad de navegación | Tipo de recopilación |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
+| _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | No aplicable |
+| _mshr_fk_job_id_value | mshr_payrollpositionjobentity | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_Payroll |
+| _mshr_fk_positionassignmentv2_id_value | mshr_hcmpositionworkerassignmentv2entity | mshr_FK_PositionAssignmentV2_id | No aplicable |
 
 ## <a name="example-query"></a>Consulta de ejemplo
 

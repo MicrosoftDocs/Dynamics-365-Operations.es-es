@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414593"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559470"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurar la integración con Dayforce
 
@@ -64,7 +64,6 @@ La activación de la integración de nóminas tiene dos efectos primarios:
 
 > [!NOTE]
 > El paquete de datos transferido al extremo de SFTP se cifra mediante una clave que es única para el paquete. La clave está en Azure Key Vault, a la que solo puede acceder Ceridian. No es posible descifrar y examinar el contenido del paquete de datos. Si tiene que examinar el contenido del paquete de datos, debe exportar manualmente el proyecto de datos "Exportación de la integración de nóminas", descargarlo y abrirlo. La exportación manual aplicará cifrado o transferirá el paquete.
-> Para los casos en los que los archivos de integración se envían desde un UAT de Dynamics 365 Human Resources o entorno de espacio aislado a un entorno Ceridian Dayforce Test, puede utilizar la siguiente URL del almacén de claves: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Configurar los datos 
 

@@ -2,19 +2,19 @@
 title: Descripción del servicio para aplicaciones de Finance and Operations
 description: Este tema proporciona la descripción del servicio para aplicaciones de Finance and Operations.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472514"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581825"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descripción del servicio para aplicaciones de Finance and Operations
 
@@ -28,7 +28,7 @@ Las aplicaciones de Finance and Operations son ofertas de software como servicio
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-Junto con [Inteligencia de negocio](/power-bi/fundamentals/power-bi-service-overview), [infraestructura](https://azure.microsoft.com/global-infrastructure/), [proceso](/azure/service-fabric/service-fabric-overview) y [servicios de base de datos](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview), estas aplicaciones permiten a las organizaciones ejecutar procesos comerciales operativos y específicos de la industria. Con el apoyo de su socio de implementación, los clientes determinan la configuración de la lógica de la aplicación empresarial que mejor se adapta a sus procesos empresariales únicos. La funcionalidad y los procesos comerciales se pueden aumentar o ampliar a través de una o una combinación de las siguientes soluciones:
+Junto con [Inteligencia de negocio](/power-bi/fundamentals/power-bi-service-overview), [infraestructura](https://azure.microsoft.com/global-infrastructure/), [proceso](/azure/service-fabric/service-fabric-overview) y [servicios de base de datos](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/), estas aplicaciones permiten a las organizaciones ejecutar procesos comerciales operativos y específicos de la industria. Con el apoyo de su socio de implementación, los clientes determinan la configuración de la lógica de la aplicación empresarial que mejor se adapta a sus procesos empresariales únicos. La funcionalidad y los procesos comerciales se pueden aumentar o ampliar a través de una o una combinación de las siguientes soluciones:
 
 - [Experiencia de personalización](personalize-user-experience.md) integrada
 - Herramientas de [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)
@@ -197,17 +197,17 @@ La siguiente tabla describe algunos escenarios y actividades típicos para el se
 | Aprovisione todas las instancias de producción y las instancias de no producción. | X | |
 | Valide las instancias de producción implementadas y las instancias de no producción. | | X |
 | **Actualizaciones de servicio** | |
-| Microsoft aplica actualizaciones de servicio a instancias designadas de producción y no producción. | X | X |
-| Descargue la actualización de LCS, defina, desarrolle y pruebe la actualización y proporcione el paquete de actualización de código a LCS. | | X |
-| Solicite que las actualizaciones de la extensión se apliquen a la instancia de producción. | | X |
+| Aplica actualizaciones de servicio a instancias designadas de producción y no producción. | X | |
+| Aplique manualmente actualizaciones de servicio de LCS a instancias de espacio aislado. Defina, desarrolle, pruebe la actualización y proporcione el paquete de actualización de código a LCS. | | X |
+| Solicite y programe que las actualizaciones de la extensión se apliquen a la instancia de producción. | | X |
 | Cree una copia de seguridad de código y datos para la instancia de producción antes de que se apliquen las actualizaciones. | X | |
 | En caso de que se produzca algún error, retrotraiga la instancia de producción al código y la copia de seguridad de los datos. | X | |
 | **Gestión de datos (copia de seguridad, restauración y actualización)** | | |
 | Realice una copia de seguridad de la base de datos. | X | |
 | Determine la alta disponibilidad y un plan de recuperación ante desastres. | X | |
-| Supervisar el rendimiento de la base de datos de la instancia de producción. | X | X |
-| Regule el rendimiento de la base de datos de la instancia de producción. | X | X |
-| Inicie la copia de la base de datos de la instancia de producción en una instancia que no sea de producción. | | X |
+| Supervisar el rendimiento de la base de datos de la instancia de producción. | X | |
+| Regule el rendimiento de la base de datos de la instancia de producción. | X | |
+| Realice una actualización puntual de la base de datos de la instancia de producción en una instancia que no sea de producción. | | X |
 | **Actualizar la infraestructura** | | |
 | Programe actualizaciones periódicas de la infraestructura. | X | |
 | **Escalar hacia arriba y hacia abajo (usuarios, almacenamiento e instancias)** | | |
@@ -215,7 +215,7 @@ La siguiente tabla describe algunos escenarios y actividades típicos para el se
 | Actualice los cambios de uso en la herramienta de estimación de suscripción LCS. | | X |
 | Informe cualquier problema de rendimiento significativo que afecte el uso del servicio. | | X |
 | Gestione de forma proactiva los recursos necesarios para el servicio correspondiente. | X | |
-| Investigar y solucionar incidentes. | X | X |
+| Investigar y solucionar incidentes. | X | |
 | **Seguridad (acceso de usuarios)** | | |
 | Proporcionar acceso de usuario al servicio. | | X |
 | Proporcione acceso al proyecto LCS para la administración y operación de instancias que se implementaron a través de LCS. | | X |

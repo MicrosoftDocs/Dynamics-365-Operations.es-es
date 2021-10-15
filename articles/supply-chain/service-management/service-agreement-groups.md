@@ -1,7 +1,7 @@
 ---
-title: Visión general de los acuerdos de servicio
-description: Los grupos de acuerdos de servicio son útiles para ordenar y filtrar acuerdos de servicio.
-author: ShylaThompson
+title: Información general de los acuerdos de servicio
+description: Este tema proporciona información sobre cómo funcionan los acuerdos de servicio.
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3baaccf490af8231ca4389fa409b71f6286ff8d37bdcde78d8af95916d55cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82cb77dbeb03a2d43ec5a6f797d11984a33b6698
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734100"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578713"
 ---
-# <a name="service-agreements-overview"></a>Visión general de los acuerdos de servicio
+# <a name="service-agreements-overview"></a>Información general de los acuerdos de servicio
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,9 +32,9 @@ En el campo **Grupo de contratos de servicio** en la página **Parámetros de la
 
 ## <a name="example"></a>ejemplo
 
--  Puede agrupar los acuerdos de servicio en función del nivel de servicio ofrecido. 
--  Los tres grupos de acuerdos configurados en su empresa son: Gold, Silver y Bronze.
--  Han empleado a un nuevo director de cuentas de servicio de la empresa. El administrador de servicio es responsable de tratar con todos los clientes del grupo de acuerdos Gold. Puede filtrar los registros de acuerdos del grupo de acuerdos Gold para buscar todos los acuerdos para los que debe especificar al nuevo director de servicio como responsable.
+- Puede agrupar los acuerdos de servicio en función del nivel de servicio ofrecido.
+- Los tres grupos de acuerdos configurados en su empresa son: Gold, Silver y Bronze.
+- Han empleado a un nuevo director de cuentas de servicio de la empresa. El administrador de servicio es responsable de tratar con todos los clientes del grupo de acuerdos Gold. Puede filtrar los registros de acuerdos del grupo de acuerdos Gold para buscar todos los acuerdos para los que debe especificar al nuevo director de servicio como responsable.
 
 ## <a name="related-topics"></a>Temas relacionados
 

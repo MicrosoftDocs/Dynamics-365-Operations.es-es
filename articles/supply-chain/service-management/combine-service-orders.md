@@ -1,7 +1,7 @@
 ---
 title: Combinación de pedidos de servicio
 description: Puede combinar pedidos de servicio.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eff71d49695f54520f983abacff658c771f1084d725f1f8bfef6c050df41dda
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5df9571cb1330489651a28462b747cacd7ac7e46
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766520"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580465"
 ---
 # <a name="combine-service-orders"></a>Combinación de pedidos de servicio   
 
@@ -41,14 +41,14 @@ Al crear líneas de pedido de servicio automáticamente en el formulario **Acuer
 
 Imagine que crea un acuerdo de servicio que incluya la fecha de inicio del 31-03-2007. En el campo **Combinar pedidos de servicio**, especifique **Por objeto de servicio**. A continuación, crea las siguientes líneas de acuerdo de servicio:
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

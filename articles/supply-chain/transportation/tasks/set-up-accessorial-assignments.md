@@ -1,7 +1,7 @@
 ---
 title: Configurar asignaciones de cargos adicionales
 description: Este procedimiento muestra cómo configurar una asignación de cargos adicionales.
-author: ShylaThompson
+author: Henrikan
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8719ad35ced03cd5e52140303d4bc6b76c9f2d42ae0fc93b613343634506a8ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0062428cf984a48eeddc8c838f92daac254c4c78
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771164"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566056"
 ---
 # <a name="set-up-accessorial-assignments"></a>Configurar asignaciones de cargos adicionales
 

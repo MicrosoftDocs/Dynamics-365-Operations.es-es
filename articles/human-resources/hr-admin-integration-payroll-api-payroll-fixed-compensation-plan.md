@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: a3cc431307d840d393a454e91f202c07c38d2512
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429247"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559348"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Plan de compensación fija con nómina
 
@@ -42,7 +42,7 @@ Nombre físico: mshr_payrollfixedcompensationplanentity.
 | **Id. de puesto**</br>mshr_positionid</br>*Cadena* | Solo lectura | ID de puesto asociado con el empleado y la inscripción al plan de compensación fija. |
 | **Válido desde**</br>mshr_validfrom</br>*Desplazamineto de fecha y hora* |  Solo lectura | Fecha de inicio de la validez de la compensación fija del empleado.  |
 | **Válido hasta**</br>mshr_validto</br>*Desplazamineto de fecha y hora* | Solo lectura | Fecha de finalización de la validez de la compensación fija del empleado. |
-| **Frecuencia de pago**</br>mshr_payfrequency</br>*Cadena* | Solo lectura | La frecuencia con la que se pagará al empleado.  |
+| **Frecuencia de pago**</br>mshr_payfrequency</br>*Cadena* | Solo lectura | El identificador de la [frecuencia de pago de compensación](hr-admin-integration-payroll-api-compensation-pay-frequency.md) para la tarifa de pago dada. |
 | **Divisa**</br>mshr_currency</br>*Cadena* | Solo lectura | La moneda definida para el plan de compensación fijo. |
 | **Entidad de plan de compensación fija con nómina**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Generado por el sistema | Valor GUID generado por el sistema para identificar de forma única el plan de compensación. |
 

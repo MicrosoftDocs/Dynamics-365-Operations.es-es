@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343821"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594866"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar la experiencia de ayuda para aplicaciones de Finance and Operations
 
@@ -30,7 +30,7 @@ En este tema, encontrará una descripción general de los componentes del sistem
 
 ## <a name="help-architecture"></a>Arquitectura de la Ayuda
 
-Las aplicaciones de Finance and Operations incluyen descripciones generales conceptuales y otros temas que se publican en el sitio [https://docs.microsoft.com/dynamics365](/dynamics365/). Se puede acceder a este contenido desde el panel **Ayuda** del producto. En el ejemplo siguiente se muestra las partes del sistema de Ayuda.
+Las aplicaciones de Finance and Operations incluyen descripciones generales conceptuales y otros temas que se publican en el sitio de [Documentación de Microsoft Dynamics 365](/dynamics365/). Se puede acceder a este contenido desde el panel **Ayuda** del producto. En el ejemplo siguiente se muestra las partes del sistema de Ayuda.
 
 [![Arquitectura de la Ayuda.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ El sistema de ayuda integrado en el producto extrae artículos de docs.microsoft
 ## <a name="adding-task-guides"></a>Adición de guías de tareas
 
 > [!NOTE]
-> La pestaña **Guías de tareas** no está actualmente en Recursos Humanos ni en Commerce. <!--We are currently working to enable this functionality in a future release.--> Sin embargo, las guías de tareas de la experiencia Introducción en Recursos humanos seguirán disponibles para cubrir las funcionalidades básicas. Tanto para Recursos Humanos como para Commerce, la ayuda de procedimiento está disponible en el sitio [https://docs.microsoft.com/dynamics365](/dynamics365/).
+> La pestaña **Guías de tareas** no está actualmente en Recursos Humanos ni en Commerce. <!--We are currently working to enable this functionality in a future release.--> Sin embargo, las guías de tareas de la experiencia Introducción en Recursos humanos seguirán disponibles para cubrir las funcionalidades básicas. Tanto para Recursos Humanos como para Commerce, la ayuda de procedimiento está disponible en el sitio de [Documentación de Microsoft Dynamics 365](/dynamics365/).
 
 En la página **Parámetros del sistema**, los administradores del sistema pueden configurar el acceso a las bibliotecas de guías de tareas relevantes para una implementación.
 

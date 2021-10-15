@@ -1,7 +1,7 @@
 ---
 title: Imprimir cheques con diseño español
 description: Este tema proporciona información sobre cómo imprimir cheques de acuerdo con las normas que se requieren en España.
-author: neserovleo
+author: anasyash
 ms.date: 05/31/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 274753
 ms.search.region: Spain
-ms.author: v-lenest
+ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6aeeeca2bc9134d7ce49d1c50ed31388ec5322fb648de5b4ce5f1bf2e7319cbe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e36a00338384ee7b474fe872e8214f8bfc2481d9
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748938"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592653"
 ---
 # <a name="print-checks-by-using-the-spanish-layout"></a>Imprimir cheques con diseño español
 

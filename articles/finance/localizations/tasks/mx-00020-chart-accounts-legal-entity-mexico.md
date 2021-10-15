@@ -13,12 +13,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81912f9d888d4c551d23b0ced90680a530188602155d2ec066d8b6b6de69cd40
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08019cb52080bac5d2c4038e4811ef48837ee720
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744264"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595417"
 ---
 # <a name="mx-00020-set-up-the-chart-of-accounts-for-a-legal-entity-in-mexico"></a>MX-00020 Configuración del plan de cuentas para una entidad jurídica en México
 
@@ -33,7 +33,7 @@ Configure parámetros específicos en el plan contable para habilitar la generac
 3. En el campo Cuenta principal, escriba un valor.
 4. En el campo Nombre, escriba un valor.
 5. En el campo Valor predet. Debe/Haber, seleccione una opción.
-    * Use este campo para especificar la transacción típica (débito o crédito). Este campo se usa en el archivo XML para notificar el tipo de cuenta principal de gobierno en el nodo <Natur>.  El tipo de cuenta principal se usará para determinar el tipo de cuenta de gobierno cuando este campo esté en blanco.  
+    * Use este campo para especificar la transacción típica (débito o crédito). Este campo se usa en el archivo XML para notificar el tipo de cuenta principal de gobierno en el nodo `<Natur>`.  El tipo de cuenta principal se usará para determinar el tipo de cuenta de gobierno cuando este campo esté en blanco.  
 6. En el campo Cuenta principal, haga clic en el botón desplegable para abrir la búsqueda.
     * Ejemplo: 110 Use este archivo para configurar la cuenta principal del nivel anterior.     Deje este campo en blanco cuando la cuenta principal represente el primer nivel de empresa en el plan contable.    
 7. En la lista, busque y seleccione el registro deseado.

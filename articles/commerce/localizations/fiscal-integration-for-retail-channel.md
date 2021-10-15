@@ -3,7 +3,7 @@ title: Visión general de la integración fiscal para canales de Commerce
 description: Este tema proporciona una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 manager: annbe
-ms.date: 08/10/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 323d9f4816a4f622143692ead3d1871980b19b52
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343296"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512589"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visión general de la integración fiscal para canales de Commerce
 
@@ -141,6 +141,7 @@ Los siguientes ejemplos de integración fiscal están disponibles actualmente en
 - [Ejemplo de integración de servicio de registro fiscal para la República Checa](./emea-cze-fi-sample.md)
 - [Muestra de integración de unidad de control para Suecia](./emea-swe-fi-sample.md)
 - [Ejemplo de integración de servicio de registro fiscal para Alemania](./emea-deu-fi-sample.md)
+- [Ejemplo de integración de impresora fiscal para Rusia](./rus-fpi-sample.md)
 
 La siguiente funcionalidad de integración fiscal también se implementa mediante el marco de integración fiscal, pero está disponible lista para usar y no se incluye en el SDK de Commerce:
 

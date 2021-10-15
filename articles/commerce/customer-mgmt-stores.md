@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472234"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563070"
 ---
 # <a name="customer-management-in-stores"></a>Gestión de clientes en tiendas
 
@@ -45,7 +45,8 @@ Los asociados de ventas pueden capturar varias direcciones para un cliente. El n
 
 ## <a name="sync-customers-and-async-customers"></a>Clientes de modo sincrónico y de modo asincrónico
 
-> [IMPORTANTE] Siempre que el PDV se desconecta, el sistema crea los clientes automáticamente de forma asincrónica, incluso si el modo de creación de clientes asincrónica está deshabilitado. Por lo tanto, independientemente de su selección entre la creación de clientes Sync y Async, los administradores de la sede de Commerce deben crear y programar un trabajo por lotes recurrente para el **P-trabajo**, el trabajo **Sincronice clientes y socios comerciales desde el modo asíncrono** (anteriormente llamado **Sincronice clientes y socios comerciales desde el modo asíncrono**) y el trabajo **1010**, de modo que los clientes de Async se conviertan en clientes de Sync en la sede de Commerce.
+> [!IMPORTANT]
+> Siempre que el PDV se desconecta, el sistema crea los clientes automáticamente de forma asincrónica, incluso si el modo de creación de clientes asincrónica está deshabilitado. Por lo tanto, independientemente de su selección entre la creación de clientes Sync y Async, los administradores de la sede de Commerce deben crear y programar un trabajo por lotes recurrente para el **P-trabajo**, el trabajo **Sincronice clientes y socios comerciales desde el modo asíncrono** (anteriormente llamado **Sincronice clientes y socios comerciales desde el modo asíncrono**) y el trabajo **1010**, de modo que los clientes de Async se conviertan en clientes de Sync en la sede de Commerce.
 
 En Commerce, hay dos modos de creación de clientes: Sincrónico (o síncrono) y Asincrónico (o asíncrono). De forma predeterminada, los clientes se crean de forma sincrónica. Es decir, se crean en la sede de Commerce en tiempo real. El modo de creación de clientes Sincrónico es beneficioso porque los nuevos clientes se pueden buscar inmediatamente en todos los canales. Sin embargo, también tiene un inconveniente. Porque genera llamadas de [Commerce Data Exchange: servicio en tiempo real](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) a la sede de Commerce, el rendimiento puede verse afectado si se realizan muchas llamadas simultáneas de creación de clientes.
 

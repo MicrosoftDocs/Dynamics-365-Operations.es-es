@@ -1,7 +1,7 @@
 ---
 title: Consultas e informes sobre materiales peligrosos
 description: Este tema explica cómo trabajar con los distintos informes relacionados con materiales peligrosos. Muchos de estos informes son necesarios para que pueda seguir cumpliendo con las diversas regulaciones de materiales peligrosos durante el envío y almacenamiento.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: c48dc05f33ba93abbbe9152c322030bbc1920f5adaf6fc51268075ac49c3e921
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743587"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568552"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Consultas e informes sobre materiales peligrosos
 

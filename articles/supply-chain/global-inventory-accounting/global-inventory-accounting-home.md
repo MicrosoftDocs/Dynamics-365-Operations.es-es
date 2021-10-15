@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774978"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557401"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Página principal de Contabilidad de inventario global
 
@@ -46,8 +46,11 @@ La contabilidad de inventario global está disponible actualmente en las siguien
 - Reino Unido
 - Australia
 - Canadá
+- Sudamérica
 
 Si intenta instalar el complemento desde otra región geográfica, Microsoft Dynamics Lifecycle Services (LCS) mostrará un mensaje que indica que su región geográfica no es compatible. La contabilidad de inventario global no admite implementaciones locales de Supply Chain Management.
+
+Si tiene algún problema para habilitar la Contabilidad de inventario global en una de las regiones geográficas admitidas que se enumeran aquí, envíe un mensaje de correo electrónico con su identificación de entorno a [Equipo de contabilidad de inventario global](mailto:GlobalInvAccount@microsoft.com) para validación.
 
 ## <a name="licensing"></a>Licencias
 

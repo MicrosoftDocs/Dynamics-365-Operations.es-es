@@ -1,7 +1,7 @@
 ---
 title: Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management
 description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Field Service con los pedidos de ventas en Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d7688e757a3ab9746ae0307a7c15f0624c1d8aceeb0dc935b0da32d3ab2994b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752691"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568384"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management
 
@@ -245,31 +245,31 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 
 Filtro: (msdyn_systemstatus ne 690970005) y (msdyn_systemstatus ne 690970000) y (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Asignación de plantillas en la integración de datos para pedidos de trabajo a pedidos de venta (Field Service a Supply Chain Management): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) y (msdynce_headersystemstatus ne 690970004)
 
-[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Asignación de plantillas en la integración de datos para pedidos de trabajo a pedidos de venta (Field Service a Supply Chain Management): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderServiceLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004))
 
-[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Asignación de plantillas en la integración de datos para pedidos de trabajo a pedidos de venta (Field Service a Supply Chain Management): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderProductLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y (msdyn_linestatus eq 690970000) y (msdynce_headersystemstatus ne 690970004) y (msdyn_allocated eq true)
 
-[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Asignación de plantillas en la integración de datos para pedidos de trabajo a pedidos de venta (Field Service a Supply Chain Management): WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderProductLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004) o (msdyn_allocated ne true))
 
-[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Asignación de plantillas en la integración de datos para pedidos de trabajo a pedidos de venta (Field Service a Supply Chain Management): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

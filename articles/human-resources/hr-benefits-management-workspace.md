@@ -1,8 +1,8 @@
 ---
 title: Espacio de trabajo de administración de prestaciones
 description: En este tema se describe el espacio de trabajo de gestión de beneficios de Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/24/2021
+author: twheeloc
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49393ab65c2f0020af5b246f7c18a152d613725f5b31be89cb57f244b28003f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719101"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512483"
 ---
 # <a name="benefits-management-workspace"></a>Espacio de trabajo de administración de prestaciones
 
@@ -47,7 +47,7 @@ El espacio de trabajo **Gestión de beneficios** le brinda una vista rápida de 
 
 ## <a name="view-action-items"></a>Ver elementos de acción
 
-Puede ver sus elementos de acción seleccionando un mosaico o una pestaña. Si selecciona una pestaña, puede ver y seleccionar trabajadores directamente en la página del espacio de trabajo.
+Puede ver sus elementos de acción seleccionando un mosaico o una pestaña. Si selecciona una pestaña, puede ver y seleccionar trabajadores desde la página del espacio de trabajo.
 
 ![Elementos de acción.](./media/hr-benefits-management-workspace-action-items.png)
 
@@ -60,7 +60,7 @@ Si selecciona un mosaico, va a la página de esa área. Por ejemplo, al seleccio
 
 ![Planes de prestaciones de trabajador.](./media/hr-benefits-management-workspace-plans.png)
 
-Seleccionando los iconos **Acontecimientos de la vida activa** o **Eventos de la vida futura** le lleva a una lista de eventos de la vida activos o futuros.
+Seleccionando **Acontecimientos de la vida activa** o **Eventos de la vida futura** pasará a una lista de eventos de la vida activos o futuros.
 
 ![Eventos de vida.](./media/hr-benefits-management-workspace-life-events.png)
 
@@ -88,9 +88,42 @@ Para ver un período de beneficios diferente, selecciónelo en la lista desplega
 
 ![Cambio de período.](./media/hr-benefits-management-workspace-period.png)
 
+
+## <a name="open-enrollment-tab"></a>Pestaña inscripción abierta
+
+Puede ver elementos de acción seleccionando un mosaico o una pestaña. Si selecciona una pestaña, puede ver y seleccionar trabajadores desde la página del espacio de trabajo.
+La pestaña **Inscripción abierta** proporciona métricas clave para el proceso de inscripción abierta. 
+
+La información sobre la inscripción abierta se mostrará 30 días antes de la **Fecha de inicio de la inscripción**. Esto se define en la configuración **Periodos** en **Gestión de prestaciones** > **Enlaces** > **Periodos**, en el campo **Fecha de inicio de la inscripción**.  Para cambiar esta configuración, vaya a **Parámetros compartidos de recursos humanos** > **Gestión de prestaciones** > **Opciones de inscripción abierta** y actualice el campo **Número de**.  
+
+La siguiente información está disponible en la pestaña **Inscripción abierta**:
+ - Empleados que no han iniciado el proceso de inscripción abierta
+ - Empleados que tienen elecciones en proceso
+ - Empleados que han completado el proceso de elección
+ - Selecciones no confirmadas
+
+**Iconos de resumen**
+
+- **No empezado**: el mosaico **No empezado** muestra un recuento de empleados que no han iniciado el proceso de inscripción. El mosaico **No empezado** es una lista filtrada que muestra solo aquellos empleados que no tienen ningún plan seleccionado, renunciado o retirado para el período del plan de inscripción abierta. Los planes obligatorios se ignoran y no se incluyen porque se seleccionan de forma predeterminada para el empleado.  Puede profundizar en este mosaico para ver una lista de empleados que no han iniciado el proceso de inscripción abierta en la página **Plan de prestaciones para trabajadores**.
+
+  > [!NOTE]
+  > Si no desea realizar un seguimiento del progreso de la inscripción abierta para un **Tipo de plan**, puede excluirlo yendo a **Gestión de prestaciones** > **Enlaces** > **Parámetros de autoservicio para empleados** > **Configuración de mosaicos de planes de prestaciones** y actualizando el campo **Seguimiento del progreso de la inscripción abierta**.  Por ejemplo, puede haber creado planes donde **Tipo de plan** = **Otro**. Estos planes pueden ser planes opcionales para los que no desea realizar un seguimiento del progreso de la inscripción. Si no selecciona este tipo de plan, los planes de estos tipos se ignorarán al realizar un seguimiento del progreso o finalización de la inscripción en la pestaña **Inscripción abierta**. Esta configuración se aplica al tipo de plan que se selecciona para todos los períodos y entidades legales.
+
+- **En curso**: el mosaico **En curso** da un recuento de empleados que tienen elecciones en curso. El mosaico **En curso** es una lista filtrada que muestra solo los empleados que tienen al menos un plan que no se aplica o está seleccionado. Los planes obligatorios se ignoran y no se incluyen porque se seleccionan de forma predeterminada para el empleado. Puede profundizar en este mosaico para ver los planes seleccionados y condonados en la página **Actualización masiva de planes de prestaciones para trabajadores**.
+
+- **Inscrito en prestaciones**: el mosaico **Inscrito en prestaciones** proporciona un recuento de empleados que están completamente inscritos en las prestaciones. El mosaico **Inscrito en prestaciones** es una lista filtrada que muestra a los empleados que han seleccionado o renunciado a todos los planes. La consulta excluirá los planes que no se están rastreando para la inscripción abierta en la página **Parámetros de autoservicio para empleados**. Puede profundizar en este mosaico para ver una lista de empleados en la página **Planes de prestaciones para trabajadores**.
+
+- **Selecciones no confirmadas**: el mosaico **Selecciones no confirmadas** muestra un recuento de empleados que tienen planes que se seleccionaron o renunciaron y necesitan ser confirmados. Puede profundizar en este mosaico para mostrar la página **Actualización masiva de planes de prestaciones para trabajadores**.
+
+**Actividad**
+
+- **No empezado**: la pestaña **No empezado** muestra una lista de empleados que no han iniciado el proceso de inscripción. El mosaico **No empezado** es una lista filtrada que muestra empleados que no tienen ningún plan seleccionado, renunciado o retirado para el período del plan de inscripción abierta. Los planes obligatorios se ignoran y no se incluyen porque se seleccionan de forma predeterminada para el empleado. Puede desglosar el trabajador para mostrar la página **Detalle de planes de prestaciones para trabajadores**.
+
+- **Elecciones en curso**: la pestaña **Elecciones en curso** muestra una lista de empleados que tienen elecciones en curso. **Elecciones en curso** es una lista filtrada que muestra los empleados que tienen al menos un plan que no se aplica o está seleccionado. Los planes obligatorios se ignoran y no se incluyen porque se seleccionan de forma predeterminada para el empleado. Puede desglosar el trabajador para mostrar la página **Detalle de planes de prestaciones para trabajadores**.
+
 ## <a name="view-more-options"></a>Ver más opciones
 
-Para ver más información y acciones que puede realizar, seleccione **Vínculos**.
+Para ver más información y las acciones adicionales, seleccione **Vínculos**.
 
 ![Vínculos.](./media/hr-benefits-management-workspace-links.png)
 

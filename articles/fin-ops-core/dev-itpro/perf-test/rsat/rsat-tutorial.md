@@ -1,24 +1,21 @@
 ---
 title: Tutorial de Regression Suite Automation Tool
 description: En este tema se muestra cómo usar la Regression Suite Automation Tool (RSAT). Describe varias características y proporciona ejemplos que emplean secuencias de comandos avanzados.
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.custom: 21761
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714558"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556774"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Tutorial de Regression Suite Automation Tool
 
@@ -82,13 +79,19 @@ Una vez que se ejecute el caso de prueba, el mensaje del archivo de parámetros 
 
 Esta característica realiza capturas de pantalla de los pasos que se realizaron durante la grabación de tareas. Es útil para fines de auditoría o depuración.
 
-- Para utilizar esta característica, abra el archivo **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** en la carpeta de instalación de RSAT (por ejemplo, **C:\\Archivos de programa (x86)\\Regression Suite Automation Tool**) y cambie el valor del siguiente elemento de **falso** a **verdadero**.
+- Para utilizar esta característica mientras ejecuta RSAT con la interfaz de usuario, abra el archivo **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** en la carpeta de instalación de RSAT (por ejemplo, **C:\\Archivos de programa (x86)\\Regression Suite Automation Tool**) y cambie el valor en el siguiente elemento de **falso** a **verdadero**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Cuando ejecute el caso de prueba, RSAT generará instantáneas (imágenes) de los pasos en la carpeta de reproducción de los casos de prueba en el directorio de trabajo. Si está utilizando una versión anterior de RSAT, las imágenes se guardan en **C:\\Usuarios\\\<Username\>\\AppData\\Roaming\\Herramienta de regresión\\reproducción** y se crea una carpeta separada para cada caso de prueba que se ejecuta.
+- Para utilizar esta característica mientras ejecuta RSAT por el CLI (por ejemplo, Azure DevOps), abra el archivo **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** en la carpeta de instalación de RSAT (por ejemplo, **C:\\Archivos de programa (x86)\\Regression Suite Automation Tool**) y cambie el valor en el siguiente elemento de **falso** a **verdadero**.
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+Cuando ejecute los casos de prueba, RSAT genera instantáneas (imágenes) de los pasos y las guarda en la carpeta de reproducción de los casos de prueba en el directorio de trabajo. En la carpeta de reproducción, se crea una subcarpeta separada llamada **StepSnapshots**. Esa carpeta contiene instantáneas de los casos de prueba que se ejecutan.
 
 ## <a name="assignment"></a>Asignación
 
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 El siguiente ejemplo utiliza una llamada del protocolo abierto de datos (OData) para encontrar el estado del pedido de un pedido de compra. Si el estado no se **factura**, puede, por ejemplo, llamar a un caso de prueba de RSAT que registra la factura.
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83e75eee54516539be939e9547a8b637bbf2ab107ae96c07c4bbefaad75f1022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d4eb4fd4ea32db5aa19e9d2b1300818b3aaf6fc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768450"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594993"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Reutilizar las configuraciones de ER con plantillas de Excel para generar informes en formato Word
 
@@ -90,7 +90,7 @@ Actualmente, el documento de Excel se utiliza como plantilla para producir un re
 
 Ahora puede asignar los elementos del elemento XML personalizado **Informe** a los controles de contenido del documento de Word.
 
-Si está familiarizado con el proceso de diseñar documentos de Word como formularios que contienen [controles de contenido](/office/client-developer/word/content-controls-in-word) asignados a elementos de [elementos XML personalizados](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), complete todos los pasos en el siguiente procedimiento para crear el documento. Para obtener más información, consulte [Crear formularios que los usuarios pueden rellenar o imprimir en Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). En caso contrario, omita el siguiente procedimiento.
+Si está familiarizado con el proceso de diseñar documentos de Word como formularios que contienen [controles de contenido](/office/client-developer/word/content-controls-in-word) asignados a elementos de [elementos XML personalizados](/visualstudio/vsto/custom-xml-parts-overview), complete todos los pasos en el siguiente procedimiento para crear el documento. Para obtener más información, consulte [Crear formularios que los usuarios pueden rellenar o imprimir en Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). En caso contrario, omita el siguiente procedimiento.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Obtener un documento de Word que tenga un elemento XML personalizado y realizar la asignación de datos
 

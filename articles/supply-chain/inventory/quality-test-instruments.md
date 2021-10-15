@@ -1,7 +1,7 @@
 ---
 title: Instrumentos de prueba de gestión de calidad
 description: Este tema describe cómo crear instrumentos de prueba, de modo que se puedan usar para pruebas en pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
-author: rachel-profitt
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39624a9f00829e551fe3790a024155b6104318ef5cc1c582ab263c3868462063
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d80a4f784a43e0d83d1f5b42f6740ef6da3add1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774111"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565912"
 ---
 # <a name="quality-management-test-instruments"></a>Instrumentos de prueba de gestión de calidad
 

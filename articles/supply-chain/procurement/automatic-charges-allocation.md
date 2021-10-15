@@ -1,23 +1,23 @@
 ---
 title: Asignación automática de gastos
 description: La característica de gastos de Microsoft Dynamics 365 Supply Chain Management le ayuda a asignar automáticamente los gastos a los pedidos de compra o los pedidos de ventas.
-author: dasani-madipalli
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753948"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592549"
 ---
 # <a name="automatic-allocation-of-charges"></a>Asignación automática de gastos
 
@@ -26,6 +26,16 @@ ms.locfileid: "6753948"
 Según el cliente con el que trabaja o el artículo que vende, es posible que desee aplicar gastos adicionales específicos. La característica de *gastos* de Microsoft Dynamics 365 Supply Chain Management le ayuda a asignar automáticamente los gastos a los pedidos de compra o los pedidos de ventas.
 
 Los cargos automáticos, o gastos automáticos, se aplican automáticamente al crear un pedido de ventas o un pedido de compra. Puede definir los gastos automáticos de proveedores, clientes, grupos o artículos específicos. También puede definir gastos automáticos que se apliquen a todos los proveedores, clientes o artículos.
+
+## <a name="set-up-parameters"></a>Configurar parámetros
+
+La página **Parámetros de adquisición y abastecimiento** tiene algunas configuraciones que son especialmente relevantes cuando quiera asignar cargos automáticamente. Para completar esta configuración de almacén, siga estos pasos.
+
+1. Vaya a **Adquisición y abastecimiento \> Configuración \> Parámetros de adquisición y abastecimiento**.
+1. Abra la pestaña **Precios**.
+1. En la ficha desplegable **Precios**, realice la siguiente configuración:
+    - **Buscar cargos automáticos para el encabezado**: especifica si los cargos deben asignarse automáticamente a los encabezados de los pedidos de compra. Establezca esto en *Sí* para utilizar la asignación automática de cargos.
+    - **Buscar cargos automáticos por línea**: especifica si los cargos deben asignarse automáticamente a las líneas de pedidos de compra. Establezca esto en *Sí* para utilizar la asignación automática de cargos.
 
 ## <a name="set-up-charges-codes"></a>Configurar códigos de gastos
 

@@ -1,7 +1,7 @@
 ---
 title: Proporcionar guías de realidad mixta para trabajadores en producción
 description: Este tema explica cómo integrar el módulo de gestión de producción en Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides.
-author: cabeln
+author: johanhoffmann
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
@@ -15,18 +15,19 @@ ms.custom:
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: cabeln
+ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 801d2671d238e2cd616bfc59448b2c91c7c1347de6066033a377a807a56bd633
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: edb4d1217617ee3bcb7f528da4aad42fb4fb6b82
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717133"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576913"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Proporcionar guías de realidad mixta para trabajadores en producción
 
+[!include [banner](../includes/banner.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Los trabajadores en los procesos de producción se beneficiarán de las instrucciones pertinentes que se brindan en el momento adecuado en el contexto de su trabajo. Hay *instrucciones* aplicables en varios dominios de trabajo, que incluyen: montaje, servicio, operaciones, certificación y seguridad. En todas estas funciones comerciales básicas, las instrucciones de capacitación continua pueden ayudar a capacitar a los trabajadores para que logren más y trabajen mejor.

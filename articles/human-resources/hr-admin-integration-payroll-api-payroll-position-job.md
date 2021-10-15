@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722640"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559592"
 ---
 # <a name="payroll-position-job"></a>Trabajo de puesto de nómina
 
@@ -34,16 +34,22 @@ Nombre físico: mshr_payrollpositionjobentity.
 
 ## <a name="properties"></a>Propiedades
 
-| Propiedad<br>**Nombre físico**<br>**_Tipo_** | Utilizar | Descripción |
+| Propiedad</br>**Nombre físico**</br>**_Tipo_** | Utilizar | Descripción |
 | --- | --- | --- |
-| **Id. de trabajo**<br>mshr_jobid<br>*Cadena* | Solo lectura<br>Obligatorio |El id. de trabajo. |
-| **Válido desde**<br>mshr_validto<br>*Desplazamineto de fecha y hora* | Solo lectura <br>Obligatorio | Fecha desde la que es válida el puesto y la relación laboral. |
-| **Válido hasta**<br>mshr_validto<br>*Desplazamineto de fecha y hora* | Solo lectura <br>Obligatorio | Fecha hasta la que es válido el puesto y la relación laboral.  |
-| **Id. de puesto**<br>mshr_positionid<br>*Cadena* | Solo lectura<br>Obligatorio | El id. del puesto. |
-| **Campo primario**<br>mshr_primaryfield<br>*Cadena* | Obligatorio<br>Generado por el sistema |  |
-| **Valor de id. de trabajo de puesto**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_PayrollPositionJobEntity de la mshr_payrollpositionjobentity |Id. del trabajo asociado al puesto.|
-| **Valor de id. de plan de compensación fijo**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_FixedCompPlan_id de mshr_payrollfixedcompensationplanentity  | Id. del plan de compensación fijo asociado al puesto. |
-| **Id. de entidad de trabajo de puesto de nómina**<br>mshr_payrollpositionjobentityid<br>*Guid* | Obligatorio<br>Generado por el sistema. | Valor GUID generado por el sistema para identificar de forma única el trabajo.  |
+| **Id. de puesto**</br>mshr_positionid</br>*Cadena* | Solo lectura | El id. del puesto. |
+| **Válido desde**</br>mshr_validto</br>*Desplazamineto de fecha y hora* | Solo lectura | La fecha desde la que es válida el puesto y la relación laboral. |
+| **Válido hasta**</br>mshr_validto</br>*Desplazamineto de fecha y hora* | Solo lectura | La fecha hasta la que es válida el puesto y la relación laboral. |
+| **Id. de trabajo**</br>mshr_jobid</br>*Cadena* | Solo lectura | El id. de trabajo. |
+| **Campo primario**</br>mshr_primaryfield</br>*Cadena* | Generado por el sistema | El campo primario. |
+| **Id. de entidad de trabajo de puesto de nómina**</br>mshr_payrollpositionjobentityid</br>*Guid* | Generado por el sistema. | Un valor de identificador único global (GUID) generado por el sistema para identificar de forma exclusiva el trabajo. |
+
+## <a name="relations"></a>Relaciones
+
+| Valor de la propiedad | Entidad relacionada | Propiedad de navegación | Tipo de recopilación |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | No aplicable |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>Consulta de ejemplo
 

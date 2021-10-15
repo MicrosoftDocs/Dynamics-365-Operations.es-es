@@ -16,14 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f32c3fd523c3272665b4b45b6d3e136591d12cda191766970ebfaf74b81f0558
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32bf890d1ff74155a75862afd6b0e861fbfc10e2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726874"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567328"
 ---
 # <a name="coverage-time-fences"></a>Límites de tiempo de cobertura
+
+[!include [banner](../../includes/banner.md)]
 
 Este tema describe cómo configurar *límites de tiempo de cobertura* cuando usa la Optimización de planificación. Los planificadores pueden definir el horizonte de planificación (el límite de tiempo de cobertura en días) y excluir la oferta y la demanda que van más allá de ese horizonte. Por lo tanto, los límites de tiempo de cobertura ayudan a prevenir el "ruido" causado por sugerencias de suministro a las que no hace falta que reaccione durante meses. Los ejemplos incluyen el pronóstico del próximo año y los pedidos de los clientes que se realizan mucho más allá del plazo normal.
 
