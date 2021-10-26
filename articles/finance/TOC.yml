@@ -1194,6 +1194,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: Capacidades de divisa en informes financieros
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: Cálculo de ganancias retenidas en informes financieros
+              href: general-ledger/retained-earnings-enhancements.md
             - name: Informes financieros de balance de situación
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Generar informes financieros

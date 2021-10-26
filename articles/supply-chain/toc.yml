@@ -2807,15 +2807,17 @@
                   href: sales-marketing/customer-portal-setup.md
                 - name: Crear y administrar usuarios de la sección de clientes
                   href: sales-marketing/customer-portal-user-admin.md
-                - name: Personalizar y usar la sección de clientes
+                - name: Personalizar y usar el portal de clientes
                   href: sales-marketing/customer-portal-customize.md
             - name: Concesión de comercialización
               href: sales-marketing/trade-allowance.md
             - name: Crear un nuevo acuerdo comercial
               href: sales-marketing/tasks/create-new-trade-agreement.md
-        - name: Gestión de servicio
+            - name: Mejoras de rendimiento de limpieza del historial de ventas
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
+        - name: Administración de servicios
           items:
-            - name: Información general de la gestión de servicio
+            - name: Información general de la administración de servicios
               href: service-management/service-management-home-page.md
             - name: Configurar el servicio al cliente
               items:
@@ -3711,6 +3713,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Ventas y marketing
               items:
+                - name: El trabajo de eliminación del historial de actualización de ventas produce un error o tiene problemas de rendimiento
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
                 - name: Un proceso de empresas vinculadas no admite artículos de agrupación
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
                 - name: No se puede cancelar un pedido de compra de empresas vinculadas que está vinculado a un pedido de ventas

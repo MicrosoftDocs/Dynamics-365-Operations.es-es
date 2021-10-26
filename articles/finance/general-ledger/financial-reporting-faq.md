@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733620"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605288"
 ---
 # <a name="financial-reporting-faq"></a>Preguntas frecuentes sobre informes financieros
 
@@ -101,5 +101,28 @@ Para la conversión de divisa histórica, se pueden usar los saldos del período
 Cuando se actualizan los datos que se presentan en los informes, puede haber una demora porque los importes deben recalcularse comprobando los detalles de las transacciones. Este retraso se desencadena cada vez que se actualizan las tarifas o se registran más transacciones. Por ejemplo, si se configuran miles de cuentas para la conversión histórica un par de veces al día, puede haber una demora de hasta una hora hasta que se actualicen los datos del informe. Por otro lado, si hay un número menor de cuentas específicas, los tiempos de procesamiento de las actualizaciones de los datos del informe se pueden reducir a minutos, o incluso menos.
 
 Del mismo modo, cuando los informes se generan utilizando la conversión de moneda para cuentas de tipo histórico, habrá cálculos adicionales por cada transacción. Dependiendo del número de cuentas, el tiempo de generación de los informes puede llegar a ser más del doble.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>¿Cuáles son los intervalos de integración estimados de Data mart?
+
+Financial Reporter usa 16 tareas para copiar datos de Dynamics 365 Finance a la base de datos de Financial Reporter. En la siguiente tabla se indican estas 16 tareas y se muestra el intervalo que especifica la frecuencia con la que se ejecuta cada tarea. Los intervalos no se pueden cambiar.
+
+| Nombre                                                       | Intervalo | Tiempo de intervalo |
+|------------------------------------------------------------|----------|-----------------|
+| Categorías de cuenta a categoría de cuenta de AX 2012            | 41       | Minutos         |
+| Cuentas a cuenta de AX 2012                                | 7        | Minutos         |
+| Empresas a empresa de AX 2012                               | 300      | Segundos         |
+| Empresas a organización de AX 2012                          | 23       | Minutos         |
+| Combinaciones de dimensiones a combinación de dimensiones de AX 2012    | 1        | Minutos         |
+| Valores de dimensión a valor de dimensión de AX 2012                | 11       | Minutos         |
+| Dimensiones a dimensión de AX 2012                            | 31       | Minutos         |
+| Tipos de cambio a tipo de cambio de AX 2012                    | 17       | Minutos         |
+| Años fiscales a año fiscal de AX 2012                        | 13       | Minutos         |
+| Transacciones de contabilidad general a datos de AX 2012                | 1        | Minutos         |
+| Jerarquías organizativas a árbol de AX 2012                   | 3600    | Segundos         |
+| Escenarios a escenario de AX 2012                              | 29       | Minutos         |
+| Calificadores de tipo de transacción a calificador de tipo de datos de AX 2012 | 19       | Minutos         |
+| Tarea de mantenimiento                                           | 1        | Minutos         |
+| Definiciones de informes MR a informes financieros AX7             | 45       | Segundos         |
+| Versiones del informe MR a versiones de informes financieros de AX         | 45       | Segundos         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

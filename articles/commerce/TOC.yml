@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: Devoluciones vinculadas
                   href: dev-itpro/linked-refunds.md
+                - name: Procesar devoluciones no vinculados con el Dynamics 365 Commerce Payment Connector para Adyen
+                  href: dev-itpro/unlinked-refunds.md
                 - name: Vender y devolver productos no incluidos en la selección de una tienda
                   href: sell-return-outside-assortments.md
                 - name: Configurar y procesar un cambio en un pedido de devolución
