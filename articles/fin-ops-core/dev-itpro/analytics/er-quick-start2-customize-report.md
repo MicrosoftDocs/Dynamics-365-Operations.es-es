@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ec7f5bcf9f01512d22f502a4b512f2919b3caf348eb1f5c4365238d6fd3f476
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770029"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605240"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajustar un formato ER para generar un documento electrónico personalizado
 
@@ -160,7 +160,7 @@ Para agregar las configuraciones ER estándar a su instancia actual de Microsoft
     - **Asignación del modelo de pago 1611** - Esta configuración contiene el [asignado de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) del componente ER que describe cómo se completa el modelo de datos con los datos de la aplicación en tiempo de ejecución.
     - **BACS (Reino Unido)** - Esta configuración contiene el [formato](general-electronic-reporting.md#FormatComponentOutbound) y asignación de formato de componentes ER. El componente de formato especifica el diseño del informe. El componente de asignación de formato contiene la fuente de datos del modelo y especifica cómo se completa el diseño del informe utilizando esta fuente de datos en tiempo de ejecución.
 
-![Página Configuraciones.](./media/er-quick-start2-imported-solution1.png)
+![Página de configuraciones con configuraciones de ER especificadas disponibles en el árbol.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Preparar un pago a proveedor para el procesado
 
@@ -222,7 +222,7 @@ Debe configurar el método de pago electrónico para que use la configuración d
 4. En la ficha desplegable **Formatos de archivo**, establezca la opción **Formato de exportación electrónica general** en **Sí**.
 5. En el campo **Configuración de formato de exportación**, seleccione la configuración de formato **BACS (Reino Unido)**.
 
-    ![Métodos de pago - página de proveedores.](./media/er-quick-start2-method-of-payment1.png)
+    ![Métodos de pago: página de proveedores para configurar un método de pago electrónico para procesar pagos de proveedores utilizando un formato estándar.](./media/er-quick-start2-method-of-payment1.png)
 
 6. Seleccione **Guardar**.
 
@@ -273,7 +273,7 @@ En este caso, como representante de Litware, Inc., debe crear (derivar) una nuev
 
 Se creará la versión 1.1.1 del formato de configuración de ER **BACS (personalizado del Reino Unido)**. Esta versión tiene un [estado](general-electronic-reporting.md#component-versioning) de **Borrador** y puede editarse. El contenido actual de su formato ER personalizado coincide con el contenido del formato proporcionado por Microsoft.
 
-![Página Configuraciones.](./media/er-quick-start2-derived-format-configuration1.png)
+![Página de configuraciones con la versión 1.1.1 del formato de configuración de ER BACS (personalizado del Reino Unido).](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Editar un formato personalizado
 
@@ -349,7 +349,7 @@ Debe configurar el método de pago electrónico para que se utilice su formato E
 4. En la ficha desplegable **Formato de archivo**, establezca la opción **Formato de exportación electrónica general** en **Sí**.
 5. En el campo **Configuración de formato de exportación**, seleccione la configuración de formato **BACS (Reino Unido personalizado)**.
 
-    ![Métodos de pago - página de proveedores.](./media/er-quick-start2-method-of-payment2.png)
+    ![Métodos de pago: página de proveedores para configurar un método de pago electrónico para procesar pagos de proveedores utilizando un formato personalizado.](./media/er-quick-start2-method-of-payment2.png)
 
 6. Seleccione **Guardar**.
 
@@ -378,7 +378,7 @@ Debe configurar el método de pago electrónico para que se utilice su formato E
 
         Observe que, de acuerdo con la estructura de su formato ER personalizado, la línea de pago en el archivo generado ahora [empieza](#PositionSWIFTCode) con el código SWIFT que [introdujo](#DefineSWIFTCode) para la cuenta bancaria del proveedor cuyo pago ha sido procesado.
 
-        ![Archivo de pago en formato TXT.](./media/er-quick-start2-payment-file2.png)
+        ![Archivo de pago en formato TXT utilizado para procesar el pago del proveedor.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Importar nuevas versiones de las configuraciones del formato estándar de ER
 
@@ -395,7 +395,7 @@ Para agregar nuevas versiones de las configuraciones ER a su instancia actual de
 5. En la ficha desplegable **Versiones**, seleccione la versión **3.3** de la configuración de ER seleccionada.
 6. Seleccione **Importar** para descargar la versión seleccionada del repositorio Global a la instancia actual de Finance.
 
-![Página de configuración del repositorio.](./media/er-quick-start2-import-solution2.png)
+![Página del repositorio de configuración, ficha desplegable Versiones, botón Importar.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > Si tiene problemas para acceder al [Repositorio global](er-download-configurations-global-repo.md), puede [descargar configuraciones](download-electronic-reporting-configuration-lcs.md) de LCS en su lugar.
@@ -507,7 +507,7 @@ Para comenzar a utilizar la nueva funcionalidad de la versión 3.3 del formato *
 
         Observe que la línea de pago en el archivo generado ahora empieza con el código SWIFT que introdujo para la cuenta bancaria de un proveedor cuyo pago ha sido procesado.
 
-        ![Archivo de pago en formato TXT.](./media/er-quick-start2-payment-file3.png)
+        ![Archivo de pago en formato TXT utilizado para procesar el pago del proveedor mediante un formato de ER reorganizado.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Recursos adicionales
 

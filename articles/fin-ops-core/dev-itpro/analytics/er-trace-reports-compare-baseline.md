@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: ecca65508c048e2946d912f2bf0292d811fb4eabac9602a35f1ce26f4ebe1da6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769933"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605214"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base
 
@@ -76,7 +76,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos de [C
 3. En el cuadro de diálogo desplegable, en el campo **Nombre**, introduzca **Modelo para aprender líneas base de ER**.
 4. Seleccione **Crear configuración** para confirmar la creación de una nueva entrada de modelo de datos de ER.
 
-![Cuadro de diálogo desplegable Crear configuración.](media/GER-BaselineSample-ModelAdd.PNG "Captura de pantalla del cuadro de diálogo desplegable de Crear configuración")
+![Crear cuadro de diálogo de configuración, agregar una nueva configuración de modelo de ER.](media/GER-BaselineSample-ModelAdd.PNG "Captura de pantalla del cuadro de diálogo desplegable de Crear configuración")
 
 ### <a name="design-a-data-model"></a>Diseñar un modelo de datos
 
@@ -99,7 +99,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos de [C
 3. En el campo **Nombre**, introduzca **Formato para aprender líneas base de ER**.
 4. Seleccione **Crear configuración** para confirmar la creación de una nueva entrada de formato de ER.
 
-![Cuadro de diálogo desplegable Crear configuración.](media/GER-BaselineSample-FormatAdd.PNG "Captura de pantalla del cuadro de diálogo desplegable de Crear configuración")
+![Crear cuadro de diálogo de configuración, agregar una nueva configuración de formato de ER.](media/GER-BaselineSample-FormatAdd.PNG "Captura de pantalla del cuadro de diálogo desplegable de Crear configuración")
 
 ### <a name="design-a-format"></a>Diseñar un formato
 
@@ -107,41 +107,41 @@ Para este ejemplo, creará un formato de ER simple para generar documentos XML.
 
 1. En la página **Configuraciones**, en el panel de acciones, seleccione **Diseñador**.
 2. Seleccione **Agregar raíz**.
-2. En el cuadro de diálogo desplegable, siga estos pasos:
+3. En el cuadro de diálogo desplegable, siga estos pasos:
 
     1. En el árbol, seleccione **Común\\Archivo**.
     2. En el campo **Nombre**, especifique **Salida**.
     3. Seleccione **Aceptar**.
 
-3. Seleccione **Agregar**.
-4. En el cuadro de diálogo desplegable, siga estos pasos:
+4. Seleccione **Agregar**.
+5. En el cuadro de diálogo desplegable, siga estos pasos:
 
     1. En el árbol, seleccione **XML\\Elemento**.
     2. En el campo **Nombre**, especifique **Documento**.
     3. Seleccione **Aceptar**.
 
-5. En el árbol, seleccione **Salida\\Documento**.
-6. Seleccione **Agregar**.
-7. En el cuadro de diálogo desplegable, siga estos pasos:
+6. En el árbol, seleccione **Salida\\Documento**.
+7. Seleccione **Agregar**.
+8. En el cuadro de diálogo desplegable, siga estos pasos:
 
     1. En el árbol, seleccione **XML\\Atributo**.
     2. En el campo **Nombre**, escriba **Id**.
     3. Seleccione **Aceptar**.
 
-    ![Página de diseñador de formato.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Captura de pantalla de la página del diseñador de formatos")
+    ![Página del diseñador de formato, atributo XML seleccionado en el árbol.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Captura de pantalla de la página del diseñador de formatos")
 
-8. En la pestaña **Asignación**, seleccione **Eliminar**.
-9. Seleccione **Agregar raíz**.
-10. En el cuadro de diálogo desplegable, en el árbol, seleccione **General\\Parámetros de entrada de usuario** y, a continuación, siga estos pasos:
+9. En la pestaña **Asignación**, seleccione **Eliminar**.
+10. Seleccione **Agregar raíz**.
+11. En el cuadro de diálogo desplegable, en el árbol, seleccione **General\\Parámetros de entrada de usuario** y, a continuación, siga estos pasos:
 
     1. En el campo **Nombre**, escriba **Id**.
     2. En el campo **Etiqueta**, introduzca **Id**.
     3. Seleccione **Aceptar**.
 
-11. En el árbol, seleccione **Salida\\Documento\\Id**.
-12. Seleccione **Enlazar** y, a continuación, seleccione **Guardar**.
+12. En el árbol, seleccione **Salida\\Documento\\Id**.
+13. Seleccione **Enlazar** y, a continuación, seleccione **Guardar**.
 
-![Página de diseñador de formato.](media/GER-BaselineSample-FormatMappingDesign.PNG "Captura de pantalla de la página del diseñador de formatos")
+![Página del diseñador de formato, pestaña Asignación.](media/GER-BaselineSample-FormatMappingDesign.PNG "Captura de pantalla de la página del diseñador de formatos")
 
 A partir de la estructura diseñada, el formato configurado generará un archivo XML. Este XML contiene el elemento **Raíz** que tiene el atributo **Id.** que se establece en el valor que el usuario introduce en el cuadro de diálogo del tiempo de ejecución de ER.
 
@@ -201,7 +201,7 @@ La línea base se agrega para el formato **Formato para aprender líneas base de
 10. En el campo **Línea base**, introduzca o seleccione el archivo adjunto **outAdmin**.
 11. Seleccione **Guardar**.
 
-![Página de líneas base del formato de los informes electrónicos.](media/GER-BaselineSample-SetupBaselineLine.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
+![Página de líneas base del formato de los informes electrónicos, ficha desplegable con una línea base seleccionada.](media/GER-BaselineSample-SetupBaselineLine.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Ejecutar el formato de ER diseñado y revisar el registro para analizar los resultados
 
@@ -212,7 +212,7 @@ La línea base se agrega para el formato **Formato para aprender líneas base de
 5. Seleccione **Aceptar**.
 6. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configurar registros de depuración**.
 
-    ![Página de registros de ejecución de informes electrónicos.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Captura de pantalla de página registros de ejecución de los informes electrónicos")
+    ![Página de registros de ejecución de informes electrónicos con líneas de base iguales.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Captura de pantalla de página registros de ejecución de los informes electrónicos")
 
     > [!NOTE]
     > El registro de ejecución contiene información sobre los resultados de la comparación del archivo generado con la línea base configurada. En este ejemplo, el registro indica que el archivo generado y la línea base son iguales.
@@ -228,7 +228,7 @@ La línea base se agrega para el formato **Formato para aprender líneas base de
 5. Seleccione **Aceptar**.
 6. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configurar registros de depuración**.
 
-    ![Página de registros de ejecución de informes electrónicos.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Captura de pantalla de página registros de ejecución de los informes electrónicos")
+    ![Página de registros de ejecución de informes electrónicos con líneas de base diferentes.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Captura de pantalla de página registros de ejecución de los informes electrónicos")
 
     > [!NOTE]
     > El registro de ejecución contiene información sobre los resultados de la comparación del archivo generado con la línea base configurada. En este ejemplo, el registro indica que el archivo generado y la línea base son diferentes.

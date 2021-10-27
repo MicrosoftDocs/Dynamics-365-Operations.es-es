@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9972c5761a8445c6802f58b0ffad6226cf8ee38c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 14f0e07913af708e9eb3491ab4bc99e85462e5dd
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568696"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645815"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferencias entre la planificación maestra incorporada y Optimización de planificación
 
@@ -29,7 +29,7 @@ Los resultados de Optimización de planificación pueden diferir de los resultad
 | Dimensiones extensibles | Las dimensiones extensibles están vacías en los pedidos planificados, incluso cuando la casilla **Plan de cobertura por dimensión** está seleccionada en la página **Grupos de dimensiones de almacenamiento** o **Seguimiento de grupos de dimensiones**. |
 | Ejecuciones de producción filtradas | Para obtener más detalles, consulte [Planificación de la producción - Filtros](production-planning.md#filters). |
 | Planificación de previsión | No se admite la planificación de previsiones. Recomendamos que utilice la planificación maestra donde se asigna un modelo de previsión al plan maestro. |
-| Secuencias numéricas para pedidos planificados | No se admiten secuencias numéricas para pedidos planificados. Los números de orden planificados se generan en el lado del servicio. |
+| Secuencias numéricas para pedidos planificados | No se admiten secuencias numéricas para pedidos planificados. Los números de orden planificados se generan en el lado del servicio. El número de pedido planificado normalmente se muestra con 10 dígitos, pero la secuencia en realidad se basa en 20 caracteres, con 10 dígitos asignados para el recuento de ejecución de planificación y los otros 10 dígitos para el recuento de pedidos planificados. |
 | Copia del plan, eliminación del plan y limpieza de la versión del plan | <p>Los siguientes elementos están deshabilitados en **Planificación maestra\> Planificación maestra\> Mantener planes** en el panel de navegación:</p><ul><li>Copia de plan</li><li>Eliminar el plan</li><li>Limpieza de la versión del plan</li></ul> |
 | Pedidos de devolución | No se consideran los pedidos de devolución. |
 | Programación de características relacionadas | Para obtener más información, consulte [Programación con capacidad infinita ](infinite-capacity-planning.md#limitations). |

@@ -2,7 +2,7 @@
 title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: peakerbl
-ms.date: 04/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f9ae06893a8247828fa4d3c2cb40b9155043c87
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404043"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612373"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -198,16 +198,10 @@ Al programar el proceso de limpieza hay que especificar los siguientes parámetr
 > [!NOTE]
 > Si los registros en las tablas de preparación no se limpian por completo, asegúrese de que el trabajo de limpieza esté programado para ejecutarse periódicamente. Como se explicó anteriormente, en cualquier ejecución de limpieza, el trabajo solo limpiará tantas ID de ejecución como sea posible dentro de las horas máximas proporcionadas. Para continuar la limpieza de los registros de etapas restantes, el trabajo debe programarse para ejecutarse periódicamente.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Limpieza y archivo del historial de trabajos (disponible para vista previa en la Platform update 39 o versión 10.0.15)
+## <a name="job-history-clean-up-and-archival"></a>Limpieza y archivo del historial de trabajos 
 La función de limpieza y archivo del historial de trabajos reemplaza las versiones anteriores de la función de limpieza. Esta sección explicará estas nuevas capacidades.
 
-Uno de los principales cambios en la funcionalidad de limpieza es el uso del trabajo por lotes del sistema para limpiar el historial. El uso del trabajo por lotes del sistema permite a las aplicaciones de Finance and Operations que el trabajo por lotes de limpieza se programe y se ejecute automáticamente tan pronto como el sistema esté listo. Ya no es necesario programar el trabajo por lotes manualmente. En este modo de ejecución predeterminado, el trabajo por lotes se ejecutará cada hora a partir de las 12 de la noche y conservará el historial de ejecución de los 7 días más recientes. El historial depurado se archiva para su futura recuperación.
-
-> [!NOTE]
-> Debido a que esta funcionalidad está en vista previa, el trabajo por lotes del sistema no eliminará ningún historial de ejecución hasta que se habilite a través del paquete piloto DMFEnableExecutionHistoryCleanupSystemJob. Cuando la función esté generalmente disponible en una versión futura, este paquete piloto no será necesario y el trabajo por lotes del sistema comenzará a purgarse y archivarse una vez que el sistema esté listo, según el programa definido como se explicó anteriormente. 
-
-> [!NOTE]
-> En una versión futura, las versiones anteriores de la función de limpieza se eliminarán de las aplicaciones Finance and Operations.
+Uno de los principales cambios en la funcionalidad de limpieza es el uso del trabajo por lotes del sistema para limpiar el historial. El uso del trabajo por lotes del sistema permite a las aplicaciones de Finance and Operations que el trabajo por lotes de limpieza se programe y se ejecute automáticamente tan pronto como el sistema esté listo. Ya no es necesario programar el trabajo por lotes manualmente. En este modo de ejecución predeterminado, el trabajo por lotes se ejecutará cada hora a partir de medianoche y conservará el historial de ejecución de los 7 días más recientes. El historial depurado se archiva para su futura recuperación. A partir de la versión 10.0.20, esta función está siempre activa.
 
 El segundo cambio en el proceso de limpieza es el archivo del historial de ejecución depurado. El trabajo de limpieza archivará los registros eliminados en el almacenamiento de blobs que DIXF usa para integraciones regulares. El archivo archivado estará en el formato de paquete DIXF y estará disponible durante 7 días en el blob durante el cual se podrá descargar. La longevidad predeterminada de 7 días para el archivo archivado se puede cambiar a un máximo de 90 días en los parámetros.
 

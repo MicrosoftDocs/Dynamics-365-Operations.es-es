@@ -1,8 +1,8 @@
 ---
 title: Visión general de la conversión de consolidaciones financieras y divisa
 description: Este tema describe las consolidaciones financieras y la conversión de divisas en contabilidad general.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748989"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615944"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visión general de la conversión de consolidaciones financieras y divisa
 
@@ -182,5 +182,17 @@ Aquí hay alguna de las situaciones de consolidación que Informes financieros a
 ## <a name="generating-consolidated-financial-statements"></a>Generar informes financieros consolidados
 Para obtener información sobre los escenarios donde puede generar o consolidar informes financieros, consulte [Generar informes financieros consolidados](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Mejora del rendimiento para consolidaciones de gran tamaño
+
+Los entornos que tienen muchas transacciones de contabilidad general pueden ejecutarse más lentamente de lo óptimo. Para solucionar este problema, puede configurar el procesamiento paralelo de lotes que utiliza un número de fechas definido por el usuario. Para asegurarse de que la solución funcione según lo previsto, agregue un punto de extensión a la consolidación para devolver un contenedor de rangos de fechas. La implementación base debe contener un rango de fechas para el estado de inicio y la fecha de finalización de la consolidación. Los rangos de fechas en la implementación base se validarán para garantizar que no contengan lagunas o superposiciones. Los rangos de fechas se utilizarán para crear paquetes de lotes paralelos para cada empresa.
+
+Puede personalizar la cantidad de rangos de fechas para cumplir con los requisitos de su organización. Al personalizar la cantidad de rangos de fechas, puede ayudar a simplificar las pruebas y minimizar el impacto en el código existente, ya que no existe una lógica de asignación. Las únicas pruebas nuevas que se requieren validan la creación de paquetes de lotes, validan los rangos de fechas y prueban un subconjunto de rangos de fechas para verificar que los lotes se pueden juntar para la tarea de lotes final. 
+
+Esta función mejora el proceso de consolidación en la contabilidad general cuando el proceso se ejecuta en un lote. La mejora optimiza el rendimiento del proceso de consolidación de contabilidad general al dividir la consolidación en varias tareas que se pueden procesar en paralelo. En el método predeterminado de ejecución de una consolidación, cada tarea procesa el valor de ocho días de actividad de contabilidad general. Sin embargo, se ha agregado un punto de extensión que le permite personalizar el número de tareas que se crean.
+
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+
+- **Módulo**: Contabilidad general
+- **Nombre de la función:** Mejora del rendimiento para grandes consolidaciones
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

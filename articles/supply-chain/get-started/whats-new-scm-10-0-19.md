@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8994a11c9d1d90fd8b66b17900248f941e307b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579793"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7638479"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novedades y cambios en la versión 10.0.19 de Dynamics 365 Supply Chain Management (junio de 2021)
 
@@ -50,7 +50,7 @@ La tabla siguiente enumera las mejoras de características incluidas en esta ver
 
 | Área de características | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
 |---|---|---|
-| Ventas y marketing | Mejoras en el rendimiento de la limpieza del historial de ventas | La limpieza del historial de ventas puede llevar mucho tiempo si se ejecuta con poca frecuencia en entornos con un gran volumen de actualizaciones de ventas. Para reducir la duración y mejorar la fiabilidad, esta función divide la limpieza en lotes que se ejecutan por una duración limitada. Siempre que sea posible, se aprovecharán las capacidades de la base de datos para minimizar el bloqueo y evitar unir tablas transaccionales durante la limpieza. |
+| Ventas y marketing | Mejoras en el rendimiento de la limpieza del historial de ventas | La limpieza del historial de ventas puede llevar mucho tiempo si se ejecuta con poca frecuencia en entornos con un gran volumen de actualizaciones de ventas. Para reducir la duración y mejorar la fiabilidad, esta función divide la limpieza en lotes que se ejecutan por una duración limitada. Siempre que sea posible, se aprovecharán las capacidades de la base de datos para minimizar el bloqueo y evitar unir tablas transaccionales durante la limpieza. Para obtener más información, consulte [Mejoras de rendimiento de limpieza del historial de ventas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Ventas y marketing | Actualizar la fecha de recepción solicitada con la fecha confirmada para pedidos entre empresas vinculadas | Esta función le permite controlar lo que sucederá con los valores del campo de fecha de compra y venta cuando utilice la entrega directa entre empresas. Puede elegir si el sistema actualizará las fechas solicitadas u omitirá actualizarlas. Si omite la actualización, las fechas solicitadas representarán lo que el cliente ha solicitado. Si habilita la actualización, las fechas solicitadas (cuando se usa el control de fecha de entrega) solo representan inicialmente lo que solicitó el cliente. Control de fecha de entrega, cuando sea diferente de *Ninguno*, anulará lo que se solicitó inicialmente. Puede configurar esta opción utilizando la nueva configuración **Actualizar la fecha de recepción solicitada con la fecha confirmada** en la configuración del proveedor de empresas vinculadas o cliente.<br><br>Si la función está desactivada, el sistema sobrescribirá la fecha de recepción solicitada en los pedidos de venta originales según la regla de control de la fecha de entrega, pero la fecha de envío solicitada permanecerá como está. |
 | Gestión de almacenes | Redondear cantidades por debajo a la unidad de ventas más cercana durante la liberación al almacén | Esta función agrega una opción que puede restringir las cantidades de los pedidos en el momento de su liberación al almacén. Cuando está habilitada, las cantidades de los pedidos se redondearán a la unidad de ventas completa más cercana y los pedidos que incluyan cantidades de menos de una unidad de ventas se rechazarán para su liberación. |
 | Gestión de almacenes | Método de oleada "Programar creación de trabajo" de toda la organización | Al habilitar esta función, el método de oleada *Programar creación de trabajo* se configura para ejecutarse en paralelo en todas las entidades legales. También se verán afectados varios ajustes adicionales. Para más información, consulte [Programar la creación del trabajo durante el lanzamiento](../warehousing/configure-wave-schedule-work-creation.md). |

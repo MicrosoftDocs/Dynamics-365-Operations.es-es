@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548eec45739a52d4eb168a80660540196225b2ed482d2104a4cd0d00503109dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773797"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605194"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Usar dimensiones financieras como origen de datos (Parte 3: Diseño del informe)
 
@@ -92,7 +92,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 59. Haga clic en Agregar atributos.
 60. En el campo Nombre, escriba "Desc".
 61. Haga clic en Aceptar.
-![Página de diseñador de operaciones de ER.](../media/er-financial-dimensions-guides-format1.png)
+![Página del árbol de diseñador de formato.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Asignar elementos del informe a orígenes de datos
 1. Haga clic en la ficha Asignación.
@@ -141,7 +141,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 44. Haga clic en Enlazar.
 45. Haga clic en Guardar.
 46. Cierre la página.
-![Página de diseñador de operaciones de ER.](../media/er-financial-dimensions-guides-format2.png)
+![Página del diseñador de formato, informe de elementos asignados a orígenes de datos.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

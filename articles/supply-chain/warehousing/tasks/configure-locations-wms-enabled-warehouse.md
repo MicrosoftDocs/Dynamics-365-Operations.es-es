@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e4e3322bbeb64472bdcd27f9ff571fe45ef87d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574122"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599357"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurar ubicaciones en un almacén con WMS
 
@@ -33,7 +33,7 @@ Este procedimiento le muestra cómo configurar la ubicación para un nuevo almac
 2. Haga clic en **Nuevo**.
 3. En el campo **Almacén**, escriba un valor.
 4. En el campo **Nombre**, escriba un valor.
-5. En el campo **Sitio**, escriba un valor.
+5. En el campo **Sitio**, seleccione o escriba un valor de sitio existente.
 6. Expanda la sección **Almacén**.
 7. Establezca **Usar procesos de gestión de almacenes** en Sí. Esta configuración permite ejecutar procesos de almacenamiento avanzados mediante trabajos de almacén y dispositivos móviles.
 8. Cierre la página.

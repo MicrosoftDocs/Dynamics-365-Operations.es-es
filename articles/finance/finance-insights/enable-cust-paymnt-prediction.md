@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0b324891b38f851f8cce9210e3d09a26d567a291
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b1a40db34d42c3f25e910309a9e5ef7b0e7e0361
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386596"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599385"
 ---
 # <a name="enable-customer-payment-predictions"></a>Habilitar las predicciones de pago de clientes
 
@@ -41,7 +41,7 @@ Este tema explica cómo activar y configurar la característica de predicciones 
 2. Active la característica de información de pago del cliente:
 
     1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
-    2. Busque la característica denominada **Información sobre pagos del cliente (versión preliminar)**.
+    2. Busque la característica denominada **(Versión preliminar) Información sobre pagos del cliente**.
     3. Seleccione **Habilitar ahora**.
 
     La característica Información de pagos de clientes ya está activada y lista para configurarse.

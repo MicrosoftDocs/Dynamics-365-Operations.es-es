@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 59b2cc1dae5774322d47f76e1213f0e8c8a0b8b244a68c113e34484c1e59b209
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 395282eb267e7e356fca6087f99c6f193741ac9d
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767227"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605166"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Permitir a los usuarios configurar una referencia de formato ER preguntando un formato desde el repositorio global
 
@@ -34,27 +34,27 @@ Por ejemplo, cuando configura [parámetros de comercio exterior](../../../financ
 
 Si la instancia actual de Finance no contiene formatos de ER relacionados con el proceso comercial Intrastat, este campo de búsqueda estará vacío.
 
-[![Página Parámetros de comercio exterior.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![Página de parámetros de comercio exterior, campo de asignación de formato de informe vacío.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 Si la instancia actual de Finance contiene formatos de ER relacionados con el proceso comercial Intrastat, este campo ofrece los formatos de ER.
 
-[![Página Parámetros de comercio exterior.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![Página de parámetros de comercio exterior, campo de asignación de formato de informe con opciones.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 Esta búsqueda ofrece solo los formatos ER que ya se han importado a la instancia actual de Finance. Para [importar](./tasks/er-import-configuration-lifecycle-services.md) soluciones de ER para la instancia actual de Finance, debe tener permisos para ejecutar la función adecuada del marco de ER que admite el [ciclo de vida](general-electronic-reporting-manage-configuration-lifecycle.md) de soluciones de ER que contienen formatos ER.
 
 A partir de la versión 10.0.9 de Finance (versión de abril de 2020), se ha ampliado la interfaz de usuario de la búsqueda de formato ER que se implementa utilizando la API de marco ER. Todavía puede seleccionar los formatos ER existentes, en la ficha desplegable **Seleccionar configuración de formato**. Además, la búsqueda extendida ofrece la nueva opción de buscar en el repositorio global (GR) para localizar formatos ER específicos. Todos los formatos ER del GR se ofrecen en la ficha desplegable **Importar desde el repositorio global**.
 
-[![Página Parámetros de comercio exterior.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![Página de parámetros de comercio exterior, ficha desplegable Importar desde repositorio global.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 Similar a la ficha desplegable **Seleccionar configuración de formato**, la ficha desplegable **Importar desde el repositorio global** muestra solo los formatos ER que son aplicables al proceso de negocio para el que se selecciona un formato ER en este campo de búsqueda. En este ejemplo, la generación de la declaración Intrastat. El formato ER es aplicable para la compañía en la que el usuario está actualmente conectado, dependiendo del contexto del país de la compañía.
 
 Cuando selecciona un formato ER en la ficha desplegable **Importar desde el repositorio global**, la [configuración](general-electronic-reporting.md#Configuration) del formato ER seleccionado se importa del GR a la instancia actual de Finance.
 
-[![Página Parámetros de comercio exterior.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Página de parámetros de comercio exterior, nota de operación de procesamiento.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Luego, si la importación se completa con éxito, la referencia al formato ER importado se almacena en este campo de búsqueda. Cuando accede al GR por primera vez, debe seguir el enlace proporcionado para registrarse en el [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) que se usa para administrar el acceso al almacenamiento GR.
 
-[![Página Parámetros de comercio exterior.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Página de parámetros de comercio exterior, enlace para suscribirse a RCS.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Por defecto, la ficha desplegable **Importar desde el repositorio global** presenta la lista de formatos ER del almacenamiento temporal que se crea automáticamente en función del contenido GR para mejorar el rendimiento. Esto sucede cuando la ficha desplegable **Importar desde el repositorio global** se abre la primera vez, lo que puede llevar varios segundos.
 

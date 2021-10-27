@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500437"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641170"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -171,7 +171,8 @@ Actualmente, la siguiente funcionalidad de gestión de almacenes no es compatibl
 - Procesamiento con inventario disponible negativo.
 - Procesamiento de trabajos de almacén con notas de envío.
 - Procesamiento de trabajos de almacén con manipulación de materiales y automatización de almacén.
-- Uso de la imagen de datos maestros del producto (por ejemplo, en la aplicación móvil Warehouse Management).
+- Imágenes de datos maestros del producto (por ejemplo, en la aplicación móvil Warehouse Management).
+- Uso compartido de datos entre empresas para productos.
 
 > [!WARNING]
 > Algunas funciones de almacén no estarán disponibles para los almacenes que ejecutan las cargas de trabajo de gestión de almacenes en una unidad de escalado y tampoco se admiten en el concentrador o en la carga de trabajo de la unidad de escalado.
@@ -188,7 +189,6 @@ La siguiente tabla muestra qué funciones de salida son compatibles y dónde se 
 |--------------------------------------------------------------|-----|------------------------------|
 | Procesamiento de documentos de origen                                   | Sí | N.º |
 | Procesado de la administración del transporte y la carga                | Sí, pero solo los procesos de planificación de carga. El procesamiento de gestión de transporte no es compatible  | N.º |
-| Coste de aterrizaje y recepción de mercancía en tránsito                                         | Sí | N.º |
 | Liberar al almacén                                         | Sí | N.º |
 | Tránsito directo planificado                                        | N.º  | N.º |
 | Consolidación de envíos                                       | Sí, al utilizar la planificación de carga | Sí |
@@ -222,9 +222,10 @@ La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se
 
 | Proceso                                                          | Concentrador | Carga de trabajo de ejecución de almacén en una unidad de escala<BR>*(Los artículos marcados con "Sí" se aplican solo a los pedidos de almacén)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Procesamiento&nbsp;de&nbsp;documentos de origen                             | Sí | N.º |
-| Procesado de la administración del transporte y la carga                    | Sí | N.º |
-| Confirmación de envío entrante                                    | Sí | N.º |
+| Procesamiento&nbsp;de&nbsp;documentos de origen                             | Sí | No |
+| Procesado de la administración del transporte y la carga                    | Sí | No |
+| Coste de aterrizaje y recepción de mercancía en tránsito                       | Sí | No |
+| Confirmación de envío entrante                                    | Sí | No |
 | Envío de órdenes de compra al almacén (procesamiento de órdenes de almacén) | Sí | N.º |
 | Cancelación de líneas de pedido de almacén<p>Tenga en cuenta que esto solo se aplica cuando no se ha realizado ningún registro en la línea</p> | Sí | N.º |
 | Recepción de artículo del pedido de compra y ubicación                       | <p>Si,&nbsp;cuando&nbsp;no hay&nbsp;una orden de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Sí, cuando un pedido de compra no forma parte de una <i>carga</i></p> |

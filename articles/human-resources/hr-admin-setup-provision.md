@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488092"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644536"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -49,7 +49,7 @@ Los entornos de prueba no están destinados para su uso como entornos de producc
 Al crear un entorno de prueba de Recursos Humanos, también se crea un entorno de prueba de Power Apps en el inquilino y se vincula con el entorno de Human Resources. El entorno de Power Apps, denominado "TestDrive", tiene el mismo período de prueba que el entorno de Human Resources.
 
 > [!NOTE]
-> El aprovisionamiento de un entorno de prueba de Human Resources fallará si el usuario autenticado no tiene permiso para crear entornos de prueba de Power Apps. El usuario debe estar incluido en el grupo de usuarios que puede crear entornos de prueba en el centro de administración de Power Platform. Para más información, vea [Controle quién puede crear y gestionar entornos en el centro de administración de Power Platform](//power-platform/admin/control-environment-creation).
+> El aprovisionamiento de un entorno de prueba de Human Resources fallará si el usuario autenticado no tiene permiso para crear entornos de prueba de Power Apps. El usuario debe estar incluido en el grupo de usuarios que puede crear entornos de prueba en el centro de administración de Power Platform. Para más información, vea [Controle quién puede crear y gestionar entornos en el centro de administración de Power Platform](/power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Planificar entornos de Human Resources
 

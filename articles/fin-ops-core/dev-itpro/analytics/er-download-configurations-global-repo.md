@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724426"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605340"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Descargue las configuraciones de ER del repositorio global del servicio de configuración
 
@@ -63,7 +63,7 @@ Este tema explica cómo descargar [configuraciones de informes electrónicos (ER
     > [!NOTE]
     > El botón **Importar** no está disponible para las versiones de configuración de ER que ya están presentes en la instancia de Finance actual.
 
-    ![Página de configuración del repositorio.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Página del repositorio de configuración, ficha desplegable Configuraciones.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Importar configuraciones filtradas
 
@@ -77,7 +77,7 @@ Este tema explica cómo descargar [configuraciones de informes electrónicos (ER
 4. En la ficha desplegable **Configuraciones**, seleccione **Importar** para descargar las configuraciones filtradas del repositorio Global a la instancia actual.
 5. En la ficha desplegable **Configuraciones**, seleccione **Restablecer filtro** para limpiar las condiciones de selección especificadas.
 
-    ![Página de configuración del repositorio.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Página del repositorio de configuración, ficha desplegable Versiones, botón Importar.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > En característica de la configuración de ER, se validan las configuraciones después de haberlas importado. Es posible que se le notifique acerca de los problemas de incoherencias que se detecten. Debe resolver los problemas para poder usar la versión de configuración importada. Para obtener más información, consulte la lista de recursos relacionados para este tema.
