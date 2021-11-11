@@ -1,7 +1,7 @@
 ---
-title: Página principal de Activos fijos
-description: Los activos fijos son artículos de valor que pertenecen a un individuo u organización. Los artículos incluyen edificios, vehículos, tierras y equipos.
-author: ShylaThompson
+title: Página principal de activos fijos
+description: Este tema proporciona acceso a recursos que pueden ayudarlo a usar los activos fijos para Microsoft Dynamics 365 Finance.
+author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
 ms.prod: ''
@@ -14,21 +14,21 @@ ms.custom:
 - intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
-ms.author: roschlom
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c483073c924a9a881a3d2668d41614703046f718746f5f439accc3646f6f822
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753561"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674860"
 ---
-# <a name="fixed-assets-home-page"></a>Página principal de Activos fijos
+# <a name="fixed-assets-home-page"></a>Página principal de activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-Los activos fijos son artículos de valor que pertenecen a un individuo u organización. Los artículos incluyen edificios, vehículos, tierras y equipos. 
+Este tema proporciona acceso a recursos que pueden ayudarlo a usar los activos fijos para Microsoft Dynamics 365 Finance. Los activos fijos son artículos de valor que pertenecen a un individuo u organización. Los artículos incluyen edificios, vehículos, tierras y equipos. 
 
 Puede configurar y especificar información de adquisición para activos fijos y, a continuación, gestionar dichos activos depreciándolos y configurando un umbral de capitalización para determinar la depreciación. Puede calcular ajustes para los activos fijos y también desecharlos. Al utilizar Contabilidad general junto con Activos fijos, puede ver el valor actual de todos los activos fijos. La forma de gestionar los activos fijos se debe corresponder a los estándares de contabilidad internacional y a la legislación de contabilidad en cada país/región. Los requisitos deben incluir las reglas para registrar transacciones de uso y cancelación, depreciación, tiempo de vida útil, revalorizaciones y devaluaciones de los activos fijos. La función de activos fijos incorpora muchos de estos estándares y reglas.
 

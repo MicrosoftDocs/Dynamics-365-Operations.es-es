@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c395aabfc8705b4713cf1041b5644ac478d8c1a4c4c211334aea3572f1618b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759026"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675210"
 ---
 # <a name="revenue-recognition-setup"></a>Configuración de reconocimiento de ingresos
 [!include [banner](../includes/banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "6759026"
 Se ha agregado un nuevo módulo **Reconocimiento de ingresos** que incluye elementos de menú para toda la configuración necesaria. En este tema se describen las opciones de configuración y sus implicaciones.
 
 > [!NOTE]
-> La característica Reconocimiento de ingresos no se puede activar a través de Administración de características. Actualmente, debe utilizar las claves de configuración para activarla.
-
-> Reconocimiento de ingresos, incluida la funcionalidad de agrupación de trabajos, no se admite para su uso en los canales de Commerce (comercio electrónico, PDV, centro de llamadas). Los elementos configurados con reconocimiento de ingresos no deben agregarse a pedidos o transacciones creadas en los canales de Commerce.
+> La característica Reconocimiento de ingresos está ahora habilitada de manera predeterminada a través de la administración de características. Si su organización no usa esta característica, puede desactivarla en el área de trabajo **Administración de características**.
+>
+> Reconocimiento de ingresos, incluida la funcionalidad de agrupación de trabajos, no se admiten los canales de Commerce (comercio electrónico, PDV y centro de llamadas). Los elementos configurados para reconocimiento de ingresos no deben agregarse a pedidos o transacciones que se crearon en los canales de Commerce.
 
 El módulo **Reconocimiento de ingresos** contiene las opciones de configuración siguientes:
 
@@ -40,12 +40,16 @@ El módulo **Reconocimiento de ingresos** contiene las opciones de configuració
     - Grupos de artículos y productos emitidos
     - Definición de programación de ingresos
     - Definición de precio de ingresos
+    - Configuración del inventario
 
-        - Perfiles de contabilización
-        - Agrupaciones de trabajos
+        - Definición de programación de ingresos
+        - Definición de precio de ingresos
 
-    - Componentes de agrupación de trabajos
-    - Artículo de la agrupación de trabajos
+    - Perfiles de contabilización
+    - Agrupaciones de trabajos
+
+        - Componentes de agrupación de trabajos
+        - Artículo de la agrupación de trabajos
 
 - Configuración del proyecto
 
@@ -91,20 +95,27 @@ Especifique valores descriptivos en los campos **Programación de ingresos** y *
 - **Condiciones del contrato automáticas**: marque esta casilla si las fechas iniciales y finales del contrato se deben establecer automáticamente. Estas fechas se establecen automáticamente solo para los productos emitidos del tipo de ingresos **Soporte postcontrato**. La fecha inicial del contrato se establece automáticamente en la fecha de envío solicitada de la línea de pedido de ventas y la fecha final del contrato se establece automáticamente en la fecha inicial más el número de meses o repeticiones que se define en la configuración de la programación de ingresos. Por ejemplo, el producto en la línea de pedido de ventas es para una garantía de un año. La programación de ingresos predeterminada es **12M** (12 meses) y se marca la casilla de verificación **Condiciones del contrato automáticas** para esta programación de ingresos. Si la línea de pedido de ventas tiene una fecha de envío solicitada del 16 de diciembre de 2019, la fecha inicial predeterminada del contrato es el 16 de diciembre de 2019 y la fecha final predeterminada del contrato es el 15 de diciembre de 2020.
 - **Base de reconocimiento**: la base de reconocimiento determina cómo se asigna el precio de ingresos en las repeticiones.
 
-    - **Mensualmente por fechas**: el importe se asigna en función de los días reales de cada mes.
+    - **Mensualmente por días**: el importe se asigna en función de los días reales de cada mes de calendario.
     - **Mensual**: el importe se asigna a partes iguales entre el número de meses que se define en las repeticiones.
     - **Repeticiones**: el importe se asigna a partes iguales entre las repeticiones, pero puede incluir un período adicional si se selecciona **Fecha inicial real** como convención de reconocimiento.
+    - **Período fiscal por días**: el importe se asigna en función de los días reales de cada período fiscal. 
 
-- **Convención de reconocimiento**: la convención de reconocimiento determina las fechas predeterminadas que se establecen en la programación de ingresos para la factura.
+    Los resultados de **Mensual por días** y **Período fiscal por días** será los mismos cuando los períodos fiscales sigan los meses calendario. La única excepción es cuando la convención de reconocimiento se establece en **Fin de mes/período**, y los campos **Fecha de inicio del contrato** y **Fecha de finalización** se dejan en blanco en una línea de pedido de ventas.
+
+- **Convención de reconocimiento**: la convención de reconocimiento determina las fechas que se establecen en la programación de ingresos para la factura.
 
     - **Fecha inicial real**: la programación se crea mediante la fecha inicial del contrato (para los elementos de soporte postcontrato \[PCS\]) o la fecha de factura (para los artículos esenciales y no esenciales).
-    - **Primero de mes**: la fecha de la primera línea de la programación es la fecha inicial del contrato (o fecha de factura). Sin embargo, todas las líneas siguientes de la programación se crean para el primer día del mes.
+    - **Primero de mes/período**: la fecha de la primera línea de la programación es la fecha inicial del contrato (o fecha de factura). Sin embargo, todas las líneas siguientes de la programación se crean para el primer día del mes o período fiscal.
     - **División de medio mes**: la fecha de la primera línea de la programación depende de la fecha de factura. Si la factura se registra en los primeros quince días del mes, la programación de ingresos se crea mediante el uso del primer día del mes. Si la factura se registra en los últimos quince días del mes, la programación de ingresos se crea mediante el uso del primer día del mes siguiente.
-    - **Primer día del mes siguiente**: la fecha en la programación es el primer día del mes siguiente.
 
-Seleccione el botón **Detalles de la programación de ingresos** para ver los períodos generales y los porcentajes que se reconocen en cada período. De forma predeterminada, el valor de **Porcentaje de reconocimiento** se divide equitativamente entre el número de períodos. Si la base de reconocimiento se establece en **Mensual** o **Repeticiones**, el porcentaje de reconocimiento se puede modificar. Al cambiar el porcentaje de reconocimiento, un mensaje de advertencia le notifica que el total no es igual al 100 por cien. Si recibe el mensaje, puede continuar editando las líneas. Sin embargo, el porcentaje total debe ser igual a 100 antes de cerrar la página.
+        La **división de medio mes** no se puede seleccionar si la base de reconocimiento se establece en **Período fiscal por días**.
 
-[![Detalles de programación de ingresos.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **Primer día del mes siguiente/período**: la fecha en la que comienza la programación es el primer día del mes siguiente o período fiscal.
+    - **Fin de mes/período**: la fecha de la primera línea de la programación es la fecha inicial del contrato (o fecha de factura). Sin embargo, todas las líneas siguientes de la programación se crean para el último día del mes o período fiscal. 
+
+Seleccione el botón **Detalles de la programación de ingresos** para ver los períodos generales y los porcentajes que se reconocen en cada período. De forma predeterminada, el valor de **Porcentaje de reconocimiento** se divide equitativamente entre el número de períodos. Si la base de reconocimiento se establece en **Mensual**, el porcentaje de reconocimiento se puede modificar. Al cambiar el porcentaje de reconocimiento, un mensaje de advertencia le notifica que el total no es igual al 100 por cien. Si recibe ese mensaje, puede continuar editando las líneas. Sin embargo, el porcentaje total debe ser igual a 100 antes de cerrar la página.
+
+[![Detalles de programación de ingresos.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Configuración del inventario
 
