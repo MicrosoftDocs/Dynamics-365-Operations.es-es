@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569346"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678698"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -93,7 +93,6 @@ La pestaña **Mi maquina** tiene las siguientes columnas. Los números se corres
 1. **Registrar el tiempo de inactividad** - Seleccione este botón para abrir un cuadro de diálogo donde puede registrar el tiempo de inactividad de la máquina. Podrá seleccionar un código de motivo e ingresar un intervalo de fecha/hora para el tiempo de inactividad. El registro del tiempo de inactividad de la máquina se utiliza para calcular la eficiencia del activo de la máquina.
 1. **Ver o editar** - Seleccione este botón para abrir un cuadro de diálogo donde puede editar o ver los registros de tiempo de inactividad existentes.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Iniciar y completar trabajos de producción
 
 Para iniciar un trabajo de producción, los trabajadores seleccionan un trabajo en la pestaña **Todos los trabajos** y después seleccionan **Iniciar trabajo** para abrir el cuadro de diálogo **Iniciar trabajo**.
@@ -109,6 +108,32 @@ Los trabajadores pueden iniciar un trabajo que se encuentra en cualquier estado.
 Cuando un trabajador completa (o completa parcialmente) un trabajo, puede notificar buenas cantidades que se produjeron seleccionando un trabajo en la pestaña **Trabajos activos** y seleccionando a continuación **Notificar progreso**. En el cuadro de diálogo **Notificar progreso**, el trabajador introduce la cantidad buena a través del teclado numérico. La cantidad está en blanco de forma predeterminada. Después de especificar una cantidad, el trabajador puede actualizar el estado del trabajo a *En curso*, *Detenido* o *Terminado*.
 
 ![Cuadro de diálogo Notificar progreso.](media/pfei-report-progress-dialog.png "Cuadro de diálogo Notificar progreso")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Informar buenas cantidades en pedidos de lotes que tienen coproductos y subproductos
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+Los trabajadores pueden utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes. Estos informes incluyen coproductos y productos derivados.
+
+Algunos fabricantes, especialmente en las industrias de procesos, utilizan pedidos por lotes para gestionar sus procesos de producción. Los pedidos por lotes se crean a partir de fórmulas, y esas fórmulas se pueden definir para que tengan coproductos y subproductos como salida. Cuando se informa sobre los comentarios sobre esos pedidos por lotes, la cantidad de salida debe registrarse en el artículo de fórmula y también en los coproductos y subproductos.
+
+Cuando un trabajador completa o completa parcialmente un trabajo en un pedido por lotes, puede informar las cantidades buenas o de desecho para cada producto que se define como salida para el pedido. Los productos que se definen como salida para un pedido de lote pueden ser del tipo *Fórmula*, *Coproducto* o *Subproducto*.
+
+Para informar buenas cantidades de los productos, un trabajador selecciona un trabajo en la pestaña **Trabajos activos** y luego selecciona **Informe el progreso**.
+
+Entonces, en el cuadro de diálogo **Informe el progreso**, el trabajador puede seleccionar entre los productos que se definen como salida para la orden de lote para informar. El trabajador puede seleccionar uno o varios productos de la lista y luego seleccionar **Informe el progreso**. Para cada producto, la cantidad está en blanco por defecto y el trabajador puede usar el teclado numérico para ingresar la cantidad. El trabajador puede utilizar los botones **Anterior** y **Siguiente** para moverse entre los productos seleccionados. Después de especificar la cantidad para cada producto, el trabajador puede actualizar el estado del trabajo a *En curso*, *Detenido* o *Terminado*.
+
+![Informar sobre coproductos y productos derivados](media/report-co-by-products.png "Informar sobre coproductos y productos derivados")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Elaboración de informes sobre pedidos de lote para artículos de planificación
+
+Cuando un trabajador completa un trabajo en un pedido de lote para un artículo de planificación, informará las cantidades solo de coproductos y subproductos, porque los artículos de planificación no contienen un artículo del tipo *Fórmula*.
+
+### <a name="reporting-co-product-variation"></a>Informar la variación del coproducto
+
+Si un pedido de lote se crea a partir de una versión de fórmula donde la opción **Variaciones de coproductos** está configurada en *Sí*, el trabajador puede informar sobre coproductos que no forman parte de la definición de los pedidos por lotes. Esta funcionalidad se utiliza en escenarios en los que puede producirse una salida de producto inesperada en el proceso de producción.
+
+En este caso, el trabajador puede especificar el coproducto y la cantidad a reportar seleccionando **Variaciones de coproductos** en el cuadro de diálogo de progreso del informe. A continuación, el trabajador puede seleccionar entre todos los productos emitidos que se definen como coproductos.
 
 ## <a name="reporting-scrap"></a>Notificar residuo
 

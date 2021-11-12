@@ -13,12 +13,12 @@ ms.search.region: Spain
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65b1ceb5063d94c648f5d00f594b9241657545bd7aed28c2dfeae6cf09148060
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dd69499aafc954243efe1279ad299d02a94c629e
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743776"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674613"
 ---
 # <a name="spain-overview"></a>Visión general de España
 
@@ -34,6 +34,7 @@ Este tema proporciona vínculos a recursos de documentación para España.
 - [Usar datos fiscales de la cuenta de factura](emea-esp-fiscal-data-invoice-account.md)
 - [Grupos de revalorización de activos fijos](emea-esp-fixed-asset-group-revaluation.md)
 - [IVA intracomunitario](emea-esp-intra-community-vat.md)
+- [Intrastat español](emea-esp-intrastat.md)
 - [Clientes plantilla](emea-esp-no-one-time-customer-for-project-contracts.md)
 - [Imprimir cheques con diseño español](emea-esp-print-checks-with-spanish-layout.md)
 - [Opciones de pagaré español](emea-esp-promissory-note-options.md)

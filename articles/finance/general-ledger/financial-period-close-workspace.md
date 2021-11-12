@@ -1,7 +1,7 @@
 ---
 title: Espacio de trabajo de cierre del período financiero
 description: Este artículo proporciona una visión general del espacio de trabajo de cierre del período financiero y la configuración asociada.
-author: ShylaThompson
+author: kweekley
 ms.date: 11/29/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
-ms.author: saraschi
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 157d7e7503a3153f74e705c20b4afac76a81229e807ae6f39b52fc05c733487b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ab203a18229cd426f8483ed6d0483c98614af9c
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739963"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7727073"
 ---
 # <a name="financial-period-close-workspace"></a>Espacio de trabajo de cierre del período financiero
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona una visión general del espacio de trabajo de cierre del período financiero y la configuración asociada.
+Este tema proporciona una visión general del espacio de trabajo de **cierre del período financiero** y la configuración asociada.
 
 Espacio de trabajo de cierre del período financiero
 

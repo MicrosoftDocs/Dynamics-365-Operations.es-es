@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577489"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678576"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolerancia al retraso (días negativos)
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 La funcionalidad de tolerancia de retardo permite a Planning Optimization considerar el valor **Días negativos** que se establece para los grupos de cobertura. Se utiliza para extender el período de tolerancia de demora que se aplica durante la planificación maestra. De esta manera, puede evitar la creación de nuevos pedidos de suministro si el suministro existente podrá cubrir la demanda después de un breve retraso. El propósito de la funcionalidad es determinar si tiene sentido crear un nuevo pedido de suministro para una demanda determinada.
 

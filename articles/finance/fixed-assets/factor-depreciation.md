@@ -1,7 +1,7 @@
 ---
 title: Depreciación de factor
 description: Este artículo ofrece una visión general del método de depreciación de factor.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdb35f7b0efaf2f1a5f63eb0dbdf14363f63a389c5449b7fe145a46fd5c14cc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5ab518f2806e1b27f352e354dc9280fd27def
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746473"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674464"
 ---
 # <a name="factor-depreciation"></a>Depreciación de factor
 
@@ -28,7 +28,7 @@ ms.locfileid: "6746473"
 
 Este artículo ofrece una visión general del método de depreciación de factor.
 
-Los factores son porcentajes que se utilizan para depreciar activos. Cuando se configura un perfil de amortización de activos fijos y se selecciona **Factor** en el campo **Método** de la página **Métodos de depreciación**, puede configurar una depreciación progresiva, degresiva o lineal:
+Los factores son porcentajes que se utilizan para depreciar activos. Cuando se configura un perfil de amortización de activos fijos y se selecciona **Factor** en el campo **Método** de la página **Métodos de depreciación**, puede configurar una depreciación progresiva, degresiva o lineal.
 
 -   En la depreciación progresiva, el importe de depreciación aumenta cada período de depreciación.
 -   En la depreciación degresiva, el importe de depreciación por período aumenta con el transcurso del tiempo.

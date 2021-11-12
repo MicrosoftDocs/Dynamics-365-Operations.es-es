@@ -2,7 +2,7 @@
 title: Lista de funciones ER de la categoría de texto.
 description: Este tema proporciona información sobre las funciones de texto que son compatibles con los informes electrónicos (ER).
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741023"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647569"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lista de funciones ER de la categoría de texto.
 
@@ -40,7 +40,8 @@ Las funciones de texto de informes electrónicos (ER) se pueden utilizar para re
 | [Izquierdo](er-functions-text-left.md) | Esta función devuelve un valor *Cadena* que presenta el número especificado de caracteres desde el inicio de la cadena especificada. |
 | [Len](er-functions-text-len.md) | Esta función devuelve un valor *Entero* que presenta el número de caracteres en la cadena especificada. |
 | [Lower](er-functions-text-lower.md) | Esta función devuelve la cadena de texto especificada como un valor *Cadena* después de que se haya convertido a letras minúsculas. |
-| [Mid](er-functions-text-mid.md) | Esta función devuelve un valor *Cadena* que presenta el número especificado de caracteres de la cadena especificada, empezando en la posición especificada. |
+| [Mid](er-functions-text-mid.md) | Esta función devuelve un valor *[Cadena](er-formula-supported-data-types-primitive.md#string)* que presenta el número especificado de caracteres de la cadena especificada, empezando en la posición especificada. |
+| [NewGUID](er-functions-text-newguid.md) | Esta función devuelve un valor de *[ GUID](er-formula-supported-data-types-primitive.md#guid)* generado recientemente. |
 | [NumberFormat](er-functions-text-numberformat.md) | Esta función devuelve un valor *Cadena* que presenta el número especificado en el formato especificado y en una cultura opcional especificada. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Esta función devuelve el número especificado como un valor *Cadena* después de que se haya deletreado (es decir, convertido a cadenas de texto) en el idioma especificado. |
 | [PadLeft](er-functions-text-padleft.md) | Esta función devuelve un valor *Cadena* del largo especificado, en el que el comienzo de la cadena especificada cuenta con uno o más casos de los caracteres especificados. |

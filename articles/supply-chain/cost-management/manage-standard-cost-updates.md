@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579769"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678675"
 ---
 # <a name="manage-standard-cost-updates"></a>Gestionar actualizaciones de coste estándar
 
@@ -43,8 +43,6 @@ En el ejemplo siguiente se muestra cómo se pueden usar los métodos de una vers
 En este ejemplo se usa una versión de gestión de costes adicional para administrar las actualizaciones del año 2020. Es posible usar más de una versión de gestión de costes adicional como, por ejemplo, una versión independiente para cada lote de actualizaciones. Cuando se usa más de una gestión de costes adicional, la reserva se debe expresar como costes activos, ya que los costes activos abarcan varias versiones de gestión de costes.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Dimensiones financieras de la revalorización de costes estándar.
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 La activación de un nuevo precio estándar normalmente revalorizará el valor de inventario disponible mediante transacciones de revalorización de costos estándar. Por lo general, las dimensiones financieras del artículo se contabilizan en las transacciones. Sin embargo, si desea controlar si se registran las dimensiones financieras y cómo, utilice la [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la función llamada *Opciones de dimensiones financieras predeterminadas para la revalorización del costo estándar de inventario*. Después de habilitar esta función, vaya a **Gestión de costes > Configuración de políticas de contabilidad de inventario > Parámetros** y configure la nueva lista desplegable de **Origen de la dimensión financiera** a uno de los siguientes valores:
 

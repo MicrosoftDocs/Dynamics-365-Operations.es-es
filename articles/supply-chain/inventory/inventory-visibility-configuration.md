@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474685"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678480"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar la visibilidad de inventario
 
@@ -366,16 +366,12 @@ El índice le permite consultar el inventario disponible de las siguientes maner
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuración de reserva (opcional)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Se requiere la configuración de la reserva si desea utilizar la función de reserva flexible. La configuración consta de dos partes fundamentales:
 
 - Asignación de reserva flexible
 - Jerarquía de reserva flexible
 
 ### <a name="soft-reservation-mapping"></a>Asignación de reserva flexible
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Cuando realiza una reserva, es posible que desee saber si el inventario disponible está actualmente disponible para la reserva. La validación está vinculada a una medida calculada que representa una fórmula de cálculo de una combinación de medidas físicas.
 
@@ -446,8 +442,6 @@ Por lo tanto, si intenta hacer reservas en `iv.SoftReservOrdered` y la cantidad 
 > Cuando llama a la API de reserva, puede controlar la validación de la reserva especificando el parámetro booleano `ifCheckAvailForReserv` en el cuerpo de la solicitud. Un valor `True` significa que se requiere la validación, mientras que un valor `False` significa que la validación no es necesaria. El valor predeterminado es `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Jerarquía de reserva flexible
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 La jerarquía de reservas describe la secuencia de dimensiones que deben especificarse cuando se realizan las reservas. Funciona de la misma forma que la jerarquía del índice de productos para las consultas disponibles.
 
@@ -747,8 +741,6 @@ La siguiente tabla muestra la configuración de índices predeterminada.
 Esta sección describe la configuración de reserva predeterminada.
 
 #### <a name="reservation-mapping"></a>Asignación de reservas
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 La siguiente tabla muestra la asignación de reservas predeterminada.
 

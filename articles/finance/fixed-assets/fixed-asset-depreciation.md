@@ -1,7 +1,7 @@
 ---
 title: Depreciación de activo fijo
-description: Este tema proporciona información general de la depreciación de los activos fijos.
-author: ShylaThompson
+description: Este tema proporciona información general de la depreciación en Activos fijos.
+author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a72aa631f4678876de28c1d8b94c658c092d90865b2db4b10dac13e5cbcc7e7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 54da35a39791a9e528896f3decd10476ad5af2d9
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734547"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675009"
 ---
 # <a name="fixed-asset-depreciation"></a>Depreciación de activo fijo
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información general de la depreciación de los activos fijos.
+Este tema proporciona información general de la depreciación en Activos fijos.
 
 La depreciación es una transacción periódica que reduce normalmente el valor del activo fijo en el balance de situación y que se carga como un gasto en la cuenta de pérdidas y ganancias. Por lo tanto, se usa normalmente una cuenta principal para abonar la depreciación periódica en el balance de situación. Una cuenta de contrapartida es una cuenta en la parte de pérdidas y ganancias del plan contable.
 

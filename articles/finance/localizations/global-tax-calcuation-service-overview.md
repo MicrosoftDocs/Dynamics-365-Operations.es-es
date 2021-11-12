@@ -2,7 +2,7 @@
 title: Información general del cálculo de impuestos
 description: Este tema explica el alcance general y las características de la funcionalidad de cálculo de impuestos.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394595"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647066"
 ---
 # <a name="tax-calculation-overview"></a>Información general del cálculo de impuestos
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 El cálculo de impuestos es un servicio multiinquilino hiperescalable que permite que Global Tax Engine automatice y simplifique el proceso de determinación y cálculo de impuestos. El motor de impuestos es completamente configurable. Los elementos que se pueden configurar incluyen, entre otros, el modelo de datos imponibles, el código impositivo, la matriz de aplicabilidad impositiva y la fórmula de cálculo de impuestos. El motor de impuestos se ejecuta en la plataforma de servicios centrales de Microsoft Azure y ofrece tecnología moderna y escalabilidad exponencial.
 
@@ -120,6 +118,10 @@ En la versión 10.0.21 se admiten las siguientes transacciones:
     - Pedido de transferencia: envío
     - Pedido de transferencia: recepción
 
+En la versión 10.0.23 se admiten las siguientes transacciones: 
+
+- Factura de servicios
+
 ## <a name="supported-countriesregions"></a>Países o regiones admitidos
 
 Cálculo de impuestos se puede habilitar por entidad jurídica. 
@@ -145,6 +147,28 @@ En la versión 10.0.21 se admiten los siguientes países o regiones para la dire
 - Suiza
 - Reino Unido
 - Estados Unidos
+
+En la versión 10.0.22 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
+
+- Australia
+- Baréin
+- Canadá
+- Egipto
+- RAE de Hong Kong
+- Kuwait
+- Nueva Zelanda
+- Omán
+- Catar
+- Arabia Saudí
+- Sudáfrica
+- Emiratos Árabes Unidos
+
+En la versión 10.0.23 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
+
+- Tailandia
+- Japón
+- Malasia
+- Singapur
 
 ## <a name="related-resources"></a>Recursos relacionados
 

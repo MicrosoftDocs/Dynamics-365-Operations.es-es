@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773305"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678868"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introducción a la contabilidad de inventario global
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 La contabilidad de inventario global permite realizar múltiples contabilidades de inventarios en los libros de contabilidad de inventario global que ha configurado. Debe asociar cada libro de contabilidad de inventario global a una *convención*. Una convención es una colección de los siguientes tipos de directivas contables:
 
@@ -60,7 +60,7 @@ Antes de poder habilitar la funcionalidad de complemento, debe integrarse con Mi
 1. En el cuadro de diálogo **Configuración del entorno de Power Platform**, seleccione la casilla de verificación y luego seleccione **Configuración**. Normalmente, la instalación tarda entre 60 y 90 minutos.
 1. Después de la instalación del entrorno de Microsoft Power Platform se completa, la página muestra el nombre de su entorno. Además, la sección **Integración de Power Platform** muestra la declaración, "La configuración del entorno de Power Platform está completa". La contabilidad de inventario global no requiere una aplicación de escritura dual.
 
-Para obtener más información, consulte [Configurar después de la implementación del entorno](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+Para obtener más información, consulte [Habilitar después de la implementación del entorno](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
 ### <a name="set-up-dataverse"></a>Configurar Dataverse
 

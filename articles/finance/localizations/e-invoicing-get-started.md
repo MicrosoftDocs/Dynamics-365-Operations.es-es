@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463849"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700388"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Comenzar con la facturación electrónica
 
@@ -84,6 +84,7 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
 | Factura electrónica para Noruega (NO)    | <p>Modelo de contexto de factura de cliente</p><p>Modelo de factura</p> |
 | Factura electrónica para España (ES)      | <p>Modelo de contexto de factura de cliente</p><p>Modelo de factura</p> |
 | Factura electrónica PEPPOL            | <p>Modelo de contexto de factura de cliente</p><p>Modelo de factura</p> |
+| Factura electrónica de Arabia Saudita (SA)| <p>Modelo de contexto de factura de cliente</p><p>Modelo de factura</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Configurar la aplicación
@@ -112,6 +113,7 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
     | Factura electrónica para Noruega (NO)    | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
     | Factura electrónica para España (ES)      | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
     | Factura electrónica PEPPOL            | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
+    | Factura electrónica de Arabia Saudita (SA)| <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Diario de facturas del cliente</p><p>Factura de proyecto</p> |
 
 6. Seleccione e introduzca un valor de contexto para cada nombre de tabla que cree, de acuerdo con la siguiente tabla.
 
@@ -133,6 +135,7 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
     | Factura electrónica para Noruega (NO)    | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
     | Factura electrónica para España (ES)      | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
     | Factura electrónica PEPPOL            | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
+    | Factura electrónica de Arabia Saudita (SA)| <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Modelo de contexto de factura de cliente: contexto de factura de cliente</p><p>Modelo de contexto de factura de cliente: contexto de factura de proyecto</p> |
 
 7. Para cada nombre de tabla y contexto, seleccione e introduzca un valor de asignación de documento empresarial de acuerdo con la siguiente tabla.
 
@@ -154,6 +157,7 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
     | Factura electrónica para Noruega (NO)    | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
     | Factura electrónica para España (ES)      | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
     | Factura electrónica PEPPOL            | <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
+    | Factura electrónica de Arabia Saudita (SA)| <p>Factura de ventas</p><p>Factura de proyecto</p> | <p>Asignación del modelo de factura: factura de cliente</p><p>Asignación del modelo de factura: factura de proyecto</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Configuración específica del país de la instalación de la aplicación
@@ -207,6 +211,8 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
     | Factura electrónica para Noruega (NO)                     | Noruega          |
     | Factura electrónica PEPPOL                             | Global          |
     | Factura electrónica para España (ES)                       | España           |
+    | Factura electrónica de Arabia Saudita (SA)                 | Arabia Saudí    |
+    
 
 4. Seleccione **Guardar**.
 
@@ -244,6 +250,7 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
 - [Comenzar con la facturación electrónica para México](e-invoicing-mex-get-started.md)
 - [Comenzar con la facturación electrónica para Italia](e-invoicing-ita-get-started.md)
 - [Facturas electrónicas de clientes en Egipto](emea-egy-e-invoices.md)
+- [Facturas electrónicas de clientes en Arabia Saudí](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

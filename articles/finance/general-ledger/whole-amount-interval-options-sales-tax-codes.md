@@ -1,7 +1,7 @@
 ---
-title: Importe completo y opciones de cálculo de intervalo para los códigos de impuestos
-description: Este artículo explica las opciones del campo Método de cálculo en códigos de impuestos y cómo se calculan los impuestos para los intervalos y los importes completos.
-author: ShylaThompson
+title: Importe completo y opciones de cálculo de Intervalo para los códigos de impuestos
+description: Este tema explica las opciones del campo Método de cálculo en códigos de impuestos y cómo se calculan los impuestos para los intervalos y los importes completos.
+author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,23 +12,23 @@ ms.reviewer: roschlom
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb3d622f8a81c0eabc84fb165203aa193f5e7dd6ad148ff50a9f55c87453be9c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44c4ce480de470b623f6faeff5a763bfcb05aecc
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731485"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726855"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Importe completo y opciones de cálculo de intervalo para los códigos de impuestos
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Importe completo y opciones de cálculo de Intervalo para los códigos de impuestos
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo explica las opciones del campo Método de cálculo en códigos de impuestos y cómo se calculan los impuestos para los intervalos y los importes completos.
+Este tema explica las opciones del campo **Método de cálculo** en códigos de impuestos y cómo se calculan los impuestos para los intervalos y los importes completos.
 
-Puede configurar un código de impuestos para que se calcule en función de un importe completo o de un importe de intervalo. En la página de códigos de impuestos, use el campo Método de cálculo en la ficha desplegable Cálculo para seleccionar cómo calcular un código de impuestos.
+Puede configurar un código de impuestos para que se calcule en función de un importe completo o de un importe de intervalo. En la página de **códigos de impuestos**, use el campo **Método de cálculo** en la ficha desplegable **Cálculo** para seleccionar el método de cálculo de un código de impuestos.
 - Importe completo: el índice de impuestos se aplica al importe gravable completo.
 - Intervalo: el importe gravable se divide en partes, cada una de las cuales pertenece a un intervalo que tenga un índice de impuestos específico. La parte del importe que pertenece a un intervalo determinado se grava según el índice de impuestos para dicho intervalo. Los impuestos son la suma de los importes de impuestos que se calculan para cada importe de intervalo.
   > [!NOTE]                                                                                                                              

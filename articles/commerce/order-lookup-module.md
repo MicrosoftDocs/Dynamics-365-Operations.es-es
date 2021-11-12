@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fa61a20ffd9a31f800c48b71832be7547952119f
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472673"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675126"
 ---
 # <a name="order-lookup-module"></a>Módulo de búsqueda de pedidos
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 En este tema se trata el modulo de búsqueda de pedidos y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 
@@ -34,11 +33,11 @@ La siguiente ilustración muestra un ejemplo del formulario que representa el m�
 
 ![Formulario para el módulo de búsqueda de pedidos en una página.](./media/OrderLookup_module.PNG)
 
-## <a name="order-lookup-module-properties&quot;></a>Propiedades del módulo de búsqueda de pedidos
+## <a name="order-lookup-module-properties"></a>Propiedades del módulo de búsqueda de pedidos
 
 | Nombre de la propiedad     | Valor     | Descripción |
 |-------------------|-----------|-------------|
-| Cabecera           | Texto      | El encabezado que aparece en la parte superior del formulario (por ejemplo, &quot;Encuentra tu pedido"). |
+| Cabecera           | Texto      | El encabezado que aparece en la parte superior del formulario (por ejemplo, "Encuentra tu pedido"). |
 | Texto enriquecido         | Texto enriquecido | Texto explicativo opcional que aparece debajo del encabezado. |
 | Tipo de estado del pedido | Enum      | <p>Seleccione el tipo de información que el formulario solicitará al cliente además del ID de confirmación del pedido. Actualmente se admiten los siguientes valores:</p><ul><li><b>Correo electrónico</b> - El formulario incluirá un campo donde los clientes pueden ingresar la dirección de correo electrónico que utilizaron cuando realizaron el pedido.</li><li><b>Ninguno</b> - El formulario no solicitará más información que el ID de confirmación del pedido.</li></ul> |
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576937"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647198"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -74,6 +74,12 @@ Esta función agrega una pestaña de administración de activos a la interfaz de
 Esta función permite agregar un campo de búsqueda a la lista de trabajos. Los trabajadores pueden encontrar un trabajo específico ingresando el ID del trabajo o encontrar todos los trabajos para un pedido específico ingresando el ID del pedido. Los trabajadores pueden ingresar la identificación usando un teclado o escaneando un código de barras. Si desea usarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Búsqueda de trabajos para la interfaz de ejecución de la planta de producción
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Habilitar los informes sobre coproductos y productos derivados
+
+Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes. Estos informes incluyen coproductos y productos derivados. Para usar esta característica, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Informe de coproductos y productos derivados de la interfaz de ejecución de planta de producción
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabajar con configuraciones de ejecución de la planta de producción
 

@@ -2,7 +2,7 @@
 title: Lista de funciones ER en la categoría de fecha y hora
 description: Este tema proporciona información sobre las funciones de fecha y hora que son compatibles con los informes electrónicos (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760059"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647272"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Lista de funciones ER en la categoría de fecha y hora
 
@@ -31,8 +31,9 @@ Las funciones de fecha y hora de informes electrónicos (ER) se pueden usar para
 
 | Función | Descripción |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | Esta función devuelve un valor *Fecha y hora* que es el número especificado de días antes o después de una fecha de inicio especificada. |
-| [DateFormat](er-functions-datetime-dateformat.md) | Esta función devuelve un valor *Cadena* que presenta un valor determinado de fecha como texto en el formato especificado y en una cultura opcional especificada. |
+| [AddDays](er-functions-datetime-adddays.md) | Esta función devuelve un valor *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* que es el número especificado de días antes o después de una fecha de inicio especificada. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | Esta función devuelve un valor *DateTime* que se convierte de un determinado valor de fecha/hora en una zona horaria a un valor de fecha/hora de otra zona horaria. |
+| [DateFormat](er-functions-datetime-dateformat.md) | Esta función devuelve un valor *[Cadena](er-formula-supported-data-types-primitive.md#string)* que presenta un valor determinado de fecha como texto en el formato especificado y en una cultura opcional especificada. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Esta función devuelve un valor *Cadena* que presenta un valor determinado de fecha/hora como texto en el formato especificado y en una cultura opcional especificada. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Esta función devuelve un valor *Fecha y hora* que se convierte de un determinado valor de texto en el formato especificado y en una cultura opcionalmente especificada a un valor de fecha / hora. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Esta función devuelve un valor *Fecha y hora* que se convierte de un determinado valor de datos a un valor de fecha / hora en hora universal coordinada (hora meridiano de Greenwich \[GMT\]). |

@@ -2,7 +2,7 @@
 title: Módulo del menú de navegación
 description: En este tema se tratan los módulos de menú de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761595"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713861"
 ---
 # <a name="navigation-menu-module"></a>Módulo de menú de navegación
 
@@ -41,8 +41,8 @@ La siguiente ilustración muestra un ejemplo de un menú de navegación para el 
 |---------------------------|-----------------------|-------------|
 | Origen                  | **Minorista**, **Creación manual**, **Creación minorista y manual** | El valor **Minorista** permite que la jerarquía de navegación del canal de la sede de Commerce se muestre en el menú de navegación. El valor **Autoría manual** permite seleccionar elementos estáticos del menú. El valor **Autoría minorista y manual** permite una combinación de ambos. |
 | Mostrar imágenes de categoría | **Verdadero** o **Falso**    | Cuando está habilitada, esta propiedad muestra imágenes de categoría en el menú de navegación como se define en la central de Commerce para cada categoría. Agregado en la versión 10.0.14 de Commerce. |
-| Mostrar promociones | **Verdadero** o **Falso** | Cuando esta propiedad está habilitada, las promociones se pueden configurar mediante imágenes, vínculos y texto. Esta propiedad se agregó en la versión 10.0.17 de Commerce. |
-| Agregar promociones | Texto, imagen o vínculo | Cuando la propiedad **Mostrar promociones** está habilitada, puede agregar texto, una imagen o un vínculo como contenido promocional en el menú de navegación. |
+| Mostrar imágenes promocionales | **Verdadero** o **Falso** | Cuando esta propiedad está habilitada, las promociones se pueden configurar mediante imágenes, vínculos y texto. Esta propiedad se agregó en la versión 10.0.17 de Commerce. |
+|Agregar contenido promocional de la categoría | Texto, imagen o vínculo | Cuando la propiedad **Mostrar imágenes promocionales** está habilitada, puede agregar texto, una imagen o un vínculo como contenido promocional en el menú de navegación. |
 | Habilitar el menú de navegación de varios niveles | **Verdadero** o **Falso** | Cuando esta propiedad está habilitada, el menú de navegación puede mostrar varios niveles de la jerarquía de navegación. Esta característica está disponible en Commerce versión 10.0.15. |
 | Número de niveles | entero | Esta propiedad define el número de niveles que deben mostrarse si la propiedad **Habilitar el menú de navegación de varios niveles** está establecida en **Verdadero**. |
 | Elemento de menú estático| Matriz de valores| Elementos de menú estáticos que asocian un nombre de elemento de menú con un enlace a una página de sitio estática. Puede crear elementos de menú debajo de otros elementos de menú. De forma predeterminada, los menús estáticos aparecen en el nivel raíz y se agregarán a la jerarquía de navegación del canal si existe. |

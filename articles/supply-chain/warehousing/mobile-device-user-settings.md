@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769428"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647494"
 ---
 # <a name="mobile-device-user-settings"></a>Configuración de usuario del dispositivo móvil
 
@@ -54,7 +54,7 @@ También puede definir un perfil de configuración que se aplique a todas las ma
 
 Siga estos pasos para crear y administrar la configuración de usuario para sus dispositivos móviles.
 
-1. Vaya a **Administración de almacenes \> Dispositivo móvil \> Menú del dispositivo móvil**.
+1. Vaya a **Administración de almacenes \> Configuración \> Dispositivo móvil \> Menú del dispositivo móvil**.
 1. Seleccione un perfil de configuración de usuario existente en el panel de lista para abrir su registro. Alternativamente, seleccione **Nuevo** en el Panel de acciones para crear un nuevo perfil.
 
     Cada perfil en el panel de lista está etiquetado para indicar la marca, modelo y / o ID de usuario al que se aplica el perfil. Los perfiles más generales tienen un valor de *Todos* para algunas o todas estas características.
@@ -83,7 +83,7 @@ Utilice la página **Marcas de dispositivos móviles** para ver, crear y adminis
 
 Siga estos pasos para crear y administrar las marcas y modelos de los dispositivos móviles.
 
-1. Vaya a **Gestión de almacenes \> Dispositivo móvil \> Menú del dispositivo móvil**.
+1. Vaya a **Administración de almacenes \> Configuración \> Dispositivo móvil \> Marcas del dispositivo móvil**.
 1. En el panel de lista, seleccione una marca de dispositivo móvil para abrir su registro. Alternativamente, seleccione **Nuevo** en el Panel de acciones para crear una nueva marca.
 1. En la sección de encabezado del registro para la marca de dispositivo nueva o seleccionada, configure los siguientes campos:
 

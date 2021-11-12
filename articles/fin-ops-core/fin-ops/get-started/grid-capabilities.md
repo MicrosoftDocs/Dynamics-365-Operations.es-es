@@ -2,7 +2,7 @@
 title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. Debe activar la nueva característica de cuadrícula para tener acceso a estas capacidades.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483863"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700146"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 El nuevo control de cuadrícula proporciona varias capacidades útiles y potentes que puede utilizar para mejorar la productividad del usuario, construir vistas más interesantes de sus datos y obtener información significativa sobre sus datos. Este artículo cubrirá las siguientes capacidades: 
@@ -32,6 +33,8 @@ El nuevo control de cuadrícula proporciona varias capacidades útiles y potente
 -  Evaluar expresiones matemáticas 
 -  Agrupar datos tabulares (habilitado por separado usando la característica **Agrupación en cuadrículas**)
 -  Columnas de congelación
+-  Ancho de columna de ajuste automático
+-  Columnas extensibles
 
 ## <a name="calculating-totals"></a>Cálculo de los totales
 En las aplicaciones de Finance and Operations, los usuarios tienen la capacidad de ver los totales en la parte inferior de las columnas numéricas en las cuadrículas. Una sección de pie de página en la parte inferior de la cuadrícula que muestra estos totales. 
@@ -43,7 +46,7 @@ Hay un área de pie de página en la parte inferior de cada cuadrícula tabular 
 - Totales generales en la parte inferior de las columnas numéricas configuradas
 - El número de filas del conjunto de datos 
 
-Este pie de página está oculto de forma predeterminada pero puede activarlo. Para mostrar el pie de página de una cuadrícula, haga clic con el botón derecho en el encabezado de una columna en la cuadrícula y seleccione la opción **Mostrar pie de página**. Después de activar el pie de página para una cuadrícula en particular, esa configuración se recordará hasta que el usuario opte por ocultar el pie de página. Para ocultar el pie de página, haga clic con el botón derecho en el encabezado de una columna y seleccione **Ocultar pie de página**.  (La colocación de la acción **Mostrar pie de página/Ocultar pie de página** podría reubicarse en una actualización futura. 
+Este pie de página está oculto de forma predeterminada pero puede activarlo. Para mostrar el pie de página de una cuadrícula, seleccione el botón **Opciones de cuadrícula** en el encabezado de cuadrícula y seleccione la opción **Mostrar pie de página**. Después de activar el pie de página para una cuadrícula en particular, esa configuración se recordará hasta que el usuario decida ocultar el pie de página. Para ocultar el pie de página, seleccione **Ocultar pie de página** en el menú **Opciones de cuadrícula**.  
 
 ### <a name="specifying-columns-with-totals"></a>Especificar columnas con totales
 Actualmente, ninguna columna muestra los totales de forma predeterminada. En cambio, esto se considera una actividad de configuración única, similar a ajustar el ancho de las columnas en las cuadrículas. Una vez que especifique que desea ver los totales de una columna, esa configuración se recordará la próxima vez que visite la página.  
@@ -82,7 +85,7 @@ Para admitir este nuevo comportamiento, se ha agregado una nueva columna para el
 Cuando los usuarios introducen datos con antelación al lugar donde el servidor está procesando, pueden esperar algunas degradaciones en la experiencia de entrada de datos, como la falta de búsquedas, la validación de nivel de control y la entrada de valores predeterminados. Se recomienda a los usuarios que necesitan una lista desplegable para encontrar un valor que esperen a que el servidor se ponga al día con la fila actual. La validación de nivel de control y la entrada de valores predeterminados también ocurrirán cuando el servidor procese esa fila.   
 
 ### <a name="pasting-from-excel"></a>Pegar desde Excel
-Los usuarios siempre han podido exportar datos de cuadrículas en aplicaciones de Finance and Operations a Excel utilizando el mecanismo **Exportar a Excel**. Sin embargo, la capacidad de introducir datos por delante del sistema permite que la nueva cuadrícula admita copiar tablas de Excel y pegarlas directamente en cuadrículas en las aplicaciones de Finance and Operations. La celda de la cuadrícula desde la que se inicia la operación de pegado determina dónde comienza a pegarse la tabla copiada. El contenido de la cuadrícula se sobrescribe con el contenido de la tabla copiada, excepto en dos casos:
+Los usuarios siempre han podido exportar datos de cuadrículas en aplicaciones de Finance and Operations a Microsoft Excel utilizando el mecanismo **Exportar a Excel**. Sin embargo, la capacidad de introducir datos por delante del sistema permite que la nueva cuadrícula admita copiar tablas de Excel y pegarlas directamente en cuadrículas en las aplicaciones de Finance and Operations. La celda de la cuadrícula desde la que se inicia la operación de pegado determina dónde comienza a pegarse la tabla copiada. El contenido de la cuadrícula se sobrescribe con el contenido de la tabla copiada, excepto en dos casos:
 
 - Si el número de columnas en la tabla copiada excede el número de columnas que permanecen en la cuadrícula, comenzando desde la ubicación de pegado, se notifica al usuario de que se han ignorado las columnas adicionales. 
 - Si el número de filas en la tabla copiada excede el número de filas en la cuadrícula, comenzando desde la ubicación de pegado, el contenido pegado sobrescribe las celdas existentes y las filas adicionales de la tabla copiada se insertan como nuevas filas en la parte inferior de la cuadrícula. 
@@ -125,6 +128,9 @@ Para congelar una columna, haga clic con el botón derecho en el encabezado de l
 Para descongelar una columna, haga clic con el botón derecho en el encabezado de la columna congelada y luego seleccione **Descongelar columna**. 
 
 Tenga en cuenta que las columnas de selección de fila y estado de fila en la nueva cuadrícula siempre están congeladas como las dos primeras columnas. Por lo tanto, cuando estas columnas se incluyen en una cuadrícula, siempre estarán visibles para los usuarios, independientemente de la posición de desplazamiento horizontal en la cuadrícula. Estas dos columnas no se pueden reordenar.
+
+## <a name="autofit-column-width"></a>Ancho de columna de ajuste automático
+Al igual que en Excel, los usuarios pueden forzar automáticamente el cambio de tamaño de una columna en función del contenido que se muestra actualmente en esa columna. Para hacer esto, haga doble clic en los controladores de tamaño en la columna, o colocando el foco en el encabezado de la columna y presionando **A** (para autoajuste). Esta funcionalidad está disponible a partir de la versión 10.0.23.  
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>¿Cómo habilito el nuevo control de cuadrícula en mi entorno? 

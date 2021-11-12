@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7638479"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647224"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novedades y cambios en la versión 10.0.19 de Dynamics 365 Supply Chain Management (junio de 2021)
 
@@ -48,7 +48,7 @@ La mayoría de estas características deben habilitarse mediante la [Administrac
 
 La tabla siguiente enumera las mejoras de características incluidas en esta versión. Cada uno de estos proporciona una mejora incremental de una función existente. Debido a que son solo mejoras, no se enumeran en el [plan de versión](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Sin embargo, para garantizar que estas mejoras no entren en conflicto con sus preferencias o personalizaciones existentes, cada una de ellas está desactivada de forma predeterminada (a menos que se indique lo contrario). Si desea utilizar alguna de estas funciones, debe habilitarlas explícitamente en [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Área de características | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
+| Módulo | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
 |---|---|---|
 | Ventas y marketing | Mejoras en el rendimiento de la limpieza del historial de ventas | La limpieza del historial de ventas puede llevar mucho tiempo si se ejecuta con poca frecuencia en entornos con un gran volumen de actualizaciones de ventas. Para reducir la duración y mejorar la fiabilidad, esta función divide la limpieza en lotes que se ejecutan por una duración limitada. Siempre que sea posible, se aprovecharán las capacidades de la base de datos para minimizar el bloqueo y evitar unir tablas transaccionales durante la limpieza. Para obtener más información, consulte [Mejoras de rendimiento de limpieza del historial de ventas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Ventas y marketing | Actualizar la fecha de recepción solicitada con la fecha confirmada para pedidos entre empresas vinculadas | Esta función le permite controlar lo que sucederá con los valores del campo de fecha de compra y venta cuando utilice la entrega directa entre empresas. Puede elegir si el sistema actualizará las fechas solicitadas u omitirá actualizarlas. Si omite la actualización, las fechas solicitadas representarán lo que el cliente ha solicitado. Si habilita la actualización, las fechas solicitadas (cuando se usa el control de fecha de entrega) solo representan inicialmente lo que solicitó el cliente. Control de fecha de entrega, cuando sea diferente de *Ninguno*, anulará lo que se solicitó inicialmente. Puede configurar esta opción utilizando la nueva configuración **Actualizar la fecha de recepción solicitada con la fecha confirmada** en la configuración del proveedor de empresas vinculadas o cliente.<br><br>Si la función está desactivada, el sistema sobrescribirá la fecha de recepción solicitada en los pedidos de venta originales según la regla de control de la fecha de entrega, pero la fecha de envío solicitada permanecerá como está. |

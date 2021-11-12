@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722800"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647149"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
@@ -72,12 +72,9 @@ La organización puede usar flujos de trabajo para gestionar el proceso de revis
 A continuación se indican varias maneras de impedir que se envíe una factura a un flujo de trabajo.
 
 - **El total de la factura y el total registrado no coinciden.** La persona que envió la factura recibirá una alerta de que los totales no coinciden. La alerta ofrece la oportunidad de corregir los saldos antes de volver a enviar la factura al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el total de la factura y el total de la factura registrada no coinciden** de la página **Administración de características** está activado. 
-
 - **La factura contiene cargos no asignados.** La persona que envió la factura recibirá una alerta que le comunicará que la factura contiene cargos no asignados para que pueda corregir la factura antes de volver a enviarla al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si hay cargos no asignados en una factura de proveedor** de la página **Administración de características** está activado.
-
 - **La factura contiene el mismo número de factura que otra factura registrada.** La persona que envió la factura recibirá un mensaje indicándole que se encontró una factura con un número duplicado. El número duplicado se puede corregir antes de volver a enviar la factura al flujo de trabajo. Esta alerta se mostrará cuando el parámetro **Comprobar el número de factura utilizado** de Proveedores esté establecido en **Rechazar duplicado**. Esta función está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el número de factura ya existe en una factura registrada y su sistema no está configurado para aceptar números de factura duplicados** de la página **Administración de características** está activado.
-
-- **La factura contiene una línea en la que la cantidad de la factura es menor que la cantidad de recepción del producto correspondiente.** La persona que envíe la factura o intente publicar recibirá un mensaje de que las cantidades no son iguales. Este mensaje ofrece la oportunidad de corregir los valores antes de volver a enviar la factura al flujo de trabajo. Esta función está disponible si el parámetro **Bloquear la publicación y el envío de facturas de proveedores al flujo de trabajo** en la página **Gestión de funciones** está activada y el parámetro **Bloquear publicación y envío al flujo de trabajo** en la página **Parámetros de cuentas por pagar** está encendida.  
+- **La factura contiene una línea en la que la cantidad de la factura es menor que la cantidad de recepción del producto correspondiente.** La persona que envíe la factura o intente publicar recibirá un mensaje de que las cantidades no son iguales. Este mensaje ofrece la oportunidad de corregir los valores antes de volver a enviar la factura al flujo de trabajo. Esta función está disponible si el parámetro **Bloquear la publicación y el envío de facturas de proveedores al flujo de trabajo** en la página **Gestión de funciones** está activada y el parámetro **Bloquear publicación y envío al flujo de trabajo** en la página **Parámetros de cuentas por pagar** está encendida.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Conciliación de facturas de proveedor a recepciones de producto
 
@@ -122,9 +119,32 @@ Una instancia de flujo de trabajo que se ha detenido debido a un error irrecuper
 Puede usar la página **Historial del flujo de trabajo** para restablecer el estado del flujo de trabajo a **Borrador**. Puede abrir esta página **Factura de proveedor** o si navega a **Común > Consultas > Flujo de trabajo**. Para restablecer el estado del flujo de trabajo en **Borrador**, seleccione **Recuperar**. También puede restablecer el estado del flujo de trabajo a Borrador seleccionando la acción **Recuperar** en **Factura de proveedor** o **Facturas de proveedor pendientes**. Una vez que el estado de flujo de trabajo se establece a **Borrador**, quedará disponible para editar en la página **Factura de proveedor**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Ver el total de la factura en la página de Facturas de proveedores pendientes
+
 Puede ver el total de la factura en la página **Facturas de proveedores pendientes** habilitando el parámetro **Mostrar el total de la factura en la lista de facturas de proveedores pendientes**, en la página **Parámetros de proveedores**. 
 
+## <a name="vendor-open-transactions-report"></a>Informe de transacciones de proveedor abiertas
 
+El informe **Transacciones de proveedor abiertas** proporciona información detallada sobre las transacciones abiertas para cada proveedor de la fecha que especifique. Este informe se utiliza a menudo durante el procedimiento de auditoría para verificar los saldos entre las transacciones del libro de proveedores y las transacciones de la cuenta contable.
+
+Para cada transacción, el informe incluye los siguientes detalles:
+
+- Número de factura
+- Fecha movimiento
+- Número de asiento
+- Importe de la transacción en la moneda de la transacción y la moneda contable
+- Saldo de crédito en la moneda de la transacción y la moneda contable
+- Saldo de débito en la moneda de la transacción y la moneda contable
+- Importe subtotal en divisa de contabilidad
+- Fecha de vencimiento de pago
+
+### <a name="filter-the-data-on-the-report"></a>Filtrar los datos del informe
+
+Cuando genere el informe **Transacciones de proveedor abiertas**, los siguientes parámetros predeterminados estarán disponibles. Puede usarlos para filtrar los datos que se incluirán en el informe.
+
+- **Excluir liquidación futura**: seleccione esta casilla para excluir las transacciones que se liquidan después de la fecha que se introduce en el campo **Transacciones abiertas por**.
+- **Transacciones abiertas por**: introduzca una fecha para incluir las transacciones que están abiertas a esa fecha. Si no introduce una fecha, este campo se establece en la fecha máxima. (La fecha máxima es la última fecha que aceptará el sistema, 31 de diciembre de 2154). De forma predeterminada, la próxima vez que se ejecute el informe, este campo se establecerá como la última fecha que se introdujo en él.
+
+Puede usar los filtros en el campo **Registro a incluir** para limitar aún más los datos de la transacción que se incluyen en el informe.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

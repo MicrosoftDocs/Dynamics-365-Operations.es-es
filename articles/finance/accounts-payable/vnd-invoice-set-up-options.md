@@ -1,8 +1,8 @@
 ---
 title: Opciones de configuración para la automatización de facturas de proveedores (versión preliminar)
 description: Este tema describe las opciones que están disponibles para configurar y configurar la automatización de facturas de proveedores.
-author: abruer
-ms.date: 10/16/2020
+author: sunfzam
+ms.date: 10/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32f105ffcf41f5e39ec34ec6500040e28673086d25196a32690975ee0234ab43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724288"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675478"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Opciones de configuración para la automatización de facturas de proveedores
 
@@ -27,12 +27,18 @@ ms.locfileid: "6724288"
 
 Este tema describe las opciones que están disponibles para configurar y configurar la automatización de facturas de proveedores. Las funciones de automatización de facturas utilizan los siguientes tipos de parámetros de configuración:
 
+- Parámetros para la aplicación automática de prepagos en facturas importadas.
 - Los parámetros para enviar facturas de proveedores importadas al sistema de flujo de trabajo y hacer coincidir las líneas de recepción de productos registradas con las líneas de facturas de proveedores pendientes.
 - Parámetros para tareas de segundo plano de automatización de procesos. El marco de automatización de procesos se utiliza para enviar facturas de proveedores importadas al sistema de flujo de trabajo. También se utiliza para hacer coincidir automáticamente líneas de recepción de productos registradas con líneas de facturas de proveedores pendientes y para realizar la validación de conciliación de facturas para las facturas manuales que se conciliaron automáticamente con las líneas de recepción de productos. Diferentes procesos de negocios utilizan este marco para definir la frecuencia de ejecución de un proceso seleccionado. Las frecuencias disponibles para los procesos de fondo **Hacer coincidir la recepción del producto con las líneas de la factura** y **Enviar las facturas del proveedor al flujo de trabajo** incluyen **Hora** y **Diario**.
 
 Para configurar o ver información sobre una tarea en segundo plano, vaya a **Administración del sistema \> Preparar \> Automatizaciones de procesos** y seleccione la pestaña **Tarea de fondo**.
 
 Para lograr la automatización sin contacto desde el proceso de importación a través de la contabilización de facturas de proveedores, debe configurar un flujo de trabajo de facturas de proveedores. Para configurar un flujo de trabajo, vaya a **Proveedores > Configuración > Flujos de trabajo de proveedores**. Para asegurarse de que la factura se pueda procesar de principio a fin sin intervención manual, debe incluir una tarea de registro automatizado en la configuración de su flujo de trabajo.
+
+## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>Parámetros para la aplicación automática de prepagos en facturas importadas
+
+- **Aplicar anticipo automáticamente para facturas importadas**: cuando esta opción se establece en **Sí**, el sistema busca automáticamente los prepagos existentes para un pedido de compra correspondiente cuando se importan las facturas de proveedor. Si se encuentran prepagos que se pueden aplicar, se agrega una línea adicional para aplicar los prepagos en las facturas de proveedor que se están importando.
+- **Bloquear proceso de automatización de seguimiento en caso de error de solicitud de anticipo**: cuando esta opción se establece en **Sí**, las facturas se bloquearán si no se puede aplicar un prepago. Al igual que otros procesos automatizados, como el proceso de comparación de recibos y el envío a un proceso de flujo de trabajo, el proceso de automatización de facturas no recogerá las facturas bloqueadas hasta que el prepago se aplique manualmente. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Parámetros para enviar facturas de proveedores importados al sistema de flujo de trabajo
 

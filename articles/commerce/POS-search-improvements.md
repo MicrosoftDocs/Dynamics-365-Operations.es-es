@@ -2,7 +2,7 @@
 title: Búsqueda de productos y de clientes en el punto de venta (PDV)
 description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716404"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700098"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Búsqueda de productos y de clientes en el punto de venta (PDV)
 
@@ -47,7 +47,7 @@ Una búsqueda de producto local realiza búsquedas en las siguientes propiedades
 - Código de barras
 - Nombre de búsqueda
 
-### <a name="additional-local-product-search-capabilities"></a>Capacidades adicionales de búsqueda de productos locales
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Capacidades adicionales de búsqueda de productos locales (búsqueda de texto completo SQL convencional) 
 
 - Si va a realizar una búsqueda con varias palabras clave (esto es, una búsqueda que usa términos de búsqueda), los distribuidores pueden configurar los resultados de búsqueda para que incluyan opciones que coincidan con *cualquier* término de búsqueda o *todos* los términos de búsqueda. La configuración para esta funcionalidad está disponible en el perfil de funcionalidades de PDV, en un nuevo grupo denominado **Búsqueda de producto**. La configuración predeterminada es **Coincidencias con cualquier término de búsqueda**. Le recomendamos que use esta configuración. Cuando se usa la configuración **Coincidir con cualquier término de búsqueda**, todos los productos que coinciden total o parcialmente con uno o varios términos de búsqueda se devuelven como resultados. Esos resultados se ordenan automáticamente en orden ascendente de productos que tienen la mayoría de las coincidencias de la palabra clave (parcial o completa).
 
@@ -55,6 +55,8 @@ Una búsqueda de producto local realiza búsquedas en las siguientes propiedades
 
     - La búsqueda se realiza en propiedades de producto individuales. Por ejemplo, solo se devuelven productos que tengan todas las palabras clave buscadas en al menos una propiedad del producto.
     - No se busca en las dimensiones.
+> [!NOTE]
+> Las siguientes configuraciones de **Coincidir con cualquier término de búsqueda**/**Coincidir con todos los términos de búsqueda** en los perfiles de funcionalidad POS solo son aplicables para **local** experiencias de búsquedas de productos (búsqueda de texto completo SQL convencional). Esta configuración no tiene ningún efecto en las experiencias de búsqueda impulsadas por la nube. El nuevo motor de búsqueda tiene su propio algoritmo avanzado que potencia la relevancia de la búsqueda para los resultados de búsqueda de productos. 
 
 - Los distribuidores pueden configurar la búsqueda de productos para que se muestren sugerencias a medida que el usuario escribe el nombre del producto. Una nueva configuración para esta funcionalidad está disponible en el perfil de funcionalidades de PDV, en un grupo denominado **Búsqueda de producto**. Esta configuración se llama **Mostrar las sugerencias de búsqueda mientras se escribe**. Esta función puede ayudar a sus empleados a buscar rápidamente el producto que quieran, ya que no tienen que escribir todo el nombre de forma manual.
 - El algoritmo de búsqueda de productos también busca términos en la propiedad de producto **Nombre de búsqueda**.
@@ -147,7 +149,5 @@ La siguiente lista muestra en qué se diferencia la funcionalidad de búsqueda d
 > La capacidad de búsqueda de clientes que usa el servicio Azure Cognitive Search está disponible en regiones limitadas en forma de versión preliminar. La capacidad de búsqueda de clientes *no* está disponible en las siguientes regiones:
 > - Brasil
 > - India
-> - Canadá
-> - Reino Unido
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612373"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675378"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -68,6 +68,9 @@ Al seleccionar una entidad, debe seleccionar el formato de los datos que se expo
 | Excel                  | Excel                                      | \-N/D-                     |
 | XML                    | \-N/D-                                      | Elemento-XML atributo-XML |
 | Delimitado, ancho fijo | Coma, punto y coma, tabulador, barra vertical, dos puntos | \-N/D-                     |
+
+> [!NOTE]
+> Es importante seleccionar el valor correcto para **Delimitador de fila**, **Delimitador de columna**, y **Calificador de texto** si la opción **Formato de archivo** está configurada en **Delimitado**. Asegúrese de que sus datos no contengan el carácter utilizado como delimitador o calificador, ya que esto puede provocar errores durante la importación y exportación.
 
 ### <a name="sequence-the-entities"></a>Ordenar las entidades
 Puede ordenar las entidades en una plantilla de datos o en trabajos de importación y exportación. Cuando ejecute un trabajo que contenga más de una entidad de datos, asegúrese de que están correctamente ordenadas. Puede ordenar las entidades principales para trabajar con cualquier dependencia funcional que esté entre ellas. Si las entidades no tienen dependencias funcionales, pueden ser programadas en una la importación o exportación paralela.

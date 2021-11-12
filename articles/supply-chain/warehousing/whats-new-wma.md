@@ -10,18 +10,31 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 6ab5f6887cb60d3d0434b59cda82b44eca272d7e
+ms.sourcegitcommit: 60ade60f72fd0fa0683f7a3eaf93439d10cf3373
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485631"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655394"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20110"></a>Versión 2.0.11.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+- Soporte agregado para campos promocionados.
+- Se agregó soporte para la navegación del teclado por hardware.
+- Accesibilidad mejorada.
+- Tarjetas de detalles mejoradas.
+- Desvíos mejorados para pasos de elementos de menú.
+- Mejoras menores en la interfaz de usuario.
+- Se solucionó un problema que podía hacer que la aplicación fallara al escanear códigos de barras.
+- Se han solucionado varios problemas que podían provocar que el sistema dejara de responder.
 
 ## <a name="version-20100"></a>Versión 2.0.10.0
 

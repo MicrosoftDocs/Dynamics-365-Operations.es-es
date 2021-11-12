@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575180"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678918"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Información general sobre el complemento de visibilidad de inventario
 
@@ -45,8 +45,6 @@ Hay dos enfoques para ver su inventario:
 - Vea la lista sin procesar disponible. Esta lista se sincroniza periódicamente desde una instancia en caché y es visible en Dataverse. Para obtener más información, consulte [Aplicación Visibilidad de inventario](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>Reservas flexibles
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 La reserva flexible se aplica cuando una empresa debe reservar una cantidad específica de productos para respaldar, por ejemplo, el cumplimiento de pedidos de ventas que eviten la sobreventa. Cuando se crea y confirma un pedido de ventas en Supply Chain Management u otros sistemas de gestión de pedidos, se envía una solicitud a Visibilidad de inventario para reservar la cantidad. Visibilidad de inventario le permite reservar productos que tienen detalles de dimensión y tipos de transacciones de inventario específicos. (Para obtener más información, consulte [Aplicación Visibilidad de inventario](inventory-visibility-power-platform.md).) Una vez que la cantidad se ha reservado correctamente, se devuelve un Id. de reserva. Puede utilizar este Id. de reserva para vincular el pedido original en Supply Chain Management u otros sistemas de gestión de pedidos.
 

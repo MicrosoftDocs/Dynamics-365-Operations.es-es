@@ -2,7 +2,7 @@
 title: Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
 description: Este tema describe cómo los administradores pueden agregar, editar y eliminar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B).
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734952"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713702"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
 
@@ -68,6 +68,18 @@ Para aprobar y configurar un usuario administrador de socio comercial en la sede
 1. Vaya a **TI de Retail y Commerce \> Programa de distribución** y ejecuta el trabajo **1010** (**Clientes**) para enviar los registros de clientes y jerarquía de clientes recién creados a la base de datos del canal.
 
 Una vez que se haya aprobado la solicitud y se hayan sincronizado los registros de clientes y jerarquías de clientes con la base de datos del canal, el solicitante podrá iniciar sesión en el sitio web de comercio electrónico B2B con la dirección de correo electrónico que proporcionó al enviar la solicitud. Los usuarios pueden utilizar el flujo de registro para definir la contraseña de su cuenta. Para habilitar el proveedor de identidad (Azure AD B2C) para vincularlo al registro de cliente B2B que se creó al registrarse o iniciar sesión, siga las instrucciones en [Habilitar la vinculación automática de registros de identidad a cuentas de clientes](../identity-record-linking.md).
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Notifique a los prospectos B2B cuando sean aprobados o rechazados
+
+Cuando aprueba o rechaza una solicitud de incorporación de un cliente potencial B2B, puede enviar automáticamente una notificación por correo electrónico al cliente potencial. 
+
+Para configurar notificaciones por correo electrónico en la sede de Comercio para eventos del tipo de notificación de prospecto B2B aprobado o prospecto B2B rechazado, siga estos pasos.
+
+1. Cree plantillas de correo electrónico para los correos electrónicos que se enviarán a los clientes potenciales cuando se active el tipo de notificación de prospecto B2B aprobado o prospecto B2B rechazado.
+
+    Para obtener información sobre los marcadores de posición que admiten los tipos de notificación de prospecto B2B aprobado y prospecto B2B rechazado, consulte [Tipos de notificación](../email-templates-transactions.md#notification-types). Para obtener información sobre cómo crear plantillas de correo electrónico, consulte [Crear una plantilla de correo electrónico](../email-templates-transactions.md#create-an-email-template). 
+
+1. Agregue los tipos de notificación de prospecto B2B aprobado y prospecto B2B rechazado a su perfil de notificación por correo electrónico y asígnelos a las plantillas de correo electrónico que creó. Para obtener más información sobre cómo perfiles de notificación, consulte [Configurar un perfil de notificación de correo electrónico](../email-notification-profiles.md). 
 
 ## <a name="onboard-additional-business-partner-users"></a>Incorporar usuarios socios comerciales adicionales
 

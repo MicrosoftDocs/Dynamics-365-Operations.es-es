@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: db1d9d2cddfab5ca5abb50cc3ecb9c841e06b8b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580993"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647323"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
@@ -46,7 +46,7 @@ La mayoría de estas características deben habilitarse mediante la [Administrac
 
 La tabla siguiente enumera las mejoras de características incluidas en esta versión. Cada uno de estos proporciona una mejora incremental de una función existente. Debido a que son solo mejoras, no se enumeran en el [plan de versión](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Sin embargo, para garantizar que estas mejoras no entren en conflicto con sus preferencias o personalizaciones existentes, cada una de ellas está desactivada de forma predeterminada (a menos que se indique lo contrario). Si desea utilizar alguna de estas funciones, debe habilitarlas explícitamente en [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Área de características | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
+| Módulo | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
 |---|---|---|
 | Planificación maestra | Autorización paralela de previsión de la demanda ajustada | Esta característica permite la autorización paralela de la previsión de demanda ajustada de la página **Previsión de la demanda ajustada**. La intención de esta función es aumentar el rendimiento cuando se autoriza una gran cantidad de pronósticos. Al autorizar, el usuario puede especificar el **Número de hilos** en el diálogo de autorización. |
 | Planificación maestra | (Versión preliminar) Consolidación y puesta en firme por lotes de pedidos de lote masivos y empaquetados planificados | Esta característica permite usar trabajos por lotes para poner en firme y consolidar pedidos masivos y empaquetados planificados. |

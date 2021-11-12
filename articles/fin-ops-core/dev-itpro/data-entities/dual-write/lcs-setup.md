@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 9f461837c65c30eace3358c231618aedf428f487
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416660"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675306"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuración de la doble escritura de Lifecycle Services
 
@@ -28,8 +28,8 @@ Este tema explica cómo habilitar escritura dual desde Microsoft Dynamics Lifecy
 
 Debe completar la integración de Power Platform como se describe en los siguientes temas:
 
-+ [Integración de Power Platform: habilitar durante la implementación del entorno](../../power-platform/overview.md#enable-during-environment-deployment)
-+ [Integración de Power Platform: configurará tras la implementación del entorno](../../power-platform/overview.md#set-up-after-environment-deployment)
++ [Integración de Power Platform: habilitar durante la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
++ [Integración de Power Platform: habilitar después de la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
 ## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Configurar escritura dual para nuevos entornos de Dataverse
 

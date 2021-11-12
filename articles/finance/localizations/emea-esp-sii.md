@@ -2,7 +2,7 @@
 title: Suministro inmediato de información del IVA, SII
 description: Este tema describe cómo configurar y usar Dynamics 365 Finance para interoperar con el sistema SII de España.
 author: liza-golub
-ms.date: 09/27/2021
+ms.date: 10/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6a01382a464b145d4d802cbb6bbf4511a167e376
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 162959dae496bc64bce253764555367c40deebbf
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562141"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647727"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 Finance soporta el ciclo completo de tramitación, inclui
 - 'Pagos para facturas registradas en el Libro de registro de Facturas Recibidas': **Pagos por facturas registradas en el libro registro de facturas recibidas**
 - 'Cobros en Metálico': **Pagos en efectivo**
 
-A partir de la versión 10.0.22 de Finance, si utiliza el [Servicio de impuestos](global-tax-calcuation-service-overview.md), y la característica [**Admite varios números de registro de IVA**](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**, puede [Informar los siguientes informes al sistema SII de España de una entidad jurídica que tenga una dirección principal fuera de España.](#multiple-vat):
+A partir de la versión 10.0.22 de Finance, si utiliza el servicio [Cálculo de impuestos](global-tax-calcuation-service-overview.md), y la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**, puede [Informar los siguientes informes al sistema SII de España de una entidad jurídica que tenga una dirección principal fuera de España](#multiple-vat):
 
 - 'Libro de registro de facturas Expedidas': **Libro registro de facturas emitidas**
 - 'Libro de registro de facturas Recibidas': **Libro registro de facturas recibidas**
@@ -203,7 +203,7 @@ Se incluyen tres clases ejecutables en los dos tipos de procesamiento de mensaje
    | Pagos a proveedores               | PagosProveedores                   |
    | Operaciones intracomunitarias     | Operaciones intracomunitarias       |
 
-A partir de la versión 10.0.22 de Finance, si está utilizando el [**Servicio de impuestos**](global-tax-calcuation-service-overview.md) y tiene la característica, [**Admite varios números de registro de IVA**](emea-multiple-vat-registration-numbers.md) habilitada en el espacio de trabajo **Gestión de funciones**, un grupo adicional **Múltiples parámetros de identificación fiscal** será visible en el cuadro de diálogo **Agregar nuevos elementos de mensajes electrónicos**. Establezca los siguientes valores para los parámetros de este grupo.
+A partir de la versión 10.0.22 de Finance, si está utilizando el servicio de [Cálculo de impuestos](global-tax-calcuation-service-overview.md) y tiene la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) habilitada en el espacio de trabajo **Gestión de funciones**, un grupo adicional **Múltiples parámetros de identificación fiscal** será visible en el cuadro de diálogo **Agregar nuevos elementos de mensajes electrónicos**. Establezca los siguientes valores para los parámetros de este grupo.
 
    | **Nombre del parámetro**            | **Valor**                          |
    |-------------------------------|------------------------------------|
@@ -216,7 +216,7 @@ A partir de la versión 10.0.22 de Finance, si está utilizando el [**Servicio d
    | DIARIO DE FACTURAS DEL CLIENTE      | Esta fuente de datos rellena datos de la tabla **Diario de facturas del cliente** como elementos EM de del tipo **FacturasСliente** para informar al sistema SII de España. |
    | DIARIO DE FACTURAS DEL PROVEEDOR        | Esta fuente de datos rellena datos de la tabla **Diario de facturas del proveedor** como elementos EM de del tipo **FacturasProveedores** para informar al sistema SII de España. |
    | FACTURA DE PROYECTO               | Esta fuente de datos rellena datos de la tabla **Factura de proyecto** como elementos EM de del tipo **FacturasСliente** para informar al sistema SII de España. |
-   | TRANSFERIR HISTORIAL DE PEDIDOS        | Esta fuente de datos rellena datos de la tabla **Transferir historial de pedidos** como elementos EM de de los tipos **FacturasСliente** y **FacturasProveedores** para informar al sistema SII de España. Esta fuente de datos está disponible a partir de la versión 10.0.22 de Finance si está utilizando [**Servicio de impuestos**](global-tax-calcuation-service-overview.md) y la característica [**Admite varios números de registro de IVA**](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**. Para obtener más información, consulte la sección [Informe al sistema SII de España para múltiples registros de IVA](#multiple-vat). |
+   | TRANSFERIR HISTORIAL DE PEDIDOS        | Esta fuente de datos rellena datos de la tabla **Transferir historial de pedidos** como elementos EM de de los tipos **FacturasСliente** y **FacturasProveedores** para informar al sistema SII de España. Esta fuente de datos está disponible a partir de la versión 10.0.22 de Finance si está utilizando el servicio de [Cálculo de impuestos](global-tax-calcuation-service-overview.md) y la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**. Para obtener más información, consulte la sección [Reportando al sistema SII de España para múltiples registros de IVA](#multiple-vat) más adelante en este tema. |
 
 5.  Seleccione **Aceptar** para iniciar la clase ejecutable.
 
@@ -311,7 +311,7 @@ Los siguientes valores están disponibles para el campo adicional **IDType** com
 
 El valor del campo adicional **IDType** se informa en la etiqueta **IDType** debajo de la etiqueta **IDOtro** del informe.
 
-De forma predeterminada, para las contrapartidas fuera de España, cuando el **Id. de registro** no está definido en los datos maestros de la contrapartida, el sistema define los siguientes valores para el campo adicional **Tipo de identificación**:
+De forma predeterminada, para las contrapartidas fuera de España, cuando el **Id. de registro** no está definido en los datos maestros de la contrapartida, el sistema define los siguientes valores para el campo adicional **IDType**:
 
 -   **02** - Para contrapartidas de la UE
 -   **04** - Para contrapartidas de terceros países
@@ -610,9 +610,9 @@ Para comprobar que configuró correctamente los parámetros para la clase ejecut
 2.  Seleccione la clase ejecutable **SIIGenerateItems** que está asociada con el nombre de clase ejecutable **EMCreateItemsController**.
 3.  En el Panel de acciones, seleccione **Parámetros**, y luego configure el valor **TipoOperación** para el campo adicional **Id. de operación intracomunitaria**.
 
-## <a name="reporting-to-sii-system-of-spain-for-multiple-vat-registrations"></a><a name="multiple-vat"></a>Reportando al sistema SII de España para múltiples registros de IVA
+## <a name="reporting-to-the-sii-system-of-spain-for-multiple-vat-registrations"></a><a name="multiple-vat"></a>Reportando al sistema SII de España para múltiples registros de IVA
 
-A partir de la versión 10.0.22 de Finance, si utiliza el [Servicio de impuestos](global-tax-calcuation-service-overview.md), y la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**, puede Informar los siguientes informes al sistema SII de España:
+A partir de la versión 10.0.22 de Finance, si utiliza el servicio [Cálculo de impuestos](global-tax-calcuation-service-overview.md) y la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**, puede Informar los siguientes informes al sistema SII de España:
 
 - 'Libro de registro de facturas Expedidas': **Libro registro de facturas emitidas**
 - 'Libro de registro de facturas Recibidas': **Libro registro de facturas recibidas**

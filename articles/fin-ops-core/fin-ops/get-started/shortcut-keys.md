@@ -2,7 +2,7 @@
 title: Métodos abreviados de teclado
 description: Este tema proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de Finance and Operations.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743180"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647545"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Los siguientes métodos abreviados de teclado le pueden ayudar de forma rápida y eficaz a la introducción de datos en las aplicaciones de Finance and Operations.
 
@@ -148,14 +149,15 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Alternar el enfoque entre la fila seleccionada y la fila de encabezado                                                               | Alt+Mayús+ H                     |
 | Haga la columna actual mayor o menor (con el enfoque en la fila de encabezado)                                                  | Flecha derecha / flecha izquierda        |
 | Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)                                              | Entrar                           |
+| Cambiar el tamaño de la columna actual para que se ajuste al contenido (centrado en la fila del encabezado)                                           | C                               |
 
 ## <a name="input-control-shortcuts"></a>Métodos abreviados de control de entrada de datos
 
-| Acción                                                                   | Presione                         |
+| Acción                                                                   | Presione                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Abrir el hipervínculo                                                           | Ctrl+Entrar                    |
-| Especificar la fecha de la sesión en un campo de fecha                                       | J                         |
-| Escribir la fecha actual en un campo de fecha                                       | M                         |
+| Especificar la fecha de la sesión en un campo de fecha                                       | J                             |
+| Escribir la fecha actual en un campo de fecha                                       | M                             |
 | Abrir búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables                         | Alt+Flecha abajo                |
 | Cerrar búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables                        | Esc                           |
 | Trasladar el enfoque a operaciones de búsqueda (cuando las búsquedas están ya abiertas)                   | Alt+Flecha abajo                |
@@ -202,8 +204,8 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Usar la herramienta Mover (cuando se esté en modo de personalización)                                                                       | M                                   |
 | Seleccionar el control actual para moverlo (cuando se usa la herramienta Mover y aún no se ha seleccionado ningún control para mover)  | Espacio o Entrar                      |
 | Borrar el control que se ha de mover (al usar la herramienta Mover)                                                                   | Esc                                 |
-| Ir a la siguiente posición del control seleccionado (cuando se utiliza la herramienta Mover)                                          | Tabulador o Flecha derecha o Flecha hacia abajo    |
-| Ir a la posición anterior del control seleccionado (cuando se utiliza la herramienta de movimiento)                                      | Mayús+Tabulador o Flecha izquierda o Flecha hacia arriba |
+| Mover el control seleccionado a la siguiente posición (cuando se utiliza la herramienta Mover)                                              | Tabulador o Flecha derecha o Flecha hacia abajo    |
+| Mover el control seleccionado a la posición anterior (cuando se utiliza la herramienta de movimiento)                                          | Mayús+Tabulador o Flecha izquierda o Flecha hacia arriba |
 | Usar la herramienta Ocultar (cuando se esté en modo de personalización)                                                                       | H                                   |
 | Mostrar u ocultar el control actual (al usar la herramienta Ocultar)                                     | Espacio o Entrar                      |
 | Usar la herramienta Omitir (cuando se esté en modo de personalización)                                                                       | mil                                   |

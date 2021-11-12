@@ -2,7 +2,7 @@
 title: Aplicar configuración de inventario
 description: Este tema cubre las configuraciones de inventario y describe cómo aplicarlas en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f57f1f941fe0c0c70394d1ecbf8d88a13c7a3682fdfa8b5439a4f3830f616876
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765275"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647593"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configuración de inventario
 
@@ -39,7 +39,7 @@ En el creador de sitios de Commerce, se pueden definir umbrales y rangos de inve
 
 ## <a name="inventory-settings"></a>Configuración de inventario
 
-En Comercio, la configuración del inventario se define en **Configuraciones del sitio \> Extensiones \> Gestión del inventario** en el creador de sitios. Hay cinco configuraciones de inventario, una de las cuales está obsoleta (en desuso):
+En Comercio, la configuración del inventario se define en **Configuraciones del sitio \> Extensiones \> Gestión del inventario** en el creador de sitios. Hay seis configuraciones de inventario, una de las cuales está obsoleta (en desuso):
 
 - **Habilitar comprobación de existencias en la aplicación**: esta configuración activa una comprobación de inventario del producto. La cesta, el carro y la recogida en los módulos de la tienda verificarán el inventario del producto y permitirán agregar un producto al carro solo si el inventario está disponible.
 - **Nivel de inventario basado en**: esta configuración define cómo se calculan los niveles de inventario. Los valores disponibles son **Total disponible**, **Físicamente disponible** y **Umbral de agotado**. En Commerce, se pueden definir umbrales y rangos de inventario para cada producto y categoría. Las API de inventario devuelven información de inventario de producto para las propiedades **Total disponible** y **Físicamente disponible**. El minorista decide si el valor **Total disponible** o **Físicamente disponible** debe utilizarse para determinar el recuento de inventario y los rangos correspondientes para los estados en existencia y agotado.
@@ -48,8 +48,13 @@ En Comercio, la configuración del inventario se define en **Configuraciones del
 
 - **Nivel de inventario para varios almacenes**: esta configuración permite que el nivel de inventario se calcule con el almacén predeterminado o con varios almacenes. La opción **Basado en almacén individual** calculará los niveles de inventario según el almacén predeterminado. Alternativamente, un sitio de comercio electrónico puede apuntar a varios almacenes para facilitar la cumplimentación. En ese caso, la opción **Basado en el agregado de los almacenes de envío y recogida** se utiliza para indicar la disponibilidad de existencias. Por ejemplo, cuando un cliente compra un artículo y selecciona "envío" como modo de entrega, el artículo puede enviarse desde cualquier almacén del grupo de cumplimiento que tenga inventario disponible. La página de detalles del producto (PDP) mostrará un mensaje "En existencias" para el envío si algún almacén de envío disponible en el grupo de cumplimentación tiene inventario. 
 
-> [!IMPORTANT] 
-> La opción **Nivel de inventario para varios almacenes** está disponible a partir de la versión 10.0.19 de Commerce. Si está actualizando desde una versión anterior de Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones, consulte [Actualizaciones del SDK y la biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+    > [!IMPORTANT] 
+    > La opción **Nivel de inventario para varios almacenes** está disponible a partir de la versión 10.0.19 de Commerce. Si está actualizando desde una versión anterior de Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones, consulte [Actualizaciones del SDK y la biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
+- **Configuración de inventario para páginas de lista de productos** - Esta configuración define cómo se muestran los productos agotados en las listas de productos que se representan mediante la colección de productos y los módulos de resultados de búsqueda. Los valores disponibles son **Mostrar en orden con otros productos**, **Ocultar productos agotados de la lista** y **Mostrar los productos agotados al final de la lista**. Para utilizar esta configuración, primero debe configurar algunos requisitos previos en la sede de Commerce. Para más información, vea [Habilite el conocimiento del inventario para el módulo de resultados de búsqueda](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+
+    > [!IMPORTANT] 
+    > La configuración **Ajustes de inventario para páginas de lista de productos** está disponible a partir de la versión 10.0.20 de Commerce. Si está actualizando desde una versión anterior de Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones, consulte [Actualizaciones del SDK y la biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Rangos de inventario**: esta configuración define los rangos de inventario para los que se muestran los mensajes para los módulos del sitio. Solo es aplicable si el valor **Total disponible** o el valor **Físicamente disponible** se selecciona para la opción **Nivel de inventario basado en**. Los valores disponibles son **Todos**, **Bajo y agotado** y **Agotado**.
 

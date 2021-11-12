@@ -2,7 +2,7 @@
 title: 'Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)'
 description: Este tema proporciona información sobre la eliminación del almacenamiento de Microsoft Dynamics Lifecycle Services (LCS) que está prevista como parte del despliegue del repositorio global de Regulatory Configuration Service (RCS).
 author: JaneA07
-ms.date: 05/25/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 7a738af04da4425e76bd3b224400f91bc4eb8364d323da67ea457eaba9e65643
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
+ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782207"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7715239"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)
 
@@ -38,8 +38,9 @@ La eliminación del uso de LCS como almacenamiento se comunicó en [Característ
 
 ## <a name="key-features"></a>Funciones principales
 
-- Puede utilizar RCS para crear y editar configuraciones. A continuación, puede enviar esas configuraciones directamente desde el diseñador a una aplicación conectada. Por lo tanto, puede cambiar y probar rápidamente sus configuraciones.
-- El repositorio Global es el almacenamiento centralizado de todas las configuraciones de ER.
+- Utilizar RCS para crear y editar configuraciones de ER y funciones de globalización.
+- Envíe las configuraciones directamente desde el diseñador RCS a una aplicación conectada, como un entorno de Dynamics 365 Finance, para que pueda realizar y probar cambios rápidamente en sus configuraciones.
+- Almacene, comparta y gestione de forma centralizada el ciclo de vida de las configuraciones de ER y las funciones de globalización a través del almacenamiento centralizado del repositorio global.
 
 ## <a name="guidance-for-one-time-and-ongoing-actions"></a>Orientación para acciones puntuales y continuas
 
@@ -53,11 +54,20 @@ Importe todas las configuraciones requeridas desde LCS a RCS, y luego publíquel
 2. En la instancia de RCS aprovisionada, para cada proyecto LCS en la biblioteca de activos que incluye configuraciones ER derivadas, registre el repositorio LCS apropiado.
 3. Importe las configuraciones ER de los repositorios LCS a RCS. Para más información, consulte [Importar configuraciones desde LCS](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md).
 4. Si el repositorio Global no se proporciona automáticamente, regístrelo en RCS.
-5. Suba todas las configuraciones derivadas de la instancia RCS actual al repositorio Global. Utilice los **paquetes de configuración que permiten al usuario cargar todas las configuraciones a GR en una sola operación** para ayudar a la carga. Para más información, consulte [Carga del repositorio global de RCS](rcs-global-repo-upload.md).
+5. Suba todas las configuraciones derivadas de la instancia RCS actual al repositorio Global. Utilice la función **Paquetes de configuración** para ayudar con la carga. Para más información, consulte [Carga del repositorio global de RCS](rcs-global-repo-upload.md).
 
 ### <a name="going-forward"></a>Hacia el futuro
 
-Utilice los diseñadores visuales en RCS para crear todas las nuevas configuraciones. A continuación, cargue las configuraciones en el repositorio global para su almacenamiento. Para más información, consulte [Crear la configuración de ER en RCS y subirla al repositorio global](rcs-global-repo-upload.md).
+Utilice los diseñadores visuales en RCS para los siguientes propósitos:
+
+- Amplíe las plantillas proporcionadas por Microsoft.
+- Cree nuevas configuraciones que requiera su organización.
+- Personalice las funciones de globalización para la facturación electrónica y el servicio de cálculo de impuestos.
+
+Utilice el repositorio de globalización para los siguientes propósitos:
+
+- Acceda a las funciones de globalización y configuraciones producidas por Microsoft.
+- Cargue las configuraciones que creó o extendió al repositorio global para el almacenamiento y compártalas en los entornos de aplicaciones de Dynamics 365 de su organización o con organizaciones externas. Para más información, consulte [Crear la configuración de ER en RCS y subirla al repositorio global](rcs-global-repo-upload.md).
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
@@ -76,3 +86,22 @@ RCS utiliza el concepto de *aplicación conectada*. Una aplicación conectada fo
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>¿Hay algún ejemplo que muestre la configuración y la gestión?
 
 No hay ejemplos, pero puede completar los pasos anteriores en este tema para migrar sus configuraciones al repositorio RCS Global.
+
+### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>¿Es RCS un requisito previo para configurar los informes electrónicos?
+
+Sí. RCS incluye capacidades que admiten la configuración de funciones de globalización que utilizan los servicios de globalización, como la facturación electrónica y el servicio de cálculo de impuestos. Sin embargo, el servicio tiene la misma funcionalidad de diseñador visual que le permite ampliar o crear nuevas configuraciones de ER. RCS también proporciona gestión del ciclo de vida tanto para las configuraciones de ER como para las funciones de globalización.
+
+### <a name="which-regions-can-rcs-be-deployed-in"></a>¿En qué regiones se puede implementar RCS?
+
+RCS está disponible en las siguientes regiones de Azure:
+
+- Estados Unidos
+- India
+- Francia
+- Europa
+
+Para obtener más información sobre el soporte del producto, consulte [Descripción general de los servicios de Dynamics Globalization](globalization-services-overview.md). Para obtener más información sobre la compatibilidad geográfica, consulte [Dynamics 365 y Power Platform: Disponibilidad, ubicación de los datos, idioma y localización](https://aka.ms/rcs/D365Productavailabilityguide).
+
+### <a name="whats-the-cost-of-using-rcs"></a>¿Cuál es el coste de usar RCS?
+
+RCS y el repositorio de globalización se proporcionan de forma gratuita como parte de las licencias de aplicaciones existentes de Finance and Operations. No hay costos separados asociados con el uso del servicio de diseño RCS o con el almacenamiento de configuraciones en el repositorio global. Actualmente no hay límite en el número de configuraciones o aplicaciones conectadas.

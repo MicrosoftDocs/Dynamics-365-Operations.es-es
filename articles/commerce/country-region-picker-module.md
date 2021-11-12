@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 35d78cdcc356d35776940147e9b0afee0f0be2a2
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472675"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674732"
 ---
 # <a name="countryregion-picker-module"></a>Módulo selector de país/región
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 En este tema se describe el modulo de selección de país/región y se describe cómo configurarlo en Microsoft Dynamics 365 Commerce.
 
@@ -35,13 +34,13 @@ Por ejemplo, un cliente de Canadá solicita una URL de sitio que no está asocia
 
 ![Ejemplo de un cuadro de diálogo selector de país / región en una página de inicio.](./media/Geo_country-region-module-insitu.png)
 
-## <a name="countryregion-picker-module-properties&quot;></a>Propiedades del módulo selector de país/región
+## <a name="countryregion-picker-module-properties"></a>Propiedades del módulo selector de país/región
 
 | Nombre de la propiedad              | Valor       | Descripción |
 | -------------------------- | ----------- | ----------- |
 | Cabecera                    | Texto        | El encabezado que aparece en la parte superior del cuadro de diálogo. |
 | Subtítulo                 | Texto        | El subtítulo que aparece debajo del encabezado. |
-| País: cadena de visualización    | Texto        | El nombre para mostrar de una opción de URL (por ejemplo, &quot;Canadá"). |
+| País: cadena de visualización    | Texto        | El nombre para mostrar de una opción de URL (por ejemplo, "Canadá"). |
 | País: subcadena de visualización | Texto        | Una subcadena de visualización opcional para una opción de URL (por ejemplo, "inglés" o "francés"). |
 | País: imagen del país     | Activo de medios | Una imagen opcional que está asociada con una opción de URL (por ejemplo, una imagen de la bandera canadiense). |
 | País: URL del país       | Texto        | La URL que corresponde al canal y la configuración regional configurados para el país o región en la página **Canales** en el creador de sitios de Commerce (**Configuración del sitio \> Canales**). Esta URL debe coincidir exactamente con la URL configurada en la página **Canales**. |

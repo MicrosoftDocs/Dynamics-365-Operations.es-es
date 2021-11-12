@@ -1,7 +1,7 @@
 ---
 title: Definiciones de contabilización
-description: Este artículo proporciona información acerca de las definiciones de contabilización, y acerca de cómo definirlas y vincularlas. Para los tipos de contabilización y documentos admitidos, puede usar definiciones de contabilización en lugar de los perfiles de contabilización para clasificar cuentas principales y las dimensiones financieras de asientos contables.
-author: ShylaThompson
+description: Este tema proporciona información acerca de las definiciones de contabilización, y acerca de cómo definirlas y vincularlas. Para los tipos de contabilización y documentos admitidos, puede usar definiciones de contabilización en lugar de los perfiles de contabilización para clasificar cuentas principales y las dimensiones financieras de asientos contables.
+author: kweekley
 ms.date: 09/03/2019
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 15741
 ms.assetid: 1495e7e0-2e39-464c-8da9-f55b1ca1c6bb
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22a261c1ac139d5caa51e05ff90675eca89e40fd804ff7e87a7c69a18c1f3e4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d409f154823a74e032adb71253ce97f8e3b2f101
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753513"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726975"
 ---
 # <a name="posting-definitions"></a>Definiciones de contabilización
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona información acerca de las definiciones de contabilización, y acerca de cómo definirlas y vincularlas.
+Este tema proporciona información acerca de las definiciones de contabilización, y acerca de cómo definirlas y vincularlas.
 Para los tipos de contabilización y documentos admitidos, puede usar definiciones de contabilización en lugar de los perfiles de contabilización para clasificar cuentas principales y las dimensiones financieras de asientos contables. Puede ver los documentos y los tipos de registro que admite la página **Definiciones de contabilización de transacciones**. 
 
 Para empezar a usar definiciones de contabilización, seleccione **Usar definiciones de contabilización** en la página **Parámetros de contabilidad general**. Incluso al usar definiciones de contabilización, deberá definir los perfiles de contabilización para las entradas de origen y los documentos y los tipos de contabilización no admitidos. 

@@ -1,7 +1,7 @@
 ---
 title: Efectos de depreciación con inversiones
 description: En este artículo se describen las implicaciones potenciales de invertir una transacción de activo fijo.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37f0412166404e6903819840debcdd0ab0630115dcdb68297e0072723adacb53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760671"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674559"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Efectos de depreciación con inversiones
 
@@ -30,7 +30,7 @@ En este artículo se describen las implicaciones potenciales de invertir una tra
 
 Se pueden invertir las transacciones de activos fijos, así como las transacciones que están asociadas a un activo fijo. También se puede revocar una transacción invertida. 
 
-Puede invertir o revocar una transacción que no era la transacción más reciente registrada para el activo en el libro. Para ello, se debe determinar primero si se ha registrado alguna transacción de depreciación después de la transacción que se desea invertir. El motivo de esta comprobación es que la depreciación no se calcula de nuevo al invertir una transacción, por lo que a menudo la depreciación es excesiva o insuficiente después de la inversión, tal como se muestra en los ejemplos. 
+Puede invertir o revocar una transacción que no era la transacción más reciente registrada para el activo en el libro. Primero, determine si se ha registrado alguna transacción de depreciación después de la transacción que se desea invertir. Este paso es necesario porque la depreciación no se calcula de nuevo al invertir una transacción. por lo que a menudo la depreciación es excesiva o insuficiente después de la inversión, tal como se muestra en los ejemplos. 
 
 Para garantizar que la depreciación es correcta al invertir una transacción, no continúe con la inversión si recibe un mensaje durante el proceso en el que se indica que no se calculará de nuevo la depreciación. En su lugar, invierta primero la transacción de depreciación registrada después de la transacción que desea invertir y, a continuación, proceda con la inversión. No recibirá ningún mensaje sobre el nuevo cálculo de la depreciación y podrá continuar con la inversión. 
 
