@@ -74,12 +74,12 @@
                   items:
                     - name: Novedades y cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (noviembre de 2021)
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (octubre de 2021)
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: Supply Chain Management 10.0.20 (agosto de 2021)
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Características quitadas o en desuso
                   items:
                     - name: Página de inicio de características quitadas o en desuso
@@ -266,7 +266,7 @@
                           href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Introducción a la facturación electrónica para Brasil
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Introducción la facturación electrónica para Egipto
+                        - name: Introducción a la facturación electrónica para Egipto
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Introducción a la facturación electrónica para México
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Planificación maestra con acuerdos comerciales de compra
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Parámetros de fecha y hora utilizados por Optimización de planificación
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Márgenes de seguridad
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Tolerancia al retraso (días negativos)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar la libreta de direcciones global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configuración de dirección
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Preguntas frecuentes sobre Libretas de direcciones
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar libretas de direcciones
@@ -2427,18 +2431,6 @@
                       href: production-control/release-production-orders.md
                     - name: Notificar pedidos de producción como terminados
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Configurar y usar la interfaz de ejecución de la planta de producción
-                      items:
-                        - name: Configurar la interfaz de ejecución de la planta de producción
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Diseñar la interfaz de ejecución de la planta de producción
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
-                          href: production-control/production-floor-execution-use.md
-                        - name: Diseñar la interfaz de ejecución de la planta de producción
-                          href: production-control/production-floor-execution-styles.md
                     - name: Configurar tarjeta de trabajo para dispositivos
                       href: production-control/config-job-card-device.md
                     - name: Notificar como terminado desde el dispositivo de tarjetas de trabajo
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Registro de la producción
                       href: cost-management/production-posting.md
+            - name: Configurar y usar la interfaz de ejecución de la planta de producción
+              items:
+                - name: Configurar la interfaz de ejecución de la planta de producción
+                  href: production-control/production-floor-execution-configure.md
+                - name: Diseñar la interfaz de ejecución de la planta de producción
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
+                  href: production-control/production-floor-execution-setup.md
+                - name: Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
+                  href: production-control/production-floor-execution-use.md
+                - name: Diseñar la interfaz de ejecución de la planta de producción
+                  href: production-control/production-floor-execution-styles.md
         - name: Gestión de devoluciones
           items:
             - name: Descripción general del módulo de gestión de devoluciones
@@ -3391,7 +3395,11 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management
                       href: warehousing/mobile-app-titles-instructions.md
-                    - name: Recepción de matrículas mediante la aplicación móvil Warehouse Management
+                    - name: Configurar campos promocionados para pasos en el dispositivo móvil
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Configurar desvíos para pasos en elementos de menú de dispositivo móvil
+                      href: warehousing/warehouse-app-detours.md
+                    - name: Recepción de matrículas de entidad de almacén mediante la aplicación móvil Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Configurar un elemento de menú del dispositivo móvil para trabajar en un pedido de compra
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Parámetros globales de dispositivos móviles
                   href: warehousing/mobile-device-parameters.md
+                - name: Cuentas de usuario de dispositivo móvil
+                  href: warehousing/mobile-device-work-users.md
                 - name: Configuración de usuario de dispositivo móvil
                   href: warehousing/mobile-device-user-settings.md
                 - name: Procesamiento de eventos de la aplicación de almacén
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gestión de almacenes
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: No se encontró el ancla de confianza para la ruta de certificación al configurar la conexión de la aplicación
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: No se encontró el ancla de confianza para la ruta de certificación al configurar y migrar a WMS
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: La solicitud de reserva automática para el número de lote se muestra incluso con el inventario disponible
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: No se puede desbloquear el trabajo de picking debido a un trabajo de reabastecimiento sin terminar
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: No se puede mover el inventario a una ubicación que esté controlada por matrículas de entidad de almacén
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: No se encontró el ancla de confianza para la ruta de certificación al configurar la conexión de la aplicación
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: No se encuentra el perfil del clúster
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: No se puede procesar la corrección de la nota de entrega
@@ -3819,8 +3833,6 @@
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: No se puede cancelar la reserva de inventario en una línea de pedido de venta
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: No se encontró el ancla de confianza para la ruta de certificación al configurar y migrar a WMS
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: No puede confirmar un envío porque el cliente está en espera
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: No puede confirmar un envío porque las líneas de carga tienen una cantidad cero
