@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: Ajuste de valores de coste de inventario disponible
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Informe de almacenamiento de valor de inventario
+                - name: Informes de valor de inventario
                   href: cost-management/inventory-value-report-storage.md
+                - name: Ejemplos y lógica de informes de valor de inventario
+                  href: cost-management/inventory-value-report-examples.md
                 - name: Almacenamiento de informe de vencimiento de inventario
                   href: cost-management/inventory-aging-report-storage.md
                 - name: Ejemplos y lógica de informes de vencimiento de inventario
@@ -837,7 +839,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Agregar dimensiones financieras a medidas agregadas
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Crear informes analíticos mediante Power BI Desktop
+                - name: Crear informes analíticos mediante PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Agregar análisis a espacios de trabajo mediante Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1673,7 +1675,9 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Programación con selección de recursos según la capacidad
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Marcado de inventario con Optimización de planificación
+                - name: Planificación basada en prioridades
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: Marcado de inventario con optimización de planificación
                   href: master-planning/planning-optimization/marking.md
                 - name: Planificación de empresas vinculadas
                   href: master-planning/planning-optimization/Intercompany-planning.md
@@ -1719,6 +1723,8 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Cumplimiento de existencias de seguridad para los artículos
                   href: master-planning/safety-stock-replenishment.md
+                - name: Usar el diario de existencias de seguridad para actualizar la cobertura mínima para artículos
+                  href: master-planning/safety-stock-journal.md
                 - name: Retrasos
                   href: master-planning/delays.md
                 - name: Cancelar un trabajo de planificación maestro
@@ -2351,6 +2357,8 @@
               href: production-control/unified-job-ids.md
             - name: Invocar flujos de automatización de procesos para crear pedidos de calidad
               href: production-control/process-automation-quality-orders.md
+            - name: Integración con sistemas de ejecución de fabricación de terceros
+              href: production-control/mes-integration.md
             - name: Fabricación discreta
               items:
                 - name: Mantener datos maestros de producción
@@ -2649,6 +2657,8 @@
                   href: production-control/production-floor-execution-use.md
                 - name: Diseñar la interfaz de ejecución de la planta de producción
                   href: production-control/production-floor-execution-styles.md
+                - name: Personalizar la interfaz de ejecución de la planta de producción
+                  href: production-control/production-floor-execution-customize.md
         - name: Gestión de devoluciones
           items:
             - name: Descripción general del módulo de gestión de devoluciones
@@ -3747,7 +3757,7 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gestión de almacenes
               items:
-                - name: Warehouse Mobile App
+                - name: Aplicación móvil Warehouse
                   items:
                     - name: No se encontró el ancla de confianza para la ruta de certificación al configurar la conexión de la aplicación
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md

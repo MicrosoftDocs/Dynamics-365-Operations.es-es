@@ -1272,7 +1272,7 @@
               href: store-performance-information.md
             - name: 'Configurar análisis de novedad, frecuencia y monetario (RFM)'
               href: set-up-rfm-analysis.md
-            - name: Configurar Microsoft Clarity en Dynamics 365 Commerce
+            - name: Configurar Microsoft Clarity en Dynamics 36 Commerce
               href: set-up-clarity.md
         - name: Globalización
           items:
@@ -2538,6 +2538,8 @@
                       href: e-commerce-extensibility/debugging-best-practices.md
             - name: SDK de Retail
               items:
+                - name: Migrar al SDK de Commerce
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: Arquitectura del SDK de Retail
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Configurar una canalización de compilación para el SDK de empaquetado independiente

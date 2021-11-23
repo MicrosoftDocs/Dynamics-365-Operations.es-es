@@ -2,7 +2,7 @@
 title: Página principal de Finance
 description: En este tema se proporciona una lista de los temas de ayuda y de otros recursos para las características de gestión financiera en Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 08/18/2021
+ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394572"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753730"
 ---
 # <a name="finance-home-page"></a>Página principal de Finance
 
@@ -41,12 +41,10 @@ Seleccione un área de características para obtener más información al respec
         - [Contabilidad de costes](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Gestión de gastos](/dynamics365/project-operations/prod-exp/expense-management)
         - [Informes financieros](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Activos fijos](fixed-assets/fixed-assets.md)
-        - [Finance insights](finance-insights/finance-insights-home-page.md)
+        - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Contabilidad general e informes financieros](general-ledger/general-ledger.md) 
-        - [Gestión y contabilidad de proyectos](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Sector público](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -66,11 +64,19 @@ Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el
 
 ### <a name="countryregion-functionality"></a>Funcionalidad por país/región
 
-Las normativas por país/región afectan a la configuración de impuestos y a otras áreas de la administración financiera. Consulte la sección de nuestro contenido de ayuda [Características normativas y de localización](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) para obtener más información sobre la funcionalidad específica de región o país.
+Las normativas por país/región afectan a la configuración de impuestos y a otras áreas de la administración financiera. Para obtener más información sobre la funcionalidad específica de región o país, consulte [Características normativas y de localización](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
 
 ### <a name="additional-content"></a>Contenido adicional
 
-La funcionalidad de Supply Chain Management abarca parte del proceso de la compra al pago que incluye la solicitud, el pedido, la recepción, la facturación y el pago de los bienes y servicios que su organización compra. Consulte la [página principal de Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) para obtener más información acerca de las funcionalidades para gestionar compras, inventario y fabricación.
+La funcionalidad de Supply Chain Management cubre partes del proceso de la compra al pago que incluyen:
+
+   - Solicitud
+   - Pedido 
+   - Recepción
+   - Facturación
+   - Pago de los bienes y servicios que su organización compra 
+    
+Para obtener más información acerca de las funcionalidades para gestionar compras, inventario y fabricación, consulte la [página principal de Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md).
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
