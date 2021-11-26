@@ -421,7 +421,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>No aplicable</td>
 </tr>
 <tr>
-<td>N.º</td>
+<td>No</td>
 <td>
 <ol>
 <li>Seleccione el elemento de menú <strong>Anular ubicación</strong> en la aplicación móvil de administración de almacén al comenzar a seleccionar trabajo.</li>
@@ -719,7 +719,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 </tr>
 <tr>
 <td>Se ha configurado una excepción de trabajo del tipo <strong>Selección corta</strong> donde <strong>Reasignación de artículos</strong> = <strong>Manual</strong>, <strong>Ajustar inventario</strong> = <strong>Sí</strong> y <strong>Eliminar reservas</strong> = <strong>No</strong>. Además, la opción <strong>Permitir reasignación manual de artículos</strong> está habilitada en el trabajador.</td>
-<td>N.º</td>
+<td>No</td>
 <td>
 <ol>
 <li>Seleccione el elemento de menú <strong>Shortpick</strong> en la aplicación móvil de administración de almacén al ejecutar la selección de trabajo.</li>
@@ -732,7 +732,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 </tr>
 <tr>
 <td>Se ha configurado una excepción de trabajo del tipo <strong>Selección corta</strong> donde <strong>Reasignación de artículos</strong> = <strong>Manual</strong>, <strong>Ajustar inventario</strong> = <strong>Sí</strong> y <strong>Eliminar reservas</strong> = <strong>Sí</strong>. Además, la opción <strong>Permitir reasignación manual de artículos</strong> está habilitada en el trabajador.</td>
-<td>N.º</td>
+<td>No</td>
 <td>
 <ol>
 <li>Seleccione el elemento de menú <strong>Shortpick</strong> en la aplicación móvil de administración de almacén al ejecutar la selección de trabajo.</li>

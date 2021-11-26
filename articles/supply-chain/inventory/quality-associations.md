@@ -344,7 +344,7 @@ En la producción, si establece el campo **Tipo de evento** en *Informar como co
 </tr>
 <tr>
 <td>Cantidad fija: 1</td>
-<td>N.º</td>
+<td>No</td>
 <td>
 <p>Número de lote: No</p>
 <p>Número de serie: No</p>
@@ -399,7 +399,7 @@ En la producción, si establece el campo **Tipo de evento** en *Informar como co
 </tr>
 <tr>
 <td>Cantidad fija: 2</td>
-<td>N.º</td>
+<td>No</td>
 <td>
 <p>Número de lote: Sí</p>
 <p>Número de serie: Sí</p>

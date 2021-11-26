@@ -139,12 +139,12 @@ El estado del trabajo seleccionado y el estado de cualquier trabajo fijado para 
 <tr class="even">
 <td>Transferir o procesar</td>
 <td>No se encuentra una tarjeta kanban</td>
-<td>Nº</td>
-<td>Nº</td>
-<td>Nº</td>
-<td>Nº</td>
-<td>Nº</td>
-<td>Nº</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
 </tr>
 <tr class="odd">
 <td>Transferir o procesar</td>

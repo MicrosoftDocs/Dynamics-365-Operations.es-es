@@ -42,7 +42,7 @@ El sistema de ejemplo contiene la siguiente configuración de dimensiones de alm
 | Nombre      | Activas | Inventario físico | Inventario financiero |
 |-----------|--------|--------------------|---------------------|
 | Sitio      | Sí    | Sí                | Sí                 |
-| Almacén | Sí    | Sí                | Nº                  |
+| Almacén | Sí    | Sí                | No                  |
 
 ### <a name="inventory-model"></a>Modelo de inventario
 

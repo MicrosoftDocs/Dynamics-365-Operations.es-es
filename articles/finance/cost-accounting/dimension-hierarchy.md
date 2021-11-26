@@ -118,7 +118,7 @@ Una jerarquía de dimensión que cumple los requisitos de generación de informe
 
 | Nombre de jerarquía de dimensión | Dimensión    | Nombre de tipo de jerarquía de dimensión      | Jerarquía de listas de acceso |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organización             | Centros de coste | Jerarquía de clasificación de dimensiones | N.º                    |
+| Organización             | Centros de coste | Jerarquía de clasificación de dimensiones | No                    |
 
 La jerarquía de dimensión para informar se puede configurar como se muestra aquí.
 

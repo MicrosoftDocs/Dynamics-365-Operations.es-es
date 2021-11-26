@@ -47,11 +47,11 @@ La siguiente tabla muestra algunos ejemplos típicos de configuraciones del prin
 
 | Principio de reducción de devolución | Descripción | Aplicar reducción | Base de reducción | Excluir de la reducción |
 |---|---|---|---|---|
-| Aplazado | Reducir devolución | Sí | Ambas | N.º |
+| Aplazado | Reducir devolución | Sí | Ambas | No |
 | Exclreb | Excluir devolución | Sí | Devolución | Sí |
 | Varias | Múltiples devoluciones | Sí | Ambas | Sí |
-| None | Prov y devolución solamente | N.º | Ambas | Sí |
-| Aprovisionar | Solo provisión | Sí | Aprovisionar | N.º |
+| None | Prov y devolución solamente | No | Ambas | Sí |
+| Aprovisionar | Solo provisión | Sí | Aprovisionar | No |
 | Devolución | Solo devolución | Sí | Devolución | Sí |
 
 ## <a name="examples-of-rebate-reduction-principle-calculations"></a>Ejemplos de cálculos del principio de reducción de devoluciones

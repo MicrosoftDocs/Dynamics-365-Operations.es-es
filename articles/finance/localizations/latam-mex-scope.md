@@ -190,7 +190,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <li>Nacionalidad</li>
 </ul>
 </td>
-<td>N.º</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
@@ -215,7 +215,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <li>IEPS</li>
 </ul>
 </td>
-<td>N.º</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
@@ -286,7 +286,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <li>Proyecto: cuota diario</li>
 </ul>
 </td>
-<td>N.º</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
@@ -297,7 +297,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
-<td>N.º</td>
+<td>No</td>
 </tr>
 <tr>
 <td></td>
@@ -305,7 +305,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
-<td>N.º</td>
+<td>No</td>
 </tr>
 <tr>
 <td></td>
@@ -317,7 +317,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
-<td>N.º</td>
+<td>No</td>
 </tr>
 <tr>
 <td></td>
@@ -325,7 +325,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
-<td>N.º</td>
+<td>No</td>
 </tr>
 <tr>
 <td></td>
@@ -333,7 +333,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
-<td>N.º</td>
+<td>No</td>
 </tr>
 <tr>
 <td></td>
@@ -341,7 +341,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
-<td>N.º</td>
+<td>No</td>
 </tr>
 <tr>
 <td></td>
@@ -349,7 +349,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
-<td>N.º</td>
+<td>No</td>
 </tr>
 <tr>
 <td>CFDI</td>
@@ -400,16 +400,16 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <tr>
 <td></td>
 <td>Soporte para el diseño 3.3 de CFDI en albaranes y pedidos de transferencias entre los sitios (TRASLADOS)</td>
-<td>N.º</td>
-<td>N.º</td>
+<td>No</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 </tr>
 <tr>
 <td></td>
 <td>Soporte para el diseño 3.3 de CFDI en facturas de cliente extranjero y el complemento extranjero 1.1</td>
-<td>N.º</td>
-<td>N.º</td>
+<td>No</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 </tr>
@@ -478,7 +478,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <tr>
 <td>DIOT</td>
 <td>Generación de la declaración DIOT como archivo de texto</td>
-<td>N.º</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
@@ -486,7 +486,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <tr>
 <td>Ajuste por inflación</td>
 <td>Generación y registro del proceso de ajuste de inflación</td>
-<td>N.º</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
@@ -494,7 +494,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <tr>
 <td>Declaración ISR</td>
 <td>Generación del informe de declaración de ISR</td>
-<td>N.º</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>
@@ -507,7 +507,7 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 <li>Compra</li>
 </ul>
 </td>
-<td>N.º</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 <td>Sí</td>

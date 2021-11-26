@@ -34,7 +34,7 @@ Esta enumeración proporciona un conjunto de opciones para propiedades sí/no qu
 | --- | --- | --- |
 | 200000000 | En blanco | No se ha seleccionado ningún valor. |
 | 200000001 | Sí | Sí. |
-| 200000002 | N.º | Nº |
+| 200000002 | No | No |
 
 ## <a name="see-also"></a>Consulte también
 

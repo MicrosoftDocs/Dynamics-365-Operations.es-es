@@ -89,16 +89,16 @@ El siguiente gráfico de comparación ayudará a diferenciar las dos opciones:
 
 | Característica                                                   | Financial Reporting                                               | Análisis financiero |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Editar informes predeterminados**                                 | Sí                                                               | N.º |
-| **Crear nuevos informes**                                   | Sí                                                               | N.º |
-| **Imprimir informes**                                        | Sí                                                               | N.º |
+| **Editar informes predeterminados**                                 | Sí                                                               | No |
+| **Crear nuevos informes**                                   | Sí                                                               | No |
+| **Imprimir informes**                                        | Sí                                                               | No |
 | **Exportar a Excel**                                      | Sí                                                               | Exportación limitada de datos sin procesar a Excel, no un informe formateado |
-| **Jerarquía de informes de soporte/jerarquía organizativa**   | Sí                                                               | N.º |
+| **Jerarquía de informes de soporte/jerarquía organizativa**   | Sí                                                               | No |
 | **Informe en datos de subcontabilidad**                             | Sí Limitado para un único proveedor, cliente                              | Sí Proveedor, cliente, grupos de proveedores o de clientes, direcciones de proveedores o de clientes, etc. |
 | **Divisa de notificación**                                   | Sí La divisa de contabilidad de y traduce a la divisa de notificación       | No Divisa de contabilidad solo |
 | **Seguridad**                                             | Sí, se adhiere a Finance y al informe de seguridad del árbol | Vista limitada de informes para todas las empresas (independientemente de la seguridad de Finance and Operations) o solo la empresa activa |
-| **Adnmite diferentes planes de cuentas y años fiscales** | Sí                                                               | N.º |
-| **Informe de datos externos**                              | N.º                                                                | N.º |
+| **Adnmite diferentes planes de cuentas y años fiscales** | Sí                                                               | No |
+| **Informe de datos externos**                              | No                                                                | No |
 | **Admite consolidaciones**                               | Sí                                                               | Limitado puede notificar en varias empresas pero solo usa divisa de contabilidad |
 
 Están disponibles los siguientes informes financieros:
@@ -189,7 +189,7 @@ Power BI también dispone de un botón que le permite ir al siguiente nivel de l
 
 ![Botón de retroceder del saldo de comprobación.](./media/trial-balance5.png)
 
-Para ver los detalles de transacción detrás de los saldos resumidos, puede seleccionar algunas importes para volver a explorar en Finance and Operations.
+Para ver los detalles de transacción detrás de los saldos resumidos, puede seleccionar algunas importes para volver a explorar en Financial and Operations.
 
 La exploración inversa desde los informes financieros le lleva al Explorador de origen de contabilidad (ASE), no a las transacciones de asiento. El ASE no muestra solo los asientos contables en la contabilidad general. En su lugar, se muestran los detalles de la transacción de subdiario contable. Por lo tanto, obtiene mucho más detalle acerca de la transacción de origen y puede utilizarla para el análisis. Por ejemplo, puede consultar quién era el proveedor o cliente, qué compró el cliente o que vendió el proveedor, e incluso qué proyecto figuraba en la transacción.
 

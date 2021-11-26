@@ -178,7 +178,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Los artefactos de metadatos asociados con Dynamics AX 2012 Enterprise Portal (EP) han quedado obsoletos, ya que EP nunca fue compatible con aplicaciones de Finance and Operations. |
-| **¿Reemplazado por otra característica?**   | N.º |
+| **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todos |
 | **Estado**                         | En desuso: todo el código EP está programado para ser eliminado en el lanzamiento de octubre de 2021. |
@@ -335,7 +335,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Las direcciones URL de navegación integradas en documentos generados por el servicio pueden contener datos empresariales confidenciales. Vamos a eliminar la compatibilidad con los vínculos de obtención de detalles integrados en los documentos como medida de seguridad para mejorar la protección de los datos del cliente. Los usuarios también se beneficiarán de un rendimiento mejorado al producir documentos de manera interactiva como consecuencia de este cambio.  |
-| **¿Reemplazado por otra característica?**   | Nº |
+| **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Notificación |
 | **Opción de implementación**              | Todos |
 | **Estado**                         | Esta característica se está quitando de manera activa del servicio.<br><br>El cliente moderno ofrece numerosas opciones para producir vistas que incluyen vínculos generados automáticamente para facilitar la navegación de la aplicación. Se recomienda usar los documentos paginados que genera el servicio para las comunicaciones externas que se envían por correo electrónico, se archivan y se imprimen para los destinatarios. Hemos mejorado la experiencia de vista previa de documentos directamente en el explorador, que ofrece acceso directo a impresoras locales. Para obtener más información, consulte [Mostrar vista previa de documentos PDF con un visor incrustado](../analytics/preview-pdf-documents.md). |

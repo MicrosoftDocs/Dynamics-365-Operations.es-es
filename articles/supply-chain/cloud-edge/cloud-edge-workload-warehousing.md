@@ -187,34 +187,34 @@ La siguiente tabla muestra qué funciones de salida son compatibles y dónde se 
 
 | Proceso                                                      | Concentrador | Carga de trabajo de ejecución de almacén en una unidad de escala |
 |--------------------------------------------------------------|-----|------------------------------|
-| Procesamiento de documentos de origen                                   | Sí | N.º |
-| Procesado de la administración del transporte y la carga                | Sí, pero solo los procesos de planificación de carga. El procesamiento de gestión de transporte no es compatible  | N.º |
-| Liberar al almacén                                         | Sí | N.º |
-| Tránsito directo planificado                                        | N.º  | N.º |
+| Procesamiento de documentos de origen                                   | Sí | No |
+| Procesado de la administración del transporte y la carga                | Sí, pero solo los procesos de planificación de carga. El procesamiento de gestión de transporte no es compatible  | No |
+| Liberar al almacén                                         | Sí | No |
+| Tránsito directo planificado                                        | No  | No |
 | Consolidación de envíos                                       | Sí, al utilizar la planificación de carga | Sí |
-| Procesamiento de ola de envíos                                     | N.º  |Si, excepto **Carga y clasificación** |
-| Mantener envíos por ola                                  | N.º  | Sí|
-| Procesamiento de trabajos de almacén (incluida la impresión de matrículas)        | N.º  | Sí, pero solo para las capacidades compatibles antes mencionadas |
-| Picking en clúster                                              | N.º  | Sí|
-| Procesamiento de embalaje manual, incluido el procesamiento de trabajo 'Selección de contenedor empaquetado' | N.º <P>Se puede realizar algún procesamiento después de un proceso de selección inicial gestionado por una unidad de escalada, pero no se recomienda debido a las siguientes operaciones bloqueadas.</p>  | N.º |
-| Quitar el contenedor del grupo                                  | N.º  | N.º |
-| Procesamiento de ordenación de salida                                  | N.º  | N.º |
+| Procesamiento de ola de envíos                                     | No  |Si, excepto **Carga y clasificación** |
+| Mantener envíos por ola                                  | No  | Sí|
+| Procesamiento de trabajos de almacén (incluida la impresión de matrículas)        | No  | Sí, pero solo para las capacidades compatibles antes mencionadas |
+| Picking en clúster                                              | No  | Sí|
+| Procesamiento de embalaje manual, incluido el procesamiento de trabajo 'Selección de contenedor empaquetado' | No <P>Se puede realizar algún procesamiento después de un proceso de selección inicial gestionado por una unidad de escalada, pero no se recomienda debido a las siguientes operaciones bloqueadas.</p>  | No |
+| Quitar el contenedor del grupo                                  | No  | No |
+| Procesamiento de ordenación de salida                                  | No  | No |
 | Impresión de documentos relacionados con la carga                           | Sí | Sí|
-| Conocimiento de embarque y generación de ASN                            | N.º  | Sí|
-| Confirmación de envío                                             | N.º  | Sí|
-| Confirmación de envío con "Confirmar y transferir"            | N.º  | N.º |
-| Procesamiento de albaranes y facturas                        | Sí | N.º |
-| Selección corta (pedidos de venta y transferencia)                    | N.º  | Sí, sin eliminar las reservas para los documentos originales|
-| Selección en exceso (pedidos de venta y transferencia)                     | N.º  | Sí|
-| Cambio de lugar de trabajo (pedidos de venta y transferencia)         | N.º  | Sí|
-| Trabajo completo (pedidos de venta y transferencia)                    | N.º  | Sí|
+| Conocimiento de embarque y generación de ASN                            | No  | Sí|
+| Confirmación de envío                                             | No  | Sí|
+| Confirmación de envío con "Confirmar y transferir"            | No  | No |
+| Procesamiento de albaranes y facturas                        | Sí | No |
+| Selección corta (pedidos de venta y transferencia)                    | No  | Sí, sin eliminar las reservas para los documentos originales|
+| Selección en exceso (pedidos de venta y transferencia)                     | No  | Sí|
+| Cambio de lugar de trabajo (pedidos de venta y transferencia)         | No  | Sí|
+| Trabajo completo (pedidos de venta y transferencia)                    | No  | Sí|
 | Imprimir informe de trabajo                                            | Sí | Sí|
-| Etiqueta de oleada                                                   | N.º  | Sí|
-| División del trabajo                                                   | N.º  | Sí|
-| Procesamiento de trabajo: dirigido por 'Carga de transporte'            | N.º  | N.º |
-| Reducir cantidad seleccionada                                       | N.º  | N.º |
-| Invertir el trabajo                                                 | N.º  | N.º |
-| Invertir confirmación de envíos                                | N.º  | Sí|
+| Etiqueta de oleada                                                   | No  | Sí|
+| División del trabajo                                                   | No  | Sí|
+| Procesamiento de trabajo: dirigido por 'Carga de transporte'            | No  | No |
+| Reducir cantidad seleccionada                                       | No  | No |
+| Invertir el trabajo                                                 | No  | No |
+| Invertir confirmación de envíos                                | No  | Sí|
 
 ### <a name="inbound"></a>Entrada
 
@@ -226,27 +226,27 @@ La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se
 | Procesado de la administración del transporte y la carga                    | Sí | No |
 | Coste de aterrizaje y recepción de mercancía en tránsito                       | Sí | No |
 | Confirmación de envío entrante                                    | Sí | No |
-| Envío de órdenes de compra al almacén (procesamiento de órdenes de almacén) | Sí | N.º |
-| Cancelación de líneas de pedido de almacén<p>Tenga en cuenta que esto solo se aplica cuando no se ha realizado ningún registro en la línea</p> | Sí | N.º |
+| Envío de órdenes de compra al almacén (procesamiento de órdenes de almacén) | Sí | No |
+| Cancelación de líneas de pedido de almacén<p>Tenga en cuenta que esto solo se aplica cuando no se ha realizado ningún registro en la línea</p> | Sí | No |
 | Recepción de artículo del pedido de compra y ubicación                       | <p>Si,&nbsp;cuando&nbsp;no hay&nbsp;una orden de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Sí, cuando un pedido de compra no forma parte de una <i>carga</i></p> |
 | Recepción de línea del pedido de compra y ubicación                       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Sí, cuando un pedido de compra no forma parte de una <i>carga</i></p></p> |
-| Recepción de pedido de devolución y ubicación                              | Sí | N.º |
+| Recepción de pedido de devolución y ubicación                              | Sí | No |
 | Recepción de matrícula de entidad de almacén mixta y ubicación                       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí |
-| Recepción de artículo de carga                                              | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | N.º |
-| Recepción de matrícula de entidad de almacén y ubicación                             | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | N.º |
-| Recepción de artículo del pedido de transferencia y ubicación                       | Sí | N.º |
-| Recepción de línea del pedido de transferencia y ubicación                       | Sí | N.º |
+| Recepción de artículo de carga                                              | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
+| Recepción de matrícula de entidad de almacén y ubicación                             | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
+| Recepción de artículo del pedido de transferencia y ubicación                       | Sí | No |
+| Recepción de línea del pedido de transferencia y ubicación                       | Sí | No |
 | Cancelar trabajo (entrante)                                            | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Si, pero solo cuando la opción <b>Dar de baja el recibo al cancelar el trabajo</b> (en la página <b>Parámetros de gestión de almacén</b>) se ha desactivado</p> |
-| Procesamiento de recepción de producto de pedido de compra                        | Sí | N.º |
+| Procesamiento de recepción de producto de pedido de compra                        | Sí | No |
 | Recepción de pedidos de compra con entrega incompleta                      | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí, pero solo haciendo una solicitud de cancelación desde el concentrador |
 | Recepción de pedidos de compra con entrega excesiva                       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí  |
-| Recepción con la creación del trabajo *Tránsito directo*                 | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | N.º |
-| Recepción con la creación del trabajo *Pedido de calidad*                  | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | N.º |
-| Recepción con la creación del trabajo *Muestreo de artículos de calidad*          | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | N.º |
-| Recepción con la creación del trabajo *Calidad en control de calidad*       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | N.º |
-| Recepción con la creación de pedido de calidad                            | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | N.º |
-| Procesamiento de trabajo: dirigido por *Ubicación de clúster*                 | Sí | N.º |
-| Procesamiento de trabajo con *Selección corta*                               | Sí | N.º |
+| Recepción con la creación del trabajo *Tránsito directo*                 | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
+| Recepción con la creación del trabajo *Pedido de calidad*                  | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
+| Recepción con la creación del trabajo *Muestreo de artículos de calidad*          | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
+| Recepción con la creación del trabajo *Calidad en control de calidad*       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
+| Recepción con la creación de pedido de calidad                            | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
+| Procesamiento de trabajo: dirigido por *Ubicación de clúster*                 | Sí | No |
+| Procesamiento de trabajo con *Selección corta*                               | Sí | No |
 | Carga de matrícula de entidad de almacén                                           | Sí | Sí |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Operaciones de almacén y manejo de excepciones
@@ -261,20 +261,20 @@ La siguiente tabla muestra qué funciones de control de excepciones y operacione
 | Cambiar almacén                                   | Sí | Sí                          |
 | Movimiento                                           | Sí | Sí                          |
 | Plantilla de movimiento por                               | Sí | Sí                          |
-| Transferencia de almacén                                 | Sí | N.º                           |
-| Crear pedidos de transferencia desde la aplicación de almacén           | Sí | N.º                           |
+| Transferencia de almacén                                 | Sí | No                           |
+| Crear pedidos de transferencia desde la aplicación de almacén           | Sí | No                           |
 | Ajuste (entrada/salida)                                | Sí | Sí, pero no para el escenario de ajuste en el que la reserva de inventario debe eliminarse mediante la opción **Eliminar reservas** en los tipos de ajuste de inventario</p>                           |
-| Cambio de estado de inventario                            | Sí | N.º                           |
+| Cambio de estado de inventario                            | Sí | No                           |
 | Ciclo de recuento y procesamiento de discrepancias de recuento | Sí | Sí                           |
 | Reimpresión de etiqueta (impresión de matrícula)             | Sí | Sí                          |
-| Creación de matrícula de entidad de almacén                                | Sí | N.º                           |
-| Interrupción de matrícula de entidad de almacén                                | Sí | N.º                           |
-| Empaquetar en matrículas de entidad de almacén anidadas                                | Sí | N.º                           |
-| Registro de entrada del conductor                                    | Sí | N.º                           |
-| Registro de salida del conductor                                   | Sí | N.º                           |
+| Creación de matrícula de entidad de almacén                                | Sí | No                           |
+| Interrupción de matrícula de entidad de almacén                                | Sí | No                           |
+| Empaquetar en matrículas de entidad de almacén anidadas                                | Sí | No                           |
+| Registro de entrada del conductor                                    | Sí | No                           |
+| Registro de salida del conductor                                   | Sí | No                           |
 | Cambiar código de disposición de lote                      | Sí | Sí                          |
 | Mostrar lista de trabajo abierta                             | Sí | Sí                          |
-| Consolidar matrículas de entidad de almacén                         | Sí | N.º                           |
+| Consolidar matrículas de entidad de almacén                         | Sí | No                           |
 | Procesamiento de reabastecimiento del umbral de zona y mínimo y máximo| Sí <p>La recomendación es no incluir las mismas ubicaciones como parte de las consultas</p>| Sí                          |
 | Procesamiento de reabastecimiento de slotting                  | Sí  | Sí<p>Tenga en cuenta que la configuración debe realizarse en la unidad de escalado</p>                           |
 | Bloquear y desbloquear trabajo                             | Sí | Sí                          |
@@ -290,8 +290,8 @@ La siguiente tabla resume qué escenarios de producción de gestión de almacene
 |---------|-----|------------------------------|
 | Ubicación de bienes terminados y notificados como terminados | Sí | Sí |
 | Ubicación de coproducto y producto derivado | Sí | Sí |
-| <p>Todos los demás procesos de gestión de almacenes están relacionados con la producción, incluyendo:</p><li>Liberar al almacén</li><li>Procesamiento de oleadas de producción</li><li>Picking de materia prima</li><li>Ubicación de kanban</li><li>Picking de kanban</li><li>Iniciar pedido de producción</li><li>Residuo de producción</li><li>Último pallet de producción</li><li>Registrar lista de selección</li><li>Vaciar kanban</li></ul> | Sí | N.º |
-| Reabastecimiento de materias primas | N.º | N.º |
+| <p>Todos los demás procesos de gestión de almacenes están relacionados con la producción, incluyendo:</p><li>Liberar al almacén</li><li>Procesamiento de oleadas de producción</li><li>Picking de materia prima</li><li>Ubicación de kanban</li><li>Picking de kanban</li><li>Iniciar pedido de producción</li><li>Residuo de producción</li><li>Último pallet de producción</li><li>Registrar lista de selección</li><li>Vaciar kanban</li></ul> | Sí | No |
+| Reabastecimiento de materias primas | No | No |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Mantener unidades de escalado para la ejecución de almacén
 

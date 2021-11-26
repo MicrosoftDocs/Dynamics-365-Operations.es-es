@@ -201,7 +201,7 @@ La configuración en esta sección se realiza por entidad jurídica. Debe config
 3. En la pestaña **Cálculo**, defina la regla de redondeo esperada para la entidad jurídica. Para obtener más información sobre la lógica de redondeo, consulte [Reglas de redondeo del cálculo de impuestos](https://go.microsoft.com/fwlink/?linkid=2166988).
 4. En la pestaña **Manejo de errores**, defina el método de manejo de errores esperado para la entidad jurídica. Hay tres opciones disponibles:
 
-    - N.º
+    - No
     - Advertencia
     - Error
 

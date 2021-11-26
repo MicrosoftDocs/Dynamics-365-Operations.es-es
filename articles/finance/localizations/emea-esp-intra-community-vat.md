@@ -68,11 +68,11 @@ En el siguiente ejemplo se muestra cómo puede configurar códigos de impuestos 
 
 | **Código de impuestos** | **IVA intracomunitario** |
 |--------------------|-------------------------|
-| EU21               | Nº                      |
+| EU21               | No                      |
 | EU-21              | Sí                     |
-| EU10               | Nº                      |
+| EU10               | No                      |
 | EU-10              | Sí                     |
-| EU4                | Nº                      |
+| EU4                | No                      |
 | EU-4               | Sí                     |
 
 6.  Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Grupos de impuestos de artículos** y cree los siguientes grupos de impuestos de artículos.

@@ -40,7 +40,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Excluido del procesamiento de mensajes electrónicos de interoperación con el sistema de facturación en línea de Hungría |
-| **¿Reemplazado por otra característica?**   | N.º |
+| **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Solicitud |
 | **Opción de implementación**              | Todos |
 | **Estado**                         | En desuso: para el 15 de abril de 2022, planeamos dejar de admitir la configuración del formato "Solicitud de datos de facturas (HU) de consulta RTIR". |

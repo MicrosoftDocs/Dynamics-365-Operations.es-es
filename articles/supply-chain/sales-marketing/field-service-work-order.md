@@ -88,21 +88,21 @@ La tabla siguiente proporciona una visión general de las distintas combinacione
 | Estado del sistema <br>(Field Service) | Línea de estado <br>(Field Service) | Asignado <br>(Field Service) |Valor sincronizado <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
 | Abrir: programado   | Estimada   | Sí       | Estimada                       |
-| Abrir: programado   | Estimada   | N.º        | Utilizado                            |
+| Abrir: programado   | Estimada   | No        | Utilizado                            |
 | Abrir: programado   | Utilizado        | Sí       | Utilizado                            |
-| Abrir: programado   | Utilizado        | N.º        | Utilizado                            |
+| Abrir: programado   | Utilizado        | No        | Utilizado                            |
 | Abrir: en proceso | Estimada   | Sí       | Estimada                       |
-| Abrir: en proceso | Estimada   | N.º        | Utilizado                            |
+| Abrir: en proceso | Estimada   | No        | Utilizado                            |
 | Abrir: en proceso | Utilizado        | Sí       | Utilizado                            |
-| Abrir: en proceso | Utilizado        | N.º        | Utilizado                            |
+| Abrir: en proceso | Utilizado        | No        | Utilizado                            |
 | Abrir: completado   | Estimada   | Sí       | Estimada                       |
-| Abrir: completado   | Estimada   | N.º        | Utilizado                            |
+| Abrir: completado   | Estimada   | No        | Utilizado                            |
 | Abrir: completado   | Utilizado        | Sí       | Utilizado                            |
-| Abrir: completado   | Utilizado        | N.º        | Utilizado                            |
+| Abrir: completado   | Utilizado        | No        | Utilizado                            |
 | Cerrado: registrado    | Estimada   | Sí       | Utilizado                            |
-| Cerrado: registrado    | Estimada   | N.º        | Utilizado                            |
+| Cerrado: registrado    | Estimada   | No        | Utilizado                            |
 | Cerrado: registrado    | Utilizado        | Sí       | Utilizado                            |
-| Cerrado: registrado    | Utilizado        | N.º        | Utilizado                            |
+| Cerrado: registrado    | Utilizado        | No        | Utilizado                            |
 
 La tabla siguiente proporciona una visión general de las distintas combinaciones para las líneas de servicios.
 

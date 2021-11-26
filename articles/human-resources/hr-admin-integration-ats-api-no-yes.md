@@ -34,7 +34,7 @@ Esta enumeración proporciona un conjunto de opciones para propiedades booleanas
 
 | Valor | Etiqueta | Descripción |
 | --- | --- | --- |
-| 200000000 | N.º | Nº |
+| 200000000 | No | No |
 | 200000001 | Sí | Sí. |
 
 ## <a name="see-also"></a>Consulte también

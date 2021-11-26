@@ -47,7 +47,7 @@ El libro IFRS 16 está configurado de manera que cumpla con el estándar contabl
 | Configuración del valor actual/valor razonable del activo | 0,00           |
 | Umbral a corto plazo                    | 12             |
 | Umbral de valor bajo                     | 5,000.00       |
-| Pagar a proveedor                           | N.º             |
+| Pagar a proveedor                           | No             |
 
 **Libro legal**
 
@@ -64,7 +64,7 @@ El libro legal es un libro de efectivo en el que la empresa contabilizará los g
 | Configuración del valor actual/valor razonable del activo | 0,00        |
 | Umbral a corto plazo                    | 0           |
 | Umbral de valor bajo                     | 0           |
-| Pagar a proveedor                           | N.º          |
+| Pagar a proveedor                           | No          |
 
 **Libro de revocación legal**
 
@@ -81,7 +81,7 @@ El libro de revocación legal se configura de la misma manera que el libro legal
 | Configuración del valor actual/valor razonable del activo | 0,00                           |
 | Umbral a corto plazo                    | 0                              |
 | Umbral de valor bajo                     | 0                              |
-| Pagar a proveedor                           | N.º                             |
+| Pagar a proveedor                           | No                             |
 
 Para este ejemplo, se ha creado un arrendamiento con la siguiente configuración en las pestañas **General** y **Líneas de programación de pagos**.
 

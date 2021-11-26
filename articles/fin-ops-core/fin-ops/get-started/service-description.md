@@ -333,9 +333,9 @@ Microsoft ofrece a los clientes de Finance and Operations tres planes de soporte
 | Envío ilimitado de incidentes de rotura/reparación | Sí | Sí | Sí |
 | Acceso 24/7 a través de LCS | Sí | Sí | Sí |
 | Tiempo de respuesta ante incidentes | Menos de una hora | Menos de una hora | Siguiente día de negocios |
-| Horas de asesoramiento | Las piscinas se adquieren por contrato. | N.º | N.º |
-| Gerente de cuenta de soporte dedicado | Sí | N.º | N.º |
-| Ingeniero de soporte dedicado | Comprometido bajo un acuerdo separado | N.º | N.º |
+| Horas de asesoramiento | Las piscinas se adquieren por contrato. | No | No |
+| Gerente de cuenta de soporte dedicado | Sí | No | No |
+| Ingeniero de soporte dedicado | Comprometido bajo un acuerdo separado | No | No |
 
 Para obtener más información, consulte [Resumen de soporte](/power-platform/admin/support-overview).
 

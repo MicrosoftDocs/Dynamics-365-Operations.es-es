@@ -92,8 +92,8 @@ Las siguientes tablas muestran los valores que se establecen en las pestañas **
     | Fecha movimiento       | 1/1/2022 |
     | Períodos restantes      | 84       |
     | Registrar                   | Sí      |
-    | Vista previa antes del registro | N.º       |
-    | Cerrar libro             | N.º       |
+    | Vista previa antes del registro | No       |
+    | Cerrar libro             | No       |
 
 6. Se ha creado y registrado un asiento de diario de gastos por deterioro. Para verlo, vaya al diario de arrendamiento del activo en el libro de arrendamiento. Observe que el importe del deterioro se adeudó en la cuenta de registro de gastos por deterioro y se abonó en la cuenta de registro de activo por derecho de uso.
 7. Para ver el efecto neto del deterioro, vaya a las tablas de transacciones de activos y pasivos. Observe que el gasto por deterioro ha disminuido el activo por derecho de uso, pero el valor en libros del pasivo por arrendamiento no ha cambiado.

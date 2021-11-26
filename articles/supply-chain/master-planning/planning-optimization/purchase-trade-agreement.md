@@ -75,14 +75,14 @@ La siguiente tabla proporciona ejemplos que muestran cómo varias configuracione
 
 | Producto despachado: Proveedor | Configuración de pedido predeterminada: tiempo de entrega | Cobertura del artículo: anulación de proveeedor | Cobertura del artículo: anulación de tiempo de entrega | Acuerdo comercial: proveedor | Acuerdo comercial: plazo de entrega | Acuerdo comercial: pasar por alto plazo de entrega | Proveedor resultante | Plazo de entrega resultante |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | N.º | N.º | US003 | 3 | N.º | _ *US001** | **1** |
-| US001 | 1 | ***Sí: US002** _ | _*_Sí: 2_*_ | US003 | 3 | N.º | _ *US002** | **2** |
-| *(En blanco)* | 1 | N.º | N.º | ***US003** _ | _*_3_*_ | N.º | _ *US003** | **3** |
-| *(En blanco)* | ***1** _ | N.º | N.º | _*_US003_*_ | 3 | Sí | _ *US003** | **1** |
-| *(En blanco)* | ***1** _ | _*_Sí: US002_*_ | N.º | US003 | 3 | N.º | _ *US002** | **1** |
-| *(En blanco)* | ***1** _ | _*_Sí: US002_*_ | N.º | US003 | 3 | N.º | _ *US002** | **1** |
-| *(En blanco)* | 1 | N.º | Sí: 2 | ***US003** _ | _*_3_*_ | N.º | _ *US003** | **3** |
-| *(En blanco)* | 1 | N.º | ***Sí: 2** _ | _*_US003_*_ | 3 | Sí | _ *US003** | **2** |
+| ***US001** _ | _*_1_*_ | No | No | US003 | 3 | No | _ *US001** | **1** |
+| US001 | 1 | ***Sí: US002** _ | _*_Sí: 2_*_ | US003 | 3 | No | _ *US002** | **2** |
+| *(En blanco)* | 1 | No | No | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
+| *(En blanco)* | ***1** _ | No | No | _*_US003_*_ | 3 | Sí | _ *US003** | **1** |
+| *(En blanco)* | ***1** _ | _*_Sí: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
+| *(En blanco)* | ***1** _ | _*_Sí: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
+| *(En blanco)* | 1 | No | Sí: 2 | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
+| *(En blanco)* | 1 | No | ***Sí: 2** _ | _*_US003_*_ | 3 | Sí | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

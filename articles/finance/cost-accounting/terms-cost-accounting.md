@@ -128,7 +128,7 @@ La mayoría de los sistemas de origen pueden proporcionar datos que coincidan co
 |---|---|---|---|
 | Miembros de dimensión de elemento de coste  |  Sí | Sí  | Sí  |
 |  Miembros de dimensión de objeto de coste |  Sí | Sí  | Sí  |
-|  Miembros de dimensión estadística | Sí  | N.º  | N.º  |
+|  Miembros de dimensión estadística | Sí  | No  | No  |
 |  Contabilidad general | Sí  | Sí  | Sí  |
 |  Entradas de presupuesto  | Sí  | Sí  | Sí  |
 |  Medidas estadísticas | Sí  | Sí  | Sí  |

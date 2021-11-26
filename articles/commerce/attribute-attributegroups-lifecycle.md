@@ -43,7 +43,7 @@ Por ejemplo, un producto de televisión típico puede tener los siguientes atrib
 |            | Entradas compuestas         | 0 – 10                        | 2             |
 |            | Entradas del componente         | 0 – 10                        | 1             |
 | LCD        | Preparada para 3D                 | Sí o No                   | Sí           |
-|            | Habilitada para 3D               | Sí o No                   | N.º            |
+|            | Habilitada para 3D               | Sí o No                   | No            |
 | Plasma     | Temporalidad de operación desde      | 32–110 grados              | 32            |
 |            | Temporalidad de operación hasta        | 32–110 grados              | 100           |
 | Proyección | Garantía de tubo de proyección | 612 o 18 meses         | 12            |

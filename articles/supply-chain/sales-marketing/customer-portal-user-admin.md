@@ -88,9 +88,9 @@ La siguiente tabla muestra qué pedidos de ventas pueden ver los usuarios en cad
 
 | Pedido de ventas | Administrador | Representante del cliente para el cliente&nbsp;X | Usuario autorizado: Jane | Usuario autorizado: Sam | Usuario no autorizado: May |
 |---|---|---|---|---|---|
-| Solicitante del cliente&nbsp;X:&nbsp;Jane | Sí | Sí | Sí | Nº | Nº |
-| Solicitante del cliente&nbsp;X:&nbsp;Sam | Sí | Sí | Nº | Sí | Nº |
-| Solicitante del cliente&nbsp;Y:&nbsp;May | Sí | Nº | Nº | Nº | Nº |
+| Solicitante del cliente&nbsp;X:&nbsp;Jane | Sí | Sí | Sí | No | No |
+| Solicitante del cliente&nbsp;X:&nbsp;Sam | Sí | Sí | No | Sí | No |
+| Solicitante del cliente&nbsp;Y:&nbsp;May | Sí | No | No | No | No |
 
 > [!NOTE]
 > Aunque tanto Sam como Jane son contactos que trabajan para el cliente X, solo pueden ver los pedidos que ellos mismos han realizado y nada más. Aunque May tiene un pedido en el sistema, no puede ver ese pedido en el portal del Cliente, porque es un usuario no autorizado. (Además, debería haber realizado el pedido a través de algún canal que no sea el portal del Cliente).

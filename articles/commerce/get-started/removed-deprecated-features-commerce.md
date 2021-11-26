@@ -101,7 +101,7 @@ El desarrollo de extensiones de PDV mediante ModernPos.sln, CloudPOs.sln, POS.Ex
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | A partir de esta versión, en el formulario **Parámetros del programador de comercio** de la sede central de Dynamics 365, el campo **Intervalo completo de generación de conjunto de datos en días** quedará en desuso. Además, el campo se eliminará visualmente para que su valor no se pueda editar. Su valor será **0**. |
-| **¿Reemplazado por otra característica?**   | N.º |
+| **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Dynamics 365 Commerce |
 | **Opción de implementación**              | Todos|
 | **Estado**                         | En desuso. No utilice este campo ni cambie su valor.|

@@ -170,7 +170,7 @@ En la página **Parámetros de cálculo**, seleccione **Horas extra** como el ti
 
 | Especificación del registro | Tipo de especificación de perfil | Cálculo   | Configuración | Pagado         | Configuración |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Horario de trabajo       | Horas extra                   | Hora estándar | Sí | Tiempo salarial     | N.º  |
+| Horario de trabajo       | Horas extra                   | Hora estándar | Sí | Tiempo salarial     | No  |
 |                    |                            | Tiempo salarial      | Sí | Horas extra de sueldo | Sí |
 
 Después de ajustar los parámetros de cálculo, se generan los siguientes elementos de sueldo.

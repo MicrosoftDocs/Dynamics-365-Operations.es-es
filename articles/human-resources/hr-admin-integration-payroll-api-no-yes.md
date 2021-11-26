@@ -34,7 +34,7 @@ Esta enumeración proporciona el conjunto de opciones para las propiedades boole
 
 | Valor | Etiqueta | Descripción |
 | --- | --- | --- |
-| 200000000 | N.º | No. |
+| 200000000 | No | No. |
 | 200000001 | Sí | Sí. |
 
 ## <a name="see-also"></a>Consulte también
