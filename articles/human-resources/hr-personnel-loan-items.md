@@ -1,8 +1,8 @@
 ---
 title: Administración de artículos que se prestan a trabajadores
 description: Los artículos de préstamo son registros que ayudan a los gerentes a realizar un seguimiento de los artículos físicos que su empresa presta a los trabajadores.
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760595"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728768"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Administración de artículos que se prestan a trabajadores
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760595"
 
 Los artículos de préstamo son registros que ayudan a los gerentes a realizar un seguimiento de los artículos físicos que su empresa presta a los trabajadores. 
 
-Los siguientes son ejemplos de artículos que las compañías pueden prestar a los trabajadores:
+Estos son algunos ejemplos de artículos que las compañías pueden prestar a los trabajadores:
+
 -   Teléfonos móviles
 -   Automóviles
 -   Equipo informático
@@ -37,7 +38,7 @@ Cada artículo físico debe tener un artículo correspondiente de préstamo. Cad
 
 Al prestar un artículo, introduzca la fecha del préstamo y la fecha de devolución planificada. Una vez devuelto el artículo, introduzca la fecha de devolución real.
 
-Los empleados pueden ver los registros de los artículos que se han prestado mediante el espacio de trabajo Autoservicio para empleados. También pueden corregir los registros existentes o especificar nuevos artículos de préstamo si se han recibido artículos físicos adicionales.  El flujo de trabajo se puede configurar para dirigir cambios hacia artículos de préstamo nuevos o existentes por medio de un proceso de aprobación. 
+Los empleados pueden usar el área de trabajo **Autoservicio para empleados** para ver los registros de los artículos que les han prestado. También pueden corregir los registros existentes o especificar nuevos artículos de préstamo si se han recibido artículos físicos adicionales. Se puede configurar un flujo de trabajo para dirigir cambios hacia artículos de préstamo nuevos o existentes por medio de un proceso de aprobación. 
 
 Los gerentes pueden ver los artículos prestados para sus informes directos. También pueden disponer de permiso para agregar nuevos artículos de préstamo en nombre de sus empleados.
 

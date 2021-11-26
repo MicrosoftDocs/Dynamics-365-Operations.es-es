@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647198"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777970"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -39,7 +39,7 @@ La interfaz de ejecución de la planta de producción en sí, más varias de las
 
 ### <a name="the-production-floor-execution-interface"></a>La interfaz de ejecución de la planta de producción
 
-Esta es la característica principal descrita en este tema. Agrega la interfaz de ejecución de la planta de producción a su sistema. Para habilitarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Esta es la característica principal descrita en este tema. A partir de la versión 10.0.21 de Supply Chain Management, está activada de forma predeterminada. Agrega la interfaz de ejecución de la planta de producción a su sistema. Para habilitarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Ejecución del piso de producción
 
@@ -47,19 +47,19 @@ Esta es la característica principal descrita en este tema. Agrega la interfaz d
 
 Estas características hacen que la funcionalidad de la placa de matrícula esté disponible para la interfaz de ejecución de la planta de producción. Si desea usarlas, active las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden):
 
-1. Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo
+1. Matrícula de entidad de almacén para informes de terminado agregada al dispositivo de tarjeta de trabajo (a partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de manera predeterminada).
 1. Habilitar la generación automática de matrícula de entidad de almacén al informar como terminado en el dispositivo de tarjetas de trabajo
 
 ### <a name="print-labels"></a>Imprimir etiquetas
 
 Estas características hacen que la funcionalidad de impresión de etiquetas esté disponible para la interfaz de ejecución de la planta de producción. Si desea usarlas, active las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden):
 
-1. Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo
+1. Matrícula de entidad de almacén para informes de terminado agregada al dispositivo de tarjeta de trabajo (a partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de manera predeterminada).
 1. Imprimir etiqueta desde dispositivo de tarjeta de trabajo
 
 ### <a name="allow-locking-the-touch-screen"></a>Permitir el bloqueo de la pantalla táctil
 
-Esta función agrega un botón a la interfaz de ejecución de la planta de producción que permite a los trabajadores desinfectar la pantalla táctil. Si desea usarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Agrega un botón a la interfaz de ejecución de la planta de producción que permite a los trabajadores desinfectar la pantalla táctil. Si desea usarla, asegúrese de que la siguiente función está activada en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Función para bloquear un dispositivo de tarjeta de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar
 

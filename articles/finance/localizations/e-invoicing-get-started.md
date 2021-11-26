@@ -2,7 +2,7 @@
 title: Comenzar con la facturación electrónica
 description: Este tema proporciona información que le ayudará a comenzar con la facturación electrónica en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700388"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779703"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Comenzar con la facturación electrónica
 
@@ -57,7 +57,12 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 
 Según el país o la región, la característica de facturación electrónica puede requerir una configuración específica. 
 
-Para conocer los pasos específicos, consulte la documentación "Comenzar" que está disponible para su país o región.
+> [!NOTE]
+> Cuando habilita la función de facturación electrónica para Finlandia, los parámetros específicos de la aplicación en las búsquedas no son compatibles. Para solucionar este problema, en el módulo **Informes electrónicos**, revise las configuraciones de los formatos de factura de venta y de factura de proyecto. Configure manualmente el campo calculado para asignación **$PaymentMethodSubstitution** y luego vincule ese campo al campo **EpiPaymentMeansCode** desde los formatos de factura de venta y factura de proyecto.
+>
+> Cuando habilita la función de facturación electrónica para Italia, los parámetros específicos de la aplicación en las búsquedas no son compatibles. Para solucionar este problema, en el módulo **Informes electrónicos**, configure manualmente el campo calculado para asignación **$NaturaReverseCharge**.
+>
+> Para conocer los pasos específicos relativos a otras ubicaciones, consulte la documentación "Comenzar" que está disponible para su país o región.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Importar las configuraciones de asignación de modelo desde informes electrónicos
 
@@ -241,6 +246,14 @@ Para conocer los pasos específicos, consulte la documentación "Comenzar" que e
 
 3. Seleccione una factura en la cuadrícula y luego seleccione **Consultar** \> **Detalles de envío**.
 
+## <a name="download-an-electronic-document-file"></a>Descargar un archivo de documento electrónico
+
+1. Vaya a **Administración de la organización** \> **Periódico** \> **Documentos electrónicos** \> **Registro de envío de documentos electrónicos**.
+2. En el campo **Tipo de Documento**, seleccione la tabla que contiene las facturas.
+3. Seleccione un documento en la cuadrícula y luego seleccione **Documento electronico** \> **Descargar archivo**. Se sugerirá un archivo que contenga el archivo del documento electrónico para su descarga.
+
+> [!NOTE]
+> Antes de que pueda descargar archivos, la opción **Exportar resultado** debe estar activada para la acción relacionada en la configuración de la función de facturación electrónica en RCS.
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -1,27 +1,27 @@
 ---
 title: Espacio de trabajo de administración de personal
 description: Este tema describe los elementos conceptuales del espacio de trabajo de Gestión de personal.
-author: andreabichsel
-ms.date: 07/01/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.author: anbichse
-ms.reviewer: anbichse
+ms.author: twheeloc
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 923d4a980c3f8f9b3bf5be1f77d8910081123fa08b068f1fd8fa935312d3a101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754832"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771347"
 ---
 # <a name="personnel-management-workspace"></a>Espacio de trabajo de administración de personal
 
@@ -33,11 +33,11 @@ El espacio de trabajo **Gestión de personal** incluye una gran cantidad de cont
 
 La pestaña **Actividad** contiene secciones que agrupan a los trabajadores según su etapa en el proceso de empleo:
 
-- Candidatos pendientes de contratación
-- Comienza pronto
-- Contrataciones recientes
-- Fin del empleo
-- Desvinculados
+- **Candidatos pendientes de contratación**
+- **Comienza pronto**
+- **Contrataciones recientes**
+- **Fin del empleo**
+- **Desvinculados**
 
 Cuando un trabajador se encuentra en una de estas etapas, las acciones específicas están disponibles como un botón en la tarjeta o en el menú que aparece al seleccionar los puntos suspensivos (**...**) en la esquina superior derecha. Las siguientes subsecciones describen las secciones de la pestaña **Actividad** y enumeran las acciones que están disponibles.
 
@@ -51,9 +51,9 @@ La sección **Candidatos a contratar** del espacio de trabajo se completa a part
 
 Cuando los candidatos aparecen en la sección **Candidatos a contratar**, puede realizar las siguientes acciones seleccionando los puntos suspensivos en la tarjeta de candidato:
 
-- Descartar candidato
-- No contratar
-- Contratación
+- **Descartar candidato**
+- **No contratar**
+- **Contratación**
 
 > [!NOTE]
 > Si la lista de candidatos se completa desde Microsoft Dataverse, se mostrarán los mismos candidatos en todas las entidades jurídicas porque no se ha asociado ninguna entidad jurídica al candidato.
@@ -65,7 +65,7 @@ La sección **Comenzando pronto** enumera los trabajadores que tienen una fecha 
 Si el gerente no aparece en la tarjeta, no se ha asignado un puesto para el trabajador.
 
 > [!NOTE] 
-> Recomendamos que asigne un puesto a un trabajador antes de aplicar una lista de verificación, porque las tareas de incorporación a veces se asignan al gerente de un empleado recién contratado. Sin embargo, si no se asigna ningún puesto, no se puede determinar el gerente del nuevo empleado. En ese caso, las tareas de incorporación que están destinadas al gerente se asignarán al propietario de la lista de verificación.
+> Le recomendamos que asigne un puesto a un trabajador antes de aplicar una lista de verificación. A veces, las tareas de incorporación se asignan al gerente de un empleado recién contratado. Sin embargo, si no se asigna ningún puesto, no se puede determinar el gerente del nuevo empleado. En ese caso, las tareas de incorporación que están destinadas al gerente se asignarán al propietario de la lista de verificación.
 
 Cuando los trabajadores aparecen en la sección **Comenzando pronto**, las siguientes acciones están disponibles para ellos:
 
@@ -85,7 +85,7 @@ La sección **Contrataciones recientes** enumera los trabajadores que tienen una
 De forma predeterminada, la lista muestra a los trabajadores que fueron contratados en los últimos siete días. Para cambiar esta configuración, en la página **Parámetros de recursos humanos**, en la pestaña **General**, defina un marco de tiempo para **Contrataciones recientes**. Los datos en la sección **Contrataciones recientes** se pueden mostrar para un número específico de días, meses o años. Por ejemplo, para ver la lista de trabajadores que fueron contratados en los últimos 14 días, configure el campo **Período** como **14** y el campo **Unidad** como **Días**.
 
 > [!NOTE]
-> La configuración de la página **Parámetros de recursos humanos** es específica de la empresa. Por lo tanto, el período de tiempo para el que ve las contrataciones recientes puede variar según la empresa. Por ejemplo, en la empresa USMF, es posible que desee ver todas las nuevas contrataciones de los últimos siete días. Sin embargo, en la empresa USSI, es posible que desee ver todas las nuevas contrataciones de los últimos 14 días. En este caso, debe abrir la página **Parámetros de recursos humanos** en cada empresa y configure los parámetros según sea necesario.
+> La configuración de la página **Parámetros de recursos humanos** es específica de la empresa. Por lo tanto, el período de tiempo para el que ve las contrataciones recientes puede variar según la empresa. Por ejemplo, en la empresa USMF, es posible que desee ver todas las nuevas contrataciones de los últimos siete días. Sin embargo, en la empresa USSI, es posible que desee ver todas las nuevas contrataciones de los últimos 14 días. En este caso, abra la página **Parámetros de recursos humanos** en cada empresa y configure los parámetros según sea necesario.
 
 Si el gerente no aparece en la tarjeta, no se ha asignado un puesto para el trabajador.
 
@@ -132,13 +132,9 @@ Cuando un trabajador aparece en la sección **Con salida**, las siguientes accio
 
 La pestaña **Cambios de empleados** proporciona una lista de todas las acciones del personal de los trabajadores. Esta lista no está disponible de forma predeterminada. Para habilitar la funcionalidad, en la página **Parámetros compartidos de recursos humanos**, en la pestaña **Acciones de personal**, establezca la opción **Habilitar acciones de los trabajadores** como **Sí**.
 
-Para obtener más información sobre las acciones del personal, consulte (Enlace a la página Acciones del personal).
-
 ## <a name="position-changes-tab"></a>Pestaña de cambios de posición
 
 La pestaña **Cambios de puesto** proporciona una lista de todas las acciones del personal de los puestos. Esta lista no está disponible de forma predeterminada. Para habilitar la funcionalidad, en la página **Parámetros compartidos de recursos humanos**, en la pestaña **Acciones de personal**, establezca la opción **Habilitar acciones de puestos** como **Sí**.
-
-Para obtener más información sobre las acciones del personal, consulte (Enlace a la página Acciones del personal).
 
 ## <a name="open-positions-tab"></a>Pestaña Vacantes
 
@@ -151,11 +147,11 @@ La pestaña **Puestos abiertos** enumera todas las posiciones abiertas. Para apa
 
 La pestaña **Registros que caducan** enumera todos los elementos que han caducado o caducarán para los trabajadores de la empresa en la que el usuario inició sesión. Las siguientes elementos aparecen en la lista:
 
-- Certificados
-- Identificación
-- Períodos de prueba
-- Filtrados
-- Pruebas
+- **Certificados**
+- **Identificación**
+- **Períodos de prueba**
+- **Filtrados**
+- **Pruebas**
 
 Para especificar si la lista muestra registros vencidos o registros vencidos, en la página **Parámetros de recursos humanos**, en la pestaña **General**, defina un marco de tiempo para **Expedientes que caducan** o **Registros caducados**. Los datos en la pestaña **Expedientes que caducan** se pueden mostrar durante un número específico de días. Por ejemplo, para ver la lista de registros que vencerán en los próximos 14 días, configure el campo **Número de días** como **14**.
 

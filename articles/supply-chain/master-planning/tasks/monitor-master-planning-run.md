@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd1906200038c27e63f9434bba27e7146f4c80c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575617"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778140"
 ---
 # <a name="monitor-a-master-planning-run"></a>Supervisar una ejecución de planificación maestra
 
@@ -33,7 +33,7 @@ En la página **Ver el progreso de la planificación maestra**, puede ver los de
 Para usar esta funcionalidad, siga estos pasos.
 
 1. En el espacio de trabajo **Administración de características**, en la pestaña **Nuevo**, seleccione **Visualización del progreso de la planificación maestra** en la lista. Si la característica no aparece en la pestaña **Nuevo**, mire en las pestañas **No habilitado** y **Todo**.
-1. Seleccione **Habilitar ahora**. Como alternativa, seleccione **Programación** y el tiempo en que desea que la función esté activada.
+1. Seleccione **Habilitar ahora**. Como alternativa, seleccione **Programación** y el tiempo en que desea que la función esté activada. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 La página **Ver el progreso de la planificación maestra** puede mostrar trabajos históricos de planificación y trabajos activos de planificación. 
 

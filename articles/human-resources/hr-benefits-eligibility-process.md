@@ -1,8 +1,8 @@
 ---
 title: Proceso de idoneidad para prestación
 description: Este procedimiento muestra cómo funciona el proceso de idoneidad de la prestación.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: e93c5d57f5bc36e633a5f2147fe5d2f754a5e1cc30a3b8b64582f7229314a338
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db8dd3e9c3401129ea5474d47f5401c552cab72b
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757000"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771391"
 ---
 # <a name="benefit-eligibility-process"></a>Proceso de idoneidad para prestación
 
@@ -26,33 +26,31 @@ ms.locfileid: "6757000"
 
 Este procedimiento muestra cómo funciona el proceso de idoneidad de la prestación. Cuando se complete el proceso, podrá ver los resultados. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
-1. Vaya a Recursos humanos > Prestaciones > Prestaciones.
+1. Vaya a **Recursos humanos \> Prestaciones \> Prestaciones**.
 2. En la lista, busque y seleccione el registro deseado.
-3. En la lista, haga clic en el vínculo de la fila seleccionada.
-4. Haga clic en Editar.
-5. En el campo Idoneidad, seleccione "Basada en reglas".
-6. En el campo Tipo de regla, seleccione la regla de directiva de prestación que desea aplicar a la prestación.
-7. En el panel de acciones, haga clic en Prestación.
-8. Haga clic en Crear evento de idoneidad para abrir el cuadro de diálogo desplegable.
-9. En el campo Evento, escriba un valor.
-10. En el campo Descripción, escriba un valor.
-11. Seleccione "Abrir inscripción" en el campo Tipo de evento.
-12. En el campo Fecha de inicio de la cobertura, especifique una fecha y una hora.
-13. En el campo Fecha de inicio del período de inscripción, especifique una fecha y una hora.
-14. En el campo Días para inscribirse, especifique un número.
-15. Haga clic en Crear evento.
-16. Haga clic en Agregar en la ficha desplegable Trabajadores.
-17. En el campo Mostrar por tipo, seleccione "Empleados".
-18. En el campo Mostrar por entidad jurídica, seleccione "Entidad jurídica actual".
+3. En la lista, seleccione el vínculo de la fila seleccionada.
+4. Seleccione **Editar**.
+5. En el campo **Idoneidad**, seleccione **Basada en reglas**.
+6. En el campo **Tipo de regla**, seleccione la regla de directiva de prestación para aplicar a la prestación.
+7. En el panel de acciones, seleccione **Prestación**.
+8. Seleccione **Crear evento de idoneidad**.
+9. En el cuadro de diálogo desplegable, en el campo **Evento**, introduzca un valor.
+10. En el campo **Descripción**, especifique un valor.
+11. Seleccione **Abrir inscripción** en el campo **Tipo de evento**.
+12. En el campo **Fecha de inicio de la cobertura**, especifique una fecha y una hora.
+13. En el campo **Fecha de inicio del período de inscripción**, especifique una fecha y una hora.
+14. En el campo **Días para inscribirse**, especifique un número.
+15. Seleccione **Crear evento**.
+16. En la ficha desplegable **Trabajadores**, seleccione **Agregar**.
+17. En el campo **Mostrar por tipo**, seleccione **Empleados**.
+18. En el campo **Mostrar por entidad jurídica**, seleccione **Entidad jurídica actual**.
 19. En la lista, active o desactive todas las filas.
-20. Haga clic en Aceptar
-21. Haga clic Procesar.
-22. Haga clic en Aceptar
+20. Seleccione **Aceptar**.
+21. Seleccione **Procesar**.
+22. Seleccione **Aceptar**.
 23. Actualice la página.
-24. Haga clic en Mostrar resultados.
-25. Abrir filtro de columna Estado.
-26. Ordenar de A a Z
-
-
+24. Seleccione **Mostrar resultados**.
+25. Abra el filtro de columna **Estado**.
+26. Ordene la columna de la A a la Z.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

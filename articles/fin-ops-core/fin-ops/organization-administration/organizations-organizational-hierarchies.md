@@ -2,7 +2,7 @@
 title: Información general de las organizaciones y las jerarquías organizativas
 description: Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio.
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715998"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798355"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Visión general de las organizaciones y las jerarquías organizativas
 
@@ -64,9 +64,19 @@ Un equipo es una organización cuyos miembros comparten una responsabilidad, un 
 
 Configure jerarquías organizativas para ver e informar sobre su negocio desde diferentes perspectivas. Por ejemplo, puede configurar una jerarquía de entidades jurídicas para informes estatutarios, legales o de impuestos. Configure una jerarquía basada en unidades operativas para elaborar información financiera que no sea legalmente necesaria pero que se use para control interno. Por ejemplo, puede crear una jerarquía de compras para controlar directivas de compras, reglas y procesos empresariales.
 
+> [!NOTE]
+> Una vez que se ha agregado una unidad de operación a una jerarquía, la unidad operativa no se puede borrar. 
+
 A cada jerarquía se le asigna un propósito. El propósito de una jerarquía determina los tipos de organizaciones que se pueden incluir en la jerarquía. El propósito también determina en qué escenarios de aplicación se puede usar una jerarquía.
 
 Las organizaciones de una jerarquía pueden compartir parámetros, directivas y transacciones. Una organización puede heredar o reemplazar los parámetros de su organización principal. Sin embargo, los datos maestros compartidos, como los productos y las libretas de direcciones, se aplican a toda la organización y no pueden reemplazarse para organizaciones individuales. La creación de organizaciones y jerarquías requiere una planificación cuidadosa. Para obtener más información, consulte [Planificación de la jerarquía organizativa](plan-organizational-hierarchy.md).
+
+## <a name="additional-resources"></a>Recursos adicionales
+- [Planificación de su jerarquía organizativa](plan-organizational-hierarchy.md)
+- [Crear una jerarquía organizativa](tasks/create-organization-hierarchy.md)
+- [Crear una entidad jurídica](tasks/create-legal-entity.md)
+- [Crear una unidad operativa](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 358f5a87cdb42f0ff646948da8d38475cf49e3f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577921"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778386"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Programar la creación del trabajo durante la oleada
 
@@ -33,7 +33,7 @@ Cuando la funcionalidad está habilitada, el trabajo planificado se creará auto
 
 Para utilizar las funciones descritas en este tema, deben estar activadas en su sistema. Use el espacio de trabajo [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), para activar las siguientes funciones en este orden:
 
-1. **Bloqueo de trabajo en toda la organización**: requerido para la configuración manual y automática de la creación de trabajos programados.
+1. **Bloqueo de trabajo en toda la organización**: requerido para la configuración manual y automática de la creación de trabajos programados. (A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
 1. **Creación de trabajo programado**: requerido para la configuración manual y automática de la creación de trabajos programados.
 1. **Método de oleada "Creación de trabajo programado" en toda la organización**: requerido para la configuración automática de la creación de trabajos programados. No necesita esta función si solo va a utilizar la configuración manual.
 

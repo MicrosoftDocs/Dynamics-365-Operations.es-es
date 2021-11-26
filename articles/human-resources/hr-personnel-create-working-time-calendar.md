@@ -1,8 +1,8 @@
 ---
 title: Crear calendarios y generar horarios de trabajo
-description: Los calendarios describen la capacidad y los horarios de trabajo de los recursos de operaciones. En este artículo se explica cómo definir un calendario laboral basado en una plantilla de horario de trabajo.
-author: andreabichsel
-ms.date: 07/09/2019
+description: Los calendarios describen la capacidad y los horarios de trabajo de los recursos de operaciones. En este tema se explica cómo definir un calendario laboral basado en una plantilla de horario de trabajo.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalend
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e25acf541fe607d1b28ba8a0492186f2a8eaad949c84d8d61ba492a2072e38e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c1d299a77c5a02c531838aae0750dea87e89e34
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727002"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731694"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Crear calendarios y generar horarios de trabajo
 
@@ -26,15 +26,15 @@ ms.locfileid: "6727002"
 
 
 
-Los calendarios describen la capacidad y los horarios de trabajo de los recursos de operaciones. En este artículo se explica cómo definir un calendario laboral basado en una plantilla de horario de trabajo. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
+Los calendarios describen la capacidad y los horarios de trabajo de los recursos de operaciones. En este tema se explica cómo definir un calendario laboral basado en una plantilla de horario de trabajo. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
 
 1. En la página principal, seleccione **Administración del ciclo de vida de los recursos**.
 2. Seleccione **Calendarios**.
 3. Seleccione **Nuevo**.
 4. En el campo **Calendario**, clasifique el calendario. Este es el id. del calendario, que se usa como referencia al asignar calendarios, por ejemplo a un recurso de operaciones o un grupo de recursos.  
-5. En el campo **Nombre**, asigne un nombre al calendario.
+5. En el campo **Nombre**, especifique un nombre para el calendario.
 6. En el campo **Días laborables estándar en horas**, especifique un número.
-7. Asegúrese de que la fila esté seleccionada y, a continuación, seleccione **Horarios de trabajo** en el panel de acciones.
+7. Asegúrese de que la fila esté seleccionada y, a continuación, seleccione **Horarios de trabajo** en el **Panel de acciones**.
 8. Seleccione **Crear horarios de trabajo**. Genere horas laborables para cada día del período en el que desee poder programar el trabajo. A medida que pasa el tiempo, puede generar horarios de trabajo para períodos adicionales.  
 9. En el campo **Fecha inicial**, escriba una fecha. Este es el primer día en que este calendario debe estar abierto.  
 10. En el campo **Fecha final**, especifique una fecha. Este es el último día en que este calendario está abierto.  

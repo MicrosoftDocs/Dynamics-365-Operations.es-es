@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579433"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778116"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 
@@ -188,7 +188,7 @@ La validación estricta se aplica a los valores en **Cantidad de pedido estánda
 
 ### <a name="enable-the-strict-validation-option"></a>Habilitar la opción de validación estricta
 
-Antes de poder usar la opción de validación estricta, debe estar habilitada en su sistema. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario. Aquí, la característica aparece como:
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla o deshabilitarla si es necesario. Aquí, la característica aparece como:
 
 - **Módulo** - *Gestión de información de productos*
 - **Nombre de la característica** - *Validación estricta en cantidades de pedido predeterminadas*

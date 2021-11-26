@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 03489629a74d33147ac77dd18b59efbfc9c9e4b5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5311c13154baafdc7225ee869b3ef524eecc0d00
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574674"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778362"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Diseño de enrutamiento de documentos para matrículas de entidad
 
@@ -53,7 +53,7 @@ Varias herramientas de generación de etiquetas ampliamente disponibles pueden a
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Activar esta función para su sistema
 
-Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Diseños mejorados de etiquetas de matrículas*.
+Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Diseños mejorados de etiquetas de matrículas*. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 ## <a name="custom-number-formats"></a>Formatos de números personalizados
 

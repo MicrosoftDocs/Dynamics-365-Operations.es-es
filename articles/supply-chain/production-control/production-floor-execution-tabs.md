@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6752d79a71a673fedb0caff7b6ad1023093269c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570186"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790875"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Diseñar la interfaz de ejecución de la planta de producción
 
@@ -53,13 +53,13 @@ Para crear y configurar una nueva pestaña, siga estos pasos:
 
 1. Realice los siguientes ajustes en el encabezado de la página:
 
-    - **Nombre de la pestaña** - Especifique un nombre para la pestaña.
-    - **Vista principal** - Seleccione entre las dos listas de trabajos predefinidas (*Trabajos activos*, *Todos los trabajos* o *Mi máquina*).
-    - **Vista de detalles** - Seleccione entre un valor en blanco o **Detalles del trabajo**. Si selecciona el valor en blanco, no habrá una vista detallada en la pestaña. Si selecciona **Detalles del trabajo**, la vista detallada contendrá una descripción detallada del trabajo seleccionado en la lista de trabajos en la vista principal.
+    - **Nombre de la pestaña** – Especifique un nombre para la pestaña.
+    - **Vista principal** – Seleccione entre las listas de trabajos predefinidas (*Trabajos activos*, *Todos los trabajos* y *Mi máquina*).
+    - **Vista de detalles** – Seleccione entre un valor en blanco o **Detalles del trabajo**. Si selecciona el valor en blanco, no habrá una vista detallada en la pestaña. Si selecciona **Detalles del trabajo**, la vista detallada contendrá una descripción detallada del trabajo seleccionado en la lista de trabajos en la vista principal.
 
 1. En la sección **Barra de herramientas principal**, elija qué botones deben estar disponibles en la barra de herramientas principal. La columna **Acciones disponibles** muestra una lista de todos los botones que se pueden agregar. Las columnas **Acciones seleccionadas** muestran una lista de todos los botones que están incluidos en la configuración actual. Utilice los botones entre las columnas para mover los elementos seleccionados entre las columnas según sea necesario. Utilice los botones arriba y abajo junto a la columna **Acciones seleccionadas** para controlar el orden en que se presentan los botones en la interfaz de usuario.
 
-1. En la sección **Barra de herramientas** **secundaria**, elija qué botones deben estar disponibles en la barra de herramientas secundaria. La columna **Acciones disponibles** muestra una lista de todos los botones que se pueden agregar. Las columnas **Acciones seleccionadas** muestran una lista de todos los botones que están incluidos en la configuración actual. Utilice los botones entre las columnas para mover los elementos seleccionados entre las columnas según sea necesario. Utilice los botones arriba y abajo junto a la columna **Acciones seleccionadas** para controlar el orden en que se presentan los botones en la interfaz de usuario.
+1. En la sección **Barra de herramientas secundaria**, elija qué botones deben estar disponibles en la barra de herramientas secundaria. La columna **Acciones disponibles** muestra una lista de todos los botones que se pueden agregar. Las columnas **Acciones seleccionadas** muestran una lista de todos los botones que están incluidos en la configuración actual. Utilice los botones entre las columnas para mover los elementos seleccionados entre las columnas según sea necesario. Utilice los botones arriba y abajo junto a la columna **Acciones seleccionadas** para controlar el orden en que se presentan los botones en la interfaz de usuario.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Asociar una pestaña a una configuración
 

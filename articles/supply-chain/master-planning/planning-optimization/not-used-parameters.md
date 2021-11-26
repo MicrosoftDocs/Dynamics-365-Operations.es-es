@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: eb7e1b4e6df2c514b55ec101c0edf22590041628
-ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
+ms.openlocfilehash: 55b174b426b02e59f75d58e9a6cf32991089ca22
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "7645767"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728964"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parámetros no utilizados por Optimización de planificación
 
@@ -60,7 +60,7 @@ Optimización de planificación no utiliza los siguientes parámetros u opciones
 
 - Ficha desplegable **General**:
 
-  - **Días positivos** - Pendiente compatibilidad con *Días positivos*.
+  - **Días positivos** - El valor de *Días positivos* no se usa. Con Optimización de planificación, los días positivos se consideran infinitos.
   - **Consumir inventario disponible** - Pendiente compatibilidad con *Consumo de inventario disponible*.
   - **Utilice la lista de materiales o la versión de fórmula especificada** - Pendiente compatibilidad con *Versiones de fórmula con Co / Por producto*.
   - **Utilice la versión de ruta especificada** - Pendiente compatibilidad con *Demanda con requisitos de ruta o lista de materiales específicos definidos*.

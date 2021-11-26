@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d47b88fcc5e25fc85377b52fa9832916a4bb2217
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572394"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778482"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Confirmar envíos salientes de trabajos por lotes
 
@@ -27,7 +27,7 @@ Este tema describe cómo configurar un trabajo por lotes que confirma automátic
 
 ## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Habilitar la característica Confirmar envíos salientes desde trabajos por lotes
 
-Antes de poder usar esta característica, debe estar habilitada en su sistema. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario. La característica aparece como:
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla o deshabilitarla si es necesario. Aquí, la característica aparece como:
 
 - **Módulo** - *Gestión de almacén*
 - **Nombre de la característica** - *Confirmar envíos salientes desde trabajos por lotes*

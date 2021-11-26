@@ -2,7 +2,7 @@
 title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
-ms.date: 09/27/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581074"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777994"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -219,6 +219,9 @@ Si las vistas guardadas no están habilitadas, siga estos pasos para copiar una 
 ### <a name="export-and-import-views-or-personalizations"></a>Exportar e importar vistas o personalizaciones
 
 Otra forma de compartir personalizaciones es mediante la exportación y la importación. Los usuarios individuales, o un administrador que actúe en su nombre, pueden utilizar este método para exportar sus personalizaciones o vistas, y luego entregar el archivo exportado a otros usuarios para que lo importen. Alternativamente, los usuarios pueden dar sus personalizaciones exportadas a un usuario que tiene privilegios de administrador, y ese usuario puede usar la página de administración **Personalización** para aplicar el archivo de personalización a muchos usuarios al mismo tiempo.
+
+> [!IMPORTANT]
+> Dado que las personalizaciones persisten en las actualizaciones, volver a importar todas las personalizaciones después de una actualización del servicio o en cualquier otro momento es innecesario y muy desaconsejado.   
 
 #### <a name="export"></a>Exportar
 

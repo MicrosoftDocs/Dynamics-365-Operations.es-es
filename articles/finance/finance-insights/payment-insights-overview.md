@@ -2,7 +2,7 @@
 title: Predicciones de pago de cliente
 description: Este tema describe la capacidad de predicciones de pago que puede ayudarle a conocer mejor las prácticas de pago típicas de un cliente. Esta característica también puede ayudarle a identificar circunstancias que deberían provocar que comience procesos de cobro antes de lo haya hecho de otra manera.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 21a773b37020aeff969469e29be68e7f7ef44d93
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386670"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752746"
 ---
 # <a name="customer-payment-predictions"></a>Predicciones de pago de cliente
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema describe la capacidad de predicciones de pago que puede ayudarle a conocer mejor las prácticas de pago típicas de un cliente. Esta característica también puede ayudarle a identificar circunstancias que deberían provocar que comience procesos de cobros antes de lo haya hecho de otra manera.
 
@@ -67,11 +68,5 @@ En muchas empresas, el proceso de cobro ha sido una actividad reactiva. En otras
 ## <a name="methodology"></a>Metodología
 
 En el pasado, normalmente era difícil desarrollar e implementar una solución de inteligencia artificial (IA). El proceso requería un equipo con científicos de datos, expertos en el tema (SME) e ingenieros, que trabajaban durante mucho tiempo para formular, desarrollar, implementar y mantener una solución utilizable de IA. Las predicciones de pago de los clientes facilitan la implementación y el uso de una solución de inteligencia artificial en Microsoft Dynamics 365 Finance. Microsoft está preempaquetando soluciones de IA creadas sobre Microsoft AI Builder. Por lo tanto, los usuarios pueden implementar la solución de IA con un solo clic del mouse para aprovechar las ventajas de las predicciones inteligentes. Si no está satisfecho con la precisión de las predicciones, un usuario avanzado puede (de nuevo, con un único clic), introducir la experiencia de la extensión de AI Builder y seleccionar o anular la selección de los campos usados para generar predicciones. Cuando esté listo, puede "entrenar" el modelo y publicar los cambios. El modelo recién entrenado se seleccionará automáticamente para generar predicciones en Dynamics 365 Finance.
-
-## <a name="release-details"></a>Detalles de la liberación
-
-La versión preliminar pública de Finance Insights está disponible para probarla en implementaciones en los Estados Unidos de América, Europa y el Reino Unido. Microsoft está agregando gradualmente soporte para otras más regiones.
-
-Las funciones de versión preliminar pública deben activarse solo en entornos de espacio aislado de nivel 2. Los modelos de configuración e IA que se crean en un entorno de espacio aislado no se pueden migrar al entorno de producción. Para más información, consulte [Condiciones de uso suplementarias para Vistas previas de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

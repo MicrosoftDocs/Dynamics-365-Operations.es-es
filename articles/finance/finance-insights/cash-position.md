@@ -2,7 +2,7 @@
 title: Posición de efectivo
 description: Este tema describe cómo la característica de pronóstico de flujo de efectivo predice la posición de efectivo de una organización para momentos específicos. También describe las opciones que están disponibles para mostrar pronósticos para diferentes períodos.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386323"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752889"
 ---
 # <a name="cash-position"></a>Posición de efectivo
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 La posición de efectivo es la proyección del flujo de efectivo que se prevé para el corto plazo. Se basa en la proyección de los recibos de efectivo de los clientes que pagan facturas y pedidos pendientes, y también en la proyección de los desembolsos de efectivo que se pagan a los proveedores por las facturas y los pedidos de compra.
 
@@ -44,8 +45,5 @@ La sección inferior de la pestaña **Posición de efectivo** muestra los detall
 - La cuadrícula **Cuenta bancaria** muestra el impacto de las entradas y salidas de efectivo esperadas en el saldo bancario.
 
 Para guardar y editar la posición de efectivo, cree una instantánea. Para obtener más información sobre cómo trabajar con instantáneas, consulte [Información general sobre instantáneas](payment-snapshots.md).
-
-#### <a name="privacy-notice"></a>Aviso de privacidad
-Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

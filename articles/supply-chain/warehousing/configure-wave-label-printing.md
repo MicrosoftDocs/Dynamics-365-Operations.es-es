@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6b75dcb7d56648f3be291cb1c09ec57a53477ec0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344183"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778092"
 ---
 # <a name="wave-label-printing"></a>Impresión de etiquetas de oleadas
 
@@ -53,7 +53,7 @@ Estas mejoras hacen que el etiquetado de cajas antes de la paletización sea má
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Activar la característica de impresión de etiquetas de oleada
 
-Para poder usar la característica *Impresión de etiquetas de oleada*, debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar. Sin embargo, la característica sigue apareciendo en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Impresión de etiquetas de oleada*

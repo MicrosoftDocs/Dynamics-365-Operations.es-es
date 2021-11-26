@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e3b4a9dc25dc8130df7fa4799430c8358edcfe8e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567136"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777647"
 ---
 # <a name="country-of-origin"></a>País de origen
 
@@ -28,7 +28,7 @@ Muchas organizaciones emiten certificados a sus proveedores para garantizar que 
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Activar la característica de país de origen
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla o deshabilitarla si es necesario. Aquí, la característica aparece como:
 
 - **Módulo:** *Gestión de información de productos*
 - **Nombre de la característica**: *Característica de administración del país de origen*

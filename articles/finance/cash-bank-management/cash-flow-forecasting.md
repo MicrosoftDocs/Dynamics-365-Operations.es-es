@@ -2,7 +2,7 @@
 title: Previsiones de flujo de efectivo
 description: Este tema proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema.
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547964"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752913"
 ---
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Puede usar las herramientas para la previsión del flujo de efectivo para analizar el flujo de efectivo que va a entrar y los requisitos de divisa para estimar la futura necesidad de efectivo de la compañía. Para obtener una previsión fiable del flujo de efectivo, debe completar las tareas siguientes:
 
@@ -93,9 +94,12 @@ Las entradas del registro presupuestario se pueden incluir en la previsión de f
 Las previsiones de suministro y demanda de inventario se pueden incluir en las previsiones de flujo de efectivo. En la pestaña **Gestión del inventario** de la página **Configuración de la previsión de flujo de efectivo** , seleccione el modelo de previsión que se va a incluir en la previsión de flujo de efectivo. La inclusión en la previsión de flujo de efectivo se puede sobrescribir en líneas de previsión de suministro y demanda individuales.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configurar dimensiones para la previsión del flujo de efectivo
-Una nueva pestaña de la página **Configuración de pronósticos de flujo de efectivo** le permite controlar qué dimensiones financieras utilizar para filtrar en el espacio de trabajo **Previsión de flujo de efectivo**. Esta pestaña solo aparecerá cuando la función de pronósticos de flujo de efectivo esté habilitada. 
+Una nueva pestaña de la página **Configuración de pronósticos de flujo de efectivo** le permite controlar qué dimensiones financieras utilizar para filtrar en el espacio de trabajo **Previsión de flujo de efectivo**. Esta pestaña solo aparecerá cuando la función de pronósticos de flujo de efectivo de Finance Insights esté habilitada. 
 
 En la pestaña **Dimensiones**, elija de la lista de dimensiones que se utilizarán para el filtrado y utilice las teclas de flecha para moverlas a la columna de la derecha. Solo se pueden seleccionar dos dimensiones para filtrar los datos de pronósticos de flujo de efectivo. 
+
+### <a name="setting-up-external-source"></a>Configurar origen externo
+Los datos externos se pueden introducir o importar en forma de pronósticos de flujo de efectivo. Antes de introducir o importar datos externos, debe configurar orígenes externos. En la pestaña **Origen externo**, configure categorías de flujo de efectivo externas. Una categoría puede ser **Saliente** o **Entrante**. **Liquidez** debe seleccionarse como tipo de registro. En la cuadrícula **Configuración de entidad legal**, seleccione las entidades legales y las cuentas principales correspondientes a las que se aplican las categorías de flujo de efectivo externas.
 
 ### <a name="project-management-and-accounting"></a>Gestión de proyectos y contabilidad
 

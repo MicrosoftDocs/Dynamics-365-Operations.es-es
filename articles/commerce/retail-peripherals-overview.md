@@ -1,7 +1,7 @@
 ---
 title: Periféricos
 description: En este tema explica los conceptos relacionados con los periféricos de Commerce.
-author: rubencdelgado
+author: BrianShook
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: dbf78eec6c1b25056342f9709f3b047a8bb822ff
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500312"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779855"
 ---
 # <a name="peripherals"></a>Periféricos
 

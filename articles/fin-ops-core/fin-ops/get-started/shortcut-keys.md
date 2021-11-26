@@ -2,7 +2,7 @@
 title: Métodos abreviados de teclado
 description: Este tema proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de Finance and Operations.
 author: jasongre
-ms.date: 10/12/2021
+ms.date: 11/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
+ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647545"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7800202"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -128,8 +128,10 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 ## <a name="grid-shortcuts"></a>Métodos abreviado de cuadrícula
 
-| Acción                                                                                                             | Presione                           |
+| Acción                                                                                                             | Presione                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Desplazamiento vertical                                                                                                     | Rueda del mouse                     |
+| Desplazamiento horizontal                                                                                                   | Mayús + rueda del mouse             |
 | Ir a la columna siguiente/anterior                                                                                       | Tabulador / Mayús+Tab                 |
 | Ir a la fila siguiente/anterior                                                                                          | Flecha arriba / Flecha abajo           |
 | Ir a la fila siguiente/anterior sin seleccionarla<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote> | Ctrl+Flecha arriba / Ctrl+Flecha abajo |
@@ -141,15 +143,15 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ir al primer registro                                                                                               | Ctrl+Inicio                       |
 | Ir al último registro                                                                                                | Ctrl+Fin                        |
 | Seleccione o borre todas las filas                                                                                               | Ctrl+Mayús+M                    |
-| Ir a la primera fila marcada                                                                                           | Alt+Mayús+M, F                    |
-| Ir a la fila siguiente marcada                                                                                            | Alt+Mayús+M, L                    |
-| Ir a la fila marcada anterior                                                                                        | Alt+Mayús+M, P                    |
-| Ir a la última fila marcada                                                                                           | Alt+Mayús+M, N                    |
+| Ir a la primera fila marcada                                                                                           | Alt+Mayús+M, F                  |
+| Ir a la fila siguiente marcada                                                                                            | Alt+Mayús+M, L                  |
+| Ir a la fila marcada anterior                                                                                        | Alt+Mayús+M, P                  |
+| Ir a la última fila marcada                                                                                           | Alt+Mayús+M, N                  |
 | Ejecutar la acción predeterminada en una cuadrícula<blockquote>[!NOTE] Este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.</blockquote> | Entrar                           |
 | Alternar el enfoque entre la fila seleccionada y la fila de encabezado                                                               | Alt+Mayús+ H                     |
 | Haga la columna actual mayor o menor (con el enfoque en la fila de encabezado)                                                  | Flecha derecha / flecha izquierda        |
 | Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)                                              | Entrar                           |
-| Cambiar el tamaño de la columna actual para que se ajuste al contenido (centrado en la fila del encabezado)                                           | C                               |
+| Cambiar el tamaño de la columna actual para que se ajuste al contenido (centrado en la fila del encabezado)                                           | A (o haga doble clic en el controlador de tamaño de la columna) |
 
 ## <a name="input-control-shortcuts"></a>Métodos abreviados de control de entrada de datos
 

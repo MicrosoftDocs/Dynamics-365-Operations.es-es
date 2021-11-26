@@ -1,8 +1,8 @@
 ---
 title: Realizar una pregunta según la respuesta a la pregunta anterior
 description: Las preguntas condicionales le permiten especificar qué pregunta de seguimiento aparecerá, en función de la respuesta a la pregunta anterior.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, Hc
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9397b3dfa353398a5d326ae68ec8269369ebf85b7b2e61c73013db76c5dd475
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11787aa0b32c0d7493e4528b00304e51f01a655f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745703"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728915"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Realizar una pregunta según la respuesta a la pregunta anterior
 
@@ -30,28 +30,28 @@ Las preguntas condicionales le permiten especificar qué pregunta de seguimiento
 
 
 ## <a name="find-the-existing-questionnaire"></a>Localización del cuestionario existente
-1. Vaya a Cuestionario > Diseño > Cuestionarios.
+1. Vaya a **Cuestionario** > **Diseño** > **Cuestionarios**.
 2. En la lista, seleccione el cuestionario de WorkFH.
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>Adición de todas las preguntas y subpreguntas al cuestionario
-1. Haga clic en Preguntas.
-2. Haga clic en Nuevo.
-3. En el campo Pregunta, seleccione el número de pregunta 00016.
+1. Haga clic en **Preguntas**.
+2. Haga clic en **Nuevo**.
+3. En el campo **Pregunta**, seleccione el número de pregunta 00016.
 4. En la lista, busque y seleccione el registro deseado.
 5. En la lista, haga clic en el vínculo de la fila seleccionada.
-6. Haga clic en Guardar.
+6. Haga clic en **Guardar**.
 7. Cierre la página.
 
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Definición de la secuencia del cuestionario en Condicional y determinación de la pregunta según la respuesta adecuada
-1. Haga clic en Editar.
-2. Expanda la sección Configuración.
-3. En el campo Orden de preguntas, seleccione Condicional.
-4. Haga clic en Pregunta condicional.
+1. Haga clic en **Editar**.
+2. Expanda la sección **Configuración**.
+3. En el campo **Orden de preguntas**, seleccione 'Condicional'.
+4. Haga clic en **Pregunta condicional**.
 5. En el árbol, seleccione "Preguntas\Explique por qué respondió así a la pregunta anterior".
-6. En el campo Pregunta principal, seleccione el número de pregunta 00009.
+6. En el campo **Pregunta principal**, seleccione el número de pregunta 00009.
 7. En la lista, haga clic en el vínculo de la fila seleccionada.
-8. En el campo Respuesta, especifique el identificador de secuencia de respuesta de la opción de respuesta de la que quiera que dependa la pregunta. Por ejemplo, escriba 1 para la primera opción de respuesta.
-9. Haga clic en Guardar.
+8. En el campo **Respuesta**, especifique el identificador de secuencia de respuesta de la opción de respuesta de la que quiera que dependa la pregunta. Por ejemplo, escriba 1 para la primera opción de respuesta.
+9. Haga clic en **Guardar**.
 10. En el árbol, seleccione "Preguntas\Me pagan justamente por el trabajo que hago".
     * Observe cómo el árbol de preguntas se ha actualizado para mostrar la dependencia.  
 

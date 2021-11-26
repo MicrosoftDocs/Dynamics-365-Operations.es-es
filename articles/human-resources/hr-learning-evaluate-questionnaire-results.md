@@ -1,8 +1,8 @@
 ---
-title: Ver y evaluar los resultados de los cuestionarios
-description: Este artículo explica cómo puede ver y evaluar los resultados de los cuestionarios que los encuestados completan.
-author: andreabichsel
-ms.date: 06/20/2017
+title: Ver y evaluar los resultados de cuestionarios
+description: En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e2241c2ade361631228cf721b18adabcb1fbc091c8949d47727bb89f0f67bdb6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8265b6b2269822bcae6d573091d2994e25826d1a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755500"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729132"
 ---
-# <a name="view-and-evaluate-the-results-of-questionnaires"></a>Ver y evaluar los resultados de los cuestionarios
+# <a name="view-and-evaluate-the-results-of-questionnaires"></a>Ver y evaluar los resultados de cuestionarios
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artículo explica cómo puede ver y evaluar los resultados de los cuestionarios que los encuestados completan. 
+En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan. 
 
 Después de que los encuestados completen un cuestionario, puede ver y evaluar los resultados del mismo de las maneras siguientes:
 

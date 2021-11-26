@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471749"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733448"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escalado en una topología híbrida distribuida
 
@@ -32,8 +32,8 @@ Las empresas que trabajan con fabricación y distribución deben poder ejecutar 
 
 Una topología híbrida distribuida introduce el concepto de *unidades de escala*, que permiten la distribución de las cargas de trabajo de ejecución de la planta y el almacén entre diferentes entornos. Esta funcionalidad puede ayudar a mejorar el rendimiento, prevenir interrupciones del servicio y maximizar el tiempo de actividad. Las unidades de escala se proporcionan a través de los siguientes complementos para su suscripción a Supply Chain Management:
 
-- Complemento de unidad de escala de nube para Dynamics 365 Supply Chain Management (*disponible en abril de 2021*)
-- Complemento de unidad de escala de Edge para Dynamics 365 Supply Chain Management (*disponible pronto*)
+- Complemento de unidad de escala de nube para Dynamics 365 Supply Chain Management
+- Complemento de unidad de escala perimetral para Dynamics 365 Supply Chain Management
 
 Las capacidades de carga de trabajo se lanzan de forma continua a través de mejoras incrementales.
 
@@ -51,21 +51,12 @@ Puede configurar un entorno de concentrador con unidades de escala de nube para 
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Capacidades de carga de trabajo de administración de almacén dedicadas en una unidad de escala
 
-La carga de trabajo de administración de almacén es la primera carga de trabajo distribuida para unidades de escala que se ha lanzado para disponibilidad general.
-
-Para la gestión de almacenes, las unidades de báscula ofrecen las siguientes capacidades:
-
-- El sistema puede procesar métodos de oleada seleccionados está habilitado para pedidos de cliente y reabastecimiento de demanda.
-- Los trabajadores del almacén pueden ejecutar el trabajo de almacén de reabastecimiento de ventas y demanda mediante la aplicación móvil Warehouse Management.
-- Los trabajadores del almacén pueden consultar el inventario disponible mediante la aplicación móvil Warehouse Management.
-- Los trabajadores del almacén pueden crear y ejecutar movimientos de inventario mediante la aplicación móvil Warehouse Management.
-- Los trabajadores de almacén pueden registrar órdenes de compra y realizar trabajos de almacenamiento mediante la aplicación móvil Warehouse Management.
-
+La carga de trabajo de gestión del almacén le permite ejecutar procesos de gestión de almacenes en una implementación aislada.
 Para más información, vea [Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Capacidades de carga de trabajo de ejecución de fabricación dedicadas en una unidad de escala
 
-La primera versión de la carga de trabajo de fabricación se encuentra actualmente en versión preliminar y ofrece las siguientes capacidades:
+La carga de trabajo de fabricación ofrece las siguientes capacidades:
 
 - Los operadores de máquinas y los supervisores de planta pueden acceder al plan de producción operativo.
 - Los operadores de máquinas pueden mantener el plan actualizado mediante la ejecución de trabajos de fabricación discretos y de proceso.
@@ -191,17 +182,33 @@ Microsoft revisará su solicitud y le informará sobre los próximos pasos envia
 
 Una vez completada la incorporación, puede usar el puerto para configurar las unidades de báscula y las cargas de trabajo.
 
-### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Administre cargas de trabajo y unidades de escala en la nube mediante el portal Scale Unit Manager
+### <a name="manage-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Administre cargas de trabajo y unidades de escala mediante el portal Scale Unit Manager
 
 Vaya al [Portal de Scale Unit Manager](https://aka.ms/SCMSUM) e inicie sesión con su cuenta de inquilino. En la página **Configurar unidades de escala**, puede agregar un entorno de concentrador si aún no está en la lista. Luego, puede seleccionar el concentrador que desea configurar con unidades de escala y cargas de trabajo.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Experiencia en gestión de cargas de trabajo y unidades de escala.":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Portal de Scale Unit Manager, página Configurar unidades de escala.":::
 
 Para agregar una o más unidades de escala que están disponibles en sus suscripciones, seleccione **Agregar unidades de escala**.
 
 En la pestaña **Cargas de trabajo definidas**, use el botón **Crear carga de trabajo** para agregar una carga de trabajo de gestión de almacén a una de sus unidades de báscula. Para cada carga de trabajo, debe especificar el contexto de los procesos que serán propiedad de la carga de trabajo. Para las cargas de trabajo de gestión de almacenes, el contexto es un almacén específico en un sitio y entidad legal específicos.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Creación de cargas de trabajo.":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Definir diálogo de cargas de trabajo.":::
+
+#### <a name="manage-workloads"></a>Gestionar cargas de trabajo
+
+Cuando una o más cargas de trabajo están habilitadas, use la opción **Gestionar cargas de trabajo** para iniciar y gestionar procesos como los que se enumeran en la siguiente tabla.
+
+| Proceso | Description |
+|---|---|
+| Pausar la comunicación de la unidad de escala | Pausar mensajes de canalización entre el centro de conectividad y una unidad de escala. Este proceso detendrá la comunicación y drenará la canalización de datos entre el centro de conectividad y las unidades de escala. Debe ejecutar este proceso antes de ejecutar una operación de servicio de Supply Chain Management en el centro de conectividad o en la unidad de escala, pero también puede usarlo en otras situaciones. |
+| Reanudar la comunicación de la unidad de escala | Reanudar mensajes de canalización entre el centro de conectividad y una unidad de escala. Es posible que deba utilizar este proceso, por ejemplo, después de ejecutar una operación de servicio de Supply Chain Management en el centro de conectividad o en la unidad de escala. |
+| Actualización de cargas de trabajo | Sincronice la nueva funcionalidad entre el centro de conectividad y las cargas de trabajo de la unidad de escala. Es posible que tenga que utilizar este proceso, por ejemplo, cuando el servicio haya provocado que las consultas de intercambio de datos cambien y / o haya agregado nuevas tablas o campos a la carga de trabajo. |
+| Transferir cargas de trabajo a una unidad de escala | Programe una carga de trabajo que se esté ejecutando actualmente en el centro de conectividad para que se mueva a una unidad de escala. Cuando se ejecuta este proceso, la sincronización de datos fluirá y tanto el centro de conectividad como la unidad de escala se configurarán para cambiar la propiedad de la carga de trabajo. |
+| Transferir unidad de escala al centro de conectividad | Programe una carga de trabajo que se esté ejecutando actualmente en una unidad de escala para transferirla al centro de conectividad. Cuando se ejecuta este proceso, la sincronización de datos fluirá y tanto el centro de conectividad como la unidad de escala se configurarán para cambiar la propiedad de la carga de trabajo.
+| Transición de emergencia al centro de conectividad | <p>Transfiera inmediatamente una carga de trabajo existente al centro de conectividad. *Este proceso cambiará la propiedad solo de los datos que están disponibles actualmente en el centro de conectividad.*</p><p><strong>Advertencia:</strong> Este proceso puede causar la pérdida de datos no sincronizados y fallas en el procesamiento comercial. Por lo tanto, debe usarse solo en emergencias, cuando los procesos comerciales deben procesarse en el centro de conectividad porque la unidad de escala tiene una interrupción que no se puede mitigar en un tiempo razonable.</p> |
+| Retirar topología distribuida | Elimine una implementación de unidad de escala y ejecútela solo en el centro de conectividad, sin procesamiento de carga de trabajo. |
+
+:::image type="content" source="media/sum-manage-workloads.png" alt-text="Experiencia en gestión de cargas de trabajo y unidades de escala.":::
 
 > [!TIP]
 > Con el tiempo, se agregarán mejoras incrementales a la experiencia de Scale Unit Manager para ayudar a facilitar las operaciones de administración del ciclo de vida. Las capacidades específicas para la versión actual están documentadas en un manual de incorporación que está disponible para los clientes que están en el proceso de incorporación a la topología híbrida distribuida para Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

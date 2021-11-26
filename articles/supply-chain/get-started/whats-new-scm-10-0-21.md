@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 64abe953f42519d508f547f22f1f2b94a7fa16ab
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715263"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777946"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management (10.0.21 de octubre de 2021)
 
@@ -71,9 +71,9 @@ La tabla siguiente enumera las características que se han activado de forma pre
 | Desbloquear diario de inventario | 01/09/2021 | 17/08/2020 | Activado de forma predeterminada | Gestión de inventario y almacenes |
 | Vistas guardadas para Gestión del inventario | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Gestión de inventario y almacenes |
 | Navegación hasta la versión de L.M. desde las líneas de L.M. | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Con la unidad de medida y la cantidad de unidad en diarios de inventario. | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
+| Usar unidad de medida y la cantidad de unidad en diarios de inventario | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
 | Permite valores de atributos de lote vacíos | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Incrementar automáticamente los números de línea de las líneas de pedido de transferencia de inventario. | 01/09/2021 | 11/10/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
+| Incrementar automáticamente los números de línea de las líneas de pedido de transferencia de inventario | 01/09/2021 | 11/10/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
 | Flujo de trabajo de aprobación el diario de inventario | 01/09/2021 | 06/01/2020 | Activado de forma predeterminada | Gestión de inventario y almacenes |
 | Habilitar característica de advertencia de parámetros de administración de calidad de inventario | 01/09/2021 | 07/10/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
 | Crear pedido de transferencia desde la línea de ventas | 01/09/2021 | 31/08/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
@@ -93,12 +93,12 @@ La tabla siguiente enumera las características que se han activado de forma pre
 | Vistas guardadas para productos emitidos | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Gestión de información de productos |
 | Mejoras en los cuadros de diálogo Aprobar y Transferir trabajos | 01/09/2021 | 11/10/2019 | Activado de forma predeterminada | Control de producción |
 | Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo | 01/09/2021 | 31/08/2019 | Activado de forma predeterminada | Control de producción |
-| Se ha agregado un nuevo botón Detener descanso a la página Terminal de tarjeta de trabajo. | 01/09/2021 | 19/02/2020 | Activado de forma predeterminada | Control de producción |
+| Se ha agregado un nuevo botón Detener descanso a la página Terminal de tarjeta de trabajo | 01/09/2021 | 19/02/2020 | Activado de forma predeterminada | Control de producción |
 | Habilite la recepción parcial de los productos subcontratados y solucione un problema con el cálculo de rechazo para las líneas de L.M. del tipo Proveedor. | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Control de producción |
 | Vistas guardadas para el control de producción | 01/09/2021 | 17/08/2020 | Activado de forma predeterminada | Control de producción |
 | Dynamics 365 Guides para fabricación | 01/09/2021 | 13/07/2020 | Activado de forma predeterminada | Control de producción |
 | Ejecución de la planta de producción | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Control de producción |
-| Característica para bloquear un dispositivo de tarjetas de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar. | 01/09/2021 | 10/05/2020 | Activado de forma predeterminada | Control de producción |
+| Función para bloquear un dispositivo de tarjeta de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar | 01/09/2021 | 10/05/2020 | Activado de forma predeterminada | Control de producción |
 | Asignación de gastos en un pedido de ventas | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Ventas y marketing |
 | Limitar el número de pedidos de ventas que pueden seleccionarse para registro | 01/09/2021 | 01/09/2021 | Activado de forma predeterminada | Ventas y marketing |
 | Eliminar historial de actualización de pedido de ventas | 01/09/2021 | 01/09/2021 | Activado de forma predeterminada | Ventas y marketing |

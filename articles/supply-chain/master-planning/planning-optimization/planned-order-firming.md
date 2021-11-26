@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764845"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778530"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -39,7 +39,7 @@ La mayoría de las funciones de pedidos planificados están disponibles en todas
 
 La confirmación en paralelo ayuda a acelerar el proceso de confirmación al paralelizarlo en varias conversaciones. Este enfoque puede resultar útil cuando se confirman muchos pedidos planificados.
 
-Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación paralela de pedidos planificados*.
+Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación paralela de pedidos planificados*. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Habilitar la confirmación de pedidos planificados con filtrado
 
@@ -51,7 +51,7 @@ Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de 
 
 La puesta en firme automática permite confirmar los pedidos planificados como parte del proceso de planificación maestra durante el intervalo de tiempo de confirmación. La confirmación automática siempre es compatible con el motor de planificación integrado en Supply Chain Management. Sin embargo, para usarlo también con Optimización de planificación, debe activar la función.
 
-Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación automática para Optimización de planificación*.
+Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación automática para Optimización de planificación*. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 ## <a name="manually-firm-planned-orders"></a>Confirmar manualmente pedidos planificados
 

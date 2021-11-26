@@ -2,7 +2,7 @@
 title: Diseñar una configuración para generar documentos en formato de Excel
 description: Este tema describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488147"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731647"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -85,6 +85,8 @@ En la pestaña **Asignación** del diseñador de operación ER, puede configurar
 
 El componente **Rango** indica un rango de Excel que debe controlarse mediante este componente ER. El nombre del rango se define en la propiedad **Rango de Excel** de este componente.
 
+### <a name="replication"></a>Réplica
+
 La propiedad **Dirección de replicación** especifica si el rango se repetirá y cómo lo hará en un documento generado:
 
 - Si la propiedad **Dirección de replicación** se establece en **Sin replicación**, el rango de Excel apropiado no se repetirá en el documento generado.
@@ -92,6 +94,8 @@ La propiedad **Dirección de replicación** especifica si el rango se repetirá 
 - Si la propiedad **Dirección de replicación** se establece en **Horizontal**, el rango de Excel apropiado se repetirá en el documento generado. Cada rango replicado se coloca a la derecha del rango original en una plantilla de Excel. El número de repeticiones se define por el número de registros de un origen de datos del tipo de **Lista de registros** que está vinculado a este componente ER.
 
 Para obtener más información sobre la replicación horizontal, siga los pasos de [Usar rangos expandibles horizontalmente para agregar columnas dinámicamente en informes de Excel](tasks/er-horizontal-1.md).
+
+### <a name="nested-components"></a>Componentes anidados
 
 El componente **Rango** puede tener otros componentes ER anidados que se usan para introducir valores en los rangos con nombre de Excel apropiados.
 
@@ -105,11 +109,40 @@ El componente **Rango** puede tener otros componentes ER anidados que se usan pa
     > [!NOTE]
     > Use este patrón para permitir que la aplicación Excel formatee los valores introducidos en función de la configuración regional del equipo local que abre el documento resultante.
 
+### <a name="enabling"></a>Habilitando
+
 En la pestaña **Asignación** del diseñador de operación ER, puede configurar la propiedad **Habilitado** de un **Rango** para especificar si el componente debe colocarse en un documento generado:
 
 - Si una expresión de la propiedad **Habilitado** se configura para devolver **Verdadero** en tiempo de ejecución, o si no hay ninguna expresión configurada, el rango apropiado se rellenará en el documento generado.
 - Si una expresión de la propiedad **Habilitado** se configura para devolver **Falso** en tiempo de ejecución, y si este rango no representa las filas o columnas completas, el rango apropiado no se rellenará en el documento generado.
 - Si una expresión de la propiedad **Habilitado** se configura para devolver **Falso** en tiempo de ejecución, y si este rango representa las filas o columnas completas, el documento generado contendrá esas filas y columnas como filas y columnas ocultas.
+
+### <a name="resizing"></a>Cambiar tamaño
+
+Puede configurar su plantilla de Excel para usar celdas para presentar datos textuales. Para asegurarse de que todo el texto de una celda sea visible en un documento generado, puede configurar esa celda para que ajuste automáticamente el texto dentro de ella. También puede configurar la fila que contiene esa celda para ajustar automáticamente su altura si el texto ajustado no es completamente visible. Para obtener más información, consulte la sección "Ajustar texto en una celda" en [Corregir datos que se cortan en celdas](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+
+> [!NOTE]
+> Debido a una conocida [Limitación de Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353), incluso si configura celdas para ajustar el texto, y configura las filas que contienen esas celdas para ajustar automáticamente su altura para ajustarse al texto ajustado, es posible que no pueda utilizar las características **Autoajuste** y **Ajustar texto** de Excel para celdas combinadas y las filas que las contienen. 
+
+A partir de Dynamics 365 Finance versión 10.0.23, puede forzar a ER a calcular, en un documento generado, la altura de cada fila que se configuró para ajustar automáticamente su altura al contenido de las celdas anidadas siempre que esa fila contenga al menos una celda combinada que se configuró para ajustar el texto que contiene. La altura calculada se utiliza para cambiar el tamaño de la fila y garantizar que todas las celdas de la fila sean visibles en el documento generado. Para comenzar a usar esta funcionalidad cuando ejecuta cualquier formato de ER que se configuró para usar plantillas de Excel para generar documentos salientes, siga estos pasos.
+
+1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
+2. En la página **Configuraciones localizadas**, en la sección **Vínculos relacionados**, seleccione **Parámetros de informes electrónicos**.
+3. En la página **Parámetros de informes electrónicos**, en la pestaña **Tiempo de ejecución**, establezca la opción **Ajustar automáticamente alto de fila** en **Sí**.
+
+Cuando desee cambiar esta regla para un solo formato de ER, actualice la versión de borrador de ese formato siguiendo estos pasos.
+
+1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
+2. En la página **Configuraciones de localización**, en la sección **Configuraciones**, seleccione **Configuraciones de informes**.
+3. En la página **Configuraciones**, en el árbol de configuraciones del panel izquierdo, seleccione una configuración de ER que esté diseñada para usar una plantilla de Excel para generar documentos salientes.
+4. En la ficha desplegable **Versiones**, seleccione la versión de configuración que tenga un estado de **Borrador**.
+5. En el panel de acciones, haga clic en **Diseñador**.
+6. En la página **Diseñador de formatos**, en el árbol de formato del panel izquierdo, seleccione el componente de Excel que está vinculado a una plantilla de Excel.
+7. En la pestaña **Formato**, en el campo **Ajustar altura de fila**, seleccione un valor para especificar si se debe forzar a ER, en tiempo de ejecución, a cambiar la altura de las filas en un documento saliente generado por el formato de ER editado:
+
+    - **Predeterminada** - Utilice la configuración general que está configurada en el campo **Ajuste automático de altura de fila** en la página **Parámetros de informes electrónicos**.
+    - **Sí** - Reemplace la configuración general y cambie la altura de la fila en tiempo de ejecución.
+    - **No** - Reemplace la configuración general y no cambie la altura de la fila en tiempo de ejecución.
 
 ## <a name="cell-component"></a>Componente Celda
 

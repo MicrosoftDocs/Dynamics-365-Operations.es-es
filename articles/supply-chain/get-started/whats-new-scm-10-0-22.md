@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678844"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778166"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.22 (noviembre de 2021)
 
@@ -41,7 +41,6 @@ La tabla siguiente enumera las mejoras de características incluidas en esta ver
 
 | Módulo | Nombre de la característica en la administración de características | Más información |
 |---|---|---|
-| Gestión de costes | Cree comprobantes relacionados para reevaluaciones de redondeo de costos estándar | <p>Cuando se realiza una contabilización financiera de inventario (como una factura de orden de venta o una transacción de inventario), esta función hace que el sistema cree un comprobante separado para cualquier revalorización de redondeo de costos estándar relacionada y lo adjunte al comprobante de contabilización financiera como comprobante relacionado.</p><p>Sin esta función, el sistema registra las revalorizaciones de redondeo de costes estándar en la misma contabilización de comprobantes. Ese comportamiento a veces puede causar información de fecha conflictiva, porque las revaluaciones usan la fecha de la sesión o del sistema, mientras que las contabilizaciones financieras usan la fecha de contabilización.</p> |
 | Topología híbrida distribuida | *(No se requiere administración de características).* | <p>Esta versión amplía las capacidades de planificación de carga saliente de la carga de trabajo de gestión de almacenes para unidades de escala en la nube y en el borde.</p><p>Para más información, vea [Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Administración de cambios de ingeniería | Generación de variantes de productos de ingeniería | <p>Esta característica le permite generar varias variantes para un producto de ingeniería, según su color, tamaño, estilo o dimensiones de configuración.</p><p>Para más información, vea [Genere variantes para productos de ingeniería](../engineering-change-management/engineering-variants.md).</p> |
 | Gestión de inventario y almacenes | Integración de Visibilidad de inventario con compensación de reserva | <p>Esta característica se puede habilitar solo después de que la función *Integración de visibilidad de inventario* está habilitada. Proporciona funcionalidad para compensar las reservas que se realizan en la visibilidad del inventario.</p><p>Para obtener más información, consulte [Reservas de Visibilidad de inventario](../inventory/inventory-visibility-reservations.md).</p> |

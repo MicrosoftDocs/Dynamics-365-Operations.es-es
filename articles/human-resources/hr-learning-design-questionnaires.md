@@ -1,8 +1,8 @@
 ---
 title: Crear cuestionarios
-description: Este artículo describe el proceso para crear un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas.
-author: andreabichsel
-ms.date: 06/20/2017
+description: En este tema se describe el proceso de creación de un cuestionario.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c2a8c156aa75b02b69da3ee70a1ee60ea9d73a8aa67c70babdaaad88d6eb81f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755573"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729060"
 ---
 # <a name="create-questionnaires"></a>Crear cuestionarios
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artículo describe el proceso para crear un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
+En este tema se describe el proceso de creación de un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
 
 Un cuestionario de cuidado diseño puede ayudarle a aumentar la calidad de los datos recopilados. Con un cuidado diseño, puede seleccionar mejor las opciones adecuadas para un cuestionario en el momento adecuado. Los siguientes puntos pueden ayudarle a planificar un cuestionario efectivo:
 
@@ -63,7 +63,7 @@ Algunos requisitos previos deben estar implementados para poder crear cuestionar
 
 ### <a name="questionnaire-types"></a>Tipos de cuestionario
 
-Los tipos de cuestionario son obligatorios y deben asignarse al crear un cuestionario. Los tipos de cuestionario ayudan a la gestión y clasificación de los cuestionarios. Use los tipos de cuestionario para clasificar los cuestionarios y diferenciarlos entre sí. Por ejemplo, si hay varios cuestionarios entre los que seleccionar, puede filtrarlos según el tipo para que sea más fácil encontrar un cuestionario concreto. Estos son algunos ejemplos de tipos de cuestionario:
+Los **tipos de cuestionario** son obligatorios y deben asignarse al crear un cuestionario. Los **tipos de cuestionario** ayudan a la gestión y clasificación de los cuestionarios. Use los tipos de cuestionario para clasificar los cuestionarios y diferenciarlos entre sí. Por ejemplo, si hay varios cuestionarios entre los que seleccionar, puede filtrarlos según el tipo para que sea más fácil encontrar un cuestionario concreto. Estos son algunos ejemplos de tipos de cuestionario:
 
 -   Desarrollo de recursos humanos
 -   Encuestas de clientes
@@ -71,9 +71,9 @@ Los tipos de cuestionario son obligatorios y deben asignarse al crear un cuestio
 
 ### <a name="question-types"></a>Tipos de pregunta
 
-Los tipos de pregunta son obligatorios y deben asignarse al crear una pregunta. 
+Los **tipos de pregunta** son obligatorios y deben asignarse al crear una pregunta. 
 
-Use los tipos de pregunta para clasificar las consultas para los informes. Los tipos de pregunta también facilitan la búsqueda de preguntas, porque puede usar tipos como filtros en la página **Consultas**. Estos son algunos ejemplos de tipos de pregunta:
+Use los **tipos de pregunta** para clasificar las consultas para los informes. Los **tipos de pregunta** también facilitan la búsqueda de preguntas, porque puede usar tipos como filtros en la página **Consultas**. Estos son algunos ejemplos de tipos de pregunta:
 
 -   Recursos humanos
 -   Actividades comerciales de gestión
@@ -105,7 +105,7 @@ Para proporcionar una lista de posibles respuestas para preguntas cerradas, pued
 
 Los grupos de respuestas y las respuestas son componentes que conforman el cuerpo principal de la información a partir de la que se crean las preguntas. Después de crear un grupo de respuestas, puede asociar el grupo de respuestas con una pregunta en el campo **Grupo de respuestas** de la página **Preguntas**. 
 
-Un grupo de respuestas se puede usar para de una pregunta del mismo cuestionario, así como en varios cuestionarios. 
+Un **grupo de respuestas** se puede usar para de una pregunta del mismo cuestionario, así como en varios cuestionarios. 
 
 > [!NOTE]
 > Si modifica el texto de la respuesta en grupos de respuestas que ya se han usado en cuestionarios completados, se hace difícil evaluar datos y es posible que los resultados del cuestionario ya no sean válidos. Si debe cambiar un grupo de respuestas, piense en crear un nuevo grupo de respuestas en lugar de cambiar uno existente. No puede eliminar los grupos de respuestas que están vinculados a una pregunta o a una respuesta o que ya se han contestado.
@@ -171,7 +171,7 @@ En un cuestionario, no puede eliminar los siguientes tipos de preguntas:
 
 ### <a name="result-groups"></a>Grupos de resultados
 
-Los grupos de resultados son opcionales al adjuntar preguntas a un cuestionario. 
+Los **grupos de resultados** son opcionales al adjuntar preguntas a un cuestionario. 
 
 El cálculo de los puntos y la clasificación de los resultados del cuestionario se realiza mediante un grupo de resultados. Si usa grupos de resultados, puede realizar las tareas siguientes:
 

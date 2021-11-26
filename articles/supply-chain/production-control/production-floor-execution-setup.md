@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 503ba8ae95119f3ce9533f81cdd16c34cf3a9223
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752841"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
 
@@ -28,9 +28,9 @@ La interfaz de ejecución de la planta de producción está configurada para cad
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Establecer la configuración y los filtros para un dispositivo específico
 
-Para establecer la configuración y los filtros de trabajo para un dispositivo, inicie sesión en la página **Ejecución de planta de producción** mediante el uso de una cuenta que tiene un rol de seguridad que incluye la función *Mantener supervisor de tiempo*. (Entre los roles de seguridad listos para usar, solo *Supervisor de planta* tiene esta función). A continuación, siga estos pasos.
+Para establecer la configuración y los filtros de trabajo para un dispositivo, inicie sesión en la página **Ejecución de planta de producción** mediante el uso de una cuenta que tiene un rol de seguridad que incluye la función *Mantener supervisión de tiempo*. (Entre los roles de seguridad listos para usar, solo *Supervisor de planta* tiene esta función). A continuación, siga estos pasos.
 
-1. Vaya al dispositivo que desea configurar e inicie sesión en Microsoft Dynamics 365 Supply Chain Management como supervisor de planta. (Utilice una cuenta que incluya la función *Mantener supervisor de tiempo*).
+1. Vaya al dispositivo que desea configurar e inicie sesión en Microsoft Dynamics 365 Supply Chain Management como supervisor de planta. (Utilice una cuenta que incluya la función *Mantener supervisión de tiempo*).
 1. Asegúrese de que haya una configuración disponible para el dispositivo que está configurando. Si no existe ninguna configuración, se proporciona una configuración predeterminada. Para obtener más información sobre cómo configurar una configuración, consulte [Configurar la interfaz de ejecución de la planta de producción](production-floor-execution-configure.md).
 1. Vaya a **Control de producción \> Ejecución de fabricación \> Ejecución de planta de producción**.
 

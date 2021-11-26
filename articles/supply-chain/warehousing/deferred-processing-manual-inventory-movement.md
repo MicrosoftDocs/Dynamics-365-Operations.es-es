@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a15c913c876e961c6824c1e8812ab2be2d6ffa4333cd0d4e6f80cae8bac79394
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746756"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777675"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Procesamiento diferido del movimiento manual de inventario
 
@@ -32,7 +32,7 @@ El procesamiento en segundo plano se logra utilizando la [Función de eventos de
 
 Para que esta característica esté disponible, active las siguientes características en la [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Debe activarlos en este orden:
 
-1. Bloqueo de trabajo en toda la organización
+1. Bloqueo de trabajo en toda la organización (a partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
 1. Procesar eventos de la aplicación de almacén
 1. Operaciones de colocación diferidas
 1. Procesamiento diferido de la operación de movimiento de inventario manual

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 39f462ae325aa1104a25a8290daed70388e624ec
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 074be71d7b6ec1acab6307a79e397c2a2a045c39
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7477505"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778434"
 ---
 # <a name="the-unit-and-unit-quantity-arent-working-correctly-in-the-inventory-journal"></a>La unidad y la cantidad de unidades no funcionan correctamente en el diario de inventario
 
@@ -31,7 +31,7 @@ Puede encontrar uno o ambos de los siguientes problemas cuando trabaja con unida
 
 Para arreglar este problema, siga estos pasos.
 
-1. En el espacio de trabajo **Administración de características**, asegúrese de que la característica *Uso de unidad de medida y cantidad de unidad en diarios de inventario* está activada. Esta característica agrega los campos **Unidad** y **Cantidad de unidades** al diario.
+1. En el espacio de trabajo **Administración de características**, asegúrese de que la característica *Uso de unidad de medida y cantidad de unidad en diarios de inventario* está activada. Esta característica agrega los campos **Unidad** y **Cantidad de unidades** al diario. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 1. Una vez activada la característica, use los campos **Cantidad**, **Cantidad de unidades** y **Unidad** de la siguiente manera:
 
     - **Cantidad**: especifique la cantidad utilizando la unidad predeterminada que se define para el producto liberado. Sin embargo, la unidad predeterminada en sí no se muestra aquí. Si se configura una conversión entre la unidad predeterminada y la unidad seleccionada en el campo **Unidad**, el campo **Cantidad** se actualiza automáticamente, según las selecciones de los campos **Cantidad de unidades** y **Unidad**.

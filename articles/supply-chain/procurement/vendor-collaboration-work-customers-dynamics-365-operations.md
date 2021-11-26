@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575396"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777630"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Colaboración de proveedor con los clientes
 
@@ -102,7 +102,7 @@ Las personas que trabajan en el sector público pueden ver las solicitudes de pr
 
     Si ha sido invitado a realizar una oferta, puede encontrar la misma solicitud de presupuesto en la página **Nuevas invitaciones a oferta**. En ocasiones, puede que desee realizar una oferta de una solicitud de presupuesto abierta, pero no ha sido invitado a realizar una oferta. En este caso, podrá invitarse usted mismo, siempre que el cliente haya habilitado la auto-invitación para el caso de solicitud de presupuesto.
 
-    Mejore la accesibilidad del enlace **Abrir solicitudes de cotizaciones publicadas** activando la función **Mostrar el vínculo "Abrir solicitudes de cotización publicadas" como mosaico**. Esta función convierte el enlace en un mosaico y lo mueve a una ubicación destacada para que sea fácil de encontrar.
+    Mejore la accesibilidad del enlace **Abrir solicitudes de cotizaciones publicadas** activando la función **Mostrar el vínculo "Abrir solicitudes de cotización publicadas" como mosaico**. Esta función convierte el enlace en un mosaico y lo mueve a una ubicación destacada para que sea fácil de encontrar. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 - Seleccione el vínculo **Solicitudes de presupuestos publicadas cerradas** para ver una lista de solicitudes de presupuesto cerradas disponibles para el público. Una solicitud de presupuesto cerrada es una solicitud de presupuesto que ha vencido. Puede encontrar la fecha y hora de vencimiento en el encabezado de la solicitud de presupuesto.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 78bea4ee2429323a6e087c6433a8e496b08f4cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576121"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778216"
 ---
 # <a name="replenishment-over-location-capacity"></a>Reabastecimiento según la capacidad de la ubicación
 
@@ -32,7 +32,7 @@ La característica permite que se cree más trabajo de reabastecimiento de lo qu
 
 Para que esta característica esté disponible, active las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden):
 
-1. Bloqueo de trabajo en toda la organización
+1. Bloqueo de trabajo en toda la organización (a partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
 1. Reabastecimiento según la capacidad de la ubicación
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configure la función para el escenario de ejemplo

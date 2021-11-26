@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576049"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777611"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recepción de matrículas mediante la aplicación móvil Gestión de almacenes
 
@@ -77,7 +77,7 @@ Cuando esta característica está activada, los elementos del menú del disposit
 - **Mostrar un resumen detallado** - Durante la recepción de la placa, los trabajadores verán una página adicional que muestra la información de aviso de envío por adelantado completa.
 - **Saltar el resumen** - Los trabajadores no verán la información completa de aviso del envío por adelantado. Los trabajadores del almacén tampoco podrán establecer un código de disposición ni agregar excepciones durante el proceso de recepción.
 
-Para que esta funcionalidad esté disponible en su sistema, debe activar la característica *Controlar si desea mostrar una página de resumen de recepción en dispositivos móviles* en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para que esta funcionalidad esté disponible en su sistema, la característica *Controlar si desea mostrar una página de resumen de recepción en dispositivos móviles* debe activarse en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Evite que las matrículas del pedido de transferencia enviadas se utilicen en almacenes que no sean el almacén de destino
 

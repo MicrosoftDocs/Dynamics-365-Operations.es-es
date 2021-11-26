@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579889"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778266"
 ---
 # <a name="work-split"></a>División del trabajo
 
@@ -33,7 +33,7 @@ La funcionalidad de división del trabajo le permite dividir las ID de trabajo g
 
 Antes de poder utilizar la función de división del trabajo, debe activar la función y su función de requisito previo en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de las funciones y activarlas si es necesario.
 
-Primero, active el requisito previo de la función *Bloqueo de trabajo en toda la organización*, si aún no está activada. En el espacio de trabajo **Administración de características**, esta característica aparece de la siguiente forma:
+Primero, active el requisito previo de la función *Bloqueo de trabajo en toda la organización*, si aún no está activada. A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar. Sin embargo, la característica sigue apareciendo en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Bloqueo de trabajo en toda la organización*

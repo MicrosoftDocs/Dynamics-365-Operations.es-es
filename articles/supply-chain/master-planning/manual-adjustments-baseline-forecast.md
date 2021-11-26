@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37d78e97a6c7f9152ab0b893a35a3ae70d5adabc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579649"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778042"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Realización de ajustes manuales en la previsión de línea base
 
@@ -67,7 +67,7 @@ La página **Detalles de previsión de la demanda** muestra la siguiente informa
 
 **Notas:**
 
--   Si habilita **Selección de modelo de previsión en Detalles de previsión de la demanda** desde Administración de características, podrá seleccionar en la página **Detalles de previsión de la demanda** los modelos de previsión que se van a incluir para la previsión histórica.
+-   Si habilita **Selección de modelo de previsión en Detalles de previsión de la demanda** desde Administración de características, podrá seleccionar en la página **Detalles de previsión de la demanda** los modelos de previsión que se van a incluir para la previsión histórica. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 -   El intervalo de confianza que aparece en la sección **Previsión** de la página representa la diferencia entre el límite superior del intervalo de confianza y el límite inferior del intervalo de confianza. Para ver los valores de los límites máximo y mínimo, pase el ratón por encima del gráfico en la sección **Demanda y previsión históricas gráficamente**.
 -   Si utiliza el servicio de aprendizaje automático de Microsoft Azure para la previsión de la demanda, puede especificar el porcentaje del nivel de confianza que debe tener la previsión que se genere. Un intervalo de confianza consta de un intervalo de valores que actúan como estimaciones para la previsión de la demanda. Un porcentaje de nivel de confianza del 95 por ciento indica que hay un 5 por ciento de riesgo de que la previsión de la demanda se encuentre fuera del intervalo de confianza.
 

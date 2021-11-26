@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78be9c67eeac1307d67d70ef75751adebbc246ee69e093b1b9dbc8f408d63258
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726342"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752649"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenido de gestión de costes de Power BI
 
@@ -30,11 +30,6 @@ ms.locfileid: "6726342"
 ## <a name="overview"></a>Información general
 
 El contenido de **Gestión de costes** de Microsoft Power BI está destinado a los contables de inventario o personas de la organización que son responsables o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
-
-> [!NOTE]
-> Los contenidos de **Gestión de costes** Power BI descrito en este tema se aplican a Dynamics 365 Finance and Operations 8.0.
-> 
-> El paquete de contenido de **Gestión de costes** Power BI, disponible en el sitio de AppSource se ha dejado de utilizar. Para obtener más información sobre dicha deprecación, consulte [Funcionalidades eliminadas u obsoletas de Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Este contenido de Power BI proporciona un formato categorizado que ayuda a controlar el rendimiento de inventarios y visualizar cómo fluyen los coste a través de ellos. Puede obtener información de gestión como el ratio de facturación, el número de días que el inventario está disponible, precisión y "clasificación ABC" de su nivel agregado preferido (empresa, artículo, grupo de artículos o sitio). La información que se facilita se puede usar también como suplemento detallado del informe financiero.
 

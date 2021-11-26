@@ -1,8 +1,8 @@
 ---
-title: Configurar un entorno para la búsqueda de datos maestros
-description: Este tema explica cómo configurar su entorno para utilizar la función de búsqueda de datos maestros de cálculo de impuestos.
+title: Habilitar la búsqueda de datos maestros para la configuración del cálculo de impuestos
+description: Este tema explica cómo configurar y habilitar la función de búsqueda de datos maestros de cálculo de impuestos.
 author: kai-cloud
-ms.date: 10/26/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
+ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700413"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749519"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>Configurar un entorno para la búsqueda de datos maestros
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Habilitar la búsqueda de datos maestros para la configuración del cálculo de impuestos 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar su entorno para utilizar la función de búsqueda de datos maestros de cálculo de impuestos.
+Este tema explica cómo configurar y habilitar la función de búsqueda de datos maestros de cálculo de impuestos. Hay una lista desplegable disponible para seleccionar valores en la configuración de cálculo de impuestos para campos como **Cuenta de proveedor**, **Código de artículo** y **Plazo de entrega**. Estos valores provienen del entorno Microsoft Dynamics 365 Finance conectado usando el origen de datos de Microsoft Dataverse.
 
 1. Configure la integración de Microsoft Power Platform en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información, consulte [Integración de Microsoft Power Platform - Información general de complementos](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Después de completar este paso, el nombre de un entorno de Microsoft Power Platform aparecerá en la sección **Integración de Power Platform**.
 2. Vaya al [Centro de administración de Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) y seleccione el nombre del entorno. Se proporciona la URL del entorno.

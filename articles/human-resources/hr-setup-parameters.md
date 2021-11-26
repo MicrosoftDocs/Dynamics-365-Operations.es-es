@@ -1,8 +1,8 @@
 ---
 title: Configurar parámetros de Human Resources
 description: Este tema explica cómo configurar parámetros específicos de la empresa en Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739260"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771444"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurar parámetros de Human Resources
 
@@ -65,7 +65,7 @@ Los ajustes en la pestaña **General** definen el aspecto de la información ace
 
 Los ajustes en la pestaña **Reclutamiento** definen los tipos de documentos utilizados para la correspondencia enviada automáticamente a los solicitantes. También puede indicar el proyecto de contratación utilizado para solicitudes no solicitadas.
 
-El período definido para el vencimiento del proyecto de contratación determina los proyectos de contratación que se incluyen en el icono **Proyectos en vencimiento** en el espacio de trabajo **Gestión de contratación**. El período definido para la advertencia del plazo de solicitud se usa para mostrar los proyectos de contratación que se están acercando al plazo de la solicitud en el mosaico **Se acerca el plazo de la solicitud** en el espacio de trabajo **Contratación**.
+El período definido en **Vencimiento del proyecto de contratación** determina los proyectos de contratación que se incluyen en el título **Proyectos en vencimiento** en el espacio de trabajo **Gestión de contratación**. El período definido para la advertencia del plazo de solicitud se usa para mostrar los proyectos de contratación que se están acercando al plazo de la solicitud en el mosaico **Se acerca el plazo de la solicitud** en el espacio de trabajo **Contratación**.
 
 Para obtener más información sobre la contratación, consulte [Reclutar candidatos para el trabajo](hr-personnel-recruit.md).
 
@@ -107,20 +107,20 @@ En la pestaña FMLA, establece los requisitos de elegibilidad de FMLA y las hora
 
 ## <a name="employee-self-service"></a>Autoservicio para empleados
 
-Los ajustes en la pestaña **Autoservicio para los empleados** afectan la apariencia del autoservicio de los empleados para los empleados. En esta pestaña, puede hacer lo siguiente:
+Los ajustes en la pestaña **Autoservicio para los empleados** afectan la apariencia del **Autoservicio para los empleados** para los empleados. En esta pestaña, puede realizar las siguientes tareas:
 
-- Introducir un nombre para el espacio de trabajo de autoservicio para el empleado
+- Introducir un nombre para el espacio de trabajo **Autoservicio para el empleado**
 - Seleccione qué información puede ingresar un gerente para los empleados
 - Agregue enlaces útiles para los empleados
 - Restrinja a los empleados para que no agreguen o editen los detalles de los contactos comerciales. Para más información, vea [Restringir la edición de información personal](hr-employee-self-service-restrict-editing.md).
 
-Para obtener más información sobre cómo configurar el autoservicio para empleados, consulte [Descripción general del autoservicio para empleados y gerentes ](hr-employee-manager-self-service-overview.md).
+Para obtener más información sobre cómo configurar **Autoservicio para empleados**, consulte [Descripción general del autoservicio para empleados y gerentes](hr-employee-manager-self-service-overview.md).
 
 ![Pestaña Autoservicio para empleados.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Autoservicio para directores
 
-Los ajustes en la pestaña **Autoservicio para gerentes** afectan lo que ven los gerentes en el autoservicio de gerentes. En esta pestaña, puede configurar las siguientes opciones:
+Los ajustes en la pestaña **Autoservicio para gerentes** afectan lo que ven los gerentes en el **Autoservicio de gerentes**. En esta pestaña, puede configurar las siguientes opciones:
 
 - El rango de registros que caducan
 - Los administradores de información pueden ver los registros que vencen
@@ -128,13 +128,13 @@ Los ajustes en la pestaña **Autoservicio para gerentes** afectan lo que ven los
 - Vistas de los trabajadores que salen
 - Enlaces útiles para gerentes
 
-Para obtener más información sobre cómo configurar el autoservicio para gerenets, consulte [Descripción general del autoservicio para empleados y gerentes](hr-employee-manager-self-service-overview.md).
+Para obtener más información sobre cómo configurar **Autoservicio para gerentes**, consulte [Descripción general del autoservicio para empleados y gerentes](hr-employee-manager-self-service-overview.md).
 
 ![Pestaña Autoservicio para directores.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Administración de prestaciones
 
-En la pestaña Administración de beneficios, puede configurar las opciones de correo electrónico para la administración de Beneficios. Para obtener más información sobre la configuración y el uso de la administración de beneficios, consulte [Resumen de gestión de beneficios](hr-benefits-management-overview.md).
+En la pestaña **Administración de prestaciones**, puede configurar las opciones de correo electrónico para la administración de prestaciones. Para obtener más información sobre la configuración y el uso de la administración de prestaciones, consulte [Resumen de gestión de prestaciones](hr-benefits-management-overview.md).
 
 ![Pestaña Administración de prestaciones.](./media/hr-setup-parameters-benefits-management.png)
 

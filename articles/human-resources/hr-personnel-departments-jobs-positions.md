@@ -1,8 +1,8 @@
 ---
 title: Organizar los recursos mediante departamentos, trabajos y puestos
-description: Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este artículo se describe información conceptual acerca de estos elementos.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Este tema describe información conceptual sobre departamentos, trabajos y puestos, que son elementos organizativos que se mantienen en Recursos humanos.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: cd50bf7e8e03d72d6d0e1e2b0b065a5d9c7a3ef44e96f92a5fc342a0d820d8e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778805"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731817"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar los recursos mediante departamentos, trabajos y puestos
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este artículo se describe información conceptual acerca de estos elementos. 
+Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este tema se describe información conceptual acerca de estos elementos. 
 
 El siguiente ejemplo se usa para ilustrar los conceptos descritos en este artículo.
 
@@ -49,7 +49,6 @@ Un departamento es una unidad operativa que representa una categoría o un área
 ## <a name="jobs-and-positions"></a>Trabajos y puestos
 Un trabajo es un conjunto de tareas y responsabilidades que deberá cumplir la persona que realiza un trabajo. Un puesto es un caso individual de un trabajo. Las áreas de responsabilidad, las tareas de trabajo, las funciones de trabajo, las aptitudes, la información sobre los estudios y los certificados necesarios para un trabajo también se requieren para puestos asociados a un trabajo.
 ### <a name="job-tasks"></a>Tareas de trabajo
-
 Puede crear tareas de trabajo que describen las tareas básicas que un trabajador de un puesto debe completar para dicho trabajo. La misma tarea de trabajo se puede agregar a varios trabajos, y los puestos para dichos trabajos heredarán dichas tareas de trabajo. En la tabla siguiente se muestran algunos ejemplos de tareas de trabajo.
 
 <table>
@@ -106,24 +105,21 @@ Los puestos son un aspecto importante del nivel inferior de una jerarquía organ
 -   Puede configurar un flujo de trabajo para que las adiciones y los cambios en los puestos requieran aprobación.
 
 ### <a name="position-duration"></a>Duración del puesto
-
 Cada puesto tiene una duración de vigencia. Este período de tiempo se conoce como duración. Por ejemplo, los puestos de verano podrían tener una duración del 1 de mayo de 2015 hasta el 31 de agosto de 2015.
 
 ### <a name="worker-assignments"></a>Asignaciones de trabajadores
-
 Al asignar un trabajador a un puesto, se ocupa dicho puesto. Puede asignar trabajadores a varios puestos, pero solo se puede asignar un único trabajador a un puesto al mismo tiempo.
 
 ### <a name="reporting-relationships"></a>Relaciones jerárquicas
+Los puestos son elementos importantes del nivel inferior de una jerarquía organizativa. En la página **Puesto**, puede especificar el puesto de mayor jerarquía para un puesto subordinado. Al asignar un trabajador a un puesto que es subordinado de otro puesto, crea una relación jerárquica entre los trabajadores asignados a los dos puestos. Por ejemplo, el puesto "Contable-A" es subordinado del puesto "Supervisor de contabilidad". Ana Bowman se asigna al puesto "Supervisor de contabilidad" y Felix Henderson se asigna al puesto "Contable-A". Esto significa que Felix Henderson informa a Ana Bowman. 
 
-Los puestos son elementos importantes del nivel inferior de una jerarquía organizativa. En el formulario Puesto, puede especificar el puesto de mayor jerarquía para un puesto subordinado. Al asignar un trabajador a un puesto que es subordinado de otro puesto, crea una relación jerárquica entre los trabajadores asignados a los dos puestos. Por ejemplo, el puesto "Contable-A" es subordinado del puesto "Supervisor de contabilidad". Kim Akers se asigna al puesto "Supervisor de contabilidad" y Sanjay Patel se asigna al puesto "Contable-A". Esto significa que Sanjay Patel es subordinado de Kim Akers. 
+Si la organización usa una jerarquía de matriz u otra jerarquía personalizada, puede configurar tipos de jerarquía de puestos y agregar relaciones jerárquicas a los puestos para cada tipo de jerarquía que configure. Por ejemplo, Olivia Wilson es directora general de Adventure Works y está asignada al puesto "Director general". Olivia gestiona el desarrollo de un producto que se usa para limpiar widgets. Olivia necesita un contable para ayudarle con las finanzas del desarrollo del producto. Por lo tanto, reclutó a Felix Henderson para ser su contable. Felix es subordinado directo de Ana Bowman, pero también trabaja con Olivia Wilson en su trabajo relacionado con las finanzas para el desarrollo del limpiador widgets. 
 
-Si la organización usa una jerarquía de matriz u otra jerarquía personalizada, puede configurar tipos de jerarquía de puestos y agregar relaciones jerárquicas a los puestos para cada tipo de jerarquía que configure. Por ejemplo, Lorri Penor es directora general de Adventure Works y está asignada al puesto "Director general". Lorri gestiona el desarrollo de un producto que se usa para limpiar widgets. Lorri necesita un contable para ayudarle con las finanzas del desarrollo del producto. Por lo tanto, reclutó a Sanjay Patel para ser su contable. Sanjay es subordinado directo de Kim Akers, pero también trabaja con Lorri Penor en su trabajo relacionado con las finanzas para el desarrollo del limpiador widgets. 
-
-Para el ejemplo anterior, se completaría las tareas siguientes para configurar la relación de trabajo entre Sanjay Patel y Lorri Penor:
+Para el ejemplo anterior, se completaría las tareas siguientes para configurar la relación de trabajo entre Felix Henderson y Ana Bowman:
 1.  Cree un tipo de jerarquía de puestos personalizado denominado "Widget" para crear una jerarquía que incluya los puestos responsables de trabajar en el producto limpiador de widgets.
 2.  Asigne el puesto Director general como puesto del que será subordinado el puesto Contable-A en la jerarquía de Widget.
 
-Use la jerarquía de puestos para ver la estructura de la jerarquía de puestos subordinados. Si tiene varias jerarquías de puestos, puede ver la jerarquía para cada tipo de jerarquía en la jerarquía de puestos. Además, puede buscar un puesto por el identificador de puesto o mediante el nombre del trabajador asignado al puesto. La jerarquía de puestos es una jerarquía organizativa.
+Use la página **Jerarquía de puestos** para ver la estructura de la jerarquía de puestos subordinados. Si tiene varias jerarquías de puestos, puede ver la jerarquía para cada tipo de jerarquía en la **Jerarquía de puestos**. Además, puede buscar un puesto por el identificador de puesto o mediante el nombre del trabajador asignado al puesto. La **Jerarquía de puestos** es una jerarquía organizativa.
 
 ## <a name="date-effective-records"></a>Registros de fecha de vigencia
 Para algunos registros, puede especificar cambios futuros al registro. La siguiente información está sujeta a fechas de vigencia.
@@ -148,20 +144,12 @@ Para algunos registros, puede especificar cambios futuros al registro. La siguie
 <td>Puestos</td>
 <td><ul>
 <li>Información detallada sobre el puesto</li>
-<li>Asignaciones de trabajador</li>
+<li>Asignaciones de trabajadores</li>
 <li>Duraciones del puesto</li>
 <li>Jerarquías de puestos</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-
-Puede modificar la información que se indica en la tabla anterior para un puesto o trabajo y especificar una fecha en la que deben aplicarse las modificaciones al puesto o trabajo. Por ejemplo, un puesto solo se puede asignar a un único trabajador, pero Sanjay Patel, asignado al puesto Contable-A, se irá en dos semanas. Joe Healy reemplazará a Sanjay Patel cuando Sanjay se vaya. Aunque Sanjay aún está asignado al puesto, puede asignar a Joe Healy al mismo puesto de modo que la asignación solo será vigente después del último día de Sanjay.
-
-
-
-
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

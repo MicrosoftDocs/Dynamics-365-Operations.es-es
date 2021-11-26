@@ -2,7 +2,7 @@
 title: Usar predicciones de pago de cliente
 description: Este tema describe los requisitos previos y los pasos generales necesarios para usar una versión de prueba de información financiera.
 author: ShivamPandey-msft
-ms.date: 07/17/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,33 +15,29 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 156136508c5465dc9351434251afc3bbdb9c6052
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386299"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752793"
 ---
 # <a name="use-customer-payment-predictions"></a>Usar predicciones de pago de cliente
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema explica cómo utilizar las predicciones de pago de clientes. Antes de utilizar esta característica, asegúrese de haber completado los pasos de configuración correspondientes. Para obtener más información, consulte [Habilitar predicciones de pago de clientes](enable-cust-paymnt-prediction.md).
 
-Puede ver las predicciones de pago de clientes en el espacio de trabajo **Administrar crédito y cobros de clientes** y en dos nuevas páginas de lista, **Predicciones de pago por transacción** y **Predicción de pago por cliente**.
+Puede ver las predicciones de pago de clientes en el espacio de trabajo **Administrar crédito y cobros de clientes** y en dos nuevas páginas de lista: **Previsiones de pago por transacción** y **Predicciones de pago de cliente**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Gestionar el espacio de trabajo de crédito y cobros de clientes
 
-El espacio de trabajo **Administrar crédito y cobros de clientes** incluye dos nuevos mosaicos, **Predicción de pago por transacción** y **Clientes con saldos atrasados elevados previstos**.
+El espacio de trabajo **Administrar crédito y cobros de clientes** incluye dos nuevos mosaicos: **Previsiones de pago por transacción** y **Predicciones de pago de cliente**.
 
-- El mosaico **Predicción de pago por transacción** muestra el número de transacciones de clientes abiertas que tienen una probabilidad de pago inferior al 50 por ciento en la categoria **Puntual**. Puede seleccionar este mosaico para abrir la página de lista **Predicciones de pago por transacción**.
-- El mosaico **Clientes con saldos atrasados altos previstos** muestra el número de clientes para los que se prevé que más de la mitad (50 por ciento) del saldo total se pagará tarde o muy tarde. Puede seleccionar este mosaico para abrir la página de lista **Predicción de pago por transacción**.
+### <a name="transaction-payment-predictions-list-page"></a>Página de lista Previsiones de pago por transacción
 
-[![Gestionar el espacio de trabajo de crédito y cobros de clientes.](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
-
-### <a name="payment-predictions-per-transaction-list-page"></a>Predicciones de pago por página de lista de transacciones
-
-En la página de lista **Predicciones de pago por transacción** puede ver la probabilidad de pago de las transacciones abiertas en las categorías **Puntual**, **Tarde** y **Muy tarde**. Para cada transacción de la cuadrícula, la columna **Probabilidad de Puntual** muestra la probabilidad de que la factura se pague en la fecha de vencimiento o antes. Si la probabilidad de un pago puntual es inferior al 50 por ciento, aparece un círculo rojo junto al porcentaje en la columna **Probabilidad de Puntual** para indicar el riesgo de pago tardío.
+En la página de lista **Previsiones de pago por transacción** puede ver la probabilidad de pago de las transacciones abiertas en las categorías **Puntual**, **Tarde** y **Muy tarde**. Para cada transacción de la cuadrícula, la columna **Probabilidad de Puntual** muestra la probabilidad de que la factura se pague en la fecha de vencimiento o antes. Si la probabilidad de un pago puntual es inferior al 50 por ciento, aparece un círculo rojo junto al porcentaje en la columna **Probabilidad de Puntual** para indicar el riesgo de pago tardío.
 
 [![Predicción de pago por página de lista de transacciones.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
@@ -55,9 +51,9 @@ Los datos de la sección **Factores principales** y de las fichas desplegables *
 
 [![Indicadores gráficos de predicciones de pago en el panel Información relacionada.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
-### <a name="payment-prediction-per-customer-list-page"></a>Predicción de pago por página de lista de clientes
+### <a name="customer-payment-predictions-list-page"></a>Página de lista Predicciones de pago de cliente
 
-La página de lista **Predicción de pago por cliente** muestra el saldo abierto total y la cantidad que se prevé que se pague en las categorías **Puntual**, **Tarde** y **Muy tarde**.
+La página de lista **Predicciones de pago de cliente** muestra el saldo abierto total y el importe que se prevé que se pague en las categorías **Puntual**, **Tarde** y **Muy tarde**.
 
 [![Predicciones de pago por página de clientes.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
@@ -81,11 +77,11 @@ En este caso, los pagos se proyectan para cada categoría de la siguiente manera
 
 La sección **Información relacionada** del lado derecho de la página muestra más detalles sobre las predicciones:
 
-- Para la transacción que se selecciona en la cuadrícula, la ficha desplegable **Predicción de pagos** muestra los detalles de las predicciones de pago en las categorías **Puntual**, **Tarde** y **Muy tarde**. La sección **Factores principales** muestra los principales factores que influyeron en los pagos. Los factores principales son los atributos de la transacción seleccionada y/o el cliente de esa transacción.
+- Para la transacción que se selecciona en la cuadrícula, la ficha desplegable **Predicción de pagos** muestra los detalles de las predicciones de pago en las categorías **Puntual**, **Tarde** y **Muy tarde**.
 - La ficha desplegable **Información del cliente** muestra la factura actual, el pago y las estadísticas de cobros del cliente para la transacción seleccionada.
 - La ficha desplegable **Historial del cliente** muestra el historial de pagos del cliente en las categorías **Puntual**, **Tarde** y **Muy tarde**.
 
-Los datos de la sección **Factores principales** y de las fichas desplegables **Información del cliente** e **Historial del cliente** ayudan a explicar las predicciones de pago. Puede ayudarle a aumentar su confianza en la eficacia de las predicciones.
+Los datos de las fichas desplegables **Información del cliente** e **Historial del cliente** ayudan a explicar las predicciones de pago. Puede ayudarle a aumentar su confianza en la eficacia de las predicciones.
 
 ## <a name="improving-the-accuracy-of-payment-predictions"></a>Mejora de la precisión de las predicciones de pagos
 
@@ -96,11 +92,5 @@ Puede ver la precisión de las predicciones de pagos yendo a **Crédito y cobros
 Si no está satisfecho con la precisión, seleccione el vínculo **Mejorar la precisión del modelo** para abrir la experiencia de la extensión AI Builder. En la experiencia de la extensión AI Builder, puede seleccionar o cancelar la selección de campos hasta que haya seleccionado los campos que crea que son más importantes para predecir con precisión las probabilidades de pago. Cuando haya terminado, puede volver a entrenar fácilmente el modelo de predicción y publicar sus cambios. El modelo de predicción recién entrenado se seleccionará automáticamente para las predicciones en Dynamics 365 Finance.
 
 [![Experiencia de extensión AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
-
-## <a name="release-details"></a>Detalles de la liberación
-
-La versión preliminar pública de Finance Insights está disponible para probarla en implementaciones en los Estados Unidos de América, Europa y el Reino Unido. Microsoft está agregando gradualmente soporte para más regiones.
-
-Las funciones de versión preliminar pública pueden y deben activarse solo en entornos de espacio aislado de nivel 2. Los modelos de configuración e IA que se crean en un entorno de espacio aislado no se pueden migrar a un entorno de producción. Para más información, consulte [Condiciones de uso suplementarias para Vistas previas de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

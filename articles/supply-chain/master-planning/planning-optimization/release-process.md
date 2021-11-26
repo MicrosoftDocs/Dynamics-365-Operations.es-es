@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec1683554e389948a64aee68e4d069be1e93cc1a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2e0145c28b40f4fbfb54ad7e7ed32fbc130c569
+ms.sourcegitcommit: 8afd0cdb39ec443fb7631c39401967cce0fac34e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567352"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7727441"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Proceso de lanzamiento de Optimización de planificación e historial de versiones
 
@@ -33,6 +33,9 @@ Debido a que las notificaciones no se muestran cuando se actualiza Optimización
 
 | Cambios | Detalles de la administración de características | Fechas de emisión |
 |---|---|---|
+| <p>Se agregó compatibilidad para fórmulas de cálculo de tiempo de proceso, ruta de producción con superposición y número de operación de producción en transacciones de requisitos.</p><p>Mensajes de error mejorados para la programación de producción relacionados con el tiempo de espera, no se pudo encontrar la capacidad y ruta cíclica.</p><p>Consistencia mejorada al calcular las fechas de recepción y emisión tanto en pedidos planificados como en pedidos firmes.</p><p>Mejoras generales de rendimiento, calidad y estabilidad. | Nombre de la función: *Programación de capacidad infinita para Optimización de planificación* | Octubre 22-27, 2021 |
+| <p>Se agregó compatibilidad para considerar el porcentaje de residuos en el cálculo del tiempo de procesamiento.</p><p>Se agregó compatibilidad para el número de operaciones y el uso de materiales durante la programación. | Nombre de la función: *Programación de capacidad infinita para Optimización de planificación* | Octubre 5-7, 2021 |
+| <p>Se agregó compatibilidad para tipos de trabajo de la ruta de producción: **Cola antes**, **Cola después** y **Tiempo de transporte**.</p><p>Mejoras generales de rendimiento, calidad y estabilidad. | Nombre de la función: *Programación de capacidad infinita para Optimización de planificación* | Septiembre 25-30, 2021 |
 | <p>Compatibilidad agregada para planes maestros con **Método de programación** establecido en *Programación de operaciones*.</p><p>En la página **Grupos de ruta**, respete la configuración de las casillas **Activación**, **Tiempo de trabajo** y **Capacidad** para filas con un **Tipo de ruta/trabajo** de *Configuración* o *Proceso*. </p><p>Mejoras generales de rendimiento, calidad y estabilidad. | <p>La programación de operaciones está disponible en la administración de características a partir de la versión 10.0.20.</p><p>Nombre de la función: *Programación de capacidad infinita para Optimización de planificación*</p>  | 9-17 de septiembre de 2021 |
 | Mejoras generales de rendimiento, calidad y estabilidad. | No se requiere administración de características. | 25–30 de agosto, 2021 |
 | <p>Se ha agregado el campo **Plazo** a pedidos planificados.</p><p>Mejoras generales de rendimiento, calidad y estabilidad.</p> | No se requiere administración de características. | 12–17 de agosto, 2021 |

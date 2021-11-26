@@ -2,7 +2,7 @@
 title: Configurar la facturación electrónica en Regulatory Configuration Services (RCS)
 description: Este tema explica cómo configurar la facturación electrónica en Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 07/29/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757983"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779679"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurar la facturación electrónica en Regulatory Configuration Services (RCS)
 
@@ -28,7 +28,7 @@ ms.locfileid: "6757983"
 
 Este tema proporciona información sobre las capacidades de configuración de la facturación electrónica en Dynamics 365 Regulatory Configuration Services (RCS).
 
-Es a través de las capacidades de configuración como la facturación electrónica le ayuda a cumplir con los requisitos comerciales y normativos de las facturas electrónicas, sin tener que programar. Y en los escenarios donde las facturas electrónicas deben aprobarse electrónicamente mediante servicios web, las capacidades de configuración también le ayudan a cumplir con los requisitos para intercambiar mensajes con servicios web, sin necesidad de codificación.
+Es a través de las capacidades de configuración como la facturación electrónica le ayuda a cumplir con los requisitos comerciales y normativos de las facturas electrónicas, sin tener que programar. Y en los escenarios donde las facturas electrónicas deben aprobarse electrónicamente mediante un servicio web, las capacidades de configuración también le ayudan a cumplir con los requisitos para intercambiar mensajes con un servicio web, sin necesidad de codificación.
 
 ## <a name="electronic-reporting"></a>Informes electrónicos
 
@@ -73,6 +73,7 @@ La siguiente tabla muestra las características de facturación electrónica que
 | España          | Factura electrónica para España (ES)      | Facturas de ventas y facturas de proyectos |
 | Europa         | Factura electrónica PEPPOL            | Facturas de ventas PEPPOL y facturas de proyectos |
 | Europa         | Factura de proveedor PEPPOL                | Facturas de proveedor de importación PEPPOL |
+| Arabia Saudí   | Factura electrónica de Arabia Saudita (SA)| Facturas de ventas y facturas de proyectos |
 
 ### <a name="preview-features"></a>Características de vista previa
 
@@ -197,6 +198,11 @@ Las siguientes listas muestran las configuraciones de formato ER que están disp
 - Factura de ventas (ES)
 - Factura de proyecto (ES)
 
+#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Factura electrónica de Arabia Saudita (SA): facturas de ventas y proyectos para Arabia Saudí
+
+- Factura electrónica de ventas (SA)
+- Factura electrónica de proyecto (SA)
+
 Además de las configuraciones de formato ER que están disponibles para usar con el servicio de Facturación Electrónica, también puede crear sus propias configuraciones de formato ER. Sin embargo, las configuraciones de formato que se crean para usar con las funciones de Facturación electrónica no admiten la referencia directa a las tablas de Finance o Supply Chain Management ni a ninguno de los metadatos correspondientes. Solo se admiten referencias a la asignación del modelo ER.
 
 ### <a name="actions"></a>Acciones 
@@ -274,7 +280,7 @@ Operadores lógicos:
 - Y
 - O
 
-Tipos de operadores:
+Tipos de operador:
 - Equal
 - Not equal
 - Greater than

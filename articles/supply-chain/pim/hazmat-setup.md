@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ac6a9b4316fa260a86c124f86d04645625e9b808
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577441"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778018"
 ---
 # <a name="set-up-hazardous-materials"></a>Configurar materiales peligrosos
 
@@ -27,7 +27,7 @@ Para utilizar la funcionalidad de materiales peligrosos, primero debe configurar
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Activar la función de materiales peligrosos en el sistema
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla o deshabilitarla si es necesario. Aquí, la característica aparece como:
 
 - **Módulo:** *Gestión de información de productos*
 - **Nombre de la función:** *Información de productos de materiales peligrosos y documentación de envío*

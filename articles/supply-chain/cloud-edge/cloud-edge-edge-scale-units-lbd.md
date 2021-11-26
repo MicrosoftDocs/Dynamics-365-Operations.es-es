@@ -1,5 +1,5 @@
 ---
-title: Implementar unidades de escalado en el perímetro en hardware personalizado mediante LBD (vista previa)
+title: Implementar unidades de escalado en el perímetro en hardware personalizado mediante LBD
 description: Este tema explica cómo aprovisionar unidades de escalado perimetrales locales mediante el uso de hardware personalizado y la implementación que se basa en datos comerciales locales (LBD).
 author: cabeln
 ms.date: 04/22/2021
@@ -9,24 +9,21 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ebbdaab9d6f040497d3158db2712e102b6e9aa8
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: f1ab0a2c289f48dd8bfb7529f0dcc694a97f18ea
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678990"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729084"
 ---
-# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd-preview"></a>Implementar unidades de escalado en el perímetro en hardware personalizado mediante LBD (vista previa)
+# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Implementar unidades de escalado en el perímetro en hardware personalizado mediante LBD
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)] <!--KFM: Until 11/1/2021 -->
 
 Las unidades de escalado perimetrales juegan un papel importante en la topología híbrida distribuida para la gestión de la cadena de suministro. En la topología híbrida, puede distribuir cargas de trabajo entre su centro de nube de Supply Chain Management y unidades de escalado adicionales en la nube o en el perímetro.
 
 Las unidades de escalado perimetrales se pueden implementar mediante la creación de datos comerciales locales (LBD) [entorno local](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) y luego configurándolo para que funcione como una unidad de escala en su topología híbrida distribuida para la gestión de la cadena de suministro. Esto se logra asociando el entorno de LBD local con un entorno de Supply Chain Management en la nube, que se ha configurado para funcionar como un centro de conectividad.  
-
-Las unidades de escalado perimetrales están actualmente en vista previa. Por lo tanto, puede utilizar un entorno de este tipo solo de acuerdo con los [términos de vista previa](https://aka.ms/scmcnepreviewterms).
 
 Este tema describe cómo configurar un entorno LBD local como una unidad de escala perimetral y luego asociarlo con un centro de conectividad.
 
@@ -36,11 +33,9 @@ Esta es una visión general de los pasos de implementación.
 
 1. **Habilite una ranura LBD en su proyecto LBD en Microsoft Dynamics Lifecycle Services (LCS).**
 
-    Durante la vista previa, las unidades de escalado perimetrales LBD se dirigen a los clientes LBD existentes. Se proporcionará un espacio limitado de espacio aislado LBD adicional de 60 días solo en situaciones específicas de los clientes.
-
 1. **Configure e implemente un entorno LBD con una base de datos *vacía*.**
 
-    Utilice LCS para implementar el entorno LBD con la topología más reciente y una base de datos vacía. Para obtener más información, consulte la sección [Configurar e implementar un entorno LBD con una base de datos vacía](#set-up-deploy) más adelante en este tema. Debe utilizar la versión 10.0.19 de Supply Chain Management con la actualización de la plataforma 43 o superior en todos los entornos de centros de conectividad y unidades de escalado.
+    Utilice LCS para implementar el entorno LBD con la topología más reciente y una base de datos vacía. Para obtener más información, consulte la sección [Configurar e implementar un entorno LBD con una base de datos vacía](#set-up-deploy) más adelante en este tema. Debe utilizar la versión 10.0.21 o posterior de Supply Chain Management en todos los entornos de centros de conectividad y unidades de escalado.
 
 1. **Cargue los paquetes de destino en los activos del proyecto LBD en LCS.**
 
@@ -60,7 +55,7 @@ En las secciones restantes de este tema se proporcionan más detalles acerca de 
 
 Este paso crea un entorno funcional LBD. Sin embargo, el entorno no tiene necesariamente las mismas versiones de plataforma y aplicación que el entorno del centro de conectividad. Además, todavía le faltan las personalizaciones y aún no se ha habilitado para funcionar como una unidad de escalado.
 
-1. Siga las instrucciones en [Configurar e implementar entornos locales (Platform update 41 y posteriores)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Debe utilizar la versión 10.0.19 de Supply Chain Management con la actualización de la plataforma 43 o superior en todos los entornos de centros de conectividad y unidades de escalado
+1. Siga las instrucciones en [Configurar e implementar entornos locales (Platform update 41 y posteriores)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Debe utilizar la versión 10.0.21 o posterior de Supply Chain Management en todos los entornos de centros de conectividad y unidades de escalado. Además, debe utilizar la versión 2.12.0 o posterior de los scripts de infraestructura. 
 
     > [!IMPORTANT]
     > Leer el resto de esta sección **antes** de completar los pasos de ese tema.
@@ -75,9 +70,50 @@ Este paso crea un entorno funcional LBD. Sin embargo, el entorno no tiene necesa
     > Este script eliminará cualquier configuración que no sea necesaria para implementar unidades de escalado perimetrales.
 
 1. Configure una base de datos que contenga datos vacíos, como se describe en [Configurar bases de datos](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb). Utilice el archivo data.bak vacío para este paso.
-1. Configure el script previo a la implementación. Para más información, consulte [Scripts para fases previas y posteriores a la implementación de agente local](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
+1. Una vez que haya completado el paso [Configurar bases de datos](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb), ejecute el siguiente script para configurar la base de datos de Scale Unit Alm Orchestrator.
 
-    1. Copie el contenido de la carpeta **ScaleUnit** en **Scripts de infraestructura** a la carpeta **Scripts** en el recurso compartido de almacenamiento de archivos del agente que se configuró en el entorno. Una ruta típica es \\\\lbdiscsi01\\agent\\Scripts.
+    > [!NOTE]
+    > No configure la base de datos de Financial Reporting durante el paso [Configurar bases de datos](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb).
+
+    ```powershell
+    .\Initialize-Database.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -ComponentName EdgeScaleUnit
+    ```
+
+    El script Initialize-Database.ps1 realiza las siguientes acciones:
+
+    1. Crea una base de datos vacía que se llame **ScaleUnitAlmDb**.
+    2. Asigne los usuarios a los roles de la base de datos, según la siguiente tabla.
+
+        | Usuario            | Tipo | Rol de base de datos |
+        |-----------------|------|---------------|
+        | svc-LocalAgent$ | gMSA | db\_owner     |
+
+1. Siga las instrucciones de [Configurar e implementar entornos locales (Platform update 41 y posteriores)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
+1. Una vez que haya completado el paso [Configurar AD FS](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb), siga estos pasos:
+
+    1. Cree una nueva aplicación de Servicios de federación de Active Directory (AD FS) que permita que el servicio Alm Orchestration se comunique con su Application Object Server (AOS).
+
+        ```powershell
+        # Host URL is your DNS record\host name for accessing the AOS
+        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
+        ```
+
+    1. Cree una nueva aplicación de Azure Active Directory (Azure AD) que permita que el servicio Alm Orchestration se comunique con el servicio de gestión de unidades de escala.
+
+        ```powershell
+        # Example .\Create-SumAADApplication.ps1 -ConfigurationFilePath ..\ConfigTemplate.xml -TenantId '6240a19e-86f1-41af-91ab-dbe29dbcfb95' -ApplicationDisplayName 'EdgeAgent-SUMCommunication-EN01'
+        .\Create-SumAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                       -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                       -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+        ```
+
+1. Siga las instrucciones de [Configurar e implementar entornos locales (Platform update 41 y posteriores)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Cuando deba ingresar la configuración para el agente local, asegúrese de habilitar las características de unidades de escala perimetral y proporcionar todos los parámetros requeridos.
+
+    ![Habilitar características de unidad de escala perimetral](media/EnableEdgeScaleUnitFeatures.png "Habilitar características de unidad de escala perimetral.")
+
+1. Antes de implementar su entorno desde LCS, configure el script previo a la implementación. Para más información, consulte [Scripts para fases previas y posteriores a la implementación de agente local](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
+
+    1. Copie el script Configure-CloudAndEdge.ps1 de la carpeta **ScaleUnit** en **Scripts de infraestructura** a la carpeta **Scripts** en el recurso compartido de almacenamiento de archivos del agente que se configuró en el entorno. Una ruta típica es \\\\lbdiscsi01\\agent\\Scripts.
     2. Cree el script **PreDeployment.ps1** que invocará los scripts utilizando los parámetros requeridos. La secuencia de comandos previa a la implementación debe colocarse en la carpeta **Scripts** en el recurso compartido de almacenamiento de archivos del agente. De lo contrario, no se puede ejecutar. Una ruta típica es \\\\lbdiscsi01\\agent\\Scripts\\PreDeployment.ps1.
 
         El contenido del script PreDeployment.ps1 se parecerá al siguiente ejemplo.
@@ -86,7 +122,7 @@ Este paso crea un entorno funcional LBD. Sin embargo, el entorno no tiene necesa
         $agentShare = '\\lbdiscsi01\agent'
         
         Write-Output "AgentShare is set to $agentShare" 
-        & $agentShare\Scripts\Configure-CloudandEdge.ps1 -AgentShare $agentShare -InstanceId '@A' -DatabaseServer 'lbdsqla01.contoso.com' -DatabaseName 'AXDB'
+        . $PSScriptRoot\Configure-CloudAndEdge.ps1 -AgentShare $agentShare -InstanceId '@A'
         ```
 
         > [!NOTE]
@@ -101,6 +137,75 @@ Este paso crea un entorno funcional LBD. Sin embargo, el entorno no tiene necesa
         >   - @#
 
 1. Implemente el entorno utilizando la topología base más reciente disponible.
+1. Una vez implementado su entorno, siga estos pasos:
+
+    1. Ejecute los siguientes comandos SQL en su base de datos empresarial (AXDB).
+
+        ```sql
+        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
+        delete from NumberSequenceTable
+        delete from NumberSequenceReference
+        delete from NumberSequenceScope
+        delete from FeatureManagementMetadata
+        delete from FeatureManagementState
+        delete from SysFeatureStateV0
+        ```
+
+    1. Aumente la sesión por lotes máxima simultánea a un valor superior a 4.
+
+        ```sql
+        Update batchserverconfig set maxbatchsessions = '<Replace with number of concurrent batch tasks you want>'
+        ```
+
+    1. Verifique que el seguimiento de cambios se haya habilitado en su base de datos comercial (AXDB).
+
+        1. Abra SQL Server Management Studio (SSMS).
+        1. Mantenga seleccionado (o haga clic con el botón derecho) su base de datos empresarial (AXDB) y luego seleccione **Propiedades**.
+        1. En la ventana que aparece, seleccione **Change Tracking** y realice los siguientes ajustes:
+
+            - **Change Tracking:** *True*
+            - **Periodo de retención:** *7*
+            - **Unidades de retención:** *Días*
+            - **Limpieza automática:** *True*
+
+    1. Agregue el ID de la aplicación AD FS que creó anteriormente (mediante el script Create-ADFSServerApplicationForEdgeScaleUnits.ps1) a la tabla de aplicaciones de Azure AD en su unidad de escala. Puede completar este paso manualmente a través de la interfaz de usuario (UI). Alternativamente, puede completarlo a través de la base de datos utilizando el siguiente script.
+
+        ```sql
+        DECLARE @ALMOrchestratorId NVARCHAR(76) = '<Replace with the ADFS Application ID created in a previous step>';
+
+        IF NOT EXISTS (SELECT TOP 1 1 FROM SysAADClientTable WHERE AADClientId = @ALMOrchestratorId)
+        BEGIN
+            INSERT INTO SysAADClientTable (AADClientId, UserId, Name, ModifiedBy, CreatedBy)
+            VALUES (@ALMOrchestratorId, 'ScaleUnitManagement', 'Scale Unit Management', 'Admin', 'Admin');
+        END
+        ```
+
+## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a>Configure un almacén de claves de Azure y una aplicación de Azure AD para permitir la comunicación entre unidades de escala
+
+1. Una vez implementado su entorno, cree una aplicación de Azure AD adicional para permitir una comunicación fiable entre su centro de conectividad y la unidad de escala.
+
+    ```powershell
+    .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                          -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                          -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+    ```
+
+1. Después de crear la aplicación, debe crear un secreto de cliente y guardar la información en un almacén de claves de Azure. Además, debe otorgar acceso a la aplicación de Azure AD que se creó, para que pueda recuperar los secretos que están almacenados en el almacén de claves. Para su comodidad, el siguiente script realizará automáticamente todas las acciones necesarias.
+
+    ```powershell
+    .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                         -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                         -SubscriptionName '<Any subscription within your tenant>' `
+                                         -ResourceGroupName '<Any resource group within your subscription>' `
+                                         -KeyVaultName '<Any key vault within your resource group>' `
+                                         -Location '<Any Azure location where Azure Key Vault is available>' `
+                                         -LCSEnvironmentId '<The LCS environment ID of your deployed scale unit>' `
+    ```
+
+    > [!NOTE]
+    > Si no hay almacén de claves que tenga el valor **KeyVaultName** expecificado, el script crea uno automáticamente.
+
+1. Añada el ID de la aplicación de Azure AD que acaba de crear (al usar el script Create-SpokeToHubAADApplication.ps1) a la tabla de aplicaciones de Azure AD en su centro de conectividad. Puede completar este paso manualmente a través de la interfaz de usuario (UI).
 
 ## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>Cargue los paquetes de destino en los activos del proyecto LBD en LCS.
 
@@ -116,122 +221,13 @@ Este paso alinea la versión de la aplicación, la versión de la plataforma y l
 1. Realice el mantenimiento del entorno LBD con el paquete combinado de aplicación/plataforma que cargó en el paso anterior.
 1. Realice el mantenimiento del entorno implementable LBD personalizado que cargó en el paso anterior.
 
-    ![Seleccionar Mantener > Aplicar actualizaciones en LCS.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Seleccione Mantener > Aplicar actualizaciones en LCS")
+    ![Aplicar actualizaciones en LCS.](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "Aplicar actualizaciones en LCS")
 
     ![Seleccionar su paquete de personalización.](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "Seleccione su paquete de personalización")
 
 ## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a>Asigne su unidad de escalado perimetral LBD a un centro de conectividad
 
-Mientras que las unidades de escalado perimetral todavía están en vista previa, debe usar las [herramientas de configuración e implementación de unidades de escalado](https://github.com/microsoft/SCMScaleUnitDevTools) que están disponibles en GitHub para asignar su unidad de escalado perimetral LBD a un centro de conectividad. El proceso permite que una configuración LBD funcione como una unidad de escalado perimetral y la asocia con el centro de conectividad. El proceso es similar a la configuración de un entorno de desarrollo one-box.
-
-1. Descargue la última versión de [SCMScaleUnitDevTools](https://github.com/microsoft/SCMScaleUnitDevTools/releases) y descomprima el contenido del archivo.
-1. Cree una copia del archivo `UserConfig.sample.xml` y nómbrelo `UserConfig.xml`.
-1. Cree una aplicación de Microsoft Azure Active Directory (Azure AD) en su inquilino Azure AD, como se menciona en la [Guía de implementación para unidades de escala y cargas de trabajo](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#aad-application-registrations).
-    1. Una vez creado, navegue hasta el formulario de aplicaciones Azure AD (SysAADClientTable) en su centro de conectividad.
-    1. Cree una nueva entrada y establezca el **Id. de cliente** como el id. de la aplicación que creó. Configure el **Nombre** en *ScaleUnits* y el **Id. de usuario** en *Admin*.
-
-1. Cree una aplicación de Servicio de federación de Active Directory (AD FS) como se menciona en la [Guía de implementación para cargas de trabajo y unidades de escalado](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#adfs-application-registrations).
-    1. Una vez creado, navegue hasta el formulario de aplicaciones Azure AD (SysAADClientTable) en su unidad de escalado perimetral.
-    1. Cree una nueva entrada y establezca el **Id. de cliente** como el id. de la aplicación que creó. Configure el **id. de usuario** en *Admin*.
-
-1. Modifique el archivo `UserConfig.xml`.
-    1. En la sección `InterAOSAADConfiguration`, introduzca la información de la aplicación Azure AD que creó anteriormente.
-        - En el elemento `AppId`, introduzca el id. de la aplicación de Azure.
-        - En el elemento `AppSecret`, introduzca el secreto de la aplicación de Azure.
-        - El elemento `Authority` debe contener la URL que especifica la autoridad de seguridad de su inquilino.
-
-        ```xml
-        <InterAOSAADConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopty56TGUedDTVhtER-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </InterAOSAADConfiguration>
-        ```
-
-    1. Bajo la sección `ScaleUnitConfiguration`, para la primera `ScaleUnitInstance`, modifique la sección `AuthConfiguration`.
-        - En el elemento `AppId`, introduzca el id. de la aplicación de Azure.
-        - En el elemento `AppSecret`, introduzca el secreto de la aplicación de Azure.
-        - El elemento `Authority` debe contener la URL que especifica la autoridad de seguridad de su inquilino.
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopdz.6d3DTVOtf9Lo-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. Además, establezca los siguientes valores para esta misma `ScaleUnitInstance`:
-        - En el elemento `Domain`, especifique la URL de su centro de conectividad. Por ejemplo: `https://cloudhub.sandbox.operations.dynamics.com/`
-        - En el elemento `EnvironmentType`, asegúrese de que está establecido el valor `LCSHosted`.
-
-    1. Bajo la sección `ScaleUnitConfiguration`, para la segunda `ScaleUnitInstance`, modifique la sección `AuthConfiguration`.
-        - En el elemento `AppId`, introduzca el id. de la aplicación de AD FS.
-        - En el elemento `AppSecret`, introduzca el secreto de la aplicación de ADFS.
-        - El elemento `Authority` debe contener la URL de su instancia de AD FS.
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>26b16f25-21d8-4d36-987b-62df292895aa</AppId>
-            <AppSecret>iZFfObgI6lLtY9kEbBjEFV98NqI5_YZ0e5SBcWER</AppSecret>
-            <Authority>https://adfs.contoso.com/adfs</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. Además, establezca los siguientes valores para esta misma `ScaleUnitInstance`:
-        - En el elemento `Domain`, especifique la URL de su unidad de escalado perimetral. Por ejemplo: https://ax.contoso.com/
-        - En el elemento `EnvironmentType`, asegúrese de que está establecido el valor LBD.
-        - En el elemento `ScaleUnitId`, introduzca el mismo valor que especificó para `InstanceId` al configurar el script de preimplementación `Configure-CloudandEdge.ps1`.
-
-        > [!NOTE]
-        > Si no usa el id. predeterminado (@A), asegúrese de actualizar ScaleUnitId para cada ConfiguredWorkload configurada en la sección Cargas de trabajo.
-
-1. Abra PowerShell y navegue hasta la carpeta que contiene el archivo `UserConfig.xml`.
-
-1. Ejecute la herramienta con este comando.
-
-    ```powershell
-    .\CLI.exe
-    ```
-
-    > [!NOTE]
-    > Después de cada acción, tendrá que volver a iniciar la herramienta.
-
-1. En la herramienta, seleccione **2. Preparar entornos para la instalación de cargas de trabajo**. A continuación ejecute los siguientes pasos:
-    1. Seleccione **1. Preparar el centro de conectividad**.
-    1. Seleccione **2. Preparar la unidad de escalado**.
-
-    > [!NOTE]
-    > Si no está ejecutando este comando desde una instalación limpia y falla, realice las siguientes acciones:
-    >
-    > - Elimine todas las carpetas de la carpeta `aos-storage` (excepto para `GACAssemblies`).
-    > - Ejecute el siguiente comando SQL en su base de datos empresarial (AXDB):
-    >
-    > ```sql 
-    > delete from storagefoler
-    > ```
-
-1. Ejecute los siguientes comandos SQL en su base de datos empresarial (AXDB):
-
-    ```sql
-    delete from FEATUREMANAGEMENTMETADATA
-    delete from FEATUREMANAGEMENTSTATE
-    delete from NUMBERSEQUENCESCOPE
-    ```
-
-1. Verifique que el seguimiento de cambios se haya habilitado en su base de datos comercial (AXDB)
-    1. Ejecute SQL Server Management Studio (SSMS).
-    1. Haga clic con el botón derecho en la base de datos de su empresa (AXDB) y seleccione propiedades.
-    1. En la ventana que se abre, seleccione **Change Tracking** y realice los siguientes ajustes:
-
-        - **Change Tracking:** *True*
-        - **Periodo de retención:** *7*
-        - **Unidades de retención:** *Días*
-        - **Limpieza automática:** *True*
-
-1. En la herramienta, seleccione **3. Instalar cargas de trabajo**. A continuación ejecute los siguientes pasos:
-    1. Seleccione **1. Instalar en centro de conectividad**.
-    1. Seleccione **2. Instalar en unidad de escalado**.
+Configure y administre su unidad de escala perimetral a través del Portal de administración de unidades de escala. Para más información, vea [Administre cargas de trabajo y unidades de escala mediante el portal Scale Unit Manager](./cloud-edge-landing-page.md#scale-unit-manager-portal).
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-oldolg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 28f902c589cd80f1c34dc2758232548309db9aca
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474637"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790947"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Cumplimiento de existencias de seguridad para los artículos
 
@@ -189,5 +189,9 @@ El cumplimiento de la transacción de requisitos de existencias de seguridad no 
 Durante la fase de cobertura de planificación maestra, el reabastecimiento de existencias de seguridad no pierde prioridad. El inventario disponible se puede usar antes que cualquier otro tipo de demanda. Durante el cálculo del retraso, se agregará una nueva lógica para repasar las líneas de ventas retrasadas, los requerimientos de las líneas de LM y todos los otros tipos de demanda, para determinar si podrían entregarse a tiempo, siempre que se utilicen existencias de seguridad. Si el sistema identifica que puede minimizar los retrasos mediante las existencias de seguridad, las líneas de ventas o las líneas de LM reemplazarán su cobertura inicial con las existencias de seguridad y el sistema activará el reabastecimiento de las existencias de seguridad.
 
 Si el plan o el artículo no están configurados para el cálculo de retrasos, la restricción de existencias de seguridad tendrá la misma prioridad que cualquier otro tipo de demanda. Esto significa que hay una reserva de inventario y otro inventario disponible antes de que otros tipos de demanda.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+- [Usar el diario de existencias de seguridad para actualizar la cobertura mínima para artículos](safety-stock-journal.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

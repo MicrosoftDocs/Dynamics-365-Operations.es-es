@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f4a7ee091d73e2104571ac9134a9de9bab0a7074
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575473"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777776"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Mejoras de cXML de compra
 
@@ -28,7 +28,7 @@ La característica _Mejoras de cXML de compra_ se basa en la [funcionalidad de c
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>Activar la característica Mejoras de cXML de compra
 
-Para activar la característica, abra la página **[Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** y busque la característica denominada *Mejoras de cXML de compra*. Seleccione la característica y, a continuación, seleccione **Habilitar ahora** para activarla.
+Para activar la característica, abra la página **[Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** y busque la característica denominada *Mejoras de cXML de compra*. Seleccione la característica y, a continuación, seleccione **Habilitar ahora** para activarla. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 Después de activar la característica, debe establecer su configuración en las tres áreas siguientes:
 

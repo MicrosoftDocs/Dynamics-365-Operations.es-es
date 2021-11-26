@@ -2,7 +2,7 @@
 title: Módulo de iframe
 description: En este tema se trata el modulo de iframe y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767299"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754023"
 ---
 # <a name="iframe-module"></a>Módulo de iFrame
 
@@ -66,10 +66,13 @@ Para agregar un módulo de iframe a una página para mostrar un vídeo externo, 
 1. Establecer otras propiedades, como **Bóveda** y **Altura**, como lo requiera.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 1. Vaya a la página de marketing en su sitio. Debería ver que el vídeo se representa en el módulo de iframe.
- 
+
+> [!NOTE]
+> Debido a que el módulo de iframe hospeda contenido externo, los autores del sitio deben asegurarse de que el contenido hospedado en un módulo de iframe no infrinja las directivas de restricción de contenido en el mercado respectivo. Si hay una infracción de contenido en una página que utiliza el módulo de iframe, el autor del sitio puede eliminar el módulo de iframe abriendo la página en el creador del sitio y seleccionando **Quitar módulo** en la ranura del módulo de iframe y luego guardar y volver a publicar la página.
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la biblioteca de módulos](starter-kit-overview.md)
+[Descripción general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Administrar la directiva de seguridad de contenido (CSP)](manage-csp.md)
 

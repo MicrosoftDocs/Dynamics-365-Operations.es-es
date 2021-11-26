@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576961"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777749"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurar tarjeta de trabajo para dispositivos
 
@@ -34,19 +34,19 @@ Algunas de las configuraciones descritas en este tema deben estar habilitadas en
 
 Para que esta característica esté disponible, habilite las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en orden):
 
-1. Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo
+1. Matrícula de entidad de almacén para informes de terminado agregada al dispositivo de tarjeta de trabajo (a partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de manera predeterminada).
 1. Habilitar la generación automática de matrícula de entidad de almacén al informar como terminado en el dispositivo de tarjetas de trabajo
 
 ### <a name="print-label"></a>Imprimir etiqueta
 
 Para que esta característica esté disponible, habilite las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en orden):
 
-1. Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo
+1. Matrícula de entidad de almacén para informes de terminado agregada al dispositivo de tarjeta de trabajo (a partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de manera predeterminada).
 1. Imprimir etiqueta desde dispositivo de tarjeta de trabajo
 
 ### <a name="allow-locking-of-touch-screen"></a>Permitir el bloqueo de la pantalla táctil
 
-Para que esta característica esté disponible, habilite la siguiente característica en la [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Si desea usarla, asegúrese de que la siguiente función está activada en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Función para bloquear un dispositivo de tarjeta de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar
 

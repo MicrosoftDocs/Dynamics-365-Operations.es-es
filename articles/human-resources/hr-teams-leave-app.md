@@ -1,8 +1,8 @@
 ---
 title: Administrar solicitudes de baja en Teams
 description: Este tema muestra cómo solicitar tiempo libre en la aplicación Dynamics 365 Human Resources en Microsoft Teams.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94fa4dca7ff8372d4cf1aeee225e821574f4104048db5ad8a816be2bce496de8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725875"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771540"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de bajas en Teams
 
@@ -41,7 +41,7 @@ Puede encontrar la aplicación Dynamics 365 Human Resources en la tienda de Team
 Si la aplicación no inicia sesión automáticamente, seleccione la pestaña **Configuración** para iniciar sesión.
 
 > [!NOTE]
-> Si no ve un cuadro de diálogo de inicio de sesión, verifique la configuración de su navegador para permitir ventanas emergentes. 
+> Si no ve un cuadro de diálogo de inicio de sesión, actualice la configuración de su navegador para permitir ventanas emergentes. 
 
 Si tiene acceso a más de una instancia de Recursos humanos, puede seleccionar a qué entorno desea conectarse en la pestaña **Configuración**.
 
@@ -53,7 +53,7 @@ Si tiene acceso a más de una instancia de Recursos humanos, puede seleccionar a
 Después de la instalación de la aplicación, aparece un mensaje de bienvenida, que le permite saber los tipos de acciones que el bot puede tomar en su nombre.
 
 > [!NOTE]
-> Al interactuar por primera vez con el bot, es posible que deba iniciar sesión. Si no ve un cuadro de diálogo de inicio de sesión, verifique la configuración de su navegador para permitir ventanas emergentes.
+> Al interactuar por primera vez con el bot, es posible que deba iniciar sesión. Si no ve un cuadro de diálogo de inicio de sesión, actualice la configuración de su navegador para permitir ventanas emergentes.
 
 Puede pedirle al bot que:
 
@@ -83,7 +83,7 @@ La pestaña **Tiempo libre** le permite ver:
 
 - Próximas solicitudes de baja
 
-- Solicitudes de tiempo libre
+- Solicitudes de baja
 
 - Borrador de solicitudes de baja
  
@@ -113,7 +113,7 @@ La pestaña **Tiempo libre** le permite ver:
    
 ### <a name="respond-to-teams-notifications"></a>Responder a notificaciones de Teams
 
-Cuando usted o un trabajador del que es aprobador envíen una solicitud de baja, recibirá una notificación en la aplicación Human Resources en Teams. Puede seleccionar la notificación para verla. Las notificaciones también aparecen en el área **Chat**.
+Cuando usted o un trabajador del que es aprobador envíen una solicitud de baja, recibirá una notificación en la aplicación Human Resources en Teams. Puede seleccionar la notificación para ver la solicitud de baja. Las notificaciones también aparecen en el área **Chat**.
 
 Si es un aprobador, puede seleccionar **Aprobar** o **Denegar** en la notificación. También puede proporcionar un mensaje opcional.
 
@@ -167,7 +167,7 @@ Si tiene problemas para iniciar sesión o utilizar la aplicación Dynamics 365 H
 
 Si no puede iniciar sesión en la aplicación, es posible que la cuenta que está usando para iniciar sesión en Microsoft Teams no está asociado con un registro de empleado en Dynamics 365 Human Resources. Comuníquese con el administrador del sistema para asegurarse de que su registro de empleado esté asociado correctamente.
 
-### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>No puedo encontrar el entorno Dynamics 365 Human Resources en Configuración
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>No puedo encontrar el entorno Dynamics 365 Human Resources en configuración
 
 Si no puede seleccionar el entorno de Dynamics 365 correcto, es posible que el registro de usuario no se haya sincronizado correctamente. Póngase en contacto con el administrador del sistema para volver a crear el registro de usuario y asociarlo con las credenciales de usuario. Luego intente iniciar sesión en la aplicación Human Resources para Microsoft Teams en poco tiempo.
 
@@ -199,7 +199,7 @@ Si recibe un error cuando intenta aprobar solicitudes de permiso en la aplicaci�
 
 2. Asegúrese de que los usuarios estén conectados en la pestaña **Chats** con las mismas credenciales que utilizan para aprobar solicitudes de baja. Utilice los mensajes "cerrar sesión" y luego "iniciar sesión" para iniciar sesión con las credenciales correctas.
 
-3. Si el problema persiste, verifique el estado del trabajo por lotes del sistema Business Events como administrador del sistema. Si está en una etapa de espera o ejecución, vuelva a consultar en unos minutos. Si el estado permanece sin cambios, registre un vale de soporte para que nuestro equipo pueda ayudar a resolver el problema.
+3. Si el problema persiste, verifique el estado del trabajo por lotes del **sistema Business Events** como administrador del sistema. Si está en una etapa **En espera** o **En ejecución**, vuelva a consultar en unos minutos. Si el estado permanece sin cambios, registre un vale de soporte para que nuestro equipo pueda ayudar a resolver el problema.
 
 ## <a name="known-accessibility-issues"></a>Problemas de accesibilidad conocidos
 
@@ -208,7 +208,7 @@ La aplicación Human Resources en Teams tiene los siguientes problemas de accesi
 | Emitir | Solución alternativa o explicación |
 | --- | --- |
 | Hacer zoom al 400 % en el escritorio oculta algunos de los botones de acción de la vista. | Recomendamos usar una lupa en su lugar hasta que podamos admitir este nivel de zoom. |
-| En la pestaña **Tiempo libre**, VoiceOver anuncia la acción de un botón mientras se lee el encabezado de la cuadrícula de tiempo libre. | El encabezado y los elementos de la cuadrícula están agrupados por año y se pueden contraer. VoiceOver interpreta esto como un elemento procesable, pero no lo es. |
+| En la pestaña **Tiempo libre**, VoiceOver anuncia la acción de un botón mientras se lee el encabezado de la cuadrícula de tiempo libre. | El encabezado y los elementos de la cuadrícula están agrupados por año y se pueden contraer. VoiceOver interpreta esta presentación como un elemento procesable, pero no lo es. |
 | En la pestaña **Tiempo libre**, hay un gesto adicional de deslizar rápidamente al navegar a **Código de razón** en una nueva solicitud. | No hay ningún control oculto al que esté intentando obtener acceso la navegación por deslizamiento. |
 | En la pestaña **Tiempo libre**, si desliza el dedo mientras el calendario está abierto, terminará fuera del control en lugar de en la parte superior de una nueva solicitud o mientras edita una solicitud. | Al llegar a **Ir a hoy**, considérelo como el final del control y deslice el dedo en la dirección inversa para volver a la parte superior. |
 | En la pestaña **Chat**, el foco vuelve a la parte superior cuando introduce una fecha mientras usa la herramienta de asistencia o la navegación del teclado. | Desplácese con el tabulador hasta que llegue a su área de entrada de nuevo. |
@@ -217,9 +217,9 @@ La aplicación Human Resources en Teams tiene los siguientes problemas de accesi
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Servicio inteligente de comprensión del lenguaje de Microsoft (LUIS)
 
-Con el bot de Dynamics 365 Human Resources en Microsoft Teams, las entradas de texto del usuario se analizan para comprender la consulta/intención subyacente. La entrada del usuario como “Buscar cuenta de Contoso” se enruta a uno de los Servicios cognitivos de Microsoft, denominado Servicio inteligente de comprensión del lenguaje (LUIS). Obtenga más información sobre LUIS [aquí](https://www.luis.ai/). El servicio LUIS desambigua o comprende la intención de la entrada del usuario (en este caso, la intención es encontrar información) y la entidad objetivo (en este caso, la entidad objetivo es una cuenta llamada Contoso). Esta información se pasa luego al  [marco de bot de Azure](https://azure.microsoft.com/services/bot-service/) de Microsoft, que interactúa con los datos de Dynamics 365 Human Resources y recupera la información deseada para la consulta del usuario. 
+Con el bot de Dynamics 365 Human Resources en Microsoft Teams, las entradas de texto del usuario se analizan para comprender la consulta/intención subyacente. La entrada del usuario como “Buscar cuenta de Contoso” se enruta a uno de los Servicios cognitivos de Microsoft, denominado Servicio inteligente de comprensión del lenguaje (LUIS). Obtenga más información sobre LUIS [aquí](https://www.luis.ai/). El servicio LUIS desambigua o comprende la intención de la entrada del usuario (en este caso, la intención es encontrar información) y la entidad objetivo (en este caso, la entidad objetivo es una cuenta llamada Contoso). Esta información se pasa luego al  [Azure bot framework](https://azure.microsoft.com/services/bot-service/) de Microsoft, que interactúa con los datos de Dynamics 365 Human Resources y recupera la información deseada para la consulta del usuario. 
 
-Al instalar y permitir el acceso al uso del bot, usted acepta permitir que el servicio LUIS y el marco del bot de Azure procesen la intención de detrás de la entrada, lo que da por resultado una experiencia de usuario conversacional mejorada. El servicio LUIS y el marco de bot de Azure pueden tener diferentes niveles de cumplimiento en comparación con Dynamics 365 Human Resources. Si bien el servicio LUIS solo tiene acceso a las consultas del usuario y no está diseñado para conectarse a datos o a la cuenta Dynamics 365 Human Resources del usuario, un usuario del bot Dynamics 365 Human Resources podría Introducir voluntariamente una consulta que contenga datos del cliente, datos personales u otros datos y dicho contenido de la consulta podría enviarse al servicio LUIS y al marco del bot de Azure. 
+Al instalar y permitir el acceso al uso del bot, usted acepta permitir que el servicio LUIS y el marco del bot de Azure procesen la intención de detrás de la entrada, lo que da por resultado una experiencia de usuario conversacional mejorada. El servicio LUIS y el marco de bot de Azure pueden tener diferentes niveles de cumplimiento en comparación con Dynamics 365 Human Resources. Si bien el servicio LUIS solo tiene acceso a las consultas del usuario y no está diseñado para conectarse a datos o a la cuenta Dynamics 365 Human Resources del usuario, un usuario del bot Dynamics 365 Human Resources podría Introducir voluntariamente una consulta que contenga datos del cliente, datos personales u otros datos y dicho contenido de la consulta podría enviarse al servicio LUIS y al Azure bot framework. 
 
 El contenido de las consultas y los mensajes del usuario se conserva en el sistema LUIS durante un máximo de 30 días, se cifra en reposo y no se utiliza para la formación ni la mejora del servicio. Puede obtener más información sobre servicios cognitivos  [aquí](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 

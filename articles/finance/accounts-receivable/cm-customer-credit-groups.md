@@ -1,7 +1,7 @@
 ---
 title: Grupos de crédito del cliente
 description: Este tema proporciona información sobre los grupos de crédito de cliente.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 360f5114205e33f1288b766f525625bc8fe19a2aacc1db5e35f28a72937e97b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c8a007dcaaa9e10ab36dd3a7d0f80dd49b8e4d63
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724000"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753859"
 ---
 # <a name="customer-credit-groups"></a>Grupos de crédito del cliente
 

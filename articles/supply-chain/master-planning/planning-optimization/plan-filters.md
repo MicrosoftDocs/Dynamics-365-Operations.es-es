@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: c2fbaa6945cf46b7ef09232e6004f09b487ea7c822e72225dc00d3d28ecb008e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780207"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729036"
 ---
 # <a name="apply-filters-to-a-plan"></a>Aplicar filtros a un plan
 
@@ -43,7 +43,7 @@ Se configura un filtro de planes que incluye los artículos A, B, y C. Después 
 - **Filtro de tiempo de ejecución que incluye todos los artículos (filtro en blanco):** los artículos A, B, y C se incluye en la ejecución de la planificación y el resultado de la planificación anterior para los artículos A y B se anula.
 
 > [!NOTE]
-> Debe evitar definir un filtro del plan en el plan seleccionado como **Plan maestro dinámico actual** en la página **Parámetros de planificación maestra**. De lo contrario, la funcionalidad dinámica del plan maestro se limitará a los artículos filtrados. Por ejemplo, si los requisitos netos se actualizan para un elemento que no sea parte del filtro del plan, no se generará ningún resultado.
+> Si establece un filtro de plan en el plan que se selecciona como **Plan maestro dinámico actual** en la página **Parámetros de planificación maestra**, la funcionalidad del plan maestro dinámico se limitará a los elementos filtrados. Por ejemplo, si los requisitos netos se actualizan para un elemento que no sea parte del filtro del plan, no se generará ningún resultado.
 
 ## <a name="related-resources"></a>Recursos relacionados
 

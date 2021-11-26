@@ -2,7 +2,7 @@
 title: Página principal de Finance Insights
 description: Finance Insights proporciona modelos configurables y extensibles para ayudarle a predecir con precisión e inteligencia el flujo de efectivo de su empresa, predecir cuándo recibirá los pagos pendientes y generar una propuesta de presupuesto que puede acelerar su proceso de presupuestación. Todas estas características se basan en modelos de Machine Learning inteligentes.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,24 +17,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 3c6320043000dc07eea3128a10c16cfd54b13334
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386395"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752865"
 ---
 # <a name="finance-insights-home-page"></a>Página principal de Finance Insights
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights proporciona modelos configurables y extensibles para ayudarle a predecir con precisión e inteligencia el flujo de efectivo de su empresa, predecir cuándo recibirá los pagos pendientes y generar una propuesta de presupuesto que puede acelerar su proceso de presupuestación. Todas estas características se basan en modelos de Machine Learning inteligentes. Cuando estas nuevas capacidades se combinan con la automatización en los pagos y cobros de proveedores, brindan un sistema financiero rico e inteligente que impulsa la toma de decisiones y le ayuda a tomar medidas para responder de manera efectiva a los desafíos comerciales actuales y anticipados.
-
-> [!NOTE]
-> La versión preliminar pública de Finance Insights está disponible para la implementación en los Estados Unidos de América, Canadá, Reino Unido, Europa, Asia Pacífico, Australia y Nueva Zelanda. Microsoft está agregando gradualmente soporte para más regiones. Para habilitar Finance Insights sobre los entornos de producción, [Exportar a Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) las capacidades deben habilitarse primero en el entorno de producción.
+Finance Insights proporciona modelos configurables y extensibles para ayudarle a predecir con inteligencia el flujo de efectivo de su empresa, predecir cuándo recibirá los pagos pendientes y generar una propuesta de presupuesto que puede acelerar su proceso de presupuestación. Todas estas características se basan en modelos de Machine Learning inteligentes. Cuando estas nuevas capacidades se combinan con la automatización en los pagos y cobros de proveedores, brindan un sistema financiero rico e inteligente que impulsa la toma de decisiones y le ayuda a tomar medidas para responder de manera efectiva a los desafíos comerciales actuales y anticipados.
 
 > [!NOTE]
-> Esta funcionalidad se ofrece como un conjunto de funciones de vista previa. Como función de vista previa, no debe utilizar los modelos de aprendizaje automático resultantes para impulsar o influir en sus decisiones comerciales o propuestas presupuestarias. Su uso de esta función se rige por [Términos de uso suplementarios](https://go.microsoft.com/fwlink/?linkid=2105274).
+> La versión preliminar pública de Finance Insights está disponible para la implementación en los Estados Unidos de América, Canadá, Reino Unido, Europa, Asia Pacífico, Japón, Australia y Nueva Zelanda. Microsoft está agregando gradualmente soporte para más regiones.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -50,28 +48,15 @@ Se requiere un entorno de nivel 2 (caja múltiple) para obtener una vista previa
 
 ### <a name="version-requirements"></a>Requisitos de las versiones
 
-Este documento se aplica a la versión 10.0.11 de las aplicaciones de Finance and Operations (actualización de la plataforma 35) y versiones posteriores.
+Este tema se aplica a Microsoft Dynamics 365 Finance versión 10.0.21 y posteriores.
 
 ### <a name="historical-data-requirements"></a>Requisitos de datos históricos
 
-Se requiere al menos un año de facturas de clientes para entrenar correctamente el modelo de Machine Learning que se usa para la característica de predicciones de pagos de clientes.
+Se requiere al menos un año de facturas de clientes para entrenar correctamente el modelo de Machine Learning que se usa para la característica de predicciones de pagos de clientes. Se recomiendan tres años de datos históricos para las previsiones de flujo de efectivo. Se recomiendan tres años de presupuesto histórico y/o datos reales para propuestas presupuestarias inteligentes.
 
-### <a name="role-and-permission-requirements"></a>Requisitos de roles y permisos
+## <a name="configure-finance-insights"></a>Configurar Finance Insights
 
-Se realizarán cambios en Microsoft Dynamics 365 Finance, Microsoft Dynamics Lifecycle Services (LCS), Power Apps y Azure. Se requieren permisos correctos en estos entornos. Estos son algunos ejemplos de los cambios que se harán:
-
-- Se creará un nuevo entorno en Microsoft Power Platform.
-- Se crearán una cuenta de almacenamiento, un almacén de claves y una aplicación en Azure.
-- El administrador de inquilinos de Active Directory tendrá que autorizar a la aplicación AI Builder para acceder al lago de datos.
-- La característica se activará en Dynamics 365.
-
-Será útil familiarizarse con el proceso de creación y administración de recursos en Azure, Microsoft Dataverse y LCS, a medida que complete este proceso.
-
-## <a name="configure-finance-insights"></a>Configurar la información financiera
-
-Debe completar algunos pasos de configuración antes de poder utilizar la información finaciera. Para obtener más información acerca de Finance insights, consulte:
-  - Para versiones hasta la 10.0.19: [Configuración de Finance insights (vista previa) - hasta la versión 10.0.19](configure-for-fin-insites.md).
-  - Para las versiones 10.0.20 y posteriores: [Configuración de Finance Insights (versión preliminar): versiones 10.0.20 y posteriores](configure-for-fin-insites-PubPrvw.md).
+Debe completar pasos de configuración antes de poder utilizar Finance Insights. Para obtener más información sobre cómo configurar la información financiera, consulte [Configuración de información financiera](configure-for-fin-insites.md).
 
 ## <a name="create-a-data-integrator-project"></a>Crear un proyecto integrador de datos
 
@@ -97,17 +82,14 @@ La función de propuestas de presupuestos utiliza un modelo de Machine Learning 
 
 ### <a name="using-customer-payment-predictions"></a>Uso de las predicciones de pago de clientes
 
-La previsión de flujo de efectivo inteligente se basa en la funcionalidad de previsión de flujo de efectivo existente en Dynamics 365 Finance. Para revisar la capacidad existente, consulte [Previsión de flujo de efectivo](../cash-bank-management/cash-flow-forecasting.md).
-
-- Para saber cómo las predicciones de pago de clientes pueden proporcionar la información necesaria para ser actividades de cobro de manera proactiva, consulte [Utilizar las predicciones de pagos de clientes](use-customer-payment-predictions.md).
+- Para saber cómo las predicciones de pago de clientes pueden proporcionar la información necesaria para comenzar actividades de cobro de manera proactiva, consulte [Utilizar las predicciones de pagos de clientes](use-customer-payment-predictions.md).
 - Para obtener información que pueda ayudarle a evaluar la efectividad del modelo de predicción después de que haya comenzado a usar la característica, consulte [Evaluar el modelo de predicción de pagos inicial del cliente](evaluate-payment-prediction.md).
 - Para obtener información que pueda ayudarlo a ajustar los datos que se utilizan para construir la predicción y, por lo tanto, mejorar su efectividad, consulte [Mejorar el modelo de predicción](improve-model.md).
-
-Para obtener más información sobre los resultados de los modelos de predicción, consulte [Resultados de los modelos de Machine Learning](confusion-matrix.md).
+- Para obtener más información sobre los resultados de los modelos de predicción, consulte [Resultados de los modelos de Machine Learning](confusion-matrix.md).
 
 ### <a name="using-cash-flow-forecasts"></a>Uso de las previsiones de flujo de efectivo
 
-La capacidad de pronóstico de flujo de efectivo puede ayudarle a estimar con mayor precisión su posición de efectivo. 
+La capacidad de pronóstico de flujo de efectivo puede ayudarle a estimar con mayor precisión su posición de efectivo. La previsión de flujo de efectivo inteligente se basa en la funcionalidad de previsión de flujo de efectivo existente en Dynamics 365 Finance. Para revisar la capacidad existente, consulte [Previsión de flujo de efectivo](../cash-bank-management/cash-flow-forecasting.md).
 
 - Para conocer las nuevas capacidades de los pronósticos de flujo de efectivo, consulte [Pronóstico de flujo de efectivo](cash-flow-forecast-intro.md).
 - Para obtener información sobre la importación de datos externos para incluirlos en su pronóstico de flujo de efectivo aquí, consulte [Utilizar datos externos en las previsiones de flujo de efectivo](external-data-in-cash-flow.md). 
@@ -120,6 +102,6 @@ Para obtener información sobre cómo acelerar la creación de un presupuesto, c
 
 ## <a name="feedback-and-support"></a>Comentarios y soporte técnico
 
-Envíe un correo electrónico a [Información sobre pagos de clientes (Vista previa)](mailto:fiap@microsoft.com) si está interesado en proporcionar comentarios o necesita ayuda.
+Si está interesado en proporcionar comentarios o si necesita asistencia, envíe un correo elecrónico a [Finance Insights](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

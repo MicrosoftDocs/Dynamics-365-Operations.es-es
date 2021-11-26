@@ -2,7 +2,7 @@
 title: Habilitar propuestas de presupuesto
 description: Este tema explica cómo activar la función de propuesta de presupuesto en Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ab65d1b0e366bfe6bdb07688f89d440662165063
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386495"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752721"
 ---
-# <a name="enable-budget-proposals"></a>Habilitar propuestas de presupuesto
+# <a name="enable-budget-proposal"></a>Habilitar propuestas de presupuesto
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema explica cómo activar la función de propuesta de presupuesto en Finance Insights.
 
-1. Utilice la información de la página de entorno en Microsoft Dynamics Lifecycle Services (LCS) para conectarse a la instancia principal de Azure SQL para ese entorno. Ejecute el siguiente comando Transact-SQL (T-SQL) para activar paquetes piloto para el entorno de espacio aislado. (Es posible que tenga que activar el acceso para su dirección IP en LCS antes de poder conectarse de forma remota a Application Object Server \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Omita este paso si usa la versión 10.0.20 o posterior, o si usa una implementación de Service Fabric. El equipo de información financiera ya debería haber activado el paquete piloto por usted. Si no ve la característica en el espacio de trabajo **Administración de características**, o si experimenta problemas al intentar activarlas, póngase en contacto con <fiap@microsoft.com>.
-
-2. Abra el espacio de trabajo **Administración de funciones** y siga estos pasos:
+1. Abra el espacio de trabajo **Administración de funciones** y siga estos pasos:
 
     1. Seleccione **Buscar actualizaciones**.
-    2. Busque **Propuesta de presupuesto** y active esa característica.
+    2. En la pestaña **Todos**, busque **Propuesta de presupuesto**. Si no encuentra esa caraterística, busque **Propuesta de presupuesto (versión preliminar)**. 
+    3. Activar la característica.
 
-3. Vaya a **Presupuestación \> Configurar \> Presupuesto básico \> Propuesta de presupuesto (versión preliminar)** y seleccione **Habilitar característica**.
+2. Vaya a **Presupuestación \> Configurar \> Presupuesto básico \> Propuesta de presupuesto** y seleccione **Habilitar característica**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

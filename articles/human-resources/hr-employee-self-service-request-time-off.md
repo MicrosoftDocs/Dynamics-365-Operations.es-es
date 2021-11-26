@@ -1,8 +1,8 @@
 ---
 title: Solicitar licencia
 description: Solicite licencia en Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756109"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771421"
 ---
 # <a name="request-time-off"></a>Solicitar licencia
 
@@ -42,7 +42,7 @@ Puede enviar solicitudes de permisos, ver sus saldos de vacaciones y bajas, y ve
 
 6. Seleccione **Enviar** cuando esté listo para enviar su solicitud. De lo contrario, seleccione **Guardar borrador**.
 
-Los empleados que envían una nueva solicitud de licencia pueden seleccionar diferentes tipos de licencia para construir su solicitud de licencia. Sin embargo, todos los tipos de licencia que se seleccionan como parte de una única solicitud de licencia deben tener la misma unidad de licencia. Los empleados pueden ver la unidad de licencia para cada tipo de licencia formulario **Solicitar tiempo libre**.
+Los empleados que envían una nueva solicitud de licencia pueden seleccionar diferentes tipos de licencia para construir su solicitud de licencia. Sin embargo, todos los tipos de licencia que se seleccionan como parte de una única solicitud de licencia deben tener la misma unidad de licencia. Los empleados pueden ver la unidad de licencia para cada tipo de licencia en la página **Solicitar permiso**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Agregar un archivo adjunto a una solicitud existente
 
@@ -64,7 +64,7 @@ Al actualizar una solicitud de permiso existente, puede agregar un archivo adjun
 
 1. En el espacio de trabajo **Autoservicio para empleados**, seleccione **Ver permisos** en el mosaico **Saldos de permisos**.
 
-2. En el formulario **Tiempo libre**, seleccione una o más solicitudes de tiempo libre para cancelar.
+2. En la página **Tiempo libre**, seleccione una o más solicitudes de tiempo libre para cancelar.
 
 3. Seleccione el botón **Cancelar**.
 

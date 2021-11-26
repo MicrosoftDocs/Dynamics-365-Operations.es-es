@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577849"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778068"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
@@ -205,7 +205,7 @@ La siguiente tabla resume los efectos de la configuración **Permitir recibo de 
 | Permitir recibo de múltiples productos por carga | Cantidad de carga | Estado de la carga | Billete |
 |---|---|---|---|
 | Cuando este campo no está disponible (versiones anteriores a 10.0.10) | <p>La cantidad de carga se establece para que sea igual a la cantidad registrada.</p><p>Si la cantidad de carga se actualiza a 0 (cero), lo que significa que no se ha realizado ningún registro, la línea de carga se elimina.</p><p>Si no hay líneas de carga en la carga, la carga se elimina.</p> | _Recibida_ | Si existen varias cargas para la cantidad registrada de la línea de pedido, solo el estado de la carga desde la que se registró el recibo se actualiza a _Recibido_. |
-| Nº | <p>La cantidad de carga se establece de modo que sea igual a la cantidad registrada que está asociada con la ID de carga.</p><p>Si no se registra ninguna ID de carga para la transacción de inventario, el comportamiento coincide con el comportamiento en versiones anteriores a 10.0.10.</p> | _Recibida_ | |
+| No | <p>La cantidad de carga se establece de modo que sea igual a la cantidad registrada que está asociada con la ID de carga.</p><p>Si no se registra ninguna ID de carga para la transacción de inventario, el comportamiento coincide con el comportamiento en versiones anteriores a 10.0.10.</p> | _Recibida_ | |
 | Sí | Sin actualizaciones | _Recibido_, si la cantidad de carga total registrada es igual o mayor que la cantidad de carga | |
 | Sí | Sin actualizaciones | _Enviado_ o _En proceso_, si la cantidad de carga total registrada es menor que la cantidad de carga | |
 
@@ -267,7 +267,7 @@ Estos escenarios requieren la característica _Múltiples contabilizaciones de r
 
 1. Abra el espacio de trabajo **Administración de características**. (Para obtener detalles completos sobre cómo encontrar y usar este espacio de trabajo, vea [Resumen de gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)).
 
-1. Active la característica _Asociar transacciones de inventario de orden de compra con carga_, que se enumera de la siguiente manera:
+1. Asegúrese de que la función _Asociar transacciones de inventario de pedido de compra a carga_ está activada. A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar. Sin embargo, la característica sigue apareciendo en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de la siguiente forma:
 
     - **Módulo:** _Gestión de almacén_
     - **Nombre de la característica:** _Asociar transacciones de inventario de orden de compra con carga_

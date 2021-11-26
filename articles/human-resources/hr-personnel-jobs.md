@@ -1,26 +1,26 @@
 ---
 title: Configurar los componentes de un trabajo
-description: Este artículo describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización.
-author: andreabichsel
-ms.date: 06/24/2021
+description: Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754785"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731549"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Configurar los componentes de un trabajo
 
@@ -60,7 +60,7 @@ Las funciones de trabajo describen categorías funcionales de alto nivel y deber
 Se mantienen las funciones de trabajo mediante la página **Funciones de trabajo**. En la página **Funciones de trabajo**, especifique un código de identificación y una descripción breve para la función de trabajo.
 
 ## <a name="compensation"></a>Compensación
-Para asignar un plan de compensación fijo a un empleado que tiene un puesto en un trabajo, debe establecer niveles de compensación en el trabajo. El nivel de compensación se utiliza cuando las cantidades mínima, media y máxima se establecen en una estructura de compensación (cuadrícula de compensación). Cuando se crea un plan de compensación fijo, se selecciona la estructura de compensación. La estructura de compensación también incluye el nivel de compensación. Cuando selecciona un plan de compensación fijo para un empleado, los niveles de compensación que están disponibles para la selección dependen del trabajo al que está asociado el puesto del empleado. Para obtener más información acerca de cómo configurar la compensación, consulte [Planes de compensación](hr-compensation-overview.md).
+Para asignar un plan de compensación fijo a un empleado que tiene un puesto en un trabajo, debe establecer niveles de compensación en el trabajo. El **Nivel de compensación** se utiliza cuando las cantidades mínima, media y máxima se establecen en una estructura de compensación (cuadrícula de compensación). Cuando se crea un plan de compensación fijo, se selecciona la estructura de compensación. La estructura de compensación también incluye el nivel de compensación. Cuando selecciona un plan de compensación fijo para un empleado, los niveles de compensación que están disponibles para la selección dependen del trabajo al que está asociado el puesto del empleado. Para obtener más información acerca de cómo configurar la compensación, consulte [Planes de compensación](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Aptitudes de trabajo
 Las habilidades laborales describen las habilidades que se requieren para realizar un trabajo. Un nivel de habilidad debe estar asociado con cada habilidad laboral. Los niveles de habilidad los define el usuario. Indican el nivel de conocimiento o competencia que se requiere para la habilidad. Por ejemplo, las empresas pueden configurar niveles numéricos, como del 1 al 5, donde **1** indica un principiante y **5** indica un experto. Alternativamente, las empresas pueden configurar niveles etiquetados **Principiante**, **Intermedio** o **Experto**. Una vez establecido el nivel de habilidad, también se puede establecer la importancia de la habilidad. Por ejemplo, si se requiere que un contador tenga un conocimiento sólido de Microsoft Excel, una habilidad que se llama **Conocimiento de Excel** se puede crear. A continuación, el nivel de habilidad se puede establecer en **Intermedio** y la importancia se puede establecer en **La mayoría**.

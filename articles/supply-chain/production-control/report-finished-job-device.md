@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569296"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778240"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Notificar como terminado desde el dispositivo de tarjetas de trabajo
 
@@ -218,7 +218,7 @@ Los procesos avanzados de almacén pueden usar la dimensión de la placa de matr
 
 Para usar las características que se describen en esta sección, debe usar [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar las siguientes características (en este orden):
 
-1. Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo
+1. Matrícula de entidad de almacén para informes de terminado agregada al dispositivo de tarjeta de trabajo (a partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de manera predeterminada).
 1. Habilitar la generación automática de matrícula de entidad de almacén al informar como terminado en el dispositivo de tarjetas de trabajo
 1. Imprimir etiqueta desde dispositivo de tarjeta de trabajo
 

@@ -1,8 +1,8 @@
 ---
 title: Trabajadores sin empleo
-description: Los trabajadores sin empleo futuro, activo ni histórico con su organización aparecen en el formulario Trabajadores sin empleo.
-author: andreabichsel
-ms.date: 04/06/2021
+description: Los trabajadores sin empleo futuro, activo ni histórico con su organización aparecen en la página Trabajadores sin empleo.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: ''
 ms.prod: ''
 ms.technology: ''
@@ -10,23 +10,23 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45841c35780960f524cc232dad16f94dbc8ec1c2df75fa2a5c2520e5522d4e3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d282c0fac00d6bc410717dd156aef9ffce352c6d
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724973"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771299"
 ---
 # <a name="workers-without-employment"></a>Trabajadores sin empleo
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Los trabajadores sin empleo futuro, activo ni histórico con su organización aparecen en el formulario **Trabajadores sin formulario de empleo**. Los trabajadores con este estado pueden aparecer cuando importa trabajadores sin un registro de empleo o cuando elimina el empleo de un trabajador a través de **Trabajadores > Historial de empleo**.
+Los trabajadores que no tienen empleo futuro, activo ni histórico con su organización aparecen en la página **Trabajadores sin empleo**. Los trabajadores de este tipo pueden aparecer cuando importa trabajadores que no tienen un registro de empleo o cuando elimina el empleo de un trabajador a través de **Trabajadores \> Historial de empleo**.
 
-De forma predeterminada, el formulario **Trabajadores sin empleo** está disponible para los siguientes roles:
+De forma predeterminada, la página **Trabajadores sin empleo** está disponible para los siguientes roles:
 
 - Ayudante de Recursos humanos
 - Director de Recursos humanos

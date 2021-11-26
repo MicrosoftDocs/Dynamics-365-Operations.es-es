@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746828"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777824"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Crear pedidos de transferencia desde la aplicación de almacén
 
@@ -36,7 +36,7 @@ Antes de poder usar esta característica, esta y sus requisitos previos deben es
 1. Luego habilite la característica *Crear pedidos de transferencia desde la aplicación de almacén*, que se enumera como:
     - **Módulo**: gestión de almacén
     - **Nombre de característica** - Crear y procesar pedidos de transferencia desde la aplicación de almacén
-1. Para automatizar el procesamiento de los envíos salientes, también debe habilitar la característica [Confirmar envíos salientes de trabajos por lotes](confirm-outbound-shipments-from-batch-jobs.md). Esta característica aparece como:
+1. Para automatizar el procesamiento de los envíos salientes, también debe habilitar la característica [Confirmar envíos salientes de trabajos por lotes](confirm-outbound-shipments-from-batch-jobs.md). A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla o deshabilitarla si es necesario. Aquí, la característica aparece como:
     - **Módulo**: gestión de almacén
     - **Nombre de la característica**: Confirmar envíos salientes desde trabajos por lotes
 

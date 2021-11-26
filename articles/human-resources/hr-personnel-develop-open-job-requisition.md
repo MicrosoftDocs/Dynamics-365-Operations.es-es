@@ -1,8 +1,8 @@
 ---
 title: Crear y abrir una solicitud de trabajo
 description: Los proyectos de contratación ayudan a gestionar el proceso de contratación.
-author: andreabichsel
-ms.date: 02/03/2021
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruiting
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df60f6461c52e45849d3de89fde4ae53f915dbc3cce417a30790acf443c5fecc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778781"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731570"
 ---
 # <a name="create-and-open-job-requisition"></a>Crear y abrir una solicitud de trabajo
 
@@ -39,7 +39,7 @@ Los proyectos de contratación ayudan a gestionar el proceso de contratación. D
 6. En la lista, busque y seleccione el registro.
 7. En la lista, seleccione el vínculo de la fila seleccionada.
 8. Elija **Seleccionar**.
-9. En el campo Departamento, seleccione el botón desplegable para abrir la búsqueda.
+9. En el campo **Departamento**, seleccione el botón desplegable para abrir la búsqueda.
 10. En la lista, seleccione el vínculo de la fila seleccionada.
 11. En el campo **Trabajo**, seleccione el botón desplegable para abrir la búsqueda.
 12. En la lista, busque y seleccione el registro.
@@ -58,10 +58,10 @@ Los proyectos de contratación ayudan a gestionar el proceso de contratación. D
 25. En el campo **Fecha final**, especifique una fecha.
 26. Seleccione **Guardar**.
 27. Cierre la página.
-28. Seleccione anuncios de trabajo.
+28. Seleccione **Anuncios de trabajo**.
 29. Seleccione **Guardar**.
 30. Cierre la página.
-31. Active o desactive la casilla **Mostrar en autoservicio para empleados**. Active la casilla **Mostrar en autoservicio para empleados**. Esta selección hace que el proyecto de contratación sea visible para los empleados en sus páginas de autoservicio para empleados.
+31. Active o desactive la casilla **Mostrar en autoservicio para empleados**. Active la casilla **Mostrar en autoservicio para empleados**. Esta selección hace que el proyecto de contratación sea visible para los empleados en su página **Autoservicio para empleados**.
 32. Seleccione **Estado de proyecto de contratación**.
 33. Seleccione **Inicio**. El estado **Iniciado** significa que el proyecto está listo para recibir las solicitudes.  
 34. Seleccione **Aceptar**.
