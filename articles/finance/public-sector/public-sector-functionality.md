@@ -1,7 +1,7 @@
 ---
 title: Página principal del sector público
-description: Dynamics 365 Finance admite los procesos de negocio del sector público. Entre estos se encuentran las tareas de presupuestación, compras, proveedores y clientes.
-author: ShylaThompson
+description: Dynamics 365 Finance admite los procesos de negocio del sector público. Entre estos procesos se encuentran las tareas de presupuestación, compras, proveedores y clientes.
+author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d9331b8a8af74f86febff1d72538efa24aa6978f41a4c6b21375d1d6c856267
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f59522ab857445d69012f4cfdfade47c40189266
+ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748918"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7817750"
 ---
 # <a name="public-sector-home-page"></a>Página principal del sector público
 

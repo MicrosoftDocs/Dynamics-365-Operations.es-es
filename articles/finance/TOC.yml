@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar Warehousing para implementaciones locales
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: Aplicaciones de Finance and Operations operadas por 21Vianet en China
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Aplicaciones de Finance and Operations en Francia
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Novedades y cambios
               items:
                 - name: Novedades y cambios de aplicaciones de Finance and Operations
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: Informe de vencimientos de clientes
               href: accounts-receivable/customer-aging.md
+            - name: Almacenamiento de datos de vencimiento de cliente
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Crear un diario de cancelaciones para un cliente
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Administración de notas avanzadas
@@ -780,13 +778,13 @@
               items:
                 - name: Convenciones de depreciación
                   href: fixed-assets/Fixed-asset-depreciation-conventions.md
-                - name: Depreciación con amortización degresiva del 125%
+                - name: "Depreciación con amortización degresiva del 125\_%"
                   href: fixed-assets/125-percent-reducing-balance-depreciation.md
-                - name: Depreciación con amortización degresiva del 150%
+                - name: "Depreciación con amortización degresiva del 150\_%"
                   href: fixed-assets/150-percent-reducing-balance-depreciation.md
-                - name: Depreciación con amortización degresiva del 175%
+                - name: "Depreciación con amortización degresiva del 175\_%"
                   href: fixed-assets/175-percent-reducing-balance-depreciation.md
-                - name: Depreciación con amortización degresiva del 200%
+                - name: "Depreciación con amortización degresiva del 200\_%"
                   href: fixed-assets/200-percent-reducing-balance-depreciation.md
                 - name: Metodología de la convención de depreciación semestral
                   href: fixed-assets/half-year-depreciation-methodology.md
@@ -1476,6 +1474,10 @@
                           items:
                             - name: Declaración de IVA
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Informes de Alemania
+                          items:
+                            - name: Declaración de IVA
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Informes de los Países Bajos
                           items:
                             - name: Declaración de IVA
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Ajustes de depreciación para adquisiciones adicionales en el segundo año
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: Declaración de IVA
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: Transmisión electrónica de la declaración de IVA (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Intrastat alemán
                   href: localizations/emea-deu-intrastat.md
-                - name: Declaración de IVA para Alemania
+                - name: Declaración de IVA
                   href: localizations/emea-de-vat-declaration.md
                 - name: Informe de facturas electrónicas de clientes
                   href: localizations/emea-deu-e-invoices.md

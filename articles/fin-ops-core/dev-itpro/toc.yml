@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: 'Ampliar, personalizar y colaborar en la ayuda'
                   href: help/contributor-guide.md
+            - name: Consideraciones sobre la implementación
+              items:
+                - name: Opciones de implementación de nube soberana y local para Dynamics 365 Finance y Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance y Supply Chain Management en US Government Community Cloud (GCC)
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance y Supply Chain Management operadas por 21Vianet en China
+                  href: deployment/china-local-deployment.md
+                - name: Aplicaciones de Finance and Operations en Francia
+                  href: deployment/france-local-deployment.md
         - name: Desarrollar y personalizar
           items:
             - name: Página principal de Desarrollar y personalizar
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Actualizar al modelo de parte y de libreta de direcciones global
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Ver datos de parte
+                      href: data-entities/dual-write/view-party.md
                     - name: Integración de notas
                       href: data-entities/dual-write/notes-integration.md
                     - name: Referencia de asignación
@@ -1584,7 +1596,7 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Crear trabajos por lotes
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Habilitación de reintentos automáticos en trabajos por lotes
+                - name: Habilitar reintentos por lotes
                   href: sysadmin/retryable-batch.md
                 - name: Copiar un trabajo por lotes
                   href: sysadmin/copy-batch-job.md
