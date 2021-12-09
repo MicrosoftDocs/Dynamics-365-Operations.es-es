@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: e84df8aa4f3e4079cf97d35b0d67a75d68dbb4b2
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678698"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860542"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -111,7 +111,8 @@ Cuando un trabajador completa (o completa parcialmente) un trabajo, puede notifi
 
 ## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Informar buenas cantidades en pedidos de lotes que tienen coproductos y subproductos
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] 
+<!--KFM: Preview until GA with 10.0.23 -->
 
 Los trabajadores pueden utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes. Estos informes incluyen coproductos y productos derivados.
 

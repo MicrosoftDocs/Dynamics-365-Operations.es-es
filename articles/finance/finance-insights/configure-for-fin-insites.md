@@ -2,7 +2,7 @@
 title: Configuración de Finance Insights
 description: Este tema explica los pasos de configuración que permitirán que su sistema utilice las capacidades que están disponibles en Finance Insights.
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752987"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827037"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuración de Finance Insights
 
@@ -43,14 +43,34 @@ Para implementar los entornos, siga estos pasos.
 
 2. Si está configurando Finance Insights en un entorno de espacio aislado, es posible que deba copiar los datos de producción en ese entorno para que funcionen las predicciones. El modelo de predicción utiliza varios años de datos para generar predicciones. Los datos de la demostración de Contoso no contienen suficientes datos históricos para entrenar adecuadamente el modelo de predicción. 
 
+## <a name="configure-your-azure-ad-tenant"></a>Configurar el inquilino de Azure AD
+
+Azure Active Directory (Azure AD) debe configurarse para que se pueda utilizar con Dataverse y las aplicaciones de Microsoft Power Platform. Esta configuración requiere la asignación del rol **Propietario del proyecto** o **Administrador del entorno** al usuario en el campo **Rol de seguridad del proyecto** en LCS.
+
+Verifique que se complete la siguiente configuración:
+
+- Usted tiene acceso de **Administrador de sistema** y **Personalizador del sistema** en el Centro de administración de Power Portal.
+- Se aplica una licencia de Dynamics 365 Finance o equivalente al usuario que está instalando el complemento Finance Insights.
+
+Las siguientes aplicaciones de Azure AD están registradas en Azure AD.
+
+|  Solicitud                             | Id. de aplicación                               |
+|------------------------------------------|--------------------------------------|
+| CDS de microservicios de Microsoft Dynamics ERP | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>Configurar Dataverse
 
 Siga estos pasos para configurar Dataverse para Finance Insights.
 
 - En LCS, abra la página del entorno y verifique que la sección **Integración de Power Platform** ya está configurada.
 
-    - Si ya está configurada, el nombre del entorno de Dataverse vinculado al entorno de Finance debe enumerarse.
-    - Si aún no está configurado, seleccione **Configuración**. La configuración del entorno Dataverse puede tardar hasta una hora. Cuando termine la configuración, el entorno de Dataverse vinculado al entorno de Finance deberá mostrarse.
+    - Si Dataverse ya se ha configurado, el nombre del entorno de Dataverse vinculado al entorno de Finance debe enumerarse.
+    - Si aún no se ha configurado Dataverse, seleccione **Configuración**. La configuración del entorno Dataverse puede tardar hasta una hora. Cuando termine la configuración, el entorno de Dataverse vinculado al entorno de Finance deberá mostrarse.
+    - Si esta integración se configuró con un entorno de Microsoft Power Platform, póngase en contacto con su administrador para asegurarse de que el entorno vinculado no está en el estado deshabilitado.
+
+        Para obtener más información, consulte la sección [Habilitar la integración de Power Platform](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md). 
+
+        Para acceder al sitio de administración de Microsoft Power Platform, vaya a <https://admin.powerplatform.microsoft.com/environments>.
 
 ## <a name="configure-the-finance-insights-add-in"></a>Configurar el complemento Finance Insights
 

@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: b29bb1aea9e96b5ef39303025cb286f0d1fde12c
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 0130aef7212256a11ca9d27ffdd4af7a0aa6d98c
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678892"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860442"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Libro mayor de contabilidad de inventario global
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 La contabilidad de inventario global tiene su propio conjunto de libros mayores. Cada vez que se procesa una transacción relacionada con el inventario para una entidad legal relevante, el sistema puede contabilizar esa transacción en cualquier número de libros de contabilidad de inventario global, según sea necesario.
 

@@ -10,12 +10,12 @@ ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 69abd2b6d4026ef1b5b85d52c561bb060cf82123
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781473"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817370"
 ---
 # <a name="dual-write-overview"></a>Visión general de la doble escritura
 
@@ -68,11 +68,7 @@ La doble escritura crea una asignación entre conceptos en aplicaciones de Finan
 + Capacidad para buscar disponibilidad de inventario disponible y detalles
 + Experiencia cliente potencial a efectivo
 + Capacidad para manejar múltiples direcciones y roles a través del concepto de parte
-+ Gestión de fuente única para usuarios
-+ Canales integrados para venta minorista y comercialización
-+ Visibilidad de promociones y descuentos
-+ Funciones de solicitud de servicio
-+ Operaciones de servicio optimizadas
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>Principales razones para usar doble escritura
 

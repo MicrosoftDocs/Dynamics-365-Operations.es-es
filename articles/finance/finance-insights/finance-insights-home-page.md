@@ -2,7 +2,7 @@
 title: Página principal de Finance Insights
 description: Finance Insights proporciona modelos configurables y extensibles para ayudarle a predecir con precisión e inteligencia el flujo de efectivo de su empresa, predecir cuándo recibirá los pagos pendientes y generar una propuesta de presupuesto que puede acelerar su proceso de presupuestación. Todas estas características se basan en modelos de Machine Learning inteligentes.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3c6320043000dc07eea3128a10c16cfd54b13334
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752865"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813756"
 ---
 # <a name="finance-insights-home-page"></a>Página principal de Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights proporciona modelos configurables y extensibles para ayudarle a predecir con inteligencia el flujo de efectivo de su empresa, predecir cuándo recibirá los pagos pendientes y generar una propuesta de presupuesto que puede acelerar su proceso de presupuestación. Todas estas características se basan en modelos de Machine Learning inteligentes. Cuando estas nuevas capacidades se combinan con la automatización en los pagos y cobros de proveedores, brindan un sistema financiero rico e inteligente que impulsa la toma de decisiones y le ayuda a tomar medidas para responder de manera efectiva a los desafíos comerciales actuales y anticipados.
+Finance Insights proporciona soluciones configurables y extensibles para ayudarle a predecir con inteligencia el flujo de efectivo de su empresa, predecir cuándo recibirá los pagos pendientes y generar una propuesta de presupuesto que puede ayudar a acelerar su proceso de presupuestación. Estas funciones utilizan plantillas inteligentes de aprendizaje automático para crear modelos con los datos que usted proporciona (incluidos los datos de terceros, como información de informes de consumidores de un servicio de información). Estas capacidades inteligentes informan la toma de decisiones y lo ayudan a tomar medidas para responder de manera efectiva a los desafíos comerciales actuales y anticipados. Usted es responsable de todos los datos que se utilicen o procedan de Finance Insights.
 
 > [!NOTE]
 > La versión preliminar pública de Finance Insights está disponible para la implementación en los Estados Unidos de América, Canadá, Reino Unido, Europa, Asia Pacífico, Japón, Australia y Nueva Zelanda. Microsoft está agregando gradualmente soporte para más regiones.

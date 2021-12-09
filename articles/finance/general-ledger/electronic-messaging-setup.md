@@ -2,7 +2,7 @@
 title: Configurar mensajes electrónicos
 description: Este tema proporciona información sobre cómo configurar la funcionalidad de mensajes electrónicos (EM).
 author: liza-golub
-ms.date: 07/07/2021
+ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2b62efabfae26a6cc004604e687a49bce992d78a30f0d441aa74fa5cde70e063
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752184"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860567"
 ---
 # <a name="set-up-electronic-messages"></a>Configurar mensajes electrónicos
 
@@ -34,6 +34,7 @@ Si no importa un paquete de entidad de datos, puede configurar manualmente la fu
 - [Campos adicionales](#additional)
 - [Configuración de clase ejecutable](#executable)
 - [Acciones de llenado de registros](#populate)
+- [Rellenar registros de varias empresas](#multiple-companies-populate)
 - [Aplicaciones web](#applications)
 - [Configuración de servicio web](#settings)
 - [Acciones de procesamiento de mensajes](#actions)
@@ -139,6 +140,38 @@ En la ficha desplegable **Configuración de orígenes de datos**, agregue una l�
 | Empresa                | Este campo está disponible cuando la función **Consultas entre empresas para las acciones de rellenar registros** está activada en el espacio de trabajo **Gestión de funciones**. Utilice esta función para configurar fuentes de datos entre empresas para las acciones de rellenar registros. Los datos se pueden obtener de varias empresas. |
 | Consulta de usuario             | <p>Si configura una consulta seleccionando **Editar consulta** encima de la cuadrícula y usted especifica los criterios que deben aplicarse a la tabla maestra seleccionada desde la que se completan los datos, esta casilla de verificación se selecciona automáticamente. Si no, todos los registros se rellenan desde el origen de la tabla maestra seleccionada.</p><p>Cuando la función **Consultas entre empresas para las acciones de rellenar registros** está activada en el espacio de trabajo **Gestión de funciones** y los registros deben recopilarse de varias empresas, agregue una línea para cada entidad legal adicional que deba incluirse en los informes. Para cada nueva línea, seleccione **Editar consulta** y especifique un criterio relacionado que sea específico de la entidad jurídica que se especifica en el campo **Empresa** en la línea. Cuando haya terminado, la cuadrícula **Configuración de fuentes de datos** contendrá líneas para todas las entidades legales que deben incluirse en los informes.</p> |
 
+## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a>Rellenar registros de varias empresas
+
+Si su empresa debe informar de varias entidades legales en la misma base de datos de Finance, configure las acciones [rellenar acciones de registro](#populate) para todas las personas jurídicas cuyos datos deben incluirse en la presentación de informes.
+
+Para habilitar esta capacidad en su entorno de Finance, siga estos pasos. 
+
+1. Vaya a **Espacios de trabajo** \> **Administración de características**.
+2. Busque y seleccione la característica **Consultas entre empresas para las acciones de rellenar registros** en la lista.
+3. Seleccione **Habilitar ahora**. 
+
+Para configurar las [acciones de rellenar registros](#populate) para varias empresas de las que se deben incluir datos en los informes, siga estos pasos.
+
+1. Vaya a **Impuestos** \> **Configuración** \> **Mensajes electrónicos** \> **Acciones de rellenar registros**.
+
+    Cuando la característica **Consultas entre empresas para las acciones de rellenar registros** está habilitada, la cuadrícula **Configuración de orígenes de datos** en la página **Acción de rellenar registros** incluye un campo **Empresa**. Para registros existentes que se crearon durante la configuración general de las [acciones de rellenar registros](#populate), este campo muestra el identificador de la entidad jurídica actual.
+
+2. En la cuadrícula **Configuración de orígenes de datos**, agregue una línea para cada entidad legal subsidiaria que deba incluirse en los informes y establezca los siguientes campos.
+
+    | Nombre de campo             | Valor |
+    |------------------------|-------|
+    | Name                   | Ingrese un valor de texto que le ayude a comprender de dónde proviene este registro. Por ejemplo, ingrese **Nombre de la fuente de datos: subsidiaria 1**. |
+    | Tipo de elemento de mensaje      | Seleccione el tipo de elemento de mensaje que se requiere para su procesamiento de EM. |
+    | Tipo de cuenta           | Especifique el tipo de cuenta que se requiere para su procesamiento de EM. Si su procesamiento de EM no tiene tipos de cuenta específicos, seleccione **Todos**. |
+    | Nombre de la tabla principal      | Especifique el nombre de la tabla maestra que se requiere para su procesamiento de EM. |
+    | Campo de número de documento  | Especifique el campo que contiene el número de documento en los registros de su procesamiento de EM. |
+    | Campo de fecha de documento    | Especifique el campo que contiene la fecha de documento en los registros de su procesamiento de EM. |
+    | Campo de cuenta de documento | Especifique el campo que contiene la cuenta de documento en los registros de su procesamiento de EM. |
+    | Empresa                | Seleccione el ID de la entidad jurídica subsidiaria. |
+    | Consulta de usuario             | Esta casilla de verificación se selecciona automáticamente cuando define criterios seleccionando **Editar consulta**. |
+
+3. Para cada nueva línea, seleccione **Editar consulta** y especifique criterios relacionados para la entidad legal que se especifica en el campo **Empresa** en la línea.
+
 ## <a name="web-applications"></a><a id="applications"></a>Aplicaciones web
 
 Use los valores de la aplicación web para configurar una aplicación web de modo que admita Open Authorization (OAuth) 2.0. OAuth es el estándar abierto que permite a los usuarios conceder "acceso seguro delegado” a la aplicación en su nombre, sin compartir sus credenciales de acceso. También puede pasar por el proceso de autorización obteniendo un código de autorización y un token de acceso. Puede configurar los parámetros de aplicaciones web yendo a **Impuestos** \> **Configuración** \> **Mensajes electrónicos** \> **Aplicaciones Web**.
@@ -214,6 +247,7 @@ Las siguientes tablas describen los campos de la página **Acciones de procesami
 | Clase ejecutable                          | Seleccione una configuración de clase ejecutable existente. Este campo solo está disponible para las acciones del tipo **Nivel de ejecución de elemento de mensaje** y **Nivel de ejecución de elemento de mensaje**. |
 | Acción de llenado de registros                   | Seleccione una acción de rellenar registros existente. Este campo solo está disponible para las acciones del tipo **Rellenar registros** . |
 | Servicio web                               | Seleccione un servicio web existente. Este campo solo está disponible para las acciones del tipo **Servicio web**. |
+| Nombre de archivo que se enviará                         | Ingrese el nombre del archivo adjunto a un mensaje electrónico que debe enviarse mediante esta acción. Si varios archivos adjuntos tienen el mismo nombre de archivo original, se enviará el más nuevo. Si no se encuentra ningún archivo adjunto que tenga el nombre de archivo original especificado, la solicitud se enviará sin contenido. Este campo solo está disponible para las acciones del tipo **Servicio web**. |
 | Nombre de archivo                                 | Especifique el nombre del archivo que será el resultado de la acción. Este archivo puede ser la respuesta del servidor Web o del informe que se ha generado. Este campo solo está disponible para las acciones de los tipos **Servicio web** y **Mensaje de la exportación del informe electrónico**. |
 | Adjuntar archivos a documentos de origen          | Seleccione esta casilla de verificación para adjuntar archivos generados a registros en una tabla maestra referenciada para elementos EM. Este campo solo está disponible para las acciones de los tipos **Servicio web** y **Exportación del informe electrónico**. |
 | Adjuntar archivos desde archivo de salida a elementos | Seleccione esta casilla de verificación para extraer archivos XML separados del archivo de salida y adjuntarlos a los elementos de mensaje electrónico correspondientes. Este campo solo está disponible para las acciones del tipo **Exportación del informe electrónico**. |

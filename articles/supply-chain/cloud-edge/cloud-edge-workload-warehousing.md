@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641170"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813735"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -290,7 +290,8 @@ La siguiente tabla resume qué escenarios de producción de gestión de almacene
 |---------|-----|------------------------------|
 | Ubicación de bienes terminados y notificados como terminados | Sí | Sí |
 | Ubicación de coproducto y producto derivado | Sí | Sí |
-| <p>Todos los demás procesos de gestión de almacenes están relacionados con la producción, incluyendo:</p><li>Liberar al almacén</li><li>Procesamiento de oleadas de producción</li><li>Picking de materia prima</li><li>Ubicación de kanban</li><li>Picking de kanban</li><li>Iniciar pedido de producción</li><li>Residuo de producción</li><li>Último pallet de producción</li><li>Registrar lista de selección</li><li>Vaciar kanban</li></ul> | Sí | No |
+| Iniciar pedido de producción | Sí | Sí |
+| <p>Todos los demás procesos de gestión de almacenes están relacionados con la producción, incluyendo:</p><li>Liberar al almacén</li><li>Procesamiento de oleadas de producción</li><li>Picking de materia prima</li><li>Ubicación de kanban</li><li>Picking de kanban</li><li>Residuo de producción</li><li>Último pallet de producción</li><li>Registrar lista de selección</li><li>Vaciar kanban</li></ul> | Sí | No |
 | Reabastecimiento de materias primas | No | No |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Mantener unidades de escalado para la ejecución de almacén
