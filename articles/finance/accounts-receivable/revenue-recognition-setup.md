@@ -2,7 +2,7 @@
 title: Configuración de reconocimiento de ingresos
 description: En este tema se describen las opciones de configuración para el reconocimiento de ingresos y sus implicaciones.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675210"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867229"
 ---
 # <a name="revenue-recognition-setup"></a>Configuración de reconocimiento de ingresos
 [!include [banner](../includes/banner.md)]
@@ -61,7 +61,7 @@ El primer caso se produce después de que se han cumplido todas las obligaciones
 
 El segundo caso se produce cuando se crea un diario tras producirse la reasignación. La reasignación se produce cuando se agrega una línea de pedido de ventas a un pedido de ventas previamente facturado, o cuando se crea un pedido de ventas nuevo que incluye una línea que forma parte del contrato original. Si una factura se registra antes de que se agregue la nueva línea de pedido de ventas, se debe crear una entrada contable correctiva para la factura de cliente registrada.
 
-El diario se configura en la página **Nombres de diarios** (**Reconocimiento de ingresos \> Configuración \> Nombres de diarios**). El tipo de diario se debe establecer en **Reconocimiento de ingresos**. El diario de reconocimiento de ingresos permite seleccionar la capa de registro en la que se va a registrar.
+El diario se configura en la página **Nombres de diarios** (**Reconocimiento de ingresos \> Configuración \> Nombres de diarios**). El tipo de diario se debe establecer en **Reconocimiento de ingresos**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Parámetros para el reconocimiento de ingresos
 

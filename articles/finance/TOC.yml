@@ -70,12 +70,12 @@
                   items:
                     - name: Novedades y cambios en la página principal de Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24 (febrero)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23 (enero)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (noviembre de 2021)
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: Finance 10.0.21 (octubre de 2021)
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Información general de la gestión presupuestaria
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: Fondos presupuestarios disponibles
+              href: budgeting/budget-funds-available.md
             - name: Previsión de puestos
               href: budgeting/position-forecasting.md
             - name: Documentos de justificación de la planificación presupuestaria
@@ -1434,16 +1436,26 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Configurar la facturación electrónica
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: Referencia de administrador del complemento de Power Platform
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Preguntas frecuentes sobre facturación electrónica
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Cálculo de impuestos
                   items:
                     - name: Información general del cálculo de impuestos
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Configurar
+                    - name: Configuración
                       items:
                         - name: Introducción al cálculo de impuestos
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Configurar códigos de impuestos
+                          href: localizations/set-up-tax-codes.md
+                        - name: Configurar grupos de impuestos
+                          href: localizations/set-up-tax-groups.md
+                        - name: Configurar grupos de impuestos de artículos
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: Cálculos de impuestos de importación y exportación
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Configurar un entorno para la búsqueda de datos maestros
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Determinación
@@ -2594,6 +2606,8 @@
               items:
                 - name: Información general para Indonesia
                   href: localizations/indonesia.md
+                - name: Numeración y facturación de facturas de impuestos
+                  href: localizations/apac-idn-invoicing.md
                 - name: Declaración de IVA para Indonesia
                   href: localizations/apac-idn-ppn-declaration.md
             - name: Italia
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Facturas electrónicas de clientes
                   href: localizations/emea-ita-e-invoices.md
+                - name: Facturas electrónicas de proveedores
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Comunicación de impuestos anual
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Trazabilidad de pagos
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: Declaración de IVA
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: Devolución de IVA con envío directo a Altinn
+                  items:
+                    - name: Información general de devolución de IVA con envío directo a Altinn
+                      href: localizations/emea-nor-vat-return.md
+                    - name: Registrar un punto de integración en el portal web ID-porten
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: Preparar su entorno para interoperar con los servicios web ID-porten y Altinn
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: Lista de comprobación para la configuración de mensajes electrónicos para devolución de IVA
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: Autorizar su entorno de Finance para interoperar con los servicios web ID-porten y Altinn
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: Enviar una declaración de IVA al servicio web de Altinn
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Archivo de auditoría estándar para impuestos (SAF-T) para Noruega
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Facturas electrónicas de clientes en Noruega
@@ -3831,6 +3861,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
                     - name: List
                       items:
                         - name: Funciones de lista

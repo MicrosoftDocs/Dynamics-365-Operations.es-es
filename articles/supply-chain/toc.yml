@@ -70,7 +70,9 @@
                   items:
                     - name: Novedades y cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.23
+                    - name: Supply Chain Management 10.0.24 (febrero de 2022)
+                      href: get-started/whats-new-scm-10-0-24.md
+                    - name: Supply Chain Management 10.0.23 (enero de 2022)
                       href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (noviembre de 2021)
                       href: get-started/whats-new-scm-10-0-22.md
@@ -947,6 +949,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
                     - name: List
                       items:
                         - name: Funciones de lista
@@ -3753,7 +3757,7 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gestión de almacenes
               items:
-                - name: Aplicación móvil Warehouse
+                - name: Warehouse mobile app
                   items:
                     - name: No se encontró el ancla de confianza para la ruta de certificación al configurar la conexión de la aplicación
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
